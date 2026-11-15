@@ -6,7 +6,7 @@
 (function (root) {
   "use strict";
 
-  const DB_NAME = "the_handyman_accountancy_v273_clean_idb";
+  const DB_NAME = "the_handyman_accountancy_r11_preview_idb";
   const DB_VERSION = 1;
   const STORE = "records";
   const META = "metadata";
