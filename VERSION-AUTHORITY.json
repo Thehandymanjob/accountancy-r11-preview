@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "purpose": "R11 version authority; do not select or modify an app build unless this record is verified first.",
+  "repository": "Thehandymanjob/accountancy-r11-preview",
+  "protectedBranch": "main",
+  "app": {
+    "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+    "version": "273",
+    "buildId": "THA-273-R11-PREVIEW-20261115-R5",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R5&utm_source=chatgpt.com",
+    "indexBlobSha": "6dcb57bc2406d0fbdc7d17349c28788124b70003",
+    "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88"
+  },
+  "rules": {
+    "neverSelectByHighestVersionNumberAlone": true,
+    "requireExactRepositoryAndBranch": true,
+    "requireBuildIdMatch": true,
+    "requireCanonicalUrlMatch": true,
+    "requireIndexBlobShaMatch": true,
+    "requireApprovedBaseCommitAncestor": true,
+    "stopOnAnyMismatch": true,
+    "doNotChangeCanonicalUrls": true
+  },
+  "note": "The root version.json, if present, is separate metadata and is not used as authority for this R11 page. The R11 page's own HTML metadata and Git blob SHA are authoritative for this path."
+}
