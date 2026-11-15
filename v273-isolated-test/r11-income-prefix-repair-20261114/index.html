@@ -1620,36 +1620,10 @@ function nextInvoiceNumber(){return 'INV'+String(Math.max(highestInvoiceNumber()
 function highestEntrySequence(type){const prefix=type==='income'?'IN':'E',key=type==='income'?'incomeSequence':'expenseSequence';return Math.max(0,Number(db[key])||0,...(Array.isArray(db.entries)?db.entries.filter(e=>e&&e.type===type).map(e=>{const m=String(e.number??'').trim().match(new RegExp('^(?:'+prefix+')?(\\d+)$','i'));return m?Number(m[1]):0}):[]))}
 function nextEntryRecordNumber(type){const key=type==='income'?'incomeSequence':'expenseSequence',prefix=type==='income'?'IN':'E',n=highestEntrySequence(type)+1;db[key]=n;return prefix+String(n).padStart(3,'0')}
 function repairMissingEntryNumbers(){
- let changed=false;
- const entries=Array.isArray(db.entries)?db.entries:[];
- const type='income',prefix='IN',key='incomeSequence';
- const ordered=entries.filter(e=>e&&e.type===type).sort((a,b)=>String(a.date||'').localeCompare(String(b.date||''))||String(a.createdAt||'').localeCompare(String(b.createdAt||''))||String(a.id||'').localeCompare(String(b.id||'')));
- const reserved=new Set();
- for(const entry of ordered){
-  const m=String(entry.number??'').trim().match(/^IN([0-9]+)$/i);
-  if(m)reserved.add(Number(m[1]));
- }
- let next=Math.max(highestEntrySequence(type),...reserved,0)+1;
- for(const entry of ordered){
-  const raw=String(entry.number??'').trim();
-  if(/^IN[0-9]+$/i.test(raw))continue;
-  const bare=raw.match(/^([0-9]+)$/);
-  if(bare){
-   const suffix=Number(bare[1]);
-   if(suffix>0&&!reserved.has(suffix)){
-    entry.number=prefix+bare[1];
-    reserved.add(suffix);
-    changed=true;
-    continue;
-   }
-  }
-  while(reserved.has(next))next++;
-  entry.number=prefix+String(next).padStart(3,'0');
-  reserved.add(next++);
-  changed=true;
- }
- db[key]=Math.max(Number(db[key])||0,...reserved,0);
- return changed;
+ // Historical record numbers are immutable. Startup must never rewrite, prefix,
+ // renumber, or assign numbers to existing income or expense records.
+ // New records receive numbers only through nextEntryRecordNumber().
+ return false;
 }
 async function reserveRecordNumber(value){const num=invoiceNumericSuffix(value);if(num<=0)return;const controller=window.HandymanAccountingV264;if(!controller)throw new Error('IndexedDB accounting controller is unavailable.');const reserved=await controller.reserveInvoiceNumber(num);db.invoiceSequence=Math.max(Number(db.invoiceSequence)||0,Number(reserved)||0);if(typeof logMonitorEvent==='function')logMonitorEvent('activity','invoice_number_reserved','invoice',String(reserved),'success',{number:'INV'+String(reserved).padStart(3,'0')});return reserved}
 function renderInvoiceLineItems(items){const host=$("invoiceLineItems");if(!host)return;const list=(Array.isArray(items)?items:[]).slice(0,4);host.innerHTML=Array.from({length:4},(_,n)=>{const x=list[n]||{};return `<div class="invoice-line-item"><div><label for="invItemDesc${n}">Work item ${n+1}</label><textarea id="invItemDesc${n}" placeholder="Describe this part of the work" oninput="syncInvoiceItems()">${esc(x.description||"")}</textarea></div><div><label for="invItemPrice${n}">Price (£)</label><input id="invItemPrice${n}" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0.00" value="${x.price==null?"":esc(x.price)}" oninput="updateInvoiceTotal()"></div></div>`}).join("")}
@@ -1678,11 +1652,14 @@ function editInvoice(id){const i=db.invoices.find(x=>x.id===id);if(!i||i.deleted
 function invoiceAmounts(i){let subtotal=Array.isArray(i.items)&&i.items.length?i.items.reduce((n,x)=>n+(Number(x.price)||0),0):(Number(i.qty)||0)*(Number(i.unitPrice)||0);subtotal=Math.round(subtotal*100)/100;const rate=i.vat==='none'?0:Number(i.vat)||0;const vat=Math.round(subtotal*rate)/100;return{subtotal,vat,total:subtotal+vat}}
 function updateInvoiceTotal(){const items=readInvoiceItems(),subtotal=items.length?items.reduce((n,x)=>n+x.price,0):(Number($('invQty').value)||0)*(Number($('invUnitPrice').value)||0),rate=$('invVat').value==='none'?0:Number($('invVat').value)||0;$('invTotalPreview').textContent=money(Math.round((subtotal+subtotal*rate/100)*100)/100)}
 async function saveInvoice(){
- const draft=$('invStatus').value==='draft',number=formatInvoiceNumber($('invNumber').value),numberValue=invoiceNumericSuffix(number),date=$('invDate').value,name=$('invBillName').value.trim(),phone=$('invPhone').value.trim(),billingAddress=$('invBillAddress').value.trim(),workAddress=$('invWorkAddress').value.trim(),items=readInvoiceItems(),description=$('invDescription').value.trim()||items.map(x=>x.description).filter(Boolean).join('\n'),qty=1,unitPrice=items.reduce((n,x)=>n+x.price,0);
- if(!numberValue||!date||!name||(!description&&!items.length)||!items.length){alert('Enter a valid invoice number, date, customer name, work description and at least one priced work item.');return false}
  const editingId=$('invoiceId').value;
- if(db.invoices.some(i=>invoiceNumericSuffix(i.number)===numberValue&&i.id!==editingId)){alert('That number is already in use by an invoice or income record.');return false}
- const id=$('invoiceId').value||`i-${Date.now()}-${Math.random().toString(36).slice(2,6)}`,prev=db.invoices.find(x=>x.id===id);
+ const prev=editingId?db.invoices.find(x=>String(x.id)===String(editingId)):null;
+ if(editingId&&!prev){alert('The invoice being edited could not be found. No invoice number was changed.');return false}
+ // Existing invoices keep their exact stored number. The editable field is used only for new invoices.
+ const draft=$('invStatus').value==='draft',number=prev?String(prev.number??''):formatInvoiceNumber($('invNumber').value),numberValue=invoiceNumericSuffix(number),date=$('invDate').value,name=$('invBillName').value.trim(),phone=$('invPhone').value.trim(),billingAddress=$('invBillAddress').value.trim(),workAddress=$('invWorkAddress').value.trim(),items=readInvoiceItems(),description=$('invDescription').value.trim()||items.map(x=>x.description).filter(Boolean).join('\n'),qty=1,unitPrice=items.reduce((n,x)=>n+x.price,0);
+ if(!numberValue||!date||!name||(!description&&!items.length)||!items.length){alert('Enter a valid invoice number, date, customer name, work description and at least one priced work item.');return false}
+ if(db.invoices.some(i=>invoiceNumericSuffix(i.number)===numberValue&&String(i.id)!==String(editingId))){alert('That number is already in use by an invoice or income record.');return false}
+ const id=editingId||`i-${Date.now()}-${Math.random().toString(36).slice(2,6)}`;
  let customer=customerById($('invCustomer').value),customersChanged=false;
  if(!customer){
    const norm=v=>String(v||'').trim().replace(/\s+/g,' ').toLocaleLowerCase();
