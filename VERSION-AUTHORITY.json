@@ -8,7 +8,7 @@
     "version": "273",
     "buildId": "THA-273-R11-PREVIEW-20261116-R13",
     "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R13",
-    "indexBlobSha": "18702978b7856c2ba7760fb226c64feb4cf7351b",
+    "indexBlobSha": "e65319684ab5223eff086b5dba842ac94d97dd7e",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "18702978b7856c2ba7760fb226c64feb4cf7351b",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "e65319684ab5223eff086b5dba842ac94d97dd7e",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462"
     }
   },
@@ -575,6 +575,45 @@
       "userSafariTest": {
         "result": "not tested",
         "details": "Awaiting user iPhone Safari verification of the Last Updated banner and Version Details after refresh and reopen."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting user Safari test and explicit approval."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-16-VERSION-LAST-UPDATED-ACTIONS-RUNS-009",
+      "dateStarted": "2026-11-16",
+      "purpose": "Fix the Preview Last Updated fallback by reading repository-wide Actions runs and filtering the exact successful GitHub Pages deployment workflow. Both banner and Version Details continue using one shared cached timestamp service. Preview only.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "f5b3dd1fff70a72d5df7e7794235ccfc9b4ce189",
+      "previewPullRequestNumber": 29,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/29",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "V8 syntax parsing passed. The repository-wide Actions runs endpoint was independently verified to contain the successful Pages deployment run; simulated failure of Pages-build lookup followed by Actions-runs fallback returned the exact ISO timestamp 2026-11-16T20:30:30Z and both expected Europe/London display formats. Live iPhone Safari verification remains pending."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting Preview PR merge and Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting iPhone Safari verification of the Preview banner and Version Details timestamps."
       },
       "userApproval": {
         "result": "pending",

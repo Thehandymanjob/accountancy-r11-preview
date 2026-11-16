@@ -965,9 +965,10 @@ body.pr-report-preview-open{overflow:hidden!important;position:relative!importan
 </head>
 <body><div id="r11TestVersionBanner" role="status" aria-label="نسخه آزمایشی؛ این نسخه برنامه اصلی نیست"><div class="r11-test-title"><span class="r11-test-fa" lang="fa" dir="rtl">نسخه آزمایشی</span><span aria-hidden="true">|</span><span class="r11-test-en">TEST VERSION — NOT PRODUCTION</span></div><span id="r11TestLastUpdated" class="r11-test-updated" lang="fa" dir="rtl">آخرین به‌روزرسانی: در حال دریافت…</span></div><section id="appLauncher" aria-label="Main menu"><div class="launcher-inner"><div class="launcher-brand"><img id="launcherBusinessLogo" class="launcher-logo" alt="Your business logo" hidden><h1 id="launcherName">The Handyman Accountancy</h1><p>Accounting and project management</p></div><div class="launcher-actions"><button class="launcher-action primary" onclick="openAccountancy()"><span class="launch-icon">🧾</span><span><strong>Accountancy</strong><small>Income, expenses, invoices and reports</small></span><span class="launch-arrow">›</span></button><button class="launcher-action" onclick="openProjectsApp()"><span class="launch-icon">💼</span><span><strong>Business Workspace</strong><small>Projects, Company Contracts &amp; Jobs, and Control Panel</small></span><span class="launch-arrow">›</span></button><button class="launcher-action" onclick="openContractsApp()"><span class="launch-icon">📝</span><span><strong>Contract Management</strong><small>Create, edit and manage contracts and quotations</small></span><span class="launch-arrow">›</span></button><button class="launcher-action" onclick="openSettingsHub()"><span class="launch-icon">⚙️</span><span><strong>Settings</strong><small>Backup, restore, profile and logo</small></span><span class="launch-arrow">›</span></button></div><div id="accountingStartupDiagnostic" role="alert" hidden style="margin:14px 0 0;padding:12px;border:1px solid #a52d39;border-radius:10px;background:#fdebec;color:#8d1e2a;font-size:13px;line-height:1.5;overflow-wrap:anywhere"></div><div class="launcher-foot">Your records stay on this device. Keep regular backups.</div></div></section>
 <script>
-/* R14 diagnostic-safe deployment timestamp service.
+/* Preview deployment timestamp service.
    One shared request/cache feeds both the preview banner and Version Details.
-   Prefer GitHub Pages build history; fall back to the GitHub Pages workflow run API.
+   Prefer GitHub Pages build history; fall back to the repository Actions runs API,
+   filtering the exact successful GitHub Pages deployment workflow.
    This metadata path never reads or writes IndexedDB/LocalStorage accounting data. */
 (function installR11DeploymentTime(){
  const API='https://api.github.com/repos/Thehandymanjob/accountancy-r11-preview';
@@ -1001,18 +1002,18 @@ body.pr-report-preview-open{overflow:hidden!important;position:relative!importan
   if(!candidates.length)throw new Error('No completed GitHub Pages build timestamp found');
   return validDate(candidates[0].updated_at||candidates[0].created_at);
  }
- async function fromPagesWorkflow(){
-  const data=await getJson(API+'/actions/workflows/418771319/runs?branch=main&per_page=100');
+ async function fromActionsRuns(){
+  const data=await getJson(API+'/actions/runs?branch=main&per_page=100');
   const runs=Array.isArray(data.workflow_runs)?data.workflow_runs:[];
-  const candidates=runs.filter(x=>x&&x.status==='completed'&&x.conclusion==='success'&&validDate(x.updated_at||x.run_started_at||x.created_at))
-   .sort((a,b)=>Date.parse(b.updated_at||b.run_started_at||b.created_at)-Date.parse(a.updated_at||a.run_started_at||a.created_at));
-  if(!candidates.length)throw new Error('No successful Pages workflow run with a valid timestamp');
-  return validDate(candidates[0].updated_at||candidates[0].run_started_at||candidates[0].created_at);
+  const candidates=runs.filter(x=>x&&x.name==='pages build and deployment'&&x.path==='dynamic/pages/pages-build-deployment'&&x.head_branch==='main'&&x.event==='dynamic'&&x.status==='completed'&&x.conclusion==='success'&&validDate(x.updated_at))
+   .sort((a,b)=>Date.parse(b.updated_at)-Date.parse(a.updated_at));
+  if(!candidates.length)throw new Error('No successful GitHub Pages deployment run with a valid completion timestamp');
+  return validDate(candidates[0].updated_at);
  }
  function getTimestamp(){
   if(!timestampPromise)timestampPromise=(async()=>{
    const failures=[];
-   for(const source of [fromPagesBuilds,fromPagesWorkflow]){
+   for(const source of [fromPagesBuilds,fromActionsRuns]){
     try{return await source()}catch(error){failures.push(error);console.warn('Deployment timestamp source failed:',error.message,error.status||'')}
    }
    throw new Error(failures.map(e=>e.message+(e.status?' [HTTP '+e.status+']':'')).join('; ')||'No deployment timestamp source available');
