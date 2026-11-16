@@ -2546,15 +2546,30 @@ function toggleMonitorVersionInfo(){
    ['Build ID',meta('app-build-id')],
    ['App version',meta('app-version')],
    ['IndexedDB database',engine?.databaseName||'not available'],
+   ['Last Updated','Loading...'],
    ['Loaded page',R11_CANONICAL_PAGE_URL],
    ['Page title',document.title]
   ];
-  box.innerHTML='<div class="monitor-table-wrap"><table class="monitor-table"><tbody>'+info.map(([k,v])=>'<tr><th>'+monitorEsc(k)+'</th><td style="overflow-wrap:anywhere">'+(k==='Loaded page'?'<a href="'+monitorEsc(v)+'" target="_blank" rel="noopener noreferrer">'+monitorEsc(v)+'</a>':monitorEsc(v))+'</td></tr>').join('')+'</tbody></table></div><div class="actions"><button type="button" onclick="copyMonitorVersionInfo()">Copy version details</button></div>';
+  box.innerHTML='<div class="monitor-table-wrap"><table class="monitor-table"><tbody>'+info.map(([k,v])=>'<tr><th>'+monitorEsc(k)+'</th><td style="overflow-wrap:anywhere">'+(k==='Loaded page'?'<a href="'+monitorEsc(v)+'" target="_blank" rel="noopener noreferrer">'+monitorEsc(v)+'</a>':k==='Last Updated'?'<span id="monitorLastUpdatedValue">Loading deployment time…</span>':monitorEsc(v))+'</td></tr>').join('')+'</tbody></table></div><div class="actions"><button type="button" onclick="copyMonitorVersionInfo()">Copy version details</button></div>';
  }
+
+  loadMonitorLastUpdated();
+}
+async function loadMonitorLastUpdated(){
+ const target=document.getElementById('monitorLastUpdatedValue');if(!target)return;
+ try{
+  const response=await fetch('https://api.github.com/repos/Thehandymanjob/accountancy-r11-preview/actions/workflows/418771319/runs?branch=main&per_page=20',{cache:'no-store',headers:{Accept:'application/vnd.github+json'}});
+  if(!response.ok)throw new Error('GitHub deployment metadata unavailable ('+response.status+')');
+  const data=await response.json();
+  const run=(data.workflow_runs||[]).filter(x=>x.status==='completed'&&x.conclusion==='success'&&x.event==='dynamic'&&x.path==='dynamic/pages/pages-build-deployment').sort((x,y)=>Date.parse(y.updated_at||y.run_started_at)-Date.parse(x.updated_at||x.run_started_at))[0];
+  if(!run)throw new Error('No successful Pages deployment found');
+  const date=new Date(run.updated_at||run.run_started_at);if(!Number.isFinite(date.getTime()))throw new Error('Invalid deployment timestamp');
+  target.textContent=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23',timeZoneName:'short'}).format(date);
+ }catch(error){target.textContent='Unavailable';console.warn('Last Updated could not be loaded:',error)}
 }
 function copyMonitorVersionInfo(){
  const meta=n=>document.querySelector('meta[name="'+n+'"]')?.content||'unknown';
- const text=['Repository: Thehandymanjob/accountancy-r11-preview','Branch: main','Version: 273 – R11 Preview','Main file path: v273-isolated-test/r11-income-prefix-repair-20261114/index.html','Build ID: '+meta('app-build-id'),'App version: '+meta('app-version'),'IndexedDB database: '+(window.HandymanStorageV264?.databaseName||'not available'),'Loaded page: '+R11_CANONICAL_PAGE_URL].join('\n');
+ const text=['Repository: Thehandymanjob/accountancy-r11-preview','Branch: main','Version: 273 – R11 Preview','Main file path: v273-isolated-test/r11-income-prefix-repair-20261114/index.html','Build ID: '+meta('app-build-id'),'App version: '+meta('app-version'),'IndexedDB database: '+(window.HandymanStorageV264?.databaseName||'not available'),'Last Updated: '+(document.getElementById('monitorLastUpdatedValue')?.textContent||'Loading...'),'Loaded page: '+R11_CANONICAL_PAGE_URL].join('\n');
  const done=()=>{const b=document.querySelector('#monitorVersionInfo button');if(b){b.textContent='Copied';setTimeout(()=>b.textContent='Copy version details',1600)}};
  if(navigator.clipboard?.writeText){navigator.clipboard.writeText(text).then(done).catch(()=>{const t=document.createElement('textarea');t.value=text;document.body.appendChild(t);t.select();document.execCommand('copy');t.remove();done()})}
  else{const t=document.createElement('textarea');t.value=text;document.body.appendChild(t);t.select();document.execCommand('copy');t.remove();done()}
