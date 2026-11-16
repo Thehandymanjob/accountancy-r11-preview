@@ -357,18 +357,18 @@
         "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "002e0c9c6492da0d1cd442a2f345714980868a38",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
+      "previewDevelopmentCommitSha": "2e914ba5769ea983f881db2315c486529e8c709a",
+      "previewPullRequestNumber": 17,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/17",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 43930779010,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43930779010"
       },
       "staticChecks": {
         "result": "PASS",
-        "details": "All 7 inline JavaScript blocks passed V8 syntax parsing. Unique capture-root ID, scoped report CSS, 1024px capture width, matching html2canvas viewport, HTML Build ID and canonical URL match authority. Version Authority Gate rerun pending."
+        "details": "All 7 inline JavaScript blocks passed V8 syntax parsing. Verified unique PDF capture-root ID, scoped report stylesheet, 1024px capture width, matching html2canvas viewport, HTML Build ID and canonical URL; Version Authority Gate PASS."
       },
       "previewPagesDeployment": {
         "result": "pending",
