@@ -1287,6 +1287,12 @@ function refreshReport(){
  const detailRows=expenses.map(x=>`<tr><td>${esc(x.category||x.notes||'Expense')}${x.notes&&x.category?' — '+esc(x.notes):''}</td>${includeDate?`<td>${esc(fmtDate(x.date))}</td>`:''}${includeCompany?`<td>${esc(companyName(x))}</td>`:''}${includeReceipt?`<td>${x.receiptImage&&String(x.receiptImage).startsWith('data:image/')?`<img class="uc-receipt-thumb" src="${x.receiptImage}" alt="Receipt">`:'—'}</td>`:''}<td class="amt">${money(x.amount)}</td></tr>`).join('');
  const expenseDetailsSection=includeExpenseDetails?`<section class="uc-details"><h3>EXPENSE DETAILS</h3><table><thead><tr>${detailHeaders}</tr></thead><tbody>${detailRows||`<tr><td colspan="${2+(includeDate?1:0)+(includeCompany?1:0)+(includeReceipt?1:0)}">No expenses recorded in this period.</td></tr>`}</tbody><tfoot><tr><th colspan="${1+(includeDate?1:0)+(includeCompany?1:0)+(includeReceipt?1:0)}">TOTAL EXPENSES</th><th class="amt">${money(s.expense)}</th></tr></tfoot></table></section>`:'';
  $('reportBody').innerHTML=`<div class="uc-print-report"><div class="uc-head">${logo?`<img class="uc-logo" src="${logo}" alt="The Handyman logo" style="display:block;width:88px!important;height:72px!important;max-width:88px!important;max-height:72px!important;object-fit:contain;flex:0 0 88px">`:''}<div><h2>THE HANDYMAN</h2><p>BUSINESS INCOME &amp; EXPENDITURE</p><strong>Reporting Period: ${esc(fmtDate(from))} – ${esc(fmtDate(to))}</strong></div></div><div class="uc-columns"><div>${group('1. BUSINESS INCOME',incomeRows,'TOTAL INCOME')}${group('2. MATERIALS &amp; SUPPLIES',materials,'TOTAL MATERIALS')}${group('3. MOTOR / VEHICLE EXPENSES',vehicle,'TOTAL VEHICLE EXPENSES')}</div><div>${group('4. TOOLS &amp; WORKWEAR',tools,'TOTAL TOOLS &amp; HIRE')}${group('5. OTHER BUSINESS COSTS',other,'TOTAL OTHER BUSINESS COSTS')}<section class="uc-summary"><h3>REPORT SUMMARY</h3><table><tbody>${row('Total Income',s.income)}${row('Total Expenditure',s.expense)}</tbody><tfoot><tr><th>Income less Expenditure</th><th class="amt">${money(s.income-s.expense)}</th></tr></tfoot></table></section></div></div>${expenseDetailsSection}</div>`;
+ // Add semantic column labels so narrow screens and PDF can stack each expense record vertically.
+ const detailTable=$('reportBody').querySelector('.uc-details table');
+ if(detailTable){
+  const labels=Array.from(detailTable.querySelectorAll('thead th')).map(th=>(th.textContent||'').trim());
+  detailTable.querySelectorAll('tbody tr').forEach(tr=>Array.from(tr.children).forEach((td,i)=>{if(labels[i])td.setAttribute('data-label',labels[i])}));
+ }
  localizeAccountingReport($('reportBody').querySelector('.uc-print-report'),reportArchiveLanguage());
  const style=document.getElementById('ucReportStyle');if(!style){const st=document.createElement('style');st.id='ucReportStyle';st.textContent=`#reportBody .uc-print-report{font-family:Arial,sans-serif;color:#172235;background:#fff;margin:0!important;padding:0!important;break-inside:auto!important;page-break-inside:auto!important}#reportBody .uc-head{display:flex;align-items:center;gap:14px;border-bottom:3px solid #e5b63f;padding:0 0 9px;margin:0 0 9px;break-inside:auto!important;page-break-inside:auto!important}#reportBody .uc-logo{display:block;width:88px!important;height:72px!important;max-width:88px!important;max-height:72px!important;object-fit:contain;flex:0 0 88px}#reportBody .uc-head h2{margin:0;color:#142b4a;font-size:20px}#reportBody .uc-head p{margin:2px 0 5px;font-size:10px;letter-spacing:1px;color:#657286}#reportBody .uc-head strong{font-size:12px}#reportBody .uc-columns{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;align-items:start;break-inside:auto!important;page-break-inside:auto!important}#reportBody .uc-group{margin:0 0 8px;border:1px solid #dce2ea;border-radius:5px;overflow:hidden;break-inside:avoid}#reportBody .uc-group h3,#reportBody .uc-summary h3{margin:0;background:#142b4a;color:#fff;padding:5px 7px;font-size:11px;letter-spacing:.2px}#reportBody .uc-group table,#reportBody .uc-summary table{margin:0;width:100%;border-collapse:collapse;font-size:10px}#reportBody .uc-group td,#reportBody .uc-group th,#reportBody .uc-summary td,#reportBody .uc-summary th{padding:3px 7px;border-bottom:1px solid #e6eaf0}#reportBody .uc-group tbody tr:nth-child(even),#reportBody .uc-summary tbody tr:nth-child(even){background:#f5f7fa}#reportBody .uc-group tfoot th,#reportBody .uc-summary tfoot th{background:#e8eef5;color:#142b4a;font-weight:700;border-top:1px solid #cbd4df}#reportBody .amt{text-align:right;white-space:nowrap}#reportBody .uc-summary{border:2px solid #142b4a;border-radius:5px;overflow:hidden;break-inside:avoid}#reportBody .uc-details{margin-top:12px;border:1px solid #dce2ea;border-radius:5px;overflow:visible;break-inside:auto}#reportBody .uc-details h3{margin:0;background:#142b4a;color:#fff;padding:7px;font-size:12px}#reportBody .uc-details table{width:100%;border-collapse:collapse;table-layout:auto;font-size:10px}#reportBody .uc-details th,#reportBody .uc-details td{padding:5px;border-bottom:1px solid #e6eaf0;vertical-align:middle;overflow-wrap:anywhere}#reportBody .uc-details th{background:#eef2f6;color:#142b4a}#reportBody .uc-details .amt{text-align:right;white-space:nowrap}#reportBody .uc-receipt-thumb{display:block;max-width:70px;max-height:70px;width:auto;height:auto;object-fit:contain;border:1px solid #dce2ea;border-radius:4px}#reportBody .uc-details tfoot th{font-weight:800;background:#e8eef5}
 /* v153: responsive report layout and readable PDF typography */
@@ -1323,6 +1329,20 @@ function refreshReport(){
   #reportBody .uc-columns { align-items: start !important; }
 }
 
+/* R8 responsive expense-detail cards: no horizontal scrolling on phones or in portrait PDF */
+@media screen and (max-width:600px), print{
+ #reportBody .uc-details table{display:block!important;width:100%!important;max-width:100%!important;table-layout:auto!important}
+ #reportBody .uc-details thead{display:none!important}
+ #reportBody .uc-details tbody{display:block!important;width:100%!important}
+ #reportBody .uc-details tbody tr{display:block!important;width:100%!important;margin:0 0 7px!important;padding:5px 8px!important;border:1px solid #dce2ea!important;border-radius:4px!important;background:#fff!important;break-inside:avoid!important;page-break-inside:avoid!important}
+ #reportBody .uc-details tbody td{display:flex!important;justify-content:space-between!important;align-items:flex-start!important;gap:12px!important;width:100%!important;max-width:100%!important;padding:4px 0!important;border:0!important;text-align:right!important;white-space:normal!important;overflow-wrap:anywhere!important}
+ #reportBody .uc-details tbody td:before{content:attr(data-label);display:block!important;flex:0 0 38%!important;max-width:38%!important;text-align:left!important;font-weight:700!important;color:#142b4a!important}
+ #reportBody .uc-details tbody td.amt{font-weight:700!important;font-variant-numeric:tabular-nums!important}
+ #reportBody .uc-details tfoot{display:block!important;width:100%!important}
+ #reportBody .uc-details tfoot tr{display:flex!important;justify-content:space-between!important;gap:10px!important;width:100%!important;padding:6px 8px!important;background:#e8eef5!important}
+ #reportBody .uc-details tfoot th{display:block!important;width:auto!important;padding:0!important;border:0!important}
+ #reportBody .uc-details tfoot th:last-child{text-align:right!important;white-space:nowrap!important}
+}
 @media print{#reportBody .uc-print-report{margin:0!important;padding:0!important}#reportBody .uc-head{break-inside:auto!important;page-break-inside:auto!important}#reportBody .uc-columns{break-inside:auto!important;page-break-inside:auto!important;gap:8px}#reportBody .uc-group{margin-bottom:6px}#reportBody .uc-group h3,#reportBody .uc-summary h3{font-size:10px;padding:4px 6px}#reportBody .uc-group table,#reportBody .uc-summary table{font-size:9px}#reportBody .uc-group td,#reportBody .uc-group th,#reportBody .uc-summary td,#reportBody .uc-summary th{padding:2px 5px}}`;document.head.appendChild(st)}
 }
 function printReport(){
@@ -1333,7 +1353,7 @@ function printReport(){
  // Work on a clone only; the live report and IndexedDB records remain untouched.
  const node=original.cloneNode(true);
  node.id='ucFinancialReportPrintClone';
- node.style.cssText='display:block!important;width:720px!important;min-width:720px!important;max-width:720px!important;box-sizing:border-box!important;margin:0!important;padding:0!important;background:#fff!important;overflow:visible!important;font-family:Arial,Helvetica,sans-serif!important;color:#172b45!important';
+ node.style.cssText='display:block!important;width:100%!important;min-width:0!important;max-width:190mm!important;box-sizing:border-box!important;margin:0 auto!important;padding:0!important;background:#fff!important;overflow:visible!important;font-family:Arial,Helvetica,sans-serif!important;color:#172b45!important';
  node.querySelectorAll('.uc-head').forEach(el=>{
   el.style.setProperty('gap','12px','important');el.style.setProperty('margin','0 0 10px','important');
   el.style.setProperty('padding','0 0 8px','important');el.style.setProperty('align-items','center','important');
@@ -1415,7 +1435,7 @@ function printReport(){
   scopedStyle.textContent=reportStyle.textContent.replace(/#reportBody/g,'#thaPdfCaptureRoot');
   captureRoot.appendChild(scopedStyle);
  }
- captureRoot.style.cssText='display:block!important;width:720px!important;min-width:720px!important;max-width:720px!important;box-sizing:border-box!important;background:#fff!important;margin:0!important;padding:0!important;overflow:visible!important';
+ captureRoot.style.cssText='display:block!important;width:100%!important;min-width:0!important;max-width:190mm!important;box-sizing:border-box!important;background:#fff!important;margin:0 auto!important;padding:0!important;overflow:visible!important';
  captureRoot.appendChild(node);
  const captureHeight=Math.max(node.scrollHeight,node.offsetHeight,1000);
  directOpenReportPDF(captureRoot,'The-Handyman-Financial-Report-'+Date.now()+'.pdf',[5,5,5,5],captureHeight);
