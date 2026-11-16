@@ -46,8 +46,11 @@ jobs:
           if (String(app.version || '') !== '273') fail('app version mismatch');
           const buildMatch = String(app.buildId || '').match(/^THA-273-R11-PREVIEW-20261116-R(\d+)$/);
           if (!buildMatch) fail('R11 Build ID is not an approved preview build');
-          const expectedUrl = 'https://thehandymanjob.github.io/accountancy-r11-preview/' + appPath.replace(/index\.html$/, '') + '?build=R' + buildMatch[1];
-          if (app.canonicalUrl !== expectedUrl) fail('canonical URL does not match approved Build ID and app path');
+          let canonicalUrl;
+          try { canonicalUrl = new URL(app.canonicalUrl); } catch (_) { fail('canonical URL is invalid'); }
+          if (canonicalUrl.origin !== 'https://thehandymanjob.github.io' || canonicalUrl.pathname !== '/accountancy-r11-preview/' + appPath.replace(/index\.html$/, '') || canonicalUrl.searchParams.get('build') !== 'R' + buildMatch[1]) fail('canonical URL does not match approved Build ID and app path');
+          for (const key of canonicalUrl.searchParams.keys()) if (!['build','utm_source'].includes(key)) fail('unexpected canonical URL parameter: ' + key);
+          if (canonicalUrl.searchParams.has('utm_source') && canonicalUrl.searchParams.get('utm_source') !== 'chatgpt.com') fail('unexpected canonical URL source');
           if (app.approvedBaseCommitSha !== approvedBaseline) fail('approved R11 baseline mismatch');
           if (!app.files || typeof app.files !== 'object' || Object.keys(app.files).length !== 21) fail('runtime asset pin list must contain exactly 21 files');
           if (app.files[appPath] !== app.indexBlobSha) fail('index blob SHA does not match runtime asset pin');
