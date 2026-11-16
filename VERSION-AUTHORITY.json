@@ -595,21 +595,22 @@
       "previewDevelopmentCommitSha": "f5b3dd1fff70a72d5df7e7794235ccfc9b4ce189",
       "previewPullRequestNumber": 29,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/29",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "ceed285178fee3e26a456690675a1568c0ba02fc",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 43951586652,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43951586652",
+        "details": "The Version Authority Gate passed on Preview main for merge commit ceed285178fee3e26a456690675a1568c0ba02fc."
       },
       "staticChecks": {
         "result": "PASS",
         "details": "V8 syntax parsing passed. The repository-wide Actions runs endpoint was independently verified to contain the successful Pages deployment run; simulated failure of Pages-build lookup followed by Actions-runs fallback returned the exact ISO timestamp 2026-11-16T20:30:30Z and both expected Europe/London display formats. Live iPhone Safari verification remains pending."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting Preview PR merge and Pages deployment."
+        "result": "PASS",
+        "runId": 43951585436,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43951585436",
+        "details": "GitHub Pages build, report-build-status, and deploy jobs completed successfully for Preview merge commit ceed285178fee3e26a456690675a1568c0ba02fc."
       },
       "userSafariTest": {
         "result": "not tested",
