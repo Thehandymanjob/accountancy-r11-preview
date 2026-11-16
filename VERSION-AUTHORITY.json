@@ -635,22 +635,22 @@
       "previewDevelopmentCommitSha": "8c821759d20749dfec6a2bb585dcb6f45a42d836",
       "previewPullRequestNumber": 31,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/31",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "9f816c4d7f33f9cc1ab55c7a2a59a3a6334ce5e1",
       "embeddedPreviewBuildTimestamp": "2026-11-16T20:40:30Z",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 43952450423,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43952450423"
       },
       "staticChecks": {
         "result": "PASS",
         "details": "V8 syntax parsing passed for the embedded timestamp service and Version Details consumer. Deterministic no-network simulation confirms the shared timestamp resolves to 2026-11-16T20:40:30Z; banner formats as 16/11/2026, 20:40 and Version Details as 16/11/2026, 20:40:30 GMT. The service makes no browser network request. Live iPhone Safari verification remains pending."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting Preview PR merge and Pages deployment."
+        "result": "PASS",
+        "runId": 43952451321,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43952451321",
+        "details": "GitHub Pages build, report-build-status, and deploy jobs completed successfully for Preview R14 merge commit 9f816c4d7f33f9cc1ab55c7a2a59a3a6334ce5e1. The embedded timestamp is a build marker, not a live GitHub deployment-completion timestamp."
       },
       "userSafariTest": {
         "result": "not tested",
