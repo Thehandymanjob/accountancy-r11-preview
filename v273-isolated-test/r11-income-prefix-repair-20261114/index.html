@@ -1329,43 +1329,74 @@ function printReport(){
  refreshReport();
  const original=document.querySelector('#reportBody .uc-print-report');
  if(!original){alert('The financial report could not be prepared. Please generate the report again.');return}
- // Work on a print-only clone. The live report screen and stored accounting data remain unchanged.
+ // Build a print-only copy. No live UI, accounting data, or IndexedDB records are changed.
  const node=original.cloneNode(true);
  node.id='ucFinancialReportPrintClone';
- node.style.width='100%';node.style.maxWidth='100%';node.style.boxSizing='border-box';
- node.querySelectorAll('.uc-head').forEach(el=>{el.style.gap='18px';el.style.marginBottom='12px';el.style.paddingBottom='10px'});
- node.querySelectorAll('.uc-logo').forEach(el=>{el.style.setProperty('width','46mm','important');el.style.setProperty('height','38mm','important');el.style.setProperty('max-width','46mm','important');el.style.setProperty('max-height','38mm','important');el.style.setProperty('flex','0 0 46mm','important')});
- node.querySelectorAll('.uc-head h2').forEach(el=>{el.style.setProperty('font-size','34px','important');el.style.setProperty('line-height','1.15','important')});
- node.querySelectorAll('.uc-head p').forEach(el=>{el.style.setProperty('font-size','20px','important');el.style.setProperty('line-height','1.3','important')});
- node.querySelectorAll('.uc-head strong').forEach(el=>{el.style.setProperty('font-size','20px','important');el.style.setProperty('line-height','1.3','important')});
- node.querySelectorAll('.uc-group h3,.uc-summary h3').forEach(el=>{el.style.setProperty('font-size','18px','important');el.style.setProperty('padding','9px 10px','important');el.style.setProperty('line-height','1.2','important')});
- node.querySelectorAll('.uc-group table,.uc-summary table').forEach(el=>{el.style.setProperty('font-size','18px','important');el.style.setProperty('line-height','1.3','important');el.style.setProperty('table-layout','fixed','important');el.style.setProperty('width','100%','important')});
- node.querySelectorAll('.uc-group td,.uc-group th,.uc-summary td,.uc-summary th').forEach(el=>{el.style.setProperty('font-size','18px','important');el.style.setProperty('padding','7px 8px','important');el.style.setProperty('overflow-wrap','anywhere','important')});
- node.querySelectorAll('.uc-details table').forEach(el=>{el.style.setProperty('font-size','11px','important');el.style.setProperty('table-layout','auto','important');el.style.setProperty('width','100%','important')});
- node.querySelectorAll('.uc-details td,.uc-details th').forEach(el=>{el.style.setProperty('font-size','11px','important');el.style.setProperty('padding','5px','important');el.style.setProperty('overflow-wrap','anywhere','important')});
- node.querySelectorAll('.uc-receipt-thumb').forEach(el=>{el.style.setProperty('max-width','24mm','important');el.style.setProperty('max-height','24mm','important')});
- // Hide zero-amount detail rows only in sections 2, 3 and 4. Preserve all totals and all other sections.
- node.querySelectorAll('.uc-group').forEach(group=>{
-   const heading=group.querySelector('h3');
-   const match=heading&&(heading.textContent||'').trim().match(/^(\d+)\s*[.\-]/);
-   if(!match||![2,3,4].includes(Number(match[1])))return;
-   group.querySelectorAll('tbody tr').forEach(row=>{
-     const cells=row.querySelectorAll('td');
-     if(cells.length<2)return;
-     const label=(cells[0].textContent||'').trim().toLowerCase();
-     if(/^total\b/.test(label))return;
-     const raw=(cells[cells.length-1].textContent||'').replace(/[\s£,]/g,'').trim();
-     if(raw!==''&&Number.isFinite(Number(raw))&&Number(raw)===0)row.remove();
-   });
+ node.style.cssText='width:100%;max-width:100%;min-width:0;box-sizing:border-box;margin:0;padding:0;background:#fff;overflow:visible;font-family:Arial,Helvetica,sans-serif;color:#172b45';
+ node.querySelectorAll('.uc-head').forEach(el=>{
+  el.style.setProperty('gap','10px','important');
+  el.style.setProperty('margin','0 0 8px','important');
+  el.style.setProperty('padding','0 0 7px','important');
+  el.style.setProperty('align-items','center','important');
+  el.style.setProperty('break-inside','avoid','important');
  });
- // html2pdf needs the original report height and the #reportBody CSS scope.
- // A detached clone has scrollHeight=0 and loses selectors scoped to #reportBody.
+ node.querySelectorAll('.uc-logo').forEach(el=>{
+  el.style.setProperty('width','30mm','important');el.style.setProperty('height','25mm','important');
+  el.style.setProperty('max-width','30mm','important');el.style.setProperty('max-height','25mm','important');
+  el.style.setProperty('flex','0 0 30mm','important');el.style.setProperty('object-fit','contain','important');
+ });
+ node.querySelectorAll('.uc-head h2').forEach(el=>{el.style.setProperty('font-size','21px','important');el.style.setProperty('line-height','1.15','important');el.style.setProperty('margin','0 0 2px','important')});
+ node.querySelectorAll('.uc-head p').forEach(el=>{el.style.setProperty('font-size','11px','important');el.style.setProperty('line-height','1.25','important');el.style.setProperty('margin','2px 0','important')});
+ node.querySelectorAll('.uc-head strong').forEach(el=>{el.style.setProperty('font-size','11px','important');el.style.setProperty('line-height','1.25','important')});
+ node.querySelectorAll('.uc-columns').forEach(el=>{
+  el.style.setProperty('display','grid','important');el.style.setProperty('grid-template-columns','minmax(0,1fr) minmax(0,1fr)','important');
+  el.style.setProperty('gap','8px','important');el.style.setProperty('width','100%','important');el.style.setProperty('min-width','0','important');
+ });
+ node.querySelectorAll('.uc-group,.uc-summary').forEach(el=>{el.style.setProperty('min-width','0','important');el.style.setProperty('width','100%','important');el.style.setProperty('margin-bottom','6px','important')});
+ node.querySelectorAll('.uc-group h3,.uc-summary h3').forEach(el=>{
+  el.style.setProperty('font-size','10px','important');el.style.setProperty('line-height','1.2','important');
+  el.style.setProperty('padding','5px 6px','important');el.style.setProperty('white-space','normal','important');
+  el.style.setProperty('overflow-wrap','anywhere','important');
+ });
+ node.querySelectorAll('.uc-group table,.uc-summary table').forEach(el=>{
+  el.style.setProperty('font-size','10px','important');el.style.setProperty('line-height','1.2','important');
+  el.style.setProperty('table-layout','fixed','important');el.style.setProperty('width','100%','important');
+  el.style.setProperty('border-collapse','collapse','important');
+ });
+ node.querySelectorAll('.uc-group td,.uc-group th,.uc-summary td,.uc-summary th').forEach(el=>{
+  el.style.setProperty('font-size','10px','important');el.style.setProperty('line-height','1.2','important');
+  el.style.setProperty('padding','3px 5px','important');el.style.setProperty('overflow-wrap','anywhere','important');
+  el.style.setProperty('vertical-align','middle','important');
+ });
+ node.querySelectorAll('.uc-group td:first-child,.uc-summary td:first-child,.uc-group th:first-child,.uc-summary th:first-child').forEach(el=>el.style.setProperty('width','66%','important'));
+ node.querySelectorAll('.uc-group td:last-child,.uc-summary td:last-child,.uc-group th:last-child,.uc-summary th:last-child').forEach(el=>{
+  el.style.setProperty('width','34%','important');el.style.setProperty('text-align','right','important');
+  el.style.setProperty('white-space','nowrap','important');el.style.setProperty('font-variant-numeric','tabular-nums','important');
+ });
+ node.querySelectorAll('.uc-details').forEach(el=>{el.style.setProperty('margin-top','8px','important');el.style.setProperty('break-inside','auto','important')});
+ node.querySelectorAll('.uc-details h3').forEach(el=>{el.style.setProperty('font-size','10px','important');el.style.setProperty('padding','5px 6px','important')});
+ node.querySelectorAll('.uc-details table').forEach(el=>{el.style.setProperty('font-size','9px','important');el.style.setProperty('table-layout','fixed','important');el.style.setProperty('width','100%','important')});
+ node.querySelectorAll('.uc-details td,.uc-details th').forEach(el=>{el.style.setProperty('font-size','9px','important');el.style.setProperty('padding','3px 4px','important');el.style.setProperty('overflow-wrap','anywhere','important')});
+ node.querySelectorAll('.uc-details .amt').forEach(el=>{el.style.setProperty('white-space','nowrap','important');el.style.setProperty('text-align','right','important')});
+ node.querySelectorAll('.uc-receipt-thumb').forEach(el=>{el.style.setProperty('max-width','18mm','important');el.style.setProperty('max-height','18mm','important')});
+ // Keep the existing zero-row rule unchanged: only zero-value detail rows in sections 2–4 are hidden.
+ node.querySelectorAll('.uc-group').forEach(group=>{
+  const heading=group.querySelector('h3');
+  const match=heading&&(heading.textContent||'').trim().match(/^(\d+)\s*[.\-]/);
+  if(!match||![2,3,4].includes(Number(match[1])))return;
+  group.querySelectorAll('tbody tr').forEach(row=>{
+   const cells=row.querySelectorAll('td');if(cells.length<2)return;
+   const label=(cells[0].textContent||'').trim().toLowerCase();if(/^total\b/.test(label))return;
+   const raw=(cells[cells.length-1].textContent||'').replace(/[\s£,]/g,'').trim();
+   if(raw!==''&&Number.isFinite(Number(raw))&&Number(raw)===0)row.remove();
+  });
+ });
  const captureHeight=Math.max(original.scrollHeight,original.offsetHeight,Math.ceil(original.getBoundingClientRect().height),1123);
  const captureRoot=document.createElement('div');
  captureRoot.id='reportBody';
- captureRoot.style.cssText='width:100%;max-width:100%;min-width:0;box-sizing:border-box;background:#fff;margin:0;padding:0;';
+ captureRoot.style.cssText='display:block;width:100%;max-width:100%;min-width:0;box-sizing:border-box;background:#fff;margin:0;padding:0;overflow:visible';
  captureRoot.appendChild(node);
- directOpenReportPDF(captureRoot,'The-Handyman-Financial-Report-'+Date.now()+'.pdf',[8,8,8,8],captureHeight);
+ directOpenReportPDF(captureRoot,'The-Handyman-Financial-Report-'+Date.now()+'.pdf',[5,5,5,5],captureHeight);
 }
 async function directOpenReportPDF(node,filename,margin,captureHeight){
  // Generate the PDF exactly as before, then show it in a lightweight viewer with
@@ -1384,7 +1415,7 @@ async function directOpenReportPDF(node,filename,margin,captureHeight){
   const url=URL.createObjectURL(blob);
   tab.__reportPdfBlob=blob;tab.__reportPdfUrl=url;tab.__reportPdfName=filename||'The-Handyman-Report.pdf';
   tab.document.title=tab.__reportPdfName;
-  const frame=tab.document.getElementById('pdfFrame');if(!frame)throw new Error('PDF preview frame is unavailable');frame.src=url;
+  const frame=tab.document.getElementById('pdfFrame');if(!frame)throw new Error('PDF preview frame is unavailable');frame.src=url+'#view=FitH';
   tab.addEventListener('pagehide',()=>{try{URL.revokeObjectURL(url)}catch(_){}},{once:true});
  }catch(e){try{tab.document.body.innerHTML='<main style="font:16px Arial;padding:24px"><h2>PDF could not be created</h2><p>Check the internet connection and return to the app to try again.</p></main>'}catch(_){}alert('PDF creation failed: '+(e&&e.message?e.message:'unknown error'));}
 }
