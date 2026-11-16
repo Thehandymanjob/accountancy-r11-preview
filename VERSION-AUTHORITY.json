@@ -112,5 +112,42 @@
     ],
     "promotionRule": "Production promotion must remain pending until Preview Safari testing is reported by the user and the user explicitly approves."
   },
-  "changeHistory": []
+  "changeHistory": [
+    {
+      "changeId": "AUTH-2026-11-16-001",
+      "dateStarted": "2026-11-16",
+      "purpose": "Establish permanent append-only change history and required evidence fields in Version Authority.",
+      "changedFiles": [
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "430daf762e3b165e0c95ae4b3a04c24281633b83",
+      "previewPullRequestNumber": 3,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/3",
+      "previewMergeCommitSha": "a6b6b8b87560fcc08f262b70d237f046dffd0dca",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 43836332799,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43836332799"
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "VERSION-AUTHORITY.json parsed successfully; policy fields and required record fields were verified after update."
+      },
+      "previewPagesDeployment": {
+        "result": "not applicable",
+        "details": "No app or Pages files changed."
+      },
+      "userSafariTest": {
+        "result": "not applicable",
+        "details": "No application runtime behavior changed."
+      },
+      "userApproval": {
+        "result": "approved",
+        "details": "User explicitly authorized adding the permanent change-history procedure."
+      },
+      "productionPromotionStatus": "not applicable",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    }
+  ]
 }
