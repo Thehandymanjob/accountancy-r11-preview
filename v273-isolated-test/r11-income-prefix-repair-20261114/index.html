@@ -1353,43 +1353,43 @@ function printReport(){
  // Work on a clone only; the live report and IndexedDB records remain untouched.
  const node=original.cloneNode(true);
  node.id='ucFinancialReportPrintClone';
- node.style.cssText='display:block!important;width:100%!important;min-width:0!important;max-width:190mm!important;box-sizing:border-box!important;margin:0 auto!important;padding:0!important;background:#fff!important;overflow:visible!important;font-family:Arial,Helvetica,sans-serif!important;color:#172b45!important';
+ node.style.cssText='display:block!important;width:100%!important;min-width:0!important;max-width:185mm!important;box-sizing:border-box!important;margin:0 auto!important;padding:0!important;background:#fff!important;overflow:visible!important;font-family:Arial,Helvetica,sans-serif!important;color:#172b45!important';
  node.querySelectorAll('.uc-head').forEach(el=>{
-  el.style.setProperty('gap','12px','important');el.style.setProperty('margin','0 0 10px','important');
-  el.style.setProperty('padding','0 0 8px','important');el.style.setProperty('align-items','center','important');
+  el.style.setProperty('gap','8px','important');el.style.setProperty('margin','0 0 5px','important');
+  el.style.setProperty('padding','0 0 4px','important');el.style.setProperty('align-items','center','important');
   el.style.setProperty('break-inside','avoid','important');
  });
  node.querySelectorAll('.uc-logo').forEach(el=>{
-  el.style.setProperty('width','34mm','important');el.style.setProperty('height','27mm','important');
-  el.style.setProperty('max-width','34mm','important');el.style.setProperty('max-height','27mm','important');
-  el.style.setProperty('flex','0 0 34mm','important');el.style.setProperty('object-fit','contain','important');
+  el.style.setProperty('width','22mm','important');el.style.setProperty('height','18mm','important');
+  el.style.setProperty('max-width','22mm','important');el.style.setProperty('max-height','18mm','important');
+  el.style.setProperty('flex','0 0 22mm','important');el.style.setProperty('object-fit','contain','important');
  });
- node.querySelectorAll('.uc-head h2').forEach(el=>{el.style.setProperty('font-size','22px','important');el.style.setProperty('line-height','1.15','important');el.style.setProperty('margin','0 0 3px','important')});
- node.querySelectorAll('.uc-head p').forEach(el=>{el.style.setProperty('font-size','12px','important');el.style.setProperty('line-height','1.25','important');el.style.setProperty('margin','2px 0','important')});
- node.querySelectorAll('.uc-head strong').forEach(el=>{el.style.setProperty('font-size','12px','important');el.style.setProperty('line-height','1.25','important')});
+ node.querySelectorAll('.uc-head h2').forEach(el=>{el.style.setProperty('font-size','18px','important');el.style.setProperty('line-height','1.1','important');el.style.setProperty('margin','0 0 2px','important')});
+ node.querySelectorAll('.uc-head p').forEach(el=>{el.style.setProperty('font-size','10px','important');el.style.setProperty('line-height','1.2','important');el.style.setProperty('margin','1px 0','important')});
+ node.querySelectorAll('.uc-head strong').forEach(el=>{el.style.setProperty('font-size','10px','important');el.style.setProperty('line-height','1.2','important')});
  node.querySelectorAll('.uc-columns').forEach(el=>{
   el.style.setProperty('display','grid','important');el.style.setProperty('grid-template-columns','minmax(0,1fr)','important');
-  el.style.setProperty('gap','12px','important');el.style.setProperty('width','100%','important');
+  el.style.setProperty('gap','6px','important');el.style.setProperty('width','100%','important');
   el.style.setProperty('min-width','0','important');el.style.setProperty('align-items','start','important');
  });
  node.querySelectorAll('.uc-columns>div,.uc-group,.uc-summary,.uc-details').forEach(el=>{
   el.style.setProperty('min-width','0','important');el.style.setProperty('max-width','100%','important');
   el.style.setProperty('box-sizing','border-box','important');
  });
- node.querySelectorAll('.uc-group,.uc-summary').forEach(el=>el.style.setProperty('margin-bottom','7px','important'));
+ node.querySelectorAll('.uc-group,.uc-summary').forEach(el=>el.style.setProperty('margin-bottom','4px','important'));
  node.querySelectorAll('.uc-group h3,.uc-summary h3,.uc-details h3').forEach(el=>{
-  el.style.setProperty('font-size','11px','important');el.style.setProperty('line-height','1.2','important');
-  el.style.setProperty('padding','6px 8px','important');el.style.setProperty('white-space','normal','important');
+  el.style.setProperty('font-size','9.5px','important');el.style.setProperty('line-height','1.15','important');
+  el.style.setProperty('padding','4px 6px','important');el.style.setProperty('white-space','normal','important');
   el.style.setProperty('overflow-wrap','anywhere','important');
  });
  node.querySelectorAll('.uc-group table,.uc-summary table').forEach(el=>{
-  el.style.setProperty('font-size','11px','important');el.style.setProperty('line-height','1.25','important');
+  el.style.setProperty('font-size','9.5px','important');el.style.setProperty('line-height','1.15','important');
   el.style.setProperty('table-layout','fixed','important');el.style.setProperty('width','100%','important');
   el.style.setProperty('border-collapse','collapse','important');
  });
  node.querySelectorAll('.uc-group td,.uc-group th,.uc-summary td,.uc-summary th').forEach(el=>{
-  el.style.setProperty('font-size','11px','important');el.style.setProperty('line-height','1.25','important');
-  el.style.setProperty('padding','4px 7px','important');el.style.setProperty('overflow-wrap','anywhere','important');
+  el.style.setProperty('font-size','9.5px','important');el.style.setProperty('line-height','1.15','important');
+  el.style.setProperty('padding','2px 5px','important');el.style.setProperty('overflow-wrap','anywhere','important');
   el.style.setProperty('vertical-align','middle','important');
  });
  node.querySelectorAll('.uc-group td:first-child,.uc-summary td:first-child,.uc-group th:first-child,.uc-summary th:first-child').forEach(el=>el.style.setProperty('width','70%','important'));
@@ -1406,9 +1406,22 @@ function printReport(){
   if(widths)table.querySelectorAll('thead th').forEach((th,i)=>th.style.setProperty('width',widths[i]||'auto','important'));
  });
  node.querySelectorAll('.uc-details td,.uc-details th').forEach(el=>{
-  el.style.setProperty('font-size','10px','important');el.style.setProperty('line-height','1.25','important');
-  el.style.setProperty('padding','4px 6px','important');el.style.setProperty('overflow-wrap','anywhere','important');
+  el.style.setProperty('font-size','8.5px','important');el.style.setProperty('line-height','1.15','important');
+  el.style.setProperty('padding','2px 4px','important');el.style.setProperty('overflow-wrap','anywhere','important');
   el.style.setProperty('word-break','normal','important');el.style.setProperty('vertical-align','middle','important');
+ });
+ node.querySelectorAll('.uc-details table').forEach(table=>{
+  table.style.setProperty('display','block','important');table.style.setProperty('width','100%','important');table.style.setProperty('table-layout','auto','important');
+  const head=table.querySelector('thead');if(head)head.style.setProperty('display','none','important');
+  const body=table.querySelector('tbody');if(body){body.style.setProperty('display','block','important');body.style.setProperty('width','100%','important')}
+  table.querySelectorAll('tbody tr').forEach(tr=>{
+   tr.style.setProperty('display','block','important');tr.style.setProperty('width','100%','important');tr.style.setProperty('padding','2px 5px','important');tr.style.setProperty('margin','0','important');tr.style.setProperty('break-inside','avoid','important');
+   Array.from(tr.children).forEach(td=>{
+    td.style.setProperty('display','flex','important');td.style.setProperty('justify-content','space-between','important');td.style.setProperty('gap','8px','important');td.style.setProperty('width','100%','important');td.style.setProperty('padding','1px 0','important');td.style.setProperty('border','0','important');td.style.setProperty('text-align','right','important');td.style.setProperty('white-space','normal','important');td.style.setProperty('font-size','8.5px','important');
+    const label=td.getAttribute('data-label');if(label){const before=document.createElement('span');before.textContent=label;before.style.cssText='display:block;flex:0 0 38%;max-width:38%;text-align:left;font-weight:700;color:#142b4a';td.insertBefore(before,td.firstChild)}
+   });
+  });
+  const foot=table.querySelector('tfoot');if(foot){foot.style.setProperty('display','block','important');foot.querySelectorAll('tr').forEach(tr=>{tr.style.setProperty('display','flex','important');tr.style.setProperty('justify-content','space-between','important');tr.style.setProperty('width','100%','important')});foot.querySelectorAll('th').forEach(th=>{th.style.setProperty('display','block','important');th.style.setProperty('padding','2px 4px','important');th.style.setProperty('border','0','important')})}
  });
  node.querySelectorAll('.uc-details .amt').forEach(el=>{
   el.style.setProperty('white-space','nowrap','important');el.style.setProperty('text-align','right','important');
@@ -1435,10 +1448,10 @@ function printReport(){
   scopedStyle.textContent=reportStyle.textContent.replace(/#reportBody/g,'#thaPdfCaptureRoot');
   captureRoot.appendChild(scopedStyle);
  }
- captureRoot.style.cssText='display:block!important;width:100%!important;min-width:0!important;max-width:190mm!important;box-sizing:border-box!important;background:#fff!important;margin:0 auto!important;padding:0!important;overflow:visible!important';
+ captureRoot.style.cssText='display:block!important;width:100%!important;min-width:0!important;max-width:185mm!important;box-sizing:border-box!important;background:#fff!important;margin:0 auto!important;padding:0!important;overflow:visible!important';
  captureRoot.appendChild(node);
  const captureHeight=Math.max(node.scrollHeight,node.offsetHeight,1000);
- directOpenReportPDF(captureRoot,'The-Handyman-Financial-Report-'+Date.now()+'.pdf',[5,5,5,5],captureHeight);
+ directOpenReportPDF(captureRoot,'The-Handyman-Financial-Report-'+Date.now()+'.pdf',[10,7,10,7],captureHeight);
 }
 async function directOpenReportPDF(node,filename,margin,captureHeight){
  // Generate the PDF exactly as before, then show it in a lightweight viewer with
@@ -1493,7 +1506,31 @@ html,body{margin:0;padding:0;font-family:Arial,Helvetica,sans-serif;color:#172b4
 .report-content .uc-head,.report-content .uc-columns,.report-content .uc-group,.report-content .uc-summary{break-inside:avoid;page-break-inside:avoid}
 .report-content .small{font-size:8pt}
 @page{size:A4 portrait;margin:8mm}
-@media(max-width:650px){.report-content{width:190mm!important;max-width:190mm!important;margin:0 auto!important}.report-content .uc-columns{grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:3mm!important}}
+.report-content .uc-details{margin-top:5mm;border:1px solid #d9e1eb;border-radius:2mm;overflow:hidden}
+.report-content .uc-details h3{margin:0;background:#142b4a;color:#fff;padding:2mm 2.5mm;font-size:10pt;line-height:1.15}
+.report-content .uc-details table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:9pt;line-height:1.2}
+.report-content .uc-details th,.report-content .uc-details td{padding:1.5mm 1.8mm;border-bottom:.2mm solid #e3e8ef;overflow-wrap:anywhere;vertical-align:middle}
+.report-content .uc-details th{background:#eef2f6;color:#142b4a}
+.report-content .uc-details .amt{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+@media(max-width:650px){
+ .report-content{width:calc(100% - 20px)!important;max-width:190mm!important;min-width:0!important;margin:10px auto!important;padding:12px!important;overflow:hidden!important}
+ .report-content .uc-columns{grid-template-columns:minmax(0,1fr)!important;gap:0!important}
+ .report-content .uc-head{gap:3mm!important;padding-bottom:3mm!important;margin-bottom:3mm!important}
+ .report-content .uc-logo{width:22mm!important;height:18mm!important;max-width:22mm!important;max-height:18mm!important;flex:0 0 22mm!important}
+ .report-content .uc-head h2{font-size:17pt!important}
+ .report-content .uc-head p{font-size:8.5pt!important}
+ .report-content .uc-head strong{font-size:8pt!important}
+ .report-content .uc-details table{display:block!important;width:100%!important;max-width:100%!important}
+ .report-content .uc-details thead{display:none!important}
+ .report-content .uc-details tbody{display:block!important;width:100%!important}
+ .report-content .uc-details tbody tr{display:block!important;width:100%!important;margin:0!important;padding:2mm 2.5mm!important;border-bottom:1px solid #dce2ea!important;break-inside:avoid!important;page-break-inside:avoid!important}
+ .report-content .uc-details tbody td{display:flex!important;justify-content:space-between!important;align-items:flex-start!important;gap:8px!important;width:100%!important;padding:1mm 0!important;border:0!important;text-align:right!important;white-space:normal!important;overflow-wrap:anywhere!important}
+ .report-content .uc-details tbody td:before{content:attr(data-label);display:block!important;flex:0 0 38%!important;max-width:38%!important;text-align:left!important;font-weight:700!important;color:#142b4a!important}
+ .report-content .uc-details tfoot{display:block!important;width:100%!important}
+ .report-content .uc-details tfoot tr{display:flex!important;justify-content:space-between!important;gap:8px!important;width:100%!important;padding:2mm 2.5mm!important;background:#e8eef5!important}
+ .report-content .uc-details tfoot th{display:block!important;width:auto!important;padding:0!important;border:0!important}
+ .report-content .uc-details tfoot th:last-child{text-align:right!important;white-space:nowrap!important}
+}
 @media print{
  .toolbar,.status{display:none!important}
  html,body{width:210mm!important;height:auto!important;margin:0!important;padding:0!important;background:#fff!important;overflow:visible!important}
