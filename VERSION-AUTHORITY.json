@@ -63,6 +63,9 @@
       "Make all app repairs on Preview development only. Never edit Preview main directly. Open or update a Pull Request from Preview development to Preview main; preserve the existing R11 gate and branch protections.",
       "Before opening/updating a PR, ensure development is synchronized with the latest Preview main without force-pushing or bypassing protections. Review the exact diff and ensure it contains only approved files and changes.",
       "For changes to app/runtime files, update Preview VERSION-AUTHORITY.json SHA pins and app identity metadata consistently. Update the Version Authority workflow expected values only when the app identity or pinned assets change. Preserve unrelated files and SHAs.",
+      "Maintain a permanent, append-only change history in VERSION-AUTHORITY.json for every application repair or approved functional change. Create one distinct record per change set; do not combine unrelated repairs into one record.",
+      "Each change-history record must include a unique change ID, date, concise purpose, exact changed file paths, Preview development commit SHA, Preview Pull Request number and URL, merge commit SHA, Version Authority Gate result and run reference, static-check results, Preview Pages deployment evidence, user Safari test result (or explicitly pending/not tested), user approval status, and Production promotion status with Production PR/commit evidence when applicable. Use 'not applicable', 'pending', or 'not verified' rather than guessing.",
+      "Keep change-history records append-only: never rewrite or remove prior records. Update the current record as it moves through implementation, Preview review, merge, user testing/approval, and Production promotion; preserve the earlier milestone facts and timestamps. A Preview merge does not mean Safari approval or Production promotion.",
       "Do not change canonical URLs, Production, IndexedDB data, backup files, or user records unless explicitly requested.",
       "Never add LocalStorage migration, import, reset, or fallback. Active app storage is IndexedDB.",
       "Run the Preview Version Authority Gate and relevant static checks. Confirm the Preview Pages deployment succeeded before sharing the test URL. Clearly distinguish tool-verified checks from tests the user must perform in iPhone Safari.",
@@ -78,5 +81,36 @@
       "reusePolicy": "Reuse the same development branch for successive Preview changes. After each merge, synchronize development with the latest Preview main using a normal non-force update before beginning the next task.",
       "branchDeletion": "Do not delete the permanent development branch."
     }
-  }
+  },
+  "changeHistoryPolicy": {
+    "formatVersion": 1,
+    "location": "changeHistory",
+    "policy": "Append-only audit log; one record per distinct approved change set. Keep prior records permanently.",
+    "requiredFields": [
+      "changeId",
+      "dateStarted",
+      "purpose",
+      "changedFiles",
+      "previewDevelopmentCommitSha",
+      "previewPullRequestNumber",
+      "previewPullRequestUrl",
+      "previewMergeCommitSha",
+      "versionAuthorityGate",
+      "staticChecks",
+      "previewPagesDeployment",
+      "userSafariTest",
+      "userApproval",
+      "productionPromotionStatus",
+      "productionPullRequestUrl",
+      "productionCommitSha"
+    ],
+    "allowedUnverifiedValues": [
+      "pending",
+      "not tested",
+      "not verified",
+      "not applicable"
+    ],
+    "promotionRule": "Production promotion must remain pending until Preview Safari testing is reported by the user and the user explicitly approves."
+  },
+  "changeHistory": []
 }
