@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261116-R12",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R12",
-    "indexBlobSha": "dcee9a33bba9692a0e1b2b3c293ab3180099568e",
+    "buildId": "THA-273-R11-PREVIEW-20261116-R13",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R13",
+    "indexBlobSha": "a0eafcef6c9965be6f3e5a94344a07acd98af60e",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "dcee9a33bba9692a0e1b2b3c293ab3180099568e",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "a0eafcef6c9965be6f3e5a94344a07acd98af60e",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462"
     }
   },
@@ -504,6 +504,45 @@
       "productionPromotionStatus": "pending",
       "productionPullRequestUrl": "pending",
       "productionCommitSha": "pending"
+    },
+    {
+      "changeId": "THA-2026-11-16-VERSION-LAST-UPDATED-PREVIEW-007",
+      "dateStarted": "2026-11-16",
+      "purpose": "Make Preview Version Details Last Updated retrieval more resilient by querying the repository-wide Actions runs endpoint with a 100-run window, validating successful GitHub Pages deployment records, and formatting the exact deployment completion time. Preview only; Production and all databases remain untouched.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "8a2b21cdadf0e64034a8f13f281fc758d5a76675",
+      "previewPullRequestNumber": "pending",
+      "previewPullRequestUrl": "pending",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Pending JavaScript syntax validation and Preview Version Authority Gate."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting PR merge and successful Preview Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user iPhone Safari verification of Last Updated in Version Details after refresh."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Preview-only change. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
     }
   ]
 }
