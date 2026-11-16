@@ -397,17 +397,17 @@
         "VERSION-AUTHORITY.json"
       ],
       "previewDevelopmentCommitSha": "462e813a25885c51d9235442dad73d3328ceec04",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
+      "previewPullRequestNumber": 19,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/19",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 43932694159,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43932694159"
       },
       "staticChecks": {
         "result": "PASS",
-        "details": "All 7 inline JavaScript blocks passed V8 syntax parsing. Verified A4 portrait, single-column layout, 720px capture, fit-width PDF viewer, HTML Build ID and canonical URL match."
+        "details": "All 7 inline JavaScript blocks passed syntax parsing. Version Authority Gate passed for R8; portrait layout and 720px mobile capture configuration validated in source. iPhone Safari visual verification pending."
       },
       "previewPagesDeployment": {
         "result": "pending",
