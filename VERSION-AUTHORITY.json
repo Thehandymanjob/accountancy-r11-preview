@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261116-R6",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R6&utm_source=chatgpt.com",
-    "indexBlobSha": "59190f9e5318a80b66092d4591b147881ab812c5",
+    "buildId": "THA-273-R11-PREVIEW-20261116-R7",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R7&utm_source=chatgpt.com",
+    "indexBlobSha": "8fce21ade99aafd61e36e5a4b9d0d05cc41bbc00",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -344,6 +344,45 @@
       "userApproval": {
         "result": "pending",
         "details": "Awaiting user Safari test and approval."
+      },
+      "productionPromotionStatus": "pending",
+      "productionPullRequestUrl": "pending",
+      "productionCommitSha": "pending"
+    },
+    {
+      "changeId": "THA-2026-11-16-ACCOUNTING-REPORT-PDF-CAPTURE-003",
+      "dateStarted": "2026-11-16",
+      "purpose": "Correct the current-report PDF capture by using a unique capture-root ID, scoping the report stylesheet to that root, and reducing the fixed capture width to 1024 CSS pixels with a matching html2canvas viewport to prevent horizontal clipping on A4 landscape.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "b91ad4718f6b1093a287eab330d8ff15ff72a717",
+      "previewPullRequestNumber": "pending",
+      "previewPullRequestUrl": "pending",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "All 7 inline JavaScript blocks passed V8 syntax parsing. Verified unique capture root, scoped report CSS, 1024px capture width and matching html2canvas windowWidth. Safari visual test pending."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting Preview PR merge and successful GitHub Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user iPhone Safari test of the current-report PDF preview and full left/right columns."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting user Safari test and approval; no Production promotion authorized."
       },
       "productionPromotionStatus": "pending",
       "productionPullRequestUrl": "pending",
