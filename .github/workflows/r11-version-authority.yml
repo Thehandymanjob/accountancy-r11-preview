@@ -37,10 +37,10 @@ jobs:
             branch: 'main',
             path: 'v273-isolated-test/r11-income-prefix-repair-20261114/index.html',
             version: '273',
-            buildId: 'THA-273-R11-PREVIEW-20261116-R1',
+            buildId: 'THA-273-R11-PREVIEW-20261116-R2',
             canonicalUrl: 'https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R5&utm_source=chatgpt.com',
             approvedBaseCommitSha: '6e335a7c84fdf4b372c9fe5d07276b6e40df9b88',
-            indexBlobSha: '40c228b65b8a8da7f8747d004aa4d18479209fbf',
+            indexBlobSha: '35dadd6cd598f028e3ba25e9aca538cfab59c4ac',
             files: {
             "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
             "v273-isolated-test/v264-fresh/storage-idb-v264.js": "6d81fba7bbc93dd5192f70a32b809ef8db57dd91",
