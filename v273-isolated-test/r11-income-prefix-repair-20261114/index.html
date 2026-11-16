@@ -2732,7 +2732,7 @@ window.addEventListener('securitypolicyviolation',function(e){logMonitorEvent('e
 window.addEventListener('offline',()=>logMonitorEvent('storage','browser_offline','network','','warning',{online:false}));window.addEventListener('online',()=>logMonitorEvent('storage','browser_online','network','','success',{online:true}));
 
 function monitorRedactedEventDetails(item){const out={...item};if(out.details&&typeof out.details==='object'){const copy={...out.details};for(const k of Object.keys(copy))if(/name|address|phone|email|bank|description|notes|password|token|account/i.test(k))delete copy[k];out.details=copy}return out}
-const R11_CANONICAL_PAGE_URL = Object.freeze('https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R11');
+const R11_CANONICAL_PAGE_URL = Object.freeze('https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R12');
 function toggleMonitorVersionInfo(){
  const box=document.getElementById('monitorVersionInfo');if(!box)return;
  const open=box.hidden;box.hidden=!open;
