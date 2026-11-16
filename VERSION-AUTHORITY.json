@@ -633,8 +633,8 @@
         "VERSION-AUTHORITY.json"
       ],
       "previewDevelopmentCommitSha": "8c821759d20749dfec6a2bb585dcb6f45a42d836",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
+      "previewPullRequestNumber": 31,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/31",
       "previewMergeCommitSha": "pending",
       "embeddedPreviewBuildTimestamp": "2026-11-16T20:40:30Z",
       "versionAuthorityGate": {
@@ -643,8 +643,8 @@
         "url": "pending"
       },
       "staticChecks": {
-        "result": "PASS WITH LIMITATIONS",
-        "details": "V8 syntax parse passed for the embedded timestamp service. A deterministic no-network simulation of the shared service is pending. Browser/Safari verification is pending."
+        "result": "PASS",
+        "details": "V8 syntax parsing passed for the embedded timestamp service and Version Details consumer. Deterministic no-network simulation confirms the shared timestamp resolves to 2026-11-16T20:40:30Z; banner formats as 16/11/2026, 20:40 and Version Details as 16/11/2026, 20:40:30 GMT. The service makes no browser network request. Live iPhone Safari verification remains pending."
       },
       "previewPagesDeployment": {
         "result": "pending",
