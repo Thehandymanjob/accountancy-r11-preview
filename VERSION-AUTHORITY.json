@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261116-R13",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R13",
-    "indexBlobSha": "e65319684ab5223eff086b5dba842ac94d97dd7e",
+    "buildId": "THA-273-R11-PREVIEW-20261116-R14",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R14",
+    "indexBlobSha": "8102b84b49c7f8221b2251cb94aafd9898fc8c31",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "e65319684ab5223eff086b5dba842ac94d97dd7e",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "8102b84b49c7f8221b2251cb94aafd9898fc8c31",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462"
     }
   },
@@ -615,6 +615,46 @@
       "userSafariTest": {
         "result": "not tested",
         "details": "Awaiting iPhone Safari verification of the Preview banner and Version Details timestamps."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting user Safari test and explicit approval."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-16-EMBEDDED-PREVIEW-UPDATE-TIME-010",
+      "dateStarted": "2026-11-16",
+      "purpose": "Replace browser-side GitHub API timestamp retrieval with a build-stamped timestamp embedded in Preview HTML. Banner and Version Details use the same local service; no network request is needed. Increment Preview Build ID to R14 and update its canonical URL. Preview only.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "8c821759d20749dfec6a2bb585dcb6f45a42d836",
+      "previewPullRequestNumber": "pending",
+      "previewPullRequestUrl": "pending",
+      "previewMergeCommitSha": "pending",
+      "embeddedPreviewBuildTimestamp": "2026-11-16T20:40:30Z",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "V8 syntax parse passed for the embedded timestamp service. A deterministic no-network simulation of the shared service is pending. Browser/Safari verification is pending."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting Preview PR merge and Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting iPhone Safari verification of the banner and Version Details."
       },
       "userApproval": {
         "result": "pending",
