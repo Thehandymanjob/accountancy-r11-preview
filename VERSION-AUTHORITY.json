@@ -209,11 +209,13 @@
       },
       "staticChecks": {
         "result": "PASS",
-        "details": "All 7 inline JavaScript blocks pass V8 syntax parsing. The index was reconstructed from approved R11 baseline commit 6e335a7c84fdf4b372c9fe5d07276b6e40df9b88; only the approved Income/Expense save dialog behavior was reapplied. IndexedDB runtime dependencies, records, backups, and canonical URL were not changed. Functional Safari navigation remains pending. Version Authority Gate PASS; PR #8 merged. Preview main and development are synchronized. Pages deployment evidence is pending."
+        "details": "All 7 inline JavaScript blocks pass V8 syntax parsing. The index was reconstructed from approved R11 baseline commit 6e335a7c84fdf4b372c9fe5d07276b6e40df9b88; only the approved Income/Expense save dialog behavior was reapplied. IndexedDB runtime dependencies, records, backups, and canonical URL were not changed. Functional Safari navigation remains pending. Version Authority Gate PASS; PR #8 merged. Preview main and development are synchronized. Pages deployment evidence is pending. PR #9 audit-history update merged; main and development are synchronized."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "details": "Not yet verified."
+        "result": "PASS",
+        "runId": 43840095137,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43840095137",
+        "details": "GitHub Pages build, deployment, and report-build-status jobs completed successfully on Preview main for merge commit c99645593d1abe2543a8acce4598827340d01e1d."
       },
       "userSafariTest": {
         "result": "not tested",
