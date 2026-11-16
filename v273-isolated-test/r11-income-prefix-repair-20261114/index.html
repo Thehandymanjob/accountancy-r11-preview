@@ -1333,7 +1333,7 @@ function printReport(){
  // Work on a clone only; the live report and IndexedDB records remain untouched.
  const node=original.cloneNode(true);
  node.id='ucFinancialReportPrintClone';
- node.style.cssText='display:block!important;width:1080px!important;min-width:1080px!important;max-width:1080px!important;box-sizing:border-box!important;margin:0!important;padding:0!important;background:#fff!important;overflow:visible!important;font-family:Arial,Helvetica,sans-serif!important;color:#172b45!important';
+ node.style.cssText='display:block!important;width:1024px!important;min-width:1024px!important;max-width:1024px!important;box-sizing:border-box!important;margin:0!important;padding:0!important;background:#fff!important;overflow:visible!important;font-family:Arial,Helvetica,sans-serif!important;color:#172b45!important';
  node.querySelectorAll('.uc-head').forEach(el=>{
   el.style.setProperty('gap','12px','important');el.style.setProperty('margin','0 0 10px','important');
   el.style.setProperty('padding','0 0 8px','important');el.style.setProperty('align-items','center','important');
@@ -1408,8 +1408,14 @@ function printReport(){
   });
  });
  const captureRoot=document.createElement('div');
- captureRoot.id='reportBody';
- captureRoot.style.cssText='display:block!important;width:1080px!important;min-width:1080px!important;max-width:1080px!important;box-sizing:border-box!important;background:#fff!important;margin:0!important;padding:0!important;overflow:visible!important';
+ captureRoot.id='thaPdfCaptureRoot';
+ const reportStyle=document.getElementById('ucReportStyle');
+ if(reportStyle){
+  const scopedStyle=document.createElement('style');
+  scopedStyle.textContent=reportStyle.textContent.replace(/#reportBody/g,'#thaPdfCaptureRoot');
+  captureRoot.appendChild(scopedStyle);
+ }
+ captureRoot.style.cssText='display:block!important;width:1024px!important;min-width:1024px!important;max-width:1024px!important;box-sizing:border-box!important;background:#fff!important;margin:0!important;padding:0!important;overflow:visible!important';
  captureRoot.appendChild(node);
  const captureHeight=Math.max(node.scrollHeight,node.offsetHeight,794);
  directOpenReportPDF(captureRoot,'The-Handyman-Financial-Report-'+Date.now()+'.pdf',[5,5,5,5],captureHeight);
@@ -1426,7 +1432,7 @@ async function directOpenReportPDF(node,filename,margin,captureHeight){
   if(!window.html2pdf){await new Promise((resolve,reject)=>{let sc=document.querySelector('script[data-direct-report-pdf]');if(sc){if(window.html2pdf){resolve();return}sc.addEventListener('load',resolve,{once:true});sc.addEventListener('error',()=>reject(new Error('PDF library failed to load')),{once:true});return}sc=document.createElement('script');sc.dataset.directReportPdf='1';sc.crossOrigin='anonymous';sc.src='https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js';sc.onload=resolve;sc.onerror=()=>reject(new Error('PDF library failed to load'));document.head.appendChild(sc)});}
   if(!window.html2pdf)throw new Error('PDF library is unavailable');
   await Promise.all(Array.from(node.querySelectorAll('img')).map(img=>img.complete?Promise.resolve():new Promise(resolve=>{img.onload=resolve;img.onerror=resolve;setTimeout(resolve,2500)})));
-  const blob=await window.html2pdf().set({margin:margin||[8,8,8,8],filename,image:{type:'jpeg',quality:.98},html2canvas:{scale:2,useCORS:true,backgroundColor:'#fff',logging:false,scrollY:0,windowWidth:1123,windowHeight:Math.max(Number(captureHeight)||0,794)},jsPDF:{unit:'mm',format:'a4',orientation:'landscape'},pagebreak:{mode:['css'],avoid:['.uc-head','.uc-group tr','.uc-summary tr']}}).from(node).outputPdf('blob');
+  const blob=await window.html2pdf().set({margin:margin||[8,8,8,8],filename,image:{type:'jpeg',quality:.98},html2canvas:{scale:2,useCORS:true,backgroundColor:'#fff',logging:false,scrollY:0,windowWidth:1024,windowHeight:Math.max(Number(captureHeight)||0,794)},jsPDF:{unit:'mm',format:'a4',orientation:'landscape'},pagebreak:{mode:['css'],avoid:['.uc-head','.uc-group tr','.uc-summary tr']}}).from(node).outputPdf('blob');
   if(!blob||blob.type!=='application/pdf'||blob.size<1000)throw new Error('Generated PDF is empty or invalid');
   const url=URL.createObjectURL(blob);
   tab.__reportPdfBlob=blob;tab.__reportPdfUrl=url;tab.__reportPdfName=filename||'The-Handyman-Report.pdf';
