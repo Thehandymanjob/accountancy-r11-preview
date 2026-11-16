@@ -329,7 +329,7 @@
       },
       "staticChecks": {
         "result": "pass",
-        "details": "All 7 inline JavaScript blocks pass syntax validation. Source assertions confirm A4 landscape output, 1123px canvas width, fixed 1080px report capture, and R6 build identity. GitHub Version Authority Gate still pending."
+        "details": "All 7 inline JavaScript blocks pass syntax validation. Source assertions confirm A4 landscape output, 1123px canvas width, fixed 1080px report capture, and R6 build identity. GitHub Version Authority Gate still pending. Latest source and audit-history commit: 6234cdf7fbb851e6064ef6c75114c788c70672a4. Gate rerun requested against updated PR head."
       },
       "previewPagesDeployment": {
         "result": "pending",
