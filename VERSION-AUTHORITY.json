@@ -352,7 +352,7 @@
     {
       "changeId": "THA-2026-11-16-ACCOUNTING-REPORT-PDF-CAPTURE-003",
       "dateStarted": "2026-11-16",
-      "purpose": "Correct the current-report PDF capture by using a unique capture-root ID, scoping the report stylesheet to that root, and reducing the fixed capture width to 1024 CSS pixels with a matching html2canvas viewport to prevent horizontal clipping on A4 landscape.",
+      "purpose": "Correct current-report PDF capture by using a unique capture-root ID, scoping report CSS to that root, and matching a 1024px capture width with html2canvas viewport to reduce horizontal clipping on A4 landscape.",
       "changedFiles": [
         "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
         "VERSION-AUTHORITY.json"
@@ -368,7 +368,7 @@
       },
       "staticChecks": {
         "result": "PASS",
-        "details": "All 7 inline JavaScript blocks passed V8 syntax parsing. Verified unique capture root, scoped report CSS, 1024px capture width and matching html2canvas windowWidth. Safari visual test pending."
+        "details": "All 7 inline JavaScript blocks passed V8 syntax parsing; unique capture-root ID, scoped report CSS, 1024px capture width and matching html2canvas viewport verified. Safari visual test pending."
       },
       "previewPagesDeployment": {
         "result": "pending",
@@ -378,7 +378,7 @@
       },
       "userSafariTest": {
         "result": "not tested",
-        "details": "Awaiting user iPhone Safari test of the current-report PDF preview and full left/right columns."
+        "details": "Awaiting user iPhone Safari test of current-report PDF preview and full left/right columns."
       },
       "userApproval": {
         "result": "pending",
