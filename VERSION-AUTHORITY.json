@@ -360,25 +360,25 @@
       "previewDevelopmentCommitSha": "2e914ba5769ea983f881db2315c486529e8c709a",
       "previewPullRequestNumber": 17,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/17",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "b329bc274acdc8cd1fdf8aab67a00fb9571ae23a",
       "versionAuthorityGate": {
         "result": "PASS",
-        "runId": 43930779010,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43930779010"
+        "runId": 43930916594,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43930916594"
       },
       "staticChecks": {
         "result": "PASS",
         "details": "All 7 inline JavaScript blocks passed V8 syntax parsing. Verified unique PDF capture-root ID, scoped report stylesheet, 1024px capture width, matching html2canvas viewport, HTML Build ID and canonical URL; Version Authority Gate PASS."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting Preview PR merge and successful GitHub Pages deployment."
+        "result": "PASS",
+        "runId": 43930914686,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43930914686",
+        "details": "Preview GitHub Pages build and deployment completed successfully for R7 merge commit b329bc274acdc8cd1fdf8aab67a00fb9571ae23a."
       },
       "userSafariTest": {
         "result": "not tested",
-        "details": "Awaiting user iPhone Safari test of current-report PDF preview and full left/right columns."
+        "details": "Awaiting user iPhone Safari verification of PDF preview and complete report width."
       },
       "userApproval": {
         "result": "pending",
