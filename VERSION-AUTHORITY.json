@@ -328,8 +328,8 @@
         "url": "pending"
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Pending all inline JavaScript syntax checks, PDF layout source assertions, and Version Authority Gate."
+        "result": "pass",
+        "details": "All 7 inline JavaScript blocks pass syntax validation. Source assertions confirm A4 landscape output, 1123px canvas width, fixed 1080px report capture, and R6 build identity. GitHub Version Authority Gate still pending."
       },
       "previewPagesDeployment": {
         "result": "pending",
