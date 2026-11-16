@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261116-R10",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R10",
-    "indexBlobSha": "e9306f62f9db497d9945db181bef8423347b1e32",
+    "buildId": "THA-273-R11-PREVIEW-20261116-R11",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R11",
+    "indexBlobSha": "136f683e30817f1a2dfb6c70da3713bc9e1ff582",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "e9306f62f9db497d9945db181bef8423347b1e32",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "136f683e30817f1a2dfb6c70da3713bc9e1ff582",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462"
     }
   },
@@ -422,6 +422,45 @@
       "userApproval": {
         "result": "pending",
         "details": "No Production promotion authorized."
+      },
+      "productionPromotionStatus": "pending",
+      "productionPullRequestUrl": "pending",
+      "productionCommitSha": "pending"
+    },
+    {
+      "changeId": "THA-2026-11-16-ACCOUNTING-REPORT-PDF-MOBILE-PREVIEW-005",
+      "dateStarted": "2026-11-16",
+      "purpose": "Fit the financial-report PDF preview to mobile viewport width and show clear PDF generation/ready status before Share PDF. Preserve standard A4 portrait PDF output for printing.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "31169122b8f815bedd2ffcc6c7f94c545d703544",
+      "previewPullRequestNumber": 23,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/23",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Pending JavaScript syntax validation and full Version Authority Gate."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting Preview PR merge and successful Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting iPhone Safari verification of PDF generation status, fit-to-width preview, and Share PDF to Print."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting user Safari test and approval. Production promotion is not authorized."
       },
       "productionPromotionStatus": "pending",
       "productionPullRequestUrl": "pending",
