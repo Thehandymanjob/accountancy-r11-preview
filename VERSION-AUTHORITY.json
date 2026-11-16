@@ -465,9 +465,7 @@
       "productionPromotionStatus": "pending",
       "productionPullRequestUrl": "pending",
       "productionCommitSha": "pending"
-    }
-  ],
-  "changes": [
+    },
     {
       "changeId": "THA-2026-11-16-ACCOUNTING-REPORT-PDF-VERTICAL-ROWS-006",
       "dateStarted": "2026-11-16",
@@ -477,17 +475,17 @@
         "VERSION-AUTHORITY.json"
       ],
       "previewDevelopmentCommitSha": "f933ff38e44aa37fd158976f7ab98da6e93c4705",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
+      "previewPullRequestNumber": 24,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/24",
       "previewMergeCommitSha": "pending",
-      "staticChecks": {
-        "result": "pending",
-        "details": "Pending JavaScript syntax validation and Version Authority Gate."
-      },
       "versionAuthorityGate": {
         "result": "pending",
         "runId": "pending",
         "url": "pending"
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Pending JavaScript syntax validation and Version Authority Gate."
       },
       "previewPagesDeployment": {
         "result": "pending",
