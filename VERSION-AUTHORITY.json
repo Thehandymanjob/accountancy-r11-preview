@@ -172,8 +172,10 @@
         "details": "Version Authority Gate verified repository, branch, approved baseline, app version, Build ID, canonical URL, and all 20 pinned runtime assets. Manual comparison confirmed only the approved three files changed."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "details": "Awaiting Pages deployment evidence after merge."
+        "result": "PASS",
+        "runId": 43838027276,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43838027276",
+        "details": "GitHub Pages build and deployment completed successfully on Preview main for merge commit 8a6d4a1e41c0d1c0430f050da8b98f2e6b8e5ae1."
       },
       "userSafariTest": {
         "result": "not tested",
