@@ -793,23 +793,25 @@
         "VERSION-AUTHORITY.json"
       ],
       "previewDevelopmentCommitSha": "4a06444985d4d82c7827d8b07805014c9a17f5d9",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
-      "previewMergeCommitSha": "pending",
+      "previewPullRequestNumber": 39,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/39",
+      "previewMergeCommitSha": "c5428443e7e0c150a5c2b3f7b4147a0a1f56824c",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 43972668692,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43972668692",
+        "pullRequestRunId": 43972587234,
+        "details": "Gate passed on the PR and Preview main, validating R18 identity, canonical URL, approved baseline and all 21 pinned runtime assets."
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Pending syntax parsing, Version Authority Gate and review of generated popup HTML closing-script markup."
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Version Authority Gate passed. Source inspection confirms the malformed escaped script terminator was replaced by safe concatenation that emits a real closing script tag in the popup HTML. No live browser parsing or iPhone Safari PDF test has yet been run."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting PR merge and successful Preview Pages deployment."
+        "result": "PASS",
+        "runId": 43972666833,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43972666833",
+        "details": "GitHub Pages build and deployment completed successfully for Preview R18 merge commit c5428443e7e0c150a5c2b3f7b4147a0a1f56824c."
       },
       "userSafariTest": {
         "result": "not tested",
