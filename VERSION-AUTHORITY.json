@@ -593,8 +593,8 @@
         "VERSION-AUTHORITY.json"
       ],
       "previewDevelopmentCommitSha": "f5b3dd1fff70a72d5df7e7794235ccfc9b4ce189",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
+      "previewPullRequestNumber": 29,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/29",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
         "result": "pending",
@@ -602,8 +602,8 @@
         "url": "pending"
       },
       "staticChecks": {
-        "result": "PASS WITH LIMITATIONS",
-        "details": "V8 syntax parsing passed for the deployment timestamp service. GitHub Actions repository-wide runs endpoint was independently verified to return successful Pages deployment runs and the exact latest completion timestamp. Browser/Safari runtime verification is pending."
+        "result": "PASS",
+        "details": "V8 syntax parsing passed. The repository-wide Actions runs endpoint was independently verified to contain the successful Pages deployment run; simulated failure of Pages-build lookup followed by Actions-runs fallback returned the exact ISO timestamp 2026-11-16T20:30:30Z and both expected Europe/London display formats. Live iPhone Safari verification remains pending."
       },
       "previewPagesDeployment": {
         "result": "pending",
