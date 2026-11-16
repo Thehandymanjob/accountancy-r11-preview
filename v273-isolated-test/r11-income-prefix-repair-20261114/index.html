@@ -1329,11 +1329,11 @@ function printReport(){
  refreshReport();
  const original=document.querySelector('#reportBody .uc-print-report');
  if(!original){alert('The financial report could not be prepared. Please generate the report again.');return}
- // A4 landscape gives the financial summary and detail columns enough printable width.
+ // A4 portrait stacks report sections vertically and fits the full page width on mobile.
  // Work on a clone only; the live report and IndexedDB records remain untouched.
  const node=original.cloneNode(true);
  node.id='ucFinancialReportPrintClone';
- node.style.cssText='display:block!important;width:1024px!important;min-width:1024px!important;max-width:1024px!important;box-sizing:border-box!important;margin:0!important;padding:0!important;background:#fff!important;overflow:visible!important;font-family:Arial,Helvetica,sans-serif!important;color:#172b45!important';
+ node.style.cssText='display:block!important;width:720px!important;min-width:720px!important;max-width:720px!important;box-sizing:border-box!important;margin:0!important;padding:0!important;background:#fff!important;overflow:visible!important;font-family:Arial,Helvetica,sans-serif!important;color:#172b45!important';
  node.querySelectorAll('.uc-head').forEach(el=>{
   el.style.setProperty('gap','12px','important');el.style.setProperty('margin','0 0 10px','important');
   el.style.setProperty('padding','0 0 8px','important');el.style.setProperty('align-items','center','important');
@@ -1348,7 +1348,7 @@ function printReport(){
  node.querySelectorAll('.uc-head p').forEach(el=>{el.style.setProperty('font-size','12px','important');el.style.setProperty('line-height','1.25','important');el.style.setProperty('margin','2px 0','important')});
  node.querySelectorAll('.uc-head strong').forEach(el=>{el.style.setProperty('font-size','12px','important');el.style.setProperty('line-height','1.25','important')});
  node.querySelectorAll('.uc-columns').forEach(el=>{
-  el.style.setProperty('display','grid','important');el.style.setProperty('grid-template-columns','minmax(0,1fr) minmax(0,1fr)','important');
+  el.style.setProperty('display','grid','important');el.style.setProperty('grid-template-columns','minmax(0,1fr)','important');
   el.style.setProperty('gap','12px','important');el.style.setProperty('width','100%','important');
   el.style.setProperty('min-width','0','important');el.style.setProperty('align-items','start','important');
  });
@@ -1382,7 +1382,7 @@ function printReport(){
   table.style.setProperty('width','100%','important');table.style.setProperty('max-width','100%','important');
   table.style.setProperty('table-layout','fixed','important');table.style.setProperty('border-collapse','collapse','important');
   const count=table.querySelectorAll('thead th').length;
-  const widths=count===5?['34%','14%','20%','20%','12%']:count===4?['40%','17%','25%','18%']:null;
+  const widths=count===5?['35%','12%','20%','15%','18%']:count===4?['42%','15%','25%','18%']:count===3?['55%','20%','25%']:null;
   if(widths)table.querySelectorAll('thead th').forEach((th,i)=>th.style.setProperty('width',widths[i]||'auto','important'));
  });
  node.querySelectorAll('.uc-details td,.uc-details th').forEach(el=>{
@@ -1415,9 +1415,9 @@ function printReport(){
   scopedStyle.textContent=reportStyle.textContent.replace(/#reportBody/g,'#thaPdfCaptureRoot');
   captureRoot.appendChild(scopedStyle);
  }
- captureRoot.style.cssText='display:block!important;width:1024px!important;min-width:1024px!important;max-width:1024px!important;box-sizing:border-box!important;background:#fff!important;margin:0!important;padding:0!important;overflow:visible!important';
+ captureRoot.style.cssText='display:block!important;width:720px!important;min-width:720px!important;max-width:720px!important;box-sizing:border-box!important;background:#fff!important;margin:0!important;padding:0!important;overflow:visible!important';
  captureRoot.appendChild(node);
- const captureHeight=Math.max(node.scrollHeight,node.offsetHeight,794);
+ const captureHeight=Math.max(node.scrollHeight,node.offsetHeight,1000);
  directOpenReportPDF(captureRoot,'The-Handyman-Financial-Report-'+Date.now()+'.pdf',[5,5,5,5],captureHeight);
 }
 async function directOpenReportPDF(node,filename,margin,captureHeight){
@@ -1432,12 +1432,12 @@ async function directOpenReportPDF(node,filename,margin,captureHeight){
   if(!window.html2pdf){await new Promise((resolve,reject)=>{let sc=document.querySelector('script[data-direct-report-pdf]');if(sc){if(window.html2pdf){resolve();return}sc.addEventListener('load',resolve,{once:true});sc.addEventListener('error',()=>reject(new Error('PDF library failed to load')),{once:true});return}sc=document.createElement('script');sc.dataset.directReportPdf='1';sc.crossOrigin='anonymous';sc.src='https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js';sc.onload=resolve;sc.onerror=()=>reject(new Error('PDF library failed to load'));document.head.appendChild(sc)});}
   if(!window.html2pdf)throw new Error('PDF library is unavailable');
   await Promise.all(Array.from(node.querySelectorAll('img')).map(img=>img.complete?Promise.resolve():new Promise(resolve=>{img.onload=resolve;img.onerror=resolve;setTimeout(resolve,2500)})));
-  const blob=await window.html2pdf().set({margin:margin||[8,8,8,8],filename,image:{type:'jpeg',quality:.98},html2canvas:{scale:2,useCORS:true,backgroundColor:'#fff',logging:false,scrollY:0,windowWidth:1024,windowHeight:Math.max(Number(captureHeight)||0,794)},jsPDF:{unit:'mm',format:'a4',orientation:'landscape'},pagebreak:{mode:['css'],avoid:['.uc-head','.uc-group tr','.uc-summary tr']}}).from(node).outputPdf('blob');
+  const blob=await window.html2pdf().set({margin:margin||[8,8,8,8],filename,image:{type:'jpeg',quality:.98},html2canvas:{scale:2,useCORS:true,backgroundColor:'#fff',logging:false,scrollY:0,windowWidth:720,windowHeight:Math.max(Number(captureHeight)||0,794)},jsPDF:{unit:'mm',format:'a4',orientation:'portrait'},pagebreak:{mode:['css'],avoid:['.uc-head','.uc-group tr','.uc-summary tr']}}).from(node).outputPdf('blob');
   if(!blob||blob.type!=='application/pdf'||blob.size<1000)throw new Error('Generated PDF is empty or invalid');
   const url=URL.createObjectURL(blob);
   tab.__reportPdfBlob=blob;tab.__reportPdfUrl=url;tab.__reportPdfName=filename||'The-Handyman-Report.pdf';
   tab.document.title=tab.__reportPdfName;
-  const frame=tab.document.getElementById('pdfFrame');if(!frame)throw new Error('PDF preview frame is unavailable');frame.src=url+'#view=FitH';
+  const frame=tab.document.getElementById('pdfFrame');if(!frame)throw new Error('PDF preview frame is unavailable');frame.style.width='100%';frame.style.maxWidth='520px';frame.style.left='50%';frame.style.transform='translateX(-50%)';frame.src=url+'#view=Fit';
   tab.addEventListener('pagehide',()=>{try{URL.revokeObjectURL(url)}catch(_){}},{once:true});
  }catch(e){try{tab.document.body.innerHTML='<main style="font:16px Arial;padding:24px"><h2>PDF could not be created</h2><p>Check the internet connection and return to the app to try again.</p></main>'}catch(_){}alert('PDF creation failed: '+(e&&e.message?e.message:'unknown error'));}
 }
