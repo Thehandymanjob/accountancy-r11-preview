@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261116-R6",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R6",
-    "indexBlobSha": "59190f9e5318a80b66092d4591b147881ab812c5",
+    "buildId": "THA-273-R11-PREVIEW-20261116-R5",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R5&utm_source=chatgpt.com",
+    "indexBlobSha": "795d3c3e1ae33adf5e0c5c131b1944857b161e9e",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "59190f9e5318a80b66092d4591b147881ab812c5",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "795d3c3e1ae33adf5e0c5c131b1944857b161e9e",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462"
     }
   },
@@ -300,46 +300,6 @@
       "userSafariTest": {
         "result": "not tested",
         "details": "Awaiting user test on iPhone Safari for PDF Preview width, A4 print scale, and full right-hand amount columns."
-      },
-      "userApproval": {
-        "result": "pending",
-        "details": "Awaiting user Safari test and approval."
-      },
-      "productionPromotionStatus": "pending",
-      "productionPullRequestUrl": "pending",
-      "productionCommitSha": "pending"
-    },
-    {
-      "changeId": "THA-2026-11-16-ACCOUNTING-REPORT-LANDSCAPE-PDF-002",
-      "dateStarted": "2026-11-16",
-      "purpose": "Replace the failed portrait PDF sizing approach with a fixed-width A4 landscape report. Keep financial summary sections in two balanced columns, explicitly allocate expense-detail table widths, and prevent right-edge clipping and excessive whitespace.",
-      "changedFiles": [
-        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
-        ".github/workflows/r11-version-authority.yml",
-        "VERSION-AUTHORITY.json"
-      ],
-      "previewDevelopmentCommitSha": "pending",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
-      "previewMergeCommitSha": "pending",
-      "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
-      },
-      "staticChecks": {
-        "result": "pass",
-        "details": "All 7 inline JavaScript blocks pass syntax validation. Source assertions confirm A4 landscape output, 1123px canvas width, fixed 1080px report capture, and R6 build identity. GitHub Version Authority Gate still pending. Latest source and audit-history commit: 6234cdf7fbb851e6064ef6c75114c788c70672a4. Gate rerun requested against updated PR head."
-      },
-      "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting Preview PR merge and successful GitHub Pages deployment."
-      },
-      "userSafariTest": {
-        "result": "not tested",
-        "details": "Awaiting user test on iPhone Safari. Confirm PDF Preview fits page width, all expense columns including Amount are visible, and A4 landscape print is legible."
       },
       "userApproval": {
         "result": "pending",
