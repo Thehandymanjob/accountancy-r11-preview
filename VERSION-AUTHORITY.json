@@ -8,7 +8,7 @@
     "version": "273",
     "buildId": "THA-273-R11-PREVIEW-20261116-R13",
     "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R13",
-    "indexBlobSha": "a0eafcef6c9965be6f3e5a94344a07acd98af60e",
+    "indexBlobSha": "18702978b7856c2ba7760fb226c64feb4cf7351b",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "a0eafcef6c9965be6f3e5a94344a07acd98af60e",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "18702978b7856c2ba7760fb226c64feb4cf7351b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462"
     }
   },
@@ -539,6 +539,46 @@
       "userApproval": {
         "result": "pending",
         "details": "Preview-only change. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-16-VERSION-LAST-UPDATED-SHARED-SERVICE-008",
+      "dateStarted": "2026-11-16",
+      "purpose": "Replace separate Last Updated lookups with one shared cached deployment-time service. Prefer GitHub Pages build history and fall back to the known Pages workflow run endpoint; include bounded requests and diagnostic errors. Preview only.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "e6362e73626cd8cdb38cf7c081836ae688755bc3",
+      "previewPullRequestNumber": 26,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/26",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "FAIL (initial run; rerun pending)",
+        "runId": 43949359095,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43949359095",
+        "details": "The initial gate stopped at the index.html runtime SHA mismatch because the manifest still pinned the prior R13 index blob. The corrected index SHA is now recorded; the gate must be rerun before merge."
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Source review completed. All 20 unchanged Preview runtime dependencies and all 21 Production pinned runtime assets matched their respective manifests. JavaScript syntax validation remains pending."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting corrected Version Authority Gate, PR merge and successful Preview Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user iPhone Safari verification of the Last Updated banner and Version Details after refresh and reopen."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting user Safari test and explicit approval."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
