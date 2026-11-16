@@ -675,21 +675,21 @@
       "previewDevelopmentCommitSha": "c88352758de3dcc048b22e9f1f1f0aa2b348aea1",
       "previewPullRequestNumber": "pending",
       "previewPullRequestUrl": "pending",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "6ab99dfe72979720fe344c219cec849fde969b63",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 43954710757,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43954710757"
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
-        "details": "V8 parsing passed for the complete printReport/directOpenReportPDF code. Source-level checks confirm A4 portrait, explicit 185mm capture width, measured attached-node height, 12mm top/bottom margins, vertical row layout, image/font readiness, and viewport-constrained PDF preview. No live browser PDF rendering or iPhone Safari test has been run yet."
+        "details": "V8 parsing passed for the complete printReport/directOpenReportPDF code. Source-level checks confirm A4 portrait, explicit 185mm capture width, attached/measured clone, 12mm top/bottom margins, vertical financial rows and expense-detail fields, image/font readiness, CSS pagination, and mobile viewport-constrained preview. Live browser PDF rendering and iPhone Safari visual verification remain pending."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting Preview PR merge and GitHub Pages deployment."
+        "result": "PASS",
+        "runId": 43954709661,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43954709661",
+        "details": "GitHub Pages build, report-build-status and deploy jobs all completed successfully for Preview R15 merge commit 6ab99dfe72979720fe344c219cec849fde969b63."
       },
       "userSafariTest": {
         "result": "not tested",
