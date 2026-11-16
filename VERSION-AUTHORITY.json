@@ -752,23 +752,25 @@
         "VERSION-AUTHORITY.json"
       ],
       "previewDevelopmentCommitSha": "d2ce8f01994f1069d654ea4a8ceed334f1479eef",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
-      "previewMergeCommitSha": "pending",
+      "previewPullRequestNumber": 37,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/37",
+      "previewMergeCommitSha": "d38ee53d0f6697a1bc6a4f94f381fa44431807bf",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 43958682049,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43958682049",
+        "pullRequestRunId": 43958605043,
+        "details": "Version Authority Gate passed on the PR and again on Preview main. It validated R17 identity, canonical URL, approved baseline ancestry and all 21 pinned runtime assets."
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Pending JavaScript syntax validation, authority SHA validation and Version Authority Gate."
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Authority gate validated the updated index Git blob SHA and all 21 runtime asset pins. Source diff is limited to the yellow financial-report PDF capture scale/windowHeight and generation status, plus R17 identity. No standalone browser execution or live PDF render was run; iPhone Safari test remains pending."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting Preview PR merge and successful Pages deployment."
+        "result": "PASS",
+        "runId": 43958680553,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43958680553",
+        "details": "GitHub Pages build and deployment completed successfully for Preview R17 merge commit d38ee53d0f6697a1bc6a4f94f381fa44431807bf."
       },
       "userSafariTest": {
         "result": "not tested",
