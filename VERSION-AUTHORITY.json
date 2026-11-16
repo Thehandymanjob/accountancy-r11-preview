@@ -198,18 +198,18 @@
         ".github/workflows/r11-version-authority.yml",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "pending",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
-      "previewMergeCommitSha": "pending",
+      "previewDevelopmentCommitSha": "15eacad1c7007eac078497ddfe91c9c8ccfee640",
+      "previewPullRequestNumber": 8,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/8",
+      "previewMergeCommitSha": "34559c98dbc5b135999ed5b5f980f4c16d3c3f2d",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 43839889933,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43839889933"
       },
       "staticChecks": {
         "result": "PASS",
-        "details": "All 7 inline JavaScript blocks pass V8 syntax parsing. The index was reconstructed from approved R11 baseline commit 6e335a7c84fdf4b372c9fe5d07276b6e40df9b88; only the approved Income/Expense save dialog behavior was reapplied. IndexedDB runtime dependencies, records, backups, and canonical URL were not changed. Functional Safari navigation remains pending."
+        "details": "All 7 inline JavaScript blocks pass V8 syntax parsing. The index was reconstructed from approved R11 baseline commit 6e335a7c84fdf4b372c9fe5d07276b6e40df9b88; only the approved Income/Expense save dialog behavior was reapplied. IndexedDB runtime dependencies, records, backups, and canonical URL were not changed. Functional Safari navigation remains pending. Version Authority Gate PASS; PR #8 merged. Preview main and development are synchronized. Pages deployment evidence is pending."
       },
       "previewPagesDeployment": {
         "result": "pending",
