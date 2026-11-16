@@ -1329,57 +1329,73 @@ function printReport(){
  refreshReport();
  const original=document.querySelector('#reportBody .uc-print-report');
  if(!original){alert('The financial report could not be prepared. Please generate the report again.');return}
- // Build a print-only copy. No live UI, accounting data, or IndexedDB records are changed.
+ // A4 landscape gives the financial summary and detail columns enough printable width.
+ // Work on a clone only; the live report and IndexedDB records remain untouched.
  const node=original.cloneNode(true);
  node.id='ucFinancialReportPrintClone';
- node.style.cssText='width:100%;max-width:100%;min-width:0;box-sizing:border-box;margin:0;padding:0;background:#fff;overflow:visible;font-family:Arial,Helvetica,sans-serif;color:#172b45';
+ node.style.cssText='display:block!important;width:1080px!important;min-width:1080px!important;max-width:1080px!important;box-sizing:border-box!important;margin:0!important;padding:0!important;background:#fff!important;overflow:visible!important;font-family:Arial,Helvetica,sans-serif!important;color:#172b45!important';
  node.querySelectorAll('.uc-head').forEach(el=>{
-  el.style.setProperty('gap','10px','important');
-  el.style.setProperty('margin','0 0 8px','important');
-  el.style.setProperty('padding','0 0 7px','important');
-  el.style.setProperty('align-items','center','important');
+  el.style.setProperty('gap','12px','important');el.style.setProperty('margin','0 0 10px','important');
+  el.style.setProperty('padding','0 0 8px','important');el.style.setProperty('align-items','center','important');
   el.style.setProperty('break-inside','avoid','important');
  });
  node.querySelectorAll('.uc-logo').forEach(el=>{
-  el.style.setProperty('width','30mm','important');el.style.setProperty('height','25mm','important');
-  el.style.setProperty('max-width','30mm','important');el.style.setProperty('max-height','25mm','important');
-  el.style.setProperty('flex','0 0 30mm','important');el.style.setProperty('object-fit','contain','important');
+  el.style.setProperty('width','34mm','important');el.style.setProperty('height','27mm','important');
+  el.style.setProperty('max-width','34mm','important');el.style.setProperty('max-height','27mm','important');
+  el.style.setProperty('flex','0 0 34mm','important');el.style.setProperty('object-fit','contain','important');
  });
- node.querySelectorAll('.uc-head h2').forEach(el=>{el.style.setProperty('font-size','21px','important');el.style.setProperty('line-height','1.15','important');el.style.setProperty('margin','0 0 2px','important')});
- node.querySelectorAll('.uc-head p').forEach(el=>{el.style.setProperty('font-size','11px','important');el.style.setProperty('line-height','1.25','important');el.style.setProperty('margin','2px 0','important')});
- node.querySelectorAll('.uc-head strong').forEach(el=>{el.style.setProperty('font-size','11px','important');el.style.setProperty('line-height','1.25','important')});
+ node.querySelectorAll('.uc-head h2').forEach(el=>{el.style.setProperty('font-size','22px','important');el.style.setProperty('line-height','1.15','important');el.style.setProperty('margin','0 0 3px','important')});
+ node.querySelectorAll('.uc-head p').forEach(el=>{el.style.setProperty('font-size','12px','important');el.style.setProperty('line-height','1.25','important');el.style.setProperty('margin','2px 0','important')});
+ node.querySelectorAll('.uc-head strong').forEach(el=>{el.style.setProperty('font-size','12px','important');el.style.setProperty('line-height','1.25','important')});
  node.querySelectorAll('.uc-columns').forEach(el=>{
   el.style.setProperty('display','grid','important');el.style.setProperty('grid-template-columns','minmax(0,1fr) minmax(0,1fr)','important');
-  el.style.setProperty('gap','8px','important');el.style.setProperty('width','100%','important');el.style.setProperty('min-width','0','important');
+  el.style.setProperty('gap','12px','important');el.style.setProperty('width','100%','important');
+  el.style.setProperty('min-width','0','important');el.style.setProperty('align-items','start','important');
  });
- node.querySelectorAll('.uc-group,.uc-summary').forEach(el=>{el.style.setProperty('min-width','0','important');el.style.setProperty('width','100%','important');el.style.setProperty('margin-bottom','6px','important')});
- node.querySelectorAll('.uc-group h3,.uc-summary h3').forEach(el=>{
-  el.style.setProperty('font-size','10px','important');el.style.setProperty('line-height','1.2','important');
-  el.style.setProperty('padding','5px 6px','important');el.style.setProperty('white-space','normal','important');
+ node.querySelectorAll('.uc-columns>div,.uc-group,.uc-summary,.uc-details').forEach(el=>{
+  el.style.setProperty('min-width','0','important');el.style.setProperty('max-width','100%','important');
+  el.style.setProperty('box-sizing','border-box','important');
+ });
+ node.querySelectorAll('.uc-group,.uc-summary').forEach(el=>el.style.setProperty('margin-bottom','7px','important'));
+ node.querySelectorAll('.uc-group h3,.uc-summary h3,.uc-details h3').forEach(el=>{
+  el.style.setProperty('font-size','11px','important');el.style.setProperty('line-height','1.2','important');
+  el.style.setProperty('padding','6px 8px','important');el.style.setProperty('white-space','normal','important');
   el.style.setProperty('overflow-wrap','anywhere','important');
  });
  node.querySelectorAll('.uc-group table,.uc-summary table').forEach(el=>{
-  el.style.setProperty('font-size','10px','important');el.style.setProperty('line-height','1.2','important');
+  el.style.setProperty('font-size','11px','important');el.style.setProperty('line-height','1.25','important');
   el.style.setProperty('table-layout','fixed','important');el.style.setProperty('width','100%','important');
   el.style.setProperty('border-collapse','collapse','important');
  });
  node.querySelectorAll('.uc-group td,.uc-group th,.uc-summary td,.uc-summary th').forEach(el=>{
-  el.style.setProperty('font-size','10px','important');el.style.setProperty('line-height','1.2','important');
-  el.style.setProperty('padding','3px 5px','important');el.style.setProperty('overflow-wrap','anywhere','important');
+  el.style.setProperty('font-size','11px','important');el.style.setProperty('line-height','1.25','important');
+  el.style.setProperty('padding','4px 7px','important');el.style.setProperty('overflow-wrap','anywhere','important');
   el.style.setProperty('vertical-align','middle','important');
  });
- node.querySelectorAll('.uc-group td:first-child,.uc-summary td:first-child,.uc-group th:first-child,.uc-summary th:first-child').forEach(el=>el.style.setProperty('width','66%','important'));
+ node.querySelectorAll('.uc-group td:first-child,.uc-summary td:first-child,.uc-group th:first-child,.uc-summary th:first-child').forEach(el=>el.style.setProperty('width','70%','important'));
  node.querySelectorAll('.uc-group td:last-child,.uc-summary td:last-child,.uc-group th:last-child,.uc-summary th:last-child').forEach(el=>{
-  el.style.setProperty('width','34%','important');el.style.setProperty('text-align','right','important');
+  el.style.setProperty('width','30%','important');el.style.setProperty('text-align','right','important');
   el.style.setProperty('white-space','nowrap','important');el.style.setProperty('font-variant-numeric','tabular-nums','important');
  });
- node.querySelectorAll('.uc-details').forEach(el=>{el.style.setProperty('margin-top','8px','important');el.style.setProperty('break-inside','auto','important')});
- node.querySelectorAll('.uc-details h3').forEach(el=>{el.style.setProperty('font-size','10px','important');el.style.setProperty('padding','5px 6px','important')});
- node.querySelectorAll('.uc-details table').forEach(el=>{el.style.setProperty('font-size','9px','important');el.style.setProperty('table-layout','fixed','important');el.style.setProperty('width','100%','important')});
- node.querySelectorAll('.uc-details td,.uc-details th').forEach(el=>{el.style.setProperty('font-size','9px','important');el.style.setProperty('padding','3px 4px','important');el.style.setProperty('overflow-wrap','anywhere','important')});
- node.querySelectorAll('.uc-details .amt').forEach(el=>{el.style.setProperty('white-space','nowrap','important');el.style.setProperty('text-align','right','important')});
- node.querySelectorAll('.uc-receipt-thumb').forEach(el=>{el.style.setProperty('max-width','18mm','important');el.style.setProperty('max-height','18mm','important')});
- // Keep the existing zero-row rule unchanged: only zero-value detail rows in sections 2–4 are hidden.
+ node.querySelectorAll('.uc-details').forEach(el=>{el.style.setProperty('width','100%','important');el.style.setProperty('margin-top','12px','important');el.style.setProperty('break-inside','auto','important')});
+ node.querySelectorAll('.uc-details table').forEach(table=>{
+  table.style.setProperty('width','100%','important');table.style.setProperty('max-width','100%','important');
+  table.style.setProperty('table-layout','fixed','important');table.style.setProperty('border-collapse','collapse','important');
+  const count=table.querySelectorAll('thead th').length;
+  const widths=count===5?['34%','14%','20%','20%','12%']:count===4?['40%','17%','25%','18%']:null;
+  if(widths)table.querySelectorAll('thead th').forEach((th,i)=>th.style.setProperty('width',widths[i]||'auto','important'));
+ });
+ node.querySelectorAll('.uc-details td,.uc-details th').forEach(el=>{
+  el.style.setProperty('font-size','10px','important');el.style.setProperty('line-height','1.25','important');
+  el.style.setProperty('padding','4px 6px','important');el.style.setProperty('overflow-wrap','anywhere','important');
+  el.style.setProperty('word-break','normal','important');el.style.setProperty('vertical-align','middle','important');
+ });
+ node.querySelectorAll('.uc-details .amt').forEach(el=>{
+  el.style.setProperty('white-space','nowrap','important');el.style.setProperty('text-align','right','important');
+  el.style.setProperty('font-variant-numeric','tabular-nums','important');
+ });
+ node.querySelectorAll('.uc-receipt-thumb').forEach(el=>{el.style.setProperty('max-width','16mm','important');el.style.setProperty('max-height','16mm','important')});
+ // Preserve the existing rule: hide zero-value detail rows only in sections 2–4.
  node.querySelectorAll('.uc-group').forEach(group=>{
   const heading=group.querySelector('h3');
   const match=heading&&(heading.textContent||'').trim().match(/^(\d+)\s*[.\-]/);
@@ -1391,11 +1407,11 @@ function printReport(){
    if(raw!==''&&Number.isFinite(Number(raw))&&Number(raw)===0)row.remove();
   });
  });
- const captureHeight=Math.max(original.scrollHeight,original.offsetHeight,Math.ceil(original.getBoundingClientRect().height),1123);
  const captureRoot=document.createElement('div');
  captureRoot.id='reportBody';
- captureRoot.style.cssText='display:block;width:100%;max-width:100%;min-width:0;box-sizing:border-box;background:#fff;margin:0;padding:0;overflow:visible';
+ captureRoot.style.cssText='display:block!important;width:1080px!important;min-width:1080px!important;max-width:1080px!important;box-sizing:border-box!important;background:#fff!important;margin:0!important;padding:0!important;overflow:visible!important';
  captureRoot.appendChild(node);
+ const captureHeight=Math.max(node.scrollHeight,node.offsetHeight,794);
  directOpenReportPDF(captureRoot,'The-Handyman-Financial-Report-'+Date.now()+'.pdf',[5,5,5,5],captureHeight);
 }
 async function directOpenReportPDF(node,filename,margin,captureHeight){
@@ -1410,7 +1426,7 @@ async function directOpenReportPDF(node,filename,margin,captureHeight){
   if(!window.html2pdf){await new Promise((resolve,reject)=>{let sc=document.querySelector('script[data-direct-report-pdf]');if(sc){if(window.html2pdf){resolve();return}sc.addEventListener('load',resolve,{once:true});sc.addEventListener('error',()=>reject(new Error('PDF library failed to load')),{once:true});return}sc=document.createElement('script');sc.dataset.directReportPdf='1';sc.crossOrigin='anonymous';sc.src='https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js';sc.onload=resolve;sc.onerror=()=>reject(new Error('PDF library failed to load'));document.head.appendChild(sc)});}
   if(!window.html2pdf)throw new Error('PDF library is unavailable');
   await Promise.all(Array.from(node.querySelectorAll('img')).map(img=>img.complete?Promise.resolve():new Promise(resolve=>{img.onload=resolve;img.onerror=resolve;setTimeout(resolve,2500)})));
-  const blob=await window.html2pdf().set({margin:margin||[8,8,8,8],filename,image:{type:'jpeg',quality:.98},html2canvas:{scale:2,useCORS:true,backgroundColor:'#fff',logging:false,scrollY:0,windowWidth:794,windowHeight:Math.max(Number(captureHeight)||0,1123)},jsPDF:{unit:'mm',format:'a4',orientation:'portrait'},pagebreak:{mode:['css'],avoid:['.uc-head','.uc-group tr','.uc-summary tr']}}).from(node).outputPdf('blob');
+  const blob=await window.html2pdf().set({margin:margin||[8,8,8,8],filename,image:{type:'jpeg',quality:.98},html2canvas:{scale:2,useCORS:true,backgroundColor:'#fff',logging:false,scrollY:0,windowWidth:1123,windowHeight:Math.max(Number(captureHeight)||0,794)},jsPDF:{unit:'mm',format:'a4',orientation:'landscape'},pagebreak:{mode:['css'],avoid:['.uc-head','.uc-group tr','.uc-summary tr']}}).from(node).outputPdf('blob');
   if(!blob||blob.type!=='application/pdf'||blob.size<1000)throw new Error('Generated PDF is empty or invalid');
   const url=URL.createObjectURL(blob);
   tab.__reportPdfBlob=blob;tab.__reportPdfUrl=url;tab.__reportPdfName=filename||'The-Handyman-Report.pdf';
