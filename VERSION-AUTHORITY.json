@@ -555,22 +555,22 @@
       "previewDevelopmentCommitSha": "e6362e73626cd8cdb38cf7c081836ae688755bc3",
       "previewPullRequestNumber": 26,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/26",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "03c97e128efc21889e38ba5314f354af64c7e07d",
       "versionAuthorityGate": {
-        "result": "FAIL (initial run; rerun pending)",
-        "runId": 43949359095,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43949359095",
-        "details": "The initial gate stopped at the index.html runtime SHA mismatch because the manifest still pinned the prior R13 index blob. The corrected index SHA is now recorded; the gate must be rerun before merge."
+        "result": "PASS",
+        "runId": 43950193899,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43950193899",
+        "details": "The corrected Version Authority Gate passed on Preview main after merge. It verified the approved repository/branch identity, R11 version and Build ID, canonical URL, approved baseline ancestry, and all 21 pinned runtime assets."
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Source review completed. All 20 unchanged Preview runtime dependencies and all 21 Production pinned runtime assets matched their respective manifests. JavaScript syntax validation remains pending."
+        "result": "PASS WITH LIMITATIONS",
+        "details": "The Version Authority Gate verified all 21 pinned runtime assets and R11 identity. All 20 unchanged Preview dependencies and all 21 Production pinned assets were independently checked against their manifests. A standalone JavaScript syntax parser and live browser execution were not run."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting corrected Version Authority Gate, PR merge and successful Preview Pages deployment."
+        "result": "PASS",
+        "runId": 43950193571,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43950193571",
+        "details": "GitHub Pages build, report-build-status, and deploy jobs completed successfully for Preview merge commit 03c97e128efc21889e38ba5314f354af64c7e07d."
       },
       "userSafariTest": {
         "result": "not tested",
