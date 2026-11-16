@@ -712,23 +712,24 @@
         "VERSION-AUTHORITY.json"
       ],
       "previewDevelopmentCommitSha": "1aca9c5e4c98f636cfa457d7e052c4afe8f0b83e",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
-      "previewMergeCommitSha": "pending",
+      "previewPullRequestNumber": 35,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/35",
+      "previewMergeCommitSha": "980b3c41cb8ece54f8fdb591906ca88d971637ea",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 43957323411,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43957323411",
+        "details": "The R11 Version Authority Gate passed on Preview main for merge commit 980b3c41cb8ece54f8fdb591906ca88d971637ea."
       },
       "staticChecks": {
-        "result": "PASS",
-        "details": "Restored the previously validated shared Pages deployment-time lookup implementation from Preview commit f5b3dd1fff70a72d5df7e7794235ccfc9b4ce189. All inline JavaScript blocks in the updated HTML parsed with V8. Runtime API lookup and iPhone Safari display remain to be verified."
+        "result": "PASS WITH LIMITATIONS",
+        "details": "All inline JavaScript blocks in the updated HTML parsed with V8. The restored timestamp service is the previously validated Pages-build-history lookup with exact successful GitHub Pages Actions-run fallback; live API execution from iPhone Safari remains pending."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting Preview PR merge and successful Pages deployment."
+        "result": "PASS",
+        "runId": 43957323053,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43957323053",
+        "details": "GitHub Pages build and deployment completed successfully for Preview R16 merge commit 980b3c41cb8ece54f8fdb591906ca88d971637ea."
       },
       "userSafariTest": {
         "result": "not tested",
