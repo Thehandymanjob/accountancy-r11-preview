@@ -45,5 +45,38 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "The R11 page and every file in its local runtime dependency set are pinned by Git blob SHA. Root version.json, if present, is separate metadata and is not the authority for this R11 page."
+  "note": "The R11 page and every file in its local runtime dependency set are pinned by Git blob SHA. Root version.json, if present, is separate metadata and is not the authority for this R11 page.",
+  "operatingProcedure": {
+    "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
+    "repositoryRoles": {
+      "previewRepository": "Thehandymanjob/accountancy-r11-preview",
+      "previewProtectedBranch": "main",
+      "permanentDevelopmentBranch": "development",
+      "productionRepository": "Thehandymanjob/accountancy",
+      "productionProtectedBranch": "main"
+    },
+    "workflow": [
+      "Before every change, read VERSION-AUTHORITY.json from main in BOTH Preview and Production repositories.",
+      "Identify the exact target using repository, branch, app path, version, Build ID, canonical URL, index blob SHA, approved baseline commit, and every pinned runtime dependency SHA. Never select a build by version number or chat history alone.",
+      "Fetch and verify the app index and every pinned runtime dependency against the manifest in BOTH repositories. Confirm the repository, branch, Build ID, canonical URL, and approved baseline ancestry. Stop on any mismatch, missing file, or ambiguity.",
+      "Use Preview repository development as the one permanent working branch. Do not create per-task branches, additional PR branches, tags, alternate app copies, or other branches unless the user explicitly authorizes them.",
+      "Make all app repairs on Preview development only. Never edit Preview main directly. Open or update a Pull Request from Preview development to Preview main; preserve the existing R11 gate and branch protections.",
+      "Before opening/updating a PR, ensure development is synchronized with the latest Preview main without force-pushing or bypassing protections. Review the exact diff and ensure it contains only approved files and changes.",
+      "For changes to app/runtime files, update Preview VERSION-AUTHORITY.json SHA pins and app identity metadata consistently. Update the Version Authority workflow expected values only when the app identity or pinned assets change. Preserve unrelated files and SHAs.",
+      "Do not change canonical URLs, Production, IndexedDB data, backup files, or user records unless explicitly requested.",
+      "Never add LocalStorage migration, import, reset, or fallback. Active app storage is IndexedDB.",
+      "Run the Preview Version Authority Gate and relevant static checks. Confirm the Preview Pages deployment succeeded before sharing the test URL. Clearly distinguish tool-verified checks from tests the user must perform in iPhone Safari.",
+      "Do not promote changes until the user has tested Preview in Safari and explicitly approved Production promotion.",
+      "After explicit approval, re-read both main-branch manifests, verify Preview commit ancestry and exact approved diff, then promote only the approved changes to Production main through its required protected workflow. Update Production manifest and gate consistently while preserving Production identity and canonical URL. Run the Production gate and Pages deployment and report the exact resulting URL and Build ID.",
+      "If any gate fails, SHA mismatch is unexpected, baseline ancestry is invalid, or the diff contains unapproved files, stop. Never bypass or disable branch protection, required checks, or authority controls.",
+      "Never reset, migrate, overwrite, or delete IndexedDB records or backups during a code repair. The user's reference backup is New_new(2).json unless the user explicitly designates another file.",
+      "Never claim a test, data-integrity result, browser result, or deployment succeeded unless its result was directly observed."
+    ],
+    "branchReuse": {
+      "branch": "development",
+      "pullRequestTarget": "main",
+      "reusePolicy": "Reuse the same development branch for successive Preview changes. After each merge, synchronize development with the latest Preview main using a normal non-force update before beginning the next task.",
+      "branchDeletion": "Do not delete the permanent development branch."
+    }
+  }
 }
