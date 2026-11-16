@@ -436,8 +436,8 @@
         "VERSION-AUTHORITY.json"
       ],
       "previewDevelopmentCommitSha": "31169122b8f815bedd2ffcc6c7f94c545d703544",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
+      "previewPullRequestNumber": 23,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/23",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
         "result": "pending",
