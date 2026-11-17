@@ -915,24 +915,25 @@
         "docs/REPAIR_HISTORY_FA.md",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "pending",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
+      "previewDevelopmentCommitSha": "eb3b3165e52e305946cb5118777113ae2d081fca",
+      "previewPullRequestNumber": 46,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/46",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 44146233283,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44146233283",
+        "details": "The R11 Version Authority Gate completed successfully for PR #46 head eb3b3165e52e305946cb5118777113ae2d081fca."
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Documentation and Authority structure created on Preview development; gate validation pending."
+        "result": "PASS",
+        "details": "Version Authority Gate validated the authority JSON and all pinned R11 runtime assets. Diff contains only the repair index, repair history and Authority metadata; no runtime files changed."
       },
       "previewPagesDeployment": {
         "result": "not applicable",
         "runId": "not applicable",
         "url": "not applicable",
-        "details": "Documentation and Authority-only change; no app runtime files changed."
+        "details": "Documentation and Authority-only change; no GitHub Pages app assets or runtime files changed."
       },
       "userSafariTest": {
         "result": "not applicable",
