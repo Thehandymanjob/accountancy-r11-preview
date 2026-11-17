@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261117-R27",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R27",
-    "indexBlobSha": "a10e6ffef9ff9dbdca6c3eaa087fd15b26d0e353",
+    "buildId": "THA-273-R11-PREVIEW-20261117-R28",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R28",
+    "indexBlobSha": "0f22315b1bf6934934600cd7e9b72609029c0580",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "a10e6ffef9ff9dbdca6c3eaa087fd15b26d0e353",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "0f22315b1bf6934934600cd7e9b72609029c0580",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "4b41776ed9dfcd4112d9d67164679caba1ab0af0"
     }
@@ -1286,6 +1286,47 @@
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
       "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-17-PREVIEW-LAST-UPDATED-R28",
+      "dateStarted": "2026-11-17",
+      "purpose": "Reopen DEP-TIME-001: refresh the embedded Preview build-preparation timestamp for R28 and align the app identity, banner and Version Details. The timestamp is explicitly a build-preparation time, not an asserted Pages deployment-completion time.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "dd71cc114bc41f250844104d9335118a4d40c195",
+      "previewPullRequestNumber": "pending",
+      "previewPullRequestUrl": "pending",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Pending JavaScript syntax validation, timestamp source checks, exact 22-asset SHA verification and Version Authority Gate."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting PR merge and successful Preview Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user verification that the R28 timestamp is current in the red banner and Version Details."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User explicitly authorized this Preview-only timestamp repair."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable",
+      "embeddedPreviewBuildTimestamp": "2026-11-17T20:45:04.524Z"
     }
   ],
   "history": [
