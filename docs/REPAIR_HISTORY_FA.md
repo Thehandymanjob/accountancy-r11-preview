@@ -212,7 +212,7 @@
 - **فایل‌ها:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html` و `tha-print-engine.js`، `VERSION-AUTHORITY.json` و همین دو سند تعمیر.
 - **Build ID هدف:** `THA-273-R11-PREVIEW-20261117-R25`
 - **PR:** #63 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/63 ؛ development commit و merge commit پس از تکمیل workflow ثبت می‌شوند.
-- **تست‌های کد:** V8 syntax parse برای فایل موتور و 25 بلوک inline JavaScript موفق؛ تأیید نهایی 22 SHA و Version Authority Gate هنوز pending است.
+- **تست‌های کد:** V8 syntax parse برای موتور و هر 25 بلوک inline JavaScript موفق؛ هر 22 SHA در manifest با درخت Git شاخه development تطبیق دارد؛ PR فقط پنج فایل مجاز را تغییر می‌دهد. Version Authority Gate هنوز pending است.
 - **تست iPhone Safari:** not tested؛ باید fit عرض، اسکرول عمودی صفحات، چاپ واقعی A4 و Back بررسی شوند.
 - **محدودیت:** کیفیت PDF چاپی از Canvas preview گرفته نمی‌شود؛ چاپ باید از PDF blob اصلی انجام شود. عملکرد iframe پنهان برای print در Safari هنوز نیازمند تست واقعی است.
 - **Production:** هیچ تغییری انجام نشده؛ ارتقا مجاز نیست.
