@@ -140,7 +140,7 @@
 
 ### PDF-LAYOUT-001 — اصلاح چیدمان چاپ گزارش مالی برای A4 و موبایل
 
-- **وضعیت فعلی پس از R26:** PDF اصلی A4 portrait با PDF.js در عرض موبایل نمایش داده می‌شود. برای چاپ، iframe PDF اکنون full-viewport است و در print media پنهان نمی‌شود؛ لایه Canvas و کنترل‌های preview هنگام چاپ مخفی می‌شوند تا PDF اصلی به print pipeline برسد. در صفحه preview فقط Back و Print باقی می‌مانند. ردیف‌های legacy Materials با مبلغی که به £0.00 گرد می‌شود از Full Project Report و reconciliation register حذف می‌شوند؛ خط جمع legacy materials نیز وقتی مجموعش صفر است پنهان می‌شود. `Fixed — awaiting verification`؛ چاپ چندصفحه‌ای و خروجی نهایی باید در iPhone Safari واقعی تأیید شود. موتور R26 همچنان فقط به گزارش اصلی Accounting Financial Report متصل است؛ مسیرهای فاکتور، قرارداد، رسید و گزارش پروژه مستقل باقی می‌مانند.
+- **وضعیت فعلی پس از R27:** پیش‌نمایش همچنان با PDF.js و fit-to-width نمایش داده می‌شود. دکمه Print دیگر iframe را چاپ نمی‌کند؛ فایل اصلی چندصفحه‌ای PDF را از مسیر بومی iOS Share Sheet به اشتراک می‌گذارد تا کاربر گزینه Print را انتخاب کند؛ اگر اشتراک فایل پشتیبانی نشود، همان PDF اصلی در تب Safari باز می‌شود. برای صفحه‌بندی، گزارش مالی از CSS Grid به جریان عادی block تغییر کرده، شکستن هر گروه بین صفحات مجاز است و عنوان‌ها/ردیف‌ها تا حد ممکن کنار هم نگه داشته می‌شوند؛ حاشیه عمودی A4 از 12 به 8 میلی‌متر کاهش یافته است. فیلتر ردیف‌های صفر Materials از R26 حفظ شده است. `Fixed — awaiting verification`؛ مسیر Share Sheet، تعداد صفحات چاپ و توزیع واقعی محتوا باید در iPhone Safari آزمایش شوند. موتور مرکزی همچنان فقط به Accounting Financial Report متصل است؛ مسیرهای فاکتور، قرارداد، رسید و گزارش پروژه مستقل باقی می‌مانند.
 
 - **وضعیت:** تغییرات source-level در Preview R15 ثبت شده؛ live browser rendering و تأیید بصری Safari در سابقه آن pending بوده است.
 - **تاریخ:** 2026-11-16
@@ -234,6 +234,23 @@
 - **Preview Pages:** PASS؛ build، report-build-status و Deploy to GitHub Pages همگی موفق در run `44165058809` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44165058809.
 - **تست کد:** V8 syntax parse برای موتور و هر 25 بلوک inline JavaScript موفق (26 واحد)؛ هر 22 SHA در manifest تطبیق دارد؛ دو فیلتر Materials و حذف ردیف خلاصه صفر بررسی استاتیک شدند.
 - **تست iPhone Safari:** not tested؛ باید تعداد صفحات در print dialog، خروجی واقعی A4 و باقی‌ماندن ردیف‌های Material غیرصفر بررسی شوند.
+- **Production:** بدون تغییر؛ ارتقا مجاز نیست.
+
+### بازنگری راه‌حل R8 — تحویل PDF چندصفحه‌ای به چاپ بومی iOS و جریان پیوسته A4
+
+- **تاریخ:** 2026-11-17
+- **نوع تغییر:** تکمیلی / جایگزینی مسیر چاپ R7 و اصلاح صفحه‌بندی
+- **علائم تأییدشده توسط کاربر:** در Preview R26، پیش‌نمایش PDF دو صفحه نشان می‌داد اما پنجره چاپ iPhone فقط Page 1 و Page 1 of 1 را دریافت می‌کرد. تصویر همچنین فضای خالی زیاد در پایین صفحه اول و شروع دیرهنگام محتوای صفحه دوم را نشان داد.
+- **علت فنی چاپ:** مسیر R26 از iframe.contentWindow.print() استفاده می‌کرد. این مسیر در iPhone Safari فایل PDF را به پنجره چاپ به‌صورت یک‌صفحه‌ای تحویل داد؛ تعداد صفحات PDF.js در خود preview، تحویل صحیح به print pipeline را تضمین نمی‌کرد.
+- **علت فنی صفحه‌بندی:** چیدمان capture از grid استفاده می‌کرد و گروه‌های گزارش با break-inside: avoid نگه داشته می‌شدند. وقتی یک گروه کامل در فضای باقیمانده صفحه جا نمی‌شد، مرورگر آن را به صفحه بعد منتقل می‌کرد و فضای خالی در صفحه قبلی باقی می‌ماند.
+- **راه‌حل چاپ R8:** حذف iframe چاپ از موتور مرکزی. دکمه Print، فایل File ساخته‌شده از همان PDF اصلی را با navigator.share({files:[...]}) به Share Sheet بومی iOS می‌دهد؛ کاربر در همان منو Print را انتخاب می‌کند. در مرورگرهایی که اشتراک فایل را پشتیبانی نمی‌کنند، PDF اصلی در تب جدید Safari باز می‌شود تا چاپ از کنترل‌های بومی PDF انجام شود. هیچ PDF جدیدی از Canvas ساخته نمی‌شود و محتوای PDF اصلی حفظ می‌شود.
+- **راه‌حل صفحه‌بندی R8:** تبدیل .uc-columns از grid به block flow و تبدیل فرزندان آن به بلوک‌های تمام‌عرض؛ اجازه شکستن .uc-group و .uc-summary در مرز صفحات؛ حفظ heading با بخش بعدی و حفظ ردیف‌های منفرد تا حد ممکن؛ تغییر حاشیه عمودی تولید A4 از 12 به 8 میلی‌متر. هیچ متن یا رکورد مالی برای پرکردن صفحه حذف نشده است.
+- **فایل‌ها:** v273-isolated-test/r11-income-prefix-repair-20261114/index.html، tha-print-engine.js، VERSION-AUTHORITY.json و دو سند Repair History/Index.
+- **Build ID هدف:** THA-273-R11-PREVIEW-20261117-R27
+- **PR:** #67 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/67 ؛ merge و Pages در انتظار Gate نهایی هستند.
+- **Version Authority Gate:** تلاش اولیه PR Gate در run 44170936017 ناموفق بود؛ علت، باقی‌ماندن R26 در مقدار داخلی R11_CANONICAL_PAGE_URL با وجود R27 در manifest بود. مقدار داخلی در commit اصلاحی d43bfc0ffac0765c1d69b99e27f45276053040cf به R27 تغییر کرد و SHA جدید index در manifest ثبت شد؛ اجرای مجدد Gate در انتظار است.
+- **تست‌های استاتیک:** V8 syntax parse برای موتور و 8 بلوک inline JavaScript موفق؛ منطق handler دیگر از iframe.contentWindow.print() استفاده نمی‌کند؛ Share Sheet فایل اصلی PDF را می‌گیرد؛ fallback نیز URL همان PDF اصلی را باز می‌کند؛ قانون block flow و اجازه شکستن گروه‌ها در سورس تأیید شده است.
+- **تست iPhone Safari:** not tested؛ باید Share Sheet، انتخاب Print، تعداد صفحات کامل و توزیع محتوا در صفحات A4 بررسی شوند. ظاهر واقعی صفحه‌بندی تا زمان تست مرورگر تأییدشده محسوب نمی‌شود.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
 
 ## 6. کیفیت و نگهداری دفترچه

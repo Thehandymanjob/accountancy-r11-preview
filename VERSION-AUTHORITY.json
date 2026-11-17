@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261117-R26",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R26",
-    "indexBlobSha": "000bae31c3767b30e81eb1b18164b025ab21546e",
+    "buildId": "THA-273-R11-PREVIEW-20261117-R27",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R27",
+    "indexBlobSha": "a10e6ffef9ff9dbdca6c3eaa087fd15b26d0e353",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,9 +30,9 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "000bae31c3767b30e81eb1b18164b025ab21546e",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "a10e6ffef9ff9dbdca6c3eaa087fd15b26d0e353",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "31a394da22ad9c031cfc449d0d86962e8fd84e09"
+      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "4b41776ed9dfcd4112d9d67164679caba1ab0af0"
     }
   },
   "rules": {
@@ -1239,6 +1239,49 @@
       "userApproval": {
         "result": "authorized for Preview only",
         "details": "User instructed continuation of the Preview PDF repairs. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-17-PDF-IOS-SHARE-PAGINATION-R27-001",
+      "dateStarted": "2026-11-17",
+      "purpose": "Replace the unreliable iPhone Safari iframe print command with native sharing of the original multi-page PDF file so the iOS Print action receives the complete document; change the financial report capture from grid to normal block flow and allow report sections to continue across A4 page boundaries to reduce large blank areas while keeping individual rows together.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "a6146f70c525f0d00685f534c60490bcfec82621",
+      "previewPullRequestNumber": 67,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/67",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": 44170936017,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44170936017",
+        "details": "Initial PR Gate failed because the embedded R11_CANONICAL_PAGE_URL in index.html still named R26 while the manifest named R27. The embedded constant has been corrected to R27; rerun is pending."
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "V8 syntax parsing passed for tha-print-engine.js and all 8 inline HTML script blocks (9 JavaScript units). Source-level checks confirm the Print handler no longer calls iframe.contentWindow.print(), the original PDF File is passed to navigator.share when file sharing is supported, the fallback opens the original PDF blob, report columns use normal block flow, and section wrappers permit page fragmentation while headings and individual rows remain together."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting Preview Pages deployment for R27."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Must verify on iPhone Safari that the Print button opens the native iOS share sheet or full PDF viewer, selecting Print includes every PDF page, and A4 portrait report content flows across pages without the previous large blank areas."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User explicitly instructed implementation of the two PDF corrections in Preview. Production promotion is not authorized."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
