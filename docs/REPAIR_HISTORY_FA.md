@@ -123,8 +123,11 @@
 - **معنای زمان:** این timestamp زمان آماده‌سازی build است؛ نه زمان دقیق پایان GitHub Pages deployment. زمان دقیق پایان انتشار در این اصلاح ادعا نمی‌شود.
 - **فایل‌ها:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`، `VERSION-AUTHORITY.json` و همین دفترچه.
 - **Commit توسعه:** `dd71cc114bc41f250844104d9335118a4d40c195` برای HTML؛ commit‌های Authority و تاریخچه در ادامه همین زنجیره توسعه ثبت شدند.
-- **PR / Merge / Gate / Pages:** pending.
-- **Static checks:** pending.
+- **PR:** #70 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/70
+- **Merge commit:** `352dc5cb079317eb9551e2383443a4b514890c27`
+- **Version Authority Gate:** PASS — run `44172856828` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44172856828
+- **Preview Pages:** PASS — run `44172908348` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44172908348؛ build، report-build-status و deploy همگی موفق شدند.
+- **Static checks:** PASS؛ Gate تمام 22 فایل pinشده را تأیید کرد و سورس R28، شناسه Build، URL و سرویس timestamp مشترک بررسی شدند.
 - **تست iPhone Safari:** not tested.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
 
