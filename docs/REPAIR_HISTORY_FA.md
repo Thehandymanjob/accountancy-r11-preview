@@ -98,7 +98,7 @@
 
 ### DEP-TIME-001 — زمان Last Updated به دلیل وابستگی به GitHub API نمایش داده نمی‌شد
 
-- **وضعیت:** Fixed در Preview R20؛ تأیید کاربر: نمایش نسخه و ورود به برنامه موفق گزارش شده؛ نمایش جداگانه timestamp در هر دو محل در این پیام هنوز مستقلاً تأیید نشده است.
+- **وضعیت فعلی:** Reopened در R28؛ timestamp ثابت R27 در R28 تازه‌سازی نشده بود. اصلاح R28 در انتظار Gate، Pages و تست Safari است.
 - **تاریخ:** 2026-11-17
 - **علائم:** زمان آخرین به‌روزرسانی در بنر Preview و/یا Version Details نمایش داده نمی‌شد.
 - **محیط:** Preview repo؛ نسخه برنامه 273 / R11؛ Build ID نهایی R20.
@@ -114,6 +114,19 @@
 - **فایل اصلی:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`
 - **قاعده بازاستفاده:** اگر زمان Last Updated در نسخه دیگری ناپدید شد، ابتدا وجود سرویس embedded و اتصال هر دو UI به همان سرویس را بررسی کن؛ قبل از افزودن API fetch یا header جدید، این مورد را مرور کن.
 - **مراجع:** PR #44 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/44 ؛ Gate — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44144454065
+
+#### بازنگری راه‌حل R2 — تازه‌سازی زمان آماده‌سازی در هر Build آزمایشی
+- **تاریخ:** 2026-11-17
+- **نوع تغییر:** بازگشایی و اصلاح مجدد همان علت؛ پرونده جدید ایجاد نشده است.
+- **شواهد علت:** سورس R27 شامل مقدار ثابت `2026-11-17T20:01:02.887Z` و توضیح قدیمی R26 بود. این مقدار هنگام آماده‌سازی R27 ثبت شده و با آماده‌سازی Build بعدی تغییر نکرده بود؛ بنابراین Last Updated برای R27 همچنان همان زمان را نشان می‌داد.
+- **راه‌حل R28:** مقدار embedded در زمان آماده‌سازی Build جدید به `2026-11-17T20:45:04.524Z` تغییر کرد؛ Build ID و canonical URL به R28 ارتقا یافتند. بنر Preview و Version Details همچنان از یک سرویس مشترک و همان timestamp استفاده می‌کنند. هیچ درخواست شبکه‌ای، API، IndexedDB، LocalStorage یا داده کاربر در مسیر timestamp افزوده نشده است.
+- **معنای زمان:** این timestamp زمان آماده‌سازی build است؛ نه زمان دقیق پایان GitHub Pages deployment. زمان دقیق پایان انتشار در این اصلاح ادعا نمی‌شود.
+- **فایل‌ها:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`، `VERSION-AUTHORITY.json` و همین دفترچه.
+- **Commit توسعه:** `dd71cc114bc41f250844104d9335118a4d40c195` برای HTML؛ commit‌های Authority و تاریخچه در ادامه همین زنجیره توسعه ثبت شدند.
+- **PR / Merge / Gate / Pages:** pending.
+- **Static checks:** pending.
+- **تست iPhone Safari:** not tested.
+- **Production:** بدون تغییر؛ ارتقا مجاز نیست.
 
 ### PDF-PREVIEW-001 — ساختار closing script در HTML پیش‌نمایش PDF
 
