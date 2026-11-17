@@ -1517,24 +1517,24 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "pending",
+      "previewDevelopmentCommitSha": "fd8b2abd6f5313ed8a184fea6d935d78c14a574a",
       "previewPullRequestNumber": 80,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/80",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "70e67925f8c617e1bd50f97a2f360c15ed97830f",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 44199397048,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44199397048"
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Revision 1 synchronized the recovery script SHA. The next Gate then exposed a second stale SHA for the Preview index.html, whose cache-key change was also in the PR. The indexBlobSha and corresponding runtime asset pin are now being synchronized to the exact Git blob SHA. Gate must be rerun."
+        "result": "PASS",
+        "details": "R11 Version Authority Gate passed on PR head and post-merge main; repository, R11 identity, approved baseline and all 22 SHA-pinned runtime assets verified."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting Preview PR merge and successful Pages deployment."
+        "result": "PASS",
+        "runId": 44199570482,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44199570482",
+        "details": "GitHub Pages build, deploy and report-build-status jobs completed successfully for Preview main merge commit 70e67925f8c617e1bd50f97a2f360c15ed97830f."
       },
       "userSafariTest": {
         "result": "not tested",

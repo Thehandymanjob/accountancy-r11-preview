@@ -334,7 +334,7 @@
 
 ### DATA-001 — بازیابی بکاپ کامل Production در پایگاه داده جداگانه Preview
 
-- **وضعیت فعلی:** اصلاح کد و دو pin لازم در Preview development ثبت شده‌اند؛ Gate، انتشار Pages و تست واقعی بازیابی هنوز pending هستند.
+- **وضعیت فعلی:** اصلاح در Preview main ادغام و GitHub Pages با موفقیت منتشر شده است؛ تست واقعی بازیابی بکاپ در iPhone Safari هنوز pending است.
 - **بازنگری R2:** پس از اصلاح SHA فایل recovery، اجرای Gate مورد دوم را مشخص کرد: فایل `index.html` به‌علت تغییر cache key در PR، SHA قدیمی در دو محل manifest داشت. هر دو مقدار `app.indexBlobSha` و pin فایل index اکنون با Git blob SHA واقعی نسخه development هماهنگ شده‌اند. نتیجه Gate جدید هنوز pending است.
 
 - **تاریخ:** 2026-11-17
@@ -347,9 +347,10 @@
 - **فایل‌های تغییرکرده:** `v273-isolated-test/v264-fresh/v264-recovery.js`، `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`، `VERSION-AUTHORITY.json`، `docs/REPAIR_HISTORY_FA.md` و `docs/REPAIR_INDEX_FA.md`.
 - **مواردی که نباید تکرار شوند:** نام دیتابیس منبع را بدون اعتبارسنجی به نام مقصد تغییر نده؛ SHA-256، فهرست دامنه‌ها، اعتبارسنجی رکوردها، کنترل نام دیتابیس مقصد و recovery handshake را حذف یا تضعیف نکن؛ Gate را دور نزن.
 - **تست و شواهد:** اجرای قبلی Gate در PR #80 شکست خورد چون SHA فایل recovery در manifest به‌روز نبود. اصلاح pin اکنون روی development ثبت شده؛ اجرای Gate جدید، static checks و Pages deployment هنوز pending هستند.
-- **PR / Commit / Merge:** PR #80 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/80 ؛ development commit: pending؛ merge commit: pending.
-- **Version Authority Gate:** pending؛ run ID و نتیجه هنوز تأیید نشده‌اند.
-- **Preview Pages deployment:** pending؛ تا مشاهده موفقیت deployment، لینک آزمایشی به‌عنوان نسخه به‌روز معرفی نمی‌شود.
+- **PR / Commit / Merge:** PR #80 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/80 ؛ development commit: `fd8b2abd6f5313ed8a184fea6d935d78c14a574a`؛ merge commit: `70e67925f8c617e1bd50f97a2f360c15ed97830f`.
+- **Version Authority Gate:** PASS؛ PR run `44199397048` و post-merge main run `44199571718`.
+- **Preview Pages:** PASS؛ build، deploy و report-build-status در run `44199570482` موفق شدند.
+- **Preview Pages deployment:** PASS؛ run `44199570482` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44199570482.
 - **معیار پذیرش تست کاربر:** بکاپ معتبر Production در Preview انتخاب و اعتبارسنجی شود؛ Restore فقط روی دیتابیس Preview اجرا شود؛ تعداد کل رکوردها، تعداد رکوردهای هر 17 دامنه، سلامت دیتابیس و چند رکورد مهم با اطلاعات بکاپ مقایسه شوند. تست واقعی iPhone Safari هنوز انجام نشده است.
 - **وضعیت کاربر:** کاربر ادامه اصلاح Preview را مجاز کرده است؛ تأیید انتقال به Production صادر نشده است.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
