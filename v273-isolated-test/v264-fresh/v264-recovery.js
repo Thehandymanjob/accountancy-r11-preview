@@ -216,13 +216,21 @@
   if(!pkg||pkg.format!==FORMAT||pkg.algorithm!=="SHA-256"||!pkg.payload||typeof pkg.digest!=="string")throw new Error("Unsupported full backup format.");
   if(await digest(canonical(pkg.payload))!==pkg.digest)throw new Error("Backup integrity check failed: SHA-256 mismatch.");
   const p=pkg.payload,engine=root.HandymanStorageV264;
-  if(!engine||p.format!==SNAPSHOT_FORMAT||p.database!==engine.databaseName||p.scope!=="full-database"||!Array.isArray(p.domains)||p.domains.slice().sort().join("|")!==FULL_DOMAINS.join("|")||!Array.isArray(p.records))throw new Error("Backup is not a complete database backup for this app.");
+  const sourceDatabase=typeof p.database==="string"?p.database:"";
+  const isSameDatabase=!!engine&&sourceDatabase===engine.databaseName;
+  // Preview may import a verified Production full backup, but never another preview/test database.
+  // Production DB names follow the versioned *_clean_idb convention.
+  const isProductionDatabase=/^the_handyman_accountancy_v[0-9]+_clean_idb$/.test(sourceDatabase);
+  if(!engine||p.format!==SNAPSHOT_FORMAT||(!isSameDatabase&&!isProductionDatabase)||p.scope!=="full-database"||!Array.isArray(p.domains)||p.domains.slice().sort().join("|")!==FULL_DOMAINS.join("|")||!Array.isArray(p.records))throw new Error("Backup is not a complete supported Production or Preview database backup for this app.");
   const ids=new Set(),records=[];
   for(const row of p.records){
    if(!row||!FULL_DOMAINS.includes(row.domain)||typeof row.key!=="string"||row.id!==row.domain+":"+encodeURIComponent(row.key)||ids.has(row.id))throw new Error("Backup has an invalid or duplicate record.");
    ids.add(row.id);records.push({domain:row.domain,key:row.key,value:await decode(row.value)});
   }
-  return {pkg,snapshot:{format:SNAPSHOT_FORMAT,database:p.database,createdAt:p.createdAt,domains:FULL_DOMAINS,records},verification:{ok:true,domains:FULL_DOMAINS.length,records:records.length,digest:pkg.digest,createdAt:p.createdAt}};
+  // Rebind the validated source snapshot to this Preview database before restore.
+  // Preserve the environment boundary; destination restore and recovery checks remain strict.
+  const destinationDatabase=engine.databaseName;
+  return {pkg,snapshot:{format:SNAPSHOT_FORMAT,database:destinationDatabase,createdAt:p.createdAt,domains:FULL_DOMAINS,records},verification:{ok:true,sourceDatabase,destinationDatabase,sourceEnvironment:isSameDatabase?"preview":"production",domains:FULL_DOMAINS.length,records:records.length,digest:pkg.digest,createdAt:p.createdAt}};
  }
  async function restoreFullBackup(file){
   const parsed=await readFullBackup(file),engine=root.HandymanStorageV264;
