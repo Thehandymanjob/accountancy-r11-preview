@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261117-R23",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R23",
-    "indexBlobSha": "fb5d5c1821e8bd3377fc385d7d1c569013a57b8a",
+    "buildId": "THA-273-R11-PREVIEW-20261117-R24",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R24",
+    "indexBlobSha": "84937f25ce16ac4086e90af63d715c9c6f843522",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,9 +30,9 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "fb5d5c1821e8bd3377fc385d7d1c569013a57b8a",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "84937f25ce16ac4086e90af63d715c9c6f843522",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "f5e81cd6100034cac161db35ee8004a0d54751bc"
+      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "3b21024b7670f8b75de6632847f63e3d6cbd1776"
     }
   },
   "rules": {
@@ -1111,6 +1111,48 @@
       "userApproval": {
         "result": "pending",
         "details": "Awaiting R23 Safari verification."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-17-FINANCIAL-REPORT-PRINT-PREVIEW-FLOW-001",
+      "dateStarted": "2026-11-17",
+      "purpose": "Remove Generate & Save Report from the report details screen; rename the remaining yellow action to Print Preview; make the next screen show the PDF and only Back and Print, with printing invoked only by the explicit Print button.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "pending",
+      "previewPullRequestNumber": "pending",
+      "previewPullRequestUrl": "pending",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Pending source and JS syntax validation, Version Authority SHA verification and PR review."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting Preview PR merge and successful Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting iPhone Safari verification: report page has only yellow Print Preview; it opens the generated PDF screen; bottom buttons are Back and Print; Print opens native printer interface; Back returns to report."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting R24 user verification."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
