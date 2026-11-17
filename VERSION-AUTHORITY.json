@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261117-R29",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R29",
-    "indexBlobSha": "c69744939d5f8224775a312f3fc8cfb88943c403",
+    "buildId": "THA-273-R11-PREVIEW-20261117-R30",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R30",
+    "indexBlobSha": "e116b8bd02e67ce68f67466b40f261ae071ffe32",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "c69744939d5f8224775a312f3fc8cfb88943c403",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "e116b8bd02e67ce68f67466b40f261ae071ffe32",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "4b41776ed9dfcd4112d9d67164679caba1ab0af0"
     }
@@ -1370,6 +1370,47 @@
       "productionPullRequestUrl": "not applicable",
       "productionCommitSha": "not applicable",
       "embeddedPreviewBuildTimestamp": "2026-11-17T20:59:26.000Z"
+    },
+    {
+      "changeId": "THA-2026-11-17-FINANCIAL-REPORT-PDF-CENTERING-R30-001",
+      "dateStarted": "2026-11-17",
+      "purpose": "Centre the Accounting Financial Report PDF horizontally on A4 by matching its 185mm capture width to the 185mm printable area using symmetric 12.5mm horizontal margins; retain 8mm vertical margins.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "pending",
+      "previewPullRequestNumber": "pending",
+      "previewPullRequestUrl": "pending",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Source-level check: financial report capture width 185mm; A4 width 210mm; left/right margins 12.5mm each; printable width 185mm; vertical margins remain 8mm. JavaScript syntax, complete authority gate and runtime verification pending."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting iPhone Safari verification of equal left/right margins on the financial report PDF and confirmation that report pagination/content remain unchanged."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User explicitly approved the financial-report PDF centering correction in Preview."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable",
+      "embeddedPreviewBuildTimestamp": "2026-11-17T21:13:34.023Z"
     }
   ],
   "history": [
