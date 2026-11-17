@@ -1000,9 +1000,9 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "pending PR head",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
+      "previewDevelopmentCommitSha": "bf9692b9951199fb41de9c0e158181cfcdefe827",
+      "previewPullRequestNumber": 54,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/54",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
         "result": "pending",
