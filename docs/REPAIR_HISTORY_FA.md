@@ -115,6 +115,39 @@
 - **قاعده بازاستفاده:** اگر زمان Last Updated در نسخه دیگری ناپدید شد، ابتدا وجود سرویس embedded و اتصال هر دو UI به همان سرویس را بررسی کن؛ قبل از افزودن API fetch یا header جدید، این مورد را مرور کن.
 - **مراجع:** PR #44 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/44 ؛ Gate — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44144454065
 
+### DEP-TIME-001 — زمان Last Updated به دلیل وابستگی به GitHub API نمایش داده نمی‌شد
+
+- **وضعیت فعلی:** Reopened در R28؛ مقدار ثابت R27 با زمان آماده‌سازی R27 باقی مانده بود و در build جدید به‌روزرسانی نشده بود. اصلاح R28 در انتظار Gate، Pages و تست Safari است.
+- **تاریخ:** 2026-11-17
+- **علائم:** زمان آخرین به‌روزرسانی در بنر Preview و/یا Version Details نمایش داده نمی‌شد.
+- **محیط:** Preview repo؛ نسخه برنامه 273 / R11؛ Build ID نهایی R20.
+- **علت ریشه‌ای ثبت‌شده:** مسیر زمان به درخواست مرورگر به GitHub API وابسته شده بود. این وابستگی شبکه‌ای/مرورگری قابل اتکا نبود؛ حذف header سفارشی در R19 به تنهایی مشکل را حل نکرد.
+- **روش تشخیص:** مقایسه تاریخچه Authority نشان داد روش بدون شبکه R14 کار می‌کرد؛ تغییر بعدی در PR #35 آن را با API lookup جایگزین کرده بود. R19 نیز همچنان API-dependent بود.
+- **راه‌حل تأییدشده در کد:** بازگرداندن timestamp ثابت و embedded در HTML؛ یک سرویس مشترک `window.R11PreviewDeploymentTime` همان مقدار را به بنر و Version Details می‌دهد و در `Europe/London` نمایش می‌دهد.
+- **محدودیت معنایی مهم:** این مقدار زمان آماده‌سازی build است، نه زمان دقیق پایان GitHub Pages deployment. هرگز آن را «زمان دقیق تکمیل انتشار» معرفی نکن.
+- **Build ID:** `THA-273-R11-PREVIEW-20261117-R20`
+- **Commit ادغام Preview:** `47d0e07f046e5beccc21d062609ae15d08cc7e93`
+- **Gate:** PASS؛ run `44144454065`
+- **Pages deployment:** در آخرین بررسی این تغییر، deploy هنوز در حال اجرا بود؛ وضعیت نهایی در این رکورد از این منبع تأیید نشده است.
+- **Static checks:** هشت بلوک inline JavaScript با V8 parse شدند؛ بررسی مرزهای HTML موفق؛ مسیر timestamp دیگر به `api.github.com` وابسته نیست.
+- **فایل اصلی:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`
+- **قاعده بازاستفاده:** اگر زمان Last Updated در نسخه دیگری ناپدید شد، ابتدا وجود سرویس embedded و اتصال هر دو UI به همان سرویس را بررسی کن؛ قبل از افزودن API fetch یا header جدید، این مورد را مرور کن.
+- **مراجع:** PR #44 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/44 ؛ Gate — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44144454065
+
+
+
+#### بازنگری راه‌حل R2 — تازه‌سازی زمان آماده‌سازی در هر Build آزمایشی
+- **تاریخ:** 2026-11-17
+- **نوع تغییر:** بازگشایی و اصلاح مجدد همان علت؛ پرونده جدید ایجاد نشده است.
+- **شواهد علت:** سورس R27 شامل مقدار ثابت `2026-11-17T20:01:02.887Z` و توضیح قدیمی R26 بود. این مقدار هنگام آماده‌سازی R27 ثبت شده و با آماده‌سازی Build بعدی تغییر نکرده بود؛ بنابراین Last Updated برای R27 همچنان همان زمان را نشان می‌داد.
+- **راه‌حل R28:** مقدار embedded در زمان آماده‌سازی Build جدید به `2026-11-17T20:45:29.599Z` تغییر کرد؛ Build ID و canonical URL به R28 ارتقا یافتند. بنر Preview و Version Details همچنان از یک سرویس مشترک و همان timestamp استفاده می‌کنند. هیچ درخواست شبکه‌ای، API، IndexedDB، LocalStorage یا داده کاربر در مسیر timestamp افزوده نشده است.
+- **معنای زمان:** این timestamp زمان آماده‌سازی build است؛ نه زمان دقیق پایان GitHub Pages deployment. زمان دقیق پایان انتشار در این اصلاح ادعا نمی‌شود.
+- **فایل‌ها:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`، `VERSION-AUTHORITY.json` و همین دفترچه.
+- **Commit توسعه:** `dd71cc114bc41f250844104d9335118a4d40c195` برای HTML؛ commit‌های Authority و تاریخچه در ادامه همین زنجیره توسعه ثبت شدند.
+- **PR / Merge / Gate / Pages:** pending.
+- **Static checks:** pending.
+- **تست iPhone Safari:** not tested.
+- **Production:** بدون تغییر؛ ارتقا مجاز نیست.
 ### PDF-PREVIEW-001 — ساختار closing script در HTML پیش‌نمایش PDF
 
 - **وضعیت:** اصلاح کد در Preview R18 ثبت شده؛ تست زنده Safari در سابقه این مورد «در انتظار» بوده است.
