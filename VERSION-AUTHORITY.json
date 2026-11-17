@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261117-R20",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R20",
-    "indexBlobSha": "90a66617e4e417a70b383b9b204707586b8e1677",
+    "buildId": "THA-273-R11-PREVIEW-20261117-R21",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R21",
+    "indexBlobSha": "615dc7998fffb6ccdc737e2800881f387304cd5b",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,8 +30,9 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "90a66617e4e417a70b383b9b204707586b8e1677",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462"
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "615dc7998fffb6ccdc737e2800881f387304cd5b",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "771481a96c69ebde9161252a16817bb2b9080d15"
     }
   },
   "rules": {
@@ -982,6 +983,50 @@
       "userApproval": {
         "result": "authorized for Preview documentation and Authority update",
         "details": "User clarified that temporary fixes and later completions must update the same repair record without duplicates."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-17-CENTRAL-PRINT-ENGINE-R21-001",
+      "dateStarted": "2026-11-17",
+      "purpose": "Introduce a shared in-app PDF/Print Engine and migrate the main Accounting Financial Report to it as the first controlled consumer. The engine owns PDF library loading, font/image readiness, A4 PDF generation and signature validation, same-page preview overlay, Share, Print, Save, focus restoration and cleanup. Other document types remain on their existing paths until individually migrated.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js",
+        ".github/workflows/r11-version-authority.yml",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "pending PR head",
+      "previewPullRequestNumber": "pending",
+      "previewPullRequestUrl": "pending",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting Preview PR checks."
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "The new external Print Engine JavaScript parsed with V8; all 8 inline JavaScript blocks in the modified app HTML parsed with V8; integration markers and Build ID/canonical URL were source-checked. Full authority gate pending."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting merge, Version Authority Gate and Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "iPhone Safari test of Accounting Financial Report preview, Share, Print, Save and return-to-page behavior is pending."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User instructed implementation in the Preview environment. Production promotion is not authorized."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
