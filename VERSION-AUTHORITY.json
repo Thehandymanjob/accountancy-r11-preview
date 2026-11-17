@@ -1172,21 +1172,22 @@
       "previewDevelopmentCommitSha": "576c68035fbd89cabc19411a330f931361519182",
       "previewPullRequestNumber": 63,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/63",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "a7dedd33e9a76422373ea61e57e820f0128aa553",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 44162503158,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44162503158",
+        "details": "R11 Version Authority Gate passed on the Preview main merge commit a7dedd33e9a76422373ea61e57e820f0128aa553. PR Gate also passed on run 44162441065."
       },
       "staticChecks": {
         "result": "PASS",
-        "details": "V8 syntax parsing passed for tha-print-engine.js and all 25 inline HTML script blocks (26 JavaScript units total). All 22 R11 authority-pinned runtime asset SHAs, including index.html and tha-print-engine.js, match the Preview development Git tree. Preview development is a fast-forward descendant of Preview main; PR diff contains exactly the five approved files. R11 Version Authority PR Gate remains pending."
+        "details": "V8 syntax parsing passed for tha-print-engine.js and all 25 inline HTML script blocks (26 JavaScript units total). All 22 R11 authority-pinned runtime asset SHAs match the Preview development Git tree. Preview development was fast-forward synchronized with Preview main before work; PR #63 changed exactly the five approved files."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting Preview PR merge and successful GitHub Pages deployment. No deployment is claimed yet."
+        "result": "PASS",
+        "runId": 44162501867,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44162501867",
+        "details": "Preview Pages build, Deploy to GitHub Pages, and Report Build Status jobs all completed successfully for R25 merge commit a7dedd33e9a76422373ea61e57e820f0128aa553. This confirms the Pages deployment workflow; real iPhone Safari rendering and print remain user-verification items."
       },
       "userSafariTest": {
         "result": "not tested",
