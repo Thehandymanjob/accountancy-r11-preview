@@ -26,10 +26,15 @@
   .tha-pe-actions button{min-height:54px;flex:1 1 0;min-width:0;max-width:420px;border:0;border-radius:12px;padding:10px 16px;background:#e5b63f;color:#142b4a;font-size:18px;font-weight:800;box-shadow:0 4px 0 rgba(20,43,74,.12)}
   .tha-pe-actions button:disabled{opacity:.48}
   .tha-pe-actions .tha-pe-secondary{background:#e8edf4;color:#24364f}
-  .tha-pe-print-frame{position:absolute;left:-10000px;top:0;width:1px;height:1px;border:0;opacity:0;pointer-events:none}
+  .tha-pe-print-frame{position:absolute;inset:0;width:100%;height:100%;border:0;opacity:.001;pointer-events:none;z-index:0}
   .tha-pe-overlay[hidden]{display:none!important}
   @media(max-width:560px){.tha-pe-bar{min-height:42px}.tha-pe-pages{padding:8px 5px 14px}.tha-pe-page{margin-bottom:10px}.tha-pe-actions{gap:9px;padding-left:12px;padding-right:12px}.tha-pe-actions button{min-height:52px;font-size:17px}}
-  @media print{.tha-pe-overlay{display:none!important}}
+  @media print{
+   html,body{width:100%!important;height:100%!important;margin:0!important;padding:0!important;overflow:visible!important;background:#fff!important}
+   .tha-pe-overlay{position:fixed!important;inset:0!important;display:block!important;width:100vw!important;height:100vh!important;min-height:100vh!important;margin:0!important;padding:0!important;overflow:visible!important;background:#fff!important}
+   .tha-pe-bar,.tha-pe-status,.tha-pe-pages,.tha-pe-actions{display:none!important}
+   .tha-pe-print-frame{position:fixed!important;inset:0!important;display:block!important;width:100vw!important;height:100vh!important;opacity:1!important;pointer-events:auto!important;z-index:2147483647!important;border:0!important}
+  }
   `;
   document.head.appendChild(style);
  }
@@ -207,10 +212,13 @@
  function print(){
   const frame=state.overlay&&state.overlay.querySelector('.tha-pe-print-frame');
   if(!frame||!state.pdfBlob)return;
+  const expectedPages=state.pdfDocument?state.pdfDocument.numPages:0;
+  if(!expectedPages){setStatus('The PDF is not ready to print. Please wait for all pages to finish loading.');return}
   try{
+   if(!frame.contentWindow)throw new Error('The full-size PDF print frame is unavailable');
    frame.contentWindow.focus();
    frame.contentWindow.print();
-   setStatus('Printer dialog requested. Choose a printer or save as PDF.');
+   setStatus('Print dialog requested for the complete '+expectedPages+'-page PDF. Check that all pages are selected.');
   }catch(error){setStatus('Safari could not open the printer dialog: '+(error&&error.message?error.message:'try Print again.'))}
  }
  window.THA=window.THA||{};
