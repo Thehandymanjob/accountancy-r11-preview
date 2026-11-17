@@ -833,24 +833,25 @@
         "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "a7719ef23413d5a56b6e1513359f9d694eea82b6",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
-      "previewMergeCommitSha": "pending",
+      "previewDevelopmentCommitSha": "ccaf4757b054ed755c0df069b131bb292a996a23",
+      "previewPullRequestNumber": 41,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/41",
+      "previewMergeCommitSha": "99372ab85003a83cc24eb089618349db97309cfd",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 44141526499,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44141526499",
+        "details": "R11 Version Authority Gate passed on Preview PR #41 and again on Preview main, validating R19 identity, canonical URL, approved baseline ancestry and all 21 pinned runtime assets."
       },
       "staticChecks": {
-        "result": "PASS",
-        "details": "All 8 inline JavaScript blocks parsed with V8 Function constructor; old R18 Build ID/canonical URL and X-GitHub-Api-Version header absent. Git blob pin updated to adc51ac0277b288ad9c1348bd4fbdfca403855df. Browser API/CORS behavior remains untested until iPhone Safari."
+        "result": "PASS WITH LIMITATIONS",
+        "details": "All 8 inline JavaScript blocks passed V8 syntax parsing. The browser request no longer sends the custom X-GitHub-Api-Version header, avoiding the extra CORS preflight. Version Authority Gate passed with all 21 pinned assets. Live iPhone Safari fetch/render behavior is not yet tested."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting Preview PR, Version Authority Gate and Pages deployment."
+        "result": "PASS",
+        "runId": 44141525460,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44141525460",
+        "details": "GitHub Pages build, report-build-status and deploy jobs completed successfully for Preview R19 merge commit 99372ab85003a83cc24eb089618349db97309cfd."
       },
       "userSafariTest": {
         "result": "not tested",
