@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261117-R30",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R30",
-    "indexBlobSha": "8c06f1d3dbf3a68e4d2ed89015e0e24469651aec",
+    "buildId": "THA-273-R11-PREVIEW-20261117-R31",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R31",
+    "indexBlobSha": "4580e5a889b254ade30cea6bb2edfc8c18788a82",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "8c06f1d3dbf3a68e4d2ed89015e0e24469651aec",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "4580e5a889b254ade30cea6bb2edfc8c18788a82",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "4b41776ed9dfcd4112d9d67164679caba1ab0af0"
     }
@@ -1391,8 +1391,8 @@
         "url": "pending"
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Initial Gate failed because HTML meta Build ID and canonical URL still carried R29. Corrected both to R30; rerun required. Financial-report PDF margins are 12.5mm left/right and 8mm top/bottom, with capture width 185mm."
+        "result": "PASS WITH LIMITATION",
+        "details": "R30's source geometry was as specified, but actual iPhone Safari screenshot disproved the expected layout. It is not a verified fix."
       },
       "previewPagesDeployment": {
         "result": "pending",
@@ -1400,8 +1400,8 @@
         "url": "pending"
       },
       "userSafariTest": {
-        "result": "not tested",
-        "details": "Awaiting iPhone Safari verification of equal left/right margins on the financial report PDF and confirmation that report pagination/content remain unchanged."
+        "result": "failed",
+        "details": "User-provided iPhone Safari screenshot of R30 shows the financial-report content still extending beyond the right edge; right-side amounts are clipped. PDF-LAYOUT-001 reopened; R30 not accepted."
       },
       "userApproval": {
         "result": "authorized for Preview only",
@@ -1411,6 +1411,47 @@
       "productionPullRequestUrl": "not applicable",
       "productionCommitSha": "not applicable",
       "embeddedPreviewBuildTimestamp": "2026-11-17T21:13:34.023Z"
+    },
+    {
+      "changeId": "THA-2026-11-17-FINANCIAL-REPORT-PDF-CENTERING-R31-002",
+      "dateStarted": "2026-11-17",
+      "purpose": "Reopen the existing financial-report PDF layout issue after the R30 Safari screenshot showed right-edge clipping. Remove explicit horizontal PDF margins and centre the unchanged 185mm captureRoot within the full 210mm A4 page using its auto margins, preserving 8mm vertical margins.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "pending",
+      "previewPullRequestNumber": "pending",
+      "previewPullRequestUrl": "pending",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Source assertion: captureRoot width/max-width 185mm and margin 0 auto; A4 page width 210mm; PDF margins 8mm vertical and 0mm horizontal. Expected centered page margin is (210-185)/2=12.5mm on each side. JavaScript parse, Gate and deployment pending."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "R30 screenshot showed right-edge clipping. Awaiting R31 iPhone Safari test for equal left/right whitespace and complete visibility of every amount and table edge."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User's earlier approval covers continued Preview-only repair of the same PDF layout issue."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable",
+      "embeddedPreviewBuildTimestamp": "2026-11-17T21:18:52.156Z"
     }
   ],
   "history": [
