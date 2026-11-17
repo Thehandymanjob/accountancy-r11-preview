@@ -1261,19 +1261,19 @@
       "previewMergeCommitSha": "6dcb4f9c0dae1904b194a4505edb3e62fa538821",
       "versionAuthorityGate": {
         "result": "PASS",
-        "runId": 44171079199,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44171079199",
-        "details": "Initial PR Gate detected the stale embedded canonical URL; the constant was corrected to R27. PR Gate run 44171059924 passed on the corrected code and final validation run 44171079199 passed after the final manifest and repair-history update. All 22 pinned assets are validated by the Gate."
+        "runId": 44171153464,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44171153464",
+        "details": "PR Gate run 44171059924 passed on corrected R27. Post-merge main Gate run 44171153464 also passed, validating repository identity, canonical URL, and all 22 pinned runtime assets."
       },
       "staticChecks": {
         "result": "PASS",
         "details": "V8 syntax parsing passed for tha-print-engine.js and all 8 inline HTML script blocks (9 JavaScript units). All 22 Preview runtime asset SHAs and all 21 Production runtime asset SHAs were fetched and matched their respective manifests. Preview R27 index SHA, embedded Build ID, embedded canonical URL, and engine SHA pins match. The PR changed exactly five approved files. Source checks confirm no iframe print call remains; native file sharing passes the original PDF File; fallback opens the same original PDF blob; report capture uses block flow and permits sections to continue across pages."
       },
       "previewPagesDeployment": {
-        "result": "pending verification",
-        "runId": "not exposed by available GitHub Actions status connector",
-        "url": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R27",
-        "details": "PR #67 merged to main and main/development are identical; GitHub Pages deployment completion could not be independently confirmed from available workflow status data. Do not mark deployed until the Pages run or live build is verified."
+        "result": "PASS",
+        "runId": 44171153146,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44171153146",
+        "details": "Post-merge Preview Pages workflow completed successfully: build, report-build-status, and Deploy to GitHub Pages all passed."
       },
       "userSafariTest": {
         "result": "not tested",
