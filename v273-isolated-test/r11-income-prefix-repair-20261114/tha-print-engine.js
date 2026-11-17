@@ -1,7 +1,7 @@
 /* The Handyman Accountancy — central PDF/Print Engine
- * Preview R23: responsive PDF preview with separate native PDF print handoff.
+ * Preview R24: one report action opens PDF preview; explicit Print button invokes the native print dialog.
  * Document-specific HTML remains owned by its section; this engine owns PDF
- * generation, validation, responsive in-app preview, native PDF print handoff, Back and cleanup.
+ * generation, validation, responsive in-app preview, explicit user-triggered PDF print dialog, Back and cleanup.
  */
 (function installTHAPrintEngine(){
  'use strict';
@@ -56,7 +56,7 @@
   if(state.overlay)close();
   state.returnFocus=document.activeElement;
   const overlay=document.createElement('section');overlay.className='tha-pe-overlay';overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label',title||'PDF Preview');
-  overlay.innerHTML='<header class="tha-pe-bar"><strong class="tha-pe-title"></strong></header><div class="tha-pe-status" role="status" aria-live="polite">Preparing PDF…</div><iframe class="tha-pe-frame" title="PDF document preview" scrolling="auto"></iframe><footer class="tha-pe-actions"><button type="button" data-action="print" disabled>Print</button><button type="button" class="tha-pe-secondary" data-action="back">Back</button></footer>';
+  overlay.innerHTML='<header class="tha-pe-bar"><strong class="tha-pe-title"></strong></header><div class="tha-pe-status" role="status" aria-live="polite">Preparing PDF…</div><iframe class="tha-pe-frame" title="PDF document preview" scrolling="auto"></iframe><footer class="tha-pe-actions"><button type="button" class="tha-pe-secondary" data-action="back" disabled>Back</button><button type="button" data-action="print" disabled>Print</button></footer>';
   overlay.querySelector('.tha-pe-title').textContent=title||'PDF Preview';
   overlay.querySelector('[data-action="back"]').addEventListener('click',close);
   overlay.querySelector('[data-action="print"]').addEventListener('click',print);
@@ -94,7 +94,7 @@
    if(String.fromCharCode(...bytes)!=='%PDF-')throw new Error('Generated file failed PDF signature validation');
    state.pdfBlob=blob;state.pdfFile=new File([blob],filename,{type:'application/pdf'});
    state.objectUrl=URL.createObjectURL(blob);frame.src=state.objectUrl+'#zoom=page-width&view=FitH';
-   enableActions();setStatus('PDF ready. It is fitted to the mobile screen. Tap Print to open the PDF in Safari, then choose Print from the PDF sharing options; tap Back to return.');
+   enableActions();setStatus('PDF preview ready. Use Back to return to the report or Print to open the printer dialog.');
    cleanupCapture();
    return {ok:true,filename,size:blob.size};
   }catch(error){
@@ -117,12 +117,12 @@
   const a=document.createElement('a');a.href=state.objectUrl;a.download=state.pdfFile.name;document.body.appendChild(a);a.click();a.remove();
  }
  function print(){
-  if(!state.objectUrl||!state.pdfBlob)return;
-  /* Do not call window.print(): iOS Safari treats scripted printing as automatic
-     printing and can ask for permission on every attempt. Open the validated PDF
-     from this direct user gesture so Safari's native PDF viewer owns printing. */
-  const link=document.createElement('a');link.href=state.objectUrl;link.target='_blank';link.rel='noopener';link.click();
-  setStatus('PDF opened in Safari. Use the PDF Share menu and choose Print.');
+  const frame=state.overlay&&state.overlay.querySelector('iframe');
+  if(!frame||!state.pdfBlob)return;
+  /* Printing is invoked only by the dedicated Print button after the PDF preview
+     is ready. The report-page Print Preview action never invokes printing. */
+  try{frame.contentWindow.focus();frame.contentWindow.print();setStatus('Printer dialog requested. Choose a printer or save as PDF.')}
+  catch(error){setStatus('Safari could not open the printer dialog: '+(error&&error.message?error.message:'try Print again.'))}
  }
  function openNewTab(){if(state.objectUrl){const link=document.createElement('a');link.href=state.objectUrl;link.target='_blank';link.rel='noopener';link.click()}}
  window.THA=window.THA||{};
