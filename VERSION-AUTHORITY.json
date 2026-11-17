@@ -8,7 +8,7 @@
     "version": "273",
     "buildId": "THA-273-R11-PREVIEW-20261117-R20",
     "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R20",
-    "indexBlobSha": "8e222dd182e9d0ee215f0ae80c7302f48be6217d",
+    "indexBlobSha": "90a66617e4e417a70b383b9b204707586b8e1677",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "8e222dd182e9d0ee215f0ae80c7302f48be6217d",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "90a66617e4e417a70b383b9b204707586b8e1677",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462"
     }
   },
@@ -873,14 +873,14 @@
         "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "907b2df70cd4e95e19e976d501a1408a9e316bd2",
+      "previewDevelopmentCommitSha": "b268373f21f28aa596af81835377378dbe61335f",
       "previewPullRequestNumber": 43,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/43",
       "previewMergeCommitSha": "pending",
       "embeddedPreviewBuildTimestamp": "2026-11-17T18:05:05.240Z",
       "staticChecks": {
         "result": "PASS",
-        "details": "The shared timestamp service returns a validated embedded ISO timestamp and formats it in Europe/London time for both banner and Version Details. Browser-side GitHub API calls are removed from this timestamp path. JavaScript syntax and full Version Authority Gate pending."
+        "details": "All 8 inline JavaScript blocks parsed with V8. The timestamp service uses a validated embedded ISO timestamp shared by the red banner and Version Details; no browser GitHub API request remains. The HTML section boundary was source-checked and corrected. Full Version Authority Gate and Pages deployment pending."
       },
       "versionAuthorityGate": {
         "result": "pending",
