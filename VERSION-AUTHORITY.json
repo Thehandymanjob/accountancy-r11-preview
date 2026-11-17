@@ -20,7 +20,7 @@
       "v273-isolated-test/v264-fresh/v264-invoice-workflow-v263.js": "8d15e9b4373d4653d858dd9abd7d765ed9e63969",
       "v273-isolated-test/v264-fresh/v264-media-controller.js": "805ec42c0d178049c6d78a6ecd3931600547f2d6",
       "v273-isolated-test/v264-fresh/v264-projects-controller.js": "e0d11bebcf06e65719dc45040843dfab8957cd2b",
-      "v273-isolated-test/v264-fresh/v264-recovery.js": "c3abd2f4a77a1a4c53ec0a5c257caa793046802d",
+      "v273-isolated-test/v264-fresh/v264-recovery.js": "3cf77221e659e8bad528cb9180b6d1b351e2613e",
       "v273-isolated-test/v264-fresh/v264-strict-domain-boundary.js": "51288f48c00403175fadc2c9aaf22db19b4e6344",
       "v273-isolated-test/v264-fresh/v264-support-controller-v2.js": "83a64effa59e29c305aa946a02dc557468197474",
       "v273-isolated-test/r11-income-prefix-repair-20261114/accounting-ui-idb-bridge.js": "0d5c85ecefa78967cb7dfb16756684c5841eee62",
@@ -1505,6 +1505,48 @@
       },
       "approvalStatus": "awaiting user R33 Preview verification; Production promotion not authorized",
       "productionPromotion": "not authorized"
+    },
+    {
+      "changeId": "DATA-001",
+      "dateStarted": "2026-11-17",
+      "purpose": "Allow a validated full-database backup exported from the versioned Production IndexedDB database to be restored into the isolated R11 Preview database without weakening destination verification or changing Production.",
+      "changedFiles": [
+        "v273-isolated-test/v264-fresh/v264-recovery.js",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "pending",
+      "previewPullRequestNumber": 80,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/80",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "The previous PR Gate failed because the updated recovery runtime file had not yet been added to the SHA-pinned runtime asset list. The manifest pin is being synchronized to the exact Git blob SHA. Re-run required."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting Preview PR merge and successful Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user test of importing a known-good Production full-database backup into Preview and checking record/domain counts and key records."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "User authorized continuing Preview-only repair. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "pending",
+      "productionPullRequestUrl": "pending",
+      "productionCommitSha": "pending"
     }
   ],
   "history": [
