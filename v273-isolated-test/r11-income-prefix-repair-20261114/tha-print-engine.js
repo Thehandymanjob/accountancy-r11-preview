@@ -122,11 +122,13 @@
    state.lastWidth=viewer.clientWidth;
    setStatus('PDF preview ready. Pages are fitted to your screen. Use Back or Print.');
    enableActions();
+   return true;
   }catch(error){
    if(error&&error.name==='RenderingCancelledException')return;
    if(token!==state.renderToken)return;
    viewer.innerHTML='<div class="tha-pe-error">PDF preview could not be displayed: '+String(error&&error.message||error).replace(/[<>&"]/g,char=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[char]))+'</div>';
    setStatus('PDF was created, but the responsive preview failed.');
+   return false;
   }
  }
  function observeViewer(){
@@ -190,8 +192,9 @@
    const loadingTask=pdfjs.getDocument({data:bytes,useSystemFonts:true,isEvalSupported:false});
    state.pdfDocument=await loadingTask.promise;
    cleanupCapture();
+   const rendered=await renderPages();
+   if(!rendered)throw new Error('Responsive PDF page rendering failed');
    observeViewer();
-   await renderPages();
    return {ok:true,filename,size:blob.size,pages:state.pdfDocument.numPages,viewer:'pdfjs-fit-width'};
   }catch(error){
    cleanupCapture();
