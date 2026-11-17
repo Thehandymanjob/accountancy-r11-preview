@@ -140,7 +140,7 @@
 
 ### PDF-LAYOUT-001 — اصلاح چیدمان چاپ گزارش مالی برای A4 و موبایل
 
-- **وضعیت فعلی پس از R25:** PDF اصلی همچنان با اندازه A4 عمودی تولید می‌شود؛ نمایشگر داخل برنامه با PDF.js صفحات را به عرض قابل‌استفاده موبایل fit می‌کند. Canvas فقط برای نمایش است و دکمه Print همچنان از PDF اصلی استفاده می‌کند. در صفحه preview فقط Back و Print باقی می‌مانند. `Fixed — awaiting verification`؛ fit عرض باید در iPhone Safari و چاپ A4 باید روی دستگاه واقعی تأیید شود. فقط گزارش اصلی Accounting Financial Report به این موتور متصل است؛ فاکتور، قرارداد، رسید و گزارش پروژه همچنان مسیرهای قبلی را دارند.
+- **وضعیت فعلی پس از R26:** PDF اصلی A4 portrait با PDF.js در عرض موبایل نمایش داده می‌شود. برای چاپ، iframe PDF اکنون full-viewport است و در print media پنهان نمی‌شود؛ لایه Canvas و کنترل‌های preview هنگام چاپ مخفی می‌شوند تا PDF اصلی به print pipeline برسد. در صفحه preview فقط Back و Print باقی می‌مانند. ردیف‌های legacy Materials با مبلغی که به £0.00 گرد می‌شود از Full Project Report و reconciliation register حذف می‌شوند؛ خط جمع legacy materials نیز وقتی مجموعش صفر است پنهان می‌شود. `Fixed — awaiting verification`؛ چاپ چندصفحه‌ای و خروجی نهایی باید در iPhone Safari واقعی تأیید شود. موتور R26 همچنان فقط به گزارش اصلی Accounting Financial Report متصل است؛ مسیرهای فاکتور، قرارداد، رسید و گزارش پروژه مستقل باقی می‌مانند.
 
 - **وضعیت:** تغییرات source-level در Preview R15 ثبت شده؛ live browser rendering و تأیید بصری Safari در سابقه آن pending بوده است.
 - **تاریخ:** 2026-11-16
@@ -219,6 +219,20 @@
 - **تست iPhone Safari:** not tested؛ باید fit عرض، اسکرول عمودی صفحات، چاپ واقعی A4 و Back بررسی شوند.
 - **محدودیت:** کیفیت PDF چاپی از Canvas preview گرفته نمی‌شود؛ چاپ باید از PDF blob اصلی انجام شود. عملکرد iframe پنهان برای print در Safari هنوز نیازمند تست واقعی است.
 - **Production:** هیچ تغییری انجام نشده؛ ارتقا مجاز نیست.
+
+### بازنگری راه‌حل R7 — چاپ کامل PDF چندصفحه‌ای و حذف ردیف متریال صفر
+
+- **تاریخ:** 2026-11-17
+- **درخواست کاربر:** PDF گزارش دو صفحه دارد اما فقط صفحه اول به چاپگر ارسال می‌شود؛ همچنین ردیف‌های موجود فقط در بخش Materials که مبلغشان صفر است نباید در گزارش چاپی دیده شوند.
+- **علت فنی چاپ در سورس R25:** iframe حاوی PDF اصلی با ابعاد 1×1 پیکسل و خارج از صفحه قرار داشت؛ علاوه بر آن، قانون `@media print` کل `.tha-pe-overlay` را `display:none` می‌کرد، بنابراین iframe منبع چاپ در زمان چاپ والد نیز مخفی می‌شد. این ساختار با چاپ مطمئن یک سند چندصفحه‌ای سازگار نبود.
+- **راه‌حل چاپ R7:** iframe منبع PDF به اندازه کامل overlay (100%) تغییر کرد؛ در حالت چاپ، overlay باقی می‌ماند، toolbar/status/canvas/actions پنهان می‌شوند و iframe اصلی PDF در ابعاد کامل viewport نمایش داده می‌شود. فرمان Print همچنان فقط با لمس صریح دکمه Print اجرا می‌شود و تعداد صفحات PDF.js در پیام وضعیت نمایش داده می‌شود.
+- **راه‌حل متریال R7:** فقط رکوردهای `materials` که مبلغشان پس از گردکردن به پنی صفر است (`£0.00`) از Full Project Report و Project Reconciliation Register کنار گذاشته می‌شوند. ردیف‌های مواد با مبلغ غیرصفر حفظ می‌شوند. ردیف خلاصه Legacy material records نیز وقتی جمع آن صفر است نمایش داده نمی‌شود. هیچ رکوردی از IndexedDB حذف یا تغییر داده نمی‌شود.
+- **فایل‌ها:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`، `tha-print-engine.js`، `VERSION-AUTHORITY.json`، `REPAIR_HISTORY_FA.md` و `REPAIR_INDEX_FA.md`.
+- **Build ID هدف:** `THA-273-R11-PREVIEW-20261117-R26`
+- **PR / Gate / Pages:** pending تا تکمیل PR، Version Authority Gate و انتشار Preview Pages.
+- **تست کد:** V8 syntax parse برای فایل موتور و هر 25 بلوک inline JavaScript موفق (26 واحد). فیلترهای zero-material در دو جدول گزارش و فیلتر ردیف خلاصه صفر بررسی استاتیک شدند.
+- **تست iPhone Safari:** not tested؛ باید تعداد صفحات در print dialog، خروجی واقعی A4 و باقی‌ماندن ردیف‌های Material غیرصفر بررسی شوند.
+- **Production:** بدون تغییر؛ ارتقا مجاز نیست.
 
 ## 6. کیفیت و نگهداری دفترچه
 
