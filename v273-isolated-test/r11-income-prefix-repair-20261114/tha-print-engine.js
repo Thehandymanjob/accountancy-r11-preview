@@ -1,7 +1,7 @@
 /* The Handyman Accountancy — central PDF/Print Engine
- * Preview R21: first migration target is the main Accounting Financial Report.
+ * Preview R22: Accounting Financial Report preview exposes only Print Preview and Back.
  * Document-specific HTML remains owned by its section; this engine owns PDF
- * generation, validation, in-app preview, Share, Print, download and cleanup.
+ * generation, validation, in-app preview, Print Preview, Back and cleanup.
  */
 (function installTHAPrintEngine(){
  'use strict';
@@ -15,11 +15,11 @@
   .tha-pe-overlay{position:fixed;inset:0;z-index:2147483646;background:#eef1f5;display:flex;flex-direction:column;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom);font-family:-apple-system,BlinkMacSystemFont,Arial,sans-serif;color:#142b4a}
   .tha-pe-bar{min-height:58px;display:flex;align-items:center;gap:10px;padding:8px 12px;background:#fff;border-bottom:1px solid #d7dee8}
   .tha-pe-title{font-size:16px;font-weight:800;flex:1;min-width:0}
-  .tha-pe-close{width:44px;height:44px;border:0;border-radius:9px;background:#d83b3b;color:#fff;font-size:26px;font-weight:800}
+  
   .tha-pe-status{padding:9px 12px;background:#f7f9fc;color:#34445a;font-size:13px;line-height:1.4;border-bottom:1px solid #d7dee8}
   .tha-pe-frame{display:block;flex:1;width:100%;min-height:0;border:0;background:#fff}
   .tha-pe-actions{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid #d7dee8}
-  .tha-pe-actions button{min-height:44px;flex:1 1 28%;max-width:240px;border:0;border-radius:9px;padding:9px 12px;background:#e5b63f;color:#142b4a;font-size:14px;font-weight:800}
+  .tha-pe-actions button{min-height:50px;flex:1 1 45%;max-width:320px;border:0;border-radius:10px;padding:10px 16px;background:#e5b63f;color:#142b4a;font-size:16px;font-weight:800}
   .tha-pe-actions button:disabled{opacity:.48}
   .tha-pe-actions .tha-pe-secondary{background:#e8edf4;color:#24364f}
   .tha-pe-overlay[hidden]{display:none!important}
@@ -56,13 +56,10 @@
   if(state.overlay)close();
   state.returnFocus=document.activeElement;
   const overlay=document.createElement('section');overlay.className='tha-pe-overlay';overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label',title||'PDF Preview');
-  overlay.innerHTML='<header class="tha-pe-bar"><strong class="tha-pe-title"></strong><button class="tha-pe-close" type="button" aria-label="Close PDF preview">×</button></header><div class="tha-pe-status" role="status" aria-live="polite">Preparing PDF…</div><iframe class="tha-pe-frame" title="PDF document preview"></iframe><footer class="tha-pe-actions"><button type="button" data-action="share" disabled>Share PDF</button><button type="button" data-action="print" disabled>Print</button><button type="button" data-action="download" disabled>Save PDF</button><button type="button" class="tha-pe-secondary" data-action="open" disabled>Open PDF</button></footer>';
+  overlay.innerHTML='<header class="tha-pe-bar"><strong class="tha-pe-title"></strong></header><div class="tha-pe-status" role="status" aria-live="polite">Preparing PDF…</div><iframe class="tha-pe-frame" title="PDF document preview"></iframe><footer class="tha-pe-actions"><button type="button" data-action="print" disabled>Print Preview</button><button type="button" class="tha-pe-secondary" data-action="back">Back</button></footer>';
   overlay.querySelector('.tha-pe-title').textContent=title||'PDF Preview';
-  overlay.querySelector('.tha-pe-close').addEventListener('click',close);
-  overlay.querySelector('[data-action="share"]').addEventListener('click',share);
+  overlay.querySelector('[data-action="back"]').addEventListener('click',close);
   overlay.querySelector('[data-action="print"]').addEventListener('click',print);
-  overlay.querySelector('[data-action="download"]').addEventListener('click',download);
-  overlay.querySelector('[data-action="open"]').addEventListener('click',openNewTab);
   overlay.addEventListener('keydown',event=>{if(event.key==='Escape'){event.preventDefault();close()}});
   document.body.appendChild(overlay);state.overlay=overlay;return overlay;
  }
@@ -97,7 +94,7 @@
    if(String.fromCharCode(...bytes)!=='%PDF-')throw new Error('Generated file failed PDF signature validation');
    state.pdfBlob=blob;state.pdfFile=new File([blob],filename,{type:'application/pdf'});
    state.objectUrl=URL.createObjectURL(blob);frame.src=state.objectUrl+'#view=FitH';
-   enableActions();setStatus('PDF ready. Review it below, then Share, Print or Save PDF.');
+   enableActions();setStatus('PDF ready. Tap Print Preview to print, or Back to return to the report.');
    cleanupCapture();
    return {ok:true,filename,size:blob.size};
   }catch(error){
@@ -122,8 +119,8 @@
  function print(){
   const frame=state.overlay&&state.overlay.querySelector('iframe');
   if(!frame||!state.pdfBlob)return;
-  try{frame.contentWindow.focus();frame.contentWindow.print();setStatus('Print dialog requested. On iPhone, use Share then Print if the PDF viewer does not expose printing.')}
-  catch(_){setStatus('Direct printing is unavailable in this browser. Use Share PDF, then choose Print.')}
+  try{frame.contentWindow.focus();frame.contentWindow.print();setStatus('Print Preview requested. If the print dialog does not appear, try again or tap Back.')}
+  catch(_){setStatus('This browser did not open the print dialog. Try Print Preview again or tap Back.')}
  }
  function openNewTab(){if(state.objectUrl)window.open(state.objectUrl,'_blank','noopener')}
  window.THA=window.THA||{};
