@@ -1339,8 +1339,8 @@
         "docs/REPAIR_INDEX_FA.md"
       ],
       "previewDevelopmentCommitSha": "d4936b987ff7686e3e32287df193459ff44e0d5d",
-      "previewPullRequestNumber": null,
-      "previewPullRequestUrl": "pending",
+      "previewPullRequestNumber": 72,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/72",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
         "result": "pending",
@@ -1349,7 +1349,7 @@
       },
       "staticChecks": {
         "result": "pending",
-        "details": "Awaiting JavaScript syntax checks and exact R29 manifest/source verification."
+        "details": "Source-level checks passed: invoice document/body width 190mm, clone padding 6mm, PDF margins [10,10,10,10], previous and revised content width both 178mm, Build ID/canonical URL/timestamp and index SHA pins match. JavaScript parser and Version Authority Gate are pending."
       },
       "previewPagesDeployment": {
         "result": "pending",
