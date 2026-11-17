@@ -1343,13 +1343,14 @@
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/72",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": null,
-        "url": "pending"
+        "result": "PASS",
+        "runId": 44175415156,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44175415156",
+        "details": "PR Gate run 44175415156 passed on PR #72 head commit cf3c05cc39bb05b837aa4aeb38300356e351a308; repository identity, approved baseline, R29 Build ID/canonical URL, index blob pin, and all 22 Preview runtime assets passed."
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Source-level checks passed: invoice document/body width 190mm, clone padding 6mm, PDF margins [10,10,10,10], previous and revised content width both 178mm, Build ID/canonical URL/timestamp and index SHA pins match. JavaScript parser and Version Authority Gate are pending."
+        "result": "PASS",
+        "details": "Source checks verified the invoice-only scope, A4 dimensions (190mm document width + 10mm symmetric PDF margins), 6mm clone padding, unchanged 178mm content width, R29 metadata/timestamp, and matching index SHA pins. The Version Authority Gate verified all 22 pinned Preview runtime assets. Production's 21 runtime assets were independently re-fetched and matched. No IndexedDB, LocalStorage, backups, or user records were touched. JavaScript runtime and iPhone Safari rendering remain untested."
       },
       "previewPagesDeployment": {
         "result": "pending",
