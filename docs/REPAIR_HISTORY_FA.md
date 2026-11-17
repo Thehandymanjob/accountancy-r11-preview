@@ -286,6 +286,16 @@
 - **تست iPhone Safari:** not tested؛ کاربر باید تقارن حاشیه‌های چپ و راست، دیده‌شدن کامل عرض سند، خروجی A4 و عملکرد Back را در Preview بررسی کند.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
 
+#### بازنگری R2 — ثبت نتیجه انتشار Preview
+
+- **PR:** #72 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/72 ؛ merge commit: `75e70c1efc8c1f58e22d0c0e21d83f3cd463a5f8`.
+- **Version Authority Gate:** PASS؛ PR run `44175415156` و post-merge main run `44175595034` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44175595034.
+- **Preview Pages:** PASS؛ build، report-build-status و deploy در run `44175594286` کامل شدند — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44175594286.
+- **بررسی SHA:** هر 22 فایل وابسته Preview و هر 21 فایل وابسته Production پیش از تغییر با manifest مربوطه تطبیق داده شدند؛ SHA فایل index و pin داخل manifest R29 نیز یکسان است.
+- **Static checks:** اندازه‌های 190mm سند، 10mm حاشیه متقارن و 6mm padding تأیید شدند؛ عرض مفید محتوای فاکتور با مقدار قبلی برابر 178mm باقی می‌ماند. تست parser مستقل JavaScript انجام نشده است.
+- **تست iPhone Safari:** not tested؛ باید کاربر خروجی PDF واقعی، تقارن چپ و راست و عملکرد Back را بررسی کند.
+- **Production:** بدون تغییر؛ ارتقا مجاز نیست.
+
 ## 6. کیفیت و نگهداری دفترچه
 
 - فقط مشکل مشاهده‌شده و علت دارای شواهد را به‌عنوان تعمیر تأییدشده ثبت کن.
