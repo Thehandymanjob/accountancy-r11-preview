@@ -211,8 +211,8 @@
 - **راه‌حل R6:** استفاده از PDF.js نسخه 3.11.174 برای رندر هر صفحه PDF روی Canvas با مقیاس محاسبه‌شده از عرض واقعی viewer؛ پشتیبانی از تغییر عرض/چرخش دستگاه با ResizeObserver؛ محدودکردن output scale به حداکثر 1.5 برای کنترل مصرف حافظه iPhone. PDF اصلی تولیدشده و A4 portrait تغییر نمی‌کند؛ Canvas فقط لایه نمایش است. iframe پنهان برای حفظ مسیر فعلی Print از روی PDF اصلی باقی می‌ماند. فقط دو کنترل Back و Print نمایش داده می‌شوند.
 - **فایل‌ها:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html` و `tha-print-engine.js`، `VERSION-AUTHORITY.json` و همین دو سند تعمیر.
 - **Build ID هدف:** `THA-273-R11-PREVIEW-20261117-R25`
-- **PR / commit / Gate / Pages:** pending تا تکمیل PR، Gate و انتشار Pages.
-- **تست‌های کد:** pending بررسی V8 syntax و R11 Version Authority Gate.
+- **PR:** #63 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/63 ؛ development commit و merge commit پس از تکمیل workflow ثبت می‌شوند.
+- **تست‌های کد:** V8 syntax parse برای فایل موتور و 25 بلوک inline JavaScript موفق؛ تأیید نهایی 22 SHA و Version Authority Gate هنوز pending است.
 - **تست iPhone Safari:** not tested؛ باید fit عرض، اسکرول عمودی صفحات، چاپ واقعی A4 و Back بررسی شوند.
 - **محدودیت:** کیفیت PDF چاپی از Canvas preview گرفته نمی‌شود؛ چاپ باید از PDF blob اصلی انجام شود. عملکرد iframe پنهان برای print در Safari هنوز نیازمند تست واقعی است.
 - **Production:** هیچ تغییری انجام نشده؛ ارتقا مجاز نیست.
