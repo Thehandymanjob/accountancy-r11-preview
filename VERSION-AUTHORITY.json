@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261117-R28",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R28",
-    "indexBlobSha": "0f22315b1bf6934934600cd7e9b72609029c0580",
+    "buildId": "THA-273-R11-PREVIEW-20261117-R29",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R29",
+    "indexBlobSha": "c69744939d5f8224775a312f3fc8cfb88943c403",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "0f22315b1bf6934934600cd7e9b72609029c0580",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "c69744939d5f8224775a312f3fc8cfb88943c403",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "4b41776ed9dfcd4112d9d67164679caba1ab0af0"
     }
@@ -1327,6 +1327,48 @@
       "productionPullRequestUrl": "not applicable",
       "productionCommitSha": "not applicable",
       "embeddedPreviewBuildTimestamp": "2026-11-17T20:45:04.524Z"
+    },
+    {
+      "changeId": "THA-2026-11-17-INVOICE-PDF-CENTERING-R29-001",
+      "dateStarted": "2026-11-17",
+      "purpose": "Correct horizontal A4 centering of the standalone invoice PDF by matching the PDF content width, document width and symmetric page margins while preserving the prior printable content width.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "d4936b987ff7686e3e32287df193459ff44e0d5d",
+      "previewPullRequestNumber": 72,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/72",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 44175415156,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44175415156",
+        "details": "PR Gate run 44175415156 passed on PR #72 head commit cf3c05cc39bb05b837aa4aeb38300356e351a308; repository identity, approved baseline, R29 Build ID/canonical URL, index blob pin, and all 22 Preview runtime assets passed."
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "Source checks verified the invoice-only scope, A4 dimensions (190mm document width + 10mm symmetric PDF margins), 6mm clone padding, unchanged 178mm content width, R29 metadata/timestamp, and matching index SHA pins. The Version Authority Gate verified all 22 pinned Preview runtime assets. Production's 21 runtime assets were independently re-fetched and matched. No IndexedDB, LocalStorage, backups, or user records were touched. JavaScript runtime and iPhone Safari rendering remain untested."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": null,
+        "url": "pending"
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "iPhone Safari verification is required for left/right symmetry, full-width visibility, A4 PDF output and Back navigation."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User instructed this Preview-only invoice PDF alignment repair."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable",
+      "embeddedPreviewBuildTimestamp": "2026-11-17T20:59:26.000Z"
     }
   ],
   "history": [
