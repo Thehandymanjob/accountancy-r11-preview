@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261117-R21",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R21",
-    "indexBlobSha": "615dc7998fffb6ccdc737e2800881f387304cd5b",
+    "buildId": "THA-273-R11-PREVIEW-20261117-R22",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R22",
+    "indexBlobSha": "3da48442257a86456c3d52ca8db9b6b116a2c4ba",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,9 +30,9 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "615dc7998fffb6ccdc737e2800881f387304cd5b",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "3da48442257a86456c3d52ca8db9b6b116a2c4ba",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "771481a96c69ebde9161252a16817bb2b9080d15"
+      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "4bb0ba293421c83e22f52384575d75952a61c165"
     }
   },
   "rules": {
@@ -1031,6 +1031,48 @@
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
       "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-17-PDF-PREVIEW-CONTROLS-001",
+      "dateStarted": "2026-11-17",
+      "purpose": "Simplify the Accounting Financial Report PDF preview to exactly two controls: Print Preview and Back; remove Share PDF, Print, Save PDF and Open PDF actions.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "500e43834a95976aad749f81dcaed60214b55731",
+      "previewPullRequestNumber": 58,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/58",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 44152481727,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44152481727"
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "Preview Version Authority Gate verified R22 Build ID, canonical URL, approved baseline ancestry, and all 22 pinned runtime asset SHAs. PR diff reviewed: exactly the app index, print engine, Authority and existing repair-history/index files changed. Dedicated JS parser check is not independently recorded."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting Preview PR merge and Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user test on iPhone Safari."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting Preview Safari test."
+      },
+      "productionPromotionStatus": "pending",
+      "productionPullRequestUrl": "pending",
+      "productionCommitSha": "pending"
     }
   ],
   "history": [
