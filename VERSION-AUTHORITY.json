@@ -1255,25 +1255,25 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "a6146f70c525f0d00685f534c60490bcfec82621",
+      "previewDevelopmentCommitSha": "04cde3345b110117844ab37f90d5918dcbbfb659",
       "previewPullRequestNumber": 67,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/67",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "6dcb4f9c0dae1904b194a4505edb3e62fa538821",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": 44170936017,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44170936017",
-        "details": "Initial PR Gate failed because the embedded R11_CANONICAL_PAGE_URL in index.html still named R26 while the manifest named R27. The embedded constant has been corrected to R27; rerun is pending."
+        "result": "PASS",
+        "runId": 44171153464,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44171153464",
+        "details": "The corrected PR Gate passed on PR head 04cde3345b110117844ab37f90d5918dcbbfb659 in run 44171079199; the Preview main-branch Gate also passed on merge commit 6dcb4f9c0dae1904b194a4505edb3e62fa538821 in run 44171153464. Two earlier attempts were blocked by a stale embedded R26 canonical URL and were corrected before merge."
       },
       "staticChecks": {
         "result": "PASS",
-        "details": "V8 syntax parsing passed for tha-print-engine.js and all 8 inline HTML script blocks (9 JavaScript units). Source-level checks confirm the Print handler no longer calls iframe.contentWindow.print(), the original PDF File is passed to navigator.share when file sharing is supported, the fallback opens the original PDF blob, report columns use normal block flow, and section wrappers permit page fragmentation while headings and individual rows remain together."
+        "details": "V8 syntax parsing passed for tha-print-engine.js and all 8 inline HTML script blocks (9 JavaScript units). All 22 Preview runtime asset SHAs and all 21 Production runtime asset SHAs were fetched and matched their respective manifests. Preview R27 index SHA, embedded Build ID, embedded canonical URL, and engine SHA pins match. The PR changed exactly five approved files. Source checks confirm no iframe print call remains; native file sharing passes the original PDF File; fallback opens the same original PDF blob; report capture uses block flow and permits sections to continue across pages."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting Preview Pages deployment for R27."
+        "result": "PASS",
+        "runId": 44171153146,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44171153146",
+        "details": "For Preview main merge commit 6dcb4f9c0dae1904b194a4505edb3e62fa538821, Pages build, report-build-status, and Deploy to GitHub Pages jobs all completed successfully."
       },
       "userSafariTest": {
         "result": "not tested",

@@ -247,8 +247,9 @@
 - **راه‌حل صفحه‌بندی R8:** تبدیل .uc-columns از grid به block flow و تبدیل فرزندان آن به بلوک‌های تمام‌عرض؛ اجازه شکستن .uc-group و .uc-summary در مرز صفحات؛ حفظ heading با بخش بعدی و حفظ ردیف‌های منفرد تا حد ممکن؛ تغییر حاشیه عمودی تولید A4 از 12 به 8 میلی‌متر. هیچ متن یا رکورد مالی برای پرکردن صفحه حذف نشده است.
 - **فایل‌ها:** v273-isolated-test/r11-income-prefix-repair-20261114/index.html، tha-print-engine.js، VERSION-AUTHORITY.json و دو سند Repair History/Index.
 - **Build ID هدف:** THA-273-R11-PREVIEW-20261117-R27
-- **PR:** #67 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/67 ؛ merge و Pages در انتظار Gate نهایی هستند.
-- **Version Authority Gate:** تلاش اولیه PR Gate در run 44170936017 ناموفق بود؛ علت، باقی‌ماندن R26 در مقدار داخلی R11_CANONICAL_PAGE_URL با وجود R27 در manifest بود. مقدار داخلی در commit اصلاحی d43bfc0ffac0765c1d69b99e27f45276053040cf به R27 تغییر کرد و SHA جدید index در manifest ثبت شد؛ اجرای مجدد Gate در انتظار است.
+- **PR:** #67 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/67 ؛ merge commit: 6dcb4f9c0dae1904b194a4505edb3e62fa538821.
+- **Version Authority Gate:** PASS در PR run 44171079199 و main run 44171153464 — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44171153464. دو اجرای اولیه به‌دلیل ثابت داخلی R26 مسدود شدند؛ ثابت canonical به R27 اصلاح شد و Gate نهایی PASS شد.
+- **Preview Pages:** PASS در run 44171153146؛ build، report-build-status و Deploy to GitHub Pages همگی موفق شدند — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44171153146.
 - **تست‌های استاتیک:** V8 syntax parse برای موتور و 8 بلوک inline JavaScript موفق؛ منطق handler دیگر از iframe.contentWindow.print() استفاده نمی‌کند؛ Share Sheet فایل اصلی PDF را می‌گیرد؛ fallback نیز URL همان PDF اصلی را باز می‌کند؛ قانون block flow و اجازه شکستن گروه‌ها در سورس تأیید شده است.
 - **تست iPhone Safari:** not tested؛ باید Share Sheet، انتخاب Print، تعداد صفحات کامل و توزیع محتوا در صفحات A4 بررسی شوند. ظاهر واقعی صفحه‌بندی تا زمان تست مرورگر تأییدشده محسوب نمی‌شود.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
