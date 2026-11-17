@@ -140,7 +140,7 @@
 
 ### PDF-LAYOUT-001 — اصلاح چیدمان چاپ گزارش مالی برای A4 و موبایل
 
-- **وضعیت فعلی پس از R23:** مسیر نمایش PDF و چاپ از هم جدا شده؛ دکمه Print دیگر `window.print()` را اجرا نمی‌کند و فایل PDF را در viewer بومی Safari باز می‌کند. نمایش mobile با `#zoom=page-width` درخواست fit-to-width می‌دهد. `Fixed — awaiting verification`؛ رفتار واقعی Safari و fit باید دوباره تأیید شود. فقط گزارش اصلی Accounting Financial Report به موتور جدید متصل شده است. فاکتور، قرارداد، رسید و گزارش پروژه هنوز از مسیرهای قبلی استفاده می‌کنند. تأیید بصری و تست واقعی iPhone Safari انجام نشده است.
+- **وضعیت فعلی پس از R24:** صفحه گزارش فقط یک دکمه زرد Print Preview دارد؛ Generate & Save Report از این صفحه حذف شده است. لمس Print Preview فقط PDF را تولید و preview تمام‌صفحه را باز می‌کند. در صفحه preview فقط Back و Print وجود دارد؛ فرمان چاپ صرفاً با لمس Print اجرا می‌شود. `Fixed — awaiting verification`؛ نمایش و print dialog باید در iPhone Safari تأیید شود. فقط گزارش اصلی Accounting Financial Report به موتور جدید متصل شده است. فاکتور، قرارداد، رسید و گزارش پروژه هنوز از مسیرهای قبلی استفاده می‌کنند. تأیید بصری و تست واقعی iPhone Safari انجام نشده است.
 
 - **وضعیت:** تغییرات source-level در Preview R15 ثبت شده؛ live browser rendering و تأیید بصری Safari در سابقه آن pending بوده است.
 - **تاریخ:** 2026-11-16
@@ -190,6 +190,17 @@
 - **PR / Gate / Pages:** pending تا تکمیل workflow.
 - **Safari:** not tested؛ نیازمند تست واقعی iPhone.
 - **Production:** هیچ تغییری انجام نشده و مجوز انتقال صادر نشده است.
+
+### بازنگری راه‌حل R5 — ساده‌سازی صفحه گزارش و انتقال چاپ به دکمه اختصاصی
+- **تاریخ:** 2026-11-17
+- **درخواست کاربر:** حذف دکمه آبی Generate & Save Report؛ تغییر نام دکمه زرد به Print Preview؛ نمایش PDF در صفحه بعد؛ پایین صفحه فقط Back و Print؛ دکمه Print باید رابط چاپ سیستم را باز کند.
+- **علت مغایرت R23:** Print Preview و Print flow هنوز مطابق تفکیک دو مرحله‌ای موردنظر کاربر نبود؛ همچنین دکمه ذخیره snapshot در صفحه اصلی اضافه بود.
+- **راه‌حل R5:** دکمه آبی و متن توضیح snapshot از صفحه تهیه گزارش حذف شدند؛ دکمه زرد با عنوان Print Preview باقی ماند. موتور PDF در صفحه پیش‌نمایش فقط Back و Print نشان می‌دهد. handler صفحه گزارش فقط تولید PDF و بازکردن preview را انجام می‌دهد؛ handler دکمه Print در preview، `iframe.contentWindow.print()` را فقط در پاسخ به لمس صریح همان دکمه اجرا می‌کند.
+- **Build ID هدف:** `THA-273-R11-PREVIEW-20261117-R24`
+- **فایل‌ها:** `index.html`، `tha-print-engine.js`، `VERSION-AUTHORITY.json` و دو سند Repair History/Index.
+- **PR / Gate / Pages:** pending.
+- **Safari:** not tested؛ نیازمند بررسی اینکه Print Preview بدون چاپ خودکار PDF را باز کند و Print رابط چاپ سیستم را نمایش دهد.
+- **Production:** بدون تغییر؛ ارتقا مجاز نشده است.
 
 ## 6. کیفیت و نگهداری دفترچه
 
