@@ -140,7 +140,7 @@
 
 ### PDF-LAYOUT-001 — اصلاح چیدمان چاپ گزارش مالی برای A4 و موبایل
 
-- **وضعیت فعلی پس از R22:** مهاجرت جزئی به موتور مرکزی انجام شده و رابط پیش‌نمایش به دو کنترل Print Preview و Back محدود شده؛ `Fixed — awaiting verification`. فقط گزارش اصلی Accounting Financial Report به موتور جدید متصل شده است. فاکتور، قرارداد، رسید و گزارش پروژه هنوز از مسیرهای قبلی استفاده می‌کنند. تأیید بصری و تست واقعی iPhone Safari انجام نشده است.
+- **وضعیت فعلی پس از R23:** مسیر نمایش PDF و چاپ از هم جدا شده؛ دکمه Print دیگر `window.print()` را اجرا نمی‌کند و فایل PDF را در viewer بومی Safari باز می‌کند. نمایش mobile با `#zoom=page-width` درخواست fit-to-width می‌دهد. `Fixed — awaiting verification`؛ رفتار واقعی Safari و fit باید دوباره تأیید شود. فقط گزارش اصلی Accounting Financial Report به موتور جدید متصل شده است. فاکتور، قرارداد، رسید و گزارش پروژه هنوز از مسیرهای قبلی استفاده می‌کنند. تأیید بصری و تست واقعی iPhone Safari انجام نشده است.
 
 - **وضعیت:** تغییرات source-level در Preview R15 ثبت شده؛ live browser rendering و تأیید بصری Safari در سابقه آن pending بوده است.
 - **تاریخ:** 2026-11-16
@@ -178,6 +178,18 @@
 - **PR / commit / Gate / Pages:** pending تا پایان workflow.
 - **Safari:** not tested؛ عملکرد print dialog در iPhone Safari باید توسط کاربر بررسی شود.
 - **Production:** هیچ تغییری انجام نشده؛ ارتقا مجاز نشده است.
+
+### بازنگری راه‌حل R4 — جداسازی پیش‌نمایش PDF از چاپ و اصلاح fit موبایل
+- **تاریخ:** 2026-11-17
+- **علائم تأییدشده توسط کاربر:** Safari برای هر بار لمس Print Preview پیام اجازه چاپ خودکار نشان می‌داد؛ صفحه PDF در iPhone به عرض صفحه fit نبود.
+- **علت فنی در سورس R22:** handler دکمه مستقیماً `iframe.contentWindow.print()` را اجرا می‌کرد؛ این فرمان در iOS Safari به‌عنوان scripted/automatic printing شناسایی می‌شود. iframe با `#view=FitH` باز می‌شد و درخواست صریح `zoom=page-width` نداشت.
+- **راه‌حل R4:** دکمه‌ی اصلی گزارش همچنان فقط PDF را تولید و پیش‌نمایش را باز می‌کند. داخل preview فقط Back و Print نمایش داده می‌شوند. Print دیگر `window.print()` را صدا نمی‌زند؛ از رویداد مستقیم کاربر، PDF معتبر را در تب Safari با viewer بومی باز می‌کند تا چاپ از کنترل‌های بومی PDF/Safari انجام شود. URL preview به `#zoom=page-width&view=FitH` تغییر کرده و iframe عرض‌پذیر با `min-width:0` و scrolling لمسی دارد.
+- **محدودیت مهم:** این راه‌حل از prompt چاپ خودکار ناشی از `window.print()` جلوگیری می‌کند، اما چاپ نهایی از طریق منوی Share/Print خود Safari انجام می‌شود؛ چاپ مستقیم بدون دخالت viewer بومی تضمین نشده است.
+- **Build ID هدف:** `THA-273-R11-PREVIEW-20261117-R23`
+- **فایل‌ها:** `tha-print-engine.js`، `index.html`، `VERSION-AUTHORITY.json`، `REPAIR_HISTORY_FA.md` و `REPAIR_INDEX_FA.md`.
+- **PR / Gate / Pages:** pending تا تکمیل workflow.
+- **Safari:** not tested؛ نیازمند تست واقعی iPhone.
+- **Production:** هیچ تغییری انجام نشده و مجوز انتقال صادر نشده است.
 
 ## 6. کیفیت و نگهداری دفترچه
 
