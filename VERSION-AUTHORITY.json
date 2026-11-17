@@ -1297,23 +1297,23 @@
         "docs/REPAIR_HISTORY_FA.md"
       ],
       "previewDevelopmentCommitSha": "dd71cc114bc41f250844104d9335118a4d40c195",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
-      "previewMergeCommitSha": "pending",
+      "previewPullRequestNumber": 70,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/70",
+      "previewMergeCommitSha": "352dc5cb079317eb9551e2383443a4b514890c27",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 44172856828,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44172856828"
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Pending JavaScript syntax validation, timestamp source checks, exact 22-asset SHA verification and Version Authority Gate."
+        "result": "PASS",
+        "details": "R11 Version Authority Gate verified the approved repository/branch/baseline, R28 Build ID and canonical URL, and all 22 pinned runtime assets; the embedded timestamp and shared banner/Version Details service were source-checked."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting PR merge and successful Preview Pages deployment."
+        "result": "PASS",
+        "runId": 44172908348,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44172908348",
+        "details": "All build, report-build-status and deploy jobs succeeded for Preview main merge commit 352dc5cb079317eb9551e2383443a4b514890c27."
       },
       "userSafariTest": {
         "result": "not tested",
