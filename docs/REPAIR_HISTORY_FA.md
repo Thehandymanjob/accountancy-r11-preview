@@ -334,7 +334,9 @@
 
 ### DATA-001 — بازیابی بکاپ کامل Production در پایگاه داده جداگانه Preview
 
-- **وضعیت فعلی:** اصلاح کد روی Preview development ثبت شده؛ Gate، انتشار Pages و تست واقعی بازیابی هنوز pending هستند.
+- **وضعیت فعلی:** اصلاح کد و دو pin لازم در Preview development ثبت شده‌اند؛ Gate، انتشار Pages و تست واقعی بازیابی هنوز pending هستند.
+- **بازنگری R2:** پس از اصلاح SHA فایل recovery، اجرای Gate مورد دوم را مشخص کرد: فایل `index.html` به‌علت تغییر cache key در PR، SHA قدیمی در دو محل manifest داشت. هر دو مقدار `app.indexBlobSha` و pin فایل index اکنون با Git blob SHA واقعی نسخه development هماهنگ شده‌اند. نتیجه Gate جدید هنوز pending است.
+
 - **تاریخ:** 2026-11-17
 - **علائم مشاهده‌شده:** بکاپ کامل صادرشده از Production در مسیر بازیابی Preview پذیرفته نمی‌شد، در حالی که بازیابی همان بکاپ در محیط Production موفق گزارش شده بود.
 - **محیط:** Preview repository `Thehandymanjob/accountancy-r11-preview`؛ Preview branch `development`؛ برنامه v273 / R11؛ Build ID فعلی R33. مقصد موردنظر فقط پایگاه داده مستقل Preview با نام `the_handyman_accountancy_r11_preview_idb` است. Production repository و پایگاه داده آن خارج از دامنه تغییر هستند.
