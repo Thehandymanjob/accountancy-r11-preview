@@ -873,9 +873,9 @@
         "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "b268373f21f28aa596af81835377378dbe61335f",
-      "previewPullRequestNumber": 43,
-      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/43",
+      "previewDevelopmentCommitSha": "pending authority metadata correction",
+      "previewPullRequestNumber": 44,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/44",
       "previewMergeCommitSha": "pending",
       "embeddedPreviewBuildTimestamp": "2026-11-17T18:05:05.240Z",
       "staticChecks": {
