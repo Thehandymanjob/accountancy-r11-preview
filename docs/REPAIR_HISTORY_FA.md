@@ -231,7 +231,7 @@
 - **Build ID هدف:** `THA-273-R11-PREVIEW-20261117-R26`
 - **PR:** #65 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/65 ؛ merge commit: `a60ea0600cdd0ce72face12637b27360effbd1b0`.
 - **Version Authority Gate:** PASS در PR run `44164968390` و main run `44165059757` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44165059757.
-- **Preview Pages:** build موفق؛ Deploy job هنوز queued/waiting در run `44165058809` است و انتشار تا تکمیل آن تأیید نشده.
+- **Preview Pages:** PASS؛ build، report-build-status و Deploy to GitHub Pages همگی موفق در run `44165058809` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44165058809.
 - **تست کد:** V8 syntax parse برای موتور و هر 25 بلوک inline JavaScript موفق (26 واحد)؛ هر 22 SHA در manifest تطبیق دارد؛ دو فیلتر Materials و حذف ردیف خلاصه صفر بررسی استاتیک شدند.
 - **تست iPhone Safari:** not tested؛ باید تعداد صفحات در print dialog، خروجی واقعی A4 و باقی‌ماندن ردیف‌های Material غیرصفر بررسی شوند.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
