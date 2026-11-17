@@ -1006,19 +1006,19 @@
       "previewMergeCommitSha": "187216817a3ddbf296e7135ee2cbc02798245a32",
       "versionAuthorityGate": {
         "result": "PASS",
-        "runId": 44150704566,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44150704566",
-        "details": "PR #54 Version Authority Gate passed on final pre-merge head 5b82ff0fa99594f65e5b3c452ee2dc7e547ab5d4. The main-branch push gate is being checked separately."
+        "runId": 44150783662,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44150783662",
+        "details": "Preview main push Version Authority Gate passed on merge commit 187216817a3ddbf296e7135ee2cbc02798245a32. PR Gate also passed on run 44150704566."
       },
       "staticChecks": {
         "result": "PASS",
-        "details": "V8 parse passed for tha-print-engine.js and all 8 inline JavaScript blocks in the app HTML; source integration and identity were checked; PR Version Authority Gate PASS."
+        "details": "V8 parse passed for tha-print-engine.js and all 8 inline JavaScript blocks in the app HTML. Source integration, Build ID/canonical URL, 22 pinned runtime assets and approved baseline were validated. Preview PR and main-push Version Authority Gates both passed."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting merge, Version Authority Gate and Pages deployment."
+        "result": "PASS",
+        "runId": 44150782561,
+        "url": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R21",
+        "details": "GitHub Pages build and deployment workflow completed successfully for Preview main merge commit 187216817a3ddbf296e7135ee2cbc02798245a32. This confirms Pages deployment, not in-browser PDF functionality."
       },
       "userSafariTest": {
         "result": "not tested",
