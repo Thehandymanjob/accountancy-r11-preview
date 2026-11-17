@@ -1212,24 +1212,25 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "pending",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
-      "previewMergeCommitSha": "pending",
+      "previewDevelopmentCommitSha": "4484216146313a505dd9f2bc91524f255f61cf11",
+      "previewPullRequestNumber": 65,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/65",
+      "previewMergeCommitSha": "a60ea0600cdd0ce72face12637b27360effbd1b0",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 44164968390,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44164968390",
+        "details": "R11 Version Authority Gate passed on PR #65 development head. Main-branch merge Gate run 44165059757 also passed."
       },
       "staticChecks": {
         "result": "PASS",
-        "details": "V8 syntax parsing passed for the print engine and all 25 inline JavaScript blocks (26 units total). The two material-only zero-amount filters are present in the Full Project Report and reconciliation register; the zero-only legacy material breakdown row is suppressed. Physical iPhone Safari printer output has not yet been tested."
+        "details": "V8 syntax parsing passed for tha-print-engine.js and all 25 inline HTML script blocks (26 JavaScript units). All 22 authority-pinned runtime asset SHAs match the development tree. Material-only zero filters are present in the Full Project Report and reconciliation register; the zero-only material summary row is suppressed. PR #65 changed exactly five approved files."
       },
       "previewPagesDeployment": {
         "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting Preview PR merge and GitHub Pages deployment."
+        "runId": 44165058809,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44165058809",
+        "details": "Preview Pages build completed successfully. Deploy job is waiting/queued; do not claim deployment until it completes successfully."
       },
       "userSafariTest": {
         "result": "not tested",
