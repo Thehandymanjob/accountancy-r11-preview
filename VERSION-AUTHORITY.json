@@ -918,16 +918,16 @@
       "previewDevelopmentCommitSha": "eb3b3165e52e305946cb5118777113ae2d081fca",
       "previewPullRequestNumber": 46,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/46",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "07c1ffadc1d2b0885c8597912d800ec0fdf8b74e",
       "versionAuthorityGate": {
         "result": "PASS",
-        "runId": 44146233283,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44146233283",
-        "details": "The R11 Version Authority Gate completed successfully for PR #46 head eb3b3165e52e305946cb5118777113ae2d081fca."
+        "runId": 44146314513,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44146314513",
+        "details": "The R11 Version Authority Gate passed on the final PR #46 head 4f38c206227fb2a6be4b3a27b7632e41b1ab7b2f before merge."
       },
       "staticChecks": {
         "result": "PASS",
-        "details": "Version Authority Gate validated the authority JSON and all pinned R11 runtime assets. Diff contains only the repair index, repair history and Authority metadata; no runtime files changed."
+        "details": "Final PR #46 gate validated the Version Authority manifest and every pinned R11 runtime asset. Only repair documentation and Authority metadata changed; no app runtime files were modified."
       },
       "previewPagesDeployment": {
         "result": "not applicable",
