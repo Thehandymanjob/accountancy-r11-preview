@@ -1085,32 +1085,32 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "pending",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
-      "previewMergeCommitSha": "pending",
+      "previewDevelopmentCommitSha": "ccb8f1d9bf0ba7d18bbf0b7261fd7bda462065d5",
+      "previewPullRequestNumber": 59,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/59",
+      "previewMergeCommitSha": "b0bf49b917056decbb8efacd75d35b67485b2c64",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 44154557654,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44154557654"
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Pending JavaScript syntax validation, Version Authority SHA verification and PR diff review."
+        "result": "PASS",
+        "details": "R11 Version Authority Gate validated R23 identity, approved baseline and all 22 pinned runtime asset SHAs. Source inspection confirmed no iframe.contentWindow.print() remains, the preview requests zoom=page-width, and only Back and Print controls are present. Browser fit and native print behavior remain pending iPhone Safari verification."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting PR merge and successful Preview Pages deployment."
+        "result": "PASS",
+        "runId": 44154621727,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44154621727",
+        "details": "GitHub Pages build and deploy job completed successfully for Preview main merge commit b0bf49b917056decbb8efacd75d35b67485b2c64."
       },
       "userSafariTest": {
         "result": "not tested",
-        "details": "Awaiting R23 iPhone Safari test. Verify PDF fits screen width, Print opens native Safari PDF viewer without automatic-print permission prompt, and Back returns to report."
+        "details": "R23 deployed; awaiting user confirmation that the PDF fits the iPhone width, Print opens Safari's native PDF viewer without the automatic-print permission prompt, and Back returns to the report."
       },
       "userApproval": {
         "result": "pending",
-        "details": "Awaiting user verification of R23."
+        "details": "Awaiting R23 Safari verification."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
