@@ -1169,7 +1169,7 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "pending final development head",
+      "previewDevelopmentCommitSha": "576c68035fbd89cabc19411a330f931361519182",
       "previewPullRequestNumber": 63,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/63",
       "previewMergeCommitSha": "pending",
@@ -1180,7 +1180,7 @@
       },
       "staticChecks": {
         "result": "PASS",
-        "details": "V8 syntax parsing passed for tha-print-engine.js and all 25 inline HTML script blocks. All 22 R11 authority-pinned runtime asset SHAs matched the Preview development tree before the final render-completion hardening; revalidation of final pins is pending. PR #63 is open and the Version Authority Gate result is pending."
+        "details": "V8 syntax parsing passed for tha-print-engine.js and all 25 inline HTML script blocks (26 JavaScript units total). All 22 R11 authority-pinned runtime asset SHAs, including index.html and tha-print-engine.js, match the Preview development Git tree. Preview development is a fast-forward descendant of Preview main; PR diff contains exactly the five approved files. R11 Version Authority PR Gate remains pending."
       },
       "previewPagesDeployment": {
         "result": "pending",
