@@ -1341,25 +1341,26 @@
       "previewDevelopmentCommitSha": "d4936b987ff7686e3e32287df193459ff44e0d5d",
       "previewPullRequestNumber": 72,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/72",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "75e70c1efc8c1f58e22d0c0e21d83f3cd463a5f8",
       "versionAuthorityGate": {
         "result": "PASS",
-        "runId": 44175415156,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44175415156",
-        "details": "PR Gate run 44175415156 passed on PR #72 head commit cf3c05cc39bb05b837aa4aeb38300356e351a308; repository identity, approved baseline, R29 Build ID/canonical URL, index blob pin, and all 22 Preview runtime assets passed."
+        "runId": 44175595034,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44175595034",
+        "details": "PR Gate run 44175519933 and post-merge main Gate run 44175595034 both passed. The final merge commit was 75e70c1efc8c1f58e22d0c0e21d83f3cd463a5f8."
       },
       "staticChecks": {
         "result": "PASS",
-        "details": "Source checks verified the invoice-only scope, A4 dimensions (190mm document width + 10mm symmetric PDF margins), 6mm clone padding, unchanged 178mm content width, R29 metadata/timestamp, and matching index SHA pins. The Version Authority Gate verified all 22 pinned Preview runtime assets. Production's 21 runtime assets were independently re-fetched and matched. No IndexedDB, LocalStorage, backups, or user records were touched. JavaScript runtime and iPhone Safari rendering remain untested."
+        "details": "R29 HTML/manifest identity and SHA pins matched; all 22 Preview and all 21 Production runtime assets were fetched and matched their respective manifests before changes. Source assertions confirm invoice PDF width 190mm, symmetric 10mm PDF margins, 6mm clone padding and unchanged 178mm content width. Version Authority Gate passed. No standalone JS parser run or browser runtime test was performed."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": null,
-        "url": "pending"
+        "result": "PASS",
+        "runId": 44175594286,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44175594286",
+        "details": "Post-merge Preview Pages build, report-build-status and deploy jobs completed successfully for merge commit 75e70c1efc8c1f58e22d0c0e21d83f3cd463a5f8."
       },
       "userSafariTest": {
         "result": "not tested",
-        "details": "iPhone Safari verification is required for left/right symmetry, full-width visibility, A4 PDF output and Back navigation."
+        "details": "Awaiting user verification on iPhone Safari of left/right margin symmetry, full document width, A4 print output and Back navigation."
       },
       "userApproval": {
         "result": "authorized for Preview only",
