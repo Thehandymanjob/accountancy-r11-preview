@@ -52,7 +52,7 @@ jobs:
           for (const key of canonicalUrl.searchParams.keys()) if (!['build','utm_source'].includes(key)) fail('unexpected canonical URL parameter: ' + key);
           if (canonicalUrl.searchParams.has('utm_source') && canonicalUrl.searchParams.get('utm_source') !== 'chatgpt.com') fail('unexpected canonical URL source');
           if (app.approvedBaseCommitSha !== approvedBaseline) fail('approved R11 baseline mismatch');
-          if (!app.files || typeof app.files !== 'object' || Object.keys(app.files).length !== 21) fail('runtime asset pin list must contain exactly 21 files');
+          if (!app.files || typeof app.files !== 'object' || Object.keys(app.files).length !== 22) fail('runtime asset pin list must contain exactly 22 files');
           if (app.files[appPath] !== app.indexBlobSha) fail('index blob SHA does not match runtime asset pin');
           if (process.env.EVENT_NAME === 'pull_request' && process.env.PR_BASE !== 'main') fail('PR base is not main');
           if (process.env.EVENT_NAME === 'push' && process.env.REF_NAME !== 'main') fail('push target is not main');
