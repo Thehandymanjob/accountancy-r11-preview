@@ -175,7 +175,7 @@
     return window.__thaPrintEngineLibraryPromise;
    })();
    setStatus('Generating A4 PDF… Please keep this page open.');
-   const opts={margin:o.margin||[12,7,12,7],filename,image:{type:'jpeg',quality:.98},html2canvas:{scale:1,useCORS:true,backgroundColor:'#fff',logging:false,scrollX:0,scrollY:0,windowWidth:794},jsPDF:A4,pagebreak:{mode:['css'],avoid:['.uc-head','.uc-group tr','.uc-summary tr','.uc-details tbody tr']},...(o.options||{})};
+   const opts={margin:o.margin||[12,7,12,7],filename,image:{type:'jpeg',quality:.98},html2canvas:{scale:1,useCORS:true,backgroundColor:'#fff',logging:false,scrollX:0,scrollY:0,windowWidth:794},jsPDF:A4,pagebreak:{mode:['css'],avoid:['.uc-head','.uc-group','.uc-summary','.uc-group h3','.uc-summary h3','.uc-group tr','.uc-summary tr','.uc-details thead','.uc-details tbody tr']},...(o.options||{})};
    const blob=await html2pdf().set(opts).from(o.node).outputPdf('blob');
    if(!blob||blob.type!=='application/pdf'||blob.size<1000)throw new Error('Generated PDF is empty or invalid');
    const signature=new Uint8Array(await blob.slice(0,5).arrayBuffer());
