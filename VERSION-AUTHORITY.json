@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261117-R28",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R28",
-    "indexBlobSha": "0f22315b1bf6934934600cd7e9b72609029c0580",
+    "buildId": "THA-273-R11-PREVIEW-20261117-R29",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R29",
+    "indexBlobSha": "c69744939d5f8224775a312f3fc8cfb88943c403",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -1327,6 +1327,47 @@
       "productionPullRequestUrl": "not applicable",
       "productionCommitSha": "not applicable",
       "embeddedPreviewBuildTimestamp": "2026-11-17T20:45:04.524Z"
+    },
+    {
+      "changeId": "THA-2026-11-17-INVOICE-PDF-CENTERING-R29-001",
+      "dateStarted": "2026-11-17",
+      "purpose": "Correct horizontal A4 centering of the standalone invoice PDF by matching the PDF content width, document width and symmetric page margins while preserving the prior printable content width.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "d4936b987ff7686e3e32287df193459ff44e0d5d",
+      "previewPullRequestNumber": null,
+      "previewPullRequestUrl": "pending",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": null,
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Awaiting JavaScript syntax checks and exact R29 manifest/source verification."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": null,
+        "url": "pending"
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "iPhone Safari verification is required for left/right symmetry, full-width visibility, A4 PDF output and Back navigation."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User instructed this Preview-only invoice PDF alignment repair."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable",
+      "embeddedPreviewBuildTimestamp": "2026-11-17T20:59:26.000Z"
     }
   ],
   "history": [
