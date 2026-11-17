@@ -1,8 +1,7 @@
 /* The Handyman Accountancy — central PDF/Print Engine
- * Preview R25: render PDF pages with PDF.js at the available mobile viewport width.
- * The original A4 PDF blob remains the print source; the responsive canvases are
- * display-only. The explicit Print button continues to invoke the PDF viewer's
- * native print command. Back closes the overlay and returns focus to the report.
+ * Preview R27: PDF.js provides the responsive preview; Print shares the original
+ * multi-page PDF file through the iOS-native share sheet (Print action), avoiding
+ * Safari's single-page iframe print path. Back returns to the report.
  */
 (function installTHAPrintEngine(){
  'use strict';
@@ -26,15 +25,8 @@
   .tha-pe-actions button{min-height:54px;flex:1 1 0;min-width:0;max-width:420px;border:0;border-radius:12px;padding:10px 16px;background:#e5b63f;color:#142b4a;font-size:18px;font-weight:800;box-shadow:0 4px 0 rgba(20,43,74,.12)}
   .tha-pe-actions button:disabled{opacity:.48}
   .tha-pe-actions .tha-pe-secondary{background:#e8edf4;color:#24364f}
-  .tha-pe-print-frame{position:absolute;inset:0;width:100%;height:100%;border:0;opacity:.001;pointer-events:none;z-index:0}
   .tha-pe-overlay[hidden]{display:none!important}
   @media(max-width:560px){.tha-pe-bar{min-height:42px}.tha-pe-pages{padding:8px 5px 14px}.tha-pe-page{margin-bottom:10px}.tha-pe-actions{gap:9px;padding-left:12px;padding-right:12px}.tha-pe-actions button{min-height:52px;font-size:17px}}
-  @media print{
-   html,body{width:100%!important;height:100%!important;margin:0!important;padding:0!important;overflow:visible!important;background:#fff!important}
-   .tha-pe-overlay{position:fixed!important;inset:0!important;display:block!important;width:100vw!important;height:100vh!important;min-height:100vh!important;margin:0!important;padding:0!important;overflow:visible!important;background:#fff!important}
-   .tha-pe-bar,.tha-pe-status,.tha-pe-pages,.tha-pe-actions{display:none!important}
-   .tha-pe-print-frame{position:fixed!important;inset:0!important;display:block!important;width:100vw!important;height:100vh!important;opacity:1!important;pointer-events:auto!important;z-index:2147483647!important;border:0!important}
-  }
   `;
   document.head.appendChild(style);
  }
@@ -61,7 +53,7 @@
   if(state.overlay)close();
   state.returnFocus=document.activeElement;
   const overlay=document.createElement('section');overlay.className='tha-pe-overlay';overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label',title||'PDF Preview');
-  overlay.innerHTML='<header class="tha-pe-bar"><strong class="tha-pe-title"></strong></header><div class="tha-pe-status" role="status" aria-live="polite">Preparing PDF preview…</div><main class="tha-pe-pages" aria-label="PDF pages"></main><iframe class="tha-pe-print-frame" title="Print source PDF"></iframe><footer class="tha-pe-actions"><button type="button" class="tha-pe-secondary" data-action="back" disabled>Back</button><button type="button" data-action="print" disabled>Print</button></footer>';
+  overlay.innerHTML='<header class="tha-pe-bar"><strong class="tha-pe-title"></strong></header><div class="tha-pe-status" role="status" aria-live="polite">Preparing PDF preview…</div><main class="tha-pe-pages" aria-label="PDF pages"></main><footer class="tha-pe-actions"><button type="button" class="tha-pe-secondary" data-action="back" disabled>Back</button><button type="button" data-action="print" disabled>Print</button></footer>';
   overlay.querySelector('.tha-pe-title').textContent=title||'PDF Preview';
   overlay.querySelector('[data-action="back"]').addEventListener('click',close);
   overlay.querySelector('[data-action="print"]').addEventListener('click',print);
@@ -163,7 +155,6 @@
   if(!o.node||!o.node.nodeType)throw new Error('A document node is required for PDF generation');
   const filename=String(o.filename||'The-Handyman-Document.pdf');
   const overlay=mountOverlay(o.title||'PDF Preview');
-  const printFrame=overlay.querySelector('.tha-pe-print-frame');
   try{
    setStatus('Preparing document: waiting for fonts and images…');
    const captureHost=document.createElement('div');captureHost.style.cssText='position:fixed;left:-12000px;top:0;width:185mm;max-width:185mm;display:block;z-index:-1;background:#fff;overflow:visible';
@@ -190,7 +181,7 @@
    const signature=new Uint8Array(await blob.slice(0,5).arrayBuffer());
    if(String.fromCharCode(...signature)!=='%PDF-')throw new Error('Generated file failed PDF signature validation');
    state.pdfBlob=blob;state.pdfFile=new File([blob],filename,{type:'application/pdf'});
-   state.objectUrl=URL.createObjectURL(blob);printFrame.src=state.objectUrl;
+   state.objectUrl=URL.createObjectURL(blob);
    setStatus('Loading responsive PDF viewer…');
    const pdfjs=await loadPdfJs();
    const bytes=new Uint8Array(await blob.arrayBuffer());
@@ -209,17 +200,33 @@
    throw error;
   }
  }
- function print(){
-  const frame=state.overlay&&state.overlay.querySelector('.tha-pe-print-frame');
-  if(!frame||!state.pdfBlob)return;
+ async function print(){
+  if(!state.pdfBlob||!state.pdfFile||!state.objectUrl)return;
   const expectedPages=state.pdfDocument?state.pdfDocument.numPages:0;
   if(!expectedPages){setStatus('The PDF is not ready to print. Please wait for all pages to finish loading.');return}
-  try{
-   if(!frame.contentWindow)throw new Error('The full-size PDF print frame is unavailable');
-   frame.contentWindow.focus();
-   frame.contentWindow.print();
-   setStatus('Print dialog requested for the complete '+expectedPages+'-page PDF. Check that all pages are selected.');
-  }catch(error){setStatus('Safari could not open the printer dialog: '+(error&&error.message?error.message:'try Print again.'))}
+  const button=state.overlay&&state.overlay.querySelector('[data-action="print"]');
+  if(button)button.disabled=true;
+  const nativeShare=!!(navigator.share&&(!navigator.canShare||navigator.canShare({files:[state.pdfFile]})));
+  if(nativeShare){
+   setStatus('Opening the iPhone share sheet with the complete '+expectedPages+'-page PDF. Select Print to continue.');
+   try{
+    await navigator.share({files:[state.pdfFile],title:state.pdfFile.name});
+    setStatus('The complete PDF was handed to the iOS share sheet. If you selected Print, choose your printer and page range.');
+   }catch(error){
+    if(error&&error.name==='AbortError'){
+     setStatus('Sharing was cancelled. The original PDF is unchanged; tap Print to try again.');
+    }else{
+     setStatus('The iOS share sheet was unavailable. Opening the complete PDF in Safari instead.');
+     const tab=window.open(state.objectUrl,'_blank');
+     if(!tab)setStatus('Safari blocked the PDF tab. Use the browser Share option to open or print the PDF.');
+    }
+   }
+  }else{
+   const tab=window.open(state.objectUrl,'_blank');
+   if(tab)setStatus('The complete '+expectedPages+'-page PDF is open in Safari. Use Share, then Print.');
+   else setStatus('Safari blocked the PDF tab. Allow pop-ups, then tap Print again.');
+  }
+  if(button&&state.overlay)button.disabled=false;
  }
  window.THA=window.THA||{};
  window.THA.PrintEngine=Object.freeze({open,close,getState:()=>Object.freeze({open:!!state.overlay,ready:!!state.pdfBlob,pages:state.pdfDocument?state.pdfDocument.numPages:0,viewer:'pdfjs-fit-width'})});
