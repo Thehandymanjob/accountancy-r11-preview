@@ -1559,7 +1559,7 @@ function printReport(){
  }
  captureRoot.style.cssText='display:block!important;width:185mm!important;min-width:185mm!important;max-width:185mm!important;box-sizing:border-box!important;background:#fff!important;margin:0 auto!important;padding:0!important;overflow:visible!important';
  captureRoot.appendChild(node);
- window.THA?.PrintEngine?.open({node:captureRoot,filename:'The-Handyman-Financial-Report-'+Date.now()+'.pdf',title:'Financial Report · A4 PDF',margin:[8,7,8,7]}).catch(error=>{alert('PDF creation failed: '+(error&&error.message?error.message:'unknown error'))});
+ window.THA?.PrintEngine?.open({node:captureRoot,filename:'The-Handyman-Financial-Report-'+Date.now()+'.pdf',title:'Financial Report · A4 PDF',margin:[8,12.5,8,12.5]}).catch(error=>{alert('PDF creation failed: '+(error&&error.message?error.message:'unknown error'))});
 }
 async function directOpenReportPDF(node,filename,margin){
  const tab=window.open('about:blank','_blank');
