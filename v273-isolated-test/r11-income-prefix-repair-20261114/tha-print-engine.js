@@ -109,7 +109,7 @@
  async function share(){
   if(!state.pdfFile)return;
   try{
-   if(navigator.share&&(!navigator.canShare||navigator.canShare({files:[state.pdfFile]})){
+   if(navigator.share&&(!navigator.canShare||navigator.canShare({files:[state.pdfFile]}))){
     await navigator.share({files:[state.pdfFile],title:state.pdfFile.name});
     setStatus('Share sheet opened.');
    }else{download();setStatus('File saved. Use the iPhone Share sheet from Files to send or print it.')}
