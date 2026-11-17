@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261116-R19",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R19",
-    "indexBlobSha": "adc51ac0277b288ad9c1348bd4fbdfca403855df",
+    "buildId": "THA-273-R11-PREVIEW-20261117-R20",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R20",
+    "indexBlobSha": "90a66617e4e417a70b383b9b204707586b8e1677",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "adc51ac0277b288ad9c1348bd4fbdfca403855df",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "90a66617e4e417a70b383b9b204707586b8e1677",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462"
     }
   },
@@ -860,6 +860,840 @@
       "userApproval": {
         "result": "authorized for Preview only",
         "details": "User directed continuation of the Preview-only Last Updated repair."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-17-PREVIEW-LAST-UPDATED-OFFLINE-R20",
+      "dateStarted": "2026-11-17",
+      "purpose": "Restore the previously validated R14 no-network embedded timestamp approach for Preview Last Updated. Replace browser-side GitHub API requests with one embedded ISO timestamp shared by the red Preview banner and Version Details. This removes CORS, API availability and rate-limit dependencies. Preview only; no accounting data, IndexedDB, LocalStorage, backups or Production files changed.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "pending authority metadata correction",
+      "previewPullRequestNumber": 44,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/44",
+      "previewMergeCommitSha": "pending",
+      "embeddedPreviewBuildTimestamp": "2026-11-17T18:05:05.240Z",
+      "staticChecks": {
+        "result": "PASS",
+        "details": "All 8 inline JavaScript blocks parsed with V8. The timestamp service uses a validated embedded ISO timestamp shared by the red banner and Version Details; no browser GitHub API request remains. The HTML section boundary was source-checked and corrected. Full Version Authority Gate and Pages deployment pending."
+      },
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting Version Authority Gate and Preview Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting iPhone Safari verification of the banner and Version Details after Preview R20 deploy."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User explicitly directed fixing Last Updated. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    }
+  ],
+  "history": [
+    {
+      "changeId": "AUTH-2026-11-16-001",
+      "dateStarted": "2026-11-16",
+      "purpose": "Establish permanent append-only change history and required evidence fields in Version Authority.",
+      "changedFiles": [
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "430daf762e3b165e0c95ae4b3a04c24281633b83",
+      "previewPullRequestNumber": 3,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/3",
+      "previewMergeCommitSha": "a6b6b8b87560fcc08f262b70d237f046dffd0dca",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 43836332799,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43836332799"
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "VERSION-AUTHORITY.json parsed successfully; policy fields and required record fields were verified after update."
+      },
+      "previewPagesDeployment": {
+        "result": "not applicable",
+        "details": "No app or Pages files changed."
+      },
+      "userSafariTest": {
+        "result": "not applicable",
+        "details": "No application runtime behavior changed."
+      },
+      "userApproval": {
+        "result": "approved",
+        "details": "User explicitly authorized adding the permanent change-history procedure."
+      },
+      "productionPromotionStatus": "not applicable",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-16-ENTRY-SAVE-DIALOG-001",
+      "dateStarted": "2026-11-16",
+      "purpose": "After a verified Income or Expense save, show a type-specific confirmation dialog, remain on Add Entry, and reset the form for the next entry. Preserve entered values on save failure.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        ".github/workflows/r11-version-authority.yml",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "b3166b494b65a28379719d57379d7deaee9596b6",
+      "previewPullRequestNumber": 5,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/5",
+      "previewMergeCommitSha": "8a6d4a1e41c0d1c0430f050da8b98f2e6b8e5ae1",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 43837818712,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43837818712"
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "Version Authority Gate verified repository, branch, approved baseline, app version, Build ID, canonical URL, and all 20 pinned runtime assets. Manual comparison confirmed only the approved three files changed."
+      },
+      "previewPagesDeployment": {
+        "result": "PASS",
+        "runId": 43838027276,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43838027276",
+        "details": "GitHub Pages build and deployment completed successfully on Preview main for merge commit 8a6d4a1e41c0d1c0430f050da8b98f2e6b8e5ae1."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user test on iPhone Safari."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting user approval after Preview Safari test."
+      },
+      "productionPromotionStatus": "pending",
+      "productionPullRequestUrl": "pending",
+      "productionCommitSha": "pending"
+    },
+    {
+      "changeId": "THA-2026-11-16-LAUNCHER-SCRIPT-REPAIR-001",
+      "dateStarted": "2026-11-16",
+      "purpose": "Restore main launcher navigation by rebuilding the index from the approved R11 baseline, reapplying the Income/Expense save confirmation change safely, and placing dialog CSS in the page stylesheet rather than inside JavaScript.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        ".github/workflows/r11-version-authority.yml",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "15eacad1c7007eac078497ddfe91c9c8ccfee640",
+      "previewPullRequestNumber": 8,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/8",
+      "previewMergeCommitSha": "34559c98dbc5b135999ed5b5f980f4c16d3c3f2d",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 43839889933,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43839889933"
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "All 7 inline JavaScript blocks pass V8 syntax parsing. The index was reconstructed from approved R11 baseline commit 6e335a7c84fdf4b372c9fe5d07276b6e40df9b88; only the approved Income/Expense save dialog behavior was reapplied. IndexedDB runtime dependencies, records, backups, and canonical URL were not changed. Functional Safari navigation remains pending. Version Authority Gate PASS; PR #8 merged. Preview main and development are synchronized. Pages deployment evidence is pending. PR #9 audit-history update merged; main and development are synchronized."
+      },
+      "previewPagesDeployment": {
+        "result": "PASS",
+        "runId": 43840095137,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43840095137",
+        "details": "GitHub Pages build, deployment, and report-build-status jobs completed successfully on Preview main for merge commit c99645593d1abe2543a8acce4598827340d01e1d."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user test on iPhone Safari."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting user test; Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "pending",
+      "productionPullRequestUrl": "pending",
+      "productionCommitSha": "pending"
+    },
+    {
+      "changeId": "THA-2026-11-16-VERSION-DETAILS-LAST-UPDATED-001",
+      "dateStarted": "2026-11-16",
+      "purpose": "Show the date and time of the latest successful GitHub Pages deployment in Version Details and Copy version details. Retrieve the completed Pages deployment timestamp from the public GitHub Actions API and format it in Europe/London local time.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        ".github/workflows/r11-version-authority.yml",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "pending",
+      "previewPullRequestNumber": "pending",
+      "previewPullRequestUrl": "pending",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Pending syntax validation, source checks and full Version Authority Gate."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting Preview PR merge and successful GitHub Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user test on iPhone Safari."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting user test and approval after Preview deployment."
+      },
+      "productionPromotionStatus": "pending",
+      "productionPullRequestUrl": "pending",
+      "productionCommitSha": "pending"
+    },
+    {
+      "changeId": "THA-2026-11-16-ACCOUNTING-REPORT-PDF-LAYOUT-001",
+      "dateStarted": "2026-11-16",
+      "purpose": "Correct the Accounting Report PDF layout for iPhone preview and A4 printing: fit report width, prevent right-hand amount clipping, and reduce oversized typography for a more professional print result.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        ".github/workflows/r11-version-authority.yml",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "pending",
+      "previewPullRequestNumber": "pending",
+      "previewPullRequestUrl": "pending",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Pending JavaScript syntax validation, report-layout source checks, and Version Authority Gate."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting Preview PR merge and successful GitHub Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user test on iPhone Safari for PDF Preview width, A4 print scale, and full right-hand amount columns."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting user Safari test and approval."
+      },
+      "productionPromotionStatus": "pending",
+      "productionPullRequestUrl": "pending",
+      "productionCommitSha": "pending"
+    },
+    {
+      "changeId": "THA-2026-11-16-ACCOUNTING-REPORT-LANDSCAPE-PDF-002",
+      "dateStarted": "2026-11-16",
+      "purpose": "Replace the failed portrait PDF sizing approach with an A4 landscape report, fixed-width capture canvas, balanced summary columns, and explicit expense-detail column widths to prevent right-edge clipping and excessive whitespace.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        ".github/workflows/r11-version-authority.yml",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "10b6dfc1eba8a32c0c097bb162edf6bec4936ca3",
+      "previewPullRequestNumber": "pending",
+      "previewPullRequestUrl": "pending",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "R6 source restored from its retained commit. Awaiting validation by the dynamic Version Authority Gate and runtime Safari test."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting R6 PR merge and successful Preview GitHub Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting iPhone Safari verification of PDF Preview width, all right-hand amount columns, and A4 landscape print scale/readability."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting user Safari test and approval."
+      },
+      "productionPromotionStatus": "pending",
+      "productionPullRequestUrl": "pending",
+      "productionCommitSha": "pending"
+    },
+    {
+      "changeId": "THA-2026-11-16-ACCOUNTING-REPORT-PDF-CAPTURE-003",
+      "dateStarted": "2026-11-16",
+      "purpose": "Correct current-report PDF capture by using a unique capture-root ID, scoping report CSS to that root, and matching a 1024px capture width with html2canvas viewport to reduce horizontal clipping on A4 landscape.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "2e914ba5769ea983f881db2315c486529e8c709a",
+      "previewPullRequestNumber": 17,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/17",
+      "previewMergeCommitSha": "b329bc274acdc8cd1fdf8aab67a00fb9571ae23a",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 43930916594,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43930916594"
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "All 7 inline JavaScript blocks passed V8 syntax parsing. Verified unique PDF capture-root ID, scoped report stylesheet, 1024px capture width, matching html2canvas viewport, HTML Build ID and canonical URL; Version Authority Gate PASS."
+      },
+      "previewPagesDeployment": {
+        "result": "PASS",
+        "runId": 43930914686,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43930914686",
+        "details": "Preview GitHub Pages build and deployment completed successfully for R7 merge commit b329bc274acdc8cd1fdf8aab67a00fb9571ae23a."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user iPhone Safari verification of PDF preview and complete report width."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting user Safari test and approval; no Production promotion authorized."
+      },
+      "productionPromotionStatus": "pending",
+      "productionPullRequestUrl": "pending",
+      "productionCommitSha": "pending"
+    },
+    {
+      "changeId": "THA-2026-11-16-ACCOUNTING-REPORT-PDF-PORTRAIT-004",
+      "dateStarted": "2026-11-16",
+      "purpose": "Switch financial report PDF to A4 portrait, stack income/cost sections in one column, reduce capture width to 720px, fit PDF page in mobile preview and constrain detail table columns to avoid horizontal scrolling.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "462e813a25885c51d9235442dad73d3328ceec04",
+      "previewPullRequestNumber": 19,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/19",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 43932694159,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43932694159"
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "All 7 inline JavaScript blocks passed syntax parsing. Version Authority Gate passed for R8; portrait layout and 720px mobile capture configuration validated in source. iPhone Safari visual verification pending."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting Preview PR merge and Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user verification: portrait page, vertically stacked sections, centred fit-width preview, no horizontal scrolling."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "No Production promotion authorized."
+      },
+      "productionPromotionStatus": "pending",
+      "productionPullRequestUrl": "pending",
+      "productionCommitSha": "pending"
+    },
+    {
+      "changeId": "THA-2026-11-16-ACCOUNTING-REPORT-PDF-MOBILE-PREVIEW-005",
+      "dateStarted": "2026-11-16",
+      "purpose": "Fit the financial-report PDF preview to mobile viewport width and show clear PDF generation/ready status before Share PDF. Preserve standard A4 portrait PDF output for printing.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "31169122b8f815bedd2ffcc6c7f94c545d703544",
+      "previewPullRequestNumber": 23,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/23",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Pending JavaScript syntax validation and full Version Authority Gate."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting Preview PR merge and successful Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting iPhone Safari verification of PDF generation status, fit-to-width preview, and Share PDF to Print."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting user Safari test and approval. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "pending",
+      "productionPullRequestUrl": "pending",
+      "productionCommitSha": "pending"
+    },
+    {
+      "changeId": "THA-2026-11-16-ACCOUNTING-REPORT-PDF-VERTICAL-ROWS-006",
+      "dateStarted": "2026-11-16",
+      "purpose": "Stack every financial report table row vertically in the A4 PDF: field label above value, no horizontal scrolling, remove empty zero-only category rows, and preserve totals and expense details. Preview only; no database changes.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "e31ee5980814d240b6f965581052c055be3af98e",
+      "previewPullRequestNumber": 24,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/24",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Pending JavaScript syntax validation and Version Authority Gate."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting Preview PR merge and successful Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user iPhone Safari verification of vertical table rows, full-width fit and Share PDF."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Preview change only. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "pending",
+      "productionPullRequestUrl": "pending",
+      "productionCommitSha": "pending"
+    },
+    {
+      "changeId": "THA-2026-11-16-VERSION-LAST-UPDATED-PREVIEW-007",
+      "dateStarted": "2026-11-16",
+      "purpose": "Make Preview Version Details Last Updated retrieval more resilient by querying the repository-wide Actions runs endpoint with a 100-run window, validating successful GitHub Pages deployment records, and formatting the exact deployment completion time. Preview only; Production and all databases remain untouched.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "8a2b21cdadf0e64034a8f13f281fc758d5a76675",
+      "previewPullRequestNumber": "pending",
+      "previewPullRequestUrl": "pending",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Pending JavaScript syntax validation and Preview Version Authority Gate."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting PR merge and successful Preview Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user iPhone Safari verification of Last Updated in Version Details after refresh."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Preview-only change. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-16-VERSION-LAST-UPDATED-SHARED-SERVICE-008",
+      "dateStarted": "2026-11-16",
+      "purpose": "Replace separate Last Updated lookups with one shared cached deployment-time service. Prefer GitHub Pages build history and fall back to the known Pages workflow run endpoint; include bounded requests and diagnostic errors. Preview only.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "e6362e73626cd8cdb38cf7c081836ae688755bc3",
+      "previewPullRequestNumber": 26,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/26",
+      "previewMergeCommitSha": "03c97e128efc21889e38ba5314f354af64c7e07d",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 43950193899,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43950193899",
+        "details": "The corrected Version Authority Gate passed on Preview main after merge. It verified the approved repository/branch identity, R11 version and Build ID, canonical URL, approved baseline ancestry, and all 21 pinned runtime assets."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "The Version Authority Gate verified all 21 pinned runtime assets and R11 identity. All 20 unchanged Preview dependencies and all 21 Production pinned assets were independently checked against their manifests. A standalone JavaScript syntax parser and live browser execution were not run."
+      },
+      "previewPagesDeployment": {
+        "result": "PASS",
+        "runId": 43950193571,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43950193571",
+        "details": "GitHub Pages build, report-build-status, and deploy jobs completed successfully for Preview merge commit 03c97e128efc21889e38ba5314f354af64c7e07d."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user iPhone Safari verification of the Last Updated banner and Version Details after refresh and reopen."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting user Safari test and explicit approval."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-16-VERSION-LAST-UPDATED-ACTIONS-RUNS-009",
+      "dateStarted": "2026-11-16",
+      "purpose": "Fix the Preview Last Updated fallback by reading repository-wide Actions runs and filtering the exact successful GitHub Pages deployment workflow. Both banner and Version Details continue using one shared cached timestamp service. Preview only.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "f5b3dd1fff70a72d5df7e7794235ccfc9b4ce189",
+      "previewPullRequestNumber": 29,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/29",
+      "previewMergeCommitSha": "ceed285178fee3e26a456690675a1568c0ba02fc",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 43951586652,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43951586652",
+        "details": "The Version Authority Gate passed on Preview main for merge commit ceed285178fee3e26a456690675a1568c0ba02fc."
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "V8 syntax parsing passed. The repository-wide Actions runs endpoint was independently verified to contain the successful Pages deployment run; simulated failure of Pages-build lookup followed by Actions-runs fallback returned the exact ISO timestamp 2026-11-16T20:30:30Z and both expected Europe/London display formats. Live iPhone Safari verification remains pending."
+      },
+      "previewPagesDeployment": {
+        "result": "PASS",
+        "runId": 43951585436,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43951585436",
+        "details": "GitHub Pages build, report-build-status, and deploy jobs completed successfully for Preview merge commit ceed285178fee3e26a456690675a1568c0ba02fc."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting iPhone Safari verification of the Preview banner and Version Details timestamps."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting user Safari test and explicit approval."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-16-EMBEDDED-PREVIEW-UPDATE-TIME-010",
+      "dateStarted": "2026-11-16",
+      "purpose": "Replace browser-side GitHub API timestamp retrieval with a build-stamped timestamp embedded in Preview HTML. Banner and Version Details use the same local service; no network request is needed. Increment Preview Build ID to R14 and update its canonical URL. Preview only.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "8c821759d20749dfec6a2bb585dcb6f45a42d836",
+      "previewPullRequestNumber": 31,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/31",
+      "previewMergeCommitSha": "9f816c4d7f33f9cc1ab55c7a2a59a3a6334ce5e1",
+      "embeddedPreviewBuildTimestamp": "2026-11-16T20:40:30Z",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 43952450423,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43952450423"
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "V8 syntax parsing passed for the embedded timestamp service and Version Details consumer. Deterministic no-network simulation confirms the shared timestamp resolves to 2026-11-16T20:40:30Z; banner formats as 16/11/2026, 20:40 and Version Details as 16/11/2026, 20:40:30 GMT. The service makes no browser network request. Live iPhone Safari verification remains pending."
+      },
+      "previewPagesDeployment": {
+        "result": "PASS",
+        "runId": 43952451321,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43952451321",
+        "details": "GitHub Pages build, report-build-status, and deploy jobs completed successfully for Preview R14 merge commit 9f816c4d7f33f9cc1ab55c7a2a59a3a6334ce5e1. The embedded timestamp is a build marker, not a live GitHub deployment-completion timestamp."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting iPhone Safari verification of the banner and Version Details."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting user Safari test and explicit approval."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-16-PRINT-PDF-MOBILE-A4-FIX-011",
+      "dateStarted": "2026-11-16",
+      "purpose": "Repair the yellow Print & Save Current Report as PDF path in Preview. Generate from an attached, measurable 185mm A4 portrait clone; stack financial report rows and detail fields vertically; use 12mm top/bottom PDF margins; wait for fonts and receipt images; remove the guessed detached capture height to reduce blank/extra pages; constrain the mobile PDF preview to viewport width with no horizontal page overflow. Preserve all report data except the pre-existing rule hiding zero-value rows in report sections 2–4. Preview only.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "c88352758de3dcc048b22e9f1f1f0aa2b348aea1",
+      "previewPullRequestNumber": "pending",
+      "previewPullRequestUrl": "pending",
+      "previewMergeCommitSha": "6ab99dfe72979720fe344c219cec849fde969b63",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 43954710757,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43954710757"
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "V8 parsing passed for the complete printReport/directOpenReportPDF code. Source-level checks confirm A4 portrait, explicit 185mm capture width, attached/measured clone, 12mm top/bottom margins, vertical financial rows and expense-detail fields, image/font readiness, CSS pagination, and mobile viewport-constrained preview. Live browser PDF rendering and iPhone Safari visual verification remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "PASS",
+        "runId": 43954709661,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43954709661",
+        "details": "GitHub Pages build, report-build-status and deploy jobs all completed successfully for Preview R15 merge commit 6ab99dfe72979720fe344c219cec849fde969b63."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user test of yellow Print & Save Current Report as PDF on iPhone Safari."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "User authorized Preview-only PDF correction; Production promotion not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-16-LIVE-PREVIEW-DEPLOYMENT-TIME-012",
+      "dateStarted": "2026-11-16",
+      "purpose": "Replace the incorrect hard-coded Preview update timestamp with the actual latest successful GitHub Pages deployment completion time. Use one shared cached timestamp service for the page banner and Version Details, preferring Pages build history and falling back to the exact successful Pages Actions workflow. Preview only; no accounting data or storage touched.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "1aca9c5e4c98f636cfa457d7e052c4afe8f0b83e",
+      "previewPullRequestNumber": 35,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/35",
+      "previewMergeCommitSha": "980b3c41cb8ece54f8fdb591906ca88d971637ea",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 43957323411,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43957323411",
+        "details": "The R11 Version Authority Gate passed on Preview main for merge commit 980b3c41cb8ece54f8fdb591906ca88d971637ea."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "All inline JavaScript blocks in the updated HTML parsed with V8. The restored timestamp service is the previously validated Pages-build-history lookup with exact successful GitHub Pages Actions-run fallback; live API execution from iPhone Safari remains pending."
+      },
+      "previewPagesDeployment": {
+        "result": "PASS",
+        "runId": 43957323053,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43957323053",
+        "details": "GitHub Pages build and deployment completed successfully for Preview R16 merge commit 980b3c41cb8ece54f8fdb591906ca88d971637ea."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting iPhone Safari verification of the deployment timestamp in the banner and Version Details."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Preview-only change authorized. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-16-IPHONE-PDF-CAPTURE-MEMORY-013",
+      "dateStarted": "2026-11-16",
+      "purpose": "Reduce iPhone Safari PDF capture memory pressure by lowering html2canvas scale from 2 to 1, removing the forced full-report windowHeight override, and updating the visible status when PDF generation begins. Yellow financial-report PDF path only; other report and contract flows, IndexedDB, backups and user records remain untouched. Preview only.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "d2ce8f01994f1069d654ea4a8ceed334f1479eef",
+      "previewPullRequestNumber": 37,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/37",
+      "previewMergeCommitSha": "d38ee53d0f6697a1bc6a4f94f381fa44431807bf",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 43958682049,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43958682049",
+        "pullRequestRunId": 43958605043,
+        "details": "Version Authority Gate passed on the PR and again on Preview main. It validated R17 identity, canonical URL, approved baseline ancestry and all 21 pinned runtime assets."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Authority gate validated the updated index Git blob SHA and all 21 runtime asset pins. Source diff is limited to the yellow financial-report PDF capture scale/windowHeight and generation status, plus R17 identity. No standalone browser execution or live PDF render was run; iPhone Safari test remains pending."
+      },
+      "previewPagesDeployment": {
+        "result": "PASS",
+        "runId": 43958680553,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43958680553",
+        "details": "GitHub Pages build and deployment completed successfully for Preview R17 merge commit d38ee53d0f6697a1bc6a4f94f381fa44431807bf."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting iPhone Safari test of yellow Print / Save Current Report as PDF and Share PDF."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User explicitly authorized this Preview-only repair. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-16-PDF-PREVIEW-IFRAME-MARKUP-014",
+      "dateStarted": "2026-11-16",
+      "purpose": "Fix malformed closing script markup in the HTML written into the yellow financial-report PDF preview tab. The escaped closing tag prevented the preview document parser from reliably creating the pdfFrame iframe, matching the observed 'PDF preview frame is unavailable' error. Emit the closing tag safely as </scr'+'ipt> in the parent JavaScript source. Preview only; no data/storage changes.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "4a06444985d4d82c7827d8b07805014c9a17f5d9",
+      "previewPullRequestNumber": 39,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/39",
+      "previewMergeCommitSha": "c5428443e7e0c150a5c2b3f7b4147a0a1f56824c",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 43972668692,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43972668692",
+        "pullRequestRunId": 43972587234,
+        "details": "Gate passed on the PR and Preview main, validating R18 identity, canonical URL, approved baseline and all 21 pinned runtime assets."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Version Authority Gate passed. Source inspection confirms the malformed escaped script terminator was replaced by safe concatenation that emits a real closing script tag in the popup HTML. No live browser parsing or iPhone Safari PDF test has yet been run."
+      },
+      "previewPagesDeployment": {
+        "result": "PASS",
+        "runId": 43972666833,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/43972666833",
+        "details": "GitHub Pages build and deployment completed successfully for Preview R18 merge commit c5428443e7e0c150a5c2b3f7b4147a0a1f56824c."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting iPhone Safari verification of yellow financial-report PDF preview, Share PDF, and print/save."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User requested continuation after providing the R17 PDF failure screenshot."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-17-PREVIEW-LAST-UPDATED-CORS-015",
+      "dateStarted": "2026-11-17",
+      "purpose": "Repair Preview Last Updated retrieval by removing the custom GitHub API version request header that can trigger a browser CORS preflight; retain the public Pages-build and exact successful Pages Actions-run timestamp sources. Increment Preview identity to R19. Preview only; no accounting data, IndexedDB, LocalStorage, backups, or Production files changed.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "ccaf4757b054ed755c0df069b131bb292a996a23",
+      "previewPullRequestNumber": 41,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/41",
+      "previewMergeCommitSha": "99372ab85003a83cc24eb089618349db97309cfd",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 44141526499,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44141526499",
+        "details": "R11 Version Authority Gate passed on Preview PR #41 and again on Preview main, validating R19 identity, canonical URL, approved baseline ancestry and all 21 pinned runtime assets."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "All 8 inline JavaScript blocks passed V8 syntax parsing. The browser request no longer sends the custom X-GitHub-Api-Version header, avoiding the extra CORS preflight. Version Authority Gate passed with all 21 pinned assets. Live iPhone Safari fetch/render behavior is not yet tested."
+      },
+      "previewPagesDeployment": {
+        "result": "PASS",
+        "runId": 44141525460,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44141525460",
+        "details": "GitHub Pages build, report-build-status and deploy jobs completed successfully for Preview R19 merge commit 99372ab85003a83cc24eb089618349db97309cfd."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user verification of Last Updated in iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User directed continuation of the Preview-only Last Updated repair."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-17-PREVIEW-LAST-UPDATED-OFFLINE-R20",
+      "dateStarted": "2026-11-17",
+      "purpose": "Restore the previously validated R14 no-network embedded timestamp approach for Preview Last Updated. Replace browser-side GitHub API requests with one embedded ISO timestamp shared by the red Preview banner and Version Details. This removes CORS, API availability and rate-limit dependencies. Preview only; no accounting data, IndexedDB, LocalStorage, backups or Production files changed.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "907b2df70cd4e95e19e976d501a1408a9e316bd2",
+      "previewPullRequestNumber": 43,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/43",
+      "previewMergeCommitSha": "pending",
+      "embeddedPreviewBuildTimestamp": "2026-11-17T18:05:05.240Z",
+      "staticChecks": {
+        "result": "PASS",
+        "details": "The shared timestamp service returns a validated embedded ISO timestamp and formats it in Europe/London time for both banner and Version Details. Browser-side GitHub API calls are removed from this timestamp path. JavaScript syntax and full Version Authority Gate pending."
+      },
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting Version Authority Gate and Preview Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting iPhone Safari verification of the banner and Version Details after Preview R20 deploy."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User explicitly directed fixing Last Updated. Production promotion is not authorized."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
