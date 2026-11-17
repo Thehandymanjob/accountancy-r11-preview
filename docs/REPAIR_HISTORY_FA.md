@@ -211,8 +211,11 @@
 - **راه‌حل R6:** استفاده از PDF.js نسخه 3.11.174 برای رندر هر صفحه PDF روی Canvas با مقیاس محاسبه‌شده از عرض واقعی viewer؛ پشتیبانی از تغییر عرض/چرخش دستگاه با ResizeObserver؛ محدودکردن output scale به حداکثر 1.5 برای کنترل مصرف حافظه iPhone. PDF اصلی تولیدشده و A4 portrait تغییر نمی‌کند؛ Canvas فقط لایه نمایش است. iframe پنهان برای حفظ مسیر فعلی Print از روی PDF اصلی باقی می‌ماند. فقط دو کنترل Back و Print نمایش داده می‌شوند.
 - **فایل‌ها:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html` و `tha-print-engine.js`، `VERSION-AUTHORITY.json` و همین دو سند تعمیر.
 - **Build ID هدف:** `THA-273-R11-PREVIEW-20261117-R25`
-- **PR:** #63 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/63 ؛ development commit و merge commit پس از تکمیل workflow ثبت می‌شوند.
-- **تست‌های کد:** V8 syntax parse برای موتور و هر 25 بلوک inline JavaScript موفق؛ هر 22 SHA در manifest با درخت Git شاخه development تطبیق دارد؛ PR فقط پنج فایل مجاز را تغییر می‌دهد. Version Authority Gate هنوز pending است.
+- **PR:** #63 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/63 ؛ merge commit: `a7dedd33e9a76422373ea61e57e820f0128aa553`.
+- **Version Authority Gate:** PASS در PR run `44162441065` و main run `44162503158` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44162503158.
+- **Preview Pages:** PASS؛ build، deploy و report-build-status همگی موفق در run `44162501867` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44162501867.
+- **تست‌های کد:** V8 syntax parse برای موتور و هر 25 بلوک inline JavaScript موفق؛ هر 22 SHA در manifest با درخت Git تطبیق دارد؛ PR فقط پنج فایل مجاز را تغییر داد.
+- **تست iPhone Safari:** هنوز انجام نشده؛ fit عرض، چاپ واقعی A4 و Back باید توسط کاربر بررسی شوند.
 - **تست iPhone Safari:** not tested؛ باید fit عرض، اسکرول عمودی صفحات، چاپ واقعی A4 و Back بررسی شوند.
 - **محدودیت:** کیفیت PDF چاپی از Canvas preview گرفته نمی‌شود؛ چاپ باید از PDF blob اصلی انجام شود. عملکرد iframe پنهان برای print در Safari هنوز نیازمند تست واقعی است.
 - **Production:** هیچ تغییری انجام نشده؛ ارتقا مجاز نیست.
