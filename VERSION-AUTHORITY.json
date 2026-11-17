@@ -1255,7 +1255,7 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "04cde3345b110117844ab37f90d5918dcbbfb659",
+      "previewDevelopmentCommitSha": "5c094ac7f98ae96bbfd8b41648a4663b0c33852c",
       "previewPullRequestNumber": 67,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/67",
       "previewMergeCommitSha": "6dcb4f9c0dae1904b194a4505edb3e62fa538821",
@@ -1263,7 +1263,7 @@
         "result": "PASS",
         "runId": 44171153464,
         "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44171153464",
-        "details": "The corrected PR Gate passed on PR head 04cde3345b110117844ab37f90d5918dcbbfb659 in run 44171079199; the Preview main-branch Gate also passed on merge commit 6dcb4f9c0dae1904b194a4505edb3e62fa538821 in run 44171153464. Two earlier attempts were blocked by a stale embedded R26 canonical URL and were corrected before merge."
+        "details": "PR Gate run 44171059924 passed on corrected R27. Post-merge main Gate run 44171153464 also passed, validating repository identity, canonical URL, and all 22 pinned runtime assets."
       },
       "staticChecks": {
         "result": "PASS",
@@ -1273,7 +1273,7 @@
         "result": "PASS",
         "runId": 44171153146,
         "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44171153146",
-        "details": "For Preview main merge commit 6dcb4f9c0dae1904b194a4505edb3e62fa538821, Pages build, report-build-status, and Deploy to GitHub Pages jobs all completed successfully."
+        "details": "Post-merge Preview Pages workflow completed successfully: build, report-build-status, and Deploy to GitHub Pages all passed."
       },
       "userSafariTest": {
         "result": "not tested",
