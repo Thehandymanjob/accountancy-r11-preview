@@ -1,7 +1,7 @@
 /* The Handyman Accountancy — central PDF/Print Engine
- * Preview R22: Accounting Financial Report preview exposes only Print Preview and Back.
+ * Preview R23: responsive PDF preview with separate native PDF print handoff.
  * Document-specific HTML remains owned by its section; this engine owns PDF
- * generation, validation, in-app preview, Print Preview, Back and cleanup.
+ * generation, validation, responsive in-app preview, native PDF print handoff, Back and cleanup.
  */
 (function installTHAPrintEngine(){
  'use strict';
@@ -17,7 +17,7 @@
   .tha-pe-title{font-size:16px;font-weight:800;flex:1;min-width:0}
   
   .tha-pe-status{padding:9px 12px;background:#f7f9fc;color:#34445a;font-size:13px;line-height:1.4;border-bottom:1px solid #d7dee8}
-  .tha-pe-frame{display:block;flex:1;width:100%;min-height:0;border:0;background:#fff}
+  .tha-pe-frame{display:block;flex:1;width:100%;min-width:0;min-height:0;border:0;background:#fff;overflow:auto;-webkit-overflow-scrolling:touch}
   .tha-pe-actions{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid #d7dee8}
   .tha-pe-actions button{min-height:50px;flex:1 1 45%;max-width:320px;border:0;border-radius:10px;padding:10px 16px;background:#e5b63f;color:#142b4a;font-size:16px;font-weight:800}
   .tha-pe-actions button:disabled{opacity:.48}
@@ -56,7 +56,7 @@
   if(state.overlay)close();
   state.returnFocus=document.activeElement;
   const overlay=document.createElement('section');overlay.className='tha-pe-overlay';overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label',title||'PDF Preview');
-  overlay.innerHTML='<header class="tha-pe-bar"><strong class="tha-pe-title"></strong></header><div class="tha-pe-status" role="status" aria-live="polite">Preparing PDF…</div><iframe class="tha-pe-frame" title="PDF document preview"></iframe><footer class="tha-pe-actions"><button type="button" data-action="print" disabled>Print Preview</button><button type="button" class="tha-pe-secondary" data-action="back">Back</button></footer>';
+  overlay.innerHTML='<header class="tha-pe-bar"><strong class="tha-pe-title"></strong></header><div class="tha-pe-status" role="status" aria-live="polite">Preparing PDF…</div><iframe class="tha-pe-frame" title="PDF document preview" scrolling="auto"></iframe><footer class="tha-pe-actions"><button type="button" data-action="print" disabled>Print</button><button type="button" class="tha-pe-secondary" data-action="back">Back</button></footer>';
   overlay.querySelector('.tha-pe-title').textContent=title||'PDF Preview';
   overlay.querySelector('[data-action="back"]').addEventListener('click',close);
   overlay.querySelector('[data-action="print"]').addEventListener('click',print);
@@ -93,8 +93,8 @@
    const bytes=new Uint8Array(await blob.slice(0,5).arrayBuffer());
    if(String.fromCharCode(...bytes)!=='%PDF-')throw new Error('Generated file failed PDF signature validation');
    state.pdfBlob=blob;state.pdfFile=new File([blob],filename,{type:'application/pdf'});
-   state.objectUrl=URL.createObjectURL(blob);frame.src=state.objectUrl+'#view=FitH';
-   enableActions();setStatus('PDF ready. Tap Print Preview to print, or Back to return to the report.');
+   state.objectUrl=URL.createObjectURL(blob);frame.src=state.objectUrl+'#zoom=page-width&view=FitH';
+   enableActions();setStatus('PDF ready. It is fitted to the mobile screen. Tap Print to open the PDF in Safari, then choose Print from the PDF sharing options; tap Back to return.');
    cleanupCapture();
    return {ok:true,filename,size:blob.size};
   }catch(error){
@@ -117,12 +117,14 @@
   const a=document.createElement('a');a.href=state.objectUrl;a.download=state.pdfFile.name;document.body.appendChild(a);a.click();a.remove();
  }
  function print(){
-  const frame=state.overlay&&state.overlay.querySelector('iframe');
-  if(!frame||!state.pdfBlob)return;
-  try{frame.contentWindow.focus();frame.contentWindow.print();setStatus('Print Preview requested. If the print dialog does not appear, try again or tap Back.')}
-  catch(_){setStatus('This browser did not open the print dialog. Try Print Preview again or tap Back.')}
+  if(!state.objectUrl||!state.pdfBlob)return;
+  /* Do not call window.print(): iOS Safari treats scripted printing as automatic
+     printing and can ask for permission on every attempt. Open the validated PDF
+     from this direct user gesture so Safari's native PDF viewer owns printing. */
+  const link=document.createElement('a');link.href=state.objectUrl;link.target='_blank';link.rel='noopener';link.click();
+  setStatus('PDF opened in Safari. Use the PDF Share menu and choose Print.');
  }
- function openNewTab(){if(state.objectUrl)window.open(state.objectUrl,'_blank','noopener')}
+ function openNewTab(){if(state.objectUrl){const link=document.createElement('a');link.href=state.objectUrl;link.target='_blank';link.rel='noopener';link.click()}}
  window.THA=window.THA||{};
  window.THA.PrintEngine=Object.freeze({open,close,getState:()=>Object.freeze({open:!!state.overlay,ready:!!state.pdfBlob})});
 })();
