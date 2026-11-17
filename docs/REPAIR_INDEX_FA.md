@@ -7,6 +7,7 @@
 | اگر این مشکل را دیدی | ابتدا این مورد را باز کن | بررسی اولیه |
 |---|---|---|
 | زمان Last Updated خالی است یا نمی‌آید | [DEP-TIME-001](./REPAIR_HISTORY_FA.md#dep-time-001--زمان-last-updated-به-دلیل-وابستگی-به-github-api-نمایش-داده-نمیشد) | سرویس embedded، منبع timestamp و اتصال بنر/Version Details؛ از API fetch شروع نکن |
+| بکاپ کامل Production در Preview پذیرفته نمی‌شود | [DATA-001](./REPAIR_HISTORY_FA.md#data-001--بازیابی-بکاپ-کامل-production-در-پایگاه-داده-جداگانه-preview) | منبع Production، مقصد مستقل Preview، SHA pin و restore handshake؛ کنترل مقصد را حذف نکن |
 | PDF فاکتور روی A4 از چپ و راست تراز نیست | [PDF-INV-001](./REPAIR_HISTORY_FA.md#pdf-inv-001--تراز-افقی-سند-pdf-فاکتور-روی-a4) | عرض سند، عرض قابل چاپ و حاشیه‌های متقارن در مسیر مستقل فاکتور؛ گزارش مالی را تغییر نده |
 | PDF preview می‌گوید iframe در دسترس نیست | [PDF-PREVIEW-001](./REPAIR_HISTORY_FA.md#pdf-preview-001--ساختار-closing-script-در-html-پیشنمایش-pdf) | HTML popup و closing script tag |
 | تولید PDF در iPhone Safari متوقف یا ناپایدار است | [PERF-PDF-001](./REPAIR_HISTORY_FA.md#perf-pdf-001--فشار-حافظه-در-مسیر-تولید-pdf-در-iphone-safari) | canvas scale، capture height و حجم DOM |
