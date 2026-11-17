@@ -331,3 +331,26 @@
 - برای هر تکمیل یا اصلاح مجدد، یک بازنگری به تاریخچه همان پرونده اضافه کن؛ راه‌حل‌های قبلی را حذف نکن.
 - فقط برای علت ریشه‌ای مستقل و مستند، شناسه و پرونده جدید بساز.
 - دفترچه کامل و فهرست موضوعی باید در همان مجموعه تغییرات به‌روز شوند.
+
+### DATA-001 — بازیابی بکاپ کامل Production در پایگاه داده جداگانه Preview
+
+- **وضعیت فعلی:** اصلاح کد و دو pin لازم در Preview development ثبت شده‌اند؛ Gate، انتشار Pages و تست واقعی بازیابی هنوز pending هستند.
+- **بازنگری R2:** پس از اصلاح SHA فایل recovery، اجرای Gate مورد دوم را مشخص کرد: فایل `index.html` به‌علت تغییر cache key در PR، SHA قدیمی در دو محل manifest داشت. هر دو مقدار `app.indexBlobSha` و pin فایل index اکنون با Git blob SHA واقعی نسخه development هماهنگ شده‌اند. نتیجه Gate جدید هنوز pending است.
+
+- **تاریخ:** 2026-11-17
+- **علائم مشاهده‌شده:** بکاپ کامل صادرشده از Production در مسیر بازیابی Preview پذیرفته نمی‌شد، در حالی که بازیابی همان بکاپ در محیط Production موفق گزارش شده بود.
+- **محیط:** Preview repository `Thehandymanjob/accountancy-r11-preview`؛ Preview branch `development`؛ برنامه v273 / R11؛ Build ID فعلی R33. مقصد موردنظر فقط پایگاه داده مستقل Preview با نام `the_handyman_accountancy_r11_preview_idb` است. Production repository و پایگاه داده آن خارج از دامنه تغییر هستند.
+- **علت ریشه‌ای تأییدشده در کد:** اعتبارسنجی اولیه فایل بکاپ، نام پایگاه داده منبع را با نام پایگاه داده مقصد یکسان می‌خواست. بنابراین بکاپ معتبر Production با نام دیتابیس نسخه‌دار Production پیش از ورود به مسیر restore مقصد Preview رد می‌شد.
+- **روش تشخیص:** بررسی `v264-recovery.js` و قرارداد restore نشان داد بررسی اولیه، منبع و مقصد را یکی فرض کرده بود. همچنین اجرای R11 Version Authority Gate روی PR #80 با خطای مشخص `runtime file SHA mismatch: v273-isolated-test/v264-fresh/v264-recovery.js` متوقف شد؛ فایل recovery تغییر کرده بود اما SHA جدید آن در فهرست pinشده manifest ثبت نشده بود.
+- **راه‌حل جاری:** اجازه دادن به نام دیتابیس منبع فقط در دو حالت: دیتابیس فعلی Preview یا نام نسخه‌دار Production مطابق الگوی `the_handyman_accountancy_v<number>_clean_idb`. پس از اعتبارسنجی کامل ساختار، SHA-256، snapshot، 17 دامنه و شناسه یکتای رکوردها، هویت دیتابیس snapshot به دیتابیس مقصد Preview بازنویسی می‌شود. بررسی مقصد در restore engine و recovery handshake همچنان فعال و سخت‌گیرانه باقی می‌ماند. SHA فایل recovery در `VERSION-AUTHORITY.json` با Git blob SHA واقعی آن هماهنگ شد.
+- **حفاظت داده:** این تغییر به‌خودی‌خود هیچ restore یا پاک‌سازی انجام نمی‌دهد. اجرای Restore در Preview همچنان جایگزین‌کننده داده‌های دیتابیس مقصد Preview است؛ قبل از تست باید از داده‌های Preview نسخه پشتیبان مستقل وجود داشته باشد. هیچ تغییری در Production، IndexedDB Production، بکاپ‌های کاربر یا LocalStorage انجام نشده است.
+- **فایل‌های تغییرکرده:** `v273-isolated-test/v264-fresh/v264-recovery.js`، `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`، `VERSION-AUTHORITY.json`، `docs/REPAIR_HISTORY_FA.md` و `docs/REPAIR_INDEX_FA.md`.
+- **مواردی که نباید تکرار شوند:** نام دیتابیس منبع را بدون اعتبارسنجی به نام مقصد تغییر نده؛ SHA-256، فهرست دامنه‌ها، اعتبارسنجی رکوردها، کنترل نام دیتابیس مقصد و recovery handshake را حذف یا تضعیف نکن؛ Gate را دور نزن.
+- **تست و شواهد:** اجرای قبلی Gate در PR #80 شکست خورد چون SHA فایل recovery در manifest به‌روز نبود. اصلاح pin اکنون روی development ثبت شده؛ اجرای Gate جدید، static checks و Pages deployment هنوز pending هستند.
+- **PR / Commit / Merge:** PR #80 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/80 ؛ development commit: pending؛ merge commit: pending.
+- **Version Authority Gate:** pending؛ run ID و نتیجه هنوز تأیید نشده‌اند.
+- **Preview Pages deployment:** pending؛ تا مشاهده موفقیت deployment، لینک آزمایشی به‌عنوان نسخه به‌روز معرفی نمی‌شود.
+- **معیار پذیرش تست کاربر:** بکاپ معتبر Production در Preview انتخاب و اعتبارسنجی شود؛ Restore فقط روی دیتابیس Preview اجرا شود؛ تعداد کل رکوردها، تعداد رکوردهای هر 17 دامنه، سلامت دیتابیس و چند رکورد مهم با اطلاعات بکاپ مقایسه شوند. تست واقعی iPhone Safari هنوز انجام نشده است.
+- **وضعیت کاربر:** کاربر ادامه اصلاح Preview را مجاز کرده است؛ تأیید انتقال به Production صادر نشده است.
+- **Production:** بدون تغییر؛ ارتقا مجاز نیست.
+
