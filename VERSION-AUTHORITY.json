@@ -1472,12 +1472,15 @@
       ],
       "validation": {
         "sourceReview": "PASS",
-        "previewGate": "pending",
-        "previewPages": "pending",
+        "previewGate": "PASS — run 44184288381",
+        "previewPages": "PASS — run 44184288227",
         "userSafariTest": "pending"
       },
-      "approvalStatus": "awaiting user Preview R32 test; not approved for Production",
-      "productionPromotion": "not authorized"
+      "approvalStatus": "awaiting user Preview R32 iPhone Safari test; not approved for Production",
+      "productionPromotion": "not authorized",
+      "previewPullRequestNumber": 77,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/77",
+      "previewMergeCommitSha": "350bfc99084095818c56c945625fe12a53bb0f06"
     }
   ],
   "history": [
