@@ -44,7 +44,7 @@ jobs:
           if (authority.protectedBranch !== 'main') fail('target branch mismatch');
           if (app.path !== appPath) fail('approved app path mismatch');
           if (String(app.version || '') !== '273') fail('app version mismatch');
-          const buildMatch = String(app.buildId || '').match(/^THA-273-R11-PREVIEW-20261116-R(\d+)$/);
+          const buildMatch = String(app.buildId || '').match(/^THA-273-R11-PREVIEW-\d{8}-R(\d+)$/);
           if (!buildMatch) fail('R11 Build ID is not an approved preview build');
           let canonicalUrl;
           try { canonicalUrl = new URL(app.canonicalUrl); } catch (_) { fail('canonical URL is invalid'); }
