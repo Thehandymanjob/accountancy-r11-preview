@@ -1043,18 +1043,18 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "pending",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
+      "previewDevelopmentCommitSha": "500e43834a95976aad749f81dcaed60214b55731",
+      "previewPullRequestNumber": 58,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/58",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 44152481727,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44152481727"
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Pending JavaScript syntax checks, authority SHA gate and exact diff review."
+        "result": "PASS",
+        "details": "Preview Version Authority Gate verified R22 Build ID, canonical URL, approved baseline ancestry, and all 22 pinned runtime asset SHAs. PR diff reviewed: exactly the app index, print engine, Authority and existing repair-history/index files changed. Dedicated JS parser check is not independently recorded."
       },
       "previewPagesDeployment": {
         "result": "pending",
