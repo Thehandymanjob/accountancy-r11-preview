@@ -160,7 +160,8 @@
 - **فایل‌های تغییرکرده:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`، `v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js`، `.github/workflows/r11-version-authority.yml`، `VERSION-AUTHORITY.json` و همین دو سند Repair History.
 - **Build ID هدف:** `THA-273-R11-PREVIEW-20261117-R21`
 - **PR:** #54 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/54 ؛ commit ادغام Preview: `187216817a3ddbf296e7135ee2cbc02798245a32`.
-- **Gate:** PASS در run `44150704566` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44150704566 ؛ Gate مربوط به push روی main جداگانه در حال بررسی است.
+- **Gate:** PR Gate PASS در run `44150704566` و main push Gate PASS در run `44150783662` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44150783662.
+- **Preview Pages:** PASS در run `44150782561` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44150782561 ؛ این نتیجه انتشار Pages را تأیید می‌کند، نه عملکرد PDF در Safari.
 - **تست‌های انجام‌شده:** V8 parse برای فایل موتور و هر 8 بلوک inline JavaScript در HTML موفق؛ اتصال تابع گزارش به API موتور از روی source تأیید شد.
 - **تست‌های انجام‌نشده:** اجرای PDF در مرورگر واقعی، iPhone Safari، Share sheet، Print و Save هنوز انجام نشده است.
 - **وضعیت فعلی:** `Fixed — awaiting verification` برای مهاجرت اولیه؛ موتور هنوز فقط به گزارش مالی Accounting متصل است.
