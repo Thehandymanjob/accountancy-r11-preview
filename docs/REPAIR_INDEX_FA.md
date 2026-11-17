@@ -9,7 +9,7 @@
 | زمان Last Updated خالی است یا نمی‌آید | [DEP-TIME-001](./REPAIR_HISTORY_FA.md#dep-time-001--زمان-last-updated-به-دلیل-وابستگی-به-github-api-نمایش-داده-نمیشد) | سرویس embedded، منبع timestamp و اتصال بنر/Version Details؛ از API fetch شروع نکن |
 | PDF preview می‌گوید iframe در دسترس نیست | [PDF-PREVIEW-001](./REPAIR_HISTORY_FA.md#pdf-preview-001--ساختار-closing-script-در-html-پیشنمایش-pdf) | HTML popup و closing script tag |
 | تولید PDF در iPhone Safari متوقف یا ناپایدار است | [PERF-PDF-001](./REPAIR_HISTORY_FA.md#perf-pdf-001--فشار-حافظه-در-مسیر-تولید-pdf-در-iphone-safari) | canvas scale، capture height و حجم DOM |
-| PDF در موبایل برش می‌خورد، افقی می‌شود یا page break نامناسب دارد | [PDF-LAYOUT-001](./REPAIR_HISTORY_FA.md#pdf-layout-001--اصلاح-چیدمان-چاپ-گزارش-مالی-برای-a4-و-موبایل) | عرض clone، A4 portrait، چیدمان عمودی، margin و pagination؛ R2: موتور مرکزی؛ R3: فقط Print Preview و Back در overlay |
+| PDF در موبایل برش می‌خورد، افقی می‌شود یا page break نامناسب دارد | [PDF-LAYOUT-001](./REPAIR_HISTORY_FA.md#pdf-layout-001--اصلاح-چیدمان-چاپ-گزارش-مالی-برای-a4-و-موبایل) | عرض clone، A4 portrait، چیدمان عمودی، margin و pagination؛ R2: موتور مرکزی؛ R3: فقط دو کنترل؛ R4: چاپ بومی Safari و fit عرض موبایل |
 
 ## قاعده نگهداری بدون تکرار
 
