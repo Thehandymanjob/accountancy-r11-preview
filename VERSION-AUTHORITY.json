@@ -57,7 +57,7 @@
     },
     "workflow": [
       "Before every change, read VERSION-AUTHORITY.json from main in BOTH Preview and Production repositories.",
-      "Immediately after reading both main-branch Authority manifests, and before any troubleshooting, bug investigation, diagnosis or code repair, read docs/REPAIR_INDEX_FA.md and the complete docs/REPAIR_HISTORY_FA.md from Preview development. Search by symptom and category, compare current evidence with the recorded root cause, and reuse a prior fix only after confirming the same root cause. Do not blindly apply a similar-looking fix. If no confirmed match exists, diagnose normally and, after verification, add a new categorized repair record and update the index in the same Preview development change set.",
+      "Immediately after reading both main-branch Authority manifests, and before any troubleshooting, bug investigation, diagnosis or code repair, read docs/REPAIR_INDEX_FA.md and the complete docs/REPAIR_HISTORY_FA.md from Preview development. First search for an existing case. For the same issue/root cause, update that case and append a dated solution revision; do not create a duplicate case for temporary, partial, follow-up or improved fixes. Reuse a prior fix only after confirming the same root cause. Create a new case only for an independently evidenced root cause. Update the single corresponding index row. If no confirmed match exists, diagnose normally and record the outcome using the same lifecycle rules.",
       "Identify the exact target using repository, branch, app path, version, Build ID, canonical URL, index blob SHA, approved baseline commit, and every pinned runtime dependency SHA. Never select a build by version number or chat history alone.",
       "Fetch and verify the app index and every pinned runtime dependency against the manifest in BOTH repositories. Confirm the repository, branch, Build ID, canonical URL, and approved baseline ancestry. Stop on any mismatch, missing file, or ambiguity.",
       "Use Preview repository development as the one permanent working branch. Do not create per-task branches, additional PR branches, tags, alternate app copies, or other branches unless the user explicitly authorizes them.",
@@ -946,6 +946,46 @@
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
       "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-17-REPAIR-CASE-LIFECYCLE-002",
+      "dateStarted": "2026-11-17",
+      "purpose": "Prevent duplicate repair cases by introducing one stable case per issue/root cause, with append-only solution revisions for temporary, partial, improved and reopened fixes.",
+      "changedFiles": [
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "pending",
+      "previewPullRequestNumber": "pending",
+      "previewPullRequestUrl": "pending",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Repair case lifecycle policy and document structure updated; gate validation pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not applicable",
+        "runId": "not applicable",
+        "url": "not applicable",
+        "details": "Documentation and Authority-only change; no app runtime files changed."
+      },
+      "userSafariTest": {
+        "result": "not applicable",
+        "details": "No application runtime changes."
+      },
+      "userApproval": {
+        "result": "authorized for Preview documentation and Authority update",
+        "details": "User clarified that temporary fixes and later completions must update the same repair record without duplicates."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
     }
   ],
   "history": [
@@ -1754,6 +1794,42 @@
     "initialFiles": [
       "docs/REPAIR_INDEX_FA.md",
       "docs/REPAIR_HISTORY_FA.md"
-    ]
+    ],
+    "duplicatePrevention": {
+      "oneCasePerRootCause": true,
+      "stableCaseId": true,
+      "doNotCreateDuplicateForTemporaryOrFollowupFix": true,
+      "updateExistingCaseWhenSameIssue": true,
+      "appendSolutionRevisionHistory": true,
+      "preservePreviousSolutions": true,
+      "indexOneRowPerCase": true,
+      "reopenExistingCaseIfRegression": true,
+      "newCaseOnlyForIndependentlyEvidencedRootCause": true,
+      "requiredStatuses": [
+        "Open",
+        "Diagnosed",
+        "Temporary fix",
+        "Partially fixed",
+        "Fixed — awaiting verification",
+        "Verified",
+        "Reopened",
+        "Closed"
+      ],
+      "revisionFields": [
+        "revision",
+        "date",
+        "changeType",
+        "reason",
+        "rootCauseEvidence",
+        "changedFiles",
+        "pullRequest",
+        "commit",
+        "buildId",
+        "testsAndResults",
+        "currentStatus",
+        "remainingWork"
+      ]
+    },
+    "updateRule": "Before creating a repair case, search for an existing case. For the same issue/root cause, update the existing case and append a dated solution revision; never create a duplicate entry merely because the fix is temporary, partial, or later improved. Keep one index row per case. Create a new case only for an independently evidenced root cause."
   }
 }
