@@ -1227,10 +1227,10 @@
         "details": "V8 syntax parsing passed for tha-print-engine.js and all 25 inline HTML script blocks (26 JavaScript units). All 22 authority-pinned runtime asset SHAs match the development tree. Material-only zero filters are present in the Full Project Report and reconciliation register; the zero-only material summary row is suppressed. PR #65 changed exactly five approved files."
       },
       "previewPagesDeployment": {
-        "result": "pending",
+        "result": "PASS",
         "runId": 44165058809,
         "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44165058809",
-        "details": "Preview Pages build completed successfully. Deploy job is waiting/queued; do not claim deployment until it completes successfully."
+        "details": "Preview Pages build, report-build-status, and Deploy to GitHub Pages jobs all completed successfully for R26 merge commit a60ea0600cdd0ce72face12637b27360effbd1b0. Live iPhone Safari printer output remains untested."
       },
       "userSafariTest": {
         "result": "not tested",
