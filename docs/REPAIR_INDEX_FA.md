@@ -10,7 +10,7 @@
 | PDF فاکتور روی A4 از چپ و راست تراز نیست | [PDF-INV-001](./REPAIR_HISTORY_FA.md#pdf-inv-001--تراز-افقی-سند-pdf-فاکتور-روی-a4) | عرض سند، عرض قابل چاپ و حاشیه‌های متقارن در مسیر مستقل فاکتور؛ گزارش مالی را تغییر نده |
 | PDF preview می‌گوید iframe در دسترس نیست | [PDF-PREVIEW-001](./REPAIR_HISTORY_FA.md#pdf-preview-001--ساختار-closing-script-در-html-پیشنمایش-pdf) | HTML popup و closing script tag |
 | تولید PDF در iPhone Safari متوقف یا ناپایدار است | [PERF-PDF-001](./REPAIR_HISTORY_FA.md#perf-pdf-001--فشار-حافظه-در-مسیر-تولید-pdf-در-iphone-safari) | canvas scale، capture height و حجم DOM |
-| PDF در موبایل برش می‌خورد، صفحه دوم چاپ نمی‌شود یا ردیف متریال صفر دیده می‌شود | [PDF-LAYOUT-001](./REPAIR_HISTORY_FA.md#pdf-layout-001--اصلاح-چیدمان-چاپ-گزارش-مالی-برای-a4-و-موبایل) | A4 portrait؛ R6: PDF.js fit-to-width؛ R7: فیلتر Materials صفر؛ R8: تحویل PDF اصلی به iOS Share Sheet و block-flow برای صفحه‌بندی پیوسته |
+| PDF گزارش مالی روی A4 از چپ و راست در مرکز نیست، برش می‌خورد یا صفحه‌بندی/چاپ مشکل دارد | [PDF-LAYOUT-001](./REPAIR_HISTORY_FA.md#pdf-layout-001--اصلاح-چیدمان-چاپ-گزارش-مالی-برای-a4-و-موبایل) | R6: PDF.js fit-to-width؛ R7: فیلتر Materials صفر؛ R8: Share Sheet و block-flow؛ R9: تطبیق عرض capture با ناحیه قابل چاپ و حاشیه‌های افقی 12.5mm |
 
 ## قاعده نگهداری بدون تکرار
 
