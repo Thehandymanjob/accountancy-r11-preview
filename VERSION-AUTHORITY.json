@@ -1422,23 +1422,23 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "pending",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
-      "previewMergeCommitSha": "pending",
+      "previewDevelopmentCommitSha": "0cf2a10f4f3c9c7d299ad0507427c93ff437aa16",
+      "previewPullRequestNumber": 75,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/75",
+      "previewMergeCommitSha": "87a0f3dec1783d8002c342f5021954b747ac8952",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 44178697278,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44178697278"
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Source assertion: captureRoot width/max-width 185mm and margin 0 auto; A4 page width 210mm; PDF margins 8mm vertical and 0mm horizontal. Expected centered page margin is (210-185)/2=12.5mm on each side. JavaScript parse, Gate and deployment pending."
+        "result": "PASS",
+        "details": "R11 Version Authority Gate passed for the merged Preview commit, validating approved repository identity, app path, R31 Build ID/canonical URL, approved baseline ancestry and all 22 pinned runtime assets. Source checks confirm the financial-report PDF call uses margins [8,0,8,0], captureRoot width/max-width 185mm and margin 0 auto; expected A4 horizontal whitespace is 12.5mm per side. Browser rendering and actual PDF visual output remain unverified until the user tests Safari."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 44178696828,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44178696828"
       },
       "userSafariTest": {
         "result": "not tested",
