@@ -229,8 +229,10 @@
 - **راه‌حل متریال R7:** فقط رکوردهای `materials` که مبلغشان پس از گردکردن به پنی صفر است (`£0.00`) از Full Project Report و Project Reconciliation Register کنار گذاشته می‌شوند. ردیف‌های مواد با مبلغ غیرصفر حفظ می‌شوند. ردیف خلاصه Legacy material records نیز وقتی جمع آن صفر است نمایش داده نمی‌شود. هیچ رکوردی از IndexedDB حذف یا تغییر داده نمی‌شود.
 - **فایل‌ها:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`، `tha-print-engine.js`، `VERSION-AUTHORITY.json`، `REPAIR_HISTORY_FA.md` و `REPAIR_INDEX_FA.md`.
 - **Build ID هدف:** `THA-273-R11-PREVIEW-20261117-R26`
-- **PR / Gate / Pages:** pending تا تکمیل PR، Version Authority Gate و انتشار Preview Pages.
-- **تست کد:** V8 syntax parse برای فایل موتور و هر 25 بلوک inline JavaScript موفق (26 واحد). فیلترهای zero-material در دو جدول گزارش و فیلتر ردیف خلاصه صفر بررسی استاتیک شدند.
+- **PR:** #65 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/65 ؛ merge commit: `a60ea0600cdd0ce72face12637b27360effbd1b0`.
+- **Version Authority Gate:** PASS در PR run `44164968390` و main run `44165059757` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44165059757.
+- **Preview Pages:** PASS؛ build، report-build-status و Deploy to GitHub Pages همگی موفق در run `44165058809` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44165058809.
+- **تست کد:** V8 syntax parse برای موتور و هر 25 بلوک inline JavaScript موفق (26 واحد)؛ هر 22 SHA در manifest تطبیق دارد؛ دو فیلتر Materials و حذف ردیف خلاصه صفر بررسی استاتیک شدند.
 - **تست iPhone Safari:** not tested؛ باید تعداد صفحات در print dialog، خروجی واقعی A4 و باقی‌ماندن ردیف‌های Material غیرصفر بررسی شوند.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
 
