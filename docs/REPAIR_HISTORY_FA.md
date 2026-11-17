@@ -140,7 +140,7 @@
 
 ### PDF-LAYOUT-001 — اصلاح چیدمان چاپ گزارش مالی برای A4 و موبایل
 
-- **وضعیت فعلی پس از R24:** صفحه گزارش فقط یک دکمه زرد Print Preview دارد؛ Generate & Save Report از این صفحه حذف شده است. لمس Print Preview فقط PDF را تولید و preview تمام‌صفحه را باز می‌کند. در صفحه preview فقط Back و Print وجود دارد؛ فرمان چاپ صرفاً با لمس Print اجرا می‌شود. `Fixed — awaiting verification`؛ نمایش و print dialog باید در iPhone Safari تأیید شود. فقط گزارش اصلی Accounting Financial Report به موتور جدید متصل شده است. فاکتور، قرارداد، رسید و گزارش پروژه هنوز از مسیرهای قبلی استفاده می‌کنند. تأیید بصری و تست واقعی iPhone Safari انجام نشده است.
+- **وضعیت فعلی پس از R25:** PDF اصلی همچنان با اندازه A4 عمودی تولید می‌شود؛ نمایشگر داخل برنامه با PDF.js صفحات را به عرض قابل‌استفاده موبایل fit می‌کند. Canvas فقط برای نمایش است و دکمه Print همچنان از PDF اصلی استفاده می‌کند. در صفحه preview فقط Back و Print باقی می‌مانند. `Fixed — awaiting verification`؛ fit عرض باید در iPhone Safari و چاپ A4 باید روی دستگاه واقعی تأیید شود. فقط گزارش اصلی Accounting Financial Report به این موتور متصل است؛ فاکتور، قرارداد، رسید و گزارش پروژه همچنان مسیرهای قبلی را دارند.
 
 - **وضعیت:** تغییرات source-level در Preview R15 ثبت شده؛ live browser rendering و تأیید بصری Safari در سابقه آن pending بوده است.
 - **تاریخ:** 2026-11-16
@@ -201,6 +201,21 @@
 - **PR / Gate / Pages:** pending.
 - **Safari:** not tested؛ نیازمند بررسی اینکه Print Preview بدون چاپ خودکار PDF را باز کند و Print رابط چاپ سیستم را نمایش دهد.
 - **Production:** بدون تغییر؛ ارتقا مجاز نشده است.
+
+### بازنگری راه‌حل R6 — نمایش PDF متناسب با عرض موبایل با PDF.js
+
+- **تاریخ:** 2026-11-17
+- **نوع تغییر:** تکمیلی / اصلاح لایه نمایش PDF
+- **علائم مشاهده‌شده:** در iPhone Safari محتوای گزارش داخل preview از عرض صفحه بزرگ‌تر بود و ستون‌ها/عنوان‌های سمت چپ بریده می‌شدند؛ تنظیم CSS عرض iframe به‌تنهایی نمایشگر داخلی PDF Safari را کنترل نمی‌کرد.
+- **شواهد علت:** موتور R24 فایل PDF را داخل iframe بومی Safari نشان می‌داد و به fragmentهای zoom برای درخواست fit تکیه داشت. viewer داخلی PDF مستقل از CSS والد رندر می‌شود؛ تصویر ارسالی کاربر نشان می‌دهد fit واقعی عرض انجام نشده است.
+- **راه‌حل R6:** استفاده از PDF.js نسخه 3.11.174 برای رندر هر صفحه PDF روی Canvas با مقیاس محاسبه‌شده از عرض واقعی viewer؛ پشتیبانی از تغییر عرض/چرخش دستگاه با ResizeObserver؛ محدودکردن output scale به حداکثر 1.5 برای کنترل مصرف حافظه iPhone. PDF اصلی تولیدشده و A4 portrait تغییر نمی‌کند؛ Canvas فقط لایه نمایش است. iframe پنهان برای حفظ مسیر فعلی Print از روی PDF اصلی باقی می‌ماند. فقط دو کنترل Back و Print نمایش داده می‌شوند.
+- **فایل‌ها:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html` و `tha-print-engine.js`، `VERSION-AUTHORITY.json` و همین دو سند تعمیر.
+- **Build ID هدف:** `THA-273-R11-PREVIEW-20261117-R25`
+- **PR:** #63 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/63 ؛ development commit و merge commit پس از تکمیل workflow ثبت می‌شوند.
+- **تست‌های کد:** V8 syntax parse برای موتور و هر 25 بلوک inline JavaScript موفق؛ هر 22 SHA در manifest با درخت Git شاخه development تطبیق دارد؛ PR فقط پنج فایل مجاز را تغییر می‌دهد. Version Authority Gate هنوز pending است.
+- **تست iPhone Safari:** not tested؛ باید fit عرض، اسکرول عمودی صفحات، چاپ واقعی A4 و Back بررسی شوند.
+- **محدودیت:** کیفیت PDF چاپی از Canvas preview گرفته نمی‌شود؛ چاپ باید از PDF blob اصلی انجام شود. عملکرد iframe پنهان برای print در Safari هنوز نیازمند تست واقعی است.
+- **Production:** هیچ تغییری انجام نشده؛ ارتقا مجاز نیست.
 
 ## 6. کیفیت و نگهداری دفترچه
 
