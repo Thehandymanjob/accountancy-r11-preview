@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261117-R31",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R31",
-    "indexBlobSha": "4580e5a889b254ade30cea6bb2edfc8c18788a82",
+    "buildId": "THA-273-R11-PREVIEW-20261118-R32",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R32",
+    "indexBlobSha": "cf23d460bb7c91bff89e7e39ca04be002c84ba48",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,9 +30,9 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "4580e5a889b254ade30cea6bb2edfc8c18788a82",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "cf23d460bb7c91bff89e7e39ca04be002c84ba48",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "4b41776ed9dfcd4112d9d67164679caba1ab0af0"
+      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7"
     }
   },
   "rules": {
@@ -1452,6 +1452,32 @@
       "productionPullRequestUrl": "not applicable",
       "productionCommitSha": "not applicable",
       "embeddedPreviewBuildTimestamp": "2026-11-17T21:18:52.156Z"
+    },
+    {
+      "changeId": "THA-2026-11-18-PREVIEW-R32-PDF-PAGE-FRAGMENTATION-001",
+      "dateStarted": "2026-11-18",
+      "purpose": "Fix the user-reported PDF pagination defect where category heading 4 appeared at the bottom of a page while its table started on the next page. Root cause: printReport() set break-inside:auto on .uc-group/.uc-summary and PrintEngine pagebreak avoidance did not include whole section wrappers.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js",
+        "VERSION-AUTHORITY.json"
+      ],
+      "sourceBuild": "THA-273-R11-MAIN-20261117-R8",
+      "previewBuild": "THA-273-R11-PREVIEW-20261118-R32",
+      "changes": [
+        "Set .uc-group and .uc-summary break-inside/page-break-inside to avoid, so each compact category block moves intact to the next page if it cannot fit in remaining space.",
+        "Extend html2pdf pagebreak avoid selectors to include .uc-group and .uc-summary wrappers and their headings, while preserving row-level avoidance.",
+        "Keep .uc-details pageable by individual rows so long expense-detail sections continue over multiple pages.",
+        "Preserve A4 portrait, 185mm centered capture width, [8,0,8,0] PDF margins, typography, data, and IndexedDB."
+      ],
+      "validation": {
+        "sourceReview": "PASS",
+        "previewGate": "pending",
+        "previewPages": "pending",
+        "userSafariTest": "pending"
+      },
+      "approvalStatus": "awaiting user Preview R32 test; not approved for Production",
+      "productionPromotion": "not authorized"
     }
   ],
   "history": [
