@@ -56,6 +56,7 @@
       "productionProtectedBranch": "main"
     },
     "workflow": [
+      "Before any troubleshooting, bug investigation, diagnosis, code change, or repair, read docs/REPAIR_INDEX_FA.md and the complete docs/REPAIR_HISTORY_FA.md from this repository's development branch. Search by symptom and category, compare the current evidence with the recorded root cause, and reuse a prior fix only after confirming the same root cause. Do not blindly apply a similar-looking fix. If no confirmed match exists, diagnose normally and, after verification, add a new categorized repair record and update the index in the same Preview development change set.",
       "Before every change, read VERSION-AUTHORITY.json from main in BOTH Preview and Production repositories.",
       "Identify the exact target using repository, branch, app path, version, Build ID, canonical URL, index blob SHA, approved baseline commit, and every pinned runtime dependency SHA. Never select a build by version number or chat history alone.",
       "Fetch and verify the app index and every pinned runtime dependency against the manifest in BOTH repositories. Confirm the repository, branch, Build ID, canonical URL, and approved baseline ancestry. Stop on any mismatch, missing file, or ambiguity.",
@@ -904,6 +905,47 @@
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
       "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-17-REPAIR-HISTORY-SYSTEM-001",
+      "dateStarted": "2026-11-17",
+      "purpose": "Establish a categorized permanent repair-history register and make pre-repair lookup mandatory in the Preview Version Authority operating procedure.",
+      "changedFiles": [
+        "docs/REPAIR_INDEX_FA.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "eb3b3165e52e305946cb5118777113ae2d081fca",
+      "previewPullRequestNumber": 46,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/46",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 44146233283,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44146233283",
+        "details": "The R11 Version Authority Gate completed successfully for PR #46 head eb3b3165e52e305946cb5118777113ae2d081fca."
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "Version Authority Gate validated the authority JSON and all pinned R11 runtime assets. Diff contains only the repair index, repair history and Authority metadata; no runtime files changed."
+      },
+      "previewPagesDeployment": {
+        "result": "not applicable",
+        "runId": "not applicable",
+        "url": "not applicable",
+        "details": "Documentation and Authority-only change; no GitHub Pages app assets or runtime files changed."
+      },
+      "userSafariTest": {
+        "result": "not applicable",
+        "details": "No application runtime changes."
+      },
+      "userApproval": {
+        "result": "authorized for Preview documentation and Authority update",
+        "details": "User requested a permanent repair history and mandatory Authority lookup rule."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
     }
   ],
   "history": [
@@ -1699,5 +1741,19 @@
       "productionPullRequestUrl": "not applicable",
       "productionCommitSha": "not applicable"
     }
-  ]
+  ],
+  "repairHistoryPolicy": {
+    "requiredBeforeEveryRepair": true,
+    "indexPath": "docs/REPAIR_INDEX_FA.md",
+    "fullHistoryPath": "docs/REPAIR_HISTORY_FA.md",
+    "lookupRule": "Search by category and symptom before diagnosis or code changes; compare root-cause evidence and environment.",
+    "reuseRule": "Reuse a historical fix only when the same root cause is independently confirmed. Similar symptoms alone are insufficient.",
+    "newRepairRule": "After a repair is verified, append a unique categorized case with symptoms, environment/build, root cause, diagnostic evidence, exact fix, changed files, rejected approaches, test evidence, deployment status and user verification. Update the index in the same Preview development change set.",
+    "evidenceRule": "Never label a repair Verified, deployed, or Safari-tested without direct evidence. Keep pending and not-tested states explicit.",
+    "workflow": "Preview development only, then PR to Preview main; no Production promotion without separate explicit user approval.",
+    "initialFiles": [
+      "docs/REPAIR_INDEX_FA.md",
+      "docs/REPAIR_HISTORY_FA.md"
+    ]
+  }
 }
