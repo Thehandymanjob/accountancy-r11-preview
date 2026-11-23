@@ -12,6 +12,7 @@
 | PDF preview می‌گوید iframe در دسترس نیست | [PDF-PREVIEW-001](./REPAIR_HISTORY_FA.md#pdf-preview-001--ساختار-closing-script-در-html-پیشنمایش-pdf) | HTML popup و closing script tag |
 | تولید PDF در iPhone Safari متوقف یا ناپایدار است | [PERF-PDF-001](./REPAIR_HISTORY_FA.md#perf-pdf-001--فشار-حافظه-در-مسیر-تولید-pdf-در-iphone-safari) | canvas scale، capture height و حجم DOM |
 | PDF گزارش مالی روی A4 از چپ و راست در مرکز نیست، برش می‌خورد یا صفحه‌بندی/چاپ مشکل دارد | [PDF-LAYOUT-001](./REPAIR_HISTORY_FA.md#pdf-layout-001--اصلاح-چیدمان-چاپ-گزارش-مالی-برای-a4-و-موبایل) | R8: Share Sheet و block-flow؛ R9: margins 12.5mm؛ R10: حاشیه PDF صفر و مرکزکردن captureRoot با عرض 185mm |
+| عنوان بخش‌ها یا جدول‌ها در PDF گزارش کامل پروژه از محتوای مربوط جدا می‌شود | [PRJ-PDF-001](./REPAIR_HISTORY_FA.md#prj-pdf-001--صفحه‌بندی-گزارش-کامل-پروژه-و-جلوگیری-از-جداافتادن-عنوان-بخشها) | صفحه‌بندی مستقل html2pdf در Project Workspace؛ h3/h4، خلاصه بخش، thead و ردیف‌های جدول |
 
 ## قاعده نگهداری بدون تکرار
 
