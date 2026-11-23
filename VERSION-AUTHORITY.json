@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261117-R33",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R33",
-    "indexBlobSha": "967444e41d5e31901242e280fb2b4741bb1c5b99",
+    "buildId": "THA-273-R11-PREVIEW-20261123-R34",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R34",
+    "indexBlobSha": "97dc485209ae39cccacd0a6272435dad2db9d5f1",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "967444e41d5e31901242e280fb2b4741bb1c5b99",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "97dc485209ae39cccacd0a6272435dad2db9d5f1",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7"
     }
@@ -1517,24 +1517,24 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "pending",
+      "previewDevelopmentCommitSha": "fd8b2abd6f5313ed8a184fea6d935d78c14a574a",
       "previewPullRequestNumber": 80,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/80",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "70e67925f8c617e1bd50f97a2f360c15ed97830f",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 44199397048,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44199397048"
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Revision 1 synchronized the recovery script SHA. The next Gate then exposed a second stale SHA for the Preview index.html, whose cache-key change was also in the PR. The indexBlobSha and corresponding runtime asset pin are now being synchronized to the exact Git blob SHA. Gate must be rerun."
+        "result": "PASS",
+        "details": "R11 Version Authority Gate passed on PR head and post-merge main; repository, R11 identity, approved baseline and all 22 SHA-pinned runtime assets verified."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting Preview PR merge and successful Pages deployment."
+        "result": "PASS",
+        "runId": 44199570482,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/44199570482",
+        "details": "GitHub Pages build, deploy and report-build-status jobs completed successfully for Preview main merge commit 70e67925f8c617e1bd50f97a2f360c15ed97830f."
       },
       "userSafariTest": {
         "result": "not tested",
@@ -1547,6 +1547,47 @@
       "productionPromotionStatus": "pending",
       "productionPullRequestUrl": "pending",
       "productionCommitSha": "pending"
+    },
+    {
+      "changeId": "THA-2026-11-23-PRJ-PDF-PAGINATION-001",
+      "dateStarted": "2026-11-23",
+      "purpose": "Improve Full Project Report PDF pagination: keep project/sub-project section headings with their summaries, keep subsection headings with the following tables, repeat table headers where supported, and prevent individual rows from splitting. Preview only.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "d844f28d6dbbbde55fe784b4f70ce252ba334dc0",
+      "previewPullRequestNumber": 81,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/81",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Pending V8 parsing, exact diff review, 22-file Version Authority Gate and source-level pagination assertions."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting Preview PR merge and successful Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user iPhone Safari verification with a full project containing enough records to span multiple pages."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User directed continuation of the Preview-only repair. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
     }
   ],
   "history": [
