@@ -355,3 +355,22 @@
 - **وضعیت کاربر:** کاربر ادامه اصلاح Preview را مجاز کرده است؛ تأیید انتقال به Production صادر نشده است.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
 
+
+
+### PRJ-PDF-001 — صفحه‌بندی گزارش کامل پروژه و جلوگیری از جداافتادن عنوان بخش‌ها
+
+- **شناسه / تاریخ:** PRJ-PDF-001 / 2026-11-23
+- **وضعیت فعلی:** Fixed — awaiting verification
+- **محیط:** Preview repository؛ برنامه 273 / R11؛ Build ID هدف `THA-273-R11-PREVIEW-20261123-R34`؛ iPhone Safari هنوز آزمایش نشده است.
+- **علائم:** در PDF گزارش کامل پروژه، هنگام عبور محتوای پروژه و زیرپروژه‌ها از مرز صفحه ممکن است عنوان بخش از خلاصه همان بخش یا عنوان جدول از جدول بعدی جدا شود؛ همچنین رفتار سربرگ جدول در صفحات ادامه‌دار باید بررسی شود.
+- **علت ریشه‌ای تأییدشده در سورس:** تولید PDF این گزارش از `prRunSubReportPrint()` و `html2pdf` مستقل از موتور مرکزی گزارش مالی استفاده می‌کند. گزینه `pagebreak.avoid` فقط header، project، KPI، result، ردیف‌ها و footer را هدف گرفته بود و برای `.sfr-breakdown h3`، `.sfr-breakdown h4` و پاراگراف خلاصه بعد از عنوان، قاعده‌ای نداشت. CSS موجود نیز عنوان‌های بخش را به عنصر بعدی متصل نمی‌کرد و برای `thead` گروه سربرگ چاپی تعریف نشده بود.
+- **روش تشخیص:** بررسی تابع `prPrintFullProjectReport()`، ساختار HTML هر `.sfr-breakdown` و گزینه‌های html2pdf در `prRunSubReportPrint()` در شاخه development؛ هر بخش به‌ترتیب شامل h3، پاراگراف خلاصه، جدول درآمد، جدول هزینه و گاهی بلوک تقسیم سود است.
+- **راه‌حل R1:** افزودن CSS مستقل و self-contained زیر `.sfr-report` تا هنگام clone شدن گزارش توسط html2pdf همچنان اعمال شود؛ جلوگیری از شکستن عنوان‌های h3/h4 و پاراگراف خلاصه، اتصال عنوان به محتوای بعدی با `break-after: avoid-page`، اجازه ادامه جدول در صفحه بعد، تعریف `thead`/ `tfoot` به‌صورت table header/footer group و جلوگیری از شکستن ردیف‌های منفرد. فهرست `pagebreak.avoid` نیز برای همین اجزا تکمیل شد. هیچ داده مالی، رکورد IndexedDB، محاسبه مجموع یا قاعده انتخاب هزینه تغییر نکرد.
+- **فایل‌های تغییرکرده:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`، `VERSION-AUTHORITY.json`، همین دفترچه و `docs/REPAIR_INDEX_FA.md`.
+- **Build ID / URL:** `THA-273-R11-PREVIEW-20261123-R34` / https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R34
+- **Commit توسعه HTML:** `d844f28d6dbbbde55fe784b4f70ce252ba334dc0`؛ Authority commit: `204743a2e5ea970814a34fc2243b07bca50d2a21`.
+- **PR / Merge / Gate / Pages:** در انتظار ایجاد PR و اجرای کنترل‌های اجباری؛ تا دریافت نتیجه واقعی هیچ‌کدام PASS یا منتشرشده محسوب نمی‌شوند.
+- **Static checks:** هنوز در حال تکمیل؛ V8 parsing و بررسی diff نهایی باید انجام شوند.
+- **تست iPhone Safari:** not tested؛ معیار پذیرش: با داده واقعی و چندین زیرپروژه، عنوان هر بخش همراه خلاصه‌اش بماند، عنوان Income and receipts و Individual cost records از جدول مربوط جدا نشود، ردیف‌ها نشکنند، سربرگ جدول در ادامه صفحات تکرار شود و تمام مبالغ/صفحات حفظ شوند.
+- **Production:** بدون تغییر؛ ارتقا مجاز نیست.
+- **ارتباط با موارد قبلی:** مستقل از `PDF-LAYOUT-001` گزارش مالی Accounting؛ این پرونده مربوط به مسیر جداگانه Full Project Report در Project Workspace است.
