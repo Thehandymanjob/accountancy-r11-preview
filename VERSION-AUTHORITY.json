@@ -1561,21 +1561,21 @@
       "previewDevelopmentCommitSha": "d844f28d6dbbbde55fe784b4f70ce252ba334dc0",
       "previewPullRequestNumber": 81,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/81",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "671f2fe82c17b3dc53591920db60d78b9e38dafe",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 45283776519,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45283776519"
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Pending V8 parsing, exact diff review, 22-file Version Authority Gate and source-level pagination assertions."
+        "result": "PASS WITH LIMITATIONS",
+        "details": "The R11 Version Authority Gate passed on the PR and Preview main, validating repository, branch, approved baseline, R34 app identity, canonical URL and all 22 pinned runtime assets. Manual source review confirms the Full Project Report page-break selectors and configuration. No live browser PDF render or iPhone Safari visual test has been run."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting Preview PR merge and successful Pages deployment."
+        "result": "PASS",
+        "runId": 45283776325,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45283776325",
+        "details": "GitHub Pages build, report-build-status and deploy jobs completed successfully for Preview main merge commit 671f2fe82c17b3dc53591920db60d78b9e38dafe."
       },
       "userSafariTest": {
         "result": "not tested",
