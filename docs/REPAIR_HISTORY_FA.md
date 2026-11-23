@@ -369,8 +369,10 @@
 - **فایل‌های تغییرکرده:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`، `VERSION-AUTHORITY.json`، همین دفترچه و `docs/REPAIR_INDEX_FA.md`.
 - **Build ID / URL:** `THA-273-R11-PREVIEW-20261123-R34` / https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R34
 - **Commit توسعه HTML:** `d844f28d6dbbbde55fe784b4f70ce252ba334dc0`؛ Authority commit: `204743a2e5ea970814a34fc2243b07bca50d2a21`.
-- **PR / Merge / Gate / Pages:** در انتظار ایجاد PR و اجرای کنترل‌های اجباری؛ تا دریافت نتیجه واقعی هیچ‌کدام PASS یا منتشرشده محسوب نمی‌شوند.
-- **Static checks:** هنوز در حال تکمیل؛ V8 parsing و بررسی diff نهایی باید انجام شوند.
+- **PR:** #81 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/81 ؛ **Merge commit:** `671f2fe82c17b3dc53591920db60d78b9e38dafe`.
+- **Version Authority Gate:** PASS در PR run `45283620039` و main run `45283776519` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45283776519.
+- **Preview Pages:** PASS؛ build، report-build-status و deploy در run `45283776325` کامل شدند — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45283776325.
+- **Static checks:** Gate تمام 22 فایل pinشده را تأیید کرد؛ Build ID، URL، index SHA و dependency pins بررسی شدند. بررسی source-level گزینه‌های pagebreak و CSS انجام شد. اجرای زنده مرورگر و PDF واقعی انجام نشده است.
 - **تست iPhone Safari:** not tested؛ معیار پذیرش: با داده واقعی و چندین زیرپروژه، عنوان هر بخش همراه خلاصه‌اش بماند، عنوان Income and receipts و Individual cost records از جدول مربوط جدا نشود، ردیف‌ها نشکنند، سربرگ جدول در ادامه صفحات تکرار شود و تمام مبالغ/صفحات حفظ شوند.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
 - **ارتباط با موارد قبلی:** مستقل از `PDF-LAYOUT-001` گزارش مالی Accounting؛ این پرونده مربوط به مسیر جداگانه Full Project Report در Project Workspace است.
