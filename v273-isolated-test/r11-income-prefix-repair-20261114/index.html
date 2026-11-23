@@ -963,6 +963,35 @@ body.pr-report-preview-open{overflow:hidden!important;position:relative!importan
 @media(max-width:420px){#r11TestVersionBanner{gap:4px;padding:7px 6px 6px;font-size:12px}#r11TestVersionBanner .r11-test-title{gap:6px}#r11TestVersionBanner .r11-test-en{font-size:10px}#r11TestVersionBanner .r11-test-updated{font-size:10px}}
 @media print{#r11TestVersionBanner{display:none!important}}
 </style>
+
+<style id="r11-project-report-pagination-fix">
+/* Keep project section labels and their immediate summaries with the content that follows. */
+#prPrintReportOverlay .sfr-report .sfr-breakdown h3,
+#prPrintReportOverlay .sfr-report .sfr-breakdown h4{
+ break-after:avoid!important;page-break-after:avoid!important;
+}
+#prPrintReportOverlay .sfr-report .sfr-breakdown h3 + p{
+ break-inside:avoid!important;page-break-inside:avoid!important;
+}
+#prPrintReportOverlay .sfr-report .sfr-breakdown table{
+ page-break-inside:auto!important;break-inside:auto!important;
+}
+#prPrintReportOverlay .sfr-report .sfr-breakdown thead{
+ display:table-header-group!important;
+}
+#prPrintReportOverlay .sfr-report .sfr-breakdown tfoot{
+ display:table-footer-group!important;
+}
+#prPrintReportOverlay .sfr-report .sfr-breakdown tr{
+ break-inside:avoid!important;page-break-inside:avoid!important;
+}
+@media print{
+ #prPrintReportOverlay .sfr-report .sfr-breakdown h3,
+ #prPrintReportOverlay .sfr-report .sfr-breakdown h4{break-after:avoid-page!important;page-break-after:avoid!important}
+ #prPrintReportOverlay .sfr-report .sfr-breakdown thead{display:table-header-group!important}
+ #prPrintReportOverlay .sfr-report .sfr-breakdown tr{break-inside:avoid!important;page-break-inside:avoid!important}
+}
+</style>
 </head>
 <body><div id="r11TestVersionBanner" role="status" aria-label="نسخه آزمایشی؛ این نسخه برنامه اصلی نیست"><div class="r11-test-title"><span class="r11-test-fa" lang="fa" dir="rtl">نسخه آزمایشی</span><span aria-hidden="true">|</span><span class="r11-test-en">TEST VERSION — NOT PRODUCTION</span></div><span id="r11TestLastUpdated" class="r11-test-updated" lang="fa" dir="rtl">آخرین به‌روزرسانی: در حال دریافت…</span></div><section id="appLauncher" aria-label="Main menu"><div class="launcher-inner"><div class="launcher-brand"><img id="launcherBusinessLogo" class="launcher-logo" alt="Your business logo" hidden><h1 id="launcherName">The Handyman Accountancy</h1><p>Accounting and project management</p></div><div class="launcher-actions"><button class="launcher-action primary" onclick="openAccountancy()"><span class="launch-icon">🧾</span><span><strong>Accountancy</strong><small>Income, expenses, invoices and reports</small></span><span class="launch-arrow">›</span></button><button class="launcher-action" onclick="openProjectsApp()"><span class="launch-icon">💼</span><span><strong>Business Workspace</strong><small>Projects, Company Contracts &amp; Jobs, and Control Panel</small></span><span class="launch-arrow">›</span></button><button class="launcher-action" onclick="openContractsApp()"><span class="launch-icon">📝</span><span><strong>Contract Management</strong><small>Create, edit and manage contracts and quotations</small></span><span class="launch-arrow">›</span></button><button class="launcher-action" onclick="openSettingsHub()"><span class="launch-icon">⚙️</span><span><strong>Settings</strong><small>Backup, restore, profile and logo</small></span><span class="launch-arrow">›</span></button></div><div id="accountingStartupDiagnostic" role="alert" hidden style="margin:14px 0 0;padding:12px;border:1px solid #a52d39;border-radius:10px;background:#fdebec;color:#8d1e2a;font-size:13px;line-height:1.5;overflow-wrap:anywhere"></div><div class="launcher-foot">Your records stay on this device. Keep regular backups.</div></div></section>
 <script>
@@ -2425,7 +2454,7 @@ async function prRunSubReportPrint(){
    image:{type:'jpeg',quality:0.98},
    html2canvas:{scale:2,useCORS:true,backgroundColor:'#ffffff',logging:false,scrollX:0,scrollY:0,windowWidth:794,windowHeight:Math.max(node.scrollHeight,node.offsetHeight,1123)},
    jsPDF:{unit:'mm',format:'a4',orientation:'portrait'},
-   pagebreak:{mode:['css'],avoid:['.sfr-header','.sfr-project','.sfr-kpi','.sfr-result','.sfr-breakdown tr','.sfr-footer']}
+   pagebreak:{mode:['css'],avoid:['.sfr-header','.sfr-project','.sfr-kpi','.sfr-result','.sfr-breakdown h3','.sfr-breakdown h4','.sfr-breakdown h3 + p','.sfr-breakdown thead','.sfr-breakdown tr','.sfr-footer']}
   };
   // html2pdf clones the target node; the self-contained .sfr-report CSS above
   // ensures its sizing does not depend on the preview overlay ancestor.
