@@ -376,3 +376,19 @@
 - **تست iPhone Safari:** not tested؛ معیار پذیرش: با داده واقعی و چندین زیرپروژه، عنوان هر بخش همراه خلاصه‌اش بماند، عنوان Income and receipts و Individual cost records از جدول مربوط جدا نشود، ردیف‌ها نشکنند، سربرگ جدول در ادامه صفحات تکرار شود و تمام مبالغ/صفحات حفظ شوند.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
 - **ارتباط با موارد قبلی:** مستقل از `PDF-LAYOUT-001` گزارش مالی Accounting؛ این پرونده مربوط به مسیر جداگانه Full Project Report در Project Workspace است.
+
+
+### UI-SETTINGS-BACK-001 — بازگشت مستقیم از صفحه Settings به منوی اصلی
+
+- **شناسه / تاریخ:** UI-SETTINGS-BACK-001 / 2026-11-24
+- **وضعیت:** Fixed — awaiting verification
+- **علامت مشاهده‌شده:** ورود از منوی اصلی به Settings و ورود/بازگشت از هر یک از هشت گزینه Settings درست است؛ فقط دکمه Back خود صفحه Settings به‌جای منوی اصلی برنامه، صفحه Accountancy را باز می‌کند و کاربر مجبور به یک Back اضافی می‌شود.
+- **محیط:** Preview، مخزن `Thehandymanjob/accountancy-r11-preview`، شاخه دائمی `development`، برنامه 273 / R11؛ Build هدف `THA-273-R11-PREVIEW-20261124-R35`.
+- **علت ریشه‌ای تأییدشده در سورس:** در نگاشت `ACCOUNTING_PARENT` مقدار والد `settings` برابر `accountancyHome` بود. تابع `goBackOnePage()` از همین نگاشت برای تعیین مقصد دکمه Back استفاده می‌کند؛ بنابراین Settings به صفحه Accountancy برمی‌گشت.
+- **راه‌حل R1:** فقط مقدار والد `settings` از `accountancyHome` به `launcher` تغییر کرد. نگاشت والد هفت زیرصفحه قبلی حفظ شد و برای `languageSettings` نیز والد `settings` صریحاً اضافه شد؛ بنابراین هر هشت گزینه Backup، Language، Profile & Logo، Help، User Guide، Software Update، Monitor & Diagnostics و Factory Reset با Back به Settings برمی‌گردند. هیچ کد دیتابیس، داده، عملیات Backup/Restore یا منطق هشت دکمه تغییر نکرد.
+- **فایل‌های تغییرکرده:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`، `VERSION-AUTHORITY.json`، `docs/REPAIR_HISTORY_FA.md` و `docs/REPAIR_INDEX_FA.md`.
+- **Commit توسعه کد:** `19acfcfaccc67db4f8e31fc9d8f59df8803857b6`؛ PR #84 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/84؛ Gate و Pages pending هستند.
+- **تست استاتیک اولیه:** والد Settings به `launcher` تغییر کرد و والد `languageSettings` به `settings` اضافه شد؛ هفت نگاشت دیگر بدون تغییر هستند. آزمون source-level و Gate هنوز pending است.
+- **معیار پذیرش:** از منوی اصلی وارد Settings شو؛ Back باید مستقیم منوی اصلی را باز کند. سپس هر هشت گزینه را جداگانه باز کن؛ Back هرکدام باید به Settings برگردد. از Settings هیچ‌گاه نباید برای رسیدن به منوی اصلی وارد Accountancy شد.
+- **iPhone Safari:** not tested؛ منتظر تست کاربر پس از انتشار Preview.
+- **Production:** بدون تغییر؛ ارتقا مجاز نیست.
