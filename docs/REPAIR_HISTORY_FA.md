@@ -392,3 +392,19 @@
 - **معیار پذیرش:** از منوی اصلی وارد Settings شو؛ Back باید مستقیم منوی اصلی را باز کند. سپس هر هشت گزینه را جداگانه باز کن؛ Back هرکدام باید به Settings برگردد. از Settings هیچ‌گاه نباید برای رسیدن به منوی اصلی وارد Accountancy شد.
 - **iPhone Safari:** not tested؛ منتظر تست کاربر پس از انتشار Preview.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
+
+
+### UI-MONITOR-SCROLL-001 — باز شدن Monitor & Diagnostics از ابتدای صفحه
+
+- **شناسه / تاریخ:** UI-MONITOR-SCROLL-001 / 2026-11-24
+- **وضعیت:** Fixed in source — awaiting Gate, deployment and Safari verification
+- **علامت مشاهده‌شده:** با ورود به Monitor & Diagnostics، صفحه به‌جای نمایش عنوان و ابتدای محتوا، در موقعیت اسکرول پایین‌تری ظاهر می‌شود و کاربر باید دستی به بالای صفحه برگردد.
+- **محیط:** Preview، مخزن `Thehandymanjob/accountancy-r11-preview`، شاخه دائمی `development`، برنامه 273 / R11؛ Build هدف `THA-273-R11-PREVIEW-20261124-R36`.
+- **علت فنی در سورس:** تابع `show(id)` کلاس `monitor-view` را فعال و پنل `#monitor` را نمایش می‌دهد و سپس `renderMonitor()` را اجرا می‌کند، اما موقعیت اسکرول سند را بازنشانی نمی‌کند. در نتیجه scroll position قبلی سند می‌تواند هنگام نمایش Monitor باقی بماند.
+- **راه‌حل R1:** فقط در شاخه `id==='monitor'`، پس از اجرای `renderMonitor()` یک `requestAnimationFrame` زمان‌بندی می‌شود؛ callback ابتدا بررسی می‌کند که هنوز صفحه جاری Monitor است، سپس پنجره و `document.scrollingElement` را به مختصات بالای صفحه می‌برد. این کار پس از اعمال کلاس‌ها و نمایش پنل انجام می‌شود تا تغییر چیدمان صفحه نیز لحاظ شود. برای سایر صفحات هیچ scroll reset اضافه نشده است.
+- **فایل‌های تغییرکرده:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`، `VERSION-AUTHORITY.json`، `docs/REPAIR_HISTORY_FA.md` و `docs/REPAIR_INDEX_FA.md`.
+- **Commit توسعه کد:** `babe0669eb932fd6122b2ae1743ad937072be46c`؛ PR، Gate و Pages pending هستند.
+- **تست استاتیک:** وجود scroll reset فقط در مسیر Monitor باید تأیید شود؛ اجرای واقعی iPhone Safari هنوز انجام نشده است.
+- **معیار پذیرش:** از Settings وارد Monitor & Diagnostics شو؛ عنوان صفحه و ابتدای آن باید بدون اسکرول دستی دیده شود. اگر داخل Monitor به پایین اسکرول کرده و خارج شوی و دوباره وارد شوی، ورود مجدد باید از بالا باشد. اسکرول سایر صفحات نباید تغییر کند.
+- **iPhone Safari:** not tested؛ منتظر تست کاربر پس از انتشار Preview.
+- **Production:** بدون تغییر؛ ارتقا مجاز نیست.
