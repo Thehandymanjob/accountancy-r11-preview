@@ -6,6 +6,7 @@
 
 | اگر این مشکل را دیدی | ابتدا این مورد را باز کن | بررسی اولیه |
 |---|---|---|
+| ورود به Monitor & Diagnostics از پایین صفحه شروع می‌شود | [UI-MONITOR-SCROLL-001](./REPAIR_HISTORY_FA.md#ui-monitor-scroll-001--باز-شدن-monitor--diagnostics-از-ابتدای-صفحه) | پس از فعال‌شدن پنل و renderMonitor، در فریم بعدی scroll سند فقط برای Monitor به بالا بازنشانی شود |
 | دکمه Back در صفحه Settings به Accountancy برمی‌گردد، نه منوی اصلی | [UI-SETTINGS-BACK-001](./REPAIR_HISTORY_FA.md#ui-settings-back-001--بازگشت-مستقیم-از-صفحه-settings-به-منوی-اصلی) | نگاشت `ACCOUNTING_PARENT.settings` و تابع `goBackOnePage()`؛ والد باید `launcher` باشد و والد هر هشت زیرصفحه Settings از جمله `languageSettings` برابر `settings` باشد |
 | زمان Last Updated خالی است یا نمی‌آید | [DEP-TIME-001](./REPAIR_HISTORY_FA.md#dep-time-001--زمان-last-updated-به-دلیل-وابستگی-به-github-api-نمایش-داده-نمیشد) | سرویس embedded، منبع timestamp و اتصال بنر/Version Details؛ از API fetch شروع نکن |
 | بکاپ کامل Production در Preview پذیرفته نمی‌شود | [DATA-001](./REPAIR_HISTORY_FA.md#data-001--بازیابی-بکاپ-کامل-production-در-پایگاه-داده-جداگانه-preview) | منبع Production، مقصد مستقل Preview، SHA pin و restore handshake؛ کنترل مقصد را حذف نکن |
