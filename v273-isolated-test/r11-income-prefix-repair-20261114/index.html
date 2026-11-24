@@ -1248,7 +1248,7 @@ async function persist(){
 }
 async function flushAccountingWrites(){await accountingWriteTail;if(window.__thaAccountingSaveOk===false)throw new Error(window.__thaAccountingSaveError||'Accounting IndexedDB save failed.');return true}
 const ACCOUNTING_PAGE_TITLES={accountancyHome:'Accountancy',home:'Dashboard',entry:'Add Entry',records:'Records',invoices:'Invoices',customers:'Customers',report:'Reports',settings:'Settings',backup:'Backup & Restore',profileGuide:'Profile & Logo',helpHub:'Help',userGuide:'User Guide',softwareUpdate:'Software Update',monitor:'Monitor & Diagnostics',factoryResetPage:'Factory Reset'};
-const ACCOUNTING_PARENT={accountancyHome:'launcher',home:'accountancyHome',entry:'accountancyHome',records:'accountancyHome',invoices:'accountancyHome',customers:'accountancyHome',report:'accountancyHome',settings:'launcher',backup:'settings',profileGuide:'settings',helpHub:'settings',userGuide:'settings',softwareUpdate:'settings',monitor:'settings',factoryResetPage:'settings'};
+const ACCOUNTING_PARENT={accountancyHome:'launcher',home:'accountancyHome',entry:'accountancyHome',records:'accountancyHome',invoices:'accountancyHome',customers:'accountancyHome',report:'accountancyHome',settings:'launcher',backup:'settings',languageSettings:'settings',profileGuide:'settings',helpHub:'settings',userGuide:'settings',softwareUpdate:'settings',monitor:'settings',factoryResetPage:'settings'};
 let accountingPageStack=[]; let currentAccountingPage=null; let suppressAccountingHistory=false;
 function ensurePanelBackButton(id){
  const panel=$(id);if(!panel)return;
