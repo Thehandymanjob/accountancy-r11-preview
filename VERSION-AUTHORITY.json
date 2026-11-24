@@ -1641,23 +1641,23 @@
         "docs/REPAIR_INDEX_FA.md"
       ],
       "previewDevelopmentCommitSha": "babe0669eb932fd6122b2ae1743ad937072be46c",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
-      "previewMergeCommitSha": "pending",
+      "previewPullRequestNumber": 85,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/85",
+      "previewMergeCommitSha": "c199059ba907b84791f4a22f153ade7b0691e979",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 45498128544,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45498128544"
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Pending PR Gate and source assertions for monitor-only scroll reset after page activation."
+        "result": "PASS WITH LIMITATIONS",
+        "details": "R11 Version Authority Gate passed on PR and Preview main, validating repository, branch, approved baseline, R36 identity and all 22 pinned runtime assets. Source assertion confirmed Monitor-only scroll reset and guard. Live browser/iPhone Safari behavior has not been independently exercised."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Pending merge and GitHub Pages deployment."
+        "result": "PASS",
+        "runId": 45498207879,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45498207879",
+        "details": "GitHub Pages build, deploy and report-build-status jobs completed successfully for Preview main merge commit c199059ba907b84791f4a22f153ade7b0691e979."
       },
       "userSafariTest": {
         "result": "not tested",
