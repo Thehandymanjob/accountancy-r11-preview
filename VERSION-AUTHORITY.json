@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261124-R36",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R36",
-    "indexBlobSha": "9ebb8189b2bf9fbd37285ce58b31e0f7274b9dc4",
+    "buildId": "THA-273-R11-PREVIEW-20261124-R37",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R37",
+    "indexBlobSha": "207bd043d8fc688d95e09ce9f8df2683be4c8f7e",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "9ebb8189b2bf9fbd37285ce58b31e0f7274b9dc4",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "207bd043d8fc688d95e09ce9f8df2683be4c8f7e",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7"
     }
@@ -1666,6 +1666,47 @@
       "userApproval": {
         "result": "authorized for Preview only",
         "details": "User requested this additional Monitor & Diagnostics navigation correction. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-24-PREVIEW-AUTO-LAST-UPDATED-R37",
+      "dateStarted": "2026-11-24",
+      "purpose": "Replace the stale hard-coded Preview build timestamp with an automatic same-origin Last-Modified lookup. A single shared service feeds the Preview banner, Monitor Version Details and copied version details; unavailable metadata is reported explicitly instead of showing a stale date.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "54f8d8c20c56b3ea1bfdefc4129389122b2fd855",
+      "previewPullRequestNumber": "pending",
+      "previewPullRequestUrl": "pending",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Pending JavaScript syntax/source assertions, host Last-Modified response verification, and full Version Authority Gate for R37."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Pending merge and successful Preview Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting iPhone Safari verification that the banner, Monitor Version Details and Copy version details show the same current deployed-page timestamp."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User explicitly authorized automatic Last Updated correction in Preview; Production remains untouched pending separate approval."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
