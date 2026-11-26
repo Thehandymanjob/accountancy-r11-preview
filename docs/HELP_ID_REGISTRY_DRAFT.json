@@ -2465,8 +2465,25 @@
       "audit_ref": "INV-047",
       "element_id": null,
       "label": "Print Preview",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Prepare the current report for printing or saving as a PDF.",
+          "when": "Use after reviewing the report preview when you need a paper copy or PDF file.",
+          "how": "Select Print Preview. If available, choose whether to include the company or shop name, then use the browser's print dialog to print or save as PDF.",
+          "inputs": "The report content and selected reporting period are used. A printer or browser PDF option is needed for output.",
+          "result": "The app opens the report's print workflow so you can review and print or save it as a PDF.",
+          "notes": "Check the preview, date range, figures and page layout before printing. This action does not submit a report or tax return to HMRC."
+        },
+        "fa": {
+          "purpose": "آماده‌کردن گزارش فعلی برای چاپ یا ذخیره به‌صورت PDF.",
+          "when": "پس از بررسی پیش‌نمایش گزارش، وقتی به نسخه کاغذی یا فایل PDF نیاز دارید استفاده کنید.",
+          "how": "Print Preview را انتخاب کنید. در صورت وجود، مشخص کنید نام شرکت یا فروشگاه درج شود یا نه؛ سپس در پنجره چاپ مرورگر، چاپ یا ذخیره به‌صورت PDF را انتخاب کنید.",
+          "inputs": "محتوای گزارش و دوره انتخاب‌شده استفاده می‌شوند. برای خروجی، چاپگر یا گزینه PDF مرورگر لازم است.",
+          "result": "فرایند چاپ گزارش باز می‌شود تا بتوانید آن را بررسی، چاپ یا به‌صورت PDF ذخیره کنید.",
+          "notes": "پیش از چاپ، پیش‌نمایش، بازه تاریخ، ارقام و چیدمان صفحات را بررسی کنید. این گزینه گزارش یا اظهارنامه مالیاتی را به HMRC ارسال نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`printReport()`"
     },
     {
@@ -2474,8 +2491,25 @@
       "audit_ref": "INV-048",
       "element_id": null,
       "label": "Confirm records complete",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Confirm that all income and expenses for the selected reporting period have been entered.",
+          "when": "Use when you have checked your records and are satisfied that the selected period is complete.",
+          "how": "Review the selected period and its records, then select Confirm records complete.",
+          "inputs": "The selected reporting period is used. You should have entered and checked all relevant income and expense records.",
+          "result": "The app records your completion confirmation and schedules a reminder to review the records again after 10 days.",
+          "notes": "Only confirm after checking the records. This is an in-app tracking reminder, not an HMRC submission or an independent audit of your accounts."
+        },
+        "fa": {
+          "purpose": "تأیید اینکه تمام درآمدها و هزینه‌های دوره گزارش انتخاب‌شده ثبت شده‌اند.",
+          "when": "وقتی سوابق را بررسی کرده‌اید و مطمئن هستید دوره انتخاب‌شده کامل است، استفاده کنید.",
+          "how": "دوره انتخاب‌شده و سوابق آن را بررسی کنید و سپس Confirm records complete را بزنید.",
+          "inputs": "دوره گزارش انتخاب‌شده استفاده می‌شود. باید همه درآمدها و هزینه‌های مرتبط را وارد و بررسی کرده باشید.",
+          "result": "برنامه تأیید تکمیل را ثبت می‌کند و برای بررسی دوباره سوابق پس از ۱۰ روز یادآور تنظیم می‌کند.",
+          "notes": "فقط پس از بررسی سوابق تأیید کنید. این یادآوری داخلی برنامه است، نه ارسال اطلاعات به HMRC و نه حسابرسی مستقل."
+        }
+      },
       "handler_or_behavior": "`report188ConfirmComplete()`"
     },
     {
@@ -2483,8 +2517,25 @@
       "audit_ref": "INV-049",
       "element_id": null,
       "label": "Check reminders now",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Check now whether a records-review reminder is due.",
+          "when": "Use when you want to check the reminder status without waiting for the next scheduled reminder.",
+          "how": "Select Check reminders now in the record-completion area.",
+          "inputs": "The app checks the saved completion and reminder information for the current reporting period.",
+          "result": "The reminder status is checked and any due reminder is shown in the workflow status area.",
+          "notes": "This checks the app's local reminder information; it does not contact HMRC or your accountant."
+        },
+        "fa": {
+          "purpose": "بررسی فوری اینکه آیا زمان یادآوری بازبینی سوابق فرا رسیده است یا نه.",
+          "when": "وقتی می‌خواهید وضعیت یادآوری را بدون انتظار برای نوبت بعدی بررسی کنید، استفاده کنید.",
+          "how": "در بخش تکمیل سوابق، Check reminders now را انتخاب کنید.",
+          "inputs": "برنامه اطلاعات ذخیره‌شده تکمیل و یادآوری دوره گزارش فعلی را بررسی می‌کند.",
+          "result": "وضعیت یادآوری بررسی می‌شود و در بخش وضعیت فرایند نمایش داده می‌شود.",
+          "notes": "این گزینه فقط اطلاعات یادآوری محلی برنامه را بررسی می‌کند و با HMRC یا حسابدار تماس نمی‌گیرد."
+        }
+      },
       "handler_or_behavior": "`report188CheckDue()`"
     },
     {
@@ -2492,8 +2543,25 @@
       "audit_ref": "INV-054",
       "element_id": null,
       "label": "Confirm records complete for selected period",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Confirm that all income and expenses for the currently selected report period have been entered.",
+          "when": "Use after reviewing the report period and confirming that all relevant transactions for that period are recorded.",
+          "how": "In the selected report period, check the records and select Confirm records complete.",
+          "inputs": "The current report period and its saved completion status are used.",
+          "result": "The app records the confirmation for the selected period and schedules a review reminder after 10 days.",
+          "notes": "Confirm only when the period's records are complete. This does not submit a tax return or verify the figures independently."
+        },
+        "fa": {
+          "purpose": "تأیید اینکه تمام درآمدها و هزینه‌های دوره گزارش انتخاب‌شده فعلی ثبت شده‌اند.",
+          "when": "پس از بررسی دوره گزارش و اطمینان از ثبت همه تراکنش‌های مربوط به آن دوره استفاده کنید.",
+          "how": "در دوره گزارش انتخاب‌شده، سوابق را بررسی و Confirm records complete را انتخاب کنید.",
+          "inputs": "دوره گزارش فعلی و وضعیت ذخیره‌شده تکمیل آن استفاده می‌شوند.",
+          "result": "برنامه تأیید را برای دوره انتخاب‌شده ثبت و یادآوری بازبینی پس از ۱۰ روز تنظیم می‌کند.",
+          "notes": "فقط زمانی تأیید کنید که سوابق دوره کامل باشند. این کار اظهارنامه مالیاتی ارسال نمی‌کند و ارقام را مستقلاً راستی‌آزمایی نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`report188ConfirmComplete()`"
     },
     {
@@ -2501,8 +2569,25 @@
       "audit_ref": "INV-055",
       "element_id": null,
       "label": "Check reminders now",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Check immediately whether a records-review reminder is due for the selected report period.",
+          "when": "Use when you want to check reminder status for the selected period now.",
+          "how": "Select Check reminders now in the report's record-completion area.",
+          "inputs": "The selected report period and its stored reminder information are used.",
+          "result": "The app checks the reminder and displays the result in the workflow status area.",
+          "notes": "This is an in-app reminder check only; it does not contact HMRC or send a message."
+        },
+        "fa": {
+          "purpose": "بررسی فوری اینکه آیا برای دوره گزارش انتخاب‌شده یادآوری بازبینی سوابق سررسید شده است یا نه.",
+          "when": "وقتی می‌خواهید همین حالا وضعیت یادآوری دوره انتخاب‌شده را بررسی کنید، استفاده کنید.",
+          "how": "در بخش تکمیل سوابق گزارش، Check reminders now را انتخاب کنید.",
+          "inputs": "دوره گزارش انتخاب‌شده و اطلاعات ذخیره‌شده یادآوری استفاده می‌شوند.",
+          "result": "برنامه یادآوری را بررسی و نتیجه را در بخش وضعیت فرایند نمایش می‌دهد.",
+          "notes": "این فقط بررسی یادآوری داخلی برنامه است و با HMRC تماس نمی‌گیرد یا پیامی ارسال نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`report188CheckDue()`"
     },
     {
@@ -4182,8 +4267,8 @@
   ],
   "content_progress": {
     "completed_entries": 20,
-    "draft_entries": 18,
-    "pending_entries": 191,
-    "completion_scope": "Only entries with genuinely reviewed content in all eleven languages count as complete. Drafts contain only language versions actually written."
+    "draft_entries": 23,
+    "pending_entries": 186,
+    "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written."
   }
 }
