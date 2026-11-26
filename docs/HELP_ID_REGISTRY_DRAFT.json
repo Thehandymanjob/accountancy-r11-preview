@@ -4805,8 +4805,25 @@
       "audit_ref": "INV-148",
       "element_id": null,
       "label": "Edit",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Edit an existing accountancy record.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Open the selected record, check its date, type, amount, category and supporting details, then save the changes using the form’s save control.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Editing changes the existing record; verify the selected record before saving."
+        },
+        "fa": {
+          "purpose": "ویرایش یک رکورد موجود در حسابداری.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "رکورد موردنظر را باز کنید، تاریخ، نوع، مبلغ، دسته‌بندی و جزئیات آن را بررسی کنید و سپس تغییرات را با گزینه ذخیره فرم ثبت کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "ویرایش، همان رکورد قبلی را تغییر می‌دهد؛ پیش از ذخیره مطمئن شوید رکورد درستی را انتخاب کرده‌اید."
+        }
+      },
       "handler_or_behavior": "`editEntry(\\`"
     },
     {
@@ -4814,8 +4831,25 @@
       "audit_ref": "INV-149",
       "element_id": null,
       "label": "Delete",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Delete an accountancy record.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Use this only when the selected record is genuinely incorrect or should be removed. Check the confirmation prompt before proceeding.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "notes": "Deletion may be permanent. Export or back up important records first; do not use this to correct a record if editing is safer."
+        },
+        "fa": {
+          "purpose": "حذف یک رکورد حسابداری.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "فقط وقتی از این گزینه استفاده کنید که رکورد انتخاب‌شده واقعاً اشتباه است یا باید حذف شود. پیام تأیید را پیش از ادامه بررسی کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "notes": "حذف ممکن است دائمی باشد. ابتدا از اطلاعات مهم نسخه پشتیبان بگیرید؛ اگر ویرایش کافی است، حذف نکنید."
+        }
+      },
       "handler_or_behavior": "`deleteEntry(\\`"
     },
     {
@@ -4823,8 +4857,25 @@
       "audit_ref": "INV-150",
       "element_id": null,
       "label": "View",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open the invoice associated with a record.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select View on the relevant invoice-linked row to open its invoice details.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "This opens the related invoice; it is not the same as editing the underlying accounting entry."
+        },
+        "fa": {
+          "purpose": "باز کردن فاکتور مرتبط با یک رکورد.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در ردیف مربوط، گزینه View را انتخاب کنید تا جزئیات فاکتور باز شود.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "این گزینه فاکتور مرتبط را باز می‌کند و با ویرایش خودِ ثبت حسابداری یکسان نیست."
+        }
+      },
       "handler_or_behavior": "`viewRecordInvoice(\\`"
     },
     {
@@ -4832,8 +4883,25 @@
       "audit_ref": "INV-151",
       "element_id": null,
       "label": "View",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open the details of an accountancy entry.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select View on the required entry to inspect its saved information.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Review the date, type, amount and notes before making any separate edit."
+        },
+        "fa": {
+          "purpose": "مشاهده جزئیات یک ثبت حسابداری.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در ردیف موردنظر گزینه View را انتخاب کنید تا اطلاعات ذخیره‌شده نمایش داده شود.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "پیش از هر ویرایش جداگانه، تاریخ، نوع، مبلغ و یادداشت‌ها را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`viewRecordEntry(\\`"
     },
     {
@@ -4841,8 +4909,25 @@
       "audit_ref": "INV-154",
       "element_id": null,
       "label": "↥ Share PDF",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Share a report PDF using the device’s available sharing options.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Generate or open the report PDF first, then choose Share PDF and select an available destination in the system share sheet.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Sharing availability depends on the browser and device. Check the PDF before sending it."
+        },
+        "fa": {
+          "purpose": "اشتراک‌گذاری فایل PDF گزارش با امکانات دستگاه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "ابتدا PDF گزارش را ایجاد یا باز کنید، سپس Share PDF را بزنید و مقصد دلخواه را از فهرست اشتراک‌گذاری دستگاه انتخاب کنید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "امکانات اشتراک‌گذاری به مرورگر و دستگاه بستگی دارد. پیش از ارسال، فایل و گیرنده را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`shareReportPdf()`"
     },
     {
@@ -4850,8 +4935,25 @@
       "audit_ref": "INV-155",
       "element_id": "makePdf",
       "label": "Create PDF",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Create a PDF from the current report or document view.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Create PDF and wait for the PDF-generation process to finish.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Creating a PDF does not submit the report to HMRC or send it to another person."
+        },
+        "fa": {
+          "purpose": "ساخت فایل PDF از گزارش یا سند فعلی.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "گزینه Create PDF را انتخاب کنید و منتظر بمانید تا ساخت PDF کامل شود.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "ساخت PDF به معنی ارسال گزارش به HMRC یا ارسال آن برای شخص دیگری نیست."
+        }
+      },
       "handler_or_behavior": "`createPDF()`"
     },
     {
@@ -4859,8 +4961,25 @@
       "audit_ref": "INV-156",
       "element_id": "downloadPdf",
       "label": "Download PDF",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Download the generated PDF to your device.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Download PDF after the document has been generated, then check the browser’s download location.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Keep the downloaded file in a secure location; the download does not change the source record."
+        },
+        "fa": {
+          "purpose": "بارگیری PDF ساخته‌شده روی دستگاه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "پس از ایجاد سند، Download PDF را انتخاب کنید و محل ذخیره فایل را در مرورگر بررسی کنید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "فایل بارگیری‌شده را در محل امن نگهداری کنید؛ بارگیری، رکورد اصلی را تغییر نمی‌دهد."
+        }
+      },
       "handler_or_behavior": "`downloadPDF()`"
     },
     {
@@ -4868,8 +4987,25 @@
       "audit_ref": "INV-157",
       "element_id": "sharePdf",
       "label": "↗ Share PDF",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Share the generated PDF through the device share sheet.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Share PDF after generation and choose a supported app or destination.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "The available destinations depend on the device/browser. Review recipient and document contents before sharing."
+        },
+        "fa": {
+          "purpose": "اشتراک‌گذاری PDF ساخته‌شده از طریق امکانات دستگاه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "پس از تولید PDF، Share PDF را انتخاب کنید و یک برنامه یا مقصد پشتیبانی‌شده را برگزینید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "مقصدهای قابل استفاده به دستگاه و مرورگر بستگی دارند. پیش از ارسال، گیرنده و محتوای سند را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`sharePDF()`"
     },
     {
@@ -4877,8 +5013,25 @@
       "audit_ref": "INV-159",
       "element_id": null,
       "label": "Edit",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Edit a saved customer’s details.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Choose Edit beside the correct customer, update the required customer or contact fields, and save the changes.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Check that you selected the correct customer, especially where names are similar."
+        },
+        "fa": {
+          "purpose": "ویرایش اطلاعات مشتری ذخیره‌شده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در کنار مشتری درست گزینه Edit را انتخاب کنید، اطلاعات موردنیاز مشتری یا تماس را تغییر دهید و ذخیره کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "به‌ویژه اگر نام مشتریان مشابه است، پیش از ذخیره هویت مشتری را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`editCustomer(`"
     },
     {
@@ -4886,8 +5039,25 @@
       "audit_ref": "INV-160",
       "element_id": null,
       "label": "New invoice",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Start a new invoice for the selected customer.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Choose New invoice beside the customer and review the customer details carried into the invoice before completing it.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "This starts an invoice workflow; check the amount, description and payment status before saving or issuing."
+        },
+        "fa": {
+          "purpose": "شروع ساخت فاکتور جدید برای مشتری انتخاب‌شده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در کنار مشتری گزینه New invoice را بزنید و پیش از تکمیل فاکتور، اطلاعات منتقل‌شده مشتری را بررسی کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "این گزینه فقط روند ساخت فاکتور را آغاز می‌کند؛ مبلغ، شرح و وضعیت پرداخت را پیش از ذخیره یا صدور بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`newInvoiceForCustomer(`"
     },
     {
@@ -4895,8 +5065,25 @@
       "audit_ref": "INV-161",
       "element_id": null,
       "label": "Delete",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Delete a customer record.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Choose Delete only for the intended customer and read the confirmation prompt carefully.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "notes": "Deletion can affect access to the customer record. Check for linked invoices or work history and retain records required for accounting."
+        },
+        "fa": {
+          "purpose": "حذف رکورد یک مشتری.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "فقط برای مشتری موردنظر گزینه Delete را انتخاب کنید و پیام تأیید را با دقت بخوانید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "notes": "حذف ممکن است دسترسی به سوابق مشتری را تحت تأثیر قرار دهد. فاکتورها و سوابق کاری مرتبط و الزامات نگهداری اسناد را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`deleteCustomer(`"
     },
     {
@@ -4904,8 +5091,25 @@
       "audit_ref": "INV-163",
       "element_id": null,
       "label": "Open print view",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open the invoice print view.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Open print view to prepare the current invoice for printing or PDF output.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Check the customer, invoice number, line items, totals and page layout before printing."
+        },
+        "fa": {
+          "purpose": "باز کردن نمای چاپ فاکتور.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "گزینه Open print view را انتخاب کنید تا فاکتور برای چاپ یا تبدیل به PDF آماده شود.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "پیش از چاپ، مشتری، شماره فاکتور، اقلام، جمع مبالغ و چیدمان صفحات را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`openInvoicePrintView()`"
     },
     {
@@ -4913,8 +5117,25 @@
       "audit_ref": "INV-167",
       "element_id": null,
       "label": "↗ Share PDF",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Share the current invoice PDF.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Open or generate the invoice PDF, then choose Share PDF and select a destination offered by the device.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Sharing does not mark an invoice as paid. Confirm the recipient and payment status separately."
+        },
+        "fa": {
+          "purpose": "اشتراک‌گذاری PDF فاکتور فعلی.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "PDF فاکتور را باز یا تولید کنید، سپس Share PDF را انتخاب و مقصد را از فهرست دستگاه برگزینید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "اشتراک‌گذاری، وضعیت فاکتور را به Paid تغییر نمی‌دهد. وضعیت پرداخت را جداگانه بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`thaShareInvoicePdf()`"
     },
     {
@@ -4922,8 +5143,25 @@
       "audit_ref": "INV-168",
       "element_id": null,
       "label": "Mark unpaid",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Change an invoice status to unpaid.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Mark unpaid for the correct invoice and confirm the change if prompted.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Use this only when the invoice is not paid or a previous paid status was incorrect; check payment records first."
+        },
+        "fa": {
+          "purpose": "تغییر وضعیت فاکتور به پرداخت‌نشده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "برای فاکتور درست گزینه Mark unpaid را انتخاب کنید و در صورت نمایش، تغییر را تأیید کنید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "فقط وقتی استفاده کنید که فاکتور پرداخت نشده یا وضعیت Paid قبلی اشتباه بوده است؛ ابتدا سوابق پرداخت را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`markInvoiceUnpaid(`"
     },
     {
@@ -4931,8 +5169,25 @@
       "audit_ref": "INV-169",
       "element_id": null,
       "label": "Mark paid",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Record a payment against an invoice and mark it paid.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Mark paid only after confirming that the customer’s payment has actually been received; enter any requested payment details and confirm.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Do not mark an invoice paid based only on a promise or an issued invoice. Keep evidence of the receipt."
+        },
+        "fa": {
+          "purpose": "ثبت دریافت وجه برای فاکتور و تغییر وضعیت آن به پرداخت‌شده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "فقط پس از اطمینان از دریافت واقعی وجه مشتری، Mark paid را انتخاب کنید؛ جزئیات پرداخت درخواستی را وارد و تأیید کنید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "صرف وعده پرداخت یا صدور فاکتور دلیل پرداخت نیست. مدرک دریافت وجه را نگهداری کنید."
+        }
+      },
       "handler_or_behavior": "`recordInvoicePayment(`"
     },
     {
@@ -4940,8 +5195,25 @@
       "audit_ref": "INV-170",
       "element_id": null,
       "label": "View / PDF",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "View or create a printable PDF copy of an invoice.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select View / PDF on the intended invoice and inspect the resulting invoice view.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "A PDF copy is not proof of payment and does not itself change the invoice’s payment status."
+        },
+        "fa": {
+          "purpose": "مشاهده یا تهیه نسخه قابل چاپ PDF از فاکتور.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در فاکتور موردنظر View / PDF را انتخاب کنید و نمای ایجادشده را بررسی کنید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "نسخه PDF مدرک پرداخت نیست و به‌تنهایی وضعیت پرداخت فاکتور را تغییر نمی‌دهد."
+        }
+      },
       "handler_or_behavior": "`printInvoice(`"
     },
     {
@@ -4949,8 +5221,25 @@
       "audit_ref": "INV-171",
       "element_id": null,
       "label": "Edit",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Edit an existing invoice.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Open Edit for the correct invoice, review its customer, description, amounts and status, then save the intended changes.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Take care when changing an issued invoice; preserve a clear audit trail and follow your accounting process."
+        },
+        "fa": {
+          "purpose": "ویرایش فاکتور موجود.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "برای فاکتور درست Edit را باز کنید، مشتری، شرح، مبالغ و وضعیت را بررسی و تغییرات لازم را ذخیره کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "در تغییر فاکتور صادرشده دقت کنید؛ سوابق روشن نگه دارید و روال حسابداری خود را رعایت کنید."
+        }
+      },
       "handler_or_behavior": "`editInvoice(`"
     },
     {
@@ -4958,8 +5247,25 @@
       "audit_ref": "INV-172",
       "element_id": null,
       "label": "Delete",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Delete an invoice record.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Choose Delete for the intended invoice and read the confirmation prompt before proceeding.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "notes": "Invoice deletion is potentially destructive. Check whether the invoice has been issued or paid and retain records required by law or your accountant."
+        },
+        "fa": {
+          "purpose": "حذف رکورد فاکتور.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "برای فاکتور موردنظر Delete را انتخاب کنید و پیش از ادامه پیام تأیید را بخوانید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "notes": "حذف فاکتور عملیاتی حساس است. صادر یا پرداخت‌شدن آن و الزام نگهداری اسناد را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`deleteInvoice(`"
     },
     {
@@ -4967,8 +5273,25 @@
       "audit_ref": "INV-173",
       "element_id": null,
       "label": "Edit",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Edit a saved contractor’s details.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Choose Edit beside the contractor, update the available details and save the form.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Confirm the contractor identity before saving changes to avoid altering another person’s record."
+        },
+        "fa": {
+          "purpose": "ویرایش اطلاعات پیمانکار ذخیره‌شده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در کنار پیمانکار موردنظر Edit را انتخاب کنید، اطلاعات موجود را تغییر دهید و فرم را ذخیره کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "پیش از ذخیره، هویت پیمانکار را بررسی کنید تا اطلاعات فرد دیگری تغییر نکند."
+        }
+      },
       "handler_or_behavior": "`prEditContractor(`"
     },
     {
@@ -4976,8 +5299,25 @@
       "audit_ref": "INV-174",
       "element_id": null,
       "label": "Delete",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Delete a contractor record.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Choose Delete beside the intended contractor and review the confirmation prompt.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "notes": "Check whether the contractor is referenced by jobs, payments or historic records before deletion."
+        },
+        "fa": {
+          "purpose": "حذف رکورد پیمانکار.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در کنار پیمانکار موردنظر Delete را انتخاب کنید و پیام تأیید را بررسی کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "notes": "پیش از حذف، ارتباط پیمانکار با کارها، پرداخت‌ها و سوابق قبلی را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`prDeleteContractor(`"
     },
     {
@@ -4985,8 +5325,25 @@
       "audit_ref": "INV-175",
       "element_id": null,
       "label": "📎 ${coEsc(c.contractFile.name)}",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open an attachment stored against a company contract or record.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select the attachment name to open or download the associated file, depending on the device/browser.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Check the filename and contents before sharing. An attachment link does not alter the underlying contract."
+        },
+        "fa": {
+          "purpose": "باز کردن فایل پیوست‌شده به قرارداد یا رکورد شرکت.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "نام فایل پیوست را انتخاب کنید تا فایل مرتبط، بسته به مرورگر و دستگاه، باز یا بارگیری شود.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "پیش از اشتراک‌گذاری، نام و محتوای فایل را بررسی کنید. باز کردن پیوست، قرارداد اصلی را تغییر نمی‌دهد."
+        }
+      },
       "handler_or_behavior": "`coOpenAttachment(`"
     },
     {
@@ -4994,8 +5351,25 @@
       "audit_ref": "INV-176",
       "element_id": null,
       "label": "Edit",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Edit a company record.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Choose Edit for the intended company, review its details and save the changes.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Confirm the company identity before changing legal or contact details."
+        },
+        "fa": {
+          "purpose": "ویرایش اطلاعات یک شرکت.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "برای شرکت موردنظر Edit را انتخاب کنید، اطلاعات آن را بررسی و تغییر دهید و ذخیره کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "پیش از تغییر اطلاعات حقوقی یا تماس، هویت شرکت را تأیید کنید."
+        }
+      },
       "handler_or_behavior": "`coEditCompany(`"
     },
     {
@@ -5003,8 +5377,25 @@
       "audit_ref": "INV-177",
       "element_id": null,
       "label": "Open Jobs",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open the jobs associated with a company.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Choose Open Jobs to view the jobs linked to that company.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "This navigates to the company’s job list; it does not create or change a job."
+        },
+        "fa": {
+          "purpose": "باز کردن فهرست کارهای مرتبط با یک شرکت.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "گزینه Open Jobs را انتخاب کنید تا کارهای متصل به آن شرکت نمایش داده شوند.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "این گزینه فقط فهرست کارهای شرکت را باز می‌کند و کار جدیدی ایجاد یا ویرایش نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`coShowJobs(`"
     },
     {
@@ -5012,8 +5403,25 @@
       "audit_ref": "INV-178",
       "element_id": null,
       "label": "Deactivate",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Deactivate a company in the workspace.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Use Deactivate for the intended company and review the confirmation prompt.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "notes": "Deactivation is not the same as deleting historic job or payment records. Check the effect on future selection and existing work."
+        },
+        "fa": {
+          "purpose": "غیرفعال کردن یک شرکت در فضای کاری.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "برای شرکت موردنظر Deactivate را انتخاب کنید و پیام تأیید را بررسی کنید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "notes": "غیرفعال‌سازی با حذف سوابق کارها و پرداخت‌های قبلی یکسان نیست. اثر آن بر انتخاب‌های آینده و کارهای موجود را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`coDeleteCompany(`"
     },
     {
@@ -5021,8 +5429,25 @@
       "audit_ref": "INV-179",
       "element_id": null,
       "label": "Edit",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Edit a saved job.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Choose Edit beside the intended job, update its available details and save.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Check the company and job identity before saving, especially where several jobs have similar names."
+        },
+        "fa": {
+          "purpose": "ویرایش یک کار ذخیره‌شده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در کنار کار موردنظر Edit را انتخاب کنید، اطلاعات موجود را تغییر دهید و ذخیره کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "پیش از ذخیره، شرکت و کار درست را بررسی کنید؛ به‌ویژه اگر چند کار نام مشابه دارند."
+        }
+      },
       "handler_or_behavior": "`coEditJob(`"
     },
     {
@@ -5030,8 +5455,25 @@
       "audit_ref": "INV-180",
       "element_id": null,
       "label": "Work packages",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open the work packages belonging to a job.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Choose Work packages to review the packages associated with the selected job.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "This opens the package list; individual package records are managed separately."
+        },
+        "fa": {
+          "purpose": "باز کردن بسته‌های کاری مربوط به یک کار.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "گزینه Work packages را انتخاب کنید تا بسته‌های مرتبط با کار انتخاب‌شده نمایش داده شوند.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "این گزینه فهرست بسته‌ها را باز می‌کند؛ مدیریت هر بسته جداگانه انجام می‌شود."
+        }
+      },
       "handler_or_behavior": "`coShowPackages(`"
     },
     {
@@ -5039,8 +5481,25 @@
       "audit_ref": "INV-181",
       "element_id": null,
       "label": "Payments",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open the payment records for a job.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Choose Payments to review payment information associated with the selected job.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Compare entries with actual receipts and supporting evidence; a payment listing is not a bank reconciliation."
+        },
+        "fa": {
+          "purpose": "مشاهده سوابق پرداخت یک کار.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "گزینه Payments را انتخاب کنید تا اطلاعات پرداخت‌های مرتبط با کار نمایش داده شود.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "مبالغ را با دریافت‌های واقعی و مدارک پشتیبان تطبیق دهید؛ فهرست پرداخت به‌تنهایی تطبیق بانکی نیست."
+        }
+      },
       "handler_or_behavior": "`coShowPayments(`"
     },
     {
@@ -5048,8 +5507,25 @@
       "audit_ref": "INV-182",
       "element_id": null,
       "label": "📎",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open an attachment associated with a company job or record.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select the attachment icon on the correct row to open the linked file.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Verify the row and filename before opening or sharing the file."
+        },
+        "fa": {
+          "purpose": "باز کردن پیوست مربوط به شرکت یا کار.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "آیکون پیوست را در ردیف درست انتخاب کنید تا فایل مرتبط باز شود.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "پیش از باز کردن یا ارسال فایل، ردیف و نام فایل را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`coOpenAttachment(`"
     },
     {
@@ -5057,8 +5533,25 @@
       "audit_ref": "INV-183",
       "element_id": null,
       "label": "📎 ${coEsc(p.file.name)}",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open an attachment associated with a work package or its record.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select the attachment filename to view the stored file using the device/browser.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "The attachment is supporting material; opening it does not save changes to the package."
+        },
+        "fa": {
+          "purpose": "باز کردن پیوست مربوط به بسته کاری یا رکورد آن.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "نام فایل پیوست را انتخاب کنید تا فایل ذخیره‌شده در مرورگر یا دستگاه باز شود.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "پیوست مدرک پشتیبان است؛ باز کردن آن تغییرات بسته کاری را ذخیره نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`coOpenAttachment(`"
     },
     {
@@ -5066,8 +5559,25 @@
       "audit_ref": "INV-184",
       "element_id": null,
       "label": "Edit",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Edit a saved work package.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Choose Edit for the intended package, check its job association and details, then save the changes.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Make sure you are editing the correct package within the correct job."
+        },
+        "fa": {
+          "purpose": "ویرایش یک بسته کاری ذخیره‌شده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "برای بسته موردنظر Edit را انتخاب کنید، ارتباط آن با کار اصلی و جزئیات را بررسی و تغییرات را ذخیره کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "مطمئن شوید بسته درست را درون کار صحیح ویرایش می‌کنید."
+        }
+      },
       "handler_or_behavior": "`coEditSub(`"
     },
     {
@@ -5075,8 +5585,25 @@
       "audit_ref": "INV-185",
       "element_id": null,
       "label": "Financials",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "View the financial information for a work package.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Choose Financials to inspect the package’s recorded income, costs or related financial summary.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Treat displayed totals as workspace figures and check them against source records before relying on them."
+        },
+        "fa": {
+          "purpose": "مشاهده اطلاعات مالی یک بسته کاری.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "گزینه Financials را انتخاب کنید تا درآمدها، هزینه‌ها یا خلاصه مالی بسته نمایش داده شود.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "مبالغ نمایش‌داده‌شده را ارقام فضای کاری بدانید و پیش از اتکا با مدارک اصلی تطبیق دهید."
+        }
+      },
       "handler_or_behavior": "`coShowPackageFinance(`"
     },
     {
@@ -5084,8 +5611,25 @@
       "audit_ref": "INV-186",
       "element_id": null,
       "label": "Delete",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Delete a work package.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Choose Delete for the intended package and read the confirmation prompt.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "notes": "Deletion may remove access to package-level details. Check linked expenses, attachments and payment history first."
+        },
+        "fa": {
+          "purpose": "حذف یک بسته کاری.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "برای بسته موردنظر Delete را انتخاب کنید و پیام تأیید را بخوانید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "notes": "حذف ممکن است دسترسی به جزئیات بسته را از بین ببرد. هزینه‌ها، پیوست‌ها و سوابق پرداخت مرتبط را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`coDeleteSub(`"
     },
     {
@@ -5093,8 +5637,25 @@
       "audit_ref": "INV-187",
       "element_id": null,
       "label": "📎 ${coEsc(e.file.name)}",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open an attachment for a work-package expense.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select the attachment name on the expense row to view its supporting file.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Check that the attachment belongs to the selected expense before relying on it as evidence."
+        },
+        "fa": {
+          "purpose": "باز کردن پیوست هزینه ثبت‌شده برای بسته کاری.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "نام پیوست را در ردیف هزینه انتخاب کنید تا فایل پشتیبان باز شود.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "پیش از استناد به فایل به‌عنوان مدرک، مطمئن شوید متعلق به همان هزینه است."
+        }
+      },
       "handler_or_behavior": "`coOpenPackageExpense(`"
     },
     {
@@ -5102,8 +5663,25 @@
       "audit_ref": "INV-188",
       "element_id": null,
       "label": "Delete",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Delete an expense recorded against a work package.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Choose Delete on the intended expense and review the confirmation prompt.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "notes": "This removes a cost record from the package view. Confirm it is a duplicate or error and retain any required accounting evidence."
+        },
+        "fa": {
+          "purpose": "حذف هزینه ثبت‌شده در یک بسته کاری.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در ردیف هزینه موردنظر Delete را انتخاب کنید و پیام تأیید را بررسی کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "notes": "این کار رکورد هزینه را از نمای بسته حذف می‌کند. فقط در صورت تکراری یا اشتباه بودن آن اقدام کنید و مدارک حسابداری را نگه دارید."
+        }
+      },
       "handler_or_behavior": "`coDeletePackageExpense(`"
     },
     {
@@ -5111,8 +5689,25 @@
       "audit_ref": "INV-189",
       "element_id": null,
       "label": "📎 Open",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open an attachment from the relevant record.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Open beside the attachment to view the stored file.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Opening the file does not change the record. Check the filename and contents."
+        },
+        "fa": {
+          "purpose": "باز کردن پیوست رکورد انتخاب‌شده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "گزینه Open را در کنار پیوست انتخاب کنید تا فایل ذخیره‌شده نمایش داده شود.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "باز کردن فایل رکورد را تغییر نمی‌دهد. نام و محتوای فایل را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`coOpenAttachment(`"
     },
     {
@@ -5120,8 +5715,25 @@
       "audit_ref": "INV-192",
       "element_id": null,
       "label": "Remove",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Remove the selected attachment from the current form or item.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Choose Remove beside the attachment you no longer want associated with the current item.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "notes": "Check that the correct file is selected. Removing an attachment is different from deleting the underlying job or expense."
+        },
+        "fa": {
+          "purpose": "حذف پیوست انتخاب‌شده از فرم یا مورد فعلی.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در کنار پیوستی که دیگر نمی‌خواهید به مورد فعلی متصل باشد، Remove را انتخاب کنید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "notes": "مطمئن شوید فایل درست را انتخاب کرده‌اید. حذف پیوست با حذف کار یا هزینه اصلی متفاوت است."
+        }
+      },
       "handler_or_behavior": "`this.closest(`"
     },
     {
@@ -5129,8 +5741,25 @@
       "audit_ref": "INV-193",
       "element_id": "prSaveSubEditBtn",
       "label": "Save Changes",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Save changes to an edited sub-project.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "After reviewing the edited sub-project details, select Save Changes to commit the update.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Check the parent project and sub-project details before saving; do not leave the form until the save result is shown."
+        },
+        "fa": {
+          "purpose": "ذخیره تغییرات یک زیرپروژه ویرایش‌شده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "پس از بررسی جزئیات زیرپروژه، Save Changes را انتخاب کنید تا تغییرات ثبت شوند.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "پیش از ذخیره، پروژه والد و جزئیات زیرپروژه را بررسی کنید و تا نمایش نتیجه ذخیره از فرم خارج نشوید."
+        }
+      },
       "handler_or_behavior": "`prSaveSubprojectEdit()`"
     },
     {
@@ -5138,8 +5767,25 @@
       "audit_ref": "INV-194",
       "element_id": null,
       "label": "Edit",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Edit a cost in the project’s consolidated cost list.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Choose Edit beside the intended cost, review its amount, date, category and source details, then save.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Ensure the cost is not already represented elsewhere before changing it; avoid double counting."
+        },
+        "fa": {
+          "purpose": "ویرایش یک هزینه در فهرست یکپارچه هزینه‌های پروژه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در کنار هزینه موردنظر Edit را انتخاب کنید، مبلغ، تاریخ، دسته‌بندی و منبع را بررسی و سپس ذخیره کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "مطمئن شوید هزینه در بخش دیگری دوباره ثبت نشده باشد تا دوباره‌شماری رخ ندهد."
+        }
+      },
       "handler_or_behavior": "`prEditUnifiedCost(`"
     },
     {
@@ -5147,8 +5793,25 @@
       "audit_ref": "INV-195",
       "element_id": null,
       "label": "Delete",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Delete a cost from the consolidated project cost list.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Choose Delete on the correct cost and confirm only after checking its details.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "notes": "Deletion can change project totals. Verify the record and retain source evidence before removing it."
+        },
+        "fa": {
+          "purpose": "حذف یک هزینه از فهرست یکپارچه هزینه‌های پروژه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در ردیف هزینه درست Delete را انتخاب کنید و فقط پس از بررسی جزئیات تأیید کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "notes": "حذف می‌تواند جمع هزینه‌های پروژه را تغییر دهد. پیش از حذف، رکورد و مدرک اصلی را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`prDeleteUnifiedCost(`"
     },
     {
@@ -5156,8 +5819,25 @@
       "audit_ref": "INV-196",
       "element_id": null,
       "label": "Print / Save PDF",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Print or save the current sub-project report as a PDF.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Print / Save PDF and inspect the report preview and print options.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Check the selected sub-project, reporting period and totals. This creates an output document; it does not submit data externally."
+        },
+        "fa": {
+          "purpose": "چاپ یا ذخیره گزارش زیرپروژه به‌صورت PDF.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "گزینه Print / Save PDF را انتخاب کنید و پیش‌نمایش و تنظیمات چاپ را بررسی کنید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "زیرپروژه، دوره گزارش و مبالغ را بررسی کنید. این کار فایل خروجی می‌سازد و اطلاعات را به مرجع خارجی ارسال نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`prPrintSubReport()`"
     },
     {
@@ -5165,8 +5845,25 @@
       "audit_ref": "INV-197",
       "element_id": null,
       "label": "Print / Save PDF",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Print or save the current sub-project report as a PDF.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Print / Save PDF and inspect the report preview and print options.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Check the selected sub-project, reporting period and totals. This creates an output document; it does not submit data externally."
+        },
+        "fa": {
+          "purpose": "چاپ یا ذخیره گزارش زیرپروژه به‌صورت PDF.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "گزینه Print / Save PDF را انتخاب کنید و پیش‌نمایش و تنظیمات چاپ را بررسی کنید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "زیرپروژه، دوره گزارش و مبالغ را بررسی کنید. این کار فایل خروجی می‌سازد و اطلاعات را به مرجع خارجی ارسال نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`prPrintSubReport()`"
     },
     {
@@ -5174,8 +5871,25 @@
       "audit_ref": "INV-198",
       "element_id": null,
       "label": "📷 Take a Photo",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Capture a photo to attach to a project receipt or expense.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Take a Photo and use the camera/file prompt offered by your device; review the image before continuing.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Camera access depends on device permissions. Photograph the relevant receipt clearly and avoid including unrelated personal information."
+        },
+        "fa": {
+          "purpose": "گرفتن عکس برای پیوست رسید یا هزینه پروژه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "Take a Photo را انتخاب کنید و از دوربین یا انتخاب‌گر فایل دستگاه استفاده کنید؛ سپس تصویر را بررسی کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "دسترسی دوربین به مجوز دستگاه بستگی دارد. رسید مرتبط را واضح عکاسی کنید و اطلاعات شخصی نامرتبط را وارد تصویر نکنید."
+        }
+      },
       "handler_or_behavior": "`document.getElementById(`"
     },
     {
@@ -5183,8 +5897,25 @@
       "audit_ref": "INV-199",
       "element_id": "prReceiptRemove",
       "label": "Remove photo",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Remove the currently selected project receipt photo.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Remove photo to clear the receipt image from the current project form.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "notes": "This removes the current photo attachment/preview; check that you have another copy if it is needed as evidence."
+        },
+        "fa": {
+          "purpose": "حذف عکس رسید فعلی پروژه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "گزینه Remove photo را انتخاب کنید تا تصویر رسید از فرم فعلی پاک شود.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "notes": "این کار عکس یا پیش‌نمایش فعلی را حذف می‌کند؛ اگر به‌عنوان مدرک لازم است نسخه دیگری نگه دارید."
+        }
+      },
       "handler_or_behavior": "`clearProjectReceipt()`"
     },
     {
@@ -5192,8 +5923,25 @@
       "audit_ref": "INV-200",
       "element_id": null,
       "label": "${isIncome?'Save Receipt':'Save Expense'}",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Save the current project income receipt or expense entry.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Complete the relevant fields, verify whether the form is for income or an expense, then select its Save Receipt or Save Expense action.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Check date, amount, category and supporting details. Record income only when it has actually been received."
+        },
+        "fa": {
+          "purpose": "ذخیره رسید درآمد یا هزینه فعلی پروژه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "فیلدهای لازم را تکمیل کنید، مشخص کنید فرم برای درآمد است یا هزینه، سپس Save Receipt یا Save Expense را انتخاب کنید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "تاریخ، مبلغ، دسته‌بندی و جزئیات را بررسی کنید. درآمد را فقط پس از دریافت واقعی وجه ثبت کنید."
+        }
+      },
       "handler_or_behavior": "`prSaveSubFinanceRow(`"
     },
     {
@@ -5201,8 +5949,25 @@
       "audit_ref": "INV-201",
       "element_id": null,
       "label": "Clear",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Clear the current project finance form.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Clear to reset the current unsaved income/expense form.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Clearing a form is not a deletion of previously saved records. Confirm that you do not need the unsaved entries."
+        },
+        "fa": {
+          "purpose": "پاک کردن فرم مالی فعلی پروژه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "گزینه Clear را انتخاب کنید تا فرم ثبت‌نشده درآمد یا هزینه بازنشانی شود.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "پاک کردن فرم، رکوردهای ذخیره‌شده قبلی را حذف نمی‌کند. پیش از پاک‌کردن مطمئن شوید اطلاعات ثبت‌نشده را لازم ندارید."
+        }
+      },
       "handler_or_behavior": "`prClearSubFinanceRow()`"
     },
     {
@@ -5210,8 +5975,25 @@
       "audit_ref": "INV-202",
       "element_id": null,
       "label": "🧾 Customer receipt",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open a receipt for a customer payment recorded in the project workspace.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Customer receipt on the relevant payment to view its receipt document.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Check the customer, payment amount and date. A receipt should reflect money actually received."
+        },
+        "fa": {
+          "purpose": "باز کردن رسید پرداخت مشتری در فضای کاری پروژه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در ردیف پرداخت مربوط، Customer receipt را انتخاب کنید تا سند رسید نمایش داده شود.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "نام مشتری، مبلغ و تاریخ را بررسی کنید. رسید باید نشان‌دهنده وجهی باشد که واقعاً دریافت شده است."
+        }
+      },
       "handler_or_behavior": "`prOpenCustomerPaymentReceipt(`"
     },
     {
@@ -5219,8 +6001,25 @@
       "audit_ref": "INV-203",
       "element_id": null,
       "label": "Edit",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Edit a saved project finance entry.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Choose Edit beside the intended income or expense row, amend the required details and save.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Confirm the record type and amount; changing a project entry can affect project totals."
+        },
+        "fa": {
+          "purpose": "ویرایش یک ثبت مالی ذخیره‌شده در پروژه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در ردیف درآمد یا هزینه موردنظر Edit را انتخاب کنید، جزئیات لازم را تغییر دهید و ذخیره کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "نوع رکورد و مبلغ را بررسی کنید؛ ویرایش می‌تواند جمع‌های مالی پروژه را تغییر دهد."
+        }
+      },
       "handler_or_behavior": "`prEditSubFinanceRow(`"
     },
     {
@@ -5228,8 +6027,25 @@
       "audit_ref": "INV-204",
       "element_id": null,
       "label": "Delete",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Delete a saved project finance entry.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Choose Delete on the intended row and review the confirmation prompt.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "notes": "Deletion changes project financial totals. Verify the entry is incorrect or duplicated and keep required evidence."
+        },
+        "fa": {
+          "purpose": "حذف یک ثبت مالی ذخیره‌شده در پروژه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در ردیف موردنظر Delete را انتخاب کنید و پیام تأیید را بررسی کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "notes": "حذف، جمع مالی پروژه را تغییر می‌دهد. پیش از اقدام از اشتباه یا تکراری بودن رکورد مطمئن شوید و مدارک لازم را نگه دارید."
+        }
+      },
       "handler_or_behavior": "`prDeleteSubFinanceRow(`"
     },
     {
@@ -5237,8 +6053,25 @@
       "audit_ref": "INV-205",
       "element_id": "receiptPdfButton",
       "label": "📄 Generate PDF / Print",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Generate a PDF or print-ready version of the current receipt.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Generate PDF / Print and wait for the receipt document to be prepared.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Check payer/customer, amount, date and description. A generated receipt is not a substitute for confirming funds cleared."
+        },
+        "fa": {
+          "purpose": "ساخت PDF یا نسخه آماده چاپ از رسید فعلی.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "Generate PDF / Print را انتخاب کنید و منتظر آماده‌شدن سند رسید بمانید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "نام پرداخت‌کننده یا مشتری، مبلغ، تاریخ و شرح را بررسی کنید. رسید ساخته‌شده جای تأیید واریز وجه را نمی‌گیرد."
+        }
+      },
       "handler_or_behavior": "`receiptPrint()`"
     },
     {
@@ -5246,8 +6079,25 @@
       "audit_ref": "INV-207",
       "element_id": null,
       "label": "↗ Share PDF",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Share the generated project receipt PDF.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Share PDF and choose a destination from the device share sheet.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Check the receipt details and recipient before sharing; sharing does not alter the saved payment."
+        },
+        "fa": {
+          "purpose": "اشتراک‌گذاری PDF رسید پروژه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "Share PDF را انتخاب کنید و مقصد را از فهرست اشتراک‌گذاری دستگاه برگزینید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "پیش از ارسال، جزئیات رسید و گیرنده را بررسی کنید؛ اشتراک‌گذاری پرداخت ذخیره‌شده را تغییر نمی‌دهد."
+        }
+      },
       "handler_or_behavior": "`shareReceiptPdf()`"
     },
     {
@@ -5255,8 +6105,25 @@
       "audit_ref": "INV-208",
       "element_id": null,
       "label": "Print",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open the generated receipt PDF in a print window or browser tab.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Print after the receipt PDF is ready, then use the browser/device print or save options.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "If the PDF window is blocked, allow pop-ups for this app and retry. Verify the correct receipt before printing."
+        },
+        "fa": {
+          "purpose": "باز کردن PDF رسید در پنجره چاپ یا زبانه مرورگر.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "پس از آماده‌شدن PDF رسید، Print را انتخاب کنید و از گزینه‌های چاپ یا ذخیره مرورگر استفاده کنید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "اگر پنجره PDF مسدود شد، اجازه بازشدن پنجره‌های جدید را برای برنامه فعال و دوباره امتحان کنید. رسید درست را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`window.open(window.receiptPdfUrl,`"
     },
     {
@@ -5264,8 +6131,25 @@
       "audit_ref": "INV-210",
       "element_id": null,
       "label": "Generate PDF",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Generate a PDF for the current sub-project report.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Generate PDF and wait for the report preview to appear.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Check the report scope and totals before saving or printing; generation does not submit the report."
+        },
+        "fa": {
+          "purpose": "ساخت PDF از گزارش زیرپروژه فعلی.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "Generate PDF را انتخاب کنید و منتظر نمایش پیش‌نمایش گزارش بمانید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "دامنه گزارش و مبالغ را بررسی کنید؛ تولید PDF به معنی ارسال گزارش نیست."
+        }
+      },
       "handler_or_behavior": "`prRunSubReportPrint()`"
     },
     {
@@ -5273,8 +6157,25 @@
       "audit_ref": "INV-212",
       "element_id": null,
       "label": "Generate PDF",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Generate a PDF for the current sub-project report.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Generate PDF and wait for the report preview to appear.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Check the report scope and totals before saving or printing; generation does not submit the report."
+        },
+        "fa": {
+          "purpose": "ساخت PDF از گزارش زیرپروژه فعلی.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "Generate PDF را انتخاب کنید و منتظر نمایش پیش‌نمایش گزارش بمانید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "دامنه گزارش و مبالغ را بررسی کنید؛ تولید PDF به معنی ارسال گزارش نیست."
+        }
+      },
       "handler_or_behavior": "`prRunSubReportPrint()`"
     },
     {
@@ -5282,8 +6183,25 @@
       "audit_ref": "INV-213",
       "element_id": null,
       "label": "↗ Share PDF",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Share the generated sub-project report PDF.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Share PDF and choose an available destination from the device share sheet.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Review the report for confidential project or financial information before sharing."
+        },
+        "fa": {
+          "purpose": "اشتراک‌گذاری PDF گزارش زیرپروژه ساخته‌شده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "Share PDF را انتخاب کنید و مقصد موجود را از فهرست اشتراک‌گذاری دستگاه برگزینید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "پیش از ارسال، اطلاعات مالی یا محرمانه پروژه را در گزارش بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`prShareSubReportPDF()`"
     },
     {
@@ -5291,8 +6209,25 @@
       "audit_ref": "INV-214",
       "element_id": null,
       "label": "×",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Return from the PDF preview to the report view.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select the × control to restore the report preview or underlying report screen.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "This control changes the view; it is not a delete or cancel action on saved project data."
+        },
+        "fa": {
+          "purpose": "بازگشت از پیش‌نمایش PDF به نمای گزارش.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "علامت × را انتخاب کنید تا نمای گزارش یا پیش‌نمایش قبلی بازگردد.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "این کنترل فقط نما را تغییر می‌دهد؛ داده ذخیره‌شده پروژه را حذف یا لغو نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`prRestoreReportPreview()`"
     },
     {
@@ -5300,8 +6235,25 @@
       "audit_ref": "INV-216",
       "element_id": null,
       "label": "Income",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Show the income records for the selected sub-project.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Income to display the income view for the current sub-project.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Use the correct sub-project context and compare amounts with actual receipts."
+        },
+        "fa": {
+          "purpose": "نمایش درآمدهای زیرپروژه انتخاب‌شده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "گزینه Income را انتخاب کنید تا نمای درآمدهای زیرپروژه فعلی نمایش داده شود.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "از انتخاب زیرپروژه درست مطمئن شوید و مبالغ را با دریافت‌های واقعی تطبیق دهید."
+        }
+      },
       "handler_or_behavior": "`prRenderSubFinance(`"
     },
     {
@@ -5309,8 +6261,25 @@
       "audit_ref": "INV-217",
       "element_id": null,
       "label": "Expenses",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Show the expense records for the selected sub-project.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Expenses to display the expense view for the current sub-project.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Check that costs belong to this sub-project and are not duplicated in another cost list."
+        },
+        "fa": {
+          "purpose": "نمایش هزینه‌های زیرپروژه انتخاب‌شده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "گزینه Expenses را انتخاب کنید تا هزینه‌های زیرپروژه فعلی نمایش داده شوند.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "بررسی کنید هزینه‌ها متعلق به همین زیرپروژه باشند و در فهرست هزینه دیگری تکرار نشده باشند."
+        }
+      },
       "handler_or_behavior": "`prRenderSubFinance(`"
     },
     {
@@ -5318,8 +6287,25 @@
       "audit_ref": "INV-218",
       "element_id": null,
       "label": "Report",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open the report view for the selected sub-project.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Report to display the available report information for the current sub-project.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Review the selected project scope and period before using the figures."
+        },
+        "fa": {
+          "purpose": "باز کردن نمای گزارش زیرپروژه انتخاب‌شده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "گزینه Report را انتخاب کنید تا اطلاعات گزارش زیرپروژه فعلی نمایش داده شود.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "پیش از استفاده از ارقام، محدوده پروژه و دوره گزارش را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`prRenderSubFinance(`"
     },
     {
@@ -5327,8 +6313,25 @@
       "audit_ref": "INV-219",
       "element_id": null,
       "label": "＋ Add Sub-project",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open the form to add a sub-project.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Add Sub-project and complete the fields presented for the new sub-project.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Check the parent project and enter a distinct, meaningful sub-project name before saving."
+        },
+        "fa": {
+          "purpose": "باز کردن فرم افزودن زیرپروژه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "گزینه Add Sub-project را انتخاب کنید و فیلدهای نمایش‌داده‌شده را تکمیل کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "پروژه والد را بررسی و برای زیرپروژه نامی مشخص و غیرتکراری وارد کنید."
+        }
+      },
       "handler_or_behavior": "`prOpenSubprojectForm()`"
     },
     {
@@ -5336,8 +6339,25 @@
       "audit_ref": "INV-220",
       "element_id": null,
       "label": "Edit",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open an existing sub-project from its row.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Edit on the required sub-project to open its details.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Confirm the correct sub-project; selecting the row opens it and does not itself save changes."
+        },
+        "fa": {
+          "purpose": "باز کردن یک زیرپروژه موجود از ردیف آن.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در زیرپروژه موردنظر Edit را انتخاب کنید تا جزئیات آن باز شود.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "زیرپروژه درست را بررسی کنید؛ باز کردن آن به‌تنهایی تغییرات را ذخیره نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`event.stopPropagation();prOpenSubproject(`"
     },
     {
@@ -5345,8 +6365,25 @@
       "audit_ref": "INV-221",
       "element_id": null,
       "label": "＋ Add Sub-project",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Enable sub-project tracking and start adding a sub-project.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Add Sub-project to enable the sub-project workflow and open the creation form.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Check that the parent project is the intended one before creating the sub-project."
+        },
+        "fa": {
+          "purpose": "فعال کردن پیگیری زیرپروژه‌ها و شروع افزودن یک مورد.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "گزینه Add Sub-project را انتخاب کنید تا گردش‌کار زیرپروژه فعال و فرم ایجاد باز شود.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "پیش از ایجاد، مطمئن شوید پروژه والد درست انتخاب شده است."
+        }
+      },
       "handler_or_behavior": "`prEnableSubprojectsAndAdd()`"
     },
     {
@@ -5354,8 +6391,25 @@
       "audit_ref": "INV-223",
       "element_id": "prAddSubprojectBtn",
       "label": "＋ Add Sub-project",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Add a new sub-project to the current project.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Add Sub-project, enter the required details and complete the form’s save action.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Ensure the new sub-project belongs to the correct parent project and is not a duplicate."
+        },
+        "fa": {
+          "purpose": "افزودن زیرپروژه جدید به پروژه فعلی.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "Add Sub-project را انتخاب کنید، جزئیات لازم را وارد و فرم را ذخیره کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "بررسی کنید زیرپروژه به پروژه والد صحیح تعلق دارد و مورد تکراری نیست."
+        }
+      },
       "handler_or_behavior": "`prAddSubproject()`"
     },
     {
@@ -5363,8 +6417,25 @@
       "audit_ref": "INV-224",
       "element_id": null,
       "label": "Print / Save PDF",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Print or save the current project view as a PDF.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Print / Save PDF and use the browser’s print dialog to print or save a PDF.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Check the page range, orientation and project details before printing."
+        },
+        "fa": {
+          "purpose": "چاپ یا ذخیره نمای فعلی پروژه به‌صورت PDF.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "Print / Save PDF را انتخاب کنید و از پنجره چاپ مرورگر برای چاپ یا ذخیره PDF استفاده کنید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "پیش از چاپ، محدوده صفحات، جهت کاغذ و جزئیات پروژه را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`window.print()`"
     },
     {
@@ -5372,8 +6443,25 @@
       "audit_ref": "INV-225",
       "element_id": null,
       "label": "📋 Worker List — Choose Worker",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Choose a worker from the saved worker list.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Open Worker List — Choose Worker, then select the intended worker from the displayed list.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Verify the worker’s name and any displayed contact detail; choosing a worker assigns that person to the current form or task."
+        },
+        "fa": {
+          "purpose": "انتخاب یک کارگر از فهرست ذخیره‌شده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "Worker List — Choose Worker را باز کنید و کارگر موردنظر را از فهرست نمایش‌داده‌شده انتخاب کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "نام و اطلاعات تماس نمایش‌داده‌شده را بررسی کنید؛ انتخاب کارگر او را به فرم یا کار فعلی اختصاص می‌دهد."
+        }
+      },
       "handler_or_behavior": "`prOpenWorkerListPicker()`"
     },
     {
@@ -5381,8 +6469,25 @@
       "audit_ref": "INV-226",
       "element_id": null,
       "label": "Record",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Save the current project record or row.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Complete the required fields and select Record to save the entry.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Check date, amount, worker and description as applicable. Do not assume the entry saved until the app confirms it."
+        },
+        "fa": {
+          "purpose": "ذخیره رکورد یا ردیف فعلی پروژه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "فیلدهای لازم را تکمیل و Record را انتخاب کنید تا اطلاعات ثبت شود.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "تاریخ، مبلغ، کارگر و شرح را در صورت کاربرد بررسی کنید. تا نمایش پیام تأیید، ذخیره‌شدن را قطعی فرض نکنید."
+        }
+      },
       "handler_or_behavior": "`prSaveRow(`"
     },
     {
@@ -5390,8 +6495,25 @@
       "audit_ref": "INV-227",
       "element_id": null,
       "label": "Clear",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Clear the current project record form.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Clear to reset the fields in the current unsaved form.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "This clears the form, not previously saved project records. Copy any details you still need before clearing."
+        },
+        "fa": {
+          "purpose": "پاک کردن فرم ثبت رکورد فعلی پروژه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "گزینه Clear را انتخاب کنید تا فیلدهای فرم ثبت‌نشده بازنشانی شوند.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "این گزینه فرم را پاک می‌کند، نه رکوردهای ذخیره‌شده قبلی را. اطلاعات لازم را پیش از پاک‌کردن بردارید."
+        }
+      },
       "handler_or_behavior": "`prClearRowForm()`"
     },
     {
@@ -5399,8 +6521,25 @@
       "audit_ref": "INV-228",
       "element_id": null,
       "label": "Edit",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Edit an existing project record.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Edit beside the intended row, update its details and save the changes.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Check the record identity and values before saving because edits can affect project totals."
+        },
+        "fa": {
+          "purpose": "ویرایش یک رکورد موجود پروژه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در کنار ردیف موردنظر Edit را انتخاب کنید، جزئیات را تغییر دهید و ذخیره کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "پیش از ذخیره، هویت و مقادیر رکورد را بررسی کنید؛ ویرایش ممکن است جمع‌های پروژه را تغییر دهد."
+        }
+      },
       "handler_or_behavior": "`prEditRow(`"
     },
     {
@@ -5408,8 +6547,25 @@
       "audit_ref": "INV-229",
       "element_id": null,
       "label": "Delete",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Delete an existing project record.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Delete beside the intended row and review the confirmation prompt.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "notes": "Deletion may affect project totals and history. Verify the selected record and retain necessary evidence first."
+        },
+        "fa": {
+          "purpose": "حذف یک رکورد موجود پروژه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در کنار ردیف موردنظر Delete را انتخاب کنید و پیام تأیید را بررسی کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "notes": "حذف ممکن است بر جمع و سوابق پروژه اثر بگذارد. پیش از اقدام، رکورد و مدارک لازم را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`prDeleteRow(`"
     },
     {
@@ -5417,8 +6573,25 @@
       "audit_ref": "INV-231",
       "element_id": "${prEscape(w.id)}",
       "label": "${prEscape(w.name\\",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Select a worker from the worker picker list.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Choose the worker’s row in the list to assign that worker to the current selection.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Check the name and any available identifying detail before selecting; similar names can be easy to confuse."
+        },
+        "fa": {
+          "purpose": "انتخاب یک کارگر از فهرست انتخاب کارگر.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "ردیف کارگر موردنظر را انتخاب کنید تا به انتخاب فعلی اختصاص یابد.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "پیش از انتخاب، نام و اطلاعات شناسایی موجود را بررسی کنید؛ ممکن است نام چند نفر مشابه باشد."
+        }
+      },
       "handler_or_behavior": "\\"
     },
     {
@@ -5426,8 +6599,25 @@
       "audit_ref": "INV-232",
       "element_id": null,
       "label": "Done",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Finish and close the worker selection list.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Done after making the intended worker selection.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Check that the correct worker is selected before closing the picker."
+        },
+        "fa": {
+          "purpose": "پایان انتخاب کارگر و بستن فهرست.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "پس از انتخاب کارگر موردنظر، Done را انتخاب کنید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "پیش از بستن فهرست مطمئن شوید کارگر درست انتخاب شده است."
+        }
+      },
       "handler_or_behavior": "`prCloseWorkerListPicker()`"
     },
     {
@@ -5435,8 +6625,25 @@
       "audit_ref": "INV-233",
       "element_id": null,
       "label": "Manage Workers",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open worker management from the project workspace.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Manage Workers to open the worker list or management page.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "This navigates to worker management; edit or delete a person only after confirming the correct record."
+        },
+        "fa": {
+          "purpose": "باز کردن مدیریت کارگران از فضای کاری پروژه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "Manage Workers را انتخاب کنید تا فهرست یا صفحه مدیریت کارگران باز شود.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "این گزینه فقط به بخش مدیریت کارگران می‌رود؛ پیش از ویرایش یا حذف، رکورد فرد را تأیید کنید."
+        }
+      },
       "handler_or_behavior": "`prPage(\\`"
     },
     {
@@ -5444,8 +6651,25 @@
       "audit_ref": "INV-234",
       "element_id": null,
       "label": "Edit",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Edit a saved person’s worker or project-contact details.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Edit beside the intended person, change the available fields and save.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Verify the person’s identity before changing contact or work details."
+        },
+        "fa": {
+          "purpose": "ویرایش اطلاعات فرد ذخیره‌شده در فهرست کارگران یا افراد پروژه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در کنار فرد موردنظر Edit را انتخاب کنید، فیلدهای موجود را تغییر دهید و ذخیره کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "پیش از تغییر اطلاعات تماس یا کاری، هویت فرد را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`prEditPerson(`"
     },
     {
@@ -5453,8 +6677,25 @@
       "audit_ref": "INV-235",
       "element_id": null,
       "label": "Delete",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Delete a person from the worker or project-person list.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Delete beside the intended person and read the confirmation prompt.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "notes": "Check whether the person is linked to historic work or payments; retain records required for audit and accounting."
+        },
+        "fa": {
+          "purpose": "حذف یک فرد از فهرست کارگران یا افراد پروژه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در کنار فرد موردنظر Delete را انتخاب کنید و پیام تأیید را بخوانید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "notes": "ارتباط فرد با کارها و پرداخت‌های قبلی را بررسی کنید و سوابق موردنیاز حسابرسی و حسابداری را نگه دارید."
+        }
+      },
       "handler_or_behavior": "`prDeletePerson(`"
     },
     {
@@ -5462,8 +6703,25 @@
       "audit_ref": "INV-236",
       "element_id": null,
       "label": "Edit",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open an existing reconciliation cost for editing or review.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Edit on the intended reconciliation cost to open its details.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Confirm the cost and reconciliation context before making any changes."
+        },
+        "fa": {
+          "purpose": "باز کردن یک هزینه تطبیق برای ویرایش یا بررسی.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در هزینه تطبیق موردنظر Edit را انتخاب کنید تا جزئیات آن باز شود.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "پیش از تغییر، هزینه و زمینه تطبیق آن را تأیید کنید."
+        }
+      },
       "handler_or_behavior": "`prOpenReconciliationCost(`"
     },
     {
@@ -5471,8 +6729,25 @@
       "audit_ref": "INV-237",
       "element_id": null,
       "label": "Delete",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open the selected reconciliation cost action for deletion or review.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Delete only for the intended reconciliation cost and follow the confirmation shown by the app.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "notes": "The inventory associates this control with the reconciliation-cost handler; inspect the resulting prompt carefully and do not assume deletion until confirmed."
+        },
+        "fa": {
+          "purpose": "باز کردن عملیات مربوط به حذف یا بررسی هزینه تطبیق انتخاب‌شده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "فقط برای هزینه تطبیق درست Delete را انتخاب کنید و پیام تأیید برنامه را دنبال کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "notes": "در فهرست ممیزی این کنترل به handler هزینه تطبیق متصل است؛ پیام بعدی را با دقت بخوانید و تا تأیید برنامه، حذف را قطعی ندانید."
+        }
+      },
       "handler_or_behavior": "`prOpenReconciliationCost(`"
     },
     {
@@ -5480,8 +6755,25 @@
       "audit_ref": "INV-238",
       "element_id": null,
       "label": "Generate Full Project Report PDF →",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Generate a PDF of the full project report.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Generate Full Project Report PDF and wait for the report output to be prepared.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Check the project, included sections, reporting period and totals. The PDF is an export, not an external submission."
+        },
+        "fa": {
+          "purpose": "ساخت PDF گزارش کامل پروژه.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "Generate Full Project Report PDF را انتخاب کنید و منتظر آماده‌شدن خروجی بمانید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "پروژه، بخش‌های گزارش، دوره و مبالغ را بررسی کنید. PDF خروجی است و به مرجع خارجی ارسال نمی‌شود."
+        }
+      },
       "handler_or_behavior": "`prPrintFullProjectReport(`"
     },
     {
@@ -5489,8 +6781,25 @@
       "audit_ref": "INV-239",
       "element_id": null,
       "label": "Open",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open a saved contract or quotation.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Open on the intended saved contract to load it into the contract workspace.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Check the customer and document identity before editing or printing."
+        },
+        "fa": {
+          "purpose": "باز کردن قرارداد یا پیش‌فاکتور ذخیره‌شده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در کنار سند موردنظر Open را انتخاب کنید تا در فضای قرارداد بارگذاری شود.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "پیش از ویرایش یا چاپ، مشتری و هویت سند را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`ctLoad(`"
     },
     {
@@ -5498,8 +6807,25 @@
       "audit_ref": "INV-240",
       "element_id": null,
       "label": "Print / PDF",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Print or create a PDF from a saved contract.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Print / PDF on the intended saved contract and review the preview.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Verify customer, scope, price, payment stages and terms before sending the document."
+        },
+        "fa": {
+          "purpose": "چاپ یا ساخت PDF از قرارداد ذخیره‌شده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "برای قرارداد موردنظر Print / PDF را انتخاب کنید و پیش‌نمایش را بررسی کنید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "مشتری، محدوده کار، قیمت، مراحل پرداخت و شرایط را پیش از ارسال بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`ctPrintSaved(`"
     },
     {
@@ -5507,8 +6833,25 @@
       "audit_ref": "INV-241",
       "element_id": null,
       "label": "Delete",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Delete a saved contract or quotation.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Delete on the intended document and read the confirmation prompt before proceeding.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "notes": "Deletion may remove access to a business record. Keep copies of issued or agreed contracts and check retention requirements."
+        },
+        "fa": {
+          "purpose": "حذف قرارداد یا پیش‌فاکتور ذخیره‌شده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "برای سند موردنظر Delete را انتخاب کنید و پیش از ادامه پیام تأیید را بخوانید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "notes": "حذف ممکن است دسترسی به سابقه کاری را از بین ببرد. نسخه قراردادهای صادرشده یا توافق‌شده و الزامات نگهداری را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`ctDelete(`"
     },
     {
@@ -5516,8 +6859,25 @@
       "audit_ref": "INV-242",
       "element_id": "generateBtn",
       "label": "${L.generate}",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Generate a PDF from the current contract or quotation.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Generate and wait for the PDF preview or generated document.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Review all contract details and totals before using the PDF; generation does not send it to the customer."
+        },
+        "fa": {
+          "purpose": "ساخت PDF از قرارداد یا پیش‌فاکتور فعلی.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "Generate را انتخاب کنید و منتظر پیش‌نمایش یا سند تولیدشده بمانید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "پیش از استفاده از PDF، همه جزئیات قرارداد و جمع مبالغ را بررسی کنید؛ فایل خودکار برای مشتری ارسال نمی‌شود."
+        }
+      },
       "handler_or_behavior": "`ctGeneratePDF()`"
     },
     {
@@ -5525,8 +6885,25 @@
       "audit_ref": "INV-243",
       "element_id": "printBtn",
       "label": "Open PDF",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open the generated contract PDF.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Open PDF to view the generated document in the available viewer or browser window.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Check that the correct document opened and that all pages and text are visible."
+        },
+        "fa": {
+          "purpose": "باز کردن PDF قرارداد تولیدشده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "Open PDF را انتخاب کنید تا سند در نمایشگر یا پنجره مرورگر باز شود.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "بررسی کنید سند درست باز شده و تمام صفحات و نوشته‌ها قابل مشاهده‌اند."
+        }
+      },
       "handler_or_behavior": "`ctPrintPDF()`"
     },
     {
@@ -5534,8 +6911,25 @@
       "audit_ref": "INV-244",
       "element_id": "shareBtn",
       "label": "↗ Share PDF",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Share the generated contract PDF.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Share PDF and choose an available destination from the device share sheet.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Confirm the recipient and review prices, scope and terms before sharing."
+        },
+        "fa": {
+          "purpose": "اشتراک‌گذاری PDF قرارداد تولیدشده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "Share PDF را انتخاب کنید و مقصد موجود را از فهرست دستگاه برگزینید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "پیش از ارسال، گیرنده، قیمت‌ها، محدوده کار و شرایط قرارداد را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`ctSharePDF()`"
     },
     {
@@ -5543,8 +6937,25 @@
       "audit_ref": "INV-246",
       "element_id": null,
       "label": "${L.back}",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Return to the previous screen in the current browser history.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Back to navigate to the previous page or view.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Browser history may leave the current form. Save any required changes first; this control does not guarantee unsaved data will be retained."
+        },
+        "fa": {
+          "purpose": "بازگشت به صفحه یا نمای قبلی در سابقه مرورگر.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "گزینه Back را انتخاب کنید تا مرورگر به صفحه یا نمای قبلی برگردد.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "بازگشت در سابقه مرورگر ممکن است فرم فعلی را ترک کند. ابتدا تغییرات لازم را ذخیره کنید؛ ماندن اطلاعات ثبت‌نشده تضمین‌شده نیست."
+        }
+      },
       "handler_or_behavior": "`history.back()`"
     },
     {
@@ -5552,8 +6963,25 @@
       "audit_ref": "INV-249",
       "element_id": null,
       "label": "Use full image",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Use the full original receipt image instead of the cropped selection.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Use full image when you want to keep the complete receipt photo.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "The full image may include extra background and may be larger; check legibility and avoid exposing unrelated information."
+        },
+        "fa": {
+          "purpose": "استفاده از تصویر کامل و اصلی رسید به‌جای بخش برش‌خورده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "اگر می‌خواهید تمام عکس رسید حفظ شود، گزینه Use full image را انتخاب کنید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "تصویر کامل ممکن است پس‌زمینه اضافی یا حجم بیشتری داشته باشد؛ خوانایی و اطلاعات نامرتبط را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`useFullReceiptImage()`"
     },
     {
@@ -5561,8 +6989,25 @@
       "audit_ref": "INV-250",
       "element_id": null,
       "label": "Save cropped photo",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Save the cropped receipt photo selection.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Adjust the crop to include the relevant receipt details, then select Save cropped photo.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Check that date, supplier and total remain readable before applying the crop."
+        },
+        "fa": {
+          "purpose": "ذخیره قسمت برش‌خورده عکس رسید.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "کادر برش را طوری تنظیم کنید که جزئیات مهم رسید در آن باشد، سپس Save cropped photo را انتخاب کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "پیش از اعمال برش، خوانا بودن تاریخ، فروشنده و مبلغ کل را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`applyReceiptCrop()`"
     },
     {
@@ -5570,8 +7015,25 @@
       "audit_ref": "INV-251",
       "element_id": null,
       "label": "Copy version details",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Copy the current version and build details to the clipboard.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Copy version details, then paste the copied text into the support message or diagnostic note where needed.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "The copied details identify the app build and environment; review them before sharing publicly."
+        },
+        "fa": {
+          "purpose": "کپی اطلاعات نسخه و Build فعلی در حافظه موقت.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "Copy version details را انتخاب کنید و متن کپی‌شده را در پیام پشتیبانی یا یادداشت تشخیصی جای‌گذاری کنید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "این اطلاعات نسخه و محیط برنامه را مشخص می‌کند؛ پیش از اشتراک‌گذاری عمومی آن را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`copyMonitorVersionInfo()`"
     },
     {
@@ -5579,8 +7041,25 @@
       "audit_ref": "INV-252",
       "element_id": null,
       "label": "View details",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open the detailed information for a monitoring event.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select View details on the relevant event in Monitor & Diagnostics.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Use the timestamp and event description to identify the correct incident; diagnostic details may contain technical information."
+        },
+        "fa": {
+          "purpose": "باز کردن جزئیات یک رویداد در Monitor & Diagnostics.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در رویداد موردنظر View details را انتخاب کنید تا اطلاعات تکمیلی نمایش داده شود.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "برای شناسایی رخداد درست، زمان و شرح آن را بررسی کنید؛ جزئیات تشخیصی ممکن است اطلاعات فنی داشته باشند."
+        }
+      },
       "handler_or_behavior": "`showMonitorEvent(`"
     },
     {
@@ -5588,8 +7067,25 @@
       "audit_ref": "INV-253",
       "element_id": null,
       "label": "‹ Previous",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Move to the previous page of monitoring events.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Previous to display the preceding page of the event list.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "This changes pagination only; it does not delete or modify diagnostic events."
+        },
+        "fa": {
+          "purpose": "رفتن به صفحه قبلی رویدادهای مانیتورینگ.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "Previous را انتخاب کنید تا صفحه قبلی فهرست رویدادها نمایش داده شود.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "این گزینه فقط صفحه‌بندی را تغییر می‌دهد و رویدادهای تشخیصی را حذف یا ویرایش نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`monitorPage--;renderMonitor()`"
     },
     {
@@ -5597,8 +7093,25 @@
       "audit_ref": "INV-254",
       "element_id": null,
       "label": "${monitorPage} / ${pages}",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Show the current page number and total pages in the monitoring list.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Use the page indicator to understand your position in the event list.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "The indicator is informational and is not an action button."
+        },
+        "fa": {
+          "purpose": "نمایش شماره صفحه فعلی و تعداد کل صفحات فهرست مانیتورینگ.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "از نشانگر صفحه برای فهمیدن موقعیت خود در فهرست رویدادها استفاده کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "این نشانگر فقط اطلاعاتی است و دکمه عملیاتی نیست."
+        }
+      },
       "handler_or_behavior": "`event/property listener`"
     },
     {
@@ -5606,8 +7119,25 @@
       "audit_ref": "INV-255",
       "element_id": null,
       "label": "=pages?'disabled':''} onclick=\"monitorPage++;renderMonitor()\">Next ›",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Move to the next page of monitoring events.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Next to display the next page when one is available.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "The control may be disabled on the final page; pagination does not change stored events."
+        },
+        "fa": {
+          "purpose": "رفتن به صفحه بعدی رویدادهای مانیتورینگ.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "اگر صفحه بعدی وجود داشته باشد، Next را انتخاب کنید تا نمایش داده شود.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "در آخرین صفحه ممکن است این گزینه غیرفعال باشد؛ صفحه‌بندی، رویدادهای ذخیره‌شده را تغییر نمی‌دهد."
+        }
+      },
       "handler_or_behavior": "`event/property listener`"
     },
     {
@@ -5615,8 +7145,25 @@
       "audit_ref": "INV-256",
       "element_id": null,
       "label": "(label not statically available)",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open the control identified by this inventory entry only after its visible label and behavior are confirmed.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "The inventory does not contain a reliable static label or handler for this entry. Do not rely on it as a user-facing action until the source control is inspected.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "This is a pending audit item, not verified button guidance. The runtime attachment point must be identified before publishing help."
+        },
+        "fa": {
+          "purpose": "این کنترل را فقط پس از تأیید متن و رفتار قابل مشاهده آن در فهرست ممیزی باز کنید.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "فهرست ممیزی برای این مورد برچسب یا handler ثابت و قابل اتکایی ندارد. تا بررسی کنترل در سورس، آن را به‌عنوان عملکرد قابل استفاده برای کاربر معرفی نکنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "این مورد هنوز در انتظار ممیزی است و راهنمای نهایی دکمه نیست. پیش از انتشار Help باید محل اتصال runtime آن شناسایی شود."
+        }
+      },
       "handler_or_behavior": "`GenUINotUsed`"
     },
     {
@@ -5624,8 +7171,25 @@
       "audit_ref": "INV-257",
       "element_id": "monitorCopyEvent",
       "label": "Copy JSON",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Copy the selected monitoring event as JSON.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Open the intended event and select Copy JSON to copy its structured diagnostic data.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Review the JSON for sensitive or identifying information before sharing it with support."
+        },
+        "fa": {
+          "purpose": "کپی کردن اطلاعات یک رویداد مانیتورینگ به قالب JSON.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "رویداد موردنظر را باز کنید و Copy JSON را انتخاب کنید تا داده تشخیصی ساختاریافته کپی شود.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "پیش از ارسال JSON برای پشتیبانی، اطلاعات حساس یا قابل شناسایی را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`event/property listener`"
     },
     {
@@ -5633,8 +7197,25 @@
       "audit_ref": "INV-259",
       "element_id": null,
       "label": "Open saved report",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open a previously saved report.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Open saved report beside the report you want to review.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Check the report name and date before opening; opening a saved report does not submit it."
+        },
+        "fa": {
+          "purpose": "باز کردن یک گزارش ذخیره‌شده قبلی.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در کنار گزارشی که می‌خواهید بررسی کنید، Open saved report را انتخاب کنید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "نام و تاریخ گزارش را بررسی کنید؛ باز کردن گزارش ذخیره‌شده آن را ارسال نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`report188Open(`"
     },
     {
@@ -5642,8 +7223,25 @@
       "audit_ref": "INV-260",
       "element_id": null,
       "label": "Print / PDF",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Print or save a previously saved report as a PDF.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Print / PDF for the intended saved report and use the browser print dialog.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Verify the report contents and reporting period before sharing or filing the PDF."
+        },
+        "fa": {
+          "purpose": "چاپ یا ذخیره گزارش قبلی به‌صورت PDF.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "برای گزارش موردنظر Print / PDF را انتخاب کنید و از پنجره چاپ مرورگر استفاده کنید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "محتوا و دوره گزارش را پیش از اشتراک‌گذاری یا بایگانی بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`report188Print(`"
     },
     {
@@ -5651,8 +7249,25 @@
       "audit_ref": "INV-261",
       "element_id": null,
       "label": "Update status",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Change the status label of a saved report.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Update status and choose or enter the appropriate status as prompted.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Use a status that accurately reflects the report’s progress; changing a label does not submit the report to HMRC."
+        },
+        "fa": {
+          "purpose": "تغییر برچسب وضعیت یک گزارش ذخیره‌شده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "Update status را انتخاب کنید و وضعیت مناسب را طبق گزینه‌های نمایش‌داده‌شده تعیین کنید.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "وضعیتی انتخاب کنید که مرحله واقعی گزارش را نشان دهد؛ تغییر برچسب به معنی ارسال گزارش به HMRC نیست."
+        }
+      },
       "handler_or_behavior": "`report188RenameStatus(`"
     },
     {
@@ -5660,8 +7275,25 @@
       "audit_ref": "INV-262",
       "element_id": null,
       "label": "${n.read?'○':'●'} ${esc(n.title)} ${new Date(n.createdAt).toLocaleDateString('en-GB')} ›",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open a notification from the notifications list.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select the notification row with the relevant title and date to open its details.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Check the title and date because notifications may have similar wording."
+        },
+        "fa": {
+          "purpose": "باز کردن یک اعلان از فهرست اعلان‌ها.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "ردیف اعلانی را که عنوان و تاریخ آن مرتبط است انتخاب کنید تا جزئیات باز شود.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "عنوان و تاریخ را بررسی کنید؛ ممکن است چند اعلان متن مشابه داشته باشند."
+        }
+      },
       "handler_or_behavior": "`report188OpenNotification(`"
     },
     {
@@ -5669,8 +7301,25 @@
       "audit_ref": "INV-263",
       "element_id": null,
       "label": "Mark as ${n.read?'unread':'read'}",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Toggle the selected notification between read and unread.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Mark as read or Mark as unread in the notification details.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "This changes the notification’s read state only; it does not complete the task described by the notification."
+        },
+        "fa": {
+          "purpose": "تغییر وضعیت اعلان انتخاب‌شده بین خوانده‌شده و خوانده‌نشده.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "در جزئیات اعلان، Mark as read یا Mark as unread را انتخاب کنید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "این کار فقط وضعیت خواندن اعلان را تغییر می‌دهد و وظیفه‌ای را که اعلان درباره آن است انجام نمی‌دهد."
+        }
+      },
       "handler_or_behavior": "`report188ToggleReadFromDetail(`"
     },
     {
@@ -5678,8 +7327,25 @@
       "audit_ref": "INV-264",
       "element_id": null,
       "label": "Print / Save PDF",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Print or save the selected notification/report content as a PDF.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Print / Save PDF and review the resulting print view.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "notes": "Check the displayed content before saving; printing does not change the notification’s read state unless the app separately does so."
+        },
+        "fa": {
+          "purpose": "چاپ یا ذخیره محتوای اعلان یا گزارش انتخاب‌شده به‌صورت PDF.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "Print / Save PDF را انتخاب کنید و نمای چاپ ایجادشده را بررسی کنید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "پیش از ذخیره، محتوای نمایش‌داده‌شده را بررسی کنید؛ چاپ به‌خودی‌خود وضعیت خواندن اعلان را تغییر نمی‌دهد مگر برنامه جداگانه چنین کاری انجام دهد."
+        }
+      },
       "handler_or_behavior": "`report188Print(`"
     },
     {
@@ -5687,8 +7353,25 @@
       "audit_ref": "INV-266",
       "element_id": "eiwClose",
       "label": "Return to form",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Return from the current entry/import workflow to its form.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select Return to form to go back to the form screen.",
+          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Review whether any temporary work needs saving before leaving the current view."
+        },
+        "fa": {
+          "purpose": "بازگشت از گردش‌کار فعلی ورود اطلاعات یا import به فرم.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "Return to form را انتخاب کنید تا به صفحه فرم برگردید.",
+          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "پیش از ترک نمای فعلی، بررسی کنید آیا اطلاعات موقتی نیاز به ذخیره دارند."
+        }
+      },
       "handler_or_behavior": "`event/property listener`"
     },
     {
@@ -5696,8 +7379,25 @@
       "audit_ref": "INV-267",
       "element_id": "`.unified-dropdown-trigger`",
       "label": "متن گزینه انتخاب‌شده / placeholder",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open or close the custom dropdown for the current selection field.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select the dropdown trigger to display its available options; select it again or choose an option to close the list.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "The visible placeholder or selected text depends on the field’s current value. The application’s main interface remains English and left-to-right."
+        },
+        "fa": {
+          "purpose": "باز یا بسته کردن فهرست کشویی سفارشی فیلد انتخاب فعلی.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "دکمه فهرست را انتخاب کنید تا گزینه‌های موجود نمایش داده شوند؛ با انتخاب دوباره یا انتخاب یک گزینه، فهرست بسته می‌شود.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "متن راهنما یا مقدار انتخاب‌شده به وضعیت فعلی فیلد بستگی دارد. رابط اصلی برنامه همچنان انگلیسی و چپ‌به‌راست باقی می‌ماند."
+        }
+      },
       "handler_or_behavior": "باز و بسته کردن فهرست انتخاب بومی‌شده از روی یک select موجود"
     },
     {
@@ -5705,15 +7405,32 @@
       "audit_ref": "INV-268",
       "element_id": "`.unified-dropdown-option`",
       "label": "متن هر گزینه از select",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Choose a value from the custom dropdown options.",
+          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "how": "Select the required option from the open list; the selected value is passed back to the underlying form field.",
+          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "notes": "Check the chosen value before saving the form. Selecting an option changes the field value but does not necessarily save the full form."
+        },
+        "fa": {
+          "purpose": "انتخاب یک مقدار از گزینه‌های فهرست کشویی سفارشی.",
+          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "how": "فهرست را باز کنید و گزینه موردنظر را انتخاب کنید تا مقدار آن به فیلد اصلی فرم منتقل شود.",
+          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "notes": "پیش از ذخیره فرم، مقدار انتخاب‌شده را بررسی کنید. انتخاب گزینه مقدار فیلد را تغییر می‌دهد، اما لزوماً کل فرم را ذخیره نمی‌کند."
+        }
+      },
       "handler_or_behavior": "انتخاب مقدار و dispatch رویداد change؛ برای هر گزینه نمونه جداگانه ساخته می‌شود"
     }
   ],
   "content_progress": {
     "completed_entries": 20,
-    "draft_entries": 108,
-    "pending_entries": 101,
+    "draft_entries": 209,
+    "pending_entries": 0,
     "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written."
   }
 }
