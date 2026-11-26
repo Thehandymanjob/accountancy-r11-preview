@@ -1821,22 +1821,22 @@
       "previewDevelopmentCommitSha": "f963213015cc7b156d8118bea6a6f56260c39f81",
       "previewPullRequestNumber": 93,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/93",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "e4ea1b2163ff24ce57cc6827d641f91bed09906f",
       "versionAuthorityGate": {
         "result": "PASS",
-        "runId": 45904866886,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45904866886",
-        "details": "The R11 Version Authority Gate completed successfully on PR #93 head 43a2132745aef84368ded8c7b3948410355c991f; repository identity, approved baseline, R40 Build ID, canonical URL and all 22 pinned runtime assets passed."
+        "runId": 45905005638,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45905005638",
+        "details": "The R11 Version Authority Gate passed on PR #93 (run 45904952740) and again on Preview main for merge commit e4ea1b2163ff24ce57cc6827d641f91bed09906f (run 45905005638). All 22 pinned runtime assets and R40 identity passed."
       },
       "staticChecks": {
         "result": "PASS",
         "details": "All 8 inline JavaScript blocks passed V8 syntax compilation. Source assertions confirmed removal of Last-Modified/HEAD, a public GitHub Actions GET with no custom headers or credentials, exact successful Pages workflow filtering, Europe/London formatting, shared banner/Version Details/Copy service, and explicit unavailable fallback. Live iPhone Safari remains pending."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting merge to Preview main and successful GitHub Pages deployment for R40."
+        "result": "PASS",
+        "runId": 45905004795,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45905004795",
+        "details": "GitHub Pages build, deploy and report-build-status jobs all completed successfully for Preview R40 merge commit e4ea1b2163ff24ce57cc6827d641f91bed09906f. The run updated_at completion time is the runtime timestamp source."
       },
       "userSafariTest": {
         "result": "not tested",
