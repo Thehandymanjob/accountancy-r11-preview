@@ -821,8 +821,97 @@
       "audit_ref": "INV-011",
       "element_id": null,
       "label": "▦ Dashboard Financial overview and balances ›",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_COMPLETE",
+      "translations": {
+        "en": {
+          "purpose": "Open the financial dashboard to review business balances and the current financial overview.",
+          "when": "Use this when you want a summary of recorded income, expenses and balances.",
+          "how": "Select Dashboard from the Accountancy home screen or navigation bar.",
+          "inputs": "No input is needed to open the dashboard. The figures depend on the records currently stored in this browser database.",
+          "result": "The dashboard displays the available financial overview and balance information.",
+          "notes": "Check the reporting period and underlying records before relying on totals. The dashboard is a summary; it does not create or amend transactions."
+        },
+        "fa": {
+          "purpose": "باز کردن داشبورد مالی برای بررسی مانده‌ها و نمای کلی وضعیت مالی کسب‌وکار.",
+          "when": "وقتی می‌خواهید خلاصه درآمدها، هزینه‌ها و مانده‌های ثبت‌شده را ببینید از این گزینه استفاده کنید.",
+          "how": "از صفحه اصلی حسابداری یا نوار ناوبری، «Dashboard» را انتخاب کنید.",
+          "inputs": "برای باز کردن داشبورد ورودی لازم نیست. ارقام به رکوردهای ذخیره‌شده فعلی در پایگاه داده همین مرورگر وابسته‌اند.",
+          "result": "داشبورد نمای کلی مالی و اطلاعات مانده‌های موجود را نمایش می‌دهد.",
+          "notes": "پیش از اتکا به جمع‌ها، دوره گزارش و رکوردهای مبنا را بررسی کنید. داشبورد فقط خلاصه است و تراکنشی ایجاد یا اصلاح نمی‌کند."
+        },
+        "ar": {
+          "purpose": "فتح لوحة المعلومات المالية لمراجعة أرصدة النشاط التجاري ونظرة عامة على الوضع المالي.",
+          "when": "استخدمه عندما تريد ملخصاً للدخل والمصروفات والأرصدة المسجلة.",
+          "how": "اختر Dashboard من الصفحة الرئيسية للمحاسبة أو شريط التنقل.",
+          "inputs": "لا يلزم إدخال بيانات لفتح اللوحة. تعتمد الأرقام على السجلات المخزنة حالياً في قاعدة بيانات هذا المتصفح.",
+          "result": "تعرض اللوحة النظرة المالية العامة ومعلومات الأرصدة المتاحة.",
+          "notes": "تحقق من فترة التقرير والسجلات الأساسية قبل الاعتماد على الإجماليات. اللوحة ملخص ولا تنشئ المعاملات أو تعدلها."
+        },
+        "ckb": {
+          "purpose": "کردنەوەی داشبۆردی دارایی بۆ پێداچوونەوە بە باڵانس و دۆخی گشتی دارایی کاروبار.",
+          "when": "کاتێک دەتەوێت پوختەی داهات، خەرجی و باڵانسی تۆمارکراو ببینیت، بەکاریبهێنە.",
+          "how": "لە پەڕەی سەرەکی ژمێریاری یان نواری گەشتکردن Dashboard هەڵبژێرە.",
+          "inputs": "بۆ کردنەوەی داشبۆرد هیچ زانیارییەک پێویست نییە. ژمارەکان پشت بە تۆمارە هەڵگیراوەکانی بنکەدراوەی ئەم وێبگەڕە دەبەستن.",
+          "result": "داشبۆرد پوختەی دۆخی دارایی و زانیاری باڵانسە بەردەستەکان پیشان دەدات.",
+          "notes": "پێش پشتبەستن بە کۆی گشتی، ماوەی ڕاپۆرت و تۆمارە بنەڕەتییەکان بپشکنە. داشبۆرد تەنها پوختەیە و مامەڵە دروست ناکات یان ناگۆڕێت."
+        },
+        "kmr": {
+          "purpose": "Dashboarda darayî veke da ku balansa karsaziyê û dîtina giştî ya darayî kontrol bikî.",
+          "when": "Dema ku kurtasiyek ji dahat, lêçûn û balansa tomarkirî dixwazî, vê bikar bîne.",
+          "how": "Ji rûpela sereke ya hesabê an bara navîgasyonê Dashboard hilbijêre.",
+          "inputs": "Ji bo vekirina dashboardê daneyek nehewce ye. Jimare li ser tomarên heyî yên di databaseya vê gerokê de ne.",
+          "result": "Dashboard dîtina giştî ya darayî û agahiyên balansa peyda nîşan dide.",
+          "notes": "Berî ku bawerî bi tevahîyan bikî, heyama raporê û tomarên bingehîn kontrol bike. Dashboard tenê kurtasî ye; danûstandinan çênake an naguherîne."
+        },
+        "tr": {
+          "purpose": "İşletme bakiyelerini ve genel mali görünümü incelemek için finansal panoyu açar.",
+          "when": "Kaydedilmiş gelir, gider ve bakiyelerin özetini görmek istediğinizde kullanın.",
+          "how": "Muhasebe ana ekranından veya gezinme çubuğundan Dashboard seçeneğini seçin.",
+          "inputs": "Panoyu açmak için giriş gerekmez. Rakamlar bu tarayıcı veritabanında şu anda kayıtlı olan verilere bağlıdır.",
+          "result": "Pano, mevcut finansal genel görünümü ve bakiye bilgilerini gösterir.",
+          "notes": "Toplamlara güvenmeden önce raporlama dönemini ve dayanak kayıtları kontrol edin. Pano bir özettir; işlem oluşturmaz veya değiştirmez."
+        },
+        "pl": {
+          "purpose": "Otwiera pulpit finansowy, aby sprawdzić salda firmy i ogólny obraz finansów.",
+          "when": "Użyj tej opcji, gdy chcesz zobaczyć podsumowanie zapisanych przychodów, wydatków i sald.",
+          "how": "Wybierz Dashboard na stronie głównej księgowości lub na pasku nawigacji.",
+          "inputs": "Do otwarcia pulpitu nie trzeba podawać danych. Wartości zależą od rekordów aktualnie zapisanych w bazie tej przeglądarki.",
+          "result": "Pulpit pokazuje dostępne podsumowanie finansowe i informacje o saldach.",
+          "notes": "Przed poleganiem na sumach sprawdź okres raportowania i rekordy źródłowe. Pulpit jest podsumowaniem; nie tworzy ani nie zmienia transakcji."
+        },
+        "ur": {
+          "purpose": "کاروباری بیلنس اور مالی صورتِ حال کا جائزہ لینے کے لیے مالی ڈیش بورڈ کھولتا ہے۔",
+          "when": "جب آپ درج شدہ آمدنی، اخراجات اور بیلنس کا خلاصہ دیکھنا چاہیں تو اسے استعمال کریں۔",
+          "how": "اکاؤنٹنگ کے مرکزی صفحے یا نیویگیشن بار سے Dashboard منتخب کریں۔",
+          "inputs": "ڈیش بورڈ کھولنے کے لیے کوئی معلومات درکار نہیں۔ اعداد اس براؤزر کے ڈیٹابیس میں موجودہ محفوظ ریکارڈز پر منحصر ہیں۔",
+          "result": "ڈیش بورڈ دستیاب مالی خلاصہ اور بیلنس کی معلومات دکھاتا ہے۔",
+          "notes": "مجموعوں پر بھروسا کرنے سے پہلے رپورٹنگ کی مدت اور بنیادی ریکارڈ دیکھیں۔ ڈیش بورڈ صرف خلاصہ ہے؛ یہ کوئی لین دین بناتا یا تبدیل نہیں کرتا۔"
+        },
+        "pa": {
+          "purpose": "ਕਾਰੋਬਾਰੀ ਬਕਾਇਆ ਅਤੇ ਵਿੱਤੀ ਹਾਲਤ ਦੀ ਝਲਕ ਵੇਖਣ ਲਈ ਵਿੱਤੀ ਡੈਸ਼ਬੋਰਡ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਦਰਜ ਕੀਤੀ ਆਮਦਨ, ਖਰਚਿਆਂ ਅਤੇ ਬਕਾਇਆਂ ਦਾ ਸਾਰ ਵੇਖਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਅਕਾਊਂਟੈਂਸੀ ਦੇ ਮੁੱਖ ਪੰਨੇ ਜਾਂ ਨੇਵੀਗੇਸ਼ਨ ਬਾਰ ਵਿੱਚੋਂ Dashboard ਚੁਣੋ।",
+          "inputs": "ਡੈਸ਼ਬੋਰਡ ਖੋਲ੍ਹਣ ਲਈ ਕੋਈ ਜਾਣਕਾਰੀ ਨਹੀਂ ਚਾਹੀਦੀ। ਅੰਕ ਇਸ ਬ੍ਰਾਊਜ਼ਰ ਦੇ ਡਾਟਾਬੇਸ ਵਿੱਚ ਮੌਜੂਦਾ ਸੰਭਾਲੇ ਰਿਕਾਰਡਾਂ 'ਤੇ ਨਿਰਭਰ ਹਨ।",
+          "result": "ਡੈਸ਼ਬੋਰਡ ਉਪਲਬਧ ਵਿੱਤੀ ਝਲਕ ਅਤੇ ਬਕਾਇਆ ਜਾਣਕਾਰੀ ਦਿਖਾਉਂਦਾ ਹੈ।",
+          "notes": "ਕੁੱਲ ਰਕਮਾਂ 'ਤੇ ਭਰੋਸਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਰਿਪੋਰਟਿੰਗ ਮਿਆਦ ਅਤੇ ਮੂਲ ਰਿਕਾਰਡ ਵੇਖੋ। ਡੈਸ਼ਬੋਰਡ ਸਿਰਫ਼ ਸਾਰ ਹੈ; ਇਹ ਲੈਣ-ਦੇਣ ਬਣਾਉਂਦਾ ਜਾਂ ਬਦਲਦਾ ਨਹੀਂ।"
+        },
+        "prs": {
+          "purpose": "داشبورد مالی را برای بررسی مانده‌ها و نمای کلی وضعیت مالی کسب‌وکار باز می‌کند.",
+          "when": "وقتی می‌خواهید خلاصه درآمدها، هزینه‌ها و مانده‌های ثبت‌شده را ببینید از این گزینه استفاده کنید.",
+          "how": "از صفحه اصلی حسابداری یا نوار پیمایش Dashboard را انتخاب کنید.",
+          "inputs": "برای بازکردن داشبورد ورودی لازم نیست. ارقام به رکوردهای فعلی ذخیره‌شده در پایگاه داده همین مرورگر وابسته‌اند.",
+          "result": "داشبورد نمای کلی مالی و اطلاعات مانده‌های موجود را نمایش می‌دهد.",
+          "notes": "پیش از اتکا به جمع‌ها، دوره گزارش و رکوردهای مبنا را بررسی کنید. داشبورد فقط خلاصه است و تراکنشی ایجاد یا اصلاح نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د سوداګرۍ د بیلانسونو او عمومي مالي حالت د کتلو لپاره مالي ډشبورډ پرانیزي.",
+          "when": "کله چې د ثبت شویو عایداتو، لګښتونو او بیلانسونو لنډیز غواړئ، دا وکاروئ.",
+          "how": "د حسابدارۍ له اصلي پاڼې یا د تګ راتګ له پټې څخه Dashboard وټاکئ.",
+          "inputs": "د ډشبورډ د پرانیستلو لپاره معلوماتو ته اړتیا نشته. شمېرې د همدې براوزر په ډیټابېس کې پر اوسنیو خوندي شویو ریکارډونو ولاړې دي.",
+          "result": "ډشبورډ شته مالي لنډیز او د بیلانس معلومات ښيي.",
+          "notes": "پر ټولیزو شمېرو تر باور مخکې د راپور موده او بنسټیز ریکارډونه وګورئ. ډشبورډ یوازې لنډیز دی؛ معامله نه جوړوي او نه یې بدلوي."
+        }
+      },
       "handler_or_behavior": "`show(`"
     },
     {
@@ -830,8 +919,97 @@
       "audit_ref": "INV-012",
       "element_id": null,
       "label": "＋ Add Entry Record income or expenses ›",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_COMPLETE",
+      "translations": {
+        "en": {
+          "purpose": "Open the entry form to record a new business income or expense transaction.",
+          "when": "Use this when money is received or a business cost is incurred and needs to be recorded.",
+          "how": "Select Add Entry. Choose Income or Expense, complete the relevant fields and use the form's save action.",
+          "inputs": "Enter the transaction type, date, amount and the required category or description. Add payment method and notes where applicable.",
+          "result": "The entry form is displayed for a new income or expense record. The transaction is stored only after a successful save.",
+          "notes": "Check the type and amount carefully before saving. Do not record an unpaid invoice as received income; invoice payment and income recording follow their own workflow."
+        },
+        "fa": {
+          "purpose": "باز کردن فرم ثبت برای واردکردن درآمد یا هزینه جدید کسب‌وکار.",
+          "when": "وقتی پولی دریافت می‌کنید یا هزینه‌ای برای کسب‌وکار ایجاد می‌شود و باید ثبت شود از این گزینه استفاده کنید.",
+          "how": "«Add Entry» را انتخاب کنید. نوع Income یا Expense را مشخص کنید، فیلدهای مربوط را تکمیل کرده و از گزینه ذخیره فرم استفاده کنید.",
+          "inputs": "نوع تراکنش، تاریخ، مبلغ و دسته‌بندی یا شرح لازم را وارد کنید. در صورت کاربرد روش پرداخت و یادداشت را نیز اضافه کنید.",
+          "result": "فرم ثبت درآمد یا هزینه جدید نمایش داده می‌شود. تراکنش فقط پس از ذخیره موفق ثبت خواهد شد.",
+          "notes": "پیش از ذخیره نوع و مبلغ را دقیق بررسی کنید. فاکتور پرداخت‌نشده را به‌عنوان درآمد دریافت‌شده ثبت نکنید؛ پرداخت فاکتور و ثبت درآمد گردش‌کار جداگانه دارند."
+        },
+        "ar": {
+          "purpose": "فتح نموذج الإدخال لتسجيل معاملة دخل أو مصروف جديدة للنشاط التجاري.",
+          "when": "استخدمه عند استلام مبلغ أو تكبد تكلفة تجارية تحتاج إلى تسجيلها.",
+          "how": "اختر Add Entry. حدد Income أو Expense، وأكمل الحقول المناسبة ثم استخدم إجراء الحفظ في النموذج.",
+          "inputs": "أدخل نوع المعاملة والتاريخ والمبلغ والفئة أو الوصف المطلوب. أضف طريقة الدفع والملاحظات عند الحاجة.",
+          "result": "يظهر نموذج لإدخال سجل دخل أو مصروف جديد. لا تُخزَّن المعاملة إلا بعد نجاح الحفظ.",
+          "notes": "تحقق من النوع والمبلغ بعناية قبل الحفظ. لا تسجل فاتورة غير مدفوعة كدخل مستلم؛ فلعملية دفع الفاتورة وتسجيل الدخل مساران منفصلان."
+        },
+        "ckb": {
+          "purpose": "کردنەوەی فۆڕمی تۆمارکردن بۆ تۆمارکردنی داهات یان خەرجی نوێی کاروبار.",
+          "when": "کاتێک پارە وەردەگریت یان تێچوویەکی کاروبار دروست دەبێت و پێویستە تۆمار بکرێت، بەکاریبهێنە.",
+          "how": "Add Entry هەڵبژێرە. Income یان Expense دیاری بکە، خانە پەیوەندیدارەکان پڕ بکەرەوە و کردارەکەی پاشەکەوتکردنی فۆڕمەکە بەکاربهێنە.",
+          "inputs": "جۆری مامەڵە، بەروار، بڕی پارە و پۆل یان وەسفی پێویست بنووسە. ئەگەر پەیوەندیدار بوو شێوازی پارەدان و تێبینی زیاد بکە.",
+          "result": "فۆڕمی تۆمارکردنی داهات یان خەرجی نوێ پیشان دەدرێت. مامەڵەکە تەنها دوای پاشەکەوتکردنی سەرکەوتوو هەڵدەگیرێت.",
+          "notes": "پێش پاشەکەوتکردن جۆر و بڕی پارە بە وردی بپشکنە. فاکتۆری نەدراو وەک داهاتی وەرگیراو تۆمار مەکە؛ پارەدانی فاکتۆر و تۆمارکردنی داهات ڕێڕەوی جیاوازن."
+        },
+        "kmr": {
+          "purpose": "Formê têketinê veke da ku dahat an lêçûna nû ya karsaziyê tomar bikî.",
+          "when": "Dema ku pere distînî an lêçûnek çêdibe û divê were tomarkirin, vê bikar bîne.",
+          "how": "Add Entry hilbijêre. Income an Expense hilbijêre, qadên têkildar dagire û kiryara tomarkirinê ya formê bikar bîne.",
+          "inputs": "Cureya danûstandinê, tarîx, mîqdar û kategorî an ravekirina pêwîst binivîse. Dema pêwîst be awayê dayînê û notan zêde bike.",
+          "result": "Forma tomarkirina dahat an lêçûna nû xuya dibe. Danûstandin tenê piştî tomarkirina serkeftî tê hilanîn.",
+          "notes": "Berî tomarkirinê cure û mîqdarê bi baldarî kontrol bike. Fatûreya nehatî dayîn wek dahata hatî wergirtin tomar neke; dayîna fatûreyê û tomarkirina dahatê pêvajoyên cuda ne."
+        },
+        "tr": {
+          "purpose": "Yeni bir işletme gelir veya gider işlemi kaydetmek için giriş formunu açar.",
+          "when": "Para alındığında veya işletme gideri oluştuğunda ve kaydedilmesi gerektiğinde kullanın.",
+          "how": "Add Entry seçeneğini seçin. Income veya Expense türünü belirleyin, ilgili alanları doldurun ve formun kaydetme işlemini kullanın.",
+          "inputs": "İşlem türünü, tarihi, tutarı ve gerekli kategori veya açıklamayı girin. Uygunsa ödeme yöntemi ve notları ekleyin.",
+          "result": "Yeni gelir veya gider kaydı için form görüntülenir. İşlem yalnızca başarıyla kaydedildikten sonra saklanır.",
+          "notes": "Kaydetmeden önce türü ve tutarı dikkatle kontrol edin. Ödenmemiş faturayı tahsil edilmiş gelir olarak kaydetmeyin; fatura ödemesi ve gelir kaydı ayrı iş akışlarıdır."
+        },
+        "pl": {
+          "purpose": "Otwiera formularz wpisu, aby zarejestrować nowy przychód lub wydatek firmy.",
+          "when": "Użyj tej opcji, gdy otrzymano pieniądze lub poniesiono koszt firmowy, który należy zarejestrować.",
+          "how": "Wybierz Add Entry. Wskaż Income lub Expense, uzupełnij odpowiednie pola i użyj funkcji zapisu formularza.",
+          "inputs": "Wprowadź typ transakcji, datę, kwotę oraz wymaganą kategorię lub opis. W razie potrzeby dodaj metodę płatności i notatki.",
+          "result": "Wyświetli się formularz nowego przychodu lub wydatku. Transakcja zostanie zapisana dopiero po pomyślnym zapisaniu formularza.",
+          "notes": "Przed zapisem dokładnie sprawdź typ i kwotę. Nie zapisuj nieopłaconej faktury jako otrzymanego przychodu; płatność faktury i rejestrowanie przychodu to osobne procesy."
+        },
+        "ur": {
+          "purpose": "نئی کاروباری آمدنی یا اخراجات کا لین دین درج کرنے کے لیے انٹری فارم کھولتا ہے۔",
+          "when": "جب رقم وصول ہو یا کاروباری خرچ آئے اور اسے ریکارڈ کرنا ہو تو استعمال کریں۔",
+          "how": "Add Entry منتخب کریں۔ Income یا Expense چنیں، متعلقہ خانے پُر کریں اور فارم کا محفوظ کرنے والا اختیار استعمال کریں۔",
+          "inputs": "لین دین کی قسم، تاریخ، رقم اور مطلوبہ زمرہ یا تفصیل درج کریں۔ جہاں لاگو ہو ادائیگی کا طریقہ اور نوٹس بھی شامل کریں۔",
+          "result": "نئی آمدنی یا اخراجات کے ریکارڈ کا فارم دکھایا جاتا ہے۔ لین دین صرف کامیاب محفوظ ہونے کے بعد اسٹور ہوتا ہے۔",
+          "notes": "محفوظ کرنے سے پہلے قسم اور رقم غور سے دیکھیں۔ غیر ادا شدہ انوائس کو وصول شدہ آمدنی کے طور پر درج نہ کریں؛ انوائس کی ادائیگی اور آمدنی کا اندراج الگ طریقہ کار ہیں۔"
+        },
+        "pa": {
+          "purpose": "ਨਵੀਂ ਕਾਰੋਬਾਰੀ ਆਮਦਨ ਜਾਂ ਖਰਚੇ ਦੀ ਐਂਟਰੀ ਦਰਜ ਕਰਨ ਲਈ ਫਾਰਮ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਪੈਸਾ ਮਿਲੇ ਜਾਂ ਕਾਰੋਬਾਰੀ ਖਰਚਾ ਹੋਵੇ ਜਿਸਨੂੰ ਦਰਜ ਕਰਨਾ ਲੋੜੀਂਦਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Add Entry ਚੁਣੋ। Income ਜਾਂ Expense ਚੁਣੋ, ਸੰਬੰਧਿਤ ਖੇਤਰ ਭਰੋ ਅਤੇ ਫਾਰਮ ਦਾ ਸੇਵ ਵਿਕਲਪ ਵਰਤੋ।",
+          "inputs": "ਲੈਣ-ਦੇਣ ਦੀ ਕਿਸਮ, ਮਿਤੀ, ਰਕਮ ਅਤੇ ਲੋੜੀਂਦੀ ਸ਼੍ਰੇਣੀ ਜਾਂ ਵੇਰਵਾ ਭਰੋ। ਜਿੱਥੇ ਲਾਗੂ ਹੋਵੇ ਭੁਗਤਾਨ ਦਾ ਤਰੀਕਾ ਅਤੇ ਨੋਟ ਵੀ ਜੋੜੋ।",
+          "result": "ਨਵੀਂ ਆਮਦਨ ਜਾਂ ਖਰਚੇ ਦਾ ਫਾਰਮ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ। ਲੈਣ-ਦੇਣ ਸਿਰਫ਼ ਸਫਲਤਾਪੂਰਵਕ ਸੇਵ ਹੋਣ ਤੋਂ ਬਾਅਦ ਸਟੋਰ ਹੁੰਦਾ ਹੈ।",
+          "notes": "ਸੇਵ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਕਿਸਮ ਅਤੇ ਰਕਮ ਧਿਆਨ ਨਾਲ ਵੇਖੋ। ਨਾ-ਭੁਗਤਾਨ ਕੀਤੀ ਇਨਵੌਇਸ ਨੂੰ ਪ੍ਰਾਪਤ ਆਮਦਨ ਵਜੋਂ ਦਰਜ ਨਾ ਕਰੋ; ਇਨਵੌਇਸ ਭੁਗਤਾਨ ਅਤੇ ਆਮਦਨ ਦਰਜ ਕਰਨ ਦੀਆਂ ਪ੍ਰਕਿਰਿਆਵਾਂ ਵੱਖਰੀਆਂ ਹਨ।"
+        },
+        "prs": {
+          "purpose": "فرم ثبت را برای واردکردن درآمد یا هزینه جدید کسب‌وکار باز می‌کند.",
+          "when": "وقتی پولی دریافت می‌کنید یا هزینه‌ای برای کسب‌وکار ایجاد می‌شود و باید ثبت شود از این گزینه استفاده کنید.",
+          "how": "Add Entry را انتخاب کنید. Income یا Expense را مشخص کنید، فیلدهای مربوط را تکمیل کرده و گزینه ذخیره فرم را بزنید.",
+          "inputs": "نوع تراکنش، تاریخ، مبلغ و دسته‌بندی یا شرح لازم را وارد کنید. در صورت کاربرد روش پرداخت و یادداشت‌ها را نیز اضافه کنید.",
+          "result": "فرم ثبت درآمد یا هزینه جدید نمایش داده می‌شود. تراکنش فقط پس از ذخیره موفق نگهداری می‌شود.",
+          "notes": "پیش از ذخیره نوع و مبلغ را دقیق بررسی کنید. فاکتور پرداخت‌نشده را درآمد دریافت‌شده ثبت نکنید؛ پرداخت فاکتور و ثبت درآمد دو گردش‌کار جدا هستند."
+        },
+        "ps": {
+          "purpose": "د نوې سوداګریزې عاید یا لګښت د معاملې د ثبت لپاره د داخلولو فورمه پرانیزي.",
+          "when": "کله چې پیسې ترلاسه شي یا سوداګریز لګښت رامنځته شي او ثبتول یې اړین وي، دا وکاروئ.",
+          "how": "Add Entry وټاکئ. Income یا Expense غوره کړئ، اړوندې خانې ډکې کړئ او د فورمې د خوندي کولو کړنه وکاروئ.",
+          "inputs": "د معاملې ډول، نېټه، اندازه او اړینه کټګوري یا تشریح ولیکئ. که اړوند وي د پیسو ورکولو طریقه او یادښتونه هم ورزیات کړئ.",
+          "result": "د نوي عاید یا لګښت د ثبت فورمه ښکاري. معامله یوازې تر بریالي خوندي کولو وروسته زېرمه کېږي.",
+          "notes": "تر خوندي کولو مخکې ډول او اندازه په دقت وګورئ. نه‌ورکړل شوی بل د ترلاسه شوي عاید په توګه مه ثبتوئ؛ د بل تادیه او د عاید ثبت جلا بهیرونه دي."
+        }
+      },
       "handler_or_behavior": "`show(`"
     },
     {
@@ -839,8 +1017,97 @@
       "audit_ref": "INV-013",
       "element_id": null,
       "label": "▤ Records Find and manage transactions ›",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_COMPLETE",
+      "translations": {
+        "en": {
+          "purpose": "Open the records area to search, filter and manage existing income and expense transactions.",
+          "when": "Use this when you need to find a past entry, review its details or access available record actions.",
+          "how": "Select Records from the Accountancy home screen or navigation bar. Use Search records and Filter by type to narrow the list.",
+          "inputs": "You can search by category, notes or amount and filter by All records, Income, Expense or Invoices.",
+          "result": "The matching transaction list is displayed with the record details and available actions.",
+          "notes": "Review the selected record carefully before editing or deleting. Deletion may be irreversible; follow the app's confirmation prompts and keep a current backup."
+        },
+        "fa": {
+          "purpose": "باز کردن بخش سوابق برای جست‌وجو، فیلتر و مدیریت تراکنش‌های درآمد و هزینه موجود.",
+          "when": "وقتی می‌خواهید یک ثبت قبلی را پیدا کنید، جزئیات آن را ببینید یا به عملیات مربوط به رکورد دسترسی داشته باشید از این گزینه استفاده کنید.",
+          "how": "از صفحه اصلی حسابداری یا نوار ناوبری «Records» را انتخاب کنید. برای محدودکردن فهرست از Search records و Filter by type استفاده کنید.",
+          "inputs": "می‌توانید بر اساس دسته‌بندی، یادداشت یا مبلغ جست‌وجو کنید و فهرست را به All records، Income، Expense یا Invoices محدود کنید.",
+          "result": "فهرست تراکنش‌های منطبق همراه با جزئیات و عملیات در دسترس نمایش داده می‌شود.",
+          "notes": "پیش از ویرایش یا حذف، رکورد انتخاب‌شده را دقیق بررسی کنید. حذف ممکن است برگشت‌ناپذیر باشد؛ پیام‌های تأیید برنامه را دنبال کنید و نسخه پشتیبان به‌روز داشته باشید."
+        },
+        "ar": {
+          "purpose": "فتح قسم السجلات للبحث عن معاملات الدخل والمصروفات الموجودة وتصفيتها وإدارتها.",
+          "when": "استخدمه عندما تحتاج إلى العثور على إدخال سابق أو مراجعة تفاصيله أو الوصول إلى الإجراءات المتاحة للسجل.",
+          "how": "اختر Records من الصفحة الرئيسية للمحاسبة أو شريط التنقل. استخدم Search records وFilter by type لتضييق القائمة.",
+          "inputs": "يمكنك البحث حسب الفئة أو الملاحظات أو المبلغ، والتصفية إلى All records أو Income أو Expense أو Invoices.",
+          "result": "تظهر قائمة المعاملات المطابقة مع تفاصيل السجلات والإجراءات المتاحة.",
+          "notes": "راجع السجل المحدد بعناية قبل تعديله أو حذفه. قد يكون الحذف غير قابل للتراجع؛ اتبع رسائل التأكيد واحتفظ بنسخة احتياطية حديثة."
+        },
+        "ckb": {
+          "purpose": "کردنەوەی بەشی تۆمارەکان بۆ گەڕان، فلتەرکردن و بەڕێوەبردنی مامەڵەکانی داهات و خەرجیی پێشوو.",
+          "when": "کاتێک دەتەوێت تۆمارێکی پێشوو بدۆزیتەوە، وردەکارییەکانی ببینیت یان کردارە بەردەستەکانی بەڕێوەببەیت، بەکاریبهێنە.",
+          "how": "لە پەڕەی سەرەکی ژمێریاری یان نواری گەشتکردن Records هەڵبژێرە. Search records و Filter by type بەکاربهێنە بۆ تەسککردنەوەی لیستەکە.",
+          "inputs": "دەتوانیت بە پۆل، تێبینی یان بڕی پارە بگەڕێیت و فلتەر بکەیت بۆ All records، Income، Expense یان Invoices.",
+          "result": "لیستی مامەڵە هاوتاکان لەگەڵ وردەکاری تۆمار و کردارە بەردەستەکان پیشان دەدرێت.",
+          "notes": "پێش دەستکاریکردن یان سڕینەوە تۆماری هەڵبژێردراو بە وردی بپشکنە. سڕینەوە لەوانەیە نەگەڕێتەوە؛ پەیامەکانی پشتڕاستکردنەوەی بەرنامە پەیڕەو بکە و پاڵپشتییەکی نوێ هەبێت."
+        },
+        "kmr": {
+          "purpose": "Beşa tomarên heyî veke da ku daneyên dahat û lêçûnê bigerî, fîltre bikî û rêve bibî.",
+          "when": "Dema ku divê tomarek kevn bibînî, hûrguliyên wê kontrol bikî an kiryarên peyda bikî, vê bikar bîne.",
+          "how": "Ji rûpela sereke ya hesabê an bara navîgasyonê Records hilbijêre. Search records û Filter by type bikar bîne da ku lîsteyê teng bikî.",
+          "inputs": "Dikarî li gor kategorî, not an mîqdar bigerî û lîsteyê li All records, Income, Expense an Invoices fîltre bikî.",
+          "result": "Lîsteya danûstandinên lihevhatî bi hûrguliyên tomar û kiryarên peyda xuya dibe.",
+          "notes": "Berî sererastkirin an jêbirinê tomara hilbijartî bi baldarî kontrol bike. Jêbirin dikare vegerandinê nebe; peyamên pejirandinê yên sepanê bişopîne û backupa nû bihêle."
+        },
+        "tr": {
+          "purpose": "Mevcut gelir ve gider işlemlerini aramak, filtrelemek ve yönetmek için kayıtlar alanını açar.",
+          "when": "Önceki bir kaydı bulmanız, ayrıntılarını incelemeniz veya kullanılabilir kayıt işlemlerine erişmeniz gerektiğinde kullanın.",
+          "how": "Muhasebe ana ekranından veya gezinme çubuğundan Records seçeneğini seçin. Listeyi daraltmak için Search records ve Filter by type alanlarını kullanın.",
+          "inputs": "Kategori, not veya tutara göre arama yapabilir; All records, Income, Expense veya Invoices seçeneklerine göre filtreleyebilirsiniz.",
+          "result": "Eşleşen işlem listesi, kayıt ayrıntıları ve kullanılabilir işlemlerle birlikte görüntülenir.",
+          "notes": "Düzenlemeden veya silmeden önce seçili kaydı dikkatle inceleyin. Silme işlemi geri alınamayabilir; uygulamanın onay istemlerini izleyin ve güncel yedek bulundurun."
+        },
+        "pl": {
+          "purpose": "Otwiera obszar rekordów, aby wyszukiwać, filtrować i zarządzać istniejącymi transakcjami przychodów i wydatków.",
+          "when": "Użyj tej opcji, gdy chcesz znaleźć wcześniejszy wpis, sprawdzić jego szczegóły lub skorzystać z dostępnych działań.",
+          "how": "Wybierz Records na stronie głównej księgowości lub pasku nawigacji. Użyj Search records i Filter by type, aby zawęzić listę.",
+          "inputs": "Możesz wyszukiwać według kategorii, notatek lub kwoty oraz filtrować do All records, Income, Expense lub Invoices.",
+          "result": "Wyświetli się lista pasujących transakcji wraz ze szczegółami rekordów i dostępnymi działaniami.",
+          "notes": "Przed edycją lub usunięciem dokładnie sprawdź wybrany rekord. Usunięcie może być nieodwracalne; postępuj zgodnie z monitami potwierdzenia i miej aktualną kopię zapasową."
+        },
+        "ur": {
+          "purpose": "موجودہ آمدنی اور اخراجات کے لین دین تلاش کرنے، فلٹر کرنے اور سنبھالنے کے لیے ریکارڈز کا حصہ کھولتا ہے۔",
+          "when": "جب آپ کو پچھلی انٹری تلاش کرنی ہو، اس کی تفصیلات دیکھنی ہوں یا ریکارڈ کے دستیاب اقدامات تک پہنچنا ہو تو استعمال کریں۔",
+          "how": "اکاؤنٹنگ کے مرکزی صفحے یا نیویگیشن بار سے Records منتخب کریں۔ فہرست محدود کرنے کے لیے Search records اور Filter by type استعمال کریں۔",
+          "inputs": "آپ زمرے، نوٹس یا رقم کے مطابق تلاش کر سکتے ہیں اور All records، Income، Expense یا Invoices کے مطابق فلٹر کر سکتے ہیں۔",
+          "result": "مطابق لین دین کی فہرست ریکارڈ کی تفصیلات اور دستیاب اقدامات کے ساتھ دکھائی دیتی ہے۔",
+          "notes": "ترمیم یا حذف سے پہلے منتخب ریکارڈ غور سے دیکھیں۔ حذف واپس نہیں ہو سکتا؛ ایپ کی تصدیقی ہدایات پر عمل کریں اور تازہ بیک اپ رکھیں۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਆਮਦਨ ਅਤੇ ਖਰਚੇ ਦੇ ਲੈਣ-ਦੇਣ ਖੋਜਣ, ਫਿਲਟਰ ਕਰਨ ਅਤੇ ਸੰਭਾਲਣ ਲਈ ਰਿਕਾਰਡ ਭਾਗ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਪੁਰਾਣੀ ਐਂਟਰੀ ਲੱਭਣੀ, ਉਸਦੇ ਵੇਰਵੇ ਵੇਖਣੇ ਜਾਂ ਰਿਕਾਰਡ ਦੇ ਉਪਲਬਧ ਕੰਮ ਕਰਨੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਅਕਾਊਂਟੈਂਸੀ ਦੇ ਮੁੱਖ ਪੰਨੇ ਜਾਂ ਨੇਵੀਗੇਸ਼ਨ ਬਾਰ ਵਿੱਚੋਂ Records ਚੁਣੋ। ਸੂਚੀ ਘਟਾਉਣ ਲਈ Search records ਅਤੇ Filter by type ਵਰਤੋ।",
+          "inputs": "ਤੁਸੀਂ ਸ਼੍ਰੇਣੀ, ਨੋਟ ਜਾਂ ਰਕਮ ਅਨੁਸਾਰ ਖੋਜ ਕਰ ਸਕਦੇ ਹੋ ਅਤੇ All records, Income, Expense ਜਾਂ Invoices ਅਨੁਸਾਰ ਫਿਲਟਰ ਕਰ ਸਕਦੇ ਹੋ।",
+          "result": "ਮਿਲਦੇ ਲੈਣ-ਦੇਣ ਦੀ ਸੂਚੀ ਰਿਕਾਰਡ ਵੇਰਵਿਆਂ ਅਤੇ ਉਪਲਬਧ ਕਾਰਵਾਈਆਂ ਸਮੇਤ ਦਿਖਾਈ ਦਿੰਦੀ ਹੈ।",
+          "notes": "ਸੋਧਣ ਜਾਂ ਮਿਟਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਚੁਣਿਆ ਰਿਕਾਰਡ ਧਿਆਨ ਨਾਲ ਵੇਖੋ। ਮਿਟਾਉਣਾ ਵਾਪਸ ਨਹੀਂ ਹੋ ਸਕਦਾ; ਐਪ ਦੀ ਪੁਸ਼ਟੀ ਦੀ ਪਾਲਣਾ ਕਰੋ ਅਤੇ ਤਾਜ਼ਾ ਬੈਕਅੱਪ ਰੱਖੋ।"
+        },
+        "prs": {
+          "purpose": "بخش سوابق را برای جست‌وجو، فیلتر و مدیریت تراکنش‌های درآمد و هزینه موجود باز می‌کند.",
+          "when": "وقتی می‌خواهید ثبت قبلی را پیدا کنید، جزئیات آن را بررسی کنید یا به عملیات مربوط به رکورد دسترسی داشته باشید از این گزینه استفاده کنید.",
+          "how": "از صفحه اصلی حسابداری یا نوار پیمایش Records را انتخاب کنید. برای محدودکردن فهرست از Search records و Filter by type استفاده کنید.",
+          "inputs": "می‌توانید بر اساس دسته‌بندی، یادداشت یا مبلغ جست‌وجو کنید و فهرست را به All records، Income، Expense یا Invoices فیلتر کنید.",
+          "result": "فهرست تراکنش‌های منطبق همراه با جزئیات و عملیات در دسترس نمایش داده می‌شود.",
+          "notes": "پیش از ویرایش یا حذف، رکورد انتخاب‌شده را دقیق بررسی کنید. حذف ممکن است برگشت‌ناپذیر باشد؛ پیام تأیید برنامه را دنبال کنید و نسخه پشتیبان به‌روز داشته باشید."
+        },
+        "ps": {
+          "purpose": "د موجودو عایداتو او لګښتونو د معاملو د لټون، فلټر او سمبالولو لپاره د ریکارډونو برخه پرانیزي.",
+          "when": "کله چې پخوانۍ داخله موندل، جزئیات یې کتل یا د ریکارډ شته کړنې کارول غواړئ، دا وکاروئ.",
+          "how": "د حسابدارۍ له اصلي پاڼې یا د تګ راتګ له پټې څخه Records وټاکئ. د لېست د محدودولو لپاره Search records او Filter by type وکاروئ.",
+          "inputs": "د کټګورۍ، یادښتونو یا اندازې له مخې لټون کولی شئ او د All records، Income، Expense یا Invoices له مخې فلټر کولی شئ.",
+          "result": "د سمون خوړونکو معاملو لېست د ریکارډ له جزئیاتو او شته کړنو سره ښکاري.",
+          "notes": "تر سمون یا ړنګولو مخکې ټاکل شوی ریکارډ په دقت وګورئ. ړنګول بېرته نه راګرځي؛ د اپ د تایید پیغامونه تعقیب کړئ او تازه بیک اپ وساتئ."
+        }
+      },
       "handler_or_behavior": "`show(`"
     },
     {
@@ -848,8 +1115,97 @@
       "audit_ref": "INV-014",
       "element_id": null,
       "label": "▧ Invoices Create and review invoices ›",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_COMPLETE",
+      "translations": {
+        "en": {
+          "purpose": "Open the invoices area to create, review and manage customer invoices and their payment status.",
+          "when": "Use this when preparing a customer invoice, checking an existing invoice or reviewing whether it is paid or unpaid.",
+          "how": "Select Invoices from the Accountancy home screen or navigation bar. Use New Invoice to start a document or the list and filters to review saved invoices.",
+          "inputs": "Invoice creation requires the relevant customer and work details, invoice items or description, amounts and dates. Payment status is managed separately from document status.",
+          "result": "The invoice workspace displays saved invoices and available creation and review actions.",
+          "notes": "Draft or issued-but-unpaid invoices are not received income. Only record income when payment has actually been received and confirmed through the invoice payment workflow."
+        },
+        "fa": {
+          "purpose": "باز کردن بخش فاکتورها برای ایجاد، بررسی و مدیریت فاکتورهای مشتریان و وضعیت پرداخت آن‌ها.",
+          "when": "وقتی می‌خواهید برای مشتری فاکتور تهیه کنید، فاکتور موجودی را بررسی کنید یا وضعیت پرداخت‌شده و پرداخت‌نشده را ببینید از این گزینه استفاده کنید.",
+          "how": "از صفحه اصلی حسابداری یا نوار ناوبری «Invoices» را انتخاب کنید. برای شروع سند از New Invoice و برای بررسی فاکتورهای ذخیره‌شده از فهرست و فیلترها استفاده کنید.",
+          "inputs": "ایجاد فاکتور به اطلاعات مشتری و کار، اقلام یا شرح فاکتور، مبالغ و تاریخ‌ها نیاز دارد. وضعیت پرداخت از وضعیت سند جداگانه مدیریت می‌شود.",
+          "result": "فضای فاکتورها، فاکتورهای ذخیره‌شده و عملیات ایجاد و بررسی در دسترس را نمایش می‌دهد.",
+          "notes": "فاکتور پیش‌نویس یا صادرشده اما پرداخت‌نشده، درآمد دریافت‌شده نیست. درآمد را فقط زمانی ثبت کنید که وجه واقعاً دریافت و از طریق گردش‌کار پرداخت فاکتور تأیید شده باشد."
+        },
+        "ar": {
+          "purpose": "فتح قسم الفواتير لإنشاء فواتير العملاء ومراجعتها وإدارتها وحالة سدادها.",
+          "when": "استخدمه عند إعداد فاتورة لعميل أو فحص فاتورة موجودة أو مراجعة ما إذا كانت مدفوعة أم غير مدفوعة.",
+          "how": "اختر Invoices من الصفحة الرئيسية للمحاسبة أو شريط التنقل. استخدم New Invoice لبدء مستند، أو القائمة وعوامل التصفية لمراجعة الفواتير المحفوظة.",
+          "inputs": "يتطلب إنشاء الفاتورة بيانات العميل والعمل وبنود الفاتورة أو وصفها والمبالغ والتواريخ. تُدار حالة الدفع بشكل منفصل عن حالة المستند.",
+          "result": "تعرض مساحة الفواتير الفواتير المحفوظة وإجراءات الإنشاء والمراجعة المتاحة.",
+          "notes": "الفاتورة المسودة أو الصادرة غير المدفوعة ليست دخلاً مستلماً. لا تسجل الدخل إلا بعد استلام المبلغ فعلياً وتأكيده عبر سير عمل دفع الفاتورة."
+        },
+        "ckb": {
+          "purpose": "کردنەوەی بەشی فاکتۆرەکان بۆ دروستکردن، پێداچوونەوە و بەڕێوەبردنی فاکتۆری کڕیاران و دۆخی پارەدانیان.",
+          "when": "کاتێک دەتەوێت فاکتۆرێک بۆ کڕیار ئامادە بکەیت، فاکتۆرێکی هەبوو بپشکنیت یان بزانیت پارەدراوە یان نا، بەکاریبهێنە.",
+          "how": "لە پەڕەی سەرەکی ژمێریاری یان نواری گەشتکردن Invoices هەڵبژێرە. بۆ دەستپێکردنی بەڵگەنامە New Invoice و بۆ پێداچوونەوە بە فاکتۆرە پاشەکەوتکراوەکان لیست و فلتەرەکان بەکاربهێنە.",
+          "inputs": "دروستکردنی فاکتۆر پێویستی بە زانیاری کڕیار و کار، دانەکان یان وەسفی فاکتۆر، بڕی پارە و بەروارەکان هەیە. دۆخی پارەدان جیا لە دۆخی بەڵگەنامە بەڕێوەدەبرێت.",
+          "result": "شوێنی فاکتۆرەکان فاکتۆرە پاشەکەوتکراوەکان و کردارە بەردەستەکانی دروستکردن و پێداچوونەوە پیشان دەدات.",
+          "notes": "فاکتۆری ڕەشنووس یان دەرچوو بەڵام نەدراو داهاتی وەرگیراو نییە. تەنها کاتێک داهات تۆمار بکە کە پارەکە بەڕاستی وەرگیراو و لە ڕێڕەوی پارەدانی فاکتۆر پشتڕاست کرابێتەوە."
+        },
+        "kmr": {
+          "purpose": "Beşa fatûreyan veke da ku fatûreyên xerîdaran çêkî, binirxînî û rêve bibî û rewşa dayînê kontrol bikî.",
+          "when": "Dema ku fatûreyek ji xerîdarekê re amade dikî, fatûreyek heyî kontrol dikî an dixwazî bizanî hatiye dayîn an na, vê bikar bîne.",
+          "how": "Ji rûpela sereke ya hesabê an bara navîgasyonê Invoices hilbijêre. Ji bo destpêkirina belgeyekê New Invoice bikar bîne, an ji bo vekolîna fatûreyên tomarkirî lîste û fîlteran bikar bîne.",
+          "inputs": "Çêkirina fatûreyê agahiyên xerîdar û kar, tiştên fatûreyê an ravekirin, mîqdar û tarîxan dixwaze. Rewşa dayînê ji rewşa belgeyê cuda tê rêvebirin.",
+          "result": "Cihê fatûreyan fatûreyên tomarkirî û kiryarên peyda yên çêkirin û vekolînê nîşan dide.",
+          "notes": "Fatûreya draft an ya derketî lê nehatî dayîn dahata hatî wergirtin nîne. Tenê dema ku pere bi rastî hatibe wergirtin û di pêvajoya dayîna fatûreyê de hatibe piştrastkirin, dahat tomar bike."
+        },
+        "tr": {
+          "purpose": "Müşteri faturalarını oluşturmak, incelemek ve yönetmek ile ödeme durumlarını görmek için faturalar alanını açar.",
+          "when": "Müşteriye fatura hazırlarken, mevcut faturayı kontrol ederken veya ödenmiş/ödenmemiş durumunu incelerken kullanın.",
+          "how": "Muhasebe ana ekranından veya gezinme çubuğundan Invoices seçeneğini seçin. Yeni belge başlatmak için New Invoice, kayıtlı faturaları incelemek için liste ve filtreleri kullanın.",
+          "inputs": "Fatura oluşturmak için müşteri ve iş bilgileri, fatura kalemleri veya açıklama, tutarlar ve tarihler gerekir. Ödeme durumu belge durumundan ayrı yönetilir.",
+          "result": "Fatura çalışma alanı kayıtlı faturaları ve kullanılabilir oluşturma ve inceleme işlemlerini gösterir.",
+          "notes": "Taslak veya düzenlenmiş ancak ödenmemiş faturalar tahsil edilmiş gelir değildir. Geliri yalnızca ödeme gerçekten alındığında ve fatura ödeme akışında doğrulandığında kaydedin."
+        },
+        "pl": {
+          "purpose": "Otwiera obszar faktur, aby tworzyć i przeglądać faktury klientów, zarządzać nimi oraz sprawdzać status płatności.",
+          "when": "Użyj tej opcji, gdy przygotowujesz fakturę dla klienta, sprawdzasz istniejącą fakturę lub jej status opłacenia.",
+          "how": "Wybierz Invoices na stronie głównej księgowości lub pasku nawigacji. Użyj New Invoice, aby rozpocząć dokument, albo listy i filtrów, aby przeglądać zapisane faktury.",
+          "inputs": "Utworzenie faktury wymaga danych klienta i pracy, pozycji lub opisu faktury, kwot i dat. Status płatności jest zarządzany oddzielnie od statusu dokumentu.",
+          "result": "Obszar faktur wyświetla zapisane faktury oraz dostępne działania tworzenia i przeglądania.",
+          "notes": "Faktury robocze lub wystawione, ale nieopłacone, nie są otrzymanym przychodem. Zarejestruj przychód dopiero po faktycznym otrzymaniu płatności i potwierdzeniu jej w procesie płatności faktury."
+        },
+        "ur": {
+          "purpose": "کسٹمر انوائسز بنانے، دیکھنے اور سنبھالنے اور ان کی ادائیگی کی حالت جانچنے کے لیے انوائسز کا حصہ کھولتا ہے۔",
+          "when": "جب آپ گاہک کے لیے انوائس تیار کریں، موجودہ انوائس دیکھیں یا ادا شدہ/غیر ادا شدہ حالت جانچیں تو استعمال کریں۔",
+          "how": "اکاؤنٹنگ کے مرکزی صفحے یا نیویگیشن بار سے Invoices منتخب کریں۔ نئی دستاویز کے لیے New Invoice اور محفوظ انوائسز دیکھنے کے لیے فہرست اور فلٹرز استعمال کریں۔",
+          "inputs": "انوائس بنانے کے لیے گاہک اور کام کی تفصیلات، انوائس کی اشیا یا وضاحت، رقوم اور تاریخیں درکار ہیں۔ ادائیگی کی حالت دستاویز کی حالت سے الگ سنبھالی جاتی ہے۔",
+          "result": "انوائس ورک اسپیس محفوظ شدہ انوائسز اور بنانے اور جائزہ لینے کے دستیاب اقدامات دکھاتا ہے۔",
+          "notes": "مسودہ یا جاری مگر غیر ادا شدہ انوائس وصول شدہ آمدنی نہیں ہے۔ آمدنی صرف اس وقت درج کریں جب رقم حقیقتاً وصول ہو اور انوائس ادائیگی کے طریقہ کار میں اس کی تصدیق ہو۔"
+        },
+        "pa": {
+          "purpose": "ਗਾਹਕ ਇਨਵੌਇਸ ਬਣਾਉਣ, ਵੇਖਣ ਅਤੇ ਸੰਭਾਲਣ ਅਤੇ ਉਨ੍ਹਾਂ ਦੀ ਭੁਗਤਾਨ ਸਥਿਤੀ ਜਾਂਚਣ ਲਈ ਇਨਵੌਇਸ ਭਾਗ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਗਾਹਕ ਲਈ ਇਨਵੌਇਸ ਤਿਆਰ ਕਰਨੀ ਹੋਵੇ, ਮੌਜੂਦਾ ਇਨਵੌਇਸ ਵੇਖਣੀ ਹੋਵੇ ਜਾਂ ਭੁਗਤਾਨ ਹੋਇਆ ਹੈ ਜਾਂ ਨਹੀਂ ਜਾਂਚਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਅਕਾਊਂਟੈਂਸੀ ਦੇ ਮੁੱਖ ਪੰਨੇ ਜਾਂ ਨੇਵੀਗੇਸ਼ਨ ਬਾਰ ਵਿੱਚੋਂ Invoices ਚੁਣੋ। ਨਵਾਂ ਦਸਤਾਵੇਜ਼ ਸ਼ੁਰੂ ਕਰਨ ਲਈ New Invoice ਅਤੇ ਸੰਭਾਲੀਆਂ ਇਨਵੌਇਸਾਂ ਵੇਖਣ ਲਈ ਸੂਚੀ ਤੇ ਫਿਲਟਰ ਵਰਤੋ।",
+          "inputs": "ਇਨਵੌਇਸ ਬਣਾਉਣ ਲਈ ਗਾਹਕ ਅਤੇ ਕੰਮ ਦੇ ਵੇਰਵੇ, ਇਨਵੌਇਸ ਦੀਆਂ ਚੀਜ਼ਾਂ ਜਾਂ ਵੇਰਵਾ, ਰਕਮਾਂ ਅਤੇ ਮਿਤੀਆਂ ਲੋੜੀਂਦੀਆਂ ਹਨ। ਭੁਗਤਾਨ ਸਥਿਤੀ ਦਸਤਾਵੇਜ਼ ਦੀ ਸਥਿਤੀ ਤੋਂ ਵੱਖਰੀ ਸੰਭਾਲੀ ਜਾਂਦੀ ਹੈ।",
+          "result": "ਇਨਵੌਇਸ ਵਰਕਸਪੇਸ ਸੰਭਾਲੀਆਂ ਇਨਵੌਇਸਾਂ ਅਤੇ ਬਣਾਉਣ ਤੇ ਸਮੀਖਿਆ ਦੇ ਉਪਲਬਧ ਕੰਮ ਦਿਖਾਉਂਦਾ ਹੈ।",
+          "notes": "ਡਰਾਫਟ ਜਾਂ ਜਾਰੀ ਹੋਈ ਪਰ ਨਾ-ਭੁਗਤਾਨ ਕੀਤੀ ਇਨਵੌਇਸ ਪ੍ਰਾਪਤ ਆਮਦਨ ਨਹੀਂ ਹੈ। ਆਮਦਨ ਸਿਰਫ਼ ਉਦੋਂ ਦਰਜ ਕਰੋ ਜਦੋਂ ਰਕਮ ਅਸਲ ਵਿੱਚ ਮਿਲ ਜਾਵੇ ਅਤੇ ਇਨਵੌਇਸ ਭੁਗਤਾਨ ਪ੍ਰਕਿਰਿਆ ਵਿੱਚ ਪੁਸ਼ਟੀ ਹੋਵੇ।"
+        },
+        "prs": {
+          "purpose": "بخش فاکتورها را برای ایجاد، بررسی و مدیریت فاکتورهای مشتریان و وضعیت پرداخت آن‌ها باز می‌کند.",
+          "when": "وقتی می‌خواهید برای مشتری فاکتور تهیه کنید، فاکتور موجودی را بررسی کنید یا وضعیت پرداخت آن را ببینید از این گزینه استفاده کنید.",
+          "how": "از صفحه اصلی حسابداری یا نوار پیمایش Invoices را انتخاب کنید. برای شروع سند جدید New Invoice و برای بررسی فاکتورهای ذخیره‌شده از فهرست و فیلترها استفاده کنید.",
+          "inputs": "ایجاد فاکتور به اطلاعات مشتری و کار، اقلام یا شرح فاکتور، مبالغ و تاریخ‌ها نیاز دارد. وضعیت پرداخت جدا از وضعیت سند مدیریت می‌شود.",
+          "result": "فضای فاکتورها، فاکتورهای ذخیره‌شده و عملیات ایجاد و بررسی در دسترس را نمایش می‌دهد.",
+          "notes": "فاکتور پیش‌نویس یا صادرشده اما پرداخت‌نشده، درآمد دریافت‌شده نیست. درآمد را فقط پس از دریافت واقعی وجه و تأیید آن در گردش‌کار پرداخت فاکتور ثبت کنید."
+        },
+        "ps": {
+          "purpose": "د پېرودونکو د بلونو د جوړولو، کتلو او سمبالولو او د پیسو د ورکړې د حالت د کتلو لپاره د بلونو برخه پرانیزي.",
+          "when": "کله چې د پېرودونکي لپاره بل چمتو کوئ، موجود بل ګورئ یا د ورکړل شوي/نه ورکړل شوي حالت یې څېړئ، دا وکاروئ.",
+          "how": "د حسابدارۍ له اصلي پاڼې یا د تګ راتګ له پټې څخه Invoices وټاکئ. د نوي سند لپاره New Invoice او د خوندي شویو بلونو د کتلو لپاره لېست او فلټرونه وکاروئ.",
+          "inputs": "د بل جوړولو لپاره د پېرودونکي او کار معلومات، د بل توکي یا تشریح، پیسې او نېټې اړینې دي. د پیسو د ورکړې حالت د سند له حالت څخه جلا اداره کېږي.",
+          "result": "د بلونو کاري ځای خوندي شوي بلونه او د جوړولو او کتلو شته کړنې ښيي.",
+          "notes": "مسوده یا صادر شوی خو نه‌ورکړل شوی بل ترلاسه شوی عاید نه دی. عاید یوازې هغه وخت ثبت کړئ چې پیسې رښتیا ترلاسه او د بل د تادیې په بهیر کې تایید شوې وي."
+        }
+      },
       "handler_or_behavior": "`show(`"
     },
     {
@@ -2807,8 +3163,8 @@
     }
   ],
   "content_progress": {
-    "completed_entries": 8,
-    "pending_entries": 221,
+    "completed_entries": 12,
+    "pending_entries": 217,
     "completion_scope": "Six fields × eleven languages per entry; reviewed in batches."
   }
 }
