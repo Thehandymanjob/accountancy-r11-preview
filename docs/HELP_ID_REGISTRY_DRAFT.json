@@ -2985,8 +2985,25 @@
       "audit_ref": "INV-073",
       "element_id": null,
       "label": "📘 User Guide Instructions and Contact Us",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the User Guide, which explains the main app areas, common workflows, data safety and how to contact support.",
+          "when": "Use this when learning how to use the app or when you need guidance before changing business records or settings.",
+          "how": "Open User Guide, choose the relevant chapter and read the instructions for the task you are about to perform. Use Contact Us only to prepare a support message.",
+          "inputs": "Choose a guide language if the language selector is available. A support message may require the details requested by its form.",
+          "result": "The guide chapters are displayed. The contact form can save a support message draft if the save succeeds.",
+          "notes": "The guide is instructional and does not perform the described actions for you. Check current app screens and save confirmations. Do not include passwords, bank credentials or unnecessary personal data in a support message."
+        },
+        "fa": {
+          "purpose": "راهنمای کاربر را باز می‌کند؛ این راهنما بخش‌های اصلی برنامه، گردش‌کارهای رایج، ایمنی داده و روش تماس با پشتیبانی را توضیح می‌دهد.",
+          "when": "برای یادگیری کار با برنامه یا پیش از تغییر سوابق و تنظیمات کسب‌وکار از این گزینه استفاده کنید.",
+          "how": "User Guide را باز کنید، فصل مرتبط را انتخاب کنید و دستورالعمل کار موردنظر را بخوانید. گزینه Contact Us فقط برای آماده‌کردن پیام پشتیبانی است.",
+          "inputs": "در صورت وجود انتخابگر زبان، زبان راهنما را انتخاب کنید. فرم پشتیبانی ممکن است جزئیات درخواست‌شده را بخواهد.",
+          "result": "فصل‌های راهنما نمایش داده می‌شوند. فرم تماس در صورت موفقیت می‌تواند پیش‌نویس پیام پشتیبانی را ذخیره کند.",
+          "notes": "راهنما صرفاً آموزشی است و عملیات توضیح‌داده‌شده را به‌جای شما انجام نمی‌دهد. صفحه‌های فعلی برنامه و پیام‌های تأیید ذخیره را بررسی کنید. گذرواژه، اطلاعات ورود بانکی یا اطلاعات شخصی غیرضروری را در پیام پشتیبانی ننویسید."
+        }
+      },
       "handler_or_behavior": "`show(`"
     },
     {
@@ -2994,8 +3011,25 @@
       "audit_ref": "INV-074",
       "element_id": null,
       "label": "🔄 Software Update Check and install the latest version",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the software update area to check for and install an available app version.",
+          "when": "Use this when you want to check whether a newer release is available or update the app.",
+          "how": "Open Software Update, select Check for Updates and review the reported version. Only select Update Now after confirming the release and ensuring your data is backed up.",
+          "inputs": "No form input is normally required. A network connection may be needed to check or download an update.",
+          "result": "The app reports the available/current version and, if an update is started, follows its update workflow.",
+          "notes": "An update may change app code and should not be confused with a database restore. Create and verify a backup first. Do not interrupt an update; after it completes, reload the app and verify the build identifier and data."
+        },
+        "fa": {
+          "purpose": "بخش به‌روزرسانی نرم‌افزار را برای بررسی و نصب نسخه جدید احتمالی باز می‌کند.",
+          "when": "وقتی می‌خواهید بررسی کنید نسخه جدیدتری منتشر شده یا برنامه را به‌روزرسانی کنید، از این گزینه استفاده کنید.",
+          "how": "Software Update را باز کنید، Check for Updates را بزنید و نسخه اعلام‌شده را بررسی کنید. فقط پس از تأیید انتشار و تهیه پشتیبان از اطلاعات، Update Now را انتخاب کنید.",
+          "inputs": "معمولاً ورودی فرمی لازم نیست. برای بررسی یا دانلود به‌روزرسانی ممکن است اتصال اینترنت لازم باشد.",
+          "result": "برنامه نسخه فعلی یا نسخه در دسترس را اعلام می‌کند و در صورت شروع به‌روزرسانی، گردش‌کار نصب را اجرا می‌کند.",
+          "notes": "به‌روزرسانی ممکن است کد برنامه را تغییر دهد و با بازیابی پایگاه داده یکسان نیست. ابتدا پشتیبان تهیه و صحت آن را بررسی کنید. هنگام به‌روزرسانی آن را قطع نکنید؛ پس از پایان، برنامه را دوباره بارگذاری و شناسه Build و داده‌ها را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`show(`"
     },
     {
@@ -3003,8 +3037,25 @@
       "audit_ref": "INV-075",
       "element_id": null,
       "label": "🛡️ Monitor & Diagnostics Activity archive, errors, data integrity and developer report",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the monitoring and diagnostics area for version information, activity history, storage checks and diagnostic exports.",
+          "when": "Use this when checking which build is running or investigating errors, storage consistency or support issues.",
+          "how": "Open Monitor & Diagnostics. Choose the specific information or diagnostic check you need, read its result and review any exported file before sharing it.",
+          "inputs": "Optional search and filter values depend on the selected diagnostic tool. Downloads require browser permission.",
+          "result": "The selected version details, activity archive, diagnostic result or exported report is displayed or downloaded.",
+          "notes": "Read-only checks do not repair data. Some diagnostic exports include device and technical details. Review files before sharing; never send credentials or an unreviewed full backup."
+        },
+        "fa": {
+          "purpose": "بخش نظارت و عیب‌یابی را برای مشاهده نسخه، سابقه فعالیت، بررسی ذخیره‌سازی و خروجی‌های تشخیصی باز می‌کند.",
+          "when": "برای بررسی نسخه در حال اجرا یا پیگیری خطا، سازگاری ذخیره‌سازی و مشکلات پشتیبانی از این گزینه استفاده کنید.",
+          "how": "Monitor & Diagnostics را باز کنید. ابزار یا بررسی موردنیاز را انتخاب کنید، نتیجه را بخوانید و پیش از اشتراک‌گذاری هر فایل خروجی، محتوای آن را بررسی کنید.",
+          "inputs": "مقادیر جست‌وجو و فیلتر به ابزار تشخیصی انتخاب‌شده بستگی دارند. دانلود فایل به اجازه مرورگر نیاز دارد.",
+          "result": "اطلاعات نسخه، بایگانی فعالیت، نتیجه تشخیصی یا گزارش خروجی انتخاب‌شده نمایش داده یا دانلود می‌شود.",
+          "notes": "بررسی‌های فقط‌خواندنی داده‌ها را تعمیر نمی‌کنند. بعضی خروجی‌های تشخیصی شامل جزئیات دستگاه و اطلاعات فنی هستند. پیش از اشتراک‌گذاری فایل‌ها را بررسی کنید؛ هرگز اطلاعات ورود یا پشتیبان کاملِ بررسی‌نشده را ارسال نکنید."
+        }
+      },
       "handler_or_behavior": "`show(`"
     },
     {
@@ -3012,8 +3063,25 @@
       "audit_ref": "INV-076",
       "element_id": null,
       "label": "⚠️ Factory Reset Convert approved backup and safely restore all data",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the Factory Reset area for the controlled backup conversion and full-data recovery workflow.",
+          "when": "Use this only when you have a specific, approved recovery plan and understand that the process can replace or remove current data.",
+          "how": "Open Factory Reset, read each warning and follow the documented backup-validation and recovery steps. Stop if the source backup, target database or expected result is unclear.",
+          "inputs": "A valid approved backup and the exact confirmation inputs requested by the reset workflow may be required.",
+          "result": "The controlled reset/recovery workflow opens; no reset should be assumed complete until the app reports a verified result.",
+          "notes": "HIGH RISK: Factory Reset is not routine troubleshooting. It can remove or replace data across the app. Do not proceed without a verified backup, clear recovery objective and explicit approval. Never use it just to refresh or update the app."
+        },
+        "fa": {
+          "purpose": "بخش Factory Reset را برای گردش‌کار کنترل‌شده تبدیل پشتیبان و بازیابی کامل داده‌ها باز می‌کند.",
+          "when": "فقط زمانی از این گزینه استفاده کنید که برنامه بازیابی مشخص و تأییدشده‌ای دارید و می‌دانید این فرایند ممکن است داده‌های فعلی را جایگزین یا حذف کند.",
+          "how": "Factory Reset را باز کنید، تمام هشدارها را بخوانید و مراحل اعتبارسنجی پشتیبان و بازیابی را طبق دستورالعمل دنبال کنید. اگر فایل مبدأ، پایگاه داده مقصد یا نتیجه مورد انتظار روشن نیست، متوقف شوید.",
+          "inputs": "ممکن است به فایل پشتیبان معتبر و تأییدهای دقیق درخواستی فرایند Reset نیاز باشد.",
+          "result": "گردش‌کار کنترل‌شده Reset/بازیابی باز می‌شود؛ تا زمانی که برنامه نتیجه تأییدشده را اعلام نکرده، Reset را کامل‌شده فرض نکنید.",
+          "notes": "خطر بسیار بالا: Factory Reset برای عیب‌یابی معمولی نیست. ممکن است داده‌های بخش‌های مختلف برنامه را حذف یا جایگزین کند. بدون پشتیبان معتبر، هدف روشن بازیابی و تأیید صریح ادامه ندهید. فقط برای تازه‌سازی صفحه یا به‌روزرسانی برنامه از آن استفاده نکنید."
+        }
+      },
       "handler_or_behavior": "`show(`"
     },
     {
@@ -3021,8 +3089,25 @@
       "audit_ref": "INV-078",
       "element_id": null,
       "label": "Open Secure Reset",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the secure reset workflow from the app’s recovery controls.",
+          "when": "Use this only when directed to the secure reset process as part of an approved recovery plan.",
+          "how": "Select Open Secure Reset and read the warning and next-step instructions before continuing. Do not confirm a reset unless you have verified the backup and intend the data replacement.",
+          "inputs": "No information may be needed just to open the workflow; later steps may require a selected backup and explicit confirmations.",
+          "result": "The secure reset workflow is opened for review; opening it alone does not prove that any data has been reset.",
+          "notes": "HIGH RISK: Subsequent reset actions may replace or remove stored data. Do not continue without a verified backup and explicit approval. Opening the workflow is not the same as executing the reset."
+        },
+        "fa": {
+          "purpose": "گردش‌کار Secure Reset را از کنترل‌های بازیابی برنامه باز می‌کند.",
+          "when": "فقط زمانی از این گزینه استفاده کنید که به‌عنوان بخشی از برنامه بازیابی تأییدشده، اجرای فرایند Secure Reset به شما توصیه شده باشد.",
+          "how": "Open Secure Reset را انتخاب کنید و پیش از ادامه، هشدارها و دستورالعمل مراحل بعد را بخوانید. تا زمانی که پشتیبان را بررسی نکرده‌اید و قصد جایگزینی داده‌ها را ندارید، Reset را تأیید نکنید.",
+          "inputs": "برای صرفاً بازکردن گردش‌کار ممکن است اطلاعاتی لازم نباشد؛ مراحل بعدی ممکن است به انتخاب پشتیبان و تأیید صریح نیاز داشته باشند.",
+          "result": "گردش‌کار Secure Reset برای بررسی باز می‌شود؛ بازکردن آن به‌تنهایی به معنی Reset شدن داده‌ها نیست.",
+          "notes": "خطر بسیار بالا: مراحل بعدی Reset ممکن است داده‌های ذخیره‌شده را جایگزین یا حذف کنند. بدون پشتیبان معتبر و تأیید صریح ادامه ندهید. بازکردن گردش‌کار با اجرای Reset یکسان نیست."
+        }
+      },
       "handler_or_behavior": "`openFactoryReset()`"
     },
     {
@@ -4522,8 +4607,8 @@
   ],
   "content_progress": {
     "completed_entries": 20,
-    "draft_entries": 38,
-    "pending_entries": 171,
+    "draft_entries": 43,
+    "pending_entries": 166,
     "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written."
   }
 }
