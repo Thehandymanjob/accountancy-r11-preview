@@ -98,7 +98,7 @@
 
 ### DEP-TIME-001 — زمان Last Updated به دلیل وابستگی به GitHub API نمایش داده نمی‌شد
 
-- **وضعیت فعلی:** Reopened در R28؛ timestamp ثابت R27 در R28 تازه‌سازی نشده بود. اصلاح R28 در انتظار Gate، Pages و تست Safari است.
+- **وضعیت فعلی:** Reopened در R40؛ روش Last-Modified در R37 زمان پایان Deploy را تضمین نمی‌کرد. اصلاح R40 در انتظار Gate، انتشار Preview و تست Safari است.
 - **تاریخ:** 2026-11-17
 - **علائم:** زمان آخرین به‌روزرسانی در بنر Preview و/یا Version Details نمایش داده نمی‌شد.
 - **محیط:** Preview repo؛ نسخه برنامه 273 / R11؛ Build ID نهایی R20.
@@ -140,6 +140,25 @@
 - **معنای زمان:** زمان آخرین تغییر ثبت‌شده برای فایل صفحه در میزبان است، نه زمان دقیق پایان انتشار Pages.
 - **Build ID:** `THA-273-R11-PREVIEW-20261124-R37`.
 - **Gate، Pages و تست Safari:** pending تا اجرای PR و تست واقعی کاربر.
+
+ 
+#### بازنگری R40 — زمان پایان اجرای موفق GitHub Pages
+- **تاریخ:** 2026-11-26
+- **علت بازگشایی:** درخواست HEAD هم‌مبدأ و مقدار Last-Modified زمان تغییر فایل میزبان را نشان می‌دهد و الزاماً زمان پایان انتشار جدید Pages نیست؛ در نتیجه ممکن است با وجود انتشار R39، ساعت نمایش‌داده‌شده تغییر نکند.
+- **راه‌حل R40 در Preview:** سرویس مشترک `window.R11PreviewDeploymentTime` از endpoint عمومی GitHub Actions برای مخزن Preview و شاخه `main`، اجرای کامل‌شده و موفق workflow دقیق `pages build and deployment` با مسیر `dynamic/pages/pages-build-deployment` را پیدا می‌کند و مقدار `updated_at` همان اجرا را به‌عنوان زمان پایان workflow نمایش می‌دهد.
+- **درخواست مرورگر:** فقط GET عمومی، بدون token، credentials یا header سفارشی؛ `cache: no-store`، محدود به 100 اجرای اخیر و دارای timeout. فیلتر فقط اجرای Pages موفق روی main را می‌پذیرد؛ Gate یا workflowهای دیگر زمان انتشار محسوب نمی‌شوند.
+- **اتصال UI:** بنر Preview، Monitor → Version Details و Copy version details از همان سرویس و همان timestamp استفاده می‌کنند؛ قالب زمان `Europe/London` و همراه timezone است.
+- **رفتار خطا:** اگر API در دسترس نباشد، پاسخ نامعتبر باشد یا اجرای Pages موفق پیدا نشود، UI عبارت «در دسترس نیست» نشان می‌دهد و تاریخ قدیمی یا زمان فعلی دستگاه را جایگزین نمی‌کند.
+- **محدوده:** فقط Preview R40؛ Production، IndexedDB، LocalStorage، backup، رکوردها و sequenceها تغییر نمی‌کنند.
+- **معنای زمان:** زمان پایان اجرای موفق workflow انتشار GitHub Pages از فیلد `updated_at` است؛ نه زمان ثبت commit یا زمان آماده‌سازی build.
+- **Build ID هدف:** `THA-273-R11-PREVIEW-20261126-R40`.
+- **Commit کد در development:** `f963213015cc7b156d8118bea6a6f56260c39f81`.
+- **PR:** #93 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/93؛ منتظر Gate و merge.
+- **Version Authority Gate / Pages deployment:** pending.
+- **تست استاتیک:** بررسی source assertion برای endpoint، فیلتر workflow، timestamp مشترک و fallback موفق؛ بررسی syntax و Gate نهایی pending.
+- **تست iPhone Safari:** not tested؛ منتظر بررسی کاربر پس از انتشار Preview.
+- **Production:** بدون تغییر؛ ارتقا مجاز نیست.
+
 
 ### PDF-PREVIEW-001 — ساختار closing script در HTML پیش‌نمایش PDF
 
