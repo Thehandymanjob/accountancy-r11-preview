@@ -1725,22 +1725,22 @@
       "previewDevelopmentCommitSha": "59da867ed215f1f7d973180a2c2209deff66759e",
       "previewPullRequestNumber": 88,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/88",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "88f6f4feee11b9e4e22be52d18f1646f10c9c7fe",
       "versionAuthorityGate": {
         "result": "PASS",
-        "runId": 45875132343,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45875132343",
-        "details": "PR #88 Version Authority Gate passed. It verified the Preview repository, main target, approved R11 baseline ancestry, R38 Build ID/canonical URL, index blob pin and all 22 pinned runtime assets."
+        "runId": 45875298526,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45875298526",
+        "details": "The Version Authority Gate passed on Preview main after merge; all 22 pinned runtime assets and R38 identity were validated. The PR Gate also passed in run 45875250817."
       },
       "staticChecks": {
         "result": "PASS",
         "details": "All 8 inline JavaScript blocks passed V8 syntax compilation. Source assertions confirmed four independent group IDs, a per-group Add New One action, immediate persistence through the existing IndexedDB accounting state, and removal of the previous inline add-category field. A helper simulation passed for built-in grouping, legacy category retention, per-group custom categories, and canonical category values. No live user database was opened or modified."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting PR approval/merge, Version Authority Gate and Preview Pages deployment."
+        "result": "PASS",
+        "runId": 45875298277,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45875298277",
+        "details": "GitHub Pages build, deploy and report-build-status jobs all completed successfully for Preview merge commit 88f6f4feee11b9e4e22be52d18f1646f10c9c7fe. Build ID THA-273-R11-PREVIEW-20261126-R38."
       },
       "userSafariTest": {
         "result": "not tested",
@@ -1757,7 +1757,14 @@
         "Production R11 and its Version Authority manifest are unchanged.",
         "No IndexedDB database identity, object-store schema, expense records, invoice records, IDs, sequences, backups, imports, restores, resets or migrations are changed.",
         "Existing customExpenseCategories values are retained and displayed; known legacy prefixes are grouped, while unclassified legacy values remain available under Others."
-      ]
+      ],
+      "previewPullRequestGate": {
+        "result": "PASS",
+        "runId": 45875250817,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45875250817",
+        "details": "PR #88 Gate run 200 passed against the final PR head before merge."
+      },
+      "previewPromotionStatus": "merged and deployed to Preview — awaiting iPhone Safari verification"
     }
   ],
   "history": [

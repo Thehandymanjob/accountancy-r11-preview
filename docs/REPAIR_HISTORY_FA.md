@@ -425,7 +425,7 @@
 ### ACC-CAT-001 — تفکیک و نگهداری مستقل دسته‌بندی هزینه‌ها
 
 - **شناسه / تاریخ:** ACC-CAT-001 / 2026-11-26
-- **وضعیت:** Fixed — awaiting verification؛ پیاده‌سازی در شاخه توسعه Preview R38 انجام شده است.
+- **وضعیت:** Merged and deployed to Preview R38 — awaiting iPhone Safari verification.
 - **علامت مشاهده‌شده:** در Add Entry → Expenses، گزینه‌های Category شامل فروشگاه‌های خرید مصالح، هزینه‌های خودرو، ابزار و سایر هزینه‌ها در یک فهرست مخلوط نمایش داده می‌شدند. افزودن گزینه جدید نیز به یک آرایه سفارشی مشترک وابسته بود.
 - **محیط / مرجع:** مخزن Thehandymanjob/accountancy-r11-preview؛ شاخه development؛ مبنای R37؛ Build هدف THA-273-R11-PREVIEW-20261126-R38.
 - **علت ریشه‌ای:** fillCategories() گزینه‌ها را با پیشوندهای متنی در چند گروه نمایشی فیلتر می‌کرد، اما customExpenseCategories فقط یک آرایه سراسری بود و مسیر افزودن مورد جدید درون فرم Expense قرار داشت؛ بنابراین گروه انتخاب‌شده هنگام ذخیره گزینه جدید مشخص و پایدار نمی‌شد.
@@ -433,7 +433,10 @@
 - **ذخیره‌سازی و سازگاری:** فهرست‌های جدید در ویژگی expenseCategoryLists داخل همان Accounting state و از مسیر موجود IndexedDB ذخیره می‌شوند. شناسه دیتابیس، object store، قرارداد رکوردهای Expense، شماره‌ها و sequenceها تغییر نمی‌کنند. آرایه قدیمی customExpenseCategories حذف یا بازنویسی نمی‌شود؛ موارد دارای پیشوند شناخته‌شده در گروه مربوط قرار می‌گیرند و موارد قدیمی بدون گروه مشخص برای جلوگیری از ناپدیدشدن، در Others باقی می‌مانند. هیچ مهاجرت یا نوشتن خودکاری هنگام بارگذاری صفحه انجام نمی‌شود.
 - **فایل‌های تغییرکرده:** v273-isolated-test/r11-income-prefix-repair-20261114/index.html، VERSION-AUTHORITY.json، docs/REPAIR_HISTORY_FA.md و docs/REPAIR_INDEX_FA.md.
 - **تست استاتیک:** هر 8 اسکریپت inline با V8 syntax compilation بررسی شد؛ شبیه‌سازی گروه‌بندی موارد پایه، حفظ موارد سفارشی قدیمی، جداسازی فهرست‌های جدید و ساخت مقدار canonical برای هر گروه PASS شد. دیتابیس زنده Preview برای تست نوشتن باز یا تغییر داده نشد.
-- **Version Authority Gate / PR / Pages:** در انتظار ایجاد PR و اجرای Gate و انتشار Preview.
+- **PR:** #88 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/88؛ Merge commit: 88f6f4feee11b9e4e22be52d18f1646f10c9c7fe.
+- **Version Authority Gate:** PASS روی PR در run 45875250817 و روی Preview main در run 45875298526.
+- **Preview Pages:** PASS در run 45875298277؛ build، deploy و report-build-status برای R38 موفق شدند.
+- **Build ID / URL:** THA-273-R11-PREVIEW-20261126-R38؛ https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R38.
 - **معیار پذیرش iPhone Safari:** در هر چهار گروه Add New One باز شود؛ نام جدید ثبت شود؛ صفحه به همان گروه برگردد؛ مورد جدید در همان گروه دیده و انتخاب شود؛ پس از refresh و بستن/بازکردن Safari نیز باقی بماند. افزودن در یک گروه نباید فهرست گروه‌های دیگر را تغییر دهد.
 - **تست iPhone Safari:** not tested؛ منتظر بررسی کاربر پس از انتشار Preview.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
