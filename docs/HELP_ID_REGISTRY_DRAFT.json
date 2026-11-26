@@ -2725,8 +2725,25 @@
       "audit_ref": "INV-062",
       "element_id": "runIndexedDBSelfTestButton",
       "label": "Test IndexedDB Storage",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Runs a temporary write, read, key-list and delete check against the active IndexedDB storage layer.",
+          "when": "Use this when checking whether the browser can access the app’s R11 IndexedDB database correctly.",
+          "how": "Select Test IndexedDB Storage and wait for the result message. Read the full status before continuing.",
+          "inputs": "No data is entered. The test uses a temporary test item and requires the app’s IndexedDB layer to be available.",
+          "result": "The app reports whether the temporary IndexedDB test passed or failed.",
+          "notes": "The test is designed to remove its temporary test item and does not migrate, overwrite or delete existing application records. A failed test is a storage warning; do not continue entering data until investigated."
+        },
+        "fa": {
+          "purpose": "با انجام یک نوشتن موقت، خواندن، فهرست‌کردن کلیدها و حذف مورد آزمایشی، لایه ذخیره‌سازی IndexedDB فعال را بررسی می‌کند.",
+          "when": "وقتی می‌خواهید مطمئن شوید مرورگر به پایگاه داده IndexedDB نسخه R11 دسترسی درست دارد، از این گزینه استفاده کنید.",
+          "how": "Test IndexedDB Storage را انتخاب کنید و تا نمایش نتیجه صبر کنید. پیش از ادامه، پیام کامل وضعیت را بخوانید.",
+          "inputs": "اطلاعاتی وارد نمی‌شود. آزمون از یک مورد موقت استفاده می‌کند و به فعال بودن لایه IndexedDB برنامه نیاز دارد.",
+          "result": "برنامه اعلام می‌کند آزمون موقت IndexedDB موفق بوده یا با خطا روبه‌رو شده است.",
+          "notes": "طراحی آزمون به‌گونه‌ای است که مورد آزمایشی موقت را حذف می‌کند و سوابق موجود برنامه را مهاجرت، بازنویسی یا حذف نمی‌کند. نتیجه ناموفق هشدار ذخیره‌سازی است؛ تا بررسی مشکل، ثبت اطلاعات جدید را ادامه ندهید."
+        }
+      },
       "handler_or_behavior": "`window.runIndexedDBSelfTest()`"
     },
     {
@@ -2734,8 +2751,25 @@
       "audit_ref": "INV-063",
       "element_id": null,
       "label": "Create Accounting Snapshot in IndexedDB",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Creates an Accounting storage snapshot in IndexedDB for the app’s accounting data.",
+          "when": "Use this when you need an internal snapshot for an accounting-storage check or diagnostic workflow.",
+          "how": "Select Create Accounting Snapshot in IndexedDB and wait for the result or error message.",
+          "inputs": "No form input is required. The accounting storage service must be initialised and available.",
+          "result": "A snapshot is created in the IndexedDB storage layer if the operation succeeds.",
+          "notes": "This is a storage/diagnostic snapshot, not a downloadable full-database backup. Do not treat it as a substitute for Backup, and do not assume it can restore records."
+        },
+        "fa": {
+          "purpose": "یک Snapshot از داده‌های حسابداری در لایه ذخیره‌سازی IndexedDB ایجاد می‌کند.",
+          "when": "وقتی برای بررسی یا عیب‌یابی ذخیره‌سازی حسابداری به یک تصویر داخلی از وضعیت داده‌ها نیاز دارید، از این گزینه استفاده کنید.",
+          "how": "Create Accounting Snapshot in IndexedDB را انتخاب کنید و تا نمایش نتیجه یا پیام خطا صبر کنید.",
+          "inputs": "ورودی فرمی لازم نیست. سرویس ذخیره‌سازی حسابداری باید راه‌اندازی شده و در دسترس باشد.",
+          "result": "در صورت موفقیت، یک Snapshot در لایه ذخیره‌سازی IndexedDB ایجاد می‌شود.",
+          "notes": "این Snapshot تشخیصی/ذخیره‌سازی است، نه فایل پشتیبان کامل قابل دانلود. جایگزین Backup نیست و نباید فرض کنید برای بازیابی سوابق قابل استفاده است."
+        }
+      },
       "handler_or_behavior": "`window.createAccountingStorageSnapshot()`"
     },
     {
@@ -2743,8 +2777,25 @@
       "audit_ref": "INV-064",
       "element_id": null,
       "label": "Compare Accounting Storage (Read-only)",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Compares the accounting data loaded in the interface with the accounting data read from IndexedDB.",
+          "when": "Use this to investigate whether the visible accounting state matches the persisted IndexedDB state.",
+          "how": "Select Compare Accounting Storage (Read-only) and review the PASS or FAIL result and the entry, customer and invoice counts.",
+          "inputs": "No form input is required. The accounting interface and IndexedDB must be available.",
+          "result": "A read-only comparison result is displayed, including record counts and whether the UI matches the stored state.",
+          "notes": "This check is read-only and does not use legacy LocalStorage. A FAIL result indicates a discrepancy that should be investigated before making further changes; it does not repair or overwrite data."
+        },
+        "fa": {
+          "purpose": "اطلاعات حسابداری نمایش‌داده‌شده در رابط برنامه را با داده‌های خوانده‌شده از IndexedDB مقایسه می‌کند.",
+          "when": "برای بررسی اینکه وضعیت قابل مشاهده حسابداری با اطلاعات ذخیره‌شده در IndexedDB مطابقت دارد یا نه، از این گزینه استفاده کنید.",
+          "how": "Compare Accounting Storage (Read-only) را انتخاب کنید و نتیجه PASS یا FAIL و تعداد ثبت‌ها، مشتریان و فاکتورها را بررسی کنید.",
+          "inputs": "ورودی فرمی لازم نیست. رابط حسابداری و IndexedDB باید در دسترس باشند.",
+          "result": "نتیجه مقایسه فقط‌خواندنی، همراه با تعداد سوابق و وضعیت تطابق رابط با داده ذخیره‌شده، نمایش داده می‌شود.",
+          "notes": "این بررسی فقط‌خواندنی است و از LocalStorage قدیمی استفاده نمی‌کند. نتیجه FAIL نشان‌دهنده اختلافی است که باید پیش از ادامه تغییرات بررسی شود؛ این آزمون داده‌ها را تعمیر یا بازنویسی نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`window.runAccountingStorageComparison()`"
     },
     {
@@ -2752,8 +2803,25 @@
       "audit_ref": "INV-065",
       "element_id": null,
       "label": "Download Diagnostic Report (JSON)",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Exports a JSON diagnostic report containing app, storage and activity information.",
+          "when": "Use this when preparing a technical support report or investigating an app/storage issue.",
+          "how": "Select Download Diagnostic Report (JSON), wait for the file download, then review the report before sharing it.",
+          "inputs": "No form input is required. The browser must allow downloads. Accounting data may be reported as unavailable if IndexedDB cannot be read.",
+          "result": "A local JSON diagnostic file is downloaded with version/device details, storage counts and redacted activity events where available.",
+          "notes": "The report is not a full backup and does not include full accounting records. Some technical/device details remain. Review the file before sharing it; the app filters recognized personal fields from event details but this is not a guarantee that every sensitive detail is absent."
+        },
+        "fa": {
+          "purpose": "یک گزارش تشخیصی JSON شامل اطلاعات برنامه، ذخیره‌سازی و فعالیت‌ها صادر می‌کند.",
+          "when": "وقتی برای پشتیبانی فنی یا بررسی مشکل برنامه و ذخیره‌سازی به گزارش نیاز دارید، از این گزینه استفاده کنید.",
+          "how": "Download Diagnostic Report (JSON) را انتخاب کنید، منتظر دانلود فایل بمانید و پیش از ارسال، محتوای گزارش را بررسی کنید.",
+          "inputs": "ورودی فرمی لازم نیست. مرورگر باید اجازه دانلود فایل را بدهد. اگر IndexedDB قابل خواندن نباشد، ممکن است اطلاعات حسابداری در گزارش در دسترس نباشد.",
+          "result": "یک فایل JSON محلی با اطلاعات نسخه و دستگاه، شمارش‌های ذخیره‌سازی و رویدادهای فعالیتِ پالایش‌شده در صورت دسترس بودن دانلود می‌شود.",
+          "notes": "این گزارش پشتیبان کامل نیست و همه سوابق حسابداری را شامل نمی‌شود. برخی اطلاعات فنی و دستگاهی باقی می‌مانند. پیش از اشتراک‌گذاری فایل را بررسی کنید؛ برنامه فیلدهای شخصی شناخته‌شده را از جزئیات رویداد حذف می‌کند، اما تضمین نمی‌شود که هیچ اطلاعات حساسی باقی نمانده باشد."
+        }
+      },
       "handler_or_behavior": "`exportDiagnosticReport()`"
     },
     {
@@ -2761,8 +2829,25 @@
       "audit_ref": "INV-066",
       "element_id": null,
       "label": "Run Full Storage Audit (Read-only)",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Runs a read-only audit of IndexedDB health and record counts across the app’s storage domains.",
+          "when": "Use this when checking the overall integrity and availability of the app’s IndexedDB storage without changing records.",
+          "how": "Select Run Full Storage Audit (Read-only) and wait for the audit result and JSON download.",
+          "inputs": "No form input is required. IndexedDB health and snapshot APIs must be available, and the browser must allow downloads.",
+          "result": "The app checks storage health, reads a record inventory across its listed domains and downloads a JSON audit report.",
+          "notes": "The audit is explicitly read-only: it does not write, migrate, overwrite or delete records. The report includes storage-domain counts and technical metadata; review it before sharing."
+        },
+        "fa": {
+          "purpose": "سلامت IndexedDB و تعداد سوابق را در حوزه‌های ذخیره‌سازی برنامه، با یک ممیزی فقط‌خواندنی بررسی می‌کند.",
+          "when": "وقتی می‌خواهید دسترس‌پذیری و وضعیت کلی ذخیره‌سازی IndexedDB را بدون تغییر سوابق بررسی کنید، از این گزینه استفاده کنید.",
+          "how": "Run Full Storage Audit (Read-only) را انتخاب کنید و تا نمایش نتیجه ممیزی و دانلود فایل JSON صبر کنید.",
+          "inputs": "ورودی فرمی لازم نیست. سلامت IndexedDB و APIهای Snapshot باید در دسترس باشند و مرورگر باید اجازه دانلود بدهد.",
+          "result": "برنامه سلامت ذخیره‌سازی را بررسی می‌کند، فهرست سوابق حوزه‌های مشخص‌شده را می‌خواند و گزارش ممیزی JSON دانلود می‌کند.",
+          "notes": "این ممیزی صراحتاً فقط‌خواندنی است و هیچ سابقه‌ای را نمی‌نویسد، مهاجرت نمی‌دهد، بازنویسی یا حذف نمی‌کند. گزارش شامل تعداد داده‌ها در حوزه‌های ذخیره‌سازی و اطلاعات فنی است؛ پیش از اشتراک‌گذاری آن را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`runFullStorageAudit()`"
     },
     {
@@ -4352,8 +4437,8 @@
   ],
   "content_progress": {
     "completed_entries": 20,
-    "draft_entries": 28,
-    "pending_entries": 181,
+    "draft_entries": 33,
+    "pending_entries": 176,
     "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written."
   }
 }
