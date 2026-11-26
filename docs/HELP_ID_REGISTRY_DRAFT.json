@@ -3245,8 +3245,25 @@
       "audit_ref": "INV-085",
       "element_id": null,
       "label": "Remove Logo",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Removes the currently selected business logo from the profile.",
+          "when": "Use this when the saved logo is incorrect or should no longer appear in supported app documents.",
+          "how": "Open Profile & Logo and select Remove Logo. Review the result and save the profile if the screen requires a separate save.",
+          "inputs": "No additional input is required. A logo must currently be present for removal to have an effect.",
+          "result": "The logo is removed from the profile if the operation succeeds.",
+          "notes": "Removing the logo may affect future documents that use the business profile. It does not necessarily change documents already issued. Keep a copy of the image if you may need it again."
+        },
+        "fa": {
+          "purpose": "لوگوی فعلی انتخاب‌شده در پروفایل کسب‌وکار را حذف می‌کند.",
+          "when": "وقتی لوگوی ذخیره‌شده اشتباه است یا دیگر نمی‌خواهید در اسناد پشتیبانی‌شده برنامه نمایش داده شود، از این گزینه استفاده کنید.",
+          "how": "Profile & Logo را باز کنید و Remove Logo را بزنید. نتیجه را بررسی کنید و اگر صفحه ذخیره جداگانه می‌خواهد، پروفایل را ذخیره کنید.",
+          "inputs": "ورودی دیگری لازم نیست. برای اثرگذاری این عملیات باید لوگویی در حال حاضر وجود داشته باشد.",
+          "result": "در صورت موفقیت، لوگو از پروفایل حذف می‌شود.",
+          "notes": "حذف لوگو ممکن است بر اسناد آینده‌ای که از پروفایل کسب‌وکار استفاده می‌کنند اثر بگذارد. لزوماً اسناد قبلاً صادرشده را تغییر نمی‌دهد. اگر احتمال می‌دهید دوباره به آن نیاز دارید، یک نسخه از تصویر نگه دارید."
+        }
+      },
       "handler_or_behavior": "`prRemoveLogo()`"
     },
     {
@@ -3254,8 +3271,25 @@
       "audit_ref": "INV-086",
       "element_id": null,
       "label": "Save Support Message",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Saves the support message entered in the Contact Us form.",
+          "when": "Use this after writing a support request that you want to keep for later review or follow-up.",
+          "how": "Complete the requested message fields, review the content and select Save Support Message. Wait for the save confirmation.",
+          "inputs": "The fields marked as required in the support form, such as the message subject or description.",
+          "result": "The support message is saved as a local draft if the save succeeds.",
+          "notes": "Saving a support message does not necessarily send it to the developer or create a support ticket. Check the on-screen confirmation and do not include passwords, payment credentials or unnecessary personal information."
+        },
+        "fa": {
+          "purpose": "پیام پشتیبانی واردشده در فرم Contact Us را ذخیره می‌کند.",
+          "when": "پس از نوشتن درخواست پشتیبانی که می‌خواهید برای بررسی یا پیگیری بعدی نگه دارید، از این گزینه استفاده کنید.",
+          "how": "فیلدهای درخواستی پیام را تکمیل کنید، متن را بازبینی کنید و Save Support Message را بزنید. تا نمایش پیام تأیید ذخیره صبر کنید.",
+          "inputs": "فیلدهای اجباری فرم پشتیبانی، مانند موضوع یا شرح پیام.",
+          "result": "اگر ذخیره موفق شود، پیام پشتیبانی به‌صورت پیش‌نویس محلی ذخیره می‌شود.",
+          "notes": "ذخیره پیام لزوماً آن را برای توسعه‌دهنده ارسال نمی‌کند یا تیکت پشتیبانی نمی‌سازد. پیام تأیید روی صفحه را بررسی کنید و گذرواژه، اطلاعات پرداخت یا اطلاعات شخصی غیرضروری ننویسید."
+        }
+      },
       "handler_or_behavior": "`event/property listener`"
     },
     {
@@ -3263,8 +3297,25 @@
       "audit_ref": "INV-087",
       "element_id": null,
       "label": "Clear Form",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Clears the contents of the support contact form.",
+          "when": "Use this when you want to discard the current unsaved support message and start again.",
+          "how": "Select Clear Form and check that the fields have been emptied before entering a new message.",
+          "inputs": "No input is required.",
+          "result": "The current form fields are cleared.",
+          "notes": "This action removes the current unsaved form text. It does not delete a previously saved support message or send anything. Copy any text you want to keep before clearing."
+        },
+        "fa": {
+          "purpose": "محتوای فرم تماس با پشتیبانی را پاک می‌کند.",
+          "when": "وقتی می‌خواهید متن ذخیره‌نشده فعلی را کنار بگذارید و پیام تازه‌ای بنویسید، از این گزینه استفاده کنید.",
+          "how": "Clear Form را انتخاب کنید و پیش از نوشتن پیام جدید بررسی کنید که فیلدها خالی شده باشند.",
+          "inputs": "ورودی لازم نیست.",
+          "result": "فیلدهای فعلی فرم پاک می‌شوند.",
+          "notes": "این عملیات متن ذخیره‌نشده فرم را حذف می‌کند. پیام پشتیبانی که قبلاً ذخیره شده باشد حذف نمی‌شود و چیزی هم ارسال نمی‌شود. پیش از پاک‌کردن، متن موردنیاز را کپی کنید."
+        }
+      },
       "handler_or_behavior": "`resetHelpContactForm()`"
     },
     {
@@ -3272,8 +3323,25 @@
       "audit_ref": "INV-088",
       "element_id": null,
       "label": "🔄 Check for Updates",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Checks whether a newer software version is available.",
+          "when": "Use this when you want to verify whether an update has been published for the app.",
+          "how": "Select Check for Updates and wait for the result. Compare the reported current and available build information before deciding whether to install.",
+          "inputs": "No form input is normally required. An internet connection may be needed.",
+          "result": "The app displays the update-check result and any available version information.",
+          "notes": "A check does not install an update. If no newer version is reported, do not assume a deployment is missing; verify the app page and build information. Back up important data before installing an update."
+        },
+        "fa": {
+          "purpose": "بررسی می‌کند آیا نسخه نرم‌افزاری جدیدتری در دسترس است یا خیر.",
+          "when": "وقتی می‌خواهید مطمئن شوید نسخه جدیدتری برای برنامه منتشر شده است، از این گزینه استفاده کنید.",
+          "how": "Check for Updates را انتخاب کنید و منتظر نتیجه بمانید. اطلاعات نسخه و Build فعلی و نسخه موجود را پیش از تصمیم برای نصب مقایسه کنید.",
+          "inputs": "معمولاً ورودی فرمی لازم نیست. ممکن است اتصال اینترنت نیاز باشد.",
+          "result": "نتیجه بررسی به‌روزرسانی و اطلاعات نسخه موجود نمایش داده می‌شود.",
+          "notes": "بررسی به‌روزرسانی به‌معنی نصب آن نیست. اگر نسخه جدیدتری گزارش نشد، فوراً فرض نکنید انتشار انجام نشده است؛ صفحه برنامه و اطلاعات Build را بررسی کنید. پیش از نصب، از داده‌های مهم پشتیبان بگیرید."
+        }
+      },
       "handler_or_behavior": "`event/property listener`"
     },
     {
@@ -3281,8 +3349,25 @@
       "audit_ref": "INV-089",
       "element_id": "appReloadUpdate",
       "label": "Update Now",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Reloads the app using the latest version available through its update workflow.",
+          "when": "Use this only after the update check identifies the intended release and you are ready to switch to it.",
+          "how": "Confirm the target version and that important data has a verified backup, then select Update Now. Allow the reload/update process to finish and check the build details afterwards.",
+          "inputs": "No form input is normally required. A network connection may be needed to retrieve the latest app files.",
+          "result": "The app reloads into the latest version available through the configured update path, if the operation succeeds.",
+          "notes": "Do not use this control to restore or reset data. Avoid interrupting the reload. Afterward verify the app version, Build ID, storage database and key records. If the displayed build does not change, do not assume the update completed."
+        },
+        "fa": {
+          "purpose": "برنامه را از طریق گردش‌کار به‌روزرسانی با آخرین نسخه در دسترس دوباره بارگذاری می‌کند.",
+          "when": "فقط پس از آن از این گزینه استفاده کنید که بررسی به‌روزرسانی نسخه موردنظر را نشان داده و آماده انتقال به آن هستید.",
+          "how": "نسخه مقصد و وجود پشتیبان معتبر از اطلاعات مهم را تأیید کنید، سپس Update Now را بزنید. اجازه دهید فرایند بارگذاری/به‌روزرسانی کامل شود و بعد اطلاعات Build را بررسی کنید.",
+          "inputs": "معمولاً ورودی فرمی لازم نیست. برای دریافت فایل‌های جدید برنامه ممکن است اتصال اینترنت لازم باشد.",
+          "result": "در صورت موفقیت، برنامه با آخرین نسخه موجود در مسیر به‌روزرسانی پیکربندی‌شده دوباره بارگذاری می‌شود.",
+          "notes": "از این گزینه برای بازیابی یا Reset داده‌ها استفاده نکنید. فرایند بارگذاری را قطع نکنید. پس از پایان، نسخه برنامه، Build ID، پایگاه داده ذخیره‌سازی و سوابق اصلی را بررسی کنید. اگر Build نمایش‌داده‌شده تغییر نکرد، فرض نکنید به‌روزرسانی کامل شده است."
+        }
+      },
       "handler_or_behavior": "`reloadLatestApp()`"
     },
     {
@@ -4692,8 +4777,8 @@
   ],
   "content_progress": {
     "completed_entries": 20,
-    "draft_entries": 48,
-    "pending_entries": 161,
+    "draft_entries": 53,
+    "pending_entries": 156,
     "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written."
   }
 }
