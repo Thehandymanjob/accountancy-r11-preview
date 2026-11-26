@@ -440,3 +440,24 @@
 - **معیار پذیرش iPhone Safari:** در هر چهار گروه Add New One باز شود؛ نام جدید ثبت شود؛ صفحه به همان گروه برگردد؛ مورد جدید در همان گروه دیده و انتخاب شود؛ پس از refresh و بستن/بازکردن Safari نیز باقی بماند. افزودن در یک گروه نباید فهرست گروه‌های دیگر را تغییر دهد.
 - **تست iPhone Safari:** not tested؛ منتظر بررسی کاربر پس از انتشار Preview.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
+
+
+### ACC-CAT-002 — انتخاب دسته‌بندی هزینه در دکمه ثبت نمی‌ماند
+
+- **شناسه / تاریخ:** ACC-CAT-002 / 2026-11-26
+- **وضعیت فعلی:** Fixed — awaiting verification
+- **علامت مشاهده‌شده:** در Add Entry → Expenses، پس از لمس یک گزینه مانند Selco، مقدار انتخاب‌شده روی دکمه Category نمایش داده نمی‌شود و دکمه همچنان «Select a category» را نشان می‌دهد.
+- **محیط / نسخه:** Preview؛ مخزن `Thehandymanjob/accountancy-r11-preview`؛ شاخه دائمی `development`؛ نسخه 273 / R11؛ مبنای منتشرشده R38؛ Build اصلاحی هدف R39.
+- **علت ریشه‌ای تأییدشده:** تابع `syncCategoryPicker()` برای یافتن گروه انتخاب‌شده از `expenseCategoryGroupDefinitions.find(g=>g.items.includes(...))` استفاده می‌کرد؛ اما تعریف‌های ثابت گروه‌ها فقط ویژگی `base` دارند و ویژگی `items` در خروجی `getExpenseCategoryGroups()` ساخته می‌شود. بنابراین هنگام همگام‌سازی، دسترسی به `g.items.includes` روی مقدار تعریف‌نشده خطای TypeError ایجاد می‌کرد و به‌روزرسانی متن دکمه انجام نمی‌شد.
+- **روش تشخیص:** بررسی سورس R38 در شاخه development؛ تطبیق ساختار `expenseCategoryGroupDefinitions` با خروجی `getExpenseCategoryGroups()` و مسیر `chooseCategory() → syncCategoryPicker()`. خطا مستقل از IndexedDB و تابع ذخیره‌سازی است؛ انتخاب مقدار hidden input پیش از اجرای تابع همگام‌سازی انجام می‌شود.
+- **راه‌حل R1 / R39:** فقط منبع lookup در `syncCategoryPicker()` به `getExpenseCategoryGroups().find(g=>g.items.includes(select.value))` تغییر کرد تا جست‌وجو روی اشیایی انجام شود که واقعاً `items` دارند. منطق انتخاب، ذخیره دسته‌بندی، گروه‌بندی، UI سایر بخش‌ها و قرارداد داده تغییر نکرد.
+- **فایل‌های تغییرکرده:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`، `VERSION-AUTHORITY.json`، `docs/REPAIR_HISTORY_FA.md` و `docs/REPAIR_INDEX_FA.md`.
+- **تست استاتیک:** هر 8 بلوک JavaScript درون HTML با V8 syntax compilation بررسی شد؛ خطای نحوی مشاهده نشد. آزمون مرورگر واقعی و iPhone Safari هنوز انجام نشده است.
+- **تست داده و IndexedDB:** دیتابیس Preview برای این اصلاح بازنویسی یا تغییر داده نشد؛ هیچ رکورد، sequence، backup یا داده Production دست‌کاری نشده است.
+- **Preview development commit کد:** `79e16c45680fb8e01ab4e19041bb8b24f6140406`.
+- **PR / Merge / Gate / Pages:** pending؛ فقط پس از تأیید Gate و انتشار Pages تکمیل می‌شود.
+- **Build ID هدف:** `THA-273-R11-PREVIEW-20261126-R39`.
+- **معیار پذیرش iPhone Safari:** در Expenses، گزینه Selco و چند گزینه از گروه‌های Materials، Car Expenses، Tools و Others انتخاب شوند؛ نام انتخابی بلافاصله روی دکمه بماند؛ بازکردن دوباره فهرست همان گزینه را selected نشان دهد؛ انتخاب Contractor / subcontractor همچنان فیلد مربوط را فعال کند؛ ثبت Expense و refresh نیز رفتار قبلی را حفظ کند.
+- **تست iPhone Safari:** not tested؛ منتظر بررسی کاربر پس از انتشار Preview.
+- **Production:** بدون تغییر؛ ارتقا مجاز نیست.
+- **ارتباط با مورد قبلی:** `ACC-CAT-001` مربوط به جداسازی و نگهداری فهرست‌های گروهی است؛ این پرونده علت مستقلِ خطای lookup در همگام‌سازی دکمه انتخاب را ثبت می‌کند.
