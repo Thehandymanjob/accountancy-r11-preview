@@ -2781,8 +2781,25 @@
       "audit_ref": "INV-034",
       "element_id": null,
       "label": "＋ New Invoice",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Open a new blank invoice form to prepare an invoice for a customer.",
+          "when": "Use when creating a new invoice rather than viewing or editing an existing one.",
+          "how": "Select New Invoice, then enter the customer, invoice details, dates and line items.",
+          "inputs": "Complete required invoice fields and add the relevant items and amounts. Select a customer where required.",
+          "result": "A new invoice form opens. It is not saved until you select a save action.",
+          "notes": "Check customer details, invoice date, descriptions, quantities, rates and totals. Opening the form alone does not create a saved invoice."
+        },
+        "fa": {
+          "purpose": "بازکردن فرم خالی فاکتور جدید برای تهیه فاکتور مشتری.",
+          "when": "وقتی می‌خواهید فاکتور جدیدی بسازید، نه اینکه فاکتور موجود را مشاهده یا ویرایش کنید، استفاده کنید.",
+          "how": "New Invoice را انتخاب کنید و سپس مشتری، جزئیات فاکتور، تاریخ‌ها و ردیف‌های کالا یا خدمات را وارد کنید.",
+          "inputs": "فیلدهای الزامی فاکتور را تکمیل و اقلام و مبالغ مربوط را اضافه کنید. در صورت نیاز مشتری را انتخاب کنید.",
+          "result": "فرم فاکتور جدید باز می‌شود. تا زمان انتخاب گزینه ذخیره، فاکتور ذخیره نمی‌شود.",
+          "notes": "مشخصات مشتری، تاریخ، شرح اقلام، تعداد، نرخ و جمع کل را بررسی کنید. بازکردن فرم به‌تنهایی فاکتور ذخیره‌شده ایجاد نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`newInvoice()`"
     },
     {
@@ -2790,8 +2807,25 @@
       "audit_ref": "INV-036",
       "element_id": null,
       "label": "Save Invoice",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Save the invoice currently being prepared or edited.",
+          "when": "Use after checking invoice details and totals, when you want to store the invoice.",
+          "how": "Select Save Invoice and wait for the app's success or validation message.",
+          "inputs": "The invoice must contain the required customer and invoice information and valid line items.",
+          "result": "If saving succeeds, the invoice is stored and appears in the invoice list.",
+          "notes": "Review invoice number, customer, dates, line items and total. Do not assume it was saved if the app reports an error or does not confirm success."
+        },
+        "fa": {
+          "purpose": "ذخیره فاکتوری که اکنون در حال تهیه یا ویرایش آن هستید.",
+          "when": "پس از بررسی جزئیات و جمع فاکتور، برای ذخیره آن استفاده کنید.",
+          "how": "Save Invoice را انتخاب کنید و منتظر پیام موفقیت یا خطای اعتبارسنجی بمانید.",
+          "inputs": "فاکتور باید اطلاعات الزامی مشتری و فاکتور و ردیف‌های معتبر داشته باشد.",
+          "result": "در صورت موفقیت، فاکتور ذخیره شده و در فهرست فاکتورها نمایش داده می‌شود.",
+          "notes": "شماره فاکتور، مشتری، تاریخ‌ها، ردیف‌ها و مبلغ کل را بررسی کنید. اگر برنامه خطا داد یا موفقیت را تأیید نکرد، فرض نکنید فاکتور ذخیره شده است."
+        }
+      },
       "handler_or_behavior": "`saveInvoice()`"
     },
     {
@@ -2799,8 +2833,25 @@
       "audit_ref": "INV-037",
       "element_id": null,
       "label": "Save & Print / PDF",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Save the current invoice and open its print or PDF output.",
+          "when": "Use when the invoice is ready and you want to keep it and produce a printable or PDF copy in one action.",
+          "how": "Select Save & Print / PDF and follow the preview or print dialog shown by the app or browser.",
+          "inputs": "A valid invoice with required details and line items is needed. The device/browser must support printing.",
+          "result": "The app attempts to save the invoice and then opens the print/PDF workflow.",
+          "notes": "Check the save result before distributing the invoice. Review the preview, page layout and recipient details. A print-dialog issue does not necessarily mean saving failed."
+        },
+        "fa": {
+          "purpose": "ذخیره فاکتور فعلی و بازکردن خروجی چاپ یا PDF آن.",
+          "when": "وقتی فاکتور آماده است و می‌خواهید هم‌زمان آن را ذخیره و نسخه قابل چاپ یا PDF تهیه کنید، استفاده کنید.",
+          "how": "Save & Print / PDF را انتخاب کنید و مراحل پیش‌نمایش یا پنجره چاپ برنامه یا مرورگر را دنبال کنید.",
+          "inputs": "فاکتور معتبر با جزئیات و ردیف‌های الزامی لازم است. دستگاه و مرورگر باید از فرایند چاپ پشتیبانی کنند.",
+          "result": "برنامه تلاش می‌کند فاکتور را ذخیره کند و سپس فرایند چاپ یا PDF را باز می‌کند.",
+          "notes": "پیش از ارسال فاکتور، نتیجه ذخیره را بررسی کنید. پیش‌نمایش، چیدمان صفحه و مشخصات گیرنده را بازبینی کنید. بروز مشکل در پنجره چاپ لزوماً به معنی ناموفق‌بودن ذخیره نیست."
+        }
+      },
       "handler_or_behavior": "`saveAndPrintInvoice()`"
     },
     {
@@ -2808,8 +2859,25 @@
       "audit_ref": "INV-038",
       "element_id": null,
       "label": "Save Customer",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Save the customer details entered in the customer form.",
+          "when": "Use when adding a new customer or saving changes to the customer currently being edited.",
+          "how": "Enter the customer or company name and relevant contact details, then select Save Customer.",
+          "inputs": "Customer or company name is required. Phone, billing address, usual work address and email are optional.",
+          "result": "If saving succeeds, the customer is stored and appears in the customer list; it can then be selected for invoices.",
+          "notes": "Check spelling and contact details before saving. Avoid creating a duplicate if the customer already exists."
+        },
+        "fa": {
+          "purpose": "ذخیره مشخصات مشتری واردشده در فرم مشتریان.",
+          "when": "هنگام افزودن مشتری جدید یا ذخیره تغییرات مشتری‌ای که در حال ویرایش آن هستید، استفاده کنید.",
+          "how": "نام مشتری یا شرکت و اطلاعات تماس مربوط را وارد کنید و Save Customer را بزنید.",
+          "inputs": "نام مشتری یا شرکت الزامی است. تلفن، نشانی صورتحساب، نشانی معمول محل کار و ایمیل اختیاری هستند.",
+          "result": "در صورت موفقیت، مشتری ذخیره و در فهرست مشتریان نمایش داده می‌شود و می‌توان آن را برای فاکتورها انتخاب کرد.",
+          "notes": "پیش از ذخیره، املای نام و اطلاعات تماس را بررسی کنید. اگر مشتری از قبل وجود دارد، رکورد تکراری نسازید."
+        }
+      },
       "handler_or_behavior": "`saveCustomer()`"
     },
     {
@@ -2817,8 +2885,25 @@
       "audit_ref": "INV-039",
       "element_id": null,
       "label": "Clear Form",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Clear the customer form and prepare it for a new customer entry.",
+          "when": "Use to discard unsaved customer form values or stop editing the current customer.",
+          "how": "Select Clear Form in the customer section.",
+          "inputs": "No input is required. Current unsaved form values are cleared.",
+          "result": "The customer form is reset for a new entry.",
+          "notes": "This clears the form; it does not delete a saved customer. Any unsaved edits will be lost."
+        },
+        "fa": {
+          "purpose": "پاک‌کردن فرم مشتری و آماده‌سازی آن برای ثبت مشتری جدید.",
+          "when": "برای کنارگذاشتن مقادیر ذخیره‌نشده یا پایان‌دادن به ویرایش مشتری فعلی استفاده کنید.",
+          "how": "در بخش مشتریان Clear Form را انتخاب کنید.",
+          "inputs": "ورودی لازم نیست. مقادیر ذخیره‌نشده فرم پاک می‌شوند.",
+          "result": "فرم مشتری برای ثبت جدید بازنشانی می‌شود.",
+          "notes": "این گزینه فرم را پاک می‌کند و مشتری ذخیره‌شده را حذف نمی‌کند. تغییرات ذخیره‌نشده از بین می‌روند."
+        }
+      },
       "handler_or_behavior": "`resetCustomerForm()`"
     },
     {
@@ -4588,7 +4673,8 @@
   ],
   "content_progress": {
     "completed_entries": 20,
-    "pending_entries": 209,
-    "completion_scope": "Only entries with reviewed, accurate content in all eleven languages count as complete."
+    "draft_entries": 13,
+    "pending_entries": 196,
+    "completion_scope": "Only reviewed content in all eleven languages counts as complete; draft entries remain excluded."
   }
 }
