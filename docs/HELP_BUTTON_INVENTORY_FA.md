@@ -4,7 +4,7 @@
 **مخزن/شاخه:** `Thehandymanjob/accountancy-r11-preview` / `development`
 **Build مبنا:** `THA-273-R11-PREVIEW-20261126-R43`
 **Index blob SHA مبنا:** `104766171ee9ad519ec8be36126f04f0dde24a5c`
-**تعداد عناصر button در سورس:** 266 (فهرست ایستا؛ عناصر ساخته‌شده در DOM ممکن است نیازمند شمارش تکمیلی باشند)
+**تعداد عناصر button در سورس:** 266 تگ HTML/قالب + 2 الگوی ساخت DOM API = 268 ردیف ممیزی؛ نمونه‌های runtime ممکن است بیشتر باشند
 **روش شمارش:** تگ‌های button در HTML و قالب‌های JavaScript؛ دکمه‌های ساخته‌شده با DOM API ممکن است نیازمند ممیزی تکمیلی باشند.
 
 ## قواعد
@@ -286,6 +286,17 @@
 | INV-264 | — | Print / Save PDF | `report188Print(` | HELP-REQUIRED |
 | INV-265 | — | Close saved report | `document.getElementById(` | EXEMPT-CANDIDATE |
 | INV-266 | eiwClose | Return to form | `event/property listener` | HELP-REQUIRED |
+
+## کنترل‌های ساخته‌شده با DOM API
+
+بررسی مستقیم سورس R43 دو محل `document.createElement('button')` را پیدا کرد که در شمارش ۲۶۶ تگ موجود در HTML/قالب‌ها نیستند. این‌ها دو نوع کنترل پویا هستند، نه دو دکمه ثابت در صفحه:
+
+| Ref ممیزی | Selector / Class | متن | رفتار | طبقه‌بندی |
+|---|---|---|---|---|
+| INV-267 | `.unified-dropdown-trigger` | متن گزینه انتخاب‌شده / placeholder | باز و بسته کردن فهرست انتخاب بومی‌شده از روی یک select موجود | HELP-REQUIRED |
+| INV-268 | `.unified-dropdown-option` | متن هر گزینه از select | انتخاب مقدار و dispatch رویداد change؛ برای هر گزینه نمونه جداگانه ساخته می‌شود | EXEMPT-CANDIDATE |
+
+بنابراین baseline فعلی ۲۶۸ نوع/عنصر قابل ممیزی دارد: ۲۳۳ HELP-REQUIRED و ۳۵ EXEMPT-CANDIDATE. این شمارش، تعداد کل نمونه‌های زمان اجرا را بیان نمی‌کند؛ تعداد گزینه‌های dropdown بر اساس داده و صفحه تغییر می‌کند.
 
 ## تکمیل موردنیاز
 
