@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261126-R41",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R41",
-    "indexBlobSha": "a666d7d831aa68aeba29649071d6fa2b58c4bf84",
+    "buildId": "THA-273-R11-PREVIEW-20261126-R42",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R42",
+    "indexBlobSha": "75ba64f60d651038ad6cfde2a39f5d9160158c06",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "a666d7d831aa68aeba29649071d6fa2b58c4bf84",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "75ba64f60d651038ad6cfde2a39f5d9160158c06",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7"
     }
@@ -1851,26 +1851,26 @@
       "productionCommitSha": "not applicable"
     },
     {
-      "changeId": "THA-2026-11-26-HELP-USER-GUIDE-STRUCTURE-R41",
+      "changeId": "THA-2026-11-26-HELP-USER-GUIDE-MULTILINGUAL-R42",
       "dateStarted": "2026-11-26",
-      "purpose": "Consolidate Settings Help into a User Guide language page and a single practical User Guide page with Contact Us preserved. Remove the application-wide translation and RTL engine so the application interface remains English/LTR; persist guide language through the existing Support preferences store. Preview only.",
+      "purpose": "Complete guide-only translation of all 12 User Guide chapters in seven supported languages while keeping the application interface English/LTR. Preview only.",
       "changedFiles": [
         "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "41085bac9935e73359aaf40421f25bdec96a5446",
+      "previewDevelopmentCommitSha": "2f3ada225b4eb69a2c52adb989001b228fd1eb99",
       "previewPullRequestNumber": 96,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "PASS",
-        "runId": 45907184983,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45907184983",
-        "details": "R11 Version Authority Gate passed on PR #96 head 6c19f216477cc737576fe68e2638c8a009648f38. The earlier run on the intermediate index-only commit failed because it preceded the matching Authority pin update; the final PR head passed."
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "R42 source and Version Authority pins updated; PR gate must run against the final matching head."
       },
       "staticChecks": {
-        "result": "PASS WITH LIMITATIONS",
-        "details": "All 8 inline JavaScript blocks passed V8 parsing. Structural checks confirm one Help page and one User Guide page, one shortcut to each, removal of global UI translation and RTL switching, and preservation of the Contact Us local-draft handler and English input guard. A source inventory identified 255 button elements with inline onclick handlers; full guide-body translations and the button-level Help ID registry remain incomplete. iPhone Safari not tested."
+        "result": "pending",
+        "details": "Seven-language chapter rendering added for all 12 guide chapters. Static JS parsing and exact language coverage audit pending. Button-level Help ID registry remains incomplete; iPhone Safari not tested."
       },
       "previewPagesDeployment": {
         "result": "pending",
@@ -1880,7 +1880,7 @@
       },
       "userSafariTest": {
         "result": "not tested",
-        "details": "Awaiting user verification on iPhone Safari of Help navigation, guide language persistence, English/LTR app interface and Contact Us local draft."
+        "details": "Awaiting iPhone Safari verification after a confirmed Preview deployment."
       },
       "userApproval": {
         "result": "authorized for Preview only",
