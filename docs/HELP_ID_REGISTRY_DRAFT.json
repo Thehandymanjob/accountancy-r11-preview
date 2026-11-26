@@ -2855,8 +2855,25 @@
       "audit_ref": "INV-067",
       "element_id": null,
       "label": "Export Activity Log (CSV)",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Exports the activity archive as a CSV file for review in a spreadsheet.",
+          "when": "Use this to examine, filter or share a copy of the device-local activity history.",
+          "how": "Select Export Activity Log (CSV), wait for the download, then open the file in a spreadsheet if required.",
+          "inputs": "No form input is required. The browser must allow downloads.",
+          "result": "A CSV file containing the available activity-log fields is downloaded.",
+          "notes": "This is not a database backup. Review the CSV before sharing because event names, timestamps, record references and technical details may reveal business activity."
+        },
+        "fa": {
+          "purpose": "بایگانی فعالیت‌ها را برای بررسی در صفحه‌گسترده به‌صورت CSV صادر می‌کند.",
+          "when": "برای بررسی، فیلترکردن یا به‌اشتراک‌گذاری نسخه‌ای از سابقه فعالیت‌های ذخیره‌شده روی دستگاه از این گزینه استفاده کنید.",
+          "how": "Export Activity Log (CSV) را انتخاب کنید، منتظر دانلود بمانید و در صورت نیاز فایل را با برنامه صفحه‌گسترده باز کنید.",
+          "inputs": "ورودی فرمی لازم نیست. مرورگر باید اجازه دانلود فایل را بدهد.",
+          "result": "یک فایل CSV شامل فیلدهای موجود در بایگانی فعالیت‌ها دانلود می‌شود.",
+          "notes": "این فایل پشتیبان پایگاه داده نیست. پیش از اشتراک‌گذاری آن را بررسی کنید؛ نام رویدادها، زمان‌ها، شناسه سوابق و جزئیات فنی ممکن است فعالیت کسب‌وکار را آشکار کنند."
+        }
+      },
       "handler_or_behavior": "`exportMonitorCSV()`"
     },
     {
@@ -2864,8 +2881,25 @@
       "audit_ref": "INV-068",
       "element_id": null,
       "label": "Run Local Self-check",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Runs a local diagnostic check of the activity archive, IndexedDB health and app version.",
+          "when": "Use this as a quick local check when investigating a storage or app issue.",
+          "how": "Select Run Local Self-check and read each item in the displayed result.",
+          "inputs": "No form input is required. IndexedDB must be available for storage checks.",
+          "result": "Results for the activity archive, IndexedDB health, database name, app version and accounting integrity warning flag are displayed.",
+          "notes": "This is a diagnostic check, not a repair tool. It does not reset, restore or migrate data. Investigate any failure or warning before changing data."
+        },
+        "fa": {
+          "purpose": "یک بررسی تشخیصی محلی از بایگانی فعالیت‌ها، سلامت IndexedDB و نسخه برنامه اجرا می‌کند.",
+          "when": "برای بررسی سریع محلی هنگام پیگیری مشکل برنامه یا ذخیره‌سازی از این گزینه استفاده کنید.",
+          "how": "Run Local Self-check را انتخاب کنید و هر مورد نتیجه نمایش‌داده‌شده را بخوانید.",
+          "inputs": "ورودی فرمی لازم نیست. برای بررسی ذخیره‌سازی، IndexedDB باید در دسترس باشد.",
+          "result": "نتایج بررسی بایگانی فعالیت‌ها، سلامت IndexedDB، نام پایگاه داده، نسخه برنامه و نشانگر هشدار یکپارچگی حسابداری نمایش داده می‌شوند.",
+          "notes": "این گزینه ابزار تشخیصی است، نه ابزار تعمیر. داده‌ها را Reset، Restore یا مهاجرت نمی‌دهد. هر خطا یا هشدار را پیش از تغییر داده‌ها بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`runMonitorSelfCheck()`"
     },
     {
@@ -2873,8 +2907,25 @@
       "audit_ref": "INV-070",
       "element_id": null,
       "label": "💾 Backup & Restore Separate backups for each data area",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the backup and restore area for separate app data areas.",
+          "when": "Use this to back up or restore a specific supported data area rather than the complete database.",
+          "how": "Open Backup & Restore, read the scope shown for the selected area, then follow its backup or restore control. Do not proceed until the scope is clear.",
+          "inputs": "Inputs depend on the selected area and operation. A compatible backup file is required for restore.",
+          "result": "The selected area’s backup or restore workflow opens; the exact scope depends on that area.",
+          "notes": "Restore replaces data within its selected scope and may overwrite current records there. Verify the target and backup file, and create a fresh backup first. Do not confuse this with full-database Restore."
+        },
+        "fa": {
+          "purpose": "بخش پشتیبان‌گیری و بازیابی را برای حوزه‌های داده جداگانه برنامه باز می‌کند.",
+          "when": "برای پشتیبان‌گیری یا بازیابی یک حوزه داده پشتیبانی‌شده، به‌جای کل پایگاه داده، از این گزینه استفاده کنید.",
+          "how": "Backup & Restore را باز کنید، محدوده حوزه انتخاب‌شده را بخوانید و سپس کنترل پشتیبان‌گیری یا بازیابی مربوط را اجرا کنید. تا روشن‌شدن محدوده ادامه ندهید.",
+          "inputs": "ورودی لازم به حوزه انتخاب‌شده و نوع عملیات بستگی دارد. برای بازیابی، فایل پشتیبان سازگار لازم است.",
+          "result": "گردش‌کار پشتیبان‌گیری یا بازیابی حوزه انتخاب‌شده باز می‌شود؛ محدوده دقیق به همان حوزه بستگی دارد.",
+          "notes": "بازیابی، داده‌های محدوده انتخاب‌شده را جایگزین می‌کند و ممکن است سوابق فعلی همان حوزه را بازنویسی کند. حوزه مقصد و فایل پشتیبان را بررسی و ابتدا پشتیبان تازه تهیه کنید. این گزینه را با Restore کل پایگاه داده اشتباه نگیرید."
+        }
+      },
       "handler_or_behavior": "`show(`"
     },
     {
@@ -2882,8 +2933,25 @@
       "audit_ref": "INV-071",
       "element_id": null,
       "label": "❓ Help Choose the language for the User Guide",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the User Guide language selector and applies the selected language to guide content.",
+          "when": "Use this when you want to read the User Guide in a language other than English.",
+          "how": "Open Help and choose a language from the selector. Guide headings and chapter text update to that language.",
+          "inputs": "Choose one of the available guide languages.",
+          "result": "The User Guide is displayed in the selected language and the preference is saved on this device if saving succeeds.",
+          "notes": "This changes the guide language only. It does not translate the app interface, user-entered records or saved business data. The app interface remains English and left-to-right."
+        },
+        "fa": {
+          "purpose": "انتخاب زبان محتوای راهنمای کاربر را باز می‌کند و زبان انتخاب‌شده را روی راهنما اعمال می‌کند.",
+          "when": "وقتی می‌خواهید راهنمای کاربر را به زبانی غیر از انگلیسی بخوانید، از این گزینه استفاده کنید.",
+          "how": "Help را باز کنید و زبان موردنظر را از فهرست انتخاب کنید. عنوان‌ها و متن فصل‌های راهنما به زبان انتخاب‌شده تغییر می‌کنند.",
+          "inputs": "یکی از زبان‌های موجود راهنما را انتخاب کنید.",
+          "result": "راهنمای کاربر به زبان انتخاب‌شده نمایش داده می‌شود و در صورت موفقیت، ترجیح زبان روی همین دستگاه ذخیره می‌شود.",
+          "notes": "این گزینه فقط زبان راهنما را تغییر می‌دهد. رابط برنامه، اطلاعات واردشده یا داده‌های ذخیره‌شده کسب‌وکار را ترجمه نمی‌کند. رابط برنامه انگلیسی و راست‌به‌چپ‌نشده باقی می‌ماند."
+        }
+      },
       "handler_or_behavior": "`show(`"
     },
     {
@@ -2891,8 +2959,25 @@
       "audit_ref": "INV-072",
       "element_id": null,
       "label": "👤 Profile & Logo Business details and business logo",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the business profile and logo settings.",
+          "when": "Use this when setting up or updating business details and the logo used in supported app documents.",
+          "how": "Open Profile & Logo, review the existing details, enter the business information, add or change the logo if required, then select Save Profile. Check the save confirmation.",
+          "inputs": "Business profile fields requested by the form; a logo image is optional and must meet the app’s accepted file requirements.",
+          "result": "Profile details and the optional logo are saved if the operation succeeds and may be used in supported documents.",
+          "notes": "Check spelling, contact details and logo before saving. Saving the profile does not automatically change previously issued documents. Keep a separate copy of the logo image."
+        },
+        "fa": {
+          "purpose": "تنظیمات پروفایل کسب‌وکار و لوگو را باز می‌کند.",
+          "when": "هنگام راه‌اندازی یا به‌روزرسانی مشخصات کسب‌وکار و لوگویی که در اسناد پشتیبانی‌شده برنامه استفاده می‌شود، از این گزینه استفاده کنید.",
+          "how": "Profile & Logo را باز کنید، اطلاعات فعلی را بررسی و مشخصات موردنظر را وارد کنید؛ در صورت نیاز لوگو را اضافه یا عوض کنید و Save Profile را بزنید. پیام تأیید ذخیره را بررسی کنید.",
+          "inputs": "فیلدهای پروفایل طبق فرم؛ تصویر لوگو اختیاری است و باید با شرایط فایل قابل قبول برنامه سازگار باشد.",
+          "result": "در صورت موفقیت، مشخصات پروفایل و لوگوی اختیاری ذخیره می‌شوند و ممکن است در اسناد پشتیبانی‌شده استفاده شوند.",
+          "notes": "پیش از ذخیره، املای نام، اطلاعات تماس و لوگو را بررسی کنید. ذخیره پروفایل اسناد صادرشده قبلی را خودکار تغییر نمی‌دهد. یک نسخه جداگانه از فایل لوگو نگه دارید."
+        }
+      },
       "handler_or_behavior": "`show(`"
     },
     {
@@ -4437,8 +4522,8 @@
   ],
   "content_progress": {
     "completed_entries": 20,
-    "draft_entries": 33,
-    "pending_entries": 176,
+    "draft_entries": 38,
+    "pending_entries": 171,
     "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written."
   }
 }
