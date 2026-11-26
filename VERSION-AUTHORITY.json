@@ -1905,10 +1905,10 @@
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Re-run on the current PR #96 head after updating the index blob SHA and all R43 Authority pins."
+        "result": "PASS",
+        "runId": 45910333714,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45910333714",
+        "details": "R11 Version Authority Gate passed after the R43 index blob SHA and runtime asset pin were synchronized. The Gate validated repository/branch identity, R43 Build ID, canonical URL, approved baseline ancestry and all 22 pinned runtime assets."
       },
       "staticChecks": {
         "result": "PASS",
