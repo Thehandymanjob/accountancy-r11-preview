@@ -2095,7 +2095,7 @@
       "audit_ref": "INV-025",
       "element_id": null,
       "label": "Set period (13th–12th)",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Set the dashboard and report period to the app's monthly cycle from the 13th to the 12th.",
@@ -2112,6 +2112,78 @@
           "inputs": "نیازی به ورود دستی تاریخ نیست؛ برنامه با تاریخ امروز دوره مربوط را تعیین می‌کند.",
           "result": "تاریخ‌های داشبورد و گزارش روی دوره مربوط تنظیم و ارقام تازه می‌شوند.",
           "notes": "پیش از اتکا به جمع‌ها تاریخ‌ها را بررسی کنید. این گزینه دوره گزارش را تغییر می‌دهد، نه تاریخ تراکنش‌ها را."
+        },
+        "ar": {
+          "purpose": "يضبط فترة لوحة المعلومات والتقارير وفق الدورة الشهرية للتطبيق من اليوم الثالث عشر إلى اليوم الثاني عشر.",
+          "when": "استخدمه لعرض الفترة المحاسبية الحالية الممتدة من اليوم الثالث عشر من شهر إلى اليوم الثاني عشر من الشهر التالي.",
+          "how": "اختر Set period (13th–12th). يملأ التطبيق تاريخي البداية والنهاية ويحدّث الأرقام.",
+          "inputs": "لا حاجة إلى إدخال التواريخ يدويًا؛ يحدد تاريخ اليوم الفترة المناسبة.",
+          "result": "تُضبط حقول تواريخ لوحة المعلومات والتقرير على الفترة المناسبة وتُحدّث الأرقام.",
+          "notes": "تحقق من التواريخ قبل الاعتماد على الإجماليات. يغيّر هذا الخيار فترة التقرير ولا يغيّر تواريخ المعاملات."
+        },
+        "ckb": {
+          "purpose": "ماوەی داشبۆرد و ڕاپۆرتەکان بە پێی خولی مانگانەی ئەپەکە لە ١٣ی مانگ تا ١٢ی مانگی دواتر دادەنێت.",
+          "when": "بۆ بینینی ماوەی ژمێریاری ئێستا کە لە ١٣ی مانگێکەوە تا ١٢ی مانگی دواترە بەکاریبهێنە.",
+          "how": "Set period (13th–12th) هەڵبژێرە. ئەپەکە بەرواری دەستپێک و کۆتایی پڕ دەکاتەوە و ژمارەکان نوێ دەکاتەوە.",
+          "inputs": "بەرواری دەستی پێکردن پێویست ناکات؛ بەرواری ئەمڕۆ ماوەی گونجاو دیاری دەکات.",
+          "result": "خانەکانی بەرواری داشبۆرد و ڕاپۆرت بۆ ماوەی گونجاو دادەنرێن و ژمارەکان نوێ دەبنەوە.",
+          "notes": "پێش پشتبەستن بە کۆی ژمارەکان بەروارەکان بپشکنە. ئەمە ماوەی ڕاپۆرت دەگۆڕێت، نەک بەرواری مامەڵەکان."
+        },
+        "kmr": {
+          "purpose": "Dema dashboard û raporan li gorî dewrê mehane yê sepanê, ji roja 13an heta roja 12an, saz dike.",
+          "when": "Ji bo dîtina dema hesabê ya niha ku ji 13ê mehê yekê heta 12ê mehê din dimeşe, vê bikar bîne.",
+          "how": "Set period (13th–12th) hilbijêre. Sepan dîrokên destpêk û dawiyê dagire û hejmaran nû dike.",
+          "inputs": "Pêdivî bi nivîsandina dîrokan a bi destan tune; dîroka îro dema guncaw diyar dike.",
+          "result": "Qadên dîrokê yên dashboard û raporê li ser dema guncaw têne danîn û hejmar têne nûkirin.",
+          "notes": "Berî ku xwe bispêrî tevahiyan, dîrokan kontrol bike. Ev dema raporê diguherîne, ne dîrokên danûstandinan."
+        },
+        "tr": {
+          "purpose": "Gösterge paneli ve rapor dönemini uygulamanın 13'ünden 12'sine uzanan aylık döngüsüne ayarlar.",
+          "when": "Bir ayın 13'ünden sonraki ayın 12'sine kadar süren geçerli muhasebe dönemini görüntülemek için kullanın.",
+          "how": "Set period (13th–12th) seçeneğini seçin. Uygulama başlangıç ve bitiş tarihlerini doldurur ve rakamları yeniler.",
+          "inputs": "Tarihleri elle girmeniz gerekmez; bugünün tarihi ilgili dönemi belirler.",
+          "result": "Gösterge paneli ve rapor tarih alanları ilgili döneme ayarlanır ve rakamlar yenilenir.",
+          "notes": "Toplamlara güvenmeden önce tarihleri kontrol edin. Bu işlem raporlama dönemini değiştirir, işlem tarihlerini değiştirmez."
+        },
+        "pl": {
+          "purpose": "Ustawia okres pulpitu i raportu zgodnie z miesięcznym cyklem aplikacji od 13. dnia do 12. dnia następnego miesiąca.",
+          "when": "Użyj tej opcji, aby wyświetlić bieżący okres księgowy trwający od 13. dnia jednego miesiąca do 12. dnia kolejnego.",
+          "how": "Wybierz Set period (13th–12th). Aplikacja uzupełni daty początkową i końcową oraz odświeży wartości.",
+          "inputs": "Nie trzeba ręcznie wpisywać dat; właściwy okres jest ustalany na podstawie dzisiejszej daty.",
+          "result": "Pola dat pulpitu i raportu zostaną ustawione na właściwy okres, a wartości odświeżone.",
+          "notes": "Przed poleganiem na sumach sprawdź daty. Ta opcja zmienia okres raportowania, a nie daty transakcji."
+        },
+        "ur": {
+          "purpose": "ڈیش بورڈ اور رپورٹ کی مدت کو ایپ کے ماہانہ دورانیے کے مطابق 13 تاریخ سے اگلے مہینے کی 12 تاریخ تک مقرر کرتا ہے۔",
+          "when": "موجودہ حسابی مدت دیکھنے کے لیے استعمال کریں جو ایک مہینے کی 13 تاریخ سے اگلے مہینے کی 12 تاریخ تک ہوتی ہے۔",
+          "how": "Set period (13th–12th) منتخب کریں۔ ایپ آغاز اور اختتام کی تاریخیں خود درج کرکے اعداد تازہ کرتی ہے۔",
+          "inputs": "تاریخیں دستی طور پر درج کرنے کی ضرورت نہیں؛ آج کی تاریخ متعلقہ مدت طے کرتی ہے۔",
+          "result": "ڈیش بورڈ اور رپورٹ کی تاریخیں متعلقہ مدت پر مقرر ہو جاتی ہیں اور اعداد تازہ ہو جاتے ہیں۔",
+          "notes": "مجموعوں پر انحصار کرنے سے پہلے تاریخیں دیکھ لیں۔ یہ رپورٹنگ کی مدت بدلتا ہے، لین دین کی تاریخیں نہیں۔"
+        },
+        "pa": {
+          "purpose": "ਡੈਸ਼ਬੋਰਡ ਅਤੇ ਰਿਪੋਰਟ ਦੀ ਮਿਆਦ ਨੂੰ ਐਪ ਦੇ ਮਹੀਨਾਵਾਰ ਚੱਕਰ ਅਨੁਸਾਰ 13 ਤਾਰੀਖ ਤੋਂ ਅਗਲੇ ਮਹੀਨੇ ਦੀ 12 ਤਾਰੀਖ ਤੱਕ ਸੈੱਟ ਕਰਦਾ ਹੈ।",
+          "when": "ਮੌਜੂਦਾ ਲੇਖਾ ਮਿਆਦ ਵੇਖਣ ਲਈ ਵਰਤੋ, ਜੋ ਇੱਕ ਮਹੀਨੇ ਦੀ 13 ਤਾਰੀਖ ਤੋਂ ਅਗਲੇ ਮਹੀਨੇ ਦੀ 12 ਤਾਰੀਖ ਤੱਕ ਹੁੰਦੀ ਹੈ।",
+          "how": "Set period (13th–12th) ਚੁਣੋ। ਐਪ ਸ਼ੁਰੂ ਅਤੇ ਆਖਰੀ ਤਾਰੀਖਾਂ ਭਰ ਕੇ ਅੰਕੜੇ ਤਾਜ਼ਾ ਕਰਦੀ ਹੈ।",
+          "inputs": "ਤਾਰੀਖਾਂ ਹੱਥੀਂ ਭਰਨ ਦੀ ਲੋੜ ਨਹੀਂ; ਅੱਜ ਦੀ ਤਾਰੀਖ ਸੰਬੰਧਿਤ ਮਿਆਦ ਨਿਰਧਾਰਤ ਕਰਦੀ ਹੈ।",
+          "result": "ਡੈਸ਼ਬੋਰਡ ਅਤੇ ਰਿਪੋਰਟ ਦੀਆਂ ਤਾਰੀਖਾਂ ਸੰਬੰਧਿਤ ਮਿਆਦ ਲਈ ਸੈੱਟ ਹੋ ਜਾਂਦੀਆਂ ਹਨ ਅਤੇ ਅੰਕੜੇ ਤਾਜ਼ਾ ਹੁੰਦੇ ਹਨ।",
+          "notes": "ਕੁੱਲਾਂ 'ਤੇ ਭਰੋਸਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਤਾਰੀਖਾਂ ਜਾਂਚੋ। ਇਹ ਰਿਪੋਰਟਿੰਗ ਮਿਆਦ ਬਦਲਦਾ ਹੈ, ਲੈਣ-ਦੇਣ ਦੀਆਂ ਤਾਰੀਖਾਂ ਨਹੀਂ।"
+        },
+        "prs": {
+          "purpose": "دوره داشبورد و گزارش را مطابق چرخه ماهانه برنامه، از روز ۱۳ تا روز ۱۲ ماه بعد تنظیم می‌کند.",
+          "when": "برای مشاهده دوره حسابداری جاری که از روز ۱۳ یک ماه تا روز ۱۲ ماه بعد ادامه دارد، استفاده کنید.",
+          "how": "Set period (13th–12th) را انتخاب کنید. برنامه تاریخ شروع و پایان را پر می‌کند و ارقام را تازه می‌سازد.",
+          "inputs": "نیازی به واردکردن دستی تاریخ‌ها نیست؛ تاریخ امروز دوره مربوط را تعیین می‌کند.",
+          "result": "فیلدهای تاریخ داشبورد و گزارش روی دوره مربوط تنظیم و ارقام تازه می‌شوند.",
+          "notes": "پیش از اتکا به جمع‌ها تاریخ‌ها را بررسی کنید. این گزینه دوره گزارش را تغییر می‌دهد، نه تاریخ تراکنش‌ها."
+        },
+        "ps": {
+          "purpose": "د ډشبورډ او راپور موده د اپ د میاشتني پړاو له مخې، د میاشتې له ۱۳مې څخه د بلې میاشتې تر ۱۲مې پورې ټاکي.",
+          "when": "د اوسني حسابي پړاو د لیدلو لپاره یې وکاروئ چې د یوې میاشتې له ۱۳مې څخه د بلې میاشتې تر ۱۲مې دوام کوي.",
+          "how": "Set period (13th–12th) وټاکئ. اپ د پیل او پای نېټې ډکوي او شمېرې تازه کوي.",
+          "inputs": "د نېټو لاسي لیکلو ته اړتیا نشته؛ د نن ورځې نېټه اړونده موده ټاکي.",
+          "result": "د ډشبورډ او راپور د نېټې برخې اړوندې مودې ته ټاکل کېږي او شمېرې تازه کېږي.",
+          "notes": "پر ټولیزو شمېرو له باور مخکې نېټې وګورئ. دا د راپور موده بدلوي، نه د معاملاتو نېټې."
         }
       },
       "handler_or_behavior": "`setPeriod()`"
@@ -2121,7 +2193,7 @@
       "audit_ref": "INV-026",
       "element_id": "categoryPickerButton",
       "label": "Select a category ⌄",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Open the category picker to choose an expense category for the current entry.",
@@ -2138,6 +2210,78 @@
           "inputs": "ثبت هزینه به دسته‌بندی نیاز دارد. گزینه‌ها از فهرست‌های برنامه می‌آیند.",
           "result": "دسته انتخاب‌شده در فرم قرار می‌گیرد و ممکن است فیلدهای مرتبط نمایش داده شوند.",
           "notes": "دقیق‌ترین دسته را انتخاب کنید. افزودن دسته جدید فهرست ذخیره‌شده را تغییر می‌دهد؛ انتخاب دسته به‌تنهایی تراکنش را ذخیره نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يفتح قائمة الفئات لاختيار فئة مصروفات للقيد الحالي.",
+          "when": "استخدمه عند تسجيل مصروف واختيار الفئة التي تصف التكلفة بأكبر دقة.",
+          "how": "اختر حقل الفئة ثم اختر عنصرًا من القائمة. عند الحاجة، استخدم خيار إضافة عنصر جديد إلى مجموعة الفئات.",
+          "inputs": "يتطلب تسجيل المصروف تحديد فئة. وتأتي الخيارات من قوائم الفئات في التطبيق.",
+          "result": "تُدرج الفئة المختارة في النموذج وقد تظهر حقول مرتبطة بها.",
+          "notes": "اختر الفئة الأدق. إضافة فئة تغيّر القائمة المحفوظة؛ أما اختيار فئة وحده فلا يحفظ المعاملة."
+        },
+        "ckb": {
+          "purpose": "لیستی هاوپۆلەکان دەکاتەوە بۆ هەڵبژاردنی هاوپۆلی خەرجی بۆ تۆماری ئێستا.",
+          "when": "کاتێک خەرجی تۆمار دەکەیت و دەبێت هاوپۆلێک هەڵبژێریت کە تێچووەکە بە دروستی ڕوون بکاتەوە، بەکاریبهێنە.",
+          "how": "خانەی هاوپۆل هەڵبژێرە و پاشان دانەیەک لە لیستەکە هەڵبژێرە. ئەگەر پێویست بوو، هەڵبژاردەی زیادکردنی دانەیەکی نوێ بەکاربهێنە.",
+          "inputs": "تۆمارکردنی خەرجی پێویستی بە هاوپۆل هەیە. هەڵبژاردەکان لە لیستەکانی ئەپەکەوە دێن.",
+          "result": "هاوپۆلی هەڵبژێردراو لە فۆڕمەکە دادەنرێت و لەوانەیە خانە پەیوەندیدارەکان دەربکەون.",
+          "notes": "ئەو هاوپۆلە هەڵبژێرە کە وردترینە. زیادکردنی هاوپۆل لیستی پاشەکەوتکراو دەگۆڕێت؛ هەڵبژاردنی تەنها خۆی مامەڵەکە پاشەکەوت ناکات."
+        },
+        "kmr": {
+          "purpose": "Lîsteya kategoriyan vedike da ku ji bo tomara niha kategoriyeke lêçûnê hilbijêrî.",
+          "when": "Dema ku lêçûnekê tomar dikî û dixwazî kategoriyeke ku lêçûnê baştirîn rave dike hilbijêrî, vê bikar bîne.",
+          "how": "Qada kategoriyê hilbijêre, paşê hêmanekê ji lîsteyê hilbijêre. Heke hewce be, vebijêrka zêdekirina hêmaneke nû bikar bîne.",
+          "inputs": "Tomarkirina lêçûnê kategoriyekê dixwaze. Vebijêrk ji lîsteyên kategoriyê yên sepanê tên.",
+          "result": "Kategoriya hilbijartî di formê de tê danîn û dibe ku qadên têkildar xuya bibin.",
+          "notes": "Kategoriya herî rast hilbijêre. Zêdekirina kategoriyekê lîsteya hilanînê diguherîne; hilbijartina wê bi tenê danûstandinê tomar nake."
+        },
+        "tr": {
+          "purpose": "Geçerli kayıt için bir gider kategorisi seçmek üzere kategori listesini açar.",
+          "when": "Bir gider kaydederken maliyeti en iyi tanımlayan kategoriyi seçmek için kullanın.",
+          "how": "Kategori alanını seçin, ardından listeden bir öğe seçin. Gerekirse kategori grubuna yeni öğe ekleme seçeneğini kullanın.",
+          "inputs": "Gider kaydı için kategori gerekir. Seçenekler uygulamanın kategori listelerinden gelir.",
+          "result": "Seçilen kategori forma eklenir ve ilgili alanlar görüntülenebilir.",
+          "notes": "En doğru kategoriyi seçin. Kategori eklemek kayıtlı listeyi değiştirir; yalnızca kategori seçmek işlemi kaydetmez."
+        },
+        "pl": {
+          "purpose": "Otwiera listę kategorii, aby wybrać kategorię wydatku dla bieżącego wpisu.",
+          "when": "Użyj podczas rejestrowania wydatku, aby wybrać kategorię najlepiej opisującą koszt.",
+          "how": "Wybierz pole kategorii, a następnie pozycję z listy. W razie potrzeby użyj opcji dodania nowej pozycji do grupy kategorii.",
+          "inputs": "Wpis dotyczący wydatku wymaga kategorii. Opcje pochodzą z list kategorii aplikacji.",
+          "result": "Wybrana kategoria zostanie umieszczona w formularzu; mogą pojawić się powiązane pola.",
+          "notes": "Wybierz najdokładniejszą kategorię. Dodanie kategorii zmienia zapisaną listę; samo wybranie kategorii nie zapisuje transakcji."
+        },
+        "ur": {
+          "purpose": "موجودہ اندراج کے لیے اخراجات کی قسم منتخب کرنے کی فہرست کھولتا ہے۔",
+          "when": "اخراجات درج کرتے وقت لاگت کی درست وضاحت کرنے والی قسم منتخب کرنے کے لیے استعمال کریں۔",
+          "how": "قسم کا خانہ منتخب کریں، پھر فہرست سے ایک چیز چنیں۔ ضرورت ہو تو اسی گروپ میں نئی چیز شامل کرنے کا اختیار استعمال کریں۔",
+          "inputs": "اخراجات کے اندراج کے لیے قسم ضروری ہے۔ اختیارات ایپ کی قسموں کی فہرست سے آتے ہیں۔",
+          "result": "منتخب کردہ قسم فارم میں شامل ہو جاتی ہے اور متعلقہ خانے ظاہر ہو سکتے ہیں۔",
+          "notes": "سب سے درست قسم منتخب کریں۔ نئی قسم شامل کرنے سے محفوظ فہرست بدلتی ہے؛ صرف قسم منتخب کرنے سے لین دین محفوظ نہیں ہوتا۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਐਂਟਰੀ ਲਈ ਖਰਚੇ ਦੀ ਸ਼੍ਰੇਣੀ ਚੁਣਨ ਵਾਸਤੇ ਸ਼੍ਰੇਣੀ ਸੂਚੀ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਖਰਚਾ ਦਰਜ ਕਰਦੇ ਸਮੇਂ ਲਾਗਤ ਨੂੰ ਸਭ ਤੋਂ ਠੀਕ ਦਰਸਾਉਣ ਵਾਲੀ ਸ਼੍ਰੇਣੀ ਚੁਣਨ ਲਈ ਵਰਤੋ।",
+          "how": "ਸ਼੍ਰੇਣੀ ਵਾਲਾ ਖਾਨਾ ਚੁਣੋ, ਫਿਰ ਸੂਚੀ ਵਿੱਚੋਂ ਇਕ ਚੀਜ਼ ਚੁਣੋ। ਲੋੜ ਹੋਵੇ ਤਾਂ ਉਸ ਸ਼੍ਰੇਣੀ ਗਰੁੱਪ ਵਿੱਚ ਨਵੀਂ ਚੀਜ਼ ਜੋੜਨ ਦਾ ਵਿਕਲਪ ਵਰਤੋ।",
+          "inputs": "ਖਰਚੇ ਦੀ ਐਂਟਰੀ ਲਈ ਸ਼੍ਰੇਣੀ ਲਾਜ਼ਮੀ ਹੈ। ਵਿਕਲਪ ਐਪ ਦੀਆਂ ਸ਼੍ਰੇਣੀ ਸੂਚੀਆਂ ਵਿੱਚੋਂ ਆਉਂਦੇ ਹਨ।",
+          "result": "ਚੁਣੀ ਸ਼੍ਰੇਣੀ ਫਾਰਮ ਵਿੱਚ ਆ ਜਾਂਦੀ ਹੈ ਅਤੇ ਸੰਬੰਧਿਤ ਖਾਨੇ ਦਿਖ ਸਕਦੇ ਹਨ।",
+          "notes": "ਸਭ ਤੋਂ ਸਹੀ ਸ਼੍ਰੇਣੀ ਚੁਣੋ। ਨਵੀਂ ਸ਼੍ਰੇਣੀ ਜੋੜਨ ਨਾਲ ਸੰਭਾਲੀ ਸੂਚੀ ਬਦਲਦੀ ਹੈ; ਸਿਰਫ਼ ਚੋਣ ਕਰਨ ਨਾਲ ਲੈਣ-ਦੇਣ ਸੇਵ ਨਹੀਂ ਹੁੰਦਾ।"
+        },
+        "prs": {
+          "purpose": "فهرست دسته‌بندی‌ها را باز می‌کند تا برای ثبت فعلی یک دسته هزینه انتخاب کنید.",
+          "when": "هنگام ثبت هزینه، برای انتخاب دسته‌ای که هزینه را دقیق‌تر توصیف می‌کند استفاده کنید.",
+          "how": "فیلد دسته‌بندی را انتخاب کنید و سپس موردی را از فهرست بزنید. در صورت نیاز از گزینه افزودن مورد جدید به گروه دسته‌بندی استفاده کنید.",
+          "inputs": "ثبت هزینه به دسته‌بندی نیاز دارد. گزینه‌ها از فهرست‌های دسته‌بندی برنامه می‌آیند.",
+          "result": "دسته انتخاب‌شده در فرم قرار می‌گیرد و ممکن است فیلدهای مرتبط نمایش داده شوند.",
+          "notes": "دقیق‌ترین دسته را انتخاب کنید. افزودن دسته جدید فهرست ذخیره‌شده را تغییر می‌دهد؛ انتخاب دسته به‌تنهایی تراکنش را ذخیره نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د اوسني ثبت لپاره د لګښت د کټګورۍ د ټاکلو لېست پرانیزي.",
+          "when": "د لګښت د ثبت پر مهال یې د هغه کټګورۍ د ټاکلو لپاره وکاروئ چې لګښت تر ټولو ښه بیانوي.",
+          "how": "د کټګورۍ برخه وټاکئ، بیا له لېست څخه یو توکی غوره کړئ. که اړتیا وي، د کټګورۍ ډلې ته د نوي توکي د زیاتولو اختیار وکاروئ.",
+          "inputs": "د لګښت ثبت کټګورۍ ته اړتیا لري. انتخابونه د اپ د کټګوریو له لېستونو څخه راځي.",
+          "result": "ټاکل شوې کټګوري په فورمه کې ځای پر ځای کېږي او اړوندې برخې ښايي ښکاره شي.",
+          "notes": "تر ټولو دقیقه کټګوري وټاکئ. د کټګورۍ زیاتول خوندي شوی لېست بدلوي؛ یوازې ټاکل معامله نه خوندي کوي."
         }
       },
       "handler_or_behavior": "`toggleCategoryMenu()`"
@@ -2147,7 +2291,7 @@
       "audit_ref": "INV-027",
       "element_id": null,
       "label": "📷 Take a Photo",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Choose an image from the device to attach as a receipt photo to the current entry.",
@@ -2164,6 +2308,78 @@
           "inputs": "یک فایل تصویری لازم است. عکس رسید اختیاری است و در بخش داده مربوط ذخیره می‌شود.",
           "result": "تصویر تغییراندازه‌یافته در فرم نمایش داده می‌شود و در پشتیبان‌گیری بخش مربوط قرار می‌گیرد.",
           "notes": "خوانا بودن تصویر و تعلق آن به همین تراکنش را بررسی کنید. عکس رسید در گزارش‌ها چاپ نمی‌شود و تا ذخیره ثبت به رکورد افزوده نمی‌شود."
+        },
+        "ar": {
+          "purpose": "يتيح اختيار صورة من الجهاز لإرفاقها كصورة إيصال بالقيد الحالي.",
+          "when": "استخدمه للاحتفاظ بصورة الإيصال مع سجل دخل أو مصروف للرجوع إليها لاحقًا.",
+          "how": "اختر Take a Photo ثم التقط صورة أو اختر ملفًا باستخدام أداة اختيار الملفات في الجهاز. إذا ظهرت شاشة القص، اضبط الصورة ثم أكد.",
+          "inputs": "يلزم ملف صورة. صور الإيصالات اختيارية وتُخزّن مع منطقة البيانات ذات الصلة.",
+          "result": "تظهر صورة الإيصال بعد تغيير حجمها في النموذج وتُدرج في النسخة الاحتياطية ذات الصلة.",
+          "notes": "تحقق من وضوح الصورة وارتباطها بهذه المعاملة. لا تُطبع صور الإيصالات في التقارير. ولا تُحفظ الصورة ضمن السجل إلا بعد حفظ القيد."
+        },
+        "ckb": {
+          "purpose": "ڕێگە دەدات وێنەیەک لە ئامێرەکە هەڵبژێریت بۆ ئەوەی وەک وێنەی پسووڵە بە تۆماری ئێستا بیلکێنیت.",
+          "when": "بۆ پاراستنی وێنەی پسووڵە لەگەڵ تۆماری داهات یان خەرجی بۆ پێداچوونەوەی داهاتوو بەکاریبهێنە.",
+          "how": "Take a Photo هەڵبژێرە و بە بەکارهێنانی هەڵبژێری ئامێر وێنە بگرە یان هەڵیبژێرە. ئەگەر شاشەی بڕین دەرکەوت، وێنەکە ڕێکبخە و پشتڕاستی بکەوە.",
+          "inputs": "فایلێکی وێنە پێویستە. وێنەی پسووڵە هەڵبژاردەییە و لەگەڵ بەشی داتای پەیوەندیدار پاشەکەوت دەکرێت.",
+          "result": "وێنەی پسووڵە دوای گۆڕینی قەبارە لە فۆڕمەکەدا دەردەکەوێت و لە پاڵپشتیی پەیوەندیداردا دەخرێتە ناو.",
+          "notes": "دڵنیابە وێنەکە ڕوونە و هی ئەم مامەڵەیەیە. وێنەی پسووڵە لە ڕاپۆرتەکاندا چاپ ناکرێت. تا تۆمارەکە پاشەکەوت نەکەیت، وێنەکە بە تۆمارەکەوە ناگیرێت."
+        },
+        "kmr": {
+          "purpose": "Dihêle ku wêneyekê ji amûrê hilbijêrî da ku wek wêneyê fatûreyê bi tomara niha ve girê bidî.",
+          "when": "Ji bo parastina wêneyê fatûreyê bi tomarê dahat an lêçûnê re, da ku paşê vegerî ser wê, vê bikar bîne.",
+          "how": "Take a Photo hilbijêre û bi hilbijêra amûrê wêneyek bigire an hilbijêre. Heke ekrana qutkirinê xuya bibe, wêneyê sererast bike û piştrast bike.",
+          "inputs": "Pêdivî bi pelekî wêneyê heye. Wêneyên fatûreyê vebijêrkî ne û bi qada daneyên têkildar re tên hilanîn.",
+          "result": "Wêneyê fatûreyê yê mezinahiya wî hatiye guhertin di formê de xuya dibe û di backup-a têkildar de tê girtin.",
+          "notes": "Kontrol bike ku wêne xwendinbar e û ji vê danûstandinê ye. Wêneyên fatûreyê di raporan de nayên çapkirin. Wêne heta ku tomar neyê hilanîn bi tomarê re nayê tomar kirin."
+        },
+        "tr": {
+          "purpose": "Cihazdan bir görüntü seçerek geçerli kayda makbuz fotoğrafı olarak eklemenizi sağlar.",
+          "when": "Daha sonra başvurmak üzere makbuz görüntüsünü bir gelir veya gider kaydıyla birlikte saklamak için kullanın.",
+          "how": "Take a Photo seçeneğini seçin ve cihazın dosya seçicisiyle fotoğraf çekin veya bir görüntü seçin. Kırpma ekranı açılırsa görüntüyü ayarlayıp onaylayın.",
+          "inputs": "Bir görüntü dosyası gerekir. Makbuz fotoğrafları isteğe bağlıdır ve ilgili veri alanında saklanır.",
+          "result": "Boyutu değiştirilmiş makbuz görüntüsü formda görünür ve ilgili yedeklemeye dahil edilir.",
+          "notes": "Görüntünün okunabilir olduğunu ve bu işleme ait olduğunu kontrol edin. Makbuz fotoğrafları raporlara basılmaz. Kayıt kaydedilene kadar görüntü kayda işlenmez."
+        },
+        "pl": {
+          "purpose": "Umożliwia wybranie obrazu z urządzenia i dołączenie go do bieżącego wpisu jako zdjęcia paragonu.",
+          "when": "Użyj, aby zachować zdjęcie paragonu wraz z wpisem przychodu lub wydatku do późniejszego wglądu.",
+          "how": "Wybierz Take a Photo i zrób zdjęcie lub wybierz obraz za pomocą selektora urządzenia. Jeśli pojawi się ekran kadrowania, dostosuj obraz i zatwierdź.",
+          "inputs": "Wymagany jest plik obrazu. Zdjęcia paragonów są opcjonalne i są przechowywane w odpowiednim obszarze danych.",
+          "result": "Obraz paragonu po zmianie rozmiaru pojawi się w formularzu i zostanie uwzględniony w odpowiedniej kopii zapasowej.",
+          "notes": "Sprawdź, czy obraz jest czytelny i dotyczy tej transakcji. Zdjęcia paragonów nie są drukowane w raportach. Obraz zostanie zapisany przy wpisie dopiero po zapisaniu wpisu."
+        },
+        "ur": {
+          "purpose": "آلہ سے تصویر منتخب کرکے موجودہ اندراج کے ساتھ رسید کی تصویر منسلک کرنے دیتا ہے۔",
+          "when": "بعد میں حوالہ دینے کے لیے رسید کی تصویر آمدنی یا اخراجات کے ریکارڈ کے ساتھ محفوظ رکھنے کے لیے استعمال کریں۔",
+          "how": "Take a Photo منتخب کریں اور آلے کے فائل چننے والے ذریعے تصویر کھینچیں یا منتخب کریں۔ اگر کراپ اسکرین آئے تو تصویر درست کرکے تصدیق کریں۔",
+          "inputs": "تصویری فائل درکار ہے۔ رسید کی تصاویر اختیاری ہیں اور متعلقہ ڈیٹا حصے میں محفوظ ہوتی ہیں۔",
+          "result": "سائز تبدیل شدہ رسید کی تصویر فارم میں دکھائی دیتی ہے اور متعلقہ بیک اپ میں شامل ہوتی ہے۔",
+          "notes": "یقینی بنائیں کہ تصویر واضح ہے اور اسی لین دین کی ہے۔ رسید کی تصاویر رپورٹس میں پرنٹ نہیں ہوتیں۔ اندراج محفوظ ہونے تک تصویر ریکارڈ میں مستقل شامل نہیں ہوتی۔"
+        },
+        "pa": {
+          "purpose": "ਡਿਵਾਈਸ ਵਿੱਚੋਂ ਤਸਵੀਰ ਚੁਣ ਕੇ ਮੌਜੂਦਾ ਐਂਟਰੀ ਨਾਲ ਰਸੀਦ ਦੀ ਫੋਟੋ ਵਜੋਂ ਜੋੜਨ ਦਿੰਦਾ ਹੈ।",
+          "when": "ਬਾਅਦ ਵਿੱਚ ਵੇਖਣ ਲਈ ਰਸੀਦ ਦੀ ਤਸਵੀਰ ਆਮਦਨ ਜਾਂ ਖਰਚੇ ਦੇ ਰਿਕਾਰਡ ਨਾਲ ਸੰਭਾਲਣ ਵਾਸਤੇ ਵਰਤੋ।",
+          "how": "Take a Photo ਚੁਣੋ ਅਤੇ ਡਿਵਾਈਸ ਦੇ ਫਾਈਲ ਚੋਣਕ ਰਾਹੀਂ ਤਸਵੀਰ ਖਿੱਚੋ ਜਾਂ ਚੁਣੋ। ਜੇ ਕ੍ਰਾਪ ਸਕ੍ਰੀਨ ਆਵੇ ਤਾਂ ਤਸਵੀਰ ਠੀਕ ਕਰਕੇ ਪੁਸ਼ਟੀ ਕਰੋ।",
+          "inputs": "ਇੱਕ ਤਸਵੀਰ ਫਾਈਲ ਲੋੜੀਂਦੀ ਹੈ। ਰਸੀਦ ਦੀਆਂ ਫੋਟੋਆਂ ਵਿਕਲਪਿਕ ਹਨ ਅਤੇ ਸੰਬੰਧਿਤ ਡਾਟਾ ਹਿੱਸੇ ਨਾਲ ਸੰਭਾਲੀਆਂ ਜਾਂਦੀਆਂ ਹਨ।",
+          "result": "ਆਕਾਰ ਬਦਲੀ ਰਸੀਦ ਦੀ ਤਸਵੀਰ ਫਾਰਮ ਵਿੱਚ ਦਿਖਦੀ ਹੈ ਅਤੇ ਸੰਬੰਧਿਤ ਬੈਕਅੱਪ ਵਿੱਚ ਸ਼ਾਮਲ ਹੁੰਦੀ ਹੈ।",
+          "notes": "ਜਾਂਚੋ ਕਿ ਤਸਵੀਰ ਪੜ੍ਹਨਯੋਗ ਹੈ ਅਤੇ ਇਸੇ ਲੈਣ-ਦੇਣ ਨਾਲ ਸਬੰਧਤ ਹੈ। ਰਸੀਦ ਦੀਆਂ ਤਸਵੀਰਾਂ ਰਿਪੋਰਟਾਂ ਵਿੱਚ ਪ੍ਰਿੰਟ ਨਹੀਂ ਹੁੰਦੀਆਂ। ਐਂਟਰੀ ਸੇਵ ਹੋਣ ਤੱਕ ਤਸਵੀਰ ਰਿਕਾਰਡ ਵਿੱਚ ਪੱਕੀ ਨਹੀਂ ਹੁੰਦੀ।"
+        },
+        "prs": {
+          "purpose": "اجازه می‌دهد تصویری را از دستگاه انتخاب کنید تا به‌عنوان عکس رسید به ثبت فعلی پیوست شود.",
+          "when": "برای نگهداری عکس رسید همراه رکورد درآمد یا هزینه و مراجعه در آینده استفاده کنید.",
+          "how": "Take a Photo را انتخاب کنید و با انتخاب‌گر دستگاه عکس بگیرید یا تصویری انتخاب کنید. اگر صفحه برش نمایش داده شد، تصویر را تنظیم و تأیید کنید.",
+          "inputs": "یک فایل تصویری لازم است. عکس رسید اختیاری است و همراه بخش داده مربوط ذخیره می‌شود.",
+          "result": "تصویر رسید پس از تغییر اندازه در فرم نمایش داده می‌شود و در پشتیبان‌گیری مربوط قرار می‌گیرد.",
+          "notes": "بررسی کنید تصویر خوانا و متعلق به همین تراکنش باشد. عکس رسید در گزارش‌ها چاپ نمی‌شود. تصویر تا ذخیره ثبت، به‌طور دائمی در رکورد ثبت نمی‌شود."
+        },
+        "ps": {
+          "purpose": "له وسیلې څخه د انځور د ټاکلو اجازه ورکوي، څو د اوسني ثبت سره د رسید د عکس په توګه ونښلول شي.",
+          "when": "د رسید د انځور د عاید یا لګښت له ثبت سره د ساتلو لپاره یې وکاروئ، څو وروسته ورته مراجعه وشي.",
+          "how": "Take a Photo وټاکئ او د وسیلې د فایل ټاکونکي له لارې عکس واخلئ یا انځور وټاکئ. که د پرې کولو پرده ښکاره شي، انځور برابر او تایید کړئ.",
+          "inputs": "د انځور فایل اړین دی. د رسید عکسونه اختیاري دي او د اړوند معلوماتي برخې سره ساتل کېږي.",
+          "result": "د اندازې له بدلولو وروسته د رسید انځور په فورمه کې ښکاري او په اړوند بیک اپ کې شاملېږي.",
+          "notes": "وګورئ چې انځور لوستل کېدای شي او د همدې معاملې دی. د رسید عکسونه په راپورونو کې نه چاپېږي. تر هغه چې ثبت خوندي نه شي، انځور په ریکارډ کې نه ثبتېږي."
         }
       },
       "handler_or_behavior": "`document.getElementById(`"
@@ -2173,7 +2389,7 @@
       "audit_ref": "INV-028",
       "element_id": "entryReceiptRemove",
       "label": "Remove photo",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Remove the receipt photo currently attached to the entry form.",
@@ -2190,6 +2406,78 @@
           "inputs": "ورودی لازم نیست؛ این عمل روی عکس پیوست‌شده به فرم ذخیره‌نشده فعلی انجام می‌شود.",
           "result": "پیش‌نمایش رسید از فرم پاک می‌شود.",
           "notes": "برای ثبت حذف در رکورد ذخیره‌شده، خود ثبت را ذخیره کنید. خروج بدون ذخیره ممکن است رکورد قبلی را بدون تغییر باقی بگذارد."
+        },
+        "ar": {
+          "purpose": "يزيل صورة الإيصال المرفقة حاليًا بنموذج القيد.",
+          "when": "استخدمه عندما تكون صورة الإيصال المحددة غير صحيحة أو لا ينبغي إرفاقها بهذه المعاملة.",
+          "how": "اختر Remove photo في منطقة الإيصال وتحقق من اختفاء المعاينة.",
+          "inputs": "لا يلزم إدخال شيء. ينطبق ذلك على صورة الإيصال المرفقة بالنموذج الحالي غير المحفوظ.",
+          "result": "تُزال معاينة الإيصال من النموذج.",
+          "notes": "احفظ القيد لتثبيت الإزالة في السجل المخزن. إذا غادرت دون حفظ، فقد يبقى السجل المحفوظ السابق دون تغيير."
+        },
+        "ckb": {
+          "purpose": "وێنەی پسووڵەی ئەوەی ئێستا بە فۆڕمی تۆمارەکەوە لکێنراوە لادەبات.",
+          "when": "کاتێک وێنەی هەڵبژێردراو هەڵەیە یان نابێت بەو مامەڵەیەوە بلکێت، بەکاریبهێنە.",
+          "how": "لە بەشی پسووڵە Remove photo هەڵبژێرە و بپشکنە کە پێشبینینەکە سڕاوەتەوە.",
+          "inputs": "هیچ زانیارییەک پێویست نییە. ئەمە تەنها کاریگەری لەسەر وێنەی پسووڵەی لکێنراو بە فۆڕمی ئێستای پاشەکەوت‌نەکراو هەیە.",
+          "result": "پێشبینینی پسووڵە لە فۆڕمەکە لادەبرێت.",
+          "notes": "بۆ جێگیرکردنی سڕینەوەکە لە تۆماری پاشەکەوتکراو، تۆمارەکە پاشەکەوت بکە. ئەگەر بێ پاشەکەوتکردن بچیتە دەرەوە، لەوانەیە تۆماری پێشووی پاشەکەوتکراو نەگۆڕێت."
+        },
+        "kmr": {
+          "purpose": "Wêneyê fatûreyê yê ku niha bi forma tomarê ve girêdayî ye radike.",
+          "when": "Dema ku wêneyê fatûreyê yê hilbijartî şaş e an divê bi vê danûstandinê ve girêdayî nebe, vê bikar bîne.",
+          "how": "Di qada fatûreyê de Remove photo hilbijêre û kontrol bike ku pêşdîtin winda bûye.",
+          "inputs": "Tu agahî nehewce ye. Ev tenê li ser wêneyê fatûreyê yê girêdayî forma niha ya hîn nehatiye hilanîn bandor dike.",
+          "result": "Pêşdîtina fatûreyê ji formê tê rakirin.",
+          "notes": "Ji bo ku rakirin di tomara hilanî de were tomar kirin, tomarê hilîne. Heke bê hilanîn derkevî, dibe ku tomara berê ya hilanî neguhere."
+        },
+        "tr": {
+          "purpose": "Giriş formuna şu anda eklenmiş olan makbuz fotoğrafını kaldırır.",
+          "when": "Seçilen makbuz görüntüsü yanlışsa veya bu işleme eklenmemesi gerekiyorsa kullanın.",
+          "how": "Makbuz alanında Remove photo seçeneğini seçin ve önizlemenin temizlendiğini kontrol edin.",
+          "inputs": "Girdi gerekmez. Bu işlem, kaydedilmemiş mevcut forma eklenmiş makbuz fotoğrafı için geçerlidir.",
+          "result": "Makbuz önizlemesi formdan kaldırılır.",
+          "notes": "Kaldırma işlemini kayıtlı kayda uygulamak için girişi kaydedin. Kaydetmeden çıkarsanız önceki kayıtlı kayıt değişmeden kalabilir."
+        },
+        "pl": {
+          "purpose": "Usuwa zdjęcie paragonu aktualnie dołączone do formularza wpisu.",
+          "when": "Użyj, gdy wybrany obraz paragonu jest nieprawidłowy lub nie powinien być dołączony do tej transakcji.",
+          "how": "W obszarze paragonu wybierz Remove photo i sprawdź, czy podgląd został wyczyszczony.",
+          "inputs": "Nie są wymagane żadne dane. Dotyczy to zdjęcia paragonu dołączonego do bieżącego, niezapisanego formularza.",
+          "result": "Podgląd paragonu zostaje usunięty z formularza.",
+          "notes": "Zapisz wpis, aby zatwierdzić usunięcie w zapisanym rekordzie. Jeśli wyjdziesz bez zapisywania, poprzedni zapisany rekord może pozostać bez zmian."
+        },
+        "ur": {
+          "purpose": "اندراج کے فارم کے ساتھ اس وقت منسلک رسید کی تصویر ہٹا دیتا ہے۔",
+          "when": "جب منتخب کردہ رسید کی تصویر غلط ہو یا اس لین دین کے ساتھ منسلک نہیں ہونی چاہیے تو استعمال کریں۔",
+          "how": "رسید کے حصے میں Remove photo منتخب کریں اور دیکھیں کہ پیش منظر صاف ہو گیا ہے۔",
+          "inputs": "کسی معلومات کی ضرورت نہیں۔ یہ موجودہ غیر محفوظ شدہ فارم کے ساتھ منسلک رسید کی تصویر پر لاگو ہوتا ہے۔",
+          "result": "رسید کی تصویر کا پیش منظر فارم سے صاف ہو جاتا ہے۔",
+          "notes": "محفوظ ریکارڈ میں حذف کو نافذ کرنے کے لیے اندراج محفوظ کریں۔ محفوظ کیے بغیر نکلنے پر سابقہ محفوظ ریکارڈ تبدیل نہ بھی ہو۔"
+        },
+        "pa": {
+          "purpose": "ਐਂਟਰੀ ਫਾਰਮ ਨਾਲ ਇਸ ਵੇਲੇ ਜੁੜੀ ਰਸੀਦ ਦੀ ਤਸਵੀਰ ਹਟਾਉਂਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਚੁਣੀ ਰਸੀਦ ਦੀ ਤਸਵੀਰ ਗਲਤ ਹੋਵੇ ਜਾਂ ਇਸ ਲੈਣ-ਦੇਣ ਨਾਲ ਨਹੀਂ ਜੁੜਨੀ ਚਾਹੀਦੀ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਰਸੀਦ ਵਾਲੇ ਹਿੱਸੇ ਵਿੱਚ Remove photo ਚੁਣੋ ਅਤੇ ਜਾਂਚੋ ਕਿ ਪ੍ਰੀਵਿਊ ਸਾਫ਼ ਹੋ ਗਿਆ ਹੈ।",
+          "inputs": "ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ। ਇਹ ਮੌਜੂਦਾ ਨਾ-ਸੰਭਾਲੇ ਫਾਰਮ ਨਾਲ ਜੁੜੀ ਰਸੀਦ ਦੀ ਤਸਵੀਰ 'ਤੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ।",
+          "result": "ਰਸੀਦ ਦਾ ਪ੍ਰੀਵਿਊ ਫਾਰਮ ਵਿੱਚੋਂ ਹਟ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਸੰਭਾਲੇ ਰਿਕਾਰਡ ਵਿੱਚ ਹਟਾਉਣ ਨੂੰ ਪੱਕਾ ਕਰਨ ਲਈ ਐਂਟਰੀ ਸੇਵ ਕਰੋ। ਜੇ ਬਿਨਾਂ ਸੇਵ ਕੀਤੇ ਬਾਹਰ ਨਿਕਲਦੇ ਹੋ ਤਾਂ ਪੁਰਾਣਾ ਰਿਕਾਰਡ ਬਦਲੇ ਬਿਨਾਂ ਰਹਿ ਸਕਦਾ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "عکس رسیدی را که اکنون به فرم ثبت پیوست شده است حذف می‌کند.",
+          "when": "وقتی تصویر انتخاب‌شده اشتباه است یا نباید به این تراکنش پیوست باشد، استفاده کنید.",
+          "how": "در بخش رسید Remove photo را انتخاب کنید و بررسی کنید که پیش‌نمایش پاک شده باشد.",
+          "inputs": "ورودی لازم نیست. این گزینه روی عکس رسید پیوست‌شده به فرم فعلیِ ذخیره‌نشده اثر می‌گذارد.",
+          "result": "پیش‌نمایش رسید از فرم پاک می‌شود.",
+          "notes": "برای ثبت حذف در رکورد ذخیره‌شده، خود ثبت را ذخیره کنید. اگر بدون ذخیره خارج شوید، ممکن است رکورد قبلی بدون تغییر بماند."
+        },
+        "ps": {
+          "purpose": "د رسید هغه عکس لرې کوي چې دا مهال د ثبت له فورمې سره نښلول شوی وي.",
+          "when": "کله چې ټاکل شوی د رسید انځور ناسم وي یا باید له دې معاملې سره ونه نښلول شي، وکاروئ.",
+          "how": "د رسید په برخه کې Remove photo وټاکئ او وګورئ چې مخکتنه پاکه شوې ده.",
+          "inputs": "معلوماتو ته اړتیا نشته. دا د اوسني نه‌خوندي شوي فورمې له رسید عکس سره تړاو لري.",
+          "result": "د رسید مخکتنه له فورمې څخه پاکېږي.",
+          "notes": "د لرې کولو د خوندي شوي ریکارډ لپاره، ثبت خوندي کړئ. که له خوندي کولو پرته ووځئ، پخوانی خوندي ریکارډ ښايي بدل نه شي."
         }
       },
       "handler_or_behavior": "`clearEntryReceipt()`"
@@ -7500,8 +7788,8 @@
     }
   ],
   "content_progress": {
-    "completed_entries": 21,
-    "draft_entries": 208,
+    "completed_entries": 25,
+    "draft_entries": 204,
     "pending_entries": 0,
     "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written."
   }
