@@ -6,6 +6,7 @@
 
 | اگر این مشکل را دیدی | ابتدا این مورد را باز کن | بررسی اولیه |
 |---|---|---|
+| گزینه‌های Category هزینه‌ها در یک فهرست مخلوط هستند یا مورد جدید در همه گروه‌ها قاطی می‌شود | [ACC-CAT-001](./REPAIR_HISTORY_FA.md#acc-cat-001--تفکیک-و-نگهداری-مستقل-دستهبندی-هزینهها) | فهرست‌های مستقل Materials، Car Expenses، Tools و Others؛ Add New One در هر گروه؛ ذخیره در expenseCategoryLists داخل Accounting IndexedDB state |
 | ورود به Monitor & Diagnostics از پایین صفحه شروع می‌شود | [UI-MONITOR-SCROLL-001](./REPAIR_HISTORY_FA.md#ui-monitor-scroll-001--باز-شدن-monitor--diagnostics-از-ابتدای-صفحه) | پس از فعال‌شدن پنل و renderMonitor، در فریم بعدی scroll سند فقط برای Monitor به بالا بازنشانی شود |
 | دکمه Back در صفحه Settings به Accountancy برمی‌گردد، نه منوی اصلی | [UI-SETTINGS-BACK-001](./REPAIR_HISTORY_FA.md#ui-settings-back-001--بازگشت-مستقیم-از-صفحه-settings-به-منوی-اصلی) | نگاشت `ACCOUNTING_PARENT.settings` و تابع `goBackOnePage()`؛ والد باید `launcher` باشد و والد هر هشت زیرصفحه Settings از جمله `languageSettings` برابر `settings` باشد |
 | زمان Last Updated خالی است، قدیمی می‌ماند یا با Build جدید همگام نیست | [DEP-TIME-001](./REPAIR_HISTORY_FA.md#dep-time-001--زمان-last-updated-به-دلیل-وابستگی-به-github-api-نمایش-داده-نمیشد) | سرویس مشترک؛ درخواست HEAD هم‌مبدأ با cache:no-store؛ بررسی Last-Modified؛ در نبود metadata تاریخ کهنه نشان نده |
