@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261126-R38",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R38",
-    "indexBlobSha": "1b4d64af157df9fc186aa692abb597ec15a89979",
+    "buildId": "THA-273-R11-PREVIEW-20261126-R39",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R39",
+    "indexBlobSha": "660343e316ae324cd589bb7ab9a0581561a0fb0a",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "1b4d64af157df9fc186aa692abb597ec15a89979",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "660343e316ae324cd589bb7ab9a0581561a0fb0a",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7"
     }
@@ -1765,6 +1765,47 @@
         "details": "PR #88 Gate run 200 passed against the final PR head before merge."
       },
       "previewPromotionStatus": "merged and deployed to Preview — awaiting iPhone Safari verification"
+    },
+    {
+      "changeId": "THA-2026-11-26-EXPENSE-CATEGORY-PICKER-SELECTION-001",
+      "dateStarted": "2026-11-26",
+      "purpose": "Fix the R38 expense category picker sync error so a selected item such as Selco is displayed and remains selected on the Category button. Preview only.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "79e16c45680fb8e01ab4e19041bb8b24f6140406",
+      "previewPullRequestNumber": 92,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/92",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "All 8 inline JavaScript blocks in the updated HTML passed V8 syntax compilation. Source inspection confirms syncCategoryPicker now obtains the computed group objects from getExpenseCategoryGroups(), whose items arrays are defined. Live browser and iPhone Safari interaction tests remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting Preview PR, Version Authority Gate and successful GitHub Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user verification on iPhone Safari after Preview R39 deployment."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User explicitly authorized this Preview-only repair by saying 'برو'. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
     }
   ],
   "history": [
