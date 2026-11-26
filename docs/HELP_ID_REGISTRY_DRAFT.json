@@ -625,8 +625,97 @@
       "audit_ref": "INV-008",
       "element_id": null,
       "label": "✦ Help me write with ChatGPT",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_COMPLETE",
+      "translations": {
+        "en": {
+          "purpose": "Prepare a structured prompt from the current contract details and open ChatGPT to help improve the wording.",
+          "when": "Use this when you want help organising or polishing a contract draft without changing the agreed facts.",
+          "how": "Enter the available contract details, then select Help me write with ChatGPT. In the ChatGPT tab, paste the copied prompt, review the suggested text, and copy the result back into the contract editor yourself.",
+          "inputs": "The prompt uses the current title, customer, contact, project address, price, dates and draft text. Missing details are identified rather than invented.",
+          "result": "ChatGPT opens in a new tab and the app attempts to copy a drafting prompt to the clipboard.",
+          "notes": "Review all generated wording before using it. Confirm names, prices, scope, dates and payment terms. The app does not automatically import or save ChatGPT's response."
+        },
+        "fa": {
+          "purpose": "تهیه یک درخواست ساختاریافته از اطلاعات فعلی قرارداد و باز کردن ChatGPT برای بهبود متن.",
+          "when": "وقتی می‌خواهید متن پیش‌نویس قرارداد مرتب‌تر یا حرفه‌ای‌تر شود، بدون اینکه واقعیت‌های توافق‌شده تغییر کنند، از این گزینه استفاده کنید.",
+          "how": "اطلاعات موجود قرارداد را وارد کنید و «Help me write with ChatGPT» را بزنید. در زبانه ChatGPT درخواست کپی‌شده را بچسبانید، متن پیشنهادی را بررسی کنید و نتیجه را خودتان به ویرایشگر قرارداد برگردانید.",
+          "inputs": "درخواست از عنوان، مشتری، اطلاعات تماس، نشانی پروژه، قیمت، تاریخ‌ها و متن فعلی استفاده می‌کند. اطلاعات ناقص باید مشخص شوند، نه اینکه حدس زده شوند.",
+          "result": "ChatGPT در زبانه جدید باز می‌شود و برنامه تلاش می‌کند متن درخواست را در کلیپ‌بورد کپی کند.",
+          "notes": "متن تولیدشده را پیش از استفاده بررسی کنید. نام‌ها، قیمت‌ها، دامنه کار، تاریخ‌ها و شرایط پرداخت را تأیید کنید. پاسخ ChatGPT به‌صورت خودکار وارد یا ذخیره نمی‌شود."
+        },
+        "ar": {
+          "purpose": "إعداد مطالبة منظمة من تفاصيل العقد الحالية وفتح ChatGPT للمساعدة في تحسين الصياغة.",
+          "when": "استخدمه عندما تريد تنظيم مسودة العقد أو تحسين لغتها دون تغيير الحقائق المتفق عليها.",
+          "how": "أدخل تفاصيل العقد المتاحة، ثم اختر Help me write with ChatGPT. في علامة تبويب ChatGPT، الصق المطالبة المنسوخة وراجع النص المقترح ثم أعد النتيجة بنفسك إلى محرر العقد.",
+          "inputs": "تستخدم المطالبة العنوان والعميل وبيانات الاتصال وعنوان المشروع والسعر والتواريخ والنص الحالي. تُحدَّد المعلومات الناقصة بدلاً من اختلاقها.",
+          "result": "يفتح ChatGPT في علامة تبويب جديدة ويحاول التطبيق نسخ مطالبة الصياغة إلى الحافظة.",
+          "notes": "راجع كل النص الناتج قبل استخدامه. تحقق من الأسماء والأسعار ونطاق العمل والتواريخ وشروط الدفع. لا يستورد التطبيق رد ChatGPT أو يحفظه تلقائياً."
+        },
+        "ckb": {
+          "purpose": "ئامادەکردنی داواکارییەکی ڕێکخراو لە وردەکارییەکانی گرێبەستی ئێستا و کردنەوەی ChatGPT بۆ باشترکردنی دەق.",
+          "when": "کاتێک دەتەوێت ڕەشنووسی گرێبەست ڕێکبخەیت یان زمانەکەی باشتر بکەیت بەبێ گۆڕینی ڕاستییە ڕێککەوتووەکان، بەکاریبهێنە.",
+          "how": "وردەکارییە بەردەستەکانی گرێبەست بنووسە و Help me write with ChatGPT هەڵبژێرە. لە پەنجەرەی ChatGPT داواکارییە کۆپیکراوەکە دابنێ، دەقی پێشنیارکراو بپشکنە و خۆت ئەنجامەکە بگەڕێنەوە بۆ دەستکاریکەری گرێبەست.",
+          "inputs": "داواکارییەکە ناونیشان، کڕیار، پەیوەندی، ناونیشانی پڕۆژە، نرخ، بەروار و دەقی ئێستا بەکاردەهێنێت. زانیارییە نەبووەکان دیاری دەکرێن، نەک ئەوەی خەیاڵ بکرێن.",
+          "result": "ChatGPT لە پەنجەرەیەکی نوێ دەکرێتەوە و بەرنامە هەوڵ دەدات داواکارییەکە کۆپی بکات بۆ کلیپبۆرد.",
+          "notes": "پێش بەکارهێنان هەموو دەقی دروستکراو بپشکنە. ناو، نرخ، سنووری کار، بەروار و مەرجی پارەدان پشتڕاست بکەرەوە. وەڵامی ChatGPT بە شێوەی خۆکار ناخرێتە ناو بەرنامە و پاشەکەوت ناکرێت."
+        },
+        "kmr": {
+          "purpose": "Ji hûrguliyên peymana niha daxwaznameyek rêkûpêk amade dike û ChatGPT vedike da ku nivîsê baştir bike.",
+          "when": "Dema ku dixwazî nivîsa peymanê rêk bixe an baştir bike bêyî ku rastiyên lihevhatî biguherîne, vê bikar bîne.",
+          "how": "Hûrguliyên peymana heyî binivîse û Help me write with ChatGPT hilbijêre. Di taba ChatGPT de daxwaznameya kopîkirî pê ve bike, nivîsa pêşniyarkirî binirxîne û encamê bi destê xwe vegerîne edîtora peymanê.",
+          "inputs": "Daxwazname sernav, xerîdar, agahiyên têkilî, navnîşana projeyê, bihayê, tarîx û nivîsa niha bi kar tîne. Agahiyên kêm têne nîşandan, ne ku bên çêkirin.",
+          "result": "ChatGPT di tabeeke nû de vedibe û sepan hewl dide daxwaznameyê li clipboardê kopî bike.",
+          "notes": "Berî bikaranînê hemû nivîsa hatî çêkirin binirxîne. Nav, bihayê, qada kar, tarîx û şertên dayînê piştrast bike. Bersiva ChatGPT bi xwe nayê veguhastin an tomarkirin."
+        },
+        "tr": {
+          "purpose": "Mevcut sözleşme ayrıntılarından yapılandırılmış bir istem hazırlar ve metni geliştirmeye yardımcı olması için ChatGPT'yi açar.",
+          "when": "Kararlaştırılan gerçekleri değiştirmeden sözleşme taslağını düzenlemek veya dilini iyileştirmek istediğinizde kullanın.",
+          "how": "Mevcut sözleşme bilgilerini girin ve Help me write with ChatGPT seçeneğini seçin. ChatGPT sekmesinde kopyalanan istemi yapıştırın, önerilen metni inceleyin ve sonucu kendiniz sözleşme düzenleyicisine geri kopyalayın.",
+          "inputs": "İstem; başlık, müşteri, iletişim, proje adresi, fiyat, tarihler ve mevcut taslak metnini kullanır. Eksik bilgiler uydurulmaz, belirtilir.",
+          "result": "ChatGPT yeni bir sekmede açılır ve uygulama taslak istemini panoya kopyalamayı dener.",
+          "notes": "Kullanmadan önce oluşturulan metnin tamamını inceleyin. İsimleri, fiyatları, iş kapsamını, tarihleri ve ödeme şartlarını doğrulayın. ChatGPT yanıtı otomatik olarak içe aktarılmaz veya kaydedilmez."
+        },
+        "pl": {
+          "purpose": "Przygotowuje uporządkowane polecenie na podstawie bieżących danych umowy i otwiera ChatGPT, aby pomóc ulepszyć tekst.",
+          "when": "Użyj tej opcji, gdy chcesz uporządkować lub poprawić język projektu umowy bez zmieniania uzgodnionych faktów.",
+          "how": "Wprowadź dostępne dane umowy i wybierz Help me write with ChatGPT. W karcie ChatGPT wklej skopiowane polecenie, sprawdź proponowany tekst, a następnie samodzielnie skopiuj wynik z powrotem do edytora umowy.",
+          "inputs": "Polecenie wykorzystuje tytuł, klienta, dane kontaktowe, adres projektu, cenę, daty i bieżący tekst. Brakujące informacje są wskazywane, a nie wymyślane.",
+          "result": "ChatGPT otworzy się w nowej karcie, a aplikacja spróbuje skopiować polecenie do schowka.",
+          "notes": "Przed użyciem sprawdź cały wygenerowany tekst. Potwierdź nazwy, ceny, zakres prac, daty i warunki płatności. Odpowiedź ChatGPT nie jest automatycznie importowana ani zapisywana."
+        },
+        "ur": {
+          "purpose": "موجودہ معاہدے کی تفصیلات سے ایک منظم ہدایت تیار کرتا ہے اور متن بہتر بنانے کے لیے ChatGPT کھولتا ہے۔",
+          "when": "جب آپ طے شدہ حقائق بدلے بغیر معاہدے کے مسودے کی ترتیب یا زبان بہتر بنانا چاہیں تو اسے استعمال کریں۔",
+          "how": "موجودہ معاہدے کی تفصیلات درج کریں اور Help me write with ChatGPT منتخب کریں۔ ChatGPT ٹیب میں نقل شدہ ہدایت چسپاں کریں، تجویز کردہ متن دیکھیں اور نتیجہ خود معاہدے کے ایڈیٹر میں واپس نقل کریں۔",
+          "inputs": "ہدایت میں عنوان، گاہک، رابطہ، پروجیکٹ کا پتہ، قیمت، تاریخیں اور موجودہ مسودہ شامل ہوتا ہے۔ نامکمل معلومات گھڑنے کے بجائے واضح کی جاتی ہیں۔",
+          "result": "ChatGPT نئے ٹیب میں کھلتا ہے اور ایپ مسودہ ہدایت کلپ بورڈ میں نقل کرنے کی کوشش کرتی ہے۔",
+          "notes": "استعمال سے پہلے تیار کردہ تمام متن کا جائزہ لیں۔ نام، قیمت، کام کی حدود، تاریخوں اور ادائیگی کی شرائط کی تصدیق کریں۔ ChatGPT کا جواب خودکار طور پر واپس درآمد یا محفوظ نہیں ہوتا۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਇਕਰਾਰਨਾਮੇ ਦੇ ਵੇਰਵਿਆਂ ਤੋਂ ਇੱਕ ਢਾਂਚਾਬੱਧ ਹਦਾਇਤ ਤਿਆਰ ਕਰਦਾ ਹੈ ਅਤੇ ਲਿਖਤ ਸੁਧਾਰਨ ਲਈ ChatGPT ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਤੁਸੀਂ ਸਹਿਮਤ ਤੱਥ ਬਦਲੇ ਬਿਨਾਂ ਇਕਰਾਰਨਾਮੇ ਦੇ ਮਸੌਦੇ ਦੀ ਭਾਸ਼ਾ ਜਾਂ ਬਣਤਰ ਸੁਧਾਰਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਮੌਜੂਦਾ ਇਕਰਾਰਨਾਮੇ ਦੇ ਵੇਰਵੇ ਭਰੋ ਅਤੇ Help me write with ChatGPT ਚੁਣੋ। ChatGPT ਟੈਬ ਵਿੱਚ ਕਾਪੀ ਕੀਤੀ ਹਦਾਇਤ ਪੇਸਟ ਕਰੋ, ਸੁਝਾਇਆ ਪਾਠ ਵੇਖੋ ਅਤੇ ਨਤੀਜਾ ਖੁਦ ਇਕਰਾਰਨਾਮਾ ਐਡੀਟਰ ਵਿੱਚ ਵਾਪਸ ਕਾਪੀ ਕਰੋ।",
+          "inputs": "ਹਦਾਇਤ ਵਿੱਚ ਸਿਰਲੇਖ, ਗਾਹਕ, ਸੰਪਰਕ, ਪ੍ਰੋਜੈਕਟ ਪਤਾ, ਕੀਮਤ, ਮਿਤੀਆਂ ਅਤੇ ਮੌਜੂਦਾ ਮਸੌਦਾ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ। ਗੁੰਮ ਜਾਣਕਾਰੀ ਘੜਨ ਦੀ ਬਜਾਏ ਦਰਸਾਈ ਜਾਂਦੀ ਹੈ।",
+          "result": "ChatGPT ਨਵੇਂ ਟੈਬ ਵਿੱਚ ਖੁੱਲ੍ਹਦਾ ਹੈ ਅਤੇ ਐਪ ਹਦਾਇਤ ਨੂੰ ਕਲਿੱਪਬੋਰਡ ਵਿੱਚ ਕਾਪੀ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਦੀ ਹੈ।",
+          "notes": "ਵਰਤੋਂ ਤੋਂ ਪਹਿਲਾਂ ਤਿਆਰ ਕੀਤੇ ਪਾਠ ਦੀ ਪੂਰੀ ਜਾਂਚ ਕਰੋ। ਨਾਮ, ਕੀਮਤਾਂ, ਕੰਮ ਦਾ ਘੇਰਾ, ਮਿਤੀਆਂ ਅਤੇ ਭੁਗਤਾਨ ਦੀਆਂ ਸ਼ਰਤਾਂ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ। ChatGPT ਦਾ ਜਵਾਬ ਆਪਣੇ ਆਪ ਵਾਪਸ ਨਹੀਂ ਆਉਂਦਾ ਅਤੇ ਨਾ ਹੀ ਸੇਵ ਹੁੰਦਾ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "از جزئیات فعلی قرارداد یک درخواست ساختاریافته تهیه می‌کند و ChatGPT را برای کمک به بهبود متن باز می‌کند.",
+          "when": "وقتی می‌خواهید بدون تغییر واقعیت‌های توافق‌شده، متن پیش‌نویس قرارداد را منظم‌تر یا بهتر کنید از این گزینه استفاده کنید.",
+          "how": "اطلاعات موجود قرارداد را وارد کنید و Help me write with ChatGPT را انتخاب کنید. در زبانه ChatGPT درخواست کپی‌شده را بچسبانید، متن پیشنهادی را بررسی کنید و نتیجه را خودتان به ویرایشگر قرارداد برگردانید.",
+          "inputs": "درخواست از عنوان، مشتری، اطلاعات تماس، نشانی پروژه، قیمت، تاریخ‌ها و متن فعلی استفاده می‌کند. اطلاعات ناقص مشخص می‌شوند و ساخته نمی‌شوند.",
+          "result": "ChatGPT در زبانه جدید باز می‌شود و برنامه تلاش می‌کند درخواست را در کلیپ‌بورد کپی کند.",
+          "notes": "تمام متن تولیدشده را پیش از استفاده بررسی کنید. نام‌ها، قیمت‌ها، دامنه کار، تاریخ‌ها و شرایط پرداخت را تأیید کنید. پاسخ ChatGPT به‌صورت خودکار وارد برنامه یا ذخیره نمی‌شود."
+        },
+        "ps": {
+          "purpose": "د اوسني قرارداد له معلوماتو څخه منظم لارښوونه جوړوي او د متن د ښه کولو لپاره ChatGPT پرانیزي.",
+          "when": "کله چې غواړئ د منل شویو حقایقو له بدلولو پرته د قرارداد د مسودې ژبه یا جوړښت ښه کړئ، دا وکاروئ.",
+          "how": "د قرارداد موجود معلومات ولیکئ او Help me write with ChatGPT وټاکئ. د ChatGPT په ټب کې کاپي شوې لارښوونه ونښلوئ، وړاندیز شوی متن وګورئ او پایله پخپله د قرارداد سمونګر ته بېرته کاپي کړئ.",
+          "inputs": "لارښوونه سرلیک، پېرودونکی، د اړیکې معلومات، د پروژې پته، بیه، نېټې او د مسودې اوسنی متن کاروي. ورکېدونکي معلومات ښودل کېږي، نه جوړېږي.",
+          "result": "ChatGPT په نوي ټب کې پرانیستل کېږي او اپ هڅه کوي لارښوونه کلېپ‌بورډ ته کاپي کړي.",
+          "notes": "تر کارولو مخکې ټول جوړ شوی متن وڅېړئ. نومونه، بیې، د کار ساحه، نېټې او د پیسو ورکولو شرطونه تایید کړئ. د ChatGPT ځواب په اتومات ډول اپ ته نه راځي او نه خوندي کېږي."
+        }
+      },
       "handler_or_behavior": "`ctOpenChatGPT()`"
     },
     {
@@ -634,8 +723,97 @@
       "audit_ref": "INV-009",
       "element_id": null,
       "label": "🖨️ Preview / Print / Save PDF",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_COMPLETE",
+      "translations": {
+        "en": {
+          "purpose": "Open a print-ready preview of the current contract or quotation.",
+          "when": "Use this after entering the customer details and contract text, when you need to review, print or save a PDF copy.",
+          "how": "Select Preview / Print / Save PDF. The app opens an in-page preview; follow the controls shown there to generate or print the document.",
+          "inputs": "A customer name or non-empty contract text is required. Add the relevant document details before previewing.",
+          "result": "A contract preview opens in an overlay frame, where the PDF generation and print workflow is presented.",
+          "notes": "Review every page before printing or saving. Printing may depend on the browser's print dialog and PDF support. This action does not save the contract record; use Save Contract separately."
+        },
+        "fa": {
+          "purpose": "باز کردن پیش‌نمایش آماده چاپ برای قرارداد یا پیشنهاد قیمت فعلی.",
+          "when": "وقتی اطلاعات مشتری و متن قرارداد را وارد کرده‌اید و می‌خواهید سند را بررسی، چاپ یا به‌صورت PDF ذخیره کنید از این گزینه استفاده کنید.",
+          "how": "گزینه «Preview / Print / Save PDF» را انتخاب کنید. برنامه پیش‌نمایش را داخل همان صفحه باز می‌کند؛ سپس از کنترل‌های نمایش‌داده‌شده برای ساخت PDF یا چاپ استفاده کنید.",
+          "inputs": "نام مشتری یا متن غیرخالی قرارداد لازم است. پیش از پیش‌نمایش، جزئیات مرتبط سند را وارد کنید.",
+          "result": "پیش‌نمایش قرارداد در یک قاب روی صفحه باز می‌شود و گردش‌کار ساخت PDF و چاپ در آن نمایش داده می‌شود.",
+          "notes": "پیش از چاپ یا ذخیره، همه صفحات را بررسی کنید. چاپ ممکن است به پنجره چاپ مرورگر و پشتیبانی PDF وابسته باشد. این گزینه رکورد قرارداد را ذخیره نمی‌کند؛ برای آن جداگانه Save Contract را بزنید."
+        },
+        "ar": {
+          "purpose": "فتح معاينة جاهزة للطباعة للعقد أو عرض السعر الحالي.",
+          "when": "استخدمه بعد إدخال بيانات العميل ونص العقد عندما تحتاج إلى مراجعته أو طباعته أو حفظ نسخة PDF.",
+          "how": "اختر Preview / Print / Save PDF. تفتح المعاينة داخل الصفحة؛ اتبع عناصر التحكم المعروضة لإنشاء ملف PDF أو الطباعة.",
+          "inputs": "يلزم اسم العميل أو نص عقد غير فارغ. أدخل تفاصيل المستند المناسبة قبل المعاينة.",
+          "result": "تفتح معاينة العقد داخل إطار متراكب وتظهر فيه خطوات إنشاء PDF والطباعة.",
+          "notes": "راجع جميع الصفحات قبل الطباعة أو الحفظ. قد تعتمد الطباعة على مربع حوار الطباعة ودعم PDF في المتصفح. لا يحفظ هذا الإجراء سجل العقد؛ استخدم Save Contract بشكل منفصل."
+        },
+        "ckb": {
+          "purpose": "کردنەوەی پێشبینینی ئامادەی چاپ بۆ گرێبەست یان پێشنیاری نرخی ئێستا.",
+          "when": "دوای نووسینی زانیاری کڕیار و دەقی گرێبەست، کاتێک دەتەوێت بەڵگەنامەکە بپشکنیت، چاپی بکەیت یان وەک PDF پاشەکەوتی بکەیت، بەکاریبهێنە.",
+          "how": "Preview / Print / Save PDF هەڵبژێرە. بەرنامە پێشبینین لە هەمان پەڕە دەکاتەوە؛ پاشان کۆنترۆڵە پیشاندراوەکان بەکاربهێنە بۆ دروستکردنی PDF یان چاپکردن.",
+          "inputs": "ناوی کڕیار یان دەقی گرێبەستی بەتاڵ نەبێت پێویستە. پێش پێشبینین وردەکاری پەیوەندیداری بەڵگەنامەکە زیاد بکە.",
+          "result": "پێشبینینی گرێبەست لە چوارچێوەیەکی سەرپۆشکراودا دەکرێتەوە و ڕەوتی دروستکردنی PDF و چاپکردن پیشان دەدرێت.",
+          "notes": "پێش چاپ یان پاشەکەوتکردن هەموو لاپەڕەکان بپشکنە. چاپکردن لەوانەیە بە پەنجەرەی چاپ و پشتگیری PDFی وێبگەڕەوە پەیوەست بێت. ئەم کردارە تۆماری گرێبەست پاشەکەوت ناکات؛ بۆ ئەوە Save Contract جیاواز بەکاربهێنە."
+        },
+        "kmr": {
+          "purpose": "Pêşdîtinek amade ji bo çapkirina peyman an pêşniyara bihayê ya niha veke.",
+          "when": "Piştî têxistina agahiyên xerîdar û nivîsa peymanê, dema ku dixwazî belgeyê binirxînî, çap bikî an wekî PDF tomar bikî, vê bikar bîne.",
+          "how": "Preview / Print / Save PDF hilbijêre. Sepan pêşdîtinê di heman rûpelê de vedike; paşê kontrolên xuya bikar bîne da ku PDF çêbikî an çap bikî.",
+          "inputs": "Navê xerîdar an nivîsa peymanê ya ne vala pêwîst e. Berî pêşdîtinê hûrguliyên belgeyê têkeve.",
+          "result": "Pêşdîtina peymanê di çarçoveyekê de vedibe û pêvajoya çêkirina PDF û çapkirinê nîşan dide.",
+          "notes": "Berî çapkirin an tomarkirinê hemû rûpelan binirxîne. Çapkirin dikare girêdayî dialoga çapê ya gerokê û piştgiriya PDF be. Ev kiryar tomara peymanê tomar nake; ji bo wê Save Contract cuda bikar bîne."
+        },
+        "tr": {
+          "purpose": "Mevcut sözleşme veya teklifin yazdırmaya hazır önizlemesini açar.",
+          "when": "Müşteri bilgilerini ve sözleşme metnini girdikten sonra belgeyi incelemek, yazdırmak veya PDF olarak kaydetmek istediğinizde kullanın.",
+          "how": "Preview / Print / Save PDF seçeneğini seçin. Uygulama sayfa içinde bir önizleme açar; PDF oluşturmak veya yazdırmak için burada gösterilen kontrolleri izleyin.",
+          "inputs": "Müşteri adı veya boş olmayan sözleşme metni gerekir. Önizlemeden önce ilgili belge ayrıntılarını girin.",
+          "result": "Sözleşme önizlemesi bir katman çerçevesinde açılır ve PDF oluşturma/yazdırma akışı burada gösterilir.",
+          "notes": "Yazdırmadan veya kaydetmeden önce tüm sayfaları inceleyin. Yazdırma, tarayıcının yazdırma iletişim kutusuna ve PDF desteğine bağlı olabilir. Bu işlem sözleşme kaydını saklamaz; bunun için ayrıca Save Contract kullanın."
+        },
+        "pl": {
+          "purpose": "Otwiera podgląd bieżącej umowy lub oferty przygotowany do drukowania.",
+          "when": "Użyj tej opcji po wpisaniu danych klienta i treści umowy, gdy chcesz sprawdzić dokument, wydrukować go lub zapisać jako PDF.",
+          "how": "Wybierz Preview / Print / Save PDF. Aplikacja otworzy podgląd na tej samej stronie; użyj widocznych tam elementów sterujących, aby wygenerować PDF lub wydrukować dokument.",
+          "inputs": "Wymagana jest nazwa klienta lub niepusta treść umowy. Przed podglądem uzupełnij odpowiednie dane dokumentu.",
+          "result": "Podgląd umowy otworzy się w nakładanej ramce, w której dostępny będzie proces generowania PDF i drukowania.",
+          "notes": "Przed drukowaniem lub zapisem sprawdź każdą stronę. Drukowanie może zależeć od okna drukowania przeglądarki i obsługi PDF. Ta czynność nie zapisuje rekordu umowy; użyj osobno Save Contract."
+        },
+        "ur": {
+          "purpose": "موجودہ معاہدے یا قیمت کی پیشکش کا پرنٹ کے لیے تیار پیش منظر کھولتا ہے۔",
+          "when": "گاہک کی تفصیلات اور معاہدے کا متن درج کرنے کے بعد جب آپ دستاویز دیکھنا، پرنٹ کرنا یا PDF محفوظ کرنا چاہیں تو اسے استعمال کریں۔",
+          "how": "Preview / Print / Save PDF منتخب کریں۔ ایپ اسی صفحے میں پیش منظر کھولتی ہے؛ PDF بنانے یا پرنٹ کرنے کے لیے وہاں دکھائے گئے کنٹرولز استعمال کریں۔",
+          "inputs": "گاہک کا نام یا خالی نہ ہونے والا معاہدے کا متن ضروری ہے۔ پیش منظر سے پہلے متعلقہ دستاویزی تفصیلات درج کریں۔",
+          "result": "معاہدے کا پیش منظر ایک اوورلے فریم میں کھلتا ہے جہاں PDF بنانے اور پرنٹ کرنے کا عمل دکھایا جاتا ہے۔",
+          "notes": "پرنٹ یا محفوظ کرنے سے پہلے ہر صفحہ دیکھیں۔ پرنٹنگ براؤزر کے پرنٹ ڈائیلاگ اور PDF سپورٹ پر منحصر ہو سکتی ہے۔ یہ عمل معاہدے کا ریکارڈ محفوظ نہیں کرتا؛ اس کے لیے الگ سے Save Contract استعمال کریں۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਇਕਰਾਰਨਾਮੇ ਜਾਂ ਕੀਮਤ ਪੇਸ਼ਕਸ਼ ਦਾ ਛਪਾਈ ਲਈ ਤਿਆਰ ਪ੍ਰੀਵਿਊ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਗਾਹਕ ਦੇ ਵੇਰਵੇ ਅਤੇ ਇਕਰਾਰਨਾਮੇ ਦਾ ਪਾਠ ਭਰਨ ਤੋਂ ਬਾਅਦ ਜਦੋਂ ਦਸਤਾਵੇਜ਼ ਵੇਖਣਾ, ਛਾਪਣਾ ਜਾਂ PDF ਵਜੋਂ ਸੇਵ ਕਰਨਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Preview / Print / Save PDF ਚੁਣੋ। ਐਪ ਉਸੇ ਪੰਨੇ ਵਿੱਚ ਪ੍ਰੀਵਿਊ ਖੋਲ੍ਹਦੀ ਹੈ; PDF ਬਣਾਉਣ ਜਾਂ ਛਾਪਣ ਲਈ ਉੱਥੇ ਦਿਖਾਏ ਕੰਟਰੋਲ ਵਰਤੋ।",
+          "inputs": "ਗਾਹਕ ਦਾ ਨਾਮ ਜਾਂ ਖਾਲੀ ਨਾ ਹੋਣ ਵਾਲਾ ਇਕਰਾਰਨਾਮਾ ਪਾਠ ਲੋੜੀਂਦਾ ਹੈ। ਪ੍ਰੀਵਿਊ ਤੋਂ ਪਹਿਲਾਂ ਦਸਤਾਵੇਜ਼ ਦੇ ਸੰਬੰਧਿਤ ਵੇਰਵੇ ਭਰੋ।",
+          "result": "ਇਕਰਾਰਨਾਮੇ ਦਾ ਪ੍ਰੀਵਿਊ ਓਵਰਲੇ ਫਰੇਮ ਵਿੱਚ ਖੁੱਲ੍ਹਦਾ ਹੈ, ਜਿੱਥੇ PDF ਬਣਾਉਣ ਅਤੇ ਛਾਪਣ ਦੀ ਕਾਰਵਾਈ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ।",
+          "notes": "ਛਾਪਣ ਜਾਂ ਸੇਵ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਹਰ ਪੰਨਾ ਵੇਖੋ। ਛਪਾਈ ਬ੍ਰਾਊਜ਼ਰ ਦੇ ਪ੍ਰਿੰਟ ਡਾਇਲਾਗ ਅਤੇ PDF ਸਹਾਇਤਾ 'ਤੇ ਨਿਰਭਰ ਹੋ ਸਕਦੀ ਹੈ। ਇਹ ਕਾਰਵਾਈ ਇਕਰਾਰਨਾਮੇ ਦਾ ਰਿਕਾਰਡ ਸੇਵ ਨਹੀਂ ਕਰਦੀ; ਇਸ ਲਈ ਵੱਖਰੇ ਤੌਰ 'ਤੇ Save Contract ਵਰਤੋ।"
+        },
+        "prs": {
+          "purpose": "پیش‌نمایش آماده چاپ قرارداد یا پیشنهاد قیمت فعلی را باز می‌کند.",
+          "when": "پس از واردکردن اطلاعات مشتری و متن قرارداد، وقتی می‌خواهید سند را بررسی، چاپ یا به‌صورت PDF ذخیره کنید از این گزینه استفاده کنید.",
+          "how": "Preview / Print / Save PDF را انتخاب کنید. برنامه پیش‌نمایش را در همان صفحه باز می‌کند؛ برای ساخت PDF یا چاپ، کنترل‌های نمایش‌داده‌شده را دنبال کنید.",
+          "inputs": "نام مشتری یا متن غیرخالی قرارداد لازم است. پیش از پیش‌نمایش، جزئیات مربوط سند را وارد کنید.",
+          "result": "پیش‌نمایش قرارداد در یک قاب روی صفحه باز می‌شود و گردش‌کار ساخت PDF و چاپ در آن ارائه می‌شود.",
+          "notes": "پیش از چاپ یا ذخیره همه صفحات را بررسی کنید. چاپ ممکن است به پنجره چاپ مرورگر و پشتیبانی PDF وابسته باشد. این کار رکورد قرارداد را ذخیره نمی‌کند؛ برای ذخیره رکورد جداگانه Save Contract را انتخاب کنید."
+        },
+        "ps": {
+          "purpose": "د اوسني قرارداد یا د بیې د وړاندیز د چاپ لپاره چمتو مخکتنه پرانیزي.",
+          "when": "د پېرودونکي د معلوماتو او د قرارداد د متن تر لیکلو وروسته، کله چې سند کتل، چاپول یا د PDF په بڼه خوندي کول غواړئ، دا وکاروئ.",
+          "how": "Preview / Print / Save PDF وټاکئ. اپ په همدې پاڼه کې مخکتنه پرانیزي؛ د PDF جوړولو یا چاپ لپاره هلته ښودل شوي کنټرولونه وکاروئ.",
+          "inputs": "د پېرودونکي نوم یا د قرارداد غیر تش متن اړین دی. تر مخکتنې مخکې د سند اړوند معلومات ولیکئ.",
+          "result": "د قرارداد مخکتنه په پوښښ چوکاټ کې پرانیستل کېږي او د PDF جوړولو او چاپ بهیر پکې ښودل کېږي.",
+          "notes": "تر چاپ یا خوندي کولو مخکې ټولې پاڼې وګورئ. چاپ ښايي د براوزر د چاپ کړکۍ او د PDF ملاتړ پورې تړلی وي. دا کړنه د قرارداد ریکارډ نه خوندي کوي؛ د ریکارډ لپاره جلا Save Contract وکاروئ."
+        }
+      },
       "handler_or_behavior": "`ctPrint()`"
     },
     {
@@ -2629,8 +2807,8 @@
     }
   ],
   "content_progress": {
-    "completed_entries": 6,
-    "pending_entries": 223,
+    "completed_entries": 8,
+    "pending_entries": 221,
     "completion_scope": "Six fields × eleven languages per entry; reviewed in batches."
   }
 }
