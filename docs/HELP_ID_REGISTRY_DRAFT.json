@@ -1997,7 +1997,7 @@
       "audit_ref": "INV-024",
       "element_id": null,
       "label": "Refresh",
-      "status": "CONTENT_COMPLETE",
+      "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
           "purpose": "Recalculate dashboard figures and refresh related records and report views using current filters.",
@@ -2095,7 +2095,7 @@
       "audit_ref": "INV-025",
       "element_id": null,
       "label": "Set period (13th–12th)",
-      "status": "CONTENT_COMPLETE",
+      "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
           "purpose": "Set the dashboard and report period to the app's monthly cycle from the 13th to the 12th.",
@@ -2193,7 +2193,7 @@
       "audit_ref": "INV-026",
       "element_id": "categoryPickerButton",
       "label": "Select a category ⌄",
-      "status": "CONTENT_COMPLETE",
+      "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
           "purpose": "Open the category picker to choose an expense category for the current entry.",
@@ -2291,7 +2291,7 @@
       "audit_ref": "INV-027",
       "element_id": null,
       "label": "📷 Take a Photo",
-      "status": "CONTENT_COMPLETE",
+      "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
           "purpose": "Choose an image from the device to attach as a receipt photo to the current entry.",
@@ -2389,7 +2389,7 @@
       "audit_ref": "INV-028",
       "element_id": "entryReceiptRemove",
       "label": "Remove photo",
-      "status": "CONTENT_COMPLETE",
+      "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
           "purpose": "Remove the receipt photo currently attached to the entry form.",
@@ -2487,7 +2487,7 @@
       "audit_ref": "INV-029",
       "element_id": null,
       "label": "Save Entry",
-      "status": "CONTENT_COMPLETE",
+      "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
           "purpose": "Validate and save the current income or expense entry to the app's local database.",
@@ -2585,7 +2585,7 @@
       "audit_ref": "INV-030",
       "element_id": null,
       "label": "Clear Form",
-      "status": "CONTENT_COMPLETE",
+      "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
           "purpose": "Clear the entry form and return it to the default new-entry state.",
@@ -2683,7 +2683,7 @@
       "audit_ref": "INV-032",
       "element_id": null,
       "label": "Add to list",
-      "status": "CONTENT_COMPLETE",
+      "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
           "purpose": "Add a new named item to the selected expense category list.",
@@ -4587,8 +4587,8 @@
     }
   ],
   "content_progress": {
-    "completed_entries": 28,
-    "pending_entries": 201,
-    "completion_scope": "Six fields × eleven languages per entry; reviewed in batches."
+    "completed_entries": 20,
+    "pending_entries": 209,
+    "completion_scope": "Only entries with reviewed, accurate content in all eleven languages count as complete."
   }
 }
