@@ -458,7 +458,7 @@
 - **PR:** #92 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/92؛ merged.
 - **Merge commit:** `d5dcd37565881408424be96bdb361b16320ec647`.
 - **Version Authority Gate:** PASS؛ PR run `45881830149` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45881830149.
-- **Preview Pages:** not verified؛ وضعیت Pages deployment پس از merge از ابزار در دسترس تأیید نشده است؛ تا دریافت شواهد، لینک R39 برای تست اعلام نمی‌شود.
+- **Preview Pages:** PASS؛ run `45881892461` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45881892461؛ انتشار برای commit `d5dcd37565881408424be96bdb361b16320ec647` موفق شد.
 - **Build ID هدف:** `THA-273-R11-PREVIEW-20261126-R39`.
 - **معیار پذیرش iPhone Safari:** در Expenses، گزینه Selco و چند گزینه از گروه‌های Materials، Car Expenses، Tools و Others انتخاب شوند؛ نام انتخابی بلافاصله روی دکمه بماند؛ بازکردن دوباره فهرست همان گزینه را selected نشان دهد؛ انتخاب Contractor / subcontractor همچنان فیلد مربوط را فعال کند؛ ثبت Expense و refresh نیز رفتار قبلی را حفظ کند.
 - **تست iPhone Safari:** not tested؛ منتظر بررسی کاربر پس از انتشار Preview.
