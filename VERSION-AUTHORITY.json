@@ -1791,10 +1791,10 @@
         "details": "All 8 inline JavaScript blocks in the updated HTML passed V8 syntax compilation. Source inspection confirms syncCategoryPicker now obtains the computed group objects from getExpenseCategoryGroups(), whose items arrays are defined. Live browser and iPhone Safari interaction tests remain pending."
       },
       "previewPagesDeployment": {
-        "result": "not verified",
-        "runId": "pending",
-        "url": "pending",
-        "details": "The merge succeeded, but a successful main-branch GitHub Pages deployment run has not yet been directly verified."
+        "result": "PASS",
+        "runId": 45881892461,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45881892461",
+        "details": "GitHub Pages build and deployment completed successfully on Preview main for merge commit d5dcd37565881408424be96bdb361b16320ec647."
       },
       "userSafariTest": {
         "result": "not tested",
