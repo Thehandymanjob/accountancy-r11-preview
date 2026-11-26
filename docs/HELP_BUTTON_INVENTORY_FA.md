@@ -172,12 +172,12 @@
 | INV-150 | — | View | `viewRecordInvoice(\` | HELP-REQUIRED |
 | INV-151 | — | View | `viewRecordEntry(\` | HELP-REQUIRED |
 | INV-152 | — | Close | `document.getElementById(\` | EXEMPT-CANDIDATE |
-| INV-153 | — | × | `window.close()` | HELP-REQUIRED |
+| INV-153 | — | × | `window.close()` | EXEMPT-CANDIDATE |
 | INV-154 | — | ↥ Share PDF | `shareReportPdf()` | HELP-REQUIRED |
 | INV-155 | makePdf | Create PDF | `createPDF()` | HELP-REQUIRED |
 | INV-156 | downloadPdf | Download PDF | `downloadPDF()` | HELP-REQUIRED |
 | INV-157 | sharePdf | ↗ Share PDF | `sharePDF()` | HELP-REQUIRED |
-| INV-158 | — | × | `window.close()` | HELP-REQUIRED |
+| INV-158 | — | × | `window.close()` | EXEMPT-CANDIDATE |
 | INV-159 | — | Edit | `editCustomer(` | HELP-REQUIRED |
 | INV-160 | — | New invoice | `newInvoiceForCustomer(` | HELP-REQUIRED |
 | INV-161 | — | Delete | `deleteCustomer(` | HELP-REQUIRED |
@@ -185,7 +185,7 @@
 | INV-163 | — | Open print view | `openInvoicePrintView()` | HELP-REQUIRED |
 | INV-164 | — | Back to invoices | `document.body.classList.remove(\` | EXEMPT-CANDIDATE |
 | INV-165 | — | ← Back | `thaBackInvoicePdf()` | EXEMPT-CANDIDATE |
-| INV-166 | — | × | `thaCloseInvoicePdf()` | HELP-REQUIRED |
+| INV-166 | — | × | `thaCloseInvoicePdf()` | EXEMPT-CANDIDATE |
 | INV-167 | — | ↗ Share PDF | `thaShareInvoicePdf()` | HELP-REQUIRED |
 | INV-168 | — | Mark unpaid | `markInvoiceUnpaid(` | HELP-REQUIRED |
 | INV-169 | — | Mark paid | `recordInvoicePayment(` | HELP-REQUIRED |
@@ -249,7 +249,7 @@
 | INV-227 | — | Clear | `prClearRowForm()` | HELP-REQUIRED |
 | INV-228 | — | Edit | `prEditRow(` | HELP-REQUIRED |
 | INV-229 | — | Delete | `prDeleteRow(` | HELP-REQUIRED |
-| INV-230 | — | × | `prCloseWorkerListPicker()` | HELP-REQUIRED |
+| INV-230 | — | × | `prCloseWorkerListPicker()` | EXEMPT-CANDIDATE |
 | INV-231 | ${prEscape(w.id)} | ${prEscape(w.name\|\|'Unnamed worker')} ${w.phone?` ${prEscape(w.phone)} `:''} ${select.value===String(w.id)?'✓':'›'} | `prChooseWorkerFromList(this.dataset.workerId)` | HELP-REQUIRED |
 | INV-232 | — | Done | `prCloseWorkerListPicker()` | HELP-REQUIRED |
 | INV-233 | — | Manage Workers | `prPage(\` | HELP-REQUIRED |
@@ -264,7 +264,7 @@
 | INV-242 | generateBtn | ${L.generate} | `ctGeneratePDF()` | HELP-REQUIRED |
 | INV-243 | printBtn | Open PDF | `ctPrintPDF()` | HELP-REQUIRED |
 | INV-244 | shareBtn | ↗ Share PDF | `ctSharePDF()` | HELP-REQUIRED |
-| INV-245 | — | ${L.close} | `ctPreviewClose()` | HELP-REQUIRED |
+| INV-245 | — | ${L.close} | `ctPreviewClose()` | EXEMPT-CANDIDATE |
 | INV-246 | — | ${L.back} | `history.back()` | HELP-REQUIRED |
 | INV-247 | — | Close ✕ | `closeReceiptImage()` | EXEMPT-CANDIDATE |
 | INV-248 | — | Cancel | `cancelReceiptCrop()` | EXEMPT-CANDIDATE |
@@ -294,16 +294,24 @@
 | Ref ممیزی | Selector / Class | متن | رفتار | طبقه‌بندی |
 |---|---|---|---|---|
 | INV-267 | `.unified-dropdown-trigger` | متن گزینه انتخاب‌شده / placeholder | باز و بسته کردن فهرست انتخاب بومی‌شده از روی یک select موجود | HELP-REQUIRED |
-| INV-268 | `.unified-dropdown-option` | متن هر گزینه از select | انتخاب مقدار و dispatch رویداد change؛ برای هر گزینه نمونه جداگانه ساخته می‌شود | EXEMPT-CANDIDATE |
+| INV-268 | `.unified-dropdown-option` | متن هر گزینه از select | انتخاب مقدار و dispatch رویداد change؛ برای هر گزینه نمونه جداگانه ساخته می‌شود | HELP-REQUIRED |
 
-بنابراین baseline فعلی ۲۶۸ نوع/عنصر قابل ممیزی دارد: ۲۳۳ HELP-REQUIRED و ۳۵ EXEMPT-CANDIDATE. این شمارش، تعداد کل نمونه‌های زمان اجرا را بیان نمی‌کند؛ تعداد گزینه‌های dropdown بر اساس داده و صفحه تغییر می‌کند.
+بنابراین baseline فعلی ۲۶۸ نوع/عنصر قابل ممیزی دارد: ۲۲۹ HELP-REQUIRED و ۳۹ EXEMPT-CANDIDATE. بازبینی دستی وضعیت اولیه ۳۵ نامزد را تکمیل کرد؛ ۳۴ مورد از نامزدهای قبلی تأیید شدند و `INV-268` به دلیل تغییر مقدار فیلد به HELP-REQUIRED ارتقا یافت. پنج مورد از طبقه‌بندی قبلی HELP-REQUIRED نیز پس از بررسی رفتار واقعی به استثنای بستن/خروجی تبدیل شدند: `INV-153`, `INV-158`, `INV-166`, `INV-230`, `INV-245`. این شمارش، تعداد کل نمونه‌های زمان اجرا را بیان نمی‌کند؛ تعداد گزینه‌های dropdown بر اساس داده و صفحه تغییر می‌کند.
 
 ## تکمیل موردنیاز
 
-1. بازبینی دستی ۳۵ `EXEMPT-CANDIDATE` باقی‌مانده و تأیید/رد هر مورد؛ این برچسب به‌تنهایی معافیت قطعی نیست.
-2. بازبینی ۲۳۳ `HELP-REQUIRED` و تفکیک handlerهای مشترک بر اساس پارامتر و label.
+1. بازبینی دستی نامزدهای اولیه تکمیل شد؛ ۳۹ استثنا با رفتار واقعی Back / Cancel / Close تأیید شدند. این معافیت فقط برای کنترل‌های dismiss/navigation است و به سایر کنترل‌های همان پنجره تعمیم ندارد.
+2. بازبینی ۲۲۹ `HELP-REQUIRED` و تفکیک handlerهای مشترک بر اساس پارامتر و label.
 3. تعیین Help ID نهایی پایدار برای هر عملکرد اختصاصی.
 4. نوشتن شش فیلد واقعی برای هر ID در تمام ۱۱ زبان فعلی راهنما؛ زبان رابط اصلی برنامه همچنان انگلیسی/LTR است.
 5. اتصال IDها به دکمه‌های ثابت و قالب‌های پویا و افزودن تست خودکار پوشش و یکتایی.
 6. بررسی listener دکمه‌های فاقد onclick.
 7. پس از تکمیل پوشش، اجرای Gate و درخواست تست iPhone Safari.
+
+## نتیجه بازبینی دستی استثناها — 2026-11-26
+
+- **۳۹ مورد تأییدشده به‌عنوان استثنا:** `INV-005`, `INV-010`, `INV-023`, `INV-031`, `INV-033`, `INV-035`, `INV-040`, `INV-046`, `INV-050`, `INV-051`, `INV-052`, `INV-053`, `INV-056`, `INV-069`, `INV-077`, `INV-083`, `INV-094`, `INV-135`, `INV-140`, `INV-152`, `INV-153`, `INV-158`, `INV-162`, `INV-164`, `INV-165`, `INV-166`, `INV-190`, `INV-191`, `INV-206`, `INV-209`, `INV-211`, `INV-215`, `INV-222`, `INV-230`, `INV-245`, `INV-247`, `INV-248`, `INV-258`, `INV-265`.
+- **اصلاح مرز استثنا:** `INV-268` گزینه پویا برای انتخاب مقدار از select است و به‌دلیل تغییر state، Help-Required شد. `INV-230` فقط بستن فهرست انتخاب کارگر است؛ `INV-232` دکمه Done باقی می‌ماند Help-Required چون پایان مرحله انتخاب را تأیید می‌کند.
+- **اصلاح موارد Close:** `INV-153`, `INV-158`, `INV-166`, `INV-245` فقط PDF preview/window را می‌بندند و داده یا سند را تغییر نمی‌دهند؛ بنابراین استثنا شدند. `INV-214` استثنا نیست: محتوای preview را پس از تولید PDF بازمی‌گرداند و بخشی از گردش‌کار است.
+- **کنترل‌های لغو:** `INV-033`, `INV-083`, `INV-135`, `INV-248` فقط فرم/مودال/مرحله موقت را بدون commit داده می‌بندند یا لغو می‌کنند. دکمه‌های تأیید و ذخیره متناظر همچنان Help-Required هستند.
+- **وضعیت:** بازبینی دسته استثناها کامل است؛ این موضوع به معنی تکمیل Help Registry نیست. ۲۲۹ عملکرد Help-Required هنوز باید به شناسه‌های پایدار، شش فیلد محتوا در ۱۱ زبان و اتصال runtime برسند.
