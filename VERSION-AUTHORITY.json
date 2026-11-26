@@ -1727,9 +1727,10 @@
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/88",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 45875132343,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45875132343",
+        "details": "PR #88 Version Authority Gate passed. It verified the Preview repository, main target, approved R11 baseline ancestry, R38 Build ID/canonical URL, index blob pin and all 22 pinned runtime assets."
       },
       "staticChecks": {
         "result": "PASS",
