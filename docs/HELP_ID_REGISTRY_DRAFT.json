@@ -37,2061 +37,2061 @@
       "audit_ref": "INV-001",
       "element_id": null,
       "label": "🧾 Accountancy Income, expenses, invoices and reports ›",
-      "handler_signature": "`openAccountancy()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`openAccountancy()`"
     },
     {
       "help_id": "THA-HLP-0002",
       "audit_ref": "INV-002",
       "element_id": null,
       "label": "💼 Business Workspace Projects, Company Contracts & Jobs, and Control Panel ›",
-      "handler_signature": "`openProjectsApp()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`openProjectsApp()`"
     },
     {
       "help_id": "THA-HLP-0003",
       "audit_ref": "INV-003",
       "element_id": null,
       "label": "📝 Contract Management Create, edit and manage contracts and quotations ›",
-      "handler_signature": "`openContractsApp()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`openContractsApp()`"
     },
     {
       "help_id": "THA-HLP-0004",
       "audit_ref": "INV-004",
       "element_id": null,
       "label": "⚙️ Settings Backup, restore, profile and logo ›",
-      "handler_signature": "`openSettingsHub()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`openSettingsHub()`"
     },
     {
       "help_id": "THA-HLP-0005",
       "audit_ref": "INV-006",
       "element_id": null,
       "label": "＋ New Contract",
-      "handler_signature": "`ctNew()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`ctNew()`"
     },
     {
       "help_id": "THA-HLP-0006",
       "audit_ref": "INV-007",
       "element_id": null,
       "label": "💾 Save Contract",
-      "handler_signature": "`ctSave()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`ctSave()`"
     },
     {
       "help_id": "THA-HLP-0007",
       "audit_ref": "INV-008",
       "element_id": null,
       "label": "✦ Help me write with ChatGPT",
-      "handler_signature": "`ctOpenChatGPT()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`ctOpenChatGPT()`"
     },
     {
       "help_id": "THA-HLP-0008",
       "audit_ref": "INV-009",
       "element_id": null,
       "label": "🖨️ Preview / Print / Save PDF",
-      "handler_signature": "`ctPrint()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`ctPrint()`"
     },
     {
       "help_id": "THA-HLP-0009",
       "audit_ref": "INV-011",
       "element_id": null,
       "label": "▦ Dashboard Financial overview and balances ›",
-      "handler_signature": "`show(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`show(`"
     },
     {
       "help_id": "THA-HLP-0010",
       "audit_ref": "INV-012",
       "element_id": null,
       "label": "＋ Add Entry Record income or expenses ›",
-      "handler_signature": "`show(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`show(`"
     },
     {
       "help_id": "THA-HLP-0011",
       "audit_ref": "INV-013",
       "element_id": null,
       "label": "▤ Records Find and manage transactions ›",
-      "handler_signature": "`show(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`show(`"
     },
     {
       "help_id": "THA-HLP-0012",
       "audit_ref": "INV-014",
       "element_id": null,
       "label": "▧ Invoices Create and review invoices ›",
-      "handler_signature": "`show(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`show(`"
     },
     {
       "help_id": "THA-HLP-0013",
       "audit_ref": "INV-015",
       "element_id": null,
       "label": "♙ Customers Customer details and contacts ›",
-      "handler_signature": "`show(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`show(`"
     },
     {
       "help_id": "THA-HLP-0014",
       "audit_ref": "INV-016",
       "element_id": null,
       "label": "▥ Reports & Tax Tax periods, archive and notifications ›",
-      "handler_signature": "`show(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`show(`"
     },
     {
       "help_id": "THA-HLP-0015",
       "audit_ref": "INV-017",
       "element_id": null,
       "label": "🏠 Dashboard",
-      "handler_signature": "`show(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`show(`"
     },
     {
       "help_id": "THA-HLP-0016",
       "audit_ref": "INV-018",
       "element_id": null,
       "label": "＋ Add Entry",
-      "handler_signature": "`show(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`show(`"
     },
     {
       "help_id": "THA-HLP-0017",
       "audit_ref": "INV-019",
       "element_id": null,
       "label": "📋 Records",
-      "handler_signature": "`show(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`show(`"
     },
     {
       "help_id": "THA-HLP-0018",
       "audit_ref": "INV-020",
       "element_id": null,
       "label": "🧾 Invoices",
-      "handler_signature": "`show(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`show(`"
     },
     {
       "help_id": "THA-HLP-0019",
       "audit_ref": "INV-021",
       "element_id": null,
       "label": "👥 Customers",
-      "handler_signature": "`show(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`show(`"
     },
     {
       "help_id": "THA-HLP-0020",
       "audit_ref": "INV-022",
       "element_id": null,
       "label": "🖨️ Reports",
-      "handler_signature": "`show(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`show(`"
     },
     {
       "help_id": "THA-HLP-0021",
       "audit_ref": "INV-024",
       "element_id": null,
       "label": "Refresh",
-      "handler_signature": "`refreshAll()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`refreshAll()`"
     },
     {
       "help_id": "THA-HLP-0022",
       "audit_ref": "INV-025",
       "element_id": null,
       "label": "Set period (13th–12th)",
-      "handler_signature": "`setPeriod()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`setPeriod()`"
     },
     {
       "help_id": "THA-HLP-0023",
       "audit_ref": "INV-026",
       "element_id": "categoryPickerButton",
       "label": "Select a category ⌄",
-      "handler_signature": "`toggleCategoryMenu()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`toggleCategoryMenu()`"
     },
     {
       "help_id": "THA-HLP-0024",
       "audit_ref": "INV-027",
       "element_id": null,
       "label": "📷 Take a Photo",
-      "handler_signature": "`document.getElementById(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`document.getElementById(`"
     },
     {
       "help_id": "THA-HLP-0025",
       "audit_ref": "INV-028",
       "element_id": "entryReceiptRemove",
       "label": "Remove photo",
-      "handler_signature": "`clearEntryReceipt()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`clearEntryReceipt()`"
     },
     {
       "help_id": "THA-HLP-0026",
       "audit_ref": "INV-029",
       "element_id": null,
       "label": "Save Entry",
-      "handler_signature": "`saveEntry()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`saveEntry()`"
     },
     {
       "help_id": "THA-HLP-0027",
       "audit_ref": "INV-030",
       "element_id": null,
       "label": "Clear Form",
-      "handler_signature": "`resetEntry()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`resetEntry()`"
     },
     {
       "help_id": "THA-HLP-0028",
       "audit_ref": "INV-032",
       "element_id": null,
       "label": "Add to list",
-      "handler_signature": "`saveExpenseCategory()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`saveExpenseCategory()`"
     },
     {
       "help_id": "THA-HLP-0029",
       "audit_ref": "INV-034",
       "element_id": null,
       "label": "＋ New Invoice",
-      "handler_signature": "`newInvoice()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`newInvoice()`"
     },
     {
       "help_id": "THA-HLP-0030",
       "audit_ref": "INV-036",
       "element_id": null,
       "label": "Save Invoice",
-      "handler_signature": "`saveInvoice()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`saveInvoice()`"
     },
     {
       "help_id": "THA-HLP-0031",
       "audit_ref": "INV-037",
       "element_id": null,
       "label": "Save & Print / PDF",
-      "handler_signature": "`saveAndPrintInvoice()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`saveAndPrintInvoice()`"
     },
     {
       "help_id": "THA-HLP-0032",
       "audit_ref": "INV-038",
       "element_id": null,
       "label": "Save Customer",
-      "handler_signature": "`saveCustomer()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`saveCustomer()`"
     },
     {
       "help_id": "THA-HLP-0033",
       "audit_ref": "INV-039",
       "element_id": null,
       "label": "Clear Form",
-      "handler_signature": "`resetCustomerForm()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`resetCustomerForm()`"
     },
     {
       "help_id": "THA-HLP-0034",
       "audit_ref": "INV-041",
       "element_id": null,
       "label": "📄 Prepare a report Predefined reporting periods and report generation",
-      "handler_signature": "`report188Navigate(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`report188Navigate(`"
     },
     {
       "help_id": "THA-HLP-0035",
       "audit_ref": "INV-042",
       "element_id": null,
       "label": "🗂️ Saved reports archive Open previous report snapshots",
-      "handler_signature": "`report188Navigate(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`report188Navigate(`"
     },
     {
       "help_id": "THA-HLP-0036",
       "audit_ref": "INV-043",
       "element_id": null,
       "label": "🔔 Notifications inbox Titles only; tap a notification to read it",
-      "handler_signature": "`report188Navigate(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`report188Navigate(`"
     },
     {
       "help_id": "THA-HLP-0037",
       "audit_ref": "INV-044",
       "element_id": null,
       "label": "🗓️ Tax calendar Upcoming and past deadlines",
-      "handler_signature": "`report188Navigate(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`report188Navigate(`"
     },
     {
       "help_id": "THA-HLP-0038",
       "audit_ref": "INV-045",
       "element_id": null,
       "label": "✉️ Accountant email Recipient settings and sending status",
-      "handler_signature": "`report188Navigate(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`report188Navigate(`"
     },
     {
       "help_id": "THA-HLP-0039",
       "audit_ref": "INV-047",
       "element_id": null,
       "label": "Print Preview",
-      "handler_signature": "`printReport()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`printReport()`"
     },
     {
       "help_id": "THA-HLP-0040",
       "audit_ref": "INV-048",
       "element_id": null,
       "label": "Confirm records complete",
-      "handler_signature": "`report188ConfirmComplete()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`report188ConfirmComplete()`"
     },
     {
       "help_id": "THA-HLP-0041",
       "audit_ref": "INV-049",
       "element_id": null,
       "label": "Check reminders now",
-      "handler_signature": "`report188CheckDue()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`report188CheckDue()`"
     },
     {
       "help_id": "THA-HLP-0042",
       "audit_ref": "INV-054",
       "element_id": null,
       "label": "Confirm records complete for selected period",
-      "handler_signature": "`report188ConfirmComplete()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`report188ConfirmComplete()`"
     },
     {
       "help_id": "THA-HLP-0043",
       "audit_ref": "INV-055",
       "element_id": null,
       "label": "Check reminders now",
-      "handler_signature": "`report188CheckDue()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`report188CheckDue()`"
     },
     {
       "help_id": "THA-HLP-0044",
       "audit_ref": "INV-057",
       "element_id": null,
       "label": "Save recipient details",
-      "handler_signature": "`report188SaveEmailSettings()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`report188SaveEmailSettings()`"
     },
     {
       "help_id": "THA-HLP-0045",
       "audit_ref": "INV-058",
       "element_id": "fullBackupButton",
       "label": "Backup",
-      "handler_signature": "`fullDatabaseBackup()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`fullDatabaseBackup()`"
     },
     {
       "help_id": "THA-HLP-0046",
       "audit_ref": "INV-059",
       "element_id": "fullRestoreButton",
       "label": "Restore",
-      "handler_signature": "`chooseFullDatabaseRestore()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`chooseFullDatabaseRestore()`"
     },
     {
       "help_id": "THA-HLP-0047",
       "audit_ref": "INV-060",
       "element_id": null,
       "label": "Show version details",
-      "handler_signature": "`toggleMonitorVersionInfo()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`toggleMonitorVersionInfo()`"
     },
     {
       "help_id": "THA-HLP-0048",
       "audit_ref": "INV-061",
       "element_id": "toggleActivityArchiveButton",
       "label": "Show activity archive",
-      "handler_signature": "`toggleActivityArchive()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`toggleActivityArchive()`"
     },
     {
       "help_id": "THA-HLP-0049",
       "audit_ref": "INV-062",
       "element_id": "runIndexedDBSelfTestButton",
       "label": "Test IndexedDB Storage",
-      "handler_signature": "`window.runIndexedDBSelfTest()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`window.runIndexedDBSelfTest()`"
     },
     {
       "help_id": "THA-HLP-0050",
       "audit_ref": "INV-063",
       "element_id": null,
       "label": "Create Accounting Snapshot in IndexedDB",
-      "handler_signature": "`window.createAccountingStorageSnapshot()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`window.createAccountingStorageSnapshot()`"
     },
     {
       "help_id": "THA-HLP-0051",
       "audit_ref": "INV-064",
       "element_id": null,
       "label": "Compare Accounting Storage (Read-only)",
-      "handler_signature": "`window.runAccountingStorageComparison()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`window.runAccountingStorageComparison()`"
     },
     {
       "help_id": "THA-HLP-0052",
       "audit_ref": "INV-065",
       "element_id": null,
       "label": "Download Diagnostic Report (JSON)",
-      "handler_signature": "`exportDiagnosticReport()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`exportDiagnosticReport()`"
     },
     {
       "help_id": "THA-HLP-0053",
       "audit_ref": "INV-066",
       "element_id": null,
       "label": "Run Full Storage Audit (Read-only)",
-      "handler_signature": "`runFullStorageAudit()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`runFullStorageAudit()`"
     },
     {
       "help_id": "THA-HLP-0054",
       "audit_ref": "INV-067",
       "element_id": null,
       "label": "Export Activity Log (CSV)",
-      "handler_signature": "`exportMonitorCSV()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`exportMonitorCSV()`"
     },
     {
       "help_id": "THA-HLP-0055",
       "audit_ref": "INV-068",
       "element_id": null,
       "label": "Run Local Self-check",
-      "handler_signature": "`runMonitorSelfCheck()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`runMonitorSelfCheck()`"
     },
     {
       "help_id": "THA-HLP-0056",
       "audit_ref": "INV-070",
       "element_id": null,
       "label": "💾 Backup & Restore Separate backups for each data area",
-      "handler_signature": "`show(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`show(`"
     },
     {
       "help_id": "THA-HLP-0057",
       "audit_ref": "INV-071",
       "element_id": null,
       "label": "❓ Help Choose the language for the User Guide",
-      "handler_signature": "`show(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`show(`"
     },
     {
       "help_id": "THA-HLP-0058",
       "audit_ref": "INV-072",
       "element_id": null,
       "label": "👤 Profile & Logo Business details and business logo",
-      "handler_signature": "`show(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`show(`"
     },
     {
       "help_id": "THA-HLP-0059",
       "audit_ref": "INV-073",
       "element_id": null,
       "label": "📘 User Guide Instructions and Contact Us",
-      "handler_signature": "`show(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`show(`"
     },
     {
       "help_id": "THA-HLP-0060",
       "audit_ref": "INV-074",
       "element_id": null,
       "label": "🔄 Software Update Check and install the latest version",
-      "handler_signature": "`show(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`show(`"
     },
     {
       "help_id": "THA-HLP-0061",
       "audit_ref": "INV-075",
       "element_id": null,
       "label": "🛡️ Monitor & Diagnostics Activity archive, errors, data integrity and developer report",
-      "handler_signature": "`show(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`show(`"
     },
     {
       "help_id": "THA-HLP-0062",
       "audit_ref": "INV-076",
       "element_id": null,
       "label": "⚠️ Factory Reset Convert approved backup and safely restore all data",
-      "handler_signature": "`show(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`show(`"
     },
     {
       "help_id": "THA-HLP-0063",
       "audit_ref": "INV-078",
       "element_id": null,
       "label": "Open Secure Reset",
-      "handler_signature": "`openFactoryReset()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`openFactoryReset()`"
     },
     {
       "help_id": "THA-HLP-0064",
       "audit_ref": "INV-079",
       "element_id": "factoryResetConvertButton",
       "label": "Validate and Convert Backup",
-      "handler_signature": "`event/property listener`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`event/property listener`"
     },
     {
       "help_id": "THA-HLP-0065",
       "audit_ref": "INV-080",
       "element_id": "factoryResetEmergencyButton",
       "label": "Download Emergency Snapshot",
-      "handler_signature": "`event/property listener`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`event/property listener`"
     },
     {
       "help_id": "THA-HLP-0066",
       "audit_ref": "INV-081",
       "element_id": "factoryResetNext",
       "label": "I Understand — Continue",
-      "handler_signature": "`factoryResetNextStep()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`factoryResetNextStep()`"
     },
     {
       "help_id": "THA-HLP-0067",
       "audit_ref": "INV-082",
       "element_id": "factoryResetFinalButton",
       "label": "Reset and Restore All Data",
-      "handler_signature": "`event/property listener`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`event/property listener`"
     },
     {
       "help_id": "THA-HLP-0068",
       "audit_ref": "INV-084",
       "element_id": null,
       "label": "Save Profile",
-      "handler_signature": "`prSaveProfile()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prSaveProfile()`"
     },
     {
       "help_id": "THA-HLP-0069",
       "audit_ref": "INV-085",
       "element_id": null,
       "label": "Remove Logo",
-      "handler_signature": "`prRemoveLogo()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prRemoveLogo()`"
     },
     {
       "help_id": "THA-HLP-0070",
       "audit_ref": "INV-086",
       "element_id": null,
       "label": "Save Support Message",
-      "handler_signature": "`event/property listener`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`event/property listener`"
     },
     {
       "help_id": "THA-HLP-0071",
       "audit_ref": "INV-087",
       "element_id": null,
       "label": "Clear Form",
-      "handler_signature": "`resetHelpContactForm()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`resetHelpContactForm()`"
     },
     {
       "help_id": "THA-HLP-0072",
       "audit_ref": "INV-088",
       "element_id": null,
       "label": "🔄 Check for Updates",
-      "handler_signature": "`event/property listener`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`event/property listener`"
     },
     {
       "help_id": "THA-HLP-0073",
       "audit_ref": "INV-089",
       "element_id": "appReloadUpdate",
       "label": "Update Now",
-      "handler_signature": "`reloadLatestApp()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`reloadLatestApp()`"
     },
     {
       "help_id": "THA-HLP-0074",
       "audit_ref": "INV-090",
       "element_id": null,
       "label": "💼 Business Workspace",
-      "handler_signature": "`prPage(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prPage(`"
     },
     {
       "help_id": "THA-HLP-0075",
       "audit_ref": "INV-091",
       "element_id": null,
       "label": "📁 Projects",
-      "handler_signature": "`prPage(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prPage(`"
     },
     {
       "help_id": "THA-HLP-0076",
       "audit_ref": "INV-092",
       "element_id": null,
       "label": "🏢 Company Contracts & Jobs",
-      "handler_signature": "`prPage(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prPage(`"
     },
     {
       "help_id": "THA-HLP-0077",
       "audit_ref": "INV-093",
       "element_id": null,
       "label": "⚙️ Control Panel",
-      "handler_signature": "`prPage(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prPage(`"
     },
     {
       "help_id": "THA-HLP-0078",
       "audit_ref": "INV-095",
       "element_id": null,
       "label": "📁 Projects New Project, Projects List and Project Profit & Loss",
-      "handler_signature": "`prPage(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prPage(`"
     },
     {
       "help_id": "THA-HLP-0079",
       "audit_ref": "INV-096",
       "element_id": null,
       "label": "🏢 Company Contracts & Jobs Companies, contracts, company projects, sub-projects and payments",
-      "handler_signature": "`prOpenCompanyHubFromWorkspace()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prOpenCompanyHubFromWorkspace()`"
     },
     {
       "help_id": "THA-HLP-0080",
       "audit_ref": "INV-097",
       "element_id": null,
       "label": "⚙️ Control Panel Manage shared Partners, Workers, Contractors, companies and future settings",
-      "handler_signature": "`prPage(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prPage(`"
     },
     {
       "help_id": "THA-HLP-0081",
       "audit_ref": "INV-098",
       "element_id": null,
       "label": "➕ New Project Create an independent project",
-      "handler_signature": "`prPage(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prPage(`"
     },
     {
       "help_id": "THA-HLP-0082",
       "audit_ref": "INV-099",
       "element_id": null,
       "label": "▦ Projects List Search, open and manage existing projects",
-      "handler_signature": "`prPage(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prPage(`"
     },
     {
       "help_id": "THA-HLP-0083",
       "audit_ref": "INV-100",
       "element_id": null,
       "label": "＋ Add Partner",
-      "handler_signature": "`prAddPartnerShareRow()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prAddPartnerShareRow()`"
     },
     {
       "help_id": "THA-HLP-0084",
       "audit_ref": "INV-101",
       "element_id": null,
       "label": "Save Project",
-      "handler_signature": "`prSaveProject()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prSaveProject()`"
     },
     {
       "help_id": "THA-HLP-0085",
       "audit_ref": "INV-102",
       "element_id": null,
       "label": "Clear Form",
-      "handler_signature": "`prResetProject()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prResetProject()`"
     },
     {
       "help_id": "THA-HLP-0086",
       "audit_ref": "INV-103",
       "element_id": null,
       "label": "Edit",
-      "handler_signature": "`prEditCurrent()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prEditCurrent()`"
     },
     {
       "help_id": "THA-HLP-0087",
       "audit_ref": "INV-104",
       "element_id": "prCompleteToggle",
       "label": "Complete",
-      "handler_signature": "`prToggleProjectCompletion()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prToggleProjectCompletion()`"
     },
     {
       "help_id": "THA-HLP-0088",
       "audit_ref": "INV-105",
       "element_id": null,
       "label": "Delete",
-      "handler_signature": "`prDeleteCurrent()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prDeleteCurrent()`"
     },
     {
       "help_id": "THA-HLP-0089",
       "audit_ref": "INV-106",
       "element_id": "prDetailProfitReportButton",
       "label": "📊 Report",
-      "handler_signature": "`prOpenCurrentProjectProfitReport()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prOpenCurrentProjectProfitReport()`"
     },
     {
       "help_id": "THA-HLP-0090",
       "audit_ref": "INV-107",
       "element_id": null,
       "label": "Summary",
-      "handler_signature": "`prDetailTab(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prDetailTab(`"
     },
     {
       "help_id": "THA-HLP-0091",
       "audit_ref": "INV-108",
       "element_id": null,
       "label": "Income",
-      "handler_signature": "`prDetailTab(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prDetailTab(`"
     },
     {
       "help_id": "THA-HLP-0092",
       "audit_ref": "INV-109",
       "element_id": null,
       "label": "Expenses",
-      "handler_signature": "`prDetailTab(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prDetailTab(`"
     },
     {
       "help_id": "THA-HLP-0093",
       "audit_ref": "INV-110",
       "element_id": null,
       "label": "Worker Wages",
-      "handler_signature": "`prDetailTab(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prDetailTab(`"
     },
     {
       "help_id": "THA-HLP-0094",
       "audit_ref": "INV-111",
       "element_id": null,
       "label": "Tools",
-      "handler_signature": "`prDetailTab(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prDetailTab(`"
     },
     {
       "help_id": "THA-HLP-0095",
       "audit_ref": "INV-112",
       "element_id": null,
       "label": "Food & Other",
-      "handler_signature": "`prDetailTab(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prDetailTab(`"
     },
     {
       "help_id": "THA-HLP-0096",
       "audit_ref": "INV-113",
       "element_id": null,
       "label": "Reports",
-      "handler_signature": "`prDetailTab(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prDetailTab(`"
     },
     {
       "help_id": "THA-HLP-0097",
       "audit_ref": "INV-114",
       "element_id": null,
       "label": "View Financial Report →",
-      "handler_signature": "`prOpenProfitReport()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prOpenProfitReport()`"
     },
     {
       "help_id": "THA-HLP-0098",
       "audit_ref": "INV-115",
       "element_id": null,
       "label": "Save Partner",
-      "handler_signature": "`prSavePerson(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prSavePerson(`"
     },
     {
       "help_id": "THA-HLP-0099",
       "audit_ref": "INV-116",
       "element_id": null,
       "label": "Clear",
-      "handler_signature": "`prResetPerson(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prResetPerson(`"
     },
     {
       "help_id": "THA-HLP-0100",
       "audit_ref": "INV-117",
       "element_id": null,
       "label": "Save Contractor",
-      "handler_signature": "`prSaveContractor()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prSaveContractor()`"
     },
     {
       "help_id": "THA-HLP-0101",
       "audit_ref": "INV-118",
       "element_id": null,
       "label": "Clear",
-      "handler_signature": "`prResetContractor()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prResetContractor()`"
     },
     {
       "help_id": "THA-HLP-0102",
       "audit_ref": "INV-119",
       "element_id": null,
       "label": "Save Worker",
-      "handler_signature": "`prSavePerson(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prSavePerson(`"
     },
     {
       "help_id": "THA-HLP-0103",
       "audit_ref": "INV-120",
       "element_id": null,
       "label": "Clear",
-      "handler_signature": "`prResetPerson(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prResetPerson(`"
     },
     {
       "help_id": "THA-HLP-0104",
       "audit_ref": "INV-121",
       "element_id": null,
       "label": "👤 Partners Manage shared partner records",
-      "handler_signature": "`prPage(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prPage(`"
     },
     {
       "help_id": "THA-HLP-0105",
       "audit_ref": "INV-122",
       "element_id": null,
       "label": "👷 Workers Manage shared worker records",
-      "handler_signature": "`prPage(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prPage(`"
     },
     {
       "help_id": "THA-HLP-0106",
       "audit_ref": "INV-123",
       "element_id": null,
       "label": "🧰 Contractors Manage trades and subcontractors",
-      "handler_signature": "`prPage(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prPage(`"
     },
     {
       "help_id": "THA-HLP-0107",
       "audit_ref": "INV-124",
       "element_id": null,
       "label": "➕ Add Company Register a company and its main contract",
-      "handler_signature": "`coOpenCompanyMode(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coOpenCompanyMode(`"
     },
     {
       "help_id": "THA-HLP-0108",
       "audit_ref": "INV-125",
       "element_id": null,
       "label": "🏢 Companies List Find companies and open their jobs",
-      "handler_signature": "`coOpenCompanyMode(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coOpenCompanyMode(`"
     },
     {
       "help_id": "THA-HLP-0109",
       "audit_ref": "INV-126",
       "element_id": null,
       "label": "📊 Company Project Profit & Loss Review income, costs and results by company and job",
-      "handler_signature": "`prPage(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prPage(`"
     },
     {
       "help_id": "THA-HLP-0110",
       "audit_ref": "INV-127",
       "element_id": null,
       "label": "Save Company",
-      "handler_signature": "`coSaveCompany()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coSaveCompany()`"
     },
     {
       "help_id": "THA-HLP-0111",
       "audit_ref": "INV-128",
       "element_id": null,
       "label": "Clear Form",
-      "handler_signature": "`coResetCompany()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coResetCompany()`"
     },
     {
       "help_id": "THA-HLP-0112",
       "audit_ref": "INV-129",
       "element_id": null,
       "label": "Save Job",
-      "handler_signature": "`coSaveJob()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coSaveJob()`"
     },
     {
       "help_id": "THA-HLP-0113",
       "audit_ref": "INV-130",
       "element_id": null,
       "label": "Clear Job Form",
-      "handler_signature": "`coResetJob()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coResetJob()`"
     },
     {
       "help_id": "THA-HLP-0114",
       "audit_ref": "INV-131",
       "element_id": null,
       "label": "Save Work Package",
-      "handler_signature": "`coSaveSub()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coSaveSub()`"
     },
     {
       "help_id": "THA-HLP-0115",
       "audit_ref": "INV-132",
       "element_id": null,
       "label": "Clear",
-      "handler_signature": "`coResetSub()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coResetSub()`"
     },
     {
       "help_id": "THA-HLP-0116",
       "audit_ref": "INV-133",
       "element_id": null,
       "label": "Add Expense",
-      "handler_signature": "`coAddPackageExpense()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coAddPackageExpense()`"
     },
     {
       "help_id": "THA-HLP-0117",
       "audit_ref": "INV-134",
       "element_id": null,
       "label": "Record Payment",
-      "handler_signature": "`coRecordPayment()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coRecordPayment()`"
     },
     {
       "help_id": "THA-HLP-0118",
       "audit_ref": "INV-136",
       "element_id": null,
       "label": "Confirm payment",
-      "handler_signature": "`confirmInvoicePaid()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`confirmInvoicePaid()`"
     },
     {
       "help_id": "THA-HLP-0119",
       "audit_ref": "INV-137",
       "element_id": null,
       "label": "‹ Previous",
-      "handler_signature": "`changeListPage(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`changeListPage(`"
     },
     {
       "help_id": "THA-HLP-0120",
       "audit_ref": "INV-138",
       "element_id": null,
       "label": "${p}",
-      "handler_signature": "`changeListPage(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`changeListPage(`"
     },
     {
       "help_id": "THA-HLP-0121",
       "audit_ref": "INV-139",
       "element_id": null,
       "label": "=pages?'disabled':''} onclick=\"changeListPage('${key}',${page+1},'${renderer}')\">Next ›",
-      "handler_signature": "`event/property listener`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`event/property listener`"
     },
     {
       "help_id": "THA-HLP-0122",
       "audit_ref": "INV-141",
       "element_id": null,
       "label": "'+esc(expenseCategoryLabel(x,g.id))+'",
-      "handler_signature": "`chooseCategoryFromButton(this)`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`chooseCategoryFromButton(this)`"
     },
     {
       "help_id": "THA-HLP-0123",
       "audit_ref": "INV-142",
       "element_id": null,
       "label": "＋ Add New One",
-      "handler_signature": "`openExpenseCategoryAddScreen(this.dataset.addGroup)`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`openExpenseCategoryAddScreen(this.dataset.addGroup)`"
     },
     {
       "help_id": "THA-HLP-0124",
       "audit_ref": "INV-143",
       "element_id": null,
       "label": "📎 View receipt",
-      "handler_signature": "`openReceiptImage(document.getElementById(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`openReceiptImage(document.getElementById(`"
     },
     {
       "help_id": "THA-HLP-0125",
       "audit_ref": "INV-144",
       "element_id": null,
       "label": "📎",
-      "handler_signature": "`openReceiptImage(this.dataset.receipt)`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`openReceiptImage(this.dataset.receipt)`"
     },
     {
       "help_id": "THA-HLP-0126",
       "audit_ref": "INV-145",
       "element_id": null,
       "label": "OK",
-      "handler_signature": "`closeEntrySavedDialog()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`closeEntrySavedDialog()`"
     },
     {
       "help_id": "THA-HLP-0127",
       "audit_ref": "INV-146",
       "element_id": null,
       "label": "View",
-      "handler_signature": "`viewRecordInvoice(\\`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`viewRecordInvoice(\\`"
     },
     {
       "help_id": "THA-HLP-0128",
       "audit_ref": "INV-147",
       "element_id": null,
       "label": "Delete",
-      "handler_signature": "`deleteInvoice(\\`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`deleteInvoice(\\`"
     },
     {
       "help_id": "THA-HLP-0129",
       "audit_ref": "INV-148",
       "element_id": null,
       "label": "Edit",
-      "handler_signature": "`editEntry(\\`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`editEntry(\\`"
     },
     {
       "help_id": "THA-HLP-0130",
       "audit_ref": "INV-149",
       "element_id": null,
       "label": "Delete",
-      "handler_signature": "`deleteEntry(\\`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`deleteEntry(\\`"
     },
     {
       "help_id": "THA-HLP-0131",
       "audit_ref": "INV-150",
       "element_id": null,
       "label": "View",
-      "handler_signature": "`viewRecordInvoice(\\`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`viewRecordInvoice(\\`"
     },
     {
       "help_id": "THA-HLP-0132",
       "audit_ref": "INV-151",
       "element_id": null,
       "label": "View",
-      "handler_signature": "`viewRecordEntry(\\`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`viewRecordEntry(\\`"
     },
     {
       "help_id": "THA-HLP-0133",
       "audit_ref": "INV-154",
       "element_id": null,
       "label": "↥ Share PDF",
-      "handler_signature": "`shareReportPdf()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`shareReportPdf()`"
     },
     {
       "help_id": "THA-HLP-0134",
       "audit_ref": "INV-155",
       "element_id": "makePdf",
       "label": "Create PDF",
-      "handler_signature": "`createPDF()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`createPDF()`"
     },
     {
       "help_id": "THA-HLP-0135",
       "audit_ref": "INV-156",
       "element_id": "downloadPdf",
       "label": "Download PDF",
-      "handler_signature": "`downloadPDF()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`downloadPDF()`"
     },
     {
       "help_id": "THA-HLP-0136",
       "audit_ref": "INV-157",
       "element_id": "sharePdf",
       "label": "↗ Share PDF",
-      "handler_signature": "`sharePDF()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`sharePDF()`"
     },
     {
       "help_id": "THA-HLP-0137",
       "audit_ref": "INV-159",
       "element_id": null,
       "label": "Edit",
-      "handler_signature": "`editCustomer(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`editCustomer(`"
     },
     {
       "help_id": "THA-HLP-0138",
       "audit_ref": "INV-160",
       "element_id": null,
       "label": "New invoice",
-      "handler_signature": "`newInvoiceForCustomer(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`newInvoiceForCustomer(`"
     },
     {
       "help_id": "THA-HLP-0139",
       "audit_ref": "INV-161",
       "element_id": null,
       "label": "Delete",
-      "handler_signature": "`deleteCustomer(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`deleteCustomer(`"
     },
     {
       "help_id": "THA-HLP-0140",
       "audit_ref": "INV-163",
       "element_id": null,
       "label": "Open print view",
-      "handler_signature": "`openInvoicePrintView()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`openInvoicePrintView()`"
     },
     {
       "help_id": "THA-HLP-0141",
       "audit_ref": "INV-167",
       "element_id": null,
       "label": "↗ Share PDF",
-      "handler_signature": "`thaShareInvoicePdf()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`thaShareInvoicePdf()`"
     },
     {
       "help_id": "THA-HLP-0142",
       "audit_ref": "INV-168",
       "element_id": null,
       "label": "Mark unpaid",
-      "handler_signature": "`markInvoiceUnpaid(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`markInvoiceUnpaid(`"
     },
     {
       "help_id": "THA-HLP-0143",
       "audit_ref": "INV-169",
       "element_id": null,
       "label": "Mark paid",
-      "handler_signature": "`recordInvoicePayment(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`recordInvoicePayment(`"
     },
     {
       "help_id": "THA-HLP-0144",
       "audit_ref": "INV-170",
       "element_id": null,
       "label": "View / PDF",
-      "handler_signature": "`printInvoice(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`printInvoice(`"
     },
     {
       "help_id": "THA-HLP-0145",
       "audit_ref": "INV-171",
       "element_id": null,
       "label": "Edit",
-      "handler_signature": "`editInvoice(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`editInvoice(`"
     },
     {
       "help_id": "THA-HLP-0146",
       "audit_ref": "INV-172",
       "element_id": null,
       "label": "Delete",
-      "handler_signature": "`deleteInvoice(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`deleteInvoice(`"
     },
     {
       "help_id": "THA-HLP-0147",
       "audit_ref": "INV-173",
       "element_id": null,
       "label": "Edit",
-      "handler_signature": "`prEditContractor(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prEditContractor(`"
     },
     {
       "help_id": "THA-HLP-0148",
       "audit_ref": "INV-174",
       "element_id": null,
       "label": "Delete",
-      "handler_signature": "`prDeleteContractor(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prDeleteContractor(`"
     },
     {
       "help_id": "THA-HLP-0149",
       "audit_ref": "INV-175",
       "element_id": null,
       "label": "📎 ${coEsc(c.contractFile.name)}",
-      "handler_signature": "`coOpenAttachment(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coOpenAttachment(`"
     },
     {
       "help_id": "THA-HLP-0150",
       "audit_ref": "INV-176",
       "element_id": null,
       "label": "Edit",
-      "handler_signature": "`coEditCompany(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coEditCompany(`"
     },
     {
       "help_id": "THA-HLP-0151",
       "audit_ref": "INV-177",
       "element_id": null,
       "label": "Open Jobs",
-      "handler_signature": "`coShowJobs(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coShowJobs(`"
     },
     {
       "help_id": "THA-HLP-0152",
       "audit_ref": "INV-178",
       "element_id": null,
       "label": "Deactivate",
-      "handler_signature": "`coDeleteCompany(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coDeleteCompany(`"
     },
     {
       "help_id": "THA-HLP-0153",
       "audit_ref": "INV-179",
       "element_id": null,
       "label": "Edit",
-      "handler_signature": "`coEditJob(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coEditJob(`"
     },
     {
       "help_id": "THA-HLP-0154",
       "audit_ref": "INV-180",
       "element_id": null,
       "label": "Work packages",
-      "handler_signature": "`coShowPackages(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coShowPackages(`"
     },
     {
       "help_id": "THA-HLP-0155",
       "audit_ref": "INV-181",
       "element_id": null,
       "label": "Payments",
-      "handler_signature": "`coShowPayments(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coShowPayments(`"
     },
     {
       "help_id": "THA-HLP-0156",
       "audit_ref": "INV-182",
       "element_id": null,
       "label": "📎",
-      "handler_signature": "`coOpenAttachment(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coOpenAttachment(`"
     },
     {
       "help_id": "THA-HLP-0157",
       "audit_ref": "INV-183",
       "element_id": null,
       "label": "📎 ${coEsc(p.file.name)}",
-      "handler_signature": "`coOpenAttachment(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coOpenAttachment(`"
     },
     {
       "help_id": "THA-HLP-0158",
       "audit_ref": "INV-184",
       "element_id": null,
       "label": "Edit",
-      "handler_signature": "`coEditSub(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coEditSub(`"
     },
     {
       "help_id": "THA-HLP-0159",
       "audit_ref": "INV-185",
       "element_id": null,
       "label": "Financials",
-      "handler_signature": "`coShowPackageFinance(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coShowPackageFinance(`"
     },
     {
       "help_id": "THA-HLP-0160",
       "audit_ref": "INV-186",
       "element_id": null,
       "label": "Delete",
-      "handler_signature": "`coDeleteSub(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coDeleteSub(`"
     },
     {
       "help_id": "THA-HLP-0161",
       "audit_ref": "INV-187",
       "element_id": null,
       "label": "📎 ${coEsc(e.file.name)}",
-      "handler_signature": "`coOpenPackageExpense(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coOpenPackageExpense(`"
     },
     {
       "help_id": "THA-HLP-0162",
       "audit_ref": "INV-188",
       "element_id": null,
       "label": "Delete",
-      "handler_signature": "`coDeletePackageExpense(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coDeletePackageExpense(`"
     },
     {
       "help_id": "THA-HLP-0163",
       "audit_ref": "INV-189",
       "element_id": null,
       "label": "📎 Open",
-      "handler_signature": "`coOpenAttachment(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`coOpenAttachment(`"
     },
     {
       "help_id": "THA-HLP-0164",
       "audit_ref": "INV-192",
       "element_id": null,
       "label": "Remove",
-      "handler_signature": "`this.closest(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`this.closest(`"
     },
     {
       "help_id": "THA-HLP-0165",
       "audit_ref": "INV-193",
       "element_id": "prSaveSubEditBtn",
       "label": "Save Changes",
-      "handler_signature": "`prSaveSubprojectEdit()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prSaveSubprojectEdit()`"
     },
     {
       "help_id": "THA-HLP-0166",
       "audit_ref": "INV-194",
       "element_id": null,
       "label": "Edit",
-      "handler_signature": "`prEditUnifiedCost(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prEditUnifiedCost(`"
     },
     {
       "help_id": "THA-HLP-0167",
       "audit_ref": "INV-195",
       "element_id": null,
       "label": "Delete",
-      "handler_signature": "`prDeleteUnifiedCost(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prDeleteUnifiedCost(`"
     },
     {
       "help_id": "THA-HLP-0168",
       "audit_ref": "INV-196",
       "element_id": null,
       "label": "Print / Save PDF",
-      "handler_signature": "`prPrintSubReport()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prPrintSubReport()`"
     },
     {
       "help_id": "THA-HLP-0169",
       "audit_ref": "INV-197",
       "element_id": null,
       "label": "Print / Save PDF",
-      "handler_signature": "`prPrintSubReport()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prPrintSubReport()`"
     },
     {
       "help_id": "THA-HLP-0170",
       "audit_ref": "INV-198",
       "element_id": null,
       "label": "📷 Take a Photo",
-      "handler_signature": "`document.getElementById(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`document.getElementById(`"
     },
     {
       "help_id": "THA-HLP-0171",
       "audit_ref": "INV-199",
       "element_id": "prReceiptRemove",
       "label": "Remove photo",
-      "handler_signature": "`clearProjectReceipt()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`clearProjectReceipt()`"
     },
     {
       "help_id": "THA-HLP-0172",
       "audit_ref": "INV-200",
       "element_id": null,
       "label": "${isIncome?'Save Receipt':'Save Expense'}",
-      "handler_signature": "`prSaveSubFinanceRow(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prSaveSubFinanceRow(`"
     },
     {
       "help_id": "THA-HLP-0173",
       "audit_ref": "INV-201",
       "element_id": null,
       "label": "Clear",
-      "handler_signature": "`prClearSubFinanceRow()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prClearSubFinanceRow()`"
     },
     {
       "help_id": "THA-HLP-0174",
       "audit_ref": "INV-202",
       "element_id": null,
       "label": "🧾 Customer receipt",
-      "handler_signature": "`prOpenCustomerPaymentReceipt(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prOpenCustomerPaymentReceipt(`"
     },
     {
       "help_id": "THA-HLP-0175",
       "audit_ref": "INV-203",
       "element_id": null,
       "label": "Edit",
-      "handler_signature": "`prEditSubFinanceRow(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prEditSubFinanceRow(`"
     },
     {
       "help_id": "THA-HLP-0176",
       "audit_ref": "INV-204",
       "element_id": null,
       "label": "Delete",
-      "handler_signature": "`prDeleteSubFinanceRow(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prDeleteSubFinanceRow(`"
     },
     {
       "help_id": "THA-HLP-0177",
       "audit_ref": "INV-205",
       "element_id": "receiptPdfButton",
       "label": "📄 Generate PDF / Print",
-      "handler_signature": "`receiptPrint()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`receiptPrint()`"
     },
     {
       "help_id": "THA-HLP-0178",
       "audit_ref": "INV-207",
       "element_id": null,
       "label": "↗ Share PDF",
-      "handler_signature": "`shareReceiptPdf()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`shareReceiptPdf()`"
     },
     {
       "help_id": "THA-HLP-0179",
       "audit_ref": "INV-208",
       "element_id": null,
       "label": "Print",
-      "handler_signature": "`window.open(window.receiptPdfUrl,`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`window.open(window.receiptPdfUrl,`"
     },
     {
       "help_id": "THA-HLP-0180",
       "audit_ref": "INV-210",
       "element_id": null,
       "label": "Generate PDF",
-      "handler_signature": "`prRunSubReportPrint()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prRunSubReportPrint()`"
     },
     {
       "help_id": "THA-HLP-0181",
       "audit_ref": "INV-212",
       "element_id": null,
       "label": "Generate PDF",
-      "handler_signature": "`prRunSubReportPrint()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prRunSubReportPrint()`"
     },
     {
       "help_id": "THA-HLP-0182",
       "audit_ref": "INV-213",
       "element_id": null,
       "label": "↗ Share PDF",
-      "handler_signature": "`prShareSubReportPDF()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prShareSubReportPDF()`"
     },
     {
       "help_id": "THA-HLP-0183",
       "audit_ref": "INV-214",
       "element_id": null,
       "label": "×",
-      "handler_signature": "`prRestoreReportPreview()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prRestoreReportPreview()`"
     },
     {
       "help_id": "THA-HLP-0184",
       "audit_ref": "INV-216",
       "element_id": null,
       "label": "Income",
-      "handler_signature": "`prRenderSubFinance(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prRenderSubFinance(`"
     },
     {
       "help_id": "THA-HLP-0185",
       "audit_ref": "INV-217",
       "element_id": null,
       "label": "Expenses",
-      "handler_signature": "`prRenderSubFinance(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prRenderSubFinance(`"
     },
     {
       "help_id": "THA-HLP-0186",
       "audit_ref": "INV-218",
       "element_id": null,
       "label": "Report",
-      "handler_signature": "`prRenderSubFinance(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prRenderSubFinance(`"
     },
     {
       "help_id": "THA-HLP-0187",
       "audit_ref": "INV-219",
       "element_id": null,
       "label": "＋ Add Sub-project",
-      "handler_signature": "`prOpenSubprojectForm()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prOpenSubprojectForm()`"
     },
     {
       "help_id": "THA-HLP-0188",
       "audit_ref": "INV-220",
       "element_id": null,
       "label": "Edit",
-      "handler_signature": "`event.stopPropagation();prOpenSubproject(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`event.stopPropagation();prOpenSubproject(`"
     },
     {
       "help_id": "THA-HLP-0189",
       "audit_ref": "INV-221",
       "element_id": null,
       "label": "＋ Add Sub-project",
-      "handler_signature": "`prEnableSubprojectsAndAdd()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prEnableSubprojectsAndAdd()`"
     },
     {
       "help_id": "THA-HLP-0190",
       "audit_ref": "INV-223",
       "element_id": "prAddSubprojectBtn",
       "label": "＋ Add Sub-project",
-      "handler_signature": "`prAddSubproject()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prAddSubproject()`"
     },
     {
       "help_id": "THA-HLP-0191",
       "audit_ref": "INV-224",
       "element_id": null,
       "label": "Print / Save PDF",
-      "handler_signature": "`window.print()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`window.print()`"
     },
     {
       "help_id": "THA-HLP-0192",
       "audit_ref": "INV-225",
       "element_id": null,
       "label": "📋 Worker List — Choose Worker",
-      "handler_signature": "`prOpenWorkerListPicker()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prOpenWorkerListPicker()`"
     },
     {
       "help_id": "THA-HLP-0193",
       "audit_ref": "INV-226",
       "element_id": null,
       "label": "Record",
-      "handler_signature": "`prSaveRow(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prSaveRow(`"
     },
     {
       "help_id": "THA-HLP-0194",
       "audit_ref": "INV-227",
       "element_id": null,
       "label": "Clear",
-      "handler_signature": "`prClearRowForm()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prClearRowForm()`"
     },
     {
       "help_id": "THA-HLP-0195",
       "audit_ref": "INV-228",
       "element_id": null,
       "label": "Edit",
-      "handler_signature": "`prEditRow(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prEditRow(`"
     },
     {
       "help_id": "THA-HLP-0196",
       "audit_ref": "INV-229",
       "element_id": null,
       "label": "Delete",
-      "handler_signature": "`prDeleteRow(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prDeleteRow(`"
     },
     {
       "help_id": "THA-HLP-0197",
       "audit_ref": "INV-231",
       "element_id": "${prEscape(w.id)}",
       "label": "${prEscape(w.name\\",
-      "handler_signature": "\\",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "\\"
     },
     {
       "help_id": "THA-HLP-0198",
       "audit_ref": "INV-232",
       "element_id": null,
       "label": "Done",
-      "handler_signature": "`prCloseWorkerListPicker()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prCloseWorkerListPicker()`"
     },
     {
       "help_id": "THA-HLP-0199",
       "audit_ref": "INV-233",
       "element_id": null,
       "label": "Manage Workers",
-      "handler_signature": "`prPage(\\`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prPage(\\`"
     },
     {
       "help_id": "THA-HLP-0200",
       "audit_ref": "INV-234",
       "element_id": null,
       "label": "Edit",
-      "handler_signature": "`prEditPerson(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prEditPerson(`"
     },
     {
       "help_id": "THA-HLP-0201",
       "audit_ref": "INV-235",
       "element_id": null,
       "label": "Delete",
-      "handler_signature": "`prDeletePerson(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prDeletePerson(`"
     },
     {
       "help_id": "THA-HLP-0202",
       "audit_ref": "INV-236",
       "element_id": null,
       "label": "Edit",
-      "handler_signature": "`prOpenReconciliationCost(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prOpenReconciliationCost(`"
     },
     {
       "help_id": "THA-HLP-0203",
       "audit_ref": "INV-237",
       "element_id": null,
       "label": "Delete",
-      "handler_signature": "`prOpenReconciliationCost(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prOpenReconciliationCost(`"
     },
     {
       "help_id": "THA-HLP-0204",
       "audit_ref": "INV-238",
       "element_id": null,
       "label": "Generate Full Project Report PDF →",
-      "handler_signature": "`prPrintFullProjectReport(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`prPrintFullProjectReport(`"
     },
     {
       "help_id": "THA-HLP-0205",
       "audit_ref": "INV-239",
       "element_id": null,
       "label": "Open",
-      "handler_signature": "`ctLoad(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`ctLoad(`"
     },
     {
       "help_id": "THA-HLP-0206",
       "audit_ref": "INV-240",
       "element_id": null,
       "label": "Print / PDF",
-      "handler_signature": "`ctPrintSaved(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`ctPrintSaved(`"
     },
     {
       "help_id": "THA-HLP-0207",
       "audit_ref": "INV-241",
       "element_id": null,
       "label": "Delete",
-      "handler_signature": "`ctDelete(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`ctDelete(`"
     },
     {
       "help_id": "THA-HLP-0208",
       "audit_ref": "INV-242",
       "element_id": "generateBtn",
       "label": "${L.generate}",
-      "handler_signature": "`ctGeneratePDF()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`ctGeneratePDF()`"
     },
     {
       "help_id": "THA-HLP-0209",
       "audit_ref": "INV-243",
       "element_id": "printBtn",
       "label": "Open PDF",
-      "handler_signature": "`ctPrintPDF()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`ctPrintPDF()`"
     },
     {
       "help_id": "THA-HLP-0210",
       "audit_ref": "INV-244",
       "element_id": "shareBtn",
       "label": "↗ Share PDF",
-      "handler_signature": "`ctSharePDF()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`ctSharePDF()`"
     },
     {
       "help_id": "THA-HLP-0211",
       "audit_ref": "INV-246",
       "element_id": null,
       "label": "${L.back}",
-      "handler_signature": "`history.back()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`history.back()`"
     },
     {
       "help_id": "THA-HLP-0212",
       "audit_ref": "INV-249",
       "element_id": null,
       "label": "Use full image",
-      "handler_signature": "`useFullReceiptImage()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`useFullReceiptImage()`"
     },
     {
       "help_id": "THA-HLP-0213",
       "audit_ref": "INV-250",
       "element_id": null,
       "label": "Save cropped photo",
-      "handler_signature": "`applyReceiptCrop()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`applyReceiptCrop()`"
     },
     {
       "help_id": "THA-HLP-0214",
       "audit_ref": "INV-251",
       "element_id": null,
       "label": "Copy version details",
-      "handler_signature": "`copyMonitorVersionInfo()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`copyMonitorVersionInfo()`"
     },
     {
       "help_id": "THA-HLP-0215",
       "audit_ref": "INV-252",
       "element_id": null,
       "label": "View details",
-      "handler_signature": "`showMonitorEvent(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`showMonitorEvent(`"
     },
     {
       "help_id": "THA-HLP-0216",
       "audit_ref": "INV-253",
       "element_id": null,
       "label": "‹ Previous",
-      "handler_signature": "`monitorPage--;renderMonitor()`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`monitorPage--;renderMonitor()`"
     },
     {
       "help_id": "THA-HLP-0217",
       "audit_ref": "INV-254",
       "element_id": null,
       "label": "${monitorPage} / ${pages}",
-      "handler_signature": "`event/property listener`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`event/property listener`"
     },
     {
       "help_id": "THA-HLP-0218",
       "audit_ref": "INV-255",
       "element_id": null,
       "label": "=pages?'disabled':''} onclick=\"monitorPage++;renderMonitor()\">Next ›",
-      "handler_signature": "`event/property listener`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`event/property listener`"
     },
     {
       "help_id": "THA-HLP-0219",
       "audit_ref": "INV-256",
       "element_id": null,
       "label": "(label not statically available)",
-      "handler_signature": "`GenUINotUsed`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`GenUINotUsed`"
     },
     {
       "help_id": "THA-HLP-0220",
       "audit_ref": "INV-257",
       "element_id": "monitorCopyEvent",
       "label": "Copy JSON",
-      "handler_signature": "`event/property listener`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`event/property listener`"
     },
     {
       "help_id": "THA-HLP-0221",
       "audit_ref": "INV-259",
       "element_id": null,
       "label": "Open saved report",
-      "handler_signature": "`report188Open(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`report188Open(`"
     },
     {
       "help_id": "THA-HLP-0222",
       "audit_ref": "INV-260",
       "element_id": null,
       "label": "Print / PDF",
-      "handler_signature": "`report188Print(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`report188Print(`"
     },
     {
       "help_id": "THA-HLP-0223",
       "audit_ref": "INV-261",
       "element_id": null,
       "label": "Update status",
-      "handler_signature": "`report188RenameStatus(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`report188RenameStatus(`"
     },
     {
       "help_id": "THA-HLP-0224",
       "audit_ref": "INV-262",
       "element_id": null,
       "label": "${n.read?'○':'●'} ${esc(n.title)} ${new Date(n.createdAt).toLocaleDateString('en-GB')} ›",
-      "handler_signature": "`report188OpenNotification(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`report188OpenNotification(`"
     },
     {
       "help_id": "THA-HLP-0225",
       "audit_ref": "INV-263",
       "element_id": null,
       "label": "Mark as ${n.read?'unread':'read'}",
-      "handler_signature": "`report188ToggleReadFromDetail(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`report188ToggleReadFromDetail(`"
     },
     {
       "help_id": "THA-HLP-0226",
       "audit_ref": "INV-264",
       "element_id": null,
       "label": "Print / Save PDF",
-      "handler_signature": "`report188Print(`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`report188Print(`"
     },
     {
       "help_id": "THA-HLP-0227",
       "audit_ref": "INV-266",
       "element_id": "eiwClose",
       "label": "Return to form",
-      "handler_signature": "`event/property listener`",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "`event/property listener`"
     },
     {
       "help_id": "THA-HLP-0228",
       "audit_ref": "INV-267",
       "element_id": "`.unified-dropdown-trigger`",
       "label": "متن گزینه انتخاب‌شده / placeholder",
-      "handler_signature": "باز و بسته کردن فهرست انتخاب بومی‌شده از روی یک select موجود",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "باز و بسته کردن فهرست انتخاب بومی‌شده از روی یک select موجود"
     },
     {
       "help_id": "THA-HLP-0229",
       "audit_ref": "INV-268",
       "element_id": "`.unified-dropdown-option`",
       "label": "متن هر گزینه از select",
-      "handler_signature": "انتخاب مقدار و dispatch رویداد change؛ برای هر گزینه نمونه جداگانه ساخته می‌شود",
       "status": "CONTENT_PENDING",
-      "translations": {}
+      "translations": {},
+      "handler_or_behavior": "انتخاب مقدار و dispatch رویداد change؛ برای هر گزینه نمونه جداگانه ساخته می‌شود"
     }
   ]
 }
