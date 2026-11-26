@@ -429,8 +429,97 @@
       "audit_ref": "INV-006",
       "element_id": null,
       "label": "＋ New Contract",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_COMPLETE",
+      "translations": {
+        "en": {
+          "purpose": "Start a new contract or quotation draft.",
+          "when": "Use this when you need to prepare a new customer agreement or price offer.",
+          "how": "In Contract Management, select New Contract. Choose the document type and complete the relevant fields in the editor.",
+          "inputs": "Enter the customer or contract text at minimum before saving. Add the agreed scope, price, dates and terms where known.",
+          "result": "A blank contract editor opens and is ready for you to complete.",
+          "notes": "This action starts an unsaved draft only. It does not create a saved contract until you use Save Contract."
+        },
+        "fa": {
+          "purpose": "شروع پیش‌نویس یک قرارداد یا پیشنهاد قیمت جدید.",
+          "when": "وقتی می‌خواهید برای مشتری توافق‌نامه یا پیشنهاد قیمت تازه‌ای آماده کنید از این گزینه استفاده کنید.",
+          "how": "در بخش Contract Management گزینه New Contract را انتخاب کنید. نوع سند را مشخص کرده و فیلدهای لازم را تکمیل کنید.",
+          "inputs": "برای ذخیره، دست‌کم نام مشتری یا متن قرارداد را وارد کنید. دامنه کار، قیمت، تاریخ‌ها و شرایط توافق‌شده را در صورت مشخص بودن اضافه کنید.",
+          "result": "ویرایشگر خالی قرارداد باز می‌شود و آماده تکمیل است.",
+          "notes": "این گزینه فقط پیش‌نویس ذخیره‌نشده را آغاز می‌کند. تا زمانی که Save Contract را نزنید، قراردادی ذخیره نمی‌شود."
+        },
+        "ar": {
+          "purpose": "بدء مسودة عقد أو عرض سعر جديد.",
+          "when": "استخدمه عندما تحتاج إلى إعداد اتفاقية جديدة مع عميل أو عرض سعر.",
+          "how": "في Contract Management اختر New Contract. حدد نوع المستند وأكمل الحقول المناسبة في المحرر.",
+          "inputs": "أدخل اسم العميل أو نص العقد على الأقل قبل الحفظ. أضف نطاق العمل والسعر والتواريخ والشروط المتفق عليها عندما تكون معروفة.",
+          "result": "يفتح محرر عقد فارغ لتعبئته.",
+          "notes": "ينشئ هذا الإجراء مسودة غير محفوظة فقط. لا يُحفظ العقد حتى تختار Save Contract."
+        },
+        "ckb": {
+          "purpose": "دەستپێکردنی ڕەشنووسی گرێبەست یان پێشنیاری نرخی نوێ.",
+          "when": "کاتێک پێویستت بە ئامادەکردنی ڕێککەوتنێکی نوێ یان پێشنیاری نرخ بۆ کڕیارێک هەیە، بەکاریبهێنە.",
+          "how": "لە Contract Management، New Contract هەڵبژێرە. جۆری بەڵگەنامە دیاری بکە و خانە پێویستەکان پڕ بکەرەوە.",
+          "inputs": "پێش پاشەکەوتکردن لانیکەم ناوی کڕیار یان دەقی گرێبەست بنووسە. وردەکاری کار، نرخ، بەروار و مەرجە ڕێککەوتووەکان زیاد بکە ئەگەر دیارن.",
+          "result": "دەستکاریکەری گرێبەستی بەتاڵ دەکرێتەوە بۆ پڕکردنەوە.",
+          "notes": "ئەم کردارە تەنها ڕەشنووسێکی پاشەکەوتنەکراو دەست پێ دەکات. تا Save Contract هەڵنەبژێریت گرێبەستێک پاشەکەوت ناکرێت."
+        },
+        "kmr": {
+          "purpose": "Dest bi nivîsekê nû ya peymanê an pêşniyara bihayê bike.",
+          "when": "Dema ku ji bo xerîdarekê peymanek an pêşniyara bihayê nû amade dikî, vê bikar bîne.",
+          "how": "Di Contract Management de New Contract hilbijêre. Cûreya belgeyê hilbijêre û qadên pêwîst dagire.",
+          "inputs": "Berî tomarkirinê herî kêm navê xerîdar an nivîsa peymanê binivîse. Kapsa kar, bihayê, tarîx û şertên lihevhatî zêde bike dema ku têne zanîn.",
+          "result": "Edîtora peymanê ya vala ji bo dagirtinê vedibe.",
+          "notes": "Ev kiryar tenê nivîsekê nehatiye tomarkirin dest pê dike. Heta Save Contract hilbijêrî peyman nayê tomarkirin."
+        },
+        "tr": {
+          "purpose": "Yeni bir sözleşme veya teklif taslağı başlatır.",
+          "when": "Yeni bir müşteri anlaşması ya da fiyat teklifi hazırlamanız gerektiğinde kullanın.",
+          "how": "Contract Management bölümünde New Contract seçeneğini seçin. Belge türünü belirleyin ve ilgili alanları doldurun.",
+          "inputs": "Kaydetmeden önce en azından müşteri adını veya sözleşme metnini girin. Biliniyorsa iş kapsamını, fiyatı, tarihleri ve kararlaştırılan şartları ekleyin.",
+          "result": "Doldurulmaya hazır boş sözleşme düzenleyicisi açılır.",
+          "notes": "Bu işlem yalnızca kaydedilmemiş bir taslak başlatır. Save Contract seçilene kadar sözleşme kaydedilmez."
+        },
+        "pl": {
+          "purpose": "Rozpoczyna nowy projekt umowy lub oferty cenowej.",
+          "when": "Użyj tej opcji, gdy chcesz przygotować nową umowę z klientem lub ofertę cenową.",
+          "how": "W Contract Management wybierz New Contract. Wskaż typ dokumentu i wypełnij odpowiednie pola edytora.",
+          "inputs": "Przed zapisaniem podaj co najmniej nazwę klienta lub treść umowy. Dodaj znany zakres prac, cenę, daty i uzgodnione warunki.",
+          "result": "Otworzy się pusty edytor umowy gotowy do uzupełnienia.",
+          "notes": "Ta czynność rozpoczyna jedynie niezapisany projekt. Umowa nie zostanie zapisana, dopóki nie wybierzesz Save Contract."
+        },
+        "ur": {
+          "purpose": "نئے معاہدے یا قیمت کی پیشکش کا مسودہ شروع کرتا ہے۔",
+          "when": "جب آپ کو کسی نئے گاہک کے لیے معاہدہ یا قیمت کی پیشکش تیار کرنی ہو تو اسے استعمال کریں۔",
+          "how": "Contract Management میں New Contract منتخب کریں۔ دستاویز کی قسم چنیں اور ایڈیٹر کے متعلقہ خانے پُر کریں۔",
+          "inputs": "محفوظ کرنے سے پہلے کم از کم گاہک کا نام یا معاہدے کا متن درج کریں۔ معلوم ہونے کی صورت میں کام کی تفصیل، قیمت، تاریخیں اور طے شدہ شرائط شامل کریں۔",
+          "result": "خالی معاہدہ ایڈیٹر کھلتا ہے اور پُر کرنے کے لیے تیار ہوتا ہے۔",
+          "notes": "یہ عمل صرف غیر محفوظ شدہ مسودہ شروع کرتا ہے۔ Save Contract منتخب کیے بغیر معاہدہ محفوظ نہیں ہوتا۔"
+        },
+        "pa": {
+          "purpose": "ਨਵੇਂ ਇਕਰਾਰਨਾਮੇ ਜਾਂ ਕੀਮਤ ਪੇਸ਼ਕਸ਼ ਦਾ ਮਸੌਦਾ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਨਵੇਂ ਗਾਹਕ ਲਈ ਸਮਝੌਤਾ ਜਾਂ ਕੀਮਤ ਪੇਸ਼ਕਸ਼ ਤਿਆਰ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Contract Management ਵਿੱਚ New Contract ਚੁਣੋ। ਦਸਤਾਵੇਜ਼ ਦੀ ਕਿਸਮ ਚੁਣੋ ਅਤੇ ਐਡੀਟਰ ਦੇ ਲੋੜੀਂਦੇ ਖੇਤਰ ਭਰੋ।",
+          "inputs": "ਸੇਵ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਘੱਟੋ-ਘੱਟ ਗਾਹਕ ਦਾ ਨਾਮ ਜਾਂ ਇਕਰਾਰਨਾਮੇ ਦਾ ਪਾਠ ਦਰਜ ਕਰੋ। ਪਤਾ ਹੋਣ 'ਤੇ ਕੰਮ ਦਾ ਘੇਰਾ, ਕੀਮਤ, ਮਿਤੀਆਂ ਅਤੇ ਸਹਿਮਤ ਸ਼ਰਤਾਂ ਜੋੜੋ।",
+          "result": "ਖਾਲੀ ਇਕਰਾਰਨਾਮਾ ਐਡੀਟਰ ਭਰਨ ਲਈ ਖੁੱਲ੍ਹਦਾ ਹੈ।",
+          "notes": "ਇਹ ਕਾਰਵਾਈ ਸਿਰਫ਼ ਨਾ-ਸੰਭਾਲਿਆ ਮਸੌਦਾ ਸ਼ੁਰੂ ਕਰਦੀ ਹੈ। Save Contract ਚੁਣਨ ਤੱਕ ਇਕਰਾਰਨਾਮਾ ਸੇਵ ਨਹੀਂ ਹੁੰਦਾ।"
+        },
+        "prs": {
+          "purpose": "پیش‌نویس یک قرارداد یا پیشنهاد قیمت جدید را آغاز می‌کند.",
+          "when": "هنگامی از این گزینه استفاده کنید که می‌خواهید توافق‌نامه یا پیشنهاد قیمت تازه‌ای برای مشتری تهیه کنید.",
+          "how": "در Contract Management گزینه New Contract را انتخاب کنید. نوع سند را مشخص کرده و خانه‌های مربوط را تکمیل کنید.",
+          "inputs": "پیش از ذخیره، دست‌کم نام مشتری یا متن قرارداد را وارد کنید. در صورت مشخص بودن، دامنه کار، قیمت، تاریخ‌ها و شرایط توافق‌شده را اضافه کنید.",
+          "result": "ویرایشگر خالی قرارداد برای تکمیل باز می‌شود.",
+          "notes": "این کار فقط یک پیش‌نویس ذخیره‌نشده را آغاز می‌کند. تا انتخاب Save Contract، قرارداد ذخیره نمی‌شود."
+        },
+        "ps": {
+          "purpose": "د نوي قرارداد یا د بیې د وړاندیز مسوده پیلوي.",
+          "when": "کله چې د نوي پېرودونکي لپاره تړون یا د بیې وړاندیز چمتو کوئ، دا وکاروئ.",
+          "how": "په Contract Management کې New Contract وټاکئ. د سند ډول وټاکئ او اړوندې خانې ډکې کړئ.",
+          "inputs": "تر خوندي کولو مخکې لږ تر لږه د پېرودونکي نوم یا د قرارداد متن ولیکئ. که معلوم وي د کار ساحه، بیه، نېټې او منل شوي شرطونه ورزیات کړئ.",
+          "result": "د قرارداد تش سمونګر د ډکولو لپاره پرانیستل کېږي.",
+          "notes": "دا کړنه یوازې نه‌خوندي شوې مسوده پیلوي. تر هغه چې Save Contract ونه ټاکئ، قرارداد نه خوندي کېږي."
+        }
+      },
       "handler_or_behavior": "`ctNew()`"
     },
     {
@@ -438,8 +527,97 @@
       "audit_ref": "INV-007",
       "element_id": null,
       "label": "💾 Save Contract",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_COMPLETE",
+      "translations": {
+        "en": {
+          "purpose": "Save the contract or quotation currently being edited.",
+          "when": "Use this after entering or changing the document details and before leaving the editor.",
+          "how": "Complete the required customer or contract text, then select Save Contract. Wait for the success message.",
+          "inputs": "At least a customer name or non-empty contract text is required. Include any agreed price, scope, dates and payment terms that apply.",
+          "result": "The document is written to the contracts store and the app reports that it was saved and verified in IndexedDB.",
+          "notes": "If validation fails, the app asks for the missing minimum information. If storage fails, check the error; do not assume the document was saved."
+        },
+        "fa": {
+          "purpose": "ذخیره قرارداد یا پیشنهاد قیمتی که در حال ویرایش آن هستید.",
+          "when": "پس از واردکردن یا تغییر جزئیات سند و پیش از خروج از ویرایشگر از این گزینه استفاده کنید.",
+          "how": "اطلاعات لازم مشتری یا متن قرارداد را تکمیل کنید و سپس Save Contract را انتخاب کنید. منتظر پیام موفقیت بمانید.",
+          "inputs": "حداقل نام مشتری یا متن غیرخالی قرارداد لازم است. قیمت، دامنه کار، تاریخ‌ها و شرایط پرداخت توافق‌شده را در صورت وجود وارد کنید.",
+          "result": "سند در فضای ذخیره قراردادها ثبت می‌شود و برنامه پیام ذخیره و تأیید در IndexedDB را نمایش می‌دهد.",
+          "notes": "اگر اعتبارسنجی ناموفق باشد، برنامه حداقل اطلاعات ناقص را درخواست می‌کند. اگر ذخیره‌سازی شکست خورد، خطا را بررسی کنید و فرض نکنید سند ذخیره شده است."
+        },
+        "ar": {
+          "purpose": "حفظ العقد أو عرض السعر الذي يتم تحريره حالياً.",
+          "when": "استخدمه بعد إدخال تفاصيل المستند أو تعديلها وقبل مغادرة المحرر.",
+          "how": "أكمل بيانات العميل المطلوبة أو نص العقد، ثم اختر Save Contract وانتظر رسالة النجاح.",
+          "inputs": "يلزم على الأقل اسم العميل أو نص عقد غير فارغ. أدرج السعر ونطاق العمل والتواريخ وشروط الدفع المتفق عليها عند انطباقها.",
+          "result": "يُكتب المستند في مخزن العقود وتعرض التطبيق رسالة تفيد بأنه حُفظ وتم التحقق منه في IndexedDB.",
+          "notes": "إذا فشل التحقق، سيطلب التطبيق الحد الأدنى من المعلومات الناقصة. وإذا فشل التخزين، افحص الخطأ ولا تفترض أن المستند حُفظ."
+        },
+        "ckb": {
+          "purpose": "پاشەکەوتکردنی ئەو گرێبەست یان پێشنیاری نرخەی ئێستا دەستکاری دەکرێت.",
+          "when": "دوای نووسین یان گۆڕینی وردەکارییەکانی بەڵگەنامە و پێش دەرچوون لە دەستکاریکەر بەکاریبهێنە.",
+          "how": "زانیاری پێویستی کڕیار یان دەقی گرێبەست تەواو بکە، پاشان Save Contract هەڵبژێرە. چاوەڕێی پەیامی سەرکەوتن بکە.",
+          "inputs": "لانیکەم ناوی کڕیار یان دەقی گرێبەستی بەتاڵ نەبێت پێویستە. نرخ، وردەکاری کار، بەروار و مەرجی پارەدان زیاد بکە ئەگەر هەیە.",
+          "result": "بەڵگەنامەکە لە شوێنی پاشەکەوتی گرێبەستەکان تۆمار دەکرێت و بەرنامە پەیامی پاشەکەوت و پشتڕاستکردنەوەی IndexedDB پیشان دەدات.",
+          "notes": "ئەگەر پشکنین سەرکەوتوو نەبوو، بەرنامە زانیاری کەمی داواکراو دەخوازێت. ئەگەر پاشەکەوتکردن شکستی هێنا، هەڵەکە بپشکنە و وا مەزانە بەڵگەنامەکە پاشەکەوت بووە."
+        },
+        "kmr": {
+          "purpose": "Peyman an pêşniyara bihayê ya ku niha tê sererastkirin tomar bike.",
+          "when": "Piştî ku hûrguliyên belgeyê têkevî an biguherînî û berî ku ji edîtorê derkevî vê bikar bîne.",
+          "how": "Agahiyên pêwîst ên xerîdar an nivîsa peymanê temam bike, paşê Save Contract hilbijêre. Li benda peyama serkeftinê bimîne.",
+          "inputs": "Herî kêm navê xerîdar an nivîsek peymanê ya ne vala pêwîst e. Bihayê, qada kar, tarîx û şertên dayînê yên lihevhatî zêde bike dema ku derbasdar bin.",
+          "result": "Belge di depoya peymanan de tê nivîsandin û sepan dibêje ku di IndexedDB de hat tomarkirin û piştrastkirin.",
+          "notes": "Ger kontrola rastiyê bi ser nekeve, sepan agahiyên kêm dixwaze. Ger tomarkirin bi ser nekeve, çewtiyê kontrol bike; texmîn neke ku belge hat tomarkirin."
+        },
+        "tr": {
+          "purpose": "Düzenlenmekte olan sözleşme veya teklifi kaydeder.",
+          "when": "Belge ayrıntılarını girdikten veya değiştirdikten sonra ve düzenleyiciden ayrılmadan önce kullanın.",
+          "how": "Gerekli müşteri bilgilerini veya sözleşme metnini tamamlayın, ardından Save Contract seçeneğini seçin. Başarı mesajını bekleyin.",
+          "inputs": "En az bir müşteri adı veya boş olmayan sözleşme metni gerekir. Varsa kararlaştırılan fiyatı, iş kapsamını, tarihleri ve ödeme şartlarını ekleyin.",
+          "result": "Belge sözleşme deposuna yazılır ve uygulama IndexedDB'de kaydedilip doğrulandığını bildiren mesaj gösterir.",
+          "notes": "Doğrulama başarısız olursa uygulama eksik asgari bilgiyi ister. Depolama başarısızsa hatayı kontrol edin; belgenin kaydedildiğini varsaymayın."
+        },
+        "pl": {
+          "purpose": "Zapisuje aktualnie edytowaną umowę lub ofertę.",
+          "when": "Użyj tej opcji po wprowadzeniu lub zmianie danych dokumentu, przed opuszczeniem edytora.",
+          "how": "Uzupełnij wymagane dane klienta lub treść umowy, a następnie wybierz Save Contract. Poczekaj na komunikat o powodzeniu.",
+          "inputs": "Wymagana jest co najmniej nazwa klienta lub niepusta treść umowy. Dodaj uzgodnioną cenę, zakres prac, daty i warunki płatności, jeśli mają zastosowanie.",
+          "result": "Dokument zostaje zapisany w magazynie umów, a aplikacja informuje o zapisie i weryfikacji w IndexedDB.",
+          "notes": "Jeśli walidacja się nie powiedzie, aplikacja poprosi o minimalne brakujące informacje. Jeśli zapis się nie powiedzie, sprawdź błąd; nie zakładaj, że dokument został zapisany."
+        },
+        "ur": {
+          "purpose": "موجودہ ترمیم شدہ معاہدہ یا قیمت کی پیشکش محفوظ کرتا ہے۔",
+          "when": "دستاویز کی تفصیلات درج یا تبدیل کرنے کے بعد اور ایڈیٹر چھوڑنے سے پہلے اسے استعمال کریں۔",
+          "how": "گاہک کی مطلوبہ معلومات یا معاہدے کا متن مکمل کریں، پھر Save Contract منتخب کریں۔ کامیابی کے پیغام کا انتظار کریں۔",
+          "inputs": "کم از کم گاہک کا نام یا خالی نہ ہونے والا معاہدے کا متن ضروری ہے۔ جہاں لاگو ہو طے شدہ قیمت، کام کی تفصیل، تاریخیں اور ادائیگی کی شرائط شامل کریں۔",
+          "result": "دستاویز معاہدوں کے اسٹور میں لکھی جاتی ہے اور ایپ بتاتی ہے کہ اسے IndexedDB میں محفوظ اور تصدیق کیا گیا ہے۔",
+          "notes": "اگر جانچ ناکام ہو تو ایپ کم از کم گم شدہ معلومات مانگتی ہے۔ اگر اسٹوریج ناکام ہو تو خرابی دیکھیں؛ یہ فرض نہ کریں کہ دستاویز محفوظ ہوگئی ہے۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਸੋਧੇ ਜਾ ਰਹੇ ਇਕਰਾਰਨਾਮੇ ਜਾਂ ਕੀਮਤ ਪੇਸ਼ਕਸ਼ ਨੂੰ ਸੇਵ ਕਰਦਾ ਹੈ।",
+          "when": "ਦਸਤਾਵੇਜ਼ ਦੇ ਵੇਰਵੇ ਦਰਜ ਜਾਂ ਬਦਲਣ ਤੋਂ ਬਾਅਦ ਅਤੇ ਐਡੀਟਰ ਛੱਡਣ ਤੋਂ ਪਹਿਲਾਂ ਵਰਤੋ।",
+          "how": "ਗਾਹਕ ਦੀ ਲੋੜੀਂਦੀ ਜਾਣਕਾਰੀ ਜਾਂ ਇਕਰਾਰਨਾਮੇ ਦਾ ਪਾਠ ਪੂਰਾ ਕਰੋ, ਫਿਰ Save Contract ਚੁਣੋ। ਸਫਲਤਾ ਸੁਨੇਹੇ ਦੀ ਉਡੀਕ ਕਰੋ।",
+          "inputs": "ਘੱਟੋ-ਘੱਟ ਗਾਹਕ ਦਾ ਨਾਮ ਜਾਂ ਖਾਲੀ ਨਾ ਹੋਣ ਵਾਲਾ ਇਕਰਾਰਨਾਮਾ ਪਾਠ ਲੋੜੀਂਦਾ ਹੈ। ਜਿੱਥੇ ਲਾਗੂ ਹੋਵੇ ਸਹਿਮਤ ਕੀਮਤ, ਕੰਮ ਦਾ ਘੇਰਾ, ਮਿਤੀਆਂ ਅਤੇ ਭੁਗਤਾਨ ਦੀਆਂ ਸ਼ਰਤਾਂ ਸ਼ਾਮਲ ਕਰੋ।",
+          "result": "ਦਸਤਾਵੇਜ਼ ਇਕਰਾਰਨਾਮਾ ਸਟੋਰ ਵਿੱਚ ਲਿਖਿਆ ਜਾਂਦਾ ਹੈ ਅਤੇ ਐਪ ਦੱਸਦੀ ਹੈ ਕਿ ਇਹ IndexedDB ਵਿੱਚ ਸੇਵ ਅਤੇ ਤਸਦੀਕ ਹੋ ਗਿਆ ਹੈ।",
+          "notes": "ਜੇ ਜਾਂਚ ਅਸਫਲ ਹੋਵੇ ਤਾਂ ਐਪ ਘੱਟੋ-ਘੱਟ ਗੁੰਮ ਜਾਣਕਾਰੀ ਮੰਗਦੀ ਹੈ। ਜੇ ਸਟੋਰੇਜ ਅਸਫਲ ਹੋਵੇ ਤਾਂ ਗਲਤੀ ਵੇਖੋ; ਇਹ ਨਾ ਮੰਨੋ ਕਿ ਦਸਤਾਵੇਜ਼ ਸੇਵ ਹੋ ਗਿਆ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "قرارداد یا پیشنهاد قیمتی را که در حال ویرایش است ذخیره می‌کند.",
+          "when": "پس از واردکردن یا تغییر جزئیات سند و پیش از ترک ویرایشگر از این گزینه استفاده کنید.",
+          "how": "اطلاعات لازم مشتری یا متن قرارداد را تکمیل کنید و سپس Save Contract را انتخاب کنید. منتظر پیام موفقیت بمانید.",
+          "inputs": "حداقل نام مشتری یا متن غیرخالی قرارداد لازم است. در صورت کاربرد، قیمت توافق‌شده، دامنه کار، تاریخ‌ها و شرایط پرداخت را اضافه کنید.",
+          "result": "سند در محل ذخیره قراردادها نوشته می‌شود و برنامه پیام ذخیره و تأیید آن در IndexedDB را نمایش می‌دهد.",
+          "notes": "اگر اعتبارسنجی موفق نشود، برنامه حداقل اطلاعات ناقص را می‌خواهد. اگر ذخیره‌سازی شکست بخورد، خطا را بررسی کنید و فرض نکنید سند ذخیره شده است."
+        },
+        "ps": {
+          "purpose": "هغه قرارداد یا د بیې وړاندیز خوندي کوي چې اوس سمون پکې کېږي.",
+          "when": "د سند د معلوماتو تر لیکلو یا بدلولو وروسته او د سمونګر تر پرېښودو مخکې یې وکاروئ.",
+          "how": "د پېرودونکي اړین معلومات یا د قرارداد متن بشپړ کړئ، بیا Save Contract وټاکئ. د بریا پیغام ته انتظار وکړئ.",
+          "inputs": "لږ تر لږه د پېرودونکي نوم یا د قرارداد غیر تش متن اړین دی. که اړوند وي، منل شوې بیه، د کار ساحه، نېټې او د پیسو ورکولو شرطونه ورزیات کړئ.",
+          "result": "سند د قراردادونو په زېرمتون کې لیکل کېږي او اپ د IndexedDB د خوندي کولو او تایید پیغام ښيي.",
+          "notes": "که تایید ناکام شي، اپ لږ تر لږه ورکېدونکي معلومات غواړي. که زېرمه کول ناکام شي، تېروتنه وګورئ؛ دا مه انګېرئ چې سند خوندي شوی دی."
+        }
+      },
       "handler_or_behavior": "`ctSave()`"
     },
     {
@@ -2451,8 +2629,8 @@
     }
   ],
   "content_progress": {
-    "completed_entries": 4,
-    "pending_entries": 225,
+    "completed_entries": 6,
+    "pending_entries": 223,
     "completion_scope": "Six fields × eleven languages per entry; reviewed in batches."
   }
 }
