@@ -1997,7 +1997,7 @@
       "audit_ref": "INV-024",
       "element_id": null,
       "label": "Refresh",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Recalculate dashboard figures and refresh related records and report views using current filters.",
@@ -2014,6 +2014,78 @@
           "inputs": "بازه تاریخ انتخاب‌شده و رکوردهای فعلی برنامه استفاده می‌شوند.",
           "result": "جمع‌های داشبورد، تعداد ثبت‌ها، فهرست سوابق و نمای گزارش تازه می‌شوند.",
           "notes": "بازه تاریخ را بررسی کنید. مانده محاسبه‌شده درآمد ثبت‌شده منهای هزینه ثبت‌شده است و لزوماً سود مشمول مالیات نیست."
+        },
+        "ar": {
+          "purpose": "إعادة احتساب أرقام لوحة المعلومات وتحديث السجلات المرتبطة وعروض التقارير باستخدام عوامل التصفية الحالية.",
+          "when": "استخدم هذا الخيار بعد إضافة المعاملات أو تعديلها، أو تغيير النطاق الزمني للوحة المعلومات، عندما تحتاج إلى تحديث الإجماليات.",
+          "how": "اضبط تاريخي البداية والنهاية عند الحاجة، ثم اختر Refresh.",
+          "inputs": "النطاق الزمني المحدد والسجلات المخزنة حاليًا في التطبيق.",
+          "result": "يتم تحديث إجماليات لوحة المعلومات وعدد الإدخالات وقائمة السجلات وعرض التقرير.",
+          "notes": "تحقق من النطاق الزمني. الرصيد المحسوب هو الدخل المسجل مطروحًا منه المصروفات المسجلة، ولا يمثل بالضرورة الربح الخاضع للضريبة."
+        },
+        "ckb": {
+          "purpose": "ژمارەکانی داشبۆرد دووبارە هەژمار دەکات و تۆمارە پەیوەندیدارەکان و پیشاندانی ڕاپۆرتەکان بە بەکارهێنانی پاڵاوتنەکانی ئێستا نوێ دەکاتەوە.",
+          "when": "دوای زیادکردن یان دەستکاریکردنی مامەڵەکان، یان گۆڕینی ماوەی بەرواری داشبۆرد، کاتێک پێویستت بە نوێکردنەوەی کۆی ژمارەکان هەیە، بەکاریبهێنە.",
+          "how": "ئەگەر پێویست بوو بەرواری دەستپێک و کۆتایی دابنێ، پاشان Refresh هەڵبژێرە.",
+          "inputs": "ماوەی بەرواری هەڵبژێردراو و ئەو تۆمارانەی ئێستا لە ئەپەکەدا پاشەکەوت کراون.",
+          "result": "کۆی ژمارەکانی داشبۆرد، ژمارەی تۆمارەکان، لیستی تۆمارەکان و پیشاندانی ڕاپۆرت نوێ دەکرێنەوە.",
+          "notes": "ماوەی بەروارەکە بپشکنە. باڵانسی هەژمارکراو بریتییە لە داهاتی تۆمارکراو کەم خەرجییە تۆمارکراوەکان؛ بە پێویستی قازانجی باج‌لێوەردەگیر نییە."
+        },
+        "kmr": {
+          "purpose": "Hejmarên dashboardê ji nû ve hesab dike û tomarên têkildar û dîtinên raporê li gorî parzûnên niha nû dike.",
+          "when": "Piştî zêdekirin an sererastkirina danûstandinan, an guhertina navbera dîrokê ya dashboardê, dema ku pêdivî bi nûkirina tevahiyan heye, vê bikar bîne.",
+          "how": "Heke hewce be dîrokên destpêk û dawiyê saz bike, paşê Refresh hilbijêre.",
+          "inputs": "Navbera dîrokê ya hilbijartî û tomarên ku niha di sepanê de hatine hilanîn.",
+          "result": "Tevahiyên dashboardê, hejmara tomarên nû, lîsteya tomar û dîtina raporê nû dibin.",
+          "notes": "Navbera dîrokê kontrol bike. Balansa hesabkirî dahata tomarkirî minus lêçûnên tomarkirî ye; ev ne hewce ye ku qezenca bacê be."
+        },
+        "tr": {
+          "purpose": "Geçerli filtreleri kullanarak gösterge paneli rakamlarını yeniden hesaplar; ilgili kayıtları ve rapor görünümlerini yeniler.",
+          "when": "Toplamların güncellenmesi gerektiğinde, işlem ekledikten veya düzenledikten ya da gösterge panelinin tarih aralığını değiştirdikten sonra kullanın.",
+          "how": "Gerekirse başlangıç ve bitiş tarihlerini ayarlayın, ardından Refresh seçeneğini seçin.",
+          "inputs": "Seçilen tarih aralığı ve uygulamada şu anda kayıtlı olan veriler.",
+          "result": "Gösterge paneli toplamları, kayıt sayısı, kayıt listesi ve rapor görünümü yenilenir.",
+          "notes": "Tarih aralığını kontrol edin. Hesaplanan bakiye, kaydedilmiş gelirden kaydedilmiş giderlerin çıkarılmasıdır; mutlaka vergiye tabi kâr anlamına gelmez."
+        },
+        "pl": {
+          "purpose": "Ponownie oblicza wartości na pulpicie oraz odświeża powiązane rejestry i widoki raportów z użyciem bieżących filtrów.",
+          "when": "Użyj po dodaniu lub edycji transakcji albo zmianie zakresu dat pulpitu, gdy sumy wymagają aktualizacji.",
+          "how": "W razie potrzeby ustaw datę początkową i końcową, a następnie wybierz Refresh.",
+          "inputs": "Wybrany zakres dat oraz rekordy aktualnie zapisane w aplikacji.",
+          "result": "Odświeżane są sumy pulpitu, liczba wpisów, lista rekordów i widok raportu.",
+          "notes": "Sprawdź zakres dat. Obliczone saldo to zarejestrowane przychody pomniejszone o zarejestrowane wydatki; nie musi ono oznaczać dochodu podlegającego opodatkowaniu."
+        },
+        "ur": {
+          "purpose": "موجودہ فلٹرز کے مطابق ڈیش بورڈ کے اعداد دوبارہ شمار کرتا ہے اور متعلقہ ریکارڈز اور رپورٹ کے مناظر تازہ کرتا ہے۔",
+          "when": "لین دین شامل یا ترمیم کرنے کے بعد، یا ڈیش بورڈ کی تاریخوں کی حد بدلنے پر، جب مجموعی اعداد اپ ڈیٹ کرنے ہوں تو استعمال کریں۔",
+          "how": "ضرورت ہو تو آغاز اور اختتام کی تاریخیں مقرر کریں، پھر Refresh منتخب کریں۔",
+          "inputs": "منتخب کردہ تاریخوں کی حد اور ایپ میں اس وقت محفوظ ریکارڈز۔",
+          "result": "ڈیش بورڈ کے مجموعے، اندراجات کی تعداد، ریکارڈز کی فہرست اور رپورٹ کا منظر تازہ ہو جاتے ہیں۔",
+          "notes": "تاریخوں کی حد ضرور دیکھیں۔ حساب شدہ بیلنس محفوظ شدہ آمدنی میں سے محفوظ شدہ اخراجات منہا کرنے سے بنتا ہے؛ یہ لازماً قابلِ ٹیکس منافع نہیں ہوتا۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਫਿਲਟਰਾਂ ਦੇ ਆਧਾਰ 'ਤੇ ਡੈਸ਼ਬੋਰਡ ਦੇ ਅੰਕੜੇ ਮੁੜ ਗਿਣਦਾ ਹੈ ਅਤੇ ਸੰਬੰਧਿਤ ਰਿਕਾਰਡਾਂ ਤੇ ਰਿਪੋਰਟ ਦ੍ਰਿਸ਼ਾਂ ਨੂੰ ਤਾਜ਼ਾ ਕਰਦਾ ਹੈ।",
+          "when": "ਲੈਣ-ਦੇਣ ਜੋੜਨ ਜਾਂ ਸੋਧਣ ਤੋਂ ਬਾਅਦ, ਜਾਂ ਡੈਸ਼ਬੋਰਡ ਦੀ ਤਾਰੀਖ ਸੀਮਾ ਬਦਲਣ 'ਤੇ, ਜਦੋਂ ਕੁੱਲ ਅੰਕੜੇ ਅਪਡੇਟ ਕਰਨੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਲੋੜ ਹੋਵੇ ਤਾਂ ਸ਼ੁਰੂਆਤੀ ਅਤੇ ਆਖਰੀ ਤਾਰੀਖਾਂ ਸੈੱਟ ਕਰੋ, ਫਿਰ Refresh ਚੁਣੋ।",
+          "inputs": "ਚੁਣੀ ਹੋਈ ਤਾਰੀਖ ਸੀਮਾ ਅਤੇ ਐਪ ਵਿੱਚ ਇਸ ਵੇਲੇ ਸੰਭਾਲੇ ਰਿਕਾਰਡ।",
+          "result": "ਡੈਸ਼ਬੋਰਡ ਦੇ ਕੁੱਲ, ਐਂਟਰੀਆਂ ਦੀ ਗਿਣਤੀ, ਰਿਕਾਰਡਾਂ ਦੀ ਸੂਚੀ ਅਤੇ ਰਿਪੋਰਟ ਦ੍ਰਿਸ਼ ਤਾਜ਼ਾ ਹੋ ਜਾਂਦੇ ਹਨ।",
+          "notes": "ਤਾਰੀਖ ਸੀਮਾ ਦੀ ਜਾਂਚ ਕਰੋ। ਗਿਣਿਆ ਹੋਇਆ ਬਕਾਇਆ ਦਰਜ ਆਮਦਨ ਵਿੱਚੋਂ ਦਰਜ ਖਰਚੇ ਘਟਾ ਕੇ ਬਣਦਾ ਹੈ; ਇਹ ਲਾਜ਼ਮੀ ਨਹੀਂ ਕਿ ਕਰਯੋਗ ਮੁਨਾਫ਼ਾ ਹੋਵੇ।"
+        },
+        "prs": {
+          "purpose": "ارقام داشبورد را دوباره محاسبه می‌کند و سوابق مرتبط و نمای گزارش‌ها را با استفاده از فیلترهای فعلی تازه می‌سازد.",
+          "when": "پس از افزودن یا ویرایش تراکنش‌ها، یا تغییر بازه تاریخ داشبورد، هنگامی که جمع‌ها باید به‌روز شوند از این گزینه استفاده کنید.",
+          "how": "در صورت نیاز تاریخ شروع و پایان را تنظیم کنید و سپس Refresh را انتخاب کنید.",
+          "inputs": "بازه تاریخ انتخاب‌شده و رکوردهایی که در حال حاضر در برنامه ذخیره شده‌اند.",
+          "result": "جمع‌های داشبورد، تعداد ثبت‌ها، فهرست سوابق و نمای گزارش تازه می‌شوند.",
+          "notes": "بازه تاریخ را بررسی کنید. مانده محاسبه‌شده برابر است با درآمد ثبت‌شده منهای هزینه‌های ثبت‌شده و لزوماً سود مشمول مالیات نیست."
+        },
+        "ps": {
+          "purpose": "د اوسنیو فلټرونو له مخې د ډشبورډ شمېرې بیا محاسبه کوي او اړوند ثبتونه او د راپور بڼې تازه کوي.",
+          "when": "کله چې د ټولو شمېرو تازه کولو ته اړتیا وي، د معاملې له زیاتولو یا سمولو، یا د ډشبورډ د نېټې د مودې له بدلولو وروسته یې وکاروئ.",
+          "how": "که اړتیا وي د پیل او پای نېټې وټاکئ، بیا Refresh انتخاب کړئ.",
+          "inputs": "ټاکل شوې د نېټې موده او هغه ثبتونه چې دا مهال په اپ کې خوندي دي.",
+          "result": "د ډشبورډ ټولیزې شمېرې، د ثبتونو شمېر، د ثبتونو لېست او د راپور بڼه تازه کېږي.",
+          "notes": "د نېټې موده وګورئ. محاسبه شوی بیلانس له ثبت شوي عاید څخه د ثبت شویو لګښتونو په منفي کولو ترلاسه کېږي؛ دا حتمي نه ده چې د مالیې وړ ګټه وي."
         }
       },
       "handler_or_behavior": "`refreshAll()`"
@@ -7428,8 +7500,8 @@
     }
   ],
   "content_progress": {
-    "completed_entries": 20,
-    "draft_entries": 209,
+    "completed_entries": 21,
+    "draft_entries": 208,
     "pending_entries": 0,
     "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written."
   }
