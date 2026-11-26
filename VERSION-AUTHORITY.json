@@ -1823,13 +1823,14 @@
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/93",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 45904866886,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45904866886",
+        "details": "The R11 Version Authority Gate completed successfully on PR #93 head 43a2132745aef84368ded8c7b3948410355c991f; repository identity, approved baseline, R40 Build ID, canonical URL and all 22 pinned runtime assets passed."
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Source assertions passed for the public Actions GET endpoint, exact Pages workflow filtering, Europe/London formatting, shared timestamp service and explicit unavailable fallback. Full JavaScript syntax validation and Version Authority Gate are pending."
+        "result": "PASS",
+        "details": "All 8 inline JavaScript blocks passed V8 syntax compilation. Source assertions confirmed removal of Last-Modified/HEAD, a public GitHub Actions GET with no custom headers or credentials, exact successful Pages workflow filtering, Europe/London formatting, shared banner/Version Details/Copy service, and explicit unavailable fallback. Live iPhone Safari remains pending."
       },
       "previewPagesDeployment": {
         "result": "pending",
