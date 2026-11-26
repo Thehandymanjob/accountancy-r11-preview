@@ -1779,21 +1779,22 @@
       "previewDevelopmentCommitSha": "79e16c45680fb8e01ab4e19041bb8b24f6140406",
       "previewPullRequestNumber": 92,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/92",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "d5dcd37565881408424be96bdb361b16320ec647",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 45881830149,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45881830149",
+        "details": "The Preview R11 Version Authority Gate completed successfully on the PR head, validating R39 identity, approved baseline ancestry and all 22 pinned runtime assets."
       },
       "staticChecks": {
         "result": "PASS",
         "details": "All 8 inline JavaScript blocks in the updated HTML passed V8 syntax compilation. Source inspection confirms syncCategoryPicker now obtains the computed group objects from getExpenseCategoryGroups(), whose items arrays are defined. Live browser and iPhone Safari interaction tests remain pending."
       },
       "previewPagesDeployment": {
-        "result": "pending",
+        "result": "not verified",
         "runId": "pending",
         "url": "pending",
-        "details": "Awaiting Preview PR, Version Authority Gate and successful GitHub Pages deployment."
+        "details": "The merge succeeded, but a successful main-branch GitHub Pages deployment run has not yet been directly verified."
       },
       "userSafariTest": {
         "result": "not tested",
