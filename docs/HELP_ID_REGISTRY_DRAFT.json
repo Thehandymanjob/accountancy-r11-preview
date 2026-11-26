@@ -1213,8 +1213,97 @@
       "audit_ref": "INV-015",
       "element_id": null,
       "label": "♙ Customers Customer details and contacts ›",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_COMPLETE",
+      "translations": {
+        "en": {
+          "purpose": "Open the customer list to add, search and maintain customer contact and address details.",
+          "when": "Use this when you need to save a customer for reuse on invoices or find and update an existing customer.",
+          "how": "Select Customers. Enter the customer or company name and any available phone, billing address, usual work address and email, then select Save Customer. Use Search customers to find saved records.",
+          "inputs": "A customer or company name is required. Phone, addresses and email are optional; use accurate details supplied by the customer.",
+          "result": "The customer is saved to the customer list and can be selected when creating invoices. Existing customers can be searched, edited or deleted.",
+          "notes": "Check for an existing customer before creating a duplicate. Deleting a customer may affect its availability for future invoice selection; review the app's confirmation before proceeding."
+        },
+        "fa": {
+          "purpose": "باز کردن فهرست مشتریان برای افزودن، جست‌وجو و نگهداری اطلاعات تماس و نشانی مشتریان.",
+          "when": "وقتی می‌خواهید مشتری را برای استفاده مجدد در فاکتورها ذخیره کنید یا مشتری موجودی را پیدا و ویرایش کنید، از این گزینه استفاده کنید.",
+          "how": "Customers را انتخاب کنید. نام مشتری یا شرکت و اطلاعات موجود مانند تلفن، نشانی صورتحساب، نشانی معمول محل کار و ایمیل را وارد کنید و Save Customer را بزنید. برای یافتن مشتریان ذخیره‌شده از Search customers استفاده کنید.",
+          "inputs": "نام مشتری یا شرکت الزامی است. تلفن، نشانی‌ها و ایمیل اختیاری‌اند؛ فقط اطلاعات دقیق ارائه‌شده از سوی مشتری را وارد کنید.",
+          "result": "مشتری در فهرست ذخیره می‌شود و هنگام ایجاد فاکتور قابل انتخاب است. مشتریان موجود را می‌توان جست‌وجو، ویرایش یا حذف کرد.",
+          "notes": "پیش از ایجاد رکورد جدید، وجود مشتری تکراری را بررسی کنید. حذف مشتری ممکن است دسترسی به آن را برای انتخاب در فاکتورهای آینده تحت تأثیر قرار دهد؛ پیش از ادامه پیام تأیید برنامه را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "فتح قائمة العملاء لإضافة بيانات الاتصال والعناوين والبحث عنها وصيانتها.",
+          "when": "استخدمه عندما تريد حفظ عميل لإعادة استخدامه في الفواتير أو العثور على عميل موجود وتحديث بياناته.",
+          "how": "اختر Customers. أدخل اسم العميل أو الشركة وأي بيانات متاحة مثل الهاتف وعنوان الفوترة وعنوان العمل المعتاد والبريد الإلكتروني، ثم اختر Save Customer. استخدم Search customers للعثور على السجلات المحفوظة.",
+          "inputs": "اسم العميل أو الشركة مطلوب. الهاتف والعناوين والبريد الإلكتروني اختيارية؛ أدخل بيانات دقيقة قدمها العميل.",
+          "result": "يُحفظ العميل في القائمة ويمكن اختياره عند إنشاء الفواتير. ويمكن البحث عن العملاء الموجودين وتعديلهم أو حذفهم.",
+          "notes": "تحقق من عدم وجود عميل مكرر قبل إنشاء سجل جديد. قد يؤثر حذف العميل في توفره للاختيار في الفواتير المستقبلية؛ راجع رسالة التأكيد قبل المتابعة."
+        },
+        "ckb": {
+          "purpose": "کردنەوەی لیستی کڕیاران بۆ زیادکردن، گەڕان و نوێکردنەوەی زانیاری پەیوەندی و ناونیشانی کڕیار.",
+          "when": "کاتێک دەتەوێت کڕیارێک بۆ بەکارهێنانەوە لە فاکتۆرەکاندا پاشەکەوت بکەیت یان کڕیارێکی هەبوو بدۆزیتەوە و زانیارییەکانی نوێ بکەیتەوە، بەکاریبهێنە.",
+          "how": "Customers هەڵبژێرە. ناوی کڕیار یان کۆمپانیا و هەر زانیارییەکی بەردەست وەک تەلەفۆن، ناونیشانی پسووڵە، ناونیشانی ئاسایی کار و ئیمەیڵ بنووسە، پاشان Save Customer هەڵبژێرە. بۆ دۆزینەوە Search customers بەکاربهێنە.",
+          "inputs": "ناوی کڕیار یان کۆمپانیا پێویستە. تەلەفۆن، ناونیشان و ئیمەیڵ ئارەزوومەندانەن؛ تەنها زانیاری دروستی پێشکەشکراوی کڕیار بنووسە.",
+          "result": "کڕیار لە لیستەکەدا پاشەکەوت دەکرێت و لە کاتی دروستکردنی فاکتۆر هەڵدەبژێردرێت. کڕیارە هەبووەکان دەکرێت بگەڕێدرێن، دەستکاری یان بسڕدرێنەوە.",
+          "notes": "پێش دروستکردنی تۆماری نوێ، بگەڕێ بۆ ئەوەی کڕیارەکە پێشتر تۆمار نەکرابێت. سڕینەوەی کڕیار لەوانەیە کاریگەری لەسەر هەڵبژاردنی بۆ فاکتۆری داهاتوو هەبێت؛ پێش بەردەوامبوون پەیامی پشتڕاستکردنەوە بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Lîsteya xerîdaran veke da ku agahiyên têkilî û navnîşanên wan zêde bikî, bigerî û nû bikî.",
+          "when": "Dema ku dixwazî xerîdarek ji bo fatûreyên paşê tomar bikî an xerîdarek heyî bibînî û agahiyên wî nû bikî, vê bikar bîne.",
+          "how": "Customers hilbijêre. Navê xerîdar an şirketê û agahiyên heyî wek telefon, navnîşana fatûreyê, navnîşana karê asayî û e-name binivîse, paşê Save Customer hilbijêre. Ji bo dîtina tomarên tomarkirî Search customers bikar bîne.",
+          "inputs": "Navê xerîdar an şirketê pêwîst e. Telefon, navnîşan û e-name vebijarkî ne; tenê agahiyên rast ên ku xerîdar daye têkeve.",
+          "result": "Xerîdar di lîsteyê de tê tomarkirin û dema çêkirina fatûreyê dikare were hilbijartin. Xerîdarên heyî dikarin werin lêgerîn, sererastkirin an jêbirin.",
+          "notes": "Berî çêkirina tomarek nû kontrol bike ku xerîdar dubare nebe. Jêbirina xerîdar dikare bandorê li hilbijartina wî ji bo fatûreyên paşê bike; berî domandinê pejirandina sepanê binêre."
+        },
+        "tr": {
+          "purpose": "Müşteri iletişim ve adres bilgilerini eklemek, aramak ve güncellemek için müşteri listesini açar.",
+          "when": "Faturalarda yeniden kullanmak üzere müşteri kaydetmek veya mevcut müşteriyi bulup bilgilerini güncellemek istediğinizde kullanın.",
+          "how": "Customers seçeneğini seçin. Müşteri veya şirket adını ve mevcut telefon, fatura adresi, olağan iş adresi ve e-posta bilgilerini girin; ardından Save Customer seçeneğini seçin. Kayıtlı müşterileri bulmak için Search customers kullanın.",
+          "inputs": "Müşteri veya şirket adı zorunludur. Telefon, adresler ve e-posta isteğe bağlıdır; müşterinin sağladığı doğru bilgileri girin.",
+          "result": "Müşteri listeye kaydedilir ve fatura oluştururken seçilebilir. Mevcut müşteriler aranabilir, düzenlenebilir veya silinebilir.",
+          "notes": "Yeni kayıt oluşturmadan önce aynı müşterinin zaten bulunmadığını kontrol edin. Müşteriyi silmek, gelecekteki faturalarda seçilebilirliğini etkileyebilir; devam etmeden önce uygulamanın onay mesajını inceleyin."
+        },
+        "pl": {
+          "purpose": "Otwiera listę klientów, aby dodawać, wyszukiwać i aktualizować dane kontaktowe oraz adresowe klientów.",
+          "when": "Użyj tej opcji, gdy chcesz zapisać klienta do ponownego użycia na fakturach albo znaleźć i zaktualizować istniejącego klienta.",
+          "how": "Wybierz Customers. Wprowadź nazwę klienta lub firmy oraz dostępne dane, takie jak telefon, adres rozliczeniowy, zwykły adres pracy i e-mail, a następnie wybierz Save Customer. Użyj Search customers, aby znaleźć zapisane rekordy.",
+          "inputs": "Nazwa klienta lub firmy jest wymagana. Telefon, adresy i e-mail są opcjonalne; wpisuj dokładne dane przekazane przez klienta.",
+          "result": "Klient zostanie zapisany na liście i będzie można go wybrać podczas tworzenia faktury. Istniejących klientów można wyszukiwać, edytować lub usuwać.",
+          "notes": "Przed utworzeniem nowego rekordu sprawdź, czy klient już istnieje. Usunięcie klienta może wpłynąć na możliwość wybrania go w przyszłych fakturach; przed kontynuowaniem sprawdź komunikat potwierdzenia."
+        },
+        "ur": {
+          "purpose": "گاہکوں کی رابطہ اور پتے کی معلومات شامل کرنے، تلاش کرنے اور برقرار رکھنے کے لیے کسٹمر فہرست کھولتا ہے۔",
+          "when": "جب آپ انوائسز میں دوبارہ استعمال کے لیے گاہک محفوظ کرنا یا موجودہ گاہک تلاش کرکے اس کی معلومات اپ ڈیٹ کرنا چاہیں تو استعمال کریں۔",
+          "how": "Customers منتخب کریں۔ گاہک یا کمپنی کا نام اور دستیاب فون، بلنگ پتہ، معمول کے کام کا پتہ اور ای میل درج کریں، پھر Save Customer منتخب کریں۔ محفوظ ریکارڈ تلاش کرنے کے لیے Search customers استعمال کریں۔",
+          "inputs": "گاہک یا کمپنی کا نام لازمی ہے۔ فون، پتے اور ای میل اختیاری ہیں؛ صرف گاہک کی فراہم کردہ درست معلومات درج کریں۔",
+          "result": "گاہک فہرست میں محفوظ ہو جاتا ہے اور انوائس بناتے وقت منتخب کیا جا سکتا ہے۔ موجودہ گاہک تلاش، ترمیم یا حذف کیے جا سکتے ہیں۔",
+          "notes": "نیا ریکارڈ بنانے سے پہلے دیکھیں کہ گاہک پہلے سے موجود تو نہیں۔ گاہک حذف کرنے سے آئندہ انوائسز میں اس کے انتخاب پر اثر پڑ سکتا ہے؛ آگے بڑھنے سے پہلے ایپ کا تصدیقی پیغام دیکھیں۔"
+        },
+        "pa": {
+          "purpose": "ਗਾਹਕਾਂ ਦੀ ਸੰਪਰਕ ਅਤੇ ਪਤੇ ਦੀ ਜਾਣਕਾਰੀ ਜੋੜਨ, ਖੋਜਣ ਅਤੇ ਸੰਭਾਲਣ ਲਈ ਗਾਹਕ ਸੂਚੀ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਇਨਵੌਇਸਾਂ ਵਿੱਚ ਮੁੜ ਵਰਤੋਂ ਲਈ ਗਾਹਕ ਸੰਭਾਲਣਾ ਜਾਂ ਮੌਜੂਦਾ ਗਾਹਕ ਲੱਭ ਕੇ ਉਸਦੀ ਜਾਣਕਾਰੀ ਅੱਪਡੇਟ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Customers ਚੁਣੋ। ਗਾਹਕ ਜਾਂ ਕੰਪਨੀ ਦਾ ਨਾਮ ਅਤੇ ਉਪਲਬਧ ਫੋਨ, ਬਿਲਿੰਗ ਪਤਾ, ਆਮ ਕੰਮ ਦਾ ਪਤਾ ਅਤੇ ਈਮੇਲ ਭਰੋ, ਫਿਰ Save Customer ਚੁਣੋ। ਸੰਭਾਲੇ ਰਿਕਾਰਡ ਲੱਭਣ ਲਈ Search customers ਵਰਤੋ।",
+          "inputs": "ਗਾਹਕ ਜਾਂ ਕੰਪਨੀ ਦਾ ਨਾਮ ਲਾਜ਼ਮੀ ਹੈ। ਫੋਨ, ਪਤੇ ਅਤੇ ਈਮੇਲ ਵਿਕਲਪਿਕ ਹਨ; ਗਾਹਕ ਵੱਲੋਂ ਦਿੱਤੀ ਸਹੀ ਜਾਣਕਾਰੀ ਹੀ ਭਰੋ।",
+          "result": "ਗਾਹਕ ਸੂਚੀ ਵਿੱਚ ਸੰਭਾਲਿਆ ਜਾਂਦਾ ਹੈ ਅਤੇ ਇਨਵੌਇਸ ਬਣਾਉਂਦੇ ਸਮੇਂ ਚੁਣਿਆ ਜਾ ਸਕਦਾ ਹੈ। ਮੌਜੂਦਾ ਗਾਹਕ ਖੋਜੇ, ਸੋਧੇ ਜਾਂ ਮਿਟਾਏ ਜਾ ਸਕਦੇ ਹਨ।",
+          "notes": "ਨਵਾਂ ਰਿਕਾਰਡ ਬਣਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਜਾਂਚੋ ਕਿ ਗਾਹਕ ਪਹਿਲਾਂ ਤੋਂ ਮੌਜੂਦ ਤਾਂ ਨਹੀਂ। ਗਾਹਕ ਮਿਟਾਉਣ ਨਾਲ ਭਵਿੱਖ ਦੀਆਂ ਇਨਵੌਇਸਾਂ ਵਿੱਚ ਉਸਦੀ ਚੋਣ ਪ੍ਰਭਾਵਿਤ ਹੋ ਸਕਦੀ ਹੈ; ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਐਪ ਦੀ ਪੁਸ਼ਟੀ ਵੇਖੋ।"
+        },
+        "prs": {
+          "purpose": "فهرست مشتریان را برای افزودن، جست‌وجو و نگهداری اطلاعات تماس و نشانی مشتری باز می‌کند.",
+          "when": "وقتی می‌خواهید مشتری را برای استفاده مجدد در فاکتورها ذخیره کنید یا مشتری موجودی را پیدا و اطلاعاتش را به‌روز کنید، از این گزینه استفاده کنید.",
+          "how": "Customers را انتخاب کنید. نام مشتری یا شرکت و اطلاعات موجود مانند تلفن، نشانی صورتحساب، نشانی معمول محل کار و ایمیل را وارد کنید و Save Customer را بزنید. برای یافتن رکوردهای ذخیره‌شده از Search customers استفاده کنید.",
+          "inputs": "نام مشتری یا شرکت الزامی است. تلفن، نشانی‌ها و ایمیل اختیاری‌اند؛ فقط اطلاعات دقیق ارائه‌شده از سوی مشتری را وارد کنید.",
+          "result": "مشتری در فهرست ذخیره می‌شود و هنگام ایجاد فاکتور قابل انتخاب است. مشتریان موجود را می‌توان جست‌وجو، ویرایش یا حذف کرد.",
+          "notes": "پیش از ایجاد رکورد جدید، مشتری تکراری را بررسی کنید. حذف مشتری ممکن است انتخاب آن را برای فاکتورهای آینده تحت تأثیر قرار دهد؛ پیش از ادامه پیام تأیید برنامه را بخوانید."
+        },
+        "ps": {
+          "purpose": "د پېرودونکو د اړیکو او پتې د معلوماتو د زیاتولو، لټون او ساتلو لپاره د پېرودونکو لېست پرانیزي.",
+          "when": "کله چې غواړئ پېرودونکی د راتلونکو بلونو لپاره خوندي کړئ یا موجود پېرودونکی ومومئ او معلومات یې تازه کړئ، دا وکاروئ.",
+          "how": "Customers وټاکئ. د پېرودونکي یا شرکت نوم او شته ټیلیفون، د بل پته، د کار معمول پته او برېښنالیک ولیکئ، بیا Save Customer وټاکئ. د خوندي شویو ریکارډونو د موندلو لپاره Search customers وکاروئ.",
+          "inputs": "د پېرودونکي یا شرکت نوم اړین دی. ټیلیفون، پتې او برېښنالیک اختیاري دي؛ یوازې د پېرودونکي کره ورکړل شوي معلومات ولیکئ.",
+          "result": "پېرودونکی په لېست کې خوندي کېږي او د بل جوړولو پر مهال ټاکل کېدای شي. موجود پېرودونکي لټول، سمول یا ړنګول کېدای شي.",
+          "notes": "د نوي ریکارډ تر جوړولو مخکې وګورئ چې پېرودونکی له مخکې نه وي ثبت شوی. د پېرودونکي ړنګول ښايي په راتلونکو بلونو کې د هغه پر ټاکلو اغېز وکړي؛ تر دوام مخکې د اپ د تایید پیغام وګورئ."
+        }
+      },
       "handler_or_behavior": "`show(`"
     },
     {
@@ -1222,8 +1311,97 @@
       "audit_ref": "INV-016",
       "element_id": null,
       "label": "▥ Reports & Tax Tax periods, archive and notifications ›",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_COMPLETE",
+      "translations": {
+        "en": {
+          "purpose": "Open the Reports & Tax workspace for report preparation, saved report snapshots, notifications, tax deadlines and accountant email settings.",
+          "when": "Use this when reviewing financial reports, checking tax-related dates or opening a saved report or notification.",
+          "how": "Select Reports & Tax. Choose the relevant section: Prepare a report, Saved reports archive, Notifications inbox, Tax calendar or Accountant email.",
+          "inputs": "The required inputs depend on the selected section. Reports use recorded business data and a selected period; calendar and email areas use their own settings.",
+          "result": "The selected reporting, archive, notification, calendar or email workspace opens.",
+          "notes": "The app prepares and stores reports but does not submit tax returns to HMRC automatically. Check report periods and figures against source records, and verify tax obligations with HMRC or your accountant."
+        },
+        "fa": {
+          "purpose": "باز کردن فضای «Reports & Tax» برای تهیه گزارش، مشاهده آرشیو گزارش‌های ذخیره‌شده، اعلان‌ها، مهلت‌های مالیاتی و تنظیمات ایمیل حسابدار.",
+          "when": "وقتی می‌خواهید گزارش مالی را بررسی کنید، تاریخ‌های مالیاتی را ببینید یا گزارش و اعلان ذخیره‌شده‌ای را باز کنید از این گزینه استفاده کنید.",
+          "how": "«Reports & Tax» را انتخاب کنید و بخش موردنظر را باز کنید: Prepare a report، Saved reports archive، Notifications inbox، Tax calendar یا Accountant email.",
+          "inputs": "ورودی‌های لازم به بخش انتخاب‌شده بستگی دارد. گزارش‌ها از داده‌های ثبت‌شده کسب‌وکار و دوره انتخابی استفاده می‌کنند؛ تقویم و ایمیل تنظیمات جداگانه خود را دارند.",
+          "result": "فضای گزارش، آرشیو، اعلان‌ها، تقویم یا ایمیل انتخاب‌شده باز می‌شود.",
+          "notes": "برنامه گزارش‌ها را تهیه و ذخیره می‌کند، اما اظهارنامه مالیاتی را به‌طور خودکار به HMRC ارسال نمی‌کند. دوره و ارقام گزارش را با رکوردهای اصلی تطبیق دهید و تعهدات مالیاتی را با HMRC یا حسابدار خود بررسی کنید."
+        },
+        "ar": {
+          "purpose": "فتح مساحة Reports & Tax لإعداد التقارير ولقطات التقارير المحفوظة والإشعارات والمواعيد الضريبية وإعدادات البريد الإلكتروني للمحاسب.",
+          "when": "استخدمه عند مراجعة التقارير المالية أو التحقق من المواعيد الضريبية أو فتح تقرير أو إشعار محفوظ.",
+          "how": "اختر Reports & Tax ثم القسم المطلوب: Prepare a report أو Saved reports archive أو Notifications inbox أو Tax calendar أو Accountant email.",
+          "inputs": "تعتمد المدخلات المطلوبة على القسم المختار. تستخدم التقارير بيانات النشاط المسجلة والفترة المحددة؛ وللتقويم والبريد إعداداتهما الخاصة.",
+          "result": "تُفتح مساحة التقارير أو الأرشيف أو الإشعارات أو التقويم أو البريد التي اخترتها.",
+          "notes": "يُعد التطبيق التقارير ويحفظها، لكنه لا يرسل الإقرارات الضريبية إلى HMRC تلقائياً. طابق الفترات والأرقام مع السجلات الأصلية وتحقق من الالتزامات الضريبية مع HMRC أو المحاسب."
+        },
+        "ckb": {
+          "purpose": "کردنەوەی شوێنی Reports & Tax بۆ ئامادەکردنی ڕاپۆرت، ئەرشیفی ڕاپۆرتە پاشەکەوتکراوەکان، ئاگادارکردنەوەکان، بەروارەکانی باج و ڕێکخستنی ئیمەیڵی ژمێریار.",
+          "when": "کاتێک دەتەوێت ڕاپۆرتی دارایی بپشکنیت، بەروارەکانی باج ببینیت یان ڕاپۆرتێک/ئاگادارکردنەوەیەکی پاشەکەوتکراو بکەیتەوە، بەکاریبهێنە.",
+          "how": "Reports & Tax هەڵبژێرە و بەشی پێویست بکەرەوە: Prepare a report، Saved reports archive، Notifications inbox، Tax calendar یان Accountant email.",
+          "inputs": "زانیارییە پێویستەکان بە بەشی هەڵبژێردراوەوە پەیوەستن. ڕاپۆرتەکان داتای تۆمارکراوی کاروبار و ماوەی هەڵبژێردراو بەکاردەهێنن؛ تەقویم و ئیمەیڵ ڕێکخستنی تایبەتی خۆیان هەیە.",
+          "result": "شوێنی ڕاپۆرت، ئەرشیف، ئاگادارکردنەوە، تەقویم یان ئیمەیڵی هەڵبژێردراو دەکرێتەوە.",
+          "notes": "بەرنامە ڕاپۆرت ئامادە و پاشەکەوت دەکات، بەڵام بە شێوەی خۆکار ڕاپۆرتی باج بۆ HMRC نانێرێت. ماوە و ژمارەکانی ڕاپۆرت لەگەڵ تۆمارە سەرچاوەکان بگونجێنە و پابەندییەکانی باج لەگەڵ HMRC یان ژمێریار بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Cihê Reports & Tax veke ji bo amadekirina raporan, arşîva raporên tomarkirî, agahdariyan, demên bacê û mîhengên e-nameya hesabdar.",
+          "when": "Dema ku raporên darayî dinirxînî, tarîxên bacê kontrol dikî an rapor/an agahdariyek tomarkirî vedikî, vê bikar bîne.",
+          "how": "Reports & Tax hilbijêre û beşa têkildar veke: Prepare a report, Saved reports archive, Notifications inbox, Tax calendar an Accountant email.",
+          "inputs": "Têketinên pêwîst li gor beşa hilbijartî diguherin. Rapor daneyên tomarkirî yên karsaziyê û heyama hilbijartî bikar tînin; salname û e-name mîhengên xwe hene.",
+          "result": "Cihê rapor, arşîv, agahdarî, salname an e-nameya hilbijartî vedibe.",
+          "notes": "Sepan raporan amade û tomar dike, lê raporên bacê bi awayekî otomatîk ji HMRC re naşîne. Heyam û jimareyan bi tomarên bingehîn re kontrol bike û berpirsiyariyên bacê bi HMRC an hesabdarê xwe piştrast bike."
+        },
+        "tr": {
+          "purpose": "Rapor hazırlama, kayıtlı rapor arşivi, bildirimler, vergi tarihleri ve muhasebeci e-posta ayarları için Reports & Tax çalışma alanını açar.",
+          "when": "Mali raporları incelerken, vergiyle ilgili tarihleri kontrol ederken veya kayıtlı bir raporu ya da bildirimi açarken kullanın.",
+          "how": "Reports & Tax seçeneğini seçin. İlgili bölümü açın: Prepare a report, Saved reports archive, Notifications inbox, Tax calendar veya Accountant email.",
+          "inputs": "Gerekli bilgiler seçilen bölüme bağlıdır. Raporlar kayıtlı işletme verilerini ve seçilen dönemi kullanır; takvim ve e-posta alanlarının kendi ayarları vardır.",
+          "result": "Seçilen rapor, arşiv, bildirim, takvim veya e-posta çalışma alanı açılır.",
+          "notes": "Uygulama raporları hazırlar ve saklar ancak vergi beyannamelerini HMRC'ye otomatik göndermez. Rapor dönemlerini ve rakamları kaynak kayıtlarla karşılaştırın; vergi yükümlülüklerini HMRC veya muhasebecinizle doğrulayın."
+        },
+        "pl": {
+          "purpose": "Otwiera obszar Reports & Tax służący do przygotowywania raportów, przeglądania archiwum zapisanych raportów, powiadomień, terminów podatkowych i ustawień poczty księgowego.",
+          "when": "Użyj tej opcji, gdy sprawdzasz raporty finansowe, terminy podatkowe albo otwierasz zapisany raport lub powiadomienie.",
+          "how": "Wybierz Reports & Tax, a następnie odpowiednią sekcję: Prepare a report, Saved reports archive, Notifications inbox, Tax calendar lub Accountant email.",
+          "inputs": "Wymagane dane zależą od wybranej sekcji. Raporty korzystają z zapisanych danych firmy i wybranego okresu; kalendarz i poczta mają własne ustawienia.",
+          "result": "Otworzy się wybrany obszar raportów, archiwum, powiadomień, kalendarza lub poczty.",
+          "notes": "Aplikacja przygotowuje i zapisuje raporty, ale nie wysyła automatycznie deklaracji podatkowych do HMRC. Porównaj okresy i wartości raportu z rekordami źródłowymi oraz potwierdź obowiązki podatkowe w HMRC lub u księgowego."
+        },
+        "ur": {
+          "purpose": "رپورٹ تیار کرنے، محفوظ رپورٹس کے آرکائیو، اطلاعات، ٹیکس کی آخری تاریخوں اور اکاؤنٹنٹ کی ای میل ترتیبات کے لیے Reports & Tax ورک اسپیس کھولتا ہے۔",
+          "when": "جب مالی رپورٹس دیکھنی ہوں، ٹیکس سے متعلق تاریخیں جانچنی ہوں یا محفوظ رپورٹ یا اطلاع کھولنی ہو تو استعمال کریں۔",
+          "how": "Reports & Tax منتخب کریں۔ متعلقہ حصہ کھولیں: Prepare a report، Saved reports archive، Notifications inbox، Tax calendar یا Accountant email۔",
+          "inputs": "درکار معلومات منتخب حصے کے مطابق مختلف ہیں۔ رپورٹس محفوظ کاروباری ڈیٹا اور منتخب مدت استعمال کرتی ہیں؛ کیلنڈر اور ای میل کے اپنے الگ ترتیبات ہیں۔",
+          "result": "منتخب رپورٹ، آرکائیو، اطلاع، کیلنڈر یا ای میل ورک اسپیس کھلتا ہے۔",
+          "notes": "ایپ رپورٹس تیار اور محفوظ کرتی ہے، لیکن ٹیکس ریٹرن خودکار طور پر HMRC کو جمع نہیں کراتی۔ رپورٹ کی مدت اور اعداد کو اصل ریکارڈز سے ملائیں اور ٹیکس ذمہ داریاں HMRC یا اپنے اکاؤنٹنٹ سے تصدیق کریں۔"
+        },
+        "pa": {
+          "purpose": "ਰਿਪੋਰਟਾਂ ਤਿਆਰ ਕਰਨ, ਸੰਭਾਲੀਆਂ ਰਿਪੋਰਟਾਂ ਦੇ ਆਰਕਾਈਵ, ਸੂਚਨਾਵਾਂ, ਟੈਕਸ ਮਿਤੀਆਂ ਅਤੇ ਅਕਾਊਂਟੈਂਟ ਈਮੇਲ ਸੈਟਿੰਗਾਂ ਲਈ Reports & Tax ਵਰਕਸਪੇਸ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਵਿੱਤੀ ਰਿਪੋਰਟਾਂ ਵੇਖਣੀਆਂ, ਟੈਕਸ ਨਾਲ ਜੁੜੀਆਂ ਮਿਤੀਆਂ ਜਾਂਚਣੀਆਂ ਜਾਂ ਸੰਭਾਲੀ ਰਿਪੋਰਟ/ਸੂਚਨਾ ਖੋਲ੍ਹਣੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Reports & Tax ਚੁਣੋ ਅਤੇ ਸੰਬੰਧਿਤ ਭਾਗ ਖੋਲ੍ਹੋ: Prepare a report, Saved reports archive, Notifications inbox, Tax calendar ਜਾਂ Accountant email।",
+          "inputs": "ਲੋੜੀਂਦੀ ਜਾਣਕਾਰੀ ਚੁਣੇ ਭਾਗ 'ਤੇ ਨਿਰਭਰ ਕਰਦੀ ਹੈ। ਰਿਪੋਰਟਾਂ ਦਰਜ ਕਾਰੋਬਾਰੀ ਡਾਟਾ ਅਤੇ ਚੁਣੀ ਮਿਆਦ ਵਰਤਦੀਆਂ ਹਨ; ਕੈਲੰਡਰ ਅਤੇ ਈਮੇਲ ਦੀਆਂ ਆਪਣੀਆਂ ਸੈਟਿੰਗਾਂ ਹਨ।",
+          "result": "ਚੁਣਿਆ ਰਿਪੋਰਟ, ਆਰਕਾਈਵ, ਸੂਚਨਾ, ਕੈਲੰਡਰ ਜਾਂ ਈਮੇਲ ਵਰਕਸਪੇਸ ਖੁੱਲ੍ਹਦਾ ਹੈ।",
+          "notes": "ਐਪ ਰਿਪੋਰਟਾਂ ਤਿਆਰ ਅਤੇ ਸੰਭਾਲਦੀ ਹੈ ਪਰ ਟੈਕਸ ਰਿਟਰਨ ਆਪਣੇ ਆਪ HMRC ਨੂੰ ਨਹੀਂ ਭੇਜਦੀ। ਰਿਪੋਰਟ ਦੀ ਮਿਆਦ ਅਤੇ ਅੰਕ ਮੂਲ ਰਿਕਾਰਡਾਂ ਨਾਲ ਮਿਲਾਓ ਅਤੇ ਟੈਕਸ ਜ਼ਿੰਮੇਵਾਰੀਆਂ HMRC ਜਾਂ ਆਪਣੇ ਅਕਾਊਂਟੈਂਟ ਨਾਲ ਪੱਕੀਆਂ ਕਰੋ।"
+        },
+        "prs": {
+          "purpose": "فضای Reports & Tax را برای تهیه گزارش، آرشیو گزارش‌های ذخیره‌شده، اعلان‌ها، مهلت‌های مالیاتی و تنظیمات ایمیل حسابدار باز می‌کند.",
+          "when": "وقتی می‌خواهید گزارش مالی را بررسی کنید، تاریخ‌های مالیاتی را ببینید یا گزارش یا اعلان ذخیره‌شده‌ای را باز کنید از این گزینه استفاده کنید.",
+          "how": "Reports & Tax را انتخاب کنید و بخش موردنظر را باز کنید: Prepare a report، Saved reports archive، Notifications inbox، Tax calendar یا Accountant email.",
+          "inputs": "ورودی‌های لازم به بخش انتخاب‌شده بستگی دارد. گزارش‌ها از داده‌های ثبت‌شده کسب‌وکار و دوره انتخابی استفاده می‌کنند؛ تقویم و ایمیل تنظیمات جداگانه دارند.",
+          "result": "فضای گزارش، آرشیو، اعلان، تقویم یا ایمیل انتخاب‌شده باز می‌شود.",
+          "notes": "برنامه گزارش‌ها را تهیه و ذخیره می‌کند، اما اظهارنامه مالیاتی را خودکار به HMRC ارسال نمی‌کند. دوره و ارقام گزارش را با رکوردهای اصلی تطبیق دهید و تعهدات مالیاتی را با HMRC یا حسابدار بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د راپورونو د چمتو کولو، د خوندي شویو راپورونو ارشیف، خبرتیاوو، مالیاتي نېټو او د حسابدار د برېښنالیک د امستنو لپاره Reports & Tax کاري ځای پرانیزي.",
+          "when": "کله چې مالي راپورونه ګورئ، د مالیې اړوند نېټې څېړئ یا خوندي شوی راپور او خبرتیا پرانیزئ، دا وکاروئ.",
+          "how": "Reports & Tax وټاکئ او اړوند برخه پرانیزئ: Prepare a report، Saved reports archive، Notifications inbox، Tax calendar یا Accountant email.",
+          "inputs": "اړین معلومات په ټاکل شوې برخې پورې تړلي دي. راپورونه د سوداګرۍ ثبت شوي معلومات او ټاکل شوې موده کاروي؛ کلیز او برېښنالیک خپلې امستنې لري.",
+          "result": "ټاکل شوی راپور، ارشیف، خبرتیا، کلیز یا برېښنالیک کاري ځای پرانیستل کېږي.",
+          "notes": "اپ راپورونه چمتو او خوندي کوي، خو مالیاتي اظهارنامې په اتومات ډول HMRC ته نه سپاري. د راپور موده او شمېرې له اصلي ریکارډونو سره پرتله کړئ او مالیاتي مکلفیتونه له HMRC یا خپل حسابدار سره تایید کړئ."
+        }
+      },
       "handler_or_behavior": "`show(`"
     },
     {
@@ -3163,8 +3341,8 @@
     }
   ],
   "content_progress": {
-    "completed_entries": 12,
-    "pending_entries": 217,
+    "completed_entries": 14,
+    "pending_entries": 215,
     "completion_scope": "Six fields × eleven languages per entry; reviewed in batches."
   }
 }
