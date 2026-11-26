@@ -3505,8 +3505,25 @@
       "audit_ref": "INV-096",
       "element_id": null,
       "label": "🏢 Company Contracts & Jobs Companies, contracts, company projects, sub-projects and payments",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the company workspace containing companies, contracts, jobs, work packages and payment records.",
+          "when": "when managing a company engagement and its job-level financial records.",
+          "how": "Open the hub and choose the company or job workflow you need.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The company workspace and its available company/job actions are displayed.",
+          "notes": "Company-job financial records are separate from Accountancy records; they are not automatically transferred or combined."
+        },
+        "fa": {
+          "purpose": "بخش شرکت‌ها، قراردادها، کارها، بسته‌های کاری و پرداخت‌های مرتبط با هر کار را باز می‌کند.",
+          "when": "هنگام مدیریت همکاری با یک شرکت و سوابق مالی مربوط به کار آن از این گزینه استفاده کنید.",
+          "how": "بخش را باز کنید و گردش‌کار شرکت یا کار موردنظر را انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "فضای شرکت و گزینه‌های مربوط به شرکت و کار نمایش داده می‌شوند.",
+          "notes": "سوابق مالی کارهای شرکتی از حسابداری عمومی جدا هستند و خودکار به آن منتقل یا با آن ادغام نمی‌شوند."
+        }
+      },
       "handler_or_behavior": "`prOpenCompanyHubFromWorkspace()`"
     },
     {
@@ -3514,8 +3531,25 @@
       "audit_ref": "INV-097",
       "element_id": null,
       "label": "⚙️ Control Panel Manage shared Partners, Workers, Contractors, companies and future settings",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens shared directories for partners, workers and contractors used across project workflows.",
+          "when": "when you need to add, update or reuse a business contact across projects.",
+          "how": "Open Control Panel and select the relevant directory.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The selected shared directory is displayed.",
+          "notes": "A shared record may be reused in multiple projects; verify identity and details before editing."
+        },
+        "fa": {
+          "purpose": "فهرست‌های مشترک شرکا، کارگران و پیمانکاران مورد استفاده در پروژه‌ها را باز می‌کند.",
+          "when": "وقتی می‌خواهید مخاطب کسب‌وکار را در پروژه‌های مختلف اضافه، ویرایش یا دوباره استفاده کنید.",
+          "how": "Control Panel را باز کنید و فهرست مربوط را انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "فهرست مشترک انتخاب‌شده نمایش داده می‌شود.",
+          "notes": "یک سابقه مشترک ممکن است در چند پروژه استفاده شود؛ پیش از ویرایش، هویت و جزئیات را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`prPage(`"
     },
     {
@@ -3523,8 +3557,25 @@
       "audit_ref": "INV-098",
       "element_id": null,
       "label": "➕ New Project Create an independent project",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens a blank form to create an independent project.",
+          "when": "when starting a new job that needs its own scope, agreed value and financial tracking.",
+          "how": "Open New Project, complete the required job details and save the project.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "A new project is created if the save succeeds.",
+          "notes": "Use one project per separately tracked job. Project records are distinct from general Accountancy entries."
+        },
+        "fa": {
+          "purpose": "فرم خالی ایجاد یک پروژه مستقل را باز می‌کند.",
+          "when": "وقتی کاری جدید دارید که به محدوده کار، مبلغ توافق‌شده و پیگیری مالی مستقل نیاز دارد.",
+          "how": "New Project را باز کنید، جزئیات لازم کار را وارد و پروژه را ذخیره کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "در صورت موفقیت ذخیره، پروژه جدید ایجاد می‌شود.",
+          "notes": "برای هر کار مستقل که جداگانه پیگیری می‌شود یک پروژه بسازید. سوابق پروژه از ثبت‌های عمومی حسابداری جدا هستند."
+        }
+      },
       "handler_or_behavior": "`prPage(`"
     },
     {
@@ -3532,8 +3583,25 @@
       "audit_ref": "INV-099",
       "element_id": null,
       "label": "▦ Projects List Search, open and manage existing projects",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Displays saved projects and provides search and status filters.",
+          "when": "when finding, opening or reviewing an existing project.",
+          "how": "Open Projects List, search by project/customer/address and choose All, Open or Completed.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "Matching projects are listed and can be opened.",
+          "notes": "Check the project identity before editing or recording financial information."
+        },
+        "fa": {
+          "purpose": "پروژه‌های ذخیره‌شده را نمایش می‌دهد و امکان جست‌وجو و فیلتر وضعیت را فراهم می‌کند.",
+          "when": "برای یافتن، بازکردن یا بررسی پروژه موجود از این گزینه استفاده کنید.",
+          "how": "Projects List را باز کنید، بر اساس پروژه/مشتری/نشانی جست‌وجو کنید و فیلتر All، Open یا Completed را انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "پروژه‌های منطبق فهرست می‌شوند و قابل بازکردن هستند.",
+          "notes": "پیش از ویرایش یا ثبت اطلاعات مالی، هویت پروژه را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`prPage(`"
     },
     {
@@ -3541,8 +3609,25 @@
       "audit_ref": "INV-100",
       "element_id": null,
       "label": "＋ Add Partner",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Adds another partner-share row to the current project.",
+          "when": "when a project has more than one partner or needs an additional profit-sharing participant.",
+          "how": "Select Add Partner, choose the partner and enter the share percentage for each participant.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "An additional partner row is added to the project form.",
+          "notes": "All partner shares must total 100% before saving; confirm the agreed percentages with the parties."
+        },
+        "fa": {
+          "purpose": "یک ردیف دیگر برای سهم شریک به فرم پروژه فعلی اضافه می‌کند.",
+          "when": "وقتی پروژه بیش از یک شریک دارد یا باید شریک دیگری در تقسیم سود اضافه شود.",
+          "how": "Add Partner را بزنید، شریک را انتخاب و درصد سهم هر نفر را وارد کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "یک ردیف شریک دیگر به فرم پروژه اضافه می‌شود.",
+          "notes": "مجموع سهم همه شرکا باید پیش از ذخیره ۱۰۰٪ باشد؛ درصدهای توافق‌شده را با طرف‌ها بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`prAddPartnerShareRow()`"
     },
     {
@@ -3550,8 +3635,25 @@
       "audit_ref": "INV-101",
       "element_id": null,
       "label": "Save Project",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Validates and saves the project form to the Projects data store.",
+          "when": "after entering or editing the project details and agreed job information.",
+          "how": "Review the project name, customer/job details, agreed price and any partner shares, then select Save Project.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The project is saved if validation and IndexedDB persistence succeed.",
+          "notes": "Do not assume it saved until the status confirms success. Partner percentages must total 100% when partner sharing is enabled."
+        },
+        "fa": {
+          "purpose": "اطلاعات فرم پروژه را اعتبارسنجی و در مخزن داده Projects ذخیره می‌کند.",
+          "when": "پس از واردکردن یا ویرایش جزئیات پروژه و اطلاعات توافق‌شده کار از این گزینه استفاده کنید.",
+          "how": "نام پروژه، جزئیات مشتری/کار، مبلغ توافق‌شده و سهم شرکا را بررسی و Save Project را انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "در صورت موفقیت اعتبارسنجی و ذخیره در IndexedDB، پروژه ذخیره می‌شود.",
+          "notes": "تا زمانی که پیام وضعیت موفقیت را نشان نداده، ذخیره را قطعی فرض نکنید. در صورت فعال‌بودن تقسیم سهم، مجموع درصد شرکا باید ۱۰۰٪ باشد."
+        }
+      },
       "handler_or_behavior": "`prSaveProject()`"
     },
     {
@@ -3559,8 +3661,25 @@
       "audit_ref": "INV-102",
       "element_id": null,
       "label": "Clear Form",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Resets the current project form fields.",
+          "when": "when you want to discard unsaved entries and start a different project form.",
+          "how": "Select Clear Form and verify the fields are empty before entering another project.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The current form is cleared.",
+          "notes": "Unsaved text and selections may be lost. This does not delete a project already saved."
+        },
+        "fa": {
+          "purpose": "فیلدهای فرم پروژه فعلی را پاک و به حالت اولیه برمی‌گرداند.",
+          "when": "وقتی می‌خواهید ورودی‌های ذخیره‌نشده را کنار بگذارید و فرم پروژه دیگری را شروع کنید.",
+          "how": "Clear Form را انتخاب کنید و پیش از ورود پروژه بعدی خالی‌شدن فیلدها را بررسی کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "فرم فعلی پاک می‌شود.",
+          "notes": "متن‌ها و انتخاب‌های ذخیره‌نشده ممکن است از بین بروند. این گزینه پروژه ذخیره‌شده قبلی را حذف نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`prResetProject()`"
     },
     {
@@ -3568,8 +3687,25 @@
       "audit_ref": "INV-103",
       "element_id": null,
       "label": "Edit",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Loads the current project details into the project editor.",
+          "when": "when correcting or updating the scope, agreed value or other saved project details.",
+          "how": "Open the project, select Edit, change the required fields and save the updated project.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The project form opens with the existing values for editing.",
+          "notes": "Check that you are editing the correct project. Changes are not committed until successfully saved."
+        },
+        "fa": {
+          "purpose": "جزئیات پروژه فعلی را در ویرایشگر پروژه بارگذاری می‌کند.",
+          "when": "برای اصلاح یا به‌روزرسانی محدوده کار، مبلغ توافق‌شده یا سایر مشخصات پروژه از این گزینه استفاده کنید.",
+          "how": "پروژه را باز کنید، Edit را بزنید، فیلدهای لازم را تغییر دهید و پروژه به‌روزشده را ذخیره کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "فرم پروژه با مقادیر قبلی برای ویرایش باز می‌شود.",
+          "notes": "مطمئن شوید پروژه درست را ویرایش می‌کنید. تغییرات تا زمان ذخیره موفق ثبت نمی‌شوند."
+        }
+      },
       "handler_or_behavior": "`prEditCurrent()`"
     },
     {
@@ -3577,8 +3713,25 @@
       "audit_ref": "INV-104",
       "element_id": "prCompleteToggle",
       "label": "Complete",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Changes the current project completion status.",
+          "when": "when the job has reached the agreed completion point and you want it marked completed.",
+          "how": "Open the project and select Complete. Review the updated status shown by the app.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The project status is changed to completed if the update succeeds.",
+          "notes": "This is a status change, not a financial settlement. Outstanding payments or costs may still exist."
+        },
+        "fa": {
+          "purpose": "وضعیت تکمیل پروژه فعلی را تغییر می‌دهد.",
+          "when": "وقتی کار به مرحله تکمیل توافق‌شده رسیده و می‌خواهید پروژه را تکمیل‌شده علامت بزنید.",
+          "how": "پروژه را باز کنید و Complete را انتخاب کنید. وضعیت جدید نمایش‌داده‌شده را بررسی کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "در صورت موفقیت، وضعیت پروژه به تکمیل‌شده تغییر می‌کند.",
+          "notes": "این فقط تغییر وضعیت است و به معنی تسویه مالی نیست. ممکن است هنوز پرداخت یا هزینه معوق وجود داشته باشد."
+        }
+      },
       "handler_or_behavior": "`prToggleProjectCompletion()`"
     },
     {
@@ -3586,8 +3739,25 @@
       "audit_ref": "INV-105",
       "element_id": null,
       "label": "Delete",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Deletes the current project after the app’s confirmation flow.",
+          "when": "only when the project is a duplicate or was created in error and its records are no longer required.",
+          "how": "Open the correct project, select Delete and read the confirmation carefully before approving.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The project is deleted only if the confirmation and delete operation succeed.",
+          "notes": "DESTRUCTIVE: project and associated sub-project/financial history may be removed. Export a Projects backup first and check whether the project has financial records. Do not delete merely to mark a job complete."
+        },
+        "fa": {
+          "purpose": "پس از طی مرحله تأیید برنامه، پروژه فعلی را حذف می‌کند.",
+          "when": "فقط وقتی پروژه تکراری است یا اشتباهی ایجاد شده و دیگر به سوابق آن نیاز ندارید از این گزینه استفاده کنید.",
+          "how": "پروژه درست را باز کنید، Delete را بزنید و پیش از تأیید، پیام هشدار را کامل بخوانید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "پروژه فقط در صورت تأیید و موفقیت عملیات حذف، پاک می‌شود.",
+          "notes": "مخرب: پروژه و سوابق مالی/زیرپروژه‌های مرتبط ممکن است حذف شوند. ابتدا از Projects پشتیبان بگیرید و وجود سوابق مالی را بررسی کنید. برای تکمیل کار از حذف استفاده نکنید."
+        }
+      },
       "handler_or_behavior": "`prDeleteCurrent()`"
     },
     {
@@ -3595,8 +3765,25 @@
       "audit_ref": "INV-106",
       "element_id": "prDetailProfitReportButton",
       "label": "📊 Report",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the financial report for the current project.",
+          "when": "when reviewing the recorded income, expenses and current financial result for this job.",
+          "how": "Open the project and select Report. Review the included project and sub-project totals.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The current project’s financial report is displayed.",
+          "notes": "Figures are based on project records, not automatically on Accountancy transactions or tax calculations."
+        },
+        "fa": {
+          "purpose": "گزارش مالی پروژه فعلی را باز می‌کند.",
+          "when": "برای بررسی درآمد، هزینه‌ها و نتیجه مالی فعلی این کار از این گزینه استفاده کنید.",
+          "how": "پروژه را باز کنید و Report را انتخاب کنید. مجموع پروژه و زیرپروژه‌های لحاظ‌شده را بررسی کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "گزارش مالی پروژه فعلی نمایش داده می‌شود.",
+          "notes": "ارقام بر اساس سوابق پروژه هستند و خودکار با تراکنش‌های Accountancy یا محاسبات مالیاتی یکی نیستند."
+        }
+      },
       "handler_or_behavior": "`prOpenCurrentProjectProfitReport()`"
     },
     {
@@ -3604,8 +3791,25 @@
       "audit_ref": "INV-107",
       "element_id": null,
       "label": "Summary",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Displays the summary view for the selected project.",
+          "when": "when you need an overview of project details and key totals.",
+          "how": "Open the project and select Summary in its detail tabs.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The project summary content is displayed.",
+          "notes": "Use the relevant financial tabs for detailed transactions; summary totals may combine parent and sub-project data."
+        },
+        "fa": {
+          "purpose": "نمای خلاصه پروژه انتخاب‌شده را نمایش می‌دهد.",
+          "when": "وقتی به نمای کلی مشخصات و مجموع‌های اصلی پروژه نیاز دارید.",
+          "how": "پروژه را باز کنید و در زبانه‌های جزئیات Summary را انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "محتوای خلاصه پروژه نمایش داده می‌شود.",
+          "notes": "برای مشاهده تراکنش‌های تفصیلی از زبانه مالی مربوط استفاده کنید؛ مجموع خلاصه ممکن است اطلاعات پروژه اصلی و زیرپروژه‌ها را ترکیب کند."
+        }
+      },
       "handler_or_behavior": "`prDetailTab(`"
     },
     {
@@ -3613,8 +3817,25 @@
       "audit_ref": "INV-108",
       "element_id": null,
       "label": "Income",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Displays income records associated with the selected project.",
+          "when": "when reviewing payments or income recorded against the project.",
+          "how": "Open the project and select Income. Review dates, amounts and references.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The project income view is displayed.",
+          "notes": "Record only amounts actually received where the workflow represents received income; avoid duplicating receipts in another area."
+        },
+        "fa": {
+          "purpose": "سوابق درآمد مرتبط با پروژه انتخاب‌شده را نمایش می‌دهد.",
+          "when": "برای بررسی پرداخت‌ها یا درآمدهای ثبت‌شده برای پروژه از این گزینه استفاده کنید.",
+          "how": "پروژه را باز کنید و Income را انتخاب کنید. تاریخ‌ها، مبالغ و مراجع را بررسی کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "نمای درآمد پروژه نمایش داده می‌شود.",
+          "notes": "اگر گردش‌کار نشان‌دهنده درآمد دریافتی است، فقط مبلغ واقعاً دریافت‌شده را ثبت کنید؛ از ثبت تکراری دریافت در بخش دیگر خودداری کنید."
+        }
+      },
       "handler_or_behavior": "`prDetailTab(`"
     },
     {
@@ -3622,8 +3843,25 @@
       "audit_ref": "INV-109",
       "element_id": null,
       "label": "Expenses",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Displays expense records associated with the selected project.",
+          "when": "when reviewing materials, contractor costs, travel or other project spending.",
+          "how": "Open the project and select Expenses. Review each date, category, payee and amount.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The project expense view is displayed.",
+          "notes": "Check the correct project and category; retain receipts and avoid recording the same cost twice."
+        },
+        "fa": {
+          "purpose": "سوابق هزینه‌های مرتبط با پروژه انتخاب‌شده را نمایش می‌دهد.",
+          "when": "برای بررسی هزینه مصالح، پیمانکار، رفت‌وآمد یا سایر مخارج پروژه از این گزینه استفاده کنید.",
+          "how": "پروژه را باز کنید و Expenses را انتخاب کنید. تاریخ، دسته‌بندی، دریافت‌کننده و مبلغ هر مورد را بررسی کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "نمای هزینه‌های پروژه نمایش داده می‌شود.",
+          "notes": "پروژه و دسته‌بندی درست را بررسی کنید؛ رسیدها را نگه دارید و از ثبت دوباره یک هزینه خودداری کنید."
+        }
+      },
       "handler_or_behavior": "`prDetailTab(`"
     },
     {
@@ -3631,8 +3869,25 @@
       "audit_ref": "INV-110",
       "element_id": null,
       "label": "Worker Wages",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Displays worker wage records for the selected project.",
+          "when": "when reviewing labour payments and worker costs assigned to the project.",
+          "how": "Open the project and select Worker Wages. Review worker, date, amount and payment status.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The worker wage view is displayed.",
+          "notes": "Check that each wage is linked to the correct worker and project. Keep supporting payment evidence."
+        },
+        "fa": {
+          "purpose": "سوابق دستمزد کارگران مربوط به پروژه انتخاب‌شده را نمایش می‌دهد.",
+          "when": "برای بررسی پرداخت نیروی کار و هزینه کارگران تخصیص‌یافته به پروژه از این گزینه استفاده کنید.",
+          "how": "پروژه را باز کنید و Worker Wages را انتخاب کنید. کارگر، تاریخ، مبلغ و وضعیت پرداخت را بررسی کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "نمای دستمزد کارگران نمایش داده می‌شود.",
+          "notes": "بررسی کنید هر دستمزد به کارگر و پروژه درست متصل باشد. مدارک پرداخت را نگه دارید."
+        }
+      },
       "handler_or_behavior": "`prDetailTab(`"
     },
     {
@@ -3640,8 +3895,25 @@
       "audit_ref": "INV-111",
       "element_id": null,
       "label": "Tools",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Displays tool-related costs or records for the selected project.",
+          "when": "when reviewing tools or tool-hire costs assigned to this job.",
+          "how": "Open the project and select Tools. Review the listed items and amounts.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The tools view is displayed.",
+          "notes": "Confirm whether an item is a purchase, hire or other cost and use the appropriate accounting treatment separately."
+        },
+        "fa": {
+          "purpose": "سوابق یا هزینه‌های ابزار مربوط به پروژه انتخاب‌شده را نمایش می‌دهد.",
+          "when": "برای بررسی ابزارها یا هزینه اجاره ابزار تخصیص‌یافته به این کار از این گزینه استفاده کنید.",
+          "how": "پروژه را باز کنید و Tools را انتخاب کنید. موارد و مبالغ فهرست‌شده را بررسی کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "نمای ابزارها نمایش داده می‌شود.",
+          "notes": "مشخص کنید هر مورد خرید، اجاره یا هزینه دیگری است و نحوه ثبت حسابداری مناسب را جداگانه بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`prDetailTab(`"
     },
     {
@@ -3649,8 +3921,25 @@
       "audit_ref": "INV-112",
       "element_id": null,
       "label": "Food & Other",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Displays food and miscellaneous costs recorded against the selected project.",
+          "when": "when reviewing site food or other miscellaneous project expenses.",
+          "how": "Open the project and select Food & Other. Review descriptions, dates and amounts.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The Food & Other view is displayed.",
+          "notes": "Use clear descriptions and check that each cost is genuinely attributable to this project."
+        },
+        "fa": {
+          "purpose": "هزینه‌های غذا و مخارج متفرقه ثبت‌شده برای پروژه را نمایش می‌دهد.",
+          "when": "برای بررسی هزینه غذای محل کار یا سایر مخارج متفرقه پروژه از این گزینه استفاده کنید.",
+          "how": "پروژه را باز کنید و Food & Other را انتخاب کنید. شرح، تاریخ و مبلغ را بررسی کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "نمای Food & Other نمایش داده می‌شود.",
+          "notes": "شرح روشن وارد کنید و مطمئن شوید هر هزینه واقعاً به همین پروژه مربوط است."
+        }
+      },
       "handler_or_behavior": "`prDetailTab(`"
     },
     {
@@ -3658,8 +3947,25 @@
       "audit_ref": "INV-113",
       "element_id": null,
       "label": "Reports",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the reports area within the selected project.",
+          "when": "when reviewing or preparing a report about the project’s recorded financial activity.",
+          "how": "Open the project and select Reports. Choose the available report action for the current project.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The project reports view is displayed.",
+          "notes": "Project reports summarise project records; they are not automatically tax submissions or general accounting reports."
+        },
+        "fa": {
+          "purpose": "بخش گزارش‌ها را در پروژه انتخاب‌شده باز می‌کند.",
+          "when": "برای بررسی یا آماده‌سازی گزارش از فعالیت مالی ثبت‌شده پروژه از این گزینه استفاده کنید.",
+          "how": "پروژه را باز کنید و Reports را انتخاب کنید. عملیات گزارش موجود برای پروژه را انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "نمای گزارش‌های پروژه نمایش داده می‌شود.",
+          "notes": "گزارش‌های پروژه سوابق همان پروژه را خلاصه می‌کنند؛ اظهارنامه مالیاتی یا گزارش حسابداری عمومی نیستند."
+        }
+      },
       "handler_or_behavior": "`prDetailTab(`"
     },
     {
@@ -3667,8 +3973,25 @@
       "audit_ref": "INV-114",
       "element_id": null,
       "label": "View Financial Report →",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Generates or opens the financial report for the project selected in the project report selector.",
+          "when": "when you want to review a particular project’s financial position.",
+          "how": "Choose a project in Select project, then select View Financial Report.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The selected project’s income, costs and result are displayed if report generation succeeds.",
+          "notes": "Verify the selected project and whether sub-project records are included. This report is not an HMRC submission."
+        },
+        "fa": {
+          "purpose": "برای پروژه انتخاب‌شده در فهرست گزارش پروژه، گزارش مالی را تولید یا باز می‌کند.",
+          "when": "وقتی می‌خواهید وضعیت مالی یک پروژه مشخص را بررسی کنید.",
+          "how": "در Select project پروژه را انتخاب کنید و View Financial Report را بزنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "در صورت موفقیت، درآمد، هزینه و نتیجه پروژه انتخاب‌شده نمایش داده می‌شود.",
+          "notes": "پروژه انتخاب‌شده و شمول سوابق زیرپروژه‌ها را بررسی کنید. این گزارش به HMRC ارسال نمی‌شود."
+        }
+      },
       "handler_or_behavior": "`prOpenProfitReport()`"
     },
     {
@@ -3676,8 +3999,25 @@
       "audit_ref": "INV-115",
       "element_id": null,
       "label": "Save Partner",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Saves a partner record in the shared partner directory.",
+          "when": "after entering or editing a partner’s contact details.",
+          "how": "Enter the required partner name, add optional contact details and notes, then select Save Partner.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The partner record is saved if validation and persistence succeed.",
+          "notes": "Use accurate contact details and avoid creating duplicate partner records. A saved partner can be reused across projects."
+        },
+        "fa": {
+          "purpose": "یک سابقه شریک را در فهرست مشترک شرکا ذخیره می‌کند.",
+          "when": "پس از واردکردن یا ویرایش اطلاعات تماس شریک از این گزینه استفاده کنید.",
+          "how": "نام اجباری شریک را وارد کنید، اطلاعات تماس و یادداشت اختیاری را اضافه و Save Partner را انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "در صورت موفقیت اعتبارسنجی و ذخیره‌سازی، سابقه شریک ذخیره می‌شود.",
+          "notes": "اطلاعات تماس دقیق وارد کنید و از ساخت سوابق تکراری شریک خودداری کنید. شریک ذخیره‌شده در پروژه‌های مختلف قابل استفاده مجدد است."
+        }
+      },
       "handler_or_behavior": "`prSavePerson(`"
     },
     {
@@ -3685,8 +4025,25 @@
       "audit_ref": "INV-116",
       "element_id": null,
       "label": "Clear",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Clears the current partner form fields.",
+          "when": "when discarding unsaved partner details or preparing to enter another partner.",
+          "how": "Select Clear and check that the partner fields are empty.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The current partner form is reset.",
+          "notes": "This clears unsaved form content; it does not delete an already saved partner."
+        },
+        "fa": {
+          "purpose": "فیلدهای فرم شریک فعلی را پاک می‌کند.",
+          "when": "وقتی می‌خواهید اطلاعات ذخیره‌نشده شریک را کنار بگذارید یا شریک دیگری وارد کنید.",
+          "how": "Clear را انتخاب کنید و خالی‌شدن فیلدهای شریک را بررسی کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "فرم شریک فعلی بازنشانی می‌شود.",
+          "notes": "این گزینه محتوای ذخیره‌نشده فرم را پاک می‌کند و شریک ذخیره‌شده قبلی را حذف نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`prResetPerson(`"
     },
     {
@@ -3694,8 +4051,25 @@
       "audit_ref": "INV-117",
       "element_id": null,
       "label": "Save Contractor",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Saves a contractor or subcontractor in the shared contractor directory.",
+          "when": "after entering or updating a trade contractor’s details.",
+          "how": "Enter the contractor/company name, add optional phone, email and trade notes, then select Save Contractor.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The contractor record is saved if the operation succeeds.",
+          "notes": "Check the trade and contact details. Saved contractors can be selected for project or sub-project expenses."
+        },
+        "fa": {
+          "purpose": "پیمانکار یا پیمانکار جزء را در فهرست مشترک پیمانکاران ذخیره می‌کند.",
+          "when": "پس از واردکردن یا به‌روزرسانی مشخصات پیمانکار فنی از این گزینه استفاده کنید.",
+          "how": "نام پیمانکار/شرکت را وارد کنید، تلفن، ایمیل و شرح تخصص اختیاری را اضافه و Save Contractor را بزنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "در صورت موفقیت عملیات، سابقه پیمانکار ذخیره می‌شود.",
+          "notes": "تخصص و اطلاعات تماس را بررسی کنید. پیمانکار ذخیره‌شده را می‌توان برای هزینه‌های پروژه یا زیرپروژه انتخاب کرد."
+        }
+      },
       "handler_or_behavior": "`prSaveContractor()`"
     },
     {
@@ -3703,8 +4077,25 @@
       "audit_ref": "INV-118",
       "element_id": null,
       "label": "Clear",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Clears the current contractor form.",
+          "when": "when discarding unsaved contractor details or starting a new contractor entry.",
+          "how": "Select Clear and confirm the contractor fields have been emptied.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The current contractor form is reset.",
+          "notes": "Only the form is cleared; saved contractor records remain in the directory."
+        },
+        "fa": {
+          "purpose": "فرم پیمانکار فعلی را پاک می‌کند.",
+          "when": "وقتی می‌خواهید اطلاعات ذخیره‌نشده پیمانکار را کنار بگذارید یا پیمانکار جدیدی وارد کنید.",
+          "how": "Clear را انتخاب کنید و خالی‌شدن فیلدهای پیمانکار را بررسی کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "فرم پیمانکار فعلی بازنشانی می‌شود.",
+          "notes": "فقط فرم پاک می‌شود؛ سوابق پیمانکاران ذخیره‌شده در فهرست باقی می‌مانند."
+        }
+      },
       "handler_or_behavior": "`prResetContractor()`"
     },
     {
@@ -3712,8 +4103,25 @@
       "audit_ref": "INV-119",
       "element_id": null,
       "label": "Save Worker",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Saves a worker record in the shared worker directory.",
+          "when": "after entering or editing a worker’s name and optional contact information.",
+          "how": "Enter the required worker name, add optional phone and notes, then select Save Worker.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The worker record is saved if the operation succeeds.",
+          "notes": "Use a consistent worker record for project wage entries. Check for duplicates before saving."
+        },
+        "fa": {
+          "purpose": "سابقه کارگر را در فهرست مشترک کارگران ذخیره می‌کند.",
+          "when": "پس از واردکردن یا ویرایش نام کارگر و اطلاعات تماس اختیاری از این گزینه استفاده کنید.",
+          "how": "نام اجباری کارگر را وارد کنید، تلفن و یادداشت اختیاری را اضافه و Save Worker را انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "در صورت موفقیت عملیات، سابقه کارگر ذخیره می‌شود.",
+          "notes": "برای ثبت دستمزد پروژه از سابقه ثابت همان کارگر استفاده کنید. پیش از ذخیره، وجود سابقه تکراری را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`prSavePerson(`"
     },
     {
@@ -3721,8 +4129,25 @@
       "audit_ref": "INV-120",
       "element_id": null,
       "label": "Clear",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Clears the current worker form fields.",
+          "when": "when discarding unsaved worker details or entering a different worker.",
+          "how": "Select Clear and verify the worker fields are empty.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The current worker form is reset.",
+          "notes": "This does not delete a saved worker or remove wage history."
+        },
+        "fa": {
+          "purpose": "فیلدهای فرم کارگر فعلی را پاک می‌کند.",
+          "when": "وقتی می‌خواهید اطلاعات ذخیره‌نشده کارگر را کنار بگذارید یا کارگر دیگری وارد کنید.",
+          "how": "Clear را انتخاب کنید و خالی‌شدن فیلدهای کارگر را بررسی کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "فرم کارگر فعلی بازنشانی می‌شود.",
+          "notes": "این گزینه کارگر ذخیره‌شده یا سوابق دستمزد او را حذف نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`prResetPerson(`"
     },
     {
@@ -3730,8 +4155,25 @@
       "audit_ref": "INV-121",
       "element_id": null,
       "label": "👤 Partners Manage shared partner records",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the shared list of business partners.",
+          "when": "when reviewing or maintaining partner records used in project profit sharing.",
+          "how": "Open Control Panel and choose Partners.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The partners directory and its available actions are displayed.",
+          "notes": "Partner records may affect project share calculations; update them carefully and retain agreed share terms separately."
+        },
+        "fa": {
+          "purpose": "فهرست مشترک شرکای کسب‌وکار را باز می‌کند.",
+          "when": "برای بررسی یا نگهداری سوابق شرکایی که در تقسیم سود پروژه استفاده می‌شوند از این گزینه استفاده کنید.",
+          "how": "Control Panel را باز کنید و Partners را انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "فهرست شرکا و عملیات موجود نمایش داده می‌شود.",
+          "notes": "سوابق شریک ممکن است بر محاسبات سهم پروژه اثر بگذارند؛ آن‌ها را با دقت ویرایش کنید و شرایط توافق‌شده سهم را جداگانه نگه دارید."
+        }
+      },
       "handler_or_behavior": "`prPage(`"
     },
     {
@@ -3739,8 +4181,25 @@
       "audit_ref": "INV-122",
       "element_id": null,
       "label": "👷 Workers Manage shared worker records",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the shared list of workers available for project wage records.",
+          "when": "when maintaining worker details or selecting a worker for a project.",
+          "how": "Open Control Panel and choose Workers.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The workers directory and its available actions are displayed.",
+          "notes": "A worker may be referenced by multiple projects. Deactivation or editing can affect future selection; retain historical wage records."
+        },
+        "fa": {
+          "purpose": "فهرست مشترک کارگران قابل استفاده در سوابق دستمزد پروژه را باز می‌کند.",
+          "when": "برای نگهداری مشخصات کارگران یا انتخاب کارگر برای یک پروژه از این گزینه استفاده کنید.",
+          "how": "Control Panel را باز کنید و Workers را انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "فهرست کارگران و عملیات موجود نمایش داده می‌شود.",
+          "notes": "یک کارگر ممکن است در چند پروژه ارجاع داده شده باشد. غیرفعال‌سازی یا ویرایش می‌تواند انتخاب‌های آینده را تغییر دهد؛ سوابق دستمزد گذشته را نگه دارید."
+        }
+      },
       "handler_or_behavior": "`prPage(`"
     },
     {
@@ -3748,8 +4207,25 @@
       "audit_ref": "INV-123",
       "element_id": null,
       "label": "🧰 Contractors Manage trades and subcontractors",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the shared list of trade contractors and subcontractors.",
+          "when": "when maintaining contractor details or selecting a supplier for project costs.",
+          "how": "Open Control Panel and choose Contractors.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The contractors directory and its available actions are displayed.",
+          "notes": "Contractor records are reusable references; actual costs still need to be recorded against the correct project or work package."
+        },
+        "fa": {
+          "purpose": "فهرست مشترک پیمانکاران فنی و پیمانکاران جزء را باز می‌کند.",
+          "when": "برای نگهداری مشخصات پیمانکار یا انتخاب تأمین‌کننده خدمات برای هزینه پروژه از این گزینه استفاده کنید.",
+          "how": "Control Panel را باز کنید و Contractors را انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "فهرست پیمانکاران و عملیات موجود نمایش داده می‌شود.",
+          "notes": "سوابق پیمانکار برای ارجاع مجدد استفاده می‌شوند؛ هزینه واقعی همچنان باید به پروژه یا بسته کاری درست نسبت داده شود."
+        }
+      },
       "handler_or_behavior": "`prPage(`"
     },
     {
@@ -3757,8 +4233,25 @@
       "audit_ref": "INV-124",
       "element_id": null,
       "label": "➕ Add Company Register a company and its main contract",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the form to register a company and its main contract.",
+          "when": "when starting to manage a new contracting company or client organisation.",
+          "how": "Select Add Company, enter the company and main-contract details requested, then save.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "A company record and its main contract are created if validation succeeds.",
+          "notes": "Verify legal/business name and agreed contract details. Company records and financials remain within the Company Contracts & Jobs workspace."
+        },
+        "fa": {
+          "purpose": "فرم ثبت شرکت و قرارداد اصلی آن را باز می‌کند.",
+          "when": "وقتی می‌خواهید مدیریت یک شرکت پیمانکاری یا سازمان مشتری جدید را شروع کنید، از این گزینه استفاده کنید.",
+          "how": "Add Company را انتخاب کنید، مشخصات شرکت و قرارداد اصلی درخواستی را وارد و ذخیره کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "در صورت موفقیت اعتبارسنجی، سابقه شرکت و قرارداد اصلی ایجاد می‌شود.",
+          "notes": "نام حقوقی/تجاری و جزئیات قرارداد توافق‌شده را بررسی کنید. سوابق و امور مالی شرکت در فضای Company Contracts & Jobs باقی می‌مانند."
+        }
+      },
       "handler_or_behavior": "`coOpenCompanyMode(`"
     },
     {
@@ -3766,8 +4259,25 @@
       "audit_ref": "INV-125",
       "element_id": null,
       "label": "🏢 Companies List Find companies and open their jobs",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Displays registered companies and allows opening their jobs.",
+          "when": "when finding a company or accessing its contracts and jobs.",
+          "how": "Open Companies List, search or select the required company, then open its job list.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "Registered companies are listed and the selected company’s jobs can be opened.",
+          "notes": "Check the company identity before adding payments, expenses or work packages."
+        },
+        "fa": {
+          "purpose": "شرکت‌های ثبت‌شده را نمایش می‌دهد و امکان بازکردن کارهای آن‌ها را فراهم می‌کند.",
+          "when": "برای یافتن شرکت یا دسترسی به قراردادها و کارهای آن از این گزینه استفاده کنید.",
+          "how": "Companies List را باز کنید، شرکت موردنظر را جست‌وجو یا انتخاب و سپس فهرست کارهای آن را باز کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "شرکت‌های ثبت‌شده فهرست می‌شوند و کارهای شرکت انتخاب‌شده قابل بازکردن هستند.",
+          "notes": "پیش از افزودن پرداخت، هزینه یا بسته کاری، هویت شرکت را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`coOpenCompanyMode(`"
     },
     {
@@ -3775,8 +4285,25 @@
       "audit_ref": "INV-126",
       "element_id": null,
       "label": "📊 Company Project Profit & Loss Review income, costs and results by company and job",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the financial performance view for a company and its jobs.",
+          "when": "when reviewing income, deductions, expenses and results by company/job.",
+          "how": "Open the company financial report and select the relevant company or job if prompted.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The company/job profit-and-loss information is displayed.",
+          "notes": "This is based on Company Contracts & Jobs records only and is not combined with Accountancy. Confirm payment and deduction treatment with the accountant where required."
+        },
+        "fa": {
+          "purpose": "نمای عملکرد مالی یک شرکت و کارهای آن را باز می‌کند.",
+          "when": "برای بررسی درآمد، کسورات، هزینه‌ها و نتیجه مالی به تفکیک شرکت یا کار از این گزینه استفاده کنید.",
+          "how": "گزارش مالی شرکت را باز کنید و در صورت درخواست، شرکت یا کار مربوط را انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "اطلاعات سود و زیان شرکت/کار نمایش داده می‌شود.",
+          "notes": "این گزارش فقط بر سوابق Company Contracts & Jobs متکی است و با Accountancy ادغام نمی‌شود. در صورت نیاز نحوه برخورد با پرداخت و کسورات را با حسابدار بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`prPage(`"
     },
     {
@@ -3784,8 +4311,25 @@
       "audit_ref": "INV-127",
       "element_id": null,
       "label": "Save Company",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Validates and saves the company details entered in the company form.",
+          "when": "after entering or editing the company’s main details and contract information.",
+          "how": "Review the company name and required contract details, then select Save Company.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The company record is saved if validation and storage succeed.",
+          "notes": "Check the correct company and avoid duplicate registrations. Confirm the save status before leaving."
+        },
+        "fa": {
+          "purpose": "اطلاعات شرکت واردشده در فرم را اعتبارسنجی و ذخیره می‌کند.",
+          "when": "پس از واردکردن یا ویرایش مشخصات اصلی شرکت و اطلاعات قرارداد از این گزینه استفاده کنید.",
+          "how": "نام شرکت و جزئیات اجباری قرارداد را بررسی و Save Company را انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "در صورت موفقیت اعتبارسنجی و ذخیره‌سازی، سابقه شرکت ذخیره می‌شود.",
+          "notes": "شرکت درست را بررسی و از ثبت تکراری خودداری کنید. پیش از خروج پیام وضعیت ذخیره را تأیید کنید."
+        }
+      },
       "handler_or_behavior": "`coSaveCompany()`"
     },
     {
@@ -3793,8 +4337,25 @@
       "audit_ref": "INV-128",
       "element_id": null,
       "label": "Clear Form",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Clears the current company form fields.",
+          "when": "when discarding unsaved company details or preparing to enter another company.",
+          "how": "Select Clear Form and verify the fields have been emptied.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The current company form is reset.",
+          "notes": "This does not delete a company record already saved."
+        },
+        "fa": {
+          "purpose": "فیلدهای فرم شرکت فعلی را پاک می‌کند.",
+          "when": "وقتی می‌خواهید اطلاعات ذخیره‌نشده شرکت را کنار بگذارید یا شرکت دیگری وارد کنید.",
+          "how": "Clear Form را انتخاب کنید و خالی‌شدن فیلدها را بررسی کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "فرم شرکت فعلی بازنشانی می‌شود.",
+          "notes": "این گزینه سابقه شرکتی را که قبلاً ذخیره شده حذف نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`coResetCompany()`"
     },
     {
@@ -3802,8 +4363,25 @@
       "audit_ref": "INV-129",
       "element_id": null,
       "label": "Save Job",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Saves a job under the selected company.",
+          "when": "after entering the job details and agreed work information.",
+          "how": "Confirm the parent company, job name, agreed amount and other required details, then select Save Job.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The job is saved under the selected company if validation succeeds.",
+          "notes": "Check the parent company carefully. Job receipts, expenses and payments belong to this company-job record, not general Accountancy."
+        },
+        "fa": {
+          "purpose": "یک کار را زیر شرکت انتخاب‌شده ذخیره می‌کند.",
+          "when": "پس از واردکردن جزئیات کار و اطلاعات توافق‌شده آن از این گزینه استفاده کنید.",
+          "how": "شرکت مادر، نام کار، مبلغ توافق‌شده و سایر جزئیات لازم را بررسی و Save Job را انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "در صورت موفقیت اعتبارسنجی، کار زیر شرکت انتخاب‌شده ذخیره می‌شود.",
+          "notes": "شرکت مادر را با دقت بررسی کنید. رسیدها، هزینه‌ها و پرداخت‌های کار به همین سابقه شرکت-کار تعلق دارند، نه حسابداری عمومی."
+        }
+      },
       "handler_or_behavior": "`coSaveJob()`"
     },
     {
@@ -3811,8 +4389,25 @@
       "audit_ref": "INV-130",
       "element_id": null,
       "label": "Clear Job Form",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Clears the current job form.",
+          "when": "when discarding unsaved job details or starting a different job entry.",
+          "how": "Select Clear Job Form and check that the job fields are empty.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The current job form is reset.",
+          "notes": "Only unsaved form values are cleared; saved jobs and their financial history remain."
+        },
+        "fa": {
+          "purpose": "فرم کار فعلی را پاک می‌کند.",
+          "when": "وقتی می‌خواهید جزئیات ذخیره‌نشده کار را کنار بگذارید یا کار دیگری وارد کنید.",
+          "how": "Clear Job Form را انتخاب کنید و خالی‌شدن فیلدهای کار را بررسی کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "فرم کار فعلی بازنشانی می‌شود.",
+          "notes": "فقط مقادیر ذخیره‌نشده فرم پاک می‌شوند؛ کارهای ذخیره‌شده و سوابق مالی آن‌ها باقی می‌مانند."
+        }
+      },
       "handler_or_behavior": "`coResetJob()`"
     },
     {
@@ -3820,8 +4415,25 @@
       "audit_ref": "INV-131",
       "element_id": null,
       "label": "Save Work Package",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Saves a work package or sub-project within the selected company job.",
+          "when": "when splitting a job into separate scopes such as a bathroom, kitchen or approved variation.",
+          "how": "Enter the package name, type, agreed amount, approval/execution status and any supporting notes, then select Save Work Package.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The work package is saved under the current job if validation succeeds.",
+          "notes": "Only approved variations should affect the agreed total. Keep approval evidence for changes to scope or price."
+        },
+        "fa": {
+          "purpose": "یک بسته کاری یا زیرپروژه را در کار شرکتی انتخاب‌شده ذخیره می‌کند.",
+          "when": "وقتی می‌خواهید کار را به محدوده‌های جدا مانند حمام، آشپزخانه یا تغییر کار تأییدشده تقسیم کنید، از این گزینه استفاده کنید.",
+          "how": "نام بسته، نوع، مبلغ توافق‌شده، وضعیت تأیید/اجرا و یادداشت‌های لازم را وارد و Save Work Package را انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "در صورت موفقیت اعتبارسنجی، بسته کاری زیر کار فعلی ذخیره می‌شود.",
+          "notes": "فقط تغییرات کارِ تأییدشده باید مبلغ توافق‌شده را تغییر دهند. مدارک تأیید تغییر محدوده یا قیمت را نگه دارید."
+        }
+      },
       "handler_or_behavior": "`coSaveSub()`"
     },
     {
@@ -3829,8 +4441,25 @@
       "audit_ref": "INV-132",
       "element_id": null,
       "label": "Clear",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Clears the current work package form fields.",
+          "when": "when discarding unsaved package details or entering a different scope.",
+          "how": "Select Clear and verify the package fields are empty.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The current work package form is reset.",
+          "notes": "This does not delete an already saved work package or its financial records."
+        },
+        "fa": {
+          "purpose": "فیلدهای فرم بسته کاری فعلی را پاک می‌کند.",
+          "when": "وقتی می‌خواهید جزئیات ذخیره‌نشده بسته را کنار بگذارید یا محدوده دیگری وارد کنید.",
+          "how": "Clear را انتخاب کنید و خالی‌شدن فیلدهای بسته کاری را بررسی کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "فرم بسته کاری فعلی بازنشانی می‌شود.",
+          "notes": "این گزینه بسته کاری ذخیره‌شده یا سوابق مالی آن را حذف نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`coResetSub()`"
     },
     {
@@ -3838,8 +4467,25 @@
       "audit_ref": "INV-133",
       "element_id": null,
       "label": "Add Expense",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Adds an expense to the selected work package’s financial records.",
+          "when": "when recording a cost directly attributable to a particular work package.",
+          "how": "Enter the expense date and amount, choose a category, add supplier/payee and description, attach evidence if available, then select Add Expense.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The expense is added to that package if validation and saving succeed.",
+          "notes": "Use the correct package and record only the actual cost. Retain receipts; do not duplicate a cost already entered elsewhere."
+        },
+        "fa": {
+          "purpose": "هزینه‌ای به سوابق مالی بسته کاری انتخاب‌شده اضافه می‌کند.",
+          "when": "وقتی می‌خواهید هزینه‌ای را که مستقیماً به یک بسته کاری مربوط است ثبت کنید.",
+          "how": "تاریخ و مبلغ هزینه را وارد کنید، دسته‌بندی را انتخاب کنید، فروشنده/دریافت‌کننده و شرح را بنویسید و در صورت وجود مدرک پیوست کنید؛ سپس Add Expense را بزنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "در صورت موفقیت اعتبارسنجی و ذخیره، هزینه به همان بسته اضافه می‌شود.",
+          "notes": "بسته درست را انتخاب و فقط هزینه واقعی را ثبت کنید. رسیدها را نگه دارید و هزینه ثبت‌شده در بخش دیگر را دوباره وارد نکنید."
+        }
+      },
       "handler_or_behavior": "`coAddPackageExpense()`"
     },
     {
@@ -3847,8 +4493,25 @@
       "audit_ref": "INV-134",
       "element_id": null,
       "label": "Record Payment",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Records a payment actually received for the selected company job.",
+          "when": "when a customer/company payment has arrived and you need to record its gross amount, deductions and net receipt.",
+          "how": "Enter the payment date, gross amount, deduction type and amount, tax/VAT treatment, net amount and reference; attach remittance evidence if available, then select Record Payment.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The payment is stored in that job’s records if the operation succeeds.",
+          "notes": "Record only money actually received. Check gross, deductions and net reconcile. This payment is not posted, linked or copied to Accountancy; ask the accountant about tax/CIS/VAT treatment if uncertain."
+        },
+        "fa": {
+          "purpose": "پرداختی را که واقعاً برای کار شرکتی انتخاب‌شده دریافت شده ثبت می‌کند.",
+          "when": "وقتی پرداخت مشتری/شرکت دریافت شده و باید مبلغ ناخالص، کسورات و دریافتی خالص آن ثبت شود، از این گزینه استفاده کنید.",
+          "how": "تاریخ پرداخت، مبلغ ناخالص، نوع و مبلغ کسری، نحوه برخورد مالیاتی/VAT، مبلغ خالص و مرجع را وارد کنید؛ در صورت وجود رسید پرداخت پیوست و Record Payment را انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "در صورت موفقیت، پرداخت در سوابق همان کار ذخیره می‌شود.",
+          "notes": "فقط پولی را ثبت کنید که واقعاً دریافت شده است. تطابق مبلغ ناخالص، کسورات و خالص را بررسی کنید. این پرداخت به Accountancy منتقل یا کپی نمی‌شود؛ اگر درباره مالیات/CIS/VAT مطمئن نیستید از حسابدار بپرسید."
+        }
+      },
       "handler_or_behavior": "`coRecordPayment()`"
     },
     {
@@ -3856,8 +4519,25 @@
       "audit_ref": "INV-136",
       "element_id": null,
       "label": "Confirm payment",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Records the payment details for an invoice marked for payment confirmation.",
+          "when": "when the customer has paid and you need to record the payment date and method.",
+          "how": "Check the invoice, choose the actual payment date and method, then select Confirm payment.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The invoice payment status is updated if the confirmation succeeds.",
+          "notes": "Confirm only after funds have actually been received. This action changes invoice payment status; check whether a corresponding accounting entry is required separately."
+        },
+        "fa": {
+          "purpose": "جزئیات پرداخت فاکتوری را که برای تأیید پرداخت انتخاب شده ثبت می‌کند.",
+          "when": "وقتی مشتری پرداخت کرده و باید تاریخ و روش پرداخت را ثبت کنید، از این گزینه استفاده کنید.",
+          "how": "فاکتور را بررسی کنید، تاریخ واقعی پرداخت و روش آن را انتخاب و Confirm payment را بزنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "در صورت موفقیت تأیید، وضعیت پرداخت فاکتور به‌روزرسانی می‌شود.",
+          "notes": "فقط پس از دریافت واقعی وجه تأیید کنید. این عملیات وضعیت پرداخت فاکتور را تغییر می‌دهد؛ بررسی کنید آیا ثبت حسابداری متناظر باید جداگانه انجام شود."
+        }
+      },
       "handler_or_behavior": "`confirmInvoicePaid()`"
     },
     {
@@ -3865,8 +4545,25 @@
       "audit_ref": "INV-137",
       "element_id": null,
       "label": "‹ Previous",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Moves the current paginated list to the previous page.",
+          "when": "when viewing later pages of a long project, company or record list.",
+          "how": "Select Previous while it is enabled.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The preceding page of list results is displayed.",
+          "notes": "This is navigation only and does not change stored records."
+        },
+        "fa": {
+          "purpose": "فهرست صفحه‌بندی‌شده فعلی را به صفحه قبلی می‌برد.",
+          "when": "وقتی در حال مشاهده صفحات بعدی یک فهرست طولانی پروژه، شرکت یا سوابق هستید، از این گزینه استفاده کنید.",
+          "how": "در صورت فعال‌بودن، Previous را انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "صفحه قبلی نتایج فهرست نمایش داده می‌شود.",
+          "notes": "این فقط ناوبری است و سوابق ذخیره‌شده را تغییر نمی‌دهد."
+        }
+      },
       "handler_or_behavior": "`changeListPage(`"
     },
     {
@@ -3874,8 +4571,25 @@
       "audit_ref": "INV-138",
       "element_id": null,
       "label": "${p}",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Jumps to the selected page in the current paginated list.",
+          "when": "when you want to move directly to a nearby page of results.",
+          "how": "Select the required page number from the pagination controls.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The selected page of results is displayed.",
+          "notes": "Only available page numbers can be selected; this does not edit or delete records."
+        },
+        "fa": {
+          "purpose": "به صفحه انتخاب‌شده در فهرست صفحه‌بندی‌شده فعلی می‌رود.",
+          "when": "وقتی می‌خواهید مستقیماً به صفحه مشخصی از نتایج بروید، از این گزینه استفاده کنید.",
+          "how": "شماره صفحه موردنظر را از کنترل‌های صفحه‌بندی انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "صفحه انتخاب‌شده نتایج نمایش داده می‌شود.",
+          "notes": "فقط شماره صفحه‌های موجود قابل انتخاب هستند؛ این گزینه سوابق را ویرایش یا حذف نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`changeListPage(`"
     },
     {
@@ -3883,8 +4597,25 @@
       "audit_ref": "INV-139",
       "element_id": null,
       "label": "=pages?'disabled':''} onclick=\"changeListPage('${key}',${page+1},'${renderer}')\">Next ›",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Moves the current paginated list to the next page.",
+          "when": "when more results are available beyond the current page.",
+          "how": "Select Next while it is enabled.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The next page of list results is displayed.",
+          "notes": "This is navigation only. The button is unavailable on the final page."
+        },
+        "fa": {
+          "purpose": "فهرست صفحه‌بندی‌شده فعلی را به صفحه بعد می‌برد.",
+          "when": "وقتی پس از صفحه فعلی نتایج بیشتری وجود دارد، از این گزینه استفاده کنید.",
+          "how": "در صورت فعال‌بودن، Next را انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "صفحه بعدی نتایج فهرست نمایش داده می‌شود.",
+          "notes": "این فقط ناوبری است. در آخرین صفحه، دکمه غیرفعال است."
+        }
+      },
       "handler_or_behavior": "`event/property listener`"
     },
     {
@@ -3892,8 +4623,25 @@
       "audit_ref": "INV-141",
       "element_id": null,
       "label": "'+esc(expenseCategoryLabel(x,g.id))+'",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Selects a category from the expense category picker.",
+          "when": "when classifying an expense so project or accounting reports group it correctly.",
+          "how": "Open the category picker and select the closest matching category.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The selected category is applied to the relevant expense form.",
+          "notes": "Check the category before saving; category choice affects reporting and should reflect the real nature of the cost."
+        },
+        "fa": {
+          "purpose": "دسته‌بندی هزینه را از انتخابگر دسته‌ها انتخاب می‌کند.",
+          "when": "برای طبقه‌بندی هزینه تا گزارش‌های پروژه یا حسابداری آن را درست گروه‌بندی کنند، از این گزینه استفاده کنید.",
+          "how": "انتخابگر دسته‌بندی را باز کنید و نزدیک‌ترین دسته مناسب را انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "دسته انتخاب‌شده روی فرم هزینه اعمال می‌شود.",
+          "notes": "پیش از ذخیره دسته را بررسی کنید؛ انتخاب دسته بر گزارش‌ها اثر می‌گذارد و باید ماهیت واقعی هزینه را نشان دهد."
+        }
+      },
       "handler_or_behavior": "`chooseCategoryFromButton(this)`"
     },
     {
@@ -3901,8 +4649,25 @@
       "audit_ref": "INV-142",
       "element_id": null,
       "label": "＋ Add New One",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the form to create a new expense category in the selected category group.",
+          "when": "when no existing category accurately describes the expense.",
+          "how": "Select Add New One, enter a clear category name and save it if the form accepts it.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "A new category is added to the selected group if validation and saving succeed.",
+          "notes": "Avoid near-duplicate names and choose the correct group. A category label does not determine tax deductibility."
+        },
+        "fa": {
+          "purpose": "فرم ایجاد دسته‌بندی جدید هزینه را در گروه انتخاب‌شده باز می‌کند.",
+          "when": "وقتی هیچ دسته موجودی ماهیت هزینه را به‌درستی توصیف نمی‌کند، از این گزینه استفاده کنید.",
+          "how": "Add New One را بزنید، نام روشن برای دسته وارد و در صورت پذیرش فرم آن را ذخیره کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "در صورت موفقیت اعتبارسنجی و ذخیره، دسته جدید به گروه انتخاب‌شده افزوده می‌شود.",
+          "notes": "از نام‌های تقریباً تکراری پرهیز و گروه درست را انتخاب کنید. نام دسته به‌تنهایی قابل‌قبول‌بودن هزینه از نظر مالیاتی را تعیین نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`openExpenseCategoryAddScreen(this.dataset.addGroup)`"
     },
     {
@@ -3910,8 +4675,25 @@
       "audit_ref": "INV-143",
       "element_id": null,
       "label": "📎 View receipt",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the receipt image attached to the relevant expense or record.",
+          "when": "when checking supporting evidence for a recorded expense.",
+          "how": "Select View receipt on the relevant record and inspect the enlarged image.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The attached receipt image opens in a viewer.",
+          "notes": "Check that the receipt belongs to this transaction and is readable. Viewing does not change the record."
+        },
+        "fa": {
+          "purpose": "تصویر رسید پیوست‌شده به هزینه یا سابقه مربوط را باز می‌کند.",
+          "when": "برای بررسی مدرک پشتیبان هزینه ثبت‌شده از این گزینه استفاده کنید.",
+          "how": "در سابقه موردنظر View receipt را انتخاب و تصویر بزرگ‌شده را بررسی کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "تصویر رسید پیوست‌شده در نمایشگر باز می‌شود.",
+          "notes": "بررسی کنید رسید متعلق به همین تراکنش و خوانا باشد. مشاهده تصویر، سابقه را تغییر نمی‌دهد."
+        }
+      },
       "handler_or_behavior": "`openReceiptImage(document.getElementById(`"
     },
     {
@@ -3919,8 +4701,25 @@
       "audit_ref": "INV-144",
       "element_id": null,
       "label": "📎",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the receipt image associated with the selected record.",
+          "when": "when a paperclip/receipt icon appears beside a transaction and you need to inspect its attachment.",
+          "how": "Select the paperclip icon and review the displayed image.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The linked receipt image is displayed if an attachment exists.",
+          "notes": "The icon is a view action only. It does not upload, replace or remove the attachment."
+        },
+        "fa": {
+          "purpose": "تصویر رسید مرتبط با سابقه انتخاب‌شده را باز می‌کند.",
+          "when": "وقتی نماد گیره/رسید کنار تراکنش دیده می‌شود و می‌خواهید پیوست آن را بررسی کنید، از این گزینه استفاده کنید.",
+          "how": "نماد گیره را انتخاب و تصویر نمایش‌داده‌شده را بررسی کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "اگر پیوستی وجود داشته باشد، تصویر رسید مرتبط نمایش داده می‌شود.",
+          "notes": "این نماد فقط برای مشاهده است و پیوست را بارگذاری، جایگزین یا حذف نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`openReceiptImage(this.dataset.receipt)`"
     },
     {
@@ -3928,8 +4727,25 @@
       "audit_ref": "INV-145",
       "element_id": null,
       "label": "OK",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Closes the confirmation dialog shown after an entry is saved.",
+          "when": "after reading the saved-entry confirmation and when you are ready to return to the form.",
+          "how": "Select OK to close the message.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The confirmation dialog closes.",
+          "notes": "This does not undo the saved entry. Verify the record in the list if you need to confirm its details."
+        },
+        "fa": {
+          "purpose": "پیام تأیید ذخیره ثبت را می‌بندد.",
+          "when": "پس از خواندن پیام ذخیره موفق و زمانی که آماده بازگشت به فرم هستید، از این گزینه استفاده کنید.",
+          "how": "برای بستن پیام، OK را انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "پنجره تأیید بسته می‌شود.",
+          "notes": "این کار ثبت ذخیره‌شده را برنمی‌گرداند. اگر لازم است جزئیات را تأیید کنید، سابقه را در فهرست بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`closeEntrySavedDialog()`"
     },
     {
@@ -3937,8 +4753,25 @@
       "audit_ref": "INV-146",
       "element_id": null,
       "label": "View",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the selected invoice from the records list.",
+          "when": "when you need to inspect an invoice without navigating through the invoice workspace first.",
+          "how": "Select View beside the relevant invoice record.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The selected invoice details are displayed.",
+          "notes": "Check the invoice number and customer before printing or taking further action. Viewing does not mark it paid."
+        },
+        "fa": {
+          "purpose": "فاکتور انتخاب‌شده را از فهرست سوابق باز می‌کند.",
+          "when": "وقتی می‌خواهید بدون رفتن به فضای فاکتورها، فاکتور را بررسی کنید، از این گزینه استفاده کنید.",
+          "how": "در کنار سابقه فاکتور موردنظر View را انتخاب کنید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "جزئیات فاکتور انتخاب‌شده نمایش داده می‌شود.",
+          "notes": "پیش از چاپ یا اقدام بعدی، شماره فاکتور و مشتری را بررسی کنید. مشاهده فاکتور آن را پرداخت‌شده علامت نمی‌زند."
+        }
+      },
       "handler_or_behavior": "`viewRecordInvoice(\\`"
     },
     {
@@ -3946,8 +4779,25 @@
       "audit_ref": "INV-147",
       "element_id": null,
       "label": "Delete",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Deletes or marks the selected invoice as deleted through the invoice deletion workflow.",
+          "when": "only when the invoice is a duplicate or was created in error and should no longer remain active.",
+          "how": "Check the invoice number, customer and payment status, select Delete and review the confirmation before proceeding.",
+          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "result": "The invoice is removed from the active view or marked deleted if the operation succeeds.",
+          "notes": "DESTRUCTIVE: deleting an invoice can affect customer history, reports and audit trails. Check whether it has been issued or paid; retain a copy and follow your record-retention obligations. Do not delete to hide a genuine transaction."
+        },
+        "fa": {
+          "purpose": "فاکتور انتخاب‌شده را از طریق گردش‌کار حذف فاکتور حذف یا به‌عنوان حذف‌شده علامت‌گذاری می‌کند.",
+          "when": "فقط وقتی فاکتور تکراری است یا اشتباهی ایجاد شده و نباید فعال بماند، از این گزینه استفاده کنید.",
+          "how": "شماره فاکتور، مشتری و وضعیت پرداخت را بررسی کنید، Delete را بزنید و پیش از ادامه پیام تأیید را بخوانید.",
+          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "result": "در صورت موفقیت، فاکتور از نمای فعال خارج یا به‌عنوان حذف‌شده علامت‌گذاری می‌شود.",
+          "notes": "مخرب: حذف فاکتور می‌تواند بر سابقه مشتری، گزارش‌ها و ردپای حسابرسی اثر بگذارد. بررسی کنید صادر یا پرداخت شده است یا نه؛ نسخه‌ای نگه دارید و الزامات نگهداری سوابق را رعایت کنید. برای پنهان‌کردن تراکنش واقعی حذف نکنید."
+        }
+      },
       "handler_or_behavior": "`deleteInvoice(\\`"
     },
     {
@@ -4862,8 +5712,8 @@
   ],
   "content_progress": {
     "completed_entries": 20,
-    "draft_entries": 58,
-    "pending_entries": 151,
+    "draft_entries": 108,
+    "pending_entries": 101,
     "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written."
   }
 }
