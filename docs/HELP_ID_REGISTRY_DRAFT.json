@@ -3375,8 +3375,25 @@
       "audit_ref": "INV-090",
       "element_id": null,
       "label": "💼 Business Workspace",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the Business Workspace for project management, company contracts and shared business controls.",
+          "when": "Use this when managing project costs and records, company jobs or shared business people and settings.",
+          "how": "Select Business Workspace from the main menu and wait for its data to load. Choose the required workspace from its navigation.",
+          "inputs": "No information is required just to open the workspace.",
+          "result": "The Business Workspace opens and makes its available work areas accessible.",
+          "notes": "This workspace is separate from the Accountancy area. Project and company-job figures should not be assumed to be accounting transactions unless separately recorded in Accountancy."
+        },
+        "fa": {
+          "purpose": "فضای کاری کسب‌وکار را برای مدیریت پروژه‌ها، قراردادهای شرکتی و کنترل‌های مشترک کسب‌وکار باز می‌کند.",
+          "when": "برای مدیریت هزینه و سوابق پروژه، کارهای شرکتی یا افراد و تنظیمات مشترک کسب‌وکار از این گزینه استفاده کنید.",
+          "how": "از منوی اصلی Business Workspace را انتخاب کنید و منتظر بارگذاری داده‌ها بمانید. سپس بخش موردنیاز را از منوی داخلی انتخاب کنید.",
+          "inputs": "برای صرفاً بازکردن فضای کاری اطلاعاتی لازم نیست.",
+          "result": "فضای کاری کسب‌وکار باز می‌شود و بخش‌های در دسترس آن را نمایش می‌دهد.",
+          "notes": "این فضا از بخش Accountancy جدا است. ارقام پروژه و کارهای شرکتی را نباید خودکار تراکنش حسابداری فرض کرد، مگر اینکه جداگانه در Accountancy ثبت شده باشند."
+        }
+      },
       "handler_or_behavior": "`prPage(`"
     },
     {
@@ -3384,8 +3401,25 @@
       "audit_ref": "INV-091",
       "element_id": null,
       "label": "📁 Projects",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the Projects area for creating and managing individual work projects.",
+          "when": "Use this when you want to track the agreed value, costs, income, expenses and profitability of a particular job.",
+          "how": "Select Projects, then choose the relevant project action such as creating a project or opening an existing one.",
+          "inputs": "Project details depend on the action selected; a new project normally needs a name and other required job details.",
+          "result": "The Projects workspace displays its project tools and saved project records.",
+          "notes": "Project records are separate from general Accountancy records. Keep project costs and payments accurate and avoid entering the same transaction twice in separate systems unless the workflow requires it."
+        },
+        "fa": {
+          "purpose": "بخش Projects را برای ایجاد و مدیریت پروژه‌های کاری جداگانه باز می‌کند.",
+          "when": "وقتی می‌خواهید ارزش توافق‌شده، هزینه‌ها، درآمد، مخارج و سودآوری یک کار مشخص را پیگیری کنید، از این گزینه استفاده کنید.",
+          "how": "Projects را انتخاب کنید و سپس عملیات موردنظر، مانند ایجاد پروژه یا بازکردن پروژه موجود، را انتخاب کنید.",
+          "inputs": "اطلاعات لازم به عملیات انتخاب‌شده بستگی دارد؛ پروژه جدید معمولاً به نام و سایر جزئیات اجباری کار نیاز دارد.",
+          "result": "ابزارهای پروژه و سوابق ذخیره‌شده در فضای Projects نمایش داده می‌شوند.",
+          "notes": "سوابق پروژه از سوابق عمومی Accountancy جدا هستند. هزینه‌ها و پرداخت‌های پروژه را دقیق نگه دارید و از ثبت دوباره یک تراکنش در دو سیستم خودداری کنید، مگر اینکه گردش‌کار چنین چیزی بخواهد."
+        }
+      },
       "handler_or_behavior": "`prPage(`"
     },
     {
@@ -3393,8 +3427,25 @@
       "audit_ref": "INV-092",
       "element_id": null,
       "label": "🏢 Company Contracts & Jobs",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the company contracts and jobs area for organising company work.",
+          "when": "Use this when managing work assigned to a company, its jobs, work packages, costs or payments.",
+          "how": "Select Company Contracts & Jobs and choose the company or job you need to manage.",
+          "inputs": "The information required depends on whether you are creating or opening a company or job.",
+          "result": "The company contracts and jobs workspace opens with its available records and controls.",
+          "notes": "Check that costs, work packages and payments are attached to the correct company and job. This workspace is distinct from the standalone contract document area."
+        },
+        "fa": {
+          "purpose": "بخش Company Contracts & Jobs را برای سازمان‌دهی کارهای شرکتی باز می‌کند.",
+          "when": "برای مدیریت کارهای واگذارشده به یک شرکت، پروژه‌های کاری، بسته‌های کاری، هزینه‌ها یا پرداخت‌ها از این گزینه استفاده کنید.",
+          "how": "Company Contracts & Jobs را انتخاب کنید و شرکت یا کاری را که می‌خواهید مدیریت کنید باز کنید.",
+          "inputs": "اطلاعات لازم به این بستگی دارد که شرکت یا کار جدید ایجاد می‌کنید یا مورد موجود را باز می‌کنید.",
+          "result": "فضای قراردادها و کارهای شرکتی با سوابق و کنترل‌های موجود باز می‌شود.",
+          "notes": "بررسی کنید هزینه‌ها، بسته‌های کاری و پرداخت‌ها به شرکت و کار درست متصل باشند. این فضا با بخش مستقل اسناد قرارداد تفاوت دارد."
+        }
+      },
       "handler_or_behavior": "`prPage(`"
     },
     {
@@ -3402,8 +3453,25 @@
       "audit_ref": "INV-093",
       "element_id": null,
       "label": "⚙️ Control Panel",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the shared Control Panel for business people and related shared settings.",
+          "when": "Use this when managing shared partners, workers or contractors used by the business workspaces.",
+          "how": "Select Control Panel and open the relevant people or settings section.",
+          "inputs": "Inputs depend on the person or setting being added or edited.",
+          "result": "The shared control panel displays the available management sections and saved information.",
+          "notes": "Changes to shared people or settings may affect multiple projects or company jobs. Check the selected person and details carefully before saving."
+        },
+        "fa": {
+          "purpose": "پنل کنترل مشترک را برای مدیریت افراد کسب‌وکار و تنظیمات مرتبط باز می‌کند.",
+          "when": "وقتی می‌خواهید شرکا، کارگران یا پیمانکاران مشترک میان فضاهای کاری کسب‌وکار را مدیریت کنید، از این گزینه استفاده کنید.",
+          "how": "Control Panel را انتخاب کنید و بخش مربوط به افراد یا تنظیمات را باز کنید.",
+          "inputs": "ورودی‌ها به شخص یا تنظیمی که اضافه یا ویرایش می‌کنید بستگی دارند.",
+          "result": "پنل کنترل مشترک، بخش‌های مدیریتی و اطلاعات ذخیره‌شده را نمایش می‌دهد.",
+          "notes": "تغییر افراد یا تنظیمات مشترک ممکن است بر چند پروژه یا کار شرکتی اثر بگذارد. پیش از ذخیره، شخص انتخاب‌شده و جزئیات او را با دقت بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`prPage(`"
     },
     {
@@ -3411,8 +3479,25 @@
       "audit_ref": "INV-095",
       "element_id": null,
       "label": "📁 Projects New Project, Projects List and Project Profit & Loss",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the Projects sub-workspace, including project creation, the project list and project profit-and-loss view.",
+          "when": "Use this when creating a new job project, finding an existing project or reviewing its financial performance.",
+          "how": "Open Projects. Use New Project to create a project, Projects List to find saved work, or Project Profit & Loss to review the selected project’s figures.",
+          "inputs": "A new project requires the details requested by its form. Selecting an existing project requires choosing it from the list.",
+          "result": "The selected project workflow opens, or the app displays the saved project list or the selected project’s profit-and-loss summary.",
+          "notes": "Project profit and loss is based on project records and may differ from the Accountancy dashboard or tax figures. Verify the project and date range before relying on the totals."
+        },
+        "fa": {
+          "purpose": "زیر‌بخش Projects را باز می‌کند که شامل ایجاد پروژه، فهرست پروژه‌ها و نمای سود و زیان پروژه است.",
+          "when": "برای ایجاد پروژه کاری جدید، یافتن پروژه موجود یا بررسی عملکرد مالی آن از این گزینه استفاده کنید.",
+          "how": "Projects را باز کنید. برای ایجاد پروژه از New Project، برای یافتن کارهای ذخیره‌شده از Projects List و برای بررسی ارقام پروژه انتخاب‌شده از Project Profit & Loss استفاده کنید.",
+          "inputs": "پروژه جدید به اطلاعات درخواستی فرم نیاز دارد. برای انتخاب پروژه موجود باید آن را از فهرست انتخاب کنید.",
+          "result": "گردش‌کار پروژه انتخاب‌شده باز می‌شود یا فهرست پروژه‌های ذخیره‌شده و خلاصه سود و زیان پروژه نمایش داده می‌شود.",
+          "notes": "سود و زیان پروژه بر اساس سوابق همان پروژه محاسبه می‌شود و ممکن است با داشبورد Accountancy یا ارقام مالیاتی متفاوت باشد. پیش از اتکا به مجموع‌ها، پروژه و بازه تاریخ را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`prPage(`"
     },
     {
@@ -4777,8 +4862,8 @@
   ],
   "content_progress": {
     "completed_entries": 20,
-    "draft_entries": 53,
-    "pending_entries": 156,
+    "draft_entries": 58,
+    "pending_entries": 151,
     "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written."
   }
 }
