@@ -98,7 +98,7 @@
 
 ### DEP-TIME-001 — زمان Last Updated به دلیل وابستگی به GitHub API نمایش داده نمی‌شد
 
-- **وضعیت فعلی:** Reopened در R40؛ روش Last-Modified در R37 زمان پایان Deploy را تضمین نمی‌کرد. اصلاح R40 در انتظار Gate، انتشار Preview و تست Safari است.
+- **وضعیت فعلی:** R40 در Preview منتشر شده و Gate و Pages موفق‌اند؛ تست iPhone Safari کاربر همچنان در انتظار است.
 - **تاریخ:** 2026-11-17
 - **علائم:** زمان آخرین به‌روزرسانی در بنر Preview و/یا Version Details نمایش داده نمی‌شد.
 - **محیط:** Preview repo؛ نسخه برنامه 273 / R11؛ Build ID نهایی R20.
@@ -153,9 +153,11 @@
 - **معنای زمان:** زمان پایان اجرای موفق workflow انتشار GitHub Pages از فیلد `updated_at` است؛ نه زمان ثبت commit یا زمان آماده‌سازی build.
 - **Build ID هدف:** `THA-273-R11-PREVIEW-20261126-R40`.
 - **Commit کد در development:** `f963213015cc7b156d8118bea6a6f56260c39f81`.
-- **PR:** #93 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/93؛ منتظر Gate و merge.
+- **PR:** #93 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/93؛ merged.
+- **Merge commit:** `e4ea1b2163ff24ce57cc6827d641f91bed09906f`.
 - **Version Authority Gate:** PASS؛ PR run `45904866886` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45904866886.
-- **Preview Pages deployment:** pending؛ منتظر merge و اجرای موفق Pages برای R40.
+- **Preview Pages deployment:** PASS؛ run `45905004795` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45905004795؛ build، deploy و report-build-status برای merge commit R40 موفق شدند.
+- **Version Authority Gate روی main:** PASS؛ run `45905005638` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45905005638.
 - **تست استاتیک:** PASS؛ هر 8 بلوک inline JavaScript با V8 syntax compilation بررسی شدند. منبع GET عمومی بدون header سفارشی، فیلتر workflow دقیق Pages، سرویس مشترک و fallback بدون تاریخ کهنه تأیید شد.
 - **تست iPhone Safari:** not tested؛ منتظر بررسی کاربر پس از انتشار Preview.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
