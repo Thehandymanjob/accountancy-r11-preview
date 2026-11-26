@@ -154,8 +154,9 @@
 - **Build ID هدف:** `THA-273-R11-PREVIEW-20261126-R40`.
 - **Commit کد در development:** `f963213015cc7b156d8118bea6a6f56260c39f81`.
 - **PR:** #93 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/93؛ منتظر Gate و merge.
-- **Version Authority Gate / Pages deployment:** pending.
-- **تست استاتیک:** بررسی source assertion برای endpoint، فیلتر workflow، timestamp مشترک و fallback موفق؛ بررسی syntax و Gate نهایی pending.
+- **Version Authority Gate:** PASS؛ PR run `45904866886` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45904866886.
+- **Preview Pages deployment:** pending؛ منتظر merge و اجرای موفق Pages برای R40.
+- **تست استاتیک:** PASS؛ هر 8 بلوک inline JavaScript با V8 syntax compilation بررسی شدند. منبع GET عمومی بدون header سفارشی، فیلتر workflow دقیق Pages، سرویس مشترک و fallback بدون تاریخ کهنه تأیید شد.
 - **تست iPhone Safari:** not tested؛ منتظر بررسی کاربر پس از انتشار Preview.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
 
