@@ -37,8 +37,97 @@
       "audit_ref": "INV-001",
       "element_id": null,
       "label": "🧾 Accountancy Income, expenses, invoices and reports ›",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_COMPLETE",
+      "translations": {
+        "en": {
+          "purpose": "Open the bookkeeping area for income, expenses, customers, invoices and reports.",
+          "when": "Use this when you need to record or review business finances.",
+          "how": "Select Accountancy from the main menu. Wait for the accounting area to finish loading before entering records.",
+          "inputs": "No information is required just to open this area.",
+          "result": "The Accountancy dashboard and navigation become available if its data services initialise successfully.",
+          "notes": "If an IndexedDB startup error appears, stop entering data and resolve the error first. Opening the area does not itself save a transaction."
+        },
+        "fa": {
+          "purpose": "ورود به بخش حسابداری برای مدیریت درآمدها، هزینه‌ها، مشتریان، فاکتورها و گزارش‌ها.",
+          "when": "وقتی می‌خواهید امور مالی کسب‌وکار را ثبت یا بررسی کنید از این گزینه استفاده کنید.",
+          "how": "از منوی اصلی «Accountancy» را انتخاب کنید. پیش از ثبت اطلاعات منتظر بمانید تا بخش حسابداری کامل بارگذاری شود.",
+          "inputs": "برای باز کردن این بخش اطلاعاتی لازم نیست.",
+          "result": "در صورت راه‌اندازی موفق سرویس‌های داده، داشبورد و منوی حسابداری نمایش داده می‌شوند.",
+          "notes": "اگر خطای راه‌اندازی IndexedDB نمایش داده شد، ثبت اطلاعات را متوقف کنید تا خطا برطرف شود. باز کردن این بخش به‌تنهایی تراکنشی ذخیره نمی‌کند."
+        },
+        "ar": {
+          "purpose": "فتح قسم المحاسبة لإدارة الدخل والمصروفات والعملاء والفواتير والتقارير.",
+          "when": "استخدم هذا الخيار عندما تريد تسجيل الشؤون المالية للنشاط التجاري أو مراجعتها.",
+          "how": "اختر Accountancy من القائمة الرئيسية وانتظر حتى يكتمل تحميل القسم قبل إدخال أي سجلات.",
+          "inputs": "لا يلزم إدخال معلومات لمجرد فتح هذا القسم.",
+          "result": "تظهر لوحة المحاسبة والتنقل إذا تمت تهيئة خدمات البيانات بنجاح.",
+          "notes": "إذا ظهر خطأ في بدء تشغيل IndexedDB، فتوقف عن إدخال البيانات حتى يتم حل المشكلة. فتح القسم لا يحفظ معاملة بحد ذاته."
+        },
+        "ckb": {
+          "purpose": "کردنەوەی بەشی ژمێریاری بۆ بەڕێوەبردنی داهات، خەرجی، کڕیار، پسووڵە و ڕاپۆرتەکان.",
+          "when": "کاتێک دەتەوێت کاروباری دارایی تۆمار بکەیت یان پێداچوونەوەی بۆ بکەیت، ئەم هەڵبژاردەیە بەکاربهێنە.",
+          "how": "لە پێڕستی سەرەکی Accountancy هەڵبژێرە و چاوەڕێ بکە تا بەشەکە تەواو بارببێت، پاشان زانیاری تۆمار بکە.",
+          "inputs": "بۆ تەنها کردنەوەی ئەم بەشە هیچ زانیارییەک پێویست نییە.",
+          "result": "ئەگەر خزمەتگوزارییەکانی داتا بە سەرکەوتوویی ئامادە بن، داشبۆرد و پێڕستی ژمێریاری دەردەکەون.",
+          "notes": "ئەگەر هەڵەی دەستپێکردنی IndexedDB دەرکەوت، تۆمارکردن بوەستێنە تا چارەسەر بکرێت. کردنەوەی بەشەکە بەخۆی مامەڵەیەک پاشەکەوت ناکات."
+        },
+        "kmr": {
+          "purpose": "Vebijêrka hesabê ji bo rêvebirina dahat, lêçûn, xerîdar, fatûre û raporan veke.",
+          "when": "Dema ku dixwazî darayîya karsaziyê tomar bikî an kontrol bikî vê bikar bîne.",
+          "how": "Ji menuya sereke Accountancy hilbijêre. Berî tomarkirina daneyan li benda barkirina temam a vê beşê bimîne.",
+          "inputs": "Ji bo vekirina vê beşê tenê tu agahî nehewce ye.",
+          "result": "Ger karûbarên daneyan bi serkeftî dest pê bikin, dashboard û menuya hesabê xuya dibin.",
+          "notes": "Ger çewtiya destpêka IndexedDB xuya bibe, tomarkirinê rawestîne heta ku were çareserkirin. Vekirina vê beşê bi xwe danûstandinekê tomar nake."
+        },
+        "tr": {
+          "purpose": "Gelir, gider, müşteriler, faturalar ve raporları yönetmek için Muhasebe bölümünü açar.",
+          "when": "İşletme mali kayıtlarını girmek veya incelemek istediğinizde kullanın.",
+          "how": "Ana menüden Accountancy seçeneğini seçin. Kayıt girmeden önce bölümün tamamen yüklenmesini bekleyin.",
+          "inputs": "Bu bölümü açmak için bilgi girmeniz gerekmez.",
+          "result": "Veri hizmetleri başarıyla başlatılırsa muhasebe panosu ve menüsü açılır.",
+          "notes": "IndexedDB başlatma hatası görünürse sorun çözülene kadar veri girmeyin. Bölümü açmak tek başına işlem kaydetmez."
+        },
+        "pl": {
+          "purpose": "Otwiera księgowość do obsługi przychodów, wydatków, klientów, faktur i raportów.",
+          "when": "Użyj tej opcji, gdy chcesz wprowadzić lub sprawdzić dane finansowe firmy.",
+          "how": "Wybierz Accountancy w menu głównym. Przed wprowadzaniem danych poczekaj na pełne załadowanie sekcji.",
+          "inputs": "Samo otwarcie tej sekcji nie wymaga podawania danych.",
+          "result": "Jeśli usługi danych uruchomią się prawidłowo, pojawi się pulpit i menu księgowości.",
+          "notes": "Jeśli pojawi się błąd uruchamiania IndexedDB, nie wprowadzaj danych, dopóki problem nie zostanie rozwiązany. Otwarcie sekcji samo w sobie nie zapisuje transakcji."
+        },
+        "ur": {
+          "purpose": "آمدنی، اخراجات، صارفین، انوائسز اور رپورٹس کے انتظام کے لیے اکاؤنٹنگ سیکشن کھولتا ہے۔",
+          "when": "جب آپ کاروبار کے مالی ریکارڈ درج کرنا یا دیکھنا چاہیں تو اسے استعمال کریں۔",
+          "how": "مرکزی مینو سے Accountancy منتخب کریں۔ ریکارڈ درج کرنے سے پہلے سیکشن مکمل لوڈ ہونے کا انتظار کریں۔",
+          "inputs": "صرف یہ سیکشن کھولنے کے لیے کسی معلومات کی ضرورت نہیں۔",
+          "result": "اگر ڈیٹا سروسز کامیابی سے شروع ہوں تو اکاؤنٹنگ ڈیش بورڈ اور مینو دستیاب ہو جاتے ہیں۔",
+          "notes": "اگر IndexedDB شروع ہونے میں خرابی آئے تو مسئلہ حل ہونے تک ڈیٹا درج نہ کریں۔ سیکشن کھولنے سے خود کوئی لین دین محفوظ نہیں ہوتا۔"
+        },
+        "pa": {
+          "purpose": "ਆਮਦਨ, ਖਰਚੇ, ਗਾਹਕਾਂ, ਇਨਵੌਇਸਾਂ ਅਤੇ ਰਿਪੋਰਟਾਂ ਦੇ ਪ੍ਰਬੰਧ ਲਈ ਅਕਾਊਂਟੈਂਸੀ ਭਾਗ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਕਾਰੋਬਾਰ ਦੇ ਵਿੱਤੀ ਰਿਕਾਰਡ ਦਰਜ ਕਰਨ ਜਾਂ ਵੇਖਣੇ ਹੋਣ ਤਾਂ ਇਸਦੀ ਵਰਤੋਂ ਕਰੋ।",
+          "how": "ਮੁੱਖ ਮੀਨੂ ਵਿੱਚੋਂ Accountancy ਚੁਣੋ। ਰਿਕਾਰਡ ਦਰਜ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਭਾਗ ਦੇ ਪੂਰੀ ਤਰ੍ਹਾਂ ਲੋਡ ਹੋਣ ਦੀ ਉਡੀਕ ਕਰੋ।",
+          "inputs": "ਇਹ ਭਾਗ ਖੋਲ੍ਹਣ ਲਈ ਕੋਈ ਜਾਣਕਾਰੀ ਦੇਣ ਦੀ ਲੋੜ ਨਹੀਂ।",
+          "result": "ਜੇ ਡਾਟਾ ਸੇਵਾਵਾਂ ਸਫਲਤਾਪੂਰਵਕ ਸ਼ੁਰੂ ਹੋਣ ਤਾਂ ਅਕਾਊਂਟੈਂਸੀ ਡੈਸ਼ਬੋਰਡ ਅਤੇ ਮੀਨੂ ਉਪਲਬਧ ਹੋ ਜਾਂਦੇ ਹਨ।",
+          "notes": "ਜੇ IndexedDB ਸ਼ੁਰੂ ਹੋਣ ਦੀ ਗਲਤੀ ਆਵੇ ਤਾਂ ਸਮੱਸਿਆ ਹੱਲ ਹੋਣ ਤੱਕ ਡਾਟਾ ਨਾ ਭਰੋ। ਭਾਗ ਖੋਲ੍ਹਣ ਨਾਲ ਆਪਣੇ ਆਪ ਕੋਈ ਲੈਣ-ਦੇਣ ਸੇਵ ਨਹੀਂ ਹੁੰਦਾ।"
+        },
+        "prs": {
+          "purpose": "بخش حسابداری را برای مدیریت درآمدها، هزینه‌ها، مشتریان، فاکتورها و گزارش‌ها باز می‌کند.",
+          "when": "هنگامی از این گزینه استفاده کنید که می‌خواهید اطلاعات مالی کسب‌وکار را ثبت یا بررسی کنید.",
+          "how": "از منوی اصلی Accountancy را انتخاب کنید. پیش از ثبت اطلاعات، منتظر بمانید تا بخش به‌طور کامل بارگذاری شود.",
+          "inputs": "برای باز کردن این بخش نیازی به واردکردن اطلاعات نیست.",
+          "result": "اگر خدمات داده با موفقیت راه‌اندازی شوند، داشبورد و منوی حسابداری نمایش داده می‌شوند.",
+          "notes": "اگر خطای راه‌اندازی IndexedDB ظاهر شد، تا رفع مشکل از ثبت اطلاعات خودداری کنید. بازکردن این بخش به‌تنهایی هیچ معامله‌ای را ذخیره نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د عایداتو، لګښتونو، پېرودونکو، بلونو او راپورونو د سمبالولو لپاره د حسابدارۍ برخه پرانیزي.",
+          "when": "کله چې غواړئ د سوداګرۍ مالي معلومات ثبت یا وڅېړئ، دا وکاروئ.",
+          "how": "له اصلي مېنو څخه Accountancy وټاکئ. د معلوماتو تر ثبت مخکې د برخې د بشپړ بارېدو انتظار وکړئ.",
+          "inputs": "د دې برخې د پرانیستلو لپاره هېڅ معلوماتو ته اړتیا نشته.",
+          "result": "که د معلوماتو خدمتونه په بریالیتوب پیل شي، د حسابدارۍ ډشبورډ او مېنو ښکاره کېږي.",
+          "notes": "که د IndexedDB د پیل تېروتنه ښکاره شي، تر حل کېدو پورې معلومات مه ثبتوئ. د برخې پرانیستل پخپله معامله نه خوندي کوي."
+        }
+      },
       "handler_or_behavior": "`openAccountancy()`"
     },
     {
@@ -46,8 +135,97 @@
       "audit_ref": "INV-002",
       "element_id": null,
       "label": "💼 Business Workspace Projects, Company Contracts & Jobs, and Control Panel ›",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_COMPLETE",
+      "translations": {
+        "en": {
+          "purpose": "Open the Business Workspace for projects, company contracts and the shared control panel.",
+          "when": "Use this when managing job costs, project records, company work or shared people and settings.",
+          "how": "Select Business Workspace from the main menu and wait for project data to load.",
+          "inputs": "No information is required to open the workspace.",
+          "result": "The workspace opens on its main page and loads project and people lists when available.",
+          "notes": "If the workspace reports that IndexedDB is unavailable, do not retry destructive actions or assume data was changed; the app reports that no project data was changed on this startup failure."
+        },
+        "fa": {
+          "purpose": "ورود به فضای کاری کسب‌وکار برای مدیریت پروژه‌ها، قراردادهای شرکتی و پنل کنترل مشترک.",
+          "when": "وقتی می‌خواهید هزینه‌ها و اطلاعات پروژه، کارهای شرکتی یا فهرست افراد مشترک را مدیریت کنید.",
+          "how": "از منوی اصلی «Business Workspace» را انتخاب کنید و منتظر بارگذاری اطلاعات پروژه بمانید.",
+          "inputs": "برای باز کردن فضای کاری اطلاعاتی لازم نیست.",
+          "result": "فضای کاری در صفحه اصلی باز می‌شود و در صورت دسترس بودن، فهرست پروژه‌ها و افراد را بارگذاری می‌کند.",
+          "notes": "اگر پیام در دسترس نبودن IndexedDB نمایش داده شد، عملیات مخرب را تکرار نکنید و فرض نکنید داده‌ای تغییر کرده است؛ برنامه اعلام می‌کند که در این خطای راه‌اندازی داده پروژه تغییر نکرده است."
+        },
+        "ar": {
+          "purpose": "فتح مساحة عمل النشاط التجاري لإدارة المشاريع وعقود الشركات ولوحة التحكم المشتركة.",
+          "when": "استخدمها لإدارة تكاليف الوظائف وسجلات المشاريع وأعمال الشركات وقوائم الأشخاص المشتركة.",
+          "how": "اختر Business Workspace من القائمة الرئيسية وانتظر تحميل بيانات المشاريع.",
+          "inputs": "لا يلزم إدخال معلومات لفتح مساحة العمل.",
+          "result": "تفتح مساحة العمل على صفحتها الرئيسية وتحمل قوائم المشاريع والأشخاص عند توفرها.",
+          "notes": "إذا أفادت المساحة بأن IndexedDB غير متاح، فلا تكرر الإجراءات المدمرة ولا تفترض أن البيانات تغيرت؛ يوضح التطبيق أن بيانات المشاريع لم تتغير عند فشل بدء التشغيل هذا."
+        },
+        "ckb": {
+          "purpose": "کردنەوەی شوێنی کاری بازرگانی بۆ بەڕێوەبردنی پڕۆژەکان، گرێبەستی کۆمپانیا و پانێڵی کۆنترۆڵی هاوبەش.",
+          "when": "کاتێک دەتەوێت تێچووی کار، تۆماری پڕۆژە، کاری کۆمپانیا یان لیستی هاوبەشی کەسان بەڕێوەببەیت، بەکاریبهێنە.",
+          "how": "لە پێڕستی سەرەکی Business Workspace هەڵبژێرە و چاوەڕێی باربوونی داتای پڕۆژەکان بکە.",
+          "inputs": "بۆ کردنەوەی شوێنی کار هیچ زانیارییەک پێویست نییە.",
+          "result": "شوێنی کار لە پەڕەی سەرەکی دەکرێتەوە و ئەگەر بەردەست بن لیستی پڕۆژە و کەسەکان بار دەکات.",
+          "notes": "ئەگەر پەیامی نەبوونی IndexedDB دەرکەوت، کردارە وێرانکەرەکان دووبارە مەکەوە و وا مەزانە داتا گۆڕاوە؛ بەرنامە دەڵێت لەم هەڵەیەی دەستپێکردندا داتای پڕۆژە نەگۆڕاوە."
+        },
+        "kmr": {
+          "purpose": "Cihê xebata karsaziyê ji bo rêvebirina projeyan, peymanên pargîdanî û panela kontrolê ya hevpar veke.",
+          "when": "Dema ku lêçûnên kar, tomarên projeyê, karên pargîdanî an lîsteyên kesên hevpar rêve dibî, vê bikar bîne.",
+          "how": "Ji menuya sereke Business Workspace hilbijêre û li benda barkirina daneyên projeyê bimîne.",
+          "inputs": "Ji bo vekirina cihê xebatê agahî nehewce ye.",
+          "result": "Cihê xebatê li ser rûpela sereke vedibe û dema peyda bin lîsteyên projeyan û kesan bar dike.",
+          "notes": "Ger peyama nebûna IndexedDB xuya bibe, kiryarên hilweşîner dubare neke û texmîn neke ku daneyên hatine guhertin; sepan dibêje ku di vê têkçûna destpêkê de daneyên projeyê neguherîne."
+        },
+        "tr": {
+          "purpose": "Projeleri, şirket sözleşmelerini ve ortak kontrol panelini yönetmek için İş Alanı'nı açar.",
+          "when": "İş maliyetlerini, proje kayıtlarını, şirket işlerini veya ortak kişi listelerini yönettiğinizde kullanın.",
+          "how": "Ana menüden Business Workspace seçeneğini seçin ve proje verilerinin yüklenmesini bekleyin.",
+          "inputs": "Çalışma alanını açmak için bilgi gerekmez.",
+          "result": "Çalışma alanı ana sayfasında açılır; kullanılabilir olduğunda proje ve kişi listelerini yükler.",
+          "notes": "IndexedDB kullanılamıyor uyarısı görünürse veri silen/değiştiren işlemleri tekrarlamayın ve verilerin değiştiğini varsaymayın; uygulama bu başlatma hatasında proje verilerinin değişmediğini bildirir."
+        },
+        "pl": {
+          "purpose": "Otwiera obszar pracy do zarządzania projektami, umowami firmowymi i wspólnym panelem sterowania.",
+          "when": "Użyj go do zarządzania kosztami zleceń, danymi projektów, pracą firmową lub wspólnymi listami osób.",
+          "how": "Wybierz Business Workspace w menu głównym i poczekaj na załadowanie danych projektów.",
+          "inputs": "Do otwarcia obszaru nie są wymagane żadne dane.",
+          "result": "Obszar otworzy stronę główną i załaduje listy projektów oraz osób, jeśli będą dostępne.",
+          "notes": "Jeśli pojawi się komunikat o niedostępności IndexedDB, nie ponawiaj działań destrukcyjnych i nie zakładaj, że dane uległy zmianie; aplikacja informuje, że przy tym błędzie uruchamiania dane projektów nie zostały zmienione."
+        },
+        "ur": {
+          "purpose": "پروجیکٹس، کمپنی معاہدوں اور مشترکہ کنٹرول پینل کے لیے بزنس ورک اسپیس کھولتا ہے۔",
+          "when": "جب آپ کام کے اخراجات، پروجیکٹ ریکارڈ، کمپنی کے کام یا مشترکہ افراد کی فہرستیں سنبھال رہے ہوں تو اسے استعمال کریں۔",
+          "how": "مرکزی مینو سے Business Workspace منتخب کریں اور پروجیکٹ ڈیٹا لوڈ ہونے کا انتظار کریں۔",
+          "inputs": "ورک اسپیس کھولنے کے لیے کسی معلومات کی ضرورت نہیں۔",
+          "result": "ورک اسپیس اپنے مرکزی صفحے پر کھلتا ہے اور دستیابی کی صورت میں پروجیکٹس اور افراد کی فہرستیں لوڈ کرتا ہے۔",
+          "notes": "اگر IndexedDB دستیاب نہ ہونے کا پیغام آئے تو ڈیٹا مٹانے یا بدلنے والے اقدامات دوبارہ نہ کریں اور یہ نہ سمجھیں کہ ڈیٹا بدل گیا ہے؛ ایپ اس آغاز کی ناکامی پر بتاتی ہے کہ پروجیکٹ ڈیٹا تبدیل نہیں ہوا۔"
+        },
+        "pa": {
+          "purpose": "ਪ੍ਰੋਜੈਕਟਾਂ, ਕੰਪਨੀ ਦੇ ਇਕਰਾਰਨਾਮਿਆਂ ਅਤੇ ਸਾਂਝੇ ਕੰਟਰੋਲ ਪੈਨਲ ਲਈ ਬਿਜ਼ਨਸ ਵਰਕਸਪੇਸ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਤੁਸੀਂ ਕੰਮ ਦੇ ਖਰਚੇ, ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ, ਕੰਪਨੀ ਦਾ ਕੰਮ ਜਾਂ ਸਾਂਝੀਆਂ ਵਿਅਕਤੀ ਸੂਚੀਆਂ ਸੰਭਾਲ ਰਹੇ ਹੋਵੋ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਮੁੱਖ ਮੀਨੂ ਵਿੱਚੋਂ Business Workspace ਚੁਣੋ ਅਤੇ ਪ੍ਰੋਜੈਕਟ ਡਾਟਾ ਲੋਡ ਹੋਣ ਦੀ ਉਡੀਕ ਕਰੋ।",
+          "inputs": "ਵਰਕਸਪੇਸ ਖੋਲ੍ਹਣ ਲਈ ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ।",
+          "result": "ਵਰਕਸਪੇਸ ਮੁੱਖ ਪੰਨੇ 'ਤੇ ਖੁੱਲ੍ਹਦਾ ਹੈ ਅਤੇ ਉਪਲਬਧ ਹੋਣ 'ਤੇ ਪ੍ਰੋਜੈਕਟਾਂ ਅਤੇ ਲੋਕਾਂ ਦੀਆਂ ਸੂਚੀਆਂ ਲੋਡ ਕਰਦਾ ਹੈ।",
+          "notes": "ਜੇ IndexedDB ਉਪਲਬਧ ਨਾ ਹੋਣ ਦਾ ਸੁਨੇਹਾ ਆਵੇ ਤਾਂ ਡਾਟਾ ਮਿਟਾਉਣ ਜਾਂ ਬਦਲਣ ਵਾਲੀਆਂ ਕਾਰਵਾਈਆਂ ਦੁਹਰਾਓ ਨਾ ਅਤੇ ਇਹ ਨਾ ਮੰਨੋ ਕਿ ਡਾਟਾ ਬਦਲ ਗਿਆ ਹੈ; ਐਪ ਦੱਸਦੀ ਹੈ ਕਿ ਇਸ ਸ਼ੁਰੂਆਤੀ ਗਲਤੀ ਦੌਰਾਨ ਪ੍ਰੋਜੈਕਟ ਡਾਟਾ ਨਹੀਂ ਬਦਲਿਆ।"
+        },
+        "prs": {
+          "purpose": "فضای کاری کسب‌وکار را برای مدیریت پروژه‌ها، قراردادهای شرکت و پنل کنترل مشترک باز می‌کند.",
+          "when": "برای مدیریت هزینه‌های کار، سوابق پروژه، کارهای شرکتی یا فهرست مشترک افراد از آن استفاده کنید.",
+          "how": "از منوی اصلی Business Workspace را انتخاب کنید و منتظر بارگذاری داده‌های پروژه بمانید.",
+          "inputs": "برای بازکردن فضای کاری نیازی به واردکردن اطلاعات نیست.",
+          "result": "فضای کاری در صفحه اصلی باز می‌شود و در صورت دسترس بودن، فهرست پروژه‌ها و افراد را بارگذاری می‌کند.",
+          "notes": "اگر پیام در دسترس نبودن IndexedDB نمایش داده شد، عملیات مخرب را تکرار نکنید و فرض نکنید داده تغییر کرده است؛ برنامه اعلام می‌کند که در این خطای راه‌اندازی داده‌های پروژه تغییر نکرده‌اند."
+        },
+        "ps": {
+          "purpose": "د پروژو، د شرکتونو د قراردادونو او ګډ کنټرول پینل د سمبالولو لپاره د سوداګرۍ کاري ځای پرانیزي.",
+          "when": "د کار د لګښتونو، د پروژو د ثبتونو، د شرکت د چارو یا د ګډو کسانو د لېستونو د سمبالولو لپاره یې وکاروئ.",
+          "how": "له اصلي مېنو څخه Business Workspace وټاکئ او د پروژې د معلوماتو د پورته کېدو انتظار وکړئ.",
+          "inputs": "د کاري ځای د پرانیستلو لپاره معلوماتو ته اړتیا نشته.",
+          "result": "کاري ځای په اصلي پاڼه پرانیستل کېږي او که موجود وي د پروژو او کسانو لېستونه پورته کوي.",
+          "notes": "که د IndexedDB د نه شتون پیغام ښکاره شي، د معلوماتو د ړنګولو یا بدلولو کړنې مه تکراروئ او د معلوماتو د بدلون ګومان مه کوئ؛ اپ وايي چې د دې پیل ناکامۍ پر مهال د پروژې معلومات نه دي بدل شوي."
+        }
+      },
       "handler_or_behavior": "`openProjectsApp()`"
     },
     {
@@ -55,8 +233,97 @@
       "audit_ref": "INV-003",
       "element_id": null,
       "label": "📝 Contract Management Create, edit and manage contracts and quotations ›",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_COMPLETE",
+      "translations": {
+        "en": {
+          "purpose": "Open Contract Management to create, edit and manage contracts and quotations.",
+          "when": "Use this when preparing an agreement or price quotation, or reviewing saved contract documents.",
+          "how": "Select Contract Management from the main menu. The contract workspace opens on its contracts section.",
+          "inputs": "No information is required to open the contract workspace.",
+          "result": "The contracts area becomes visible; you can start a new document or open a saved one.",
+          "notes": "This is separate from the Projects and Accountancy areas. Opening the workspace does not create or save a contract."
+        },
+        "fa": {
+          "purpose": "ورود به بخش مدیریت قراردادها برای ایجاد، ویرایش و مدیریت قراردادها و پیش‌فاکتورها.",
+          "when": "وقتی می‌خواهید توافق‌نامه یا پیشنهاد قیمت تهیه کنید یا اسناد ذخیره‌شده را بررسی کنید از این گزینه استفاده کنید.",
+          "how": "از منوی اصلی «Contract Management» را انتخاب کنید. فضای قراردادها در بخش قراردادها باز می‌شود.",
+          "inputs": "برای باز کردن فضای قراردادها اطلاعاتی لازم نیست.",
+          "result": "بخش قراردادها نمایش داده می‌شود و می‌توانید سند جدید بسازید یا سند ذخیره‌شده‌ای را باز کنید.",
+          "notes": "این بخش از Projects و Accountancy جداست. باز کردن آن به‌معنی ایجاد یا ذخیره قرارداد نیست."
+        },
+        "ar": {
+          "purpose": "فتح إدارة العقود لإنشاء العقود وعروض الأسعار وتعديلها وإدارتها.",
+          "when": "استخدم هذا الخيار عند إعداد اتفاقية أو عرض سعر أو مراجعة المستندات المحفوظة.",
+          "how": "اختر Contract Management من القائمة الرئيسية. تفتح مساحة العقود في قسم العقود.",
+          "inputs": "لا يلزم إدخال معلومات لفتح مساحة العقود.",
+          "result": "يظهر قسم العقود، ويمكنك بدء مستند جديد أو فتح مستند محفوظ.",
+          "notes": "هذا القسم منفصل عن Projects وAccountancy. فتحه لا ينشئ عقداً ولا يحفظه."
+        },
+        "ckb": {
+          "purpose": "کردنەوەی بەشی بەڕێوەبردنی گرێبەست بۆ دروستکردن، دەستکاریکردن و بەڕێوەبردنی گرێبەست و پێشنیاری نرخ.",
+          "when": "کاتێک دەتەوێت ڕێککەوتنێک یان پێشنیاری نرخ ئامادە بکەیت، یان بەڵگەنامەی پاشەکەوتکراو بپشکنیت، بەکاریبهێنە.",
+          "how": "لە پێڕستی سەرەکی Contract Management هەڵبژێرە. شوێنی گرێبەستەکان لە بەشی گرێبەستەکان دەکرێتەوە.",
+          "inputs": "بۆ کردنەوەی شوێنی گرێبەستەکان زانیاری پێویست نییە.",
+          "result": "بەشی گرێبەستەکان دەردەکەوێت؛ دەتوانیت بەڵگەنامەیەکی نوێ دەست پێ بکەیت یان یەکێکی پاشەکەوتکراو بکەیتەوە.",
+          "notes": "ئەم بەشە لە Projects و Accountancy جیاوازە. کردنەوەی بەشەکە گرێبەست دروست ناکات و پاشەکەوتی ناکات."
+        },
+        "kmr": {
+          "purpose": "Rêveberiya peymanan ji bo çêkirin, sererastkirin û rêvebirina peyman û pêşniyarên bihayê veke.",
+          "when": "Dema ku peymanek an pêşniyara bihayê amade dikî, an belgeyên tomarkirî vedikî, vê bikar bîne.",
+          "how": "Ji menuya sereke Contract Management hilbijêre. Cihê peymanan di beşa peymanan de vedibe.",
+          "inputs": "Ji bo vekirina cihê peymanan agahî nehewce ye.",
+          "result": "Beşa peymanan xuya dibe; dikarî belgeyek nû dest pê bikî an belgeyek tomarkirî vekî.",
+          "notes": "Ev beş ji Projects û Accountancy cuda ye. Vekirina wê peymanekê çênake û tomar nake."
+        },
+        "tr": {
+          "purpose": "Sözleşme ve teklifleri oluşturmak, düzenlemek ve yönetmek için Sözleşme Yönetimi'ni açar.",
+          "when": "Bir anlaşma veya fiyat teklifi hazırlarken ya da kaydedilmiş belgeleri incelerken kullanın.",
+          "how": "Ana menüden Contract Management seçeneğini seçin. Sözleşme çalışma alanı sözleşmeler bölümünde açılır.",
+          "inputs": "Sözleşme alanını açmak için bilgi gerekmez.",
+          "result": "Sözleşmeler bölümü görünür; yeni bir belge başlatabilir veya kayıtlı bir belgeyi açabilirsiniz.",
+          "notes": "Bu bölüm Projects ve Accountancy alanlarından ayrıdır. Açılması tek başına sözleşme oluşturmaz veya kaydetmez."
+        },
+        "pl": {
+          "purpose": "Otwiera zarządzanie umowami, aby tworzyć, edytować i obsługiwać umowy oraz oferty cenowe.",
+          "when": "Użyj tej opcji, gdy przygotowujesz umowę lub wycenę albo przeglądasz zapisane dokumenty.",
+          "how": "Wybierz Contract Management w menu głównym. Obszar umów otworzy się w sekcji umów.",
+          "inputs": "Do otwarcia obszaru umów nie są potrzebne żadne dane.",
+          "result": "Pojawi się sekcja umów; możesz rozpocząć nowy dokument lub otworzyć zapisany.",
+          "notes": "Ten obszar jest oddzielny od Projects i Accountancy. Samo otwarcie nie tworzy ani nie zapisuje umowy."
+        },
+        "ur": {
+          "purpose": "معاہدوں اور قیمت کی پیشکشوں کو بنانے، ترمیم کرنے اور سنبھالنے کے لیے کنٹریکٹ مینجمنٹ کھولتا ہے۔",
+          "when": "جب آپ معاہدہ یا قیمت کی پیشکش تیار کریں یا محفوظ دستاویزات دیکھیں تو اسے استعمال کریں۔",
+          "how": "مرکزی مینو سے Contract Management منتخب کریں۔ معاہدوں کا ورک اسپیس معاہدوں والے حصے میں کھلتا ہے۔",
+          "inputs": "معاہدوں کا ورک اسپیس کھولنے کے لیے معلومات درکار نہیں۔",
+          "result": "معاہدوں کا سیکشن نظر آتا ہے؛ آپ نئی دستاویز شروع کر سکتے ہیں یا محفوظ شدہ دستاویز کھول سکتے ہیں۔",
+          "notes": "یہ حصہ Projects اور Accountancy سے الگ ہے۔ اسے کھولنے سے خود کوئی معاہدہ نہیں بنتا یا محفوظ نہیں ہوتا۔"
+        },
+        "pa": {
+          "purpose": "ਇਕਰਾਰਨਾਮਿਆਂ ਅਤੇ ਕੀਮਤ ਪੇਸ਼ਕਸ਼ਾਂ ਨੂੰ ਬਣਾਉਣ, ਸੋਧਣ ਅਤੇ ਸੰਭਾਲਣ ਲਈ Contract Management ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਤੁਸੀਂ ਸਮਝੌਤਾ ਜਾਂ ਕੀਮਤ ਦੀ ਪੇਸ਼ਕਸ਼ ਤਿਆਰ ਕਰ ਰਹੇ ਹੋਵੋ ਜਾਂ ਸੁਰੱਖਿਅਤ ਦਸਤਾਵੇਜ਼ ਵੇਖ ਰਹੇ ਹੋਵੋ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਮੁੱਖ ਮੀਨੂ ਵਿੱਚੋਂ Contract Management ਚੁਣੋ। ਇਕਰਾਰਨਾਮਿਆਂ ਦਾ ਵਰਕਸਪੇਸ ਇਕਰਾਰਨਾਮੇ ਵਾਲੇ ਭਾਗ ਵਿੱਚ ਖੁੱਲ੍ਹਦਾ ਹੈ।",
+          "inputs": "ਇਕਰਾਰਨਾਮਾ ਵਰਕਸਪੇਸ ਖੋਲ੍ਹਣ ਲਈ ਜਾਣਕਾਰੀ ਦੀ ਲੋੜ ਨਹੀਂ।",
+          "result": "ਇਕਰਾਰਨਾਮਿਆਂ ਦਾ ਭਾਗ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ; ਤੁਸੀਂ ਨਵਾਂ ਦਸਤਾਵੇਜ਼ ਸ਼ੁਰੂ ਕਰ ਸਕਦੇ ਹੋ ਜਾਂ ਸੰਭਾਲਿਆ ਹੋਇਆ ਖੋਲ੍ਹ ਸਕਦੇ ਹੋ।",
+          "notes": "ਇਹ ਭਾਗ Projects ਅਤੇ Accountancy ਤੋਂ ਵੱਖਰਾ ਹੈ। ਇਸਨੂੰ ਖੋਲ੍ਹਣ ਨਾਲ ਆਪਣੇ ਆਪ ਕੋਈ ਇਕਰਾਰਨਾਮਾ ਨਹੀਂ ਬਣਦਾ ਜਾਂ ਸੇਵ ਨਹੀਂ ਹੁੰਦਾ।"
+        },
+        "prs": {
+          "purpose": "بخش مدیریت قراردادها را برای ایجاد، ویرایش و مدیریت قراردادها و پیشنهادهای قیمت باز می‌کند.",
+          "when": "هنگامی از این گزینه استفاده کنید که توافق‌نامه یا پیشنهاد قیمت تهیه می‌کنید یا اسناد ذخیره‌شده را بررسی می‌کنید.",
+          "how": "از منوی اصلی Contract Management را انتخاب کنید. فضای قراردادها در بخش قراردادها باز می‌شود.",
+          "inputs": "برای بازکردن فضای قراردادها نیازی به واردکردن اطلاعات نیست.",
+          "result": "بخش قراردادها نمایش داده می‌شود؛ می‌توانید سند تازه‌ای آغاز کنید یا سند ذخیره‌شده‌ای را باز کنید.",
+          "notes": "این بخش از Projects و Accountancy جداست. بازکردن آن به‌تنهایی قراردادی ایجاد یا ذخیره نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د قراردادونو او د بیو د وړاندیزونو د جوړولو، سمون او مدیریت لپاره د قراردادونو مدیریت پرانیزي.",
+          "when": "کله چې تړون یا د بیې وړاندیز چمتو کوئ، یا خوندي شوي اسناد ګورئ، دا وکاروئ.",
+          "how": "له اصلي مېنو څخه Contract Management وټاکئ. د قراردادونو کاري ځای د قراردادونو په برخه کې پرانیستل کېږي.",
+          "inputs": "د قراردادونو د کاري ځای د پرانیستلو لپاره معلوماتو ته اړتیا نشته.",
+          "result": "د قراردادونو برخه ښکاره کېږي؛ نوی سند پیلولی شئ یا خوندي شوی سند پرانیستلی شئ.",
+          "notes": "دا برخه له Projects او Accountancy څخه جلا ده. د دې پرانیستل پخپله قرارداد نه جوړوي او نه یې خوندي کوي."
+        }
+      },
       "handler_or_behavior": "`openContractsApp()`"
     },
     {
@@ -64,8 +331,97 @@
       "audit_ref": "INV-004",
       "element_id": null,
       "label": "⚙️ Settings Backup, restore, profile and logo ›",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_COMPLETE",
+      "translations": {
+        "en": {
+          "purpose": "Open Settings to access business profile, backup and restore, language preference and diagnostics.",
+          "when": "Use this when changing business details or managing application settings and backups.",
+          "how": "Select Settings from the main menu. The Settings panel opens within the Accountancy interface.",
+          "inputs": "No information is required to open Settings; individual settings actions may require details or confirmation.",
+          "result": "The Settings panel is displayed. Its data status may show warnings if an independent data service is unavailable.",
+          "notes": "Opening Settings does not itself change profile or backup data. Review warnings before using any restore or reset function."
+        },
+        "fa": {
+          "purpose": "ورود به تنظیمات برای دسترسی به مشخصات کسب‌وکار، پشتیبان‌گیری و بازیابی، زبان راهنما و عیب‌یابی.",
+          "when": "وقتی می‌خواهید مشخصات کسب‌وکار را تغییر دهید یا تنظیمات برنامه و نسخه‌های پشتیبان را مدیریت کنید از این گزینه استفاده کنید.",
+          "how": "از منوی اصلی «Settings» را انتخاب کنید. پنل تنظیمات در رابط حسابداری باز می‌شود.",
+          "inputs": "برای باز کردن تنظیمات اطلاعاتی لازم نیست؛ بعضی عملیات داخل تنظیمات ممکن است به اطلاعات یا تأیید نیاز داشته باشند.",
+          "result": "پنل تنظیمات نمایش داده می‌شود. اگر یکی از سرویس‌های مستقل داده در دسترس نباشد ممکن است هشدار نمایش داده شود.",
+          "notes": "باز کردن تنظیمات به‌تنهایی مشخصات یا داده پشتیبان را تغییر نمی‌دهد. پیش از استفاده از بازیابی یا بازنشانی، هشدارها را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "فتح الإعدادات للوصول إلى ملف النشاط التجاري والنسخ الاحتياطي والاستعادة وتفضيل اللغة والتشخيص.",
+          "when": "استخدم هذا الخيار عند تغيير بيانات النشاط التجاري أو إدارة إعدادات التطبيق والنسخ الاحتياطية.",
+          "how": "اختر Settings من القائمة الرئيسية. تفتح لوحة الإعدادات داخل واجهة المحاسبة.",
+          "inputs": "لا يلزم إدخال معلومات لفتح الإعدادات؛ قد تتطلب بعض العمليات تفاصيل أو تأكيداً.",
+          "result": "تظهر لوحة الإعدادات. وقد تعرض تحذيرات إذا كانت إحدى خدمات البيانات المستقلة غير متاحة.",
+          "notes": "فتح الإعدادات لا يغيّر الملف الشخصي أو بيانات النسخ الاحتياطي بحد ذاته. راجع التحذيرات قبل استخدام الاستعادة أو إعادة الضبط."
+        },
+        "ckb": {
+          "purpose": "کردنەوەی ڕێکخستنەکان بۆ گەیشتن بە زانیاری بازرگانی، پاڵپشتی و گەڕاندنەوە، زمانی ڕێنما و پشکنینی کێشەکان.",
+          "when": "کاتێک دەتەوێت زانیاری بازرگانی بگۆڕیت یان ڕێکخستن و پاڵپشتییەکانی بەرنامە بەڕێوەببەیت، بەکاریبهێنە.",
+          "how": "لە پێڕستی سەرەکی Settings هەڵبژێرە. پانێڵی ڕێکخستن لە ناو ڕووکاری ژمێریاری دەکرێتەوە.",
+          "inputs": "بۆ کردنەوەی ڕێکخستنەکان زانیاری پێویست نییە؛ هەندێک کردار لە ناو ڕێکخستنەکان وردەکاری یان پشتڕاستکردنەوە دەوێت.",
+          "result": "پانێڵی ڕێکخستن پیشان دەدرێت. ئەگەر خزمەتگوزارییەکی سەربەخۆی داتا بەردەست نەبێت، ئاگادارکردنەوە دەردەکەوێت.",
+          "notes": "کردنەوەی ڕێکخستنەکان بەخۆی زانیاری پڕۆفایل یان داتای پاڵپشتی ناگۆڕێت. پێش بەکارهێنانی گەڕاندنەوە یان ڕێکخستنەوە، ئاگادارکردنەوەکان بخوێنەوە."
+        },
+        "kmr": {
+          "purpose": "Mîhengên sepanê ji bo gihîştina profîla karsaziyê, backup û vegerandinê, zimanê rêber û teşhîsê veke.",
+          "when": "Dema ku agahiyên karsaziyê diguherînî an mîheng û backupên sepanê rêve dibî, vê bikar bîne.",
+          "how": "Ji menuya sereke Settings hilbijêre. Panela mîhengê di nav navrûya hesabê de vedibe.",
+          "inputs": "Ji bo vekirina Mîhengan agahî nehewce ye; hin kiryarên hundirîn dikarin hûrgulî an pejirandinê bixwazin.",
+          "result": "Panela Mîhengan xuya dibe. Ger karûbarekî daneyên serbixwe ne peyda be, dibe ku hişyarî xuya bibe.",
+          "notes": "Vekirina Mîhengan bi xwe profîl an daneyên backupê naguherîne. Berî bikaranîna vegerandinê an resetê hişyarîyan kontrol bike."
+        },
+        "tr": {
+          "purpose": "İşletme profiline, yedekleme ve geri yüklemeye, dil tercihine ve tanılamaya erişmek için Ayarlar'ı açar.",
+          "when": "İşletme bilgilerini değiştirmek veya uygulama ayarlarını ve yedeklerini yönetmek istediğinizde kullanın.",
+          "how": "Ana menüden Settings seçeneğini seçin. Ayarlar paneli Muhasebe arayüzünde açılır.",
+          "inputs": "Ayarları açmak için bilgi gerekmez; bazı ayar işlemleri ayrıntı veya onay isteyebilir.",
+          "result": "Ayarlar paneli görüntülenir. Bağımsız bir veri hizmeti kullanılamıyorsa uyarılar gösterilebilir.",
+          "notes": "Ayarları açmak profil veya yedek verilerini tek başına değiştirmez. Geri yükleme veya sıfırlama kullanmadan önce uyarıları inceleyin."
+        },
+        "pl": {
+          "purpose": "Otwiera ustawienia, aby uzyskać dostęp do profilu firmy, kopii zapasowych i przywracania, języka przewodnika oraz diagnostyki.",
+          "when": "Użyj tej opcji, gdy zmieniasz dane firmy lub zarządzasz ustawieniami aplikacji i kopiami zapasowymi.",
+          "how": "Wybierz Settings w menu głównym. Panel ustawień otworzy się w interfejsie księgowości.",
+          "inputs": "Do otwarcia ustawień nie są potrzebne dane; niektóre czynności mogą wymagać informacji lub potwierdzenia.",
+          "result": "Wyświetli się panel ustawień. Mogą pojawić się ostrzeżenia, jeśli niezależna usługa danych jest niedostępna.",
+          "notes": "Samo otwarcie ustawień nie zmienia profilu ani danych kopii zapasowej. Przed użyciem przywracania lub resetowania sprawdź ostrzeżenia."
+        },
+        "ur": {
+          "purpose": "کاروباری پروفائل، بیک اپ اور بحالی، زبان کی ترجیح اور تشخیصی معلومات تک رسائی کے لیے Settings کھولتا ہے۔",
+          "when": "جب آپ کاروباری تفصیلات بدلنا یا ایپ کی ترتیبات اور بیک اپ سنبھالنا چاہیں تو اسے استعمال کریں۔",
+          "how": "مرکزی مینو سے Settings منتخب کریں۔ ترتیبات کا پینل اکاؤنٹنگ انٹرفیس میں کھلتا ہے۔",
+          "inputs": "Settings کھولنے کے لیے معلومات درکار نہیں؛ بعض ترتیبات کے اقدامات میں تفصیلات یا تصدیق درکار ہو سکتی ہے۔",
+          "result": "ترتیبات کا پینل دکھائی دیتا ہے۔ اگر کوئی الگ ڈیٹا سروس دستیاب نہ ہو تو انتباہ ظاہر ہو سکتا ہے۔",
+          "notes": "Settings کھولنے سے خود پروفائل یا بیک اپ ڈیٹا تبدیل نہیں ہوتا۔ بحالی یا ری سیٹ استعمال کرنے سے پہلے انتباہات دیکھیں۔"
+        },
+        "pa": {
+          "purpose": "ਕਾਰੋਬਾਰੀ ਪ੍ਰੋਫਾਈਲ, ਬੈਕਅੱਪ ਅਤੇ ਰੀਸਟੋਰ, ਭਾਸ਼ਾ ਪਸੰਦ ਅਤੇ ਡਾਇਗਨੌਸਟਿਕਸ ਤੱਕ ਪਹੁੰਚ ਲਈ Settings ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਤੁਸੀਂ ਕਾਰੋਬਾਰੀ ਵੇਰਵੇ ਬਦਲਣੇ ਜਾਂ ਐਪ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਅਤੇ ਬੈਕਅੱਪ ਸੰਭਾਲਣੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਮੁੱਖ ਮੀਨੂ ਵਿੱਚੋਂ Settings ਚੁਣੋ। ਸੈਟਿੰਗਾਂ ਪੈਨਲ ਅਕਾਊਂਟੈਂਸੀ ਇੰਟਰਫੇਸ ਵਿੱਚ ਖੁੱਲ੍ਹਦਾ ਹੈ।",
+          "inputs": "Settings ਖੋਲ੍ਹਣ ਲਈ ਜਾਣਕਾਰੀ ਦੀ ਲੋੜ ਨਹੀਂ; ਕੁਝ ਕਾਰਵਾਈਆਂ ਲਈ ਵੇਰਵੇ ਜਾਂ ਪੁਸ਼ਟੀ ਦੀ ਲੋੜ ਹੋ ਸਕਦੀ ਹੈ।",
+          "result": "ਸੈਟਿੰਗਾਂ ਪੈਨਲ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ। ਜੇ ਕੋਈ ਵੱਖਰੀ ਡਾਟਾ ਸੇਵਾ ਉਪਲਬਧ ਨਾ ਹੋਵੇ ਤਾਂ ਚੇਤਾਵਨੀ ਆ ਸਕਦੀ ਹੈ।",
+          "notes": "Settings ਖੋਲ੍ਹਣ ਨਾਲ ਆਪਣੇ ਆਪ ਪ੍ਰੋਫਾਈਲ ਜਾਂ ਬੈਕਅੱਪ ਡਾਟਾ ਨਹੀਂ ਬਦਲਦਾ। ਰੀਸਟੋਰ ਜਾਂ ਰੀਸੈਟ ਵਰਤਣ ਤੋਂ ਪਹਿਲਾਂ ਚੇਤਾਵਨੀਆਂ ਵੇਖੋ।"
+        },
+        "prs": {
+          "purpose": "تنظیمات را برای دسترسی به پروفایل کسب‌وکار، پشتیبان‌گیری و بازیابی، زبان راهنما و عیب‌یابی باز می‌کند.",
+          "when": "هنگامی از این گزینه استفاده کنید که می‌خواهید مشخصات کسب‌وکار را تغییر دهید یا تنظیمات برنامه و نسخه‌های پشتیبان را مدیریت کنید.",
+          "how": "از منوی اصلی Settings را انتخاب کنید. پنل تنظیمات در رابط حسابداری باز می‌شود.",
+          "inputs": "برای بازکردن تنظیمات نیازی به واردکردن اطلاعات نیست؛ برخی عملیات ممکن است به جزئیات یا تأیید نیاز داشته باشند.",
+          "result": "پنل تنظیمات نمایش داده می‌شود. اگر یک سرویس مستقل داده در دسترس نباشد، ممکن است هشدار ظاهر شود.",
+          "notes": "بازکردن تنظیمات به‌تنهایی پروفایل یا داده‌های پشتیبان را تغییر نمی‌دهد. پیش از استفاده از بازیابی یا بازنشانی، هشدارها را بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د سوداګرۍ پروفایل، بیک اپ او بېرته راګرځولو، د ژبې خوښې او تشخیصاتو ته د لاسرسي لپاره Settings پرانیزي.",
+          "when": "کله چې د سوداګرۍ معلومات بدلوئ یا د اپ تنظیمات او بیک اپونه سمبالوئ، دا وکاروئ.",
+          "how": "له اصلي مېنو څخه Settings وټاکئ. د تنظیماتو پینل د حسابدارۍ په انترفېس کې پرانیستل کېږي.",
+          "inputs": "د Settings د پرانیستلو لپاره معلوماتو ته اړتیا نشته؛ ځینې تنظیماتي کړنې ښايي جزئیات یا تایید وغواړي.",
+          "result": "د تنظیماتو پینل ښکاري. که د معلوماتو یوه خپلواکه خدمت شتون ونه لري، خبرداری ښودل کېدای شي.",
+          "notes": "د Settings پرانیستل پخپله پروفایل یا د بیک اپ معلومات نه بدلوي. د Restore یا Reset تر کارولو مخکې خبرداری وګورئ."
+        }
+      },
       "handler_or_behavior": "`openSettingsHub()`"
     },
     {
@@ -2093,5 +2449,10 @@
       "translations": {},
       "handler_or_behavior": "انتخاب مقدار و dispatch رویداد change؛ برای هر گزینه نمونه جداگانه ساخته می‌شود"
     }
-  ]
+  ],
+  "content_progress": {
+    "completed_entries": 4,
+    "pending_entries": 225,
+    "completion_scope": "Six fields × eleven languages per entry; reviewed in batches."
+  }
 }
