@@ -1859,8 +1859,8 @@
         "VERSION-AUTHORITY.json"
       ],
       "previewDevelopmentCommitSha": "58769edef58a72e169d2a468d693e13d9731cd72",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
         "result": "pending",
@@ -1868,8 +1868,8 @@
         "url": "pending"
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Source-level structural checks passed for unique Help and User Guide panels, a single shortcut to each, removal of the global translation engine and RTL CSS, and preservation of Contact Us and English input validation. Full inline-script syntax validation and browser/iPhone Safari testing remain pending."
+        "result": "PASS WITH LIMITATIONS",
+        "details": "All 8 inline JavaScript blocks passed V8 parsing. Structural checks confirm one Help page and one User Guide page, one shortcut to each, removal of global UI translation and RTL switching, and preservation of the Contact Us local-draft handler and English input guard. The guide's body translation coverage and button-level Help ID registry are incomplete and remain follow-up work. iPhone Safari not tested."
       },
       "previewPagesDeployment": {
         "result": "pending",
