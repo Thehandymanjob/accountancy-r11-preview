@@ -455,10 +455,10 @@
 - **تست استاتیک:** هر 8 بلوک JavaScript درون HTML با V8 syntax compilation بررسی شد؛ خطای نحوی مشاهده نشد. آزمون مرورگر واقعی و iPhone Safari هنوز انجام نشده است.
 - **تست داده و IndexedDB:** دیتابیس Preview برای این اصلاح بازنویسی یا تغییر داده نشد؛ هیچ رکورد، sequence، backup یا داده Production دست‌کاری نشده است.
 - **Preview development commit کد:** `79e16c45680fb8e01ab4e19041bb8b24f6140406`.
-- **PR:** #92 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/92؛ وضعیت باز، منتظر Gate و بررسی merge.
-- **Merge commit:** pending.
-- **Version Authority Gate:** pending؛ run reference پس از اجرا ثبت می‌شود.
-- **Preview Pages:** pending؛ انتشار R39 هنوز تأیید نشده است.
+- **PR:** #92 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/92؛ merged.
+- **Merge commit:** `d5dcd37565881408424be96bdb361b16320ec647`.
+- **Version Authority Gate:** PASS؛ PR run `45881830149` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45881830149.
+- **Preview Pages:** not verified؛ وضعیت Pages deployment پس از merge از ابزار در دسترس تأیید نشده است؛ تا دریافت شواهد، لینک R39 برای تست اعلام نمی‌شود.
 - **Build ID هدف:** `THA-273-R11-PREVIEW-20261126-R39`.
 - **معیار پذیرش iPhone Safari:** در Expenses، گزینه Selco و چند گزینه از گروه‌های Materials، Car Expenses، Tools و Others انتخاب شوند؛ نام انتخابی بلافاصله روی دکمه بماند؛ بازکردن دوباره فهرست همان گزینه را selected نشان دهد؛ انتخاب Contractor / subcontractor همچنان فیلد مربوط را فعال کند؛ ثبت Expense و refresh نیز رفتار قبلی را حفظ کند.
 - **تست iPhone Safari:** not tested؛ منتظر بررسی کاربر پس از انتشار Preview.
