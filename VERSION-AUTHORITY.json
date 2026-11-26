@@ -1863,20 +1863,20 @@
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "R42 source and Version Authority pins updated; PR gate must run against the final matching head."
+        "result": "PASS",
+        "runId": 45907425534,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45907425534",
+        "details": "R11 Version Authority Gate passed for Preview R42 commit 46ddf91078f5807a54b396eb6af787e968ddd8b1; all authority-pinned runtime assets and R42 identity matched."
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Seven-language chapter rendering added for all 12 guide chapters. Static JS parsing and exact language coverage audit pending. Button-level Help ID registry remains incomplete; iPhone Safari not tested."
+        "result": "PASS WITH LIMITATIONS",
+        "details": "All 8 inline JavaScript blocks compile with V8. Guide dictionary audit confirms exactly 12 chapters for each of 7 languages. Application-wide translation/RTL identifiers absent. Button-level Help ID registry remains incomplete; no iPhone Safari test."
       },
       "previewPagesDeployment": {
-        "result": "pending",
+        "result": "not deployed",
         "runId": "pending",
         "url": "pending",
-        "details": "Not deployed; waiting for PR gate and Preview release workflow."
+        "details": "Not deployed. PR #96 intentionally retained as Draft because dedicated button Help IDs and six-field help records remain incomplete."
       },
       "userSafariTest": {
         "result": "not tested",
