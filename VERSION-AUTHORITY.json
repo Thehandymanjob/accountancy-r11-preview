@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261126-R39",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R39",
-    "indexBlobSha": "660343e316ae324cd589bb7ab9a0581561a0fb0a",
+    "buildId": "THA-273-R11-PREVIEW-20261126-R40",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R40",
+    "indexBlobSha": "830b9884aa959513497f70e5af247ceec7923db0",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "660343e316ae324cd589bb7ab9a0581561a0fb0a",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "830b9884aa959513497f70e5af247ceec7923db0",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7"
     }
@@ -1779,21 +1779,22 @@
       "previewDevelopmentCommitSha": "79e16c45680fb8e01ab4e19041bb8b24f6140406",
       "previewPullRequestNumber": 92,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/92",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "d5dcd37565881408424be96bdb361b16320ec647",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 45881830149,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45881830149",
+        "details": "The Preview R11 Version Authority Gate completed successfully on the PR head, validating R39 identity, approved baseline ancestry and all 22 pinned runtime assets."
       },
       "staticChecks": {
         "result": "PASS",
         "details": "All 8 inline JavaScript blocks in the updated HTML passed V8 syntax compilation. Source inspection confirms syncCategoryPicker now obtains the computed group objects from getExpenseCategoryGroups(), whose items arrays are defined. Live browser and iPhone Safari interaction tests remain pending."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting Preview PR, Version Authority Gate and successful GitHub Pages deployment."
+        "result": "PASS",
+        "runId": 45881892461,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45881892461",
+        "details": "GitHub Pages build and deployment completed successfully on Preview main for merge commit d5dcd37565881408424be96bdb361b16320ec647."
       },
       "userSafariTest": {
         "result": "not tested",
@@ -1802,6 +1803,48 @@
       "userApproval": {
         "result": "authorized for Preview only",
         "details": "User explicitly authorized this Preview-only repair by saying 'برو'. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-26-PREVIEW-LAST-UPDATED-ACTIONS-R40",
+      "dateStarted": "2026-11-26",
+      "purpose": "Replace unreliable same-origin Last-Modified lookup with the completed timestamp of the latest successful Preview GitHub Pages deployment. A shared service supplies the Preview banner, Monitor Version Details and Copy version details. Use a public GitHub Actions GET request without custom headers or credentials; fail explicitly instead of showing stale metadata.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "f963213015cc7b156d8118bea6a6f56260c39f81",
+      "previewPullRequestNumber": 93,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/93",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 45904866886,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45904866886",
+        "details": "The R11 Version Authority Gate completed successfully on PR #93 head 43a2132745aef84368ded8c7b3948410355c991f; repository identity, approved baseline, R40 Build ID, canonical URL and all 22 pinned runtime assets passed."
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "All 8 inline JavaScript blocks passed V8 syntax compilation. Source assertions confirmed removal of Last-Modified/HEAD, a public GitHub Actions GET with no custom headers or credentials, exact successful Pages workflow filtering, Europe/London formatting, shared banner/Version Details/Copy service, and explicit unavailable fallback. Live iPhone Safari remains pending."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting merge to Preview main and successful GitHub Pages deployment for R40."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user verification in iPhone Safari of the banner, Version Details and copied details."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User explicitly instructed continuation of the Preview-only Last Updated repair. Production promotion is not authorized."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
