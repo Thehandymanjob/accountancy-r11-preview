@@ -2595,8 +2595,25 @@
       "audit_ref": "INV-057",
       "element_id": null,
       "label": "Save recipient details",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Stores the accountant’s email address and firm name in the app settings.",
+          "when": "Use this when you want the report area to remember which accountant or firm should receive your reports.",
+          "how": "Enter a valid email address, optionally enter the accountant or firm name, then select Save recipient details. Check the status message before leaving the page.",
+          "inputs": "Email address is optional but must be valid when supplied; accountant or firm name is optional.",
+          "result": "The recipient details are saved in IndexedDB if the save succeeds. No email is sent.",
+          "notes": "Email sending is not connected. Saving a recipient does not send a message or confirm delivery."
+        },
+        "fa": {
+          "purpose": "نشانی ایمیل و نام حسابدار یا شرکت حسابداری را در تنظیمات برنامه ذخیره می‌کند.",
+          "when": "وقتی می‌خواهید بخش گزارش‌ها مشخصات حسابدار یا شرکت حسابداری را به خاطر بسپارد، از این گزینه استفاده کنید.",
+          "how": "یک نشانی ایمیل معتبر وارد کنید؛ در صورت تمایل نام حسابدار یا شرکت را هم بنویسید و سپس Save recipient details را بزنید. پیش از خروج، پیام وضعیت را بررسی کنید.",
+          "inputs": "نشانی ایمیل اختیاری است، اما اگر وارد شود باید معتبر باشد؛ نام حسابدار یا شرکت اختیاری است.",
+          "result": "در صورت موفقیت، مشخصات گیرنده در IndexedDB ذخیره می‌شود. هیچ ایمیلی ارسال نمی‌شود.",
+          "notes": "قابلیت ارسال ایمیل هنوز متصل نیست. ذخیره گیرنده به معنی ارسال پیام یا تأیید تحویل آن نیست."
+        }
+      },
       "handler_or_behavior": "`report188SaveEmailSettings()`"
     },
     {
@@ -2604,8 +2621,25 @@
       "audit_ref": "INV-058",
       "element_id": "fullBackupButton",
       "label": "Backup",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Creates one complete backup file containing the app database.",
+          "when": "Use this before a planned update or any operation that could put stored information at risk.",
+          "how": "Select Backup and wait for the completion status and file download. Keep the file somewhere safe outside this device.",
+          "inputs": "No form input is required. Ensure the browser permits the file download and that you have enough secure storage space.",
+          "result": "A complete backup file is generated for the app database, including all 17 database domains and associated records, project data, invoices, contracts, settings, photos and logo.",
+          "notes": "Store the backup securely because it may contain sensitive business information. Do not assume a backup is valid until the app reports completion. Backup does not change existing records."
+        },
+        "fa": {
+          "purpose": "یک فایل پشتیبان کامل از پایگاه داده برنامه ایجاد می‌کند.",
+          "when": "پیش از به‌روزرسانی برنامه یا هر کاری که ممکن است اطلاعات ذخیره‌شده را در معرض خطر قرار دهد، از این گزینه استفاده کنید.",
+          "how": "Backup را انتخاب کنید و تا نمایش پیام تکمیل و دانلود فایل صبر کنید. فایل را در محلی امن و خارج از این دستگاه نگهداری کنید.",
+          "inputs": "ورودی فرمی لازم نیست. مطمئن شوید مرورگر اجازه دانلود فایل را دارد و فضای ذخیره‌سازی امن کافی در اختیار دارید.",
+          "result": "یک فایل پشتیبان کامل از پایگاه داده برنامه ساخته می‌شود؛ شامل هر ۱۷ حوزه داده، سوابق، اطلاعات پروژه‌ها، فاکتورها، قراردادها، تنظیمات، عکس‌ها و لوگو.",
+          "notes": "فایل پشتیبان ممکن است حاوی اطلاعات حساس کسب‌وکار باشد؛ آن را امن نگه دارید. فقط پس از نمایش پیام موفقیت، ساخت پشتیبان را کامل‌شده بدانید. ایجاد پشتیبان، سوابق فعلی را تغییر نمی‌دهد."
+        }
+      },
       "handler_or_behavior": "`fullDatabaseBackup()`"
     },
     {
@@ -2613,8 +2647,25 @@
       "audit_ref": "INV-059",
       "element_id": "fullRestoreButton",
       "label": "Restore",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens the file picker so you can select a complete backup to restore.",
+          "when": "Use this only when you intentionally need to replace the current app database with a previously created complete backup.",
+          "how": "Select Restore, choose the intended complete backup file, and carefully review any confirmation before proceeding. Stop if you are unsure which file is correct.",
+          "inputs": "A compatible complete backup JSON file is required.",
+          "result": "If restoration succeeds, the current database is replaced by the selected backup across all 17 database domains.",
+          "notes": "HIGH RISK: Restore replaces the entire current database, including accounting, projects, invoices, contracts, settings, photos and logo. Current data can be lost. Make a fresh backup first and verify the selected file. Never use this as a routine way to inspect a backup."
+        },
+        "fa": {
+          "purpose": "انتخاب فایل را باز می‌کند تا یک نسخه پشتیبان کامل را برای بازیابی انتخاب کنید.",
+          "when": "فقط زمانی از این گزینه استفاده کنید که عمداً قصد دارید پایگاه داده فعلی برنامه را با یک نسخه پشتیبان کامل جایگزین کنید.",
+          "how": "Restore را انتخاب کنید، فایل پشتیبان کامل موردنظر را برگزینید و پیش از ادامه، پیام تأیید را با دقت بخوانید. اگر درباره فایل مطمئن نیستید، متوقف شوید.",
+          "inputs": "به یک فایل JSON پشتیبان کامل و سازگار نیاز دارید.",
+          "result": "در صورت موفقیت، پایگاه داده فعلی در هر ۱۷ حوزه با اطلاعات فایل پشتیبان انتخاب‌شده جایگزین می‌شود.",
+          "notes": "خطر بسیار بالا: Restore کل پایگاه داده فعلی را جایگزین می‌کند؛ از جمله حسابداری، پروژه‌ها، فاکتورها، قراردادها، تنظیمات، عکس‌ها و لوگو. اطلاعات فعلی ممکن است از بین برود. ابتدا پشتیبان تازه بسازید و فایل انتخابی را بررسی کنید. برای صرفاً مشاهده یا آزمایش پشتیبان از Restore استفاده نکنید."
+        }
+      },
       "handler_or_behavior": "`chooseFullDatabaseRestore()`"
     },
     {
@@ -2622,8 +2673,25 @@
       "audit_ref": "INV-060",
       "element_id": null,
       "label": "Show version details",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Shows the exact app build and storage database loaded in this browser.",
+          "when": "Use this when reporting a bug, checking whether an update is active, or confirming which build you opened.",
+          "how": "Select Show version details and read the displayed build identifier and database information.",
+          "inputs": "No information is required.",
+          "result": "The current app build and storage database details are displayed for diagnosis.",
+          "notes": "This is an information display only. It does not update the app, change data or prove that a newer deployment is available."
+        },
+        "fa": {
+          "purpose": "نسخه دقیق برنامه و پایگاه داده ذخیره‌سازی بارگذاری‌شده در این مرورگر را نشان می‌دهد.",
+          "when": "هنگام گزارش اشکال، بررسی فعال‌شدن به‌روزرسانی یا اطمینان از نسخه‌ای که باز کرده‌اید از این گزینه استفاده کنید.",
+          "how": "Show version details را انتخاب کنید و شناسه Build و اطلاعات پایگاه داده نمایش‌داده‌شده را بخوانید.",
+          "inputs": "اطلاعاتی لازم نیست.",
+          "result": "اطلاعات نسخه فعلی برنامه و پایگاه داده برای بررسی فنی نمایش داده می‌شود.",
+          "notes": "این گزینه فقط اطلاعات را نمایش می‌دهد؛ برنامه را به‌روزرسانی نمی‌کند، داده‌ای را تغییر نمی‌دهد و به‌تنهایی فعال‌شدن انتشار جدید را ثابت نمی‌کند."
+        }
+      },
       "handler_or_behavior": "`toggleMonitorVersionInfo()`"
     },
     {
@@ -2631,8 +2699,25 @@
       "audit_ref": "INV-061",
       "element_id": "toggleActivityArchiveButton",
       "label": "Show activity archive",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Opens or closes the device-local activity archive.",
+          "when": "Use this to review recent activity, errors, storage events or data-integrity events recorded by this browser.",
+          "how": "Select Show activity archive. Use the search box, event-type filter and date filter to narrow the list. Select the button again to close the archive.",
+          "inputs": "Optional search text, event type and date range filters.",
+          "result": "The matching locally stored activity rows are displayed, subject to available records and pagination.",
+          "notes": "The archive is stored on this device and is not automatically sent to a server. Entries may include business context; review carefully before exporting or sharing diagnostic information."
+        },
+        "fa": {
+          "purpose": "بایگانی فعالیت‌های ثبت‌شده به‌صورت محلی در همین دستگاه را باز یا بسته می‌کند.",
+          "when": "برای بررسی فعالیت‌های اخیر، خطاها، رویدادهای ذخیره‌سازی یا رویدادهای یکپارچگی داده از این گزینه استفاده کنید.",
+          "how": "Show activity archive را انتخاب کنید. برای محدودکردن فهرست از کادر جست‌وجو، فیلتر نوع رویداد و فیلتر تاریخ استفاده کنید. برای بستن بایگانی، دکمه را دوباره بزنید.",
+          "inputs": "متن جست‌وجو، نوع رویداد و بازه تاریخ اختیاری هستند.",
+          "result": "ردیف‌های فعالیت موجود و منطبق با فیلترها، با توجه به صفحه‌بندی، نمایش داده می‌شوند.",
+          "notes": "این بایگانی روی همین دستگاه نگهداری می‌شود و خودکار به سرور ارسال نمی‌شود. ممکن است اطلاعات کاری در آن وجود داشته باشد؛ پیش از خروجی‌گرفتن یا اشتراک‌گذاری، محتوا را بررسی کنید."
+        }
+      },
       "handler_or_behavior": "`toggleActivityArchive()`"
     },
     {
@@ -4267,8 +4352,8 @@
   ],
   "content_progress": {
     "completed_entries": 20,
-    "draft_entries": 23,
-    "pending_entries": 186,
+    "draft_entries": 28,
+    "pending_entries": 181,
     "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written."
   }
 }
