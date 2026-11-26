@@ -501,8 +501,8 @@
 - **فایل‌های تغییرکرده:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`، `VERSION-AUTHORITY.json`، `docs/REPAIR_INDEX_FA.md` و `docs/REPAIR_HISTORY_FA.md`.
 - **Commit کد Preview development:** `784b1b809c5e17c5c7290971317f5b61920f0e82`.
 - **PR:** #96 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96؛ Draft؛ Merge نشده.
-- **Version Authority Gate:** پس از همگام‌سازی SHAهای R43 باید دوباره اجرا شود؛ نتیجه فعلی برای R43 تأیید نشده است.
+- **Version Authority Gate:** PASS؛ run `45910333714` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45910333714. هویت R43، URL canonical، ancestry مبنای تأییدشده و هر ۲۲ SHA پین‌شده تطبیق داده شدند.
 - **Preview Pages / انتشار:** انجام نشده؛ R43 هنوز منتشر نشده است.
 - **iPhone Safari:** not tested؛ پس از عبور Gate و انتشار مجاز، تست انتخاب زبان، باز و بسته شدن فصل‌ها، حفظ انتخاب زبان پس از refresh و باقی ماندن رابط اصلی به انگلیسی/LTR لازم است.
 - **Production:** بدون تغییر؛ R12 و داده‌های Production خارج از دامنه این اصلاح هستند.
-- **کار باقی‌مانده:** تطبیق نهایی `VERSION-AUTHORITY.json` با blob SHA واقعی index، اجرای مجدد Gate روی PR head فعلی و تأیید همه کنترل‌های انتشار.
+- **کار باقی‌مانده:** تست واقعی iPhone Safari پس از تکمیل Help ID Registry و تأیید جداگانه مجوز انتشار؛ تا آن زمان PR #96 در حالت Draft می‌ماند و Preview Pages deploy نمی‌شود.
