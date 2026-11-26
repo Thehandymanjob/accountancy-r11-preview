@@ -8,7 +8,7 @@
     "version": "273",
     "buildId": "THA-273-R11-PREVIEW-20261126-R41",
     "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R41",
-    "indexBlobSha": "380ef883aa614f29cbfb9add5f3ddca84a3b856e",
+    "indexBlobSha": "a666d7d831aa68aeba29649071d6fa2b58c4bf84",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "380ef883aa614f29cbfb9add5f3ddca84a3b856e",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "a666d7d831aa68aeba29649071d6fa2b58c4bf84",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7"
     }
@@ -1858,14 +1858,15 @@
         "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "58769edef58a72e169d2a468d693e13d9731cd72",
+      "previewDevelopmentCommitSha": "41085bac9935e73359aaf40421f25bdec96a5446",
       "previewPullRequestNumber": 96,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
         "result": "pending",
         "runId": "pending",
-        "url": "pending"
+        "url": "pending",
+        "details": "R41 Gate initially failed because HTML still carried R40 metadata; corrected HTML Build ID and canonical URL on development. Re-run required."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
@@ -1875,7 +1876,7 @@
         "result": "pending",
         "runId": "pending",
         "url": "pending",
-        "details": "Not deployed; awaiting PR gate and Preview release workflow."
+        "details": "Not deployed; waiting for PR gate and Preview release workflow."
       },
       "userSafariTest": {
         "result": "not tested",
