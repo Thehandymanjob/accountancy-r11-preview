@@ -1863,14 +1863,14 @@
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "R41 Gate initially failed because HTML still carried R40 metadata; corrected HTML Build ID and canonical URL on development. Re-run required."
+        "result": "PASS",
+        "runId": 45907184983,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45907184983",
+        "details": "R11 Version Authority Gate passed on PR #96 head 6c19f216477cc737576fe68e2638c8a009648f38. The earlier run on the intermediate index-only commit failed because it preceded the matching Authority pin update; the final PR head passed."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
-        "details": "All 8 inline JavaScript blocks passed V8 parsing. Structural checks confirm one Help page and one User Guide page, one shortcut to each, removal of global UI translation and RTL switching, and preservation of the Contact Us local-draft handler and English input guard. The guide's body translation coverage and button-level Help ID registry are incomplete and remain follow-up work. iPhone Safari not tested."
+        "details": "All 8 inline JavaScript blocks passed V8 parsing. Structural checks confirm one Help page and one User Guide page, one shortcut to each, removal of global UI translation and RTL switching, and preservation of the Contact Us local-draft handler and English input guard. A source inventory identified 255 button elements with inline onclick handlers; full guide-body translations and the button-level Help ID registry remain incomplete. iPhone Safari not tested."
       },
       "previewPagesDeployment": {
         "result": "pending",
