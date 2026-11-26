@@ -3115,8 +3115,25 @@
       "audit_ref": "INV-079",
       "element_id": "factoryResetConvertButton",
       "label": "Validate and Convert Backup",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Checks and converts a selected backup into the format required by the secure reset workflow.",
+          "when": "Use this only when preparing a verified backup for an approved full recovery process.",
+          "how": "Select the backup file, choose Validate and Convert Backup, and wait for the validation result. Do not proceed if validation fails or the source file is not the intended backup.",
+          "inputs": "A supported backup file selected in the reset workflow.",
+          "result": "The app reports whether the backup can be validated and converted for the recovery process.",
+          "notes": "This does not itself restore the backup. Keep the original file unchanged and retain a separate copy. Do not use an unverified or unknown backup for a destructive reset."
+        },
+        "fa": {
+          "purpose": "فایل پشتیبان انتخاب‌شده را بررسی و به قالب موردنیاز گردش‌کار Secure Reset تبدیل می‌کند.",
+          "when": "فقط زمانی از این گزینه استفاده کنید که برای یک فرایند بازیابی کاملِ تأییدشده، پشتیبان را آماده می‌کنید.",
+          "how": "فایل پشتیبان را انتخاب کنید، Validate and Convert Backup را بزنید و تا نمایش نتیجه اعتبارسنجی صبر کنید. اگر اعتبارسنجی ناموفق بود یا فایل انتخابی همان پشتیبان موردنظر نبود، ادامه ندهید.",
+          "inputs": "یک فایل پشتیبان پشتیبانی‌شده که در گردش‌کار Reset انتخاب شده باشد.",
+          "result": "برنامه اعلام می‌کند آیا فایل پشتیبان برای فرایند بازیابی قابل اعتبارسنجی و تبدیل است یا خیر.",
+          "notes": "این عملیات به‌تنهایی پشتیبان را بازیابی نمی‌کند. فایل اصلی را تغییر ندهید و یک نسخه جداگانه نگه دارید. برای Reset مخرب از فایل ناشناخته یا اعتبارسنجی‌نشده استفاده نکنید."
+        }
+      },
       "handler_or_behavior": "`event/property listener`"
     },
     {
@@ -3124,8 +3141,25 @@
       "audit_ref": "INV-080",
       "element_id": "factoryResetEmergencyButton",
       "label": "Download Emergency Snapshot",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Downloads an emergency snapshot file as an additional recovery aid.",
+          "when": "Use this before a high-risk recovery step when the app offers an emergency snapshot and you need an extra copy of the current data.",
+          "how": "Select Download Emergency Snapshot and wait for the file to download. Store it securely and verify that the file exists before continuing.",
+          "inputs": "No form input is required. The browser must allow downloads and the storage services must be available.",
+          "result": "An emergency snapshot file is downloaded if the snapshot operation succeeds.",
+          "notes": "This snapshot is not a substitute for a normal verified full backup. It may contain sensitive business data. Do not continue with reset if the snapshot fails or the downloaded file cannot be located."
+        },
+        "fa": {
+          "purpose": "یک فایل Snapshot اضطراری را به‌عنوان کمک اضافی برای بازیابی دانلود می‌کند.",
+          "when": "پیش از مرحله بازیابی پرخطر، وقتی برنامه امکان تهیه Snapshot اضطراری را ارائه می‌کند و به یک نسخه اضافی از داده‌های فعلی نیاز دارید، از این گزینه استفاده کنید.",
+          "how": "Download Emergency Snapshot را انتخاب کنید و تا دانلود فایل صبر کنید. آن را در محل امن نگه دارید و پیش از ادامه از وجود فایل مطمئن شوید.",
+          "inputs": "ورودی فرمی لازم نیست. مرورگر باید اجازه دانلود بدهد و سرویس‌های ذخیره‌سازی باید در دسترس باشند.",
+          "result": "اگر عملیات Snapshot موفق شود، فایل اضطراری دانلود می‌شود.",
+          "notes": "این Snapshot جایگزین پشتیبان کامل و تأییدشده معمولی نیست. ممکن است حاوی اطلاعات حساس کسب‌وکار باشد. اگر Snapshot ناموفق بود یا فایل دانلودشده را پیدا نکردید، Reset را ادامه ندهید."
+        }
+      },
       "handler_or_behavior": "`event/property listener`"
     },
     {
@@ -3133,8 +3167,25 @@
       "audit_ref": "INV-081",
       "element_id": "factoryResetNext",
       "label": "I Understand — Continue",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Confirms that you have read the reset warnings and advances to the next step of the secure reset workflow.",
+          "when": "Use this only after reviewing the recovery scope, backup status and consequences of continuing.",
+          "how": "Read the displayed warnings carefully, then select I Understand — Continue only if you intend to proceed and have the required verified backup.",
+          "inputs": "No additional data may be required; the control records the user's acknowledgement and advances the workflow.",
+          "result": "The secure reset workflow advances to its next step. This acknowledgement alone does not complete the reset.",
+          "notes": "This is an explicit acknowledgement, not a harmless navigation button. Do not select it just to explore the next screen. Stop if the backup or target data scope is uncertain."
+        },
+        "fa": {
+          "purpose": "تأیید می‌کند هشدارهای Reset را خوانده‌اید و گردش‌کار Secure Reset را به مرحله بعد می‌برد.",
+          "when": "فقط پس از بررسی محدوده بازیابی، وضعیت پشتیبان و پیامدهای ادامه از این گزینه استفاده کنید.",
+          "how": "هشدارهای نمایش‌داده‌شده را با دقت بخوانید و فقط در صورتی I Understand — Continue را انتخاب کنید که قصد ادامه دارید و پشتیبان معتبر موردنیاز را در اختیار دارید.",
+          "inputs": "ممکن است اطلاعات دیگری لازم نباشد؛ این کنترل تأیید کاربر را ثبت می‌کند و گردش‌کار را جلو می‌برد.",
+          "result": "گردش‌کار Secure Reset به مرحله بعد منتقل می‌شود. این تأیید به‌تنهایی Reset را کامل نمی‌کند.",
+          "notes": "این دکمه صرفاً ناوبری بی‌خطر نیست؛ تأیید آگاهانه محسوب می‌شود. فقط برای دیدن صفحه بعد آن را نزنید. اگر درباره پشتیبان یا محدوده داده مقصد تردید دارید، متوقف شوید."
+        }
+      },
       "handler_or_behavior": "`factoryResetNextStep()`"
     },
     {
@@ -3142,8 +3193,25 @@
       "audit_ref": "INV-082",
       "element_id": "factoryResetFinalButton",
       "label": "Reset and Restore All Data",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Executes the final reset and restore operation for all app data using the selected recovery source.",
+          "when": "Use this only after every validation and confirmation step has passed and you have explicitly decided to replace the current app data.",
+          "how": "Verify the source backup, target database and recovery summary one last time. Select Reset and Restore All Data only when you accept the complete replacement and any final confirmation is correct.",
+          "inputs": "A validated recovery backup and all required prior confirmations are necessary.",
+          "result": "If the operation succeeds, the app resets and restores all data from the selected recovery source and reports the outcome.",
+          "notes": "CRITICAL / DESTRUCTIVE: This can replace the entire app database and remove current data. Do not run without a verified backup, a clear recovery plan and explicit approval. Do not interrupt the process. Afterward, verify the build, database and key records. This is not a routine update or troubleshooting step."
+        },
+        "fa": {
+          "purpose": "عملیات نهایی Reset و بازیابی همه داده‌های برنامه را با استفاده از منبع بازیابی انتخاب‌شده اجرا می‌کند.",
+          "when": "فقط زمانی از این گزینه استفاده کنید که تمام مراحل اعتبارسنجی و تأیید با موفقیت انجام شده و صریحاً تصمیم گرفته‌اید داده‌های فعلی برنامه جایگزین شوند.",
+          "how": "فایل پشتیبان مبدأ، پایگاه داده مقصد و خلاصه بازیابی را برای آخرین بار بررسی کنید. فقط وقتی Reset and Restore All Data را بزنید که جایگزینی کامل را می‌پذیرید و تأیید نهایی درست است.",
+          "inputs": "فایل پشتیبان بازیابیِ اعتبارسنجی‌شده و تمام تأییدهای مراحل قبلی لازم هستند.",
+          "result": "در صورت موفقیت، برنامه همه داده‌ها را طبق منبع بازیابی انتخاب‌شده Reset و بازیابی می‌کند و نتیجه را اعلام می‌کند.",
+          "notes": "خطر بحرانی و مخرب: این عملیات می‌تواند کل پایگاه داده برنامه را جایگزین کند و داده‌های فعلی را از بین ببرد. بدون پشتیبان معتبر، برنامه بازیابی روشن و تأیید صریح اجرا نکنید. فرایند را قطع نکنید. پس از پایان، نسخه، پایگاه داده و سوابق اصلی را بررسی کنید. این عملیات به‌روزرسانی معمولی یا عیب‌یابی نیست."
+        }
+      },
       "handler_or_behavior": "`event/property listener`"
     },
     {
@@ -3151,8 +3219,25 @@
       "audit_ref": "INV-084",
       "element_id": null,
       "label": "Save Profile",
-      "status": "CONTENT_PENDING",
-      "translations": {},
+      "status": "CONTENT_DRAFT",
+      "translations": {
+        "en": {
+          "purpose": "Saves the business profile details entered in the profile form.",
+          "when": "Use this after creating or editing the business name, contact information or other profile details used in supported app documents.",
+          "how": "Review every field, then select Save Profile. Wait for the save confirmation and reopen the profile if necessary to verify the saved values.",
+          "inputs": "The profile fields required by the form. Optional fields should be left blank if not applicable.",
+          "result": "The profile is saved if the IndexedDB write succeeds; the app should report the save result.",
+          "notes": "Check names, contact details and other business information before saving. Do not assume the change updates documents that were already issued. If saving fails, do not assume the new profile was stored."
+        },
+        "fa": {
+          "purpose": "مشخصات کسب‌وکار واردشده در فرم پروفایل را ذخیره می‌کند.",
+          "when": "پس از ایجاد یا ویرایش نام کسب‌وکار، اطلاعات تماس یا سایر مشخصات مورد استفاده در اسناد پشتیبانی‌شده برنامه از این گزینه استفاده کنید.",
+          "how": "تمام فیلدها را بررسی کنید، سپس Save Profile را انتخاب کنید. منتظر پیام تأیید بمانید و در صورت نیاز پروفایل را دوباره باز کنید تا مقادیر ذخیره‌شده را بررسی کنید.",
+          "inputs": "فیلدهای پروفایل که فرم لازم می‌داند. فیلدهای اختیاری را اگر کاربرد ندارند خالی بگذارید.",
+          "result": "اگر نوشتن در IndexedDB موفق شود، پروفایل ذخیره می‌شود و برنامه باید نتیجه ذخیره را اعلام کند.",
+          "notes": "پیش از ذخیره، نام‌ها، اطلاعات تماس و سایر مشخصات کسب‌وکار را بررسی کنید. فرض نکنید تغییرات، اسنادی را که قبلاً صادر شده‌اند به‌روزرسانی می‌کند. اگر ذخیره ناموفق بود، فرض نکنید پروفایل جدید ثبت شده است."
+        }
+      },
       "handler_or_behavior": "`prSaveProfile()`"
     },
     {
@@ -4607,8 +4692,8 @@
   ],
   "content_progress": {
     "completed_entries": 20,
-    "draft_entries": 43,
-    "pending_entries": 166,
+    "draft_entries": 48,
+    "pending_entries": 161,
     "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written."
   }
 }
