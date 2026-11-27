@@ -2660,7 +2660,7 @@
         "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "6d1c3a6d76a1c6fb0538f650d5f65310f9da5a9d",
+      "previewDevelopmentCommitSha": "356c155607a44762644dc85777e0120427eeeaa8",
       "previewPullRequestNumber": 96,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
@@ -2668,7 +2668,7 @@
         "result": "PENDING",
         "runId": "pending",
         "url": "pending",
-        "details": "R61 requires a fresh Version Authority Gate against the deduplicated runtime, R61 Build ID, canonical URL, index SHA and all 24 runtime asset pins."
+        "details": "R61 cumulative Gate must validate the deduplicated runtime and the additional 13 Project Workspace Help bindings."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
@@ -2732,6 +2732,51 @@
       "userApproval": {
         "result": "authorized for Preview development only",
         "details": "No deployment, merge or Production promotion authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-PROJECT-WORKSPACE-DETAIL-R61-002",
+      "dateStarted": "2026-11-27",
+      "purpose": "Connect 13 completed contextual Help topics to Project Workspace creation, list navigation, partner sharing, project detail tabs, financial report, and clear-form controls.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "356c155607a44762644dc85777e0120427eeeaa8",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PENDING",
+        "runId": "pending",
+        "url": "pending",
+        "details": "R61 cumulative Version Authority Gate must validate the 105-row static binding table, R61 Build ID, canonical URL, index SHA and all 24 runtime asset pins."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Thirteen completed Help topics use exact Project Workspace parent selectors or data-pr-sub attributes to distinguish repeated prDetailTab handlers. The runtime has 105 static rows with 105 unique Help IDs and five dynamic-template attributes; the Registry mapping records 110 attached IDs total. Live browser tests remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting an authorized Preview deployment and real browser/iPhone Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continued Help connection work. This does not authorize deployment, merge or Production promotion."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
