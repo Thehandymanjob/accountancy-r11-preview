@@ -196,6 +196,9 @@ Open the report preview and inspect all pages before printing or saving. Check t
 ## 6. Backup and Restore
 
 ### Create a backup
+
+**On iPhone:** when the backup file is ready, use the share/download panel to save the JSON file to **Files** and select a folder you can locate later. Reopen Files to confirm that the downloaded backup is present before relying on it.
+
 1. Open **Settings → Backup & Restore**.
 2. Select **Backup** to create one complete database backup.
 3. Wait for the completion message and download to finish.
@@ -226,6 +229,9 @@ Restore is a replacement operation, not a routine refresh.
 **Monitor & Diagnostics** helps inspect application version information, activity information and available storage/integrity checks. Use it to investigate a problem; it is not an accounting-entry screen.
 
 ### Basic checks
+
+The version panel has **Show version details**. The **Activity archive** is initially collapsed; select **Show activity archive** to reveal it. Search by event, record ID, action or error; filter by event type (**All events**, **Activity**, **Errors**, **Data integrity**, **Storage**) and period (**All dates**, **Today**, **Last 7 days**, **Last 30 days**).
+
 1. Open **Settings → Monitor & Diagnostics**.
 2. Review the displayed version/build details.
 3. Check the activity information and any error messages.
@@ -234,6 +240,9 @@ Restore is a replacement operation, not a routine refresh.
 6. Export an activity log only when it is useful for diagnosis.
 
 ### Exporting diagnostic information
+
+The available actions include **Download Diagnostic Report (JSON)**, **Run Full Storage Audit (Read-only)**, **Export Activity Log (CSV)** and **Run Local Self-check**. The activity archive is device-local and is not automatically sent to a server.
+
 An exported log or diagnostic report may contain business or operational information. Store it securely and share it only with a person who needs it to investigate the issue.
 
 The **Test IndexedDB Storage** control runs a temporary write, read, key-list and delete test against the new storage layer; the application states that this does not migrate, overwrite or delete existing application data. **Compare Accounting Storage (Read-only)** is a comparison action, while **Run Full Storage Audit (Read-only)** is labelled read-only. A diagnostic PASS is evidence only for the checks actually run; it does not prove every workflow or every saved record is correct.
@@ -247,6 +256,9 @@ The developer diagnostic JSON is described as excluding personal names, addresse
 ## 8. Business Workspace and Projects
 
 ### Create and organise a project
+
+Open **Business Workspace → Projects → New Project**. Enter the project name, customer/owner, site address and phone; choose **Labour + Materials** or **Labour Only**; add an optional photo and notes; and, if partners are involved, enter shares totalling 100%. Save, then locate the project in **Projects List**. The parent total is calculated from agreed sub-project prices rather than entered directly on the parent form.
+
 1. Open **Projects**.
 2. Choose the new-project action.
 3. Enter the project name and the details requested by the form.
@@ -259,6 +271,9 @@ The **New Project** form includes project name, customer/owner, site address, ph
 Use one project per distinct job or contract where that reflects the real work. Give sub-projects clear names so that costs and payments can be traced.
 
 ### Record project activity
+
+Use **Projects List** to search, open and manage existing projects. Confirm the project and sub-project before adding any financial activity.
+
 Within the correct project or sub-project:
 1. Open the relevant income, expense, payment or cost workflow.
 2. Confirm the project and sub-project shown.
@@ -277,6 +292,9 @@ Check the agreed value, recorded income, expenses, payments and any displayed pr
 ## 9. Company Contracts and Jobs
 
 ### Set up a company and job
+
+Open **Business Workspace → Company Contracts & Jobs**. A company can store its reference/registration number, contact details, contract dates, payment terms and an optional contract PDF/image. A job stores customer, site address, dates, agreed base amount, status, optional partner/worker assignment, notes and attachment.
+
 1. Open **Company Contracts & Jobs**.
 2. Select an existing company or use the available company-creation action.
 3. Check the company identity and details.
@@ -291,6 +309,11 @@ A work package can be a **Base scope** or an **Additional work / variation**. It
 Keep company, job and work-package names clear and consistent. Confirm the selected company and job before entering costs or payments.
 
 ### Record costs and payments
+
+For a work-package expense, enter date, amount, category (**Materials**, **Labour / Worker**, **Contractor**, **Tool hire**, **Travel** or **Other**), supplier/payee and description; an optional receipt can be attached. Select **Add Expense**.
+
+For a company-job payment, record only money actually received. Enter date, gross amount, deduction type/amount, tax/VAT treatment, net amount, reference and notes; attach proof of payment if available. Select **Record Payment** and review the payment history. If gross minus deduction does not equal net, the app asks for confirmation and flags the discrepancy for accountant review. These payments stay in Company Contracts & Jobs and are not posted to Accountancy.
+
 1. Open the correct job or work package.
 2. Choose the relevant expense, payment or income action.
 3. Enter the date, description and amount.
@@ -405,6 +428,9 @@ The current application includes a text-input guard that accepts ASCII character
 - If the output remains incomplete, keep the original records unchanged and report the issue with the relevant screen, date range and error details.
 
 ### Contact Us
+
+The form asks for your name, email address, subject and message. Select **Save Support Message** to save the message locally as a draft. **Clear Form** clears the current inputs. No support message is sent to the developer or support team.
+
 The current **Contact Us** form saves a support message locally as a draft on the device. **It does not send the message to the developer or support team.** Keep a separate copy of important details and use an available external contact route if you need to send the request now.
 
 ### Safe troubleshooting information to provide
