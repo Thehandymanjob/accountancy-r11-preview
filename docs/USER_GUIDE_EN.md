@@ -65,6 +65,12 @@ The Dashboard is a summary of general accounting records. Use it to review the f
 ### Correcting an entry
 Open the saved record through the records area and use the available edit workflow. Recheck the saved result afterwards. Do not create a second entry merely to correct the first one unless the application’s correction workflow specifically requires it.
 
+**Additional record controls**
+
+- In **Records**, use **Search records** to search category, notes or amount, and **Filter by type** to show all records, income, expenses or invoices.
+- Deleting an ordinary entry moves it to **Deleted Records**; the record number remains reserved. Invoice-linked income must be managed from **Invoices**, not edited or deleted as a normal entry.
+- The Records page also displays **Third-Party Money** separately. These amounts belong to another person and are excluded from normal income and expense totals.
+
 **Important:** An invoice marked unpaid is not money received. Do not record unpaid invoice value as received income. Invoice status and actual receipt of money are distinct.
 
 ---
@@ -136,6 +142,10 @@ Use an existing customer record where appropriate rather than creating duplicate
 - Issuing an invoice makes it an issued document. It does not mean the customer has paid.
 - Marking an invoice as paid must reflect an actual payment. Confirm the payment date and method when requested.
 - An unpaid invoice is not received income. Do not count it as cash received simply because an invoice exists.
+
+The current invoice editor supports up to **four separately priced work items**. Enter a description and price for each item; at least one priced item is required. The invoice also has VAT choices (**Not charged**, **20%**, **5%** or **0%**) and an invoice status of **Draft** or **Issued**. Payment fields appear for an issued invoice. The payment choices are **Paid** or **Unpaid**; when marking paid, enter the payment date and method where requested.
+
+When an issued invoice is marked paid, the application records the paid invoice as income in Accountancy. Check the linked income record before entering any separate receipt, otherwise you may duplicate the income.
 
 Where the application links a paid invoice to an Accountancy income entry, check the resulting record and avoid entering the same receipt a second time.
 
@@ -232,6 +242,8 @@ A diagnostic PASS is evidence for the checks that were actually run; it does not
 5. Review the customer/job information and save.
 6. Open the project and add sub-projects or work sections when the job needs separate cost tracking.
 
+The **New Project** form includes project name, customer/owner, site address, phone, contract type (**Labour + Materials** or **Labour Only**), optional project photo and notes. If the project has partners, add the partner shares and make sure all shares total **100%** before saving. The parent project total is calculated from the agreed prices entered on its sub-projects; it is not entered directly on the parent form.
+
 Use one project per distinct job or contract where that reflects the real work. Give sub-projects clear names so that costs and payments can be traced.
 
 ### Record project activity
@@ -260,6 +272,10 @@ Check the agreed value, recorded income, expenses, payments and any displayed pr
 5. Enter the job details and save.
 6. Add work packages/sections where the job needs to be divided into manageable parts.
 
+The company record can hold its reference/registration number, contact details, contract dates, contract/payment terms and an optional contract PDF or image. A job has its own customer, site address, dates, agreed base amount, status, optional partner/worker assignment, notes and optional attachment.
+
+A work package can be a **Base scope** or an **Additional work / variation**. It has an amount, approval status (**Approved**, **Awaiting approval**, **Rejected**) and execution status. Only **approved additional-work variations** are added to the agreed job total. Keep evidence of customer approval with the work package where appropriate.
+
 Keep company, job and work-package names clear and consistent. Confirm the selected company and job before entering costs or payments.
 
 ### Record costs and payments
@@ -273,6 +289,15 @@ Keep company, job and work-package names clear and consistent. Confirm the selec
 Review the job's work packages, recorded costs, payments and totals. Resolve missing or misallocated entries before marking work complete. A completion status is an administrative record; it does not itself confirm that every supplier or worker has been paid.
 
 ---
+
+
+
+### Interface-specific safeguards confirmed against the current source
+
+- **Company Contracts & Jobs is a separate financial area.** Its receipts, deductions, expenses and profit/loss remain inside that area; they are not transferred to or combined with the Accountancy module. Do not enter the same company-job transaction in Accountancy unless you intentionally maintain a separate accounting record and understand the duplication risk.
+- A company-job payment records gross, deduction, deduction type, net received, tax/VAT treatment, reference, notes and optional attachment. The form checks the date, positive gross and net amounts, and that deductions are not greater than gross. If gross minus deduction does not equal net, the application asks for confirmation and flags the discrepancy for accountant review.
+- Work-package expenses have their own date, amount, category, payee, description and optional receipt. Categories include Materials, Labour / Worker, Contractor, Tool hire, Travel and Other.
+- The company-job profit calculation uses the job's base amount plus approved variations and its recorded net receipts. Review the payment history and any deductions before relying on the displayed balance.
 
 ## 10. Contract Management
 
