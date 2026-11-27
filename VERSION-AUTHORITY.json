@@ -2604,6 +2604,51 @@
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
       "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-PRIMARY-NAV-ACCOUNTANCY-R60-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Connect 19 high-priority User Guide topics to main launcher, Accountancy navigation and critical controls, plus Business Workspace sidebar destinations.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "pending",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PENDING",
+        "runId": "pending",
+        "url": "pending",
+        "details": "R60 requires a fresh Version Authority Gate against the R60 Build ID, canonical URL, index SHA and all 24 pinned runtime assets."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Nineteen selectors are scoped to the real launcher, Accountancy home and panels, Factory Reset page and Business Workspace sidebar. The Factory Reset selector uses #factoryResetPage. Mapping baselines and all 24 pins require final Gate verification. Browser tests remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview deployment triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting authorized Preview deployment and live browser/iPhone Safari testing."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development only",
+        "details": "This instruction does not authorize Preview deployment, merge or Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
     }
   ],
   "history": [
