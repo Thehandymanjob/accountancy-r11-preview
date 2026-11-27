@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R59') return;
+  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R60') return;
   const payload = window.THAHelpContentV1;
   if (!payload || !payload.entries) {
     console.error('[THA Help] Content bundle is missing; contextual help was not started.');
@@ -81,7 +81,17 @@
     ['THA-HLP-0008', '#ctFormCard .ct-actions > button[onclick="ctPrint()"]'],
     ['THA-HLP-0068', '#profileGuide .pr-actions > button[onclick="prSaveProfile()"]'],
     ['THA-HLP-0069', '#profileGuide .pr-actions > button[onclick="prRemoveLogo()"]'],
-    ['THA-HLP-0071', '#helpContactForm .pr-actions > button[onclick="resetHelpContactForm()"]']
+    ['THA-HLP-0071', '#helpContactForm .pr-actions > button[onclick="resetHelpContactForm()"]'],
+    ['THA-HLP-0001', '#appLauncher .launcher-actions > button[onclick="openAccountancy()"]'],
+    ['THA-HLP-0002', '#appLauncher .launcher-actions > button[onclick="openProjectsApp()"]'],
+    ['THA-HLP-0003', '#appLauncher .launcher-actions > button[onclick="openContractsApp()"]'],
+    ['THA-HLP-0004', '#appLauncher .launcher-actions > button[onclick="openSettingsHub()"]'],
+    ['THA-HLP-0009', '#accountancyHome .accountancy-home-grid > button[onclick="show(\'home\')"]'],
+    ['THA-HLP-0010', '#accountancyHome .accountancy-home-grid > button[onclick="show(\'entry\')"]'],
+    ['THA-HLP-0011', '#accountancyHome .accountancy-home-grid > button[onclick="show(\'records\')"]'],
+    ['THA-HLP-0012', '#accountancyHome .accountancy-home-grid > button[onclick="show(\'invoices\')"]'],
+    ['THA-HLP-0013', '#accountancyHome .accountancy-home-grid > button[onclick="show(\'customers\')"]'],
+    ['THA-HLP-0014', '#accountancyHome .accountancy-home-grid > button[onclick="show(\'report\')"]']
   ];
   if (STATIC_BINDINGS.some(binding => !Array.isArray(binding) || binding.length !== 2 || binding.some(value => typeof value !== 'string' || !value.trim()))) {
     console.error('[THA Help] Invalid static binding table; contextual help was not started.');
@@ -253,7 +263,7 @@
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initialise,{once:true});
   else initialise();
   window.THAHelpRuntime=Object.freeze({
-    version:'R59',open:openHelp,openFullGuide,attach:attachAll,
+    version:'R60',open:openHelp,openFullGuide,attach:attachAll,
     getLastHelpId:()=>lastHelpId,getPublishableCount:()=>Object.keys(payload.entries).length
   });
 })();
