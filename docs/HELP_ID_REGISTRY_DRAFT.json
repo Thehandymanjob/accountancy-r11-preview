@@ -11013,7 +11013,7 @@
       "audit_ref": "INV-130",
       "element_id": null,
       "label": "Clear Job Form",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Resets the current job form while retaining the selected company context.",
@@ -11111,7 +11111,7 @@
       "audit_ref": "INV-131",
       "element_id": null,
       "label": "Save Work Package",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Creates or updates a work package within the currently selected company job.",
@@ -11209,7 +11209,7 @@
       "audit_ref": "INV-132",
       "element_id": null,
       "label": "Clear",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Resets the current work-package form and restores its default selections.",
@@ -11307,7 +11307,7 @@
       "audit_ref": "INV-133",
       "element_id": null,
       "label": "Add Expense",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Adds an expense record to the financial records of the selected company work package.",
