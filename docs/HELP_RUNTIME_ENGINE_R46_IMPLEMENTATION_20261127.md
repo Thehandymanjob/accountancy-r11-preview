@@ -90,3 +90,13 @@ Source review corrected the English and Persian text for nine Draft entries: THA
 - Static allowlist count: 51. Total contextual Help controls mapped: 56 (51 static, five dynamic-template).
 - Version target: `THA-273-R11-PREVIEW-20261127-R56`. Build ID, canonical URL, index SHA and runtime asset pin must match before Gate approval.
 - Live browser navigation, contextual Help interaction, language switching, mobile layout and iPhone Safari remain unverified. No Preview deployment or Production change.
+
+
+## R57 Project Workspace bindings
+
+- Added seven completed Help topics: `THA-HLP-0084` Save Project, `THA-HLP-0085` Clear Project Form, `THA-HLP-0086` Edit Project, `THA-HLP-0088` Delete Project, `THA-HLP-0098` Save Partner, `THA-HLP-0100` Save Contractor and `THA-HLP-0102` Save Worker.
+- Selectors are scoped to the exact Project Workspace page and the literal action handler. The partner/worker parameter quotes are escaped once in the JavaScript string so the selector resolves to the intended HTML attribute.
+- Static allowlist count: 58. Total contextual Help controls mapped: 63 (58 static, five dynamic-template).
+- Delete Project remains a destructive original action; the Help trigger must remain isolated and must never invoke the Delete handler.
+- Version target: `THA-273-R11-PREVIEW-20261127-R57`. Build ID, canonical URL, index SHA and runtime asset pin must match before Gate approval.
+- Live browser clicks, destructive-action isolation, language switching, mobile layout and iPhone Safari remain unverified. No Preview deployment or Production change.
