@@ -13028,20 +13028,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Remove the currently selected project receipt photo.",
-          "when": "Use this control when you want to remove the current receipt photo from the project form.",
-          "how": "Select Remove photo to clear the receipt image from the current project form.",
-          "inputs": "Select the correct project form and check the currently selected receipt image.",
-          "result": "The project receipt photo is cleared from the current form; other project data and saved records are not deleted by this control.",
-          "notes": "This removes the current photo attachment/preview; check that you have another copy if it is needed as evidence."
+          "purpose": "Removes the currently selected receipt photo from the sub-project income/expense form.",
+          "when": "Use this when the receipt image currently attached to the open sub-project form is incorrect or should not be included.",
+          "how": "Select Remove photo in the receipt-photo area. The image preview and form attachment data are cleared; save the income or expense record to commit that removal to the saved record.",
+          "inputs": "A receipt photo must be selected in the current form. No additional input is required.",
+          "result": "The receipt image is cleared from the current form. The saved record is changed only if the form is subsequently saved successfully.",
+          "notes": "This removes the image from the current form, not from the device's photo library. If you cancel or leave without saving, the previously saved receipt image remains attached to the record."
         },
         "fa": {
-          "purpose": "حذف عکس رسید فعلی پروژه.",
-          "when": "وقتی می‌خواهید عکس رسید فعلی را از فرم پروژه پاک کنید، از این گزینه استفاده کنید.",
-          "how": "گزینه Remove photo را انتخاب کنید تا تصویر رسید از فرم فعلی پاک شود.",
-          "inputs": "فرم درست پروژه را انتخاب کنید و عکس رسید انتخاب‌شده را بررسی کنید.",
-          "result": "عکس رسید پروژه از فرم فعلی برداشته می‌شود؛ این گزینه سایر اطلاعات پروژه یا سوابق ذخیره‌شده را حذف نمی‌کند.",
-          "notes": "این کار عکس یا پیش‌نمایش فعلی را حذف می‌کند؛ اگر به‌عنوان مدرک لازم است نسخه دیگری نگه دارید."
+          "purpose": "عکس رسید انتخاب‌شده فعلی را از فرم درآمد/هزینه زیرپروژه حذف می‌کند.",
+          "when": "وقتی تصویر رسید پیوست‌شده به فرم باز زیرپروژه اشتباه است یا نمی‌خواهید همراه سابقه ثبت شود، از این گزینه استفاده کنید.",
+          "how": "در بخش عکس رسید، Remove photo را انتخاب کنید. پیش‌نمایش تصویر و داده پیوست فرم پاک می‌شوند؛ برای ثبت این حذف در سابقه ذخیره‌شده، فرم درآمد یا هزینه را نیز ذخیره کنید.",
+          "inputs": "باید عکسی به فرم فعلی پیوست شده باشد. ورودی دیگری لازم نیست.",
+          "result": "تصویر رسید از فرم فعلی پاک می‌شود. سابقه ذخیره‌شده فقط در صورت ذخیره موفق فرم تغییر می‌کند.",
+          "notes": "این گزینه تصویر را از فرم فعلی حذف می‌کند، نه از کتابخانه عکس دستگاه. اگر بدون ذخیره از فرم خارج شوید یا عملیات را لغو کنید، تصویر رسید قبلی همچنان به سابقه ذخیره‌شده متصل می‌ماند."
         },
         "ar": {
           "purpose": "يزيل صورة إيصال المشروع المحددة حالياً.",
@@ -13126,20 +13126,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Save the current project income receipt or expense entry.",
-          "when": "Use this control after entering and checking the details of a project income receipt or expense.",
-          "how": "Complete the relevant fields, verify whether the form is for income or an expense, then select its Save Receipt or Save Expense action.",
-          "inputs": "A valid date and amount greater than zero are required. For income, select the payment method. For expenses, select a category; a registered contractor is required for Contractor / subcontractor, and a registered worker is required for Worker wages. Description, reference and receipt photo are optional.",
-          "result": "The current sub-project income receipt or expense is saved to its matching list if validation and IndexedDB persistence succeed. The sub-project financial view is refreshed.",
-          "notes": "Check the date, amount, category and supporting details. Record income only when it has actually been received; ensure contractor or worker costs use the correct registered person."
+          "purpose": "Saves a new or edited income receipt or expense record to the currently open sub-project.",
+          "when": "Use this after entering or editing a customer receipt or expense in the sub-project's Income or Expenses form.",
+          "how": "Complete the date and amount, then enter the relevant payment method for income or category and any required contractor/worker for expenses. Add optional description, reference and receipt photo. Select Save Receipt or Save Expense and wait for the form and history to refresh.",
+          "inputs": "A valid date and amount greater than £0 are required. Income uses the selected payment method. Expenses require a category; Contractor / subcontractor requires a registered contractor, and Worker wages requires a registered worker. Description, reference and receipt photo are optional.",
+          "result": "After validation and successful Projects IndexedDB persistence, the income receipt or expense is saved or updated in the matching sub-project list. The financial view refreshes. A newly recorded income receipt also opens its customer receipt document automatically when the browser allows it.",
+          "notes": "These records belong to the Projects domain and are not automatically transferred to Accountancy. Record income only when actually received. Confirm the selected sub-project and the contractor/worker before saving. If saving fails, do not treat the record as saved."
         },
         "fa": {
-          "purpose": "ذخیره رسید درآمد یا هزینه فعلی پروژه.",
-          "when": "پس از واردکردن و بررسی اطلاعات رسید درآمد یا هزینه پروژه، از این گزینه استفاده کنید.",
-          "how": "فیلدهای لازم را تکمیل کنید، مشخص کنید فرم برای درآمد است یا هزینه، سپس Save Receipt یا Save Expense را انتخاب کنید.",
-          "inputs": "تاریخ معتبر و مبلغ بیشتر از صفر الزامی است. برای درآمد، روش پرداخت را انتخاب کنید. برای هزینه، دسته‌بندی را انتخاب کنید؛ در دسته Contractor / subcontractor انتخاب پیمانکار ثبت‌شده و در دسته Worker wages انتخاب کارگر ثبت‌شده الزامی است. شرح، مرجع و عکس رسید اختیاری هستند.",
-          "result": "در صورت تکمیل فیلدهای لازم و موفقیت اعتبارسنجی و ذخیره، رسید درآمد یا هزینه فعلی در فهرست مربوط به زیرپروژه ثبت می‌شود.",
-          "notes": "تاریخ، مبلغ، دسته‌بندی و جزئیات را بررسی کنید. درآمد را فقط پس از دریافت واقعی وجه ثبت کنید."
+          "purpose": "یک رسید درآمد یا سابقه هزینه جدید یا ویرایش‌شده را در زیرپروژه بازشده ذخیره می‌کند.",
+          "when": "پس از واردکردن یا ویرایش رسید مشتری یا هزینه در فرم Income یا Expenses زیرپروژه از این گزینه استفاده کنید.",
+          "how": "تاریخ و مبلغ را تکمیل کنید؛ سپس برای درآمد روش پرداخت و برای هزینه دسته‌بندی و پیمانکار/کارگر الزامی را وارد کنید. شرح، مرجع و عکس رسید اختیاری را اضافه کنید. Save Receipt یا Save Expense را انتخاب کنید و منتظر تازه‌سازی فرم و تاریخچه بمانید.",
+          "inputs": "تاریخ معتبر و مبلغ بیشتر از £0 الزامی هستند. برای درآمد، روش پرداخت انتخاب می‌شود. برای هزینه، دسته‌بندی الزامی است؛ Contractor / subcontractor به انتخاب پیمانکار ثبت‌شده و Worker wages به انتخاب کارگر ثبت‌شده نیاز دارد. شرح، مرجع و عکس رسید اختیاری هستند.",
+          "result": "پس از اعتبارسنجی و ذخیره موفق در IndexedDB بخش Projects، رسید درآمد یا هزینه در فهرست مربوط به زیرپروژه ذخیره یا به‌روزرسانی می‌شود. نمای مالی تازه‌سازی می‌شود. پس از ثبت درآمد جدید، در صورت اجازه مرورگر، سند رسید مشتری نیز خودکار باز می‌شود.",
+          "notes": "این سوابق به دامنه Projects تعلق دارند و خودکار به Accountancy منتقل نمی‌شوند. درآمد را فقط پس از دریافت واقعی وجه ثبت کنید. پیش از ذخیره، زیرپروژه و پیمانکار/کارگر انتخاب‌شده را تأیید کنید. در صورت شکست ذخیره، سابقه را ذخیره‌شده تلقی نکنید."
         },
         "ar": {
           "purpose": "يحفظ إيصال دخل المشروع الحالي أو قيد المصروف.",
@@ -13224,20 +13224,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Clear the current project finance form.",
-          "when": "Use this control when you want to reset the current unsaved income or expense form.",
-          "how": "Select Clear to reset the current unsaved income/expense form.",
-          "inputs": "Review the current fields and confirm that you do not need any unsaved information.",
-          "result": "The current unsaved income or expense form fields are cleared; previously saved project records remain unchanged.",
-          "notes": "Clearing a form is not a deletion of previously saved records. Confirm that you do not need the unsaved entries."
+          "purpose": "Clears the current sub-project income/expense form and its selected receipt photo without deleting saved records.",
+          "when": "Use this when discarding unsaved form values or preparing to enter a different receipt or expense for the same sub-project.",
+          "how": "Select Clear. The edit ID, amount, reference, description, receipt photo, worker and contractor selections are cleared; the date returns to today. The current category and payment-method selections may remain selected.",
+          "inputs": "No input is required. Review the form first because unsaved values and the current receipt photo will be discarded.",
+          "result": "The current form returns to a new-entry state with the date set to today. Previously saved income and expense records remain unchanged.",
+          "notes": "This action does not delete a saved receipt or expense. If you were editing an existing record, the saved version remains unchanged until you save an update. Category and payment method may need to be checked before entering the next item."
         },
         "fa": {
-          "purpose": "پاک کردن فرم مالی فعلی پروژه.",
-          "when": "وقتی می‌خواهید فرم ثبت‌نشده فعلی درآمد یا هزینه را بازنشانی کنید، از این گزینه استفاده کنید.",
-          "how": "گزینه Clear را انتخاب کنید تا فرم ثبت‌نشده درآمد یا هزینه بازنشانی شود.",
-          "inputs": "فیلدهای فعلی را بررسی کنید و مطمئن شوید به اطلاعات ذخیره‌نشده نیاز ندارید.",
-          "result": "فیلدهای فرم فعلی درآمد یا هزینه پاک می‌شوند؛ سوابق ذخیره‌شده قبلی زیرپروژه باقی می‌مانند.",
-          "notes": "پاک کردن فرم، رکوردهای ذخیره‌شده قبلی را حذف نمی‌کند. پیش از پاک‌کردن مطمئن شوید اطلاعات ثبت‌نشده را لازم ندارید."
+          "purpose": "فرم درآمد/هزینه زیرپروژه فعلی و عکس رسید انتخاب‌شده آن را بدون حذف سوابق ذخیره‌شده پاک می‌کند.",
+          "when": "وقتی می‌خواهید مقادیر ذخیره‌نشده فرم را کنار بگذارید یا برای ثبت رسید یا هزینه دیگری در همان زیرپروژه آماده شوید، از این گزینه استفاده کنید.",
+          "how": "Clear را انتخاب کنید. شناسه ویرایش، مبلغ، مرجع، شرح، عکس رسید و انتخاب کارگر و پیمانکار پاک می‌شوند؛ تاریخ به امروز بازمی‌گردد. ممکن است انتخاب فعلی دسته‌بندی و روش پرداخت باقی بماند.",
+          "inputs": "ورودی لازم نیست. ابتدا فرم را بررسی کنید، زیرا مقادیر ذخیره‌نشده و عکس رسید فعلی کنار گذاشته می‌شوند.",
+          "result": "فرم به وضعیت ثبت جدید بازمی‌گردد و تاریخ روی امروز قرار می‌گیرد. سوابق درآمد و هزینه‌ای که قبلاً ذخیره شده‌اند بدون تغییر باقی می‌مانند.",
+          "notes": "این عملیات رسید یا هزینه ذخیره‌شده را حذف نمی‌کند. اگر در حال ویرایش سابقه موجود بودید، نسخه ذخیره‌شده تا زمانی که تغییرات را ذخیره نکنید بدون تغییر می‌ماند. پیش از ثبت مورد بعدی، دسته‌بندی و روش پرداخت را بررسی کنید."
         },
         "ar": {
           "purpose": "يمسح نموذج الشؤون المالية الحالي للمشروع.",
@@ -13322,20 +13322,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open a receipt for a customer payment recorded in the project workspace.",
-          "when": "Use this control when you need to view the receipt document for a customer payment recorded for the project.",
-          "how": "Select Customer receipt on the relevant payment to view its receipt document.",
-          "inputs": "Select the correct customer payment and check the customer, amount and date.",
-          "result": "A separate browser tab opens with a customer payment receipt for the selected project or sub-project income record. The receipt shows the recorded payment details and business profile information; it does not change the payment record.",
-          "notes": "Check the customer, amount, date and reference. A receipt should reflect money actually received; opening the document does not independently verify the bank payment."
+          "purpose": "Opens a customer payment receipt document for an income record saved in a project or sub-project.",
+          "when": "Use this when you need to view, print or save a receipt for a customer payment recorded in the project workspace.",
+          "how": "In the Income & Receipts History, select Customer receipt beside the correct payment. A separate browser tab opens with the receipt document and options to Generate PDF / Print or Close receipt.",
+          "inputs": "Select the correct saved customer income record. The receipt uses its saved date, amount, method, reference and the project/business profile details.",
+          "result": "A separate browser tab displays the customer payment receipt, including the customer, project/sub-project, payment method, amount received and contract payment summary.",
+          "notes": "Verify the customer, payment date, amount and reference. The receipt is generated from the saved project income record; opening or printing it does not independently verify the bank payment or change the record. If the browser blocks the new tab, allow pop-ups and use Customer receipt again."
         },
         "fa": {
-          "purpose": "باز کردن رسید پرداخت مشتری در فضای کاری پروژه.",
-          "when": "وقتی لازم است سند رسید پرداخت مشتری ثبت‌شده برای پروژه را مشاهده کنید، از این گزینه استفاده کنید.",
-          "how": "در ردیف پرداخت مربوط، Customer receipt را انتخاب کنید تا سند رسید نمایش داده شود.",
-          "inputs": "پرداخت مشتری درست را انتخاب کنید و مشتری، مبلغ و تاریخ را بررسی کنید.",
-          "result": "یک زبانه جداگانه در مرورگر باز می‌شود و رسید پرداخت مشتری را برای رکورد درآمد انتخاب‌شده در پروژه یا زیرپروژه نمایش می‌دهد. رسید جزئیات پرداخت ثبت‌شده و اطلاعات پروفایل کسب‌وکار را نشان می‌دهد؛ خود رکورد پرداخت تغییر نمی‌کند.",
-          "notes": "نام مشتری، مبلغ و تاریخ را بررسی کنید. رسید باید نشان‌دهنده وجهی باشد که واقعاً دریافت شده است."
+          "purpose": "سند رسید پرداخت مشتری را برای سابقه درآمد ذخیره‌شده در پروژه یا زیرپروژه باز می‌کند.",
+          "when": "برای مشاهده، چاپ یا ذخیره رسید پرداخت مشتری که در فضای کاری پروژه ثبت شده است، از این گزینه استفاده کنید.",
+          "how": "در Income & Receipts History، کنار پرداخت صحیح Customer receipt را انتخاب کنید. زبانه جداگانه‌ای در مرورگر با سند رسید و گزینه‌های Generate PDF / Print یا Close receipt باز می‌شود.",
+          "inputs": "سابقه درآمد مشتری ذخیره‌شده صحیح را انتخاب کنید. رسید از تاریخ، مبلغ، روش پرداخت، مرجع و اطلاعات پروفایل پروژه/کسب‌وکار استفاده می‌کند.",
+          "result": "یک زبانه جداگانه در مرورگر رسید پرداخت مشتری را نمایش می‌دهد؛ شامل مشتری، پروژه/زیرپروژه، روش پرداخت، مبلغ دریافتی و خلاصه پرداخت قرارداد.",
+          "notes": "مشتری، تاریخ پرداخت، مبلغ و مرجع را بررسی کنید. رسید بر اساس سابقه درآمد ذخیره‌شده پروژه ایجاد می‌شود؛ بازکردن یا چاپ آن به‌تنهایی پرداخت بانکی را تأیید نمی‌کند و سابقه را تغییر نمی‌دهد. اگر مرورگر زبانه جدید را مسدود کرد، پنجره‌های بازشو را مجاز و دوباره Customer receipt را انتخاب کنید."
         },
         "ar": {
           "purpose": "يفتح إيصالاً لدفعة عميل مسجلة في مساحة عمل المشروع.",
@@ -13420,20 +13420,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Edit a saved project finance entry.",
-          "when": "Use this control when you need to correct or update a saved project income or expense entry.",
-          "how": "Choose Edit beside the intended income or expense row, amend the required details and save.",
-          "inputs": "Select the correct finance entry and verify its type and amount before editing.",
-          "result": "The selected income or expense entry is loaded for editing; the saved entry changes only after the edited details are saved.",
-          "notes": "Confirm the record type and amount; changing a project entry can affect project totals."
+          "purpose": "Loads a saved sub-project income receipt or expense record into its form for editing.",
+          "when": "Use this when correcting the date, amount, description, reference, payment method or expense details of an existing sub-project record.",
+          "how": "Select Edit beside the correct item in Income & Receipts History or Expense History. The saved values load into the relevant form. Make the changes and select Save Receipt or Save Expense to commit them.",
+          "inputs": "Select the correct saved record and verify whether it is income or an expense. The date, amount and relevant fields are loaded; a receipt image is loaded for expense records when one is saved.",
+          "result": "The selected record's existing values are loaded into the form. The saved record is changed only after the corresponding Save Receipt or Save Expense action succeeds.",
+          "notes": "Check the sub-project and record identity before saving. Editing updates the existing record rather than creating another one. For expenses, review the attached receipt photo and contractor/worker assignment before saving."
         },
         "fa": {
-          "purpose": "ویرایش یک ثبت مالی ذخیره‌شده در پروژه.",
-          "when": "وقتی لازم است سابقه درآمد یا هزینه ذخیره‌شده پروژه را اصلاح یا به‌روزرسانی کنید، از این گزینه استفاده کنید.",
-          "how": "در ردیف درآمد یا هزینه موردنظر Edit را انتخاب کنید، جزئیات لازم را تغییر دهید و ذخیره کنید.",
-          "inputs": "سابقه مالی درست را انتخاب کنید و پیش از ویرایش نوع و مبلغ آن را بررسی کنید.",
-          "result": "رکورد درآمد یا هزینه انتخاب‌شده برای ویرایش باز می‌شود؛ اطلاعات ذخیره‌شده فقط پس از ذخیره جزئیات ویرایش‌شده تغییر می‌کند.",
-          "notes": "نوع رکورد و مبلغ را بررسی کنید؛ ویرایش می‌تواند جمع‌های مالی پروژه را تغییر دهد."
+          "purpose": "رسید درآمد یا سابقه هزینه ذخیره‌شده زیرپروژه را برای ویرایش در فرم مربوط بارگذاری می‌کند.",
+          "when": "وقتی می‌خواهید تاریخ، مبلغ، شرح، مرجع، روش پرداخت یا جزئیات هزینه یک سابقه موجود زیرپروژه را اصلاح کنید، از این گزینه استفاده کنید.",
+          "how": "در Income & Receipts History یا Expense History، کنار مورد صحیح Edit را انتخاب کنید. مقادیر ذخیره‌شده در فرم مربوط بارگذاری می‌شوند. تغییرات را اعمال و برای ثبت آن‌ها Save Receipt یا Save Expense را انتخاب کنید.",
+          "inputs": "سابقه ذخیره‌شده صحیح را انتخاب و بررسی کنید که درآمد است یا هزینه. تاریخ، مبلغ و فیلدهای مرتبط بارگذاری می‌شوند؛ در سوابق هزینه، اگر تصویر رسید ذخیره شده باشد، آن نیز بارگذاری می‌شود.",
+          "result": "مقادیر فعلی سابقه انتخاب‌شده در فرم بارگذاری می‌شوند. سابقه ذخیره‌شده فقط پس از موفقیت عملیات مربوط به Save Receipt یا Save Expense تغییر می‌کند.",
+          "notes": "پیش از ذخیره، زیرپروژه و هویت سابقه را بررسی کنید. ویرایش، همان سابقه موجود را به‌روزرسانی می‌کند و مورد دیگری نمی‌سازد. برای هزینه‌ها، عکس رسید پیوست‌شده و تخصیص پیمانکار/کارگر را پیش از ذخیره بررسی کنید."
         },
         "ar": {
           "purpose": "يفتح قيداً مالياً محفوظاً في المشروع لتعديله.",
