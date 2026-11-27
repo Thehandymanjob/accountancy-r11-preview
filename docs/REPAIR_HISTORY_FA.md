@@ -773,6 +773,20 @@
 - **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ pagination، رسید، Edit/Delete، New Invoice، انتخاب زبان و چیدمان موبایل باید در Preview آزمایش شوند.
 - **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
 
+
+#### بازنگری R64 — اتصال راهنمای پنجره‌های PDF
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** اتصال چهار شناسه Help به دو پنجره PDF جداگانه؛ شناسه جدید ایجاد نشد.
+- **شناسه‌های متصل‌شده:** THA-HLP-0133 (Share PDF در پیش‌نمایش A4)، THA-HLP-0134 (Create PDF)، THA-HLP-0135 (Download PDF) و THA-HLP-0136 (Share PDF در پنجره گزارش مالی).
+- **روش اتصال:** برای هر کنترل یک دکمه «?» مستقل در همان پنجره PDF اضافه شد. دکمه راهنما از طریق `window.opener.THAHelpRuntime.open(helpId)` پنجره راهنمای برنامه اصلی را باز می‌کند و focus را به برنامه برمی‌گرداند. اگر opener/runtime در دسترس نباشد، پیام جایگزین داخل پنجره PDF نمایش داده می‌شود.
+- **ایمنی:** دکمه «?» handler اصلی Create/Download/Share PDF را اجرا نمی‌کند. دکمه‌های PDF و تولید فایل تغییر نکرده‌اند.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R64`.
+- **شمارنده پس از R64:** ۱۳۱ Help ID از ۱۳۲ محتوای قابل انتشار متصل شده‌اند: ۱۱۳ static، ۱۴ dynamic-template و چهار پل ارتباطی PDF popup. تنها مورد قابل انتشارِ متصل‌نشده، Check for Updates است که در Preview غیرفعال و عمداً مستثناست.
+- **تست ایستا:** چهار پل opener به شناسه درست متصل و در Registry ثبت شدند؛ تست واقعی popup/opener هنوز انجام نشده است. Version Authority Gate برای R64 باید اجرا شود.
+- **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ بازشدن پنجره Help از popup، بازگشت focus به برنامه، fallback، Create/Download/Share PDF، انتخاب زبان و چیدمان موبایل باید در Preview آزمایش شوند.
+- **انتشار / داده:** هیچ Preview deploy، Merge، تولید/دانلود PDF یا Production change انجام نشده است.
+
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
 - **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Implemented on Preview development; the latest R45 Version Authority Gate passed after native-HTML fail-closed hardening (run 46053038295). Pages deployment and iPhone Safari verification remain pending.
