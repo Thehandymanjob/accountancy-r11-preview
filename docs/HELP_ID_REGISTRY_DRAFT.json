@@ -7740,7 +7740,7 @@
           "when": "Use this after a customer or company payment has actually arrived and you need to record its remittance details.",
           "how": "Open Payments for the required job. Enter the payment date, gross amount, deduction amount and net amount; select the deduction type and tax/VAT treatment. Add a reference, notes or remittance evidence if available, then select Record Payment.",
           "inputs": "A valid payment date, gross amount greater than zero and net amount greater than zero are required. Deduction must be between zero and the gross amount. Deduction type and tax/VAT treatment are selected from the form; reference, notes and attachment are optional. If gross minus deduction differs from net by more than £0.01, the app asks for confirmation to continue for accountant review.",
-          "result": "If the payment passes validation and IndexedDB saving succeeds, it is added to the selected job's payment history. The app refreshes the payment history and confirms that the payment was recorded in Company Contracts & Jobs only.",
+          "result": "If validation succeeds and IndexedDB saving is verified, the payment is added to the selected job's payment history. The payment history is refreshed and the app confirms that the payment was recorded in Company Contracts & Jobs only.",
           "notes": "Record only money actually received. Reconcile gross, deduction and net against the remittance advice. This company-job payment is not posted, linked or copied to Accountancy. Confirm CIS/VAT and other tax treatment with the accountant where required."
         },
         "fa": {
@@ -7748,7 +7748,7 @@
           "when": "پس از آنکه پرداخت مشتری یا شرکت واقعاً دریافت شده و باید جزئیات حواله آن را ثبت کنید، از این گزینه استفاده کنید.",
           "how": "بخش Payments کار موردنظر را باز کنید. تاریخ پرداخت، مبلغ ناخالص، مبلغ کسری و مبلغ خالص را وارد کنید؛ نوع کسری و نحوه برخورد مالیاتی/VAT را انتخاب کنید. در صورت وجود، مرجع، یادداشت یا مدرک حواله را اضافه و سپس Record Payment را انتخاب کنید.",
           "inputs": "تاریخ معتبر پرداخت، مبلغ ناخالص بیشتر از صفر و مبلغ خالص بیشتر از صفر الزامی هستند. مبلغ کسری باید بین صفر و مبلغ ناخالص باشد. نوع کسری و نحوه برخورد مالیاتی/VAT از فرم انتخاب می‌شوند؛ مرجع، یادداشت‌ها و پیوست اختیاری هستند. اگر اختلاف مبلغ ناخالص منهای کسری با مبلغ خالص بیش از ۰٫۰۱ پوند باشد، برنامه برای ادامه و بررسی حسابدار تأیید می‌خواهد.",
-          "result": "اگر پرداخت اعتبارسنجی شود و ذخیره در IndexedDB موفق باشد، به تاریخچه پرداخت همان کار اضافه می‌شود. تاریخچه پرداخت تازه‌سازی و ثبت پرداخت فقط در Company Contracts & Jobs تأیید می‌شود.",
+          "result": "اگر اعتبارسنجی موفق باشد و ذخیره در IndexedDB تأیید شود، پرداخت به تاریخچه پرداخت همان کار اضافه می‌شود. تاریخچه تازه‌سازی و ثبت پرداخت فقط در Company Contracts & Jobs تأیید می‌شود.",
           "notes": "فقط پولی را ثبت کنید که واقعاً دریافت شده است. مبلغ ناخالص، کسری و خالص را با حواله پرداخت تطبیق دهید. این پرداخت کار شرکتی به Accountancy ارسال، مرتبط یا کپی نمی‌شود. در صورت نیاز نحوه برخورد با CIS/VAT و سایر موارد مالیاتی را با حسابدار تأیید کنید."
         },
         "ar": {
@@ -7834,16 +7834,16 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Confirms an invoice payment, marks the invoice as paid and creates or updates its linked income record in Accountancy.",
-          "when": "Use this only after the customer has actually paid the invoice and you are ready to record the payment date and method.",
+          "purpose": "Confirms payment of an issued invoice, marks it as paid and creates or updates its linked income record in Accountancy.",
+          "when": "Use this only after the customer has actually paid the invoice and you are ready to record the date funds were received and the payment method.",
           "how": "Select Mark paid for the invoice. In the Record payment dialog, verify the invoice, enter the date the funds were received, choose Cash or Bank Transfer, then select Confirm payment. Review any possible-duplicate warning before proceeding.",
-          "inputs": "A valid payment date and payment method (Cash or Bank Transfer) are required. The invoice and payment amount are taken from the selected invoice; the amount is its calculated total.",
+          "inputs": "A valid payment date and payment method (Cash or Bank Transfer) are required. The invoice and amount are taken from the selected invoice; the amount is its calculated total.",
           "result": "After a successful and verified IndexedDB save, the invoice payment status becomes Paid and its invoice status becomes Issued. A linked Work income entry is created in Accountancy, or an existing matching linked income entry is updated. The invoice list is refreshed and a confirmation is displayed.",
-          "notes": "Do not confirm before funds are received. The app checks for an existing linked income entry and, if none is found, warns about possible income entries with the same date and amount. Review that warning to avoid duplicate income. If saving or verification fails, the app restores the prior data state and reports the failure."
+          "notes": "Do not confirm before funds are received. The app checks for an existing linked income entry and, if none is found, warns about possible income entries with the same date and amount. Review the warning to avoid duplicate income. If saving or verification fails, the app restores the prior data state and reports the failure."
         },
         "fa": {
-          "purpose": "پرداخت فاکتور را تأیید می‌کند، فاکتور را پرداخت‌شده علامت می‌زند و سابقه درآمد مرتبط با آن را در Accountancy ایجاد یا به‌روزرسانی می‌کند.",
-          "when": "فقط پس از آن از این گزینه استفاده کنید که مشتری واقعاً مبلغ فاکتور را پرداخت کرده و آماده ثبت تاریخ و روش دریافت هستید.",
+          "purpose": "پرداخت فاکتور صادرشده را تأیید می‌کند، فاکتور را پرداخت‌شده علامت می‌زند و سابقه درآمد مرتبط با آن را در Accountancy ایجاد یا به‌روزرسانی می‌کند.",
+          "when": "فقط پس از آن از این گزینه استفاده کنید که مشتری واقعاً مبلغ فاکتور را پرداخت کرده و آماده ثبت تاریخ دریافت وجه و روش پرداخت هستید.",
           "how": "برای فاکتور گزینه Mark paid را انتخاب کنید. در پنجره Record payment، فاکتور را بررسی کنید، تاریخ دریافت وجه را وارد کنید، Cash یا Bank Transfer را انتخاب و سپس Confirm payment را بزنید. پیش از ادامه، هر هشدار مربوط به احتمال ثبت تکراری را بررسی کنید.",
           "inputs": "تاریخ معتبر پرداخت و روش پرداخت (Cash یا Bank Transfer) الزامی هستند. فاکتور و مبلغ پرداخت از فاکتور انتخاب‌شده گرفته می‌شوند؛ مبلغ برابر با جمع محاسبه‌شده فاکتور است.",
           "result": "پس از ذخیره موفق و تأییدشده در IndexedDB، وضعیت پرداخت فاکتور Paid و وضعیت فاکتور Issued می‌شود. یک سابقه درآمد Work income مرتبط در Accountancy ایجاد می‌شود یا سابقه درآمد مرتبط و منطبق موجود به‌روزرسانی می‌شود. فهرست فاکتورها تازه‌سازی و پیام تأیید نمایش داده می‌شود.",
