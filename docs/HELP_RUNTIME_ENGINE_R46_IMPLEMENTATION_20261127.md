@@ -110,3 +110,13 @@ Source review corrected the English and Persian text for nine Draft entries: THA
 - Static allowlist count: 69. Total contextual Help controls mapped: 74 (69 static, five dynamic-template).
 - Version target: `THA-273-R11-PREVIEW-20261127-R58`. Build ID, canonical URL, index SHA and runtime asset pin must match before Gate approval.
 - No actual project expense/payment was recorded. Live browser interaction, data-boundary verification, language switching, mobile layout and iPhone Safari remain unverified. No Preview deployment or Production change.
+
+
+## R59 Contracts and Profile bindings
+
+- Added six completed Help topics: `THA-HLP-0005` New Contract, `THA-HLP-0006` Save Contract, `THA-HLP-0008` Contract Preview/Print/Save PDF, `THA-HLP-0068` Save Profile, `THA-HLP-0069` Remove Logo and `THA-HLP-0071` Clear Support Form.
+- Contract actions are scoped to `#contractsWorkspace` and `#ctFormCard`; Profile & Logo actions are scoped to `#profileGuide`; Clear Support Form is scoped to `#helpContactForm`.
+- Static allowlist count: 75. Total contextual Help controls mapped: 80 (75 static, five dynamic-template).
+- No contract content, PDF generation, profile persistence, logo storage or support message delivery logic was changed.
+- Version target: `THA-273-R11-PREVIEW-20261127-R59`. Build ID, canonical URL, index SHA and runtime asset pin must match before Gate approval.
+- Live browser clicks, PDF preview, profile save/remove, language switching, mobile layout and iPhone Safari remain unverified. No Preview deployment or Production change.
