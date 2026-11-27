@@ -48,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "R60 contains 90 adjacent contextual Help controls: 85 static and five dynamic. Authority pins are synchronized to the current R60 index/runtime assets. Gate is being rerun; real Preview browser/iPhone verification remains pending. No deployment or Production promotion is authorized.",
+  "note": "R64 contains 131 adjacent contextual Help controls: 113 static, 14 dynamic-template and four PDF popup bridges. One publishable Help ID (Check for Updates) remains intentionally unmapped because its Preview updater control is disabled. Version Authority Gate R64 PASS (run 46072258368); all 24 pinned runtime assets validated. Preview browser/iPhone Safari verification remains pending. No Preview deployment, merge or Production promotion is authorized.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {
