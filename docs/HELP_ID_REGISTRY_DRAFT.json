@@ -20660,6 +20660,78 @@
           "inputs": "تصویر رسید باید قبلاً انتخاب شده و در پنجره برش باز باشد. برای این عملیات انتخاب فایل جدید لازم نیست.",
           "result": "تصویر اصلی انتخاب‌شده بدون برش اعمال می‌شود. خود سابقه تا زمان موفقیت Save Entry یا عملیات ذخیره پروژه مربوط ذخیره نمی‌شود.",
           "notes": "تصویر کامل ممکن است پس‌زمینه یا اطلاعات نامرتبط داشته باشد. خوانایی را بررسی کنید و از نمایش جزئیات شخصی نامرتبط خودداری کنید. اگر می‌خواهید تصویر را کنار بگذارید، از کنترل جداگانه Remove photo استفاده کنید."
+        },
+        "ar": {
+          "purpose": "يطبق صورة الإيصال الأصلية كاملة على نموذج الإيصال الحالي دون اقتصاص.",
+          "when": "استخدمه عندما تقطع معاينة الاقتصاص تفاصيل مهمة من الإيصال وتريد الاحتفاظ بالصورة المحددة كاملة.",
+          "how": "في مربع حوار اقتصاص الإيصال، اختر Use full image. تُطبق الصورة كاملة على معاينة الإيصال؛ تحقق من وضوحها قبل حفظ السجل.",
+          "inputs": "يجب أن تكون صورة الإيصال محددة ومفتوحة بالفعل في مربع حوار الاقتصاص. لا يلزم ملف جديد.",
+          "result": "تُطبق الصورة الأصلية المحددة دون اقتصاص. لا يُحفظ السجل نفسه حتى تنجح عملية Save Entry المعتادة أو عملية حفظ المشروع.",
+          "notes": "قد تتضمن الصورة الكاملة خلفية إضافية أو معلومات غير ذات صلة. تحقق من وضوحها وتجنب كشف بيانات شخصية لا علاقة لها. استخدم عنصر التحكم المنفصل Remove photo إذا أردت التخلص من الصورة."
+        },
+        "ckb": {
+          "purpose": "وێنەی ڕەسەنی تەواوی پسووڵە بەبێ بڕین دەخاتە ناو فۆڕمی پسووڵەی ئێستا.",
+          "when": "کاتێک پێشبینینی بڕین وردەکارییە گرنگەکانی پسووڵە دەبڕێت و دەتەوێت هەموو وێنەی هەڵبژێردراو بپارێزیت، ئەمە بەکاربهێنە.",
+          "how": "لە پەنجەرەی بڕینی پسووڵە، Use full image هەڵبژێرە. وێنەی تەواو لە پێشبینینی پسووڵەدا بەکاردێت؛ پێش پاشەکەوتکردنی تۆمارەکە دڵنیابە لە خوێندراوی وێنەکە.",
+          "inputs": "وێنەی پسووڵە دەبێت پێشتر هەڵبژێردرابێت و لە پەنجەرەی بڕیندا کرابێتەوە. فایلێکی نوێ پێویست نییە.",
+          "result": "وێنەی ڕەسەنی هەڵبژێردراو بەبێ بڕین بەکاردێت. خودی تۆمارەکە تا Save Entryی ئاسایی یان کردارەکەی پاشەکەوتکردنی پڕۆژە سەرکەوتوو نەبێت پاشەکەوت ناکرێت.",
+          "notes": "وێنەی تەواو لەوانەیە پاشبنەمای زیادە یان زانیاریی ناپەیوەندیداری تێدا بێت. خوێندراوی وێنەکە بپشکنە و لە ئاشکراکردنی زانیاری کەسی ناپەیوەندیدار خۆت بپارێزە. ئەگەر دەتەوێت وێنەکە لاببەیت، کۆنترۆڵی جیاوازی Remove photo بەکاربهێنە."
+        },
+        "kmr": {
+          "purpose": "Wêneyê orîjînal ê tevahî yê fatûreyê bê qutkirin li forma fatûreya heyî zêde dike.",
+          "when": "Vê bikar bîne dema ku pêşdîtina qutkirinê hûrguliyên girîng ên fatûreyê dibire û tu dixwazî tevahiya wêneya hilbijartî biparêzî.",
+          "how": "Di paceya qutkirina fatûreyê de Use full image hilbijêre. Wêneya tevahî li pêşdîtina fatûreyê tê sepandin; berî tomarkirina tomarê zelaliya wê kontrol bike.",
+          "inputs": "Divê wêneya fatûreyê berê hatiye hilbijartin û di paceya qutkirinê de vekirî be. Pelê nû nehewce ye.",
+          "result": "Wêneya orîjînal a hilbijartî bê qutkirin tê sepandin. Tomar bixwe heta ku Save Entry ya asayî an kiryara tomarkirina projeyê bi ser nekeve nayê tomarkirin.",
+          "notes": "Wêneya tevahî dibe ku paşxaneyeke zêde an agahiyên ne têkildar dihewîne. Xwendina wê kontrol bike û ji eşkerekirina daneyên kesane yên ne têkildar dûr bikeve. Heke dixwazî wêneyê bavêjî, kontrola cuda ya Remove photo bikar bîne."
+        },
+        "tr": {
+          "purpose": "Seçilen makbuz görselinin tamamını kırpmadan mevcut makbuz formuna uygular.",
+          "when": "Kırpma önizlemesi makbuzun önemli ayrıntılarını kesiyorsa ve seçilen görselin tamamını korumak istiyorsanız kullanın.",
+          "how": "Makbuz kırpma iletişim kutusunda Use full image seçeneğini belirleyin. Görselin tamamı makbuz önizlemesine uygulanır; kaydı kaydetmeden önce okunabilir olduğunu kontrol edin.",
+          "inputs": "Makbuz görseli kırpma iletişim kutusunda önceden seçilmiş ve açık olmalıdır. Yeni bir dosya gerekmez.",
+          "result": "Seçilen özgün görsel kırpılmadan uygulanır. Normal Save Entry veya proje kaydetme işlemi başarılı olana kadar kayıt kaydedilmez.",
+          "notes": "Tam görsel fazladan arka plan veya ilgisiz bilgiler içerebilir. Okunabilirliği kontrol edin ve ilgisiz kişisel bilgileri açığa çıkarmayın. Görseli kaldırmak istiyorsanız ayrı Remove photo denetimini kullanın."
+        },
+        "pl": {
+          "purpose": "Stosuje cały oryginalny obraz paragonu do bieżącego formularza paragonu bez przycinania.",
+          "when": "Użyj tej opcji, gdy podgląd przycinania usuwa ważne szczegóły paragonu i chcesz zachować cały wybrany obraz.",
+          "how": "W oknie przycinania paragonu wybierz Use full image. Cały obraz zostanie zastosowany w podglądzie paragonu; przed zapisaniem rekordu sprawdź jego czytelność.",
+          "inputs": "Obraz paragonu musi być już wybrany i otwarty w oknie przycinania. Nie jest wymagany nowy plik.",
+          "result": "Wybrany oryginalny obraz zostaje zastosowany bez przycinania. Sam rekord nie zostanie zapisany, dopóki standardowa operacja Save Entry lub zapis projektu nie zakończy się powodzeniem.",
+          "notes": "Pełny obraz może zawierać dodatkowe tło lub niepowiązane informacje. Sprawdź czytelność i unikaj ujawniania niepowiązanych danych osobowych. Jeśli chcesz odrzucić obraz, użyj osobnego elementu Remove photo."
+        },
+        "ur": {
+          "purpose": "رسید کی مکمل اصل تصویر کو بغیر کاٹے موجودہ رسید فارم پر لاگو کرتا ہے۔",
+          "when": "اسے اس وقت استعمال کریں جب کراپ پیش منظر رسید کی اہم تفصیلات کاٹ دے اور آپ پوری منتخب تصویر رکھنا چاہتے ہوں۔",
+          "how": "رسید کے کراپ ڈائیلاگ میں Use full image منتخب کریں۔ پوری تصویر رسید کے پیش منظر پر لاگو ہو جاتی ہے؛ اندراج محفوظ کرنے سے پہلے اس کی پڑھنے کی صلاحیت چیک کریں۔",
+          "inputs": "رسید کی تصویر پہلے سے منتخب اور کراپ ڈائیلاگ میں کھلی ہونی چاہیے۔ نئی فائل درکار نہیں۔",
+          "result": "منتخب اصل تصویر بغیر کراپ کیے لاگو ہوتی ہے۔ اندراج اس وقت تک محفوظ نہیں ہوتا جب تک معمول کا Save Entry یا پروجیکٹ محفوظ کرنے کا عمل کامیاب نہ ہو۔",
+          "notes": "مکمل تصویر میں اضافی پس منظر یا غیر متعلقہ معلومات شامل ہو سکتی ہیں۔ پڑھنے کی صلاحیت دیکھیں اور غیر متعلقہ ذاتی معلومات ظاہر کرنے سے بچیں۔ اگر تصویر ہٹانی ہو تو الگ Remove photo کنٹرول استعمال کریں۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੀ ਹੋਈ ਰਸੀਦ ਦੀ ਪੂਰੀ ਅਸਲ ਤਸਵੀਰ ਨੂੰ ਬਿਨਾਂ ਕੱਟੇ ਮੌਜੂਦਾ ਰਸੀਦ ਫਾਰਮ 'ਤੇ ਲਾਗੂ ਕਰਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਕ੍ਰੌਪ ਪ੍ਰੀਵਿਊ ਰਸੀਦ ਦੇ ਮਹੱਤਵਪੂਰਨ ਵੇਰਵੇ ਕੱਟ ਦਿੰਦਾ ਹੋਵੇ ਅਤੇ ਤੁਸੀਂ ਪੂਰੀ ਚੁਣੀ ਤਸਵੀਰ ਰੱਖਣੀ ਚਾਹੁੰਦੇ ਹੋ।",
+          "how": "ਰਸੀਦ ਦੇ ਕ੍ਰੌਪ ਡਾਇਲਾਗ ਵਿੱਚ Use full image ਚੁਣੋ। ਪੂਰੀ ਤਸਵੀਰ ਰਸੀਦ ਦੇ ਪ੍ਰੀਵਿਊ 'ਤੇ ਲਾਗੂ ਹੁੰਦੀ ਹੈ; ਐਂਟਰੀ ਸੇਵ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਇਸਦੀ ਪੜ੍ਹਨਯੋਗਤਾ ਜਾਂਚੋ।",
+          "inputs": "ਰਸੀਦ ਦੀ ਤਸਵੀਰ ਪਹਿਲਾਂ ਹੀ ਚੁਣੀ ਹੋਣੀ ਅਤੇ ਕ੍ਰੌਪ ਡਾਇਲਾਗ ਵਿੱਚ ਖੁੱਲ੍ਹੀ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ। ਨਵੀਂ ਫਾਈਲ ਦੀ ਲੋੜ ਨਹੀਂ।",
+          "result": "ਚੁਣੀ ਅਸਲ ਤਸਵੀਰ ਬਿਨਾਂ ਕੱਟੇ ਲਾਗੂ ਹੁੰਦੀ ਹੈ। ਐਂਟਰੀ ਤਦ ਤੱਕ ਸੇਵ ਨਹੀਂ ਹੁੰਦੀ ਜਦੋਂ ਤੱਕ ਆਮ Save Entry ਜਾਂ ਪ੍ਰੋਜੈਕਟ ਸੇਵ ਕਾਰਵਾਈ ਸਫਲ ਨਾ ਹੋਵੇ।",
+          "notes": "ਪੂਰੀ ਤਸਵੀਰ ਵਿੱਚ ਵਾਧੂ ਪਿਛੋਕੜ ਜਾਂ ਗੈਰ-ਸੰਬੰਧਿਤ ਜਾਣਕਾਰੀ ਹੋ ਸਕਦੀ ਹੈ। ਪੜ੍ਹਨਯੋਗਤਾ ਜਾਂਚੋ ਅਤੇ ਗੈਰ-ਸੰਬੰਧਿਤ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਦਿਖਾਉਣ ਤੋਂ ਬਚੋ। ਜੇ ਤਸਵੀਰ ਹਟਾਉਣੀ ਹੋਵੇ ਤਾਂ ਵੱਖਰਾ Remove photo ਕੰਟਰੋਲ ਵਰਤੋ।"
+        },
+        "prs": {
+          "purpose": "تصویر اصلی و کامل رسید انتخاب‌شده را بدون برش به فرم رسید فعلی اعمال می‌کند.",
+          "when": "وقتی پیش‌نمایش برش، جزئیات مهم رسید را حذف می‌کند و می‌خواهید تمام تصویر انتخاب‌شده حفظ شود، از این گزینه استفاده کنید.",
+          "how": "در پنجره برش رسید، Use full image را انتخاب کنید. تصویر کامل در پیش‌نمایش رسید اعمال می‌شود؛ پیش از ذخیره سابقه، خوانایی آن را بررسی کنید.",
+          "inputs": "تصویر رسید باید قبلاً انتخاب شده و در پنجره برش باز باشد. فایل جدیدی لازم نیست.",
+          "result": "تصویر اصلی انتخاب‌شده بدون برش اعمال می‌شود. خود سابقه تا زمان موفقیت Save Entry یا عملیات ذخیره پروژه مربوط ذخیره نمی‌شود.",
+          "notes": "تصویر کامل ممکن است پس‌زمینه اضافی یا اطلاعات نامرتبط داشته باشد. خوانایی را بررسی کنید و از نمایش جزئیات شخصی نامرتبط خودداری کنید. اگر می‌خواهید تصویر را کنار بگذارید، از کنترل جداگانه Remove photo استفاده کنید."
+        },
+        "ps": {
+          "purpose": "د رسید ټاکل شوی بشپړ اصلي انځور د پرې کولو پرته د رسید اوسني فورم ته لګوي.",
+          "when": "دا هغه وخت وکاروئ چې د پرې کولو مخکتنه د رسید مهم جزئیات پرې کوي او غواړئ ټاکل شوی بشپړ انځور وساتئ.",
+          "how": "د رسید د پرې کولو په کړکۍ کې Use full image وټاکئ. بشپړ انځور د رسید په مخکتنه کې لګېږي؛ د ریکارډ له خوندي کولو مخکې یې لوستلو وړتیا وګورئ.",
+          "inputs": "د رسید انځور باید مخکې ټاکل شوی او د پرې کولو په کړکۍ کې پرانیستی وي. نوې فایل ته اړتیا نشته.",
+          "result": "ټاکل شوی اصلي انځور بې له پرې کولو لګېږي. خپله داخله تر هغه نه خوندي کېږي چې عادي Save Entry یا د پروژې د خوندي کولو کړنه بریالۍ نه شي.",
+          "notes": "بشپړ انځور ښايي اضافي شالید یا نامربوط معلومات ولري. لوستلو وړتیا یې وګورئ او د نامربوطو شخصي معلوماتو له ښکاره کولو ډډه وکړئ. که انځور لرې کول غواړئ، جلا Remove photo کنټرول وکاروئ."
         }
       },
       "handler_or_behavior": "`useFullReceiptImage()`"
@@ -20686,6 +20758,78 @@
           "inputs": "تصویر رسید باید قبلاً در پنجره برش انتخاب شده باشد. محدوده برش را طوری تنظیم کنید که تاریخ، فروشنده و مبلغ کل خوانا باقی بمانند.",
           "result": "بخش برش‌خورده به تصویر JPEG تبدیل و به پیش‌نمایش رسید اعمال می‌شود. سابقه اصلی تا زمان موفقیت عملیات ذخیره معمول آن ذخیره نمی‌شود.",
           "notes": "پیش از ذخیره سابقه، مطمئن شوید تمام جزئیات ضروری رسید خوانا باقی مانده‌اند. برش، تصویر پیوست‌شده به فرم فعلی را تغییر می‌دهد و عکس اصلی موجود در کتابخانه تصاویر دستگاه را دستکاری نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يطبق الجزء المحدد والمقصوص من صورة الإيصال على نموذج الإيصال الحالي.",
+          "when": "استخدمه عندما تريد الاحتفاظ بالجزء ذي الصلة فقط من صورة الإيصال وإزالة الخلفية غير الضرورية.",
+          "how": "اضبط حدود الاقتصاص لتشمل تفاصيل الإيصال المطلوبة، ثم اختر Save cropped photo. راجع معاينة الإيصال الناتجة قبل حفظ السجل.",
+          "inputs": "يجب أن تكون صورة الإيصال محددة بالفعل في مربع حوار الاقتصاص. اضبط منطقة الاقتصاص بحيث يظل التاريخ والمورد والإجمالي ظاهرين.",
+          "result": "يُحوّل الجزء المقصوص إلى صورة JPEG ويُطبق على معاينة الإيصال. لا يُحفظ السجل الأساسي حتى تنجح عملية الحفظ المعتادة.",
+          "notes": "تحقق من بقاء جميع تفاصيل الإيصال المطلوبة مقروءة. يغيّر الاقتصاص الصورة المرفقة بالنموذج الحالي؛ ولا يغيّر الصورة الأصلية في مكتبة صور الجهاز."
+        },
+        "ckb": {
+          "purpose": "ئەو بەشەی بڕدراوی هەڵبژێردراوی وێنەی پسووڵە دەخاتە ناو فۆڕمی پسووڵەی ئێستا.",
+          "when": "کاتێک دەتەوێت تەنها بەشی پەیوەندیداری وێنەی پسووڵە بپارێزیت و پاشبنەمای ناپێویست لاببەیت، ئەمە بەکاربهێنە.",
+          "how": "سنوورەکانی بڕین ڕێکبخە تا وردەکارییە پێویستەکانی پسووڵە لەخۆ بگرێت، پاشان Save cropped photo هەڵبژێرە. پێش پاشەکەوتکردنی تۆمارەکە پێشبینینی پسووڵەی دروستبوو بپشکنە.",
+          "inputs": "وێنەی پسووڵە دەبێت پێشتر لە پەنجەرەی بڕین هەڵبژێردرابێت. ناوچەی بڕین ڕێکبخە تا بەروار، دابینکەر و کۆی گشتی دیار بمێننەوە.",
+          "result": "بەشی بڕدراو دەگۆڕدرێت بۆ وێنەی JPEG و لە پێشبینینی پسووڵەدا بەکاردێت. تۆماری بنەڕەتی تا کردارە ئاساییەکەی پاشەکەوتکردن سەرکەوتوو نەبێت پاشەکەوت ناکرێت.",
+          "notes": "دڵنیا ببەوە هەموو وردەکارییە پێویستەکانی پسووڵە هێشتا خوێندراون. بڕین وێنەی هاوپێچکراو بە فۆڕمی ئێستا دەگۆڕێت؛ وێنەی ڕەسەنی ناو کتێبخانەی وێنەکانی ئامێرەکە ناگۆڕێت."
+        },
+        "kmr": {
+          "purpose": "Beşa qutkirî ya hilbijartî ya wêneya fatûreyê li forma fatûreya heyî sepand dike.",
+          "when": "Vê bikar bîne dema ku dixwazî tenê beşa têkildar a wêneya fatûreyê biparêzî û paşxaneya nehewce jê bibî.",
+          "how": "Sînorên qutkirinê rast bike da ku hûrguliyên pêwîst ên fatûreyê di nav de bin, paşê Save cropped photo hilbijêre. Berî tomarkirina tomarê pêşdîtina fatûreyê ya encam kontrol bike.",
+          "inputs": "Divê wêneya fatûreyê berê di paceya qutkirinê de hatiye hilbijartin. Herêma qutkirinê rast bike da ku dîrok, dabînker û tevahî xuya bimînin.",
+          "result": "Beşa qutkirî vediguhere wêneyeke JPEG û li pêşdîtina fatûreyê tê sepandin. Tomara bingehîn heta ku kiryara tomarkirina asayî serkeftî nebe nayê tomarkirin.",
+          "notes": "Kontrol bike ku hemû hûrguliyên pêwîst ên fatûreyê hîn jî têne xwendin. Qutkirin wêneya girêdayî forma heyî diguherîne; wêneya orîjînal di pirtûkxaneya wêneyên cîhazê de naguherîne."
+        },
+        "tr": {
+          "purpose": "Makbuz görselinin seçilen kırpılmış bölümünü mevcut makbuz formuna uygular.",
+          "when": "Makbuz görselinin yalnızca ilgili bölümünü korumak ve gereksiz arka planı kaldırmak istediğinizde kullanın.",
+          "how": "Gerekli makbuz ayrıntılarını içerecek şekilde kırpma sınırlarını ayarlayın ve ardından Save cropped photo seçeneğini belirleyin. Kaydı kaydetmeden önce oluşan makbuz önizlemesini inceleyin.",
+          "inputs": "Makbuz görseli kırpma iletişim kutusunda önceden seçilmiş olmalıdır. Tarih, tedarikçi ve toplam tutar görünür kalacak şekilde kırpma alanını ayarlayın.",
+          "result": "Kırpılan alan JPEG görseline dönüştürülür ve makbuz önizlemesine uygulanır. Normal kaydetme işlemi başarılı olana kadar temel kayıt kaydedilmez.",
+          "notes": "Gerekli tüm makbuz ayrıntılarının okunabilir kaldığını kontrol edin. Kırpma, mevcut forma eklenen görseli değiştirir; cihazın fotoğraf kitaplığındaki özgün fotoğrafı değiştirmez."
+        },
+        "pl": {
+          "purpose": "Stosuje wybrany przycięty fragment obrazu paragonu do bieżącego formularza paragonu.",
+          "when": "Użyj tej opcji, gdy chcesz zachować tylko odpowiedni fragment obrazu paragonu i usunąć zbędne tło.",
+          "how": "Dostosuj granice przycinania tak, aby obejmowały wymagane szczegóły paragonu, a następnie wybierz Save cropped photo. Przed zapisaniem rekordu sprawdź wynikowy podgląd paragonu.",
+          "inputs": "Obraz paragonu musi być już wybrany w oknie przycinania. Ustaw obszar przycięcia tak, aby data, dostawca i suma pozostały widoczne.",
+          "result": "Przycięty obszar zostaje przekonwertowany na obraz JPEG i zastosowany w podglądzie paragonu. Właściwy rekord nie zostanie zapisany, dopóki standardowa operacja zapisu nie zakończy się powodzeniem.",
+          "notes": "Sprawdź, czy wszystkie wymagane szczegóły paragonu pozostają czytelne. Przycinanie zmienia obraz dołączony do bieżącego formularza; nie zmienia oryginalnego zdjęcia w bibliotece zdjęć urządzenia."
+        },
+        "ur": {
+          "purpose": "رسید کی تصویر کے منتخب کردہ کٹے ہوئے حصے کو موجودہ رسید فارم پر لاگو کرتا ہے۔",
+          "when": "اسے اس وقت استعمال کریں جب آپ رسید کی تصویر کا صرف متعلقہ حصہ رکھنا اور غیر ضروری پس منظر ہٹانا چاہتے ہوں۔",
+          "how": "کراپ کی حدود اس طرح درست کریں کہ رسید کی مطلوبہ تفصیلات شامل ہوں، پھر Save cropped photo منتخب کریں۔ اندراج محفوظ کرنے سے پہلے بننے والا رسید پیش منظر دیکھیں۔",
+          "inputs": "رسید کی تصویر پہلے سے کراپ ڈائیلاگ میں منتخب ہونی چاہیے۔ کراپ کا علاقہ اس طرح رکھیں کہ تاریخ، سپلائر اور کل رقم نظر آتی رہے۔",
+          "result": "کٹا ہوا حصہ JPEG تصویر میں تبدیل ہو کر رسید کے پیش منظر پر لاگو ہوتا ہے۔ بنیادی اندراج اس وقت تک محفوظ نہیں ہوتا جب تک معمول کا محفوظ کرنے کا عمل کامیاب نہ ہو۔",
+          "notes": "تصدیق کریں کہ رسید کی تمام ضروری تفصیلات پڑھنے کے قابل رہیں۔ کراپ کرنے سے موجودہ فارم کے ساتھ منسلک تصویر بدلتی ہے؛ ڈیوائس کی فوٹو لائبریری میں اصل تصویر تبدیل نہیں ہوتی۔"
+        },
+        "pa": {
+          "purpose": "ਰਸੀਦ ਦੀ ਤਸਵੀਰ ਦੇ ਚੁਣੇ ਹੋਏ ਕੱਟੇ ਹਿੱਸੇ ਨੂੰ ਮੌਜੂਦਾ ਰਸੀਦ ਫਾਰਮ 'ਤੇ ਲਾਗੂ ਕਰਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਤੁਸੀਂ ਰਸੀਦ ਦੀ ਤਸਵੀਰ ਦਾ ਸਿਰਫ਼ ਸੰਬੰਧਿਤ ਹਿੱਸਾ ਰੱਖਣਾ ਅਤੇ ਬੇਲੋੜਾ ਪਿਛੋਕੜ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ।",
+          "how": "ਕ੍ਰੌਪ ਦੀਆਂ ਹੱਦਾਂ ਇਸ ਤਰ੍ਹਾਂ ਠੀਕ ਕਰੋ ਕਿ ਰਸੀਦ ਦੇ ਲੋੜੀਂਦੇ ਵੇਰਵੇ ਸ਼ਾਮਲ ਹੋਣ, ਫਿਰ Save cropped photo ਚੁਣੋ। ਐਂਟਰੀ ਸੇਵ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਬਣੇ ਰਸੀਦ ਪ੍ਰੀਵਿਊ ਦੀ ਜਾਂਚ ਕਰੋ।",
+          "inputs": "ਰਸੀਦ ਦੀ ਤਸਵੀਰ ਪਹਿਲਾਂ ਹੀ ਕ੍ਰੌਪ ਡਾਇਲਾਗ ਵਿੱਚ ਚੁਣੀ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ। ਕ੍ਰੌਪ ਖੇਤਰ ਇਸ ਤਰ੍ਹਾਂ ਠੀਕ ਕਰੋ ਕਿ ਮਿਤੀ, ਸਪਲਾਇਰ ਅਤੇ ਕੁੱਲ ਰਕਮ ਦਿਖਾਈ ਦੇਣ।",
+          "result": "ਕੱਟਿਆ ਹਿੱਸਾ JPEG ਤਸਵੀਰ ਵਿੱਚ ਬਦਲ ਕੇ ਰਸੀਦ ਦੇ ਪ੍ਰੀਵਿਊ 'ਤੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ। ਆਮ ਸੇਵ ਕਾਰਵਾਈ ਸਫਲ ਹੋਣ ਤੱਕ ਅਸਲ ਐਂਟਰੀ ਸੇਵ ਨਹੀਂ ਹੁੰਦੀ।",
+          "notes": "ਜਾਂਚੋ ਕਿ ਰਸੀਦ ਦੇ ਸਾਰੇ ਲੋੜੀਂਦੇ ਵੇਰਵੇ ਪੜ੍ਹਨਯੋਗ ਰਹਿਣ। ਕ੍ਰੌਪ ਕਰਨ ਨਾਲ ਮੌਜੂਦਾ ਫਾਰਮ ਨਾਲ ਜੁੜੀ ਤਸਵੀਰ ਬਦਲਦੀ ਹੈ; ਡਿਵਾਈਸ ਦੀ ਫੋਟੋ ਲਾਇਬ੍ਰੇਰੀ ਵਿੱਚ ਅਸਲ ਤਸਵੀਰ ਨਹੀਂ ਬਦਲਦੀ।"
+        },
+        "prs": {
+          "purpose": "بخش برش‌خورده انتخاب‌شده از تصویر رسید را به فرم رسید فعلی اعمال می‌کند.",
+          "when": "وقتی می‌خواهید فقط بخش مرتبط تصویر رسید را نگه دارید و پس‌زمینه غیرضروری را حذف کنید، از این گزینه استفاده کنید.",
+          "how": "مرزهای برش را طوری تنظیم کنید که جزئیات لازم رسید داخل کادر بماند، سپس Save cropped photo را انتخاب کنید. پیش‌نمایش حاصل را پیش از ذخیره سابقه بررسی کنید.",
+          "inputs": "تصویر رسید باید قبلاً در پنجره برش انتخاب شده باشد. محدوده برش را طوری تنظیم کنید که تاریخ، فروشنده و مبلغ کل خوانا باقی بمانند.",
+          "result": "بخش برش‌خورده به تصویر JPEG تبدیل و به پیش‌نمایش رسید اعمال می‌شود. سابقه اصلی تا زمان موفقیت عملیات ذخیره معمول ذخیره نمی‌شود.",
+          "notes": "مطمئن شوید همه جزئیات ضروری رسید خوانا باقی مانده‌اند. برش، تصویر پیوست‌شده به فرم فعلی را تغییر می‌دهد و عکس اصلی موجود در کتابخانه تصاویر دستگاه را دستکاری نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د رسید د انځور ټاکل شوې پرې شوې برخه د رسید اوسني فورم ته لګوي.",
+          "when": "دا هغه وخت وکاروئ چې غواړئ د رسید د انځور یوازې اړوند برخه وساتئ او غیرضروري شالید لرې کړئ.",
+          "how": "د پرې کولو پولې داسې برابرې کړئ چې د رسید اړین جزئیات پکې شامل وي، بیا Save cropped photo وټاکئ. د ریکارډ له خوندي کولو مخکې د رسید جوړه شوې مخکتنه وګورئ.",
+          "inputs": "د رسید انځور باید مخکې د پرې کولو په کړکۍ کې ټاکل شوی وي. د پرې کولو ساحه داسې برابره کړئ چې نېټه، عرضه کوونکی او ټولیزه اندازه ښکاره پاتې شي.",
+          "result": "پرې شوې برخه JPEG انځور ته بدلېږي او د رسید په مخکتنه کې لګېږي. اصلي ریکارډ تر هغه نه خوندي کېږي چې عادي د خوندي کولو کړنه بریالۍ نه شي.",
+          "notes": "وګورئ چې د رسید ټول اړین جزئیات لوستل کېدای شي. پرې کول د اوسني فورم سره نښلول شوی انځور بدلوي؛ د وسیلې د انځورونو په کتابتون کې اصلي عکس نه بدلوي."
         }
       },
       "handler_or_behavior": "`applyReceiptCrop()`"
