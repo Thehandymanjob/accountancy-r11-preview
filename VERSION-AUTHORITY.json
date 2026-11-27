@@ -2483,19 +2483,19 @@
         "docs/REPAIR_INDEX_FA.md",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "f01c9acbb8780dc33276e0714bcce1358842cb55",
+      "previewDevelopmentCommitSha": "4fefbb755506f784f831d30121884ae029cad756",
       "previewPullRequestNumber": 96,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "PENDING",
-        "runId": "pending",
-        "url": "pending",
-        "details": "R58 requires a fresh Version Authority Gate against the final R58 Build ID, canonical URL, index SHA and all 24 runtime asset pins."
+        "result": "PASS",
+        "runId": 46070444164,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070444164",
+        "details": "R58 Version Authority Gate passed. Repository/branch identity, approved R11 baseline ancestry, Build ID THA-273-R11-PREVIEW-20261127-R58, canonical URL, index blob SHA and all 24 pinned runtime assets matched."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
-        "details": "Eleven completed Help topics use exact selectors scoped to Company Contracts & Jobs, project finance panels and the Accounting invoice payment modal. Company project expense/payment actions remain distinct from Accounting invoice payment. All 11 IDs are CONTENT_COMPLETE. Live browser and data-boundary tests remain pending."
+        "details": "Eleven completed Help topics use exact selectors scoped to Company Contracts & Jobs, project finance panels and the Accounting invoice payment modal. Company project expense/payment actions remain distinct from Accounting invoice payment. All 11 IDs are CONTENT_COMPLETE. Manual Git-tree comparison confirms Registry, Inventory, Help content, runtime and index baselines match. Live browser and data-boundary tests remain pending."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
