@@ -7485,7 +7485,7 @@
       "audit_ref": "INV-093",
       "element_id": null,
       "label": "⚙️ Control Panel",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the Control Panel landing page for managing reusable business records.",
@@ -7583,7 +7583,7 @@
       "audit_ref": "INV-095",
       "element_id": null,
       "label": "📁 Projects New Project, Projects List and Project Profit & Loss",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the Projects area, which provides project creation, saved-project management and project profit-and-loss reporting.",
@@ -7681,7 +7681,7 @@
       "audit_ref": "INV-096",
       "element_id": null,
       "label": "🏢 Company Contracts & Jobs Companies, contracts, company projects, sub-projects and payments",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the Company Contracts & Jobs hub, which provides company registration, company lists and company-job profit-and-loss reporting.",
@@ -7779,7 +7779,7 @@
       "audit_ref": "INV-097",
       "element_id": null,
       "label": "⚙️ Control Panel Manage shared Partners, Workers, Contractors, companies and future settings",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the Control Panel, where reusable Partners, Workers and Contractors directories are managed.",
