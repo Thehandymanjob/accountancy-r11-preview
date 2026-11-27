@@ -11863,81 +11863,81 @@
           "purpose": "نمای هزینه‌ها و مخارج ثبت‌شده برای یک بسته کاری انتخاب‌شده را باز می‌کند.",
           "when": "وقتی می‌خواهید هزینه‌های ثبت‌شده برای یک بسته کاری مشخص را بررسی کنید یا هزینه جدیدی به آن اضافه کنید، از این گزینه استفاده کنید.",
           "how": "برای بسته موردنظر Financials را انتخاب کنید. فهرست هزینه‌ها و جمع آن‌ها را بررسی کنید یا با استفاده از فیلدهای نمایش‌داده‌شده هزینه جدیدی ثبت کنید.",
-          "inputs": "بسته کاری درست را انتخاب کنید. برای افزودن هزینه، تاریخ معتبر و مبلغ بیشتر از صفر وارد کنید؛ دسته‌بندی را از فهرست انتخاب کنید. نام پرداخت‌کننده، شرح و رسید اختیاری هستند.",
+          "inputs": "بسته کاری درست را انتخاب کنید. برای افزودن هزینه، تاریخ معتبر و مبلغ بیشتر از صفر الزامی است؛ دسته‌بندی را از فهرست انتخاب کنید و نام پرداخت‌کننده، شرح و رسید را در صورت نیاز وارد کنید.",
           "result": "هزینه‌های ثبت‌شده و مجموع هزینه بسته انتخاب‌شده نمایش داده می‌شوند و فیلدهایی برای افزودن هزینه دیگری به همان بسته در دسترس قرار می‌گیرند. این نما دفتر جداگانه‌ای برای درآمدها نشان نمی‌دهد.",
-          "notes": "مجموع نمایش‌داده‌شده را هزینه‌های همان بسته در نظر بگیرید و پیش از اتکا به آن، با رسیدها و مدارک اصلی تطبیق دهید."
+          "notes": "مبالغ نمایش‌داده‌شده را هزینه‌های بسته در نظر بگیرید و پیش از اتکا به آن‌ها با رسیدها و مدارک اصلی تطبیق دهید."
         },
         "ar": {
           "purpose": "يعرض المعلومات المالية لحزمة عمل.",
           "when": "عندما تريد مراجعة الدخل أو التكاليف أو الملخص المالي المسجل لحزمة العمل.",
           "how": "اختر Financials لمراجعة الدخل والتكاليف أو الملخص المالي المرتبط بالحزمة.",
-          "inputs": "حدد حزمة العمل أو العرض الصحيح؛ وأدخل تفاصيل إضافية فقط إذا طلب التطبيق ذلك.",
-          "result": "تُفتح المعلومات المالية المسجلة لحزمة العمل المحددة.",
-          "notes": "تعامل مع الإجماليات المعروضة باعتبارها أرقام مساحة العمل، وطابقها مع السجلات الأصلية قبل الاعتماد عليها."
+          "inputs": "حدد حزمة العمل الصحيحة. لإضافة مصروف، يلزم تاريخ صالح ومبلغ أكبر من صفر؛ اختر الفئة من القائمة، وبيانات المستفيد والوصف والإيصال اختيارية.",
+          "result": "تُعرض المصروفات المسجلة وإجمالي تكلفة الحزمة المحددة، مع حقول لإضافة مصروف آخر للحزمة نفسها. لا يعرض هذا المنظور دفتر دخل منفصلًا.",
+          "notes": "اعتبر الإجماليات المعروضة أرقام مصروفات الحزمة، وقارنها بالإيصالات والمستندات الأصلية قبل الاعتماد عليها."
         },
         "ckb": {
           "purpose": "زانیاری دارایی پاکێجی کار پیشان دەدات.",
           "when": "کاتێک دەتەوێت داهات، تێچوو یان پوختەی دارایی تۆمارکراوی پاکێجی کار بپشکنیت.",
           "how": "Financials هەڵبژێرە بۆ پشکنینی داهات و تێچوو یان پوختەی دارایی پەیوەست بە پاکێجەکە.",
-          "inputs": "پاکێجی کار یان نمای دروست هەڵبژێرە؛ تەنها ئەگەر ئەپەکە داوای کرد زانیاری زیاتر بنووسە.",
-          "result": "زانیاری دارایی تۆمارکراوی پاکێجی کاری دیاریکراو دەکرێتەوە.",
-          "notes": "کۆی پیشاندراو وەک ژمارەکانی فضای کار مامەڵەیان لەگەڵ بکە و پێش پشتبەستن پێیان لەگەڵ تۆمارە بنەڕەتییەکان بەراوردیان بکە."
+          "inputs": "پاکێجی کاری دروست هەڵبژێرە. بۆ زیادکردنی خەرجی، بەروارێکی دروست و بڕێکی زیاتر لە سفر پێویستن؛ هاوپۆل لە پێڕستەکە هەڵبژێرە و ناوی وەرگر، وەسف و پسووڵە هەڵبژاردەیین.",
+          "result": "خەرجییە تۆمارکراوەکان و کۆی تێچووی پاکێجی هەڵبژێردراو پیشان دەدرێن و خانەکان بۆ زیادکردنی خەرجییەکی تر بۆ هەمان پاکێج بەردەستن. ئەم نماوە دفتەری داهاتی جیاواز پیشان نادات.",
+          "notes": "کۆی پیشاندراو وەک تێچووی پاکێجەکە وەربگرە و پێش پشتبەستن پێیان لەگەڵ پسووڵە و بەڵگە سەرەکییەکان بەراوردیان بکە."
         },
         "kmr": {
           "purpose": "Agahiyên darayî yên pakêteke xebatê nîşan dide.",
           "when": "Dema ku tu dixwazî dahat, lêçûn an kurtasîya darayî ya tomarkirî ya pakêtê kontrol bikî.",
           "how": "Financials hilbijêre da ku dahat, lêçûn an kurtasîya darayî ya girêdayî pakêtê kontrol bikî.",
-          "inputs": "Pakêta xebatê an dîtina rast hilbijêre; tenê heke sepan bixwaze hûrguliyên din binivîse.",
-          "result": "Agahiyên darayî yên tomarkirî yên pakêta xebatê ya hilbijartî vedibin.",
-          "notes": "Ji tevahiyên nîşandayî wekî hejmarên qada xebatê re tevbigere û berî pêbaweriyê wan bi tomarên bingehîn re berawird bike."
+          "inputs": "Pakêta karê rast hilbijêre. Ji bo lêzêdekirina lêçûnê dîrokeke derbasdar û mîqdarek ji sifirê mezintir pêwîst in; kategoriyê ji lîsteyê hilbijêre, wergir, ravekirin û mezaq vebijarkî ne.",
+          "result": "Lêçûnên tomarkirî û tevahiya lêçûna pakêta hilbijartî têne nîşandan, bi qadên lêzêdekirina lêçûneke din ji bo heman pakêtê. Ev dîtin deftera dahata cuda nîşan nade.",
+          "notes": "Nirxên nîşandan wekî lêçûnên pakêtê bihesibîne û berî bawerkirina wan bi mezaq û belgeyên bingehîn re berawird bike."
         },
         "tr": {
           "purpose": "Bir iş paketinin finansal bilgilerini görüntüler.",
           "when": "İş paketine kaydedilmiş gelirleri, maliyetleri veya finansal özeti incelemek istediğinizde kullanın.",
           "how": "Pakete bağlı gelirleri, maliyetleri veya finansal özeti incelemek için Financials'ı seçin.",
-          "inputs": "Doğru iş paketini veya görünümü seçin; yalnızca uygulama isterse ek bilgi girin.",
-          "result": "Seçilen iş paketinin kayıtlı finansal bilgileri açılır.",
-          "notes": "Görüntülenen toplamları çalışma alanı rakamları olarak değerlendirin ve güvenmeden önce kaynak kayıtlarla karşılaştırın."
+          "inputs": "Doğru iş paketini seçin. Gider eklemek için geçerli bir tarih ve sıfırdan büyük tutar gerekir; kategoriyi listeden seçin, alıcı, açıklama ve makbuz isteğe bağlıdır.",
+          "result": "Seçilen paketin kayıtlı giderleri ve toplam maliyeti gösterilir; aynı pakete başka bir gider eklemek için alanlar sunulur. Bu görünüm ayrı bir gelir defteri göstermez.",
+          "notes": "Görüntülenen toplamları paket giderleri olarak değerlendirin ve bunlara güvenmeden önce kaynak makbuzlarla karşılaştırın."
         },
         "pl": {
           "purpose": "Wyświetla informacje finansowe pakietu prac.",
           "when": "Użyj, gdy chcesz sprawdzić zapisane przychody, koszty lub podsumowanie finansowe pakietu prac.",
           "how": "Wybierz Financials, aby sprawdzić przychody, koszty lub podsumowanie finansowe powiązane z pakietem.",
-          "inputs": "Wybierz właściwy pakiet prac lub widok; dodatkowe dane podaj tylko wtedy, gdy aplikacja o to poprosi.",
-          "result": "Otwierają się zapisane informacje finansowe wybranego pakietu prac.",
-          "notes": "Traktuj wyświetlone sumy jako dane obszaru roboczego i przed wykorzystaniem porównaj je z dokumentami źródłowymi."
+          "inputs": "Wybierz właściwy pakiet prac. Aby dodać wydatek, wymagana jest prawidłowa data i kwota większa od zera; wybierz kategorię z listy, a odbiorca, opis i paragon są opcjonalne.",
+          "result": "Wyświetlane są zapisane wydatki i łączny koszt wybranego pakietu, a także pola do dodania kolejnego wydatku do tego pakietu. Ten widok nie pokazuje osobnego rejestru przychodów.",
+          "notes": "Traktuj wyświetlane sumy jako wydatki pakietu i porównaj je z paragonami źródłowymi przed wykorzystaniem."
         },
         "ur": {
           "purpose": "ورک پیکیج کی مالی معلومات دکھاتا ہے۔",
           "when": "جب ورک پیکیج کی درج شدہ آمدنی، اخراجات یا مالی خلاصہ دیکھنا ہو تو استعمال کریں۔",
           "how": "پیکیج سے متعلق آمدنی، اخراجات یا مالی خلاصہ دیکھنے کے لیے Financials منتخب کریں۔",
-          "inputs": "درست ورک پیکیج یا منظر منتخب کریں؛ اضافی تفصیلات صرف تب دیں جب ایپ مانگے۔",
-          "result": "منتخب ورک پیکیج کی محفوظ شدہ مالی معلومات کھل جاتی ہیں۔",
-          "notes": "دکھائی گئی مجموعی رقوم کو ورک اسپیس کے اعداد سمجھیں اور ان پر انحصار سے پہلے اصل ریکارڈ سے ملائیں۔"
+          "inputs": "درست ورک پیکیج منتخب کریں۔ خرچ شامل کرنے کے لیے درست تاریخ اور صفر سے زیادہ رقم لازمی ہے؛ فہرست سے زمرہ منتخب کریں، وصول کنندہ، تفصیل اور رسید اختیاری ہیں۔",
+          "result": "منتخب پیکیج کے درج شدہ اخراجات اور کل لاگت دکھائی جاتی ہے اور اسی پیکیج میں مزید خرچ شامل کرنے کے خانے دستیاب ہوتے ہیں۔ یہ منظر الگ آمدنی کا لیجر نہیں دکھاتا۔",
+          "notes": "دکھائی گئی مجموعی رقوم کو پیکیج کے اخراجات سمجھیں اور ان پر بھروسا کرنے سے پہلے اصل رسیدوں سے ملائیں۔"
         },
         "pa": {
           "purpose": "ਵਰਕ ਪੈਕੇਜ ਦੀ ਵਿੱਤੀ ਜਾਣਕਾਰੀ ਦਿਖਾਉਂਦਾ ਹੈ।",
           "when": "ਜਦੋਂ ਵਰਕ ਪੈਕੇਜ ਦੀ ਦਰਜ ਆਮਦਨ, ਖਰਚੇ ਜਾਂ ਵਿੱਤੀ ਸਾਰ ਵੇਖਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
           "how": "ਪੈਕੇਜ ਨਾਲ ਜੁੜੀ ਆਮਦਨ, ਖਰਚੇ ਜਾਂ ਵਿੱਤੀ ਸਾਰ ਵੇਖਣ ਲਈ Financials ਚੁਣੋ।",
-          "inputs": "ਸਹੀ ਵਰਕ ਪੈਕੇਜ ਜਾਂ ਦ੍ਰਿਸ਼ ਚੁਣੋ; ਵਾਧੂ ਜਾਣਕਾਰੀ ਸਿਰਫ਼ ਉਦੋਂ ਦਿਓ ਜਦੋਂ ਐਪ ਮੰਗੇ।",
-          "result": "ਚੁਣੇ ਵਰਕ ਪੈਕੇਜ ਦੀ ਦਰਜ ਵਿੱਤੀ ਜਾਣਕਾਰੀ ਖੁੱਲ੍ਹਦੀ ਹੈ।",
-          "notes": "ਦਿਖਾਏ ਕੁੱਲ ਨੂੰ ਵਰਕਸਪੇਸ ਦੇ ਅੰਕੜੇ ਸਮਝੋ ਅਤੇ ਭਰੋਸਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਮੂਲ ਰਿਕਾਰਡ ਨਾਲ ਮਿਲਾਓ।"
+          "inputs": "ਸਹੀ ਵਰਕ ਪੈਕੇਜ ਚੁਣੋ। ਖਰਚ ਜੋੜਨ ਲਈ ਵੈਧ ਤਾਰੀਖ ਅਤੇ ਸਿਫ਼ਰ ਤੋਂ ਵੱਧ ਰਕਮ ਲਾਜ਼ਮੀ ਹੈ; ਸੂਚੀ ਵਿੱਚੋਂ ਸ਼੍ਰੇਣੀ ਚੁਣੋ, ਪ੍ਰਾਪਤਕਰਤਾ, ਵੇਰਵਾ ਅਤੇ ਰਸੀਦ ਵਿਕਲਪਿਕ ਹਨ।",
+          "result": "ਚੁਣੇ ਪੈਕੇਜ ਦੇ ਦਰਜ ਖਰਚੇ ਅਤੇ ਕੁੱਲ ਲਾਗਤ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ ਅਤੇ ਉਸੇ ਪੈਕੇਜ ਵਿੱਚ ਹੋਰ ਖਰਚ ਜੋੜਨ ਲਈ ਖੇਤਰ ਮਿਲਦੇ ਹਨ। ਇਹ ਦ੍ਰਿਸ਼ ਵੱਖਰਾ ਆਮਦਨ ਲੇਜਰ ਨਹੀਂ ਦਿਖਾਉਂਦਾ।",
+          "notes": "ਦਿਖਾਈਆਂ ਕੁੱਲ ਰਕਮਾਂ ਨੂੰ ਪੈਕੇਜ ਦੇ ਖਰਚੇ ਸਮਝੋ ਅਤੇ ਇਨ੍ਹਾਂ 'ਤੇ ਭਰੋਸਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਅਸਲ ਰਸੀਦਾਂ ਨਾਲ ਮਿਲਾਓ।"
         },
         "prs": {
           "purpose": "اطلاعات مالی یک بسته کاری را نمایش می‌دهد.",
           "when": "وقتی می‌خواهید درآمد، هزینه‌ها یا خلاصه مالی ثبت‌شده بسته کاری را بررسی کنید، استفاده کنید.",
           "how": "Financials را انتخاب کنید تا درآمد، هزینه‌ها یا خلاصه مالی مرتبط با بسته را بررسی کنید.",
-          "inputs": "بسته کاری یا نمای درست را انتخاب کنید؛ فقط در صورت درخواست برنامه جزئیات اضافی وارد کنید.",
-          "result": "اطلاعات مالی ثبت‌شده بسته کاری انتخاب‌شده باز می‌شود.",
-          "notes": "مبالغ کل نمایش‌داده‌شده را ارقام فضای کاری بدانید و پیش از اتکا به آن‌ها با سوابق اصلی تطبیق دهید."
+          "inputs": "بسته کاری درست را انتخاب کنید. برای افزودن هزینه، تاریخ معتبر و مبلغ بیشتر از صفر الزامی است؛ دسته‌بندی را از فهرست انتخاب کنید و نام پرداخت‌کننده، شرح و رسید اختیاری هستند.",
+          "result": "هزینه‌های ثبت‌شده و مجموع هزینه بسته انتخاب‌شده نمایش داده می‌شوند و فیلدهایی برای افزودن هزینه دیگری به همان بسته در دسترس قرار می‌گیرند. این نما دفتر جداگانه‌ای برای درآمدها نشان نمی‌دهد.",
+          "notes": "مبالغ نمایش‌داده‌شده را هزینه‌های بسته در نظر بگیرید و پیش از اتکا به آن‌ها با رسیدها و مدارک اصلی تطبیق دهید."
         },
         "ps": {
           "purpose": "د کاري بستې مالي معلومات ښکاره کوي.",
           "when": "کله چې د کاري بستې ثبت شوې عاید، لګښتونه یا مالي لنډیز کتل غواړئ، دا وکاروئ.",
           "how": "د بستې اړوند عاید، لګښتونو یا مالي لنډیز د کتلو لپاره Financials وټاکئ.",
-          "inputs": "سمه کاري بسته یا لید وټاکئ؛ اضافي معلومات یوازې هغه وخت ورکړئ چې اپلیکیشن یې وغواړي.",
-          "result": "د ټاکل شوې کاري بستې ثبت شوي مالي معلومات پرانیستل کېږي.",
-          "notes": "ښودل شوي ټولیز ارقام د کاري ځای ارقام وګڼئ او له باور مخکې یې له اصلي ریکارډونو سره پرتله کړئ."
+          "inputs": "سمه کاري بسته وټاکئ. د لګښت زیاتولو لپاره سمه نېټه او له صفر څخه زیاته اندازه اړینه ده؛ کټګوري له لېست څخه وټاکئ، ترلاسه کوونکی، تشریح او رسید اختیاري دي.",
+          "result": "د ټاکل شوې بستې ثبت شوي لګښتونه او ټول لګښت ښودل کېږي او د همدې بستې لپاره د بل لګښت د زیاتولو خانې ښکاري. دا لید جلا د عاید دفتر نه ښيي.",
+          "notes": "ښودل شوې ټولې پیسې د بستې لګښتونه وګڼئ او تر باور مخکې یې له اصلي رسیدونو سره پرتله کړئ."
         }
       },
       "handler_or_behavior": "`coShowPackageFinance(`"
@@ -11962,80 +11962,80 @@
           "when": "فقط زمانی استفاده کنید که دیگر به بسته کاری نیاز ندارید و هزینه‌ها و مدارک مرتبط با آن را بررسی کرده‌اید.",
           "how": "برای بسته موردنظر Delete را انتخاب کنید و پس از بررسی بسته و محتویات آن، پیام تأیید را بپذیرید.",
           "inputs": "بسته کاری درست را درون کار درست انتخاب کنید و تأیید حذف را بپذیرید.",
-          "result": "پس از تأیید و ذخیره موفق، بسته کاری انتخاب‌شده از کار حذف می‌شود. هزینه‌های ثبت‌شده در سطح بسته و پیوست آن نیز همراه بسته حذف می‌شوند.",
-          "notes": "هشدار: این عملیات بسته و سوابق مالی/مدارک داخلی آن را حذف می‌کند، اما تاریخچه پرداخت جداگانه مربوط به خودِ کار را حذف نمی‌کند. پیش از ادامه، مدارک موردنیاز را بررسی و نگهداری کنید."
+          "result": "پس از تأیید و ذخیره موفق، بسته کاری از کار حذف می‌شود. هزینه‌های سطح بسته و پیوست آن نیز همراه بسته حذف می‌شوند.",
+          "notes": "هشدار: این عملیات بسته و سوابق مالی/مدارک داخلی آن را حذف می‌کند، اما تاریخچه پرداخت جداگانه مربوط به خود کار را حذف نمی‌کند. پیش از ادامه، مدارک موردنیاز را بررسی و نگهداری کنید."
         },
         "ar": {
-          "purpose": "يحذف حزمة عمل.",
-          "when": "فقط عندما لم تعد حزمة العمل مطلوبة وبعد مراجعة السجلات المرتبطة بها.",
-          "how": "اختر Delete للحزمة المطلوبة واقرأ رسالة التأكيد قبل المتابعة.",
-          "inputs": "حدد حزمة العمل الصحيحة وتحقق من الوظيفة المرتبطة بها ومن المصروفات والمرفقات وسجل الدفعات.",
-          "result": "تُزال الحزمة أو تُعطّل فقط إذا قبل التطبيق العملية وأكدها.",
-          "notes": "قد يؤدي الحذف إلى فقدان الوصول إلى تفاصيل الحزمة. راجع المصروفات والمرفقات وسجل الدفعات المرتبط قبل التأكيد."
+          "purpose": "يزيل حزمة العمل والسجلات المتداخلة التابعة لها من الوظيفة المحددة.",
+          "when": "استخدمه فقط عندما لم تعد بحاجة إلى حزمة العمل وبعد مراجعة المصروفات والمستندات المرتبطة بها.",
+          "how": "اختر Delete للحزمة المقصودة، وراجع الحزمة ومحتوياتها ثم وافق على رسالة التأكيد.",
+          "inputs": "حدد حزمة العمل الصحيحة ضمن الوظيفة الصحيحة ووافق على تأكيد الحذف.",
+          "result": "بعد التأكيد ونجاح الحفظ، تُزال حزمة العمل من الوظيفة. وتُزال معها مصروفات الحزمة ومرفقاتها.",
+          "notes": "تحذير: يزيل هذا الإجراء الحزمة وسجلاتها المالية/المستندات المتداخلة، لكنه لا يحذف سجل دفعات الوظيفة المنفصل. راجع الأدلة المطلوبة واحتفظ بها قبل المتابعة."
         },
         "ckb": {
-          "purpose": "پاکێجی کارێک دەسڕێتەوە.",
-          "when": "تەنها کاتێک پاکێجی کارەکە چیتر پێویست نییە و تۆمارە پەیوەستەکانی پشکنراون.",
-          "how": "بۆ پاکێجی مەبەست Delete هەڵبژێرە و پێش بەردەوامبوون نامەی پشتڕاستکردنەوە بخوێنەوە.",
-          "inputs": "پاکێجی کاری دروست هەڵبژێرە و پەیوەندییەکەی بە کارەکە، خەرجییەکان، پاشکۆکان و مێژووی پارەدان بپشکنە.",
-          "result": "پاکێجەکە تەنها ئەگەر ئەپەکە کردارەکە قبووڵ و پشتڕاست بکاتەوە لادەبرێت یان ناچالاک دەکرێت.",
-          "notes": "سڕینەوە دەتوانێت دەستگەیشتن بە وردەکارییەکانی پاکێج لەناوببات. پێش پشتڕاستکردنەوە خەرجی، پاشکۆ و مێژووی پارەدانی پەیوەست بپشکنە."
+          "purpose": "پاکێجی کار و تۆمارە ناوخۆییە پەیوەستەکانی لە کاری هەڵبژێردراو دەسڕێتەوە.",
+          "when": "تەنها کاتێک بەکاریبهێنە کە چیتر پێویستت بە پاکێجی کار نییە و خەرجی و بەڵگە پەیوەستەکانی پشکنیت.",
+          "how": "بۆ پاکێجی مەبەست Delete هەڵبژێرە، پاکێج و ناوەڕۆکەکانی بپشکنە و پاشان پەیامی پشتڕاستکردنەوە قبووڵ بکە.",
+          "inputs": "پاکێجی کاری دروست لەناو کاری دروست هەڵبژێرە و پشتڕاستکردنەوەی سڕینەوە قبووڵ بکە.",
+          "result": "دوای پشتڕاستکردنەوە و پاشەکەوتکردنی سەرکەوتوو، پاکێجی کار لە کارەکە دەسڕدرێتەوە. خەرجییەکانی ئاستی پاکێج و هاوپێچەکەشی لەگەڵیدا دەسڕدرێنەوە.",
+          "notes": "ئاگاداری: ئەم کردارە پاکێج و تۆمارە دارایی/بەڵگە ناوخۆییەکانی دەسڕێتەوە، بەڵام مێژووی پارەدانی جیاوازی خودی کار ناسڕێتەوە. پێش بەردەوامبوون بەڵگە پێویستەکان بپشکنە و بیانهێڵەوە."
         },
         "kmr": {
-          "purpose": "Pakêteke xebatê jê dike.",
-          "when": "Tenê dema ku êdî pakêta xebatê ne pêwîst e û tomarên girêdayî hatine kontrolkirin.",
-          "how": "Ji bo pakêta xwestî Delete hilbijêre û berî domandinê peyama piştrastkirinê bixwîne.",
-          "inputs": "Pakêta xebatê ya rast hilbijêre û girêdana wê bi kar, lêçûn, pêvek û dîroka dravdanê kontrol bike.",
-          "result": "Pakêt tenê heke sepan kiryarê qebûl û piştrast bike tê rakirin an neçalak kirin.",
-          "notes": "Jêbirin dikare gihîştina hûrguliyên pakêtê winda bike. Berî piştrastkirinê lêçûn, pêvek û dîroka dravdanê ya girêdayî kontrol bike."
+          "purpose": "Pakêta karê û tomarên navxweyî yên girêdayî wê ji karê hilbijartî radike.",
+          "when": "Tenê dema ku êdî pakêta karê pêwîst nake û lêçûn û belgeyên girêdayî wê kontrol kirine bikar bîne.",
+          "how": "Ji bo pakêta armancê Delete hilbijêre, pakêt û naveroka wê kontrol bike, paşê peyama piştrastkirinê qebûl bike.",
+          "inputs": "Pakêta karê ya rast di nav karê rast de hilbijêre û piştrastkirina jêbirinê qebûl bike.",
+          "result": "Piştî piştrastkirin û tomarkirina serkeftî, pakêta karê ji kar tê rakirin. Lêçûnên asta pakêtê û pêveka wê jî bi wê re tên rakirin.",
+          "notes": "Hişyarî: Ev kiryar pakêt û tomarên darayî/belgeyên navxweyî yên wê jê dike, lê dîroka dravdanê ya cuda ya karê jê nake. Berî domandinê delîlên pêwîst kontrol bike û biparêze."
         },
         "tr": {
-          "purpose": "Bir iş paketini siler.",
-          "when": "Yalnızca iş paketi artık gerekli değilse ve bağlantılı kayıtlar incelendiyse kullanın.",
-          "how": "İlgili paket için Delete'i seçin ve devam etmeden önce onay mesajını okuyun.",
-          "inputs": "Doğru iş paketini seçin ve onaylamadan önce bağlı işi, giderleri, ekleri ve ödeme geçmişini kontrol edin.",
-          "result": "Uygulama işlemi kabul edip onaylarsa paket kaldırılır veya devre dışı bırakılır.",
-          "notes": "Silme işlemi paket ayrıntılarına erişimi kaybettirebilir. Onaylamadan önce bağlantılı giderleri, ekleri ve ödeme geçmişini inceleyin."
+          "purpose": "Seçilen işten bir iş paketini ve ona bağlı alt kayıtları kaldırır.",
+          "when": "Yalnızca iş paketine artık ihtiyaç yoksa ve ilgili giderler ile kanıtları kontrol ettiyseniz kullanın.",
+          "how": "İstenen paket için Delete seçeneğini belirleyin, paketi ve içeriğini kontrol ettikten sonra onay istemini kabul edin.",
+          "inputs": "Doğru iş içindeki doğru iş paketini seçin ve silme onayını kabul edin.",
+          "result": "Onay ve başarılı kayıt sonrasında iş paketi işten kaldırılır. Paket düzeyindeki giderler ve eki de paketle birlikte kaldırılır.",
+          "notes": "Uyarı: Bu işlem paketi ve içindeki maliyet/kanıt kayıtlarını kaldırır, ancak işin ayrı ödeme geçmişini silmez. Devam etmeden önce gerekli kanıtları kontrol edin ve saklayın."
         },
         "pl": {
-          "purpose": "Usuwa pakiet prac.",
-          "when": "Użyj tylko wtedy, gdy pakiet prac nie jest już potrzebny, a powiązane rekordy zostały sprawdzone.",
-          "how": "Wybierz Delete przy właściwym pakiecie i przed kontynuowaniem przeczytaj komunikat potwierdzający.",
-          "inputs": "Wybierz właściwy pakiet prac i sprawdź powiązane zlecenie, wydatki, załączniki oraz historię płatności.",
-          "result": "Pakiet zostanie usunięty lub dezaktywowany tylko wtedy, gdy aplikacja zaakceptuje i potwierdzi operację.",
-          "notes": "Usunięcie może spowodować utratę dostępu do szczegółów pakietu. Przed potwierdzeniem sprawdź powiązane wydatki, załączniki i historię płatności."
+          "purpose": "Usuwa pakiet prac i powiązane z nim rekordy podrzędne z wybranego zlecenia.",
+          "when": "Użyj tylko wtedy, gdy pakiet nie jest już potrzebny, a powiązane wydatki i dowody zostały sprawdzone.",
+          "how": "Wybierz Delete przy odpowiednim pakiecie, sprawdź pakiet i jego zawartość, a następnie potwierdź.",
+          "inputs": "Wybierz właściwy pakiet w odpowiednim zleceniu i zaakceptuj potwierdzenie usunięcia.",
+          "result": "Po potwierdzeniu i pomyślnym zapisie pakiet zostaje usunięty ze zlecenia. Usuwane są wraz z nim wydatki pakietu i załączniki.",
+          "notes": "Ostrzeżenie: Ta operacja usuwa pakiet i jego zagnieżdżone rekordy finansowe/dowody, ale nie usuwa osobnej historii płatności zlecenia. Przed kontynuowaniem sprawdź i zachowaj wymagane dowody."
         },
         "ur": {
-          "purpose": "ایک ورک پیکیج حذف کرتا ہے۔",
-          "when": "صرف اس وقت استعمال کریں جب ورک پیکیج کی مزید ضرورت نہ ہو اور متعلقہ ریکارڈ چیک کر لیے گئے ہوں۔",
-          "how": "متعلقہ پیکیج کے لیے Delete منتخب کریں اور آگے بڑھنے سے پہلے تصدیقی پیغام پڑھیں۔",
-          "inputs": "درست ورک پیکیج منتخب کریں اور تصدیق سے پہلے متعلقہ کام، اخراجات، اٹیچمنٹس اور ادائیگی کی تاریخ چیک کریں۔",
-          "result": "ایپ کارروائی قبول اور تصدیق کرے تو پیکیج ہٹا یا غیر فعال ہو جاتا ہے۔",
-          "notes": "حذف کرنے سے پیکیج کی تفصیلات تک رسائی ختم ہو سکتی ہے۔ تصدیق سے پہلے متعلقہ اخراجات، اٹیچمنٹس اور ادائیگی کی تاریخ دیکھیں۔"
+          "purpose": "منتخب کام سے ورک پیکیج اور اس کے اندرونی متعلقہ ریکارڈز ہٹاتا ہے۔",
+          "when": "صرف اسی وقت استعمال کریں جب ورک پیکیج کی ضرورت نہ رہے اور اس کے متعلقہ اخراجات و ثبوت دیکھ لیے ہوں۔",
+          "how": "مطلوبہ پیکیج کے لیے Delete منتخب کریں، پیکیج اور اس کے مواد کو دیکھیں، پھر تصدیق قبول کریں۔",
+          "inputs": "درست کام کے اندر درست ورک پیکیج منتخب کریں اور حذف کی تصدیق قبول کریں۔",
+          "result": "تصدیق اور کامیاب محفوظ کاری کے بعد ورک پیکیج کام سے ہٹا دیا جاتا ہے۔ پیکیج کے اخراجات اور منسلکہ بھی اس کے ساتھ ہٹا دیے جاتے ہیں۔",
+          "notes": "انتباہ: یہ کارروائی پیکیج اور اس کے اندرونی مالی/ثبوتی ریکارڈز حذف کرتی ہے، لیکن کام کی الگ ادائیگی کی تاریخ حذف نہیں کرتی۔ آگے بڑھنے سے پہلے ضروری ثبوت دیکھ کر محفوظ رکھیں۔"
         },
         "pa": {
-          "purpose": "ਇੱਕ ਵਰਕ ਪੈਕੇਜ ਮਿਟਾਉਂਦਾ ਹੈ।",
-          "when": "ਸਿਰਫ਼ ਜਦੋਂ ਵਰਕ ਪੈਕੇਜ ਦੀ ਹੋਰ ਲੋੜ ਨਾ ਹੋਵੇ ਅਤੇ ਜੁੜੇ ਰਿਕਾਰਡ ਜਾਂਚ ਲਏ ਗਏ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਸੰਬੰਧਿਤ ਪੈਕੇਜ ਲਈ Delete ਚੁਣੋ ਅਤੇ ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਪੜ੍ਹੋ।",
-          "inputs": "ਸਹੀ ਵਰਕ ਪੈਕੇਜ ਚੁਣੋ ਅਤੇ ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਜੁੜਿਆ ਕੰਮ, ਖਰਚੇ, ਅਟੈਚਮੈਂਟ ਅਤੇ ਭੁਗਤਾਨ ਇਤਿਹਾਸ ਜਾਂਚੋ।",
-          "result": "ਐਪ ਕਾਰਵਾਈ ਸਵੀਕਾਰ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਪੈਕੇਜ ਹਟਾਇਆ ਜਾਂ ਅਕਿਰਿਆਸ਼ੀਲ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।",
-          "notes": "ਮਿਟਾਉਣ ਨਾਲ ਪੈਕੇਜ ਦੇ ਵੇਰਵਿਆਂ ਤੱਕ ਪਹੁੰਚ ਖਤਮ ਹੋ ਸਕਦੀ ਹੈ। ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਜੁੜੇ ਖਰਚੇ, ਅਟੈਚਮੈਂਟ ਅਤੇ ਭੁਗਤਾਨ ਇਤਿਹਾਸ ਵੇਖੋ।"
+          "purpose": "ਚੁਣੇ ਕੰਮ ਵਿੱਚੋਂ ਵਰਕ ਪੈਕੇਜ ਅਤੇ ਇਸ ਨਾਲ ਜੁੜੇ ਅੰਦਰੂਨੀ ਰਿਕਾਰਡ ਹਟਾਉਂਦਾ ਹੈ।",
+          "when": "ਸਿਰਫ਼ ਉਦੋਂ ਵਰਤੋ ਜਦੋਂ ਵਰਕ ਪੈਕੇਜ ਦੀ ਲੋੜ ਨਾ ਰਹੇ ਅਤੇ ਇਸ ਨਾਲ ਜੁੜੇ ਖਰਚੇ ਤੇ ਸਬੂਤ ਜਾਂਚ ਲਏ ਹੋਣ।",
+          "how": "مطلوبہ پੈਕੇਜ ਲਈ Delete ਚੁਣੋ، ਪੈਕੇਜ ਅਤੇ ਇਸ ਦੀ ਸਮੱਗਰੀ ਜਾਂਚੋ، ਫਿਰ ਪੁਸ਼ਟੀ ਸਵੀਕਾਰ ਕਰੋ۔",
+          "inputs": "ਸਹੀ ਕੰਮ ਦੇ ਅੰਦਰ ਸਹੀ ਵਰਕ ਪੈਕੇਜ ਚੁਣੋ ਅਤੇ ਮਿਟਾਉਣ ਦੀ ਪੁਸ਼ਟੀ ਸਵੀਕਾਰ ਕਰੋ۔",
+          "result": "ਪੁਸ਼ਟੀ ਅਤੇ ਸਫਲ ਸੇਵ ਤੋਂ ਬਾਅਦ ਵਰਕ ਪੈਕੇਜ ਕੰਮ ਵਿੱਚੋਂ ਹਟਾ ਦਿੱਤਾ ਜਾਂਦਾ ਹੈ। ਪੈਕੇਜ ਪੱਧਰ ਦੇ ਖਰਚੇ ਅਤੇ ਅਟੈਚਮੈਂਟ ਵੀ ਇਸ ਨਾਲ ਹਟ ਜਾਂਦੇ ਹਨ।",
+          "notes": "ਚੇਤਾਵਨੀ: ਇਹ ਕਾਰਵਾਈ ਪੈਕੇਜ ਅਤੇ ਇਸ ਦੇ ਅੰਦਰੂਨੀ ਵਿੱਤੀ/ਸਬੂਤੀ ਰਿਕਾਰਡ ਹਟਾਉਂਦੀ ਹੈ, ਪਰ ਕੰਮ ਦੀ ਵੱਖਰੀ ਭੁਗਤਾਨ ਇਤਿਹਾਸ ਨਹੀਂ ਮਿਟਾਉਂਦੀ। ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਲੋੜੀਂਦੇ ਸਬੂਤ ਜਾਂਚੋ ਅਤੇ ਸੰਭਾਲੋ।"
         },
         "prs": {
-          "purpose": "یک بسته کاری را حذف می‌کند.",
-          "when": "فقط وقتی بسته کاری دیگر لازم نیست و سوابق مرتبط آن بررسی شده‌اند، استفاده کنید.",
-          "how": "برای بسته موردنظر Delete را انتخاب کنید و پیش از ادامه پیام تأیید را بخوانید.",
-          "inputs": "بسته کاری درست را انتخاب کنید و پیش از تأیید، کار مرتبط، هزینه‌ها، پیوست‌ها و تاریخچه پرداخت را بررسی کنید.",
-          "result": "در صورت پذیرش و تأیید برنامه، بسته حذف یا غیرفعال می‌شود.",
-          "notes": "حذف ممکن است دسترسی به جزئیات بسته را از بین ببرد. پیش از تأیید هزینه‌ها، پیوست‌ها و تاریخچه پرداخت مرتبط را بررسی کنید."
+          "purpose": "یک بسته کاری و سوابق داخلی وابسته به آن را از کار انتخاب‌شده حذف می‌کند.",
+          "when": "فقط زمانی استفاده کنید که دیگر به بسته کاری نیاز ندارید و هزینه‌ها و مدارک مرتبط با آن را بررسی کرده‌اید.",
+          "how": "برای بسته موردنظر Delete را انتخاب کنید و پس از بررسی بسته و محتویات آن، پیام تأیید را بپذیرید.",
+          "inputs": "بسته کاری درست را درون کار درست انتخاب کنید و تأیید حذف را بپذیرید.",
+          "result": "پس از تأیید و ذخیره موفق، بسته کاری از کار حذف می‌شود. هزینه‌های سطح بسته و پیوست آن نیز همراه بسته حذف می‌شوند.",
+          "notes": "هشدار: این عملیات بسته و سوابق مالی/مدارک داخلی آن را حذف می‌کند، اما تاریخچه پرداخت جداگانه مربوط به خود کار را حذف نمی‌کند. پیش از ادامه، مدارک موردنیاز را بررسی و نگهداری کنید."
         },
         "ps": {
-          "purpose": "یوه کاري بسته ړنګوي.",
-          "when": "یوازې هغه وخت یې وکاروئ چې کاري بسته نوره اړتیا نه وي او تړلي ریکارډونه یې کتلي وي.",
-          "how": "د اړوندې بستې لپاره Delete وټاکئ او له دوام مخکې د تایید پیغام ولولئ.",
-          "inputs": "سمه کاري بسته وټاکئ او له تایید مخکې تړلی کار، لګښتونه، ضمیمې او د تادیاتو تاریخ وګورئ.",
-          "result": "که اپلیکیشن کړنه ومني او تایید یې کړي، بسته لرې یا غیرفعال کېږي.",
-          "notes": "ړنګول د بستې جزئیاتو ته لاسرسی له منځه وړلی شي. له تایید مخکې تړلي لګښتونه، ضمیمې او د تادیاتو تاریخ وګورئ."
+          "purpose": "له ټاکل شوي کار څخه کاري بسته او ورسره تړلي فرعي ریکارډونه لرې کوي.",
+          "when": "یوازې هغه وخت یې وکاروئ چې کاري بسته نور اړینه نه وي او اړوند لګښتونه او اسناد مو کتلي وي.",
+          "how": "د اړوندې بستې لپاره Delete وټاکئ، بسته او منځپانګه یې وګورئ، بیا د تایید پیغام ومنئ.",
+          "inputs": "په سم کار کې سمه کاري بسته وټاکئ او د ړنګولو تایید ومنئ.",
+          "result": "له تایید او بریالي خوندي کولو وروسته کاري بسته له کار څخه لرې کېږي. د بستې لګښتونه او ضمیمه یې هم ورسره لرې کېږي.",
+          "notes": "خبرتیا: دا کړنه بسته او د هغې دننه مالي/ثبوتي ریکارډونه لرې کوي، خو د کار جلا د تادیاتو تاریخ نه ړنګوي. تر دوام مخکې اړین اسناد وګورئ او وساتئ."
         }
       },
       "handler_or_behavior": "`coDeleteSub(`"
@@ -12068,7 +12068,7 @@
           "when": "عندما تحتاج إلى مراجعة مستند داعم لمصروف حزمة العمل المحددة.",
           "how": "اختر اسم المرفق في صف المصروف لعرض الملف الداعم.",
           "inputs": "حدد المصروف الصحيح وتحقق من اسم الملف المرفق به.",
-          "result": "يُفتح الملف الداعم للمصروف المحدد.",
+          "result": "يُفتح الملف الداعم المرفق بالمصروف المحدد في حزمة العمل.",
           "notes": "تحقق من أن المرفق يخص المصروف المحدد قبل الاعتماد عليه كدليل."
         },
         "ckb": {
@@ -12076,7 +12076,7 @@
           "when": "کاتێک پێویستە بەڵگەیەکی پشتگیر بۆ خەرجی پاکێجی کاری دیاریکراو بپشکنیت.",
           "how": "ناوی پاشکۆ لە ڕیزی خەرجی هەڵبژێرە بۆ پیشاندانی فایلی پشتگیر.",
           "inputs": "خەرجییە دروستەکە هەڵبژێرە و ناوی فایلی هاوپێچکراوی بپشکنە.",
-          "result": "فایلی پشتگیری خەرجییە دیاریکراوەکە دەکرێتەوە.",
+          "result": "فایلی پشتگیری هاوپێچکراو بە خەرجیی هەڵبژێردراو لە پاکێجی کار دەکرێتەوە.",
           "notes": "دڵنیابە پاشکۆکە هی هەمان خەرجییەیە کە هەڵتبژاردووە، پێش ئەوەی وەک بەڵگە پشتی پێ ببەستیت."
         },
         "kmr": {
@@ -12084,7 +12084,7 @@
           "when": "Dema ku tu hewceyî belgeya piştgir a lêçûna pakêta xebatê ya hilbijartî kontrol bikî.",
           "how": "Navê pêvekê di rêza lêçûnê de hilbijêre da ku pela piştgir bibînî.",
           "inputs": "Lêçûna rast hilbijêre û navê pela pêvekirî kontrol bike.",
-          "result": "Pela piştgir a lêçûna hilbijartî vedibe.",
+          "result": "Pelê piştgiriyê yê pêvekirî bi lêçûna hilbijartî ya di pakêta karê de vedibe.",
           "notes": "Berî ku wekî delîl pê bawer bikî, piştrast bike ku pêvek bi heman lêçûnê ve girêdayî ye."
         },
         "tr": {
@@ -12092,7 +12092,7 @@
           "when": "Seçilen iş paketi gideri için destekleyici bir belgeyi incelemeniz gerektiğinde kullanın.",
           "how": "Destekleyici dosyayı görüntülemek için gider satırındaki ek dosya adını seçin.",
           "inputs": "Doğru gideri seçin ve ekli dosyanın adını kontrol edin.",
-          "result": "Seçilen giderin destekleyici dosyası açılır.",
+          "result": "Seçilen iş paketi giderine eklenmiş destek dosyası açılır.",
           "notes": "Dosyayı kanıt olarak kullanmadan önce ekin seçilen gidere ait olduğunu doğrulayın."
         },
         "pl": {
@@ -12100,7 +12100,7 @@
           "when": "Użyj, gdy chcesz sprawdzić dokument pomocniczy dotyczący wydatku wybranego pakietu prac.",
           "how": "Wybierz nazwę załącznika w wierszu wydatku, aby wyświetlić plik pomocniczy.",
           "inputs": "Wybierz właściwy wydatek i sprawdź nazwę dołączonego pliku.",
-          "result": "Otwiera się plik pomocniczy wybranego wydatku.",
+          "result": "Otwiera się plik pomocniczy załączony do wybranego wydatku pakietu prac.",
           "notes": "Przed wykorzystaniem go jako dowodu upewnij się, że załącznik dotyczy wybranego wydatku."
         },
         "ur": {
@@ -12108,7 +12108,7 @@
           "when": "جب منتخب ورک پیکیج کے خرچ کے لیے معاون دستاویز دیکھنی ہو تو استعمال کریں۔",
           "how": "معاون فائل دیکھنے کے لیے خرچ کی قطار میں اٹیچمنٹ کا نام منتخب کریں۔",
           "inputs": "درست خرچ منتخب کریں اور منسلک فائل کا نام چیک کریں۔",
-          "result": "منتخب خرچ کی معاون فائل کھل جاتی ہے۔",
+          "result": "منتخب ورک پیکیج کے خرچ کے ساتھ منسلک معاون فائل کھلتی ہے۔",
           "notes": "اسے ثبوت کے طور پر استعمال کرنے سے پہلے تصدیق کریں کہ اٹیچمنٹ اسی منتخب خرچ سے متعلق ہے۔"
         },
         "pa": {
@@ -12116,7 +12116,7 @@
           "when": "ਜਦੋਂ ਚੁਣੇ ਵਰਕ ਪੈਕੇਜ ਦੇ ਖਰਚੇ ਲਈ ਸਹਾਇਕ ਦਸਤਾਵੇਜ਼ ਵੇਖਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
           "how": "ਸਹਾਇਕ ਫਾਈਲ ਵੇਖਣ ਲਈ ਖਰਚੇ ਦੀ ਕਤਾਰ ਵਿੱਚ ਅਟੈਚਮੈਂਟ ਦਾ ਨਾਮ ਚੁਣੋ।",
           "inputs": "ਸਹੀ ਖਰਚਾ ਚੁਣੋ ਅਤੇ ਜੁੜੀ ਫਾਈਲ ਦਾ ਨਾਮ ਜਾਂਚੋ।",
-          "result": "ਚੁਣੇ ਖਰਚੇ ਦੀ ਸਹਾਇਕ ਫਾਈਲ ਖੁੱਲ੍ਹਦੀ ਹੈ।",
+          "result": "ਚੁਣੇ ਵਰਕ ਪੈਕੇਜ ਖਰਚ ਨਾਲ ਜੁੜੀ ਸਹਾਇਕ ਫਾਈਲ ਖੁੱਲ੍ਹਦੀ ਹੈ।",
           "notes": "ਇਸਨੂੰ ਸਬੂਤ ਵਜੋਂ ਵਰਤਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁਸ਼ਟੀ ਕਰੋ ਕਿ ਅਟੈਚਮੈਂਟ ਉਸੇ ਚੁਣੇ ਖਰਚੇ ਨਾਲ ਸਬੰਧਤ ਹੈ।"
         },
         "prs": {
@@ -12124,7 +12124,7 @@
           "when": "وقتی لازم است سند پشتیبان هزینه بسته کاری انتخاب‌شده را بررسی کنید، استفاده کنید.",
           "how": "نام پیوست را در ردیف هزینه انتخاب کنید تا فایل پشتیبان نمایش داده شود.",
           "inputs": "هزینه درست را انتخاب کنید و نام فایل پیوست‌شده را بررسی کنید.",
-          "result": "فایل پشتیبان هزینه انتخاب‌شده باز می‌شود.",
+          "result": "فایل پشتیبان پیوست‌شده به هزینه انتخاب‌شده در بسته کاری باز می‌شود.",
           "notes": "پیش از استناد به فایل به‌عنوان مدرک، مطمئن شوید پیوست متعلق به همان هزینه انتخاب‌شده است."
         },
         "ps": {
@@ -12132,7 +12132,7 @@
           "when": "کله چې د ټاکل شوي کاري بستې د لګښت ملاتړی سند کتلو ته اړتیا لرئ، دا وکاروئ.",
           "how": "د ملاتړي فایل د لیدلو لپاره د لګښت په قطار کې د ضمیمې نوم وټاکئ.",
           "inputs": "سم لګښت وټاکئ او د نښلول شوې فایل نوم وګورئ.",
-          "result": "د ټاکل شوي لګښت ملاتړی فایل پرانیستل کېږي.",
+          "result": "د ټاکل شوې کاري بستې د لګښت سره نښلول شوی ملاتړی فایل پرانیستل کېږي.",
           "notes": "له دې مخکې چې فایل د ثبوت په توګه وکاروئ، ډاډ ترلاسه کړئ چې ضمیمه له هماغه ټاکل شوي لګښت سره تړلې ده."
         }
       },
