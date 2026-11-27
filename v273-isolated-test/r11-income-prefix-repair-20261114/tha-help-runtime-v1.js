@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R54') return;
+  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R55') return;
   const payload = window.THAHelpContentV1;
   if (!payload || !payload.entries) {
     console.error('[THA Help] Content bundle is missing; contextual help was not started.');
@@ -45,7 +45,13 @@
     ['THA-HLP-0052', '#monitor button[onclick="exportDiagnosticReport()"]'],
     ['THA-HLP-0053', '#monitor button[onclick="runFullStorageAudit()"]'],
     ['THA-HLP-0054', '#monitor button[onclick="exportMonitorCSV()"]'],
-    ['THA-HLP-0055', '#monitor button[onclick="runMonitorSelfCheck()"]']
+    ['THA-HLP-0055', '#monitor button[onclick="runMonitorSelfCheck()"]'],
+    ['THA-HLP-0026', '#entry .actions > button[onclick="saveEntry()"]'],
+    ['THA-HLP-0028', '#expenseCategoryAddScreen .actions > button[onclick="saveExpenseCategory()"]'],
+    ['THA-HLP-0030', '#invoiceEditor .actions > button[onclick="saveInvoice()"]'],
+    ['THA-HLP-0031', '#invoiceEditor .actions > button[onclick="saveAndPrintInvoice()"]'],
+    ['THA-HLP-0032', '#customers .actions > button[onclick="saveCustomer()"]'],
+    ['THA-HLP-0033', '#customers .actions > button[onclick="resetCustomerForm()"]']
   ];
   if (STATIC_BINDINGS.some(binding => !Array.isArray(binding) || binding.length !== 2 || binding.some(value => typeof value !== 'string' || !value.trim()))) {
     console.error('[THA Help] Invalid static binding table; contextual help was not started.');
@@ -217,7 +223,7 @@
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initialise,{once:true});
   else initialise();
   window.THAHelpRuntime=Object.freeze({
-    version:'R54',open:openHelp,openFullGuide,attach:attachAll,
+    version:'R55',open:openHelp,openFullGuide,attach:attachAll,
     getLastHelpId:()=>lastHelpId,getPublishableCount:()=>Object.keys(payload.entries).length
   });
 })();
