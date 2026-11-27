@@ -16921,7 +16921,7 @@
       "translations": {
         "en": {
           "purpose": "Open a saved report snapshot in the report viewer.",
-          "when": "Use this when you need to review a report snapshot that was saved previously in the Reports & Tax archive.",
+          "when": "Use this when you need to review a report snapshot saved previously in the Reports & Tax archive.",
           "how": "Select Open saved report beside the intended archive entry. Review its saved period, date and status in the viewer.",
           "inputs": "Select the intended saved report from the archive. No additional input is required.",
           "result": "The saved report snapshot is displayed in the report viewer. If a related report-ready notification exists, opening the report also marks that notification as read.",
