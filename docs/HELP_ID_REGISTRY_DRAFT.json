@@ -14988,20 +14988,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Print or save the current project view as a PDF.",
-          "when": "Use this control when you need a printed or PDF copy of the current project view.",
-          "how": "Select Print / Save PDF and use the browser's print dialog to print or save a PDF.",
-          "inputs": "Select the correct project view and check the content you intend to print or save.",
-          "result": "The browser print dialog opens so you can print the view or save it as a PDF.",
-          "notes": "Check the page range, orientation and project details before printing."
+          "purpose": "Opens the browser print dialog for the Project Cost Summary shown in the current project report tab.",
+          "when": "Use this when you want to print or save a PDF copy of the current project's recorded cost summary.",
+          "how": "Open the project's Reports tab and select Print / Save PDF beneath Project Cost Summary. Use the browser print dialog to choose a printer or Save as PDF.",
+          "inputs": "The correct project must be open and its Reports tab displayed. Review the cost summary before printing.",
+          "result": "The browser print dialog opens for the Project Cost Summary, showing ordinary expenses, worker wages, tools, food and other costs, and the total costs included in the project result.",
+          "notes": "This is a project cost summary, not the full financial report or a tax return. Check the project and figures, then select the required page range and print/PDF settings."
         },
         "fa": {
-          "purpose": "چاپ یا ذخیره نمای فعلی پروژه به‌صورت PDF.",
-          "when": "وقتی به نسخه چاپی یا PDF از نمای فعلی پروژه نیاز دارید، از این گزینه استفاده کنید.",
-          "how": "Print / Save PDF را انتخاب کنید و از پنجره چاپ مرورگر برای چاپ یا ذخیره PDF استفاده کنید.",
-          "inputs": "نمای درست پروژه را انتخاب کنید و محتوایی را که می‌خواهید چاپ یا ذخیره کنید بررسی کنید.",
-          "result": "پنجره چاپ مرورگر باز می‌شود تا بتوانید نما را چاپ یا به‌صورت PDF ذخیره کنید.",
-          "notes": "پیش از چاپ، محدوده صفحات، جهت کاغذ و جزئیات پروژه را بررسی کنید."
+          "purpose": "پنجره چاپ مرورگر را برای خلاصه هزینه‌های پروژه که در زبانه گزارش پروژه فعلی نمایش داده می‌شود باز می‌کند.",
+          "when": "وقتی می‌خواهید نسخه چاپی یا PDF از خلاصه هزینه‌های ثبت‌شده پروژه فعلی تهیه کنید، از این گزینه استفاده کنید.",
+          "how": "زبانه Reports پروژه را باز کنید و زیر Project Cost Summary گزینه Print / Save PDF را انتخاب کنید. در پنجره چاپ مرورگر، چاپگر یا Save as PDF را انتخاب کنید.",
+          "inputs": "پروژه صحیح باید باز باشد و زبانه Reports آن نمایش داده شود. پیش از چاپ، خلاصه هزینه را بررسی کنید.",
+          "result": "پنجره چاپ مرورگر برای Project Cost Summary باز می‌شود؛ این خلاصه هزینه‌های عادی، دستمزد کارگران، ابزار، غذا و سایر هزینه‌ها و مجموع هزینه‌های لحاظ‌شده در نتیجه پروژه را نشان می‌دهد.",
+          "notes": "این یک خلاصه هزینه پروژه است، نه گزارش مالی کامل یا اظهارنامه مالیاتی. پروژه و ارقام را بررسی کنید و سپس محدوده صفحات و تنظیمات چاپ/PDF موردنیاز را انتخاب کنید."
         },
         "ar": {
           "purpose": "يطبع عرض المشروع الحالي أو يحفظه بصيغة PDF.",
@@ -15184,20 +15184,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Save the current project record or row.",
-          "when": "Use this control after entering and checking the details for a project record or row.",
-          "how": "Complete the required fields and select Record to save the entry.",
-          "inputs": "Inputs depend on the selected project record type. Income requires a description, amount, date and payment method. Expenses require an expense type, amount and date, plus contractor/supplier details as applicable. Wages require a worker, days, amount, paid amount and date; tools, food, contractor and material records have their own description, amount and date fields.",
-          "result": "The selected project record is saved to its corresponding project ledger if its required amount and related fields pass validation and persistence succeeds.",
-          "notes": "Check the selected record type and required fields. For contractor expenses, select a registered contractor. Do not assume the entry saved until the app confirms it."
+          "purpose": "Saves the current income, expense, wage, tools, food, contractor or materials row to the selected project ledger.",
+          "when": "Use this after entering or editing a project record in the relevant detail tab.",
+          "how": "Complete the fields for the selected record type and select Record. The app validates the amount and, for Contractor / subcontractor expenses, requires a registered contractor. Wait for the Record saved confirmation.",
+          "inputs": "The form fields depend on the record type. Amount must be greater than zero. The form provides date, description, payment method or category and related person fields as applicable. Contractor / subcontractor expenses require a registered contractor. The worker field is provided for wages, but the current save handler does not enforce a worker selection or validate every other field.",
+          "result": "If the amount passes validation and the Projects data save succeeds, the row is saved to the matching project ledger, the view refreshes and a Record saved message appears.",
+          "notes": "Check the project/sub-project, record type and amount. For wage rows, select the correct registered worker even though the current handler does not block saving when it is blank. The handler also does not enforce all date/description fields, so verify the saved row before relying on it."
         },
         "fa": {
-          "purpose": "ذخیره رکورد یا ردیف فعلی پروژه.",
-          "when": "پس از واردکردن و بررسی اطلاعات سابقه یا ردیف پروژه، از این گزینه استفاده کنید.",
-          "how": "فیلدهای لازم را تکمیل و Record را انتخاب کنید تا اطلاعات ثبت شود.",
-          "inputs": "فیلدهای لازم به نوع سابقه انتخاب‌شده بستگی دارند. درآمد به شرح، مبلغ، تاریخ و روش پرداخت نیاز دارد. هزینه به نوع هزینه، مبلغ و تاریخ و در صورت کاربرد اطلاعات پیمانکار/تأمین‌کننده نیاز دارد. دستمزد به کارگر، تعداد روزها، مبلغ، مبلغ پرداخت‌شده و تاریخ نیاز دارد. ابزار، غذا، پیمانکار و مصالح هرکدام فیلدهای شرح، مبلغ و تاریخ مخصوص خود را دارند.",
-          "result": "اگر مبلغ و فیلدهای مرتبطِ الزامی اعتبارسنجی شوند و ذخیره‌سازی موفق باشد، سابقه انتخاب‌شده در دفتر مربوط به همان نوع رکورد پروژه ذخیره می‌شود.",
-          "notes": "نوع سابقه انتخاب‌شده و فیلدهای الزامی آن را بررسی کنید. برای هزینه پیمانکار، پیمانکار ثبت‌شده را انتخاب کنید. تا زمانی که برنامه ذخیره موفق را تأیید نکرده است، فرض نکنید اطلاعات ثبت شده‌اند."
+          "purpose": "ردیف فعلی درآمد، هزینه، دستمزد، ابزار، غذا، پیمانکار یا مصالح را در دفتر مربوط به پروژه انتخاب‌شده ذخیره می‌کند.",
+          "when": "پس از واردکردن یا ویرایش یک سابقه پروژه در زبانه جزئیات مربوط، از این گزینه استفاده کنید.",
+          "how": "فیلدهای مربوط به نوع سابقه انتخاب‌شده را تکمیل و Record را انتخاب کنید. برنامه مبلغ را اعتبارسنجی می‌کند و برای هزینه Contractor / subcontractor انتخاب پیمانکار ثبت‌شده را الزامی می‌داند. منتظر پیام Record saved بمانید.",
+          "inputs": "فیلدهای فرم به نوع سابقه بستگی دارند. مبلغ باید بیشتر از صفر باشد. فرم، بسته به نوع سابقه، فیلدهای تاریخ، شرح، روش پرداخت یا دسته‌بندی و اطلاعات شخص مرتبط را ارائه می‌کند. هزینه Contractor / subcontractor به پیمانکار ثبت‌شده نیاز دارد. فیلد کارگر برای دستمزد وجود دارد، اما تابع ذخیره فعلی انتخاب کارگر یا تکمیل تمام فیلدهای دیگر را اجباری نمی‌کند.",
+          "result": "اگر مبلغ از اعتبارسنجی عبور کند و ذخیره داده‌های Projects موفق باشد، ردیف در دفتر مربوط به پروژه ذخیره می‌شود، نما تازه‌سازی و پیام Record saved نمایش داده می‌شود.",
+          "notes": "پروژه/زیرپروژه، نوع سابقه و مبلغ را بررسی کنید. برای ردیف دستمزد، کارگر ثبت‌شده صحیح را انتخاب کنید، هرچند تابع فعلی در صورت خالی‌بودن این فیلد مانع ذخیره نمی‌شود. تاریخ و شرح نیز به‌طور کامل توسط تابع اعتبارسنجی نمی‌شوند؛ بنابراین پیش از اتکا به سابقه، ردیف ذخیره‌شده را بررسی کنید."
         },
         "ar": {
           "purpose": "يحفظ سجل المشروع أو صفه الحالي.",
