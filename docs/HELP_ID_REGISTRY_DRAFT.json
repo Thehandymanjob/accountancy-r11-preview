@@ -10578,20 +10578,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Moves the selected invoice and any linked income entry to Deleted Records.",
-          "when": "Use this only when the invoice is a duplicate or was created in error and should no longer remain active.",
-          "how": "Choose Delete for the intended invoice, review the warning about linked income entries and confirm only if deletion is intended.",
-          "inputs": "Select the correct invoice and review its number, customer, payment status and any linked income record identified by the app.",
-          "result": "The invoice is soft-deleted from the active list. Any linked income entry is also soft-deleted, and the invoice number remains reserved.",
-          "notes": "Invoice deletion is potentially destructive. Check whether the invoice has been issued or paid and retain records required by law or your accountant."
+          "purpose": "Moves the selected invoice and any linked income entries to Deleted Records using a soft-delete operation.",
+          "when": "Use this only when an invoice is a duplicate or was created in error and should no longer appear in active invoice records.",
+          "how": "Select Delete beside the intended invoice. Review the confirmation warning, including the number of linked income entries that will also be moved to Deleted Records, then confirm only if deletion is intended.",
+          "inputs": "Select the correct active invoice. The app identifies linked income entries using the invoice ID and supported invoice references; review the number shown in the confirmation.",
+          "result": "After confirmation and successful IndexedDB persistence and verification, the invoice and linked income entries are marked deleted and removed from active views. The invoice number remains reserved.",
+          "notes": "This is a soft delete, not permanent erasure. It affects both the invoice and any linked income records in active views. Check whether the invoice was issued or paid, retain required records and do not delete a genuine invoice merely to hide it."
         },
         "fa": {
-          "purpose": "فاکتور انتخاب‌شده و هر ثبت درآمد مرتبط با آن را به Deleted Records منتقل می‌کند.",
-          "when": "فقط زمانی استفاده کنید که فاکتور تکراری است یا اشتباهی ایجاد شده و دیگر نباید فعال بماند.",
-          "how": "برای فاکتور موردنظر Delete را انتخاب کنید، هشدار مربوط به ثبت‌های درآمد مرتبط را بررسی کنید و فقط در صورت قصد واقعی حذف، تأیید کنید.",
-          "inputs": "فاکتور درست را انتخاب کنید و شماره، مشتری، وضعیت پرداخت و هر ثبت درآمد مرتبطی را که برنامه شناسایی می‌کند بررسی کنید.",
-          "result": "فاکتور به‌صورت نرم‌افزاری از فهرست فعال حذف می‌شود. هر ثبت درآمد مرتبط نیز به‌صورت نرم‌افزاری حذف می‌شود و شماره فاکتور همچنان رزرو می‌ماند.",
-          "notes": "حذف فاکتور عملیاتی حساس است. بررسی کنید صادر یا پرداخت شده است یا خیر و سوابق موردنیاز قانون یا حسابدار را نگه دارید."
+          "purpose": "فاکتور انتخاب‌شده و سوابق درآمد مرتبط با آن را با روش حذف نرم‌افزاری به Deleted Records منتقل می‌کند.",
+          "when": "فقط زمانی استفاده کنید که فاکتور تکراری است یا اشتباهی ایجاد شده و دیگر نباید در فهرست فعال فاکتورها نمایش داده شود.",
+          "how": "در کنار فاکتور موردنظر Delete را انتخاب کنید. هشدار تأیید، از جمله تعداد سوابق درآمد مرتبطی را که همراه فاکتور به Deleted Records منتقل می‌شوند، بررسی کنید و فقط در صورت قصد حذف تأیید کنید.",
+          "inputs": "فاکتور فعال و صحیح را انتخاب کنید. برنامه سوابق درآمد مرتبط را با استفاده از شناسه فاکتور و مراجع پشتیبانی‌شده شناسایی می‌کند؛ تعداد نمایش‌داده‌شده در پیام تأیید را بررسی کنید.",
+          "result": "پس از تأیید و موفقیت ذخیره و تأیید در IndexedDB، فاکتور و سوابق درآمد مرتبط به‌صورت نرم‌افزاری حذف و از نماهای فعال خارج می‌شوند. شماره فاکتور همچنان رزرو می‌ماند.",
+          "notes": "این عملیات حذف نرم‌افزاری است، نه پاک‌کردن دائمی. هم فاکتور و هم سوابق درآمد مرتبط را از نماهای فعال خارج می‌کند. بررسی کنید فاکتور صادر یا پرداخت شده است یا خیر؛ سوابق موردنیاز را نگه دارید و برای پنهان‌کردن فاکتور واقعی از حذف استفاده نکنید."
         },
         "ar": {
           "purpose": "ينقل الفاتورة المحددة وأي قيد دخل مرتبط بها إلى Deleted Records.",
@@ -10676,20 +10676,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Loads a saved contractor's details into the contractor editor.",
-          "when": "Use this when correcting a contractor or subcontractor's saved contact or trade details.",
-          "how": "Select Edit beside the correct contractor, update the name, phone, email or trade notes, then select Save Contractor.",
-          "inputs": "Select the correct contractor record and change the required name or optional phone, email and trade/notes fields.",
-          "result": "The contractor's saved values are loaded into the form. Changes are not saved until Save Contractor succeeds.",
-          "notes": "Confirm the contractor identity before saving changes to avoid altering another person's record."
+          "purpose": "Loads a saved contractor's details into the Contractor / Subcontractor form for editing.",
+          "when": "Use this when correcting a contractor's or subcontractor's saved name, phone, email or trade/notes details.",
+          "how": "In Control Panel → Contractors, select Edit beside the correct contractor. Update the name and any optional phone, email or notes/trade details, then select Save Contractor.",
+          "inputs": "Select the correct contractor record. Contractor/company name is required when saving; phone, email and notes/trade are optional.",
+          "result": "The selected contractor's saved values are loaded into the form and the title changes to Edit Contractor / Subcontractor. Changes are not saved until Save Contractor succeeds.",
+          "notes": "Confirm the contractor identity before saving to avoid changing another person's record. Saving updates the existing directory record; it does not itself change existing project expenses."
         },
         "fa": {
-          "purpose": "اطلاعات پیمانکار ذخیره‌شده را در ویرایشگر پیمانکار بارگذاری می‌کند.",
-          "when": "وقتی می‌خواهید اطلاعات تماس یا جزئیات حرفه‌ای ذخیره‌شده یک پیمانکار یا پیمانکار جزء را اصلاح کنید، از این گزینه استفاده کنید.",
-          "how": "در کنار پیمانکار درست Edit را انتخاب کنید، نام، تلفن، ایمیل یا یادداشت‌های مربوط به حرفه او را به‌روزرسانی کنید و سپس Save Contractor را انتخاب کنید.",
-          "inputs": "رکورد پیمانکار درست را انتخاب کنید و نام الزامی یا فیلدهای اختیاری تلفن، ایمیل و حرفه/یادداشت‌ها را در صورت نیاز تغییر دهید.",
-          "result": "مقادیر ذخیره‌شده پیمانکار در فرم بارگذاری می‌شوند. تغییرات تا زمانی که Save Contractor با موفقیت انجام نشود ذخیره نمی‌شوند.",
-          "notes": "پیش از ذخیره، هویت پیمانکار را بررسی کنید تا اطلاعات فرد دیگری تغییر نکند."
+          "purpose": "اطلاعات پیمانکار ذخیره‌شده را برای ویرایش در فرم Contractor / Subcontractor بارگذاری می‌کند.",
+          "when": "وقتی می‌خواهید نام، تلفن، ایمیل یا اطلاعات تخصص/یادداشت ذخیره‌شده یک پیمانکار یا پیمانکار جزء را اصلاح کنید، از این گزینه استفاده کنید.",
+          "how": "در Control Panel → Contractors، کنار پیمانکار صحیح Edit را انتخاب کنید. نام و در صورت نیاز تلفن، ایمیل یا تخصص/یادداشت را به‌روزرسانی کنید و سپس Save Contractor را بزنید.",
+          "inputs": "رکورد پیمانکار صحیح را انتخاب کنید. هنگام ذخیره، نام پیمانکار/شرکت الزامی است؛ تلفن، ایمیل و تخصص/یادداشت اختیاری هستند.",
+          "result": "مقادیر ذخیره‌شده پیمانکار در فرم بارگذاری می‌شوند و عنوان فرم به Edit Contractor / Subcontractor تغییر می‌کند. تغییرات تا موفقیت Save Contractor ذخیره نمی‌شوند.",
+          "notes": "پیش از ذخیره، هویت پیمانکار را بررسی کنید تا اطلاعات فرد دیگری تغییر نکند. ذخیره، سابقه موجود در فهرست را به‌روزرسانی می‌کند و به‌تنهایی هزینه‌های پروژه موجود را تغییر نمی‌دهد."
         },
         "ar": {
           "purpose": "يفتح بيانات المقاول المحفوظة لتعديلها.",
@@ -10774,20 +10774,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Removes a contractor from the shared contractor directory.",
-          "when": "Use this only when the contractor record should no longer be available for future selection.",
-          "how": "Select Delete beside the intended contractor and confirm the prompt. Check the directory after the operation.",
+          "purpose": "Removes a contractor from the shared Contractors directory after confirmation.",
+          "when": "Use this only when the contractor record should no longer be available for selection in future project workflows.",
+          "how": "In Control Panel → Contractors, select Delete beside the intended contractor and confirm the prompt. The directory refreshes if the Projects data save succeeds.",
           "inputs": "Select the correct contractor record and approve the confirmation prompt.",
-          "result": "The contractor is removed from the shared directory if the save succeeds. Existing project expense records are retained.",
-          "notes": "Check whether the contractor is referenced by jobs or historic records before deletion. Removing the directory entry does not erase existing expense history."
+          "result": "After a successful Projects data save, the contractor is removed from the shared directory. Existing project expense records are retained.",
+          "notes": "Check whether the contractor is referenced by active jobs or historic records before deletion. Removing the directory entry does not erase existing project expenses or their stored contractor details."
         },
         "fa": {
-          "purpose": "پیمانکار را از فهرست مشترک پیمانکاران حذف می‌کند.",
-          "when": "فقط زمانی استفاده کنید که رکورد پیمانکار دیگر نباید برای انتخاب در کارهای آینده در دسترس باشد.",
-          "how": "در کنار پیمانکار موردنظر Delete را انتخاب و پیام تأیید را بررسی کنید. پس از انجام عملیات، فهرست پیمانکاران را بررسی کنید.",
-          "inputs": "رکورد پیمانکار درست را انتخاب کنید و پیام تأیید را بپذیرید.",
-          "result": "در صورت موفقیت ذخیره، پیمانکار از فهرست مشترک حذف می‌شود. سوابق هزینه پروژه‌های موجود حفظ می‌شوند.",
-          "notes": "پیش از حذف بررسی کنید که پیمانکار در کارها یا سوابق تاریخی ارجاع شده است یا خیر. حذف از فهرست پیمانکاران، سوابق هزینه موجود را پاک نمی‌کند."
+          "purpose": "پس از تأیید، پیمانکار را از فهرست مشترک Contractors حذف می‌کند.",
+          "when": "فقط زمانی استفاده کنید که سابقه پیمانکار دیگر نباید برای انتخاب در گردش‌کارهای آینده پروژه در دسترس باشد.",
+          "how": "در Control Panel → Contractors، کنار پیمانکار موردنظر Delete را انتخاب و پیام تأیید را بپذیرید. اگر ذخیره داده‌های Projects موفق باشد، فهرست تازه‌سازی می‌شود.",
+          "inputs": "رکورد پیمانکار صحیح را انتخاب کنید و پیام تأیید را بپذیرید.",
+          "result": "پس از ذخیره موفق داده‌های Projects، پیمانکار از فهرست مشترک حذف می‌شود. سوابق هزینه پروژه‌های موجود حفظ می‌شوند.",
+          "notes": "پیش از حذف بررسی کنید که پیمانکار در کارهای فعال یا سوابق تاریخی ارجاع شده است یا خیر. حذف سابقه از فهرست، هزینه‌های موجود پروژه یا جزئیات پیمانکار ذخیره‌شده در آن‌ها را پاک نمی‌کند."
         },
         "ar": {
           "purpose": "يحذف سجل مقاول محدداً.",
@@ -10872,20 +10872,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open an attachment stored against a company contract or record.",
-          "when": "Use this when you need to inspect a PDF or image attachment saved against a company, job, work package or payment record.",
-          "how": "Select the attachment name in the relevant company/job record. Allow the browser to open a new tab and inspect the displayed PDF or image.",
-          "inputs": "Select the record containing the attachment. The attachment must still have available file data; no new file is uploaded by this action.",
-          "result": "A PDF opens in an embedded viewer in a new tab, or an image is displayed in that tab. If the attachment data is unavailable or pop-ups are blocked, the app reports the problem.",
-          "notes": "Check the filename and contents before sharing. Opening an attachment does not alter the underlying contract or record."
+          "purpose": "Opens a saved attachment belonging to a company, job, work package or company-job payment record.",
+          "when": "Use this when inspecting a PDF or image attachment saved against one of these Company Contracts & Jobs records.",
+          "how": "Select the attachment filename in the relevant record. The app opens a new browser tab and displays a PDF in an embedded viewer or an image directly. Allow pop-ups if the browser blocks the tab.",
+          "inputs": "Select the record containing the attachment. The saved file data must be available; this action does not upload a new file.",
+          "result": "The saved PDF or image opens in a new tab. If file data is missing or the browser blocks pop-ups, the app displays an alert.",
+          "notes": "Check the filename and contents before sharing. Opening an attachment is view-only and does not change the company, job, work package, payment or stored file."
         },
         "fa": {
-          "purpose": "پیوست ذخیره‌شده برای قرارداد یا رکورد شرکت را باز می‌کند.",
-          "when": "وقتی لازم است فایل PDF یا تصویر پیوست‌شده به شرکت، کار، بسته کاری یا رکورد پرداخت را بررسی کنید، از این گزینه استفاده کنید.",
-          "how": "نام پیوست را در رکورد مربوط به شرکت یا کار انتخاب کنید. اجازه دهید مرورگر زبانه جدیدی باز کند و PDF یا تصویر را بررسی کنید.",
-          "inputs": "رکوردی را انتخاب کنید که پیوست در آن ذخیره شده است. داده فایل باید همچنان در دسترس باشد؛ این عملیات فایل جدیدی بارگذاری نمی‌کند.",
-          "result": "PDF در نمایشگر داخلی یک زبانه جدید باز می‌شود یا تصویر در همان زبانه نمایش داده می‌شود. اگر داده پیوست در دسترس نباشد یا پنجره بازشو مسدود باشد، برنامه مشکل را اعلام می‌کند.",
-          "notes": "پیش از اشتراک‌گذاری، نام و محتوای فایل را بررسی کنید. باز کردن پیوست، قرارداد اصلی را تغییر نمی‌دهد."
+          "purpose": "پیوست ذخیره‌شده متعلق به شرکت، کار، بسته کاری یا سابقه پرداخت کار شرکتی را باز می‌کند.",
+          "when": "برای بررسی فایل PDF یا تصویری که به یکی از این سوابق Company Contracts & Jobs پیوست شده است، از این گزینه استفاده کنید.",
+          "how": "نام فایل پیوست را در سابقه مربوط انتخاب کنید. برنامه زبانه جدیدی در مرورگر باز می‌کند و PDF را در نمایشگر داخلی یا تصویر را مستقیماً نمایش می‌دهد. اگر مرورگر زبانه را مسدود کرد، اجازه بازشدن پنجره‌های بازشو را بدهید.",
+          "inputs": "سابقه‌ای را انتخاب کنید که پیوست در آن ذخیره شده است. داده فایل ذخیره‌شده باید در دسترس باشد؛ این عملیات فایل جدیدی بارگذاری نمی‌کند.",
+          "result": "PDF یا تصویر ذخیره‌شده در زبانه جدید باز می‌شود. اگر داده فایل موجود نباشد یا مرورگر پنجره بازشو را مسدود کند، برنامه پیام هشدار نمایش می‌دهد.",
+          "notes": "پیش از اشتراک‌گذاری، نام و محتوای فایل را بررسی کنید. بازکردن پیوست فقط برای مشاهده است و شرکت، کار، بسته کاری، پرداخت یا فایل ذخیره‌شده را تغییر نمی‌دهد."
         },
         "ar": {
           "purpose": "يفتح الملف المرفق بعقد الشركة أو سجلها.",
@@ -10970,20 +10970,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Loads a saved company's details into the company editor.",
-          "when": "Use this when correcting a registered company's name, reference, contact or contract details.",
-          "how": "Select Edit beside the intended company. Review and update its details, then select Save Company to commit the changes.",
-          "inputs": "Select the correct company record and change the required company name or optional reference, contact, phone, email, address, dates, terms or contract attachment.",
-          "result": "The selected company's existing values are loaded into the company form. Changes are not saved until Save Company succeeds.",
-          "notes": "Confirm the company identity before changing legal or contact details."
+          "purpose": "Loads a registered company's saved details into the company form for editing.",
+          "when": "Use this when correcting a company's name, reference, contact information or main contract details.",
+          "how": "In Companies List, select Edit beside the intended company. The Add/Edit Company form opens with its saved details populated. Make the changes and select Save Company.",
+          "inputs": "Select the correct company record. Company name is required when saving; reference, contact, phone, email, address, contract dates, terms and a replacement contract attachment are optional.",
+          "result": "The selected company's existing values are loaded into the form and its title changes to Edit Company. Changes are stored only after Save Company succeeds.",
+          "notes": "Confirm the company identity before changing legal or contact details. The existing contract attachment is retained if you leave the file field empty; selecting a new file replaces the stored attachment after a successful save."
         },
         "fa": {
-          "purpose": "اطلاعات شرکت ذخیره‌شده را در ویرایشگر شرکت بارگذاری می‌کند.",
-          "when": "وقتی می‌خواهید نام، مرجع، اطلاعات تماس یا جزئیات قرارداد یک شرکت ثبت‌شده را اصلاح کنید، از این گزینه استفاده کنید.",
-          "how": "در کنار شرکت موردنظر Edit را انتخاب کنید. اطلاعات آن را بررسی و به‌روزرسانی کنید و سپس برای ثبت تغییرات Save Company را انتخاب کنید.",
-          "inputs": "رکورد شرکت درست را انتخاب کنید و نام الزامی شرکت یا فیلدهای اختیاری مرجع، شخص تماس، تلفن، ایمیل، نشانی، تاریخ‌ها، شرایط یا پیوست قرارداد را در صورت نیاز تغییر دهید.",
-          "result": "مقادیر فعلی شرکت انتخاب‌شده در فرم شرکت بارگذاری می‌شوند. تغییرات تا زمانی که Save Company با موفقیت انجام نشود، ذخیره نمی‌شوند.",
-          "notes": "پیش از تغییر اطلاعات حقوقی یا تماس، هویت شرکت را تأیید کنید."
+          "purpose": "اطلاعات ذخیره‌شده شرکت ثبت‌شده را برای ویرایش در فرم شرکت بارگذاری می‌کند.",
+          "when": "وقتی می‌خواهید نام، شماره مرجع، اطلاعات تماس یا جزئیات قرارداد اصلی یک شرکت را اصلاح کنید، از این گزینه استفاده کنید.",
+          "how": "در Companies List، کنار شرکت موردنظر Edit را انتخاب کنید. فرم Add/Edit Company با اطلاعات ذخیره‌شده باز می‌شود. تغییرات را اعمال و Save Company را انتخاب کنید.",
+          "inputs": "رکورد شرکت صحیح را انتخاب کنید. هنگام ذخیره، نام شرکت الزامی است؛ شماره مرجع، شخص تماس، تلفن، ایمیل، نشانی، تاریخ‌های قرارداد، شرایط و پیوست جایگزین قرارداد اختیاری هستند.",
+          "result": "مقادیر موجود شرکت انتخاب‌شده در فرم بارگذاری می‌شوند و عنوان فرم به Edit Company تغییر می‌کند. تغییرات فقط پس از موفقیت Save Company ذخیره می‌شوند.",
+          "notes": "پیش از تغییر اطلاعات حقوقی یا تماس، هویت شرکت را تأیید کنید. اگر فیلد فایل را خالی بگذارید، پیوست قرارداد قبلی حفظ می‌شود؛ انتخاب فایل جدید پس از ذخیره موفق، پیوست ذخیره‌شده را جایگزین می‌کند."
         },
         "ar": {
           "purpose": "يفتح سجل الشركة لتعديل بياناتها.",
