@@ -2393,19 +2393,19 @@
         "docs/REPAIR_INDEX_FA.md",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "fcfdd4deffb664eafcaa6a38f733e86a6424d7b9",
+      "previewDevelopmentCommitSha": "69ab939356ed81fd6fa4d9de786910535650056b",
       "previewPullRequestNumber": 96,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "PENDING",
-        "runId": "pending",
-        "url": "pending",
-        "details": "R56 requires a fresh Version Authority Gate against the final R56 Build ID, canonical URL, index SHA and all 24 runtime asset pins."
+        "result": "PASS",
+        "runId": 46070014067,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070014067",
+        "details": "R56 Version Authority Gate passed. Repository/branch identity, approved R11 baseline ancestry, Build ID THA-273-R11-PREVIEW-20261127-R56, canonical URL, index blob SHA and all 24 pinned runtime assets matched."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
-        "details": "Six Help topics are CONTENT_COMPLETE. New Invoice is scoped to #invoiceListArea; the five Reports & Tax destinations are scoped to #report188Menu and their exact navigation parameter. JavaScript quote escaping in the selector literals was corrected. Registry and all asset pins require final tree/Gate verification. Live browser tests remain pending."
+        "details": "Six Help topics are CONTENT_COMPLETE. New Invoice is scoped to #invoiceListArea; the five Reports & Tax destinations are scoped to #report188Menu and their exact navigation parameter. JavaScript quote escaping in the selector literals was corrected. Manual Git-tree comparison confirms Registry, Inventory, Help content, runtime and index baselines match. Live browser tests remain pending."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
