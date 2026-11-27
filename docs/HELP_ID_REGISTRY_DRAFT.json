@@ -11171,7 +11171,7 @@
           "how": "Select Deactivate beside the intended company and confirm the prompt. If the company has jobs, the app blocks deactivation.",
           "inputs": "Select the correct company. It must have no associated jobs, and the deactivation confirmation must be approved.",
           "result": "If the company has no jobs and the save succeeds, its active flag is set to false; the company record is preserved.",
-          "notes": "A company with saved jobs or financial history cannot be deactivated by this control. Deactivation preserves the company record; it does not delete historical data."
+          "notes": "A company with any saved jobs cannot be deactivated by this control. Deactivation preserves the company record and does not delete historical data. The handler checks for associated jobs; it does not separately inspect financial-history records."
         },
         "fa": {
           "purpose": "شرکت را غیرفعال می‌کند و رکورد آن را حفظ می‌کند.",
@@ -11179,7 +11179,7 @@
           "how": "در کنار شرکت موردنظر Deactivate را انتخاب و پیام تأیید را بررسی کنید. اگر شرکت کاری داشته باشد، برنامه مانع غیرفعال‌سازی می‌شود.",
           "inputs": "شرکت درست را انتخاب کنید. نباید هیچ کار مرتبطی داشته باشد و باید پیام تأیید غیرفعال‌سازی را بپذیرید.",
           "result": "اگر شرکت هیچ کاری نداشته باشد و ذخیره موفق شود، پرچم فعال‌بودن آن false می‌شود؛ رکورد شرکت حفظ می‌شود.",
-          "notes": "شرکتی که کار ذخیره‌شده یا سابقه مالی دارد با این کنترل غیرفعال نمی‌شود. غیرفعال‌سازی رکورد شرکت را حفظ می‌کند و داده‌های تاریخی را حذف نمی‌کند."
+          "notes": "شرکتی که هرگونه کار ذخیره‌شده دارد با این کنترل غیرفعال نمی‌شود. غیرفعال‌سازی سابقه شرکت را حفظ می‌کند و داده‌های تاریخی را حذف نمی‌کند. تابع برنامه وجود کارهای مرتبط را بررسی می‌کند و سوابق مالی را به‌طور جداگانه ارزیابی نمی‌کند."
         },
         "ar": {
           "purpose": "يعطّل الشركة مع الاحتفاظ بسجلها.",
