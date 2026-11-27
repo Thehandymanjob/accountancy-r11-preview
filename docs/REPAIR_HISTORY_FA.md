@@ -801,3 +801,17 @@
 - Version Authority Gate: PASS؛ run `46071318624` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071318624؛ هویت Build R61، canonical URL، SHA فایل index و تمام ۲۴ فایل pinشده تأیید شدند.
 - تست واقعی مرورگر / موبایل: هنوز انجام نشده؛ کلیک راهنمای تب‌ها، حفظ navigation، انتخاب زبان و چیدمان موبایل باید در Preview بررسی شوند.
 - انتشار / داده: هیچ Preview deploy، Merge یا Production change انجام نشده است.
+
+
+#### بازنگری R62 — اتصال کنترل‌های پویا و پنل کنترل
+
+- تاریخ: 2026-11-27
+- نوع تغییر: ادامه پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- شناسه‌های متصل‌شده: THA-HLP-0079 (Company Contracts & Jobs از Business Workspace)، THA-HLP-0104 تا THA-HLP-0106 (Partners، Workers و Contractors در Control Panel)، THA-HLP-0122 (انتخاب Category)، THA-HLP-0123 (Add New One)، THA-HLP-0126 (OK در Entry Saved dialog) و THA-HLP-0140 (Open print view).
+- روش اتصال: هشت selector دقیق و محدوده‌دار. برای کنترل‌های ساخته‌شده در زمان اجرا، MutationObserver موجود در Help Runtime اتصال را هنگام ورود عنصر به DOM انجام می‌دهد.
+- نسخه: THA-273-R11-PREVIEW-20261127-R62.
+- اتصال‌ها پس از R62: ۱۱۸ کنترل؛ ۱۱۳ ایستا و پنج پویا. ۹۵ selector محدوده‌دار، ۱۳ ID یکتا و پنج handler محدوده‌دار.
+- ایمنی: هیچ handler اصلی تغییر نکرد؛ Help فقط marker راهنما را اضافه می‌کند و کلیک «?» باید از اجرای Save، Clear یا Print جلوگیری کند. این رفتار هنوز در مرورگر واقعی تأیید نشده است.
+- Version Authority Gate: در انتظار اجرای Gate نهایی روی آخرین commit R62.
+- تست واقعی مرورگر / موبایل: هنوز انجام نشده؛ به‌خصوص Category picker، پنجره Entry Saved و Invoice Preview باید تست شوند.
+- انتشار / داده: هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
