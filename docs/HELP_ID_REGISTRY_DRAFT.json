@@ -16056,76 +16056,76 @@
           "notes": "ارتباط فرد با کارها و پرداخت‌های قبلی را بررسی کنید و سوابق موردنیاز حسابرسی و حسابداری را نگه دارید."
         },
         "ar": {
-          "purpose": "يحذف شخصاً من قائمة العمال أو الأشخاص المرتبطين بالمشروع.",
+          "purpose": "يحذف شخصاً من قائمة العمال أو قائمة الأشخاص المرتبطين بالمشروع.",
           "when": "فقط عندما لم يعد الشخص مطلوباً في القائمة وبعد مراجعة ارتباطاته التاريخية.",
           "how": "اختر Delete بجانب الشخص المقصود واقرأ رسالة التأكيد.",
-          "inputs": "حدد سجل الشخص الصحيح وتحقق من هويته وارتباطاته قبل تأكيد الحذف.",
+          "inputs": "حدد سجل الشخص الصحيح وتحقق من هويته ومن ارتباطه بالأعمال أو سجل المدفوعات.",
           "result": "يُزال الشخص أو يُعطّل إذا قبل التطبيق العملية وأكدها.",
-          "notes": "تحقق مما إذا كان الشخص مرتبطاً بأعمال أو دفعات سابقة؛ واحتفظ بالسجلات المطلوبة للتدقيق والمحاسبة."
+          "notes": "تحقق من ارتباط الشخص بأعمال أو مدفوعات سابقة؛ واحتفظ بالسجلات اللازمة للتدقيق والمحاسبة."
         },
         "ckb": {
-          "purpose": "کەسێک لە پێڕستی کارمەندان یان کەسانی پرۆژە دەسڕێتەوە.",
-          "when": "تەنها کاتێک کەسەکە چیتر لەم پێڕستەدا پێویست نییە و پەیوەندییە مێژووییەکانی پشکنراون.",
+          "purpose": "کەسێک لە لیستی کارمەندان یان لیستی کەسانی پەیوەست بە پرۆژە دەسڕێتەوە.",
+          "when": "تەنها کاتێک کەسەکە چیتر لە لیستەکە پێویست نییە و پەیوەندییە مێژووییەکانی پشکنراون.",
           "how": "لە تەنیشت کەسی مەبەست Delete هەڵبژێرە و نامەی پشتڕاستکردنەوە بخوێنەوە.",
-          "inputs": "تۆماری کەسی دروست هەڵبژێرە و پێش پشتڕاستکردنەوەی سڕینەوە ناسنامە و پەیوەندییەکانی بپشکنە.",
+          "inputs": "تۆماری دروستی کەسەکە هەڵبژێرە و ناسنامە و پەیوەندییەکانی بە کارەکان یان مێژووی پارەدان بپشکنە.",
           "result": "کەسەکە لادەبرێت یان ناچالاک دەکرێت ئەگەر ئەپەکە کردارەکە قبووڵ و پشتڕاست بکاتەوە.",
-          "notes": "بپشکنە ئایا کەسەکە بە کار یان پارەدانە پێشوەکانەوە پەیوەستە؛ تۆمارە پێویستەکانی پشکنین و ژمێریاری بپارێزە."
+          "notes": "پەیوەندی کەسەکە بە کار یان پارەدانی پێشوو بپشکنە؛ تۆمارە پێویستەکانی پشکنین و ژمێریاری بپارێزە."
         },
         "kmr": {
-          "purpose": "Kesekî ji lîsteya karkeran an kesên projeyê jê dike.",
+          "purpose": "Kesekî ji lîsteya karkeran an lîsteya kesên projeyê radike.",
           "when": "Tenê dema ku êdî kes di lîsteyê de ne pêwîst e û girêdanên wî yên dîrokî hatine kontrolkirin.",
           "how": "Li kêleka kesê xwestî Delete hilbijêre û peyama piştrastkirinê bixwîne.",
-          "inputs": "Tomara kesê rast hilbijêre û berî piştrastkirina jêbirinê nasname û girêdanên wî kontrol bike.",
+          "inputs": "Tomara kesê rast hilbijêre û nasname û girêdanên wî bi kar an dîroka dravdanê kontrol bike.",
           "result": "Kes tê rakirin an neçalak kirin heke sepan kiryarê qebûl û piştrast bike.",
-          "notes": "Kontrol bike ka kes bi kar an dravdanên berê ve girêdayî ye; tomarên pêwîst ji bo kontrol û hesabê biparêze."
+          "notes": "Girêdana kesê bi kar an dravdanên berê kontrol bike; tomarên pêwîst ji bo kontrol û hesabê biparêze."
         },
         "tr": {
-          "purpose": "Çalışan veya proje kişileri listesinden bir kişiyi siler.",
-          "when": "Yalnızca kişi artık listede gerekmiyorsa ve geçmiş bağlantıları kontrol edildiyse kullanın.",
+          "purpose": "Bir kişiyi çalışan veya proje kişileri listesinden siler.",
+          "when": "Yalnızca kişi artık listede gerekli değilse ve geçmiş bağlantıları kontrol edildiyse kullanın.",
           "how": "İlgili kişinin yanındaki Delete'i seçin ve onay mesajını okuyun.",
-          "inputs": "Doğru kişi kaydını seçin ve silmeyi onaylamadan önce kimliğini ve bağlantılarını kontrol edin.",
+          "inputs": "Doğru kişi kaydını seçin; kimliğini ve bağlantılı iş veya ödeme geçmişini kontrol edin.",
           "result": "Uygulama işlemi kabul edip onaylarsa kişi kaldırılır veya devre dışı bırakılır.",
-          "notes": "Kişinin geçmiş işlere veya ödemelere bağlı olup olmadığını kontrol edin; denetim ve muhasebe için gerekli kayıtları saklayın."
+          "notes": "Kişinin geçmiş işler veya ödemelerle bağlantısını kontrol edin; denetim ve muhasebe için gereken kayıtları saklayın."
         },
         "pl": {
           "purpose": "Usuwa osobę z listy pracowników lub osób powiązanych z projektem.",
-          "when": "Użyj tylko wtedy, gdy osoba nie jest już potrzebna na liście, a jej historyczne powiązania zostały sprawdzone.",
+          "when": "Użyj tylko wtedy, gdy osoba nie powinna już znajdować się na liście, a jej historyczne powiązania zostały sprawdzone.",
           "how": "Wybierz Delete obok właściwej osoby i przeczytaj komunikat potwierdzający.",
-          "inputs": "Wybierz właściwy rekord osoby i przed potwierdzeniem usunięcia sprawdź jej tożsamość oraz powiązania.",
+          "inputs": "Wybierz właściwy rekord osoby i sprawdź jej tożsamość oraz powiązane prace lub historię płatności.",
           "result": "Osoba zostanie usunięta lub dezaktywowana, jeśli aplikacja zaakceptuje i potwierdzi operację.",
-          "notes": "Sprawdź, czy osoba jest powiązana z wcześniejszymi pracami lub płatnościami; zachowaj dokumentację wymaganą do audytu i księgowości."
+          "notes": "Sprawdź powiązania osoby z wcześniejszymi pracami lub płatnościami; zachowaj dokumentację wymaganą do audytu i księgowości."
         },
         "ur": {
-          "purpose": "ورکر یا پروجیکٹ افراد کی فہرست سے کسی شخص کو حذف کرتا ہے۔",
-          "when": "صرف اس وقت استعمال کریں جب شخص اب فہرست میں درکار نہ ہو اور اس کے تاریخی روابط چیک کر لیے گئے ہوں۔",
+          "purpose": "کسی شخص کو کارکنوں یا پروجیکٹ افراد کی فہرست سے حذف کرتا ہے۔",
+          "when": "صرف اس وقت استعمال کریں جب شخص کی فہرست میں مزید ضرورت نہ ہو اور اس کے تاریخی روابط چیک کر لیے گئے ہوں۔",
           "how": "متعلقہ شخص کے ساتھ Delete منتخب کریں اور تصدیقی پیغام پڑھیں۔",
-          "inputs": "درست شخص کا ریکارڈ منتخب کریں اور حذف کی تصدیق سے پہلے اس کی شناخت اور روابط چیک کریں۔",
+          "inputs": "درست شخص کا ریکارڈ منتخب کریں اور اس کی شناخت اور منسلک کام یا ادائیگی کی تاریخ چیک کریں۔",
           "result": "ایپ کارروائی قبول اور تصدیق کرے تو شخص ہٹا یا غیر فعال ہو جاتا ہے۔",
-          "notes": "چیک کریں کہ شخص سابقہ کاموں یا ادائیگیوں سے منسلک ہے یا نہیں؛ آڈٹ اور اکاؤنٹنگ کے لیے مطلوبہ ریکارڈ محفوظ رکھیں۔"
+          "notes": "شخص کے سابقہ کاموں یا ادائیگیوں سے تعلقات چیک کریں؛ آڈٹ اور اکاؤنٹنگ کے لیے مطلوبہ ریکارڈ محفوظ رکھیں۔"
         },
         "pa": {
-          "purpose": "ਵਰਕਰ ਜਾਂ ਪ੍ਰੋਜੈਕਟ ਵਿਅਕਤੀਆਂ ਦੀ ਸੂਚੀ ਵਿੱਚੋਂ ਕਿਸੇ ਵਿਅਕਤੀ ਨੂੰ ਮਿਟਾਉਂਦਾ ਹੈ।",
+          "purpose": "ਕਿਸੇ ਵਿਅਕਤੀ ਨੂੰ ਕਰਮਚਾਰੀ ਜਾਂ ਪ੍ਰੋਜੈਕਟ-ਵਿਅਕਤੀ ਸੂਚੀ ਵਿੱਚੋਂ ਮਿਟਾਉਂਦਾ ਹੈ।",
           "when": "ਸਿਰਫ਼ ਜਦੋਂ ਵਿਅਕਤੀ ਦੀ ਹੁਣ ਸੂਚੀ ਵਿੱਚ ਲੋੜ ਨਾ ਹੋਵੇ ਅਤੇ ਉਸਦੇ ਪੁਰਾਣੇ ਸੰਬੰਧ ਜਾਂਚ ਲਏ ਗਏ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
           "how": "ਸੰਬੰਧਿਤ ਵਿਅਕਤੀ ਦੇ ਨਾਲ Delete ਚੁਣੋ ਅਤੇ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਪੜ੍ਹੋ।",
-          "inputs": "ਸਹੀ ਵਿਅਕਤੀ ਦਾ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਮਿਟਾਉਣ ਦੀ ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਉਸਦੀ ਪਛਾਣ ਅਤੇ ਸੰਬੰਧ ਜਾਂਚੋ।",
+          "inputs": "ਸਹੀ ਵਿਅਕਤੀ ਦਾ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਉਸਦੀ ਪਛਾਣ ਅਤੇ ਜੁੜੇ ਕੰਮ ਜਾਂ ਭੁਗਤਾਨ ਇਤਿਹਾਸ ਜਾਂਚੋ।",
           "result": "ਐਪ ਕਾਰਵਾਈ ਸਵੀਕਾਰ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਵਿਅਕਤੀ ਹਟਾਇਆ ਜਾਂ ਅਕਿਰਿਆਸ਼ੀਲ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।",
-          "notes": "ਜਾਂਚੋ ਕਿ ਵਿਅਕਤੀ ਪੁਰਾਣੇ ਕੰਮਾਂ ਜਾਂ ਭੁਗਤਾਨਾਂ ਨਾਲ ਜੁੜਿਆ ਹੈ ਜਾਂ ਨਹੀਂ؛ ਆਡਿਟ ਅਤੇ ਅਕਾਊਂਟਿੰਗ ਲਈ ਲੋੜੀਂਦੇ ਰਿਕਾਰਡ ਸੰਭਾਲੋ।"
+          "notes": "ਵਿਅਕਤੀ ਦੇ ਪੁਰਾਣੇ ਕੰਮਾਂ ਜਾਂ ਭੁਗਤਾਨਾਂ ਨਾਲ ਸੰਬੰਧ ਜਾਂਚੋ؛ ਆਡਿਟ ਅਤੇ ਅਕਾਊਂਟਿੰਗ ਲਈ ਲੋੜੀਂਦੇ ਰਿਕਾਰਡ ਸੰਭਾਲੋ।"
         },
         "prs": {
-          "purpose": "یک شخص را از فهرست کارگران یا افراد پروژه حذف می‌کند.",
+          "purpose": "یک شخص را از فهرست کارگران یا افراد مرتبط با پروژه حذف می‌کند.",
           "when": "فقط وقتی شخص دیگر در فهرست لازم نیست و ارتباط‌های تاریخی او بررسی شده‌اند، استفاده کنید.",
           "how": "در کنار شخص موردنظر Delete را انتخاب کنید و پیام تأیید را بخوانید.",
-          "inputs": "سابقه درست شخص را انتخاب کنید و پیش از تأیید حذف هویت و ارتباط‌های او را بررسی کنید.",
+          "inputs": "سابقه درست شخص را انتخاب کنید و هویت و ارتباط آن با کارها یا تاریخچه پرداخت را بررسی کنید.",
           "result": "در صورت پذیرش و تأیید برنامه، شخص حذف یا غیرفعال می‌شود.",
-          "notes": "بررسی کنید آیا شخص به کارها یا پرداخت‌های قبلی مرتبط است؛ سوابق لازم برای حسابرسی و حسابداری را نگه دارید."
+          "notes": "ارتباط شخص با کارها یا پرداخت‌های قبلی را بررسی کنید؛ سوابق لازم برای حسابرسی و حسابداری را نگه دارید."
         },
         "ps": {
-          "purpose": "یو کس د کارکوونکو یا د پروژې د کسانو له لېست څخه ړنګوي.",
+          "purpose": "یو کس د کارکوونکو یا د پروژې د کسانو له لېست څخه لرې کوي.",
           "when": "یوازې هغه وخت یې وکاروئ چې کس نور په لېست کې اړتیا نه وي او تاریخي اړیکې یې کتلي وي.",
           "how": "د اړوند کس تر څنګ Delete وټاکئ او د تایید پیغام ولولئ.",
-          "inputs": "د کس سم ریکارډ وټاکئ او د ړنګولو له تایید مخکې یې هویت او اړیکې وګورئ.",
+          "inputs": "د کس سم ریکارډ وټاکئ او هویت او له کارونو یا د تادیاتو له تاریخ سره یې اړیکه وګورئ.",
           "result": "که اپلیکیشن کړنه ومني او تایید یې کړي، کس لرې یا غیرفعال کېږي.",
-          "notes": "وګورئ چې کس له پخوانیو کارونو یا تادیاتو سره تړلی دی که نه؛ د پلټنې او حسابدارۍ اړین ریکارډونه وساتئ."
+          "notes": "له پخوانیو کارونو یا تادیاتو سره د کس اړیکې وګورئ؛ د پلټنې او حسابدارۍ اړین ریکارډونه وساتئ."
         }
       },
       "handler_or_behavior": "`prDeletePerson(`"
@@ -16155,74 +16155,74 @@
         },
         "ar": {
           "purpose": "يفتح تكلفة تسوية موجودة للمراجعة أو التعديل.",
-          "when": "عندما تحتاج إلى مراجعة تفاصيل تكلفة مرتبطة بعملية تسوية أو تعديلها.",
+          "when": "عندما تحتاج إلى مراجعة أو تغيير تفاصيل تكلفة مرتبطة بتسوية.",
           "how": "اختر Edit في تكلفة التسوية المطلوبة لفتح تفاصيلها.",
-          "inputs": "حدد تكلفة التسوية الصحيحة وتحقق من سياق التسوية المرتبط بها.",
-          "result": "تُفتح تفاصيل تكلفة التسوية المحددة للمراجعة أو التعديل.",
-          "notes": "تحقق من التكلفة وسياق التسوية قبل إجراء أي تغييرات."
+          "inputs": "حدد تكلفة التسوية الصحيحة وراجع سياق التسوية المرتبط بها.",
+          "result": "تُفتح تفاصيل تكلفة التسوية المحددة للتحرير أو المراجعة.",
+          "notes": "تحقق من التكلفة وسياق التسوية قبل إجراء أي تغيير."
         },
         "ckb": {
-          "purpose": "تێچوویەکی هاوتاکردنی هەبوو بۆ پشکنین یان دەستکاریکردن دەکاتەوە.",
-          "when": "کاتێک پێویستە وردەکارییەکانی تێچوویەکی پەیوەست بە پرۆسەی هاوتاکردن بپشکنیت یان دەستکاری بکەیت.",
+          "purpose": "تێچوویەکی هەبووی هاوتاکردن بۆ دەستکاریکردن یان پشکنین دەکاتەوە.",
+          "when": "کاتێک پێویستە وردەکاریی تێچوویەک کە بە هاوتاکردنەوە پەیوەستە بپشکنیت یان بیگۆڕیت.",
           "how": "لە تێچووی هاوتاکردنی مەبەست Edit هەڵبژێرە بۆ کردنەوەی وردەکارییەکانی.",
-          "inputs": "تێچووی هاوتاکردنی دروست هەڵبژێرە و پەیوەندییەکەی بە پرۆسەی هاوتاکردن بپشکنە.",
-          "result": "وردەکارییەکانی تێچووی هاوتاکردنی هەڵبژێردراو بۆ پشکنین یان دەستکاریکردن دەکرێنەوە.",
-          "notes": "پێش هەر گۆڕانکارییەک تێچوو و بارودۆخی هاوتاکردن پشتڕاست بکەرەوە."
+          "inputs": "تێچووی هاوتاکردنی دروست هەڵبژێرە و دۆخی هاوتاکردنی پەیوەست بەوە بپشکنە.",
+          "result": "وردەکاریی تێچووی هاوتاکردنی دیاریکراو بۆ دەستکاریکردن یان پشکنین دەکرێتەوە.",
+          "notes": "پێش هەر گۆڕانکارییەک تێچوو و دۆخی هاوتاکردن پشتڕاست بکەرەوە."
         },
         "kmr": {
-          "purpose": "Lêçûneke lihevhatinê ya heyî ji bo kontrol an guherandinê vedike.",
-          "when": "Dema ku tu hewceyî kontrolkirin an guherandina hûrguliyên lêçûneke girêdayî bi pêvajoya lihevhatinê re yî.",
+          "purpose": "Lêçûneke heyî ya lihevhatinê ji bo guherandin an vekolînê vedike.",
+          "when": "Dema ku tu hewceyî kontrolkirin an guherandina hûrguliyên lêçûneke girêdayî lihevhatinê yî.",
           "how": "Li ser lêçûna lihevhatinê ya xwestî Edit hilbijêre da ku hûrguliyên wê veke.",
-          "inputs": "Lêçûna lihevhatinê ya rast hilbijêre û konteksta girêdayî bi lihevhatinê kontrol bike.",
-          "result": "Hûrguliyên lêçûna lihevhatinê ya hilbijartî ji bo kontrol an guherandinê vedibin.",
-          "notes": "Berî her guherînê lêçûn û konteksta lihevhatinê piştrast bike."
+          "inputs": "Lêçûna lihevhatinê ya rast hilbijêre û çarçoveya lihevhatina girêdayî wê kontrol bike.",
+          "result": "Hûrguliyên lêçûna lihevhatinê ya hilbijartî ji bo guherandin an vekolînê vedibin.",
+          "notes": "Berî her guherînê lêçûn û çarçoveya lihevhatinê piştrast bike."
         },
         "tr": {
-          "purpose": "Mevcut bir mutabakat maliyetini inceleme veya düzenleme için açar.",
-          "when": "Bir mutabakat işlemiyle ilişkili maliyetin ayrıntılarını incelemeniz veya değiştirmeniz gerektiğinde kullanın.",
+          "purpose": "Mevcut bir mutabakat maliyetini düzenleme veya inceleme için açar.",
+          "when": "Mutabakatla ilişkili bir maliyetin ayrıntılarını incelemeniz veya değiştirmeniz gerektiğinde kullanın.",
           "how": "Ayrıntılarını açmak için ilgili mutabakat maliyetinde Edit'i seçin.",
-          "inputs": "Doğru mutabakat maliyetini seçin ve ilişkili mutabakat bağlamını kontrol edin.",
-          "result": "Seçilen mutabakat maliyetinin ayrıntıları inceleme veya düzenleme için açılır.",
+          "inputs": "Doğru mutabakat maliyetini seçin ve ilişkili mutabakat bağlamını inceleyin.",
+          "result": "Seçilen mutabakat maliyetinin ayrıntıları düzenleme veya inceleme için açılır.",
           "notes": "Herhangi bir değişiklik yapmadan önce maliyeti ve mutabakat bağlamını doğrulayın."
         },
         "pl": {
-          "purpose": "Otwiera istniejący koszt uzgodnienia do edycji lub sprawdzenia.",
-          "when": "Użyj, gdy trzeba sprawdzić lub zmienić szczegóły kosztu powiązanego z uzgodnieniem.",
-          "how": "Wybierz Edit przy właściwym koszcie uzgodnienia, aby otworzyć jego szczegóły.",
-          "inputs": "Wybierz właściwy koszt uzgodnienia i sprawdź kontekst powiązanego uzgodnienia.",
-          "result": "Otwierają się szczegóły wybranego kosztu uzgodnienia do sprawdzenia lub edycji.",
-          "notes": "Przed wprowadzeniem zmian potwierdź koszt i kontekst uzgodnienia."
+          "purpose": "Otwiera istniejący koszt rozliczenia do edycji lub przeglądu.",
+          "when": "Użyj, gdy trzeba sprawdzić lub zmienić szczegóły kosztu powiązanego z rozliczeniem.",
+          "how": "Wybierz Edit przy właściwym koszcie rozliczenia, aby otworzyć jego szczegóły.",
+          "inputs": "Wybierz właściwy koszt rozliczenia i sprawdź kontekst powiązanego rozliczenia.",
+          "result": "Otwierają się szczegóły wybranego kosztu rozliczenia do edycji lub przeglądu.",
+          "notes": "Przed wprowadzeniem zmian potwierdź koszt i kontekst rozliczenia."
         },
         "ur": {
-          "purpose": "موجودہ ریکنسیلی ایشن لاگت کو ترمیم یا جائزے کے لیے کھولتا ہے۔",
-          "when": "جب ریکنسیلی ایشن سے منسلک لاگت کی تفصیلات دیکھنی یا تبدیل کرنی ہوں تو استعمال کریں۔",
-          "how": "تفصیلات کھولنے کے لیے متعلقہ ریکنسیلی ایشن لاگت میں Edit منتخب کریں۔",
-          "inputs": "درست ریکنسیلی ایشن لاگت منتخب کریں اور اس سے متعلقہ ریکنسیلی ایشن کا سیاق چیک کریں۔",
-          "result": "منتخب ریکنسیلی ایشن لاگت کی تفصیلات جائزے یا ترمیم کے لیے کھل جاتی ہیں۔",
-          "notes": "کسی بھی تبدیلی سے پہلے لاگت اور ریکنسیلی ایشن کے سیاق کی تصدیق کریں۔"
+          "purpose": "موجودہ مفاہمتی لاگت کو ترمیم یا جائزے کے لیے کھولتا ہے۔",
+          "when": "جب مفاہمت سے متعلق لاگت کی تفصیلات دیکھنی یا تبدیل کرنی ہوں تو استعمال کریں۔",
+          "how": "تفصیلات کھولنے کے لیے متعلقہ مفاہمتی لاگت پر Edit منتخب کریں۔",
+          "inputs": "درست مفاہمتی لاگت منتخب کریں اور اس سے متعلق مفاہمتی سیاق دیکھیں۔",
+          "result": "منتخب مفاہمتی لاگت کی تفصیلات ترمیم یا جائزے کے لیے کھل جاتی ہیں۔",
+          "notes": "کسی بھی تبدیلی سے پہلے لاگت اور مفاہمتی سیاق کی تصدیق کریں۔"
         },
         "pa": {
-          "purpose": "ਮੌਜੂਦਾ ਮਿਲਾਣ ਲਾਗਤ ਨੂੰ ਸੋਧ ਜਾਂ ਜਾਂਚ ਲਈ ਖੋਲ੍ਹਦਾ ਹੈ।",
-          "when": "ਜਦੋਂ ਮਿਲਾਣ ਪ੍ਰਕਿਰਿਆ ਨਾਲ ਜੁੜੀ ਲਾਗਤ ਦੇ ਵੇਰਵੇ ਜਾਂਚਣ ਜਾਂ ਬਦਲਣੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਵੇਰਵੇ ਖੋਲ੍ਹਣ ਲਈ ਸੰਬੰਧਿਤ ਮਿਲਾਣ ਲਾਗਤ ਵਿੱਚ Edit ਚੁਣੋ।",
-          "inputs": "ਸਹੀ ਮਿਲਾਣ ਲਾਗਤ ਚੁਣੋ ਅਤੇ ਇਸ ਨਾਲ ਜੁੜਿਆ ਮਿਲਾਣ ਸੰਦਰਭ ਜਾਂਚੋ।",
-          "result": "ਚੁਣੀ ਮਿਲਾਣ ਲਾਗਤ ਦੇ ਵੇਰਵੇ ਜਾਂਚ ਜਾਂ ਸੋਧ ਲਈ ਖੁੱਲ੍ਹਦੇ ਹਨ।",
-          "notes": "ਕੋਈ ਤਬਦੀਲੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਲਾਗਤ ਅਤੇ ਮਿਲਾਣ ਸੰਦਰਭ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।"
+          "purpose": "ਮੌਜੂਦਾ ਮਿਲਾਨ ਲਾਗਤ ਨੂੰ ਸੋਧ ਜਾਂ ਸਮੀਖਿਆ ਲਈ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਮਿਲਾਨ ਨਾਲ ਜੁੜੀ ਲਾਗਤ ਦੇ ਵੇਰਵੇ ਜਾਂਚਣ ਜਾਂ ਬਦਲਣੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਵੇਰਵੇ ਖੋਲ੍ਹਣ ਲਈ ਸੰਬੰਧਿਤ ਮਿਲਾਨ ਲਾਗਤ ਉੱਤੇ Edit ਚੁਣੋ।",
+          "inputs": "ਸਹੀ ਮਿਲਾਨ ਲਾਗਤ ਚੁਣੋ ਅਤੇ ਇਸ ਨਾਲ ਜੁੜਿਆ ਮਿਲਾਨ ਸੰਦਰਭ ਜਾਂਚੋ।",
+          "result": "ਚੁਣੀ ਮਿਲਾਨ ਲਾਗਤ ਦੇ ਵੇਰਵੇ ਸੋਧ ਜਾਂ ਸਮੀਖਿਆ ਲਈ ਖੁੱਲ੍ਹਦੇ ਹਨ।",
+          "notes": "ਕੋਈ ਵੀ ਤਬਦੀਲੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਲਾਗਤ ਅਤੇ ਮਿਲਾਨ ਸੰਦਰਭ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।"
         },
         "prs": {
           "purpose": "یک هزینه تطبیق موجود را برای ویرایش یا بررسی باز می‌کند.",
-          "when": "وقتی لازم است جزئیات هزینه مرتبط با فرایند تطبیق را بررسی یا تغییر دهید، استفاده کنید.",
+          "when": "وقتی لازم است جزئیات هزینه مرتبط با تطبیق را بررسی یا تغییر دهید، استفاده کنید.",
           "how": "برای بازکردن جزئیات، در هزینه تطبیق موردنظر Edit را انتخاب کنید.",
-          "inputs": "هزینه تطبیق درست را انتخاب کنید و زمینه تطبیق مرتبط با آن را بررسی کنید.",
-          "result": "جزئیات هزینه تطبیق انتخاب‌شده برای بررسی یا ویرایش باز می‌شود.",
-          "notes": "پیش از هر تغییری هزینه و زمینه تطبیق را تأیید کنید."
+          "inputs": "هزینه تطبیق درست را انتخاب کنید و زمینه تطبیق مرتبط را بررسی کنید.",
+          "result": "جزئیات هزینه تطبیق انتخاب‌شده برای ویرایش یا بررسی باز می‌شود.",
+          "notes": "پیش از هر تغییری، هزینه و زمینه تطبیق را تأیید کنید."
         },
         "ps": {
-          "purpose": "د موجودې پخلاینې لګښت د سمون یا کتنې لپاره پرانیزي.",
-          "when": "کله چې د پخلاینې له بهیر سره تړلي لګښت جزئیات کتل یا بدلول غواړئ، دا وکاروئ.",
+          "purpose": "د پخلاینې موجود لګښت د سمون یا کتنې لپاره پرانیزي.",
+          "when": "کله چې د پخلاینې سره تړلي لګښت جزئیات کتلو یا بدلولو ته اړتیا لرئ، دا وکاروئ.",
           "how": "د جزئیاتو د پرانیستلو لپاره د اړوند پخلاینې لګښت کې Edit وټاکئ.",
-          "inputs": "د پخلاینې سم لګښت وټاکئ او د اړوندې پخلاینې شرایط وګورئ.",
-          "result": "د ټاکل شوي پخلاینې لګښت جزئیات د کتنې یا سمون لپاره پرانیستل کېږي.",
+          "inputs": "د پخلاینې سم لګښت وټاکئ او د هغه اړوند د پخلاینې شرایط وګورئ.",
+          "result": "د ټاکل شوي پخلاینې لګښت جزئیات د سمون یا کتنې لپاره پرانیستل کېږي.",
           "notes": "له هر بدلون مخکې لګښت او د پخلاینې شرایط تایید کړئ."
         }
       },
@@ -16253,75 +16253,75 @@
         },
         "ar": {
           "purpose": "يفتح إجراء تكلفة التسوية المحددة للحذف أو المراجعة.",
-          "when": "عندما تحتاج إلى مراجعة إجراء تكلفة التسوية المحددة أو متابعة الإجراء المرتبط بها.",
+          "when": "عندما تحتاج إلى مراجعة الإجراء المرتبط بتكلفة التسوية المحددة أو متابعته.",
           "how": "اختر Delete فقط لتكلفة التسوية المقصودة واتبع رسالة التأكيد التي يعرضها التطبيق.",
-          "inputs": "حدد تكلفة التسوية الصحيحة واقرأ الإجراء أو رسالة التأكيد المعروضة قبل المتابعة.",
-          "result": "تُفتح خطوة الإجراء المرتبطة بتكلفة التسوية؛ ولا يُفترض حذفها حتى يؤكد التطبيق ذلك.",
-          "notes": "يربط سجل الجرد هذا التحكم بمعالج تكلفة التسوية؛ اقرأ الرسالة الناتجة بعناية ولا تفترض الحذف قبل التأكيد."
+          "inputs": "حدد تكلفة التسوية المقصودة واقرأ الإجراء أو رسالة التأكيد بعناية.",
+          "result": "تُزال التكلفة أو تُعطّل فقط إذا قبل التطبيق العملية وأكدها.",
+          "notes": "يربط سجل الجرد هذا الزر بمعالج تكلفة التسوية؛ اقرأ الرسالة الناتجة بعناية ولا تفترض الحذف قبل تأكيده."
         },
         "ckb": {
           "purpose": "کرداری تێچووی هاوتاکردنی هەڵبژێردراو بۆ سڕینەوە یان پشکنین دەکاتەوە.",
-          "when": "کاتێک پێویستە کرداری تێچووی هاوتاکردنی هەڵبژێردراو بپشکنیت یان بەردەوامی بە پرۆسەی پەیوەست بدەیت.",
-          "how": "تەنها بۆ تێچووی هاوتاکردنی مەبەست Delete هەڵبژێرە و نامەی پشتڕاستکردنەوەی ئەپەکە پەیڕەو بکە.",
-          "inputs": "تێچووی هاوتاکردنی دروست هەڵبژێرە و پێش بەردەوامبوون کردار یان نامەی پشتڕاستکردنەوە بخوێنەوە.",
-          "result": "هەنگاوی کردارە پەیوەستەکە بە تێچووی هاوتاکردن دەکرێتەوە؛ تا ئەپەکە پشتڕاستی نەکاتەوە نابێت گریمانەی سڕینەوە بکرێت.",
-          "notes": "پێڕستی کۆکردنەوەی زانیاری ئەم کۆنترۆڵە بە بەڕێوەبەری تێچووی هاوتاکردنەوە دەبەستێتەوە؛ نامەی دەرئەنجام بە وردی بخوێنەوە و پێش پشتڕاستکردنەوە گریمانەی سڕینەوە مەکە."
+          "when": "کاتێک پێویستە کرداری پەیوەست بە تێچووی هاوتاکردنی هەڵبژێردراو بپشکنیت یان بەدواداچوونی بکەیت.",
+          "how": "تەنها بۆ تێچووی هاوتاکردنی مەبەست Delete هەڵبژێرە و پەیامی پشتڕاستکردنەوەی ئەپەکە جێبەجێ بکە.",
+          "inputs": "تێچووی هاوتاکردنی مەبەست هەڵبژێرە و پێش بەردەوامبوون کردار یان پەیامی پشتڕاستکردنەوە بە وردی بخوێنەوە.",
+          "result": "تێچووەکە تەنها ئەگەر ئەپەکە کردارەکە قبووڵ و پشتڕاست بکاتەوە لادەبرێت یان ناچالاک دەکرێت.",
+          "notes": "لیستی پشکنین ئەم کۆنتڕۆڵە بە مامەڵەکاری تێچووی هاوتاکردنەوە دەبەستێتەوە؛ پەیامی دەرئەنجام بە وردی بخوێنەوە و پێش پشتڕاستکردنەوە سڕینەوە مەزانە."
         },
         "kmr": {
-          "purpose": "Kiryara lêçûna lihevhatinê ya hilbijartî ji bo jêbirin an kontrolê vedike.",
-          "when": "Dema ku tu hewceyî kontrolkirina kiryara lêçûna lihevhatinê ya hilbijartî an domandina pêvajoya girêdayî yî.",
-          "how": "Tenê ji bo lêçûna lihevhatinê ya armancê Delete hilbijêre û peyama piştrastkirinê ya sepanê bişopîne.",
-          "inputs": "Lêçûna lihevhatinê ya rast hilbijêre û berî domandinê kiryar an peyama piştrastkirinê bixwîne.",
-          "result": "Gava kiryarê girêdayî lêçûna lihevhatinê vedibe; heta sepan piştrast neke divê jêbirin neyê texmînkirin.",
-          "notes": "Lîsteya kontrolê vê kontrolê bi rêvebirê lêçûna lihevhatinê ve girêdide; peyama encamê bi baldarî bixwîne û berî piştrastkirinê jêbirin texmîn neke."
+          "purpose": "Kiryara lêçûna lihevhatinê ya hilbijartî ji bo jêbirin an vekolînê vedike.",
+          "when": "Dema ku tu hewceyî kontrolkirin an şopandina kiryara girêdayî lêçûna lihevhatinê ya hilbijartî yî.",
+          "how": "Tenê ji bo lêçûna lihevhatinê ya xwestî Delete hilbijêre û peyama piştrastkirina sepanê bişopîne.",
+          "inputs": "Lêçûna lihevhatinê ya xwestî hilbijêre û berî domandinê kiryar an peyama piştrastkirinê bi baldarî bixwîne.",
+          "result": "Lêçûn tenê heke sepan kiryarê qebûl û piştrast bike tê rakirin an neçalak kirin.",
+          "notes": "Lîsteya kontrolê vê kontrolê bi pêvajoyê lêçûna lihevhatinê ve girêdide; peyama encamê bi baldarî bixwîne û berî piştrastkirinê jêbirinê texmîn neke."
         },
         "tr": {
-          "purpose": "Seçilen mutabakat maliyeti için silme veya inceleme işlemini açar.",
-          "when": "Seçilen mutabakat maliyetiyle ilgili işlemi incelemeniz veya takip etmeniz gerektiğinde kullanın.",
-          "how": "Yalnızca amaçlanan mutabakat maliyeti için Delete'i seçin ve uygulamanın gösterdiği onay adımını izleyin.",
-          "inputs": "Doğru mutabakat maliyetini seçin ve devam etmeden önce gösterilen işlemi veya onay mesajını dikkatle okuyun.",
-          "result": "Mutabakat maliyetiyle ilişkili işlem adımı açılır; uygulama onaylamadan silindiğini varsaymayın.",
-          "notes": "Envanter, bu kontrolü mutabakat maliyeti işleyicisiyle ilişkilendiriyor; sonuç mesajını dikkatle inceleyin ve onay gelmeden silme varsayımında bulunmayın."
+          "purpose": "Seçilen mutabakat maliyetinin silme veya inceleme işlemini açar.",
+          "when": "Seçilen mutabakat maliyetiyle ilişkili işlemi incelemeniz veya takip etmeniz gerektiğinde kullanın.",
+          "how": "Yalnızca ilgili mutabakat maliyeti için Delete'i seçin ve uygulamanın gösterdiği onay adımlarını izleyin.",
+          "inputs": "İlgili mutabakat maliyetini seçin ve işlem veya onay mesajını dikkatle okuyun.",
+          "result": "Maliyet yalnızca uygulama işlemi kabul edip onaylarsa kaldırılır veya devre dışı bırakılır.",
+          "notes": "Envanter, bu kontrolü mutabakat maliyeti işleyicisiyle ilişkilendirir; çıkan mesajı dikkatle inceleyin ve onay gelmeden silindiğini varsaymayın."
         },
         "pl": {
-          "purpose": "Otwiera działanie dotyczące wybranego kosztu uzgodnienia w celu usunięcia lub sprawdzenia.",
-          "when": "Użyj, gdy trzeba sprawdzić działanie dotyczące wybranego kosztu uzgodnienia lub przejść do powiązanej operacji.",
-          "how": "Wybierz Delete tylko dla właściwego kosztu uzgodnienia i postępuj zgodnie z komunikatem aplikacji.",
-          "inputs": "Wybierz właściwy koszt uzgodnienia i przed kontynuowaniem uważnie przeczytaj wyświetlone działanie lub komunikat.",
-          "result": "Otwiera się krok działania powiązany z kosztem uzgodnienia; nie zakładaj, że został usunięty, dopóki aplikacja tego nie potwierdzi.",
-          "notes": "Inwentarz łączy tę kontrolkę z obsługą kosztu uzgodnienia; dokładnie przeczytaj wynikowy komunikat i nie zakładaj usunięcia przed potwierdzeniem."
+          "purpose": "Otwiera działanie dotyczące wybranego kosztu rozliczenia w celu usunięcia lub przeglądu.",
+          "when": "Użyj, gdy trzeba sprawdzić lub wykonać działanie powiązane z wybranym kosztem rozliczenia.",
+          "how": "Wybierz Delete tylko przy właściwym koszcie rozliczenia i postępuj zgodnie z komunikatem aplikacji.",
+          "inputs": "Wybierz właściwy koszt rozliczenia i uważnie przeczytaj komunikat działania lub potwierdzenia.",
+          "result": "Koszt zostanie usunięty lub dezaktywowany tylko wtedy, gdy aplikacja zaakceptuje i potwierdzi operację.",
+          "notes": "Inwentarz łączy tę kontrolkę z obsługą kosztu rozliczenia; uważnie sprawdź wyświetlony komunikat i nie zakładaj usunięcia bez potwierdzenia."
         },
         "ur": {
-          "purpose": "منتخب ریکنسیلی ایشن لاگت کے لیے حذف یا جائزے کی کارروائی کھولتا ہے۔",
-          "when": "جب منتخب ریکنسیلی ایشن لاگت سے متعلق کارروائی کا جائزہ یا اس کی پیروی کرنی ہو تو استعمال کریں۔",
-          "how": "صرف مطلوبہ ریکنسیلی ایشن لاگت کے لیے Delete منتخب کریں اور ایپ کے دکھائے گئے تصدیقی مرحلے پر عمل کریں۔",
-          "inputs": "درست ریکنسیلی ایشن لاگت منتخب کریں اور آگے بڑھنے سے پہلے دکھائی گئی کارروائی یا تصدیقی پیغام غور سے پڑھیں۔",
-          "result": "ریکنسیلی ایشن لاگت سے متعلق کارروائی کا مرحلہ کھلتا ہے؛ ایپ کی تصدیق کے بغیر حذف شدہ نہ سمجھیں۔",
-          "notes": "انوینٹری اس کنٹرول کو ریکنسیلی ایشن لاگت کے ہینڈلر سے منسلک کرتی ہے؛ نتیجے کا پیغام غور سے پڑھیں اور تصدیق سے پہلے حذف فرض نہ کریں۔"
+          "purpose": "منتخب مفاہمتی لاگت کے حذف یا جائزے کا عمل کھولتا ہے۔",
+          "when": "جب منتخب مفاہمتی لاگت سے متعلق کارروائی کا جائزہ یا پیروی کرنی ہو تو استعمال کریں۔",
+          "how": "صرف مطلوبہ مفاہمتی لاگت کے لیے Delete منتخب کریں اور ایپ کے تصدیقی مراحل پر عمل کریں۔",
+          "inputs": "مطلوبہ مفاہمتی لاگت منتخب کریں اور کارروائی یا تصدیقی پیغام غور سے پڑھیں۔",
+          "result": "لاگت صرف اسی وقت ہٹائی یا غیر فعال کی جاتی ہے جب ایپ کارروائی قبول اور تصدیق کرے۔",
+          "notes": "انوینٹری اس کنٹرول کو مفاہمتی لاگت کے ہینڈلر سے منسلک کرتی ہے؛ ظاہر ہونے والا پیغام غور سے پڑھیں اور تصدیق کے بغیر حذف فرض نہ کریں۔"
         },
         "pa": {
-          "purpose": "ਚੁਣੀ ਮਿਲਾਣ ਲਾਗਤ ਲਈ ਮਿਟਾਉਣ ਜਾਂ ਜਾਂਚ ਦੀ ਕਾਰਵਾਈ ਖੋਲ੍ਹਦਾ ਹੈ।",
-          "when": "ਜਦੋਂ ਚੁਣੀ ਮਿਲਾਣ ਲਾਗਤ ਨਾਲ ਜੁੜੀ ਕਾਰਵਾਈ ਦੀ ਜਾਂਚ ਜਾਂ ਅਗਲੀ ਕਾਰਵਾਈ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਸਿਰਫ਼ ਲੋੜੀਂਦੀ ਮਿਲਾਣ ਲਾਗਤ ਲਈ Delete ਚੁਣੋ ਅਤੇ ਐਪ ਵੱਲੋਂ ਦਿਖਾਏ ਪੁਸ਼ਟੀ ਕਦਮ ਦੀ ਪਾਲਣਾ ਕਰੋ।",
-          "inputs": "ਸਹੀ ਮਿਲਾਣ ਲਾਗਤ ਚੁਣੋ ਅਤੇ ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਦਿਖਾਈ ਕਾਰਵਾਈ ਜਾਂ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਧਿਆਨ ਨਾਲ ਪੜ੍ਹੋ।",
-          "result": "ਮਿਲਾਣ ਲਾਗਤ ਨਾਲ ਜੁੜਿਆ ਕਾਰਵਾਈ ਕਦਮ ਖੁੱਲ੍ਹਦਾ ਹੈ؛ ਐਪ ਦੀ ਪੁਸ਼ਟੀ ਤੋਂ ਬਿਨਾਂ ਇਸਨੂੰ ਮਿਟਾਇਆ ਹੋਇਆ ਨਾ ਮੰਨੋ।",
-          "notes": "ਇਨਵੈਂਟਰੀ ਇਸ ਕੰਟਰੋਲ ਨੂੰ ਮਿਲਾਣ ਲਾਗਤ ਹੈਂਡਲਰ ਨਾਲ ਜੋੜਦੀ ਹੈ؛ ਨਤੀਜੇ ਦਾ ਸੁਨੇਹਾ ਧਿਆਨ ਨਾਲ ਪੜ੍ਹੋ ਅਤੇ ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਮਿਟਾਉਣਾ ਨਾ ਮੰਨੋ।"
+          "purpose": "ਚੁਣੀ ਮਿਲਾਨ ਲਾਗਤ ਨੂੰ ਮਿਟਾਉਣ ਜਾਂ ਜਾਂਚਣ ਦੀ ਕਾਰਵਾਈ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਚੁਣੀ ਮਿਲਾਨ ਲਾਗਤ ਨਾਲ ਜੁੜੀ ਕਾਰਵਾਈ ਦੀ ਸਮੀਖਿਆ ਜਾਂ ਪਾਲਣਾ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸਿਰਫ਼ ਸਹੀ ਮਿਲਾਨ ਲਾਗਤ ਲਈ Delete ਚੁਣੋ ਅਤੇ ਐਪ ਵੱਲੋਂ ਦਿਖਾਈ ਪੁਸ਼ਟੀ ਦੀ ਪਾਲਣਾ ਕਰੋ।",
+          "inputs": "ਮਿਲਾਨ ਲਾਗਤ ਸਹੀ ਚੁਣੋ ਅਤੇ ਕਾਰਵਾਈ ਜਾਂ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਧਿਆਨ ਨਾਲ ਪੜ੍ਹੋ।",
+          "result": "ਲਾਗਤ ਸਿਰਫ਼ ਉਦੋਂ ਹਟਾਈ ਜਾਂ ਅਕਿਰਿਆਸ਼ੀਲ ਹੁੰਦੀ ਹੈ ਜਦੋਂ ਐਪ ਕਾਰਵਾਈ ਸਵੀਕਾਰ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੇ।",
+          "notes": "ਇਨਵੈਂਟਰੀ ਇਸ ਕੰਟਰੋਲ ਨੂੰ ਮਿਲਾਨ-ਲਾਗਤ ਹੈਂਡਲਰ ਨਾਲ ਜੋੜਦੀ ਹੈ؛ ਨਤੀਜੇ ਵਾਲਾ ਸੁਨੇਹਾ ਧਿਆਨ ਨਾਲ ਪੜ੍ਹੋ ਅਤੇ ਪੁਸ਼ਟੀ ਤੋਂ ਬਿਨਾਂ ਮਿਟਾਉਣਾ ਨਾ ਮੰਨੋ।"
         },
         "prs": {
-          "purpose": "اقدام مربوط به هزینه تطبیق انتخاب‌شده را برای حذف یا بررسی باز می‌کند.",
-          "when": "وقتی لازم است اقدام مربوط به هزینه تطبیق انتخاب‌شده را بررسی یا پیگیری کنید، استفاده کنید.",
-          "how": "فقط برای هزینه تطبیق موردنظر Delete را انتخاب کنید و پیام تأیید برنامه را دنبال کنید.",
-          "inputs": "هزینه تطبیق درست را انتخاب کنید و پیش از ادامه اقدام یا پیام تأیید نمایش‌داده‌شده را با دقت بخوانید.",
-          "result": "مرحله اقدام مرتبط با هزینه تطبیق باز می‌شود؛ تا زمانی که برنامه تأیید نکرده، حذف را قطعی ندانید.",
-          "notes": "فهرست ممیزی این کنترل را به handler هزینه تطبیق مرتبط می‌داند؛ پیام نتیجه را با دقت بخوانید و پیش از تأیید فرض نکنید حذف انجام شده است."
+          "purpose": "عملیات مربوط به حذف یا بررسی هزینه تطبیق انتخاب‌شده را باز می‌کند.",
+          "when": "وقتی لازم است اقدام مرتبط با هزینه تطبیق انتخاب‌شده را بررسی یا پیگیری کنید، استفاده کنید.",
+          "how": "فقط برای هزینه تطبیق درست Delete را انتخاب کنید و پیام تأیید برنامه را دنبال کنید.",
+          "inputs": "هزینه تطبیق موردنظر را انتخاب کنید و پیام اقدام یا تأیید را با دقت بخوانید.",
+          "result": "هزینه فقط در صورت پذیرش و تأیید برنامه حذف یا غیرفعال می‌شود.",
+          "notes": "فهرست ممیزی این کنترل را به handler هزینه تطبیق مرتبط می‌کند؛ پیام نمایش‌داده‌شده را با دقت بخوانید و بدون تأیید، حذف را قطعی ندانید."
         },
         "ps": {
           "purpose": "د ټاکل شوي پخلاینې لګښت د ړنګولو یا کتنې کړنه پرانیزي.",
           "when": "کله چې د ټاکل شوي پخلاینې لګښت اړوند کړنه کتلو یا تعقیبولو ته اړتیا لرئ، دا وکاروئ.",
-          "how": "یوازې د موخې پخلاینې لګښت لپاره Delete وټاکئ او د اپلیکیشن د تایید پیغام تعقیب کړئ.",
-          "inputs": "د پخلاینې سم لګښت وټاکئ او له دوام مخکې ښکاره شوې کړنه یا د تایید پیغام په دقت ولولئ.",
-          "result": "د پخلاینې لګښت اړوند د کړنې پړاو پرانیستل کېږي؛ تر څو اپلیکیشن تایید نه وي کړی، د ړنګېدو ګومان مه کوئ.",
-          "notes": "د پلټنې لېست دا کنټرول د پخلاینې لګښت له handler سره تړي؛ پایلې پیغام په دقت ولولئ او له تایید مخکې د ړنګېدو ګومان مه کوئ."
+          "how": "یوازې د اړوند پخلاینې لګښت لپاره Delete وټاکئ او د اپلیکیشن د تایید لارښوونې تعقیب کړئ.",
+          "inputs": "د پخلاینې مطلوب لګښت وټاکئ او د کړنې یا تایید پیغام په دقت ولولئ.",
+          "result": "لګښت یوازې هغه وخت لرې یا غیرفعال کېږي چې اپلیکیشن کړنه ومني او تایید یې کړي.",
+          "notes": "د کنټرولونو فهرست دا تڼۍ د پخلاینې لګښت له handler سره تړي؛ د پایلې پیغام په دقت ولولئ او له تایید پرته د ړنګېدو ګومان مه کوئ."
         }
       },
       "handler_or_behavior": "`prOpenReconciliationCost(`"
@@ -16351,75 +16351,75 @@
         },
         "ar": {
           "purpose": "ينشئ ملف PDF للتقرير الكامل للمشروع.",
-          "when": "عندما تحتاج إلى نسخة PDF من التقرير الكامل للمشروع.",
+          "when": "عندما تحتاج إلى نسخة PDF من تقرير المشروع الكامل.",
           "how": "اختر Generate Full Project Report PDF وانتظر تجهيز مخرجات التقرير.",
-          "inputs": "حدد المشروع الصحيح وفترة التقرير والأقسام المطلوب تضمينها.",
-          "result": "يُجهز ملف PDF للتقرير الكامل للمشروع.",
-          "notes": "تحقق من المشروع والأقسام المشمولة وفترة التقرير والإجماليات. ملف PDF تصدير وليس إرسالاً إلى جهة خارجية."
+          "inputs": "حدد المشروع وفترة التقرير والأقسام التي يجب تضمينها في التقرير الكامل.",
+          "result": "يُجهز ملف PDF للتقرير الكامل.",
+          "notes": "تحقق من المشروع والأقسام والفترة والإجماليات. ملف PDF تصدير وليس إرسالاً إلى جهة خارجية."
         },
         "ckb": {
-          "purpose": "PDFی ڕاپۆرتی تەواوی پرۆژە دروست دەکات.",
+          "purpose": "فایلی PDFی ڕاپۆرتی تەواوی پرۆژە دروست دەکات.",
           "when": "کاتێک پێویستت بە کۆپیی PDFی ڕاپۆرتی تەواوی پرۆژە هەیە.",
           "how": "Generate Full Project Report PDF هەڵبژێرە و چاوەڕێ بکە تا دەرئەنجامی ڕاپۆرت ئامادە دەبێت.",
-          "inputs": "پرۆژەی دروست، ماوەی ڕاپۆرت و ئەو بەشانە هەڵبژێرە کە دەبێت تێیدا بن.",
-          "result": "فایلی PDFی ڕاپۆرتی تەواوی پرۆژە ئامادە دەکرێت.",
-          "notes": "پرۆژە، بەشەکانی ناو ڕاپۆرت، ماوە و کۆیەکان بپشکنە. PDF هەناردەکردنە، نەک ناردن بۆ لایەنی دەرەکی."
+          "inputs": "پرۆژە، ماوەی ڕاپۆرت و ئەو بەشانە هەڵبژێرە کە دەبێت لە ڕاپۆرتی تەواودا بن.",
+          "result": "فایلی PDFی ڕاپۆرتی تەواو ئامادە دەکرێت.",
+          "notes": "پرۆژە، بەشەکان، ماوە و کۆیەکان بپشکنە. PDF هەناردەیە، نەک ناردن بۆ لایەنی دەرەکی."
         },
         "kmr": {
-          "purpose": "Ji bo rapora tevahî ya projeyê PDF çêdike.",
+          "purpose": "Pelê PDF ya rapora tevahî ya projeyê çêdike.",
           "when": "Dema ku tu hewceyî kopiyeke PDF ya rapora tevahî ya projeyê yî.",
           "how": "Generate Full Project Report PDF hilbijêre û li bendê be heta derketina raporê amade bibe.",
-          "inputs": "Projeya rast, heyama raporê û beşên ku divê tê de bin hilbijêre.",
-          "result": "Pela PDF ya rapora tevahî ya projeyê tê amadekirin.",
-          "notes": "Projeyê, beşên tê de, heyama raporê û tevahiyan kontrol bike. PDF derxistin e, ne şandina daneyan ji aliyekî derve re."
+          "inputs": "Projeyê, heyama raporê û beşên ku divê di rapora tevahî de hebin hilbijêre.",
+          "result": "Pelê PDF ya rapora tevahî tê amadekirin.",
+          "notes": "Projeyê, beşên tê de, heyam û tevahiyan kontrol bike. PDF derxistin e, ne şandina daneyan ji aliyekî derve re."
         },
         "tr": {
           "purpose": "Tam proje raporunun PDF dosyasını oluşturur.",
           "when": "Tam proje raporunun PDF kopyasına ihtiyaç duyduğunuzda kullanın.",
-          "how": "Generate Full Project Report PDF'yi seçin ve rapor çıktısı hazırlanana kadar bekleyin.",
-          "inputs": "Doğru projeyi, raporlama dönemini ve dahil edilecek bölümleri seçin.",
+          "how": "Generate Full Project Report PDF'yi seçin ve rapor çıktısının hazırlanmasını bekleyin.",
+          "inputs": "Doğru projeyi, raporlama dönemini ve tam rapora dahil edilecek bölümleri seçin.",
           "result": "Tam proje raporu için PDF dosyası hazırlanır.",
-          "notes": "Projeyi, dahil edilen bölümleri, raporlama dönemini ve toplamları kontrol edin. PDF bir dışa aktarımdır; harici gönderim değildir."
+          "notes": "Projeyi, dahil edilen bölümleri, dönemi ve toplamları kontrol edin. PDF dışa aktarımdır; harici bir gönderim değildir."
         },
         "pl": {
           "purpose": "Generuje plik PDF pełnego raportu projektu.",
-          "when": "Użyj, gdy potrzebujesz pliku PDF pełnego raportu projektu.",
+          "when": "Użyj, gdy potrzebujesz kopii PDF pełnego raportu projektu.",
           "how": "Wybierz Generate Full Project Report PDF i poczekaj na przygotowanie raportu.",
-          "inputs": "Wybierz właściwy projekt, okres raportowania i sekcje, które mają zostać uwzględnione.",
-          "result": "Przygotowywany jest plik PDF pełnego raportu projektu.",
-          "notes": "Sprawdź projekt, uwzględnione sekcje, okres raportowania i sumy. PDF jest eksportem, a nie wysłaniem do zewnętrznego odbiorcy."
+          "inputs": "Wybierz właściwy projekt, okres raportowania i sekcje, które mają znaleźć się w pełnym raporcie.",
+          "result": "Przygotowywany jest plik PDF pełnego raportu.",
+          "notes": "Sprawdź projekt, uwzględnione sekcje, okres i sumy. PDF jest eksportem, a nie wysłaniem raportu na zewnątrz."
         },
         "ur": {
           "purpose": "مکمل پروجیکٹ رپورٹ کی PDF بناتا ہے۔",
           "when": "جب مکمل پروجیکٹ رپورٹ کی PDF نقل درکار ہو تو استعمال کریں۔",
-          "how": "Generate Full Project Report PDF منتخب کریں اور رپورٹ تیار ہونے کا انتظار کریں۔",
-          "inputs": "درست پروجیکٹ، رپورٹنگ مدت اور شامل کیے جانے والے حصے منتخب کریں۔",
-          "result": "مکمل پروجیکٹ رپورٹ کی PDF فائل تیار ہو جاتی ہے۔",
-          "notes": "پروجیکٹ، شامل حصے، رپورٹنگ مدت اور مجموعی رقوم چیک کریں۔ PDF ایک برآمد شدہ فائل ہے، بیرونی جمع کرانا نہیں۔"
+          "how": "Generate Full Project Report PDF منتخب کریں اور رپورٹ تیار ہونے تک انتظار کریں۔",
+          "inputs": "درست پروجیکٹ، رپورٹنگ مدت اور مکمل رپورٹ میں شامل کیے جانے والے حصے منتخب کریں۔",
+          "result": "مکمل رپورٹ کی PDF فائل تیار ہو جاتی ہے۔",
+          "notes": "پروجیکٹ، شامل حصے، مدت اور مجموعی رقوم چیک کریں۔ PDF ایک برآمد شدہ فائل ہے، بیرونی ارسال نہیں۔"
         },
         "pa": {
           "purpose": "ਪੂਰੀ ਪ੍ਰੋਜੈਕਟ ਰਿਪੋਰਟ ਦੀ PDF ਬਣਾਉਂਦਾ ਹੈ।",
           "when": "ਜਦੋਂ ਪੂਰੀ ਪ੍ਰੋਜੈਕਟ ਰਿਪੋਰਟ ਦੀ PDF ਕਾਪੀ ਚਾਹੀਦੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
-          "how": "Generate Full Project Report PDF ਚੁਣੋ ਅਤੇ ਰਿਪੋਰਟ ਆਉਟਪੁੱਟ ਤਿਆਰ ਹੋਣ ਦੀ ਉਡੀਕ ਕਰੋ।",
-          "inputs": "ਸਹੀ ਪ੍ਰੋਜੈਕਟ, ਰਿਪੋਰਟਿੰਗ ਮਿਆਦ ਅਤੇ ਸ਼ਾਮਲ ਕੀਤੇ ਜਾਣ ਵਾਲੇ ਭਾਗ ਚੁਣੋ।",
-          "result": "ਪੂਰੀ ਪ੍ਰੋਜੈਕਟ ਰਿਪੋਰਟ ਦੀ PDF ਫਾਈਲ ਤਿਆਰ ਹੁੰਦੀ ਹੈ।",
-          "notes": "ਪ੍ਰੋਜੈਕਟ, ਸ਼ਾਮਲ ਭਾਗ, ਰਿਪੋਰਟਿੰਗ ਮਿਆਦ ਅਤੇ ਕੁੱਲ ਰਕਮਾਂ ਜਾਂਚੋ। PDF ਨਿਰਯਾਤ ਹੈ، ਬਾਹਰੀ ਜਮ੍ਹਾਂ ਕਰਵਾਉਣਾ ਨਹੀਂ।"
+          "how": "Generate Full Project Report PDF ਚੁਣੋ ਅਤੇ ਰਿਪੋਰਟ ਤਿਆਰ ਹੋਣ ਤੱਕ ਉਡੀਕ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਪ੍ਰੋਜੈਕਟ, ਰਿਪੋਰਟਿੰਗ ਮਿਆਦ ਅਤੇ ਪੂਰੀ ਰਿਪੋਰਟ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰਨ ਵਾਲੇ ਭਾਗ ਚੁਣੋ।",
+          "result": "ਪੂਰੀ ਰਿਪੋਰਟ ਦੀ PDF ਫਾਈਲ ਤਿਆਰ ਹੁੰਦੀ ਹੈ।",
+          "notes": "ਪ੍ਰੋਜੈਕਟ, ਸ਼ਾਮਲ ਭਾਗ, ਮਿਆਦ ਅਤੇ ਕੁੱਲ ਰਕਮਾਂ ਜਾਂਚੋ۔ PDF ਨਿਰਯਾਤ ਹੈ، ਬਾਹਰੀ ਭੇਜਣਾ ਨਹੀਂ۔"
         },
         "prs": {
-          "purpose": "برای گزارش کامل پروژه فایل PDF ایجاد می‌کند.",
+          "purpose": "فایل PDF گزارش کامل پروژه را ایجاد می‌کند.",
           "when": "وقتی به نسخه PDF گزارش کامل پروژه نیاز دارید، استفاده کنید.",
           "how": "Generate Full Project Report PDF را انتخاب کنید و منتظر آماده‌شدن خروجی گزارش بمانید.",
-          "inputs": "پروژه درست، دوره گزارش و بخش‌هایی را که باید شامل شوند انتخاب کنید.",
-          "result": "فایل PDF گزارش کامل پروژه آماده می‌شود.",
-          "notes": "پروژه، بخش‌های گنجانده‌شده، دوره گزارش و جمع مبالغ را بررسی کنید. PDF خروجی گرفتن است، نه ارسال به مرجع خارجی."
+          "inputs": "پروژه درست، دوره گزارش و بخش‌هایی را که باید در گزارش کامل گنجانده شوند انتخاب کنید.",
+          "result": "فایل PDF گزارش کامل آماده می‌شود.",
+          "notes": "پروژه، بخش‌های گنجانده‌شده، دوره و جمع مبالغ را بررسی کنید. PDF خروجی است، نه ارسال به مرجع خارجی."
         },
         "ps": {
-          "purpose": "د بشپړ پروژې راپور لپاره PDF جوړوي.",
-          "when": "کله چې د بشپړ پروژې راپور PDF کاپي ته اړتیا لرئ، دا وکاروئ.",
+          "purpose": "د پروژې د بشپړ راپور لپاره PDF جوړوي.",
+          "when": "کله چې د پروژې د بشپړ راپور PDF کاپي ته اړتیا لرئ، دا وکاروئ.",
           "how": "Generate Full Project Report PDF وټاکئ او د راپور د پایلې تر چمتو کېدو انتظار وکړئ.",
-          "inputs": "سمه پروژه، د راپور موده او هغه برخې وټاکئ چې باید پکې شاملې وي.",
-          "result": "د بشپړ پروژې راپور PDF فایل چمتو کېږي.",
-          "notes": "پروژه، شاملې برخې، د راپور موده او ټولیزې شمېرې وګورئ. PDF صادرول دي، بهرني لوري ته سپارل نه دي."
+          "inputs": "سمه پروژه، د راپور موده او هغه برخې وټاکئ چې په بشپړ راپور کې باید شاملې وي.",
+          "result": "د بشپړ راپور PDF فایل چمتو کېږي.",
+          "notes": "پروژه، شاملې برخې، موده او ټولیزې شمېرې وګورئ. PDF صادرول دي، بهر ته لېږل نه دي."
         }
       },
       "handler_or_behavior": "`prPrintFullProjectReport(`"
@@ -16450,63 +16450,63 @@
         "ar": {
           "purpose": "يفتح عقداً أو عرض سعر محفوظاً.",
           "when": "عندما تريد تحميل عقد أو عرض سعر محفوظ إلى مساحة عمل العقود.",
-          "how": "اختر Open بجانب العقد المطلوب لتحميله إلى مساحة عمل العقود.",
+          "how": "اختر Open بجانب العقد المحفوظ المطلوب لتحميله إلى مساحة عمل العقود.",
           "inputs": "حدد العقد أو عرض السعر الصحيح وتحقق من العميل وهوية المستند.",
           "result": "يُفتح المستند المحدد في مساحة عمل العقود.",
           "notes": "تحقق من العميل وهوية المستند قبل التعديل أو الطباعة."
         },
         "ckb": {
-          "purpose": "گرێبەست یان نرخدانێکی پاشەکەوتکراو دەکاتەوە.",
-          "when": "کاتێک دەتەوێت گرێبەست یان نرخدانێکی پاشەکەوتکراو بۆ فضای کاری گرێبەستەکان بار بکەیت.",
-          "how": "لە تەنیشت گرێبەستی مەبەست Open هەڵبژێرە بۆ بارکردنی بۆ فضای کاری گرێبەستەکان.",
-          "inputs": "گرێبەست یان نرخدانی دروست هەڵبژێرە و کڕیار و ناسنامەی بەڵگەنامەکە بپشکنە.",
+          "purpose": "گرێبەست یان نرخنامەیەکی پاشەکەوتکراو دەکاتەوە.",
+          "when": "کاتێک دەتەوێت گرێبەست یان نرخنامەیەکی پاشەکەوتکراو لە فضای کاری گرێبەستەکان باربکەیت.",
+          "how": "لە تەنیشت گرێبەستی پاشەکەوتکراوی مەبەست Open هەڵبژێرە بۆ بارکردنی لە فضای کاری گرێبەستەکان.",
+          "inputs": "گرێبەست یان نرخنامەی دروست هەڵبژێرە و کڕیار و ناسنامەی بەڵگەنامەکە بپشکنە.",
           "result": "بەڵگەنامەی هەڵبژێردراو لە فضای کاری گرێبەستەکان دەکرێتەوە.",
           "notes": "پێش دەستکاریکردن یان چاپکردن کڕیار و ناسنامەی بەڵگەنامەکە بپشکنە."
         },
         "kmr": {
-          "purpose": "Peyman an texmîna bihayê tomarkirî vedike.",
-          "when": "Dema ku tu dixwazî peyman an texmîna bihayê tomarkirî bar bikî di qada peymanan de.",
-          "how": "Li kêleka peymana xwestî Open hilbijêre da ku wê di qada peymanan de bar bike.",
-          "inputs": "Peyman an texmîna bihayê rast hilbijêre û xerîdar û nasnameya belgeyê kontrol bike.",
+          "purpose": "Peyman an pêşniyara bihayê ya tomarkirî vedike.",
+          "when": "Dema ku tu dixwazî peyman an pêşniyara bihayê ya tomarkirî di qada peymanan de bar bikî.",
+          "how": "Li kêleka peymana tomarkirî ya xwestî Open hilbijêre da ku wê di qada peymanan de bar bike.",
+          "inputs": "Peyman an pêşniyara bihayê ya rast hilbijêre û xerîdar û nasnameya belgeyê kontrol bike.",
           "result": "Belgeya hilbijartî di qada peymanan de vedibe.",
           "notes": "Berî guherandin an çapkirinê xerîdar û nasnameya belgeyê kontrol bike."
         },
         "tr": {
           "purpose": "Kaydedilmiş bir sözleşmeyi veya teklifi açar.",
-          "when": "Kaydedilmiş bir sözleşmeyi veya fiyat teklifini sözleşme çalışma alanına yüklemek istediğinizde kullanın.",
-          "how": "İlgili sözleşmenin yanındaki Open'u seçerek sözleşme çalışma alanına yükleyin.",
-          "inputs": "Doğru sözleşmeyi veya fiyat teklifini seçin ve müşteriyi ve belge kimliğini kontrol edin.",
-          "result": "Seçilen belge sözleşme çalışma alanında açılır.",
-          "notes": "Düzenlemeden veya yazdırmadan önce müşteriyi ve belge kimliğini doğrulayın."
+          "when": "Kaydedilmiş bir sözleşmeyi veya fiyat teklifini sözleşmeler çalışma alanına yüklemek istediğinizde kullanın.",
+          "how": "İlgili kaydedilmiş sözleşmenin yanındaki Open'u seçerek sözleşme çalışma alanına yükleyin.",
+          "inputs": "Doğru sözleşmeyi veya teklifi seçin ve müşteriyi ve belge kimliğini doğrulayın.",
+          "result": "Seçilen belge sözleşmeler çalışma alanında açılır.",
+          "notes": "Düzenlemeden veya yazdırmadan önce müşteriyi ve belge kimliğini kontrol edin."
         },
         "pl": {
           "purpose": "Otwiera zapisaną umowę lub wycenę.",
           "when": "Użyj, gdy chcesz załadować zapisaną umowę lub wycenę do obszaru roboczego umów.",
-          "how": "Wybierz Open przy właściwej umowie, aby załadować ją do obszaru roboczego umów.",
+          "how": "Wybierz Open przy właściwej zapisanej umowie, aby załadować ją do obszaru roboczego umów.",
           "inputs": "Wybierz właściwą umowę lub wycenę i sprawdź klienta oraz tożsamość dokumentu.",
           "result": "Wybrany dokument otworzy się w obszarze roboczym umów.",
           "notes": "Przed edycją lub drukowaniem sprawdź klienta i tożsamość dokumentu."
         },
         "ur": {
-          "purpose": "محفوظ شدہ معاہدہ یا قیمت کا تخمینہ کھولتا ہے۔",
-          "when": "جب محفوظ شدہ معاہدہ یا قیمت کا تخمینہ معاہدوں کے ورک اسپیس میں لوڈ کرنا ہو تو استعمال کریں۔",
-          "how": "متعلقہ معاہدے کے ساتھ Open منتخب کریں تاکہ اسے معاہدوں کے ورک اسپیس میں لوڈ کیا جا سکے۔",
-          "inputs": "درست معاہدہ یا قیمت کا تخمینہ منتخب کریں اور گاہک اور دستاویز کی شناخت چیک کریں۔",
+          "purpose": "محفوظ شدہ معاہدہ یا قیمت کی پیشکش کھولتا ہے۔",
+          "when": "جب محفوظ شدہ معاہدہ یا کوٹیشن کو معاہدوں کے ورک اسپیس میں لوڈ کرنا ہو تو استعمال کریں۔",
+          "how": "متعلقہ محفوظ شدہ معاہدے کے ساتھ Open منتخب کریں تاکہ وہ معاہدوں کے ورک اسپیس میں لوڈ ہو جائے۔",
+          "inputs": "درست معاہدہ یا کوٹیشن منتخب کریں اور گاہک اور دستاویز کی شناخت چیک کریں۔",
           "result": "منتخب دستاویز معاہدوں کے ورک اسپیس میں کھل جاتی ہے۔",
           "notes": "ترمیم یا پرنٹ سے پہلے گاہک اور دستاویز کی شناخت چیک کریں۔"
         },
         "pa": {
-          "purpose": "ਸੇਵ ਕੀਤਾ ਕਰਾਰ ਜਾਂ ਕੀਮਤ ਦਾ ਅਨੁਮਾਨ ਖੋਲ੍ਹਦਾ ਹੈ।",
-          "when": "ਜਦੋਂ ਸੇਵ ਕੀਤਾ ਕਰਾਰ ਜਾਂ ਕੀਮਤ ਦਾ ਅਨੁਮਾਨ ਕਰਾਰ ਵਰਕਸਪੇਸ ਵਿੱਚ ਲੋਡ ਕਰਨਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਸੰਬੰਧਿਤ ਕਰਾਰ ਦੇ ਨਾਲ Open ਚੁਣੋ ਤਾਂ ਜੋ ਇਸਨੂੰ ਕਰਾਰ ਵਰਕਸਪੇਸ ਵਿੱਚ ਲੋਡ ਕੀਤਾ ਜਾ ਸਕੇ।",
-          "inputs": "ਸਹੀ ਕਰਾਰ ਜਾਂ ਕੀਮਤ ਦਾ ਅਨੁਮਾਨ ਚੁਣੋ ਅਤੇ ਗਾਹਕ ਅਤੇ ਦਸਤਾਵੇਜ਼ ਦੀ ਪਛਾਣ ਜਾਂਚੋ।",
-          "result": "ਚੁਣਿਆ ਦਸਤਾਵੇਜ਼ ਕਰਾਰ ਵਰਕਸਪੇਸ ਵਿੱਚ ਖੁੱਲ੍ਹਦਾ ਹੈ।",
+          "purpose": "ਸੇਵ ਕੀਤਾ ਇਕਰਾਰਨਾਮਾ ਜਾਂ ਕੋਟੇਸ਼ਨ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਸੇਵ ਕੀਤਾ ਇਕਰਾਰਨਾਮਾ ਜਾਂ ਕੋਟੇਸ਼ਨ ਇਕਰਾਰਨਾਮਾ ਵਰਕਸਪੇਸ ਵਿੱਚ ਲੋਡ ਕਰਨਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸੰਬੰਧਿਤ ਸੇਵ ਕੀਤੇ ਇਕਰਾਰਨਾਮੇ ਦੇ ਨਾਲ Open ਚੁਣੋ ਤਾਂ ਜੋ ਇਹ ਇਕਰਾਰਨਾਮਾ ਵਰਕਸਪੇਸ ਵਿੱਚ ਲੋਡ ਹੋ ਜਾਵੇ।",
+          "inputs": "ਸਹੀ ਇਕਰਾਰਨਾਮਾ ਜਾਂ ਕੋਟੇਸ਼ਨ ਚੁਣੋ ਅਤੇ ਗਾਹਕ ਅਤੇ ਦਸਤਾਵੇਜ਼ ਦੀ ਪਛਾਣ ਜਾਂਚੋ।",
+          "result": "ਚੁਣਿਆ ਦਸਤਾਵੇਜ਼ ਇਕਰਾਰਨਾਮਾ ਵਰਕਸਪੇਸ ਵਿੱਚ ਖੁੱਲ੍ਹਦਾ ਹੈ۔",
           "notes": "ਸੋਧ ਜਾਂ ਪ੍ਰਿੰਟ ਤੋਂ ਪਹਿਲਾਂ ਗਾਹਕ ਅਤੇ ਦਸਤਾਵੇਜ਼ ਦੀ ਪਛਾਣ ਜਾਂਚੋ۔"
         },
         "prs": {
           "purpose": "قرارداد یا پیش‌فاکتور ذخیره‌شده را باز می‌کند.",
           "when": "وقتی می‌خواهید قرارداد یا پیش‌فاکتور ذخیره‌شده را در فضای کاری قراردادها بارگذاری کنید، استفاده کنید.",
-          "how": "در کنار قرارداد موردنظر Open را انتخاب کنید تا در فضای کاری قراردادها بارگذاری شود.",
+          "how": "در کنار قرارداد ذخیره‌شده موردنظر Open را انتخاب کنید تا در فضای کاری قراردادها بارگذاری شود.",
           "inputs": "قرارداد یا پیش‌فاکتور درست را انتخاب کنید و مشتری و هویت سند را بررسی کنید.",
           "result": "سند انتخاب‌شده در فضای کاری قراردادها باز می‌شود.",
           "notes": "پیش از ویرایش یا چاپ، مشتری و هویت سند را بررسی کنید."
@@ -16514,10 +16514,10 @@
         "ps": {
           "purpose": "خوندي شوی قرارداد یا د بیې وړاندیز پرانیزي.",
           "when": "کله چې خوندي شوی قرارداد یا د بیې وړاندیز د قراردادونو کاري ځای ته پورته کول غواړئ، دا وکاروئ.",
-          "how": "د اړوند قرارداد تر څنګ Open وټاکئ څو د قراردادونو کاري ځای ته پورته شي.",
-          "inputs": "سم قرارداد یا د بیې وړاندیز وټاکئ او پېرودونکی او د سند هویت وګورئ.",
+          "how": "د اړوند خوندي شوي قرارداد تر څنګ Open وټاکئ څو د قراردادونو کاري ځای ته پورته شي.",
+          "inputs": "سم قرارداد یا د بیې وړاندیز وټاکئ او پېرودونکی او د سند پېژندنه وګورئ.",
           "result": "ټاکل شوی سند د قراردادونو په کاري ځای کې پرانیستل کېږي.",
-          "notes": "له سمون یا چاپ مخکې پېرودونکی او د سند هویت وګورئ."
+          "notes": "له سمون یا چاپ مخکې پېرودونکی او د سند پېژندنه وګورئ."
         }
       },
       "handler_or_behavior": "`ctLoad(`"
