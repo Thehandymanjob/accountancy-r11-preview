@@ -2618,19 +2618,19 @@
         "docs/REPAIR_INDEX_FA.md",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "pending-final-tree",
+      "previewDevelopmentCommitSha": "2965ff30ec9ec72d4b72b39dfdc272c9107658cd",
       "previewPullRequestNumber": 96,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "PENDING",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Run the R11 Version Authority Gate on the final R60 head after all documentation and registry updates."
+        "result": "PASS",
+        "runId": 46071006730,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071006730",
+        "details": "R60 Version Authority Gate passed on the final R60 head. Approved R11 ancestry, Build ID, canonical URL, index SHA and all 24 pinned runtime assets matched."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
-        "details": "Nineteen selectors are scoped to the real launcher, Accountancy home and panels, Factory Reset page and Business Workspace sidebar. The Factory Reset selector uses #factoryResetPage. Mapping baselines and all 24 pins require final Gate verification. Browser tests remain pending."
+        "details": "Nineteen selectors are scoped to the real launcher, Accountancy home and panels, Factory Reset page and Business Workspace sidebar. The Factory Reset selector uses #factoryResetPage. Manual tree verification confirms all 24 asset pins match. Live browser tests remain pending."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
