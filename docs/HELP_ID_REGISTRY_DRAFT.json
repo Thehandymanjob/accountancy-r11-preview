@@ -6601,9 +6601,9 @@
       "translations": {
         "en": {
           "purpose": "Clears the current contractor form.",
-          "when": "when discarding unsaved contractor details or starting a new contractor entry.",
+          "when": "When discarding unsaved contractor details or starting a new contractor entry.",
           "how": "Select Clear and confirm the contractor fields have been emptied.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No input is required. The control clears the unsaved contractor name, phone, email and trade/notes fields.",
           "result": "The current contractor form is reset.",
           "notes": "Only the form is cleared; saved contractor records remain in the directory."
         },
@@ -6627,9 +6627,9 @@
       "translations": {
         "en": {
           "purpose": "Saves a worker record in the shared worker directory.",
-          "when": "after entering or editing a worker’s name and optional contact information.",
+          "when": "After entering or editing a worker’s name and optional contact information.",
           "how": "Enter the required worker name, add optional phone and notes, then select Save Worker.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "A worker name is required. Phone number and notes are optional; the existing worker ID is used when editing.",
           "result": "The worker record is saved if the operation succeeds.",
           "notes": "Use a consistent worker record for project wage entries. Check for duplicates before saving."
         },
@@ -6653,9 +6653,9 @@
       "translations": {
         "en": {
           "purpose": "Clears the current worker form fields.",
-          "when": "when discarding unsaved worker details or entering a different worker.",
+          "when": "When discarding unsaved worker details or entering a different worker.",
           "how": "Select Clear and verify the worker fields are empty.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No input is required. The control clears the unsaved worker name, phone and notes fields.",
           "result": "The current worker form is reset.",
           "notes": "This does not delete a saved worker or remove wage history."
         },
@@ -6679,9 +6679,9 @@
       "translations": {
         "en": {
           "purpose": "Opens the shared list of business partners.",
-          "when": "when reviewing or maintaining partner records used in project profit sharing.",
+          "when": "When reviewing or maintaining partner records used in project profit sharing.",
           "how": "Open Control Panel and choose Partners.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No input is required to open the Partners directory. Adding or editing a partner requires a name; contact details and notes are optional.",
           "result": "The partners directory and its available actions are displayed.",
           "notes": "Partner records may affect project share calculations; update them carefully and retain agreed share terms separately."
         },
@@ -6705,9 +6705,9 @@
       "translations": {
         "en": {
           "purpose": "Opens the shared list of workers available for project wage records.",
-          "when": "when maintaining worker details or selecting a worker for a project.",
+          "when": "When maintaining worker details or selecting a worker for a project.",
           "how": "Open Control Panel and choose Workers.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No input is required to open the Workers directory. Adding or editing a worker requires a name; phone and notes are optional.",
           "result": "The workers directory and its available actions are displayed.",
           "notes": "A worker may be referenced by multiple projects. Deactivation or editing can affect future selection; retain historical wage records."
         },
@@ -6829,9 +6829,9 @@
       "translations": {
         "en": {
           "purpose": "Opens the form to register a company and its main contract.",
-          "when": "when starting to manage a new contracting company or client organisation.",
+          "when": "When starting to manage a new contracting company or client organisation.",
           "how": "Select Add Company, enter the company and main-contract details requested, then save.",
-          "inputs": "Enter the company’s legal or trading name and the main-contract details requested by the form.",
+          "inputs": "A company name is required. Reference, contact name, phone, email, address, contract dates, terms and a contract attachment are optional where relevant.",
           "result": "A company record and its main contract are created if validation succeeds.",
           "notes": "Verify legal/business name and agreed contract details. Company records and financials remain within the Company Contracts & Jobs workspace."
         },
@@ -6927,9 +6927,9 @@
       "translations": {
         "en": {
           "purpose": "Displays registered companies and allows opening their jobs.",
-          "when": "when finding a company or accessing its contracts and jobs.",
+          "when": "When finding a company or accessing its contracts and jobs.",
           "how": "Open Companies List, search or select the required company, then open its job list.",
-          "inputs": "Enter or select the company name or an available search criterion, then choose the correct company record.",
+          "inputs": "Optional search text can match a company name, reference, contact or address. Select the correct company record to open its jobs.",
           "result": "Registered companies are listed and the selected company’s jobs can be opened.",
           "notes": "Check the company identity before adding payments, expenses or work packages."
         },
@@ -7025,9 +7025,9 @@
       "translations": {
         "en": {
           "purpose": "Opens the financial performance view for a company and its jobs.",
-          "when": "when reviewing income, deductions, expenses and results by company/job.",
+          "when": "When reviewing income, deductions, expenses and results by company/job.",
           "how": "Open the company financial report and select the relevant company or job if prompted.",
-          "inputs": "Select the relevant company and job if the app prompts you; no new financial data is required just to view the report.",
+          "inputs": "Use the Company selector to choose one company or All companies. Use the Project / job selector to choose one job or all jobs for the selected company.",
           "result": "The company/job profit-and-loss information is displayed.",
           "notes": "This is based on Company Contracts & Jobs records only and is not combined with Accountancy. Confirm payment and deduction treatment with the accountant where required."
         },
@@ -7123,9 +7123,9 @@
       "translations": {
         "en": {
           "purpose": "Validates and saves the company details entered in the company form.",
-          "when": "after entering or editing the company’s main details and contract information.",
+          "when": "After entering or editing the company’s main details and contract information.",
           "how": "Review the company name and required contract details, then select Save Company.",
-          "inputs": "Enter the company and contract details requested by the form, and complete any missing required fields.",
+          "inputs": "A company name is required. Reference, contact, phone, email, address, start/end dates, terms and a contract PDF/image attachment are optional.",
           "result": "The company record is saved if validation and storage succeed.",
           "notes": "Check the correct company and avoid duplicate registrations. Confirm the save status before leaving."
         },
@@ -7221,9 +7221,9 @@
       "translations": {
         "en": {
           "purpose": "Clears the current company form fields.",
-          "when": "when discarding unsaved company details or preparing to enter another company.",
+          "when": "When discarding unsaved company details or preparing to enter another company.",
           "how": "Select Clear Form and verify the fields have been emptied.",
-          "inputs": "No data is required; decide whether to discard the unsaved changes in the current company form.",
+          "inputs": "No input is required. The control clears the unsaved company name, reference, contact, phone, email, address, dates, terms and selected attachment.",
           "result": "The current company form is reset.",
           "notes": "This does not delete a company record already saved."
         },
@@ -7319,9 +7319,9 @@
       "translations": {
         "en": {
           "purpose": "Saves a job under the selected company.",
-          "when": "after entering the job details and agreed work information.",
+          "when": "After entering the job details and agreed work information.",
           "how": "Confirm the parent company, job name, agreed amount and other required details, then select Save Job.",
-          "inputs": "Enter the job name, agreed amount and other required details, and select the correct parent company.",
+          "inputs": "A parent company and job name are required. Job reference, customer, phone, email, site address, dates, agreed base amount, status, partner, worker, notes and an attachment are optional or selected as applicable.",
           "result": "The job is saved under the selected company if validation succeeds.",
           "notes": "Check the parent company carefully. Job receipts, expenses and payments belong to this company-job record, not general Accountancy."
         },
@@ -7417,9 +7417,9 @@
       "translations": {
         "en": {
           "purpose": "Clears the current job form.",
-          "when": "when discarding unsaved job details or starting a different job entry.",
+          "when": "When discarding unsaved job details or starting a different job entry.",
           "how": "Select Clear Job Form and check that the job fields are empty.",
-          "inputs": "No data is required; decide whether to discard the unsaved details in the current job form.",
+          "inputs": "No input is required. The control clears the unsaved job details and resets the amount and status to their default values.",
           "result": "The current job form is reset.",
           "notes": "Only unsaved form values are cleared; saved jobs and their financial history remain."
         },
@@ -7515,9 +7515,9 @@
       "translations": {
         "en": {
           "purpose": "Saves a work package or sub-project within the selected company job.",
-          "when": "when splitting a job into separate scopes such as a bathroom, kitchen or approved variation.",
+          "when": "When splitting a job into separate scopes such as a bathroom, kitchen or approved variation.",
           "how": "Enter the package name, type, agreed amount, approval/execution status and any supporting notes, then select Save Work Package.",
-          "inputs": "Enter the package name, type, agreed amount, approval or execution status, and any notes requested by the form.",
+          "inputs": "A current job and work-package name are required. Select the package type, amount, approval status and execution status; requested-by, approval date, scope notes and PDF/image evidence are optional.",
           "result": "The work package is saved under the current job if validation succeeds.",
           "notes": "Only approved variations should affect the agreed total. Keep approval evidence for changes to scope or price."
         },
@@ -7613,9 +7613,9 @@
       "translations": {
         "en": {
           "purpose": "Clears the current work package form fields.",
-          "when": "when discarding unsaved package details or entering a different scope.",
+          "when": "When discarding unsaved package details or entering a different scope.",
           "how": "Select Clear and verify the package fields are empty.",
-          "inputs": "No data is required; decide whether to discard the unsaved details in the current work package form.",
+          "inputs": "No input is required. The control clears the unsaved work-package name, amount, type, approval/execution status, requested-by, approval date, notes and selected attachment.",
           "result": "The current work package form is reset.",
           "notes": "This does not delete an already saved work package or its financial records."
         },
@@ -7711,9 +7711,9 @@
       "translations": {
         "en": {
           "purpose": "Adds an expense to the selected work package’s financial records.",
-          "when": "when recording a cost directly attributable to a particular work package.",
+          "when": "When recording a cost directly attributable to a particular work package.",
           "how": "Enter the expense date and amount, choose a category, add supplier/payee and description, attach evidence if available, then select Add Expense.",
-          "inputs": "Enter the expense date, amount, category, supplier or payee, and description; attach a receipt or supporting document if available.",
+          "inputs": "A valid expense date and amount greater than zero are required. Choose a category; supplier/payee, description and a PDF/image receipt are optional.",
           "result": "The expense is added to that package if validation and saving succeed.",
           "notes": "Use the correct package and record only the actual cost. Retain receipts; do not duplicate a cost already entered elsewhere."
         },
@@ -7809,9 +7809,9 @@
       "translations": {
         "en": {
           "purpose": "Records a payment actually received for the selected company job.",
-          "when": "when a customer/company payment has arrived and you need to record its gross amount, deductions and net receipt.",
+          "when": "When a customer/company payment has arrived and you need to record its gross amount, deductions and net receipt.",
           "how": "Enter the payment date, gross amount, deduction type and amount, tax/VAT treatment, net amount and reference; attach remittance evidence if available, then select Record Payment.",
-          "inputs": "Enter the payment date, gross amount, deduction type and amount, tax/VAT treatment, net amount and reference; attach remittance evidence if available.",
+          "inputs": "A valid payment date, gross amount greater than zero and net amount greater than zero are required. Enter a deduction amount not greater than the gross amount and select deduction type and tax/VAT treatment; reference, notes and remittance evidence are optional.",
           "result": "The payment is stored in that job’s records if the operation succeeds.",
           "notes": "Record only money actually received. Check gross, deductions and net reconcile. This payment is not posted, linked or copied to Accountancy; ask the accountant about tax/CIS/VAT treatment if uncertain."
         },
@@ -7906,12 +7906,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Records the payment details for an invoice marked for payment confirmation.",
-          "when": "when the customer has paid and you need to record the payment date and method.",
-          "how": "Check the invoice, choose the actual payment date and method, then select Confirm payment.",
-          "inputs": "Select the correct invoice, the date the funds were received, and the actual payment method.",
-          "result": "The invoice payment status is updated if the confirmation succeeds.",
-          "notes": "Confirm only after funds have actually been received. This action changes invoice payment status; check whether a corresponding accounting entry is required separately."
+          "purpose": "Confirms the payment details for an invoice and records the invoice as paid, with a linked income entry in Accountancy.",
+          "when": "Use this after the customer has actually paid and you have selected Mark paid and entered the payment details.",
+          "how": "In the payment dialog, check the invoice, enter the date the funds were received, choose Cash or Bank transfer, then select Confirm payment.",
+          "inputs": "A valid payment date and payment method (Cash or Bank transfer) are required. The invoice is identified by the payment dialog; the amount is taken from the invoice total.",
+          "result": "If the save succeeds, the invoice is marked paid and issued. A linked income entry is created in Accountancy, or an existing matching linked income entry is updated. The app verifies the IndexedDB save.",
+          "notes": "Confirm only after funds have actually been received. If a possible duplicate income entry is found, review the warning before continuing. Keep evidence of the payment."
         },
         "fa": {
           "purpose": "جزئیات پرداخت فاکتوری را که برای تأیید پرداخت انتخاب شده ثبت می‌کند.",
@@ -8005,9 +8005,9 @@
       "translations": {
         "en": {
           "purpose": "Moves the current paginated list to the previous page.",
-          "when": "when viewing later pages of a long project, company or record list.",
+          "when": "When viewing later pages of a long project, company or record list.",
           "how": "Select Previous while it is enabled.",
-          "inputs": "No information is required; use this control only to move to the previous page.",
+          "inputs": "No input is required. Select Previous only when the control is enabled and you want to view the preceding page.",
           "result": "The preceding page of list results is displayed.",
           "notes": "This is navigation only and does not change stored records."
         },
@@ -8103,9 +8103,9 @@
       "translations": {
         "en": {
           "purpose": "Jumps to the selected page in the current paginated list.",
-          "when": "when you want to move directly to a nearby page of results.",
+          "when": "When you want to move directly to a nearby page of results.",
           "how": "Select the required page number from the pagination controls.",
-          "inputs": "Select an available page number that you want to view.",
+          "inputs": "Select one of the available page numbers in the current list's pagination controls.",
           "result": "The selected page of results is displayed.",
           "notes": "Only available page numbers can be selected; this does not edit or delete records."
         },
@@ -8201,9 +8201,9 @@
       "translations": {
         "en": {
           "purpose": "Moves the current paginated list to the next page.",
-          "when": "when more results are available beyond the current page.",
+          "when": "When more results are available beyond the current page.",
           "how": "Select Next while it is enabled.",
-          "inputs": "No information is required; use this control only to move to the next page.",
+          "inputs": "No input is required. Select Next only when the control is enabled and another page of results is available.",
           "result": "The next page of list results is displayed.",
           "notes": "This is navigation only. The button is unavailable on the final page."
         },
@@ -8299,9 +8299,9 @@
       "translations": {
         "en": {
           "purpose": "Selects a category from the expense category picker.",
-          "when": "when classifying an expense so project or accounting reports group it correctly.",
+          "when": "When classifying an expense so project or accounting reports group it correctly.",
           "how": "Open the category picker and select the closest matching category.",
-          "inputs": "Select the category that most accurately describes the actual expense.",
+          "inputs": "Select the category that best describes the current expense from the available category buttons.",
           "result": "The selected category is applied to the relevant expense form.",
           "notes": "Check the category before saving; category choice affects reporting and should reflect the real nature of the cost."
         },
@@ -8397,9 +8397,9 @@
       "translations": {
         "en": {
           "purpose": "Opens the form to create a new expense category in the selected category group.",
-          "when": "when no existing category accurately describes the expense.",
+          "when": "When no existing category accurately describes the expense.",
           "how": "Select Add New One, enter a clear category name and save it if the form accepts it.",
-          "inputs": "Enter a clear name for the new category and select the correct category group.",
+          "inputs": "A non-empty category name of no more than 70 characters is required. The category group is determined by the Add New One option you selected; duplicate names in that group are rejected.",
           "result": "A new category is added to the selected group if validation and saving succeed.",
           "notes": "Avoid near-duplicate names and choose the correct group. A category label does not determine tax deductibility."
         },
@@ -8495,9 +8495,9 @@
       "translations": {
         "en": {
           "purpose": "Opens the receipt image attached to the relevant expense or record.",
-          "when": "when checking supporting evidence for a recorded expense.",
+          "when": "When checking supporting evidence for a recorded expense.",
           "how": "Select View receipt on the relevant record and inspect the enlarged image.",
-          "inputs": "Select the record with the attached receipt; no additional information is required.",
+          "inputs": "Select a record that has a receipt attachment. No additional text or file input is required.",
           "result": "The attached receipt image opens in a viewer.",
           "notes": "Check that the receipt belongs to this transaction and is readable. Viewing does not change the record."
         },
@@ -8593,9 +8593,9 @@
       "translations": {
         "en": {
           "purpose": "Opens the receipt image associated with the selected record.",
-          "when": "when a paperclip/receipt icon appears beside a transaction and you need to inspect its attachment.",
+          "when": "When a paperclip/receipt icon appears beside a transaction and you need to inspect its attachment.",
           "how": "Select the paperclip icon and review the displayed image.",
-          "inputs": "Select the correct transaction that displays the attachment icon.",
+          "inputs": "Select the transaction row that displays the receipt/paperclip icon. No additional input is required.",
           "result": "The linked receipt image is displayed if an attachment exists.",
           "notes": "The icon is a view action only. It does not upload, replace or remove the attachment."
         },
@@ -8691,9 +8691,9 @@
       "translations": {
         "en": {
           "purpose": "Closes the confirmation dialog shown after an entry is saved.",
-          "when": "after reading the saved-entry confirmation and when you are ready to return to the form.",
+          "when": "After reading the saved-entry confirmation and when you are ready to return to the form.",
           "how": "Select OK to close the message.",
-          "inputs": "No information is required; select OK only to close the saved-entry confirmation.",
+          "inputs": "No input is required. Select OK to close the saved-entry confirmation dialog.",
           "result": "The confirmation dialog closes.",
           "notes": "This does not undo the saved entry. Verify the record in the list if you need to confirm its details."
         },
@@ -8789,9 +8789,9 @@
       "translations": {
         "en": {
           "purpose": "Opens the selected invoice from the records list.",
-          "when": "when you need to inspect an invoice without navigating through the invoice workspace first.",
+          "when": "When you need to inspect an invoice without navigating through the invoice workspace first.",
           "how": "Select View beside the relevant invoice record.",
-          "inputs": "Select the correct invoice record that you want to inspect.",
+          "inputs": "Select the correct invoice row in the Records list. No additional input is required.",
           "result": "The selected invoice details are displayed.",
           "notes": "Check the invoice number and customer before printing or taking further action. Viewing does not mark it paid."
         },
@@ -8886,12 +8886,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Deletes or marks the selected invoice as deleted through the invoice deletion workflow.",
-          "when": "only when the invoice is a duplicate or was created in error and should no longer remain active.",
-          "how": "Check the invoice number, customer and payment status, select Delete and review the confirmation before proceeding.",
-          "inputs": "Select the correct invoice and check its number, customer and payment status before confirming deletion.",
-          "result": "The invoice is removed from the active view or marked deleted if the operation succeeds.",
-          "notes": "DESTRUCTIVE: deleting an invoice can affect customer history, reports and audit trails. Check whether it has been issued or paid; retain a copy and follow your record-retention obligations. Do not delete to hide a genuine transaction."
+          "purpose": "Moves the selected invoice to Deleted Records and also moves any linked income entry there.",
+          "when": "Use only when the invoice is a duplicate or was created in error and should no longer remain active.",
+          "how": "Check the invoice number and customer, select Delete, review the warning about any linked income entry, then confirm only if deletion is intended.",
+          "inputs": "Select the correct invoice. The app may identify linked income records; review the count and details in the confirmation prompt.",
+          "result": "The invoice is soft-deleted from the active list. Any linked income entry is also soft-deleted, and the invoice number remains reserved.",
+          "notes": "DESTRUCTIVE: deletion affects the invoice and any linked income record in the active views. Retain a copy and follow your record-retention obligations. Do not delete to hide a genuine transaction."
         },
         "fa": {
           "purpose": "فاکتور انتخاب‌شده را از طریق گردش‌کار حذف فاکتور حذف یا به‌عنوان حذف‌شده علامت‌گذاری می‌کند.",
@@ -8984,12 +8984,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Edit an existing accountancy record.",
-          "when": "Use this when you need to edit an existing accountancy record.",
-          "how": "Open the selected record, check its date, type, amount, category and supporting details, then save the changes using the form’s save control.",
-          "inputs": "Select the correct saved record and change the fields that need correction.",
-          "result": "The edited details are saved to the selected record only if validation succeeds and the app confirms the save.",
-          "notes": "Editing changes the existing record; verify the selected record before saving."
+          "purpose": "Loads an existing income or expense record into the entry form for editing.",
+          "when": "Use this when correcting the details of an existing accountancy entry.",
+          "how": "Select Edit beside the correct record, review its date, type, amount, category and supporting details, make the required changes, then select Save Entry.",
+          "inputs": "Select the saved record to edit and change only the fields that need correction. Invoice-linked income records must be managed from the invoice payment workflow instead.",
+          "result": "The selected record's existing values are loaded into the entry form. Changes are not saved until Save Entry succeeds.",
+          "notes": "Verify the selected record before saving. Editing changes the existing record rather than creating a new one."
         },
         "fa": {
           "purpose": "ویرایش یک رکورد موجود در حسابداری.",
@@ -9082,12 +9082,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Delete an accountancy record.",
-          "when": "Use this when you need to delete an accountancy record.",
-          "how": "Use this only when the selected record is genuinely incorrect or should be removed. Check the confirmation prompt before proceeding.",
-          "inputs": "Select the correct record and verify it before confirming deletion.",
-          "result": "The selected record or file is deleted or removed only after the app accepts the action and any required confirmation. Check the result message before assuming it is gone.",
-          "notes": "Deletion may be permanent. Export or back up important records first; do not use this to correct a record if editing is safer."
+          "purpose": "Moves the selected income or expense entry to Deleted Records.",
+          "when": "Use this only when the selected entry is incorrect or should no longer remain active.",
+          "how": "Select Delete for the intended entry and approve the confirmation after checking the record details.",
+          "inputs": "Select the correct entry. Invoice-linked income entries cannot be deleted here; manage those through the invoice payment workflow.",
+          "result": "After confirmation and a successful save, the entry is marked deleted and moved out of the active list. Its record number remains reserved.",
+          "notes": "This is a soft-delete workflow, not a permanent erase. Back up important records first and do not use deletion when editing is the safer correction."
         },
         "fa": {
           "purpose": "حذف یک رکورد حسابداری.",
@@ -9180,12 +9180,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open the invoice associated with a record.",
-          "when": "Use this when you need to open the invoice associated with a record.",
-          "how": "Select View on the relevant invoice-linked row to open its invoice details.",
-          "inputs": "Select the record that is linked to the invoice you want to open.",
-          "result": "The selected invoice or its print view opens for review; the underlying accounting entry is not changed by viewing it.",
-          "notes": "This opens the related invoice; it is not the same as editing the underlying accounting entry."
+          "purpose": "Displays the invoice linked to the selected record without opening the invoice editor.",
+          "when": "Use this when you need to inspect an invoice associated with a row in Records.",
+          "how": "Select View on the invoice-linked row. Use Back to Records to return to the records list.",
+          "inputs": "Select the record linked to the invoice you want to inspect.",
+          "result": "The selected invoice details are displayed in the invoice preview area. Viewing does not change the accounting entry or mark the invoice as paid.",
+          "notes": "Check the invoice number and customer before taking any separate action."
         },
         "fa": {
           "purpose": "باز کردن فاکتور مرتبط با یک رکورد.",
@@ -9278,12 +9278,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open the details of an accountancy entry.",
-          "when": "Use this when you need to open the details of an accountancy entry.",
-          "how": "Select View on the required entry to inspect its saved information.",
-          "inputs": "Select the correct accounting entry that you want to inspect.",
-          "result": "The screen, document or item described by this action is displayed for the selected record. No unrelated record is changed.",
-          "notes": "Review the date, type, amount and notes before making any separate edit."
+          "purpose": "Opens a read-only view of a deleted accountancy entry.",
+          "when": "Use this when reviewing an entry in Deleted Records and you need to inspect its saved details.",
+          "how": "Select View beside the deleted entry. Review the record number, type, date, amount, payment method, category, reference, notes and deletion date; close the viewer when finished.",
+          "inputs": "Select a deleted entry from the Deleted Records list. No additional input is required.",
+          "result": "A Deleted Record — View Only dialog displays the selected entry's details and any attached receipt image.",
+          "notes": "This is a read-only view. It does not restore, edit or permanently delete the entry."
         },
         "fa": {
           "purpose": "مشاهده جزئیات یک ثبت حسابداری.",
@@ -9377,11 +9377,11 @@
       "translations": {
         "en": {
           "purpose": "Share a report PDF using the device’s available sharing options.",
-          "when": "Use this when you need to share a report PDF using the device’s available sharing options.",
-          "how": "Generate or open the report PDF first, then choose Share PDF and select an available destination in the system share sheet.",
-          "inputs": "Select the report and its PDF file that you want to share, then choose a sharing destination.",
-          "result": "The device or browser presents the available sharing destinations for the selected PDF. The file is not confirmed as sent until the chosen app or service reports success.",
-          "notes": "Sharing availability depends on the browser and device. Check the PDF before sending it."
+          "when": "Use this after a report PDF has been generated and you want to share it from the device's available sharing options.",
+          "how": "Generate the report PDF first. Select Share PDF in the PDF view and choose a destination in the system share sheet if it is available.",
+          "inputs": "A generated report PDF is required. Choose a sharing destination when the device presents its share options.",
+          "result": "The device presents sharing destinations when file sharing is supported. If sharing is unavailable or fails, the app starts a PDF download instead. Sending is not confirmed until the chosen app or service reports success.",
+          "notes": "Sharing availability depends on the browser and device. Check the PDF and recipient before sending it."
         },
         "fa": {
           "purpose": "اشتراک‌گذاری فایل PDF گزارش با امکانات دستگاه.",
@@ -9474,12 +9474,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Create a PDF from the current report or document view.",
-          "when": "Use this when you need to create a PDF from the current report or document view.",
-          "how": "Select Create PDF and wait for the PDF-generation process to finish.",
-          "inputs": "Select the current report or document that you want to convert to PDF.",
-          "result": "A PDF for the selected report, receipt or contract is generated or prepared for review; the source record is not submitted externally.",
-          "notes": "Creating a PDF does not submit the report to HMRC or send it to another person."
+          "purpose": "Generates a PDF from the current financial report preview.",
+          "when": "Use this after preparing the report when you need a PDF copy for review, printing, downloading or sharing.",
+          "how": "Select Create PDF and wait while the PDF library loads and the report is converted. Check the status message for PDF ready or an error.",
+          "inputs": "The current report preview must be available. An internet connection may be needed to load the PDF-generation library.",
+          "result": "A PDF file is generated from the report preview. Download PDF and Share PDF become available when generation succeeds.",
+          "notes": "Creating a PDF does not submit the report to HMRC or send it to another person. If generation fails, check the connection and try again."
         },
         "fa": {
           "purpose": "ساخت فایل PDF از گزارش یا سند فعلی.",
@@ -9572,12 +9572,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Download the generated PDF to your device.",
-          "when": "Use this when you need to download the generated PDF to your device.",
-          "how": "Select Download PDF after the document has been generated, then check the browser’s download location.",
-          "inputs": "Select the generated PDF file that you want to download.",
-          "result": "The browser starts downloading the generated PDF to the device's configured download location.",
-          "notes": "Keep the downloaded file in a secure location; the download does not change the source record."
+          "purpose": "Downloads the PDF generated from the current financial report.",
+          "when": "Use this after Create PDF reports that the PDF is ready and you want a local copy.",
+          "how": "Select Download PDF and check the browser's download location or the Files app.",
+          "inputs": "A successfully generated report PDF must be available in the current PDF view.",
+          "result": "The browser starts downloading the report PDF using the app's generated filename.",
+          "notes": "If the PDF has not been generated, the app asks you to create it first. Store the downloaded report securely; the source records are not changed."
         },
         "fa": {
           "purpose": "بارگیری PDF ساخته‌شده روی دستگاه.",
@@ -9670,12 +9670,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Share the generated PDF through the device share sheet.",
-          "when": "Use this when you need to share the generated PDF through the device share sheet.",
-          "how": "Select Share PDF after generation and choose a supported app or destination.",
-          "inputs": "Select the PDF file that you want to share and choose a sharing destination.",
-          "result": "The device or browser presents the available sharing destinations for the selected PDF. The file is not confirmed as sent until the chosen app or service reports success.",
-          "notes": "The available destinations depend on the device/browser. Review recipient and document contents before sharing."
+          "purpose": "Shares the PDF generated from the current financial report.",
+          "when": "Use this after Create PDF reports that the PDF is ready and you want to send or save it through a device app.",
+          "how": "Select Share PDF and choose an available destination in the iPhone or device share sheet. If file sharing is unsupported, use the download fallback and share from Files.",
+          "inputs": "A successfully generated report PDF is required. Select a destination in the share sheet when it appears.",
+          "result": "The device share sheet opens when supported. Otherwise, the app starts downloading the PDF so you can share or print it from the downloaded file.",
+          "notes": "Review the report and recipient before sharing. The app cannot confirm delivery by another app or service."
         },
         "fa": {
           "purpose": "اشتراک‌گذاری PDF ساخته‌شده از طریق امکانات دستگاه.",
@@ -9769,10 +9769,10 @@
       "translations": {
         "en": {
           "purpose": "Edit a saved customer’s details.",
-          "when": "Use this when you need to edit a saved customer’s details.",
-          "how": "Choose Edit beside the correct customer, update the required customer or contact fields, and save the changes.",
-          "inputs": "Select the correct customer record and change the fields that need updating.",
-          "result": "The edited details are saved to the selected record only if validation succeeds and the app confirms the save.",
+          "when": "Use this when correcting the saved name, phone number, email or address details for an existing customer.",
+          "how": "Select Edit beside the correct customer. Update the customer fields, then select Save Customer to store the changes.",
+          "inputs": "Select the correct saved customer and change the required name or optional phone, billing address, usual work address and email fields.",
+          "result": "The customer's saved details are loaded into the customer form. The changes are not stored until Save Customer succeeds.",
           "notes": "Check that you selected the correct customer, especially where names are similar."
         },
         "fa": {
@@ -9866,12 +9866,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Start a new invoice for the selected customer.",
-          "when": "Use this when you need to start a new invoice for the selected customer.",
-          "how": "Choose New invoice beside the customer and review the customer details carried into the invoice before completing it.",
-          "inputs": "Select the correct customer and review the details that will be used on the invoice.",
-          "result": "The app performs the action described above for the selected item and displays the resulting view or status. Check the confirmation before assuming the action succeeded.",
-          "notes": "This starts an invoice workflow; check the amount, description and payment status before saving or issuing."
+          "purpose": "Starts a new invoice with the selected customer's details preselected.",
+          "when": "Use this when creating an invoice for a customer already saved in the Customers list.",
+          "how": "Select New invoice beside the correct customer. Check the customer details carried into the new invoice, then complete the invoice and save it.",
+          "inputs": "Select the correct customer record. Add the invoice date, work description, priced line items and any other required invoice details.",
+          "result": "A new invoice form opens with the selected customer linked and their details populated where available. The invoice is not saved until you use a save action.",
+          "notes": "Verify the customer, work scope, amounts and payment status before saving or issuing."
         },
         "fa": {
           "purpose": "شروع ساخت فاکتور جدید برای مشتری انتخاب‌شده.",
@@ -9964,12 +9964,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Delete a customer record.",
-          "when": "Use this when you need to delete a customer record.",
-          "how": "Choose Delete only for the intended customer and read the confirmation prompt carefully.",
-          "inputs": "Select the correct customer record and verify its identity before confirming deletion.",
-          "result": "The selected record or file is deleted or removed only after the app accepts the action and any required confirmation. Check the result message before assuming it is gone.",
-          "notes": "Deletion can affect access to the customer record. Check for linked invoices or work history and retain records required for accounting."
+          "purpose": "Deletes a customer record when it has no saved invoices linked to it.",
+          "when": "Use this only when a customer record is no longer needed and it has no saved invoices.",
+          "how": "Select Delete beside the intended customer and confirm the prompt. If the customer has saved invoices, the app blocks deletion and asks you to edit the customer instead.",
+          "inputs": "Select the correct customer record. No deletion confirmation is accepted when the customer has saved invoices.",
+          "result": "If the customer has no saved invoices and the deletion is confirmed, the customer is removed from the customer list and the app verifies the save in IndexedDB.",
+          "notes": "Check the customer identity and work history first. The app prevents deletion when invoices are linked; retain accounting records required for your business."
         },
         "fa": {
           "purpose": "حذف رکورد یک مشتری.",
@@ -10062,12 +10062,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open the invoice print view.",
-          "when": "Use this when you need to open the invoice print view.",
-          "how": "Select Open print view to prepare the current invoice for printing or PDF output.",
-          "inputs": "Select the correct invoice that you want to prepare for printing.",
-          "result": "The browser's print workflow opens for the selected document, allowing you to print it or choose Save as PDF.",
-          "notes": "Check the customer, invoice number, line items, totals and page layout before printing."
+          "purpose": "Opens a separate print/PDF view for the current invoice.",
+          "when": "Use this from the invoice preview when you need a separate document view for printing or saving a PDF.",
+          "how": "Select Open print view. Allow the browser to open a new tab, then wait for the invoice PDF preview to load. If the tab is blocked, allow pop-ups for the app and try again.",
+          "inputs": "The current invoice preview must be open. The browser must allow a new tab and load the PDF-generation/preview resources.",
+          "result": "A separate browser tab opens and prepares a PDF preview of the current invoice with the available print, share or download controls.",
+          "notes": "Review the customer, invoice number, line items, totals and page layout before printing or sharing. A pop-up blocker or unavailable PDF library can prevent the view from opening."
         },
         "fa": {
           "purpose": "باز کردن نمای چاپ فاکتور.",
@@ -10160,12 +10160,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Share the current invoice PDF.",
-          "when": "Use this when you need to share the current invoice PDF.",
-          "how": "Open or generate the invoice PDF, then choose Share PDF and select a destination offered by the device.",
-          "inputs": "Select the correct invoice and its PDF file, then choose a sharing destination.",
-          "result": "The device or browser presents the available sharing destinations for the selected PDF. The file is not confirmed as sent until the chosen app or service reports success.",
-          "notes": "Sharing does not mark an invoice as paid. Confirm the recipient and payment status separately."
+          "purpose": "Shares the generated PDF for the current invoice.",
+          "when": "Use this after the invoice PDF has been generated and you want to share or save it using the device's available options.",
+          "how": "Select Share PDF in the invoice PDF view and choose a destination in the device share sheet. If file sharing is unavailable, use the PDF download fallback.",
+          "inputs": "A generated invoice PDF is required. Choose a destination if the system share sheet opens.",
+          "result": "The device share sheet opens when supported; otherwise the app starts downloading the invoice PDF. The app does not confirm that another app or service delivered it.",
+          "notes": "Review the invoice and recipient before sharing. Sharing does not mark the invoice as paid."
         },
         "fa": {
           "purpose": "اشتراک‌گذاری PDF فاکتور فعلی.",
@@ -10258,12 +10258,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Change an invoice status to unpaid.",
-          "when": "Use this when you need to change an invoice status to unpaid.",
-          "how": "Select Mark unpaid for the correct invoice and confirm the change if prompted.",
-          "inputs": "Select the correct invoice and check its payment records before changing its status.",
-          "result": "The selected invoice is marked as unpaid if the app accepts the status change and confirms the update.",
-          "notes": "Use this only when the invoice is not paid or a previous paid status was incorrect; check payment records first."
+          "purpose": "Changes a paid invoice to unpaid and moves its linked income entry to Deleted Records.",
+          "when": "Use this only when the invoice was not actually paid or its previous paid status was incorrect.",
+          "how": "Select Mark unpaid for the correct invoice and approve the confirmation after reading the warning about the linked income record.",
+          "inputs": "Select the correct paid invoice. The app identifies any linked income entry; no payment date or amount is entered here.",
+          "result": "The invoice payment status changes to unpaid and its payment date/method are cleared. Any linked income entry is soft-deleted and retained in Deleted Records.",
+          "notes": "This reverses the invoice payment status and removes the linked income from active records. Confirm the payment history carefully before proceeding."
         },
         "fa": {
           "purpose": "تغییر وضعیت فاکتور به پرداخت‌نشده.",
@@ -10356,12 +10356,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Record a payment against an invoice and mark it paid.",
-          "when": "Use this when you need to record a payment against an invoice and mark it paid.",
-          "how": "Select Mark paid only after confirming that the customer’s payment has actually been received; enter any requested payment details and confirm.",
-          "inputs": "Select the correct invoice and enter the payment date, method and amount if the app prompts for them.",
-          "result": "The app records the payment against the selected invoice and updates its payment status only if the required details are accepted and the save succeeds.",
-          "notes": "Do not mark an invoice paid based only on a promise or an issued invoice. Keep evidence of the receipt."
+          "purpose": "Opens the payment-details dialog for an unpaid invoice.",
+          "when": "Use this after confirming that the customer has actually paid and you are ready to enter the payment details.",
+          "how": "Select Mark paid on the correct invoice. In the dialog, enter the payment date and choose Cash or Bank transfer, then select Confirm payment to save.",
+          "inputs": "The invoice is identified by the selected row. A valid payment date and a payment method (Cash or Bank transfer) are required in the dialog.",
+          "result": "The payment-details dialog opens. The invoice is not marked paid and no income entry is created until Confirm payment is selected and the save succeeds.",
+          "notes": "Do not open or confirm this workflow based only on a promise to pay. Review possible duplicate-income warnings before confirming."
         },
         "fa": {
           "purpose": "ثبت دریافت وجه برای فاکتور و تغییر وضعیت آن به پرداخت‌شده.",
@@ -10454,12 +10454,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "View or create a printable PDF copy of an invoice.",
-          "when": "Use this when you need to view or create a printable PDF copy of an invoice.",
-          "how": "Select View / PDF on the intended invoice and inspect the resulting invoice view.",
-          "inputs": "Select the correct invoice that you want to view or convert to PDF.",
-          "result": "The requested version details or diagnostic data are copied to the clipboard if clipboard access is available.",
-          "notes": "A PDF copy is not proof of payment and does not itself change the invoice’s payment status."
+          "purpose": "Displays an invoice preview and provides access to its print/PDF view.",
+          "when": "Use this when you need to inspect an invoice or prepare it for printing or PDF output.",
+          "how": "Select View / PDF beside the intended invoice. Review the invoice preview, then select Open print view if you need the separate PDF view.",
+          "inputs": "Select the correct invoice from the invoice list. No additional input is required to display the preview.",
+          "result": "The invoice preview is displayed with an Open print view option. If a paid invoice is still marked as a draft, this function also changes its document status to issued before displaying it.",
+          "notes": "Check the invoice number, customer, line items and totals. Viewing does not itself record a new payment."
         },
         "fa": {
           "purpose": "مشاهده یا تهیه نسخه قابل چاپ PDF از فاکتور.",
@@ -10552,12 +10552,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Edit an existing invoice.",
-          "when": "Use this when you need to edit an existing invoice.",
-          "how": "Open Edit for the correct invoice, review its customer, description, amounts and status, then save the intended changes.",
-          "inputs": "Select the correct invoice and review the customer, description, amounts and status fields before editing.",
-          "result": "The edited details are saved to the selected record only if validation succeeds and the app confirms the save.",
-          "notes": "Take care when changing an issued invoice; preserve a clear audit trail and follow your accounting process."
+          "purpose": "Loads an existing invoice into the invoice editor for changes.",
+          "when": "Use this when correcting the details of a saved invoice.",
+          "how": "Select Edit beside the correct invoice, review its customer, description, amounts, dates and status, make the changes, then select Save Invoice.",
+          "inputs": "Select the correct invoice and edit the relevant customer, date, work description, line items, VAT and status fields as required.",
+          "result": "The existing invoice details are loaded into the editor. Changes are not saved until Save Invoice succeeds.",
+          "notes": "Take care when changing an issued or paid invoice; preserve a clear audit trail and follow your accounting process."
         },
         "fa": {
           "purpose": "ویرایش فاکتور موجود.",
@@ -10650,11 +10650,11 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Delete an invoice record.",
-          "when": "Use this when you need to delete an invoice record.",
-          "how": "Choose Delete for the intended invoice and read the confirmation prompt before proceeding.",
-          "inputs": "Select the correct invoice and check its number, customer and payment status before confirming deletion.",
-          "result": "The selected record or file is deleted or removed only after the app accepts the action and any required confirmation. Check the result message before assuming it is gone.",
+          "purpose": "Moves the selected invoice and any linked income entry to Deleted Records.",
+          "when": "Use this only when the invoice is a duplicate or was created in error and should no longer remain active.",
+          "how": "Choose Delete for the intended invoice, review the warning about linked income entries and confirm only if deletion is intended.",
+          "inputs": "Select the correct invoice and review its number, customer, payment status and any linked income record identified by the app.",
+          "result": "The invoice is soft-deleted from the active list. Any linked income entry is also soft-deleted, and the invoice number remains reserved.",
           "notes": "Invoice deletion is potentially destructive. Check whether the invoice has been issued or paid and retain records required by law or your accountant."
         },
         "fa": {
@@ -10748,12 +10748,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Edit a saved contractor’s details.",
-          "when": "Use this when you need to edit a saved contractor’s details.",
-          "how": "Choose Edit beside the contractor, update the available details and save the form.",
-          "inputs": "Select the correct contractor record and change the required details or contact information.",
-          "result": "The edited details are saved to the selected record only if validation succeeds and the app confirms the save.",
-          "notes": "Confirm the contractor identity before saving changes to avoid altering another person’s record."
+          "purpose": "Loads a saved contractor's details into the contractor editor.",
+          "when": "Use this when correcting a contractor or subcontractor's saved contact or trade details.",
+          "how": "Select Edit beside the correct contractor, update the name, phone, email or trade notes, then select Save Contractor.",
+          "inputs": "Select the correct contractor record and change the required name or optional phone, email and trade/notes fields.",
+          "result": "The contractor's saved values are loaded into the form. Changes are not saved until Save Contractor succeeds.",
+          "notes": "Confirm the contractor identity before saving changes to avoid altering another person's record."
         },
         "fa": {
           "purpose": "ویرایش اطلاعات پیمانکار ذخیره‌شده.",
@@ -10846,12 +10846,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Delete a contractor record.",
-          "when": "Use this when you need to delete a contractor record.",
-          "how": "Choose Delete beside the intended contractor and review the confirmation prompt.",
-          "inputs": "Select the correct contractor record and verify its identity before confirming deletion.",
-          "result": "The selected record or file is deleted or removed only after the app accepts the action and any required confirmation. Check the result message before assuming it is gone.",
-          "notes": "Check whether the contractor is referenced by jobs, payments or historic records before deletion."
+          "purpose": "Removes a contractor from the shared contractor directory.",
+          "when": "Use this only when the contractor record should no longer be available for future selection.",
+          "how": "Select Delete beside the intended contractor and confirm the prompt. Check the directory after the operation.",
+          "inputs": "Select the correct contractor record and approve the confirmation prompt.",
+          "result": "The contractor is removed from the shared directory if the save succeeds. Existing project expense records are retained.",
+          "notes": "Check whether the contractor is referenced by jobs or historic records before deletion. Removing the directory entry does not erase existing expense history."
         },
         "fa": {
           "purpose": "حذف رکورد پیمانکار.",
@@ -10945,11 +10945,11 @@
       "translations": {
         "en": {
           "purpose": "Open an attachment stored against a company contract or record.",
-          "when": "Use this when you need to open an attachment stored against a company contract or record.",
-          "how": "Select the attachment name to open or download the associated file, depending on the device/browser.",
-          "inputs": "Select the correct company attachment from the contract or company record.",
-          "result": "The file associated with the selected record is opened in the device or browser, subject to file and browser support.",
-          "notes": "Check the filename and contents before sharing. An attachment link does not alter the underlying contract."
+          "when": "Use this when you need to inspect a PDF or image attachment saved against a company, job, work package or payment record.",
+          "how": "Select the attachment name in the relevant company/job record. Allow the browser to open a new tab and inspect the displayed PDF or image.",
+          "inputs": "Select the record containing the attachment. The attachment must still have available file data; no new file is uploaded by this action.",
+          "result": "A PDF opens in an embedded viewer in a new tab, or an image is displayed in that tab. If the attachment data is unavailable or pop-ups are blocked, the app reports the problem.",
+          "notes": "Check the filename and contents before sharing. Opening an attachment does not alter the underlying contract or record."
         },
         "fa": {
           "purpose": "باز کردن فایل پیوست‌شده به قرارداد یا رکورد شرکت.",
@@ -11042,11 +11042,11 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Edit a company record.",
-          "when": "Use this when you need to edit a company record.",
-          "how": "Choose Edit for the intended company, review its details and save the changes.",
-          "inputs": "Select the correct company record and review the legal or contact details that you want to change.",
-          "result": "The edited details are saved to the selected record only if validation succeeds and the app confirms the save.",
+          "purpose": "Loads a saved company's details into the company editor.",
+          "when": "Use this when correcting a registered company's name, reference, contact or contract details.",
+          "how": "Select Edit beside the intended company. Review and update its details, then select Save Company to commit the changes.",
+          "inputs": "Select the correct company record and change the required company name or optional reference, contact, phone, email, address, dates, terms or contract attachment.",
+          "result": "The selected company's existing values are loaded into the company form. Changes are not saved until Save Company succeeds.",
           "notes": "Confirm the company identity before changing legal or contact details."
         },
         "fa": {
