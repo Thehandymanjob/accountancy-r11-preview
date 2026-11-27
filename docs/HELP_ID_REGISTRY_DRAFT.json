@@ -12538,20 +12538,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Edits an existing cost directly in the consolidated project cost list.",
-          "when": "Use this when correcting the date, amount or description/supplier of a saved consolidated cost.",
-          "how": "Choose Edit beside the intended cost. Enter the replacement date, amount and description/supplier in the prompts; the app saves the changes after validation.",
-          "inputs": "Select the correct cost record. Enter a valid date in YYYY-MM-DD format, a non-negative amount and a description or supplier. For worker wages, the worker assignment is not changed.",
-          "result": "The selected cost is updated and persisted immediately after all prompts pass validation. The consolidated cost list and project summary are refreshed.",
-          "notes": "This action edits the cost directly rather than opening a form. Verify the selected record and avoid changing a cost already represented elsewhere."
+          "purpose": "Edits a saved cost directly from the selected sub-project's consolidated All Costs list.",
+          "when": "Use this when correcting the date, amount or description/supplier of a saved sub-project cost.",
+          "how": "In the sub-project's All Costs list, select Edit beside the intended cost. Enter a replacement date, amount and description/supplier in the prompts. The app validates and saves the changes, then refreshes the cost list and project summary.",
+          "inputs": "Select the correct cost record. Enter a date in YYYY-MM-DD format, a non-negative amount and a description or supplier. For worker wages, the worker assignment remains unchanged; only the worker/wage description is updated.",
+          "result": "After all prompts pass validation and the IndexedDB save succeeds, the selected cost is updated. The All Costs list and project summary are refreshed.",
+          "notes": "This action uses prompts rather than opening a separate edit form. Invalid date or negative/non-numeric amount is rejected without saving. Confirm the selected cost and avoid changing a cost already represented elsewhere."
         },
         "fa": {
-          "purpose": "هزینه موجود را مستقیماً در فهرست یکپارچه هزینه‌های پروژه ویرایش می‌کند.",
-          "when": "وقتی می‌خواهید تاریخ، مبلغ یا شرح/تأمین‌کننده یک هزینه ذخیره‌شده در فهرست یکپارچه را اصلاح کنید، از این گزینه استفاده کنید.",
-          "how": "در کنار هزینه موردنظر Edit را انتخاب کنید. در پیام‌های ورودی، تاریخ جایگزین، مبلغ و شرح/تأمین‌کننده را وارد کنید؛ برنامه پس از اعتبارسنجی تغییرات را ذخیره می‌کند.",
-          "inputs": "رکورد هزینه درست را انتخاب کنید. تاریخ معتبر با قالب YYYY-MM-DD، مبلغ غیرمنفی و شرح یا نام تأمین‌کننده را وارد کنید. برای دستمزد کارگر، تخصیص کارگر تغییر نمی‌کند.",
-          "result": "پس از عبور همه ورودی‌ها از اعتبارسنجی، هزینه انتخاب‌شده فوراً به‌روزرسانی و ذخیره می‌شود. فهرست یکپارچه هزینه‌ها و خلاصه پروژه نیز تازه‌سازی می‌شوند.",
-          "notes": "این عملیات هزینه را مستقیماً ویرایش می‌کند و فرم جداگانه‌ای باز نمی‌کند. رکورد انتخاب‌شده را بررسی کنید و از تغییر هزینه‌ای که جای دیگری نیز ثبت شده است خودداری کنید."
+          "purpose": "هزینه ذخیره‌شده را مستقیماً از فهرست یکپارچه All Costs زیرپروژه انتخاب‌شده ویرایش می‌کند.",
+          "when": "برای اصلاح تاریخ، مبلغ یا شرح/تأمین‌کننده یک هزینه ذخیره‌شده زیرپروژه از این گزینه استفاده کنید.",
+          "how": "در فهرست All Costs زیرپروژه، کنار هزینه موردنظر Edit را انتخاب کنید. در پیام‌های ورودی تاریخ، مبلغ و شرح/تأمین‌کننده جایگزین را وارد کنید. برنامه پس از اعتبارسنجی تغییرات را ذخیره و فهرست هزینه‌ها و خلاصه پروژه را تازه‌سازی می‌کند.",
+          "inputs": "رکورد هزینه صحیح را انتخاب کنید. تاریخ با قالب YYYY-MM-DD، مبلغ غیرمنفی و شرح یا نام تأمین‌کننده را وارد کنید. برای دستمزد کارگر، تخصیص کارگر ثابت می‌ماند و فقط شرح دستمزد/نام نمایش‌داده‌شده به‌روزرسانی می‌شود.",
+          "result": "پس از عبور همه ورودی‌ها از اعتبارسنجی و موفقیت ذخیره در IndexedDB، هزینه انتخاب‌شده به‌روزرسانی می‌شود. فهرست All Costs و خلاصه پروژه تازه‌سازی می‌شوند.",
+          "notes": "این عملیات از پیام‌های ورودی استفاده می‌کند و فرم ویرایش جداگانه‌ای باز نمی‌کند. تاریخ نامعتبر یا مبلغ منفی/غیرعددی بدون ذخیره رد می‌شود. هزینه انتخاب‌شده را بررسی کنید و هزینه‌ای را که جای دیگری نیز ثبت شده تغییر ندهید."
         },
         "ar": {
           "purpose": "يفتح تكلفة في قائمة تكاليف المشروع الموحدة لتعديلها.",
@@ -12636,20 +12636,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Delete a cost from the consolidated project cost list.",
-          "when": "Use this control only when a cost record is a duplicate or an entry error that should be removed after checking.",
-          "how": "Choose Delete on the correct cost and confirm only after checking its details.",
-          "inputs": "Select the correct cost record and verify its amount and source before confirming deletion.",
-          "result": "The selected cost is removed from the consolidated project cost list after confirmation and successful saving.",
-          "notes": "Deletion can change project totals. Verify the record and retain source evidence before removing it."
+          "purpose": "Deletes a selected cost record from the current sub-project's consolidated All Costs list.",
+          "when": "Use this only when the cost record is a duplicate or was entered in error and should be removed.",
+          "how": "In the sub-project's All Costs list, select Delete beside the intended cost. Read the confirmation that the sub-project and overall financial reports will be recalculated, then confirm if deletion is intended.",
+          "inputs": "Select the correct cost record in the current sub-project and approve the confirmation prompt.",
+          "result": "After confirmation and successful IndexedDB persistence, the cost is removed from its original category list. The All Costs list and sub-project financial summary are refreshed.",
+          "notes": "DESTRUCTIVE: this removes the underlying cost record from the sub-project and changes its financial totals. It does not delete the sub-project itself. Verify the source record and retain required evidence before confirming."
         },
         "fa": {
-          "purpose": "حذف یک هزینه از فهرست یکپارچه هزینه‌های پروژه.",
-          "when": "فقط وقتی سابقه هزینه تکراری یا اشتباه است و پس از بررسی باید حذف شود، از این گزینه استفاده کنید.",
-          "how": "در ردیف هزینه درست Delete را انتخاب کنید و فقط پس از بررسی جزئیات تأیید کنید.",
-          "inputs": "سابقه درست هزینه را انتخاب کنید و پیش از تأیید حذف، مبلغ و منبع را بررسی کنید.",
-          "result": "پس از تأیید و ذخیره موفق، هزینه انتخاب‌شده از فهرست یکپارچه هزینه‌های پروژه حذف می‌شود.",
-          "notes": "حذف می‌تواند جمع هزینه‌های پروژه را تغییر دهد. پیش از حذف، رکورد و مدرک اصلی را بررسی کنید."
+          "purpose": "رکورد هزینه انتخاب‌شده را از فهرست یکپارچه All Costs زیرپروژه فعلی حذف می‌کند.",
+          "when": "فقط زمانی استفاده کنید که رکورد هزینه تکراری یا اشتباه ثبت شده و باید حذف شود.",
+          "how": "در فهرست All Costs زیرپروژه، کنار هزینه موردنظر Delete را انتخاب کنید. پیام تأیید را که اعلام می‌کند گزارش‌های مالی زیرپروژه و کل پروژه دوباره محاسبه می‌شوند بخوانید و فقط در صورت قصد حذف تأیید کنید.",
+          "inputs": "رکورد هزینه صحیح را در زیرپروژه فعلی انتخاب کنید و پیام تأیید را بپذیرید.",
+          "result": "پس از تأیید و ذخیره موفق در IndexedDB، هزینه از فهرست دسته‌بندی اصلی خود حذف می‌شود. فهرست All Costs و خلاصه مالی زیرپروژه تازه‌سازی می‌شوند.",
+          "notes": "مخرب: این عملیات رکورد اصلی هزینه را از زیرپروژه حذف می‌کند و مجموع‌های مالی آن را تغییر می‌دهد. خود زیرپروژه حذف نمی‌شود. پیش از تأیید، سابقه اصلی را بررسی و مدارک موردنیاز را نگه دارید."
         },
         "ar": {
           "purpose": "يحذف تكلفة من قائمة تكاليف المشروع الموحدة.",
@@ -12734,20 +12734,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the financial report preview for the current sub-project.",
-          "when": "Use this when you want to review the selected sub-project's financial report before generating a PDF.",
-          "how": "Select Print / Save PDF. Review the report preview, then select Generate PDF in the preview toolbar when you are ready to create the file.",
+          "purpose": "Opens the financial report preview for the currently selected sub-project.",
+          "when": "Use this when reviewing the sub-project's recorded receipts, costs, agreed price and outstanding balance before generating a PDF.",
+          "how": "From the sub-project's Report tab, select Print / Save PDF. Review the report overlay, then select Generate PDF in its toolbar. The app creates the PDF and opens an in-app PDF preview.",
           "inputs": "A sub-project must be open. The report uses its saved income, costs, agreed price and payment records; no new financial data is entered for the preview.",
-          "result": "The sub-project financial report preview opens. A PDF is not generated until you select Generate PDF in the preview toolbar.",
-          "notes": "Check the selected sub-project and its figures. Generating the PDF creates an output document; it does not submit data externally."
+          "result": "The report preview overlay opens first. After Generate PDF is selected, the PDF is generated and displayed in a PDF preview with a Share PDF option.",
+          "notes": "Check the selected sub-project and its figures. The PDF uses recorded receipts and costs and is a report output only; it does not submit data externally. The PDF library may need an internet connection to load."
         },
         "fa": {
-          "purpose": "پیش‌نمایش گزارش مالی زیرپروژه فعلی را باز می‌کند.",
-          "when": "وقتی می‌خواهید گزارش مالی زیرپروژه انتخاب‌شده را پیش از ایجاد PDF بررسی کنید، از این گزینه استفاده کنید.",
-          "how": "Print / Save PDF را انتخاب کنید. پیش‌نمایش گزارش را بررسی کنید و وقتی آماده ایجاد فایل بودید، در نوار ابزار پیش‌نمایش Generate PDF را انتخاب کنید.",
+          "purpose": "پیش‌نمایش گزارش مالی زیرپروژه انتخاب‌شده فعلی را باز می‌کند.",
+          "when": "برای بررسی دریافت‌ها، هزینه‌ها، قیمت توافق‌شده و مانده زیرپروژه پیش از ایجاد PDF از این گزینه استفاده کنید.",
+          "how": "از زبانه Report زیرپروژه، Print / Save PDF را انتخاب کنید. پیش‌نمایش گزارش را در پنجره بازشده بررسی و سپس در نوار ابزار آن Generate PDF را انتخاب کنید. برنامه PDF را ایجاد و پیش‌نمایش PDF را داخل برنامه باز می‌کند.",
           "inputs": "یک زیرپروژه باید باز باشد. گزارش از درآمدها، هزینه‌ها، قیمت توافق‌شده و سوابق پرداخت ذخیره‌شده آن استفاده می‌کند؛ برای پیش‌نمایش نیازی به واردکردن اطلاعات مالی جدید نیست.",
-          "result": "پیش‌نمایش گزارش مالی زیرپروژه باز می‌شود. تا زمانی که Generate PDF را در نوار ابزار پیش‌نمایش انتخاب نکنید، فایل PDF ایجاد نخواهد شد.",
-          "notes": "زیرپروژه انتخاب‌شده و ارقام آن را بررسی کنید. ایجاد PDF فقط یک سند خروجی تولید می‌کند و اطلاعات را به مرجع خارجی ارسال نمی‌کند."
+          "result": "ابتدا پنجره پیش‌نمایش گزارش باز می‌شود. پس از انتخاب Generate PDF، فایل PDF ایجاد و در پیش‌نمایش PDF همراه با گزینه Share PDF نمایش داده می‌شود.",
+          "notes": "زیرپروژه انتخاب‌شده و ارقام آن را بررسی کنید. PDF فقط خروجی گزارش بر اساس دریافت‌ها و هزینه‌های ثبت‌شده است و اطلاعات را به مرجع خارجی ارسال نمی‌کند. برای بارگذاری کتابخانه PDF ممکن است اتصال اینترنت لازم باشد."
         },
         "ar": {
           "purpose": "يطبع تقرير المشروع الفرعي الحالي أو يحفظه بصيغة PDF.",
@@ -12832,20 +12832,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the financial report preview for the current sub-project.",
-          "when": "Use this when you want to review the selected sub-project's financial report before generating a PDF.",
-          "how": "Select Print / Save PDF. Review the report preview, then select Generate PDF in the preview toolbar when you are ready to create the file.",
-          "inputs": "A sub-project must be open. The report uses its saved income, costs, agreed price and payment records; no new financial data is entered for the preview.",
-          "result": "The sub-project financial report preview opens. A PDF is not generated until you select Generate PDF in the preview toolbar.",
-          "notes": "Check the selected sub-project and its figures. Generating the PDF creates an output document; it does not submit data externally."
+          "purpose": "Opens the financial report preview from the sub-project's All Costs view so the cost summary can be generated as a PDF.",
+          "when": "Use this when reviewing all cost records and preparing a printable PDF report for the selected sub-project.",
+          "how": "From the sub-project's All Costs view, select Print / Save PDF. Review the report overlay, then select Generate PDF in its toolbar. The app creates the PDF and opens an in-app PDF preview.",
+          "inputs": "A sub-project must be open and its All Costs view displayed. The report uses the sub-project's saved receipts, costs, agreed price and outstanding balance; no new financial data is entered.",
+          "result": "The report preview overlay opens. After Generate PDF is selected, the PDF is generated and displayed in a PDF preview with a Share PDF option.",
+          "notes": "The report is based on the selected sub-project's saved financial records. Check the figures and report scope before sharing. PDF creation does not change the underlying project records; the PDF library may require internet access."
         },
         "fa": {
-          "purpose": "پیش‌نمایش گزارش مالی زیرپروژه فعلی را باز می‌کند.",
-          "when": "وقتی می‌خواهید گزارش مالی زیرپروژه انتخاب‌شده را پیش از ایجاد PDF بررسی کنید، از این گزینه استفاده کنید.",
-          "how": "Print / Save PDF را انتخاب کنید. پیش‌نمایش گزارش را بررسی کنید و وقتی آماده ایجاد فایل بودید، در نوار ابزار پیش‌نمایش Generate PDF را انتخاب کنید.",
-          "inputs": "یک زیرپروژه باید باز باشد. گزارش از درآمدها، هزینه‌ها، قیمت توافق‌شده و سوابق پرداخت ذخیره‌شده آن استفاده می‌کند؛ برای پیش‌نمایش نیازی به واردکردن اطلاعات مالی جدید نیست.",
-          "result": "پیش‌نمایش گزارش مالی زیرپروژه باز می‌شود. تا زمانی که Generate PDF را در نوار ابزار پیش‌نمایش انتخاب نکنید، فایل PDF ایجاد نخواهد شد.",
-          "notes": "زیرپروژه انتخاب‌شده و ارقام آن را بررسی کنید. ایجاد PDF فقط یک سند خروجی تولید می‌کند و اطلاعات را به مرجع خارجی ارسال نمی‌کند."
+          "purpose": "پیش‌نمایش گزارش مالی را از نمای All Costs زیرپروژه باز می‌کند تا خلاصه هزینه‌ها به PDF تبدیل شود.",
+          "when": "وقتی در حال بررسی همه سوابق هزینه هستید و برای زیرپروژه انتخاب‌شده به گزارش PDF قابل چاپ نیاز دارید، از این گزینه استفاده کنید.",
+          "how": "از نمای All Costs زیرپروژه، Print / Save PDF را انتخاب کنید. پنجره پیش‌نمایش گزارش را بررسی و سپس در نوار ابزار آن Generate PDF را انتخاب کنید. برنامه PDF را ایجاد و پیش‌نمایش PDF را داخل برنامه باز می‌کند.",
+          "inputs": "یک زیرپروژه باید باز باشد و نمای All Costs آن نمایش داده شود. گزارش از دریافت‌ها، هزینه‌ها، قیمت توافق‌شده و مانده ذخیره‌شده زیرپروژه استفاده می‌کند؛ اطلاعات مالی جدیدی وارد نمی‌شود.",
+          "result": "پنجره پیش‌نمایش گزارش باز می‌شود. پس از انتخاب Generate PDF، فایل PDF ایجاد و در پیش‌نمایش PDF همراه با گزینه Share PDF نمایش داده می‌شود.",
+          "notes": "گزارش بر اساس سوابق مالی ذخیره‌شده زیرپروژه انتخاب‌شده است. پیش از اشتراک‌گذاری، ارقام و محدوده گزارش را بررسی کنید. ساخت PDF سوابق اصلی پروژه را تغییر نمی‌دهد؛ کتابخانه PDF ممکن است به اتصال اینترنت نیاز داشته باشد."
         },
         "ar": {
           "purpose": "يطبع تقرير المشروع الفرعي الحالي أو يحفظه بصيغة PDF.",
@@ -12930,20 +12930,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Capture a photo to attach to a project receipt or expense.",
-          "when": "Use this control when you want to attach a photo to a project-related receipt or expense.",
-          "how": "Select Take a Photo and use the camera/file prompt offered by your device; review the image before continuing.",
-          "inputs": "Select the correct project or expense record and prepare a photo of the relevant receipt.",
-          "result": "A photo is captured or selected and becomes available to attach to the selected project receipt or expense.",
-          "notes": "Camera access depends on device permissions. Photograph the relevant receipt clearly and avoid including unrelated personal information."
+          "purpose": "Opens the device's image picker so a receipt photo can be selected or captured for the current Accountancy entry.",
+          "when": "Use this when attaching a photo of a receipt to an income or expense entry whose receipt-photo field is available.",
+          "how": "Select 📷 Take a Photo. Use the camera or image-selection option offered by the device/browser, then review the image in the crop dialog. Choose Apply Crop or Use Full Image to attach it to the form.",
+          "inputs": "Choose an image file or take a photo using an option provided by the device. The control accepts image files only; PDF files are not accepted. Camera availability depends on the device/browser file picker and its permissions.",
+          "result": "The selected image is resized and converted to JPEG, then shown in the receipt preview. It is attached to the entry form but is not saved to the record until Save Entry succeeds.",
+          "notes": "This button opens an image file picker; it does not guarantee that the camera app will launch directly. Check that the receipt is readable and belongs to the correct entry. Use Remove photo to clear it before saving if needed."
         },
         "fa": {
-          "purpose": "گرفتن عکس برای پیوست رسید یا هزینه پروژه.",
-          "when": "وقتی می‌خواهید عکسی را به رسید یا هزینه مرتبط با پروژه پیوست کنید، از این گزینه استفاده کنید.",
-          "how": "Take a Photo را انتخاب کنید و از دوربین یا انتخاب‌گر فایل دستگاه استفاده کنید؛ سپس تصویر را بررسی کنید.",
-          "inputs": "سابقه درست پروژه یا هزینه را انتخاب کنید و عکس رسید مرتبط را آماده کنید.",
-          "result": "عکس گرفته‌شده یا انتخاب‌شده به‌عنوان تصویر رسید یا هزینه پروژه فعلی برای پیوست‌کردن آماده می‌شود.",
-          "notes": "دسترسی دوربین به مجوز دستگاه بستگی دارد. رسید مرتبط را واضح عکاسی کنید و اطلاعات شخصی نامرتبط را وارد تصویر نکنید."
+          "purpose": "انتخاب‌گر تصویر دستگاه را باز می‌کند تا عکس رسید برای ثبت فعلی Accountancy انتخاب یا گرفته شود.",
+          "when": "وقتی می‌خواهید عکس رسید را به ثبت درآمد یا هزینه‌ای که فیلد عکس رسید آن فعال است پیوست کنید، از این گزینه استفاده کنید.",
+          "how": "Take a Photo را انتخاب کنید. از دوربین یا گزینه انتخاب تصویر که دستگاه/مرورگر ارائه می‌دهد استفاده کنید و سپس تصویر را در پنجره برش بررسی کنید. برای پیوست تصویر، Apply Crop یا Use Full Image را انتخاب کنید.",
+          "inputs": "یک فایل تصویری انتخاب کنید یا با گزینه‌ای که دستگاه ارائه می‌دهد عکس بگیرید. این کنترل فقط فایل تصویری می‌پذیرد و PDF قابل قبول نیست. دسترسی به دوربین به انتخاب‌گر فایل دستگاه/مرورگر و مجوزهای آن بستگی دارد.",
+          "result": "تصویر انتخاب‌شده تغییر اندازه داده و به JPEG تبدیل می‌شود و سپس در پیش‌نمایش رسید نمایش داده می‌شود. تصویر به فرم ثبت پیوست می‌شود، اما تا موفقیت Save Entry در سابقه ذخیره نخواهد شد.",
+          "notes": "این دکمه انتخاب‌گر فایل تصویر را باز می‌کند و تضمین نمی‌کند که برنامه دوربین مستقیماً اجرا شود. خوانابودن رسید و تعلق آن به ثبت صحیح را بررسی کنید. در صورت نیاز، پیش از ذخیره از Remove photo برای پاک‌کردن تصویر استفاده کنید."
         },
         "ar": {
           "purpose": "يلتقط صورة لإرفاقها بإيصال مشروع أو مصروف.",
