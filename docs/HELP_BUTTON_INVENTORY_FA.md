@@ -275,7 +275,7 @@
 | INV-253 | — | ‹ Previous | `monitorPage--;renderMonitor()` | HELP-REQUIRED |
 | INV-254 | — | ${monitorPage} / ${pages} | `event/property listener` | HELP-REQUIRED |
 | INV-255 | — | =pages?'disabled':''} onclick="monitorPage++;renderMonitor()">Next › | `event/property listener` | HELP-REQUIRED |
-| INV-256 | — | (label not statically available) | `GenUINotUsed` | HELP-REQUIRED |
+| INV-256 | — | Hidden placeholder (not user-facing) | `GenUINotUsed` | EXEMPT |
 | INV-257 | monitorCopyEvent | Copy JSON | `event/property listener` | HELP-REQUIRED |
 | INV-258 | monitorCloseEvent | Close | `event/property listener` | EXEMPT-CANDIDATE |
 | INV-259 | — | Open saved report | `report188Open(` | HELP-REQUIRED |
@@ -436,11 +436,16 @@
 - این‌ها پیش‌نویس محتوایی هستند، نه ترجمه نهایی در ۱۱ زبان. هنوز بازبینی زبانی و اتصال runtime لازم است. هیچ دیتابیس، Preview deployment یا Production تغییر نکرده است.
 
 
+## رفع دو مانع ممیزی — 2026-11-27
+
+- `THA-HLP-0050` / `INV-063`: دکمه در Settings وجود دارد، اما تابع `window.createAccountingStorageSnapshot()` در سورس R43 بررسی‌شده تعریف نشده است. وضعیت این شناسه از `CONTENT_COMPLETE` به `CONTENT_DRAFT` کاهش یافت؛ متن انگلیسی و فارسی با وضعیت واقعی هماهنگ شد. تا بازگرداندن handler و آزمون آن، راهنما قابل انتشار نیست.
+- `THA-HLP-0219` / `INV-256`: کنترل یک دکمه مخفی `display:none` با handler غیرپیاده‌سازی‌شده `GenUINotUsed` است. ردیف Inventory به `EXEMPT` تغییر کرد؛ شناسه غیرقابل‌تکرار حفظ شده، اما بازنشسته و غیرقابل انتشار است.
+
 ## پیشرفت محتوای راهنما — batch نهایی 25 تا 44 — 2026-11-26
 
 - ۱۰۱ پیش‌نویس باقیمانده برای شناسه‌های `THA-HLP-0129` تا `THA-HLP-0229` در Registry ثبت شد؛ در نتیجه برای تمام ۲۲۹ شناسه تخصیص‌یافته، دست‌کم پیش‌نویس محتوایی وجود دارد.
 - دامنه این batch: ویرایش/حذف/مشاهده رکوردهای حسابداری، ساخت و اشتراک PDF، مشتریان و فاکتورها، شرکت‌ها و پیمانکاران، پیوست‌ها، بسته‌های کاری، مالی زیرپروژه، رسیدها و هزینه‌ها، کارگران، گزارش کامل پروژه، قراردادها، برش عکس رسید، Monitor & Diagnostics، گزارش‌های ذخیره‌شده، اعلان‌ها و dropdown سفارشی.
 - برای ۱۰۱ شناسه، شش فیلد Purpose / When / How / Inputs / Result / Notes به انگلیسی و فارسی ثبت شد. اعتبارسنجی ساختاری: ۱۰۱ × ۲ زبان × ۶ فیلد = ۱٬۲۱۲ فیلد غیرخالی؛ PASS.
 - شمارش Registry پس از این batch: ۲۰ مورد کامل در هر ۱۱ زبان، ۲۰۹ پیش‌نویس (فقط انگلیسی و فارسی)، صفر مورد بدون پیش‌نویس؛ مجموع ۲۲۹.
-- مورد `THA-HLP-0219` عمداً با برچسب «نیازمند تأیید سورس» پیش‌نویس شده است، چون Inventory برای آن label/handler قابل اتکا ندارد؛ نباید تا شناسایی کنترل به کاربر نمایش داده شود.
+- مورد `INV-256` پس از بررسی سورس، یک دکمه placeholder مخفی در پنجره جزئیات رویداد Monitor شناسایی شد (`display:none` و handler پیاده‌سازی‌نشده `GenUINotUsed`). این ردیف اکنون `EXEMPT` است. شناسه تغییرناپذیر `THA-HLP-0219` فقط برای ردگیری ممیزی حفظ می‌شود، در وضعیت Draft می‌ماند و نباید منتشر یا دوباره استفاده شود.
 - این‌ها ترجمه نهایی ۱۱زبانه نیستند. ۹ زبان دیگر برای ۲۰۹ مورد پیش‌نویس، بازبینی زبانی مستقل، اتصال runtime، تست پوشش و تست iPhone Safari همچنان لازم‌اند. هیچ کد اجرایی، دیتابیس، Preview deployment یا Production تغییر نکرده است.
