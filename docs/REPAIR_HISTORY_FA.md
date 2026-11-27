@@ -769,7 +769,7 @@
 - **Check for Updates:** شناسه THA-HLP-0072 متصل نشد؛ دکمه در Preview صریحاً disabled است و updater تا بعد از تأیید نهایی و انتشار Production غیرفعال می‌ماند. این مورد به‌عنوان EXEMPT_DISABLED_IN_PREVIEW ثبت شد.
 - **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R63`.
 - **شمارنده پس از R63:** ۱۲۷ Help ID متصل؛ ۱۱۳ static و ۱۴ dynamic-template. پنج مورد از ۱۳۲ محتوای قابل انتشار هنوز خارج از این runtime هستند: چهار کنترل در سند/پنجره PDF جداگانه و یک updater غیرفعال.
-- **تست ایستا:** ۹ data-help-id در templateهای مشخص ثبت شد؛ MutationObserver موجود برای عناصر تازه‌وارد استفاده می‌شود. تست مرورگر واقعی هنوز انجام نشده است.
+- **تست ایستا:** ۹ data-help-id در templateهای مشخص ثبت شد؛ MutationObserver موجود برای عناصر تازه‌وارد استفاده می‌شود. **Version Authority Gate R63:** PASS؛ run `46071937988` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071937988؛ Build R63، canonical URL، SHA صفحه و تمام ۲۴ asset pin تأیید شدند. تست مرورگر واقعی هنوز انجام نشده است.
 - **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ pagination، رسید، Edit/Delete، New Invoice، انتخاب زبان و چیدمان موبایل باید در Preview آزمایش شوند.
 - **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
 
