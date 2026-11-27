@@ -2028,9 +2028,9 @@
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
         "result": "PASS",
-        "runId": 46052698102,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46052698102",
-        "details": "Latest PR #96 head 71063249cf0fc54cbde13fa3029b23d2753df353 passed R11 Version Authority Gate. The gate verified repository/branch identity, approved R11 baseline ancestry, R45 Build ID and canonical URL, index SHA, and all 22 authority-pinned runtime assets. This includes the final reset-runtime SHA pin; the destructive reset helper is not exposed globally."
+        "runId": 46052848728,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46052848728",
+        "details": "R11 Version Authority Gate passed on PR #96 head 5b71c664ff1654ba1f717ed373f9c82a516dd28d after the final repair-history update. It validated repository/branch identity, approved baseline ancestry, R45 Build ID and canonical URL, index SHA and all 22 pinned runtime assets, including the private destructive reset helper."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
