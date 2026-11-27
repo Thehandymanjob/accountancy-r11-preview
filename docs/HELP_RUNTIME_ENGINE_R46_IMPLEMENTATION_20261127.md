@@ -52,3 +52,12 @@ Five completed dynamic template controls now carry explicit `data-help-id` attri
 ## R48 English/Persian draft-content correction
 
 Source review corrected the English and Persian text for nine Draft entries: THA-HLP-0057, 0146, 0156, 0168, 0169, 0170, 0180, 0181 and 0222. The corrections fix stale Help wording, job attachment scope, the All Costs Register vs Report tab distinction, the Project expense receipt-photo form, selected sub-project vs full-project PDF scope, and the Saved reports archive print action. All nine remain `CONTENT_DRAFT` and are excluded from the runtime bundle until the remaining language versions are reviewed. Runtime publication remains 132 entries.
+
+
+## R53 Support Message binding
+
+- Added `THA-HLP-0070` to the explicit static selector allowlist using `#helpContactForm > .pr-actions > button[type="submit"]`.
+- The selector is scoped to the single `#helpContactForm` form. Its submit handler stores the message as a local IndexedDB draft only; it does not send email or contact the developer.
+- Static allowlist count: 33. Total contextual Help controls mapped: 38 (33 static, five dynamic-template).
+- Version target: `THA-273-R11-PREVIEW-20261127-R53`. Version Authority pins and mapping baselines must match the new index and runtime blob SHAs.
+- Static source inspection only. Live click behavior, event isolation, language switching, mobile layout and iPhone Safari remain unverified. No Preview deployment or Production change.
