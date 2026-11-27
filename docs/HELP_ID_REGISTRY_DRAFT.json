@@ -8269,7 +8269,7 @@
       "audit_ref": "INV-102",
       "element_id": null,
       "label": "Clear Form",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Resets the current New Project form to its initial values.",
@@ -8367,7 +8367,7 @@
       "audit_ref": "INV-103",
       "element_id": null,
       "label": "Edit",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Loads the selected project's saved details into the New Project form for editing.",
@@ -8465,7 +8465,7 @@
       "audit_ref": "INV-104",
       "element_id": "prCompleteToggle",
       "label": "Complete",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Toggles the current project's status between Open and Complete and saves the change to IndexedDB.",
@@ -8563,7 +8563,7 @@
       "audit_ref": "INV-105",
       "element_id": null,
       "label": "Delete",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Deletes the selected project and its associated project records after explicit confirmation.",
