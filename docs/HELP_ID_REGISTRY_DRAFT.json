@@ -16458,20 +16458,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the print/PDF preview for a saved contract or quotation.",
-          "when": "Use this when you need to review a saved contract or quotation before generating its PDF.",
-          "how": "Select Print / PDF on the intended saved document. Review the in-app preview, then select Generate PDF in the preview when ready.",
-          "inputs": "Select the intended saved contract or quotation. Its stored customer, scope, price and terms are used to build the preview.",
-          "result": "The saved document opens in an in-app preview overlay. The PDF is generated only after you select Generate PDF in that preview.",
-          "notes": "Verify customer, scope, price, payment stages and terms before generating or sharing the document."
+          "purpose": "Opens the print/PDF preview overlay for a saved contract or quotation.",
+          "when": "Use this when you need to inspect a saved contract or quotation before generating its PDF.",
+          "how": "In the saved Contracts list, select Print / PDF on the intended document. The preview opens inside the app. Review the document, then select Generate PDF in the preview toolbar when ready.",
+          "inputs": "Select the intended saved contract or quotation. Its stored customer, scope, price, payment stages and terms are used to build the preview.",
+          "result": "The saved document opens in an in-app preview overlay. A PDF is not generated until you select Generate PDF in the preview toolbar.",
+          "notes": "Verify customer, scope, price, payment stages and terms before generating or sharing the document. Opening the preview does not change the saved contract."
         },
         "fa": {
-          "purpose": "پیش‌نمایش چاپ/PDF قرارداد یا پیش‌فاکتور ذخیره‌شده را باز می‌کند.",
+          "purpose": "پنجره پیش‌نمایش چاپ/PDF قرارداد یا پیش‌فاکتور ذخیره‌شده را باز می‌کند.",
           "when": "وقتی می‌خواهید قرارداد یا پیش‌فاکتور ذخیره‌شده را پیش از ایجاد PDF بررسی کنید، از این گزینه استفاده کنید.",
-          "how": "در فهرست اسناد ذخیره‌شده، برای قرارداد یا پیش‌فاکتور موردنظر Print / PDF را انتخاب کنید. پیش‌نمایش داخل برنامه باز می‌شود؛ جزئیات را بررسی کنید و برای ساخت فایل، Generate را در نوار ابزار پیش‌نمایش بزنید.",
-          "inputs": "قرارداد یا پیش‌فاکتور ذخیره‌شده صحیح را انتخاب کنید. اطلاعات مشتری، محدوده کار، قیمت و شرایط ذخیره‌شده برای ساخت پیش‌نمایش استفاده می‌شوند.",
-          "result": "سند ذخیره‌شده در یک لایه پیش‌نمایش داخل برنامه باز می‌شود. PDF فقط پس از انتخاب Generate در پیش‌نمایش ایجاد می‌شود.",
-          "notes": "پیش از ایجاد یا اشتراک‌گذاری PDF، مشتری، محدوده کار، قیمت، مراحل پرداخت و شرایط را بررسی کنید."
+          "how": "در فهرست اسناد ذخیره‌شده Contracts، برای سند موردنظر Print / PDF را انتخاب کنید. پیش‌نمایش داخل برنامه باز می‌شود؛ جزئیات را بررسی کنید و برای ساخت فایل، Generate PDF را در نوار ابزار پیش‌نمایش بزنید.",
+          "inputs": "قرارداد یا پیش‌فاکتور ذخیره‌شده صحیح را انتخاب کنید. اطلاعات مشتری، محدوده کار، قیمت، مراحل پرداخت و شرایط ذخیره‌شده برای ساخت پیش‌نمایش استفاده می‌شوند.",
+          "result": "سند ذخیره‌شده در یک پنجره پیش‌نمایش داخل برنامه باز می‌شود. PDF فقط پس از انتخاب Generate PDF در نوار ابزار پیش‌نمایش ایجاد می‌شود.",
+          "notes": "پیش از ایجاد یا اشتراک‌گذاری PDF، مشتری، محدوده کار، قیمت، مراحل پرداخت و شرایط را بررسی کنید. بازکردن پیش‌نمایش، قرارداد ذخیره‌شده را تغییر نمی‌دهد."
         }
       },
       "handler_or_behavior": "`ctPrintSaved(`"
@@ -16484,20 +16484,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Permanently deletes a saved contract or quotation from the contract store.",
-          "when": "Use this only when the saved document is a duplicate or was created in error and should be removed.",
-          "how": "Select Delete on the intended document and approve the confirmation prompt. Check the saved-document list afterward.",
+          "purpose": "Permanently deletes a saved contract or quotation from the Contracts store after confirmation.",
+          "when": "Use this only when the saved document is a duplicate or was created in error and must be removed.",
+          "how": "Select Delete on the intended saved document and approve the confirmation prompt. The app writes the updated contract list to IndexedDB and refreshes the saved-document list after the write succeeds.",
           "inputs": "Select the correct saved contract or quotation and approve the deletion confirmation.",
-          "result": "The selected document is removed from the saved contract list if the storage write succeeds. This action is not a soft-delete workflow.",
-          "notes": "DESTRUCTIVE: the confirmation warns that deletion cannot be undone. Keep copies of issued or agreed contracts and check retention requirements before deleting."
+          "result": "If the IndexedDB write succeeds, the selected document is permanently removed from the saved Contracts list. This action is not a soft-delete workflow.",
+          "notes": "DESTRUCTIVE AND IRREVERSIBLE: the confirmation warns that deletion cannot be undone. Keep copies of issued or agreed contracts and check record-retention requirements before deleting. If the storage write fails, the app reports the failure and does not complete the deletion."
         },
         "fa": {
-          "purpose": "قرارداد یا پیش‌فاکتور ذخیره‌شده را به‌طور دائمی از مخزن قراردادها حذف می‌کند.",
+          "purpose": "پس از تأیید، قرارداد یا پیش‌فاکتور ذخیره‌شده را به‌طور دائمی از مخزن Contracts حذف می‌کند.",
           "when": "فقط زمانی از این گزینه استفاده کنید که سند ذخیره‌شده تکراری است یا اشتباهی ایجاد شده و باید حذف شود.",
-          "how": "در کنار سند موردنظر Delete را انتخاب کنید و پیام تأیید را بپذیرید. سپس فهرست اسناد ذخیره‌شده را بررسی کنید.",
+          "how": "در کنار سند ذخیره‌شده موردنظر Delete را انتخاب و پیام تأیید را بپذیرید. برنامه فهرست به‌روزشده قراردادها را در IndexedDB ذخیره و پس از موفقیت، فهرست اسناد را تازه‌سازی می‌کند.",
           "inputs": "قرارداد یا پیش‌فاکتور ذخیره‌شده صحیح را انتخاب کنید و حذف را در پیام تأیید بپذیرید.",
-          "result": "در صورت موفقیت نوشتن و تأیید در IndexedDB، سند از فهرست قراردادهای ذخیره‌شده حذف می‌شود. این عملیات حذف نرم نیست و سند را به بخش بازیابی‌شدنی منتقل نمی‌کند.",
-          "notes": "مخرب و غیرقابل بازگشت است. پیام تأیید اعلام می‌کند که حذف قابل بازگشت نیست. پیش از حذف، نسخه‌ای از قراردادهای صادرشده یا مورد توافق و الزامات نگهداری اسناد را بررسی کنید."
+          "result": "اگر نوشتن در IndexedDB موفق باشد، سند انتخاب‌شده به‌طور دائمی از فهرست ذخیره‌شده Contracts حذف می‌شود. این عملیات حذف نرم نیست.",
+          "notes": "مخرب و غیرقابل بازگشت است؛ پیام تأیید اعلام می‌کند که حذف قابل بازگشت نیست. پیش از حذف، نسخه‌ای از قراردادهای صادرشده یا مورد توافق و الزامات نگهداری اسناد را بررسی کنید. اگر ذخیره‌سازی شکست بخورد، برنامه خطا را اعلام می‌کند و حذف تکمیل نمی‌شود."
         }
       },
       "handler_or_behavior": "`ctDelete(`"
@@ -16510,20 +16510,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Generates a PDF from the current contract or quotation preview.",
+          "purpose": "Generates an A4 PDF from the current saved contract or quotation preview.",
           "when": "Use this after opening the contract preview when you need a PDF copy to inspect, share or print.",
-          "how": "Select Generate and wait for the PDF-generation status to report that the file is ready. Then use Open PDF or Share PDF.",
-          "inputs": "The current contract or quotation must be displayed in the preview. No separate file selection is required.",
-          "result": "A PDF is generated from the displayed contract or quotation. Open PDF and Share PDF become available when generation succeeds.",
-          "notes": "Review the customer, scope, price, stages and terms before using the PDF. Generation does not send the document to the customer."
+          "how": "Select Generate PDF in the preview toolbar and wait for the PDF-generation status to report that the file is ready. Open PDF and Share PDF become available after successful generation.",
+          "inputs": "The current contract or quotation must be displayed in the preview. The PDF library may need an internet connection to load if it is not already available.",
+          "result": "An A4 PDF is generated from the displayed contract or quotation. Open PDF and Share PDF controls become available when generation succeeds.",
+          "notes": "Review the customer, scope, price, payment stages and terms before using the PDF. Generation does not send the document to the customer. If the PDF library fails to load, check the internet connection and retry."
         },
         "fa": {
-          "purpose": "از پیش‌نمایش قرارداد یا پیش‌فاکتور فعلی فایل PDF ایجاد می‌کند.",
+          "purpose": "از پیش‌نمایش قرارداد یا پیش‌فاکتور فعلی یک فایل PDF در اندازه A4 ایجاد می‌کند.",
           "when": "پس از بازکردن پیش‌نمایش قرارداد، وقتی به نسخه PDF برای بررسی، اشتراک‌گذاری یا چاپ نیاز دارید، از این گزینه استفاده کنید.",
-          "how": "Generate را انتخاب کنید و منتظر بمانید تا وضعیت برنامه آماده‌شدن PDF را اعلام کند. پس از موفقیت، گزینه‌های Open PDF و Share PDF فعال می‌شوند.",
-          "inputs": "قرارداد یا پیش‌فاکتور موردنظر باید در پیش‌نمایش نمایش داده شده باشد. برای ایجاد PDF نیازی به انتخاب فایل جداگانه نیست؛ ممکن است برای بارگذاری کتابخانه PDF اتصال اینترنت لازم باشد.",
-          "result": "PDF از قرارداد یا پیش‌فاکتور نمایش‌داده‌شده ایجاد می‌شود. پس از موفقیت، گزینه‌های Open PDF و Share PDF در دسترس قرار می‌گیرند.",
-          "notes": "پیش از استفاده از PDF، مشتری، محدوده کار، قیمت، مراحل پرداخت و شرایط را بررسی کنید. ایجاد PDF سند را برای مشتری ارسال نمی‌کند."
+          "how": "در نوار ابزار پیش‌نمایش Generate PDF را انتخاب کنید و منتظر بمانید تا وضعیت برنامه آماده‌شدن فایل را اعلام کند. پس از موفقیت، گزینه‌های Open PDF و Share PDF فعال می‌شوند.",
+          "inputs": "قرارداد یا پیش‌فاکتور موردنظر باید در پیش‌نمایش نمایش داده شده باشد. اگر کتابخانه PDF از قبل در دسترس نباشد، برای بارگذاری آن ممکن است اتصال اینترنت لازم باشد.",
+          "result": "از قرارداد یا پیش‌فاکتور نمایش‌داده‌شده یک PDF در اندازه A4 ایجاد می‌شود. پس از موفقیت، کنترل‌های Open PDF و Share PDF در دسترس قرار می‌گیرند.",
+          "notes": "پیش از استفاده از PDF، مشتری، محدوده کار، قیمت، مراحل پرداخت و شرایط را بررسی کنید. ایجاد PDF سند را برای مشتری ارسال نمی‌کند. اگر کتابخانه PDF بارگذاری نشد، اتصال اینترنت را بررسی و دوباره تلاش کنید."
         }
       },
       "handler_or_behavior": "`ctGeneratePDF()`"
@@ -16536,20 +16536,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the PDF generated for the current contract or quotation.",
-          "when": "Use this after the PDF has been generated and you want to inspect it in a browser tab.",
-          "how": "Select Open PDF after the preview reports that the PDF is ready. Use the browser's PDF controls to inspect, print or save it.",
-          "inputs": "A successfully generated contract or quotation PDF must be available.",
-          "result": "The generated PDF opens in a new browser tab. The saved contract record is not changed by viewing the PDF.",
-          "notes": "Check that the correct document opened and that all pages and text are visible."
+          "purpose": "Opens the PDF generated for the current contract or quotation in a new browser tab.",
+          "when": "Use this after the PDF has been generated and you want to inspect it or use the browser PDF viewer's print and save controls.",
+          "how": "Select Open PDF after the preview reports that the PDF is ready. The generated file opens in a new browser tab; use the browser's PDF controls to inspect, print or save it.",
+          "inputs": "A successfully generated contract or quotation PDF must be available in the current preview.",
+          "result": "The generated PDF opens in a new browser tab. Viewing it does not change the saved contract or quotation.",
+          "notes": "Check that the correct document opened and that all pages and text are visible. If the browser blocks the new tab, allow pop-ups and select Open PDF again."
         },
         "fa": {
-          "purpose": "فایل PDF ایجادشده برای قرارداد یا پیش‌فاکتور فعلی را باز می‌کند.",
-          "when": "پس از آماده‌شدن PDF، وقتی می‌خواهید آن را در زبانه مرورگر بررسی کنید، از این گزینه استفاده کنید.",
-          "how": "پس از اعلام آماده‌بودن PDF، Open PDF را انتخاب کنید. فایل در زبانه جدید مرورگر باز می‌شود؛ برای بررسی، چاپ یا ذخیره از کنترل‌های نمایشگر PDF مرورگر استفاده کنید.",
-          "inputs": "PDF قرارداد یا پیش‌فاکتور باید با موفقیت ایجاد شده و در دسترس باشد.",
-          "result": "PDF ایجادشده در زبانه جدید مرورگر باز می‌شود. مشاهده PDF، سابقه قرارداد ذخیره‌شده را تغییر نمی‌دهد.",
-          "notes": "بررسی کنید سند صحیح باز شده و تمام صفحات و متن آن قابل مشاهده است."
+          "purpose": "فایل PDF ایجادشده برای قرارداد یا پیش‌فاکتور فعلی را در زبانه جدید مرورگر باز می‌کند.",
+          "when": "پس از آماده‌شدن PDF، وقتی می‌خواهید آن را بررسی کنید یا از کنترل‌های چاپ و ذخیره نمایشگر PDF مرورگر استفاده کنید، از این گزینه استفاده کنید.",
+          "how": "پس از اعلام آماده‌بودن PDF، Open PDF را انتخاب کنید. فایل ایجادشده در زبانه جدید مرورگر باز می‌شود؛ برای بررسی، چاپ یا ذخیره از کنترل‌های نمایشگر PDF مرورگر استفاده کنید.",
+          "inputs": "PDF قرارداد یا پیش‌فاکتور باید در پیش‌نمایش فعلی با موفقیت ایجاد شده و در دسترس باشد.",
+          "result": "PDF ایجادشده در زبانه جدید مرورگر باز می‌شود. مشاهده آن قرارداد یا پیش‌فاکتور ذخیره‌شده را تغییر نمی‌دهد.",
+          "notes": "بررسی کنید سند صحیح باز شده و تمام صفحات و متن آن قابل مشاهده است. اگر مرورگر زبانه جدید را مسدود کرد، پنجره‌های بازشو را مجاز و دوباره Open PDF را انتخاب کنید."
         }
       },
       "handler_or_behavior": "`ctPrintPDF()`"
@@ -16562,20 +16562,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Shares or downloads the PDF generated for the current contract or quotation.",
-          "when": "Use this after the PDF has been generated and you want to send it or save a copy on your device.",
-          "how": "Select Share PDF. Choose a destination from the device share sheet when available; otherwise use the downloaded PDF from Files.",
+          "purpose": "Shares the generated contract or quotation PDF using the device's file-sharing options, or downloads it when sharing is unavailable.",
+          "when": "Use this after the PDF has been generated and you want to send it or save a local copy on your device.",
+          "how": "Select Share PDF. If the device supports sharing PDF files, choose a destination in the system share sheet. If file sharing is unavailable, the app downloads the PDF so you can share it from Files.",
           "inputs": "A generated contract or quotation PDF is required. Select a destination if the share sheet opens.",
-          "result": "The device share sheet opens when file sharing is supported. Otherwise, the app starts downloading the PDF. The app cannot confirm that another app or service delivered it.",
-          "notes": "Confirm the recipient and review prices, scope and terms before sharing."
+          "result": "The system share sheet opens when file sharing is supported. Otherwise, the app starts downloading the PDF. The app cannot confirm delivery by another app or service.",
+          "notes": "Confirm the recipient and review prices, scope and terms before sharing. Cancelling the share sheet does not mean the document was sent."
         },
         "fa": {
-          "purpose": "PDF ایجادشده برای قرارداد یا پیش‌فاکتور فعلی را به اشتراک می‌گذارد یا دانلود می‌کند.",
-          "when": "پس از ایجاد PDF، وقتی می‌خواهید آن را ارسال کنید یا نسخه‌ای روی دستگاه خود ذخیره کنید، از این گزینه استفاده کنید.",
-          "how": "Share PDF را انتخاب کنید. اگر دستگاه از اشتراک‌گذاری فایل پشتیبانی کند، مقصد را در صفحه اشتراک‌گذاری دستگاه انتخاب کنید؛ در غیر این صورت برنامه دانلود PDF را آغاز می‌کند تا بتوانید آن را از Files ارسال کنید.",
+          "purpose": "PDF ایجادشده برای قرارداد یا پیش‌فاکتور فعلی را با امکانات اشتراک‌گذاری دستگاه به اشتراک می‌گذارد یا در صورت نبود این امکان دانلود می‌کند.",
+          "when": "پس از ایجاد PDF، وقتی می‌خواهید آن را ارسال کنید یا نسخه‌ای محلی روی دستگاه خود ذخیره کنید، از این گزینه استفاده کنید.",
+          "how": "Share PDF را انتخاب کنید. اگر دستگاه از اشتراک‌گذاری فایل PDF پشتیبانی کند، مقصد را در صفحه اشتراک‌گذاری سیستم انتخاب کنید. اگر اشتراک‌گذاری فایل در دسترس نباشد، برنامه PDF را دانلود می‌کند تا بتوانید آن را از Files به اشتراک بگذارید.",
           "inputs": "PDF ایجادشده قرارداد یا پیش‌فاکتور باید در دسترس باشد. اگر صفحه اشتراک‌گذاری باز شد، مقصد موردنظر را انتخاب کنید.",
-          "result": "در صورت پشتیبانی دستگاه، صفحه اشتراک‌گذاری سیستم باز می‌شود؛ در غیر این صورت دانلود PDF آغاز می‌شود. برنامه نمی‌تواند تحویل فایل توسط برنامه یا سرویس دیگر را تأیید کند.",
-          "notes": "پیش از اشتراک‌گذاری، گیرنده و جزئیات قیمت، محدوده کار و شرایط را بررسی کنید. لغو صفحه اشتراک‌گذاری به معنی ارسال موفق نیست."
+          "result": "در صورت پشتیبانی دستگاه، صفحه اشتراک‌گذاری سیستم باز می‌شود؛ در غیر این صورت برنامه دانلود PDF را آغاز می‌کند. برنامه نمی‌تواند تحویل فایل توسط برنامه یا سرویس دیگر را تأیید کند.",
+          "notes": "پیش از اشتراک‌گذاری، گیرنده و جزئیات قیمت، محدوده کار و شرایط را بررسی کنید. لغو صفحه اشتراک‌گذاری به معنی ارسال موفق سند نیست."
         }
       },
       "handler_or_behavior": "`ctSharePDF()`"
