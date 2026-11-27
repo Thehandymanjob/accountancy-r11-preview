@@ -5,6 +5,9 @@
 "use strict";
 const DB=()=>engine().databaseName;
 const FORMAT="tha-v264-indexeddb-snapshot-v1";
+const PREVIEW_DB="the_handyman_accountancy_r11_preview_idb";
+const EMERGENCY_DOMAINS=Object.freeze(["accounting","business_profile","contracts","diagnostics","factory_reset_recovery","help_contact_drafts","media","notifications","preference_meta","preferences","projects","recovery","report_notifications","report_settings","report_workflow","reports","sequences"].sort());
+const gate={stage:false,converted:false,importVerified:false,importFile:null,emergencyVerified:false,emergencyFileVerified:false,emergencyDigest:null,busy:false};
 const SOURCE_SHA="07b6170db9169e3b59d0b4527b88e26d589bd18c178ec9a1b1975b55f403db90";
 const DOMAINS=["accounting","business_profile","contracts","diagnostics","factory_reset_recovery","help_contact_drafts","media","notifications","preference_meta","preferences","projects","recovery","report_notifications","report_settings","report_workflow","reports","sequences"];
 const REQUIRED=["accounting:state","business_profile:identity","contracts:state","projects:state","sequences:invoice-number","preferences:language","preference_meta:language-pref-version","diagnostics:monitor-log","reports:archive","report_notifications:notifications","report_settings:settings","report_workflow:workflow","notifications:items","recovery:last-reset-snapshot","factory_reset_recovery:factory-reset-recovery","help_contact_drafts:drafts","media:assets"];
@@ -58,18 +61,42 @@ async function inspectImportFile(file){
  assert(projects&&Array.isArray(projects.projects)&&Array.isArray(projects.workers),"Project validation failed.");
  return pkg;
 }
+async function verifyEmergencyPackage(pkg,expectedDigest){
+ assert(pkg&&pkg.format==="tha-v264-portable-backup-v1"&&pkg.algorithm==="SHA-256","Invalid emergency snapshot file format or hash algorithm.");
+ assert(pkg.digest===expectedDigest&&/^[a-f0-9]{64}$/i.test(expectedDigest||""),"Emergency snapshot digest does not match the generated snapshot.");
+ const payload=pkg.payload;
+ assert(payload&&payload.format==="tha-v264-indexeddb-snapshot-v1"&&payload.database===PREVIEW_DB&&payload.scope==="full-database","Emergency snapshot has the wrong format, database or scope.");
+ assert(Array.isArray(payload.domains)&&payload.domains.length===17&&payload.domains.slice().sort().join("|")===EMERGENCY_DOMAINS.join("|"),"Emergency snapshot does not contain the exact 17-domain set.");
+ assert(Array.isArray(payload.records)&&payload.records.length>0,"Emergency snapshot contains no records.");
+ const ids=new Set();
+ for(const row of payload.records){
+  assert(row&&EMERGENCY_DOMAINS.includes(row.domain)&&typeof row.key==="string","Emergency snapshot contains an invalid record.");
+  const id=row.domain+":"+encodeURIComponent(row.key);
+  assert(row.id===id&&!ids.has(id),"Emergency snapshot contains an invalid or duplicate record identity.");
+  ids.add(id);
+ }
+ const actual=await digest(new TextEncoder().encode(JSON.stringify(payload)));
+ assert(actual===expectedDigest,"Emergency snapshot payload SHA-256 does not match the generated snapshot.");
+ return {records:payload.records.length,domains:payload.domains.length,digest:actual};
+}
 async function emergencyBackup(){
+ assert(DB()===PREVIEW_DB,"Wrong database. Factory Reset is permitted only in the isolated Preview database.");
  if(root.__thaV264StartupPromise)await root.__thaV264StartupPromise;
  assert(root.__thaV264StartupOk!==false,root.__thaV264StartupError||"Application storage startup failed.");
  assert(typeof root.flushSelectedDomainWrites==="function","Verified save-queue flush is unavailable.");
+ const before=await engine().health();
+ assert(before&&before.ok===true&&before.resetLocked!==true,"Preview database health or reset-lock check failed.");
  for(const scope of ["accounting","projects","contracts","businessProfile","support","media"])await root.flushSelectedDomainWrites(scope);
+ const afterFlush=await engine().health();
+ assert(afterFlush&&afterFlush.ok===true&&afterFlush.resetLocked!==true,"Preview database health check failed after flushing pending writes.");
  const recovery=root.HandymanRecoveryV264;
  assert(recovery&&typeof recovery.createFullBackup==="function","Verified full-database backup engine is unavailable.");
  const result=await recovery.createFullBackup();
- assert(result&&result.ok===true&&result.verification&&result.verification.ok===true&&result.verification.domains===17,"Full emergency backup verification failed.");
+ assert(result&&result.ok===true&&result.blob&&result.blob.size>0&&result.verification&&result.verification.ok===true&&result.verification.domains===17&&Number.isInteger(result.verification.records)&&result.verification.records>0&&/^[a-f0-9]{64}$/i.test(result.verification.digest||""),"Full emergency backup verification failed.");
  return result;
 }
 async function resetWithImport(file){
+ assert(DB()===PREVIEW_DB,"Wrong database. Reset blocked outside the isolated Preview database.");
  const e=engine(),pkg=await inspectImportFile(file);
  const health=await e.health();assert(health&&health.ok===true,"Database health check failed.");
  let cleared=false;
@@ -110,61 +137,148 @@ async function resetWithImport(file){
   throw error;
  }
 }
+function setFinalGate(){
+ const final=$("factoryResetFinalButton");
+ if(!final)return false;
+ const file=$("factoryResetConvertedFile")?.files?.[0]||null;
+ const ready=gate.stage&&gate.converted&&gate.importVerified&&file&&file===gate.importFile&&gate.emergencyVerified&&gate.emergencyFileVerified&&gate.emergencyDigest&&$("factoryResetConfirmEmergency")?.checked===true&&$("factoryResetConfirmPhrase")?.value.trim()==="RESET 273"&&gate.busy===false&&DB()===PREVIEW_DB;
+ final.disabled=!ready;
+ return !!ready;
+}
+function resetGateState(){
+ gate.stage=false;gate.converted=false;gate.importVerified=false;gate.importFile=null;gate.emergencyVerified=false;gate.emergencyFileVerified=false;gate.emergencyDigest=null;gate.busy=false;
+ const final=$("factoryResetFinalButton");if(final)final.disabled=true;
+ const emergency=$("factoryResetEmergencyButton");if(emergency)emergency.disabled=true;
+ const confirm=$("factoryResetConfirmEmergency");if(confirm){confirm.checked=false;confirm.disabled=true;}
+ const snapshotInput=$("factoryResetEmergencyFile");if(snapshotInput){snapshotInput.value="";snapshotInput.disabled=true;}
+ setFinalGate();
+}
+async function validateSelectedImport(){
+ const input=$("factoryResetConvertedFile"),file=input&&input.files&&input.files[0];
+ gate.importVerified=false;gate.importFile=null;gate.emergencyVerified=false;gate.emergencyFileVerified=false;gate.emergencyDigest=null;
+ const confirm=$("factoryResetConfirmEmergency");if(confirm){confirm.checked=false;confirm.disabled=true;}
+ const snapshotInput=$("factoryResetEmergencyFile");if(snapshotInput){snapshotInput.value="";snapshotInput.disabled=true;}
+ const emergency=$("factoryResetEmergencyButton");if(emergency)emergency.disabled=true;
+ setFinalGate();
+ if(!file){setStatus("Select the converted backup file.",true);return;}
+ try{
+  await inspectImportFile(file);
+  gate.importVerified=true;gate.importFile=file;
+  if(emergency)emergency.disabled=false;
+  setStatus("Converted backup independently validated: exact Preview database target, 17/17 domains, all required record IDs, unique IDs and data structures passed. Create the emergency snapshot next.",false);
+ }catch(e){
+  gate.importVerified=false;gate.importFile=null;
+  setStatus("Converted backup validation failed: "+(e.message||e),true);
+ }
+ setFinalGate();
+}
 async function convertAction(){
+ gate.converted=false;gate.importVerified=false;gate.importFile=null;gate.emergencyVerified=false;gate.emergencyDigest=null;
+ const input=$("factoryResetConvertedFile");if(input){input.value="";input.disabled=true;}
+ const emergency=$("factoryResetEmergencyButton");if(emergency)emergency.disabled=true;
+ const confirm=$("factoryResetConfirmEmergency");if(confirm){confirm.checked=false;confirm.disabled=true;}
+ const snapshotInput=$("factoryResetEmergencyFile");if(snapshotInput){snapshotInput.value="";snapshotInput.disabled=true;}
+ setFinalGate();
  try{
   setStatus("Checking source backup…",false);
   const result=await convertLegacy($("factoryResetSourceFile").files[0]);
   downloadText("tha-v273-indexeddb-import.json",JSON.stringify(result.pkg));
-  root.__thaV273Converted=true;
-  $("factoryResetConvertedFile").disabled=false;
-  $("factoryResetEmergencyButton").disabled=false;
-  setStatus("Conversion successful. Domains: 17/17. Entries: "+result.stats.entries+". Customers: "+result.stats.customers+". Invoices: "+result.stats.invoices+". Projects: "+result.stats.projects+". Subprojects: "+result.stats.subprojects+". Next invoice: "+result.stats.invoiceNext+". Select the downloaded converted file below.",false);
- }catch(e){root.__thaV273Converted=false;setStatus("Conversion stopped: "+(e.message||e),true);}
+  gate.converted=true;
+  if(input)input.disabled=false;
+  setStatus("Conversion completed. Source fingerprint, required sections, record identities and 17-domain package structure passed. Select the downloaded converted file below; it must be independently re-read and validated before continuing.",false);
+ }catch(e){
+  gate.converted=false;setStatus("Conversion stopped: "+(e.message||e),true);
+ }
+ setFinalGate();
 }
 async function emergencyAction(){
  try{
+  assert(gate.importVerified===true&&gate.importFile===($("factoryResetConvertedFile").files[0]||null),"Select and validate the converted backup before creating the emergency snapshot.");
+  gate.emergencyVerified=false;gate.emergencyFileVerified=false;gate.emergencyDigest=null;
+  const confirm=$("factoryResetConfirmEmergency");if(confirm){confirm.checked=false;confirm.disabled=true;}
+  const snapshotInput=$("factoryResetEmergencyFile");if(snapshotInput){snapshotInput.value="";snapshotInput.disabled=true;}
+  setFinalGate();
   const result=await emergencyBackup();
   const filename="THA-v273-before-reset-emergency-full-backup.json";
+  await verifyEmergencyPackage(JSON.parse(await result.blob.text()),result.verification.digest);
   const url=root.URL.createObjectURL(result.blob),a=root.document.createElement("a");
   a.href=url;a.download=filename;root.document.body.appendChild(a);a.click();a.remove();
   root.setTimeout(()=>root.URL.revokeObjectURL(url),60000);
-  root.__thaV273EmergencyCreated=true;
-  $("factoryResetConfirmEmergency").disabled=false;
-  setStatus("Verified emergency full backup prepared: "+result.verification.records+" persisted records across "+result.verification.domains+" domains. SHA-256: "+result.verification.digest+". Save the downloaded file in Files before proceeding.",false);
- }catch(e){root.__thaV273EmergencyCreated=false;setStatus("Emergency backup failed: "+(e.message||e),true);}
+  gate.emergencyVerified=true;gate.emergencyFileVerified=false;gate.emergencyDigest=result.verification.digest;
+  var savedSnapshotInput=$("factoryResetEmergencyFile");if(savedSnapshotInput){savedSnapshotInput.disabled=false;savedSnapshotInput.value="";}
+  if(confirm){confirm.checked=false;confirm.disabled=true;}
+  setStatus("Emergency snapshot generated and verified. Save it in Files, then select that saved file below. Its SHA-256 must match the generated snapshot before the final confirmation can be enabled.",false);
+ }catch(e){
+  gate.emergencyVerified=false;gate.emergencyFileVerified=false;gate.emergencyDigest=null;
+  const confirm=$("factoryResetConfirmEmergency");if(confirm){confirm.checked=false;confirm.disabled=true;}
+  const snapshotInput=$("factoryResetEmergencyFile");if(snapshotInput){snapshotInput.value="";snapshotInput.disabled=true;}
+  setStatus("Emergency backup failed: "+(e.message||e),true);
+ }
+ setFinalGate();
+}
+async function validateEmergencyFile(){
+ gate.emergencyFileVerified=false;
+ const confirm=$("factoryResetConfirmEmergency");if(confirm){confirm.checked=false;confirm.disabled=true;}
+ const file=$("factoryResetEmergencyFile")?.files?.[0];
+ if(!file||!gate.emergencyVerified||!gate.emergencyDigest){setFinalGate();return;}
+ try{
+  assert(file.size>0,"The selected emergency snapshot is empty.");
+  const pkg=JSON.parse(await file.text());
+  const verified=await verifyEmergencyPackage(pkg,gate.emergencyDigest);
+  assert($("factoryResetEmergencyFile").files[0]===file,"The selected emergency snapshot changed during verification.");
+  gate.emergencyFileVerified=true;
+  if(confirm)confirm.disabled=false;
+  setStatus("Saved emergency snapshot file verified: "+verified.records+" records across "+verified.domains+" domains. Payload SHA-256 matches the generated snapshot.",false);
+ }catch(e){
+  gate.emergencyFileVerified=false;
+  setStatus("Emergency snapshot file verification failed: "+(e.message||e),true);
+ }
+ setFinalGate();
 }
 async function finalAction(){
+ if(gate.busy)return;
  try{
-  assert(root.__thaV273Converted===true,"Convert the approved original backup first.");
-  assert(root.__thaV273EmergencyCreated===true,"Create the emergency snapshot first.");
-  assert($("factoryResetConfirmEmergency").checked===true,"Confirm that the emergency snapshot file is saved.");
-  const file=$("factoryResetConvertedFile").files[0];await inspectImportFile(file);
-  const phrase=$("factoryResetConfirmPhrase").value.trim();
-  assert(phrase==="RESET 273","Type RESET 273 exactly to authorize the reset.");
-  $("factoryResetFinalButton").disabled=true;
-  setStatus("Reset in progress. Do not close this page…",false);
-  const result=await resetWithImport(file);
+  assert(DB()===PREVIEW_DB,"Wrong database. Reset blocked outside the isolated Preview database.");
+  assert(gate.converted===true&&gate.importVerified===true,"The converted backup has not passed independent validation.");
+  assert(gate.importFile&&$("factoryResetConvertedFile").files[0]===gate.importFile,"The selected converted backup changed after validation. Validate it again.");
+  assert(gate.emergencyVerified===true&&gate.emergencyFileVerified===true&&/^[a-f0-9]{64}$/i.test(gate.emergencyDigest||""),"The saved emergency snapshot file has not passed SHA-256 verification.");
+  assert($("factoryResetConfirmEmergency").checked===true,"Confirm that the verified emergency snapshot file has been saved.");
+  assert($("factoryResetConfirmPhrase").value.trim()==="RESET 273","Type RESET 273 exactly to authorize the reset.");
+  await inspectImportFile(gate.importFile);
+  const health=await engine().health();
+  assert(health&&health.ok===true,"Preview database health check failed immediately before reset.");
+  gate.busy=true;setFinalGate();
+  setStatus("Final checks passed. Reset in progress. Do not close this page…",false);
+  const result=await resetWithImport(gate.importFile);
   setStatus("SUCCESS — restored and verified "+result.restored+" records across 17 domains. Reloading…",false);
-  setTimeout(()=>root.location.reload(),1200);
+  root.setTimeout(()=>root.location.reload(),1200);
+  gate.busy=true;setFinalGate();return;
  }catch(e){
-  $("factoryResetFinalButton").disabled=false;
-  setStatus((e.resetLockActive?"RECOVERY LOCK ACTIVE — keep this page open and retry using the converted backup. ":"Reset stopped — ")+(e.message||e),true);
+  gate.busy=false;
+  if(!e.resetLockActive){gate.emergencyVerified=false;gate.emergencyFileVerified=false;gate.emergencyDigest=null;const confirm=$("factoryResetConfirmEmergency");if(confirm){confirm.checked=false;confirm.disabled=true;}const savedSnapshotInput=$("factoryResetEmergencyFile");if(savedSnapshotInput){savedSnapshotInput.value="";savedSnapshotInput.disabled=true;}}
+  setStatus((e.resetLockActive?"RECOVERY LOCK ACTIVE — keep this page open and retry using the validated converted backup. ":"Reset stopped — ")+(e.message||e),true);
  }
+ gate.busy=false;setFinalGate();
 }
-function updateFinalAvailability(){
- const final=$("factoryResetFinalButton");
- if(!final)return;
- const ready=root.__thaV273Converted===true&&root.__thaV273EmergencyCreated===true&&$("factoryResetConfirmEmergency").checked===true&&$("factoryResetConfirmPhrase").value.trim()==="RESET 273"&&$("factoryResetConvertedFile").files.length===1;
- final.disabled=!ready;
-}
+function updateFinalAvailability(){setFinalGate();}
 function bind(){
  const convert=$("factoryResetConvertButton"),emergency=$("factoryResetEmergencyButton"),final=$("factoryResetFinalButton");
  if(convert)convert.addEventListener("click",convertAction);
  if(emergency)emergency.addEventListener("click",emergencyAction);
  if(final)final.addEventListener("click",finalAction);
- ["factoryResetConfirmEmergency","factoryResetConfirmPhrase","factoryResetConvertedFile"].forEach(id=>{const el=$(id);if(el)el.addEventListener("input",updateFinalAvailability);if(el)el.addEventListener("change",updateFinalAvailability);});
- updateFinalAvailability();
+ const source=$("factoryResetSourceFile");
+ if(source)source.addEventListener("change",()=>{resetGateState();gate.stage=true;setFinalGate();});
+ const converted=$("factoryResetConvertedFile");
+ if(converted)converted.addEventListener("change",validateSelectedImport);
+ const savedSnapshotInput=$("factoryResetEmergencyFile");if(savedSnapshotInput)savedSnapshotInput.addEventListener("change",validateEmergencyFile);
+ ["factoryResetConfirmEmergency","factoryResetConfirmPhrase"].forEach(id=>{const el=$(id);if(el){el.addEventListener("input",updateFinalAvailability);el.addEventListener("change",updateFinalAvailability);}});
+ // Fail closed on first render and after each modal transition.
+ resetGateState();
+ const originalOpen=root.openFactoryReset;
+ if(typeof originalOpen==="function")root.openFactoryReset=function(){resetGateState();return originalOpen.apply(this,arguments);};
+ const originalNext=root.factoryResetNextStep;
+ if(typeof originalNext==="function")root.factoryResetNextStep=function(){const result=originalNext.apply(this,arguments);gate.stage=true;setFinalGate();return result;};
 }
 if(root.document.readyState==="loading")root.document.addEventListener("DOMContentLoaded",bind);else bind();
-root.HandymanV273LegacyReset=Object.freeze({convertLegacy,inspectImportFile,emergencyBackup,resetWithImport});
+root.HandymanV273LegacyReset=Object.freeze({convertLegacy,inspectImportFile,emergencyBackup,refreshFinalAvailability:setFinalGate});
 })(window);
