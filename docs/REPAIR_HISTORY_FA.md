@@ -662,7 +662,7 @@
 - **محتوا / مرزبندی:** هر شش شناسه CONTENT_COMPLETE هستند. راهنمای Tax Calendar به‌معنای ثبت/پرداخت مالیات نیست؛ Reports & Tax نیز اظهارنامه را خودکار به HMRC ارسال نمی‌کند. تنظیمات Accountant email فقط تنظیم گیرنده و وضعیت اتصال را توضیح می‌دهد و ادعای ارسال ایمیل نمی‌کند.
 - **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R56`.
 - **اتصال‌ها پس از R56:** ۵۶ کنترل؛ ۵۱ ایستا و ۵ پویا. ۳۹ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
-- **تست ایستا:** هر شش selector در Runtime allowlist ثبت شده‌اند؛ escaping رشته‌های CSS در JavaScript اصلاح و بازبینی شد. Version Authority Gate برای R56 باید اجرا شود.
+- **تست ایستا:** هر شش selector در Runtime allowlist ثبت شده‌اند؛ escaping رشته‌های CSS در JavaScript اصلاح و بازبینی شد. **Version Authority Gate:** PASS؛ run `46070014067` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070014067؛ هویت Build R56، canonical URL، SHA فایل index و تمام ۲۴ فایل pinشده تأیید شدند.
 - **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ بازشدن راهنمای هر گزینه، حفظ مقصد navigation، انتخاب زبان و چیدمان موبایل باید در Preview بررسی شوند.
 - **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
 
