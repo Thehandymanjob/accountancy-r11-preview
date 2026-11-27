@@ -15567,11 +15567,11 @@
         },
         "ar": {
           "purpose": "يحذف سجلاً موجوداً للمشروع.",
-          "when": "فقط عندما يكون سجل المشروع مكرراً أو غير صحيح ويجب إزالته بعد التحقق.",
-          "how": "اختر Delete بجانب الصف المطلوب وراجع رسالة التأكيد.",
-          "inputs": "حدد سجل المشروع الصحيح وتحقق من تفاصيله قبل تأكيد الحذف.",
+          "when": "فقط عندما يكون سجل المشروع مكرراً أو خاطئاً ويجب إزالته بعد التحقق.",
+          "how": "اختر Delete بجانب الصف المقصود وراجع رسالة التأكيد.",
+          "inputs": "حدد سجل المشروع الصحيح وراجع تفاصيله قبل تأكيد الحذف.",
           "result": "يُزال السجل أو يُعطّل إذا قبل التطبيق العملية وأكدها.",
-          "notes": "قد يؤثر الحذف في إجماليات المشروع وسجله التاريخي. تحقق من السجل المحدد واحتفظ بالأدلة اللازمة أولاً."
+          "notes": "قد يؤثر الحذف في إجماليات المشروع وسجله التاريخي. تحقق من السجل واحتفظ بالأدلة اللازمة أولاً."
         },
         "ckb": {
           "purpose": "تۆمارێکی هەبووی پرۆژە دەسڕێتەوە.",
@@ -15579,7 +15579,7 @@
           "how": "لە تەنیشت ڕیزی مەبەست Delete هەڵبژێرە و نامەی پشتڕاستکردنەوە بپشکنە.",
           "inputs": "تۆماری دروستی پرۆژە هەڵبژێرە و پێش پشتڕاستکردنەوەی سڕینەوە وردەکارییەکانی بپشکنە.",
           "result": "تۆمارەکە لادەبرێت یان ناچالاک دەکرێت ئەگەر ئەپەکە کردارەکە قبووڵ و پشتڕاست بکاتەوە.",
-          "notes": "سڕینەوە دەتوانێت کاریگەری لەسەر کۆی پرۆژە و مێژووی بکات. سەرەتا تۆماری هەڵبژێردراو بپشکنە و بەڵگە پێویستەکان بپارێزە."
+          "notes": "سڕینەوە دەتوانێت کۆی پرۆژە و مێژووی بگۆڕێت. سەرەتا تۆمارەکە بپشکنە و بەڵگە پێویستەکان بپارێزە."
         },
         "kmr": {
           "purpose": "Tomareke heyî ya projeyê jê dike.",
@@ -15587,7 +15587,7 @@
           "how": "Li kêleka rêza xwestî Delete hilbijêre û peyama piştrastkirinê kontrol bike.",
           "inputs": "Tomara projeya rast hilbijêre û berî piştrastkirina jêbirinê hûrguliyên wê kontrol bike.",
           "result": "Tomar tê rakirin an neçalak kirin heke sepan kiryarê qebûl û piştrast bike.",
-          "notes": "Jêbirin dikare bandorê li tevahiyên projeyê û dîroka wê bike. Pêşî tomara hilbijartî kontrol bike û delîlên pêwîst biparêze."
+          "notes": "Jêbirin dikare tevahiyên projeyê û dîroka wê bandor bike. Pêşî tomarê kontrol bike û delîlên pêwîst biparêze."
         },
         "tr": {
           "purpose": "Mevcut bir proje kaydını siler.",
@@ -15595,7 +15595,7 @@
           "how": "İlgili satırın yanındaki Delete'i seçin ve onay mesajını inceleyin.",
           "inputs": "Doğru proje kaydını seçin ve silmeyi onaylamadan önce ayrıntılarını kontrol edin.",
           "result": "Uygulama işlemi kabul edip onaylarsa kayıt kaldırılır veya devre dışı bırakılır.",
-          "notes": "Silme işlemi proje toplamlarını ve geçmişini etkileyebilir. Önce seçilen kaydı doğrulayın ve gerekli kanıtları saklayın."
+          "notes": "Silme işlemi proje toplamlarını ve geçmişini etkileyebilir. Önce kaydı doğrulayın ve gerekli kanıtları saklayın."
         },
         "pl": {
           "purpose": "Usuwa istniejący rekord projektu.",
@@ -15603,7 +15603,7 @@
           "how": "Wybierz Delete obok właściwego wiersza i sprawdź komunikat potwierdzający.",
           "inputs": "Wybierz właściwy rekord projektu i przed potwierdzeniem usunięcia sprawdź jego szczegóły.",
           "result": "Rekord zostanie usunięty lub dezaktywowany, jeśli aplikacja zaakceptuje i potwierdzi operację.",
-          "notes": "Usunięcie może wpłynąć na sumy i historię projektu. Najpierw sprawdź wybrany rekord i zachowaj potrzebne dowody."
+          "notes": "Usunięcie może wpłynąć na sumy i historię projektu. Najpierw sprawdź rekord i zachowaj wymagane dowody."
         },
         "ur": {
           "purpose": "موجودہ پروجیکٹ ریکارڈ حذف کرتا ہے۔",
@@ -15611,15 +15611,15 @@
           "how": "متعلقہ قطار کے ساتھ Delete منتخب کریں اور تصدیقی پیغام دیکھیں۔",
           "inputs": "درست پروجیکٹ ریکارڈ منتخب کریں اور حذف کی تصدیق سے پہلے اس کی تفصیلات چیک کریں۔",
           "result": "ایپ کارروائی قبول اور تصدیق کرے تو ریکارڈ ہٹا یا غیر فعال ہو جاتا ہے۔",
-          "notes": "حذف کرنے سے پروجیکٹ کے مجموعے اور تاریخ متاثر ہو سکتے ہیں۔ پہلے منتخب ریکارڈ چیک کریں اور ضروری ثبوت محفوظ رکھیں۔"
+          "notes": "حذف کرنے سے پروجیکٹ کے مجموعے اور تاریخ متاثر ہو سکتے ہیں۔ پہلے ریکارڈ کی تصدیق کریں اور ضروری ثبوت محفوظ رکھیں۔"
         },
         "pa": {
           "purpose": "ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਮਿਟਾਉਂਦਾ ਹੈ।",
           "when": "ਸਿਰਫ਼ ਜਦੋਂ ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਡੁਪਲੀਕੇਟ ਜਾਂ ਗਲਤ ਹੋਵੇ ਅਤੇ ਜਾਂਚ ਤੋਂ ਬਾਅਦ ਹਟਾਉਣਾ ਲੋੜੀਂਦਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
           "how": "ਸੰਬੰਧਿਤ ਕਤਾਰ ਦੇ ਨਾਲ Delete ਚੁਣੋ ਅਤੇ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਵੇਖੋ।",
-          "inputs": "ਸਹੀ ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਮਿਟਾਉਣ ਦੀ ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਇਸਦੇ ਵੇਰਵੇ ਜਾਂਚੋ।",
+          "inputs": "ਸਹੀ ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਮਿਟਾਉਣ ਦੀ ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਵੇਰਵੇ ਜਾਂਚੋ।",
           "result": "ਐਪ ਕਾਰਵਾਈ ਸਵੀਕਾਰ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਰਿਕਾਰਡ ਹਟਾਇਆ ਜਾਂ ਅਕਿਰਿਆਸ਼ੀਲ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।",
-          "notes": "ਮਿਟਾਉਣ ਨਾਲ ਪ੍ਰੋਜੈਕਟ ਦੇ ਕੁੱਲ ਅਤੇ ਇਤਿਹਾਸ ਪ੍ਰਭਾਵਿਤ ਹੋ ਸਕਦੇ ਹਨ। ਪਹਿਲਾਂ ਚੁਣਿਆ ਰਿਕਾਰਡ ਜਾਂਚੋ ਅਤੇ ਲੋੜੀਂਦੇ ਸਬੂਤ ਸੰਭਾਲੋ।"
+          "notes": "ਮਿਟਾਉਣ ਨਾਲ ਪ੍ਰੋਜੈਕਟ ਦੇ ਕੁੱਲ ਅਤੇ ਇਤਿਹਾਸ ਪ੍ਰਭਾਵਿਤ ਹੋ ਸਕਦੇ ਹਨ। ਪਹਿਲਾਂ ਰਿਕਾਰਡ ਜਾਂਚੋ ਅਤੇ ਲੋੜੀਂਦੇ ਸਬੂਤ ਸੰਭਾਲੋ।"
         },
         "prs": {
           "purpose": "یک سابقه موجود پروژه را حذف می‌کند.",
@@ -15627,7 +15627,7 @@
           "how": "در کنار ردیف موردنظر Delete را انتخاب کنید و پیام تأیید را بررسی کنید.",
           "inputs": "سابقه درست پروژه را انتخاب کنید و پیش از تأیید حذف جزئیات آن را بررسی کنید.",
           "result": "در صورت پذیرش و تأیید برنامه، سابقه حذف یا غیرفعال می‌شود.",
-          "notes": "حذف ممکن است بر جمع‌ها و تاریخچه پروژه اثر بگذارد. ابتدا سابقه انتخاب‌شده را بررسی و مدارک لازم را نگه دارید."
+          "notes": "حذف ممکن است بر جمع‌ها و تاریخچه پروژه اثر بگذارد. ابتدا سابقه را بررسی و مدارک لازم را نگه دارید."
         },
         "ps": {
           "purpose": "د پروژې موجود ریکارډ ړنګوي.",
@@ -15635,7 +15635,7 @@
           "how": "د اړوند قطار تر څنګ Delete وټاکئ او د تایید پیغام وګورئ.",
           "inputs": "د پروژې سم ریکارډ وټاکئ او د ړنګولو له تایید مخکې یې جزئیات وګورئ.",
           "result": "که اپلیکیشن کړنه ومني او تایید یې کړي، ریکارډ لرې یا غیرفعال کېږي.",
-          "notes": "ړنګول د پروژې پر ټولیزو شمېرو او تاریخ اغېز کولی شي. لومړی ټاکل شوی ریکارډ وګورئ او اړین اسناد وساتئ."
+          "notes": "ړنګول د پروژې پر ټولیزو شمېرو او تاریخ اغېز کولی شي. لومړی ریکارډ وګورئ او اړین شواهد وساتئ."
         }
       },
       "handler_or_behavior": "`prDeleteRow(`"
@@ -15665,74 +15665,74 @@
         },
         "ar": {
           "purpose": "يختار عاملاً من قائمة اختيار العمال.",
-          "when": "عندما تريد تعيين عامل من القائمة إلى الاختيار الحالي.",
-          "how": "اختر صف العامل المطلوب في القائمة لتعيينه إلى الاختيار الحالي.",
-          "inputs": "حدد العامل الصحيح وتحقق من اسمه وأي تفاصيل تعريفية متاحة.",
-          "result": "يُحدد العامل ويُعيّن إلى الاختيار الحالي.",
-          "notes": "تحقق من الاسم وأي معلومات تعريفية متاحة قبل الاختيار؛ فقد تتشابه أسماء العمال."
+          "when": "عندما تريد تعيين عامل من القائمة إلى العنصر المحدد حالياً.",
+          "how": "اختر صف العامل في القائمة لتعيينه إلى العنصر المحدد حالياً.",
+          "inputs": "حدد العامل الصحيح وتحقق من اسمه وتفاصيل التعريف المتاحة.",
+          "result": "يُربط العامل المحدد بالاختيار الحالي.",
+          "notes": "تحقق من الاسم وأي تفاصيل تعريف متاحة قبل الاختيار؛ فقد تتشابه أسماء العمال."
         },
         "ckb": {
-          "purpose": "کارمەندێک لە پێڕستی هەڵبژاردنی کارمەند هەڵدەبژێرێت.",
-          "when": "کاتێک دەتەوێت کارمەندێک لە پێڕستەکەوە بۆ هەڵبژاردنی ئێستا دیاری بکەیت.",
-          "how": "ڕیزی کارمەندی مەبەست لە پێڕستەکە هەڵبژێرە بۆ دیاریکردنی بۆ هەڵبژاردنی ئێستا.",
-          "inputs": "کارمەندی دروست هەڵبژێرە و ناو و هەر زانیارییەکی ناساندنی بەردەست بپشکنە.",
-          "result": "کارمەندەکە هەڵدەبژێردرێت و بۆ هەڵبژاردنی ئێستا دیاری دەکرێت.",
-          "notes": "پێش هەڵبژاردن ناو و هەر زانیارییەکی ناساندن بپشکنە؛ ناوی کارمەندان دەتوانێت لەیەک بچێت."
+          "purpose": "کارمەندێک لە لیستی هەڵبژاردنی کارمەند هەڵدەبژێرێت.",
+          "when": "کاتێک دەتەوێت کارمەندێک لە لیستەکە بۆ هەڵبژاردەی ئێستا دیاری بکەیت.",
+          "how": "ڕیزی کارمەندی مەبەست لە لیستەکە هەڵبژێرە بۆ دیاریکردنی بۆ هەڵبژاردەی ئێستا.",
+          "inputs": "کارمەندی دروست هەڵبژێرە و ناو و وردەکارییە ناسێنەرە بەردەستەکانی بپشکنە.",
+          "result": "کارمەندی هەڵبژێردراو بە هەڵبژاردەی ئێستا دەبەسترێتەوە.",
+          "notes": "پێش هەڵبژاردن ناو و هەر وردەکارییەکی ناسێنەر بپشکنە؛ ناوی کارمەندان دەتوانێت لێک بچێت."
         },
         "kmr": {
-          "purpose": "Karkerekî ji lîsteya hilbijartina karkeran hilbijêre.",
-          "when": "Dema ku tu dixwazî karkerekî ji lîsteyê ji bo hilbijartina niha destnîşan bikî.",
-          "how": "Rêza karkerê xwestî di lîsteyê de hilbijêre da ku ew ji bo hilbijartina niha destnîşan bike.",
-          "inputs": "Karkera rast hilbijêre û nav û her hûrguliya nasnameyê ya berdest kontrol bike.",
-          "result": "Karker tê hilbijartin û ji bo hilbijartina niha destnîşan dibe.",
-          "notes": "Berî hilbijartinê nav û hûrguliyên nasnameyê yên berdest kontrol bike; navên karkeran dikarin dişibin hev."
+          "purpose": "Karkerêk ji lîsteya hilbijartina karkeran hilbijêre.",
+          "when": "Dema ku tu dixwazî karkerêk ji lîsteyê ji bo hilbijartina niha destnîşan bikî.",
+          "how": "Rêza karkerê xwestî di lîsteyê de hilbijêre da ku wî ji bo hilbijartina niha destnîşan bike.",
+          "inputs": "Karkerê rast hilbijêre û nav û hûrguliyên nasnameyê yên berdest kontrol bike.",
+          "result": "Karkerê hilbijartî bi hilbijartina niha ve tê girêdan.",
+          "notes": "Berî hilbijartinê nav û her hûrguliyeke nasnameyê kontrol bike; navên karkeran dikarin nêzî hev bin."
         },
         "tr": {
           "purpose": "Çalışan seçici listesinden bir çalışan seçer.",
           "when": "Listeden bir çalışanı geçerli seçime atamak istediğinizde kullanın.",
-          "how": "Çalışanı geçerli seçime atamak için listedeki ilgili çalışanın satırını seçin.",
-          "inputs": "Doğru çalışanı seçin ve adını ve mevcut kimlik bilgilerini kontrol edin.",
-          "result": "Çalışan seçilir ve geçerli seçime atanır.",
-          "notes": "Seçmeden önce adı ve mevcut kimlik bilgilerini kontrol edin; benzer isimler karışıklığa yol açabilir."
+          "how": "Çalışanı geçerli seçime atamak için listedeki ilgili çalışan satırını seçin.",
+          "inputs": "Doğru çalışanı seçin ve adını ve mevcut kimlik bilgilerini doğrulayın.",
+          "result": "Seçilen çalışan geçerli seçime bağlanır.",
+          "notes": "Seçmeden önce adı ve mevcut kimlik bilgilerini kontrol edin; benzer isimleri karıştırmak kolaydır."
         },
         "pl": {
           "purpose": "Wybiera pracownika z listy wyboru pracowników.",
           "when": "Użyj, gdy chcesz przypisać pracownika z listy do bieżącego wyboru.",
           "how": "Wybierz wiersz właściwego pracownika na liście, aby przypisać go do bieżącego wyboru.",
-          "inputs": "Wybierz właściwego pracownika i sprawdź jego imię oraz dostępne dane identyfikacyjne.",
-          "result": "Pracownik zostanie wybrany i przypisany do bieżącego wyboru.",
-          "notes": "Przed wyborem sprawdź imię i dostępne dane identyfikacyjne; podobne nazwiska mogą łatwo wprowadzić w błąd."
+          "inputs": "Wybierz właściwego pracownika i sprawdź jego nazwę oraz dostępne dane identyfikacyjne.",
+          "result": "Wybrany pracownik zostanie przypisany do bieżącego wyboru.",
+          "notes": "Przed wyborem sprawdź nazwę i dostępne dane identyfikacyjne; podobne nazwiska łatwo pomylić."
         },
         "ur": {
-          "purpose": "ورکر منتخب کرنے کی فہرست سے ایک ورکر چنتا ہے۔",
-          "when": "جب فہرست سے کسی ورکر کو موجودہ انتخاب کے لیے مقرر کرنا ہو تو استعمال کریں۔",
-          "how": "موجودہ انتخاب کے لیے ورکر مقرر کرنے کے لیے فہرست میں اس کی قطار منتخب کریں۔",
-          "inputs": "درست ورکر منتخب کریں اور اس کا نام اور دستیاب شناختی تفصیل چیک کریں۔",
-          "result": "ورکر منتخب ہو کر موجودہ انتخاب کے لیے مقرر ہو جاتا ہے۔",
-          "notes": "منتخب کرنے سے پہلے نام اور دستیاب شناختی تفصیل چیک کریں؛ ملتے جلتے ناموں میں غلطی ہو سکتی ہے۔"
+          "purpose": "کارکن منتخب کرنے کی فہرست سے ایک کارکن چنتا ہے۔",
+          "when": "جب فہرست میں سے کسی کارکن کو موجودہ انتخاب کے لیے مقرر کرنا ہو تو استعمال کریں۔",
+          "how": "کارکن کو موجودہ انتخاب کے لیے مقرر کرنے کے لیے فہرست میں اس کی قطار منتخب کریں۔",
+          "inputs": "درست کارکن منتخب کریں اور اس کا نام اور دستیاب شناختی تفصیلات چیک کریں۔",
+          "result": "منتخب کارکن موجودہ انتخاب کے ساتھ منسلک ہو جاتا ہے۔",
+          "notes": "منتخب کرنے سے پہلے نام اور دستیاب شناختی تفصیلات چیک کریں؛ ملتے جلتے ناموں میں غلطی ہو سکتی ہے۔"
         },
         "pa": {
-          "purpose": "ਵਰਕਰ ਚੋਣ ਸੂਚੀ ਵਿੱਚੋਂ ਇੱਕ ਵਰਕਰ ਚੁਣਦਾ ਹੈ।",
-          "when": "ਜਦੋਂ ਸੂਚੀ ਵਿੱਚੋਂ ਕਿਸੇ ਵਰਕਰ ਨੂੰ ਮੌਜੂਦਾ ਚੋਣ ਲਈ ਨਿਰਧਾਰਤ ਕਰਨਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਮੌਜੂਦਾ ਚੋਣ ਲਈ ਵਰਕਰ ਨਿਰਧਾਰਤ ਕਰਨ ਵਾਸਤੇ ਸੂਚੀ ਵਿੱਚ ਉਸਦੀ ਕਤਾਰ ਚੁਣੋ।",
-          "inputs": "ਸਹੀ ਵਰਕਰ ਚੁਣੋ ਅਤੇ ਉਸਦਾ ਨਾਮ ਅਤੇ ਉਪਲਬਧ ਪਛਾਣ ਵੇਰਵੇ ਜਾਂਚੋ।",
-          "result": "ਵਰਕਰ ਚੁਣਿਆ ਜਾਂਦਾ ਹੈ ਅਤੇ ਮੌਜੂਦਾ ਚੋਣ ਲਈ ਨਿਰਧਾਰਤ ਹੁੰਦਾ ਹੈ।",
-          "notes": "ਚੋਣ ਤੋਂ ਪਹਿਲਾਂ ਨਾਮ ਅਤੇ ਉਪਲਬਧ ਪਛਾਣ ਵੇਰਵੇ ਜਾਂਚੋ؛ ਮਿਲਦੇ-ਜੁਲਦੇ ਨਾਮਾਂ ਨਾਲ ਗਲਤੀ ਹੋ ਸਕਦੀ ਹੈ।"
+          "purpose": "ਕਰਮਚਾਰੀ ਚੋਣ ਸੂਚੀ ਵਿੱਚੋਂ ਇੱਕ ਕਰਮਚਾਰੀ ਚੁਣਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਸੂਚੀ ਵਿੱਚੋਂ ਕਰਮਚਾਰੀ ਨੂੰ ਮੌਜੂਦਾ ਚੋਣ ਲਈ ਨਿਯੁਕਤ ਕਰਨਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਕਰਮਚਾਰੀ ਨੂੰ ਮੌਜੂਦਾ ਚੋਣ ਲਈ ਨਿਯੁਕਤ ਕਰਨ ਵਾਸਤੇ ਸੂਚੀ ਵਿੱਚ ਉਸਦੀ ਕਤਾਰ ਚੁਣੋ।",
+          "inputs": "ਸਹੀ ਕਰਮਚਾਰੀ ਚੁਣੋ ਅਤੇ ਨਾਮ ਅਤੇ ਉਪਲਬਧ ਪਛਾਣ ਵੇਰਵੇ ਜਾਂਚੋ।",
+          "result": "ਚੁਣਿਆ ਕਰਮਚਾਰੀ ਮੌਜੂਦਾ ਚੋਣ ਨਾਲ ਜੁੜ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਚੋਣ ਤੋਂ ਪਹਿਲਾਂ ਨਾਮ ਅਤੇ ਉਪਲਬਧ ਪਛਾਣ ਵੇਰਵੇ ਜਾਂਚੋ؛ ਮਿਲਦੇ-ਜੁਲਦੇ ਨਾਮਾਂ ਵਿੱਚ ਗਲਤੀ ਹੋ ਸਕਦੀ ਹੈ।"
         },
         "prs": {
-          "purpose": "یک کارگر را از فهرست انتخاب کارگران برمی‌گزیند.",
+          "purpose": "یک کارگر را از فهرست انتخاب کارگر برمی‌گزیند.",
           "when": "وقتی می‌خواهید کارگری را از فهرست به انتخاب فعلی اختصاص دهید، استفاده کنید.",
-          "how": "برای اختصاص کارگر به انتخاب فعلی، ردیف او را در فهرست انتخاب کنید.",
-          "inputs": "کارگر درست را انتخاب کنید و نام و جزئیات شناسایی موجود را بررسی کنید.",
-          "result": "کارگر انتخاب و به انتخاب فعلی اختصاص داده می‌شود.",
-          "notes": "پیش از انتخاب نام و اطلاعات شناسایی موجود را بررسی کنید؛ نام‌های مشابه ممکن است اشتباه شوند."
+          "how": "ردیف کارگر موردنظر را در فهرست انتخاب کنید تا به انتخاب فعلی اختصاص یابد.",
+          "inputs": "کارگر درست را انتخاب کنید و نام و اطلاعات شناسایی موجود را بررسی کنید.",
+          "result": "کارگر انتخاب‌شده به انتخاب فعلی مرتبط می‌شود.",
+          "notes": "پیش از انتخاب نام و اطلاعات شناسایی موجود را بررسی کنید؛ اشتباه گرفتن نام‌های مشابه آسان است."
         },
         "ps": {
           "purpose": "د کارکوونکو د ټاکلو له لېست څخه یو کارکوونکی ټاکي.",
-          "when": "کله چې له لېست څخه یو کارکوونکی اوسني انتخاب ته ټاکل غواړئ، دا وکاروئ.",
-          "how": "اوسني انتخاب ته د کارکوونکي د ټاکلو لپاره په لېست کې د هغه قطار وټاکئ.",
+          "when": "کله چې له لېست څخه کارکوونکی اوسني انتخاب ته ګومارل غواړئ، دا وکاروئ.",
+          "how": "د کارکوونکي د اوسني انتخاب لپاره د لېست د هغه کس قطار وټاکئ.",
           "inputs": "سم کارکوونکی وټاکئ او نوم او شته پېژندنیز معلومات یې وګورئ.",
-          "result": "کارکوونکی ټاکل کېږي او اوسني انتخاب ته ګومارل کېږي.",
+          "result": "ټاکل شوی کارکوونکی له اوسني انتخاب سره تړل کېږي.",
           "notes": "له ټاکلو مخکې نوم او شته پېژندنیز معلومات وګورئ؛ ورته نومونه په اسانۍ سره ګډوډېدای شي."
         }
       },
@@ -15763,75 +15763,75 @@
         },
         "ar": {
           "purpose": "ينهي اختيار العامل ويغلق القائمة.",
-          "when": "بعد اختيار العامل المطلوب عندما تريد إغلاق قائمة اختيار العمال.",
-          "how": "اختر Done بعد إتمام اختيار العامل المطلوب.",
-          "inputs": "تحقق من اختيار العامل الصحيح قبل إغلاق القائمة.",
-          "result": "تُغلق قائمة اختيار العمال ويُحتفظ بالاختيار الحالي.",
-          "notes": "تأكد من اختيار العامل الصحيح قبل إغلاق نافذة الاختيار."
+          "when": "بعد اختيار العامل المطلوب، عندما تكون جاهزاً لإغلاق قائمة اختيار العامل.",
+          "how": "اختر Done بعد تحديد العامل المطلوب.",
+          "inputs": "تأكد من تحديد العامل الصحيح قبل إغلاق القائمة.",
+          "result": "تُغلق قائمة اختيار العامل ويُحتفظ بالاختيار الحالي.",
+          "notes": "تحقق من اختيار العامل الصحيح قبل إغلاق القائمة."
         },
         "ckb": {
-          "purpose": "هەڵبژاردنی کارمەند تەواو دەکات و پێڕستەکە دادەخات.",
-          "when": "دوای هەڵبژاردنی کارمەندی مەبەست، کاتێک دەتەوێت پێڕستی هەڵبژاردنی کارمەند دابخەیت.",
-          "how": "دوای تەواوکردنی هەڵبژاردنی کارمەند Done هەڵبژێرە.",
-          "inputs": "پێش داخستنی پێڕستەکە دڵنیابە کارمەندی دروست هەڵبژێردراوە.",
-          "result": "پێڕستی هەڵبژاردنی کارمەند دادەخرێت و هەڵبژاردنی ئێستا دەمێنێتەوە.",
-          "notes": "پێش داخستنی پەنجەرەی هەڵبژاردن دڵنیابە کارمەندی دروست هەڵبژێردراوە."
+          "purpose": "هەڵبژاردنی کارمەند تەواو دەکات و لیستەکە دادەخات.",
+          "when": "دوای هەڵبژاردنی کارمەندی مەبەست، کاتێک ئامادەیت لیستی هەڵبژاردنی کارمەند دابخەیت.",
+          "how": "دوای هەڵبژاردنی کارمەندی مەبەست Done هەڵبژێرە.",
+          "inputs": "پێش داخستنی لیستەکە دڵنیابە کارمەندی دروست هەڵبژێردراوە.",
+          "result": "لیستی هەڵبژاردنی کارمەند دادەخرێت و هەڵبژاردەی ئێستا دەمێنێتەوە.",
+          "notes": "پێش داخستنی لیستەکە دڵنیابە کارمەندی دروست هەڵبژێردراوە."
         },
         "kmr": {
           "purpose": "Hilbijartina karkerê temam dike û lîsteyê digire.",
-          "when": "Piştî hilbijartina karkerê xwestî, dema ku dixwazî lîsteya hilbijartina karkeran bigirî.",
-          "how": "Piştî çêkirina hilbijartina karkerê xwestî Done hilbijêre.",
+          "when": "Piştî hilbijartina karkerê xwestî, dema ku tu amade yî hilbijêra karkeran bigirî.",
+          "how": "Piştî hilbijartina karkerê xwestî Done hilbijêre.",
           "inputs": "Berî girtina lîsteyê piştrast bike ku karkerê rast hatiye hilbijartin.",
           "result": "Lîsteya hilbijartina karkeran tê girtin û hilbijartina niha dimîne.",
-          "notes": "Berî girtina paceya hilbijartinê piştrast bike ku karkerê rast hatiye hilbijartin."
+          "notes": "Berî girtina lîsteyê piştrast bike ku karkerê rast hilbijartiye."
         },
         "tr": {
           "purpose": "Çalışan seçimini tamamlar ve listeyi kapatır.",
-          "when": "İstenen çalışanı seçtikten sonra çalışan seçici listesini kapatmak istediğinizde kullanın.",
+          "when": "İstenen çalışanı seçtikten sonra çalışan seçici listesini kapatmaya hazır olduğunuzda kullanın.",
           "how": "İstenen çalışanı seçtikten sonra Done'u seçin.",
           "inputs": "Listeyi kapatmadan önce doğru çalışanın seçildiğini doğrulayın.",
           "result": "Çalışan seçici listesi kapanır ve geçerli seçim korunur.",
-          "notes": "Seçim penceresini kapatmadan önce doğru çalışanın seçildiğinden emin olun."
+          "notes": "Listeyi kapatmadan önce doğru çalışanın seçildiğini kontrol edin."
         },
         "pl": {
           "purpose": "Kończy wybór pracownika i zamyka listę.",
           "when": "Użyj po wybraniu właściwego pracownika, gdy chcesz zamknąć listę wyboru.",
-          "how": "Po dokonaniu wyboru pracownika wybierz Done.",
+          "how": "Po wybraniu właściwego pracownika wybierz Done.",
           "inputs": "Przed zamknięciem listy upewnij się, że wybrano właściwego pracownika.",
           "result": "Lista wyboru pracownika zostanie zamknięta, a bieżący wybór zachowany.",
-          "notes": "Przed zamknięciem okna wyboru upewnij się, że wybrano właściwego pracownika."
+          "notes": "Przed zamknięciem listy sprawdź, czy wybrano właściwego pracownika."
         },
         "ur": {
-          "purpose": "ورکر کا انتخاب مکمل کرکے فہرست بند کرتا ہے۔",
-          "when": "مطلوبہ ورکر منتخب کرنے کے بعد ورکر انتخاب کی فہرست بند کرنی ہو تو استعمال کریں۔",
-          "how": "ورکر کا انتخاب مکمل کرنے کے بعد Done منتخب کریں۔",
-          "inputs": "فہرست بند کرنے سے پہلے تصدیق کریں کہ درست ورکر منتخب ہے۔",
-          "result": "ورکر انتخاب کی فہرست بند ہو جاتی ہے اور موجودہ انتخاب برقرار رہتا ہے۔",
-          "notes": "انتخابی ونڈو بند کرنے سے پہلے یقینی بنائیں کہ درست ورکر منتخب کیا گیا ہے۔"
+          "purpose": "کارکن کا انتخاب مکمل کرکے فہرست بند کرتا ہے۔",
+          "when": "مطلوبہ کارکن منتخب کرنے کے بعد، جب کارکن انتخاب کی فہرست بند کرنی ہو تو استعمال کریں۔",
+          "how": "مطلوبہ کارکن منتخب کرنے کے بعد Done منتخب کریں۔",
+          "inputs": "فہرست بند کرنے سے پہلے تصدیق کریں کہ درست کارکن منتخب ہے۔",
+          "result": "کارکن انتخاب کی فہرست بند ہو جاتی ہے اور موجودہ انتخاب برقرار رہتا ہے۔",
+          "notes": "فہرست بند کرنے سے پہلے چیک کریں کہ درست کارکن منتخب ہے۔"
         },
         "pa": {
-          "purpose": "ਵਰਕਰ ਦੀ ਚੋਣ ਪੂਰੀ ਕਰਦਾ ਹੈ ਅਤੇ ਸੂਚੀ ਬੰਦ ਕਰਦਾ ਹੈ।",
-          "when": "ਲੋੜੀਂਦਾ ਵਰਕਰ ਚੁਣਨ ਤੋਂ ਬਾਅਦ ਵਰਕਰ ਚੋਣ ਸੂਚੀ ਬੰਦ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਵਰਕਰ ਦੀ ਚੋਣ ਕਰਨ ਤੋਂ ਬਾਅਦ Done ਚੁਣੋ।",
-          "inputs": "ਸੂਚੀ ਬੰਦ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਪੁਸ਼ਟੀ ਕਰੋ ਕਿ ਸਹੀ ਵਰਕਰ ਚੁਣਿਆ ਹੈ।",
-          "result": "ਵਰਕਰ ਚੋਣ ਸੂਚੀ ਬੰਦ ਹੋ ਜਾਂਦੀ ਹੈ ਅਤੇ ਮੌਜੂਦਾ ਚੋਣ ਬਰਕਰਾਰ ਰਹਿੰਦੀ ਹੈ।",
-          "notes": "ਚੋਣ ਵਿੰਡੋ ਬੰਦ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਸਹੀ ਵਰਕਰ ਚੁਣਿਆ ਗਿਆ ਹੈ।"
+          "purpose": "ਕਰਮਚਾਰੀ ਦੀ ਚੋਣ ਪੂਰੀ ਕਰਕੇ ਸੂਚੀ ਬੰਦ ਕਰਦਾ ਹੈ।",
+          "when": "ਲੋੜੀਂਦਾ ਕਰਮਚਾਰੀ ਚੁਣਨ ਤੋਂ ਬਾਅਦ ਜਦੋਂ ਕਰਮਚਾਰੀ ਚੋਣ ਸੂਚੀ ਬੰਦ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਲੋੜੀਂਦਾ ਕਰਮਚਾਰੀ ਚੁਣਨ ਤੋਂ ਬਾਅਦ Done ਚੁਣੋ।",
+          "inputs": "ਸੂਚੀ ਬੰਦ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਸਹੀ ਕਰਮਚਾਰੀ ਚੁਣਿਆ ਹੈ।",
+          "result": "ਕਰਮਚਾਰੀ ਚੋਣ ਸੂਚੀ ਬੰਦ ਹੋ ਜਾਂਦੀ ਹੈ ਅਤੇ ਮੌਜੂਦਾ ਚੋਣ ਕਾਇਮ ਰਹਿੰਦੀ ਹੈ।",
+          "notes": "ਸੂਚੀ ਬੰਦ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਜਾਂਚੋ ਕਿ ਸਹੀ ਕਰਮਚਾਰੀ ਚੁਣਿਆ ਹੈ।"
         },
         "prs": {
-          "purpose": "انتخاب کارگر را تکمیل و فهرست را می‌بندد.",
-          "when": "پس از انتخاب کارگر موردنظر، وقتی می‌خواهید فهرست انتخاب کارگر را ببندید، استفاده کنید.",
+          "purpose": "انتخاب کارگر را پایان می‌دهد و فهرست را می‌بندد.",
+          "when": "پس از انتخاب کارگر موردنظر، وقتی آماده بستن فهرست انتخاب کارگر هستید، استفاده کنید.",
           "how": "پس از انتخاب کارگر موردنظر Done را انتخاب کنید.",
           "inputs": "پیش از بستن فهرست مطمئن شوید کارگر درست انتخاب شده است.",
           "result": "فهرست انتخاب کارگر بسته می‌شود و انتخاب فعلی حفظ می‌شود.",
-          "notes": "پیش از بستن پنجره انتخاب مطمئن شوید کارگر درست انتخاب شده است."
+          "notes": "پیش از بستن فهرست بررسی کنید که کارگر درست انتخاب شده باشد."
         },
         "ps": {
-          "purpose": "د کارکوونکي ټاکنه بشپړوي او لېست بندوي.",
-          "when": "د اړوند کارکوونکي له ټاکلو وروسته، کله چې د کارکوونکو د ټاکلو لېست بندول غواړئ، دا وکاروئ.",
-          "how": "د کارکوونکي د ټاکنې له بشپړېدو وروسته Done وټاکئ.",
-          "inputs": "د لېست له بندولو مخکې ډاډ ترلاسه کړئ چې سم کارکوونکی ټاکل شوی دی.",
-          "result": "د کارکوونکي د ټاکلو لېست بندېږي او اوسنی انتخاب ساتل کېږي.",
-          "notes": "د ټاکلو کړکۍ له بندولو مخکې ډاډ ترلاسه کړئ چې سم کارکوونکی ټاکل شوی دی."
+          "purpose": "د کارکوونکي ټاکنه بشپړوي او لېست تړي.",
+          "when": "د مطلوب کارکوونکي له ټاکلو وروسته، کله چې د کارکوونکي د ټاکلو لېست تړل غواړئ، دا وکاروئ.",
+          "how": "د مطلوب کارکوونکي له ټاکلو وروسته Done وټاکئ.",
+          "inputs": "د لېست له تړلو مخکې ډاډ ترلاسه کړئ چې سم کارکوونکی ټاکل شوی دی.",
+          "result": "د کارکوونکي د ټاکلو لېست تړل کېږي او اوسنی انتخاب ساتل کېږي.",
+          "notes": "د لېست له تړلو مخکې وګورئ چې سم کارکوونکی ټاکل شوی دی."
         }
       },
       "handler_or_behavior": "`prCloseWorkerListPicker()`"
@@ -15861,75 +15861,75 @@
         },
         "ar": {
           "purpose": "يفتح إدارة العمال من مساحة عمل المشروع.",
-          "when": "عندما تريد الانتقال إلى قائمة العمال أو صفحة إدارتهم.",
+          "when": "عندما تريد فتح قائمة العمال أو صفحة إدارتهم.",
           "how": "اختر Manage Workers لفتح قائمة العمال أو صفحة الإدارة.",
-          "inputs": "حدد مساحة العمل الحالية وانتقل إلى إدارة العمال.",
-          "result": "تُفتح صفحة إدارة العمال أو قائمة العمال.",
-          "notes": "ينقلك هذا الخيار إلى إدارة العمال؛ لا تعدّل بيانات شخص أو تحذفها إلا بعد التأكد من السجل الصحيح."
+          "inputs": "انتقل إلى إدارة العمال من مساحة عمل المشروع الحالية.",
+          "result": "تُفتح صفحة إدارة العمال أو قائمتهم.",
+          "notes": "هذا الخيار ينقلك إلى إدارة العمال؛ لا تعدّل بيانات شخص أو تحذفها إلا بعد التحقق من السجل الصحيح."
         },
         "ckb": {
-          "purpose": "بەڕێوەبردنی کارمەندان لە فضای کاری پرۆژە دەکاتەوە.",
-          "when": "کاتێک دەتەوێت بچیت بۆ پێڕست یان پەڕەی بەڕێوەبردنی کارمەندان.",
-          "how": "Manage Workers هەڵبژێرە بۆ کردنەوەی پێڕستی کارمەندان یان پەڕەی بەڕێوەبردن.",
-          "inputs": "لە فضای کاری ئێستا بەڕێوەبردنی کارمەندان هەڵبژێرە.",
-          "result": "پەڕەی بەڕێوەبردنی کارمەندان یان پێڕستەکە دەکرێتەوە.",
-          "notes": "ئەم هەڵبژاردەیە تەنها دەچێتە بەڕێوەبردنی کارمەندان؛ پێش دەستکاریکردن یان سڕینەوە تۆماری کەسەکە پشتڕاست بکەرەوە."
+          "purpose": "لە فضای کاری پرۆژەوە بەڕێوەبردنی کارمەندان دەکاتەوە.",
+          "when": "کاتێک دەتەوێت لیستی کارمەندان یان پەڕەی بەڕێوەبردنیان بکەیتەوە.",
+          "how": "Manage Workers هەڵبژێرە بۆ کردنەوەی لیستی کارمەندان یان پەڕەی بەڕێوەبردن.",
+          "inputs": "لە فضای کاری ئێستای پرۆژەوە بچۆ بۆ بەڕێوەبردنی کارمەندان.",
+          "result": "پەڕەی بەڕێوەبردنی کارمەندان یان لیستەکەی دەکرێتەوە.",
+          "notes": "ئەم هەڵبژاردەیە تەنها دەچێتە بەڕێوەبردنی کارمەندان؛ پێش دەستکاریکردن یان سڕینەوەی کەسێک تۆماری دروست پشتڕاست بکەرەوە."
         },
         "kmr": {
-          "purpose": "Rêveberiya karkeran ji qada projeyê vedike.",
-          "when": "Dema ku tu dixwazî biçî lîsteya karkeran an rûpela rêveberiyê.",
+          "purpose": "Ji qada projeyê rêveberiya karkeran vedike.",
+          "when": "Dema ku tu dixwazî lîsteya karkeran an rûpela rêveberiyê veke.",
           "how": "Manage Workers hilbijêre da ku lîsteya karkeran an rûpela rêveberiyê veke.",
-          "inputs": "Ji qada xebata niha rêveberiya karkeran hilbijêre.",
+          "inputs": "Ji qada projeya niha biçê rêveberiya karkeran.",
           "result": "Rûpela rêveberiya karkeran an lîsteya wan vedibe.",
-          "notes": "Ev tenê te digihîne rêveberiya karkeran; tenê piştî piştrastkirina tomara rast agahiyên kesekî biguherîne an jê bibe."
+          "notes": "Ev vebijark tenê te digihîne rêveberiya karkeran; berî guherandin an jêbirina kesekî tomara rast piştrast bike."
         },
         "tr": {
           "purpose": "Proje çalışma alanından çalışan yönetimini açar.",
-          "when": "Çalışan listesine veya yönetim sayfasına gitmek istediğinizde kullanın.",
+          "when": "Çalışan listesini veya yönetim sayfasını açmak istediğinizde kullanın.",
           "how": "Çalışan listesini veya yönetim sayfasını açmak için Manage Workers'ı seçin.",
-          "inputs": "Geçerli çalışma alanından çalışan yönetimine gidin.",
-          "result": "Çalışan yönetimi sayfası veya listesi açılır.",
-          "notes": "Bu işlem çalışan yönetimine gider; doğru kaydı doğrulamadan bir kişinin bilgilerini düzenlemeyin veya silmeyin."
+          "inputs": "Geçerli proje çalışma alanından çalışan yönetimine gidin.",
+          "result": "Çalışan yönetim sayfası veya listesi açılır.",
+          "notes": "Bu seçenek çalışan yönetimine gider; doğru kaydı doğrulamadan bir kişiyi düzenlemeyin veya silmeyin."
         },
         "pl": {
           "purpose": "Otwiera zarządzanie pracownikami z obszaru roboczego projektu.",
-          "when": "Użyj, gdy chcesz przejść do listy pracowników lub strony zarządzania.",
+          "when": "Użyj, gdy chcesz otworzyć listę pracowników lub stronę zarządzania nimi.",
           "how": "Wybierz Manage Workers, aby otworzyć listę pracowników lub stronę zarządzania.",
-          "inputs": "Przejdź do zarządzania pracownikami z bieżącego obszaru roboczego.",
-          "result": "Otwiera się strona zarządzania pracownikami lub lista pracowników.",
-          "notes": "Ta czynność tylko przechodzi do zarządzania pracownikami; edytuj lub usuwaj dane osoby dopiero po potwierdzeniu właściwego rekordu."
+          "inputs": "Przejdź do zarządzania pracownikami z bieżącego obszaru roboczego projektu.",
+          "result": "Otwiera się strona lub lista zarządzania pracownikami.",
+          "notes": "Ta opcja tylko przechodzi do zarządzania pracownikami; przed edycją lub usunięciem osoby potwierdź właściwy rekord."
         },
         "ur": {
-          "purpose": "پروجیکٹ ورک اسپیس سے ورکر مینجمنٹ کھولتا ہے۔",
-          "when": "جب ورکرز کی فہرست یا مینجمنٹ صفحے پر جانا ہو تو استعمال کریں۔",
-          "how": "ورکرز کی فہرست یا مینجمنٹ صفحہ کھولنے کے لیے Manage Workers منتخب کریں۔",
-          "inputs": "موجودہ ورک اسپیس سے ورکر مینجمنٹ پر جائیں۔",
-          "result": "ورکر مینجمنٹ صفحہ یا فہرست کھل جاتی ہے۔",
-          "notes": "یہ صرف ورکر مینجمنٹ پر لے جاتا ہے؛ درست ریکارڈ کی تصدیق کے بغیر کسی شخص کی معلومات تبدیل یا حذف نہ کریں۔"
+          "purpose": "پروجیکٹ ورک اسپیس سے کارکنوں کا انتظام کھولتا ہے۔",
+          "when": "جب کارکنوں کی فہرست یا انتظامی صفحہ کھولنا ہو تو استعمال کریں۔",
+          "how": "کارکنوں کی فہرست یا انتظامی صفحہ کھولنے کے لیے Manage Workers منتخب کریں۔",
+          "inputs": "موجودہ پروجیکٹ ورک اسپیس سے کارکنوں کے انتظام پر جائیں۔",
+          "result": "کارکنوں کا انتظامی صفحہ یا فہرست کھل جاتی ہے۔",
+          "notes": "یہ اختیار صرف کارکنوں کے انتظام پر لے جاتا ہے؛ کسی شخص میں ترمیم یا حذف سے پہلے درست ریکارڈ کی تصدیق کریں۔"
         },
         "pa": {
-          "purpose": "ਪ੍ਰੋਜੈਕਟ ਵਰਕਸਪੇਸ ਤੋਂ ਵਰਕਰ ਪ੍ਰਬੰਧਨ ਖੋਲ੍ਹਦਾ ਹੈ।",
-          "when": "ਜਦੋਂ ਵਰਕਰ ਸੂਚੀ ਜਾਂ ਪ੍ਰਬੰਧਨ ਪੰਨੇ 'ਤੇ ਜਾਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਵਰਕਰ ਸੂਚੀ ਜਾਂ ਪ੍ਰਬੰਧਨ ਪੰਨਾ ਖੋਲ੍ਹਣ ਲਈ Manage Workers ਚੁਣੋ।",
-          "inputs": "ਮੌਜੂਦਾ ਵਰਕਸਪੇਸ ਤੋਂ ਵਰਕਰ ਪ੍ਰਬੰਧਨ 'ਤੇ ਜਾਓ।",
-          "result": "ਵਰਕਰ ਪ੍ਰਬੰਧਨ ਪੰਨਾ ਜਾਂ ਸੂਚੀ ਖੁੱਲ੍ਹਦੀ ਹੈ।",
-          "notes": "ਇਹ ਸਿਰਫ਼ ਵਰਕਰ ਪ੍ਰਬੰਧਨ 'ਤੇ ਲੈ ਜਾਂਦਾ ਹੈ؛ ਸਹੀ ਰਿਕਾਰਡ ਦੀ ਪੁਸ਼ਟੀ ਤੋਂ ਬਾਅਦ ਹੀ ਕਿਸੇ ਵਿਅਕਤੀ ਦੀ ਜਾਣਕਾਰੀ ਸੋਧੋ ਜਾਂ ਮਿਟਾਓ।"
+          "purpose": "ਪ੍ਰੋਜੈਕਟ ਵਰਕਸਪੇਸ ਤੋਂ ਕਰਮਚਾਰੀ ਪ੍ਰਬੰਧਨ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਕਰਮਚਾਰੀ ਸੂਚੀ ਜਾਂ ਪ੍ਰਬੰਧਨ ਪੰਨਾ ਖੋਲ੍ਹਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਕਰਮਚਾਰੀ ਸੂਚੀ ਜਾਂ ਪ੍ਰਬੰਧਨ ਪੰਨਾ ਖੋਲ੍ਹਣ ਲਈ Manage Workers ਚੁਣੋ।",
+          "inputs": "ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਵਰਕਸਪੇਸ ਤੋਂ ਕਰਮਚਾਰੀ ਪ੍ਰਬੰਧਨ 'ਤੇ ਜਾਓ।",
+          "result": "ਕਰਮਚਾਰੀ ਪ੍ਰਬੰਧਨ ਪੰਨਾ ਜਾਂ ਸੂਚੀ ਖੁੱਲ੍ਹਦੀ ਹੈ।",
+          "notes": "ਇਹ ਵਿਕਲਪ ਸਿਰਫ਼ ਕਰਮਚਾਰੀ ਪ੍ਰਬੰਧਨ 'ਤੇ ਲੈ ਜਾਂਦਾ ਹੈ؛ ਕਿਸੇ ਵਿਅਕਤੀ ਨੂੰ ਸੋਧਣ ਜਾਂ ਮਿਟਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਸਹੀ ਰਿਕਾਰਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।"
         },
         "prs": {
           "purpose": "مدیریت کارگران را از فضای کاری پروژه باز می‌کند.",
-          "when": "وقتی می‌خواهید به فهرست کارگران یا صفحه مدیریت بروید، استفاده کنید.",
-          "how": "برای بازکردن فهرست کارگران یا صفحه مدیریت Manage Workers را انتخاب کنید.",
-          "inputs": "از فضای کاری فعلی به مدیریت کارگران بروید.",
+          "when": "وقتی می‌خواهید فهرست کارگران یا صفحه مدیریت را باز کنید، استفاده کنید.",
+          "how": "برای باز کردن فهرست کارگران یا صفحه مدیریت Manage Workers را انتخاب کنید.",
+          "inputs": "از فضای کاری فعلی پروژه به بخش مدیریت کارگران بروید.",
           "result": "صفحه یا فهرست مدیریت کارگران باز می‌شود.",
-          "notes": "این گزینه فقط به مدیریت کارگران می‌رود؛ پیش از ویرایش یا حذف اطلاعات یک شخص، سابقه درست را تأیید کنید."
+          "notes": "این گزینه فقط به بخش مدیریت کارگران می‌رود؛ پیش از ویرایش یا حذف فرد، سابقه درست را تأیید کنید."
         },
         "ps": {
           "purpose": "د پروژې له کاري ځای څخه د کارکوونکو مدیریت پرانیزي.",
-          "when": "کله چې د کارکوونکو لېست یا د مدیریت پاڼې ته تلل غواړئ، دا وکاروئ.",
+          "when": "کله چې د کارکوونکو لېست یا د مدیریت پاڼه پرانیستل غواړئ، دا وکاروئ.",
           "how": "د کارکوونکو د لېست یا مدیریت پاڼې د پرانیستلو لپاره Manage Workers وټاکئ.",
-          "inputs": "له اوسني کاري ځای څخه د کارکوونکو مدیریت ته لاړ شئ.",
+          "inputs": "د پروژې له اوسني کاري ځای څخه د کارکوونکو مدیریت ته لاړ شئ.",
           "result": "د کارکوونکو د مدیریت پاڼه یا لېست پرانیستل کېږي.",
-          "notes": "دا یوازې د کارکوونکو مدیریت ته ځي؛ د سم ریکارډ له تایید پرته د چا معلومات مه سموی او مه ړنګوئ."
+          "notes": "دا اختیار یوازې د کارکوونکو مدیریت ته ځي؛ د چا له سمون یا ړنګولو مخکې سم ریکارډ تایید کړئ."
         }
       },
       "handler_or_behavior": "`prPage(\\`"
@@ -15958,76 +15958,76 @@
           "notes": "پیش از تغییر اطلاعات تماس یا کاری، هویت فرد را بررسی کنید."
         },
         "ar": {
-          "purpose": "يفتح بيانات عامل أو جهة اتصال بالمشروع محفوظة لتعديلها.",
+          "purpose": "يفتح بيانات عامل أو جهة اتصال محفوظة لتعديلها.",
           "when": "عندما تحتاج إلى تحديث بيانات العمل أو الاتصال لشخص محفوظ.",
-          "how": "اختر Edit بجانب الشخص المطلوب، وعدّل الحقول المتاحة ثم احفظ.",
+          "how": "اختر Edit بجانب الشخص المقصود، وعدّل الحقول المتاحة ثم احفظ.",
           "inputs": "حدد سجل الشخص الصحيح وراجع بيانات الاتصال أو العمل التي تريد تغييرها.",
           "result": "يُحدّث السجل إذا نجح التحقق وأكد التطبيق التغيير.",
-          "notes": "تحقق من هوية الشخص قبل تغيير معلومات الاتصال أو العمل."
+          "notes": "تحقق من هوية الشخص قبل تغيير بيانات الاتصال أو العمل."
         },
         "ckb": {
-          "purpose": "زانیاری کار یان پەیوەندیی کەسێکی پاشەکەوتکراو لە پێڕستی کارمەندان یان کەسانی پرۆژە دەستکاری دەکات.",
+          "purpose": "وردەکارییەکانی کار یان پەیوەندیی کەسێکی پاشەکەوتکراو دەستکاری دەکات.",
           "when": "کاتێک پێویستە زانیاری کار یان پەیوەندیی کەسێکی پاشەکەوتکراو نوێ بکەیتەوە.",
           "how": "لە تەنیشت کەسی مەبەست Edit هەڵبژێرە، خانە بەردەستەکان بگۆڕە و پاشەکەوت بکە.",
-          "inputs": "تۆماری کەسی دروست هەڵبژێرە و زانیاری پەیوەندی یان کاری کە دەتەوێت بگۆڕیت بپشکنە.",
-          "result": "تۆمارەکە نوێ دەکرێتەوە ئەگەر پشتڕاستکردنەوە سەرکەوتوو بێت و ئەپەکە گۆڕانکارییەکە پشتڕاست بکاتەوە.",
+          "inputs": "تۆماری دروستی کەسەکە هەڵبژێرە و زانیاری پەیوەندی یان کاری مەبەست بپشکنە.",
+          "result": "ئەگەر پشتڕاستکردنەوە سەرکەوتوو بێت و ئەپەکە گۆڕانکارییەکە پشتڕاست بکاتەوە، تۆمارەکە نوێ دەکرێتەوە.",
           "notes": "پێش گۆڕینی زانیاری پەیوەندی یان کار، ناسنامەی کەسەکە پشتڕاست بکەرەوە."
         },
         "kmr": {
-          "purpose": "Hûrguliyên kar an têkiliyê yên kesekî tomarkirî ji lîsteya karkeran an têkiliyên projeyê diguherîne.",
+          "purpose": "Hûrguliyên kar an têkiliyê yên kesekî tomarkirî diguherîne.",
           "when": "Dema ku tu hewceyî nûkirina agahiyên kar an têkiliyê yên kesekî tomarkirî yî.",
           "how": "Li kêleka kesê xwestî Edit hilbijêre, qadên berdest biguherîne û tomar bike.",
           "inputs": "Tomara kesê rast hilbijêre û agahiyên têkiliyê an karê ku dixwazî biguherînî kontrol bike.",
           "result": "Tomar tê nûkirin heke kontrol serkeftî be û sepan guherînê piştrast bike.",
-          "notes": "Berî guherandina agahiyên têkiliyê an kar nasnameya kesê piştrast bike."
+          "notes": "Berî guherandina agahiyên têkiliyê an kar nasnameya kesê kontrol bike."
         },
         "tr": {
-          "purpose": "Kaydedilmiş bir kişinin çalışan veya proje iletişim bilgilerini düzenler.",
-          "when": "Kaydedilmiş bir kişinin iş veya iletişim bilgilerini güncellemeniz gerektiğinde kullanın.",
-          "how": "İlgili kişinin yanındaki Edit'i seçin, kullanılabilir alanları değiştirin ve kaydedin.",
+          "purpose": "Kayıtlı bir kişinin çalışan veya proje iletişim bilgilerini düzenler.",
+          "when": "Kayıtlı bir kişinin iş veya iletişim bilgilerini güncellemeniz gerektiğinde kullanın.",
+          "how": "İlgili kişinin yanındaki Edit'i seçin, mevcut alanları değiştirin ve kaydedin.",
           "inputs": "Doğru kişi kaydını seçin ve değiştirmek istediğiniz iletişim veya iş bilgilerini inceleyin.",
           "result": "Doğrulama başarılı olur ve uygulama değişikliği onaylarsa kayıt güncellenir.",
           "notes": "İletişim veya iş bilgilerini değiştirmeden önce kişinin kimliğini doğrulayın."
         },
         "pl": {
-          "purpose": "Edytuje zapisane dane pracownika lub kontaktu projektowego danej osoby.",
-          "when": "Użyj, gdy trzeba zaktualizować dane zawodowe lub kontaktowe zapisanej osoby.",
+          "purpose": "Edytuje dane pracownika lub kontaktu projektowego zapisanej osoby.",
+          "when": "Użyj, gdy trzeba zaktualizować dane dotyczące pracy lub kontaktu zapisanej osoby.",
           "how": "Wybierz Edit obok właściwej osoby, zmień dostępne pola i zapisz.",
           "inputs": "Wybierz właściwy rekord osoby i sprawdź dane kontaktowe lub zawodowe, które chcesz zmienić.",
           "result": "Rekord zostanie zaktualizowany, jeśli walidacja się powiedzie i aplikacja potwierdzi zmianę.",
-          "notes": "Przed zmianą danych kontaktowych lub zawodowych potwierdź tożsamość osoby."
+          "notes": "Przed zmianą danych kontaktowych lub zawodowych zweryfikuj tożsamość osoby."
         },
         "ur": {
-          "purpose": "محفوظ شدہ شخص کے ورکر یا پروجیکٹ رابطے کی تفصیلات میں ترمیم کرتا ہے۔",
+          "purpose": "محفوظ شدہ شخص کے کارکن یا پروجیکٹ رابطے کی تفصیلات میں ترمیم کرتا ہے۔",
           "when": "جب محفوظ شدہ شخص کی کام یا رابطے کی معلومات اپ ڈیٹ کرنی ہوں تو استعمال کریں۔",
           "how": "متعلقہ شخص کے ساتھ Edit منتخب کریں، دستیاب خانے تبدیل کریں اور محفوظ کریں۔",
-          "inputs": "درست شخص کا ریکارڈ منتخب کریں اور وہ رابطے یا کام کی معلومات دیکھیں جنہیں تبدیل کرنا ہے۔",
+          "inputs": "درست شخص کا ریکارڈ منتخب کریں اور تبدیل کی جانے والی رابطہ یا کام کی تفصیلات دیکھیں۔",
           "result": "توثیق کامیاب ہو اور ایپ تبدیلی کی تصدیق کرے تو ریکارڈ اپ ڈیٹ ہو جاتا ہے۔",
-          "notes": "رابطے یا کام کی معلومات تبدیل کرنے سے پہلے شخص کی شناخت کی تصدیق کریں۔"
+          "notes": "رابطہ یا کام کی معلومات تبدیل کرنے سے پہلے شخص کی شناخت کی تصدیق کریں۔"
         },
         "pa": {
-          "purpose": "ਸੇਵ ਕੀਤੇ ਵਿਅਕਤੀ ਦੇ ਵਰਕਰ ਜਾਂ ਪ੍ਰੋਜੈਕਟ ਸੰਪਰਕ ਵੇਰਵਿਆਂ ਨੂੰ ਸੋਧਦਾ ਹੈ।",
+          "purpose": "ਸੇਵ ਕੀਤੇ ਵਿਅਕਤੀ ਦੇ ਕਰਮਚਾਰੀ ਜਾਂ ਪ੍ਰੋਜੈਕਟ ਸੰਪਰਕ ਵੇਰਵੇ ਸੋਧਦਾ ਹੈ।",
           "when": "ਜਦੋਂ ਸੇਵ ਕੀਤੇ ਵਿਅਕਤੀ ਦੀ ਕੰਮ ਜਾਂ ਸੰਪਰਕ ਜਾਣਕਾਰੀ ਅਪਡੇਟ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਸੰਬੰਧਿਤ ਵਿਅਕਤੀ ਦੇ ਨਾਲ Edit ਚੁਣੋ, ਉਪਲਬਧ ਖੇਤਰ ਬਦਲੋ ਅਤੇ ਸੇਵ ਕਰੋ।",
-          "inputs": "ਸਹੀ ਵਿਅਕਤੀ ਦਾ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਉਹ ਸੰਪਰਕ ਜਾਂ ਕੰਮ ਜਾਣਕਾਰੀ ਵੇਖੋ ਜਿਸਨੂੰ ਬਦਲਣਾ ਹੈ।",
+          "how": "ਸੰਬੰਧਿਤ ਵਿਅਕਤੀ ਦੇ ਨਾਲ Edit ਚੁਣੋ، ਉਪਲਬਧ ਖੇਤਰ ਬਦਲੋ ਅਤੇ ਸੇਵ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਵਿਅਕਤੀ ਦਾ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਬਦਲਣ ਵਾਲੇ ਸੰਪਰਕ ਜਾਂ ਕੰਮ ਦੇ ਵੇਰਵੇ ਜਾਂਚੋ।",
           "result": "ਜਾਂਚ ਸਫਲ ਹੋਵੇ ਅਤੇ ਐਪ ਤਬਦੀਲੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਰਿਕਾਰਡ ਅਪਡੇਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
-          "notes": "ਸੰਪਰਕ ਜਾਂ ਕੰਮ ਦੀ ਜਾਣਕਾਰੀ ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ ਵਿਅਕਤੀ ਦੀ ਪਛਾਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।"
+          "notes": "ਸੰਪਰਕ ਜਾਂ ਕੰਮ ਦੇ ਵੇਰਵੇ ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ ਵਿਅਕਤੀ ਦੀ ਪਛਾਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ۔"
         },
         "prs": {
-          "purpose": "اطلاعات کاری یا تماس یک شخص ذخیره‌شده را در فهرست کارگران یا مخاطبان پروژه ویرایش می‌کند.",
-          "when": "وقتی لازم است اطلاعات کاری یا تماس شخص ذخیره‌شده را به‌روزرسانی کنید، استفاده کنید.",
-          "how": "در کنار شخص موردنظر Edit را انتخاب کنید، فیلدهای موجود را تغییر دهید و ذخیره کنید.",
-          "inputs": "سابقه درست شخص را انتخاب کنید و اطلاعات تماس یا کاری را که می‌خواهید تغییر دهید بررسی کنید.",
+          "purpose": "جزئیات کاری یا اطلاعات تماس فرد ذخیره‌شده را ویرایش می‌کند.",
+          "when": "وقتی لازم است اطلاعات کاری یا تماس فرد ذخیره‌شده را به‌روزرسانی کنید، استفاده کنید.",
+          "how": "در کنار فرد موردنظر Edit را انتخاب کنید، فیلدهای موجود را تغییر دهید و ذخیره کنید.",
+          "inputs": "سابقه درست فرد را انتخاب کنید و اطلاعات تماس یا کاری موردنظر برای تغییر را بررسی کنید.",
           "result": "اگر اعتبارسنجی موفق باشد و برنامه تغییر را تأیید کند، سابقه به‌روزرسانی می‌شود.",
-          "notes": "پیش از تغییر اطلاعات تماس یا کاری، هویت شخص را تأیید کنید."
+          "notes": "پیش از تغییر اطلاعات تماس یا کاری، هویت فرد را بررسی کنید."
         },
         "ps": {
-          "purpose": "د خوندي شوي کس د کارکوونکي یا پروژې د اړیکو معلومات سموي.",
-          "when": "کله چې د خوندي شوي کس د کار یا اړیکې معلومات تازه کول غواړئ، دا وکاروئ.",
-          "how": "د اړوند کس تر څنګ Edit وټاکئ، شته خانې بدلې او خوندي یې کړئ.",
-          "inputs": "د کس سم ریکارډ وټاکئ او هغه د اړیکې یا کار معلومات وګورئ چې بدلول یې غواړئ.",
+          "purpose": "د خوندي شوي کس د کار یا پروژې د اړیکو جزئیات سموي.",
+          "when": "کله چې د خوندي شوي کس د کار یا اړیکو معلومات تازه کول غواړئ، دا وکاروئ.",
+          "how": "د اړوند کس تر څنګ Edit وټاکئ، شته خانې بدلې او خوندي کړئ.",
+          "inputs": "د کس سم ریکارډ وټاکئ او د اړیکو یا کار هغه معلومات وګورئ چې بدلول یې غواړئ.",
           "result": "که ارزونه بریالۍ شي او اپلیکیشن بدلون تایید کړي، ریکارډ تازه کېږي.",
-          "notes": "د اړیکې یا کار معلوماتو له بدلولو مخکې د کس هویت تایید کړئ."
+          "notes": "د اړیکو یا کار د معلوماتو له بدلولو مخکې د کس هویت تایید کړئ."
         }
       },
       "handler_or_behavior": "`prEditPerson(`"
