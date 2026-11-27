@@ -22326,6 +22326,78 @@
           "inputs": "یکی از گزینه‌های موجود برای فیلد انتخاب فعلی را انتخاب کنید. فهرست از گزینه‌های موجود در همان فیلد ساخته می‌شود.",
           "result": "مقدار فیلد انتخاب اصلی به‌روزرسانی می‌شود و رویداد change منتشر می‌شود تا منطق معمول تغییر فیلد در برنامه اجرا شود. کل فرم به‌طور خودکار ذخیره نمی‌شود.",
           "notes": "پیش از ذخیره فرم، مقدار انتخاب‌شده را بررسی کنید. انتخاب گزینه مقدار فیلد را تغییر می‌دهد، اما لزوماً سابقه را ذخیره نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يختار خياراً من القائمة المنسدلة المخصصة ويحدّث حقل select الأصلي المرتبط بها.",
+          "when": "استخدمه بعد فتح القائمة عندما تريد تعيين قيمة الحقل.",
+          "how": "اختر الخيار المطلوب من القائمة المفتوحة. تُغلق القائمة وتظهر القيمة المختارة على المشغّل.",
+          "inputs": "اختر خياراً متاحاً لحقل select الحالي. تُبنى القائمة من خيارات ذلك الحقل.",
+          "result": "تُحدّث قيمة select ويُرسل حدث change متصاعد لتشغيل منطق تغيير الحقل المعتاد. لا يُحفظ النموذج بالكامل تلقائياً.",
+          "notes": "تحقق من القيمة قبل حفظ النموذج. اختيار خيار يغيّر قيمة الحقل ولا يضمن حفظ السجل."
+        },
+        "ckb": {
+          "purpose": "هەڵبژاردەیەک لە لیستی دابەزینی تایبەت هەڵدەبژێرێت و خانەی selectی بنەڕەتی نوێ دەکاتەوە.",
+          "when": "دوای کردنەوەی لیستەکە، کاتێک دەتەوێت بەهای خانەکە دیاری بکەیت، بەکاری بهێنە.",
+          "how": "هەڵبژاردەی پێویست لە لیستی کراوە هەڵبژێرە. لیستەکە دادەخرێت و بەهای هەڵبژێردراو لەسەر کۆنترۆڵەکە دەردەکەوێت.",
+          "inputs": "هەڵبژاردەیەک لە هەڵبژاردە بەردەستەکانی خانەی selectی ئێستا هەڵبژێرە. لیستەکە لە هەڵبژاردەکانی هەمان خانە دروست دەکرێت.",
+          "result": "بەهای select نوێ دەکرێتەوە و ڕووداوی change بڵاو دەکرێتەوە تا لۆجیکی گۆڕینی خانە کار بکات. هەموو فۆڕمەکە خۆکارانە پاشەکەوت ناکرێت.",
+          "notes": "پێش پاشەکەوتکردنی فۆڕم بەهاکە بپشکنە. هەڵبژاردن بەهای خانە دەگۆڕێت بەڵام پاشەکەوتکردنی تۆمار دڵنیایی نییە."
+        },
+        "kmr": {
+          "purpose": "Vebijarkek ji menuya daketina taybet hilbijêre û qada select ya bingehîn nû dike.",
+          "when": "Piştî vekirina lîsteyê, dema ku dixwazî nirxa qadê saz bikî, vê bikar bîne.",
+          "how": "Vebijarka xwestî ji lîsteya vekirî hilbijêre. Lîste digire û nirxa hilbijartî li ser kontrolê xuya dibe.",
+          "inputs": "Ji bo qada select ya heyî vebijarkek berdest hilbijêre. Lîste ji vebijarkên wê qadê tê çêkirin.",
+          "result": "Nirxa select tê nûkirin û bûyera change tê şandin da mantiqa guherîna qadê bixebite. Forma tevahî bi awayekî xweber nayê tomarkirin.",
+          "notes": "Berî tomarkirina formê nirxê kontrol bike. Hilbijartin nirxa qadê diguherîne, lê tomarkirina tomarê garantî nake."
+        },
+        "tr": {
+          "purpose": "Özel açılır listeden bir seçenek belirler ve ilişkili yerel select alanını günceller.",
+          "when": "Listeyi açtıktan sonra alanın değerini belirlemek istediğinizde kullanın.",
+          "how": "Açık listeden istenen seçeneği belirleyin. Liste kapanır ve seçilen değer tetikleyicide görünür.",
+          "inputs": "Geçerli select alanındaki kullanılabilir seçeneklerden birini seçin. Liste bu alanın seçeneklerinden oluşturulur.",
+          "result": "Select değeri güncellenir ve alanın normal değişiklik mantığını çalıştırmak için kabarcıklanan bir change olayı gönderilir. Formun tamamı otomatik kaydedilmez.",
+          "notes": "Formu kaydetmeden önce değeri kontrol edin. Seçim alan değerini değiştirir ancak kaydın kaydedilmesini garanti etmez."
+        },
+        "pl": {
+          "purpose": "Wybiera opcję z niestandardowej listy rozwijanej i aktualizuje natywne pole select.",
+          "when": "Użyj tej opcji po otwarciu listy, gdy chcesz ustawić wartość pola.",
+          "how": "Wybierz odpowiednią opcję z otwartej listy. Lista zostanie zamknięta, a wybrana wartość pojawi się na wyzwalaczu.",
+          "inputs": "Wybierz jedną z dostępnych opcji bieżącego pola select. Lista jest tworzona z opcji tego pola.",
+          "result": "Wartość select zostaje zaktualizowana i wysyłane jest propagujące zdarzenie change, aby uruchomić standardową logikę zmiany pola. Formularz nie jest automatycznie zapisywany.",
+          "notes": "Przed zapisaniem formularza sprawdź wartość. Wybór zmienia wartość pola, ale nie gwarantuje zapisania rekordu."
+        },
+        "ur": {
+          "purpose": "حسبِ ضرورت ڈراپ ڈاؤن فہرست سے اختیار منتخب کرتا ہے اور متعلقہ بنیادی select فیلڈ اپ ڈیٹ کرتا ہے۔",
+          "when": "فہرست کھولنے کے بعد اس وقت استعمال کریں جب آپ فیلڈ کی قدر مقرر کرنا چاہتے ہوں۔",
+          "how": "کھلی فہرست سے مطلوبہ اختیار منتخب کریں۔ فہرست بند ہو جاتی ہے اور منتخب قدر ٹرگر پر دکھائی دیتی ہے۔",
+          "inputs": "موجودہ select فیلڈ کے دستیاب اختیارات میں سے ایک منتخب کریں۔ فہرست اسی فیلڈ کے اختیارات سے بنتی ہے۔",
+          "result": "select کی قدر اپ ڈیٹ ہوتی ہے اور bubbling change ایونٹ بھیجا جاتا ہے تاکہ فیلڈ کی معمول کی تبدیلی منطق چل سکے۔ پورا فارم خودکار طور پر محفوظ نہیں ہوتا۔",
+          "notes": "فارم محفوظ کرنے سے پہلے قدر چیک کریں۔ انتخاب فیلڈ کی قدر بدلتا ہے لیکن ریکارڈ محفوظ ہونے کی ضمانت نہیں دیتا۔"
+        },
+        "pa": {
+          "purpose": "ਕਸਟਮ ਡਰਾਪਡਾਊਨ ਸੂਚੀ ਵਿੱਚੋਂ ਵਿਕਲਪ ਚੁਣਦਾ ਹੈ ਅਤੇ ਸੰਬੰਧਿਤ ਮੂਲ select ਖੇਤਰ ਅੱਪਡੇਟ ਕਰਦਾ ਹੈ।",
+          "when": "ਸੂਚੀ ਖੋਲ੍ਹਣ ਤੋਂ ਬਾਅਦ ਇਸਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਤੁਸੀਂ ਖੇਤਰ ਦੀ ਕਦਰ ਨਿਰਧਾਰਤ ਕਰਨੀ ਹੋਵੇ।",
+          "how": "ਖੁੱਲ੍ਹੀ ਸੂਚੀ ਵਿੱਚੋਂ ਲੋੜੀਂਦਾ ਵਿਕਲਪ ਚੁਣੋ। ਸੂਚੀ ਬੰਦ ਹੁੰਦੀ ਹੈ ਅਤੇ ਚੁਣੀ ਕਦਰ ਟ੍ਰਿਗਰ 'ਤੇ ਦਿਖਦੀ ਹੈ।",
+          "inputs": "ਮੌਜੂਦਾ select ਖੇਤਰ ਦੇ ਉਪਲਬਧ ਵਿਕਲਪਾਂ ਵਿੱਚੋਂ ਇੱਕ ਚੁਣੋ। ਸੂਚੀ ਉਸ ਖੇਤਰ ਦੇ ਵਿਕਲਪਾਂ ਤੋਂ ਬਣਦੀ ਹੈ।",
+          "result": "select ਦੀ ਕਦਰ ਅੱਪਡੇਟ ਹੁੰਦੀ ਹੈ ਅਤੇ bubbling change ਇਵੈਂਟ ਭੇਜਿਆ ਜਾਂਦਾ ਹੈ ਤਾਂ ਜੋ ਖੇਤਰ ਦੀ ਆਮ ਤਬਦੀਲੀ ਲਾਜਿਕ ਚੱਲ ਸਕੇ। ਪੂਰਾ ਫਾਰਮ ਆਪਣੇ ਆਪ ਸੇਵ ਨਹੀਂ ਹੁੰਦਾ।",
+          "notes": "ਫਾਰਮ ਸੇਵ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਕਦਰ ਜਾਂਚੋ। ਵਿਕਲਪ ਚੁਣਨ ਨਾਲ ਖੇਤਰ ਦੀ ਕਦਰ ਬਦਲਦੀ ਹੈ ਪਰ ਰਿਕਾਰਡ ਸੇਵ ਹੋਣ ਦੀ ਗਾਰੰਟੀ ਨਹੀਂ।"
+        },
+        "prs": {
+          "purpose": "یک گزینه را از فهرست کشویی سفارشی انتخاب می‌کند و فیلد select بومی مرتبط را به‌روزرسانی می‌کند.",
+          "when": "پس از بازکردن فهرست، وقتی می‌خواهید مقدار فیلد را تعیین کنید، از این گزینه استفاده کنید.",
+          "how": "گزینه موردنظر را از فهرست باز انتخاب کنید. فهرست بسته می‌شود و مقدار انتخاب‌شده روی کنترل نمایش داده می‌شود.",
+          "inputs": "یکی از گزینه‌های موجود فیلد select فعلی را انتخاب کنید. فهرست از گزینه‌های همان فیلد ساخته می‌شود.",
+          "result": "مقدار select به‌روزرسانی و رویداد change منتشر می‌شود تا منطق معمول تغییر فیلد اجرا شود. کل فرم خودکار ذخیره نمی‌شود.",
+          "notes": "پیش از ذخیره فرم مقدار را بررسی کنید. انتخاب گزینه مقدار فیلد را تغییر می‌دهد اما ذخیره سابقه را تضمین نمی‌کند."
+        },
+        "ps": {
+          "purpose": "له ځانګړي ډراپ‌ډاون لړلیک څخه یو انتخاب ټاکي او اړوند اصلي select خانه تازه کوي.",
+          "when": "د لړلیک له پرانیستلو وروسته دا هغه وخت وکاروئ چې د خانې ارزښت ټاکل غواړئ.",
+          "how": "له پرانیستي لړلیک څخه اړین انتخاب وټاکئ. لړلیک تړل کېږي او ټاکل شوی ارزښت پر محرک ښکاري.",
+          "inputs": "د اوسني select خانې له شته انتخابونو څخه یو وټاکئ. لړلیک د همدې خانې له انتخابونو جوړېږي.",
+          "result": "د select ارزښت تازه کېږي او bubbling change پېښه لېږل کېږي څو د خانې عادي بدلون منطق وچلېږي. ټول فورم په اتومات ډول نه خوندي کېږي.",
+          "notes": "د فورم له خوندي کولو مخکې ارزښت وګورئ. د انتخاب ټاکل د خانې ارزښت بدلوي خو د ریکارډ د خوندي کېدو ضمانت نه کوي."
         }
       },
       "handler_or_behavior": "انتخاب مقدار و dispatch رویداد change؛ برای هر گزینه نمونه جداگانه ساخته می‌شود"
