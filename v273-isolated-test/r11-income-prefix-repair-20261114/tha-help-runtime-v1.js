@@ -139,7 +139,7 @@
     ps:{purpose:'موخه',when:'کله یې وکاروئ',how:'د کارولو طریقه',inputs:'اړین معلومات',result:'تمه کېدونکې پایله',notes:'مهمې یادونې'}
   };
   const RTL_LANGS = new Set(['fa','ar','ckb','ur','prs','ps']);
-  let lastHelpId=null,overlay=null,card=null,lastFocused=null;
+  let lastHelpId=null,overlay=null,card=null,lastFocused=null,helpEnabledMemory=false;
   function selectedLanguage(){
     const select=document.getElementById('appLanguageSelect'),selected=select&&select.value;
     if(selected&&payload.meta.languages.includes(selected))return selected;
@@ -247,10 +247,11 @@
     wrapper.hidden=hidden;
   }
   function helpIconsEnabled(){
-    try{return window.localStorage.getItem('thaHelpIconsEnabled')==='true';}catch(_){return false;}
+    try{const saved=window.localStorage.getItem('thaHelpIconsEnabled');if(saved==='true')return true;if(saved==='false')return false;}catch(_){}
+    return helpEnabledMemory;
   }
   function setHelpIconsEnabled(enabled){
-    const value=!!enabled;
+    const value=!!enabled;helpEnabledMemory=value;
     try{window.localStorage.setItem('thaHelpIconsEnabled',value?'true':'false');}catch(_){}
     if(value){attachAll(document);}
     else{
