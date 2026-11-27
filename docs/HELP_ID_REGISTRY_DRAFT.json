@@ -8618,20 +8618,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Closes the confirmation dialog shown after an entry is saved.",
-          "when": "After reading the saved-entry confirmation and when you are ready to return to the form.",
-          "how": "Select OK to close the message.",
-          "inputs": "No input is required. Select OK to close the saved-entry confirmation dialog.",
-          "result": "The confirmation dialog closes.",
-          "notes": "This does not undo the saved entry. Verify the record in the list if you need to confirm its details."
+          "purpose": "Closes the confirmation dialog displayed after an entry is saved.",
+          "when": "Use this after reading the saved-entry confirmation when you are ready to return to the entry form.",
+          "how": "Select OK to close the confirmation message.",
+          "inputs": "No input is required. Select OK to dismiss the saved-entry confirmation dialog.",
+          "result": "The confirmation dialog closes and focus returns to the entry amount field.",
+          "notes": "This does not undo or delete the saved entry. Check the Records list if you need to review the saved details."
         },
         "fa": {
           "purpose": "پیام تأیید ذخیره ثبت را می‌بندد.",
-          "when": "پس از خواندن پیام ذخیره موفق و زمانی که آماده بازگشت به فرم هستید، از این گزینه استفاده کنید.",
-          "how": "برای بستن پیام، OK را انتخاب کنید.",
-          "inputs": "ورود اطلاعات لازم نیست؛ OK را فقط برای بستن پیام تأیید ذخیره انتخاب کنید.",
-          "result": "پنجره تأیید بسته می‌شود.",
-          "notes": "این کار ثبت ذخیره‌شده را برنمی‌گرداند. اگر لازم است جزئیات را تأیید کنید، سابقه را در فهرست بررسی کنید."
+          "when": "پس از خواندن پیام تأیید ذخیره و زمانی که آماده بازگشت به فرم ثبت هستید، از این گزینه استفاده کنید.",
+          "how": "برای بستن پیام تأیید، OK را انتخاب کنید.",
+          "inputs": "ورودی لازم نیست. OK را برای بستن پنجره تأیید ذخیره انتخاب کنید.",
+          "result": "پنجره تأیید بسته می‌شود و تمرکز ورودی به فیلد مبلغ فرم بازمی‌گردد.",
+          "notes": "این کار ثبت ذخیره‌شده را لغو یا حذف نمی‌کند. اگر لازم است جزئیات را بررسی کنید، فهرست Records را ببینید."
         },
         "ar": {
           "purpose": "يغلق مربع التأكيد الذي يظهر بعد حفظ إدخال.",
@@ -8716,20 +8716,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the selected invoice from the records list.",
-          "when": "When you need to inspect an invoice without navigating through the invoice workspace first.",
-          "how": "Select View beside the relevant invoice record.",
-          "inputs": "Select the correct invoice row in the Records list. No additional input is required.",
-          "result": "The selected invoice details are displayed.",
-          "notes": "Check the invoice number and customer before printing or taking further action. Viewing does not mark it paid."
+          "purpose": "Opens the selected invoice preview from the invoice record list for viewing or PDF output.",
+          "when": "Use this when you need to inspect or print/save a particular saved invoice.",
+          "how": "In the invoice list, locate the correct invoice and select View / PDF. Review the invoice preview; use the available print/PDF action as required.",
+          "inputs": "Select the correct invoice row. No additional input is required to open its preview.",
+          "result": "The selected invoice is rendered in the invoice preview for viewing or printing/saving as PDF.",
+          "notes": "Check the invoice number, customer, work description and total before printing or sharing. Viewing an invoice does not mark it as paid."
         },
         "fa": {
-          "purpose": "فاکتور انتخاب‌شده را از فهرست سوابق باز می‌کند.",
-          "when": "وقتی می‌خواهید بدون رفتن به فضای فاکتورها، فاکتور را بررسی کنید، از این گزینه استفاده کنید.",
-          "how": "در کنار سابقه فاکتور موردنظر View را انتخاب کنید.",
-          "inputs": "سابقه درست فاکتوری را که می‌خواهید بررسی کنید انتخاب کنید.",
-          "result": "جزئیات فاکتور انتخاب‌شده نمایش داده می‌شود.",
-          "notes": "پیش از چاپ یا اقدام بعدی، شماره فاکتور و مشتری را بررسی کنید. مشاهده فاکتور آن را پرداخت‌شده علامت نمی‌زند."
+          "purpose": "پیش‌نمایش فاکتور انتخاب‌شده را از فهرست فاکتورها برای مشاهده یا خروجی PDF باز می‌کند.",
+          "when": "وقتی می‌خواهید یک فاکتور ذخیره‌شده مشخص را بررسی، چاپ یا به‌صورت PDF ذخیره کنید، از این گزینه استفاده کنید.",
+          "how": "در فهرست فاکتورها، فاکتور صحیح را پیدا کنید و View / PDF را انتخاب کنید. پیش‌نمایش فاکتور را بررسی کنید و در صورت نیاز از گزینه چاپ/PDF استفاده کنید.",
+          "inputs": "ردیف فاکتور صحیح را انتخاب کنید. برای بازکردن پیش‌نمایش ورودی دیگری لازم نیست.",
+          "result": "فاکتور انتخاب‌شده در پیش‌نمایش برای مشاهده، چاپ یا ذخیره PDF نمایش داده می‌شود.",
+          "notes": "پیش از چاپ یا اشتراک‌گذاری، شماره فاکتور، مشتری، شرح کار و مبلغ کل را بررسی کنید. مشاهده فاکتور آن را پرداخت‌شده علامت نمی‌زند."
         },
         "ar": {
           "purpose": "يفتح الفاتورة المحددة من قائمة السجلات.",
@@ -8814,20 +8814,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Moves the selected invoice to Deleted Records and also moves any linked income entry there.",
-          "when": "Use only when the invoice is a duplicate or was created in error and should no longer remain active.",
-          "how": "Check the invoice number and customer, select Delete, review the warning about any linked income entry, then confirm only if deletion is intended.",
-          "inputs": "Select the correct invoice. The app may identify linked income records; review the count and details in the confirmation prompt.",
-          "result": "The invoice is soft-deleted from the active list. Any linked income entry is also soft-deleted, and the invoice number remains reserved.",
-          "notes": "DESTRUCTIVE: deletion affects the invoice and any linked income record in the active views. Retain a copy and follow your record-retention obligations. Do not delete to hide a genuine transaction."
+          "purpose": "Moves the selected invoice and any linked income entry to Deleted Records using a soft-delete operation.",
+          "when": "Use this only when the invoice is a duplicate or was created in error and should no longer remain active.",
+          "how": "Check the invoice number and customer, select Delete, review the warning about any linked income entries, then confirm only if deletion is intended.",
+          "inputs": "Select the correct invoice. The confirmation prompt identifies how many linked income records will also be moved to Deleted Records, if any.",
+          "result": "After confirmation and successful IndexedDB persistence and verification, the invoice and linked income entries are marked deleted and removed from active views. The invoice number remains reserved.",
+          "notes": "DESTRUCTIVE: the operation affects the invoice and its linked income record(s) in active views. It is a soft delete, not permanent erasure. Retain copies and follow record-retention obligations. Do not delete to hide a genuine transaction."
         },
         "fa": {
-          "purpose": "فاکتور انتخاب‌شده را به Deleted Records منتقل می‌کند و هر ثبت درآمد مرتبط با آن را نیز به همان بخش منتقل می‌کند.",
-          "when": "فقط زمانی استفاده کنید که فاکتور تکراری است یا اشتباهی ایجاد شده و دیگر نباید فعال بماند.",
-          "how": "شماره فاکتور و مشتری را بررسی کنید، Delete را انتخاب کنید، هشدار مربوط به ثبت درآمد مرتبط را بخوانید و فقط در صورت اطمینان از قصد حذف، تأیید کنید.",
-          "inputs": "فاکتور درست را انتخاب کنید. برنامه ممکن است سوابق درآمد مرتبط را شناسایی کند؛ تعداد و جزئیات آن‌ها را در پیام تأیید بررسی کنید.",
-          "result": "فاکتور به‌صورت نرم‌افزاری از فهرست فعال حذف می‌شود. هر ثبت درآمد مرتبط نیز به‌صورت نرم‌افزاری حذف می‌شود و شماره فاکتور همچنان رزرو می‌ماند.",
-          "notes": "مخرب: حذف بر فاکتور و هر ثبت درآمد مرتبط در نماهای فعال اثر می‌گذارد. نسخه‌ای نگه دارید و الزامات نگهداری سوابق را رعایت کنید. برای پنهان‌کردن یک تراکنش واقعی آن را حذف نکنید."
+          "purpose": "فاکتور انتخاب‌شده و هر سابقه درآمد مرتبط با آن را با روش حذف نرم‌افزاری به Deleted Records منتقل می‌کند.",
+          "when": "فقط زمانی استفاده کنید که فاکتور تکراری است یا اشتباهی ایجاد شده و دیگر نباید در فهرست فعال باقی بماند.",
+          "how": "شماره فاکتور و مشتری را بررسی کنید، Delete را انتخاب کنید، هشدار مربوط به سوابق درآمد مرتبط را بخوانید و فقط در صورت قصد حذف، آن را تأیید کنید.",
+          "inputs": "فاکتور صحیح را انتخاب کنید. پیام تأیید، در صورت وجود، تعداد سوابق درآمد مرتبطی را که به Deleted Records منتقل می‌شوند اعلام می‌کند.",
+          "result": "پس از تأیید و موفقیت ذخیره و تأیید در IndexedDB، فاکتور و سوابق درآمد مرتبط به‌صورت نرم‌افزاری حذف و از نماهای فعال خارج می‌شوند. شماره فاکتور همچنان رزرو می‌ماند.",
+          "notes": "مخرب: این عملیات بر فاکتور و سوابق درآمد مرتبط با آن در نماهای فعال اثر می‌گذارد. حذف از نوع نرم‌افزاری است، نه پاک‌کردن دائمی. نسخه‌هایی نگه دارید و الزامات نگهداری سوابق را رعایت کنید. برای پنهان‌کردن تراکنش واقعی از حذف استفاده نکنید."
         },
         "ar": {
           "purpose": "ينقل الفاتورة المحددة إلى Deleted Records وينقل أيضًا أي قيد دخل مرتبط بها إلى القسم نفسه.",
@@ -8913,19 +8913,19 @@
       "translations": {
         "en": {
           "purpose": "Loads an existing income or expense record into the entry form for editing.",
-          "when": "Use this when correcting the details of an existing accountancy entry.",
-          "how": "Select Edit beside the correct record, review its date, type, amount, category and supporting details, make the required changes, then select Save Entry.",
-          "inputs": "Select the saved record to edit and change only the fields that need correction. Invoice-linked income records must be managed from the invoice payment workflow instead.",
+          "when": "Use this when correcting the details of an existing Accountancy entry.",
+          "how": "Select Edit beside the correct record in Records. Review its date, type, amount, category and supporting details, make the required changes, then select Save Entry.",
+          "inputs": "Select the saved record to edit and change only the fields that need correction. Invoice-linked income records cannot be edited here; manage them through the invoice payment workflow.",
           "result": "The selected record's existing values are loaded into the entry form. Changes are not saved until Save Entry succeeds.",
-          "notes": "Verify the selected record before saving. Editing changes the existing record rather than creating a new one."
+          "notes": "Verify the selected record before saving. Editing updates the existing record rather than creating a new one. For invoice-linked income, use Mark paid / Mark unpaid in Invoices."
         },
         "fa": {
           "purpose": "رکورد درآمد یا هزینه موجود را برای ویرایش در فرم ثبت بارگذاری می‌کند.",
-          "when": "وقتی می‌خواهید جزئیات یک ثبت حسابداری موجود را اصلاح کنید، از این گزینه استفاده کنید.",
-          "how": "در کنار رکورد درست Edit را انتخاب کنید، تاریخ، نوع، مبلغ، دسته‌بندی و جزئیات پشتیبان را بررسی کنید، تغییرات لازم را انجام دهید و سپس Save Entry را انتخاب کنید.",
-          "inputs": "رکورد ذخیره‌شده موردنظر را برای ویرایش انتخاب کنید. فقط فیلدهایی را تغییر دهید که نیاز به اصلاح دارند. درآمدهای مرتبط با فاکتور باید از گردش‌کار پرداخت فاکتور مدیریت شوند، نه از این فرم.",
+          "when": "وقتی می‌خواهید جزئیات یک ثبت موجود در Accountancy را اصلاح کنید، از این گزینه استفاده کنید.",
+          "how": "در فهرست Records کنار رکورد صحیح Edit را انتخاب کنید. تاریخ، نوع، مبلغ، دسته‌بندی و جزئیات پشتیبان را بررسی کنید، تغییرات لازم را انجام دهید و سپس Save Entry را انتخاب کنید.",
+          "inputs": "رکورد ذخیره‌شده موردنظر را برای ویرایش انتخاب کنید و فقط فیلدهایی را تغییر دهید که نیاز به اصلاح دارند. درآمدهای مرتبط با فاکتور از اینجا قابل ویرایش نیستند؛ آن‌ها را از گردش‌کار پرداخت فاکتور مدیریت کنید.",
           "result": "مقادیر فعلی رکورد انتخاب‌شده در فرم ثبت بارگذاری می‌شوند. تغییرات تا زمانی که Save Entry با موفقیت انجام نشود، ذخیره نمی‌شوند.",
-          "notes": "پیش از ذخیره، رکورد انتخاب‌شده را بررسی کنید. ویرایش، همان رکورد موجود را تغییر می‌دهد و رکورد جدیدی ایجاد نمی‌کند."
+          "notes": "پیش از ذخیره، رکورد انتخاب‌شده را بررسی کنید. ویرایش، همان رکورد موجود را به‌روزرسانی می‌کند و رکورد جدیدی نمی‌سازد. برای درآمدهای مرتبط با فاکتور از Mark paid / Mark unpaid در بخش Invoices استفاده کنید."
         },
         "ar": {
           "purpose": "يفتح السجل المحاسبي المحدد لتعديله.",
@@ -9010,20 +9010,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Moves the selected income or expense entry to Deleted Records.",
+          "purpose": "Moves the selected income or expense entry to Deleted Records using a soft-delete operation.",
           "when": "Use this only when the selected entry is incorrect or should no longer remain active.",
-          "how": "Select Delete for the intended entry and approve the confirmation after checking the record details.",
-          "inputs": "Select the correct entry. Invoice-linked income entries cannot be deleted here; manage those through the invoice payment workflow.",
-          "result": "After confirmation and a successful save, the entry is marked deleted and moved out of the active list. Its record number remains reserved.",
-          "notes": "This is a soft-delete workflow, not a permanent erase. Back up important records first and do not use deletion when editing is the safer correction."
+          "how": "Select Delete for the intended entry, check its details and approve the confirmation. Wait for the save to complete.",
+          "inputs": "Select the correct entry. Invoice-linked income entries cannot be deleted here; manage them through the invoice payment workflow.",
+          "result": "After confirmation and successful IndexedDB persistence, the entry is marked deleted and removed from active views. Its record number remains reserved.",
+          "notes": "This is a soft delete, not a permanent erase. Invoice-linked income is protected from deletion here. Back up important records first, and use Edit instead when correcting a genuine transaction is safer than deleting it."
         },
         "fa": {
-          "purpose": "رکورد درآمد یا هزینه انتخاب‌شده را به Deleted Records منتقل می‌کند.",
+          "purpose": "رکورد درآمد یا هزینه انتخاب‌شده را با روش حذف نرم‌افزاری به Deleted Records منتقل می‌کند.",
           "when": "فقط زمانی استفاده کنید که رکورد انتخاب‌شده اشتباه است یا نباید دیگر در فهرست فعال باقی بماند.",
-          "how": "برای رکورد موردنظر Delete را انتخاب کنید و پس از بررسی جزئیات رکورد، تأیید را انجام دهید.",
-          "inputs": "رکورد درست را انتخاب کنید. درآمدهای مرتبط با فاکتور را نمی‌توان از اینجا حذف کرد؛ آن‌ها را از گردش‌کار پرداخت فاکتور مدیریت کنید.",
-          "result": "پس از تأیید و ذخیره موفق، رکورد به‌صورت نرم‌افزاری حذف و از فهرست فعال خارج می‌شود. شماره رکورد همچنان رزرو می‌ماند.",
-          "notes": "این گردش‌کار حذف نرم‌افزاری است، نه پاک‌کردن دائمی. ابتدا از سوابق مهم پشتیبان بگیرید و اگر ویرایش راه اصلاح امن‌تری است، از حذف استفاده نکنید."
+          "how": "برای رکورد موردنظر Delete را انتخاب کنید، جزئیات آن را بررسی و پیام تأیید را بپذیرید. منتظر تکمیل ذخیره بمانید.",
+          "inputs": "رکورد درست را انتخاب کنید. درآمدهای مرتبط با فاکتور از اینجا قابل حذف نیستند؛ آن‌ها را از گردش‌کار پرداخت فاکتور مدیریت کنید.",
+          "result": "پس از تأیید و موفقیت ذخیره در IndexedDB، رکورد به‌صورت نرم‌افزاری حذف و از نماهای فعال خارج می‌شود. شماره رکورد همچنان رزرو می‌ماند.",
+          "notes": "این عملیات حذف نرم‌افزاری است، نه پاک‌کردن دائمی. درآمدهای مرتبط با فاکتور در این بخش در برابر حذف محافظت می‌شوند. ابتدا از سوابق مهم پشتیبان بگیرید و اگر اصلاح یک تراکنش واقعی با Edit امن‌تر است، به‌جای حذف آن را ویرایش کنید."
         },
         "ar": {
           "purpose": "ينقل قيد الدخل أو المصروف المحدد إلى Deleted Records.",
