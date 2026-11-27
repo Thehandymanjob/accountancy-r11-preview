@@ -8410,6 +8410,78 @@
           "inputs": "ورودی دیگری لازم نیست. وضعیت پروژه انتخاب‌شده بین open و complete تغییر می‌کند.",
           "result": "اگر نوشتن در IndexedDB موفق باشد، وضعیت پروژه تغییر می‌کند و فهرست و نمای جزئیات پروژه به‌روزرسانی می‌شوند. برنامه تکمیل یا بازگشایی پروژه را با پیام تأیید اعلام می‌کند.",
           "notes": "این عملیات فقط وضعیت را تغییر می‌دهد؛ هیچ ثبت مالی ایجاد، حذف یا همگام‌سازی نمی‌کند و پرداخت‌ها یا هزینه‌های معوق را تسویه نمی‌کند. پیش از حذف پروژه تکمیل‌شده، باید آن را دوباره باز کنید."
+        },
+        "ar": {
+          "purpose": "يبدّل حالة المشروع الحالي بين Open وComplete ويحفظ التغيير في IndexedDB.",
+          "when": "اختر Complete عندما يصل المشروع إلى مرحلة الإنجاز. استخدم العنصر نفسه، الذي يعرض Reopen عندئذٍ، إذا احتاج المشروع إلى إعادة فتحه.",
+          "how": "افتح المشروع واختر Complete. إذا كان مكتملاً بالفعل، اختر Reopen. تحقق من رسالة التأكيد والحالة المعروضة للمشروع.",
+          "inputs": "لا يلزم إدخال إضافي. تتغير حالة المشروع المحدد بين مفتوح ومكتمل.",
+          "result": "إذا نجحت الكتابة في IndexedDB، تتغير حالة المشروع ويتم تحديث قائمة المشاريع وعرض التفاصيل. يؤكد التطبيق ما إذا كان المشروع قد اكتمل أو أُعيد فتحه.",
+          "notes": "هذا تغيير للحالة فقط. لا ينشئ قيوداً مالية أو يحذفها أو يزامنها، ولا يسدد المدفوعات أو التكاليف المستحقة. يجب إعادة فتح المشروع المكتمل قبل حذفه."
+        },
+        "ckb": {
+          "purpose": "دۆخی پڕۆژەی ئێستا لە نێوان Open و Complete دەگۆڕێت و گۆڕانکارییەکە لە IndexedDB پاشەکەوت دەکات.",
+          "when": "کاتێک پڕۆژە گەیشتە خاڵی تەواوبوون، Complete هەڵبژێرە. ئەگەر پڕۆژەکە پێویستی بە کردنەوەیەوە هەبوو، هەمان کۆنترۆڵ کە ئەو کاتە Reopen پیشان دەدات بەکاربهێنە.",
+          "how": "پڕۆژەکە بکەرەوە و Complete هەڵبژێرە. ئەگەر پێشتر تەواو بووە، Reopen هەڵبژێرە. پەیامی پشتڕاستکردنەوە و دۆخی پیشاندراوی پڕۆژە بپشکنە.",
+          "inputs": "هیچ داخڵکردنی زیادە پێویست نییە. دۆخی پڕۆژەی هەڵبژێردراو لە نێوان open و complete دەگۆڕێت.",
+          "result": "ئەگەر نووسین لە IndexedDB سەرکەوتوو بێت، دۆخی پڕۆژە دەگۆڕێت و لیست و وردەکارییەکانی پڕۆژە نوێ دەکرێنەوە. بەرنامە پشتڕاست دەکاتەوە کە پڕۆژەکە تەواو کراوە یان دووبارە کراوەتەوە.",
+          "notes": "ئەمە تەنها گۆڕینی دۆخە. هیچ تۆماری دارایی دروست ناکات، ناسڕێتەوە یان هاوکات ناکات و پارەدان یان تێچووی ماوەش ناڕەسێنێت. پێش سڕینەوەی پڕۆژەی تەواوبوو دەبێت دووبارە بکرێتەوە."
+        },
+        "kmr": {
+          "purpose": "Rewşa projeya heyî di navbera Open û Complete de diguherîne û guhertinê di IndexedDB de tomar dike.",
+          "when": "Dema ku proje gihîşt asta temamkirinê, Complete hilbijêre. Heke pêdivî bi vekirina wê ya nû hebe, heman kontrola ku wê demê Reopen nîşan dide bikar bîne.",
+          "how": "Projeyê veke û Complete hilbijêre. Heke ew berê temam bûbe, Reopen hilbijêre. Peyama pejirandinê û rewşa projeyê ya xuya kontrol bike.",
+          "inputs": "Têketineke din nehewce ye. Rewşa projeya hilbijartî di navbera open û complete de diguhere.",
+          "result": "Heke nivîsandina IndexedDB serkeftî be, rewşa projeyê diguhere û lîste û dîtina hûrguliyên projeyê nû dibin. Sepan piştrast dike ka proje temam bû an ji nû ve hat vekirin.",
+          "notes": "Ev tenê guhertina rewşê ye. Tomarên darayî çênake, jê nake an hevdem nake û dravdan an lêçûnên mayî jî nade. Berî jêbirina projeyeke temamkirî divê ew ji nû ve were vekirin."
+        },
+        "tr": {
+          "purpose": "Mevcut projenin durumunu Open ve Complete arasında değiştirir ve değişikliği IndexedDB'ye kaydeder.",
+          "when": "Proje tamamlanma aşamasına ulaştığında Complete seçeneğini kullanın. Projenin yeniden açılması gerekiyorsa aynı denetim bu kez Reopen olarak görüntülenir; onu seçin.",
+          "how": "Projeyi açın ve Complete seçeneğini belirleyin. Zaten tamamlanmışsa Reopen seçeneğini belirleyin. Onay mesajını ve projede görüntülenen durumu kontrol edin.",
+          "inputs": "Ek giriş gerekmez. Seçilen projenin durumu open ile complete arasında değiştirilir.",
+          "result": "IndexedDB yazma işlemi başarılı olursa proje durumu değişir ve proje listesi ile ayrıntı görünümü yenilenir. Uygulama projenin tamamlandığını veya yeniden açıldığını onaylar.",
+          "notes": "Bu yalnızca durum değişikliğidir. Finansal kayıt oluşturmaz, silmez veya eşitlemez; ödenmemiş tutarları ya da maliyetleri de kapatmaz. Tamamlanmış bir proje silinmeden önce yeniden açılmalıdır."
+        },
+        "pl": {
+          "purpose": "Przełącza status bieżącego projektu między Open i Complete oraz zapisuje zmianę w IndexedDB.",
+          "when": "Wybierz Complete, gdy projekt został ukończony. Jeśli trzeba ponownie otworzyć zakończony projekt, użyj tego samego elementu, który wtedy wyświetla Reopen.",
+          "how": "Otwórz projekt i wybierz Complete. Jeśli jest już ukończony, wybierz Reopen. Sprawdź komunikat potwierdzający i status wyświetlany przy projekcie.",
+          "inputs": "Nie są wymagane dodatkowe dane. Status wybranego projektu zmienia się między open i complete.",
+          "result": "Jeśli zapis w IndexedDB się powiedzie, status projektu zostanie zmieniony, a lista i widok szczegółów projektu odświeżone. Aplikacja potwierdzi ukończenie lub ponowne otwarcie projektu.",
+          "notes": "Jest to wyłącznie zmiana statusu. Nie tworzy, nie usuwa ani nie synchronizuje zapisów finansowych oraz nie rozlicza zaległych płatności ani kosztów. Ukończony projekt trzeba ponownie otworzyć przed jego usunięciem."
+        },
+        "ur": {
+          "purpose": "موجودہ منصوبے کی حالت Open اور Complete کے درمیان بدلتا ہے اور یہ تبدیلی IndexedDB میں محفوظ کرتا ہے۔",
+          "when": "جب منصوبہ مکمل ہو جائے تو Complete منتخب کریں۔ اگر منصوبہ دوبارہ کھولنا ہو تو یہی کنٹرول، جو اس وقت Reopen دکھاتا ہے، منتخب کریں۔",
+          "how": "منصوبہ کھولیں اور Complete منتخب کریں۔ اگر یہ پہلے ہی مکمل ہے تو Reopen منتخب کریں۔ تصدیقی پیغام اور منصوبے پر دکھائی جانے والی حالت دیکھیں۔",
+          "inputs": "اضافی معلومات درکار نہیں۔ منتخب منصوبے کی حالت open اور complete کے درمیان تبدیل ہوتی ہے۔",
+          "result": "اگر IndexedDB میں لکھنا کامیاب ہو تو منصوبے کی حالت بدل جاتی ہے اور منصوبوں کی فہرست اور تفصیلی منظر تازہ ہو جاتے ہیں۔ ایپ تصدیق کرتی ہے کہ منصوبہ مکمل ہوا یا دوبارہ کھولا گیا۔",
+          "notes": "یہ صرف حالت کی تبدیلی ہے۔ یہ مالی اندراجات بناتا، حذف یا ہم وقت نہیں کرتا اور نہ بقایا ادائیگیوں یا اخراجات کو نمٹاتا ہے۔ مکمل منصوبے کو حذف کرنے سے پہلے دوبارہ کھولنا ضروری ہے۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਦੀ ਸਥਿਤੀ Open ਅਤੇ Complete ਵਿਚਕਾਰ ਬਦਲਦਾ ਹੈ ਅਤੇ ਇਹ ਤਬਦੀਲੀ IndexedDB ਵਿੱਚ ਸੇਵ ਕਰਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਪ੍ਰੋਜੈਕਟ ਮੁਕੰਮਲ ਹੋ ਜਾਵੇ ਤਾਂ Complete ਚੁਣੋ। ਜੇ ਪ੍ਰੋਜੈਕਟ ਮੁੜ ਖੋਲ੍ਹਣਾ ਹੋਵੇ ਤਾਂ ਇਹੀ ਕੰਟਰੋਲ, ਜੋ ਉਸ ਵੇਲੇ Reopen ਦਿਖਾਉਂਦਾ ਹੈ, ਚੁਣੋ।",
+          "how": "ਪ੍ਰੋਜੈਕਟ ਖੋਲ੍ਹੋ ਅਤੇ Complete ਚੁਣੋ। ਜੇ ਇਹ ਪਹਿਲਾਂ ਹੀ ਮੁਕੰਮਲ ਹੈ ਤਾਂ Reopen ਚੁਣੋ। ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਅਤੇ ਪ੍ਰੋਜੈਕਟ 'ਤੇ ਦਿਖਾਈ ਸਥਿਤੀ ਜਾਂਚੋ।",
+          "inputs": "ਕੋਈ ਵਾਧੂ ਇਨਪੁੱਟ ਲੋੜੀਂਦਾ ਨਹੀਂ। ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਦੀ ਸਥਿਤੀ open ਅਤੇ complete ਵਿਚਕਾਰ ਬਦਲਦੀ ਹੈ।",
+          "result": "ਜੇ IndexedDB ਵਿੱਚ ਲਿਖਣਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਪ੍ਰੋਜੈਕਟ ਦੀ ਸਥਿਤੀ ਬਦਲਦੀ ਹੈ ਅਤੇ ਪ੍ਰੋਜੈਕਟ ਸੂਚੀ ਤੇ ਵੇਰਵਾ ਦ੍ਰਿਸ਼ ਤਾਜ਼ਾ ਹੁੰਦੇ ਹਨ। ਐਪ ਪੁਸ਼ਟੀ ਕਰਦੀ ਹੈ ਕਿ ਪ੍ਰੋਜੈਕਟ ਮੁਕੰਮਲ ਹੋਇਆ ਜਾਂ ਮੁੜ ਖੋਲ੍ਹਿਆ ਗਿਆ।",
+          "notes": "ਇਹ ਸਿਰਫ਼ ਸਥਿਤੀ ਬਦਲਦਾ ਹੈ। ਇਹ ਵਿੱਤੀ ਐਂਟਰੀਆਂ ਨਹੀਂ ਬਣਾਉਂਦਾ, ਮਿਟਾਉਂਦਾ ਜਾਂ ਸਿੰਕ ਕਰਦਾ ਅਤੇ ਨਾ ਹੀ ਬਕਾਇਆ ਭੁਗਤਾਨ ਜਾਂ ਖਰਚੇ ਨਿਪਟਾਉਂਦਾ ਹੈ। ਮੁਕੰਮਲ ਪ੍ਰੋਜੈਕਟ ਨੂੰ ਮਿਟਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਮੁੜ ਖੋਲ੍ਹਣਾ ਲਾਜ਼ਮੀ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "وضعیت پروژه فعلی را بین Open و Complete تغییر می‌دهد و این تغییر را در IndexedDB ذخیره می‌کند.",
+          "when": "وقتی پروژه به مرحله تکمیل رسید، Complete را انتخاب کنید. اگر لازم است پروژه دوباره باز شود، همین کنترل که در آن حالت Reopen نمایش می‌دهد را انتخاب کنید.",
+          "how": "پروژه را باز کنید و Complete را انتخاب کنید. اگر از قبل تکمیل شده است، Reopen را انتخاب کنید. پیام تأیید و وضعیت نمایش‌داده‌شده پروژه را بررسی کنید.",
+          "inputs": "ورودی دیگری لازم نیست. وضعیت پروژه انتخاب‌شده بین open و complete تغییر می‌کند.",
+          "result": "اگر نوشتن در IndexedDB موفق باشد، وضعیت پروژه تغییر می‌کند و فهرست و نمای جزئیات پروژه به‌روزرسانی می‌شوند. برنامه تکمیل یا بازگشایی پروژه را تأیید می‌کند.",
+          "notes": "این فقط تغییر وضعیت است. ثبت مالی ایجاد، حذف یا همگام‌سازی نمی‌کند و پرداخت‌ها یا هزینه‌های معوق را نیز تسویه نمی‌کند. پیش از حذف پروژه تکمیل‌شده، باید آن را دوباره باز کنید."
+        },
+        "ps": {
+          "purpose": "د اوسنۍ پروژې حالت د Open او Complete ترمنځ بدلوي او دا بدلون په IndexedDB کې خوندي کوي.",
+          "when": "کله چې پروژه بشپړېدو ته ورسېږي، Complete وټاکئ. که پروژه بیا پرانیستل غواړي، همدا کنټرول چې هغه وخت Reopen ښيي، وټاکئ.",
+          "how": "پروژه پرانیزئ او Complete وټاکئ. که له مخکې بشپړه وي، Reopen وټاکئ. د تایید پیغام او د پروژې ښودل شوی حالت وګورئ.",
+          "inputs": "اضافي معلوماتو ته اړتیا نشته. د ټاکل شوې پروژې حالت د open او complete ترمنځ بدلېږي.",
+          "result": "که په IndexedDB کې لیکل بریالي شي، د پروژې حالت بدلېږي او د پروژو لړلیک او د جزیاتو لید تازه کېږي. اپلېکېشن تاییدوي چې پروژه بشپړه شوې یا بېرته پرانیستل شوې ده.",
+          "notes": "دا یوازې د حالت بدلون دی. مالي ثبتونه نه جوړوي، نه ړنګوي او نه همغږي کوي، او پاتې تادیې یا لګښتونه هم نه تصفیه کوي. بشپړه شوې پروژه باید د ړنګولو مخکې بېرته پرانیستل شي."
         }
       },
       "handler_or_behavior": "`prToggleProjectCompletion()`"
@@ -8436,6 +8508,78 @@
           "inputs": "پروژه باید انتخاب شده باشد و کاربر باید حذف را در پنجره تأیید بپذیرد. پروژه‌ای که وضعیت Complete دارد قابل حذف نیست؛ ابتدا آن را Reopen کنید.",
           "result": "در صورت تأیید و موفقیت ذخیره در IndexedDB، پروژه از فهرست Projects حذف می‌شود. اگر ذخیره شکست بخورد، فهرست پروژه‌ها در حافظه به وضعیت قبلی بازمی‌گردد و حذف موفق محسوب نمی‌شود.",
           "notes": "مخرب و غیرقابل بازگشت است. پروژه و سوابق مرتبط با آن، از جمله مواردی مانند زیرپروژه‌ها و تاریخچه مالی، حذف می‌شوند. ابتدا نسخه پشتیبان تهیه و بررسی کنید که به هیچ‌یک از سوابق نیاز ندارید. برای تکمیل کار از Delete استفاده نکنید؛ گزینه Complete مخصوص این کار است."
+        },
+        "ar": {
+          "purpose": "يحذف المشروع المحدد وسجلاته المرتبطة بعد الحصول على تأكيد صريح.",
+          "when": "استخدم هذا الخيار فقط إذا أُنشئ المشروع عن طريق الخطأ أو كان مكرراً ولم تعد هناك حاجة إلى سجلاته.",
+          "how": "افتح المشروع واختر Delete. اقرأ رسالة التأكيد التي توضح أن المشروع وسجلاته ستُحذف وأن الإجراء لا يمكن التراجع عنه. وافق فقط إذا كنت تقصد حذفه نهائياً.",
+          "inputs": "يجب تحديد المشروع والموافقة على مربع حوار التأكيد. لا يمكن حذف مشروع حالته Complete؛ أعد فتحه أولاً.",
+          "result": "إذا تمت الموافقة ونجح الحفظ في IndexedDB، يُزال المشروع من قائمة Projects. إذا فشل الحفظ، تُستعاد قائمة المشاريع في الذاكرة ولا يُعد الحذف ناجحاً.",
+          "notes": "مدمر وغير قابل للتراجع. يحذف الإجراء المشروع وسجلاته المرتبطة، وقد تشمل المشاريع الفرعية والسجل المالي. صدّر نسخة احتياطية أولاً وتحقق من عدم الحاجة إلى أي سجل. لا تستخدم Delete لوضع علامة على اكتمال العمل؛ استخدم Complete بدلاً من ذلك."
+        },
+        "ckb": {
+          "purpose": "دوای وەرگرتنی پشتڕاستکردنەوەی ڕوون، پڕۆژەی هەڵبژێردراو و تۆمارە پەیوەندیدارەکانی دەسڕێتەوە.",
+          "when": "تەنها ئەگەر پڕۆژەکە بە هەڵە دروست کرابێت یان دووبارە بێت و چیتر پێویستت بە تۆمارەکانی نەبێت، ئەم هەڵبژاردەیە بەکاربهێنە.",
+          "how": "پڕۆژەکە بکەرەوە و Delete هەڵبژێرە. پەیامی پشتڕاستکردنەوە بخوێنەوە کە دەڵێت پڕۆژە و تۆمارەکانی دەسڕدرێنەوە و ئەم کردارە ناگەڕێتەوە. تەنها ئەگەر مەبەستت سڕینەوەی هەمیشەییە پشتڕاستی بکەوە.",
+          "inputs": "پێویستە پڕۆژەکە هەڵبژێردرابێت و بەکارهێنەر لە پەنجەرەی پشتڕاستکردنەوەدا ڕەزامەندی بدات. پڕۆژەی Complete ناتوانرێت بسڕدرێتەوە؛ سەرەتا دووبارە بیکەرەوە.",
+          "result": "ئەگەر پشتڕاست بکرێتەوە و پاشەکەوتکردنی IndexedDB سەرکەوتوو بێت، پڕۆژەکە لە لیستی Projects دەسڕدرێتەوە. ئەگەر پاشەکەوتکردن سەرکەوتوو نەبێت، لیستی پڕۆژەکان لە بیرگەدا دەگەڕێتەوە بۆ دۆخی پێشوو و سڕینەوەکە سەرکەوتوو نییە.",
+          "notes": "وێرانکەر و ناگەڕێتەوە. کردارەکە پڕۆژە و تۆمارە پەیوەندیدارەکانی دەسڕێتەوە، کە لەوانەیە ژێرپڕۆژە و مێژووی دارایی لەخۆ بگرن. سەرەتا پاڵپشتی هەناردە بکە و دڵنیا ببەوە هیچ تۆمارێک پێویست نییە. بۆ نیشانکردنی تەواوبوونی کار Delete بەکارمەهێنە؛ لەبری ئەوە Complete بەکاربهێنە."
+        },
+        "kmr": {
+          "purpose": "Piştî pejirandina eşkere, projeya hilbijartî û tomarên wê yên têkildar jê dike.",
+          "when": "Vê tenê bikar bîne heke proje bi xeletî hatibe çêkirin an dubare be û êdî tomarên wê nehewce bin.",
+          "how": "Projeyê veke û Delete hilbijêre. Peyama pejirandinê bixwîne ku dibêje proje û tomarên wê dê bên jêbirin û ev kiryar nayê vegerandin. Tenê heke dixwazî wê bi awayekî daîmî jê bibî, pejirandinê bike.",
+          "inputs": "Divê proje were hilbijartin û bikarhêner divê di paceya pejirandinê de erê bike. Projeyeke bi rewşa Complete nayê jêbirin; pêşî wê ji nû ve veke.",
+          "result": "Heke pejirandin were dayîn û tomarkirina IndexedDB serkeftî be, proje ji lîsteya Projects tê rakirin. Heke tomarkirin bi ser nekeve, lîsteya projeyan a di bîrê de vedigere rewşa xwe ya berê û jêbirin serneketiye.",
+          "notes": "WÊRANKER Û NEVEGERBAR. Ev kiryar projeyê û tomarên wê yên têkildar jê dike, ku dibe bin-proje û dîroka darayî jî tê de bin. Pêşî backup-ê derxe û piştrast bike ku tu tomar nehewce ye. Delete ji bo nîşankirina temambûna kar bikar neyne; li şûna wê Complete bikar bîne."
+        },
+        "tr": {
+          "purpose": "Açık onay alındıktan sonra seçilen projeyi ve ilişkili proje kayıtlarını siler.",
+          "when": "Bu seçeneği yalnızca proje yanlışlıkla oluşturulduysa veya yineleniyorsa ve proje kayıtlarına artık ihtiyaç yoksa kullanın.",
+          "how": "Projeyi açın ve Delete seçeneğini belirleyin. Projenin ve kayıtlarının silineceğini ve işlemin geri alınamayacağını belirten onay mesajını okuyun. Yalnızca kalıcı olarak silmek istiyorsanız onaylayın.",
+          "inputs": "Proje seçilmiş olmalı ve kullanıcı onay iletişim kutusunu kabul etmelidir. Complete durumundaki proje silinemez; önce yeniden açın.",
+          "result": "Onay verilir ve IndexedDB kaydı başarılı olursa proje Projects listesinden kaldırılır. Kayıt başarısız olursa bellekteki proje listesi önceki hâline döndürülür ve silme başarılı sayılmaz.",
+          "notes": "YIKICI VE GERİ ALINAMAZ. İşlem projeyi ve alt projeler ile finansal geçmiş dâhil ilişkili kayıtlarını kaldırır. Önce yedek dışa aktarın ve hiçbir kayda ihtiyaç kalmadığını doğrulayın. Bir işi tamamlandı olarak işaretlemek için Delete kullanmayın; bunun yerine Complete kullanın."
+        },
+        "pl": {
+          "purpose": "Usuwa wybrany projekt i powiązane z nim rekordy po uzyskaniu wyraźnego potwierdzenia.",
+          "when": "Użyj tej opcji wyłącznie wtedy, gdy projekt utworzono przez pomyłkę lub jest duplikatem i jego rekordy nie są już potrzebne.",
+          "how": "Otwórz projekt i wybierz Delete. Przeczytaj komunikat potwierdzający, że projekt i jego rekordy zostaną usunięte, a czynności nie można cofnąć. Potwierdź tylko wtedy, gdy zamierzasz usunąć go trwale.",
+          "inputs": "Projekt musi być wybrany, a użytkownik musi zatwierdzić okno potwierdzenia. Projekt o statusie Complete nie może zostać usunięty; najpierw otwórz go ponownie.",
+          "result": "Jeśli użytkownik potwierdzi operację, a zapis w IndexedDB się powiedzie, projekt zostanie usunięty z listy Projects. Jeśli zapis się nie powiedzie, lista projektów w pamięci zostanie przywrócona do poprzedniego stanu, a usunięcie nie będzie uznane za udane.",
+          "notes": "DESTRUKCYJNE I NIEODWRACALNE. Operacja usuwa projekt i powiązane rekordy, które mogą obejmować podprojekty i historię finansową. Najpierw wyeksportuj kopię zapasową i upewnij się, że żadne rekordy nie są potrzebne. Nie używaj Delete do oznaczania ukończenia pracy; użyj Complete."
+        },
+        "ur": {
+          "purpose": "واضح تصدیق کے بعد منتخب منصوبے اور اس سے متعلقہ منصوبہ ریکارڈ حذف کرتا ہے۔",
+          "when": "اسے صرف اس وقت استعمال کریں جب منصوبہ غلطی سے بنایا گیا ہو یا نقل ہو اور اس کے ریکارڈز کی مزید ضرورت نہ ہو۔",
+          "how": "منصوبہ کھولیں اور Delete منتخب کریں۔ تصدیقی پیغام پڑھیں جس میں بتایا گیا ہے کہ منصوبہ اور اس کے ریکارڈ حذف ہوں گے اور یہ عمل واپس نہیں ہو سکتا۔ صرف مستقل طور پر حذف کرنے کی صورت میں منظوری دیں۔",
+          "inputs": "منصوبہ منتخب ہونا چاہیے اور صارف کو تصدیقی ڈائیلاگ منظور کرنا ہوگا۔ Complete حالت والا منصوبہ حذف نہیں ہو سکتا؛ پہلے اسے دوبارہ کھولیں۔",
+          "result": "اگر تصدیق ہو اور IndexedDB میں محفوظ کرنا کامیاب ہو تو منصوبہ Projects فہرست سے ہٹا دیا جاتا ہے۔ اگر محفوظ کرنا ناکام ہو تو میموری میں منصوبوں کی فہرست پچھلی حالت میں بحال ہو جاتی ہے اور حذف کامیاب نہیں ہوتا۔",
+          "notes": "تباہ کن اور ناقابلِ واپسی۔ یہ کارروائی منصوبے اور اس کے متعلقہ ریکارڈ حذف کرتی ہے، جن میں ذیلی منصوبے اور مالی تاریخ شامل ہو سکتی ہے۔ پہلے بیک اَپ برآمد کریں اور تصدیق کریں کہ کسی ریکارڈ کی ضرورت نہیں۔ کام مکمل نشان زد کرنے کے لیے Delete استعمال نہ کریں؛ اس کے بجائے Complete استعمال کریں۔"
+        },
+        "pa": {
+          "purpose": "ਸਪਸ਼ਟ ਪੁਸ਼ਟੀ ਮਿਲਣ ਤੋਂ ਬਾਅਦ ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਅਤੇ ਇਸ ਨਾਲ ਜੁੜੇ ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਮਿਟਾਉਂਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਸਿਰਫ਼ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਪ੍ਰੋਜੈਕਟ ਗਲਤੀ ਨਾਲ ਬਣਿਆ ਹੋਵੇ ਜਾਂ ਨਕਲ ਹੋਵੇ ਅਤੇ ਇਸਦੇ ਰਿਕਾਰਡਾਂ ਦੀ ਹੁਣ ਲੋੜ ਨਾ ਹੋਵੇ।",
+          "how": "ਪ੍ਰੋਜੈਕਟ ਖੋਲ੍ਹੋ ਅਤੇ Delete ਚੁਣੋ। ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਪੜ੍ਹੋ ਜਿਸ ਵਿੱਚ ਦੱਸਿਆ ਜਾਂਦਾ ਹੈ ਕਿ ਪ੍ਰੋਜੈਕਟ ਅਤੇ ਇਸਦੇ ਰਿਕਾਰਡ ਮਿਟ ਜਾਣਗੇ ਅਤੇ ਕਾਰਵਾਈ ਵਾਪਸ ਨਹੀਂ ਹੋ ਸਕਦੀ। ਸਿਰਫ਼ ਤਦ ਮਨਜ਼ੂਰੀ ਦਿਓ ਜਦੋਂ ਤੁਸੀਂ ਇਸਨੂੰ ਪੱਕੇ ਤੌਰ 'ਤੇ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ।",
+          "inputs": "ਪ੍ਰੋਜੈਕਟ ਚੁਣਿਆ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ ਅਤੇ ਵਰਤੋਂਕਾਰ ਨੂੰ ਪੁਸ਼ਟੀ ਡਾਇਲਾਗ ਮਨਜ਼ੂਰ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ। Complete ਸਥਿਤੀ ਵਾਲਾ ਪ੍ਰੋਜੈਕਟ ਨਹੀਂ ਮਿਟ ਸਕਦਾ; ਪਹਿਲਾਂ ਇਸਨੂੰ ਮੁੜ ਖੋਲ੍ਹੋ।",
+          "result": "ਜੇ ਪੁਸ਼ਟੀ ਹੋਵੇ ਅਤੇ IndexedDB ਵਿੱਚ ਸੇਵ ਕਰਨਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਪ੍ਰੋਜੈਕਟ Projects ਸੂਚੀ ਵਿੱਚੋਂ ਹਟ ਜਾਂਦਾ ਹੈ। ਜੇ ਸੇਵ ਕਰਨਾ ਅਸਫਲ ਹੋਵੇ ਤਾਂ ਮੈਮੋਰੀ ਵਿੱਚ ਪ੍ਰੋਜੈਕਟ ਸੂਚੀ ਪਿਛਲੀ ਹਾਲਤ ਵਿੱਚ ਵਾਪਸ ਆ ਜਾਂਦੀ ਹੈ ਅਤੇ ਮਿਟਾਉਣਾ ਸਫਲ ਨਹੀਂ ਮੰਨਿਆ ਜਾਂਦਾ।",
+          "notes": "ਨੁਕਸਾਨਦਾਇਕ ਅਤੇ ਵਾਪਸ ਨਾ ਹੋਣ ਵਾਲਾ। ਇਹ ਕਾਰਵਾਈ ਪ੍ਰੋਜੈਕਟ ਅਤੇ ਇਸਦੇ ਜੁੜੇ ਰਿਕਾਰਡ ਹਟਾਉਂਦੀ ਹੈ, ਜਿਨ੍ਹਾਂ ਵਿੱਚ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਅਤੇ ਵਿੱਤੀ ਇਤਿਹਾਸ ਸ਼ਾਮਲ ਹੋ ਸਕਦੇ ਹਨ। ਪਹਿਲਾਂ ਬੈਕਅੱਪ ਐਕਸਪੋਰਟ ਕਰੋ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੋ ਕਿ ਕਿਸੇ ਰਿਕਾਰਡ ਦੀ ਲੋੜ ਨਹੀਂ। ਕੰਮ ਨੂੰ ਮੁਕੰਮਲ ਦਰਸਾਉਣ ਲਈ Delete ਨਾ ਵਰਤੋ; ਇਸਦੀ ਬਜਾਏ Complete ਵਰਤੋ।"
+        },
+        "prs": {
+          "purpose": "پس از تأیید صریح، پروژه انتخاب‌شده و سوابق مرتبط با آن را حذف می‌کند.",
+          "when": "فقط زمانی از این گزینه استفاده کنید که پروژه اشتباهی ایجاد شده یا تکراری است و دیگر به سوابق آن نیاز ندارید.",
+          "how": "پروژه را باز کنید و Delete را انتخاب کنید. پیام تأیید را بخوانید که می‌گوید پروژه و سوابق آن حذف می‌شوند و این عملیات قابل بازگشت نیست. فقط در صورت قصد حذف دائمی، تأیید کنید.",
+          "inputs": "پروژه باید انتخاب شده باشد و کاربر باید پنجره تأیید را بپذیرد. پروژه‌ای با وضعیت Complete قابل حذف نیست؛ ابتدا آن را دوباره باز کنید.",
+          "result": "اگر تأیید انجام شود و ذخیره در IndexedDB موفق باشد، پروژه از فهرست Projects حذف می‌شود. اگر ذخیره شکست بخورد، فهرست پروژه‌ها در حافظه به وضعیت قبلی بازمی‌گردد و حذف موفق محسوب نمی‌شود.",
+          "notes": "مخرب و غیرقابل بازگشت است. این عملیات پروژه و سوابق مرتبط با آن را حذف می‌کند که ممکن است شامل زیرپروژه‌ها و تاریخچه مالی باشد. ابتدا نسخه پشتیبان صادر کنید و مطمئن شوید هیچ سابقه‌ای لازم نیست. برای علامت‌گذاری پایان کار از Delete استفاده نکنید؛ به‌جای آن Complete را انتخاب کنید."
+        },
+        "ps": {
+          "purpose": "د څرګند تایید وروسته ټاکل شوې پروژه او ورسره تړلي د پروژې ریکارډونه ړنګوي.",
+          "when": "دا یوازې هغه وخت وکاروئ چې پروژه په تېروتنه جوړه شوې وي یا تکراري وي او د هغې ریکارډونو ته نور اړتیا نه وي.",
+          "how": "پروژه پرانیزئ او Delete وټاکئ. د تایید پیغام ولولئ چې وايي پروژه او ریکارډونه به ړنګ شي او دا کړنه بېرته نه شي راګرځېدای. یوازې هغه وخت تایید کړئ چې د تل لپاره یې لرې کول غواړئ.",
+          "inputs": "پروژه باید ټاکل شوې وي او کاروونکی باید د تایید کړکۍ ومني. د Complete حالت پروژه نه شي ړنګېدای؛ لومړی یې بېرته پرانیزئ.",
+          "result": "که تایید وشي او په IndexedDB کې خوندي کول بریالي شي، پروژه د Projects له لړلیک څخه لرې کېږي. که خوندي کول ناکام شي، په حافظه کې د پروژو لړلیک خپل پخواني حالت ته بېرته ګرځي او ړنګول بریالي نه ګڼل کېږي.",
+          "notes": "ویجاړوونکی او نه راګرځېدونکی. دا کړنه پروژه او ورسره تړلي ریکارډونه ړنګوي، چې ښايي فرعي پروژې او مالي تاریخ هم پکې وي. لومړی شاتړ صادر کړئ او تایید کړئ چې هېڅ ریکارډ ته اړتیا نشته. د کار د بشپړ ښودلو لپاره Delete مه کاروئ؛ پر ځای یې Complete وکاروئ."
         }
       },
       "handler_or_behavior": "`prDeleteCurrent()`"
