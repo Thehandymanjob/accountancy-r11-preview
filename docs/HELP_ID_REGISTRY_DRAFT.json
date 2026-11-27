@@ -11634,7 +11634,7 @@
           "when": "Use this control when you need to open a file attached to the selected company or job record.",
           "how": "Select the attachment icon on the correct row to open the linked file.",
           "inputs": "Select the correct company or job record and check the attached filename.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The attachment file for the selected company or job record opens in the device or browser.",
           "notes": "Verify the row and filename before opening or sharing the file."
         },
         "fa": {
@@ -11732,7 +11732,7 @@
           "when": "Use this control when you need to review supporting documentation for the selected work package.",
           "how": "Select the attachment filename to view the stored file using the device/browser.",
           "inputs": "Select the correct work package and check the attachment filename before opening it.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The saved supporting file for the selected work package opens in the device or browser.",
           "notes": "The attachment is supporting material; opening it does not save changes to the package."
         },
         "fa": {
@@ -11928,7 +11928,7 @@
           "when": "Use this control when you want to review the income, costs or recorded financial summary for a work package.",
           "how": "Choose Financials to inspect the package’s recorded income, costs or related financial summary.",
           "inputs": "Select the correct work package or view; provide extra details only if the app requests them.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The financial view for the selected work package opens, showing its recorded income, costs and available summary.",
           "notes": "Treat displayed totals as workspace figures and check them against source records before relying on them."
         },
         "fa": {
@@ -12124,7 +12124,7 @@
           "when": "Use this control when you need to review supporting evidence for an expense recorded against the selected work package.",
           "how": "Select the attachment name on the expense row to view its supporting file.",
           "inputs": "Select the correct expense record and check the attached filename.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The supporting file attached to the selected work-package expense opens.",
           "notes": "Check that the attachment belongs to the selected expense before relying on it as evidence."
         },
         "fa": {
@@ -12320,7 +12320,7 @@
           "when": "Use this control when you need to view a file saved as an attachment to the current record.",
           "how": "Select Open beside the attachment to view the stored file.",
           "inputs": "Select the intended attachment and check its filename and contents.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The saved file attached to the selected record opens; the record itself is not changed.",
           "notes": "Opening the file does not change the record. Check the filename and contents."
         },
         "fa": {
@@ -13006,7 +13006,7 @@
           "when": "Use this control when you want to attach a photo to a project-related receipt or expense.",
           "how": "Select Take a Photo and use the camera/file prompt offered by your device; review the image before continuing.",
           "inputs": "Select the correct project or expense record and prepare a photo of the relevant receipt.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "A photo is captured or selected and becomes available to attach to the selected project receipt or expense.",
           "notes": "Camera access depends on device permissions. Photograph the relevant receipt clearly and avoid including unrelated personal information."
         },
         "fa": {
@@ -13300,7 +13300,7 @@
           "when": "Use this control when you want to reset the current unsaved income or expense form.",
           "how": "Select Clear to reset the current unsaved income/expense form.",
           "inputs": "Review the current fields and confirm that you do not need any unsaved information.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The current unsaved income or expense form fields are cleared; previously saved project records remain unchanged.",
           "notes": "Clearing a form is not a deletion of previously saved records. Confirm that you do not need the unsaved entries."
         },
         "fa": {
@@ -13398,7 +13398,7 @@
           "when": "Use this control when you need to view the receipt document for a customer payment recorded for the project.",
           "how": "Select Customer receipt on the relevant payment to view its receipt document.",
           "inputs": "Select the correct customer payment and check the customer, amount and date.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The receipt document for the selected customer payment opens for viewing or printing.",
           "notes": "Check the customer, payment amount and date. A receipt should reflect money actually received."
         },
         "fa": {
