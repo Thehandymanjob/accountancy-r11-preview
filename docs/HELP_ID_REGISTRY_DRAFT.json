@@ -8822,84 +8822,84 @@
           "notes": "DESTRUCTIVE: deletion affects the invoice and any linked income record in the active views. Retain a copy and follow your record-retention obligations. Do not delete to hide a genuine transaction."
         },
         "fa": {
-          "purpose": "فاکتور انتخاب‌شده را از طریق گردش‌کار حذف فاکتور حذف یا به‌عنوان حذف‌شده علامت‌گذاری می‌کند.",
-          "when": "فقط وقتی فاکتور تکراری است یا اشتباهی ایجاد شده و نباید فعال بماند، از این گزینه استفاده کنید.",
-          "how": "شماره فاکتور، مشتری و وضعیت پرداخت را بررسی کنید، Delete را بزنید و پیش از ادامه پیام تأیید را بخوانید.",
-          "inputs": "فاکتور درست را انتخاب کنید و پیش از تأیید حذف، شماره، مشتری و وضعیت پرداخت آن را بررسی کنید.",
-          "result": "در صورت موفقیت، فاکتور از نمای فعال خارج یا به‌عنوان حذف‌شده علامت‌گذاری می‌شود.",
-          "notes": "مخرب: حذف فاکتور می‌تواند بر سابقه مشتری، گزارش‌ها و ردپای حسابرسی اثر بگذارد. بررسی کنید صادر یا پرداخت شده است یا نه؛ نسخه‌ای نگه دارید و الزامات نگهداری سوابق را رعایت کنید. برای پنهان‌کردن تراکنش واقعی حذف نکنید."
+          "purpose": "فاکتور انتخاب‌شده را به Deleted Records منتقل می‌کند و هر ثبت درآمد مرتبط با آن را نیز به همان بخش منتقل می‌کند.",
+          "when": "فقط زمانی استفاده کنید که فاکتور تکراری است یا اشتباهی ایجاد شده و دیگر نباید فعال بماند.",
+          "how": "شماره فاکتور و مشتری را بررسی کنید، Delete را انتخاب کنید، هشدار مربوط به ثبت درآمد مرتبط را بخوانید و فقط در صورت اطمینان از قصد حذف، تأیید کنید.",
+          "inputs": "فاکتور درست را انتخاب کنید. برنامه ممکن است سوابق درآمد مرتبط را شناسایی کند؛ تعداد و جزئیات آن‌ها را در پیام تأیید بررسی کنید.",
+          "result": "فاکتور به‌صورت نرم‌افزاری از فهرست فعال حذف می‌شود. هر ثبت درآمد مرتبط نیز به‌صورت نرم‌افزاری حذف می‌شود و شماره فاکتور همچنان رزرو می‌ماند.",
+          "notes": "مخرب: حذف بر فاکتور و هر ثبت درآمد مرتبط در نماهای فعال اثر می‌گذارد. نسخه‌ای نگه دارید و الزامات نگهداری سوابق را رعایت کنید. برای پنهان‌کردن یک تراکنش واقعی آن را حذف نکنید."
         },
         "ar": {
-          "purpose": "يحذف الفاتورة المحددة أو يضع علامة محذوفة عليها من خلال إجراء حذف الفاتورة.",
-          "when": "فقط عندما تكون الفاتورة مكررة أو أُنشئت عن طريق الخطأ ولا ينبغي أن تبقى نشطة.",
-          "how": "تحقق من رقم الفاتورة والعميل وحالة الدفع، واختر Delete، ثم راجع رسالة التأكيد قبل المتابعة.",
-          "inputs": "حدد الفاتورة الصحيحة وتحقق من رقمها والعميل وحالة الدفع قبل التأكيد.",
-          "result": "تُزال الفاتورة من العرض النشط أو تُعلّم كمحذوفة إذا نجحت العملية.",
-          "notes": "إجراء هدّام: قد يؤثر حذف الفاتورة في سجل العميل والتقارير ومسار التدقيق. تحقق مما إذا كانت قد صدرت أو دُفعت، واحتفظ بنسخة والتزم بمتطلبات حفظ السجلات. لا تحذف لإخفاء معاملة حقيقية."
+          "purpose": "ينقل الفاتورة المحددة إلى Deleted Records وينقل أيضًا أي قيد دخل مرتبط بها إلى القسم نفسه.",
+          "when": "استخدمه فقط إذا كانت الفاتورة مكررة أو أُنشئت بالخطأ ولا ينبغي أن تبقى نشطة.",
+          "how": "تحقق من رقم الفاتورة والعميل، واختر Delete، وراجع التحذير بشأن أي قيد دخل مرتبط، ثم أكّد فقط إذا كنت تقصد الحذف.",
+          "inputs": "حدد الفاتورة الصحيحة. قد يحدد التطبيق قيود الدخل المرتبطة؛ راجع عددها وتفاصيلها في رسالة التأكيد.",
+          "result": "تُحذف الفاتورة حذفًا منطقيًا من القائمة النشطة. ويُحذف أيضًا أي قيد دخل مرتبط حذفًا منطقيًا، ويظل رقم الفاتورة محجوزًا.",
+          "notes": "إجراء هدّام: يؤثر الحذف في الفاتورة وأي قيد دخل مرتبط بها ضمن العروض النشطة. احتفظ بنسخة والتزم بمتطلبات الاحتفاظ بالسجلات. لا تحذف لإخفاء معاملة حقيقية."
         },
         "ckb": {
-          "purpose": "فاکتۆری هەڵبژێردراو دەسڕێتەوە یان لە ڕێگەی پرۆسەی سڕینەوە وەک سڕاوە نیشانی دەدات.",
-          "when": "تەنها کاتێک فاکتۆرەکە دووبارەیە یان بە هەڵە دروست کراوە و نابێت چالاک بمێنێتەوە.",
-          "how": "ژمارەی فاکتۆر، کڕیار و دۆخی پارەدان بپشکنە، Delete هەڵبژێرە و پێش بەردەوامبوون نامەی پشتڕاستکردنەوە بخوێنەوە.",
-          "inputs": "فاکتۆری دروست هەڵبژێرە و پێش پشتڕاستکردنەوە ژمارە، کڕیار و دۆخی پارەدانی بپشکنە.",
-          "result": "ئەگەر کردارەکە سەرکەوتوو بێت، فاکتۆرەکە لە نمای چالاک لادەبرێت یان وەک سڕاوە نیشان دەدرێت.",
-          "notes": "کردارێکی وێرانکەرە: سڕینەوەی فاکتۆر دەتوانێت کاریگەری لە مێژووی کڕیار، ڕاپۆرت و شوێنەواری پشکنین هەبێت. بپشکنە ئایا دەرچووە یان پارەی دراوە؛ کۆپییەک بپارێزە و پابەندی یاساکانی پاراستنی تۆمارەکان بە. بۆ شاردنەوەی مامەڵەیەکی ڕاستەقینە مەیسڕەوە."
+          "purpose": "فاکتۆری هەڵبژێردراو دەگوازێتەوە بۆ Deleted Records و هەر تۆمارێکی داهاتی پەیوەندیداریشی دەگوازێتەوە بۆ هەمان بەش.",
+          "when": "تەنها کاتێک بەکاریبهێنە کە فاکتۆرەکە دووبارەیە یان بە هەڵە دروست کراوە و نابێت چیتر چالاک بمێنێتەوە.",
+          "how": "ژمارەی فاکتۆر و کڕیار بپشکنە، Delete هەڵبژێرە، ئاگادارکردنەوەی تۆماری داهاتی پەیوەندیدار بخوێنەوە و تەنها ئەگەر مەبەستت سڕینەوەیە پشتڕاستی بکەرەوە.",
+          "inputs": "فاکتۆری دروست هەڵبژێرە. ئەپەکە لەوانەیە تۆمارە داهاتییە پەیوەندیدارەکان بدۆزێتەوە؛ ژمارە و وردەکارییەکانیان لە پەیامی پشتڕاستکردنەوەدا بپشکنە.",
+          "result": "فاکتۆرەکە بە شێوەی soft-delete لە لیستی چالاک دەردەکرێت. هەر تۆمارێکی داهاتی پەیوەندیداریش بە هەمان شێوە دەردەکرێت و ژمارەی فاکتۆر هەروا بۆ خۆی دەمێنێتەوە.",
+          "notes": "کردارێکی زیانبەخشە: سڕینەوە لە نما چالاکەکاندا کاریگەری لەسەر فاکتۆر و هەر تۆمارێکی داهاتی پەیوەندیدار هەیە. کۆپییەک هەڵبگرە و پابەندی یاساکانی پاراستنی تۆمارەکان بە. بۆ شاردنەوەی مامەڵەیەکی ڕاستەقینە سڕینەوە مەکە."
         },
         "kmr": {
-          "purpose": "Fatûreya hilbijartî bi rêya pêvajoya jêbirina fatûreyê jê dike an wekî jêbirî nîşan dide.",
-          "when": "Tenê dema ku fatûre dubare ye an bi xeletî hatiye çêkirin û divê êdî çalak nemîne.",
-          "how": "Jimara fatûreyê, xerîdar û rewşa dravdanê kontrol bike, Delete hilbijêre û berî domandinê peyama piştrastkirinê bixwîne.",
-          "inputs": "Fatûreya rast hilbijêre û berî piştrastkirinê jimare, xerîdar û rewşa dravdanê kontrol bike.",
-          "result": "Ger kiryar serkeftî be, fatûre ji dîtina çalak tê rakirin an wekî jêbirî tê nîşankirin.",
-          "notes": "Kiriyareke wêranker e: jêbirina fatûreyê dikare bandorê li dîroka xerîdar, rapor û şopa kontrolê bike. Kontrol bike ka hatiye derxistin an hatiye dayîn; kopiyek biparêze û pêdiviyên parastina tomarê bicîh bîne. Ji bo veşartina danûstandineke rastîn wê jê neke."
+          "purpose": "Fatûreya hilbijartî vediguhezîne Deleted Records û her tomara dahata girêdayî jî diguhezîne heman beşê.",
+          "when": "Tenê dema ku fatûre dubare ye an bi xeletî hatiye çêkirin û divê êdî çalak nemîne, vê bikar bîne.",
+          "how": "Hejmara fatûreyê û xerîdar kontrol bike, Delete hilbijêre, hişyariya li ser tomara dahata girêdayî bixwîne û tenê dema ku tu bi rastî dixwazî jê bibe piştrast bike.",
+          "inputs": "Fatûreya rast hilbijêre. Dibe ku sepan tomarên dahata girêdayî nas bike; hejmar û hûrguliyên wan di peyama piştrastkirinê de kontrol bike.",
+          "result": "Fatûre bi awayê soft-delete ji lîsteya çalak tê derxistin. Her tomara dahata girêdayî jî bi heman awayî tê derxistin û hejmara fatûreyê rezerv dimîne.",
+          "notes": "Kiriyareke xeternak e: jêbirin di dîtinên çalak de bandorê li ser fatûreyê û her tomara dahata girêdayî dike. Kopiyek biparêze û erkên parastina tomarê bi cih bîne. Ji bo veşartina danûstendineke rastîn jê nebe."
         },
         "tr": {
-          "purpose": "Fatura silme iş akışı aracılığıyla seçilen faturayı siler veya silinmiş olarak işaretler.",
-          "when": "Yalnızca fatura yinelenmişse veya yanlışlıkla oluşturulmuşsa ve etkin kalmaması gerekiyorsa kullanın.",
-          "how": "Fatura numarasını, müşteriyi ve ödeme durumunu kontrol edin, Delete'i seçin ve devam etmeden önce onay mesajını inceleyin.",
-          "inputs": "Doğru faturayı seçin; onaylamadan önce numarasını, müşteriyi ve ödeme durumunu kontrol edin.",
-          "result": "İşlem başarılı olursa fatura etkin görünümden kaldırılır veya silinmiş olarak işaretlenir.",
-          "notes": "YIKICI İŞLEM: Fatura silmek müşteri geçmişini, raporları ve denetim izini etkileyebilir. Faturanın düzenlenip düzenlenmediğini veya ödenip ödenmediğini kontrol edin; bir kopyasını saklayın ve kayıt saklama yükümlülüklerine uyun. Gerçek bir işlemi gizlemek için silmeyin."
+          "purpose": "Seçilen faturayı Deleted Records bölümüne taşır ve bağlantılı gelir kaydı varsa onu da aynı bölüme taşır.",
+          "when": "Yalnızca fatura yinelenmişse veya yanlışlıkla oluşturulmuşsa ve artık etkin kalmaması gerekiyorsa kullanın.",
+          "how": "Fatura numarasını ve müşteriyi kontrol edin, Delete seçeneğini belirleyin, bağlantılı gelir kaydı hakkındaki uyarıyı inceleyin ve yalnızca silmek istediğinizden eminseniz onaylayın.",
+          "inputs": "Doğru faturayı seçin. Uygulama bağlantılı gelir kayıtlarını belirleyebilir; onay istemindeki sayı ve ayrıntıları inceleyin.",
+          "result": "Fatura etkin listeden soft-delete yöntemiyle kaldırılır. Bağlantılı gelir kaydı da soft-delete yapılır ve fatura numarası ayrılmış olarak kalır.",
+          "notes": "Yıkıcı işlem: silme, etkin görünümlerde faturayı ve bağlantılı gelir kayıtlarını etkiler. Bir kopyasını saklayın ve kayıt saklama yükümlülüklerinize uyun. Gerçek bir işlemi gizlemek için silmeyin."
         },
         "pl": {
-          "purpose": "Usuwa wybraną fakturę lub oznacza ją jako usuniętą w ramach procesu usuwania faktur.",
-          "when": "Użyj wyłącznie wtedy, gdy faktura jest duplikatem lub została utworzona omyłkowo i nie powinna pozostać aktywna.",
-          "how": "Sprawdź numer faktury, klienta i status płatności, wybierz Delete i przeczytaj prośbę o potwierdzenie przed kontynuowaniem.",
-          "inputs": "Wybierz właściwą fakturę i przed potwierdzeniem sprawdź jej numer, klienta oraz status płatności.",
-          "result": "Jeśli operacja się powiedzie, faktura zostanie usunięta z aktywnego widoku lub oznaczona jako usunięta.",
-          "notes": "DZIAŁANIE NISZCZĄCE: usunięcie faktury może wpłynąć na historię klienta, raporty i ścieżkę audytu. Sprawdź, czy została wystawiona lub opłacona; zachowaj kopię i przestrzegaj obowiązków przechowywania dokumentacji. Nie usuwaj jej, aby ukryć rzeczywistą transakcję."
+          "purpose": "Przenosi wybraną fakturę do Deleted Records, a także przenosi tam każdy powiązany wpis przychodu.",
+          "when": "Używaj tylko wtedy, gdy faktura jest duplikatem lub została utworzona przez pomyłkę i nie powinna już być aktywna.",
+          "how": "Sprawdź numer faktury i klienta, wybierz Delete, przeczytaj ostrzeżenie dotyczące powiązanego wpisu przychodu i potwierdź tylko wtedy, gdy zamierzasz usunąć fakturę.",
+          "inputs": "Wybierz właściwą fakturę. Aplikacja może wykryć powiązane wpisy przychodu; sprawdź ich liczbę i szczegóły w oknie potwierdzenia.",
+          "result": "Faktura zostaje logicznie usunięta z aktywnej listy. Każdy powiązany wpis przychodu również zostaje logicznie usunięty, a numer faktury pozostaje zarezerwowany.",
+          "notes": "Operacja destrukcyjna: usunięcie wpływa na fakturę i powiązane wpisy przychodu w widokach aktywnych. Zachowaj kopię i przestrzegaj obowiązków przechowywania dokumentacji. Nie usuwaj danych, aby ukryć rzeczywistą transakcję."
         },
         "ur": {
-          "purpose": "انوائس حذف کرنے کے عمل کے ذریعے منتخب انوائس حذف کرتا ہے یا اسے حذف شدہ نشان زد کرتا ہے۔",
-          "when": "صرف اس وقت استعمال کریں جب انوائس نقل ہو یا غلطی سے بنائی گئی ہو اور فعال نہیں رہنی چاہیے۔",
-          "how": "انوائس نمبر، گاہک اور ادائیگی کی حیثیت چیک کریں، Delete منتخب کریں اور آگے بڑھنے سے پہلے تصدیقی پیغام پڑھیں۔",
-          "inputs": "درست انوائس منتخب کریں اور تصدیق سے پہلے اس کا نمبر، گاہک اور ادائیگی کی حیثیت چیک کریں۔",
-          "result": "کارروائی کامیاب ہو تو انوائس فعال منظر سے ہٹا دی جاتی ہے یا حذف شدہ نشان زد ہوتی ہے۔",
-          "notes": "تباہ کن کارروائی: انوائس حذف کرنے سے گاہک کی تاریخ، رپورٹس اور آڈٹ ٹریل متاثر ہو سکتے ہیں۔ دیکھیں کہ انوائس جاری یا ادا ہوئی ہے یا نہیں؛ ایک نقل محفوظ رکھیں اور ریکارڈ رکھنے کی قانونی ذمہ داریاں پوری کریں۔ حقیقی لین دین چھپانے کے لیے اسے حذف نہ کریں۔"
+          "purpose": "منتخب انوائس کو Deleted Records میں منتقل کرتا ہے اور اس سے منسلک آمدنی کا کوئی اندراج بھی اسی حصے میں منتقل کرتا ہے۔",
+          "when": "صرف اس وقت استعمال کریں جب انوائس ڈپلیکیٹ ہو یا غلطی سے بنائی گئی ہو اور اسے فعال نہیں رہنا چاہیے۔",
+          "how": "انوائس نمبر اور گاہک چیک کریں، Delete منتخب کریں، منسلک آمدنی کے اندراج سے متعلق انتباہ دیکھیں، اور صرف اسی صورت میں تصدیق کریں جب واقعی حذف کرنا مقصود ہو۔",
+          "inputs": "درست انوائس منتخب کریں۔ ایپ منسلک آمدنی کے ریکارڈز کی نشاندہی کر سکتی ہے؛ تصدیقی پیغام میں ان کی تعداد اور تفصیلات دیکھیں۔",
+          "result": "انوائس فعال فہرست سے soft-delete ہو جاتی ہے۔ اس سے منسلک آمدنی کا اندراج بھی soft-delete ہوتا ہے اور انوائس نمبر محفوظ رہتا ہے۔",
+          "notes": "یہ تباہ کن کارروائی ہے: حذف کرنے سے فعال مناظر میں انوائس اور اس سے منسلک آمدنی کے اندراجات متاثر ہوتے ہیں۔ ایک نقل محفوظ رکھیں اور ریکارڈ رکھنے کی ذمہ داریوں پر عمل کریں۔ حقیقی لین دین چھپانے کے لیے حذف نہ کریں۔"
         },
         "pa": {
-          "purpose": "ਇਨਵੌਇਸ ਮਿਟਾਉਣ ਦੀ ਪ੍ਰਕਿਰਿਆ ਰਾਹੀਂ ਚੁਣਿਆ ਇਨਵੌਇਸ ਮਿਟਾਉਂਦਾ ਜਾਂ ਮਿਟਾਇਆ ਹੋਇਆ ਨਿਸ਼ਾਨ ਲਗਾਉਂਦਾ ਹੈ।",
-          "when": "ਸਿਰਫ਼ ਜਦੋਂ ਇਨਵੌਇਸ ਡੁਪਲੀਕੇਟ ਹੋਵੇ ਜਾਂ ਗਲਤੀ ਨਾਲ ਬਣਿਆ ਹੋਵੇ ਅਤੇ ਸਰਗਰਮ ਨਹੀਂ ਰਹਿਣਾ ਚਾਹੀਦਾ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਇਨਵੌਇਸ ਨੰਬਰ, ਗਾਹਕ ਅਤੇ ਭੁਗਤਾਨ ਸਥਿਤੀ ਜਾਂਚੋ, Delete ਚੁਣੋ ਅਤੇ ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਪੜ੍ਹੋ।",
-          "inputs": "ਸਹੀ ਇਨਵੌਇਸ ਚੁਣੋ ਅਤੇ ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਇਸਦਾ ਨੰਬਰ, ਗਾਹਕ ਅਤੇ ਭੁਗਤਾਨ ਸਥਿਤੀ ਜਾਂਚੋ।",
-          "result": "ਕਾਰਵਾਈ ਸਫਲ ਹੋਣ 'ਤੇ ਇਨਵੌਇਸ ਸਰਗਰਮ ਦ੍ਰਿਸ਼ ਤੋਂ ਹਟ ਜਾਂਦਾ ਹੈ ਜਾਂ ਮਿਟਾਇਆ ਹੋਇਆ ਨਿਸ਼ਾਨ ਲੱਗ ਜਾਂਦਾ ਹੈ।",
-          "notes": "ਨੁਕਸਾਨਦਾਇਕ ਕਾਰਵਾਈ: ਇਨਵੌਇਸ ਮਿਟਾਉਣ ਨਾਲ ਗਾਹਕ ਦਾ ਇਤਿਹਾਸ, ਰਿਪੋਰਟਾਂ ਅਤੇ ਆਡਿਟ ਟ੍ਰੇਲ ਪ੍ਰਭਾਵਿਤ ਹੋ ਸਕਦੇ ਹਨ। ਜਾਂਚੋ ਕਿ ਇਹ ਜਾਰੀ ਜਾਂ ਭੁਗਤਾਨ ਹੋਇਆ ਹੈ ਜਾਂ ਨਹੀਂ; ਕਾਪੀ ਸੰਭਾਲੋ ਅਤੇ ਰਿਕਾਰਡ ਰੱਖਣ ਦੀਆਂ ਜ਼ਿੰਮੇਵਾਰੀਆਂ ਪੂਰੀਆਂ ਕਰੋ। ਅਸਲ ਲੈਣ-ਦੇਣ ਲੁਕਾਉਣ ਲਈ ਨਾ ਮਿਟਾਓ।"
+          "purpose": "ਚੁਣੇ ਇਨਵੌਇਸ ਨੂੰ Deleted Records ਵਿੱਚ ਭੇਜਦਾ ਹੈ ਅਤੇ ਇਸ ਨਾਲ ਜੁੜੀ ਆਮਦਨ ਐਂਟਰੀ ਵੀ ਉਸੇ ਹਿੱਸੇ ਵਿੱਚ ਭੇਜਦਾ ਹੈ।",
+          "when": "ਸਿਰਫ਼ ਉਦੋਂ ਵਰਤੋ ਜਦੋਂ ਇਨਵੌਇਸ ਡੁਪਲੀਕੇਟ ਹੋਵੇ ਜਾਂ ਗਲਤੀ ਨਾਲ ਬਣਿਆ ਹੋਵੇ ਅਤੇ ਇਸਨੂੰ ਸਰਗਰਮ ਨਹੀਂ ਰਹਿਣਾ ਚਾਹੀਦਾ।",
+          "how": "ਇਨਵੌਇਸ ਨੰਬਰ ਅਤੇ ਗਾਹਕ ਜਾਂਚੋ, Delete ਚੁਣੋ, ਜੁੜੀ ਆਮਦਨ ਐਂਟਰੀ ਬਾਰੇ ਚੇਤਾਵਨੀ ਪੜ੍ਹੋ ਅਤੇ ਸਿਰਫ਼ ਜਦੋਂ ਮਿਟਾਉਣਾ ਹੀ ਮਕਸਦ ਹੋਵੇ ਤਾਂ ਪੁਸ਼ਟੀ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਇਨਵੌਇਸ ਚੁਣੋ। ਐਪ ਜੁੜੀਆਂ ਆਮਦਨ ਐਂਟਰੀਆਂ ਦੀ ਪਛਾਣ ਕਰ ਸਕਦੀ ਹੈ; ਪੁਸ਼ਟੀ ਸੁਨੇਹੇ ਵਿੱਚ ਗਿਣਤੀ ਅਤੇ ਵੇਰਵੇ ਜਾਂਚੋ।",
+          "result": "ਇਨਵੌਇਸ ਸਰਗਰਮ ਸੂਚੀ ਤੋਂ soft-delete ਹੋ ਜਾਂਦਾ ਹੈ। ਇਸ ਨਾਲ ਜੁੜੀ ਆਮਦਨ ਐਂਟਰੀ ਵੀ soft-delete ਹੁੰਦੀ ਹੈ ਅਤੇ ਇਨਵੌਇਸ ਨੰਬਰ ਰਾਖਵਾਂ ਰਹਿੰਦਾ ਹੈ।",
+          "notes": "ਇਹ ਨੁਕਸਾਨਦਾਇਕ ਕਾਰਵਾਈ ਹੈ: ਮਿਟਾਉਣ ਨਾਲ ਸਰਗਰਮ ਦ੍ਰਿਸ਼ਾਂ ਵਿੱਚ ਇਨਵੌਇਸ ਅਤੇ ਇਸ ਨਾਲ ਜੁੜੀਆਂ ਆਮਦਨ ਐਂਟਰੀਆਂ ਪ੍ਰਭਾਵਿਤ ਹੁੰਦੀਆਂ ਹਨ। ਇੱਕ ਕਾਪੀ ਰੱਖੋ ਅਤੇ ਰਿਕਾਰਡ ਸੰਭਾਲਣ ਦੀਆਂ ਜ਼ਿੰਮੇਵਾਰੀਆਂ ਪੂਰੀਆਂ ਕਰੋ। ਅਸਲ ਲੈਣ-ਦੇਣ ਨੂੰ ਲੁਕਾਉਣ ਲਈ ਨਾ ਮਿਟਾਓ।"
         },
         "prs": {
-          "purpose": "فاکتور انتخاب‌شده را از طریق روند حذف فاکتور حذف یا به‌عنوان حذف‌شده علامت‌گذاری می‌کند.",
-          "when": "فقط وقتی فاکتور تکراری است یا اشتباهی ایجاد شده و نباید فعال بماند، استفاده کنید.",
-          "how": "شماره فاکتور، مشتری و وضعیت پرداخت را بررسی کنید، Delete را انتخاب کنید و پیش از ادامه پیام تأیید را بخوانید.",
-          "inputs": "فاکتور درست را انتخاب کنید و پیش از تأیید، شماره، مشتری و وضعیت پرداخت آن را بررسی کنید.",
-          "result": "در صورت موفقیت، فاکتور از نمای فعال برداشته یا به‌عنوان حذف‌شده علامت‌گذاری می‌شود.",
-          "notes": "عملیات مخرب: حذف فاکتور می‌تواند بر سابقه مشتری، گزارش‌ها و ردپای حسابرسی اثر بگذارد. بررسی کنید صادر یا پرداخت شده است یا خیر؛ نسخه‌ای نگه دارید و الزامات نگهداری سوابق را رعایت کنید. برای پنهان‌کردن معامله واقعی آن را حذف نکنید."
+          "purpose": "فاکتور انتخاب‌شده را به Deleted Records منتقل می‌کند و هر ثبت درآمد مرتبط با آن را نیز به همان بخش منتقل می‌کند.",
+          "when": "فقط زمانی استفاده کنید که فاکتور تکراری است یا اشتباهی ایجاد شده و دیگر نباید فعال بماند.",
+          "how": "شماره فاکتور و مشتری را بررسی کنید، Delete را انتخاب کنید، هشدار مربوط به ثبت درآمد مرتبط را بخوانید و فقط در صورت قصد واقعی حذف، تأیید کنید.",
+          "inputs": "فاکتور درست را انتخاب کنید. برنامه ممکن است ثبت‌های درآمد مرتبط را شناسایی کند؛ تعداد و جزئیات آن‌ها را در پیام تأیید بررسی کنید.",
+          "result": "فاکتور به‌صورت نرم‌افزاری از فهرست فعال حذف می‌شود. هر ثبت درآمد مرتبط نیز به‌صورت نرم‌افزاری حذف می‌شود و شماره فاکتور همچنان رزرو می‌ماند.",
+          "notes": "عملیات مخرب: حذف بر فاکتور و هر ثبت درآمد مرتبط در نماهای فعال اثر می‌گذارد. یک نسخه نگه دارید و الزامات نگهداری سوابق را رعایت کنید. برای پنهان‌کردن تراکنش واقعی حذف نکنید."
         },
         "ps": {
-          "purpose": "د بل د ړنګولو د بهیر له لارې ټاکل شوی بل ړنګوي یا یې د ړنګ شوي په توګه نښه کوي.",
-          "when": "یوازې هغه وخت یې وکاروئ چې بل تکراري وي یا په تېروتنه جوړ شوی وي او فعال پاتې نه شي.",
-          "how": "د بل شمېره، پېرودونکی او د تادیې حالت وګورئ، Delete وټاکئ او له دوام مخکې د تایید پیغام ولولئ.",
-          "inputs": "سم بل وټاکئ او له تایید مخکې یې شمېره، پېرودونکی او د تادیې حالت وګورئ.",
-          "result": "که عملیات بریالي شي، بل له فعال لید څخه لرې کېږي یا د ړنګ شوي په توګه نښه کېږي.",
-          "notes": "زیانمنوونکې کړنه: د بل ړنګول د پېرودونکي پر مخینه، راپورونو او د پلټنې پر نښو اغېز کولی شي. وګورئ چې بل صادر یا تادیه شوی دی که نه؛ یوه کاپي وساتئ او د ریکارډ ساتلو قانوني مکلفیتونه پوره کړئ. د رښتینې معاملې د پټولو لپاره یې مه ړنګوئ."
+          "purpose": "ټاکل شوی بل Deleted Records ته لېږدوي او هر تړلی د عاید ثبت هم هماغې برخې ته لېږدوي.",
+          "when": "یوازې هغه وخت یې وکاروئ چې بل تکراري وي یا په تېروتنه جوړ شوی وي او نور باید فعال پاتې نه شي.",
+          "how": "د بل شمېره او پېرودونکی وګورئ، Delete وټاکئ، د تړلي عاید ثبت په اړه خبرتیا ولولئ، او یوازې هغه وخت تایید کړئ چې رښتیا یې حذفول غواړئ.",
+          "inputs": "سم بل وټاکئ. اپلیکیشن ښايي تړلي د عاید ریکارډونه ومومي؛ د تایید په پیغام کې یې شمېر او جزئیات وګورئ.",
+          "result": "بل له فعال لېست څخه په soft-delete ډول لرې کېږي. هر تړلی د عاید ثبت هم په همدې ډول حذف کېږي او د بل شمېره ساتل کېږي.",
+          "notes": "دا ویجاړوونکې کړنه ده: حذف په فعالو لیدونو کې پر بل او تړلو عاید ثبتونو اغېز کوي. یوه کاپي وساتئ او د ریکارډونو د ساتلو مکلفیتونه مراعات کړئ. د ریښتینې معاملې د پټولو لپاره یې مه حذفوئ."
         }
       },
       "handler_or_behavior": "`deleteInvoice(\\`"
