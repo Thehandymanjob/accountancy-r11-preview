@@ -91,7 +91,16 @@
     ['THA-HLP-0011', '#accountancyHome .accountancy-home-grid > button[onclick="show(\'records\')"]'],
     ['THA-HLP-0012', '#accountancyHome .accountancy-home-grid > button[onclick="show(\'invoices\')"]'],
     ['THA-HLP-0013', '#accountancyHome .accountancy-home-grid > button[onclick="show(\'customers\')"]'],
-    ['THA-HLP-0014', '#accountancyHome .accountancy-home-grid > button[onclick="show(\'report\')"]']
+    ['THA-HLP-0014', '#accountancyHome .accountancy-home-grid > button[onclick="show(\'report\')"]'],
+    ['THA-HLP-0021', '#home .actions.no-print > button[onclick="refreshAll()"]'],
+    ['THA-HLP-0022', '#home .actions.no-print > button[onclick="setPeriod()"]'],
+    ['THA-HLP-0027', '#entry .actions > button[onclick="resetEntry()"]'],
+    ['THA-HLP-0039', '#report .actions > button[onclick="printReport()"]'],
+    ['THA-HLP-0063', '#settings .factory-reset-button[onclick="openFactoryReset()"]'],
+    ['THA-HLP-0074', '.pr-sidebar > button[data-pr-nav="workspace"]'],
+    ['THA-HLP-0076', '.pr-sidebar > button[data-pr-nav="company-hub"]'],
+    ['THA-HLP-0078', '.pr-sidebar > button[data-pr-nav="project-hub"]'],
+    ['THA-HLP-0080', '.pr-sidebar > button[data-pr-nav="control"]']
   ];
   if (STATIC_BINDINGS.some(binding => !Array.isArray(binding) || binding.length !== 2 || binding.some(value => typeof value !== 'string' || !value.trim()))) {
     console.error('[THA Help] Invalid static binding table; contextual help was not started.');
