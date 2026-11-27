@@ -5,11 +5,11 @@
   "branch": "development",
   "baseline": {
     "runtime_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
-    "runtime_blob_sha": "bdc640dc4ca85b6487b6ac533f6abcf80614d173",
+    "runtime_blob_sha": "876a2037e6eca021cd0ac807d63bfb65d10bc749",
     "registry_blob_sha": "f63754128fd09125290df4045f6f4b6fc03b3545",
     "inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
     "help_content_blob_sha": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
-    "help_runtime_blob_sha": "3225454f8999f84a5052024e52f3b13299799038"
+    "help_runtime_blob_sha": "3bb8f23c9fec1e613b10ee53a35d290853eb4edc"
   },
   "policy": {
     "label_only_matching": false,
@@ -36,15 +36,16 @@
       "ADJACENT_HELP_BUTTON_ATTACHED_R55_NOT_BROWSER_VERIFIED": 6,
       "ADJACENT_HELP_BUTTON_ATTACHED_R56_NOT_BROWSER_VERIFIED": 6,
       "ADJACENT_HELP_BUTTON_ATTACHED_R57_NOT_BROWSER_VERIFIED": 7,
-      "ADJACENT_HELP_BUTTON_ATTACHED_R58_NOT_BROWSER_VERIFIED": 11
+      "ADJACENT_HELP_BUTTON_ATTACHED_R58_NOT_BROWSER_VERIFIED": 11,
+      "ADJACENT_HELP_BUTTON_ATTACHED_R59_NOT_BROWSER_VERIFIED": 6
     },
-    "notes": "R58 has 74 mapped adjacent Help controls: 57 scoped navigation/report/form/diagnostic/accounting/Project Workspace/Company Contracts & Jobs selectors, 13 exact unique-ID selectors, five scoped unique-handler selectors and five dynamic-template attributes. R58 adds Company registration/list/P&L, company/job/work-package save and clear, project-only expense/payment, and invoice payment confirmation. Company Contracts & Jobs financial records remain separate from Accounting. Real browser tests and deployment remain pending.",
+    "notes": "R59 has 80 mapped adjacent Help controls: 63 scoped navigation/report/form/diagnostic/accounting/Project Workspace/Company Contracts/Contracts/Profile selectors, 13 exact unique-ID selectors, five scoped unique-handler selectors and five dynamic-template attributes. R59 adds New Contract, Save Contract, Contract Preview/Print/PDF, Save Profile, Remove Logo and Clear Support Form. Existing financial and storage boundaries remain unchanged. Real browser tests and deployment remain pending.",
     "runtime_publishable_entries": 132,
     "runtime_languages": 11,
-    "static_controls_attached": 69,
+    "static_controls_attached": 75,
     "draft_static_controls_skipped": 2,
     "dynamic_template_controls_pending": 10,
-    "help_ids_attached": 74,
+    "help_ids_attached": 80,
     "browser_tests_run": 0,
     "dynamic_template_controls_attached": 5,
     "draft_controls_skipped": 12,
@@ -112,30 +113,30 @@
     {
       "help_id": "THA-HLP-0005",
       "audit_ref": "INV-006",
-      "element_id": null,
+      "element_id": "contractsWorkspace",
       "visible_label": "＋ New Contract",
       "handler": "ctNew()",
       "handler_name": "ctNew",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#contractsWorkspace .ct-newbar > button[onclick=\"ctNew()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler ctNew occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R59_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the action to #contractsWorkspace and its literal onclick value. The control is unique within the Contracts, Profile & Logo or User Guide contact form. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0006",
       "audit_ref": "INV-007",
-      "element_id": null,
+      "element_id": "ctFormCard",
       "visible_label": "💾 Save Contract",
       "handler": "ctSave()",
       "handler_name": "ctSave",
-      "selector_strategy": "static_scoped_handler_selector",
-      "selector": "#contractsApp .ct-actions > button[onclick=\"ctSave()\"]",
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#ctFormCard .ct-actions > button[onclick=\"ctSave()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
-      "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R59_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the action to #ctFormCard and its literal onclick value. The control is unique within the Contracts, Profile & Logo or User Guide contact form. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0007",
@@ -154,16 +155,16 @@
     {
       "help_id": "THA-HLP-0008",
       "audit_ref": "INV-009",
-      "element_id": null,
+      "element_id": "ctFormCard",
       "visible_label": "🖨️ Preview / Print / Save PDF",
       "handler": "ctPrint()",
       "handler_name": "ctPrint",
-      "selector_strategy": "static_scoped_handler_selector",
-      "selector": "#contractsApp .ct-actions > button[onclick=\"ctPrint()\"]",
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#ctFormCard .ct-actions > button[onclick=\"ctPrint()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
-      "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R59_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the action to #ctFormCard and its literal onclick value. The control is unique within the Contracts, Profile & Logo or User Guide contact form. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0009",
@@ -994,30 +995,30 @@
     {
       "help_id": "THA-HLP-0068",
       "audit_ref": "INV-084",
-      "element_id": null,
+      "element_id": "profileGuide",
       "visible_label": "Save Profile",
       "handler": "prSaveProfile()",
       "handler_name": "prSaveProfile",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#profileGuide .pr-actions > button[onclick=\"prSaveProfile()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler prSaveProfile occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R59_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the action to #profileGuide and its literal onclick value. The control is unique within the Contracts, Profile & Logo or User Guide contact form. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0069",
       "audit_ref": "INV-085",
-      "element_id": null,
+      "element_id": "profileGuide",
       "visible_label": "Remove Logo",
       "handler": "prRemoveLogo()",
       "handler_name": "prRemoveLogo",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#profileGuide .pr-actions > button[onclick=\"prRemoveLogo()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler prRemoveLogo occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R59_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the action to #profileGuide and its literal onclick value. The control is unique within the Contracts, Profile & Logo or User Guide contact form. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0070",
@@ -1036,16 +1037,16 @@
     {
       "help_id": "THA-HLP-0071",
       "audit_ref": "INV-087",
-      "element_id": null,
+      "element_id": "helpContactForm",
       "visible_label": "Clear Form",
       "handler": "resetHelpContactForm()",
       "handler_name": "resetHelpContactForm",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#helpContactForm .pr-actions > button[onclick=\"resetHelpContactForm()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler resetHelpContactForm occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R59_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the action to #helpContactForm and its literal onclick value. The control is unique within the Contracts, Profile & Logo or User Guide contact form. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0072",
