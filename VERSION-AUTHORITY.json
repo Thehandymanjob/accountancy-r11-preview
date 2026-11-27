@@ -48,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "R49 replaces the floating last-used Help button with a separate adjacent ? control beside each of the 19 mapped specialist controls. The 132 approved content entries remain isolated in the Help content bundle. R11 Version Authority Gate PASS: run 46068148382 (24 pinned runtime assets). Preview browser/device verification remains pending; no deployment or Production promotion is authorized.",
+  "note": "R49 replaces the floating last-used Help button with a separate adjacent ? control beside each of the 19 mapped specialist controls. Simulated DOM smoke test PASS. R11 Version Authority Gate PASS: run 46068268766 (24 pinned runtime assets). Real Preview browser/iPhone verification remains pending; no deployment or Production promotion is authorized.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {
