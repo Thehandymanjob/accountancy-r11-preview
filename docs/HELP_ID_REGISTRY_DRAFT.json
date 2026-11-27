@@ -20464,6 +20464,78 @@
           "inputs": "PDF ایجادشده قرارداد یا پیش‌فاکتور باید در دسترس باشد. اگر صفحه اشتراک‌گذاری باز شد، مقصد موردنظر را انتخاب کنید.",
           "result": "در صورت پشتیبانی دستگاه، صفحه اشتراک‌گذاری سیستم باز می‌شود؛ در غیر این صورت برنامه دانلود PDF را آغاز می‌کند. برنامه نمی‌تواند تحویل فایل توسط برنامه یا سرویس دیگر را تأیید کند.",
           "notes": "پیش از اشتراک‌گذاری، گیرنده و جزئیات قیمت، محدوده کار و شرایط را بررسی کنید. لغو صفحه اشتراک‌گذاری به معنی ارسال موفق سند نیست."
+        },
+        "ar": {
+          "purpose": "يشارك ملف PDF الذي تم إنشاؤه للعقد أو عرض السعر باستخدام خيارات المشاركة في الجهاز، أو ينزّله إذا لم تكن المشاركة متاحة.",
+          "when": "استخدمه بعد إنشاء PDF عندما تريد إرساله أو حفظ نسخة محلية على جهازك.",
+          "how": "اختر Share PDF. إذا كان الجهاز يدعم مشاركة ملفات PDF، فاختر وجهة من قائمة المشاركة في النظام. إذا لم تكن مشاركة الملفات متاحة، ينزّل التطبيق ملف PDF لتتمكن من مشاركته من Files.",
+          "inputs": "يلزم توفر ملف PDF منشأ للعقد أو عرض السعر. اختر وجهة إذا فتحت قائمة المشاركة.",
+          "result": "تفتح قائمة المشاركة في النظام إذا كانت مشاركة الملفات مدعومة. وإلا يبدأ التطبيق تنزيل ملف PDF. لا يستطيع التطبيق تأكيد التسليم عبر تطبيق أو خدمة أخرى.",
+          "notes": "تحقق من المستلم وراجع الأسعار ونطاق العمل والشروط قبل المشاركة. إلغاء قائمة المشاركة لا يعني أن المستند أُرسل."
+        },
+        "ckb": {
+          "purpose": "PDFی دروستکراوی گرێبەست یان نرخنامە بە بەکارهێنانی هەڵبژاردەکانی هاوبەشکردنی ئامێرەکە هاوبەش دەکات، یان ئەگەر هاوبەشکردن بەردەست نەبێت دایدەبەزێنێت.",
+          "when": "دوای دروستکردنی PDF ئەمە بەکاربهێنە کاتێک دەتەوێت بینێریت یان کۆپییەکی خۆجێیی لەسەر ئامێرەکەت هەڵبگریت.",
+          "how": "Share PDF هەڵبژێرە. ئەگەر ئامێرەکە پشتگیری هاوبەشکردنی فایلەکانی PDF بکات، شوێنێک لە پەنجەرەی هاوبەشکردنی سیستەم هەڵبژێرە. ئەگەر هاوبەشکردنی فایل بەردەست نەبێت، بەرنامە PDFەکە دادەبەزێنێت تا بتوانیت لە Files هاوبەشی بکەیت.",
+          "inputs": "PDFێکی دروستکراوی گرێبەست یان نرخنامە پێویستە. ئەگەر پەنجەرەی هاوبەشکردن کرایەوە، شوێنێک هەڵبژێرە.",
+          "result": "ئەگەر ئامێرەکە پشتگیری هاوبەشکردنی فایل بکات، پەنجەرەی هاوبەشکردنی سیستەم دەکرێتەوە. ئەگەر نا، بەرنامە دەست بە دابەزاندنی PDF دەکات. بەرنامە ناتوانێت گەیشتنی فایل لە ڕێگەی ئەپ یان خزمەتگوزارییەکی تر پشتڕاست بکاتەوە.",
+          "notes": "پێش هاوبەشکردن وەرگرەکە پشتڕاست بکەوە و نرخ، مەودای کار و مەرجەکان بپشکنە. داخستنی پەنجەرەی هاوبەشکردن واتای ناردنی بەڵگەنامەکە نییە."
+        },
+        "kmr": {
+          "purpose": "PDF-a çêkirî ya peyman an texmînê bi vebijarkên parvekirina cîhazê parve dike, an heke parvekirin ne berdest be wê dadixe.",
+          "when": "Vê bikar bîne piştî çêkirina PDF-ê dema ku dixwazî wê bişînî an kopiyeke herêmî li ser cîhaza xwe biparêzî.",
+          "how": "Share PDF hilbijêre. Heke cîhaz piştgirî dide parvekirina pelên PDF, ji pelika parvekirina pergalê cihêkê hilbijêre. Heke parvekirina pelan ne berdest be, sepan PDF-ê dadixe da ku tu wê ji Files parve bikî.",
+          "inputs": "PDF-eke çêkirî ya peyman an texmînê pêwîst e. Heke pelika parvekirinê vebe, cihêkê hilbijêre.",
+          "result": "Heke parvekirina pelan were piştgirîkirin, pelika parvekirina pergalê vedibe. Wekî din, sepan dest bi daxistina PDF-ê dike. Sepan nikare gihîştina belgeyê bi sepan an xizmeteke din piştrast bike.",
+          "notes": "Berî parvekirinê wergir piştrast bike û bihayên, çarçoveya kar û mercan kontrol bike. Betalkirina pelika parvekirinê nayê wê wateyê ku belge hatiye şandin."
+        },
+        "tr": {
+          "purpose": "Oluşturulan sözleşme veya fiyat teklifi PDF'sini cihazın paylaşım seçenekleriyle paylaşır ya da paylaşım kullanılamıyorsa indirir.",
+          "when": "PDF oluşturulduktan sonra göndermek veya cihazınıza yerel bir kopya kaydetmek istediğinizde kullanın.",
+          "how": "Share PDF seçeneğini belirleyin. Cihaz PDF dosyalarının paylaşımını destekliyorsa sistem paylaşım sayfasından bir hedef seçin. Dosya paylaşımı kullanılamıyorsa uygulama PDF'yi indirir; böylece Files üzerinden paylaşabilirsiniz.",
+          "inputs": "Oluşturulmuş bir sözleşme veya fiyat teklifi PDF'si gerekir. Paylaşım sayfası açılırsa bir hedef seçin.",
+          "result": "Dosya paylaşımı destekleniyorsa sistem paylaşım sayfası açılır. Aksi takdirde uygulama PDF'yi indirmeye başlar. Uygulama, başka bir uygulama veya hizmet üzerinden teslimatı doğrulayamaz.",
+          "notes": "Paylaşmadan önce alıcıyı doğrulayın; fiyatları, iş kapsamını ve koşulları inceleyin. Paylaşım sayfasını iptal etmek belgenin gönderildiği anlamına gelmez."
+        },
+        "pl": {
+          "purpose": "Udostępnia wygenerowany plik PDF umowy lub wyceny za pomocą opcji udostępniania urządzenia albo pobiera go, jeśli udostępnianie jest niedostępne.",
+          "when": "Użyj tej opcji po wygenerowaniu pliku PDF, gdy chcesz go wysłać lub zapisać lokalną kopię na urządzeniu.",
+          "how": "Wybierz Share PDF. Jeśli urządzenie obsługuje udostępnianie plików PDF, wybierz miejsce docelowe w systemowym panelu udostępniania. Jeśli udostępnianie plików jest niedostępne, aplikacja pobierze PDF, aby można go było udostępnić z aplikacji Files.",
+          "inputs": "Wymagany jest wygenerowany plik PDF umowy lub wyceny. Jeśli otworzy się panel udostępniania, wybierz miejsce docelowe.",
+          "result": "Jeśli udostępnianie plików jest obsługiwane, otworzy się systemowy panel udostępniania. W przeciwnym razie aplikacja rozpocznie pobieranie PDF. Aplikacja nie może potwierdzić dostarczenia pliku przez inną aplikację lub usługę.",
+          "notes": "Przed udostępnieniem sprawdź odbiorcę, ceny, zakres prac i warunki. Anulowanie panelu udostępniania nie oznacza, że dokument został wysłany."
+        },
+        "ur": {
+          "purpose": "تیار کردہ معاہدے یا قیمت کی پیشکش کی PDF کو ڈیوائس کے شیئرنگ اختیارات سے شیئر کرتا ہے، یا شیئرنگ دستیاب نہ ہونے پر اسے ڈاؤن لوڈ کرتا ہے۔",
+          "when": "PDF بننے کے بعد اسے بھیجنے یا اپنے ڈیوائس پر مقامی نقل محفوظ کرنے کے لیے استعمال کریں۔",
+          "how": "Share PDF منتخب کریں۔ اگر ڈیوائس PDF فائلیں شیئر کرنے کی سہولت رکھتی ہے تو سسٹم شیئر شیٹ میں منزل منتخب کریں۔ اگر فائل شیئرنگ دستیاب نہ ہو تو ایپ PDF ڈاؤن لوڈ کرتی ہے تاکہ آپ اسے Files سے شیئر کر سکیں۔",
+          "inputs": "معاہدے یا قیمت کی پیشکش کی تیار شدہ PDF درکار ہے۔ اگر شیئر شیٹ کھلے تو منزل منتخب کریں۔",
+          "result": "فائل شیئرنگ معاون ہو تو سسٹم شیئر شیٹ کھلتی ہے۔ ورنہ ایپ PDF ڈاؤن لوڈ کرنا شروع کرتی ہے۔ ایپ کسی دوسری ایپ یا سروس کے ذریعے ترسیل کی تصدیق نہیں کر سکتی۔",
+          "notes": "شیئر کرنے سے پہلے وصول کنندہ کی تصدیق کریں اور قیمت، کام کے دائرے اور شرائط کا جائزہ لیں۔ شیئر شیٹ منسوخ کرنے کا مطلب یہ نہیں کہ دستاویز بھیج دی گئی ہے۔"
+        },
+        "pa": {
+          "purpose": "ਬਣਾਈ ਗਈ ਠੇਕੇ ਜਾਂ ਕੀਮਤ ਪੇਸ਼ਕਸ਼ ਦੀ PDF ਨੂੰ ਡਿਵਾਈਸ ਦੇ ਸਾਂਝਾ ਕਰਨ ਵਾਲੇ ਵਿਕਲਪਾਂ ਰਾਹੀਂ ਸਾਂਝਾ ਕਰਦਾ ਹੈ, ਜਾਂ ਸਾਂਝਾ ਕਰਨਾ ਉਪਲਬਧ ਨਾ ਹੋਵੇ ਤਾਂ ਡਾਊਨਲੋਡ ਕਰਦਾ ਹੈ।",
+          "when": "PDF ਬਣਨ ਤੋਂ ਬਾਅਦ ਇਸਨੂੰ ਭੇਜਣ ਜਾਂ ਆਪਣੀ ਡਿਵਾਈਸ 'ਤੇ ਸਥਾਨਕ ਕਾਪੀ ਸੰਭਾਲਣ ਲਈ ਇਸਦੀ ਵਰਤੋਂ ਕਰੋ।",
+          "how": "Share PDF ਚੁਣੋ। ਜੇ ਡਿਵਾਈਸ PDF ਫਾਈਲਾਂ ਸਾਂਝੀਆਂ ਕਰਨ ਦਾ ਸਮਰਥਨ ਕਰਦੀ ਹੈ ਤਾਂ ਸਿਸਟਮ ਦੀ ਸ਼ੇਅਰ ਸ਼ੀਟ ਵਿੱਚ ਮੰਜ਼ਿਲ ਚੁਣੋ। ਜੇ ਫਾਈਲ ਸਾਂਝੀ ਕਰਨਾ ਉਪਲਬਧ ਨਾ ਹੋਵੇ ਤਾਂ ਐਪ PDF ਡਾਊਨਲੋਡ ਕਰਦੀ ਹੈ ਤਾਂ ਜੋ ਤੁਸੀਂ ਇਸਨੂੰ Files ਤੋਂ ਸਾਂਝਾ ਕਰ ਸਕੋ।",
+          "inputs": "ਬਣਾਈ ਹੋਈ ਠੇਕੇ ਜਾਂ ਕੀਮਤ ਪੇਸ਼ਕਸ਼ ਦੀ PDF ਲੋੜੀਂਦੀ ਹੈ। ਜੇ ਸ਼ੇਅਰ ਸ਼ੀਟ ਖੁੱਲ੍ਹੇ ਤਾਂ ਮੰਜ਼ਿਲ ਚੁਣੋ।",
+          "result": "ਜੇ ਫਾਈਲ ਸਾਂਝੀ ਕਰਨ ਦਾ ਸਮਰਥਨ ਹੈ ਤਾਂ ਸਿਸਟਮ ਸ਼ੇਅਰ ਸ਼ੀਟ ਖੁੱਲ੍ਹਦੀ ਹੈ। ਨਹੀਂ ਤਾਂ ਐਪ PDF ਡਾਊਨਲੋਡ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰਦੀ ਹੈ। ਐਪ ਕਿਸੇ ਹੋਰ ਐਪ ਜਾਂ ਸੇਵਾ ਰਾਹੀਂ ਡਿਲਿਵਰੀ ਦੀ ਪੁਸ਼ਟੀ ਨਹੀਂ ਕਰ ਸਕਦੀ।",
+          "notes": "ਸਾਂਝਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਪ੍ਰਾਪਤਕਰਤਾ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ ਅਤੇ ਕੀਮਤਾਂ, ਕੰਮ ਦੇ ਦਾਇਰੇ ਅਤੇ ਸ਼ਰਤਾਂ ਦੀ ਜਾਂਚ ਕਰੋ। ਸ਼ੇਅਰ ਸ਼ੀਟ ਰੱਦ ਕਰਨ ਦਾ ਮਤਲਬ ਇਹ ਨਹੀਂ ਕਿ ਦਸਤਾਵੇਜ਼ ਭੇਜਿਆ ਗਿਆ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "PDF ایجادشده قرارداد یا پیش‌فاکتور را با امکانات اشتراک‌گذاری دستگاه به اشتراک می‌گذارد یا اگر اشتراک‌گذاری در دسترس نباشد، آن را دانلود می‌کند.",
+          "when": "پس از ایجاد PDF، وقتی می‌خواهید آن را ارسال کنید یا نسخه‌ای محلی روی دستگاه ذخیره کنید، از این گزینه استفاده کنید.",
+          "how": "Share PDF را انتخاب کنید. اگر دستگاه از اشتراک‌گذاری فایل PDF پشتیبانی کند، مقصد را در صفحه اشتراک‌گذاری سیستم انتخاب کنید. اگر اشتراک‌گذاری فایل در دسترس نباشد، برنامه PDF را دانلود می‌کند تا بتوانید آن را از Files به اشتراک بگذارید.",
+          "inputs": "PDF ایجادشده قرارداد یا پیش‌فاکتور لازم است. اگر صفحه اشتراک‌گذاری باز شد، مقصد را انتخاب کنید.",
+          "result": "در صورت پشتیبانی دستگاه، صفحه اشتراک‌گذاری سیستم باز می‌شود؛ در غیر این صورت برنامه دانلود PDF را آغاز می‌کند. برنامه نمی‌تواند تحویل فایل توسط برنامه یا سرویس دیگری را تأیید کند.",
+          "notes": "پیش از اشتراک‌گذاری، گیرنده را تأیید و قیمت‌ها، محدوده کار و شرایط را بررسی کنید. لغو صفحه اشتراک‌گذاری به معنی ارسال سند نیست."
+        },
+        "ps": {
+          "purpose": "جوړ شوی د قرارداد یا نرخ‌لیک PDF د وسیلې د شریکولو له لارو شریکوي، یا که شریکول ممکن نه وي نو ښکته کوي یې.",
+          "when": "دا د PDF له جوړېدو وروسته هغه وخت وکاروئ چې غواړئ فایل ولېږئ یا په خپله وسیله کې یې ځايي کاپي وساتئ.",
+          "how": "Share PDF وټاکئ. که وسیله د PDF فایلونو شریکولو ملاتړ کوي، د سیسټم د شریکولو په پاڼه کې ځای وټاکئ. که د فایل شریکول موجود نه وي، اپلېکېشن PDF ښکته کوي څو له Files څخه یې شریک کړئ.",
+          "inputs": "د قرارداد یا نرخ‌لیک جوړ شوی PDF اړین دی. که د شریکولو پاڼه پرانیستل شي، ځای وټاکئ.",
+          "result": "که د فایل شریکول ملاتړ کېږي، د سیسټم د شریکولو پاڼه پرانیستل کېږي. که نه، اپلېکېشن د PDF ښکته کول پیلوي. اپلېکېشن نه شي تاییدولای چې بل اپ یا خدمت فایل رسولی دی.",
+          "notes": "له شریکولو مخکې ترلاسه کوونکی تایید کړئ او بیې، د کار ساحه او شرطونه وګورئ. د شریکولو پاڼې لغوه کول دا معنا نه لري چې سند لېږل شوی دی."
         }
       },
       "handler_or_behavior": "`ctSharePDF()`"
@@ -20490,6 +20562,78 @@
           "inputs": "ورودی لازم نیست. پیش از ترک صفحه، تغییرات قرارداد را ذخیره کنید.",
           "result": "مرورگر تلاش می‌کند به ورودی قبلی سابقه بازگردد. مقصد به سابقه مرورگر بستگی دارد و لزوماً صفحه مشخصی از برنامه نیست.",
           "notes": "در گردش‌کار عادی برنامه، کنترل Close پیش‌نمایش، لایه پیش‌نمایش داخل برنامه را می‌بندد. این گزینه Back برای صفحه جایگزینی است که وقتی پیش‌نمایش نمی‌تواند پنجره والد یا opener را ببندد نمایش داده می‌شود. تغییرات ذخیره‌نشده ممکن است از بین بروند."
+        },
+        "ar": {
+          "purpose": "ينتقل إلى الخلف من صفحة العرض الاحتياطية لمعاينة العقد باستخدام سجل المتصفح.",
+          "when": "استخدمه عندما تكون معاينة العقد قد أُغلقت وتطلب منك الصفحة الاحتياطية العودة إلى تطبيق The Handyman.",
+          "how": "اختر Back في الصفحة الاحتياطية. يحاول المتصفح فتح الإدخال السابق في سجل التصفح.",
+          "inputs": "لا يلزم إدخال أي معلومات. احفظ أي تغييرات في العقد قبل مغادرة الصفحة.",
+          "result": "يحاول المتصفح العودة إلى الإدخال السابق في سجل التصفح. تعتمد الوجهة على سجل المتصفح ولا يُضمن أن تكون شاشة معينة في التطبيق.",
+          "notes": "في سير العمل المعتاد للتطبيق، يغلق عنصر Close في المعاينة طبقة المعاينة داخل التطبيق. إجراء Back هذا مخصص للصفحة الاحتياطية التي تظهر عندما يتعذر على المعاينة إغلاق النافذة الأصلية أو النافذة التي فتحتها. قد تُفقد التغييرات غير المحفوظة."
+        },
+        "ckb": {
+          "purpose": "لە پەڕەی جێگرەوەی پێشبینینی گرێبەستەوە بە بەکارهێنانی مێژووی وێبگەڕ دەگەڕێتەوە بۆ دواوە.",
+          "when": "کاتێک پێشبینینی گرێبەست داخراوە و پەڕەی جێگرەوە داوات لێ دەکات بگەڕێیتەوە بۆ بەرنامەی The Handyman، ئەمە بەکاربهێنە.",
+          "how": "لە پەڕەی جێگرەوە Back هەڵبژێرە. وێبگەڕ هەوڵ دەدات تۆماری پێشووی مێژووی گەڕان بکاتەوە.",
+          "inputs": "هیچ زانیارییەک پێویست نییە. پێش بەجێهێشتنی پەڕەکە هەر گۆڕانکارییەکی گرێبەست پاشەکەوت بکە.",
+          "result": "وێبگەڕ هەوڵ دەدات بگەڕێتەوە بۆ تۆماری پێشووی مێژووی گەڕان. شوێنی گەیشتن بە مێژووی وێبگەڕەوە پەیوەستە و دڵنیایی نییە شاشەیەکی دیاریکراوی بەرنامە بێت.",
+          "notes": "لە ڕێڕەوی ئاسایی بەرنامەدا، کۆنترۆڵی Close لە پێشبینین لایەری پێشبینینی ناو بەرنامە دادەخات. ئەم کرداری Backە بۆ ئەو پەڕە جێگرەوەیەیە کە کاتێک پێشبینین نەتوانێت پەنجەرەی دایک یان opener دابخات پیشان دەدرێت. گۆڕانکارییە پاشەکەوتنەکراوەکان لەوانەیە لەدەست بچن."
+        },
+        "kmr": {
+          "purpose": "Ji rûpela alternatîf a pêşdîtina peymanê bi karanîna dîroka gerokê vedigere paş.",
+          "when": "Vê bikar bîne dema ku pêşdîtina peymanê hatiye girtin û rûpela alternatîf ji te dixwaze vegerî sepana The Handyman.",
+          "how": "Li rûpela alternatîf Back hilbijêre. Gerok hewl dide tomarê pêşîn ê dîroka gerokê veke.",
+          "inputs": "Tu têketin nehewce ye. Berî derketina ji rûpelê her guherîna peymanê tomar bike.",
+          "result": "Gerok hewl dide vegere tomarê pêşîn ê dîroka gerokê. Cihê ku tê vegerandin girêdayî dîroka gerokê ye û nayê garantîkirin ku dê bibe dîmendera taybet a sepanê.",
+          "notes": "Di rêbaza asayî ya sepanê de, kontrola Close ya pêşdîtinê qatê pêşdîtina nav sepanê digire. Ev kiryara Back ji bo rûpela alternatîf e ku dema pêşdîtin nikare paceya dê an opener bigire xuya dibe. Dibe ku guherînên nehatiye tomarkirin winda bibin."
+        },
+        "tr": {
+          "purpose": "Sözleşme önizlemesinin yedek sayfasından tarayıcı geçmişini kullanarak geri gider.",
+          "when": "Sözleşme önizlemesi kapandığında ve yedek sayfa sizden The Handyman uygulamasına dönmenizi istediğinde kullanın.",
+          "how": "Yedek sayfada Back seçeneğini belirleyin. Tarayıcı geçmişindeki önceki girdiyi açmayı dener.",
+          "inputs": "Girdi gerekmez. Sayfadan ayrılmadan önce sözleşmedeki değişiklikleri kaydedin.",
+          "result": "Tarayıcı geçmişteki önceki girdiye dönmeyi dener. Hedef tarayıcı geçmişine bağlıdır ve belirli bir uygulama ekranı olacağı garanti edilmez.",
+          "notes": "Uygulamanın normal akışında önizlemedeki Close denetimi uygulama içi önizleme katmanını kapatır. Bu Back işlemi, önizleme üst pencereyi veya kendisini açan pencereyi kapatamadığında gösterilen yedek sayfa içindir. Kaydedilmemiş değişiklikler kaybolabilir."
+        },
+        "pl": {
+          "purpose": "Wraca z zastępczej strony podglądu umowy, korzystając z historii przeglądarki.",
+          "when": "Użyj tej opcji, gdy podgląd umowy został zamknięty, a strona zastępcza prosi o powrót do aplikacji The Handyman.",
+          "how": "Na stronie zastępczej wybierz Back. Przeglądarka próbuje otworzyć poprzedni wpis w historii.",
+          "inputs": "Nie są wymagane żadne dane wejściowe. Zapisz zmiany umowy przed opuszczeniem strony.",
+          "result": "Przeglądarka próbuje wrócić do poprzedniego wpisu historii. Miejsce docelowe zależy od historii przeglądarki i nie ma gwarancji, że będzie to określony ekran aplikacji.",
+          "notes": "W normalnym przepływie aplikacji przycisk Close w podglądzie zamyka nakładkę podglądu w aplikacji. To działanie Back jest przeznaczone dla strony zastępczej wyświetlanej, gdy podgląd nie może zamknąć okna nadrzędnego lub okna, które go otworzyło. Niezapisane zmiany mogą zostać utracone."
+        },
+        "ur": {
+          "purpose": "معاہدے کے پیش منظر کے متبادل صفحے سے براؤزر کی ہسٹری استعمال کرتے ہوئے واپس جاتا ہے۔",
+          "when": "اسے اس وقت استعمال کریں جب معاہدے کا پیش منظر بند ہو چکا ہو اور متبادل صفحہ آپ کو The Handyman ایپ میں واپس جانے کو کہے۔",
+          "how": "متبادل صفحے پر Back منتخب کریں۔ براؤزر ہسٹری میں پچھلا اندراج کھولنے کی کوشش کرتا ہے۔",
+          "inputs": "کسی معلومات کی ضرورت نہیں۔ صفحہ چھوڑنے سے پہلے معاہدے کی تبدیلیاں محفوظ کریں۔",
+          "result": "براؤزر ہسٹری کے پچھلے اندراج پر واپس جانے کی کوشش کرتا ہے۔ منزل براؤزر ہسٹری پر منحصر ہے اور یہ ضمانت نہیں کہ کوئی مخصوص ایپ اسکرین کھلے گی۔",
+          "notes": "ایپ کے معمول کے طریقۂ کار میں پیش منظر کا Close کنٹرول ایپ کے اندر پیش منظر کی تہہ بند کرتا ہے۔ یہ Back کارروائی اس متبادل صفحے کے لیے ہے جو اس وقت دکھایا جاتا ہے جب پیش منظر اپنی بنیادی ونڈو یا اسے کھولنے والی ونڈو بند نہ کر سکے۔ غیر محفوظ شدہ تبدیلیاں ضائع ہو سکتی ہیں۔"
+        },
+        "pa": {
+          "purpose": "ਬ੍ਰਾਊਜ਼ਰ ਦੀ ਹਿਸਟਰੀ ਵਰਤ ਕੇ ਠੇਕੇ ਦੇ ਪ੍ਰੀਵਿਊ ਵਾਲੇ ਬਦਲਵੇਂ ਪੰਨੇ ਤੋਂ ਪਿੱਛੇ ਜਾਂਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਠੇਕੇ ਦਾ ਪ੍ਰੀਵਿਊ ਬੰਦ ਹੋ ਗਿਆ ਹੋਵੇ ਅਤੇ ਬਦਲਵਾਂ ਪੰਨਾ ਤੁਹਾਨੂੰ The Handyman ਐਪ ਵਿੱਚ ਵਾਪਸ ਜਾਣ ਲਈ ਕਹੇ।",
+          "how": "ਬਦਲਵੇਂ ਪੰਨੇ 'ਤੇ Back ਚੁਣੋ। ਬ੍ਰਾਊਜ਼ਰ ਹਿਸਟਰੀ ਦੀ ਪਿਛਲੀ ਐਂਟਰੀ ਖੋਲ੍ਹਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਦਾ ਹੈ।",
+          "inputs": "ਕੋਈ ਇਨਪੁੱਟ ਲੋੜੀਂਦਾ ਨਹੀਂ। ਪੰਨਾ ਛੱਡਣ ਤੋਂ ਪਹਿਲਾਂ ਠੇਕੇ ਦੀਆਂ ਤਬਦੀਲੀਆਂ ਸੇਵ ਕਰੋ।",
+          "result": "ਬ੍ਰਾਊਜ਼ਰ ਹਿਸਟਰੀ ਦੀ ਪਿਛਲੀ ਐਂਟਰੀ 'ਤੇ ਵਾਪਸ ਜਾਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਹੁੰਦੀ ਹੈ। ਮੰਜ਼ਿਲ ਬ੍ਰਾਊਜ਼ਰ ਹਿਸਟਰੀ 'ਤੇ ਨਿਰਭਰ ਕਰਦੀ ਹੈ ਅਤੇ ਕਿਸੇ ਖਾਸ ਐਪ ਸਕ੍ਰੀਨ ਦੀ ਗਾਰੰਟੀ ਨਹੀਂ।",
+          "notes": "ਐਪ ਦੇ ਆਮ ਤਰੀਕੇ ਵਿੱਚ ਪ੍ਰੀਵਿਊ ਦਾ Close ਕੰਟਰੋਲ ਐਪ ਦੇ ਅੰਦਰ ਪ੍ਰੀਵਿਊ ਓਵਰਲੇ ਬੰਦ ਕਰਦਾ ਹੈ। ਇਹ Back ਕਾਰਵਾਈ ਉਸ ਬਦਲਵੇਂ ਪੰਨੇ ਲਈ ਹੈ ਜੋ ਉਦੋਂ ਦਿਖਦਾ ਹੈ ਜਦੋਂ ਪ੍ਰੀਵਿਊ ਆਪਣੀ ਮੁੱਖ ਜਾਂ ਖੋਲ੍ਹਣ ਵਾਲੀ ਵਿੰਡੋ ਬੰਦ ਨਹੀਂ ਕਰ ਸਕਦਾ। ਨਾ-ਸੇਵ ਕੀਤੀਆਂ ਤਬਦੀਲੀਆਂ ਗੁੰਮ ਹੋ ਸਕਦੀਆਂ ਹਨ۔"
+        },
+        "prs": {
+          "purpose": "از صفحه جایگزین پیش‌نمایش قرارداد، با استفاده از سابقه مرورگر به صفحه قبلی بازمی‌گردد.",
+          "when": "وقتی پیش‌نمایش قرارداد بسته شده و صفحه جایگزین از شما می‌خواهد به برنامه The Handyman برگردید، از این گزینه استفاده کنید.",
+          "how": "در صفحه جایگزین Back را انتخاب کنید. مرورگر تلاش می‌کند ورودی قبلی سابقه خود را باز کند.",
+          "inputs": "ورودی لازم نیست. پیش از ترک صفحه، تغییرات قرارداد را ذخیره کنید.",
+          "result": "مرورگر تلاش می‌کند به ورودی قبلی سابقه بازگردد. مقصد به سابقه مرورگر بستگی دارد و لزوماً صفحه مشخصی از برنامه نیست.",
+          "notes": "در گردش‌کار عادی برنامه، کنترل Close پیش‌نمایش، لایه پیش‌نمایش داخل برنامه را می‌بندد. این گزینه Back برای صفحه جایگزینی است که وقتی پیش‌نمایش نمی‌تواند پنجره والد یا opener را ببندد نمایش داده می‌شود. تغییرات ذخیره‌نشده ممکن است از بین بروند."
+        },
+        "ps": {
+          "purpose": "د براوزر د تاریخچې په کارولو سره د قرارداد د مخکتنې له بدیلې پاڼې څخه بېرته ځي.",
+          "when": "دا هغه وخت وکاروئ چې د قرارداد مخکتنه بنده شوې وي او بدیل پاڼه درڅخه غواړي چې بېرته The Handyman اپلېکېشن ته لاړ شئ.",
+          "how": "په بدیله پاڼه کې Back وټاکئ. براوزر هڅه کوي د تاریخچې پخوانۍ برخه پرانیزي.",
+          "inputs": "هېڅ معلوماتو ته اړتیا نشته. له پاڼې تر وتلو مخکې د قرارداد بدلونونه خوندي کړئ.",
+          "result": "براوزر هڅه کوي د تاریخچې پخوانۍ برخې ته بېرته ولاړ شي. منزل د براوزر پر تاریخچې پورې تړلی دی او دا تضمین نه شته چې د اپلېکېشن ځانګړې پرده به وي.",
+          "notes": "د اپلېکېشن په عادي بهیر کې د مخکتنې Close کنټرول د اپلېکېشن دننه د مخکتنې پوښ تړي. دا Back کړنه د هغې بدیلې پاڼې لپاره ده چې هغه وخت ښکاري کله چې مخکتنه خپله اصلي یا پرانیستونکې کړکۍ نه شي تړلی. نه خوندي شوي بدلونونه له منځه تللی شي."
         }
       },
       "handler_or_behavior": "`history.back()`"
