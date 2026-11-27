@@ -6398,20 +6398,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the reports area within the selected project.",
-          "when": "When reviewing or preparing a report about the project’s recorded financial activity.",
-          "how": "Open the project and select Reports. Choose the available report action for the current project.",
-          "inputs": "No input is required to open the tab. The currently selected project and its available report actions are used.",
-          "result": "The project reports view is displayed.",
-          "notes": "Project reports summarise project records; they are not automatically tax submissions or general accounting reports."
+          "purpose": "Displays the Reports tab for the selected project, including its project cost summary and print/save option.",
+          "when": "Use this when reviewing the project's recorded cost categories or preparing a printable project cost summary.",
+          "how": "Open the project and select Reports. Review the displayed ordinary expenses, worker wages, tools, food and other costs, and total costs included in the project result. Select Print / Save PDF to print or save the displayed summary.",
+          "inputs": "No input is required to open the tab. The selected project's saved records are used. Printing or saving as PDF uses the browser's print dialog.",
+          "result": "The project cost summary is displayed with category totals and a Print / Save PDF control.",
+          "notes": "The summary is based on records in the project and uses the displayed cost categories. It is not an HMRC submission or a general Accountancy report. Check that the correct project is selected and that its records are complete before relying on the totals."
         },
         "fa": {
-          "purpose": "بخش گزارش‌ها را در پروژه انتخاب‌شده باز می‌کند.",
-          "when": "برای بررسی یا آماده‌سازی گزارش از فعالیت مالی ثبت‌شده پروژه از این گزینه استفاده کنید.",
-          "how": "پروژه را باز کنید و Reports را انتخاب کنید. عملیات گزارش موجود برای پروژه را انتخاب کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "نمای گزارش‌های پروژه نمایش داده می‌شود.",
-          "notes": "گزارش‌های پروژه سوابق همان پروژه را خلاصه می‌کنند؛ اظهارنامه مالیاتی یا گزارش حسابداری عمومی نیستند."
+          "purpose": "زبانه Reports را برای پروژه انتخاب‌شده نمایش می‌دهد؛ این زبانه شامل خلاصه هزینه‌های پروژه و گزینه چاپ یا ذخیره است.",
+          "when": "برای بررسی دسته‌بندی هزینه‌های ثبت‌شده پروژه یا تهیه خلاصه قابل چاپ هزینه‌های پروژه از این بخش استفاده کنید.",
+          "how": "پروژه را باز کنید و Reports را انتخاب کنید. هزینه‌های عمومی، دستمزد کارگران، ابزار، غذا و سایر هزینه‌ها و مجموع هزینه‌های لحاظ‌شده در نتیجه پروژه را بررسی کنید. برای چاپ یا ذخیره خلاصه، Print / Save PDF را انتخاب کنید.",
+          "inputs": "برای بازکردن زبانه ورودی لازم نیست. سوابق ذخیره‌شده پروژه انتخاب‌شده استفاده می‌شوند. چاپ یا ذخیره PDF از پنجره چاپ مرورگر استفاده می‌کند.",
+          "result": "خلاصه هزینه‌های پروژه همراه با مجموع دسته‌ها و کنترل Print / Save PDF نمایش داده می‌شود.",
+          "notes": "این خلاصه بر اساس سوابق پروژه و دسته‌بندی‌های نمایش‌داده‌شده محاسبه می‌شود. اظهارنامه HMRC یا گزارش عمومی Accountancy نیست. پیش از اتکا به مجموع‌ها، انتخاب پروژه صحیح و کامل‌بودن سوابق آن را بررسی کنید."
         }
       },
       "handler_or_behavior": "`prDetailTab(`"
@@ -6424,20 +6424,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Generates or opens the financial report for the project selected in the project report selector.",
-          "when": "When you want to review a particular project’s financial position.",
-          "how": "Choose a project in Select project, then select View Financial Report.",
-          "inputs": "Select a project in the Select project field. A project must be selected before the financial report can open.",
-          "result": "The selected project’s income, costs and result are displayed if report generation succeeds.",
-          "notes": "Verify the selected project and whether sub-project records are included. This report is not an HMRC submission."
+          "purpose": "Opens the Project Financial Report for the project selected in the Project Profit & Loss selector.",
+          "when": "Use this when reviewing the recorded income, costs and financial result for a particular saved project.",
+          "how": "Open Project Profit & Loss, choose a saved project in Select project, then select View Financial Report. If no project is selected, the app asks you to select one first.",
+          "inputs": "A saved project must be selected in the Select project field. No report opens when the selection is blank.",
+          "result": "The Project Financial Report opens for the selected project and displays its recorded financial figures. When the project has sub-projects, the report includes the parent project and its sub-project records.",
+          "notes": "The report uses project records and project-specific cost rules. It is not an HMRC submission or a substitute for general Accountancy or tax reports. Verify the selected project and the included records before using the figures."
         },
         "fa": {
-          "purpose": "برای پروژه انتخاب‌شده در فهرست گزارش پروژه، گزارش مالی را تولید یا باز می‌کند.",
-          "when": "وقتی می‌خواهید وضعیت مالی یک پروژه مشخص را بررسی کنید.",
-          "how": "در Select project پروژه را انتخاب کنید و View Financial Report را بزنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "در صورت موفقیت، درآمد، هزینه و نتیجه پروژه انتخاب‌شده نمایش داده می‌شود.",
-          "notes": "پروژه انتخاب‌شده و شمول سوابق زیرپروژه‌ها را بررسی کنید. این گزارش به HMRC ارسال نمی‌شود."
+          "purpose": "گزارش مالی پروژه‌ای را باز می‌کند که در فهرست انتخاب پروژه در بخش Project Profit & Loss انتخاب شده است.",
+          "when": "برای بررسی درآمد ثبت‌شده، هزینه‌ها و نتیجه مالی یک پروژه ذخیره‌شده مشخص از این گزینه استفاده کنید.",
+          "how": "بخش Project Profit & Loss را باز کنید، در Select project یک پروژه ذخیره‌شده را انتخاب و سپس View Financial Report را بزنید. اگر پروژه‌ای انتخاب نشده باشد، برنامه ابتدا از شما می‌خواهد پروژه‌ای انتخاب کنید.",
+          "inputs": "باید یک پروژه ذخیره‌شده در فیلد Select project انتخاب شود. اگر انتخاب خالی باشد، گزارشی باز نمی‌شود.",
+          "result": "Project Financial Report برای پروژه انتخاب‌شده باز می‌شود و ارقام مالی ثبت‌شده آن را نمایش می‌دهد. اگر پروژه زیرپروژه داشته باشد، گزارش سوابق پروژه اصلی و زیرپروژه‌های آن را شامل می‌شود.",
+          "notes": "این گزارش از سوابق پروژه و قواعد اختصاصی محاسبه هزینه استفاده می‌کند. اظهارنامه HMRC یا جایگزین گزارش‌های عمومی Accountancy یا مالیاتی نیست. پیش از استفاده از ارقام، پروژه انتخاب‌شده و سوابق لحاظ‌شده را بررسی کنید."
         }
       },
       "handler_or_behavior": "`prOpenProfitReport()`"
@@ -6450,20 +6450,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Saves a partner record in the shared partner directory.",
-          "when": "After entering or editing a partner’s contact details.",
-          "how": "Enter the required partner name, add optional contact details and notes, then select Save Partner.",
-          "inputs": "A partner name is required. Phone, email and notes are optional; an existing partner ID is used when editing a saved partner.",
-          "result": "The partner record is saved if validation and persistence succeed.",
-          "notes": "Use accurate contact details and avoid creating duplicate partner records. A saved partner can be reused across projects."
+          "purpose": "Creates or updates a partner record in the shared Partners directory.",
+          "when": "Use this after entering a new partner's details or changing an existing partner's information.",
+          "how": "In Control Panel → Partners, enter the partner's name and any optional phone, email or notes. Select Save Partner and wait for the save operation to complete.",
+          "inputs": "Partner name is required. Phone, email and notes are optional. When editing an existing partner, the saved partner ID identifies the record to update.",
+          "result": "If the name validation and IndexedDB persistence succeed, the partner record is saved or updated, the form is reset and the Partners list is refreshed.",
+          "notes": "A saved partner can be reused in project profit-sharing arrangements. Check for an existing record before creating another to avoid duplicates. Do not assume the save succeeded until the operation completes."
         },
         "fa": {
-          "purpose": "یک سابقه شریک را در فهرست مشترک شرکا ذخیره می‌کند.",
-          "when": "پس از واردکردن یا ویرایش اطلاعات تماس شریک از این گزینه استفاده کنید.",
-          "how": "نام اجباری شریک را وارد کنید، اطلاعات تماس و یادداشت اختیاری را اضافه و Save Partner را انتخاب کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "در صورت موفقیت اعتبارسنجی و ذخیره‌سازی، سابقه شریک ذخیره می‌شود.",
-          "notes": "اطلاعات تماس دقیق وارد کنید و از ساخت سوابق تکراری شریک خودداری کنید. شریک ذخیره‌شده در پروژه‌های مختلف قابل استفاده مجدد است."
+          "purpose": "یک سابقه شریک را در فهرست مشترک Partners ایجاد یا به‌روزرسانی می‌کند.",
+          "when": "پس از واردکردن مشخصات شریک جدید یا تغییر اطلاعات شریک موجود از این گزینه استفاده کنید.",
+          "how": "در Control Panel → Partners، نام شریک و در صورت نیاز تلفن، ایمیل یا یادداشت را وارد کنید. Save Partner را انتخاب کنید و منتظر تکمیل عملیات ذخیره بمانید.",
+          "inputs": "نام شریک الزامی است. تلفن، ایمیل و یادداشت‌ها اختیاری هستند. هنگام ویرایش شریک موجود، شناسه ذخیره‌شده شریک مشخص می‌کند کدام سابقه به‌روزرسانی شود.",
+          "result": "اگر اعتبارسنجی نام و ذخیره در IndexedDB موفق باشد، سابقه شریک ذخیره یا به‌روزرسانی می‌شود، فرم بازنشانی و فهرست Partners تازه‌سازی می‌شود.",
+          "notes": "شریک ذخیره‌شده را می‌توان در توافق‌های تقسیم سود پروژه دوباره استفاده کرد. پیش از ایجاد سابقه جدید، وجود سابقه قبلی را بررسی کنید تا مورد تکراری ایجاد نشود. تا تکمیل عملیات، ذخیره را موفق فرض نکنید."
         }
       },
       "handler_or_behavior": "`prSavePerson(`"
@@ -6476,20 +6476,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Clears the current partner form fields.",
-          "when": "When discarding unsaved partner details or preparing to enter another partner.",
-          "how": "Select Clear and check that the partner fields are empty.",
-          "inputs": "No input is required. The control clears the current partner form fields; it does not change the saved partner directory.",
-          "result": "The current partner form is reset.",
-          "notes": "This clears unsaved form content; it does not delete an already saved partner."
+          "purpose": "Resets the current Partner form by clearing its ID, name, phone, email and notes fields.",
+          "when": "Use this when discarding unsaved partner details or preparing to enter a different partner.",
+          "how": "Select Clear in the Partners form. The fields are emptied and the form title returns to Add Partner.",
+          "inputs": "No input is required.",
+          "result": "The current partner form is reset. No saved partner record is changed or deleted.",
+          "notes": "Any unsaved text in the form is discarded. This action does not remove a partner already saved in the shared Partners directory."
         },
         "fa": {
-          "purpose": "فیلدهای فرم شریک فعلی را پاک می‌کند.",
-          "when": "وقتی می‌خواهید اطلاعات ذخیره‌نشده شریک را کنار بگذارید یا شریک دیگری وارد کنید.",
-          "how": "Clear را انتخاب کنید و خالی‌شدن فیلدهای شریک را بررسی کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "فرم شریک فعلی بازنشانی می‌شود.",
-          "notes": "این گزینه محتوای ذخیره‌نشده فرم را پاک می‌کند و شریک ذخیره‌شده قبلی را حذف نمی‌کند."
+          "purpose": "فرم Partner فعلی را با پاک‌کردن فیلدهای شناسه، نام، تلفن، ایمیل و یادداشت بازنشانی می‌کند.",
+          "when": "وقتی می‌خواهید اطلاعات ذخیره‌نشده شریک را کنار بگذارید یا برای واردکردن شریک دیگری آماده شوید، از این گزینه استفاده کنید.",
+          "how": "در فرم Partners گزینه Clear را انتخاب کنید. فیلدها خالی می‌شوند و عنوان فرم به Add Partner بازمی‌گردد.",
+          "inputs": "ورودی لازم نیست.",
+          "result": "فرم شریک فعلی بازنشانی می‌شود. هیچ سابقه شریک ذخیره‌شده‌ای تغییر نمی‌کند یا حذف نمی‌شود.",
+          "notes": "هر متن ذخیره‌نشده در فرم کنار گذاشته می‌شود. این عملیات شریکی را که قبلاً در فهرست مشترک Partners ذخیره شده است حذف نمی‌کند."
         }
       },
       "handler_or_behavior": "`prResetPerson(`"
@@ -6502,20 +6502,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Saves a contractor or subcontractor in the shared contractor directory.",
-          "when": "After entering or updating a trade contractor’s details.",
-          "how": "Enter the contractor/company name, add optional phone, email and trade notes, then select Save Contractor.",
-          "inputs": "A contractor or company name is required. Phone, email and trade notes are optional; an existing contractor ID is used when editing.",
-          "result": "The contractor record is saved if the operation succeeds.",
-          "notes": "Check the trade and contact details. Saved contractors can be selected for project or sub-project expenses."
+          "purpose": "Creates or updates a contractor or subcontractor record in the shared Contractors directory.",
+          "when": "Use this after entering a new contractor's details or changing an existing contractor's information.",
+          "how": "In Control Panel → Contractors, enter the contractor or company name and any optional phone, email and trade/notes details. Select Save Contractor and wait for the save confirmation.",
+          "inputs": "Contractor or company name is required. Phone, email and trade/notes are optional. When editing an existing contractor, its saved ID identifies the record to update.",
+          "result": "If the name validation and IndexedDB save succeed, the contractor record is saved or updated, the form is reset and the Contractors directory is refreshed.",
+          "notes": "Saved contractors can be selected when recording Contractor / subcontractor expenses in a project. Check for an existing contractor before creating another record. The save confirmation indicates that the record was stored; it does not create a project expense by itself."
         },
         "fa": {
-          "purpose": "پیمانکار یا پیمانکار جزء را در فهرست مشترک پیمانکاران ذخیره می‌کند.",
-          "when": "پس از واردکردن یا به‌روزرسانی مشخصات پیمانکار فنی از این گزینه استفاده کنید.",
-          "how": "نام پیمانکار/شرکت را وارد کنید، تلفن، ایمیل و شرح تخصص اختیاری را اضافه و Save Contractor را بزنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "در صورت موفقیت عملیات، سابقه پیمانکار ذخیره می‌شود.",
-          "notes": "تخصص و اطلاعات تماس را بررسی کنید. پیمانکار ذخیره‌شده را می‌توان برای هزینه‌های پروژه یا زیرپروژه انتخاب کرد."
+          "purpose": "یک سابقه پیمانکار یا پیمانکار جزء را در فهرست مشترک Contractors ایجاد یا به‌روزرسانی می‌کند.",
+          "when": "پس از واردکردن مشخصات پیمانکار جدید یا تغییر اطلاعات پیمانکار موجود از این گزینه استفاده کنید.",
+          "how": "در Control Panel → Contractors، نام پیمانکار یا شرکت و در صورت نیاز تلفن، ایمیل و تخصص/یادداشت را وارد کنید. Save Contractor را انتخاب کنید و منتظر تأیید ذخیره بمانید.",
+          "inputs": "نام پیمانکار یا شرکت الزامی است. تلفن، ایمیل و تخصص/یادداشت اختیاری هستند. هنگام ویرایش پیمانکار موجود، شناسه ذخیره‌شده آن مشخص می‌کند کدام سابقه به‌روزرسانی شود.",
+          "result": "اگر اعتبارسنجی نام و ذخیره در IndexedDB موفق باشد، سابقه پیمانکار ذخیره یا به‌روزرسانی می‌شود، فرم بازنشانی و فهرست Contractors تازه‌سازی می‌شود.",
+          "notes": "پیمانکاران ذخیره‌شده را می‌توان هنگام ثبت هزینه Contractor / subcontractor در پروژه انتخاب کرد. پیش از ایجاد سابقه جدید، وجود پیمانکار قبلی را بررسی کنید. تأیید ذخیره به معنی ثبت سابقه پیمانکار است و به‌تنهایی هزینه‌ای در پروژه ایجاد نمی‌کند."
         }
       },
       "handler_or_behavior": "`prSaveContractor()`"
