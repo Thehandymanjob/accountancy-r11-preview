@@ -773,3 +773,17 @@
 
 
 - **تکمیل hardening نهایی HTML:** مقدار `disabled` دکمه نهایی در هر دو تابع قدیمی `openFactoryReset()` و `factoryResetNextStep()` روی `true` تنظیم شد. بنابراین حتی اگر فایل محافظ JavaScript بارگذاری نشود، UI نباید دکمه نهایی را فعال نشان دهد. SHA فایل index و pin مربوط در `VERSION-AUTHORITY.json` هم‌زمان به‌روزرسانی شد. R11 Version Authority Gate برای commit نهایی PASS شد (run `46053038295`). هیچ Deploy یا Reset واقعی اجرا نشد.
+
+
+#### بازنگری R61 — اتصال عملیات پروژه و تب‌های جزئیات
+
+- تاریخ: 2026-11-27
+- نوع تغییر: ادامه پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- شناسه‌های متصل‌شده: THA-HLP-0081 (New Project)، THA-HLP-0082 (Projects List)، THA-HLP-0083 (Add Partner)، THA-HLP-0090 تا THA-HLP-0096 (هفت تب Project Detail)، THA-HLP-0097 (View Financial Report)، THA-HLP-0101 (Clear Contractor Form) و THA-HLP-0115 (Clear Work Package Form).
+- روش اتصال: ۱۳ selector محدوده‌دار. هفت تب با data-pr-sub دقیق از یکدیگر تفکیک شدند؛ دکمه‌های New/List به صفحه Project Hub و دکمه‌های Clear به فرم مربوطه محدود هستند.
+- نسخه: THA-273-R11-PREVIEW-20261127-R61.
+- اتصال‌ها پس از R61: ۱۱۰ کنترل؛ ۱۰۵ ایستا و پنج پویا. از ۱۰۵ اتصال ایستا، ۸۷ مورد selector محدوده‌دار، ۱۳ مورد ID یکتا و پنج مورد handler محدوده‌دار هستند.
+- تست ایستا: ۱۳ selector در Runtime و Mapping ثبت شدند. escaping پارامترهای prPage('new') و prPage('list') اصلاح شد. هیچ داده پروژه یا مالی تغییر نکرد.
+- Version Authority Gate: در انتظار اجرای Gate نهایی روی آخرین commit R61.
+- تست واقعی مرورگر / موبایل: هنوز انجام نشده؛ کلیک راهنمای تب‌ها، حفظ navigation، انتخاب زبان و چیدمان موبایل باید در Preview بررسی شوند.
+- انتشار / داده: هیچ Preview deploy، Merge یا Production change انجام نشده است.
