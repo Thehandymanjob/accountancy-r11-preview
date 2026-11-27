@@ -680,6 +680,21 @@
 - **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ نمایش راهنما، عدم اجرای ناخواسته Delete/Save هنگام لمس «?» و چیدمان موبایل باید در Preview بررسی شوند.
 - **انتشار / داده:** هیچ Preview deploy، Merge، حذف پروژه، تغییر داده یا Production change انجام نشده است.
 
+
+#### بازنگری R58 — اتصال Company Contracts & Jobs و گردش‌های مالی پروژه
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- **شناسه‌های متصل‌شده:** THA-HLP-0107 (Add Company)، THA-HLP-0108 (Companies List)، THA-HLP-0109 (Company Project Profit & Loss)، THA-HLP-0110 (Save Company)، THA-HLP-0111 (Clear Company Form)، THA-HLP-0112 (Save Job)، THA-HLP-0113 (Clear Job Form)، THA-HLP-0114 (Save Work Package)، THA-HLP-0116 (Add Expense)، THA-HLP-0117 (Record Payment) و THA-HLP-0118 (Confirm payment).
+- **روش اتصال:** ۱۱ selector دقیق و محدوده‌دار در `#prPage-company-hub`، `#coPackageFinance`، `#coPaymentArea` و `#invoicePaidModal`؛ گزینه‌های Add/List/P&L با مقدار پارامتر دقیق و سایر کنترل‌ها با handler literal هدف‌گیری شدند.
+- **مرزبندی مالی حیاتی:** Company Contracts & Jobs هزینه‌ها و دریافتی‌های پروژه را در فضای داده مستقل خود نگه می‌دارد؛ این مبالغ به Accounting منتقل، لینک یا تجمیع نمی‌شوند. `Confirm payment` در پنجره فاکتور Accounting مسیر جداگانه‌ای دارد. این اتصال‌ها هیچ مرز داده یا منطق مالی را تغییر نمی‌دهند.
+- **محتوا:** هر ۱۱ شناسه CONTENT_COMPLETE هستند. همه کنترل‌ها از قبل در سورس وجود داشتند؛ فقط اتصال راهنمای زمینه‌ای اضافه شد.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R58`.
+- **اتصال‌ها پس از R58:** ۷۴ کنترل؛ ۶۹ ایستا و پنج پویا. ۵۷ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
+- **تست ایستا:** یکتایی handler attributeها و محدوده parentها از روی سورس بررسی شد؛ رشته‌های CSS دارای پارامترهای `add/list/company-profit` با escaping معتبر ثبت شدند. Version Authority Gate برای R58 باید اجرا شود.
+- **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ باید راهنمای هر کنترل، جدایی Company Contracts از Accounting، ثبت پرداخت در مقصد درست، عدم اجرای ناخواسته handler هنگام لمس «?» و چیدمان موبایل بررسی شوند.
+- **انتشار / داده:** هیچ Preview deploy، Merge، ثبت هزینه/پرداخت، تغییر داده یا Production change انجام نشده است.
+
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
 - **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Implemented on Preview development; the latest R45 Version Authority Gate passed after native-HTML fail-closed hardening (run 46053038295). Pages deployment and iPhone Safari verification remain pending.
