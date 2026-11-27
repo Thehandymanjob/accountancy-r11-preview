@@ -9120,7 +9120,7 @@
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "در ردیف مربوط، گزینه View را انتخاب کنید تا جزئیات فاکتور باز شود.",
           "inputs": "سابقه‌ای را انتخاب کنید که به فاکتور موردنظر مرتبط است.",
-          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "result": "جزئیات فاکتور انتخاب‌شده در بخش پیش‌نمایش فاکتور به‌صورت فقط‌خواندنی نمایش داده می‌شود. مشاهده، ثبت حسابداری را تغییر نمی‌دهد و فاکتور را پرداخت‌شده علامت نمی‌زند.",
           "notes": "این گزینه فاکتور مرتبط را باز می‌کند و با ویرایش خودِ ثبت حسابداری یکسان نیست."
         },
         "ar": {
@@ -9128,7 +9128,7 @@
           "when": "عندما تحتاج إلى فتح الفاتورة المرتبطة بهذا السجل ومراجعة تفاصيلها.",
           "how": "اختر View في الصف المرتبط بالفاتورة لفتح تفاصيلها.",
           "inputs": "حدد السجل الذي يرتبط بالفاتورة المطلوبة.",
-          "result": "تُفتح تفاصيل الفاتورة المرتبطة بالسجل.",
+          "result": "تُعرض تفاصيل الفاتورة المحددة في منطقة معاينة الفاتورة للقراءة فقط. لا يغيّر العرض القيد المحاسبي ولا يعلّم الفاتورة بأنها مدفوعة.",
           "notes": "هذا يفتح الفاتورة المرتبطة ولا يعدّل قيد المحاسبة الأصلي."
         },
         "ckb": {
@@ -9136,7 +9136,7 @@
           "when": "کاتێک دەتەوێت فاکتۆری پەیوەست بەو تۆمارە بکەیتەوە و وردەکارییەکانی بپشکنیت.",
           "how": "لە ڕیزی پەیوەست بە فاکتۆرەکە View هەڵبژێرە بۆ کردنەوەی وردەکارییەکانی.",
           "inputs": "ئەو تۆمارە دیاری بکە کە بە فاکتۆری داواکراوەوە پەیوەستە.",
-          "result": "وردەکارییەکانی فاکتۆری پەیوەست بە تۆمارەکە دەکرێنەوە.",
+          "result": "وردەکارییەکانی فاکتۆری هەڵبژێردراو لە بەشی پێشبینینی فاکتۆر بە شێوەی تەنهاخوێندنەوە پیشان دەدرێن. بینینەکە تۆماری ژمێریاری ناگۆڕێت و فاکتۆرەکە وەک پارەدراو نیشان نادات.",
           "notes": "ئەمە فاکتۆری پەیوەست دەکاتەوە و تۆماری ژمێریاریی بنەڕەتی دەستکاری ناکات."
         },
         "kmr": {
@@ -9144,7 +9144,7 @@
           "when": "Dema ku tu dixwazî fatûreya girêdayî bi vê tomarê vekî û hûrguliyên wê kontrol bikî.",
           "how": "Di rêza ku bi fatûreyê ve girêdayî ye de View hilbijêre da ku hûrguliyên wê veke.",
           "inputs": "Tomara ku bi fatûreya xwestî ve girêdayî ye hilbijêre.",
-          "result": "Hûrguliyên fatûreya girêdayî bi tomarê vedibin.",
+          "result": "Hûrguliyên fatûreya hilbijartî di qada pêşdîtina fatûreyê de tenê ji bo xwendinê xuya dibin. Dîtin tomarê hesabê naguherîne û fatûreyê wekî hatiye dayîn nîşan nade.",
           "notes": "Ev fatûreya girêdayî vedike û tomara hesabê ya bingehîn naguherîne."
         },
         "tr": {
@@ -9152,7 +9152,7 @@
           "when": "Bu kayda bağlı faturayı açıp ayrıntılarını incelemeniz gerektiğinde kullanın.",
           "how": "Fatura ayrıntılarını açmak için faturayla ilişkili satırda View'ı seçin.",
           "inputs": "İstenen faturayla ilişkili kaydı seçin.",
-          "result": "İlişkili faturanın ayrıntıları açılır.",
+          "result": "Seçilen faturanın ayrıntıları fatura önizleme alanında salt okunur olarak görüntülenir. Görüntüleme muhasebe kaydını değiştirmez ve faturayı ödenmiş olarak işaretlemez.",
           "notes": "Bu işlem ilişkili faturayı açar; temel muhasebe kaydını düzenlemez."
         },
         "pl": {
@@ -9160,7 +9160,7 @@
           "when": "Użyj, gdy chcesz otworzyć i sprawdzić fakturę powiązaną z tym rekordem.",
           "how": "Wybierz View w wierszu powiązanym z fakturą, aby otworzyć jej szczegóły.",
           "inputs": "Wybierz rekord powiązany z właściwą fakturą.",
-          "result": "Otwierane są szczegóły faktury powiązanej z rekordem.",
+          "result": "Szczegóły wybranej faktury są wyświetlane w obszarze podglądu faktury w trybie tylko do odczytu. Podgląd nie zmienia zapisu księgowego ani nie oznacza faktury jako opłaconej.",
           "notes": "Ta czynność otwiera powiązaną fakturę; nie edytuje źródłowego zapisu księgowego."
         },
         "ur": {
@@ -9168,7 +9168,7 @@
           "when": "جب اس ریکارڈ سے متعلق انوائس کھول کر اس کی تفصیلات دیکھنی ہوں تو استعمال کریں۔",
           "how": "انوائس کی تفصیلات کھولنے کے لیے اس سے منسلک قطار میں View منتخب کریں۔",
           "inputs": "وہ ریکارڈ منتخب کریں جو مطلوبہ انوائس سے منسلک ہے۔",
-          "result": "منسلک انوائس کی تفصیلات کھل جاتی ہیں۔",
+          "result": "منتخب انوائس کی تفصیلات انوائس پری ویو حصے میں صرف پڑھنے کے لیے دکھائی جاتی ہیں۔ دیکھنے سے اکاؤنٹنگ اندراج تبدیل نہیں ہوتا اور انوائس ادا شدہ نشان زد نہیں ہوتی۔",
           "notes": "یہ متعلقہ انوائس کھولتا ہے؛ بنیادی اکاؤنٹنگ اندراج میں ترمیم نہیں کرتا۔"
         },
         "pa": {
@@ -9176,7 +9176,7 @@
           "when": "ਜਦੋਂ ਇਸ ਰਿਕਾਰਡ ਨਾਲ ਜੁੜਿਆ ਇਨਵੌਇਸ ਖੋਲ੍ਹ ਕੇ ਵੇਰਵੇ ਵੇਖਣੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
           "how": "ਇਨਵੌਇਸ ਦੇ ਵੇਰਵੇ ਖੋਲ੍ਹਣ ਲਈ ਇਸ ਨਾਲ ਜੁੜੀ ਕਤਾਰ ਵਿੱਚ View ਚੁਣੋ।",
           "inputs": "ਉਹ ਰਿਕਾਰਡ ਚੁਣੋ ਜੋ ਲੋੜੀਂਦੇ ਇਨਵੌਇਸ ਨਾਲ ਜੁੜਿਆ ਹੈ।",
-          "result": "ਜੁੜੇ ਇਨਵੌਇਸ ਦੇ ਵੇਰਵੇ ਖੁੱਲ੍ਹ ਜਾਂਦੇ ਹਨ।",
+          "result": "ਚੁਣੇ ਇਨਵੌਇਸ ਦੇ ਵੇਰਵੇ ਇਨਵੌਇਸ ਪ੍ਰੀਵਿਊ ਖੇਤਰ ਵਿੱਚ ਸਿਰਫ਼ ਪੜ੍ਹਨ ਲਈ ਦਿਖਾਏ ਜਾਂਦੇ ਹਨ। ਵੇਖਣ ਨਾਲ ਅਕਾਊਂਟਿੰਗ ਐਂਟਰੀ ਨਹੀਂ ਬਦਲਦੀ ਅਤੇ ਇਨਵੌਇਸ ਭੁਗਤਾਨ ਕੀਤਾ ਹੋਇਆ ਨਹੀਂ ਬਣਦਾ।",
           "notes": "ਇਹ ਸੰਬੰਧਿਤ ਇਨਵੌਇਸ ਖੋਲ੍ਹਦਾ ਹੈ; ਮੂਲ ਅਕਾਊਂਟਿੰਗ ਐਂਟਰੀ ਨੂੰ ਸੋਧਦਾ ਨਹੀਂ।"
         },
         "prs": {
@@ -9184,7 +9184,7 @@
           "when": "وقتی می‌خواهید فاکتور مرتبط با این سابقه را باز و جزئیات آن را بررسی کنید، استفاده کنید.",
           "how": "در ردیف مرتبط با فاکتور View را انتخاب کنید تا جزئیات آن باز شود.",
           "inputs": "سابقه‌ای را انتخاب کنید که به فاکتور موردنظر مرتبط است.",
-          "result": "جزئیات فاکتور مرتبط با سابقه باز می‌شود.",
+          "result": "جزئیات فاکتور انتخاب‌شده در بخش پیش‌نمایش فاکتور به‌صورت فقط‌خواندنی نمایش داده می‌شود. مشاهده، ثبت حسابداری را تغییر نمی‌دهد و فاکتور را پرداخت‌شده علامت نمی‌زند.",
           "notes": "این گزینه فاکتور مرتبط را باز می‌کند و ثبت حسابداری اصلی را ویرایش نمی‌کند."
         },
         "ps": {
@@ -9192,7 +9192,7 @@
           "when": "کله چې غواړئ له دې ریکارډ سره تړلی بل پرانیزئ او جزئیات یې وګورئ، دا وکاروئ.",
           "how": "د بل د جزئیاتو د پرانیستلو لپاره په اړوند قطار کې View وټاکئ.",
           "inputs": "هغه ریکارډ وټاکئ چې له غوښتل شوي بل سره تړلی وي.",
-          "result": "له ریکارډ سره د تړلي بل جزئیات پرانیستل کېږي.",
+          "result": "د ټاکل شوي بل جزئیات د بل د مخکتنې په برخه کې یوازې د لوستلو لپاره ښکاره کېږي. لیدل حسابداري ثبت نه بدلوي او بل د ورکړل شوي په توګه نه نښه کوي.",
           "notes": "دا تړلی بل پرانیزي؛ اصلي حسابداري ثبت نه سموي."
         }
       },
@@ -9214,84 +9214,84 @@
           "notes": "This is a read-only view. It does not restore, edit or permanently delete the entry."
         },
         "fa": {
-          "purpose": "مشاهده جزئیات یک ثبت حسابداری.",
+          "purpose": "نمایش فقط‌خواندنی یک ثبت حسابداری حذف‌شده را باز می‌کند.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "در ردیف موردنظر گزینه View را انتخاب کنید تا اطلاعات ذخیره‌شده نمایش داده شود.",
-          "inputs": "ثبت حسابداری درست را که می‌خواهید بررسی کنید انتخاب کنید.",
-          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
-          "notes": "پیش از هر ویرایش جداگانه، تاریخ، نوع، مبلغ و یادداشت‌ها را بررسی کنید."
+          "inputs": "از فهرست Deleted Records یک ثبت حذف‌شده را انتخاب کنید. ورودی دیگری لازم نیست.",
+          "result": "پنجره Deleted Record — View Only جزئیات ثبت انتخاب‌شده و هر تصویر رسید پیوست را نمایش می‌دهد.",
+          "notes": "این فقط نمایشی برای خواندن است. ثبت را بازیابی، ویرایش یا برای همیشه حذف نمی‌کند."
         },
         "ar": {
-          "purpose": "يفتح تفاصيل قيد محاسبي محفوظ.",
+          "purpose": "يفتح عرضًا للقراءة فقط لقيد محاسبي محذوف.",
           "when": "عندما تريد مراجعة المعلومات المحفوظة لقيد محاسبي معين.",
           "how": "اختر View في صف القيد المطلوب لعرض تفاصيله.",
-          "inputs": "حدد القيد المحاسبي الصحيح الذي تريد مراجعته.",
-          "result": "تظهر تفاصيل القيد المحاسبي المحدد دون تعديل بياناته.",
-          "notes": "راجع التاريخ والنوع والمبلغ والملاحظات قبل إجراء أي تعديل منفصل."
+          "inputs": "حدد قيدًا محذوفًا من قائمة Deleted Records. لا يلزم أي إدخال إضافي.",
+          "result": "تعرض نافذة Deleted Record — View Only تفاصيل القيد المحدد وأي صورة إيصال مرفقة.",
+          "notes": "هذا عرض للقراءة فقط. لا يستعيد القيد أو يعدّله أو يحذفه نهائيًا."
         },
         "ckb": {
-          "purpose": "وردەکارییەکانی تۆمارێکی ژمێریاری پاشەکەوتکراو دەکاتەوە.",
+          "purpose": "بینینی تەنهاخوێندنەوەی تۆمارێکی ژمێریاریی سڕاوە دەکاتەوە.",
           "when": "کاتێک دەتەوێت زانیاری پاشەکەوتکراوی تۆمارێکی ژمێریاری دیاریکراو بپشکنیت.",
           "how": "لە ڕیزی تۆماری داواکراو View هەڵبژێرە بۆ بینینی وردەکارییەکانی.",
-          "inputs": "ئەو تۆمارە ژمێریارییە دروستە دیاری بکە کە دەتەوێت بپشکنیت.",
-          "result": "وردەکارییەکانی تۆماری ژمێریاریی هەڵبژێردراو بەبێ گۆڕینی زانیارییەکانی پیشان دەدرێن.",
-          "notes": "پێش هەر دەستکارییەکی جیاواز بەروار، جۆر، بڕ و تێبینییەکان بپشکنە."
+          "inputs": "لە لیستی Deleted Records تۆمارێکی سڕاوە هەڵبژێرە. هیچ ورودییەکی تر پێویست نییە.",
+          "result": "پەنجەرەی Deleted Record — View Only وردەکارییەکانی تۆماری هەڵبژێردراو و هەر وێنەی پسووڵەیەکی هاوپێچ پیشان دەدات.",
+          "notes": "ئەمە تەنها بۆ خوێندنەوەیە. تۆمارەکە ناگەڕێنێتەوە، دەستکاری ناکات و بە تەواوی نایسڕێتەوە."
         },
         "kmr": {
-          "purpose": "Hûrguliyên tomareke hesabê ya tomarkirî vedike.",
+          "purpose": "Dîtina tenê-xwendinê ya tomareke hesabê ya jêbirî vedike.",
           "when": "Dema ku tu dixwazî agahiyên tomarkirî yên tomareke hesabê ya taybet kontrol bikî.",
           "how": "Di rêza tomara xwestî de View hilbijêre da ku hûrguliyên wê bibînî.",
-          "inputs": "Tomara hesabê ya rast a ku dixwazî kontrol bikî hilbijêre.",
-          "result": "Hûrguliyên tomara hesabê ya hilbijartî bêyî guherandina daneyan xuya dibin.",
-          "notes": "Berî her guherandineke cuda dîrok, cure, mîqdar û notan kontrol bike."
+          "inputs": "Ji lîsteya Deleted Records tomareke jêbirî hilbijêre. Têketineke din nehewce ye.",
+          "result": "Paceya Deleted Record — View Only hûrguliyên tomara hilbijartî û her wêneyeke mezaqa pêvekirî nîşan dide.",
+          "notes": "Ev dîtineke tenê ji bo xwendinê ye. Tomarê venagerîne, naguherîne û bi awayekî daîmî najê dike."
         },
         "tr": {
-          "purpose": "Kaydedilmiş bir muhasebe girişinin ayrıntılarını açar.",
+          "purpose": "Silinmiş bir muhasebe kaydının salt okunur görünümünü açar.",
           "when": "Belirli bir muhasebe kaydının saklanan bilgilerini incelemek istediğinizde kullanın.",
           "how": "Ayrıntılarını görmek için ilgili kayıt satırında View'ı seçin.",
-          "inputs": "İncelemek istediğiniz doğru muhasebe kaydını seçin.",
-          "result": "Seçilen muhasebe kaydının ayrıntıları verileri değiştirilmeden görüntülenir.",
-          "notes": "Ayrı bir düzenleme yapmadan önce tarihi, türü, tutarı ve notları inceleyin."
+          "inputs": "Deleted Records listesinden silinmiş bir kayıt seçin. Ek giriş gerekmez.",
+          "result": "Deleted Record — View Only penceresi, seçilen kaydın ayrıntılarını ve varsa ekli makbuz görüntüsünü gösterir.",
+          "notes": "Bu yalnızca salt okunur bir görünümdür. Kaydı geri yüklemez, düzenlemez veya kalıcı olarak silmez."
         },
         "pl": {
-          "purpose": "Otwiera szczegóły zapisanego wpisu księgowego.",
+          "purpose": "Otwiera widok tylko do odczytu usuniętego wpisu księgowego.",
           "when": "Użyj, gdy chcesz sprawdzić zapisane informacje konkretnego wpisu księgowego.",
           "how": "Wybierz View w wierszu odpowiedniego wpisu, aby sprawdzić jego szczegóły.",
-          "inputs": "Wybierz właściwy wpis księgowy, który chcesz sprawdzić.",
-          "result": "Wyświetlane są szczegóły wybranego wpisu bez zmiany jego danych.",
-          "notes": "Przed osobną edycją sprawdź datę, typ, kwotę i notatki."
+          "inputs": "Wybierz usunięty wpis z listy Deleted Records. Nie są wymagane dodatkowe dane.",
+          "result": "Okno Deleted Record — View Only wyświetla szczegóły wybranego wpisu i ewentualny załączony obraz paragonu.",
+          "notes": "To widok tylko do odczytu. Nie przywraca, nie edytuje ani trwale nie usuwa wpisu."
         },
         "ur": {
-          "purpose": "محفوظ شدہ اکاؤنٹنگ اندراج کی تفصیلات کھولتا ہے۔",
+          "purpose": "حذف شدہ اکاؤنٹنگ اندراج کا صرف پڑھنے کے لیے منظر کھولتا ہے۔",
           "when": "جب کسی مخصوص اکاؤنٹنگ اندراج کی محفوظ شدہ معلومات دیکھنی ہوں تو استعمال کریں۔",
           "how": "تفصیلات دیکھنے کے لیے مطلوبہ اندراج کی قطار میں View منتخب کریں۔",
-          "inputs": "وہ درست اکاؤنٹنگ اندراج منتخب کریں جس کا جائزہ لینا ہے۔",
-          "result": "منتخب اکاؤنٹنگ اندراج کی تفصیلات بغیر ڈیٹا بدلے دکھائی دیتی ہیں۔",
-          "notes": "الگ سے ترمیم کرنے سے پہلے تاریخ، قسم، رقم اور نوٹس کا جائزہ لیں۔"
+          "inputs": "Deleted Records فہرست سے حذف شدہ اندراج منتخب کریں۔ مزید کوئی اِن پٹ درکار نہیں۔",
+          "result": "Deleted Record — View Only ڈائیلاگ منتخب اندراج کی تفصیلات اور منسلک رسید کی تصویر دکھاتا ہے۔",
+          "notes": "یہ صرف پڑھنے کے لیے منظر ہے۔ یہ اندراج بحال، ترمیم یا مستقل طور پر حذف نہیں کرتا۔"
         },
         "pa": {
-          "purpose": "ਸੇਵ ਕੀਤੀ ਅਕਾਊਂਟਿੰਗ ਐਂਟਰੀ ਦੇ ਵੇਰਵੇ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "purpose": "ਮਿਟਾਈ ਗਈ ਅਕਾਊਂਟਿੰਗ ਐਂਟਰੀ ਦਾ ਸਿਰਫ਼ ਪੜ੍ਹਨ ਲਈ ਦ੍ਰਿਸ਼ ਖੋਲ੍ਹਦਾ ਹੈ।",
           "when": "ਜਦੋਂ ਕਿਸੇ ਖਾਸ ਅਕਾਊਂਟਿੰਗ ਐਂਟਰੀ ਦੀ ਸੇਵ ਕੀਤੀ ਜਾਣਕਾਰੀ ਵੇਖਣੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
           "how": "ਵੇਰਵੇ ਵੇਖਣ ਲਈ ਲੋੜੀਂਦੀ ਐਂਟਰੀ ਦੀ ਕਤਾਰ ਵਿੱਚ View ਚੁਣੋ।",
-          "inputs": "ਉਹ ਸਹੀ ਅਕਾਊਂਟਿੰਗ ਐਂਟਰੀ ਚੁਣੋ ਜਿਸਦੀ ਜਾਂਚ ਕਰਨੀ ਹੈ।",
-          "result": "ਚੁਣੀ ਅਕਾਊਂਟਿੰਗ ਐਂਟਰੀ ਦੇ ਵੇਰਵੇ ਡਾਟਾ ਬਦਲੇ ਬਿਨਾਂ ਦਿਖਾਏ ਜਾਂਦੇ ਹਨ।",
-          "notes": "ਵੱਖਰੀ ਸੋਧ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਤਾਰੀਖ, ਕਿਸਮ, ਰਕਮ ਅਤੇ ਨੋਟ ਜਾਂਚੋ।"
+          "inputs": "Deleted Records ਸੂਚੀ ਵਿੱਚੋਂ ਮਿਟਾਈ ਐਂਟਰੀ ਚੁਣੋ। ਹੋਰ ਕੋਈ ਇਨਪੁੱਟ ਲੋੜੀਂਦਾ ਨਹੀਂ।",
+          "result": "Deleted Record — View Only ਡਾਇਲਾਗ ਚੁਣੀ ਐਂਟਰੀ ਦੇ ਵੇਰਵੇ ਅਤੇ ਜੁੜੀ ਰਸੀਦ ਦੀ ਤਸਵੀਰ ਦਿਖਾਉਂਦਾ ਹੈ।",
+          "notes": "ਇਹ ਸਿਰਫ਼ ਪੜ੍ਹਨ ਲਈ ਦ੍ਰਿਸ਼ ਹੈ। ਇਹ ਐਂਟਰੀ ਨੂੰ ਮੁੜ ਬਹਾਲ, ਸੋਧ ਜਾਂ ਪੱਕੇ ਤੌਰ 'ਤੇ ਮਿਟਾਉਂਦਾ ਨਹੀਂ।"
         },
         "prs": {
-          "purpose": "جزئیات یک ثبت حسابداری ذخیره‌شده را باز می‌کند.",
+          "purpose": "نمایش فقط‌خواندنی یک ثبت حسابداری حذف‌شده را باز می‌کند.",
           "when": "وقتی می‌خواهید اطلاعات ذخیره‌شده یک ثبت حسابداری مشخص را بررسی کنید، استفاده کنید.",
           "how": "در ردیف ثبت موردنظر View را انتخاب کنید تا جزئیات آن نمایش داده شود.",
-          "inputs": "ثبت حسابداری درست را که می‌خواهید بررسی کنید انتخاب کنید.",
-          "result": "جزئیات ثبت حسابداری انتخاب‌شده بدون تغییر اطلاعات آن نمایش داده می‌شود.",
-          "notes": "پیش از هر ویرایش جداگانه، تاریخ، نوع، مبلغ و یادداشت‌ها را بررسی کنید."
+          "inputs": "از فهرست Deleted Records یک ثبت حذف‌شده را انتخاب کنید. ورودی دیگری لازم نیست.",
+          "result": "پنجره Deleted Record — View Only جزئیات ثبت انتخاب‌شده و هر تصویر رسید پیوست را نمایش می‌دهد.",
+          "notes": "این فقط نمایشی برای خواندن است. ثبت را بازیابی، ویرایش یا برای همیشه حذف نمی‌کند."
         },
         "ps": {
-          "purpose": "د خوندي شوي حسابداري ثبت جزئیات پرانیزي.",
+          "purpose": "د ړنګ شوي حسابداري ثبت یوازې-لوستلو لید پرانیزي.",
           "when": "کله چې د یوه ځانګړي حسابداري ثبت خوندي شوي معلومات کتل غواړئ، دا وکاروئ.",
           "how": "د جزئیاتو د لیدلو لپاره د اړوند ثبت په قطار کې View وټاکئ.",
-          "inputs": "سم حسابداري ثبت وټاکئ چې کتنه یې غواړئ.",
-          "result": "د ټاکل شوي حسابداري ثبت جزئیات د معلوماتو له بدلولو پرته ښکاره کېږي.",
-          "notes": "له هر جلا سمون مخکې نېټه، ډول، اندازه او یادښتونه وګورئ."
+          "inputs": "د Deleted Records له لېست څخه ړنګ شوی ثبت وټاکئ. نورو معلوماتو ته اړتیا نشته.",
+          "result": "د Deleted Record — View Only کړکۍ د ټاکل شوي ثبت جزئیات او هره نښلول شوې رسید انځور ښيي.",
+          "notes": "دا یوازې د لوستلو لید دی. ثبت نه بېرته راګرځوي، نه یې سموي او نه یې د تل لپاره ړنګوي."
         }
       },
       "handler_or_behavior": "`viewRecordEntry(\\`"
@@ -9316,80 +9316,80 @@
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "ابتدا PDF گزارش را ایجاد یا باز کنید، سپس Share PDF را بزنید و مقصد دلخواه را از فهرست اشتراک‌گذاری دستگاه انتخاب کنید.",
           "inputs": "گزارش درست و فایل PDF موردنظر برای اشتراک‌گذاری را انتخاب کنید، سپس مقصد را برگزینید.",
-          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
-          "notes": "امکانات اشتراک‌گذاری به مرورگر و دستگاه بستگی دارد. پیش از ارسال، فایل و گیرنده را بررسی کنید."
+          "result": "اگر دستگاه از اشتراک‌گذاری فایل پشتیبانی کند، گزینه‌های اشتراک‌گذاری را نمایش می‌دهد. اگر اشتراک‌گذاری در دسترس نباشد یا شکست بخورد، برنامه به‌جای آن دانلود PDF را آغاز می‌کند. ارسال تا زمانی تأیید نمی‌شود که برنامه یا سرویس انتخاب‌شده موفقیت را اعلام کند.",
+          "notes": "دسترسی به اشتراک‌گذاری به مرورگر و دستگاه بستگی دارد. پیش از ارسال، فایل PDF و گیرنده را بررسی کنید."
         },
         "ar": {
           "purpose": "يشارك ملف PDF لتقرير باستخدام خيارات المشاركة المتاحة على الجهاز.",
           "when": "عندما تريد إرسال نسخة PDF من التقرير إلى شخص أو تطبيق آخر.",
           "how": "أنشئ ملف PDF للتقرير أو افتحه أولاً، ثم اختر Share PDF وحدد وجهة من قائمة المشاركة في الجهاز.",
           "inputs": "حدد التقرير الصحيح وملف PDF الذي تريد مشاركته، ثم اختر وجهة المشاركة.",
-          "result": "تُمرر نسخة PDF إلى خيار المشاركة الذي تحدده إذا كان مدعوماً.",
-          "notes": "تعتمد إمكانية المشاركة على المتصفح والجهاز. راجع محتوى PDF والمستلم قبل الإرسال."
+          "result": "يعرض الجهاز وجهات المشاركة عندما تكون مشاركة الملفات مدعومة. إذا لم تكن المشاركة متاحة أو فشلت، يبدأ التطبيق تنزيل ملف PDF بدلًا من ذلك. لا يُعد الإرسال مؤكدًا حتى يؤكد التطبيق أو الخدمة المختارة نجاحه.",
+          "notes": "يعتمد توفر المشاركة على المتصفح والجهاز. تحقق من ملف PDF والمستلم قبل الإرسال."
         },
         "ckb": {
           "purpose": "فایلی PDFی ڕاپۆرت بە بەکارهێنانی هەڵبژاردەکانی هاوبەشکردنی ئامێرەکە هاوبەش دەکات.",
           "when": "کاتێک دەتەوێت کۆپییەکی PDFی ڕاپۆرتەکە بۆ کەسێک یان ئەپێکی تر بنێریت.",
           "how": "سەرەتا PDFی ڕاپۆرتەکە دروست بکە یان بیکەرەوە، پاشان Share PDF هەڵبژێرە و شوێنێک لە پەنجەرەی هاوبەشکردنی ئامێرەکە دیاری بکە.",
           "inputs": "ڕاپۆرت و فایلی PDFی دروست هەڵبژێرە و پاشان شوێنی هاوبەشکردن دیاری بکە.",
-          "result": "ئەگەر پشتگیری بکرێت، کۆپیی PDF دەدرێتە هەڵبژاردەی هاوبەشکردنی دیاریکراو.",
-          "notes": "توانای هاوبەشکردن بە وێبگەڕ و ئامێرەکەوە بەستراوە. پێش ناردن ناوەڕۆکی PDF و وەرگر بپشکنە."
+          "result": "ئەگەر ئامێرەکە پشتگیری هاوبەشکردنی فایل بکات، شوێنەکانی هاوبەشکردن پیشان دەدات. ئەگەر هاوبەشکردن بەردەست نەبێت یان سەرکەوتوو نەبێت، ئەپەکە لە جیاتی ئەوە داگرتنی PDF دەستپێدەکات. ناردن تا ئەو کاتە پشتڕاست ناکرێتەوە کە ئەپ یان خزمەتگوزاریی هەڵبژێردراو سەرکەوتن ڕانەگەیەنێت.",
+          "notes": "بەردەستی هاوبەشکردن بە وێبگەڕ و ئامێرەکەوە بەستراوە. پێش ناردن فایلی PDF و وەرگر بپشکنە."
         },
         "kmr": {
           "purpose": "Pelê PDF yê raporê bi vebijarkên parvekirinê yên amûrê parve dike.",
           "when": "Dema ku tu dixwazî kopiyeke PDF ya raporê ji kesekî an sepaneke din re bişînî.",
           "how": "Pêşî PDF ya raporê çêbike an veke, paşê Share PDF hilbijêre û cihê şandinê ji lîsteya parvekirina amûrê hilbijêre.",
           "inputs": "Rapora rast û pelê PDF yê ku dixwazî parve bikî hilbijêre, paşê cihê parvekirinê hilbijêre.",
-          "result": "Ger piştgirî hebe, kopiya PDF ji bo vebijarka parvekirinê ya hilbijartî tê şandin.",
-          "notes": "Berdestiya parvekirinê bi gerok û amûrê ve girêdayî ye. Berî şandinê naveroka PDF û wergir kontrol bike."
+          "result": "Ger parvekirina pelan were piştgirîkirin, amûr cihên parvekirinê nîşan dide. Heke parvekirin ne berdest be an têk biçe, sepan li şûna wê daxistina PDF dest pê dike. Şandin heta ku sepan an xizmeta hilbijartî serkeftinê ragihîne nayê piştrastkirin.",
+          "notes": "Berdestiya parvekirinê bi gerok û amûrê ve girêdayî ye. Berî şandinê pelê PDF û wergir kontrol bike."
         },
         "tr": {
           "purpose": "Rapor PDF'sini cihazın kullanılabilir paylaşım seçenekleriyle paylaşır.",
           "when": "Raporun PDF kopyasını başka bir kişiye veya uygulamaya göndermek istediğinizde kullanın.",
           "how": "Önce rapor PDF'sini oluşturun veya açın, ardından Share PDF'yi seçin ve sistem paylaşım menüsünden bir hedef belirleyin.",
           "inputs": "Paylaşmak istediğiniz doğru raporu ve PDF dosyasını seçin, ardından paylaşım hedefini belirleyin.",
-          "result": "Destekleniyorsa PDF kopyası seçtiğiniz paylaşım seçeneğine aktarılır.",
-          "notes": "Paylaşım olanağı tarayıcıya ve cihaza bağlıdır. Göndermeden önce PDF içeriğini ve alıcıyı kontrol edin."
+          "result": "Cihaz dosya paylaşımını destekliyorsa paylaşım hedeflerini gösterir. Paylaşım kullanılamıyorsa veya başarısız olursa uygulama bunun yerine PDF indirmesini başlatır. Seçilen uygulama veya hizmet başarı bildirmedikçe gönderim tamamlanmış sayılmaz.",
+          "notes": "Paylaşımın kullanılabilirliği tarayıcıya ve cihaza bağlıdır. Göndermeden önce PDF dosyasını ve alıcıyı kontrol edin."
         },
         "pl": {
           "purpose": "Udostępnia plik PDF raportu za pomocą dostępnych opcji udostępniania urządzenia.",
           "when": "Użyj, gdy chcesz wysłać kopię raportu w PDF innej osobie lub aplikacji.",
           "how": "Najpierw utwórz lub otwórz PDF raportu, następnie wybierz Share PDF i wskaż miejsce docelowe w systemowym panelu udostępniania.",
           "inputs": "Wybierz właściwy raport i plik PDF do udostępnienia, a następnie wskaż odbiorcę lub miejsce docelowe.",
-          "result": "Jeśli urządzenie obsługuje tę funkcję, kopia PDF zostanie przekazana do wybranej opcji udostępniania.",
-          "notes": "Dostępność udostępniania zależy od przeglądarki i urządzenia. Przed wysłaniem sprawdź zawartość PDF i odbiorcę."
+          "result": "Jeśli urządzenie obsługuje udostępnianie plików, wyświetli dostępne miejsca docelowe. Jeśli udostępnianie jest niedostępne lub się nie powiedzie, aplikacja zamiast tego rozpocznie pobieranie PDF. Wysłanie nie jest potwierdzone, dopóki wybrana aplikacja lub usługa nie zgłosi powodzenia.",
+          "notes": "Dostępność udostępniania zależy od przeglądarki i urządzenia. Przed wysłaniem sprawdź plik PDF i odbiorcę."
         },
         "ur": {
           "purpose": "ڈیوائس کے دستیاب شیئرنگ اختیارات کے ذریعے رپورٹ کی PDF شیئر کرتا ہے۔",
           "when": "جب رپورٹ کی PDF نقل کسی دوسرے شخص یا ایپ کو بھیجنی ہو تو استعمال کریں۔",
           "how": "پہلے رپورٹ کی PDF بنائیں یا کھولیں، پھر Share PDF منتخب کریں اور سسٹم شیئر شیٹ میں دستیاب منزل منتخب کریں۔",
           "inputs": "درست رپورٹ اور وہ PDF فائل منتخب کریں جسے شیئر کرنا ہے، پھر شیئرنگ منزل منتخب کریں۔",
-          "result": "اگر سہولت دستیاب ہو تو PDF نقل منتخب کردہ شیئرنگ اختیار کو دے دی جاتی ہے۔",
-          "notes": "شیئرنگ کی دستیابی براؤزر اور ڈیوائس پر منحصر ہے۔ بھیجنے سے پہلے PDF کا مواد اور وصول کنندہ چیک کریں۔"
+          "result": "اگر ڈیوائس فائل شیئرنگ کی سہولت دیتی ہے تو شیئرنگ کے مقامات دکھاتی ہے۔ اگر شیئرنگ دستیاب نہ ہو یا ناکام ہو جائے تو ایپ اس کے بجائے PDF ڈاؤن لوڈ شروع کرتی ہے۔ جب تک منتخب ایپ یا سروس کامیابی کی اطلاع نہ دے، بھیجنا تصدیق شدہ نہیں سمجھا جاتا۔",
+          "notes": "شیئرنگ کی دستیابی براؤزر اور ڈیوائس پر منحصر ہے۔ بھیجنے سے پہلے PDF فائل اور وصول کنندہ چیک کریں۔"
         },
         "pa": {
           "purpose": "ਡਿਵਾਈਸ ਦੇ ਉਪਲਬਧ ਸਾਂਝੇ ਕਰਨ ਦੇ ਵਿਕਲਪਾਂ ਰਾਹੀਂ ਰਿਪੋਰਟ PDF ਸਾਂਝੀ ਕਰਦਾ ਹੈ।",
           "when": "ਜਦੋਂ ਰਿਪੋਰਟ ਦੀ PDF ਕਾਪੀ ਕਿਸੇ ਹੋਰ ਵਿਅਕਤੀ ਜਾਂ ਐਪ ਨੂੰ ਭੇਜਣੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
           "how": "ਪਹਿਲਾਂ ਰਿਪੋਰਟ PDF ਬਣਾਓ ਜਾਂ ਖੋਲ੍ਹੋ, ਫਿਰ Share PDF ਚੁਣੋ ਅਤੇ ਸਿਸਟਮ ਸ਼ੇਅਰ ਮੀਨੂ ਵਿੱਚ ਮੰਜ਼ਿਲ ਚੁਣੋ।",
           "inputs": "ਸਾਂਝੀ ਕਰਨ ਲਈ ਸਹੀ ਰਿਪੋਰਟ ਅਤੇ PDF ਫਾਈਲ ਚੁਣੋ, ਫਿਰ ਮੰਜ਼ਿਲ ਚੁਣੋ।",
-          "result": "ਜੇ ਸਹੂਲਤ ਉਪਲਬਧ ਹੋਵੇ ਤਾਂ PDF ਕਾਪੀ ਚੁਣੇ ਸਾਂਝੇ ਕਰਨ ਦੇ ਵਿਕਲਪ ਨੂੰ ਦਿੱਤੀ ਜਾਂਦੀ ਹੈ।",
-          "notes": "ਸਾਂਝਾ ਕਰਨ ਦੀ ਉਪਲਬਧਤਾ ਬ੍ਰਾਊਜ਼ਰ ਅਤੇ ਡਿਵਾਈਸ 'ਤੇ ਨਿਰਭਰ ਕਰਦੀ ਹੈ। ਭੇਜਣ ਤੋਂ ਪਹਿਲਾਂ PDF ਦੀ ਸਮੱਗਰੀ ਅਤੇ ਪ੍ਰਾਪਤਕਰਤਾ ਜਾਂਚੋ।"
+          "result": "ਜੇ ਡਿਵਾਈਸ ਫਾਈਲ ਸਾਂਝੀ ਕਰਨ ਦਾ ਸਮਰਥਨ ਕਰਦੀ ਹੈ ਤਾਂ ਸਾਂਝੇ ਕਰਨ ਦੇ ਟਿਕਾਣੇ ਦਿਖਾਏ ਜਾਂਦੇ ਹਨ। ਜੇ ਸਾਂਝਾ ਕਰਨਾ ਉਪਲਬਧ ਨਾ ਹੋਵੇ ਜਾਂ ਅਸਫਲ ਹੋਵੇ ਤਾਂ ਐਪ ਇਸ ਦੀ ਬਜਾਏ PDF ਡਾਊਨਲੋਡ ਸ਼ੁਰੂ ਕਰਦੀ ਹੈ। ਚੁਣੀ ਐਪ ਜਾਂ ਸੇਵਾ ਸਫਲਤਾ ਦੀ ਪੁਸ਼ਟੀ ਨਾ ਕਰੇ ਤੱਕ ਭੇਜਣਾ ਪੱਕਾ ਨਹੀਂ ਮੰਨਿਆ ਜਾਂਦਾ।",
+          "notes": "ਸਾਂਝਾ ਕਰਨ ਦੀ ਉਪਲਬਧਤਾ ਬ੍ਰਾਊਜ਼ਰ ਅਤੇ ਡਿਵਾਈਸ 'ਤੇ ਨਿਰਭਰ ਕਰਦੀ ਹੈ। ਭੇਜਣ ਤੋਂ ਪਹਿਲਾਂ PDF ਫਾਈਲ ਅਤੇ ਪ੍ਰਾਪਤਕਰਤਾ ਜਾਂਚੋ।"
         },
         "prs": {
           "purpose": "فایل PDF گزارش را با استفاده از گزینه‌های اشتراک‌گذاری موجود در دستگاه به اشتراک می‌گذارد.",
           "when": "وقتی می‌خواهید نسخه PDF گزارش را برای شخص یا برنامه دیگری بفرستید، استفاده کنید.",
           "how": "ابتدا PDF گزارش را ایجاد یا باز کنید، سپس Share PDF را انتخاب و مقصدی را از صفحه اشتراک‌گذاری سیستم برگزینید.",
           "inputs": "گزارش درست و فایل PDF موردنظر برای اشتراک‌گذاری را انتخاب کنید، سپس مقصد را برگزینید.",
-          "result": "در صورت پشتیبانی دستگاه، نسخه PDF به گزینه اشتراک‌گذاری انتخاب‌شده فرستاده می‌شود.",
-          "notes": "امکان اشتراک‌گذاری به مرورگر و دستگاه بستگی دارد. پیش از ارسال، محتوای PDF و گیرنده را بررسی کنید."
+          "result": "اگر دستگاه از اشتراک‌گذاری فایل پشتیبانی کند، مقصدهای اشتراک‌گذاری نمایش داده می‌شوند. اگر اشتراک‌گذاری در دسترس نباشد یا ناموفق شود، برنامه به‌جای آن دانلود PDF را آغاز می‌کند. ارسال تا زمانی تأیید نمی‌شود که برنامه یا سرویس انتخاب‌شده موفقیت را اعلام کند.",
+          "notes": "امکان اشتراک‌گذاری به مرورگر و دستگاه بستگی دارد. پیش از ارسال، فایل PDF و گیرنده را بررسی کنید."
         },
         "ps": {
           "purpose": "د وسیلې د شته شریکولو اختیارونو په کارولو د راپور PDF شریکوي.",
           "when": "کله چې غواړئ د راپور PDF کاپي بل کس یا اپلیکیشن ته ولېږئ، دا وکاروئ.",
           "how": "لومړی د راپور PDF جوړ یا پرانیزئ، بیا Share PDF وټاکئ او د سیسټم د شریکولو له پاڼې څخه موخه وټاکئ.",
           "inputs": "سم راپور او د شریکولو لپاره PDF فایل وټاکئ، بیا د شریکولو موخه وټاکئ.",
-          "result": "که ملاتړ موجود وي، د PDF کاپي ټاکل شوي شریکولو اختیار ته لېږدول کېږي.",
-          "notes": "د شریکولو شتون په براوزر او وسیله پورې تړلی دی. له لېږلو مخکې د PDF منځپانګه او ترلاسه کوونکی وګورئ."
+          "result": "که وسیله د فایلونو شریکول ملاتړ کوي، د شریکولو موخې ښکاره کوي. که شریکول موجود نه وي یا ناکام شي، اپلیکیشن پر ځای یې د PDF ښکته کول پیلوي. لېږل تر هغه تایید شوي نه دي چې ټاکل شوی اپ یا خدمت د بریالیتوب خبر ورنه کړي.",
+          "notes": "د شریکولو شتون په براوزر او وسیله پورې تړلی دی. له لېږلو مخکې د PDF فایل او ترلاسه کوونکی وګورئ."
         }
       },
       "handler_or_behavior": "`shareReportPdf()`"
