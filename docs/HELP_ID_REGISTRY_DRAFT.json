@@ -10882,81 +10882,81 @@
         "fa": {
           "purpose": "پیوست ذخیره‌شده برای قرارداد یا رکورد شرکت را باز می‌کند.",
           "when": "وقتی لازم است فایل PDF یا تصویر پیوست‌شده به شرکت، کار، بسته کاری یا رکورد پرداخت را بررسی کنید، از این گزینه استفاده کنید.",
-          "how": "نام پیوست را در رکورد مربوط به شرکت یا کار انتخاب کنید. اجازه دهید مرورگر زبانه جدیدی باز کند و PDF یا تصویر نمایش‌داده‌شده را بررسی کنید.",
+          "how": "نام پیوست را در رکورد مربوط به شرکت یا کار انتخاب کنید. اجازه دهید مرورگر زبانه جدیدی باز کند و PDF یا تصویر را بررسی کنید.",
           "inputs": "رکوردی را انتخاب کنید که پیوست در آن ذخیره شده است. داده فایل باید همچنان در دسترس باشد؛ این عملیات فایل جدیدی بارگذاری نمی‌کند.",
-          "result": "فایل PDF در نمایشگر داخلی زبانه جدید باز می‌شود یا تصویر در همان زبانه نمایش داده می‌شود. اگر داده پیوست در دسترس نباشد یا پنجره‌های بازشو مسدود باشند، برنامه مشکل را اعلام می‌کند.",
+          "result": "PDF در نمایشگر داخلی یک زبانه جدید باز می‌شود یا تصویر در همان زبانه نمایش داده می‌شود. اگر داده پیوست در دسترس نباشد یا پنجره بازشو مسدود باشد، برنامه مشکل را اعلام می‌کند.",
           "notes": "پیش از اشتراک‌گذاری، نام و محتوای فایل را بررسی کنید. باز کردن پیوست، قرارداد اصلی را تغییر نمی‌دهد."
         },
         "ar": {
           "purpose": "يفتح الملف المرفق بعقد الشركة أو سجلها.",
           "when": "عندما تحتاج إلى مراجعة مستند مرفق بعقد أو سجل الشركة.",
-          "how": "اختر اسم الملف المرفق لفتحه أو تنزيله بحسب الجهاز والمتصفح.",
-          "inputs": "حدد مرفق الشركة الصحيح من سجل العقد أو الشركة.",
-          "result": "يُفتح الملف المرتبط أو يبدأ تنزيله وفقاً لدعم الجهاز والمتصفح.",
+          "how": "اختر اسم المرفق في سجل الشركة أو الوظيفة المعني. اسمح للمتصفح بفتح علامة تبويب جديدة وافحص ملف PDF أو الصورة.",
+          "inputs": "حدد السجل الذي يحتوي على المرفق. يجب أن تظل بيانات الملف متاحة؛ هذا الإجراء لا يرفع ملفًا جديدًا.",
+          "result": "يُفتح ملف PDF في عارض مضمّن بعلامة تبويب جديدة، أو تُعرض الصورة في تلك العلامة. إذا لم تتوفر بيانات المرفق أو حُظرت النوافذ المنبثقة، يعرض التطبيق المشكلة.",
           "notes": "تحقق من اسم الملف ومحتواه قبل مشاركته. فتح المرفق لا يغيّر العقد الأصلي."
         },
         "ckb": {
           "purpose": "فایلی هاوپێچکراو بە گرێبەستی کۆمپانیا یان تۆمارەکەی دەکاتەوە.",
           "when": "کاتێک پێویستە بەڵگەنامەیەکی هاوپێچکراو بە گرێبەست یان تۆماری کۆمپانیا بپشکنیت.",
-          "how": "ناوی فایلی هاوپێچکراو هەڵبژێرە بۆ کردنەوە یان داگرتنی، بە پێی ئامێر و وێبگەڕەکە.",
-          "inputs": "هاوپێچی دروستی کۆمپانیا لە تۆماری گرێبەست یان کۆمپانیا هەڵبژێرە.",
-          "result": "فایلی پەیوەست دەکرێتەوە یان بە پێی پشتگیری ئامێر و وێبگەڕ دادەبەزێت.",
+          "how": "لە تۆماری پەیوەندیداری کۆمپانیا یان کاردا ناوی هاوپێچەکە هەڵبژێرە. ڕێگە بدە وێبگەڕ پەنجەرەیەکی نوێ بکاتەوە و PDF یان وێنەکە بپشکنە.",
+          "inputs": "تۆمارەکە هەڵبژێرە کە هاوپێچەکەی تێدا پاشەکەوت کراوە. دەبێت داتای فایلەکە هێشتا بەردەست بێت؛ ئەم کردارە فایلێکی نوێ بار ناکات.",
+          "result": "PDF لە پیشاندەرێکی ناوخۆیی لە پەنجەرەیەکی نوێ دەکرێتەوە، یان وێنەکە لەو پەنجەرەیە پیشان دەدرێت. ئەگەر داتای هاوپێچ بەردەست نەبێت یان pop-up بلۆک کرابێت، ئەپەکە کێشەکە ڕادەگەیەنێت.",
           "notes": "پێش هاوبەشکردن ناو و ناوەڕۆکی فایلەکە بپشکنە. کردنەوەی هاوپێچ گرێبەستی بنەڕەتی ناگۆڕێت."
         },
         "kmr": {
           "purpose": "Pelê pêvekirî yê bi peymana pargîdanî an tomara wê re vedike.",
           "when": "Dema ku tu hewceyî kontrolkirina belgeyeke pêvekirî ya bi peyman an tomara pargîdanî re girêdayî yî.",
-          "how": "Navê pelê pêvekirî hilbijêre da ku veke an daxîne, li gorî amûr û gerokê.",
-          "inputs": "Pêveka rast a pargîdanî ji tomara peymanê an pargîdanî hilbijêre.",
-          "result": "Pelê girêdayî vedibe an li gorî piştgirîya amûr û gerokê tê daxistin.",
+          "how": "Di tomara pargîdanî an karê têkildar de navê pêvekê hilbijêre. Destûrê bide gerok rûpelek nû veke û PDF an wêneyê kontrol bike.",
+          "inputs": "Tomara ku pêvek tê de hatiye tomarkirin hilbijêre. Divê daneyên pelê hîn berdest bin; ev kiryar peleke nû nabarkîne.",
+          "result": "PDF di nîşandereke navxweyî de di rûpelek nû de vedibe, an wêne di wê rûpelê de tê nîşandan. Heke daneyên pêvekê tune bin an pop-up were astengkirin, sepan pirsgirêkê ragihîne.",
           "notes": "Berî parvekirinê nav û naveroka pelê kontrol bike. Vekirina pêvekê peymana bingehîn naguherîne."
         },
         "tr": {
           "purpose": "Bir şirket sözleşmesine veya kaydına eklenmiş dosyayı açar.",
           "when": "Şirket sözleşmesine veya kaydına eklenmiş bir belgeyi incelemeniz gerektiğinde kullanın.",
-          "how": "Cihaza ve tarayıcıya bağlı olarak ilişkili dosyayı açmak veya indirmek için ek dosyanın adını seçin.",
-          "inputs": "Sözleşme veya şirket kaydındaki doğru şirket ekini seçin.",
-          "result": "Bağlantılı dosya açılır veya cihaz ve tarayıcı desteğine göre indirme başlar.",
+          "how": "İlgili şirket veya iş kaydındaki ek adını seçin. Tarayıcının yeni bir sekme açmasına izin verin ve PDF'yi veya görüntüyü inceleyin.",
+          "inputs": "Ekinin kaydedildiği kaydı seçin. Dosya verileri hâlâ erişilebilir olmalıdır; bu işlem yeni bir dosya yüklemez.",
+          "result": "PDF yeni sekmede gömülü görüntüleyicide açılır veya görüntü aynı sekmede gösterilir. Ek verileri yoksa ya da açılır pencereler engellenirse uygulama sorunu bildirir.",
           "notes": "Paylaşmadan önce dosya adını ve içeriğini kontrol edin. Eki açmak temel sözleşmeyi değiştirmez."
         },
         "pl": {
           "purpose": "Otwiera plik dołączony do umowy lub rekordu firmy.",
           "when": "Użyj, gdy chcesz sprawdzić dokument dołączony do umowy lub rekordu firmy.",
-          "how": "Wybierz nazwę załącznika, aby otworzyć lub pobrać powiązany plik, zależnie od urządzenia i przeglądarki.",
-          "inputs": "Wybierz właściwy załącznik firmy z rekordu umowy lub firmy.",
-          "result": "Powiązany plik zostanie otwarty lub rozpocznie się jego pobieranie, zależnie od obsługi urządzenia i przeglądarki.",
+          "how": "Wybierz nazwę załącznika w odpowiednim rekordzie firmy lub zlecenia. Zezwól przeglądarce otworzyć nową kartę i sprawdź PDF lub obraz.",
+          "inputs": "Wybierz rekord zawierający załącznik. Dane pliku muszą być nadal dostępne; ta czynność nie przesyła nowego pliku.",
+          "result": "PDF otwiera się w osadzonym podglądzie na nowej karcie albo obraz jest wyświetlany w tej karcie. Jeśli dane załącznika są niedostępne lub wyskakujące okna są zablokowane, aplikacja zgłasza problem.",
           "notes": "Przed udostępnieniem sprawdź nazwę i zawartość pliku. Otwarcie załącznika nie zmienia umowy źródłowej."
         },
         "ur": {
           "purpose": "کمپنی کے معاہدے یا ریکارڈ کے ساتھ منسلک فائل کھولتا ہے۔",
           "when": "جب کمپنی کے معاہدے یا ریکارڈ سے منسلک دستاویز دیکھنی ہو تو استعمال کریں۔",
-          "how": "ڈیوائس اور براؤزر کے مطابق متعلقہ فائل کھولنے یا ڈاؤن لوڈ کرنے کے لیے منسلکہ کا نام منتخب کریں۔",
-          "inputs": "معاہدے یا کمپنی ریکارڈ میں درست کمپنی منسلکہ منتخب کریں۔",
-          "result": "متعلقہ فائل کھل جاتی ہے یا ڈیوائس اور براؤزر کی سہولت کے مطابق ڈاؤن لوڈ شروع ہو جاتا ہے۔",
+          "how": "متعلقہ کمپنی یا کام کے ریکارڈ میں منسلکہ کا نام منتخب کریں۔ براؤزر کو نیا ٹیب کھولنے دیں اور PDF یا تصویر دیکھیں۔",
+          "inputs": "وہ ریکارڈ منتخب کریں جس میں منسلکہ محفوظ ہے۔ فائل کا ڈیٹا اب بھی دستیاب ہونا چاہیے؛ یہ کارروائی نئی فائل اپ لوڈ نہیں کرتی۔",
+          "result": "PDF نئی ٹیب میں ایمبیڈڈ ویوئر میں کھلتی ہے یا تصویر اسی ٹیب میں دکھائی جاتی ہے۔ اگر منسلکہ ڈیٹا دستیاب نہ ہو یا پاپ اَپس بلاک ہوں تو ایپ مسئلہ بتاتی ہے۔",
           "notes": "شیئر کرنے سے پہلے فائل کا نام اور مواد چیک کریں۔ منسلکہ کھولنے سے اصل معاہدہ تبدیل نہیں ہوتا۔"
         },
         "pa": {
           "purpose": "ਕੰਪਨੀ ਦੇ ਕਰਾਰ ਜਾਂ ਰਿਕਾਰਡ ਨਾਲ ਜੁੜੀ ਫਾਈਲ ਖੋਲ੍ਹਦਾ ਹੈ।",
           "when": "ਜਦੋਂ ਕੰਪਨੀ ਦੇ ਕਰਾਰ ਜਾਂ ਰਿਕਾਰਡ ਨਾਲ ਜੁੜਿਆ ਦਸਤਾਵੇਜ਼ ਵੇਖਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਡਿਵਾਈਸ ਅਤੇ ਬ੍ਰਾਊਜ਼ਰ ਅਨੁਸਾਰ ਸੰਬੰਧਿਤ ਫਾਈਲ ਖੋਲ੍ਹਣ ਜਾਂ ਡਾਊਨਲੋਡ ਕਰਨ ਲਈ ਅਟੈਚਮੈਂਟ ਦਾ ਨਾਮ ਚੁਣੋ।",
-          "inputs": "ਕਰਾਰ ਜਾਂ ਕੰਪਨੀ ਰਿਕਾਰਡ ਵਿੱਚੋਂ ਸਹੀ ਕੰਪਨੀ ਅਟੈਚਮੈਂਟ ਚੁਣੋ।",
-          "result": "ਸੰਬੰਧਿਤ ਫਾਈਲ ਖੁੱਲ੍ਹਦੀ ਹੈ ਜਾਂ ਡਿਵਾਈਸ ਅਤੇ ਬ੍ਰਾਊਜ਼ਰ ਦੀ ਸਹੂਲਤ ਅਨੁਸਾਰ ਡਾਊਨਲੋਡ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ।",
+          "how": "ਸੰਬੰਧਿਤ ਕੰਪਨੀ ਜਾਂ ਕੰਮ ਰਿਕਾਰਡ ਵਿੱਚ ਅਟੈਚਮੈਂਟ ਦਾ ਨਾਮ ਚੁਣੋ। ਬ੍ਰਾਊਜ਼ਰ ਨੂੰ ਨਵੀਂ ਟੈਬ ਖੋਲ੍ਹਣ ਦਿਓ ਅਤੇ PDF ਜਾਂ ਤਸਵੀਰ ਵੇਖੋ।",
+          "inputs": "ਉਹ ਰਿਕਾਰਡ ਚੁਣੋ ਜਿਸ ਵਿੱਚ ਅਟੈਚਮੈਂਟ ਸੇਵ ਹੈ। ਫਾਈਲ ਡਾਟਾ ਹਾਲੇ ਉਪਲਬਧ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ; ਇਹ ਕਾਰਵਾਈ ਨਵੀਂ ਫਾਈਲ ਅੱਪਲੋਡ ਨਹੀਂ ਕਰਦੀ।",
+          "result": "PDF ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਅੰਦਰੂਨੀ ਵਿਊਅਰ ਵਿੱਚ ਖੁੱਲ੍ਹਦੀ ਹੈ ਜਾਂ ਤਸਵੀਰ ਉਸੇ ਟੈਬ ਵਿੱਚ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ। ਜੇ ਅਟੈਚਮੈਂਟ ਡਾਟਾ ਉਪਲਬਧ ਨਾ ਹੋਵੇ ਜਾਂ ਪੌਪ-ਅੱਪ ਰੋਕੇ ਹੋਣ ਤਾਂ ਐਪ ਸਮੱਸਿਆ ਦੱਸਦੀ ਹੈ।",
           "notes": "ਸਾਂਝਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਫਾਈਲ ਦਾ ਨਾਮ ਅਤੇ ਸਮੱਗਰੀ ਜਾਂਚੋ। ਅਟੈਚਮੈਂਟ ਖੋਲ੍ਹਣ ਨਾਲ ਮੂਲ ਕਰਾਰ ਨਹੀਂ ਬਦਲਦਾ।"
         },
         "prs": {
           "purpose": "فایل پیوست‌شده به قرارداد یا سابقه شرکت را باز می‌کند.",
           "when": "وقتی لازم است سندی را که به قرارداد یا سابقه شرکت پیوست شده بررسی کنید، استفاده کنید.",
-          "how": "نام فایل پیوست را انتخاب کنید تا بسته به دستگاه و مرورگر باز یا بارگیری شود.",
-          "inputs": "پیوست درست شرکت را از سابقه قرارداد یا شرکت انتخاب کنید.",
-          "result": "فایل مرتبط باز می‌شود یا بسته به پشتیبانی دستگاه و مرورگر بارگیری آن آغاز می‌شود.",
+          "how": "نام پیوست را در رکورد مربوط به شرکت یا کار انتخاب کنید. اجازه دهید مرورگر زبانه جدیدی باز کند و PDF یا تصویر را بررسی کنید.",
+          "inputs": "رکوردی را انتخاب کنید که پیوست در آن ذخیره شده است. داده فایل باید همچنان در دسترس باشد؛ این عملیات فایل جدیدی بارگذاری نمی‌کند.",
+          "result": "PDF در نمایشگر داخلی یک زبانه جدید باز می‌شود یا تصویر در همان زبانه نمایش داده می‌شود. اگر داده پیوست در دسترس نباشد یا پنجره بازشو مسدود باشد، برنامه مشکل را اعلام می‌کند.",
           "notes": "پیش از اشتراک‌گذاری نام و محتوای فایل را بررسی کنید. بازکردن پیوست، قرارداد اصلی را تغییر نمی‌دهد."
         },
         "ps": {
           "purpose": "د شرکت له قرارداد یا ریکارډ سره نښلول شوې فایل پرانیزي.",
           "when": "کله چې د شرکت له قرارداد یا ریکارډ سره نښلول شوی سند کتلو ته اړتیا لرئ، دا وکاروئ.",
-          "how": "د وسیلې او براوزر له مخې د اړوند فایل د پرانیستلو یا ښکته کولو لپاره د ضمیمې نوم وټاکئ.",
-          "inputs": "د قرارداد یا شرکت په ریکارډ کې د شرکت سمه ضمیمه وټاکئ.",
-          "result": "اړوند فایل پرانیستل کېږي یا د وسیلې او براوزر د ملاتړ له مخې ښکته کول یې پیلېږي.",
+          "how": "د اړوند شرکت یا کار په ریکارډ کې د ضمیمې نوم وټاکئ. براوزر ته اجازه ورکړئ نوې ټب پرانیزي او PDF یا انځور وګورئ.",
+          "inputs": "هغه ریکارډ وټاکئ چې ضمیمه پکې خوندي شوې ده. د فایل معلومات باید لا هم موجود وي؛ دا کړنه نوې فایل نه پورته کوي.",
+          "result": "PDF په نوې ټب کې په دننه لیدونکي کې پرانیستل کېږي، یا انځور په هماغه ټب کې ښکاري. که د ضمیمې معلومات موجود نه وي یا پاپ‌اپونه بند وي، اپلیکیشن ستونزه راپوروي.",
           "notes": "له شریکولو مخکې د فایل نوم او منځپانګه وګورئ. د ضمیمې پرانیستل اصلي قرارداد نه بدلوي."
         }
       },
@@ -10982,7 +10982,7 @@
           "when": "وقتی می‌خواهید نام، مرجع، اطلاعات تماس یا جزئیات قرارداد یک شرکت ثبت‌شده را اصلاح کنید، از این گزینه استفاده کنید.",
           "how": "در کنار شرکت موردنظر Edit را انتخاب کنید. اطلاعات آن را بررسی و به‌روزرسانی کنید و سپس برای ثبت تغییرات Save Company را انتخاب کنید.",
           "inputs": "رکورد شرکت درست را انتخاب کنید و نام الزامی شرکت یا فیلدهای اختیاری مرجع، شخص تماس، تلفن، ایمیل، نشانی، تاریخ‌ها، شرایط یا پیوست قرارداد را در صورت نیاز تغییر دهید.",
-          "result": "مقادیر فعلی شرکت انتخاب‌شده در فرم شرکت بارگذاری می‌شوند. تغییرات تا زمانی که Save Company با موفقیت انجام نشود، ذخیره نخواهند شد.",
+          "result": "مقادیر فعلی شرکت انتخاب‌شده در فرم شرکت بارگذاری می‌شوند. تغییرات تا زمانی که Save Company با موفقیت انجام نشود، ذخیره نمی‌شوند.",
           "notes": "پیش از تغییر اطلاعات حقوقی یا تماس، هویت شرکت را تأیید کنید."
         },
         "ar": {
@@ -10990,7 +10990,7 @@
           "when": "عندما تحتاج إلى تحديث بيانات الشركة أو معلوماتها القانونية أو معلومات الاتصال.",
           "how": "اختر Edit للشركة المقصودة، وراجع بياناتها وعدّل المطلوب، ثم احفظ التغييرات.",
           "inputs": "حدد سجل الشركة الصحيح وراجع البيانات القانونية وبيانات الاتصال التي تريد تعديلها.",
-          "result": "يُحدّث سجل الشركة إذا نجح التحقق والحفظ.",
+          "result": "تُحمّل القيم الحالية للشركة المحددة في نموذج الشركة. ولا تُحفظ التغييرات حتى ينجح Save Company.",
           "notes": "تحقق من هوية الشركة قبل تغيير بياناتها القانونية أو معلومات الاتصال."
         },
         "ckb": {
@@ -10998,7 +10998,7 @@
           "when": "کاتێک پێویستە زانیاری کۆمپانیا، زانیاری یاسایی یان پەیوەندی نوێ بکەیتەوە.",
           "how": "بۆ کۆمپانیای مەبەست Edit هەڵبژێرە، زانیارییەکانی بپشکنە و گۆڕانکارییە پێویستەکان پاشەکەوت بکە.",
           "inputs": "تۆماری کۆمپانیای دروست هەڵبژێرە و زانیاری یاسایی یان پەیوەندییەکانی کە دەتەوێت بگۆڕیت بپشکنە.",
-          "result": "ئەگەر پشتڕاستکردنەوە و پاشەکەوتکردن سەرکەوتوو بن، تۆماری کۆمپانیا نوێ دەکرێتەوە.",
+          "result": "بەها ئێستاکانی کۆمپانیای هەڵبژێردراو لە فۆڕمی کۆمپانیا بار دەکرێن. گۆڕانکارییەکان تا سەرکەوتنی Save Company پاشەکەوت ناکرێن.",
           "notes": "پێش گۆڕینی زانیاری یاسایی یان پەیوەندی، ناسنامەی کۆمپانیا پشتڕاست بکەرەوە."
         },
         "kmr": {
@@ -11006,7 +11006,7 @@
           "when": "Dema ku tu hewceyî nûkirina agahiyên pargîdanî, qanûnî an têkiliyê yî.",
           "how": "Ji bo pargîdaniya armancê Edit hilbijêre, agahiyên wê kontrol bike û guherînên pêwîst tomar bike.",
           "inputs": "Tomara pargîdaniya rast hilbijêre û agahiyên qanûnî an têkiliyê yên ku dixwazî biguherînî kontrol bike.",
-          "result": "Ger kontrol û tomarkirin serkeftî bin, tomara pargîdanî tê nûkirin.",
+          "result": "Nirxên heyî yên pargîdaniya hilbijartî di forma pargîdanî de tên barkirin. Guherîn heta serkeftina Save Company nayên tomarkirin.",
           "notes": "Berî guherandina agahiyên qanûnî an têkiliyê nasnameya pargîdanî piştrast bike."
         },
         "tr": {
@@ -11014,7 +11014,7 @@
           "when": "Şirket bilgilerini, yasal ayrıntıları veya iletişim bilgilerini güncellemeniz gerektiğinde kullanın.",
           "how": "İlgili şirket için Edit'i seçin, bilgilerini inceleyip gerekli değişiklikleri yapın ve kaydedin.",
           "inputs": "Doğru şirket kaydını seçin ve değiştirmek istediğiniz yasal veya iletişim bilgilerini inceleyin.",
-          "result": "Doğrulama ve kayıt başarılı olursa şirket kaydı güncellenir.",
+          "result": "Seçilen şirketin mevcut değerleri şirket formuna yüklenir. Save Company başarılı olana kadar değişiklikler kaydedilmez.",
           "notes": "Yasal veya iletişim bilgilerini değiştirmeden önce şirket kimliğini doğrulayın."
         },
         "pl": {
@@ -11022,7 +11022,7 @@
           "when": "Użyj, gdy trzeba zaktualizować dane firmy, informacje prawne lub kontaktowe.",
           "how": "Wybierz Edit przy właściwej firmie, sprawdź jej dane, wprowadź potrzebne zmiany i zapisz.",
           "inputs": "Wybierz właściwy rekord firmy i sprawdź dane prawne lub kontaktowe, które chcesz zmienić.",
-          "result": "Rekord firmy zostanie zaktualizowany, jeśli walidacja i zapis się powiedzie.",
+          "result": "Bieżące dane wybranej firmy są wczytywane do formularza. Zmiany nie zostaną zapisane, dopóki Save Company nie zakończy się powodzeniem.",
           "notes": "Przed zmianą danych prawnych lub kontaktowych potwierdź tożsamość firmy."
         },
         "ur": {
@@ -11030,7 +11030,7 @@
           "when": "جب کمپنی کی معلومات، قانونی تفصیلات یا رابطے کی معلومات اپ ڈیٹ کرنی ہوں تو استعمال کریں۔",
           "how": "متعلقہ کمپنی کے لیے Edit منتخب کریں، اس کی تفصیلات دیکھیں، مطلوبہ تبدیلیاں کریں اور محفوظ کریں۔",
           "inputs": "درست کمپنی ریکارڈ منتخب کریں اور وہ قانونی یا رابطے کی معلومات دیکھیں جنہیں تبدیل کرنا ہے۔",
-          "result": "توثیق اور محفوظ کرنے کا عمل کامیاب ہو تو کمپنی کا ریکارڈ اپ ڈیٹ ہو جاتا ہے۔",
+          "result": "منتخب کمپنی کی موجودہ معلومات کمپنی فارم میں لوڈ ہوتی ہیں۔ جب تک Save Company کامیاب نہ ہو، تبدیلیاں محفوظ نہیں ہوتیں۔",
           "notes": "قانونی یا رابطے کی معلومات تبدیل کرنے سے پہلے کمپنی کی شناخت کی تصدیق کریں۔"
         },
         "pa": {
@@ -11038,7 +11038,7 @@
           "when": "ਜਦੋਂ ਕੰਪਨੀ ਦੀ ਜਾਣਕਾਰੀ, ਕਾਨੂੰਨੀ ਵੇਰਵੇ ਜਾਂ ਸੰਪਰਕ ਜਾਣਕਾਰੀ ਅਪਡੇਟ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
           "how": "ਸੰਬੰਧਿਤ ਕੰਪਨੀ ਲਈ Edit ਚੁਣੋ, ਵੇਰਵੇ ਵੇਖੋ, ਲੋੜੀਂਦੀਆਂ ਤਬਦੀਲੀਆਂ ਕਰੋ ਅਤੇ ਸੇਵ ਕਰੋ।",
           "inputs": "ਸਹੀ ਕੰਪਨੀ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਉਹ ਕਾਨੂੰਨੀ ਜਾਂ ਸੰਪਰਕ ਜਾਣਕਾਰੀ ਵੇਖੋ ਜਿਸਨੂੰ ਬਦਲਣਾ ਹੈ।",
-          "result": "ਜਾਂਚ ਅਤੇ ਸੇਵ ਕਰਨਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਕੰਪਨੀ ਰਿਕਾਰਡ ਅਪਡੇਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "result": "ਚੁਣੀ ਕੰਪਨੀ ਦੇ ਮੌਜੂਦਾ ਮੁੱਲ ਕੰਪਨੀ ਫਾਰਮ ਵਿੱਚ ਲੋਡ ਹੁੰਦੇ ਹਨ। ਜਦ ਤੱਕ Save Company ਸਫਲ ਨਹੀਂ ਹੁੰਦਾ, ਤਬਦੀਲੀਆਂ ਸੇਵ ਨਹੀਂ ਹੁੰਦੀਆਂ।",
           "notes": "ਕਾਨੂੰਨੀ ਜਾਂ ਸੰਪਰਕ ਜਾਣਕਾਰੀ ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ ਕੰਪਨੀ ਦੀ ਪਛਾਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।"
         },
         "prs": {
@@ -11046,7 +11046,7 @@
           "when": "وقتی لازم است اطلاعات شرکت، جزئیات حقوقی یا اطلاعات تماس آن را به‌روزرسانی کنید، استفاده کنید.",
           "how": "برای شرکت موردنظر Edit را انتخاب کنید، اطلاعات آن را بررسی و تغییرات لازم را ذخیره کنید.",
           "inputs": "سابقه درست شرکت را انتخاب کنید و اطلاعات حقوقی یا تماسی را که می‌خواهید تغییر دهید بررسی کنید.",
-          "result": "اگر اعتبارسنجی و ذخیره موفق باشد، سابقه شرکت به‌روزرسانی می‌شود.",
+          "result": "مقادیر فعلی شرکت انتخاب‌شده در فرم شرکت بارگذاری می‌شوند. تغییرات تا زمانی که Save Company با موفقیت انجام نشود، ذخیره نمی‌شوند.",
           "notes": "پیش از تغییر اطلاعات حقوقی یا تماس، هویت شرکت را تأیید کنید."
         },
         "ps": {
@@ -11054,7 +11054,7 @@
           "when": "کله چې د شرکت معلومات، قانوني جزئیات یا د اړیکې معلومات تازه کول غواړئ، دا وکاروئ.",
           "how": "د اړوند شرکت لپاره Edit وټاکئ، معلومات یې وګورئ، اړین بدلونونه وکړئ او خوندي یې کړئ.",
           "inputs": "د شرکت سم ریکارډ وټاکئ او هغه قانوني یا د اړیکې معلومات وګورئ چې بدلول یې غواړئ.",
-          "result": "که ارزونه او خوندي کول بریالي شي، د شرکت ریکارډ تازه کېږي.",
+          "result": "د ټاکل شوې شرکت اوسني ارزښتونه د شرکت فورمې ته پورته کېږي. بدلونونه تر هغه نه خوندي کېږي چې Save Company بریالی نه شي.",
           "notes": "د قانوني یا د اړیکې معلوماتو له بدلولو مخکې د شرکت هویت تایید کړئ."
         }
       },
@@ -11080,7 +11080,7 @@
           "when": "وقتی لازم است فهرست کارهای مرتبط با یک شرکت را مشاهده کنید، از این گزینه استفاده کنید.",
           "how": "Open Jobs را انتخاب کنید تا کارهای پیوندخورده با آن شرکت را ببینید.",
           "inputs": "شرکت درست را که می‌خواهید فهرست کارهای آن را مشاهده کنید انتخاب کنید.",
-          "result": "بخش کارهای شرکت انتخاب‌شده باز می‌شود و کارهای ذخیره‌شده آن را نمایش می‌دهد. بازکردن این فهرست، کاری ایجاد یا ویرایش نمی‌کند.",
+          "result": "بخش کارهای شرکت انتخاب‌شده باز می‌شود و کارهای ذخیره‌شده آن را نمایش می‌دهد. بازکردن فهرست، کاری ایجاد یا تغییر نمی‌دهد.",
           "notes": "این گزینه فقط فهرست کارهای شرکت را باز می‌کند و کار جدیدی ایجاد یا ویرایش نمی‌کند."
         },
         "ar": {
@@ -11088,7 +11088,7 @@
           "when": "عندما تريد عرض الوظائف المسجلة تحت شركة محددة.",
           "how": "اختر Open Jobs بجانب الشركة المطلوبة لعرض قائمة وظائفها.",
           "inputs": "حدد الشركة الصحيحة التي تريد عرض وظائفها.",
-          "result": "تظهر قائمة الوظائف المرتبطة بالشركة المحددة.",
+          "result": "تُفتح منطقة وظائف الشركة المحددة وتعرض الوظائف المحفوظة. فتح القائمة لا ينشئ وظيفة ولا يغيّرها.",
           "notes": "ينقلك هذا الإجراء إلى قائمة وظائف الشركة؛ ولا ينشئ وظيفة أو يعدلها."
         },
         "ckb": {
@@ -11096,7 +11096,7 @@
           "when": "کاتێک دەتەوێت کارە تۆمارکراوەکانی ژێر کۆمپانیایەکی دیاریکراو ببینیت.",
           "how": "لە تەنیشت کۆمپانیای داواکراو Open Jobs هەڵبژێرە بۆ پیشاندانی پێڕستی کارەکانی.",
           "inputs": "کۆمپانیای دروست هەڵبژێرە کە دەتەوێت کارەکانی ببینیت.",
-          "result": "پێڕستی کارە پەیوەستەکانی کۆمپانیای هەڵبژێردراو پیشان دەدرێت.",
+          "result": "بەشی کارەکانی کۆمپانیای هەڵبژێردراو دەکرێتەوە و کارە پاشەکەوتکراوەکانی پیشان دەدات. کردنەوەی پێڕستەکە کارێک دروست ناکات یان ناگۆڕێت.",
           "notes": "ئەم کردارە دەچێتە پێڕستی کارەکانی کۆمپانیا؛ کارێک دروست ناکات و دەستکاریشی ناکات."
         },
         "kmr": {
@@ -11104,7 +11104,7 @@
           "when": "Dema ku tu dixwazî karên tomarkirî yên di bin pargîdaniyekê de bibînî.",
           "how": "Li kêleka pargîdaniya xwestî Open Jobs hilbijêre da ku lîsteya karan bibînî.",
           "inputs": "Pargîdaniya rast hilbijêre ku dixwazî karên wê bibînî.",
-          "result": "Lîsteya karên girêdayî bi pargîdaniya hilbijartî xuya dibe.",
+          "result": "Qada karên pargîdaniya hilbijartî vedibe û karên tomarkirî nîşan dide. Vekirina lîsteyê kar çênake û naguherîne.",
           "notes": "Ev te digihîne lîsteya karên pargîdanî; karekê çênake û naguherîne."
         },
         "tr": {
@@ -11112,7 +11112,7 @@
           "when": "Belirli bir şirket altında kayıtlı işleri görüntülemek istediğinizde kullanın.",
           "how": "Şirketin iş listesini görüntülemek için ilgili şirketin yanındaki Open Jobs'u seçin.",
           "inputs": "İşlerini görüntülemek istediğiniz doğru şirketi seçin.",
-          "result": "Seçilen şirketle ilişkili işler listelenir.",
+          "result": "Seçilen şirketin işler alanı açılır ve kayıtlı işleri gösterilir. Listeyi açmak yeni bir iş oluşturmaz veya mevcut işi değiştirmez.",
           "notes": "Bu işlem şirketin iş listesine gider; yeni bir iş oluşturmaz veya mevcut işi değiştirmez."
         },
         "pl": {
@@ -11120,7 +11120,7 @@
           "when": "Użyj, gdy chcesz wyświetlić zlecenia zapisane w ramach konkretnej firmy.",
           "how": "Wybierz Open Jobs obok właściwej firmy, aby wyświetlić listę jej zleceń.",
           "inputs": "Wybierz właściwą firmę, której zlecenia chcesz zobaczyć.",
-          "result": "Wyświetlana jest lista zleceń powiązanych z wybraną firmą.",
+          "result": "Otwiera się obszar zleceń wybranej firmy i wyświetla zapisane zlecenia. Otwarcie listy nie tworzy ani nie zmienia zlecenia.",
           "notes": "Ta czynność przechodzi do listy zleceń firmy; nie tworzy ani nie zmienia zlecenia."
         },
         "ur": {
@@ -11128,7 +11128,7 @@
           "when": "جب کسی مخصوص کمپنی کے تحت محفوظ کام دیکھنے ہوں تو استعمال کریں۔",
           "how": "کمپنی کے کاموں کی فہرست دیکھنے کے لیے متعلقہ کمپنی کے ساتھ Open Jobs منتخب کریں۔",
           "inputs": "وہ درست کمپنی منتخب کریں جس کے کام دیکھنے ہیں۔",
-          "result": "منتخب کمپنی سے منسلک کاموں کی فہرست دکھائی دیتی ہے۔",
+          "result": "منتخب کمپنی کے کاموں کا حصہ کھلتا ہے اور اس کے محفوظ کام دکھاتا ہے۔ فہرست کھولنے سے کوئی کام تخلیق یا تبدیل نہیں ہوتا۔",
           "notes": "یہ کمپنی کے کاموں کی فہرست پر لے جاتا ہے؛ نیا کام نہیں بناتا اور موجودہ کام میں تبدیلی نہیں کرتا۔"
         },
         "pa": {
@@ -11136,7 +11136,7 @@
           "when": "ਜਦੋਂ ਕਿਸੇ ਖਾਸ ਕੰਪਨੀ ਹੇਠ ਸੇਵ ਕੀਤੇ ਕੰਮ ਵੇਖਣੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
           "how": "ਕੰਪਨੀ ਦੇ ਕੰਮਾਂ ਦੀ ਸੂਚੀ ਵੇਖਣ ਲਈ ਸੰਬੰਧਿਤ ਕੰਪਨੀ ਦੇ ਨਾਲ Open Jobs ਚੁਣੋ।",
           "inputs": "ਉਹ ਸਹੀ ਕੰਪਨੀ ਚੁਣੋ ਜਿਸਦੇ ਕੰਮ ਵੇਖਣੇ ਹਨ।",
-          "result": "ਚੁਣੀ ਕੰਪਨੀ ਨਾਲ ਜੁੜੇ ਕੰਮਾਂ ਦੀ ਸੂਚੀ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ।",
+          "result": "ਚੁਣੀ ਕੰਪਨੀ ਦਾ ਕੰਮਾਂ ਵਾਲਾ ਭਾਗ ਖੁੱਲ੍ਹਦਾ ਹੈ ਅਤੇ ਇਸ ਦੇ ਸੇਵ ਕੀਤੇ ਕੰਮ ਦਿਖਾਉਂਦਾ ਹੈ। ਸੂਚੀ ਖੋਲ੍ਹਣ ਨਾਲ ਕੋਈ ਕੰਮ ਬਣਦਾ ਜਾਂ ਬਦਲਦਾ ਨਹੀਂ।",
           "notes": "ਇਹ ਕੰਪਨੀ ਦੀ ਕੰਮ ਸੂਚੀ 'ਤੇ ਲੈ ਜਾਂਦਾ ਹੈ; ਨਵਾਂ ਕੰਮ ਨਹੀਂ ਬਣਾਉਂਦਾ ਅਤੇ ਮੌਜੂਦਾ ਕੰਮ ਨਹੀਂ ਬਦਲਦਾ।"
         },
         "prs": {
@@ -11144,7 +11144,7 @@
           "when": "وقتی می‌خواهید کارهای ثبت‌شده زیر یک شرکت مشخص را ببینید، استفاده کنید.",
           "how": "برای نمایش فهرست کارهای شرکت، در کنار شرکت موردنظر Open Jobs را انتخاب کنید.",
           "inputs": "شرکت درست را که می‌خواهید کارهای آن را ببینید انتخاب کنید.",
-          "result": "فهرست کارهای مرتبط با شرکت انتخاب‌شده نمایش داده می‌شود.",
+          "result": "بخش کارهای شرکت انتخاب‌شده باز می‌شود و کارهای ذخیره‌شده آن را نمایش می‌دهد. بازکردن فهرست، کاری ایجاد یا تغییر نمی‌دهد.",
           "notes": "این گزینه به فهرست کارهای شرکت می‌رود؛ کار جدیدی ایجاد یا ویرایش نمی‌کند."
         },
         "ps": {
@@ -11152,7 +11152,7 @@
           "when": "کله چې د یوه ځانګړي شرکت لاندې ثبت شوي کارونه لیدل غواړئ، دا وکاروئ.",
           "how": "د شرکت د کارونو د لېست لپاره د اړوند شرکت تر څنګ Open Jobs وټاکئ.",
           "inputs": "سم شرکت وټاکئ چې کارونه یې لیدل غواړئ.",
-          "result": "د ټاکل شوي شرکت اړوند کارونه په لېست کې ښکاره کېږي.",
+          "result": "د ټاکل شوې شرکت د کارونو برخه پرانیستل کېږي او خوندي شوي کارونه ښيي. د لېست پرانیستل نوی کار نه جوړوي او نه یې بدلوي.",
           "notes": "دا د شرکت د کارونو لېست ته ځي؛ نوی کار نه جوړوي او موجود کار نه بدلوي."
         }
       },
@@ -11174,84 +11174,84 @@
           "notes": "A company with saved jobs or financial history cannot be deactivated by this control. Deactivation preserves the company record; it does not delete historical data."
         },
         "fa": {
-          "purpose": "شرکت را غیرفعال علامت‌گذاری می‌کند و رکورد آن را حفظ می‌کند.",
+          "purpose": "شرکت را غیرفعال می‌کند و رکورد آن را حفظ می‌کند.",
           "when": "فقط زمانی استفاده کنید که شرکت هیچ کار ذخیره‌شده‌ای ندارد و دیگر نباید برای انتخاب فعال در دسترس باشد.",
-          "how": "در کنار شرکت موردنظر Deactivate را انتخاب و پیام تأیید را بررسی کنید. اگر شرکت دارای کار باشد، برنامه مانع غیرفعال‌سازی می‌شود.",
-          "inputs": "شرکت درست را انتخاب کنید. شرکت نباید هیچ کار مرتبطی داشته باشد و باید پیام تأیید غیرفعال‌سازی را بپذیرید.",
-          "result": "اگر شرکت هیچ کاری نداشته باشد و ذخیره موفق شود، پرچم فعال‌بودن آن روی false تنظیم می‌شود؛ رکورد شرکت حفظ خواهد شد.",
-          "notes": "این کنترل اجازه غیرفعال‌کردن شرکتی را که کارهای ذخیره‌شده دارد نمی‌دهد. غیرفعال‌سازی رکورد شرکت را حفظ می‌کند و داده‌های تاریخی را حذف نمی‌کند."
+          "how": "در کنار شرکت موردنظر Deactivate را انتخاب و پیام تأیید را بررسی کنید. اگر شرکت کاری داشته باشد، برنامه مانع غیرفعال‌سازی می‌شود.",
+          "inputs": "شرکت درست را انتخاب کنید. نباید هیچ کار مرتبطی داشته باشد و باید پیام تأیید غیرفعال‌سازی را بپذیرید.",
+          "result": "اگر شرکت هیچ کاری نداشته باشد و ذخیره موفق شود، پرچم فعال‌بودن آن false می‌شود؛ رکورد شرکت حفظ می‌شود.",
+          "notes": "شرکتی که کار ذخیره‌شده یا سابقه مالی دارد با این کنترل غیرفعال نمی‌شود. غیرفعال‌سازی رکورد شرکت را حفظ می‌کند و داده‌های تاریخی را حذف نمی‌کند."
         },
         "ar": {
-          "purpose": "يعطّل شركة في مساحة العمل.",
-          "when": "عندما لم تعد تريد استخدام الشركة في الاختيارات الجديدة مع الاحتفاظ بسجلاتها التاريخية.",
-          "how": "اختر Deactivate للشركة المقصودة وراجع رسالة التأكيد قبل المتابعة.",
-          "inputs": "حدد سجل الشركة الصحيح وتحقق من هويتها قبل تأكيد التعطيل.",
-          "result": "تُعطّل الشركة إذا قبل التطبيق العملية وأكدها.",
-          "notes": "التعطيل لا يعني حذف سجلات الوظائف أو الدفعات السابقة. تحقق من أثره على الاختيارات المستقبلية والعمل القائم."
+          "purpose": "يعطّل الشركة مع الاحتفاظ بسجلها.",
+          "when": "استخدمه فقط إذا لم تكن للشركة وظائف محفوظة ولا ينبغي أن تبقى متاحة للاختيار النشط.",
+          "how": "اختر Deactivate بجانب الشركة المقصودة وراجع رسالة التأكيد. إذا كانت للشركة وظائف، يمنع التطبيق إلغاء تنشيطها.",
+          "inputs": "حدد الشركة الصحيحة. يجب ألا تكون لها وظائف مرتبطة، ويجب الموافقة على تأكيد إلغاء التنشيط.",
+          "result": "إذا لم تكن للشركة وظائف ونجح الحفظ، تصبح علامة نشاطها false؛ ويظل سجل الشركة محفوظًا.",
+          "notes": "لا يمكن تعطيل شركة لديها وظائف محفوظة أو سجل مالي باستخدام هذا الزر. التعطيل يحافظ على سجل الشركة ولا يحذف البيانات التاريخية."
         },
         "ckb": {
-          "purpose": "کۆمپانیایەک لە فضای کاردا ناچالاک دەکات.",
-          "when": "کاتێک چیتر ناتەوێت کۆمپانیاکە لە هەڵبژاردە نوێکاندا بەکاربهێنیت، بەڵام دەتەوێت تۆمارە مێژووییەکانی بمێننەوە.",
-          "how": "بۆ کۆمپانیای مەبەست Deactivate هەڵبژێرە و پێش بەردەوامبوون نامەی پشتڕاستکردنەوە بپشکنە.",
-          "inputs": "تۆماری کۆمپانیای دروست هەڵبژێرە و پێش پشتڕاستکردنەوەی ناچالاککردن ناسنامەکەی بپشکنە.",
-          "result": "ئەگەر ئەپەکە کردارەکە قبووڵ و پشتڕاست بکاتەوە، کۆمپانیاکە ناچالاک دەکرێت.",
-          "notes": "ناچالاککردن بە مانای سڕینەوەی تۆمارە کۆنەکانی کار یان پارەدان نییە. کاریگەرییەکەی لەسەر هەڵبژاردەکانی داهاتوو و کاری ئێستا بپشکنە."
+          "purpose": "کۆمپانیا ناچالاک دەکات و تۆمارەکەی دەپارێزێت.",
+          "when": "تەنها کاتێک بەکاریبهێنە کە کۆمپانیا هیچ کاری پاشەکەوتکراوی نییە و نابێت چیتر بۆ هەڵبژاردنی چالاک بەردەست بێت.",
+          "how": "لە تەنیشت کۆمپانیای مەبەست Deactivate هەڵبژێرە و پەیامی پشتڕاستکردنەوە بپشکنە. ئەگەر کۆمپانیا کارێکی هەبێت، ئەپەکە ڕێگری لە ناچالاککردن دەکات.",
+          "inputs": "کۆمپانیای دروست هەڵبژێرە. نابێت هیچ کارێکی پەیوەست هەبێت و دەبێت پشتڕاستکردنەوەی ناچالاککردن قبووڵ بکەیت.",
+          "result": "ئەگەر کۆمپانیا هیچ کاری نەبێت و پاشەکەوتکردن سەرکەوتوو بێت، نیشانەی چالاکییەکەی دەبێتە false؛ تۆماری کۆمپانیا دەمێنێتەوە.",
+          "notes": "کۆمپانیایەک کە کاری پاشەکەوتکراو یان مێژووی دارایی هەبێت بەو کۆنترۆڵە ناچالاک ناکرێت. ناچالاککردن تۆماری کۆمپانیا دەپارێزێت و داتای مێژوویی ناسڕێتەوە."
         },
         "kmr": {
-          "purpose": "Pargîdaniyekê di qada xebatê de neçalak dike.",
-          "when": "Dema ku êdî naxwazî pargîdanî di hilbijartinên nû de bikar bînî, lê dixwazî tomarên wê yên dîrokî bimînin.",
-          "how": "Ji bo pargîdaniya armancê Deactivate hilbijêre û berî domandinê peyama piştrastkirinê kontrol bike.",
-          "inputs": "Tomara pargîdaniya rast hilbijêre û berî piştrastkirina neçalakirinê nasnameya wê kontrol bike.",
-          "result": "Ger sepan kiryarê qebûl û piştrast bike, pargîdanî neçalak dibe.",
-          "notes": "Neçalakirin ne wekî jêbirina tomarên kar an dravdanên kevn e. Bandora wê li ser hilbijartinên paşerojê û karên heyî kontrol bike."
+          "purpose": "Pargîdanî neçalak dike lê tomara wê diparêze.",
+          "when": "Tenê dema ku pargîdanî tu karekî tomarkirî tune be û divê êdî ji bo hilbijartina çalak berdest nebe bikar bîne.",
+          "how": "Li kêleka pargîdaniya armancê Deactivate hilbijêre û peyama piştrastkirinê kontrol bike. Heke pargîdanî kar hebe, sepan nahêle were neçalak kirin.",
+          "inputs": "Pargîdaniya rast hilbijêre. Divê tu karê girêdayî wê tune be û divê piştrastkirina neçalakirinê pejirandî be.",
+          "result": "Heke pargîdanî kar tune be û tomarkirin serkeftî be, nîşana çalakiya wê dibe false; tomara pargîdanî dimîne.",
+          "notes": "Ev kontrol nikare pargîdaniyeke xwedî karên tomarkirî an dîroka darayî neçalak bike. Neçalakirin tomara pargîdanî diparêze û daneyên dîrokî najê dike."
         },
         "tr": {
-          "purpose": "Çalışma alanındaki bir şirketi devre dışı bırakır.",
-          "when": "Şirketi yeni seçimlerde kullanmak istemediğiniz ancak geçmiş kayıtlarını korumak istediğinizde kullanın.",
-          "how": "İlgili şirket için Deactivate'i seçin ve devam etmeden önce onay mesajını inceleyin.",
-          "inputs": "Doğru şirket kaydını seçin ve devre dışı bırakmayı onaylamadan önce kimliğini doğrulayın.",
-          "result": "Uygulama işlemi kabul edip onaylarsa şirket devre dışı bırakılır.",
-          "notes": "Devre dışı bırakma, geçmiş iş veya ödeme kayıtlarını silmekle aynı değildir. Gelecekteki seçimlere ve mevcut işlere etkisini kontrol edin."
+          "purpose": "Şirketi devre dışı bırakır ancak şirket kaydını korur.",
+          "when": "Yalnızca şirketin kayıtlı işi yoksa ve etkin seçimlerde artık görünmemesi gerekiyorsa kullanın.",
+          "how": "İstenen şirketin yanındaki Deactivate seçeneğini belirleyin ve onay istemini inceleyin. Şirketin işleri varsa uygulama devre dışı bırakmayı engeller.",
+          "inputs": "Doğru şirketi seçin. İlişkili işi olmamalı ve devre dışı bırakma onayı verilmelidir.",
+          "result": "Şirketin işi yoksa ve kayıt başarılı olursa etkin bayrağı false olarak ayarlanır; şirket kaydı korunur.",
+          "notes": "Bu kontrol, kayıtlı işleri veya mali geçmişi olan bir şirketi devre dışı bırakamaz. Devre dışı bırakma şirket kaydını korur ve geçmiş verileri silmez."
         },
         "pl": {
-          "purpose": "Dezaktywuje firmę w obszarze roboczym.",
-          "when": "Użyj, gdy nie chcesz już wybierać firmy w nowych operacjach, ale chcesz zachować jej historyczne rekordy.",
-          "how": "Wybierz Deactivate przy właściwej firmie i przed kontynuowaniem sprawdź komunikat potwierdzający.",
-          "inputs": "Wybierz właściwy rekord firmy i przed potwierdzeniem dezaktywacji sprawdź jej tożsamość.",
-          "result": "Firma zostanie dezaktywowana, jeśli aplikacja zaakceptuje i potwierdzi operację.",
-          "notes": "Dezaktywacja nie oznacza usunięcia historycznych zleceń ani płatności. Sprawdź wpływ na przyszłe wybory i istniejące prace."
+          "purpose": "Dezaktywuje firmę, zachowując jej rekord.",
+          "when": "Użyj tylko wtedy, gdy firma nie ma zapisanych zleceń i nie powinna być dostępna do aktywnego wyboru.",
+          "how": "Wybierz Deactivate przy właściwej firmie i sprawdź komunikat potwierdzenia. Jeśli firma ma zlecenia, aplikacja zablokuje dezaktywację.",
+          "inputs": "Wybierz właściwą firmę. Nie może mieć powiązanych zleceń, a potwierdzenie dezaktywacji musi zostać zaakceptowane.",
+          "result": "Jeśli firma nie ma zleceń i zapis się powiedzie, jej flaga aktywności zostaje ustawiona na false; rekord firmy pozostaje zachowany.",
+          "notes": "Ta funkcja nie dezaktywuje firmy z zapisanymi zleceniami lub historią finansową. Dezaktywacja zachowuje rekord firmy i nie usuwa danych historycznych."
         },
         "ur": {
-          "purpose": "ورک اسپیس میں کسی کمپنی کو غیر فعال کرتا ہے۔",
-          "when": "جب کمپنی کو نئے انتخاب میں استعمال نہیں کرنا چاہتے لیکن اس کے تاریخی ریکارڈ محفوظ رکھنا چاہتے ہوں تو استعمال کریں۔",
-          "how": "متعلقہ کمپنی کے لیے Deactivate منتخب کریں اور آگے بڑھنے سے پہلے تصدیقی پیغام دیکھیں۔",
-          "inputs": "درست کمپنی ریکارڈ منتخب کریں اور غیر فعال کرنے کی تصدیق سے پہلے اس کی شناخت چیک کریں۔",
-          "result": "ایپ کارروائی قبول اور تصدیق کرے تو کمپنی غیر فعال ہو جاتی ہے۔",
-          "notes": "غیر فعال کرنا تاریخی کام یا ادائیگی کے ریکارڈ حذف کرنے جیسا نہیں ہے۔ مستقبل کے انتخاب اور موجودہ کام پر اس کا اثر دیکھیں۔"
+          "purpose": "کمپنی کو غیر فعال کرتا ہے لیکن اس کا ریکارڈ محفوظ رکھتا ہے۔",
+          "when": "صرف اسی وقت استعمال کریں جب کمپنی کا کوئی محفوظ کام نہ ہو اور اسے فعال انتخاب کے لیے دستیاب نہیں رہنا چاہیے۔",
+          "how": "متعلقہ کمپنی کے ساتھ Deactivate منتخب کریں اور تصدیقی پیغام دیکھیں۔ اگر کمپنی کے کام موجود ہوں تو ایپ اسے غیر فعال کرنے سے روکتی ہے۔",
+          "inputs": "درست کمپنی منتخب کریں۔ اس سے کوئی کام منسلک نہیں ہونا چاہیے اور غیر فعال کرنے کی تصدیق قبول کرنا ضروری ہے۔",
+          "result": "اگر کمپنی کا کوئی کام نہ ہو اور محفوظ کاری کامیاب ہو تو اس کا فعال پرچم false ہو جاتا ہے؛ کمپنی کا ریکارڈ محفوظ رہتا ہے۔",
+          "notes": "یہ کنٹرول ایسی کمپنی کو غیر فعال نہیں کر سکتا جس کے محفوظ کام یا مالی تاریخ ہو۔ غیر فعال کرنے سے کمپنی کا ریکارڈ برقرار رہتا ہے اور تاریخی ڈیٹا حذف نہیں ہوتا۔"
         },
         "pa": {
-          "purpose": "ਵਰਕਸਪੇਸ ਵਿੱਚ ਕਿਸੇ ਕੰਪਨੀ ਨੂੰ ਅਕਿਰਿਆਸ਼ੀਲ ਕਰਦਾ ਹੈ।",
-          "when": "ਜਦੋਂ ਕੰਪਨੀ ਨੂੰ ਨਵੇਂ ਚੋਣਾਂ ਵਿੱਚ ਵਰਤਣਾ ਨਹੀਂ ਚਾਹੁੰਦੇ ਪਰ ਇਸਦੇ ਪੁਰਾਣੇ ਰਿਕਾਰਡ ਸੰਭਾਲਣੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਸੰਬੰਧਿਤ ਕੰਪਨੀ ਲਈ Deactivate ਚੁਣੋ ਅਤੇ ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਵੇਖੋ।",
-          "inputs": "ਸਹੀ ਕੰਪਨੀ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਅਕਿਰਿਆਸ਼ੀਲ ਕਰਨ ਦੀ ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਇਸਦੀ ਪਛਾਣ ਜਾਂਚੋ।",
-          "result": "ਐਪ ਕਾਰਵਾਈ ਸਵੀਕਾਰ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਕੰਪਨੀ ਅਕਿਰਿਆਸ਼ੀਲ ਹੋ ਜਾਂਦੀ ਹੈ।",
-          "notes": "ਅਕਿਰਿਆਸ਼ੀਲ ਕਰਨਾ ਪੁਰਾਣੇ ਕੰਮ ਜਾਂ ਭੁਗਤਾਨ ਰਿਕਾਰਡ ਮਿਟਾਉਣ ਵਰਗਾ ਨਹੀਂ ਹੈ। ਭਵਿੱਖ ਦੇ ਚੋਣਾਂ ਅਤੇ ਮੌਜੂਦਾ ਕੰਮ 'ਤੇ ਇਸਦਾ ਅਸਰ ਜਾਂਚੋ।"
+          "purpose": "ਕੰਪਨੀ ਨੂੰ ਅਕਿਰਿਆਸ਼ੀਲ ਕਰਦਾ ਹੈ ਪਰ ਇਸ ਦਾ ਰਿਕਾਰਡ ਸੰਭਾਲਦਾ ਹੈ۔",
+          "when": "ਸਿਰਫ਼ ਉਦੋਂ ਵਰਤੋ ਜਦੋਂ ਕੰਪਨੀ ਦਾ ਕੋਈ ਸੇਵ ਕੀਤਾ ਕੰਮ ਨਾ ਹੋਵੇ ਅਤੇ ਇਹ ਸਰਗਰਮ ਚੋਣ ਲਈ ਉਪਲਬਧ ਨਾ ਰਹੇ।",
+          "how": "ਸੰਬੰਧਿਤ ਕੰਪਨੀ ਦੇ ਨਾਲ Deactivate ਚੁਣੋ ਅਤੇ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਵੇਖੋ। ਜੇ ਕੰਪਨੀ ਦੇ ਕੰਮ ਹਨ ਤਾਂ ਐਪ ਇਸਨੂੰ ਅਕਿਰਿਆਸ਼ੀਲ ਕਰਨ ਤੋਂ ਰੋਕਦੀ ਹੈ।",
+          "inputs": "ਸਹੀ ਕੰਪਨੀ ਚੁਣੋ। ਇਸ ਨਾਲ ਕੋਈ ਕੰਮ ਜੁੜਿਆ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ ਅਤੇ ਅਕਿਰਿਆਸ਼ੀਲ ਕਰਨ ਦੀ ਪੁਸ਼ਟੀ ਸਵੀਕਾਰ ਕਰਨੀ ਲਾਜ਼ਮੀ ਹੈ।",
+          "result": "ਜੇ ਕੰਪਨੀ ਦਾ ਕੋਈ ਕੰਮ ਨਾ ਹੋਵੇ ਅਤੇ ਸੇਵ ਸਫਲ ਹੋਵੇ ਤਾਂ ਇਸ ਦਾ ਸਰਗਰਮ ਫਲੈਗ false ਹੋ ਜਾਂਦਾ ਹੈ; ਕੰਪਨੀ ਰਿਕਾਰਡ ਸੰਭਾਲਿਆ ਰਹਿੰਦਾ ਹੈ।",
+          "notes": "ਇਹ ਕੰਟਰੋਲ ਉਸ ਕੰਪਨੀ ਨੂੰ ਅਕਿਰਿਆਸ਼ੀਲ ਨਹੀਂ ਕਰ ਸਕਦਾ ਜਿਸ ਦੇ ਸੇਵ ਕੀਤੇ ਕੰਮ ਜਾਂ ਵਿੱਤੀ ਇਤਿਹਾਸ ਹੋਵੇ। ਅਕਿਰਿਆਸ਼ੀਲ ਕਰਨ ਨਾਲ ਕੰਪਨੀ ਰਿਕਾਰਡ ਰਹਿੰਦਾ ਹੈ ਅਤੇ ਪੁਰਾਣਾ ਡਾਟਾ ਨਹੀਂ ਮਿਟਦਾ।"
         },
         "prs": {
-          "purpose": "یک شرکت را در فضای کاری غیرفعال می‌کند.",
-          "when": "وقتی دیگر نمی‌خواهید شرکت در انتخاب‌های جدید استفاده شود اما می‌خواهید سوابق تاریخی آن باقی بماند، استفاده کنید.",
-          "how": "برای شرکت موردنظر Deactivate را انتخاب کنید و پیش از ادامه پیام تأیید را بررسی کنید.",
-          "inputs": "سابقه درست شرکت را انتخاب کنید و پیش از تأیید غیرفعال‌سازی، هویت آن را بررسی کنید.",
-          "result": "اگر برنامه عملیات را بپذیرد و تأیید کند، شرکت غیرفعال می‌شود.",
-          "notes": "غیرفعال‌سازی با حذف سوابق قبلی کارها یا پرداخت‌ها یکسان نیست. اثر آن بر انتخاب‌های آینده و کارهای موجود را بررسی کنید."
+          "purpose": "شرکت را غیرفعال می‌کند و رکورد آن را حفظ می‌کند.",
+          "when": "فقط زمانی استفاده کنید که شرکت هیچ کار ذخیره‌شده‌ای ندارد و دیگر نباید برای انتخاب فعال در دسترس باشد.",
+          "how": "در کنار شرکت موردنظر Deactivate را انتخاب و پیام تأیید را بررسی کنید. اگر شرکت کاری داشته باشد، برنامه مانع غیرفعال‌سازی می‌شود.",
+          "inputs": "شرکت درست را انتخاب کنید. نباید هیچ کار مرتبطی داشته باشد و باید پیام تأیید غیرفعال‌سازی را بپذیرید.",
+          "result": "اگر شرکت هیچ کاری نداشته باشد و ذخیره موفق شود، پرچم فعال‌بودن آن false می‌شود؛ رکورد شرکت حفظ می‌شود.",
+          "notes": "شرکتی که کار ذخیره‌شده یا سابقه مالی دارد با این کنترل غیرفعال نمی‌شود. غیرفعال‌سازی رکورد شرکت را حفظ می‌کند و داده‌های تاریخی را حذف نمی‌کند."
         },
         "ps": {
-          "purpose": "په کاري ځای کې یو شرکت غیرفعالوي.",
-          "when": "کله چې نور نه غواړئ شرکت په نویو انتخابونو کې وکاروئ، خو تاریخي ریکارډونه یې ساتل غواړئ، دا وکاروئ.",
-          "how": "د اړوند شرکت لپاره Deactivate وټاکئ او له دوام مخکې د تایید پیغام وګورئ.",
-          "inputs": "د شرکت سم ریکارډ وټاکئ او د غیرفعالولو له تایید مخکې یې هویت وګورئ.",
-          "result": "که اپلیکیشن کړنه ومني او تایید یې کړي، شرکت غیرفعال کېږي.",
-          "notes": "غیرفعالول د پخوانیو کارونو یا تادیاتو د ریکارډونو له ړنګولو سره یو شان نه دي. پر راتلونکو انتخابونو او اوسنیو کارونو یې اغېز وګورئ."
+          "purpose": "شرکت غیرفعالوي خو ریکارډ یې ساتي.",
+          "when": "یوازې هغه وخت یې وکاروئ چې شرکت خوندي شوي کارونه ونه لري او نور باید د فعال انتخاب لپاره موجود نه وي.",
+          "how": "د اړوند شرکت ترڅنګ Deactivate وټاکئ او د تایید پیغام وګورئ. که شرکت کارونه ولري، اپلیکیشن یې د غیرفعالولو مخه نیسي.",
+          "inputs": "سم شرکت وټاکئ. ورسره باید هېڅ کار تړلی نه وي او د غیرفعالولو تایید باید ومنل شي.",
+          "result": "که شرکت کارونه ونه لري او خوندي کول بریالي شي، د فعال حالت نښه یې false کېږي؛ د شرکت ریکارډ ساتل کېږي.",
+          "notes": "دا کنټرول هغه شرکت نه شي غیرفعالولای چې خوندي شوي کارونه یا مالي تاریخ ولري. غیرفعالول د شرکت ریکارډ ساتي او تاریخي معلومات نه ړنګوي."
         }
       },
       "handler_or_behavior": "`coDeleteCompany(`"
@@ -11276,7 +11276,7 @@
           "when": "وقتی می‌خواهید جزئیات یک کار موجود متعلق به یک شرکت را اصلاح کنید، از این گزینه استفاده کنید.",
           "how": "در کنار کار موردنظر Edit را انتخاب کنید، اطلاعات شرکت و کار را بررسی کنید، تغییرات لازم را انجام دهید و سپس Save Job را انتخاب کنید.",
           "inputs": "شرکت و کار درست را انتخاب کنید. فیلدهای فعلی کار بارگذاری می‌شوند؛ فقط جزئیاتی را تغییر دهید که نیاز به به‌روزرسانی دارند.",
-          "result": "مقادیر فعلی کار انتخاب‌شده در فرم کار بارگذاری می‌شوند. تغییرات تا زمانی که Save Job با موفقیت انجام نشود، ذخیره نخواهند شد.",
+          "result": "مقادیر فعلی کار انتخاب‌شده در فرم کار بارگذاری می‌شوند. تغییرات تا زمانی که Save Job با موفقیت انجام نشود ذخیره نمی‌شوند.",
           "notes": "پیش از ذخیره، شرکت و کار درست را بررسی کنید؛ به‌ویژه اگر چند کار نام مشابه دارند."
         },
         "ar": {
@@ -11284,7 +11284,7 @@
           "when": "عندما تحتاج إلى تحديث تفاصيل وظيفة مسجلة تحت شركة.",
           "how": "اختر Edit بجانب الوظيفة المطلوبة، وعدّل التفاصيل المتاحة، ثم احفظ.",
           "inputs": "حدد الشركة والوظيفة الصحيحتين، ثم غيّر الحقول المطلوبة.",
-          "result": "يُحدّث سجل الوظيفة إذا نجح التحقق والحفظ.",
+          "result": "تُحمّل القيم الحالية للوظيفة المحددة في نموذج الوظيفة. ولا تُحفظ التغييرات حتى ينجح Save Job.",
           "notes": "تحقق من الشركة والوظيفة قبل الحفظ، خاصة عندما تكون أسماء الوظائف متشابهة."
         },
         "ckb": {
@@ -11292,7 +11292,7 @@
           "when": "کاتێک پێویستە وردەکارییەکانی کارێکی تۆمارکراو لەژێر کۆمپانیا نوێ بکەیتەوە.",
           "how": "لە تەنیشت کاری داواکراو Edit هەڵبژێرە، وردەکارییە بەردەستەکان بگۆڕە و پاشەکەوت بکە.",
           "inputs": "کۆمپانیا و کاری دروست هەڵبژێرە، پاشان خانە پێویستەکان بگۆڕە.",
-          "result": "ئەگەر پشتڕاستکردنەوە و پاشەکەوتکردن سەرکەوتوو بن، تۆماری کار نوێ دەکرێتەوە.",
+          "result": "بەها ئێستاکانی کاری هەڵبژێردراو لە فۆڕمی کار بار دەکرێن. گۆڕانکارییەکان تا سەرکەوتنی Save Job پاشەکەوت ناکرێن.",
           "notes": "پێش پاشەکەوتکردن کۆمپانیا و کارەکە بپشکنە، بە تایبەتی کاتێک ناوی کارەکان لەیەک دەچن."
         },
         "kmr": {
@@ -11300,7 +11300,7 @@
           "when": "Dema ku tu hewceyî nûkirina hûrguliyên karekî tomarkirî di bin pargîdaniyekê de yî.",
           "how": "Li kêleka karê xwestî Edit hilbijêre, hûrguliyên berdest biguherîne û tomar bike.",
           "inputs": "Pargîdanî û karê rast hilbijêre, paşê qadên pêwîst biguherîne.",
-          "result": "Ger kontrol û tomarkirin serkeftî bin, tomara kar tê nûkirin.",
+          "result": "Nirxên heyî yên karê hilbijartî di forma kar de tên barkirin. Guherîn heta serkeftina Save Job nayên tomarkirin.",
           "notes": "Berî tomarkirinê pargîdanî û kar kontrol bike, nemaze dema ku navên karan dişibin hev."
         },
         "tr": {
@@ -11308,7 +11308,7 @@
           "when": "Bir şirket altında kayıtlı işin ayrıntılarını güncellemeniz gerektiğinde kullanın.",
           "how": "İlgili işin yanındaki Edit'i seçin, mevcut ayrıntıları güncelleyin ve kaydedin.",
           "inputs": "Doğru şirketi ve işi seçin, ardından gerekli alanları değiştirin.",
-          "result": "Doğrulama ve kayıt başarılı olursa iş kaydı güncellenir.",
+          "result": "Seçilen işin mevcut değerleri iş formuna yüklenir. Save Job başarılı olana kadar değişiklikler kaydedilmez.",
           "notes": "Kaydetmeden önce şirketi ve işi kontrol edin; özellikle birden fazla işin adı benzer olduğunda."
         },
         "pl": {
@@ -11316,7 +11316,7 @@
           "when": "Użyj, gdy trzeba zaktualizować szczegóły zlecenia zapisanego w ramach firmy.",
           "how": "Wybierz Edit obok właściwego zlecenia, zaktualizuj dostępne szczegóły i zapisz.",
           "inputs": "Wybierz właściwą firmę i zlecenie, a następnie zmień wymagane pola.",
-          "result": "Zlecenie zostanie zaktualizowane, jeśli walidacja i zapis się powiedzie.",
+          "result": "Bieżące dane wybranego zlecenia są wczytywane do formularza. Zmiany nie zostaną zapisane, dopóki Save Job nie zakończy się powodzeniem.",
           "notes": "Przed zapisaniem sprawdź firmę i zlecenie, zwłaszcza gdy kilka zleceń ma podobne nazwy."
         },
         "ur": {
@@ -11324,7 +11324,7 @@
           "when": "جب کسی کمپنی کے تحت محفوظ کام کی تفصیلات اپ ڈیٹ کرنی ہوں تو استعمال کریں۔",
           "how": "متعلقہ کام کے ساتھ Edit منتخب کریں، دستیاب تفصیلات اپ ڈیٹ کریں اور محفوظ کریں۔",
           "inputs": "درست کمپنی اور کام منتخب کریں، پھر مطلوبہ خانے تبدیل کریں۔",
-          "result": "توثیق اور محفوظ کرنے کا عمل کامیاب ہو تو کام کا ریکارڈ اپ ڈیٹ ہو جاتا ہے۔",
+          "result": "منتخب کام کی موجودہ معلومات کام کے فارم میں لوڈ ہوتی ہیں۔ جب تک Save Job کامیاب نہ ہو، تبدیلیاں محفوظ نہیں ہوتیں۔",
           "notes": "محفوظ کرنے سے پہلے کمپنی اور کام چیک کریں، خاص طور پر جب کئی کاموں کے نام ملتے جلتے ہوں۔"
         },
         "pa": {
@@ -11332,7 +11332,7 @@
           "when": "ਜਦੋਂ ਕੰਪਨੀ ਹੇਠ ਦਰਜ ਕੰਮ ਦੇ ਵੇਰਵੇ ਅਪਡੇਟ ਕਰਨੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
           "how": "ਲੋੜੀਂਦੇ ਕੰਮ ਦੇ ਨਾਲ Edit ਚੁਣੋ, ਉਪਲਬਧ ਵੇਰਵੇ ਅਪਡੇਟ ਕਰੋ ਅਤੇ ਸੇਵ ਕਰੋ।",
           "inputs": "ਸਹੀ ਕੰਪਨੀ ਅਤੇ ਕੰਮ ਚੁਣੋ, ਫਿਰ ਲੋੜੀਂਦੇ ਖੇਤਰ ਬਦਲੋ।",
-          "result": "ਜਾਂਚ ਅਤੇ ਸੇਵ ਕਰਨਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਕੰਮ ਦਾ ਰਿਕਾਰਡ ਅਪਡੇਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "result": "ਚੁਣੇ ਕੰਮ ਦੇ ਮੌਜੂਦਾ ਮੁੱਲ ਕੰਮ ਫਾਰਮ ਵਿੱਚ ਲੋਡ ਹੁੰਦੇ ਹਨ। ਜਦ ਤੱਕ Save Job ਸਫਲ ਨਹੀਂ ਹੁੰਦਾ, ਤਬਦੀਲੀਆਂ ਸੇਵ ਨਹੀਂ ਹੁੰਦੀਆਂ।",
           "notes": "ਸੇਵ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਕੰਪਨੀ ਅਤੇ ਕੰਮ ਜਾਂਚੋ, ਖ਼ਾਸ ਕਰਕੇ ਜਦੋਂ ਕਈ ਕੰਮਾਂ ਦੇ ਨਾਮ ਮਿਲਦੇ-ਜੁਲਦੇ ਹੋਣ।"
         },
         "prs": {
@@ -11340,7 +11340,7 @@
           "when": "وقتی لازم است جزئیات کاری را که زیر یک شرکت ثبت شده به‌روزرسانی کنید، استفاده کنید.",
           "how": "در کنار کار موردنظر Edit را انتخاب کنید، جزئیات موجود را تغییر دهید و ذخیره کنید.",
           "inputs": "شرکت و کار درست را انتخاب کنید، سپس فیلدهای موردنیاز را تغییر دهید.",
-          "result": "اگر اعتبارسنجی و ذخیره موفق باشد، سابقه کار به‌روزرسانی می‌شود.",
+          "result": "مقادیر فعلی کار انتخاب‌شده در فرم کار بارگذاری می‌شوند. تغییرات تا زمانی که Save Job با موفقیت انجام نشود ذخیره نمی‌شوند.",
           "notes": "پیش از ذخیره شرکت و کار را بررسی کنید، به‌ویژه وقتی چند کار نام‌های مشابه دارند."
         },
         "ps": {
@@ -11348,7 +11348,7 @@
           "when": "کله چې د شرکت لاندې ثبت شوي کار جزئیات تازه کول غواړئ، دا وکاروئ.",
           "how": "د اړوند کار تر څنګ Edit وټاکئ، شته جزئیات تازه کړئ او خوندي یې کړئ.",
           "inputs": "سم شرکت او کار وټاکئ، بیا اړینې خانې بدلې کړئ.",
-          "result": "که ارزونه او خوندي کول بریالي شي، د کار ریکارډ تازه کېږي.",
+          "result": "د ټاکل شوي کار اوسني ارزښتونه د کار فورمې ته پورته کېږي. بدلونونه تر هغه نه خوندي کېږي چې Save Job بریالی نه شي.",
           "notes": "له خوندي کولو مخکې شرکت او کار وګورئ، په ځانګړي ډول کله چې د څو کارونو نومونه ورته وي."
         }
       },
