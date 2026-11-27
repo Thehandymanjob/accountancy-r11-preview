@@ -15478,20 +15478,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Delete an existing project record.",
-          "when": "Use this control only when an existing project record is a duplicate or an error that should be removed after checking.",
-          "how": "Select Delete beside the intended row and review the confirmation prompt.",
-          "inputs": "Select the correct project record and check its details before confirming deletion.",
-          "result": "The selected project row is deleted from its project category after confirmation and successful saving; other project rows remain unchanged.",
-          "notes": "Deletion may affect project totals and history. Verify the selected record and retain necessary evidence first."
+          "purpose": "Removes a selected income, expense, wage, tools, food, contractor or materials row from the current project ledger view.",
+          "when": "Use this only when the selected project record is a duplicate or an entry error that should be removed after checking.",
+          "how": "Select Delete beside the intended row and approve the confirmation prompt after checking the record type, amount and details.",
+          "inputs": "Select the correct record in the current project or sub-project detail tab and confirm the deletion prompt.",
+          "result": "After confirmation, the row is removed from the current in-memory project list and the detail view refreshes. The handler does not check whether the IndexedDB save succeeded.",
+          "notes": "DESTRUCTIVE: deletion changes project totals. The current handler does not restore the row or report a save failure if persistence fails; the screen may therefore show a deletion that has not been durably saved. Verify the record and check storage status before relying on the result."
         },
         "fa": {
-          "purpose": "حذف یک رکورد موجود پروژه.",
-          "when": "فقط وقتی سابقه پروژه تکراری یا اشتباه است و پس از بررسی باید حذف شود، از این گزینه استفاده کنید.",
-          "how": "در کنار ردیف موردنظر Delete را انتخاب کنید و پیام تأیید را بررسی کنید.",
-          "inputs": "سابقه درست پروژه را انتخاب کنید و پیش از تأیید حذف جزئیات آن را بررسی کنید.",
-          "result": "پس از تأیید و ذخیره موفق، رکورد پروژه انتخاب‌شده از فهرست سوابق پروژه حذف می‌شود.",
-          "notes": "حذف ممکن است بر جمع و سوابق پروژه اثر بگذارد. پیش از اقدام، رکورد و مدارک لازم را بررسی کنید."
+          "purpose": "ردیف انتخاب‌شده درآمد، هزینه، دستمزد، ابزار، غذا، پیمانکار یا مصالح را از نمای دفتر پروژه فعلی حذف می‌کند.",
+          "when": "فقط وقتی سابقه پروژه انتخاب‌شده تکراری یا اشتباه است و پس از بررسی باید حذف شود، از این گزینه استفاده کنید.",
+          "how": "در کنار ردیف موردنظر Delete را انتخاب کنید و پس از بررسی نوع سابقه، مبلغ و جزئیات، پیام تأیید را بپذیرید.",
+          "inputs": "سابقه درست را در زبانه جزئیات پروژه یا زیرپروژه فعلی انتخاب کنید و پیام تأیید حذف را بپذیرید.",
+          "result": "پس از تأیید، ردیف از فهرست پروژه در حافظه حذف و نمای جزئیات تازه‌سازی می‌شود. تابع فعلی بررسی نمی‌کند که ذخیره در IndexedDB موفق شده باشد یا خیر.",
+          "notes": "مخرب: حذف بر مجموع‌های پروژه اثر می‌گذارد. تابع فعلی در صورت شکست ذخیره، ردیف را بازنمی‌گرداند و خطای ذخیره را نیز اعلام نمی‌کند؛ بنابراین ممکن است صفحه حذف را نشان دهد، درحالی‌که حذف به‌طور پایدار ذخیره نشده باشد. پیش از اتکا به نتیجه، سابقه را بررسی و وضعیت ذخیره‌سازی را کنترل کنید."
         },
         "ar": {
           "purpose": "يحذف سجلاً موجوداً في المشروع.",
