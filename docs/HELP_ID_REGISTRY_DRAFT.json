@@ -13518,20 +13518,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Delete a saved project finance entry.",
-          "when": "Use this control only when a saved project finance entry is duplicated or incorrect and needs to be removed.",
-          "how": "Choose Delete on the intended row and review the confirmation prompt before proceeding.",
-          "inputs": "Select the correct finance entry and check its type, amount and source.",
-          "result": "The selected sub-project income or expense entry is removed after confirmation and successful saving.",
-          "notes": "Deletion can change project financial totals. Verify that the entry is wrong or duplicated and retain required evidence."
+          "purpose": "Deletes a saved income or expense record from the current sub-project after confirmation.",
+          "when": "Use this only when the selected sub-project entry is a duplicate or was recorded in error.",
+          "how": "In Income & Receipts History or Expense History, select Delete beside the intended record. Review the confirmation that the financial report will be updated, then confirm if deletion is intended.",
+          "inputs": "Select the correct income or expense record in the current sub-project and approve the confirmation prompt.",
+          "result": "After successful persistence, the selected record is removed from the sub-project's income or expense list and the detail/report totals are refreshed.",
+          "notes": "This removes the record from the sub-project data; it is not moved to Deleted Records. Check the entry and retain any required evidence before confirming. Deletion changes the sub-project and overall project financial totals."
         },
         "fa": {
-          "purpose": "حذف یک ثبت مالی ذخیره‌شده در پروژه.",
-          "when": "فقط وقتی یک ثبت مالی ذخیره‌شده در پروژه تکراری یا اشتباه است و باید حذف شود، از این گزینه استفاده کنید.",
-          "how": "در ردیف موردنظر Delete را انتخاب کنید و پیش از ادامه پیام تأیید را بررسی کنید.",
-          "inputs": "ثبت مالی درست را انتخاب کنید و نوع، مبلغ و منبع آن را بررسی کنید.",
-          "result": "پس از تأیید و ذخیره موفق، رکورد درآمد یا هزینه انتخاب‌شده از سوابق زیرپروژه حذف می‌شود.",
-          "notes": "حذف ممکن است جمع مالی پروژه را تغییر دهد. از اشتباه یا تکراری بودن ثبت مطمئن شوید و مدارک لازم را نگه دارید."
+          "purpose": "پس از تأیید، سابقه درآمد یا هزینه ذخیره‌شده را از زیرپروژه فعلی حذف می‌کند.",
+          "when": "فقط زمانی استفاده کنید که سابقه انتخاب‌شده زیرپروژه تکراری است یا به اشتباه ثبت شده است.",
+          "how": "در Income & Receipts History یا Expense History کنار سابقه موردنظر Delete را انتخاب کنید. پیام تأیید درباره به‌روزرسانی گزارش مالی را بخوانید و فقط در صورت قصد حذف، تأیید کنید.",
+          "inputs": "سابقه درآمد یا هزینه صحیح را در زیرپروژه فعلی انتخاب کنید و پیام تأیید را بپذیرید.",
+          "result": "پس از ذخیره موفق، سابقه انتخاب‌شده از فهرست درآمد یا هزینه زیرپروژه حذف و مجموع‌های جزئیات/گزارش تازه‌سازی می‌شوند.",
+          "notes": "این عملیات سابقه را از داده‌های زیرپروژه حذف می‌کند و آن را به Deleted Records منتقل نمی‌کند. پیش از تأیید، رکورد را بررسی و مدارک موردنیاز را نگه دارید. حذف، مجموع مالی زیرپروژه و کل پروژه را تغییر می‌دهد."
         },
         "ar": {
           "purpose": "يحذف قيداً مالياً محفوظاً في المشروع.",
@@ -13616,20 +13616,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Creates a PDF preview of the current project payment receipt.",
-          "when": "Use this when you need to review, print or save a PDF copy of the current payment receipt.",
-          "how": "Select Generate PDF / Print and wait while the PDF library creates the receipt preview. Use Share PDF or Print in the new preview tab.",
-          "inputs": "The current payment receipt must be displayed. The browser must allow a new tab and may need an internet connection to load the PDF library.",
-          "result": "A separate PDF preview tab opens when generation succeeds, with Share PDF and Print actions. If the tab is blocked or the PDF library fails, the app reports the problem.",
-          "notes": "Check the payer, amount, date and description. Generating a receipt does not independently confirm that funds were received."
+          "purpose": "Generates a PDF preview of the currently displayed project payment receipt.",
+          "when": "Use this when you need a PDF copy of the customer payment receipt for review, printing or sharing.",
+          "how": "On the customer payment receipt page, select Generate PDF / Print. Wait while the PDF library creates the file and opens its preview in a new tab. Use Share PDF or Print in that preview.",
+          "inputs": "The customer payment receipt must already be open. The browser must allow a new tab; an internet connection may be needed to load the PDF library.",
+          "result": "A separate PDF preview tab opens with Share PDF and Print actions when generation succeeds. If the browser blocks the tab, an Open PDF preview link may be provided on the receipt page.",
+          "notes": "Check the customer, project, amount, payment date and remaining balance before sharing or printing. Creating a PDF does not verify that the money was received; it only formats the saved receipt record."
         },
         "fa": {
-          "purpose": "پیش‌نمایش PDF رسید پرداخت فعلی پروژه را ایجاد می‌کند.",
-          "when": "وقتی لازم است نسخه PDF رسید پرداخت فعلی را بررسی، چاپ یا ذخیره کنید، از این گزینه استفاده کنید.",
-          "how": "Generate PDF / Print را انتخاب کنید و تا ایجاد پیش‌نمایش رسید توسط کتابخانه PDF صبر کنید. در زبانه جدید پیش‌نمایش از Share PDF یا Print استفاده کنید.",
-          "inputs": "رسید پرداخت فعلی باید نمایش داده شده باشد. مرورگر باید اجازه بازشدن زبانه جدید را بدهد و ممکن است برای بارگذاری کتابخانه PDF به اتصال اینترنت نیاز باشد.",
-          "result": "در صورت موفقیت ساخت، زبانه جداگانه پیش‌نمایش PDF با گزینه‌های Share PDF و Print باز می‌شود. اگر زبانه مسدود شود یا کتابخانه PDF با خطا روبه‌رو شود، برنامه مشکل را اعلام می‌کند.",
-          "notes": "جزئیات رسید را بررسی کنید. ساخت رسید تأیید نمی‌کند که پول واقعاً دریافت شده است."
+          "purpose": "از رسید پرداخت مشتری که در حال حاضر نمایش داده می‌شود پیش‌نمایش PDF ایجاد می‌کند.",
+          "when": "وقتی برای بررسی، چاپ یا اشتراک‌گذاری به نسخه PDF رسید پرداخت مشتری نیاز دارید، از این گزینه استفاده کنید.",
+          "how": "در صفحه رسید پرداخت مشتری، Generate PDF / Print را انتخاب کنید. منتظر بمانید تا کتابخانه PDF فایل را ایجاد و پیش‌نمایش آن را در زبانه جدید باز کند. در پیش‌نمایش از Share PDF یا Print استفاده کنید.",
+          "inputs": "رسید پرداخت مشتری باید از قبل باز باشد. مرورگر باید اجازه بازکردن زبانه جدید را بدهد؛ برای بارگذاری کتابخانه PDF ممکن است اتصال اینترنت لازم باشد.",
+          "result": "در صورت موفقیت ساخت، زبانه جداگانه پیش‌نمایش PDF با گزینه‌های Share PDF و Print باز می‌شود. اگر مرورگر زبانه را مسدود کند، ممکن است پیوند Open PDF preview در صفحه رسید نمایش داده شود.",
+          "notes": "پیش از چاپ یا اشتراک‌گذاری، مشتری، پروژه، مبلغ، تاریخ پرداخت و مانده را بررسی کنید. ساخت PDF دریافت وجه را تأیید نمی‌کند؛ فقط سابقه رسید ذخیره‌شده را به سند تبدیل می‌کند."
         },
         "ar": {
           "purpose": "ينشئ ملف PDF أو نسخة جاهزة للطباعة من الإيصال الحالي.",
@@ -13714,20 +13714,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Share the generated project receipt PDF.",
-          "when": "Use this control when you need to send the project receipt PDF to another person or app.",
-          "how": "Select Share PDF, then choose a destination from your device's share sheet.",
-          "inputs": "Check the PDF file, receipt details and intended recipient before sharing.",
-          "result": "The device share sheet opens when file sharing is supported. Otherwise the app starts downloading the receipt PDF so it can be shared from Files. The saved payment record is not changed.",
-          "notes": "Check the customer, amount, date and recipient. The app cannot confirm delivery by another app or service."
+          "purpose": "Shares the generated project payment receipt PDF using the device's available sharing options.",
+          "when": "Use this after the receipt PDF has been generated and you want to share it or save it through another app.",
+          "how": "In the receipt PDF preview, select Share PDF. Choose a destination in the device share sheet if it is supported. If file sharing is unavailable, the app starts downloading the PDF.",
+          "inputs": "A successfully generated receipt PDF must be available. Choose a destination when the share sheet appears.",
+          "result": "The system share sheet opens when supported; otherwise the PDF is downloaded as a fallback. The saved payment record is not changed.",
+          "notes": "Review the receipt and recipient before sharing. The app cannot confirm delivery by another app or service. If the share sheet is cancelled, no successful send is reported."
         },
         "fa": {
-          "purpose": "اشتراک‌گذاری PDF رسید پروژه.",
-          "when": "وقتی می‌خواهید نسخه PDF رسید پروژه را برای شخص یا برنامه دیگری ارسال کنید، از این گزینه استفاده کنید.",
-          "how": "Share PDF را انتخاب کنید و مقصد را از فهرست اشتراک‌گذاری دستگاه برگزینید.",
-          "inputs": "پیش از اشتراک‌گذاری فایل PDF، جزئیات رسید و گیرنده موردنظر را بررسی کنید.",
-          "result": "اگر دستگاه از اشتراک‌گذاری فایل پشتیبانی کند، صفحه اشتراک‌گذاری دستگاه باز می‌شود. در غیر این صورت برنامه دانلود PDF رسید را آغاز می‌کند تا بتوانید آن را از برنامه Files به اشتراک بگذارید. سابقه پرداخت ذخیره‌شده تغییر نمی‌کند.",
-          "notes": "مشتری، مبلغ، تاریخ و گیرنده را بررسی کنید. رسید را با شخص اشتباه به اشتراک نگذارید."
+          "purpose": "فایل PDF ایجادشده رسید پرداخت پروژه را با امکانات اشتراک‌گذاری دستگاه به اشتراک می‌گذارد.",
+          "when": "پس از ایجاد PDF رسید و زمانی که می‌خواهید آن را با برنامه دیگری به اشتراک بگذارید یا ذخیره کنید، از این گزینه استفاده کنید.",
+          "how": "در پیش‌نمایش PDF رسید، Share PDF را انتخاب کنید. اگر دستگاه پشتیبانی کند، مقصد را در صفحه اشتراک‌گذاری انتخاب کنید. اگر اشتراک‌گذاری فایل در دسترس نباشد، برنامه دانلود PDF را آغاز می‌کند.",
+          "inputs": "یک PDF رسید که با موفقیت ایجاد شده باشد باید در دسترس باشد. اگر صفحه اشتراک‌گذاری باز شد، مقصد را انتخاب کنید.",
+          "result": "در صورت پشتیبانی دستگاه، صفحه اشتراک‌گذاری سیستم باز می‌شود؛ در غیر این صورت PDF به‌عنوان روش جایگزین دانلود می‌شود. سابقه پرداخت ذخیره‌شده تغییر نمی‌کند.",
+          "notes": "پیش از اشتراک‌گذاری، رسید و گیرنده را بررسی کنید. برنامه نمی‌تواند تحویل فایل توسط برنامه یا سرویس دیگری را تأیید کند. اگر صفحه اشتراک‌گذاری لغو شود، ارسال موفق گزارش نمی‌شود."
         },
         "ar": {
           "purpose": "يشارك ملف PDF الذي تم إنشاؤه لإيصال المشروع.",
@@ -13812,20 +13812,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open the generated receipt PDF in a print window or browser tab.",
-          "when": "Use this control after the receipt PDF is ready, when you want to print it or save it using your device.",
-          "how": "After the PDF is ready, select Print and use the browser or device print/save options.",
-          "inputs": "Confirm that the correct receipt is open and the PDF is ready before selecting Print.",
-          "result": "The device print window or its print and save options are opened.",
-          "notes": "If the PDF window is blocked, allow pop-ups for this app and retry. Verify the receipt before printing."
+          "purpose": "Opens the generated project payment receipt PDF in a separate browser tab for printing or saving.",
+          "when": "Use this after the receipt PDF has been generated when you want to use the browser or PDF viewer's print/save options.",
+          "how": "In the receipt PDF preview, select Print. The generated PDF opens in a separate browser tab; use the PDF viewer's print or save controls.",
+          "inputs": "A generated receipt PDF and its preview must be available. No additional payment information is entered.",
+          "result": "The generated receipt PDF opens in a separate browser tab so the device's PDF viewer can provide print and save options.",
+          "notes": "Check the receipt before printing. This action opens the PDF; it does not change the payment record or independently verify receipt of funds."
         },
         "fa": {
-          "purpose": "باز کردن PDF رسید در پنجره چاپ یا زبانه مرورگر.",
-          "when": "پس از آماده‌شدن PDF رسید، وقتی می‌خواهید آن را چاپ یا با گزینه‌های دستگاه ذخیره کنید، از این گزینه استفاده کنید.",
-          "how": "پس از آماده‌شدن PDF، Print را انتخاب کنید و از گزینه‌های چاپ یا ذخیره دستگاه استفاده کنید.",
-          "inputs": "پیش از انتخاب چاپ مطمئن شوید رسید درست باز است و فایل PDF آماده شده است.",
-          "result": "پنجره چاپ یا گزینه‌های چاپ و ذخیره دستگاه باز می‌شود.",
-          "notes": "اگر پنجره PDF مسدود شد، اجازه بازشدن پنجره‌های جدید را برای برنامه فعال و دوباره امتحان کنید. پیش از چاپ رسید را بررسی کنید."
+          "purpose": "PDF ایجادشده رسید پرداخت پروژه را برای چاپ یا ذخیره در زبانه جداگانه مرورگر باز می‌کند.",
+          "when": "پس از ایجاد PDF رسید، وقتی می‌خواهید از گزینه‌های چاپ یا ذخیره مرورگر یا نمایشگر PDF استفاده کنید، از این گزینه استفاده کنید.",
+          "how": "در پیش‌نمایش PDF رسید، Print را انتخاب کنید. PDF ایجادشده در زبانه جداگانه مرورگر باز می‌شود؛ از کنترل‌های چاپ یا ذخیره نمایشگر PDF استفاده کنید.",
+          "inputs": "PDF رسید و پیش‌نمایش آن باید آماده باشند. اطلاعات پرداخت جدیدی وارد نمی‌شود.",
+          "result": "PDF رسید در زبانه جداگانه مرورگر باز می‌شود تا نمایشگر PDF دستگاه گزینه‌های چاپ و ذخیره را ارائه کند.",
+          "notes": "پیش از چاپ، رسید را بررسی کنید. این گزینه PDF را باز می‌کند و سابقه پرداخت را تغییر نمی‌دهد یا دریافت واقعی وجه را مستقلاً تأیید نمی‌کند."
         },
         "ar": {
           "purpose": "يفتح ملف PDF للإيصال في نافذة الطباعة أو علامة تبويب المتصفح.",
@@ -13910,20 +13910,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Generate a PDF for the current sub-project report.",
-          "when": "Use this control when you need a PDF copy of the selected sub-project report for review, printing or storage.",
-          "how": "Select Generate PDF, wait for the report preview, and review it before continuing.",
-          "inputs": "Select the correct sub-project and reporting period, then check the report scope and totals.",
-          "result": "A PDF file is created for the sub-project report preview.",
-          "notes": "Check the report scope, period and totals before saving or printing. Creating the file does not submit the report."
+          "purpose": "Generates a PDF file from the current sub-project financial report preview.",
+          "when": "Use this after opening the sub-project financial report preview when you need a PDF copy for review, printing or sharing.",
+          "how": "In the financial report preview, select Generate PDF. Wait while the PDF-generation library creates the file and the preview is prepared. Review the generated pages and use the available share/print controls.",
+          "inputs": "The sub-project financial report preview must already be open. The PDF-generation library may require an internet connection to load.",
+          "result": "The sub-project financial report is converted into a PDF and a PDF preview is prepared. The preview provides the available print and share actions after generation succeeds.",
+          "notes": "Check the sub-project, report figures and page layout before saving or sharing. If the PDF library or preview renderer fails to load, check the internet connection and retry. Generating a PDF does not submit the report externally."
         },
         "fa": {
-          "purpose": "ساخت PDF از گزارش زیرپروژه فعلی.",
-          "when": "وقتی به نسخه PDF گزارش زیرپروژه انتخاب‌شده برای بررسی، چاپ یا ذخیره نیاز دارید، از این گزینه استفاده کنید.",
-          "how": "Generate PDF را انتخاب کنید و پس از نمایش پیش‌نمایش گزارش، آن را بررسی کنید.",
-          "inputs": "زیرپروژه درست و دوره گزارش را انتخاب کنید و دامنه گزارش و جمع مبالغ را بررسی کنید.",
-          "result": "فایل PDF برای پیش‌نمایش گزارش زیرپروژه ایجاد می‌شود.",
-          "notes": "پیش از ذخیره یا چاپ دامنه، دوره و جمع مبالغ گزارش را بررسی کنید. ایجاد فایل به معنی ارسال گزارش نیست."
+          "purpose": "از پیش‌نمایش فعلی گزارش مالی زیرپروژه یک فایل PDF ایجاد می‌کند.",
+          "when": "پس از بازکردن پیش‌نمایش گزارش مالی زیرپروژه و زمانی که برای بررسی، چاپ یا اشتراک‌گذاری به نسخه PDF نیاز دارید، از این گزینه استفاده کنید.",
+          "how": "در پیش‌نمایش گزارش مالی، Generate PDF را انتخاب کنید. منتظر بمانید تا کتابخانه ساخت PDF فایل را ایجاد و پیش‌نمایش آماده شود. صفحات ایجادشده را بررسی و از کنترل‌های چاپ/اشتراک‌گذاری موجود استفاده کنید.",
+          "inputs": "پیش‌نمایش گزارش مالی زیرپروژه باید از قبل باز باشد. برای بارگذاری کتابخانه ساخت PDF ممکن است اتصال اینترنت لازم باشد.",
+          "result": "گزارش مالی زیرپروژه به PDF تبدیل و پیش‌نمایش PDF آماده می‌شود. پس از موفقیت ساخت، پیش‌نمایش گزینه‌های موجود چاپ و اشتراک‌گذاری را ارائه می‌کند.",
+          "notes": "پیش از ذخیره یا اشتراک‌گذاری، زیرپروژه، ارقام گزارش و چیدمان صفحات را بررسی کنید. اگر کتابخانه PDF یا نمایشگر پیش‌نمایش بارگذاری نشد، اتصال اینترنت را بررسی و دوباره تلاش کنید. ساخت PDF گزارش را به مرجع خارجی ارسال نمی‌کند."
         },
         "ar": {
           "purpose": "ينشئ ملف PDF لتقرير المشروع الفرعي الحالي.",
