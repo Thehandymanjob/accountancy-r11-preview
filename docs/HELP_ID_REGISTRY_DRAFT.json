@@ -9108,20 +9108,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Displays the invoice linked to a selected record in a read-only invoice preview.",
-          "when": "Use this when you need to inspect the invoice associated with an invoice-linked row in the Records list.",
-          "how": "In Records, select View beside the invoice-linked income record. The invoice opens in a read-only preview. Select Back to Records to return to the records list.",
-          "inputs": "Select the record linked to the invoice you want to inspect. No additional input is required.",
-          "result": "The selected invoice is displayed in the invoice preview area. Viewing does not change the accounting entry or mark the invoice as paid.",
-          "notes": "Check the invoice number and customer before taking a separate action. Use the Invoices area to edit, print or manage payment status."
+          "purpose": "Opens a deleted invoice from the Deleted Records list in an on-screen, read-only invoice preview.",
+          "when": "Use this when you need to inspect the details of an invoice that has been moved to Deleted Records.",
+          "how": "In Deleted Records, locate the correct deleted invoice row and select View. The invoice preview opens with its deleted status shown. Select Back to Records to return to the records list.",
+          "inputs": "Select the correct deleted invoice row. No additional input is required.",
+          "result": "The deleted invoice is displayed in the invoice preview. Viewing it does not restore the invoice or change its deleted status.",
+          "notes": "This is a view-only action. The invoice and any linked income records remain deleted. The current R43 Deleted Records view does not provide a restore action. Check the invoice number and customer before taking any separate action."
         },
         "fa": {
-          "purpose": "فاکتور مرتبط با سابقه انتخاب‌شده را در پیش‌نمایش فقط‌خواندنی نمایش می‌دهد.",
-          "when": "وقتی می‌خواهید فاکتور مرتبط با یک ردیف درآمد در فهرست Records را بررسی کنید، از این گزینه استفاده کنید.",
-          "how": "در Records، کنار سابقه درآمد مرتبط با فاکتور View را انتخاب کنید. فاکتور در پیش‌نمایش فقط‌خواندنی باز می‌شود. برای بازگشت به فهرست سوابق، Back to Records را انتخاب کنید.",
-          "inputs": "سابقه‌ای را انتخاب کنید که به فاکتور موردنظر مرتبط است. ورودی دیگری لازم نیست.",
-          "result": "فاکتور انتخاب‌شده در بخش پیش‌نمایش فاکتور نمایش داده می‌شود. مشاهده، ثبت حسابداری را تغییر نمی‌دهد و فاکتور را پرداخت‌شده علامت نمی‌زند.",
-          "notes": "پیش از اقدام جداگانه، شماره فاکتور و مشتری را بررسی کنید. برای ویرایش، چاپ یا مدیریت وضعیت پرداخت از بخش Invoices استفاده کنید."
+          "purpose": "فاکتور حذف‌شده را از فهرست Deleted Records در پیش‌نمایش فقط‌خواندنی داخل برنامه باز می‌کند.",
+          "when": "وقتی می‌خواهید جزئیات فاکتوری را بررسی کنید که به Deleted Records منتقل شده است، از این گزینه استفاده کنید.",
+          "how": "در Deleted Records ردیف فاکتور حذف‌شده صحیح را پیدا و View را انتخاب کنید. پیش‌نمایش فاکتور همراه با وضعیت حذف‌شده باز می‌شود. برای بازگشت به فهرست سوابق، Back to Records را انتخاب کنید.",
+          "inputs": "ردیف فاکتور حذف‌شده صحیح را انتخاب کنید. ورودی دیگری لازم نیست.",
+          "result": "فاکتور حذف‌شده در پیش‌نمایش نمایش داده می‌شود. مشاهده آن فاکتور را بازیابی نمی‌کند و وضعیت حذف آن را تغییر نمی‌دهد.",
+          "notes": "این عملیات فقط برای مشاهده است. فاکتور و هر سابقه درآمد مرتبط همچنان حذف‌شده باقی می‌مانند. در نمای Deleted Records نسخه R43 در حال حاضر گزینه‌ای برای بازیابی وجود ندارد. پیش از هر اقدام جداگانه، شماره فاکتور و مشتری را بررسی کنید."
         },
         "ar": {
           "purpose": "يفتح الفاتورة المرتبطة بسجل محدد.",
@@ -9210,16 +9210,16 @@
           "when": "Use this when reviewing an entry in Deleted Records and you need to inspect its saved details.",
           "how": "Select View beside the deleted entry. Review its record number, type, date, amount, payment method, category, reference, notes and deletion date; close the viewer when finished.",
           "inputs": "Select a deleted entry from the Deleted Records list. No additional input is required.",
-          "result": "The Deleted Record — View Only dialog displays the selected entry's details and, when present, its attached receipt image.",
-          "notes": "This is a read-only view. It does not restore, edit or permanently delete the entry. Use the separate restore action if the entry needs to return to active records."
+          "result": "The Deleted Record — View Only dialog displays the selected entry's saved details and, when present, its attached receipt image.",
+          "notes": "This is a read-only view. It does not restore, edit or permanently delete the entry. The current R43 Deleted Records interface does not provide a restore action; deleted entries remain available here for reference only."
         },
         "fa": {
           "purpose": "نمایش فقط‌خواندنی یک ثبت حسابداری حذف‌شده را باز می‌کند.",
           "when": "وقتی در حال بررسی یک ثبت در Deleted Records هستید و لازم است جزئیات ذخیره‌شده آن را ببینید، از این گزینه استفاده کنید.",
           "how": "در کنار ثبت حذف‌شده View را انتخاب کنید. شماره ثبت، نوع، تاریخ، مبلغ، روش پرداخت، دسته‌بندی، مرجع، یادداشت‌ها و تاریخ حذف را بررسی کنید؛ پس از پایان، پنجره نمایش را ببندید.",
           "inputs": "از فهرست Deleted Records یک ثبت حذف‌شده را انتخاب کنید. ورودی دیگری لازم نیست.",
-          "result": "پنجره Deleted Record — View Only جزئیات ثبت انتخاب‌شده و در صورت وجود، تصویر رسید پیوست را نمایش می‌دهد.",
-          "notes": "این فقط نمایشی برای خواندن است. ثبت را بازیابی، ویرایش یا برای همیشه حذف نمی‌کند. اگر لازم است سابقه به فهرست فعال بازگردد، از عملیات جداگانه Restore استفاده کنید."
+          "result": "پنجره Deleted Record — View Only جزئیات ذخیره‌شده ثبت انتخاب‌شده و در صورت وجود، تصویر رسید پیوست را نمایش می‌دهد.",
+          "notes": "این فقط نمایشی برای خواندن است. ثبت را بازیابی، ویرایش یا برای همیشه حذف نمی‌کند. رابط Deleted Records در نسخه R43 در حال حاضر گزینه‌ای برای بازیابی ندارد؛ سوابق حذف‌شده فقط برای مراجعه در همین بخش باقی می‌مانند."
         },
         "ar": {
           "purpose": "يفتح عرضًا للقراءة فقط لقيد محاسبي محذوف.",
@@ -9304,19 +9304,19 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Shares the generated report PDF using the device's available sharing options.",
+          "purpose": "Shares the generated report PDF using the device's available file-sharing options.",
           "when": "Use this after a report PDF has been generated and you want to share it from the PDF preview.",
-          "how": "Select Share PDF in the PDF view. If the device presents its system share sheet, choose a destination. If file sharing is unavailable or fails, the app starts a PDF download instead.",
-          "inputs": "A generated report PDF is required. Choose a destination when the device presents its sharing options.",
-          "result": "The device's share sheet is opened when supported. If sharing is unavailable or fails for a reason other than user cancellation, the app starts downloading the PDF. A user-cancelled share is not treated as a successful send.",
-          "notes": "Sharing availability depends on the browser and device. The app cannot confirm delivery to the recipient; check the chosen app or service. Verify the PDF and recipient before sending."
+          "how": "Select Share PDF in the PDF view. If the device supports file sharing, choose a destination in the system share sheet. If sharing is unavailable or fails for a reason other than user cancellation, the app starts a PDF download instead.",
+          "inputs": "A generated report PDF is required. Choose a destination if the system share sheet opens.",
+          "result": "The device share sheet opens when supported. If sharing is unavailable or fails for a non-cancellation reason, the PDF download starts. Cancelling the share sheet does not count as a successful send.",
+          "notes": "Sharing availability depends on the browser and device. The app cannot confirm delivery to the recipient; check the selected app or service. Verify the PDF and recipient before sending."
         },
         "fa": {
-          "purpose": "فایل PDF ایجادشده گزارش را با امکانات اشتراک‌گذاری موجود در دستگاه به اشتراک می‌گذارد.",
+          "purpose": "فایل PDF ایجادشده گزارش را با امکانات اشتراک‌گذاری فایل در دستگاه به اشتراک می‌گذارد.",
           "when": "پس از ایجاد PDF گزارش و هنگام نیاز به اشتراک‌گذاری آن از نمای PDF، از این گزینه استفاده کنید.",
-          "how": "در نمای PDF گزینه Share PDF را انتخاب کنید. اگر دستگاه صفحه اشتراک‌گذاری سیستم را نمایش داد، مقصد را انتخاب کنید. اگر اشتراک‌گذاری در دسترس نباشد یا به دلیلی غیر از لغو توسط کاربر شکست بخورد، برنامه دانلود PDF را آغاز می‌کند.",
-          "inputs": "ابتدا باید PDF گزارش ایجاد شده باشد. هنگامی که دستگاه گزینه‌های اشتراک‌گذاری را نمایش می‌دهد، مقصد را انتخاب کنید.",
-          "result": "در صورت پشتیبانی دستگاه، صفحه اشتراک‌گذاری باز می‌شود. اگر اشتراک‌گذاری در دسترس نباشد یا به دلیلی غیر از لغو کاربر شکست بخورد، برنامه دانلود PDF را آغاز می‌کند. لغو صفحه اشتراک‌گذاری به معنی ارسال موفق نیست.",
+          "how": "در نمای PDF گزینه Share PDF را انتخاب کنید. اگر دستگاه از اشتراک‌گذاری فایل پشتیبانی کند، مقصد را در صفحه اشتراک‌گذاری سیستم انتخاب کنید. اگر اشتراک‌گذاری در دسترس نباشد یا به دلیلی غیر از لغو کاربر شکست بخورد، برنامه دانلود PDF را آغاز می‌کند.",
+          "inputs": "ابتدا باید PDF گزارش ایجاد شده باشد. اگر صفحه اشتراک‌گذاری سیستم باز شد، مقصد را انتخاب کنید.",
+          "result": "در صورت پشتیبانی دستگاه، صفحه اشتراک‌گذاری باز می‌شود. اگر اشتراک‌گذاری در دسترس نباشد یا به دلیلی غیر از لغو کاربر شکست بخورد، دانلود PDF آغاز می‌شود. لغو صفحه اشتراک‌گذاری به معنی ارسال موفق نیست.",
           "notes": "دسترسی به اشتراک‌گذاری به مرورگر و دستگاه بستگی دارد. برنامه نمی‌تواند تحویل فایل به گیرنده را تأیید کند؛ نتیجه را در برنامه یا سرویس انتخاب‌شده بررسی کنید. پیش از ارسال، فایل PDF و گیرنده را کنترل کنید."
         },
         "ar": {
@@ -9404,18 +9404,18 @@
         "en": {
           "purpose": "Generates a PDF file from the current financial report preview.",
           "when": "Use this after preparing the report when you need a PDF copy for review, printing, downloading or sharing.",
-          "how": "Select Create PDF and wait while the PDF-generation library loads and the report is converted. Check the status message for PDF ready or an error.",
-          "inputs": "The current report preview must be available. An internet connection may be needed to load the PDF-generation library.",
-          "result": "A PDF file is generated from the report preview. Download PDF and Share PDF become available when generation succeeds.",
-          "notes": "Creating a PDF does not submit the report to HMRC or send it to another person. If the library fails to load or PDF generation fails, check the internet connection and try again."
+          "how": "Select Create PDF and wait while the PDF-generation library loads and the report is converted. Check the status message for PDF ready or an error. Download PDF and Share PDF become available after successful generation.",
+          "inputs": "The current report preview must be available. If the PDF library is not already loaded, an internet connection is required to load it.",
+          "result": "A PDF file is generated from the current report preview. The download and share controls are enabled after successful generation.",
+          "notes": "Creating a PDF does not submit the report to HMRC or send it to another person. If the library fails to load or generation fails, check the internet connection and try again. Keep the PDF preview open until generation finishes."
         },
         "fa": {
           "purpose": "از پیش‌نمایش فعلی گزارش مالی یک فایل PDF ایجاد می‌کند.",
-          "when": "پس از آماده‌سازی گزارش، برای بررسی، چاپ، دانلود یا اشتراک‌گذاری به نسخه PDF نیاز دارید.",
-          "how": "Create PDF را انتخاب کنید و منتظر بارگذاری کتابخانه ساخت PDF و تبدیل گزارش بمانید. پیام وضعیت را برای PDF ready یا نمایش خطا بررسی کنید.",
-          "inputs": "پیش‌نمایش گزارش فعلی باید در دسترس باشد. برای بارگذاری کتابخانه ساخت PDF ممکن است اتصال اینترنت لازم باشد.",
-          "result": "از پیش‌نمایش گزارش یک فایل PDF ساخته می‌شود. پس از موفقیت ساخت، Download PDF و Share PDF در دسترس قرار می‌گیرند.",
-          "notes": "ساخت PDF گزارش را به HMRC ارسال نمی‌کند و برای شخص دیگری نمی‌فرستد. اگر کتابخانه بارگذاری نشد یا ساخت PDF شکست خورد، اتصال اینترنت را بررسی و دوباره تلاش کنید."
+          "when": "پس از آماده‌سازی گزارش، زمانی که برای بررسی، چاپ، دانلود یا اشتراک‌گذاری به نسخه PDF نیاز دارید، از این گزینه استفاده کنید.",
+          "how": "Create PDF را انتخاب کنید و منتظر بارگذاری کتابخانه ساخت PDF و تبدیل گزارش بمانید. پیام وضعیت را برای PDF ready یا نمایش خطا بررسی کنید. پس از ساخت موفق، کنترل‌های Download PDF و Share PDF فعال می‌شوند.",
+          "inputs": "پیش‌نمایش گزارش فعلی باید در دسترس باشد. اگر کتابخانه PDF از قبل بارگذاری نشده باشد، برای دریافت آن اتصال اینترنت لازم است.",
+          "result": "از پیش‌نمایش فعلی گزارش یک فایل PDF ساخته می‌شود. پس از موفقیت ساخت، کنترل‌های دانلود و اشتراک‌گذاری فعال می‌شوند.",
+          "notes": "ساخت PDF گزارش را به HMRC ارسال نمی‌کند و برای شخص دیگری نمی‌فرستد. اگر کتابخانه بارگذاری نشد یا ساخت فایل شکست خورد، اتصال اینترنت را بررسی و دوباره تلاش کنید. تا پایان ساخت، نمای PDF را باز نگه دارید."
         },
         "ar": {
           "purpose": "ينشئ ملف PDF من معاينة التقرير المالي الحالية.",
@@ -9500,19 +9500,19 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Downloads the PDF generated from the current financial report.",
-          "when": "Use this after Create PDF reports that the PDF is ready and you want a local copy.",
+          "purpose": "Downloads the PDF generated from the current financial report preview.",
+          "when": "Use this after Create PDF confirms that the report PDF is ready and you want a local copy.",
           "how": "Select Download PDF. Check the browser's download location or the device's Files app for the generated report.",
-          "inputs": "A successfully generated report PDF must be available in the current PDF view.",
-          "result": "The browser starts downloading the report PDF using the filename generated by the app.",
+          "inputs": "A successfully generated report PDF must be available in the current PDF preview.",
+          "result": "The browser starts downloading the generated report PDF using the filename assigned by the app.",
           "notes": "If the PDF has not been generated, the app asks you to create it first. Store the downloaded report securely; downloading does not change the source records."
         },
         "fa": {
-          "purpose": "فایل PDF ایجادشده از گزارش مالی فعلی را دانلود می‌کند.",
-          "when": "پس از آن استفاده کنید که Create PDF آماده‌بودن فایل را اعلام کرده و می‌خواهید یک نسخه روی دستگاه خود داشته باشید.",
+          "purpose": "فایل PDF ایجادشده از پیش‌نمایش گزارش مالی فعلی را دانلود می‌کند.",
+          "when": "پس از آن استفاده کنید که Create PDF آماده‌بودن فایل را تأیید کرده و می‌خواهید یک نسخه محلی داشته باشید.",
           "how": "Download PDF را انتخاب کنید و محل دانلود مرورگر یا برنامه Files دستگاه را بررسی کنید.",
-          "inputs": "یک PDF گزارش که با موفقیت ساخته شده باشد باید در نمای PDF فعلی موجود باشد.",
-          "result": "مرورگر دانلود فایل PDF گزارش را با نامی که برنامه ایجاد کرده است آغاز می‌کند.",
+          "inputs": "یک PDF گزارش که با موفقیت ساخته شده باشد باید در پیش‌نمایش PDF فعلی موجود باشد.",
+          "result": "مرورگر دانلود فایل PDF گزارش را با نامی که برنامه تعیین کرده است آغاز می‌کند.",
           "notes": "اگر PDF هنوز ساخته نشده باشد، برنامه ابتدا از شما می‌خواهد آن را ایجاد کنید. گزارش دانلودشده را امن نگه دارید؛ دانلود، سوابق منبع را تغییر نمی‌دهد."
         },
         "ar": {
