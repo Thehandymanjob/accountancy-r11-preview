@@ -14500,18 +14500,18 @@
         "en": {
           "purpose": "Displays the financial summary for the currently selected sub-project.",
           "when": "Use this when reviewing the sub-project's recorded receipts, costs, result, agreed price and outstanding balance.",
-          "how": "Open the sub-project and select Report in its finance tabs. Review the totals and the explanatory notes shown in the report view.",
-          "inputs": "The correct sub-project must be open. The report uses its saved income, costs, agreed price and payment records; no reporting-period selection is provided here.",
-          "result": "The sub-project report view displays recorded income, costs, profit/loss on recorded data, agreed price and outstanding agreed balance.",
-          "notes": "Figures reflect records saved in the selected sub-project. They are not a tax calculation and may exclude unrecorded items; check the underlying records before relying on them."
+          "how": "Open the sub-project and select Report in its finance tabs. Review the displayed totals and explanatory notes.",
+          "inputs": "The correct sub-project must be open. The report uses its saved income, costs, agreed price and payment records; no reporting-period selection is provided.",
+          "result": "The Report view displays recorded income, included costs, profit/loss on recorded data, agreed price and outstanding agreed balance.",
+          "notes": "Figures reflect records saved in the selected sub-project. Customer-paid or customer-reimbursed expenses and settled/customer-paid legacy material records are excluded under the report's calculation rules. This is not a tax calculation and may exclude unrecorded items; verify the source records before relying on the figures."
         },
         "fa": {
           "purpose": "خلاصه مالی زیرپروژه انتخاب‌شده فعلی را نمایش می‌دهد.",
-          "when": "برای بررسی رسیدهای ثبت‌شده، هزینه‌ها، نتیجه مالی، قیمت توافق‌شده و مانده پرداخت‌نشده زیرپروژه از این گزینه استفاده کنید.",
-          "how": "زیرپروژه را باز کنید و در زبانه‌های مالی آن Report را انتخاب کنید. مجموع‌ها و یادداشت‌های توضیحی نمایش‌داده‌شده در نمای گزارش را بررسی کنید.",
+          "when": "برای بررسی دریافت‌های ثبت‌شده، هزینه‌های لحاظ‌شده، نتیجه مالی، قیمت توافق‌شده و مانده پرداخت‌نشده زیرپروژه از این گزینه استفاده کنید.",
+          "how": "زیرپروژه را باز کنید و در زبانه‌های مالی آن Report را انتخاب کنید. مجموع‌ها و یادداشت‌های توضیحی نمایش‌داده‌شده را بررسی کنید.",
           "inputs": "زیرپروژه صحیح باید باز باشد. گزارش از درآمدها، هزینه‌ها، قیمت توافق‌شده و سوابق پرداخت ذخیره‌شده آن استفاده می‌کند؛ در این بخش انتخاب دوره گزارش وجود ندارد.",
-          "result": "نمای گزارش زیرپروژه درآمد ثبت‌شده، هزینه‌ها، سود/زیان بر اساس اطلاعات ثبت‌شده، قیمت توافق‌شده و مانده توافق‌شده را نمایش می‌دهد.",
-          "notes": "ارقام بر اساس سوابق ذخیره‌شده در زیرپروژه انتخاب‌شده هستند. این گزارش محاسبه مالیاتی نیست و ممکن است موارد ثبت‌نشده را شامل نشود؛ پیش از اتکا به ارقام، سوابق اصلی را بررسی کنید."
+          "result": "نمای Report درآمد ثبت‌شده، هزینه‌های لحاظ‌شده، سود/زیان بر اساس اطلاعات ثبت‌شده، قیمت توافق‌شده و مانده توافق‌شده را نمایش می‌دهد.",
+          "notes": "ارقام بر اساس سوابق ذخیره‌شده در زیرپروژه انتخاب‌شده هستند. هزینه‌های پرداخت‌شده یا بازپرداخت‌شده توسط مشتری و سوابق قدیمی مصالح که تسویه‌شده یا پرداخت‌شده توسط مشتری علامت خورده‌اند، طبق قواعد محاسبه گزارش کنار گذاشته می‌شوند. این گزارش محاسبه مالیاتی نیست و ممکن است موارد ثبت‌نشده را شامل نشود؛ پیش از اتکا به ارقام، سوابق اصلی را بررسی کنید."
         },
         "ar": {
           "purpose": "يفتح عرض التقرير للمشروع الفرعي المحدد.",
@@ -14596,20 +14596,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the form for adding a new sub-project under the currently open parent project.",
-          "when": "Use this when you want to create a new sub-project within the project whose details are currently open.",
-          "how": "From the parent project's detail page, select Add Sub-project. The form opens with fields for the sub-project name, agreed price and optional photo.",
-          "inputs": "A saved parent project must be open. A non-empty sub-project name is required when saving; agreed price and photo are optional.",
-          "result": "The Add Sub-project form opens. The sub-project is not created until you select Add Sub-project in that form and the save succeeds.",
-          "notes": "Check the parent project before opening the form. Give the sub-project a distinct, meaningful name so it can be identified in lists and reports."
+          "purpose": "Opens the Add Sub-project form under the currently open parent project.",
+          "when": "Use this when adding another separately tracked area of work to a parent project that already has sub-project tracking enabled.",
+          "how": "From the parent project's Sub-projects list, select Add Sub-project. The form opens with fields for a required name, an agreed price and an optional photo. Use the Add Sub-project button in the form to save the new record.",
+          "inputs": "A saved parent project must be open. A non-empty sub-project name is required when saving; agreed price defaults to £0 and is optional, and the photo is optional.",
+          "result": "The Add Sub-project form opens. The new sub-project is not created until the form's Add Sub-project button is selected and the save succeeds.",
+          "notes": "Check the parent project before opening the form. Give each sub-project a distinct, meaningful name so it can be identified in the list and financial reports."
         },
         "fa": {
-          "purpose": "فرم افزودن زیرپروژه جدید را زیر پروژه والدِ بازشده فعلی نمایش می‌دهد.",
-          "when": "وقتی می‌خواهید درون پروژه‌ای که جزئیات آن اکنون باز است زیرپروژه جدیدی ایجاد کنید، از این گزینه استفاده کنید.",
-          "how": "از صفحه جزئیات پروژه والد، Add Sub-project را انتخاب کنید. فرم با فیلدهای نام زیرپروژه، قیمت توافق‌شده و عکس اختیاری باز می‌شود.",
-          "inputs": "باید پروژه والد ذخیره‌شده باز باشد. هنگام ذخیره، نام غیرخالی زیرپروژه الزامی است؛ قیمت توافق‌شده و عکس اختیاری هستند.",
-          "result": "فرم Add Sub-project باز می‌شود. زیرپروژه تا زمانی که در همان فرم Add Sub-project را انتخاب نکنید و ذخیره موفق نشود، ایجاد نمی‌شود.",
-          "notes": "پیش از بازکردن فرم، پروژه والد را بررسی کنید. برای زیرپروژه نامی مشخص و متمایز وارد کنید تا در فهرست‌ها و گزارش‌ها قابل شناسایی باشد."
+          "purpose": "فرم Add Sub-project را زیر پروژه والدِ بازشده فعلی باز می‌کند.",
+          "when": "وقتی می‌خواهید به پروژه والدی که پیگیری زیرپروژه‌ها در آن فعال است، بخش کاری جداگانه دیگری اضافه کنید، از این گزینه استفاده کنید.",
+          "how": "از فهرست Sub-projects پروژه والد، Add Sub-project را انتخاب کنید. فرم با فیلدهای نام الزامی، قیمت توافق‌شده و عکس اختیاری باز می‌شود. برای ذخیره سابقه جدید، از دکمه Add Sub-project در همان فرم استفاده کنید.",
+          "inputs": "پروژه والد ذخیره‌شده باید باز باشد. هنگام ذخیره، نام غیرخالی زیرپروژه الزامی است؛ قیمت توافق‌شده به‌طور پیش‌فرض £0 و اختیاری است و عکس نیز اختیاری است.",
+          "result": "فرم Add Sub-project باز می‌شود. زیرپروژه جدید تا زمانی که دکمه Add Sub-project در فرم انتخاب و ذخیره موفق نشود، ایجاد نمی‌شود.",
+          "notes": "پیش از بازکردن فرم، پروژه والد را بررسی کنید. برای هر زیرپروژه نامی مشخص و متمایز وارد کنید تا در فهرست و گزارش‌های مالی قابل شناسایی باشد."
         },
         "ar": {
           "purpose": "يفتح نموذج إضافة مشروع فرعي.",
@@ -14694,20 +14694,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the selected sub-project's detail view from the parent project's sub-project list.",
-          "when": "Use this when you want to open and review an existing sub-project and its finance tabs.",
-          "how": "In the sub-project list, select Edit on the row of the required sub-project. The sub-project becomes the current detail context and its Summary view opens.",
-          "inputs": "Select the correct sub-project from the currently open parent project's list. No additional input is required.",
-          "result": "The selected sub-project's detail view opens. This action does not directly edit or save its details; use the sub-project edit controls when you want to change its name, agreed price or photo.",
-          "notes": "Confirm the parent project and sub-project identity. Selecting this row opens the detail context; it does not immediately open the edit form."
+          "purpose": "Opens the edit form for a selected sub-project from the parent project's Sub-projects list.",
+          "when": "Use this when changing an existing sub-project's name, agreed price or photo.",
+          "how": "In the parent project's Sub-projects list, select Edit on the intended sub-project row. The sub-project edit form opens with its current name, agreed price and photo. Make the changes and select Save Changes.",
+          "inputs": "Select the correct sub-project within the correct parent project. The name is required; agreed price and replacement photo are optional.",
+          "result": "The edit form opens for the selected sub-project. Changes are committed only after Save Changes succeeds and IndexedDB persistence is verified.",
+          "notes": "This action opens the edit form; it does not save changes by itself. Existing income, expense and other financial records for the sub-project are retained when its details are edited."
         },
         "fa": {
-          "purpose": "نمای جزئیات زیرپروژه انتخاب‌شده را از فهرست زیرپروژه‌های پروژه والد باز می‌کند.",
-          "when": "وقتی می‌خواهید یک زیرپروژه موجود و زبانه‌های مالی آن را باز و بررسی کنید، از این گزینه استفاده کنید.",
-          "how": "در فهرست زیرپروژه‌ها، در ردیف زیرپروژه موردنظر Edit را انتخاب کنید. همان زیرپروژه به زمینه جزئیات فعلی تبدیل می‌شود و نمای Summary آن باز می‌شود.",
-          "inputs": "زیرپروژه صحیح را از فهرست پروژه والدِ بازشده انتخاب کنید. ورودی دیگری لازم نیست.",
-          "result": "نمای جزئیات زیرپروژه انتخاب‌شده باز می‌شود. این عملیات مستقیماً جزئیات آن را ویرایش یا ذخیره نمی‌کند؛ برای تغییر نام، قیمت توافق‌شده یا عکس از کنترل‌های ویرایش زیرپروژه استفاده کنید.",
-          "notes": "هویت پروژه والد و زیرپروژه را بررسی کنید. انتخاب این ردیف فقط نمای جزئیات را باز می‌کند و فرم ویرایش را مستقیماً نمایش نمی‌دهد."
+          "purpose": "فرم ویرایش زیرپروژه انتخاب‌شده را از فهرست Sub-projects پروژه والد باز می‌کند.",
+          "when": "وقتی می‌خواهید نام، قیمت توافق‌شده یا عکس یک زیرپروژه موجود را تغییر دهید، از این گزینه استفاده کنید.",
+          "how": "در فهرست Sub-projects پروژه والد، در ردیف زیرپروژه موردنظر Edit را انتخاب کنید. فرم ویرایش با نام، قیمت توافق‌شده و عکس فعلی باز می‌شود. تغییرات را اعمال و Save Changes را انتخاب کنید.",
+          "inputs": "زیرپروژه صحیح را درون پروژه والد صحیح انتخاب کنید. نام الزامی است؛ قیمت توافق‌شده و عکس جایگزین اختیاری هستند.",
+          "result": "فرم ویرایش زیرپروژه انتخاب‌شده باز می‌شود. تغییرات فقط پس از موفقیت Save Changes و تأیید ذخیره در IndexedDB ثبت می‌شوند.",
+          "notes": "این گزینه فرم ویرایش را باز می‌کند و به‌تنهایی تغییرات را ذخیره نمی‌کند. هنگام ویرایش جزئیات، سوابق درآمد، هزینه و سایر اطلاعات مالی زیرپروژه حفظ می‌شوند."
         },
         "ar": {
           "purpose": "يفتح مشروعاً فرعياً موجوداً من صفه.",
@@ -14792,20 +14792,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Enable sub-project tracking and start adding a sub-project.",
-          "when": "Use this control when you want to enable the sub-project workflow and start creating a sub-project.",
-          "how": "Select Add Sub-project to enable the sub-project workflow and open the creation form.",
-          "inputs": "Select the intended parent project before starting sub-project creation.",
-          "result": "The sub-project workflow is enabled and the creation form is opened.",
-          "notes": "Check that the parent project is the intended one before creating the sub-project."
+          "purpose": "Enables sub-project tracking for the current parent project and opens the form to create the first sub-project.",
+          "when": "Use this when the current project does not yet have sub-project tracking enabled and you want to divide it into separately tracked work areas.",
+          "how": "On the parent project's Sub-projects panel, select Add Sub-project. The app first saves the sub-project-enabled setting to IndexedDB, then opens the Add Sub-project form.",
+          "inputs": "A saved parent project must be open. No additional data is required to enable the feature; the sub-project name is entered in the form that opens next.",
+          "result": "If the setting saves successfully, sub-project tracking is enabled and the Add Sub-project form opens. If persistence fails, the form is not opened.",
+          "notes": "Enabling sub-project tracking does not create a sub-project by itself. Complete and save the form to create the first sub-project. Confirm the parent project before enabling the feature."
         },
         "fa": {
-          "purpose": "فعال کردن پیگیری زیرپروژه‌ها و شروع افزودن یک مورد.",
-          "when": "وقتی می‌خواهید گردش‌کار زیرپروژه‌ها را فعال و ایجاد یک مورد جدید را شروع کنید، از این گزینه استفاده کنید.",
-          "how": "گزینه Add Sub-project را انتخاب کنید تا گردش‌کار زیرپروژه فعال و فرم ایجاد باز شود.",
-          "inputs": "پیش از آغاز ایجاد، پروژه والد درست را انتخاب کنید.",
-          "result": "گردش‌کار زیرپروژه فعال و فرم ایجاد باز می‌شود.",
-          "notes": "پیش از ایجاد، مطمئن شوید پروژه والد درست انتخاب شده است."
+          "purpose": "پیگیری زیرپروژه‌ها را برای پروژه والد فعلی فعال می‌کند و فرم ایجاد نخستین زیرپروژه را باز می‌کند.",
+          "when": "وقتی پیگیری زیرپروژه‌ها هنوز برای پروژه فعلی فعال نشده و می‌خواهید آن را به بخش‌های کاری جداگانه تقسیم کنید، از این گزینه استفاده کنید.",
+          "how": "در پنل Sub-projects پروژه والد، Add Sub-project را انتخاب کنید. برنامه ابتدا فعال‌شدن قابلیت زیرپروژه را در IndexedDB ذخیره می‌کند و سپس فرم Add Sub-project را باز می‌کند.",
+          "inputs": "پروژه والد ذخیره‌شده باید باز باشد. برای فعال‌کردن قابلیت اطلاعات دیگری لازم نیست؛ نام زیرپروژه در فرمی که بعداً باز می‌شود وارد خواهد شد.",
+          "result": "اگر ذخیره تنظیم موفق باشد، پیگیری زیرپروژه فعال و فرم Add Sub-project باز می‌شود. اگر ذخیره‌سازی شکست بخورد، فرم باز نخواهد شد.",
+          "notes": "فعال‌کردن پیگیری زیرپروژه به‌تنهایی زیرپروژه‌ای ایجاد نمی‌کند. برای ایجاد نخستین زیرپروژه، فرم را تکمیل و ذخیره کنید. پیش از فعال‌سازی، پروژه والد را تأیید کنید."
         },
         "ar": {
           "purpose": "يفعّل متابعة المشاريع الفرعية ويبدأ إضافة مشروع فرعي.",
@@ -14890,20 +14890,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Creates and saves a new sub-project under the current project.",
-          "when": "Use this after entering the name and agreed price for a new sub-project in the current project's sub-project form.",
-          "how": "Enter a non-empty sub-project name and optional agreed price/photo, then select Add Sub-project. This button performs the save; there is no separate save button.",
-          "inputs": "The current parent project and a non-empty sub-project name are required. Agreed price and photo are optional.",
-          "result": "A new sub-project is added to the current project if IndexedDB persistence succeeds, and the project summary is refreshed.",
-          "notes": "Ensure the new sub-project belongs to the correct parent project and is not a duplicate."
+          "purpose": "Creates and saves a new sub-project under the currently open parent project.",
+          "when": "Use this after entering the name and optional agreed price and photo for a new sub-project.",
+          "how": "In the Add Sub-project form, enter a non-empty name, review the agreed price and optionally select a photo. Select Add Sub-project. The button validates the name, saves the new sub-project and refreshes the parent project's detail view.",
+          "inputs": "The current parent project and a non-empty sub-project name are required. Agreed price is optional and defaults to £0; a photo is optional.",
+          "result": "If Projects IndexedDB persistence succeeds, a new sub-project with empty income, expense and other financial lists is added to the parent project. The Sub-projects list is refreshed.",
+          "notes": "The button temporarily disables while saving. If the name is blank, the app displays an alert; if persistence fails, the new item is removed from the in-memory list and the save is not successful. Confirm that the sub-project belongs to the correct parent and is not a duplicate."
         },
         "fa": {
-          "purpose": "افزودن زیرپروژه جدید به پروژه فعلی.",
-          "when": "وقتی می‌خواهید زیرپروژه جدیدی به پروژه فعلی اضافه کنید، از این گزینه استفاده کنید.",
-          "how": "نام غیرخالی زیرپروژه و در صورت تمایل قیمت توافق‌شده و عکس را وارد کنید، سپس Add Sub-project را انتخاب کنید. همین دکمه عملیات ذخیره را انجام می‌دهد و دکمه ذخیره جداگانه‌ای وجود ندارد.",
-          "inputs": "پروژه والد فعلی و نام غیرخالی زیرپروژه الزامی هستند. قیمت توافق‌شده و عکس اختیاری هستند.",
-          "result": "اگر ذخیره‌سازی در IndexedDB موفق شود، زیرپروژه جدید به پروژه فعلی اضافه می‌شود و خلاصه پروژه به‌روزرسانی می‌شود.",
-          "notes": "بررسی کنید زیرپروژه به پروژه والد صحیح تعلق دارد و مورد تکراری نیست."
+          "purpose": "زیرپروژه جدیدی را زیر پروژه والد فعلی ایجاد و ذخیره می‌کند.",
+          "when": "پس از واردکردن نام و در صورت تمایل قیمت توافق‌شده و عکس زیرپروژه جدید، از این گزینه استفاده کنید.",
+          "how": "در فرم Add Sub-project، نام غیرخالی وارد کنید، قیمت توافق‌شده را بررسی و در صورت نیاز عکس انتخاب کنید. Add Sub-project را انتخاب کنید. دکمه نام را اعتبارسنجی، زیرپروژه جدید را ذخیره و نمای جزئیات پروژه والد را تازه‌سازی می‌کند.",
+          "inputs": "پروژه والد فعلی و نام غیرخالی زیرپروژه الزامی هستند. قیمت توافق‌شده اختیاری و مقدار پیش‌فرض آن £0 است؛ عکس نیز اختیاری است.",
+          "result": "اگر ذخیره در IndexedDB بخش Projects موفق باشد، زیرپروژه جدید با فهرست‌های مالی خالی برای درآمد، هزینه و سایر موارد به پروژه والد افزوده می‌شود. فهرست Sub-projects تازه‌سازی می‌شود.",
+          "notes": "دکمه هنگام ذخیره موقتاً غیرفعال می‌شود. اگر نام خالی باشد، برنامه هشدار می‌دهد؛ اگر ذخیره‌سازی شکست بخورد، مورد جدید از فهرست حافظه حذف می‌شود و ذخیره موفق محسوب نمی‌شود. بررسی کنید زیرپروژه به پروژه والد صحیح تعلق دارد و تکراری نیست."
         },
         "ar": {
           "purpose": "يضيف مشروعاً فرعياً جديداً إلى المشروع الحالي.",
