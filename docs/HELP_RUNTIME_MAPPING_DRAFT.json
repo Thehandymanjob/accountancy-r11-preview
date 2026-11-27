@@ -5,11 +5,11 @@
   "branch": "development",
   "baseline": {
     "runtime_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
-    "runtime_blob_sha": "4e89e8086bc8ad4570de6e8250f5e26e42938b5e",
+    "runtime_blob_sha": "aab252dab2092e6728c8276777c4c767beea113a",
     "registry_blob_sha": "f63754128fd09125290df4045f6f4b6fc03b3545",
     "inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
     "help_content_blob_sha": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
-    "help_runtime_blob_sha": "359acd0b24234a4b6ed94627c93daa396ff7dc94"
+    "help_runtime_blob_sha": "b0124c283eedbe445dd141b99c2995641f334219"
   },
   "policy": {
     "label_only_matching": false,
@@ -31,15 +31,16 @@
       "DYNAMIC_TEMPLATE_CANDIDATE": 2,
       "ID_CANDIDATE_REQUIRES_BROWSER_TEST": 4,
       "EXEMPT_NOT_MAPPED": 1,
-      "ADJACENT_HELP_BUTTON_ATTACHED_R53_NOT_BROWSER_VERIFIED": 1
+      "ADJACENT_HELP_BUTTON_ATTACHED_R53_NOT_BROWSER_VERIFIED": 1,
+      "ADJACENT_HELP_BUTTON_ATTACHED_R54_NOT_BROWSER_VERIFIED": 6
     },
-    "notes": "R53 has 38 mapped adjacent Help controls: 15 scoped navigation/report/form selectors, 13 exact unique-ID selectors, five scoped unique-handler selectors and five dynamic-template attributes. The R53 Support Message action saves a local-only draft; it does not send online. Hidden-state synchronization and the fail-closed 33-row static binding guard are enabled. Simulated DOM and R52 checks are documented; R53 live browser test and deployment remain pending.",
+    "notes": "R54 has 44 mapped adjacent Help controls: 21 scoped navigation/report/form/diagnostic selectors, 13 exact unique-ID selectors, five scoped unique-handler selectors and five dynamic-template attributes. R53 preserves the local-only Support Message draft workflow. R54 adds selected-period completion and Monitor & Diagnostics actions. Hidden-state synchronization and the fail-closed 39-row static binding guard are enabled. Real browser tests and deployment remain pending.",
     "runtime_publishable_entries": 132,
     "runtime_languages": 11,
-    "static_controls_attached": 33,
+    "static_controls_attached": 39,
     "draft_static_controls_skipped": 2,
     "dynamic_template_controls_pending": 10,
-    "help_ids_attached": 38,
+    "help_ids_attached": 44,
     "browser_tests_run": 0,
     "dynamic_template_controls_attached": 5,
     "draft_controls_skipped": 12,
@@ -625,16 +626,16 @@
     {
       "help_id": "THA-HLP-0042",
       "audit_ref": "INV-054",
-      "element_id": null,
+      "element_id": "report188Calendar",
       "visible_label": "Confirm records complete for selected period",
       "handler": "report188ConfirmComplete()",
       "handler_name": "report188ConfirmComplete",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#report188Calendar .actions > button[onclick=\"report188ConfirmComplete()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler report188ConfirmComplete occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R54_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the button to #report188Calendar and its literal onclick attribute. The same handler token appears elsewhere in source or function code, but this parent/action selector identifies the intended control. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0043",
@@ -695,16 +696,16 @@
     {
       "help_id": "THA-HLP-0047",
       "audit_ref": "INV-060",
-      "element_id": null,
+      "element_id": "monitor",
       "visible_label": "Show version details",
       "handler": "toggleMonitorVersionInfo()",
       "handler_name": "toggleMonitorVersionInfo",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#monitor button[onclick=\"toggleMonitorVersionInfo()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler toggleMonitorVersionInfo occurs 3 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R54_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the button to #monitor and its literal onclick attribute. The same handler token appears elsewhere in source or function code, but this parent/action selector identifies the intended control. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0048",
@@ -765,58 +766,58 @@
     {
       "help_id": "THA-HLP-0052",
       "audit_ref": "INV-065",
-      "element_id": null,
+      "element_id": "monitor",
       "visible_label": "Download Diagnostic Report (JSON)",
       "handler": "exportDiagnosticReport()",
       "handler_name": "exportDiagnosticReport",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#monitor button[onclick=\"exportDiagnosticReport()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler exportDiagnosticReport occurs 3 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R54_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the button to #monitor and its literal onclick attribute. The same handler token appears elsewhere in source or function code, but this parent/action selector identifies the intended control. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0053",
       "audit_ref": "INV-066",
-      "element_id": null,
+      "element_id": "monitor",
       "visible_label": "Run Full Storage Audit (Read-only)",
       "handler": "runFullStorageAudit()",
       "handler_name": "runFullStorageAudit",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#monitor button[onclick=\"runFullStorageAudit()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler runFullStorageAudit occurs 3 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R54_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the button to #monitor and its literal onclick attribute. The same handler token appears elsewhere in source or function code, but this parent/action selector identifies the intended control. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0054",
       "audit_ref": "INV-067",
-      "element_id": null,
+      "element_id": "monitor",
       "visible_label": "Export Activity Log (CSV)",
       "handler": "exportMonitorCSV()",
       "handler_name": "exportMonitorCSV",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#monitor button[onclick=\"exportMonitorCSV()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler exportMonitorCSV occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R54_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the button to #monitor and its literal onclick attribute. The same handler token appears elsewhere in source or function code, but this parent/action selector identifies the intended control. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0055",
       "audit_ref": "INV-068",
-      "element_id": null,
+      "element_id": "monitor",
       "visible_label": "Run Local Self-check",
       "handler": "runMonitorSelfCheck()",
       "handler_name": "runMonitorSelfCheck",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#monitor button[onclick=\"runMonitorSelfCheck()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler runMonitorSelfCheck occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R54_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the button to #monitor and its literal onclick attribute. The same handler token appears elsewhere in source or function code, but this parent/action selector identifies the intended control. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0056",
