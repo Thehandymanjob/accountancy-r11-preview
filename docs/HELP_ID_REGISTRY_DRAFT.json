@@ -14008,20 +14008,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Generate a PDF for the current sub-project report.",
-          "when": "Use this control when you need a PDF copy of the selected sub-project report.",
-          "how": "Select Generate PDF and wait for the report preview to appear.",
-          "inputs": "Select the correct sub-project and reporting period, then check the report scope and totals.",
-          "result": "A PDF file is created for the sub-project report preview.",
-          "notes": "Check the report scope and totals before saving or printing; generating the file does not submit the report."
+          "purpose": "Generates a PDF from the Full Project Financial Report preview, covering the parent project and its sub-projects.",
+          "when": "Use this after opening the full project report preview when you need a PDF copy of the overall project and sub-project financial results.",
+          "how": "Open the Full Project Financial Report preview and select Generate PDF. Wait while the PDF library creates the file and the PDF preview is rendered. Review the pages before using the share or print controls.",
+          "inputs": "A full project report preview must already be open. The report uses the selected project's saved records and its sub-project records; the PDF and preview libraries may require an internet connection.",
+          "result": "A PDF is generated for the full project report and displayed in the preview area when generation and rendering succeed.",
+          "notes": "The report includes parent and sub-project records, eligible recorded costs and project totals under the report's calculation rules. Check the project, totals and pages before saving or sharing. PDF creation does not submit the report externally."
         },
         "fa": {
-          "purpose": "ساخت PDF از گزارش زیرپروژه فعلی.",
-          "when": "وقتی به نسخه PDF گزارش زیرپروژه انتخاب‌شده نیاز دارید، از این گزینه استفاده کنید.",
-          "how": "Generate PDF را انتخاب کنید و منتظر نمایش پیش‌نمایش گزارش بمانید.",
-          "inputs": "زیرپروژه درست و دوره گزارش را انتخاب کنید و دامنه گزارش و جمع مبالغ را بررسی کنید.",
-          "result": "فایل PDF برای پیش‌نمایش گزارش زیرپروژه ایجاد می‌شود.",
-          "notes": "پیش از ذخیره یا چاپ دامنه و مبالغ گزارش را بررسی کنید؛ تولید PDF به معنی ارسال گزارش نیست."
+          "purpose": "از پیش‌نمایش Full Project Financial Report یک PDF برای کل پروژه اصلی و زیرپروژه‌های آن ایجاد می‌کند.",
+          "when": "پس از بازکردن پیش‌نمایش گزارش مالی کامل پروژه و زمانی که به نسخه PDF نتایج مالی پروژه و زیرپروژه‌ها نیاز دارید، از این گزینه استفاده کنید.",
+          "how": "پیش‌نمایش Full Project Financial Report را باز کنید و Generate PDF را انتخاب کنید. منتظر بمانید تا کتابخانه PDF فایل را ایجاد و پیش‌نمایش PDF را نمایش دهد. پیش از استفاده از کنترل‌های اشتراک‌گذاری یا چاپ، صفحات را بررسی کنید.",
+          "inputs": "پیش‌نمایش گزارش کامل پروژه باید از قبل باز باشد. گزارش از سوابق ذخیره‌شده پروژه انتخاب‌شده و زیرپروژه‌های آن استفاده می‌کند؛ کتابخانه‌های PDF و پیش‌نمایش ممکن است به اتصال اینترنت نیاز داشته باشند.",
+          "result": "در صورت موفقیت ساخت و نمایش، PDF گزارش کامل پروژه در بخش پیش‌نمایش نمایش داده می‌شود.",
+          "notes": "گزارش، سوابق پروژه اصلی و زیرپروژه‌ها، هزینه‌های ثبت‌شده قابل احتساب و مجموع‌های پروژه را طبق قواعد محاسبه خود شامل می‌شود. پیش از ذخیره یا اشتراک‌گذاری، پروژه، مجموع‌ها و صفحات را بررسی کنید. ایجاد PDF گزارش را به مرجع خارجی ارسال نمی‌کند."
         },
         "ar": {
           "purpose": "ينشئ ملف PDF لتقرير المشروع الفرعي الحالي.",
@@ -14106,20 +14106,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Share the generated sub-project report PDF.",
-          "when": "Use this control when you want to send the sub-project report PDF to another person or organisation.",
-          "how": "Select Share PDF and choose an available destination from the device share sheet.",
-          "inputs": "Select the correct report PDF and check its contents and intended recipient before sharing.",
-          "result": "The device share sheet opens when PDF file sharing is supported. Otherwise the app starts downloading the report PDF so it can be shared or printed from Files. Project records are not changed.",
-          "notes": "Review the report for confidential project or financial information before sharing. The app cannot confirm delivery by another app or service."
+          "purpose": "Shares the generated PDF for the current sub-project or full project financial report.",
+          "when": "Use this after the report PDF has been generated and you want to share it or save it using the device's available options.",
+          "how": "In the PDF preview, select Share PDF. If the device supports file sharing, choose a destination in the system share sheet. Otherwise, the app starts downloading the PDF so it can be shared or printed from Files.",
+          "inputs": "A successfully generated report PDF must be available. Choose a destination if the share sheet opens.",
+          "result": "The system share sheet opens when supported; otherwise the report PDF is downloaded as a fallback. The project records are not changed.",
+          "notes": "Review the report for confidential project or financial information before sharing. The app cannot confirm delivery by another app or service. If the share sheet is cancelled, no successful send is reported."
         },
         "fa": {
-          "purpose": "اشتراک‌گذاری PDF گزارش زیرپروژه ساخته‌شده.",
-          "when": "وقتی می‌خواهید نسخه PDF گزارش زیرپروژه را برای شخص یا نهاد دیگری ارسال کنید، از این گزینه استفاده کنید.",
-          "how": "Share PDF را انتخاب کنید و مقصد موجود را از فهرست اشتراک‌گذاری دستگاه برگزینید.",
-          "inputs": "گزارش PDF درست را انتخاب کنید و پیش از اشتراک‌گذاری محتوا و گیرنده را بررسی کنید.",
-          "result": "دستگاه گزینه‌های اشتراک‌گذاری فایل گزارش را باز می‌کند؛ سوابق پروژه تغییر نمی‌کند.",
-          "notes": "پیش از ارسال، اطلاعات مالی یا محرمانه پروژه را در گزارش بررسی کنید."
+          "purpose": "PDF ایجادشده گزارش مالی زیرپروژه یا کل پروژه را به اشتراک می‌گذارد.",
+          "when": "پس از ایجاد PDF گزارش و زمانی که می‌خواهید آن را با امکانات موجود دستگاه به اشتراک بگذارید یا ذخیره کنید، از این گزینه استفاده کنید.",
+          "how": "در پیش‌نمایش PDF گزینه Share PDF را انتخاب کنید. اگر دستگاه از اشتراک‌گذاری فایل پشتیبانی کند، مقصد را در صفحه اشتراک‌گذاری سیستم انتخاب کنید. در غیر این صورت، برنامه PDF را دانلود می‌کند تا بتوانید آن را از Files به اشتراک بگذارید یا چاپ کنید.",
+          "inputs": "یک PDF گزارش که با موفقیت ایجاد شده باشد باید در دسترس باشد. اگر صفحه اشتراک‌گذاری باز شد، مقصد را انتخاب کنید.",
+          "result": "در صورت پشتیبانی دستگاه، صفحه اشتراک‌گذاری سیستم باز می‌شود؛ در غیر این صورت PDF گزارش به‌عنوان روش جایگزین دانلود می‌شود. سوابق پروژه تغییر نمی‌کنند.",
+          "notes": "پیش از اشتراک‌گذاری، اطلاعات مالی یا محرمانه پروژه را بررسی کنید. برنامه نمی‌تواند تحویل فایل توسط برنامه یا سرویس دیگری را تأیید کند. اگر صفحه اشتراک‌گذاری لغو شود، ارسال موفق گزارش نمی‌شود."
         },
         "ar": {
           "purpose": "يشارك ملف PDF الذي تم إنشاؤه لتقرير المشروع الفرعي.",
@@ -14204,20 +14204,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Return from the PDF preview to the report view.",
-          "when": "Use this control when you want to close the PDF preview and return to the report screen.",
-          "how": "Select the × control to close the preview and return to the report screen.",
-          "inputs": "Confirm that you are viewing the correct report preview before closing it.",
-          "result": "The preview closes and the previous report view returns.",
-          "notes": "This control changes the view only; it does not delete or cancel saved project data."
+          "purpose": "Restores the original report preview after the generated PDF page preview has been displayed.",
+          "when": "Use this when you have finished inspecting the rendered PDF pages and want to return to the report document preview.",
+          "how": "In the generated PDF preview, select the × control. The PDF page view is replaced with the original report preview and its Generate PDF control.",
+          "inputs": "The generated PDF preview must be open within the report preview overlay. No additional input is required.",
+          "result": "The generated PDF page view closes and the previous report document preview is restored; the report overlay remains available.",
+          "notes": "This restores the report preview; it does not delete the generated PDF or change any project records. Use the separate Close control if you want to close the report overlay."
         },
         "fa": {
-          "purpose": "بازگشت از پیش‌نمایش PDF به نمای گزارش.",
-          "when": "وقتی می‌خواهید پیش‌نمایش PDF را ببندید و به صفحه گزارش برگردید، از این گزینه استفاده کنید.",
-          "how": "علامت × را انتخاب کنید تا پیش‌نمایش بسته شود و به صفحه گزارش برگردید.",
-          "inputs": "پیش از بستن پیش‌نمایش مطمئن شوید گزارش درست را مشاهده می‌کنید.",
-          "result": "پیش‌نمایش بسته می‌شود و نمای قبلی گزارش بازمی‌گردد.",
-          "notes": "این کنترل فقط نما را تغییر می‌دهد؛ داده ذخیره‌شده پروژه را حذف یا لغو نمی‌کند."
+          "purpose": "پس از نمایش پیش‌نمایش صفحات PDF ایجادشده، پیش‌نمایش اصلی گزارش را بازمی‌گرداند.",
+          "when": "وقتی بررسی صفحات PDF رندرشده را تمام کرده‌اید و می‌خواهید به پیش‌نمایش سند گزارش برگردید، از این گزینه استفاده کنید.",
+          "how": "در پیش‌نمایش PDF ایجادشده، کنترل × را انتخاب کنید. نمای صفحات PDF با پیش‌نمایش اصلی گزارش و کنترل Generate PDF جایگزین می‌شود.",
+          "inputs": "پیش‌نمایش PDF ایجادشده باید داخل پوشش پیش‌نمایش گزارش باز باشد. ورودی دیگری لازم نیست.",
+          "result": "نمای صفحات PDF بسته و پیش‌نمایش سند گزارش قبلی بازیابی می‌شود؛ پوشش گزارش همچنان در دسترس می‌ماند.",
+          "notes": "این گزینه پیش‌نمایش گزارش را بازیابی می‌کند؛ PDF ایجادشده را حذف نمی‌کند و سوابق پروژه را تغییر نمی‌دهد. برای بستن کامل پوشش گزارش از کنترل جداگانه Close استفاده کنید."
         },
         "ar": {
           "purpose": "يغلق معاينة PDF ويعيدك إلى عرض التقرير.",
@@ -14302,20 +14302,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Show the income records for the selected sub-project.",
-          "when": "Use this control when you want to review income recorded for the current sub-project.",
-          "how": "Select Income to display the income view for the current sub-project.",
-          "inputs": "Select the correct sub-project and review the displayed income records.",
-          "result": "The income view for the selected sub-project is displayed.",
-          "notes": "Use the correct sub-project context and compare amounts with actual receipts."
+          "purpose": "Switches the selected sub-project detail view to its Income and customer receipts section.",
+          "when": "Use this when reviewing, recording or editing customer receipts associated with the current sub-project.",
+          "how": "Open the sub-project and select Income. Review the Income & Receipts History or complete the form to record a new receipt, then select Save Receipt.",
+          "inputs": "A sub-project must be open. To add a receipt, enter a valid date and amount greater than zero and choose a payment method. Description and reference are optional.",
+          "result": "The Income view displays the sub-project's saved income/receipt history and the form for adding or editing a receipt.",
+          "notes": "Record only payments actually received. Check the correct sub-project, date, amount and payment method. Income is stored in the project workspace and is separate from general Accountancy entries."
         },
         "fa": {
-          "purpose": "نمایش درآمدهای زیرپروژه انتخاب‌شده.",
-          "when": "وقتی می‌خواهید درآمد ثبت‌شده برای زیرپروژه فعلی را بررسی کنید، از این گزینه استفاده کنید.",
-          "how": "گزینه Income را انتخاب کنید تا نمای درآمدهای زیرپروژه فعلی نمایش داده شود.",
-          "inputs": "زیرپروژه درست را انتخاب کنید و سوابق درآمد نمایش‌داده‌شده را بررسی کنید.",
-          "result": "نمای درآمد زیرپروژه انتخاب‌شده نمایش داده می‌شود.",
-          "notes": "از انتخاب زیرپروژه درست مطمئن شوید و مبالغ را با دریافت‌های واقعی تطبیق دهید."
+          "purpose": "نمای جزئیات زیرپروژه انتخاب‌شده را به بخش Income و رسیدهای مشتری تغییر می‌دهد.",
+          "when": "برای بررسی، ثبت یا ویرایش دریافت‌های مشتری مربوط به زیرپروژه فعلی از این گزینه استفاده کنید.",
+          "how": "زیرپروژه را باز کنید و Income را انتخاب کنید. تاریخچه Income & Receipts History را بررسی کنید یا فرم را برای ثبت دریافت جدید تکمیل و سپس Save Receipt را انتخاب کنید.",
+          "inputs": "یک زیرپروژه باید باز باشد. برای افزودن رسید، تاریخ معتبر و مبلغ بیشتر از صفر وارد و روش پرداخت را انتخاب کنید. شرح و مرجع اختیاری هستند.",
+          "result": "نمای Income تاریخچه درآمد/رسیدهای ذخیره‌شده زیرپروژه و فرم افزودن یا ویرایش رسید را نمایش می‌دهد.",
+          "notes": "فقط پرداخت‌هایی را ثبت کنید که واقعاً دریافت شده‌اند. زیرپروژه، تاریخ، مبلغ و روش پرداخت را بررسی کنید. درآمد در فضای پروژه ذخیره می‌شود و از ثبت‌های عمومی Accountancy جدا است."
         },
         "ar": {
           "purpose": "يعرض سجلات الدخل للمشروع الفرعي المحدد.",
@@ -14400,20 +14400,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Show the expense records for the selected sub-project.",
-          "when": "Use this control when you want to review expenses recorded for the current sub-project.",
-          "how": "Select Expenses to display the expense view for the current sub-project.",
-          "inputs": "Select the correct sub-project and review the displayed expense records.",
-          "result": "The expense view for the selected sub-project is displayed.",
-          "notes": "Check that costs belong to this sub-project and are not duplicated in another cost list."
+          "purpose": "Switches the selected sub-project detail view to its Expenses section.",
+          "when": "Use this when reviewing, recording or editing costs assigned to the current sub-project.",
+          "how": "Open the sub-project and select Expenses. Review the Expense History or complete the expense form, choose a category and any required worker/contractor, then select Save Expense.",
+          "inputs": "A sub-project must be open. To add an expense, enter a valid date and amount greater than zero and select a category. Contractor / subcontractor requires a registered contractor; Worker wages requires a registered worker. Description, reference and receipt photo are optional.",
+          "result": "The Expenses view displays saved expense history and the form for adding or editing a cost. A receipt photo can be attached to an expense.",
+          "notes": "Check that every cost belongs to the selected sub-project and is not duplicated elsewhere. Keep supporting receipts. Project expenses remain in the project workspace and are not automatically added to general Accountancy."
         },
         "fa": {
-          "purpose": "نمایش هزینه‌های زیرپروژه انتخاب‌شده.",
-          "when": "وقتی می‌خواهید هزینه‌های ثبت‌شده برای زیرپروژه فعلی را بررسی کنید، از این گزینه استفاده کنید.",
-          "how": "گزینه Expenses را انتخاب کنید تا نمای هزینه‌های زیرپروژه فعلی نمایش داده شوند.",
-          "inputs": "زیرپروژه درست را انتخاب کنید و سوابق هزینه نمایش‌داده‌شده را بررسی کنید.",
-          "result": "نمای هزینه زیرپروژه انتخاب‌شده نمایش داده می‌شود.",
-          "notes": "بررسی کنید هزینه‌ها متعلق به همین زیرپروژه باشند و در فهرست هزینه دیگری تکرار نشده باشند."
+          "purpose": "نمای جزئیات زیرپروژه انتخاب‌شده را به بخش Expenses تغییر می‌دهد.",
+          "when": "برای بررسی، ثبت یا ویرایش هزینه‌های تخصیص‌یافته به زیرپروژه فعلی از این گزینه استفاده کنید.",
+          "how": "زیرپروژه را باز کنید و Expenses را انتخاب کنید. Expense History را بررسی کنید یا فرم هزینه را تکمیل کنید؛ دسته‌بندی و در صورت لزوم کارگر/پیمانکار را انتخاب و سپس Save Expense را بزنید.",
+          "inputs": "یک زیرپروژه باید باز باشد. برای افزودن هزینه، تاریخ معتبر و مبلغ بیشتر از صفر وارد و دسته‌بندی را انتخاب کنید. در Contractor / subcontractor پیمانکار ثبت‌شده و در Worker wages کارگر ثبت‌شده الزامی است. شرح، مرجع و عکس رسید اختیاری هستند.",
+          "result": "نمای Expenses تاریخچه هزینه‌های ذخیره‌شده و فرم افزودن یا ویرایش هزینه را نمایش می‌دهد. می‌توان به هزینه عکس رسید پیوست کرد.",
+          "notes": "بررسی کنید هر هزینه به زیرپروژه انتخاب‌شده تعلق داشته و در جای دیگری تکرار نشده باشد. رسیدهای پشتیبان را نگه دارید. هزینه‌های پروژه در فضای پروژه باقی می‌مانند و خودکار به Accountancy عمومی افزوده نمی‌شوند."
         },
         "ar": {
           "purpose": "يعرض سجلات المصروفات للمشروع الفرعي المحدد.",
