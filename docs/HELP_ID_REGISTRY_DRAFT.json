@@ -14083,88 +14083,88 @@
           "purpose": "Generate a PDF for the current sub-project report.",
           "when": "Use this control when you need a PDF copy of the selected sub-project report.",
           "how": "Select Generate PDF and wait for the report preview to appear.",
-          "inputs": "Select the correct sub-project and reporting period, then check the totals before generating the PDF.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
-          "notes": "Check the report scope and totals before saving or printing; generation does not submit the report."
+          "inputs": "Select the correct sub-project and reporting period, then check the report scope and totals.",
+          "result": "A PDF file is created for the sub-project report preview.",
+          "notes": "Check the report scope and totals before saving or printing; generating the file does not submit the report."
         },
         "fa": {
           "purpose": "ساخت PDF از گزارش زیرپروژه فعلی.",
           "when": "وقتی به نسخه PDF گزارش زیرپروژه انتخاب‌شده نیاز دارید، از این گزینه استفاده کنید.",
           "how": "Generate PDF را انتخاب کنید و منتظر نمایش پیش‌نمایش گزارش بمانید.",
-          "inputs": "زیرپروژه درست و دوره گزارش را انتخاب کنید و پیش از ایجاد PDF، جمع مبالغ را بررسی کنید.",
-          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
-          "notes": "دامنه گزارش و مبالغ را بررسی کنید؛ تولید PDF به معنی ارسال گزارش نیست."
+          "inputs": "زیرپروژه درست و دوره گزارش را انتخاب کنید و دامنه گزارش و جمع مبالغ را بررسی کنید.",
+          "result": "فایل PDF برای پیش‌نمایش گزارش زیرپروژه ایجاد می‌شود.",
+          "notes": "پیش از ذخیره یا چاپ دامنه و مبالغ گزارش را بررسی کنید؛ تولید PDF به معنی ارسال گزارش نیست."
         },
         "ar": {
           "purpose": "ينشئ ملف PDF لتقرير المشروع الفرعي الحالي.",
           "when": "عندما تحتاج إلى نسخة PDF من تقرير المشروع الفرعي المحدد.",
           "how": "اختر Generate PDF وانتظر ظهور معاينة التقرير.",
-          "inputs": "حدد المشروع الفرعي الصحيح وفترة التقرير، وتحقق من الإجماليات قبل إنشاء الملف.",
-          "result": "تُجهز نسخة PDF ويظهر عرض المعاينة.",
-          "notes": "تحقق من نطاق التقرير والإجماليات قبل الحفظ أو الطباعة؛ إنشاء الملف لا يرسل التقرير."
+          "inputs": "حدد المشروع الفرعي وفترة التقرير وتحقق من الإجماليات قبل إنشاء PDF.",
+          "result": "يُنشأ ملف PDF لمعاينة التقرير.",
+          "notes": "تحقق من نطاق التقرير وإجمالياته قبل الحفظ أو الطباعة؛ إنشاء الملف لا يرسل التقرير."
         },
         "ckb": {
-          "purpose": "PDF بۆ ڕاپۆرتی پرۆژە لاوەکیی ئێستا دروست دەکات.",
+          "purpose": "فایلی PDF بۆ ڕاپۆرتی پرۆژە لاوەکیی ئێستا دروست دەکات.",
           "when": "کاتێک پێویستت بە کۆپیی PDFی ڕاپۆرتی پرۆژە لاوەکیی دیاریکراو هەیە.",
-          "how": "Generate PDF هەڵبژێرە و چاوەڕێ بکە تا پێشبینینی ڕاپۆرتەکە دەردەکەوێت.",
-          "inputs": "پرۆژە لاوەکیی دروست و ماوەی ڕاپۆرت هەڵبژێرە و پێش دروستکردنی فایل کۆیەکان بپشکنە.",
-          "result": "کۆپیی PDF ئامادە دەکرێت و پێشبینینەکە پیشان دەدرێت.",
-          "notes": "پێش پاشەکەوتکردن یان چاپکردن مەودای ڕاپۆرت و کۆیەکان بپشکنە؛ دروستکردنی فایل ڕاپۆرتەکە نانێرێت."
+          "how": "Generate PDF هەڵبژێرە و چاوەڕێ بکە پێشبینینی ڕاپۆرت پیشان بدرێت.",
+          "inputs": "پرۆژە لاوەکی و ماوەی ڕاپۆرت هەڵبژێرە و پێش دروستکردنی PDF کۆیەکان بپشکنە.",
+          "result": "فایلی PDF بۆ پێشبینینی ڕاپۆرت دروست دەکرێت.",
+          "notes": "پێش پاشەکەوتکردن یان چاپکردن مەودا و کۆیەکانی ڕاپۆرت بپشکنە؛ دروستکردنی فایل ڕاپۆرت نانێرێت."
         },
         "kmr": {
-          "purpose": "Ji bo rapora projeya jêrîn a niha PDF çêdike.",
+          "purpose": "Ji bo rapora projeya jêrîn a niha pelê PDF çêdike.",
           "when": "Dema ku tu hewceyî kopiyeke PDF ya rapora projeya jêrîn a hilbijartî yî.",
-          "how": "Generate PDF hilbijêre û li bendê be heta pêşdîtina raporê xuya bibe.",
-          "inputs": "Projeya jêrîn a rast û heyama raporê hilbijêre, paşê berî çêkirina pelê tevahiyan kontrol bike.",
-          "result": "Kopiya PDF tê amadekirin û pêşdîtin tê nîşandan.",
-          "notes": "Berî tomarkirin an çapkirinê qad û tevahiyên raporê kontrol bike; çêkirina pelê raporê naşîne."
+          "how": "Generate PDF hilbijêre û li bendê bimîne heta pêşdîtina raporê xuya bibe.",
+          "inputs": "Projeya jêrîn û heyama raporê hilbijêre û berî çêkirina PDF tevahiyan kontrol bike.",
+          "result": "Pelê PDF ji bo pêşdîtina raporê tê çêkirin.",
+          "notes": "Berî tomarkirin an çapkirinê qada raporê û tevahiyan kontrol bike; çêkirina pelê raporê naşîne."
         },
         "tr": {
           "purpose": "Geçerli alt proje raporu için PDF oluşturur.",
           "when": "Seçilen alt proje raporunun PDF kopyasına ihtiyaç duyduğunuzda kullanın.",
-          "how": "Generate PDF'yi seçin ve rapor önizlemesi görünene kadar bekleyin.",
-          "inputs": "Doğru alt projeyi ve raporlama dönemini seçin, dosyayı oluşturmadan önce toplamları kontrol edin.",
-          "result": "PDF kopyası hazırlanır ve önizleme görüntülenir.",
+          "how": "Generate PDF'yi seçin ve rapor önizlemesinin görünmesini bekleyin.",
+          "inputs": "Doğru alt projeyi ve raporlama dönemini seçin; PDF oluşturmadan önce toplamları kontrol edin.",
+          "result": "Rapor önizlemesi için PDF dosyası oluşturulur.",
           "notes": "Kaydetmeden veya yazdırmadan önce rapor kapsamını ve toplamları kontrol edin; dosya oluşturmak raporu göndermez."
         },
         "pl": {
-          "purpose": "Generuje plik PDF bieżącego raportu podprojektu.",
-          "when": "Użyj, gdy potrzebujesz pliku PDF raportu wybranego podprojektu.",
-          "how": "Wybierz Generate PDF i poczekaj, aż pojawi się podgląd raportu.",
-          "inputs": "Wybierz właściwy podprojekt i okres raportowania, a przed utworzeniem pliku sprawdź sumy.",
-          "result": "Przygotowywana jest kopia PDF i wyświetlany jest podgląd.",
-          "notes": "Przed zapisaniem lub drukowaniem sprawdź zakres raportu i sumy; wygenerowanie pliku nie wysyła raportu."
+          "purpose": "Tworzy plik PDF bieżącego raportu podprojektu.",
+          "when": "Użyj, gdy potrzebujesz kopii PDF wybranego raportu podprojektu.",
+          "how": "Wybierz Generate PDF i poczekaj na wyświetlenie podglądu raportu.",
+          "inputs": "Wybierz właściwy podprojekt i okres raportowania, a przed utworzeniem PDF sprawdź sumy.",
+          "result": "Zostanie utworzony plik PDF do podglądu raportu.",
+          "notes": "Przed zapisaniem lub wydrukowaniem sprawdź zakres i sumy raportu; utworzenie pliku nie wysyła raportu."
         },
         "ur": {
           "purpose": "موجودہ ذیلی منصوبے کی رپورٹ کے لیے PDF بناتا ہے۔",
           "when": "جب منتخب ذیلی منصوبے کی رپورٹ کی PDF نقل درکار ہو تو استعمال کریں۔",
-          "how": "Generate PDF منتخب کریں اور رپورٹ کا پیش منظر ظاہر ہونے کا انتظار کریں۔",
-          "inputs": "درست ذیلی منصوبہ اور رپورٹنگ مدت منتخب کریں اور فائل بنانے سے پہلے مجموعی رقوم چیک کریں۔",
-          "result": "PDF نقل تیار ہوتی ہے اور پیش منظر دکھائی دیتا ہے۔",
-          "notes": "محفوظ یا پرنٹ کرنے سے پہلے رپورٹ کا دائرہ اور مجموعی رقوم چیک کریں؛ PDF بنانا رپورٹ جمع نہیں کرتا۔"
+          "how": "Generate PDF منتخب کریں اور رپورٹ کا پیش منظر آنے تک انتظار کریں۔",
+          "inputs": "درست ذیلی منصوبہ اور رپورٹنگ مدت منتخب کریں اور PDF بنانے سے پہلے مجموعی رقوم چیک کریں۔",
+          "result": "رپورٹ کے پیش منظر کے لیے PDF فائل تیار ہو جاتی ہے۔",
+          "notes": "محفوظ یا پرنٹ کرنے سے پہلے رپورٹ کا دائرہ اور مجموعی رقوم چیک کریں؛ فائل بنانے سے رپورٹ ارسال نہیں ہوتی۔"
         },
         "pa": {
           "purpose": "ਮੌਜੂਦਾ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਰਿਪੋਰਟ ਲਈ PDF ਬਣਾਉਂਦਾ ਹੈ।",
           "when": "ਜਦੋਂ ਚੁਣੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦੀ ਰਿਪੋਰਟ ਦੀ PDF ਕਾਪੀ ਚਾਹੀਦੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
-          "how": "Generate PDF ਚੁਣੋ ਅਤੇ ਰਿਪੋਰਟ ਦੀ ਝਲਕ ਆਉਣ ਦੀ ਉਡੀਕ ਕਰੋ।",
-          "inputs": "ਸਹੀ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਅਤੇ ਰਿਪੋਰਟਿੰਗ ਮਿਆਦ ਚੁਣੋ ਅਤੇ ਫਾਈਲ ਬਣਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਕੁੱਲ ਰਕਮਾਂ ਜਾਂਚੋ।",
-          "result": "PDF ਕਾਪੀ ਤਿਆਰ ਹੁੰਦੀ ਹੈ ਅਤੇ ਝਲਕ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ।",
-          "notes": "ਸੇਵ ਜਾਂ ਪ੍ਰਿੰਟ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਰਿਪੋਰਟ ਦਾ ਦਾਇਰਾ ਅਤੇ ਕੁੱਲ ਰਕਮਾਂ ਜਾਂਚੋ؛ PDF ਬਣਾਉਣ ਨਾਲ ਰਿਪੋਰਟ ਜਮ੍ਹਾਂ ਨਹੀਂ ਹੁੰਦੀ।"
+          "how": "Generate PDF ਚੁਣੋ ਅਤੇ ਰਿਪੋਰਟ ਦੀ ਝਲਕ ਆਉਣ ਤੱਕ ਉਡੀਕ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਅਤੇ ਰਿਪੋਰਟਿੰਗ ਮਿਆਦ ਚੁਣੋ ਅਤੇ PDF ਬਣਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਕੁੱਲ ਰਕਮਾਂ ਜਾਂਚੋ।",
+          "result": "ਰਿਪੋਰਟ ਦੀ ਝਲਕ ਲਈ PDF ਫਾਈਲ ਤਿਆਰ ਹੁੰਦੀ ਹੈ।",
+          "notes": "ਸੇਵ ਜਾਂ ਪ੍ਰਿੰਟ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਰਿਪੋਰਟ ਦਾ ਦਾਇਰਾ ਅਤੇ ਕੁੱਲ ਰਕਮਾਂ ਜਾਂਚੋ; ਫਾਈਲ ਬਣਾਉਣ ਨਾਲ ਰਿਪੋਰਟ ਨਹੀਂ ਭੇਜੀ ਜਾਂਦੀ।"
         },
         "prs": {
-          "purpose": "برای گزارش فعلی زیرپروژه PDF ایجاد می‌کند.",
+          "purpose": "برای گزارش فعلی زیرپروژه فایل PDF ایجاد می‌کند.",
           "when": "وقتی به نسخه PDF گزارش زیرپروژه انتخاب‌شده نیاز دارید، استفاده کنید.",
           "how": "Generate PDF را انتخاب کنید و منتظر نمایش پیش‌نمایش گزارش بمانید.",
-          "inputs": "زیرپروژه درست و دوره گزارش را انتخاب کنید و پیش از ایجاد فایل، جمع مبالغ را بررسی کنید.",
-          "result": "نسخه PDF آماده و پیش‌نمایش آن نمایش داده می‌شود.",
-          "notes": "پیش از ذخیره یا چاپ، محدوده گزارش و جمع مبالغ را بررسی کنید؛ تولید فایل گزارش را ارسال نمی‌کند."
+          "inputs": "زیرپروژه و دوره گزارش درست را انتخاب کنید و پیش از ایجاد PDF جمع مبالغ را بررسی کنید.",
+          "result": "فایل PDF برای پیش‌نمایش گزارش ایجاد می‌شود.",
+          "notes": "پیش از ذخیره یا چاپ دامنه و جمع مبالغ گزارش را بررسی کنید؛ ایجاد فایل گزارش را ارسال نمی‌کند."
         },
         "ps": {
-          "purpose": "د اوسني فرعي پروژې راپور لپاره PDF جوړوي.",
+          "purpose": "د اوسنۍ فرعي پروژې راپور لپاره PDF جوړوي.",
           "when": "کله چې د ټاکل شوي فرعي پروژې راپور PDF کاپي ته اړتیا لرئ، دا وکاروئ.",
-          "how": "Generate PDF وټاکئ او د راپور د مخکتنې تر څرګندېدو انتظار وکړئ.",
-          "inputs": "سمه فرعي پروژه او د راپور موده وټاکئ او د فایل له جوړولو مخکې ټولیزې شمېرې وګورئ.",
-          "result": "PDF کاپي چمتو کېږي او مخکتنه ښکاره کېږي.",
+          "how": "Generate PDF وټاکئ او د راپور د مخکتنې تر ښکاره کېدو انتظار وکړئ.",
+          "inputs": "سمه فرعي پروژه او د راپور موده وټاکئ او د PDF له جوړولو مخکې ټولیزې شمېرې وګورئ.",
+          "result": "د راپور د مخکتنې لپاره PDF فایل جوړېږي.",
           "notes": "له خوندي کولو یا چاپ مخکې د راپور ساحه او ټولیزې شمېرې وګورئ؛ د فایل جوړول راپور نه لېږي."
         }
       },
@@ -14182,7 +14182,7 @@
           "when": "Use this control when you want to send the sub-project report PDF to another person or organisation.",
           "how": "Select Share PDF and choose an available destination from the device share sheet.",
           "inputs": "Select the correct report PDF and check its contents and intended recipient before sharing.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The device opens sharing options for the report file; project records are not changed.",
           "notes": "Review the report for confidential project or financial information before sharing."
         },
         "fa": {
@@ -14190,80 +14190,80 @@
           "when": "وقتی می‌خواهید نسخه PDF گزارش زیرپروژه را برای شخص یا نهاد دیگری ارسال کنید، از این گزینه استفاده کنید.",
           "how": "Share PDF را انتخاب کنید و مقصد موجود را از فهرست اشتراک‌گذاری دستگاه برگزینید.",
           "inputs": "گزارش PDF درست را انتخاب کنید و پیش از اشتراک‌گذاری محتوا و گیرنده را بررسی کنید.",
-          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "result": "دستگاه گزینه‌های اشتراک‌گذاری فایل گزارش را باز می‌کند؛ سوابق پروژه تغییر نمی‌کند.",
           "notes": "پیش از ارسال، اطلاعات مالی یا محرمانه پروژه را در گزارش بررسی کنید."
         },
         "ar": {
-          "purpose": "يشارك ملف PDF لتقرير المشروع الفرعي الذي تم إنشاؤه.",
-          "when": "عندما تريد إرسال نسخة PDF من تقرير المشروع الفرعي إلى شخص أو جهة أخرى.",
-          "how": "اختر Share PDF وحدد وجهة متاحة من قائمة المشاركة التي يوفرها الجهاز.",
-          "inputs": "حدد تقرير PDF الصحيح وتحقق من محتواه والجهة المستلمة قبل المشاركة.",
-          "result": "تُفتح خيارات مشاركة ملف PDF للتقرير.",
-          "notes": "راجع التقرير بحثاً عن معلومات مالية أو معلومات مشروع سرية قبل مشاركته."
+          "purpose": "يشارك ملف PDF الذي تم إنشاؤه لتقرير المشروع الفرعي.",
+          "when": "عندما تريد إرسال تقرير المشروع الفرعي بصيغة PDF إلى شخص أو مؤسسة أخرى.",
+          "how": "اختر Share PDF وحدد وجهة متاحة من قائمة المشاركة في الجهاز.",
+          "inputs": "حدد ملف PDF الصحيح وراجع محتواه والمستلم المقصود قبل المشاركة.",
+          "result": "تُفتح خيارات مشاركة ملف التقرير المحدد؛ ولا تتغير سجلات المشروع.",
+          "notes": "راجع المعلومات المالية أو السرية في التقرير قبل مشاركته."
         },
         "ckb": {
-          "purpose": "فایلی PDFی ڕاپۆرتی پرۆژە لاوەکیی دروستکراو هاوبەش دەکات.",
-          "when": "کاتێک دەتەوێت کۆپیی PDFی ڕاپۆرتی پرۆژە لاوەکی بۆ کەس یان لایەنێکی تر بنێریت.",
-          "how": "Share PDF هەڵبژێرە و شوێنێکی بەردەست لە پێڕستی هاوبەشکردنی ئامێرەکە دیاری بکە.",
-          "inputs": "ڕاپۆرتی PDFی دروست هەڵبژێرە و پێش هاوبەشکردن ناوەڕۆک و وەرگر بپشکنە.",
-          "result": "هەڵبژاردەکانی هاوبەشکردنی PDFی ڕاپۆرت دەکرێنەوە.",
-          "notes": "پێش هاوبەشکردن ڕاپۆرتەکە بۆ زانیاری دارایی یان زانیاری نهێنیی پرۆژە بپشکنە."
+          "purpose": "فایلی PDFی دروستکراوی ڕاپۆرتی پرۆژە لاوەکی هاوبەش دەکات.",
+          "when": "کاتێک دەتەوێت ڕاپۆرتی پرۆژە لاوەکی بە PDF بۆ کەسێک یان دامەزراوەیەکی تر بنێریت.",
+          "how": "Share PDF هەڵبژێرە و مەبەستی بەردەست لە پێڕستی هاوبەشکردنی ئامێرەکەت هەڵبژێرە.",
+          "inputs": "فایلی PDFی دروست هەڵبژێرە و پێش هاوبەشکردن ناوەڕۆک و وەرگری مەبەست بپشکنە.",
+          "result": "هەڵبژاردەکانی هاوبەشکردنی فایلی ڕاپۆرت دەکرێنەوە؛ تۆمارەکانی پرۆژە ناگۆڕدرێن.",
+          "notes": "پێش هاوبەشکردن زانیاری دارایی یان نهێنی پرۆژە لە ڕاپۆرتەکەدا بپشکنە."
         },
         "kmr": {
-          "purpose": "PDF ya rapora projeya jêrîn a çêkirî parve dike.",
-          "when": "Dema ku tu dixwazî kopiyeke PDF ya rapora projeya jêrîn ji kesek an aliyekî din re bişînî.",
-          "how": "Share PDF hilbijêre û cihêkê yê berdest ji lîsteya parvekirina amûrê hilbijêre.",
-          "inputs": "Rapora PDF ya rast hilbijêre û berî parvekirinê naverok û wergir kontrol bike.",
-          "result": "Vebijarkên parvekirina PDF ya raporê vedibin.",
-          "notes": "Berî parvekirinê raporê ji bo agahiyên darayî an agahiyên nepenî yên projeyê kontrol bike."
+          "purpose": "Pelê PDF ya rapora projeya jêrîn a çêkirî parve dike.",
+          "when": "Dema ku tu dixwazî rapora projeya jêrîn wekî PDF ji kesek an rêxistinek din re bişînî.",
+          "how": "Share PDF hilbijêre û cihê berdest ji lîsteya parvekirina amûrê hilbijêre.",
+          "inputs": "Pelê PDF ya rast hilbijêre û berî parvekirinê naverok û wergirê xwestî kontrol bike.",
+          "result": "Vebijarkên parvekirina pelê raporê vedibin; tomarên projeyê naguherin.",
+          "notes": "Berî parvekirinê agahiyên darayî an nepenî yên projeyê di raporê de kontrol bike."
         },
         "tr": {
-          "purpose": "Oluşturulan alt proje raporu PDF'sini paylaşır.",
-          "when": "Alt proje raporunun PDF kopyasını başka bir kişi veya kuruma göndermek istediğinizde kullanın.",
-          "how": "Share PDF'yi seçin ve cihazın paylaşım listesinden kullanılabilir bir hedef belirleyin.",
-          "inputs": "Doğru PDF raporunu seçin ve paylaşmadan önce içeriğini ve alıcıyı kontrol edin.",
-          "result": "Rapor PDF'si için paylaşım seçenekleri açılır.",
-          "notes": "Paylaşmadan önce raporda gizli proje veya finansal bilgi olup olmadığını kontrol edin."
+          "purpose": "Oluşturulan alt proje raporu PDF dosyasını paylaşır.",
+          "when": "Alt proje raporunun PDF'sini başka bir kişi veya kuruluşa göndermek istediğinizde kullanın.",
+          "how": "Share PDF'yi seçin ve cihazın paylaşım menüsünden kullanılabilir hedefi belirleyin.",
+          "inputs": "Doğru rapor PDF'sini seçin ve paylaşmadan önce içeriği ve alıcıyı kontrol edin.",
+          "result": "Rapor dosyasının paylaşım seçenekleri açılır; proje kayıtları değişmez.",
+          "notes": "Paylaşmadan önce rapordaki gizli proje veya finans bilgilerini gözden geçirin."
         },
         "pl": {
           "purpose": "Udostępnia wygenerowany plik PDF raportu podprojektu.",
-          "when": "Użyj, gdy chcesz wysłać kopię PDF raportu podprojektu innej osobie lub instytucji.",
-          "how": "Wybierz Share PDF i wskaż dostępne miejsce docelowe z systemowego panelu udostępniania.",
-          "inputs": "Wybierz właściwy raport PDF i przed udostępnieniem sprawdź jego zawartość oraz odbiorcę.",
-          "result": "Otwierają się opcje udostępniania pliku PDF raportu.",
+          "when": "Użyj, gdy chcesz wysłać raport podprojektu w formacie PDF innej osobie lub organizacji.",
+          "how": "Wybierz Share PDF i wskaż dostępne miejsce docelowe w systemowym menu udostępniania.",
+          "inputs": "Wybierz właściwy plik PDF raportu i przed udostępnieniem sprawdź jego zawartość oraz odbiorcę.",
+          "result": "Otworzą się opcje udostępniania pliku raportu; rekordy projektu nie zostaną zmienione.",
           "notes": "Przed udostępnieniem sprawdź, czy raport zawiera poufne informacje o projekcie lub finansach."
         },
         "ur": {
-          "purpose": "بنائی گئی ذیلی منصوبے کی رپورٹ کی PDF شیئر کرتا ہے۔",
-          "when": "جب ذیلی منصوبے کی رپورٹ کی PDF نقل کسی دوسرے شخص یا ادارے کو بھیجنی ہو تو استعمال کریں۔",
-          "how": "Share PDF منتخب کریں اور ڈیوائس کی شیئرنگ فہرست سے دستیاب منزل منتخب کریں۔",
-          "inputs": "درست PDF رپورٹ منتخب کریں اور شیئر کرنے سے پہلے اس کا مواد اور وصول کنندہ چیک کریں۔",
-          "result": "رپورٹ PDF کے لیے شیئرنگ اختیارات کھل جاتے ہیں۔",
-          "notes": "شیئر کرنے سے پہلے رپورٹ میں خفیہ پروجیکٹ یا مالی معلومات چیک کریں۔"
+          "purpose": "تیار کردہ ذیلی منصوبے کی رپورٹ کی PDF شیئر کرتا ہے۔",
+          "when": "جب ذیلی منصوبے کی رپورٹ PDF میں کسی دوسرے شخص یا ادارے کو بھیجنی ہو تو استعمال کریں۔",
+          "how": "Share PDF منتخب کریں اور ڈیوائس کے شیئر مینو سے دستیاب منزل منتخب کریں۔",
+          "inputs": "درست رپورٹ PDF منتخب کریں اور شیئر کرنے سے پہلے اس کا مواد اور وصول کنندہ چیک کریں۔",
+          "result": "رپورٹ فائل کے شیئر اختیارات کھل جاتے ہیں؛ پروجیکٹ ریکارڈ تبدیل نہیں ہوتے۔",
+          "notes": "شیئر کرنے سے پہلے رپورٹ میں موجود خفیہ پروجیکٹ یا مالی معلومات دیکھ لیں۔"
         },
         "pa": {
-          "purpose": "ਬਣੀ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਰਿਪੋਰਟ ਦੀ PDF ਸਾਂਝੀ ਕਰਦਾ ਹੈ।",
-          "when": "ਜਦੋਂ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਰਿਪੋਰਟ ਦੀ PDF ਕਾਪੀ ਕਿਸੇ ਹੋਰ ਵਿਅਕਤੀ ਜਾਂ ਸੰਸਥਾ ਨੂੰ ਭੇਜਣੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
-          "how": "Share PDF ਚੁਣੋ ਅਤੇ ਡਿਵਾਈਸ ਦੀ ਸਾਂਝਾ ਸੂਚੀ ਵਿੱਚੋਂ ਉਪਲਬਧ ਮੰਜ਼ਿਲ ਚੁਣੋ।",
-          "inputs": "ਸਹੀ PDF ਰਿਪੋਰਟ ਚੁਣੋ ਅਤੇ ਸਾਂਝਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਇਸਦੀ ਸਮੱਗਰੀ ਅਤੇ ਪ੍ਰਾਪਤਕਰਤਾ ਜਾਂਚੋ।",
-          "result": "ਰਿਪੋਰਟ PDF ਲਈ ਸਾਂਝਾ ਕਰਨ ਦੇ ਵਿਕਲਪ ਖੁੱਲ੍ਹਦੇ ਹਨ।",
-          "notes": "ਸਾਂਝਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਰਿਪੋਰਟ ਵਿੱਚ ਗੁਪਤ ਪ੍ਰੋਜੈਕਟ ਜਾਂ ਵਿੱਤੀ ਜਾਣਕਾਰੀ ਜਾਂਚੋ।"
+          "purpose": "ਤਿਆਰ ਕੀਤੀ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਰਿਪੋਰਟ ਦੀ PDF ਸਾਂਝੀ ਕਰਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਰਿਪੋਰਟ ਦੀ PDF ਕਿਸੇ ਹੋਰ ਵਿਅਕਤੀ ਜਾਂ ਸੰਸਥਾ ਨੂੰ ਭੇਜਣੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Share PDF ਚੁਣੋ ਅਤੇ ਡਿਵਾਈਸ ਦੇ ਸ਼ੇਅਰ ਮੀਨੂ ਵਿੱਚੋਂ ਉਪਲਬਧ ਮੰਜ਼ਿਲ ਚੁਣੋ।",
+          "inputs": "ਸਹੀ ਰਿਪੋਰਟ PDF ਚੁਣੋ ਅਤੇ ਸਾਂਝੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਇਸਦੀ ਸਮੱਗਰੀ ਅਤੇ ਪ੍ਰਾਪਤਕਰਤਾ ਜਾਂਚੋ।",
+          "result": "ਰਿਪੋਰਟ ਫਾਈਲ ਦੇ ਸ਼ੇਅਰ ਵਿਕਲਪ ਖੁੱਲ੍ਹਦੇ ਹਨ; ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਨਹੀਂ ਬਦਲਦੇ।",
+          "notes": "ਸਾਂਝੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਰਿਪੋਰਟ ਵਿੱਚ ਗੁਪਤ ਪ੍ਰੋਜੈਕਟ ਜਾਂ ਵਿੱਤੀ ਜਾਣਕਾਰੀ ਦੀ ਜਾਂਚ ਕਰੋ।"
         },
         "prs": {
-          "purpose": "فایل PDF گزارش تولیدشده زیرپروژه را به اشتراک می‌گذارد.",
-          "when": "وقتی می‌خواهید نسخه PDF گزارش زیرپروژه را برای شخص یا نهاد دیگری ارسال کنید، استفاده کنید.",
-          "how": "Share PDF را انتخاب کنید و مقصدی در دسترس را از فهرست اشتراک‌گذاری دستگاه برگزینید.",
-          "inputs": "گزارش PDF درست را انتخاب کنید و پیش از اشتراک‌گذاری محتوا و گیرنده را بررسی کنید.",
-          "result": "گزینه‌های اشتراک‌گذاری PDF گزارش باز می‌شوند.",
-          "notes": "پیش از اشتراک‌گذاری بررسی کنید که گزارش حاوی اطلاعات محرمانه پروژه یا مالی نباشد."
+          "purpose": "فایل PDF تولیدشده گزارش زیرپروژه را به اشتراک می‌گذارد.",
+          "when": "وقتی می‌خواهید گزارش زیرپروژه را به‌صورت PDF برای شخص یا سازمان دیگری ارسال کنید، استفاده کنید.",
+          "how": "Share PDF را انتخاب کنید و مقصد موجود را از فهرست اشتراک‌گذاری دستگاه برگزینید.",
+          "inputs": "فایل PDF درست گزارش را انتخاب کنید و پیش از اشتراک‌گذاری محتوا و گیرنده را بررسی کنید.",
+          "result": "گزینه‌های اشتراک‌گذاری فایل گزارش باز می‌شود؛ سوابق پروژه تغییر نمی‌کند.",
+          "notes": "پیش از اشتراک‌گذاری اطلاعات محرمانه پروژه یا مالی موجود در گزارش را بررسی کنید."
         },
         "ps": {
           "purpose": "د جوړ شوي فرعي پروژې راپور PDF شریکوي.",
-          "when": "کله چې د فرعي پروژې راپور PDF کاپي بل کس یا ادارې ته لېږل غواړئ، دا وکاروئ.",
-          "how": "Share PDF وټاکئ او د وسیلې د شریکولو له لېست څخه شته ځای وټاکئ.",
-          "inputs": "سم PDF راپور وټاکئ او له شریکولو مخکې یې منځپانګه او ترلاسه کوونکی وګورئ.",
-          "result": "د راپور PDF د شریکولو اختیارونه پرانیستل کېږي.",
-          "notes": "له شریکولو مخکې وګورئ چې راپور پټ د پروژې یا مالي معلومات نه لري."
+          "when": "کله چې د فرعي پروژې راپور PDF بل کس یا ادارې ته لېږل غواړئ، دا وکاروئ.",
+          "how": "Share PDF وټاکئ او د وسیلې د شریکولو له مېنو څخه شته موخه وټاکئ.",
+          "inputs": "د راپور سمه PDF وټاکئ او له شریکولو مخکې منځپانګه او ترلاسه کوونکی وګورئ.",
+          "result": "د راپور فایل د شریکولو اختیارونه پرانیستل کېږي؛ د پروژې ریکارډونه نه بدلېږي.",
+          "notes": "له شریکولو مخکې په راپور کې د پروژې یا مالي محرمو معلوماتو کتنه وکړئ."
         }
       },
       "handler_or_behavior": "`prShareSubReportPDF()`"
@@ -14278,90 +14278,90 @@
         "en": {
           "purpose": "Return from the PDF preview to the report view.",
           "when": "Use this control when you want to close the PDF preview and return to the report screen.",
-          "how": "Select the × control to restore the report preview or underlying report screen.",
+          "how": "Select the × control to close the preview and return to the report screen.",
           "inputs": "Confirm that you are viewing the correct report preview before closing it.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
-          "notes": "This control changes the view; it is not a delete or cancel action on saved project data."
+          "result": "The preview closes and the previous report view returns.",
+          "notes": "This control changes the view only; it does not delete or cancel saved project data."
         },
         "fa": {
           "purpose": "بازگشت از پیش‌نمایش PDF به نمای گزارش.",
           "when": "وقتی می‌خواهید پیش‌نمایش PDF را ببندید و به صفحه گزارش برگردید، از این گزینه استفاده کنید.",
-          "how": "علامت × را انتخاب کنید تا نمای گزارش یا پیش‌نمایش قبلی بازگردد.",
+          "how": "علامت × را انتخاب کنید تا پیش‌نمایش بسته شود و به صفحه گزارش برگردید.",
           "inputs": "پیش از بستن پیش‌نمایش مطمئن شوید گزارش درست را مشاهده می‌کنید.",
-          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "result": "پیش‌نمایش بسته می‌شود و نمای قبلی گزارش بازمی‌گردد.",
           "notes": "این کنترل فقط نما را تغییر می‌دهد؛ داده ذخیره‌شده پروژه را حذف یا لغو نمی‌کند."
         },
         "ar": {
-          "purpose": "يعيدك من معاينة PDF إلى عرض التقرير.",
+          "purpose": "يغلق معاينة PDF ويعيدك إلى عرض التقرير.",
           "when": "عندما تريد إغلاق معاينة PDF والعودة إلى شاشة التقرير.",
-          "how": "اختر زر × للعودة إلى شاشة التقرير أو عرض التقرير السابق.",
-          "inputs": "تأكد من أنك في معاينة التقرير الصحيحة قبل إغلاقها.",
-          "result": "تُغلق المعاينة وتعود إلى عرض التقرير.",
+          "how": "اختر زر × لإغلاق المعاينة والعودة إلى شاشة التقرير.",
+          "inputs": "تأكد من أنك تعرض معاينة التقرير الصحيحة قبل إغلاقها.",
+          "result": "تُغلق المعاينة ويظهر عرض التقرير السابق.",
           "notes": "هذا الزر يغيّر العرض فقط؛ ولا يحذف بيانات المشروع المحفوظة أو يلغيها."
         },
         "ckb": {
-          "purpose": "لە پێشبینینی PDFەوە دەگەڕێتەوە بۆ نمای ڕاپۆرت.",
+          "purpose": "پێشبینینی PDF دادەخات و بۆ نمای ڕاپۆرت دەگەڕێتەوە.",
           "when": "کاتێک دەتەوێت پێشبینینی PDF دابخەیت و بگەڕێیتەوە بۆ شاشەی ڕاپۆرت.",
-          "how": "دوگمەی × هەڵبژێرە بۆ گەڕانەوە بۆ شاشەی ڕاپۆرت یان نمای پێشووی ڕاپۆرت.",
-          "inputs": "پێش داخستنی پێشبینینەکە دڵنیابە لەوەی ڕاپۆرتی دروستت کردووەتەوە.",
-          "result": "پێشبینینەکە دادەخرێت و دەگەڕێیتەوە بۆ نمای ڕاپۆرت.",
-          "notes": "ئەم دوگمەیە تەنها نما دەگۆڕێت؛ زانیاری پاشەکەوتکراوی پرۆژە ناسڕێتەوە و هەڵیناوەشێنێتەوە."
+          "how": "کۆنتڕۆڵی × هەڵبژێرە بۆ داخستنی پێشبینین و گەڕانەوە بۆ شاشەی ڕاپۆرت.",
+          "inputs": "پێش داخستن دڵنیابە پێشبینینی ڕاپۆرتی دروست دەبینیت.",
+          "result": "پێشبینین دادەخرێت و نمای ڕاپۆرتی پێشوو دەردەکەوێت.",
+          "notes": "ئەم کۆنتڕۆڵە تەنها نما دەگۆڕێت؛ داتای پاشەکەوتکراوی پرۆژە ناسڕێتەوە و هەڵیوەشێنێتەوە."
         },
         "kmr": {
-          "purpose": "Ji pêşdîtina PDF vedigere dîtina raporê.",
+          "purpose": "Pêşdîtina PDF digire û vedigere dîtina raporê.",
           "when": "Dema ku tu dixwazî pêşdîtina PDF bigirî û vegerî ekrana raporê.",
-          "how": "Kontrola × hilbijêre da ku vegerî ekrana raporê an dîtina rapora berê.",
-          "inputs": "Berî girtina wê piştrast bike ku tu pêşdîtina rapora rast vedigerînî.",
-          "result": "Pêşdîtin tê girtin û tu vedigerî dîtina raporê.",
+          "how": "Kontrola × hilbijêre da ku pêşdîtin bigire û vegere ekrana raporê.",
+          "inputs": "Berî girtinê piştrast bike ku tu pêşdîtina rapora rast dibînî.",
+          "result": "Pêşdîtin tê girtin û dîtina raporê ya berê xuya dibe.",
           "notes": "Ev kontrol tenê dîtinê diguherîne; daneyên projeyê yên tomarkirî jê nake an betal nake."
         },
         "tr": {
-          "purpose": "PDF önizlemesinden rapor görünümüne geri döner.",
+          "purpose": "PDF önizlemesini kapatır ve rapor görünümüne geri döner.",
           "when": "PDF önizlemesini kapatıp rapor ekranına dönmek istediğinizde kullanın.",
-          "how": "Rapor ekranına veya önceki rapor görünümüne dönmek için × kontrolünü seçin.",
-          "inputs": "Önizlemeyi kapatmadan önce doğru raporun önizlemesinde olduğunuzu doğrulayın.",
-          "result": "Önizleme kapanır ve rapor görünümüne dönersiniz.",
+          "how": "Önizlemeyi kapatıp rapor ekranına dönmek için × kontrolünü seçin.",
+          "inputs": "Kapatmadan önce doğru raporun önizlemesini görüntülediğinizi doğrulayın.",
+          "result": "Önizleme kapanır ve önceki rapor görünümü geri gelir.",
           "notes": "Bu kontrol yalnızca görünümü değiştirir; kaydedilmiş proje verilerini silmez veya iptal etmez."
         },
         "pl": {
-          "purpose": "Wraca z podglądu PDF do widoku raportu.",
+          "purpose": "Zamyka podgląd PDF i wraca do widoku raportu.",
           "when": "Użyj, gdy chcesz zamknąć podgląd PDF i wrócić do ekranu raportu.",
-          "how": "Wybierz przycisk ×, aby wrócić do ekranu raportu lub poprzedniego widoku raportu.",
-          "inputs": "Przed zamknięciem podglądu upewnij się, że dotyczy właściwego raportu.",
-          "result": "Podgląd zostanie zamknięty i wrócisz do widoku raportu.",
-          "notes": "Ten przycisk zmienia tylko widok; nie usuwa ani nie anuluje zapisanych danych projektu."
+          "how": "Wybierz kontrolkę ×, aby zamknąć podgląd i wrócić do ekranu raportu.",
+          "inputs": "Przed zamknięciem upewnij się, że wyświetlasz podgląd właściwego raportu.",
+          "result": "Podgląd zostanie zamknięty i wróci poprzedni widok raportu.",
+          "notes": "Ta kontrolka zmienia tylko widok; nie usuwa ani nie anuluje zapisanych danych projektu."
         },
         "ur": {
-          "purpose": "PDF پیش منظر سے رپورٹ کے منظر پر واپس جاتا ہے۔",
+          "purpose": "PDF پیش منظر بند کرکے رپورٹ کے منظر پر واپس جاتا ہے۔",
           "when": "جب PDF پیش منظر بند کرکے رپورٹ اسکرین پر واپس آنا ہو تو استعمال کریں۔",
-          "how": "رپورٹ اسکرین یا پچھلے رپورٹ منظر پر واپس جانے کے لیے × کنٹرول منتخب کریں۔",
-          "inputs": "پیش منظر بند کرنے سے پہلے تصدیق کریں کہ آپ درست رپورٹ دیکھ رہے ہیں۔",
-          "result": "پیش منظر بند ہو جاتا ہے اور آپ رپورٹ کے منظر پر واپس آ جاتے ہیں۔",
+          "how": "پیش منظر بند کرنے اور رپورٹ اسکرین پر واپس جانے کے لیے × کنٹرول منتخب کریں۔",
+          "inputs": "بند کرنے سے پہلے تصدیق کریں کہ درست رپورٹ کا پیش منظر کھلا ہے۔",
+          "result": "پیش منظر بند ہو جاتا ہے اور پچھلا رپورٹ منظر واپس آ جاتا ہے۔",
           "notes": "یہ کنٹرول صرف منظر بدلتا ہے؛ محفوظ شدہ پروجیکٹ ڈیٹا حذف یا منسوخ نہیں کرتا۔"
         },
         "pa": {
-          "purpose": "PDF ਝਲਕ ਤੋਂ ਰਿਪੋਰਟ ਦੇ ਦ੍ਰਿਸ਼ 'ਤੇ ਵਾਪਸ ਜਾਂਦਾ ਹੈ।",
+          "purpose": "PDF ਝਲਕ ਬੰਦ ਕਰਕੇ ਰਿਪੋਰਟ ਦੇ ਦ੍ਰਿਸ਼ 'ਤੇ ਵਾਪਸ ਜਾਂਦਾ ਹੈ।",
           "when": "ਜਦੋਂ PDF ਝਲਕ ਬੰਦ ਕਰਕੇ ਰਿਪੋਰਟ ਸਕ੍ਰੀਨ 'ਤੇ ਵਾਪਸ ਆਉਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਰਿਪੋਰਟ ਸਕ੍ਰੀਨ ਜਾਂ ਪਿਛਲੇ ਰਿਪੋਰਟ ਦ੍ਰਿਸ਼ 'ਤੇ ਵਾਪਸ ਜਾਣ ਲਈ × ਕੰਟਰੋਲ ਚੁਣੋ।",
-          "inputs": "ਝਲਕ ਬੰਦ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਇਹ ਸਹੀ ਰਿਪੋਰਟ ਦੀ ਝਲਕ ਹੈ।",
-          "result": "ਝਲਕ ਬੰਦ ਹੋ ਜਾਂਦੀ ਹੈ ਅਤੇ ਤੁਸੀਂ ਰਿਪੋਰਟ ਦ੍ਰਿਸ਼ 'ਤੇ ਵਾਪਸ ਆ ਜਾਂਦੇ ਹੋ।",
-          "notes": "ਇਹ ਕੰਟਰੋਲ ਸਿਰਫ਼ ਦ੍ਰਿਸ਼ ਬਦਲਦਾ ਹੈ؛ ਸੇਵ ਕੀਤਾ ਪ੍ਰੋਜੈਕਟ ਡਾਟਾ ਮਿਟਾਉਂਦਾ ਜਾਂ ਰੱਦ ਨਹੀਂ ਕਰਦਾ।"
+          "how": "ਝਲਕ ਬੰਦ ਕਰਕੇ ਰਿਪੋਰਟ ਸਕ੍ਰੀਨ 'ਤੇ ਵਾਪਸ ਜਾਣ ਲਈ × ਕੰਟਰੋਲ ਚੁਣੋ।",
+          "inputs": "ਬੰਦ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਸਹੀ ਰਿਪੋਰਟ ਦੀ ਝਲਕ ਖੁੱਲ੍ਹੀ ਹੈ।",
+          "result": "ਝਲਕ ਬੰਦ ਹੋ ਜਾਂਦੀ ਹੈ ਅਤੇ ਪਿਛਲਾ ਰਿਪੋਰਟ ਦ੍ਰਿਸ਼ ਵਾਪਸ ਆ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਇਹ ਕੰਟਰੋਲ ਸਿਰਫ਼ ਦ੍ਰਿਸ਼ ਬਦਲਦਾ ਹੈ; ਸੇਵ ਕੀਤਾ ਪ੍ਰੋਜੈਕਟ ਡਾਟਾ ਨਹੀਂ ਮਿਟਾਉਂਦਾ ਜਾਂ ਰੱਦ ਕਰਦਾ।"
         },
         "prs": {
-          "purpose": "از پیش‌نمایش PDF به نمای گزارش بازمی‌گردد.",
+          "purpose": "پیش‌نمایش PDF را می‌بندد و به نمای گزارش برمی‌گردد.",
           "when": "وقتی می‌خواهید پیش‌نمایش PDF را ببندید و به صفحه گزارش برگردید، استفاده کنید.",
-          "how": "کنترل × را انتخاب کنید تا به صفحه گزارش یا نمای قبلی گزارش بازگردید.",
-          "inputs": "پیش از بستن پیش‌نمایش مطمئن شوید گزارش درست را مشاهده می‌کنید.",
-          "result": "پیش‌نمایش بسته می‌شود و به نمای گزارش بازمی‌گردید.",
+          "how": "کنترل × را انتخاب کنید تا پیش‌نمایش بسته و صفحه گزارش دوباره نمایش داده شود.",
+          "inputs": "پیش از بستن مطمئن شوید پیش‌نمایش گزارش درست را مشاهده می‌کنید.",
+          "result": "پیش‌نمایش بسته می‌شود و نمای قبلی گزارش بازمی‌گردد.",
           "notes": "این کنترل فقط نما را تغییر می‌دهد؛ داده‌های ذخیره‌شده پروژه را حذف یا لغو نمی‌کند."
         },
         "ps": {
-          "purpose": "د PDF له مخکتنې څخه د راپور لید ته بېرته ځي.",
-          "when": "کله چې د PDF مخکتنه بندول او د راپور سکرین ته بېرته ستنېدل غواړئ، دا وکاروئ.",
-          "how": "د راپور سکرین یا د راپور پخواني لید ته د ستنېدو لپاره د × کنټرول وټاکئ.",
-          "inputs": "له مخکتنې بندولو مخکې ډاډ ترلاسه کړئ چې د سم راپور مخکتنه ده.",
-          "result": "مخکتنه بندېږي او د راپور لید ته بېرته ستنېږئ.",
-          "notes": "دا کنټرول یوازې لید بدلوي؛ د پروژې خوندي شوي معلومات نه ړنګوي او نه یې لغوه کوي."
+          "purpose": "د PDF مخکتنه بندوي او د راپور لید ته بېرته ستنېږي.",
+          "when": "کله چې د PDF مخکتنه بندول او د راپور پردې ته ستنېدل غواړئ، دا وکاروئ.",
+          "how": "د مخکتنې د بندولو او د راپور پردې ته د ستنېدو لپاره د × کنټرول وټاکئ.",
+          "inputs": "له بندولو مخکې ډاډ ترلاسه کړئ چې د سم راپور مخکتنه ګورئ.",
+          "result": "مخکتنه بندېږي او د راپور پخوانی لید بېرته راځي.",
+          "notes": "دا کنټرول یوازې لید بدلوي؛ د پروژې خوندي شوي معلومات نه ړنګوي او نه لغوه کوي."
         }
       },
       "handler_or_behavior": "`prRestoreReportPreview()`"
@@ -14378,7 +14378,7 @@
           "when": "Use this control when you want to review income recorded for the current sub-project.",
           "how": "Select Income to display the income view for the current sub-project.",
           "inputs": "Select the correct sub-project and review the displayed income records.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The income view for the selected sub-project is displayed.",
           "notes": "Use the correct sub-project context and compare amounts with actual receipts."
         },
         "fa": {
@@ -14386,7 +14386,7 @@
           "when": "وقتی می‌خواهید درآمد ثبت‌شده برای زیرپروژه فعلی را بررسی کنید، از این گزینه استفاده کنید.",
           "how": "گزینه Income را انتخاب کنید تا نمای درآمدهای زیرپروژه فعلی نمایش داده شود.",
           "inputs": "زیرپروژه درست را انتخاب کنید و سوابق درآمد نمایش‌داده‌شده را بررسی کنید.",
-          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "result": "نمای درآمد زیرپروژه انتخاب‌شده نمایش داده می‌شود.",
           "notes": "از انتخاب زیرپروژه درست مطمئن شوید و مبالغ را با دریافت‌های واقعی تطبیق دهید."
         },
         "ar": {
@@ -14394,31 +14394,31 @@
           "when": "عندما تريد مراجعة الدخل المسجل للمشروع الفرعي الحالي.",
           "how": "اختر Income لعرض صفحة الدخل الخاصة بالمشروع الفرعي الحالي.",
           "inputs": "حدد المشروع الفرعي الصحيح وراجع سجلات الدخل المعروضة.",
-          "result": "تظهر سجلات الدخل للمشروع الفرعي المحدد.",
-          "notes": "استخدم سياق المشروع الفرعي الصحيح وطابق المبالغ مع الإيصالات الفعلية."
+          "result": "يظهر عرض الدخل للمشروع الفرعي المحدد.",
+          "notes": "استخدم سياق المشروع الفرعي الصحيح وقارن المبالغ بالإيصالات الفعلية."
         },
         "ckb": {
-          "purpose": "تۆمارەکانی داهاتی پرۆژە لاوەکیی هەڵبژێردراو پیشان دەدات.",
+          "purpose": "تۆمارەکانی داهاتی پرۆژە لاوەکیی دیاریکراو پیشان دەدات.",
           "when": "کاتێک دەتەوێت داهاتی تۆمارکراوی پرۆژە لاوەکیی ئێستا بپشکنیت.",
           "how": "Income هەڵبژێرە بۆ پیشاندانی نمای داهاتی پرۆژە لاوەکیی ئێستا.",
           "inputs": "پرۆژە لاوەکیی دروست هەڵبژێرە و تۆمارەکانی داهاتی پیشاندراو بپشکنە.",
-          "result": "تۆمارەکانی داهاتی پرۆژە لاوەکیی هەڵبژێردراو پیشان دەدرێن.",
-          "notes": "سنووری پرۆژە لاوەکیی دروست بەکاربهێنە و بڕەکان لەگەڵ پسووڵە ڕاستەقینەکان بەراورد بکە."
+          "result": "نمای داهاتی پرۆژە لاوەکیی دیاریکراو پیشان دەدرێت.",
+          "notes": "سەیری ئەوە بکە پرۆژە لاوەکیی دروست هەڵبژێردراوە و بڕەکان لەگەڵ پسووڵە ڕاستەقینەکان بەراورد بکە."
         },
         "kmr": {
           "purpose": "Tomarên dahata projeya jêrîn a hilbijartî nîşan dide.",
           "when": "Dema ku tu dixwazî dahata tomarkirî ya projeya jêrîn a niha kontrol bikî.",
           "how": "Income hilbijêre da ku dîtina dahata projeya jêrîn a niha nîşan bide.",
-          "inputs": "Projeya jêrîn a rast hilbijêre û tomarên dahatê yên nîşandayî kontrol bike.",
-          "result": "Tomarên dahata projeya jêrîn a hilbijartî xuya dibin.",
-          "notes": "Konteksta projeya jêrîn a rast bikar bîne û mîqdarê bi fatûreyên rastîn re berawird bike."
+          "inputs": "Projeya jêrîn a rast hilbijêre û tomarên dahata nîşandayî kontrol bike.",
+          "result": "Dîtina dahata projeya jêrîn a hilbijartî tê nîşandan.",
+          "notes": "Konteksta projeya jêrîn a rast bikar bîne û mîqdarên bi fatûreyên rastîn re berawird bike."
         },
         "tr": {
           "purpose": "Seçilen alt projenin gelir kayıtlarını gösterir.",
           "when": "Geçerli alt proje için kaydedilmiş gelirleri incelemek istediğinizde kullanın.",
           "how": "Geçerli alt projenin gelir görünümünü açmak için Income'ı seçin.",
           "inputs": "Doğru alt projeyi seçin ve görüntülenen gelir kayıtlarını inceleyin.",
-          "result": "Seçilen alt projenin gelir kayıtları görüntülenir.",
+          "result": "Seçilen alt projenin gelir görünümü açılır.",
           "notes": "Doğru alt proje bağlamını kullanın ve tutarları gerçek makbuzlarla karşılaştırın."
         },
         "pl": {
@@ -14426,39 +14426,39 @@
           "when": "Użyj, gdy chcesz sprawdzić przychody zapisane dla bieżącego podprojektu.",
           "how": "Wybierz Income, aby wyświetlić widok przychodów bieżącego podprojektu.",
           "inputs": "Wybierz właściwy podprojekt i sprawdź wyświetlone rekordy przychodów.",
-          "result": "Wyświetlane są rekordy przychodów wybranego podprojektu.",
-          "notes": "Użyj właściwego kontekstu podprojektu i porównaj kwoty z rzeczywistymi potwierdzeniami."
+          "result": "Otworzy się widok przychodów wybranego podprojektu.",
+          "notes": "Używaj właściwego kontekstu podprojektu i porównuj kwoty z faktycznymi potwierdzeniami płatności."
         },
         "ur": {
           "purpose": "منتخب ذیلی منصوبے کی آمدنی کے ریکارڈ دکھاتا ہے۔",
           "when": "جب موجودہ ذیلی منصوبے کے لیے درج آمدنی دیکھنی ہو تو استعمال کریں۔",
           "how": "موجودہ ذیلی منصوبے کی آمدنی کا منظر دکھانے کے لیے Income منتخب کریں۔",
           "inputs": "درست ذیلی منصوبہ منتخب کریں اور دکھائے گئے آمدنی کے ریکارڈ دیکھیں۔",
-          "result": "منتخب ذیلی منصوبے کی آمدنی کے ریکارڈ دکھائی دیتے ہیں۔",
-          "notes": "درست ذیلی منصوبے کا سیاق استعمال کریں اور رقوم کا اصل رسیدوں سے موازنہ کریں۔"
+          "result": "منتخب ذیلی منصوبے کی آمدنی کا منظر کھل جاتا ہے۔",
+          "notes": "درست ذیلی منصوبہ منتخب کریں اور رقوم کو اصل رسیدوں سے ملائیں۔"
         },
         "pa": {
           "purpose": "ਚੁਣੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦੇ ਆਮਦਨ ਰਿਕਾਰਡ ਦਿਖਾਉਂਦਾ ਹੈ।",
           "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਲਈ ਦਰਜ ਆਮਦਨ ਵੇਖਣੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਮੌਜੂਦਾ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦਾ ਆਮਦਨ ਦ੍ਰਿਸ਼ ਦਿਖਾਉਣ ਲਈ Income ਚੁਣੋ।",
+          "how": "ਮੌਜੂਦਾ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦੀ ਆਮਦਨ ਵਾਲਾ ਦ੍ਰਿਸ਼ ਦਿਖਾਉਣ ਲਈ Income ਚੁਣੋ।",
           "inputs": "ਸਹੀ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਚੁਣੋ ਅਤੇ ਦਿਖਾਏ ਆਮਦਨ ਰਿਕਾਰਡ ਵੇਖੋ।",
-          "result": "ਚੁਣੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦੇ ਆਮਦਨ ਰਿਕਾਰਡ ਦਿਖਾਏ ਜਾਂਦੇ ਹਨ।",
-          "notes": "ਸਹੀ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਸੰਦਰਭ ਵਰਤੋ ਅਤੇ ਰਕਮਾਂ ਦਾ ਅਸਲ ਰਸੀਦਾਂ ਨਾਲ ਮਿਲਾਣ ਕਰੋ।"
+          "result": "ਚੁਣੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦੀ ਆਮਦਨ ਵਾਲਾ ਦ੍ਰਿਸ਼ ਖੁੱਲ੍ਹਦਾ ਹੈ।",
+          "notes": "ਸਹੀ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਸੰਦਰਭ ਵਰਤੋ ਅਤੇ ਰਕਮਾਂ ਨੂੰ ਅਸਲ ਰਸੀਦਾਂ ਨਾਲ ਮਿਲਾਓ।"
         },
         "prs": {
           "purpose": "سوابق درآمد زیرپروژه انتخاب‌شده را نمایش می‌دهد.",
           "when": "وقتی می‌خواهید درآمد ثبت‌شده برای زیرپروژه فعلی را بررسی کنید، استفاده کنید.",
-          "how": "برای نمایش نمای درآمد زیرپروژه فعلی Income را انتخاب کنید.",
+          "how": "Income را انتخاب کنید تا نمای درآمد زیرپروژه فعلی نمایش داده شود.",
           "inputs": "زیرپروژه درست را انتخاب کنید و سوابق درآمد نمایش‌داده‌شده را بررسی کنید.",
-          "result": "سوابق درآمد زیرپروژه انتخاب‌شده نمایش داده می‌شوند.",
-          "notes": "از زمینه درست زیرپروژه استفاده کنید و مبالغ را با رسیدهای واقعی تطبیق دهید."
+          "result": "نمای درآمد زیرپروژه انتخاب‌شده باز می‌شود.",
+          "notes": "از زمینه زیرپروژه درست استفاده کنید و مبالغ را با رسیدهای واقعی تطبیق دهید."
         },
         "ps": {
           "purpose": "د ټاکل شوې فرعي پروژې د عاید ریکارډونه ښکاره کوي.",
-          "when": "کله چې د اوسني فرعي پروژې ثبت شوی عاید کتل غواړئ، دا وکاروئ.",
-          "how": "د اوسني فرعي پروژې د عاید لید ښودلو لپاره Income وټاکئ.",
+          "when": "کله چې د اوسنۍ فرعي پروژې ثبت شوی عاید کتل غواړئ، دا وکاروئ.",
+          "how": "د اوسنۍ فرعي پروژې د عاید لیدلو لپاره Income وټاکئ.",
           "inputs": "سمه فرعي پروژه وټاکئ او ښکاره شوي د عاید ریکارډونه وګورئ.",
-          "result": "د ټاکل شوې فرعي پروژې د عاید ریکارډونه ښکاره کېږي.",
+          "result": "د ټاکل شوې فرعي پروژې د عاید لید پرانیستل کېږي.",
           "notes": "د فرعي پروژې سم شرایط وکاروئ او اندازې له اصلي رسیدونو سره پرتله کړئ."
         }
       },
@@ -14476,15 +14476,15 @@
           "when": "Use this control when you want to review expenses recorded for the current sub-project.",
           "how": "Select Expenses to display the expense view for the current sub-project.",
           "inputs": "Select the correct sub-project and review the displayed expense records.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The expense view for the selected sub-project is displayed.",
           "notes": "Check that costs belong to this sub-project and are not duplicated in another cost list."
         },
         "fa": {
           "purpose": "نمایش هزینه‌های زیرپروژه انتخاب‌شده.",
           "when": "وقتی می‌خواهید هزینه‌های ثبت‌شده برای زیرپروژه فعلی را بررسی کنید، از این گزینه استفاده کنید.",
-          "how": "گزینه Expenses را انتخاب کنید تا هزینه‌های زیرپروژه فعلی نمایش داده شوند.",
+          "how": "گزینه Expenses را انتخاب کنید تا نمای هزینه‌های زیرپروژه فعلی نمایش داده شوند.",
           "inputs": "زیرپروژه درست را انتخاب کنید و سوابق هزینه نمایش‌داده‌شده را بررسی کنید.",
-          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "result": "نمای هزینه زیرپروژه انتخاب‌شده نمایش داده می‌شود.",
           "notes": "بررسی کنید هزینه‌ها متعلق به همین زیرپروژه باشند و در فهرست هزینه دیگری تکرار نشده باشند."
         },
         "ar": {
@@ -14492,31 +14492,31 @@
           "when": "عندما تريد مراجعة المصروفات المسجلة للمشروع الفرعي الحالي.",
           "how": "اختر Expenses لعرض صفحة المصروفات الخاصة بالمشروع الفرعي الحالي.",
           "inputs": "حدد المشروع الفرعي الصحيح وراجع سجلات المصروفات المعروضة.",
-          "result": "تظهر سجلات المصروفات للمشروع الفرعي المحدد.",
+          "result": "يظهر عرض المصروفات للمشروع الفرعي المحدد.",
           "notes": "تحقق من أن التكاليف تخص هذا المشروع الفرعي ولا تتكرر في قائمة تكاليف أخرى."
         },
         "ckb": {
-          "purpose": "تۆمارەکانی خەرجیی پرۆژە لاوەکیی هەڵبژێردراو پیشان دەدات.",
+          "purpose": "تۆمارەکانی خەرجیی پرۆژە لاوەکیی دیاریکراو پیشان دەدات.",
           "when": "کاتێک دەتەوێت خەرجییە تۆمارکراوەکانی پرۆژە لاوەکیی ئێستا بپشکنیت.",
-          "how": "Expenses هەڵبژێرە بۆ پیشاندانی نمای خەرجییەکانی پرۆژە لاوەکیی ئێستا.",
+          "how": "Expenses هەڵبژێرە بۆ پیشاندانی نمای خەرجیی پرۆژە لاوەکیی ئێستا.",
           "inputs": "پرۆژە لاوەکیی دروست هەڵبژێرە و تۆمارەکانی خەرجیی پیشاندراو بپشکنە.",
-          "result": "تۆمارەکانی خەرجیی پرۆژە لاوەکیی هەڵبژێردراو پیشان دەدرێن.",
-          "notes": "بپشکنە کە تێچووەکان هی ئەم پرۆژە لاوەکییەن و لە پێڕستی تێچووی تر دووبارە نەبوونەتەوە."
+          "result": "نمای خەرجیی پرۆژە لاوەکیی دیاریکراو پیشان دەدرێت.",
+          "notes": "دڵنیابە تێچووەکان هی ئەم پرۆژە لاوەکییەن و لە پێڕستی تێچوویەکی تردا دووبارە نەبوونەتەوە."
         },
         "kmr": {
           "purpose": "Tomarên lêçûnên projeya jêrîn a hilbijartî nîşan dide.",
           "when": "Dema ku tu dixwazî lêçûnên tomarkirî yên projeya jêrîn a niha kontrol bikî.",
           "how": "Expenses hilbijêre da ku dîtina lêçûnên projeya jêrîn a niha nîşan bide.",
           "inputs": "Projeya jêrîn a rast hilbijêre û tomarên lêçûnên nîşandayî kontrol bike.",
-          "result": "Tomarên lêçûnên projeya jêrîn a hilbijartî xuya dibin.",
-          "notes": "Kontrol bike ku lêçûn ji bo vê projeya jêrîn in û di lîsteyeke din a lêçûnan de dubare nebûne."
+          "result": "Dîtina lêçûnên projeya jêrîn a hilbijartî tê nîşandan.",
+          "notes": "Piştrast bike ku lêçûn ji bo vê projeya jêrîn e û di lîsteyeke din a lêçûnan de dubare nehatiye tomar kirin."
         },
         "tr": {
           "purpose": "Seçilen alt projenin gider kayıtlarını gösterir.",
           "when": "Geçerli alt proje için kaydedilmiş giderleri incelemek istediğinizde kullanın.",
           "how": "Geçerli alt projenin gider görünümünü açmak için Expenses'ı seçin.",
           "inputs": "Doğru alt projeyi seçin ve görüntülenen gider kayıtlarını inceleyin.",
-          "result": "Seçilen alt projenin gider kayıtları görüntülenir.",
+          "result": "Seçilen alt projenin gider görünümü açılır.",
           "notes": "Maliyetlerin bu alt projeye ait olduğunu ve başka bir maliyet listesinde yinelenmediğini kontrol edin."
         },
         "pl": {
@@ -14524,39 +14524,39 @@
           "when": "Użyj, gdy chcesz sprawdzić wydatki zapisane dla bieżącego podprojektu.",
           "how": "Wybierz Expenses, aby wyświetlić widok wydatków bieżącego podprojektu.",
           "inputs": "Wybierz właściwy podprojekt i sprawdź wyświetlone rekordy wydatków.",
-          "result": "Wyświetlane są rekordy wydatków wybranego podprojektu.",
-          "notes": "Sprawdź, czy koszty dotyczą tego podprojektu i nie są powielone na innej liście kosztów."
+          "result": "Otworzy się widok wydatków wybranego podprojektu.",
+          "notes": "Sprawdź, czy koszty dotyczą tego podprojektu i nie zostały powielone na innej liście kosztów."
         },
         "ur": {
           "purpose": "منتخب ذیلی منصوبے کے اخراجات کے ریکارڈ دکھاتا ہے۔",
           "when": "جب موجودہ ذیلی منصوبے کے لیے درج اخراجات دیکھنے ہوں تو استعمال کریں۔",
           "how": "موجودہ ذیلی منصوبے کے اخراجات کا منظر دکھانے کے لیے Expenses منتخب کریں۔",
           "inputs": "درست ذیلی منصوبہ منتخب کریں اور دکھائے گئے اخراجات کے ریکارڈ دیکھیں۔",
-          "result": "منتخب ذیلی منصوبے کے اخراجات کے ریکارڈ دکھائی دیتے ہیں۔",
-          "notes": "چیک کریں کہ اخراجات اسی ذیلی منصوبے کے ہیں اور کسی دوسری لاگت کی فہرست میں دہرائے نہیں گئے۔"
+          "result": "منتخب ذیلی منصوبے کے اخراجات کا منظر کھل جاتا ہے۔",
+          "notes": "چیک کریں کہ اخراجات اسی ذیلی منصوبے کے ہیں اور کسی دوسری لاگت کی فہرست میں دوبارہ درج نہیں۔"
         },
         "pa": {
           "purpose": "ਚੁਣੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦੇ ਖਰਚੇ ਦੇ ਰਿਕਾਰਡ ਦਿਖਾਉਂਦਾ ਹੈ।",
           "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਲਈ ਦਰਜ ਖਰਚੇ ਵੇਖਣੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਮੌਜੂਦਾ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦਾ ਖਰਚਾ ਦ੍ਰਿਸ਼ ਦਿਖਾਉਣ ਲਈ Expenses ਚੁਣੋ।",
+          "how": "ਮੌਜੂਦਾ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦੇ ਖਰਚਿਆਂ ਵਾਲਾ ਦ੍ਰਿਸ਼ ਦਿਖਾਉਣ ਲਈ Expenses ਚੁਣੋ।",
           "inputs": "ਸਹੀ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਚੁਣੋ ਅਤੇ ਦਿਖਾਏ ਖਰਚੇ ਦੇ ਰਿਕਾਰਡ ਵੇਖੋ।",
-          "result": "ਚੁਣੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦੇ ਖਰਚੇ ਦੇ ਰਿਕਾਰਡ ਦਿਖਾਏ ਜਾਂਦੇ ਹਨ।",
+          "result": "ਚੁਣੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦੇ ਖਰਚਿਆਂ ਵਾਲਾ ਦ੍ਰਿਸ਼ ਖੁੱਲ੍ਹਦਾ ਹੈ।",
           "notes": "ਜਾਂਚੋ ਕਿ ਖਰਚੇ ਇਸੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਨਾਲ ਸਬੰਧਤ ਹਨ ਅਤੇ ਕਿਸੇ ਹੋਰ ਲਾਗਤ ਸੂਚੀ ਵਿੱਚ ਦੁਹਰਾਏ ਨਹੀਂ ਗਏ।"
         },
         "prs": {
           "purpose": "سوابق هزینه زیرپروژه انتخاب‌شده را نمایش می‌دهد.",
           "when": "وقتی می‌خواهید هزینه‌های ثبت‌شده برای زیرپروژه فعلی را بررسی کنید، استفاده کنید.",
-          "how": "برای نمایش نمای هزینه‌های زیرپروژه فعلی Expenses را انتخاب کنید.",
+          "how": "Expenses را انتخاب کنید تا نمای هزینه زیرپروژه فعلی نمایش داده شود.",
           "inputs": "زیرپروژه درست را انتخاب کنید و سوابق هزینه نمایش‌داده‌شده را بررسی کنید.",
-          "result": "سوابق هزینه زیرپروژه انتخاب‌شده نمایش داده می‌شوند.",
+          "result": "نمای هزینه زیرپروژه انتخاب‌شده باز می‌شود.",
           "notes": "بررسی کنید هزینه‌ها متعلق به همین زیرپروژه باشند و در فهرست هزینه دیگری تکرار نشده باشند."
         },
         "ps": {
           "purpose": "د ټاکل شوې فرعي پروژې د لګښت ریکارډونه ښکاره کوي.",
-          "when": "کله چې د اوسني فرعي پروژې ثبت شوي لګښتونه کتل غواړئ، دا وکاروئ.",
-          "how": "د اوسني فرعي پروژې د لګښت لید ښودلو لپاره Expenses وټاکئ.",
+          "when": "کله چې د اوسنۍ فرعي پروژې ثبت شوي لګښتونه کتل غواړئ، دا وکاروئ.",
+          "how": "د اوسنۍ فرعي پروژې د لګښتونو لیدلو لپاره Expenses وټاکئ.",
           "inputs": "سمه فرعي پروژه وټاکئ او ښکاره شوي د لګښت ریکارډونه وګورئ.",
-          "result": "د ټاکل شوې فرعي پروژې د لګښت ریکارډونه ښکاره کېږي.",
+          "result": "د ټاکل شوې فرعي پروژې د لګښتونو لید پرانیستل کېږي.",
           "notes": "وګورئ چې لګښتونه د همدې فرعي پروژې دي او د لګښتونو په بل لېست کې تکرار شوي نه دي."
         }
       },
