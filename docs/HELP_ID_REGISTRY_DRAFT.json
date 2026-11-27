@@ -13910,92 +13910,92 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Generates a PDF file from the current sub-project financial report preview.",
-          "when": "Use this after opening the sub-project financial report preview when you need a PDF copy for review, printing or sharing.",
-          "how": "In the financial report preview, select Generate PDF. Wait while the PDF-generation library creates the file and the preview is prepared. Review the generated pages and use the available share/print controls.",
-          "inputs": "The sub-project financial report preview must already be open. The PDF-generation library may require an internet connection to load.",
-          "result": "The sub-project financial report is converted into a PDF and a PDF preview is prepared. The preview provides the available print and share actions after generation succeeds.",
-          "notes": "Check the sub-project, report figures and page layout before saving or sharing. If the PDF library or preview renderer fails to load, check the internet connection and retry. Generating a PDF does not submit the report externally."
+          "purpose": "Generates a PDF from the full financial report preview for the selected project, including its sub-projects.",
+          "when": "Use this when you need a PDF copy of the full project financial report, with the main project and its sub-project details.",
+          "how": "Open the full project financial report preview and select Generate PDF. Wait for the report to be converted, then review the PDF preview.",
+          "inputs": "The correct saved project must be selected. The report uses its saved income, costs, sub-projects and payment records; no reporting-period input is required.",
+          "result": "A PDF is generated for the full project report and displayed in the PDF preview within the report overlay.",
+          "notes": "Check that the report is for the correct project and includes the intended sub-project details. PDF generation creates an output document only; it does not submit data or change project records."
         },
         "fa": {
-          "purpose": "از پیش‌نمایش فعلی گزارش مالی زیرپروژه یک فایل PDF ایجاد می‌کند.",
-          "when": "پس از بازکردن پیش‌نمایش گزارش مالی زیرپروژه و زمانی که برای بررسی، چاپ یا اشتراک‌گذاری به نسخه PDF نیاز دارید، از این گزینه استفاده کنید.",
-          "how": "در پیش‌نمایش گزارش مالی، Generate PDF را انتخاب کنید. منتظر بمانید تا کتابخانه ساخت PDF فایل را ایجاد و پیش‌نمایش آماده شود. صفحات ایجادشده را بررسی و از کنترل‌های چاپ/اشتراک‌گذاری موجود استفاده کنید.",
-          "inputs": "پیش‌نمایش گزارش مالی زیرپروژه باید از قبل باز باشد. برای بارگذاری کتابخانه ساخت PDF ممکن است اتصال اینترنت لازم باشد.",
-          "result": "گزارش مالی زیرپروژه به PDF تبدیل و پیش‌نمایش PDF آماده می‌شود. پس از موفقیت ساخت، پیش‌نمایش گزینه‌های موجود چاپ و اشتراک‌گذاری را ارائه می‌کند.",
-          "notes": "پیش از ذخیره یا اشتراک‌گذاری، زیرپروژه، ارقام گزارش و چیدمان صفحات را بررسی کنید. اگر کتابخانه PDF یا نمایشگر پیش‌نمایش بارگذاری نشد، اتصال اینترنت را بررسی و دوباره تلاش کنید. ساخت PDF گزارش را به مرجع خارجی ارسال نمی‌کند."
+          "purpose": "از پیش‌نمایش گزارش مالی کامل پروژه انتخاب‌شده، شامل پروژه اصلی و زیرپروژه‌های آن، فایل PDF ایجاد می‌کند.",
+          "when": "وقتی به نسخه PDF گزارش مالی کامل پروژه، همراه با جزئیات پروژه اصلی و زیرپروژه‌ها نیاز دارید، از این گزینه استفاده کنید.",
+          "how": "پیش‌نمایش گزارش مالی کامل پروژه را باز کنید و Generate PDF را انتخاب کنید. منتظر تبدیل گزارش بمانید و سپس پیش‌نمایش PDF را بررسی کنید.",
+          "inputs": "باید پروژه ذخیره‌شده صحیح انتخاب شده باشد. گزارش از درآمدها، هزینه‌ها، زیرپروژه‌ها و سوابق پرداخت ذخیره‌شده آن استفاده می‌کند؛ واردکردن دوره گزارش لازم نیست.",
+          "result": "فایل PDF گزارش کامل پروژه ایجاد و در پیش‌نمایش PDF داخل پنجره گزارش نمایش داده می‌شود.",
+          "notes": "بررسی کنید گزارش متعلق به پروژه صحیح است و جزئیات زیرپروژه‌های موردنظر را دربرمی‌گیرد. ایجاد PDF فقط سند خروجی تولید می‌کند؛ داده‌ای ارسال نمی‌کند و سوابق پروژه را تغییر نمی‌دهد."
         },
         "ar": {
-          "purpose": "ينشئ ملف PDF لتقرير المشروع الفرعي الحالي.",
-          "when": "عندما تحتاج إلى نسخة PDF من تقرير المشروع الفرعي لمراجعته أو طباعته أو حفظه.",
-          "how": "اختر Generate PDF وانتظر ظهور معاينة التقرير، ثم راجعها.",
-          "inputs": "حدد المشروع الفرعي وفترة التقرير الصحيحة وتحقق من الإجماليات والنطاق.",
-          "result": "يُنشأ ملف PDF لمعاينة تقرير المشروع الفرعي.",
-          "notes": "تحقق من النطاق والفترة والإجماليات قبل الحفظ أو الطباعة. إنشاء الملف لا يرسل التقرير."
+          "purpose": "ينشئ ملف PDF من معاينة التقرير المالي الكامل للمشروع المحدد، بما في ذلك المشروع الرئيسي ومشاريعه الفرعية.",
+          "when": "استخدم هذا الخيار عندما تحتاج إلى نسخة PDF من التقرير المالي الكامل للمشروع مع تفاصيل المشروع الرئيسي والمشاريع الفرعية.",
+          "how": "افتح معاينة التقرير المالي الكامل للمشروع واختر Generate PDF. انتظر حتى تحويل التقرير، ثم راجع معاينة PDF.",
+          "inputs": "يجب تحديد المشروع المحفوظ الصحيح. يستخدم التقرير الدخل والتكاليف والمشاريع الفرعية وسجلات الدفع المحفوظة؛ ولا يلزم إدخال فترة تقرير.",
+          "result": "يُنشأ ملف PDF للتقرير الكامل للمشروع ويُعرض في معاينة PDF داخل نافذة التقرير.",
+          "notes": "تأكد من أن التقرير يخص المشروع الصحيح ويتضمن تفاصيل المشاريع الفرعية المطلوبة. إنشاء PDF ينتج مستندًا فقط؛ ولا يرسل البيانات أو يغيّر سجلات المشروع."
         },
         "ckb": {
-          "purpose": "فایلی PDF بۆ ڕاپۆرتی پرۆژە لاوەکیی ئێستا دروست دەکات.",
-          "when": "کاتێک پێویستت بە کۆپیی PDFی ڕاپۆرتی پرۆژە لاوەکی بۆ پشکنین، چاپکردن یان پاشەکەوتکردن هەیە.",
-          "how": "Generate PDF هەڵبژێرە و چاوەڕێ بکە پێشبینینی ڕاپۆرت پیشان بدرێت، پاشان بپشکنە.",
-          "inputs": "پرۆژە لاوەکی و ماوەی ڕاپۆرتی دروست هەڵبژێرە و کۆیەکان و مەودا بپشکنە.",
-          "result": "فایلی PDF بۆ پێشبینینی ڕاپۆرت دروست دەکرێت.",
-          "notes": "پێش پاشەکەوتکردن یان چاپکردن مەودا، ماوە و کۆیەکان بپشکنە. فایلەکە ڕاپۆرت نانێرێت."
+          "purpose": "لە پێشبینینی ڕاپۆرتی دارایی تەواوی پرۆژەی هەڵبژێردراو PDF دروست دەکات، لەگەڵ پرۆژەی سەرەکی و ژێرپرۆژەکانی.",
+          "when": "کاتێک پێویستت بە وەشانی PDFی ڕاپۆرتی دارایی تەواوی پرۆژەیە، لەگەڵ وردەکارییەکانی پرۆژەی سەرەکی و ژێرپرۆژەکان، ئەم کۆنترۆڵە بەکاربهێنە.",
+          "how": "پێشبینینی ڕاپۆرتی دارایی تەواوی پرۆژە بکەرەوە و Generate PDF هەڵبژێرە. چاوەڕێی گۆڕینی ڕاپۆرت بکە و پاشان پێشبینینی PDF بپشکنە.",
+          "inputs": "دەبێت پرۆژەی پاشەکەوتکراوی دروست هەڵبژێردرابێت. ڕاپۆرتەکە لە داهات، خەرجی، ژێرپرۆژە و تۆماری پارەدانی پاشەکەوتکراو بەکاردەهێنێت؛ پێویست بە دیاریکردنی ماوەی ڕاپۆرت نییە.",
+          "result": "PDFی ڕاپۆرتی تەواوی پرۆژە دروست دەکرێت و لە پێشبینینی PDF لە ناو پەنجەرەی ڕاپۆرت پیشان دەدرێت.",
+          "notes": "دڵنیابە ڕاپۆرتەکە بۆ پرۆژەی دروستە و وردەکارییەکانی ژێرپرۆژە پێویستەکان دەگرێتەوە. دروستکردنی PDF تەنها بەڵگەنامەیەکی دەرئەنجام دروست دەکات؛ هیچ زانیارییەک نانێرێت و تۆماری پرۆژە ناگۆڕێت."
         },
         "kmr": {
-          "purpose": "Ji bo rapora projeya jêrîn a niha pelê PDF çêdike.",
-          "when": "Dema ku tu hewceyî kopiyeke PDF ya rapora projeya jêrîn ji bo kontrolkirin, çapkirin an tomarkirin yî.",
-          "how": "Generate PDF hilbijêre û li bendê bimîne heta pêşdîtina raporê xuya bibe, paşê wê kontrol bike.",
-          "inputs": "Projeya jêrîn û heyama raporê ya rast hilbijêre û tevahî û qada raporê kontrol bike.",
-          "result": "Pelê PDF ji bo pêşdîtina raporê tê çêkirin.",
-          "notes": "Berî tomarkirin an çapkirinê qada raporê, heyam û tevahiyan kontrol bike. Pel raporê naşîne."
+          "purpose": "Ji pêşdîtina rapora darayî ya tevahî ya projeya hilbijartî PDF çêdike, bi projeya sereke û binprojeyên wê re.",
+          "when": "Vê vebijarkê bikar bîne dema ku kopiyeke PDF ya rapora darayî ya tevahî ya projeyê, bi hûrguliyên projeya sereke û binprojeyan re, dixwazî.",
+          "how": "Pêşdîtina rapora darayî ya tevahî ya projeyê veke û Generate PDF hilbijêre. Li benda veguheztina raporê bimîne, paşê pêşdîtina PDF kontrol bike.",
+          "inputs": "Divê projeya tomarkirî ya rast hilbijartî be. Rapor ji dahat, lêçûn, binproje û tomarên dravdanê yên tomarkirî sûd werdigire; demeke raporê pêwîst nake.",
+          "result": "PDF ji bo rapora tevahî ya projeyê tê çêkirin û di pêşdîtina PDF ya di nav pencereya raporê de tê nîşandan.",
+          "notes": "Piştrast bike ku rapor ji bo projeya rast e û hûrguliyên binprojeyên pêwîst dihewîne. Çêkirina PDF tenê belgeyek derketinê çêdike; daneyan naşîne û tomarên projeyê naguherîne."
         },
         "tr": {
-          "purpose": "Geçerli alt proje raporu için PDF oluşturur.",
-          "when": "Seçilen alt proje raporunun inceleme, yazdırma veya saklama amaçlı PDF kopyasına ihtiyaç duyduğunuzda kullanın.",
-          "how": "Generate PDF'yi seçin ve rapor önizlemesinin görünmesini bekleyip inceleyin.",
-          "inputs": "Doğru alt projeyi ve raporlama dönemini seçin; kapsamı ve toplamları kontrol edin.",
-          "result": "Alt proje raporu için PDF dosyası oluşturulur.",
-          "notes": "Kaydetmeden veya yazdırmadan önce rapor kapsamını, dönemini ve toplamları kontrol edin. Dosya raporu göndermez."
+          "purpose": "Seçili projenin ana proje ve alt projeleri dâhil tam mali rapor önizlemesinden PDF oluşturur.",
+          "when": "Ana proje ve alt proje ayrıntılarını içeren tam proje mali raporunun PDF kopyasına ihtiyaç duyduğunuzda kullanın.",
+          "how": "Tam proje mali raporu önizlemesini açın ve Generate PDF seçeneğini belirleyin. Raporun dönüştürülmesini bekleyin, ardından PDF önizlemesini inceleyin.",
+          "inputs": "Doğru kayıtlı proje seçilmiş olmalıdır. Rapor, kaydedilmiş gelirleri, giderleri, alt projeleri ve ödeme kayıtlarını kullanır; raporlama dönemi girilmesi gerekmez.",
+          "result": "Tam proje raporu için PDF oluşturulur ve rapor penceresindeki PDF önizlemesinde gösterilir.",
+          "notes": "Raporun doğru projeye ait olduğunu ve istenen alt proje ayrıntılarını içerdiğini kontrol edin. PDF oluşturmak yalnızca bir çıktı belgesi üretir; veri göndermez ve proje kayıtlarını değiştirmez."
         },
         "pl": {
-          "purpose": "Tworzy plik PDF bieżącego raportu podprojektu.",
-          "when": "Użyj, gdy potrzebujesz kopii PDF wybranego raportu podprojektu do sprawdzenia, wydrukowania lub zapisania.",
-          "how": "Wybierz Generate PDF, poczekaj na podgląd raportu i sprawdź go.",
-          "inputs": "Wybierz właściwy podprojekt i okres raportowania; sprawdź zakres raportu i sumy.",
-          "result": "Zostanie utworzony plik PDF raportu podprojektu.",
-          "notes": "Przed zapisaniem lub wydrukowaniem sprawdź zakres, okres i sumy raportu. Utworzenie pliku nie wysyła raportu."
+          "purpose": "Generuje plik PDF z podglądu pełnego raportu finansowego wybranego projektu, wraz z projektem głównym i jego podprojektami.",
+          "when": "Użyj tej opcji, gdy potrzebujesz pliku PDF pełnego raportu finansowego projektu obejmującego szczegóły projektu głównego i podprojektów.",
+          "how": "Otwórz podgląd pełnego raportu finansowego projektu i wybierz Generate PDF. Poczekaj na konwersję raportu, a następnie sprawdź podgląd PDF.",
+          "inputs": "Musi być wybrany właściwy zapisany projekt. Raport wykorzystuje zapisane przychody, koszty, podprojekty i płatności; nie trzeba podawać okresu raportowania.",
+          "result": "Plik PDF pełnego raportu projektu zostaje wygenerowany i wyświetlony w podglądzie PDF w oknie raportu.",
+          "notes": "Sprawdź, czy raport dotyczy właściwego projektu i zawiera wymagane szczegóły podprojektów. Generowanie PDF tworzy wyłącznie dokument wynikowy; nie wysyła danych ani nie zmienia zapisów projektu."
         },
         "ur": {
-          "purpose": "موجودہ ذیلی منصوبے کی رپورٹ کے لیے PDF بناتا ہے۔",
-          "when": "جب منتخب ذیلی منصوبے کی رپورٹ کی جانچ، پرنٹ یا محفوظ کرنے کے لیے PDF نقل درکار ہو تو استعمال کریں۔",
-          "how": "Generate PDF منتخب کریں اور رپورٹ کا پیش منظر آنے تک انتظار کریں، پھر اسے دیکھیں۔",
-          "inputs": "درست ذیلی منصوبہ اور رپورٹنگ مدت منتخب کریں اور رپورٹ کا دائرہ اور مجموعی رقوم چیک کریں۔",
-          "result": "ذیلی منصوبے کی رپورٹ کے لیے PDF فائل تیار ہو جاتی ہے۔",
-          "notes": "محفوظ یا پرنٹ کرنے سے پہلے رپورٹ کا دائرہ، مدت اور مجموعی رقوم چیک کریں۔ فائل بننے سے رپورٹ ارسال نہیں ہوتی۔"
+          "purpose": "منتخب پروجیکٹ کی مکمل مالی رپورٹ کے پیش نظارے سے PDF بناتا ہے، جس میں مرکزی پروجیکٹ اور اس کے ذیلی پروجیکٹس شامل ہیں۔",
+          "when": "جب آپ کو مرکزی پروجیکٹ اور ذیلی پروجیکٹس کی تفصیلات سمیت مکمل مالی رپورٹ کی PDF نقل درکار ہو تو یہ اختیار استعمال کریں۔",
+          "how": "مکمل پروجیکٹ مالی رپورٹ کا پیش نظارہ کھولیں اور Generate PDF منتخب کریں۔ رپورٹ کی تبدیلی مکمل ہونے کا انتظار کریں، پھر PDF پیش نظارہ دیکھیں۔",
+          "inputs": "درست محفوظ شدہ پروجیکٹ منتخب ہونا ضروری ہے۔ رپورٹ محفوظ شدہ آمدنی، اخراجات، ذیلی پروجیکٹس اور ادائیگیوں کے ریکارڈ استعمال کرتی ہے؛ رپورٹنگ مدت درج کرنے کی ضرورت نہیں۔",
+          "result": "مکمل پروجیکٹ رپورٹ کی PDF بنتی ہے اور رپورٹ ونڈو کے اندر PDF پیش نظارے میں دکھائی جاتی ہے۔",
+          "notes": "تصدیق کریں کہ رپورٹ درست پروجیکٹ کی ہے اور مطلوبہ ذیلی پروجیکٹس کی تفصیلات شامل ہیں۔ PDF بنانا صرف ایک آؤٹ پٹ دستاویز تیار کرتا ہے؛ یہ ڈیٹا نہیں بھیجتا اور پروجیکٹ ریکارڈ تبدیل نہیں کرتا۔"
         },
         "pa": {
-          "purpose": "ਮੌਜੂਦਾ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਰਿਪੋਰਟ ਲਈ PDF ਬਣਾਉਂਦਾ ਹੈ।",
-          "when": "ਜਦੋਂ ਚੁਣੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦੀ ਰਿਪੋਰਟ ਦੀ ਜਾਂਚ, ਪ੍ਰਿੰਟ ਜਾਂ ਸੇਵ ਕਰਨ ਲਈ PDF ਕਾਪੀ ਚਾਹੀਦੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
-          "how": "Generate PDF ਚੁਣੋ ਅਤੇ ਰਿਪੋਰਟ ਦੀ ਝਲਕ ਆਉਣ ਤੱਕ ਉਡੀਕ ਕਰੋ, ਫਿਰ ਜਾਂਚੋ।",
-          "inputs": "ਸਹੀ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਅਤੇ ਰਿਪੋਰਟਿੰਗ ਮਿਆਦ ਚੁਣੋ ਅਤੇ ਰਿਪੋਰਟ ਦਾ ਦਾਇਰਾ ਤੇ ਕੁੱਲ ਰਕਮਾਂ ਜਾਂਚੋ।",
-          "result": "ਉਪ-ਪ੍ਰੋਜੈਕਟ ਰਿਪੋਰਟ ਲਈ PDF ਫਾਈਲ ਤਿਆਰ ਹੁੰਦੀ ਹੈ।",
-          "notes": "ਸੇਵ ਜਾਂ ਪ੍ਰਿੰਟ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਰਿਪੋਰਟ ਦਾ ਦਾਇਰਾ, ਮਿਆਦ ਅਤੇ ਕੁੱਲ ਰਕਮਾਂ ਜਾਂਚੋ। ਫਾਈਲ ਬਣਾਉਣ ਨਾਲ ਰਿਪੋਰਟ ਨਹੀਂ ਭੇਜੀ ਜਾਂਦੀ।"
+          "purpose": "ਚੁਣੇ ਹੋਏ ਪ੍ਰੋਜੈਕਟ ਦੀ ਪੂਰੀ ਵਿੱਤੀ ਰਿਪੋਰਟ ਦੇ ਪ੍ਰੀਵਿਊ ਤੋਂ PDF ਬਣਾਉਂਦਾ ਹੈ, ਜਿਸ ਵਿੱਚ ਮੁੱਖ ਪ੍ਰੋਜੈਕਟ ਅਤੇ ਇਸ ਦੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਸ਼ਾਮਲ ਹਨ।",
+          "when": "ਜਦੋਂ ਤੁਹਾਨੂੰ ਮੁੱਖ ਪ੍ਰੋਜੈਕਟ ਅਤੇ ਉਪ-ਪ੍ਰੋਜੈਕਟਾਂ ਦੇ ਵੇਰਵਿਆਂ ਸਮੇਤ ਪੂਰੀ ਪ੍ਰੋਜੈਕਟ ਵਿੱਤੀ ਰਿਪੋਰਟ ਦੀ PDF ਕਾਪੀ ਚਾਹੀਦੀ ਹੋਵੇ, ਇਹ ਕੰਟਰੋਲ ਵਰਤੋ।",
+          "how": "ਪੂਰੀ ਪ੍ਰੋਜੈਕਟ ਵਿੱਤੀ ਰਿਪੋਰਟ ਦਾ ਪ੍ਰੀਵਿਊ ਖੋਲ੍ਹੋ ਅਤੇ Generate PDF ਚੁਣੋ। ਰਿਪੋਰਟ ਬਦਲਣ ਦੀ ਉਡੀਕ ਕਰੋ, ਫਿਰ PDF ਪ੍ਰੀਵਿਊ ਦੀ ਜਾਂਚ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਸੇਵ ਕੀਤਾ ਪ੍ਰੋਜੈਕਟ ਚੁਣਿਆ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ। ਰਿਪੋਰਟ ਸੇਵ ਕੀਤੀ ਆਮਦਨ, ਖਰਚੇ, ਉਪ-ਪ੍ਰੋਜੈਕਟ ਅਤੇ ਭੁਗਤਾਨ ਰਿਕਾਰਡ ਵਰਤਦੀ ਹੈ; ਰਿਪੋਰਟਿੰਗ ਮਿਆਦ ਭਰਨ ਦੀ ਲੋੜ ਨਹੀਂ।",
+          "result": "ਪੂਰੀ ਪ੍ਰੋਜੈਕਟ ਰਿਪੋਰਟ ਲਈ PDF ਬਣਦੀ ਹੈ ਅਤੇ ਰਿਪੋਰਟ ਵਿੰਡੋ ਦੇ PDF ਪ੍ਰੀਵਿਊ ਵਿੱਚ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ।",
+          "notes": "ਜਾਂਚੋ ਕਿ ਰਿਪੋਰਟ ਸਹੀ ਪ੍ਰੋਜੈਕਟ ਦੀ ਹੈ ਅਤੇ ਲੋੜੀਂਦੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਵੇਰਵੇ ਸ਼ਾਮਲ ਹਨ। PDF ਬਣਾਉਣ ਨਾਲ ਸਿਰਫ਼ ਆਉਟਪੁੱਟ ਦਸਤਾਵੇਜ਼ ਬਣਦਾ ਹੈ; ਡਾਟਾ ਨਹੀਂ ਭੇਜਿਆ ਜਾਂਦਾ ਅਤੇ ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਨਹੀਂ ਬਦਲਦੇ।"
         },
         "prs": {
-          "purpose": "برای گزارش فعلی زیرپروژه فایل PDF ایجاد می‌کند.",
-          "when": "وقتی به نسخه PDF گزارش زیرپروژه انتخاب‌شده برای بررسی، چاپ یا ذخیره نیاز دارید، استفاده کنید.",
-          "how": "Generate PDF را انتخاب کنید و منتظر پیش‌نمایش گزارش بمانید، سپس آن را بررسی کنید.",
-          "inputs": "زیرپروژه و دوره گزارش درست را انتخاب کنید و دامنه گزارش و جمع مبالغ را بررسی کنید.",
-          "result": "فایل PDF برای گزارش زیرپروژه ایجاد می‌شود.",
-          "notes": "پیش از ذخیره یا چاپ دامنه، دوره و جمع مبالغ گزارش را بررسی کنید. ایجاد فایل به معنی ارسال گزارش نیست."
+          "purpose": "از پیش‌نمایش گزارش مالی کامل پروژه انتخاب‌شده، شامل پروژه اصلی و زیرپروژه‌های آن، فایل PDF ایجاد می‌کند.",
+          "when": "وقتی به نسخه PDF گزارش مالی کامل پروژه، همراه با جزئیات پروژه اصلی و زیرپروژه‌ها نیاز دارید، از این گزینه استفاده کنید.",
+          "how": "پیش‌نمایش گزارش مالی کامل پروژه را باز کنید و Generate PDF را انتخاب کنید. منتظر تبدیل گزارش بمانید و سپس پیش‌نمایش PDF را بررسی کنید.",
+          "inputs": "باید پروژه ذخیره‌شده صحیح انتخاب شده باشد. گزارش از درآمدها، هزینه‌ها، زیرپروژه‌ها و سوابق پرداخت ذخیره‌شده آن استفاده می‌کند؛ واردکردن دوره گزارش لازم نیست.",
+          "result": "فایل PDF گزارش کامل پروژه ایجاد و در پیش‌نمایش PDF داخل پنجره گزارش نمایش داده می‌شود.",
+          "notes": "بررسی کنید گزارش متعلق به پروژه صحیح است و جزئیات زیرپروژه‌های موردنظر را دربرمی‌گیرد. ایجاد PDF فقط سند خروجی تولید می‌کند؛ داده‌ای ارسال نمی‌کند و سوابق پروژه را تغییر نمی‌دهد."
         },
         "ps": {
-          "purpose": "د اوسنۍ فرعي پروژې راپور لپاره PDF جوړوي.",
-          "when": "کله چې د ټاکل شوي فرعي پروژې راپور د کتنې، چاپ یا خوندي کولو لپاره PDF کاپي ته اړتیا لرئ، دا وکاروئ.",
-          "how": "Generate PDF وټاکئ او د راپور د مخکتنې تر ښکاره کېدو انتظار وکړئ، بیا یې وګورئ.",
-          "inputs": "سمه فرعي پروژه او د راپور موده وټاکئ او د راپور ساحه او ټولیزې شمېرې وګورئ.",
-          "result": "د فرعي پروژې راپور لپاره PDF فایل جوړېږي.",
-          "notes": "له خوندي کولو یا چاپ مخکې د راپور ساحه، موده او ټولیزې شمېرې وګورئ. د فایل جوړول راپور نه لېږي."
+          "purpose": "د ټاکل شوې پروژې د بشپړ مالي راپور له مخکتنې څخه PDF جوړوي، چې اصلي پروژه او فرعي پروژې یې هم پکې شاملې دي.",
+          "when": "کله چې د اصلي پروژې او فرعي پروژو د جزیاتو په ګډون د بشپړ مالي راپور PDF کاپي ته اړتیا لرئ، دا کنټرول وکاروئ.",
+          "how": "د بشپړ پروژې مالي راپور مخکتنه پرانیزئ او Generate PDF وټاکئ. د راپور د بدلېدو انتظار وکړئ، بیا د PDF مخکتنه وګورئ.",
+          "inputs": "سمه خوندي شوې پروژه باید ټاکل شوې وي. راپور د هغې خوندي شوي عاید، لګښتونو، فرعي پروژو او تادیاتو ریکارډونه کاروي؛ د راپور موده ټاکلو ته اړتیا نشته.",
+          "result": "د بشپړ پروژې راپور لپاره PDF جوړېږي او د راپور په کړکۍ کې د PDF مخکتنې کې ښودل کېږي.",
+          "notes": "ډاډ ترلاسه کړئ چې راپور د سمې پروژې دی او د اړینو فرعي پروژو جزیات پکې شامل دي. د PDF جوړول یوازې یو وتونکی سند جوړوي؛ معلومات نه لېږي او د پروژې ریکارډونه نه بدلوي."
         }
       },
       "handler_or_behavior": "`prRunSubReportPrint()`"
