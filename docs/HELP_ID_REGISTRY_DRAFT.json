@@ -9194,6 +9194,78 @@
           "inputs": "مبلغ الزامی است. فرم همچنین امکان واردکردن شرح و تاریخ را فراهم می‌کند.",
           "result": "سوابق Food & Other پروژه نمایش داده می‌شوند. در صورت موفقیت ذخیره، سابقه معتبر جدید افزوده می‌شود.",
           "notes": "شرح روشنی وارد کنید و مطمئن شوید هزینه به همین پروژه مربوط است. رسیدها را نگه دارید و از ثبت همان هزینه در Expenses یا زبانه دیگری نیز خودداری کنید. این سوابق مختص پروژه هستند و خودکار به Accountancy افزوده نمی‌شوند."
+        },
+        "ar": {
+          "purpose": "يعرض تكاليف Food & Other للمشروع المحدد ويوفر نموذجاً لتسجيل تكلفة متنوعة للمشروع.",
+          "when": "استخدم هذا الخيار لمراجعة أو تسجيل تكاليف الطعام أو التكاليف المتنوعة الأخرى المنسوبة إلى المشروع.",
+          "how": "افتح المشروع واختر Food & Other. لإضافة سجل، أدخل وصفاً واضحاً والمبلغ والتاريخ، ثم اختر Record.",
+          "inputs": "المبلغ مطلوب. ويمكن أيضاً إدخال وصف وتاريخ في النموذج.",
+          "result": "تُعرض سجلات Food & Other للمشروع. ويُضاف سجل جديد صحيح عند نجاح الحفظ.",
+          "notes": "استخدم وصفاً واضحاً وتأكد من أن التكلفة تخص هذا المشروع. احتفظ بالإيصالات وتجنب تسجيل التكلفة نفسها في Expenses أو علامة تبويب أخرى أيضاً. هذه سجلات خاصة بالمشروع ولا تُضاف تلقائياً إلى Accountancy."
+        },
+        "ckb": {
+          "purpose": "تێچووی Food & Other بۆ پڕۆژەی هەڵبژێردراو پیشان دەدات و فۆڕمی تۆمارکردنی تێچووی جۆراوجۆری پڕۆژە دابین دەکات.",
+          "when": "کاتێک دەتەوێت خەرجی خواردن یان خەرجی جۆراوجۆری تری پەیوەندیدار بە پڕۆژە بپشکنیت یان تۆماری بکەیت، ئەم بەشە بەکاربهێنە.",
+          "how": "پڕۆژەکە بکەرەوە و Food & Other هەڵبژێرە. بۆ زیادکردنی تۆمار، وەسفێکی ڕوون، بڕ و بەروار داخڵ بکە، پاشان Record هەڵبژێرە.",
+          "inputs": "بڕ پێویستە. فۆڕمەکە هەروەها ڕێگە بە داخڵکردنی وەسف و بەروار دەدات.",
+          "result": "تۆمارەکانی Food & Otherی پڕۆژە پیشان دەدرێن. تۆماری نوێی دروست کاتێک پاشەکەوتکردن سەرکەوتوو بێت زیاد دەکرێت.",
+          "notes": "وەسفێکی ڕوون بەکاربهێنە و دڵنیا ببەوە خەرجییەکە پەیوەندی بە هەمان پڕۆژەوە هەیە. پسووڵەکان بپارێزە و لە تۆمارکردنی هەمان خەرجی لە Expenses یان تابێکی تردا خۆت بپارێزە. ئەم تۆمارانە تایبەتن بە پڕۆژە و بە شێوەیەکی خۆکار زیاد ناکرێن بۆ Accountancy."
+        },
+        "kmr": {
+          "purpose": "Lêçûnên Food & Other ji bo projeya hilbijartî nîşan dide û forma tomarkirina lêçûneke cihêreng a projeyê peyda dike.",
+          "when": "Vê bikar bîne dema ku dixwazî lêçûnên xwarinê an lêçûnên din ên cihêreng ên girêdayî projeyê binirxînî an tomar bikî.",
+          "how": "Projeyê veke û Food & Other hilbijêre. Ji bo zêdekirina tomarê, ravekirineke zelal, mîqdar û dîrokê binivîse, paşê Record hilbijêre.",
+          "inputs": "Mîqdar pêwîst e. Di formê de dikare ravekirin û dîrok jî were têketin.",
+          "result": "Tomarên Food & Other yên projeyê têne nîşandan. Tomareke nû ya derbasdar dema tomarkirin serkeftî be tê zêdekirin.",
+          "notes": "Ravekirineke zelal bikar bîne û piştrast bike ku lêçûn bi vê projeyê ve girêdayî ye. Qebzeyan biparêze û ji tomarkirina heman lêçûnê di Expenses an tabe din de dûr bikeve. Ev tomar taybetî projeyê ne û bi awayekî xweber li Accountancy nayên zêdekirin."
+        },
+        "tr": {
+          "purpose": "Seçilen proje için Food & Other maliyetlerini görüntüler ve çeşitli bir proje maliyeti kaydetmek için form sağlar.",
+          "when": "Projeye ait yemek veya diğer çeşitli maliyetleri incelemek ya da kaydetmek için kullanın.",
+          "how": "Projeyi açın ve Food & Other sekmesini seçin. Kayıt eklemek için açık bir açıklama, tutar ve tarih girin, ardından Record seçeneğini belirleyin.",
+          "inputs": "Tutar zorunludur. Forma açıklama ve tarih de girilebilir.",
+          "result": "Projenin Food & Other kayıtları görüntülenir. Kayıt başarılı olduğunda geçerli yeni kayıt eklenir.",
+          "notes": "Açık bir açıklama kullanın ve maliyetin bu projeye ait olduğunu doğrulayın. Fişleri saklayın ve aynı maliyeti Expenses veya başka bir sekmede tekrar kaydetmeyin. Bu kayıtlar projeye özeldir ve otomatik olarak Accountancy'ye eklenmez."
+        },
+        "pl": {
+          "purpose": "Wyświetla koszty Food & Other dla wybranego projektu i udostępnia formularz do zapisania pozostałego kosztu projektu.",
+          "when": "Użyj tej opcji, aby przejrzeć lub zarejestrować koszty żywności albo inne różne wydatki przypisane do projektu.",
+          "how": "Otwórz projekt i wybierz Food & Other. Aby dodać rekord, wpisz jasny opis, kwotę i datę, a następnie wybierz Record.",
+          "inputs": "Kwota jest wymagana. W formularzu można również podać opis i datę.",
+          "result": "Wyświetlane są rekordy Food & Other projektu. Prawidłowy nowy rekord zostaje dodany po pomyślnym zapisie.",
+          "notes": "Użyj jasnego opisu i potwierdź, że koszt dotyczy tego projektu. Zachowaj paragony i nie zapisuj tego samego kosztu ponownie w Expenses ani na innej karcie. Te rekordy dotyczą wyłącznie projektu i nie są automatycznie dodawane do Accountancy."
+        },
+        "ur": {
+          "purpose": "منتخب منصوبے کے Food & Other اخراجات دکھاتا ہے اور متفرق منصوبہ خرچ درج کرنے کا فارم فراہم کرتا ہے۔",
+          "when": "اسے منصوبے سے متعلق کھانے یا دیگر متفرق اخراجات کا جائزہ لینے یا درج کرنے کے لیے استعمال کریں۔",
+          "how": "منصوبہ کھولیں اور Food & Other منتخب کریں۔ ریکارڈ شامل کرنے کے لیے واضح تفصیل، رقم اور تاریخ درج کریں، پھر Record منتخب کریں۔",
+          "inputs": "رقم لازمی ہے۔ فارم میں تفصیل اور تاریخ بھی درج کی جا سکتی ہے۔",
+          "result": "منصوبے کے Food & Other ریکارڈ دکھائے جاتے ہیں۔ محفوظ کرنا کامیاب ہونے پر نیا درست ریکارڈ شامل ہو جاتا ہے۔",
+          "notes": "واضح تفصیل درج کریں اور تصدیق کریں کہ خرچ اسی منصوبے سے متعلق ہے۔ رسیدیں محفوظ رکھیں اور اسی خرچ کو Expenses یا کسی دوسرے ٹیب میں دوبارہ درج نہ کریں۔ یہ منصوبے کے مخصوص ریکارڈ ہیں اور خودکار طور پر Accountancy میں شامل نہیں ہوتے۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਲਈ Food & Other ਖਰਚੇ ਦਿਖਾਉਂਦਾ ਹੈ ਅਤੇ ਹੋਰ ਕਿਸਮ ਦਾ ਪ੍ਰੋਜੈਕਟ ਖਰਚਾ ਦਰਜ ਕਰਨ ਲਈ ਫਾਰਮ ਦਿੰਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਪ੍ਰੋਜੈਕਟ ਨਾਲ ਸੰਬੰਧਿਤ ਖਾਣੇ ਜਾਂ ਹੋਰ ਫੁਟਕਲ ਖਰਚਿਆਂ ਦੀ ਸਮੀਖਿਆ ਜਾਂ ਰਿਕਾਰਡ ਕਰਨ ਲਈ ਕਰੋ।",
+          "how": "ਪ੍ਰੋਜੈਕਟ ਖੋਲ੍ਹੋ ਅਤੇ Food & Other ਚੁਣੋ। ਰਿਕਾਰਡ ਜੋੜਨ ਲਈ ਸਪਸ਼ਟ ਵੇਰਵਾ, ਰਕਮ ਅਤੇ ਮਿਤੀ ਦਰਜ ਕਰੋ, ਫਿਰ Record ਚੁਣੋ।",
+          "inputs": "ਰਕਮ ਲਾਜ਼ਮੀ ਹੈ। ਫਾਰਮ ਵਿੱਚ ਵੇਰਵਾ ਅਤੇ ਮਿਤੀ ਵੀ ਦਰਜ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ।",
+          "result": "ਪ੍ਰੋਜੈਕਟ ਦੇ Food & Other ਰਿਕਾਰਡ ਦਿਖਾਏ ਜਾਂਦੇ ਹਨ। ਸੇਵ ਸਫਲ ਹੋਣ 'ਤੇ ਨਵਾਂ ਵੈਧ ਰਿਕਾਰਡ ਜੋੜਿਆ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਸਪਸ਼ਟ ਵੇਰਵਾ ਵਰਤੋ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੋ ਕਿ ਖਰਚਾ ਇਸੇ ਪ੍ਰੋਜੈਕਟ ਨਾਲ ਸੰਬੰਧਿਤ ਹੈ। ਰਸੀਦਾਂ ਸੰਭਾਲੋ ਅਤੇ ਉਸੇ ਖਰਚੇ ਨੂੰ Expenses ਜਾਂ ਕਿਸੇ ਹੋਰ ਟੈਬ ਵਿੱਚ ਦੁਬਾਰਾ ਦਰਜ ਨਾ ਕਰੋ। ਇਹ ਪ੍ਰੋਜੈਕਟ-ਵਿਸ਼ੇਸ਼ ਰਿਕਾਰਡ ਹਨ ਅਤੇ ਆਪਣੇ ਆਪ Accountancy ਵਿੱਚ ਨਹੀਂ ਜੋੜੇ ਜਾਂਦੇ।"
+        },
+        "prs": {
+          "purpose": "هزینه‌های Food & Other پروژه انتخاب‌شده را نمایش می‌دهد و فرم ثبت هزینه متفرقه پروژه را فراهم می‌کند.",
+          "when": "برای بررسی یا ثبت هزینه غذا یا سایر مخارج متفرقه مربوط به پروژه از این بخش استفاده کنید.",
+          "how": "پروژه را باز کنید و Food & Other را انتخاب کنید. برای افزودن سابقه، شرح روشن، مبلغ و تاریخ را وارد کنید و سپس Record را انتخاب کنید.",
+          "inputs": "مبلغ الزامی است. فرم همچنین امکان واردکردن شرح و تاریخ را فراهم می‌کند.",
+          "result": "سوابق Food & Other پروژه نمایش داده می‌شوند. در صورت موفقیت ذخیره، سابقه معتبر جدید افزوده می‌شود.",
+          "notes": "شرح روشنی وارد کنید و مطمئن شوید هزینه به همین پروژه مربوط است. رسیدها را نگه دارید و از ثبت همان هزینه در Expenses یا زبانه دیگری نیز خودداری کنید. این سوابق مختص پروژه هستند و خودکار به Accountancy افزوده نمی‌شوند."
+        },
+        "ps": {
+          "purpose": "د ټاکل شوې پروژې د Food & Other لګښتونه ښيي او د بېلابېل پروژوي لګښت د ثبتولو فورم برابروي.",
+          "when": "دا هغه وخت وکاروئ چې د پروژې اړوند د خوړو یا نورو بېلابېلو لګښتونو ارزونه یا ثبت غواړئ.",
+          "how": "پروژه پرانیزئ او Food & Other وټاکئ. د ریکارډ زیاتولو لپاره روښانه تشریح، اندازه او نېټه دننه کړئ، بیا Record وټاکئ.",
+          "inputs": "اندازه اړینه ده. په فورم کې تشریح او نېټه هم داخلېدای شي.",
+          "result": "د پروژې د Food & Other ریکارډونه ښودل کېږي. که خوندي کول بریالي شي، نوی سم ریکارډ زیاتېږي.",
+          "notes": "روښانه تشریح وکاروئ او تایید کړئ چې لګښت همدې پروژې پورې اړه لري. رسیدونه وساتئ او هماغه لګښت په Expenses یا بل ټب کې بیا مه ثبتوئ. دا د پروژې ځانګړي ریکارډونه دي او په اتومات ډول Accountancy ته نه زیاتېږي."
         }
       },
       "handler_or_behavior": "`prDetailTab(`"
@@ -9220,6 +9292,78 @@
           "inputs": "برای مشاهده گزارش ورودی لازم نیست. گزارش از سوابق ذخیره‌شده پروژه انتخاب‌شده استفاده می‌کند. چاپ یا ذخیره PDF از طریق پنجره چاپ مرورگر انجام می‌شود.",
           "result": "زبانه Reports تفکیک هزینه‌های پروژه و مجموع هزینه‌ها را همراه با کنترل Print / Save PDF نمایش می‌دهد.",
           "notes": "این گزارش خلاصه هزینه در سطح پروژه است، نه اظهارنامه HMRC یا گزارش عمومی Accountancy. محاسبات بر اساس سوابق پروژه انتخاب‌شده و قواعد محاسبه هزینه در بخش Projects انجام می‌شوند. پیش از اتکا به ارقام، پروژه و سوابق اصلی را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يعرض ملخص تكاليف المشروع المحدد حسب الفئة ويوفر خيار الطباعة عبر المتصفح.",
+          "when": "استخدم هذا الخيار لمراجعة تكاليف المشروع المسجلة حسب الفئة أو لطباعة ملخص تكاليف المشروع.",
+          "how": "افتح المشروع واختر Reports. راجع Project Expenses وWorker Wages وTools وFood & Other وإجمالي التكاليف المضمنة في نتيجة المشروع. اختر Print / Save PDF لفتح مربع حوار الطباعة في المتصفح.",
+          "inputs": "لا يلزم إدخال شيء لعرض التقرير. يستخدم السجلات المحفوظة للمشروع المحدد. يتولى مربع حوار الطباعة في المتصفح الطباعة أو الحفظ بصيغة PDF.",
+          "result": "تعرض علامة Reports تفصيل تكاليف المشروع وإجماليها، مع عنصر Print / Save PDF.",
+          "notes": "هذا ملخص تكاليف على مستوى المشروع، وليس إقراراً إلى HMRC أو تقرير Accountancy عاماً. يستخدم سجلات المشروع المحدد وحساب التكاليف الخاص بالتطبيق. تحقق من المشروع والسجلات الأساسية قبل الاعتماد على الأرقام."
+        },
+        "ckb": {
+          "purpose": "پوختەی خەرجییەکانی پڕۆژەی هەڵبژێردراو بەپێی پۆل پیشان دەدات و هەڵبژاردەی چاپکردنی وێبگەڕ دابین دەکات.",
+          "when": "کاتێک دەتەوێت خەرجی تۆمارکراوی پڕۆژە بەپێی پۆل بپشکنیت یان پوختەی خەرجی پڕۆژە چاپ بکەیت، ئەم هەڵبژاردەیە بەکاربهێنە.",
+          "how": "پڕۆژەکە بکەرەوە و Reports هەڵبژێرە. Project Expenses، Worker Wages، Tools، Food & Other و کۆی خەرجییە بەشداربووەکان لە ئەنجامی پڕۆژە بپشکنە. Print / Save PDF هەڵبژێرە بۆ کردنەوەی پەنجەرەی چاپی وێبگەڕ.",
+          "inputs": "بۆ بینینی ڕاپۆرت هیچ داخڵکردنێک پێویست نییە. تۆمارە پاشەکەوتکراوەکانی پڕۆژەی هەڵبژێردراو بەکاردەهێنێت. پەنجەرەی چاپی وێبگەڕ چاپکردن یان پاشەکەوتکردن بە PDF بەڕێوە دەبات.",
+          "result": "تابی Reports دابەشکردنی خەرجییەکانی پڕۆژە و کۆی خەرجییەکان، لەگەڵ کۆنترۆڵی Print / Save PDF پیشان دەدات.",
+          "notes": "ئەمە پوختەی خەرجی لە ئاستی پڕۆژەیە، نەک ناردنی زانیاری بۆ HMRC یان ڕاپۆرتێکی گشتی Accountancy. تۆمارەکانی پڕۆژەی هەڵبژێردراو و هەژمارکردنی خەرجییەکانی ئەپ بەکاردەهێنێت. پێش پشتبەستن بە ژمارەکان، پڕۆژە و تۆمارە بنەڕەتییەکان بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Kurtasiya lêçûnên projeya hilbijartî li gorî kategoriyê nîşan dide û vebijarka çapkirina gerokê peyda dike.",
+          "when": "Vê bikar bîne dema ku lêçûnên tomarkirî yên projeyê li gorî kategoriyê dinirxînî an kurtasiya lêçûnên projeyê çap dikî.",
+          "how": "Projeyê veke û Reports hilbijêre. Project Expenses, Worker Wages, Tools, Food & Other û tevahiya lêçûnên ku di encama projeyê de têne hesibandin kontrol bike. Print / Save PDF hilbijêre da paceya çapkirina gerokê vebe.",
+          "inputs": "Ji bo dîtina raporê têketineke din nehewce ye. Ew tomarên hilanbar ên projeya hilbijartî bikar tîne. Paceya çapkirina gerokê çapkirin an tomarkirina PDF-ê rêve dike.",
+          "result": "Tab-a Reports dabeşkirina lêçûnên projeyê û tevahiya lêçûnan, ligel kontrola Print / Save PDF nîşan dide.",
+          "notes": "Ev kurtasiya lêçûnê ya asta projeyê ye, ne şandina belgeyan ji HMRC re an rapora giştî ya Accountancy. Ew tomarên projeya hilbijartî û hesabkirina lêçûnên sepanê bikar tîne. Berî ku xwe dispêrî hejmaran bibî, proje û tomarên bingehîn kontrol bike."
+        },
+        "tr": {
+          "purpose": "Seçilen projenin kategoriye göre maliyet özetini görüntüler ve tarayıcı üzerinden yazdırma seçeneği sunar.",
+          "when": "Seçilen projenin kaydedilmiş maliyetlerini kategoriye göre incelemek veya proje maliyet özetini yazdırmak için kullanın.",
+          "how": "Projeyi açın ve Reports sekmesini seçin. Project Expenses, Worker Wages, Tools, Food & Other ve proje sonucuna dahil edilen toplam maliyetleri inceleyin. Tarayıcının yazdırma iletişim kutusunu açmak için Print / Save PDF seçeneğini belirleyin.",
+          "inputs": "Raporu görüntülemek için giriş gerekmez. Seçilen projenin kayıtlı verilerini kullanır. Yazdırma veya PDF olarak kaydetme işlemini tarayıcının yazdırma iletişim kutusu yönetir.",
+          "result": "Reports sekmesi, Print / Save PDF denetimiyle birlikte proje maliyet dökümünü ve toplam maliyetleri gösterir.",
+          "notes": "Bu, proje düzeyinde bir maliyet özetidir; HMRC'ye gönderim veya genel bir Accountancy raporu değildir. Seçilen projenin kayıtlarını ve uygulamanın proje maliyeti hesaplamasını kullanır. Rakamları esas almadan önce seçilen projeyi ve dayanak kayıtları kontrol edin."
+        },
+        "pl": {
+          "purpose": "Wyświetla podsumowanie kosztów wybranego projektu według kategorii i udostępnia opcję drukowania w przeglądarce.",
+          "when": "Użyj tej opcji, aby przejrzeć zapisane koszty projektu według kategorii lub wydrukować podsumowanie kosztów projektu.",
+          "how": "Otwórz projekt i wybierz Reports. Sprawdź Project Expenses, Worker Wages, Tools, Food & Other oraz łączne koszty uwzględnione w wyniku projektu. Wybierz Print / Save PDF, aby otworzyć okno drukowania przeglądarki.",
+          "inputs": "Do wyświetlenia raportu nie są potrzebne żadne dane. Wykorzystywane są zapisane rekordy wybranego projektu. Okno drukowania przeglądarki obsługuje drukowanie lub zapis do PDF.",
+          "result": "Karta Reports wyświetla zestawienie kosztów projektu i ich sumę oraz element Print / Save PDF.",
+          "notes": "To podsumowanie kosztów na poziomie projektu, a nie zgłoszenie do HMRC ani ogólny raport Accountancy. Wykorzystuje rekordy wybranego projektu i sposób obliczania kosztów projektu w aplikacji. Przed poleganiem na liczbach sprawdź wybrany projekt i dane źródłowe."
+        },
+        "ur": {
+          "purpose": "منتخب منصوبے کے زمرہ وار اخراجات کا خلاصہ دکھاتا ہے اور براؤزر کے ذریعے پرنٹ کرنے کا اختیار فراہم کرتا ہے۔",
+          "when": "اسے منتخب منصوبے کے درج شدہ اخراجات کا زمرہ وار جائزہ لینے یا منصوبے کے اخراجات کا خلاصہ پرنٹ کرنے کے لیے استعمال کریں۔",
+          "how": "منصوبہ کھولیں اور Reports منتخب کریں۔ Project Expenses، Worker Wages، Tools، Food & Other اور منصوبے کے نتیجے میں شامل کل اخراجات دیکھیں۔ براؤزر کا پرنٹ ڈائیلاگ کھولنے کے لیے Print / Save PDF منتخب کریں۔",
+          "inputs": "رپورٹ دیکھنے کے لیے کسی معلومات کی ضرورت نہیں۔ یہ منتخب منصوبے کے محفوظ شدہ ریکارڈ استعمال کرتی ہے۔ براؤزر کا پرنٹ ڈائیلاگ پرنٹ کرنے یا PDF محفوظ کرنے کا عمل سنبھالتا ہے۔",
+          "result": "Reports ٹیب منصوبے کے اخراجات کی تفصیل اور کل اخراجات دکھاتا ہے، ساتھ Print / Save PDF کنٹرول بھی فراہم کرتا ہے۔",
+          "notes": "یہ منصوبے کی سطح کا اخراجات کا خلاصہ ہے، HMRC کو جمع کرائی جانے والی رپورٹ یا عمومی Accountancy رپورٹ نہیں۔ یہ منتخب منصوبے کے ریکارڈ اور ایپ کے منصوبہ جاتی اخراجات کے حساب کو استعمال کرتا ہے۔ اعداد پر بھروسا کرنے سے پہلے منتخب منصوبہ اور بنیادی ریکارڈ چیک کریں۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਦਾ ਸ਼੍ਰੇਣੀ ਅਨੁਸਾਰ ਖਰਚਾ ਸਾਰ ਦਿਖਾਉਂਦਾ ਹੈ ਅਤੇ ਬ੍ਰਾਊਜ਼ਰ ਰਾਹੀਂ ਪ੍ਰਿੰਟ ਕਰਨ ਦਾ ਵਿਕਲਪ ਦਿੰਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਦੇ ਦਰਜ ਖਰਚਿਆਂ ਦੀ ਸ਼੍ਰੇਣੀ ਅਨੁਸਾਰ ਸਮੀਖਿਆ ਜਾਂ ਪ੍ਰੋਜੈਕਟ ਖਰਚਾ ਸਾਰ ਪ੍ਰਿੰਟ ਕਰਨ ਲਈ ਕਰੋ।",
+          "how": "ਪ੍ਰੋਜੈਕਟ ਖੋਲ੍ਹੋ ਅਤੇ Reports ਚੁਣੋ। Project Expenses, Worker Wages, Tools, Food & Other ਅਤੇ ਪ੍ਰੋਜੈਕਟ ਨਤੀਜੇ ਵਿੱਚ ਸ਼ਾਮਲ ਕੁੱਲ ਖਰਚੇ ਵੇਖੋ। ਬ੍ਰਾਊਜ਼ਰ ਦਾ ਪ੍ਰਿੰਟ ਡਾਇਲਾਗ ਖੋਲ੍ਹਣ ਲਈ Print / Save PDF ਚੁਣੋ।",
+          "inputs": "ਰਿਪੋਰਟ ਵੇਖਣ ਲਈ ਕੋਈ ਇਨਪੁੱਟ ਲੋੜੀਂਦਾ ਨਹੀਂ। ਇਹ ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਦੇ ਸੰਭਾਲੇ ਰਿਕਾਰਡ ਵਰਤਦੀ ਹੈ। ਬ੍ਰਾਊਜ਼ਰ ਦਾ ਪ੍ਰਿੰਟ ਡਾਇਲਾਗ ਪ੍ਰਿੰਟ ਜਾਂ PDF ਵਜੋਂ ਸੇਵ ਕਰਨ ਦਾ ਕੰਮ ਸੰਭਾਲਦਾ ਹੈ।",
+          "result": "Reports ਟੈਬ ਪ੍ਰੋਜੈਕਟ ਖਰਚਿਆਂ ਦੀ ਵੰਡ ਅਤੇ ਕੁੱਲ ਖਰਚੇ ਦਿਖਾਉਂਦਾ ਹੈ ਅਤੇ Print / Save PDF ਕੰਟਰੋਲ ਵੀ ਦਿੰਦਾ ਹੈ।",
+          "notes": "ਇਹ ਪ੍ਰੋਜੈਕਟ ਪੱਧਰ ਦਾ ਖਰਚਾ ਸਾਰ ਹੈ, HMRC ਵਿੱਚ ਜਮ੍ਹਾਂ ਕਰਵਾਉਣਾ ਜਾਂ ਆਮ Accountancy ਰਿਪੋਰਟ ਨਹੀਂ। ਇਹ ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਦੇ ਰਿਕਾਰਡ ਅਤੇ ਐਪ ਦੀ ਪ੍ਰੋਜੈਕਟ-ਖਰਚਾ ਗਿਣਤੀ ਵਰਤਦਾ ਹੈ। ਅੰਕੜਿਆਂ 'ਤੇ ਭਰੋਸਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਅਤੇ ਮੂਲ ਰਿਕਾਰਡ ਜਾਂਚੋ।"
+        },
+        "prs": {
+          "purpose": "خلاصه هزینه‌های دسته‌بندی‌شده پروژه انتخاب‌شده را نمایش می‌دهد و گزینه چاپ از طریق مرورگر را فراهم می‌کند.",
+          "when": "برای بررسی هزینه‌های ثبت‌شده پروژه بر اساس دسته‌بندی یا چاپ خلاصه هزینه‌های پروژه از این بخش استفاده کنید.",
+          "how": "پروژه را باز کنید و Reports را انتخاب کنید. Project Expenses، Worker Wages، Tools، Food & Other و مجموع هزینه‌های لحاظ‌شده در نتیجه پروژه را بررسی کنید. برای بازکردن پنجره چاپ مرورگر، Print / Save PDF را انتخاب کنید.",
+          "inputs": "برای مشاهده گزارش ورودی لازم نیست. گزارش از سوابق ذخیره‌شده پروژه انتخاب‌شده استفاده می‌کند. چاپ یا ذخیره PDF از طریق پنجره چاپ مرورگر انجام می‌شود.",
+          "result": "زبانه Reports تفکیک هزینه‌های پروژه و مجموع هزینه‌ها را همراه با کنترل Print / Save PDF نمایش می‌دهد.",
+          "notes": "این گزارش خلاصه هزینه در سطح پروژه است، نه اظهارنامه HMRC یا گزارش عمومی Accountancy. از سوابق پروژه انتخاب‌شده و محاسبه هزینه پروژه در برنامه استفاده می‌کند. پیش از اتکا به ارقام، پروژه انتخاب‌شده و سوابق اصلی را بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د ټاکل شوې پروژې د کټګورۍ له مخې د لګښتونو لنډیز ښيي او د براوزر له لارې د چاپ اختیار برابروي.",
+          "when": "دا هغه وخت وکاروئ چې د ټاکل شوې پروژې ثبت شوي لګښتونه د کټګورۍ له مخې ارزول یا د پروژې د لګښتونو لنډیز چاپول غواړئ.",
+          "how": "پروژه پرانیزئ او Reports وټاکئ. Project Expenses، Worker Wages، Tools، Food & Other او د پروژې په پایله کې شامل ټول لګښتونه وګورئ. د براوزر د چاپ کړکۍ د پرانیستلو لپاره Print / Save PDF وټاکئ.",
+          "inputs": "د راپور د لیدلو لپاره معلوماتو ته اړتیا نشته. دا د ټاکل شوې پروژې خوندي شوي ریکارډونه کاروي. د براوزر د چاپ کړکۍ د چاپ یا PDF په توګه د خوندي کولو چارې سمبالوي.",
+          "result": "Reports ټب د پروژې د لګښتونو وېش او ټول لګښتونه ښيي او د Print / Save PDF کنټرول هم لري.",
+          "notes": "دا د پروژې په کچه د لګښتونو لنډیز دی، HMRC ته سپارنه یا د Accountancy عمومي راپور نه دی. دا د ټاکل شوې پروژې ریکارډونه او د اپلېکېشن د پروژوي لګښت محاسبه کاروي. پر شمېرو له تکیې مخکې ټاکل شوې پروژه او بنسټیز ریکارډونه وګورئ."
         }
       },
       "handler_or_behavior": "`prDetailTab(`"
