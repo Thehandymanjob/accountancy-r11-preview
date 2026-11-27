@@ -14988,19 +14988,19 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the browser print dialog for the Project Cost Summary shown in the current project report tab.",
-          "when": "Use this when you want to print or save a PDF copy of the current project's recorded cost summary.",
-          "how": "Open the project's Reports tab and select Print / Save PDF beneath Project Cost Summary. Use the browser print dialog to choose a printer or Save as PDF.",
+          "purpose": "Opens the browser print dialog for the Project Cost Summary displayed in the current project's Reports tab.",
+          "when": "Use this when you want to print or save a PDF copy of the selected project's recorded cost summary.",
+          "how": "Open the project's Reports tab and select Print / Save PDF beneath Project Cost Summary. In the browser print dialog, choose a printer or Save as PDF and review the page settings.",
           "inputs": "The correct project must be open and its Reports tab displayed. Review the cost summary before printing.",
-          "result": "The browser print dialog opens for the Project Cost Summary, showing ordinary expenses, worker wages, tools, food and other costs, and the total costs included in the project result.",
+          "result": "The browser print dialog opens for the Project Cost Summary, showing the category breakdown and total costs included in the project result.",
           "notes": "This is a project cost summary, not the full financial report or a tax return. Check the project and figures, then select the required page range and print/PDF settings."
         },
         "fa": {
-          "purpose": "پنجره چاپ مرورگر را برای خلاصه هزینه‌های پروژه که در زبانه گزارش پروژه فعلی نمایش داده می‌شود باز می‌کند.",
-          "when": "وقتی می‌خواهید نسخه چاپی یا PDF از خلاصه هزینه‌های ثبت‌شده پروژه فعلی تهیه کنید، از این گزینه استفاده کنید.",
-          "how": "زبانه Reports پروژه را باز کنید و زیر Project Cost Summary گزینه Print / Save PDF را انتخاب کنید. در پنجره چاپ مرورگر، چاپگر یا Save as PDF را انتخاب کنید.",
+          "purpose": "پنجره چاپ مرورگر را برای Project Cost Summary که در زبانه Reports پروژه فعلی نمایش داده می‌شود باز می‌کند.",
+          "when": "وقتی می‌خواهید نسخه چاپی یا PDF از خلاصه هزینه‌های ثبت‌شده پروژه انتخاب‌شده تهیه کنید، از این گزینه استفاده کنید.",
+          "how": "زبانه Reports پروژه را باز کنید و زیر Project Cost Summary گزینه Print / Save PDF را انتخاب کنید. در پنجره چاپ مرورگر، چاپگر یا Save as PDF را انتخاب و تنظیمات صفحه را بررسی کنید.",
           "inputs": "پروژه صحیح باید باز باشد و زبانه Reports آن نمایش داده شود. پیش از چاپ، خلاصه هزینه را بررسی کنید.",
-          "result": "پنجره چاپ مرورگر برای Project Cost Summary باز می‌شود؛ این خلاصه هزینه‌های عادی، دستمزد کارگران، ابزار، غذا و سایر هزینه‌ها و مجموع هزینه‌های لحاظ‌شده در نتیجه پروژه را نشان می‌دهد.",
+          "result": "پنجره چاپ مرورگر برای Project Cost Summary باز می‌شود و تفکیک دسته‌بندی‌ها و مجموع هزینه‌های لحاظ‌شده در نتیجه پروژه را نشان می‌دهد.",
           "notes": "این یک خلاصه هزینه پروژه است، نه گزارش مالی کامل یا اظهارنامه مالیاتی. پروژه و ارقام را بررسی کنید و سپس محدوده صفحات و تنظیمات چاپ/PDF موردنیاز را انتخاب کنید."
         },
         "ar": {
@@ -15086,20 +15086,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Choose a worker from the saved worker list.",
-          "when": "Use this control when you want to assign a saved worker to the current form or task.",
-          "how": "Open Worker List — Choose Worker, then select the intended worker from the displayed list.",
-          "inputs": "Select the correct worker and verify the name and displayed contact details.",
-          "result": "The selected worker is assigned to the current form or task.",
-          "notes": "Verify the worker's name and displayed contact detail; choosing a worker assigns that person to the current form or task."
+          "purpose": "Opens the Worker List dialog so a registered worker can be selected for the current Worker Wages entry.",
+          "when": "Use this when recording project worker wages and you want to choose a worker from the saved Workers directory.",
+          "how": "In the Worker Wages tab, select Worker List — Choose Worker. Select the intended worker in the dialog, then select Done. The selected worker is applied to the Worker field in the form.",
+          "inputs": "The Worker Wages tab must be open. Choose one of the registered workers shown in the list. If no workers are registered, use Manage Workers to open the directory and add one first.",
+          "result": "The selected worker is assigned to the current wage form. The dialog closes after Done; the wage record is not saved until Record is selected.",
+          "notes": "Verify the worker's name and phone number where shown. Selecting a worker only fills the form; it does not create or save a wage entry."
         },
         "fa": {
-          "purpose": "انتخاب یک کارگر از فهرست ذخیره‌شده.",
-          "when": "وقتی می‌خواهید کارگر ثبت‌شده‌ای را به فرم یا وظیفه فعلی اختصاص دهید، از این گزینه استفاده کنید.",
-          "how": "Worker List — Choose Worker را باز کنید و کارگر موردنظر را از فهرست انتخاب کنید.",
-          "inputs": "کارگر درست را انتخاب کنید و نام و اطلاعات تماس نمایش‌داده‌شده را بررسی کنید.",
-          "result": "کارگر انتخاب‌شده به فرم یا وظیفه فعلی اختصاص داده می‌شود.",
-          "notes": "نام و اطلاعات تماس نمایش‌داده‌شده را بررسی کنید؛ انتخاب کارگر او را به فرم یا کار فعلی اختصاص می‌دهد."
+          "purpose": "پنجره Worker List را باز می‌کند تا کارگر ثبت‌شده‌ای برای ثبت دستمزد فعلی انتخاب شود.",
+          "when": "هنگام ثبت دستمزد کارگر پروژه، وقتی می‌خواهید کارگر را از فهرست ذخیره‌شده Workers انتخاب کنید، از این گزینه استفاده کنید.",
+          "how": "در زبانه Worker Wages، گزینه Worker List — Choose Worker را انتخاب کنید. در پنجره بازشده کارگر موردنظر را انتخاب و سپس Done را بزنید. کارگر انتخاب‌شده در فیلد Worker فرم قرار می‌گیرد.",
+          "inputs": "زبانه Worker Wages باید باز باشد. یکی از کارگران ثبت‌شده در فهرست را انتخاب کنید. اگر کارگری ثبت نشده است، Manage Workers را انتخاب کنید تا ابتدا فهرست را باز و کارگر را اضافه کنید.",
+          "result": "کارگر انتخاب‌شده به فرم دستمزد فعلی اختصاص می‌یابد. پس از انتخاب Done پنجره بسته می‌شود؛ سابقه دستمزد تا انتخاب Record ذخیره نمی‌شود.",
+          "notes": "نام و در صورت نمایش، شماره تلفن کارگر را بررسی کنید. انتخاب کارگر فقط فیلد فرم را تکمیل می‌کند و سابقه دستمزد را ایجاد یا ذخیره نمی‌کند."
         },
         "ar": {
           "purpose": "يتيح اختيار عامل من قائمة العمال المحفوظة.",
@@ -15184,19 +15184,19 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Saves the current income, expense, wage, tools, food, contractor or materials row to the selected project ledger.",
-          "when": "Use this after entering or editing a project record in the relevant detail tab.",
-          "how": "Complete the fields for the selected record type and select Record. The app validates the amount and, for Contractor / subcontractor expenses, requires a registered contractor. Wait for the Record saved confirmation.",
-          "inputs": "The form fields depend on the record type. Amount must be greater than zero. The form provides date, description, payment method or category and related person fields as applicable. Contractor / subcontractor expenses require a registered contractor. The worker field is provided for wages, but the current save handler does not enforce a worker selection or validate every other field.",
-          "result": "If the amount passes validation and the Projects data save succeeds, the row is saved to the matching project ledger, the view refreshes and a Record saved message appears.",
-          "notes": "Check the project/sub-project, record type and amount. For wage rows, select the correct registered worker even though the current handler does not block saving when it is blank. The handler also does not enforce all date/description fields, so verify the saved row before relying on it."
+          "purpose": "Saves the current project ledger row to the selected project's or sub-project's financial records.",
+          "when": "Use this after entering or editing an income, expense, wage, tools, food, contractor or materials record in the relevant project detail tab.",
+          "how": "Complete the fields for the selected record type and select Record. The app checks that the amount is greater than zero and, for Contractor / subcontractor expenses, requires a registered contractor. Wait for the Record saved confirmation.",
+          "inputs": "The form fields depend on the record type. Amount must be greater than zero. Date, description, payment method, category and related-person fields are available as applicable. Contractor / subcontractor expenses require a registered contractor. A worker field is provided for wages, but the current save handler does not enforce a worker selection or validate every other field.",
+          "result": "If amount validation passes and the Projects data save succeeds, the row is saved to the matching project ledger, the view refreshes and a Record saved message appears.",
+          "notes": "Check the project/sub-project, record type and amount. For wage rows, select the correct registered worker even though the current handler does not block saving when it is blank. The handler does not enforce every date or description field; verify the saved row before relying on it."
         },
         "fa": {
-          "purpose": "ردیف فعلی درآمد، هزینه، دستمزد، ابزار، غذا، پیمانکار یا مصالح را در دفتر مربوط به پروژه انتخاب‌شده ذخیره می‌کند.",
-          "when": "پس از واردکردن یا ویرایش یک سابقه پروژه در زبانه جزئیات مربوط، از این گزینه استفاده کنید.",
-          "how": "فیلدهای مربوط به نوع سابقه انتخاب‌شده را تکمیل و Record را انتخاب کنید. برنامه مبلغ را اعتبارسنجی می‌کند و برای هزینه Contractor / subcontractor انتخاب پیمانکار ثبت‌شده را الزامی می‌داند. منتظر پیام Record saved بمانید.",
-          "inputs": "فیلدهای فرم به نوع سابقه بستگی دارند. مبلغ باید بیشتر از صفر باشد. فرم، بسته به نوع سابقه، فیلدهای تاریخ، شرح، روش پرداخت یا دسته‌بندی و اطلاعات شخص مرتبط را ارائه می‌کند. هزینه Contractor / subcontractor به پیمانکار ثبت‌شده نیاز دارد. فیلد کارگر برای دستمزد وجود دارد، اما تابع ذخیره فعلی انتخاب کارگر یا تکمیل تمام فیلدهای دیگر را اجباری نمی‌کند.",
-          "result": "اگر مبلغ از اعتبارسنجی عبور کند و ذخیره داده‌های Projects موفق باشد، ردیف در دفتر مربوط به پروژه ذخیره می‌شود، نما تازه‌سازی و پیام Record saved نمایش داده می‌شود.",
+          "purpose": "ردیف مالی فعلی را در سوابق مالی پروژه یا زیرپروژه انتخاب‌شده ذخیره می‌کند.",
+          "when": "پس از واردکردن یا ویرایش سابقه درآمد، هزینه، دستمزد، ابزار، غذا، پیمانکار یا مصالح در زبانه جزئیات مربوط به پروژه از این گزینه استفاده کنید.",
+          "how": "فیلدهای مربوط به نوع سابقه انتخاب‌شده را تکمیل و Record را انتخاب کنید. برنامه بررسی می‌کند مبلغ بیشتر از صفر باشد و برای هزینه Contractor / subcontractor انتخاب پیمانکار ثبت‌شده را الزامی می‌داند. منتظر پیام Record saved بمانید.",
+          "inputs": "فیلدهای فرم به نوع سابقه بستگی دارند. مبلغ باید بیشتر از صفر باشد. فیلدهای تاریخ، شرح، روش پرداخت، دسته‌بندی و شخص مرتبط، بسته به نوع سابقه، در دسترس هستند. هزینه Contractor / subcontractor به پیمانکار ثبت‌شده نیاز دارد. فیلد کارگر برای دستمزد وجود دارد، اما تابع ذخیره فعلی انتخاب کارگر یا تکمیل تمام فیلدهای دیگر را اجباری نمی‌کند.",
+          "result": "اگر اعتبارسنجی مبلغ موفق باشد و ذخیره داده‌های Projects انجام شود، ردیف در دفتر مالی مربوط به پروژه ذخیره، نما تازه‌سازی و پیام Record saved نمایش داده می‌شود.",
           "notes": "پروژه/زیرپروژه، نوع سابقه و مبلغ را بررسی کنید. برای ردیف دستمزد، کارگر ثبت‌شده صحیح را انتخاب کنید، هرچند تابع فعلی در صورت خالی‌بودن این فیلد مانع ذخیره نمی‌شود. تاریخ و شرح نیز به‌طور کامل توسط تابع اعتبارسنجی نمی‌شوند؛ بنابراین پیش از اتکا به سابقه، ردیف ذخیره‌شده را بررسی کنید."
         },
         "ar": {
@@ -15282,20 +15282,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Clear the current project record form.",
-          "when": "Use this control when you want to reset the fields in the current unsaved form.",
-          "how": "Select Clear to reset the fields in the current unsaved form.",
-          "inputs": "Review the current fields and copy any unsaved information that you need to keep.",
-          "result": "The form fields are cleared; previously saved project records are unchanged.",
-          "notes": "This clears the form, not previously saved project records. Copy any details you still need before clearing."
+          "purpose": "Clears the fields in the current project income, expense or wage form without deleting saved records.",
+          "when": "Use this when discarding unsaved values or preparing the form for a different project record.",
+          "how": "Select Clear in the relevant project detail tab. The form's edit ID and displayed input fields are cleared; the current tab and its record list remain open.",
+          "inputs": "No input is required. Review the form first and copy any unsaved information you need to keep.",
+          "result": "The current form fields are cleared. Previously saved project and sub-project records remain unchanged.",
+          "notes": "This action clears the form only; it does not delete a saved record. If you were editing an existing row, the saved version remains unchanged until a save action commits an update."
         },
         "fa": {
-          "purpose": "پاک کردن فرم ثبت رکورد فعلی پروژه.",
-          "when": "وقتی می‌خواهید فیلدهای فرم فعلی و ذخیره‌نشده را بازنشانی کنید، از این گزینه استفاده کنید.",
-          "how": "گزینه Clear را انتخاب کنید تا فیلدهای فرم ثبت‌نشده بازنشانی شوند.",
-          "inputs": "فیلدهای فعلی را بررسی کنید و اطلاعات ذخیره‌نشده‌ای را که لازم دارید کپی کنید.",
-          "result": "فیلدهای فرم پاک می‌شوند؛ رکوردهای ذخیره‌شده قبلی پروژه تغییر نمی‌کنند.",
-          "notes": "این گزینه فرم را پاک می‌کند، نه رکوردهای ذخیره‌شده قبلی را. اطلاعات لازم را پیش از پاک‌کردن بردارید."
+          "purpose": "فیلدهای فرم درآمد، هزینه یا دستمزد فعلی پروژه را بدون حذف سوابق ذخیره‌شده پاک می‌کند.",
+          "when": "وقتی می‌خواهید مقادیر ذخیره‌نشده را کنار بگذارید یا فرم را برای ثبت مورد دیگری در پروژه آماده کنید، از این گزینه استفاده کنید.",
+          "how": "در زبانه جزئیات مربوط به پروژه، Clear را انتخاب کنید. شناسه ویرایش و فیلدهای ورودی نمایش‌داده‌شده پاک می‌شوند؛ زبانه فعلی و فهرست سوابق آن باز می‌مانند.",
+          "inputs": "ورودی لازم نیست. ابتدا فرم را بررسی و اطلاعات ذخیره‌نشده موردنیاز را کپی کنید.",
+          "result": "فیلدهای فرم فعلی پاک می‌شوند. سوابق ذخیره‌شده پروژه و زیرپروژه بدون تغییر باقی می‌مانند.",
+          "notes": "این گزینه فقط فرم را پاک می‌کند و سابقه ذخیره‌شده را حذف نمی‌کند. اگر در حال ویرایش ردیف موجود بودید، نسخه ذخیره‌شده تا زمانی که عملیات ذخیره تغییرات را ثبت نکند بدون تغییر می‌ماند."
         },
         "ar": {
           "purpose": "يمسح نموذج سجل المشروع الحالي.",
@@ -15380,20 +15380,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Loads an existing project ledger record into its edit fields.",
-          "when": "Use this when correcting a saved income, expense, wage, tool, food, contractor or materials record in the current project or sub-project.",
-          "how": "Select Edit beside the intended row. Review the loaded fields, make the required changes, then select the relevant Record/Save action.",
-          "inputs": "Select the correct record in the current project or sub-project ledger. The fields available depend on the record type.",
-          "result": "The selected record's saved values are loaded into the form. Changes are not committed until the relevant save action succeeds.",
-          "notes": "Check the record identity and values before saving because edits can affect project totals."
+          "purpose": "Loads an existing project or sub-project ledger record into the form for editing.",
+          "when": "Use this when correcting a saved income, expense, wage, tool, food, contractor or materials record.",
+          "how": "In the relevant project detail tab, select Edit beside the intended row. The saved values load into the form. Make the required changes and select Record to save the update.",
+          "inputs": "Select the correct record in the current project or sub-project ledger. The fields available depend on the record type; a registered contractor or worker may need to be selected where relevant.",
+          "result": "The selected record's saved values are loaded into the form. The saved record changes only after Record succeeds.",
+          "notes": "Check the record identity and values before saving because edits can affect project totals. Editing updates the existing row rather than creating a new one."
         },
         "fa": {
-          "purpose": "رکورد موجود در دفتر مالی پروژه را در فیلدهای ویرایش بارگذاری می‌کند.",
-          "when": "وقتی می‌خواهید یک رکورد ذخیره‌شده درآمد، هزینه، دستمزد، ابزار، غذا، پیمانکار یا مصالح را در پروژه یا زیرپروژه فعلی اصلاح کنید، از این گزینه استفاده کنید.",
-          "how": "در کنار ردیف موردنظر Edit را انتخاب کنید. فیلدهای بارگذاری‌شده را بررسی و تغییرات لازم را اعمال کنید، سپس عملیات Record یا Save مربوط به همان نوع رکورد را انتخاب کنید.",
-          "inputs": "رکورد درست را در دفتر پروژه یا زیرپروژه فعلی انتخاب کنید. فیلدهای قابل ویرایش به نوع رکورد بستگی دارند.",
-          "result": "مقادیر ذخیره‌شده رکورد انتخاب‌شده در فرم بارگذاری می‌شوند. تغییرات تا زمانی که عملیات ذخیره مربوطه با موفقیت انجام نشود، ثبت نمی‌شوند.",
-          "notes": "پیش از ذخیره، هویت و مقادیر رکورد را بررسی کنید؛ ویرایش ممکن است جمع‌های مالی پروژه را تغییر دهد."
+          "purpose": "رکورد موجود در دفتر مالی پروژه یا زیرپروژه را برای ویرایش در فرم بارگذاری می‌کند.",
+          "when": "وقتی می‌خواهید سابقه ذخیره‌شده درآمد، هزینه، دستمزد، ابزار، غذا، پیمانکار یا مصالح را اصلاح کنید، از این گزینه استفاده کنید.",
+          "how": "در زبانه جزئیات مربوط به پروژه، کنار ردیف موردنظر Edit را انتخاب کنید. مقادیر ذخیره‌شده در فرم بارگذاری می‌شوند. تغییرات لازم را اعمال و برای ذخیره به‌روزرسانی Record را انتخاب کنید.",
+          "inputs": "رکورد صحیح را در دفتر پروژه یا زیرپروژه فعلی انتخاب کنید. فیلدهای قابل استفاده به نوع رکورد بستگی دارند؛ در صورت ارتباط، ممکن است انتخاب پیمانکار یا کارگر ثبت‌شده لازم باشد.",
+          "result": "مقادیر ذخیره‌شده رکورد انتخاب‌شده در فرم بارگذاری می‌شوند. رکورد ذخیره‌شده فقط پس از موفقیت Record تغییر می‌کند.",
+          "notes": "پیش از ذخیره، هویت و مقادیر رکورد را بررسی کنید؛ ویرایش ممکن است مجموع‌های مالی پروژه را تغییر دهد. ویرایش همان ردیف موجود را به‌روزرسانی می‌کند و ردیف جدیدی نمی‌سازد."
         },
         "ar": {
           "purpose": "يحرر سجلاً موجوداً في المشروع.",
