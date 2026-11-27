@@ -567,6 +567,19 @@
 - **Version Authority Gate / انتشار:** PASS؛ run `46068268766` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46068268766؛ هویت R49 و هر ۲۴ فایل پین‌شده تأیید شدند. Preview Pages deploy نشده است.
 - **Production:** بدون تغییر؛ هیچ مجوز ارتقا وجود ندارد.
 
+
+#### بازنگری R50 — گسترش اتصال شناسه‌های یکتا و همگام‌سازی کنترل‌های مخفی
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه پرونده جدید ایجاد نشد.
+- **اتصال‌های جدید:** ۱۳ شناسه دارای محتوای کامل و ID یکتای تأییدشده به فهرست صریح Runtime اضافه شدند: 0023، 0025، 0045، 0046، 0048، 0049، 0064، 0065، 0066، 0067، 0073، 0087 و 0089. هیچ تطبیق بر اساس متن دکمه یا شباهت handler استفاده نشد.
+- **مجموع اتصال‌ها:** ۳۲ کنترل؛ ۲۷ اتصال ایستا (۱۴ Selector محدوده‌دار + ۱۳ ID یکتای دقیق) و ۵ اتصال در قالب پویا.
+- **اصلاح ایمنی چیدمان:** دکمه «?» فقط وقتی کنترل اصلی قابل نمایش است دیده می‌شود. وضعیت hidden و تغییرات class/style کنترل و والدهای آن با MutationObserver همگام می‌شود؛ بنابراین برای کنترل مخفی مانند Remove photo یا Reset نهایی، دکمه راهنمای جداافتاده نمایش داده نمی‌شود.
+- **نسخه / فایل‌ها:** Build هدف `THA-273-R11-PREVIEW-20261127-R50`; Runtime، cache reference صفحه، Version Authority pinها و Mapping به‌روزرسانی شدند.
+- **محتوا:** فقط ۱۳ شناسه CONTENT_COMPLETE به Runtime اضافه شدند؛ مدخل‌های Draft و شناسه بازنشسته همچنان منتشرنشده‌اند.
+- **تست ایستا:** یکتایی هر ۱۳ ID در HTML (یک مورد برای هر شناسه) PASS؛ محتوای هر ۱۳ شناسه در بسته Runtime موجود است؛ کامپایل نحوی Runtime با V8 PASS.
+- **تست مرورگر / انتشار:** هنوز انجام نشده؛ نمایش و مخفی‌شدن پویا، چیدمان موبایل، عملکرد اصلی دکمه‌ها و iPhone Safari باید در Preview بررسی شوند. هیچ Deploy یا Production change انجام نشده است.
+
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
 - **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Implemented on Preview development; the latest R45 Version Authority Gate passed after native-HTML fail-closed hardening (run 46053038295). Pages deployment and iPhone Safari verification remain pending.

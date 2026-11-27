@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R49') return;
+  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R50') return;
   const payload = window.THAHelpContentV1;
   if (!payload || !payload.entries) {
     console.error('[THA Help] Content bundle is missing; contextual help was not started.');
@@ -13,10 +13,23 @@
     ['THA-HLP-0018', '.accountancy-nav > button[onclick="show(\'invoices\')"]'],
     ['THA-HLP-0019', '.accountancy-nav > button[onclick="show(\'customers\')"]'],
     ['THA-HLP-0020', '.accountancy-nav > button[onclick="show(\'report\')"]'],
+    ['THA-HLP-0023', '#categoryPickerButton'],
+    ['THA-HLP-0025', '#entryReceiptRemove'],
     ['THA-HLP-0024', '#entryReceiptField .receipt-actions > button[onclick*="entryReceiptGallery"]'],
     ['THA-HLP-0040', '#report188Builder .actions > button[onclick="report188ConfirmComplete()"]'],
     ['THA-HLP-0041', '#report188Builder .actions > button[onclick="report188CheckDue()"]'],
     ['THA-HLP-0043', '#report188Calendar .actions > button[onclick="report188CheckDue()"]'],
+    ['THA-HLP-0045', '#fullBackupButton'],
+    ['THA-HLP-0046', '#fullRestoreButton'],
+    ['THA-HLP-0048', '#toggleActivityArchiveButton'],
+    ['THA-HLP-0049', '#runIndexedDBSelfTestButton'],
+    ['THA-HLP-0064', '#factoryResetConvertButton'],
+    ['THA-HLP-0065', '#factoryResetEmergencyButton'],
+    ['THA-HLP-0066', '#factoryResetNext'],
+    ['THA-HLP-0067', '#factoryResetFinalButton'],
+    ['THA-HLP-0073', '#appReloadUpdate'],
+    ['THA-HLP-0087', '#prCompleteToggle'],
+    ['THA-HLP-0089', '#prDetailProfitReportButton']
     ['THA-HLP-0075', '[data-pr-nav="project-hub"]'],
     ['THA-HLP-0077', '[data-pr-nav="control"]'],
     ['THA-HLP-0099', '#prPage-partners .pr-actions > button[onclick="prResetPerson(\'partner\')"]'],
@@ -93,6 +106,7 @@
     const style=document.createElement('style');style.id='tha-help-runtime-style';
     style.textContent=
       '.tha-help-control-wrap{display:inline-flex;align-items:center;gap:5px;max-width:100%;vertical-align:middle}' +
+      '.tha-help-control-wrap[hidden]{display:none!important}' +
       '.accountancy-nav .tha-help-control-wrap{width:100%}' +
       '.tha-help-control-wrap > [data-help-id]{flex:1 1 auto;min-width:0}' +
       '.tha-help-trigger{display:inline-flex!important;align-items:center!important;justify-content:center!important;flex:0 0 28px!important;width:28px!important;height:28px!important;min-width:28px!important;min-height:28px!important;padding:0!important;border:1px solid #cbd4df!important;border-radius:50%!important;background:#edf1f6!important;color:#142b4a!important;font-size:16px!important;font-weight:800!important;line-height:1!important;box-shadow:none!important}' +
@@ -133,6 +147,15 @@
       });
     });
   }
+  function syncHelpWrapper(target){
+    const wrapper=target&&target.parentElement;
+    if(!wrapper||!wrapper.classList.contains('tha-help-control-wrap'))return;
+    let hidden=!!target.hidden;
+    if(!hidden&&typeof window.getComputedStyle==='function'){
+      try{hidden=window.getComputedStyle(target).display==='none';}catch(_){}
+    }
+    wrapper.hidden=hidden;
+  }
   function attachHelpButtons(root){
     const scope=root||document,targets=[];
     if(scope.nodeType===1&&scope.matches&&scope.matches('[data-help-id]'))targets.push(scope);
@@ -155,20 +178,30 @@
       trigger.title=(isPersian?'نمایش راهنمای ':'Open help for ')+(entry.label||helpId);
       trigger.addEventListener('click',event=>{event.preventDefault();event.stopPropagation();openHelp(helpId);});
       wrapper.appendChild(trigger);
+      syncHelpWrapper(target);
     });
   }
   function attachAll(root){attachStaticBindings(root);attachHelpButtons(root);}
   function initialise(){
     createInterface();attachAll(document);
     if(typeof MutationObserver==='function'){
-      const observer=new MutationObserver(records=>records.forEach(record=>record.addedNodes.forEach(node=>{if(node.nodeType===1)attachAll(node);})));
-      observer.observe(document.documentElement,{childList:true,subtree:true});
+      const observer=new MutationObserver(records=>records.forEach(record=>{
+        if(record.type==='attributes'){
+          const changed=record.target;
+          if(changed&&changed.nodeType===1){
+            if(changed.hasAttribute('data-help-id'))syncHelpWrapper(changed);
+            if(changed.querySelectorAll)changed.querySelectorAll('[data-help-id]').forEach(syncHelpWrapper);
+          }
+        }
+        if(record.type==='childList')record.addedNodes.forEach(node=>{if(node.nodeType===1)attachAll(node);});
+      }));
+      observer.observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['hidden','class','style']});
     }
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initialise,{once:true});
   else initialise();
   window.THAHelpRuntime=Object.freeze({
-    version:'R49',open:openHelp,openFullGuide,attach:attachAll,
+    version:'R50',open:openHelp,openFullGuide,attach:attachAll,
     getLastHelpId:()=>lastHelpId,getPublishableCount:()=>Object.keys(payload.entries).length
   });
 })();

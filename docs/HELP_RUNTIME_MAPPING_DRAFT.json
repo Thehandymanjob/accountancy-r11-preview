@@ -5,11 +5,11 @@
   "branch": "development",
   "baseline": {
     "runtime_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
-    "runtime_blob_sha": "2c6bca1a66516ed9e5ec29de0d7fd7c94f123891",
+    "runtime_blob_sha": "2b2348f872f59fb6b3da5becb38a0d45273a38ad",
     "registry_blob_sha": "f63754128fd09125290df4045f6f4b6fc03b3545",
     "inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
     "help_content_blob_sha": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
-    "help_runtime_blob_sha": "1ab28af8bc33c5273118af6bfa46e4d03439025d"
+    "help_runtime_blob_sha": "124d94881711a65335e7c9403ae16fa7475dd811"
   },
   "policy": {
     "label_only_matching": false,
@@ -26,23 +26,25 @@
       "AMBIGUOUS_HANDLER": 160,
       "HANDLER_CANDIDATE_REQUIRES_CONTEXT_TEST": 16,
       "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED": 19,
-      "ID_CANDIDATE_REQUIRES_BROWSER_TEST": 17,
+      "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED": 13,
       "NEEDS_SELECTOR": 7,
       "SEPARATE_DOCUMENT_SCOPE": 7,
       "DYNAMIC_TEMPLATE_CANDIDATE": 2,
+      "ID_CANDIDATE_REQUIRES_BROWSER_TEST": 4,
       "EXEMPT_NOT_MAPPED": 1
     },
-    "notes": "R49 changes the contextual Help affordance to a separate adjacent ? button for the 19 mapped specialist controls. Fourteen are resolved through explicit scoped static selectors and five through exact dynamic template attributes. The Help popup reads the selected guide language and displays only the 132 approved CONTENT_COMPLETE entries. No browser test or deployment has occurred.",
+    "notes": "R50 extends the adjacent ? affordance to 32 mapped specialist controls: 14 scoped static selectors, 13 exact unique-ID selectors and five dynamic-template attributes. Wrapper visibility tracks the target's hidden/class/style state. The popup still exposes only 132 approved CONTENT_COMPLETE entries. No real browser test or deployment has occurred.",
     "runtime_publishable_entries": 132,
     "runtime_languages": 11,
-    "static_controls_attached": 14,
+    "static_controls_attached": 27,
     "draft_static_controls_skipped": 2,
     "dynamic_template_controls_pending": 10,
-    "help_ids_attached": 19,
+    "help_ids_attached": 32,
     "browser_tests_run": 0,
     "dynamic_template_controls_attached": 5,
     "draft_controls_skipped": 12,
-    "en_fa_draft_entries_corrected": 9
+    "en_fa_draft_entries_corrected": 9,
+    "id_selector_controls_attached": 13
   },
   "mappings": [
     {
@@ -360,12 +362,12 @@
       "visible_label": "Select a category ⌄",
       "handler": "toggleCategoryMenu()",
       "handler_name": "toggleCategoryMenu",
-      "selector_strategy": "exact_id",
+      "selector_strategy": "static_exact_id_runtime_allowlist",
       "selector": "#categoryPickerButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
       "help_id": "THA-HLP-0024",
@@ -388,12 +390,12 @@
       "visible_label": "Remove photo",
       "handler": "clearEntryReceipt()",
       "handler_name": "clearEntryReceipt",
-      "selector_strategy": "exact_id",
+      "selector_strategy": "static_exact_id_runtime_allowlist",
       "selector": "#entryReceiptRemove",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
       "help_id": "THA-HLP-0026",
@@ -668,12 +670,12 @@
       "visible_label": "Backup",
       "handler": "fullDatabaseBackup()",
       "handler_name": "fullDatabaseBackup",
-      "selector_strategy": "exact_id",
+      "selector_strategy": "static_exact_id_runtime_allowlist",
       "selector": "#fullBackupButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
       "help_id": "THA-HLP-0046",
@@ -682,12 +684,12 @@
       "visible_label": "Restore",
       "handler": "chooseFullDatabaseRestore()",
       "handler_name": "chooseFullDatabaseRestore",
-      "selector_strategy": "exact_id",
+      "selector_strategy": "static_exact_id_runtime_allowlist",
       "selector": "#fullRestoreButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
       "help_id": "THA-HLP-0047",
@@ -710,12 +712,12 @@
       "visible_label": "Show activity archive",
       "handler": "toggleActivityArchive()",
       "handler_name": "toggleActivityArchive",
-      "selector_strategy": "exact_id",
+      "selector_strategy": "static_exact_id_runtime_allowlist",
       "selector": "#toggleActivityArchiveButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
       "help_id": "THA-HLP-0049",
@@ -724,12 +726,12 @@
       "visible_label": "Test IndexedDB Storage",
       "handler": "window.runIndexedDBSelfTest()",
       "handler_name": "runIndexedDBSelfTest",
-      "selector_strategy": "exact_id",
+      "selector_strategy": "static_exact_id_runtime_allowlist",
       "selector": "#runIndexedDBSelfTestButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
       "help_id": "THA-HLP-0050",
@@ -934,12 +936,12 @@
       "visible_label": "Validate and Convert Backup",
       "handler": "event/property listener (no inline onclick; wiring not resolved statically)",
       "handler_name": null,
-      "selector_strategy": "exact_id",
+      "selector_strategy": "static_exact_id_runtime_allowlist",
       "selector": "#factoryResetConvertButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
       "help_id": "THA-HLP-0065",
@@ -948,12 +950,12 @@
       "visible_label": "Download Emergency Snapshot",
       "handler": "event/property listener (no inline onclick; wiring not resolved statically)",
       "handler_name": null,
-      "selector_strategy": "exact_id",
+      "selector_strategy": "static_exact_id_runtime_allowlist",
       "selector": "#factoryResetEmergencyButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
       "help_id": "THA-HLP-0066",
@@ -962,12 +964,12 @@
       "visible_label": "I Understand — Continue",
       "handler": "factoryResetNextStep()",
       "handler_name": "factoryResetNextStep",
-      "selector_strategy": "exact_id",
+      "selector_strategy": "static_exact_id_runtime_allowlist",
       "selector": "#factoryResetNext",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
       "help_id": "THA-HLP-0067",
@@ -976,12 +978,12 @@
       "visible_label": "Reset and Restore All Data",
       "handler": "event/property listener (no inline onclick; wiring not resolved statically)",
       "handler_name": null,
-      "selector_strategy": "exact_id",
+      "selector_strategy": "static_exact_id_runtime_allowlist",
       "selector": "#factoryResetFinalButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
       "help_id": "THA-HLP-0068",
@@ -1060,12 +1062,12 @@
       "visible_label": "Update Now",
       "handler": "reloadLatestApp()",
       "handler_name": "reloadLatestApp",
-      "selector_strategy": "exact_id",
+      "selector_strategy": "static_exact_id_runtime_allowlist",
       "selector": "#appReloadUpdate",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
       "help_id": "THA-HLP-0074",
@@ -1256,12 +1258,12 @@
       "visible_label": "Complete",
       "handler": "prToggleProjectCompletion()",
       "handler_name": "prToggleProjectCompletion",
-      "selector_strategy": "exact_id",
+      "selector_strategy": "static_exact_id_runtime_allowlist",
       "selector": "#prCompleteToggle",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
       "help_id": "THA-HLP-0088",
@@ -1284,12 +1286,12 @@
       "visible_label": "📊 Report",
       "handler": "prOpenCurrentProjectProfitReport()",
       "handler_name": "prOpenCurrentProjectProfitReport",
-      "selector_strategy": "exact_id",
+      "selector_strategy": "static_exact_id_runtime_allowlist",
       "selector": "#prDetailProfitReportButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
       "help_id": "THA-HLP-0090",
