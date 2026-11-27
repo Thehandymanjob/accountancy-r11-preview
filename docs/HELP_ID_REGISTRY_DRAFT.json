@@ -10163,7 +10163,7 @@
           "purpose": "Share the current invoice PDF.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Open or generate the invoice PDF, then choose Share PDF and select a destination offered by the device.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "inputs": "Select the correct invoice and its PDF file, then choose a sharing destination.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "Sharing does not mark an invoice as paid. Confirm the recipient and payment status separately."
         },
@@ -10171,9 +10171,81 @@
           "purpose": "اشتراک‌گذاری PDF فاکتور فعلی.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "PDF فاکتور را باز یا تولید کنید، سپس Share PDF را انتخاب و مقصد را از فهرست دستگاه برگزینید.",
-          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "inputs": "فاکتور درست و فایل PDF مربوط به آن را انتخاب کنید، سپس مقصد اشتراک‌گذاری را تعیین کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "اشتراک‌گذاری، وضعیت فاکتور را به Paid تغییر نمی‌دهد. وضعیت پرداخت را جداگانه بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يشارك ملف PDF الخاص بالفاتورة الحالية.",
+          "when": "عندما تريد إرسال نسخة PDF من الفاتورة الحالية.",
+          "how": "افتح ملف PDF للفاتورة أو أنشئه، ثم اختر Share PDF وحدد وجهة من الخيارات التي يوفرها الجهاز.",
+          "inputs": "حدد الفاتورة الصحيحة وملف PDF الخاص بها، ثم اختر وجهة المشاركة.",
+          "result": "تُفتح خيارات مشاركة ملف PDF للفاتورة الحالية.",
+          "notes": "المشاركة لا تعني أن الفاتورة مدفوعة. تحقق من المستلم وحالة الدفع بشكل منفصل."
+        },
+        "ckb": {
+          "purpose": "فایلی PDFی فاکتۆری ئێستا هاوبەش دەکات.",
+          "when": "کاتێک دەتەوێت کۆپیی PDFی فاکتۆری ئێستا بنێریت.",
+          "how": "PDFی فاکتۆرەکە بکەرەوە یان دروستی بکە، پاشان Share PDF هەڵبژێرە و شوێنێک لە هەڵبژاردەکانی ئامێرەکە دیاری بکە.",
+          "inputs": "فاکتۆری دروست و فایلی PDFی پەیوەست بەو هەڵبژێرە، پاشان شوێنی هاوبەشکردن دیاری بکە.",
+          "result": "هەڵبژاردەکانی هاوبەشکردنی PDFی فاکتۆری ئێستا دەکرێنەوە.",
+          "notes": "هاوبەشکردن بە مانای پارەدراوبوونی فاکتۆر نییە. وەرگر و دۆخی پارەدان بە جیاواز بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Pelê PDF yê fatûreya niha parve dike.",
+          "when": "Dema ku tu dixwazî kopiyeke PDF ya fatûreya niha bişînî.",
+          "how": "PDF ya fatûreyê veke an çêbike, paşê Share PDF hilbijêre û cihêkê ji vebijarkên amûrê hilbijêre.",
+          "inputs": "Fatûreya rast û pelê PDF yê wê hilbijêre, paşê cihê parvekirinê diyar bike.",
+          "result": "Vebijarkên parvekirina PDF ya fatûreya niha vedibin.",
+          "notes": "Parvekirin nayê wê wateyê ku fatûre hatiye dayîn. Wergir û rewşa dravdanê cuda kontrol bike."
+        },
+        "tr": {
+          "purpose": "Mevcut faturanın PDF dosyasını paylaşır.",
+          "when": "Mevcut faturanın PDF kopyasını göndermek istediğinizde kullanın.",
+          "how": "Fatura PDF'sini açın veya oluşturun, ardından Share PDF'yi seçin ve cihazın sunduğu bir hedef belirleyin.",
+          "inputs": "Doğru faturayı ve ona ait PDF dosyasını seçin, ardından paylaşım hedefini belirleyin.",
+          "result": "Mevcut faturanın PDF'si için paylaşım seçenekleri açılır.",
+          "notes": "Paylaşım faturanın ödendiği anlamına gelmez. Alıcıyı ve ödeme durumunu ayrıca doğrulayın."
+        },
+        "pl": {
+          "purpose": "Udostępnia plik PDF bieżącej faktury.",
+          "when": "Użyj, gdy chcesz wysłać kopię PDF bieżącej faktury.",
+          "how": "Otwórz lub wygeneruj PDF faktury, następnie wybierz Share PDF i wskaż miejsce docelowe oferowane przez urządzenie.",
+          "inputs": "Wybierz właściwą fakturę i jej plik PDF, a następnie wskaż miejsce udostępnienia.",
+          "result": "Otwierają się opcje udostępniania pliku PDF bieżącej faktury.",
+          "notes": "Udostępnienie nie oznacza, że faktura została opłacona. Osobno sprawdź odbiorcę i status płatności."
+        },
+        "ur": {
+          "purpose": "موجودہ انوائس کی PDF شیئر کرتا ہے۔",
+          "when": "جب موجودہ انوائس کی PDF نقل بھیجنی ہو تو استعمال کریں۔",
+          "how": "انوائس کی PDF کھولیں یا بنائیں، پھر Share PDF منتخب کریں اور ڈیوائس کی پیش کردہ منزل چنیں۔",
+          "inputs": "درست انوائس اور اس کی PDF فائل منتخب کریں، پھر شیئرنگ منزل منتخب کریں۔",
+          "result": "موجودہ انوائس کی PDF کے لیے شیئرنگ اختیارات کھل جاتے ہیں۔",
+          "notes": "شیئر کرنے کا مطلب یہ نہیں کہ انوائس ادا ہو گئی ہے۔ وصول کنندہ اور ادائیگی کی حیثیت الگ سے چیک کریں۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਇਨਵੌਇਸ ਦੀ PDF ਸਾਂਝੀ ਕਰਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਇਨਵੌਇਸ ਦੀ PDF ਕਾਪੀ ਭੇਜਣੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਇਨਵੌਇਸ PDF ਖੋਲ੍ਹੋ ਜਾਂ ਬਣਾਓ, ਫਿਰ Share PDF ਚੁਣੋ ਅਤੇ ਡਿਵਾਈਸ ਵੱਲੋਂ ਦਿੱਤੀ ਮੰਜ਼ਿਲ ਚੁਣੋ।",
+          "inputs": "ਸਹੀ ਇਨਵੌਇਸ ਅਤੇ ਉਸਦੀ PDF ਫਾਈਲ ਚੁਣੋ, ਫਿਰ ਸਾਂਝਾ ਕਰਨ ਦੀ ਮੰਜ਼ਿਲ ਚੁਣੋ।",
+          "result": "ਮੌਜੂਦਾ ਇਨਵੌਇਸ PDF ਲਈ ਸਾਂਝਾ ਕਰਨ ਦੇ ਵਿਕਲਪ ਖੁੱਲ੍ਹਦੇ ਹਨ।",
+          "notes": "ਸਾਂਝਾ ਕਰਨ ਦਾ ਮਤਲਬ ਇਹ ਨਹੀਂ ਕਿ ਇਨਵੌਇਸ ਦਾ ਭੁਗਤਾਨ ਹੋ ਗਿਆ ਹੈ। ਪ੍ਰਾਪਤਕਰਤਾ ਅਤੇ ਭੁਗਤਾਨ ਸਥਿਤੀ ਵੱਖਰੇ ਤੌਰ 'ਤੇ ਜਾਂਚੋ।"
+        },
+        "prs": {
+          "purpose": "فایل PDF فاکتور فعلی را به اشتراک می‌گذارد.",
+          "when": "وقتی می‌خواهید نسخه PDF فاکتور فعلی را ارسال کنید، استفاده کنید.",
+          "how": "PDF فاکتور را باز یا ایجاد کنید، سپس Share PDF را انتخاب و مقصدی را از گزینه‌های دستگاه برگزینید.",
+          "inputs": "فاکتور درست و فایل PDF مربوط به آن را انتخاب کنید، سپس مقصد اشتراک‌گذاری را تعیین کنید.",
+          "result": "گزینه‌های اشتراک‌گذاری PDF فاکتور فعلی باز می‌شوند.",
+          "notes": "اشتراک‌گذاری به معنی پرداخت‌شدن فاکتور نیست. گیرنده و وضعیت پرداخت را جداگانه بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د اوسني بل PDF شریکوي.",
+          "when": "کله چې غواړئ د اوسني بل PDF کاپي ولېږئ، دا وکاروئ.",
+          "how": "د بل PDF پرانیزئ یا جوړ یې کړئ، بیا Share PDF وټاکئ او د وسیلې له وړاندیز شوو ځایونو څخه یو وټاکئ.",
+          "inputs": "سم بل او اړوند PDF فایل وټاکئ، بیا د شریکولو ځای وټاکئ.",
+          "result": "د اوسني بل PDF لپاره د شریکولو اختیارونه پرانیستل کېږي.",
+          "notes": "شریکول دا معنا نه لري چې بل تادیه شوی دی. ترلاسه کوونکی او د تادیې حالت جلا وګورئ."
         }
       },
       "handler_or_behavior": "`thaShareInvoicePdf()`"
@@ -10189,7 +10261,7 @@
           "purpose": "Change an invoice status to unpaid.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Select Mark unpaid for the correct invoice and confirm the change if prompted.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "inputs": "Select the correct invoice and check its payment records before changing its status.",
           "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
           "notes": "Use this only when the invoice is not paid or a previous paid status was incorrect; check payment records first."
         },
@@ -10197,9 +10269,81 @@
           "purpose": "تغییر وضعیت فاکتور به پرداخت‌نشده.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "برای فاکتور درست گزینه Mark unpaid را انتخاب کنید و در صورت نمایش، تغییر را تأیید کنید.",
-          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "inputs": "فاکتور درست را انتخاب کنید و پیش از تغییر وضعیت، سوابق پرداخت را بررسی کنید.",
           "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
           "notes": "فقط وقتی استفاده کنید که فاکتور پرداخت نشده یا وضعیت Paid قبلی اشتباه بوده است؛ ابتدا سوابق پرداخت را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يغيّر حالة الفاتورة إلى غير مدفوعة.",
+          "when": "فقط عندما لم تُدفع الفاتورة أو كان وضعها السابق كمدفوعة غير صحيح.",
+          "how": "اختر Mark unpaid للفاتورة الصحيحة وأكد التغيير إذا طُلب منك ذلك.",
+          "inputs": "حدد الفاتورة الصحيحة وتحقق من سجل الدفع قبل تغيير حالتها.",
+          "result": "تتغير حالة الفاتورة إلى غير مدفوعة إذا نجحت العملية.",
+          "notes": "استخدمه فقط إذا لم يتم استلام الدفع أو كان وضع الدفع السابق خاطئاً؛ راجع سجلات الدفع أولاً."
+        },
+        "ckb": {
+          "purpose": "دۆخی فاکتۆر دەگۆڕێت بۆ پارە نەدراو.",
+          "when": "تەنها کاتێک فاکتۆرەکە پارەی بۆ نەدراوە یان دۆخی پێشووی پارەدراو هەڵە بووە.",
+          "how": "بۆ فاکتۆری دروست Mark unpaid هەڵبژێرە و ئەگەر داوا کرا گۆڕانکارییەکە پشتڕاست بکەرەوە.",
+          "inputs": "فاکتۆری دروست هەڵبژێرە و پێش گۆڕینی دۆخەکە تۆماری پارەدان بپشکنە.",
+          "result": "ئەگەر کردارەکە سەرکەوتوو بێت، دۆخی فاکتۆر دەبێتە پارە نەدراو.",
+          "notes": "تەنها ئەگەر پارە وەرنەگیراوە یان دۆخی پێشووی پارەدان هەڵە بووە بەکاری بهێنە؛ سەرەتا تۆمارەکانی پارەدان بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Rewşa fatûreyê diguherîne bo nehatî dayîn.",
+          "when": "Tenê dema ku fatûre nehatî dayîn e an rewşa berê ya dayînê xelet bû.",
+          "how": "Ji bo fatûreya rast Mark unpaid hilbijêre û heke were xwestin guherînê piştrast bike.",
+          "inputs": "Fatûreya rast hilbijêre û berî guherandina rewşê tomarên dravdanê kontrol bike.",
+          "result": "Ger kiryar serkeftî be, rewşa fatûreyê dibe nehatî dayîn.",
+          "notes": "Tenê dema ku drav nehatî wergirtin an rewşa dravdana berê xelet bû bikar bîne; pêşî tomarên dravdanê kontrol bike."
+        },
+        "tr": {
+          "purpose": "Fatura durumunu ödenmemiş olarak değiştirir.",
+          "when": "Yalnızca fatura ödenmemişse veya önceki ödenmiş durumu yanlışsa kullanın.",
+          "how": "Doğru fatura için Mark unpaid'i seçin ve istenirse değişikliği onaylayın.",
+          "inputs": "Doğru faturayı seçin ve durumunu değiştirmeden önce ödeme kayıtlarını kontrol edin.",
+          "result": "İşlem başarılı olursa faturanın durumu ödenmemiş olarak değişir.",
+          "notes": "Yalnızca ödeme alınmadıysa veya önceki ödeme durumu hatalıysa kullanın; önce ödeme kayıtlarını kontrol edin."
+        },
+        "pl": {
+          "purpose": "Zmienia status faktury na nieopłaconą.",
+          "when": "Użyj tylko wtedy, gdy faktura nie została opłacona lub wcześniejszy status opłacenia był nieprawidłowy.",
+          "how": "Wybierz Mark unpaid przy właściwej fakturze i potwierdź zmianę, jeśli pojawi się prośba.",
+          "inputs": "Wybierz właściwą fakturę i przed zmianą statusu sprawdź rejestr płatności.",
+          "result": "Jeśli operacja się powiedzie, status faktury zmieni się na nieopłaconą.",
+          "notes": "Używaj tylko wtedy, gdy płatność nie została otrzymana lub poprzedni status był błędny; najpierw sprawdź zapisy płatności."
+        },
+        "ur": {
+          "purpose": "انوائس کی حیثیت کو غیر ادا شدہ میں تبدیل کرتا ہے۔",
+          "when": "صرف اس وقت استعمال کریں جب انوائس ادا نہ ہوئی ہو یا اس کی سابقہ ادا شدہ حیثیت غلط ہو۔",
+          "how": "درست انوائس کے لیے Mark unpaid منتخب کریں اور اگر کہا جائے تو تبدیلی کی تصدیق کریں۔",
+          "inputs": "درست انوائس منتخب کریں اور حیثیت بدلنے سے پہلے ادائیگی کے ریکارڈ چیک کریں۔",
+          "result": "کارروائی کامیاب ہو تو انوائس کی حیثیت غیر ادا شدہ ہو جاتی ہے۔",
+          "notes": "صرف تب استعمال کریں جب ادائیگی موصول نہ ہوئی ہو یا سابقہ حیثیت غلط تھی؛ پہلے ادائیگی کے ریکارڈ دیکھیں۔"
+        },
+        "pa": {
+          "purpose": "ਇਨਵੌਇਸ ਦੀ ਸਥਿਤੀ ਨੂੰ ਨਾ-ਭੁਗਤਾਨ ਕੀਤਾ ਵਿੱਚ ਬਦਲਦਾ ਹੈ।",
+          "when": "ਸਿਰਫ਼ ਜਦੋਂ ਇਨਵੌਇਸ ਦਾ ਭੁਗਤਾਨ ਨਾ ਹੋਇਆ ਹੋਵੇ ਜਾਂ ਪਹਿਲਾਂ ਭੁਗਤਾਨ ਕੀਤਾ ਹੋਇਆ ਦਰਜ ਕਰਨਾ ਗਲਤ ਸੀ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸਹੀ ਇਨਵੌਇਸ ਲਈ Mark unpaid ਚੁਣੋ ਅਤੇ ਜੇ ਪੁੱਛਿਆ ਜਾਵੇ ਤਾਂ ਤਬਦੀਲੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਇਨਵੌਇਸ ਚੁਣੋ ਅਤੇ ਸਥਿਤੀ ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ ਭੁਗਤਾਨ ਰਿਕਾਰਡ ਜਾਂਚੋ।",
+          "result": "ਕਾਰਵਾਈ ਸਫਲ ਹੋਣ 'ਤੇ ਇਨਵੌਇਸ ਦੀ ਸਥਿਤੀ ਨਾ-ਭੁਗਤਾਨ ਕੀਤਾ ਹੋ ਜਾਂਦੀ ਹੈ।",
+          "notes": "ਸਿਰਫ਼ ਜਦੋਂ ਭੁਗਤਾਨ ਨਹੀਂ ਮਿਲਿਆ ਜਾਂ ਪਹਿਲੀ ਸਥਿਤੀ ਗਲਤ ਸੀ ਤਾਂ ਵਰਤੋ; ਪਹਿਲਾਂ ਭੁਗਤਾਨ ਰਿਕਾਰਡ ਵੇਖੋ।"
+        },
+        "prs": {
+          "purpose": "وضعیت فاکتور را به پرداخت‌نشده تغییر می‌دهد.",
+          "when": "فقط وقتی فاکتور پرداخت نشده یا وضعیت قبلیِ پرداخت‌شده اشتباه بوده است، استفاده کنید.",
+          "how": "برای فاکتور درست Mark unpaid را انتخاب کنید و در صورت درخواست تغییر را تأیید کنید.",
+          "inputs": "فاکتور درست را انتخاب کنید و پیش از تغییر وضعیت، سوابق پرداخت را بررسی کنید.",
+          "result": "در صورت موفقیت عملیات، وضعیت فاکتور به پرداخت‌نشده تغییر می‌کند.",
+          "notes": "فقط وقتی پرداخت دریافت نشده یا وضعیت قبلی نادرست بوده است استفاده کنید؛ ابتدا سوابق پرداخت را بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د بل حالت نه‌تادیه شوی ته اړوي.",
+          "when": "یوازې هغه وخت یې وکاروئ چې بل تادیه شوی نه وي یا پخوانی تادیه شوی حالت ناسم وي.",
+          "how": "د سم بل لپاره Mark unpaid وټاکئ او که غوښتنه وشي بدلون تایید کړئ.",
+          "inputs": "سم بل وټاکئ او د حالت له بدلولو مخکې د تادیې ریکارډونه وګورئ.",
+          "result": "که عملیات بریالي شي، د بل حالت نه‌تادیه شوی کېږي.",
+          "notes": "یوازې هغه وخت یې وکاروئ چې پیسې نه وي ترلاسه شوې یا پخوانی حالت غلط و؛ لومړی د تادیې ریکارډونه وګورئ."
         }
       },
       "handler_or_behavior": "`markInvoiceUnpaid(`"
@@ -10215,7 +10359,7 @@
           "purpose": "Record a payment against an invoice and mark it paid.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Select Mark paid only after confirming that the customer’s payment has actually been received; enter any requested payment details and confirm.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "inputs": "Select the correct invoice and enter the payment date, method and amount if the app prompts for them.",
           "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
           "notes": "Do not mark an invoice paid based only on a promise or an issued invoice. Keep evidence of the receipt."
         },
@@ -10223,9 +10367,81 @@
           "purpose": "ثبت دریافت وجه برای فاکتور و تغییر وضعیت آن به پرداخت‌شده.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "فقط پس از اطمینان از دریافت واقعی وجه مشتری، Mark paid را انتخاب کنید؛ جزئیات پرداخت درخواستی را وارد و تأیید کنید.",
-          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "inputs": "فاکتور درست را انتخاب کنید و اگر برنامه درخواست کرد تاریخ، روش و مبلغ پرداخت را وارد کنید.",
           "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
           "notes": "صرف وعده پرداخت یا صدور فاکتور دلیل پرداخت نیست. مدرک دریافت وجه را نگهداری کنید."
+        },
+        "ar": {
+          "purpose": "يسجل دفعة على الفاتورة ويغيّر حالتها إلى مدفوعة.",
+          "when": "فقط بعد استلام دفعة العميل فعلياً.",
+          "how": "اختر Mark paid بعد التأكد من استلام المبلغ فعلياً؛ أدخل تفاصيل الدفع المطلوبة وأكد العملية.",
+          "inputs": "حدد الفاتورة الصحيحة وأدخل تاريخ وطريقة ومبلغ الدفع إذا طلب التطبيق ذلك.",
+          "result": "تُحدّث حالة الفاتورة إلى مدفوعة إذا نجح التحقق والحفظ.",
+          "notes": "لا تضع علامة مدفوعة بناءً على وعد بالدفع أو مجرد إصدار الفاتورة. احتفظ بإثبات استلام المبلغ."
+        },
+        "ckb": {
+          "purpose": "پارەدانێک بۆ فاکتۆر تۆمار دەکات و دۆخی دەگۆڕێت بۆ پارەدراو.",
+          "when": "تەنها دوای ئەوەی پارەی کڕیار بەڕاستی وەرگیرا.",
+          "how": "دوای دڵنیابوون لە وەرگرتنی ڕاستەقینەی پارە Mark paid هەڵبژێرە؛ وردەکارییە داواکراوەکانی پارەدان بنووسە و پشتڕاستی بکەرەوە.",
+          "inputs": "فاکتۆری دروست هەڵبژێرە و ئەگەر ئەپەکە داوای کرد بەروار، شێواز و بڕی پارەدان بنووسە.",
+          "result": "ئەگەر پشتڕاستکردنەوە و پاشەکەوتکردن سەرکەوتوو بن، دۆخی فاکتۆر دەبێتە پارەدراو.",
+          "notes": "بە تەنها بەڵێنی پارەدان یان دەرکردنی فاکتۆر نیشانەی پارەدان نییە. بەڵگەی وەرگرتنی پارە بپارێزە."
+        },
+        "kmr": {
+          "purpose": "Dravdanekê li ser fatûreyê tomar dike û rewşa wê dike dayîn.",
+          "when": "Tenê piştî ku dravê xerîdar bi rastî hatiye wergirtin.",
+          "how": "Piştî piştrastkirina wergirtina rastîn a drav Mark paid hilbijêre; hûrguliyên dravdanê yên xwestî binivîse û piştrast bike.",
+          "inputs": "Fatûreya rast hilbijêre û heke sepan bixwaze dîrok, away û mîqdara dravdanê binivîse.",
+          "result": "Ger kontrol û tomarkirin serkeftî bin, rewşa fatûreyê dibe dayîn.",
+          "notes": "Tenê sozê dravdanê an derxistina fatûreyê delîla dravdanê nîne. Delîla wergirtina drav biparêze."
+        },
+        "tr": {
+          "purpose": "Faturaya bir ödeme kaydeder ve durumunu ödenmiş olarak işaretler.",
+          "when": "Yalnızca müşterinin ödemesi gerçekten alındıktan sonra kullanın.",
+          "how": "Ödemenin gerçekten alındığını doğruladıktan sonra Mark paid'i seçin; istenen ödeme ayrıntılarını girip onaylayın.",
+          "inputs": "Doğru faturayı seçin ve uygulama isterse ödeme tarihini, yöntemini ve tutarını girin.",
+          "result": "Doğrulama ve kayıt başarılı olursa faturanın durumu ödenmiş olarak güncellenir.",
+          "notes": "Yalnızca ödeme sözüne veya faturanın düzenlenmiş olmasına dayanarak faturayı ödenmiş işaretlemeyin. Tahsilat kanıtını saklayın."
+        },
+        "pl": {
+          "purpose": "Rejestruje płatność do faktury i oznacza ją jako opłaconą.",
+          "when": "Użyj dopiero po faktycznym otrzymaniu płatności od klienta.",
+          "how": "Po potwierdzeniu faktycznego otrzymania środków wybierz Mark paid; wprowadź wymagane dane płatności i potwierdź.",
+          "inputs": "Wybierz właściwą fakturę i, jeśli aplikacja o to poprosi, wprowadź datę, metodę i kwotę płatności.",
+          "result": "Jeśli walidacja i zapis zakończą się pomyślnie, status faktury zostanie zmieniony na opłaconą.",
+          "notes": "Nie oznaczaj faktury jako opłaconej wyłącznie na podstawie obietnicy zapłaty lub wystawienia faktury. Zachowaj dowód otrzymania środków."
+        },
+        "ur": {
+          "purpose": "انوائس کے خلاف ادائیگی درج کرتا ہے اور اسے ادا شدہ نشان زد کرتا ہے۔",
+          "when": "صرف اس وقت استعمال کریں جب گاہک کی ادائیگی حقیقتاً وصول ہو چکی ہو۔",
+          "how": "ادائیگی حقیقتاً وصول ہونے کی تصدیق کے بعد Mark paid منتخب کریں؛ مطلوبہ ادائیگی کی تفصیلات درج کرکے تصدیق کریں۔",
+          "inputs": "درست انوائس منتخب کریں اور اگر ایپ کہے تو ادائیگی کی تاریخ، طریقہ اور رقم درج کریں۔",
+          "result": "توثیق اور محفوظ کرنے کا عمل کامیاب ہو تو انوائس کی حیثیت ادا شدہ ہو جاتی ہے۔",
+          "notes": "صرف ادائیگی کے وعدے یا انوائس جاری ہونے کی بنیاد پر اسے ادا شدہ نشان زد نہ کریں۔ رقم وصول ہونے کا ثبوت محفوظ رکھیں۔"
+        },
+        "pa": {
+          "purpose": "ਇਨਵੌਇਸ ਦੇ ਵਿਰੁੱਧ ਭੁਗਤਾਨ ਦਰਜ ਕਰਦਾ ਹੈ ਅਤੇ ਇਸਨੂੰ ਭੁਗਤਾਨ ਕੀਤਾ ਨਿਸ਼ਾਨ ਲਗਾਉਂਦਾ ਹੈ।",
+          "when": "ਸਿਰਫ਼ ਗਾਹਕ ਦਾ ਭੁਗਤਾਨ ਅਸਲ ਵਿੱਚ ਮਿਲਣ ਤੋਂ ਬਾਅਦ ਵਰਤੋ।",
+          "how": "ਪੈਸੇ ਅਸਲ ਵਿੱਚ ਮਿਲਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਤੋਂ ਬਾਅਦ Mark paid ਚੁਣੋ; ਮੰਗੇ ਗਏ ਭੁਗਤਾਨ ਵੇਰਵੇ ਭਰੋ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਇਨਵੌਇਸ ਚੁਣੋ ਅਤੇ ਜੇ ਐਪ ਕਹੇ ਤਾਂ ਭੁਗਤਾਨ ਦੀ ਤਾਰੀਖ, ਢੰਗ ਅਤੇ ਰਕਮ ਭਰੋ।",
+          "result": "ਜਾਂਚ ਅਤੇ ਸੇਵ ਕਰਨਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਇਨਵੌਇਸ ਦੀ ਸਥਿਤੀ ਭੁਗਤਾਨ ਕੀਤਾ ਹੋ ਜਾਂਦੀ ਹੈ।",
+          "notes": "ਸਿਰਫ਼ ਭੁਗਤਾਨ ਦੇ ਵਾਅਦੇ ਜਾਂ ਇਨਵੌਇਸ ਜਾਰੀ ਹੋਣ ਦੇ ਆਧਾਰ 'ਤੇ ਇਸਨੂੰ ਭੁਗਤਾਨ ਕੀਤਾ ਨਾ ਦਰਸਾਓ। ਰਕਮ ਮਿਲਣ ਦਾ ਸਬੂਤ ਸੰਭਾਲੋ।"
+        },
+        "prs": {
+          "purpose": "پرداختی را برای فاکتور ثبت می‌کند و وضعیت آن را پرداخت‌شده می‌سازد.",
+          "when": "فقط پس از دریافت واقعی پرداخت مشتری استفاده کنید.",
+          "how": "پس از اطمینان از دریافت واقعی وجه Mark paid را انتخاب کنید؛ جزئیات پرداخت درخواستی را وارد و تأیید کنید.",
+          "inputs": "فاکتور درست را انتخاب کنید و اگر برنامه درخواست کرد تاریخ، روش و مبلغ پرداخت را وارد کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و ذخیره، وضعیت فاکتور به پرداخت‌شده تغییر می‌کند.",
+          "notes": "فاکتور را صرفاً بر اساس وعده پرداخت یا صادرشدن آن پرداخت‌شده علامت نزنید. مدرک دریافت وجه را نگه دارید."
+        },
+        "ps": {
+          "purpose": "د بل په وړاندې تادیه ثبتوي او هغه د تادیه شوي په توګه نښه کوي.",
+          "when": "یوازې وروسته له دې یې وکاروئ چې د پېرودونکي پیسې په رښتیا ترلاسه شوې وي.",
+          "how": "د پیسو د رښتینې ترلاسه کېدو له تایید وروسته Mark paid وټاکئ؛ غوښتل شوي د تادیې جزئیات ولیکئ او تایید یې کړئ.",
+          "inputs": "سم بل وټاکئ او که اپلیکیشن وغواړي د تادیې نېټه، طریقه او اندازه ولیکئ.",
+          "result": "که ارزونه او خوندي کول بریالي شي، د بل حالت تادیه شوی ته اوړي.",
+          "notes": "بل یوازې د پیسو د ژمنې یا د بل د صادرېدو پر بنسټ تادیه شوی مه نښه کوئ. د پیسو د ترلاسه کېدو ثبوت وساتئ."
         }
       },
       "handler_or_behavior": "`recordInvoicePayment(`"
@@ -10241,7 +10457,7 @@
           "purpose": "View or create a printable PDF copy of an invoice.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Select View / PDF on the intended invoice and inspect the resulting invoice view.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "inputs": "Select the correct invoice that you want to view or convert to PDF.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "A PDF copy is not proof of payment and does not itself change the invoice’s payment status."
         },
@@ -10249,9 +10465,81 @@
           "purpose": "مشاهده یا تهیه نسخه قابل چاپ PDF از فاکتور.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "در فاکتور موردنظر View / PDF را انتخاب کنید و نمای ایجادشده را بررسی کنید.",
-          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "inputs": "فاکتور درست را که می‌خواهید مشاهده یا به PDF تبدیل کنید انتخاب کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "نسخه PDF مدرک پرداخت نیست و به‌تنهایی وضعیت پرداخت فاکتور را تغییر نمی‌دهد."
+        },
+        "ar": {
+          "purpose": "يعرض الفاتورة أو ينشئ نسخة PDF قابلة للطباعة منها.",
+          "when": "عندما تحتاج إلى مراجعة الفاتورة أو الحصول على نسخة PDF للطباعة.",
+          "how": "اختر View / PDF في الفاتورة المقصودة وافحص العرض الناتج.",
+          "inputs": "حدد الفاتورة الصحيحة التي تريد عرضها أو إنشاء PDF لها.",
+          "result": "تُفتح معاينة الفاتورة أو تُجهز نسخة PDF منها.",
+          "notes": "نسخة PDF ليست إثباتاً للدفع ولا تغيّر حالة دفع الفاتورة بحد ذاتها."
+        },
+        "ckb": {
+          "purpose": "فاکتۆر پیشان دەدات یان کۆپییەکی PDFی چاپ‌کراوی لێ دروست دەکات.",
+          "when": "کاتێک دەتەوێت فاکتۆرەکە بپشکنیت یان کۆپیی PDFی چاپکردنی بەدەست بهێنیت.",
+          "how": "لە فاکتۆری مەبەست View / PDF هەڵبژێرە و نمای ئەنجامدراو بپشکنە.",
+          "inputs": "فاکتۆری دروست هەڵبژێرە کە دەتەوێت بیبینیت یان PDFی دروست بکەیت.",
+          "result": "پێشبینینی فاکتۆر دەکرێتەوە یان کۆپیی PDFی ئامادە دەکرێت.",
+          "notes": "کۆپیی PDF بەڵگەی پارەدان نییە و بەخۆی دۆخی پارەدانی فاکتۆر ناگۆڕێت."
+        },
+        "kmr": {
+          "purpose": "Fatûreyê nîşan dide an kopiyeke PDF ya çapkirinê jê çêdike.",
+          "when": "Dema ku tu dixwazî fatûreyê kontrol bikî an kopiyeke PDF ya çapkirinê bistînî.",
+          "how": "Di fatûreya xwestî de View / PDF hilbijêre û dîtina ku tê çêkirin kontrol bike.",
+          "inputs": "Fatûreya rast hilbijêre ku dixwazî bibînî an PDF jê çêkî.",
+          "result": "Pêşdîtina fatûreyê vedibe an kopiyeke PDF tê amadekirin.",
+          "notes": "Kopiya PDF delîla dravdanê nîne û bi xwe rewşa dravdana fatûreyê naguherîne."
+        },
+        "tr": {
+          "purpose": "Faturayı görüntüler veya yazdırılabilir bir PDF kopyası oluşturur.",
+          "when": "Faturayı incelemek veya yazdırılabilir PDF kopyası almak istediğinizde kullanın.",
+          "how": "İlgili faturada View / PDF'yi seçin ve açılan görünümü inceleyin.",
+          "inputs": "Görüntülemek veya PDF'sini oluşturmak istediğiniz doğru faturayı seçin.",
+          "result": "Fatura önizlemesi açılır veya PDF kopyası hazırlanır.",
+          "notes": "PDF kopyası ödeme kanıtı değildir ve tek başına faturanın ödeme durumunu değiştirmez."
+        },
+        "pl": {
+          "purpose": "Wyświetla fakturę lub tworzy jej kopię PDF do wydruku.",
+          "when": "Użyj, gdy chcesz sprawdzić fakturę lub uzyskać jej drukowalną kopię PDF.",
+          "how": "Wybierz View / PDF przy odpowiedniej fakturze i sprawdź wyświetlony podgląd.",
+          "inputs": "Wybierz właściwą fakturę, którą chcesz wyświetlić lub przekonwertować do PDF.",
+          "result": "Otwiera się podgląd faktury lub przygotowywana jest jej kopia PDF.",
+          "notes": "Kopia PDF nie jest dowodem zapłaty i sama nie zmienia statusu płatności faktury."
+        },
+        "ur": {
+          "purpose": "انوائس دکھاتا ہے یا اس کی قابلِ طباعت PDF نقل بناتا ہے۔",
+          "when": "جب انوائس دیکھنی ہو یا پرنٹ کے قابل PDF نقل درکار ہو تو استعمال کریں۔",
+          "how": "متعلقہ انوائس میں View / PDF منتخب کریں اور کھلنے والے منظر کا جائزہ لیں۔",
+          "inputs": "وہ درست انوائس منتخب کریں جسے دیکھنا یا PDF بنانا ہے۔",
+          "result": "انوائس کا پیش منظر کھل جاتا ہے یا PDF نقل تیار ہو جاتی ہے۔",
+          "notes": "PDF نقل ادائیگی کا ثبوت نہیں اور خود انوائس کی ادائیگی کی حیثیت تبدیل نہیں کرتی۔"
+        },
+        "pa": {
+          "purpose": "ਇਨਵੌਇਸ ਦਿਖਾਉਂਦਾ ਹੈ ਜਾਂ ਇਸਦੀ ਪ੍ਰਿੰਟ ਕਰਨ ਯੋਗ PDF ਕਾਪੀ ਬਣਾਉਂਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਇਨਵੌਇਸ ਦੀ ਜਾਂਚ ਕਰਨੀ ਹੋਵੇ ਜਾਂ ਪ੍ਰਿੰਟ ਕਰਨ ਯੋਗ PDF ਕਾਪੀ ਚਾਹੀਦੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸੰਬੰਧਿਤ ਇਨਵੌਇਸ ਵਿੱਚ View / PDF ਚੁਣੋ ਅਤੇ ਖੁੱਲ੍ਹੇ ਦ੍ਰਿਸ਼ ਦੀ ਜਾਂਚ ਕਰੋ।",
+          "inputs": "ਉਹ ਸਹੀ ਇਨਵੌਇਸ ਚੁਣੋ ਜਿਸਨੂੰ ਵੇਖਣਾ ਜਾਂ PDF ਬਣਾਉਣਾ ਹੈ।",
+          "result": "ਇਨਵੌਇਸ ਦੀ ਝਲਕ ਖੁੱਲ੍ਹਦੀ ਹੈ ਜਾਂ PDF ਕਾਪੀ ਤਿਆਰ ਹੁੰਦੀ ਹੈ।",
+          "notes": "PDF ਕਾਪੀ ਭੁਗਤਾਨ ਦਾ ਸਬੂਤ ਨਹੀਂ ਅਤੇ ਆਪਣੇ ਆਪ ਇਨਵੌਇਸ ਦੀ ਭੁਗਤਾਨ ਸਥਿਤੀ ਨਹੀਂ ਬਦਲਦੀ।"
+        },
+        "prs": {
+          "purpose": "فاکتور را نمایش می‌دهد یا نسخه PDF قابل چاپ آن را ایجاد می‌کند.",
+          "when": "وقتی می‌خواهید فاکتور را بررسی کنید یا نسخه PDF قابل چاپ آن را بگیرید، استفاده کنید.",
+          "how": "در فاکتور موردنظر View / PDF را انتخاب کنید و نمای ایجادشده را بررسی کنید.",
+          "inputs": "فاکتور درست را که می‌خواهید مشاهده یا به PDF تبدیل کنید انتخاب کنید.",
+          "result": "پیش‌نمایش فاکتور باز می‌شود یا نسخه PDF آن آماده می‌شود.",
+          "notes": "نسخه PDF مدرک پرداخت نیست و به‌تنهایی وضعیت پرداخت فاکتور را تغییر نمی‌دهد."
+        },
+        "ps": {
+          "purpose": "بل ښکاره کوي یا یې د چاپ وړ PDF کاپي جوړوي.",
+          "when": "کله چې غواړئ بل وګورئ یا یې د چاپ وړ PDF کاپي ترلاسه کړئ، دا وکاروئ.",
+          "how": "په اړوند بل کې View / PDF وټاکئ او پرانیستل شوی لید وګورئ.",
+          "inputs": "سم بل وټاکئ چې لیدل یا PDF کول یې غواړئ.",
+          "result": "د بل مخکتنه پرانیستل کېږي یا یې PDF کاپي چمتو کېږي.",
+          "notes": "PDF کاپي د تادیې ثبوت نه دی او پخپله د بل د تادیې حالت نه بدلوي."
         }
       },
       "handler_or_behavior": "`printInvoice(`"
@@ -10267,7 +10555,7 @@
           "purpose": "Edit an existing invoice.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Open Edit for the correct invoice, review its customer, description, amounts and status, then save the intended changes.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct invoice and review the customer, description, amounts and status fields before editing.",
           "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
           "notes": "Take care when changing an issued invoice; preserve a clear audit trail and follow your accounting process."
         },
@@ -10275,9 +10563,81 @@
           "purpose": "ویرایش فاکتور موجود.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "برای فاکتور درست Edit را باز کنید، مشتری، شرح، مبالغ و وضعیت را بررسی و تغییرات لازم را ذخیره کنید.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "فاکتور درست را انتخاب کنید و پیش از ویرایش، فیلدهای مشتری، شرح، مبلغ و وضعیت را بررسی کنید.",
           "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
           "notes": "در تغییر فاکتور صادرشده دقت کنید؛ سوابق روشن نگه دارید و روال حسابداری خود را رعایت کنید."
+        },
+        "ar": {
+          "purpose": "يفتح فاتورة موجودة لتعديلها.",
+          "when": "عندما تحتاج إلى تصحيح أو تحديث تفاصيل فاتورة موجودة.",
+          "how": "افتح Edit للفاتورة الصحيحة، وراجع العميل والوصف والمبالغ والحالة، ثم احفظ التغييرات المطلوبة.",
+          "inputs": "حدد الفاتورة الصحيحة وراجع حقول العميل والوصف والمبالغ والحالة قبل تعديلها.",
+          "result": "تُحدّث الفاتورة المحددة إذا نجح التحقق وأكد التطبيق التغيير.",
+          "notes": "توخ الحذر عند تعديل فاتورة صادرة؛ احتفظ بمسار تدقيق واضح واتبع إجراءات المحاسبة المعتمدة."
+        },
+        "ckb": {
+          "purpose": "فاکتۆرێکی هەبوو بۆ دەستکاریکردن دەکاتەوە.",
+          "when": "کاتێک پێویستە وردەکارییەکانی فاکتۆرێکی هەبوو ڕاست بکەیتەوە یان نوێی بکەیتەوە.",
+          "how": "Editی فاکتۆری دروست بکەرەوە، کڕیار، وەسف، بڕەکان و دۆخ بپشکنە، پاشان گۆڕانکارییە پێویستەکان پاشەکەوت بکە.",
+          "inputs": "فاکتۆری دروست هەڵبژێرە و خانەکانی کڕیار، وەسف، بڕ و دۆخ پێش دەستکاریکردن بپشکنە.",
+          "result": "ئەگەر پشتڕاستکردنەوە سەرکەوتوو بێت و ئەپەکە گۆڕانکارییەکە پشتڕاست بکاتەوە، فاکتۆرەکە نوێ دەکرێتەوە.",
+          "notes": "لە دەستکاریکردنی فاکتۆری دەرچوو ئاگاداربە؛ شوێنەواری پشکنین ڕوون بپارێزە و ڕێکاری ژمێریاریی خۆت پەیڕەو بکە."
+        },
+        "kmr": {
+          "purpose": "Fatûreyeke heyî ji bo guherandinê vedike.",
+          "when": "Dema ku tu hewceyî rastkirin an nûkirina hûrguliyên fatûreyeke heyî yî.",
+          "how": "Edit ji bo fatûreya rast veke, xerîdar, ravekirin, mîqdar û rewşê kontrol bike, paşê guherînên xwestî tomar bike.",
+          "inputs": "Fatûreya rast hilbijêre û qadên xerîdar, ravekirin, mîqdar û rewşê berî guherandinê kontrol bike.",
+          "result": "Ger kontrol serkeftî be û sepan guherînê piştrast bike, fatûre tê nûkirin.",
+          "notes": "Dema ku fatûreyeke derketî diguherînî baldar be; şopa kontrolê zelal biparêze û rêbaza hesabê ya xwe bişopîne."
+        },
+        "tr": {
+          "purpose": "Mevcut bir faturayı düzenlemek üzere açar.",
+          "when": "Mevcut bir faturanın ayrıntılarını düzeltmeniz veya güncellemeniz gerektiğinde kullanın.",
+          "how": "Doğru faturada Edit'i açın, müşteri, açıklama, tutarlar ve durumu inceleyin, ardından gerekli değişiklikleri kaydedin.",
+          "inputs": "Doğru faturayı seçin ve düzenlemeden önce müşteri, açıklama, tutar ve durum alanlarını kontrol edin.",
+          "result": "Doğrulama başarılı olur ve uygulama değişikliği onaylarsa fatura güncellenir.",
+          "notes": "Düzenlenmiş bir faturayı değiştirirken dikkatli olun; açık bir denetim izi tutun ve muhasebe sürecinizi izleyin."
+        },
+        "pl": {
+          "purpose": "Otwiera istniejącą fakturę do edycji.",
+          "when": "Użyj, gdy trzeba poprawić lub zaktualizować szczegóły istniejącej faktury.",
+          "how": "Otwórz Edit przy właściwej fakturze, sprawdź klienta, opis, kwoty i status, a następnie zapisz zamierzone zmiany.",
+          "inputs": "Wybierz właściwą fakturę i przed edycją sprawdź pola klienta, opisu, kwot i statusu.",
+          "result": "Faktura zostanie zaktualizowana, jeśli walidacja się powiedzie i aplikacja potwierdzi zmianę.",
+          "notes": "Zachowaj ostrożność przy zmianie wystawionej faktury; utrzymuj czytelną ścieżkę audytu i stosuj własną procedurę księgową."
+        },
+        "ur": {
+          "purpose": "موجودہ انوائس کو ترمیم کے لیے کھولتا ہے۔",
+          "when": "جب موجودہ انوائس کی تفصیلات درست یا اپ ڈیٹ کرنی ہوں تو استعمال کریں۔",
+          "how": "درست انوائس میں Edit کھولیں، گاہک، تفصیل، رقوم اور حیثیت دیکھیں، پھر مطلوبہ تبدیلیاں محفوظ کریں۔",
+          "inputs": "درست انوائس منتخب کریں اور ترمیم سے پہلے گاہک، تفصیل، رقم اور حیثیت کے خانے چیک کریں۔",
+          "result": "توثیق کامیاب ہو اور ایپ تبدیلی کی تصدیق کرے تو انوائس اپ ڈیٹ ہو جاتی ہے۔",
+          "notes": "جاری شدہ انوائس میں تبدیلی کرتے وقت احتیاط کریں؛ واضح آڈٹ ٹریل برقرار رکھیں اور اپنے اکاؤنٹنگ طریقۂ کار پر عمل کریں۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਇਨਵੌਇਸ ਨੂੰ ਸੋਧਣ ਲਈ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਇਨਵੌਇਸ ਦੇ ਵੇਰਵੇ ਠੀਕ ਜਾਂ ਅਪਡੇਟ ਕਰਨੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸਹੀ ਇਨਵੌਇਸ ਵਿੱਚ Edit ਖੋਲ੍ਹੋ, ਗਾਹਕ, ਵੇਰਵਾ, ਰਕਮਾਂ ਅਤੇ ਸਥਿਤੀ ਜਾਂਚੋ, ਫਿਰ ਲੋੜੀਂਦੀਆਂ ਤਬਦੀਲੀਆਂ ਸੇਵ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਇਨਵੌਇਸ ਚੁਣੋ ਅਤੇ ਸੋਧ ਤੋਂ ਪਹਿਲਾਂ ਗਾਹਕ, ਵੇਰਵਾ, ਰਕਮ ਅਤੇ ਸਥਿਤੀ ਦੇ ਖੇਤਰ ਜਾਂਚੋ।",
+          "result": "ਜਾਂਚ ਸਫਲ ਹੋਵੇ ਅਤੇ ਐਪ ਤਬਦੀਲੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਇਨਵੌਇਸ ਅਪਡੇਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਜਾਰੀ ਕੀਤੇ ਇਨਵੌਇਸ ਨੂੰ ਬਦਲਦੇ ਸਮੇਂ ਸਾਵਧਾਨ ਰਹੋ; ਸਪਸ਼ਟ ਆਡਿਟ ਟ੍ਰੇਲ ਰੱਖੋ ਅਤੇ ਆਪਣੇ ਅਕਾਊਂਟਿੰਗ ਤਰੀਕੇ ਦੀ ਪਾਲਣਾ ਕਰੋ।"
+        },
+        "prs": {
+          "purpose": "فاکتور موجود را برای ویرایش باز می‌کند.",
+          "when": "وقتی لازم است جزئیات یک فاکتور موجود را اصلاح یا به‌روزرسانی کنید، استفاده کنید.",
+          "how": "Edit فاکتور درست را باز کنید، مشتری، شرح، مبالغ و وضعیت را بررسی و سپس تغییرات موردنظر را ذخیره کنید.",
+          "inputs": "فاکتور درست را انتخاب کنید و پیش از ویرایش، فیلدهای مشتری، شرح، مبلغ و وضعیت را بررسی کنید.",
+          "result": "اگر اعتبارسنجی موفق باشد و برنامه تغییر را تأیید کند، فاکتور به‌روزرسانی می‌شود.",
+          "notes": "هنگام تغییر فاکتور صادرشده احتیاط کنید؛ ردپای حسابرسی روشنی نگه دارید و روال حسابداری خود را رعایت کنید."
+        },
+        "ps": {
+          "purpose": "موجود بل د سمون لپاره پرانیزي.",
+          "when": "کله چې د موجود بل جزئیات سمول یا تازه کول غواړئ، دا وکاروئ.",
+          "how": "د سم بل Edit پرانیزئ، پېرودونکی، تشریح، اندازې او حالت وګورئ، بیا غوښتل شوي بدلونونه خوندي کړئ.",
+          "inputs": "سم بل وټاکئ او له سمون مخکې د پېرودونکي، تشریح، اندازې او حالت خانې وګورئ.",
+          "result": "که ارزونه بریالۍ شي او اپلیکیشن بدلون تایید کړي، بل تازه کېږي.",
+          "notes": "د صادر شوي بل د بدلولو پر مهال احتیاط وکړئ؛ د پلټنې روښانه مخینه وساتئ او د حسابدارۍ خپل بهیر تعقیب کړئ."
         }
       },
       "handler_or_behavior": "`editInvoice(`"
