@@ -11631,19 +11631,91 @@
       "translations": {
         "en": {
           "purpose": "Open an attachment associated with a company job or record.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control when you need to open a file attached to the selected company or job record.",
           "how": "Select the attachment icon on the correct row to open the linked file.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct company or job record and check the attached filename.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "Verify the row and filename before opening or sharing the file."
         },
         "fa": {
           "purpose": "باز کردن پیوست مربوط به شرکت یا کار.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "وقتی لازم است فایلی را که به سابقه شرکت یا کار انتخاب‌شده پیوست شده باز کنید، از این گزینه استفاده کنید.",
           "how": "آیکون پیوست را در ردیف درست انتخاب کنید تا فایل مرتبط باز شود.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "سابقه درست شرکت یا کار را انتخاب کنید و نام فایل پیوست‌شده را بررسی کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "پیش از باز کردن یا ارسال فایل، ردیف و نام فایل را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يفتح مرفقاً مرتبطاً بوظيفة أو سجل شركة.",
+          "when": "عندما تحتاج إلى فتح ملف مرفق بسجل الشركة أو الوظيفة المحدد.",
+          "how": "اختر أيقونة المرفق في الصف الصحيح لفتح الملف المرتبط.",
+          "inputs": "حدد سجل الشركة أو الوظيفة الصحيح وتحقق من اسم الملف المرفق.",
+          "result": "يُفتح الملف المرتبط باستخدام الجهاز أو المتصفح.",
+          "notes": "تحقق من الصف واسم الملف قبل فتحه أو مشاركته."
+        },
+        "ckb": {
+          "purpose": "پاشکۆیەک دەکاتەوە کە پەیوەندی بە کار یان تۆماری کۆمپانیاوە هەیە.",
+          "when": "کاتێک پێویستە فایلێکی هاوپێچکراو بە تۆماری کۆمپانیا یان کارە دیاریکراوەکە بکەیتەوە.",
+          "how": "ئایکۆنی پاشکۆ لە ڕیزی دروست هەڵبژێرە بۆ کردنەوەی فایلی پەیوەست.",
+          "inputs": "تۆماری کۆمپانیا یان کاری دروست هەڵبژێرە و ناوی فایلی هاوپێچکراو بپشکنە.",
+          "result": "فایلی پەیوەست بە بەکارهێنانی ئامێر یان وێبگەڕ دەکرێتەوە.",
+          "notes": "پێش کردنەوە یان هاوبەشکردنی فایل، ڕیز و ناوی فایلەکە بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Pêvekekê vedike ku bi kar an tomara pargîdaniyê ve girêdayî ye.",
+          "when": "Dema ku tu hewceyî vekirina pevekê ya bi tomara pargîdanî an karê hilbijartî ve girêdayî yî.",
+          "how": "Li rêza rast îkona pêvekê hilbijêre da ku pela girêdayî veke.",
+          "inputs": "Tomara pargîdanî an karê rast hilbijêre û navê pela pêvekirî kontrol bike.",
+          "result": "Pelê girêdayî bi amûr an gerokê tê vekirin.",
+          "notes": "Berî vekirin an parvekirina pelê rêz û navê pelê kontrol bike."
+        },
+        "tr": {
+          "purpose": "Bir şirket işine veya kaydına bağlı eki açar.",
+          "when": "Seçilen şirket veya iş kaydına eklenmiş bir dosyayı açmanız gerektiğinde kullanın.",
+          "how": "Bağlantılı dosyayı açmak için doğru satırdaki ek simgesini seçin.",
+          "inputs": "Doğru şirket veya iş kaydını seçin ve ekli dosyanın adını kontrol edin.",
+          "result": "Bağlantılı dosya cihaz veya tarayıcı kullanılarak açılır.",
+          "notes": "Dosyayı açmadan veya paylaşmadan önce satırı ve dosya adını doğrulayın."
+        },
+        "pl": {
+          "purpose": "Otwiera załącznik powiązany ze zleceniem lub rekordem firmy.",
+          "when": "Użyj, gdy chcesz otworzyć plik dołączony do wybranego rekordu firmy lub zlecenia.",
+          "how": "Wybierz ikonę załącznika w odpowiednim wierszu, aby otworzyć powiązany plik.",
+          "inputs": "Wybierz właściwy rekord firmy lub zlecenia i sprawdź nazwę załączonego pliku.",
+          "result": "Powiązany plik zostanie otwarty na urządzeniu lub w przeglądarce.",
+          "notes": "Przed otwarciem lub udostępnieniem pliku sprawdź wiersz i nazwę pliku."
+        },
+        "ur": {
+          "purpose": "کمپنی کے کام یا ریکارڈ سے منسلک اٹیچمنٹ کھولتا ہے۔",
+          "when": "جب منتخب کمپنی یا کام کے ریکارڈ کے ساتھ منسلک فائل کھولنی ہو تو استعمال کریں۔",
+          "how": "متعلقہ فائل کھولنے کے لیے درست قطار میں اٹیچمنٹ کا آئیکن منتخب کریں۔",
+          "inputs": "درست کمپنی یا کام کا ریکارڈ منتخب کریں اور منسلک فائل کا نام چیک کریں۔",
+          "result": "متعلقہ فائل ڈیوائس یا براؤزر کے ذریعے کھل جاتی ہے۔",
+          "notes": "فائل کھولنے یا شیئر کرنے سے پہلے قطار اور فائل کا نام تصدیق کریں۔"
+        },
+        "pa": {
+          "purpose": "ਕੰਪਨੀ ਦੇ ਕੰਮ ਜਾਂ ਰਿਕਾਰਡ ਨਾਲ ਜੁੜੀ ਅਟੈਚਮੈਂਟ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਚੁਣੀ ਕੰਪਨੀ ਜਾਂ ਕੰਮ ਦੇ ਰਿਕਾਰਡ ਨਾਲ ਜੁੜੀ ਫਾਈਲ ਖੋਲ੍ਹਣੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਜੁੜੀ ਫਾਈਲ ਖੋਲ੍ਹਣ ਲਈ ਸਹੀ ਕਤਾਰ ਵਿੱਚ ਅਟੈਚਮੈਂਟ ਆਈਕਨ ਚੁਣੋ।",
+          "inputs": "ਸਹੀ ਕੰਪਨੀ ਜਾਂ ਕੰਮ ਦਾ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਜੁੜੀ ਫਾਈਲ ਦਾ ਨਾਮ ਜਾਂਚੋ।",
+          "result": "ਜੁੜੀ ਫਾਈਲ ਡਿਵਾਈਸ ਜਾਂ ਬ੍ਰਾਊਜ਼ਰ ਰਾਹੀਂ ਖੁੱਲ੍ਹਦੀ ਹੈ।",
+          "notes": "ਫਾਈਲ ਖੋਲ੍ਹਣ ਜਾਂ ਸਾਂਝੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਕਤਾਰ ਅਤੇ ਫਾਈਲ ਦਾ ਨਾਮ ਜਾਂਚੋ।"
+        },
+        "prs": {
+          "purpose": "پیوست مرتبط با کار یا سابقه شرکت را باز می‌کند.",
+          "when": "وقتی لازم است فایلی را که به سابقه شرکت یا کار انتخاب‌شده پیوست شده باز کنید، استفاده کنید.",
+          "how": "برای باز کردن فایل مرتبط، نماد پیوست را در ردیف درست انتخاب کنید.",
+          "inputs": "سابقه درست شرکت یا کار را انتخاب کنید و نام فایل پیوست‌شده را بررسی کنید.",
+          "result": "فایل مرتبط با استفاده از دستگاه یا مرورگر باز می‌شود.",
+          "notes": "پیش از باز کردن یا اشتراک‌گذاری فایل، ردیف و نام فایل را بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د شرکت له کار یا ریکارډ سره تړلې ضمیمه پرانیزي.",
+          "when": "کله چې د ټاکل شوي شرکت یا کار له ریکارډ سره نښلول شوې فایل پرانیستل غواړئ، دا وکاروئ.",
+          "how": "د تړلې فایل د پرانیستلو لپاره په سم قطار کې د ضمیمې نښه وټاکئ.",
+          "inputs": "د شرکت یا کار سم ریکارډ وټاکئ او د نښلول شوې فایل نوم وګورئ.",
+          "result": "تړلې فایل د وسیلې یا براوزر له لارې پرانیستل کېږي.",
+          "notes": "د فایل له پرانیستلو یا شریکولو مخکې قطار او د فایل نوم تایید کړئ."
         }
       },
       "handler_or_behavior": "`coOpenAttachment(`"
@@ -11657,19 +11729,91 @@
       "translations": {
         "en": {
           "purpose": "Open an attachment associated with a work package or its record.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control when you need to review supporting documentation for the selected work package.",
           "how": "Select the attachment filename to view the stored file using the device/browser.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct work package and check the attachment filename before opening it.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "The attachment is supporting material; opening it does not save changes to the package."
         },
         "fa": {
           "purpose": "باز کردن پیوست مربوط به بسته کاری یا رکورد آن.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "وقتی لازم است سند پشتیبان مربوط به بسته کاری انتخاب‌شده را بررسی کنید، از این گزینه استفاده کنید.",
           "how": "نام فایل پیوست را انتخاب کنید تا فایل ذخیره‌شده در مرورگر یا دستگاه باز شود.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "بسته کاری درست را انتخاب کنید و پیش از باز کردن نام پیوست را بررسی کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "پیوست مدرک پشتیبان است؛ باز کردن آن تغییرات بسته کاری را ذخیره نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يفتح مرفقاً مرتبطاً بحزمة عمل أو بسجلها.",
+          "when": "عندما تحتاج إلى مراجعة مستند داعم لحزمة العمل المحددة.",
+          "how": "اختر اسم الملف المرفق لعرض الملف المحفوظ باستخدام الجهاز أو المتصفح.",
+          "inputs": "حدد حزمة العمل الصحيحة وتحقق من اسم المرفق قبل فتحه.",
+          "result": "يُفتح الملف المرفق أو يُعرض وفقاً لدعم الجهاز والمتصفح.",
+          "notes": "المرفق مادة داعمة؛ فتحه لا يحفظ أي تغييرات على حزمة العمل."
+        },
+        "ckb": {
+          "purpose": "پاشکۆیەک دەکاتەوە کە پەیوەندی بە پاکێجی کار یان تۆمارەکەیەوە هەیە.",
+          "when": "کاتێک پێویستە بەڵگەنامەیەکی پشتگیر بۆ پاکێجی کاری دیاریکراو بپشکنیت.",
+          "how": "ناوی فایلی پاشکۆ هەڵبژێرە بۆ پیشاندانی فایلە پاشەکەوتکراوەکە لە ئامێر یان وێبگەڕدا.",
+          "inputs": "پاکێجی کاری دروست هەڵبژێرە و پێش کردنەوە ناوی پاشکۆکە بپشکنە.",
+          "result": "فایلی پاشکۆ دەکرێتەوە یان پیشان دەدرێت، بە پێی پشتگیری ئامێر و وێبگەڕ.",
+          "notes": "پاشکۆ بەڵگەی پشتگیرە؛ کردنەوەی هیچ گۆڕانکارییەک لە پاکێجی کاردا پاشەکەوت ناکات."
+        },
+        "kmr": {
+          "purpose": "Pêvekekê vedike ku bi pakêteke xebatê an tomara wê ve girêdayî ye.",
+          "when": "Dema ku tu hewceyî vekolîna belgeya piştgir a pakêta xebatê ya hilbijartî yî.",
+          "how": "Navê pela pêvekê hilbijêre da ku pela tomarkirî bi amûr an gerokê bibînî.",
+          "inputs": "Pakêta xebatê ya rast hilbijêre û berî vekirinê navê pêvekê kontrol bike.",
+          "result": "Pelê pêvekê vedibe an tê nîşandan, li gorî piştgirîya amûr û gerokê.",
+          "notes": "Pêvek materyala piştgir e; vekirina wê tu guherînan li ser pakêta xebatê tomar nake."
+        },
+        "tr": {
+          "purpose": "Bir iş paketine veya onun kaydına bağlı eki açar.",
+          "when": "Seçilen iş paketi için destekleyici bir belgeyi incelemeniz gerektiğinde kullanın.",
+          "how": "Kaydedilmiş dosyayı cihaz veya tarayıcıda görüntülemek için ek dosyanın adını seçin.",
+          "inputs": "Doğru iş paketini seçin ve açmadan önce ekin adını kontrol edin.",
+          "result": "Ek dosya, cihaz ve tarayıcı desteğine bağlı olarak açılır veya görüntülenir.",
+          "notes": "Ek, destekleyici materyaldir; açılması iş paketine yapılan değişiklikleri kaydetmez."
+        },
+        "pl": {
+          "purpose": "Otwiera załącznik powiązany z pakietem prac lub jego rekordem.",
+          "when": "Użyj, gdy chcesz sprawdzić dokument pomocniczy dotyczący wybranego pakietu prac.",
+          "how": "Wybierz nazwę załącznika, aby wyświetlić zapisany plik na urządzeniu lub w przeglądarce.",
+          "inputs": "Wybierz właściwy pakiet prac i przed otwarciem sprawdź nazwę załącznika.",
+          "result": "Załącznik zostanie otwarty lub wyświetlony zgodnie z obsługą urządzenia i przeglądarki.",
+          "notes": "Załącznik jest materiałem pomocniczym; jego otwarcie nie zapisuje zmian w pakiecie prac."
+        },
+        "ur": {
+          "purpose": "ورک پیکیج یا اس کے ریکارڈ سے منسلک اٹیچمنٹ کھولتا ہے۔",
+          "when": "جب منتخب ورک پیکیج کے لیے معاون دستاویز دیکھنی ہو تو استعمال کریں۔",
+          "how": "محفوظ شدہ فائل کو ڈیوائس یا براؤزر میں دیکھنے کے لیے اٹیچمنٹ کا نام منتخب کریں۔",
+          "inputs": "درست ورک پیکیج منتخب کریں اور کھولنے سے پہلے اٹیچمنٹ کا نام چیک کریں۔",
+          "result": "ڈیوائس اور براؤزر کی سہولت کے مطابق اٹیچمنٹ کھل جاتی یا دکھائی دیتی ہے۔",
+          "notes": "اٹیچمنٹ معاون مواد ہے؛ اسے کھولنے سے ورک پیکیج کی تبدیلیاں محفوظ نہیں ہوتیں۔"
+        },
+        "pa": {
+          "purpose": "ਵਰਕ ਪੈਕੇਜ ਜਾਂ ਇਸਦੇ ਰਿਕਾਰਡ ਨਾਲ ਜੁੜੀ ਅਟੈਚਮੈਂਟ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਚੁਣੇ ਵਰਕ ਪੈਕੇਜ ਲਈ ਸਹਾਇਕ ਦਸਤਾਵੇਜ਼ ਵੇਖਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸੇਵ ਕੀਤੀ ਫਾਈਲ ਡਿਵਾਈਸ ਜਾਂ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਵੇਖਣ ਲਈ ਅਟੈਚਮੈਂਟ ਦਾ ਨਾਮ ਚੁਣੋ।",
+          "inputs": "ਸਹੀ ਵਰਕ ਪੈਕੇਜ ਚੁਣੋ ਅਤੇ ਖੋਲ੍ਹਣ ਤੋਂ ਪਹਿਲਾਂ ਅਟੈਚਮੈਂਟ ਦਾ ਨਾਮ ਜਾਂਚੋ।",
+          "result": "ਡਿਵਾਈਸ ਅਤੇ ਬ੍ਰਾਊਜ਼ਰ ਦੀ ਸਹੂਲਤ ਅਨੁਸਾਰ ਅਟੈਚਮੈਂਟ ਖੁੱਲ੍ਹਦੀ ਜਾਂ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ।",
+          "notes": "ਅਟੈਚਮੈਂਟ ਸਹਾਇਕ ਸਮੱਗਰੀ ਹੈ; ਇਸਨੂੰ ਖੋਲ੍ਹਣ ਨਾਲ ਵਰਕ ਪੈਕੇਜ ਵਿੱਚ ਤਬਦੀਲੀਆਂ ਸੇਵ ਨਹੀਂ ਹੁੰਦੀਆਂ।"
+        },
+        "prs": {
+          "purpose": "پیوست مرتبط با بسته کاری یا سابقه آن را باز می‌کند.",
+          "when": "وقتی لازم است سند پشتیبان مربوط به بسته کاری انتخاب‌شده را بررسی کنید، استفاده کنید.",
+          "how": "نام فایل پیوست را انتخاب کنید تا فایل ذخیره‌شده در دستگاه یا مرورگر نمایش داده شود.",
+          "inputs": "بسته کاری درست را انتخاب کنید و پیش از باز کردن نام پیوست را بررسی کنید.",
+          "result": "فایل پیوست با توجه به پشتیبانی دستگاه و مرورگر باز یا نمایش داده می‌شود.",
+          "notes": "پیوست یک مدرک پشتیبان است؛ باز کردن آن تغییرات بسته کاری را ذخیره نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د کاري بستې یا د هغې له ریکارډ سره تړلې ضمیمه پرانیزي.",
+          "when": "کله چې د ټاکل شوې کاري بستې ملاتړی سند کتلو ته اړتیا لرئ، دا وکاروئ.",
+          "how": "د خوندي شوې فایل د لیدلو لپاره د ضمیمې نوم وټاکئ څو په وسیله یا براوزر کې ښکاره شي.",
+          "inputs": "سمه کاري بسته وټاکئ او له پرانیستلو مخکې د ضمیمې نوم وګورئ.",
+          "result": "ضمیمه د وسیلې او براوزر د ملاتړ له مخې پرانیستل یا ښکاره کېږي.",
+          "notes": "ضمیمه ملاتړی مواد دي؛ پرانیستل یې د کاري بستې بدلونونه نه خوندي کوي."
         }
       },
       "handler_or_behavior": "`coOpenAttachment(`"
@@ -11683,19 +11827,91 @@
       "translations": {
         "en": {
           "purpose": "Edit a saved work package.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control when you need to update the details of an existing work package.",
           "how": "Choose Edit for the intended package, check its job association and details, then save the changes.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct work package within the correct job and review the fields you intend to edit.",
           "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
           "notes": "Make sure you are editing the correct package within the correct job."
         },
         "fa": {
           "purpose": "ویرایش یک بسته کاری ذخیره‌شده.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "وقتی لازم است جزئیات یک بسته کاری موجود را به‌روزرسانی کنید، از این گزینه استفاده کنید.",
           "how": "برای بسته موردنظر Edit را انتخاب کنید، ارتباط آن با کار اصلی و جزئیات را بررسی و تغییرات را ذخیره کنید.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "بسته کاری درست را درون کار درست انتخاب کنید و فیلدهایی را که می‌خواهید ویرایش کنید بررسی کنید.",
           "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
           "notes": "مطمئن شوید بسته درست را درون کار صحیح ویرایش می‌کنید."
+        },
+        "ar": {
+          "purpose": "يفتح حزمة عمل محفوظة لتعديلها.",
+          "when": "عندما تحتاج إلى تحديث تفاصيل حزمة عمل موجودة.",
+          "how": "اختر Edit للحزمة المطلوبة، وتحقق من ارتباطها بالوظيفة وتفاصيلها، ثم احفظ التغييرات.",
+          "inputs": "حدد حزمة العمل الصحيحة ضمن الوظيفة الصحيحة، وراجع الحقول التي تريد تعديلها.",
+          "result": "يُحدّث السجل المحدد إذا نجح التحقق وأكد التطبيق التغيير.",
+          "notes": "تأكد من أنك تعدّل الحزمة الصحيحة ضمن الوظيفة الصحيحة."
+        },
+        "ckb": {
+          "purpose": "پاکێجی کاری پاشەکەوتکراو بۆ دەستکاریکردن دەکاتەوە.",
+          "when": "کاتێک پێویستە وردەکارییەکانی پاکێجی کارێکی هەبوو نوێ بکەیتەوە.",
+          "how": "بۆ پاکێجی مەبەست Edit هەڵبژێرە، پەیوەندییەکەی بە کارەکە و وردەکارییەکانی بپشکنە، پاشان گۆڕانکارییەکان پاشەکەوت بکە.",
+          "inputs": "پاکێجی کاری دروست لەژێر کاری دروست هەڵبژێرە و ئەو خانانە بپشکنە کە دەتەوێت دەستکارییان بکەیت.",
+          "result": "ئەگەر پشتڕاستکردنەوە سەرکەوتوو بێت و ئەپەکە گۆڕانکارییەکە پشتڕاست بکاتەوە، تۆمارەکە نوێ دەکرێتەوە.",
+          "notes": "دڵنیابە لەوەی پاکێجی دروست لەناو کاری دروستدا دەستکاری دەکەیت."
+        },
+        "kmr": {
+          "purpose": "Pakêteke xebatê ya tomarkirî ji bo guherandinê vedike.",
+          "when": "Dema ku tu hewceyî nûkirina hûrguliyên pakêteke xebatê ya heyî yî.",
+          "how": "Ji bo pakêta xwestî Edit hilbijêre, girêdana wê bi kar û hûrguliyên wê kontrol bike, paşê guherînan tomar bike.",
+          "inputs": "Pakêta xebatê ya rast di bin karê rast de hilbijêre û qadên ku dixwazî biguherînî kontrol bike.",
+          "result": "Ger kontrol serkeftî be û sepan guherînê piştrast bike, tomar tê nûkirin.",
+          "notes": "Bawer be ku tu pakêta rast di nav karê rast de diguherînî."
+        },
+        "tr": {
+          "purpose": "Kaydedilmiş bir iş paketini düzenlemek üzere açar.",
+          "when": "Mevcut bir iş paketinin ayrıntılarını güncellemeniz gerektiğinde kullanın.",
+          "how": "İlgili paket için Edit'i seçin, işle ilişkisini ve ayrıntılarını kontrol edin, ardından değişiklikleri kaydedin.",
+          "inputs": "Doğru işin altındaki doğru iş paketini seçin ve düzenlemek istediğiniz alanları kontrol edin.",
+          "result": "Doğrulama başarılı olur ve uygulama değişikliği onaylarsa kayıt güncellenir.",
+          "notes": "Doğru işin içindeki doğru paketi düzenlediğinizden emin olun."
+        },
+        "pl": {
+          "purpose": "Otwiera zapisany pakiet prac do edycji.",
+          "when": "Użyj, gdy trzeba zaktualizować szczegóły istniejącego pakietu prac.",
+          "how": "Wybierz Edit przy właściwym pakiecie, sprawdź jego powiązanie ze zleceniem i szczegóły, a następnie zapisz zmiany.",
+          "inputs": "Wybierz właściwy pakiet w ramach właściwego zlecenia i sprawdź pola, które chcesz edytować.",
+          "result": "Rekord zostanie zaktualizowany, jeśli walidacja się powiedzie i aplikacja potwierdzi zmianę.",
+          "notes": "Upewnij się, że edytujesz właściwy pakiet w ramach właściwego zlecenia."
+        },
+        "ur": {
+          "purpose": "محفوظ شدہ ورک پیکیج کو ترمیم کے لیے کھولتا ہے۔",
+          "when": "جب موجودہ ورک پیکیج کی تفصیلات اپ ڈیٹ کرنی ہوں تو استعمال کریں۔",
+          "how": "متعلقہ پیکیج کے لیے Edit منتخب کریں، کام کے ساتھ اس کا تعلق اور تفصیلات چیک کریں، پھر تبدیلیاں محفوظ کریں۔",
+          "inputs": "درست کام کے اندر درست ورک پیکیج منتخب کریں اور وہ خانے دیکھیں جن میں ترمیم کرنی ہے۔",
+          "result": "توثیق کامیاب ہو اور ایپ تبدیلی کی تصدیق کرے تو ریکارڈ اپ ڈیٹ ہو جاتا ہے۔",
+          "notes": "یقینی بنائیں کہ آپ درست کام کے اندر درست پیکیج میں ترمیم کر رہے ہیں۔"
+        },
+        "pa": {
+          "purpose": "ਸੇਵ ਕੀਤਾ ਵਰਕ ਪੈਕੇਜ ਸੋਧਣ ਲਈ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਵਰਕ ਪੈਕੇਜ ਦੇ ਵੇਰਵੇ ਅਪਡੇਟ ਕਰਨੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸੰਬੰਧਿਤ ਪੈਕੇਜ ਲਈ Edit ਚੁਣੋ, ਕੰਮ ਨਾਲ ਇਸਦਾ ਸੰਬੰਧ ਅਤੇ ਵੇਰਵੇ ਜਾਂਚੋ, ਫਿਰ ਤਬਦੀਲੀਆਂ ਸੇਵ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਕੰਮ ਦੇ ਅੰਦਰ ਸਹੀ ਵਰਕ ਪੈਕੇਜ ਚੁਣੋ ਅਤੇ ਉਹ ਖੇਤਰ ਜਾਂਚੋ ਜਿਨ੍ਹਾਂ ਨੂੰ ਸੋਧਣਾ ਹੈ।",
+          "result": "ਜਾਂਚ ਸਫਲ ਹੋਵੇ ਅਤੇ ਐਪ ਤਬਦੀਲੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਰਿਕਾਰਡ ਅਪਡੇਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਤੁਸੀਂ ਸਹੀ ਕੰਮ ਦੇ ਅੰਦਰ ਸਹੀ ਪੈਕੇਜ ਸੋਧ ਰਹੇ ਹੋ।"
+        },
+        "prs": {
+          "purpose": "بسته کاری ذخیره‌شده را برای ویرایش باز می‌کند.",
+          "when": "وقتی لازم است جزئیات یک بسته کاری موجود را به‌روزرسانی کنید، استفاده کنید.",
+          "how": "برای بسته موردنظر Edit را انتخاب کنید، ارتباط آن با کار و جزئیاتش را بررسی و سپس تغییرات را ذخیره کنید.",
+          "inputs": "بسته کاری درست را درون کار درست انتخاب کنید و فیلدهایی را که می‌خواهید ویرایش کنید بررسی کنید.",
+          "result": "اگر اعتبارسنجی موفق باشد و برنامه تغییر را تأیید کند، سابقه به‌روزرسانی می‌شود.",
+          "notes": "مطمئن شوید بسته درست را درون کار صحیح ویرایش می‌کنید."
+        },
+        "ps": {
+          "purpose": "خوندي شوې کاري بسته د سمون لپاره پرانیزي.",
+          "when": "کله چې د موجودې کاري بستې جزئیات تازه کول غواړئ، دا وکاروئ.",
+          "how": "د اړوندې بستې لپاره Edit وټاکئ، له کار سره یې تړاو او جزئیات وګورئ، بیا بدلونونه خوندي کړئ.",
+          "inputs": "د سم کار دننه سمه کاري بسته وټاکئ او هغه خانې وګورئ چې سمول یې غواړئ.",
+          "result": "که ارزونه بریالۍ شي او اپلیکیشن بدلون تایید کړي، ریکارډ تازه کېږي.",
+          "notes": "ډاډ ترلاسه کړئ چې د سم کار دننه سمه بسته سموی."
         }
       },
       "handler_or_behavior": "`coEditSub(`"
@@ -11709,19 +11925,91 @@
       "translations": {
         "en": {
           "purpose": "View the financial information for a work package.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control when you want to review the income, costs or recorded financial summary for a work package.",
           "how": "Choose Financials to inspect the package’s recorded income, costs or related financial summary.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "inputs": "Select the correct work package or view; provide extra details only if the app requests them.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "Treat displayed totals as workspace figures and check them against source records before relying on them."
         },
         "fa": {
           "purpose": "مشاهده اطلاعات مالی یک بسته کاری.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "وقتی می‌خواهید درآمد، هزینه‌ها یا خلاصه مالی ثبت‌شده بسته کاری را بررسی کنید، از این گزینه استفاده کنید.",
           "how": "گزینه Financials را انتخاب کنید تا درآمدها، هزینه‌ها یا خلاصه مالی بسته نمایش داده شود.",
-          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "inputs": "بسته کاری یا نمای درست را انتخاب کنید؛ فقط در صورت درخواست برنامه جزئیات اضافی وارد کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "مبالغ نمایش‌داده‌شده را ارقام فضای کاری بدانید و پیش از اتکا با مدارک اصلی تطبیق دهید."
+        },
+        "ar": {
+          "purpose": "يعرض المعلومات المالية لحزمة عمل.",
+          "when": "عندما تريد مراجعة الدخل أو التكاليف أو الملخص المالي المسجل لحزمة العمل.",
+          "how": "اختر Financials لمراجعة الدخل والتكاليف أو الملخص المالي المرتبط بالحزمة.",
+          "inputs": "حدد حزمة العمل أو العرض الصحيح؛ وأدخل تفاصيل إضافية فقط إذا طلب التطبيق ذلك.",
+          "result": "تُفتح المعلومات المالية المسجلة لحزمة العمل المحددة.",
+          "notes": "تعامل مع الإجماليات المعروضة باعتبارها أرقام مساحة العمل، وطابقها مع السجلات الأصلية قبل الاعتماد عليها."
+        },
+        "ckb": {
+          "purpose": "زانیاری دارایی پاکێجی کار پیشان دەدات.",
+          "when": "کاتێک دەتەوێت داهات، تێچوو یان پوختەی دارایی تۆمارکراوی پاکێجی کار بپشکنیت.",
+          "how": "Financials هەڵبژێرە بۆ پشکنینی داهات و تێچوو یان پوختەی دارایی پەیوەست بە پاکێجەکە.",
+          "inputs": "پاکێجی کار یان نمای دروست هەڵبژێرە؛ تەنها ئەگەر ئەپەکە داوای کرد زانیاری زیاتر بنووسە.",
+          "result": "زانیاری دارایی تۆمارکراوی پاکێجی کاری دیاریکراو دەکرێتەوە.",
+          "notes": "کۆی پیشاندراو وەک ژمارەکانی فضای کار مامەڵەیان لەگەڵ بکە و پێش پشتبەستن پێیان لەگەڵ تۆمارە بنەڕەتییەکان بەراوردیان بکە."
+        },
+        "kmr": {
+          "purpose": "Agahiyên darayî yên pakêteke xebatê nîşan dide.",
+          "when": "Dema ku tu dixwazî dahat, lêçûn an kurtasîya darayî ya tomarkirî ya pakêtê kontrol bikî.",
+          "how": "Financials hilbijêre da ku dahat, lêçûn an kurtasîya darayî ya girêdayî pakêtê kontrol bikî.",
+          "inputs": "Pakêta xebatê an dîtina rast hilbijêre; tenê heke sepan bixwaze hûrguliyên din binivîse.",
+          "result": "Agahiyên darayî yên tomarkirî yên pakêta xebatê ya hilbijartî vedibin.",
+          "notes": "Ji tevahiyên nîşandayî wekî hejmarên qada xebatê re tevbigere û berî pêbaweriyê wan bi tomarên bingehîn re berawird bike."
+        },
+        "tr": {
+          "purpose": "Bir iş paketinin finansal bilgilerini görüntüler.",
+          "when": "İş paketine kaydedilmiş gelirleri, maliyetleri veya finansal özeti incelemek istediğinizde kullanın.",
+          "how": "Pakete bağlı gelirleri, maliyetleri veya finansal özeti incelemek için Financials'ı seçin.",
+          "inputs": "Doğru iş paketini veya görünümü seçin; yalnızca uygulama isterse ek bilgi girin.",
+          "result": "Seçilen iş paketinin kayıtlı finansal bilgileri açılır.",
+          "notes": "Görüntülenen toplamları çalışma alanı rakamları olarak değerlendirin ve güvenmeden önce kaynak kayıtlarla karşılaştırın."
+        },
+        "pl": {
+          "purpose": "Wyświetla informacje finansowe pakietu prac.",
+          "when": "Użyj, gdy chcesz sprawdzić zapisane przychody, koszty lub podsumowanie finansowe pakietu prac.",
+          "how": "Wybierz Financials, aby sprawdzić przychody, koszty lub podsumowanie finansowe powiązane z pakietem.",
+          "inputs": "Wybierz właściwy pakiet prac lub widok; dodatkowe dane podaj tylko wtedy, gdy aplikacja o to poprosi.",
+          "result": "Otwierają się zapisane informacje finansowe wybranego pakietu prac.",
+          "notes": "Traktuj wyświetlone sumy jako dane obszaru roboczego i przed wykorzystaniem porównaj je z dokumentami źródłowymi."
+        },
+        "ur": {
+          "purpose": "ورک پیکیج کی مالی معلومات دکھاتا ہے۔",
+          "when": "جب ورک پیکیج کی درج شدہ آمدنی، اخراجات یا مالی خلاصہ دیکھنا ہو تو استعمال کریں۔",
+          "how": "پیکیج سے متعلق آمدنی، اخراجات یا مالی خلاصہ دیکھنے کے لیے Financials منتخب کریں۔",
+          "inputs": "درست ورک پیکیج یا منظر منتخب کریں؛ اضافی تفصیلات صرف تب دیں جب ایپ مانگے۔",
+          "result": "منتخب ورک پیکیج کی محفوظ شدہ مالی معلومات کھل جاتی ہیں۔",
+          "notes": "دکھائی گئی مجموعی رقوم کو ورک اسپیس کے اعداد سمجھیں اور ان پر انحصار سے پہلے اصل ریکارڈ سے ملائیں۔"
+        },
+        "pa": {
+          "purpose": "ਵਰਕ ਪੈਕੇਜ ਦੀ ਵਿੱਤੀ ਜਾਣਕਾਰੀ ਦਿਖਾਉਂਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਵਰਕ ਪੈਕੇਜ ਦੀ ਦਰਜ ਆਮਦਨ, ਖਰਚੇ ਜਾਂ ਵਿੱਤੀ ਸਾਰ ਵੇਖਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਪੈਕੇਜ ਨਾਲ ਜੁੜੀ ਆਮਦਨ, ਖਰਚੇ ਜਾਂ ਵਿੱਤੀ ਸਾਰ ਵੇਖਣ ਲਈ Financials ਚੁਣੋ।",
+          "inputs": "ਸਹੀ ਵਰਕ ਪੈਕੇਜ ਜਾਂ ਦ੍ਰਿਸ਼ ਚੁਣੋ; ਵਾਧੂ ਜਾਣਕਾਰੀ ਸਿਰਫ਼ ਉਦੋਂ ਦਿਓ ਜਦੋਂ ਐਪ ਮੰਗੇ।",
+          "result": "ਚੁਣੇ ਵਰਕ ਪੈਕੇਜ ਦੀ ਦਰਜ ਵਿੱਤੀ ਜਾਣਕਾਰੀ ਖੁੱਲ੍ਹਦੀ ਹੈ।",
+          "notes": "ਦਿਖਾਏ ਕੁੱਲ ਨੂੰ ਵਰਕਸਪੇਸ ਦੇ ਅੰਕੜੇ ਸਮਝੋ ਅਤੇ ਭਰੋਸਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਮੂਲ ਰਿਕਾਰਡ ਨਾਲ ਮਿਲਾਓ।"
+        },
+        "prs": {
+          "purpose": "اطلاعات مالی یک بسته کاری را نمایش می‌دهد.",
+          "when": "وقتی می‌خواهید درآمد، هزینه‌ها یا خلاصه مالی ثبت‌شده بسته کاری را بررسی کنید، استفاده کنید.",
+          "how": "Financials را انتخاب کنید تا درآمد، هزینه‌ها یا خلاصه مالی مرتبط با بسته را بررسی کنید.",
+          "inputs": "بسته کاری یا نمای درست را انتخاب کنید؛ فقط در صورت درخواست برنامه جزئیات اضافی وارد کنید.",
+          "result": "اطلاعات مالی ثبت‌شده بسته کاری انتخاب‌شده باز می‌شود.",
+          "notes": "مبالغ کل نمایش‌داده‌شده را ارقام فضای کاری بدانید و پیش از اتکا به آن‌ها با سوابق اصلی تطبیق دهید."
+        },
+        "ps": {
+          "purpose": "د کاري بستې مالي معلومات ښکاره کوي.",
+          "when": "کله چې د کاري بستې ثبت شوې عاید، لګښتونه یا مالي لنډیز کتل غواړئ، دا وکاروئ.",
+          "how": "د بستې اړوند عاید، لګښتونو یا مالي لنډیز د کتلو لپاره Financials وټاکئ.",
+          "inputs": "سمه کاري بسته یا لید وټاکئ؛ اضافي معلومات یوازې هغه وخت ورکړئ چې اپلیکیشن یې وغواړي.",
+          "result": "د ټاکل شوې کاري بستې ثبت شوي مالي معلومات پرانیستل کېږي.",
+          "notes": "ښودل شوي ټولیز ارقام د کاري ځای ارقام وګڼئ او له باور مخکې یې له اصلي ریکارډونو سره پرتله کړئ."
         }
       },
       "handler_or_behavior": "`coShowPackageFinance(`"
@@ -11735,19 +12023,91 @@
       "translations": {
         "en": {
           "purpose": "Delete a work package.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control only when the work package is no longer needed and its linked records have been checked.",
           "how": "Choose Delete for the intended package and read the confirmation prompt.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct work package and check its linked job, expenses, attachments and payment history.",
           "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
           "notes": "Deletion may remove access to package-level details. Check linked expenses, attachments and payment history first."
         },
         "fa": {
           "purpose": "حذف یک بسته کاری.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "فقط وقتی بسته کاری دیگر لازم نیست و سوابق مرتبط آن بررسی شده‌اند، از این گزینه استفاده کنید.",
           "how": "برای بسته موردنظر Delete را انتخاب کنید و پیام تأیید را بخوانید.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "بسته کاری درست را انتخاب کنید و کار مرتبط، هزینه‌ها، پیوست‌ها و تاریخچه پرداخت آن را بررسی کنید.",
           "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
           "notes": "حذف ممکن است دسترسی به جزئیات بسته را از بین ببرد. هزینه‌ها، پیوست‌ها و سوابق پرداخت مرتبط را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يحذف حزمة عمل.",
+          "when": "فقط عندما لم تعد حزمة العمل مطلوبة وبعد مراجعة السجلات المرتبطة بها.",
+          "how": "اختر Delete للحزمة المطلوبة واقرأ رسالة التأكيد قبل المتابعة.",
+          "inputs": "حدد حزمة العمل الصحيحة وتحقق من الوظيفة المرتبطة بها ومن المصروفات والمرفقات وسجل الدفعات.",
+          "result": "تُزال الحزمة أو تُعطّل فقط إذا قبل التطبيق العملية وأكدها.",
+          "notes": "قد يؤدي الحذف إلى فقدان الوصول إلى تفاصيل الحزمة. راجع المصروفات والمرفقات وسجل الدفعات المرتبط قبل التأكيد."
+        },
+        "ckb": {
+          "purpose": "پاکێجی کارێک دەسڕێتەوە.",
+          "when": "تەنها کاتێک پاکێجی کارەکە چیتر پێویست نییە و تۆمارە پەیوەستەکانی پشکنراون.",
+          "how": "بۆ پاکێجی مەبەست Delete هەڵبژێرە و پێش بەردەوامبوون نامەی پشتڕاستکردنەوە بخوێنەوە.",
+          "inputs": "پاکێجی کاری دروست هەڵبژێرە و پەیوەندییەکەی بە کارەکە، خەرجییەکان، پاشکۆکان و مێژووی پارەدان بپشکنە.",
+          "result": "پاکێجەکە تەنها ئەگەر ئەپەکە کردارەکە قبووڵ و پشتڕاست بکاتەوە لادەبرێت یان ناچالاک دەکرێت.",
+          "notes": "سڕینەوە دەتوانێت دەستگەیشتن بە وردەکارییەکانی پاکێج لەناوببات. پێش پشتڕاستکردنەوە خەرجی، پاشکۆ و مێژووی پارەدانی پەیوەست بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Pakêteke xebatê jê dike.",
+          "when": "Tenê dema ku êdî pakêta xebatê ne pêwîst e û tomarên girêdayî hatine kontrolkirin.",
+          "how": "Ji bo pakêta xwestî Delete hilbijêre û berî domandinê peyama piştrastkirinê bixwîne.",
+          "inputs": "Pakêta xebatê ya rast hilbijêre û girêdana wê bi kar, lêçûn, pêvek û dîroka dravdanê kontrol bike.",
+          "result": "Pakêt tenê heke sepan kiryarê qebûl û piştrast bike tê rakirin an neçalak kirin.",
+          "notes": "Jêbirin dikare gihîştina hûrguliyên pakêtê winda bike. Berî piştrastkirinê lêçûn, pêvek û dîroka dravdanê ya girêdayî kontrol bike."
+        },
+        "tr": {
+          "purpose": "Bir iş paketini siler.",
+          "when": "Yalnızca iş paketi artık gerekli değilse ve bağlantılı kayıtlar incelendiyse kullanın.",
+          "how": "İlgili paket için Delete'i seçin ve devam etmeden önce onay mesajını okuyun.",
+          "inputs": "Doğru iş paketini seçin ve onaylamadan önce bağlı işi, giderleri, ekleri ve ödeme geçmişini kontrol edin.",
+          "result": "Uygulama işlemi kabul edip onaylarsa paket kaldırılır veya devre dışı bırakılır.",
+          "notes": "Silme işlemi paket ayrıntılarına erişimi kaybettirebilir. Onaylamadan önce bağlantılı giderleri, ekleri ve ödeme geçmişini inceleyin."
+        },
+        "pl": {
+          "purpose": "Usuwa pakiet prac.",
+          "when": "Użyj tylko wtedy, gdy pakiet prac nie jest już potrzebny, a powiązane rekordy zostały sprawdzone.",
+          "how": "Wybierz Delete przy właściwym pakiecie i przed kontynuowaniem przeczytaj komunikat potwierdzający.",
+          "inputs": "Wybierz właściwy pakiet prac i sprawdź powiązane zlecenie, wydatki, załączniki oraz historię płatności.",
+          "result": "Pakiet zostanie usunięty lub dezaktywowany tylko wtedy, gdy aplikacja zaakceptuje i potwierdzi operację.",
+          "notes": "Usunięcie może spowodować utratę dostępu do szczegółów pakietu. Przed potwierdzeniem sprawdź powiązane wydatki, załączniki i historię płatności."
+        },
+        "ur": {
+          "purpose": "ایک ورک پیکیج حذف کرتا ہے۔",
+          "when": "صرف اس وقت استعمال کریں جب ورک پیکیج کی مزید ضرورت نہ ہو اور متعلقہ ریکارڈ چیک کر لیے گئے ہوں۔",
+          "how": "متعلقہ پیکیج کے لیے Delete منتخب کریں اور آگے بڑھنے سے پہلے تصدیقی پیغام پڑھیں۔",
+          "inputs": "درست ورک پیکیج منتخب کریں اور تصدیق سے پہلے متعلقہ کام، اخراجات، اٹیچمنٹس اور ادائیگی کی تاریخ چیک کریں۔",
+          "result": "ایپ کارروائی قبول اور تصدیق کرے تو پیکیج ہٹا یا غیر فعال ہو جاتا ہے۔",
+          "notes": "حذف کرنے سے پیکیج کی تفصیلات تک رسائی ختم ہو سکتی ہے۔ تصدیق سے پہلے متعلقہ اخراجات، اٹیچمنٹس اور ادائیگی کی تاریخ دیکھیں۔"
+        },
+        "pa": {
+          "purpose": "ਇੱਕ ਵਰਕ ਪੈਕੇਜ ਮਿਟਾਉਂਦਾ ਹੈ।",
+          "when": "ਸਿਰਫ਼ ਜਦੋਂ ਵਰਕ ਪੈਕੇਜ ਦੀ ਹੋਰ ਲੋੜ ਨਾ ਹੋਵੇ ਅਤੇ ਜੁੜੇ ਰਿਕਾਰਡ ਜਾਂਚ ਲਏ ਗਏ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸੰਬੰਧਿਤ ਪੈਕੇਜ ਲਈ Delete ਚੁਣੋ ਅਤੇ ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਪੜ੍ਹੋ।",
+          "inputs": "ਸਹੀ ਵਰਕ ਪੈਕੇਜ ਚੁਣੋ ਅਤੇ ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਜੁੜਿਆ ਕੰਮ, ਖਰਚੇ, ਅਟੈਚਮੈਂਟ ਅਤੇ ਭੁਗਤਾਨ ਇਤਿਹਾਸ ਜਾਂਚੋ।",
+          "result": "ਐਪ ਕਾਰਵਾਈ ਸਵੀਕਾਰ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਪੈਕੇਜ ਹਟਾਇਆ ਜਾਂ ਅਕਿਰਿਆਸ਼ੀਲ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਮਿਟਾਉਣ ਨਾਲ ਪੈਕੇਜ ਦੇ ਵੇਰਵਿਆਂ ਤੱਕ ਪਹੁੰਚ ਖਤਮ ਹੋ ਸਕਦੀ ਹੈ। ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਜੁੜੇ ਖਰਚੇ, ਅਟੈਚਮੈਂਟ ਅਤੇ ਭੁਗਤਾਨ ਇਤਿਹਾਸ ਵੇਖੋ।"
+        },
+        "prs": {
+          "purpose": "یک بسته کاری را حذف می‌کند.",
+          "when": "فقط وقتی بسته کاری دیگر لازم نیست و سوابق مرتبط آن بررسی شده‌اند، استفاده کنید.",
+          "how": "برای بسته موردنظر Delete را انتخاب کنید و پیش از ادامه پیام تأیید را بخوانید.",
+          "inputs": "بسته کاری درست را انتخاب کنید و پیش از تأیید، کار مرتبط، هزینه‌ها، پیوست‌ها و تاریخچه پرداخت را بررسی کنید.",
+          "result": "در صورت پذیرش و تأیید برنامه، بسته حذف یا غیرفعال می‌شود.",
+          "notes": "حذف ممکن است دسترسی به جزئیات بسته را از بین ببرد. پیش از تأیید هزینه‌ها، پیوست‌ها و تاریخچه پرداخت مرتبط را بررسی کنید."
+        },
+        "ps": {
+          "purpose": "یوه کاري بسته ړنګوي.",
+          "when": "یوازې هغه وخت یې وکاروئ چې کاري بسته نوره اړتیا نه وي او تړلي ریکارډونه یې کتلي وي.",
+          "how": "د اړوندې بستې لپاره Delete وټاکئ او له دوام مخکې د تایید پیغام ولولئ.",
+          "inputs": "سمه کاري بسته وټاکئ او له تایید مخکې تړلی کار، لګښتونه، ضمیمې او د تادیاتو تاریخ وګورئ.",
+          "result": "که اپلیکیشن کړنه ومني او تایید یې کړي، بسته لرې یا غیرفعال کېږي.",
+          "notes": "ړنګول د بستې جزئیاتو ته لاسرسی له منځه وړلی شي. له تایید مخکې تړلي لګښتونه، ضمیمې او د تادیاتو تاریخ وګورئ."
         }
       },
       "handler_or_behavior": "`coDeleteSub(`"
