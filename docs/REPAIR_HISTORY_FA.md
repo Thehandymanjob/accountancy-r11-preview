@@ -507,6 +507,17 @@
 - **Production:** بدون تغییر؛ R12 و داده‌های Production خارج از دامنه این اصلاح هستند.
 - **کار باقی‌مانده:** تست واقعی iPhone Safari پس از تکمیل Help ID Registry و تأیید جداگانه مجوز انتشار؛ تا آن زمان PR #96 در حالت Draft می‌ماند و Preview Pages deploy نمی‌شود.
 
+#### بازنگری Help Registry — رفع ناسازگاری شمارنده و بازنشستگی شناسه 0219
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** اصلاح مستندات در همان پرونده HELP-GUIDE-001؛ پرونده جدید ایجاد نشد.
+- **شواهد:** Blob واقعی Registry با SHA قبلی `b2980212414c4b318d53c862f1d1a543b637d681` از GitHub خوانده شد. شمارش مستقیم JSON نشان داد 229 شناسه یکتا وجود دارد؛ 228 شناسه فعال با 228 ردیف HELP-REQUIRED در Inventory تطبیق یک‌به‌یک دارند و هیچ audit_ref تکراری یا مفقودی وجود ندارد. تمام 228 شناسه فعال دارای شش فیلد غیرخالی انگلیسی و فارسی هستند. 132 مورد در وضعیت CONTENT_COMPLETE و 96 مورد در وضعیت CONTENT_DRAFT باقی می‌مانند.
+- **اصلاح:** فیلد `content_progress` که به‌اشتباه 54/175 را نشان می‌داد با شمارش واقعی 132/96 همگام شد. شناسه `THA-HLP-0219` مربوط به `INV-256` به‌عنوان `lifecycle_status: RETIRED` و `publishable: false` مشخص شد؛ مقدار اصلی CONTENT_DRAFT برای حفظ سازگاری ساختاری دست‌نخورده ماند و شناسه هرگز دوباره استفاده نمی‌شود.
+- **اعتبارسنجی مستندات:** JSON parse موفق؛ 229 شناسه یکتا؛ 228 نقطه اتصال فعال؛ تطبیق کامل Inventory؛ بدون Help ID تکراری؛ 228 مورد دارای شش فیلد EN و FA. این بررسی، صحت معنایی همه متن‌ها یا اتصال Runtime را اثبات نمی‌کند.
+- **فایل:** `docs/HELP_ID_REGISTRY_DRAFT.json`.
+- **Commit توسعه:** `4febf9a939af938f6c9b6075fa7a8f76bd919112`.
+- **Runtime / Deploy / Safari / Production:** هنوز هیچ Help ID به دکمه runtime متصل نشده است؛ Deploy و تست Safari انجام نشده‌اند؛ Production بدون تغییر.
+- **کار باقی‌مانده:** بازبینی معنایی EN/FA طبق دامنه انتشار دو زبانه، افزودن اتصال contextual `?` به کنترل‌های تخصصی، تست پوشش/یکتایی و بررسی رفتار در Preview.
+ 
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
 - **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Implemented on Preview development; the latest R45 Version Authority Gate passed after native-HTML fail-closed hardening (run 46053038295). Pages deployment and iPhone Safari verification remain pending.
