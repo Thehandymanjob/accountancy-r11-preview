@@ -8203,7 +8203,7 @@
           "purpose": "Moves the current paginated list to the next page.",
           "when": "when more results are available beyond the current page.",
           "how": "Select Next while it is enabled.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No information is required; use this control only to move to the next page.",
           "result": "The next page of list results is displayed.",
           "notes": "This is navigation only. The button is unavailable on the final page."
         },
@@ -8211,9 +8211,81 @@
           "purpose": "فهرست صفحه‌بندی‌شده فعلی را به صفحه بعد می‌برد.",
           "when": "وقتی پس از صفحه فعلی نتایج بیشتری وجود دارد، از این گزینه استفاده کنید.",
           "how": "در صورت فعال‌بودن، Next را انتخاب کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "inputs": "ورود اطلاعات لازم نیست؛ این گزینه فقط برای رفتن به صفحه بعد است.",
           "result": "صفحه بعدی نتایج فهرست نمایش داده می‌شود.",
           "notes": "این فقط ناوبری است. در آخرین صفحه، دکمه غیرفعال است."
+        },
+        "ar": {
+          "purpose": "ينقل القائمة الحالية المقسمة إلى صفحات إلى الصفحة التالية.",
+          "when": "عندما تتوفر نتائج إضافية بعد الصفحة الحالية.",
+          "how": "اختر Next عندما يكون الزر مفعلاً.",
+          "inputs": "لا يلزم إدخال بيانات؛ استخدم هذا الخيار للانتقال إلى الصفحة التالية فقط.",
+          "result": "تظهر الصفحة التالية من نتائج القائمة.",
+          "notes": "هذا إجراء تنقل فقط. لا يتوفر الزر في الصفحة الأخيرة."
+        },
+        "ckb": {
+          "purpose": "پێڕستی لاپەڕەکراوی ئێستا بۆ لاپەڕەی دواتر دەگوازێتەوە.",
+          "when": "کاتێک ئەنجامی زیاتر لە دوای لاپەڕەی ئێستا هەیە.",
+          "how": "کاتێک چالاکە Next هەڵبژێرە.",
+          "inputs": "هیچ زانیارییەک پێویست نییە؛ ئەم هەڵبژاردەیە تەنها بۆ چوون بۆ لاپەڕەی دواترە.",
+          "result": "لاپەڕەی دواتری ئەنجامەکانی پێڕست پیشان دەدرێت.",
+          "notes": "ئەمە تەنها گەشتکردنە. لە لاپەڕەی کۆتاییدا دوگمەکە بەردەست نییە."
+        },
+        "kmr": {
+          "purpose": "Lîsteya rûpelkirî ya niha ber bi rûpela din ve dibe.",
+          "when": "Dema ku piştî rûpela niha encamên din hene.",
+          "how": "Dema ku çalak be Next hilbijêre.",
+          "inputs": "Agahî nehewce ye; vê tenê ji bo çûna rûpela din bikar bîne.",
+          "result": "Rûpela din a encamên lîsteyê xuya dibe.",
+          "notes": "Ev tenê rêvekirin e. Li rûpela dawî de ev bişkok ne berdest e."
+        },
+        "tr": {
+          "purpose": "Mevcut sayfalandırılmış listeyi sonraki sayfaya taşır.",
+          "when": "Geçerli sayfadan sonra başka sonuçlar bulunduğunda kullanın.",
+          "how": "Etkin olduğunda Next'i seçin.",
+          "inputs": "Bilgi girmeniz gerekmez; yalnızca sonraki sayfaya geçmek için kullanın.",
+          "result": "Liste sonuçlarının sonraki sayfası görüntülenir.",
+          "notes": "Bu yalnızca gezinme işlemidir. Son sayfada düğme kullanılamaz."
+        },
+        "pl": {
+          "purpose": "Przenosi bieżącą listę stronicowaną na następną stronę.",
+          "when": "Użyj, gdy po bieżącej stronie dostępne są kolejne wyniki.",
+          "how": "Wybierz Next, gdy przycisk jest aktywny.",
+          "inputs": "Nie trzeba podawać danych; użyj tej opcji wyłącznie do przejścia na następną stronę.",
+          "result": "Wyświetlana jest następna strona wyników listy.",
+          "notes": "To wyłącznie nawigacja. Przycisk jest niedostępny na ostatniej stronie."
+        },
+        "ur": {
+          "purpose": "موجودہ صفحہ بند فہرست کو اگلے صفحے پر لے جاتا ہے۔",
+          "when": "جب موجودہ صفحے کے بعد مزید نتائج دستیاب ہوں تو استعمال کریں۔",
+          "how": "جب Next فعال ہو تو اسے منتخب کریں۔",
+          "inputs": "کوئی معلومات درج کرنے کی ضرورت نہیں؛ اسے صرف اگلے صفحے پر جانے کے لیے استعمال کریں۔",
+          "result": "فہرست کے نتائج کا اگلا صفحہ دکھایا جاتا ہے۔",
+          "notes": "یہ صرف نیویگیشن ہے۔ آخری صفحے پر بٹن دستیاب نہیں ہوتا۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਪੰਨਾ-ਵੰਡੀ ਸੂਚੀ ਨੂੰ ਅਗਲੇ ਪੰਨੇ 'ਤੇ ਲੈ ਜਾਂਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਪੰਨੇ ਤੋਂ ਬਾਅਦ ਹੋਰ ਨਤੀਜੇ ਉਪਲਬਧ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਜਦੋਂ Next ਚਾਲੂ ਹੋਵੇ ਤਾਂ ਇਸਨੂੰ ਚੁਣੋ।",
+          "inputs": "ਕੋਈ ਜਾਣਕਾਰੀ ਦੇਣ ਦੀ ਲੋੜ ਨਹੀਂ; ਇਸਨੂੰ ਸਿਰਫ਼ ਅਗਲੇ ਪੰਨੇ 'ਤੇ ਜਾਣ ਲਈ ਵਰਤੋ।",
+          "result": "ਸੂਚੀ ਦੇ ਨਤੀਜਿਆਂ ਦਾ ਅਗਲਾ ਪੰਨਾ ਦਿਖਾਇਆ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਇਹ ਸਿਰਫ਼ ਨੈਵੀਗੇਸ਼ਨ ਹੈ। ਆਖਰੀ ਪੰਨੇ 'ਤੇ ਬਟਨ ਉਪਲਬਧ ਨਹੀਂ ਹੁੰਦਾ।"
+        },
+        "prs": {
+          "purpose": "فهرست صفحه‌بندی‌شده فعلی را به صفحه بعد می‌برد.",
+          "when": "وقتی پس از صفحه فعلی نتایج بیشتری وجود دارد، استفاده کنید.",
+          "how": "در صورت فعال‌بودن Next را انتخاب کنید.",
+          "inputs": "ورود اطلاعات لازم نیست؛ این گزینه فقط برای رفتن به صفحه بعد است.",
+          "result": "صفحه بعدی نتایج فهرست نمایش داده می‌شود.",
+          "notes": "این فقط عملیات ناوبری است. دکمه در صفحه آخر در دسترس نیست."
+        },
+        "ps": {
+          "purpose": "اوسنی پاڼه‌لرونکی لېست بلې پاڼې ته وړي.",
+          "when": "کله چې د اوسني مخ وروسته نورې پایلې موجودې وي، دا وکاروئ.",
+          "how": "کله چې Next فعال وي، هغه وټاکئ.",
+          "inputs": "معلوماتو ته اړتیا نشته؛ دا یوازې بلې پاڼې ته د تګ لپاره وکاروئ.",
+          "result": "د لېست د پایلو بله پاڼه ښکاره کېږي.",
+          "notes": "دا یوازې د تګ راتګ کړنه ده. په وروستۍ پاڼه کې تڼۍ نه وي فعاله."
         }
       },
       "handler_or_behavior": "`event/property listener`"
@@ -8229,7 +8301,7 @@
           "purpose": "Selects a category from the expense category picker.",
           "when": "when classifying an expense so project or accounting reports group it correctly.",
           "how": "Open the category picker and select the closest matching category.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "Select the category that most accurately describes the actual expense.",
           "result": "The selected category is applied to the relevant expense form.",
           "notes": "Check the category before saving; category choice affects reporting and should reflect the real nature of the cost."
         },
@@ -8237,9 +8309,81 @@
           "purpose": "دسته‌بندی هزینه را از انتخابگر دسته‌ها انتخاب می‌کند.",
           "when": "برای طبقه‌بندی هزینه تا گزارش‌های پروژه یا حسابداری آن را درست گروه‌بندی کنند، از این گزینه استفاده کنید.",
           "how": "انتخابگر دسته‌بندی را باز کنید و نزدیک‌ترین دسته مناسب را انتخاب کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "inputs": "دسته‌ای را انتخاب کنید که ماهیت واقعی هزینه را دقیق‌تر نشان می‌دهد.",
           "result": "دسته انتخاب‌شده روی فرم هزینه اعمال می‌شود.",
           "notes": "پیش از ذخیره دسته را بررسی کنید؛ انتخاب دسته بر گزارش‌ها اثر می‌گذارد و باید ماهیت واقعی هزینه را نشان دهد."
+        },
+        "ar": {
+          "purpose": "يختار فئة من قائمة فئات المصروفات.",
+          "when": "عند تصنيف مصروف لكي تجمعه تقارير المشروع أو المحاسبة ضمن الفئة الصحيحة.",
+          "how": "افتح قائمة الفئات واختر الفئة الأقرب إلى طبيعة المصروف.",
+          "inputs": "اختر الفئة التي تصف طبيعة المصروف الفعلي بأكبر قدر من الدقة.",
+          "result": "تُطبق الفئة المختارة على نموذج المصروف المعني.",
+          "notes": "تحقق من الفئة قبل الحفظ؛ فالاختيار يؤثر في التقارير ويجب أن يعكس طبيعة التكلفة الفعلية."
+        },
+        "ckb": {
+          "purpose": "دسته‌بەندییەک لە هەڵبژێرەری دسته‌بەندی خەرجی هەڵدەبژێرێت.",
+          "when": "کاتێک خەرجییەک پۆلێن دەکەیت بۆ ئەوەی ڕاپۆرتی پرۆژە یان ژمێریاری بە دروستی کۆی بکاتەوە.",
+          "how": "هەڵبژێرەری دسته‌بەندی بکەرەوە و ئەو دسته‌بەندییە هەڵبژێرە کە لەگەڵ خەرجییەکە نزیکترە.",
+          "inputs": "ئەو دسته‌بەندییە هەڵبژێرە کە سروشتی ڕاستەقینەی خەرجییەکە بە دروستی دەردەبڕێت.",
+          "result": "دسته‌بەندییە هەڵبژێردراوەکە لە فۆڕمی خەرجی پەیوەندیدار جێبەجێ دەکرێت.",
+          "notes": "پێش پاشەکەوتکردن دسته‌بەندییەکە بپشکنە؛ هەڵبژاردنەکە کاریگەری لە ڕاپۆرتەکان هەیە و دەبێت سروشتی ڕاستەقینەی تێچوو پیشان بدات."
+        },
+        "kmr": {
+          "purpose": "Kategoriyekê ji hilbijêra kategoriyên lêçûnê hildibijêre.",
+          "when": "Dema ku tu lêçûnekê dabeş dikî da ku raporên projeyê an hesabê wê rast kom bikin.",
+          "how": "Hilbijêra kategoriyê veke û kategoriya herî nêzîk a lêçûnê hilbijêre.",
+          "inputs": "Kategoria ku xwezaya rastîn a lêçûnê herî baş vedibêje hilbijêre.",
+          "result": "Kategoria hilbijartî li ser forma lêçûna têkildar tê sepandin.",
+          "notes": "Berî tomarkirinê kategoriyê kontrol bike; hilbijartin bandorê li raporan dike û divê xwezaya rastîn a lêçûnê nîşan bide."
+        },
+        "tr": {
+          "purpose": "Gider kategorisi seçicisinden bir kategori seçer.",
+          "when": "Bir gideri proje veya muhasebe raporlarının doğru gruplandırması için sınıflandırırken kullanın.",
+          "how": "Kategori seçiciyi açın ve gidere en uygun kategoriyi seçin.",
+          "inputs": "Gerçek giderin niteliğini en doğru yansıtan kategoriyi seçin.",
+          "result": "Seçilen kategori ilgili gider formuna uygulanır.",
+          "notes": "Kaydetmeden önce kategoriyi kontrol edin; seçim raporlamayı etkiler ve maliyetin gerçek niteliğini yansıtmalıdır."
+        },
+        "pl": {
+          "purpose": "Wybiera kategorię z selektora kategorii wydatków.",
+          "when": "Użyj podczas klasyfikowania wydatku, aby raporty projektu lub księgowości prawidłowo go grupowały.",
+          "how": "Otwórz selektor kategorii i wybierz kategorię najlepiej pasującą do wydatku.",
+          "inputs": "Wybierz kategorię, która najdokładniej odzwierciedla rzeczywisty charakter kosztu.",
+          "result": "Wybrana kategoria zostaje zastosowana w odpowiednim formularzu wydatku.",
+          "notes": "Sprawdź kategorię przed zapisaniem; wybór wpływa na raportowanie i powinien odzwierciedlać rzeczywisty charakter kosztu."
+        },
+        "ur": {
+          "purpose": "خرچ کی کیٹیگری منتخب کرنے والے مینو سے ایک زمرہ منتخب کرتا ہے۔",
+          "when": "جب خرچ کی درجہ بندی کرنی ہو تاکہ پروجیکٹ یا اکاؤنٹنگ رپورٹس اسے درست گروپ میں رکھیں تو استعمال کریں۔",
+          "how": "کیٹیگری مینو کھولیں اور خرچ سے سب سے زیادہ مطابقت رکھنے والا زمرہ منتخب کریں۔",
+          "inputs": "وہ زمرہ منتخب کریں جو اصل لاگت کی نوعیت کو سب سے درست ظاہر کرتا ہو۔",
+          "result": "منتخب زمرہ متعلقہ خرچ کے فارم پر لاگو ہو جاتا ہے۔",
+          "notes": "محفوظ کرنے سے پہلے زمرہ چیک کریں؛ انتخاب رپورٹنگ پر اثر انداز ہوتا ہے اور لاگت کی اصل نوعیت ظاہر کرنا چاہیے۔"
+        },
+        "pa": {
+          "purpose": "ਖਰਚਾ ਸ਼੍ਰੇਣੀ ਚੋਣਕਾਰ ਵਿੱਚੋਂ ਇੱਕ ਸ਼੍ਰੇਣੀ ਚੁਣਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਖਰਚੇ ਦੀ ਵਰਗੀਕਰਨ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਜੋ ਪ੍ਰੋਜੈਕਟ ਜਾਂ ਅਕਾਊਂਟਿੰਗ ਰਿਪੋਰਟਾਂ ਇਸਨੂੰ ਸਹੀ ਸਮੂਹ ਵਿੱਚ ਰੱਖਣ, ਵਰਤੋ।",
+          "how": "ਸ਼੍ਰੇਣੀ ਚੋਣਕਾਰ ਖੋਲ੍ਹੋ ਅਤੇ ਖਰਚੇ ਨਾਲ ਸਭ ਤੋਂ ਵੱਧ ਮੇਲ ਖਾਂਦੀ ਸ਼੍ਰੇਣੀ ਚੁਣੋ।",
+          "inputs": "ਉਹ ਸ਼੍ਰੇਣੀ ਚੁਣੋ ਜੋ ਅਸਲ ਖਰਚੇ ਦੀ ਕਿਸਮ ਨੂੰ ਸਭ ਤੋਂ ਸਹੀ ਦਰਸਾਉਂਦੀ ਹੋਵੇ।",
+          "result": "ਚੁਣੀ ਸ਼੍ਰੇਣੀ ਸੰਬੰਧਿਤ ਖਰਚਾ ਫਾਰਮ 'ਤੇ ਲਾਗੂ ਹੁੰਦੀ ਹੈ।",
+          "notes": "ਸੇਵ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਸ਼੍ਰੇਣੀ ਜਾਂਚੋ; ਚੋਣ ਰਿਪੋਰਟਾਂ 'ਤੇ ਅਸਰ ਪਾਂਦੀ ਹੈ ਅਤੇ ਅਸਲ ਲਾਗਤ ਦੀ ਕਿਸਮ ਦਰਸਾਉਣੀ ਚਾਹੀਦੀ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "یک دسته‌بندی را از انتخابگر دسته‌بندی هزینه انتخاب می‌کند.",
+          "when": "وقتی هزینه را طبقه‌بندی می‌کنید تا گزارش‌های پروژه یا حسابداری آن را درست گروه‌بندی کنند، استفاده کنید.",
+          "how": "انتخابگر دسته‌بندی را باز کنید و نزدیک‌ترین دسته مناسب هزینه را انتخاب کنید.",
+          "inputs": "دسته‌ای را انتخاب کنید که ماهیت واقعی هزینه را دقیق‌تر نشان می‌دهد.",
+          "result": "دسته انتخاب‌شده روی فرم هزینه مربوط اعمال می‌شود.",
+          "notes": "پیش از ذخیره دسته را بررسی کنید؛ انتخاب دسته بر گزارش‌ها اثر می‌گذارد و باید ماهیت واقعی هزینه را نشان دهد."
+        },
+        "ps": {
+          "purpose": "د لګښت د کټګورۍ له ټاکونکي څخه یوه کټګوري ټاکي.",
+          "when": "کله چې لګښت طبقه‌بندي کوئ څو د پروژې یا حسابدارۍ راپورونه یې په سمه ډله کې واچوي، دا وکاروئ.",
+          "how": "د کټګورۍ ټاکونکی پرانیزئ او هغه کټګوري وټاکئ چې له لګښت سره تر ټولو ډېره سمون لري.",
+          "inputs": "هغه کټګوري وټاکئ چې د لګښت اصلي ماهیت په دقیقه توګه څرګندوي.",
+          "result": "ټاکل شوې کټګوري د اړوند لګښت پر فورمه لګېږي.",
+          "notes": "له خوندي کولو مخکې کټګوري وګورئ؛ دا ټاکنه پر راپورونو اغېز لري او باید د لګښت اصلي ماهیت څرګند کړي."
         }
       },
       "handler_or_behavior": "`chooseCategoryFromButton(this)`"
@@ -8255,7 +8399,7 @@
           "purpose": "Opens the form to create a new expense category in the selected category group.",
           "when": "when no existing category accurately describes the expense.",
           "how": "Select Add New One, enter a clear category name and save it if the form accepts it.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "Enter a clear name for the new category and select the correct category group.",
           "result": "A new category is added to the selected group if validation and saving succeed.",
           "notes": "Avoid near-duplicate names and choose the correct group. A category label does not determine tax deductibility."
         },
@@ -8263,9 +8407,81 @@
           "purpose": "فرم ایجاد دسته‌بندی جدید هزینه را در گروه انتخاب‌شده باز می‌کند.",
           "when": "وقتی هیچ دسته موجودی ماهیت هزینه را به‌درستی توصیف نمی‌کند، از این گزینه استفاده کنید.",
           "how": "Add New One را بزنید، نام روشن برای دسته وارد و در صورت پذیرش فرم آن را ذخیره کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "inputs": "نام روشنی برای دسته جدید وارد کنید و گروه دسته‌بندی درست را انتخاب کنید.",
           "result": "در صورت موفقیت اعتبارسنجی و ذخیره، دسته جدید به گروه انتخاب‌شده افزوده می‌شود.",
           "notes": "از نام‌های تقریباً تکراری پرهیز و گروه درست را انتخاب کنید. نام دسته به‌تنهایی قابل‌قبول‌بودن هزینه از نظر مالیاتی را تعیین نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يفتح نموذج إنشاء فئة مصروفات جديدة ضمن المجموعة المحددة.",
+          "when": "عندما لا تصف أي فئة موجودة المصروف بدقة.",
+          "how": "اختر Add New One، وأدخل اسماً واضحاً للفئة، ثم احفظه إذا قبل النموذج ذلك.",
+          "inputs": "أدخل اسماً واضحاً للفئة الجديدة وحدد مجموعة الفئات الصحيحة.",
+          "result": "تُضاف فئة جديدة إلى المجموعة المحددة إذا نجح التحقق والحفظ.",
+          "notes": "تجنب الأسماء المتشابهة جداً واختر المجموعة الصحيحة. اسم الفئة وحده لا يحدد قابلية خصم المصروف ضريبياً."
+        },
+        "ckb": {
+          "purpose": "فۆڕمی دروستکردنی دسته‌بەندییەکی نوێی خەرجی لە گروپی هەڵبژێردراو دەکاتەوە.",
+          "when": "کاتێک هیچ دسته‌بەندییەکی هەبوو خەرجییەکە بە دروستی وەسف ناکات.",
+          "how": "Add New One هەڵبژێرە، ناوێکی ڕوون بۆ دسته‌بەندییەکە بنووسە و ئەگەر فۆڕمەکە قبووڵی کرد پاشەکەوتی بکە.",
+          "inputs": "ناوێکی ڕوون بۆ دسته‌بەندییە نوێیەکە بنووسە و گروپی دروستی دسته‌بەندی هەڵبژێرە.",
+          "result": "ئەگەر پشتڕاستکردنەوە و پاشەکەوتکردن سەرکەوتوو بن، دسته‌بەندییەکی نوێ بۆ گروپەکە زیاد دەکرێت.",
+          "notes": "لە ناوی زۆر لەیەکچوو خۆبپارێزە و گروپی دروست هەڵبژێرە. ناوی دسته‌بەندی بە تەنها دیاری ناکات کە خەرجییەکە لە باجدا کەم دەکرێتەوە یان نا."
+        },
+        "kmr": {
+          "purpose": "Forma çêkirina kategoriyeke nû ya lêçûnê di koma hilbijartî de vedike.",
+          "when": "Dema ku tu kategoriyeke heyî nabînî ku lêçûnê rast rave bike.",
+          "how": "Add New One hilbijêre, navekî zelal ji bo kategoriyê binivîse û heke form qebûl bike tomar bike.",
+          "inputs": "Navekî zelal ji bo kategoriya nû binivîse û koma rast a kategoriyan hilbijêre.",
+          "result": "Ger kontrol û tomarkirin serkeftî bin, kategoriyeke nû li koma hilbijartî tê zêdekirin.",
+          "notes": "Ji navên pir nêzî hev dûr bikeve û koma rast hilbijêre. Navê kategoriyê bi tena xwe destnîşan nake ka lêçûn ji bacê tê kêmtir kirin an na."
+        },
+        "tr": {
+          "purpose": "Seçilen kategori grubunda yeni gider kategorisi oluşturma formunu açar.",
+          "when": "Mevcut kategorilerden hiçbiri gideri doğru tanımlamadığında kullanın.",
+          "how": "Add New One'ı seçin, açık bir kategori adı girin ve form kabul ederse kaydedin.",
+          "inputs": "Yeni kategori için açık bir ad girin ve doğru kategori grubunu seçin.",
+          "result": "Doğrulama ve kayıt başarılı olursa seçilen gruba yeni kategori eklenir.",
+          "notes": "Birbirine çok benzeyen adlardan kaçının ve doğru grubu seçin. Kategori adı tek başına giderin vergiden düşülebilir olup olmadığını belirlemez."
+        },
+        "pl": {
+          "purpose": "Otwiera formularz tworzenia nowej kategorii wydatku w wybranej grupie.",
+          "when": "Użyj, gdy żadna z istniejących kategorii nie opisuje prawidłowo wydatku.",
+          "how": "Wybierz Add New One, wpisz jasną nazwę kategorii i zapisz ją, jeśli formularz ją zaakceptuje.",
+          "inputs": "Wpisz czytelną nazwę nowej kategorii i wybierz właściwą grupę kategorii.",
+          "result": "Jeśli walidacja i zapis zakończą się pomyślnie, do wybranej grupy zostanie dodana nowa kategoria.",
+          "notes": "Unikaj bardzo podobnych nazw i wybierz właściwą grupę. Sama nazwa kategorii nie przesądza o podatkowej możliwości odliczenia kosztu."
+        },
+        "ur": {
+          "purpose": "منتخب زمرہ گروپ میں نئی خرچ کیٹیگری بنانے کا فارم کھولتا ہے۔",
+          "when": "جب موجودہ زمروں میں سے کوئی بھی خرچ کی درست وضاحت نہ کرے تو استعمال کریں۔",
+          "how": "Add New One منتخب کریں، زمرے کا واضح نام درج کریں اور فارم قبول کرے تو محفوظ کریں۔",
+          "inputs": "نئے زمرے کا واضح نام درج کریں اور درست زمرہ گروپ منتخب کریں۔",
+          "result": "توثیق اور محفوظ کرنے کا عمل کامیاب ہو تو منتخب گروپ میں نیا زمرہ شامل ہو جاتا ہے۔",
+          "notes": "ملتے جلتے ناموں سے گریز کریں اور درست گروپ منتخب کریں۔ صرف زمرے کا نام یہ طے نہیں کرتا کہ خرچ ٹیکس میں قابلِ کٹوتی ہے یا نہیں۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੇ ਗਏ ਸ਼੍ਰੇਣੀ ਸਮੂਹ ਵਿੱਚ ਨਵੀਂ ਖਰਚਾ ਸ਼੍ਰੇਣੀ ਬਣਾਉਣ ਦਾ ਫਾਰਮ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਸ਼੍ਰੇਣੀਆਂ ਵਿੱਚੋਂ ਕੋਈ ਵੀ ਖਰਚੇ ਨੂੰ ਠੀਕ ਤਰ੍ਹਾਂ ਬਿਆਨ ਨਾ ਕਰੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Add New One ਚੁਣੋ, ਸ਼੍ਰੇਣੀ ਦਾ ਸਪਸ਼ਟ ਨਾਮ ਭਰੋ ਅਤੇ ਜੇ ਫਾਰਮ ਸਵੀਕਾਰ ਕਰੇ ਤਾਂ ਸੇਵ ਕਰੋ।",
+          "inputs": "ਨਵੀਂ ਸ਼੍ਰੇਣੀ ਦਾ ਸਪਸ਼ਟ ਨਾਮ ਭਰੋ ਅਤੇ ਸਹੀ ਸ਼੍ਰੇਣੀ ਸਮੂਹ ਚੁਣੋ।",
+          "result": "ਜਾਂਚ ਅਤੇ ਸੇਵ ਕਰਨਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਚੁਣੇ ਸਮੂਹ ਵਿੱਚ ਨਵੀਂ ਸ਼੍ਰੇਣੀ ਜੋੜੀ ਜਾਂਦੀ ਹੈ।",
+          "notes": "ਬਹੁਤ ਮਿਲਦੇ-ਜੁਲਦੇ ਨਾਮਾਂ ਤੋਂ ਬਚੋ ਅਤੇ ਸਹੀ ਸਮੂਹ ਚੁਣੋ। ਸਿਰਫ਼ ਸ਼੍ਰੇਣੀ ਦਾ ਨਾਮ ਇਹ ਤੈਅ ਨਹੀਂ ਕਰਦਾ ਕਿ ਖਰਚਾ ਟੈਕਸ ਵਿੱਚ ਕਟੌਤੀਯੋਗ ਹੈ ਜਾਂ ਨਹੀਂ।"
+        },
+        "prs": {
+          "purpose": "فرم ایجاد دسته‌بندی جدید هزینه را در گروه انتخاب‌شده باز می‌کند.",
+          "when": "وقتی هیچ‌یک از دسته‌های موجود هزینه را به‌درستی توصیف نمی‌کند، استفاده کنید.",
+          "how": "Add New One را انتخاب کنید، نام روشنی برای دسته وارد کنید و اگر فرم پذیرفت آن را ذخیره کنید.",
+          "inputs": "نام روشنی برای دسته جدید وارد کنید و گروه دسته‌بندی درست را انتخاب کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و ذخیره، دسته جدید به گروه انتخاب‌شده اضافه می‌شود.",
+          "notes": "از نام‌های بسیار مشابه پرهیز کنید و گروه درست را انتخاب کنید. نام دسته به‌تنهایی قابل‌قبول‌بودن هزینه برای کسر مالیاتی را تعیین نمی‌کند."
+        },
+        "ps": {
+          "purpose": "په ټاکل شوې ډله کې د نوې لګښت کټګورۍ جوړولو فورمه پرانیزي.",
+          "when": "کله چې له موجودو کټګوریو څخه هېڅ یوه لګښت په سمه توګه نه بیانوي، دا وکاروئ.",
+          "how": "Add New One وټاکئ، د کټګورۍ روښانه نوم ولیکئ او که فورمه یې ومني خوندي یې کړئ.",
+          "inputs": "د نوې کټګورۍ روښانه نوم ولیکئ او د کټګورۍ سمه ډله وټاکئ.",
+          "result": "که ارزونه او خوندي کول بریالي شي، ټاکل شوې ډلې ته نوې کټګوري ورزیاتېږي.",
+          "notes": "له ډېر ورته نومونو ډډه وکړئ او سمه ډله وټاکئ. یوازې د کټګورۍ نوم نه ټاکي چې لګښت د مالیې له پلوه د منلو وړ دی که نه."
         }
       },
       "handler_or_behavior": "`openExpenseCategoryAddScreen(this.dataset.addGroup)`"
@@ -8281,7 +8497,7 @@
           "purpose": "Opens the receipt image attached to the relevant expense or record.",
           "when": "when checking supporting evidence for a recorded expense.",
           "how": "Select View receipt on the relevant record and inspect the enlarged image.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "Select the record with the attached receipt; no additional information is required.",
           "result": "The attached receipt image opens in a viewer.",
           "notes": "Check that the receipt belongs to this transaction and is readable. Viewing does not change the record."
         },
@@ -8289,9 +8505,81 @@
           "purpose": "تصویر رسید پیوست‌شده به هزینه یا سابقه مربوط را باز می‌کند.",
           "when": "برای بررسی مدرک پشتیبان هزینه ثبت‌شده از این گزینه استفاده کنید.",
           "how": "در سابقه موردنظر View receipt را انتخاب و تصویر بزرگ‌شده را بررسی کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "inputs": "سابقه‌ای را انتخاب کنید که رسید به آن پیوست شده است؛ اطلاعات اضافی لازم نیست.",
           "result": "تصویر رسید پیوست‌شده در نمایشگر باز می‌شود.",
           "notes": "بررسی کنید رسید متعلق به همین تراکنش و خوانا باشد. مشاهده تصویر، سابقه را تغییر نمی‌دهد."
+        },
+        "ar": {
+          "purpose": "يفتح صورة الإيصال المرفقة بالمصروف أو السجل المعني.",
+          "when": "عند التحقق من المستند المؤيد لمصروف مسجل.",
+          "how": "اختر View receipt في السجل المعني وافحص الصورة المكبرة.",
+          "inputs": "حدد السجل الذي يحتوي على الإيصال المرفق؛ لا يلزم إدخال بيانات إضافية.",
+          "result": "تُفتح صورة الإيصال المرفقة في عارض الصور.",
+          "notes": "تحقق من أن الإيصال يخص هذه المعاملة وأنه مقروء. عرض الصورة لا يغيّر السجل."
+        },
+        "ckb": {
+          "purpose": "وێنەی پسووڵەی هاوپێچکراو بە خەرجی یان تۆماری پەیوەندیدار دەکاتەوە.",
+          "when": "کاتێک بەڵگەی پشتگیری خەرجییەکی تۆمارکراو دەپشکنیت.",
+          "how": "لە تۆماری پەیوەندیدار View receipt هەڵبژێرە و وێنە گەورەکراوەکە بپشکنە.",
+          "inputs": "ئەو تۆمارە دیاری بکە کە پسووڵەی هاوپێچکراوی تێدایە؛ زانیارییەکی زیادە پێویست نییە.",
+          "result": "وێنەی پسووڵەی هاوپێچکراو لە بینەرێکدا دەکرێتەوە.",
+          "notes": "دڵنیابە پسووڵەکە بۆ هەمان مامەڵەیە و خوێندنەوەی ئاسانە. بینینی وێنە تۆمارەکە ناگۆڕێت."
+        },
+        "kmr": {
+          "purpose": "Wêneyê fatûreya pêvekirî ya bi lêçûn an tomara têkildar vedike.",
+          "when": "Dema ku tu delîla piştgir a lêçûneke tomarkirî kontrol dikî.",
+          "how": "Di tomara têkildar de View receipt hilbijêre û wêneyê mezinbûyî kontrol bike.",
+          "inputs": "Tomara ku fatûreya pêvekirî tê de ye hilbijêre; agahiyên din nehewce ne.",
+          "result": "Wêneyê fatûreya pêvekirî di dîtbarê de vedibe.",
+          "notes": "Piştrast bike ku fatûre ji bo heman danûstandinê ye û tê xwendin. Dîtina wêneyê tomarê naguherîne."
+        },
+        "tr": {
+          "purpose": "İlgili gider veya kayda eklenmiş makbuz görüntüsünü açar.",
+          "when": "Kaydedilmiş bir giderin destekleyici belgesini kontrol ederken kullanın.",
+          "how": "İlgili kayıtta View receipt'i seçin ve büyütülmüş görüntüyü inceleyin.",
+          "inputs": "Makbuz eki bulunan doğru kaydı seçin; ek bilgi girmeniz gerekmez.",
+          "result": "Ekli makbuz görüntüsü bir görüntüleyicide açılır.",
+          "notes": "Makbuzun bu işleme ait ve okunabilir olduğunu kontrol edin. Görüntülemek kaydı değiştirmez."
+        },
+        "pl": {
+          "purpose": "Otwiera obraz paragonu dołączonego do odpowiedniego wydatku lub rekordu.",
+          "when": "Użyj podczas sprawdzania dokumentu potwierdzającego zarejestrowany wydatek.",
+          "how": "Wybierz View receipt przy odpowiednim rekordzie i obejrzyj powiększony obraz.",
+          "inputs": "Wybierz rekord, do którego dołączono paragon; nie trzeba podawać dodatkowych danych.",
+          "result": "Dołączony obraz paragonu otwiera się w przeglądarce.",
+          "notes": "Sprawdź, czy paragon dotyczy tej transakcji i jest czytelny. Wyświetlenie obrazu nie zmienia rekordu."
+        },
+        "ur": {
+          "purpose": "متعلقہ خرچ یا ریکارڈ کے ساتھ منسلک رسید کی تصویر کھولتا ہے۔",
+          "when": "جب درج شدہ خرچ کے معاون ثبوت کی جانچ کرنی ہو تو استعمال کریں۔",
+          "how": "متعلقہ ریکارڈ پر View receipt منتخب کریں اور بڑی تصویر کا جائزہ لیں۔",
+          "inputs": "وہ ریکارڈ منتخب کریں جس کے ساتھ رسید منسلک ہے؛ اضافی معلومات درج کرنے کی ضرورت نہیں۔",
+          "result": "منسلک رسید کی تصویر ویوئر میں کھل جاتی ہے۔",
+          "notes": "تصدیق کریں کہ رسید اسی لین دین کی ہے اور پڑھنے کے قابل ہے۔ تصویر دیکھنے سے ریکارڈ تبدیل نہیں ہوتا۔"
+        },
+        "pa": {
+          "purpose": "ਸੰਬੰਧਿਤ ਖਰਚੇ ਜਾਂ ਰਿਕਾਰਡ ਨਾਲ ਜੁੜੀ ਰਸੀਦ ਦੀ ਤਸਵੀਰ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਦਰਜ ਕੀਤੇ ਖਰਚੇ ਦੇ ਸਹਾਇਕ ਸਬੂਤ ਦੀ ਜਾਂਚ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸੰਬੰਧਿਤ ਰਿਕਾਰਡ 'ਤੇ View receipt ਚੁਣੋ ਅਤੇ ਵੱਡੀ ਤਸਵੀਰ ਵੇਖੋ।",
+          "inputs": "ਉਹ ਰਿਕਾਰਡ ਚੁਣੋ ਜਿਸ ਨਾਲ ਰਸੀਦ ਜੁੜੀ ਹੋਈ ਹੈ; ਹੋਰ ਜਾਣਕਾਰੀ ਦੇਣ ਦੀ ਲੋੜ ਨਹੀਂ।",
+          "result": "ਜੁੜੀ ਹੋਈ ਰਸੀਦ ਦੀ ਤਸਵੀਰ ਵਿਊਅਰ ਵਿੱਚ ਖੁੱਲ੍ਹਦੀ ਹੈ।",
+          "notes": "ਜਾਂਚੋ ਕਿ ਰਸੀਦ ਇਸੇ ਲੈਣ-ਦੇਣ ਦੀ ਹੈ ਅਤੇ ਪੜ੍ਹਨਯੋਗ ਹੈ। ਤਸਵੀਰ ਵੇਖਣ ਨਾਲ ਰਿਕਾਰਡ ਨਹੀਂ ਬਦਲਦਾ।"
+        },
+        "prs": {
+          "purpose": "تصویر رسید پیوست‌شده به هزینه یا سابقه مربوط را باز می‌کند.",
+          "when": "وقتی مدرک پشتیبان هزینه ثبت‌شده را بررسی می‌کنید، استفاده کنید.",
+          "how": "در سابقه مربوط View receipt را انتخاب کنید و تصویر بزرگ‌شده را بررسی کنید.",
+          "inputs": "سابقه‌ای را انتخاب کنید که رسید به آن پیوست شده است؛ اطلاعات اضافی لازم نیست.",
+          "result": "تصویر رسید پیوست‌شده در نمایشگر باز می‌شود.",
+          "notes": "بررسی کنید رسید مربوط به همین تراکنش و خوانا باشد. مشاهده تصویر سابقه را تغییر نمی‌دهد."
+        },
+        "ps": {
+          "purpose": "د اړوند لګښت یا ریکارډ سره نښلول شوی د رسید انځور پرانیزي.",
+          "when": "کله چې د ثبت شوي لګښت ملاتړی سند ګورئ، دا وکاروئ.",
+          "how": "په اړوند ریکارډ کې View receipt وټاکئ او لوی شوی انځور وګورئ.",
+          "inputs": "هغه ریکارډ وټاکئ چې رسید ورسره نښلول شوی وي؛ اضافي معلوماتو ته اړتیا نشته.",
+          "result": "د رسید نښلول شوی انځور په لیدونکي کې پرانیستل کېږي.",
+          "notes": "وګورئ چې رسید د همدې معاملې دی او لوستل کېدای شي. د انځور لیدل ریکارډ نه بدلوي."
         }
       },
       "handler_or_behavior": "`openReceiptImage(document.getElementById(`"
@@ -8307,7 +8595,7 @@
           "purpose": "Opens the receipt image associated with the selected record.",
           "when": "when a paperclip/receipt icon appears beside a transaction and you need to inspect its attachment.",
           "how": "Select the paperclip icon and review the displayed image.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "Select the correct transaction that displays the attachment icon.",
           "result": "The linked receipt image is displayed if an attachment exists.",
           "notes": "The icon is a view action only. It does not upload, replace or remove the attachment."
         },
@@ -8315,9 +8603,81 @@
           "purpose": "تصویر رسید مرتبط با سابقه انتخاب‌شده را باز می‌کند.",
           "when": "وقتی نماد گیره/رسید کنار تراکنش دیده می‌شود و می‌خواهید پیوست آن را بررسی کنید، از این گزینه استفاده کنید.",
           "how": "نماد گیره را انتخاب و تصویر نمایش‌داده‌شده را بررسی کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "inputs": "تراکنش درست را که نماد پیوست کنار آن دیده می‌شود انتخاب کنید.",
           "result": "اگر پیوستی وجود داشته باشد، تصویر رسید مرتبط نمایش داده می‌شود.",
           "notes": "این نماد فقط برای مشاهده است و پیوست را بارگذاری، جایگزین یا حذف نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يفتح صورة الإيصال المرتبطة بالسجل المحدد.",
+          "when": "عندما يظهر رمز مشبك الورق أو الإيصال بجانب معاملة وتحتاج إلى فحص المرفق.",
+          "how": "اختر رمز مشبك الورق وراجع الصورة المعروضة.",
+          "inputs": "حدد المعاملة الصحيحة التي يظهر بجانبها رمز المرفق.",
+          "result": "تظهر صورة الإيصال المرتبطة إذا كان هناك مرفق.",
+          "notes": "هذا الرمز للعرض فقط؛ ولا يرفع المرفق أو يستبدله أو يحذفه."
+        },
+        "ckb": {
+          "purpose": "وێنەی پسووڵەی پەیوەست بە تۆماری هەڵبژێردراو دەکاتەوە.",
+          "when": "کاتێک نیشانی گیره‌کاغەز/پسووڵە لە تەنیشت مامەڵەیەک دەردەکەوێت و دەتەوێت هاوپێچەکە بپشکنیت.",
+          "how": "نیشانی گیره‌کاغەز هەڵبژێرە و وێنەی پیشاندراو بپشکنە.",
+          "inputs": "ئەو مامەڵە دروستە دیاری بکە کە نیشانی هاوپێچ لە تەنیشتییەوە دەردەکەوێت.",
+          "result": "ئەگەر هاوپێچێک هەبێت، وێنەی پسووڵەی پەیوەست پیشان دەدرێت.",
+          "notes": "ئەم نیشانە تەنها بۆ بینینە؛ هاوپێچ بارناکات، ناگۆڕێت و ناسڕێتەوە."
+        },
+        "kmr": {
+          "purpose": "Wêneyê fatûreya girêdayî bi tomara hilbijartî vedike.",
+          "when": "Dema ku nîşana kaxezgirê/fatûreyê li kêleka danûstandinekê xuya dibe û tu dixwazî pêveka wê kontrol bikî.",
+          "how": "Nîşana kaxezgirê hilbijêre û wêneyê xuya dibe kontrol bike.",
+          "inputs": "Danûstandina rast hilbijêre ku nîşana pêvekê li kêleka wê ye.",
+          "result": "Ger pêvek hebe, wêneyê fatûreya girêdayî xuya dibe.",
+          "notes": "Ev nîşan tenê ji bo dîtinê ye; pêvekê bar nake, naguherîne û jê nake."
+        },
+        "tr": {
+          "purpose": "Seçilen kayıtla ilişkili makbuz görüntüsünü açar.",
+          "when": "Bir işlemin yanında ataş/makbuz simgesi göründüğünde ve eki incelemek istediğinizde kullanın.",
+          "how": "Ataş simgesini seçin ve görüntülenen resmi inceleyin.",
+          "inputs": "Ek simgesinin yanında bulunduğu doğru işlemi seçin.",
+          "result": "Ek varsa bağlantılı makbuz görüntülenir.",
+          "notes": "Bu simge yalnızca görüntüleme içindir; eki yüklemez, değiştirmez veya silmez."
+        },
+        "pl": {
+          "purpose": "Otwiera obraz paragonu powiązanego z wybranym rekordem.",
+          "when": "Użyj, gdy obok transakcji widoczna jest ikona spinacza/paragonu i chcesz sprawdzić załącznik.",
+          "how": "Wybierz ikonę spinacza i obejrzyj wyświetlony obraz.",
+          "inputs": "Wybierz właściwą transakcję, przy której widoczna jest ikona załącznika.",
+          "result": "Jeśli załącznik istnieje, wyświetlany jest powiązany obraz paragonu.",
+          "notes": "Ta ikona służy wyłącznie do podglądu; nie przesyła, nie zastępuje ani nie usuwa załącznika."
+        },
+        "ur": {
+          "purpose": "منتخب ریکارڈ سے منسلک رسید کی تصویر کھولتا ہے۔",
+          "when": "جب کسی لین دین کے ساتھ پیپرکلپ/رسید کا نشان نظر آئے اور اس کا منسلک ثبوت دیکھنا ہو تو استعمال کریں۔",
+          "how": "پیپرکلپ کے نشان کو منتخب کریں اور دکھائی گئی تصویر دیکھیں۔",
+          "inputs": "درست لین دین منتخب کریں جس کے ساتھ منسلکہ کا نشان موجود ہے۔",
+          "result": "اگر منسلکہ موجود ہو تو متعلقہ رسید کی تصویر دکھائی دیتی ہے۔",
+          "notes": "یہ نشان صرف دیکھنے کے لیے ہے؛ یہ منسلکہ اپ لوڈ، تبدیل یا حذف نہیں کرتا۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੇ ਰਿਕਾਰਡ ਨਾਲ ਜੁੜੀ ਰਸੀਦ ਦੀ ਤਸਵੀਰ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਲੈਣ-ਦੇਣ ਦੇ ਨਾਲ ਪੇਪਰਕਲਿੱਪ/ਰਸੀਦ ਦਾ ਨਿਸ਼ਾਨ ਦਿਖੇ ਅਤੇ ਉਸਦਾ ਅਟੈਚਮੈਂਟ ਵੇਖਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਪੇਪਰਕਲਿੱਪ ਨਿਸ਼ਾਨ ਚੁਣੋ ਅਤੇ ਦਿਖਾਈ ਗਈ ਤਸਵੀਰ ਵੇਖੋ।",
+          "inputs": "ਉਹ ਸਹੀ ਲੈਣ-ਦੇਣ ਚੁਣੋ ਜਿਸਦੇ ਨਾਲ ਅਟੈਚਮੈਂਟ ਦਾ ਨਿਸ਼ਾਨ ਹੈ।",
+          "result": "ਜੇ ਅਟੈਚਮੈਂਟ ਮੌਜੂਦ ਹੋਵੇ ਤਾਂ ਜੁੜੀ ਰਸੀਦ ਦੀ ਤਸਵੀਰ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ।",
+          "notes": "ਇਹ ਨਿਸ਼ਾਨ ਸਿਰਫ਼ ਵੇਖਣ ਲਈ ਹੈ; ਇਹ ਅਟੈਚਮੈਂਟ ਅੱਪਲੋਡ, ਬਦਲ ਜਾਂ ਹਟਾਉਂਦਾ ਨਹੀਂ।"
+        },
+        "prs": {
+          "purpose": "تصویر رسید مرتبط با سابقه انتخاب‌شده را باز می‌کند.",
+          "when": "وقتی نماد گیره/رسید کنار یک تراکنش دیده می‌شود و می‌خواهید پیوست آن را بررسی کنید، استفاده کنید.",
+          "how": "نماد گیره را انتخاب کنید و تصویر نمایش‌داده‌شده را بررسی کنید.",
+          "inputs": "تراکنش درست را که نماد پیوست کنار آن دیده می‌شود انتخاب کنید.",
+          "result": "اگر پیوستی وجود داشته باشد، تصویر رسید مرتبط نمایش داده می‌شود.",
+          "notes": "این نماد فقط برای مشاهده است؛ پیوست را بارگذاری، جایگزین یا حذف نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د ټاکل شوي ریکارډ سره تړلی د رسید انځور پرانیزي.",
+          "when": "کله چې د معاملې تر څنګ د کاغذ نیوونکي/رسید نښه ښکاره شي او ضمیمه یې کتل غواړئ، دا وکاروئ.",
+          "how": "د کاغذ نیوونکي نښه وټاکئ او ښکاره شوی انځور وګورئ.",
+          "inputs": "سمه معامله وټاکئ چې د ضمیمې نښه یې تر څنګ ښکاري.",
+          "result": "که ضمیمه موجوده وي، د تړلي رسید انځور ښکاره کېږي.",
+          "notes": "دا نښه یوازې د لیدلو لپاره ده؛ ضمیمه نه پورته کوي، نه یې بدلوي او نه یې ړنګوي."
         }
       },
       "handler_or_behavior": "`openReceiptImage(this.dataset.receipt)`"
