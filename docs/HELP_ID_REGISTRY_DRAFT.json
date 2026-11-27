@@ -6528,20 +6528,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Clears the current contractor form.",
-          "when": "When discarding unsaved contractor details or starting a new contractor entry.",
-          "how": "Select Clear and confirm the contractor fields have been emptied.",
-          "inputs": "No input is required. The control clears the unsaved contractor name, phone, email and trade/notes fields.",
-          "result": "The current contractor form is reset.",
-          "notes": "Only the form is cleared; saved contractor records remain in the directory."
+          "purpose": "Resets the contractor form by clearing its ID, name, phone, email and notes/trade fields.",
+          "when": "Use this when discarding unsaved contractor details or preparing to enter a different contractor.",
+          "how": "In the Contractors form, select Clear. The fields are emptied and the form title returns to Add Contractor / Subcontractor.",
+          "inputs": "No input is required.",
+          "result": "The current contractor form is reset. No saved contractor record is changed or deleted.",
+          "notes": "Any unsaved form entries are discarded. Existing contractor records remain in the shared directory, and existing project expense records are not changed."
         },
         "fa": {
-          "purpose": "فرم پیمانکار فعلی را پاک می‌کند.",
-          "when": "وقتی می‌خواهید اطلاعات ذخیره‌نشده پیمانکار را کنار بگذارید یا پیمانکار جدیدی وارد کنید.",
-          "how": "Clear را انتخاب کنید و خالی‌شدن فیلدهای پیمانکار را بررسی کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "فرم پیمانکار فعلی بازنشانی می‌شود.",
-          "notes": "فقط فرم پاک می‌شود؛ سوابق پیمانکاران ذخیره‌شده در فهرست باقی می‌مانند."
+          "purpose": "فرم پیمانکار را با پاک‌کردن فیلدهای شناسه، نام، تلفن، ایمیل و یادداشت/تخصص بازنشانی می‌کند.",
+          "when": "وقتی می‌خواهید اطلاعات ذخیره‌نشده پیمانکار را کنار بگذارید یا برای واردکردن پیمانکار دیگری آماده شوید، از این گزینه استفاده کنید.",
+          "how": "در فرم Contractors گزینه Clear را انتخاب کنید. فیلدها خالی می‌شوند و عنوان فرم به Add Contractor / Subcontractor بازمی‌گردد.",
+          "inputs": "ورودی لازم نیست.",
+          "result": "فرم پیمانکار فعلی بازنشانی می‌شود. هیچ سابقه پیمانکار ذخیره‌شده‌ای تغییر نمی‌کند یا حذف نمی‌شود.",
+          "notes": "اطلاعات ذخیره‌نشده فرم کنار گذاشته می‌شوند. سوابق موجود پیمانکار در فهرست مشترک باقی می‌مانند و سوابق هزینه پروژه تغییری نمی‌کنند."
         }
       },
       "handler_or_behavior": "`prResetContractor()`"
@@ -6554,20 +6554,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Saves a worker record in the shared worker directory.",
-          "when": "After entering or editing a worker’s name and optional contact information.",
-          "how": "Enter the required worker name, add optional phone and notes, then select Save Worker.",
-          "inputs": "A worker name is required. Phone number and notes are optional; the existing worker ID is used when editing.",
-          "result": "The worker record is saved if the operation succeeds.",
-          "notes": "Use a consistent worker record for project wage entries. Check for duplicates before saving."
+          "purpose": "Creates or updates a worker record in the shared Workers directory.",
+          "when": "Use this after entering a new worker's details or changing an existing worker's information.",
+          "how": "In Control Panel → Workers, enter the worker's name and any optional phone number or notes. Select Save Worker and wait for the IndexedDB save to complete.",
+          "inputs": "Worker name is required. Phone and notes are optional. When editing an existing worker, the saved worker ID identifies the record to update.",
+          "result": "If the name validation and IndexedDB persistence succeed, the worker record is saved or updated, the form is reset and the Workers list is refreshed.",
+          "notes": "Use the same saved worker record when recording wages across projects. Check for an existing worker before creating another record. The worker record itself does not create a wage entry."
         },
         "fa": {
-          "purpose": "سابقه کارگر را در فهرست مشترک کارگران ذخیره می‌کند.",
-          "when": "پس از واردکردن یا ویرایش نام کارگر و اطلاعات تماس اختیاری از این گزینه استفاده کنید.",
-          "how": "نام اجباری کارگر را وارد کنید، تلفن و یادداشت اختیاری را اضافه و Save Worker را انتخاب کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "در صورت موفقیت عملیات، سابقه کارگر ذخیره می‌شود.",
-          "notes": "برای ثبت دستمزد پروژه از سابقه ثابت همان کارگر استفاده کنید. پیش از ذخیره، وجود سابقه تکراری را بررسی کنید."
+          "purpose": "یک سابقه کارگر را در فهرست مشترک Workers ایجاد یا به‌روزرسانی می‌کند.",
+          "when": "پس از واردکردن مشخصات کارگر جدید یا تغییر اطلاعات کارگر موجود از این گزینه استفاده کنید.",
+          "how": "در Control Panel → Workers، نام کارگر و در صورت نیاز شماره تلفن یا یادداشت را وارد کنید. Save Worker را انتخاب کنید و منتظر تکمیل ذخیره در IndexedDB بمانید.",
+          "inputs": "نام کارگر الزامی است. تلفن و یادداشت‌ها اختیاری هستند. هنگام ویرایش کارگر موجود، شناسه ذخیره‌شده کارگر مشخص می‌کند کدام سابقه به‌روزرسانی شود.",
+          "result": "اگر اعتبارسنجی نام و ذخیره در IndexedDB موفق باشد، سابقه کارگر ذخیره یا به‌روزرسانی می‌شود، فرم بازنشانی و فهرست Workers تازه‌سازی می‌شود.",
+          "notes": "برای ثبت دستمزد در پروژه‌های مختلف از همان سابقه ذخیره‌شده کارگر استفاده کنید. پیش از ایجاد سابقه جدید، وجود کارگر قبلی را بررسی کنید. خود سابقه کارگر به‌تنهایی رکورد دستمزد ایجاد نمی‌کند."
         }
       },
       "handler_or_behavior": "`prSavePerson(`"
@@ -6580,20 +6580,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Clears the current worker form fields.",
-          "when": "When discarding unsaved worker details or entering a different worker.",
-          "how": "Select Clear and verify the worker fields are empty.",
-          "inputs": "No input is required. The control clears the unsaved worker name, phone and notes fields.",
-          "result": "The current worker form is reset.",
-          "notes": "This does not delete a saved worker or remove wage history."
+          "purpose": "Resets the current Worker form by clearing its ID, name, phone and notes fields.",
+          "when": "Use this when discarding unsaved worker details or preparing to enter a different worker.",
+          "how": "In the Workers form, select Clear. The fields are emptied and the form title returns to Add Worker.",
+          "inputs": "No input is required.",
+          "result": "The current worker form is reset. No saved worker record is changed or deleted.",
+          "notes": "Any unsaved form entries are discarded. This action does not delete a saved worker or remove existing wage records that refer to that worker."
         },
         "fa": {
-          "purpose": "فیلدهای فرم کارگر فعلی را پاک می‌کند.",
-          "when": "وقتی می‌خواهید اطلاعات ذخیره‌نشده کارگر را کنار بگذارید یا کارگر دیگری وارد کنید.",
-          "how": "Clear را انتخاب کنید و خالی‌شدن فیلدهای کارگر را بررسی کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "فرم کارگر فعلی بازنشانی می‌شود.",
-          "notes": "این گزینه کارگر ذخیره‌شده یا سوابق دستمزد او را حذف نمی‌کند."
+          "purpose": "فرم Worker فعلی را با پاک‌کردن فیلدهای شناسه، نام، تلفن و یادداشت بازنشانی می‌کند.",
+          "when": "وقتی می‌خواهید اطلاعات ذخیره‌نشده کارگر را کنار بگذارید یا برای واردکردن کارگر دیگری آماده شوید، از این گزینه استفاده کنید.",
+          "how": "در فرم Workers گزینه Clear را انتخاب کنید. فیلدها خالی می‌شوند و عنوان فرم به Add Worker بازمی‌گردد.",
+          "inputs": "ورودی لازم نیست.",
+          "result": "فرم کارگر فعلی بازنشانی می‌شود. هیچ سابقه کارگر ذخیره‌شده‌ای تغییر نمی‌کند یا حذف نمی‌شود.",
+          "notes": "اطلاعات ذخیره‌نشده فرم کنار گذاشته می‌شوند. این عملیات کارگر ذخیره‌شده را حذف نمی‌کند و سوابق دستمزدی را که به او ارجاع می‌دهند نیز پاک نمی‌کند."
         }
       },
       "handler_or_behavior": "`prResetPerson(`"
@@ -6606,20 +6606,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the shared list of business partners.",
-          "when": "When reviewing or maintaining partner records used in project profit sharing.",
-          "how": "Open Control Panel and choose Partners.",
-          "inputs": "No input is required to open the Partners directory. Adding or editing a partner requires a name; contact details and notes are optional.",
-          "result": "The partners directory and its available actions are displayed.",
-          "notes": "Partner records may affect project share calculations; update them carefully and retain agreed share terms separately."
+          "purpose": "Opens the Partners directory from the Business Workspace Control Panel.",
+          "when": "Use this when reviewing, adding or editing shared partner records used in project profit-sharing arrangements.",
+          "how": "Open Business Workspace, select Control Panel, then select Partners. The Partners page provides the partner form and saved Partners List.",
+          "inputs": "No input is required to open the directory. To add or edit a partner, a name is required; phone, email and notes are optional.",
+          "result": "The Partners page opens with the Add/Edit Partner form and the saved Partners List.",
+          "notes": "Partner records can be selected in project profit-sharing forms. The directory's Delete action removes a partner record after confirmation, so check whether projects still refer to it before deleting. Existing project share agreements should be retained separately."
         },
         "fa": {
-          "purpose": "فهرست مشترک شرکای کسب‌وکار را باز می‌کند.",
-          "when": "برای بررسی یا نگهداری سوابق شرکایی که در تقسیم سود پروژه استفاده می‌شوند از این گزینه استفاده کنید.",
-          "how": "Control Panel را باز کنید و Partners را انتخاب کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "فهرست شرکا و عملیات موجود نمایش داده می‌شود.",
-          "notes": "سوابق شریک ممکن است بر محاسبات سهم پروژه اثر بگذارند؛ آن‌ها را با دقت ویرایش کنید و شرایط توافق‌شده سهم را جداگانه نگه دارید."
+          "purpose": "فهرست Partners را از Control Panel در Business Workspace باز می‌کند.",
+          "when": "برای بررسی، افزودن یا ویرایش سوابق مشترک شرکا که در توافق‌های تقسیم سود پروژه استفاده می‌شوند، از این گزینه استفاده کنید.",
+          "how": "Business Workspace را باز کنید، Control Panel و سپس Partners را انتخاب کنید. صفحه Partners فرم شریک و فهرست ذخیره‌شده شرکا را ارائه می‌کند.",
+          "inputs": "برای بازکردن فهرست ورودی لازم نیست. برای افزودن یا ویرایش شریک، نام الزامی است؛ تلفن، ایمیل و یادداشت‌ها اختیاری هستند.",
+          "result": "صفحه Partners همراه با فرم افزودن/ویرایش شریک و فهرست ذخیره‌شده Partners باز می‌شود.",
+          "notes": "سوابق شریک را می‌توان در فرم‌های تقسیم سود پروژه انتخاب کرد. گزینه Delete در این فهرست پس از تأیید، سابقه شریک را حذف می‌کند؛ پیش از حذف بررسی کنید که پروژه‌ها هنوز به آن ارجاع ندهند. توافق‌های قبلی تقسیم سهم پروژه را جداگانه نگهداری کنید."
         }
       },
       "handler_or_behavior": "`prPage(`"
@@ -6632,20 +6632,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the shared list of workers available for project wage records.",
-          "when": "When maintaining worker details or selecting a worker for a project.",
-          "how": "Open Control Panel and choose Workers.",
-          "inputs": "No input is required to open the Workers directory. Adding or editing a worker requires a name; phone and notes are optional.",
-          "result": "The workers directory and its available actions are displayed.",
-          "notes": "A worker may be referenced by multiple projects. Deactivation or editing can affect future selection; retain historical wage records."
+          "purpose": "Opens the Workers directory from the Business Workspace Control Panel.",
+          "when": "Use this when reviewing, adding or editing shared worker records used for project wage entries.",
+          "how": "Open Business Workspace, select Control Panel, then select Workers. The Workers page provides the worker form and saved Workers List.",
+          "inputs": "No input is required to open the directory. To add or edit a worker, a name is required; phone and notes are optional.",
+          "result": "The Workers page opens with the Add/Edit Worker form and the saved Workers List.",
+          "notes": "Saved workers can be selected when recording project wages. The directory's Delete action removes a worker after confirmation, and existing project records may still refer to that worker. Check wage history and project references before deleting."
         },
         "fa": {
-          "purpose": "فهرست مشترک کارگران قابل استفاده در سوابق دستمزد پروژه را باز می‌کند.",
-          "when": "برای نگهداری مشخصات کارگران یا انتخاب کارگر برای یک پروژه از این گزینه استفاده کنید.",
-          "how": "Control Panel را باز کنید و Workers را انتخاب کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "فهرست کارگران و عملیات موجود نمایش داده می‌شود.",
-          "notes": "یک کارگر ممکن است در چند پروژه ارجاع داده شده باشد. غیرفعال‌سازی یا ویرایش می‌تواند انتخاب‌های آینده را تغییر دهد؛ سوابق دستمزد گذشته را نگه دارید."
+          "purpose": "فهرست Workers را از Control Panel در Business Workspace باز می‌کند.",
+          "when": "برای بررسی، افزودن یا ویرایش سوابق مشترک کارگرانی که در ثبت دستمزد پروژه استفاده می‌شوند، از این گزینه استفاده کنید.",
+          "how": "Business Workspace را باز کنید، Control Panel و سپس Workers را انتخاب کنید. صفحه Workers فرم کارگر و فهرست ذخیره‌شده کارگران را ارائه می‌کند.",
+          "inputs": "برای بازکردن فهرست ورودی لازم نیست. برای افزودن یا ویرایش کارگر، نام الزامی است؛ تلفن و یادداشت‌ها اختیاری هستند.",
+          "result": "صفحه Workers همراه با فرم افزودن/ویرایش کارگر و فهرست ذخیره‌شده Workers باز می‌شود.",
+          "notes": "کارگران ذخیره‌شده را می‌توان هنگام ثبت دستمزد پروژه انتخاب کرد. گزینه Delete در فهرست پس از تأیید کارگر را حذف می‌کند و ممکن است سوابق پروژه همچنان به او ارجاع داشته باشند. پیش از حذف، تاریخچه دستمزد و ارجاعات پروژه را بررسی کنید."
         }
       },
       "handler_or_behavior": "`prPage(`"
