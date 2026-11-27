@@ -8661,7 +8661,7 @@
       "audit_ref": "INV-106",
       "element_id": "prDetailProfitReportButton",
       "label": "📊 Report",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the financial report for the currently selected project.",
@@ -8759,7 +8759,7 @@
       "audit_ref": "INV-107",
       "element_id": null,
       "label": "Summary",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Displays the Summary tab for the currently selected project.",
@@ -8857,7 +8857,7 @@
       "audit_ref": "INV-108",
       "element_id": null,
       "label": "Income",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Displays customer income records for the selected project and provides the form for recording a new receipt.",
@@ -8955,7 +8955,7 @@
       "audit_ref": "INV-109",
       "element_id": null,
       "label": "Expenses",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Displays the selected project's expense records and provides a form for recording project expenses.",
