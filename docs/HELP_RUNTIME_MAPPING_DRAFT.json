@@ -5,11 +5,11 @@
   "branch": "development",
   "baseline": {
     "runtime_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
-    "runtime_blob_sha": "abaad94994a6aeced23e26b6ea5724c989e8b188",
+    "runtime_blob_sha": "80cad641f7e12cba8f6dd6ff81930fdfd4acfd3c",
     "registry_blob_sha": "f63754128fd09125290df4045f6f4b6fc03b3545",
     "inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
     "help_content_blob_sha": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
-    "help_runtime_blob_sha": "00788b1a55887e2edf4b5b44f81d39a5bf36e3f3"
+    "help_runtime_blob_sha": "359acd0b24234a4b6ed94627c93daa396ff7dc94"
   },
   "policy": {
     "label_only_matching": false,
@@ -30,15 +30,16 @@
       "SEPARATE_DOCUMENT_SCOPE": 7,
       "DYNAMIC_TEMPLATE_CANDIDATE": 2,
       "ID_CANDIDATE_REQUIRES_BROWSER_TEST": 4,
-      "EXEMPT_NOT_MAPPED": 1
+      "EXEMPT_NOT_MAPPED": 1,
+      "ADJACENT_HELP_BUTTON_ATTACHED_R53_NOT_BROWSER_VERIFIED": 1
     },
-    "notes": "R52 has 37 mapped adjacent Help controls: 14 scoped navigation/report selectors, 13 exact unique-ID selectors, five scoped unique-handler selectors and five dynamic-template attributes. All 37 IDs have approved content. Hidden-state synchronization and the fail-closed 32-row static binding guard are enabled. Simulated DOM PASS; real browser test and deployment remain pending.",
+    "notes": "R53 has 38 mapped adjacent Help controls: 15 scoped navigation/report/form selectors, 13 exact unique-ID selectors, five scoped unique-handler selectors and five dynamic-template attributes. The R53 Support Message action saves a local-only draft; it does not send online. Hidden-state synchronization and the fail-closed 33-row static binding guard are enabled. Simulated DOM and R52 checks are documented; R53 live browser test and deployment remain pending.",
     "runtime_publishable_entries": 132,
     "runtime_languages": 11,
-    "static_controls_attached": 32,
+    "static_controls_attached": 33,
     "draft_static_controls_skipped": 2,
     "dynamic_template_controls_pending": 10,
-    "help_ids_attached": 37,
+    "help_ids_attached": 38,
     "browser_tests_run": 0,
     "dynamic_template_controls_attached": 5,
     "draft_controls_skipped": 12,
@@ -1016,16 +1017,16 @@
     {
       "help_id": "THA-HLP-0070",
       "audit_ref": "INV-086",
-      "element_id": null,
+      "element_id": "helpContactForm",
       "visible_label": "Save Support Message",
       "handler": "event/property listener (no inline onclick; wiring not resolved statically)",
       "handler_name": null,
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#helpContactForm > .pr-actions > button[type=\"submit\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "NEEDS_SELECTOR",
-      "rationale": "No unique, statically verified element selector is available; matching by visible label alone is prohibited."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R53_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact form-scoped selector targets the single submit control inside #helpContactForm. Source confirms submitHelpContact(event) saves a local IndexedDB draft only; it does not send the message. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0071",
