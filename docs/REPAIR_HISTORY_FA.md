@@ -661,7 +661,7 @@
 - **روش اتصال:** New Invoice در `#invoiceListArea` و پنج گزینه Reports & Tax در `#report188Menu` با selector دقیق و `onclick` literal متصل شدند. هر گزینه با مقدار پارامتر خودش از سایر مقصدها تفکیک شده است.
 - **محتوا / مرزبندی:** هر شش شناسه CONTENT_COMPLETE هستند. راهنمای Tax Calendar به‌معنای ثبت/پرداخت مالیات نیست؛ Reports & Tax نیز اظهارنامه را خودکار به HMRC ارسال نمی‌کند. تنظیمات Accountant email فقط تنظیم گیرنده و وضعیت اتصال را توضیح می‌دهد و ادعای ارسال ایمیل نمی‌کند.
 - **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R56`.
-- **اتصال‌ها پس از R56:** ۵۶ کنترل؛ ۵۱ ایستا و ۵ پویا. ۳۹ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
+- **اتصال‌ها پس از R56:** ۵۶ کنترل؛ ۵۱ ایستا و ۵ پویا. ۳۳ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
 - **تست ایستا:** هر شش selector در Runtime allowlist ثبت شده‌اند؛ escaping رشته‌های CSS در JavaScript اصلاح و بازبینی شد. **Version Authority Gate:** PASS؛ run `46070014067` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070014067؛ هویت Build R56، canonical URL، SHA فایل index و تمام ۲۴ فایل pinشده تأیید شدند.
 - **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ بازشدن راهنمای هر گزینه، حفظ مقصد navigation، انتخاب زبان و چیدمان موبایل باید در Preview بررسی شوند.
 - **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
@@ -675,7 +675,7 @@
 - **روش اتصال:** selectorهای صریح و محدوده‌دار در صفحات `#prPage-new`، `#prPage-detail`، `#prPage-partners`، `#prPage-contractors` و `#prPage-workers`؛ handler دقیق هر دکمه در selector ثبت شده است.
 - **محتوا / ریسک:** هر هفت شناسه CONTENT_COMPLETE هستند. Delete Project عملیاتی مخرب است؛ راهنما باید ماهیت حذف را توضیح دهد و کلیک روی «?» نباید handler حذف را اجرا کند. در این تغییر هیچ عملیات حذف یا ذخیره واقعی اجرا نشده است.
 - **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R57`.
-- **اتصال‌ها پس از R57:** ۶۳ کنترل؛ ۵۸ ایستا و ۵ پویا. ۴۶ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
+- **اتصال‌ها پس از R57:** ۶۳ کنترل؛ ۵۸ ایستا و ۵ پویا. ۴۰ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
 - **تست ایستا:** هفت selector به parent و handler literal مشخص محدود شدند؛ رشته‌های دارای پارامتر partner/worker با escaping معتبر در JavaScript ثبت شدند. **Version Authority Gate:** PASS؛ run `46070243576` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070243576؛ هویت Build R57، canonical URL، SHA فایل index و تمام ۲۴ فایل pinشده تأیید شدند.
 - **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ نمایش راهنما، عدم اجرای ناخواسته Delete/Save هنگام لمس «?» و چیدمان موبایل باید در Preview بررسی شوند.
 - **انتشار / داده:** هیچ Preview deploy، Merge، حذف پروژه، تغییر داده یا Production change انجام نشده است.
@@ -690,7 +690,7 @@
 - **مرزبندی مالی حیاتی:** Company Contracts & Jobs هزینه‌ها و دریافتی‌های پروژه را در فضای داده مستقل خود نگه می‌دارد؛ این مبالغ به Accounting منتقل، لینک یا تجمیع نمی‌شوند. `Confirm payment` در پنجره فاکتور Accounting مسیر جداگانه‌ای دارد. این اتصال‌ها هیچ مرز داده یا منطق مالی را تغییر نمی‌دهند.
 - **محتوا:** هر ۱۱ شناسه CONTENT_COMPLETE هستند. همه کنترل‌ها از قبل در سورس وجود داشتند؛ فقط اتصال راهنمای زمینه‌ای اضافه شد.
 - **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R58`.
-- **اتصال‌ها پس از R58:** ۷۴ کنترل؛ ۶۹ ایستا و پنج پویا. ۵۷ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
+- **اتصال‌ها پس از R58:** ۷۴ کنترل؛ ۶۹ ایستا و پنج پویا. ۵۱ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
 - **تست ایستا:** یکتایی handler attributeها و محدوده parentها از روی سورس بررسی شد؛ رشته‌های CSS دارای پارامترهای `add/list/company-profit` با escaping معتبر ثبت شدند. **Version Authority Gate:** PASS؛ run `46070444164` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070444164؛ هویت Build R58، canonical URL، SHA فایل index و تمام ۲۴ فایل pinشده تأیید شدند.
 - **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ باید راهنمای هر کنترل، جدایی Company Contracts از Accounting، ثبت پرداخت در مقصد درست، عدم اجرای ناخواسته handler هنگام لمس «?» و چیدمان موبایل بررسی شوند.
 - **انتشار / داده:** هیچ Preview deploy، Merge، ثبت هزینه/پرداخت، تغییر داده یا Production change انجام نشده است.
@@ -704,10 +704,24 @@
 - **روش اتصال:** سه کنترل قرارداد به `#contractsWorkspace` و `#ctFormCard`؛ دو کنترل پروفایل به `#profileGuide`؛ و Clear Form به فرم `#helpContactForm` محدود شدند. هر selector handler دقیق خود را دارد.
 - **محتوا / مرزبندی:** هر شش شناسه CONTENT_COMPLETE هستند. Save Contract، Preview/Print/PDF و Save Profile مسیرهای جداگانه دارند؛ Remove Logo فقط لوگوی پروفایل را حذف می‌کند. Clear Support Form فقط فرم را خالی می‌کند و پیام ذخیره‌شده قبلی را به‌عنوان ارسال‌شده تلقی نمی‌کند.
 - **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R59`.
-- **اتصال‌ها پس از R59:** ۸۰ کنترل؛ ۷۵ ایستا و پنج پویا. ۶۳ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
+- **اتصال‌ها پس از R59:** ۸۰ کنترل؛ ۷۵ ایستا و پنج پویا. ۵۷ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
 - **تست ایستا:** هر شش selector به فرم/صفحه صحیح محدود شدند؛ هیچ منطق ذخیره قرارداد، تولید PDF، پروفایل یا پیام پشتیبانی تغییر نکرد. **Version Authority Gate:** PASS؛ run `46070618031` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070618031؛ هویت Build R59، canonical URL، SHA فایل index و تمام ۲۴ فایل pinشده تأیید شدند.
 - **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ راهنمای هر دکمه، عملکرد اصلی، انتخاب زبان و چیدمان موبایل باید در Preview بررسی شوند.
 - **انتشار / داده:** هیچ Preview deploy، ذخیره قرارداد، حذف لوگو، ارسال پیام، تغییر داده یا Production change انجام نشده است.
+
+
+#### بازنگری R60 — اتصال منوی اصلی و صفحه Accountancy
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- **شناسه‌های متصل‌شده:** THA-HLP-0001 تا THA-HLP-0004 (چهار مقصد Main Menu: Accountancy، Business Workspace، Contract Management و Settings) و THA-HLP-0009 تا THA-HLP-0014 (شش مقصد صفحه اصلی Accountancy: Dashboard، Add Entry، Records، Invoices، Customers و Reports & Tax).
+- **روش اتصال:** چهار دکمه منوی اصلی با selector محدوده‌دار `#appLauncher .launcher-actions` و شش کارت Accountancy با selector محدوده‌دار `#accountancyHome .accountancy-home-grid` و مقدار دقیق handler متصل شدند.
+- **محتوا:** هر ده شناسه CONTENT_COMPLETE هستند. این تغییر فقط راهنمای مقصدهای navigation را اضافه می‌کند و مسیر navigation اصلی را تغییر نمی‌دهد.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R60`.
+- **اتصال‌ها پس از R60:** ۹۰ کنترل؛ ۸۵ ایستا و پنج پویا. ۶۷ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
+- **تست ایستا:** ده selector در parent صحیح ثبت شدند؛ handlerها با مقصد دقیقشان تطبیق داده شدند. Version Authority Gate برای R60 باید اجرا شود.
+- **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ بازشدن مقصد صحیح، نمایش راهنمای مربوط، انتخاب زبان و چیدمان موبایل باید در Preview بررسی شوند.
+- **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
 
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
