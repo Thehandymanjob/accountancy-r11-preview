@@ -16723,7 +16723,7 @@
           "how": "Select ‹ Previous in the monitoring pagination controls when it is enabled.",
           "inputs": "No input is required. The current page must be later than page 1.",
           "result": "The previous page of monitoring events is displayed. The stored diagnostic events are not modified.",
-          "notes": "The control is disabled on the first page. This changes pagination only; it does not delete or modify events."
+          "notes": "The control is disabled on the first page. The event list displays up to 25 records per page, and pagination appears only when more than 25 filtered events are available. This changes pagination only; it does not delete or modify events."
         },
         "fa": {
           "purpose": "فهرست رویدادهای Monitor & Diagnostics را به صفحه قبلی منتقل می‌کند.",
@@ -16731,7 +16731,7 @@
           "how": "در کنترل‌های صفحه‌بندی مانیتورینگ، وقتی ‹ Previous فعال است آن را انتخاب کنید.",
           "inputs": "ورودی لازم نیست. صفحه فعلی باید بعد از صفحه اول باشد.",
           "result": "صفحه قبلی رویدادهای مانیتورینگ نمایش داده می‌شود. رویدادهای تشخیصی ذخیره‌شده تغییر نمی‌کنند.",
-          "notes": "این کنترل در صفحه اول غیرفعال است. فقط صفحه‌بندی را تغییر می‌دهد و رویدادها را حذف یا ویرایش نمی‌کند."
+          "notes": "این کنترل در صفحه اول غیرفعال است. فهرست در هر صفحه حداکثر ۲۵ رویداد نشان می‌دهد و صفحه‌بندی فقط زمانی ظاهر می‌شود که بیش از ۲۵ رویداد فیلترشده وجود داشته باشد. این گزینه فقط صفحه‌بندی را تغییر می‌دهد و رویدادها را حذف یا ویرایش نمی‌کند."
         }
       },
       "handler_or_behavior": "`monitorPage--;renderMonitor()`"
@@ -16749,7 +16749,7 @@
           "how": "Read the page indicator between the Previous and Next controls.",
           "inputs": "No input is required. This is an informational display, not an action control.",
           "result": "The indicator shows the current page number and total number of available pages.",
-          "notes": "The indicator does not change the selected page or stored events. The number of pages can change when filters or the event list change."
+          "notes": "The event list displays up to 25 records per page. Pagination is shown only when more than 25 filtered events are available. The indicator does not change the selected page or stored events."
         },
         "fa": {
           "purpose": "شماره صفحه فعلی و تعداد کل صفحات فهرست رویدادهای Monitor & Diagnostics را نمایش می‌دهد.",
@@ -16757,7 +16757,7 @@
           "how": "نشانگر صفحه را که بین کنترل‌های Previous و Next قرار دارد بخوانید.",
           "inputs": "ورودی لازم نیست. این یک نمایشگر اطلاعاتی است، نه کنترل عملیاتی.",
           "result": "نشانگر شماره صفحه فعلی و تعداد کل صفحات موجود را نشان می‌دهد.",
-          "notes": "این نشانگر صفحه انتخاب‌شده یا رویدادهای ذخیره‌شده را تغییر نمی‌دهد. تعداد صفحات ممکن است با تغییر فیلترها یا فهرست رویدادها تغییر کند."
+          "notes": "فهرست در هر صفحه حداکثر ۲۵ رویداد نشان می‌دهد. صفحه‌بندی فقط زمانی نمایش داده می‌شود که بیش از ۲۵ رویداد فیلترشده وجود داشته باشد. این نشانگر صفحه انتخاب‌شده یا رویدادهای ذخیره‌شده را تغییر نمی‌دهد."
         }
       },
       "handler_or_behavior": "`event/property listener`"
@@ -16775,7 +16775,7 @@
           "how": "Select Next › in the monitoring pagination controls when it is enabled.",
           "inputs": "No input is required. The Next control is available only when another page exists.",
           "result": "The next page of monitoring events is displayed. Stored diagnostic events are not modified.",
-          "notes": "The control is disabled on the final page. This changes pagination only and does not change stored events."
+          "notes": "The control is disabled on the final page. The event list displays up to 25 records per page, and pagination appears only when more than 25 filtered events are available. This changes pagination only and does not change stored events."
         },
         "fa": {
           "purpose": "فهرست رویدادهای Monitor & Diagnostics را به صفحه بعدی منتقل می‌کند.",
@@ -16783,7 +16783,7 @@
           "how": "در کنترل‌های صفحه‌بندی مانیتورینگ، وقتی Next › فعال است آن را انتخاب کنید.",
           "inputs": "ورودی لازم نیست. کنترل Next فقط زمانی فعال است که صفحه دیگری وجود داشته باشد.",
           "result": "صفحه بعدی رویدادهای مانیتورینگ نمایش داده می‌شود. رویدادهای تشخیصی ذخیره‌شده تغییر نمی‌کنند.",
-          "notes": "این کنترل در آخرین صفحه غیرفعال است. فقط صفحه‌بندی را تغییر می‌دهد و رویدادهای ذخیره‌شده را تغییر نمی‌دهد."
+          "notes": "این کنترل در آخرین صفحه غیرفعال است. فهرست در هر صفحه حداکثر ۲۵ رویداد نشان می‌دهد و صفحه‌بندی فقط زمانی ظاهر می‌شود که بیش از ۲۵ رویداد فیلترشده وجود داشته باشد. این گزینه فقط صفحه‌بندی را تغییر می‌دهد و رویدادهای ذخیره‌شده را تغییر نمی‌دهد."
         }
       },
       "handler_or_behavior": "`event/property listener`"
@@ -16826,7 +16826,7 @@
           "when": "Use this after opening an event's details when you need to inspect the JSON elsewhere or include it in a support message.",
           "how": "In the event details modal, select Copy JSON. Paste the copied text into the intended diagnostic note or support message.",
           "inputs": "The correct event must already be open using View details. No further selection is required.",
-          "result": "The formatted JSON for the selected event is copied using the Clipboard API or a text-area fallback. The app displays a confirmation alert when the copy action completes.",
+          "result": "The formatted JSON for the selected event is copied using the Clipboard API or a text-area fallback. The app displays a confirmation alert after the copy attempt.",
           "notes": "Review the JSON for device, browser, build or other sensitive details before sharing it with support. Copying does not modify the event."
         },
         "fa": {
@@ -16834,7 +16834,7 @@
           "when": "پس از بازکردن جزئیات رویداد و زمانی که می‌خواهید JSON را در جای دیگری بررسی یا در پیام پشتیبانی درج کنید، از این گزینه استفاده کنید.",
           "how": "در پنجره جزئیات رویداد، Copy JSON را انتخاب کنید. متن کپی‌شده را در یادداشت تشخیصی یا پیام پشتیبانی موردنظر جای‌گذاری کنید.",
           "inputs": "ابتدا باید رویداد صحیح با View details باز شده باشد. انتخاب دیگری لازم نیست.",
-          "result": "JSON قالب‌بندی‌شده رویداد انتخاب‌شده با Clipboard API یا روش جایگزین textarea کپی می‌شود. پس از تکمیل عملیات کپی، برنامه پیام تأیید نمایش می‌دهد.",
+          "result": "JSON قالب‌بندی‌شده رویداد انتخاب‌شده با Clipboard API یا روش جایگزین textarea کپی می‌شود. برنامه پس از تلاش برای کپی، پیام تأیید نمایش می‌دهد.",
           "notes": "پیش از اشتراک‌گذاری با پشتیبانی، JSON را از نظر جزئیات دستگاه، مرورگر، Build یا سایر اطلاعات حساس بررسی کنید. کپی‌کردن، رویداد را تغییر نمی‌دهد."
         }
       },
