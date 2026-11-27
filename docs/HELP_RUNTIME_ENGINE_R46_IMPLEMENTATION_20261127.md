@@ -80,3 +80,13 @@ Source review corrected the English and Persian text for nine Draft entries: THA
 - No accounting calculation, invoice numbering, payment linkage, IndexedDB operation or original button handler was changed.
 - Version target: `THA-273-R11-PREVIEW-20261127-R55`. The embedded canonical URL, Build ID, index SHA and runtime asset pin must match before the Gate can pass.
 - Source-level implementation only. Live save flows, contextual popup behavior, language switching, mobile layout and iPhone Safari remain unverified. No Preview deployment or Production change.
+
+
+## R56 invoice and Reports & Tax navigation
+
+- Added six completed contextual Help topics: `THA-HLP-0029` New Invoice and `THA-HLP-0034`–`THA-HLP-0038` for Prepare a report, Saved reports archive, Notifications inbox, Tax calendar and Accountant email.
+- New Invoice is scoped to `#invoiceListArea`. The five Reports & Tax controls are scoped to `#report188Menu` and use exact `report188Navigate(...)` parameter values.
+- Corrected JavaScript string escaping for single quotes inside the CSS attribute selectors; the runtime selector strings now preserve the intended exact `onclick` values.
+- Static allowlist count: 51. Total contextual Help controls mapped: 56 (51 static, five dynamic-template).
+- Version target: `THA-273-R11-PREVIEW-20261127-R56`. Build ID, canonical URL, index SHA and runtime asset pin must match before Gate approval.
+- Live browser navigation, contextual Help interaction, language switching, mobile layout and iPhone Safari remain unverified. No Preview deployment or Production change.
