@@ -130,12 +130,14 @@ function resetGateState(){
  const final=$("factoryResetFinalButton");if(final)final.disabled=true;
  const emergency=$("factoryResetEmergencyButton");if(emergency)emergency.disabled=true;
  const confirm=$("factoryResetConfirmEmergency");if(confirm){confirm.checked=false;confirm.disabled=true;}
+ const snapshotInput=$("factoryResetEmergencyFile");if(snapshotInput){snapshotInput.value="";snapshotInput.disabled=true;}
  setFinalGate();
 }
 async function validateSelectedImport(){
  const input=$("factoryResetConvertedFile"),file=input&&input.files&&input.files[0];
  gate.importVerified=false;gate.importFile=null;gate.emergencyVerified=false;gate.emergencyFileVerified=false;gate.emergencyDigest=null;
  const confirm=$("factoryResetConfirmEmergency");if(confirm){confirm.checked=false;confirm.disabled=true;}
+ const snapshotInput=$("factoryResetEmergencyFile");if(snapshotInput){snapshotInput.value="";snapshotInput.disabled=true;}
  const emergency=$("factoryResetEmergencyButton");if(emergency)emergency.disabled=true;
  setFinalGate();
  if(!file){setStatus("Select the converted backup file.",true);return;}
@@ -155,6 +157,7 @@ async function convertAction(){
  const input=$("factoryResetConvertedFile");if(input){input.value="";input.disabled=true;}
  const emergency=$("factoryResetEmergencyButton");if(emergency)emergency.disabled=true;
  const confirm=$("factoryResetConfirmEmergency");if(confirm){confirm.checked=false;confirm.disabled=true;}
+ const snapshotInput=$("factoryResetEmergencyFile");if(snapshotInput){snapshotInput.value="";snapshotInput.disabled=true;}
  setFinalGate();
  try{
   setStatus("Checking source backup…",false);
@@ -171,8 +174,9 @@ async function convertAction(){
 async function emergencyAction(){
  try{
   assert(gate.importVerified===true&&gate.importFile===($("factoryResetConvertedFile").files[0]||null),"Select and validate the converted backup before creating the emergency snapshot.");
-  gate.emergencyVerified=false;gate.emergencyDigest=null;
+  gate.emergencyVerified=false;gate.emergencyFileVerified=false;gate.emergencyDigest=null;
   const confirm=$("factoryResetConfirmEmergency");if(confirm){confirm.checked=false;confirm.disabled=true;}
+  const snapshotInput=$("factoryResetEmergencyFile");if(snapshotInput){snapshotInput.value="";snapshotInput.disabled=true;}
   setFinalGate();
   const result=await emergencyBackup();
   const filename="THA-v273-before-reset-emergency-full-backup.json";
@@ -184,8 +188,9 @@ async function emergencyAction(){
   if(confirm){confirm.checked=false;confirm.disabled=true;}
   setStatus("Emergency snapshot generated and verified. Save it in Files, then select that saved file below. Its SHA-256 must match the generated snapshot before the final confirmation can be enabled.",false);
  }catch(e){
-  gate.emergencyVerified=false;gate.emergencyDigest=null;
+  gate.emergencyVerified=false;gate.emergencyFileVerified=false;gate.emergencyDigest=null;
   const confirm=$("factoryResetConfirmEmergency");if(confirm){confirm.checked=false;confirm.disabled=true;}
+  const snapshotInput=$("factoryResetEmergencyFile");if(snapshotInput){snapshotInput.value="";snapshotInput.disabled=true;}
   setStatus("Emergency backup failed: "+(e.message||e),true);
  }
  setFinalGate();
@@ -198,6 +203,7 @@ async function validateEmergencyFile(){
  try{
   assert(file.size>0,"The selected emergency snapshot is empty.");
   const actual=await digest(await file.arrayBuffer());
+  assert($("factoryResetEmergencyFile").files[0]===file,"The selected emergency snapshot changed during verification.");
   assert(actual===gate.emergencyDigest,"The selected file does not match the generated emergency snapshot SHA-256.");
   gate.emergencyFileVerified=true;
   if(confirm)confirm.disabled=false;
