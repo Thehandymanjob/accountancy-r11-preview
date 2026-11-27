@@ -744,6 +744,20 @@
 - **Gate:** در انتظار اجرای R61؛ Gate قبلی R60 PASS است اما جایگزین Gate نسخه R61 نمی‌شود.
 - **تست مرورگر / انتشار:** هنوز انجام نشده؛ PR #96 Draft است، Preview منتشر نشده و Production دست‌نخورده باقی مانده است.
 
+
+#### بازنگری R61 — اتصال تب‌ها و کنترل‌های تکمیلی Project Workspace
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- **شناسه‌های متصل‌شده:** THA-HLP-0081 (New Project)، THA-HLP-0082 (Projects List)، THA-HLP-0083 (Add Partner share row)، THA-HLP-0090 تا THA-HLP-0096 (Summary، Income، Expenses، Worker Wages، Tools، Food & Other و Reports)، THA-HLP-0097 (View Financial Report)، THA-HLP-0101 (Clear Contractor Form) و THA-HLP-0115 (Clear Work Package Form).
+- **روش اتصال:** ۱۳ selector/attribute محدوده‌دار به صفحه یا کنترل مربوط اضافه شدند. تب‌های Project Detail با `data-pr-sub` از handler مشترک `prDetailTab(...)` تفکیک می‌شوند؛ بنابراین هر تب شناسه Help مستقل دارد.
+- **محتوا:** هر ۱۳ شناسه CONTENT_COMPLETE هستند. این اتصال فقط راهنما را اضافه می‌کند و محاسبات مالی پروژه، دستمزد، ابزار، هزینه یا سود/زیان را تغییر نمی‌دهد.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R61`.
+- **شمارنده پس از این مرحله:** ۱۱۰ Help ID متصل؛ ۱۰۵ کنترل static با شناسه یکتا و پنج dynamic-template. از کنترل‌های static، ۸۷ selector محدوده‌دار، ۱۳ selector مبتنی بر ID یکتا و پنج handler محدوده‌دار هستند.
+- **تست ایستا:** ۱۰۵ ردیف STATIC_BINDINGS و ۱۰۵ شناسه یکتا؛ mapping و pin فایل runtime با SHA واقعی همگام شدند. Version Authority Gate تجمعی R61 هنوز باید اجرا شود.
+- **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ بازشدن هر تب، عدم اجرای ناخواسته handler اصلی هنگام لمس «?» و چیدمان موبایل باید در Preview بررسی شوند.
+- **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
+
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
 - **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Implemented on Preview development; the latest R45 Version Authority Gate passed after native-HTML fail-closed hardening (run 46053038295). Pages deployment and iPhone Safari verification remain pending.
