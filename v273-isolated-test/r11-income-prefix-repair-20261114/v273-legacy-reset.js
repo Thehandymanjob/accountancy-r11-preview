@@ -77,6 +77,7 @@ async function emergencyBackup(){
  return result;
 }
 async function resetWithImport(file){
+ assert(DB()===PREVIEW_DB,"Wrong database. Reset blocked outside the isolated Preview database.");
  const e=engine(),pkg=await inspectImportFile(file);
  const health=await e.health();assert(health&&health.ok===true,"Database health check failed.");
  let cleared=false;
@@ -259,5 +260,5 @@ function bind(){
  if(typeof originalNext==="function")root.factoryResetNextStep=function(){const result=originalNext.apply(this,arguments);gate.stage=true;setFinalGate();return result;};
 }
 if(root.document.readyState==="loading")root.document.addEventListener("DOMContentLoaded",bind);else bind();
-root.HandymanV273LegacyReset=Object.freeze({convertLegacy,inspectImportFile,emergencyBackup,resetWithImport,refreshFinalAvailability:setFinalGate});
+root.HandymanV273LegacyReset=Object.freeze({convertLegacy,inspectImportFile,emergencyBackup,refreshFinalAvailability:setFinalGate});
 })(window);
