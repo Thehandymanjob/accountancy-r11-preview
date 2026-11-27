@@ -8998,6 +8998,78 @@
           "inputs": "یک کارگر ثبت‌شده را انتخاب کنید. تعداد روزهای کار، کل دستمزد، مبلغ پرداخت‌شده و تاریخ پرداخت را وارد کنید؛ فیلد مبلغ کل دستمزد در فرم الزامی است.",
           "result": "سوابق دستمزد کارگران نمایش داده می‌شوند. در صورت موفقیت ذخیره، سابقه دستمزد جدید و معتبر به سوابق دستمزد پروژه انتخاب‌شده افزوده می‌شود.",
           "notes": "درستی کارگر و پروژه را بررسی کنید. کل دستمزد و مبلغ پرداخت‌شده دو فیلد جداگانه‌اند؛ فرض نکنید کل دستمزد پرداخت شده است. مدارک پرداخت را نگه دارید. این سوابق دستمزد پروژه از ثبت‌های حقوق و دستمزد یا هزینه در Accountancy جدا هستند."
+        },
+        "ar": {
+          "purpose": "يعرض سجلات أجور العمال للمشروع المحدد ويوفر نموذجاً لتسجيل إدخال أجر جديد.",
+          "when": "استخدم هذا الخيار لمراجعة أو تسجيل تكاليف العمالة للعمال المعيّنين للمشروع.",
+          "how": "افتح المشروع واختر Worker Wages. لتسجيل الأجور، اختر عاملاً مسجلاً، وأدخل أيام العمل وإجمالي الأجور والمبلغ المدفوع وتاريخ الدفع، ثم اختر Record. يمكن استخدام زر Worker List لاختيار عامل مسجل.",
+          "inputs": "اختر عاملاً مسجلاً. أدخل أيام العمل وإجمالي الأجور والمبلغ المدفوع وتاريخ الدفع؛ ويشترط النموذج إدخال إجمالي الأجور.",
+          "result": "تُعرض سجلات أجور العمال. عند نجاح الحفظ، يُضاف إدخال أجر جديد وصحيح إلى سجلات أجور المشروع المحدد.",
+          "notes": "تحقق من صحة العامل والمشروع. إجمالي الأجور والمبلغ المدفوع حقلان منفصلان؛ فلا تفترض أن الأجر كاملاً قد دُفع. احتفظ بإثبات الدفع. سجلات أجور المشروع هذه منفصلة عن كشوف رواتب Accountancy أو قيود المصروفات."
+        },
+        "ckb": {
+          "purpose": "تۆمارەکانی مووچەی کرێکارانی پڕۆژەی هەڵبژێردراو پیشان دەدات و فۆڕمی تۆمارکردنی مووچەی نوێ دابین دەکات.",
+          "when": "کاتێک دەتەوێت تێچووی کاری کرێکارانی دیاریکراو بۆ پڕۆژەکە بپشکنیت یان تۆماری بکەیت، ئەم بەشە بەکاربهێنە.",
+          "how": "پڕۆژەکە بکەرەوە و Worker Wages هەڵبژێرە. بۆ تۆمارکردنی مووچە، کرێکارێکی تۆمارکراو هەڵبژێرە، ڕۆژەکانی کارکردن، کۆی مووچە، بڕی پارەی دراو و بەرواری پارەدان داخڵ بکە، پاشان Record هەڵبژێرە. دوگمەی Worker List دەتوانرێت بۆ هەڵبژاردنی کرێکارێکی تۆمارکراو بەکاربهێنرێت.",
+          "inputs": "کرێکارێکی تۆمارکراو هەڵبژێرە. ڕۆژەکانی کارکردن، کۆی مووچە، بڕی پارەی دراو و بەرواری پارەدان داخڵ بکە؛ فۆڕمەکە کۆی مووچە بە پێویست دەزانێت.",
+          "result": "تۆمارەکانی مووچەی کرێکاران پیشان دەدرێن. ئەگەر پاشەکەوتکردن سەرکەوتوو بێت، تۆماری نوێی دروستی مووچە زیاد دەکرێت بۆ تۆمارەکانی مووچەی پڕۆژەی هەڵبژێردراو.",
+          "notes": "دڵنیا ببەوە کرێکار و پڕۆژەکە دروستن. کۆی مووچە و بڕی پارەی دراو دوو خانەی جیاوازن؛ وا مەزانە تەواوی مووچە دراوە. بەڵگەی پارەدان بپارێزە. ئەم تۆمارە مووچەی پڕۆژەییە جیاوازن لە Payroll یان تۆمارەکانی خەرجی Accountancy."
+        },
+        "kmr": {
+          "purpose": "Tomarên meaşên karkeran ji bo projeya hilbijartî nîşan dide û forma tomarkirina meaşekê peyda dike.",
+          "when": "Vê bikar bîne dema ku lêçûnên kedê yên karkerên ku ji bo projeyê hatine tayînkirin dinirxînî an tomar dikî.",
+          "how": "Projeyê veke û Worker Wages hilbijêre. Ji bo tomarkirina meaşan, karkerekî tomarkirî hilbijêre, rojên xebatê, tevahiya meaşê, mîqdara pereya hatî dayîn û roja dayînê binivîse, paşê Record hilbijêre. Bişkoka Worker List dikare ji bo hilbijartina karkerekî tomarkirî were bikaranîn.",
+          "inputs": "Karkerekî tomarkirî hilbijêre. Rojên xebatê, tevahiya meaşê, mîqdara hatî dayîn û roja dayînê binivîse; form pêdivî bi mîqdara tevahiya meaşê heye.",
+          "result": "Tomarên meaşên karkeran têne nîşandan. Dema tomarkirin serkeftî be, tomarê meaşê nû û derbasdar li tomarên meaşê projeya hilbijartî tê zêdekirin.",
+          "notes": "Piştrast bike ku karker û proje rast in. Tevahiya meaşê û mîqdara hatî dayîn du qadên cuda ne; texmîn neke ku tevahiya meaşê hatiye dayîn. Delîla dayînê biparêze. Ev tomarên meaşê projeyê ji payroll an tomarên lêçûnên Accountancy cuda ne."
+        },
+        "tr": {
+          "purpose": "Seçilen proje için işçi ücret kayıtlarını görüntüler ve yeni bir ücret kaydı girmek için form sağlar.",
+          "when": "Projeye atanmış çalışanların işçilik maliyetlerini incelemek veya kaydetmek için kullanın.",
+          "how": "Projeyi açın ve Worker Wages sekmesini seçin. Ücret kaydetmek için kayıtlı bir çalışan seçin, çalışılan günleri, toplam ücreti, ödenen tutarı ve ödeme tarihini girin, ardından Record seçeneğini belirleyin. Kayıtlı çalışan seçmek için Worker List düğmesini kullanabilirsiniz.",
+          "inputs": "Kayıtlı bir çalışan seçin. Çalışılan günleri, toplam ücreti, ödenen tutarı ve ödeme tarihini girin; form toplam ücret tutarını zorunlu tutar.",
+          "result": "İşçi ücret kayıtları görüntülenir. Kayıt başarılı olduğunda geçerli yeni ücret kaydı seçilen projenin ücret kayıtlarına eklenir.",
+          "notes": "Çalışanın ve projenin doğru olduğunu kontrol edin. Toplam ücret ile ödenen tutar ayrı alanlardır; ücretin tamamının ödendiğini varsaymayın. Ödeme kanıtını saklayın. Bu proje ücret kayıtları, Accountancy bordro veya gider kayıtlarından ayrıdır."
+        },
+        "pl": {
+          "purpose": "Wyświetla rejestr wynagrodzeń pracowników dla wybranego projektu i udostępnia formularz do zapisania nowej pozycji wynagrodzenia.",
+          "when": "Użyj tej opcji, aby przejrzeć lub zarejestrować koszty pracy pracowników przypisanych do projektu.",
+          "how": "Otwórz projekt i wybierz Worker Wages. Aby zapisać wynagrodzenie, wybierz zarejestrowanego pracownika, wpisz liczbę przepracowanych dni, łączne wynagrodzenie, zapłaconą kwotę i datę płatności, a następnie wybierz Record. Przycisk Worker List umożliwia wybór zarejestrowanego pracownika.",
+          "inputs": "Wybierz zarejestrowanego pracownika. Wpisz liczbę przepracowanych dni, łączne wynagrodzenie, zapłaconą kwotę i datę płatności; formularz wymaga podania łącznego wynagrodzenia.",
+          "result": "Wyświetlany jest rejestr wynagrodzeń pracowników. Po pomyślnym zapisie prawidłowa nowa pozycja wynagrodzenia zostaje dodana do rejestru wybranego projektu.",
+          "notes": "Sprawdź, czy wybrano właściwego pracownika i projekt. Łączne wynagrodzenie i zapłacona kwota to osobne pola; nie zakładaj, że całe wynagrodzenie zostało wypłacone. Zachowaj dowód płatności. Te projektowe zapisy wynagrodzeń są oddzielone od listy płac i wydatków Accountancy."
+        },
+        "ur": {
+          "purpose": "منتخب منصوبے کے لیے کارکنوں کی اجرت کے ریکارڈ دکھاتا ہے اور نئی اجرت درج کرنے کا فارم فراہم کرتا ہے۔",
+          "when": "اسے منصوبے پر مقرر کارکنوں کی محنت کے اخراجات کا جائزہ لینے یا درج کرنے کے لیے استعمال کریں۔",
+          "how": "منصوبہ کھولیں اور Worker Wages منتخب کریں۔ اجرت درج کرنے کے لیے رجسٹرڈ کارکن منتخب کریں، کام کے دن، کل اجرت، ادا شدہ رقم اور ادائیگی کی تاریخ درج کریں، پھر Record منتخب کریں۔ رجسٹرڈ کارکن منتخب کرنے کے لیے Worker List بٹن استعمال کیا جا سکتا ہے۔",
+          "inputs": "رجسٹرڈ کارکن منتخب کریں۔ کام کے دن، کل اجرت، ادا شدہ رقم اور ادائیگی کی تاریخ درج کریں؛ فارم میں کل اجرت کی رقم لازمی ہے۔",
+          "result": "کارکنوں کی اجرت کے ریکارڈ دکھائے جاتے ہیں۔ محفوظ کرنا کامیاب ہو تو نئی درست اجرت منتخب منصوبے کے اجرت ریکارڈ میں شامل ہو جاتی ہے۔",
+          "notes": "تصدیق کریں کہ کارکن اور منصوبہ درست ہیں۔ کل اجرت اور ادا شدہ رقم الگ خانے ہیں؛ یہ فرض نہ کریں کہ پوری اجرت ادا ہو چکی ہے۔ ادائیگی کا ثبوت محفوظ رکھیں۔ یہ منصوبے کے اجرت ریکارڈ Accountancy کی پے رول یا اخراجات کی انٹریز سے الگ ہیں۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਲਈ ਕਰਮਚਾਰੀਆਂ ਦੀ ਮਜ਼ਦੂਰੀ ਦੇ ਰਿਕਾਰਡ ਦਿਖਾਉਂਦਾ ਹੈ ਅਤੇ ਮਜ਼ਦੂਰੀ ਐਂਟਰੀ ਦਰਜ ਕਰਨ ਲਈ ਫਾਰਮ ਦਿੰਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਪ੍ਰੋਜੈਕਟ ਨਾਲ ਜੋੜੇ ਕਰਮਚਾਰੀਆਂ ਦੇ ਮਿਹਨਤ ਖਰਚਿਆਂ ਦੀ ਸਮੀਖਿਆ ਜਾਂ ਰਿਕਾਰਡ ਕਰਨ ਲਈ ਕਰੋ।",
+          "how": "ਪ੍ਰੋਜੈਕਟ ਖੋਲ੍ਹੋ ਅਤੇ Worker Wages ਚੁਣੋ। ਮਜ਼ਦੂਰੀ ਦਰਜ ਕਰਨ ਲਈ ਰਜਿਸਟਰਡ ਕਰਮਚਾਰੀ ਚੁਣੋ, ਕੰਮ ਕੀਤੇ ਦਿਨ, ਕੁੱਲ ਮਜ਼ਦੂਰੀ, ਅਦਾ ਕੀਤੀ ਰਕਮ ਅਤੇ ਭੁਗਤਾਨ ਮਿਤੀ ਦਰਜ ਕਰੋ, ਫਿਰ Record ਚੁਣੋ। ਰਜਿਸਟਰਡ ਕਰਮਚਾਰੀ ਚੁਣਨ ਲਈ Worker List ਬਟਨ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ।",
+          "inputs": "ਰਜਿਸਟਰਡ ਕਰਮਚਾਰੀ ਚੁਣੋ। ਕੰਮ ਕੀਤੇ ਦਿਨ, ਕੁੱਲ ਮਜ਼ਦੂਰੀ, ਅਦਾ ਕੀਤੀ ਰਕਮ ਅਤੇ ਭੁਗਤਾਨ ਮਿਤੀ ਦਰਜ ਕਰੋ; ਫਾਰਮ ਵਿੱਚ ਕੁੱਲ ਮਜ਼ਦੂਰੀ ਦੀ ਰਕਮ ਲਾਜ਼ਮੀ ਹੈ।",
+          "result": "ਕਰਮਚਾਰੀ ਮਜ਼ਦੂਰੀ ਦੇ ਰਿਕਾਰਡ ਦਿਖਾਏ ਜਾਂਦੇ ਹਨ। ਸੇਵ ਸਫਲ ਹੋਣ 'ਤੇ ਨਵੀਂ ਵੈਧ ਮਜ਼ਦੂਰੀ ਐਂਟਰੀ ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਦੇ ਮਜ਼ਦੂਰੀ ਰਿਕਾਰਡ ਵਿੱਚ ਜੋੜੀ ਜਾਂਦੀ ਹੈ।",
+          "notes": "ਜਾਂਚੋ ਕਿ ਕਰਮਚਾਰੀ ਅਤੇ ਪ੍ਰੋਜੈਕਟ ਸਹੀ ਹਨ। ਕੁੱਲ ਮਜ਼ਦੂਰੀ ਅਤੇ ਅਦਾ ਕੀਤੀ ਰਕਮ ਵੱਖਰੇ ਖੇਤਰ ਹਨ; ਇਹ ਨਾ ਮੰਨੋ ਕਿ ਪੂਰੀ ਮਜ਼ਦੂਰੀ ਅਦਾ ਹੋ ਗਈ ਹੈ। ਭੁਗਤਾਨ ਦਾ ਸਬੂਤ ਸੰਭਾਲੋ। ਇਹ ਪ੍ਰੋਜੈਕਟ ਮਜ਼ਦੂਰੀ ਰਿਕਾਰਡ Accountancy ਪੇਰੋਲ ਜਾਂ ਖਰਚੇ ਦੀਆਂ ਐਂਟਰੀਆਂ ਤੋਂ ਵੱਖਰੇ ਹਨ।"
+        },
+        "prs": {
+          "purpose": "سوابق دستمزد کارگران پروژه انتخاب‌شده را نمایش می‌دهد و فرم ثبت دستمزد جدید را فراهم می‌کند.",
+          "when": "برای بررسی یا ثبت هزینه نیروی کارگرانی که به پروژه اختصاص یافته‌اند، از این بخش استفاده کنید.",
+          "how": "پروژه را باز کنید و Worker Wages را انتخاب کنید. برای ثبت دستمزد، یک کارگر ثبت‌شده را انتخاب کنید، تعداد روزهای کار، کل دستمزد، مبلغ پرداخت‌شده و تاریخ پرداخت را وارد کنید و سپس Record را انتخاب کنید. برای انتخاب کارگر ثبت‌شده می‌توانید از دکمه Worker List استفاده کنید.",
+          "inputs": "یک کارگر ثبت‌شده را انتخاب کنید. تعداد روزهای کار، کل دستمزد، مبلغ پرداخت‌شده و تاریخ پرداخت را وارد کنید؛ مبلغ کل دستمزد در فرم الزامی است.",
+          "result": "سوابق دستمزد کارگران نمایش داده می‌شوند. در صورت موفقیت ذخیره، سابقه دستمزد جدید و معتبر به سوابق دستمزد پروژه انتخاب‌شده افزوده می‌شود.",
+          "notes": "درستی کارگر و پروژه را بررسی کنید. کل دستمزد و مبلغ پرداخت‌شده دو فیلد جداگانه‌اند؛ فرض نکنید کل دستمزد پرداخت شده است. مدارک پرداخت را نگه دارید. این سوابق دستمزد پروژه از ثبت‌های حقوق و دستمزد یا هزینه در Accountancy جدا هستند."
+        },
+        "ps": {
+          "purpose": "د ټاکل شوې پروژې لپاره د کارکوونکو د مزدورۍ ریکارډونه ښيي او د نوې مزدورۍ د ثبتولو فورم برابروي.",
+          "when": "دا هغه وخت وکاروئ چې پروژې ته د ګومارل شويو کارکوونکو د کار لګښتونه ارزول یا ثبتول غواړئ.",
+          "how": "پروژه پرانیزئ او Worker Wages وټاکئ. د مزدورۍ د ثبت لپاره یو ثبت شوی کارکوونکی وټاکئ، د کار ورځې، ټوله مزدوري، ورکړل شوې اندازه او د ورکړې نېټه دننه کړئ، بیا Record وټاکئ. د ثبت شوي کارکوونکي د ټاکلو لپاره Worker List تڼۍ کارول کېدای شي.",
+          "inputs": "یو ثبت شوی کارکوونکی وټاکئ. د کار ورځې، ټوله مزدوري، ورکړل شوې اندازه او د ورکړې نېټه دننه کړئ؛ فورم د ټولې مزدورۍ اندازه اړینه ګڼي.",
+          "result": "د کارکوونکو د مزدورۍ ریکارډونه ښودل کېږي. که خوندي کول بریالي شي، نوی سم د مزدورۍ ثبت د ټاکل شوې پروژې د مزدورۍ ریکارډونو ته زیاتېږي.",
+          "notes": "تایید کړئ چې کارکوونکی او پروژه سم دي. ټوله مزدوري او ورکړل شوې اندازه جلا خانې دي؛ دا مه انګېرئ چې ټوله مزدوري ورکړل شوې ده. د ورکړې ثبوت وساتئ. د پروژې دا د مزدورۍ ریکارډونه د Accountancy له معاشونو یا لګښتونو ثبتونو جلا دي."
         }
       },
       "handler_or_behavior": "`prDetailTab(`"
@@ -9024,6 +9096,78 @@
           "inputs": "مبلغ الزامی است. فرم همچنین فیلد شرح و تاریخ را دارد.",
           "result": "سوابق هزینه ابزار پروژه نمایش داده می‌شوند. در صورت موفقیت ذخیره، سابقه معتبر جدید افزوده می‌شود.",
           "notes": "این فرم یک هزینه ابزار در سطح پروژه ثبت می‌کند؛ اما کالا را به‌عنوان دارایی سرمایه‌ای، خرید یا اجاره طبقه‌بندی نمی‌کند. رسید منبع را نگه دارید و در صورت لزوم نحوه ثبت حسابداری جداگانه را تعیین کنید. از ثبت یک هزینه مشابه در زبانه دیگر پروژه خودداری کنید."
+        },
+        "ar": {
+          "purpose": "يعرض مصروفات الأدوات للمشروع المحدد ويوفر نموذجاً لتسجيل تكلفة مرتبطة بأداة.",
+          "when": "استخدم هذا الخيار لمراجعة أو تسجيل تكاليف الأدوات أو المعدات المخصصة لهذا المشروع.",
+          "how": "افتح المشروع واختر Tools. لإضافة سجل، أدخل وصف الأداة أو العنصر والمبلغ والتاريخ، ثم اختر Record.",
+          "inputs": "المبلغ مطلوب. ويوفر النموذج أيضاً حقلاً للوصف وحقلاً للتاريخ.",
+          "result": "تُعرض سجلات مصروفات الأدوات للمشروع. وتُضاف سجلات جديدة صحيحة عند نجاح الحفظ.",
+          "notes": "يسجل النموذج مصروف أداة على مستوى المشروع؛ ولا يصنف العنصر كأصل رأسمالي أو عملية شراء أو استئجار. احتفظ بإيصال المصدر وحدد المعالجة المحاسبية المنفصلة عند الاقتضاء. تجنب تسجيل التكلفة نفسها في علامة تبويب أخرى للمشروع."
+        },
+        "ckb": {
+          "purpose": "خەرجی ئامێرەکانی پڕۆژەی هەڵبژێردراو پیشان دەدات و فۆڕمی تۆمارکردنی تێچووی پەیوەندیدار بە ئامێر دابین دەکات.",
+          "when": "کاتێک دەتەوێت تێچووی ئامێر یان کەرەستەی پڕۆژەکە بپشکنیت یان تۆماری بکەیت، ئەم بەشە بەکاربهێنە.",
+          "how": "پڕۆژەکە بکەرەوە و Tools هەڵبژێرە. بۆ زیادکردنی تۆمار، وەسفی ئامێر یان شت، بڕ و بەروار داخڵ بکە، پاشان Record هەڵبژێرە.",
+          "inputs": "بڕ پێویستە. فۆڕمەکە هەروەها خانەی وەسف و خانەی بەروار هەیە.",
+          "result": "تۆمارەکانی خەرجی ئامێری پڕۆژە پیشان دەدرێن. تۆماری نوێی دروست کاتێک پاشەکەوتکردن سەرکەوتوو بێت زیاد دەکرێت.",
+          "notes": "فۆڕمەکە خەرجی ئامێرێک لە ئاستی پڕۆژە تۆمار دەکات؛ بەڵام شتەکە وەک سامانێکی سەرمایەیی، کڕین یان کرێ پۆلێن ناکات. پسووڵەی سەرچاوە بپارێزە و ئەگەر پێویست بوو چارەسەری حسابداریی جیاواز دیاری بکە. لە تۆمارکردنی هەمان تێچوو لە تابێکی تری پڕۆژە خۆت بپارێزە."
+        },
+        "kmr": {
+          "purpose": "Lêçûnên amûran ji bo projeya hilbijartî nîşan dide û forma tomarkirina lêçûneke girêdayî amûrekê peyda dike.",
+          "when": "Vê bikar bîne dema ku lêçûnên amûr an alavên ku ji bo vê projeyê hatine tayînkirin dinirxînî an tomar dikî.",
+          "how": "Projeyê veke û Tools hilbijêre. Ji bo zêdekirina tomarê, ravekirina amûr an tiştê, mîqdar û dîrokê binivîse, paşê Record hilbijêre.",
+          "inputs": "Mîqdar pêwîst e. Form her wiha qada ravekirinê û qada dîrokê peyda dike.",
+          "result": "Tomarên lêçûnên amûrên projeyê têne nîşandan. Tomareke nû ya derbasdar dema tomarkirin serkeftî be tê zêdekirin.",
+          "notes": "Form lêçûneke amûrê li asta projeyê tomar dike; tiştê wekî sermayeyeke sermayî, kirîn an kirê nayê dabeşkirin. Qebza çavkaniyê biparêze û dema pêwîst be awayê hesabgiriyê yê cuda diyar bike. Ji tomarkirina heman lêçûnê di tabe din a projeyê de dûr bikeve."
+        },
+        "tr": {
+          "purpose": "Seçilen projenin alet giderlerini görüntüler ve aletle ilgili bir maliyet kaydetmek için form sağlar.",
+          "when": "Bu projeye atanan alet veya ekipman maliyetlerini incelemek ya da kaydetmek için kullanın.",
+          "how": "Projeyi açın ve Tools sekmesini seçin. Kayıt eklemek için aletin veya öğenin açıklamasını, tutarı ve tarihi girin, ardından Record seçeneğini belirleyin.",
+          "inputs": "Tutar zorunludur. Formda ayrıca açıklama ve tarih alanı bulunur.",
+          "result": "Projenin alet gideri kayıtları görüntülenir. Kayıt başarılı olduğunda geçerli yeni bir kayıt eklenir.",
+          "notes": "Form, proje düzeyinde alet gideri kaydeder; bir öğeyi sermaye varlığı, satın alma veya kiralama olarak sınıflandırmaz. Kaynak fişi saklayın ve gerekiyorsa ayrı muhasebe işlemini belirleyin. Aynı maliyeti projenin başka bir sekmesinde tekrar kaydetmeyin."
+        },
+        "pl": {
+          "purpose": "Wyświetla koszty narzędzi dla wybranego projektu i udostępnia formularz do zapisania kosztu związanego z narzędziem.",
+          "when": "Użyj tej opcji, aby przejrzeć lub zarejestrować koszty narzędzi albo sprzętu przypisanych do tego projektu.",
+          "how": "Otwórz projekt i wybierz Tools. Aby dodać rekord, wpisz opis narzędzia lub przedmiotu, kwotę i datę, a następnie wybierz Record.",
+          "inputs": "Kwota jest wymagana. Formularz zawiera także pole opisu i pole daty.",
+          "result": "Wyświetlane są rekordy kosztów narzędzi projektu. Prawidłowy nowy rekord zostaje dodany po pomyślnym zapisie.",
+          "notes": "Formularz zapisuje koszt narzędzia na poziomie projektu; nie klasyfikuje przedmiotu jako środka trwałego, zakupu ani wynajmu. Zachowaj dowód źródłowy i w razie potrzeby ustal osobne ujęcie księgowe. Nie zapisuj tego samego kosztu ponownie na innej karcie projektu."
+        },
+        "ur": {
+          "purpose": "منتخب منصوبے کے اوزار کے اخراجات دکھاتا ہے اور اوزار سے متعلق لاگت درج کرنے کا فارم فراہم کرتا ہے۔",
+          "when": "اسے اس منصوبے کے لیے مختص اوزار یا سامان کے اخراجات کا جائزہ لینے یا درج کرنے کے لیے استعمال کریں۔",
+          "how": "منصوبہ کھولیں اور Tools منتخب کریں۔ ریکارڈ شامل کرنے کے لیے اوزار یا شے کی تفصیل، رقم اور تاریخ درج کریں، پھر Record منتخب کریں۔",
+          "inputs": "رقم لازمی ہے۔ فارم میں تفصیل اور تاریخ کے خانے بھی ہیں۔",
+          "result": "منصوبے کے اوزار کے اخراجات کے ریکارڈ دکھائے جاتے ہیں۔ محفوظ کرنا کامیاب ہونے پر نیا درست ریکارڈ شامل ہو جاتا ہے۔",
+          "notes": "یہ فارم منصوبے کی سطح پر اوزار کا خرچ درج کرتا ہے؛ کسی شے کو سرمایہ جاتی اثاثہ، خریداری یا کرایہ قرار نہیں دیتا۔ اصل رسید محفوظ رکھیں اور ضرورت کے مطابق الگ اکاؤنٹنگ طریقۂ کار طے کریں۔ اسی لاگت کو منصوبے کے کسی دوسرے ٹیب میں دوبارہ درج نہ کریں۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਲਈ ਔਜ਼ਾਰਾਂ ਦੇ ਖਰਚੇ ਦਿਖਾਉਂਦਾ ਹੈ ਅਤੇ ਔਜ਼ਾਰ-ਸਬੰਧੀ ਲਾਗਤ ਦਰਜ ਕਰਨ ਲਈ ਫਾਰਮ ਦਿੰਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਇਸ ਪ੍ਰੋਜੈਕਟ ਲਈ ਨਿਰਧਾਰਤ ਔਜ਼ਾਰਾਂ ਜਾਂ ਸਾਜ਼ੋ-ਸਾਮਾਨ ਦੀ ਲਾਗਤ ਦੀ ਸਮੀਖਿਆ ਜਾਂ ਰਿਕਾਰਡ ਕਰਨ ਲਈ ਕਰੋ।",
+          "how": "ਪ੍ਰੋਜੈਕਟ ਖੋਲ੍ਹੋ ਅਤੇ Tools ਚੁਣੋ। ਰਿਕਾਰਡ ਜੋੜਨ ਲਈ ਔਜ਼ਾਰ ਜਾਂ ਚੀਜ਼ ਦਾ ਵੇਰਵਾ, ਰਕਮ ਅਤੇ ਮਿਤੀ ਦਰਜ ਕਰੋ, ਫਿਰ Record ਚੁਣੋ।",
+          "inputs": "ਰਕਮ ਲਾਜ਼ਮੀ ਹੈ। ਫਾਰਮ ਵਿੱਚ ਵੇਰਵੇ ਅਤੇ ਮਿਤੀ ਦੇ ਖੇਤਰ ਵੀ ਹਨ।",
+          "result": "ਪ੍ਰੋਜੈਕਟ ਦੇ ਔਜ਼ਾਰ ਖਰਚੇ ਦੇ ਰਿਕਾਰਡ ਦਿਖਾਏ ਜਾਂਦੇ ਹਨ। ਸੇਵ ਸਫਲ ਹੋਣ 'ਤੇ ਨਵਾਂ ਵੈਧ ਰਿਕਾਰਡ ਜੋੜਿਆ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਫਾਰਮ ਪ੍ਰੋਜੈਕਟ ਪੱਧਰ 'ਤੇ ਔਜ਼ਾਰ ਦਾ ਖਰਚਾ ਦਰਜ ਕਰਦਾ ਹੈ; ਇਹ ਕਿਸੇ ਚੀਜ਼ ਨੂੰ ਪੂੰਜੀ ਸੰਪਤੀ, ਖਰੀਦ ਜਾਂ ਕਿਰਾਏ ਵਜੋਂ ਵਰਗੀਕ੍ਰਿਤ ਨਹੀਂ ਕਰਦਾ। ਅਸਲ ਰਸੀਦ ਸੰਭਾਲੋ ਅਤੇ ਲੋੜ ਅਨੁਸਾਰ ਵੱਖਰਾ ਲੇਖਾ-ਜੋਖਾ ਤਰੀਕਾ ਨਿਰਧਾਰਤ ਕਰੋ। ਇੱਕੋ ਲਾਗਤ ਨੂੰ ਪ੍ਰੋਜੈਕਟ ਦੇ ਕਿਸੇ ਹੋਰ ਟੈਬ ਵਿੱਚ ਦੁਬਾਰਾ ਦਰਜ ਨਾ ਕਰੋ।"
+        },
+        "prs": {
+          "purpose": "هزینه‌های ابزار پروژه انتخاب‌شده را نمایش می‌دهد و فرم ثبت هزینه مرتبط با ابزار را فراهم می‌کند.",
+          "when": "برای بررسی یا ثبت هزینه ابزار یا تجهیزات تخصیص‌یافته به این پروژه از این بخش استفاده کنید.",
+          "how": "پروژه را باز کنید و Tools را انتخاب کنید. برای افزودن سابقه، شرح ابزار یا کالا، مبلغ و تاریخ را وارد کنید و سپس Record را انتخاب کنید.",
+          "inputs": "مبلغ الزامی است. فرم همچنین فیلد شرح و تاریخ را دارد.",
+          "result": "سوابق هزینه ابزار پروژه نمایش داده می‌شوند. در صورت موفقیت ذخیره، سابقه معتبر جدید افزوده می‌شود.",
+          "notes": "این فرم هزینه ابزار را در سطح پروژه ثبت می‌کند؛ کالا را به‌عنوان دارایی سرمایه‌ای، خرید یا اجاره طبقه‌بندی نمی‌کند. رسید منبع را نگه دارید و در صورت لزوم نحوه ثبت حسابداری جداگانه را تعیین کنید. از ثبت همان هزینه در زبانه دیگر پروژه خودداری کنید."
+        },
+        "ps": {
+          "purpose": "د ټاکل شوې پروژې د وسایلو لګښتونه ښيي او د وسیلې اړوند لګښت د ثبتولو فورم برابروي.",
+          "when": "دا هغه وخت وکاروئ چې دې پروژې ته د ټاکل شويو وسایلو یا تجهیزاتو لګښتونه ارزول یا ثبتول غواړئ.",
+          "how": "پروژه پرانیزئ او Tools وټاکئ. د ریکارډ زیاتولو لپاره د وسیلې یا توکي تشریح، اندازه او نېټه دننه کړئ، بیا Record وټاکئ.",
+          "inputs": "اندازه اړینه ده. فورم د تشریح او نېټې خانې هم لري.",
+          "result": "د پروژې د وسایلو د لګښت ریکارډونه ښودل کېږي. که خوندي کول بریالي شي، نوی سم ریکارډ زیاتېږي.",
+          "notes": "فورم د پروژې په کچه د وسیلې لګښت ثبتوي؛ یو توکی د پانګې شتمنۍ، پېرود یا کرایې په توګه نه طبقه‌بندي کوي. اصلي رسید وساتئ او د اړتیا په صورت کې جلا حسابداري چلند وټاکئ. هماغه لګښت د پروژې په بل ټب کې بیا مه ثبتوئ."
         }
       },
       "handler_or_behavior": "`prDetailTab(`"
