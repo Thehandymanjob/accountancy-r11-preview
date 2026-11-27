@@ -7713,7 +7713,7 @@
           "purpose": "Adds an expense to the selected work package’s financial records.",
           "when": "when recording a cost directly attributable to a particular work package.",
           "how": "Enter the expense date and amount, choose a category, add supplier/payee and description, attach evidence if available, then select Add Expense.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "Enter the expense date, amount, category, supplier or payee, and description; attach a receipt or supporting document if available.",
           "result": "The expense is added to that package if validation and saving succeed.",
           "notes": "Use the correct package and record only the actual cost. Retain receipts; do not duplicate a cost already entered elsewhere."
         },
@@ -7721,9 +7721,81 @@
           "purpose": "هزینه‌ای به سوابق مالی بسته کاری انتخاب‌شده اضافه می‌کند.",
           "when": "وقتی می‌خواهید هزینه‌ای را که مستقیماً به یک بسته کاری مربوط است ثبت کنید.",
           "how": "تاریخ و مبلغ هزینه را وارد کنید، دسته‌بندی را انتخاب کنید، فروشنده/دریافت‌کننده و شرح را بنویسید و در صورت وجود مدرک پیوست کنید؛ سپس Add Expense را بزنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "inputs": "تاریخ، مبلغ، دسته‌بندی، فروشنده یا دریافت‌کننده و شرح هزینه را وارد کنید؛ در صورت وجود رسید یا سند پشتیبان پیوست کنید.",
           "result": "در صورت موفقیت اعتبارسنجی و ذخیره، هزینه به همان بسته اضافه می‌شود.",
           "notes": "بسته درست را انتخاب و فقط هزینه واقعی را ثبت کنید. رسیدها را نگه دارید و هزینه ثبت‌شده در بخش دیگر را دوباره وارد نکنید."
+        },
+        "ar": {
+          "purpose": "يضيف مصروفاً إلى السجلات المالية لحزمة العمل المحددة.",
+          "when": "عند تسجيل تكلفة مرتبطة مباشرة بحزمة عمل معينة.",
+          "how": "أدخل تاريخ المصروف ومبلغه، واختر فئته، وأضف اسم المورد أو المستفيد والوصف، وأرفق الإثبات إن توفر، ثم اختر Add Expense.",
+          "inputs": "أدخل تاريخ المصروف ومبلغه وفئته والمورد أو المستفيد والوصف؛ وأرفق إيصالاً أو مستنداً داعماً إن توفر.",
+          "result": "يُضاف المصروف إلى الحزمة إذا نجح التحقق والحفظ.",
+          "notes": "اختر الحزمة الصحيحة وسجل التكلفة الفعلية فقط. احتفظ بالإيصالات ولا تكرر تكلفة سُجلت في مكان آخر."
+        },
+        "ckb": {
+          "purpose": "خەرجییەک زیاد دەکات بۆ تۆمارە داراییەکانی پاکێجی کاری هەڵبژێردراو.",
+          "when": "کاتێک تێچوویەک تۆمار دەکەیت کە ڕاستەوخۆ پەیوەندی بە پاکێجی کاری دیاریکراوەوە هەیە.",
+          "how": "بەروار و بڕی خەرجی بنووسە، جۆرەکەی هەڵبژێرە، دابینکەر/وەرگر و وەسف زیاد بکە، ئەگەر بەڵگە هەبوو هاوپێچی بکە، پاشان Add Expense هەڵبژێرە.",
+          "inputs": "بەروار، بڕ، جۆر، دابینکەر یان وەرگر و وەسفی خەرجی بنووسە؛ ئەگەر هەبوو پسووڵە یان بەڵگەی پشتگیر هاوپێچ بکە.",
+          "result": "ئەگەر پشتڕاستکردنەوە و پاشەکەوتکردن سەرکەوتوو بن، خەرجییەکە بۆ ئەو پاکێجە زیاد دەکرێت.",
+          "notes": "پاکێجی دروست هەڵبژێرە و تەنها تێچووی ڕاستەقینە تۆمار بکە. پسووڵەکان بپارێزە و خەرجییەک کە لە شوێنێکی تر تۆمار کراوە دووبارە مەکەوە."
+        },
+        "kmr": {
+          "purpose": "Lêçûnekê li tomarên darayî yên pakêta xebata hilbijartî zêde dike.",
+          "when": "Dema ku tu lêçûnekê tomar dikî ku rasterast bi pakêteke xebatê ya taybet ve girêdayî ye.",
+          "how": "Dîrok û mîqdara lêçûnê binivîse, kategoriyê hilbijêre, dabînker/wergir û ravekirinê zêde bike, delîl hebe pêve bike, paşê Add Expense hilbijêre.",
+          "inputs": "Dîrok, mîqdar, kategorî, dabînker an wergir û ravekirina lêçûnê binivîse; ger hebe fatûre an belgeya piştgir pêve bike.",
+          "result": "Ger kontrol û tomarkirin serkeftî bin, lêçûn li wê pakêtê tê zêdekirin.",
+          "notes": "Pakêta rast hilbijêre û tenê lêçûna rastîn tomar bike. Fatûre biparêze û lêçûnekê ku li cihê din hatiye tomarkirin dubare neke."
+        },
+        "tr": {
+          "purpose": "Seçilen iş paketinin mali kayıtlarına bir gider ekler.",
+          "when": "Belirli bir iş paketine doğrudan ait bir maliyeti kaydederken kullanın.",
+          "how": "Gider tarihini ve tutarını girin, kategori seçin, tedarikçi/alıcı ve açıklama ekleyin, varsa belgeyi iliştirin ve Add Expense'i seçin.",
+          "inputs": "Gider tarihini, tutarını, kategorisini, tedarikçi veya alıcıyı ve açıklamasını girin; varsa makbuz ya da destekleyici belge ekleyin.",
+          "result": "Doğrulama ve kayıt başarılı olursa gider ilgili pakete eklenir.",
+          "notes": "Doğru paketi seçin ve yalnızca gerçek maliyeti kaydedin. Makbuzları saklayın; başka yerde kaydedilmiş bir gideri tekrar girmeyin."
+        },
+        "pl": {
+          "purpose": "Dodaje wydatek do danych finansowych wybranego pakietu prac.",
+          "when": "Użyj podczas rejestrowania kosztu bezpośrednio przypisanego do konkretnego pakietu prac.",
+          "how": "Wprowadź datę i kwotę wydatku, wybierz kategorię, podaj dostawcę/odbiorcę i opis, dołącz dowód, jeśli jest dostępny, a następnie wybierz Add Expense.",
+          "inputs": "Wprowadź datę, kwotę, kategorię, dostawcę lub odbiorcę oraz opis wydatku; dołącz paragon lub dokument potwierdzający, jeśli jest dostępny.",
+          "result": "Jeśli walidacja i zapis zakończą się pomyślnie, wydatek zostanie dodany do tego pakietu.",
+          "notes": "Wybierz właściwy pakiet i zapisuj wyłącznie rzeczywiste koszty. Zachowaj paragony i nie duplikuj kosztu zarejestrowanego w innym miejscu."
+        },
+        "ur": {
+          "purpose": "منتخب ورک پیکیج کے مالی ریکارڈ میں خرچ شامل کرتا ہے۔",
+          "when": "جب کسی مخصوص ورک پیکیج سے براہِ راست متعلق لاگت درج کرنی ہو تو استعمال کریں۔",
+          "how": "خرچ کی تاریخ اور رقم درج کریں، زمرہ منتخب کریں، سپلائر/وصول کنندہ اور تفصیل شامل کریں، دستیاب ہو تو ثبوت منسلک کریں، پھر Add Expense منتخب کریں۔",
+          "inputs": "خرچ کی تاریخ، رقم، زمرہ، سپلائر یا وصول کنندہ اور تفصیل درج کریں؛ دستیاب ہو تو رسید یا معاون دستاویز منسلک کریں۔",
+          "result": "توثیق اور محفوظ کرنے کا عمل کامیاب ہو تو خرچ اسی پیکیج میں شامل ہو جاتا ہے۔",
+          "notes": "درست پیکیج منتخب کریں اور صرف حقیقی لاگت درج کریں۔ رسیدیں محفوظ رکھیں اور کسی دوسری جگہ درج شدہ خرچ دوبارہ شامل نہ کریں۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੇ ਵਰਕ ਪੈਕੇਜ ਦੇ ਵਿੱਤੀ ਰਿਕਾਰਡ ਵਿੱਚ ਖਰਚਾ ਜੋੜਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਕਿਸੇ ਖਾਸ ਵਰਕ ਪੈਕੇਜ ਨਾਲ ਸਿੱਧਾ ਜੁੜਿਆ ਖਰਚਾ ਦਰਜ ਕਰਨਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਖਰਚੇ ਦੀ ਤਾਰੀਖ ਅਤੇ ਰਕਮ ਭਰੋ, ਸ਼੍ਰੇਣੀ ਚੁਣੋ, ਸਪਲਾਇਰ/ਪ੍ਰਾਪਤਕਰਤਾ ਅਤੇ ਵੇਰਵਾ ਜੋੜੋ, ਉਪਲਬਧ ਹੋਵੇ ਤਾਂ ਸਬੂਤ ਲਗਾਓ, ਫਿਰ Add Expense ਚੁਣੋ।",
+          "inputs": "ਖਰਚੇ ਦੀ ਤਾਰੀਖ, ਰਕਮ, ਸ਼੍ਰੇਣੀ, ਸਪਲਾਇਰ ਜਾਂ ਪ੍ਰਾਪਤਕਰਤਾ ਅਤੇ ਵੇਰਵਾ ਭਰੋ; ਉਪਲਬਧ ਹੋਵੇ ਤਾਂ ਰਸੀਦ ਜਾਂ ਸਹਾਇਕ ਦਸਤਾਵੇਜ਼ ਲਗਾਓ।",
+          "result": "ਜਾਂਚ ਅਤੇ ਸੇਵ ਕਰਨਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਖਰਚਾ ਉਸ ਪੈਕੇਜ ਵਿੱਚ ਜੋੜਿਆ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਸਹੀ ਪੈਕੇਜ ਚੁਣੋ ਅਤੇ ਸਿਰਫ਼ ਅਸਲ ਖਰਚਾ ਦਰਜ ਕਰੋ। ਰਸੀਦਾਂ ਸੰਭਾਲੋ ਅਤੇ ਹੋਰ ਥਾਂ ਦਰਜ ਖਰਚਾ ਦੁਬਾਰਾ ਨਾ ਪਾਓ।"
+        },
+        "prs": {
+          "purpose": "هزینه‌ای به سوابق مالی بسته کاری انتخاب‌شده اضافه می‌کند.",
+          "when": "وقتی هزینه‌ای را ثبت می‌کنید که مستقیماً به یک بسته کاری مشخص مربوط است، استفاده کنید.",
+          "how": "تاریخ و مبلغ هزینه را وارد کنید، دسته‌بندی را انتخاب کنید، فروشنده/دریافت‌کننده و شرح را بنویسید، در صورت وجود مدرک پیوست کنید و سپس Add Expense را انتخاب کنید.",
+          "inputs": "تاریخ، مبلغ، دسته‌بندی، فروشنده یا دریافت‌کننده و شرح هزینه را وارد کنید؛ در صورت وجود رسید یا سند پشتیبان پیوست کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی و ذخیره، هزینه به همان بسته اضافه می‌شود.",
+          "notes": "بسته درست را انتخاب کنید و فقط هزینه واقعی را ثبت کنید. رسیدها را نگه دارید و هزینه‌ای را که در جای دیگری ثبت شده دوباره وارد نکنید."
+        },
+        "ps": {
+          "purpose": "د ټاکل شوې کاري بستې مالي ریکارډونو ته لګښت زیاتوي.",
+          "when": "کله چې داسې لګښت ثبتوئ چې په مستقیم ډول له یوې ځانګړې کاري بستې سره تړاو لري، دا وکاروئ.",
+          "how": "د لګښت نېټه او اندازه ولیکئ، کټګوري وټاکئ، عرضه کوونکی/ترلاسه کوونکی او تشریح ورزیاته کړئ، که ثبوت وي ضمیمه یې کړئ، بیا Add Expense وټاکئ.",
+          "inputs": "د لګښت نېټه، اندازه، کټګوري، عرضه کوونکی یا ترلاسه کوونکی او تشریح ولیکئ؛ که وي رسید یا ملاتړی سند ضمیمه کړئ.",
+          "result": "که ارزونه او خوندي کول بریالي شي، لګښت هماغې بستې ته زیاتېږي.",
+          "notes": "سمه بسته وټاکئ او یوازې اصلي لګښت ثبت کړئ. رسیدونه وساتئ او هغه لګښت بیا مه ثبتوئ چې بل ځای ثبت شوی وي."
         }
       },
       "handler_or_behavior": "`coAddPackageExpense()`"
@@ -7739,7 +7811,7 @@
           "purpose": "Records a payment actually received for the selected company job.",
           "when": "when a customer/company payment has arrived and you need to record its gross amount, deductions and net receipt.",
           "how": "Enter the payment date, gross amount, deduction type and amount, tax/VAT treatment, net amount and reference; attach remittance evidence if available, then select Record Payment.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "Enter the payment date, gross amount, deduction type and amount, tax/VAT treatment, net amount and reference; attach remittance evidence if available.",
           "result": "The payment is stored in that job’s records if the operation succeeds.",
           "notes": "Record only money actually received. Check gross, deductions and net reconcile. This payment is not posted, linked or copied to Accountancy; ask the accountant about tax/CIS/VAT treatment if uncertain."
         },
@@ -7747,9 +7819,81 @@
           "purpose": "پرداختی را که واقعاً برای کار شرکتی انتخاب‌شده دریافت شده ثبت می‌کند.",
           "when": "وقتی پرداخت مشتری/شرکت دریافت شده و باید مبلغ ناخالص، کسورات و دریافتی خالص آن ثبت شود، از این گزینه استفاده کنید.",
           "how": "تاریخ پرداخت، مبلغ ناخالص، نوع و مبلغ کسری، نحوه برخورد مالیاتی/VAT، مبلغ خالص و مرجع را وارد کنید؛ در صورت وجود رسید پرداخت پیوست و Record Payment را انتخاب کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "inputs": "تاریخ پرداخت، مبلغ ناخالص، نوع و مبلغ کسری، نحوه برخورد مالیاتی/VAT، مبلغ خالص و مرجع را وارد کنید؛ در صورت وجود مدرک حواله پیوست کنید.",
           "result": "در صورت موفقیت، پرداخت در سوابق همان کار ذخیره می‌شود.",
           "notes": "فقط پولی را ثبت کنید که واقعاً دریافت شده است. تطابق مبلغ ناخالص، کسورات و خالص را بررسی کنید. این پرداخت به Accountancy منتقل یا کپی نمی‌شود؛ اگر درباره مالیات/CIS/VAT مطمئن نیستید از حسابدار بپرسید."
+        },
+        "ar": {
+          "purpose": "يسجل دفعة مستلمة فعلياً عن وظيفة الشركة المحددة.",
+          "when": "عند استلام دفعة من العميل أو الشركة والحاجة إلى تسجيل المبلغ الإجمالي والاستقطاعات وصافي المبلغ المستلم.",
+          "how": "أدخل تاريخ الدفع والمبلغ الإجمالي ونوع الاستقطاع ومبلغه والمعالجة الضريبية أو ضريبة القيمة المضافة وصافي المبلغ والمرجع؛ وأرفق إثبات التحويل إن توفر، ثم اختر Record Payment.",
+          "inputs": "أدخل تاريخ الدفع والمبلغ الإجمالي ونوع الاستقطاع ومبلغه والمعالجة الضريبية/ضريبة القيمة المضافة وصافي المبلغ والمرجع، وأرفق إثبات التحويل إن توفر.",
+          "result": "يُحفظ الدفع في سجلات الوظيفة إذا نجحت العملية.",
+          "notes": "سجل الأموال المستلمة فعلياً فقط. طابق الإجمالي والاستقطاعات والصافي. لا تُرحّل هذه الدفعة إلى Accountancy ولا تُربط به أو تُنسخ إليه؛ استشر المحاسب بشأن الضرائب أو CIS أو VAT عند الشك."
+        },
+        "ckb": {
+          "purpose": "پارەیەک تۆمار دەکات کە بەڕاستی بۆ کاری کۆمپانیای هەڵبژێردراو وەرگیراوە.",
+          "when": "کاتێک پارەی کڕیار/کۆمپانیا وەرگیراوە و پێویستە بڕی گشتی، لێبڕین و بڕی پاک تۆمار بکەیت.",
+          "how": "بەرواری پارەدان، بڕی گشتی، جۆر و بڕی لێبڕین، مامەڵەی باج/VAT، بڕی پاک و ژمارەی سەرچاوە بنووسە؛ ئەگەر بەڵگەی گواستنەوە هەبوو هاوپێچی بکە، پاشان Record Payment هەڵبژێرە.",
+          "inputs": "بەروار، بڕی گشتی، جۆر و بڕی لێبڕین، مامەڵەی باج/VAT، بڕی پاک و ژمارەی سەرچاوە بنووسە؛ ئەگەر بەڵگە هەبوو هاوپێچی بکە.",
+          "result": "ئەگەر کردارەکە سەرکەوتوو بێت، پارەدانەکە لە تۆمارەکانی ئەو کارەدا پاشەکەوت دەکرێت.",
+          "notes": "تەنها ئەو پارەیە تۆمار بکە کە بەڕاستی وەرگیراوە. هاوتایی بڕی گشتی، لێبڕین و بڕی پاک بپشکنە. ئەم پارەدانە بۆ Accountancy نانێردرێت و پێوەندی یان کۆپی ناکرێت؛ لەبارەی باج/CIS/VAT لەگەڵ ژمێریار گفتوگۆ بکە ئەگەر دڵنیا نیت."
+        },
+        "kmr": {
+          "purpose": "Dravdanekê ku bi rastî ji bo karê pargîdaniya hilbijartî hatiye wergirtin tomar dike.",
+          "when": "Dema ku dravê xerîdar/pargîdanî hatiye wergirtin û divê mîqdara giştî, kêmtî û mîqdara paqij tomar bikî.",
+          "how": "Dîroka dravdanê, mîqdara giştî, cure û mîqdara kêmtî, awayê bac/VAT, mîqdara paqij û referansê binivîse; ger hebe belgeya veguhastinê pêve bike, paşê Record Payment hilbijêre.",
+          "inputs": "Dîrok, mîqdara giştî, cure û mîqdara kêmtî, awayê bac/VAT, mîqdara paqij û referansê binivîse; ger hebe belgeya veguhastinê pêve bike.",
+          "result": "Ger kiryar serkeftî be, dravdan di tomarên wê karê de tê tomarkirin.",
+          "notes": "Tenê dravê ku bi rastî hatiye wergirtin tomar bike. Giştî, kêmtî û paqij li hev bike. Ev dravdan nayê şandin, girêdan an kopîkirin bo Accountancy; heke li ser bac/CIS/VAT nezelalî hebe bi hesabdar re biaxive."
+        },
+        "tr": {
+          "purpose": "Seçilen şirket işi için gerçekten alınmış bir ödemeyi kaydeder.",
+          "when": "Müşteri veya şirket ödemesi ulaştığında brüt tutarı, kesintileri ve net tahsilatı kaydetmek için kullanın.",
+          "how": "Ödeme tarihini, brüt tutarı, kesinti türü ve tutarını, vergi/KDV uygulamasını, net tutarı ve referansı girin; varsa havale belgesini ekleyin ve Record Payment'i seçin.",
+          "inputs": "Ödeme tarihi, brüt tutar, kesinti türü ve tutarı, vergi/KDV işlemi, net tutar ve referansı girin; varsa havale kanıtını ekleyin.",
+          "result": "İşlem başarılı olursa ödeme ilgili işin kayıtlarına kaydedilir.",
+          "notes": "Yalnızca gerçekten alınan parayı kaydedin. Brüt, kesinti ve net tutarların uyuştuğunu kontrol edin. Bu ödeme Accountancy'ye aktarılmaz, bağlanmaz veya kopyalanmaz; vergi/CIS/KDV konusunda emin değilseniz muhasebecinize danışın."
+        },
+        "pl": {
+          "purpose": "Rejestruje płatność faktycznie otrzymaną za wybrane zlecenie firmy.",
+          "when": "Użyj, gdy otrzymano płatność od klienta lub firmy i trzeba zapisać kwotę brutto, potrącenia oraz kwotę netto.",
+          "how": "Wprowadź datę płatności, kwotę brutto, rodzaj i kwotę potrącenia, sposób rozliczenia podatku/VAT, kwotę netto i numer referencyjny; dołącz potwierdzenie przelewu, jeśli jest dostępne, a następnie wybierz Record Payment.",
+          "inputs": "Wprowadź datę, kwotę brutto, rodzaj i kwotę potrącenia, sposób rozliczenia podatku/VAT, kwotę netto i numer referencyjny; dołącz potwierdzenie przelewu, jeśli jest dostępne.",
+          "result": "Jeśli operacja się powiedzie, płatność zostanie zapisana w danych tego zlecenia.",
+          "notes": "Rejestruj wyłącznie faktycznie otrzymane środki. Sprawdź zgodność kwoty brutto, potrąceń i netto. Płatność nie jest księgowana, łączona ani kopiowana do Accountancy; w razie wątpliwości skonsultuj z księgowym rozliczenie podatku/CIS/VAT."
+        },
+        "ur": {
+          "purpose": "منتخب کمپنی کے کام کے لیے حقیقتاً وصول شدہ ادائیگی درج کرتا ہے۔",
+          "when": "جب گاہک یا کمپنی کی ادائیگی موصول ہو اور مجموعی رقم، کٹوتیاں اور خالص وصولی درج کرنی ہو تو استعمال کریں۔",
+          "how": "ادائیگی کی تاریخ، مجموعی رقم، کٹوتی کی قسم اور رقم، ٹیکس/VAT کا طریقۂ حساب، خالص رقم اور حوالہ درج کریں؛ دستیاب ہو تو ترسیلِ زر کا ثبوت منسلک کریں، پھر Record Payment منتخب کریں۔",
+          "inputs": "ادائیگی کی تاریخ، مجموعی رقم، کٹوتی کی قسم اور رقم، ٹیکس/VAT کا طریقۂ حساب، خالص رقم اور حوالہ درج کریں؛ دستیاب ہو تو ادائیگی کا ثبوت منسلک کریں۔",
+          "result": "کارروائی کامیاب ہونے پر ادائیگی اسی کام کے ریکارڈ میں محفوظ ہو جاتی ہے۔",
+          "notes": "صرف حقیقتاً وصول شدہ رقم درج کریں۔ مجموعی، کٹوتی اور خالص رقم کا حساب ملائیں۔ یہ ادائیگی Accountancy میں منتقل، منسلک یا نقل نہیں ہوتی؛ ٹیکس/CIS/VAT کے بارے میں شک ہو تو اکاؤنٹنٹ سے پوچھیں۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੀ ਕੰਪਨੀ ਦੇ ਕੰਮ ਲਈ ਅਸਲ ਵਿੱਚ ਮਿਲੀ ਭੁਗਤਾਨ ਰਕਮ ਦਰਜ ਕਰਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਗਾਹਕ ਜਾਂ ਕੰਪਨੀ ਦਾ ਭੁਗਤਾਨ ਮਿਲ ਗਿਆ ਹੋਵੇ ਅਤੇ ਕੁੱਲ ਰਕਮ, ਕਟੌਤੀਆਂ ਅਤੇ ਨੈੱਟ ਪ੍ਰਾਪਤੀ ਦਰਜ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਭੁਗਤਾਨ ਦੀ ਤਾਰੀਖ, ਕੁੱਲ ਰਕਮ, ਕਟੌਤੀ ਦੀ ਕਿਸਮ ਅਤੇ ਰਕਮ, ਟੈਕਸ/VAT ਦਾ ਹਿਸਾਬ, ਨੈੱਟ ਰਕਮ ਅਤੇ ਹਵਾਲਾ ਭਰੋ; ਉਪਲਬਧ ਹੋਵੇ ਤਾਂ ਰਕਮ ਭੇਜਣ ਦਾ ਸਬੂਤ ਲਗਾਓ, ਫਿਰ Record Payment ਚੁਣੋ।",
+          "inputs": "ਭੁਗਤਾਨ ਦੀ ਤਾਰੀਖ, ਕੁੱਲ ਰਕਮ, ਕਟੌਤੀ ਦੀ ਕਿਸਮ ਅਤੇ ਰਕਮ, ਟੈਕਸ/VAT ਦਾ ਹਿਸਾਬ, ਨੈੱਟ ਰਕਮ ਅਤੇ ਹਵਾਲਾ ਭਰੋ; ਉਪਲਬਧ ਹੋਵੇ ਤਾਂ ਭੁਗਤਾਨ ਦਾ ਸਬੂਤ ਲਗਾਓ।",
+          "result": "ਕਾਰਵਾਈ ਸਫਲ ਹੋਣ 'ਤੇ ਭੁਗਤਾਨ ਉਸ ਕੰਮ ਦੇ ਰਿਕਾਰਡ ਵਿੱਚ ਸੇਵ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਸਿਰਫ਼ ਅਸਲ ਵਿੱਚ ਮਿਲੇ ਪੈਸੇ ਦਰਜ ਕਰੋ। ਕੁੱਲ, ਕਟੌਤੀਆਂ ਅਤੇ ਨੈੱਟ ਰਕਮ ਦਾ ਮਿਲਾਣ ਕਰੋ। ਇਹ ਭੁਗਤਾਨ Accountancy ਵਿੱਚ ਭੇਜਿਆ, ਜੋੜਿਆ ਜਾਂ ਕਾਪੀ ਨਹੀਂ ਹੁੰਦਾ; ਟੈਕਸ/CIS/VAT ਬਾਰੇ ਸ਼ੱਕ ਹੋਵੇ ਤਾਂ ਅਕਾਊਂਟੈਂਟ ਨਾਲ ਗੱਲ ਕਰੋ।"
+        },
+        "prs": {
+          "purpose": "پرداختی را که واقعاً برای کار شرکتی انتخاب‌شده دریافت شده ثبت می‌کند.",
+          "when": "وقتی پرداخت مشتری یا شرکت دریافت شده و باید مبلغ ناخالص، کسورات و دریافتی خالص ثبت شود، استفاده کنید.",
+          "how": "تاریخ پرداخت، مبلغ ناخالص، نوع و مبلغ کسری، نحوه برخورد مالیاتی/VAT، مبلغ خالص و مرجع را وارد کنید؛ در صورت وجود مدرک حواله پیوست کنید و سپس Record Payment را انتخاب کنید.",
+          "inputs": "تاریخ، مبلغ ناخالص، نوع و مبلغ کسری، نحوه برخورد مالیاتی/VAT، مبلغ خالص و مرجع را وارد کنید؛ در صورت وجود مدرک حواله پیوست کنید.",
+          "result": "در صورت موفقیت عملیات، پرداخت در سوابق همان کار ذخیره می‌شود.",
+          "notes": "فقط پولی را ثبت کنید که واقعاً دریافت شده است. تطابق مبلغ ناخالص، کسورات و خالص را بررسی کنید. این پرداخت به Accountancy منتقل، مرتبط یا کپی نمی‌شود؛ در صورت تردید درباره مالیات/CIS/VAT با حسابدار مشورت کنید."
+        },
+        "ps": {
+          "purpose": "هغه پیسې ثبتوي چې د ټاکل شوي شرکت د کار لپاره په رښتیا ترلاسه شوې وي.",
+          "when": "کله چې د پېرودونکي یا شرکت پیسې ترلاسه شي او ټولیزه اندازه، کسرونه او خالص ترلاسه شوې پیسې ثبتول غواړئ، دا وکاروئ.",
+          "how": "د تادیې نېټه، ټولیزه اندازه، د کسر ډول او اندازه، د مالیې/VAT چلند، خالصه اندازه او حواله ولیکئ؛ که د پیسو د لېږد ثبوت وي ضمیمه یې کړئ، بیا Record Payment وټاکئ.",
+          "inputs": "د تادیې نېټه، ټولیزه اندازه، د کسر ډول او اندازه، د مالیې/VAT چلند، خالصه اندازه او حواله ولیکئ؛ که وي د تادیې ثبوت ضمیمه کړئ.",
+          "result": "که عملیات بریالي شي، تادیه د هماغه کار په ریکارډونو کې خوندي کېږي.",
+          "notes": "یوازې هغه پیسې ثبت کړئ چې په رښتیا ترلاسه شوې وي. ټولیزه، کسرونه او خالصه اندازه سره پرتله کړئ. دا تادیه Accountancy ته نه لېږل کېږي، نه ورسره تړل کېږي او نه کاپي کېږي؛ د مالیې/CIS/VAT په اړه له محاسب سره مشوره وکړئ."
         }
       },
       "handler_or_behavior": "`coRecordPayment()`"
@@ -7765,7 +7909,7 @@
           "purpose": "Records the payment details for an invoice marked for payment confirmation.",
           "when": "when the customer has paid and you need to record the payment date and method.",
           "how": "Check the invoice, choose the actual payment date and method, then select Confirm payment.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "Select the correct invoice, the date the funds were received, and the actual payment method.",
           "result": "The invoice payment status is updated if the confirmation succeeds.",
           "notes": "Confirm only after funds have actually been received. This action changes invoice payment status; check whether a corresponding accounting entry is required separately."
         },
@@ -7773,9 +7917,81 @@
           "purpose": "جزئیات پرداخت فاکتوری را که برای تأیید پرداخت انتخاب شده ثبت می‌کند.",
           "when": "وقتی مشتری پرداخت کرده و باید تاریخ و روش پرداخت را ثبت کنید، از این گزینه استفاده کنید.",
           "how": "فاکتور را بررسی کنید، تاریخ واقعی پرداخت و روش آن را انتخاب و Confirm payment را بزنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "inputs": "فاکتور درست، تاریخ دریافت وجه و روش واقعی پرداخت را انتخاب کنید.",
           "result": "در صورت موفقیت تأیید، وضعیت پرداخت فاکتور به‌روزرسانی می‌شود.",
           "notes": "فقط پس از دریافت واقعی وجه تأیید کنید. این عملیات وضعیت پرداخت فاکتور را تغییر می‌دهد؛ بررسی کنید آیا ثبت حسابداری متناظر باید جداگانه انجام شود."
+        },
+        "ar": {
+          "purpose": "يسجل تفاصيل الدفع لفاتورة محددة بانتظار تأكيد الدفع.",
+          "when": "عندما يدفع العميل وتحتاج إلى تسجيل تاريخ الدفع وطريقته.",
+          "how": "راجع الفاتورة، واختر تاريخ الدفع الفعلي وطريقته، ثم اختر Confirm payment.",
+          "inputs": "حدد الفاتورة الصحيحة وتاريخ استلام المبلغ وطريقة الدفع الفعلية.",
+          "result": "تتحدث حالة دفع الفاتورة إذا نجح التأكيد.",
+          "notes": "لا تؤكد إلا بعد استلام الأموال فعلياً. يغيّر هذا الإجراء حالة دفع الفاتورة؛ تحقق مما إذا كان يلزم إنشاء قيد محاسبي منفصل."
+        },
+        "ckb": {
+          "purpose": "وردەکارییەکانی پارەدانی فاکتۆرێک تۆمار دەکات کە بۆ پشتڕاستکردنەوەی پارەدان دیاری کراوە.",
+          "when": "کاتێک کڕیار پارەی داوە و پێویستە بەروار و شێوازی پارەدان تۆمار بکەیت.",
+          "how": "فاکتۆرەکە بپشکنە، بەروار و شێوازی ڕاستەقینەی پارەدان هەڵبژێرە، پاشان Confirm payment هەڵبژێرە.",
+          "inputs": "فاکتۆری دروست، بەرواری وەرگرتنی پارە و شێوازی پارەدانی ڕاستەقینە دیاری بکە.",
+          "result": "ئەگەر پشتڕاستکردنەوە سەرکەوتوو بێت، دۆخی پارەدانی فاکتۆرەکە نوێ دەکرێتەوە.",
+          "notes": "تەنها دوای وەرگرتنی ڕاستەقینەی پارە پشتڕاستی بکەرەوە. ئەم کردارە دۆخی پارەدانی فاکتۆر دەگۆڕێت؛ بپشکنە ئایا پێویستە تۆماری ژمێریارییەکی جیاواز دروست بکرێت."
+        },
+        "kmr": {
+          "purpose": "Hûrguliyên dravdana fatûreyekê ku ji bo piştrastkirina dravdanê hatiye nîşankirin tomar dike.",
+          "when": "Dema ku xerîdar drav daye û divê tu dîrok û awayê dravdanê tomar bikî.",
+          "how": "Fatûreyê kontrol bike, dîrok û awayê rastîn ê dravdanê hilbijêre, paşê Confirm payment hilbijêre.",
+          "inputs": "Fatûreya rast, dîroka wergirtina drav û awayê rastîn ê dravdanê hilbijêre.",
+          "result": "Ger piştrastkirin serkeftî be, rewşa dravdana fatûreyê nû dibe.",
+          "notes": "Tenê piştî ku drav bi rastî hatiye wergirtin piştrast bike. Ev kiryar rewşa dravdana fatûreyê diguherîne; kontrol bike ka tomarê hesabê yê cuda hewce ye an na."
+        },
+        "tr": {
+          "purpose": "Ödeme onayı bekleyen bir fatura için ödeme ayrıntılarını kaydeder.",
+          "when": "Müşteri ödeme yaptığında ve ödeme tarihini ve yöntemini kaydetmeniz gerektiğinde kullanın.",
+          "how": "Faturayı kontrol edin, gerçek ödeme tarihini ve yöntemini seçin, ardından Confirm payment'i seçin.",
+          "inputs": "Doğru faturayı, paranın alındığı tarihi ve fiilî ödeme yöntemini seçin.",
+          "result": "Onay başarılı olursa faturanın ödeme durumu güncellenir.",
+          "notes": "Yalnızca para gerçekten alındıktan sonra onaylayın. Bu işlem faturanın ödeme durumunu değiştirir; ayrıca muhasebe kaydı gerekip gerekmediğini kontrol edin."
+        },
+        "pl": {
+          "purpose": "Zapisuje szczegóły płatności dla faktury oczekującej na potwierdzenie zapłaty.",
+          "when": "Użyj, gdy klient zapłacił i trzeba zapisać datę oraz metodę płatności.",
+          "how": "Sprawdź fakturę, wybierz rzeczywistą datę i metodę płatności, a następnie wybierz Confirm payment.",
+          "inputs": "Wskaż właściwą fakturę, datę otrzymania środków i faktyczną metodę płatności.",
+          "result": "Jeśli potwierdzenie się powiedzie, status płatności faktury zostanie zaktualizowany.",
+          "notes": "Potwierdzaj dopiero po faktycznym otrzymaniu środków. Ta czynność zmienia status płatności faktury; sprawdź, czy osobno trzeba utworzyć zapis księgowy."
+        },
+        "ur": {
+          "purpose": "ادائیگی کی تصدیق کے لیے منتخب انوائس کی ادائیگی کی تفصیلات درج کرتا ہے۔",
+          "when": "جب گاہک ادائیگی کر چکا ہو اور ادائیگی کی تاریخ اور طریقہ درج کرنا ہو تو استعمال کریں۔",
+          "how": "انوائس چیک کریں، اصل ادائیگی کی تاریخ اور طریقہ منتخب کریں، پھر Confirm payment منتخب کریں۔",
+          "inputs": "درست انوائس، رقم موصول ہونے کی تاریخ اور اصل ادائیگی کا طریقہ منتخب کریں۔",
+          "result": "تصدیق کامیاب ہونے پر انوائس کی ادائیگی کی حیثیت اپ ڈیٹ ہو جاتی ہے۔",
+          "notes": "صرف رقم حقیقتاً وصول ہونے کے بعد تصدیق کریں۔ یہ کارروائی انوائس کی ادائیگی کی حیثیت بدلتی ہے؛ دیکھیں کہ الگ اکاؤنٹنگ اندراج بھی درکار ہے یا نہیں۔"
+        },
+        "pa": {
+          "purpose": "ਭੁਗਤਾਨ ਦੀ ਪੁਸ਼ਟੀ ਲਈ ਚੁਣੇ ਇਨਵੌਇਸ ਦੇ ਭੁਗਤਾਨ ਵੇਰਵੇ ਦਰਜ ਕਰਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਗਾਹਕ ਭੁਗਤਾਨ ਕਰ ਚੁੱਕਾ ਹੋਵੇ ਅਤੇ ਭੁਗਤਾਨ ਦੀ ਤਾਰੀਖ ਅਤੇ ਢੰਗ ਦਰਜ ਕਰਨਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਇਨਵੌਇਸ ਜਾਂਚੋ, ਅਸਲ ਭੁਗਤਾਨ ਦੀ ਤਾਰੀਖ ਅਤੇ ਢੰਗ ਚੁਣੋ, ਫਿਰ Confirm payment ਚੁਣੋ।",
+          "inputs": "ਸਹੀ ਇਨਵੌਇਸ, ਪੈਸੇ ਮਿਲਣ ਦੀ ਤਾਰੀਖ ਅਤੇ ਅਸਲ ਭੁਗਤਾਨ ਦਾ ਢੰਗ ਚੁਣੋ।",
+          "result": "ਪੁਸ਼ਟੀ ਸਫਲ ਹੋਣ 'ਤੇ ਇਨਵੌਇਸ ਦੀ ਭੁਗਤਾਨ ਸਥਿਤੀ ਅਪਡੇਟ ਹੋ ਜਾਂਦੀ ਹੈ।",
+          "notes": "ਸਿਰਫ਼ ਪੈਸੇ ਅਸਲ ਵਿੱਚ ਮਿਲਣ ਤੋਂ ਬਾਅਦ ਪੁਸ਼ਟੀ ਕਰੋ। ਇਹ ਕਾਰਵਾਈ ਇਨਵੌਇਸ ਦੀ ਭੁਗਤਾਨ ਸਥਿਤੀ ਬਦਲਦੀ ਹੈ; ਜਾਂਚੋ ਕਿ ਵੱਖਰੀ ਅਕਾਊਂਟਿੰਗ ਐਂਟਰੀ ਵੀ ਲੋੜੀਂਦੀ ਹੈ ਜਾਂ ਨਹੀਂ।"
+        },
+        "prs": {
+          "purpose": "جزئیات پرداخت فاکتوری را ثبت می‌کند که برای تأیید پرداخت انتخاب شده است.",
+          "when": "وقتی مشتری پرداخت کرده و باید تاریخ و روش پرداخت ثبت شود، استفاده کنید.",
+          "how": "فاکتور را بررسی کنید، تاریخ و روش واقعی پرداخت را انتخاب کنید و سپس Confirm payment را بزنید.",
+          "inputs": "فاکتور درست، تاریخ دریافت پول و روش واقعی پرداخت را انتخاب کنید.",
+          "result": "در صورت موفقیت تأیید، وضعیت پرداخت فاکتور به‌روزرسانی می‌شود.",
+          "notes": "فقط پس از دریافت واقعی وجه تأیید کنید. این عملیات وضعیت پرداخت فاکتور را تغییر می‌دهد؛ بررسی کنید آیا ثبت حسابداری جداگانه نیز لازم است."
+        },
+        "ps": {
+          "purpose": "د هغې بل د تادیې جزئیات ثبتوي چې د تادیې د تایید لپاره ټاکل شوی وي.",
+          "when": "کله چې پېرودونکي پیسې ورکړې وي او د تادیې نېټه او طریقه ثبتول غواړئ، دا وکاروئ.",
+          "how": "بل وګورئ، د پیسو د ترلاسه کولو اصلي نېټه او طریقه وټاکئ، بیا Confirm payment وټاکئ.",
+          "inputs": "سم بل، د پیسو د ترلاسه کولو نېټه او د تادیې اصلي طریقه وټاکئ.",
+          "result": "که تایید بریالی شي، د بل د تادیې حالت تازه کېږي.",
+          "notes": "یوازې وروسته له دې تایید وکړئ چې پیسې په رښتیا ترلاسه شوې وي. دا کړنه د بل د تادیې حالت بدلوي؛ وګورئ چې جلا حسابداري ثبت هم اړین دی که نه."
         }
       },
       "handler_or_behavior": "`confirmInvoicePaid()`"
@@ -7791,7 +8007,7 @@
           "purpose": "Moves the current paginated list to the previous page.",
           "when": "when viewing later pages of a long project, company or record list.",
           "how": "Select Previous while it is enabled.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No information is required; use this control only to move to the previous page.",
           "result": "The preceding page of list results is displayed.",
           "notes": "This is navigation only and does not change stored records."
         },
@@ -7799,9 +8015,81 @@
           "purpose": "فهرست صفحه‌بندی‌شده فعلی را به صفحه قبلی می‌برد.",
           "when": "وقتی در حال مشاهده صفحات بعدی یک فهرست طولانی پروژه، شرکت یا سوابق هستید، از این گزینه استفاده کنید.",
           "how": "در صورت فعال‌بودن، Previous را انتخاب کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "inputs": "ورود اطلاعات لازم نیست؛ این گزینه فقط برای رفتن به صفحه قبلی است.",
           "result": "صفحه قبلی نتایج فهرست نمایش داده می‌شود.",
           "notes": "این فقط ناوبری است و سوابق ذخیره‌شده را تغییر نمی‌دهد."
+        },
+        "ar": {
+          "purpose": "ينقل القائمة ذات الصفحات إلى الصفحة السابقة.",
+          "when": "عند استعراض صفحات لاحقة من قائمة طويلة للمشروعات أو الشركات أو السجلات.",
+          "how": "اختر Previous عندما يكون الزر مفعلاً.",
+          "inputs": "لا يلزم إدخال بيانات؛ استخدم هذا الخيار للتنقل إلى الصفحة السابقة فقط.",
+          "result": "تظهر الصفحة السابقة من نتائج القائمة.",
+          "notes": "هذا إجراء تنقل فقط ولا يغيّر السجلات المحفوظة."
+        },
+        "ckb": {
+          "purpose": "پێڕستی لاپەڕەکراو بۆ لاپەڕەی پێشوو دەگوازێتەوە.",
+          "when": "کاتێک لاپەڕەکانی دواوەی پێڕستێکی درێژی پرۆژە، کۆمپانیا یان تۆمارەکان دەبینیت.",
+          "how": "کاتێک دوگمەکە چالاکە Previous هەڵبژێرە.",
+          "inputs": "هیچ زانیارییەک پێویست نییە؛ تەنها بۆ گواستنەوە بۆ لاپەڕەی پێشوو بەکاری بهێنە.",
+          "result": "لاپەڕەی پێشووی ئەنجامەکانی پێڕست پیشان دەدرێت.",
+          "notes": "ئەمە تەنها گەشتکردنە و هیچ تۆمارێکی پاشەکەوتکراو ناگۆڕێت."
+        },
+        "kmr": {
+          "purpose": "Lîsteya rûpelkirî ber bi rûpela berê ve diguherîne.",
+          "when": "Dema ku tu rûpelên paşîn ên lîsteyeke dirêj a projeyê, pargîdaniyê an tomarê dibînî.",
+          "how": "Dema ku çalak be Previous hilbijêre.",
+          "inputs": "Agahî nehewce ye; vê tenê ji bo vegera rûpela berê bikar bîne.",
+          "result": "Rûpela berê ya encamên lîsteyê xuya dibe.",
+          "notes": "Ev tenê rêvekirin e û tomarên tomarkirî naguherîne."
+        },
+        "tr": {
+          "purpose": "Sayfalandırılmış listeyi bir önceki sayfaya taşır.",
+          "when": "Uzun bir proje, şirket veya kayıt listesinin sonraki sayfalarını görüntülerken kullanın.",
+          "how": "Etkin olduğunda Previous'ı seçin.",
+          "inputs": "Bilgi girmeniz gerekmez; yalnızca önceki sayfaya gitmek için kullanın.",
+          "result": "Liste sonuçlarının önceki sayfası görüntülenir.",
+          "notes": "Bu yalnızca gezinme işlemidir ve kayıtlı verileri değiştirmez."
+        },
+        "pl": {
+          "purpose": "Przenosi bieżącą listę stronicowaną na poprzednią stronę.",
+          "when": "Użyj podczas przeglądania dalszych stron długiej listy projektów, firm lub rekordów.",
+          "how": "Wybierz Previous, gdy przycisk jest aktywny.",
+          "inputs": "Nie trzeba podawać danych; użyj tej opcji wyłącznie do przejścia na poprzednią stronę.",
+          "result": "Wyświetlana jest poprzednia strona wyników listy.",
+          "notes": "To wyłącznie nawigacja i nie zmienia zapisanych rekordów."
+        },
+        "ur": {
+          "purpose": "صفحہ بند فہرست کو پچھلے صفحے پر لے جاتا ہے۔",
+          "when": "جب کسی طویل پروجیکٹ، کمپنی یا ریکارڈ فہرست کے بعد والے صفحات دیکھ رہے ہوں تو استعمال کریں۔",
+          "how": "جب Previous فعال ہو تو اسے منتخب کریں۔",
+          "inputs": "کوئی معلومات درج کرنے کی ضرورت نہیں؛ اسے صرف پچھلے صفحے پر جانے کے لیے استعمال کریں۔",
+          "result": "فہرست کے نتائج کا پچھلا صفحہ دکھایا جاتا ہے۔",
+          "notes": "یہ صرف نیویگیشن ہے اور محفوظ شدہ ریکارڈ تبدیل نہیں کرتا۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਪੰਨਾ-ਵੰਡੀ ਸੂਚੀ ਨੂੰ ਪਿਛਲੇ ਪੰਨੇ 'ਤੇ ਲੈ ਜਾਂਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਲੰਮੀ ਪ੍ਰੋਜੈਕਟ, ਕੰਪਨੀ ਜਾਂ ਰਿਕਾਰਡ ਸੂਚੀ ਦੇ ਅਗਲੇ ਪੰਨੇ ਵੇਖ ਰਹੇ ਹੋਵੋ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਜਦੋਂ Previous ਚਾਲੂ ਹੋਵੇ ਤਾਂ ਇਸਨੂੰ ਚੁਣੋ।",
+          "inputs": "ਕੋਈ ਜਾਣਕਾਰੀ ਦੇਣ ਦੀ ਲੋੜ ਨਹੀਂ; ਇਸਨੂੰ ਸਿਰਫ਼ ਪਿਛਲੇ ਪੰਨੇ 'ਤੇ ਜਾਣ ਲਈ ਵਰਤੋ।",
+          "result": "ਸੂਚੀ ਦੇ ਨਤੀਜਿਆਂ ਦਾ ਪਿਛਲਾ ਪੰਨਾ ਦਿਖਾਇਆ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਇਹ ਸਿਰਫ਼ ਨੈਵੀਗੇਸ਼ਨ ਹੈ ਅਤੇ ਸੇਵ ਕੀਤੇ ਰਿਕਾਰਡ ਨਹੀਂ ਬਦਲਦਾ।"
+        },
+        "prs": {
+          "purpose": "فهرست صفحه‌بندی‌شده فعلی را به صفحه قبلی می‌برد.",
+          "when": "وقتی صفحات بعدی یک فهرست طولانی پروژه، شرکت یا سوابق را مشاهده می‌کنید، استفاده کنید.",
+          "how": "وقتی Previous فعال است آن را انتخاب کنید.",
+          "inputs": "ورود اطلاعات لازم نیست؛ این گزینه فقط برای رفتن به صفحه قبلی است.",
+          "result": "صفحه قبلی نتایج فهرست نمایش داده می‌شود.",
+          "notes": "این فقط عملیات ناوبری است و سوابق ذخیره‌شده را تغییر نمی‌دهد."
+        },
+        "ps": {
+          "purpose": "اوسنی پاڼه‌لرونکی لېست پخوانۍ پاڼې ته وړي.",
+          "when": "کله چې د اوږد پروژې، شرکت یا ریکارډ لېست وروستۍ پاڼې ګورئ، دا وکاروئ.",
+          "how": "کله چې Previous فعال وي، هغه وټاکئ.",
+          "inputs": "معلوماتو ته اړتیا نشته؛ دا یوازې پخوانۍ پاڼې ته د تګ لپاره وکاروئ.",
+          "result": "د لېست د پایلو پخوانۍ پاڼه ښکاره کېږي.",
+          "notes": "دا یوازې د لټون/تګ راتګ کړنه ده او خوندي شوي ریکارډونه نه بدلوي."
         }
       },
       "handler_or_behavior": "`changeListPage(`"
@@ -7817,7 +8105,7 @@
           "purpose": "Jumps to the selected page in the current paginated list.",
           "when": "when you want to move directly to a nearby page of results.",
           "how": "Select the required page number from the pagination controls.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "Select an available page number that you want to view.",
           "result": "The selected page of results is displayed.",
           "notes": "Only available page numbers can be selected; this does not edit or delete records."
         },
@@ -7825,9 +8113,81 @@
           "purpose": "به صفحه انتخاب‌شده در فهرست صفحه‌بندی‌شده فعلی می‌رود.",
           "when": "وقتی می‌خواهید مستقیماً به صفحه مشخصی از نتایج بروید، از این گزینه استفاده کنید.",
           "how": "شماره صفحه موردنظر را از کنترل‌های صفحه‌بندی انتخاب کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "inputs": "شماره صفحه موجودی را که می‌خواهید مشاهده کنید انتخاب کنید.",
           "result": "صفحه انتخاب‌شده نتایج نمایش داده می‌شود.",
           "notes": "فقط شماره صفحه‌های موجود قابل انتخاب هستند؛ این گزینه سوابق را ویرایش یا حذف نمی‌کند."
+        },
+        "ar": {
+          "purpose": "ينتقل إلى الصفحة المحددة في القائمة الحالية المقسمة إلى صفحات.",
+          "when": "عندما تريد الانتقال مباشرة إلى صفحة معينة من النتائج.",
+          "how": "اختر رقم الصفحة المطلوب من عناصر التنقل بين الصفحات.",
+          "inputs": "اختر رقم الصفحة المتاح الذي تريد عرضه.",
+          "result": "تظهر صفحة النتائج المحددة.",
+          "notes": "يمكن اختيار أرقام الصفحات المتاحة فقط؛ ولا يؤدي ذلك إلى تعديل السجلات أو حذفها."
+        },
+        "ckb": {
+          "purpose": "بۆ لاپەڕەی دیاریکراو لە پێڕستی لاپەڕەکراوی ئێستا دەچێت.",
+          "when": "کاتێک دەتەوێت ڕاستەوخۆ بچیتە لاپەڕەیەکی دیاریکراوی ئەنجامەکان.",
+          "how": "ژمارەی لاپەڕەی داواکراو لە کۆنترۆڵەکانی لاپەڕەکردن هەڵبژێرە.",
+          "inputs": "ژمارەی ئەو لاپەڕەیەی بەردەستە هەڵبژێرە کە دەتەوێت ببینیت.",
+          "result": "لاپەڕەی دیاریکراوی ئەنجامەکان پیشان دەدرێت.",
+          "notes": "تەنها ژمارەی لاپەڕە بەردەستەکان دەتوانرێت هەڵبژێردرێت؛ ئەمە تۆمارەکان دەستکاری یان ناسڕێتەوە."
+        },
+        "kmr": {
+          "purpose": "Di lîsteya rûpelkirî ya niha de rasterast diçe rûpela hilbijartî.",
+          "when": "Dema ku tu dixwazî rasterast biçî rûpeleke taybet a encaman.",
+          "how": "Ji kontrolên rûpelkirinê jimara rûpela xwestî hilbijêre.",
+          "inputs": "Jimara rûpela berdest a ku dixwazî bibînî hilbijêre.",
+          "result": "Rûpela hilbijartî ya encaman xuya dibe.",
+          "notes": "Tenê jimareyên rûpelên berdest dikarin bên hilbijartin; ev tomarên tomarî naguhere û jê nake."
+        },
+        "tr": {
+          "purpose": "Mevcut sayfalandırılmış listede seçilen sayfaya gider.",
+          "when": "Sonuçların belirli bir sayfasına doğrudan gitmek istediğinizde kullanın.",
+          "how": "Sayfalama denetimlerinden istediğiniz sayfa numarasını seçin.",
+          "inputs": "Görüntülemek istediğiniz kullanılabilir sayfa numarasını seçin.",
+          "result": "Seçilen sonuç sayfası görüntülenir.",
+          "notes": "Yalnızca mevcut sayfa numaraları seçilebilir; bu işlem kayıtları düzenlemez veya silmez."
+        },
+        "pl": {
+          "purpose": "Przechodzi do wybranej strony bieżącej listy stronicowanej.",
+          "when": "Użyj, gdy chcesz przejść bezpośrednio do określonej strony wyników.",
+          "how": "Wybierz żądany numer strony w elementach stronicowania.",
+          "inputs": "Wybierz dostępny numer strony, którą chcesz wyświetlić.",
+          "result": "Wyświetlana jest wybrana strona wyników.",
+          "notes": "Można wybierać tylko dostępne numery stron; ta czynność nie edytuje ani nie usuwa rekordów."
+        },
+        "ur": {
+          "purpose": "موجودہ صفحہ بند فہرست میں منتخب صفحے پر لے جاتا ہے۔",
+          "when": "جب نتائج کے کسی مخصوص صفحے پر براہِ راست جانا ہو تو استعمال کریں۔",
+          "how": "صفحہ بندی کے کنٹرولز میں مطلوبہ صفحہ نمبر منتخب کریں۔",
+          "inputs": "وہ دستیاب صفحہ نمبر منتخب کریں جسے آپ دیکھنا چاہتے ہیں۔",
+          "result": "منتخب نتائج کا صفحہ دکھایا جاتا ہے۔",
+          "notes": "صرف دستیاب صفحہ نمبر منتخب کیے جا سکتے ہیں؛ اس سے ریکارڈ میں ترمیم یا حذف نہیں ہوتا۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਪੰਨਾ-ਵੰਡੀ ਸੂਚੀ ਵਿੱਚ ਚੁਣੇ ਪੰਨੇ 'ਤੇ ਲੈ ਜਾਂਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਨਤੀਜਿਆਂ ਦੇ ਕਿਸੇ ਖਾਸ ਪੰਨੇ 'ਤੇ ਸਿੱਧਾ ਜਾਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਪੰਨਾ-ਵੰਡੀ ਕੰਟਰੋਲਾਂ ਵਿੱਚੋਂ ਲੋੜੀਂਦਾ ਪੰਨਾ ਨੰਬਰ ਚੁਣੋ।",
+          "inputs": "ਉਹ ਉਪਲਬਧ ਪੰਨਾ ਨੰਬਰ ਚੁਣੋ ਜਿਸਨੂੰ ਤੁਸੀਂ ਵੇਖਣਾ ਚਾਹੁੰਦੇ ਹੋ।",
+          "result": "ਚੁਣਿਆ ਨਤੀਜਾ ਪੰਨਾ ਦਿਖਾਇਆ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਸਿਰਫ਼ ਉਪਲਬਧ ਪੰਨਾ ਨੰਬਰ ਹੀ ਚੁਣੇ ਜਾ ਸਕਦੇ ਹਨ; ਇਸ ਨਾਲ ਰਿਕਾਰਡ ਸੋਧੇ ਜਾਂ ਮਿਟਾਏ ਨਹੀਂ ਜਾਂਦੇ।"
+        },
+        "prs": {
+          "purpose": "به صفحه انتخاب‌شده در فهرست صفحه‌بندی‌شده فعلی می‌رود.",
+          "when": "وقتی می‌خواهید مستقیماً به صفحه مشخصی از نتایج بروید، استفاده کنید.",
+          "how": "شماره صفحه موردنظر را از کنترل‌های صفحه‌بندی انتخاب کنید.",
+          "inputs": "شماره صفحه موجودی را که می‌خواهید ببینید انتخاب کنید.",
+          "result": "صفحه انتخاب‌شده نتایج نمایش داده می‌شود.",
+          "notes": "فقط شماره صفحه‌های موجود قابل انتخاب هستند؛ این عملیات سوابق را ویرایش یا حذف نمی‌کند."
+        },
+        "ps": {
+          "purpose": "په اوسني پاڼه‌لرونکي لېست کې ټاکل شوې پاڼې ته ځي.",
+          "when": "کله چې غواړئ د پایلو یوې ځانګړې پاڼې ته نېغ لاړ شئ، دا وکاروئ.",
+          "how": "د پاڼه‌بدلون له کنټرولونو څخه د غوښتل شوې پاڼې شمېره وټاکئ.",
+          "inputs": "هغه شته پاڼه شمېره وټاکئ چې لیدل یې غواړئ.",
+          "result": "د پایلو ټاکل شوې پاڼه ښکاره کېږي.",
+          "notes": "یوازې شته پاڼې شمېرې ټاکل کېدای شي؛ دا ریکارډونه نه سموي او نه یې ړنګوي."
         }
       },
       "handler_or_behavior": "`changeListPage(`"
