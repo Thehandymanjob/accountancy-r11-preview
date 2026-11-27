@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261127-R52",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R52",
-    "indexBlobSha": "abaad94994a6aeced23e26b6ea5724c989e8b188",
+    "buildId": "THA-273-R11-PREVIEW-20261127-R53",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R53",
+    "indexBlobSha": "80cad641f7e12cba8f6dd6ff81930fdfd4acfd3c",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,11 +30,11 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "abaad94994a6aeced23e26b6ea5724c989e8b188",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "80cad641f7e12cba8f6dd6ff81930fdfd4acfd3c",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js": "00788b1a55887e2edf4b5b44f81d39a5bf36e3f3"
+      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js": "359acd0b24234a4b6ed94627c93daa396ff7dc94"
     }
   },
   "rules": {
@@ -2240,6 +2240,51 @@
       "userApproval": {
         "result": "authorized for Preview development work only",
         "details": "User instructed continuation of Help Registry and contextual Help integration. This does not authorize deployment, merge or Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-SUPPORT-MESSAGE-BINDING-R53-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Connect the completed Save Support Message contextual Help entry to its exact form-scoped submit control. Preserve the local-draft-only behavior; no online message sending is introduced.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "ce13a4fcaae5fca16d992b27f9556820df94e7ab",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PENDING",
+        "runId": "pending",
+        "url": "pending",
+        "details": "R53 requires a fresh Version Authority Gate after synchronizing Build ID, canonical URL, index SHA and runtime asset pins."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Source inspection confirms one #helpContactForm and a single submit control scoped by #helpContactForm > .pr-actions > button[type=submit]. THA-HLP-0070 is CONTENT_COMPLETE and present in the approved runtime bundle. The handler saves a local IndexedDB draft only; it does not send the message. Live browser, language-switching, mobile and iPhone Safari tests remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting an authorized Preview deployment and real browser/iPhone Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continued Help ID connection work. This does not authorize Preview deployment, PR merge or Production promotion."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
