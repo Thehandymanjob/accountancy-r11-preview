@@ -12611,19 +12611,91 @@
       "translations": {
         "en": {
           "purpose": "Edit a cost in the project’s consolidated cost list.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control when you need to correct or update an existing cost in the project's consolidated cost list.",
           "how": "Choose Edit beside the intended cost, review its amount, date, category and source details, then save.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct cost record and review the amount, date, category and source.",
           "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
           "notes": "Ensure the cost is not already represented elsewhere before changing it; avoid double counting."
         },
         "fa": {
           "purpose": "ویرایش یک هزینه در فهرست یکپارچه هزینه‌های پروژه.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "وقتی لازم است هزینه‌ای موجود را در فهرست یکپارچه هزینه‌های پروژه اصلاح یا به‌روزرسانی کنید، از این گزینه استفاده کنید.",
           "how": "در کنار هزینه موردنظر Edit را انتخاب کنید، مبلغ، تاریخ، دسته‌بندی و منبع را بررسی و سپس ذخیره کنید.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "سابقه درست هزینه را انتخاب کنید و فیلدهای مبلغ، تاریخ، دسته‌بندی و منبع را بررسی کنید.",
           "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
           "notes": "مطمئن شوید هزینه در بخش دیگری دوباره ثبت نشده باشد تا دوباره‌شماری رخ ندهد."
+        },
+        "ar": {
+          "purpose": "يفتح تكلفة في قائمة تكاليف المشروع الموحدة لتعديلها.",
+          "when": "عندما تحتاج إلى تصحيح أو تحديث تكلفة موجودة في قائمة تكاليف المشروع الموحدة.",
+          "how": "اختر Edit بجانب التكلفة المطلوبة، وراجع المبلغ والتاريخ والفئة والمصدر، ثم احفظ.",
+          "inputs": "حدد سجل التكلفة الصحيح وراجع حقول المبلغ والتاريخ والفئة والمصدر.",
+          "result": "يُحدّث سجل التكلفة إذا نجح التحقق وأكد التطبيق التغيير.",
+          "notes": "تأكد من أن التكلفة غير مسجلة في موضع آخر قبل تعديلها لتجنب احتسابها مرتين."
+        },
+        "ckb": {
+          "purpose": "تێچوویەک لە پێڕستی یەکگرتووی تێچووی پرۆژە دەستکاری دەکات.",
+          "when": "کاتێک پێویستە تێچوویەکی هەبوو لە پێڕستی یەکگرتووی تێچوو ڕاست بکەیتەوە یان نوێی بکەیتەوە.",
+          "how": "لە تەنیشت تێچووی مەبەست Edit هەڵبژێرە، بڕ، بەروار، پۆل و سەرچاوە بپشکنە، پاشان پاشەکەوت بکە.",
+          "inputs": "تۆماری تێچووی دروست هەڵبژێرە و خانەکانی بڕ، بەروار، پۆل و سەرچاوە بپشکنە.",
+          "result": "ئەگەر پشتڕاستکردنەوە سەرکەوتوو بێت و ئەپەکە گۆڕانکارییەکە پشتڕاست بکاتەوە، تۆماری تێچوو نوێ دەکرێتەوە.",
+          "notes": "پێش دەستکاریکردن دڵنیابە تێچووەکە لە شوێنێکی تر تۆمار نەکرابێت بۆ ئەوەی دووجار ژمێردرێت."
+        },
+        "kmr": {
+          "purpose": "Lêçûnekê di lîsteya giştî ya lêçûnên projeyê de diguherîne.",
+          "when": "Dema ku tu hewceyî rastkirin an nûkirina lêçûneke heyî di lîsteya giştî ya lêçûnên projeyê de yî.",
+          "how": "Li kêleka lêçûna xwestî Edit hilbijêre, mîqdar, dîrok, kategorî û çavkaniyê kontrol bike, paşê tomar bike.",
+          "inputs": "Tomara lêçûna rast hilbijêre û qadên mîqdar, dîrok, kategorî û çavkaniyê kontrol bike.",
+          "result": "Tomara lêçûnê tê nûkirin heke kontrol serkeftî be û sepan guherînê piştrast bike.",
+          "notes": "Berî guherandinê piştrast bike ku lêçûn li cihêkî din nehatiye tomarkirin da ku du caran nehê hesabkirin."
+        },
+        "tr": {
+          "purpose": "Projenin birleştirilmiş maliyet listesindeki bir maliyeti düzenler.",
+          "when": "Projenin birleştirilmiş maliyet listesindeki mevcut bir maliyeti düzeltmeniz veya güncellemeniz gerektiğinde kullanın.",
+          "how": "İlgili maliyetin yanındaki Edit'i seçin, tutarı, tarihi, kategoriyi ve kaynak ayrıntılarını kontrol edin, ardından kaydedin.",
+          "inputs": "Doğru maliyet kaydını seçin ve tutar, tarih, kategori ve kaynak alanlarını inceleyin.",
+          "result": "Doğrulama başarılı olur ve uygulama değişikliği onaylarsa maliyet kaydı güncellenir.",
+          "notes": "Değişiklik yapmadan önce maliyetin başka bir yerde zaten kaydedilmediğinden emin olun; çift sayımdan kaçının."
+        },
+        "pl": {
+          "purpose": "Edytuje koszt na zbiorczej liście kosztów projektu.",
+          "when": "Użyj, gdy trzeba poprawić lub zaktualizować istniejący koszt na zbiorczej liście kosztów projektu.",
+          "how": "Wybierz Edit obok właściwego kosztu, sprawdź kwotę, datę, kategorię i źródło, a następnie zapisz.",
+          "inputs": "Wybierz właściwy rekord kosztu i sprawdź pola kwoty, daty, kategorii oraz źródła.",
+          "result": "Rekord kosztu zostanie zaktualizowany, jeśli walidacja się powiedzie i aplikacja potwierdzi zmianę.",
+          "notes": "Przed zmianą upewnij się, że koszt nie został już ujęty w innym miejscu; unikaj podwójnego naliczania."
+        },
+        "ur": {
+          "purpose": "پروجیکٹ کی مجموعی لاگت کی فہرست میں کسی لاگت میں ترمیم کرتا ہے۔",
+          "when": "جب پروجیکٹ کی مجموعی لاگت کی فہرست میں موجود لاگت درست یا اپ ڈیٹ کرنی ہو تو استعمال کریں۔",
+          "how": "متعلقہ لاگت کے ساتھ Edit منتخب کریں، رقم، تاریخ، زمرہ اور ماخذ کی تفصیلات دیکھیں، پھر محفوظ کریں۔",
+          "inputs": "درست لاگت کا ریکارڈ منتخب کریں اور رقم، تاریخ، زمرہ اور ماخذ کے خانے دیکھیں۔",
+          "result": "توثیق کامیاب ہو اور ایپ تبدیلی کی تصدیق کرے تو لاگت کا ریکارڈ اپ ڈیٹ ہو جاتا ہے۔",
+          "notes": "تبدیلی سے پہلے تصدیق کریں کہ لاگت کسی دوسری جگہ پہلے سے درج نہیں؛ دوہری گنتی سے بچیں۔"
+        },
+        "pa": {
+          "purpose": "ਪ੍ਰੋਜੈਕਟ ਦੀ ਇਕੱਠੀ ਲਾਗਤ ਸੂਚੀ ਵਿੱਚ ਕਿਸੇ ਲਾਗਤ ਨੂੰ ਸੋਧਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਪ੍ਰੋਜੈਕਟ ਦੀ ਇਕੱਠੀ ਲਾਗਤ ਸੂਚੀ ਵਿੱਚ ਮੌਜੂਦ ਲਾਗਤ ਠੀਕ ਜਾਂ ਅਪਡੇਟ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸੰਬੰਧਿਤ ਲਾਗਤ ਦੇ ਨਾਲ Edit ਚੁਣੋ, ਰਕਮ, ਤਾਰੀਖ, ਸ਼੍ਰੇਣੀ ਅਤੇ ਸਰੋਤ ਵੇਰਵੇ ਜਾਂਚੋ, ਫਿਰ ਸੇਵ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਲਾਗਤ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਰਕਮ, ਤਾਰੀਖ, ਸ਼੍ਰੇਣੀ ਅਤੇ ਸਰੋਤ ਵਾਲੇ ਖੇਤਰ ਵੇਖੋ।",
+          "result": "ਜਾਂਚ ਸਫਲ ਹੋਵੇ ਅਤੇ ਐਪ ਤਬਦੀਲੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਲਾਗਤ ਰਿਕਾਰਡ ਅਪਡੇਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਲਾਗਤ ਕਿਸੇ ਹੋਰ ਥਾਂ ਪਹਿਲਾਂ ਹੀ ਦਰਜ ਨਹੀਂ; ਦੋਹਰੀ ਗਿਣਤੀ ਤੋਂ ਬਚੋ।"
+        },
+        "prs": {
+          "purpose": "یک هزینه را در فهرست یکپارچه هزینه‌های پروژه ویرایش می‌کند.",
+          "when": "وقتی لازم است هزینه‌ای موجود را در فهرست یکپارچه هزینه‌های پروژه اصلاح یا به‌روزرسانی کنید، استفاده کنید.",
+          "how": "در کنار هزینه موردنظر Edit را انتخاب کنید، مبلغ، تاریخ، دسته‌بندی و منبع را بررسی و سپس ذخیره کنید.",
+          "inputs": "سابقه درست هزینه را انتخاب کنید و فیلدهای مبلغ، تاریخ، دسته‌بندی و منبع را بررسی کنید.",
+          "result": "اگر اعتبارسنجی موفق باشد و برنامه تغییر را تأیید کند، سابقه هزینه به‌روزرسانی می‌شود.",
+          "notes": "پیش از تغییر مطمئن شوید هزینه در جای دیگری ثبت نشده باشد تا دوباره‌شماری رخ ندهد."
+        },
+        "ps": {
+          "purpose": "د پروژې د ګډ لګښتونو په لېست کې یو لګښت سموي.",
+          "when": "کله چې د پروژې د ګډ لګښتونو په لېست کې موجود لګښت سمول یا تازه کول غواړئ، دا وکاروئ.",
+          "how": "د اړوند لګښت تر څنګ Edit وټاکئ، اندازه، نېټه، کټګوري او سرچینه وګورئ، بیا یې خوندي کړئ.",
+          "inputs": "د لګښت سم ریکارډ وټاکئ او د اندازې، نېټې، کټګورۍ او سرچینې خانې وګورئ.",
+          "result": "که ارزونه بریالۍ شي او اپلیکیشن بدلون تایید کړي، د لګښت ریکارډ تازه کېږي.",
+          "notes": "له بدلون مخکې ډاډ ترلاسه کړئ چې لګښت بل ځای نه وي ثبت شوی؛ له دوه ځله شمېرلو ډډه وکړئ."
         }
       },
       "handler_or_behavior": "`prEditUnifiedCost(`"
@@ -12637,19 +12709,91 @@
       "translations": {
         "en": {
           "purpose": "Delete a cost from the consolidated project cost list.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control only when a cost record is a duplicate or an entry error that should be removed after checking.",
           "how": "Choose Delete on the correct cost and confirm only after checking its details.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct cost record and verify its amount and source before confirming deletion.",
           "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
           "notes": "Deletion can change project totals. Verify the record and retain source evidence before removing it."
         },
         "fa": {
           "purpose": "حذف یک هزینه از فهرست یکپارچه هزینه‌های پروژه.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "فقط وقتی سابقه هزینه تکراری یا اشتباه است و پس از بررسی باید حذف شود، از این گزینه استفاده کنید.",
           "how": "در ردیف هزینه درست Delete را انتخاب کنید و فقط پس از بررسی جزئیات تأیید کنید.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "سابقه درست هزینه را انتخاب کنید و پیش از تأیید حذف، مبلغ و منبع را بررسی کنید.",
           "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
           "notes": "حذف می‌تواند جمع هزینه‌های پروژه را تغییر دهد. پیش از حذف، رکورد و مدرک اصلی را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يحذف تكلفة من قائمة تكاليف المشروع الموحدة.",
+          "when": "فقط عندما يكون سجل التكلفة مكرراً أو خاطئاً ويجب إزالته بعد التحقق.",
+          "how": "اختر Delete في صف التكلفة الصحيح ولا تؤكد إلا بعد مراجعة التفاصيل.",
+          "inputs": "حدد سجل التكلفة الصحيح وتحقق من المبلغ والمصدر قبل تأكيد الحذف.",
+          "result": "تُزال التكلفة أو تُعطّل إذا قبل التطبيق العملية وأكدها.",
+          "notes": "قد يؤدي الحذف إلى تغيير إجماليات المشروع. تحقق من السجل واحتفظ بالمستندات المصدرية قبل الإزالة."
+        },
+        "ckb": {
+          "purpose": "تێچوویەک لە پێڕستی یەکگرتووی تێچووی پرۆژە دەسڕێتەوە.",
+          "when": "تەنها کاتێک تۆماری تێچوو دووبارە یان هەڵەیە و دوای پشکنین دەبێت لاببرێت.",
+          "how": "لە ڕیزی تێچووی دروست Delete هەڵبژێرە و تەنها دوای پشکنینی وردەکارییەکان پشتڕاستی بکەرەوە.",
+          "inputs": "تۆماری تێچووی دروست هەڵبژێرە و پێش پشتڕاستکردنەوەی سڕینەوە بڕ و سەرچاوەکە بپشکنە.",
+          "result": "تێچووەکە لادەبرێت یان ناچالاک دەکرێت ئەگەر ئەپەکە کردارەکە قبووڵ و پشتڕاست بکاتەوە.",
+          "notes": "سڕینەوە دەتوانێت کۆی تێچووی پرۆژە بگۆڕێت. پێش لابردن تۆمارەکە بپشکنە و بەڵگە سەرچاوەییەکان بپارێزە."
+        },
+        "kmr": {
+          "purpose": "Lêçûnekê ji lîsteya giştî ya lêçûnên projeyê jê dike.",
+          "when": "Tenê dema ku tomara lêçûnê dubare an xelet e û piştî kontrolê divê were rakirin.",
+          "how": "Di rêza lêçûna rast de Delete hilbijêre û tenê piştî kontrolkirina hûrguliyan piştrast bike.",
+          "inputs": "Tomara lêçûna rast hilbijêre û berî piştrastkirina jêbirinê mîqdar û çavkaniyê kontrol bike.",
+          "result": "Lêçûn tê rakirin an neçalak kirin heke sepan kiryarê qebûl û piştrast bike.",
+          "notes": "Jêbirin dikare tevahiya lêçûnên projeyê biguherîne. Berî rakirinê tomarê kontrol bike û delîlên çavkaniyê biparêze."
+        },
+        "tr": {
+          "purpose": "Projenin birleştirilmiş maliyet listesinden bir maliyeti siler.",
+          "when": "Yalnızca maliyet kaydı yinelenmiş veya hatalıysa ve kontrol edildikten sonra kaldırılması gerekiyorsa kullanın.",
+          "how": "Doğru maliyet satırında Delete'i seçin ve yalnızca ayrıntıları kontrol ettikten sonra onaylayın.",
+          "inputs": "Doğru maliyet kaydını seçin ve silmeyi onaylamadan önce tutarı ve kaynağı kontrol edin.",
+          "result": "Uygulama işlemi kabul edip onaylarsa maliyet kaldırılır veya devre dışı bırakılır.",
+          "notes": "Silme işlemi proje toplamlarını değiştirebilir. Kaldırmadan önce kaydı doğrulayın ve kaynak kanıtları saklayın."
+        },
+        "pl": {
+          "purpose": "Usuwa koszt ze zbiorczej listy kosztów projektu.",
+          "when": "Użyj tylko wtedy, gdy rekord kosztu jest duplikatem lub błędnym wpisem i po sprawdzeniu należy go usunąć.",
+          "how": "Wybierz Delete przy właściwym koszcie i potwierdź dopiero po sprawdzeniu szczegółów.",
+          "inputs": "Wybierz właściwy rekord kosztu i przed potwierdzeniem usunięcia sprawdź kwotę oraz źródło.",
+          "result": "Koszt zostanie usunięty lub dezaktywowany, jeśli aplikacja zaakceptuje i potwierdzi operację.",
+          "notes": "Usunięcie może zmienić sumy projektu. Przed usunięciem sprawdź rekord i zachowaj dokumenty źródłowe."
+        },
+        "ur": {
+          "purpose": "پروجیکٹ کی مجموعی لاگت کی فہرست سے لاگت حذف کرتا ہے۔",
+          "when": "صرف اس وقت استعمال کریں جب لاگت کا ریکارڈ نقل یا غلط اندراج ہو اور جانچ کے بعد ہٹانا ضروری ہو۔",
+          "how": "درست لاگت کی قطار میں Delete منتخب کریں اور تفصیلات چیک کرنے کے بعد ہی تصدیق کریں۔",
+          "inputs": "درست لاگت کا ریکارڈ منتخب کریں اور حذف کی تصدیق سے پہلے رقم اور ماخذ چیک کریں۔",
+          "result": "ایپ کارروائی قبول اور تصدیق کرے تو لاگت ہٹا یا غیر فعال ہو جاتی ہے۔",
+          "notes": "حذف کرنے سے پروجیکٹ کے مجموعی اعداد بدل سکتے ہیں۔ ہٹانے سے پہلے ریکارڈ کی تصدیق کریں اور اصل ثبوت محفوظ رکھیں۔"
+        },
+        "pa": {
+          "purpose": "ਪ੍ਰੋਜੈਕਟ ਦੀ ਇਕੱਠੀ ਲਾਗਤ ਸੂਚੀ ਵਿੱਚੋਂ ਲਾਗਤ ਮਿਟਾਉਂਦਾ ਹੈ।",
+          "when": "ਸਿਰਫ਼ ਜਦੋਂ ਲਾਗਤ ਰਿਕਾਰਡ ਡੁਪਲੀਕੇਟ ਜਾਂ ਗਲਤ ਦਰਜ ਹੋਇਆ ਹੋਵੇ ਅਤੇ ਜਾਂਚ ਤੋਂ ਬਾਅਦ ਹਟਾਉਣਾ ਲੋੜੀਂਦਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸਹੀ ਲਾਗਤ ਦੀ ਕਤਾਰ ਵਿੱਚ Delete ਚੁਣੋ ਅਤੇ ਵੇਰਵੇ ਜਾਂਚਣ ਤੋਂ ਬਾਅਦ ਹੀ ਪੁਸ਼ਟੀ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਲਾਗਤ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਮਿਟਾਉਣ ਦੀ ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਰਕਮ ਅਤੇ ਸਰੋਤ ਜਾਂਚੋ।",
+          "result": "ਐਪ ਕਾਰਵਾਈ ਸਵੀਕਾਰ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਲਾਗਤ ਹਟਾਈ ਜਾਂ ਅਕਿਰਿਆਸ਼ੀਲ ਕੀਤੀ ਜਾਂਦੀ ਹੈ।",
+          "notes": "ਮਿਟਾਉਣ ਨਾਲ ਪ੍ਰੋਜੈਕਟ ਦੇ ਕੁੱਲ ਅੰਕ ਬਦਲ ਸਕਦੇ ਹਨ। ਹਟਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਰਿਕਾਰਡ ਜਾਂਚੋ ਅਤੇ ਮੂਲ ਸਬੂਤ ਸੰਭਾਲੋ।"
+        },
+        "prs": {
+          "purpose": "یک هزینه را از فهرست یکپارچه هزینه‌های پروژه حذف می‌کند.",
+          "when": "فقط وقتی سابقه هزینه تکراری یا اشتباه است و پس از بررسی باید حذف شود، استفاده کنید.",
+          "how": "در ردیف هزینه درست Delete را انتخاب کنید و فقط پس از بررسی جزئیات تأیید کنید.",
+          "inputs": "سابقه درست هزینه را انتخاب کنید و پیش از تأیید حذف، مبلغ و منبع را بررسی کنید.",
+          "result": "در صورت پذیرش و تأیید برنامه، هزینه حذف یا غیرفعال می‌شود.",
+          "notes": "حذف ممکن است جمع کل پروژه را تغییر دهد. پیش از حذف سابقه را بررسی و مدارک منبع را نگه دارید."
+        },
+        "ps": {
+          "purpose": "د پروژې د ګډ لګښتونو له لېست څخه لګښت ړنګوي.",
+          "when": "یوازې هغه وخت یې وکاروئ چې د لګښت ریکارډ تکراري یا غلط وي او له کتنې وروسته لرې کول یې اړین وي.",
+          "how": "د لګښت په سم قطار کې Delete وټاکئ او یوازې د جزئیاتو له کتلو وروسته تایید کړئ.",
+          "inputs": "د لګښت سم ریکارډ وټاکئ او د ړنګولو له تایید مخکې اندازه او سرچینه وګورئ.",
+          "result": "که اپلیکیشن کړنه ومني او تایید یې کړي، لګښت لرې یا غیرفعال کېږي.",
+          "notes": "ړنګول د پروژې ټولیزې شمېرې بدلولی شي. له لرې کولو مخکې ریکارډ وګورئ او اصلي اسناد وساتئ."
         }
       },
       "handler_or_behavior": "`prDeleteUnifiedCost(`"
@@ -12663,19 +12807,91 @@
       "translations": {
         "en": {
           "purpose": "Print or save the current sub-project report as a PDF.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control when you need a PDF copy of the selected sub-project report for printing or saving.",
           "how": "Select Print / Save PDF and inspect the report preview and print options.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "inputs": "Select the intended sub-project and reporting period, then check the totals before creating the file.",
           "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
           "notes": "Check the selected sub-project, reporting period and totals. This creates an output document; it does not submit data externally."
         },
         "fa": {
           "purpose": "چاپ یا ذخیره گزارش زیرپروژه به‌صورت PDF.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "وقتی به نسخه PDF قابل چاپ یا ذخیره از گزارش زیرپروژه انتخاب‌شده نیاز دارید، از این گزینه استفاده کنید.",
           "how": "گزینه Print / Save PDF را انتخاب کنید و پیش‌نمایش و تنظیمات چاپ را بررسی کنید.",
-          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "inputs": "زیرپروژه درست و دوره گزارش را انتخاب کنید و پیش از ایجاد فایل، جمع مبالغ را بررسی کنید.",
           "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
           "notes": "زیرپروژه، دوره گزارش و مبالغ را بررسی کنید. این کار فایل خروجی می‌سازد و اطلاعات را به مرجع خارجی ارسال نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يطبع تقرير المشروع الفرعي الحالي أو يحفظه بصيغة PDF.",
+          "when": "عندما تحتاج إلى نسخة PDF من تقرير المشروع الفرعي المحدد للطباعة أو الحفظ.",
+          "how": "اختر Print / Save PDF وراجع معاينة التقرير وخيارات الطباعة.",
+          "inputs": "حدد المشروع الفرعي الصحيح وفترة التقرير، ثم تحقق من الإجماليات قبل إنشاء الملف.",
+          "result": "تُجهز نسخة PDF للطباعة أو الحفظ.",
+          "notes": "تحقق من المشروع الفرعي وفترة التقرير والإجماليات. إنشاء الملف لا يرسل البيانات إلى جهة خارجية."
+        },
+        "ckb": {
+          "purpose": "ڕاپۆرتی پرۆژە لاوەکییە ئێستا چاپ دەکات یان بە PDF پاشەکەوتی دەکات.",
+          "when": "کاتێک پێویستت بە کۆپیی PDFی ڕاپۆرتی پرۆژە لاوەکیی دیاریکراوە بۆ چاپکردن یان پاشەکەوتکردن هەیە.",
+          "how": "Print / Save PDF هەڵبژێرە و پێشبینینی ڕاپۆرت و هەڵبژاردەکانی چاپ بپشکنە.",
+          "inputs": "پرۆژە لاوەکییە دروستەکە و ماوەی ڕاپۆرت هەڵبژێرە، پاشان پێش دروستکردنی فایل کۆیەکان بپشکنە.",
+          "result": "کۆپییەکی PDF بۆ چاپکردن یان پاشەکەوتکردن ئامادە دەکرێت.",
+          "notes": "پرۆژە لاوەکی، ماوەی ڕاپۆرت و کۆیەکان بپشکنە. دروستکردنی فایل زانیاری بۆ لایەنی دەرەکی نانێرێت."
+        },
+        "kmr": {
+          "purpose": "Rapora projeya jêrîn a niha çap dike an wekî PDF tomar dike.",
+          "when": "Dema ku tu hewceyî kopiyeke PDF ya rapora projeya jêrîn a hilbijartî ji bo çapkirin an tomarkirin yî.",
+          "how": "Print / Save PDF hilbijêre û pêşdîtina raporê û vebijarkên çapkirinê kontrol bike.",
+          "inputs": "Projeya jêrîn a rast û heyama raporê hilbijêre, paşê berî çêkirina pelê tevahiyan kontrol bike.",
+          "result": "Kopiyeke PDF ji bo çapkirin an tomarkirin tê amadekirin.",
+          "notes": "Projeya jêrîn, heyama raporê û tevahiyan kontrol bike. Çêkirina pelê daneyan ji bo aliyekî derve naşîne."
+        },
+        "tr": {
+          "purpose": "Geçerli alt proje raporunu yazdırır veya PDF olarak kaydeder.",
+          "when": "Seçilen alt proje raporunun yazdırılabilir veya kaydedilebilir PDF kopyasına ihtiyaç duyduğunuzda kullanın.",
+          "how": "Print / Save PDF'yi seçin ve rapor önizlemesini ve yazdırma seçeneklerini inceleyin.",
+          "inputs": "Doğru alt projeyi ve raporlama dönemini seçin, dosyayı oluşturmadan önce toplamları kontrol edin.",
+          "result": "Yazdırmak veya kaydetmek için bir PDF kopyası hazırlanır.",
+          "notes": "Alt projeyi, raporlama dönemini ve toplamları kontrol edin. Dosya oluşturmak verileri harici bir yere göndermez."
+        },
+        "pl": {
+          "purpose": "Drukuje bieżący raport podprojektu lub zapisuje go jako PDF.",
+          "when": "Użyj, gdy potrzebujesz kopii PDF raportu wybranego podprojektu do wydruku lub zapisania.",
+          "how": "Wybierz Print / Save PDF i sprawdź podgląd raportu oraz opcje drukowania.",
+          "inputs": "Wybierz właściwy podprojekt i okres raportowania, a przed utworzeniem pliku sprawdź sumy.",
+          "result": "Przygotowywana jest kopia PDF do wydrukowania lub zapisania.",
+          "notes": "Sprawdź podprojekt, okres raportowania i sumy. Utworzenie pliku nie wysyła danych do zewnętrznego odbiorcy."
+        },
+        "ur": {
+          "purpose": "موجودہ ذیلی منصوبے کی رپورٹ پرنٹ کرتا یا PDF کے طور پر محفوظ کرتا ہے۔",
+          "when": "جب منتخب ذیلی منصوبے کی رپورٹ کی پرنٹ یا محفوظ کرنے کے قابل PDF نقل درکار ہو تو استعمال کریں۔",
+          "how": "Print / Save PDF منتخب کریں اور رپورٹ کا پیش منظر اور پرنٹ اختیارات دیکھیں۔",
+          "inputs": "درست ذیلی منصوبہ اور رپورٹنگ مدت منتخب کریں اور فائل بنانے سے پہلے مجموعی رقوم چیک کریں۔",
+          "result": "پرنٹ یا محفوظ کرنے کے لیے PDF نقل تیار ہو جاتی ہے۔",
+          "notes": "ذیلی منصوبہ، رپورٹنگ مدت اور مجموعی رقوم چیک کریں۔ فائل بنانا ڈیٹا کسی بیرونی فریق کو نہیں بھیجتا۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਰਿਪੋਰਟ ਪ੍ਰਿੰਟ ਕਰਦਾ ਜਾਂ PDF ਵਜੋਂ ਸੇਵ ਕਰਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਚੁਣੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦੀ ਰਿਪੋਰਟ ਦੀ ਪ੍ਰਿੰਟ ਜਾਂ ਸੇਵ ਕਰਨ ਯੋਗ PDF ਕਾਪੀ ਚਾਹੀਦੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Print / Save PDF ਚੁਣੋ ਅਤੇ ਰਿਪੋਰਟ ਦੀ ਝਲਕ ਅਤੇ ਪ੍ਰਿੰਟ ਵਿਕਲਪ ਜਾਂਚੋ।",
+          "inputs": "ਸਹੀ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਅਤੇ ਰਿਪੋਰਟਿੰਗ ਮਿਆਦ ਚੁਣੋ ਅਤੇ ਫਾਈਲ ਬਣਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਕੁੱਲ ਰਕਮਾਂ ਜਾਂਚੋ।",
+          "result": "ਪ੍ਰਿੰਟ ਜਾਂ ਸੇਵ ਕਰਨ ਲਈ PDF ਕਾਪੀ ਤਿਆਰ ਹੁੰਦੀ ਹੈ।",
+          "notes": "ਉਪ-ਪ੍ਰੋਜੈਕਟ, ਰਿਪੋਰਟਿੰਗ ਮਿਆਦ ਅਤੇ ਕੁੱਲ ਰਕਮਾਂ ਜਾਂਚੋ। ਫਾਈਲ ਬਣਾਉਣ ਨਾਲ ਡਾਟਾ ਕਿਸੇ ਬਾਹਰੀ ਧਿਰ ਨੂੰ ਨਹੀਂ ਭੇਜਿਆ ਜਾਂਦਾ।"
+        },
+        "prs": {
+          "purpose": "گزارش فعلی زیرپروژه را چاپ یا به‌صورت PDF ذخیره می‌کند.",
+          "when": "وقتی به نسخه PDF قابل چاپ یا ذخیره از گزارش زیرپروژه انتخاب‌شده نیاز دارید، استفاده کنید.",
+          "how": "Print / Save PDF را انتخاب کنید و پیش‌نمایش گزارش و گزینه‌های چاپ را بررسی کنید.",
+          "inputs": "زیرپروژه درست و دوره گزارش را انتخاب کنید و پیش از ایجاد فایل، جمع مبالغ را بررسی کنید.",
+          "result": "نسخه PDF برای چاپ یا ذخیره آماده می‌شود.",
+          "notes": "زیرپروژه، دوره گزارش و جمع مبالغ را بررسی کنید. ایجاد فایل، اطلاعات را به مرجع خارجی ارسال نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د اوسنۍ فرعي پروژې راپور چاپوي یا یې د PDF په توګه خوندي کوي.",
+          "when": "کله چې د ټاکل شوي فرعي پروژې راپور د چاپ یا خوندي کولو وړ PDF کاپي ته اړتیا لرئ، دا وکاروئ.",
+          "how": "Print / Save PDF وټاکئ او د راپور مخکتنه او د چاپ اختیارونه وګورئ.",
+          "inputs": "سمه فرعي پروژه او د راپور موده وټاکئ، بیا د فایل له جوړولو مخکې ټولیزې شمېرې وګورئ.",
+          "result": "د چاپ یا خوندي کولو لپاره د PDF کاپي چمتو کېږي.",
+          "notes": "فرعي پروژه، د راپور موده او ټولیزې شمېرې وګورئ. د فایل جوړول معلومات بهرني لوري ته نه لېږي."
         }
       },
       "handler_or_behavior": "`prPrintSubReport()`"
@@ -12689,19 +12905,91 @@
       "translations": {
         "en": {
           "purpose": "Print or save the current sub-project report as a PDF.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control when you need a PDF copy of the selected sub-project report for printing or saving.",
           "how": "Select Print / Save PDF and inspect the report preview and print options.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "inputs": "Select the intended sub-project and reporting period, then check the totals before creating the file.",
           "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
           "notes": "Check the selected sub-project, reporting period and totals. This creates an output document; it does not submit data externally."
         },
         "fa": {
           "purpose": "چاپ یا ذخیره گزارش زیرپروژه به‌صورت PDF.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "وقتی به نسخه PDF قابل چاپ یا ذخیره از گزارش زیرپروژه انتخاب‌شده نیاز دارید، از این گزینه استفاده کنید.",
           "how": "گزینه Print / Save PDF را انتخاب کنید و پیش‌نمایش و تنظیمات چاپ را بررسی کنید.",
-          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "inputs": "زیرپروژه درست و دوره گزارش را انتخاب کنید و پیش از ایجاد فایل، جمع مبالغ را بررسی کنید.",
           "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
           "notes": "زیرپروژه، دوره گزارش و مبالغ را بررسی کنید. این کار فایل خروجی می‌سازد و اطلاعات را به مرجع خارجی ارسال نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يطبع تقرير المشروع الفرعي الحالي أو يحفظه بصيغة PDF.",
+          "when": "عندما تحتاج إلى نسخة PDF من تقرير المشروع الفرعي المحدد للطباعة أو الحفظ.",
+          "how": "اختر Print / Save PDF وراجع معاينة التقرير وخيارات الطباعة.",
+          "inputs": "حدد المشروع الفرعي الصحيح وفترة التقرير، ثم تحقق من الإجماليات قبل إنشاء الملف.",
+          "result": "تُجهز نسخة PDF للطباعة أو الحفظ.",
+          "notes": "تحقق من المشروع الفرعي وفترة التقرير والإجماليات. إنشاء الملف لا يرسل البيانات إلى جهة خارجية."
+        },
+        "ckb": {
+          "purpose": "ڕاپۆرتی پرۆژە لاوەکیی ئێستا چاپ دەکات یان بە PDF پاشەکەوتی دەکات.",
+          "when": "کاتێک پێویستت بە کۆپیی PDFی ڕاپۆرتی پرۆژە لاوەکیی دیاریکراوە بۆ چاپکردن یان پاشەکەوتکردن هەیە.",
+          "how": "Print / Save PDF هەڵبژێرە و پێشبینینی ڕاپۆرت و هەڵبژاردەکانی چاپ بپشکنە.",
+          "inputs": "پرۆژە لاوەکییە دروستەکە و ماوەی ڕاپۆرت هەڵبژێرە، پاشان پێش دروستکردنی فایل کۆیەکان بپشکنە.",
+          "result": "کۆپییەکی PDF بۆ چاپکردن یان پاشەکەوتکردن ئامادە دەکرێت.",
+          "notes": "پرۆژە لاوەکی، ماوەی ڕاپۆرت و کۆیەکان بپشکنە. دروستکردنی فایل زانیاری بۆ لایەنی دەرەکی نانێرێت."
+        },
+        "kmr": {
+          "purpose": "Rapora projeya jêrîn a niha çap dike an wekî PDF tomar dike.",
+          "when": "Dema ku tu hewceyî kopiyeke PDF ya rapora projeya jêrîn a hilbijartî ji bo çapkirin an tomarkirin yî.",
+          "how": "Print / Save PDF hilbijêre û pêşdîtina raporê û vebijarkên çapkirinê kontrol bike.",
+          "inputs": "Projeya jêrîn a rast û heyama raporê hilbijêre, paşê berî çêkirina pelê tevahiyan kontrol bike.",
+          "result": "Kopiyeke PDF ji bo çapkirin an tomarkirin tê amadekirin.",
+          "notes": "Projeya jêrîn, heyama raporê û tevahiyan kontrol bike. Çêkirina pelê daneyan ji bo aliyekî derve naşîne."
+        },
+        "tr": {
+          "purpose": "Geçerli alt proje raporunu yazdırır veya PDF olarak kaydeder.",
+          "when": "Seçilen alt proje raporunun yazdırılabilir veya kaydedilebilir PDF kopyasına ihtiyaç duyduğunuzda kullanın.",
+          "how": "Print / Save PDF'yi seçin ve rapor önizlemesini ve yazdırma seçeneklerini inceleyin.",
+          "inputs": "Doğru alt projeyi ve raporlama dönemini seçin, dosyayı oluşturmadan önce toplamları kontrol edin.",
+          "result": "Yazdırmak veya kaydetmek için bir PDF kopyası hazırlanır.",
+          "notes": "Alt projeyi, raporlama dönemini ve toplamları kontrol edin. Dosya oluşturmak verileri harici bir yere göndermez."
+        },
+        "pl": {
+          "purpose": "Drukuje bieżący raport podprojektu lub zapisuje go jako PDF.",
+          "when": "Użyj, gdy potrzebujesz kopii PDF raportu wybranego podprojektu do wydruku lub zapisania.",
+          "how": "Wybierz Print / Save PDF i sprawdź podgląd raportu oraz opcje drukowania.",
+          "inputs": "Wybierz właściwy podprojekt i okres raportowania, a przed utworzeniem pliku sprawdź sumy.",
+          "result": "Przygotowywana jest kopia PDF do wydrukowania lub zapisania.",
+          "notes": "Sprawdź podprojekt, okres raportowania i sumy. Utworzenie pliku nie wysyła danych do zewnętrznego odbiorcy."
+        },
+        "ur": {
+          "purpose": "موجودہ ذیلی منصوبے کی رپورٹ پرنٹ کرتا یا PDF کے طور پر محفوظ کرتا ہے۔",
+          "when": "جب منتخب ذیلی منصوبے کی رپورٹ کی پرنٹ یا محفوظ کرنے کے قابل PDF نقل درکار ہو تو استعمال کریں۔",
+          "how": "Print / Save PDF منتخب کریں اور رپورٹ کا پیش منظر اور پرنٹ اختیارات دیکھیں۔",
+          "inputs": "درست ذیلی منصوبہ اور رپورٹنگ مدت منتخب کریں اور فائل بنانے سے پہلے مجموعی رقوم چیک کریں۔",
+          "result": "پرنٹ یا محفوظ کرنے کے لیے PDF نقل تیار ہو جاتی ہے۔",
+          "notes": "ذیلی منصوبہ، رپورٹنگ مدت اور مجموعی رقوم چیک کریں۔ فائل بنانا ڈیٹا کسی بیرونی فریق کو نہیں بھیجتا۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਰਿਪੋਰਟ ਪ੍ਰਿੰਟ ਕਰਦਾ ਜਾਂ PDF ਵਜੋਂ ਸੇਵ ਕਰਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਚੁਣੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦੀ ਰਿਪੋਰਟ ਦੀ ਪ੍ਰਿੰਟ ਜਾਂ ਸੇਵ ਕਰਨ ਯੋਗ PDF ਕਾਪੀ ਚਾਹੀਦੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Print / Save PDF ਚੁਣੋ ਅਤੇ ਰਿਪੋਰਟ ਦੀ ਝਲਕ ਅਤੇ ਪ੍ਰਿੰਟ ਵਿਕਲਪ ਜਾਂਚੋ।",
+          "inputs": "ਸਹੀ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਅਤੇ ਰਿਪੋਰਟਿੰਗ ਮਿਆਦ ਚੁਣੋ ਅਤੇ ਫਾਈਲ ਬਣਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਕੁੱਲ ਰਕਮਾਂ ਜਾਂਚੋ।",
+          "result": "ਪ੍ਰਿੰਟ ਜਾਂ ਸੇਵ ਕਰਨ ਲਈ PDF ਕਾਪੀ ਤਿਆਰ ਹੁੰਦੀ ਹੈ।",
+          "notes": "ਉਪ-ਪ੍ਰੋਜੈਕਟ, ਰਿਪੋਰਟਿੰਗ ਮਿਆਦ ਅਤੇ ਕੁੱਲ ਰਕਮਾਂ ਜਾਂਚੋ। ਫਾਈਲ ਬਣਾਉਣ ਨਾਲ ਡਾਟਾ ਕਿਸੇ ਬਾਹਰੀ ਧਿਰ ਨੂੰ ਨਹੀਂ ਭੇਜਿਆ ਜਾਂਦਾ।"
+        },
+        "prs": {
+          "purpose": "گزارش فعلی زیرپروژه را چاپ یا به‌صورت PDF ذخیره می‌کند.",
+          "when": "وقتی به نسخه PDF قابل چاپ یا ذخیره از گزارش زیرپروژه انتخاب‌شده نیاز دارید، استفاده کنید.",
+          "how": "Print / Save PDF را انتخاب کنید و پیش‌نمایش گزارش و گزینه‌های چاپ را بررسی کنید.",
+          "inputs": "زیرپروژه درست و دوره گزارش را انتخاب کنید و پیش از ایجاد فایل، جمع مبالغ را بررسی کنید.",
+          "result": "نسخه PDF برای چاپ یا ذخیره آماده می‌شود.",
+          "notes": "زیرپروژه، دوره گزارش و جمع مبالغ را بررسی کنید. ایجاد فایل، اطلاعات را به مرجع خارجی ارسال نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د اوسنۍ فرعي پروژې راپور چاپوي یا یې د PDF په توګه خوندي کوي.",
+          "when": "کله چې د ټاکل شوي فرعي پروژې راپور د چاپ یا خوندي کولو وړ PDF کاپي ته اړتیا لرئ، دا وکاروئ.",
+          "how": "Print / Save PDF وټاکئ او د راپور مخکتنه او د چاپ اختیارونه وګورئ.",
+          "inputs": "سمه فرعي پروژه او د راپور موده وټاکئ، بیا د فایل له جوړولو مخکې ټولیزې شمېرې وګورئ.",
+          "result": "د چاپ یا خوندي کولو لپاره د PDF کاپي چمتو کېږي.",
+          "notes": "فرعي پروژه، د راپور موده او ټولیزې شمېرې وګورئ. د فایل جوړول معلومات بهرني لوري ته نه لېږي."
         }
       },
       "handler_or_behavior": "`prPrintSubReport()`"
@@ -12715,19 +13003,91 @@
       "translations": {
         "en": {
           "purpose": "Capture a photo to attach to a project receipt or expense.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control when you want to attach a photo to a project-related receipt or expense.",
           "how": "Select Take a Photo and use the camera/file prompt offered by your device; review the image before continuing.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct project or expense record and prepare a photo of the relevant receipt.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "Camera access depends on device permissions. Photograph the relevant receipt clearly and avoid including unrelated personal information."
         },
         "fa": {
           "purpose": "گرفتن عکس برای پیوست رسید یا هزینه پروژه.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "وقتی می‌خواهید عکسی را به رسید یا هزینه مرتبط با پروژه پیوست کنید، از این گزینه استفاده کنید.",
           "how": "Take a Photo را انتخاب کنید و از دوربین یا انتخاب‌گر فایل دستگاه استفاده کنید؛ سپس تصویر را بررسی کنید.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "سابقه درست پروژه یا هزینه را انتخاب کنید و عکس رسید مرتبط را آماده کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "دسترسی دوربین به مجوز دستگاه بستگی دارد. رسید مرتبط را واضح عکاسی کنید و اطلاعات شخصی نامرتبط را وارد تصویر نکنید."
+        },
+        "ar": {
+          "purpose": "يلتقط صورة لإرفاقها بإيصال مشروع أو مصروف.",
+          "when": "عندما تريد إرفاق صورة لإيصال أو مصروف مرتبط بالمشروع.",
+          "how": "اختر Take a Photo واستخدم الكاميرا أو منتقي الملفات الذي يوفره جهازك، ثم راجع الصورة.",
+          "inputs": "حدد سجل المشروع أو المصروف الصحيح وجهّز صورة الإيصال المرتبط.",
+          "result": "تُلتقط الصورة أو تُختار لتكون جاهزة للإرفاق بالسجل.",
+          "notes": "يعتمد الوصول إلى الكاميرا على أذونات الجهاز. صوّر الإيصال بوضوح وتجنب إدراج معلومات شخصية غير مرتبطة."
+        },
+        "ckb": {
+          "purpose": "وێنەیەک دەگرێت بۆ هاوپێچکردنی بە پسووڵە یان خەرجیی پرۆژە.",
+          "when": "کاتێک دەتەوێت وێنەیەک بە پسووڵە یان خەرجییەکی پەیوەست بە پرۆژەوە هاوپێچ بکەیت.",
+          "how": "Take a Photo هەڵبژێرە و کامێرا یان هەڵبژێری فایلەکەی ئامێرەکەت بەکاربهێنە؛ پاشان وێنەکە بپشکنە.",
+          "inputs": "تۆماری دروستی پرۆژە یان خەرجی هەڵبژێرە و وێنەی پسووڵەی پەیوەست ئامادە بکە.",
+          "result": "وێنەکە دەگیرێت یان هەڵدەبژێردرێت و بۆ هاوپێچکردن ئامادە دەبێت.",
+          "notes": "دەستگەیشتن بە کامێرا بە مۆڵەتی ئامێرەکەوە بەستراوە. پسووڵەکە بە ڕوونی وێنە بگرە و زانیاری کەسیی ناپەیوەست تێدا مەهێڵە."
+        },
+        "kmr": {
+          "purpose": "Wêneyekê digire da ku bi fatûre an lêçûna projeyê ve were pêvekirin.",
+          "when": "Dema ku tu dixwazî wêneyekê bi fatûre an lêçûneke girêdayî projeyê ve pêve bikî.",
+          "how": "Take a Photo hilbijêre û kamera an hilbijêra pelê ya amûra xwe bikar bîne; paşê wêneyê kontrol bike.",
+          "inputs": "Tomara projeyê an lêçûna rast hilbijêre û wêneyê fatûreya girêdayî amade bike.",
+          "result": "Wêne tê kişandin an hilbijartin û ji bo pêvekirinê amade dibe.",
+          "notes": "Gihîştina kamerayê bi destûra amûrê ve girêdayî ye. Fatûreyê bi zelalî wêne bike û agahiyên kesane yên negirêdayî tê de nehêle."
+        },
+        "tr": {
+          "purpose": "Proje makbuzuna veya giderine eklemek için fotoğraf çeker.",
+          "when": "Projeyle ilgili bir makbuza veya gidere fotoğraf eklemek istediğinizde kullanın.",
+          "how": "Take a Photo'yu seçin ve cihazınızın sunduğu kamerayı veya dosya seçiciyi kullanın; ardından görüntüyü inceleyin.",
+          "inputs": "Doğru proje veya gider kaydını seçin ve ilgili makbuzun fotoğrafını hazırlayın.",
+          "result": "Fotoğraf çekilir veya seçilir ve kayda eklenmeye hazır olur.",
+          "notes": "Kamera erişimi cihaz izinlerine bağlıdır. İlgili makbuzu net çekin ve ilgisiz kişisel bilgileri görüntüye dahil etmeyin."
+        },
+        "pl": {
+          "purpose": "Robi zdjęcie, aby dołączyć je do paragonu lub wydatku projektu.",
+          "when": "Użyj, gdy chcesz dołączyć zdjęcie do paragonu lub wydatku związanego z projektem.",
+          "how": "Wybierz Take a Photo i użyj aparatu lub selektora plików udostępnionego przez urządzenie; następnie sprawdź zdjęcie.",
+          "inputs": "Wybierz właściwy rekord projektu lub wydatku i przygotuj zdjęcie odpowiedniego paragonu.",
+          "result": "Zdjęcie zostanie wykonane lub wybrane i będzie gotowe do dołączenia do rekordu.",
+          "notes": "Dostęp do aparatu zależy od uprawnień urządzenia. Zrób wyraźne zdjęcie paragonu i nie uwzględniaj niepowiązanych danych osobowych."
+        },
+        "ur": {
+          "purpose": "پروجیکٹ کی رسید یا خرچ کے ساتھ منسلک کرنے کے لیے تصویر لیتا ہے۔",
+          "when": "جب پروجیکٹ سے متعلق رسید یا خرچ کے ساتھ تصویر منسلک کرنی ہو تو استعمال کریں۔",
+          "how": "Take a Photo منتخب کریں اور ڈیوائس کا کیمرہ یا فائل سلیکٹر استعمال کریں؛ پھر تصویر دیکھیں۔",
+          "inputs": "درست پروجیکٹ یا خرچ کا ریکارڈ منتخب کریں اور متعلقہ رسید کی تصویر تیار کریں۔",
+          "result": "تصویر لی یا منتخب کی جاتی ہے اور ریکارڈ کے ساتھ منسلک کرنے کے لیے تیار ہوتی ہے۔",
+          "notes": "کیمرے تک رسائی ڈیوائس کی اجازتوں پر منحصر ہے۔ رسید کی واضح تصویر لیں اور غیر متعلقہ ذاتی معلومات شامل نہ کریں۔"
+        },
+        "pa": {
+          "purpose": "ਪ੍ਰੋਜੈਕਟ ਦੀ ਰਸੀਦ ਜਾਂ ਖਰਚੇ ਨਾਲ ਜੋੜਨ ਲਈ ਫੋਟੋ ਖਿੱਚਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਪ੍ਰੋਜੈਕਟ ਨਾਲ ਸਬੰਧਤ ਰਸੀਦ ਜਾਂ ਖਰਚੇ ਨਾਲ ਫੋਟੋ ਜੋੜਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Take a Photo ਚੁਣੋ ਅਤੇ ਡਿਵਾਈਸ ਦਾ ਕੈਮਰਾ ਜਾਂ ਫਾਈਲ ਚੋਣਕਾਰ ਵਰਤੋ; ਫਿਰ ਤਸਵੀਰ ਜਾਂਚੋ।",
+          "inputs": "ਸਹੀ ਪ੍ਰੋਜੈਕਟ ਜਾਂ ਖਰਚਾ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਸੰਬੰਧਿਤ ਰਸੀਦ ਦੀ ਫੋਟੋ ਤਿਆਰ ਕਰੋ।",
+          "result": "ਫੋਟੋ ਖਿੱਚੀ ਜਾਂ ਚੁਣੀ ਜਾਂਦੀ ਹੈ ਅਤੇ ਰਿਕਾਰਡ ਨਾਲ ਜੋੜਨ ਲਈ ਤਿਆਰ ਹੁੰਦੀ ਹੈ।",
+          "notes": "ਕੈਮਰੇ ਦੀ ਪਹੁੰਚ ਡਿਵਾਈਸ ਦੀਆਂ ਇਜਾਜ਼ਤਾਂ 'ਤੇ ਨਿਰਭਰ ਕਰਦੀ ਹੈ। ਰਸੀਦ ਦੀ ਸਾਫ਼ ਫੋਟੋ ਖਿੱਚੋ ਅਤੇ ਗੈਰ-ਸੰਬੰਧਿਤ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਸ਼ਾਮਲ ਨਾ ਕਰੋ।"
+        },
+        "prs": {
+          "purpose": "برای پیوست‌کردن به رسید یا هزینه پروژه عکس می‌گیرد.",
+          "when": "وقتی می‌خواهید عکسی را به رسید یا هزینه مرتبط با پروژه پیوست کنید، استفاده کنید.",
+          "how": "Take a Photo را انتخاب کنید و از دوربین یا انتخاب‌گر فایل دستگاه استفاده کنید؛ سپس تصویر را بررسی کنید.",
+          "inputs": "سابقه درست پروژه یا هزینه را انتخاب کنید و عکس رسید مرتبط را آماده کنید.",
+          "result": "عکس گرفته یا انتخاب می‌شود و برای پیوست به سابقه آماده خواهد بود.",
+          "notes": "دسترسی به دوربین به مجوزهای دستگاه بستگی دارد. از رسید عکس واضح بگیرید و اطلاعات شخصی نامرتبط را وارد تصویر نکنید."
+        },
+        "ps": {
+          "purpose": "د پروژې له رسید یا لګښت سره د نښلولو لپاره عکس اخلي.",
+          "when": "کله چې د پروژې اړوند رسید یا لګښت ته عکس نښلول غواړئ، دا وکاروئ.",
+          "how": "Take a Photo وټاکئ او د وسیلې کامره یا د فایل ټاکونکی وکاروئ؛ بیا انځور وګورئ.",
+          "inputs": "د پروژې یا لګښت سم ریکارډ وټاکئ او د اړوند رسید عکس چمتو کړئ.",
+          "result": "عکس اخیستل یا ټاکل کېږي او له ریکارډ سره د نښلولو لپاره چمتو کېږي.",
+          "notes": "کامرې ته لاسرسی د وسیلې په اجازو پورې تړلی دی. د رسید روښانه عکس واخلئ او نامربوط شخصي معلومات پکې مه شاملوئ."
         }
       },
       "handler_or_behavior": "`document.getElementById(`"
