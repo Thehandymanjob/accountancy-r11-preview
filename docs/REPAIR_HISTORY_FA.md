@@ -812,6 +812,6 @@
 - نسخه: THA-273-R11-PREVIEW-20261127-R62.
 - اتصال‌ها پس از R62: ۱۱۸ کنترل؛ ۱۱۳ ایستا و پنج پویا. ۹۵ selector محدوده‌دار، ۱۳ ID یکتا و پنج handler محدوده‌دار.
 - ایمنی: هیچ handler اصلی تغییر نکرد؛ Help فقط marker راهنما را اضافه می‌کند و کلیک «?» باید از اجرای Save، Clear یا Print جلوگیری کند. این رفتار هنوز در مرورگر واقعی تأیید نشده است.
-- Version Authority Gate: در انتظار اجرای Gate نهایی روی آخرین commit R62.
+- **Version Authority Gate:** PASS؛ run `46071628688` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071628688؛ Build R62، canonical URL، SHA صفحه و تمام ۲۴ asset pin تأیید شدند.
 - تست واقعی مرورگر / موبایل: هنوز انجام نشده؛ به‌خصوص Category picker، پنجره Entry Saved و Invoice Preview باید تست شوند.
 - انتشار / داده: هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
