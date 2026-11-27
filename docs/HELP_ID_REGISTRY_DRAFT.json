@@ -12189,7 +12189,7 @@
       "audit_ref": "INV-144",
       "element_id": null,
       "label": "📎",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the receipt image saved with a transaction by selecting the paperclip icon beside that record.",
@@ -12287,7 +12287,7 @@
       "audit_ref": "INV-145",
       "element_id": null,
       "label": "OK",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Dismisses the confirmation dialog shown after an entry has been saved or updated.",
@@ -12385,7 +12385,7 @@
       "audit_ref": "INV-146",
       "element_id": null,
       "label": "View",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the selected invoice from the Records list in an on-screen invoice preview.",
@@ -12483,7 +12483,7 @@
       "audit_ref": "INV-147",
       "element_id": null,
       "label": "Delete",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Moves the selected invoice and any linked income entries to Deleted Records using a soft-delete operation.",
