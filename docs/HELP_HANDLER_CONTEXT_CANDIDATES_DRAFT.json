@@ -7,8 +7,8 @@
     "source_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "source_blob_sha": "e58a0c7895cf639c36e69c28696ebfd3bd262bef",
     "mapping_path": "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
-    "mapping_blob_sha": "3e2979b0c24eb342e89d541cdf71dc42389297d9",
-    "method": "Match each mapped handler to button tags containing that handler and score normalized visible text overlap. This is a source-context heuristic only; no runtime DOM verification."
+    "mapping_blob_sha": "1e5f76ea199b25797d33d17b53dea83dc9a4f4d9",
+    "method": "Matched the 179 ambiguous mapping rows to R45 button tags by handler and normalized visible text. Source-context heuristic only; no runtime DOM verification. Mapping and inventory baselines are pinned to the same authority-approved R45 source."
   },
   "summary": {
     "total_ambiguous_rows": 179,
