@@ -5470,6 +5470,78 @@
           "inputs": "یکی از زبان‌های موجود راهنما را انتخاب کنید.",
           "result": "راهنمای کاربر به زبان انتخاب‌شده نمایش داده می‌شود و در صورت موفقیت، ترجیح زبان روی همین دستگاه ذخیره می‌شود.",
           "notes": "این گزینه فقط زبان راهنما را تغییر می‌دهد. رابط برنامه، اطلاعات واردشده یا داده‌های ذخیره‌شده کسب‌وکار را ترجمه نمی‌کند. رابط برنامه انگلیسی و راست‌به‌چپ‌نشده باقی می‌ماند."
+        },
+        "ar": {
+          "purpose": "يفتح محدد لغة دليل المستخدم ويطبق اللغة المختارة على محتوى الدليل.",
+          "when": "استخدم هذا الخيار عندما تريد قراءة دليل المستخدم بلغة غير الإنجليزية.",
+          "how": "افتح Help واختر لغة من القائمة. ستتغير عناوين الفصول ونصوصها إلى اللغة المختارة.",
+          "inputs": "اختر إحدى لغات الدليل المتاحة.",
+          "result": "يُعرض دليل المستخدم باللغة المختارة، ويُحفظ تفضيل اللغة على هذا الجهاز إذا نجح الحفظ.",
+          "notes": "يغيّر هذا الخيار لغة الدليل فقط. ولا يترجم واجهة التطبيق أو السجلات التي أدخلها المستخدم أو بيانات العمل المحفوظة. تظل واجهة التطبيق باللغة الإنجليزية ومن اليسار إلى اليمين."
+        },
+        "ckb": {
+          "purpose": "هەڵبژێری زمانی ڕێنمای بەکارهێنەر دەکاتەوە و ئەو زمانەی هەڵبژێردراوە بۆ ناوەڕۆکی ڕێنماییەکە جێبەجێ دەکات.",
+          "when": "کاتێک دەتەوێت ڕێنمای بەکارهێنەر بە زمانێکی جیا لە ئینگلیزی بخوێنیتەوە، ئەم هەڵبژاردەیە بەکاربهێنە.",
+          "how": "Help بکەرەوە و زمانێک لە لیستەکە هەڵبژێرە. سەردێڕ و دەقی بەشەکان دەگۆڕێن بۆ ئەو زمانەی هەڵتبژاردووە.",
+          "inputs": "یەکێک لە زمانە بەردەستەکانی ڕێنما هەڵبژێرە.",
+          "result": "ڕێنمای بەکارهێنەر بە زمانی هەڵبژێردراو پیشان دەدرێت و ئەگەر پاشەکەوتکردن سەرکەوتوو بێت، هەڵبژاردەی زمان لەم ئامێرەدا پاشەکەوت دەکرێت.",
+          "notes": "ئەم هەڵبژاردەیە تەنها زمانی ڕێنما دەگۆڕێت. ڕووکاری بەرنامە، تۆمارە داخڵکراوەکانی بەکارهێنەر یان داتای بازرگانی پاشەکەوتکراو وەرناگێڕێت. ڕووکاری بەرنامە بە ئینگلیزی و ئاراستەی چەپ بۆ ڕاست دەمێنێتەوە."
+        },
+        "kmr": {
+          "purpose": "Hilbijêra zimanê Rêbera Bikarhêner vedike û zimanê hilbijartî li naveroka rêberê bicîh dike.",
+          "when": "Dema ku dixwazî Rêbera Bikarhêner bi zimanekî ji bilî Îngilîzî bixwînî, vê bikar bîne.",
+          "how": "Help veke û zimanekî ji lîsteyê hilbijêre. Sernav û nivîsa beşan diguhere û bi zimanê hilbijartî xuya dibe.",
+          "inputs": "Yek ji zimanên rêberê yên peyda hilbijêre.",
+          "result": "Rêbera Bikarhêner bi zimanê hilbijartî tê nîşandan û ger tomarkirin bi ser bikeve, tercîha zimanê li ser vê cîhazê tê hilanîn.",
+          "notes": "Ev vebijêrk tenê zimanê rêberê diguherîne. Ew navrûya sepanê, tomarên ku bikarhêner têxe an daneyên karsaziyê yên hilanbar nayê wergerandin. Navrûya sepanê bi Îngilîzî û ji çepê ber bi rastê dimîne."
+        },
+        "tr": {
+          "purpose": "Kullanıcı Kılavuzu dil seçicisini açar ve seçilen dili kılavuz içeriğine uygular.",
+          "when": "Kullanıcı Kılavuzu'nu İngilizce dışında bir dilde okumak istediğinizde bu seçeneği kullanın.",
+          "how": "Help bölümünü açın ve listeden bir dil seçin. Bölüm başlıkları ve metinleri seçilen dile dönüşür.",
+          "inputs": "Kullanılabilir kılavuz dillerinden birini seçin.",
+          "result": "Kullanıcı Kılavuzu seçilen dilde görüntülenir; kaydetme başarılı olursa dil tercihi bu cihazda saklanır.",
+          "notes": "Bu seçenek yalnızca kılavuzun dilini değiştirir. Uygulama arayüzünü, kullanıcı tarafından girilen kayıtları veya saklanan işletme verilerini çevirmez. Uygulama arayüzü İngilizce ve soldan sağadır."
+        },
+        "pl": {
+          "purpose": "Otwiera wybór języka Podręcznika użytkownika i stosuje wybrany język do treści podręcznika.",
+          "when": "Użyj tej opcji, gdy chcesz czytać Podręcznik użytkownika w języku innym niż angielski.",
+          "how": "Otwórz Help i wybierz język z listy. Nagłówki rozdziałów i ich treść zostaną wyświetlone w wybranym języku.",
+          "inputs": "Wybierz jeden z dostępnych języków podręcznika.",
+          "result": "Podręcznik użytkownika zostanie wyświetlony w wybranym języku, a preferencja językowa zostanie zapisana na tym urządzeniu, jeśli zapis się powiedzie.",
+          "notes": "Ta opcja zmienia wyłącznie język podręcznika. Nie tłumaczy interfejsu aplikacji, wpisów użytkownika ani zapisanych danych firmy. Interfejs aplikacji pozostaje angielski i ma układ od lewej do prawej."
+        },
+        "ur": {
+          "purpose": "صارف رہنما کے لیے زبان کا انتخاب کھولتا ہے اور منتخب زبان کو رہنما کے متن پر لاگو کرتا ہے۔",
+          "when": "اسے اس وقت استعمال کریں جب آپ صارف رہنما انگریزی کے بجائے کسی دوسری زبان میں پڑھنا چاہتے ہوں۔",
+          "how": "Help کھولیں اور فہرست سے زبان منتخب کریں۔ ابواب کے عنوانات اور متن منتخب زبان میں تبدیل ہو جائیں گے۔",
+          "inputs": "رہنما کی دستیاب زبانوں میں سے ایک منتخب کریں۔",
+          "result": "صارف رہنما منتخب زبان میں دکھایا جائے گا اور اگر محفوظ کرنا کامیاب ہو تو زبان کی ترجیح اسی ڈیوائس پر محفوظ ہو جائے گی۔",
+          "notes": "یہ اختیار صرف رہنما کی زبان تبدیل کرتا ہے۔ یہ ایپ کے انٹرفیس، صارف کے درج کردہ ریکارڈز یا محفوظ کاروباری ڈیٹا کا ترجمہ نہیں کرتا۔ ایپ کا انٹرفیس انگریزی اور بائیں سے دائیں ہی رہتا ہے۔"
+        },
+        "pa": {
+          "purpose": "ਯੂਜ਼ਰ ਗਾਈਡ ਲਈ ਭਾਸ਼ਾ ਚੋਣ ਖੋਲ੍ਹਦਾ ਹੈ ਅਤੇ ਚੁਣੀ ਹੋਈ ਭਾਸ਼ਾ ਗਾਈਡ ਦੀ ਸਮੱਗਰੀ 'ਤੇ ਲਾਗੂ ਕਰਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਤੁਸੀਂ ਯੂਜ਼ਰ ਗਾਈਡ ਅੰਗਰੇਜ਼ੀ ਤੋਂ ਇਲਾਵਾ ਕਿਸੇ ਹੋਰ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹਨਾ ਚਾਹੁੰਦੇ ਹੋ।",
+          "how": "Help ਖੋਲ੍ਹੋ ਅਤੇ ਸੂਚੀ ਵਿੱਚੋਂ ਭਾਸ਼ਾ ਚੁਣੋ। ਅਧਿਆਇਆਂ ਦੇ ਸਿਰਲੇਖ ਅਤੇ ਲਿਖਤ ਚੁਣੀ ਹੋਈ ਭਾਸ਼ਾ ਵਿੱਚ ਬਦਲ ਜਾਣਗੇ।",
+          "inputs": "ਗਾਈਡ ਲਈ ਉਪਲਬਧ ਭਾਸ਼ਾਵਾਂ ਵਿੱਚੋਂ ਇੱਕ ਚੁਣੋ।",
+          "result": "ਯੂਜ਼ਰ ਗਾਈਡ ਚੁਣੀ ਹੋਈ ਭਾਸ਼ਾ ਵਿੱਚ ਦਿਖਾਈ ਜਾਵੇਗੀ ਅਤੇ ਜੇ ਸੇਵ ਕਰਨਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਭਾਸ਼ਾ ਦੀ ਪਸੰਦ ਇਸ ਡਿਵਾਈਸ 'ਤੇ ਸੰਭਾਲੀ ਜਾਵੇਗੀ।",
+          "notes": "ਇਹ ਵਿਕਲਪ ਸਿਰਫ਼ ਗਾਈਡ ਦੀ ਭਾਸ਼ਾ ਬਦਲਦਾ ਹੈ। ਇਹ ਐਪ ਦੇ ਇੰਟਰਫੇਸ, ਯੂਜ਼ਰ ਵੱਲੋਂ ਦਰਜ ਕੀਤੇ ਰਿਕਾਰਡਾਂ ਜਾਂ ਸੰਭਾਲੇ ਕਾਰੋਬਾਰੀ ਡਾਟੇ ਦਾ ਅਨੁਵਾਦ ਨਹੀਂ ਕਰਦਾ। ਐਪ ਦਾ ਇੰਟਰਫੇਸ ਅੰਗਰੇਜ਼ੀ ਅਤੇ ਖੱਬੇ ਤੋਂ ਸੱਜੇ ਹੀ ਰਹਿੰਦਾ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "انتخاب‌گر زبان راهنمای کاربر را باز می‌کند و زبان انتخاب‌شده را بر محتوای راهنما اعمال می‌کند.",
+          "when": "وقتی می‌خواهید راهنمای کاربر را به زبانی غیر از انگلیسی بخوانید، از این گزینه استفاده کنید.",
+          "how": "Help را باز کنید و یک زبان را از فهرست انتخاب کنید. عنوان فصل‌ها و متن آن‌ها به زبان انتخاب‌شده نمایش داده می‌شود.",
+          "inputs": "یکی از زبان‌های موجود برای راهنما را انتخاب کنید.",
+          "result": "راهنمای کاربر به زبان انتخاب‌شده نمایش داده می‌شود و اگر ذخیره‌سازی موفق باشد، ترجیح زبان در همین دستگاه نگهداری می‌شود.",
+          "notes": "این گزینه فقط زبان راهنما را تغییر می‌دهد. رابط برنامه، سوابق واردشده توسط کاربر یا اطلاعات ذخیره‌شده کسب‌وکار را ترجمه نمی‌کند. رابط برنامه انگلیسی و از چپ به راست باقی می‌ماند."
+        },
+        "ps": {
+          "purpose": "د کارن د لارښود د ژبې ټاکونکی پرانیزي او ټاکل شوې ژبه د لارښود پر منځپانګه پلي کوي.",
+          "when": "دا هغه وخت وکاروئ چې غواړئ د کارن لارښود له انګلیسي پرته په بله ژبه ولولئ.",
+          "how": "Help پرانیزئ او له لېست څخه یوه ژبه وټاکئ. د څپرکو سرلیکونه او متن به په ټاکل شوې ژبه ښکاره شي.",
+          "inputs": "د لارښود له شته ژبو څخه یوه وټاکئ.",
+          "result": "د کارن لارښود په ټاکل شوې ژبه ښکاره کېږي او که خوندي کول بریالي شي، د ژبې خوښه په همدې وسیله کې ساتل کېږي.",
+          "notes": "دا اختیار یوازې د لارښود ژبه بدلوي. د اپلېکېشن انترفېس، د کارن له خوا داخل شوي ریکارډونه یا د سوداګرۍ خوندي شوي معلومات نه ژباړي. د اپلېکېشن انترفېس انګلیسي او له چپ څخه ښي لوري ته پاتې کېږي."
         }
       },
       "handler_or_behavior": "`show(`"
