@@ -5,11 +5,11 @@
   "branch": "development",
   "baseline": {
     "runtime_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
-    "runtime_blob_sha": "3f7cb1ec59f543f43da718162b3581bffb76f6d6",
+    "runtime_blob_sha": "46fc52667217a5d98b05c2d3521c614dc071de2f",
     "registry_blob_sha": "f63754128fd09125290df4045f6f4b6fc03b3545",
     "inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
     "help_content_blob_sha": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
-    "help_runtime_blob_sha": "eb9135b1d3e5931ab62a266f1c57453a0866f219"
+    "help_runtime_blob_sha": "04d9d7e469f2c3b232217d26ee3a53412343a4a1"
   },
   "policy": {
     "label_only_matching": false,
@@ -34,15 +34,16 @@
       "ADJACENT_HELP_BUTTON_ATTACHED_R53_NOT_BROWSER_VERIFIED": 1,
       "ADJACENT_HELP_BUTTON_ATTACHED_R54_NOT_BROWSER_VERIFIED": 6,
       "ADJACENT_HELP_BUTTON_ATTACHED_R55_NOT_BROWSER_VERIFIED": 6,
-      "ADJACENT_HELP_BUTTON_ATTACHED_R56_NOT_BROWSER_VERIFIED": 6
+      "ADJACENT_HELP_BUTTON_ATTACHED_R56_NOT_BROWSER_VERIFIED": 6,
+      "ADJACENT_HELP_BUTTON_ATTACHED_R57_NOT_BROWSER_VERIFIED": 7
     },
-    "notes": "R56 has 56 mapped adjacent Help controls: 39 scoped navigation/report/form/diagnostic/accounting selectors, 13 exact unique-ID selectors, five scoped unique-handler selectors and five dynamic-template attributes. R56 adds New Invoice and the five Reports & Tax menu actions. R53 local-only Support Message, R54 read-only diagnostics and R55 core accounting bindings are retained. Hidden-state synchronization and the fail-closed 51-row static binding guard are enabled. Real browser tests and deployment remain pending.",
+    "notes": "R57 has 63 mapped adjacent Help controls: 46 scoped navigation/report/form/diagnostic/accounting/Project Workspace selectors, 13 exact unique-ID selectors, five scoped unique-handler selectors and five dynamic-template attributes. R57 adds Save/Clear Project, Edit/Delete Current Project, Save Partner, Save Contractor and Save Worker. Prior R53-R56 bindings are retained. Hidden-state synchronization and the fail-closed 58-row static binding guard are enabled. Real browser tests and deployment remain pending.",
     "runtime_publishable_entries": 132,
     "runtime_languages": 11,
-    "static_controls_attached": 51,
+    "static_controls_attached": 58,
     "draft_static_controls_skipped": 2,
     "dynamic_template_controls_pending": 10,
-    "help_ids_attached": 56,
+    "help_ids_attached": 63,
     "browser_tests_run": 0,
     "dynamic_template_controls_attached": 5,
     "draft_controls_skipped": 12,
@@ -1216,44 +1217,44 @@
     {
       "help_id": "THA-HLP-0084",
       "audit_ref": "INV-101",
-      "element_id": null,
+      "element_id": "prPage-new",
       "visible_label": "Save Project",
       "handler": "prSaveProject()",
       "handler_name": "prSaveProject",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#prPage-new .pr-actions > button[onclick=\"prSaveProject()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler prSaveProject occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R57_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the control to #prPage-new and its literal onclick action. The target is unique within its Project Workspace page. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0085",
       "audit_ref": "INV-102",
-      "element_id": null,
+      "element_id": "prPage-new",
       "visible_label": "Clear Form",
       "handler": "prResetProject()",
       "handler_name": "prResetProject",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#prPage-new .pr-actions > button[onclick=\"prResetProject()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler prResetProject occurs 3 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R57_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the control to #prPage-new and its literal onclick action. The target is unique within its Project Workspace page. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0086",
       "audit_ref": "INV-103",
-      "element_id": null,
+      "element_id": "prPage-detail",
       "visible_label": "Edit",
       "handler": "prEditCurrent()",
       "handler_name": "prEditCurrent",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#prPage-detail .pr-detail-actions > button[onclick=\"prEditCurrent()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler prEditCurrent occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R57_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the control to #prPage-detail and its literal onclick action. The target is unique within its Project Workspace page. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0087",
@@ -1272,16 +1273,16 @@
     {
       "help_id": "THA-HLP-0088",
       "audit_ref": "INV-105",
-      "element_id": null,
+      "element_id": "prPage-detail",
       "visible_label": "Delete",
       "handler": "prDeleteCurrent()",
       "handler_name": "prDeleteCurrent",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#prPage-detail .pr-detail-actions > button[onclick=\"prDeleteCurrent()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler prDeleteCurrent occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R57_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the control to #prPage-detail and its literal onclick action. The target is unique within its Project Workspace page. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0089",
@@ -1412,16 +1413,16 @@
     {
       "help_id": "THA-HLP-0098",
       "audit_ref": "INV-115",
-      "element_id": null,
+      "element_id": "prPage-partners",
       "visible_label": "Save Partner",
       "handler": "prSavePerson('partner')",
       "handler_name": "prSavePerson",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#prPage-partners .pr-actions > button[onclick=\"prSavePerson('partner')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler prSavePerson occurs 3 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R57_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the control to #prPage-partners and its literal onclick action. The target is unique within its Project Workspace page. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0099",
@@ -1440,16 +1441,16 @@
     {
       "help_id": "THA-HLP-0100",
       "audit_ref": "INV-117",
-      "element_id": null,
+      "element_id": "prPage-contractors",
       "visible_label": "Save Contractor",
       "handler": "prSaveContractor()",
       "handler_name": "prSaveContractor",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#prPage-contractors .pr-actions > button[onclick=\"prSaveContractor()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler prSaveContractor occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R57_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the control to #prPage-contractors and its literal onclick action. The target is unique within its Project Workspace page. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0101",
@@ -1468,16 +1469,16 @@
     {
       "help_id": "THA-HLP-0102",
       "audit_ref": "INV-119",
-      "element_id": null,
+      "element_id": "prPage-workers",
       "visible_label": "Save Worker",
       "handler": "prSavePerson('worker')",
       "handler_name": "prSavePerson",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#prPage-workers .pr-actions > button[onclick=\"prSavePerson('worker')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler prSavePerson occurs 3 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R57_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the control to #prPage-workers and its literal onclick action. The target is unique within its Project Workspace page. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0103",
