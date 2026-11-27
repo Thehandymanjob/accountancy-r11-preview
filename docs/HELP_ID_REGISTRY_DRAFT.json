@@ -6058,6 +6058,78 @@
           "inputs": "برای بازکردن پنجره ورودی لازم نیست. در مراحل بعدی پنجره، انتخاب فایل، کادر تأیید و فیلد عبارت مجوز نمایش داده می‌شود؛ اما عملیات تبدیل، Snapshot و Reset نهایی در این Build پیاده‌سازی اجرایی ندارند.",
           "result": "پنجره هشدار Secure Reset باز می‌شود و وضعیت اولیه فرم نمایشی را تنظیم می‌کند. بازکردن آن پشتیبان را تبدیل نمی‌کند، Snapshot دانلود نمی‌کند و داده‌ها را Reset نمی‌کند.",
           "notes": "خطر بسیار بالا: پنجره، جایگزینی مخرب داده‌های فعلی IndexedDB را توضیح می‌دهد. در سورس R43، کنترل‌های عملیات بازیابی به Handler اجرایی متصل نیستند. عبارت مجوز را وارد نکنید و برای انجام بازیابی به این پنجره اتکا نکنید."
+        },
+        "ar": {
+          "purpose": "يفتح مربع حوار التحذير Secure Reset من صفحة Factory Reset.",
+          "when": "استخدم عنصر التحكم هذا فقط لفحص تحذيرات الاستعادة ضمن تحقيق منفصل ومعتمد بشأن الاستعادة.",
+          "how": "اختر Open Secure Reset. اقرأ التحذير الأول، ثم استخدم عنصر المتابعة فقط إذا كنت تريد مراجعة التحذير الثاني ومتطلبات الاستعادة المعروضة. يؤدي Cancel إلى إغلاق مربع الحوار.",
+          "inputs": "لا يلزم إدخال أي شيء لفتح مربع الحوار. يعرض مربع الحوار اللاحق منتقي ملفات ومربع اختيار للتأكيد وحقل عبارة تفويض، لكن إجراءات التحويل واللقطة وإعادة الضبط النهائية المرتبطة بها غير مطبقة في هذا الإصدار.",
+          "result": "يفتح مربع تحذير Secure Reset ويهيئ حالة النموذج الظاهرة. لا يؤدي فتحه إلى تحويل نسخة احتياطية أو تنزيل لقطة أو إعادة ضبط البيانات.",
+          "notes": "خطر مرتفع: يصف مربع الحوار استبدالاً تدميرياً لبيانات IndexedDB الحالية. في إصدار المصدر R43، عناصر التحكم الخاصة بإجراءات الاستعادة غير متصلة بمعالجات تعمل. لا تُدخل بيانات التفويض ولا تعتمد على مربع الحوار لتنفيذ الاستعادة."
+        },
+        "ckb": {
+          "purpose": "پەنجەرەی ئاگاداری Secure Reset لە پەڕەی Factory Reset دەکاتەوە.",
+          "when": "ئەم کۆنترۆڵە تەنها بۆ پشکنینی ئاگادارییەکانی گەڕاندنەوە بەکاربهێنە، لە چوارچێوەی لێکۆڵینەوەیەکی جیا و پەسەندکراوی گەڕاندنەوەدا.",
+          "how": "Open Secure Reset هەڵبژێرە. ئاگادارییە یەکەمەکە بخوێنەوە، پاشان تەنها ئەگەر دەتەوێت ئاگاداریی دووەم و پێداویستییەکانی گەڕاندنەوەی پیشاندراو بپشکنیت، کۆنترۆڵی بەردەوامبوون بەکاربهێنە. Cancel پەنجەرەکە دادەخات.",
+          "inputs": "بۆ کردنەوەی پەنجەرەکە هیچ داخڵکردنێک پێویست نییە. پەنجەرەی دواتر هەڵبژێری فایل، چوارگۆشەی پشتڕاستکردنەوە و خانەی دەستەواژەی مۆڵەت پیشان دەدات؛ بەڵام کردارە پەیوەندیدارەکانی گۆڕین، Snapshot و Resetی کۆتایی لەم Buildەدا جێبەجێ نەکراون.",
+          "result": "پەنجەرەی ئاگاداری Secure Reset دەکرێتەوە و دۆخی سەرەتایی فۆڕمی پیشاندراو ئامادە دەکات. کردنەوەی ئەوە پاڵپشتی ناگۆڕێت، Snapshotێک دابەزێنێت یان داتا Reset ناکات.",
+          "notes": "مەترسیی بەرز: پەنجەرەکە گۆڕینێکی وێرانکەرانەی داتای ئێستای IndexedDB باس دەکات. لە سەرچاوەی R43دا کۆنترۆڵەکانی کردارەکانی گەڕاندنەوە بە Handlerی کارا نەبەستراون. زانیاریی مۆڵەت داخڵ مەکە و پشت بە پەنجەرەکە مەبەستە بۆ ئەنجامدانی گەڕاندنەوە."
+        },
+        "kmr": {
+          "purpose": "Paceya hişyariya Secure Reset ji rûpela Factory Reset vedike.",
+          "when": "Vê kontrolê tenê ji bo lêkolîna hişyariyên vegerandinê di çarçoveya lêkolînekê ya cuda û pejirandî de bikar bîne.",
+          "how": "Open Secure Reset hilbijêre. Hişyariya yekem bixwîne, paşê tenê heke dixwazî hişyariya duyem û şertên vegerandinê yên xuya binirxînî kontrola domandinê bikar bîne. Cancel paceyê digire.",
+          "inputs": "Ji bo vekirina paceyê tu têketin nehewce ye. Paceya paşîn hilbijêra pelê, qutiyeke pejirandinê û qada hevoka destûrê nîşan dide; lê kiryarên veguherandinê, snapshot û reset-a dawî ya têkildar di vê buildê de nehatine pêkanîn.",
+          "result": "Paceya hişyariya Secure Reset vedibe û rewşa destpêkê ya forma xuya amade dike. Vekirina wê backup naguherîne, snapshotê nadixe û daneyan reset nake.",
+          "notes": "METIRSIYA BILIND: Pace veguherandineke wêranker a daneyên heyî yên IndexedDB rave dike. Di çavkaniya R43 de kontrolên kiryarên vegerandinê bi handlerên kar ve nehatine girêdan. Agahiyên destûrê nenivîse û ji bo pêkanîna vegerandinê xwe dispêre vê paceyê neke."
+        },
+        "tr": {
+          "purpose": "Factory Reset sayfasından Secure Reset uyarı iletişim kutusunu açar.",
+          "when": "Bu denetimi yalnızca ayrı ve onaylanmış bir kurtarma incelemesi kapsamında kurtarma uyarılarını görüntülemek için kullanın.",
+          "how": "Open Secure Reset seçeneğini belirleyin. İlk uyarıyı okuyun; ikinci uyarıyı ve görüntülenen kurtarma gereksinimlerini incelemek istiyorsanız devam denetimini kullanın. Cancel iletişim kutusunu kapatır.",
+          "inputs": "İletişim kutusunu açmak için giriş gerekmez. Sonraki iletişim kutusunda dosya seçici, onay kutusu ve yetkilendirme ifadesi alanı gösterilir; ancak bunlarla ilişkili dönüştürme, anlık görüntü ve son sıfırlama işlemleri bu derlemede uygulanmamıştır.",
+          "result": "Secure Reset uyarı iletişim kutusu açılır ve görünür formun başlangıç durumu hazırlanır. Açılması yedeği dönüştürmez, anlık görüntü indirmez veya verileri sıfırlamaz.",
+          "notes": "YÜKSEK RİSK: İletişim kutusu mevcut IndexedDB verilerinin yıkıcı biçimde değiştirilmesini açıklar. R43 kaynak derlemesinde kurtarma işlemi denetimleri çalışan olay işleyicilerine bağlı değildir. Yetkilendirme bilgilerini girmeyin ve kurtarma işlemini gerçekleştirmek için bu iletişim kutusuna güvenmeyin."
+        },
+        "pl": {
+          "purpose": "Otwiera okno ostrzeżenia Secure Reset ze strony Factory Reset.",
+          "when": "Używaj tego elementu sterującego wyłącznie do zapoznania się z ostrzeżeniami dotyczącymi odzyskiwania w ramach osobnej, zatwierdzonej analizy odzyskiwania.",
+          "how": "Wybierz Open Secure Reset. Przeczytaj pierwsze ostrzeżenie, a następnie użyj przycisku kontynuacji tylko wtedy, gdy chcesz zapoznać się z drugim ostrzeżeniem i wyświetlonymi wymaganiami odzyskiwania. Cancel zamyka okno dialogowe.",
+          "inputs": "Do otwarcia okna nie są potrzebne żadne dane. W kolejnym oknie widoczne są selektor pliku, pole wyboru potwierdzenia i pole frazy autoryzacyjnej, ale powiązane działania konwersji, migawki i końcowego resetu nie zostały zaimplementowane w tej kompilacji.",
+          "result": "Otwiera się okno ostrzeżenia Secure Reset i inicjowany jest widoczny stan formularza. Samo otwarcie nie konwertuje kopii zapasowej, nie pobiera migawki ani nie resetuje danych.",
+          "notes": "WYSOKIE RYZYKO: Okno opisuje destrukcyjne zastąpienie bieżących danych IndexedDB. W kodzie źródłowym R43 elementy sterujące odzyskiwaniem nie są podłączone do działających procedur obsługi zdarzeń. Nie wpisuj danych autoryzacyjnych i nie polegaj na tym oknie w celu przeprowadzenia odzyskiwania."
+        },
+        "ur": {
+          "purpose": "Factory Reset صفحے سے Secure Reset کا انتباہی ڈائیلاگ کھولتا ہے۔",
+          "when": "اس کنٹرول کو صرف ایک الگ اور منظور شدہ بحالی کی جانچ کے دوران بحالی کے انتباہات دیکھنے کے لیے استعمال کریں۔",
+          "how": "Open Secure Reset منتخب کریں۔ پہلا انتباہ پڑھیں، پھر جاری رکھنے کا کنٹرول صرف اس صورت میں استعمال کریں جب آپ دوسرا انتباہ اور دکھائی گئی بحالی کی شرائط دیکھنا چاہتے ہوں۔ Cancel ڈائیلاگ بند کر دیتا ہے۔",
+          "inputs": "ڈائیلاگ کھولنے کے لیے کوئی معلومات درکار نہیں۔ اگلے ڈائیلاگ میں فائل منتخب کرنے کا اختیار، تصدیقی چیک باکس اور اجازت کے فقرے کا خانہ دکھایا جاتا ہے، لیکن متعلقہ تبدیلی، اسنیپ شاٹ اور آخری ری سیٹ کے اقدامات اس بلڈ میں نافذ نہیں ہیں۔",
+          "result": "Secure Reset کا انتباہی ڈائیلاگ کھلتا ہے اور دکھائی دینے والی فارم کی ابتدائی حالت تیار کرتا ہے۔ اسے کھولنے سے بیک اَپ تبدیل، اسنیپ شاٹ ڈاؤن لوڈ یا ڈیٹا ری سیٹ نہیں ہوتا۔",
+          "notes": "زیادہ خطرہ: یہ ڈائیلاگ موجودہ IndexedDB ڈیٹا کی تباہ کن تبدیلی بیان کرتا ہے۔ R43 سورس بلڈ میں بحالی کے عملی کنٹرول کام کرنے والے ہینڈلرز سے منسلک نہیں ہیں۔ اجازت کی تفصیلات درج نہ کریں اور بحالی کے لیے اس ڈائیلاگ پر بھروسا نہ کریں۔"
+        },
+        "pa": {
+          "purpose": "Factory Reset ਪੰਨੇ ਤੋਂ Secure Reset ਚੇਤਾਵਨੀ ਡਾਇਲਾਗ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਇਸ ਕੰਟਰੋਲ ਨੂੰ ਸਿਰਫ਼ ਵੱਖਰੀ ਅਤੇ ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਰਿਕਵਰੀ ਜਾਂਚ ਦੇ ਹਿੱਸੇ ਵਜੋਂ ਰਿਕਵਰੀ ਚੇਤਾਵਨੀਆਂ ਵੇਖਣ ਲਈ ਵਰਤੋ।",
+          "how": "Open Secure Reset ਚੁਣੋ। ਪਹਿਲੀ ਚੇਤਾਵਨੀ ਪੜ੍ਹੋ, ਫਿਰ ਜਾਰੀ ਰੱਖਣ ਵਾਲਾ ਕੰਟਰੋਲ ਸਿਰਫ਼ ਉਦੋਂ ਵਰਤੋ ਜਦੋਂ ਤੁਸੀਂ ਦੂਜੀ ਚੇਤਾਵਨੀ ਅਤੇ ਦਿਖਾਈਆਂ ਰਿਕਵਰੀ ਲੋੜਾਂ ਦੀ ਜਾਂਚ ਕਰਨੀ ਹੋਵੇ। Cancel ਡਾਇਲਾਗ ਬੰਦ ਕਰ ਦਿੰਦਾ ਹੈ।",
+          "inputs": "ਡਾਇਲਾਗ ਖੋਲ੍ਹਣ ਲਈ ਕੋਈ ਇਨਪੁੱਟ ਲੋੜੀਂਦਾ ਨਹੀਂ। ਅਗਲੇ ਡਾਇਲਾਗ ਵਿੱਚ ਫਾਈਲ ਚੋਣ, ਪੁਸ਼ਟੀ ਚੈਕਬਾਕਸ ਅਤੇ ਅਧਿਕਾਰਤ ਵਾਕ ਲਈ ਖੇਤਰ ਦਿਖਦਾ ਹੈ, ਪਰ ਸੰਬੰਧਿਤ ਬਦਲਾਅ, ਸਨੈਪਸ਼ਾਟ ਅਤੇ ਆਖਰੀ ਰੀਸੈੱਟ ਕਾਰਵਾਈਆਂ ਇਸ ਬਿਲਡ ਵਿੱਚ ਲਾਗੂ ਨਹੀਂ ਹਨ।",
+          "result": "Secure Reset ਚੇਤਾਵਨੀ ਡਾਇਲਾਗ ਖੁੱਲ੍ਹਦਾ ਹੈ ਅਤੇ ਦਿਖਾਈ ਦੇ ਰਹੇ ਫਾਰਮ ਦੀ ਸ਼ੁਰੂਆਤੀ ਸਥਿਤੀ ਤਿਆਰ ਕਰਦਾ ਹੈ। ਇਸਨੂੰ ਖੋਲ੍ਹਣ ਨਾਲ ਬੈਕਅੱਪ ਨਹੀਂ ਬਦਲਦਾ, ਸਨੈਪਸ਼ਾਟ ਡਾਊਨਲੋਡ ਨਹੀਂ ਹੁੰਦਾ ਅਤੇ ਡਾਟਾ ਰੀਸੈੱਟ ਨਹੀਂ ਹੁੰਦਾ।",
+          "notes": "ਉੱਚ ਖਤਰਾ: ਡਾਇਲਾਗ ਮੌਜੂਦਾ IndexedDB ਡਾਟੇ ਨੂੰ ਨੁਕਸਾਨਦਾਇਕ ਢੰਗ ਨਾਲ ਬਦਲਣ ਬਾਰੇ ਦੱਸਦਾ ਹੈ। R43 ਸਰੋਤ ਬਿਲਡ ਵਿੱਚ ਰਿਕਵਰੀ ਕੰਟਰੋਲ ਕੰਮ ਕਰਨ ਵਾਲੇ ਇਵੈਂਟ ਹੈਂਡਲਰਾਂ ਨਾਲ ਨਹੀਂ ਜੁੜੇ। ਅਧਿਕਾਰ ਦੀ ਜਾਣਕਾਰੀ ਨਾ ਭਰੋ ਅਤੇ ਰਿਕਵਰੀ ਕਰਨ ਲਈ ਇਸ ਡਾਇਲਾਗ 'ਤੇ ਭਰੋਸਾ ਨਾ ਕਰੋ।"
+        },
+        "prs": {
+          "purpose": "پنجره هشدار Secure Reset را از صفحه Factory Reset باز می‌کند.",
+          "when": "این کنترل را فقط برای بررسی هشدارهای بازیابی و در چارچوب بررسی جداگانه و تأییدشده بازیابی به کار ببرید.",
+          "how": "Open Secure Reset را انتخاب کنید. هشدار اول را بخوانید؛ فقط اگر می‌خواهید هشدار دوم و الزامات بازیابی نمایش‌داده‌شده را بررسی کنید، از کنترل ادامه استفاده کنید. Cancel پنجره را می‌بندد.",
+          "inputs": "برای بازکردن پنجره ورودی لازم نیست. پنجره بعدی انتخاب فایل، کادر تأیید و فیلد عبارت مجوز را نشان می‌دهد؛ اما عملیات تبدیل، Snapshot و Reset نهایی در این Build پیاده‌سازی نشده‌اند.",
+          "result": "پنجره هشدار Secure Reset باز می‌شود و وضعیت اولیه فرم نمایشی را آماده می‌کند. بازکردن آن پشتیبان را تبدیل نمی‌کند، Snapshot دانلود نمی‌کند و داده‌ها را Reset نمی‌کند.",
+          "notes": "خطر بالا: پنجره جایگزینی مخرب داده‌های فعلی IndexedDB را توضیح می‌دهد. در سورس R43، کنترل‌های عملیات بازیابی به Handler اجرایی متصل نیستند. اطلاعات مجوز را وارد نکنید و برای انجام بازیابی به این پنجره اتکا نکنید."
+        },
+        "ps": {
+          "purpose": "د Factory Reset له پاڼې څخه د Secure Reset د خبرداري کړکۍ پرانیزي.",
+          "when": "دا کنټرول یوازې د یوې جلا او تایید شوې د بېرته راګرځونې ارزونې په ترڅ کې د بېرته راګرځونې د خبرداریو د کتلو لپاره وکاروئ.",
+          "how": "Open Secure Reset وټاکئ. لومړی خبرداری ولولئ؛ بیا د دوام کنټرول یوازې هغه وخت وکاروئ چې دویم خبرداری او ښودل شوې د بېرته راګرځونې اړتیاوې کتل غواړئ. Cancel کړکۍ بندوي.",
+          "inputs": "د کړکۍ د پرانیستلو لپاره هېڅ معلوماتو ته اړتیا نشته. په راتلونکې کړکۍ کې د فایل ټاکونکی، د تایید نښه او د اجازې د عبارت خانه ښکاري، خو اړوند د بدلولو، Snapshot او وروستي Reset کړنې په دې Build کې نه دي پلي شوې.",
+          "result": "د Secure Reset د خبرداري کړکۍ پرانیستل کېږي او د ښکاره فورم لومړنی حالت چمتو کوي. پرانیستل یې شاتړ نه بدلوي، Snapshot نه ښکته کوي او معلومات نه Reset کوي.",
+          "notes": "لوړ خطر: کړکۍ د اوسني IndexedDB معلوماتو د ویجاړوونکي بدلولو په اړه ده. د R43 سرچینې Build کې د بېرته راګرځونې کنټرولونه له فعالو Event Handlerونو سره نه دي تړل شوي. د اجازې معلومات مه داخلوئ او د بېرته راګرځونې لپاره پر دې کړکۍ تکیه مه کوئ."
         }
       },
       "handler_or_behavior": "`openFactoryReset()`"
@@ -6084,6 +6156,78 @@
           "inputs": "انتخاب‌گر فایل نمایش‌داده‌شده فایل JSON را می‌پذیرد؛ اما انتخاب فایل یا فشردن دکمه در این Build فرایند عملیاتی اعتبارسنجی و تبدیل را اجرا نمی‌کند.",
           "result": "این کنترل در R43 هیچ پشتیبان تبدیل‌شده و تأییدشده‌ای تولید نمی‌کند.",
           "notes": "خطر بسیار بالا: پیش از هر بازیابی مخرب باید موفقیت اعتبارسنجی و تبدیل پشتیبان اثبات شود. کنترل بررسی‌شده در سورس Handler اجرایی ندارد؛ فرض نکنید پشتیبان اعتبارسنجی یا تبدیل شده است."
+        },
+        "ar": {
+          "purpose": "يظهر زر للتحقق من النسخة الاحتياطية القديمة المحددة وتحويلها، لكنه لا يحتوي على معالج نقر مسجل في إصدار المصدر R43.",
+          "when": "لا تستخدم عنصر التحكم هذا للاستعادة في R43. تم توثيقه هنا فقط لتحديد العنصر الظاهر وفجوة التنفيذ الحالية فيه.",
+          "how": "تعرض الواجهة منتقي ملفات للنسخة الاحتياطية الأصلية New_new(2).json وزراً باسم Validate and Convert Backup. لا يؤدي اختيار الزر حالياً إلى تنفيذ عملية تحويل.",
+          "inputs": "يقبل منتقي الملفات المعروض ملف JSON، لكن اختيار ملف أو الضغط على الزر لا يشغّل عملية تحقق أو تحويل فعالة في هذا الإصدار.",
+          "result": "لا ينتج عنصر التحكم هذا أي نسخة احتياطية محوّلة تم التحقق منها في R43.",
+          "notes": "خطر مرتفع: يجب إثبات نجاح التحقق من النسخة الاحتياطية وتحويلها قبل أي استعادة مدمرة. لا يحتوي عنصر التحكم هذا على معالج أحداث يعمل في المصدر الذي تمت مراجعته؛ لا تتابع على افتراض أن النسخة الاحتياطية تم التحقق منها أو تحويلها."
+        },
+        "ckb": {
+          "purpose": "دوگمەیەک پیشان دەدرێت بۆ پشتڕاستکردنەوە و گۆڕینی پاڵپشتی کۆنی هەڵبژێردراو، بەڵام لە سەرچاوەی R43دا Click Handlerێکی تۆمارکراوی نییە.",
+          "when": "لە R43دا ئەم کۆنترۆڵە بۆ گەڕاندنەوە بەکارمەهێنە. لێرە تەنها بۆ ناساندنی کۆنترۆڵە دیارەکە و کەلێنی ئێستای جێبەجێکردنی تۆمار کراوە.",
+          "how": "ڕووکار هەڵبژێری فایلێک بۆ پاڵپشتی بنەڕەتی New_new(2).json و دوگمەی Validate and Convert Backup پیشان دەدات. هەڵبژاردنی دوگمەکە لە ئێستادا کردارێکی گۆڕینی جێبەجێکراو ناکات.",
+          "inputs": "هەڵبژێری فایلەکەی پیشاندراو فایلی JSON وەردەگرێت؛ بەڵام هەڵبژاردنی فایل یان کرتەکردنی دوگمەکە پرۆسەیەکی کارای پشتڕاستکردنەوە یان گۆڕین لەم Buildەدا جێبەجێ ناکات.",
+          "result": "ئەم کۆنترۆڵە لە R43دا هیچ پاڵپشتییەکی گۆڕدراو و پشتڕاستکراوە بەرهەم ناهێنێت.",
+          "notes": "مەترسیی بەرز: پێش هەر گەڕاندنەوەیەکی وێرانکەرانە دەبێت سەرکەوتنی پشتڕاستکردنەوە و گۆڕینی پاڵپشتی بسەلمێنرێت. ئەم کۆنترۆڵە لە سەرچاوەی پشکنراودا Event Handlerێکی کارای نییە؛ بەو گریمانەیەوە بەردەوام مەبە کە پاڵپشتی پشتڕاستکراوەتەوە یان گۆڕدراوە."
+        },
+        "kmr": {
+          "purpose": "Bişkotek ji bo verastkirin û veguherandina backup-a kevn a hilbijartî xuya dibe, lê di build-a çavkaniya R43 de tu handlera klîkkirinê ya qeydkirî tune.",
+          "when": "Di R43 de vê kontrolê ji bo vegerandinê bikar neyne. Li vir tenê ji bo naskirina kontrola xuya û kêmasiya pêkanîna wê hatiye belgekirin.",
+          "how": "Navrûyê hilbijêra pelê ji bo backup-a orîjînal New_new(2).json û bişkoka Validate and Convert Backup nîşan dide. Hilbijartina vê bişkokê niha çalakiyeke veguherandinê ya pêkan nake.",
+          "inputs": "Hilbijêra pelê ya xuya pelekî JSON qebûl dike, lê hilbijartina pelê an pêlêkirina bişkokê di vê buildê de pêvajoyeke karî ya verastkirin an veguherandinê naxebitîne.",
+          "result": "Ev kontrol di R43 de backup-eke veguherî û verastkirî dernaxe.",
+          "notes": "METIRSIYA BILIND: Berî her restore-a wêranker divê serkeftina verastkirin û veguherandina backup-ê were îspatkirin. Di çavkaniya hatî kontrolkirin de ev kontrol tu handlera bûyerê ya kar nîne; bi vê texmînê ku backup hat verastkirin an veguherandin dom neke."
+        },
+        "tr": {
+          "purpose": "Seçilen eski yedeği doğrulamak ve dönüştürmek için bir düğme görüntülenir; ancak R43 kaynak derlemesinde kayıtlı bir tıklama işleyicisi yoktur.",
+          "when": "R43'te bu denetimi kurtarma amacıyla kullanmayın. Burada yalnızca görünür denetimi ve mevcut uygulama eksikliğini tanımlamak için belgelenmiştir.",
+          "how": "Arayüz, özgün New_new(2).json yedek dosyası için bir dosya seçici ve Validate and Convert Backup düğmesi gösterir. Düğmenin seçilmesi şu anda uygulanmış bir dönüştürme işlemi başlatmaz.",
+          "inputs": "Gösterilen dosya seçici bir JSON dosyasını kabul eder; ancak dosya seçmek veya düğmeye basmak bu derlemede çalışan bir doğrulama ya da dönüştürme süreci başlatmaz.",
+          "result": "Bu denetim R43'te doğrulanmış ve dönüştürülmüş bir yedek üretmez.",
+          "notes": "YÜKSEK RİSK: Yıkıcı bir geri yükleme işleminden önce yedeğin başarıyla doğrulanıp dönüştürüldüğü kanıtlanmalıdır. İncelenen kaynakta bu denetimin çalışan bir olay işleyicisi yoktur; yedeğin doğrulandığını veya dönüştürüldüğünü varsayarak devam etmeyin."
+        },
+        "pl": {
+          "purpose": "Wyświetlany jest przycisk służący do sprawdzenia i konwersji wybranej starszej kopii zapasowej, ale w kodzie źródłowym R43 nie ma zarejestrowanej procedury obsługi kliknięcia.",
+          "when": "Nie używaj tego elementu sterującego do odzyskiwania danych w R43. Opisano go tutaj wyłącznie w celu wskazania widocznego elementu i obecnego braku implementacji.",
+          "how": "Interfejs wyświetla selektor oryginalnego pliku kopii zapasowej New_new(2).json oraz przycisk Validate and Convert Backup. Wybranie przycisku nie uruchamia obecnie zaimplementowanej konwersji.",
+          "inputs": "Widoczny selektor plików akceptuje plik JSON, ale wybranie pliku lub naciśnięcie przycisku nie uruchamia w tej kompilacji działającego procesu weryfikacji ani konwersji.",
+          "result": "Ten element sterujący nie tworzy w R43 zweryfikowanej, przekonwertowanej kopii zapasowej.",
+          "notes": "WYSOKIE RYZYKO: przed jakimkolwiek destrukcyjnym przywracaniem trzeba udowodnić, że kopia zapasowa została pomyślnie zweryfikowana i przekonwertowana. W sprawdzonym kodzie źródłowym ten element nie ma działającej procedury obsługi zdarzeń; nie kontynuuj, zakładając, że kopia została zweryfikowana lub przekonwertowana."
+        },
+        "ur": {
+          "purpose": "منتخب پرانے بیک اَپ کی تصدیق اور تبدیلی کے لیے ایک بٹن دکھایا جاتا ہے، لیکن R43 سورس بلڈ میں اس کے لیے کوئی کلک ہینڈلر رجسٹر نہیں ہے۔",
+          "when": "R43 میں بحالی کے لیے یہ کنٹرول استعمال نہ کریں۔ اسے یہاں صرف نظر آنے والے کنٹرول اور اس کی موجودہ نامکمل عمل درآمد کی نشاندہی کے لیے درج کیا گیا ہے۔",
+          "how": "انٹرفیس اصل New_new(2).json بیک اَپ کے لیے فائل منتخب کرنے کا اختیار اور Validate and Convert Backup بٹن دکھاتا ہے۔ فی الحال بٹن منتخب کرنے سے تبدیلی کا کوئی نافذ شدہ عمل شروع نہیں ہوتا۔",
+          "inputs": "دکھایا گیا فائل منتخب کرنے کا اختیار JSON فائل قبول کرتا ہے، لیکن فائل منتخب کرنے یا بٹن دبانے سے اس بلڈ میں تصدیق یا تبدیلی کا کوئی فعال عمل نہیں چلتا۔",
+          "result": "R43 میں یہ کنٹرول کوئی تصدیق شدہ تبدیل شدہ بیک اَپ تیار نہیں کرتا۔",
+          "notes": "زیادہ خطرہ: کسی بھی تباہ کن بحالی سے پہلے ثابت ہونا چاہیے کہ بیک اَپ کی تصدیق اور تبدیلی کامیابی سے ہوئی ہے۔ جانچے گئے سورس میں اس کنٹرول کا کوئی فعال ایونٹ ہینڈلر نہیں؛ یہ فرض کر کے آگے نہ بڑھیں کہ بیک اَپ کی تصدیق یا تبدیلی ہو چکی ہے۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੇ ਹੋਏ ਪੁਰਾਣੇ ਬੈਕਅੱਪ ਦੀ ਜਾਂਚ ਅਤੇ ਤਬਦੀਲੀ ਲਈ ਇੱਕ ਬਟਨ ਦਿਖਾਇਆ ਜਾਂਦਾ ਹੈ, ਪਰ R43 ਸਰੋਤ ਬਿਲਡ ਵਿੱਚ ਇਸ ਲਈ ਕੋਈ ਦਰਜ ਕੀਤਾ ਕਲਿੱਕ ਹੈਂਡਲਰ ਨਹੀਂ ਹੈ।",
+          "when": "R43 ਵਿੱਚ ਰਿਕਵਰੀ ਲਈ ਇਸ ਕੰਟਰੋਲ ਦੀ ਵਰਤੋਂ ਨਾ ਕਰੋ। ਇੱਥੇ ਇਸਦਾ ਜ਼ਿਕਰ ਸਿਰਫ਼ ਦਿਖਾਈ ਦੇ ਰਹੇ ਕੰਟਰੋਲ ਅਤੇ ਇਸਦੀ ਮੌਜੂਦਾ ਲਾਗੂਕਰਨ ਘਾਟ ਦੀ ਪਛਾਣ ਲਈ ਹੈ।",
+          "how": "ਇੰਟਰਫੇਸ ਅਸਲ New_new(2).json ਬੈਕਅੱਪ ਲਈ ਫਾਈਲ ਚੋਣ ਅਤੇ Validate and Convert Backup ਬਟਨ ਦਿਖਾਉਂਦਾ ਹੈ। ਇਸ ਵੇਲੇ ਬਟਨ ਚੁਣਨ ਨਾਲ ਕੋਈ ਲਾਗੂ ਕੀਤੀ ਤਬਦੀਲੀ ਕਾਰਵਾਈ ਨਹੀਂ ਚੱਲਦੀ।",
+          "inputs": "ਦਿਖਾਇਆ ਗਿਆ ਫਾਈਲ ਚੋਣਕਾਰ JSON ਫਾਈਲ ਸਵੀਕਾਰ ਕਰਦਾ ਹੈ, ਪਰ ਫਾਈਲ ਚੁਣਨ ਜਾਂ ਬਟਨ ਦਬਾਉਣ ਨਾਲ ਇਸ ਬਿਲਡ ਵਿੱਚ ਕੋਈ ਕੰਮ ਕਰਦੀ ਜਾਂਚ ਜਾਂ ਤਬਦੀਲੀ ਪ੍ਰਕਿਰਿਆ ਨਹੀਂ ਚੱਲਦੀ।",
+          "result": "R43 ਵਿੱਚ ਇਹ ਕੰਟਰੋਲ ਕੋਈ ਤਸਦੀਕ ਕੀਤਾ ਹੋਇਆ ਬਦਲਿਆ ਬੈਕਅੱਪ ਤਿਆਰ ਨਹੀਂ ਕਰਦਾ।",
+          "notes": "ਉੱਚ ਖਤਰਾ: ਕਿਸੇ ਵੀ ਨੁਕਸਾਨਦਾਇਕ ਰੀਸਟੋਰ ਤੋਂ ਪਹਿਲਾਂ ਇਹ ਸਾਬਤ ਹੋਣਾ ਲਾਜ਼ਮੀ ਹੈ ਕਿ ਬੈਕਅੱਪ ਦੀ ਜਾਂਚ ਅਤੇ ਤਬਦੀਲੀ ਸਫਲ ਹੋਈ ਹੈ। ਜਾਂਚੇ ਸਰੋਤ ਵਿੱਚ ਇਸ ਕੰਟਰੋਲ ਦਾ ਕੋਈ ਕੰਮ ਕਰਦਾ ਇਵੈਂਟ ਹੈਂਡਲਰ ਨਹੀਂ; ਇਹ ਮੰਨ ਕੇ ਅੱਗੇ ਨਾ ਵਧੋ ਕਿ ਬੈਕਅੱਪ ਦੀ ਜਾਂਚ ਜਾਂ ਤਬਦੀਲੀ ਹੋ ਚੁੱਕੀ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "دکمه‌ای برای اعتبارسنجی و تبدیل پشتیبان قدیمی انتخاب‌شده نمایش داده می‌شود، اما در سورس Build R43 هیچ Click Handler ثبت‌شده‌ای برای آن وجود ندارد.",
+          "when": "در R43 از این کنترل برای بازیابی استفاده نکنید. این راهنما فقط برای شناسایی کنترل قابل مشاهده و نقص فعلی پیاده‌سازی آن نوشته شده است.",
+          "how": "رابط، انتخاب فایل پشتیبان اصلی New_new(2).json و دکمه Validate and Convert Backup را نمایش می‌دهد. در حال حاضر انتخاب دکمه هیچ عملیات اجرایی تبدیلی را آغاز نمی‌کند.",
+          "inputs": "انتخاب‌گر فایل نمایش‌داده‌شده فایل JSON را می‌پذیرد؛ اما انتخاب فایل یا فشردن دکمه در این Build فرایند عملیاتی اعتبارسنجی یا تبدیل را اجرا نمی‌کند.",
+          "result": "این کنترل در R43 هیچ پشتیبان تبدیل‌شده و تأییدشده‌ای تولید نمی‌کند.",
+          "notes": "خطر بالا: پیش از هر بازیابی مخرب باید اثبات شود که اعتبارسنجی و تبدیل پشتیبان با موفقیت انجام شده است. کنترل بررسی‌شده در سورس Handler اجرایی ندارد؛ با فرض اینکه پشتیبان اعتبارسنجی یا تبدیل شده است، ادامه ندهید."
+        },
+        "ps": {
+          "purpose": "د ټاکل شوي زاړه شاتړ د تایید او بدلولو لپاره یوه تڼۍ ښکاري، خو د R43 سرچینې Build کې د هغې لپاره ثبت شوی د کلیک Handler نشته.",
+          "when": "په R43 کې دا کنټرول د بېرته راګرځولو لپاره مه کاروئ. دلته یوازې د ښکاره کنټرول او د اوسني پلي کولو د تشې د پېژندلو لپاره تشریح شوی.",
+          "how": "انترفېس د اصلي New_new(2).json شاتړ لپاره د فایل ټاکونکی او د Validate and Convert Backup تڼۍ ښيي. اوس د تڼۍ ټاکل د بدلولو کوم پلي شوی عمل نه ترسره کوي.",
+          "inputs": "ښودل شوی د فایل ټاکونکی JSON فایل مني، خو د فایل ټاکل یا د تڼۍ کېکاږل په دې Build کې د تایید یا بدلولو فعال بهیر نه چلوي.",
+          "result": "دا کنټرول په R43 کې تایید شوی بدل شوی شاتړ نه جوړوي.",
+          "notes": "لوړ خطر: له هر ویجاړوونکي Restore مخکې باید ثابته شي چې د شاتړ تایید او بدلول په بریالیتوب ترسره شوي دي. په ارزول شوې سرچینه کې د دې کنټرول فعال Event Handler نشته؛ په دې ګومان دوام مه ورکوئ چې شاتړ تایید یا بدل شوی دی."
         }
       },
       "handler_or_behavior": "`event/property listener`"
