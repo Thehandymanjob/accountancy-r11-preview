@@ -6,7 +6,7 @@
 const DB=()=>engine().databaseName;
 const FORMAT="tha-v264-indexeddb-snapshot-v1";
 const PREVIEW_DB="the_handyman_accountancy_r11_preview_idb";
-const gate={stage:false,converted:false,importVerified:false,importFile:null,emergencyVerified:false,emergencyDigest:null,busy:false};
+const gate={stage:false,converted:false,importVerified:false,importFile:null,emergencyVerified:false,emergencyFileVerified:false,emergencyDigest:null,busy:false};
 const SOURCE_SHA="07b6170db9169e3b59d0b4527b88e26d589bd18c178ec9a1b1975b55f403db90";
 const DOMAINS=["accounting","business_profile","contracts","diagnostics","factory_reset_recovery","help_contact_drafts","media","notifications","preference_meta","preferences","projects","recovery","report_notifications","report_settings","report_workflow","reports","sequences"];
 const REQUIRED=["accounting:state","business_profile:identity","contracts:state","projects:state","sequences:invoice-number","preferences:language","preference_meta:language-pref-version","diagnostics:monitor-log","reports:archive","report_notifications:notifications","report_settings:settings","report_workflow:workflow","notifications:items","recovery:last-reset-snapshot","factory_reset_recovery:factory-reset-recovery","help_contact_drafts:drafts","media:assets"];
@@ -121,12 +121,12 @@ function setFinalGate(){
  const final=$("factoryResetFinalButton");
  if(!final)return false;
  const file=$("factoryResetConvertedFile")?.files?.[0]||null;
- const ready=gate.stage&&gate.converted&&gate.importVerified&&file&&file===gate.importFile&&gate.emergencyVerified&&gate.emergencyDigest&&$("factoryResetConfirmEmergency")?.checked===true&&$("factoryResetConfirmPhrase")?.value.trim()==="RESET 273"&&gate.busy===false&&DB()===PREVIEW_DB;
+ const ready=gate.stage&&gate.converted&&gate.importVerified&&file&&file===gate.importFile&&gate.emergencyVerified&&gate.emergencyFileVerified&&gate.emergencyDigest&&$("factoryResetConfirmEmergency")?.checked===true&&$("factoryResetConfirmPhrase")?.value.trim()==="RESET 273"&&gate.busy===false&&DB()===PREVIEW_DB;
  final.disabled=!ready;
  return !!ready;
 }
 function resetGateState(){
- gate.stage=false;gate.converted=false;gate.importVerified=false;gate.importFile=null;gate.emergencyVerified=false;gate.emergencyDigest=null;gate.busy=false;
+ gate.stage=false;gate.converted=false;gate.importVerified=false;gate.importFile=null;gate.emergencyVerified=false;gate.emergencyFileVerified=false;gate.emergencyDigest=null;gate.busy=false;
  const final=$("factoryResetFinalButton");if(final)final.disabled=true;
  const emergency=$("factoryResetEmergencyButton");if(emergency)emergency.disabled=true;
  const confirm=$("factoryResetConfirmEmergency");if(confirm){confirm.checked=false;confirm.disabled=true;}
@@ -134,7 +134,7 @@ function resetGateState(){
 }
 async function validateSelectedImport(){
  const input=$("factoryResetConvertedFile"),file=input&&input.files&&input.files[0];
- gate.importVerified=false;gate.importFile=null;gate.emergencyVerified=false;gate.emergencyDigest=null;
+ gate.importVerified=false;gate.importFile=null;gate.emergencyVerified=false;gate.emergencyFileVerified=false;gate.emergencyDigest=null;
  const confirm=$("factoryResetConfirmEmergency");if(confirm){confirm.checked=false;confirm.disabled=true;}
  const emergency=$("factoryResetEmergencyButton");if(emergency)emergency.disabled=true;
  setFinalGate();
@@ -179,13 +179,32 @@ async function emergencyAction(){
   const url=root.URL.createObjectURL(result.blob),a=root.document.createElement("a");
   a.href=url;a.download=filename;root.document.body.appendChild(a);a.click();a.remove();
   root.setTimeout(()=>root.URL.revokeObjectURL(url),60000);
-  gate.emergencyVerified=true;gate.emergencyDigest=result.verification.digest;
-  if(confirm)confirm.disabled=false;
-  setStatus("Emergency snapshot generated and cryptographically verified: "+result.verification.records+" persisted records across "+result.verification.domains+" domains. SHA-256: "+result.verification.digest+". Save the downloaded file in Files, then confirm below. The browser cannot independently verify the destination file was saved.",false);
+  gate.emergencyVerified=true;gate.emergencyFileVerified=false;gate.emergencyDigest=result.verification.digest;
+  var savedSnapshotInput=$("factoryResetEmergencyFile");if(savedSnapshotInput){savedSnapshotInput.disabled=false;savedSnapshotInput.value="";}
+  if(confirm){confirm.checked=false;confirm.disabled=true;}
+  setStatus("Emergency snapshot generated and verified. Save it in Files, then select that saved file below. Its SHA-256 must match the generated snapshot before the final confirmation can be enabled.",false);
  }catch(e){
   gate.emergencyVerified=false;gate.emergencyDigest=null;
   const confirm=$("factoryResetConfirmEmergency");if(confirm){confirm.checked=false;confirm.disabled=true;}
   setStatus("Emergency backup failed: "+(e.message||e),true);
+ }
+ setFinalGate();
+}
+async function validateEmergencyFile(){
+ gate.emergencyFileVerified=false;
+ const confirm=$("factoryResetConfirmEmergency");if(confirm){confirm.checked=false;confirm.disabled=true;}
+ const file=$("factoryResetEmergencyFile")?.files?.[0];
+ if(!file||!gate.emergencyVerified||!gate.emergencyDigest){setFinalGate();return;}
+ try{
+  assert(file.size>0,"The selected emergency snapshot is empty.");
+  const actual=await digest(await file.arrayBuffer());
+  assert(actual===gate.emergencyDigest,"The selected file does not match the generated emergency snapshot SHA-256.");
+  gate.emergencyFileVerified=true;
+  if(confirm)confirm.disabled=false;
+  setStatus("Saved emergency snapshot file verified. SHA-256 matches the generated full-database snapshot.",false);
+ }catch(e){
+  gate.emergencyFileVerified=false;
+  setStatus("Emergency snapshot file verification failed: "+(e.message||e),true);
  }
  setFinalGate();
 }
@@ -195,7 +214,7 @@ async function finalAction(){
   assert(DB()===PREVIEW_DB,"Wrong database. Reset blocked outside the isolated Preview database.");
   assert(gate.converted===true&&gate.importVerified===true,"The converted backup has not passed independent validation.");
   assert(gate.importFile&&$("factoryResetConvertedFile").files[0]===gate.importFile,"The selected converted backup changed after validation. Validate it again.");
-  assert(gate.emergencyVerified===true&&/^[a-f0-9]{64}$/i.test(gate.emergencyDigest||""),"A verified emergency snapshot is not available.");
+  assert(gate.emergencyVerified===true&&gate.emergencyFileVerified===true&&/^[a-f0-9]{64}$/i.test(gate.emergencyDigest||""),"The saved emergency snapshot file has not passed SHA-256 verification.");
   assert($("factoryResetConfirmEmergency").checked===true,"Confirm that the verified emergency snapshot file has been saved.");
   assert($("factoryResetConfirmPhrase").value.trim()==="RESET 273","Type RESET 273 exactly to authorize the reset.");
   await inspectImportFile(gate.importFile);
@@ -209,7 +228,7 @@ async function finalAction(){
   gate.busy=true;setFinalGate();return;
  }catch(e){
   gate.busy=false;
-  if(!e.resetLockActive){gate.emergencyVerified=false;gate.emergencyDigest=null;const confirm=$("factoryResetConfirmEmergency");if(confirm){confirm.checked=false;confirm.disabled=true;}}
+  if(!e.resetLockActive){gate.emergencyVerified=false;gate.emergencyFileVerified=false;gate.emergencyDigest=null;const confirm=$("factoryResetConfirmEmergency");if(confirm){confirm.checked=false;confirm.disabled=true;}const savedSnapshotInput=$("factoryResetEmergencyFile");if(savedSnapshotInput){savedSnapshotInput.value="";savedSnapshotInput.disabled=true;}}
   setStatus((e.resetLockActive?"RECOVERY LOCK ACTIVE — keep this page open and retry using the validated converted backup. ":"Reset stopped — ")+(e.message||e),true);
  }
  gate.busy=false;setFinalGate();
@@ -224,6 +243,7 @@ function bind(){
  if(source)source.addEventListener("change",()=>{resetGateState();gate.stage=true;setFinalGate();});
  const converted=$("factoryResetConvertedFile");
  if(converted)converted.addEventListener("change",validateSelectedImport);
+ const savedSnapshotInput=$("factoryResetEmergencyFile");if(savedSnapshotInput)savedSnapshotInput.addEventListener("change",validateEmergencyFile);
  ["factoryResetConfirmEmergency","factoryResetConfirmPhrase"].forEach(id=>{const el=$(id);if(el){el.addEventListener("input",updateFinalAvailability);el.addEventListener("change",updateFinalAvailability);}});
  // Fail closed on first render and after each modal transition.
  resetGateState();
