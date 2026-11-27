@@ -401,7 +401,7 @@ Yalnızca bu kurtarma işlemini yapmanız açıkça söylendiyse, onaylanmış k
 ## 12. Veri Güvenliği ve Sorun Giderme
 
 ### Metin girişi ve dil kısıtlaması
-Mevcut uygulamada metin alanlarında yalnızca ASCII karakterlerini kabul eden bir metin giriş koruması bulunur. Bu, İngilizce harflerin ve standart klavye karakterlerinin kabul edildiği; Farsça, Arapça, Urduca, Kürtçe, Pencapça, Peştuca ve aksanlı Latin harflerinin ise reddedilebileceği anlamına gelir. Kılavuz dili ayarı bu kısıtlamayı değiştirmez veya uygulama arayüzünü çevirm ez. **English text required** uyarısını görürseniz alana dönün ve kabul edilen İngilizce/ASCII karakterlerini kullanarak bilgiyi girin. Çevrilmiş bir kılavuz seçmenin veri giriş formlarının kabul ettiği dili değiştirdiğini varsaymayın.
+Mevcut uygulamada metin alanlarında yalnızca ASCII karakterlerini kabul eden bir metin giriş koruması bulunur. Bu, İngilizce harflerin ve standart klavye karakterlerinin kabul edildiği; Farsça, Arapça, Urduca, Kürtçe, Pencapça, Peştuca ve aksanlı Latin harflerinin ise reddedilebileceği anlamına gelir. Kılavuz dili ayarı bu kısıtlamayı değiştirmez veya uygulama arayüzünü çevirmez. **English text required** uyarısını görürseniz alana dönün ve kabul edilen İngilizce/ASCII karakterlerini kullanarak bilgiyi girin. Çevrilmiş bir kılavuz seçmenin veri giriş formlarının kabul ettiği dili değiştirdiğini varsaymayın.
 
 ### Bir kayıt kayıp görünüyorsa
 1. Hemen sıfırlama veya geri yükleme yapmayın.
