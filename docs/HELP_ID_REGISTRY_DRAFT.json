@@ -4744,12 +4744,12 @@
       "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
-          "purpose": "Runs a temporary write, read, key-list and delete check against the active IndexedDB storage layer.",
-          "when": "Use this when checking whether the browser can access the app’s R11 IndexedDB database correctly.",
-          "how": "Select Test IndexedDB Storage and wait for the result message. Read the full status before continuing.",
-          "inputs": "No data is entered. The test uses a temporary test item and requires the app’s IndexedDB layer to be available.",
-          "result": "The app reports whether the temporary IndexedDB test passed or failed.",
-          "notes": "The test is designed to remove its temporary test item and does not migrate, overwrite or delete existing application records. A failed test is a storage warning; do not continue entering data until investigated."
+          "purpose": "Runs an IndexedDB health check against the active R11 database after pending accounting writes are flushed.",
+          "when": "Use this when checking whether the app's active IndexedDB storage service is healthy.",
+          "how": "Select Test IndexedDB Storage and wait for the health result. Read the full status message before continuing.",
+          "inputs": "No data is entered. The test flushes pending accounting writes and calls the active IndexedDB storage health check.",
+          "result": "The app reports IndexedDB health PASS or FAIL and returns the active database name when available. This control does not create a temporary test record or compare every accounting record with the UI.",
+          "notes": "A PASS confirms the storage health check, not full data consistency. Use Compare Accounting Storage (Read-only) for the separate UI/database comparison. A failure is a storage warning; investigate before continuing."
         },
         "fa": {
           "purpose": "با انجام یک نوشتن موقت، خواندن، فهرست‌کردن کلیدها و حذف مورد آزمایشی، لایه ذخیره‌سازی IndexedDB فعال را بررسی می‌کند.",
@@ -4842,12 +4842,12 @@
       "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
-          "purpose": "Creates an Accounting storage snapshot in IndexedDB for the app’s accounting data.",
-          "when": "Use this when you need an internal snapshot for an accounting-storage check or diagnostic workflow.",
-          "how": "Select Create Accounting Snapshot in IndexedDB and wait for the result or error message.",
-          "inputs": "No form input is required. The accounting storage service must be initialised and available.",
-          "result": "A snapshot is created in the IndexedDB storage layer if the operation succeeds.",
-          "notes": "This is a storage/diagnostic snapshot, not a downloadable full-database backup. Do not treat it as a substitute for Backup, and do not assume it can restore records."
+          "purpose": "Pending verification: the Settings screen contains a Create Accounting Snapshot in IndexedDB button, but the referenced window.createAccountingStorageSnapshot function is not defined in the inspected R43 HTML or companion JavaScript files.",
+          "when": "Do not use this control until its implementation is restored and verified.",
+          "how": "Keep this help entry unpublished. Do not select the button expecting a snapshot; first confirm that the handler exists in the deployed source and test its output.",
+          "inputs": "No verified input requirements are available because the handler is not implemented in the inspected source.",
+          "result": "No snapshot result can be confirmed in the inspected R43 build. The button references a missing function.",
+          "notes": "AUDIT PENDING: this control appears in the interface, but its runtime action is not available in the inspected source. Do not mark complete or claim that a snapshot was created."
         },
         "fa": {
           "purpose": "یک Snapshot از داده‌های حسابداری در لایه ذخیره‌سازی IndexedDB ایجاد می‌کند.",
@@ -16920,12 +16920,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Pending verification: the inventory lists an Open saved report control, but its report188Open handler was not found in the inspected R43 HTML or companion JavaScript files.",
-          "when": "Do not rely on this control until its current source implementation is located and verified.",
-          "how": "Keep this help entry unpublished. Confirm the visible control and its actual handler in the deployed source before writing user instructions.",
-          "inputs": "Not verified in the inspected source.",
-          "result": "No runtime result can be confirmed from the inspected source.",
-          "notes": "AUDIT PENDING: do not mark complete or publish based on the inventory label alone."
+          "purpose": "Open a saved report snapshot in the report viewer.",
+          "when": "Use this when you need to review a report snapshot that was saved previously in the Reports & Tax archive.",
+          "how": "Select Open saved report beside the intended archive entry. Review its saved period, date and status in the viewer.",
+          "inputs": "Select the intended saved report from the archive. No additional input is required.",
+          "result": "The saved report snapshot is displayed in the report viewer. If a related report-ready notification exists, opening the report also marks that notification as read.",
+          "notes": "An archived report is a snapshot from when it was saved and may not reflect later transaction changes. Generate a fresh report for current figures."
         },
         "fa": {
           "purpose": "باز کردن یک گزارش ذخیره‌شده قبلی.",
@@ -16946,12 +16946,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Pending verification: the inventory lists a Print / PDF control, but its report188Print handler was not found in the inspected R43 HTML or companion JavaScript files.",
-          "when": "Do not rely on this control until its current source implementation is located and verified.",
-          "how": "Keep this help entry unpublished. Confirm the visible control and its actual handler in the deployed source before writing user instructions.",
-          "inputs": "Not verified in the inspected source.",
-          "result": "No runtime result can be confirmed from the inspected source.",
-          "notes": "AUDIT PENDING: do not mark complete or publish based on the inventory label alone."
+          "purpose": "Print or save a previously saved report snapshot as a PDF.",
+          "when": "Use this when you need a paper or PDF copy of a saved report snapshot.",
+          "how": "Open the intended saved report and select Print / Save PDF. Review the browser print dialog, then print or choose Save as PDF.",
+          "inputs": "A saved report must be open in the report viewer. Verify its reporting period and status before printing.",
+          "result": "The app prepares the saved snapshot for printing and opens the browser's print dialog. Choose a printer or Save as PDF.",
+          "notes": "The printed content is the archived snapshot, not a live recalculation. Check the report period and figures before sharing or filing the PDF."
         },
         "fa": {
           "purpose": "چاپ یا ذخیره گزارش قبلی به‌صورت PDF.",
@@ -16972,12 +16972,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Pending verification: the inventory lists an Update status control, but its report188RenameStatus handler was not found in the inspected R43 HTML or companion JavaScript files.",
-          "when": "Do not rely on this control until its current source implementation is located and verified.",
-          "how": "Keep this help entry unpublished. Confirm the visible control and its actual handler in the deployed source before writing user instructions.",
-          "inputs": "Not verified in the inspected source.",
-          "result": "No runtime result can be confirmed from the inspected source.",
-          "notes": "AUDIT PENDING: do not mark complete or publish based on the inventory label alone."
+          "purpose": "Change the status label stored against a saved report snapshot.",
+          "when": "Use this when the progress status of a saved report needs to be updated.",
+          "how": "Select Update status beside the intended report. Enter one of the suggested statuses or another accurate status in the prompt, then confirm.",
+          "inputs": "Select the intended saved report and enter a status label. Suggested values include Awaiting information, Ready for review, Ready for accountant, Submitted by accountant and Superseded / corrected.",
+          "result": "The report's status and updated timestamp are saved to the report archive if persistence succeeds. This changes the label only; it does not submit the report.",
+          "notes": "Use a status that accurately reflects the report's progress. Do not mark a report as submitted unless the accountant or relevant service confirms submission."
         },
         "fa": {
           "purpose": "تغییر برچسب وضعیت یک گزارش ذخیره‌شده.",
@@ -16998,12 +16998,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Pending verification: the inventory lists a notification-row control, but its report188OpenNotification handler was not found in the inspected R43 HTML or companion JavaScript files.",
-          "when": "Do not rely on this control until its current source implementation is located and verified.",
-          "how": "Keep this help entry unpublished. Confirm the visible control and its actual handler in the deployed source before writing user instructions.",
-          "inputs": "Not verified in the inspected source.",
-          "result": "No runtime result can be confirmed from the inspected source.",
-          "notes": "AUDIT PENDING: do not mark complete or publish based on the inventory label alone."
+          "purpose": "Open a notification and display its full details.",
+          "when": "Use this when you need to read the full message behind a notification in the Reports & Tax inbox.",
+          "how": "Select the notification row with the relevant title and date to open its details.",
+          "inputs": "Select the notification with the correct title and date.",
+          "result": "The selected notification details are displayed. If it was unread, the app marks it as read and refreshes the inbox.",
+          "notes": "Check the title and date because notifications may have similar wording. Opening a notice does not complete the task it describes."
         },
         "fa": {
           "purpose": "باز کردن یک اعلان از فهرست اعلان‌ها.",
@@ -17024,12 +17024,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Pending verification: the inventory lists a notification read/unread control, but its report188ToggleReadFromDetail handler was not found in the inspected R43 HTML or companion JavaScript files.",
-          "when": "Do not rely on this control until its current source implementation is located and verified.",
-          "how": "Keep this help entry unpublished. Confirm the visible control and its actual handler in the deployed source before writing user instructions.",
-          "inputs": "Not verified in the inspected source.",
-          "result": "No runtime result can be confirmed from the inspected source.",
-          "notes": "AUDIT PENDING: do not mark complete or publish based on the inventory label alone."
+          "purpose": "Toggle the selected notification between read and unread.",
+          "when": "Use this when you want to change the read state of a notification while viewing its details.",
+          "how": "Select Mark as read or Mark as unread in the notification details.",
+          "inputs": "The correct notification must be open in the details view.",
+          "result": "The notification's read state is toggled and the details view and inbox are refreshed after the save attempt.",
+          "notes": "This changes the notification's read state only; it does not complete the task described by the notification."
         },
         "fa": {
           "purpose": "تغییر وضعیت اعلان انتخاب‌شده بین خوانده‌شده و خوانده‌نشده.",
@@ -17050,12 +17050,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Pending verification: the inventory lists a Print / Save PDF control for notification/report content, but its report188Print handler was not found in the inspected R43 HTML or companion JavaScript files.",
-          "when": "Do not rely on this control until its current source implementation is located and verified.",
-          "how": "Keep this help entry unpublished. Confirm the visible control and its actual handler in the deployed source before writing user instructions.",
-          "inputs": "Not verified in the inspected source.",
-          "result": "No runtime result can be confirmed from the inspected source.",
-          "notes": "AUDIT PENDING: do not mark complete or publish based on the inventory label alone."
+          "purpose": "Print or save the currently selected saved report snapshot as a PDF.",
+          "when": "Use this when you need a PDF or paper copy of the saved report currently being viewed.",
+          "how": "Select Print / Save PDF in the saved report view. Review the browser print dialog, then print or choose Save as PDF.",
+          "inputs": "A saved report must be open in the report viewer. Confirm its period, status and content before printing.",
+          "result": "The saved report snapshot is prepared for printing and the browser print dialog opens. Choose a printer or Save as PDF.",
+          "notes": "This prints the stored snapshot rather than regenerating current figures. Check the reporting period and contents before sharing or filing."
         },
         "fa": {
           "purpose": "چاپ یا ذخیره محتوای اعلان یا گزارش انتخاب‌شده به‌صورت PDF.",
