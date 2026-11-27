@@ -431,8 +431,6 @@ The current application includes a text-input guard that accepts ASCII character
 
 The form asks for your name, email address, subject and message. Select **Save Support Message** to save the message locally as a draft. **Clear Form** clears the current inputs. No support message is sent to the developer or support team.
 
-The current **Contact Us** form saves a support message locally as a draft on the device. **It does not send the message to the developer or support team.** Keep a separate copy of important details and use an available external contact route if you need to send the request now.
-
 ### Safe troubleshooting information to provide
 When reporting a problem, include:
 - The page/workspace where it happened.
@@ -449,7 +447,7 @@ Do not include passwords, full bank details or unnecessary personal/customer inf
 ## Editorial and translation rules
 
 1. This English document is the master source for the 12 user-facing guide chapters.
-2. Translate from this approved English text; do not translate the Help ID Registry as though it were the guide.
+2. After the English master is approved, translate from this document; do not translate the Help ID Registry as though it were the guide.
 3. Preserve button labels and menu names in English because the application interface remains English/LTR.
 4. Do not mark a translation complete until all 12 chapters have been translated and checked against the English master.
 5. If application behaviour changes, verify the relevant workflow in the source before changing this guide and then realign translations.
