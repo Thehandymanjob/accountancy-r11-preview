@@ -10229,7 +10229,7 @@
       "audit_ref": "INV-122",
       "element_id": null,
       "label": "👷 Workers Manage shared worker records",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the shared Workers directory from the Business Workspace Control Panel.",
@@ -10327,7 +10327,7 @@
       "audit_ref": "INV-123",
       "element_id": null,
       "label": "🧰 Contractors Manage trades and subcontractors",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the shared Contractors directory in Control Panel, where contractor and subcontractor records can be reviewed and managed.",
@@ -10425,7 +10425,7 @@
       "audit_ref": "INV-124",
       "element_id": null,
       "label": "➕ Add Company Register a company and its main contract",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the Add Company form to register a contracting company or client organisation and its main contract details.",
@@ -10523,7 +10523,7 @@
       "audit_ref": "INV-125",
       "element_id": null,
       "label": "🏢 Companies List Find companies and open their jobs",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Displays registered companies and provides search, edit, job access and company deactivation actions.",
