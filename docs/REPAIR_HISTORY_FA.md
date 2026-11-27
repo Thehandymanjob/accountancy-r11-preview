@@ -498,5 +498,5 @@
 - **تفکیک تغییرات:** این شاخه از `main` آغاز شده و تغییرات User Guide، Registry و ترجمه‌های PR #96 را به خود منتقل نمی‌کند. فقط دو فایل Runtime، Version Authority و سوابق تعمیر این مورد تغییر کرده‌اند.
 - **فایل‌ها:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`؛ `v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js`؛ `VERSION-AUTHORITY.json`؛ همین پرونده و `docs/REPAIR_INDEX_FA.md`.
 - **Version Authority:** SHA فایل index در Manifest برابر `e4c11b5adb1e12a7dea9f6c11df3622524ab9301`؛ SHA فایل Runtime برابر `964b1ca647c373b2168d33fe31e1b90507734751`. Gate برای شاخه مستقل هنوز اجرا/تأیید نشده است.
-- **انتشار و تست:** PR مستقل هنوز ایجاد نشده؛ Pages deploy نشده؛ تست iPhone Safari انجام نشده. هیچ Reset واقعی، پاک‌سازی IndexedDB، Backup یا Restore آزمایشی اجرا نشده است.
+- **انتشار و تست:** PR مستقل #97 ایجاد شد (Draft؛ base=main؛ head=12fe70ea7693eb0379f332cdfe101ffbec213c28). Pages deploy نشده؛ تست iPhone Safari انجام نشده. هیچ Reset واقعی، پاک‌سازی IndexedDB، Backup یا Restore آزمایشی اجرا نشده است.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
