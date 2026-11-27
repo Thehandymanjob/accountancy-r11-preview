@@ -1,0 +1,1225 @@
+{
+  "schema_version": "1.0",
+  "document_status": "DRAFT_SELECTOR_REFINEMENT — NOT ATTACHED",
+  "repository": "Thehandymanjob/accountancy-r11-preview",
+  "branch": "development",
+  "baseline": {
+    "version_authority_file": "VERSION-AUTHORITY.json",
+    "authorized_build_id": "THA-273-R11-PREVIEW-20261127-R45",
+    "source_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+    "source_blob_sha": "e58a0c7895cf639c36e69c28696ebfd3bd262bef",
+    "source_build_id_in_html": "THA-273-R11-PREVIEW-20261127-R45",
+    "mapping_runtime_blob_sha": "e58a0c7895cf639c36e69c28696ebfd3bd262bef",
+    "source_matches_mapping_baseline": true,
+    "inventory_path": "docs/HELP_BUTTON_INVENTORY_FA.md",
+    "inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
+    "mapping_inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
+    "inventory_file_matches_mapping_hash": true,
+    "inventory_declared_build": "THA-273-R11-PREVIEW-20261127-R45",
+    "inventory_declared_index_blob_sha": "e58a0c7895cf639c36e69c28696ebfd3bd262bef",
+    "inventory_is_stale_against_authority": false,
+    "inventory_rows": 268,
+    "html_template_button_tags": 266,
+    "dom_created_button_patterns": 2,
+    "mapping_blob_sha": "1e5f76ea199b25797d33d17b53dea83dc9a4f4d9",
+    "r45_refresh_status": "RECONCILED"
+  },
+  "summary": {
+    "total_rows": 31,
+    "static_selector_candidates": 16,
+    "require_data_help_id_instrumentation": 15,
+    "browser_tests_run": 0,
+    "help_ids_attached": 0,
+    "release_authorized": false
+  },
+  "records": [
+    {
+      "help_id": "THA-HLP-0015",
+      "audit_ref": "INV-017",
+      "visible_label": "🏠 Dashboard",
+      "handler": "show(",
+      "handler_name": "show",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "show('home')",
+          "text": "▦ Dashboard Financial overview and balances ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-blue",
+          "score": 1
+        },
+        {
+          "onclick": "show('home')",
+          "text": "🏠 Dashboard",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "DUPLICATE_NAVIGATION_TARGET",
+      "review_finding": "The same destination is exposed by more than one navigation/card element. Treat as a shared help topic only if the guide content is identical; map all intended controls using a stable parent scope or explicit data-help-id rather than selecting one arbitrary match.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": ".accountancy-nav > button[onclick=\"show('home')\"]",
+        "strategy": "SCOPED_STATIC_SELECTOR",
+        "scope": ".accountancy-nav",
+        "code_change_required": false,
+        "reason": "This Help ID is INV-017 (the bottom navigation control), not the separate home dashboard card.",
+        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0016",
+      "audit_ref": "INV-018",
+      "visible_label": "＋ Add Entry",
+      "handler": "show(",
+      "handler_name": "show",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "show('entry')",
+          "text": "＋ Add Entry Record income or expenses ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-teal",
+          "score": 1
+        },
+        {
+          "onclick": "show('entry')",
+          "text": "＋ Add Entry",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "DUPLICATE_NAVIGATION_TARGET",
+      "review_finding": "The same destination is exposed by more than one navigation/card element. Treat as a shared help topic only if the guide content is identical; map all intended controls using a stable parent scope or explicit data-help-id rather than selecting one arbitrary match.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": ".accountancy-nav > button[onclick=\"show('entry')\"]",
+        "strategy": "SCOPED_STATIC_SELECTOR",
+        "scope": ".accountancy-nav",
+        "code_change_required": false,
+        "reason": "Targets the bottom navigation Add Entry button; the home card is a separate inventory row.",
+        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0017",
+      "audit_ref": "INV-019",
+      "visible_label": "📋 Records",
+      "handler": "show(",
+      "handler_name": "show",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "show('records')",
+          "text": "▤ Records Find and manage transactions ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-violet",
+          "score": 1
+        },
+        {
+          "onclick": "show('records')",
+          "text": "📋 Records",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "show(&quot;records&quot;)",
+          "text": "Back to Records",
+          "id": null,
+          "class_name": "gold",
+          "score": 1
+        }
+      ],
+      "review_group": "DUPLICATE_NAVIGATION_TARGET",
+      "review_finding": "The same destination is exposed by more than one navigation/card element. Treat as a shared help topic only if the guide content is identical; map all intended controls using a stable parent scope or explicit data-help-id rather than selecting one arbitrary match.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": ".accountancy-nav > button[onclick=\"show('records')\"]",
+        "strategy": "SCOPED_STATIC_SELECTOR",
+        "scope": ".accountancy-nav",
+        "code_change_required": false,
+        "reason": "Excludes the unrelated Back to Records control and home card.",
+        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0018",
+      "audit_ref": "INV-020",
+      "visible_label": "🧾 Invoices",
+      "handler": "show(",
+      "handler_name": "show",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "show('invoices')",
+          "text": "▧ Invoices Create and review invoices ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-amber",
+          "score": 1
+        },
+        {
+          "onclick": "show('invoices')",
+          "text": "🧾 Invoices",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')",
+          "text": "Back to invoices",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "DUPLICATE_NAVIGATION_TARGET",
+      "review_finding": "The same destination is exposed by more than one navigation/card element. Treat as a shared help topic only if the guide content is identical; map all intended controls using a stable parent scope or explicit data-help-id rather than selecting one arbitrary match.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": ".accountancy-nav > button[onclick=\"show('invoices')\"]",
+        "strategy": "SCOPED_STATIC_SELECTOR",
+        "scope": ".accountancy-nav",
+        "code_change_required": false,
+        "reason": "Targets only the bottom navigation Invoices button, not invoice-print return controls.",
+        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0019",
+      "audit_ref": "INV-021",
+      "visible_label": "👥 Customers",
+      "handler": "show(",
+      "handler_name": "show",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "show('customers')",
+          "text": "♙ Customers Customer details and contacts ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-green",
+          "score": 1
+        },
+        {
+          "onclick": "show('customers')",
+          "text": "👥 Customers",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "DUPLICATE_NAVIGATION_TARGET",
+      "review_finding": "The same destination is exposed by more than one navigation/card element. Treat as a shared help topic only if the guide content is identical; map all intended controls using a stable parent scope or explicit data-help-id rather than selecting one arbitrary match.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": ".accountancy-nav > button[onclick=\"show('customers')\"]",
+        "strategy": "SCOPED_STATIC_SELECTOR",
+        "scope": ".accountancy-nav",
+        "code_change_required": false,
+        "reason": "Targets only the bottom navigation Customers button.",
+        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0020",
+      "audit_ref": "INV-022",
+      "visible_label": "🖨️ Reports",
+      "handler": "show(",
+      "handler_name": "show",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "show('report')",
+          "text": "▥ Reports & Tax Tax periods, archive and notifications ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-navy",
+          "score": 1
+        },
+        {
+          "onclick": "show('report')",
+          "text": "🖨️ Reports",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "DUPLICATE_NAVIGATION_TARGET",
+      "review_finding": "The same destination is exposed by more than one navigation/card element. Treat as a shared help topic only if the guide content is identical; map all intended controls using a stable parent scope or explicit data-help-id rather than selecting one arbitrary match.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": ".accountancy-nav > button[onclick=\"show('report')\"]",
+        "strategy": "SCOPED_STATIC_SELECTOR",
+        "scope": ".accountancy-nav",
+        "code_change_required": false,
+        "reason": "Targets only the bottom navigation Reports button.",
+        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0024",
+      "audit_ref": "INV-027",
+      "visible_label": "📷 Take a Photo",
+      "handler": "document.getElementById(",
+      "handler_name": "getElementById",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "document.getElementById('entryReceiptGallery').click()",
+          "text": "📷 Take a Photo",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "document.getElementById('prReceiptGallery').click()",
+          "text": "📷 Take a Photo",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "SAME_LABEL_DIFFERENT_FORM",
+      "review_finding": "The visible action label is reused in separate forms or entity types. Resolve against the owning form/container; do not use a global text selector.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "#entryReceiptField .receipt-actions > button[onclick*=\"entryReceiptGallery\"]",
+        "strategy": "SCOPED_STATIC_SELECTOR",
+        "scope": "#entryReceiptField",
+        "code_change_required": false,
+        "reason": "The entry form has a stable wrapper and a distinct hidden file input; excludes the project receipt photo button.",
+        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0040",
+      "audit_ref": "INV-048",
+      "visible_label": "Confirm records complete",
+      "handler": "report188ConfirmComplete()",
+      "handler_name": "report188ConfirmComplete",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "report188ConfirmComplete()",
+          "text": "Confirm records complete",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "report188ConfirmComplete()",
+          "text": "Confirm records complete for selected period",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "REPEATED_REPORT_CONTROL",
+      "review_finding": "The same report action appears in multiple report panels or contexts. Confirm whether the same guide topic applies to each occurrence; use report-container scoping or shared data-help-id.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "#report188Builder .actions > button[onclick=\"report188ConfirmComplete()\"]",
+        "strategy": "SCOPED_STATIC_SELECTOR",
+        "scope": "#report188Builder",
+        "code_change_required": false,
+        "reason": "Targets the report builder action; the tax-calendar variant is a separate inventory item.",
+        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0041",
+      "audit_ref": "INV-049",
+      "visible_label": "Check reminders now",
+      "handler": "report188CheckDue()",
+      "handler_name": "report188CheckDue",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "report188CheckDue()",
+          "text": "Check reminders now",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "report188CheckDue()",
+          "text": "Check reminders now",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "REPEATED_REPORT_CONTROL",
+      "review_finding": "The same report action appears in multiple report panels or contexts. Confirm whether the same guide topic applies to each occurrence; use report-container scoping or shared data-help-id.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "#report188Builder .actions > button[onclick=\"report188CheckDue()\"]",
+        "strategy": "SCOPED_STATIC_SELECTOR",
+        "scope": "#report188Builder",
+        "code_change_required": false,
+        "reason": "Targets the reminder action within Prepare a report.",
+        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0043",
+      "audit_ref": "INV-055",
+      "visible_label": "Check reminders now",
+      "handler": "report188CheckDue()",
+      "handler_name": "report188CheckDue",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "report188CheckDue()",
+          "text": "Check reminders now",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "report188CheckDue()",
+          "text": "Check reminders now",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "REPEATED_REPORT_CONTROL",
+      "review_finding": "The same report action appears in multiple report panels or contexts. Confirm whether the same guide topic applies to each occurrence; use report-container scoping or shared data-help-id.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "#report188Calendar .actions > button[onclick=\"report188CheckDue()\"]",
+        "strategy": "SCOPED_STATIC_SELECTOR",
+        "scope": "#report188Calendar",
+        "code_change_required": false,
+        "reason": "Targets the reminder action within Tax calendar, distinct from the builder.",
+        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0057",
+      "audit_ref": "INV-071",
+      "visible_label": "❓ Help Choose the language for the User Guide",
+      "handler": "show(",
+      "handler_name": "show",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "show('helpSettings')",
+          "text": "📘 User Guide Choose the guide language",
+          "id": null,
+          "class_name": "primary",
+          "score": 0.75
+        }
+      ],
+      "review_group": "LABEL_OR_INVENTORY_MISMATCH",
+      "review_finding": "The mapping label differs from the current runtime label or has an unresolved variant. Reconcile the inventory and guide wording before assigning a selector.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": ".settings-shortcuts > button[onclick=\"show('helpSettings')\"]",
+        "strategy": "SCOPED_STATIC_SELECTOR",
+        "scope": ".settings-shortcuts",
+        "code_change_required": false,
+        "reason": "Runtime and refreshed inventory now both use the current label “User Guide — Choose the guide language”.",
+        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0075",
+      "audit_ref": "INV-091",
+      "visible_label": "📁 Projects",
+      "handler": "prPage(",
+      "handler_name": "prPage",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "prPage('project-hub')",
+          "text": "📁 Projects",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "prPage('project-hub')",
+          "text": "📁 Projects New Project, Projects List and Project Profit & Loss",
+          "id": null,
+          "class_name": "pr-project-card pr-card",
+          "score": 1
+        },
+        {
+          "onclick": "prPage('list')",
+          "text": "▦ Projects List Search, open and manage existing projects",
+          "id": null,
+          "class_name": "pr-project-card pr-card",
+          "score": 1
+        }
+      ],
+      "review_group": "DUPLICATE_NAVIGATION_TARGET",
+      "review_finding": "The same destination is exposed by more than one navigation/card element. Treat as a shared help topic only if the guide content is identical; map all intended controls using a stable parent scope or explicit data-help-id rather than selecting one arbitrary match.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "[data-pr-nav=\"project-hub\"]",
+        "strategy": "SCOPED_STATIC_SELECTOR",
+        "scope": "Business Workspace navigation",
+        "code_change_required": false,
+        "reason": "INV-091 is the Projects navigation button; project cards and Projects List have separate inventory rows.",
+        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0077",
+      "audit_ref": "INV-093",
+      "visible_label": "⚙️ Control Panel",
+      "handler": "prPage(",
+      "handler_name": "prPage",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "prPage('control')",
+          "text": "⚙️ Control Panel",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "prPage('control')",
+          "text": "⚙️ Control Panel Manage shared Partners, Workers, Contractors, companies and future settings",
+          "id": null,
+          "class_name": "pr-project-card pr-card",
+          "score": 1
+        }
+      ],
+      "review_group": "DUPLICATE_NAVIGATION_TARGET",
+      "review_finding": "The same destination is exposed by more than one navigation/card element. Treat as a shared help topic only if the guide content is identical; map all intended controls using a stable parent scope or explicit data-help-id rather than selecting one arbitrary match.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "[data-pr-nav=\"control\"]",
+        "strategy": "SCOPED_STATIC_SELECTOR",
+        "scope": "Business Workspace navigation",
+        "code_change_required": false,
+        "reason": "INV-093 is the Control Panel navigation button; the workspace card is a separate control.",
+        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0099",
+      "audit_ref": "INV-116",
+      "visible_label": "Clear",
+      "handler": "prResetPerson(",
+      "handler_name": "prResetPerson",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "prResetPerson('partner')",
+          "text": "Clear",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "prResetPerson('worker')",
+          "text": "Clear",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "SAME_LABEL_DIFFERENT_FORM",
+      "review_finding": "The visible action label is reused in separate forms or entity types. Resolve against the owning form/container; do not use a global text selector.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "#prPage-partners .pr-actions > button[onclick=\"prResetPerson('partner')\"]",
+        "strategy": "SCOPED_STATIC_SELECTOR",
+        "scope": "#prPage-partners",
+        "code_change_required": false,
+        "reason": "Partner form is scoped by its page container; excludes the Worker Clear button.",
+        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0103",
+      "audit_ref": "INV-120",
+      "visible_label": "Clear",
+      "handler": "prResetPerson(",
+      "handler_name": "prResetPerson",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "prResetPerson('partner')",
+          "text": "Clear",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "prResetPerson('worker')",
+          "text": "Clear",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "SAME_LABEL_DIFFERENT_FORM",
+      "review_finding": "The visible action label is reused in separate forms or entity types. Resolve against the owning form/container; do not use a global text selector.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "#prPage-workers .pr-actions > button[onclick=\"prResetPerson('worker')\"]",
+        "strategy": "SCOPED_STATIC_SELECTOR",
+        "scope": "#prPage-workers",
+        "code_change_required": false,
+        "reason": "Worker form is scoped by its page container; excludes the Partner Clear button.",
+        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0120",
+      "audit_ref": "INV-138",
+      "visible_label": "${p}",
+      "handler": "changeListPage(",
+      "handler_name": "changeListPage",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "changeListPage('${key}',${page-1},'${renderer}')",
+          "text": "‹ Previous",
+          "id": null,
+          "class_name": null,
+          "score": 0
+        },
+        {
+          "onclick": "changeListPage('${key}',${p},'${renderer}')",
+          "text": "${p}",
+          "id": null,
+          "class_name": "${p===page?'current':''}",
+          "score": 0
+        },
+        {
+          "onclick": "changeListPage('${key}',${page+1},'${renderer}')",
+          "text": "=pages?'disabled':''} onclick=\"changeListPage('${key}',${page+1},'${renderer}')\">Next ›",
+          "id": null,
+          "class_name": null,
+          "score": 0
+        }
+      ],
+      "review_group": "DYNAMIC_TEMPLATE_OR_ROW_ACTION",
+      "review_finding": "The control is generated dynamically or repeated per record/page. Use a stable template-level data-help-id and verify generated instances in the browser; do not bind to literal row text or a transient index.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "[data-help-id=\"THA-HLP-0120\"]",
+        "strategy": "DATA_HELP_ID_REQUIRED",
+        "scope": "Generated pagination page-number button template",
+        "code_change_required": true,
+        "reason": "The visible page number and active class are generated from page state; do not select by text or position.",
+        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0125",
+      "audit_ref": "INV-144",
+      "visible_label": "📎",
+      "handler": "openReceiptImage(this.dataset.receipt)",
+      "handler_name": "openReceiptImage",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "openReceiptImage(document.getElementById('${scope==='entry'?'entryReceiptData':'prReceiptData'}').value)",
+          "text": "📎 View receipt",
+          "id": null,
+          "class_name": "receipt-clip",
+          "score": 0
+        },
+        {
+          "onclick": "openReceiptImage(this.dataset.receipt)",
+          "text": "📎",
+          "id": null,
+          "class_name": "receipt-clip",
+          "score": 0
+        }
+      ],
+      "review_group": "DYNAMIC_TEMPLATE_OR_ROW_ACTION",
+      "review_finding": "The control is generated dynamically or repeated per record/page. Use a stable template-level data-help-id and verify generated instances in the browser; do not bind to literal row text or a transient index.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "[data-help-id=\"THA-HLP-0125\"]",
+        "strategy": "DATA_HELP_ID_REQUIRED",
+        "scope": "Receipt image/clip action template",
+        "code_change_required": true,
+        "reason": "Receipt clip controls are repeated and have multiple render paths; attach the Help ID at the specific intended template callsite.",
+        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0127",
+      "audit_ref": "INV-146",
+      "visible_label": "View",
+      "handler": "viewRecordInvoice(\\",
+      "handler_name": "viewRecordInvoice",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "viewRecordInvoice(\\''+esc(x.id)+'\\')",
+          "text": "View",
+          "id": null,
+          "class_name": "mini",
+          "score": 1
+        },
+        {
+          "onclick": "viewRecordInvoice(\\''+esc(x.id)+'\\')",
+          "text": "View",
+          "id": null,
+          "class_name": "mini",
+          "score": 1
+        }
+      ],
+      "review_group": "DYNAMIC_TEMPLATE_OR_ROW_ACTION",
+      "review_finding": "The control is generated dynamically or repeated per record/page. Use a stable template-level data-help-id and verify generated instances in the browser; do not bind to literal row text or a transient index.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "[data-help-id=\"THA-HLP-0127\"]",
+        "strategy": "DATA_HELP_ID_REQUIRED",
+        "scope": "Records-list invoice View button template",
+        "code_change_required": true,
+        "reason": "Repeated View buttons are generated per record; bind to the record-row template, not a global .mini selector.",
+        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0128",
+      "audit_ref": "INV-147",
+      "visible_label": "Delete",
+      "handler": "deleteInvoice(\\",
+      "handler_name": "deleteInvoice",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "deleteInvoice(\\''+esc(x.id)+'\\')",
+          "text": "Delete",
+          "id": null,
+          "class_name": "mini danger",
+          "score": 1
+        },
+        {
+          "onclick": "deleteInvoice('${esc(i.id)}')",
+          "text": "Delete",
+          "id": null,
+          "class_name": "mini danger",
+          "score": 1
+        }
+      ],
+      "review_group": "DYNAMIC_TEMPLATE_OR_ROW_ACTION",
+      "review_finding": "The control is generated dynamically or repeated per record/page. Use a stable template-level data-help-id and verify generated instances in the browser; do not bind to literal row text or a transient index.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "[data-help-id=\"THA-HLP-0128\"]",
+        "strategy": "DATA_HELP_ID_REQUIRED",
+        "scope": "Records-list invoice Delete button template",
+        "code_change_required": true,
+        "reason": "Repeated Delete controls are generated per record; use the invoice row template scope.",
+        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0131",
+      "audit_ref": "INV-150",
+      "visible_label": "View",
+      "handler": "viewRecordInvoice(\\",
+      "handler_name": "viewRecordInvoice",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "viewRecordInvoice(\\''+esc(x.id)+'\\')",
+          "text": "View",
+          "id": null,
+          "class_name": "mini",
+          "score": 1
+        },
+        {
+          "onclick": "viewRecordInvoice(\\''+esc(x.id)+'\\')",
+          "text": "View",
+          "id": null,
+          "class_name": "mini",
+          "score": 1
+        }
+      ],
+      "review_group": "DYNAMIC_TEMPLATE_OR_ROW_ACTION",
+      "review_finding": "The control is generated dynamically or repeated per record/page. Use a stable template-level data-help-id and verify generated instances in the browser; do not bind to literal row text or a transient index.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "[data-help-id=\"THA-HLP-0131\"]",
+        "strategy": "DATA_HELP_ID_REQUIRED",
+        "scope": "Invoice-list View button template",
+        "code_change_required": true,
+        "reason": "Separate View control from the records-list invoice action; use its own render template.",
+        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0146",
+      "audit_ref": "INV-172",
+      "visible_label": "Delete",
+      "handler": "deleteInvoice(",
+      "handler_name": "deleteInvoice",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "deleteInvoice(\\''+esc(x.id)+'\\')",
+          "text": "Delete",
+          "id": null,
+          "class_name": "mini danger",
+          "score": 1
+        },
+        {
+          "onclick": "deleteInvoice('${esc(i.id)}')",
+          "text": "Delete",
+          "id": null,
+          "class_name": "mini danger",
+          "score": 1
+        }
+      ],
+      "review_group": "DYNAMIC_TEMPLATE_OR_ROW_ACTION",
+      "review_finding": "The control is generated dynamically or repeated per record/page. Use a stable template-level data-help-id and verify generated instances in the browser; do not bind to literal row text or a transient index.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "[data-help-id=\"THA-HLP-0146\"]",
+        "strategy": "DATA_HELP_ID_REQUIRED",
+        "scope": "Invoice-list Delete button template",
+        "code_change_required": true,
+        "reason": "Separate Delete control from the records-list invoice action; use its own render template.",
+        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0156",
+      "audit_ref": "INV-182",
+      "visible_label": "📎",
+      "handler": "coOpenAttachment(",
+      "handler_name": "coOpenAttachment",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "coOpenAttachment('company','${c.id}')",
+          "text": "📎 ${coEsc(c.contractFile.name)}",
+          "id": null,
+          "class_name": null,
+          "score": 0
+        },
+        {
+          "onclick": "coOpenAttachment('job','${j.id}')",
+          "text": "📎",
+          "id": null,
+          "class_name": null,
+          "score": 0
+        },
+        {
+          "onclick": "coOpenAttachment('package','${j.id}','${p.id}')",
+          "text": "📎 ${coEsc(p.file.name)}",
+          "id": null,
+          "class_name": null,
+          "score": 0
+        },
+        {
+          "onclick": "coOpenAttachment('payment','${j.id}','${p.id}')",
+          "text": "📎 Open",
+          "id": null,
+          "class_name": null,
+          "score": 0
+        }
+      ],
+      "review_group": "DYNAMIC_TEMPLATE_OR_ROW_ACTION",
+      "review_finding": "The control is generated dynamically or repeated per record/page. Use a stable template-level data-help-id and verify generated instances in the browser; do not bind to literal row text or a transient index.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "[data-help-id=\"THA-HLP-0156\"]",
+        "strategy": "DATA_HELP_ID_REQUIRED",
+        "scope": "Company/job attachment icon button template (INV-182)",
+        "code_change_required": true,
+        "reason": "coOpenAttachment is shared by company, job, package and payment templates; this Help ID belongs to the job attachment row.",
+        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0157",
+      "audit_ref": "INV-183",
+      "visible_label": "📎 ${coEsc(p.file.name)}",
+      "handler": "coOpenAttachment(",
+      "handler_name": "coOpenAttachment",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "coOpenAttachment('company','${c.id}')",
+          "text": "📎 ${coEsc(c.contractFile.name)}",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "coOpenAttachment('package','${j.id}','${p.id}')",
+          "text": "📎 ${coEsc(p.file.name)}",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "DYNAMIC_TEMPLATE_OR_ROW_ACTION",
+      "review_finding": "The control is generated dynamically or repeated per record/page. Use a stable template-level data-help-id and verify generated instances in the browser; do not bind to literal row text or a transient index.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "[data-help-id=\"THA-HLP-0157\"]",
+        "strategy": "DATA_HELP_ID_REQUIRED",
+        "scope": "Package attachment button template (INV-183)",
+        "code_change_required": true,
+        "reason": "Package attachment is a distinct control from the job attachment icon.",
+        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0168",
+      "audit_ref": "INV-196",
+      "visible_label": "Print / Save PDF",
+      "handler": "prPrintSubReport()",
+      "handler_name": "prPrintSubReport",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "prPrintSubReport()",
+          "text": "Print / Save PDF",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        },
+        {
+          "onclick": "prPrintSubReport()",
+          "text": "Print / Save PDF",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "review_group": "REPEATED_REPORT_CONTROL",
+      "review_finding": "The same report action appears in multiple report panels or contexts. Confirm whether the same guide topic applies to each occurrence; use report-container scoping or shared data-help-id.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "[data-help-id=\"THA-HLP-0168\"]",
+        "strategy": "DATA_HELP_ID_REQUIRED",
+        "scope": "Sub-project expenses tab Print / Save PDF button template (INV-196)",
+        "code_change_required": true,
+        "reason": "The same handler is reused by the report tab; this Help ID maps to the expense-tab control.",
+        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0169",
+      "audit_ref": "INV-197",
+      "visible_label": "Print / Save PDF",
+      "handler": "prPrintSubReport()",
+      "handler_name": "prPrintSubReport",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "prPrintSubReport()",
+          "text": "Print / Save PDF",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        },
+        {
+          "onclick": "prPrintSubReport()",
+          "text": "Print / Save PDF",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "review_group": "REPEATED_REPORT_CONTROL",
+      "review_finding": "The same report action appears in multiple report panels or contexts. Confirm whether the same guide topic applies to each occurrence; use report-container scoping or shared data-help-id.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "[data-help-id=\"THA-HLP-0169\"]",
+        "strategy": "DATA_HELP_ID_REQUIRED",
+        "scope": "Sub-project report tab Print / Save PDF button template (INV-197)",
+        "code_change_required": true,
+        "reason": "The same handler is reused by the expenses tab; this Help ID maps to the report-tab control.",
+        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0170",
+      "audit_ref": "INV-198",
+      "visible_label": "📷 Take a Photo",
+      "handler": "document.getElementById(",
+      "handler_name": "getElementById",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "document.getElementById('entryReceiptGallery').click()",
+          "text": "📷 Take a Photo",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "document.getElementById('prReceiptGallery').click()",
+          "text": "📷 Take a Photo",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "SAME_LABEL_DIFFERENT_FORM",
+      "review_finding": "The visible action label is reused in separate forms or entity types. Resolve against the owning form/container; do not use a global text selector.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "[data-help-id=\"THA-HLP-0170\"]",
+        "strategy": "DATA_HELP_ID_REQUIRED",
+        "scope": "Project receipt-photo action template (INV-198)",
+        "code_change_required": true,
+        "reason": "This is the project receipt form control, distinct from #entryReceiptField.",
+        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0180",
+      "audit_ref": "INV-210",
+      "visible_label": "Generate PDF",
+      "handler": "prRunSubReportPrint()",
+      "handler_name": "prRunSubReportPrint",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "prRunSubReportPrint()",
+          "text": "Generate PDF",
+          "id": null,
+          "class_name": "pr-print-go",
+          "score": 1
+        },
+        {
+          "onclick": "prRunSubReportPrint()",
+          "text": "Generate PDF",
+          "id": null,
+          "class_name": "pr-print-go",
+          "score": 1
+        }
+      ],
+      "review_group": "REPEATED_REPORT_CONTROL",
+      "review_finding": "The same report action appears in multiple report panels or contexts. Confirm whether the same guide topic applies to each occurrence; use report-container scoping or shared data-help-id.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "[data-help-id=\"THA-HLP-0180\"]",
+        "strategy": "DATA_HELP_ID_REQUIRED",
+        "scope": "Full project report preview toolbar Generate PDF button",
+        "code_change_required": true,
+        "reason": "The first dynamically built overlay is Full project report preview.",
+        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0181",
+      "audit_ref": "INV-212",
+      "visible_label": "Generate PDF",
+      "handler": "prRunSubReportPrint()",
+      "handler_name": "prRunSubReportPrint",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "prRunSubReportPrint()",
+          "text": "Generate PDF",
+          "id": null,
+          "class_name": "pr-print-go",
+          "score": 1
+        },
+        {
+          "onclick": "prRunSubReportPrint()",
+          "text": "Generate PDF",
+          "id": null,
+          "class_name": "pr-print-go",
+          "score": 1
+        }
+      ],
+      "review_group": "REPEATED_REPORT_CONTROL",
+      "review_finding": "The same report action appears in multiple report panels or contexts. Confirm whether the same guide topic applies to each occurrence; use report-container scoping or shared data-help-id.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "[data-help-id=\"THA-HLP-0181\"]",
+        "strategy": "DATA_HELP_ID_REQUIRED",
+        "scope": "Sub-project financial report preview toolbar Generate PDF button",
+        "code_change_required": true,
+        "reason": "The second dynamically built overlay is Financial report preview.",
+        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0183",
+      "audit_ref": "INV-214",
+      "visible_label": "×",
+      "handler": "prRestoreReportPreview()",
+      "handler_name": "prRestoreReportPreview",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "prRestoreReportPreview()",
+          "text": "×",
+          "id": null,
+          "class_name": null,
+          "score": 0
+        }
+      ],
+      "review_group": "SINGLE_CONTROL_NEEDS_PARENT_SCOPE",
+      "review_finding": "The control has weak/ambiguous visible text or multiple parent contexts. Inspect the owning modal/report container and use a stable scoped selector.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "#prPrintReportOverlay .pr-pdf-preview-shell button[aria-label=\"Close PDF preview\"]",
+        "strategy": "SCOPED_STATIC_SELECTOR",
+        "scope": "#prPrintReportOverlay .pr-pdf-preview-shell",
+        "code_change_required": false,
+        "reason": "The accessible aria-label uniquely identifies the close control inside the PDF preview shell; avoid the generic × text.",
+        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0199",
+      "audit_ref": "INV-233",
+      "visible_label": "Manage Workers",
+      "handler": "prPage(\\",
+      "handler_name": "prPage",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "prPage('control')",
+          "text": "⚙️ Control Panel Manage shared Partners, Workers, Contractors, companies and future settings",
+          "id": null,
+          "class_name": "pr-project-card pr-card",
+          "score": 1
+        },
+        {
+          "onclick": "prPage('workers')",
+          "text": "👷 Workers Manage shared worker records",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "prPage(\\'workers\\');prCloseWorkerListPicker()",
+          "text": "Manage Workers",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "SINGLE_CONTROL_NEEDS_PARENT_SCOPE",
+      "review_finding": "The control has weak/ambiguous visible text or multiple parent contexts. Inspect the owning modal/report container and use a stable scoped selector.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "[data-help-id=\"THA-HLP-0199\"]",
+        "strategy": "DATA_HELP_ID_REQUIRED",
+        "scope": "Worker list picker footer Manage Workers button",
+        "code_change_required": true,
+        "reason": "The picker is built dynamically; the same Workers navigation route exists elsewhere, so scope to the picker action.",
+        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
+        "browser_test_required": true
+      }
+    },
+    {
+      "help_id": "THA-HLP-0222",
+      "audit_ref": "INV-260",
+      "visible_label": "Print / PDF",
+      "handler": "report188Print(",
+      "handler_name": "report188Print",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "report188Print('${esc(r.id)}')",
+          "text": "Print / PDF",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "report188Print('${esc(r.id)}')",
+          "text": "Print / Save PDF",
+          "id": null,
+          "class_name": "gold",
+          "score": 1
+        }
+      ],
+      "review_group": "LABEL_OR_INVENTORY_MISMATCH",
+      "review_finding": "The mapping label differs from the current runtime label or has an unresolved variant. Reconcile the inventory and guide wording before assigning a selector.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview.",
+      "selector_refinement": {
+        "selector": "[data-help-id=\"THA-HLP-0222\"]",
+        "strategy": "DATA_HELP_ID_REQUIRED",
+        "scope": "Saved reports archive row Print / PDF button (INV-260)",
+        "code_change_required": true,
+        "reason": "The same report188Print handler is also used by the saved-report detail viewer, whose label and context differ.",
+        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
+        "browser_test_required": true
+      }
+    }
+  ],
+  "policy": [
+    "Selectors are source-derived candidates only; no browser DOM assertion has been performed.",
+    "Do not use global text selectors, nth-child selectors, row indices, or transient generated labels.",
+    "Dynamic controls must receive explicit data-help-id attributes in their own rendering templates.",
+    "After code instrumentation, verify exactly the intended control(s) in Preview and test each Help ID interaction before marking complete."
+  ]
+}
