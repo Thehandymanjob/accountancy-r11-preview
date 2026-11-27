@@ -4856,6 +4856,78 @@
           "inputs": "به دلیل نبود تابع اجرایی در سورس بررسی‌شده، ورودی موردنیازی تأیید نشده است.",
           "result": "در نسخه R43 بررسی‌شده، ایجاد Snapshot قابل تأیید نیست؛ دکمه به تابعی ارجاع می‌دهد که وجود ندارد.",
           "notes": "مانع ممیزی: تابع اجرایی در سورس R43 بررسی‌شده وجود ندارد. ترجمه‌های قبلی ایجاد موفق Snapshot را ادعا می‌کردند و قابل اتکا نیستند. این مورد باید Draft بماند تا تابع بازگردانده و رفتار آن تأیید شود."
+        },
+        "ar": {
+          "purpose": "توجد في Settings أداة باسم Create Accounting Snapshot in IndexedDB، لكن الدالة window.createAccountingStorageSnapshot غير معرّفة في ملفات R43 التي تمت مراجعتها.",
+          "when": "لا تستخدم هذا العنصر حتى تتم استعادة تنفيذه والتحقق منه.",
+          "how": "أبقِ هذا الإدخال غير منشور. لا تضغط الزر متوقعاً إنشاء لقطة؛ تحقق أولاً من وجود المعالج في المصدر المنشور واختبر ناتجه.",
+          "inputs": "لا يمكن تأكيد متطلبات الإدخال لأن المعالج غير مطبق في المصدر الذي تمت مراجعته.",
+          "result": "لا يمكن تأكيد إنشاء لقطة في إصدار R43 الذي تمت مراجعته. الزر يشير إلى دالة غير موجودة.",
+          "notes": "مانع تدقيق: معالج التشغيل مفقود من مصدر R43 الذي تمت مراجعته. الترجمات السابقة وصفت إنشاء لقطة ناجحاً ولذلك لا يمكن الاعتماد عليها. أبقِ هذا الإدخال Draft حتى تتم استعادة المعالج والتحقق من سلوكه."
+        },
+        "ckb": {
+          "purpose": "لە Settings کۆنترۆڵی Create Accounting Snapshot in IndexedDB هەیە، بەڵام window.createAccountingStorageSnapshot لە فایلەکانی R43ی پشکنراودا پێناسە نەکراوە.",
+          "when": "تا کاتی گەڕاندنەوە و پشتڕاستکردنەوەی جێبەجێکردنی، ئەم کۆنترۆڵە بەکارمەهێنە.",
+          "how": "ئەم تۆمارە بڵاونەکراوە بهێڵەوە. بە چاوەڕوانی Snapshot دوگمەکە مەکرتە؛ سەرەتا هەبوونی Handler لە سەرچاوەی بڵاوکراوەدا پشتڕاست بکەرەوە و دەرئەنجامەکەی تاقی بکەرەوە.",
+          "inputs": "بەهۆی جێبەجێنەکراوی Handler لە سەرچاوەی پشکنراودا، پێداویستییەکانی داخڵکردن پشتڕاست نەکراونەتەوە.",
+          "result": "لە Buildی R43ی پشکنراودا دروستبوونی Snapshot پشتڕاست ناکرێتەوە. دوگمەکە ئاماژە بە فەنکشنێکی نەبوو دەکات.",
+          "notes": "بەربەستی پشکنین: Handlerی Runtime لە سەرچاوەی R43ی پشکنراودا ونە. وەرگێڕانە پێشووترەکان دروستبوونی سەرکەوتووی Snapshotیان باس کردووە و جێی متمانە نین. ئەم تۆمارە Draft بهێڵەوە تا Handlerەکە بگەڕێندرێتەوە و ڕەفتاری پشتڕاست بکرێتەوە."
+        },
+        "kmr": {
+          "purpose": "Di Settings de kontrola Create Accounting Snapshot in IndexedDB heye, lê window.createAccountingStorageSnapshot di pelên R43 yên hatine kontrolkirin de nehatiye pênasekirin.",
+          "when": "Vê kontrolê bikar neyne heya ku pêkanîna wê vegerandî û verastkirî be.",
+          "how": "Vê nivîsê neweşandî bihêle. Bi hêviya snapshotê bişkokê hilnebijêre; pêşî hebûna handlerê di çavkaniya weşandî de piştrast bike û encama wê biceribîne.",
+          "inputs": "Ji ber ku handler di çavkaniya hatî kontrolkirin de nehatiye pêkanîn, pêdiviyên têketinê nayên pejirandin.",
+          "result": "Di build-a R43 ya hatî kontrolkirin de çêkirina snapshotê nayê piştrastkirin. Bişkokê referansê dide fonksiyoneke ku tune ye.",
+          "notes": "ASTENGA AUDITÊ: Handlera runtime di çavkaniya R43 ya hatî kontrolkirin de tune ye. Wergerên berê çêkirina serkeftî ya snapshotê vedibêjin û ne ewle ne. Vê nivîsê di Draft de bihêle heya ku handler were vegerandin û tevgera wê were verastkirin."
+        },
+        "tr": {
+          "purpose": "Settings bölümünde Create Accounting Snapshot in IndexedDB denetimi bulunur; ancak window.createAccountingStorageSnapshot işlevi incelenen R43 dosyalarında tanımlı değildir.",
+          "when": "Uygulaması geri yüklenip doğrulanana kadar bu denetimi kullanmayın.",
+          "how": "Bu yardım kaydını yayımlanmamış tutun. Anlık görüntü oluşturmasını bekleyerek düğmeyi seçmeyin; önce işleyicinin dağıtılan kaynakta bulunduğunu doğrulayın ve çıktısını test edin.",
+          "inputs": "İşleyici incelenen kaynakta uygulanmadığından gerekli girdiler doğrulanamamıştır.",
+          "result": "İncelenen R43 derlemesinde anlık görüntü oluşturulduğu doğrulanamaz. Düğme mevcut olmayan bir işleve başvurur.",
+          "notes": "DENETİM ENGELİ: Çalışma zamanı işleyicisi incelenen R43 kaynağında eksiktir. Önceki çeviriler başarılı anlık görüntü oluşturulduğunu söylüyordu ve güvenilir değildir. İşleyici geri yüklenip davranışı doğrulanana kadar bu kayıt Draft kalmalıdır."
+        },
+        "pl": {
+          "purpose": "Na stronie Settings znajduje się element Create Accounting Snapshot in IndexedDB, ale funkcja window.createAccountingStorageSnapshot nie jest zdefiniowana w sprawdzonych plikach R43.",
+          "when": "Nie używaj tego elementu, dopóki jego implementacja nie zostanie przywrócona i zweryfikowana.",
+          "how": "Pozostaw ten wpis nieopublikowany. Nie wybieraj przycisku z oczekiwaniem utworzenia migawki; najpierw potwierdź obecność procedury obsługi we wdrożonym kodzie i przetestuj jej wynik.",
+          "inputs": "Nie można potwierdzić wymaganych danych wejściowych, ponieważ procedura obsługi nie jest zaimplementowana w sprawdzonym kodzie.",
+          "result": "W sprawdzonej kompilacji R43 nie można potwierdzić utworzenia migawki. Przycisk odwołuje się do nieistniejącej funkcji.",
+          "notes": "BLOKADA AUDYTU: W sprawdzonym kodzie R43 brakuje procedury obsługi w czasie działania. Poprzednie tłumaczenia opisywały pomyślne utworzenie migawki i nie są wiarygodne. Pozostaw wpis jako Draft do czasu przywrócenia procedury i zweryfikowania jej działania."
+        },
+        "ur": {
+          "purpose": "Settings میں Create Accounting Snapshot in IndexedDB کا کنٹرول موجود ہے، لیکن جانچے گئے R43 فائلوں میں window.createAccountingStorageSnapshot فنکشن کی تعریف نہیں۔",
+          "when": "جب تک اس کی عمل درآمد بحال اور تصدیق نہ ہو، اس کنٹرول کو استعمال نہ کریں۔",
+          "how": "اس مدد کے اندراج کو غیر شائع شدہ رکھیں۔ اسنیپ شاٹ کی توقع میں بٹن نہ دبائیں؛ پہلے تعینات شدہ سورس میں ہینڈلر کی موجودگی کی تصدیق اور اس کے نتیجے کی جانچ کریں۔",
+          "inputs": "چونکہ جانچے گئے سورس میں ہینڈلر نافذ نہیں، اس لیے مطلوبہ معلومات کی تصدیق نہیں ہو سکتی۔",
+          "result": "جانچے گئے R43 بلڈ میں اسنیپ شاٹ بننے کی تصدیق نہیں ہو سکتی۔ بٹن ایک غیر موجود فنکشن کا حوالہ دیتا ہے۔",
+          "notes": "آڈٹ کی رکاوٹ: جانچے گئے R43 سورس میں رن ٹائم ہینڈلر موجود نہیں۔ پچھلے تراجم میں کامیاب اسنیپ شاٹ بنانے کا دعویٰ تھا، اس لیے وہ قابلِ اعتماد نہیں۔ ہینڈلر بحال اور اس کا رویہ تصدیق ہونے تک یہ اندراج Draft رکھیں۔"
+        },
+        "pa": {
+          "purpose": "Settings ਵਿੱਚ Create Accounting Snapshot in IndexedDB ਕੰਟਰੋਲ ਹੈ, ਪਰ ਜਾਂਚੀਆਂ R43 ਫਾਈਲਾਂ ਵਿੱਚ window.createAccountingStorageSnapshot ਫੰਕਸ਼ਨ ਪਰਿਭਾਸ਼ਿਤ ਨਹੀਂ ਹੈ।",
+          "when": "ਜਦੋਂ ਤੱਕ ਇਸਦੀ ਲਾਗੂਕਰਨ ਵਾਪਸ ਲਿਆ ਕੇ ਤਸਦੀਕ ਨਹੀਂ ਹੁੰਦੀ, ਇਸ ਕੰਟਰੋਲ ਦੀ ਵਰਤੋਂ ਨਾ ਕਰੋ।",
+          "how": "ਇਸ ਮਦਦ ਐਂਟਰੀ ਨੂੰ ਅਣਪ੍ਰਕਾਸ਼ਿਤ ਰੱਖੋ। ਸਨੈਪਸ਼ਾਟ ਦੀ ਉਮੀਦ ਨਾਲ ਬਟਨ ਨਾ ਚੁਣੋ; ਪਹਿਲਾਂ ਤੈਨਾਤ ਸਰੋਤ ਵਿੱਚ ਹੈਂਡਲਰ ਦੀ ਮੌਜੂਦਗੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ ਅਤੇ ਨਤੀਜੇ ਦੀ ਜਾਂਚ ਕਰੋ।",
+          "inputs": "ਜਾਂਚੇ ਸਰੋਤ ਵਿੱਚ ਹੈਂਡਲਰ ਲਾਗੂ ਨਾ ਹੋਣ ਕਰਕੇ ਲੋੜੀਂਦੇ ਇਨਪੁੱਟ ਦੀ ਪੁਸ਼ਟੀ ਨਹੀਂ ਹੋ ਸਕਦੀ।",
+          "result": "ਜਾਂਚੇ R43 ਬਿਲਡ ਵਿੱਚ ਸਨੈਪਸ਼ਾਟ ਬਣਨ ਦੀ ਪੁਸ਼ਟੀ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ। ਬਟਨ ਇੱਕ ਗੈਰ-ਮੌਜੂਦ ਫੰਕਸ਼ਨ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰਦਾ ਹੈ।",
+          "notes": "ਆਡਿਟ ਰੁਕਾਵਟ: ਜਾਂਚੇ R43 ਸਰੋਤ ਵਿੱਚ ਰਨਟਾਈਮ ਹੈਂਡਲਰ ਗੁੰਮ ਹੈ। ਪਿਛਲੇ ਅਨੁਵਾਦਾਂ ਵਿੱਚ ਸਫਲ ਸਨੈਪਸ਼ਾਟ ਬਣਨ ਦਾ ਦਾਅਵਾ ਸੀ, ਇਸ ਲਈ ਉਹ ਭਰੋਸੇਯੋਗ ਨਹੀਂ। ਹੈਂਡਲਰ ਮੁੜ ਲਾਗੂ ਅਤੇ ਇਸਦਾ ਵਿਹਾਰ ਤਸਦੀਕ ਹੋਣ ਤੱਕ ਇਹ ਐਂਟਰੀ Draft ਰੱਖੋ।"
+        },
+        "prs": {
+          "purpose": "در Settings کنترلی با عنوان Create Accounting Snapshot in IndexedDB وجود دارد، اما تابع window.createAccountingStorageSnapshot در فایل‌های R43 بررسی‌شده تعریف نشده است.",
+          "when": "تا زمانی که پیاده‌سازی این قابلیت بازگردانده و تأیید نشده، از این کنترل استفاده نکنید.",
+          "how": "این مدخل راهنما را منتشرنشده نگه دارید. با انتظار ایجاد Snapshot دکمه را انتخاب نکنید؛ ابتدا وجود Handler را در سورس مستقرشده تأیید و خروجی آن را آزمایش کنید.",
+          "inputs": "به دلیل پیاده‌سازی‌نشدن Handler در سورس بررسی‌شده، ورودی‌های موردنیاز قابل تأیید نیستند.",
+          "result": "در Build بررسی‌شده R43 ایجاد Snapshot قابل تأیید نیست. دکمه به تابعی ارجاع می‌دهد که وجود ندارد.",
+          "notes": "مانع ممیزی: Handler زمان اجرا در سورس R43 بررسی‌شده وجود ندارد. ترجمه‌های قبلی ایجاد موفق Snapshot را توصیف می‌کردند و قابل اتکا نیستند. این مدخل باید Draft بماند تا Handler بازگردانده و رفتار آن تأیید شود."
+        },
+        "ps": {
+          "purpose": "په Settings کې د Create Accounting Snapshot in IndexedDB کنټرول شته، خو window.createAccountingStorageSnapshot فنکشن د R43 په ارزول شويو فایلونو کې نه دی تعریف شوی.",
+          "when": "تر هغه چې پلي کول یې بېرته راستانه او تایید شوی نه وي، دا کنټرول مه کاروئ.",
+          "how": "دا د مرستې ثبت ناپرېښودل شوی وساتئ. د Snapshot په تمه تڼۍ مه ټاکئ؛ لومړی په خپره شوې سرچینه کې د Handler شتون تایید او پایله یې وازمویئ.",
+          "inputs": "ځکه Handler په ارزول شوې سرچینه کې نه دی پلي شوی، د داخلولو اړتیاوې نه شي تاییدېدای.",
+          "result": "په ارزول شوي R43 Build کې د Snapshot جوړېدل نه شي تاییدېدای. تڼۍ داسې فنکشن ته اشاره کوي چې نشته.",
+          "notes": "د پلټنې خنډ: د R43 په ارزول شوې سرچینه کې Runtime Handler نشته. پخوانیو ژباړو د بریالي Snapshot جوړېدو ادعا کړې وه او د باور وړ نه دي. دا ثبت تر هغه Draft وساتئ چې Handler بېرته پلي او چلند یې تایید شي."
         }
       },
       "handler_or_behavior": "`window.createAccountingStorageSnapshot()`"
