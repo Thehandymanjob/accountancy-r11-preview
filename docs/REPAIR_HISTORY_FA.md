@@ -638,6 +638,20 @@
 - **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ بازشدن راهنمای صحیح، عدم تداخل با عملکرد اصلی، نمایش/مخفی‌شدن کنترل‌ها، انتخاب زبان و چیدمان موبایل باید در Preview بررسی شوند.
 - **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
 
+
+#### بازنگری R55 — اتصال عملیات اصلی حسابداری
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- **شناسه‌های متصل‌شده:** THA-HLP-0026 (Save Entry)، THA-HLP-0028 (Add to list برای دسته هزینه)، THA-HLP-0030 (Save Invoice)، THA-HLP-0031 (Save & Print / PDF)، THA-HLP-0032 (Save Customer) و THA-HLP-0033 (Clear Customer Form).
+- **روش اتصال:** شش selector صریح و محدوده‌دار به‌ترتیب در `#entry`، `#expenseCategoryAddScreen`، `#invoiceEditor` و `#customers` قرار گرفتند. هر selector از handler literal همان دکمه استفاده می‌کند؛ تطبیق بر اساس متن دکمه یا نام تابع به‌تنهایی انجام نشده است.
+- **محتوا / مرزبندی:** هر شش شناسه CONTENT_COMPLETE هستند. Save Invoice و Save & Print/PDF از هم جدا هستند؛ ثبت پرداخت فاکتور در Accounting فقط طبق منطق موجود برنامه انجام می‌شود. هیچ منطق مالی، شماره فاکتور، محاسبه، ذخیره‌سازی یا handler اصلی تغییر نکرد.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R55`.
+- **اتصال‌ها پس از R55:** ۵۰ کنترل؛ ۴۵ ایستا و ۵ پویا. ۲۷ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
+- **تست ایستا:** یکتایی فرم/parent و handler literal از روی سورس بررسی شد؛ ۴۵ ردیف STATIC_BINDINGS ثبت شده‌اند. Version Authority Gate برای R55 باید اجرا شود.
+- **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ باید راهنمای هر شش دکمه، حفظ عملکرد اصلی، ذخیره واقعی با داده آزمایشی Preview و چیدمان موبایل بررسی شوند. در این مرحله هیچ تراکنش یا داده واقعی ایجاد یا تغییر داده نشده است.
+- **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
+
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
 - **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Implemented on Preview development; the latest R45 Version Authority Gate passed after native-HTML fail-closed hardening (run 46053038295). Pages deployment and iPhone Safari verification remain pending.
