@@ -610,6 +610,20 @@
 - **تست واقعی Preview / iPhone Safari:** هنوز انجام نشده؛ Preview Pages منتشر نشده است.
 - **تست مرورگر / انتشار:** هنوز انجام نشده؛ چیدمان واقعی، عدم تداخل با handler اصلی و iPhone Safari باید در Preview بررسی شوند. هیچ Deploy یا Production change انجام نشده است.
 
+
+#### بازنگری R53 — اتصال دکمه ذخیره پیام پشتیبانی به راهنمای زمینه‌ای
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- **شناسه متصل‌شده:** THA-HLP-0070 — Save Support Message.
+- **روش اتصال:** Selector دقیق و محدوده‌دار `#helpContactForm > .pr-actions > button[type="submit"]`؛ فرم `#helpContactForm` در سورس فقط یک‌بار وجود دارد و دکمه Submit داخل همان فرم هدف‌گیری می‌شود.
+- **معنای عملیاتی:** Submit پیام را فقط به‌صورت Local Draft در IndexedDB ذخیره می‌کند؛ هیچ پیام یا ایمیلی به توسعه‌دهنده ارسال نمی‌شود. متن راهنما نیز همین محدودیت را حفظ می‌کند.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R53`.
+- **اتصال‌ها پس از R53:** ۳۸ کنترل؛ ۳۳ اتصال ایستا و ۵ اتصال پویا. Runtime فقط ۱۳۲ مدخل تأییدشده را منتشر می‌کند؛ مدخل‌های Draft و شناسه بازنشسته متصل یا منتشر نشده‌اند.
+- **تست ایستا:** یکتایی فرم و selector از روی سورس بررسی شد؛ شناسه THA-HLP-0070 دارای محتوای تأییدشده است. Gate مربوط به R53 باید هویت نسخه، SHA صفحه و تمام asset pinها را دوباره بررسی کند.
+- **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ نمایش دکمه «?» کنار Save Support Message، بازشدن محتوای درست، عدم اجرای ناخواسته Submit هنگام لمس «?» و چیدمان موبایل باید در Preview بررسی شوند.
+- **انتشار / داده:** هیچ Preview deploy، ارسال پیام، تغییر داده، Merge یا Production change انجام نشده است.
+
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
 - **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Implemented on Preview development; the latest R45 Version Authority Gate passed after native-HTML fail-closed hardening (run 46053038295). Pages deployment and iPhone Safari verification remain pending.
