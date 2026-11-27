@@ -8,7 +8,7 @@
     "version": "273",
     "buildId": "THA-273-R11-PREVIEW-20261126-R43",
     "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R43",
-    "indexBlobSha": "b51da3c0bf531a559b13aaf760ea9e90a9219698",
+    "indexBlobSha": "1c4e0eba42af35e827461c23e1b4a437061b943a",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "b51da3c0bf531a559b13aaf760ea9e90a9219698",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "1c4e0eba42af35e827461c23e1b4a437061b943a",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7"
     }
@@ -1966,6 +1966,46 @@
       "userApproval": {
         "result": "authorized for Preview only",
         "details": "User explicitly requested the Shir-o-Khorshid flag beside Persian. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-TO-USER-GUIDE-LABEL-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Rename the Settings Help shortcut, language-selection page heading and navigation label to User Guide. Keep the application interface English/LTR and preserve guide-language behavior. Preview only.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "pending",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "A fresh R11 Version Authority Gate is required after updating the index SHA pin."
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Pending V8 syntax validation and source checks for the renamed Settings shortcut, page heading and navigation label."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Not deployed; PR #96 remains Draft while the 229-entry Help ID registry content is completed and audited."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting authorized Preview deployment and user test in iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User requested renaming Help to User Guide and asked to continue work in Preview. Production promotion is not authorized."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
