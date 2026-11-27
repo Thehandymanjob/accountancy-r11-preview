@@ -7148,20 +7148,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Resets the Add/Edit Company form, including its selected contract attachment.",
+          "purpose": "Resets the Add/Edit Company form, including the current attachment selection.",
           "when": "Use this when discarding unsaved company details or preparing to enter a different company.",
-          "how": "In the company form, select Clear Form. The text/date fields and edit ID are cleared, and the selected contract attachment and its status are reset.",
-          "inputs": "No input is required. The action clears the company name, reference, contact, phone, email, address, contract dates, terms, edit ID and selected attachment.",
-          "result": "The company form returns to its blank state. No saved company record is deleted or changed.",
-          "notes": "Any unsaved company details and a newly selected attachment are discarded. An existing company record and its stored attachment remain unchanged."
+          "how": "In the company form, select Clear Form. The company fields and edit ID are cleared, the file input and attachment status are reset, and the selected new attachment is discarded.",
+          "inputs": "No input is required. The action clears the company name, reference, contact, phone, email, address, contract dates, terms, edit ID and current file selection.",
+          "result": "The company form returns to its blank Add Company state. No saved company record is changed or deleted.",
+          "notes": "Unsaved company details and a newly selected attachment are discarded. When editing, the existing saved company and its stored attachment remain unchanged."
         },
         "fa": {
-          "purpose": "فرم افزودن/ویرایش شرکت را همراه با پیوست قرارداد انتخاب‌شده بازنشانی می‌کند.",
+          "purpose": "فرم افزودن/ویرایش شرکت را همراه با انتخاب پیوست فعلی بازنشانی می‌کند.",
           "when": "وقتی می‌خواهید اطلاعات ذخیره‌نشده شرکت را کنار بگذارید یا برای واردکردن شرکت دیگری آماده شوید، از این گزینه استفاده کنید.",
-          "how": "در فرم شرکت، Clear Form را انتخاب کنید. فیلدهای متنی و تاریخ و شناسه ویرایش پاک می‌شوند و پیوست قرارداد انتخاب‌شده و پیام وضعیت آن بازنشانی می‌شود.",
-          "inputs": "ورودی لازم نیست. این عملیات نام شرکت، شماره مرجع، شخص تماس، تلفن، ایمیل، نشانی، تاریخ‌های قرارداد، شرایط، شناسه ویرایش و پیوست انتخاب‌شده را پاک می‌کند.",
-          "result": "فرم شرکت به وضعیت خالی بازمی‌گردد. هیچ سابقه شرکت ذخیره‌شده‌ای حذف یا تغییر نمی‌کند.",
-          "notes": "جزئیات ذخیره‌نشده شرکت و پیوست تازه انتخاب‌شده کنار گذاشته می‌شوند. سابقه شرکت موجود و پیوست ذخیره‌شده آن بدون تغییر باقی می‌مانند."
+          "how": "در فرم شرکت، Clear Form را انتخاب کنید. فیلدهای شرکت و شناسه ویرایش پاک می‌شوند، ورودی فایل و وضعیت پیوست بازنشانی و فایل تازه انتخاب‌شده کنار گذاشته می‌شود.",
+          "inputs": "ورودی لازم نیست. این عملیات نام شرکت، شماره مرجع، شخص تماس، تلفن، ایمیل، نشانی، تاریخ‌های قرارداد، شرایط، شناسه ویرایش و انتخاب فایل فعلی را پاک می‌کند.",
+          "result": "فرم شرکت به وضعیت خالی Add Company بازمی‌گردد. هیچ سابقه شرکت ذخیره‌شده‌ای تغییر نمی‌کند یا حذف نمی‌شود.",
+          "notes": "اطلاعات ذخیره‌نشده شرکت و پیوست تازه انتخاب‌شده کنار گذاشته می‌شوند. هنگام ویرایش، سابقه شرکت موجود و پیوست ذخیره‌شده آن بدون تغییر باقی می‌مانند."
         },
         "ar": {
           "purpose": "يمسح حقول نموذج الشركة الحالي.",
@@ -7248,18 +7248,18 @@
         "en": {
           "purpose": "Creates a new job under the selected company or updates an existing job for that company.",
           "when": "Use this after selecting a company and entering or editing one of its jobs.",
-          "how": "In the selected company's Jobs area, enter the job name and review optional reference, customer, contact, site, dates, base amount, status, partner/worker assignments, notes and attachment. Select Save Job and wait for the confirmation.",
-          "inputs": "A company must be selected and a job name is required. Other job details are optional or have defaults. The base amount cannot be negative and defaults to £0; status defaults to Open. Partner and worker assignments are optional.",
-          "result": "If a company is selected, the job name is present and the Projects data save succeeds, the job is saved under that company. The form resets, the job list refreshes and a Job saved message is shown.",
-          "notes": "Confirm the parent company before saving. Editing a job preserves its existing work packages and payments. Job receipts, expenses and payments belong to this company-job record and are not general Accountancy entries."
+          "how": "In the selected company's Jobs area, enter the job name and review optional reference, customer, contact details, site address, dates, base amount, status, partner/worker assignments, notes and attachment. Select Save Job and wait for the confirmation alert.",
+          "inputs": "A company must be selected and a job name is required. Other details are optional or have defaults. Base amount cannot be negative and defaults to £0; status defaults to Open. Partner and worker assignments are optional. When editing, the existing job ID is used.",
+          "result": "If a company is selected, the job name is present and the Projects data save succeeds, the job is saved under that company, the form resets, the job list refreshes and Job saved is displayed.",
+          "notes": "Confirm the parent company before saving. Editing preserves the job's existing work packages and payments. Job receipts, expenses and payments belong to the company-job record and are separate from general Accountancy entries."
         },
         "fa": {
-          "purpose": "یک کار را زیر شرکت انتخاب‌شده ایجاد یا کار موجودی را برای همان شرکت به‌روزرسانی می‌کند.",
+          "purpose": "یک کار را زیر شرکت انتخاب‌شده ایجاد می‌کند یا کار موجودی را برای همان شرکت به‌روزرسانی می‌کند.",
           "when": "پس از انتخاب شرکت و واردکردن یا ویرایش یکی از کارهای آن، از این گزینه استفاده کنید.",
-          "how": "در بخش Jobs شرکت انتخاب‌شده، نام کار را وارد کنید و شماره مرجع، مشتری، اطلاعات تماس، محل کار، تاریخ‌ها، مبلغ پایه، وضعیت، شریک/کارگر اختصاص‌یافته، یادداشت‌ها و پیوست را در صورت نیاز بررسی کنید. Save Job را انتخاب کنید و منتظر پیام تأیید بمانید.",
-          "inputs": "انتخاب شرکت و واردکردن نام کار الزامی است. سایر جزئیات اختیاری یا دارای مقدار پیش‌فرض هستند. مبلغ پایه نمی‌تواند منفی باشد و مقدار پیش‌فرض آن £0 است؛ وضعیت به‌طور پیش‌فرض Open است. اختصاص شریک و کارگر اختیاری است.",
-          "result": "اگر شرکت انتخاب شده باشد، نام کار وارد شده باشد و ذخیره داده‌های Projects موفق شود، کار زیر همان شرکت ذخیره می‌شود. فرم بازنشانی، فهرست کارها تازه‌سازی و پیام Job saved نمایش داده می‌شود.",
-          "notes": "پیش از ذخیره، شرکت مادر را تأیید کنید. هنگام ویرایش کار، سوابق بسته‌های کاری و پرداخت‌های موجود حفظ می‌شوند. رسیدها، هزینه‌ها و پرداخت‌های کار به سابقه همین شرکت-کار تعلق دارند و جزو ثبت‌های عمومی Accountancy نیستند."
+          "how": "در بخش Jobs شرکت انتخاب‌شده، نام کار را وارد کنید و شماره مرجع، مشتری، اطلاعات تماس، نشانی محل کار، تاریخ‌ها، مبلغ پایه، وضعیت، شریک/کارگر اختصاص‌یافته، یادداشت‌ها و پیوست را در صورت نیاز بررسی کنید. Save Job را انتخاب کنید و منتظر پیام تأیید بمانید.",
+          "inputs": "انتخاب شرکت و واردکردن نام کار الزامی است. سایر جزئیات اختیاری یا دارای مقدار پیش‌فرض هستند. مبلغ پایه نمی‌تواند منفی باشد و مقدار پیش‌فرض آن £0 است؛ وضعیت پیش‌فرض Open است. اختصاص شریک و کارگر اختیاری است. هنگام ویرایش، شناسه کار موجود استفاده می‌شود.",
+          "result": "اگر شرکت انتخاب شده باشد، نام کار وارد شده باشد و ذخیره داده‌های Projects موفق شود، کار زیر همان شرکت ذخیره می‌شود، فرم بازنشانی و فهرست کارها تازه‌سازی می‌شود و پیام Job saved نمایش داده می‌شود.",
+          "notes": "پیش از ذخیره، شرکت مادر را تأیید کنید. هنگام ویرایش، بسته‌های کاری و پرداخت‌های موجود حفظ می‌شوند. رسیدها، هزینه‌ها و پرداخت‌های کار به سابقه شرکت-کار تعلق دارند و از ثبت‌های عمومی Accountancy جدا هستند."
         },
         "ar": {
           "purpose": "يحفظ وظيفة ضمن الشركة المحددة.",
@@ -7344,20 +7344,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Resets the current job form while retaining the selected company context and any still-valid partner/worker selections.",
-          "when": "Use this when discarding unsaved job details or preparing to enter another job for the same selected company.",
-          "how": "Select Clear Job Form. The job name, reference, customer, contact, address, dates, notes and edit ID are cleared. The base amount returns to 0, status returns to Open, and the selected attachment is cleared. The company context is retained; partner and worker selectors are refreshed and may retain a still-valid selection.",
-          "inputs": "No input is required. The current company selection is retained. Job fields and attachment selection are reset; partner/worker selectors are refreshed from the directories.",
-          "result": "The job form is cleared and its amount and status return to their defaults. Saved jobs and their financial history are not changed.",
-          "notes": "Unsaved job details and a newly selected attachment are discarded. The selected company remains in context. The partner/worker selectors may retain a valid selection after refresh. This does not delete an existing saved job."
+          "purpose": "Resets the current job form while retaining the selected company context.",
+          "when": "Use this when discarding unsaved job details or preparing to enter another job for the same company.",
+          "how": "Select Clear Job Form. The job name, reference, customer, contact, address, dates, notes and edit ID are cleared. The base amount returns to 0, status returns to Open and the selected attachment is cleared. Partner and worker selectors are refreshed from their directories.",
+          "inputs": "No input is required. The selected company is retained. Job fields and the current attachment selection are reset; partner and worker selectors are refreshed and may keep a still-valid selection.",
+          "result": "The job form is cleared and its amount and status return to their defaults. Saved jobs, work packages and payment history are not changed.",
+          "notes": "Unsaved job details and a newly selected attachment are discarded. The selected company remains in context. A valid partner or worker selection may remain after the selectors refresh. This action does not delete an existing saved job."
         },
         "fa": {
-          "purpose": "فرم کار فعلی را بازنشانی می‌کند و زمینه شرکت انتخاب‌شده و انتخاب‌های معتبر شریک/کارگر را حفظ می‌کند.",
-          "when": "وقتی می‌خواهید جزئیات ذخیره‌نشده کار را کنار بگذارید یا کار دیگری برای همان شرکت انتخاب‌شده وارد کنید، از این گزینه استفاده کنید.",
-          "how": "Clear Job Form را انتخاب کنید. نام کار، شماره مرجع، مشتری، اطلاعات تماس، نشانی، تاریخ‌ها، یادداشت‌ها و شناسه ویرایش پاک می‌شوند. مبلغ پایه به ۰ و وضعیت به Open بازمی‌گردد و پیوست انتخاب‌شده پاک می‌شود. زمینه شرکت حفظ می‌شود؛ انتخاب‌گرهای شریک و کارگر تازه‌سازی می‌شوند و ممکن است انتخاب معتبر فعلی را نگه دارند.",
-          "inputs": "ورودی لازم نیست. انتخاب شرکت فعلی حفظ می‌شود. فیلدهای کار و پیوست انتخاب‌شده بازنشانی می‌شوند؛ انتخاب‌گرهای شریک و کارگر از فهرست‌ها تازه‌سازی می‌شوند.",
-          "result": "فرم کار پاک و مبلغ و وضعیت آن به مقادیر پیش‌فرض بازمی‌گردند. کارهای ذخیره‌شده و سوابق مالی آن‌ها تغییر نمی‌کنند.",
-          "notes": "جزئیات ذخیره‌نشده کار و پیوست تازه انتخاب‌شده کنار گذاشته می‌شوند. شرکت انتخاب‌شده در زمینه باقی می‌ماند. انتخاب‌گرهای شریک و کارگر ممکن است پس از تازه‌سازی، انتخاب معتبر قبلی را حفظ کنند. این گزینه کار ذخیره‌شده قبلی را حذف نمی‌کند."
+          "purpose": "فرم کار فعلی را بازنشانی می‌کند و شرکت انتخاب‌شده را در زمینه فرم حفظ می‌کند.",
+          "when": "وقتی می‌خواهید جزئیات ذخیره‌نشده کار را کنار بگذارید یا برای همان شرکت کار دیگری وارد کنید، از این گزینه استفاده کنید.",
+          "how": "Clear Job Form را انتخاب کنید. نام کار، شماره مرجع، مشتری، اطلاعات تماس، نشانی، تاریخ‌ها، یادداشت‌ها و شناسه ویرایش پاک می‌شوند. مبلغ پایه به ۰ و وضعیت به Open بازمی‌گردد و پیوست انتخاب‌شده پاک می‌شود. انتخاب‌گرهای شریک و کارگر از فهرست‌های مربوط تازه‌سازی می‌شوند.",
+          "inputs": "ورودی لازم نیست. شرکت انتخاب‌شده حفظ می‌شود. فیلدهای کار و انتخاب پیوست فعلی بازنشانی می‌شوند؛ انتخاب‌گرهای شریک و کارگر تازه‌سازی می‌شوند و ممکن است انتخاب معتبر قبلی را نگه دارند.",
+          "result": "فرم کار پاک می‌شود و مبلغ و وضعیت آن به مقادیر پیش‌فرض بازمی‌گردند. کارهای ذخیره‌شده، بسته‌های کاری و سوابق پرداخت تغییر نمی‌کنند.",
+          "notes": "جزئیات ذخیره‌نشده کار و پیوست تازه انتخاب‌شده کنار گذاشته می‌شوند. شرکت انتخاب‌شده در زمینه فرم باقی می‌ماند. ممکن است انتخاب معتبر شریک یا کارگر پس از تازه‌سازی باقی بماند. این گزینه کار ذخیره‌شده قبلی را حذف نمی‌کند."
         },
         "ar": {
           "purpose": "يمسح نموذج الوظيفة الحالي.",
@@ -7443,18 +7443,18 @@
       "translations": {
         "en": {
           "purpose": "Creates or updates a work package within the currently selected company job.",
-          "when": "Use this when dividing a company job into separately tracked scopes or recording an additional-work variation.",
-          "how": "Open Work packages for the required job. Enter the package name, select Base scope or Additional work / variation, enter a non-negative amount and choose approval and execution statuses. Add optional requester, approval date, scope notes or PDF/image evidence, then select Save Work Package.",
-          "inputs": "A current job and work-package name are required. Amount must not be negative. Package type, approval status and execution status are selected from the form; requester, approval date, notes and evidence are optional. Defaults are Base scope, £0, Approved and Not started.",
-          "result": "If the selected job exists, the package name is present and saving succeeds, the package is stored under that job. The package list and job totals are refreshed.",
-          "notes": "Only approved Additional work / variation packages increase the agreed job total. Base scope packages and pending or rejected variations do not increase it. Keep approval evidence for scope or price changes. Saving a package does not itself record a receipt or expense."
+          "when": "Use this when dividing a company job into separately tracked scopes or recording additional work or a variation.",
+          "how": "Open Work packages for the required job. Enter the package name, choose Base scope or Additional work / variation, enter a non-negative amount, and select approval and execution statuses. Add optional requester, approval date, notes or PDF/image evidence, then select Save Work Package.",
+          "inputs": "A selected job and work-package name are required. Amount cannot be negative. Type, approval status and execution status are selected from the form; requester, approval date, notes and evidence are optional. Defaults are Base scope, £0, Approved and Not started.",
+          "result": "If the selected job exists, the package name is present and the Projects data save succeeds, the package is saved under that job and the package list and job totals refresh.",
+          "notes": "Only approved Additional work / variation packages increase the agreed job total. Base scope packages and pending or rejected variations do not increase it. Retain approval evidence for scope or price changes. Saving a package does not record a receipt or expense."
         },
         "fa": {
           "purpose": "یک بسته کاری را در کار شرکتی انتخاب‌شده ایجاد یا به‌روزرسانی می‌کند.",
-          "when": "وقتی می‌خواهید کار شرکتی را به محدوده‌های جداگانه قابل پیگیری تقسیم کنید یا تغییر کار اضافی را ثبت کنید، از این گزینه استفاده کنید.",
-          "how": "برای کار موردنظر بخش Work packages را باز کنید. نام بسته را وارد کنید، Base scope یا Additional work / variation را انتخاب کنید، مبلغ غیرمنفی را وارد و وضعیت تأیید و اجرا را تعیین کنید. در صورت نیاز درخواست‌کننده، تاریخ تأیید، یادداشت محدوده یا مدرک PDF/تصویر را اضافه و سپس Save Work Package را انتخاب کنید.",
-          "inputs": "وجود یک کار فعلی و نام بسته کاری الزامی است. مبلغ نباید منفی باشد. نوع بسته، وضعیت تأیید و وضعیت اجرا از فرم انتخاب می‌شوند؛ درخواست‌کننده، تاریخ تأیید، یادداشت‌ها و مدرک اختیاری هستند. مقادیر پیش‌فرض عبارت‌اند از Base scope، مبلغ صفر، Approved و Not started.",
-          "result": "اگر کار انتخاب‌شده وجود داشته باشد، نام بسته وارد شده باشد و ذخیره موفق شود، بسته زیر همان کار ذخیره می‌شود. فهرست بسته‌ها و مجموع‌های کار تازه‌سازی می‌شوند.",
+          "when": "وقتی می‌خواهید کار شرکتی را به محدوده‌های جداگانه قابل پیگیری تقسیم کنید یا کار اضافی/تغییر محدوده را ثبت کنید، از این گزینه استفاده کنید.",
+          "how": "برای کار موردنظر بخش Work packages را باز کنید. نام بسته را وارد کنید، Base scope یا Additional work / variation را انتخاب کنید، مبلغ غیرمنفی را وارد و وضعیت تأیید و اجرا را تعیین کنید. در صورت نیاز درخواست‌کننده، تاریخ تأیید، یادداشت‌ها یا مدرک PDF/تصویر را اضافه کنید و سپس Save Work Package را انتخاب کنید.",
+          "inputs": "انتخاب یک کار و واردکردن نام بسته کاری الزامی است. مبلغ نباید منفی باشد. نوع بسته، وضعیت تأیید و وضعیت اجرا از فرم انتخاب می‌شوند؛ درخواست‌کننده، تاریخ تأیید، یادداشت‌ها و مدرک اختیاری هستند. مقادیر پیش‌فرض عبارت‌اند از Base scope، مبلغ £0، Approved و Not started.",
+          "result": "اگر کار انتخاب‌شده وجود داشته باشد، نام بسته وارد شده باشد و ذخیره داده‌های Projects موفق شود، بسته زیر همان کار ذخیره و فهرست بسته‌ها و مجموع‌های کار تازه‌سازی می‌شوند.",
           "notes": "فقط بسته‌های Additional work / variation با وضعیت Approved مبلغ توافق‌شده کار را افزایش می‌دهند. بسته‌های Base scope و تغییرات در انتظار تأیید یا ردشده مبلغ را افزایش نمی‌دهند. مدارک تأیید تغییر محدوده یا قیمت را نگه دارید. ذخیره بسته به‌تنهایی رسید یا هزینه‌ای ثبت نمی‌کند."
         },
         "ar": {
@@ -7543,17 +7543,17 @@
           "purpose": "Resets the current work-package form and restores its default selections.",
           "when": "Use this when discarding unsaved work-package details or preparing to enter a different scope for the same job.",
           "how": "Select Clear in the Work packages form. The name, requester, approval date, notes, edit ID and selected attachment are cleared. Type returns to Base scope, amount to 0, approval to Approved and execution status to Not started.",
-          "inputs": "No input is required. The current job context is retained; only the work-package form fields and attachment selection are reset.",
-          "result": "The current work-package form is cleared and returned to its default values. Existing saved work packages and their financial records remain unchanged.",
-          "notes": "Unsaved package details and a newly selected attachment are discarded. This action does not delete or modify an already saved work package or its expenses."
+          "inputs": "No input is required. The current job context is retained; only the work-package form fields and selected attachment are reset.",
+          "result": "The work-package form returns to its default values. Existing saved work packages and their financial records remain unchanged.",
+          "notes": "Unsaved package details and a newly selected attachment are discarded. This action does not delete or modify a saved work package or its recorded expenses."
         },
         "fa": {
           "purpose": "فرم بسته کاری فعلی را بازنشانی می‌کند و انتخاب‌های پیش‌فرض آن را برمی‌گرداند.",
           "when": "وقتی می‌خواهید جزئیات ذخیره‌نشده بسته کاری را کنار بگذارید یا برای همان کار محدوده دیگری وارد کنید، از این گزینه استفاده کنید.",
           "how": "در فرم Work packages گزینه Clear را انتخاب کنید. نام، درخواست‌کننده، تاریخ تأیید، یادداشت‌ها، شناسه ویرایش و پیوست انتخاب‌شده پاک می‌شوند. نوع به Base scope، مبلغ به ۰، وضعیت تأیید به Approved و وضعیت اجرا به Not started بازمی‌گردد.",
           "inputs": "ورودی لازم نیست. زمینه کار فعلی حفظ می‌شود؛ فقط فیلدهای فرم بسته کاری و پیوست انتخاب‌شده بازنشانی می‌شوند.",
-          "result": "فرم بسته کاری فعلی پاک و به مقادیر پیش‌فرض بازمی‌گردد. بسته‌های کاری ذخیره‌شده و سوابق مالی آن‌ها بدون تغییر باقی می‌مانند.",
-          "notes": "جزئیات ذخیره‌نشده بسته و پیوست تازه انتخاب‌شده کنار گذاشته می‌شوند. این عملیات بسته کاری ذخیره‌شده یا هزینه‌های آن را حذف یا تغییر نمی‌دهد."
+          "result": "فرم بسته کاری به مقادیر پیش‌فرض بازمی‌گردد. بسته‌های کاری ذخیره‌شده و سوابق مالی آن‌ها بدون تغییر باقی می‌مانند.",
+          "notes": "جزئیات ذخیره‌نشده بسته و پیوست تازه انتخاب‌شده کنار گذاشته می‌شوند. این عملیات بسته کاری ذخیره‌شده یا هزینه‌های ثبت‌شده آن را حذف یا تغییر نمی‌دهد."
         },
         "ar": {
           "purpose": "يمسح حقول نموذج حزمة العمل الحالية.",
