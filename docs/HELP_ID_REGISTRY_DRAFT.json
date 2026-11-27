@@ -5862,6 +5862,78 @@
           "inputs": "متن جست‌وجوی اختیاری بایگانی، دسته‌بندی رویداد و فیلتر بازه زمانی. آزمون‌ها و خروجی‌های تشخیصی با دکمه مربوط اجرا می‌شوند؛ مرورگر باید اجازه دانلود فایل را بدهد.",
           "result": "اطلاعات نسخه، رویدادهای فعالیت و نتایج بررسی‌های تشخیصی در صفحه نمایش داده می‌شوند. در صورت موفقیت عملیات خروجی، فایل JSON تشخیصی یا CSV فعالیت دانلود می‌شود.",
           "notes": "بایگانی فعالیت به‌صورت محلی روی همین دستگاه ذخیره می‌شود و خودکار به سرور ارسال نمی‌شود. مقایسه و ممیزی فقط‌خواندنی، داده‌ها را تعمیر نمی‌کنند. خروجی‌های تشخیصی ممکن است شامل اطلاعات دستگاه، مرورگر و جزئیات فنی باشند؛ پیش از اشتراک‌گذاری، فایل‌ها را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يفتح Monitor & Diagnostics لعرض تفاصيل الإصدار وقاعدة البيانات، وفحص سجل النشاط المحلي على الجهاز، وتشغيل اختبارات IndexedDB وتصدير المعلومات التشخيصية.",
+          "when": "استخدم هذا القسم لتحديد الإصدار المحمّل ومراجعة النشاط أو الأخطاء المسجلة والتحقيق في اتساق التخزين أو مشكلات الدعم.",
+          "how": "افتح Monitor & Diagnostics. اختر Show version details عند الحاجة إلى معلومات الإصدار. وسّع سجل النشاط للبحث عن الأحداث أو تصفيتها حسب النوع والتاريخ. شغّل اختبارات التخزين أو الفحوص الذاتية المتاحة، أو نزّل تقرير التشخيص JSON أو سجل النشاط CSV.",
+          "inputs": "نص بحث اختياري في السجل، وفئة الحدث، ومرشحات النطاق الزمني. تبدأ الفحوص التشخيصية وعمليات التصدير من الأزرار المخصصة؛ ويجب أن يسمح المتصفح بالتنزيل.",
+          "result": "تعرض الصفحة تفاصيل الإصدار وأحداث النشاط ونتائج التشخيص. تُنزّل ملفات JSON التشخيصية أو CSV للنشاط عند نجاح عملية التصدير المطلوبة.",
+          "notes": "يُخزّن سجل النشاط محلياً على هذا الجهاز ولا يُرسل تلقائياً إلى خادم. المقارنة والتدقيق للقراءة فقط ولا يصلحان البيانات. قد تحتوي ملفات التشخيص المصدّرة على تفاصيل الجهاز والمتصفح ومعلومات تقنية؛ راجع الملفات قبل مشاركتها."
+        },
+        "ckb": {
+          "purpose": "Monitor & Diagnostics دەکاتەوە بۆ بینینی وردەکارییەکانی Build و بنکەدراوە، پشکنینی ئەرشیفی چالاکییە خۆجێییەکەی ئامێر، جێبەجێکردنی تاقیکردنەوەکانی IndexedDB و هەناردەکردنی زانیارییەکانی تشخیص.",
+          "when": "ئەم بەشە بەکاربهێنە بۆ ناسینەوەی Buildی بارکراو، پێداچوونەوە بە چالاکی یان هەڵە تۆمارکراوەکان و لێکۆڵینەوە لە یەکگرتوویی هەڵگرتن یان کێشەکانی پشتگیری.",
+          "how": "Monitor & Diagnostics بکەرەوە. بۆ زانیاری Build، Show version details هەڵبژێرە. ئەرشیفی چالاکی فراوان بکە بۆ گەڕان یان پاڵاوتنی ڕووداوەکان بە جۆر و بەروار. تاقیکردنەوەکانی هەڵگرتن یان پشکنینی خۆکاری بەردەست جێبەجێ بکە، یان ڕاپۆرتی تشخیصی JSON یان تۆماری چالاکی CSV دابەزێنە.",
+          "inputs": "دەقی گەڕانی ئارەزوومەند بۆ ئەرشیف، جۆری ڕووداو و پاڵاوتنی مەودای بەروار. پشکنینە تشخیصییەکان و هەناردەکردن بە دوگمە تایبەتەکانیان دەست پێدەکەن؛ وێبگەڕ دەبێت ڕێگە بە دابەزاندن بدات.",
+          "result": "پەڕەکە وردەکارییەکانی وەشان، ڕووداوەکانی چالاکی و ئەنجامە تشخیصییەکان پیشان دەدات. فایلەکانی JSONی تشخیصی یان CSVی چالاکی کاتێک دادەبەزێنرێن کە هەناردەکردنی داواکراو سەرکەوتوو بێت.",
+          "notes": "ئەرشیفی چالاکی بە شێوەی خۆجێیی لەم ئامێرەدا هەڵدەگیرێت و بە شێوەی خۆکار بۆ سێرڤەر نانێردرێت. بەراورد و پشکنینی تەنها-خوێندنەوە داتا چاک ناکەنەوە. دەرهاویشتە تشخیصییەکان لەوانەیە وردەکاری ئامێر، وێبگەڕ و زانیاری تەکنیکی لەخۆبگرن؛ پێش هاوبەشکردن فایلەکان بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Monitor & Diagnostics vedike da ku hûrguliyên build û databasa bibîne, arşîva çalakiya herêmî ya cîhazê kontrol bike, testên IndexedDB bimeşîne û agahiyên teşhîsê derxe.",
+          "when": "Vê beşê bikar bîne da ku build-a barkirî nas bikî, çalakî an çewtiyên tomarkirî binirxînî û li ser yekrêziya hilanînê an pirsgirêkên piştgiriyê lêkolîn bikî.",
+          "how": "Monitor & Diagnostics veke. Ji bo agahiyên build Show version details hilbijêre. Arşîva çalakiyê fireh bike da ku bûyeran li gorî cure û dîrokê bigerî an parzûn bikî. Testên hilanînê an kontrolên xwe yên peyda bimeşîne, an rapora teşhîsê ya JSON an tomara çalakiyê ya CSV daxîne.",
+          "inputs": "Nivîsa lêgerînê ya vebijarkî ji bo arşîvê, kategoriya bûyerê û parzûnên navbera dîrokê. Kontrolên teşhîsê û derxistin bi bişkokên wan ên taybet dest pê dikin; divê gerok destûra daxistinê bide.",
+          "result": "Rûpel hûrguliyên guhertoyê, bûyerên çalakiyê û encamên teşhîsê nîşan dide. Pelên JSON yên teşhîsê an CSV ya çalakiyê dema ku derxistina tê xwestin serkeftî be tên daxistin.",
+          "notes": "Arşîva çalakiyê li ser vê cîhazê herêmî tê hilanîn û bi awayekî xweber ji serverê re nayê şandin. Berawirdkirin û kontrola tenê-xwendinê daneyan tamîr nakin. Dibe ku pelên teşhîsê yên derxistî hûrguliyên cîhazê, gerokê û agahiyên teknîkî hebin; berî parvekirinê pelan binêre."
+        },
+        "tr": {
+          "purpose": "Build ve veritabanı ayrıntılarını görüntülemek, cihazdaki yerel etkinlik arşivini incelemek, IndexedDB kontrollerini çalıştırmak ve tanılama bilgilerini dışa aktarmak için Monitor & Diagnostics bölümünü açar.",
+          "when": "Yüklü derlemeyi belirlemek, kaydedilen etkinlikleri veya hataları incelemek ve depolama tutarlılığı ya da destek sorunlarını araştırmak için bu alanı kullanın.",
+          "how": "Monitor & Diagnostics bölümünü açın. Derleme bilgisi gerektiğinde Show version details seçeneğini belirleyin. Etkinlik arşivini genişleterek olayları türe ve tarihe göre arayın veya filtreleyin. Kullanılabilir depolama testlerini ya da öz denetimleri çalıştırın veya JSON tanılama raporunu ya da CSV etkinlik günlüğünü indirin.",
+          "inputs": "İsteğe bağlı arşiv arama metni, olay kategorisi ve tarih aralığı filtreleri. Tanılama kontrolleri ve dışa aktarma işlemleri ilgili düğmelerle başlatılır; tarayıcının indirmelere izin vermesi gerekir.",
+          "result": "Sayfada sürüm ayrıntıları, etkinlik olayları ve tanılama sonuçları gösterilir. İstenen dışa aktarma başarılı olursa JSON tanılama veya CSV etkinlik dosyası indirilir.",
+          "notes": "Etkinlik arşivi bu cihazda yerel olarak saklanır ve otomatik olarak sunucuya gönderilmez. Salt okunur karşılaştırma ve denetim verileri onarmaz. Tanılama çıktıları cihaz, tarayıcı ve teknik ayrıntılar içerebilir; paylaşmadan önce dosyaları inceleyin."
+        },
+        "pl": {
+          "purpose": "Otwiera Monitor & Diagnostics, aby wyświetlić informacje o kompilacji i bazie danych, sprawdzić lokalne archiwum aktywności urządzenia, uruchomić kontrole IndexedDB i wyeksportować dane diagnostyczne.",
+          "when": "Użyj tej sekcji, aby ustalić, jaka kompilacja została załadowana, przejrzeć zarejestrowaną aktywność lub błędy oraz zbadać spójność pamięci lub problemy wymagające pomocy technicznej.",
+          "how": "Otwórz Monitor & Diagnostics. Wybierz Show version details, jeśli potrzebujesz informacji o kompilacji. Rozwiń archiwum aktywności, aby wyszukiwać lub filtrować zdarzenia według typu i daty. Uruchom dostępne testy pamięci lub autotesty albo pobierz raport diagnostyczny JSON lub dziennik aktywności CSV.",
+          "inputs": "Opcjonalny tekst wyszukiwania w archiwum, kategoria zdarzenia i filtry zakresu dat. Kontrole diagnostyczne i eksport uruchamia się odpowiednimi przyciskami; przeglądarka musi zezwalać na pobieranie plików.",
+          "result": "Strona wyświetla szczegóły wersji, zdarzenia aktywności i wyniki diagnostyki. Żądane pliki JSON lub CSV zostaną pobrane, jeśli eksport zakończy się powodzeniem.",
+          "notes": "Archiwum aktywności jest przechowywane lokalnie na tym urządzeniu i nie jest automatycznie wysyłane na serwer. Porównanie i audyt w trybie tylko do odczytu nie naprawiają danych. Eksporty diagnostyczne mogą zawierać informacje o urządzeniu, przeglądarce i szczegóły techniczne; przed udostępnieniem sprawdź pliki."
+        },
+        "ur": {
+          "purpose": "Build اور ڈیٹابیس کی تفصیلات دیکھنے، ڈیوائس پر مقامی سرگرمی کے ریکارڈ کا جائزہ لینے، IndexedDB کی جانچ چلانے اور تشخیصی معلومات برآمد کرنے کے لیے Monitor & Diagnostics کھولتا ہے۔",
+          "when": "اس حصے کو لوڈ شدہ Build کی شناخت، درج شدہ سرگرمی یا خرابیوں کا جائزہ لینے اور اسٹوریج کی مطابقت یا معاونت کے مسائل کی تحقیق کے لیے استعمال کریں۔",
+          "how": "Monitor & Diagnostics کھولیں۔ Build کی معلومات کے لیے Show version details منتخب کریں۔ سرگرمی کا ریکارڈ کھولیں تاکہ واقعات کو قسم اور تاریخ کے لحاظ سے تلاش یا فلٹر کر سکیں۔ دستیاب اسٹوریج ٹیسٹ یا خودکار جانچ چلائیں، یا JSON تشخیصی رپورٹ یا CSV سرگرمی لاگ ڈاؤن لوڈ کریں۔",
+          "inputs": "ریکارڈ کے لیے اختیاری تلاش کا متن، واقعے کی قسم اور تاریخ کی حد کے فلٹرز۔ تشخیصی جانچ اور برآمد متعلقہ بٹنوں سے شروع ہوتی ہے؛ براؤزر میں ڈاؤن لوڈ کی اجازت ہونا ضروری ہے۔",
+          "result": "صفحہ ورژن کی تفصیلات، سرگرمی کے واقعات اور تشخیصی نتائج دکھاتا ہے۔ مطلوبہ برآمد کامیاب ہونے پر JSON تشخیصی یا CSV سرگرمی فائل ڈاؤن لوڈ ہو جاتی ہے۔",
+          "notes": "سرگرمی کا ریکارڈ اسی ڈیوائس پر مقامی طور پر محفوظ ہوتا ہے اور خودکار طور پر سرور کو نہیں بھیجا جاتا۔ صرف پڑھنے والی موازنہ اور جانچ ڈیٹا کی مرمت نہیں کرتی۔ تشخیصی فائلوں میں ڈیوائس، براؤزر اور تکنیکی تفصیلات شامل ہو سکتی ہیں؛ شیئر کرنے سے پہلے فائلیں دیکھ لیں۔"
+        },
+        "pa": {
+          "purpose": "Monitor & Diagnostics ਖੋਲ੍ਹਦਾ ਹੈ ਤਾਂ ਜੋ ਬਿਲਡ ਅਤੇ ਡਾਟਾਬੇਸ ਦੇ ਵੇਰਵੇ ਵੇਖੇ ਜਾ ਸਕਣ, ਡਿਵਾਈਸ ਦੇ ਸਥਾਨਕ ਸਰਗਰਮੀ ਰਿਕਾਰਡ ਦੀ ਜਾਂਚ ਹੋਵੇ, IndexedDB ਟੈਸਟ ਚਲਾਏ ਜਾਣ ਅਤੇ ਡਾਇਗਨੌਸਟਿਕ ਜਾਣਕਾਰੀ ਨਿਰਯਾਤ ਕੀਤੀ ਜਾ ਸਕੇ।",
+          "when": "ਲੋਡ ਹੋਏ ਬਿਲਡ ਦੀ ਪਛਾਣ ਕਰਨ, ਦਰਜ ਕੀਤੀ ਸਰਗਰਮੀ ਜਾਂ ਗਲਤੀਆਂ ਵੇਖਣ ਅਤੇ ਸਟੋਰੇਜ ਦੀ ਇਕਸਾਰਤਾ ਜਾਂ ਸਹਾਇਤਾ ਸੰਬੰਧੀ ਸਮੱਸਿਆਵਾਂ ਦੀ ਜਾਂਚ ਲਈ ਇਹ ਭਾਗ ਵਰਤੋ।",
+          "how": "Monitor & Diagnostics ਖੋਲ੍ਹੋ। ਬਿਲਡ ਦੀ ਜਾਣਕਾਰੀ ਲਈ Show version details ਚੁਣੋ। ਸਰਗਰਮੀ ਰਿਕਾਰਡ ਖੋਲ੍ਹੋ ਅਤੇ ਘਟਨਾਵਾਂ ਨੂੰ ਕਿਸਮ ਅਤੇ ਮਿਤੀ ਅਨੁਸਾਰ ਖੋਜੋ ਜਾਂ ਫਿਲਟਰ ਕਰੋ। ਉਪਲਬਧ ਸਟੋਰੇਜ ਟੈਸਟ ਜਾਂ ਸਵੈ-ਜਾਂਚ ਚਲਾਓ, ਜਾਂ JSON ਡਾਇਗਨੌਸਟਿਕ ਰਿਪੋਰਟ ਜਾਂ CSV ਸਰਗਰਮੀ ਲੌਗ ਡਾਊਨਲੋਡ ਕਰੋ।",
+          "inputs": "ਰਿਕਾਰਡ ਲਈ ਵਿਕਲਪਿਕ ਖੋਜ ਲਿਖਤ, ਘਟਨਾ ਦੀ ਸ਼੍ਰੇਣੀ ਅਤੇ ਮਿਤੀ-ਹੱਦ ਫਿਲਟਰ। ਡਾਇਗਨੌਸਟਿਕ ਜਾਂਚਾਂ ਅਤੇ ਨਿਰਯਾਤ ਸੰਬੰਧਿਤ ਬਟਨਾਂ ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦੇ ਹਨ; ਬ੍ਰਾਊਜ਼ਰ ਨੂੰ ਡਾਊਨਲੋਡ ਦੀ ਇਜਾਜ਼ਤ ਦੇਣੀ ਚਾਹੀਦੀ ਹੈ।",
+          "result": "ਪੰਨਾ ਵਰਜਨ ਵੇਰਵੇ, ਸਰਗਰਮੀ ਘਟਨਾਵਾਂ ਅਤੇ ਡਾਇਗਨੌਸਟਿਕ ਨਤੀਜੇ ਦਿਖਾਉਂਦਾ ਹੈ। ਮੰਗੀਆਂ JSON ਡਾਇਗਨੌਸਟਿਕ ਜਾਂ CSV ਸਰਗਰਮੀ ਫਾਈਲਾਂ ਨਿਰਯਾਤ ਸਫਲ ਹੋਣ 'ਤੇ ਡਾਊਨਲੋਡ ਹੁੰਦੀਆਂ ਹਨ।",
+          "notes": "ਸਰਗਰਮੀ ਰਿਕਾਰਡ ਇਸ ਡਿਵਾਈਸ 'ਤੇ ਸਥਾਨਕ ਤੌਰ 'ਤੇ ਸੰਭਾਲਿਆ ਜਾਂਦਾ ਹੈ ਅਤੇ ਆਪਣੇ ਆਪ ਸਰਵਰ ਨੂੰ ਨਹੀਂ ਭੇਜਿਆ ਜਾਂਦਾ। ਸਿਰਫ਼ ਪੜ੍ਹਨ ਵਾਲੀ ਤੁਲਨਾ ਅਤੇ ਜਾਂਚ ਡਾਟੇ ਦੀ ਮੁਰੰਮਤ ਨਹੀਂ ਕਰਦੀਆਂ। ਡਾਇਗਨੌਸਟਿਕ ਨਿਰਯਾਤ ਵਿੱਚ ਡਿਵਾਈਸ, ਬ੍ਰਾਊਜ਼ਰ ਅਤੇ ਤਕਨੀਕੀ ਵੇਰਵੇ ਹੋ ਸਕਦੇ ਹਨ; ਸਾਂਝਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਫਾਈਲਾਂ ਵੇਖੋ।"
+        },
+        "prs": {
+          "purpose": "بخش Monitor & Diagnostics را برای مشاهده جزئیات Build و پایگاه داده، بررسی بایگانی فعالیت محلی دستگاه، اجرای بررسی‌های IndexedDB و خروجی‌گرفتن از اطلاعات تشخیصی باز می‌کند.",
+          "when": "برای شناسایی Build بارگذاری‌شده، بررسی فعالیت‌ها یا خطاهای ثبت‌شده و پیگیری سازگاری ذخیره‌سازی یا مشکلات پشتیبانی از این بخش استفاده کنید.",
+          "how": "Monitor & Diagnostics را باز کنید. برای مشاهده اطلاعات Build، Show version details را انتخاب کنید. بایگانی فعالیت را باز کنید تا رویدادها را بر اساس نوع و تاریخ جست‌وجو یا فیلتر کنید. آزمون‌های ذخیره‌سازی یا بررسی‌های خودکار موجود را اجرا کنید، یا گزارش تشخیصی JSON و گزارش فعالیت CSV را دانلود کنید.",
+          "inputs": "متن جست‌وجوی اختیاری بایگانی، دسته رویداد و فیلتر بازه تاریخ. بررسی‌های تشخیصی و خروجی‌گرفتن با دکمه‌های مربوط آغاز می‌شوند؛ مرورگر باید اجازه دانلود بدهد.",
+          "result": "صفحه جزئیات نسخه، رویدادهای فعالیت و نتایج تشخیصی را نشان می‌دهد. در صورت موفقیت خروجی‌گرفتن، فایل JSON تشخیصی یا CSV فعالیت دانلود می‌شود.",
+          "notes": "بایگانی فعالیت به‌صورت محلی روی همین دستگاه ذخیره می‌شود و خودکار به سرور فرستاده نمی‌شود. مقایسه و ممیزی فقط‌خواندنی داده‌ها را تعمیر نمی‌کنند. خروجی‌های تشخیصی ممکن است شامل اطلاعات دستگاه، مرورگر و جزئیات فنی باشند؛ پیش از اشتراک‌گذاری فایل‌ها را بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د Monitor & Diagnostics برخه پرانیزي، څو د Build او ډیټابېس جزئیات وګورئ، د وسیلې ځايي فعالیتي ارشیف وڅېړئ، د IndexedDB ازموینې وچلوئ او تشخیصي معلومات صادر کړئ.",
+          "when": "دا برخه د بار شوي Build د پېژندلو، د ثبت شوي فعالیت یا تېروتنو د کتلو او د زېرمه کولو د سمون یا د ملاتړ د ستونزو د څېړلو لپاره وکاروئ.",
+          "how": "Monitor & Diagnostics پرانیزئ. د Build معلوماتو لپاره Show version details وټاکئ. د فعالیت ارشیف پراخ کړئ، څو پېښې د ډول او نېټې له مخې ولټوئ یا فلټر یې کړئ. شته د زېرمه کولو ازموینې یا ځان-کتنې وچلوئ، یا د JSON تشخیصي راپور او د CSV فعالیت لاګ ښکته کړئ.",
+          "inputs": "د ارشیف لپاره اختیاري د لټون متن، د پېښې کټګوري او د نېټې د مودې فلټرونه. تشخیصي کتنې او صادرول د خپلو اړوندو تڼیو له لارې پیلېږي؛ براوزر باید د فایلونو ښکته کولو اجازه ورکړي.",
+          "result": "پاڼه د نسخې جزئیات، د فعالیت پېښې او تشخیصي پایلې ښيي. غوښتل شوي JSON تشخیصي یا CSV فعالیتي فایلونه هغه وخت ښکته کېږي چې صادرول بریالي شي.",
+          "notes": "د فعالیت ارشیف په همدې وسیله کې په ځايي ډول ساتل کېږي او په اتومات ډول سرور ته نه لېږل کېږي. یوازې-لوستونکې پرتله او پلټنه معلومات نه رغوي. تشخیصي صادر شوي فایلونه د وسیلې، براوزر او تخنیکي معلوماتو جزئیات لرلی شي؛ له شریکولو مخکې فایلونه وګورئ."
         }
       },
       "handler_or_behavior": "`show(`"
@@ -5888,6 +5960,78 @@
           "inputs": "برای بازکردن صفحه اطلاعاتی ورودی لازم نیست. کنترل‌های بازیابی که در پنجره بعدی نمایش داده می‌شوند، در این Build عملیاتی نیستند.",
           "result": "صفحه هشدار Factory Reset نمایش داده می‌شود. با بازکردن این صفحه هیچ پشتیبانی تبدیل نمی‌شود، Snapshot اضطراری دانلود نمی‌شود و داده‌های برنامه Reset نمی‌شوند.",
           "notes": "خطر بسیار بالا: گردش‌کار موردنظر، جایگزینی داده‌های فعلی IndexedDB با یک پشتیبان قدیمیِ تأییدشده را توصیف می‌کند. بااین‌حال پیاده‌سازی R43 ناقص است: عملیات تبدیل، Snapshot اضطراری و بازیابی نهایی Handler اجرایی ندارند. برای بازیابی به این صفحه اتکا نکنید و Reset را اجرا نکنید."
+        },
+        "ar": {
+          "purpose": "يفتح صفحة معلومات Factory Reset التي تحذر من أن عملية الاستعادة المقترحة ستستبدل بيانات التطبيق الحالية بنسخة احتياطية قديمة معتمدة.",
+          "when": "افتح هذه الصفحة فقط عند دراسة استعادة كاملة مخطط لها وبعد التأكد من وجود نسخة احتياطية مناسبة وخطة استعادة واضحة.",
+          "how": "افتح Factory Reset واقرأ التحذير. توفر الصفحة عنصر التحكم Open Secure Reset. في إصدار المصدر R43 هذا، عناصر تحويل النسخة الاحتياطية وإنشاء اللقطة الطارئة والاستعادة النهائية غير مرتبطة بمعالجات تعمل؛ لذلك لا تعتبر الصفحة عملية استعادة قابلة للتنفيذ.",
+          "inputs": "لا يلزم إدخال أي معلومات لفتح صفحة المعلومات. عناصر التحكم الخاصة بالاستعادة التي تظهر في مربع الحوار التالي غير فعالة في هذا الإصدار.",
+          "result": "تظهر صفحة تحذير Factory Reset. لا يؤدي فتحها إلى تحويل نسخة احتياطية أو تنزيل لقطة طارئة أو إعادة ضبط بيانات التطبيق.",
+          "notes": "خطر مرتفع: تصف العملية المقصودة استبدال بيانات IndexedDB الحالية بنسخة احتياطية قديمة معتمدة. لكن تنفيذ R43 غير مكتمل؛ إذ لا توجد معالجات أحداث تعمل لعمليات التحويل أو اللقطة الطارئة أو الاستعادة النهائية. لا تعتمد على هذه الشاشة للاستعادة ولا تحاول تنفيذ إعادة الضبط."
+        },
+        "ckb": {
+          "purpose": "پەڕەی زانیاری Factory Reset دەکاتەوە؛ پەڕەکە ئاگاداری دەدات کە پرۆسەی گەڕاندنەوەی پێشنیارکراو داتای ئێستای بەرنامە بە پاڵپشتییەکی کۆنی پەسەندکراو دەگۆڕێت.",
+          "when": "تەنها کاتێک ئەم پەڕەیە بکەرەوە کە لەبارەی گەڕاندنەوەی تەواوی پلاندانراو لێکۆڵینەوە دەکەیت و دڵنیایت کە پاڵپشتییەکی گونجاو و پلانی گەڕاندنەوە هەیە.",
+          "how": "Factory Reset بکەرەوە و ئاگادارییەکە بخوێنەوە. پەڕەکە کۆنترۆڵی Open Secure Reset پیشان دەدات. لە سەرچاوەی R43دا، کۆنترۆڵەکانی گۆڕینی پاڵپشتی، Snapshotی فریاکەوتن و گەڕاندنەوەی کۆتایی بە Handlerی کارا نەبەستراون؛ بۆیە پەڕەکە وەک پرۆسەیەکی گەڕاندنەوەی جێبەجێکراو مەبینە.",
+          "inputs": "بۆ کردنەوەی پەڕەی زانیاری هیچ زانیارییەک پێویست نییە. کۆنترۆڵەکانی گەڕاندنەوە کە لە پەنجەرەی دواتردا پیشان دەدرێن لەم Buildەدا کارا نین.",
+          "result": "پەڕەی ئاگاداری Factory Reset پیشان دەدرێت. کردنەوەی ئەم پەڕەیە پاڵپشتی ناگۆڕێت، Snapshotی فریاکەوتن دابەزێنێت یان داتای بەرنامە Reset ناکات.",
+          "notes": "مەترسیی بەرز: ڕێڕەوی مەبەستدار گۆڕینی داتای ئێستای IndexedDB بە پاڵپشتییەکی کۆنی پەسەندکراو باس دەکات. بەڵام پیاده‌سازی R43 تەواو نییە؛ بۆ کردارەکانی گۆڕین، Snapshotی فریاکەوتن و گەڕاندنەوەی کۆتایی هیچ Event Handlerێکی کارا نییە. بۆ گەڕاندنەوە پشت بە ئەم شاشەیە مەبەستە و هەوڵی Reset مەدە."
+        },
+        "kmr": {
+          "purpose": "Rûpela agahdariya Factory Reset vedike; ew hişyar dike ku pêvajoya vegerandina pêşniyarkirî dê daneyên heyî yên sepanê bi backup-eke kevn a pejirandî biguherîne.",
+          "when": "Vê rûpelê tenê dema ku li ser vegerandina tam a plankirî lêkolîn dikî û piştrast bûyî ku backup-eke guncaw û planeke vegerandinê heye veke.",
+          "how": "Factory Reset veke û hişyariyê bixwîne. Rûpel kontrola Open Secure Reset pêşkêş dike. Di çavkaniya R43 ya vê buildê de, kontrolên veguherandina backup-ê, snapshot-a acîl û vegerandina dawî bi handlerên kar dikin ve nehatine girêdan; ji ber vê yekê rûpelê wekî pêvajoyeke vegerandinê ya pêkan nebîne.",
+          "inputs": "Ji bo vekirina rûpela agahdariyê tu agahî nehewce ye. Kontrolên vegerandinê yên ku di paceya paşîn de xuya dibin di vê buildê de neçalak in.",
+          "result": "Rûpela hişyariya Factory Reset tê nîşandan. Vekirina vê rûpelê backup naguherîne, snapshot-a acîl nadaxe û daneyên sepanê reset nake.",
+          "notes": "METIRSIYA BILIND: Rêbaza armanckirî veguherandina daneyên heyî yên IndexedDB bi backup-eke kevn a pejirandî rave dike. Lê pêkanîna R43 ne temam e: ji bo veguherandinê, snapshot-a acîl û vegerandina dawî tu handlerên bûyerê yên kar nînin. Ji bo vegerandinê xwe dispêre vê dîmenderê neke û hewlê resetê nede."
+        },
+        "tr": {
+          "purpose": "Factory Reset bilgi sayfasını açar. Bu sayfa, önerilen kurtarma işleminin mevcut uygulama verilerini onaylanmış eski bir yedekle değiştireceği konusunda uyarır.",
+          "when": "Bu sayfayı yalnızca planlanan tam kurtarma işlemini incelerken ve uygun bir yedek ile kurtarma planının bulunduğunu doğruladıktan sonra açın.",
+          "how": "Factory Reset bölümünü açın ve uyarıyı okuyun. Sayfada Open Secure Reset denetimi bulunur. Bu R43 kaynak derlemesinde dönüştürme, acil durum anlık görüntüsü ve son geri yükleme denetimleri çalışan olay işleyicilerine bağlı değildir; bu nedenle sayfayı çalıştırılabilir bir kurtarma süreci olarak değerlendirmeyin.",
+          "inputs": "Bilgi sayfasını açmak için giriş gerekmez. Sonraki iletişim kutusunda gösterilen kurtarma denetimleri bu derlemede çalışır durumda değildir.",
+          "result": "Factory Reset uyarı sayfası görüntülenir. Bu sayfayı açmak yedeği dönüştürmez, acil durum anlık görüntüsü indirmez ve uygulama verilerini sıfırlamaz.",
+          "notes": "YÜKSEK RİSK: Amaçlanan iş akışı, mevcut IndexedDB verilerinin onaylanmış eski bir yedekle değiştirilmesini öngörür. Ancak R43 uygulaması tamamlanmamıştır: dönüştürme, acil durum anlık görüntüsü ve son geri yükleme işlemlerinin çalışan olay işleyicileri yoktur. Kurtarma için bu ekrana güvenmeyin ve sıfırlama girişiminde bulunmayın."
+        },
+        "pl": {
+          "purpose": "Otwiera stronę informacyjną Factory Reset, która ostrzega, że proponowany proces odzyskiwania zastąpi bieżące dane aplikacji zatwierdzoną starszą kopią zapasową.",
+          "when": "Otwieraj tę stronę wyłącznie podczas analizowania planowanego pełnego odzyskiwania i po potwierdzeniu, że istnieje odpowiednia kopia zapasowa oraz plan przywracania.",
+          "how": "Otwórz Factory Reset i przeczytaj ostrzeżenie. Strona udostępnia przycisk Open Secure Reset. W tej kompilacji źródłowej R43 elementy konwersji kopii, awaryjnej migawki i końcowego przywracania nie są podłączone do działających procedur obsługi zdarzeń; nie traktuj więc tej strony jako działającego procesu odzyskiwania.",
+          "inputs": "Do otwarcia strony informacyjnej nie są potrzebne żadne dane. Elementy sterujące odzyskiwaniem widoczne w następnym oknie dialogowym nie działają w tej kompilacji.",
+          "result": "Wyświetlana jest strona ostrzegawcza Factory Reset. Samo jej otwarcie nie konwertuje kopii zapasowej, nie pobiera awaryjnej migawki ani nie resetuje danych aplikacji.",
+          "notes": "WYSOKIE RYZYKO: Planowany proces opisuje zastąpienie bieżących danych IndexedDB zatwierdzoną starszą kopią zapasową. Implementacja R43 jest jednak niekompletna: działania konwersji, awaryjnej migawki i końcowego przywracania nie mają działających procedur obsługi zdarzeń. Nie polegaj na tym ekranie podczas odzyskiwania i nie próbuj wykonywać resetu."
+        },
+        "ur": {
+          "purpose": "Factory Reset کا معلوماتی صفحہ کھولتا ہے، جو خبردار کرتا ہے کہ مجوزہ بحالی کا عمل ایپ کے موجودہ ڈیٹا کو منظور شدہ پرانے بیک اَپ سے بدل دے گا۔",
+          "when": "یہ صفحہ صرف اس وقت کھولیں جب آپ مکمل بحالی کے منصوبے کا جائزہ لے رہے ہوں اور اس بات کی تصدیق کر چکے ہوں کہ مناسب بیک اَپ اور بحالی کا منصوبہ موجود ہے۔",
+          "how": "Factory Reset کھولیں اور انتباہ پڑھیں۔ صفحے پر Open Secure Reset کا کنٹرول موجود ہے۔ اس R43 سورس بلڈ میں بیک اَپ کی تبدیلی، ہنگامی اسنیپ شاٹ اور آخری بحالی کے کنٹرول کام کرنے والے ہینڈلرز سے منسلک نہیں؛ اس لیے اس صفحے کو قابلِ عمل بحالی کا طریقہ نہ سمجھیں۔",
+          "inputs": "معلوماتی صفحہ کھولنے کے لیے کسی معلومات کی ضرورت نہیں۔ اگلے ڈائیلاگ میں دکھائے گئے بحالی کے کنٹرول اس بلڈ میں فعال نہیں ہیں۔",
+          "result": "Factory Reset کا انتباہی صفحہ دکھایا جاتا ہے۔ اسے کھولنے سے بیک اَپ تبدیل نہیں ہوتا، ہنگامی اسنیپ شاٹ ڈاؤن لوڈ نہیں ہوتا اور ایپ کا ڈیٹا ری سیٹ نہیں ہوتا۔",
+          "notes": "زیادہ خطرہ: مطلوبہ طریقۂ کار موجودہ IndexedDB ڈیٹا کو منظور شدہ پرانے بیک اَپ سے بدلنے کی وضاحت کرتا ہے۔ تاہم R43 کی تکمیل نامکمل ہے: تبدیلی، ہنگامی اسنیپ شاٹ اور آخری بحالی کے لیے کام کرنے والے ایونٹ ہینڈلرز موجود نہیں۔ بحالی کے لیے اس اسکرین پر بھروسا نہ کریں اور ری سیٹ کرنے کی کوشش نہ کریں۔"
+        },
+        "pa": {
+          "purpose": "Factory Reset ਜਾਣਕਾਰੀ ਪੰਨਾ ਖੋਲ੍ਹਦਾ ਹੈ, ਜੋ ਚੇਤਾਵਨੀ ਦਿੰਦਾ ਹੈ ਕਿ ਪ੍ਰਸਤਾਵਿਤ ਰਿਕਵਰੀ ਪ੍ਰਕਿਰਿਆ ਮੌਜੂਦਾ ਐਪ ਡਾਟੇ ਨੂੰ ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਪੁਰਾਣੇ ਬੈਕਅੱਪ ਨਾਲ ਬਦਲ ਦੇਵੇਗੀ।",
+          "when": "ਇਹ ਪੰਨਾ ਸਿਰਫ਼ ਉਸ ਵੇਲੇ ਖੋਲ੍ਹੋ ਜਦੋਂ ਤੁਸੀਂ ਯੋਜਿਤ ਪੂਰੀ ਰਿਕਵਰੀ ਦੀ ਜਾਂਚ ਕਰ ਰਹੇ ਹੋਵੋ ਅਤੇ ਢੁਕਵੇਂ ਬੈਕਅੱਪ ਤੇ ਰਿਕਵਰੀ ਯੋਜਨਾ ਦੀ ਪੁਸ਼ਟੀ ਕਰ ਚੁੱਕੇ ਹੋਵੋ।",
+          "how": "Factory Reset ਖੋਲ੍ਹੋ ਅਤੇ ਚੇਤਾਵਨੀ ਪੜ੍ਹੋ। ਪੰਨੇ 'ਤੇ Open Secure Reset ਕੰਟਰੋਲ ਹੈ। ਇਸ R43 ਸਰੋਤ ਬਿਲਡ ਵਿੱਚ ਬੈਕਅੱਪ ਬਦਲਣ, ਐਮਰਜੈਂਸੀ ਸਨੈਪਸ਼ਾਟ ਅਤੇ ਅੰਤਿਮ ਰੀਸਟੋਰ ਕੰਟਰੋਲ ਕੰਮ ਕਰਨ ਵਾਲੇ ਹੈਂਡਲਰਾਂ ਨਾਲ ਜੁੜੇ ਨਹੀਂ ਹਨ; ਇਸ ਲਈ ਇਸ ਪੰਨੇ ਨੂੰ ਚੱਲਣਯੋਗ ਰਿਕਵਰੀ ਪ੍ਰਕਿਰਿਆ ਨਾ ਸਮਝੋ।",
+          "inputs": "ਜਾਣਕਾਰੀ ਪੰਨਾ ਖੋਲ੍ਹਣ ਲਈ ਕੋਈ ਇਨਪੁੱਟ ਲੋੜੀਂਦਾ ਨਹੀਂ। ਅਗਲੇ ਡਾਇਲਾਗ ਵਿੱਚ ਦਿਖਾਏ ਰਿਕਵਰੀ ਕੰਟਰੋਲ ਇਸ ਬਿਲਡ ਵਿੱਚ ਕਾਰਗਰ ਨਹੀਂ ਹਨ।",
+          "result": "Factory Reset ਚੇਤਾਵਨੀ ਪੰਨਾ ਦਿਖਾਇਆ ਜਾਂਦਾ ਹੈ। ਇਸ ਪੰਨੇ ਨੂੰ ਖੋਲ੍ਹਣ ਨਾਲ ਬੈਕਅੱਪ ਨਹੀਂ ਬਦਲਦਾ, ਐਮਰਜੈਂਸੀ ਸਨੈਪਸ਼ਾਟ ਡਾਊਨਲੋਡ ਨਹੀਂ ਹੁੰਦਾ ਅਤੇ ਐਪ ਡਾਟਾ ਰੀਸੈੱਟ ਨਹੀਂ ਹੁੰਦਾ।",
+          "notes": "ਉੱਚ ਖਤਰਾ: ਇਰਾਦੇ ਵਾਲੀ ਪ੍ਰਕਿਰਿਆ ਮੌਜੂਦਾ IndexedDB ਡਾਟੇ ਨੂੰ ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਪੁਰਾਣੇ ਬੈਕਅੱਪ ਨਾਲ ਬਦਲਣ ਬਾਰੇ ਦੱਸਦੀ ਹੈ। ਪਰ R43 ਦੀ ਲਾਗੂਕਰਨ ਅਧੂਰੀ ਹੈ: ਬਦਲਾਅ, ਐਮਰਜੈਂਸੀ ਸਨੈਪਸ਼ਾਟ ਅਤੇ ਅੰਤਿਮ ਰੀਸਟੋਰ ਕਾਰਵਾਈਆਂ ਲਈ ਕੰਮ ਕਰਨ ਵਾਲੇ ਇਵੈਂਟ ਹੈਂਡਲਰ ਨਹੀਂ ਹਨ। ਰਿਕਵਰੀ ਲਈ ਇਸ ਸਕ੍ਰੀਨ 'ਤੇ ਭਰੋਸਾ ਨਾ ਕਰੋ ਅਤੇ ਰੀਸੈੱਟ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਨਾ ਕਰੋ।"
+        },
+        "prs": {
+          "purpose": "صفحه اطلاعات Factory Reset را باز می‌کند؛ این صفحه هشدار می‌دهد که فرایند بازیابی پیشنهادی، داده‌های فعلی برنامه را با یک پشتیبان قدیمیِ تأییدشده جایگزین می‌کند.",
+          "when": "این صفحه را فقط هنگام بررسی یک برنامه بازیابی کامل و پس از تأیید وجود پشتیبان مناسب و برنامه مشخص بازیابی باز کنید.",
+          "how": "Factory Reset را باز کنید و هشدار را بخوانید. صفحه کنترل Open Secure Reset را ارائه می‌دهد. در سورس R43، کنترل‌های تبدیل پشتیبان، Snapshot اضطراری و بازیابی نهایی به Handler اجرایی متصل نیستند؛ بنابراین این صفحه را فرایند بازیابی قابل اجرا فرض نکنید.",
+          "inputs": "برای بازکردن صفحه اطلاعاتی ورودی لازم نیست. کنترل‌های بازیابی در پنجره بعدی در این Build عملیاتی نیستند.",
+          "result": "صفحه هشدار Factory Reset نمایش داده می‌شود. بازکردن آن پشتیبان را تبدیل نمی‌کند، Snapshot اضطراری دانلود نمی‌کند و داده‌های برنامه را Reset نمی‌کند.",
+          "notes": "خطر بالا: گردش‌کار موردنظر جایگزینی داده‌های فعلی IndexedDB با پشتیبان قدیمی تأییدشده را توصیف می‌کند. اما پیاده‌سازی R43 کامل نیست: عملیات تبدیل، Snapshot اضطراری و بازیابی نهایی Handler اجرایی ندارند. برای بازیابی به این صفحه اتکا نکنید و Reset را امتحان نکنید."
+        },
+        "ps": {
+          "purpose": "د Factory Reset د معلوماتو پاڼه پرانیزي، چې خبرداری ورکوي وړاندیز شوې د بېرته راګرځولو پروسه به د اپلېکېشن اوسني معلومات په یوه تایید شوي زاړه شاتړ بدل کړي.",
+          "when": "دا پاڼه یوازې هغه وخت پرانیزئ چې د بشپړې بېرته راګرځونې پلان ارزوی او ډاډه شوي یاست چې مناسب شاتړ او د بېرته راګرځونې پلان شته.",
+          "how": "Factory Reset پرانیزئ او خبرداری ولولئ. پاڼه د Open Secure Reset کنټرول لري. په دې R43 سرچینې Build کې د شاتړ بدلولو، بیړني Snapshot او وروستي Restore کنټرولونه له فعالو Handlerونو سره نه دي تړل شوي؛ نو پاڼه د عملي بېرته راګرځونې پروسه مه ګڼئ.",
+          "inputs": "د معلوماتو د پاڼې د پرانیستلو لپاره هېڅ معلوماتو ته اړتیا نشته. په راتلونکې کړکۍ کې د بېرته راګرځونې ښودل شوي کنټرولونه په دې Build کې فعال نه دي.",
+          "result": "د Factory Reset د خبرداري پاڼه ښکاره کېږي. د دې پاڼې پرانیستل شاتړ نه بدلوي، بیړنی Snapshot نه ښکته کوي او د اپلېکېشن معلومات نه Reset کوي.",
+          "notes": "لوړ خطر: موخه لرونکی بهیر د اوسني IndexedDB معلوماتو بدلول په یوه تایید شوي زاړه شاتړ بیانوي. خو د R43 پلي کول نیمګړي دي: د بدلولو، بیړني Snapshot او وروستي Restore لپاره فعال Event Handlerونه نشته. د بېرته راګرځولو لپاره پر دې پرده تکیه مه کوئ او د Reset هڅه مه کوئ."
         }
       },
       "handler_or_behavior": "`show(`"
