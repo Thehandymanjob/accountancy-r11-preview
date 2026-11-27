@@ -5568,6 +5568,78 @@
           "inputs": "فیلدهای پروفایل طبق فرم؛ تصویر لوگو اختیاری است و باید با شرایط فایل قابل قبول برنامه سازگار باشد.",
           "result": "در صورت موفقیت، مشخصات پروفایل و لوگوی اختیاری ذخیره می‌شوند و ممکن است در اسناد پشتیبانی‌شده استفاده شوند.",
           "notes": "پیش از ذخیره، املای نام، اطلاعات تماس و لوگو را بررسی کنید. ذخیره پروفایل اسناد صادرشده قبلی را خودکار تغییر نمی‌دهد. یک نسخه جداگانه از فایل لوگو نگه دارید."
+        },
+        "ar": {
+          "purpose": "يفتح إعدادات ملف النشاط التجاري وشعاره.",
+          "when": "استخدم هذا الخيار عند إعداد بيانات النشاط التجاري أو تحديثها والشعار المستخدم في مستندات التطبيق المدعومة.",
+          "how": "افتح Profile & Logo، وراجع البيانات الحالية، وأدخل معلومات النشاط التجاري. أضف الشعار أو غيّره عند الحاجة، ثم اختر Save Profile وتحقق من رسالة الحفظ.",
+          "inputs": "حقول ملف النشاط التجاري المطلوبة في النموذج؛ صورة الشعار اختيارية ويجب أن تستوفي متطلبات الملفات المقبولة في التطبيق.",
+          "result": "تُحفظ بيانات الملف الشخصي والشعار الاختياري عند نجاح العملية، وقد يُستخدمان في المستندات المدعومة.",
+          "notes": "تحقق من الإملاء وبيانات الاتصال والشعار قبل الحفظ. لا يؤدي حفظ الملف الشخصي إلى تغيير المستندات الصادرة سابقاً تلقائياً. احتفظ بنسخة منفصلة من ملف الشعار."
+        },
+        "ckb": {
+          "purpose": "ڕێکخستنەکانی پرۆفایلی بازرگانی و لۆگۆ دەکاتەوە.",
+          "when": "کاتێک پرۆفایلی بازرگانی و لۆگۆی بەکارهاتوو لە بەڵگەنامە پشتگیریکراوەکانی بەرنامە ئامادە دەکەیت یان نوێی دەکەیتەوە، ئەم هەڵبژاردەیە بەکاربهێنە.",
+          "how": "Profile & Logo بکەرەوە، زانیارییە هەنووکەییەکان بپشکنە و زانیارییەکانی بازرگانی بنووسە. ئەگەر پێویست بوو لۆگۆ زیاد بکە یان بیگۆڕە، پاشان Save Profile هەڵبژێرە و پشتڕاستکردنەوەی پاشەکەوتکردن بپشکنە.",
+          "inputs": "خانەکانی پرۆفایلی بازرگانی کە فۆڕمەکە داوایان دەکات؛ وێنەی لۆگۆ ئارەزوومەندانەیە و دەبێت مەرجەکانی فایلی قبوڵکراوی بەرنامە پڕ بکاتەوە.",
+          "result": "ئەگەر کردارەکە سەرکەوتوو بێت، زانیارییەکانی پرۆفایل و لۆگۆی ئارەزوومەندانە پاشەکەوت دەکرێن و لەوانەیە لە بەڵگەنامە پشتگیریکراوەکاندا بەکاربهێنرێن.",
+          "notes": "پێش پاشەکەوتکردن ڕێنووس، زانیاری پەیوەندی و لۆگۆ بپشکنە. پاشەکەوتکردنی پرۆفایل بە شێوەیەکی خۆکار بەڵگەنامە پێشتر دەرکراوەکان ناگۆڕێت. کۆپییەکی جیاوازی فایلەکەی لۆگۆ هەڵبگرە."
+        },
+        "kmr": {
+          "purpose": "Mîhengên profîla karsaziyê û logoyê vedike.",
+          "when": "Dema ku agahiyên karsaziyê û logoya ku di belgeyên sepanê yên piştgirîkirî de tê bikaranîn saz dike an nû dike, vê bikar bîne.",
+          "how": "Profile & Logo veke, agahiyên heyî binêre û agahiyên karsaziyê têxe. Heke pêwîst be logo zêde bike an biguherîne, paşê Save Profile hilbijêre û peyama tomarkirinê kontrol bike.",
+          "inputs": "Qadên profîla karsaziyê yên ku formê dixwaze; wêneyê logo vebijarkî ye û divê şertên pelên ku sepan qebûl dike bicîh bîne.",
+          "result": "Ger operasyon serkeftî be, agahiyên profîlê û logoya vebijarkî têne tomarkirin û dibe ku di belgeyên piştgirîkirî de bên bikaranîn.",
+          "notes": "Berî tomarkirinê rastnivîs, agahiyên têkilî û logo kontrol bike. Tomarkirina profîlê belgeyên ku berê hatine derxistin bixweber naguherîne. Kopiyeke cuda ya pelê logo biparêze."
+        },
+        "tr": {
+          "purpose": "İşletme profili ve logo ayarlarını açar.",
+          "when": "İşletme bilgilerini ve uygulamanın desteklediği belgelerde kullanılan logoyu oluştururken veya güncellerken bu seçeneği kullanın.",
+          "how": "Profile & Logo bölümünü açın, mevcut bilgileri inceleyin ve işletme bilgilerini girin. Gerekirse logoyu ekleyin veya değiştirin; ardından Save Profile seçeneğini belirleyin ve kayıt onayını kontrol edin.",
+          "inputs": "Formun istediği işletme profili alanları; logo görseli isteğe bağlıdır ve uygulamanın kabul ettiği dosya koşullarına uymalıdır.",
+          "result": "İşlem başarılı olursa profil bilgileri ve isteğe bağlı logo kaydedilir; desteklenen belgelerde kullanılabilir.",
+          "notes": "Kaydetmeden önce yazımı, iletişim bilgilerini ve logoyu kontrol edin. Profili kaydetmek daha önce düzenlenmiş belgeleri otomatik olarak değiştirmez. Logo dosyasının ayrı bir kopyasını saklayın."
+        },
+        "pl": {
+          "purpose": "Otwiera ustawienia profilu firmy i logo.",
+          "when": "Użyj tej opcji podczas konfigurowania lub aktualizowania danych firmy oraz logo używanego w obsługiwanych dokumentach aplikacji.",
+          "how": "Otwórz Profile & Logo, sprawdź istniejące dane i wprowadź informacje o firmie. W razie potrzeby dodaj lub zmień logo, a następnie wybierz Save Profile i sprawdź potwierdzenie zapisu.",
+          "inputs": "Pola profilu firmy wymagane przez formularz; obraz logo jest opcjonalny i musi spełniać wymagania dotyczące akceptowanych plików.",
+          "result": "Jeśli operacja się powiedzie, dane profilu i opcjonalne logo zostaną zapisane i mogą być używane w obsługiwanych dokumentach.",
+          "notes": "Przed zapisaniem sprawdź pisownię, dane kontaktowe i logo. Zapisanie profilu nie zmienia automatycznie wcześniej wystawionych dokumentów. Zachowaj osobną kopię pliku logo."
+        },
+        "ur": {
+          "purpose": "کاروباری پروفائل اور لوگو کی ترتیبات کھولتا ہے۔",
+          "when": "کاروبار کی تفصیلات اور ایپ کی معاونت یافتہ دستاویزات میں استعمال ہونے والے لوگو کو ترتیب دینے یا اپ ڈیٹ کرنے کے لیے یہ اختیار استعمال کریں۔",
+          "how": "Profile & Logo کھولیں، موجودہ تفصیلات دیکھیں اور کاروباری معلومات درج کریں۔ ضرورت ہو تو لوگو شامل یا تبدیل کریں، پھر Save Profile منتخب کریں اور محفوظ ہونے کی تصدیق دیکھیں۔",
+          "inputs": "فارم کے مطلوبہ کاروباری پروفائل فیلڈز؛ لوگو کی تصویر اختیاری ہے اور اسے ایپ کی منظور شدہ فائل شرائط پوری کرنا ہوں گی۔",
+          "result": "اگر کارروائی کامیاب ہو تو پروفائل کی تفصیلات اور اختیاری لوگو محفوظ ہو جاتے ہیں اور معاونت یافتہ دستاویزات میں استعمال ہو سکتے ہیں۔",
+          "notes": "محفوظ کرنے سے پہلے املا، رابطے کی تفصیلات اور لوگو چیک کریں۔ پروفائل محفوظ کرنے سے پہلے جاری کردہ دستاویزات خود بخود تبدیل نہیں ہوتیں۔ لوگو فائل کی الگ نقل محفوظ رکھیں۔"
+        },
+        "pa": {
+          "purpose": "ਕਾਰੋਬਾਰੀ ਪ੍ਰੋਫਾਈਲ ਅਤੇ ਲੋਗੋ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਕਾਰੋਬਾਰ ਦੀ ਜਾਣਕਾਰੀ ਅਤੇ ਐਪ ਦੇ ਸਮਰਥਿਤ ਦਸਤਾਵੇਜ਼ਾਂ ਵਿੱਚ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਲੋਗੋ ਨੂੰ ਸੈੱਟ ਜਾਂ ਅੱਪਡੇਟ ਕਰਦੇ ਸਮੇਂ ਇਹ ਵਿਕਲਪ ਵਰਤੋ।",
+          "how": "Profile & Logo ਖੋਲ੍ਹੋ, ਮੌਜੂਦਾ ਵੇਰਵੇ ਵੇਖੋ ਅਤੇ ਕਾਰੋਬਾਰ ਦੀ ਜਾਣਕਾਰੀ ਭਰੋ। ਲੋੜ ਹੋਵੇ ਤਾਂ ਲੋਗੋ ਜੋੜੋ ਜਾਂ ਬਦਲੋ, ਫਿਰ Save Profile ਚੁਣੋ ਅਤੇ ਸੇਵ ਹੋਣ ਦੀ ਪੁਸ਼ਟੀ ਵੇਖੋ।",
+          "inputs": "ਫਾਰਮ ਵੱਲੋਂ ਮੰਗੇ ਗਏ ਕਾਰੋਬਾਰੀ ਪ੍ਰੋਫਾਈਲ ਖੇਤਰ; ਲੋਗੋ ਦੀ ਤਸਵੀਰ ਵਿਕਲਪਿਕ ਹੈ ਅਤੇ ਐਪ ਵੱਲੋਂ ਮਨਜ਼ੂਰ ਫਾਈਲ ਦੀਆਂ ਸ਼ਰਤਾਂ ਪੂਰੀਆਂ ਕਰਨੀ ਚਾਹੀਦੀਆਂ ਹਨ।",
+          "result": "ਕਾਰਵਾਈ ਸਫਲ ਹੋਣ 'ਤੇ ਪ੍ਰੋਫਾਈਲ ਵੇਰਵੇ ਅਤੇ ਵਿਕਲਪਿਕ ਲੋਗੋ ਸੇਵ ਹੋ ਜਾਂਦੇ ਹਨ ਅਤੇ ਸਮਰਥਿਤ ਦਸਤਾਵੇਜ਼ਾਂ ਵਿੱਚ ਵਰਤੇ ਜਾ ਸਕਦੇ ਹਨ।",
+          "notes": "ਸੇਵ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਸ਼ਬਦ-ਜੋੜ, ਸੰਪਰਕ ਵੇਰਵੇ ਅਤੇ ਲੋਗੋ ਜਾਂਚੋ। ਪ੍ਰੋਫਾਈਲ ਸੇਵ ਕਰਨ ਨਾਲ ਪਹਿਲਾਂ ਜਾਰੀ ਕੀਤੇ ਦਸਤਾਵੇਜ਼ ਆਪਣੇ ਆਪ ਨਹੀਂ ਬਦਲਦੇ। ਲੋਗੋ ਫਾਈਲ ਦੀ ਵੱਖਰੀ ਕਾਪੀ ਰੱਖੋ।"
+        },
+        "prs": {
+          "purpose": "تنظیمات پروفایل کسب‌وکار و لوگو را باز می‌کند.",
+          "when": "هنگام تنظیم یا به‌روزرسانی مشخصات کسب‌وکار و لوگویی که در اسناد پشتیبانی‌شده برنامه استفاده می‌شود، از این گزینه استفاده کنید.",
+          "how": "Profile & Logo را باز کنید، اطلاعات موجود را بررسی و مشخصات کسب‌وکار را وارد کنید. در صورت نیاز لوگو را اضافه یا عوض کنید؛ سپس Save Profile را انتخاب کنید و پیام تأیید ذخیره را بررسی کنید.",
+          "inputs": "فیلدهای پروفایل کسب‌وکار که فرم درخواست می‌کند؛ تصویر لوگو اختیاری است و باید شرایط فایل‌های پذیرفته‌شده برنامه را داشته باشد.",
+          "result": "اگر عملیات موفق باشد، مشخصات پروفایل و لوگوی اختیاری ذخیره می‌شوند و ممکن است در اسناد پشتیبانی‌شده استفاده شوند.",
+          "notes": "پیش از ذخیره، املای نام، اطلاعات تماس و لوگو را بررسی کنید. ذخیره پروفایل اسنادی را که قبلاً صادر شده‌اند خودکار تغییر نمی‌دهد. یک نسخه جداگانه از فایل لوگو نگه دارید."
+        },
+        "ps": {
+          "purpose": "د سوداګرۍ د پروفایل او لوګو امستنې پرانیزي.",
+          "when": "دا هغه وخت وکاروئ چې د سوداګرۍ معلومات او هغه لوګو جوړوئ یا نوي کوئ چې د اپلېکېشن په ملاتړ شويو اسنادو کې کارېږي.",
+          "how": "Profile & Logo پرانیزئ، اوسني معلومات وګورئ او د سوداګرۍ جزئیات ولیکئ. که اړتیا وي لوګو ورزیات یا بدل کړئ، بیا Save Profile وټاکئ او د خوندي کېدو پیغام وګورئ.",
+          "inputs": "د سوداګرۍ د پروفایل هغه برخې چې فورمه یې غواړي؛ د لوګو انځور اختیاري دی او باید د اپلېکېشن د منل شويو فایلونو شرایط پوره کړي.",
+          "result": "که عملیات بریالي شي، د پروفایل معلومات او اختیاري لوګو خوندي کېږي او په ملاتړ شويو اسنادو کې کارېدلی شي.",
+          "notes": "له خوندي کولو مخکې املا، د اړیکې معلومات او لوګو وګورئ. د پروفایل خوندي کول مخکې صادر شوي اسناد په خپله نه بدلوي. د لوګو د فایل جلا کاپي وساتئ."
         }
       },
       "handler_or_behavior": "`show(`"
