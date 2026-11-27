@@ -31,7 +31,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
       "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "83e0e856f295acfb906fedab0874ea8465b2b5aa",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "f10e56b60a0831b75635a5de09d9decfdcf4f5b3",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9ef673fdf28c3fa42d4946263e48a76ef1bae22d",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7"
     }
   },
@@ -2022,19 +2022,19 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "32753c146a155a22645943be4d96ad5e79a4585d",
+      "previewDevelopmentCommitSha": "1b37ac2dd1b66849f77ddef56be1f6a35d6f7dcd",
       "previewPullRequestNumber": 96,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "PASS",
-        "runId": 46052609762,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46052609762",
-        "details": "R11 Version Authority Gate passed on the latest PR #96 head. Repository, protected target branch, approved baseline ancestry, R45 Build ID, embedded canonical URL, index blob SHA and all 22 pinned runtime assets matched. Two earlier runs correctly blocked on stale manifest identity and stale embedded canonical URL; both were corrected before this passing run."
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "A further defense-in-depth change was added after the R45 Gate PASS: the destructive reset helper is no longer exported on window and independently asserts the isolated Preview database. The reset-runtime SHA pin has been updated; rerun the Gate on the new PR head before considering this build verified."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
-        "details": "R11 Version Authority Gate passed all 22 pinned runtime assets. V8 syntax compilation passed for the complete reset runtime. Static source checks confirm exact Preview DB identity, 17-domain backup verification, independent converted-file validation, SHA-256 re-selection of saved emergency snapshot, fail-closed final gate and recovery-lock retry. No live browser execution, failure-injection test or destructive reset was performed."
+        "details": "R11 Version Authority Gate passed all 22 pinned runtime assets. V8 syntax compilation passed for the complete reset runtime. Static source checks confirm exact Preview DB identity, 17-domain backup verification, independent converted-file validation, SHA-256 re-selection of saved emergency snapshot, fail-closed final gate and recovery-lock retry. No live browser execution, failure-injection test or destructive reset was performed. Additional defense-in-depth: the destructive reset helper is no longer exposed on the global HandymanV273LegacyReset object and enforces the Preview database identity internally as well as at the final UI gate."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
