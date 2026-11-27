@@ -11405,7 +11405,7 @@
       "audit_ref": "INV-134",
       "element_id": null,
       "label": "Record Payment",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Records a payment actually received for the selected company job, including gross amount, deductions and net amount.",
@@ -11503,7 +11503,7 @@
       "audit_ref": "INV-136",
       "element_id": null,
       "label": "Confirm payment",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Confirms payment of an issued invoice, marks it as paid and creates or updates the linked income record in Accountancy.",
@@ -11601,7 +11601,7 @@
       "audit_ref": "INV-137",
       "element_id": null,
       "label": "‹ Previous",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Moves the current paginated list to the immediately preceding page.",
@@ -11699,7 +11699,7 @@
       "audit_ref": "INV-138",
       "element_id": null,
       "label": "${p}",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Navigates directly to a selected page number in the current paginated list.",
