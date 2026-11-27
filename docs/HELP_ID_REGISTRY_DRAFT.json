@@ -5748,20 +5748,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Clears the contents of the support contact form.",
-          "when": "Use this when you want to discard the current unsaved support message and start again.",
-          "how": "Select Clear Form and check that the fields have been emptied before entering a new message.",
+          "purpose": "Clears all current entries in the Contact Us form and resets its status message.",
+          "when": "Use this when you want to discard the message currently being prepared and start again.",
+          "how": "Select Clear Form. The form is reset and the status area displays Form cleared.",
           "inputs": "No input is required.",
-          "result": "The current form fields are cleared.",
-          "notes": "This action removes the current unsaved form text. It does not delete a previously saved support message or send anything. Copy any text you want to keep before clearing."
+          "result": "The name, email, subject and message fields are reset to their initial values, and the status text changes to Form cleared.",
+          "notes": "This only clears the current form. It does not delete support drafts previously saved in IndexedDB and does not send or withdraw a message. Copy any unsaved text you want to keep before clearing."
         },
         "fa": {
-          "purpose": "محتوای فرم تماس با پشتیبانی را پاک می‌کند.",
-          "when": "وقتی می‌خواهید متن ذخیره‌نشده فعلی را کنار بگذارید و پیام تازه‌ای بنویسید، از این گزینه استفاده کنید.",
-          "how": "Clear Form را انتخاب کنید و پیش از نوشتن پیام جدید بررسی کنید که فیلدها خالی شده باشند.",
+          "purpose": "تمام فیلدهای فعلی فرم Contact Us را پاک می‌کند و پیام وضعیت فرم را بازنشانی می‌کند.",
+          "when": "وقتی می‌خواهید پیام در حال نوشتن را کنار بگذارید و از ابتدا شروع کنید، از این گزینه استفاده کنید.",
+          "how": "Clear Form را انتخاب کنید. فرم بازنشانی می‌شود و در بخش وضعیت عبارت Form cleared نمایش داده می‌شود.",
           "inputs": "ورودی لازم نیست.",
-          "result": "فیلدهای فعلی فرم پاک می‌شوند.",
-          "notes": "این عملیات متن ذخیره‌نشده فرم را حذف می‌کند. پیام پشتیبانی که قبلاً ذخیره شده باشد حذف نمی‌شود و چیزی هم ارسال نمی‌شود. پیش از پاک‌کردن، متن موردنیاز را کپی کنید."
+          "result": "فیلدهای نام، ایمیل، موضوع و پیام به مقادیر اولیه بازمی‌گردند و متن وضعیت به Form cleared تغییر می‌کند.",
+          "notes": "این عمل فقط فرم فعلی را پاک می‌کند. پیش‌نویس‌های پشتیبانی که قبلاً در IndexedDB ذخیره شده‌اند حذف نمی‌شوند و هیچ پیامی ارسال یا لغو نمی‌شود. پیش از پاک‌کردن، متن ذخیره‌نشده موردنیاز را کپی کنید."
         }
       },
       "handler_or_behavior": "`resetHelpContactForm()`"
@@ -5774,20 +5774,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Checks whether a newer software version is available.",
-          "when": "Use this when you want to verify whether an update has been published for the app.",
-          "how": "Select Check for Updates and wait for the result. Compare the reported current and available build information before deciding whether to install.",
-          "inputs": "No form input is normally required. An internet connection may be needed.",
-          "result": "The app displays the update-check result and any available version information.",
-          "notes": "A check does not install an update. If no newer version is reported, do not assume a deployment is missing; verify the app page and build information. Back up important data before installing an update."
+          "purpose": "A Check for Updates button is displayed, but it is disabled in the inspected R43 test build.",
+          "when": "Do not use this control to check for a release in R43. The page itself states that software updates are disabled in this test build.",
+          "how": "The button is visibly disabled and has no active update-check action. Read the on-screen status message; do not expect a network check or version lookup from this control.",
+          "inputs": "No input can be submitted through the disabled button. The page's intended update check would require internet access when re-enabled in a future build.",
+          "result": "No update check is started and no available-version result is retrieved in the inspected R43 build.",
+          "notes": "This is a test-build limitation. It does not indicate whether a newer build exists on GitHub Pages. Verify release and deployment information separately; do not infer an update check from the button label."
         },
         "fa": {
-          "purpose": "بررسی می‌کند آیا نسخه نرم‌افزاری جدیدتری در دسترس است یا خیر.",
-          "when": "وقتی می‌خواهید مطمئن شوید نسخه جدیدتری برای برنامه منتشر شده است، از این گزینه استفاده کنید.",
-          "how": "Check for Updates را انتخاب کنید و منتظر نتیجه بمانید. اطلاعات نسخه و Build فعلی و نسخه موجود را پیش از تصمیم برای نصب مقایسه کنید.",
-          "inputs": "معمولاً ورودی فرمی لازم نیست. ممکن است اتصال اینترنت نیاز باشد.",
-          "result": "نتیجه بررسی به‌روزرسانی و اطلاعات نسخه موجود نمایش داده می‌شود.",
-          "notes": "بررسی به‌روزرسانی به‌معنی نصب آن نیست. اگر نسخه جدیدتری گزارش نشد، فوراً فرض نکنید انتشار انجام نشده است؛ صفحه برنامه و اطلاعات Build را بررسی کنید. پیش از نصب، از داده‌های مهم پشتیبان بگیرید."
+          "purpose": "دکمه Check for Updates نمایش داده می‌شود، اما در نسخه آزمایشی R43 که بررسی شد غیرفعال است.",
+          "when": "در R43 از این کنترل برای بررسی انتشار نسخه جدید استفاده نکنید. خود صفحه اعلام می‌کند که به‌روزرسانی نرم‌افزار در این نسخه آزمایشی غیرفعال است.",
+          "how": "دکمه به‌صورت غیرفعال نمایش داده می‌شود و عملیات فعال بررسی به‌روزرسانی ندارد. پیام وضعیت روی صفحه را بخوانید؛ از این کنترل انتظار بررسی شبکه‌ای یا دریافت اطلاعات نسخه نداشته باشید.",
+          "inputs": "از طریق دکمه غیرفعال ورودی‌ای ارسال نمی‌شود. بررسی موردنظر صفحه، در صورت فعال‌شدن در Build آینده، به اتصال اینترنت نیاز خواهد داشت.",
+          "result": "در Build بررسی‌شده R43 هیچ بررسی به‌روزرسانی آغاز نمی‌شود و اطلاعات نسخه موجود دریافت نمی‌شود.",
+          "notes": "این محدودیت مربوط به نسخه آزمایشی است و نشان نمی‌دهد که آیا نسخه جدیدتری در GitHub Pages وجود دارد یا خیر. اطلاعات انتشار و Deploy را جداگانه بررسی کنید؛ صرفاً از روی عنوان دکمه نتیجه نگیرید که بررسی انجام شده است."
         }
       },
       "handler_or_behavior": "`event/property listener`"
@@ -5800,20 +5800,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "The Update Now control is intended to reload the app through its update workflow, but it is disabled in the inspected R43 build.",
-          "when": "Use this guidance only after a future build enables the control and the update check identifies the intended release.",
-          "how": "In the inspected R43 source, Update Now is disabled and its referenced reloadLatestApp handler is not defined in the app HTML or the accompanying JavaScript files. Do not expect this control to start an update in this build.",
-          "inputs": "No input can be submitted through this disabled control in the inspected build.",
-          "result": "No app reload or version change is initiated by Update Now in the inspected R43 build.",
-          "notes": "This is a verified limitation of the inspected build, not a claim that an update is underway. Do not infer a successful update from the button label; verify the deployed Build ID after a future working update path is provided."
+          "purpose": "A disabled Update Now control is displayed for the intended software-update workflow, but the referenced reloadLatestApp() function is not defined in the inspected R43 source.",
+          "when": "Do not use this control in R43. Reassess it only after a future build implements and enables a verified update workflow.",
+          "how": "In R43, Update Now is disabled and marked aria-disabled=true. Its onclick refers to reloadLatestApp(), but that function is not defined in the inspected app source. Do not expect the button to reload or install an update.",
+          "inputs": "No input can be submitted through this disabled control.",
+          "result": "No reload, download or version change is initiated by this button in the inspected build.",
+          "notes": "The button label describes intended future functionality, not a working feature in R43. Verify the deployed Build ID and database after any future update path is implemented; do not assume a release was installed merely because this control is visible."
         },
         "fa": {
-          "purpose": "برنامه را از طریق گردش‌کار به‌روزرسانی با آخرین نسخه در دسترس دوباره بارگذاری می‌کند.",
-          "when": "فقط پس از آن از این گزینه استفاده کنید که بررسی به‌روزرسانی نسخه موردنظر را نشان داده و آماده انتقال به آن هستید.",
-          "how": "نسخه مقصد و وجود پشتیبان معتبر از اطلاعات مهم را تأیید کنید، سپس Update Now را بزنید. اجازه دهید فرایند بارگذاری/به‌روزرسانی کامل شود و بعد اطلاعات Build را بررسی کنید.",
-          "inputs": "معمولاً ورودی فرمی لازم نیست. برای دریافت فایل‌های جدید برنامه ممکن است اتصال اینترنت لازم باشد.",
-          "result": "در صورت موفقیت، برنامه با آخرین نسخه موجود در مسیر به‌روزرسانی پیکربندی‌شده دوباره بارگذاری می‌شود.",
-          "notes": "از این گزینه برای بازیابی یا Reset داده‌ها استفاده نکنید. فرایند بارگذاری را قطع نکنید. پس از پایان، نسخه برنامه، Build ID، پایگاه داده ذخیره‌سازی و سوابق اصلی را بررسی کنید. اگر Build نمایش‌داده‌شده تغییر نکرد، فرض نکنید به‌روزرسانی کامل شده است."
+          "purpose": "کنترل Update Now برای گردش‌کار به‌روزرسانی نمایش داده می‌شود، اما غیرفعال است و تابع reloadLatestApp() که در آن ارجاع شده، در سورس R43 بررسی‌شده تعریف نشده است.",
+          "when": "در R43 از این کنترل استفاده نکنید. فقط پس از آنکه در یک Build آینده گردش‌کار به‌روزرسانی پیاده‌سازی و فعال شد، دوباره آن را بررسی کنید.",
+          "how": "در R43 دکمه Update Now غیرفعال و دارای aria-disabled=true است. رویداد onclick آن به reloadLatestApp() ارجاع می‌دهد، اما این تابع در سورس برنامه بررسی‌شده تعریف نشده است. انتظار نداشته باشید دکمه برنامه را بارگذاری مجدد یا به‌روزرسانی کند.",
+          "inputs": "از طریق این کنترل غیرفعال ورودی‌ای ارسال نمی‌شود.",
+          "result": "این دکمه در Build بررسی‌شده هیچ بارگذاری مجدد، دانلود یا تغییری در نسخه آغاز نمی‌کند.",
+          "notes": "عنوان دکمه عملکرد موردنظر برای آینده را نشان می‌دهد، نه قابلیتی فعال در R43. پس از پیاده‌سازی هر مسیر به‌روزرسانی در آینده، Build ID و پایگاه داده مستقرشده را بررسی کنید؛ صرفاً به‌دلیل قابل مشاهده بودن این کنترل فرض نکنید نسخه‌ای نصب شده است."
         }
       },
       "handler_or_behavior": "`reloadLatestApp()`"
@@ -5826,20 +5826,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the Business Workspace for project management, company contracts and shared business controls.",
-          "when": "Use this when managing project costs and records, company jobs or shared business people and settings.",
-          "how": "Select Business Workspace from the main menu and wait for its data to load. Choose the required workspace from its navigation.",
-          "inputs": "No information is required just to open the workspace.",
-          "result": "The Business Workspace opens and makes its available work areas accessible.",
-          "notes": "This workspace is separate from the Accountancy area. Project and company-job figures should not be assumed to be accounting transactions unless separately recorded in Accountancy."
+          "purpose": "Opens the Business Workspace, the separate area for managing independent projects, company contracts and jobs, and shared business controls.",
+          "when": "Use this when you need to work with project records, company jobs or shared business directories rather than general accounting transactions.",
+          "how": "Select Business Workspace from the main launcher. The app loads the Projects workspace data and opens the Business Workspace landing page. Choose Projects, Company Contracts & Jobs or Control Panel.",
+          "inputs": "No input is required to open the workspace. The app must be able to load its Projects data from IndexedDB.",
+          "result": "The Business Workspace landing page opens with three available areas: Projects, Company Contracts & Jobs, and Control Panel.",
+          "notes": "This area is separate from Accountancy. Project and company-job financial records are stored in the Projects domain and are not automatically transferred to or combined with Accounting. If IndexedDB is unavailable, the workspace does not open and an error is displayed."
         },
         "fa": {
-          "purpose": "فضای کاری کسب‌وکار را برای مدیریت پروژه‌ها، قراردادهای شرکتی و کنترل‌های مشترک کسب‌وکار باز می‌کند.",
-          "when": "برای مدیریت هزینه و سوابق پروژه، کارهای شرکتی یا افراد و تنظیمات مشترک کسب‌وکار از این گزینه استفاده کنید.",
-          "how": "از منوی اصلی Business Workspace را انتخاب کنید و منتظر بارگذاری داده‌ها بمانید. سپس بخش موردنیاز را از منوی داخلی انتخاب کنید.",
-          "inputs": "برای صرفاً بازکردن فضای کاری اطلاعاتی لازم نیست.",
-          "result": "فضای کاری کسب‌وکار باز می‌شود و بخش‌های در دسترس آن را نمایش می‌دهد.",
-          "notes": "این فضا از بخش Accountancy جدا است. ارقام پروژه و کارهای شرکتی را نباید خودکار تراکنش حسابداری فرض کرد، مگر اینکه جداگانه در Accountancy ثبت شده باشند."
+          "purpose": "فضای کاری Business Workspace را باز می‌کند؛ بخشی جداگانه برای مدیریت پروژه‌های مستقل، قراردادها و کارهای شرکتی و کنترل‌های مشترک کسب‌وکار.",
+          "when": "برای کار با سوابق پروژه، کارهای شرکتی یا فهرست‌های مشترک کسب‌وکار، به‌جای تراکنش‌های عمومی حسابداری، از این بخش استفاده کنید.",
+          "how": "از صفحه اصلی Business Workspace را انتخاب کنید. برنامه داده‌های فضای کاری Projects را بارگذاری می‌کند و صفحه اصلی Business Workspace را باز می‌کند. سپس Projects، Company Contracts & Jobs یا Control Panel را انتخاب کنید.",
+          "inputs": "برای بازکردن فضای کاری ورودی لازم نیست. برنامه باید بتواند داده‌های Projects را از IndexedDB بارگذاری کند.",
+          "result": "صفحه اصلی Business Workspace با سه بخش Projects، Company Contracts & Jobs و Control Panel باز می‌شود.",
+          "notes": "این بخش از Accountancy جدا است. سوابق مالی پروژه و کارهای شرکتی در دامنه Projects ذخیره می‌شوند و خودکار به Accounting منتقل یا با آن ادغام نمی‌شوند. اگر IndexedDB در دسترس نباشد، فضای کاری باز نمی‌شود و پیام خطا نمایش داده می‌شود."
         }
       },
       "handler_or_behavior": "`prPage(`"
@@ -5852,20 +5852,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the Projects area for creating and managing individual work projects.",
-          "when": "Use this when you want to track the agreed value, costs, income, expenses and profitability of a particular job.",
-          "how": "Select Projects, then choose the relevant project action such as creating a project or opening an existing one.",
-          "inputs": "Project details depend on the action selected; a new project normally needs a name and other required job details.",
-          "result": "The Projects workspace displays its project tools and saved project records.",
-          "notes": "Project records are separate from general Accountancy records. Keep project costs and payments accurate and avoid entering the same transaction twice in separate systems unless the workflow requires it."
+          "purpose": "Opens the Projects hub inside Business Workspace, where you can create a new independent project or open the saved project list.",
+          "when": "Use this when you want to create or manage a particular project and review its project-specific financial records.",
+          "how": "From Business Workspace, select Projects. Choose New Project to start a project record, or Projects List to search, open and manage existing projects.",
+          "inputs": "No input is required to open the Projects hub. Creating or editing a project requires the fields shown on the relevant project form; the project name is required for a new project.",
+          "result": "The Projects hub displays New Project and Projects List. It also states that project income, expenses and profit/loss are recorded only in Projects and are not transferred to or combined with Accounting.",
+          "notes": "Projects are independent of general Accountancy records. Keep project financial records in the Projects area and avoid assuming that a project entry also creates an accounting transaction. Use the separate Accountancy area when an accounting record is required."
         },
         "fa": {
-          "purpose": "بخش Projects را برای ایجاد و مدیریت پروژه‌های کاری جداگانه باز می‌کند.",
-          "when": "وقتی می‌خواهید ارزش توافق‌شده، هزینه‌ها، درآمد، مخارج و سودآوری یک کار مشخص را پیگیری کنید، از این گزینه استفاده کنید.",
-          "how": "Projects را انتخاب کنید و سپس عملیات موردنظر، مانند ایجاد پروژه یا بازکردن پروژه موجود، را انتخاب کنید.",
-          "inputs": "اطلاعات لازم به عملیات انتخاب‌شده بستگی دارد؛ پروژه جدید معمولاً به نام و سایر جزئیات اجباری کار نیاز دارد.",
-          "result": "ابزارهای پروژه و سوابق ذخیره‌شده در فضای Projects نمایش داده می‌شوند.",
-          "notes": "سوابق پروژه از سوابق عمومی Accountancy جدا هستند. هزینه‌ها و پرداخت‌های پروژه را دقیق نگه دارید و از ثبت دوباره یک تراکنش در دو سیستم خودداری کنید، مگر اینکه گردش‌کار چنین چیزی بخواهد."
+          "purpose": "مرکز Projects را در Business Workspace باز می‌کند؛ جایی که می‌توانید پروژه مستقل جدید ایجاد کنید یا فهرست پروژه‌های ذخیره‌شده را باز کنید.",
+          "when": "وقتی می‌خواهید پروژه مشخصی ایجاد یا مدیریت کنید و سوابق مالی مربوط به همان پروژه را بررسی کنید، از این بخش استفاده کنید.",
+          "how": "از Business Workspace، گزینه Projects را انتخاب کنید. برای شروع ثبت پروژه، New Project و برای جست‌وجو، بازکردن و مدیریت پروژه‌های موجود، Projects List را انتخاب کنید.",
+          "inputs": "برای بازکردن مرکز Projects ورودی لازم نیست. ایجاد یا ویرایش پروژه به فیلدهای فرم مربوط نیاز دارد؛ برای پروژه جدید واردکردن نام پروژه الزامی است.",
+          "result": "مرکز Projects گزینه‌های New Project و Projects List را نمایش می‌دهد. همچنین اعلام می‌کند که درآمد، هزینه و سود/زیان پروژه فقط در Projects ثبت می‌شوند و به Accounting منتقل یا با آن ادغام نمی‌شوند.",
+          "notes": "سوابق Projects مستقل از سوابق عمومی Accountancy هستند. اطلاعات مالی پروژه را در بخش Projects نگه دارید و فرض نکنید ثبت یک مورد در پروژه، تراکنش حسابداری هم ایجاد می‌کند. هر زمان به سابقه حسابداری نیاز دارید، از بخش جداگانه Accountancy استفاده کنید."
         }
       },
       "handler_or_behavior": "`prPage(`"
