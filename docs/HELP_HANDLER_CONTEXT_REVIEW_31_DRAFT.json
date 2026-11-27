@@ -1,0 +1,942 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-11-27",
+  "status": "DRAFT_TRIAGE_ONLY_NOT_RUNTIME_VERIFIED",
+  "repository": "Thehandymanjob/accountancy-r11-preview",
+  "branch": "development",
+  "authority_check": {
+    "version_authority_file": "VERSION-AUTHORITY.json",
+    "authorized_build_id": "THA-273-R11-PREVIEW-20261127-R45",
+    "source_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+    "source_blob_sha": "e58a0c7895cf639c36e69c28696ebfd3bd262bef",
+    "source_build_id_in_html": "THA-273-R11-PREVIEW-20261127-R45",
+    "mapping_runtime_blob_sha": "e58a0c7895cf639c36e69c28696ebfd3bd262bef",
+    "source_matches_mapping_baseline": true,
+    "inventory_path": "docs/HELP_BUTTON_INVENTORY_FA.md",
+    "inventory_blob_sha": "66ec0eb0037748956ba06e9a0867fefa5407ca1b",
+    "mapping_inventory_blob_sha": "66ec0eb0037748956ba06e9a0867fefa5407ca1b",
+    "inventory_file_matches_mapping_hash": true,
+    "inventory_declared_build": "THA-273-R11-PREVIEW-20261126-R43",
+    "inventory_declared_index_blob_sha": "104766171ee9ad519ec8be36126f04f0dde24a5c",
+    "inventory_is_stale_against_authority": true
+  },
+  "summary": {
+    "total_rows": 31,
+    "group_counts": {
+      "DUPLICATE_NAVIGATION_TARGET": 8,
+      "SAME_LABEL_DIFFERENT_FORM": 4,
+      "REPEATED_REPORT_CONTROL": 7,
+      "LABEL_OR_INVENTORY_MISMATCH": 2,
+      "DYNAMIC_TEMPLATE_OR_ROW_ACTION": 8,
+      "SINGLE_CONTROL_NEEDS_PARENT_SCOPE": 2
+    },
+    "selector_assignments_made": 0,
+    "help_ids_attached": 0,
+    "browser_tests_run": 0
+  },
+  "records": [
+    {
+      "help_id": "THA-HLP-0015",
+      "audit_ref": "INV-017",
+      "visible_label": "🏠 Dashboard",
+      "handler": "show(",
+      "handler_name": "show",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "show('home')",
+          "text": "▦ Dashboard Financial overview and balances ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-blue",
+          "score": 1
+        },
+        {
+          "onclick": "show('home')",
+          "text": "🏠 Dashboard",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "DUPLICATE_NAVIGATION_TARGET",
+      "review_finding": "The same destination is exposed by more than one navigation/card element. Treat as a shared help topic only if the guide content is identical; map all intended controls using a stable parent scope or explicit data-help-id rather than selecting one arbitrary match.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0016",
+      "audit_ref": "INV-018",
+      "visible_label": "＋ Add Entry",
+      "handler": "show(",
+      "handler_name": "show",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "show('entry')",
+          "text": "＋ Add Entry Record income or expenses ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-teal",
+          "score": 1
+        },
+        {
+          "onclick": "show('entry')",
+          "text": "＋ Add Entry",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "DUPLICATE_NAVIGATION_TARGET",
+      "review_finding": "The same destination is exposed by more than one navigation/card element. Treat as a shared help topic only if the guide content is identical; map all intended controls using a stable parent scope or explicit data-help-id rather than selecting one arbitrary match.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0017",
+      "audit_ref": "INV-019",
+      "visible_label": "📋 Records",
+      "handler": "show(",
+      "handler_name": "show",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "show('records')",
+          "text": "▤ Records Find and manage transactions ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-violet",
+          "score": 1
+        },
+        {
+          "onclick": "show('records')",
+          "text": "📋 Records",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "show(&quot;records&quot;)",
+          "text": "Back to Records",
+          "id": null,
+          "class_name": "gold",
+          "score": 1
+        }
+      ],
+      "review_group": "DUPLICATE_NAVIGATION_TARGET",
+      "review_finding": "The same destination is exposed by more than one navigation/card element. Treat as a shared help topic only if the guide content is identical; map all intended controls using a stable parent scope or explicit data-help-id rather than selecting one arbitrary match.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0018",
+      "audit_ref": "INV-020",
+      "visible_label": "🧾 Invoices",
+      "handler": "show(",
+      "handler_name": "show",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "show('invoices')",
+          "text": "▧ Invoices Create and review invoices ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-amber",
+          "score": 1
+        },
+        {
+          "onclick": "show('invoices')",
+          "text": "🧾 Invoices",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')",
+          "text": "Back to invoices",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "DUPLICATE_NAVIGATION_TARGET",
+      "review_finding": "The same destination is exposed by more than one navigation/card element. Treat as a shared help topic only if the guide content is identical; map all intended controls using a stable parent scope or explicit data-help-id rather than selecting one arbitrary match.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0019",
+      "audit_ref": "INV-021",
+      "visible_label": "👥 Customers",
+      "handler": "show(",
+      "handler_name": "show",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "show('customers')",
+          "text": "♙ Customers Customer details and contacts ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-green",
+          "score": 1
+        },
+        {
+          "onclick": "show('customers')",
+          "text": "👥 Customers",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "DUPLICATE_NAVIGATION_TARGET",
+      "review_finding": "The same destination is exposed by more than one navigation/card element. Treat as a shared help topic only if the guide content is identical; map all intended controls using a stable parent scope or explicit data-help-id rather than selecting one arbitrary match.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0020",
+      "audit_ref": "INV-022",
+      "visible_label": "🖨️ Reports",
+      "handler": "show(",
+      "handler_name": "show",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "show('report')",
+          "text": "▥ Reports & Tax Tax periods, archive and notifications ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-navy",
+          "score": 1
+        },
+        {
+          "onclick": "show('report')",
+          "text": "🖨️ Reports",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "DUPLICATE_NAVIGATION_TARGET",
+      "review_finding": "The same destination is exposed by more than one navigation/card element. Treat as a shared help topic only if the guide content is identical; map all intended controls using a stable parent scope or explicit data-help-id rather than selecting one arbitrary match.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0024",
+      "audit_ref": "INV-027",
+      "visible_label": "📷 Take a Photo",
+      "handler": "document.getElementById(",
+      "handler_name": "getElementById",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "document.getElementById('entryReceiptGallery').click()",
+          "text": "📷 Take a Photo",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "document.getElementById('prReceiptGallery').click()",
+          "text": "📷 Take a Photo",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "SAME_LABEL_DIFFERENT_FORM",
+      "review_finding": "The visible action label is reused in separate forms or entity types. Resolve against the owning form/container; do not use a global text selector.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0040",
+      "audit_ref": "INV-048",
+      "visible_label": "Confirm records complete",
+      "handler": "report188ConfirmComplete()",
+      "handler_name": "report188ConfirmComplete",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "report188ConfirmComplete()",
+          "text": "Confirm records complete",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "report188ConfirmComplete()",
+          "text": "Confirm records complete for selected period",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "REPEATED_REPORT_CONTROL",
+      "review_finding": "The same report action appears in multiple report panels or contexts. Confirm whether the same guide topic applies to each occurrence; use report-container scoping or shared data-help-id.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0041",
+      "audit_ref": "INV-049",
+      "visible_label": "Check reminders now",
+      "handler": "report188CheckDue()",
+      "handler_name": "report188CheckDue",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "report188CheckDue()",
+          "text": "Check reminders now",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "report188CheckDue()",
+          "text": "Check reminders now",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "REPEATED_REPORT_CONTROL",
+      "review_finding": "The same report action appears in multiple report panels or contexts. Confirm whether the same guide topic applies to each occurrence; use report-container scoping or shared data-help-id.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0043",
+      "audit_ref": "INV-055",
+      "visible_label": "Check reminders now",
+      "handler": "report188CheckDue()",
+      "handler_name": "report188CheckDue",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "report188CheckDue()",
+          "text": "Check reminders now",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "report188CheckDue()",
+          "text": "Check reminders now",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "REPEATED_REPORT_CONTROL",
+      "review_finding": "The same report action appears in multiple report panels or contexts. Confirm whether the same guide topic applies to each occurrence; use report-container scoping or shared data-help-id.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0057",
+      "audit_ref": "INV-071",
+      "visible_label": "❓ Help Choose the language for the User Guide",
+      "handler": "show(",
+      "handler_name": "show",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "show('helpSettings')",
+          "text": "📘 User Guide Choose the guide language",
+          "id": null,
+          "class_name": "primary",
+          "score": 0.75
+        }
+      ],
+      "review_group": "LABEL_OR_INVENTORY_MISMATCH",
+      "review_finding": "The mapping label differs from the current runtime label or has an unresolved variant. Reconcile the inventory and guide wording before assigning a selector.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0075",
+      "audit_ref": "INV-091",
+      "visible_label": "📁 Projects",
+      "handler": "prPage(",
+      "handler_name": "prPage",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "prPage('project-hub')",
+          "text": "📁 Projects",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "prPage('project-hub')",
+          "text": "📁 Projects New Project, Projects List and Project Profit & Loss",
+          "id": null,
+          "class_name": "pr-project-card pr-card",
+          "score": 1
+        },
+        {
+          "onclick": "prPage('list')",
+          "text": "▦ Projects List Search, open and manage existing projects",
+          "id": null,
+          "class_name": "pr-project-card pr-card",
+          "score": 1
+        }
+      ],
+      "review_group": "DUPLICATE_NAVIGATION_TARGET",
+      "review_finding": "The same destination is exposed by more than one navigation/card element. Treat as a shared help topic only if the guide content is identical; map all intended controls using a stable parent scope or explicit data-help-id rather than selecting one arbitrary match.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0077",
+      "audit_ref": "INV-093",
+      "visible_label": "⚙️ Control Panel",
+      "handler": "prPage(",
+      "handler_name": "prPage",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "prPage('control')",
+          "text": "⚙️ Control Panel",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "prPage('control')",
+          "text": "⚙️ Control Panel Manage shared Partners, Workers, Contractors, companies and future settings",
+          "id": null,
+          "class_name": "pr-project-card pr-card",
+          "score": 1
+        }
+      ],
+      "review_group": "DUPLICATE_NAVIGATION_TARGET",
+      "review_finding": "The same destination is exposed by more than one navigation/card element. Treat as a shared help topic only if the guide content is identical; map all intended controls using a stable parent scope or explicit data-help-id rather than selecting one arbitrary match.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0099",
+      "audit_ref": "INV-116",
+      "visible_label": "Clear",
+      "handler": "prResetPerson(",
+      "handler_name": "prResetPerson",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "prResetPerson('partner')",
+          "text": "Clear",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "prResetPerson('worker')",
+          "text": "Clear",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "SAME_LABEL_DIFFERENT_FORM",
+      "review_finding": "The visible action label is reused in separate forms or entity types. Resolve against the owning form/container; do not use a global text selector.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0103",
+      "audit_ref": "INV-120",
+      "visible_label": "Clear",
+      "handler": "prResetPerson(",
+      "handler_name": "prResetPerson",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "prResetPerson('partner')",
+          "text": "Clear",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "prResetPerson('worker')",
+          "text": "Clear",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "SAME_LABEL_DIFFERENT_FORM",
+      "review_finding": "The visible action label is reused in separate forms or entity types. Resolve against the owning form/container; do not use a global text selector.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0120",
+      "audit_ref": "INV-138",
+      "visible_label": "${p}",
+      "handler": "changeListPage(",
+      "handler_name": "changeListPage",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "changeListPage('${key}',${page-1},'${renderer}')",
+          "text": "‹ Previous",
+          "id": null,
+          "class_name": null,
+          "score": 0
+        },
+        {
+          "onclick": "changeListPage('${key}',${p},'${renderer}')",
+          "text": "${p}",
+          "id": null,
+          "class_name": "${p===page?'current':''}",
+          "score": 0
+        },
+        {
+          "onclick": "changeListPage('${key}',${page+1},'${renderer}')",
+          "text": "=pages?'disabled':''} onclick=\"changeListPage('${key}',${page+1},'${renderer}')\">Next ›",
+          "id": null,
+          "class_name": null,
+          "score": 0
+        }
+      ],
+      "review_group": "DYNAMIC_TEMPLATE_OR_ROW_ACTION",
+      "review_finding": "The control is generated dynamically or repeated per record/page. Use a stable template-level data-help-id and verify generated instances in the browser; do not bind to literal row text or a transient index.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0125",
+      "audit_ref": "INV-144",
+      "visible_label": "📎",
+      "handler": "openReceiptImage(this.dataset.receipt)",
+      "handler_name": "openReceiptImage",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "openReceiptImage(document.getElementById('${scope==='entry'?'entryReceiptData':'prReceiptData'}').value)",
+          "text": "📎 View receipt",
+          "id": null,
+          "class_name": "receipt-clip",
+          "score": 0
+        },
+        {
+          "onclick": "openReceiptImage(this.dataset.receipt)",
+          "text": "📎",
+          "id": null,
+          "class_name": "receipt-clip",
+          "score": 0
+        }
+      ],
+      "review_group": "DYNAMIC_TEMPLATE_OR_ROW_ACTION",
+      "review_finding": "The control is generated dynamically or repeated per record/page. Use a stable template-level data-help-id and verify generated instances in the browser; do not bind to literal row text or a transient index.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0127",
+      "audit_ref": "INV-146",
+      "visible_label": "View",
+      "handler": "viewRecordInvoice(\\",
+      "handler_name": "viewRecordInvoice",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "viewRecordInvoice(\\''+esc(x.id)+'\\')",
+          "text": "View",
+          "id": null,
+          "class_name": "mini",
+          "score": 1
+        },
+        {
+          "onclick": "viewRecordInvoice(\\''+esc(x.id)+'\\')",
+          "text": "View",
+          "id": null,
+          "class_name": "mini",
+          "score": 1
+        }
+      ],
+      "review_group": "DYNAMIC_TEMPLATE_OR_ROW_ACTION",
+      "review_finding": "The control is generated dynamically or repeated per record/page. Use a stable template-level data-help-id and verify generated instances in the browser; do not bind to literal row text or a transient index.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0128",
+      "audit_ref": "INV-147",
+      "visible_label": "Delete",
+      "handler": "deleteInvoice(\\",
+      "handler_name": "deleteInvoice",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "deleteInvoice(\\''+esc(x.id)+'\\')",
+          "text": "Delete",
+          "id": null,
+          "class_name": "mini danger",
+          "score": 1
+        },
+        {
+          "onclick": "deleteInvoice('${esc(i.id)}')",
+          "text": "Delete",
+          "id": null,
+          "class_name": "mini danger",
+          "score": 1
+        }
+      ],
+      "review_group": "DYNAMIC_TEMPLATE_OR_ROW_ACTION",
+      "review_finding": "The control is generated dynamically or repeated per record/page. Use a stable template-level data-help-id and verify generated instances in the browser; do not bind to literal row text or a transient index.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0131",
+      "audit_ref": "INV-150",
+      "visible_label": "View",
+      "handler": "viewRecordInvoice(\\",
+      "handler_name": "viewRecordInvoice",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "viewRecordInvoice(\\''+esc(x.id)+'\\')",
+          "text": "View",
+          "id": null,
+          "class_name": "mini",
+          "score": 1
+        },
+        {
+          "onclick": "viewRecordInvoice(\\''+esc(x.id)+'\\')",
+          "text": "View",
+          "id": null,
+          "class_name": "mini",
+          "score": 1
+        }
+      ],
+      "review_group": "DYNAMIC_TEMPLATE_OR_ROW_ACTION",
+      "review_finding": "The control is generated dynamically or repeated per record/page. Use a stable template-level data-help-id and verify generated instances in the browser; do not bind to literal row text or a transient index.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0146",
+      "audit_ref": "INV-172",
+      "visible_label": "Delete",
+      "handler": "deleteInvoice(",
+      "handler_name": "deleteInvoice",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "deleteInvoice(\\''+esc(x.id)+'\\')",
+          "text": "Delete",
+          "id": null,
+          "class_name": "mini danger",
+          "score": 1
+        },
+        {
+          "onclick": "deleteInvoice('${esc(i.id)}')",
+          "text": "Delete",
+          "id": null,
+          "class_name": "mini danger",
+          "score": 1
+        }
+      ],
+      "review_group": "DYNAMIC_TEMPLATE_OR_ROW_ACTION",
+      "review_finding": "The control is generated dynamically or repeated per record/page. Use a stable template-level data-help-id and verify generated instances in the browser; do not bind to literal row text or a transient index.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0156",
+      "audit_ref": "INV-182",
+      "visible_label": "📎",
+      "handler": "coOpenAttachment(",
+      "handler_name": "coOpenAttachment",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "coOpenAttachment('company','${c.id}')",
+          "text": "📎 ${coEsc(c.contractFile.name)}",
+          "id": null,
+          "class_name": null,
+          "score": 0
+        },
+        {
+          "onclick": "coOpenAttachment('job','${j.id}')",
+          "text": "📎",
+          "id": null,
+          "class_name": null,
+          "score": 0
+        },
+        {
+          "onclick": "coOpenAttachment('package','${j.id}','${p.id}')",
+          "text": "📎 ${coEsc(p.file.name)}",
+          "id": null,
+          "class_name": null,
+          "score": 0
+        },
+        {
+          "onclick": "coOpenAttachment('payment','${j.id}','${p.id}')",
+          "text": "📎 Open",
+          "id": null,
+          "class_name": null,
+          "score": 0
+        }
+      ],
+      "review_group": "DYNAMIC_TEMPLATE_OR_ROW_ACTION",
+      "review_finding": "The control is generated dynamically or repeated per record/page. Use a stable template-level data-help-id and verify generated instances in the browser; do not bind to literal row text or a transient index.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0157",
+      "audit_ref": "INV-183",
+      "visible_label": "📎 ${coEsc(p.file.name)}",
+      "handler": "coOpenAttachment(",
+      "handler_name": "coOpenAttachment",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "coOpenAttachment('company','${c.id}')",
+          "text": "📎 ${coEsc(c.contractFile.name)}",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "coOpenAttachment('package','${j.id}','${p.id}')",
+          "text": "📎 ${coEsc(p.file.name)}",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "DYNAMIC_TEMPLATE_OR_ROW_ACTION",
+      "review_finding": "The control is generated dynamically or repeated per record/page. Use a stable template-level data-help-id and verify generated instances in the browser; do not bind to literal row text or a transient index.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0168",
+      "audit_ref": "INV-196",
+      "visible_label": "Print / Save PDF",
+      "handler": "prPrintSubReport()",
+      "handler_name": "prPrintSubReport",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "prPrintSubReport()",
+          "text": "Print / Save PDF",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        },
+        {
+          "onclick": "prPrintSubReport()",
+          "text": "Print / Save PDF",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "review_group": "REPEATED_REPORT_CONTROL",
+      "review_finding": "The same report action appears in multiple report panels or contexts. Confirm whether the same guide topic applies to each occurrence; use report-container scoping or shared data-help-id.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0169",
+      "audit_ref": "INV-197",
+      "visible_label": "Print / Save PDF",
+      "handler": "prPrintSubReport()",
+      "handler_name": "prPrintSubReport",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "prPrintSubReport()",
+          "text": "Print / Save PDF",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        },
+        {
+          "onclick": "prPrintSubReport()",
+          "text": "Print / Save PDF",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "review_group": "REPEATED_REPORT_CONTROL",
+      "review_finding": "The same report action appears in multiple report panels or contexts. Confirm whether the same guide topic applies to each occurrence; use report-container scoping or shared data-help-id.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0170",
+      "audit_ref": "INV-198",
+      "visible_label": "📷 Take a Photo",
+      "handler": "document.getElementById(",
+      "handler_name": "getElementById",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "document.getElementById('entryReceiptGallery').click()",
+          "text": "📷 Take a Photo",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "document.getElementById('prReceiptGallery').click()",
+          "text": "📷 Take a Photo",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "SAME_LABEL_DIFFERENT_FORM",
+      "review_finding": "The visible action label is reused in separate forms or entity types. Resolve against the owning form/container; do not use a global text selector.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0180",
+      "audit_ref": "INV-210",
+      "visible_label": "Generate PDF",
+      "handler": "prRunSubReportPrint()",
+      "handler_name": "prRunSubReportPrint",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "prRunSubReportPrint()",
+          "text": "Generate PDF",
+          "id": null,
+          "class_name": "pr-print-go",
+          "score": 1
+        },
+        {
+          "onclick": "prRunSubReportPrint()",
+          "text": "Generate PDF",
+          "id": null,
+          "class_name": "pr-print-go",
+          "score": 1
+        }
+      ],
+      "review_group": "REPEATED_REPORT_CONTROL",
+      "review_finding": "The same report action appears in multiple report panels or contexts. Confirm whether the same guide topic applies to each occurrence; use report-container scoping or shared data-help-id.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0181",
+      "audit_ref": "INV-212",
+      "visible_label": "Generate PDF",
+      "handler": "prRunSubReportPrint()",
+      "handler_name": "prRunSubReportPrint",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "prRunSubReportPrint()",
+          "text": "Generate PDF",
+          "id": null,
+          "class_name": "pr-print-go",
+          "score": 1
+        },
+        {
+          "onclick": "prRunSubReportPrint()",
+          "text": "Generate PDF",
+          "id": null,
+          "class_name": "pr-print-go",
+          "score": 1
+        }
+      ],
+      "review_group": "REPEATED_REPORT_CONTROL",
+      "review_finding": "The same report action appears in multiple report panels or contexts. Confirm whether the same guide topic applies to each occurrence; use report-container scoping or shared data-help-id.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0183",
+      "audit_ref": "INV-214",
+      "visible_label": "×",
+      "handler": "prRestoreReportPreview()",
+      "handler_name": "prRestoreReportPreview",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "prRestoreReportPreview()",
+          "text": "×",
+          "id": null,
+          "class_name": null,
+          "score": 0
+        }
+      ],
+      "review_group": "SINGLE_CONTROL_NEEDS_PARENT_SCOPE",
+      "review_finding": "The control has weak/ambiguous visible text or multiple parent contexts. Inspect the owning modal/report container and use a stable scoped selector.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0199",
+      "audit_ref": "INV-233",
+      "visible_label": "Manage Workers",
+      "handler": "prPage(\\",
+      "handler_name": "prPage",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "prPage('control')",
+          "text": "⚙️ Control Panel Manage shared Partners, Workers, Contractors, companies and future settings",
+          "id": null,
+          "class_name": "pr-project-card pr-card",
+          "score": 1
+        },
+        {
+          "onclick": "prPage('workers')",
+          "text": "👷 Workers Manage shared worker records",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "prPage(\\'workers\\');prCloseWorkerListPicker()",
+          "text": "Manage Workers",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "review_group": "SINGLE_CONTROL_NEEDS_PARENT_SCOPE",
+      "review_finding": "The control has weak/ambiguous visible text or multiple parent contexts. Inspect the owning modal/report container and use a stable scoped selector.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    },
+    {
+      "help_id": "THA-HLP-0222",
+      "audit_ref": "INV-260",
+      "visible_label": "Print / PDF",
+      "handler": "report188Print(",
+      "handler_name": "report188Print",
+      "selector_strategy": "UNRESOLVED",
+      "candidate_status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "source_candidates": [
+        {
+          "onclick": "report188Print('${esc(r.id)}')",
+          "text": "Print / PDF",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "report188Print('${esc(r.id)}')",
+          "text": "Print / Save PDF",
+          "id": null,
+          "class_name": "gold",
+          "score": 1
+        }
+      ],
+      "review_group": "LABEL_OR_INVENTORY_MISMATCH",
+      "review_finding": "The mapping label differs from the current runtime label or has an unresolved variant. Reconcile the inventory and guide wording before assigning a selector.",
+      "next_action": "Do not attach yet; reconcile against the authoritative runtime and verify the intended control in Preview."
+    }
+  ]
+}
