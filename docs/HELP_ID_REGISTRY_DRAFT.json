@@ -8129,16 +8129,16 @@
       "translations": {
         "en": {
           "purpose": "Moves the current paginated list to the next page of results.",
-          "when": "Use this when the current list has another page of records available.",
-          "how": "Select Next › in the pagination controls below the list. The control is disabled when you are already on the final page.",
+          "when": "Use this when another page of records is available after the current page.",
+          "how": "Select Next › in the pagination controls below the list. The control is disabled on the final page.",
           "inputs": "No input is required. The Next control must be enabled; it is unavailable on the final page.",
           "result": "The next page of the current list is displayed and the current page number is updated.",
-          "notes": "Lists show up to 10 records per page. This is navigation only and does not change saved records."
+          "notes": "Lists show up to 10 records per page. This action changes only the displayed page; it does not edit, save or delete records."
         },
         "fa": {
           "purpose": "فهرست صفحه‌بندی‌شده فعلی را به صفحه بعدی نتایج منتقل می‌کند.",
-          "when": "وقتی برای فهرست فعلی صفحه دیگری از سوابق وجود دارد، از این گزینه استفاده کنید.",
-          "how": "در کنترل‌های صفحه‌بندی زیر فهرست، Next › را انتخاب کنید. اگر در آخرین صفحه باشید، این کنترل غیرفعال است.",
+          "when": "وقتی برای فهرست فعلی پس از صفحه جاری صفحه دیگری از سوابق وجود دارد، از این گزینه استفاده کنید.",
+          "how": "در کنترل‌های صفحه‌بندی زیر فهرست، Next › را انتخاب کنید. این کنترل در آخرین صفحه غیرفعال است.",
           "inputs": "ورودی لازم نیست. کنترل Next باید فعال باشد؛ در آخرین صفحه در دسترس نیست.",
           "result": "صفحه بعدی فهرست فعلی نمایش داده می‌شود و شماره صفحه جاری به‌روزرسانی می‌شود.",
           "notes": "فهرست‌ها حداکثر ۱۰ سابقه را در هر صفحه نشان می‌دهند. این فقط ناوبری است و سوابق ذخیره‌شده را تغییر نمی‌دهد."
@@ -8229,7 +8229,7 @@
           "purpose": "Selects an expense category from the category picker and applies it to the current entry form.",
           "when": "Use this when assigning a category to an expense so it is grouped correctly in reports.",
           "how": "Open the category picker, choose the appropriate group (Materials, Car Expenses, Tools or Others), then select the category button that best describes the expense. The selected category is applied to the form and the picker closes.",
-          "inputs": "Select one of the available category buttons. Expense categories are organised into Materials, Car Expenses, Tools and Others; the available choices depend on the saved category lists.",
+          "inputs": "Select one of the available category buttons. Available categories depend on the saved category lists for the selected group.",
           "result": "The chosen category is set in the entry form, the category picker closes and any category-dependent fields are updated.",
           "notes": "Choose the category that reflects the actual nature of the cost. Category selection affects report grouping but does not itself determine tax deductibility. Use Add New One if no existing category is suitable."
         },
@@ -8237,7 +8237,7 @@
           "purpose": "یک دسته هزینه را از انتخابگر دسته‌بندی انتخاب و روی فرم ثبت فعلی اعمال می‌کند.",
           "when": "برای اختصاص دسته مناسب به هزینه تا در گزارش‌ها به‌درستی گروه‌بندی شود، از این گزینه استفاده کنید.",
           "how": "انتخابگر دسته‌بندی را باز کنید، گروه مناسب (Materials، Car Expenses، Tools یا Others) را انتخاب و سپس دکمه دسته‌ای را بزنید که ماهیت هزینه را بهتر توصیف می‌کند. دسته انتخاب‌شده روی فرم اعمال و انتخابگر بسته می‌شود.",
-          "inputs": "یکی از دکمه‌های دسته‌بندی موجود را انتخاب کنید. دسته‌های هزینه در گروه‌های Materials، Car Expenses، Tools و Others سازمان‌دهی شده‌اند؛ گزینه‌های موجود به فهرست‌های ذخیره‌شده دسته‌ها بستگی دارند.",
+          "inputs": "یکی از دکمه‌های دسته‌بندی موجود را انتخاب کنید. دسته‌های قابل انتخاب به فهرست ذخیره‌شده گروه انتخاب‌شده بستگی دارند.",
           "result": "دسته انتخاب‌شده در فرم ثبت قرار می‌گیرد، انتخابگر بسته می‌شود و فیلدهای وابسته به دسته به‌روزرسانی می‌شوند.",
           "notes": "دسته‌ای را انتخاب کنید که ماهیت واقعی هزینه را نشان دهد. انتخاب دسته بر گروه‌بندی گزارش اثر دارد، اما به‌تنهایی قابل‌قبول‌بودن هزینه از نظر مالیاتی را تعیین نمی‌کند. اگر دسته مناسبی وجود ندارد از Add New One استفاده کنید."
         },
@@ -8326,17 +8326,17 @@
         "en": {
           "purpose": "Opens the form to add a new expense category to the currently selected category group.",
           "when": "Use this when none of the existing categories in the selected group accurately describes the expense.",
-          "how": "In the expense category picker, select Add New One under the required group. Enter the new category name and select Save. The new category is then added to that group's list and selected in the current entry form if saving is verified.",
+          "how": "In the expense category picker, select Add New One under the required group. Enter the new category name and select Save. After the save is verified, the category is added to that group's list and selected in the current entry form.",
           "inputs": "A category group must be selected. Enter a non-empty name of no more than 70 characters. A name that already exists in the same group, ignoring case, is rejected.",
-          "result": "After a successful and verified IndexedDB save, the new category is permanently added to the selected group's list, becomes available for future expenses and is selected for the current entry.",
+          "result": "After a successful and verified IndexedDB save, the new category is added to the selected group's saved list, becomes available for future expenses and is selected for the current entry.",
           "notes": "The category is stored in the Accountancy expense category lists. If saving or IndexedDB verification fails, the app restores the previous category list and reports the error. Avoid duplicate or overlapping category names; a category name does not determine tax deductibility."
         },
         "fa": {
           "purpose": "فرم افزودن دسته هزینه جدید را به گروه دسته‌بندی انتخاب‌شده فعلی باز می‌کند.",
           "when": "وقتی هیچ‌یک از دسته‌های موجود در گروه انتخاب‌شده ماهیت هزینه را به‌درستی توصیف نمی‌کند، از این گزینه استفاده کنید.",
-          "how": "در انتخابگر دسته هزینه، زیر گروه موردنظر Add New One را انتخاب کنید. نام دسته جدید را وارد و Save را انتخاب کنید. پس از تأیید ذخیره، دسته به فهرست همان گروه افزوده و در صورت موفقیت برای فرم ثبت فعلی انتخاب می‌شود.",
+          "how": "در انتخابگر دسته هزینه، زیر گروه موردنظر Add New One را انتخاب کنید. نام دسته جدید را وارد و Save را انتخاب کنید. پس از تأیید ذخیره، دسته به فهرست همان گروه افزوده و برای فرم ثبت فعلی انتخاب می‌شود.",
           "inputs": "باید یک گروه دسته‌بندی انتخاب شده باشد. نامی غیرخالی با حداکثر ۷۰ نویسه وارد کنید. نامی که با صرف‌نظر از بزرگی و کوچکی حروف در همان گروه وجود داشته باشد پذیرفته نمی‌شود.",
-          "result": "پس از ذخیره موفق و تأییدشده در IndexedDB، دسته جدید به‌طور پایدار به فهرست گروه انتخاب‌شده افزوده می‌شود، برای هزینه‌های آینده در دسترس قرار می‌گیرد و برای ثبت فعلی انتخاب می‌شود.",
+          "result": "پس از ذخیره موفق و تأییدشده در IndexedDB، دسته جدید به فهرست ذخیره‌شده گروه انتخاب‌شده افزوده می‌شود، برای هزینه‌های آینده در دسترس قرار می‌گیرد و برای ثبت فعلی انتخاب می‌شود.",
           "notes": "دسته در فهرست‌های دسته‌بندی هزینه Accountancy ذخیره می‌شود. اگر ذخیره یا تأیید IndexedDB شکست بخورد، برنامه فهرست قبلی را بازمی‌گرداند و خطا را اعلام می‌کند. از نام‌های تکراری یا هم‌پوشان پرهیز کنید؛ نام دسته به‌تنهایی قابل‌قبول‌بودن هزینه از نظر مالیاتی را تعیین نمی‌کند."
         },
         "ar": {
@@ -8422,17 +8422,17 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the enlarged image of a receipt attached to the current entry or project expense form.",
-          "when": "Use this when a receipt image has been attached and you need to inspect it before saving or after loading it into the form.",
-          "how": "Select 📎 View receipt in the receipt preview area. The receipt image opens in a larger viewer. Close the viewer when finished.",
+          "purpose": "Opens an enlarged view of a receipt image attached to the current entry or project expense form.",
+          "when": "Use this when a receipt image is attached and you need to inspect it before saving or while reviewing the form.",
+          "how": "Select 📎 View receipt in the receipt preview area. The image opens in a larger viewer. Select Close when you have finished viewing it.",
           "inputs": "A receipt image must already be attached to the current form. No additional input is required.",
           "result": "The attached receipt image is displayed in the receipt image viewer. Viewing it does not save the form or change the receipt.",
           "notes": "The receipt upload control accepts image files, not PDF files. Check that the image is readable and belongs to the correct transaction. Use the separate Remove photo control if you intend to remove it from the form."
         },
         "fa": {
-          "purpose": "تصویر بزرگ‌شده رسید پیوست‌شده به فرم ثبت فعلی یا هزینه پروژه را باز می‌کند.",
-          "when": "وقتی تصویر رسید پیوست شده و می‌خواهید پیش از ذخیره یا پس از بارگذاری آن در فرم، تصویر را بررسی کنید، از این گزینه استفاده کنید.",
-          "how": "در بخش پیش‌نمایش رسید، 📎 View receipt را انتخاب کنید. تصویر رسید در نمایشگر بزرگ‌تر باز می‌شود. پس از بررسی، نمایشگر را ببندید.",
+          "purpose": "نمای بزرگ‌تری از تصویر رسید پیوست‌شده به فرم ثبت فعلی یا هزینه پروژه را باز می‌کند.",
+          "when": "وقتی تصویر رسید پیوست شده و می‌خواهید پیش از ذخیره یا هنگام بررسی فرم آن را مشاهده کنید، از این گزینه استفاده کنید.",
+          "how": "در بخش پیش‌نمایش رسید، 📎 View receipt را انتخاب کنید. تصویر در نمایشگر بزرگ‌تر باز می‌شود. پس از پایان مشاهده، Close را انتخاب کنید.",
           "inputs": "باید از قبل تصویر رسید به فرم فعلی پیوست شده باشد. ورودی دیگری لازم نیست.",
           "result": "تصویر رسید پیوست‌شده در نمایشگر تصویر رسید نشان داده می‌شود. مشاهده تصویر، فرم را ذخیره نمی‌کند و رسید را تغییر نمی‌دهد.",
           "notes": "کنترل بارگذاری رسید فایل تصویری می‌پذیرد، نه PDF. خوانابودن تصویر و تعلق آن به تراکنش صحیح را بررسی کنید. اگر قصد حذف آن از فرم را دارید، از کنترل جداگانه Remove photo استفاده کنید."
@@ -8520,17 +8520,17 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the receipt image attached to a saved transaction from its paperclip icon in a record list or report.",
+          "purpose": "Opens the receipt image saved with a transaction from the paperclip icon beside that record in a list or report.",
           "when": "Use this when a paperclip icon appears beside a transaction and you need to view its saved receipt evidence.",
-          "how": "Select the 📎 icon beside the relevant record. The linked receipt image opens in the receipt viewer; close the viewer when finished.",
+          "how": "Select the 📎 icon beside the relevant record. The linked receipt image opens in the receipt viewer; select Close when finished.",
           "inputs": "The selected record must contain a saved receipt image. No additional input is required.",
-          "result": "The attached receipt image is displayed in the viewer. If no image data is available, the action does not open an image.",
+          "result": "The attached receipt image is displayed in the viewer. If image data is unavailable, no image opens.",
           "notes": "This icon is view-only. It does not upload, replace, edit or delete the receipt or transaction. Confirm that the image belongs to the selected record. Receipt images are stored with the relevant record and should be included in backups."
         },
         "fa": {
-          "purpose": "تصویر رسید پیوست‌شده به یک تراکنش ذخیره‌شده را از طریق نماد گیره کنار آن در فهرست سوابق یا گزارش باز می‌کند.",
+          "purpose": "تصویر رسید ذخیره‌شده همراه با یک تراکنش را از طریق نماد گیره کنار آن در فهرست سوابق یا گزارش باز می‌کند.",
           "when": "وقتی نماد گیره کنار یک تراکنش نمایش داده می‌شود و می‌خواهید مدرک رسید ذخیره‌شده آن را ببینید، از این گزینه استفاده کنید.",
-          "how": "نماد 📎 کنار سابقه مربوط را انتخاب کنید. تصویر رسید پیوندخورده در نمایشگر رسید باز می‌شود؛ پس از بررسی نمایشگر را ببندید.",
+          "how": "نماد 📎 کنار سابقه مربوط را انتخاب کنید. تصویر رسید پیوندخورده در نمایشگر رسید باز می‌شود؛ پس از پایان مشاهده Close را انتخاب کنید.",
           "inputs": "سابقه انتخاب‌شده باید تصویر رسید ذخیره‌شده داشته باشد. ورودی دیگری لازم نیست.",
           "result": "تصویر رسید پیوست‌شده در نمایشگر نشان داده می‌شود. اگر داده تصویر موجود نباشد، تصویری باز نمی‌شود.",
           "notes": "این نماد فقط برای مشاهده است و رسید یا تراکنش را بارگذاری، جایگزین، ویرایش یا حذف نمی‌کند. بررسی کنید تصویر متعلق به سابقه انتخاب‌شده باشد. تصاویر رسید همراه با سابقه مربوط ذخیره می‌شوند و باید در نسخه‌های پشتیبان گنجانده شوند."
