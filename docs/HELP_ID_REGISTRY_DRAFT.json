@@ -12342,92 +12342,92 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Remove the selected attachment from the current form or item.",
-          "when": "Use this control when you no longer want the file associated with the current item.",
-          "how": "Choose Remove beside the attachment you no longer want associated with the current item.",
-          "inputs": "Select the correct attachment and verify the file before removing it.",
-          "result": "The selected attachment is removed from the current form or item; the underlying job or expense is not deleted.",
-          "notes": "Check that the correct file is selected. Removing an attachment is different from deleting the underlying job or expense."
+          "purpose": "Removes a partner-share row from the current project form.",
+          "when": "Use this when a partner should no longer be included in the profit-sharing arrangement being edited for this project.",
+          "how": "In the partner-sharing section of the project form, select Remove on the partner row you want to take out. The displayed share total recalculates immediately.",
+          "inputs": "Select the Remove control on the correct partner row. No additional input is required.",
+          "result": "The selected partner row is removed from the current form and the displayed owner/partner share total is recalculated. The project is not saved by this action.",
+          "notes": "This removes only the partner row from the unsaved form; it does not delete the partner from the shared Partners directory or alter other projects. Before selecting Save Project, ensure the owner's share and all remaining partner shares total exactly 100%."
         },
         "fa": {
-          "purpose": "حذف پیوست انتخاب‌شده از فرم یا مورد فعلی.",
-          "when": "وقتی دیگر نمی‌خواهید فایل به مورد فعلی مرتبط باشد، از این گزینه استفاده کنید.",
-          "how": "در کنار پیوستی که دیگر نمی‌خواهید به مورد فعلی متصل باشد، Remove را انتخاب کنید.",
-          "inputs": "پیوست درست را انتخاب کنید و پیش از برداشتن آن فایل را بررسی کنید.",
-          "result": "پیوست انتخاب‌شده از فرم یا مورد فعلی جدا می‌شود؛ خود کار یا هزینه اصلی حذف نمی‌شود.",
-          "notes": "مطمئن شوید فایل درست را انتخاب کرده‌اید. حذف پیوست با حذف کار یا هزینه اصلی متفاوت است."
+          "purpose": "یک ردیف سهم شریک را از فرم فعلی پروژه حذف می‌کند.",
+          "when": "وقتی می‌خواهید شریکی دیگر در توافق تقسیم سود پروژه‌ای که در حال ویرایش آن هستید حضور نداشته باشد، از این گزینه استفاده کنید.",
+          "how": "در بخش تقسیم سهم شرکا در فرم پروژه، در ردیف شریک موردنظر Remove را انتخاب کنید. مجموع سهم‌های نمایش‌داده‌شده بلافاصله دوباره محاسبه می‌شود.",
+          "inputs": "کنترل Remove را در ردیف شریک صحیح انتخاب کنید. ورودی دیگری لازم نیست.",
+          "result": "ردیف شریک انتخاب‌شده از فرم فعلی حذف می‌شود و مجموع سهم صاحب کسب‌وکار و شرکا دوباره محاسبه می‌شود. این عملیات پروژه را ذخیره نمی‌کند.",
+          "notes": "این گزینه فقط ردیف شریک را از فرم ذخیره‌نشده حذف می‌کند؛ شریک را از فهرست مشترک Partners پاک نمی‌کند و پروژه‌های دیگر را تغییر نمی‌دهد. پیش از انتخاب Save Project، مطمئن شوید مجموع سهم صاحب کسب‌وکار و تمام شرکای باقی‌مانده دقیقاً ۱۰۰٪ است."
         },
         "ar": {
-          "purpose": "يزيل المرفق المحدد من النموذج أو العنصر الحالي.",
-          "when": "عندما لم تعد تريد إرفاق الملف بالعنصر الحالي.",
-          "how": "اختر Remove بجانب المرفق الذي لم تعد تريد ربطه بالعنصر الحالي.",
-          "inputs": "حدد المرفق الصحيح وتحقق من الملف قبل إزالته.",
-          "result": "تُزال علاقة المرفق بالعنصر الحالي إذا قبل التطبيق العملية وأكدها.",
-          "notes": "تحقق من اختيار الملف الصحيح. إزالة المرفق تختلف عن حذف الوظيفة أو المصروف الأساسي."
+          "purpose": "يزيل صف حصة شريك من نموذج المشروع الحالي.",
+          "when": "استخدم هذا الخيار عندما لا ينبغي أن يبقى شريك ضمن ترتيب تقاسم الأرباح الذي تعدّله لهذا المشروع.",
+          "how": "في قسم توزيع حصص الشركاء بنموذج المشروع، اختر Remove في صف الشريك المراد إزالته. يُعاد حساب مجموع الحصص المعروض فورًا.",
+          "inputs": "اختر زر Remove في صف الشريك الصحيح. لا يلزم إدخال إضافي.",
+          "result": "يُزال صف الشريك المحدد من النموذج الحالي ويُعاد حساب مجموع حصة المالك والشركاء. هذا الإجراء لا يحفظ المشروع.",
+          "notes": "يزيل هذا الإجراء صف الشريك من النموذج غير المحفوظ فقط؛ ولا يحذف الشريك من دليل Partners المشترك أو يغيّر مشاريع أخرى. قبل اختيار Save Project، تأكد من أن مجموع حصة المالك وجميع حصص الشركاء المتبقين يساوي 100% تمامًا."
         },
         "ckb": {
-          "purpose": "پاشکۆی هەڵبژێردراو لە فۆڕم یان بڕگەی ئێستا لادەبات.",
-          "when": "کاتێک چیتر ناتەوێت فایلەکە بە بڕگەی ئێستا پەیوەست بێت.",
-          "how": "لە تەنیشت ئەو پاشکۆیە Remove هەڵبژێرە کە چیتر ناتەوێت بە بڕگەی ئێستا پەیوەست بێت.",
-          "inputs": "پاشکۆی دروست هەڵبژێرە و پێش لابردنی فایلەکە بپشکنە.",
-          "result": "ئەگەر ئەپەکە کردارەکە قبووڵ و پشتڕاست بکاتەوە، پەیوەندی پاشکۆکە بە بڕگەی ئێستا لادەبرێت.",
-          "notes": "دڵنیابە فایلە دروستەکەت هەڵبژاردووە. لابردنی پاشکۆ جیاوازە لە سڕینەوەی کار یان خەرجیی بنەڕەتی."
+          "purpose": "ڕیزی بەشی هاوبەشێک لە فۆڕمی ئێستای پرۆژە لادەبات.",
+          "when": "کاتێک دەتهەوێت هاوبەشێک چیتر لە ڕێککەوتنی دابەشکردنی قازانجی ئەو پرۆژەیەدا نەبێت کە دەستکاری دەکەیت، ئەم هەڵبژاردەیە بەکاربهێنە.",
+          "how": "لە بەشی دابەشکردنی بەشی هاوبەشان لە فۆڕمی پرۆژە، لە ڕیزی هاوبەشی مەبەست Remove هەڵبژێرە. کۆی بەشە پیشاندراوەکان دەستبەجێ دووبارە هەژمار دەکرێتەوە.",
+          "inputs": "کۆنترۆڵی Remove لە ڕیزی هاوبەشی دروست هەڵبژێرە. هیچ زانیارییەکی تری پێویست نییە.",
+          "result": "ڕیزی هاوبەشی هەڵبژێردراو لە فۆڕمی ئێستا لادەبرێت و کۆی بەشی خاوەنکار و هاوبەشان دووبارە هەژمار دەکرێتەوە. ئەم کردارە پرۆژەکە پاشەکەوت ناکات.",
+          "notes": "ئەمە تەنها ڕیزی هاوبەش لە فۆڕمی پاشەکەوت‌نەکراو لادەبات؛ هاوبەشەکە لە پێڕستی هاوبەشی Partners ناسڕێتەوە و پرۆژەکانی تر ناگۆڕێت. پێش هەڵبژاردنی Save Project دڵنیابە کۆی بەشی خاوەنکار و هەموو بەشەکانی هاوبەشانی ماوە بە تەواوی 100% بێت."
         },
         "kmr": {
-          "purpose": "Pêveka hilbijartî ji form an tiştê heyî radike.",
-          "when": "Dema ku êdî naxwazî pel bi tiştê heyî ve girêdayî bimîne.",
-          "how": "Li kêleka pêveka ku êdî naxwazî bi tiştê heyî ve girêdayî be Remove hilbijêre.",
-          "inputs": "Pêveka rast hilbijêre û berî rakirina wê pelê kontrol bike.",
-          "result": "Girêdana pêvekê bi tiştê heyî tê rakirin heke sepan kiryarê qebûl û piştrast bike.",
-          "notes": "Piştrast be ku pela rast hilbijartiye. Rakirina pêvekê ji jêbirina kar an lêçûna bingehîn cuda ye."
+          "purpose": "Rêza para ya hevparê ji forma projeya heyî derdixe.",
+          "when": "Vê vebijarkê bikar bîne dema ku divê hevparek êdî di peymana parvekirina qezenca vê projeya ku tu sererast dikî de nebe.",
+          "how": "Di beşa parvekirina para hevparan a forma projeyê de, li ser rêza hevparê ku dixwazî derxî Remove hilbijêre. Giştî para xuya tavilê ji nû ve tê hesabkirin.",
+          "inputs": "Kontrola Remove di rêza hevparê rast de hilbijêre. Agahiyeke din nehewce ye.",
+          "result": "Rêza hevparê hilbijartî ji forma heyî tê derxistin û giştî para xwediyê karsaziyê û hevparan ji nû ve tê hesabkirin. Ev kiryar projeyê tomar nake.",
+          "notes": "Ev tenê rêza hevparê ji forma ku hêj nehatiye tomarkirin derdixe; hevparê ji pirtûka hevpar a Partners jê nake û projeyên din naguherîne. Berî hilbijartina Save Project, piştrast bike ku giştî para xwediyê karsaziyê û hemû parên hevparên mayî bi rastî 100% e."
         },
         "tr": {
-          "purpose": "Seçilen eki mevcut formdan veya öğeden kaldırır.",
-          "when": "Dosyanın artık mevcut öğeyle ilişkili olmasını istemediğinizde kullanın.",
-          "how": "Mevcut öğeyle ilişkili kalmasını istemediğiniz ekin yanındaki Remove'u seçin.",
-          "inputs": "Doğru eki seçin ve kaldırmadan önce dosyayı kontrol edin.",
-          "result": "Uygulama işlemi kabul edip onaylarsa ekin mevcut öğeyle bağlantısı kaldırılır.",
-          "notes": "Doğru dosyanın seçildiğini doğrulayın. Eki kaldırmak, temel işi veya gideri silmekten farklıdır."
+          "purpose": "Mevcut proje formundaki bir ortak payı satırını kaldırır.",
+          "when": "Düzenlediğiniz bu projenin kâr paylaşımı düzenlemesinde bir ortağın artık yer almaması gerektiğinde kullanın.",
+          "how": "Proje formunun ortak payı bölümünde kaldırmak istediğiniz ortağın satırındaki Remove seçeneğini belirleyin. Görüntülenen pay toplamı hemen yeniden hesaplanır.",
+          "inputs": "Doğru ortak satırındaki Remove kontrolünü seçin. Başka bir giriş gerekmez.",
+          "result": "Seçilen ortak satırı mevcut formdan kaldırılır ve işletme sahibinin/ortakların görüntülenen toplam payı yeniden hesaplanır. Bu işlem projeyi kaydetmez.",
+          "notes": "Bu işlem yalnızca kaydedilmemiş formdaki ortak satırını kaldırır; ortağı ortak Partners dizininden silmez ve diğer projeleri değiştirmez. Save Project seçeneğini kullanmadan önce işletme sahibinin ve kalan tüm ortakların paylarının toplamının tam olarak %100 olduğundan emin olun."
         },
         "pl": {
-          "purpose": "Usuwa wybrany załącznik z bieżącego formularza lub elementu.",
-          "when": "Użyj, gdy nie chcesz już, aby plik był powiązany z bieżącym elementem.",
-          "how": "Wybierz Remove obok załącznika, którego nie chcesz już przypisywać do bieżącego elementu.",
-          "inputs": "Wybierz właściwy załącznik i sprawdź plik przed jego usunięciem.",
-          "result": "Powiązanie załącznika z bieżącym elementem zostanie usunięte, jeśli aplikacja zaakceptuje i potwierdzi operację.",
-          "notes": "Upewnij się, że wybrano właściwy plik. Usunięcie załącznika różni się od usunięcia zlecenia lub wydatku."
+          "purpose": "Usuwa wiersz udziału partnera z bieżącego formularza projektu.",
+          "when": "Użyj tej opcji, gdy partner nie powinien już uczestniczyć w podziale zysku projektu, który edytujesz.",
+          "how": "W sekcji podziału udziałów w formularzu projektu wybierz Remove w wierszu partnera, którego chcesz usunąć. Wyświetlana suma udziałów zostanie natychmiast przeliczona.",
+          "inputs": "Wybierz kontrolkę Remove w odpowiednim wierszu partnera. Nie trzeba podawać dodatkowych danych.",
+          "result": "Wybrany wiersz partnera zostaje usunięty z bieżącego formularza, a suma udziałów właściciela i partnerów jest ponownie obliczana. Ta czynność nie zapisuje projektu.",
+          "notes": "Usuwa to tylko wiersz partnera z niezapisanego formularza; nie usuwa partnera ze wspólnego katalogu Partners ani nie zmienia innych projektów. Przed wybraniem Save Project upewnij się, że udział właściciela i wszystkich pozostałych partnerów wynosi dokładnie 100%."
         },
         "ur": {
-          "purpose": "منتخب اٹیچمنٹ کو موجودہ فارم یا آئٹم سے ہٹاتا ہے۔",
-          "when": "جب آپ نہیں چاہتے کہ فائل موجودہ آئٹم کے ساتھ منسلک رہے تو استعمال کریں۔",
-          "how": "اس اٹیچمنٹ کے ساتھ Remove منتخب کریں جسے اب موجودہ آئٹم سے منسلک نہیں رکھنا چاہتے۔",
-          "inputs": "درست اٹیچمنٹ منتخب کریں اور ہٹانے سے پہلے فائل چیک کریں۔",
-          "result": "ایپ کارروائی قبول اور تصدیق کرے تو موجودہ آئٹم سے اٹیچمنٹ کا تعلق ختم ہو جاتا ہے۔",
-          "notes": "یقینی بنائیں کہ درست فائل منتخب ہے۔ اٹیچمنٹ ہٹانا اصل کام یا خرچ حذف کرنے سے مختلف ہے۔"
+          "purpose": "موجودہ پروجیکٹ فارم سے شراکت دار کے حصے والی قطار ہٹاتا ہے۔",
+          "when": "جب اس پروجیکٹ کے منافع کی تقسیم میں کسی شراکت دار کو مزید شامل نہیں رکھنا ہو جس میں آپ ترمیم کر رہے ہیں، تو یہ اختیار استعمال کریں۔",
+          "how": "پروجیکٹ فارم کے شراکت داری کے حصے میں مطلوبہ شراکت دار کی قطار پر Remove منتخب کریں۔ دکھایا گیا مجموعی حصہ فوراً دوبارہ شمار ہو جاتا ہے۔",
+          "inputs": "درست شراکت دار کی قطار میں Remove کنٹرول منتخب کریں۔ اضافی معلومات درکار نہیں۔",
+          "result": "منتخب شراکت دار کی قطار موجودہ فارم سے ہٹ جاتی ہے اور کاروبار کے مالک اور شراکت داروں کے حصوں کا مجموعہ دوبارہ شمار ہوتا ہے۔ اس عمل سے پروجیکٹ محفوظ نہیں ہوتا۔",
+          "notes": "یہ صرف غیر محفوظ شدہ فارم سے شراکت دار کی قطار ہٹاتا ہے؛ مشترکہ Partners فہرست سے شراکت دار کو حذف نہیں کرتا اور دوسرے پروجیکٹس کو تبدیل نہیں کرتا۔ Save Project منتخب کرنے سے پہلے یقینی بنائیں کہ مالک اور باقی تمام شراکت داروں کے حصوں کا مجموعہ بالکل 100% ہو۔"
         },
         "pa": {
-          "purpose": "ਚੁਣੀ ਅਟੈਚਮੈਂਟ ਨੂੰ ਮੌਜੂਦਾ ਫਾਰਮ ਜਾਂ ਆਈਟਮ ਤੋਂ ਹਟਾਉਂਦਾ ਹੈ।",
-          "when": "ਜਦੋਂ ਤੁਸੀਂ ਨਹੀਂ ਚਾਹੁੰਦੇ ਕਿ ਫਾਈਲ ਮੌਜੂਦਾ ਆਈਟਮ ਨਾਲ ਜੁੜੀ ਰਹੇ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਉਸ ਅਟੈਚਮੈਂਟ ਦੇ ਨਾਲ Remove ਚੁਣੋ ਜਿਸਨੂੰ ਹੁਣ ਮੌਜੂਦਾ ਆਈਟਮ ਨਾਲ ਨਹੀਂ ਜੋੜਨਾ ਚਾਹੁੰਦੇ।",
-          "inputs": "ਸਹੀ ਅਟੈਚਮੈਂਟ ਚੁਣੋ ਅਤੇ ਹਟਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਫਾਈਲ ਜਾਂਚੋ।",
-          "result": "ਐਪ ਕਾਰਵਾਈ ਸਵੀਕਾਰ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਮੌਜੂਦਾ ਆਈਟਮ ਨਾਲ ਅਟੈਚਮੈਂਟ ਦਾ ਸੰਬੰਧ ਹਟ ਜਾਂਦਾ ਹੈ।",
-          "notes": "ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਸਹੀ ਫਾਈਲ ਚੁਣੀ ਹੈ। ਅਟੈਚਮੈਂਟ ਹਟਾਉਣਾ ਅਸਲ ਕੰਮ ਜਾਂ ਖਰਚਾ ਮਿਟਾਉਣ ਤੋਂ ਵੱਖਰਾ ਹੈ।"
+          "purpose": "ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਫਾਰਮ ਵਿੱਚੋਂ ਭਾਈਵਾਲ ਦੇ ਹਿੱਸੇ ਵਾਲੀ ਕਤਾਰ ਹਟਾਉਂਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਉਸ ਪ੍ਰੋਜੈਕਟ ਦੇ ਮੁਨਾਫ਼ਾ-ਵੰਡ ਪ੍ਰਬੰਧ ਵਿੱਚ ਕਿਸੇ ਭਾਈਵਾਲ ਨੂੰ ਹੋਰ ਸ਼ਾਮਲ ਨਹੀਂ ਰੱਖਣਾ, ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਸੋਧ ਰਹੇ ਹੋ, ਤਾਂ ਇਹ ਵਿਕਲਪ ਵਰਤੋ।",
+          "how": "ਪ੍ਰੋਜੈਕਟ ਫਾਰਮ ਦੇ ਭਾਈਵਾਲੀ ਹਿੱਸੇ ਵਿੱਚ ਜਿਸ ਭਾਈਵਾਲ ਨੂੰ ਹਟਾਉਣਾ ਹੈ ਉਸ ਦੀ ਕਤਾਰ ਵਿੱਚ Remove ਚੁਣੋ। ਦਿਖਾਇਆ ਗਿਆ ਕੁੱਲ ਹਿੱਸਾ ਤੁਰੰਤ ਮੁੜ ਗਿਣਿਆ ਜਾਂਦਾ ਹੈ।",
+          "inputs": "ਸਹੀ ਭਾਈਵਾਲ ਦੀ ਕਤਾਰ ਵਿੱਚ Remove ਕੰਟਰੋਲ ਚੁਣੋ। ਹੋਰ ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ।",
+          "result": "ਚੁਣੀ ਹੋਈ ਭਾਈਵਾਲ ਦੀ ਕਤਾਰ ਮੌਜੂਦਾ ਫਾਰਮ ਵਿੱਚੋਂ ਹਟ ਜਾਂਦੀ ਹੈ ਅਤੇ ਮਾਲਕ/ਭਾਈਵਾਲਾਂ ਦੇ ਹਿੱਸਿਆਂ ਦਾ ਕੁੱਲ ਮੁੜ ਗਿਣਿਆ ਜਾਂਦਾ ਹੈ। ਇਸ ਕਾਰਵਾਈ ਨਾਲ ਪ੍ਰੋਜੈਕਟ ਸੇਵ ਨਹੀਂ ਹੁੰਦਾ।",
+          "notes": "ਇਹ ਸਿਰਫ਼ ਨਾ-ਸੇਵ ਕੀਤੇ ਫਾਰਮ ਵਿੱਚੋਂ ਭਾਈਵਾਲ ਦੀ ਕਤਾਰ ਹਟਾਉਂਦਾ ਹੈ; ਸਾਂਝੀ Partners ਡਾਇਰੈਕਟਰੀ ਵਿੱਚੋਂ ਭਾਈਵਾਲ ਨੂੰ ਨਹੀਂ ਮਿਟਾਉਂਦਾ ਅਤੇ ਹੋਰ ਪ੍ਰੋਜੈਕਟਾਂ ਨੂੰ ਨਹੀਂ ਬਦਲਦਾ। Save Project ਚੁਣਨ ਤੋਂ ਪਹਿਲਾਂ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਮਾਲਕ ਅਤੇ ਬਾਕੀ ਸਾਰੇ ਭਾਈਵਾਲਾਂ ਦੇ ਹਿੱਸਿਆਂ ਦਾ ਜੋੜ ਬਿਲਕੁਲ 100% ਹੋਵੇ।"
         },
         "prs": {
-          "purpose": "پیوست انتخاب‌شده را از فرم یا مورد فعلی جدا می‌کند.",
-          "when": "وقتی دیگر نمی‌خواهید فایل به مورد فعلی مرتبط باشد، استفاده کنید.",
-          "how": "در کنار پیوستی که دیگر نمی‌خواهید به مورد فعلی مرتبط باشد Remove را انتخاب کنید.",
-          "inputs": "پیوست درست را انتخاب کنید و پیش از برداشتن آن فایل را بررسی کنید.",
-          "result": "اگر برنامه عملیات را بپذیرد و تأیید کند، ارتباط پیوست با مورد فعلی حذف می‌شود.",
-          "notes": "مطمئن شوید فایل درست انتخاب شده است. برداشتن پیوست با حذف کار یا هزینه اصلی تفاوت دارد."
+          "purpose": "یک ردیف سهم شریک را از فرم فعلی پروژه حذف می‌کند.",
+          "when": "وقتی می‌خواهید شریکی دیگر در توافق تقسیم سود پروژه‌ای که در حال ویرایش آن هستید حضور نداشته باشد، از این گزینه استفاده کنید.",
+          "how": "در بخش تقسیم سهم شرکا در فرم پروژه، در ردیف شریک موردنظر Remove را انتخاب کنید. مجموع سهم‌های نمایش‌داده‌شده بلافاصله دوباره محاسبه می‌شود.",
+          "inputs": "کنترل Remove را در ردیف شریک صحیح انتخاب کنید. ورودی دیگری لازم نیست.",
+          "result": "ردیف شریک انتخاب‌شده از فرم فعلی حذف می‌شود و مجموع سهم صاحب کسب‌وکار و شرکا دوباره محاسبه می‌شود. این عملیات پروژه را ذخیره نمی‌کند.",
+          "notes": "این گزینه فقط ردیف شریک را از فرم ذخیره‌نشده حذف می‌کند؛ شریک را از فهرست مشترک Partners پاک نمی‌کند و پروژه‌های دیگر را تغییر نمی‌دهد. پیش از انتخاب Save Project، مطمئن شوید مجموع سهم صاحب کسب‌وکار و تمام شرکای باقی‌مانده دقیقاً ۱۰۰٪ است."
         },
         "ps": {
-          "purpose": "ټاکل شوې ضمیمه له اوسني فورم یا توکي څخه لرې کوي.",
-          "when": "کله چې نور نه غواړئ فایل له اوسني توکي سره تړلی پاتې شي، دا وکاروئ.",
-          "how": "د هغې ضمیمې تر څنګ Remove وټاکئ چې نور یې له اوسني توکي سره تړل نه غواړئ.",
-          "inputs": "سمه ضمیمه وټاکئ او له لرې کولو مخکې فایل وګورئ.",
-          "result": "که اپلیکیشن کړنه ومني او تایید یې کړي، له اوسني توکي سره د ضمیمې تړاو لرې کېږي.",
-          "notes": "ډاډ ترلاسه کړئ چې سمه فایل مو ټاکلې ده. د ضمیمې لرې کول د اصلي کار یا لګښت له ړنګولو سره توپیر لري."
+          "purpose": "د اوسنۍ پروژې له فورم څخه د شریک د ونډې قطار لرې کوي.",
+          "when": "کله چې نه غواړئ هغه شریک نور د هغې پروژې د ګټې په وېش کې شامل وي چې تاسو یې سمون کوئ، دا اختیار وکاروئ.",
+          "how": "د پروژې فورم د شریکانو د ونډو په برخه کې د هغه شریک په قطار کې Remove وټاکئ چې لرې کول یې غواړئ. ښودل شوې ټوله ونډه سمدستي بیا محاسبه کېږي.",
+          "inputs": "د سم شریک په قطار کې د Remove کنټرول وټاکئ. نورو معلوماتو ته اړتیا نشته.",
+          "result": "د ټاکل شوي شریک قطار له اوسني فورم څخه لرې کېږي او د سوداګرۍ د مالک او شریکانو ټوله ونډه بیا محاسبه کېږي. دا کړنه پروژه نه خوندي کوي.",
+          "notes": "دا یوازې د نه خوندي شوي فورم څخه د شریک قطار لرې کوي؛ شریک د Partners له ګډ لېست څخه نه حذفوي او نورې پروژې نه بدلوي. د Save Project له ټاکلو مخکې ډاډ ترلاسه کړئ چې د مالک او ټولو پاتې شریکانو د ونډو مجموعه بالکل 100% وي."
         }
       },
       "handler_or_behavior": "`this.closest(`"
