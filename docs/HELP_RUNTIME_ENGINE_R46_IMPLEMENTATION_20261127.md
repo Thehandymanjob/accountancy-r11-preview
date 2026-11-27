@@ -100,3 +100,13 @@ Source review corrected the English and Persian text for nine Draft entries: THA
 - Delete Project remains a destructive original action; the Help trigger must remain isolated and must never invoke the Delete handler.
 - Version target: `THA-273-R11-PREVIEW-20261127-R57`. Build ID, canonical URL, index SHA and runtime asset pin must match before Gate approval.
 - Live browser clicks, destructive-action isolation, language switching, mobile layout and iPhone Safari remain unverified. No Preview deployment or Production change.
+
+
+## R58 Company Contracts and project finance bindings
+
+- Added 11 completed Help topics for Company registration/list/P&L, company save/clear, job save/clear, work-package save, package expense, project payment and Accounting invoice payment confirmation.
+- Company menu controls are scoped to `#prPage-company-hub .pr-list` with exact `coOpenCompanyMode(...)` / `prPage(...)` arguments. Form actions are scoped to the Company Contracts & Jobs panel or the exact finance/payment modal.
+- Critical data boundary preserved: Company Contracts & Jobs project expenses and receipts remain separate from Accounting. `coRecordPayment()` writes only to the project/job records; `confirmInvoicePaid()` is a distinct Accounting invoice workflow.
+- Static allowlist count: 69. Total contextual Help controls mapped: 74 (69 static, five dynamic-template).
+- Version target: `THA-273-R11-PREVIEW-20261127-R58`. Build ID, canonical URL, index SHA and runtime asset pin must match before Gate approval.
+- No actual project expense/payment was recorded. Live browser interaction, data-boundary verification, language switching, mobile layout and iPhone Safari remain unverified. No Preview deployment or Production change.
