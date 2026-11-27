@@ -7430,6 +7430,78 @@
           "inputs": "برای بازکردن Control Panel ورودی لازم نیست. هنگام افزودن یا ویرایش سابقه، فهرست انتخاب‌شده ممکن است به اطلاعات مربوط نیاز داشته باشد.",
           "result": "Control Panel سه فهرست Partners، Workers و Contractors را نمایش می‌دهد.",
           "notes": "این صفحه این موارد را سوابق قابل استفاده مجدد کسب‌وکار معرفی می‌کند. در صورت وجود سابقه مالی، ممکن است افراد به‌جای حذف دائمی غیرفعال شوند. تغییر یک سابقه مشترک می‌تواند بر استفاده از آن در پروژه‌ها اثر بگذارد؛ بنابراین پیش از ذخیره، جزئیات را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يفتح الصفحة الرئيسية لـ Control Panel لإدارة سجلات الأعمال المشتركة القابلة لإعادة الاستخدام.",
+          "when": "استخدم هذا القسم عندما تحتاج إلى إدارة سجلات الشركاء أو العمال أو المقاولين المشتركة المستخدمة عبر سير عمل المشاريع.",
+          "how": "من Business Workspace، اختر Control Panel. اختر Partners أو Workers أو Contractors لفتح الدليل المناسب.",
+          "inputs": "لا يلزم إدخال معلومات لفتح Control Panel. قد يتطلب الدليل المحدد تفاصيل عند إضافة سجل أو تعديله.",
+          "result": "يعرض Control Panel ثلاثة أدلة: Partners وWorkers وContractors.",
+          "notes": "تصف الصفحة هذه العناصر بأنها سجلات أعمال قابلة لإعادة الاستخدام. قد يتم تعطيل الأشخاص بدلاً من حذفهم نهائياً عند وجود سجل مالي. قد يؤثر تغيير سجل مشترك في استخدامه عبر المشاريع؛ لذا تحقق من التفاصيل قبل الحفظ."
+        },
+        "ckb": {
+          "purpose": "پەڕەی سەرەکی Control Panel دەکاتەوە بۆ بەڕێوەبردنی تۆمارە هاوبەشەکانی بازرگانی کە دووبارە بەکاردەهێنرێن.",
+          "when": "ئەم بەشە بەکاربهێنە کاتێک پێویستت بە بەڕێوەبردنی تۆمارە هاوبەشەکانی هاوبەش، کرێکار یان پەیمانکار هەیە کە لە ڕێڕەوەکانی پڕۆژەدا بەکاردەهێنرێن.",
+          "how": "لە Business Workspace، Control Panel هەڵبژێرە. Partners، Workers یان Contractors هەڵبژێرە بۆ کردنەوەی پێڕستی پەیوەندیدار.",
+          "inputs": "بۆ کردنەوەی Control Panel هیچ زانیارییەک پێویست نییە. پێڕستی هەڵبژێردراو لەوانەیە کاتی زیادکردن یان دەستکاریکردنی تۆمارێک وردەکاری داوا بکات.",
+          "result": "Control Panel سێ پێڕست پیشان دەدات: Partners، Workers و Contractors.",
+          "notes": "پەڕەکە ئەمانە وەک تۆمارە بازرگانییە دووبارەبەکارهاتووەکان باس دەکات. ئەگەر مێژووی دارایی هەبێت، لەوانەیە کەسەکان ناچالاک بکرێن نەک بە تەواوی بسڕدرێنەوە. گۆڕینی تۆمارێکی هاوبەش لەوانەیە کاریگەری لەسەر بەکارهێنانی لە پڕۆژەکاندا هەبێت؛ بۆیە پێش پاشەکەوتکردن وردەکارییەکان بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Rûpela sereke ya Control Panel vedike da ku tomarên karsaziyê yên hevpar û ji nû ve têne bikaranîn rêve bibe.",
+          "when": "Vê beşê bikar bîne dema ku hewce ye tomarên hevpar ên hevkar, karker an peymankarên ku di rêbazên projeyê de têne bikaranîn rêve bibî.",
+          "how": "Ji Business Workspace Control Panel hilbijêre. Partners, Workers an Contractors hilbijêre da ku pêrista têkildar vebe.",
+          "inputs": "Ji bo vekirina Control Panel agahî nehewce ye. Dema ku tomar tê zêdekirin an guherandin, dibe ku pêrista hilbijartî hûrguliyan bixwaze.",
+          "result": "Control Panel sê pêristan nîşan dide: Partners, Workers û Contractors.",
+          "notes": "Rûpel van wekî tomarên karsaziyê yên ku ji nû ve tên bikaranîn rave dike. Dema ku dîroka darayî hebe, dibe ku kes neyên jêbirin û tenê neçalak bibin. Guhertina tomareke hevpar dibe ku li ser bikaranîna wê di nav projeyan de bandor bike; berî tomarkirinê hûrguliyan kontrol bike."
+        },
+        "tr": {
+          "purpose": "Yeniden kullanılabilir ortak işletme kayıtlarını yönetmek için Control Panel ana sayfasını açar.",
+          "when": "Proje iş akışlarında kullanılan ortak iş ortağı, çalışan veya yüklenici kayıtlarını yönetmeniz gerektiğinde bu bölümü kullanın.",
+          "how": "Business Workspace içinden Control Panel'i seçin. İlgili dizini açmak için Partners, Workers veya Contractors seçeneklerinden birini belirleyin.",
+          "inputs": "Control Panel'i açmak için bilgi gerekmez. Seçilen dizin, kayıt eklerken veya düzenlerken ayrıntılar isteyebilir.",
+          "result": "Control Panel üç dizin gösterir: Partners, Workers ve Contractors.",
+          "notes": "Sayfa bunları yeniden kullanılabilir işletme kayıtları olarak tanımlar. Mali geçmiş varsa kişiler kalıcı olarak silinmek yerine devre dışı bırakılabilir. Ortak bir kayıttaki değişiklik projelerdeki kullanımını etkileyebilir; kaydetmeden önce ayrıntıları doğrulayın."
+        },
+        "pl": {
+          "purpose": "Otwiera stronę główną Control Panel do zarządzania współdzielonymi, wielokrotnego użytku rekordami firmy.",
+          "when": "Użyj tej sekcji, gdy chcesz zarządzać wspólnymi danymi partnerów, pracowników lub wykonawców wykorzystywanymi w procesach projektowych.",
+          "how": "W Business Workspace wybierz Control Panel. Wybierz Partners, Workers lub Contractors, aby otworzyć odpowiedni katalog.",
+          "inputs": "Do otwarcia Control Panel nie są wymagane żadne dane. Wybrany katalog może wymagać szczegółów podczas dodawania lub edycji rekordu.",
+          "result": "Control Panel wyświetla trzy katalogi: Partners, Workers i Contractors.",
+          "notes": "Strona opisuje je jako wielokrotnego użytku rekordy firmy. Jeśli istnieje historia finansowa, osoby mogą zostać dezaktywowane zamiast trwale usunięte. Zmiana wspólnego rekordu może wpłynąć na jego użycie w projektach, dlatego przed zapisaniem sprawdź szczegóły."
+        },
+        "ur": {
+          "purpose": "مشترکہ اور دوبارہ استعمال ہونے والے کاروباری ریکارڈز کے انتظام کے لیے Control Panel کا مرکزی صفحہ کھولتا ہے۔",
+          "when": "اس حصے کو اس وقت استعمال کریں جب آپ کو منصوبوں کے طریقۂ کار میں استعمال ہونے والے مشترکہ شراکت داروں، کارکنوں یا ٹھیکیداروں کے ریکارڈ سنبھالنے ہوں۔",
+          "how": "Business Workspace میں Control Panel منتخب کریں۔ متعلقہ فہرست کھولنے کے لیے Partners، Workers یا Contractors منتخب کریں۔",
+          "inputs": "Control Panel کھولنے کے لیے معلومات درکار نہیں۔ منتخب فہرست میں ریکارڈ شامل یا ترمیم کرتے وقت تفصیلات درکار ہو سکتی ہیں۔",
+          "result": "Control Panel تین فہرستیں دکھاتا ہے: Partners، Workers اور Contractors۔",
+          "notes": "صفحہ ان کو دوبارہ استعمال ہونے والے کاروباری ریکارڈز قرار دیتا ہے۔ اگر مالی تاریخ موجود ہو تو افراد کو مستقل حذف کرنے کے بجائے غیر فعال کیا جا سکتا ہے۔ مشترکہ ریکارڈ میں تبدیلی منصوبوں میں اس کے استعمال کو متاثر کر سکتی ہے، اس لیے محفوظ کرنے سے پہلے تفصیلات کی تصدیق کریں۔"
+        },
+        "pa": {
+          "purpose": "ਸਾਂਝੇ ਅਤੇ ਮੁੜ ਵਰਤਣਯੋਗ ਕਾਰੋਬਾਰੀ ਰਿਕਾਰਡਾਂ ਦੇ ਪ੍ਰਬੰਧ ਲਈ Control Panel ਦਾ ਮੁੱਖ ਪੰਨਾ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਇਸ ਭਾਗ ਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਤੁਹਾਨੂੰ ਪ੍ਰੋਜੈਕਟ ਕੰਮਕਾਜ ਵਿੱਚ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਸਾਂਝੇ ਭਾਈਵਾਲਾਂ, ਕਾਮਿਆਂ ਜਾਂ ਠੇਕੇਦਾਰਾਂ ਦੇ ਰਿਕਾਰਡ ਸੰਭਾਲਣੇ ਹੋਣ।",
+          "how": "Business Workspace ਵਿੱਚੋਂ Control Panel ਚੁਣੋ। ਸੰਬੰਧਿਤ ਡਾਇਰੈਕਟਰੀ ਖੋਲ੍ਹਣ ਲਈ Partners, Workers ਜਾਂ Contractors ਚੁਣੋ।",
+          "inputs": "Control Panel ਖੋਲ੍ਹਣ ਲਈ ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ। ਰਿਕਾਰਡ ਜੋੜਨ ਜਾਂ ਸੋਧਣ ਵੇਲੇ ਚੁਣੀ ਡਾਇਰੈਕਟਰੀ ਵੇਰਵੇ ਮੰਗ ਸਕਦੀ ਹੈ।",
+          "result": "Control Panel ਤਿੰਨ ਡਾਇਰੈਕਟਰੀਆਂ ਦਿਖਾਉਂਦਾ ਹੈ: Partners, Workers ਅਤੇ Contractors।",
+          "notes": "ਪੰਨਾ ਇਨ੍ਹਾਂ ਨੂੰ ਮੁੜ ਵਰਤਣਯੋਗ ਕਾਰੋਬਾਰੀ ਰਿਕਾਰਡ ਦੱਸਦਾ ਹੈ। ਜੇ ਵਿੱਤੀ ਇਤਿਹਾਸ ਮੌਜੂਦ ਹੋਵੇ ਤਾਂ ਲੋਕਾਂ ਨੂੰ ਪੱਕੇ ਤੌਰ 'ਤੇ ਮਿਟਾਉਣ ਦੀ ਬਜਾਏ ਅਕਿਰਿਆਸ਼ੀਲ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ। ਸਾਂਝੇ ਰਿਕਾਰਡ ਵਿੱਚ ਤਬਦੀਲੀ ਪ੍ਰੋਜੈਕਟਾਂ ਵਿੱਚ ਇਸਦੀ ਵਰਤੋਂ ਨੂੰ ਪ੍ਰਭਾਵਿਤ ਕਰ ਸਕਦੀ ਹੈ; ਇਸ ਲਈ ਸੇਵ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਵੇਰਵੇ ਜਾਂਚੋ।"
+        },
+        "prs": {
+          "purpose": "صفحه اصلی Control Panel را برای مدیریت سوابق مشترک و قابل استفاده مجدد کسب‌وکار باز می‌کند.",
+          "when": "وقتی باید سوابق مشترک شرکا، کارگران یا پیمانکارانی را که در گردش‌کارهای پروژه استفاده می‌شوند مدیریت کنید، از این بخش استفاده کنید.",
+          "how": "از Business Workspace گزینه Control Panel را انتخاب کنید. برای بازکردن فهرست مربوط، Partners، Workers یا Contractors را انتخاب کنید.",
+          "inputs": "برای بازکردن Control Panel ورودی لازم نیست. هنگام افزودن یا ویرایش سابقه، فهرست انتخاب‌شده ممکن است جزئیات درخواست کند.",
+          "result": "Control Panel سه فهرست Partners، Workers و Contractors را نمایش می‌دهد.",
+          "notes": "این صفحه این موارد را سوابق قابل استفاده مجدد کسب‌وکار معرفی می‌کند. در صورت وجود سابقه مالی، ممکن است افراد به‌جای حذف دائمی غیرفعال شوند. تغییر یک سابقه مشترک می‌تواند بر استفاده از آن در پروژه‌ها اثر بگذارد؛ بنابراین پیش از ذخیره، جزئیات را بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د ګډو او بیا کارېدونکو سوداګریزو ریکارډونو د سمبالولو لپاره د Control Panel اصلي پاڼه پرانیزي.",
+          "when": "دا برخه هغه وخت وکاروئ چې د پروژو په کاري بهیرونو کې د کارېدونکو شریکانو، کارکوونکو یا قراردادیانو ګډ ریکارډونه اداره کوئ.",
+          "how": "له Business Workspace څخه Control Panel وټاکئ. د اړوند لېست د پرانیستلو لپاره Partners، Workers یا Contractors وټاکئ.",
+          "inputs": "د Control Panel د پرانیستلو لپاره معلوماتو ته اړتیا نشته. ټاکل شوی لېست ښايي د ریکارډ د زیاتولو یا سمولو پر مهال جزئیات وغواړي.",
+          "result": "Control Panel درې لېستونه ښيي: Partners، Workers او Contractors.",
+          "notes": "پاڼه دا د بیا کارېدونکو سوداګریزو ریکارډونو په توګه بیانوي. که مالي تاریخ موجود وي، خلک د تل لپاره د ړنګولو پر ځای غیرفعال کېدای شي. په ګډ ریکارډ کې بدلون ښايي په پروژو کې د هغه پر کارولو اغېز وکړي؛ نو له خوندي کولو مخکې جزئیات وګورئ."
         }
       },
       "handler_or_behavior": "`prPage(`"
@@ -7456,6 +7528,78 @@
           "inputs": "برای بازکردن بخش Projects ورودی لازم نیست. پروژه جدید به نام پروژه و سایر اطلاعات درخواستی فرم نیاز دارد. برای بررسی سود و زیان، در صورت لزوم باید پروژه موردنظر را انتخاب کنید.",
           "result": "بخش Projects گردش‌کارهای پروژه و گزارش مالی در سطح پروژه را ارائه می‌کند. درآمد، هزینه و سود/زیان پروژه در همین بخش باقی می‌مانند.",
           "notes": "سوابق پروژه از سوابق عمومی Accountancy جدا هستند و به Accounting منتقل یا با آن ادغام نمی‌شوند. گزارش‌های پروژه بر اساس اطلاعات ثبت‌شده در بخش پروژه محاسبه می‌شوند؛ پیش از اتکا به ارقام، پروژه انتخاب‌شده و بازه گزارش را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يفتح قسم Projects الذي يوفر إنشاء المشاريع وإدارة المشاريع المحفوظة وتقارير أرباح وخسائر المشاريع.",
+          "when": "استخدم هذا القسم عندما تحتاج إلى إنشاء مشروع مستقل أو العثور على مشروع قائم وإدارته أو مراجعة الأداء المالي الخاص بالمشروع.",
+          "how": "افتح Projects من Business Workspace. اختر New Project لإنشاء مشروع، أو Projects List للبحث عن المشاريع المحفوظة وفتحها، أو Project Profit & Loss لاختيار مشروع ومراجعة أرقامه.",
+          "inputs": "لا يلزم إدخال معلومات لفتح قسم Projects. يتطلب المشروع الجديد اسماً للمشروع والتفاصيل الأخرى التي يطلبها النموذج. وتتطلب مراجعة الأرباح والخسائر اختيار مشروع عند الاقتضاء.",
+          "result": "يوفر قسم Projects إجراءات المشاريع والتقارير المالية على مستوى المشروع. وتظل إيرادات المشروع ومصروفاته وأرباحه أو خسائره ضمن Projects.",
+          "notes": "سجلات المشاريع منفصلة عن سجلات Accountancy العامة ولا تُنقل إلى Accounting أو تُدمج معه. وتعكس تقارير المشاريع البيانات المسجلة في قسم المشاريع؛ تحقق من المشروع المحدد والفترة الزمنية للتقرير قبل الاعتماد على الأرقام."
+        },
+        "ckb": {
+          "purpose": "بەشی Projects دەکاتەوە کە دروستکردنی پڕۆژە، بەڕێوەبردنی پڕۆژە پاشەکەوتکراوەکان و ڕاپۆرتی قازانج و زیانی پڕۆژە دابین دەکات.",
+          "when": "ئەمە بەکاربهێنە کاتێک پێویستت بە دروستکردنی پڕۆژەیەکی سەربەخۆ، دۆزینەوە یان بەڕێوەبردنی پڕۆژەیەکی هەبوو، یان پێداچوونەوە بە ئەدای دارایی تایبەتی پڕۆژە هەیە.",
+          "how": "لە Business Workspace، Projects بکەرەوە. New Project هەڵبژێرە بۆ دروستکردنی پڕۆژە، Projects List بۆ گەڕان و کردنەوەی پڕۆژە پاشەکەوتکراوەکان، یان Project Profit & Loss بۆ هەڵبژاردنی پڕۆژە و پێداچوونەوە بە ژمارەکانی.",
+          "inputs": "بۆ کردنەوەی بەشی Projects هیچ زانیارییەک پێویست نییە. پڕۆژەی نوێ پێویستی بە ناوی پڕۆژە و وردەکارییەکانی تری داواکراوی فۆڕمەکە هەیە. بۆ پێداچوونەوەی قازانج و زیانیش، لە کاتی پێویستدا پڕۆژەیەک هەڵبژێرە.",
+          "result": "بەشی Projects ڕێڕەوی کاری پڕۆژە و ڕاپۆرتی دارایی لە ئاستی پڕۆژە دابین دەکات. داهات، خەرجی و قازانج/زیانی پڕۆژە لە Projectsدا دەمێننەوە.",
+          "notes": "تۆمارەکانی پڕۆژە لە تۆمارە گشتییەکانی Accountancy جیاوازن و بۆ Accounting ناگوازرێنەوە یان لەگەڵی تێکەڵ ناکرێن. ڕاپۆرتەکانی پڕۆژە داتای تۆمارکراو لە بەشی پڕۆژە پیشان دەدەن؛ پێش پشتبەستن بە ژمارەکان، پڕۆژەی هەڵبژێردراو و ماوەی ڕاپۆرت بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Qada Projects vedike ku çêkirina projeyan, rêvebirina projeyên hilanbar û raporkirina qezenc û zirara projeyê peyda dike.",
+          "when": "Vê bikar bîne dema ku hewce ye projeyeke serbixwe çêkî, projeyeke heyî bibînî an rêve bibî, an performansa darayî ya taybet a projeyê binirxînî.",
+          "how": "Projects ji Business Workspace veke. Ji bo çêkirina projeyê New Project, ji bo lêgerîn û vekirina projeyên hilanbar Projects List, an ji bo hilbijartina projeyekê û nirxandina hejmarên wê Project Profit & Loss hilbijêre.",
+          "inputs": "Ji bo vekirina qada Projects agahî nehewce ye. Projeyeke nû navê projeyê û hûrguliyên din ên ku form dixwaze hewce dike. Ji bo nirxandina qezenc û zirarê, dema pêwîst be divê projeyek were hilbijartin.",
+          "result": "Qada Projects rêbazên projeyê û raporkirina darayî ya asta projeyê peyda dike. Dahat, lêçûn û qezenc/ziyana projeyê di Projects de dimînin.",
+          "notes": "Tomarên projeyê ji tomarên giştî yên Accountancy cuda ne û nayên veguheztin an tevlihevkirin bi Accounting re. Raportên projeyê daneyên ku di qada projeyê de hatine tomar kirin nîşan didin; berî ku xwe dispêrî hejmaran, projeya hilbijartî û dema raporê kontrol bike."
+        },
+        "tr": {
+          "purpose": "Proje oluşturma, kayıtlı projeleri yönetme ve projeye özel kâr-zarar raporlaması sağlayan Projects alanını açar.",
+          "when": "Bağımsız bir proje oluşturmanız, mevcut bir projeyi bulup yönetmeniz veya projeye özgü mali performansı incelemeniz gerektiğinde kullanın.",
+          "how": "Business Workspace içinden Projects'i açın. Proje oluşturmak için New Project'i, kayıtlı projeleri arayıp açmak için Projects List'i veya bir proje seçip rakamlarını incelemek için Project Profit & Loss'u belirleyin.",
+          "inputs": "Projects alanını açmak için bilgi gerekmez. Yeni proje için proje adı ve formun istediği diğer ayrıntılar gerekir. Kâr-zarar incelemesi, gerektiğinde bir proje seçilmesini gerektirir.",
+          "result": "Projects alanı proje iş akışlarını ve proje düzeyinde mali raporlamayı sağlar. Proje gelirleri, giderleri ve kâr/zararı Projects içinde kalır.",
+          "notes": "Proje kayıtları genel Accountancy kayıtlarından ayrıdır ve Accounting'e aktarılmaz veya onunla birleştirilmez. Proje raporları proje alanına kaydedilen verileri yansıtır; rakamlara güvenmeden önce seçilen projeyi ve rapor dönemini doğrulayın."
+        },
+        "pl": {
+          "purpose": "Otwiera obszar Projects, który umożliwia tworzenie projektów, zarządzanie zapisanymi projektami oraz raportowanie zysków i strat projektu.",
+          "when": "Użyj tej sekcji, gdy chcesz utworzyć samodzielny projekt, znaleźć lub zarządzać istniejącym projektem albo przejrzeć jego wyniki finansowe.",
+          "how": "Otwórz Projects w Business Workspace. Wybierz New Project, aby utworzyć projekt, Projects List, aby wyszukiwać i otwierać zapisane projekty, lub Project Profit & Loss, aby wybrać projekt i przejrzeć jego dane.",
+          "inputs": "Do otwarcia obszaru Projects nie są wymagane żadne dane. Nowy projekt wymaga nazwy i pozostałych informacji wskazanych w formularzu. Przegląd zysków i strat wymaga wybrania projektu, jeśli ma to zastosowanie.",
+          "result": "Obszar Projects udostępnia procesy projektowe i raportowanie finansowe na poziomie projektu. Przychody, wydatki i zysk/strata projektu pozostają w Projects.",
+          "notes": "Rekordy projektów są oddzielone od ogólnych danych Accountancy i nie są przenoszone do Accounting ani z nim łączone. Raporty projektów odzwierciedlają dane zapisane w obszarze projektów; przed poleganiem na liczbach sprawdź wybrany projekt i okres raportowania."
+        },
+        "ur": {
+          "purpose": "Projects کا حصہ کھولتا ہے، جہاں منصوبے بنائے جا سکتے ہیں، محفوظ منصوبوں کا انتظام کیا جا سکتا ہے اور منصوبے کے نفع و نقصان کی رپورٹ دیکھی جا سکتی ہے۔",
+          "when": "اسے اس وقت استعمال کریں جب آپ کو الگ منصوبہ بنانا، موجودہ منصوبہ تلاش یا سنبھالنا، یا کسی منصوبے کی مخصوص مالی کارکردگی دیکھنی ہو۔",
+          "how": "Business Workspace سے Projects کھولیں۔ منصوبہ بنانے کے لیے New Project، محفوظ منصوبے تلاش اور کھولنے کے لیے Projects List، یا منصوبہ منتخب کرکے اس کے اعداد دیکھنے کے لیے Project Profit & Loss منتخب کریں۔",
+          "inputs": "Projects حصہ کھولنے کے لیے معلومات درکار نہیں۔ نئے منصوبے کے لیے منصوبے کا نام اور فارم کی دیگر مطلوبہ تفصیلات ضروری ہیں۔ نفع و نقصان کے جائزے کے لیے، جہاں لاگو ہو، منصوبہ منتخب کرنا ضروری ہے۔",
+          "result": "Projects حصہ منصوبوں کے طریقۂ کار اور منصوبے کی سطح پر مالی رپورٹنگ فراہم کرتا ہے۔ منصوبے کی آمدنی، اخراجات اور نفع/نقصان Projects کے اندر ہی رہتے ہیں۔",
+          "notes": "منصوبوں کے ریکارڈ عمومی Accountancy ریکارڈز سے الگ ہیں اور Accounting میں منتقل یا اس کے ساتھ یکجا نہیں ہوتے۔ منصوبوں کی رپورٹس اسی حصے میں درج ڈیٹا دکھاتی ہیں؛ اعداد پر بھروسا کرنے سے پہلے منتخب منصوبہ اور رپورٹ کی مدت کی تصدیق کریں۔"
+        },
+        "pa": {
+          "purpose": "Projects ਖੇਤਰ ਖੋਲ੍ਹਦਾ ਹੈ, ਜੋ ਪ੍ਰੋਜੈਕਟ ਬਣਾਉਣ, ਸੰਭਾਲੇ ਪ੍ਰੋਜੈਕਟਾਂ ਦੇ ਪ੍ਰਬੰਧ ਅਤੇ ਪ੍ਰੋਜੈਕਟ ਦੇ ਨਫ਼ੇ-ਨੁਕਸਾਨ ਦੀ ਰਿਪੋਰਟਿੰਗ ਦਿੰਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਤੁਹਾਨੂੰ ਸੁਤੰਤਰ ਪ੍ਰੋਜੈਕਟ ਬਣਾਉਣਾ, ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਲੱਭਣਾ ਜਾਂ ਸੰਭਾਲਣਾ, ਜਾਂ ਪ੍ਰੋਜੈਕਟ ਦੀ ਖਾਸ ਵਿੱਤੀ ਕਾਰਗੁਜ਼ਾਰੀ ਵੇਖਣੀ ਹੋਵੇ।",
+          "how": "Business Workspace ਵਿੱਚੋਂ Projects ਖੋਲ੍ਹੋ। ਪ੍ਰੋਜੈਕਟ ਬਣਾਉਣ ਲਈ New Project, ਸੰਭਾਲੇ ਪ੍ਰੋਜੈਕਟ ਲੱਭਣ ਅਤੇ ਖੋਲ੍ਹਣ ਲਈ Projects List, ਜਾਂ ਪ੍ਰੋਜੈਕਟ ਚੁਣ ਕੇ ਅੰਕੜੇ ਵੇਖਣ ਲਈ Project Profit & Loss ਚੁਣੋ।",
+          "inputs": "Projects ਖੇਤਰ ਖੋਲ੍ਹਣ ਲਈ ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ। ਨਵੇਂ ਪ੍ਰੋਜੈਕਟ ਲਈ ਪ੍ਰੋਜੈਕਟ ਦਾ ਨਾਮ ਅਤੇ ਫਾਰਮ ਵੱਲੋਂ ਮੰਗੇ ਹੋਰ ਵੇਰਵੇ ਲਾਜ਼ਮੀ ਹਨ। ਨਫ਼ੇ-ਨੁਕਸਾਨ ਦੀ ਸਮੀਖਿਆ ਲਈ ਜਿੱਥੇ ਲਾਗੂ ਹੋਵੇ ਪ੍ਰੋਜੈਕਟ ਚੁਣਨਾ ਲਾਜ਼ਮੀ ਹੈ।",
+          "result": "Projects ਖੇਤਰ ਪ੍ਰੋਜੈਕਟ ਕੰਮਕਾਜ ਅਤੇ ਪ੍ਰੋਜੈਕਟ ਪੱਧਰ ਦੀ ਵਿੱਤੀ ਰਿਪੋਰਟਿੰਗ ਦਿੰਦਾ ਹੈ। ਪ੍ਰੋਜੈਕਟ ਦੀ ਆਮਦਨ, ਖਰਚੇ ਅਤੇ ਨਫ਼ਾ/ਨੁਕਸਾਨ Projects ਵਿੱਚ ਹੀ ਰਹਿੰਦੇ ਹਨ।",
+          "notes": "ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਆਮ Accountancy ਰਿਕਾਰਡਾਂ ਤੋਂ ਵੱਖਰੇ ਹਨ ਅਤੇ Accounting ਵਿੱਚ ਤਬਦੀਲ ਜਾਂ ਉਸ ਨਾਲ ਜੋੜੇ ਨਹੀਂ ਜਾਂਦੇ। ਪ੍ਰੋਜੈਕਟ ਰਿਪੋਰਟਾਂ ਪ੍ਰੋਜੈਕਟ ਖੇਤਰ ਵਿੱਚ ਦਰਜ ਡਾਟਾ ਦਿਖਾਉਂਦੀਆਂ ਹਨ; ਅੰਕੜਿਆਂ 'ਤੇ ਭਰੋਸਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਅਤੇ ਰਿਪੋਰਟ ਮਿਆਦ ਦੀ ਜਾਂਚ ਕਰੋ।"
+        },
+        "prs": {
+          "purpose": "بخش Projects را باز می‌کند که امکان ایجاد پروژه، مدیریت پروژه‌های ذخیره‌شده و گزارش سود و زیان پروژه را فراهم می‌کند.",
+          "when": "وقتی باید پروژه مستقلی ایجاد کنید، پروژه موجودی را بیابید یا مدیریت کنید، یا عملکرد مالی ویژه پروژه را بررسی کنید، از این بخش استفاده کنید.",
+          "how": "از Business Workspace وارد Projects شوید. برای ایجاد پروژه New Project، برای جست‌وجو و بازکردن پروژه‌های ذخیره‌شده Projects List، یا برای انتخاب پروژه و بررسی ارقام آن Project Profit & Loss را انتخاب کنید.",
+          "inputs": "برای بازکردن بخش Projects ورودی لازم نیست. پروژه جدید به نام پروژه و سایر جزئیات درخواستی فرم نیاز دارد. بررسی سود و زیان، در صورت لزوم، به انتخاب پروژه نیاز دارد.",
+          "result": "بخش Projects گردش‌کارهای پروژه و گزارش مالی در سطح پروژه را ارائه می‌کند. درآمد، هزینه و سود/زیان پروژه در Projects باقی می‌مانند.",
+          "notes": "سوابق پروژه از سوابق عمومی Accountancy جدا هستند و به Accounting منتقل یا با آن ادغام نمی‌شوند. گزارش‌های پروژه داده‌های ثبت‌شده در بخش پروژه را نشان می‌دهند؛ پیش از اتکا به ارقام، پروژه انتخاب‌شده و دوره گزارش را بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د Projects برخه پرانیزي، چې د پروژو جوړول، د خوندي شويو پروژو سمبالول او د پروژې د ګټې او تاوان راپور ورکول برابروي.",
+          "when": "دا هغه وخت وکاروئ چې خپلواکه پروژه جوړوئ، موجوده پروژه مومئ یا اداره کوئ، یا د پروژې ځانګړی مالي فعالیت ارزوی.",
+          "how": "له Business Workspace څخه Projects پرانیزئ. د پروژې جوړولو لپاره New Project، د خوندي شويو پروژو د لټون او پرانیستلو لپاره Projects List، یا د پروژې د ټاکلو او د شمېرو د کتلو لپاره Project Profit & Loss وټاکئ.",
+          "inputs": "د Projects برخې د پرانیستلو لپاره معلوماتو ته اړتیا نشته. نوې پروژه د پروژې نوم او د فورمې نور غوښتل شوي جزئیات غواړي. د ګټې او تاوان د کتنې لپاره، چېرې چې اړین وي، پروژه ټاکل اړین دي.",
+          "result": "د Projects برخه د پروژې کاري بهیرونه او د پروژې په کچه مالي راپور ورکول برابروي. د پروژې عاید، لګښتونه او ګټه/تاوان په Projects کې پاتې کېږي.",
+          "notes": "د پروژې ریکارډونه د Accountancy له عمومي ریکارډونو څخه جلا دي او Accounting ته نه لېږدول کېږي او نه ورسره یوځای کېږي. د پروژې راپورونه د پروژې په برخه کې ثبت شوي معلومات ښيي؛ پر شمېرو له تکیې مخکې ټاکل شوې پروژه او د راپور موده وګورئ."
         }
       },
       "handler_or_behavior": "`prPage(`"
@@ -7482,6 +7626,78 @@
           "inputs": "برای بازکردن مرکز ورودی لازم نیست. فرم‌های شرکت و کار اطلاعات مخصوص خود را درخواست می‌کنند؛ هنگام ایجاد این سوابق، نام شرکت و نام کار الزامی است.",
           "result": "این مرکز گزینه‌های مدیریت شرکت و گزارش مالی جداگانه کارهای شرکتی را نمایش می‌دهد.",
           "notes": "سوابق مالی کارهای شرکتی جدا از Accountancy نگهداری می‌شوند و خودکار به آن منتقل یا با آن ادغام نمی‌شوند. نمای سود و زیان این مرکز فقط از سوابق Company Contracts & Jobs استفاده می‌کند."
+        },
+        "ar": {
+          "purpose": "يفتح مركز Company Contracts & Jobs الذي يوفر تسجيل الشركات وقوائمها وتقارير أرباح وخسائر أعمال الشركات.",
+          "when": "استخدم هذا القسم لتنظيم التعاملات مع الشركات وإدارة سجلات الشركات والأعمال المرتبطة بها.",
+          "how": "من Business Workspace، افتح Company Contracts & Jobs. اختر Add Company لتسجيل شركة، أو Companies List للعثور على الشركات المسجلة وفتح أعمالها، أو Company Project Profit & Loss لمراجعة نتائج الشركة أو العمل.",
+          "inputs": "لا يلزم إدخال معلومات لفتح المركز. تطلب نماذج الشركة والعمل تفاصيلها الخاصة؛ ويلزم اسم الشركة واسم العمل عند إنشاء تلك السجلات.",
+          "result": "يعرض المركز إجراءات إدارة الشركات والتقرير المالي المنفصل لأعمال الشركات.",
+          "notes": "تُحفظ السجلات المالية لأعمال الشركات بشكل منفصل عن Accountancy ولا تُنقل إليها أو تُدمج معها تلقائياً. ويستخدم عرض الأرباح والخسائر في المركز سجلات Company Contracts & Jobs فقط."
+        },
+        "ckb": {
+          "purpose": "ناوەندی Company Contracts & Jobs دەکاتەوە کە تۆمارکردنی کۆمپانیا، لیستی کۆمپانیاکان و ڕاپۆرتی قازانج و زیانی کاری کۆمپانیا دابین دەکات.",
+          "when": "ئەمە بەکاربهێنە بۆ ڕێکخستنی کار و هاوکارییەکانی کۆمپانیا و بەڕێوەبردنی تۆمارە پەیوەندیدارەکانی کۆمپانیا و کارەکان.",
+          "how": "لە Business Workspace، Company Contracts & Jobs بکەرەوە. Add Company هەڵبژێرە بۆ تۆمارکردنی کۆمپانیا، Companies List بۆ دۆزینەوەی کۆمپانیا تۆمارکراوەکان و کردنەوەی کارەکانیان، یان Company Project Profit & Loss بۆ پێداچوونەوە بە ئەنجامەکانی کۆمپانیا/کار.",
+          "inputs": "بۆ کردنەوەی ناوەندی زانیارییەک پێویست نییە. فۆڕمەکانی کۆمپانیا و کار وردەکاری تایبەتی خۆیان داوا دەکەن؛ بۆ تۆمارە نوێکان ناوی کۆمپانیا و ناوی کار پێویستن.",
+          "result": "ناوەند کردارەکانی بەڕێوەبردنی کۆمپانیا و ڕاپۆرتی دارایی جیاوازی کاری کۆمپانیا پیشان دەدات.",
+          "notes": "تۆمارە داراییەکانی کاری کۆمپانیا بە جیا لە Accountancy هەڵدەگیرێن و بە شێوەی خۆکار بۆی ناگوازرێنەوە یان لەگەڵی تێکەڵ ناکرێن. پیشاندانی قازانج و زیانی ناوەندەکە تەنها تۆمارەکانی Company Contracts & Jobs بەکاردەهێنێت."
+        },
+        "kmr": {
+          "purpose": "Navenda Company Contracts & Jobs vedike ku tomarkirina pargîdaniyan, lîsteyên wan û raporkirina qezenc û zirara karên pargîdaniyê peyda dike.",
+          "when": "Vê beşê bikar bîne dema ku têkiliyên karsaziyê bi pargîdaniyan re rêk dixe û tomarên pargîdanî û karên girêdayî rêve dibe.",
+          "how": "Ji Business Workspace Company Contracts & Jobs veke. Ji bo tomarkirina pargîdaniyekê Add Company, ji bo dîtina pargîdaniyên qeydkirî û vekirina karên wan Companies List, an ji bo nirxandina encamên pargîdanî/karê Company Project Profit & Loss hilbijêre.",
+          "inputs": "Ji bo vekirina navendê agahî nehewce ye. Formên pargîdanî û kar hûrguliyên xwe dixwazin; ji bo tomarên nû navê pargîdanî û navê kar pêwîst in.",
+          "result": "Navend kiryarên rêvebirina pargîdaniyê û rapora darayî ya cuda ya karên pargîdaniyê nîşan dide.",
+          "notes": "Tomarên darayî yên karên pargîdaniyê ji Accountancy cuda tên hilanîn û bi awayekî xweber nayên veguheztin an tevlihevkirin. Dîtina qezenc û zirarê ya navendê tenê tomarên Company Contracts & Jobs bikar tîne."
+        },
+        "tr": {
+          "purpose": "Şirket kaydı, şirket listeleri ve şirket işlerine ait kâr-zarar raporlaması sağlayan Company Contracts & Jobs merkezini açar.",
+          "when": "Şirketlerle yürütülen işleri düzenlemek ve ilgili şirket ve iş kayıtlarını yönetmek için bu bölümü kullanın.",
+          "how": "Business Workspace içinden Company Contracts & Jobs bölümünü açın. Şirket kaydetmek için Add Company, kayıtlı şirketleri bulup işlerini açmak için Companies List veya şirket/iş sonuçlarını incelemek için Company Project Profit & Loss seçeneğini belirleyin.",
+          "inputs": "Merkezi açmak için bilgi gerekmez. Şirket ve iş formları kendi ayrıntılarını ister; yeni kayıt oluştururken şirket adı ve iş adı zorunludur.",
+          "result": "Merkez, şirket yönetimi işlemlerini ve şirket işlerine ait ayrı mali raporu gösterir.",
+          "notes": "Şirket işlerinin mali kayıtları Accountancy'den ayrı tutulur ve otomatik olarak aktarılmaz veya birleştirilmez. Merkezin kâr-zarar görünümü yalnızca Company Contracts & Jobs kayıtlarını kullanır."
+        },
+        "pl": {
+          "purpose": "Otwiera centrum Company Contracts & Jobs, które umożliwia rejestrowanie firm, przeglądanie list firm i raportowanie zysków i strat zleceń firmowych.",
+          "when": "Użyj tej sekcji do organizowania współpracy z firmami i zarządzania powiązanymi rekordami firm oraz zleceń.",
+          "how": "W Business Workspace otwórz Company Contracts & Jobs. Wybierz Add Company, aby zarejestrować firmę, Companies List, aby znaleźć zarejestrowane firmy i otworzyć ich zlecenia, lub Company Project Profit & Loss, aby przejrzeć wyniki firmy lub zlecenia.",
+          "inputs": "Do otwarcia centrum nie są wymagane żadne dane. Formularze firmy i zlecenia wymagają własnych informacji; przy tworzeniu nowych rekordów wymagane są nazwa firmy i nazwa zlecenia.",
+          "result": "Centrum wyświetla działania związane z zarządzaniem firmami oraz oddzielny raport finansowy zleceń firmowych.",
+          "notes": "Dane finansowe zleceń firmowych są przechowywane oddzielnie od Accountancy i nie są automatycznie przenoszone ani łączone. Widok zysków i strat w centrum korzysta wyłącznie z rekordów Company Contracts & Jobs."
+        },
+        "ur": {
+          "purpose": "Company Contracts & Jobs مرکز کھولتا ہے، جہاں کمپنیاں رجسٹر کی جا سکتی ہیں، کمپنیوں کی فہرست دیکھی جا سکتی ہے اور کمپنی کے کاموں کے نفع و نقصان کی رپورٹ حاصل کی جا سکتی ہے۔",
+          "when": "کمپنیوں کے ساتھ کام منظم کرنے اور متعلقہ کمپنی اور کام کے ریکارڈ سنبھالنے کے لیے یہ حصہ استعمال کریں۔",
+          "how": "Business Workspace میں Company Contracts & Jobs کھولیں۔ کمپنی رجسٹر کرنے کے لیے Add Company، رجسٹرڈ کمپنیاں تلاش کرکے ان کے کام کھولنے کے لیے Companies List، یا کمپنی/کام کے نتائج دیکھنے کے لیے Company Project Profit & Loss منتخب کریں۔",
+          "inputs": "مرکز کھولنے کے لیے معلومات درکار نہیں۔ کمپنی اور کام کے فارم اپنی تفصیلات مانگتے ہیں؛ نئے ریکارڈ بناتے وقت کمپنی کا نام اور کام کا نام ضروری ہیں۔",
+          "result": "مرکز کمپنی کے انتظام کے اختیارات اور کمپنی کے کاموں کی الگ مالی رپورٹ دکھاتا ہے۔",
+          "notes": "کمپنی کے کاموں کے مالی ریکارڈ Accountancy سے الگ رکھے جاتے ہیں اور خودکار طور پر اس میں منتقل یا ضم نہیں ہوتے۔ مرکز کا نفع و نقصان کا منظر صرف Company Contracts & Jobs کے ریکارڈ استعمال کرتا ہے۔"
+        },
+        "pa": {
+          "purpose": "Company Contracts & Jobs ਹੱਬ ਖੋਲ੍ਹਦਾ ਹੈ, ਜੋ ਕੰਪਨੀ ਰਜਿਸਟ੍ਰੇਸ਼ਨ, ਕੰਪਨੀ ਸੂਚੀਆਂ ਅਤੇ ਕੰਪਨੀ ਦੇ ਕੰਮਾਂ ਦੇ ਨਫ਼ੇ-ਨੁਕਸਾਨ ਦੀ ਰਿਪੋਰਟ ਦਿੰਦਾ ਹੈ।",
+          "when": "ਕੰਪਨੀਆਂ ਨਾਲ ਜੁੜੇ ਕੰਮਾਂ ਨੂੰ ਵਿਵਸਥਿਤ ਕਰਨ ਅਤੇ ਸੰਬੰਧਿਤ ਕੰਪਨੀ ਤੇ ਕੰਮ ਦੇ ਰਿਕਾਰਡ ਸੰਭਾਲਣ ਲਈ ਇਹ ਭਾਗ ਵਰਤੋ।",
+          "how": "Business Workspace ਵਿੱਚੋਂ Company Contracts & Jobs ਖੋਲ੍ਹੋ। ਕੰਪਨੀ ਦਰਜ ਕਰਨ ਲਈ Add Company, ਰਜਿਸਟਰਡ ਕੰਪਨੀਆਂ ਲੱਭਣ ਅਤੇ ਉਨ੍ਹਾਂ ਦੇ ਕੰਮ ਖੋਲ੍ਹਣ ਲਈ Companies List, ਜਾਂ ਕੰਪਨੀ/ਕੰਮ ਦੇ ਨਤੀਜੇ ਵੇਖਣ ਲਈ Company Project Profit & Loss ਚੁਣੋ।",
+          "inputs": "ਹੱਬ ਖੋਲ੍ਹਣ ਲਈ ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ। ਕੰਪਨੀ ਅਤੇ ਕੰਮ ਦੇ ਫਾਰਮ ਆਪਣੇ ਵੇਰਵੇ ਮੰਗਦੇ ਹਨ; ਨਵੇਂ ਰਿਕਾਰਡ ਬਣਾਉਣ ਵੇਲੇ ਕੰਪਨੀ ਦਾ ਨਾਮ ਅਤੇ ਕੰਮ ਦਾ ਨਾਮ ਲਾਜ਼ਮੀ ਹਨ।",
+          "result": "ਹੱਬ ਕੰਪਨੀ ਪ੍ਰਬੰਧਨ ਦੀਆਂ ਕਾਰਵਾਈਆਂ ਅਤੇ ਕੰਪਨੀ ਦੇ ਕੰਮਾਂ ਦੀ ਵੱਖਰੀ ਵਿੱਤੀ ਰਿਪੋਰਟ ਦਿਖਾਉਂਦਾ ਹੈ।",
+          "notes": "ਕੰਪਨੀ ਦੇ ਕੰਮਾਂ ਦੇ ਵਿੱਤੀ ਰਿਕਾਰਡ Accountancy ਤੋਂ ਵੱਖਰੇ ਰੱਖੇ ਜਾਂਦੇ ਹਨ ਅਤੇ ਆਪਣੇ ਆਪ ਤਬਦੀਲ ਜਾਂ ਇਕੱਠੇ ਨਹੀਂ ਹੁੰਦੇ। ਹੱਬ ਦਾ ਨਫ਼ਾ-ਨੁਕਸਾਨ ਦ੍ਰਿਸ਼ ਸਿਰਫ਼ Company Contracts & Jobs ਦੇ ਰਿਕਾਰਡ ਵਰਤਦਾ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "مرکز Company Contracts & Jobs را باز می‌کند که امکان ثبت شرکت، مشاهده فهرست شرکت‌ها و گزارش سود و زیان کارهای شرکتی را فراهم می‌کند.",
+          "when": "برای سازمان‌دهی همکاری با شرکت‌ها و مدیریت سوابق شرکت‌ها و کارهای مرتبط از این بخش استفاده کنید.",
+          "how": "از Business Workspace وارد Company Contracts & Jobs شوید. برای ثبت شرکت Add Company، برای یافتن شرکت‌های ثبت‌شده و بازکردن کارهای آن‌ها Companies List، یا برای بررسی نتایج شرکت یا کار Company Project Profit & Loss را انتخاب کنید.",
+          "inputs": "برای بازکردن مرکز ورودی لازم نیست. فرم‌های شرکت و کار اطلاعات مخصوص خود را درخواست می‌کنند؛ هنگام ایجاد سوابق جدید، نام شرکت و نام کار الزامی هستند.",
+          "result": "این مرکز گزینه‌های مدیریت شرکت و گزارش مالی جداگانه کارهای شرکتی را نمایش می‌دهد.",
+          "notes": "سوابق مالی کارهای شرکتی جدا از Accountancy نگهداری می‌شوند و خودکار به آن منتقل یا با آن ادغام نمی‌شوند. نمای سود و زیان این مرکز فقط از سوابق Company Contracts & Jobs استفاده می‌کند."
+        },
+        "ps": {
+          "purpose": "د Company Contracts & Jobs مرکز پرانیزي، چې د شرکتونو ثبت، د شرکتونو لېستونه او د شرکت د کارونو د ګټې او تاوان راپور ورکول برابروي.",
+          "when": "دا برخه د شرکتونو د کارونو د تنظیم او د اړوندو شرکتونو او دندو د ریکارډونو د سمبالولو لپاره وکاروئ.",
+          "how": "له Business Workspace څخه Company Contracts & Jobs پرانیزئ. د شرکت د ثبت لپاره Add Company، د ثبت شويو شرکتونو د موندلو او د هغوی د کارونو د پرانیستلو لپاره Companies List، یا د شرکت/کار د پایلو د کتلو لپاره Company Project Profit & Loss وټاکئ.",
+          "inputs": "د مرکز د پرانیستلو لپاره معلوماتو ته اړتیا نشته. د شرکت او کار فورمې خپل جزئیات غواړي؛ د نویو ریکارډونو د جوړولو لپاره د شرکت نوم او د کار نوم اړین دي.",
+          "result": "مرکز د شرکت د مدیریت کړنې او د شرکت د کارونو جلا مالي راپور ښيي.",
+          "notes": "د شرکت د کارونو مالي ریکارډونه له Accountancy څخه جلا ساتل کېږي او په اتومات ډول نه ورلېږدول کېږي او نه ورسره یوځای کېږي. د مرکز د ګټې او تاوان لید یوازې د Company Contracts & Jobs ریکارډونه کاروي."
         }
       },
       "handler_or_behavior": "`prOpenCompanyHubFromWorkspace()`"
@@ -7508,6 +7724,78 @@
           "inputs": "برای بازکردن Control Panel ورودی لازم نیست. هنگام ایجاد سابقه شریک، کارگر یا پیمانکار، نام الزامی را وارد کنید؛ سایر فیلدهای تماس و یادداشت‌ها به فرم انتخاب‌شده بستگی دارند و ممکن است اختیاری باشند.",
           "result": "Control Panel دسترسی به فهرست‌های Partners، Workers و Contractors را فراهم می‌کند.",
           "notes": "این سوابق مشترک هستند و می‌توان آن‌ها را در بیش از یک گردش‌کار پروژه انتخاب کرد. طبق توضیح صفحه، در صورت وجود سابقه مالی، افراد به‌جای حذف دائمی غیرفعال می‌شوند. پیش از ویرایش، از انتخاب سابقه صحیح اطمینان حاصل کنید."
+        },
+        "ar": {
+          "purpose": "يفتح Control Panel، حيث تتم إدارة أدلة Partners وWorkers وContractors القابلة لإعادة الاستخدام.",
+          "when": "استخدم هذا عند إضافة جهة اتصال تجارية مشتركة أو البحث عنها أو صيانتها لاستخدامها في سير عمل المشاريع.",
+          "how": "من Business Workspace، اختر Control Panel. اختر Partners أو Workers أو Contractors. افتح الدليل المناسب لإضافة سجلاته أو تعديلها أو مراجعتها.",
+          "inputs": "لا يلزم إدخال معلومات لفتح Control Panel. عند إنشاء شريك أو عامل أو مقاول، أدخل الاسم المطلوب؛ وتعتمد حقول الاتصال والملاحظات الأخرى على النموذج المحدد وقد تكون اختيارية.",
+          "result": "يوفر Control Panel الوصول إلى أدلة Partners وWorkers وContractors.",
+          "notes": "هذه سجلات مشتركة يمكن اختيارها في أكثر من سير عمل للمشاريع. توضح الصفحة أنه يتم تعطيل الأشخاص بدلاً من حذفهم نهائياً عند وجود سجل مالي. تحقق من السجل الصحيح قبل تعديله."
+        },
+        "ckb": {
+          "purpose": "Control Panel دەکاتەوە؛ لەوێ پێڕستە دووبارەبەکارهاتووەکانی Partners، Workers وContractors بەڕێوەدەبرێن.",
+          "when": "ئەمە بەکاربهێنە کاتێک هاوبەشێکی بازرگانی زیاد دەکەیت، دەیدۆزیتەوە یان زانیاری پەیوەندییە هاوبەشەکەی بۆ بەکارهێنان لە ڕێڕەوەکانی پڕۆژەدا نوێ دەکەیتەوە.",
+          "how": "لە Business Workspace، Control Panel هەڵبژێرە. Partners، Workers یان Contractors هەڵبژێرە. پێڕستی پەیوەندیدار بکەرەوە بۆ زیادکردن، دەستکاریکردن یان پێداچوونەوە بە تۆمارەکانی.",
+          "inputs": "بۆ کردنەوەی Control Panel هیچ زانیارییەک پێویست نییە. کاتێک هاوبەش، کرێکار یان پەیمانکار دروست دەکەیت، ناوی پێویست بنووسە؛ خانەکانی تری پەیوەندی و تێبینی بە فۆڕمی هەڵبژێردراوەوە پەیوەستن و لەوانەیە ئارەزوومەندانە بن.",
+          "result": "Control Panel دەستگەیشتن بە پێڕستەکانی Partners، Workers و Contractors دابین دەکات.",
+          "notes": "ئەمە تۆمارە هاوبەشەکانن کە دەتوانرێت لە زیاتر لە یەک ڕێڕەوی پڕۆژەدا هەڵبژێردرێن. پەڕەکە دەڵێت ئەگەر مێژووی دارایی هەبێت، کەسەکان ناچالاک دەکرێن نەک بە تەواوی بسڕدرێنەوە. پێش دەستکاریکردن، تۆماری دروست بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Control Panel vedike, ku tê de pêristên Partners, Workers û Contractors yên ji nû ve têne bikaranîn tên rêvebirin.",
+          "when": "Vê bikar bîne dema ku têkiliyeke karsaziyê ya hevpar ji bo bikaranîn di rêbazên projeyê de zêde dikî, dibînî an nû dikî.",
+          "how": "Ji Business Workspace Control Panel hilbijêre. Partners, Workers an Contractors hilbijêre. Pêrista têkildar veke da ku tomarên wê zêde bikî, biguherînî an binirxînî.",
+          "inputs": "Ji bo vekirina Control Panel agahî nehewce ye. Dema ku hevkar, karker an peymankar çêdikî, navê pêwîst binivîse; qadên din ên têkilî û notan bi forma hilbijartî ve girêdayî ne û dibe ku vebijarkî bin.",
+          "result": "Control Panel gihîştina pêristên Partners, Workers û Contractors peyda dike.",
+          "notes": "Ev tomarên hevpar in ku dikarin di zêdetirî yek rêbaza projeyê de bên hilbijartin. Rûpel dibêje ku dema dîroka darayî hebe, kes ne tên jêbirin û tenê neçalak dibin. Berî guherandinê tomara rast kontrol bike."
+        },
+        "tr": {
+          "purpose": "Yeniden kullanılabilir Partners, Workers ve Contractors dizinlerinin yönetildiği Control Panel'i açar.",
+          "when": "Proje iş akışlarında kullanılacak ortak bir işletme kişisini eklerken, ararken veya bilgilerini güncellerken kullanın.",
+          "how": "Business Workspace içinden Control Panel'i seçin. Partners, Workers veya Contractors seçeneklerinden birini belirleyin. Kayıt eklemek, düzenlemek veya incelemek için ilgili dizini açın.",
+          "inputs": "Control Panel'i açmak için bilgi gerekmez. Bir iş ortağı, çalışan veya yüklenici oluştururken gerekli adı girin; diğer iletişim alanları ve notlar seçilen forma bağlıdır ve isteğe bağlı olabilir.",
+          "result": "Control Panel, Partners, Workers ve Contractors dizinlerine erişim sağlar.",
+          "notes": "Bunlar birden fazla proje iş akışında seçilebilen ortak kayıtlardır. Sayfa, mali geçmiş varsa kişilerin kalıcı olarak silinmek yerine devre dışı bırakıldığını belirtir. Düzenlemeden önce doğru kaydı kontrol edin."
+        },
+        "pl": {
+          "purpose": "Otwiera Control Panel, w którym zarządza się wielokrotnego użytku katalogami Partners, Workers i Contractors.",
+          "when": "Użyj tej opcji podczas dodawania, wyszukiwania lub aktualizowania wspólnego kontaktu biznesowego do wykorzystania w procesach projektowych.",
+          "how": "W Business Workspace wybierz Control Panel. Wybierz Partners, Workers lub Contractors. Otwórz odpowiedni katalog, aby dodać, edytować lub przejrzeć jego rekordy.",
+          "inputs": "Do otwarcia Control Panel nie są wymagane żadne dane. Podczas tworzenia partnera, pracownika lub wykonawcy wpisz wymaganą nazwę; pozostałe pola kontaktowe i notatki zależą od wybranego formularza i mogą być opcjonalne.",
+          "result": "Control Panel zapewnia dostęp do katalogów Partners, Workers i Contractors.",
+          "notes": "Są to współdzielone rekordy, które można wybierać w wielu procesach projektowych. Strona informuje, że osoby są dezaktywowane zamiast trwale usuwane, jeśli istnieje historia finansowa. Przed edycją sprawdź, czy wybrano właściwy rekord."
+        },
+        "ur": {
+          "purpose": "Control Panel کھولتا ہے، جہاں دوبارہ استعمال ہونے والی Partners، Workers اور Contractors فہرستوں کا انتظام کیا جاتا ہے۔",
+          "when": "اسے اس وقت استعمال کریں جب آپ کو منصوبوں کے طریقۂ کار میں استعمال کے لیے مشترکہ کاروباری رابطہ شامل کرنا، تلاش کرنا یا برقرار رکھنا ہو۔",
+          "how": "Business Workspace میں Control Panel منتخب کریں۔ Partners، Workers یا Contractors منتخب کریں۔ متعلقہ فہرست کھول کر ریکارڈ شامل کریں، ترمیم کریں یا ان کا جائزہ لیں۔",
+          "inputs": "Control Panel کھولنے کے لیے معلومات درکار نہیں۔ شراکت دار، کارکن یا ٹھیکیدار بناتے وقت مطلوبہ نام درج کریں؛ رابطے کے دیگر خانے اور نوٹس منتخب فارم پر منحصر ہیں اور اختیاری ہو سکتے ہیں۔",
+          "result": "Control Panel، Partners، Workers اور Contractors فہرستوں تک رسائی فراہم کرتا ہے۔",
+          "notes": "یہ مشترکہ ریکارڈز ہیں جنہیں ایک سے زیادہ منصوبہ جاتی طریقۂ کار میں منتخب کیا جا سکتا ہے۔ صفحہ بتاتا ہے کہ مالی تاریخ موجود ہونے پر افراد کو مستقل حذف کرنے کے بجائے غیر فعال کیا جاتا ہے۔ ترمیم سے پہلے درست ریکارڈ کی تصدیق کریں۔"
+        },
+        "pa": {
+          "purpose": "Control Panel ਖੋਲ੍ਹਦਾ ਹੈ, ਜਿੱਥੇ ਮੁੜ ਵਰਤਣਯੋਗ Partners, Workers ਅਤੇ Contractors ਡਾਇਰੈਕਟਰੀਆਂ ਦਾ ਪ੍ਰਬੰਧ ਹੁੰਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਤੁਸੀਂ ਪ੍ਰੋਜੈਕਟ ਕੰਮਕਾਜ ਵਿੱਚ ਵਰਤਣ ਲਈ ਸਾਂਝਾ ਕਾਰੋਬਾਰੀ ਸੰਪਰਕ ਜੋੜਨਾ, ਲੱਭਣਾ ਜਾਂ ਸੰਭਾਲਣਾ ਹੋਵੇ।",
+          "how": "Business Workspace ਵਿੱਚੋਂ Control Panel ਚੁਣੋ। Partners, Workers ਜਾਂ Contractors ਚੁਣੋ। ਰਿਕਾਰਡ ਜੋੜਨ, ਸੋਧਣ ਜਾਂ ਵੇਖਣ ਲਈ ਸੰਬੰਧਿਤ ਡਾਇਰੈਕਟਰੀ ਖੋਲ੍ਹੋ।",
+          "inputs": "Control Panel ਖੋਲ੍ਹਣ ਲਈ ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ। ਭਾਈਵਾਲ, ਕਾਮਾ ਜਾਂ ਠੇਕੇਦਾਰ ਬਣਾਉਂਦੇ ਸਮੇਂ ਲੋੜੀਂਦਾ ਨਾਮ ਦਰਜ ਕਰੋ; ਹੋਰ ਸੰਪਰਕ ਖੇਤਰ ਅਤੇ ਨੋਟ ਚੁਣੇ ਫਾਰਮ 'ਤੇ ਨਿਰਭਰ ਕਰਦੇ ਹਨ ਅਤੇ ਵਿਕਲਪਿਕ ਹੋ ਸਕਦੇ ਹਨ।",
+          "result": "Control Panel, Partners, Workers ਅਤੇ Contractors ਡਾਇਰੈਕਟਰੀਆਂ ਤੱਕ ਪਹੁੰਚ ਦਿੰਦਾ ਹੈ।",
+          "notes": "ਇਹ ਸਾਂਝੇ ਰਿਕਾਰਡ ਹਨ ਜਿਨ੍ਹਾਂ ਨੂੰ ਇੱਕ ਤੋਂ ਵੱਧ ਪ੍ਰੋਜੈਕਟ ਕੰਮਕਾਜ ਵਿੱਚ ਚੁਣਿਆ ਜਾ ਸਕਦਾ ਹੈ। ਪੰਨਾ ਦੱਸਦਾ ਹੈ ਕਿ ਵਿੱਤੀ ਇਤਿਹਾਸ ਹੋਣ 'ਤੇ ਲੋਕਾਂ ਨੂੰ ਪੱਕੇ ਤੌਰ 'ਤੇ ਮਿਟਾਉਣ ਦੀ ਬਜਾਏ ਅਕਿਰਿਆਸ਼ੀਲ ਕੀਤਾ ਜਾਂਦਾ ਹੈ। ਸੋਧਣ ਤੋਂ ਪਹਿਲਾਂ ਸਹੀ ਰਿਕਾਰਡ ਜਾਂਚੋ।"
+        },
+        "prs": {
+          "purpose": "Control Panel را باز می‌کند؛ بخشی که در آن فهرست‌های قابل استفاده مجدد Partners، Workers و Contractors مدیریت می‌شوند.",
+          "when": "وقتی می‌خواهید مخاطب مشترک کسب‌وکار را برای استفاده در گردش‌کارهای پروژه اضافه، پیدا یا نگهداری کنید، از این بخش استفاده کنید.",
+          "how": "از Business Workspace گزینه Control Panel را انتخاب کنید. سپس Partners، Workers یا Contractors را انتخاب کنید. برای افزودن، ویرایش یا بررسی سوابق، فهرست مربوط را باز کنید.",
+          "inputs": "برای بازکردن Control Panel ورودی لازم نیست. هنگام ایجاد سابقه شریک، کارگر یا پیمانکار، نام الزامی را وارد کنید؛ سایر فیلدهای تماس و یادداشت‌ها به فرم انتخاب‌شده بستگی دارند و ممکن است اختیاری باشند.",
+          "result": "Control Panel دسترسی به فهرست‌های Partners، Workers و Contractors را فراهم می‌کند.",
+          "notes": "این سوابق مشترک هستند و می‌توان آن‌ها را در بیش از یک گردش‌کار پروژه انتخاب کرد. طبق توضیح صفحه، در صورت وجود سابقه مالی، افراد به‌جای حذف دائمی غیرفعال می‌شوند. پیش از ویرایش، از انتخاب سابقه صحیح اطمینان حاصل کنید."
+        },
+        "ps": {
+          "purpose": "Control Panel پرانیزي، چېرې چې د بیا کارېدونکو Partners، Workers او Contractors لېستونه اداره کېږي.",
+          "when": "دا هغه وخت وکاروئ چې د پروژې په کاري بهیرونو کې د کارولو لپاره ګډ سوداګریز اړیکه زیاتوی، مومئ یا ساتئ.",
+          "how": "له Business Workspace څخه Control Panel وټاکئ. Partners، Workers یا Contractors وټاکئ. اړوند لېست پرانیزئ، څو ریکارډونه زیات، سم یا وڅېړئ.",
+          "inputs": "د Control Panel د پرانیستلو لپاره معلوماتو ته اړتیا نشته. د شریک، کارکوونکي یا قراردادي د جوړولو پر مهال اړین نوم ولیکئ؛ د اړیکې نورې برخې او یادښتونه په ټاکل شوې فورمه پورې اړه لري او اختیاري کېدای شي.",
+          "result": "Control Panel د Partners، Workers او Contractors لېستونو ته لاسرسی برابروي.",
+          "notes": "دا ګډ ریکارډونه دي چې د پروژې په څو کاري بهیرونو کې ټاکل کېدای شي. پاڼه وايي که مالي تاریخ موجود وي، خلک د تل لپاره نه ړنګېږي، بلکې غیرفعالېږي. له سمون مخکې سم ریکارډ وګورئ."
         }
       },
       "handler_or_behavior": "`prPage(`"
