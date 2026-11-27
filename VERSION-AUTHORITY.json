@@ -2528,19 +2528,19 @@
         "docs/REPAIR_INDEX_FA.md",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "dd4caf98e279cfd8e285e0f62503a67f39fa9194",
+      "previewDevelopmentCommitSha": "42173dd5f4f879f49f4b2c88910a1b3122bb50bf",
       "previewPullRequestNumber": 96,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "PENDING",
-        "runId": "pending",
-        "url": "pending",
-        "details": "R59 requires a fresh Version Authority Gate against the final R59 Build ID, canonical URL, index SHA and all 24 runtime asset pins."
+        "result": "PASS",
+        "runId": 46070618031,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070618031",
+        "details": "R59 Version Authority Gate passed. Repository/branch identity, approved R11 baseline ancestry, Build ID THA-273-R11-PREVIEW-20261127-R59, canonical URL, index blob SHA and all 24 pinned runtime assets matched."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
-        "details": "Six completed Help topics use exact selectors scoped to Contracts workspace/form, Profile & Logo and the User Guide contact form. No original contract, PDF, profile, logo or support-message logic was changed. Live browser tests remain pending."
+        "details": "Six completed Help topics use exact selectors scoped to Contracts workspace/form, Profile & Logo and the User Guide contact form. No original contract, PDF, profile, logo or support-message logic was changed. Manual Git-tree comparison confirms all Registry/Inventory/content/runtime/index baselines match. Live browser tests remain pending."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
