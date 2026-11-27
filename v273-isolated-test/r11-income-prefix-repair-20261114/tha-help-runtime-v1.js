@@ -62,9 +62,9 @@
     ['THA-HLP-0085', '#prPage-new .pr-actions > button[onclick="prResetProject()"]'],
     ['THA-HLP-0086', '#prPage-detail .pr-detail-actions > button[onclick="prEditCurrent()"]'],
     ['THA-HLP-0088', '#prPage-detail .pr-detail-actions > button[onclick="prDeleteCurrent()"]'],
-    ['THA-HLP-0098', '#prPage-partners .pr-actions > button[onclick="prSavePerson(\\'partner\\')"]'],
+    ['THA-HLP-0098', '#prPage-partners .pr-actions > button[onclick="prSavePerson(\'partner\')"]'],
     ['THA-HLP-0100', '#prPage-contractors .pr-actions > button[onclick="prSaveContractor()"]'],
-    ['THA-HLP-0102', '#prPage-workers .pr-actions > button[onclick="prSavePerson(\\'worker\\')"]']
+    ['THA-HLP-0102', '#prPage-workers .pr-actions > button[onclick="prSavePerson(\'worker\')"]']
   ];
   if (STATIC_BINDINGS.some(binding => !Array.isArray(binding) || binding.length !== 2 || binding.some(value => typeof value !== 'string' || !value.trim()))) {
     console.error('[THA Help] Invalid static binding table; contextual help was not started.');
