@@ -5666,6 +5666,78 @@
           "inputs": "در صورت وجود انتخابگر زبان، زبان راهنما را انتخاب کنید. فرم پشتیبانی ممکن است جزئیات درخواست‌شده را بخواهد.",
           "result": "فصل‌های راهنما نمایش داده می‌شوند. فرم تماس در صورت موفقیت می‌تواند پیش‌نویس پیام پشتیبانی را ذخیره کند.",
           "notes": "راهنما صرفاً آموزشی است و عملیات توضیح‌داده‌شده را به‌جای شما انجام نمی‌دهد. صفحه‌های فعلی برنامه و پیام‌های تأیید ذخیره را بررسی کنید. گذرواژه، اطلاعات ورود بانکی یا اطلاعات شخصی غیرضروری را در پیام پشتیبانی ننویسید."
+        },
+        "ar": {
+          "purpose": "يفتح دليل المستخدم الذي يشرح الأقسام الرئيسية للتطبيق وسير العمل الشائع وسلامة البيانات وكيفية التواصل مع الدعم.",
+          "when": "استخدم هذا الدليل عند تعلم استخدام التطبيق أو عندما تحتاج إلى إرشادات قبل تغيير سجلات العمل أو إعداداته.",
+          "how": "افتح User Guide، واختر الفصل المناسب، واقرأ تعليمات المهمة التي تنوي تنفيذها. استخدم Contact Us لإعداد رسالة دعم فقط.",
+          "inputs": "اختر لغة الدليل إذا كان محدد اللغة متاحاً. وقد يتطلب نموذج الدعم التفاصيل التي يطلبها.",
+          "result": "تُعرض فصول الدليل. ويمكن لنموذج الاتصال حفظ مسودة رسالة دعم إذا نجحت عملية الحفظ.",
+          "notes": "الدليل إرشادي ولا ينفذ الإجراءات الموضحة نيابة عنك. تحقق من شاشات التطبيق الحالية ورسائل تأكيد الحفظ. لا تدرج كلمات المرور أو بيانات الدخول المصرفية أو معلومات شخصية غير ضرورية في رسالة الدعم."
+        },
+        "ckb": {
+          "purpose": "ڕێنمای بەکارهێنەر دەکاتەوە؛ ئەم ڕێنماییە بەشە سەرەکییەکانی بەرنامە، ڕێڕەوی کاری باو، سەلامەتی داتا و چۆنیەتی پەیوەندیکردن بە پشتگیری ڕوون دەکاتەوە.",
+          "when": "کاتێک فێری بەکارهێنانی بەرنامە دەبیت یان پێش گۆڕینی تۆمار و ڕێکخستنەکانی بازرگانی پێویستت بە ڕێنماییە، ئەمە بەکاربهێنە.",
+          "how": "User Guide بکەرەوە، بەشی پەیوەندیدار هەڵبژێرە و ڕێنماییەکانی ئەو کارە بخوێنەوە کە دەتەوێت ئەنجامی بدەیت. Contact Us تەنها بۆ ئامادەکردنی پەیامی پشتگیری بەکاربهێنە.",
+          "inputs": "ئەگەر هەڵبژێری زمان بەردەستە، زمانی ڕێنما هەڵبژێرە. فۆڕمی پشتگیری لەوانەیە ئەو وردەکارییانە داوا بکات کە لە فۆڕمەکەدا دیاریکراون.",
+          "result": "بەشەکانی ڕێنما پیشان دەدرێن. فۆڕمی پەیوەندی دەتوانێت ڕەشنووسی پەیامی پشتگیری پاشەکەوت بکات ئەگەر پاشەکەوتکردن سەرکەوتوو بێت.",
+          "notes": "ڕێنما تەنها ڕێنمایی دەدات و ئەو کردارە بۆ تۆ ئەنجام نادات. شاشە ئێستاکانی بەرنامە و پەیامی پشتڕاستکردنەوەی پاشەکەوتکردن بپشکنە. وشەی نهێنی، زانیاری چوونەژوورەوەی بانکی یان زانیاری کەسی ناپێویست لە پەیامی پشتگیری مەنووسە."
+        },
+        "kmr": {
+          "purpose": "Rêbera Bikarhêner vedike ku beşên sereke yên sepanê, rêbazên karê asayî, ewlehiya daneyan û awayê têkilîkirina piştgiriyê rave dike.",
+          "when": "Dema ku hîn dibî sepanê çawa bikar bînî an berî guhertina tomarên karsaziyê û mîhengên wan pêdiviya te bi rêberiyê heye, vê bikar bîne.",
+          "how": "User Guide veke, beşa têkildar hilbijêre û rêwerzên karê ku dixwazî bikî bixwîne. Contact Us tenê ji bo amadekirina peyameke piştgiriyê bikar bîne.",
+          "inputs": "Heke hilbijêra ziman hebe, zimanê rêberê hilbijêre. Dibe ku forma piştgiriyê hûrguliyên ku di forma wê de têne xwestin bixwaze.",
+          "result": "Beşên rêberê têne nîşandan. Ger tomarkirin serkeftî be, forma têkiliyê dikare pêşnûmeya peyama piştgiriyê tomar bike.",
+          "notes": "Rêber tenê agahî û rêwerz dide; ew karên ku rave dike ji bo te pêk nayîne. Dîmenderên niha yên sepanê û peyamên pejirandina tomarkirinê kontrol bike. Di peyama piştgiriyê de şîfre, agahiyên têketina bankê an daneyên kesane yên nehewce nenivîse."
+        },
+        "tr": {
+          "purpose": "Uygulamanın ana bölümlerini, yaygın iş akışlarını, veri güvenliğini ve destek ekibiyle iletişim kurma yöntemini açıklayan Kullanıcı Kılavuzu'nu açar.",
+          "when": "Uygulamayı öğrenirken veya işletme kayıtlarını ya da ayarlarını değiştirmeden önce yönlendirmeye ihtiyaç duyduğunuzda kullanın.",
+          "how": "User Guide bölümünü açın, ilgili bölümü seçin ve yapmayı planladığınız işlem için talimatları okuyun. Contact Us seçeneğini yalnızca destek mesajı hazırlamak için kullanın.",
+          "inputs": "Dil seçici varsa kılavuz dilini seçin. Destek formu, formda istenen ayrıntıları gerektirebilir.",
+          "result": "Kılavuz bölümleri görüntülenir. Kayıt başarılı olursa iletişim formu bir destek mesajı taslağını kaydedebilir.",
+          "notes": "Kılavuz bilgilendirme amaçlıdır; açıklanan işlemleri sizin yerinize gerçekleştirmez. Uygulamanın güncel ekranlarını ve kayıt onaylarını kontrol edin. Destek mesajına parola, banka giriş bilgileri veya gereksiz kişisel bilgiler eklemeyin."
+        },
+        "pl": {
+          "purpose": "Otwiera Podręcznik użytkownika, który objaśnia główne obszary aplikacji, typowe procesy, bezpieczeństwo danych i kontakt z pomocą techniczną.",
+          "when": "Korzystaj z niego podczas nauki obsługi aplikacji lub gdy potrzebujesz wskazówek przed zmianą danych firmy albo ustawień.",
+          "how": "Otwórz User Guide, wybierz odpowiedni rozdział i przeczytaj instrukcje dotyczące planowanego zadania. Użyj Contact Us wyłącznie do przygotowania wiadomości do pomocy technicznej.",
+          "inputs": "Jeśli dostępny jest wybór języka, wybierz język podręcznika. Formularz pomocy może wymagać podania wskazanych w nim szczegółów.",
+          "result": "Wyświetlane są rozdziały podręcznika. Formularz kontaktowy może zapisać wersję roboczą wiadomości do pomocy technicznej, jeśli zapis się powiedzie.",
+          "notes": "Podręcznik zawiera instrukcje, ale nie wykonuje opisanych czynności za użytkownika. Sprawdzaj aktualne ekrany aplikacji i potwierdzenia zapisu. Nie podawaj w wiadomości haseł, danych logowania do banku ani zbędnych danych osobowych."
+        },
+        "ur": {
+          "purpose": "صارف رہنما کھولتا ہے جس میں ایپ کے اہم حصوں، عام طریقۂ کار، ڈیٹا کی حفاظت اور معاونت سے رابطے کی وضاحت ہوتی ہے۔",
+          "when": "اسے اس وقت استعمال کریں جب آپ ایپ استعمال کرنا سیکھ رہے ہوں یا کاروباری ریکارڈز یا ترتیبات تبدیل کرنے سے پہلے رہنمائی درکار ہو۔",
+          "how": "User Guide کھولیں، متعلقہ باب منتخب کریں اور اس کام کی ہدایات پڑھیں جو آپ کرنے والے ہیں۔ Contact Us صرف معاونت کا پیغام تیار کرنے کے لیے استعمال کریں۔",
+          "inputs": "اگر زبان کا انتخاب دستیاب ہو تو رہنما کی زبان منتخب کریں۔ معاونت کا فارم اپنی مطلوبہ تفصیلات مانگ سکتا ہے۔",
+          "result": "رہنما کے ابواب دکھائے جاتے ہیں۔ اگر محفوظ کرنا کامیاب ہو تو رابطہ فارم معاونت کے پیغام کا مسودہ محفوظ کر سکتا ہے۔",
+          "notes": "رہنما صرف ہدایات دیتا ہے؛ بیان کردہ کام آپ کی طرف سے انجام نہیں دیتا۔ ایپ کی موجودہ اسکرینیں اور محفوظ ہونے کی تصدیق دیکھیں۔ معاونت کے پیغام میں پاس ورڈ، بینک لاگ اِن معلومات یا غیر ضروری ذاتی معلومات شامل نہ کریں۔"
+        },
+        "pa": {
+          "purpose": "ਯੂਜ਼ਰ ਗਾਈਡ ਖੋਲ੍ਹਦਾ ਹੈ, ਜੋ ਐਪ ਦੇ ਮੁੱਖ ਭਾਗਾਂ, ਆਮ ਕੰਮਕਾਜੀ ਤਰੀਕਿਆਂ, ਡਾਟਾ ਸੁਰੱਖਿਆ ਅਤੇ ਸਹਾਇਤਾ ਨਾਲ ਸੰਪਰਕ ਕਰਨ ਬਾਰੇ ਦੱਸਦੀ ਹੈ।",
+          "when": "ਜਦੋਂ ਤੁਸੀਂ ਐਪ ਵਰਤਣਾ ਸਿੱਖ ਰਹੇ ਹੋ ਜਾਂ ਕਾਰੋਬਾਰੀ ਰਿਕਾਰਡਾਂ ਜਾਂ ਸੈਟਿੰਗਾਂ ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ ਮਾਰਗਦਰਸ਼ਨ ਚਾਹੀਦਾ ਹੋਵੇ ਤਾਂ ਇਸਦੀ ਵਰਤੋਂ ਕਰੋ।",
+          "how": "User Guide ਖੋਲ੍ਹੋ, ਸੰਬੰਧਿਤ ਅਧਿਆਇ ਚੁਣੋ ਅਤੇ ਕੀਤੇ ਜਾਣ ਵਾਲੇ ਕੰਮ ਲਈ ਹਦਾਇਤਾਂ ਪੜ੍ਹੋ। Contact Us ਸਿਰਫ਼ ਸਹਾਇਤਾ ਸੁਨੇਹਾ ਤਿਆਰ ਕਰਨ ਲਈ ਵਰਤੋ।",
+          "inputs": "ਜੇ ਭਾਸ਼ਾ ਚੋਣ ਉਪਲਬਧ ਹੋਵੇ ਤਾਂ ਗਾਈਡ ਦੀ ਭਾਸ਼ਾ ਚੁਣੋ। ਸਹਾਇਤਾ ਫਾਰਮ ਵਿੱਚ ਮੰਗੇ ਗਏ ਵੇਰਵੇ ਦੇਣੇ ਪੈ ਸਕਦੇ ਹਨ।",
+          "result": "ਗਾਈਡ ਦੇ ਅਧਿਆਇ ਦਿਖਾਏ ਜਾਂਦੇ ਹਨ। ਜੇ ਸੇਵ ਕਰਨਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਸੰਪਰਕ ਫਾਰਮ ਸਹਾਇਤਾ ਸੁਨੇਹੇ ਦਾ ਖਰੜਾ ਸੰਭਾਲ ਸਕਦਾ ਹੈ।",
+          "notes": "ਗਾਈਡ ਸਿਰਫ਼ ਹਦਾਇਤਾਂ ਦਿੰਦੀ ਹੈ ਅਤੇ ਦੱਸੇ ਕੰਮ ਤੁਹਾਡੇ ਵੱਲੋਂ ਨਹੀਂ ਕਰਦੀ। ਐਪ ਦੀਆਂ ਮੌਜੂਦਾ ਸਕ੍ਰੀਨਾਂ ਅਤੇ ਸੇਵ ਹੋਣ ਦੀ ਪੁਸ਼ਟੀ ਜਾਂਚੋ। ਸਹਾਇਤਾ ਸੁਨੇਹੇ ਵਿੱਚ ਪਾਸਵਰਡ, ਬੈਂਕ ਲੌਗਇਨ ਜਾਣਕਾਰੀ ਜਾਂ ਗੈਰ-ਜ਼ਰੂਰੀ ਨਿੱਜੀ ਡਾਟਾ ਨਾ ਲਿਖੋ।"
+        },
+        "prs": {
+          "purpose": "راهنمای کاربر را باز می‌کند که بخش‌های اصلی برنامه، گردش‌کارهای رایج، ایمنی داده‌ها و روش تماس با پشتیبانی را توضیح می‌دهد.",
+          "when": "هنگام یادگیری کار با برنامه یا زمانی که پیش از تغییر سوابق یا تنظیمات کسب‌وکار به راهنمایی نیاز دارید، از این گزینه استفاده کنید.",
+          "how": "User Guide را باز کنید، فصل مرتبط را انتخاب کنید و دستورالعمل کار موردنظر را بخوانید. Contact Us را فقط برای آماده‌کردن پیام پشتیبانی به کار ببرید.",
+          "inputs": "اگر انتخاب‌گر زبان موجود است، زبان راهنما را انتخاب کنید. فرم پشتیبانی ممکن است جزئیاتی را که درخواست می‌کند لازم داشته باشد.",
+          "result": "فصل‌های راهنما نمایش داده می‌شوند. اگر ذخیره‌سازی موفق باشد، فرم تماس می‌تواند پیش‌نویس پیام پشتیبانی را ذخیره کند.",
+          "notes": "راهنما آموزشی است و عملیات توضیح‌داده‌شده را به‌جای شما انجام نمی‌دهد. صفحه‌های فعلی برنامه و تأییدهای ذخیره را بررسی کنید. گذرواژه، اطلاعات ورود بانکی یا اطلاعات شخصی غیرضروری را در پیام پشتیبانی وارد نکنید."
+        },
+        "ps": {
+          "purpose": "د کارن لارښود پرانیزي، چې د اپلېکېشن اصلي برخې، عام کاري بهیرونه، د معلوماتو خوندیتوب او له ملاتړ سره د اړیکې لارې تشریح کوي.",
+          "when": "دا هغه وخت وکاروئ چې د اپلېکېشن کارول زده کوئ یا د سوداګرۍ د ریکارډونو او امستنو له بدلولو مخکې لارښوونې ته اړتیا لرئ.",
+          "how": "User Guide پرانیزئ، اړوند څپرکی وټاکئ او د هغه کار لارښوونې ولولئ چې ترسره کول یې غواړئ. Contact Us یوازې د ملاتړ پیغام د چمتو کولو لپاره وکاروئ.",
+          "inputs": "که د ژبې ټاکونکی موجود وي، د لارښود ژبه وټاکئ. د ملاتړ فورمه ښايي هغه جزئیات وغواړي چې په فورمه کې یې غوښتنه شوې وي.",
+          "result": "د لارښود څپرکي ښکاره کېږي. که خوندي کول بریالي شي، د اړیکې فورمه د ملاتړ پیغام مسوده خوندي کولی شي.",
+          "notes": "لارښود یوازې لارښوونې وړاندې کوي او یاد شوي کارونه ستاسو پر ځای نه ترسره کوي. د اپلېکېشن اوسنۍ پردې او د خوندي کېدو تاییدونه وګورئ. د ملاتړ په پیغام کې پټنومونه، د بانک د ننوتلو معلومات یا غیرضروري شخصي معلومات مه شاملوئ."
         }
       },
       "handler_or_behavior": "`show(`"
@@ -5692,6 +5764,78 @@
           "inputs": "در نسخه آزمایشی R43 بررسی‌شده، به دلیل غیرفعال بودن کنترل‌های به‌روزرسانی، ورودی‌ای پذیرفته نمی‌شود.",
           "result": "صفحه اعلام می‌کند که به‌روزرسانی نرم‌افزار در این نسخه آزمایشی غیرفعال است. هیچ نسخه‌ای بررسی، دانلود یا نصب نمی‌شود.",
           "notes": "محدودیت نسخه آزمایشی: سورس R43 به‌صراحت updater را تا زمان تأیید نهایی و انتشار نسخه Production غیرفعال کرده است. این صفحه را به‌عنوان گردش‌کار عملیاتی به‌روزرسانی توصیف نکنید. پیش از اصلاح این راهنما برای نسخه‌ای بعدی، سورس و فعال بودن کنترل‌ها را دوباره بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يفتح صفحة Software Update التي تعرض حالة إصدار الاختبار المثبت وعناصر التحكم في التحديث.",
+          "when": "استخدم هذه الصفحة للتحقق من حالة التحديث عندما تكون أداة التحديث مفعّلة في إصدار يدعم التحديثات.",
+          "how": "افتح Software Update واقرأ رسائل الإصدار المثبت والحالة. في إصدار الاختبار R43 الذي تمت مراجعته، الخياران Check for Updates وUpdate Now معطلان؛ لذلك لا تتوقع تنفيذ تحديث من هذه الصفحة.",
+          "inputs": "لا يمكن إدخال أي بيانات في إصدار الاختبار R43 الذي تمت مراجعته لأن عناصر التحكم في التحديث معطلة.",
+          "result": "تعرض الصفحة أن تحديثات البرنامج معطلة في إصدار الاختبار هذا. لا يتم التحقق من أي تحديث أو تنزيله أو تثبيته.",
+          "notes": "قيد إصدار الاختبار: يعطل مصدر R43 أداة التحديث صراحةً إلى حين اكتمال التحقق النهائي وإصدار Production. لا تصف الصفحة الحالية بأنها سير عمل تحديث فعلي. أعد فحص المصدر وحالة التفعيل قبل تعديل هذه الإرشادات لإصدار لاحق."
+        },
+        "ckb": {
+          "purpose": "پەڕەی Software Update دەکاتەوە کە دۆخی Buildی تاقیکردنەوەی دامەزراو و کۆنترۆڵەکانی نوێکردنەوە پیشان دەدات.",
+          "when": "ئەم پەڕەیە بەکاربهێنە بۆ پشکنینی دۆخی نوێکردنەوە، کاتێک ئامرازی نوێکردنەوە لە وەشانێکی پشتگیریکراودا چالاکە.",
+          "how": "Software Update بکەرەوە و پەیامەکانی وەشانی دامەزراو و دۆخ بخوێنەوە. لە Buildی تاقیکردنەوەی R43ی پشکنراودا، هەردوو Check for Updates و Update Now ناچالاکن؛ بۆیە چاوەڕێی ئەنجامدانی نوێکردنەوە لەم پەڕەیە مەکە.",
+          "inputs": "لە Buildی تاقیکردنەوەی R43ی پشکنراودا هیچ زانیارییەک وەرناگیرێت، چونکە کۆنترۆڵەکانی نوێکردنەوە ناچالاکن.",
+          "result": "پەڕەکە پیشان دەدات کە نوێکردنەوەی نەرمەکاڵا لەم Buildە تاقیکردنەوەیەدا ناچالاکە. هیچ نوێکردنەوەیەک ناپشکنرێت، دادەبەزێندرێت یان دامەزرێندرێت.",
+          "notes": "سنوورداری Buildی تاقیکردنەوە: سەرچاوەی R43 بە ڕوونی ئامرازی نوێکردنەوە ناچالاک دەکات تا پشتڕاستکردنەوەی کۆتایی و بڵاوکردنەوەی Production. پەڕەی ئێستا وەک ڕێڕەوی کارای نوێکردنەوە باس مەکە. پێش نوێکردنەوەی ئەم ڕێنماییە بۆ وەشانێکی داهاتوو، سەرچاوە و دۆخی چالاکبوون دووبارە بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Rûpela Software Update vedike, ku rewşa build-a ceribandinê ya sazkirî û kontrolên nûkirinê nîşan dide.",
+          "when": "Dema ku amûra nûkirinê di weşanekê de ku nûkirinan piştgirî dike çalak be, vê rûpelê ji bo kontrolkirina rewşa nûkirinê bikar bîne.",
+          "how": "Software Update veke û peyamên derbarê guhertoya sazkirî û rewşê de bixwîne. Di build-a ceribandinê ya R43 ya hatî kontrolkirin de, Check for Updates û Update Now her du jî neçalak in; ji ber vê yekê li benda nûkirinê ji vê rûpelê nebe.",
+          "inputs": "Di build-a ceribandinê ya R43 ya hatî kontrolkirin de tu agahî nayê wergirtin, ji ber ku kontrolên nûkirinê neçalak in.",
+          "result": "Rûpel nîşan dide ku nûkirinên nermalavê di vê build-a ceribandinê de neçalak in. Tu nûkirin nayê kontrolkirin, daxistin an sazkirin.",
+          "notes": "Sînorkirina build-a ceribandinê: çavkaniya R43 amûra nûkirinê bi eşkere heta verastkirina dawî û derxistina Production neçalak dike. Rûpela heyî wekî rêbazeke nûkirina çalak şirove neke. Berî nûkirina vê rêberiyê ji bo weşaneke paşerojê, çavkanî û rewşa çalakbûnê dîsa kontrol bike."
+        },
+        "tr": {
+          "purpose": "Yüklü test derlemesinin durumunu ve güncelleme denetimlerini gösteren Software Update sayfasını açar.",
+          "when": "Güncelleyicinin güncellemeleri destekleyen bir sürümde etkin olduğu durumlarda güncelleme durumunu kontrol etmek için bu sayfayı kullanın.",
+          "how": "Software Update sayfasını açın ve yüklü sürüm ile durum mesajlarını okuyun. İncelenen R43 test derlemesinde Check for Updates ve Update Now seçeneklerinin ikisi de devre dışıdır; bu sayfadan güncelleme yapılmasını beklemeyin.",
+          "inputs": "İncelenen R43 test derlemesinde güncelleme denetimleri devre dışı olduğu için herhangi bir girdi kabul edilmez.",
+          "result": "Sayfa, bu test derlemesinde yazılım güncellemelerinin devre dışı olduğunu gösterir. Hiçbir güncelleme kontrol edilmez, indirilmez veya yüklenmez.",
+          "notes": "TEST DERLEMESİ SINIRLAMASI: R43 kaynağı, son doğrulama ve Production sürümü yayımlanana kadar güncelleyiciyi açıkça devre dışı bırakır. Mevcut test sayfasını çalışan bir güncelleme iş akışı olarak tanımlamayın. Bu kılavuzu sonraki bir sürüm için değiştirmeden önce kaynağı ve etkinleştirme durumunu yeniden kontrol edin."
+        },
+        "pl": {
+          "purpose": "Otwiera stronę Software Update, która pokazuje stan zainstalowanej wersji testowej i elementy sterujące aktualizacją.",
+          "when": "Użyj tej strony do sprawdzenia stanu aktualizacji, gdy mechanizm aktualizacji jest włączony w wydaniu obsługującym aktualizacje.",
+          "how": "Otwórz Software Update i przeczytaj komunikaty o zainstalowanej wersji oraz jej stanie. W sprawdzonej kompilacji testowej R43 zarówno Check for Updates, jak i Update Now są wyłączone; nie oczekuj więc aktualizacji z tej strony.",
+          "inputs": "W sprawdzonej kompilacji testowej R43 nie można wprowadzić żadnych danych, ponieważ elementy sterujące aktualizacją są wyłączone.",
+          "result": "Strona informuje, że aktualizacje oprogramowania są wyłączone w tej kompilacji testowej. Żadna aktualizacja nie jest sprawdzana, pobierana ani instalowana.",
+          "notes": "OGRANICZENIE WERSJI TESTOWEJ: Kod źródłowy R43 wyraźnie wyłącza mechanizm aktualizacji do czasu zakończenia weryfikacji i wydania wersji Production. Nie opisuj obecnej strony testowej jako działającego procesu aktualizacji. Przed zmianą tych wskazówek dla przyszłego wydania ponownie sprawdź kod źródłowy i stan aktywacji."
+        },
+        "ur": {
+          "purpose": "Software Update صفحہ کھولتا ہے، جو نصب شدہ ٹیسٹ بلڈ کی حالت اور اپ ڈیٹ کے کنٹرول دکھاتا ہے۔",
+          "when": "اپ ڈیٹ کی حالت دیکھنے کے لیے یہ صفحہ اس وقت استعمال کریں جب اپ ڈیٹر کسی ایسے ریلیز میں فعال ہو جو اپ ڈیٹس کی معاونت کرتا ہو۔",
+          "how": "Software Update کھولیں اور نصب شدہ ورژن اور حالت کے پیغامات پڑھیں۔ جانچے گئے R43 ٹیسٹ بلڈ میں Check for Updates اور Update Now دونوں غیر فعال ہیں؛ اس لیے اس صفحے سے اپ ڈیٹ چلنے کی توقع نہ کریں۔",
+          "inputs": "جانچے گئے R43 ٹیسٹ بلڈ میں کوئی معلومات درج نہیں کی جا سکتی کیونکہ اپ ڈیٹ کے کنٹرول غیر فعال ہیں۔",
+          "result": "صفحہ دکھاتا ہے کہ اس ٹیسٹ بلڈ میں سافٹ ویئر اپ ڈیٹس غیر فعال ہیں۔ کوئی اپ ڈیٹ چیک، ڈاؤن لوڈ یا انسٹال نہیں ہوتی۔",
+          "notes": "ٹیسٹ بلڈ کی پابندی: R43 کا سورس حتمی تصدیق اور Production ریلیز تک اپ ڈیٹر کو واضح طور پر غیر فعال رکھتا ہے۔ موجودہ ٹیسٹ صفحے کو فعال اپ ڈیٹ کے طریقۂ کار کے طور پر بیان نہ کریں۔ آئندہ ریلیز کے لیے یہ رہنمائی بدلنے سے پہلے سورس اور فعال ہونے کی حالت دوبارہ جانچیں۔"
+        },
+        "pa": {
+          "purpose": "Software Update ਪੰਨਾ ਖੋਲ੍ਹਦਾ ਹੈ, ਜੋ ਸਥਾਪਤ ਟੈਸਟ ਬਿਲਡ ਦੀ ਸਥਿਤੀ ਅਤੇ ਅੱਪਡੇਟ ਕੰਟਰੋਲ ਦਿਖਾਉਂਦਾ ਹੈ।",
+          "when": "ਅੱਪਡੇਟ ਦੀ ਸਥਿਤੀ ਵੇਖਣ ਲਈ ਇਸ ਪੰਨੇ ਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਅੱਪਡੇਟਰ ਅਜਿਹੇ ਰਿਲੀਜ਼ ਵਿੱਚ ਚਾਲੂ ਹੋਵੇ ਜੋ ਅੱਪਡੇਟਾਂ ਦਾ ਸਮਰਥਨ ਕਰਦਾ ਹੋਵੇ।",
+          "how": "Software Update ਖੋਲ੍ਹੋ ਅਤੇ ਸਥਾਪਤ ਵਰਜਨ ਤੇ ਸਥਿਤੀ ਦੇ ਸੁਨੇਹੇ ਪੜ੍ਹੋ। ਜਾਂਚੇ ਗਏ R43 ਟੈਸਟ ਬਿਲਡ ਵਿੱਚ Check for Updates ਅਤੇ Update Now ਦੋਵੇਂ ਬੰਦ ਹਨ; ਇਸ ਲਈ ਇਸ ਪੰਨੇ ਤੋਂ ਅੱਪਡੇਟ ਚੱਲਣ ਦੀ ਉਮੀਦ ਨਾ ਕਰੋ।",
+          "inputs": "ਜਾਂਚੇ ਗਏ R43 ਟੈਸਟ ਬਿਲਡ ਵਿੱਚ ਕੋਈ ਜਾਣਕਾਰੀ ਦਰਜ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ ਕਿਉਂਕਿ ਅੱਪਡੇਟ ਕੰਟਰੋਲ ਬੰਦ ਹਨ।",
+          "result": "ਪੰਨਾ ਦਿਖਾਉਂਦਾ ਹੈ ਕਿ ਇਸ ਟੈਸਟ ਬਿਲਡ ਵਿੱਚ ਸਾਫਟਵੇਅਰ ਅੱਪਡੇਟ ਬੰਦ ਹਨ। ਕੋਈ ਅੱਪਡੇਟ ਜਾਂਚੀ, ਡਾਊਨਲੋਡ ਜਾਂ ਇੰਸਟਾਲ ਨਹੀਂ ਹੁੰਦੀ।",
+          "notes": "ਟੈਸਟ ਬਿਲਡ ਦੀ ਸੀਮਾ: R43 ਦਾ ਸਰੋਤ ਅੰਤਿਮ ਤਸਦੀਕ ਅਤੇ Production ਰਿਲੀਜ਼ ਤੱਕ ਅੱਪਡੇਟਰ ਨੂੰ ਸਪਸ਼ਟ ਤੌਰ 'ਤੇ ਬੰਦ ਰੱਖਦਾ ਹੈ। ਮੌਜੂਦਾ ਟੈਸਟ ਪੰਨੇ ਨੂੰ ਚੱਲ ਰਹੀ ਅੱਪਡੇਟ ਪ੍ਰਕਿਰਿਆ ਵਜੋਂ ਨਾ ਦਰਸਾਓ। ਅਗਲੇ ਰਿਲੀਜ਼ ਲਈ ਇਹ ਹਦਾਇਤਾਂ ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ ਸਰੋਤ ਅਤੇ ਚਾਲੂ ਹੋਣ ਦੀ ਸਥਿਤੀ ਮੁੜ ਜਾਂਚੋ।"
+        },
+        "prs": {
+          "purpose": "صفحه Software Update را باز می‌کند که وضعیت Build آزمایشی نصب‌شده و کنترل‌های به‌روزرسانی را نمایش می‌دهد.",
+          "when": "وقتی ابزار به‌روزرسانی در نسخه‌ای که از به‌روزرسانی پشتیبانی می‌کند فعال باشد، از این صفحه برای بررسی وضعیت استفاده کنید.",
+          "how": "Software Update را باز کنید و پیام‌های نسخه نصب‌شده و وضعیت را بخوانید. در Build آزمایشی R43 که بررسی شده، هر دو گزینه Check for Updates و Update Now غیرفعال‌اند؛ بنابراین انتظار اجرای به‌روزرسانی از این صفحه را نداشته باشید.",
+          "inputs": "در Build آزمایشی R43 بررسی‌شده، چون کنترل‌های به‌روزرسانی غیرفعال‌اند، هیچ ورودی‌ای پذیرفته نمی‌شود.",
+          "result": "صفحه نشان می‌دهد که به‌روزرسانی نرم‌افزار در این Build آزمایشی غیرفعال است. هیچ به‌روزرسانی بررسی، دانلود یا نصب نمی‌شود.",
+          "notes": "محدودیت Build آزمایشی: سورس R43 ابزار به‌روزرسانی را تا زمان تأیید نهایی و انتشار Production صریحاً غیرفعال کرده است. صفحه آزمایشی فعلی را گردش‌کار فعال به‌روزرسانی توصیف نکنید. پیش از اصلاح این راهنما برای نسخه بعدی، سورس و وضعیت فعال‌بودن را دوباره بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د Software Update پاڼه پرانیزي، چې د نصب شوي ازمایښتي Build حالت او د تازه کولو کنټرولونه ښيي.",
+          "when": "دا پاڼه د تازه کولو د حالت د کتلو لپاره هغه وخت وکاروئ چې د تازه کولو وسیله په داسې خپرونه کې فعاله وي چې تازه کول ملاتړ کوي.",
+          "how": "Software Update پرانیزئ او د نصب شوې نسخې او حالت پیغامونه ولولئ. په ارزول شوي R43 ازمایښتي Build کې Check for Updates او Update Now دواړه بند دي؛ نو له دې پاڼې څخه د تازه کولو تمه مه کوئ.",
+          "inputs": "په ارزول شوي R43 ازمایښتي Build کې هېڅ معلومات نه شي داخلېدای، ځکه د تازه کولو کنټرولونه بند دي.",
+          "result": "پاڼه ښيي چې په دې ازمایښتي Build کې د سافټویر تازه کول بند دي. هېڅ تازه کول نه کتل کېږي، نه ښکته کېږي او نه نصبېږي.",
+          "notes": "د ازمایښتي Build محدودیت: د R43 سرچینه د وروستۍ ارزونې او Production خپرېدو تر وخته د تازه کولو وسیله په څرګنده توګه بندوي. اوسنۍ ازمایښتي پاڼه د فعال تازه کولو د بهیر په توګه مه تشریح کوئ. د راتلونکې نسخې لپاره د دې لارښوونې له بدلولو مخکې سرچینه او د فعالېدو حالت بیا وڅېړئ."
         }
       },
       "handler_or_behavior": "`show(`"
