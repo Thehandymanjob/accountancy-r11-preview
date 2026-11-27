@@ -16588,20 +16588,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Navigates to the previous page in the browser's history.",
-          "when": "Use this when you want to return to the page or view visited immediately before the current one.",
-          "how": "Select Back to ask the browser to navigate to its previous history entry.",
-          "inputs": "No input is required. Save any changes that must be kept before navigating away.",
-          "result": "The browser attempts to display the previous history entry. The destination depends on the browser's history; it is not guaranteed to be a particular app screen.",
-          "notes": "Browser history may leave the current form or app view. Unsaved changes may be lost."
+          "purpose": "Navigates back from the contract-preview fallback page using the browser's history.",
+          "when": "Use this when the contract preview has closed and the fallback page asks you to return to the Handyman app.",
+          "how": "Select Back on the fallback page. The browser attempts to open the previous history entry.",
+          "inputs": "No input is required. Save any contract changes before leaving the page.",
+          "result": "The browser attempts to return to the previous history entry. The destination depends on browser history and is not guaranteed to be a particular app screen.",
+          "notes": "In the normal app flow, the preview's Close control removes the in-app preview overlay. This Back action is for the fallback page shown when the preview cannot close its parent or opener. Unsaved changes may be lost."
         },
         "fa": {
-          "purpose": "در صفحه جایگزین پیش‌نمایش قرارداد، به ورودی قبلی در سابقه مرورگر بازمی‌گردد.",
-          "when": "وقتی پیش‌نمایش قرارداد بسته شده و صفحه جایگزین از شما می‌خواهد برای ادامه به برنامه برگردید، از این گزینه استفاده کنید.",
-          "how": "Back را انتخاب کنید تا مرورگر تلاش کند صفحه قبلی در سابقه خود را نمایش دهد.",
-          "inputs": "ورودی لازم نیست. پیش از خروج از صفحه، هر تغییری را که باید نگه دارید ذخیره کنید.",
-          "result": "مرورگر تلاش می‌کند ورودی قبلی سابقه را باز کند؛ مقصد به سابقه مرورگر بستگی دارد و لزوماً صفحه مشخصی از برنامه نیست.",
-          "notes": "این گزینه ممکن است شما را از نمای فعلی خارج کند. تغییرات ذخیره‌نشده ممکن است از بین بروند."
+          "purpose": "از صفحه جایگزین پیش‌نمایش قرارداد، با استفاده از سابقه مرورگر به صفحه قبلی بازمی‌گردد.",
+          "when": "وقتی پیش‌نمایش قرارداد بسته شده و صفحه جایگزین از شما می‌خواهد به برنامه The Handyman برگردید، از این گزینه استفاده کنید.",
+          "how": "در صفحه جایگزین Back را انتخاب کنید. مرورگر تلاش می‌کند ورودی قبلی سابقه خود را باز کند.",
+          "inputs": "ورودی لازم نیست. پیش از ترک صفحه، تغییرات قرارداد را ذخیره کنید.",
+          "result": "مرورگر تلاش می‌کند به ورودی قبلی سابقه بازگردد. مقصد به سابقه مرورگر بستگی دارد و لزوماً صفحه مشخصی از برنامه نیست.",
+          "notes": "در گردش‌کار عادی برنامه، کنترل Close پیش‌نمایش، لایه پیش‌نمایش داخل برنامه را می‌بندد. این گزینه Back برای صفحه جایگزینی است که وقتی پیش‌نمایش نمی‌تواند پنجره والد یا opener را ببندد نمایش داده می‌شود. تغییرات ذخیره‌نشده ممکن است از بین بروند."
         }
       },
       "handler_or_behavior": "`history.back()`"
@@ -16614,20 +16614,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Applies the complete original receipt image to the current receipt workflow without cropping it.",
-          "when": "Use this when the crop preview cuts off important receipt details and you want to keep the full original image.",
-          "how": "In the receipt crop dialog, select Use full image. Check the resulting receipt preview before saving the record.",
-          "inputs": "A receipt image must already be selected and open in the crop dialog. No new file is required for this action.",
-          "result": "The full original image is applied to the current receipt preview. The underlying entry is not saved until its normal save action succeeds.",
-          "notes": "The full image may include extra background. Check legibility and avoid exposing unrelated information."
+          "purpose": "Applies the complete original receipt image to the current receipt form without cropping it.",
+          "when": "Use this when the crop preview cuts off important receipt details and you want to keep the entire selected image.",
+          "how": "In the receipt crop dialog, select Use full image. The full image is applied to the receipt preview; check that it remains readable before saving the entry.",
+          "inputs": "A receipt image must already be selected and open in the crop dialog. No new file is required.",
+          "result": "The original selected image is applied without cropping. The entry itself is not saved until its normal Save Entry or project save action succeeds.",
+          "notes": "The full image may include extra background or unrelated information. Check legibility and avoid exposing unrelated personal details. Use the separate Remove photo control if you want to discard the image."
         },
         "fa": {
-          "purpose": "تصویر کامل و اصلی رسید انتخاب‌شده را بدون برش به پیش‌نمایش رسید فعلی اعمال می‌کند.",
-          "when": "وقتی برش تصویر بخشی از اطلاعات مهم رسید را حذف کرده و می‌خواهید تمام تصویر اصلی حفظ شود، از این گزینه استفاده کنید.",
-          "how": "در پنجره برش رسید، Use full image را انتخاب کنید. سپس پیش‌نمایش رسید را بررسی کنید.",
+          "purpose": "تصویر کامل و اصلی رسید انتخاب‌شده را بدون برش به فرم رسید فعلی اعمال می‌کند.",
+          "when": "وقتی پیش‌نمایش برش بخشی از اطلاعات مهم رسید را حذف کرده و می‌خواهید تمام تصویر انتخاب‌شده حفظ شود، از این گزینه استفاده کنید.",
+          "how": "در پنجره برش رسید، Use full image را انتخاب کنید. تصویر کامل در پیش‌نمایش رسید قرار می‌گیرد؛ پیش از ذخیره سابقه، خوانایی آن را بررسی کنید.",
           "inputs": "تصویر رسید باید قبلاً انتخاب شده و در پنجره برش باز باشد. برای این عملیات انتخاب فایل جدید لازم نیست.",
-          "result": "تصویر کامل اصلی در پیش‌نمایش رسید فعلی قرار می‌گیرد. رکورد اصلی تا زمان موفقیت عملیات ذخیره معمول آن ذخیره نمی‌شود.",
-          "notes": "تصویر کامل ممکن است پس‌زمینه اضافی داشته باشد. خوانایی رسید را بررسی کنید و از نمایش اطلاعات شخصی نامرتبط خودداری کنید."
+          "result": "تصویر اصلی انتخاب‌شده بدون برش اعمال می‌شود. خود سابقه تا زمان موفقیت Save Entry یا عملیات ذخیره پروژه مربوط ذخیره نمی‌شود.",
+          "notes": "تصویر کامل ممکن است پس‌زمینه یا اطلاعات نامرتبط داشته باشد. خوانایی را بررسی کنید و از نمایش جزئیات شخصی نامرتبط خودداری کنید. اگر می‌خواهید تصویر را کنار بگذارید، از کنترل جداگانه Remove photo استفاده کنید."
         }
       },
       "handler_or_behavior": "`useFullReceiptImage()`"
@@ -16640,20 +16640,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Applies the selected crop of the receipt image to the current receipt workflow.",
-          "when": "Use this when you want to keep only the relevant portion of a receipt image.",
-          "how": "Adjust the crop boundaries to include the required receipt details, then select Save cropped photo. Review the resulting preview before saving the record.",
-          "inputs": "A receipt image must already be selected in the crop dialog. Set the crop area so the date, supplier and total remain visible.",
-          "result": "The cropped image is applied to the current receipt preview. The underlying entry is not saved until its normal save action succeeds.",
-          "notes": "Check that all required receipt details remain readable before saving the entry."
+          "purpose": "Applies the selected cropped portion of a receipt image to the current receipt form.",
+          "when": "Use this when you want to keep only the relevant portion of a receipt image and remove unnecessary background.",
+          "how": "Adjust the crop boundaries to include the required receipt details, then select Save cropped photo. Review the resulting receipt preview before saving the entry.",
+          "inputs": "A receipt image must already be selected in the crop dialog. Adjust the crop area so the date, supplier and total remain visible.",
+          "result": "The cropped area is converted to a JPEG image and applied to the receipt preview. The underlying entry is not saved until its normal save action succeeds.",
+          "notes": "Check that all required receipt details remain readable. Cropping changes the image attached to the current form; it does not alter the original photo in the device's photo library."
         },
         "fa": {
-          "purpose": "قسمت برش‌خورده انتخاب‌شده از تصویر رسید را به گردش‌کار رسید فعلی اعمال می‌کند.",
-          "when": "وقتی می‌خواهید فقط بخش مرتبط تصویر رسید را نگه دارید، از این گزینه استفاده کنید.",
-          "how": "مرزهای برش را طوری تنظیم کنید که اطلاعات لازم رسید داخل کادر بماند، سپس Save cropped photo را انتخاب کنید. پیش‌نمایش حاصل را پیش از ذخیره رکورد بررسی کنید.",
+          "purpose": "قسمت برش‌خورده انتخاب‌شده از تصویر رسید را به فرم رسید فعلی اعمال می‌کند.",
+          "when": "وقتی می‌خواهید فقط بخش مرتبط تصویر رسید را نگه دارید و پس‌زمینه غیرضروری را حذف کنید، از این گزینه استفاده کنید.",
+          "how": "مرزهای برش را طوری تنظیم کنید که اطلاعات لازم رسید داخل کادر بماند، سپس Save cropped photo را انتخاب کنید. پیش‌نمایش حاصل را پیش از ذخیره سابقه بررسی کنید.",
           "inputs": "تصویر رسید باید قبلاً در پنجره برش انتخاب شده باشد. محدوده برش را طوری تنظیم کنید که تاریخ، فروشنده و مبلغ کل خوانا باقی بمانند.",
-          "result": "تصویر برش‌خورده به پیش‌نمایش رسید فعلی اعمال می‌شود. رکورد اصلی تا زمان موفقیت عملیات ذخیره معمول آن ذخیره نمی‌شود.",
-          "notes": "پیش از ذخیره سابقه، مطمئن شوید تمام جزئیات ضروری رسید خوانا باقی مانده‌اند."
+          "result": "بخش برش‌خورده به تصویر JPEG تبدیل و به پیش‌نمایش رسید اعمال می‌شود. سابقه اصلی تا زمان موفقیت عملیات ذخیره معمول آن ذخیره نمی‌شود.",
+          "notes": "پیش از ذخیره سابقه، مطمئن شوید تمام جزئیات ضروری رسید خوانا باقی مانده‌اند. برش، تصویر پیوست‌شده به فرم فعلی را تغییر می‌دهد و عکس اصلی موجود در کتابخانه تصاویر دستگاه را دستکاری نمی‌کند."
         }
       },
       "handler_or_behavior": "`applyReceiptCrop()`"
@@ -16666,20 +16666,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Copies the current app version, build and storage details to the clipboard.",
-          "when": "Use this when sending a technical support message or recording which app build you tested.",
-          "how": "Open Monitor & Diagnostics and select Copy version details. Paste the copied text into the support message or diagnostic note.",
-          "inputs": "No selection or form input is required. The control copies the current page's version/build metadata, database name, last-updated display and loaded-page URL.",
-          "result": "The version details are copied to the clipboard when clipboard access is available. The app also uses a text-area fallback where supported.",
-          "notes": "Review the copied details before sharing them publicly; they include build and environment information."
+          "purpose": "Copies the version and environment details shown by Monitor & Diagnostics to the clipboard.",
+          "when": "Use this when preparing a technical support message or recording the build and environment you tested.",
+          "how": "Open Monitor & Diagnostics, wait for the Last Updated field to finish loading, then select Copy version details. Paste the copied text into your support message or diagnostic note.",
+          "inputs": "No form input is required. The copied text includes repository, a displayed branch label, version, main file path, Build ID, app version, IndexedDB database name, Last Updated display and loaded page URL.",
+          "result": "The app attempts to copy the details using the Clipboard API, with a textarea fallback where supported, and changes the button label to Copied.",
+          "notes": "Review the copied text before sharing it. In the inspected R43 source, the Branch value is hardcoded as main rather than detected from Git, and Last Updated may still read Loading... or Unavailable. Do not treat those two fields as independently verified deployment facts."
         },
         "fa": {
-          "purpose": "اطلاعات نسخه، Build و محیط ذخیره‌سازی فعلی برنامه را در حافظه موقت کپی می‌کند.",
-          "when": "وقتی می‌خواهید پیام پشتیبانی فنی بفرستید یا نسخه برنامه‌ای را که آزمایش کرده‌اید ثبت کنید، از این گزینه استفاده کنید.",
-          "how": "Monitor & Diagnostics را باز کنید و Copy version details را انتخاب کنید. متن کپی‌شده را در پیام پشتیبانی یا یادداشت تشخیصی جای‌گذاری کنید.",
-          "inputs": "انتخاب یا ورود اطلاعات لازم نیست. کنترل، اطلاعات فراداده نسخه و Build، نام پایگاه داده، زمان آخرین به‌روزرسانی نمایش‌داده‌شده و نشانی صفحه بارگذاری‌شده را کپی می‌کند.",
-          "result": "در صورت دسترسی به Clipboard، اطلاعات نسخه در حافظه موقت کپی می‌شوند. در صورت نیاز، برنامه از روش جایگزین textarea نیز استفاده می‌کند.",
-          "notes": "پیش از اشتراک‌گذاری عمومی، متن کپی‌شده را بررسی کنید؛ این متن شامل اطلاعات نسخه، Build و محیط اجرای برنامه است."
+          "purpose": "اطلاعات نسخه و محیط نمایش‌داده‌شده در Monitor & Diagnostics را در حافظه موقت کپی می‌کند.",
+          "when": "برای آماده‌کردن پیام پشتیبانی فنی یا ثبت Build و محیطی که آزمایش کرده‌اید، از این گزینه استفاده کنید.",
+          "how": "Monitor & Diagnostics را باز کنید، منتظر بمانید فیلد Last Updated بارگذاری شود و سپس Copy version details را انتخاب کنید. متن کپی‌شده را در پیام پشتیبانی یا یادداشت تشخیصی جای‌گذاری کنید.",
+          "inputs": "ورودی فرمی لازم نیست. متن کپی‌شده شامل مخزن، برچسب نمایشی Branch، نسخه، مسیر فایل اصلی، Build ID، نسخه برنامه، نام پایگاه داده IndexedDB، مقدار نمایشی Last Updated و نشانی صفحه بارگذاری‌شده است.",
+          "result": "برنامه تلاش می‌کند اطلاعات را با Clipboard API و در صورت امکان با روش جایگزین textarea کپی کند و عنوان دکمه را به Copied تغییر می‌دهد.",
+          "notes": "پیش از اشتراک‌گذاری، متن کپی‌شده را بررسی کنید. در سورس R43 بررسی‌شده، مقدار Branch به‌صورت ثابت main نوشته شده و از Git تشخیص داده نمی‌شود؛ همچنین Last Updated ممکن است هنوز Loading... یا Unavailable باشد. این دو فیلد را واقعیت‌های مستقل و تأییدشده انتشار تلقی نکنید."
         }
       },
       "handler_or_behavior": "`copyMonitorVersionInfo()`"
@@ -16692,20 +16692,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open the detailed information for a monitoring event.",
-          "when": "Use this when you need to open the detailed information for a monitoring event.",
-          "how": "Select View details on the relevant event in Monitor & Diagnostics.",
-          "inputs": "Select View details on the event whose timestamp and description you want to inspect.",
-          "result": "A modal displays the selected monitoring event as formatted JSON for inspection. The event is not changed; the modal also provides Copy JSON and Close actions.",
-          "notes": "Use the timestamp and event description to identify the correct incident. Diagnostic details may contain technical or environment information."
+          "purpose": "Opens the detailed JSON view for a selected monitoring event in Monitor & Diagnostics.",
+          "when": "Use this when you need to inspect the full timestamp, event description, record identifiers and result for a monitoring event.",
+          "how": "In the monitoring event list, select View details on the relevant event. Review the formatted JSON in the modal. Use Copy JSON to copy the event data or Close to dismiss the modal.",
+          "inputs": "Select the correct monitoring event from the filtered event list. No additional input is required.",
+          "result": "A modal displays the selected event as formatted JSON and provides Copy JSON and Close actions. The stored event is not modified.",
+          "notes": "Check the event ID, timestamp and description to ensure you are inspecting the correct incident. Diagnostic JSON may contain technical or environment information; review it before sharing."
         },
         "fa": {
-          "purpose": "جزئیات رویداد انتخاب‌شده در Monitor & Diagnostics را باز می‌کند.",
-          "when": "وقتی می‌خواهید اطلاعات کامل یک رویداد ثبت‌شده در پایش را بررسی کنید، از این گزینه استفاده کنید.",
-          "how": "در Monitor & Diagnostics، برای رویداد موردنظر View details را انتخاب کنید.",
-          "inputs": "رویدادی را انتخاب کنید که می‌خواهید زمان ثبت و شرح آن را بررسی کنید.",
-          "result": "یک پنجره جزئیات باز می‌شود و اطلاعات رویداد انتخاب‌شده را به‌صورت JSON قالب‌بندی‌شده نمایش می‌دهد. خود رویداد تغییر نمی‌کند؛ پنجره گزینه‌های Copy JSON و Close را نیز دارد.",
-          "notes": "برای شناسایی رخداد صحیح، زمان و شرح رویداد را بررسی کنید. جزئیات تشخیصی ممکن است حاوی اطلاعات فنی یا محیطی برنامه باشند."
+          "purpose": "نمایش جزئیات JSON رویداد انتخاب‌شده در Monitor & Diagnostics را باز می‌کند.",
+          "when": "وقتی می‌خواهید زمان کامل، شرح رویداد، شناسه‌های رکورد و نتیجه یک رویداد پایش را بررسی کنید، از این گزینه استفاده کنید.",
+          "how": "در فهرست رویدادهای پایش، برای رویداد مربوط View details را انتخاب کنید. JSON قالب‌بندی‌شده را در پنجره بررسی کنید. برای کپی داده رویداد Copy JSON و برای بستن پنجره Close را انتخاب کنید.",
+          "inputs": "رویداد صحیح را از فهرست رویدادهای فیلترشده انتخاب کنید. ورودی دیگری لازم نیست.",
+          "result": "پنجره‌ای رویداد انتخاب‌شده را به‌صورت JSON قالب‌بندی‌شده نمایش می‌دهد و گزینه‌های Copy JSON و Close را فراهم می‌کند. رویداد ذخیره‌شده تغییر نمی‌کند.",
+          "notes": "شناسه، زمان و شرح رویداد را بررسی کنید تا مطمئن شوید رخداد صحیح را مشاهده می‌کنید. JSON تشخیصی ممکن است حاوی اطلاعات فنی یا محیطی باشد؛ پیش از اشتراک‌گذاری آن را بررسی کنید."
         }
       },
       "handler_or_behavior": "`showMonitorEvent(`"
