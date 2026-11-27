@@ -4839,7 +4839,7 @@
       "audit_ref": "INV-063",
       "element_id": null,
       "label": "Create Accounting Snapshot in IndexedDB",
-      "status": "CONTENT_COMPLETE",
+      "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
           "purpose": "Pending verification: the Settings screen contains a Create Accounting Snapshot in IndexedDB button, but the referenced window.createAccountingStorageSnapshot function is not defined in the inspected R43 HTML or companion JavaScript files.",
@@ -4847,15 +4847,15 @@
           "how": "Keep this help entry unpublished. Do not select the button expecting a snapshot; first confirm that the handler exists in the deployed source and test its output.",
           "inputs": "No verified input requirements are available because the handler is not implemented in the inspected source.",
           "result": "No snapshot result can be confirmed in the inspected R43 build. The button references a missing function.",
-          "notes": "AUDIT BLOCKER: the existing registry status is retained in this pass, but the runtime handler is missing from the inspected R43 source. Do not publish or rely on this guide until the handler is restored and the status is reviewed."
+          "notes": "AUDIT BLOCKER: the runtime handler is missing from the inspected R43 source. The previous translations described a successful snapshot and are therefore not reliable. Keep this entry in Draft until the handler is restored and its behaviour is verified."
         },
         "fa": {
-          "purpose": "یک Snapshot از داده‌های حسابداری در لایه ذخیره‌سازی IndexedDB ایجاد می‌کند.",
-          "when": "وقتی برای بررسی یا عیب‌یابی ذخیره‌سازی حسابداری به یک تصویر داخلی از وضعیت داده‌ها نیاز دارید، از این گزینه استفاده کنید.",
-          "how": "Create Accounting Snapshot in IndexedDB را انتخاب کنید و تا نمایش نتیجه یا پیام خطا صبر کنید.",
-          "inputs": "ورودی فرمی لازم نیست. سرویس ذخیره‌سازی حسابداری باید راه‌اندازی شده و در دسترس باشد.",
-          "result": "در صورت موفقیت، یک Snapshot در لایه ذخیره‌سازی IndexedDB ایجاد می‌شود.",
-          "notes": "این Snapshot تشخیصی/ذخیره‌سازی است، نه فایل پشتیبان کامل قابل دانلود. جایگزین Backup نیست و نباید فرض کنید برای بازیابی سوابق قابل استفاده است."
+          "purpose": "نیازمند بررسی: در صفحه Settings دکمه Create Accounting Snapshot in IndexedDB وجود دارد، اما تابع window.createAccountingStorageSnapshot در فایل HTML یا فایل‌های JavaScript همراهِ نسخه R43 بررسی‌شده تعریف نشده است.",
+          "when": "تا زمانی که پیاده‌سازی این قابلیت بازگردانده و آزمایش نشده است، از این کنترل استفاده نکنید.",
+          "how": "این راهنما باید منتشرنشده بماند. با انتظار ایجاد Snapshot روی دکمه کلیک نکنید؛ ابتدا وجود handler را در سورس نسخه مستقرشده تأیید و خروجی آن را آزمایش کنید.",
+          "inputs": "به دلیل نبود تابع اجرایی در سورس بررسی‌شده، ورودی موردنیازی تأیید نشده است.",
+          "result": "در نسخه R43 بررسی‌شده، ایجاد Snapshot قابل تأیید نیست؛ دکمه به تابعی ارجاع می‌دهد که وجود ندارد.",
+          "notes": "مانع ممیزی: تابع اجرایی در سورس R43 بررسی‌شده وجود ندارد. ترجمه‌های قبلی ایجاد موفق Snapshot را ادعا می‌کردند و قابل اتکا نیستند. این مورد باید Draft بماند تا تابع بازگردانده و رفتار آن تأیید شود."
         },
         "ar": {
           "purpose": "ينشئ لقطة لحالة تخزين المحاسبة في IndexedDB لبيانات المحاسبة في التطبيق.",
@@ -16868,12 +16868,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Pending audit: this inventory item resolves to a hidden placeholder button in the monitoring event modal, not a verified user-facing control.",
-          "when": "There is no verified user workflow for this placeholder in the inspected R43 build.",
-          "how": "Do not present or use this placeholder as an action. Identify the intended visible control and its real handler before writing help.",
-          "inputs": "No verified user input is associated with this hidden placeholder.",
-          "result": "No user-facing runtime result is available. The source creates this button with display:none and its GenUINotUsed handler is not implemented.",
-          "notes": "AUDIT PENDING: this is an inventory placeholder, not a publishable help topic. Keep it as draft until the inventory is corrected or a real control is implemented."
+          "purpose": "Retired audit placeholder: this inventory item resolves to a hidden placeholder button in the monitoring event modal, not to a real user-facing control.",
+          "when": "There is no user workflow for this placeholder in the inspected R43 build.",
+          "how": "Do not display or use this placeholder as an action. It is hidden with display:none and must not be connected to a Help topic.",
+          "inputs": "No user input is associated with this hidden placeholder.",
+          "result": "No user-facing result exists. The source creates this button with display:none and an unimplemented GenUINotUsed handler.",
+          "notes": "AUDIT RESOLUTION: classify INV-256 as an exemption, retain THA-HLP-0219 as a retired immutable audit ID, and do not publish or reuse it. It is not a valid Help attachment point."
         },
         "fa": {
           "purpose": "این کنترل را فقط پس از تأیید متن و رفتار قابل مشاهده آن در فهرست ممیزی باز کنید.",
