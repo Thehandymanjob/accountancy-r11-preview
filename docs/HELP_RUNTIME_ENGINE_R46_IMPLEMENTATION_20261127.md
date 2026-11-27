@@ -139,3 +139,12 @@ Source review corrected the English and Persian text for nine Draft entries: THA
 - Static allowlist count: 94. Total contextual Help controls mapped: 99 (94 static, five dynamic-template).
 - Build target: `THA-273-R11-PREVIEW-20261127-R60`. Version Authority must validate the canonical URL, index SHA and all pinned runtime assets.
 - Source-level only; no real browser Help click, language switching, mobile layout or iPhone Safari test has been performed. No Reset, Preview deployment or Production change.
+
+
+## R61 binding deduplication
+
+- Consolidated the duplicate `THA-HLP-0006` and `THA-HLP-0008` entries. Each now has one static selector scoped to `#ctFormCard`; the duplicate rows were removed from `STATIC_BINDINGS`.
+- Runtime now contains 92 static rows with 92 unique Help IDs and five dynamic-template attributes (97 mapped Help IDs total).
+- Mapping counts were synchronized: 74 scoped static selectors, 13 exact unique-ID selectors, five scoped unique-handler selectors and five dynamic-template attributes.
+- Version target: `THA-273-R11-PREVIEW-20261127-R61`. Version Authority index/runtime pins and Registry mapping baselines must match the final R61 tree.
+- No user-facing app behavior changed. Browser Help interaction, language switching, mobile layout and iPhone Safari remain unverified. No Preview deployment or Production change.
