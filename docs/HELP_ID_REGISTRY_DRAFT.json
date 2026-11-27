@@ -9782,6 +9782,78 @@
           "inputs": "ورودی لازم نیست.",
           "result": "فرم پیمانکار بازنشانی می‌شود. هیچ سابقه ذخیره‌شده در فهرست پیمانکاران یا سابقه هزینه موجود در پروژه تغییر نمی‌کند یا حذف نمی‌شود.",
           "notes": "مقادیر ذخیره‌نشده فرم کنار گذاشته می‌شوند. پیمانکاری که قبلاً در فهرست مشترک Contractors ذخیره شده است، همچنان باقی می‌ماند."
+        },
+        "ar": {
+          "purpose": "يعيد نموذج Contractor / Subcontractor إلى حالة Add Contractor / Subcontractor الفارغة.",
+          "when": "استخدم هذا عند التخلص من تفاصيل مقاول غير محفوظة أو الاستعداد لإدخال مقاول مختلف.",
+          "how": "في نموذج Contractors، اختر Clear. تُفرغ حقول معرّف المقاول والاسم والهاتف والبريد الإلكتروني والملاحظات/المهنة، ويعود العنوان إلى Add Contractor / Subcontractor.",
+          "inputs": "لا يلزم إدخال أي معلومات.",
+          "result": "تتم إعادة تعيين نموذج المقاول. لا يتم تغيير أو حذف أي سجل محفوظ في دليل المقاولين أو أي سجل مصروفات موجود في مشروع.",
+          "notes": "تُلغى قيم النموذج غير المحفوظة. ويظل المقاول المخزن بالفعل في دليل Contractors المشترك محفوظاً."
+        },
+        "ckb": {
+          "purpose": "فۆڕمی Contractor / Subcontractor دەگەڕێنێتەوە بۆ دۆخی بەتاڵی Add Contractor / Subcontractor.",
+          "when": "کاتێک دەتەوێت وردەکارییە پاشەکەوتنەکراوەکانی پەیمانکار فەرامۆش بکەیت یان ئامادە بیت پەیمانکارێکی تر داخڵ بکەیت، ئەمە بەکاربهێنە.",
+          "how": "لە فۆڕمی Contractors، Clear هەڵبژێرە. خانەکانی ناسنامەی پەیمانکار، ناو، تەلەفۆن، ئیمەیڵ و تێبینی/پیشە بەتاڵ دەکرێنەوە و ناونیشان دەگەڕێتەوە بۆ Add Contractor / Subcontractor.",
+          "inputs": "هیچ زانیارییەک پێویست نییە.",
+          "result": "فۆڕمی پەیمانکار Reset دەکرێتەوە. هیچ تۆمارێکی پاشەکەوتکراوی پێڕستی پەیمانکاران یان تۆماری خەرجییەکی هەبووی پڕۆژە ناگۆڕدرێت یان ناسڕدرێتەوە.",
+          "notes": "بەها پاشەکەوتنەکراوەکانی فۆڕم فەرامۆش دەکرێن. پەیمانکارێک کە پێشتر لە پێڕستی هاوبەشی Contractors هەڵگیراوە هەر دەمێنێتەوە."
+        },
+        "kmr": {
+          "purpose": "Forma Contractor / Subcontractor vedigerîne rewşa vala ya Add Contractor / Subcontractor.",
+          "when": "Vê bikar bîne dema ku dixwazî hûrguliyên peymankarê nehatiye tomarkirin betal bikî an amade bibî ku peymankarekî din têxî.",
+          "how": "Di forma Contractors de Clear hilbijêre. Qadên nasnameya peymankar, nav, telefon, e-name û not/pîşe vala dibin, û sernav vedigere Add Contractor / Subcontractor.",
+          "inputs": "Tu agahî nehewce ye.",
+          "result": "Forma peymankar ji nû ve tê saz kirin. Tu tomarê tomarkirî yê pêrista peymankaran an tomarê lêçûnê yê projeyeke heyî nayê guhertin an jêbirin.",
+          "notes": "Nirxên forma nehatiye tomarkirin tên avêtin. Peymankarek ku berê di pêrista hevpar a Contractors de hatiye hilanîn hîn jî tomarkirî dimîne."
+        },
+        "tr": {
+          "purpose": "Contractor / Subcontractor formunu boş Add Contractor / Subcontractor durumuna sıfırlar.",
+          "when": "Kaydedilmemiş yüklenici ayrıntılarını atmak veya farklı bir yüklenici girmeye hazırlanmak istediğinizde kullanın.",
+          "how": "Contractors formunda Clear seçeneğini belirleyin. Yüklenici kimliği, ad, telefon, e-posta ve not/meslek alanları temizlenir; başlık Add Contractor / Subcontractor durumuna döner.",
+          "inputs": "Girdi gerekmez.",
+          "result": "Yüklenici formu sıfırlanır. Kaydedilmiş yüklenici dizini kaydı veya mevcut proje gider kaydı değiştirilmez ya da silinmez.",
+          "notes": "Kaydedilmemiş form değerleri atılır. Ortak Contractors dizininde zaten saklanan yüklenici kaydı korunur."
+        },
+        "pl": {
+          "purpose": "Przywraca formularz Contractor / Subcontractor do pustego stanu Add Contractor / Subcontractor.",
+          "when": "Użyj tej opcji, gdy chcesz odrzucić niezapisane dane wykonawcy lub przygotować formularz do wpisania innego wykonawcy.",
+          "how": "W formularzu Contractors wybierz Clear. Pola identyfikatora wykonawcy, nazwy, telefonu, adresu e-mail i notatek/branży zostaną wyczyszczone, a tytuł wróci do Add Contractor / Subcontractor.",
+          "inputs": "Nie są wymagane żadne dane wejściowe.",
+          "result": "Formularz wykonawcy zostanie zresetowany. Żaden zapisany rekord katalogu wykonawców ani istniejący rekord wydatku projektu nie zostanie zmieniony ani usunięty.",
+          "notes": "Niezapisane wartości formularza zostaną odrzucone. Wykonawca zapisany już we współdzielonym katalogu Contractors pozostanie zapisany."
+        },
+        "ur": {
+          "purpose": "Contractor / Subcontractor فارم کو خالی Add Contractor / Subcontractor حالت میں واپس لے جاتا ہے۔",
+          "when": "اسے اس وقت استعمال کریں جب آپ غیر محفوظ شدہ ٹھیکیدار کی تفصیلات چھوڑنا یا کسی دوسرے ٹھیکیدار کی معلومات درج کرنے کی تیاری کرنا چاہتے ہوں۔",
+          "how": "Contractors فارم میں Clear منتخب کریں۔ ٹھیکیدار کی شناخت، نام، فون، ای میل اور نوٹس/کام کے شعبے کے خانے صاف ہو جاتے ہیں اور عنوان Add Contractor / Subcontractor پر واپس آ جاتا ہے۔",
+          "inputs": "کسی معلومات کی ضرورت نہیں۔",
+          "result": "ٹھیکیدار فارم دوبارہ ترتیب پاتا ہے۔ ٹھیکیداروں کی فہرست میں کوئی محفوظ شدہ ریکارڈ یا منصوبے کا موجودہ اخراجاتی ریکارڈ تبدیل یا حذف نہیں ہوتا۔",
+          "notes": "فارم کی غیر محفوظ شدہ قدریں ضائع ہو جاتی ہیں۔ مشترکہ Contractors فہرست میں پہلے سے محفوظ ٹھیکیدار کا ریکارڈ برقرار رہتا ہے۔"
+        },
+        "pa": {
+          "purpose": "Contractor / Subcontractor ਫਾਰਮ ਨੂੰ ਖਾਲੀ Add Contractor / Subcontractor ਹਾਲਤ ਵਿੱਚ ਮੁੜ ਸੈੱਟ ਕਰਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਤੁਸੀਂ ਨਾ-ਸੇਵ ਕੀਤੇ ਠੇਕੇਦਾਰ ਵੇਰਵੇ ਛੱਡਣੇ ਜਾਂ ਕਿਸੇ ਹੋਰ ਠੇਕੇਦਾਰ ਦੀ ਜਾਣਕਾਰੀ ਦਰਜ ਕਰਨ ਲਈ ਤਿਆਰ ਹੋਣਾ ਚਾਹੁੰਦੇ ਹੋ।",
+          "how": "Contractors ਫਾਰਮ ਵਿੱਚ Clear ਚੁਣੋ। ਠੇਕੇਦਾਰ ID, ਨਾਮ, ਫੋਨ, ਈਮੇਲ ਅਤੇ ਕੰਮ/ਨੋਟਾਂ ਵਾਲੇ ਖੇਤਰ ਸਾਫ਼ ਹੋ ਜਾਂਦੇ ਹਨ ਅਤੇ ਸਿਰਲੇਖ Add Contractor / Subcontractor 'ਤੇ ਵਾਪਸ ਆ ਜਾਂਦਾ ਹੈ।",
+          "inputs": "ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ।",
+          "result": "ਠੇਕੇਦਾਰ ਫਾਰਮ ਮੁੜ ਸੈੱਟ ਹੁੰਦਾ ਹੈ। ਠੇਕੇਦਾਰ ਡਾਇਰੈਕਟਰੀ ਦਾ ਕੋਈ ਸੰਭਾਲਿਆ ਰਿਕਾਰਡ ਜਾਂ ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਖਰਚਾ ਰਿਕਾਰਡ ਬਦਲਿਆ ਜਾਂ ਮਿਟਾਇਆ ਨਹੀਂ ਜਾਂਦਾ।",
+          "notes": "ਫਾਰਮ ਦੀਆਂ ਨਾ-ਸੇਵ ਕੀਤੀਆਂ ਕਦਰਾਂ ਰੱਦ ਹੋ ਜਾਂਦੀਆਂ ਹਨ। ਸਾਂਝੀ Contractors ਡਾਇਰੈਕਟਰੀ ਵਿੱਚ ਪਹਿਲਾਂ ਤੋਂ ਸੰਭਾਲਿਆ ਠੇਕੇਦਾਰ ਰਿਕਾਰਡ ਬਰਕਰਾਰ ਰਹਿੰਦਾ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "فرم Contractor / Subcontractor را به وضعیت خالی Add Contractor / Subcontractor بازمی‌گرداند.",
+          "when": "وقتی می‌خواهید اطلاعات ذخیره‌نشده پیمانکار را کنار بگذارید یا برای واردکردن پیمانکار دیگری آماده شوید، از این گزینه استفاده کنید.",
+          "how": "در فرم Contractors گزینه Clear را انتخاب کنید. فیلدهای شناسه پیمانکار، نام، تلفن، ایمیل و یادداشت/تخصص پاک می‌شوند و عنوان فرم به Add Contractor / Subcontractor بازمی‌گردد.",
+          "inputs": "ورودی لازم نیست.",
+          "result": "فرم پیمانکار بازنشانی می‌شود. هیچ سابقه ذخیره‌شده در فهرست پیمانکاران یا سابقه هزینه موجود در پروژه تغییر نمی‌کند یا حذف نمی‌شود.",
+          "notes": "مقادیر ذخیره‌نشده فرم کنار گذاشته می‌شوند. پیمانکاری که قبلاً در فهرست مشترک Contractors ذخیره شده است، همچنان باقی می‌ماند."
+        },
+        "ps": {
+          "purpose": "د Contractor / Subcontractor فورمه بېرته تش Add Contractor / Subcontractor حالت ته اړوي.",
+          "when": "دا هغه وخت وکاروئ چې غواړئ د قراردادي نه خوندي شوي جزئیات پرېږدئ یا د بل قراردادي د معلوماتو د داخلولو لپاره چمتو شئ.",
+          "how": "د Contractors په فورمه کې Clear وټاکئ. د قراردادي پېژند، نوم، ټیلیفون، برېښنالیک او د مسلک/یادښتونو خانې پاکېږي او سرلیک Add Contractor / Subcontractor ته راګرځي.",
+          "inputs": "هېڅ معلوماتو ته اړتیا نشته.",
+          "result": "د قراردادي فورمه بیا تنظیمېږي. د قراردادیانو په لېست کې خوندي شوی ریکارډ یا د پروژې موجود د لګښت ریکارډ نه بدلېږي او نه ړنګېږي.",
+          "notes": "د فورمې نه خوندي شوي ارزښتونه پرېښودل کېږي. هغه قراردادي چې مخکې د Contractors په ګډ لېست کې خوندي شوی وي، خوندي پاتې کېږي."
         }
       },
       "handler_or_behavior": "`prResetContractor()`"
@@ -9808,6 +9880,78 @@
           "inputs": "نام کارگر الزامی است. تلفن و یادداشت‌ها اختیاری هستند. هنگام ویرایش، شناسه ذخیره‌شده کارگر مشخص می‌کند کدام سابقه به‌روزرسانی شود.",
           "result": "پس از اعتبارسنجی نام و ذخیره موفق در IndexedDB، سابقه کارگر افزوده یا به‌روزرسانی می‌شود. نام خالی پیام هشدار ایجاد می‌کند و شکست ذخیره مانع تکمیل عملیات است.",
           "notes": "برای ثبت دستمزد در پروژه‌های مختلف از سابقه ذخیره‌شده همان کارگر استفاده کنید. پیش از ایجاد سابقه جدید، وجود کارگر قبلی را بررسی کنید. ذخیره سابقه کارگر در فهرست به‌تنهایی سابقه دستمزد ایجاد نمی‌کند."
+        },
+        "ar": {
+          "purpose": "ينشئ سجلاً جديداً لعامل أو يحدّث عاملاً موجوداً في دليل Workers المشترك.",
+          "when": "استخدم هذا بعد إدخال تفاصيل عامل جديد أو تغيير تفاصيل عامل موجود.",
+          "how": "في Control Panel → Workers، أدخل اسم العامل المطلوب وأي هاتف أو ملاحظات اختيارية. اختر Save Worker. إذا نجح الحفظ في IndexedDB، يُعاد تعيين النموذج، وتُحدّث قائمة Workers ومحددات الشركاء/العمال.",
+          "inputs": "اسم العامل مطلوب. الهاتف والملاحظات اختياريان. عند التعديل، يحدد معرّف العامل المحفوظ السجل المراد تحديثه.",
+          "result": "يُضاف العامل أو يُحدّث بعد التحقق من الاسم ونجاح الحفظ في IndexedDB. يؤدي الاسم الفارغ إلى تنبيه؛ وفشل الحفظ يمنع إكمال العملية.",
+          "notes": "استخدم سجل العامل المحفوظ عند تسجيل الأجور عبر المشاريع. تحقق من وجود عامل مسجل بالفعل قبل إنشاء سجل آخر. حفظ سجل العامل في الدليل لا ينشئ سجلاً للأجور."
+        },
+        "ckb": {
+          "purpose": "تۆماری کرێکارێکی نوێ دروست دەکات یان تۆماری کرێکارێکی هەبوو لە پێڕستی هاوبەشی Workers نوێ دەکاتەوە.",
+          "when": "دوای داخڵکردنی وردەکاری کرێکارێکی نوێ یان گۆڕینی وردەکاری کرێکارێکی هەبوو، ئەمە بەکاربهێنە.",
+          "how": "لە Control Panel → Workers، ناوی پێویستی کرێکار و هەر تەلەفۆن یان تێبینییەکی ئارەزوومەند داخڵ بکە. Save Worker هەڵبژێرە. ئەگەر پاشەکەوتکردن لە IndexedDB سەرکەوتوو بێت، فۆڕمەکە Reset دەکرێتەوە، لیستی Workers و هەڵبژێرەکانی هاوبەش/کرێکار نوێ دەکرێنەوە.",
+          "inputs": "ناوی کرێکار پێویستە. تەلەفۆن و تێبینی ئارەزوومەندن. لە کاتی دەستکاریکردندا ناسنامەی پاشەکەوتکراوی کرێکار دیاری دەکات کام تۆمار نوێ بکرێتەوە.",
+          "result": "دوای پشتڕاستکردنەوەی ناو و پاشەکەوتکردنی سەرکەوتوو لە IndexedDB، تۆماری کرێکار زیاد یان نوێ دەکرێتەوە. ناوی بەتاڵ ئاگاداری دروست دەکات؛ شکستی پاشەکەوتکردن ڕێگری لە تەواوبوونی کردارەکە دەکات.",
+          "notes": "کاتی تۆمارکردنی مووچە لە پڕۆژە جیاوازەکاندا تۆماری پاشەکەوتکراوی کرێکار بەکاربهێنە. پێش دروستکردنی تۆمارێکی تر بپشکنە کە کرێکارەکە پێشتر هەیە یان نا. پاشەکەوتکردنی تۆماری کرێکار لە پێڕست بەخۆی تۆماری مووچە دروست ناکات."
+        },
+        "kmr": {
+          "purpose": "Tomareke karkerekî nû çêdike an karkerê heyî di pêrista hevpar a Workers de nû dike.",
+          "when": "Vê bikar bîne piştî têketina hûrguliyên karkerekî nû an guhertina hûrguliyên karkerekî heyî.",
+          "how": "Di Control Panel → Workers de navê pêwîst ê karker û telefon an notên vebijarkî têxe. Save Worker hilbijêre. Heke tomarkirina IndexedDB serkeftî be, form ji nû ve tê saz kirin, lîsteya Workers û hilbijêrên hevkar/karker nû dibin.",
+          "inputs": "Navê karker pêwîst e. Telefon û not vebijarkî ne. Dema guherandinê nasnameya tomarkirî ya karker tomarê ku dê were nûkirin diyar dike.",
+          "result": "Piştî verastkirina nav û tomarkirina serkeftî ya IndexedDB, tomara karker tê zêdekirin an nûkirin. Navê vala hişyariyekê çêdike; têkçûna tomarkirinê rê li ber temambûna operasyonê digire.",
+          "notes": "Dema ku mûçe li seranserê projeyan tomar dikî tomara karkerê tomarkirî bikar bîne. Berî çêkirina tomareke din kontrol bike ka karkerê heyî heye an na. Tomarkirina tomara karkerê di pêristê de tomarê mûçeyê çênake."
+        },
+        "tr": {
+          "purpose": "Ortak Workers dizinine yeni bir çalışan kaydı ekler veya mevcut çalışanı günceller.",
+          "when": "Yeni bir çalışanın bilgilerini girdikten veya mevcut çalışanın bilgilerini değiştirdikten sonra kullanın.",
+          "how": "Control Panel → Workers bölümünde gerekli çalışan adını ve isteğe bağlı telefon veya notları girin. Save Worker seçeneğini belirleyin. IndexedDB kaydı başarılı olursa form sıfırlanır, Workers listesi ve ortak/çalışan seçicileri yenilenir.",
+          "inputs": "Çalışan adı zorunludur. Telefon ve notlar isteğe bağlıdır. Düzenleme sırasında kayıtlı çalışan kimliği güncellenecek kaydı belirler.",
+          "result": "Ad doğrulaması ve IndexedDB kaydı başarılı olursa çalışan eklenir veya güncellenir. Boş ad uyarı oluşturur; kayıt hatası işlemin tamamlanmasını engeller.",
+          "notes": "Projeler genelinde ücret kaydederken kayıtlı çalışan kaydını kullanın. Yeni kayıt oluşturmadan önce aynı çalışanın zaten kayıtlı olup olmadığını kontrol edin. Çalışan dizini kaydı eklemek tek başına ücret kaydı oluşturmaz."
+        },
+        "pl": {
+          "purpose": "Tworzy nowy rekord pracownika lub aktualizuje istniejącego pracownika we współdzielonym katalogu Workers.",
+          "when": "Użyj tej opcji po wpisaniu danych nowego pracownika lub zmianie danych istniejącego pracownika.",
+          "how": "W Control Panel → Workers wpisz wymaganą nazwę pracownika oraz opcjonalnie telefon lub notatki. Wybierz Save Worker. Jeśli zapis w IndexedDB się powiedzie, formularz zostanie zresetowany, a lista Workers i selektory partnerów/pracowników odświeżone.",
+          "inputs": "Nazwa pracownika jest wymagana. Telefon i notatki są opcjonalne. Podczas edycji zapisany identyfikator pracownika wskazuje rekord do aktualizacji.",
+          "result": "Rekord pracownika zostanie dodany lub zaktualizowany po walidacji nazwy i pomyślnym zapisie w IndexedDB. Pusta nazwa wywołuje alert; nieudany zapis uniemożliwia zakończenie operacji.",
+          "notes": "Używaj zapisanego rekordu pracownika podczas rejestrowania wynagrodzeń w różnych projektach. Przed utworzeniem kolejnego rekordu sprawdź, czy pracownik już istnieje. Zapisanie pracownika w katalogu nie tworzy rekordu wynagrodzenia."
+        },
+        "ur": {
+          "purpose": "مشترکہ Workers فہرست میں نیا کارکن ریکارڈ بناتا ہے یا موجودہ کارکن کو اپ ڈیٹ کرتا ہے۔",
+          "when": "اسے نئے کارکن کی تفصیلات درج کرنے یا موجودہ کارکن کی تفصیلات تبدیل کرنے کے بعد استعمال کریں۔",
+          "how": "Control Panel → Workers میں مطلوبہ کارکن کا نام اور اختیاری فون یا نوٹس درج کریں۔ Save Worker منتخب کریں۔ اگر IndexedDB میں محفوظ کرنا کامیاب ہو تو فارم دوبارہ ترتیب پاتا ہے، Workers فہرست تازہ ہوتی ہے اور شراکت دار/کارکن کے انتخابی خانے بھی تازہ ہوتے ہیں۔",
+          "inputs": "کارکن کا نام ضروری ہے۔ فون اور نوٹس اختیاری ہیں۔ ترمیم کے وقت محفوظ شدہ کارکن کی شناخت اس ریکارڈ کو متعین کرتی ہے جسے اپ ڈیٹ کرنا ہے۔",
+          "result": "نام کی جانچ اور IndexedDB میں کامیاب محفوظ ہونے کے بعد کارکن کا ریکارڈ شامل یا اپ ڈیٹ ہو جاتا ہے۔ خالی نام انتباہ پیدا کرتا ہے؛ محفوظ کرنے میں ناکامی عمل مکمل نہیں ہونے دیتی۔",
+          "notes": "مختلف منصوبوں میں اجرت درج کرتے وقت محفوظ شدہ کارکن ریکارڈ استعمال کریں۔ نیا ریکارڈ بنانے سے پہلے دیکھیں کہ وہ کارکن پہلے سے موجود تو نہیں۔ کارکن کی فہرست میں ریکارڈ محفوظ کرنے سے اجرت کا ریکارڈ خود بخود نہیں بنتا۔"
+        },
+        "pa": {
+          "purpose": "ਸਾਂਝੀ Workers ਡਾਇਰੈਕਟਰੀ ਵਿੱਚ ਨਵਾਂ ਕਾਮਾ ਰਿਕਾਰਡ ਬਣਾਉਂਦਾ ਹੈ ਜਾਂ ਮੌਜੂਦਾ ਕਾਮੇ ਨੂੰ ਅੱਪਡੇਟ ਕਰਦਾ ਹੈ।",
+          "when": "ਨਵੇਂ ਕਾਮੇ ਦੇ ਵੇਰਵੇ ਦਰਜ ਕਰਨ ਜਾਂ ਮੌਜੂਦਾ ਕਾਮੇ ਦੇ ਵੇਰਵੇ ਬਦਲਣ ਤੋਂ ਬਾਅਦ ਇਸਦੀ ਵਰਤੋਂ ਕਰੋ।",
+          "how": "Control Panel → Workers ਵਿੱਚ ਲਾਜ਼ਮੀ ਕਾਮੇ ਦਾ ਨਾਮ ਅਤੇ ਵਿਕਲਪਿਕ ਫੋਨ ਜਾਂ ਨੋਟ ਦਰਜ ਕਰੋ। Save Worker ਚੁਣੋ। ਜੇ IndexedDB ਵਿੱਚ ਸੇਵ ਸਫਲ ਹੋਵੇ ਤਾਂ ਫਾਰਮ ਮੁੜ ਸੈੱਟ ਹੁੰਦਾ ਹੈ, Workers ਸੂਚੀ ਤਾਜ਼ਾ ਹੁੰਦੀ ਹੈ ਅਤੇ ਭਾਈਵਾਲ/ਕਾਮਾ ਚੋਣਕਾਰ ਵੀ ਤਾਜ਼ਾ ਹੁੰਦੇ ਹਨ।",
+          "inputs": "ਕਾਮੇ ਦਾ ਨਾਮ ਲਾਜ਼ਮੀ ਹੈ। ਫੋਨ ਅਤੇ ਨੋਟ ਵਿਕਲਪਿਕ ਹਨ। ਸੋਧ ਸਮੇਂ ਸੰਭਾਲੀ ਕਾਮਾ ID ਉਸ ਰਿਕਾਰਡ ਦੀ ਪਛਾਣ ਕਰਦੀ ਹੈ ਜਿਸਨੂੰ ਅੱਪਡੇਟ ਕਰਨਾ ਹੈ।",
+          "result": "ਨਾਮ ਦੀ ਜਾਂਚ ਅਤੇ IndexedDB ਵਿੱਚ ਸੇਵ ਸਫਲ ਹੋਣ ਤੋਂ ਬਾਅਦ ਕਾਮਾ ਜੋੜਿਆ ਜਾਂ ਅੱਪਡੇਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ। ਖਾਲੀ ਨਾਮ ਚੇਤਾਵਨੀ ਲਿਆਉਂਦਾ ਹੈ; ਸੇਵ ਅਸਫਲਤਾ ਕਾਰਵਾਈ ਪੂਰੀ ਨਹੀਂ ਹੋਣ ਦਿੰਦੀ।",
+          "notes": "ਵੱਖ-ਵੱਖ ਪ੍ਰੋਜੈਕਟਾਂ ਵਿੱਚ ਮਜ਼ਦੂਰੀ ਦਰਜ ਕਰਦੇ ਸਮੇਂ ਸੰਭਾਲਿਆ ਕਾਮਾ ਰਿਕਾਰਡ ਵਰਤੋ। ਨਵਾਂ ਰਿਕਾਰਡ ਬਣਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਜਾਂਚੋ ਕਿ ਕਾਮਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ ਜਾਂ ਨਹੀਂ। ਕਾਮੇ ਦੀ ਡਾਇਰੈਕਟਰੀ ਐਂਟਰੀ ਸੇਵ ਕਰਨ ਨਾਲ ਮਜ਼ਦੂਰੀ ਰਿਕਾਰਡ ਨਹੀਂ ਬਣਦਾ।"
+        },
+        "prs": {
+          "purpose": "یک سابقه کارگر جدید در فهرست مشترک Workers ایجاد می‌کند یا سابقه کارگر موجود را به‌روزرسانی می‌کند.",
+          "when": "پس از واردکردن مشخصات کارگر جدید یا تغییر مشخصات کارگر موجود از این گزینه استفاده کنید.",
+          "how": "در Control Panel → Workers، نام الزامی کارگر و در صورت نیاز تلفن یا یادداشت را وارد کنید. Save Worker را انتخاب کنید. اگر ذخیره در IndexedDB موفق باشد، فرم بازنشانی، فهرست Workers تازه‌سازی و انتخاب‌گرهای مرتبط نیز به‌روزرسانی می‌شوند.",
+          "inputs": "نام کارگر الزامی است. تلفن و یادداشت‌ها اختیاری هستند. هنگام ویرایش، شناسه ذخیره‌شده کارگر مشخص می‌کند کدام سابقه به‌روزرسانی شود.",
+          "result": "پس از اعتبارسنجی نام و ذخیره موفق در IndexedDB، سابقه کارگر افزوده یا به‌روزرسانی می‌شود. نام خالی پیام هشدار ایجاد می‌کند و شکست ذخیره مانع تکمیل عملیات است.",
+          "notes": "برای ثبت دستمزد در پروژه‌های مختلف از سابقه ذخیره‌شده همان کارگر استفاده کنید. پیش از ایجاد سابقه جدید، وجود کارگر قبلی را بررسی کنید. ذخیره سابقه کارگر در فهرست به‌تنهایی سابقه دستمزد ایجاد نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د Workers په ګډ لېست کې د نوي کارکوونکي ریکارډ جوړوي یا موجود کارکوونکی تازه کوي.",
+          "when": "دا هغه وخت وکاروئ چې د نوي کارکوونکي جزئیات داخل کړئ یا د موجود کارکوونکي معلومات بدل کړئ.",
+          "how": "په Control Panel → Workers کې د کارکوونکي اړین نوم او اختیاري ټیلیفون یا یادښتونه ولیکئ. Save Worker وټاکئ. که په IndexedDB کې خوندي کول بریالي شي، فورمه بیا تنظیمېږي، د Workers لېست تازه کېږي او د شریک/کارکوونکي ټاکونکي هم تازه کېږي.",
+          "inputs": "د کارکوونکي نوم اړین دی. ټیلیفون او یادښتونه اختیاري دي. د سمون پر مهال خوندي شوی د کارکوونکي پېژند هغه ریکارډ ټاکي چې باید تازه شي.",
+          "result": "د نوم له تایید او په IndexedDB کې د بریالي خوندي کولو وروسته د کارکوونکي ریکارډ زیاتېږي یا تازه کېږي. تش نوم خبرداری رامنځته کوي؛ د خوندي کولو ناکامي د عمل بشپړېدل منع کوي.",
+          "notes": "په بېلابېلو پروژو کې د مزدورۍ د ثبتولو پر مهال د کارکوونکي خوندي شوی ریکارډ وکاروئ. د نوي ریکارډ له جوړولو مخکې وګورئ چې کارکوونکی مخکې شته که نه. د کارکوونکي د لېست ریکارډ خوندي کول د مزدورۍ ریکارډ نه جوړوي."
         }
       },
       "handler_or_behavior": "`prSavePerson(`"
@@ -9834,6 +9978,78 @@
           "inputs": "ورودی لازم نیست.",
           "result": "فرم Worker بازنشانی می‌شود. هیچ سابقه ذخیره‌شده کارگر یا سابقه دستمزد موجودی تغییر نمی‌کند یا حذف نمی‌شود.",
           "notes": "مقادیر ذخیره‌نشده فرم کنار گذاشته می‌شوند. این عملیات کارگری را که قبلاً در فهرست مشترک Workers ذخیره شده است حذف نمی‌کند و سوابق دستمزدی مرتبط با او را نیز پاک نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يعيد نموذج Worker إلى حالة Add Worker الفارغة.",
+          "when": "استخدم هذا عندما تريد التخلص من تفاصيل عامل غير محفوظة أو الاستعداد لإدخال عامل مختلف.",
+          "how": "في نموذج Workers، اختر Clear. تُفرغ حقول معرّف العامل والاسم والهاتف والملاحظات، ويعود العنوان إلى Add Worker.",
+          "inputs": "لا يلزم إدخال أي معلومات.",
+          "result": "تتم إعادة تعيين نموذج Worker الحالي. لا يتم تغيير أو حذف أي سجل محفوظ في دليل العمال أو أي سجل أجور موجود.",
+          "notes": "تُلغى قيم النموذج غير المحفوظة. لا يحذف هذا الإجراء عاملاً محفوظاً بالفعل في دليل Workers المشترك ولا يزيل سجلات الأجور التي تشير إليه."
+        },
+        "ckb": {
+          "purpose": "فۆڕمی Worker دەگەڕێنێتەوە بۆ دۆخی بەتاڵی Add Worker.",
+          "when": "کاتێک دەتەوێت وردەکارییە پاشەکەوتنەکراوەکانی کرێکار فەرامۆش بکەیت یان ئامادە بیت کرێکارێکی تر داخڵ بکەیت، ئەمە بەکاربهێنە.",
+          "how": "لە فۆڕمی Workers، Clear هەڵبژێرە. خانەکانی ناسنامەی کرێکار، ناو، تەلەفۆن و تێبینی بەتاڵ دەکرێنەوە و ناونیشان دەگەڕێتەوە بۆ Add Worker.",
+          "inputs": "هیچ زانیارییەک پێویست نییە.",
+          "result": "فۆڕمی Workerی ئێستا Reset دەکرێتەوە. هیچ تۆمارێکی پاشەکەوتکراوی پێڕستی کرێکاران یان تۆماری مووچەیەکی هەبوو ناگۆڕدرێت یان ناسڕدرێتەوە.",
+          "notes": "بەها پاشەکەوتنەکراوەکانی فۆڕم فەرامۆش دەکرێن. ئەم کردارە کرێکارێک کە پێشتر لە پێڕستی هاوبەشی Workers هەڵگیراوە ناسڕێتەوە و تۆمارەکانی مووچەی پەیوەندیدار بەو کرێکارەش ناسڕێتەوە."
+        },
+        "kmr": {
+          "purpose": "Forma Worker vedigerîne rewşa vala ya Add Worker.",
+          "when": "Vê bikar bîne dema ku dixwazî hûrguliyên karkerê nehatiye tomarkirin betal bikî an amade bibî ku karkerekî din têxî.",
+          "how": "Di forma Workers de Clear hilbijêre. Qadên nasnameya karker, nav, telefon û not tên paqijkirin, û sernav vedigere Add Worker.",
+          "inputs": "Tu agahî nehewce ye.",
+          "result": "Forma Worker ya heyî ji nû ve tê saz kirin. Tu tomarê tomarkirî yê pêrista karkeran an tomarê mûçeyê yê heyî nayê guhertin an jêbirin.",
+          "notes": "Nirxên forma nehatiye tomarkirin tên avêtin. Ev kiryar karkerekî ku berê di pêrista hevpar a Workers de hatiye hilanîn jê nake û tomarên mûçeyê yên ku jê re têne girêdan jî naxwîne."
+        },
+        "tr": {
+          "purpose": "Worker formunu boş Add Worker durumuna sıfırlar.",
+          "when": "Kaydedilmemiş çalışan ayrıntılarını atmak veya farklı bir çalışan girmeye hazırlanmak istediğinizde kullanın.",
+          "how": "Workers formunda Clear seçeneğini belirleyin. Çalışan kimliği, ad, telefon ve not alanları temizlenir; başlık Add Worker durumuna döner.",
+          "inputs": "Girdi gerekmez.",
+          "result": "Mevcut Worker formu sıfırlanır. Kaydedilmiş çalışan dizini kaydı veya mevcut ücret kaydı değiştirilmez ya da silinmez.",
+          "notes": "Kaydedilmemiş form değerleri atılır. Bu işlem ortak Workers dizininde zaten kayıtlı bir çalışanı silmez veya o çalışana bağlı ücret kayıtlarını kaldırmaz."
+        },
+        "pl": {
+          "purpose": "Przywraca formularz Worker do pustego stanu Add Worker.",
+          "when": "Użyj tej opcji, gdy chcesz odrzucić niezapisane dane pracownika lub przygotować formularz do wpisania innego pracownika.",
+          "how": "W formularzu Workers wybierz Clear. Pola identyfikatora pracownika, nazwy, telefonu i notatek zostaną wyczyszczone, a tytuł wróci do Add Worker.",
+          "inputs": "Nie są wymagane żadne dane wejściowe.",
+          "result": "Bieżący formularz Worker zostanie zresetowany. Żaden zapisany rekord katalogu pracowników ani istniejący rekord wynagrodzenia nie zostanie zmieniony ani usunięty.",
+          "notes": "Niezapisane wartości formularza zostaną odrzucone. Ta czynność nie usuwa pracownika zapisanego już we współdzielonym katalogu Workers ani nie usuwa rekordów wynagrodzeń powiązanych z tym pracownikiem."
+        },
+        "ur": {
+          "purpose": "Worker فارم کو خالی Add Worker حالت میں واپس لے جاتا ہے۔",
+          "when": "اسے اس وقت استعمال کریں جب آپ غیر محفوظ شدہ کارکن کی تفصیلات چھوڑنا یا کسی دوسرے کارکن کی معلومات درج کرنے کی تیاری کرنا چاہتے ہوں۔",
+          "how": "Workers فارم میں Clear منتخب کریں۔ کارکن کی شناخت، نام، فون اور نوٹس کے خانے صاف ہو جاتے ہیں اور عنوان Add Worker پر واپس آ جاتا ہے۔",
+          "inputs": "کسی معلومات کی ضرورت نہیں۔",
+          "result": "موجودہ Worker فارم دوبارہ ترتیب پاتا ہے۔ کارکنوں کی فہرست میں کوئی محفوظ شدہ ریکارڈ یا موجودہ اجرت کا ریکارڈ تبدیل یا حذف نہیں ہوتا۔",
+          "notes": "فارم کی غیر محفوظ شدہ قدریں ضائع ہو جاتی ہیں۔ یہ کارروائی مشترکہ Workers فہرست میں پہلے سے محفوظ کارکن کو حذف نہیں کرتی اور اس کارکن سے متعلق اجرت کے ریکارڈ بھی نہیں ہٹاتی۔"
+        },
+        "pa": {
+          "purpose": "Worker ਫਾਰਮ ਨੂੰ ਖਾਲੀ Add Worker ਹਾਲਤ ਵਿੱਚ ਮੁੜ ਸੈੱਟ ਕਰਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਤੁਸੀਂ ਨਾ-ਸੇਵ ਕੀਤੇ ਕਾਮੇ ਦੇ ਵੇਰਵੇ ਛੱਡਣੇ ਜਾਂ ਕਿਸੇ ਹੋਰ ਕਾਮੇ ਦੀ ਜਾਣਕਾਰੀ ਦਰਜ ਕਰਨ ਲਈ ਤਿਆਰ ਹੋਣਾ ਚਾਹੁੰਦੇ ਹੋ।",
+          "how": "Workers ਫਾਰਮ ਵਿੱਚ Clear ਚੁਣੋ। ਕਾਮਾ ID, ਨਾਮ, ਫੋਨ ਅਤੇ ਨੋਟਾਂ ਵਾਲੇ ਖੇਤਰ ਸਾਫ਼ ਹੋ ਜਾਂਦੇ ਹਨ ਅਤੇ ਸਿਰਲੇਖ Add Worker 'ਤੇ ਵਾਪਸ ਆ ਜਾਂਦਾ ਹੈ।",
+          "inputs": "ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ।",
+          "result": "ਮੌਜੂਦਾ Worker ਫਾਰਮ ਮੁੜ ਸੈੱਟ ਹੁੰਦਾ ਹੈ। ਕਾਮਾ ਡਾਇਰੈਕਟਰੀ ਦਾ ਕੋਈ ਸੰਭਾਲਿਆ ਰਿਕਾਰਡ ਜਾਂ ਮੌਜੂਦਾ ਮਜ਼ਦੂਰੀ ਰਿਕਾਰਡ ਬਦਲਿਆ ਜਾਂ ਮਿਟਾਇਆ ਨਹੀਂ ਜਾਂਦਾ।",
+          "notes": "ਫਾਰਮ ਦੀਆਂ ਨਾ-ਸੇਵ ਕੀਤੀਆਂ ਕਦਰਾਂ ਰੱਦ ਹੋ ਜਾਂਦੀਆਂ ਹਨ। ਇਹ ਕਾਰਵਾਈ ਸਾਂਝੀ Workers ਡਾਇਰੈਕਟਰੀ ਵਿੱਚ ਪਹਿਲਾਂ ਤੋਂ ਸੰਭਾਲੇ ਕਾਮੇ ਨੂੰ ਨਹੀਂ ਮਿਟਾਉਂਦੀ ਅਤੇ ਉਸ ਕਾਮੇ ਨਾਲ ਜੁੜੇ ਮਜ਼ਦੂਰੀ ਰਿਕਾਰਡ ਵੀ ਨਹੀਂ ਹਟਾਉਂਦੀ।"
+        },
+        "prs": {
+          "purpose": "فرم Worker را به وضعیت خالی Add Worker بازمی‌گرداند.",
+          "when": "وقتی می‌خواهید اطلاعات ذخیره‌نشده کارگر را کنار بگذارید یا برای واردکردن کارگر دیگری آماده شوید، از این گزینه استفاده کنید.",
+          "how": "در فرم Workers گزینه Clear را انتخاب کنید. فیلدهای شناسه کارگر، نام، تلفن و یادداشت پاک می‌شوند و عنوان فرم به Add Worker بازمی‌گردد.",
+          "inputs": "ورودی لازم نیست.",
+          "result": "فرم Worker فعلی بازنشانی می‌شود. هیچ سابقه ذخیره‌شده کارگر یا سابقه دستمزد موجودی تغییر نمی‌کند یا حذف نمی‌شود.",
+          "notes": "مقادیر ذخیره‌نشده فرم کنار گذاشته می‌شوند. این عملیات کارگری را که قبلاً در فهرست مشترک Workers ذخیره شده است حذف نمی‌کند و سوابق دستمزدی مرتبط با او را نیز پاک نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د Worker فورمه بېرته تش Add Worker حالت ته اړوي.",
+          "when": "دا هغه وخت وکاروئ چې غواړئ د کارکوونکي نه خوندي شوي جزئیات پرېږدئ یا د بل کارکوونکي د معلوماتو د داخلولو لپاره چمتو شئ.",
+          "how": "د Workers په فورمه کې Clear وټاکئ. د کارکوونکي پېژند، نوم، ټیلیفون او یادښتونه پاکېږي او سرلیک Add Worker ته راګرځي.",
+          "inputs": "هېڅ معلوماتو ته اړتیا نشته.",
+          "result": "اوسنۍ Worker فورمه بیا تنظیمېږي. د کارکوونکو په لېست کې خوندي شوی ریکارډ یا د مزدورۍ موجود ریکارډ نه بدلېږي او نه ړنګېږي.",
+          "notes": "د فورمې نه خوندي شوي ارزښتونه پرېښودل کېږي. دا کړنه هغه کارکوونکی نه ړنګوي چې مخکې د Workers په ګډ لېست کې خوندي شوی وي او د هغه کارکوونکي اړوند د مزدورۍ ریکارډونه هم نه لرې کوي."
         }
       },
       "handler_or_behavior": "`prResetPerson(`"
@@ -9860,6 +10076,78 @@
           "inputs": "برای بازکردن فهرست ورودی لازم نیست. هنگام افزودن یا ویرایش سابقه، نام شریک الزامی است؛ تلفن، ایمیل و یادداشت‌ها اختیاری هستند.",
           "result": "صفحه Partners همراه با فرم Add/Edit Partner و فهرست ذخیره‌شده شرکا باز می‌شود.",
           "notes": "شرکای ذخیره‌شده را می‌توان در فرم تقسیم سود پروژه انتخاب کرد. حذف شریک از این فهرست به تأیید نیاز دارد و سابقه فهرست را به‌طور دائمی حذف می‌کند؛ سوابق پروژه ممکن است همچنان به آن ارجاع داشته باشند. برخلاف توضیح دیگری در Control Panel، تابع حذف فعلی در صورت وجود سابقه مالی شریک را به‌طور خودکار غیرفعال نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يفتح دليل Partners المشترك من Control Panel في Business Workspace.",
+          "when": "استخدم هذا عند مراجعة سجلات الشركاء أو إضافتها أو تعديلها لإعادة استخدامها في ترتيبات تقاسم أرباح المشاريع.",
+          "how": "افتح Business Workspace، واختر Control Panel، ثم اختر Partners. تفتح صفحة Partners مع نموذج الشريك وقائمة Partners المحفوظة.",
+          "inputs": "لا يلزم إدخال معلومات لفتح الدليل. يلزم اسم الشريك عند إضافة سجل أو تعديله؛ أما الهاتف والبريد الإلكتروني والملاحظات فاختيارية.",
+          "result": "تفتح صفحة Partners مع نموذج Add/Edit Partner وقائمة الشركاء المحفوظة.",
+          "notes": "يمكن اختيار الشركاء المحفوظين في نماذج تقاسم أرباح المشروع. يتطلب حذف شريك من هذا الدليل تأكيداً ويزيل سجل الدليل نهائياً؛ وقد تظل سجلات المشاريع الحالية تشير إليه. لا يقوم معالج الحذف الحالي بتعطيل الشريك تلقائياً عند وجود سجل مالي، خلافاً للنص التوضيحي في موضع آخر من Control Panel."
+        },
+        "ckb": {
+          "purpose": "پێڕستی هاوبەشی Partners لە Control Panelی Business Workspace دەکاتەوە.",
+          "when": "کاتێک تۆمارەکانی هاوبەش دەپشکنیت، زیاد دەکەیت یان دەستکاری دەکەیت بۆ ئەوەی دووبارە لە ڕێککەوتنی دابەشکردنی قازانجی پڕۆژەدا بەکاربهێنرێن، ئەمە بەکاربهێنە.",
+          "how": "Business Workspace بکەرەوە، Control Panel هەڵبژێرە، پاشان Partners هەڵبژێرە. پەڕەی Partners لەگەڵ فۆڕمی هاوبەش و لیستی هاوبەشە پاشەکەوتکراوەکان دەکرێتەوە.",
+          "inputs": "بۆ کردنەوەی پێڕست زانیارییەک پێویست نییە. بۆ زیادکردن یان دەستکاریکردنی تۆمار ناوی هاوبەش پێویستە؛ تەلەفۆن، ئیمەیڵ و تێبینی ئارەزوومەندن.",
+          "result": "پەڕەی Partners لەگەڵ فۆڕمی Add/Edit Partner و لیستی هاوبەشە پاشەکەوتکراوەکان دەکرێتەوە.",
+          "notes": "هاوبەشە پاشەکەوتکراوەکان دەتوانرێت لە فۆڕمەکانی دابەشکردنی قازانجی پڕۆژەدا هەڵبژێردرێن. سڕینەوەی هاوبەش لەم پێڕستە پێویستی بە پشتڕاستکردنەوە هەیە و تۆماری پێڕست بە هەمیشەیی دەسڕێتەوە؛ تۆمارەکانی پڕۆژەی ئێستا لەوانەیە هێشتا ئاماژەی پێ بکەن. Handlerی سڕینەوەی ئێستا کاتێک مێژووی دارایی هەبێت هاوبەشەکە بە شێوەی خۆکار ناچالاک ناکات، سەرەڕای ئەو دەقە ڕوونکەرەوەیەی لە شوێنێکی تری Control Panel هەیە."
+        },
+        "kmr": {
+          "purpose": "Pêrista hevpar a Partners ji Control Panel ya Business Workspace vedike.",
+          "when": "Vê bikar bîne dema ku tomarên hevkaran binirxînî, zêde bikî an biguherînî da ku di peymanên parvekirina qezenca projeyê de ji nû ve bên bikaranîn.",
+          "how": "Business Workspace veke, Control Panel hilbijêre, paşê Partners hilbijêre. Rûpela Partners bi forma hevkar û lîsteya Partners a tomarkirî vedibe.",
+          "inputs": "Ji bo vekirina pêristê agahî nehewce ye. Ji bo zêdekirin an guherandina tomarê navê hevkar pêwîst e; telefon, e-name û not vebijarkî ne.",
+          "result": "Rûpela Partners bi forma Add/Edit Partner û lîsteya hevkarên tomarkirî vedibe.",
+          "notes": "Hevkarên tomarkirî dikarin di formên parvekirina qezenca projeyê de bên hilbijartin. Jêbirina hevkarekî ji vê pêristê pejirandinê dixwaze û tomara pêristê bi domdarî jê dike; tomarên projeyê yên heyî dibe ku hîn jî îşareta wê bikin. Handlera jêbirinê ya niha dema ku dîroka darayî hebe bi awayekî xweber hevkarê neçalak nake, tevî nivîsa raveker a li cihê din ê Control Panel."
+        },
+        "tr": {
+          "purpose": "Business Workspace Control Panel içinden ortak Partners dizinini açar.",
+          "when": "Proje kâr paylaşımı düzenlemelerinde yeniden kullanılabilecek ortak kayıtlarını incelemek, eklemek veya düzenlemek için kullanın.",
+          "how": "Business Workspace'i açın, Control Panel'i ve ardından Partners'ı seçin. Partners sayfası ortak formu ve kayıtlı Partners listesiyle açılır.",
+          "inputs": "Dizini açmak için bilgi gerekmez. Kayıt eklerken veya düzenlerken ortak adı zorunludur; telefon, e-posta ve notlar isteğe bağlıdır.",
+          "result": "Partners sayfası Add/Edit Partner formu ve kayıtlı ortak listesiyle açılır.",
+          "notes": "Kaydedilmiş ortaklar proje kâr paylaşımı formlarında seçilebilir. Bu dizinden ortak silmek onay gerektirir ve dizin kaydını kalıcı olarak kaldırır; mevcut proje kayıtları yine de bu ortağa başvurabilir. Control Panel'in başka bir yerindeki açıklayıcı metnin aksine, mevcut silme işleyicisi mali geçmiş varsa ortağı otomatik olarak devre dışı bırakmaz."
+        },
+        "pl": {
+          "purpose": "Otwiera współdzielony katalog Partners z Control Panel w Business Workspace.",
+          "when": "Użyj tej opcji, aby przeglądać, dodawać lub edytować rekordy partnerów, które można ponownie wykorzystywać w ustaleniach dotyczących podziału zysku projektów.",
+          "how": "Otwórz Business Workspace, wybierz Control Panel, a następnie Partners. Otworzy się strona Partners z formularzem partnera i zapisaną listą Partners.",
+          "inputs": "Do otwarcia katalogu nie są wymagane żadne dane. Podczas dodawania lub edycji rekordu wymagana jest nazwa partnera; telefon, e-mail i notatki są opcjonalne.",
+          "result": "Otwiera się strona Partners z formularzem Add/Edit Partner i zapisaną listą partnerów.",
+          "notes": "Zapisanych partnerów można wybierać w formularzach podziału zysku projektu. Usunięcie partnera z tego katalogu wymaga potwierdzenia i trwale usuwa rekord katalogowy; istniejące rekordy projektów mogą nadal się do niego odwoływać. Obecna procedura usuwania nie dezaktywuje automatycznie partnera, gdy istnieje historia finansowa, wbrew tekstowi objaśniającemu w innym miejscu Control Panel."
+        },
+        "ur": {
+          "purpose": "Business Workspace کے Control Panel سے مشترکہ Partners فہرست کھولتا ہے۔",
+          "when": "اسے ان شراکت دار ریکارڈز کا جائزہ لینے، انہیں شامل کرنے یا ترمیم کرنے کے لیے استعمال کریں جنہیں منصوبوں کے منافع کی تقسیم کے انتظامات میں دوبارہ استعمال کیا جا سکتا ہے۔",
+          "how": "Business Workspace کھولیں، Control Panel منتخب کریں، پھر Partners منتخب کریں۔ Partners صفحہ شراکت دار فارم اور محفوظ شدہ Partners فہرست کے ساتھ کھلتا ہے۔",
+          "inputs": "فہرست کھولنے کے لیے معلومات درکار نہیں۔ ریکارڈ شامل یا ترمیم کرتے وقت شراکت دار کا نام ضروری ہے؛ فون، ای میل اور نوٹس اختیاری ہیں۔",
+          "result": "Partners صفحہ Add/Edit Partner فارم اور محفوظ شدہ شراکت دار فہرست کے ساتھ کھلتا ہے۔",
+          "notes": "محفوظ شدہ شراکت داروں کو منصوبے کے منافع کی تقسیم کے فارم میں منتخب کیا جا سکتا ہے۔ اس فہرست سے شراکت دار حذف کرنے کے لیے تصدیق ضروری ہے اور فہرست کا ریکارڈ مستقل طور پر ہٹا دیا جاتا ہے؛ موجودہ منصوبہ ریکارڈ اب بھی اس کا حوالہ دے سکتے ہیں۔ Control Panel کے دوسرے حصے میں وضاحتی متن کے برعکس، موجودہ حذف کرنے والا ہینڈلر مالی تاریخ موجود ہونے پر شراکت دار کو خودکار طور پر غیر فعال نہیں کرتا۔"
+        },
+        "pa": {
+          "purpose": "Business Workspace ਦੇ Control Panel ਵਿੱਚੋਂ ਸਾਂਝੀ Partners ਡਾਇਰੈਕਟਰੀ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਉਹਨਾਂ ਭਾਈਵਾਲ ਰਿਕਾਰਡਾਂ ਦੀ ਸਮੀਖਿਆ, ਜੋੜ ਜਾਂ ਸੋਧ ਕਰਨ ਲਈ ਕਰੋ ਜਿਨ੍ਹਾਂ ਨੂੰ ਪ੍ਰੋਜੈਕਟ ਦੇ ਨਫ਼ੇ ਦੀ ਵੰਡ ਦੇ ਪ੍ਰਬੰਧਾਂ ਵਿੱਚ ਮੁੜ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ।",
+          "how": "Business Workspace ਖੋਲ੍ਹੋ, Control Panel ਚੁਣੋ, ਫਿਰ Partners ਚੁਣੋ। Partners ਪੰਨਾ ਭਾਈਵਾਲ ਫਾਰਮ ਅਤੇ ਸੰਭਾਲੀ Partners ਸੂਚੀ ਨਾਲ ਖੁੱਲ੍ਹਦਾ ਹੈ।",
+          "inputs": "ਡਾਇਰੈਕਟਰੀ ਖੋਲ੍ਹਣ ਲਈ ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ। ਰਿਕਾਰਡ ਜੋੜਨ ਜਾਂ ਸੋਧਣ ਵੇਲੇ ਭਾਈਵਾਲ ਦਾ ਨਾਮ ਲਾਜ਼ਮੀ ਹੈ; ਫੋਨ, ਈਮੇਲ ਅਤੇ ਨੋਟ ਵਿਕਲਪਿਕ ਹਨ।",
+          "result": "Partners ਪੰਨਾ Add/Edit Partner ਫਾਰਮ ਅਤੇ ਸੰਭਾਲੀ ਭਾਈਵਾਲ ਸੂਚੀ ਨਾਲ ਖੁੱਲ੍ਹਦਾ ਹੈ।",
+          "notes": "ਸੰਭਾਲੇ ਭਾਈਵਾਲਾਂ ਨੂੰ ਪ੍ਰੋਜੈਕਟ ਦੇ ਨਫ਼ੇ ਦੀ ਵੰਡ ਵਾਲੇ ਫਾਰਮਾਂ ਵਿੱਚ ਚੁਣਿਆ ਜਾ ਸਕਦਾ ਹੈ। ਇਸ ਡਾਇਰੈਕਟਰੀ ਵਿੱਚੋਂ ਭਾਈਵਾਲ ਮਿਟਾਉਣ ਲਈ ਪੁਸ਼ਟੀ ਲੋੜੀਂਦੀ ਹੈ ਅਤੇ ਡਾਇਰੈਕਟਰੀ ਰਿਕਾਰਡ ਪੱਕੇ ਤੌਰ 'ਤੇ ਹਟ ਜਾਂਦਾ ਹੈ; ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਫਿਰ ਵੀ ਉਸਦਾ ਹਵਾਲਾ ਦੇ ਸਕਦੇ ਹਨ। Control Panel ਦੇ ਹੋਰ ਸਥਾਨ 'ਤੇ ਦਿੱਤੇ ਵਿਆਖਿਆਤਮਕ ਪਾਠ ਦੇ ਉਲਟ, ਮੌਜੂਦਾ ਮਿਟਾਉਣ ਵਾਲਾ ਹੈਂਡਲਰ ਵਿੱਤੀ ਇਤਿਹਾਸ ਹੋਣ 'ਤੇ ਭਾਈਵਾਲ ਨੂੰ ਆਪਣੇ ਆਪ ਅਕਿਰਿਆਸ਼ੀਲ ਨਹੀਂ ਕਰਦਾ।"
+        },
+        "prs": {
+          "purpose": "فهرست مشترک Partners را از Control Panel در Business Workspace باز می‌کند.",
+          "when": "برای بررسی، افزودن یا ویرایش سوابق شرکایی که می‌توان دوباره در توافق‌های تقسیم سود پروژه استفاده کرد، از این گزینه استفاده کنید.",
+          "how": "Business Workspace را باز کنید، Control Panel و سپس Partners را انتخاب کنید. صفحه Partners همراه با فرم شریک و فهرست ذخیره‌شده باز می‌شود.",
+          "inputs": "برای بازکردن فهرست ورودی لازم نیست. هنگام افزودن یا ویرایش سابقه، نام شریک الزامی است؛ تلفن، ایمیل و یادداشت‌ها اختیاری هستند.",
+          "result": "صفحه Partners همراه با فرم Add/Edit Partner و فهرست ذخیره‌شده شرکا باز می‌شود.",
+          "notes": "شرکای ذخیره‌شده را می‌توان در فرم تقسیم سود پروژه انتخاب کرد. حذف شریک از این فهرست به تأیید نیاز دارد و سابقه فهرست را به‌طور دائمی حذف می‌کند؛ سوابق پروژه ممکن است همچنان به آن ارجاع داشته باشند. برخلاف توضیح دیگری در Control Panel، تابع حذف فعلی در صورت وجود سابقه مالی شریک را به‌طور خودکار غیرفعال نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د Business Workspace د Control Panel څخه د Partners ګډ لېست پرانیزي.",
+          "when": "دا هغه وخت وکاروئ چې د شریکانو ریکارډونه ارزوی، زیاتوی یا سموی، څو د پروژې د ګټې د وېش په تړونونو کې بیا وکارول شي.",
+          "how": "Business Workspace پرانیزئ، Control Panel او بیا Partners وټاکئ. د Partners پاڼه د شریکانو له فورمې او خوندي شوي Partners لېست سره پرانېستل کېږي.",
+          "inputs": "د لېست د پرانیستلو لپاره معلوماتو ته اړتیا نشته. د ریکارډ د زیاتولو یا سمولو پر مهال د شریک نوم اړین دی؛ ټیلیفون، برېښنالیک او یادښتونه اختیاري دي.",
+          "result": "د Partners پاڼه د Add/Edit Partner فورمې او خوندي شوي شریکانو لېست سره پرانېستل کېږي.",
+          "notes": "خوندي شوي شریکان د پروژې د ګټې د وېش په فورمو کې ټاکل کېدای شي. له دې لېست څخه د شریک ړنګول تایید غواړي او د لېست ریکارډ د تل لپاره لرې کوي؛ د پروژې موجود ریکارډونه ښايي لا هم ورته اشاره وکړي. د Control Panel په بل ځای کې د تشریحي متن خلاف، اوسنی د ړنګولو Handler د مالي تاریخ په شتون کې شریک په اتومات ډول نه غیرفعالوي."
         }
       },
       "handler_or_behavior": "`prPage(`"
