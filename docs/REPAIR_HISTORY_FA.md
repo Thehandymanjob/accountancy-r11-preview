@@ -718,8 +718,8 @@
 - **روش اتصال:** چهار دکمه منوی اصلی با selector محدوده‌دار `#appLauncher .launcher-actions` و شش کارت Accountancy با selector محدوده‌دار `#accountancyHome .accountancy-home-grid` و مقدار دقیق handler متصل شدند.
 - **محتوا:** هر ده شناسه CONTENT_COMPLETE هستند. این تغییر فقط راهنمای مقصدهای navigation را اضافه می‌کند و مسیر navigation اصلی را تغییر نمی‌دهد.
 - **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R60`.
-- **اتصال‌ها پس از R60:** ۹۰ کنترل؛ ۸۵ ایستا و پنج پویا. ۶۷ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
-- **تست ایستا:** ده selector در parent صحیح ثبت شدند؛ handlerها با مقصد دقیقشان تطبیق داده شدند. Version Authority Gate برای R60 باید اجرا شود.
+- **اتصال‌ها پس از R60/R61:** ۹۷ شناسه متصل؛ ۹۲ کنترل ایستا با Help ID یکتا و پنج کنترل template پویا. ۷۴ selector محدوده‌دار، ۱۳ ID یکتا و پنج handler محدوده‌دار. دو ردیف تکراری قرارداد در R61 حذف و با یک selector دقیق جایگزین شدند.
+- **تست ایستا:** ده selector در parent صحیح ثبت شدند؛ handlerها با مقصد دقیقشان تطبیق داده شدند. **Version Authority Gate R60:** PASS؛ run `46070971042` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070971042.
 - **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ بازشدن مقصد صحیح، نمایش راهنمای مربوط، انتخاب زبان و چیدمان موبایل باید در Preview بررسی شوند.
 - **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
 
@@ -728,10 +728,21 @@
 
 - **تاریخ:** 2026-11-27
 - **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001.
-- **دامنه نسخه:** R60 شامل ۹۰ اتصال راهنمای زمینه‌ای است: ۸۵ کنترل ایستا و ۵ کنترل پویا؛ ده مقصد منوی اصلی و صفحه Accountancy نیز در همین Build اضافه شدند.
+- **دامنه نسخه:** R60 شامل ۹۷ Help ID متصل است: ۹۲ کنترل ایستا با شناسه یکتا و پنج کنترل پویا؛ ده مقصد منوی اصلی و صفحه Accountancy نیز در همین Build اضافه شدند. R61 دو binding تکراری Contract را ادغام کرد.
 - **اصلاح Authority:** Build ID، canonical URL، SHA فایل index و pin فایل Runtime در `VERSION-AUTHORITY.json` با فایل‌های واقعی R60 همگام شدند. Mapping نیز به SHAهای واقعی index و runtime متصل شد.
-- **Gate:** نتیجه Gate برای Commit همگام‌سازی جدید باید بررسی شود؛ چند اجرای قبلی R60 به دلیل mismatch پیش از همگام‌سازی شکست خورده بودند.
+- **Gate:** **Gate نهایی R60:** PASS؛ run `46070971042` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070971042. تمام ۲۴ asset pin و هویت نسخه تأیید شدند.
 - **تست واقعی مرورگر / انتشار:** انجام نشده؛ PR #96 Draft است و هیچ Preview deploy یا Production change انجام نشده است.
+
+
+#### بازنگری R61 — حذف bindingهای تکراری و تطبیق شمارنده Registry
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** اصلاح یکپارچگی Runtime/Mapping؛ شناسه Help جدید ایجاد نشد.
+- **اصلاح:** دو ردیف تکراری THA-HLP-0006 (Save Contract) و THA-HLP-0008 (Preview/Print/Save PDF) از جدول static حذف شدند. هر کدام فقط یک selector دقیق `#ctFormCard` دارند.
+- **شمارنده نهایی:** ۹۷ Help ID متصل؛ ۹۲ static با شناسه یکتا و پنج dynamic-template. Mapping و Version Authority به SHAهای جدید runtime/index متصل شدند.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R61`.
+- **Gate:** در انتظار اجرای R61؛ Gate قبلی R60 PASS است اما جایگزین Gate نسخه R61 نمی‌شود.
+- **تست مرورگر / انتشار:** هنوز انجام نشده؛ PR #96 Draft است، Preview منتشر نشده و Production دست‌نخورده باقی مانده است.
 
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
