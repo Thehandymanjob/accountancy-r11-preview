@@ -7822,6 +7822,78 @@
           "inputs": "نام پروژه الزامی است. مشتری، نشانی محل کار، تلفن و یادداشت‌ها اختیاری هستند. نوع قرارداد Labour + Materials یا Labour Only را انتخاب کنید. تقسیم سهم شرکا اختیاری است؛ اگر فعال شود، باید دست‌کم یک شریک انتخاب کنید و مجموع سهم صاحب کسب‌وکار و تمام شرکا دقیقاً ۱۰۰٪ باشد. تصویر پروژه نیز اختیاری است.",
           "result": "سابقه پروژه فقط در صورت موفقیت اعتبارسنجی و ذخیره و تأیید در IndexedDB ایجاد می‌شود. مبلغ کل پروژه اصلی از مبالغ توافق‌شده زیرپروژه‌ها محاسبه می‌شود و مستقیماً در این فرم وارد نمی‌شود.",
           "notes": "سوابق پروژه جدا از ثبت‌های عمومی Accountancy نگهداری می‌شوند. فرض نکنید ایجاد پروژه به‌معنی ایجاد تراکنش حسابداری نیز هست. تا نمایش پیام موفقیت، ذخیره پروژه را قطعی تلقی نکنید."
+        },
+        "ar": {
+          "purpose": "يفتح نموذجاً فارغاً لإنشاء سجل مشروع مستقل.",
+          "when": "استخدم هذا الخيار عند بدء عمل يحتاج إلى سجل مشروع خاص وتتبع منفصل على مستوى المشروع.",
+          "how": "افتح New Project، وأدخل اسم المشروع المطلوب وأي تفاصيل منطبقة عن العميل والموقع وبيانات الاتصال ونوع العقد وتقاسم الشركاء والصورة والملاحظات، ثم اختر Save Project.",
+          "inputs": "اسم المشروع مطلوب. العميل وعنوان الموقع والهاتف والملاحظات اختيارية. اختر Labour + Materials أو Labour Only. مشاركة الشركاء اختيارية؛ وعند تفعيلها اختر شريكاً واحداً على الأقل واضبط النسب بحيث يساوي مجموع حصة المالك وجميع الشركاء 100% بالضبط. صورة المشروع اختيارية.",
+          "result": "لا يُنشأ سجل المشروع إلا إذا نجحت عملية التحقق والحفظ والتحقق من البيانات في IndexedDB. يُحسب إجمالي المشروع الرئيسي من الأسعار المتفق عليها للمشاريع الفرعية، ولا يُدخل مباشرة في هذا النموذج.",
+          "notes": "تُحفظ سجلات المشاريع بشكل منفصل عن قيود Accountancy العامة. لا تفترض أن إنشاء مشروع ينشئ معاملة محاسبية أيضاً. انتظر رسالة النجاح قبل اعتبار المشروع محفوظاً."
+        },
+        "ckb": {
+          "purpose": "فۆڕمێکی بەتاڵ دەکاتەوە بۆ دروستکردنی تۆماری پڕۆژەیەکی سەربەخۆ.",
+          "when": "کاتێک کارێک دەست پێدەکەیت کە پێویستی بە تۆماری تایبەتی پڕۆژە و بەدواداچوونی جیاواز لە ئاستی پڕۆژە هەیە، ئەم هەڵبژاردەیە بەکاربهێنە.",
+          "how": "New Project بکەرەوە، ناوی پێویستی پڕۆژە و هەر وردەکارییەکی پەیوەندیدار وەک کڕیار، شوێن، پەیوەندی، گرێبەست، هاوبەشکردنی داهات، وێنە و تێبینی داخڵ بکە، پاشان Save Project هەڵبژێرە.",
+          "inputs": "ناوی پڕۆژە پێویستە. کڕیار، ناونیشانی شوێن، تەلەفۆن و تێبینی ئارەزوومەندانەن. Labour + Materials یان Labour Only هەڵبژێرە. هاوبەشکردنی داهات ئارەزوومەندانەیە؛ ئەگەر چالاک بکرێت، لانیکەم یەک هاوبەش هەڵبژێرە و ڕێژەکان ڕێک بخە تا کۆی بەشی خاوەن و هەموو هاوبەشەکان بە تەواوی ١٠٠٪ بێت. وێنەی پڕۆژە ئارەزوومەندانەیە.",
+          "result": "تۆماری نوێی پڕۆژە تەنها ئەگەر پشتڕاستکردنەوە و پاشەکەوتکردن و پشکنینی IndexedDB سەرکەوتوو بن دروست دەبێت. کۆی پڕۆژەی سەرەکی لە نرخە ڕێککەوتووەکانی ژێرپڕۆژەکانەوە هەژمار دەکرێت، نەک لەم فۆڕمەوە ڕاستەوخۆ داخڵ بکرێت.",
+          "notes": "تۆمارەکانی پڕۆژە جیا لە تۆمارە گشتییەکانی Accountancy هەڵدەگیرێن. وا مەزانە دروستکردنی پڕۆژە مامەڵەیەکی حسابداریش دروست دەکات. چاوەڕێی پەیامی سەرکەوتن بکە پێش ئەوەی پڕۆژەکە بە پاشەکەوتکراو دابنێیت."
+        },
+        "kmr": {
+          "purpose": "Formeke vala vedike ji bo çêkirina tomara projeyeke serbixwe.",
+          "when": "Vê bikar bîne dema ku tu dest bi karekî dikî ku pêdivî bi tomara xwe ya projeyê û şopandina cuda ya asta projeyê heye.",
+          "how": "New Project veke, navê pêwîst ê projeyê û hûrguliyên têkildar ên xerîdar, cih, têkilî, peyman, parvekirina hevparan, wêne û notan binivîse, paşê Save Project hilbijêre.",
+          "inputs": "Navê projeyê pêwîst e. Xerîdar, navnîşana cihê kar, telefon û not vebijarkî ne. Labour + Materials an Labour Only hilbijêre. Parvekirina hevparan vebijarkî ye; dema çalak be herî kêm yek hevpar hilbijêre û parên xwe rast bike da ku para xwedî bi tevahiya parên hevparan re tam 100% bike. Wêneya projeyê vebijarkî ye.",
+          "result": "Tomara projeyeke nû tenê dema ku verastkirin, tomarkirina IndexedDB û kontrola wê serkeftî bin tê çêkirin. Giştê projeya dêwî ji bihayên lihevhatî yên bin-projeyan tê hesabkirin, ne ku rasterast di vê formê de were têketin.",
+          "notes": "Tomarên projeyê ji qeydanên giştî yên Accountancy cuda tên hilanîn. Texmîn neke ku çêkirina projeyê her wiha danûstandineke hesabgiriyê çêdike. Li benda rewşa serkeftinê bimîne berî ku projeyê wekî tomarkirî bihesibînî."
+        },
+        "tr": {
+          "purpose": "Bağımsız bir proje kaydı oluşturmak için boş bir form açar.",
+          "when": "Kendine ait proje kaydı ve proje düzeyinde ayrı takip gerektiren bir işe başlarken kullanın.",
+          "how": "New Project'i açın; gerekli proje adını ve geçerli müşteri, saha, iletişim, sözleşme, ortaklık paylaşımı, fotoğraf ve not ayrıntılarını girin, ardından Save Project'i seçin.",
+          "inputs": "Proje adı zorunludur. Müşteri, saha adresi, telefon ve notlar isteğe bağlıdır. Labour + Materials veya Labour Only seçin. Ortak paylaşımı isteğe bağlıdır; etkinleştirildiğinde en az bir ortak seçin ve işletme sahibinin payı ile tüm ortak paylarının toplamı tam olarak %100 olacak şekilde oranları ayarlayın. Proje fotoğrafı isteğe bağlıdır.",
+          "result": "Yeni proje kaydı yalnızca doğrulama, IndexedDB kaydı ve doğrulaması başarılı olursa oluşturulur. Ana projenin toplamı, bu forma doğrudan girilmek yerine alt projelerin anlaşılan fiyatlarından hesaplanır.",
+          "notes": "Proje kayıtları genel Accountancy kayıtlarından ayrı tutulur. Proje oluşturmanın bir muhasebe işlemi de oluşturduğunu varsaymayın. Projenin kaydedildiğini kabul etmeden önce başarı durumunu bekleyin."
+        },
+        "pl": {
+          "purpose": "Otwiera pusty formularz tworzenia niezależnego rekordu projektu.",
+          "when": "Użyj tej opcji podczas rozpoczynania zlecenia, które wymaga własnego rekordu projektu i osobnego śledzenia na poziomie projektu.",
+          "how": "Otwórz New Project, wpisz wymaganą nazwę projektu oraz odpowiednie dane klienta, lokalizacji, kontaktu, rodzaju umowy, podziału udziałów partnerów, zdjęcia i notatek, a następnie wybierz Save Project.",
+          "inputs": "Nazwa projektu jest wymagana. Klient, adres lokalizacji, telefon i notatki są opcjonalne. Wybierz Labour + Materials lub Labour Only. Udział partnerów jest opcjonalny; po jego włączeniu wybierz co najmniej jednego partnera i ustaw udziały tak, aby udział właściciela wraz ze wszystkimi udziałami partnerów wynosił dokładnie 100%. Zdjęcie projektu jest opcjonalne.",
+          "result": "Nowy rekord projektu zostanie utworzony tylko wtedy, gdy pomyślnie przejdą walidacja, zapis w IndexedDB i weryfikacja zapisu. Łączna wartość projektu nadrzędnego jest obliczana na podstawie uzgodnionych cen podprojektów, a nie wpisywana bezpośrednio w tym formularzu.",
+          "notes": "Rekordy projektów są przechowywane oddzielnie od ogólnych zapisów Accountancy. Nie zakładaj, że utworzenie projektu tworzy również transakcję księgową. Przed uznaniem projektu za zapisany poczekaj na komunikat o powodzeniu."
+        },
+        "ur": {
+          "purpose": "ایک خالی فارم کھولتا ہے تاکہ آزاد منصوبے کا ریکارڈ بنایا جا سکے۔",
+          "when": "اسے اس وقت استعمال کریں جب آپ ایسا کام شروع کر رہے ہوں جس کے لیے اپنا الگ منصوبہ ریکارڈ اور منصوبے کی سطح پر علیحدہ نگرانی درکار ہو۔",
+          "how": "New Project کھولیں، لازمی منصوبے کا نام اور قابلِ اطلاق کسٹمر، مقام، رابطے، معاہدے، شراکت داری، تصویر اور نوٹس کی تفصیلات درج کریں، پھر Save Project منتخب کریں۔",
+          "inputs": "منصوبے کا نام لازمی ہے۔ کسٹمر، مقام کا پتہ، فون اور نوٹس اختیاری ہیں۔ Labour + Materials یا Labour Only منتخب کریں۔ شراکت داروں میں حصہ داری اختیاری ہے؛ فعال کرنے پر کم از کم ایک پارٹنر منتخب کریں اور حصے اس طرح مقرر کریں کہ مالک اور تمام پارٹنرز کے حصوں کا مجموعہ بالکل 100% ہو۔ منصوبے کی تصویر اختیاری ہے۔",
+          "result": "نیا منصوبہ ریکارڈ صرف اسی صورت میں بنتا ہے جب توثیق، IndexedDB میں محفوظ کرنا اور اس کی تصدیق کامیاب ہوں۔ مرکزی منصوبے کی کل رقم ذیلی منصوبوں کی طے شدہ قیمتوں سے شمار ہوتی ہے، اس فارم میں براہِ راست درج نہیں کی جاتی۔",
+          "notes": "منصوبے کے ریکارڈ عمومی Accountancy اندراجات سے الگ رکھے جاتے ہیں۔ یہ فرض نہ کریں کہ منصوبہ بنانے سے اکاؤنٹنگ لین دین بھی بن جاتا ہے۔ منصوبہ محفوظ سمجھنے سے پہلے کامیابی کے پیغام کا انتظار کریں۔"
+        },
+        "pa": {
+          "purpose": "ਇੱਕ ਸੁਤੰਤਰ ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਬਣਾਉਣ ਲਈ ਖਾਲੀ ਫਾਰਮ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਉਸ ਵੇਲੇ ਕਰੋ ਜਦੋਂ ਤੁਸੀਂ ਅਜਿਹਾ ਕੰਮ ਸ਼ੁਰੂ ਕਰ ਰਹੇ ਹੋ ਜਿਸ ਲਈ ਆਪਣਾ ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਅਤੇ ਪ੍ਰੋਜੈਕਟ ਪੱਧਰ 'ਤੇ ਵੱਖਰੀ ਟਰੈਕਿੰਗ ਲੋੜੀਂਦੀ ਹੋਵੇ।",
+          "how": "New Project ਖੋਲ੍ਹੋ, ਲਾਜ਼ਮੀ ਪ੍ਰੋਜੈਕਟ ਨਾਮ ਅਤੇ ਲਾਗੂ ਹੋਣ ਵਾਲੇ ਗਾਹਕ, ਸਾਈਟ, ਸੰਪਰਕ, ਠੇਕੇ, ਭਾਈਵਾਲ ਹਿੱਸੇਦਾਰੀ, ਫੋਟੋ ਅਤੇ ਨੋਟਾਂ ਦੇ ਵੇਰਵੇ ਭਰੋ, ਫਿਰ Save Project ਚੁਣੋ।",
+          "inputs": "ਪ੍ਰੋਜੈਕਟ ਦਾ ਨਾਮ ਲਾਜ਼ਮੀ ਹੈ। ਗਾਹਕ, ਸਾਈਟ ਪਤਾ, ਫ਼ੋਨ ਅਤੇ ਨੋਟ ਵਿਕਲਪਿਕ ਹਨ। Labour + Materials ਜਾਂ Labour Only ਚੁਣੋ। ਭਾਈਵਾਲ ਹਿੱਸੇਦਾਰੀ ਵਿਕਲਪਿਕ ਹੈ; ਇਸਨੂੰ ਚਾਲੂ ਕਰਨ 'ਤੇ ਘੱਟੋ-ਘੱਟ ਇੱਕ ਭਾਈਵਾਲ ਚੁਣੋ ਅਤੇ ਹਿੱਸੇ ਇਸ ਤਰ੍ਹਾਂ ਰੱਖੋ ਕਿ ਮਾਲਕ ਦਾ ਹਿੱਸਾ ਅਤੇ ਸਾਰੇ ਭਾਈਵਾਲਾਂ ਦੇ ਹਿੱਸੇ ਮਿਲਾ ਕੇ ਬਿਲਕੁਲ 100% ਹੋਣ। ਪ੍ਰੋਜੈਕਟ ਫੋਟੋ ਵਿਕਲਪਿਕ ਹੈ।",
+          "result": "ਨਵਾਂ ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਸਿਰਫ਼ ਤਦ ਬਣਦਾ ਹੈ ਜਦੋਂ ਜਾਂਚ, IndexedDB ਵਿੱਚ ਸੇਵ ਕਰਨਾ ਅਤੇ ਉਸਦੀ ਤਸਦੀਕ ਸਫਲ ਹੋਵੇ। ਮੁੱਖ ਪ੍ਰੋਜੈਕਟ ਦਾ ਕੁੱਲ ਮੁੱਲ ਉਪ-ਪ੍ਰੋਜੈਕਟਾਂ ਦੀਆਂ ਸਹਿਮਤ ਕੀਮਤਾਂ ਤੋਂ ਗਿਣਿਆ ਜਾਂਦਾ ਹੈ, ਇਸ ਫਾਰਮ ਵਿੱਚ ਸਿੱਧਾ ਦਰਜ ਨਹੀਂ ਹੁੰਦਾ।",
+          "notes": "ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਆਮ Accountancy ਐਂਟਰੀਆਂ ਤੋਂ ਵੱਖਰੇ ਰੱਖੇ ਜਾਂਦੇ ਹਨ। ਇਹ ਨਾ ਮੰਨੋ ਕਿ ਪ੍ਰੋਜੈਕਟ ਬਣਾਉਣ ਨਾਲ ਲੇਖਾ-ਜੋਖਾ ਲੈਣ-ਦੇਣ ਵੀ ਬਣਦਾ ਹੈ। ਪ੍ਰੋਜੈਕਟ ਨੂੰ ਸੇਵ ਮੰਨਣ ਤੋਂ ਪਹਿਲਾਂ ਸਫਲਤਾ ਵਾਲੇ ਸੁਨੇਹੇ ਦੀ ਉਡੀਕ ਕਰੋ।"
+        },
+        "prs": {
+          "purpose": "یک فرم خالی برای ایجاد سابقه یک پروژه مستقل باز می‌کند.",
+          "when": "وقتی کاری را آغاز می‌کنید که به سابقه اختصاصی پروژه و پیگیری جداگانه در سطح پروژه نیاز دارد، از این گزینه استفاده کنید.",
+          "how": "New Project را باز کنید، نام الزامی پروژه و جزئیات مرتبط مشتری، محل، تماس، قرارداد، تقسیم سهم شرکا، عکس و یادداشت‌ها را وارد کنید و سپس Save Project را انتخاب کنید.",
+          "inputs": "نام پروژه الزامی است. مشتری، نشانی محل، تلفن و یادداشت‌ها اختیاری هستند. Labour + Materials یا Labour Only را انتخاب کنید. تقسیم سهم شرکا اختیاری است؛ در صورت فعال‌سازی، دست‌کم یک شریک انتخاب کنید و سهم‌ها را طوری تنظیم کنید که مجموع سهم مالک و همه شرکا دقیقاً ۱۰۰٪ باشد. عکس پروژه اختیاری است.",
+          "result": "سابقه پروژه جدید فقط در صورت موفقیت اعتبارسنجی، ذخیره در IndexedDB و تأیید آن ایجاد می‌شود. مبلغ کل پروژه اصلی از قیمت‌های توافق‌شده زیرپروژه‌ها محاسبه می‌شود و مستقیماً در این فرم وارد نمی‌شود.",
+          "notes": "سوابق پروژه جدا از ثبت‌های عمومی Accountancy نگهداری می‌شوند. فرض نکنید ایجاد پروژه، تراکنش حسابداری هم ایجاد می‌کند. پیش از قطعی دانستن ذخیره پروژه، منتظر پیام موفقیت بمانید."
+        },
+        "ps": {
+          "purpose": "د یوې خپلواکې پروژې د ریکارډ جوړولو لپاره تش فورم پرانیزي.",
+          "when": "دا هغه وخت وکاروئ چې داسې کار پیلوئ چې خپل جلا د پروژې ریکارډ او د پروژې په کچه بېل تعقیب ته اړتیا ولري.",
+          "how": "New Project پرانیزئ، د پروژې اړین نوم او د اړوند پېرودونکي، ځای، اړیکې، قرارداد، د شریکانو ونډې، انځور او یادښتونو معلومات دننه کړئ، بیا Save Project وټاکئ.",
+          "inputs": "د پروژې نوم اړین دی. پېرودونکی، د ځای پته، ټیلیفون او یادښتونه اختیاري دي. Labour + Materials یا Labour Only وټاکئ. د شریکانو ونډه اختیاري ده؛ که فعاله شي، لږ تر لږه یو شریک وټاکئ او ونډې داسې تنظیم کړئ چې د مالک ونډه او د ټولو شریکانو ونډې په ګډه دقیقاً ۱۰۰٪ شي. د پروژې انځور اختیاري دی.",
+          "result": "د پروژې نوی ریکارډ یوازې هغه وخت جوړېږي چې تایید، په IndexedDB کې خوندي کول او د خوندي کېدو تصدیق بریالي وي. د اصلي پروژې ټول ارزښت د فرعي پروژو له منل شويو بیو حسابېږي، په دې فورم کې مستقیم نه داخلېږي.",
+          "notes": "د پروژو ریکارډونه د Accountancy له عمومي ثبتونو جلا ساتل کېږي. دا مه انګېرئ چې د پروژې جوړول د حسابدارۍ معامله هم جوړوي. تر هغه د بریا پیغام ته انتظار وکړئ چې پروژه خوندي شوې وګڼئ."
         }
       },
       "handler_or_behavior": "`prPage(`"
@@ -7848,6 +7920,78 @@
           "inputs": "متن جست‌وجو اختیاری است و نام پروژه، مشتری و نشانی را جست‌وجو می‌کند. فیلتر وضعیت گزینه‌های All projects، Open و Completed را دارد.",
           "result": "فهرست، پروژه‌هایی را نمایش می‌دهد که با متن جست‌وجو و وضعیت انتخاب‌شده مطابقت دارند. با انتخاب کارت، جزئیات پروژه باز می‌شود.",
           "notes": "فهرست ممکن است صفحه‌بندی شده باشد. پیش از ویرایش یا ثبت اطلاعات مالی پروژه، نام پروژه و جزئیات مشتری یا محل کار را تأیید کنید."
+        },
+        "ar": {
+          "purpose": "يعرض المشاريع المحفوظة ويتيح البحث عنها وتصفيتها وفتح أحدها.",
+          "when": "استخدم هذا الخيار للعثور على مشروع موجود أو فتحه أو لتضييق القائمة حسب حالته.",
+          "how": "افتح Projects List. أدخل نص بحث اختيارياً لمطابقة اسم المشروع أو العميل أو العنوان. اضبط مرشح الحالة على All projects أو Open أو Completed، ثم اختر بطاقة المشروع المطلوبة لفتحها.",
+          "inputs": "نص البحث اختياري ويبحث في اسم المشروع والعميل والعنوان. يوفر مرشح الحالة الخيارات All projects وOpen وCompleted.",
+          "result": "تعرض القائمة المشاريع المطابقة لنص البحث والحالة المحددة معاً. اختر بطاقة مشروع لفتح تفاصيله.",
+          "notes": "قد تكون القائمة مقسمة إلى صفحات. تحقق من اسم المشروع وبيانات العميل أو الموقع قبل تعديله أو تسجيل معلوماته المالية."
+        },
+        "ckb": {
+          "purpose": "پڕۆژە پاشەکەوتکراوەکان پیشان دەدات و ڕێگە بە گەڕان، فلتەرکردن و کردنەوەی پڕۆژەیەک دەدات.",
+          "when": "کاتێک دەتەوێت پڕۆژەیەکی هەبوو بدۆزیتەوە یان بیکەیتەوە، یان لیستەکە بەپێی دۆخی پڕۆژە سنووردار بکەیت، ئەم هەڵبژاردەیە بەکاربهێنە.",
+          "how": "Projects List بکەرەوە. لەوانەیە دەقی گەڕان بنووسیت بۆ گەڕان بەدوای ناوی پڕۆژە، کڕیار یان ناونیشان. فلتەری دۆخ لەسەر All projects، Open یان Completed دابنێ، پاشان کارتی پڕۆژەی پێویست هەڵبژێرە.",
+          "inputs": "دەقی گەڕان ئارەزوومەندانەیە و ناوی پڕۆژە، کڕیار و ناونیشان دەگەڕێت. فلتەری دۆخ هەڵبژاردەکانی All projects، Open و Completed پێشکەش دەکات.",
+          "result": "لیستەکە ئەو پڕۆژانە پیشان دەدات کە لەگەڵ دەقی گەڕان و دۆخی هەڵبژێردراو هەردووکیان دەگونجێن. کارتی پڕۆژە هەڵبژێرە بۆ کردنەوەی وردەکارییەکانی.",
+          "notes": "لیستەکە لەوانەیە پەڕەبەندی کرابێت. پێش دەستکاریکردن یان تۆمارکردنی زانیاری دارایی پڕۆژە، ناوی پڕۆژە و وردەکاری کڕیار/شوێن پشتڕاست بکەوە."
+        },
+        "kmr": {
+          "purpose": "Projeyên tomarkirî nîşan dide û dihêle tu projeyekê bigerî, fîltre bikî û vekî.",
+          "when": "Vê bikar bîne dema ku dixwazî projeyeke heyî bibînî an vekî, an jî lîsteyê li gorî rewşa wê teng bikî.",
+          "how": "Projects List veke. Heke bixwazî nivîsa lêgerînê binivîse da navê projeyê, xerîdar an navnîşan bigere. Fîltra rewşê li ser All projects, Open an Completed saz bike, paşê karta projeya xwestî hilbijêre.",
+          "inputs": "Nivîsa lêgerînê vebijarkî ye û navê projeyê, xerîdar û navnîşan digere. Fîltra rewşê vebijarkên All projects, Open û Completed pêşkêş dike.",
+          "result": "Lîste projeyên ku hem bi nivîsa lêgerînê hem jî bi rewşa hilbijartî re li hev tên nîşan dide. Karta projeyekê hilbijêre da hûrguliyên wê vebin.",
+          "notes": "Dibe ku lîste bi rûpelan hatibe parvekirin. Berî sererastkirinê an tomarkirina agahiyên darayî yên projeyê navê projeyê û hûrguliyên xerîdar/cihê kar piştrast bike."
+        },
+        "tr": {
+          "purpose": "Kaydedilmiş projeleri görüntüler ve proje aramanıza, filtrelemenize ve açmanıza olanak tanır.",
+          "when": "Mevcut bir projeyi bulmak veya açmak ya da listeyi durumuna göre daraltmak istediğinizde kullanın.",
+          "how": "Projects List'i açın. Proje adı, müşteri veya adresle eşleşmesi için isteğe bağlı arama metni girin. Durum filtresini All projects, Open veya Completed olarak ayarlayın; ardından açmak istediğiniz proje kartını seçin.",
+          "inputs": "Arama metni isteğe bağlıdır ve proje adı, müşteri ve adres alanlarında arama yapar. Durum filtresi All projects, Open ve Completed seçeneklerini sunar.",
+          "result": "Liste, hem arama metniyle hem de seçilen durumla eşleşen projeleri gösterir. Ayrıntılarını açmak için bir proje kartı seçin.",
+          "notes": "Liste sayfalara bölünmüş olabilir. Düzenlemeden veya proje finansal bilgisi kaydetmeden önce proje adını ve müşteri/saha ayrıntılarını doğrulayın."
+        },
+        "pl": {
+          "purpose": "Wyświetla zapisane projekty i umożliwia ich wyszukiwanie, filtrowanie oraz otwieranie.",
+          "when": "Użyj tej opcji, aby znaleźć lub otworzyć istniejący projekt albo zawęzić listę według jego statusu.",
+          "how": "Otwórz Projects List. Opcjonalnie wpisz tekst wyszukiwania pasujący do nazwy projektu, klienta lub adresu. Ustaw filtr statusu na All projects, Open lub Completed, a następnie wybierz odpowiednią kartę projektu.",
+          "inputs": "Tekst wyszukiwania jest opcjonalny i obejmuje nazwę projektu, klienta oraz adres. Filtr statusu oferuje opcje All projects, Open i Completed.",
+          "result": "Lista wyświetla projekty pasujące jednocześnie do tekstu wyszukiwania i wybranego statusu. Wybierz kartę projektu, aby otworzyć jego szczegóły.",
+          "notes": "Lista może być podzielona na strony. Przed edycją lub zapisaniem informacji finansowych projektu potwierdź nazwę projektu oraz dane klienta/lokalizacji."
+        },
+        "ur": {
+          "purpose": "محفوظ شدہ منصوبے دکھاتا ہے اور آپ کو تلاش، فلٹر اور کسی منصوبے کو کھولنے دیتا ہے۔",
+          "when": "اسے موجودہ منصوبہ تلاش کرنے یا کھولنے، یا اس کی حالت کے مطابق فہرست محدود کرنے کے لیے استعمال کریں۔",
+          "how": "Projects List کھولیں۔ منصوبے کے نام، کسٹمر یا پتے سے مطابقت کے لیے اختیاری تلاش کا متن درج کریں۔ حالت کا فلٹر All projects، Open یا Completed پر رکھیں، پھر مطلوبہ منصوبے کا کارڈ منتخب کریں۔",
+          "inputs": "تلاش کا متن اختیاری ہے اور منصوبے کا نام، کسٹمر اور پتہ تلاش کرتا ہے۔ حالت کے فلٹر میں All projects، Open اور Completed کے اختیارات ہیں۔",
+          "result": "فہرست ایسے منصوبے دکھاتی ہے جو تلاش کے متن اور منتخب حالت دونوں سے مطابقت رکھتے ہیں۔ تفصیلات کھولنے کے لیے منصوبے کا کارڈ منتخب کریں۔",
+          "notes": "فہرست صفحات میں تقسیم ہو سکتی ہے۔ ترمیم یا منصوبے کی مالی معلومات درج کرنے سے پہلے منصوبے کا نام اور کسٹمر/سائٹ کی تفصیلات کی تصدیق کریں۔"
+        },
+        "pa": {
+          "purpose": "ਸੰਭਾਲੇ ਹੋਏ ਪ੍ਰੋਜੈਕਟ ਦਿਖਾਉਂਦਾ ਹੈ ਅਤੇ ਤੁਹਾਨੂੰ ਪ੍ਰੋਜੈਕਟ ਖੋਜਣ, ਫਿਲਟਰ ਕਰਨ ਅਤੇ ਖੋਲ੍ਹਣ ਦਿੰਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਲੱਭਣ ਜਾਂ ਖੋਲ੍ਹਣ ਲਈ, ਜਾਂ ਉਸਦੀ ਸਥਿਤੀ ਅਨੁਸਾਰ ਸੂਚੀ ਛੋਟੀ ਕਰਨ ਲਈ ਕਰੋ।",
+          "how": "Projects List ਖੋਲ੍ਹੋ। ਪ੍ਰੋਜੈਕਟ ਨਾਮ, ਗਾਹਕ ਜਾਂ ਪਤੇ ਨਾਲ ਮੇਲ ਲਈ ਵਿਕਲਪਿਕ ਖੋਜ ਲਿਖੋ। ਸਥਿਤੀ ਫਿਲਟਰ All projects, Open ਜਾਂ Completed ਰੱਖੋ, ਫਿਰ ਲੋੜੀਂਦਾ ਪ੍ਰੋਜੈਕਟ ਕਾਰਡ ਚੁਣੋ।",
+          "inputs": "ਖੋਜ ਲਿਖਤ ਵਿਕਲਪਿਕ ਹੈ ਅਤੇ ਪ੍ਰੋਜੈਕਟ ਨਾਮ, ਗਾਹਕ ਅਤੇ ਪਤਾ ਖੋਜਦੀ ਹੈ। ਸਥਿਤੀ ਫਿਲਟਰ ਵਿੱਚ All projects, Open ਅਤੇ Completed ਵਿਕਲਪ ਹਨ।",
+          "result": "ਸੂਚੀ ਉਹ ਪ੍ਰੋਜੈਕਟ ਦਿਖਾਉਂਦੀ ਹੈ ਜੋ ਖੋਜ ਲਿਖਤ ਅਤੇ ਚੁਣੀ ਸਥਿਤੀ ਦੋਵਾਂ ਨਾਲ ਮੇਲ ਖਾਂਦੇ ਹਨ। ਵੇਰਵੇ ਖੋਲ੍ਹਣ ਲਈ ਪ੍ਰੋਜੈਕਟ ਕਾਰਡ ਚੁਣੋ।",
+          "notes": "ਸੂਚੀ ਪੰਨਿਆਂ ਵਿੱਚ ਵੰਡੀ ਹੋ ਸਕਦੀ ਹੈ। ਸੋਧ ਕਰਨ ਜਾਂ ਪ੍ਰੋਜੈਕਟ ਦੀ ਵਿੱਤੀ ਜਾਣਕਾਰੀ ਦਰਜ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਪ੍ਰੋਜੈਕਟ ਨਾਮ ਅਤੇ ਗਾਹਕ/ਸਾਈਟ ਵੇਰਵਿਆਂ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।"
+        },
+        "prs": {
+          "purpose": "پروژه‌های ذخیره‌شده را نمایش می‌دهد و امکان جست‌وجو، فیلترکردن و بازکردن یک پروژه را فراهم می‌کند.",
+          "when": "برای یافتن یا بازکردن پروژه موجود یا محدودکردن فهرست بر اساس وضعیت آن از این گزینه استفاده کنید.",
+          "how": "Projects List را باز کنید. در صورت نیاز متن جست‌وجویی وارد کنید تا نام پروژه، مشتری یا نشانی پیدا شود. فیلتر وضعیت را روی All projects، Open یا Completed قرار دهید و سپس کارت پروژه موردنظر را انتخاب کنید.",
+          "inputs": "متن جست‌وجو اختیاری است و نام پروژه، مشتری و نشانی را جست‌وجو می‌کند. فیلتر وضعیت گزینه‌های All projects، Open و Completed را دارد.",
+          "result": "فهرست پروژه‌هایی را نمایش می‌دهد که هم با متن جست‌وجو و هم با وضعیت انتخاب‌شده مطابقت دارند. برای بازکردن جزئیات، کارت پروژه را انتخاب کنید.",
+          "notes": "ممکن است فهرست صفحه‌بندی شده باشد. پیش از ویرایش یا ثبت اطلاعات مالی پروژه، نام پروژه و جزئیات مشتری/محل را تأیید کنید."
+        },
+        "ps": {
+          "purpose": "خوندي شوې پروژې ښيي او د پروژې د لټون، فلټر کولو او پرانیستلو اجازه درکوي.",
+          "when": "دا هغه وخت وکاروئ چې موجوده پروژه مومئ یا یې پرانیزئ، یا لړلیک یې د حالت له مخې محدودوئ.",
+          "how": "Projects List پرانیزئ. د پروژې د نوم، پېرودونکي یا پتې د موندلو لپاره اختیاري د لټون متن ولیکئ. د حالت فلټر All projects، Open یا Completed ته وټاکئ، بیا د اړتیا وړ پروژې کارت وټاکئ.",
+          "inputs": "د لټون متن اختیاري دی او د پروژې نوم، پېرودونکی او پته لټوي. د حالت فلټر All projects، Open او Completed انتخابونه لري.",
+          "result": "لړلیک هغه پروژې ښيي چې د لټون متن او ټاکل شوي حالت دواړو سره سمون لري. د جزیاتو د پرانیستلو لپاره د پروژې کارت وټاکئ.",
+          "notes": "لړلیک ښايي پر پاڼو وېشل شوی وي. د سمون یا د پروژې د مالي معلوماتو د ثبتولو مخکې د پروژې نوم او د پېرودونکي/ځای معلومات تایید کړئ."
         }
       },
       "handler_or_behavior": "`prPage(`"
