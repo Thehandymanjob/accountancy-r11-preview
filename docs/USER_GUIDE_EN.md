@@ -170,6 +170,8 @@ Use the invoice's available preview/print/PDF workflow. Before sharing:
 
 A report is only as accurate as the records and filters used to prepare it. Confirm that the period and included record types are correct before relying on the result.
 
+The report area also includes a notifications inbox, tax calendar and accountant-email settings. The tax calendar offers calendar-quarter and standard HMRC-period modes; confirm the correct mode for your own tax arrangement before relying on dates. Reminders are checked when the app is opened; push notifications while it is closed are not guaranteed. The accountant-email screen currently states that email sending is not connected: saving recipient details does not send an email.
+
 ### Tax information and calendar
 Use the tax-related screens and reminders to organise information and keep track of dates. They are planning and record-keeping tools.
 
@@ -187,24 +189,24 @@ Open the report preview and inspect all pages before printing or saving. Check t
 
 ### Create a backup
 1. Open **Settings → Backup & Restore**.
-2. Identify the data area you intend to back up.
-3. Select the relevant backup action.
-4. Wait for the completion message and any download to finish.
-5. Confirm that the downloaded file exists and can be retained.
-6. Store a copy somewhere separate from the device.
+2. Select **Backup** to create one complete database backup.
+3. Wait for the completion message and download to finish.
+4. Confirm that the JSON backup file exists and can be retained.
+5. Store a copy somewhere separate from the device.
+
+The current Backup & Restore page describes a complete backup covering all 17 database domains, including accounting, invoices, projects, company contracts, settings, photos and logo. Project and Accountancy records remain separate inside the backup; they are not merged into one set of financial records.
 
 Create backups before significant maintenance or data changes. Keep more than one dated backup where practical and do not overwrite your only known-good copy.
 
 ### Restore data — read carefully
 Restore is a replacement operation, not a routine refresh.
 
-1. Confirm exactly which data area is the restore destination.
-2. Locate the intended backup file.
-3. Verify that it is the correct backup and is not damaged or from the wrong business/version.
-4. Read the confirmation screen and understand what existing data will be replaced.
-5. Proceed only when replacement is intentional and you have a separate safety copy of the current data.
-6. Wait for the restore process and its confirmation to finish.
-7. Review the restored records and totals.
+1. Locate the intended complete JSON backup file.
+2. Verify that it belongs to the correct business and application data set.
+3. Read the confirmation screen: **Restore replaces the entire current database** with the selected backup.
+4. Proceed only when full replacement is intentional and you have first created and safely stored a current backup.
+5. Wait for the restore process and its confirmation to finish.
+6. Review the restored records and totals in the relevant modules.
 
 **Do not restore just because a screen looks empty or a total appears wrong.** First check the selected module, filters, date range and diagnostics. Restoring the wrong backup can replace valid current records.
 
@@ -226,7 +228,9 @@ Restore is a replacement operation, not a routine refresh.
 ### Exporting diagnostic information
 An exported log or diagnostic report may contain business or operational information. Store it securely and share it only with a person who needs it to investigate the issue.
 
-A diagnostic PASS is evidence for the checks that were actually run; it does not prove that every application workflow or every saved record is correct.
+The **Test IndexedDB Storage** control runs a temporary write, read, key-list and delete test against the new storage layer; the application states that this does not migrate, overwrite or delete existing application data. **Compare Accounting Storage (Read-only)** is a comparison action, while **Run Full Storage Audit (Read-only)** is labelled read-only. A diagnostic PASS is evidence only for the checks actually run; it does not prove every workflow or every saved record is correct.
+
+The developer diagnostic JSON is described as excluding personal names, addresses, phone numbers, bank details and invoice line descriptions. Activity logs remain on the device until exported. Review any exported file before sharing it.
 
 **Do not:** edit database files, delete records, reset storage or restore a backup as an experiment.
 
@@ -258,7 +262,7 @@ Within the correct project or sub-project:
 ### Review project performance
 Check the agreed value, recorded income, expenses, payments and any displayed profit calculation. Confirm that all relevant costs have been entered and that amounts are assigned to the correct project/sub-project.
 
-**Important:** Project figures are maintained separately from general Accountancy. Do not assume that adding a project cost automatically creates a general expense entry, or vice versa. Follow the intended workflow and avoid duplicate recording.
+**Important:** Project financial records are stored only in Projects. The application states that project income, expenses and profit/loss are never transferred to or combined with Accountancy. Do not enter the same transaction in both areas unless you deliberately need separate records and have a clear reconciliation method.
 
 ---
 
