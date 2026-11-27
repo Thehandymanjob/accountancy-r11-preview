@@ -2705,19 +2705,19 @@
         "docs/REPAIR_INDEX_FA.md",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "pending-final-tree",
+      "previewDevelopmentCommitSha": "e8298a0eb332989f40e49d164aca9bc68b872a00",
       "previewPullRequestNumber": 96,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
         "result": "PASS",
-        "runId": 46071360320,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071360320",
-        "details": "R61 cumulative Version Authority Gate passed. Repository/branch identity, R61 Build ID, canonical URL, index SHA and all 24 pinned runtime assets matched. The deduplicated runtime has 105 static rows with 105 unique Help IDs."
+        "runId": 46071318624,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071318624",
+        "details": "R61 Version Authority Gate passed for the PR merge ref corresponding to the final R61 development head. Approved R11 ancestry, Build ID, canonical URL, index SHA and all 24 pinned runtime assets matched."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
-        "details": "Thirteen exact selectors are scoped to Project Hub, Project Detail tab data attributes, Project Profit, Contractor form and Company Work Package form. Runtime quote escaping was corrected. Final pins require Gate verification; live browser tests remain pending."
+        "details": "Thirteen exact selectors are scoped to Project Hub, Project Detail tab data attributes, Project Profit, Contractor form and Company Work Package form. Runtime quote escaping was corrected. Cumulative Help mapping is 110 controls (105 static and five dynamic). Live browser tests remain pending."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
