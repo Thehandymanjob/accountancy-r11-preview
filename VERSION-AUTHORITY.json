@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261127-R45",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R45",
-    "indexBlobSha": "e58a0c7895cf639c36e69c28696ebfd3bd262bef",
+    "buildId": "THA-273-R11-PREVIEW-20261127-R46",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R46",
+    "indexBlobSha": "2fbb3dcb435d3950c43fe8a9ca6165b1b0b89883",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,9 +30,11 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "e58a0c7895cf639c36e69c28696ebfd3bd262bef",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "2fbb3dcb435d3950c43fe8a9ca6165b1b0b89883",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7"
+      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "ca922e3ddfe97f1fdf517501cfac6944c090ece2",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js": "e7b7a713478bdb7ec65b52ee7f526dd418770dbd"
     }
   },
   "rules": {
@@ -46,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "The R11 page and every file in its local runtime dependency set are pinned by Git blob SHA. Root version.json, if present, is separate metadata and is not the authority for this R11 page.",
+  "note": "R46 adds the contextual User Guide runtime on Preview development only. PR #96 remains Draft until Version Authority Gate and browser tests are reviewed. Production promotion remains unauthorized.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {
@@ -2049,6 +2051,56 @@
       "userApproval": {
         "result": "pending",
         "details": "Preview-only repair; awaiting user Safari test and explicit approval."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-RUNTIME-ENGINE-R46-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Implement a contextual User Guide runtime on Preview development. Reuse the existing 12-chapter, 11-language User Guide; package only 132 CONTENT_COMPLETE Help entries with all six fields in all 11 languages; add an accessible contextual help panel and an explicit allowlist of 14 scoped static control bindings. Leave drafts unpublished and dynamic templates pending.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        ".github/workflows/r11-version-authority.yml",
+        "VERSION-AUTHORITY.json",
+        "docs/HELP_ID_REGISTRY_DRAFT.json",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_HANDLER_SELECTOR_REFINEMENT_31_DRAFT.json",
+        "docs/HELP_HANDLER_SELECTOR_REFINEMENT_31_20261127.md",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "pending",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "R46 identity and 24 pinned runtime assets are prepared; PR validation is pending."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "V8 syntax compilation passed for all 8 inline scripts and both new external scripts. Content bundle JSON parsed: 132 publishable entries, 11 languages, all six fields present. Fourteen explicit scoped selector bindings are configured. Runtime source does not access IndexedDB or LocalStorage. Browser DOM uniqueness, live interaction, accessibility, mobile layout and Safari remain untested."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting Preview deployment and user verification in iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User directed continuation of the User Guide / Help ID implementation. No Production promotion was authorized."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",

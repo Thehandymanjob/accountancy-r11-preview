@@ -1,34 +1,45 @@
 {
   "schema_version": 1,
-  "document_status": "DRAFT_NOT_CONNECTED_TO_RUNTIME",
+  "document_status": "DRAFT_PARTIALLY_CONNECTED_TO_RUNTIME",
   "repository": "Thehandymanjob/accountancy-r11-preview",
   "branch": "development",
   "baseline": {
     "runtime_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
-    "runtime_blob_sha": "e58a0c7895cf639c36e69c28696ebfd3bd262bef",
-    "registry_blob_sha": "5c9d9d53d0d520ab8a0e5d239ac23f41c035724f",
-    "inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1"
+    "runtime_blob_sha": "2fbb3dcb435d3950c43fe8a9ca6165b1b0b89883",
+    "registry_blob_sha": "bd77bf94bb65d10ca4a4c9407b2a68e59be149d3",
+    "inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
+    "help_content_blob_sha": "ca922e3ddfe97f1fdf517501cfac6944c090ece2",
+    "help_runtime_blob_sha": "e7b7a713478bdb7ec65b52ee7f526dd418770dbd"
   },
   "policy": {
     "label_only_matching": false,
-    "automatic_runtime_attachment": false,
+    "automatic_runtime_attachment": true,
     "all_candidates_require_browser_test": true,
     "exempt_or_retired_ids_must_not_be_attached": true,
-    "production_changes": false
+    "production_changes": false,
+    "runtime_attachment_mode": "explicit scoped selector allowlist only; no label-only or handler-substring matching"
   },
   "summary": {
     "entry_count": 229,
     "inventory_rows": 268,
     "mapping_status_counts": {
-      "AMBIGUOUS_HANDLER": 179,
+      "AMBIGUOUS_HANDLER": 165,
       "HANDLER_CANDIDATE_REQUIRES_CONTEXT_TEST": 16,
+      "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED": 14,
       "ID_CANDIDATE_REQUIRES_BROWSER_TEST": 17,
       "NEEDS_SELECTOR": 7,
       "SEPARATE_DOCUMENT_SCOPE": 7,
       "DYNAMIC_TEMPLATE_CANDIDATE": 2,
       "EXEMPT_NOT_MAPPED": 1
     },
-    "notes": "Reconciled to Version Authority R45 source and refreshed R45 inventory. Exact inline handler expressions, current labels, and static element IDs are recorded. Eleven controls have no inline onclick and remain listener-wiring unresolved; selector assignment and browser verification are still required."
+    "notes": "R46 adds a contextual Help runtime, 132 fully reviewed entries across 11 languages, and 14 scoped static selector bindings. Draft content remains unpublished; 15 dynamic template controls still require explicit data-help-id instrumentation. No browser test or deployment has occurred.",
+    "runtime_publishable_entries": 132,
+    "runtime_languages": 11,
+    "static_controls_attached": 14,
+    "draft_static_controls_skipped": 2,
+    "dynamic_template_controls_pending": 15,
+    "help_ids_attached": 14,
+    "browser_tests_run": 0
   },
   "mappings": [
     {
@@ -234,12 +245,12 @@
       "visible_label": "🏠 Dashboard",
       "handler": "show('home')",
       "handler_name": "show",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "static_selector_runtime_allowlist",
+      "selector": ".accountancy-nav > button[onclick=\"show('home')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler show occurs 32 times in source; resolve using exact template/parent context."
+      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
+      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
     },
     {
       "help_id": "THA-HLP-0016",
@@ -248,12 +259,12 @@
       "visible_label": "＋ Add Entry",
       "handler": "show('entry')",
       "handler_name": "show",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "static_selector_runtime_allowlist",
+      "selector": ".accountancy-nav > button[onclick=\"show('entry')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler show occurs 32 times in source; resolve using exact template/parent context."
+      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
+      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
     },
     {
       "help_id": "THA-HLP-0017",
@@ -262,12 +273,12 @@
       "visible_label": "📋 Records",
       "handler": "show('records')",
       "handler_name": "show",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "static_selector_runtime_allowlist",
+      "selector": ".accountancy-nav > button[onclick=\"show('records')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler show occurs 32 times in source; resolve using exact template/parent context."
+      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
+      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
     },
     {
       "help_id": "THA-HLP-0018",
@@ -276,12 +287,12 @@
       "visible_label": "🧾 Invoices",
       "handler": "show('invoices')",
       "handler_name": "show",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "static_selector_runtime_allowlist",
+      "selector": ".accountancy-nav > button[onclick=\"show('invoices')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler show occurs 32 times in source; resolve using exact template/parent context."
+      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
+      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
     },
     {
       "help_id": "THA-HLP-0019",
@@ -290,12 +301,12 @@
       "visible_label": "👥 Customers",
       "handler": "show('customers')",
       "handler_name": "show",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "static_selector_runtime_allowlist",
+      "selector": ".accountancy-nav > button[onclick=\"show('customers')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler show occurs 32 times in source; resolve using exact template/parent context."
+      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
+      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
     },
     {
       "help_id": "THA-HLP-0020",
@@ -304,12 +315,12 @@
       "visible_label": "🖨️ Reports",
       "handler": "show('report')",
       "handler_name": "show",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "static_selector_runtime_allowlist",
+      "selector": ".accountancy-nav > button[onclick=\"show('report')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler show occurs 32 times in source; resolve using exact template/parent context."
+      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
+      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
     },
     {
       "help_id": "THA-HLP-0021",
@@ -360,12 +371,12 @@
       "visible_label": "📷 Take a Photo",
       "handler": "document.getElementById('entryReceiptGallery').click()",
       "handler_name": "getElementById",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "static_selector_runtime_allowlist",
+      "selector": "#entryReceiptField .receipt-actions > button[onclick*=\"entryReceiptGallery\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler getElementById occurs 290 times in source; resolve using exact template/parent context."
+      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
+      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
     },
     {
       "help_id": "THA-HLP-0025",
@@ -584,12 +595,12 @@
       "visible_label": "Confirm records complete",
       "handler": "report188ConfirmComplete()",
       "handler_name": "report188ConfirmComplete",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "static_selector_runtime_allowlist",
+      "selector": "#report188Builder .actions > button[onclick=\"report188ConfirmComplete()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler report188ConfirmComplete occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
+      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
     },
     {
       "help_id": "THA-HLP-0041",
@@ -598,12 +609,12 @@
       "visible_label": "Check reminders now",
       "handler": "report188CheckDue()",
       "handler_name": "report188CheckDue",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "static_selector_runtime_allowlist",
+      "selector": "#report188Builder .actions > button[onclick=\"report188CheckDue()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler report188CheckDue occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
+      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
     },
     {
       "help_id": "THA-HLP-0042",
@@ -626,12 +637,12 @@
       "visible_label": "Check reminders now",
       "handler": "report188CheckDue()",
       "handler_name": "report188CheckDue",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "static_selector_runtime_allowlist",
+      "selector": "#report188Calendar .actions > button[onclick=\"report188CheckDue()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler report188CheckDue occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
+      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
     },
     {
       "help_id": "THA-HLP-0044",
@@ -1074,12 +1085,12 @@
       "visible_label": "📁 Projects",
       "handler": "prPage('project-hub')",
       "handler_name": "prPage",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "static_selector_runtime_allowlist",
+      "selector": "[data-pr-nav=\"project-hub\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler prPage occurs 31 times in source; resolve using exact template/parent context."
+      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
+      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
     },
     {
       "help_id": "THA-HLP-0076",
@@ -1102,12 +1113,12 @@
       "visible_label": "⚙️ Control Panel",
       "handler": "prPage('control')",
       "handler_name": "prPage",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "static_selector_runtime_allowlist",
+      "selector": "[data-pr-nav=\"control\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler prPage occurs 31 times in source; resolve using exact template/parent context."
+      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
+      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
     },
     {
       "help_id": "THA-HLP-0078",
@@ -1410,12 +1421,12 @@
       "visible_label": "Clear",
       "handler": "prResetPerson('partner')",
       "handler_name": "prResetPerson",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "static_selector_runtime_allowlist",
+      "selector": "#prPage-partners .pr-actions > button[onclick=\"prResetPerson('partner')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler prResetPerson occurs 4 times in source; resolve using exact template/parent context."
+      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
+      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
     },
     {
       "help_id": "THA-HLP-0100",
@@ -1466,12 +1477,12 @@
       "visible_label": "Clear",
       "handler": "prResetPerson('worker')",
       "handler_name": "prResetPerson",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "static_selector_runtime_allowlist",
+      "selector": "#prPage-workers .pr-actions > button[onclick=\"prResetPerson('worker')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler prResetPerson occurs 4 times in source; resolve using exact template/parent context."
+      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
+      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
     },
     {
       "help_id": "THA-HLP-0104",

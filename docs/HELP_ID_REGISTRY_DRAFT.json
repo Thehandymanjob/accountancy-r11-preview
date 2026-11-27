@@ -2,10 +2,10 @@
   "schema_version": 1,
   "registry_status": "DRAFT_NOT_CONNECTED_TO_RUNTIME",
   "project": "The Handyman Accountancy",
-  "build_baseline": "THA-273-R11-PREVIEW-20261126-R43",
+  "build_baseline": "THA-273-R11-PREVIEW-20261127-R45",
   "branch": "development",
   "source_inventory": "docs/HELP_BUTTON_INVENTORY_FA.md",
-  "source_inventory_blob_sha": "66ec0eb0037748956ba06e9a0867fefa5407ca1b",
+  "source_inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
   "languages": [
     "en",
     "fa",

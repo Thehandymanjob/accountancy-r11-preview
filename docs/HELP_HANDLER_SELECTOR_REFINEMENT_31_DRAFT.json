@@ -29,8 +29,10 @@
     "static_selector_candidates": 16,
     "require_data_help_id_instrumentation": 15,
     "browser_tests_run": 0,
-    "help_ids_attached": 0,
-    "release_authorized": false
+    "help_ids_attached": 14,
+    "release_authorized": false,
+    "static_selectors_attached": 14,
+    "draft_static_controls_skipped": 2
   },
   "records": [
     {
@@ -66,8 +68,9 @@
         "scope": ".accountancy-nav",
         "code_change_required": false,
         "reason": "This Help ID is INV-017 (the bottom navigation control), not the separate home dashboard card.",
-        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
-        "browser_test_required": true
+        "status": "ATTACHED_IN_R46_RUNTIME_ALLOWLIST_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true,
+        "runtime_binding": "data-help-id is assigned at runtime by the explicit selector allowlist"
       }
     },
     {
@@ -103,8 +106,9 @@
         "scope": ".accountancy-nav",
         "code_change_required": false,
         "reason": "Targets the bottom navigation Add Entry button; the home card is a separate inventory row.",
-        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
-        "browser_test_required": true
+        "status": "ATTACHED_IN_R46_RUNTIME_ALLOWLIST_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true,
+        "runtime_binding": "data-help-id is assigned at runtime by the explicit selector allowlist"
       }
     },
     {
@@ -147,8 +151,9 @@
         "scope": ".accountancy-nav",
         "code_change_required": false,
         "reason": "Excludes the unrelated Back to Records control and home card.",
-        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
-        "browser_test_required": true
+        "status": "ATTACHED_IN_R46_RUNTIME_ALLOWLIST_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true,
+        "runtime_binding": "data-help-id is assigned at runtime by the explicit selector allowlist"
       }
     },
     {
@@ -191,8 +196,9 @@
         "scope": ".accountancy-nav",
         "code_change_required": false,
         "reason": "Targets only the bottom navigation Invoices button, not invoice-print return controls.",
-        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
-        "browser_test_required": true
+        "status": "ATTACHED_IN_R46_RUNTIME_ALLOWLIST_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true,
+        "runtime_binding": "data-help-id is assigned at runtime by the explicit selector allowlist"
       }
     },
     {
@@ -228,8 +234,9 @@
         "scope": ".accountancy-nav",
         "code_change_required": false,
         "reason": "Targets only the bottom navigation Customers button.",
-        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
-        "browser_test_required": true
+        "status": "ATTACHED_IN_R46_RUNTIME_ALLOWLIST_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true,
+        "runtime_binding": "data-help-id is assigned at runtime by the explicit selector allowlist"
       }
     },
     {
@@ -265,8 +272,9 @@
         "scope": ".accountancy-nav",
         "code_change_required": false,
         "reason": "Targets only the bottom navigation Reports button.",
-        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
-        "browser_test_required": true
+        "status": "ATTACHED_IN_R46_RUNTIME_ALLOWLIST_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true,
+        "runtime_binding": "data-help-id is assigned at runtime by the explicit selector allowlist"
       }
     },
     {
@@ -302,8 +310,9 @@
         "scope": "#entryReceiptField",
         "code_change_required": false,
         "reason": "The entry form has a stable wrapper and a distinct hidden file input; excludes the project receipt photo button.",
-        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
-        "browser_test_required": true
+        "status": "ATTACHED_IN_R46_RUNTIME_ALLOWLIST_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true,
+        "runtime_binding": "data-help-id is assigned at runtime by the explicit selector allowlist"
       }
     },
     {
@@ -339,8 +348,9 @@
         "scope": "#report188Builder",
         "code_change_required": false,
         "reason": "Targets the report builder action; the tax-calendar variant is a separate inventory item.",
-        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
-        "browser_test_required": true
+        "status": "ATTACHED_IN_R46_RUNTIME_ALLOWLIST_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true,
+        "runtime_binding": "data-help-id is assigned at runtime by the explicit selector allowlist"
       }
     },
     {
@@ -376,8 +386,9 @@
         "scope": "#report188Builder",
         "code_change_required": false,
         "reason": "Targets the reminder action within Prepare a report.",
-        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
-        "browser_test_required": true
+        "status": "ATTACHED_IN_R46_RUNTIME_ALLOWLIST_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true,
+        "runtime_binding": "data-help-id is assigned at runtime by the explicit selector allowlist"
       }
     },
     {
@@ -413,8 +424,9 @@
         "scope": "#report188Calendar",
         "code_change_required": false,
         "reason": "Targets the reminder action within Tax calendar, distinct from the builder.",
-        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
-        "browser_test_required": true
+        "status": "ATTACHED_IN_R46_RUNTIME_ALLOWLIST_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true,
+        "runtime_binding": "data-help-id is assigned at runtime by the explicit selector allowlist"
       }
     },
     {
@@ -443,8 +455,9 @@
         "scope": ".settings-shortcuts",
         "code_change_required": false,
         "reason": "Runtime and refreshed inventory now both use the current label “User Guide — Choose the guide language”.",
-        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
-        "browser_test_required": true
+        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "browser_test_required": true,
+        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
       }
     },
     {
@@ -487,8 +500,9 @@
         "scope": "Business Workspace navigation",
         "code_change_required": false,
         "reason": "INV-091 is the Projects navigation button; project cards and Projects List have separate inventory rows.",
-        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
-        "browser_test_required": true
+        "status": "ATTACHED_IN_R46_RUNTIME_ALLOWLIST_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true,
+        "runtime_binding": "data-help-id is assigned at runtime by the explicit selector allowlist"
       }
     },
     {
@@ -524,8 +538,9 @@
         "scope": "Business Workspace navigation",
         "code_change_required": false,
         "reason": "INV-093 is the Control Panel navigation button; the workspace card is a separate control.",
-        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
-        "browser_test_required": true
+        "status": "ATTACHED_IN_R46_RUNTIME_ALLOWLIST_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true,
+        "runtime_binding": "data-help-id is assigned at runtime by the explicit selector allowlist"
       }
     },
     {
@@ -561,8 +576,9 @@
         "scope": "#prPage-partners",
         "code_change_required": false,
         "reason": "Partner form is scoped by its page container; excludes the Worker Clear button.",
-        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
-        "browser_test_required": true
+        "status": "ATTACHED_IN_R46_RUNTIME_ALLOWLIST_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true,
+        "runtime_binding": "data-help-id is assigned at runtime by the explicit selector allowlist"
       }
     },
     {
@@ -598,8 +614,9 @@
         "scope": "#prPage-workers",
         "code_change_required": false,
         "reason": "Worker form is scoped by its page container; excludes the Partner Clear button.",
-        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
-        "browser_test_required": true
+        "status": "ATTACHED_IN_R46_RUNTIME_ALLOWLIST_NOT_BROWSER_VERIFIED",
+        "browser_test_required": true,
+        "runtime_binding": "data-help-id is assigned at runtime by the explicit selector allowlist"
       }
     },
     {
@@ -642,8 +659,9 @@
         "scope": "Generated pagination page-number button template",
         "code_change_required": true,
         "reason": "The visible page number and active class are generated from page state; do not select by text or position.",
-        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
-        "browser_test_required": true
+        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "browser_test_required": true,
+        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
       }
     },
     {
@@ -679,8 +697,9 @@
         "scope": "Receipt image/clip action template",
         "code_change_required": true,
         "reason": "Receipt clip controls are repeated and have multiple render paths; attach the Help ID at the specific intended template callsite.",
-        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
-        "browser_test_required": true
+        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "browser_test_required": true,
+        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
       }
     },
     {
@@ -716,8 +735,9 @@
         "scope": "Records-list invoice View button template",
         "code_change_required": true,
         "reason": "Repeated View buttons are generated per record; bind to the record-row template, not a global .mini selector.",
-        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
-        "browser_test_required": true
+        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "browser_test_required": true,
+        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
       }
     },
     {
@@ -753,8 +773,9 @@
         "scope": "Records-list invoice Delete button template",
         "code_change_required": true,
         "reason": "Repeated Delete controls are generated per record; use the invoice row template scope.",
-        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
-        "browser_test_required": true
+        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "browser_test_required": true,
+        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
       }
     },
     {
@@ -790,8 +811,9 @@
         "scope": "Invoice-list View button template",
         "code_change_required": true,
         "reason": "Separate View control from the records-list invoice action; use its own render template.",
-        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
-        "browser_test_required": true
+        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "browser_test_required": true,
+        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
       }
     },
     {
@@ -827,8 +849,9 @@
         "scope": "Invoice-list Delete button template",
         "code_change_required": true,
         "reason": "Separate Delete control from the records-list invoice action; use its own render template.",
-        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
-        "browser_test_required": true
+        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "browser_test_required": true,
+        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
       }
     },
     {
@@ -878,8 +901,9 @@
         "scope": "Company/job attachment icon button template (INV-182)",
         "code_change_required": true,
         "reason": "coOpenAttachment is shared by company, job, package and payment templates; this Help ID belongs to the job attachment row.",
-        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
-        "browser_test_required": true
+        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "browser_test_required": true,
+        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
       }
     },
     {
@@ -915,8 +939,9 @@
         "scope": "Package attachment button template (INV-183)",
         "code_change_required": true,
         "reason": "Package attachment is a distinct control from the job attachment icon.",
-        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
-        "browser_test_required": true
+        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "browser_test_required": true,
+        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
       }
     },
     {
@@ -952,8 +977,9 @@
         "scope": "Sub-project expenses tab Print / Save PDF button template (INV-196)",
         "code_change_required": true,
         "reason": "The same handler is reused by the report tab; this Help ID maps to the expense-tab control.",
-        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
-        "browser_test_required": true
+        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "browser_test_required": true,
+        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
       }
     },
     {
@@ -989,8 +1015,9 @@
         "scope": "Sub-project report tab Print / Save PDF button template (INV-197)",
         "code_change_required": true,
         "reason": "The same handler is reused by the expenses tab; this Help ID maps to the report-tab control.",
-        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
-        "browser_test_required": true
+        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "browser_test_required": true,
+        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
       }
     },
     {
@@ -1026,8 +1053,9 @@
         "scope": "Project receipt-photo action template (INV-198)",
         "code_change_required": true,
         "reason": "This is the project receipt form control, distinct from #entryReceiptField.",
-        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
-        "browser_test_required": true
+        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "browser_test_required": true,
+        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
       }
     },
     {
@@ -1063,8 +1091,9 @@
         "scope": "Full project report preview toolbar Generate PDF button",
         "code_change_required": true,
         "reason": "The first dynamically built overlay is Full project report preview.",
-        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
-        "browser_test_required": true
+        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "browser_test_required": true,
+        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
       }
     },
     {
@@ -1100,8 +1129,9 @@
         "scope": "Sub-project financial report preview toolbar Generate PDF button",
         "code_change_required": true,
         "reason": "The second dynamically built overlay is Financial report preview.",
-        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
-        "browser_test_required": true
+        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "browser_test_required": true,
+        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
       }
     },
     {
@@ -1130,8 +1160,9 @@
         "scope": "#prPrintReportOverlay .pr-pdf-preview-shell",
         "code_change_required": false,
         "reason": "The accessible aria-label uniquely identifies the close control inside the PDF preview shell; avoid the generic × text.",
-        "status": "STATIC_SELECTOR_CANDIDATE_NOT_BROWSER_VERIFIED",
-        "browser_test_required": true
+        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "browser_test_required": true,
+        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
       }
     },
     {
@@ -1174,8 +1205,9 @@
         "scope": "Worker list picker footer Manage Workers button",
         "code_change_required": true,
         "reason": "The picker is built dynamically; the same Workers navigation route exists elsewhere, so scope to the picker action.",
-        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
-        "browser_test_required": true
+        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "browser_test_required": true,
+        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
       }
     },
     {
@@ -1211,8 +1243,9 @@
         "scope": "Saved reports archive row Print / PDF button (INV-260)",
         "code_change_required": true,
         "reason": "The same report188Print handler is also used by the saved-report detail viewer, whose label and context differ.",
-        "status": "NEEDS_TEMPLATE_INSTRUMENTATION",
-        "browser_test_required": true
+        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "browser_test_required": true,
+        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
       }
     }
   ],
@@ -1221,5 +1254,14 @@
     "Do not use global text selectors, nth-child selectors, row indices, or transient generated labels.",
     "Dynamic controls must receive explicit data-help-id attributes in their own rendering templates.",
     "After code instrumentation, verify exactly the intended control(s) in Preview and test each Help ID interaction before marking complete."
-  ]
+  ],
+  "runtime_implementation": {
+    "buildId": "THA-273-R11-PREVIEW-20261127-R46",
+    "indexBlobSha": "2fbb3dcb435d3950c43fe8a9ca6165b1b0b89883",
+    "contentBundleBlobSha": "ca922e3ddfe97f1fdf517501cfac6944c090ece2",
+    "runtimeEngineBlobSha": "e7b7a713478bdb7ec65b52ee7f526dd418770dbd",
+    "publishableEntries": 132,
+    "languages": 11,
+    "staticBindings": 14
+  }
 }

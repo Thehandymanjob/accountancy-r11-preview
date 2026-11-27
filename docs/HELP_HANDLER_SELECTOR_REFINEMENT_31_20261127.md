@@ -58,3 +58,13 @@
 ## Gate
 
 This plan does **not** authorize a Preview deployment or Production change. The next implementation step is to add the listed `data-help-id` attributes only to the identified dynamic templates, then run static uniqueness checks and actual Preview browser tests. Keep PR #96 Draft until those checks pass.
+
+
+## R46 implementation update — 2026-11-27
+
+- The contextual Help runtime shell is now included in Preview development Build R46.
+- The runtime data bundle exposes only the 132 entries marked `CONTENT_COMPLETE`, with all six required fields in all 11 languages. The 96 active draft entries and one retired ID are excluded from runtime publication.
+- Fourteen of the sixteen static selector candidates are now wired through an explicit selector allowlist. Two controls were deliberately skipped because their registry content remains Draft.
+- Fifteen dynamic/template controls remain unbound until their exact template callsites receive explicit `data-help-id` attributes.
+- A floating contextual Help control opens the last selected mapped control's six-field explanation; without a selected context it opens the existing full User Guide page. The app's existing guide-language preference controls the help language. Main app UI remains English/LTR.
+- Static source checks only; no browser DOM uniqueness test, interaction test, Preview Pages deployment or iPhone Safari test has run. PR #96 remains Draft.

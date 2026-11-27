@@ -1,0 +1,44 @@
+# Contextual User Guide Runtime — R46 Implementation
+
+**Repository:** `Thehandymanjob/accountancy-r11-preview`  
+**Branch:** `development`  
+**Build ID:** `THA-273-R11-PREVIEW-20261127-R46`  
+**Status:** Implemented in development; Version Authority Gate and browser verification pending.
+
+## Existing guide preserved
+
+The R45 source already contained the real `#userGuide` page, the 12-chapter `GUIDE_CONTENT` structure, the 11 guide-language choices, and the persisted guide-language preference. R46 reuses that page and preference; it does not create a second guide or change the main interface language.
+
+## Runtime implementation
+
+- Added `tha-help-content-v1.js`, a versioned runtime data bundle.
+- Added `tha-help-runtime-v1.js`, a standalone contextual Help engine.
+- Loaded both files from the application HTML before `</body>`.
+- The engine adds one fixed, accessible `?` control. It remembers the last mapped control selected; pressing `?` displays that control's six Help fields. If no mapped control has been selected, it opens the existing full User Guide.
+- The Help panel renders text using DOM `textContent`, respects the selected guide language and RTL direction for applicable languages, and provides Close / Open full User Guide actions.
+- Static selector bindings are an explicit allowlist. The engine also recognises future `data-help-id` attributes on dynamic template controls through event delegation and a MutationObserver.
+- No LocalStorage, IndexedDB, backup, recovery, or accounting-data code is used by this engine.
+
+## Content publication boundary
+
+- **132** entries marked `CONTENT_COMPLETE` are included.
+- All six required fields are present for each included entry in all **11** languages.
+- **96** active `CONTENT_DRAFT` entries remain excluded.
+- **1** retired Help ID remains excluded and will never be reused.
+- Draft status is not overridden by runtime implementation.
+
+## Control binding
+
+- **14** static, scoped controls are wired through the allowlist.
+- **2** static candidates are intentionally skipped because their content is Draft.
+- **15** dynamic/template controls still need exact `data-help-id` attributes at their rendering callsites.
+- No global label matching, handler-substring matching, transient row index, or `nth-child` selector is used.
+
+## Validation and release gate
+
+- R46 Build ID, canonical URL, HTML metadata, and Version Authority asset pins are updated together.
+- Version Authority workflow asset-count expectation is increased from 22 to 24 to include the two new runtime assets.
+- Registry source inventory baseline is reconciled to R45 inventory blob SHA `f1efe7a5f57961a5b415cc1a9e1992622ab549b1`.
+- Static syntax and source-integrity checks are required before PR review.
+- Browser DOM uniqueness, actual click-to-help behavior, language switching, modal accessibility, mobile layout, and iPhone Safari remain **not tested**.
+- PR #96 stays Draft. Preview Pages is not deployed. Production is unchanged and not authorized.
