@@ -34,7 +34,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js": "d75754a1a8c1ea2cb6bef9365b9450bd19be04f0"
+      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js": "6d331c54bbf1a77ecffcc95127709d337c48a6c1"
     }
   },
   "rules": {
@@ -48,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "R52 extends adjacent contextual Help to 37 mapped specialist controls. Simulated DOM smoke test PASS: 37 triggers, EN/FA content, Persian RTL, event isolation and hidden-state synchronization. R11 Version Authority Gate PASS: run 46069069507 (24 pinned runtime assets). Real Preview browser/iPhone verification remains pending; no deployment or Production promotion is authorized.",
+  "note": "R60 contains 90 adjacent contextual Help controls: 85 static and five dynamic. Authority pins are synchronized to the current R60 index/runtime assets. Gate is being rerun; real Preview browser/iPhone verification remains pending. No deployment or Production promotion is authorized.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {

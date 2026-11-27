@@ -5,7 +5,7 @@
   "branch": "development",
   "baseline": {
     "runtime_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
-    "runtime_blob_sha": "6d331c54bbf1a77ecffcc95127709d337c48a6c1",
+    "runtime_blob_sha": "facc744a955a6987597de095c87c0e94726fd0f3",
     "registry_blob_sha": "f63754128fd09125290df4045f6f4b6fc03b3545",
     "inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
     "help_content_blob_sha": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
@@ -23,30 +23,22 @@
     "entry_count": 229,
     "inventory_rows": 268,
     "mapping_status_counts": {
-      "AMBIGUOUS_HANDLER": 160,
-      "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED": 37,
+      "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED": 97,
       "HANDLER_CANDIDATE_REQUIRES_CONTEXT_TEST": 11,
-      "NEEDS_SELECTOR": 7,
+      "AMBIGUOUS_HANDLER": 101,
+      "NEEDS_SELECTOR": 6,
       "SEPARATE_DOCUMENT_SCOPE": 7,
       "DYNAMIC_TEMPLATE_CANDIDATE": 2,
       "ID_CANDIDATE_REQUIRES_BROWSER_TEST": 4,
-      "EXEMPT_NOT_MAPPED": 1,
-      "ADJACENT_HELP_BUTTON_ATTACHED_R53_NOT_BROWSER_VERIFIED": 1,
-      "ADJACENT_HELP_BUTTON_ATTACHED_R54_NOT_BROWSER_VERIFIED": 6,
-      "ADJACENT_HELP_BUTTON_ATTACHED_R55_NOT_BROWSER_VERIFIED": 6,
-      "ADJACENT_HELP_BUTTON_ATTACHED_R56_NOT_BROWSER_VERIFIED": 6,
-      "ADJACENT_HELP_BUTTON_ATTACHED_R57_NOT_BROWSER_VERIFIED": 7,
-      "ADJACENT_HELP_BUTTON_ATTACHED_R58_NOT_BROWSER_VERIFIED": 11,
-      "ADJACENT_HELP_BUTTON_ATTACHED_R59_NOT_BROWSER_VERIFIED": 6,
-      "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED": 19
+      "EXEMPT_NOT_MAPPED": 1
     },
-    "notes": "R60 has 99 mapped adjacent Help controls: 82 scoped navigation/report/form/diagnostic/accounting/Project Workspace/Company Contracts/Contracts/Profile selectors, 13 exact unique-ID selectors, five scoped unique-handler selectors and five dynamic-template attributes. R60 connects the four main launcher destinations, six Accountancy home destinations, Dashboard refresh and period selection, Clear Entry Form, Reports Print Preview, Secure Factory Reset entry, and four Business Workspace sidebar destinations. The reset Help selector is scoped to the actual #factoryResetPage. Real browser tests and deployment remain pending.",
+    "notes": "R60 contains 90 adjacent Help controls: 85 static selectors and five dynamic-template attributes. The ten Main Menu and Accountancy destinations were added with exact parent-scoped selectors. Runtime and Version Authority now reference the same R60 blobs. Real browser verification remains pending.",
     "runtime_publishable_entries": 132,
     "runtime_languages": 11,
-    "static_controls_attached": 94,
+    "static_controls_attached": 85,
     "draft_static_controls_skipped": 2,
     "dynamic_template_controls_pending": 10,
-    "help_ids_attached": 99,
+    "help_ids_attached": 90,
     "browser_tests_run": 0,
     "dynamic_template_controls_attached": 5,
     "draft_controls_skipped": 12,
@@ -122,7 +114,7 @@
       "selector": "#contractsWorkspace .ct-newbar > button[onclick=\"ctNew()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R59_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #contractsWorkspace and its literal onclick value. The control is unique within the Contracts, Profile & Logo or User Guide contact form. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -136,7 +128,7 @@
       "selector": "#ctFormCard .ct-actions > button[onclick=\"ctSave()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R59_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #ctFormCard and its literal onclick value. The control is unique within the Contracts, Profile & Logo or User Guide contact form. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -150,7 +142,7 @@
       "selector": "#contractsApp .ct-actions > button[onclick=\"ctOpenChatGPT()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -164,7 +156,7 @@
       "selector": "#ctFormCard .ct-actions > button[onclick=\"ctPrint()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R59_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #ctFormCard and its literal onclick value. The control is unique within the Contracts, Profile & Logo or User Guide contact form. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -262,7 +254,7 @@
       "selector": ".accountancy-nav > button[onclick=\"show('home')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -276,7 +268,7 @@
       "selector": ".accountancy-nav > button[onclick=\"show('entry')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -290,7 +282,7 @@
       "selector": ".accountancy-nav > button[onclick=\"show('records')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -304,7 +296,7 @@
       "selector": ".accountancy-nav > button[onclick=\"show('invoices')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -318,7 +310,7 @@
       "selector": ".accountancy-nav > button[onclick=\"show('customers')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -332,7 +324,7 @@
       "selector": ".accountancy-nav > button[onclick=\"show('report')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -374,7 +366,7 @@
       "selector": "#categoryPickerButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -388,7 +380,7 @@
       "selector": "#entryReceiptField .receipt-actions > button[onclick*=\"entryReceiptGallery\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -402,7 +394,7 @@
       "selector": "#entryReceiptRemove",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -416,7 +408,7 @@
       "selector": "#entry .actions > button[onclick=\"saveEntry()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R55_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #entry and the literal onclick value. The source control is distinct from the similarly named function definition or other callsites. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -444,7 +436,7 @@
       "selector": "#expenseCategoryAddScreen .actions > button[onclick=\"saveExpenseCategory()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R55_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #expenseCategoryAddScreen and the literal onclick value. The source control is distinct from the similarly named function definition or other callsites. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -458,7 +450,7 @@
       "selector": "#invoiceListArea .invoice-quick-actions > button[onclick=\"newInvoice()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R56_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #invoiceListArea and its exact onclick value. The target is the single intended Invoice or Reports & Tax menu control. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -472,7 +464,7 @@
       "selector": "#invoiceEditor .actions > button[onclick=\"saveInvoice()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R55_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #invoiceEditor and the literal onclick value. The source control is distinct from the similarly named function definition or other callsites. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -486,7 +478,7 @@
       "selector": "#invoiceEditor .actions > button[onclick=\"saveAndPrintInvoice()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R55_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #invoiceEditor and the literal onclick value. The source control is distinct from the similarly named function definition or other callsites. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -500,7 +492,7 @@
       "selector": "#customers .actions > button[onclick=\"saveCustomer()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R55_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #customers and the literal onclick value. The source control is distinct from the similarly named function definition or other callsites. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -514,7 +506,7 @@
       "selector": "#customers .actions > button[onclick=\"resetCustomerForm()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R55_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #customers and the literal onclick value. The source control is distinct from the similarly named function definition or other callsites. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -528,7 +520,7 @@
       "selector": "#report188Menu .report188-menu-grid > button[onclick=\"report188Navigate('builder')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R56_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #report188Menu and its exact onclick value. The target is the single intended Invoice or Reports & Tax menu control. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -542,7 +534,7 @@
       "selector": "#report188Menu .report188-menu-grid > button[onclick=\"report188Navigate('archive')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R56_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #report188Menu and its exact onclick value. The target is the single intended Invoice or Reports & Tax menu control. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -556,7 +548,7 @@
       "selector": "#report188Menu .report188-menu-grid > button[onclick=\"report188Navigate('inbox')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R56_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #report188Menu and its exact onclick value. The target is the single intended Invoice or Reports & Tax menu control. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -570,7 +562,7 @@
       "selector": "#report188Menu .report188-menu-grid > button[onclick=\"report188Navigate('calendar')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R56_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #report188Menu and its exact onclick value. The target is the single intended Invoice or Reports & Tax menu control. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -584,7 +576,7 @@
       "selector": "#report188Menu .report188-menu-grid > button[onclick=\"report188Navigate('email')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R56_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #report188Menu and its exact onclick value. The target is the single intended Invoice or Reports & Tax menu control. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -612,7 +604,7 @@
       "selector": "#report188Builder .actions > button[onclick=\"report188ConfirmComplete()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -626,7 +618,7 @@
       "selector": "#report188Builder .actions > button[onclick=\"report188CheckDue()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -640,7 +632,7 @@
       "selector": "#report188Calendar .actions > button[onclick=\"report188ConfirmComplete()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R54_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the button to #report188Calendar and its literal onclick attribute. The same handler token appears elsewhere in source or function code, but this parent/action selector identifies the intended control. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -654,7 +646,7 @@
       "selector": "#report188Calendar .actions > button[onclick=\"report188CheckDue()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -668,7 +660,7 @@
       "selector": "#report188Email > .pr-card .actions > button[onclick=\"report188SaveEmailSettings()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -682,7 +674,7 @@
       "selector": "#fullBackupButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -696,7 +688,7 @@
       "selector": "#fullRestoreButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -710,7 +702,7 @@
       "selector": "#monitor button[onclick=\"toggleMonitorVersionInfo()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R54_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the button to #monitor and its literal onclick attribute. The same handler token appears elsewhere in source or function code, but this parent/action selector identifies the intended control. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -724,7 +716,7 @@
       "selector": "#toggleActivityArchiveButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -738,7 +730,7 @@
       "selector": "#runIndexedDBSelfTestButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -766,7 +758,7 @@
       "selector": "#monitor button[onclick=\"window.runAccountingStorageComparison()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -780,7 +772,7 @@
       "selector": "#monitor button[onclick=\"exportDiagnosticReport()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R54_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the button to #monitor and its literal onclick attribute. The same handler token appears elsewhere in source or function code, but this parent/action selector identifies the intended control. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -794,7 +786,7 @@
       "selector": "#monitor button[onclick=\"runFullStorageAudit()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R54_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the button to #monitor and its literal onclick attribute. The same handler token appears elsewhere in source or function code, but this parent/action selector identifies the intended control. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -808,7 +800,7 @@
       "selector": "#monitor button[onclick=\"exportMonitorCSV()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R54_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the button to #monitor and its literal onclick attribute. The same handler token appears elsewhere in source or function code, but this parent/action selector identifies the intended control. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -822,7 +814,7 @@
       "selector": "#monitor button[onclick=\"runMonitorSelfCheck()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R54_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the button to #monitor and its literal onclick attribute. The same handler token appears elsewhere in source or function code, but this parent/action selector identifies the intended control. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -948,7 +940,7 @@
       "selector": "#factoryResetConvertButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -962,7 +954,7 @@
       "selector": "#factoryResetEmergencyButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -976,7 +968,7 @@
       "selector": "#factoryResetNext",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -990,7 +982,7 @@
       "selector": "#factoryResetFinalButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -1004,7 +996,7 @@
       "selector": "#profileGuide .pr-actions > button[onclick=\"prSaveProfile()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R59_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #profileGuide and its literal onclick value. The control is unique within the Contracts, Profile & Logo or User Guide contact form. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1018,7 +1010,7 @@
       "selector": "#profileGuide .pr-actions > button[onclick=\"prRemoveLogo()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R59_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #profileGuide and its literal onclick value. The control is unique within the Contracts, Profile & Logo or User Guide contact form. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1032,7 +1024,7 @@
       "selector": "#helpContactForm > .pr-actions > button[type=\"submit\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R53_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact form-scoped selector targets the single submit control inside #helpContactForm. Source confirms submitHelpContact(event) saves a local IndexedDB draft only; it does not send the message. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1046,7 +1038,7 @@
       "selector": "#helpContactForm .pr-actions > button[onclick=\"resetHelpContactForm()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R59_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #helpContactForm and its literal onclick value. The control is unique within the Contracts, Profile & Logo or User Guide contact form. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1074,7 +1066,7 @@
       "selector": "#appReloadUpdate",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -1102,7 +1094,7 @@
       "selector": "[data-pr-nav=\"project-hub\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -1130,7 +1122,7 @@
       "selector": "[data-pr-nav=\"control\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -1228,7 +1220,7 @@
       "selector": "#prPage-new .pr-actions > button[onclick=\"prSaveProject()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R57_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the control to #prPage-new and its literal onclick action. The target is unique within its Project Workspace page. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1242,7 +1234,7 @@
       "selector": "#prPage-new .pr-actions > button[onclick=\"prResetProject()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R57_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the control to #prPage-new and its literal onclick action. The target is unique within its Project Workspace page. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1256,7 +1248,7 @@
       "selector": "#prPage-detail .pr-detail-actions > button[onclick=\"prEditCurrent()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R57_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the control to #prPage-detail and its literal onclick action. The target is unique within its Project Workspace page. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1270,7 +1262,7 @@
       "selector": "#prCompleteToggle",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -1284,7 +1276,7 @@
       "selector": "#prPage-detail .pr-detail-actions > button[onclick=\"prDeleteCurrent()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R57_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the control to #prPage-detail and its literal onclick action. The target is unique within its Project Workspace page. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1298,7 +1290,7 @@
       "selector": "#prDetailProfitReportButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -1424,7 +1416,7 @@
       "selector": "#prPage-partners .pr-actions > button[onclick=\"prSavePerson('partner')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R57_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the control to #prPage-partners and its literal onclick action. The target is unique within its Project Workspace page. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1438,7 +1430,7 @@
       "selector": "#prPage-partners .pr-actions > button[onclick=\"prResetPerson('partner')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -1452,7 +1444,7 @@
       "selector": "#prPage-contractors .pr-actions > button[onclick=\"prSaveContractor()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R57_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the control to #prPage-contractors and its literal onclick action. The target is unique within its Project Workspace page. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1480,7 +1472,7 @@
       "selector": "#prPage-workers .pr-actions > button[onclick=\"prSavePerson('worker')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R57_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the control to #prPage-workers and its literal onclick action. The target is unique within its Project Workspace page. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1494,7 +1486,7 @@
       "selector": "#prPage-workers .pr-actions > button[onclick=\"prResetPerson('worker')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -1550,7 +1542,7 @@
       "selector": "#prPage-company-hub .pr-list > button[onclick=\"coOpenCompanyMode('add')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R58_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #prPage-company-hub and its literal onclick value. This distinguishes the Company Contracts & Jobs workflow from Accounting and identifies the exact form action. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1564,7 +1556,7 @@
       "selector": "#prPage-company-hub .pr-list > button[onclick=\"coOpenCompanyMode('list')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R58_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #prPage-company-hub and its literal onclick value. This distinguishes the Company Contracts & Jobs workflow from Accounting and identifies the exact form action. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1578,7 +1570,7 @@
       "selector": "#prPage-company-hub .pr-list > button[onclick=\"prPage('company-profit')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R58_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #prPage-company-hub and its literal onclick value. This distinguishes the Company Contracts & Jobs workflow from Accounting and identifies the exact form action. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1592,7 +1584,7 @@
       "selector": "#prPage-company-hub .co-actions > button[onclick=\"coSaveCompany()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R58_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #prPage-company-hub and its literal onclick value. This distinguishes the Company Contracts & Jobs workflow from Accounting and identifies the exact form action. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1606,7 +1598,7 @@
       "selector": "#prPage-company-hub .co-actions > button[onclick=\"coResetCompany()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R58_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #prPage-company-hub and its literal onclick value. This distinguishes the Company Contracts & Jobs workflow from Accounting and identifies the exact form action. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1620,7 +1612,7 @@
       "selector": "#prPage-company-hub .co-actions > button[onclick=\"coSaveJob()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R58_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #prPage-company-hub and its literal onclick value. This distinguishes the Company Contracts & Jobs workflow from Accounting and identifies the exact form action. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1634,7 +1626,7 @@
       "selector": "#prPage-company-hub .co-actions > button[onclick=\"coResetJob()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R58_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #prPage-company-hub and its literal onclick value. This distinguishes the Company Contracts & Jobs workflow from Accounting and identifies the exact form action. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1648,7 +1640,7 @@
       "selector": "#prPage-company-hub .co-actions > button[onclick=\"coSaveSub()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R58_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #prPage-company-hub and its literal onclick value. This distinguishes the Company Contracts & Jobs workflow from Accounting and identifies the exact form action. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1676,7 +1668,7 @@
       "selector": "#prPage-company-hub #coPackageFinance .co-actions > button[onclick=\"coAddPackageExpense()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R58_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #coPackageFinance and its literal onclick value. This distinguishes the Company Contracts & Jobs workflow from Accounting and identifies the exact form action. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1690,7 +1682,7 @@
       "selector": "#prPage-company-hub #coPaymentArea .co-actions > button[onclick=\"coRecordPayment()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R58_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #coPaymentArea and its literal onclick value. This distinguishes the Company Contracts & Jobs workflow from Accounting and identifies the exact form action. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1704,7 +1696,7 @@
       "selector": "#invoicePaidModal .invoice-paid-actions > button[onclick=\"confirmInvoicePaid()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R58_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "Exact selector scopes the action to #invoicePaidModal and its literal onclick value. This distinguishes the Company Contracts & Jobs workflow from Accounting and identifies the exact form action. Runtime attachment is source-level only pending live Preview verification."
     },
     {
@@ -1732,7 +1724,7 @@
       "selector": "[data-help-id=\"THA-HLP-0120\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -1802,7 +1794,7 @@
       "selector": "[data-help-id=\"THA-HLP-0125\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -1830,7 +1822,7 @@
       "selector": "[data-help-id=\"THA-HLP-0127\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -1844,7 +1836,7 @@
       "selector": "[data-help-id=\"THA-HLP-0128\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {
@@ -1886,7 +1878,7 @@
       "selector": "[data-help-id=\"THA-HLP-0131\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
       "rationale": "R52 displays a separate adjacent ? button for this mapped specialist control. Its Help ID resolves through an explicit scoped selector or exact dynamic-template attribute. Browser layout and interaction verification remain pending."
     },
     {

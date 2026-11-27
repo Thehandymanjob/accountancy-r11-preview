@@ -723,6 +723,16 @@
 - **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ بازشدن مقصد صحیح، نمایش راهنمای مربوط، انتخاب زبان و چیدمان موبایل باید در Preview بررسی شوند.
 - **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
 
+
+#### بازنگری R60 — همگام‌سازی Version Authority پس از اتصال منوی اصلی
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001.
+- **دامنه نسخه:** R60 شامل ۹۰ اتصال راهنمای زمینه‌ای است: ۸۵ کنترل ایستا و ۵ کنترل پویا؛ ده مقصد منوی اصلی و صفحه Accountancy نیز در همین Build اضافه شدند.
+- **اصلاح Authority:** Build ID، canonical URL، SHA فایل index و pin فایل Runtime در `VERSION-AUTHORITY.json` با فایل‌های واقعی R60 همگام شدند. Mapping نیز به SHAهای واقعی index و runtime متصل شد.
+- **Gate:** نتیجه Gate برای Commit همگام‌سازی جدید باید بررسی شود؛ چند اجرای قبلی R60 به دلیل mismatch پیش از همگام‌سازی شکست خورده بودند.
+- **تست واقعی مرورگر / انتشار:** انجام نشده؛ PR #96 Draft است و هیچ Preview deploy یا Production change انجام نشده است.
+
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
 - **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Implemented on Preview development; the latest R45 Version Authority Gate passed after native-HTML fail-closed hardening (run 46053038295). Pages deployment and iPhone Safari verification remain pending.
