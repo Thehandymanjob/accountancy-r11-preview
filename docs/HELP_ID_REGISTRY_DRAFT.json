@@ -15062,9 +15062,9 @@
         "en": {
           "purpose": "Print or save the current project view as a PDF.",
           "when": "Use this control when you need a printed or PDF copy of the current project view.",
-          "how": "Select Print / Save PDF and use the browser’s print dialog to print or save a PDF.",
+          "how": "Select Print / Save PDF and use the browser's print dialog to print or save a PDF.",
           "inputs": "Select the correct project view and check the content you intend to print or save.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "result": "The browser print dialog opens so you can print the view or save it as a PDF.",
           "notes": "Check the page range, orientation and project details before printing."
         },
         "fa": {
@@ -15072,56 +15072,56 @@
           "when": "وقتی به نسخه چاپی یا PDF از نمای فعلی پروژه نیاز دارید، از این گزینه استفاده کنید.",
           "how": "Print / Save PDF را انتخاب کنید و از پنجره چاپ مرورگر برای چاپ یا ذخیره PDF استفاده کنید.",
           "inputs": "نمای درست پروژه را انتخاب کنید و محتوایی را که می‌خواهید چاپ یا ذخیره کنید بررسی کنید.",
-          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "result": "پنجره چاپ مرورگر باز می‌شود تا بتوانید نما را چاپ یا به‌صورت PDF ذخیره کنید.",
           "notes": "پیش از چاپ، محدوده صفحات، جهت کاغذ و جزئیات پروژه را بررسی کنید."
         },
         "ar": {
           "purpose": "يطبع عرض المشروع الحالي أو يحفظه بصيغة PDF.",
           "when": "عندما تحتاج إلى نسخة مطبوعة أو PDF من عرض المشروع الحالي.",
-          "how": "اختر Print / Save PDF واستخدم نافذة الطباعة في المتصفح للطباعة أو حفظ ملف PDF.",
+          "how": "اختر Print / Save PDF واستخدم مربع الطباعة في المتصفح للطباعة أو حفظ ملف PDF.",
           "inputs": "حدد عرض المشروع الصحيح وراجع المحتوى الذي تريد طباعته أو حفظه.",
-          "result": "يفتح المتصفح خيارات الطباعة أو حفظ العرض كملف PDF.",
+          "result": "يفتح مربع الطباعة لتتمكن من طباعة العرض أو حفظه كملف PDF.",
           "notes": "تحقق من نطاق الصفحات واتجاه الورق وتفاصيل المشروع قبل الطباعة."
         },
         "ckb": {
-          "purpose": "نمای پرۆژەی ئێستا چاپ دەکات یان بە PDF پاشەکەوتی دەکات.",
+          "purpose": "نمای ئێستای پرۆژە چاپ دەکات یان بە PDF پاشەکەوتی دەکات.",
           "when": "کاتێک پێویستت بە کۆپیی چاپکراو یان PDFی نمای ئێستای پرۆژە هەیە.",
           "how": "Print / Save PDF هەڵبژێرە و پەنجەرەی چاپی وێبگەڕ بەکاربهێنە بۆ چاپکردن یان پاشەکەوتکردنی PDF.",
-          "inputs": "نمای دروستی پرۆژە هەڵبژێرە و ناوەڕۆکی مەبەستت بۆ چاپکردن یان پاشەکەوتکردن بپشکنە.",
-          "result": "وێبگەڕ هەڵبژاردەکانی چاپکردن یان پاشەکەوتکردنی نماکە وەک PDF دەکاتەوە.",
-          "notes": "پێش چاپکردن مەودای پەڕەکان، ئاراستەی کاغەز و وردەکارییەکانی پرۆژە بپشکنە."
+          "inputs": "نمای دروستی پرۆژە هەڵبژێرە و ناوەڕۆکی مەبەستی چاپکردن یان پاشەکەوتکردن بپشکنە.",
+          "result": "پەنجەرەی چاپ دەکرێتەوە بۆ ئەوەی بتوانیت نماکە چاپ بکەیت یان وەک PDF پاشەکەوتی بکەیت.",
+          "notes": "پێش چاپکردن مەودای لاپەڕەکان، ئاراستەی کاغەز و وردەکارییەکانی پرۆژە بپشکنە."
         },
         "kmr": {
           "purpose": "Dîtina projeya niha çap dike an wekî PDF tomar dike.",
           "when": "Dema ku tu hewceyî kopiyeke çapkirî an PDF ya dîtina projeya niha yî.",
-          "how": "Print / Save PDF hilbijêre û pencereya çapkirina gerokê bikar bîne da ku çap bike an PDF tomar bike.",
+          "how": "Print / Save PDF hilbijêre û paceya çapkirina gerokê bikar bîne da ku çap bike an PDF tomar bike.",
           "inputs": "Dîtina projeya rast hilbijêre û naveroka ku dixwazî çap bikî an tomar bikî kontrol bike.",
-          "result": "Gerok vebijarkên çapkirinê an tomarkirina dîtinê wekî PDF vedike.",
+          "result": "Paceya çapkirinê vedibe da ku tu dikarî dîtinê çap bikî an wekî PDF tomar bikî.",
           "notes": "Berî çapkirinê qada rûpelan, arasteya kaxezê û hûrguliyên projeyê kontrol bike."
         },
         "tr": {
           "purpose": "Geçerli proje görünümünü yazdırır veya PDF olarak kaydeder.",
-          "when": "Geçerli proje görünümünün yazdırılmış veya PDF kopyasına ihtiyaç duyduğunuzda kullanın.",
-          "how": "Print / Save PDF'yi seçin ve PDF yazdırmak veya kaydetmek için tarayıcının yazdırma penceresini kullanın.",
+          "when": "Geçerli proje görünümünün basılı veya PDF kopyasına ihtiyaç duyduğunuzda kullanın.",
+          "how": "Print / Save PDF'yi seçin ve yazdırmak veya PDF kaydetmek için tarayıcının yazdırma iletişim kutusunu kullanın.",
           "inputs": "Doğru proje görünümünü seçin ve yazdırmak veya kaydetmek istediğiniz içeriği kontrol edin.",
-          "result": "Tarayıcı, görünümü yazdırma veya PDF olarak kaydetme seçeneklerini açar.",
-          "notes": "Yazdırmadan önce sayfa aralığını, kâğıt yönünü ve proje ayrıntılarını kontrol edin."
+          "result": "Yazdırma iletişim kutusu açılır; görünümü yazdırabilir veya PDF olarak kaydedebilirsiniz.",
+          "notes": "Yazdırmadan önce sayfa aralığını, yönünü ve proje ayrıntılarını kontrol edin."
         },
         "pl": {
           "purpose": "Drukuje bieżący widok projektu lub zapisuje go jako PDF.",
           "when": "Użyj, gdy potrzebujesz wydrukowanej lub zapisanej w PDF kopii bieżącego widoku projektu.",
           "how": "Wybierz Print / Save PDF i użyj okna drukowania przeglądarki, aby wydrukować lub zapisać PDF.",
-          "inputs": "Wybierz właściwy widok projektu i sprawdź treść, którą chcesz wydrukować lub zapisać.",
-          "result": "Przeglądarka otworzy opcje drukowania lub zapisania widoku jako PDF.",
-          "notes": "Przed drukowaniem sprawdź zakres stron, orientację papieru i szczegóły projektu."
+          "inputs": "Wybierz właściwy widok projektu i sprawdź treść przeznaczoną do wydruku lub zapisania.",
+          "result": "Otworzy się okno drukowania, w którym można wydrukować widok lub zapisać go jako PDF.",
+          "notes": "Przed drukowaniem sprawdź zakres stron, orientację i szczegóły projektu."
         },
         "ur": {
           "purpose": "موجودہ پروجیکٹ منظر پرنٹ یا PDF کے طور پر محفوظ کرتا ہے۔",
           "when": "جب موجودہ پروجیکٹ منظر کی پرنٹ شدہ یا PDF نقل درکار ہو تو استعمال کریں۔",
-          "how": "Print / Save PDF منتخب کریں اور PDF پرنٹ یا محفوظ کرنے کے لیے براؤزر کا پرنٹ ڈائیلاگ استعمال کریں۔",
-          "inputs": "درست پروجیکٹ منظر منتخب کریں اور وہ مواد چیک کریں جسے پرنٹ یا محفوظ کرنا ہے۔",
-          "result": "براؤزر منظر کو پرنٹ کرنے یا PDF کے طور پر محفوظ کرنے کے اختیارات کھولتا ہے۔",
-          "notes": "پرنٹ سے پہلے صفحات کی حد، کاغذ کی سمت اور پروجیکٹ کی تفصیلات چیک کریں۔"
+          "how": "Print / Save PDF منتخب کریں اور پرنٹ یا PDF محفوظ کرنے کے لیے براؤزر کا پرنٹ ڈائیلاگ استعمال کریں۔",
+          "inputs": "درست پروجیکٹ منظر منتخب کریں اور پرنٹ یا محفوظ کرنے کے لیے مطلوبہ مواد چیک کریں۔",
+          "result": "پرنٹ ڈائیلاگ کھلتا ہے جہاں منظر پرنٹ یا PDF کے طور پر محفوظ کیا جا سکتا ہے۔",
+          "notes": "پرنٹ سے پہلے صفحات کی حد، رخ اور پروجیکٹ کی تفصیلات چیک کریں۔"
         },
         "pa": {
           "purpose": "ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਦ੍ਰਿਸ਼ ਨੂੰ ਪ੍ਰਿੰਟ ਜਾਂ PDF ਵਜੋਂ ਸੇਵ ਕਰਦਾ ਹੈ।",
@@ -15136,16 +15136,16 @@
           "when": "وقتی به نسخه چاپی یا PDF از نمای فعلی پروژه نیاز دارید، استفاده کنید.",
           "how": "Print / Save PDF را انتخاب کنید و از پنجره چاپ مرورگر برای چاپ یا ذخیره PDF استفاده کنید.",
           "inputs": "نمای درست پروژه را انتخاب کنید و محتوایی را که می‌خواهید چاپ یا ذخیره کنید بررسی کنید.",
-          "result": "مرورگر گزینه‌های چاپ یا ذخیره نما به‌صورت PDF را باز می‌کند.",
+          "result": "پنجره چاپ باز می‌شود تا بتوانید نما را چاپ یا به‌صورت PDF ذخیره کنید.",
           "notes": "پیش از چاپ محدوده صفحات، جهت کاغذ و جزئیات پروژه را بررسی کنید."
         },
         "ps": {
           "purpose": "د پروژې اوسنی لید چاپوي یا یې د PDF په توګه خوندي کوي.",
           "when": "کله چې د پروژې د اوسني لید چاپ شوې یا PDF کاپي ته اړتیا لرئ، دا وکاروئ.",
-          "how": "Print / Save PDF وټاکئ او د PDF د چاپ یا خوندي کولو لپاره د براوزر د چاپ کړکۍ وکاروئ.",
+          "how": "Print / Save PDF وټاکئ او د چاپ یا PDF خوندي کولو لپاره د براوزر د چاپ کړکۍ وکاروئ.",
           "inputs": "د پروژې سم لید وټاکئ او هغه منځپانګه وګورئ چې چاپول یا خوندي کول یې غواړئ.",
-          "result": "براوزر د لید د چاپ یا د PDF په توګه د خوندي کولو اختیارونه پرانیزي.",
-          "notes": "له چاپ مخکې د پاڼو ساحه، د کاغذ لوری او د پروژې جزئیات وګورئ."
+          "result": "د چاپ کړکۍ پرانیستل کېږي څو لید چاپ یا د PDF په توګه خوندي کړئ.",
+          "notes": "له چاپ مخکې د پاڼو ساحه، لوری او د پروژې جزئیات وګورئ."
         }
       },
       "handler_or_behavior": "`window.print()`"
@@ -15162,64 +15162,64 @@
           "when": "Use this control when you want to assign a saved worker to the current form or task.",
           "how": "Open Worker List — Choose Worker, then select the intended worker from the displayed list.",
           "inputs": "Select the correct worker and verify the name and displayed contact details.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
-          "notes": "Verify the worker’s name and any displayed contact detail; choosing a worker assigns that person to the current form or task."
+          "result": "The selected worker is assigned to the current form or task.",
+          "notes": "Verify the worker's name and displayed contact detail; choosing a worker assigns that person to the current form or task."
         },
         "fa": {
           "purpose": "انتخاب یک کارگر از فهرست ذخیره‌شده.",
           "when": "وقتی می‌خواهید کارگر ثبت‌شده‌ای را به فرم یا وظیفه فعلی اختصاص دهید، از این گزینه استفاده کنید.",
-          "how": "Worker List — Choose Worker را باز کنید و کارگر موردنظر را از فهرست نمایش‌داده‌شده انتخاب کنید.",
+          "how": "Worker List — Choose Worker را باز کنید و کارگر موردنظر را از فهرست انتخاب کنید.",
           "inputs": "کارگر درست را انتخاب کنید و نام و اطلاعات تماس نمایش‌داده‌شده را بررسی کنید.",
-          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "result": "کارگر انتخاب‌شده به فرم یا وظیفه فعلی اختصاص داده می‌شود.",
           "notes": "نام و اطلاعات تماس نمایش‌داده‌شده را بررسی کنید؛ انتخاب کارگر او را به فرم یا کار فعلی اختصاص می‌دهد."
         },
         "ar": {
-          "purpose": "يختار عاملاً من قائمة العمال المحفوظة.",
+          "purpose": "يتيح اختيار عامل من قائمة العمال المحفوظة.",
           "when": "عندما تريد تعيين عامل محفوظ للنموذج أو المهمة الحالية.",
-          "how": "افتح Worker List — Choose Worker، ثم اختر العامل المطلوب من القائمة المعروضة.",
-          "inputs": "حدد العامل الصحيح وتحقق من الاسم وبيانات الاتصال المعروضة.",
-          "result": "يُعيّن العامل المحدد للنموذج أو المهمة الحالية إذا أكد التطبيق الاختيار.",
-          "notes": "تحقق من اسم العامل وبيانات الاتصال؛ اختيار العامل يربطه بالنموذج أو المهمة الحالية."
+          "how": "افتح Worker List — Choose Worker ثم اختر العامل المطلوب من القائمة المعروضة.",
+          "inputs": "حدد العامل الصحيح وتحقق من اسمه وبيانات الاتصال المعروضة.",
+          "result": "يُعيّن العامل المحدد للنموذج أو المهمة الحالية.",
+          "notes": "تحقق من اسم العامل وبيانات الاتصال قبل الاختيار؛ فهذا الإجراء يربط الشخص بالمهمة الحالية."
         },
         "ckb": {
-          "purpose": "کارمەندێک لە لیستی کارمەندە پاشەکەوتکراوەکان هەڵدەبژێرێت.",
-          "when": "کاتێک دەتەوێت کارمەندێکی پاشەکەوتکراو بۆ فۆڕم یان ئەرکی ئێستا دیاری بکەیت.",
-          "how": "Worker List — Choose Worker بکەرەوە، پاشان کارمەندی مەبەست لە لیستە پیشاندراوەکە هەڵبژێرە.",
-          "inputs": "کارمەندی دروست هەڵبژێرە و ناو و زانیاری پەیوەندی پیشاندراو بپشکنە.",
-          "result": "ئەگەر ئەپەکە هەڵبژاردنەکە پشتڕاست بکاتەوە، کارمەندی هەڵبژێردراو بۆ فۆڕم یان ئەرکی ئێستا دیاری دەکرێت.",
-          "notes": "ناو و زانیاری پەیوەندی کارمەند بپشکنە؛ هەڵبژاردنی کارمەند ئەو کەسە بە فۆڕم یان ئەرکی ئێستا دەبەستێتەوە."
+          "purpose": "ڕێگە بە هەڵبژاردنی کرێکارێک لە پێڕستی کرێکارە پاشەکەوتکراوەکان دەدات.",
+          "when": "کاتێک دەتەوێت کرێکارێکی پاشەکەوتکراو بۆ فۆڕم یان ئەرکی ئێستا دیاری بکەیت.",
+          "how": "Worker List — Choose Worker بکەرەوە و کرێکاری مەبەست لە پێڕستەکە هەڵبژێرە.",
+          "inputs": "کرێکاری دروست هەڵبژێرە و ناو و زانیاری پەیوەندی پیشاندراوەکەی بپشکنە.",
+          "result": "کرێکاری هەڵبژێردراو بۆ فۆڕم یان ئەرکی ئێستا دیاری دەکرێت.",
+          "notes": "پێش هەڵبژاردن ناو و زانیاری پەیوەندی کرێکار بپشکنە؛ ئەم کردارە ئەو کەسە بە ئەرکی ئێستا دەبەستێتەوە."
         },
         "kmr": {
-          "purpose": "Karkerêk ji lîsteya karkerên tomarkirî hilbijêre.",
-          "when": "Dema ku tu dixwazî karkerê tomarkirî ji bo forma an erkê niha destnîşan bikî.",
+          "purpose": "Destûrê dide ku karker ji lîsteya karkerên tomarkirî were hilbijartin.",
+          "when": "Dema ku tu dixwazî karkerê tomarkirî ji bo forma an erkê niha tayîn bikî.",
           "how": "Worker List — Choose Worker veke, paşê karkerê xwestî ji lîsteya nîşandayî hilbijêre.",
           "inputs": "Karkerê rast hilbijêre û nav û agahiyên têkiliyê yên nîşandayî kontrol bike.",
-          "result": "Karkerê hilbijartî ji bo forma an erkê niha tê destnîşankirin heke sepan hilbijartinê piştrast bike.",
-          "notes": "Nav û agahiyên têkiliyê yên karker kontrol bike; hilbijartin wî kesî bi forma an erkê niha ve girêdide."
+          "result": "Karkerê hilbijartî ji bo forma an erkê niha tê tayînkirin.",
+          "notes": "Berî hilbijartinê nav û agahiyên têkiliyê kontrol bike; ev kiryar kesê hilbijartî bi erkê niha ve girêdide."
         },
         "tr": {
-          "purpose": "Kaydedilmiş çalışan listesinden bir çalışan seçer.",
-          "when": "Kaydedilmiş bir çalışanı geçerli forma veya göreve atamak istediğinizde kullanın.",
+          "purpose": "Kayıtlı çalışan listesinden bir çalışan seçmenizi sağlar.",
+          "when": "Kayıtlı bir çalışanı geçerli forma veya göreve atamak istediğinizde kullanın.",
           "how": "Worker List — Choose Worker'ı açın ve görüntülenen listeden ilgili çalışanı seçin.",
-          "inputs": "Doğru çalışanı seçin ve görüntülenen adı ve iletişim bilgilerini doğrulayın.",
-          "result": "Uygulama seçimi onaylarsa seçilen çalışan geçerli forma veya göreve atanır.",
-          "notes": "Çalışanın adını ve iletişim bilgilerini doğrulayın; seçim o kişiyi geçerli form veya göreve atar."
+          "inputs": "Doğru çalışanı seçin ve görünen adını ve iletişim bilgilerini doğrulayın.",
+          "result": "Seçilen çalışan geçerli forma veya göreve atanır.",
+          "notes": "Seçmeden önce çalışan adını ve iletişim bilgilerini doğrulayın; seçim kişiyi geçerli göreve atar."
         },
         "pl": {
-          "purpose": "Wybiera pracownika z zapisanej listy pracowników.",
+          "purpose": "Umożliwia wybór pracownika z zapisanej listy pracowników.",
           "when": "Użyj, gdy chcesz przypisać zapisanego pracownika do bieżącego formularza lub zadania.",
-          "how": "Otwórz Worker List — Choose Worker, a następnie wybierz właściwego pracownika z wyświetlonej listy.",
-          "inputs": "Wybierz właściwego pracownika i sprawdź wyświetloną nazwę oraz dane kontaktowe.",
-          "result": "Wybrany pracownik zostanie przypisany do bieżącego formularza lub zadania, jeśli aplikacja potwierdzi wybór.",
-          "notes": "Sprawdź nazwę i dane kontaktowe pracownika; wybór przypisuje tę osobę do bieżącego formularza lub zadania."
+          "how": "Otwórz Worker List — Choose Worker, a następnie wybierz odpowiedniego pracownika z listy.",
+          "inputs": "Wybierz właściwego pracownika i sprawdź wyświetlone imię oraz dane kontaktowe.",
+          "result": "Wybrany pracownik zostanie przypisany do bieżącego formularza lub zadania.",
+          "notes": "Przed wyborem sprawdź imię i dane kontaktowe pracownika; wybór przypisuje tę osobę do bieżącego zadania."
         },
         "ur": {
-          "purpose": "محفوظ شدہ کارکنوں کی فہرست سے ایک کارکن منتخب کرتا ہے۔",
+          "purpose": "محفوظ شدہ کارکنوں کی فہرست سے کارکن منتخب کرنے دیتا ہے۔",
           "when": "جب محفوظ شدہ کارکن کو موجودہ فارم یا کام کے لیے مقرر کرنا ہو تو استعمال کریں۔",
           "how": "Worker List — Choose Worker کھولیں، پھر دکھائی گئی فہرست سے مطلوبہ کارکن منتخب کریں۔",
-          "inputs": "درست کارکن منتخب کریں اور دکھایا گیا نام اور رابطے کی معلومات چیک کریں۔",
-          "result": "ایپ انتخاب کی تصدیق کرے تو منتخب کارکن موجودہ فارم یا کام کے لیے مقرر ہو جاتا ہے۔",
-          "notes": "کارکن کا نام اور رابطے کی معلومات چیک کریں؛ انتخاب اس شخص کو موجودہ فارم یا کام کے ساتھ منسلک کرتا ہے۔"
+          "inputs": "درست کارکن منتخب کریں اور دکھایا گیا نام اور رابطے کی تفصیلات چیک کریں۔",
+          "result": "منتخب کارکن موجودہ فارم یا کام کے لیے مقرر ہو جاتا ہے۔",
+          "notes": "منتخب کرنے سے پہلے کارکن کا نام اور رابطہ معلومات چیک کریں؛ انتخاب اس شخص کو موجودہ کام سے منسلک کرتا ہے۔"
         },
         "pa": {
           "purpose": "ਸੇਵ ਕੀਤੀ ਕਰਮਚਾਰੀ ਸੂਚੀ ਵਿੱਚੋਂ ਕਰਮਚਾਰੀ ਚੁਣਦਾ ਹੈ।",
@@ -15230,20 +15230,20 @@
           "notes": "ਕਰਮਚਾਰੀ ਦਾ ਨਾਮ ਅਤੇ ਸੰਪਰਕ ਵੇਰਵੇ ਜਾਂਚੋ؛ ਚੋਣ ਉਸ ਵਿਅਕਤੀ ਨੂੰ ਮੌਜੂਦਾ ਫਾਰਮ ਜਾਂ ਕੰਮ ਨਾਲ ਜੋੜਦੀ ਹੈ।"
         },
         "prs": {
-          "purpose": "یک کارگر را از فهرست کارگران ذخیره‌شده انتخاب می‌کند.",
+          "purpose": "امکان انتخاب کارگر از فهرست کارگران ذخیره‌شده را فراهم می‌کند.",
           "when": "وقتی می‌خواهید کارگر ذخیره‌شده‌ای را به فرم یا وظیفه فعلی اختصاص دهید، استفاده کنید.",
-          "how": "Worker List — Choose Worker را باز کنید و سپس کارگر موردنظر را از فهرست نمایش‌داده‌شده انتخاب کنید.",
+          "how": "Worker List — Choose Worker را باز کنید و کارگر موردنظر را از فهرست نمایش‌داده‌شده انتخاب کنید.",
           "inputs": "کارگر درست را انتخاب کنید و نام و اطلاعات تماس نمایش‌داده‌شده را بررسی کنید.",
-          "result": "اگر برنامه انتخاب را تأیید کند، کارگر انتخاب‌شده به فرم یا وظیفه فعلی اختصاص می‌یابد.",
-          "notes": "نام و اطلاعات تماس کارگر را بررسی کنید؛ انتخاب، آن شخص را به فرم یا وظیفه فعلی اختصاص می‌دهد."
+          "result": "کارگر انتخاب‌شده به فرم یا وظیفه فعلی اختصاص داده می‌شود.",
+          "notes": "پیش از انتخاب نام و اطلاعات تماس کارگر را بررسی کنید؛ انتخاب، آن شخص را به وظیفه فعلی اختصاص می‌دهد."
         },
         "ps": {
-          "purpose": "له خوندي شوي کاريګر لېست څخه یو کارګر ټاکي.",
-          "when": "کله چې خوندي شوی کارګر اوسني فورم یا دندې ته ټاکل غواړئ، دا وکاروئ.",
-          "how": "Worker List — Choose Worker پرانیزئ، بیا له ښکاره شوي لېست څخه مطلوب کارګر وټاکئ.",
-          "inputs": "سم کارګر وټاکئ او ښکاره شوی نوم او د اړیکې معلومات وګورئ.",
-          "result": "که اپلیکیشن ټاکنه تایید کړي، ټاکل شوی کارګر اوسني فورم یا دندې ته ګومارل کېږي.",
-          "notes": "د کارګر نوم او د اړیکې معلومات وګورئ؛ ټاکنه هغه کس له اوسني فورم یا دندې سره تړي."
+          "purpose": "د خوندي شوو کارکوونکو له لېست څخه د کارکوونکي د ټاکلو اجازه ورکوي.",
+          "when": "کله چې خوندي شوی کارکوونکی اوسني فورم یا دندې ته ټاکل غواړئ، دا وکاروئ.",
+          "how": "Worker List — Choose Worker پرانیزئ، بیا له ښکاره شوي لېست څخه مطلوب کارکوونکی وټاکئ.",
+          "inputs": "سم کارکوونکی وټاکئ او ښکاره شوی نوم او د اړیکې معلومات یې وګورئ.",
+          "result": "ټاکل شوی کارکوونکی اوسني فورم یا دندې ته ټاکل کېږي.",
+          "notes": "له ټاکلو مخکې د کارکوونکي نوم او د اړیکې معلومات وګورئ؛ ټاکنه هغه کس له اوسنۍ دندې سره تړي."
         }
       },
       "handler_or_behavior": "`prOpenWorkerListPicker()`"
@@ -15260,7 +15260,7 @@
           "when": "Use this control after entering and checking the details for a project record or row.",
           "how": "Complete the required fields and select Record to save the entry.",
           "inputs": "Select the correct project record and enter the required date, amount, worker and description.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "result": "The entry is saved if validation succeeds and the app confirms the action.",
           "notes": "Check date, amount, worker and description as applicable. Do not assume the entry saved until the app confirms it."
         },
         "fa": {
@@ -15268,37 +15268,37 @@
           "when": "پس از واردکردن و بررسی اطلاعات سابقه یا ردیف پروژه، از این گزینه استفاده کنید.",
           "how": "فیلدهای لازم را تکمیل و Record را انتخاب کنید تا اطلاعات ثبت شود.",
           "inputs": "سابقه درست پروژه را انتخاب کنید و جزئیات لازم مانند تاریخ، مبلغ، کارگر و شرح را وارد کنید.",
-          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد ذخیره می‌شود.",
           "notes": "تاریخ، مبلغ، کارگر و شرح را در صورت کاربرد بررسی کنید. تا نمایش پیام تأیید، ذخیره‌شدن را قطعی فرض نکنید."
         },
         "ar": {
-          "purpose": "يحفظ سجل المشروع أو الصف الحالي.",
-          "when": "بعد إدخال تفاصيل سجل المشروع أو الصف ومراجعتها.",
+          "purpose": "يحفظ سجل المشروع أو صفه الحالي.",
+          "when": "بعد إدخال تفاصيل سجل المشروع أو صفه ومراجعتها.",
           "how": "أكمل الحقول المطلوبة واختر Record لحفظ الإدخال.",
           "inputs": "حدد سجل المشروع الصحيح وأدخل التاريخ والمبلغ والعامل والوصف المطلوب.",
           "result": "يُحفظ السجل إذا نجح التحقق وأكد التطبيق العملية.",
-          "notes": "تحقق من التاريخ والمبلغ والعامل والوصف حسب الحاجة. لا تفترض الحفظ حتى يؤكده التطبيق."
+          "notes": "راجع التاريخ والمبلغ والعامل والوصف عند الاقتضاء. لا تفترض الحفظ حتى يؤكده التطبيق."
         },
         "ckb": {
-          "purpose": "تۆماری پرۆژە یان ڕیزی ئێستا پاشەکەوت دەکات.",
+          "purpose": "تۆمار یان ڕیزی ئێستای پرۆژە پاشەکەوت دەکات.",
           "when": "دوای داخڵکردن و پشکنینی وردەکارییەکانی تۆمار یان ڕیزی پرۆژە.",
           "how": "خانە پێویستەکان پڕ بکەرەوە و Record هەڵبژێرە بۆ پاشەکەوتکردنی داخڵکراوەکە.",
-          "inputs": "تۆماری دروستی پرۆژە هەڵبژێرە و بەروار، بڕ، کارمەند و وەسفی پێویست بنووسە.",
+          "inputs": "تۆماری دروستی پرۆژە هەڵبژێرە و بەروار، بڕ، کرێکار و وەسفی پێویست بنووسە.",
           "result": "ئەگەر پشتڕاستکردنەوە سەرکەوتوو بێت و ئەپەکە کردارەکە پشتڕاست بکاتەوە، تۆمارەکە پاشەکەوت دەکرێت.",
-          "notes": "بەروار، بڕ، کارمەند و وەسف بەپێی پێویستی بپشکنە. تا ئەپەکە پشتڕاستی نەکردووەتەوە، وا مەزانە پاشەکەوت بووە."
+          "notes": "بەروار، بڕ، کرێکار و وەسف بپشکنە. تا ئەپەکە پشتڕاستی نەکردووەتەوە دڵنیابە مەبە لە پاشەکەوتکردن."
         },
         "kmr": {
-          "purpose": "Tomar an rêza projeya niha tomar dike.",
+          "purpose": "Tomar an rêza niha ya projeyê tomar dike.",
           "when": "Piştî têketin û kontrolkirina hûrguliyên tomara an rêza projeyê.",
           "how": "Qadên pêwîst dagire û Record hilbijêre da ku têketinê tomar bike.",
-          "inputs": "Tomara projeya rast hilbijêre û dîrok, mîqdar, karker û danasîna pêwîst binivîse.",
+          "inputs": "Tomara projeya rast hilbijêre û dîrok, mîqdar, karker û ravekirina pêwîst binivîse.",
           "result": "Tomar tê tomar kirin heke kontrol serkeftî be û sepan kiryarê piştrast bike.",
-          "notes": "Dîrok, mîqdar, karker û danasînê li gorî pêwîstiyê kontrol bike. Heta sepan piştrast neke, texmîn neke ku tomar bûye."
+          "notes": "Dîrok, mîqdar, karker û ravekirin kontrol bike. Heta sepan piştrast neke ku tomar bûye, pê bawer neke."
         },
         "tr": {
           "purpose": "Geçerli proje kaydını veya satırını kaydeder.",
-          "when": "Bir proje kaydının veya satırının ayrıntılarını girdikten ve kontrol ettikten sonra kullanın.",
-          "how": "Gerekli alanları doldurun ve girişi kaydetmek için Record'u seçin.",
+          "when": "Bir proje kaydı veya satırının ayrıntılarını girdikten ve kontrol ettikten sonra kullanın.",
+          "how": "Gerekli alanları doldurun ve girdiyi kaydetmek için Record'u seçin.",
           "inputs": "Doğru proje kaydını seçin ve gerekli tarih, tutar, çalışan ve açıklamayı girin.",
           "result": "Doğrulama başarılı olur ve uygulama onaylarsa kayıt kaydedilir.",
           "notes": "Uygun olduğunda tarih, tutar, çalışan ve açıklamayı kontrol edin. Uygulama onaylamadan kaydedildiğini varsaymayın."
@@ -15307,17 +15307,17 @@
           "purpose": "Zapisuje bieżący rekord lub wiersz projektu.",
           "when": "Użyj po wprowadzeniu i sprawdzeniu szczegółów rekordu lub wiersza projektu.",
           "how": "Wypełnij wymagane pola i wybierz Record, aby zapisać wpis.",
-          "inputs": "Wybierz właściwy rekord projektu i wprowadź wymaganą datę, kwotę, pracownika oraz opis.",
+          "inputs": "Wybierz właściwy rekord projektu i podaj wymaganą datę, kwotę, pracownika oraz opis.",
           "result": "Rekord zostanie zapisany, jeśli walidacja się powiedzie i aplikacja potwierdzi operację.",
           "notes": "W razie potrzeby sprawdź datę, kwotę, pracownika i opis. Nie zakładaj, że wpis został zapisany, dopóki aplikacja tego nie potwierdzi."
         },
         "ur": {
           "purpose": "موجودہ پروجیکٹ ریکارڈ یا قطار محفوظ کرتا ہے۔",
           "when": "پروجیکٹ ریکارڈ یا قطار کی تفصیلات درج اور چیک کرنے کے بعد استعمال کریں۔",
-          "how": "ضروری خانے مکمل کریں اور اندراج محفوظ کرنے کے لیے Record منتخب کریں۔",
-          "inputs": "درست پروجیکٹ ریکارڈ منتخب کریں اور مطلوبہ تاریخ، رقم، کارکن اور تفصیل درج کریں۔",
+          "how": "مطلوبہ خانے مکمل کریں اور اندراج محفوظ کرنے کے لیے Record منتخب کریں۔",
+          "inputs": "درست پروجیکٹ ریکارڈ منتخب کریں اور مطلوبہ تاریخ، رقم، کارکن اور وضاحت درج کریں۔",
           "result": "توثیق کامیاب ہو اور ایپ تصدیق کرے تو ریکارڈ محفوظ ہو جاتا ہے۔",
-          "notes": "ضرورت کے مطابق تاریخ، رقم، کارکن اور تفصیل چیک کریں۔ ایپ کی تصدیق کے بغیر محفوظ ہونے کا یقین نہ کریں۔"
+          "notes": "ضرورت کے مطابق تاریخ، رقم، کارکن اور وضاحت چیک کریں۔ ایپ کی تصدیق سے پہلے محفوظ ہونے کا یقین نہ کریں۔"
         },
         "pa": {
           "purpose": "ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਜਾਂ ਕਤਾਰ ਸੇਵ ਕਰਦਾ ਹੈ।",
@@ -15333,15 +15333,15 @@
           "how": "فیلدهای لازم را تکمیل کنید و برای ذخیره ورودی Record را انتخاب کنید.",
           "inputs": "سابقه درست پروژه را انتخاب کنید و تاریخ، مبلغ، کارگر و شرح لازم را وارد کنید.",
           "result": "اگر اعتبارسنجی موفق باشد و برنامه عملیات را تأیید کند، سابقه ذخیره می‌شود.",
-          "notes": "در صورت کاربرد تاریخ، مبلغ، کارگر و شرح را بررسی کنید. تا زمانی که برنامه تأیید نکرده، ذخیره‌شدن را قطعی ندانید."
+          "notes": "در صورت کاربرد تاریخ، مبلغ، کارگر و شرح را بررسی کنید. تا تأیید برنامه فرض نکنید ورودی ذخیره شده است."
         },
         "ps": {
           "purpose": "د پروژې اوسنی ریکارډ یا قطار خوندي کوي.",
           "when": "د پروژې د ریکارډ یا قطار د جزئیاتو له داخلولو او کتلو وروسته دا وکاروئ.",
-          "how": "اړینې خانې ډکې کړئ او د داخلې د خوندي کولو لپاره Record وټاکئ.",
-          "inputs": "د پروژې سم ریکارډ وټاکئ او اړینه نېټه، اندازه، کارګر او تشریح ولیکئ.",
+          "how": "اړینې خانې ډکې کړئ او د ثبت د خوندي کولو لپاره Record وټاکئ.",
+          "inputs": "د پروژې سم ریکارډ وټاکئ او اړینه نېټه، اندازه، کارکوونکی او تشریح ولیکئ.",
           "result": "که ارزونه بریالۍ شي او اپلیکیشن کړنه تایید کړي، ریکارډ خوندي کېږي.",
-          "notes": "د اړتیا له مخې نېټه، اندازه، کارګر او تشریح وګورئ. تر څو اپلیکیشن تایید نه وي کړی، د خوندي کېدو ګومان مه کوئ."
+          "notes": "د اړتیا له مخې نېټه، اندازه، کارکوونکی او تشریح وګورئ. د اپلیکیشن تر تایید مخکې د خوندي کېدو ګومان مه کوئ."
         }
       },
       "handler_or_behavior": "`prSaveRow(`"
@@ -15358,7 +15358,7 @@
           "when": "Use this control when you want to reset the fields in the current unsaved form.",
           "how": "Select Clear to reset the fields in the current unsaved form.",
           "inputs": "Review the current fields and copy any unsaved information that you need to keep.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The form fields are cleared; previously saved project records are unchanged.",
           "notes": "This clears the form, not previously saved project records. Copy any details you still need before clearing."
         },
         "fa": {
@@ -15366,56 +15366,56 @@
           "when": "وقتی می‌خواهید فیلدهای فرم فعلی و ذخیره‌نشده را بازنشانی کنید، از این گزینه استفاده کنید.",
           "how": "گزینه Clear را انتخاب کنید تا فیلدهای فرم ثبت‌نشده بازنشانی شوند.",
           "inputs": "فیلدهای فعلی را بررسی کنید و اطلاعات ذخیره‌نشده‌ای را که لازم دارید کپی کنید.",
-          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "result": "فیلدهای فرم پاک می‌شوند؛ رکوردهای ذخیره‌شده قبلی پروژه تغییر نمی‌کنند.",
           "notes": "این گزینه فرم را پاک می‌کند، نه رکوردهای ذخیره‌شده قبلی را. اطلاعات لازم را پیش از پاک‌کردن بردارید."
         },
         "ar": {
           "purpose": "يمسح نموذج سجل المشروع الحالي.",
-          "when": "عندما تريد إعادة ضبط الحقول في النموذج الحالي غير المحفوظ.",
+          "when": "عندما تريد إعادة ضبط حقول النموذج الحالي غير المحفوظ.",
           "how": "اختر Clear لإعادة ضبط حقول النموذج الحالي غير المحفوظ.",
           "inputs": "راجع الحقول الحالية وانسخ أي معلومات غير محفوظة تريد الاحتفاظ بها.",
-          "result": "تُمسح حقول النموذج الحالي ويُعاد ضبطه.",
-          "notes": "هذا يمسح النموذج ولا يحذف سجلات المشروع المحفوظة سابقاً. انسخ التفاصيل التي تحتاجها قبل المسح."
+          "result": "تُمسح حقول النموذج الحالي دون تغيير السجلات المحفوظة مسبقاً.",
+          "notes": "هذا الإجراء يمسح النموذج فقط، ولا يحذف سجلات المشروع المحفوظة. انسخ التفاصيل اللازمة قبل المسح."
         },
         "ckb": {
           "purpose": "فۆڕمی تۆماری ئێستای پرۆژە پاک دەکاتەوە.",
-          "when": "کاتێک دەتەوێت خانەکانی فۆڕمی ئێستای نەپاشەکەوتکراو ڕێکبخەیتەوە.",
-          "how": "Clear هەڵبژێرە بۆ ڕێکخستنەوەی خانەکانی فۆڕمی ئێستای نەپاشەکەوتکراو.",
+          "when": "کاتێک دەتەوێت خانەکانی فۆڕمی نەپاشەکەوتکراوی ئێستا ڕێکبخەیتەوە.",
+          "how": "Clear هەڵبژێرە بۆ ڕێکخستنەوەی خانەکانی فۆڕمی نەپاشەکەوتکراوی ئێستا.",
           "inputs": "خانەکانی ئێستا بپشکنە و هەر زانیارییەکی نەپاشەکەوتکراو کە پێویستتە کۆپی بکە.",
-          "result": "خانەکانی فۆڕمی ئێستا پاک دەکرێنەوە و فۆڕمەکە ڕێکدەخرێتەوە.",
-          "notes": "ئەمە فۆڕم پاک دەکاتەوە، نەک تۆمارە پاشەکەوتکراوەکانی پرۆژە. پێش پاککردنەوە وردەکاریی پێویست کۆپی بکە."
+          "result": "خانەکانی فۆڕم پاک دەکرێنەوە، بەبێ گۆڕینی تۆمارە پاشەکەوتکراوەکانی پێشوو.",
+          "notes": "ئەمە تەنها فۆڕم پاک دەکاتەوە و تۆمارە پاشەکەوتکراوەکان ناسڕێتەوە. پێش پاککردنەوە وردەکاریی پێویست کۆپی بکە."
         },
         "kmr": {
           "purpose": "Forma tomara projeya niha paqij dike.",
           "when": "Dema ku tu dixwazî qadên forma niha ya netomarkirî ji nû ve saz bikî.",
-          "how": "Clear hilbijêre da ku qadên forma niha ya netomarkirî ji nû ve saz bike.",
-          "inputs": "Qadên niha kontrol bike û agahiyên netomarkirî yên ku dixwazî biparêzî kopî bike.",
-          "result": "Qadên forma niha tên paqijkirin û form ji nû ve tê saz kirin.",
-          "notes": "Ev formê paqij dike, ne tomarên projeyê yên berê tomarkirî. Berî paqijkirinê hûrguliyên pêwîst kopî bike."
+          "how": "Clear hilbijêre da ku qadên forma niha ya netomarkirî vegerîne rewşa destpêkê.",
+          "inputs": "Qadên niha kontrol bike û her agahiya netomarkirî ya ku pêwîst e kopî bike.",
+          "result": "Qadên formê tên paqijkirin, bêyî guherandina tomarên berê yên tomarkirî.",
+          "notes": "Ev tenê formê paqij dike, ne tomarên tomarkirî. Berî paqijkirinê hûrguliyên pêwîst kopî bike."
         },
         "tr": {
           "purpose": "Geçerli proje kayıt formunu temizler.",
-          "when": "Geçerli kaydedilmemiş formdaki alanları sıfırlamak istediğinizde kullanın.",
-          "how": "Geçerli kaydedilmemiş formun alanlarını sıfırlamak için Clear'ı seçin.",
-          "inputs": "Geçerli alanları gözden geçirin ve saklamanız gereken kaydedilmemiş bilgileri kopyalayın.",
-          "result": "Form alanları temizlenir ve form sıfırlanır.",
-          "notes": "Bu işlem formu temizler, daha önce kaydedilmiş proje kayıtlarını silmez. Temizlemeden önce gereken ayrıntıları kopyalayın."
+          "when": "Kaydedilmemiş geçerli formdaki alanları sıfırlamak istediğinizde kullanın.",
+          "how": "Kaydedilmemiş geçerli formun alanlarını sıfırlamak için Clear'ı seçin.",
+          "inputs": "Geçerli alanları inceleyin ve saklamak istediğiniz kaydedilmemiş bilgileri kopyalayın.",
+          "result": "Form alanları temizlenir; daha önce kaydedilmiş proje kayıtları değişmez.",
+          "notes": "Bu işlem formu temizler, daha önce kaydedilmiş proje kayıtlarını silmez. Temizlemeden önce gerekli ayrıntıları kopyalayın."
         },
         "pl": {
           "purpose": "Czyści bieżący formularz rekordu projektu.",
-          "when": "Użyj, gdy chcesz zresetować pola w bieżącym niezapisanym formularzu.",
-          "how": "Wybierz Clear, aby zresetować pola bieżącego niezapisanego formularza.",
-          "inputs": "Sprawdź bieżące pola i skopiuj wszystkie niezapisane informacje, które chcesz zachować.",
-          "result": "Pola formularza zostaną wyczyszczone, a formularz zresetowany.",
-          "notes": "Ta czynność czyści formularz, a nie wcześniej zapisane rekordy projektu. Przed wyczyszczeniem skopiuj potrzebne szczegóły."
+          "when": "Użyj, gdy chcesz zresetować pola w bieżącym, niezapisanym formularzu.",
+          "how": "Wybierz Clear, aby zresetować pola bieżącego, niezapisanego formularza.",
+          "inputs": "Sprawdź bieżące pola i skopiuj niezapisane informacje, które chcesz zachować.",
+          "result": "Pola formularza zostaną wyczyszczone; wcześniej zapisane rekordy projektu nie zostaną zmienione.",
+          "notes": "Ta czynność czyści formularz, a nie wcześniej zapisane rekordy projektu. Przed wyczyszczeniem skopiuj potrzebne dane."
         },
         "ur": {
           "purpose": "موجودہ پروجیکٹ ریکارڈ فارم صاف کرتا ہے۔",
           "when": "جب موجودہ غیر محفوظ شدہ فارم کے خانے دوبارہ ترتیب دینے ہوں تو استعمال کریں۔",
           "how": "موجودہ غیر محفوظ شدہ فارم کے خانے ری سیٹ کرنے کے لیے Clear منتخب کریں۔",
-          "inputs": "موجودہ خانے دیکھیں اور وہ غیر محفوظ شدہ معلومات نقل کریں جنہیں رکھنا ضروری ہے۔",
-          "result": "فارم کے خانے صاف ہو جاتے ہیں اور فارم ری سیٹ ہو جاتا ہے۔",
-          "notes": "یہ فارم صاف کرتا ہے، پہلے سے محفوظ شدہ پروجیکٹ ریکارڈ حذف نہیں کرتا۔ صاف کرنے سے پہلے ضروری تفصیلات نقل کریں۔"
+          "inputs": "موجودہ خانے دیکھیں اور وہ غیر محفوظ شدہ معلومات نقل کریں جنہیں رکھنا چاہتے ہیں۔",
+          "result": "فارم کے خانے صاف ہو جاتے ہیں؛ پہلے سے محفوظ پروجیکٹ ریکارڈ تبدیل نہیں ہوتے۔",
+          "notes": "یہ فارم صاف کرتا ہے، پہلے سے محفوظ پروجیکٹ ریکارڈ حذف نہیں کرتا۔ ضروری تفصیلات پہلے نقل کریں۔"
         },
         "pa": {
           "purpose": "ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਫਾਰਮ ਸਾਫ਼ ਕਰਦਾ ਹੈ।",
@@ -15426,20 +15426,20 @@
           "notes": "ਇਹ ਫਾਰਮ ਸਾਫ਼ ਕਰਦਾ ਹੈ، ਪਹਿਲਾਂ ਸੇਵ ਕੀਤੇ ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਨਹੀਂ ਮਿਟਾਉਂਦਾ। ਸਾਫ਼ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਲੋੜੀਂਦੇ ਵੇਰਵੇ ਕਾਪੀ ਕਰੋ۔"
         },
         "prs": {
-          "purpose": "فرم ثبت سابقه فعلی پروژه را پاک می‌کند.",
-          "when": "وقتی می‌خواهید فیلدهای فرم فعلی ذخیره‌نشده را بازنشانی کنید، استفاده کنید.",
-          "how": "برای بازنشانی فیلدهای فرم فعلی ذخیره‌نشده Clear را انتخاب کنید.",
-          "inputs": "فیلدهای فعلی را بررسی و اطلاعات ذخیره‌نشده‌ای را که لازم دارید کپی کنید.",
-          "result": "فیلدهای فرم پاک و فرم بازنشانی می‌شود.",
-          "notes": "این کار فرم را پاک می‌کند، نه سوابق قبلاً ذخیره‌شده پروژه را. پیش از پاک‌کردن جزئیات لازم را کپی کنید."
+          "purpose": "فرم ثبت فعلی پروژه را پاک می‌کند.",
+          "when": "وقتی می‌خواهید فیلدهای فرم ذخیره‌نشده فعلی را بازنشانی کنید، استفاده کنید.",
+          "how": "برای بازنشانی فیلدهای فرم ذخیره‌نشده فعلی Clear را انتخاب کنید.",
+          "inputs": "فیلدهای فعلی را بررسی کنید و اطلاعات ذخیره‌نشده موردنیاز را کپی کنید.",
+          "result": "فیلدهای فرم پاک می‌شوند؛ سوابق قبلاً ذخیره‌شده پروژه تغییر نمی‌کنند.",
+          "notes": "این گزینه فرم را پاک می‌کند، نه سوابق ذخیره‌شده قبلی پروژه را. پیش از پاک‌کردن جزئیات لازم را کپی کنید."
         },
         "ps": {
-          "purpose": "د پروژې د اوسني ریکارډ فورمه پاکوي.",
+          "purpose": "د پروژې اوسنی ریکارډ فورم پاکوي.",
           "when": "کله چې د اوسني نه‌خوندي شوي فورم خانې له سره تنظیمول غواړئ، دا وکاروئ.",
-          "how": "د اوسني نه‌خوندي شوي فورم د خانې د بیا تنظیم لپاره Clear وټاکئ.",
+          "how": "د اوسني نه‌خوندي شوي فورم د خانو د بیا تنظیم لپاره Clear وټاکئ.",
           "inputs": "اوسنۍ خانې وګورئ او هغه نه‌خوندي شوي معلومات کاپي کړئ چې ساتل یې غواړئ.",
-          "result": "د فورم خانې پاکېږي او فورمه له سره تنظیمېږي.",
-          "notes": "دا فورمه پاکوي، د پروژې پخواني خوندي شوي ریکارډونه نه ړنګوي. له پاکولو مخکې اړین جزئیات کاپي کړئ."
+          "result": "د فورم خانې پاکېږي؛ پخواني خوندي شوي د پروژې ریکارډونه نه بدلېږي.",
+          "notes": "دا فورم پاکوي، پخواني خوندي شوي ریکارډونه نه ړنګوي. له پاکولو مخکې اړین جزئیات کاپي کړئ."
         }
       },
       "handler_or_behavior": "`prClearRowForm()`"
@@ -15456,7 +15456,7 @@
           "when": "Use this control when you need to correct or update a saved project record.",
           "how": "Select Edit beside the intended row, update its details and save the changes.",
           "inputs": "Select the correct project record and verify its identity and values before editing.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "result": "The record is updated if validation succeeds and the app confirms the change.",
           "notes": "Check the record identity and values before saving because edits can affect project totals."
         },
         "fa": {
@@ -15464,13 +15464,13 @@
           "when": "وقتی لازم است سابقه ذخیره‌شده پروژه را اصلاح یا به‌روزرسانی کنید، از این گزینه استفاده کنید.",
           "how": "در کنار ردیف موردنظر Edit را انتخاب کنید، جزئیات را تغییر دهید و ذخیره کنید.",
           "inputs": "سابقه درست پروژه را انتخاب کنید و پیش از ویرایش هویت و مقادیر آن را بررسی کنید.",
-          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد به‌روزرسانی می‌شود.",
           "notes": "پیش از ذخیره، هویت و مقادیر رکورد را بررسی کنید؛ ویرایش ممکن است جمع‌های پروژه را تغییر دهد."
         },
         "ar": {
-          "purpose": "يعدل سجلاً موجوداً للمشروع.",
-          "when": "عندما تحتاج إلى تصحيح أو تحديث سجل مشروع محفوظ.",
-          "how": "اختر Edit بجانب الصف المطلوب، وعدّل التفاصيل ثم احفظ التغييرات.",
+          "purpose": "يحرر سجلاً موجوداً في المشروع.",
+          "when": "عندما تحتاج إلى تصحيح سجل مشروع محفوظ أو تحديثه.",
+          "how": "اختر Edit بجانب الصف المقصود، وعدّل التفاصيل ثم احفظ التغييرات.",
           "inputs": "حدد سجل المشروع الصحيح وتحقق من هويته وقيمه قبل التعديل.",
           "result": "يُحدّث السجل إذا نجح التحقق وأكد التطبيق التغيير.",
           "notes": "تحقق من هوية السجل وقيمه قبل الحفظ لأن التعديلات قد تؤثر في إجماليات المشروع."
@@ -15478,18 +15478,18 @@
         "ckb": {
           "purpose": "تۆمارێکی هەبووی پرۆژە دەستکاری دەکات.",
           "when": "کاتێک پێویستە تۆمارێکی پاشەکەوتکراوی پرۆژە ڕاست بکەیتەوە یان نوێی بکەیتەوە.",
-          "how": "لە تەنیشت ڕیزی مەبەست Edit هەڵبژێرە، وردەکارییەکان بگۆڕە و پاشان پاشەکەوت بکە.",
+          "how": "لە تەنیشت ڕیزی مەبەست Edit هەڵبژێرە، وردەکارییەکانی بگۆڕە و گۆڕانکارییەکان پاشەکەوت بکە.",
           "inputs": "تۆماری دروستی پرۆژە هەڵبژێرە و پێش دەستکاریکردن ناسنامە و نرخەکانی بپشکنە.",
           "result": "ئەگەر پشتڕاستکردنەوە سەرکەوتوو بێت و ئەپەکە گۆڕانکارییەکە پشتڕاست بکاتەوە، تۆمارەکە نوێ دەکرێتەوە.",
-          "notes": "پێش پاشەکەوتکردن ناسنامە و نرخەکانی تۆمار بپشکنە چونکە دەستکاری دەتوانێت کۆی پرۆژە بگۆڕێت."
+          "notes": "پێش پاشەکەوتکردن ناسنامە و نرخەکانی تۆمار بپشکنە، چونکە دەستکاری دەتوانێت کۆی پرۆژە بگۆڕێت."
         },
         "kmr": {
           "purpose": "Tomareke heyî ya projeyê diguherîne.",
-          "when": "Dema ku tu hewceyî rastkirin an nûkirina tomareke projeyê ya tomarkirî yî.",
-          "how": "Li kêleka rêza xwestî Edit hilbijêre, hûrguliyan biguherîne û paşê tomar bike.",
+          "when": "Dema ku tu hewceyî rastkirin an nûkirina tomareke tomarkirî ya projeyê yî.",
+          "how": "Li kêleka rêza xwestî Edit hilbijêre, hûrguliyan biguherîne û guherînan tomar bike.",
           "inputs": "Tomara projeya rast hilbijêre û berî guherandinê nasname û nirxên wê kontrol bike.",
           "result": "Tomar tê nûkirin heke kontrol serkeftî be û sepan guherînê piştrast bike.",
-          "notes": "Berî tomarkirinê nasname û nirxên tomarê kontrol bike ji ber ku guherandin dikare tevahiyên projeyê biguherîne."
+          "notes": "Berî tomarkirinê nasname û nirxên tomarê kontrol bike, ji ber ku guherandin dikare tevahiyên projeyê biguherîne."
         },
         "tr": {
           "purpose": "Mevcut bir proje kaydını düzenler.",
@@ -15497,23 +15497,23 @@
           "how": "İlgili satırın yanındaki Edit'i seçin, ayrıntıları güncelleyin ve değişiklikleri kaydedin.",
           "inputs": "Doğru proje kaydını seçin ve düzenlemeden önce kimliğini ve değerlerini doğrulayın.",
           "result": "Doğrulama başarılı olur ve uygulama değişikliği onaylarsa kayıt güncellenir.",
-          "notes": "Kaydetmeden önce kaydın kimliğini ve değerlerini kontrol edin; düzenlemeler proje toplamlarını etkileyebilir."
+          "notes": "Kaydetmeden önce kayıt kimliğini ve değerlerini kontrol edin; düzenlemeler proje toplamlarını etkileyebilir."
         },
         "pl": {
           "purpose": "Edytuje istniejący rekord projektu.",
           "when": "Użyj, gdy trzeba poprawić lub zaktualizować zapisany rekord projektu.",
-          "how": "Wybierz Edit obok właściwego wiersza, zaktualizuj szczegóły i zapisz zmiany.",
+          "how": "Wybierz Edit obok właściwego wiersza, zmień szczegóły i zapisz zmiany.",
           "inputs": "Wybierz właściwy rekord projektu i przed edycją sprawdź jego tożsamość oraz wartości.",
           "result": "Rekord zostanie zaktualizowany, jeśli walidacja się powiedzie i aplikacja potwierdzi zmianę.",
           "notes": "Przed zapisaniem sprawdź tożsamość i wartości rekordu, ponieważ edycja może wpłynąć na sumy projektu."
         },
         "ur": {
-          "purpose": "ایک موجودہ پروجیکٹ ریکارڈ میں ترمیم کرتا ہے۔",
+          "purpose": "موجودہ پروجیکٹ ریکارڈ میں ترمیم کرتا ہے۔",
           "when": "جب محفوظ شدہ پروجیکٹ ریکارڈ درست یا اپ ڈیٹ کرنا ہو تو استعمال کریں۔",
-          "how": "متعلقہ قطار کے ساتھ Edit منتخب کریں، تفصیلات اپ ڈیٹ کریں اور تبدیلیاں محفوظ کریں۔",
-          "inputs": "درست پروجیکٹ ریکارڈ منتخب کریں اور ترمیم سے پہلے اس کی شناخت اور قدریں چیک کریں۔",
+          "how": "متعلقہ قطار کے ساتھ Edit منتخب کریں، تفصیلات تبدیل کریں اور تبدیلیاں محفوظ کریں۔",
+          "inputs": "درست پروجیکٹ ریکارڈ منتخب کریں اور ترمیم سے پہلے اس کی شناخت اور اقدار چیک کریں۔",
           "result": "توثیق کامیاب ہو اور ایپ تبدیلی کی تصدیق کرے تو ریکارڈ اپ ڈیٹ ہو جاتا ہے۔",
-          "notes": "محفوظ کرنے سے پہلے ریکارڈ کی شناخت اور قدریں چیک کریں کیونکہ ترمیم پروجیکٹ کے مجموعوں کو متاثر کر سکتی ہے۔"
+          "notes": "محفوظ کرنے سے پہلے ریکارڈ کی شناخت اور اقدار چیک کریں کیونکہ ترمیم پروجیکٹ کے مجموعوں کو متاثر کر سکتی ہے۔"
         },
         "pa": {
           "purpose": "ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਨੂੰ ਸੋਧਦਾ ਹੈ।",
@@ -15526,18 +15526,18 @@
         "prs": {
           "purpose": "یک سابقه موجود پروژه را ویرایش می‌کند.",
           "when": "وقتی لازم است سابقه ذخیره‌شده پروژه را اصلاح یا به‌روزرسانی کنید، استفاده کنید.",
-          "how": "در کنار ردیف موردنظر Edit را انتخاب کنید، جزئیات را به‌روزرسانی و تغییرات را ذخیره کنید.",
+          "how": "در کنار ردیف موردنظر Edit را انتخاب کنید، جزئیات را تغییر دهید و ذخیره کنید.",
           "inputs": "سابقه درست پروژه را انتخاب کنید و پیش از ویرایش هویت و مقادیر آن را بررسی کنید.",
           "result": "اگر اعتبارسنجی موفق باشد و برنامه تغییر را تأیید کند، سابقه به‌روزرسانی می‌شود.",
-          "notes": "پیش از ذخیره هویت و مقادیر سابقه را بررسی کنید، زیرا ویرایش می‌تواند جمع‌های پروژه را تحت تأثیر قرار دهد."
+          "notes": "پیش از ذخیره هویت و مقادیر سابقه را بررسی کنید؛ ویرایش ممکن است جمع‌های پروژه را تغییر دهد."
         },
         "ps": {
           "purpose": "د پروژې موجود ریکارډ سموي.",
           "when": "کله چې د پروژې خوندي شوی ریکارډ سمول یا تازه کول غواړئ، دا وکاروئ.",
-          "how": "د اړوند قطار تر څنګ Edit وټاکئ، جزئیات تازه او بدلونونه خوندي کړئ.",
+          "how": "د اړوند قطار تر څنګ Edit وټاکئ، جزئیات بدل او بدلونونه خوندي کړئ.",
           "inputs": "د پروژې سم ریکارډ وټاکئ او له سمون مخکې یې پېژندنه او ارزښتونه وګورئ.",
           "result": "که ارزونه بریالۍ شي او اپلیکیشن بدلون تایید کړي، ریکارډ تازه کېږي.",
-          "notes": "له خوندي کولو مخکې د ریکارډ پېژندنه او ارزښتونه وګورئ، ځکه سمون د پروژې ټولیزې شمېرې بدلولی شي."
+          "notes": "له خوندي کولو مخکې د ریکارډ پېژندنه او ارزښتونه وګورئ، ځکه سمون د پروژې پر ټولیزو شمېرو اغېز کولی شي."
         }
       },
       "handler_or_behavior": "`prEditRow(`"
