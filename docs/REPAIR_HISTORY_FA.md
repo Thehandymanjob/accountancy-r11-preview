@@ -652,6 +652,20 @@
 - **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ باید راهنمای هر شش دکمه، حفظ عملکرد اصلی، ذخیره واقعی با داده آزمایشی Preview و چیدمان موبایل بررسی شوند. در این مرحله هیچ تراکنش یا داده واقعی ایجاد یا تغییر داده نشده است.
 - **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
 
+
+#### بازنگری R56 — اتصال فاکتور و منوی گزارش‌ها
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- **شناسه‌های متصل‌شده:** THA-HLP-0029 (New Invoice)، THA-HLP-0034 (Prepare a report)، THA-HLP-0035 (Saved reports archive)، THA-HLP-0036 (Notifications inbox)، THA-HLP-0037 (Tax calendar) و THA-HLP-0038 (Accountant email).
+- **روش اتصال:** New Invoice در `#invoiceListArea` و پنج گزینه Reports & Tax در `#report188Menu` با selector دقیق و `onclick` literal متصل شدند. هر گزینه با مقدار پارامتر خودش از سایر مقصدها تفکیک شده است.
+- **محتوا / مرزبندی:** هر شش شناسه CONTENT_COMPLETE هستند. راهنمای Tax Calendar به‌معنای ثبت/پرداخت مالیات نیست؛ Reports & Tax نیز اظهارنامه را خودکار به HMRC ارسال نمی‌کند. تنظیمات Accountant email فقط تنظیم گیرنده و وضعیت اتصال را توضیح می‌دهد و ادعای ارسال ایمیل نمی‌کند.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R56`.
+- **اتصال‌ها پس از R56:** ۵۶ کنترل؛ ۵۱ ایستا و ۵ پویا. ۳۹ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
+- **تست ایستا:** هر شش selector در Runtime allowlist ثبت شده‌اند؛ escaping رشته‌های CSS در JavaScript اصلاح و بازبینی شد. Version Authority Gate برای R56 باید اجرا شود.
+- **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ بازشدن راهنمای هر گزینه، حفظ مقصد navigation، انتخاب زبان و چیدمان موبایل باید در Preview بررسی شوند.
+- **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
+
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
 - **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Implemented on Preview development; the latest R45 Version Authority Gate passed after native-HTML fail-closed hardening (run 46053038295). Pages deployment and iPhone Safari verification remain pending.
