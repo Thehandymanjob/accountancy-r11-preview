@@ -5692,10 +5692,10 @@
         "en": {
           "purpose": "Confirms that you have read the reset warnings and advances to the next step of the secure reset workflow.",
           "when": "Use this only after reviewing the recovery scope, backup status and consequences of continuing.",
-          "how": "Read the displayed warnings carefully, then select I Understand — Continue only if you intend to proceed and have the required verified backup.",
-          "inputs": "No additional data may be required; the control records the user's acknowledgement and advances the workflow.",
-          "result": "The secure reset workflow advances to its next step. This acknowledgement alone does not complete the reset.",
-          "notes": "This is an explicit acknowledgement, not a harmless navigation button. Do not select it just to explore the next screen. Stop if the backup or target data scope is uncertain."
+          "how": "Read the two warning screens, then select I Understand — Continue only when you are ready to review the recovery requirements on the next screen.",
+          "inputs": "No text or file input is required to advance from the first warning screen.",
+          "result": "The modal advances to the second warning stage and reveals the backup-conversion and emergency-snapshot steps. No records are reset or restored by this action.",
+          "notes": "This is an on-screen acknowledgement and navigation step; the source code does not save a separate acknowledgement record. It does not execute the reset."
         },
         "fa": {
           "purpose": "تأیید می‌کند هشدارهای Reset را خوانده‌اید و گردش‌کار Secure Reset را به مرحله بعد می‌برد.",
@@ -5770,10 +5770,10 @@
         "en": {
           "purpose": "Removes the currently selected business logo from the profile.",
           "when": "Use this when the saved logo is incorrect or should no longer appear in supported app documents.",
-          "how": "Open Profile & Logo and select Remove Logo. Review the result and save the profile if the screen requires a separate save.",
-          "inputs": "No additional input is required. A logo must currently be present for removal to have an effect.",
-          "result": "The logo is removed from the profile if the operation succeeds.",
-          "notes": "Removing the logo may affect future documents that use the business profile. It does not necessarily change documents already issued. Keep a copy of the image if you may need it again."
+          "how": "Open Profile & Logo and select Remove Logo. Wait for the success or error message.",
+          "inputs": "No additional input is required. A saved business logo must be present for removal to have an effect.",
+          "result": "The logo is cleared from the business profile and the updated profile is saved and verified.",
+          "notes": "Removal is saved by this control; a separate Save Profile action is not required. It affects future documents that use the profile and does not rewrite documents already issued. Keep a copy of the image if you may need it again."
         },
         "fa": {
           "purpose": "لوگوی فعلی انتخاب‌شده در پروفایل کسب‌وکار را حذف می‌کند.",
@@ -5872,12 +5872,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Reloads the app using the latest version available through its update workflow.",
-          "when": "Use this only after the update check identifies the intended release and you are ready to switch to it.",
-          "how": "Confirm the target version and that important data has a verified backup, then select Update Now. Allow the reload/update process to finish and check the build details afterwards.",
-          "inputs": "No form input is normally required. A network connection may be needed to retrieve the latest app files.",
-          "result": "The app reloads into the latest version available through the configured update path, if the operation succeeds.",
-          "notes": "Do not use this control to restore or reset data. Avoid interrupting the reload. Afterward verify the app version, Build ID, storage database and key records. If the displayed build does not change, do not assume the update completed."
+          "purpose": "The Update Now control is intended to reload the app through its update workflow, but it is disabled in the inspected R43 build.",
+          "when": "Use this guidance only after a future build enables the control and the update check identifies the intended release.",
+          "how": "In the inspected R43 source, Update Now is disabled and its referenced reloadLatestApp handler is not defined in the app HTML or the accompanying JavaScript files. Do not expect this control to start an update in this build.",
+          "inputs": "No input can be submitted through this disabled control in the inspected build.",
+          "result": "No app reload or version change is initiated by Update Now in the inspected R43 build.",
+          "notes": "This is a verified limitation of the inspected build, not a claim that an update is underway. Do not infer a successful update from the button label; verify the deployed Build ID after a future working update path is provided."
         },
         "fa": {
           "purpose": "برنامه را از طریق گردش‌کار به‌روزرسانی با آخرین نسخه در دسترس دوباره بارگذاری می‌کند.",
@@ -6029,9 +6029,9 @@
       "translations": {
         "en": {
           "purpose": "Opens the company workspace containing companies, contracts, jobs, work packages and payment records.",
-          "when": "when managing a company engagement and its job-level financial records.",
+          "when": "When managing a company engagement and its job-level financial records.",
           "how": "Open the hub and choose the company or job workflow you need.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No input is required to open the Company Contracts & Jobs hub. Selecting or creating a company, contract, job or sub-project requires the details requested by that specific form.",
           "result": "The company workspace and its available company/job actions are displayed.",
           "notes": "Company-job financial records are separate from Accountancy records; they are not automatically transferred or combined."
         },
@@ -6055,9 +6055,9 @@
       "translations": {
         "en": {
           "purpose": "Opens shared directories for partners, workers and contractors used across project workflows.",
-          "when": "when you need to add, update or reuse a business contact across projects.",
+          "when": "When you need to add, update or reuse a business contact across projects.",
           "how": "Open Control Panel and select the relevant directory.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No input is required to open the Control Panel. Adding or editing a partner, worker or contractor requires the person's name; contact details and notes are optional where the form provides them.",
           "result": "The selected shared directory is displayed.",
           "notes": "A shared record may be reused in multiple projects; verify identity and details before editing."
         },
@@ -6081,9 +6081,9 @@
       "translations": {
         "en": {
           "purpose": "Opens a blank form to create an independent project.",
-          "when": "when starting a new job that needs its own scope, agreed value and financial tracking.",
+          "when": "When starting a new job that needs its own scope, agreed value and financial tracking.",
           "how": "Open New Project, complete the required job details and save the project.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "A project name is required. Customer, address, phone, notes, contract type and partner-sharing details are entered where applicable; partner percentages must total 100% when partner sharing is enabled.",
           "result": "A new project is created if the save succeeds.",
           "notes": "Use one project per separately tracked job. Project records are distinct from general Accountancy entries."
         },
@@ -6107,9 +6107,9 @@
       "translations": {
         "en": {
           "purpose": "Displays saved projects and provides search and status filters.",
-          "when": "when finding, opening or reviewing an existing project.",
+          "when": "When finding, opening or reviewing an existing project.",
           "how": "Open Projects List, search by project/customer/address and choose All, Open or Completed.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "Optional search text can match project name, customer or address. Choose the available status filter (All, Open or Completed) to narrow the list.",
           "result": "Matching projects are listed and can be opened.",
           "notes": "Check the project identity before editing or recording financial information."
         },
@@ -6133,9 +6133,9 @@
       "translations": {
         "en": {
           "purpose": "Adds another partner-share row to the current project.",
-          "when": "when a project has more than one partner or needs an additional profit-sharing participant.",
+          "when": "When a project has more than one partner or needs an additional profit-sharing participant.",
           "how": "Select Add Partner, choose the partner and enter the share percentage for each participant.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "Select a saved partner and enter that partner's share percentage. The project must have valid partner-share percentages totalling 100% before it can be saved.",
           "result": "An additional partner row is added to the project form.",
           "notes": "All partner shares must total 100% before saving; confirm the agreed percentages with the parties."
         },
@@ -6159,9 +6159,9 @@
       "translations": {
         "en": {
           "purpose": "Validates and saves the project form to the Projects data store.",
-          "when": "after entering or editing the project details and agreed job information.",
+          "when": "After entering or editing the project details and agreed job information.",
           "how": "Review the project name, customer/job details, agreed price and any partner shares, then select Save Project.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "A non-empty project name is required. Other project fields are optional or conditional; if partner sharing is enabled, the owner's share and all partner shares must total 100%.",
           "result": "The project is saved if validation and IndexedDB persistence succeed.",
           "notes": "Do not assume it saved until the status confirms success. Partner percentages must total 100% when partner sharing is enabled."
         },
@@ -6185,9 +6185,9 @@
       "translations": {
         "en": {
           "purpose": "Resets the current project form fields.",
-          "when": "when you want to discard unsaved entries and start a different project form.",
+          "when": "When you want to discard unsaved entries and start a different project form.",
           "how": "Select Clear Form and verify the fields are empty before entering another project.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No input is required. The control clears the current unsaved project form fields and resets project options to their defaults.",
           "result": "The current form is cleared.",
           "notes": "Unsaved text and selections may be lost. This does not delete a project already saved."
         },
@@ -6211,9 +6211,9 @@
       "translations": {
         "en": {
           "purpose": "Loads the current project details into the project editor.",
-          "when": "when correcting or updating the scope, agreed value or other saved project details.",
+          "when": "When correcting or updating the scope, agreed value or other saved project details.",
           "how": "Open the project, select Edit, change the required fields and save the updated project.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No additional input is required to open the current project's editor. The selected project's saved ID and existing values are loaded into the form.",
           "result": "The project form opens with the existing values for editing.",
           "notes": "Check that you are editing the correct project. Changes are not committed until successfully saved."
         },
@@ -6237,9 +6237,9 @@
       "translations": {
         "en": {
           "purpose": "Changes the current project completion status.",
-          "when": "when the job has reached the agreed completion point and you want it marked completed.",
+          "when": "When the job has reached the agreed completion point and you want it marked completed.",
           "how": "Open the project and select Complete. Review the updated status shown by the app.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No additional input is required. The current project's saved status is toggled between Open and Complete.",
           "result": "The project status is changed to completed if the update succeeds.",
           "notes": "This is a status change, not a financial settlement. Outstanding payments or costs may still exist."
         },
@@ -6263,9 +6263,9 @@
       "translations": {
         "en": {
           "purpose": "Deletes the current project after the app’s confirmation flow.",
-          "when": "only when the project is a duplicate or was created in error and its records are no longer required.",
+          "when": "Only when the project is a duplicate or was created in error and its records are no longer required.",
           "how": "Open the correct project, select Delete and read the confirmation carefully before approving.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No form input is required. The current project must be selected, and the user must approve the deletion confirmation.",
           "result": "The project is deleted only if the confirmation and delete operation succeed.",
           "notes": "DESTRUCTIVE: project and associated sub-project/financial history may be removed. Export a Projects backup first and check whether the project has financial records. Do not delete merely to mark a job complete."
         },
@@ -6289,9 +6289,9 @@
       "translations": {
         "en": {
           "purpose": "Opens the financial report for the current project.",
-          "when": "when reviewing the recorded income, expenses and current financial result for this job.",
+          "when": "When reviewing the recorded income, expenses and current financial result for this job.",
           "how": "Open the project and select Report. Review the included project and sub-project totals.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No additional input is required when opening the report from a project detail page. The current project ID is used to select the report subject.",
           "result": "The current project’s financial report is displayed.",
           "notes": "Figures are based on project records, not automatically on Accountancy transactions or tax calculations."
         },
@@ -6315,9 +6315,9 @@
       "translations": {
         "en": {
           "purpose": "Displays the summary view for the selected project.",
-          "when": "when you need an overview of project details and key totals.",
+          "when": "When you need an overview of project details and key totals.",
           "how": "Open the project and select Summary in its detail tabs.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No input is required. The currently selected project and its saved summary data are used.",
           "result": "The project summary content is displayed.",
           "notes": "Use the relevant financial tabs for detailed transactions; summary totals may combine parent and sub-project data."
         },
@@ -6341,9 +6341,9 @@
       "translations": {
         "en": {
           "purpose": "Displays income records associated with the selected project.",
-          "when": "when reviewing payments or income recorded against the project.",
+          "when": "When reviewing payments or income recorded against the project.",
           "how": "Open the project and select Income. Review dates, amounts and references.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No input is required to view the tab. The currently selected project and its saved income records are used.",
           "result": "The project income view is displayed.",
           "notes": "Record only amounts actually received where the workflow represents received income; avoid duplicating receipts in another area."
         },
@@ -6367,9 +6367,9 @@
       "translations": {
         "en": {
           "purpose": "Displays expense records associated with the selected project.",
-          "when": "when reviewing materials, contractor costs, travel or other project spending.",
+          "when": "When reviewing materials, contractor costs, travel or other project spending.",
           "how": "Open the project and select Expenses. Review each date, category, payee and amount.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No input is required to view the tab. The currently selected project and its saved expense records are used.",
           "result": "The project expense view is displayed.",
           "notes": "Check the correct project and category; retain receipts and avoid recording the same cost twice."
         },
@@ -6393,9 +6393,9 @@
       "translations": {
         "en": {
           "purpose": "Displays worker wage records for the selected project.",
-          "when": "when reviewing labour payments and worker costs assigned to the project.",
+          "when": "When reviewing labour payments and worker costs assigned to the project.",
           "how": "Open the project and select Worker Wages. Review worker, date, amount and payment status.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No input is required to view the tab. The currently selected project and its saved worker-wage records are used.",
           "result": "The worker wage view is displayed.",
           "notes": "Check that each wage is linked to the correct worker and project. Keep supporting payment evidence."
         },
@@ -6419,9 +6419,9 @@
       "translations": {
         "en": {
           "purpose": "Displays tool-related costs or records for the selected project.",
-          "when": "when reviewing tools or tool-hire costs assigned to this job.",
+          "when": "When reviewing tools or tool-hire costs assigned to this job.",
           "how": "Open the project and select Tools. Review the listed items and amounts.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No input is required to view the tab. The currently selected project and its saved tool or tool-hire records are used.",
           "result": "The tools view is displayed.",
           "notes": "Confirm whether an item is a purchase, hire or other cost and use the appropriate accounting treatment separately."
         },
@@ -6445,9 +6445,9 @@
       "translations": {
         "en": {
           "purpose": "Displays food and miscellaneous costs recorded against the selected project.",
-          "when": "when reviewing site food or other miscellaneous project expenses.",
+          "when": "When reviewing site food or other miscellaneous project expenses.",
           "how": "Open the project and select Food & Other. Review descriptions, dates and amounts.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No input is required to view the tab. The currently selected project and its saved Food & Other records are used.",
           "result": "The Food & Other view is displayed.",
           "notes": "Use clear descriptions and check that each cost is genuinely attributable to this project."
         },
@@ -6471,9 +6471,9 @@
       "translations": {
         "en": {
           "purpose": "Opens the reports area within the selected project.",
-          "when": "when reviewing or preparing a report about the project’s recorded financial activity.",
+          "when": "When reviewing or preparing a report about the project’s recorded financial activity.",
           "how": "Open the project and select Reports. Choose the available report action for the current project.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No input is required to open the tab. The currently selected project and its available report actions are used.",
           "result": "The project reports view is displayed.",
           "notes": "Project reports summarise project records; they are not automatically tax submissions or general accounting reports."
         },
@@ -6497,9 +6497,9 @@
       "translations": {
         "en": {
           "purpose": "Generates or opens the financial report for the project selected in the project report selector.",
-          "when": "when you want to review a particular project’s financial position.",
+          "when": "When you want to review a particular project’s financial position.",
           "how": "Choose a project in Select project, then select View Financial Report.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "Select a project in the Select project field. A project must be selected before the financial report can open.",
           "result": "The selected project’s income, costs and result are displayed if report generation succeeds.",
           "notes": "Verify the selected project and whether sub-project records are included. This report is not an HMRC submission."
         },
@@ -6523,9 +6523,9 @@
       "translations": {
         "en": {
           "purpose": "Saves a partner record in the shared partner directory.",
-          "when": "after entering or editing a partner’s contact details.",
+          "when": "After entering or editing a partner’s contact details.",
           "how": "Enter the required partner name, add optional contact details and notes, then select Save Partner.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "A partner name is required. Phone, email and notes are optional; an existing partner ID is used when editing a saved partner.",
           "result": "The partner record is saved if validation and persistence succeed.",
           "notes": "Use accurate contact details and avoid creating duplicate partner records. A saved partner can be reused across projects."
         },
@@ -6549,9 +6549,9 @@
       "translations": {
         "en": {
           "purpose": "Clears the current partner form fields.",
-          "when": "when discarding unsaved partner details or preparing to enter another partner.",
+          "when": "When discarding unsaved partner details or preparing to enter another partner.",
           "how": "Select Clear and check that the partner fields are empty.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No input is required. The control clears the current partner form fields; it does not change the saved partner directory.",
           "result": "The current partner form is reset.",
           "notes": "This clears unsaved form content; it does not delete an already saved partner."
         },
@@ -6575,9 +6575,9 @@
       "translations": {
         "en": {
           "purpose": "Saves a contractor or subcontractor in the shared contractor directory.",
-          "when": "after entering or updating a trade contractor’s details.",
+          "when": "After entering or updating a trade contractor’s details.",
           "how": "Enter the contractor/company name, add optional phone, email and trade notes, then select Save Contractor.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "A contractor or company name is required. Phone, email and trade notes are optional; an existing contractor ID is used when editing.",
           "result": "The contractor record is saved if the operation succeeds.",
           "notes": "Check the trade and contact details. Saved contractors can be selected for project or sub-project expenses."
         },
