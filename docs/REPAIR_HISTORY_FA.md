@@ -506,3 +506,20 @@
 - **iPhone Safari:** not tested؛ پس از عبور Gate و انتشار مجاز، تست انتخاب زبان، باز و بسته شدن فصل‌ها، حفظ انتخاب زبان پس از refresh و باقی ماندن رابط اصلی به انگلیسی/LTR لازم است.
 - **Production:** بدون تغییر؛ R12 و داده‌های Production خارج از دامنه این اصلاح هستند.
 - **کار باقی‌مانده:** تست واقعی iPhone Safari پس از تکمیل Help ID Registry و تأیید جداگانه مجوز انتشار؛ تا آن زمان PR #96 در حالت Draft می‌ماند و Preview Pages deploy نمی‌شود.
+
+### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
+
+- **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Confirmed defect — repair not started.
+- **عنوان و حوزه:** اتصال‌نداشتن کنترل‌های تبدیل پشتیبان، Snapshot اضطراری و بازیابی نهایی در Factory Reset؛ حوزه SEC / DB.
+- **علامت مشاهده‌شده:** در Settings → Factory Reset، با انتخاب `I Understand — Continue` دکمه `Reset and Restore All Data` از حالت مخفی خارج می‌شود و `disabled=false` می‌گیرد؛ با این حال تبدیل فایل پشتیبان، دانلود Snapshot اضطراری و اجرای Restore نهایی در سورس بررسی‌شده به کنترل‌های مربوط متصل نیستند.
+- **محیط / مرجع:** مخزن `Thehandymanjob/accountancy-r11-preview`؛ شاخه دائمی `development`؛ برنامه 273 / R11؛ Build هدف R43؛ فایل `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`؛ Git blob SHA فایل: `1c4e0eba42af35e827461c23e1b4a437061b943a`.
+- **تفکیک مهم Backup & Restore عادی:** صفحه مستقل `Backup & Restore` به Factory Reset وابسته نیست و مسیر اجرایی جداگانه دارد. دکمه `Backup` به `fullDatabaseBackup()` متصل است؛ تابع پس از flush دامنه‌های accounting، projects، contracts، businessProfile، support و media، موتور `HandymanRecoveryV264.createFullBackup()` را فراخوانی می‌کند و نتیجه را با 17 دامنه بررسی می‌کند. دکمه `Restore` از طریق انتخاب فایل به `restoreFullDatabase(event)` می‌رسد؛ فایل با `readFullBackup()` اعتبارسنجی می‌شود، تأیید صریح کاربر گرفته می‌شود و سپس `restoreFullBackup()` اجرا و نتیجه 17 دامنه بررسی می‌شود. این بررسی فقط سورس است؛ هیچ Backup یا Restore واقعی اجرا نشده است.
+- **علت ریشه‌ای تأییدشده در سورس Factory Reset:** تابع `openFactoryReset()` فقط وضعیت اولیه Modal و flagهای `__thaV273Converted` و `__thaV273EmergencyCreated` را reset می‌کند. تابع `factoryResetNextStep()` بدون بررسی موفقیت تبدیل فایل، ساخت Snapshot، تیک تأیید ذخیره Snapshot یا عبارت `RESET 273`، دکمه نهایی را آشکار و فعال می‌کند. در HTML برای `factoryResetConvertButton`، `factoryResetEmergencyButton` و `factoryResetFinalButton` هیچ `onclick` یا ثبت listener اجرایی در سورس بررسی‌شده پیدا نشد؛ توابع اجرایی تبدیل، Snapshot و Restore نهایی نیز در این فایل وجود ندارند.
+- **روش تشخیص:** بررسی اتصال‌های مستقیم HTML و جست‌وجوی تمام ارجاع‌های شناسه‌های سه دکمه در فایل R43؛ بررسی کامل `openFactoryReset()` و `factoryResetNextStep()`؛ مقایسه با مسیر مستقل و متصل Backup & Restore عادی. نتیجه صرفاً static source audit است.
+- **ریسک:** رابط به کاربر القا می‌کند مرحله Reset آماده اجراست، درحالی‌که پیش‌نیازهای حفاظتی اجرا نشده‌اند. هرگونه افزودن handler نهایی بدون اعتبارسنجی سخت‌گیرانه فایل، Snapshot تأییدشده، رضایت صریح و بررسی مقصد IndexedDB می‌تواند خطر از دست‌رفتن دائمی داده‌ها ایجاد کند.
+- **راه‌حل موردنیاز (هنوز اجرا نشده):** تا زمان طراحی و آزمون کامل، دکمه نهایی باید مخفی و غیرفعال بماند. فعال‌شدن آن باید فقط پس از اثبات اعتبارسنجی پشتیبان مجاز، ایجاد و دانلود موفق Snapshot از دیتابیس مقصد، تأیید صریح ذخیره Snapshot و تطبیق عبارت مجوز انجام شود. Restore نهایی باید فقط از مسیر recovery engine تأییدشده استفاده کند، نتیجه را در تمام 17 دامنه بررسی کند و در هر خطا از اعلام موفقیت یا ادامه عملیات جلوگیری کند. هیچ مسیر LocalStorage، reset عمومی یا bypass مجاز نیست.
+- **فایل‌های تغییرکرده برای ثبت ممیزی:** فقط `docs/REPAIR_HISTORY_FA.md` و `docs/REPAIR_INDEX_FA.md`؛ هیچ فایل runtime یا Manifest در این مرحله تغییر نکرده است.
+- **تست / داده:** هیچ کلیک واقعی، اجرای Factory Reset، Backup، Restore، بازکردن IndexedDB، نوشتن داده، تغییر sequence یا دستکاری backup انجام نشده است. Production و Preview data دست‌نخورده‌اند.
+- **Gate / انتشار / Safari:** هنوز اصلاح runtime آغاز نشده؛ Gate و Pages deploy برای این پرونده اجرا نشده‌اند؛ تست iPhone Safari انجام نشده است.
+- **Production:** بدون تغییر؛ هیچ مجوز ارتقا وجود ندارد.
+
