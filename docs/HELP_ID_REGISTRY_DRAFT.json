@@ -6731,7 +6731,7 @@
       "translations": {
         "en": {
           "purpose": "Opens the shared list of trade contractors and subcontractors.",
-          "when": "when maintaining contractor details or selecting a supplier for project costs.",
+          "when": "When maintaining contractor details or selecting a supplier for project costs.",
           "how": "Open Control Panel and choose Contractors.",
           "inputs": "No data is required to view the directory; use search or filters only if they are available.",
           "result": "The contractors directory and its available actions are displayed.",
@@ -6739,7 +6739,7 @@
         },
         "fa": {
           "purpose": "فهرست مشترک پیمانکاران فنی و پیمانکاران جزء را باز می‌کند.",
-          "when": "برای نگهداری مشخصات پیمانکار یا انتخاب تأمین‌کننده خدمات برای هزینه پروژه از این گزینه استفاده کنید.",
+          "when": "هنگام نگهداری یا به‌روزرسانی مشخصات پیمانکاران، یا انتخاب تأمین‌کننده برای هزینه‌های پروژه، از این گزینه استفاده کنید.",
           "how": "Control Panel را باز کنید و Contractors را انتخاب کنید.",
           "inputs": "برای مشاهده فهرست نیازی به ورود اطلاعات نیست؛ فقط در صورت وجود از جست‌وجو یا فیلتر استفاده کنید.",
           "result": "فهرست پیمانکاران و عملیات موجود نمایش داده می‌شود.",
@@ -6747,7 +6747,7 @@
         },
         "ar": {
           "purpose": "يفتح الدليل المشترك للمقاولين المتخصصين ومقاولي الباطن.",
-          "when": "عند تحديث بيانات المقاولين أو اختيار مقدم خدمة لتكاليف مشروع.",
+          "when": "استخدم هذا الخيار عند إدارة بيانات المقاولين أو تحديثها، أو عند اختيار مورد لتكاليف المشروع.",
           "how": "افتح Control Panel ثم اختر Contractors.",
           "inputs": "لا يلزم إدخال بيانات لعرض الدليل. استخدم البحث أو التصفية فقط إذا كانت متاحة.",
           "result": "يظهر دليل المقاولين والإجراءات المتاحة له.",
@@ -6755,7 +6755,7 @@
         },
         "ckb": {
           "purpose": "پێڕستی هاوبەشی کۆمپانیاکانی پیشەیی و پیمانکارانی لاوەکی دەکاتەوە.",
-          "when": "کاتێک زانیارییەکانی پیمانکار نوێ دەکەیتەوە یان دابینکەری خزمەتگوزاری بۆ تێچووی پرۆژە هەڵدەبژێریت.",
+          "when": "کاتێک زانیارییەکانی پیمانکاران بەڕێوەدەبەیت یان نوێیان دەکەیتەوە، یان دابینکەرێک بۆ تێچووی پرۆژە هەڵدەبژێریت، ئەم هەڵبژاردەیە بەکاربهێنە.",
           "how": "Control Panel بکەرەوە و Contractors هەڵبژێرە.",
           "inputs": "بۆ بینینی پێڕستەکە زانیاری پێویست نییە؛ تەنها ئەگەر هەبوو گەڕان یان پاڵاوتن بەکاربهێنە.",
           "result": "پێڕستی پیمانکاران و کردارە بەردەستەکانی پیشان دەدرێت.",
@@ -6763,7 +6763,7 @@
         },
         "kmr": {
           "purpose": "Lîsteya hevpar a peymankarên pispor û bin-peymankaran vedike.",
-          "when": "Dema ku tu hûrguliyên peymankaran nû dike an dabînkerê karûbarê ji bo lêçûnên projeyê hildibijêrî.",
+          "when": "Vê vebijarkê dema ku hûrguliyên peymankaran digerînî an nû dike, an dabînkerê lêçûnên projeyê hildibijêrî, bikar bîne.",
           "how": "Control Panel veke û Contractors hilbijêre.",
           "inputs": "Ji bo dîtina lîsteyê agahî nehewce ye; tenê ger hebe lêgerîn an parzûnkirinê bikar bîne.",
           "result": "Pirtûka peymankaran û kiryarên wê yên berdest xuya dibin.",
@@ -6771,7 +6771,7 @@
         },
         "tr": {
           "purpose": "Uzman yüklenicilerin ve alt yüklenicilerin ortak listesini açar.",
-          "when": "Yüklenici bilgilerini güncellerken veya proje maliyetleri için bir hizmet sağlayıcı seçerken kullanın.",
+          "when": "Yüklenici bilgilerini yönetirken veya güncellerken ya da proje maliyetleri için bir tedarikçi seçerken bu seçeneği kullanın.",
           "how": "Control Panel'i açın ve Contractors'ı seçin.",
           "inputs": "Listeyi görüntülemek için bilgi girmeniz gerekmez; varsa yalnızca arama veya filtreleme kullanın.",
           "result": "Yüklenici dizini ve kullanılabilir işlemler görüntülenir.",
@@ -6779,7 +6779,7 @@
         },
         "pl": {
           "purpose": "Otwiera wspólny katalog wykonawców branżowych i podwykonawców.",
-          "when": "Użyj tej opcji podczas aktualizowania danych wykonawców lub wyboru usługodawcy do kosztów projektu.",
+          "when": "Użyj tej opcji podczas prowadzenia lub aktualizowania danych wykonawców albo wyboru dostawcy do kosztów projektu.",
           "how": "Otwórz Control Panel i wybierz Contractors.",
           "inputs": "Do samego wyświetlenia katalogu nie trzeba podawać danych; użyj wyszukiwania lub filtrowania, jeśli są dostępne.",
           "result": "Wyświetla się katalog wykonawców i dostępne działania.",
@@ -6787,7 +6787,7 @@
         },
         "ur": {
           "purpose": "ماہر ٹھیکیداروں اور ذیلی ٹھیکیداروں کی مشترکہ فہرست کھولتا ہے۔",
-          "when": "ٹھیکیداروں کی تفصیلات برقرار رکھنے یا منصوبے کے اخراجات کے لیے خدمت فراہم کنندہ منتخب کرنے کے وقت استعمال کریں۔",
+          "when": "ٹھیکیداروں کی تفصیلات برقرار رکھنے یا تازہ کرنے، یا منصوبے کے اخراجات کے لیے سپلائر منتخب کرنے کے وقت یہ اختیار استعمال کریں۔",
           "how": "Control Panel کھولیں اور Contractors منتخب کریں۔",
           "inputs": "فہرست دیکھنے کے لیے کوئی معلومات درج کرنا ضروری نہیں؛ اگر دستیاب ہو تو صرف تلاش یا فلٹر استعمال کریں۔",
           "result": "ٹھیکیداروں کی ڈائریکٹری اور دستیاب کارروائیاں دکھائی دیتی ہیں۔",
@@ -6795,7 +6795,7 @@
         },
         "pa": {
           "purpose": "ਮਾਹਿਰ ਠੇਕੇਦਾਰਾਂ ਅਤੇ ਉਪ-ਠੇਕੇਦਾਰਾਂ ਦੀ ਸਾਂਝੀ ਸੂਚੀ ਖੋਲ੍ਹਦਾ ਹੈ।",
-          "when": "ਜਦੋਂ ਠੇਕੇਦਾਰਾਂ ਦੇ ਵੇਰਵੇ ਸੰਭਾਲਣੇ ਹੋਣ ਜਾਂ ਪ੍ਰੋਜੈਕਟ ਖਰਚਿਆਂ ਲਈ ਸੇਵਾ ਪ੍ਰਦਾਤਾ ਚੁਣਨਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "when": "ਠੇਕੇਦਾਰਾਂ ਦੇ ਵੇਰਵੇ ਸੰਭਾਲਣ ਜਾਂ ਅੱਪਡੇਟ ਕਰਨ ਵੇਲੇ, ਜਾਂ ਪ੍ਰੋਜੈਕਟ ਖਰਚਿਆਂ ਲਈ ਸਪਲਾਇਰ ਚੁਣਨ ਵੇਲੇ ਇਹ ਵਿਕਲਪ ਵਰਤੋ।",
           "how": "Control Panel ਖੋਲ੍ਹੋ ਅਤੇ Contractors ਚੁਣੋ।",
           "inputs": "ਸੂਚੀ ਵੇਖਣ ਲਈ ਕੋਈ ਜਾਣਕਾਰੀ ਦੇਣ ਦੀ ਲੋੜ ਨਹੀਂ; ਜੇ ਉਪਲਬਧ ਹੋਵੇ ਤਾਂ ਸਿਰਫ਼ ਖੋਜ ਜਾਂ ਫਿਲਟਰ ਵਰਤੋ।",
           "result": "ਠੇਕੇਦਾਰਾਂ ਦੀ ਡਾਇਰੈਕਟਰੀ ਅਤੇ ਉਪਲਬਧ ਕਾਰਵਾਈਆਂ ਦਿਖਾਈ ਦਿੰਦੀਆਂ ਹਨ।",
@@ -6803,7 +6803,7 @@
         },
         "prs": {
           "purpose": "فهرست مشترک پیمانکاران فنی و پیمانکاران فرعی را باز می‌کند.",
-          "when": "هنگام به‌روزرسانی مشخصات پیمانکاران یا انتخاب ارائه‌دهنده خدمات برای هزینه‌های پروژه استفاده کنید.",
+          "when": "هنگام نگهداری یا به‌روزرسانی مشخصات پیمانکاران، یا انتخاب تأمین‌کننده برای هزینه‌های پروژه، از این گزینه استفاده کنید.",
           "how": "Control Panel را باز کنید و Contractors را انتخاب کنید.",
           "inputs": "برای دیدن فهرست نیازی به واردکردن اطلاعات نیست؛ در صورت وجود فقط از جست‌وجو یا فیلتر استفاده کنید.",
           "result": "فهرست پیمانکاران و عملیات موجود نمایش داده می‌شود.",
@@ -6811,7 +6811,7 @@
         },
         "ps": {
           "purpose": "د مسلکي قرارداديانو او فرعي قرارداديانو ګډ لېست پرانیزي.",
-          "when": "کله چې د قرارداديانو معلومات تازه کوئ یا د پروژې لګښتونو لپاره د خدمت وړاندې کوونکی ټاکئ، دا وکاروئ.",
+          "when": "کله چې د قرارداديانو معلومات ساتئ یا تازه کوئ، یا د پروژې لګښتونو لپاره عرضه کوونکی ټاکئ، دا اختیار وکاروئ.",
           "how": "Control Panel پرانیزئ او Contractors وټاکئ.",
           "inputs": "د لېست د لیدلو لپاره معلوماتو ته اړتیا نشته؛ که د لټون یا چاڼ امکان وي، یوازې هماغه وکاروئ.",
           "result": "د قرارداديانو نوملړ او شته کړنې ښکاره کېږي.",
@@ -6839,7 +6839,7 @@
           "purpose": "فرم ثبت شرکت و قرارداد اصلی آن را باز می‌کند.",
           "when": "وقتی می‌خواهید مدیریت یک شرکت پیمانکاری یا سازمان مشتری جدید را شروع کنید، از این گزینه استفاده کنید.",
           "how": "Add Company را انتخاب کنید، مشخصات شرکت و قرارداد اصلی درخواستی را وارد و ذخیره کنید.",
-          "inputs": "نام قانونی یا تجاری شرکت و جزئیات قرارداد اصلیِ درخواستی فرم را وارد کنید.",
+          "inputs": "نام شرکت الزامی است. شماره مرجع، نام شخص تماس، تلفن، ایمیل، نشانی، تاریخ‌های قرارداد، شرایط و پیوست قرارداد در صورت مرتبط‌بودن اختیاری هستند.",
           "result": "در صورت موفقیت اعتبارسنجی، سابقه شرکت و قرارداد اصلی ایجاد می‌شود.",
           "notes": "نام حقوقی/تجاری و جزئیات قرارداد توافق‌شده را بررسی کنید. سوابق و امور مالی شرکت در فضای Company Contracts & Jobs باقی می‌مانند."
         },
@@ -6847,7 +6847,7 @@
           "purpose": "يفتح نموذج تسجيل شركة وعقدها الرئيسي.",
           "when": "عند بدء إدارة شركة مقاولات أو جهة عميلة جديدة.",
           "how": "اختر Add Company، وأدخل بيانات الشركة والعقد الرئيسي المطلوبة، ثم احفظ.",
-          "inputs": "أدخل اسم الشركة القانوني أو التجاري وبيانات العقد الرئيسي المطلوبة في النموذج.",
+          "inputs": "اسم الشركة مطلوب. أما المرجع واسم جهة الاتصال والهاتف والبريد الإلكتروني والعنوان وتواريخ العقد وشروطه ومرفق العقد فهي اختيارية عند الحاجة.",
           "result": "يُنشأ سجل الشركة وعقدها الرئيسي إذا اجتازا التحقق.",
           "notes": "تحقق من الاسم القانوني أو التجاري ومن تفاصيل العقد المتفق عليها. تبقى سجلات الشركة وبياناتها المالية ضمن مساحة Company Contracts & Jobs."
         },
@@ -6855,7 +6855,7 @@
           "purpose": "فۆڕمی تۆمارکردنی کۆمپانیا و گرێبەستی سەرەکییەکەی دەکاتەوە.",
           "when": "کاتێک دەست بە بەڕێوەبردنی کۆمپانیایەکی پیمانکاری یان دامەزراوەیەکی کڕیاری نوێ دەکەیت.",
           "how": "Add Company هەڵبژێرە، زانیارییە داواکراوەکانی کۆمپانیا و گرێبەستی سەرەکی بنووسە، پاشان پاشەکەوت بکە.",
-          "inputs": "ناوی یاسایی یان بازرگانی کۆمپانیا و زانیارییە داواکراوەکانی گرێبەستی سەرەکی لە فۆڕمەکەدا بنووسە.",
+          "inputs": "ناوی کۆمپانیا پێویستە. ژمارەی ئاماژە، ناوی کەسی پەیوەندی، تەلەفۆن، ئیمەیڵ، ناونیشان، بەروارەکانی گرێبەست، مەرجەکان و هاوپێچی گرێبەست، ئەگەر پەیوەندیدار بن، هەڵبژاردەیین.",
           "result": "ئەگەر پشتڕاستکردنەوە سەرکەوتوو بێت، تۆماری کۆمپانیا و گرێبەستی سەرەکی دروست دەبن.",
           "notes": "ناوی یاسایی/بازرگانی و وردەکارییە ڕێککەوتووەکانی گرێبەست بپشکنە. تۆمار و داراییەکانی کۆمپانیا لە Company Contracts & Jobs دەمێننەوە."
         },
@@ -6863,7 +6863,7 @@
           "purpose": "Forma tomarkirina pargîdaniyekê û peymana wê ya sereke vedike.",
           "when": "Dema ku tu dest bi rêvebirina pargîdaniyek nû ya peymankarî an rêxistinek xerîdar dikî.",
           "how": "Add Company hilbijêre, agahiyên pargîdanî û peymana sereke yên ku têne xwestin binivîse, paşê tomar bike.",
-          "inputs": "Navê qanûnî an bazirganî yê pargîdanî û hûrguliyên peymana sereke yên ku form dixwaze binivîse.",
+          "inputs": "Navê pargîdanî pêwîst e. Referans, navê kesê têkiliyê, telefon, e-name, navnîşan, dîrokên peymanê, şert û pêveka peymanê dema ku têkildar bin vebijarkî ne.",
           "result": "Ger kontrolkirin serkeftî be, tomara pargîdanî û peymana wê ya sereke têne çêkirin.",
           "notes": "Navê qanûnî/bazirganî û hûrguliyên peymana lihevhatî kontrol bike. Tomar û darayiya pargîdanî di Company Contracts & Jobs de dimînin."
         },
@@ -6871,7 +6871,7 @@
           "purpose": "Bir şirketi ve ana sözleşmesini kaydetmek için formu açar.",
           "when": "Yeni bir yüklenici şirketini veya müşteri kuruluşunu yönetmeye başlarken kullanın.",
           "how": "Add Company'yi seçin, istenen şirket ve ana sözleşme bilgilerini girin, ardından kaydedin.",
-          "inputs": "Formun istediği şirketin yasal veya ticari adını ve ana sözleşme ayrıntılarını girin.",
+          "inputs": "Şirket adı zorunludur. Referans, ilgili kişinin adı, telefon, e-posta, adres, sözleşme tarihleri, şartlar ve sözleşme eki ilgili olduğunda isteğe bağlıdır.",
           "result": "Doğrulama başarılı olursa şirket kaydı ve ana sözleşmesi oluşturulur.",
           "notes": "Yasal/ticari adı ve üzerinde anlaşılan sözleşme ayrıntılarını doğrulayın. Şirket kayıtları ve mali verileri Company Contracts & Jobs çalışma alanında kalır."
         },
@@ -6879,7 +6879,7 @@
           "purpose": "Otwiera formularz rejestracji firmy i jej głównej umowy.",
           "when": "Użyj podczas rozpoczynania obsługi nowej firmy wykonawczej lub organizacji klienta.",
           "how": "Wybierz Add Company, wprowadź wymagane dane firmy i głównej umowy, a następnie zapisz.",
-          "inputs": "Wprowadź wymaganą w formularzu nazwę prawną lub handlową firmy oraz szczegóły głównej umowy.",
+          "inputs": "Nazwa firmy jest wymagana. Numer referencyjny, osoba kontaktowa, telefon, e-mail, adres, daty umowy, warunki i załącznik do umowy są opcjonalne, jeśli mają zastosowanie.",
           "result": "Jeśli walidacja przebiegnie pomyślnie, zostanie utworzony rekord firmy i jej główna umowa.",
           "notes": "Sprawdź nazwę prawną/handlową i uzgodnione warunki umowy. Dane firmy i jej finanse pozostają w obszarze Company Contracts & Jobs."
         },
@@ -6887,7 +6887,7 @@
           "purpose": "کمپنی اور اس کے مرکزی معاہدے کے اندراج کا فارم کھولتا ہے۔",
           "when": "جب کسی نئی ٹھیکیدار کمپنی یا کلائنٹ ادارے کا انتظام شروع کرنا ہو تو استعمال کریں۔",
           "how": "Add Company منتخب کریں، مطلوبہ کمپنی اور مرکزی معاہدے کی تفصیلات درج کریں، پھر محفوظ کریں۔",
-          "inputs": "فارم میں مطلوبہ کمپنی کا قانونی یا تجارتی نام اور مرکزی معاہدے کی تفصیلات درج کریں۔",
+          "inputs": "کمپنی کا نام لازمی ہے۔ حوالہ نمبر، رابطہ شخص کا نام، فون، ای میل، پتہ، معاہدے کی تاریخیں، شرائط اور معاہدے کی منسلکہ فائل متعلقہ ہونے پر اختیاری ہیں۔",
           "result": "تصدیق کامیاب ہونے پر کمپنی کا ریکارڈ اور اس کا مرکزی معاہدہ بن جاتا ہے۔",
           "notes": "قانونی/تجارتی نام اور طے شدہ معاہدے کی تفصیلات کی تصدیق کریں۔ کمپنی کے ریکارڈ اور مالی معلومات Company Contracts & Jobs ورک اسپیس میں رہتی ہیں۔"
         },
@@ -6895,7 +6895,7 @@
           "purpose": "ਕੰਪਨੀ ਅਤੇ ਉਸਦੇ ਮੁੱਖ ਕਰਾਰ ਨੂੰ ਰਜਿਸਟਰ ਕਰਨ ਲਈ ਫਾਰਮ ਖੋਲ੍ਹਦਾ ਹੈ।",
           "when": "ਜਦੋਂ ਨਵੀਂ ਠੇਕੇਦਾਰ ਕੰਪਨੀ ਜਾਂ ਗਾਹਕ ਸੰਸਥਾ ਦਾ ਪ੍ਰਬੰਧ ਸ਼ੁਰੂ ਕਰਨਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
           "how": "Add Company ਚੁਣੋ, ਮੰਗੇ ਗਏ ਕੰਪਨੀ ਅਤੇ ਮੁੱਖ ਕਰਾਰ ਦੇ ਵੇਰਵੇ ਭਰੋ, ਫਿਰ ਸੇਵ ਕਰੋ।",
-          "inputs": "ਫਾਰਮ ਵਿੱਚ ਮੰਗਿਆ ਕੰਪਨੀ ਦਾ ਕਾਨੂੰਨੀ ਜਾਂ ਵਪਾਰਕ ਨਾਮ ਅਤੇ ਮੁੱਖ ਕਰਾਰ ਦੇ ਵੇਰਵੇ ਭਰੋ।",
+          "inputs": "ਕੰਪਨੀ ਦਾ ਨਾਮ ਲਾਜ਼ਮੀ ਹੈ। ਹਵਾਲਾ, ਸੰਪਰਕ ਵਿਅਕਤੀ ਦਾ ਨਾਮ, ਫ਼ੋਨ, ਈਮੇਲ, ਪਤਾ, ਕਰਾਰ ਦੀਆਂ ਤਾਰੀਖਾਂ, ਸ਼ਰਤਾਂ ਅਤੇ ਕਰਾਰ ਦੀ ਅਟੈਚਮੈਂਟ ਲੋੜ ਅਨੁਸਾਰ ਵਿਕਲਪਿਕ ਹਨ।",
           "result": "ਜਾਂਚ ਸਫਲ ਹੋਣ 'ਤੇ ਕੰਪਨੀ ਦਾ ਰਿਕਾਰਡ ਅਤੇ ਮੁੱਖ ਕਰਾਰ ਬਣ ਜਾਂਦੇ ਹਨ।",
           "notes": "ਕਾਨੂੰਨੀ/ਵਪਾਰਕ ਨਾਮ ਅਤੇ ਸਹਿਮਤ ਕਰਾਰ ਦੇ ਵੇਰਵੇ ਜਾਂਚੋ। ਕੰਪਨੀ ਦੇ ਰਿਕਾਰਡ ਅਤੇ ਵਿੱਤੀ ਜਾਣਕਾਰੀ Company Contracts & Jobs ਵਰਕਸਪੇਸ ਵਿੱਚ ਰਹਿੰਦੀ ਹੈ।"
         },
@@ -6903,7 +6903,7 @@
           "purpose": "فرم ثبت شرکت و قرارداد اصلی آن را باز می‌کند.",
           "when": "هنگامی که مدیریت یک شرکت پیمانکاری یا سازمان مشتری جدید را آغاز می‌کنید استفاده کنید.",
           "how": "Add Company را انتخاب کنید، اطلاعات خواسته‌شده شرکت و قرارداد اصلی را وارد کنید و سپس ذخیره کنید.",
-          "inputs": "نام قانونی یا تجاری شرکت و جزئیات قرارداد اصلی را که فرم درخواست می‌کند وارد کنید.",
+          "inputs": "نام شرکت الزامی است. شماره مرجع، نام شخص تماس، تلفن، ایمیل، نشانی، تاریخ‌های قرارداد، شرایط و ضمیمه قرارداد در صورت مرتبط‌بودن اختیاری هستند.",
           "result": "در صورت موفقیت اعتبارسنجی، سابقه شرکت و قرارداد اصلی آن ایجاد می‌شود.",
           "notes": "نام قانونی/تجاری و جزئیات قرارداد توافق‌شده را بررسی کنید. سوابق و اطلاعات مالی شرکت در فضای Company Contracts & Jobs باقی می‌مانند."
         },
@@ -6911,7 +6911,7 @@
           "purpose": "د شرکت او د هغه د اصلي قرارداد د ثبتولو فورمه پرانیزي.",
           "when": "کله چې د نوي قراردادي شرکت یا پېرودونکي ادارې اداره پیل کوئ، دا وکاروئ.",
           "how": "Add Company وټاکئ، د شرکت او اصلي قرارداد غوښتل شوي معلومات ولیکئ، بیا یې خوندي کړئ.",
-          "inputs": "د شرکت قانوني یا سوداګریز نوم او د اصلي قرارداد هغه جزئیات ولیکئ چې فورمه یې غواړي.",
+          "inputs": "د شرکت نوم اړین دی. د مرجع شمېره، د اړیکې کس نوم، ټیلیفون، برېښنالیک، پته، د قرارداد نېټې، شرطونه او د قرارداد ضمیمه د اړتیا له مخې اختیاري دي.",
           "result": "که ارزونه بریالۍ وي، د شرکت ریکارډ او اصلي قرارداد یې جوړېږي.",
           "notes": "قانوني/سوداګریز نوم او د هوکړه شوي قرارداد جزئیات وګورئ. د شرکت ریکارډونه او مالي معلومات په Company Contracts & Jobs کاري ځای کې پاتې کېږي."
         }
@@ -7035,7 +7035,7 @@
           "purpose": "نمای عملکرد مالی یک شرکت و کارهای آن را باز می‌کند.",
           "when": "برای بررسی درآمد، کسورات، هزینه‌ها و نتیجه مالی به تفکیک شرکت یا کار از این گزینه استفاده کنید.",
           "how": "گزارش مالی شرکت را باز کنید و در صورت درخواست، شرکت یا کار مربوط را انتخاب کنید.",
-          "inputs": "در صورت درخواست برنامه، شرکت و کار مربوط را انتخاب کنید؛ برای مشاهده گزارش نیازی به ثبت اطلاعات مالی جدید نیست.",
+          "inputs": "از انتخابگر Company یک شرکت یا All companies را انتخاب کنید. از انتخابگر Project / job یک کار یا همه کارهای شرکت انتخاب‌شده را برگزینید.",
           "result": "اطلاعات سود و زیان شرکت/کار نمایش داده می‌شود.",
           "notes": "این گزارش فقط بر سوابق Company Contracts & Jobs متکی است و با Accountancy ادغام نمی‌شود. در صورت نیاز نحوه برخورد با پرداخت و کسورات را با حسابدار بررسی کنید."
         },
@@ -7043,7 +7043,7 @@
           "purpose": "يفتح عرض الأداء المالي لشركة ووظائفها.",
           "when": "عند مراجعة الدخل والاستقطاعات والمصروفات والنتائج حسب الشركة أو الوظيفة.",
           "how": "افتح التقرير المالي للشركة، واختر الشركة أو الوظيفة المعنية إذا طُلب ذلك.",
-          "inputs": "اختر الشركة والوظيفة المعنيتين إذا طلب التطبيق ذلك؛ لا يلزم إدخال بيانات مالية لعرض التقرير.",
+          "inputs": "استخدم محدد Company لاختيار شركة واحدة أو All companies. واستخدم محدد Project / job لاختيار وظيفة واحدة أو جميع وظائف الشركة المحددة.",
           "result": "تظهر معلومات الأرباح والخسائر للشركة أو الوظيفة المحددة.",
           "notes": "يعتمد التقرير على سجلات Company Contracts & Jobs فقط ولا يُدمج مع Accountancy. استشر المحاسب بشأن معالجة الدفعات والاستقطاعات عند الحاجة."
         },
@@ -7051,7 +7051,7 @@
           "purpose": "نمایشی ئەدای دارایی کۆمپانیا و کارەکانی دەکاتەوە.",
           "when": "کاتێک داهات، لێبڕین، خەرجی و ئەنجامەکان بە پێی کۆمپانیا یان کار پێداچوونەوەیان بۆ دەکەیت.",
           "how": "ڕاپۆرتی دارایی کۆمپانیا بکەرەوە و ئەگەر داوا کرا، کۆمپانیا یان کاری پەیوەندیدار هەڵبژێرە.",
-          "inputs": "ئەگەر ئەپەکە داوای کرد، کۆمپانیا و کاری پەیوەندیدار هەڵبژێرە؛ بۆ بینینی ڕاپۆرت زانیاری دارایی نوێ مەنووسە.",
+          "inputs": "لە هەڵبژێری Company یەک کۆمپانیا یان All companies هەڵبژێرە. لە هەڵبژێری Project / job یەک کار یان هەموو کارەکانی ئەو کۆمپانیایەی هەڵبژێردراوە دیاری بکە.",
           "result": "زانیاری قازانج و زیانی کۆمپانیا یان کاری دیاریکراو پیشان دەدرێت.",
           "notes": "ئەم ڕاپۆرتە تەنها پشت بە تۆمارەکانی Company Contracts & Jobs دەبەستێت و لەگەڵ Accountancy تێکەڵ ناکرێت. لە کاتی پێویستدا مامەڵەی پارەدان و لێبڕینەکان لەگەڵ ژمێریار پشتڕاست بکەرەوە."
         },
@@ -7059,7 +7059,7 @@
           "purpose": "Dîtina performansa darayî ya pargîdaniyekê û karên wê vedike.",
           "when": "Dema ku tu dahat, kêmtî, lêçûn û encaman li gorî pargîdanî an kar dinirxînî.",
           "how": "Rapora darayî ya pargîdanî veke û heke were xwestin pargîdanî an karê têkildar hilbijêre.",
-          "inputs": "Heke sepanê bixwaze pargîdanî û karê têkildar hilbijêre; ji bo dîtina raporê agahiyên darayî yên nû nede.",
+          "inputs": "Di hilbijêra Company de pargîdaniyek an All companies hilbijêre. Di hilbijêra Project / job de karek an hemû karên pargîdaniya hilbijartî hilbijêre.",
           "result": "Agahiyên qezenc û zirarê yên pargîdanî an karê hilbijartî xuya dibin.",
           "notes": "Ev rapor tenê li ser tomarên Company Contracts & Jobs hatiye avakirin û bi Accountancy re nayê tevlihevkirin. Ger pêwîst be, awayê hesabkirina dravdan û kêmtîyan bi hesabdar re piştrast bike."
         },
@@ -7067,7 +7067,7 @@
           "purpose": "Bir şirketin ve işlerinin finansal performans görünümünü açar.",
           "when": "Gelirleri, kesintileri, giderleri ve sonuçları şirkete veya işe göre incelerken kullanın.",
           "how": "Şirketin mali raporunu açın ve istenirse ilgili şirketi veya işi seçin.",
-          "inputs": "Uygulama isterse ilgili şirketi ve işi seçin; raporu görüntülemek için yeni mali veri girmeniz gerekmez.",
+          "inputs": "Company seçicisinden tek bir şirketi veya All companies seçeneğini belirleyin. Project / job seçicisinden seçilen şirket için tek bir işi ya da tüm işleri seçin.",
           "result": "Seçilen şirket veya iş için kâr ve zarar bilgileri görüntülenir.",
           "notes": "Bu rapor yalnızca Company Contracts & Jobs kayıtlarına dayanır ve Accountancy ile birleştirilmez. Gerektiğinde ödeme ve kesinti işlemlerini muhasebecinizle doğrulayın."
         },
@@ -7075,7 +7075,7 @@
           "purpose": "Otwiera widok wyników finansowych firmy i jej zleceń.",
           "when": "Użyj podczas analizowania przychodów, potrąceń, wydatków i wyników według firmy lub zlecenia.",
           "how": "Otwórz raport finansowy firmy i, jeśli pojawi się prośba, wybierz odpowiednią firmę lub zlecenie.",
-          "inputs": "Jeśli aplikacja o to poprosi, wybierz właściwą firmę i zlecenie; do samego wyświetlenia raportu nie trzeba wprowadzać nowych danych finansowych.",
+          "inputs": "W selektorze Company wybierz jedną firmę lub All companies. W selektorze Project / job wybierz jedno zlecenie albo wszystkie zlecenia wybranej firmy.",
           "result": "Wyświetlane są informacje o zyskach i stratach wybranej firmy lub zlecenia.",
           "notes": "Raport opiera się wyłącznie na danych z Company Contracts & Jobs i nie jest łączony z Accountancy. W razie potrzeby uzgodnij z księgowym sposób ujmowania płatności i potrąceń."
         },
@@ -7083,7 +7083,7 @@
           "purpose": "کمپنی اور اس کے کاموں کی مالی کارکردگی کا منظر کھولتا ہے۔",
           "when": "جب کمپنی یا کام کے لحاظ سے آمدنی، کٹوتیوں، اخراجات اور نتائج کا جائزہ لینا ہو تو استعمال کریں۔",
           "how": "کمپنی کی مالی رپورٹ کھولیں اور اگر کہا جائے تو متعلقہ کمپنی یا کام منتخب کریں۔",
-          "inputs": "اگر ایپ پوچھے تو متعلقہ کمپنی اور کام منتخب کریں؛ رپورٹ دیکھنے کے لیے نئی مالی معلومات درج کرنے کی ضرورت نہیں۔",
+          "inputs": "Company سلیکٹر میں ایک کمپنی یا All companies منتخب کریں۔ Project / job سلیکٹر میں منتخب کمپنی کا ایک کام یا تمام کام منتخب کریں۔",
           "result": "منتخب کمپنی یا کام کے منافع اور نقصان کی معلومات دکھائی دیتی ہیں۔",
           "notes": "یہ رپورٹ صرف Company Contracts & Jobs کے ریکارڈ پر مبنی ہے اور Accountancy کے ساتھ ضم نہیں ہوتی۔ ضرورت پڑنے پر ادائیگیوں اور کٹوتیوں کے طریقۂ کار کی اپنے اکاؤنٹنٹ سے تصدیق کریں۔"
         },
@@ -7091,7 +7091,7 @@
           "purpose": "ਕੰਪਨੀ ਅਤੇ ਉਸਦੇ ਕੰਮਾਂ ਦੀ ਵਿੱਤੀ ਕਾਰਗੁਜ਼ਾਰੀ ਵਾਲਾ ਦ੍ਰਿਸ਼ ਖੋਲ੍ਹਦਾ ਹੈ।",
           "when": "ਜਦੋਂ ਕੰਪਨੀ ਜਾਂ ਕੰਮ ਅਨੁਸਾਰ ਆਮਦਨ, ਕਟੌਤੀਆਂ, ਖਰਚਿਆਂ ਅਤੇ ਨਤੀਜਿਆਂ ਦੀ ਸਮੀਖਿਆ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
           "how": "ਕੰਪਨੀ ਦੀ ਵਿੱਤੀ ਰਿਪੋਰਟ ਖੋਲ੍ਹੋ ਅਤੇ ਜੇ ਪੁੱਛਿਆ ਜਾਵੇ ਤਾਂ ਸੰਬੰਧਿਤ ਕੰਪਨੀ ਜਾਂ ਕੰਮ ਚੁਣੋ।",
-          "inputs": "ਜੇ ਐਪ ਪੁੱਛੇ ਤਾਂ ਸੰਬੰਧਿਤ ਕੰਪਨੀ ਅਤੇ ਕੰਮ ਚੁਣੋ; ਰਿਪੋਰਟ ਵੇਖਣ ਲਈ ਨਵਾਂ ਵਿੱਤੀ ਡਾਟਾ ਭਰਨ ਦੀ ਲੋੜ ਨਹੀਂ।",
+          "inputs": "Company ਚੋਣਕਾਰ ਵਿੱਚ ਇੱਕ ਕੰਪਨੀ ਜਾਂ All companies ਚੁਣੋ। Project / job ਚੋਣਕਾਰ ਵਿੱਚ ਚੁਣੀ ਕੰਪਨੀ ਦਾ ਇੱਕ ਕੰਮ ਜਾਂ ਸਾਰੇ ਕੰਮ ਚੁਣੋ।",
           "result": "ਚੁਣੀ ਕੰਪਨੀ ਜਾਂ ਕੰਮ ਦੇ ਲਾਭ ਅਤੇ ਨੁਕਸਾਨ ਦੀ ਜਾਣਕਾਰੀ ਦਿਖਾਈ ਦਿੰਦੀ ਹੈ।",
           "notes": "ਇਹ ਰਿਪੋਰਟ ਸਿਰਫ਼ Company Contracts & Jobs ਦੇ ਰਿਕਾਰਡਾਂ 'ਤੇ ਆਧਾਰਿਤ ਹੈ ਅਤੇ Accountancy ਨਾਲ ਨਹੀਂ ਮਿਲਾਈ ਜਾਂਦੀ। ਲੋੜ ਪੈਣ 'ਤੇ ਭੁਗਤਾਨਾਂ ਅਤੇ ਕਟੌਤੀਆਂ ਦੇ ਹਿਸਾਬ ਬਾਰੇ ਅਕਾਊਂਟੈਂਟ ਨਾਲ ਪੁਸ਼ਟੀ ਕਰੋ।"
         },
@@ -7099,7 +7099,7 @@
           "purpose": "نمای عملکرد مالی یک شرکت و کارهای آن را باز می‌کند.",
           "when": "هنگام بررسی درآمد، کسورات، هزینه‌ها و نتایج به تفکیک شرکت یا کار استفاده کنید.",
           "how": "گزارش مالی شرکت را باز کنید و در صورت درخواست، شرکت یا کار مربوط را انتخاب کنید.",
-          "inputs": "اگر برنامه درخواست کرد، شرکت و کار مربوط را انتخاب کنید؛ برای مشاهده گزارش نیازی به واردکردن اطلاعات مالی تازه نیست.",
+          "inputs": "در انتخابگر Company یک شرکت یا All companies را انتخاب کنید. در انتخابگر Project / job یک کار یا همه کارهای شرکت انتخاب‌شده را برگزینید.",
           "result": "اطلاعات سود و زیان شرکت یا کار انتخاب‌شده نمایش داده می‌شود.",
           "notes": "این گزارش فقط بر سوابق Company Contracts & Jobs متکی است و با Accountancy ادغام نمی‌شود. در صورت نیاز نحوه ثبت پرداخت‌ها و کسورات را با حسابدار بررسی کنید."
         },
@@ -7107,7 +7107,7 @@
           "purpose": "د شرکت او د هغه د کارونو د مالي فعالیت لید پرانیزي.",
           "when": "کله چې د شرکت یا کار له مخې عاید، کسرونه، لګښتونه او پایلې څېړئ، دا وکاروئ.",
           "how": "د شرکت مالي راپور پرانیزئ او که غوښتنه وشي، اړوند شرکت یا کار وټاکئ.",
-          "inputs": "که اپلیکیشن غوښتنه وکړي، اړوند شرکت او کار وټاکئ؛ د راپور د لیدلو لپاره نوي مالي معلومات مه ورزیاتوئ.",
+          "inputs": "د Company له انتخابوونکي څخه یوه شرکت یا All companies وټاکئ. د Project / job له انتخابوونکي څخه د ټاکل شوې شرکت یو کار یا ټول کارونه وټاکئ.",
           "result": "د ټاکل شوي شرکت یا کار د ګټې او زیان معلومات ښکاره کېږي.",
           "notes": "دا راپور یوازې د Company Contracts & Jobs پر ریکارډونو ولاړ دی او له Accountancy سره نه یوځای کېږي. د اړتیا پر مهال د تادیاتو او کسرونو چلند له محاسب سره تایید کړئ."
         }
@@ -7133,7 +7133,7 @@
           "purpose": "اطلاعات شرکت واردشده در فرم را اعتبارسنجی و ذخیره می‌کند.",
           "when": "پس از واردکردن یا ویرایش مشخصات اصلی شرکت و اطلاعات قرارداد از این گزینه استفاده کنید.",
           "how": "نام شرکت و جزئیات اجباری قرارداد را بررسی و Save Company را انتخاب کنید.",
-          "inputs": "اطلاعات شرکت و قراردادِ خواسته‌شده در فرم را وارد کنید و فیلدهای اجباریِ خالی را تکمیل کنید.",
+          "inputs": "نام شرکت الزامی است. شماره مرجع، اطلاعات تماس، تلفن، ایمیل، نشانی، تاریخ شروع و پایان، شرایط و پیوست PDF یا تصویر قرارداد اختیاری هستند.",
           "result": "در صورت موفقیت اعتبارسنجی و ذخیره‌سازی، سابقه شرکت ذخیره می‌شود.",
           "notes": "شرکت درست را بررسی و از ثبت تکراری خودداری کنید. پیش از خروج پیام وضعیت ذخیره را تأیید کنید."
         },
@@ -7141,7 +7141,7 @@
           "purpose": "يتحقق من بيانات الشركة المدخلة في النموذج ويحفظها.",
           "when": "بعد إدخال أو تعديل البيانات الرئيسية للشركة ومعلومات العقد.",
           "how": "راجع اسم الشركة وتفاصيل العقد الإلزامية، ثم اختر Save Company.",
-          "inputs": "أدخل بيانات الشركة وتفاصيل العقد التي يطلبها النموذج، وصحح أي حقول إلزامية ناقصة.",
+          "inputs": "اسم الشركة مطلوب. أما المرجع وبيانات الاتصال والهاتف والبريد الإلكتروني والعنوان وتاريخا البدء والانتهاء والشروط ومرفق العقد بصيغة PDF أو صورة فهي اختيارية.",
           "result": "يُحفظ سجل الشركة إذا نجح التحقق والتخزين.",
           "notes": "تأكد من اختيار الشركة الصحيحة وتجنب إنشاء سجل مكرر. تحقق من ظهور تأكيد الحفظ قبل المغادرة."
         },
@@ -7149,7 +7149,7 @@
           "purpose": "زانیاری کۆمپانیای نووسراو لە فۆڕمەکەدا پشتڕاست دەکاتەوە و پاشەکەوتی دەکات.",
           "when": "دوای نووسین یان دەستکاریکردنی زانیارییە سەرەکییەکانی کۆمپانیا و زانیاری گرێبەست.",
           "how": "ناوی کۆمپانیا و وردەکارییە پێویستەکانی گرێبەست بپشکنە، پاشان Save Company هەڵبژێرە.",
-          "inputs": "زانیاری کۆمپانیا و وردەکارییەکانی گرێبەست کە فۆڕمەکە داوای دەکات بنووسە و خانە پێویستە بەتاڵەکان پڕ بکەرەوە.",
+          "inputs": "ناوی کۆمپانیا پێویستە. ژمارەی ئاماژە، زانیاری پەیوەندی، تەلەفۆن، ئیمەیڵ، ناونیشان، بەرواری دەستپێک و کۆتایی، مەرجەکان و هاوپێچی PDF یان وێنەی گرێبەست هەڵبژاردەیین.",
           "result": "ئەگەر پشتڕاستکردنەوە و پاشەکەوتکردن سەرکەوتوو بن، تۆماری کۆمپانیا پاشەکەوت دەکرێت.",
           "notes": "دڵنیابە کۆمپانیای دروستت هەڵبژاردووە و تۆماری دووبارە دروست مەکە. پێش دەرچوون پشتڕاستی پاشەکەوتکردن ببینە."
         },
@@ -7157,7 +7157,7 @@
           "purpose": "Agahiyên pargîdaniya ku di forma de hatine nivîsandin kontrol dike û tomar dike.",
           "when": "Piştî ku tu agahiyên bingehîn ên pargîdanî û hûrguliyên peymanê dinivîsî an diguherînî.",
           "how": "Navê pargîdanî û hûrguliyên peymana pêwîst kontrol bike, paşê Save Company hilbijêre.",
-          "inputs": "Agahiyên pargîdanî û hûrguliyên peymanê yên ku form dixwaze binivîse û qadên pêwîst ên vala temam bike.",
+          "inputs": "Navê pargîdanî pêwîst e. Referans, agahiyên têkiliyê, telefon, e-name, navnîşan, dîrokên destpêk û dawî, şert û pêveka PDF an wêneya peymanê vebijarkî ne.",
           "result": "Ger kontrol û tomarkirin serkeftî bin, tomara pargîdanî tê tomarkirin.",
           "notes": "Piştrast bike ku pargîdaniya rast hilbijartiye û tomara dubare çêneke. Berî derketinê piştrastkirina tomarkirinê kontrol bike."
         },
@@ -7165,7 +7165,7 @@
           "purpose": "Şirket formuna girilen bilgileri doğrular ve kaydeder.",
           "when": "Şirketin temel bilgilerini ve sözleşme ayrıntılarını girdikten veya düzenledikten sonra kullanın.",
           "how": "Şirket adını ve zorunlu sözleşme ayrıntılarını kontrol edin, ardından Save Company'yi seçin.",
-          "inputs": "Formun istediği şirket ve sözleşme bilgilerini girin; eksik zorunlu alanları tamamlayın.",
+          "inputs": "Şirket adı zorunludur. Referans, iletişim bilgileri, telefon, e-posta, adres, başlangıç/bitiş tarihleri, şartlar ve PDF/resim sözleşme eki isteğe bağlıdır.",
           "result": "Doğrulama ve kayıt başarılı olursa şirket kaydedilir.",
           "notes": "Doğru şirketi seçtiğinizi kontrol edin ve yinelenen kayıt oluşturmayın. Ayrılmadan önce kayıt onayını doğrulayın."
         },
@@ -7173,7 +7173,7 @@
           "purpose": "Sprawdza i zapisuje dane firmy wprowadzone w formularzu.",
           "when": "Użyj po wprowadzeniu lub edycji podstawowych danych firmy i informacji o umowie.",
           "how": "Sprawdź nazwę firmy i wymagane szczegóły umowy, a następnie wybierz Save Company.",
-          "inputs": "Wprowadź dane firmy i umowy wymagane przez formularz oraz uzupełnij brakujące pola obowiązkowe.",
+          "inputs": "Nazwa firmy jest wymagana. Numer referencyjny, dane kontaktowe, telefon, e-mail, adres, daty rozpoczęcia i zakończenia, warunki oraz załącznik umowy w formacie PDF lub obrazu są opcjonalne.",
           "result": "Jeśli walidacja i zapis zakończą się powodzeniem, rekord firmy zostanie zapisany.",
           "notes": "Upewnij się, że wybrano właściwą firmę, i unikaj duplikatów. Przed opuszczeniem formularza sprawdź potwierdzenie zapisu."
         },
@@ -7181,7 +7181,7 @@
           "purpose": "کمپنی فارم میں درج معلومات کی توثیق کرکے محفوظ کرتا ہے۔",
           "when": "کمپنی کی بنیادی تفصیلات اور معاہدے کی معلومات درج یا ترمیم کرنے کے بعد استعمال کریں۔",
           "how": "کمپنی کا نام اور معاہدے کی لازمی تفصیلات دیکھیں، پھر Save Company منتخب کریں۔",
-          "inputs": "فارم میں مطلوبہ کمپنی اور معاہدے کی معلومات درج کریں اور لازمی خالی خانے مکمل کریں۔",
+          "inputs": "کمپنی کا نام لازمی ہے۔ حوالہ، رابطے کی معلومات، فون، ای میل، پتہ، آغاز اور اختتام کی تاریخیں، شرائط اور معاہدے کی PDF یا تصویر منسلکہ اختیاری ہیں۔",
           "result": "توثیق اور محفوظ کرنے کا عمل کامیاب ہو تو کمپنی کا ریکارڈ محفوظ ہو جاتا ہے۔",
           "notes": "یقین کریں کہ درست کمپنی منتخب کی ہے اور ڈپلیکیٹ ریکارڈ نہ بنائیں۔ جانے سے پہلے محفوظ ہونے کی تصدیق دیکھیں۔"
         },
@@ -7189,7 +7189,7 @@
           "purpose": "ਕੰਪਨੀ ਫਾਰਮ ਵਿੱਚ ਭਰੀ ਜਾਣਕਾਰੀ ਦੀ ਜਾਂਚ ਕਰਕੇ ਸੇਵ ਕਰਦਾ ਹੈ।",
           "when": "ਕੰਪਨੀ ਦੇ ਮੁੱਖ ਵੇਰਵੇ ਅਤੇ ਕਰਾਰ ਦੀ ਜਾਣਕਾਰੀ ਭਰਨ ਜਾਂ ਸੋਧਣ ਤੋਂ ਬਾਅਦ ਵਰਤੋ।",
           "how": "ਕੰਪਨੀ ਦਾ ਨਾਮ ਅਤੇ ਕਰਾਰ ਦੇ ਲਾਜ਼ਮੀ ਵੇਰਵੇ ਜਾਂਚੋ, ਫਿਰ Save Company ਚੁਣੋ।",
-          "inputs": "ਫਾਰਮ ਵੱਲੋਂ ਮੰਗੀ ਕੰਪਨੀ ਅਤੇ ਕਰਾਰ ਦੀ ਜਾਣਕਾਰੀ ਭਰੋ ਅਤੇ ਲਾਜ਼ਮੀ ਖਾਲੀ ਖੇਤਰ ਪੂਰੇ ਕਰੋ।",
+          "inputs": "ਕੰਪਨੀ ਦਾ ਨਾਮ ਲਾਜ਼ਮੀ ਹੈ। ਹਵਾਲਾ, ਸੰਪਰਕ ਵੇਰਵੇ, ਫ਼ੋਨ, ਈਮੇਲ, ਪਤਾ, ਸ਼ੁਰੂ ਅਤੇ ਅੰਤ ਦੀਆਂ ਤਾਰੀਖਾਂ, ਸ਼ਰਤਾਂ ਅਤੇ ਕਰਾਰ ਦੀ PDF/ਤਸਵੀਰ ਅਟੈਚਮੈਂਟ ਵਿਕਲਪਿਕ ਹਨ।",
           "result": "ਜਾਂਚ ਅਤੇ ਸੇਵ ਕਰਨ ਦੀ ਕਾਰਵਾਈ ਸਫਲ ਹੋਵੇ ਤਾਂ ਕੰਪਨੀ ਦਾ ਰਿਕਾਰਡ ਸੇਵ ਹੋ ਜਾਂਦਾ ਹੈ।",
           "notes": "ਪੱਕਾ ਕਰੋ ਕਿ ਸਹੀ ਕੰਪਨੀ ਚੁਣੀ ਹੈ ਅਤੇ ਦੁਹਰਾ ਰਿਕਾਰਡ ਨਾ ਬਣਾਓ। ਜਾਣ ਤੋਂ ਪਹਿਲਾਂ ਸੇਵ ਹੋਣ ਦੀ ਪੁਸ਼ਟੀ ਵੇਖੋ।"
         },
@@ -7197,7 +7197,7 @@
           "purpose": "اطلاعات شرکت واردشده در فرم را اعتبارسنجی و ذخیره می‌کند.",
           "when": "پس از واردکردن یا ویرایش مشخصات اصلی شرکت و اطلاعات قرارداد استفاده کنید.",
           "how": "نام شرکت و جزئیات الزامی قرارداد را بررسی کنید، سپس Save Company را انتخاب کنید.",
-          "inputs": "اطلاعات شرکت و قرارداد موردنیاز فرم را وارد و فیلدهای الزامیِ خالی را تکمیل کنید.",
+          "inputs": "نام شرکت الزامی است. شماره مرجع، اطلاعات تماس، تلفن، ایمیل، نشانی، تاریخ آغاز و پایان، شرایط و ضمیمه PDF یا تصویر قرارداد اختیاری هستند.",
           "result": "اگر اعتبارسنجی و ذخیره‌سازی موفق باشد، سابقه شرکت ذخیره می‌شود.",
           "notes": "بررسی کنید شرکت درست انتخاب شده باشد و سابقه تکراری نسازید. پیش از خروج، تأیید ذخیره را بررسی کنید."
         },
@@ -7205,7 +7205,7 @@
           "purpose": "د شرکت په فورمه کې لیکل شوي معلومات ارزوي او خوندي کوي.",
           "when": "د شرکت د اصلي معلوماتو او قرارداد جزئیاتو له لیکلو یا سمولو وروسته یې وکاروئ.",
           "how": "د شرکت نوم او د قرارداد اړین جزئیات وګورئ، بیا Save Company وټاکئ.",
-          "inputs": "د شرکت او قرارداد هغه معلومات ولیکئ چې فورمه یې غواړي او تش اړین ځایونه بشپړ کړئ.",
+          "inputs": "د شرکت نوم اړین دی. د مرجع شمېره، د اړیکو معلومات، ټیلیفون، برېښنالیک، پته، د پیل او پای نېټې، شرطونه او د قرارداد PDF یا انځور ضمیمه اختیاري دي.",
           "result": "که ارزونه او خوندي کول بریالي شي، د شرکت ریکارډ خوندي کېږي.",
           "notes": "ډاډ ترلاسه کړئ چې سم شرکت مو ټاکلی او تکراري ریکارډ نه جوړوئ. له وتلو مخکې د خوندي کېدو تایید وګورئ."
         }
