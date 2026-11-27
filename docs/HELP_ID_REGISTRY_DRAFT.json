@@ -12048,20 +12048,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open an attachment for a work-package expense.",
-          "when": "Use this control when you need to review supporting evidence for an expense recorded against the selected work package.",
-          "how": "Select the attachment name on the expense row to view its supporting file.",
-          "inputs": "Select the correct expense record and check the attached filename.",
-          "result": "The supporting file attached to the selected work-package expense opens.",
-          "notes": "Check that the attachment belongs to the selected expense before relying on it as evidence."
+          "purpose": "Opens the receipt or other attachment saved with an expense in a work package.",
+          "when": "Use this when inspecting supporting evidence attached to a particular work-package expense.",
+          "how": "In the package Financials expense list, select the attachment filename beside the correct expense. The app opens a new browser tab and displays a PDF in an embedded viewer or an image directly.",
+          "inputs": "Select the correct expense record and confirm that its attachment data is available.",
+          "result": "The saved PDF or image attached to the selected expense opens in a new tab. If file data is missing or pop-ups are blocked, the app displays an alert.",
+          "notes": "Check that the attachment belongs to the selected expense before relying on it as evidence. Opening the file is view-only and does not change the expense record."
         },
         "fa": {
-          "purpose": "باز کردن پیوست هزینه ثبت‌شده برای بسته کاری.",
-          "when": "وقتی لازم است مدرک پشتیبان هزینه ثبت‌شده برای بسته کاری انتخاب‌شده را بررسی کنید، از این گزینه استفاده کنید.",
-          "how": "نام پیوست را در ردیف هزینه انتخاب کنید تا فایل پشتیبان باز شود.",
-          "inputs": "هزینه درست را انتخاب کنید و نام فایل پیوست‌شده را بررسی کنید.",
-          "result": "فایل پشتیبان پیوست‌شده به هزینه انتخاب‌شده در بسته کاری باز می‌شود.",
-          "notes": "پیش از استناد به فایل به‌عنوان مدرک، مطمئن شوید متعلق به همان هزینه است."
+          "purpose": "رسید یا پیوست ذخیره‌شده همراه با هزینه یک بسته کاری را باز می‌کند.",
+          "when": "برای بررسی مدرک پشتیبان پیوست‌شده به یک هزینه مشخص در بسته کاری از این گزینه استفاده کنید.",
+          "how": "در فهرست هزینه‌های Financials بسته، نام پیوست کنار هزینه صحیح را انتخاب کنید. برنامه زبانه جدیدی در مرورگر باز می‌کند و PDF را در نمایشگر داخلی یا تصویر را مستقیماً نمایش می‌دهد.",
+          "inputs": "رکورد هزینه صحیح را انتخاب کنید و مطمئن شوید داده پیوست آن در دسترس است.",
+          "result": "PDF یا تصویر ذخیره‌شده همراه با هزینه انتخاب‌شده در زبانه جدید باز می‌شود. اگر داده فایل موجود نباشد یا پنجره بازشو مسدود باشد، برنامه پیام هشدار نمایش می‌دهد.",
+          "notes": "پیش از استناد به فایل به‌عنوان مدرک، مطمئن شوید متعلق به همان هزینه است. بازکردن فایل فقط برای مشاهده است و رکورد هزینه را تغییر نمی‌دهد."
         },
         "ar": {
           "purpose": "يفتح مرفقاً خاصاً بمصروف مسجل لحزمة عمل.",
@@ -12146,20 +12146,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Delete an expense recorded against a work package.",
-          "when": "Use this control only when the expense record is a duplicate or an entry error that needs correction.",
-          "how": "Choose Delete on the intended expense and review the confirmation prompt.",
-          "inputs": "Select the correct expense and review its details before confirming deletion.",
-          "result": "The selected expense is removed from the work package after confirmation and successful data persistence.",
-          "notes": "This removes a cost record from the package view. Confirm it is a duplicate or error and retain any required accounting evidence."
+          "purpose": "Deletes an expense and its attachment from the selected work package after confirmation.",
+          "when": "Use this only when the package expense is a duplicate or was entered in error and must be removed.",
+          "how": "In the package Financials expense list, select Delete beside the intended expense. Review the confirmation prompt and approve it only if the selected expense should be removed.",
+          "inputs": "Select the correct expense within the correct work package and confirm the deletion prompt.",
+          "result": "After confirmation and successful Projects data persistence, the expense is removed from the package. Its attached receipt file is removed with the expense, and package/job totals and lists are refreshed.",
+          "notes": "DESTRUCTIVE: this removes the package expense record and its nested receipt attachment. It does not delete the work package or the job's payment history. Verify the expense and retain any evidence required for accounting before confirming."
         },
         "fa": {
-          "purpose": "حذف هزینه ثبت‌شده در یک بسته کاری.",
-          "when": "فقط وقتی سابقه هزینه تکراری یا اشتباه ثبت شده و باید اصلاح شود، از این گزینه استفاده کنید.",
-          "how": "در ردیف هزینه موردنظر Delete را انتخاب کنید و پیام تأیید را بررسی کنید.",
-          "inputs": "هزینه درست را انتخاب کنید و پیش از تأیید حذف، جزئیات آن را بررسی کنید.",
-          "result": "پس از تأیید و ذخیره موفق اطلاعات، هزینه انتخاب‌شده از بسته کاری حذف می‌شود.",
-          "notes": "این کار رکورد هزینه را از نمای بسته حذف می‌کند. فقط در صورت تکراری یا اشتباه بودن آن اقدام کنید و مدارک حسابداری را نگه دارید."
+          "purpose": "پس از تأیید، هزینه و پیوست آن را از بسته کاری انتخاب‌شده حذف می‌کند.",
+          "when": "فقط زمانی استفاده کنید که هزینه بسته تکراری یا اشتباه ثبت شده و باید حذف شود.",
+          "how": "در فهرست هزینه‌های Financials بسته، کنار هزینه موردنظر Delete را انتخاب کنید. پیام تأیید را بررسی و فقط در صورت قصد حذف همان هزینه، آن را بپذیرید.",
+          "inputs": "هزینه صحیح را در بسته کاری صحیح انتخاب کنید و پیام تأیید حذف را بپذیرید.",
+          "result": "پس از تأیید و ذخیره موفق داده‌های Projects، هزینه از بسته حذف می‌شود. رسید پیوست‌شده نیز همراه هزینه حذف و مجموع‌ها و فهرست بسته/کار تازه‌سازی می‌شوند.",
+          "notes": "مخرب: این عملیات سابقه هزینه بسته و پیوست رسید داخلی آن را حذف می‌کند. خود بسته کاری یا تاریخچه پرداخت کار حذف نمی‌شود. پیش از تأیید، هزینه را بررسی و مدارک موردنیاز حسابداری را نگه دارید."
         },
         "ar": {
           "purpose": "يحذف مصروفاً مسجلاً على حزمة عمل.",
@@ -12244,20 +12244,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open an attachment from the relevant record.",
-          "when": "Use this control when you need to view a file saved as an attachment to the current record.",
-          "how": "Select Open beside the attachment to view the stored file.",
-          "inputs": "Select the intended attachment and check its filename and contents.",
-          "result": "The saved file attached to the selected record opens; the record itself is not changed.",
-          "notes": "Opening the file does not change the record. Check the filename and contents."
+          "purpose": "Opens the saved attachment associated with a company-job payment record.",
+          "when": "Use this when inspecting remittance advice or other evidence attached to a recorded payment.",
+          "how": "In the payment history, select Open beside the attachment for the correct payment. The app opens a new browser tab and displays a PDF in an embedded viewer or an image directly.",
+          "inputs": "Select the correct payment record and confirm that its attachment data is available.",
+          "result": "The saved PDF or image attached to the payment opens in a new tab. If file data is unavailable or pop-ups are blocked, the app displays an alert.",
+          "notes": "Check the payment date, amounts and filename before relying on the attachment. Opening it is view-only and does not change the payment record."
         },
         "fa": {
-          "purpose": "باز کردن پیوست رکورد انتخاب‌شده.",
-          "when": "وقتی لازم است فایل ذخیره‌شده و پیوست‌شده به سابقه فعلی را مشاهده کنید، از این گزینه استفاده کنید.",
-          "how": "گزینه Open را در کنار پیوست انتخاب کنید تا فایل ذخیره‌شده نمایش داده شود.",
-          "inputs": "پیوست موردنظر را انتخاب کنید و نام و محتوای فایل را بررسی کنید.",
-          "result": "فایل پیوست‌شده به رکورد انتخاب‌شده باز می‌شود و خود رکورد بدون تغییر باقی می‌ماند.",
-          "notes": "باز کردن فایل رکورد را تغییر نمی‌دهد. نام و محتوای فایل را بررسی کنید."
+          "purpose": "پیوست ذخیره‌شده مرتبط با سابقه پرداخت کار شرکتی را باز می‌کند.",
+          "when": "برای بررسی حواله پرداخت یا مدرک دیگری که به یک پرداخت ثبت‌شده پیوست شده است، از این گزینه استفاده کنید.",
+          "how": "در تاریخچه پرداخت‌ها، کنار پیوست پرداخت صحیح Open را انتخاب کنید. برنامه زبانه جدیدی در مرورگر باز می‌کند و PDF را در نمایشگر داخلی یا تصویر را مستقیماً نمایش می‌دهد.",
+          "inputs": "رکورد پرداخت صحیح را انتخاب کنید و مطمئن شوید داده پیوست آن در دسترس است.",
+          "result": "PDF یا تصویر ذخیره‌شده همراه با پرداخت در زبانه جدید باز می‌شود. اگر داده فایل موجود نباشد یا پنجره بازشو مسدود باشد، برنامه پیام هشدار نمایش می‌دهد.",
+          "notes": "پیش از اتکا به پیوست، تاریخ پرداخت، مبالغ و نام فایل را بررسی کنید. بازکردن پیوست فقط برای مشاهده است و سابقه پرداخت را تغییر نمی‌دهد."
         },
         "ar": {
           "purpose": "يفتح مرفقاً من السجل ذي الصلة.",
@@ -12342,20 +12342,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Removes a partner-share row from the current project form.",
+          "purpose": "Removes a partner-share row from the current unsaved project form and recalculates the displayed share total.",
           "when": "Use this when a partner should no longer be included in the profit-sharing arrangement being edited for this project.",
-          "how": "In the partner-sharing section of the project form, select Remove on the partner row you want to take out. The displayed share total recalculates immediately.",
-          "inputs": "Select the Remove control on the correct partner row. No additional input is required.",
+          "how": "In the partner-sharing section of the project form, select Remove on the row for the partner you want to take out. The displayed share total recalculates immediately.",
+          "inputs": "Select Remove on the correct partner row. No additional input is required.",
           "result": "The selected partner row is removed from the current form and the displayed owner/partner share total is recalculated. The project is not saved by this action.",
-          "notes": "This removes only the partner row from the unsaved form; it does not delete the partner from the shared Partners directory or alter other projects. Before selecting Save Project, ensure the owner's share and all remaining partner shares total exactly 100%."
+          "notes": "This removes only the partner row from the current form; it does not delete the person from the shared Partners directory or alter other projects. Before selecting Save Project, ensure the owner's share plus all remaining partner shares total exactly 100%."
         },
         "fa": {
-          "purpose": "یک ردیف سهم شریک را از فرم فعلی پروژه حذف می‌کند.",
+          "purpose": "یک ردیف سهم شریک را از فرم ذخیره‌نشده فعلی پروژه حذف می‌کند و مجموع سهم‌های نمایش‌داده‌شده را دوباره محاسبه می‌کند.",
           "when": "وقتی می‌خواهید شریکی دیگر در توافق تقسیم سود پروژه‌ای که در حال ویرایش آن هستید حضور نداشته باشد، از این گزینه استفاده کنید.",
           "how": "در بخش تقسیم سهم شرکا در فرم پروژه، در ردیف شریک موردنظر Remove را انتخاب کنید. مجموع سهم‌های نمایش‌داده‌شده بلافاصله دوباره محاسبه می‌شود.",
-          "inputs": "کنترل Remove را در ردیف شریک صحیح انتخاب کنید. ورودی دیگری لازم نیست.",
+          "inputs": "Remove را در ردیف شریک صحیح انتخاب کنید. ورودی دیگری لازم نیست.",
           "result": "ردیف شریک انتخاب‌شده از فرم فعلی حذف می‌شود و مجموع سهم صاحب کسب‌وکار و شرکا دوباره محاسبه می‌شود. این عملیات پروژه را ذخیره نمی‌کند.",
-          "notes": "این گزینه فقط ردیف شریک را از فرم ذخیره‌نشده حذف می‌کند؛ شریک را از فهرست مشترک Partners پاک نمی‌کند و پروژه‌های دیگر را تغییر نمی‌دهد. پیش از انتخاب Save Project، مطمئن شوید مجموع سهم صاحب کسب‌وکار و تمام شرکای باقی‌مانده دقیقاً ۱۰۰٪ است."
+          "notes": "این گزینه فقط ردیف شریک را از فرم فعلی حذف می‌کند؛ شخص را از فهرست مشترک Partners پاک نمی‌کند و پروژه‌های دیگر را تغییر نمی‌دهد. پیش از انتخاب Save Project، مطمئن شوید مجموع سهم صاحب کسب‌وکار و تمام شرکای باقی‌مانده دقیقاً ۱۰۰٪ است."
         },
         "ar": {
           "purpose": "يزيل صف حصة شريك من نموذج المشروع الحالي.",
@@ -12440,20 +12440,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Save changes to an edited sub-project.",
-          "when": "Use this control after editing and reviewing the sub-project details, when you are ready to save the update.",
-          "how": "After reviewing the edited sub-project details, select Save Changes to commit the update.",
-          "inputs": "The current project and sub-project must be open. Enter a non-empty sub-project name; the agreed price is optional and the photo is optional.",
-          "result": "The current sub-project's name, agreed price and optional photo are saved if persistence succeeds. The detail summary is then refreshed.",
-          "notes": "Check the parent project and sub-project details before saving; do not leave the form until the save result is shown."
+          "purpose": "Saves changes to the currently open sub-project's name, agreed price and optional photo.",
+          "when": "Use this after editing a sub-project when you are ready to save its updated details.",
+          "how": "In the sub-project edit form, enter a non-empty sub-project name, review the agreed labour/contract price and optionally select a photo. Select Save Changes and wait for the save to complete.",
+          "inputs": "The current parent project and sub-project must be open. Sub-project name is required. Agreed price is optional and cannot be stored below £0; an optional image can be selected as the sub-project photo.",
+          "result": "If the IndexedDB save succeeds, the sub-project name, non-negative agreed price and any newly selected photo are saved. The detail summary refreshes.",
+          "notes": "The save button is temporarily disabled while saving. If the name is blank, the app displays an alert and does not save. If persistence fails, the previous sub-project values are restored. Verify the parent project and sub-project before saving."
         },
         "fa": {
-          "purpose": "ذخیره تغییرات یک زیرپروژه ویرایش‌شده.",
-          "when": "پس از ویرایش و بررسی جزئیات زیرپروژه، وقتی آماده ذخیره به‌روزرسانی هستید، از این گزینه استفاده کنید.",
-          "how": "پس از بررسی جزئیات زیرپروژه، Save Changes را انتخاب کنید تا تغییرات ثبت شوند.",
-          "inputs": "پروژه و زیرپروژه فعلی باید باز باشند. واردکردن نام غیرخالی برای زیرپروژه الزامی است؛ قیمت توافق‌شده و عکس اختیاری هستند.",
-          "result": "در صورت موفقیت ذخیره‌سازی، نام زیرپروژه فعلی، قیمت توافق‌شده و عکس اختیاری آن ذخیره می‌شوند. سپس خلاصه جزئیات به‌روزرسانی می‌شود.",
-          "notes": "پیش از ذخیره، پروژه والد و جزئیات زیرپروژه را بررسی کنید و تا نمایش نتیجه ذخیره از فرم خارج نشوید."
+          "purpose": "تغییرات نام، قیمت توافق‌شده و عکس اختیاری زیرپروژه بازشده را ذخیره می‌کند.",
+          "when": "پس از ویرایش زیرپروژه، زمانی که آماده ذخیره اطلاعات به‌روزشده آن هستید، از این گزینه استفاده کنید.",
+          "how": "در فرم ویرایش زیرپروژه، نام غیرخالی وارد کنید، قیمت توافق‌شده کار/قرارداد را بررسی کنید و در صورت نیاز عکس انتخاب کنید. Save Changes را انتخاب کنید و منتظر تکمیل ذخیره بمانید.",
+          "inputs": "پروژه والد و زیرپروژه فعلی باید باز باشند. نام زیرپروژه الزامی است. قیمت توافق‌شده اختیاری است و کمتر از £0 ذخیره نمی‌شود؛ انتخاب تصویر برای عکس زیرپروژه اختیاری است.",
+          "result": "اگر ذخیره در IndexedDB موفق باشد، نام زیرپروژه، قیمت توافق‌شده غیرمنفی و عکس تازه انتخاب‌شده ذخیره می‌شوند. سپس خلاصه جزئیات تازه‌سازی می‌شود.",
+          "notes": "دکمه ذخیره هنگام عملیات موقتاً غیرفعال می‌شود. اگر نام خالی باشد، برنامه هشدار می‌دهد و ذخیره انجام نمی‌شود. اگر ذخیره‌سازی شکست بخورد، مقادیر قبلی زیرپروژه بازگردانده می‌شوند. پیش از ذخیره، پروژه والد و زیرپروژه را بررسی کنید."
         },
         "ar": {
           "purpose": "يحفظ التغييرات التي أُجريت على مشروع فرعي.",
