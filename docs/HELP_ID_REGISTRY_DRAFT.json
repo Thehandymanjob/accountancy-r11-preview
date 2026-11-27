@@ -6865,7 +6865,7 @@
           "purpose": "شرکت‌های ثبت‌شده را نمایش می‌دهد و امکان بازکردن کارهای آن‌ها را فراهم می‌کند.",
           "when": "برای یافتن شرکت یا دسترسی به قراردادها و کارهای آن از این گزینه استفاده کنید.",
           "how": "Companies List را باز کنید، شرکت موردنظر را جست‌وجو یا انتخاب و سپس فهرست کارهای آن را باز کنید.",
-          "inputs": "نام شرکت یا معیار جست‌وجوی موجود را وارد یا انتخاب کنید و سپس سابقه درست را برگزینید.",
+          "inputs": "متن جست‌وجو اختیاری است و می‌تواند با نام شرکت، شماره مرجع، شخص تماس یا نشانی مطابقت داشته باشد. سپس رکورد درست شرکت را برای بازکردن کارهای آن انتخاب کنید.",
           "result": "شرکت‌های ثبت‌شده فهرست می‌شوند و کارهای شرکت انتخاب‌شده قابل بازکردن هستند.",
           "notes": "پیش از افزودن پرداخت، هزینه یا بسته کاری، هویت شرکت را بررسی کنید."
         },
@@ -6873,7 +6873,7 @@
           "purpose": "يعرض الشركات المسجلة ويتيح فتح الوظائف المرتبطة بها.",
           "when": "عند البحث عن شركة أو الوصول إلى عقودها ووظائفها.",
           "how": "افتح Companies List، وابحث عن الشركة المطلوبة أو اخترها، ثم افتح قائمة وظائفها.",
-          "inputs": "استخدم اسم الشركة أو معيار البحث المتاح، ثم اختر السجل الصحيح.",
+          "inputs": "نص البحث اختياري ويمكن أن يطابق اسم الشركة أو المرجع أو جهة الاتصال أو العنوان. ثم حدد سجل الشركة الصحيح لفتح وظائفها.",
           "result": "تظهر الشركات المسجلة ويمكن فتح وظائف الشركة المختارة.",
           "notes": "تحقق من هوية الشركة قبل إضافة دفعات أو مصروفات أو حزم عمل."
         },
@@ -6881,7 +6881,7 @@
           "purpose": "کۆمپانیا تۆمارکراوەکان پیشان دەدات و ڕێگە بە کردنەوەی کارەکانیان دەدات.",
           "when": "کاتێک بەدوای کۆمپانیایەکدا دەگەڕێیت یان دەتهەوێت بگەیتە گرێبەست و کارەکانی.",
           "how": "Companies List بکەرەوە، کۆمپانیای داواکراو بگەڕێ یان هەڵیبژێرە، پاشان پێڕستی کارەکانی بکەرەوە.",
-          "inputs": "ناوی کۆمپانیا یان پێوەری گەڕانی بەردەست بەکاربهێنە، پاشان تۆماری دروست هەڵبژێرە.",
+          "inputs": "دەقی گەڕان هەڵبژاردەییە و دەتوانێت لەگەڵ ناوی کۆمپانیا، ژمارەی ئاماژە، کەسی پەیوەندی یان ناونیشان بگونجێت. پاشان تۆماری دروستی کۆمپانیا هەڵبژێرە بۆ کردنەوەی کارەکانی.",
           "result": "کۆمپانیا تۆمارکراوەکان دەردەکەون و دەتوانرێت کارەکانی کۆمپانیای هەڵبژێردراو بکرێنەوە.",
           "notes": "پێش زیادکردنی پارەدان، خەرجی یان پاکێجی کار، ناسنامەی کۆمپانیاکە بپشکنە."
         },
@@ -6889,7 +6889,7 @@
           "purpose": "Pargîdaniyên tomarkirî nîşan dide û dihêle ku tu karên wan vekî.",
           "when": "Dema ku tu li pargîdaniyekê digerî an dixwazî bigihîjî peyman û karên wê.",
           "how": "Companies List veke, pargîdaniya xwestî bigere an hilbijêre, paşê lîsteya karên wê veke.",
-          "inputs": "Navê pargîdanî an pîvana lêgerînê ya berdest bikar bîne, paşê tomara rast hilbijêre.",
+          "inputs": "Nivîsa lêgerînê vebijarkî ye û dikare bi navê pargîdanî, referans, kesê têkiliyê an navnîşanê re li hev bike. Paşê tomara rast a pargîdanî hilbijêre da ku karên wê veke.",
           "result": "Pargîdaniyên tomarkirî têne lîstekirin û karên pargîdaniya hilbijartî dikarin bên vekirin.",
           "notes": "Berî zêdekirina dravdan, lêçûn an pakêta xebatê nasnameya pargîdanî kontrol bike."
         },
@@ -6897,7 +6897,7 @@
           "purpose": "Kayıtlı şirketleri gösterir ve bunların işlerini açmanıza olanak tanır.",
           "when": "Bir şirketi bulurken veya sözleşmelerine ve işlerine erişirken kullanın.",
           "how": "Companies List'i açın, aranan şirketi bulun veya seçin, ardından iş listesini açın.",
-          "inputs": "Şirket adını veya mevcut arama ölçütünü kullanın ve doğru kaydı seçin.",
+          "inputs": "Arama metni isteğe bağlıdır; şirket adı, referans, iletişim kişisi veya adresle eşleşebilir. Ardından işlerini açmak için doğru şirket kaydını seçin.",
           "result": "Kayıtlı şirketler listelenir ve seçilen şirketin işleri açılabilir.",
           "notes": "Ödeme, gider veya iş paketi eklemeden önce şirket kimliğini kontrol edin."
         },
@@ -6905,7 +6905,7 @@
           "purpose": "Wyświetla zarejestrowane firmy i umożliwia otwieranie przypisanych do nich zleceń.",
           "when": "Użyj, gdy szukasz firmy lub chcesz uzyskać dostęp do jej umów i zleceń.",
           "how": "Otwórz Companies List, wyszukaj lub wybierz właściwą firmę, a następnie otwórz listę jej zleceń.",
-          "inputs": "Użyj nazwy firmy lub dostępnego kryterium wyszukiwania, a następnie wybierz właściwy rekord.",
+          "inputs": "Tekst wyszukiwania jest opcjonalny i może pasować do nazwy firmy, numeru referencyjnego, osoby kontaktowej lub adresu. Następnie wybierz właściwy rekord firmy, aby otworzyć jej zlecenia.",
           "result": "Wyświetla się lista zarejestrowanych firm; można otworzyć zlecenia wybranej firmy.",
           "notes": "Przed dodaniem płatności, wydatków lub pakietów prac sprawdź tożsamość firmy."
         },
@@ -6913,7 +6913,7 @@
           "purpose": "رجسٹرڈ کمپنیوں کی فہرست دکھاتا ہے اور ان کے کام کھولنے کی سہولت دیتا ہے۔",
           "when": "جب کسی کمپنی کو تلاش کرنا ہو یا اس کے معاہدوں اور کاموں تک رسائی درکار ہو تو استعمال کریں۔",
           "how": "Companies List کھولیں، مطلوبہ کمپنی تلاش یا منتخب کریں، پھر اس کے کاموں کی فہرست کھولیں۔",
-          "inputs": "کمپنی کا نام یا دستیاب تلاش کا معیار استعمال کریں، پھر درست ریکارڈ منتخب کریں۔",
+          "inputs": "تلاش کا متن اختیاری ہے اور کمپنی کے نام، حوالہ، رابطہ شخص یا پتے سے مطابقت رکھ سکتا ہے۔ پھر اس کے کام کھولنے کے لیے درست کمپنی ریکارڈ منتخب کریں۔",
           "result": "رجسٹرڈ کمپنیاں فہرست میں آتی ہیں اور منتخب کمپنی کے کام کھولے جا سکتے ہیں۔",
           "notes": "ادائیگی، اخراجات یا ورک پیکیج شامل کرنے سے پہلے کمپنی کی شناخت کی تصدیق کریں۔"
         },
@@ -6921,7 +6921,7 @@
           "purpose": "ਰਜਿਸਟਰ ਕੀਤੀਆਂ ਕੰਪਨੀਆਂ ਦਿਖਾਉਂਦਾ ਹੈ ਅਤੇ ਉਨ੍ਹਾਂ ਦੇ ਕੰਮ ਖੋਲ੍ਹਣ ਦਿੰਦਾ ਹੈ।",
           "when": "ਜਦੋਂ ਕੰਪਨੀ ਲੱਭਣੀ ਹੋਵੇ ਜਾਂ ਉਸਦੇ ਕਰਾਰਾਂ ਅਤੇ ਕੰਮਾਂ ਤੱਕ ਪਹੁੰਚ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
           "how": "Companies List ਖੋਲ੍ਹੋ, ਲੋੜੀਂਦੀ ਕੰਪਨੀ ਲੱਭੋ ਜਾਂ ਚੁਣੋ, ਫਿਰ ਉਸਦੇ ਕੰਮਾਂ ਦੀ ਸੂਚੀ ਖੋਲ੍ਹੋ।",
-          "inputs": "ਕੰਪਨੀ ਦਾ ਨਾਮ ਜਾਂ ਉਪਲਬਧ ਖੋਜ ਮਾਪਦੰਡ ਵਰਤੋ, ਫਿਰ ਸਹੀ ਰਿਕਾਰਡ ਚੁਣੋ।",
+          "inputs": "ਖੋਜ ਟੈਕਸਟ ਵਿਕਲਪਿਕ ਹੈ ਅਤੇ ਕੰਪਨੀ ਦੇ ਨਾਮ, ਹਵਾਲੇ, ਸੰਪਰਕ ਵਿਅਕਤੀ ਜਾਂ ਪਤੇ ਨਾਲ ਮਿਲ ਸਕਦਾ ਹੈ। ਫਿਰ ਇਸ ਦੇ ਕੰਮ ਖੋਲ੍ਹਣ ਲਈ ਸਹੀ ਕੰਪਨੀ ਰਿਕਾਰਡ ਚੁਣੋ।",
           "result": "ਰਜਿਸਟਰ ਕੀਤੀਆਂ ਕੰਪਨੀਆਂ ਦੀ ਸੂਚੀ ਦਿਖਦੀ ਹੈ ਅਤੇ ਚੁਣੀ ਕੰਪਨੀ ਦੇ ਕੰਮ ਖੁੱਲ੍ਹ ਸਕਦੇ ਹਨ।",
           "notes": "ਭੁਗਤਾਨ, ਖਰਚੇ ਜਾਂ ਵਰਕ ਪੈਕੇਜ ਜੋੜਨ ਤੋਂ ਪਹਿਲਾਂ ਕੰਪਨੀ ਦੀ ਪਛਾਣ ਜਾਂਚੋ।"
         },
@@ -6929,7 +6929,7 @@
           "purpose": "شرکت‌های ثبت‌شده را نمایش می‌دهد و امکان بازکردن کارهای آن‌ها را فراهم می‌کند.",
           "when": "هنگام یافتن یک شرکت یا دسترسی به قراردادها و کارهای آن استفاده کنید.",
           "how": "Companies List را باز کنید، شرکت موردنظر را جست‌وجو یا انتخاب کنید و سپس فهرست کارهای آن را باز کنید.",
-          "inputs": "از نام شرکت یا معیار جست‌وجوی موجود استفاده کنید و سپس سابقه درست را انتخاب کنید.",
+          "inputs": "متن جست‌وجو اختیاری است و می‌تواند با نام شرکت، شماره مرجع، شخص تماس یا نشانی مطابقت داشته باشد. سپس رکورد درست شرکت را برای بازکردن کارهای آن انتخاب کنید.",
           "result": "شرکت‌های ثبت‌شده فهرست می‌شوند و کارهای شرکت انتخاب‌شده قابل بازکردن هستند.",
           "notes": "پیش از افزودن پرداخت، هزینه یا بسته کاری، هویت شرکت را بررسی کنید."
         },
@@ -6937,7 +6937,7 @@
           "purpose": "ثبت شوي شرکتونه ښيي او د هغوی د کارونو د پرانیستلو اجازه ورکوي.",
           "when": "کله چې شرکت لټوئ یا د هغه قراردادونو او کارونو ته لاسرسی غواړئ، دا وکاروئ.",
           "how": "Companies List پرانیزئ، اړوند شرکت ولټوئ یا وټاکئ، بیا یې د کارونو لېست پرانیزئ.",
-          "inputs": "د شرکت نوم یا د لټون شته معیار وکاروئ، بیا سم ریکارډ وټاکئ.",
+          "inputs": "د لټون متن اختیاري دی او د شرکت له نوم، مرجع، د اړیکې کس یا پتې سره سمون موندلی شي. بیا د کارونو پرانیستلو لپاره سم شرکت ریکارډ وټاکئ.",
           "result": "ثبت شوي شرکتونه په لېست کې ښکاري او د ټاکل شوي شرکت کارونه پرانیستل کېدای شي.",
           "notes": "د تادیاتو، لګښتونو یا کاري برخو له زیاتولو مخکې د شرکت هویت تایید کړئ."
         }
@@ -7943,7 +7943,7 @@
           "purpose": "فهرست صفحه‌بندی‌شده فعلی را به صفحه قبلی می‌برد.",
           "when": "وقتی در حال مشاهده صفحات بعدی یک فهرست طولانی پروژه، شرکت یا سوابق هستید، از این گزینه استفاده کنید.",
           "how": "در صورت فعال‌بودن، Previous را انتخاب کنید.",
-          "inputs": "ورود اطلاعات لازم نیست؛ این گزینه فقط برای رفتن به صفحه قبلی است.",
+          "inputs": "ورودی لازم نیست. فقط وقتی Previous فعال است و می‌خواهید صفحه قبلی را ببینید آن را انتخاب کنید.",
           "result": "صفحه قبلی نتایج فهرست نمایش داده می‌شود.",
           "notes": "این فقط ناوبری است و سوابق ذخیره‌شده را تغییر نمی‌دهد."
         },
@@ -7951,7 +7951,7 @@
           "purpose": "ينقل القائمة ذات الصفحات إلى الصفحة السابقة.",
           "when": "عند استعراض صفحات لاحقة من قائمة طويلة للمشروعات أو الشركات أو السجلات.",
           "how": "اختر Previous عندما يكون الزر مفعلاً.",
-          "inputs": "لا يلزم إدخال بيانات؛ استخدم هذا الخيار للتنقل إلى الصفحة السابقة فقط.",
+          "inputs": "لا يلزم إدخال بيانات. اختر Previous فقط عندما يكون مفعّلًا وتريد عرض الصفحة السابقة.",
           "result": "تظهر الصفحة السابقة من نتائج القائمة.",
           "notes": "هذا إجراء تنقل فقط ولا يغيّر السجلات المحفوظة."
         },
@@ -7959,7 +7959,7 @@
           "purpose": "پێڕستی لاپەڕەکراو بۆ لاپەڕەی پێشوو دەگوازێتەوە.",
           "when": "کاتێک لاپەڕەکانی دواوەی پێڕستێکی درێژی پرۆژە، کۆمپانیا یان تۆمارەکان دەبینیت.",
           "how": "کاتێک دوگمەکە چالاکە Previous هەڵبژێرە.",
-          "inputs": "هیچ زانیارییەک پێویست نییە؛ تەنها بۆ گواستنەوە بۆ لاپەڕەی پێشوو بەکاری بهێنە.",
+          "inputs": "هیچ ورودیی پێویست نییە. تەنها کاتێک Previous چالاکە و دەتەوێت لاپەڕەی پێشوو ببینیت هەڵیبژێرە.",
           "result": "لاپەڕەی پێشووی ئەنجامەکانی پێڕست پیشان دەدرێت.",
           "notes": "ئەمە تەنها گەشتکردنە و هیچ تۆمارێکی پاشەکەوتکراو ناگۆڕێت."
         },
@@ -7967,7 +7967,7 @@
           "purpose": "Lîsteya rûpelkirî ber bi rûpela berê ve diguherîne.",
           "when": "Dema ku tu rûpelên paşîn ên lîsteyeke dirêj a projeyê, pargîdaniyê an tomarê dibînî.",
           "how": "Dema ku çalak be Previous hilbijêre.",
-          "inputs": "Agahî nehewce ye; vê tenê ji bo vegera rûpela berê bikar bîne.",
+          "inputs": "Têketin nehewce ye. Previous tenê dema ku çalak e û tu dixwazî rûpela berê bibînî hilbijêre.",
           "result": "Rûpela berê ya encamên lîsteyê xuya dibe.",
           "notes": "Ev tenê rêvekirin e û tomarên tomarkirî naguherîne."
         },
@@ -7975,7 +7975,7 @@
           "purpose": "Sayfalandırılmış listeyi bir önceki sayfaya taşır.",
           "when": "Uzun bir proje, şirket veya kayıt listesinin sonraki sayfalarını görüntülerken kullanın.",
           "how": "Etkin olduğunda Previous'ı seçin.",
-          "inputs": "Bilgi girmeniz gerekmez; yalnızca önceki sayfaya gitmek için kullanın.",
+          "inputs": "Girdi gerekmez. Previous'ı yalnızca etkin olduğunda ve önceki sayfayı görüntülemek istediğinizde seçin.",
           "result": "Liste sonuçlarının önceki sayfası görüntülenir.",
           "notes": "Bu yalnızca gezinme işlemidir ve kayıtlı verileri değiştirmez."
         },
@@ -7983,7 +7983,7 @@
           "purpose": "Przenosi bieżącą listę stronicowaną na poprzednią stronę.",
           "when": "Użyj podczas przeglądania dalszych stron długiej listy projektów, firm lub rekordów.",
           "how": "Wybierz Previous, gdy przycisk jest aktywny.",
-          "inputs": "Nie trzeba podawać danych; użyj tej opcji wyłącznie do przejścia na poprzednią stronę.",
+          "inputs": "Nie są wymagane dane wejściowe. Wybierz Previous tylko wtedy, gdy przycisk jest aktywny i chcesz wyświetlić poprzednią stronę.",
           "result": "Wyświetlana jest poprzednia strona wyników listy.",
           "notes": "To wyłącznie nawigacja i nie zmienia zapisanych rekordów."
         },
@@ -7991,7 +7991,7 @@
           "purpose": "صفحہ بند فہرست کو پچھلے صفحے پر لے جاتا ہے۔",
           "when": "جب کسی طویل پروجیکٹ، کمپنی یا ریکارڈ فہرست کے بعد والے صفحات دیکھ رہے ہوں تو استعمال کریں۔",
           "how": "جب Previous فعال ہو تو اسے منتخب کریں۔",
-          "inputs": "کوئی معلومات درج کرنے کی ضرورت نہیں؛ اسے صرف پچھلے صفحے پر جانے کے لیے استعمال کریں۔",
+          "inputs": "کوئی معلومات درج کرنے کی ضرورت نہیں۔ Previous صرف اسی وقت منتخب کریں جب یہ فعال ہو اور آپ پچھلا صفحہ دیکھنا چاہتے ہوں۔",
           "result": "فہرست کے نتائج کا پچھلا صفحہ دکھایا جاتا ہے۔",
           "notes": "یہ صرف نیویگیشن ہے اور محفوظ شدہ ریکارڈ تبدیل نہیں کرتا۔"
         },
@@ -7999,7 +7999,7 @@
           "purpose": "ਮੌਜੂਦਾ ਪੰਨਾ-ਵੰਡੀ ਸੂਚੀ ਨੂੰ ਪਿਛਲੇ ਪੰਨੇ 'ਤੇ ਲੈ ਜਾਂਦਾ ਹੈ।",
           "when": "ਜਦੋਂ ਲੰਮੀ ਪ੍ਰੋਜੈਕਟ, ਕੰਪਨੀ ਜਾਂ ਰਿਕਾਰਡ ਸੂਚੀ ਦੇ ਅਗਲੇ ਪੰਨੇ ਵੇਖ ਰਹੇ ਹੋਵੋ ਤਾਂ ਵਰਤੋ।",
           "how": "ਜਦੋਂ Previous ਚਾਲੂ ਹੋਵੇ ਤਾਂ ਇਸਨੂੰ ਚੁਣੋ।",
-          "inputs": "ਕੋਈ ਜਾਣਕਾਰੀ ਦੇਣ ਦੀ ਲੋੜ ਨਹੀਂ; ਇਸਨੂੰ ਸਿਰਫ਼ ਪਿਛਲੇ ਪੰਨੇ 'ਤੇ ਜਾਣ ਲਈ ਵਰਤੋ।",
+          "inputs": "ਕੋਈ ਇਨਪੁੱਟ ਲੋੜੀਂਦਾ ਨਹੀਂ। Previous ਸਿਰਫ਼ ਉਦੋਂ ਚੁਣੋ ਜਦੋਂ ਇਹ ਚਾਲੂ ਹੋਵੇ ਅਤੇ ਤੁਸੀਂ ਪਿਛਲਾ ਪੰਨਾ ਵੇਖਣਾ ਚਾਹੁੰਦੇ ਹੋ।",
           "result": "ਸੂਚੀ ਦੇ ਨਤੀਜਿਆਂ ਦਾ ਪਿਛਲਾ ਪੰਨਾ ਦਿਖਾਇਆ ਜਾਂਦਾ ਹੈ।",
           "notes": "ਇਹ ਸਿਰਫ਼ ਨੈਵੀਗੇਸ਼ਨ ਹੈ ਅਤੇ ਸੇਵ ਕੀਤੇ ਰਿਕਾਰਡ ਨਹੀਂ ਬਦਲਦਾ।"
         },
@@ -8007,7 +8007,7 @@
           "purpose": "فهرست صفحه‌بندی‌شده فعلی را به صفحه قبلی می‌برد.",
           "when": "وقتی صفحات بعدی یک فهرست طولانی پروژه، شرکت یا سوابق را مشاهده می‌کنید، استفاده کنید.",
           "how": "وقتی Previous فعال است آن را انتخاب کنید.",
-          "inputs": "ورود اطلاعات لازم نیست؛ این گزینه فقط برای رفتن به صفحه قبلی است.",
+          "inputs": "ورودی لازم نیست. فقط وقتی Previous فعال است و می‌خواهید صفحه قبلی را ببینید آن را انتخاب کنید.",
           "result": "صفحه قبلی نتایج فهرست نمایش داده می‌شود.",
           "notes": "این فقط عملیات ناوبری است و سوابق ذخیره‌شده را تغییر نمی‌دهد."
         },
@@ -8015,7 +8015,7 @@
           "purpose": "اوسنی پاڼه‌لرونکی لېست پخوانۍ پاڼې ته وړي.",
           "when": "کله چې د اوږد پروژې، شرکت یا ریکارډ لېست وروستۍ پاڼې ګورئ، دا وکاروئ.",
           "how": "کله چې Previous فعال وي، هغه وټاکئ.",
-          "inputs": "معلوماتو ته اړتیا نشته؛ دا یوازې پخوانۍ پاڼې ته د تګ لپاره وکاروئ.",
+          "inputs": "معلوماتو ته اړتیا نشته. Previous یوازې هغه وخت وټاکئ چې فعال وي او تاسو پخوانۍ پاڼه لیدل غواړئ.",
           "result": "د لېست د پایلو پخوانۍ پاڼه ښکاره کېږي.",
           "notes": "دا یوازې د لټون/تګ راتګ کړنه ده او خوندي شوي ریکارډونه نه بدلوي."
         }
