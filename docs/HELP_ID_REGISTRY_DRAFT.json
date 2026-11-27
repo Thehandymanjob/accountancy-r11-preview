@@ -8335,7 +8335,7 @@
           "purpose": "فرم ایجاد دسته‌بندی جدید هزینه را در گروه انتخاب‌شده باز می‌کند.",
           "when": "وقتی هیچ دسته موجودی ماهیت هزینه را به‌درستی توصیف نمی‌کند، از این گزینه استفاده کنید.",
           "how": "Add New One را بزنید، نام روشن برای دسته وارد و در صورت پذیرش فرم آن را ذخیره کنید.",
-          "inputs": "نام روشنی برای دسته جدید وارد کنید و گروه دسته‌بندی درست را انتخاب کنید.",
+          "inputs": "نامی غیرخالی با حداکثر ۷۰ نویسه برای دسته الزامی است. گروه دسته‌بندی را گزینه Add New One که انتخاب کرده‌اید تعیین می‌کند؛ نام تکراری در همان گروه پذیرفته نمی‌شود.",
           "result": "در صورت موفقیت اعتبارسنجی و ذخیره، دسته جدید به گروه انتخاب‌شده افزوده می‌شود.",
           "notes": "از نام‌های تقریباً تکراری پرهیز و گروه درست را انتخاب کنید. نام دسته به‌تنهایی قابل‌قبول‌بودن هزینه از نظر مالیاتی را تعیین نمی‌کند."
         },
@@ -8343,7 +8343,7 @@
           "purpose": "يفتح نموذج إنشاء فئة مصروفات جديدة ضمن المجموعة المحددة.",
           "when": "عندما لا تصف أي فئة موجودة المصروف بدقة.",
           "how": "اختر Add New One، وأدخل اسماً واضحاً للفئة، ثم احفظه إذا قبل النموذج ذلك.",
-          "inputs": "أدخل اسماً واضحاً للفئة الجديدة وحدد مجموعة الفئات الصحيحة.",
+          "inputs": "يلزم إدخال اسم غير فارغ للفئة لا يتجاوز 70 حرفًا. تحدد مجموعة الفئات بحسب خيار Add New One الذي اخترته؛ وتُرفض الأسماء المكررة ضمن المجموعة نفسها.",
           "result": "تُضاف فئة جديدة إلى المجموعة المحددة إذا نجح التحقق والحفظ.",
           "notes": "تجنب الأسماء المتشابهة جداً واختر المجموعة الصحيحة. اسم الفئة وحده لا يحدد قابلية خصم المصروف ضريبياً."
         },
@@ -8351,7 +8351,7 @@
           "purpose": "فۆڕمی دروستکردنی دسته‌بەندییەکی نوێی خەرجی لە گروپی هەڵبژێردراو دەکاتەوە.",
           "when": "کاتێک هیچ دسته‌بەندییەکی هەبوو خەرجییەکە بە دروستی وەسف ناکات.",
           "how": "Add New One هەڵبژێرە، ناوێکی ڕوون بۆ دسته‌بەندییەکە بنووسە و ئەگەر فۆڕمەکە قبووڵی کرد پاشەکەوتی بکە.",
-          "inputs": "ناوێکی ڕوون بۆ دسته‌بەندییە نوێیەکە بنووسە و گروپی دروستی دسته‌بەندی هەڵبژێرە.",
+          "inputs": "ناویەکی بەتاڵ‌نەبوو بۆ دسته‌بەندی پێویستە و نابێت لە ٧٠ پیت زیاتر بێت. گروپی دسته‌بەندی بە هەڵبژاردەی Add New One ـی هەڵبژێردراو دیاری دەکرێت؛ ناوی دووبارە لە هەمان گروپدا ڕەت دەکرێتەوە.",
           "result": "ئەگەر پشتڕاستکردنەوە و پاشەکەوتکردن سەرکەوتوو بن، دسته‌بەندییەکی نوێ بۆ گروپەکە زیاد دەکرێت.",
           "notes": "لە ناوی زۆر لەیەکچوو خۆبپارێزە و گروپی دروست هەڵبژێرە. ناوی دسته‌بەندی بە تەنها دیاری ناکات کە خەرجییەکە لە باجدا کەم دەکرێتەوە یان نا."
         },
@@ -8359,7 +8359,7 @@
           "purpose": "Forma çêkirina kategoriyeke nû ya lêçûnê di koma hilbijartî de vedike.",
           "when": "Dema ku tu kategoriyeke heyî nabînî ku lêçûnê rast rave bike.",
           "how": "Add New One hilbijêre, navekî zelal ji bo kategoriyê binivîse û heke form qebûl bike tomar bike.",
-          "inputs": "Navekî zelal ji bo kategoriya nû binivîse û koma rast a kategoriyan hilbijêre.",
+          "inputs": "Navekî kategoriyê yê ne vala û herî zêde 70 tîpan pêwîst e. Koma kategoriyê ji hêla vebijarka Add New One ya ku te hilbijartî tê diyarkirin; navên dubare di heman komê de tên redkirin.",
           "result": "Ger kontrol û tomarkirin serkeftî bin, kategoriyeke nû li koma hilbijartî tê zêdekirin.",
           "notes": "Ji navên pir nêzî hev dûr bikeve û koma rast hilbijêre. Navê kategoriyê bi tena xwe destnîşan nake ka lêçûn ji bacê tê kêmtir kirin an na."
         },
@@ -8367,7 +8367,7 @@
           "purpose": "Seçilen kategori grubunda yeni gider kategorisi oluşturma formunu açar.",
           "when": "Mevcut kategorilerden hiçbiri gideri doğru tanımlamadığında kullanın.",
           "how": "Add New One'ı seçin, açık bir kategori adı girin ve form kabul ederse kaydedin.",
-          "inputs": "Yeni kategori için açık bir ad girin ve doğru kategori grubunu seçin.",
+          "inputs": "Boş olmayan ve en fazla 70 karakterden oluşan bir kategori adı zorunludur. Kategori grubu, seçtiğiniz Add New One seçeneğine göre belirlenir; aynı gruptaki yinelenen adlar reddedilir.",
           "result": "Doğrulama ve kayıt başarılı olursa seçilen gruba yeni kategori eklenir.",
           "notes": "Birbirine çok benzeyen adlardan kaçının ve doğru grubu seçin. Kategori adı tek başına giderin vergiden düşülebilir olup olmadığını belirlemez."
         },
@@ -8375,7 +8375,7 @@
           "purpose": "Otwiera formularz tworzenia nowej kategorii wydatku w wybranej grupie.",
           "when": "Użyj, gdy żadna z istniejących kategorii nie opisuje prawidłowo wydatku.",
           "how": "Wybierz Add New One, wpisz jasną nazwę kategorii i zapisz ją, jeśli formularz ją zaakceptuje.",
-          "inputs": "Wpisz czytelną nazwę nowej kategorii i wybierz właściwą grupę kategorii.",
+          "inputs": "Wymagana jest niepusta nazwa kategorii o długości do 70 znaków. Grupę kategorii określa wybrana opcja Add New One; zduplikowane nazwy w tej samej grupie są odrzucane.",
           "result": "Jeśli walidacja i zapis zakończą się pomyślnie, do wybranej grupy zostanie dodana nowa kategoria.",
           "notes": "Unikaj bardzo podobnych nazw i wybierz właściwą grupę. Sama nazwa kategorii nie przesądza o podatkowej możliwości odliczenia kosztu."
         },
@@ -8383,7 +8383,7 @@
           "purpose": "منتخب زمرہ گروپ میں نئی خرچ کیٹیگری بنانے کا فارم کھولتا ہے۔",
           "when": "جب موجودہ زمروں میں سے کوئی بھی خرچ کی درست وضاحت نہ کرے تو استعمال کریں۔",
           "how": "Add New One منتخب کریں، زمرے کا واضح نام درج کریں اور فارم قبول کرے تو محفوظ کریں۔",
-          "inputs": "نئے زمرے کا واضح نام درج کریں اور درست زمرہ گروپ منتخب کریں۔",
+          "inputs": "زمرے کا نام خالی نہیں ہونا چاہیے اور اس کی لمبائی ۷۰ حروف سے زیادہ نہیں ہو سکتی۔ زمرے کا گروپ آپ کے منتخب کردہ Add New One اختیار سے طے ہوتا ہے؛ اسی گروپ میں دہرائے گئے نام مسترد کیے جاتے ہیں۔",
           "result": "توثیق اور محفوظ کرنے کا عمل کامیاب ہو تو منتخب گروپ میں نیا زمرہ شامل ہو جاتا ہے۔",
           "notes": "ملتے جلتے ناموں سے گریز کریں اور درست گروپ منتخب کریں۔ صرف زمرے کا نام یہ طے نہیں کرتا کہ خرچ ٹیکس میں قابلِ کٹوتی ہے یا نہیں۔"
         },
@@ -8391,7 +8391,7 @@
           "purpose": "ਚੁਣੇ ਗਏ ਸ਼੍ਰੇਣੀ ਸਮੂਹ ਵਿੱਚ ਨਵੀਂ ਖਰਚਾ ਸ਼੍ਰੇਣੀ ਬਣਾਉਣ ਦਾ ਫਾਰਮ ਖੋਲ੍ਹਦਾ ਹੈ।",
           "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਸ਼੍ਰੇਣੀਆਂ ਵਿੱਚੋਂ ਕੋਈ ਵੀ ਖਰਚੇ ਨੂੰ ਠੀਕ ਤਰ੍ਹਾਂ ਬਿਆਨ ਨਾ ਕਰੇ ਤਾਂ ਵਰਤੋ।",
           "how": "Add New One ਚੁਣੋ, ਸ਼੍ਰੇਣੀ ਦਾ ਸਪਸ਼ਟ ਨਾਮ ਭਰੋ ਅਤੇ ਜੇ ਫਾਰਮ ਸਵੀਕਾਰ ਕਰੇ ਤਾਂ ਸੇਵ ਕਰੋ।",
-          "inputs": "ਨਵੀਂ ਸ਼੍ਰੇਣੀ ਦਾ ਸਪਸ਼ਟ ਨਾਮ ਭਰੋ ਅਤੇ ਸਹੀ ਸ਼੍ਰੇਣੀ ਸਮੂਹ ਚੁਣੋ।",
+          "inputs": "ਸ਼੍ਰੇਣੀ ਦਾ ਨਾਮ ਖਾਲੀ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ ਅਤੇ 70 ਅੱਖਰਾਂ ਤੋਂ ਵੱਧ ਨਹੀਂ ਹੋ ਸਕਦਾ। ਸ਼੍ਰੇਣੀ ਸਮੂਹ ਤੁਹਾਡੇ ਚੁਣੇ Add New One ਵਿਕਲਪ ਨਾਲ ਤੈਅ ਹੁੰਦਾ ਹੈ; ਉਸੇ ਸਮੂਹ ਵਿੱਚ ਦੁਹਰਾਏ ਨਾਮ ਰੱਦ ਕੀਤੇ ਜਾਂਦੇ ਹਨ।",
           "result": "ਜਾਂਚ ਅਤੇ ਸੇਵ ਕਰਨਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਚੁਣੇ ਸਮੂਹ ਵਿੱਚ ਨਵੀਂ ਸ਼੍ਰੇਣੀ ਜੋੜੀ ਜਾਂਦੀ ਹੈ।",
           "notes": "ਬਹੁਤ ਮਿਲਦੇ-ਜੁਲਦੇ ਨਾਮਾਂ ਤੋਂ ਬਚੋ ਅਤੇ ਸਹੀ ਸਮੂਹ ਚੁਣੋ। ਸਿਰਫ਼ ਸ਼੍ਰੇਣੀ ਦਾ ਨਾਮ ਇਹ ਤੈਅ ਨਹੀਂ ਕਰਦਾ ਕਿ ਖਰਚਾ ਟੈਕਸ ਵਿੱਚ ਕਟੌਤੀਯੋਗ ਹੈ ਜਾਂ ਨਹੀਂ।"
         },
@@ -8399,7 +8399,7 @@
           "purpose": "فرم ایجاد دسته‌بندی جدید هزینه را در گروه انتخاب‌شده باز می‌کند.",
           "when": "وقتی هیچ‌یک از دسته‌های موجود هزینه را به‌درستی توصیف نمی‌کند، استفاده کنید.",
           "how": "Add New One را انتخاب کنید، نام روشنی برای دسته وارد کنید و اگر فرم پذیرفت آن را ذخیره کنید.",
-          "inputs": "نام روشنی برای دسته جدید وارد کنید و گروه دسته‌بندی درست را انتخاب کنید.",
+          "inputs": "نام دسته نباید خالی باشد و حداکثر ۷۰ نویسه می‌تواند داشته باشد. گروه دسته‌بندی را گزینه Add New One که انتخاب کرده‌اید تعیین می‌کند؛ نام‌های تکراری در همان گروه رد می‌شوند.",
           "result": "در صورت موفقیت اعتبارسنجی و ذخیره، دسته جدید به گروه انتخاب‌شده اضافه می‌شود.",
           "notes": "از نام‌های بسیار مشابه پرهیز کنید و گروه درست را انتخاب کنید. نام دسته به‌تنهایی قابل‌قبول‌بودن هزینه برای کسر مالیاتی را تعیین نمی‌کند."
         },
@@ -8407,7 +8407,7 @@
           "purpose": "په ټاکل شوې ډله کې د نوې لګښت کټګورۍ جوړولو فورمه پرانیزي.",
           "when": "کله چې له موجودو کټګوریو څخه هېڅ یوه لګښت په سمه توګه نه بیانوي، دا وکاروئ.",
           "how": "Add New One وټاکئ، د کټګورۍ روښانه نوم ولیکئ او که فورمه یې ومني خوندي یې کړئ.",
-          "inputs": "د نوې کټګورۍ روښانه نوم ولیکئ او د کټګورۍ سمه ډله وټاکئ.",
+          "inputs": "د کټګورۍ نوم باید تش نه وي او له ۷۰ تورو زیات نه وي. د کټګورۍ ډله ستاسو د Add New One ټاکل شوي اختیار له مخې ټاکل کېږي؛ په هماغه ډله کې تکراري نومونه رد کېږي.",
           "result": "که ارزونه او خوندي کول بریالي شي، ټاکل شوې ډلې ته نوې کټګوري ورزیاتېږي.",
           "notes": "له ډېر ورته نومونو ډډه وکړئ او سمه ډله وټاکئ. یوازې د کټګورۍ نوم نه ټاکي چې لګښت د مالیې له پلوه د منلو وړ دی که نه."
         }
