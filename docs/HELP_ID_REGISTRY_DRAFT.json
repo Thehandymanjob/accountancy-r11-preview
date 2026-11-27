@@ -10088,20 +10088,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Shares the generated PDF for the current invoice.",
-          "when": "Use this after the invoice PDF has been generated and you want to share or save it using the device's available options.",
-          "how": "Select Share PDF in the invoice PDF view and choose a destination in the device share sheet. If file sharing is unavailable, use the PDF download fallback.",
-          "inputs": "A generated invoice PDF is required. Choose a destination if the system share sheet opens.",
-          "result": "The device share sheet opens when supported; otherwise the app starts downloading the invoice PDF. The app does not confirm that another app or service delivered it.",
-          "notes": "Review the invoice and recipient before sharing. Sharing does not mark the invoice as paid."
+          "purpose": "Shares the generated invoice PDF using the device's available file-sharing options.",
+          "when": "Use this after the invoice print/PDF view has loaded and you want to share the invoice or save it through another app.",
+          "how": "Select Share PDF in the invoice PDF tab. If the device supports file sharing, choose a destination in the system share sheet. If sharing is unsupported or fails for a reason other than user cancellation, the PDF download starts as a fallback.",
+          "inputs": "The invoice PDF must have finished generating in the separate invoice tab. Choose a destination if the system share sheet opens.",
+          "result": "The device share sheet opens when supported. If sharing is unavailable or fails for a non-cancellation reason, the invoice PDF is downloaded instead.",
+          "notes": "Review the invoice and recipient before sharing. The app cannot confirm delivery by another app or service. Cancelling the share sheet does not mean the invoice was sent. Sharing does not mark the invoice as paid."
         },
         "fa": {
-          "purpose": "فایل PDF ایجادشده برای فاکتور فعلی را به اشتراک می‌گذارد.",
-          "when": "پس از ایجاد PDF فاکتور، زمانی از این گزینه استفاده کنید که می‌خواهید آن را با گزینه‌های موجود در دستگاه به اشتراک بگذارید یا ذخیره کنید.",
-          "how": "در نمای PDF فاکتور Share PDF را انتخاب کنید و از صفحه اشتراک‌گذاری دستگاه مقصدی را برگزینید. اگر اشتراک‌گذاری فایل در دسترس نبود، از روش جایگزین دانلود PDF استفاده کنید.",
-          "inputs": "فایل PDF ایجادشده فاکتور لازم است. اگر صفحه اشتراک‌گذاری سیستم باز شد، مقصد را انتخاب کنید.",
-          "result": "در صورت پشتیبانی دستگاه، صفحه اشتراک‌گذاری باز می‌شود؛ در غیر این صورت برنامه دانلود PDF فاکتور را آغاز می‌کند. برنامه نمی‌تواند تحویل فایل توسط برنامه یا سرویس دیگری را تأیید کند.",
-          "notes": "پیش از اشتراک‌گذاری، فاکتور و گیرنده را بررسی کنید. اشتراک‌گذاری وضعیت فاکتور را به Paid تغییر نمی‌دهد."
+          "purpose": "فایل PDF ایجادشده فاکتور را با امکانات اشتراک‌گذاری موجود در دستگاه به اشتراک می‌گذارد.",
+          "when": "پس از بارگذاری نمای چاپ/PDF فاکتور، زمانی که می‌خواهید فاکتور را به اشتراک بگذارید یا از طریق برنامه دیگری ذخیره کنید، از این گزینه استفاده کنید.",
+          "how": "در زبانه PDF فاکتور، Share PDF را انتخاب کنید. اگر دستگاه از اشتراک‌گذاری فایل پشتیبانی کند، مقصد را در صفحه اشتراک‌گذاری سیستم انتخاب کنید. اگر اشتراک‌گذاری پشتیبانی نشود یا به دلیلی غیر از لغو کاربر شکست بخورد، دانلود PDF به‌عنوان راه جایگزین آغاز می‌شود.",
+          "inputs": "PDF فاکتور باید در زبانه جداگانه فاکتور با موفقیت آماده شده باشد. اگر صفحه اشتراک‌گذاری سیستم باز شد، مقصد را انتخاب کنید.",
+          "result": "در صورت پشتیبانی دستگاه، صفحه اشتراک‌گذاری باز می‌شود. اگر اشتراک‌گذاری در دسترس نباشد یا به دلیلی غیر از لغو کاربر شکست بخورد، PDF فاکتور دانلود می‌شود.",
+          "notes": "پیش از اشتراک‌گذاری، فاکتور و گیرنده را بررسی کنید. برنامه نمی‌تواند تحویل فایل توسط برنامه یا سرویس دیگری را تأیید کند. لغو صفحه اشتراک‌گذاری به معنی ارسال فاکتور نیست. اشتراک‌گذاری وضعیت فاکتور را به Paid تغییر نمی‌دهد."
         },
         "ar": {
           "purpose": "يشارك ملف PDF الخاص بالفاتورة الحالية.",
@@ -10186,20 +10186,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Changes a paid invoice to unpaid and moves its linked income entry to Deleted Records.",
-          "when": "Use this only when the invoice was not actually paid or its previous paid status was incorrect.",
-          "how": "Select Mark unpaid for the correct invoice and approve the confirmation after reading the warning about the linked income record.",
-          "inputs": "Select the correct paid invoice. The app identifies any linked income entry; no payment date or amount is entered here.",
-          "result": "The invoice payment status changes to unpaid and its payment date/method are cleared. Any linked income entry is soft-deleted and retained in Deleted Records.",
-          "notes": "This reverses the invoice payment status and removes the linked income from active records. Confirm the payment history carefully before proceeding."
+          "purpose": "Changes a paid invoice to unpaid and soft-deletes its linked income entry or entries.",
+          "when": "Use this only when the invoice was not actually paid or its paid status was recorded in error.",
+          "how": "Select Mark unpaid for the correct invoice. Read the confirmation warning that linked income will be retained in Deleted Records, then confirm if the reversal is intended.",
+          "inputs": "Select the correct paid invoice. The app identifies linked income entries; no payment date or amount is entered in this action.",
+          "result": "The invoice payment status changes to unpaid and its payment date and method are cleared. Linked income entries are marked deleted and retained in Deleted Records.",
+          "notes": "This removes the linked income from active accounting views but does not permanently erase it. The invoice document status remains separate from its payment status. Check the payment history carefully before proceeding."
         },
         "fa": {
-          "purpose": "وضعیت فاکتور پرداخت‌شده را به پرداخت‌نشده تغییر می‌دهد و ثبت درآمد مرتبط را به Deleted Records منتقل می‌کند.",
-          "when": "فقط زمانی استفاده کنید که فاکتور واقعاً پرداخت نشده یا وضعیت پرداخت‌شده قبلی آن اشتباه بوده است.",
-          "how": "برای فاکتور درست Mark unpaid را انتخاب کنید و پس از خواندن هشدار مربوط به ثبت درآمد مرتبط، تأیید کنید.",
-          "inputs": "فاکتور پرداخت‌شده درست را انتخاب کنید. برنامه ثبت درآمد مرتبط را شناسایی می‌کند؛ در این بخش تاریخ یا مبلغ پرداخت وارد نمی‌شود.",
-          "result": "وضعیت فاکتور به پرداخت‌نشده تغییر می‌کند و تاریخ و روش پرداخت پاک می‌شوند. هر ثبت درآمد مرتبط به‌صورت نرم‌افزاری حذف و در Deleted Records نگهداری می‌شود.",
-          "notes": "این عملیات وضعیت پرداخت فاکتور را برمی‌گرداند و درآمد مرتبط را از سوابق فعال خارج می‌کند. پیش از ادامه، سابقه پرداخت را با دقت بررسی کنید."
+          "purpose": "وضعیت فاکتور پرداخت‌شده را به پرداخت‌نشده تغییر می‌دهد و سوابق درآمد مرتبط را به‌صورت نرم‌افزاری حذف می‌کند.",
+          "when": "فقط زمانی استفاده کنید که فاکتور واقعاً پرداخت نشده یا وضعیت Paid آن اشتباهی ثبت شده است.",
+          "how": "برای فاکتور صحیح Mark unpaid را انتخاب کنید. هشدار تأیید را که اعلام می‌کند درآمد مرتبط در Deleted Records نگهداری می‌شود بخوانید و فقط در صورت قصد بازگردانی وضعیت پرداخت، تأیید کنید.",
+          "inputs": "فاکتور پرداخت‌شده صحیح را انتخاب کنید. برنامه سوابق درآمد مرتبط را شناسایی می‌کند؛ در این عملیات تاریخ یا مبلغ پرداخت وارد نمی‌شود.",
+          "result": "وضعیت پرداخت فاکتور به unpaid تغییر می‌کند و تاریخ و روش پرداخت آن پاک می‌شوند. سوابق درآمد مرتبط به‌عنوان حذف‌شده علامت می‌خورند و در Deleted Records باقی می‌مانند.",
+          "notes": "این عملیات درآمد مرتبط را از نماهای فعال حسابداری خارج می‌کند، اما آن را برای همیشه پاک نمی‌کند. وضعیت سند فاکتور از وضعیت پرداخت آن جدا است. پیش از ادامه، سابقه پرداخت را با دقت بررسی کنید."
         },
         "ar": {
           "purpose": "يغيّر حالة الفاتورة المدفوعة إلى غير مدفوعة وينقل قيد الدخل المرتبط بها إلى Deleted Records.",
@@ -10285,19 +10285,19 @@
       "translations": {
         "en": {
           "purpose": "Opens the payment-details dialog for an unpaid invoice.",
-          "when": "Use this after confirming that the customer has actually paid and you are ready to enter the payment details.",
-          "how": "Select Mark paid on the correct invoice. In the dialog, enter the payment date and choose Cash or Bank transfer, then select Confirm payment to save.",
-          "inputs": "The invoice is identified by the selected row. A valid payment date and a payment method (Cash or Bank transfer) are required in the dialog.",
-          "result": "The payment-details dialog opens. The invoice is not marked paid and no income entry is created until Confirm payment is selected and the save succeeds.",
-          "notes": "Do not open or confirm this workflow based only on a promise to pay. Review possible duplicate-income warnings before confirming."
+          "when": "Use this only after confirming that the customer has actually paid and you are ready to record the payment date and method.",
+          "how": "Select Mark paid on the correct invoice. In the dialog, enter the date the funds were received and choose Cash or Bank Transfer. Select Confirm payment to submit the details; use Cancel or close the dialog to leave the invoice unchanged.",
+          "inputs": "The selected invoice supplies the invoice identity and amount. A valid payment date and a payment method (Cash or Bank Transfer) are required in the dialog.",
+          "result": "The payment-details dialog opens. The invoice is not marked paid and no linked income entry is created or updated until Confirm payment is selected and the save is verified.",
+          "notes": "Do not confirm based only on a promise to pay. Review any possible duplicate-income warning before confirming. If the dialog is cancelled, no payment is recorded."
         },
         "fa": {
           "purpose": "پنجره جزئیات پرداخت را برای فاکتور پرداخت‌نشده باز می‌کند.",
-          "when": "پس از اطمینان از اینکه مشتری واقعاً پرداخت کرده و آماده واردکردن جزئیات پرداخت هستید، استفاده کنید.",
-          "how": "در فاکتور درست Mark paid را انتخاب کنید. در پنجره، تاریخ دریافت وجه را وارد و Cash یا Bank transfer را انتخاب کنید؛ سپس برای ذخیره Confirm payment را بزنید.",
-          "inputs": "فاکتور از ردیف انتخاب‌شده مشخص می‌شود. در پنجره پرداخت، تاریخ معتبر و روش پرداخت (Cash یا Bank transfer) الزامی هستند.",
-          "result": "پنجره جزئیات پرداخت باز می‌شود. تا زمانی که Confirm payment انتخاب و ذخیره با موفقیت انجام نشود، فاکتور پرداخت‌شده نمی‌شود و ثبت درآمدی ایجاد نمی‌شود.",
-          "notes": "صرفاً بر اساس وعده پرداخت، این گردش‌کار را تأیید نکنید. پیش از تأیید، هشدارهای مربوط به درآمد احتمالی تکراری را بررسی کنید."
+          "when": "فقط پس از اطمینان از اینکه مشتری واقعاً پرداخت کرده و آماده ثبت تاریخ دریافت وجه و روش پرداخت هستید، از این گزینه استفاده کنید.",
+          "how": "در فاکتور صحیح Mark paid را انتخاب کنید. در پنجره، تاریخ واقعی دریافت وجه را وارد و Cash یا Bank Transfer را انتخاب کنید. برای ثبت جزئیات Confirm payment را بزنید؛ برای صرف‌نظر، پنجره را Cancel یا ببندید تا فاکتور بدون تغییر بماند.",
+          "inputs": "شناسه و مبلغ از فاکتور انتخاب‌شده گرفته می‌شوند. در پنجره، تاریخ معتبر پرداخت و روش پرداخت (Cash یا Bank Transfer) الزامی هستند.",
+          "result": "پنجره جزئیات پرداخت باز می‌شود. تا زمانی که Confirm payment انتخاب و ذخیره تأیید نشود، فاکتور Paid نمی‌شود و سابقه درآمد مرتبط ایجاد یا به‌روزرسانی نمی‌شود.",
+          "notes": "صرفاً بر اساس وعده پرداخت، این گردش‌کار را تأیید نکنید. پیش از تأیید، هشدارهای مربوط به احتمال درآمد تکراری را بررسی کنید. اگر پنجره را لغو کنید، پرداختی ثبت نمی‌شود."
         },
         "ar": {
           "purpose": "يفتح نافذة تفاصيل الدفع للفاتورة غير المدفوعة.",
@@ -10382,20 +10382,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Displays an invoice preview and provides access to its print/PDF view.",
+          "purpose": "Displays the selected invoice preview and provides access to its separate print/PDF view.",
           "when": "Use this when you need to inspect an invoice or prepare it for printing or PDF output.",
-          "how": "Select View / PDF beside the intended invoice. Review the invoice preview, then select Open print view if you need the separate PDF view.",
-          "inputs": "Select the correct invoice from the invoice list. No additional input is required to display the preview.",
-          "result": "The invoice preview is displayed with an Open print view option. If a paid invoice is still marked as a draft, this function also changes its document status to issued before displaying it.",
-          "notes": "Check the invoice number, customer, line items and totals. Viewing does not itself record a new payment."
+          "how": "Select View / PDF beside the intended invoice in the Invoices list. Review the invoice preview, then select Open print view to open the separate print/PDF tab.",
+          "inputs": "Select the correct invoice from the invoice list. No additional input is required to display its preview.",
+          "result": "The invoice preview is displayed with an Open print view option. If an invoice is already marked paid but its document status is still Draft, the action first changes its document status to Issued and saves that change.",
+          "notes": "Check the invoice number, customer, line items, VAT and totals. This action does not record a new payment. A paid invoice still marked Draft is automatically changed to Issued before the preview is displayed."
         },
         "fa": {
-          "purpose": "پیش‌نمایش فاکتور را نمایش می‌دهد و دسترسی به نمای چاپ یا PDF آن را فراهم می‌کند.",
+          "purpose": "پیش‌نمایش فاکتور انتخاب‌شده را نمایش می‌دهد و دسترسی به نمای چاپ/PDF جداگانه آن را فراهم می‌کند.",
           "when": "وقتی لازم است فاکتوری را بررسی کنید یا آن را برای چاپ یا خروجی PDF آماده کنید، از این گزینه استفاده کنید.",
-          "how": "در کنار فاکتور موردنظر View / PDF را انتخاب کنید. پیش‌نمایش فاکتور را بررسی کنید و اگر به نمای PDF جداگانه نیاز دارید، Open print view را انتخاب کنید.",
-          "inputs": "فاکتور درست را از فهرست فاکتورها انتخاب کنید. برای نمایش پیش‌نمایش، ورودی دیگری لازم نیست.",
-          "result": "پیش‌نمایش فاکتور همراه با گزینه Open print view نمایش داده می‌شود. اگر فاکتور پرداخت‌شده هنوز Draft باشد، این عملکرد پیش از نمایش وضعیت سند را به Issued تغییر می‌دهد.",
-          "notes": "نسخه PDF مدرک پرداخت نیست و به‌تنهایی وضعیت پرداخت فاکتور را تغییر نمی‌دهد."
+          "how": "در فهرست Invoices کنار فاکتور موردنظر View / PDF را انتخاب کنید. پیش‌نمایش را بررسی کنید و سپس برای بازکردن زبانه جداگانه چاپ/PDF، Open print view را انتخاب کنید.",
+          "inputs": "فاکتور صحیح را از فهرست فاکتورها انتخاب کنید. برای نمایش پیش‌نمایش ورودی دیگری لازم نیست.",
+          "result": "پیش‌نمایش فاکتور همراه با گزینه Open print view نمایش داده می‌شود. اگر فاکتوری قبلاً Paid شده باشد اما وضعیت سند آن هنوز Draft باشد، این عملیات ابتدا وضعیت سند را به Issued تغییر داده و آن تغییر را ذخیره می‌کند.",
+          "notes": "شماره فاکتور، مشتری، ردیف‌های کار، VAT و مجموع مبالغ را بررسی کنید. این عملیات پرداخت جدیدی ثبت نمی‌کند. فاکتور پرداخت‌شده‌ای که هنوز Draft است، پیش از نمایش پیش‌نمایش به‌طور خودکار به Issued تغییر می‌کند."
         },
         "ar": {
           "purpose": "يعرض الفاتورة أو ينشئ نسخة PDF قابلة للطباعة منها.",
@@ -10480,20 +10480,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Loads an existing invoice into the invoice editor for changes.",
-          "when": "Use this when correcting the details of a saved invoice.",
-          "how": "Select Edit beside the correct invoice, review its customer, description, amounts, dates and status, make the changes, then select Save Invoice.",
-          "inputs": "Select the correct invoice and edit the relevant customer, date, work description, line items, VAT and status fields as required.",
-          "result": "The existing invoice details are loaded into the editor. Changes are not saved until Save Invoice succeeds.",
-          "notes": "Take care when changing an issued or paid invoice; preserve a clear audit trail and follow your accounting process."
+          "purpose": "Loads an existing invoice into the invoice editor so its saved details can be changed.",
+          "when": "Use this when correcting or updating the details of an existing saved invoice.",
+          "how": "Select Edit beside the correct invoice in the Invoices list. Review the customer, date, description, line items, VAT, notes and statuses, make the required changes, then select Save Invoice.",
+          "inputs": "Select the correct active invoice. Edit the relevant customer, invoice date, work description, line items, VAT, notes and document/payment status fields as required.",
+          "result": "The selected invoice's saved values are loaded into the editor. Changes are stored only after Save Invoice succeeds and IndexedDB persistence is verified.",
+          "notes": "Check the invoice number and payment status before changing details. Existing invoices retain their stored invoice number. Editing an issued or paid invoice can affect the record relied on by the customer; preserve a clear audit trail and follow your accounting process."
         },
         "fa": {
-          "purpose": "فاکتور موجود را برای اعمال تغییرات در ویرایشگر فاکتور بارگذاری می‌کند.",
-          "when": "وقتی می‌خواهید جزئیات یک فاکتور ذخیره‌شده را اصلاح کنید، از این گزینه استفاده کنید.",
-          "how": "در کنار فاکتور درست Edit را انتخاب کنید، مشتری، شرح، مبالغ، تاریخ‌ها و وضعیت را بررسی کنید، تغییرات لازم را انجام دهید و سپس Save Invoice را انتخاب کنید.",
-          "inputs": "فاکتور درست را انتخاب کنید و در صورت نیاز فیلدهای مشتری، تاریخ، شرح کار، ردیف اقلام، VAT و وضعیت را ویرایش کنید.",
-          "result": "جزئیات فاکتور موجود در ویرایشگر بارگذاری می‌شوند. تغییرات تا زمانی که Save Invoice با موفقیت انجام نشود ذخیره نمی‌شوند.",
-          "notes": "در تغییر فاکتور صادرشده دقت کنید؛ سوابق روشن نگه دارید و روال حسابداری خود را رعایت کنید."
+          "purpose": "فاکتور موجود را برای تغییر جزئیات ذخیره‌شده آن در ویرایشگر فاکتور بارگذاری می‌کند.",
+          "when": "وقتی می‌خواهید اطلاعات یک فاکتور ذخیره‌شده را اصلاح یا به‌روزرسانی کنید، از این گزینه استفاده کنید.",
+          "how": "در فهرست Invoices کنار فاکتور صحیح Edit را انتخاب کنید. مشتری، تاریخ، شرح، ردیف‌های اقلام، VAT، یادداشت‌ها و وضعیت‌ها را بررسی کنید، تغییرات لازم را انجام دهید و سپس Save Invoice را انتخاب کنید.",
+          "inputs": "فاکتور فعال صحیح را انتخاب کنید. در صورت نیاز فیلدهای مشتری، تاریخ فاکتور، شرح کار، ردیف اقلام، VAT، یادداشت‌ها و وضعیت سند/پرداخت را ویرایش کنید.",
+          "result": "مقادیر ذخیره‌شده فاکتور انتخاب‌شده در ویرایشگر بارگذاری می‌شوند. تغییرات فقط پس از موفقیت Save Invoice و تأیید ذخیره در IndexedDB ثبت می‌شوند.",
+          "notes": "پیش از تغییر جزئیات، شماره فاکتور و وضعیت پرداخت را بررسی کنید. فاکتورهای موجود شماره ذخیره‌شده خود را حفظ می‌کنند. ویرایش فاکتور صادرشده یا پرداخت‌شده می‌تواند بر مدرکی که مشتری به آن استناد می‌کند اثر بگذارد؛ سابقه روشن نگه دارید و روال حسابداری خود را رعایت کنید."
         },
         "ar": {
           "purpose": "يفتح فاتورة موجودة لتعديلها.",
