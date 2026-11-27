@@ -7639,19 +7639,19 @@
       "translations": {
         "en": {
           "purpose": "Adds an expense record to the financial records of the selected company work package.",
-          "when": "Use this when recording a cost directly attributable to a particular work package within a company job.",
-          "how": "Open the required job and work package, then open its Financials area. Enter the expense date and an amount greater than zero, choose a category, and optionally add the supplier/payee, description and receipt PDF/image. Select Add Expense.",
-          "inputs": "A valid expense date and an amount greater than £0 are required. Category is selected from Materials, Labour / Worker, Contractor, Tool hire, Travel or Other. Supplier/payee, description and receipt attachment are optional.",
-          "result": "If validation and saving succeed, the expense is added to that work package. The package expense list, package totals and job list are refreshed.",
-          "notes": "Confirm the correct job and package before recording. This expense remains in Company Contracts & Jobs and is not automatically copied to Accountancy. Keep the receipt and avoid recording the same cost twice."
+          "when": "Use this when recording a cost directly attributable to a specific work package within a company job.",
+          "how": "Open the required job and its work package, then open Financials. Enter a valid expense date and an amount greater than zero, select a category, and optionally enter the payee, description and receipt attachment. Select Add Expense.",
+          "inputs": "A valid expense date and an amount greater than £0 are required. Category is selected from Materials, Labour / Worker, Contractor, Tool hire, Travel or Other. Payee, description and PDF/image receipt are optional. File limits and accepted formats are enforced by the attachment control.",
+          "result": "After validation and successful Projects data persistence, the expense is added to the selected package. The package expense view, package totals and job list are refreshed.",
+          "notes": "Confirm the correct company, job and package before recording. The expense remains in Company Contracts & Jobs and is not automatically copied to Accountancy. Keep the receipt and avoid duplicate recording."
         },
         "fa": {
           "purpose": "یک سابقه هزینه به اطلاعات مالی بسته کاری انتخاب‌شده در کار شرکتی اضافه می‌کند.",
-          "when": "وقتی می‌خواهید هزینه‌ای را که مستقیماً به یک بسته کاری مشخص درون یک کار شرکتی مربوط است ثبت کنید، از این گزینه استفاده کنید.",
-          "how": "کار و بسته کاری موردنظر را باز کنید و وارد بخش Financials آن شوید. تاریخ هزینه و مبلغی بیشتر از صفر وارد کنید، دسته‌بندی را انتخاب و در صورت نیاز فروشنده/دریافت‌کننده، شرح و رسید PDF/تصویر را اضافه کنید. سپس Add Expense را انتخاب کنید.",
-          "inputs": "تاریخ معتبر هزینه و مبلغ بیشتر از صفر پوند الزامی هستند. دسته‌بندی از میان Materials، Labour / Worker، Contractor، Tool hire، Travel یا Other انتخاب می‌شود. فروشنده/دریافت‌کننده، شرح و پیوست رسید اختیاری هستند.",
-          "result": "اگر اعتبارسنجی و ذخیره موفق باشد، هزینه به همان بسته کاری اضافه می‌شود. فهرست هزینه‌های بسته، مجموع بسته و فهرست کارها تازه‌سازی می‌شوند.",
-          "notes": "پیش از ثبت، کار و بسته کاری صحیح را تأیید کنید. این هزینه در Company Contracts & Jobs باقی می‌ماند و خودکار به Accountancy کپی نمی‌شود. رسید را نگه دارید و از ثبت دوباره همان هزینه خودداری کنید."
+          "when": "برای ثبت هزینه‌ای که مستقیماً به یک بسته کاری مشخص درون یک کار شرکتی مربوط است، از این گزینه استفاده کنید.",
+          "how": "کار و بسته کاری موردنظر را باز کنید و وارد Financials آن شوید. تاریخ معتبر هزینه و مبلغی بیشتر از صفر وارد کنید، دسته‌بندی را انتخاب و در صورت نیاز دریافت‌کننده، شرح و پیوست رسید را اضافه کنید. سپس Add Expense را انتخاب کنید.",
+          "inputs": "تاریخ معتبر هزینه و مبلغ بیشتر از صفر پوند الزامی هستند. دسته‌بندی از میان Materials، Labour / Worker، Contractor، Tool hire، Travel یا Other انتخاب می‌شود. دریافت‌کننده، شرح و رسید PDF/تصویر اختیاری هستند. کنترل پیوست، محدودیت حجم و قالب‌های مجاز را اعمال می‌کند.",
+          "result": "پس از اعتبارسنجی و ذخیره موفق در داده‌های Projects، هزینه به همان بسته کاری افزوده می‌شود. نمای هزینه‌های بسته، مجموع بسته و فهرست کارها تازه‌سازی می‌شوند.",
+          "notes": "پیش از ثبت، شرکت، کار و بسته کاری صحیح را تأیید کنید. هزینه در Company Contracts & Jobs باقی می‌ماند و خودکار به Accountancy کپی نمی‌شود. رسید را نگه دارید و از ثبت تکراری خودداری کنید."
         },
         "ar": {
           "purpose": "يضيف مصروفاً إلى السجلات المالية لحزمة العمل المحددة.",
@@ -7737,18 +7737,18 @@
       "translations": {
         "en": {
           "purpose": "Records a payment actually received for the selected company job, including gross amount, deductions and net amount.",
-          "when": "Use this after a customer or company payment has actually arrived and you need to record its remittance details.",
-          "how": "Open Payments for the required job. Enter the payment date, gross amount, deduction amount and net amount; select the deduction type and tax/VAT treatment. Add a reference, notes or remittance evidence if available, then select Record Payment.",
+          "when": "Use this after a customer or company payment has actually arrived and its remittance details need to be recorded.",
+          "how": "Open Payments for the required job. Enter the payment date, gross amount, deduction and net amount; select the deduction type and tax/VAT treatment. Optionally add a reference, notes or remittance evidence, then select Record Payment.",
           "inputs": "A valid payment date, gross amount greater than zero and net amount greater than zero are required. Deduction must be between zero and the gross amount. Deduction type and tax/VAT treatment are selected from the form; reference, notes and attachment are optional. If gross minus deduction differs from net by more than £0.01, the app asks for confirmation to continue for accountant review.",
-          "result": "If validation succeeds and IndexedDB saving is verified, the payment is added to the selected job's payment history. The payment history is refreshed and the app confirms that the payment was recorded in Company Contracts & Jobs only.",
+          "result": "If validation and Projects IndexedDB persistence succeed, the payment is added to the selected job's payment history and the payment view refreshes. A confirmation states that the payment is recorded in Company Contracts & Jobs only.",
           "notes": "Record only money actually received. Reconcile gross, deduction and net against the remittance advice. This company-job payment is not posted, linked or copied to Accountancy. Confirm CIS/VAT and other tax treatment with the accountant where required."
         },
         "fa": {
           "purpose": "پرداختی را که واقعاً برای کار شرکتی انتخاب‌شده دریافت شده، همراه با مبلغ ناخالص، کسورات و مبلغ خالص ثبت می‌کند.",
-          "when": "پس از آنکه پرداخت مشتری یا شرکت واقعاً دریافت شده و باید جزئیات حواله آن را ثبت کنید، از این گزینه استفاده کنید.",
+          "when": "پس از دریافت واقعی پرداخت مشتری یا شرکت و زمانی که باید جزئیات حواله آن ثبت شود، از این گزینه استفاده کنید.",
           "how": "بخش Payments کار موردنظر را باز کنید. تاریخ پرداخت، مبلغ ناخالص، مبلغ کسری و مبلغ خالص را وارد کنید؛ نوع کسری و نحوه برخورد مالیاتی/VAT را انتخاب کنید. در صورت وجود، مرجع، یادداشت یا مدرک حواله را اضافه و سپس Record Payment را انتخاب کنید.",
           "inputs": "تاریخ معتبر پرداخت، مبلغ ناخالص بیشتر از صفر و مبلغ خالص بیشتر از صفر الزامی هستند. مبلغ کسری باید بین صفر و مبلغ ناخالص باشد. نوع کسری و نحوه برخورد مالیاتی/VAT از فرم انتخاب می‌شوند؛ مرجع، یادداشت‌ها و پیوست اختیاری هستند. اگر اختلاف مبلغ ناخالص منهای کسری با مبلغ خالص بیش از ۰٫۰۱ پوند باشد، برنامه برای ادامه و بررسی حسابدار تأیید می‌خواهد.",
-          "result": "اگر اعتبارسنجی موفق باشد و ذخیره در IndexedDB تأیید شود، پرداخت به تاریخچه پرداخت همان کار اضافه می‌شود. تاریخچه تازه‌سازی و ثبت پرداخت فقط در Company Contracts & Jobs تأیید می‌شود.",
+          "result": "اگر اعتبارسنجی و ذخیره در IndexedDB بخش Projects موفق باشد، پرداخت به تاریخچه همان کار اضافه و نمای پرداخت‌ها تازه‌سازی می‌شود. پیام تأیید اعلام می‌کند که پرداخت فقط در Company Contracts & Jobs ثبت شده است.",
           "notes": "فقط پولی را ثبت کنید که واقعاً دریافت شده است. مبلغ ناخالص، کسری و خالص را با حواله پرداخت تطبیق دهید. این پرداخت کار شرکتی به Accountancy ارسال، مرتبط یا کپی نمی‌شود. در صورت نیاز نحوه برخورد با CIS/VAT و سایر موارد مالیاتی را با حسابدار تأیید کنید."
         },
         "ar": {
@@ -7834,20 +7834,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Confirms payment of an issued invoice, marks it as paid and creates or updates its linked income record in Accountancy.",
-          "when": "Use this only after the customer has actually paid the invoice and you are ready to record the date funds were received and the payment method.",
-          "how": "Select Mark paid for the invoice. In the Record payment dialog, verify the invoice, enter the date the funds were received, choose Cash or Bank Transfer, then select Confirm payment. Review any possible-duplicate warning before proceeding.",
-          "inputs": "A valid payment date and payment method (Cash or Bank Transfer) are required. The invoice and amount are taken from the selected invoice; the amount is its calculated total.",
-          "result": "After a successful and verified IndexedDB save, the invoice payment status becomes Paid and its invoice status becomes Issued. A linked Work income entry is created in Accountancy, or an existing matching linked income entry is updated. The invoice list is refreshed and a confirmation is displayed.",
-          "notes": "Do not confirm before funds are received. The app checks for an existing linked income entry and, if none is found, warns about possible income entries with the same date and amount. Review the warning to avoid duplicate income. If saving or verification fails, the app restores the prior data state and reports the failure."
+          "purpose": "Confirms payment of an issued invoice, marks it as paid and creates or updates the linked income record in Accountancy.",
+          "when": "Use this only after the customer has actually paid the invoice and you are ready to record the date the funds arrived and the payment method.",
+          "how": "Select Mark paid for the invoice. In the Record payment dialog, verify the invoice, enter the date funds were received, choose Cash or Bank Transfer, then select Confirm payment. Review any possible-duplicate warning before proceeding.",
+          "inputs": "A valid payment date and payment method (Cash or Bank Transfer) are required. The selected invoice supplies the invoice identity and calculated total amount; the amount is not entered manually.",
+          "result": "After a successful, verified IndexedDB save, the invoice payment status becomes Paid and its invoice status becomes Issued. A linked Work income entry is created in Accountancy, or an existing matching linked income entry is updated. The invoice list refreshes and a confirmation is displayed.",
+          "notes": "Do not confirm payment before funds are received. The app checks for an existing linked income entry; if none is found, it warns about possible income entries with the same date and amount. Review the warning to avoid duplicate income. If saving or verification fails, the previous data state is restored and the failure is reported."
         },
         "fa": {
-          "purpose": "پرداخت فاکتور صادرشده را تأیید می‌کند، فاکتور را پرداخت‌شده علامت می‌زند و سابقه درآمد مرتبط با آن را در Accountancy ایجاد یا به‌روزرسانی می‌کند.",
+          "purpose": "پرداخت فاکتور صادرشده را تأیید می‌کند، وضعیت پرداخت آن را Paid قرار می‌دهد و سابقه درآمد مرتبط را در Accountancy ایجاد یا به‌روزرسانی می‌کند.",
           "when": "فقط پس از آن از این گزینه استفاده کنید که مشتری واقعاً مبلغ فاکتور را پرداخت کرده و آماده ثبت تاریخ دریافت وجه و روش پرداخت هستید.",
           "how": "برای فاکتور گزینه Mark paid را انتخاب کنید. در پنجره Record payment، فاکتور را بررسی کنید، تاریخ دریافت وجه را وارد کنید، Cash یا Bank Transfer را انتخاب و سپس Confirm payment را بزنید. پیش از ادامه، هر هشدار مربوط به احتمال ثبت تکراری را بررسی کنید.",
-          "inputs": "تاریخ معتبر پرداخت و روش پرداخت (Cash یا Bank Transfer) الزامی هستند. فاکتور و مبلغ پرداخت از فاکتور انتخاب‌شده گرفته می‌شوند؛ مبلغ برابر با جمع محاسبه‌شده فاکتور است.",
-          "result": "پس از ذخیره موفق و تأییدشده در IndexedDB، وضعیت پرداخت فاکتور Paid و وضعیت فاکتور Issued می‌شود. یک سابقه درآمد Work income مرتبط در Accountancy ایجاد می‌شود یا سابقه درآمد مرتبط و منطبق موجود به‌روزرسانی می‌شود. فهرست فاکتورها تازه‌سازی و پیام تأیید نمایش داده می‌شود.",
-          "notes": "پیش از دریافت واقعی وجه، پرداخت را تأیید نکنید. برنامه سابقه درآمد مرتبط موجود را بررسی می‌کند و اگر موردی پیدا نشود، درباره سوابق درآمد احتمالی با همان تاریخ و مبلغ هشدار می‌دهد. برای جلوگیری از ثبت درآمد تکراری، هشدار را بررسی کنید. اگر ذخیره یا تأیید موفق نباشد، برنامه وضعیت داده قبلی را بازمی‌گرداند و خطا را اعلام می‌کند."
+          "inputs": "تاریخ معتبر پرداخت و روش پرداخت (Cash یا Bank Transfer) الزامی هستند. شناسه و مبلغ محاسبه‌شده از فاکتور انتخاب‌شده گرفته می‌شوند؛ مبلغ به‌صورت دستی وارد نمی‌شود.",
+          "result": "پس از ذخیره موفق و تأییدشده در IndexedDB، وضعیت پرداخت فاکتور Paid و وضعیت خود فاکتور Issued می‌شود. سابقه درآمد Work income مرتبط در Accountancy ایجاد می‌شود یا سابقه درآمد مرتبط و منطبق موجود به‌روزرسانی می‌شود. فهرست فاکتورها تازه‌سازی و پیام تأیید نمایش داده می‌شود.",
+          "notes": "پیش از دریافت واقعی وجه، پرداخت را تأیید نکنید. برنامه سابقه درآمد مرتبط موجود را بررسی می‌کند؛ اگر موردی پیدا نشود، درباره سوابق درآمد احتمالی با همان تاریخ و مبلغ هشدار می‌دهد. برای جلوگیری از ثبت درآمد تکراری، هشدار را بررسی کنید. اگر ذخیره یا تأیید موفق نباشد، وضعیت داده قبلی بازگردانده و خطا اعلام می‌شود."
         },
         "ar": {
           "purpose": "يؤكد تفاصيل دفع الفاتورة، ويسجلها على أنها مدفوعة، وينشئ قيد دخل مرتبطًا في Accountancy أو يحدّث القيد المطابق الموجود.",
@@ -7933,19 +7933,19 @@
       "translations": {
         "en": {
           "purpose": "Moves the current paginated list to the immediately preceding page.",
-          "when": "Use this when the list has more than one page and you want to return to the previous set of records.",
-          "how": "In the pagination controls below the list, select ‹ Previous. The control is disabled on the first page.",
-          "inputs": "No input is required. The Previous control must be enabled; it is unavailable when the current page is page 1.",
-          "result": "The preceding page of the current list is displayed and the list's page number is updated.",
-          "notes": "Pagination displays up to 10 records per page. This action changes only the displayed page; it does not edit, save or delete records."
+          "when": "Use this when the list has multiple pages and you want to return to the previous set of records.",
+          "how": "In the pagination controls below the list, select ‹ Previous. The button is disabled on the first page.",
+          "inputs": "No input is required. The Previous button must be enabled; it cannot be used on page 1.",
+          "result": "The preceding page is displayed and the current page number is updated.",
+          "notes": "Lists show up to 10 records per page. Previous changes only the displayed page; it does not edit, save or delete records."
         },
         "fa": {
           "purpose": "فهرست صفحه‌بندی‌شده فعلی را به صفحه بلافاصله قبل منتقل می‌کند.",
-          "when": "وقتی فهرست بیش از یک صفحه دارد و می‌خواهید به مجموعه سوابق صفحه قبلی بازگردید، از این گزینه استفاده کنید.",
-          "how": "در کنترل‌های صفحه‌بندی زیر فهرست، گزینه ‹ Previous را انتخاب کنید. این کنترل در صفحه اول غیرفعال است.",
-          "inputs": "ورودی لازم نیست. کنترل Previous باید فعال باشد؛ در صفحه اول در دسترس نیست.",
-          "result": "صفحه قبلی فهرست فعلی نمایش داده می‌شود و شماره صفحه فهرست به‌روزرسانی می‌شود.",
-          "notes": "صفحه‌بندی حداکثر ۱۰ سابقه را در هر صفحه نمایش می‌دهد. این عمل فقط صفحه قابل مشاهده را تغییر می‌دهد و سوابق را ویرایش، ذخیره یا حذف نمی‌کند."
+          "when": "وقتی فهرست چند صفحه دارد و می‌خواهید به مجموعه سوابق صفحه قبلی بازگردید، از این گزینه استفاده کنید.",
+          "how": "در کنترل‌های صفحه‌بندی زیر فهرست، گزینه ‹ Previous را انتخاب کنید. این دکمه در صفحه اول غیرفعال است.",
+          "inputs": "ورودی لازم نیست. دکمه Previous باید فعال باشد و در صفحه اول قابل استفاده نیست.",
+          "result": "صفحه قبلی نمایش داده می‌شود و شماره صفحه جاری به‌روزرسانی می‌شود.",
+          "notes": "فهرست‌ها حداکثر ۱۰ سابقه در هر صفحه نمایش می‌دهند. Previous فقط صفحه قابل مشاهده را تغییر می‌دهد و سوابق را ویرایش، ذخیره یا حذف نمی‌کند."
         },
         "ar": {
           "purpose": "ينقل القائمة ذات الصفحات إلى الصفحة السابقة.",
@@ -8031,19 +8031,19 @@
       "translations": {
         "en": {
           "purpose": "Navigates directly to a selected page number in the current paginated list.",
-          "when": "Use this when you want to jump to one of the page numbers currently shown in the pagination controls.",
-          "how": "Select the required page number below the list. The current page is visually marked, and only the available page numbers are displayed as controls.",
-          "inputs": "Select one of the page-number controls currently shown. No text input is required.",
-          "result": "The selected page of the current list is displayed and its page number becomes the current page.",
-          "notes": "Lists show up to 10 records per page. The control displays the current page and nearby available page numbers, not necessarily every page at once. This is navigation only and does not change saved records."
+          "when": "Use this when you want to jump to one of the page numbers currently displayed in the pagination controls.",
+          "how": "Select the required page number below the list. The current page is visually marked; only the current page and nearby available page numbers are shown.",
+          "inputs": "Select one of the page-number buttons currently displayed. No text input is required.",
+          "result": "The selected page of the current list is displayed and becomes the current page.",
+          "notes": "Lists show up to 10 records per page. The controls show the current page and nearby page numbers, not necessarily every page at once. This is navigation only and does not change saved records."
         },
         "fa": {
           "purpose": "مستقیماً به شماره صفحه انتخاب‌شده در فهرست صفحه‌بندی‌شده فعلی می‌رود.",
-          "when": "وقتی می‌خواهید به یکی از شماره صفحه‌هایی که در کنترل‌های صفحه‌بندی نمایش داده شده‌اند بروید، از این گزینه استفاده کنید.",
-          "how": "شماره صفحه موردنظر را در زیر فهرست انتخاب کنید. صفحه فعلی به‌صورت بصری مشخص است و فقط شماره صفحه‌های موجود در کنترل‌ها نمایش داده می‌شوند.",
-          "inputs": "یکی از کنترل‌های شماره صفحه که در حال حاضر نمایش داده شده است انتخاب کنید. ورود متن لازم نیست.",
-          "result": "صفحه انتخاب‌شده از فهرست فعلی نمایش داده می‌شود و شماره آن به‌عنوان صفحه جاری تنظیم می‌شود.",
-          "notes": "فهرست‌ها حداکثر ۱۰ سابقه در هر صفحه نشان می‌دهند. کنترل، صفحه فعلی و شماره صفحه‌های نزدیک و موجود را نمایش می‌دهد و لزوماً همه صفحه‌ها را هم‌زمان نشان نمی‌دهد. این فقط ناوبری است و سوابق ذخیره‌شده را تغییر نمی‌دهد."
+          "when": "وقتی می‌خواهید به یکی از شماره صفحه‌هایی بروید که در کنترل‌های صفحه‌بندی نمایش داده شده‌اند، از این گزینه استفاده کنید.",
+          "how": "شماره صفحه موردنظر را در زیر فهرست انتخاب کنید. صفحه فعلی به‌صورت بصری مشخص است؛ فقط صفحه فعلی و شماره صفحه‌های نزدیک و موجود نمایش داده می‌شوند.",
+          "inputs": "یکی از دکمه‌های شماره صفحه که در حال حاضر نمایش داده شده است انتخاب کنید. ورود متن لازم نیست.",
+          "result": "صفحه انتخاب‌شده از فهرست فعلی نمایش داده می‌شود و به صفحه جاری تبدیل می‌شود.",
+          "notes": "فهرست‌ها حداکثر ۱۰ سابقه در هر صفحه نشان می‌دهند. کنترل‌ها صفحه فعلی و شماره صفحه‌های نزدیک را نمایش می‌دهند و لزوماً همه صفحه‌ها را هم‌زمان نشان نمی‌دهند. این فقط ناوبری است و سوابق ذخیره‌شده را تغییر نمی‌دهد."
         },
         "ar": {
           "purpose": "ينتقل إلى الصفحة المحددة في القائمة الحالية المقسمة إلى صفحات.",
