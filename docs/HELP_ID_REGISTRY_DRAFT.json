@@ -9902,82 +9902,82 @@
         "fa": {
           "purpose": "رکورد مشتری را فقط زمانی حذف می‌کند که هیچ فاکتور ذخیره‌شده‌ای به آن متصل نباشد.",
           "when": "فقط زمانی استفاده کنید که دیگر به رکورد مشتری نیاز ندارید و هیچ فاکتور ذخیره‌شده‌ای به آن مرتبط نیست.",
-          "how": "در کنار مشتری موردنظر Delete را انتخاب و پیام تأیید را بررسی کنید. اگر مشتری فاکتور ذخیره‌شده داشته باشد، برنامه مانع حذف می‌شود و از شما می‌خواهد به‌جای آن اطلاعات مشتری را ویرایش کنید.",
-          "inputs": "رکورد مشتری درست را انتخاب کنید. اگر مشتری فاکتور ذخیره‌شده داشته باشد، حذف او تأیید نخواهد شد.",
-          "result": "اگر مشتری هیچ فاکتور ذخیره‌شده‌ای نداشته باشد و حذف را تأیید کنید، مشتری از فهرست مشتریان حذف می‌شود و برنامه ذخیره تغییر را در IndexedDB بررسی می‌کند.",
-          "notes": "ابتدا هویت مشتری و سابقه کاری او را بررسی کنید. برنامه در صورت وجود فاکتور مرتبط مانع حذف می‌شود؛ سوابق حسابداری موردنیاز کسب‌وکار خود را نگه دارید."
+          "how": "در کنار مشتری موردنظر Delete را انتخاب و پیام تأیید را بررسی کنید. اگر مشتری فاکتور ذخیره‌شده داشته باشد، برنامه مانع حذف می‌شود و از شما می‌خواهد اطلاعات مشتری را ویرایش کنید.",
+          "inputs": "رکورد مشتری درست را انتخاب کنید. اگر مشتری فاکتور ذخیره‌شده داشته باشد، حذف تأیید نمی‌شود.",
+          "result": "اگر مشتری هیچ فاکتور ذخیره‌شده‌ای نداشته باشد و حذف را تأیید کنید، از فهرست مشتریان حذف می‌شود و برنامه ذخیره در IndexedDB را بررسی می‌کند.",
+          "notes": "ابتدا هویت مشتری و سابقه کاری او را بررسی کنید. برنامه در صورت وجود فاکتور مرتبط مانع حذف می‌شود؛ سوابق حسابداری موردنیاز کسب‌وکار را نگه دارید."
         },
         "ar": {
-          "purpose": "يحذف سجل العميل المحدد.",
-          "when": "فقط عندما يكون سجل العميل مكرراً أو غير صحيح ويجب إزالته.",
-          "how": "اختر Delete للعميل المقصود فقط واقرأ رسالة التأكيد بعناية.",
-          "inputs": "حدد سجل العميل الصحيح وتحقق من هويته قبل تأكيد الحذف.",
-          "result": "تتم إزالة السجل أو تعطيله فقط إذا قبل التطبيق العملية وأكدها.",
-          "notes": "قد يؤثر الحذف في الوصول إلى سجل العميل. تحقق من الفواتير أو سجل الأعمال المرتبط واحتفظ بالسجلات المطلوبة محاسبياً."
+          "purpose": "يحذف سجل العميل فقط إذا لم تكن هناك فواتير محفوظة مرتبطة به.",
+          "when": "استخدمه فقط عندما لم تعد بحاجة إلى سجل العميل ولا توجد فواتير محفوظة مرتبطة به.",
+          "how": "اختر Delete بجانب العميل المقصود وراجع رسالة التأكيد. إذا كانت للعميل فواتير محفوظة، يمنع التطبيق الحذف ويطلب منك تعديل بيانات العميل بدلًا من ذلك.",
+          "inputs": "حدد سجل العميل الصحيح. لا يُقبل تأكيد الحذف إذا كانت لدى العميل فواتير محفوظة.",
+          "result": "إذا لم تكن للعميل فواتير محفوظة وتم تأكيد الحذف، يُزال من قائمة العملاء ويتحقق التطبيق من الحفظ في IndexedDB.",
+          "notes": "تحقق أولًا من هوية العميل وسجل العمل. يمنع التطبيق الحذف عند وجود فاتورة مرتبطة؛ احتفظ بالسجلات المحاسبية المطلوبة لنشاطك."
         },
         "ckb": {
-          "purpose": "تۆماری کڕیاری هەڵبژێردراو دەسڕێتەوە.",
-          "when": "تەنها کاتێک تۆماری کڕیار دووبارەیە یان هەڵەیە و دەبێت لاببرێت.",
-          "how": "تەنها بۆ کڕیاری مەبەست Delete هەڵبژێرە و نامەی پشتڕاستکردنەوە بە وردی بخوێنەوە.",
-          "inputs": "تۆماری کڕیاری دروست هەڵبژێرە و پێش پشتڕاستکردنەوەی سڕینەوە ناسنامەکەی بپشکنە.",
-          "result": "تۆمارەکە تەنها ئەگەر ئەپەکە کردارەکە قبووڵ و پشتڕاست بکاتەوە لادەبرێت یان ناچالاک دەکرێت.",
-          "notes": "سڕینەوە دەتوانێت کاریگەری لە دەستگەیشتن بە مێژووی کڕیار هەبێت. فاکتۆر و مێژووی کاری پەیوەست و پێداویستییەکانی پاراستنی تۆمارە ژمێریارییەکان بپشکنە."
+          "purpose": "تۆماری کڕیار تەنها ئەگەر هیچ فاکتۆرێکی پاشەکەوتکراو پەیوەست پێوە نەبێت دەسڕێتەوە.",
+          "when": "تەنها کاتێک بەکاریبهێنە کە چیتر پێویستت بە تۆماری کڕیار نییە و هیچ فاکتۆرێکی پاشەکەوتکراو پەیوەست پێوە نییە.",
+          "how": "لە تەنیشت کڕیاری مەبەست Delete هەڵبژێرە و پەیامی پشتڕاستکردنەوە بپشکنە. ئەگەر کڕیار فاکتۆری پاشەکەوتکراوی هەبێت، ئەپەکە ڕێگری لە سڕینەوە دەکات و داوات لێدەکات زانیارییەکانی کڕیار دەستکاری بکەیت.",
+          "inputs": "تۆماری دروستی کڕیار هەڵبژێرە. ئەگەر کڕیار فاکتۆری پاشەکەوتکراوی هەبێت، پشتڕاستکردنەوەی سڕینەوە قبووڵ ناکرێت.",
+          "result": "ئەگەر کڕیار هیچ فاکتۆرێکی پاشەکەوتکراوی نەبێت و سڕینەوە پشتڕاست بکرێتەوە، لە لیستی کڕیاران لادەبرێت و ئەپەکە پاشەکەوتکردن لە IndexedDB پشتڕاست دەکاتەوە.",
+          "notes": "سەرەتا ناسنامەی کڕیار و مێژووی کارەکەی بپشکنە. ئەگەر فاکتۆری پەیوەست هەبێت ئەپەکە ڕێگری لە سڕینەوە دەکات؛ تۆمارە ژمێریارییە پێویستەکانی کاروبارەکەت بهێڵەوە."
         },
         "kmr": {
-          "purpose": "Tomara xerîdarê hilbijartî jê dike.",
-          "when": "Tenê dema ku tomara xerîdar dubare an xelet e û divê were rakirin.",
-          "how": "Tenê ji bo xerîdarê armanckirî Delete hilbijêre û peyama piştrastkirinê bi baldarî bixwîne.",
-          "inputs": "Tomara xerîdarê rast hilbijêre û berî piştrastkirina jêbirinê nasnameya wê kontrol bike.",
-          "result": "Tomar tenê heke sepan kiryarê qebûl û piştrast bike tê rakirin an neçalak kirin.",
-          "notes": "Jêbirin dikare bandorê li gihîştina dîroka xerîdar bike. Fatûre û dîroka karê girêdayî û pêdiviyên parastina tomarên hesabê kontrol bike."
+          "purpose": "Tomara xerîdar tenê dema ku tu fatûreyeke tomarkirî pê ve girêdayî tune be jê dike.",
+          "when": "Tenê dema ku êdî tomara xerîdar pêwîst nake û tu fatûreyeke tomarkirî pê ve girêdayî tune ye bikar bîne.",
+          "how": "Li kêleka xerîdarê armancê Delete hilbijêre û peyama piştrastkirinê kontrol bike. Heke xerîdar fatûreyên tomarkirî hebe, sepan nahêle were jêbirin û ji te dixwaze agahiyên xerîdar biguherînî.",
+          "inputs": "Tomara xerîdarê rast hilbijêre. Heke xerîdar fatûreyên tomarkirî hebe, piştrastkirina jêbirinê nayê pejirandin.",
+          "result": "Heke xerîdar tu fatûreyeke tomarkirî tune be û jêbirin were piştrastkirin, ji lîsteya xerîdaran tê rakirin û sepan tomarkirina IndexedDB piştrast dike.",
+          "notes": "Pêşî nasnameya xerîdar û dîroka karê kontrol bike. Heke fatûreyeke girêdayî hebe, sepan jêbirinê asteng dike; tomarên hesabê yên pêwîst biparêze."
         },
         "tr": {
-          "purpose": "Seçilen müşteri kaydını siler.",
-          "when": "Yalnızca müşteri kaydı yinelenmişse veya yanlışsa ve kaldırılması gerekiyorsa kullanın.",
-          "how": "Yalnızca amaçlanan müşteri için Delete'i seçin ve onay mesajını dikkatle okuyun.",
-          "inputs": "Doğru müşteri kaydını seçin ve silmeyi onaylamadan önce kimliğini doğrulayın.",
-          "result": "Uygulama işlemi kabul edip onaylarsa kayıt kaldırılır veya devre dışı bırakılır.",
-          "notes": "Silme işlemi müşteri kaydına erişimi etkileyebilir. Bağlantılı faturaları veya iş geçmişini kontrol edin ve muhasebe için gerekli kayıtları saklayın."
+          "purpose": "Müşteri kaydını yalnızca ona bağlı kayıtlı fatura yoksa siler.",
+          "when": "Yalnızca müşteri kaydına artık ihtiyaç yoksa ve kayıtlı hiçbir fatura bu müşteriye bağlı değilse kullanın.",
+          "how": "İstenen müşterinin yanındaki Delete seçeneğini belirleyin ve onay istemini inceleyin. Müşterinin kayıtlı faturaları varsa uygulama silmeyi engeller ve bunun yerine müşteri bilgilerini düzenlemenizi ister.",
+          "inputs": "Doğru müşteri kaydını seçin. Müşterinin kayıtlı faturaları varsa silme onayı kabul edilmez.",
+          "result": "Müşterinin kayıtlı faturası yoksa ve silme onaylanırsa müşteri listesinden kaldırılır; uygulama IndexedDB kaydını doğrular.",
+          "notes": "Önce müşteri kimliğini ve iş geçmişini kontrol edin. Bağlı fatura varsa uygulama silmeyi engeller; işletmeniz için gerekli muhasebe kayıtlarını saklayın."
         },
         "pl": {
-          "purpose": "Usuwa rekord wybranego klienta.",
-          "when": "Użyj wyłącznie wtedy, gdy rekord klienta jest duplikatem lub jest nieprawidłowy i należy go usunąć.",
-          "how": "Wybierz Delete tylko przy właściwym kliencie i uważnie przeczytaj komunikat potwierdzający.",
-          "inputs": "Wybierz właściwy rekord klienta i przed potwierdzeniem usunięcia sprawdź jego tożsamość.",
-          "result": "Rekord zostanie usunięty lub dezaktywowany tylko wtedy, gdy aplikacja zaakceptuje i potwierdzi operację.",
-          "notes": "Usunięcie może wpłynąć na dostęp do danych klienta. Sprawdź powiązane faktury i historię prac oraz zachowaj dokumentację wymaganą do celów księgowych."
+          "purpose": "Usuwa rekord klienta tylko wtedy, gdy nie są z nim powiązane żadne zapisane faktury.",
+          "when": "Użyj tylko wtedy, gdy rekord klienta nie jest już potrzebny i nie są z nim powiązane żadne zapisane faktury.",
+          "how": "Wybierz Delete przy właściwym kliencie i sprawdź komunikat potwierdzenia. Jeśli klient ma zapisane faktury, aplikacja zablokuje usunięcie i poprosi o edycję danych klienta.",
+          "inputs": "Wybierz właściwy rekord klienta. Jeśli klient ma zapisane faktury, potwierdzenie usunięcia nie zostanie zaakceptowane.",
+          "result": "Jeśli klient nie ma zapisanych faktur i usunięcie zostanie potwierdzone, znika z listy klientów, a aplikacja weryfikuje zapis w IndexedDB.",
+          "notes": "Najpierw sprawdź tożsamość klienta i historię zleceń. Aplikacja blokuje usunięcie, jeśli istnieje powiązana faktura; zachowaj wymagane dokumenty księgowe."
         },
         "ur": {
-          "purpose": "منتخب گاہک کا ریکارڈ حذف کرتا ہے۔",
-          "when": "صرف اس وقت استعمال کریں جب گاہک کا ریکارڈ نقل ہو یا غلط ہو اور اسے ہٹانا ضروری ہو۔",
-          "how": "صرف مطلوبہ گاہک کے لیے Delete منتخب کریں اور تصدیقی پیغام غور سے پڑھیں۔",
-          "inputs": "درست گاہک کا ریکارڈ منتخب کریں اور حذف کی تصدیق سے پہلے اس کی شناخت چیک کریں۔",
-          "result": "ایپ کارروائی قبول اور تصدیق کرے تو ریکارڈ ہٹا یا غیر فعال ہو جاتا ہے۔",
-          "notes": "حذف کرنے سے گاہک کے ریکارڈ تک رسائی متاثر ہو سکتی ہے۔ منسلک انوائسز یا کام کی تاریخ چیک کریں اور اکاؤنٹنگ کے لیے ضروری ریکارڈ محفوظ رکھیں۔"
+          "purpose": "گاہک کا ریکارڈ صرف اسی صورت حذف کرتا ہے جب اس سے کوئی محفوظ شدہ انوائس منسلک نہ ہو۔",
+          "when": "صرف اسی وقت استعمال کریں جب گاہک کا ریکارڈ درکار نہ رہے اور اس سے کوئی محفوظ انوائس منسلک نہ ہو۔",
+          "how": "متعلقہ گاہک کے ساتھ Delete منتخب کریں اور تصدیقی پیغام دیکھیں۔ اگر گاہک کی محفوظ انوائسز موجود ہوں تو ایپ حذف کرنے سے روکتی ہے اور اس کے بجائے معلومات میں ترمیم کرنے کو کہتی ہے۔",
+          "inputs": "درست گاہک کا ریکارڈ منتخب کریں۔ اگر گاہک کی محفوظ انوائسز موجود ہوں تو حذف کی تصدیق قبول نہیں کی جاتی۔",
+          "result": "اگر گاہک کی کوئی محفوظ انوائس نہ ہو اور حذف کی تصدیق ہو جائے تو اسے گاہکوں کی فہرست سے ہٹا دیا جاتا ہے اور ایپ IndexedDB میں محفوظ ہونے کی تصدیق کرتی ہے۔",
+          "notes": "پہلے گاہک کی شناخت اور کام کی تاریخ چیک کریں۔ منسلک انوائس ہونے پر ایپ حذف کرنے سے روکتی ہے؛ کاروبار کے لیے ضروری اکاؤنٹنگ ریکارڈ محفوظ رکھیں۔"
         },
         "pa": {
-          "purpose": "ਚੁਣੇ ਗਾਹਕ ਦਾ ਰਿਕਾਰਡ ਮਿਟਾਉਂਦਾ ਹੈ।",
-          "when": "ਸਿਰਫ਼ ਜਦੋਂ ਗਾਹਕ ਰਿਕਾਰਡ ਡੁਪਲੀਕੇਟ ਜਾਂ ਗਲਤ ਹੋਵੇ ਅਤੇ ਹਟਾਉਣਾ ਲੋੜੀਂਦਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਸਿਰਫ਼ ਲੋੜੀਂਦੇ ਗਾਹਕ ਲਈ Delete ਚੁਣੋ ਅਤੇ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਧਿਆਨ ਨਾਲ ਪੜ੍ਹੋ।",
-          "inputs": "ਸਹੀ ਗਾਹਕ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਮਿਟਾਉਣ ਦੀ ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਉਸਦੀ ਪਛਾਣ ਜਾਂਚੋ।",
-          "result": "ਐਪ ਕਾਰਵਾਈ ਸਵੀਕਾਰ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਰਿਕਾਰਡ ਹਟਾਇਆ ਜਾਂ ਅਕਿਰਿਆਸ਼ੀਲ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।",
-          "notes": "ਮਿਟਾਉਣ ਨਾਲ ਗਾਹਕ ਰਿਕਾਰਡ ਤੱਕ ਪਹੁੰਚ ਪ੍ਰਭਾਵਿਤ ਹੋ ਸਕਦੀ ਹੈ। ਜੁੜੇ ਇਨਵੌਇਸ ਜਾਂ ਕੰਮ ਦਾ ਇਤਿਹਾਸ ਜਾਂਚੋ ਅਤੇ ਅਕਾਊਂਟਿੰਗ ਲਈ ਲੋੜੀਂਦੇ ਰਿਕਾਰਡ ਸੰਭਾਲੋ।"
+          "purpose": "ਗਾਹਕ ਦਾ ਰਿਕਾਰਡ ਸਿਰਫ਼ ਉਦੋਂ ਮਿਟਾਉਂਦਾ ਹੈ ਜਦੋਂ ਇਸ ਨਾਲ ਕੋਈ ਸੇਵ ਕੀਤਾ ਇਨਵੌਇਸ ਜੁੜਿਆ ਨਾ ਹੋਵੇ।",
+          "when": "ਸਿਰਫ਼ ਉਦੋਂ ਵਰਤੋ ਜਦੋਂ ਗਾਹਕ ਰਿਕਾਰਡ ਦੀ ਲੋੜ ਨਾ ਰਹੇ ਅਤੇ ਇਸ ਨਾਲ ਕੋਈ ਸੇਵ ਕੀਤਾ ਇਨਵੌਇਸ ਜੁੜਿਆ ਨਾ ਹੋਵੇ।",
+          "how": "ਸੰਬੰਧਿਤ ਗਾਹਕ ਦੇ ਨਾਲ Delete ਚੁਣੋ ਅਤੇ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਵੇਖੋ। ਜੇ ਗਾਹਕ ਦੇ ਸੇਵ ਕੀਤੇ ਇਨਵੌਇਸ ਹਨ ਤਾਂ ਐਪ ਮਿਟਾਉਣ ਤੋਂ ਰੋਕੇਗੀ ਅਤੇ ਗਾਹਕ ਦੀ ਜਾਣਕਾਰੀ ਸੋਧਣ ਲਈ ਕਹੇਗੀ।",
+          "inputs": "ਸਹੀ ਗਾਹਕ ਰਿਕਾਰਡ ਚੁਣੋ। ਜੇ ਗਾਹਕ ਦੇ ਸੇਵ ਕੀਤੇ ਇਨਵੌਇਸ ਹਨ ਤਾਂ ਮਿਟਾਉਣ ਦੀ ਪੁਸ਼ਟੀ ਸਵੀਕਾਰ ਨਹੀਂ ਕੀਤੀ ਜਾਂਦੀ।",
+          "result": "ਜੇ ਗਾਹਕ ਦਾ ਕੋਈ ਸੇਵ ਕੀਤਾ ਇਨਵੌਇਸ ਨਹੀਂ ਅਤੇ ਮਿਟਾਉਣ ਦੀ ਪੁਸ਼ਟੀ ਹੋ ਜਾਵੇ ਤਾਂ ਉਸਨੂੰ ਗਾਹਕ ਸੂਚੀ ਤੋਂ ਹਟਾ ਦਿੱਤਾ ਜਾਂਦਾ ਹੈ ਅਤੇ ਐਪ IndexedDB ਵਿੱਚ ਸੇਵ ਹੋਣ ਦੀ ਜਾਂਚ ਕਰਦੀ ਹੈ।",
+          "notes": "ਪਹਿਲਾਂ ਗਾਹਕ ਦੀ ਪਛਾਣ ਅਤੇ ਕੰਮ ਦਾ ਇਤਿਹਾਸ ਜਾਂਚੋ। ਜੁੜਿਆ ਇਨਵੌਇਸ ਹੋਣ 'ਤੇ ਐਪ ਮਿਟਾਉਣ ਤੋਂ ਰੋਕਦੀ ਹੈ; ਕਾਰੋਬਾਰ ਲਈ ਲੋੜੀਂਦੇ ਅਕਾਊਂਟਿੰਗ ਰਿਕਾਰਡ ਸੰਭਾਲੋ।"
         },
         "prs": {
-          "purpose": "سابقه مشتری انتخاب‌شده را حذف می‌کند.",
-          "when": "فقط وقتی سابقه مشتری تکراری یا اشتباه است و باید حذف شود، استفاده کنید.",
-          "how": "فقط برای مشتری موردنظر Delete را انتخاب کنید و پیام تأیید را با دقت بخوانید.",
-          "inputs": "سابقه درست مشتری را انتخاب کنید و پیش از تأیید حذف، هویت آن را بررسی کنید.",
-          "result": "سابقه فقط در صورت پذیرش و تأیید برنامه حذف یا غیرفعال می‌شود.",
-          "notes": "حذف ممکن است بر دسترسی به سابقه مشتری اثر بگذارد. فاکتورها یا سوابق کاری مرتبط را بررسی و مدارک لازم برای حسابداری را نگهداری کنید."
+          "purpose": "رکورد مشتری را فقط زمانی حذف می‌کند که هیچ فاکتور ذخیره‌شده‌ای به آن متصل نباشد.",
+          "when": "فقط زمانی استفاده کنید که دیگر به رکورد مشتری نیاز ندارید و هیچ فاکتور ذخیره‌شده‌ای به آن مرتبط نیست.",
+          "how": "در کنار مشتری موردنظر Delete را انتخاب و پیام تأیید را بررسی کنید. اگر مشتری فاکتور ذخیره‌شده داشته باشد، برنامه مانع حذف می‌شود و از شما می‌خواهد اطلاعات مشتری را ویرایش کنید.",
+          "inputs": "رکورد مشتری درست را انتخاب کنید. اگر مشتری فاکتور ذخیره‌شده داشته باشد، حذف تأیید نمی‌شود.",
+          "result": "اگر مشتری هیچ فاکتور ذخیره‌شده‌ای نداشته باشد و حذف را تأیید کنید، از فهرست مشتریان حذف می‌شود و برنامه ذخیره در IndexedDB را بررسی می‌کند.",
+          "notes": "ابتدا هویت مشتری و سابقه کاری او را بررسی کنید. برنامه در صورت وجود فاکتور مرتبط مانع حذف می‌شود؛ سوابق حسابداری موردنیاز کسب‌وکار را نگه دارید."
         },
         "ps": {
-          "purpose": "د ټاکل شوي پېرودونکي ریکارډ ړنګوي.",
-          "when": "یوازې هغه وخت یې وکاروئ چې د پېرودونکي ریکارډ تکراري یا غلط وي او لرې کول یې اړین وي.",
-          "how": "یوازې د ټاکل شوي پېرودونکي لپاره Delete وټاکئ او د تایید پیغام په دقت ولولئ.",
-          "inputs": "د پېرودونکي سم ریکارډ وټاکئ او د ړنګولو له تایید مخکې یې هویت وګورئ.",
-          "result": "ریکارډ یوازې هغه وخت لرې یا غیرفعال کېږي چې اپلیکیشن کړنه ومني او تایید یې کړي.",
-          "notes": "ړنګول د پېرودونکي ریکارډ ته پر لاسرسي اغېز کولی شي. تړلي بلونه یا د کار مخینه وګورئ او د حسابدارۍ اړین ریکارډونه وساتئ."
+          "purpose": "د پېرودونکي ریکارډ یوازې هغه وخت ړنګوي چې ورسره خوندي شوی بل تړلی نه وي.",
+          "when": "یوازې هغه وخت یې وکاروئ چې د پېرودونکي ریکارډ نور اړین نه وي او ورسره هېڅ خوندي شوی بل تړلی نه وي.",
+          "how": "د اړوند پېرودونکي ترڅنګ Delete وټاکئ او د تایید پیغام وګورئ. که پېرودونکی خوندي شوي بلونه ولري، اپلیکیشن د ړنګولو مخه نیسي او د پېرودونکي د معلوماتو د سمولو غوښتنه کوي.",
+          "inputs": "سم د پېرودونکي ریکارډ وټاکئ. که پېرودونکی خوندي شوي بلونه ولري، د ړنګولو تایید نه منل کېږي.",
+          "result": "که پېرودونکی خوندي شوي بلونه ونه لري او ړنګول تایید شي، د پېرودونکو له لېست څخه لرې کېږي او اپلیکیشن په IndexedDB کې خوندي کېدل تاییدوي.",
+          "notes": "لومړی د پېرودونکي هویت او د کار تاریخ وګورئ. که تړلی بل موجود وي، اپلیکیشن د ړنګولو مخه نیسي؛ د سوداګرۍ اړین حسابداري ریکارډونه وساتئ."
         }
       },
       "handler_or_behavior": "`deleteCustomer(`"
@@ -10194,84 +10194,84 @@
           "notes": "This reverses the invoice payment status and removes the linked income from active records. Confirm the payment history carefully before proceeding."
         },
         "fa": {
-          "purpose": "وضعیت فاکتور پرداخت‌شده را به پرداخت‌نشده تغییر می‌دهد و ثبت درآمد مرتبط با آن را به Deleted Records منتقل می‌کند.",
-          "when": "فقط زمانی استفاده کنید که فاکتور در واقع پرداخت نشده است یا وضعیت پرداخت‌شده قبلی آن اشتباه بوده است.",
-          "how": "برای فاکتور درست Mark unpaid را انتخاب کنید و پس از خواندن هشدار مربوط به ثبت درآمد مرتبط، پیام تأیید را بررسی و تأیید کنید.",
-          "inputs": "فاکتور پرداخت‌شده درست را انتخاب کنید. برنامه ثبت درآمد مرتبط را شناسایی می‌کند؛ در این بخش نیازی به واردکردن تاریخ یا مبلغ پرداخت نیست.",
-          "result": "وضعیت پرداخت فاکتور به پرداخت‌نشده تغییر می‌کند و تاریخ و روش پرداخت آن پاک می‌شود. هر ثبت درآمد مرتبط به‌صورت نرم‌افزاری حذف شده و در Deleted Records نگهداری می‌شود.",
-          "notes": "این عملیات وضعیت پرداخت فاکتور را برمی‌گرداند و ثبت درآمد مرتبط را از سوابق فعال خارج می‌کند. پیش از ادامه، سابقه پرداخت را با دقت بررسی کنید."
+          "purpose": "وضعیت فاکتور پرداخت‌شده را به پرداخت‌نشده تغییر می‌دهد و ثبت درآمد مرتبط را به Deleted Records منتقل می‌کند.",
+          "when": "فقط زمانی استفاده کنید که فاکتور واقعاً پرداخت نشده یا وضعیت پرداخت‌شده قبلی آن اشتباه بوده است.",
+          "how": "برای فاکتور درست Mark unpaid را انتخاب کنید و پس از خواندن هشدار مربوط به ثبت درآمد مرتبط، تأیید کنید.",
+          "inputs": "فاکتور پرداخت‌شده درست را انتخاب کنید. برنامه ثبت درآمد مرتبط را شناسایی می‌کند؛ در این بخش تاریخ یا مبلغ پرداخت وارد نمی‌شود.",
+          "result": "وضعیت فاکتور به پرداخت‌نشده تغییر می‌کند و تاریخ و روش پرداخت پاک می‌شوند. هر ثبت درآمد مرتبط به‌صورت نرم‌افزاری حذف و در Deleted Records نگهداری می‌شود.",
+          "notes": "این عملیات وضعیت پرداخت فاکتور را برمی‌گرداند و درآمد مرتبط را از سوابق فعال خارج می‌کند. پیش از ادامه، سابقه پرداخت را با دقت بررسی کنید."
         },
         "ar": {
-          "purpose": "يغيّر حالة الفاتورة إلى غير مدفوعة.",
-          "when": "فقط عندما لم تُدفع الفاتورة أو كان وضعها السابق كمدفوعة غير صحيح.",
-          "how": "اختر Mark unpaid للفاتورة الصحيحة وأكد التغيير إذا طُلب منك ذلك.",
-          "inputs": "حدد الفاتورة الصحيحة وتحقق من سجل الدفع قبل تغيير حالتها.",
-          "result": "تتغير حالة الفاتورة إلى غير مدفوعة إذا نجحت العملية.",
-          "notes": "استخدمه فقط إذا لم يتم استلام الدفع أو كان وضع الدفع السابق خاطئاً؛ راجع سجلات الدفع أولاً."
+          "purpose": "يغيّر حالة الفاتورة المدفوعة إلى غير مدفوعة وينقل قيد الدخل المرتبط بها إلى Deleted Records.",
+          "when": "استخدمه فقط إذا لم تُدفع الفاتورة فعليًا أو كان وضعها السابق كمدفوعة غير صحيح.",
+          "how": "اختر Mark unpaid للفاتورة الصحيحة، واقرأ التحذير بشأن قيد الدخل المرتبط ثم أكّد.",
+          "inputs": "حدد الفاتورة المدفوعة الصحيحة. يحدد التطبيق قيد الدخل المرتبط؛ لا يُدخل تاريخ أو مبلغ دفع هنا.",
+          "result": "تتغير حالة الفاتورة إلى غير مدفوعة ويُمسح تاريخ الدفع وطريقته. ويُنقل قيد الدخل المرتبط إلى Deleted Records بحذف منطقي.",
+          "notes": "يعكس هذا الإجراء حالة دفع الفاتورة ويزيل قيد الدخل المرتبط من السجلات النشطة. راجع سجل الدفع بعناية قبل المتابعة."
         },
         "ckb": {
-          "purpose": "دۆخی فاکتۆر دەگۆڕێت بۆ پارە نەدراو.",
-          "when": "تەنها کاتێک فاکتۆرەکە پارەی بۆ نەدراوە یان دۆخی پێشووی پارەدراو هەڵە بووە.",
-          "how": "بۆ فاکتۆری دروست Mark unpaid هەڵبژێرە و ئەگەر داوا کرا گۆڕانکارییەکە پشتڕاست بکەرەوە.",
-          "inputs": "فاکتۆری دروست هەڵبژێرە و پێش گۆڕینی دۆخەکە تۆماری پارەدان بپشکنە.",
-          "result": "ئەگەر کردارەکە سەرکەوتوو بێت، دۆخی فاکتۆر دەبێتە پارە نەدراو.",
-          "notes": "تەنها ئەگەر پارە وەرنەگیراوە یان دۆخی پێشووی پارەدان هەڵە بووە بەکاری بهێنە؛ سەرەتا تۆمارەکانی پارەدان بپشکنە."
+          "purpose": "دۆخی فاکتۆری پارەدراو دەگۆڕێت بۆ پارە نەدراو و تۆماری داهاتی پەیوەست دەگوازێتەوە بۆ Deleted Records.",
+          "when": "تەنها کاتێک بەکاریبهێنە کە فاکتۆرەکە بەڕاستی پارەی بۆ نەدراوە یان دۆخی پێشووی پارەدراو هەڵە بووە.",
+          "how": "بۆ فاکتۆری دروست Mark unpaid هەڵبژێرە، ئاگادارکردنەوەی تۆماری داهاتی پەیوەست بخوێنەوە، پاشان پشتڕاستی بکەرەوە.",
+          "inputs": "فاکتۆری پارەدراوی دروست هەڵبژێرە. ئەپەکە تۆماری داهاتی پەیوەست دەناسێتەوە؛ لێرە بەروار یان بڕی پارەدان نانووسرێت.",
+          "result": "دۆخی فاکتۆر دەبێتە پارە نەدراو و بەروار و شێوازی پارەدان دەسڕدرێنەوە. تۆماری داهاتی پەیوەست بە شێوەی soft-delete دەکرێت و لە Deleted Records دەمێنێتەوە.",
+          "notes": "ئەم کردارە دۆخی پارەدانی فاکتۆر دەگەڕێنێتەوە و داهاتی پەیوەست لە تۆمارە چالاکەکان دەردەکات. پێش بەردەوامبوون مێژووی پارەدان بە وردی بپشکنە."
         },
         "kmr": {
-          "purpose": "Rewşa fatûreyê diguherîne bo nehatî dayîn.",
-          "when": "Tenê dema ku fatûre nehatî dayîn e an rewşa berê ya dayînê xelet bû.",
-          "how": "Ji bo fatûreya rast Mark unpaid hilbijêre û heke were xwestin guherînê piştrast bike.",
-          "inputs": "Fatûreya rast hilbijêre û berî guherandina rewşê tomarên dravdanê kontrol bike.",
-          "result": "Ger kiryar serkeftî be, rewşa fatûreyê dibe nehatî dayîn.",
-          "notes": "Tenê dema ku drav nehatî wergirtin an rewşa dravdana berê xelet bû bikar bîne; pêşî tomarên dravdanê kontrol bike."
+          "purpose": "Rewşa fatûreya hatiye dayîn diguherîne bo nehatî dayîn û tomara dahata girêdayî vediguhezîne Deleted Records.",
+          "when": "Tenê dema ku fatûre bi rastî nehatiye dayîn an rewşa berê ya hatiye dayîn xelet bûye bikar bîne.",
+          "how": "Ji bo fatûreya rast Mark unpaid hilbijêre, hişyariya tomara dahata girêdayî bixwîne, paşê piştrast bike.",
+          "inputs": "Fatûreya hatiye dayîn a rast hilbijêre. Sepan tomara dahata girêdayî nas dike; li vir dîrok an mîqdara dravdanê nayê têxistin.",
+          "result": "Rewşa fatûreyê dibe nehatî dayîn û dîrok û awayê dravdanê têne paqijkirin. Tomara dahata girêdayî bi awayê soft-delete tê rakirin û di Deleted Records de dimîne.",
+          "notes": "Ev kiryar rewşa dravdana fatûreyê vedigerîne û dahata girêdayî ji tomarên çalak derdixe. Berî domandinê dîroka dravdanê bi baldarî kontrol bike."
         },
         "tr": {
-          "purpose": "Fatura durumunu ödenmemiş olarak değiştirir.",
-          "when": "Yalnızca fatura ödenmemişse veya önceki ödenmiş durumu yanlışsa kullanın.",
-          "how": "Doğru fatura için Mark unpaid'i seçin ve istenirse değişikliği onaylayın.",
-          "inputs": "Doğru faturayı seçin ve durumunu değiştirmeden önce ödeme kayıtlarını kontrol edin.",
-          "result": "İşlem başarılı olursa faturanın durumu ödenmemiş olarak değişir.",
-          "notes": "Yalnızca ödeme alınmadıysa veya önceki ödeme durumu hatalıysa kullanın; önce ödeme kayıtlarını kontrol edin."
+          "purpose": "Ödenmiş faturayı ödenmemiş olarak değiştirir ve bağlantılı gelir kaydını Deleted Records bölümüne taşır.",
+          "when": "Yalnızca fatura gerçekten ödenmediyse veya önceki ödenmiş durumu yanlışsa kullanın.",
+          "how": "Doğru faturada Mark unpaid seçeneğini belirleyin, bağlantılı gelir kaydı uyarısını okuyun ve onaylayın.",
+          "inputs": "Doğru ödenmiş faturayı seçin. Uygulama bağlantılı gelir kaydını belirler; burada ödeme tarihi veya tutarı girilmez.",
+          "result": "Faturanın durumu ödenmemiş olur; ödeme tarihi ve yöntemi temizlenir. Bağlantılı gelir kaydı soft-delete yapılır ve Deleted Records bölümünde tutulur.",
+          "notes": "Bu işlem fatura ödeme durumunu geri alır ve bağlantılı geliri etkin kayıtlardan çıkarır. Devam etmeden önce ödeme geçmişini dikkatle inceleyin."
         },
         "pl": {
-          "purpose": "Zmienia status faktury na nieopłaconą.",
-          "when": "Użyj tylko wtedy, gdy faktura nie została opłacona lub wcześniejszy status opłacenia był nieprawidłowy.",
-          "how": "Wybierz Mark unpaid przy właściwej fakturze i potwierdź zmianę, jeśli pojawi się prośba.",
-          "inputs": "Wybierz właściwą fakturę i przed zmianą statusu sprawdź rejestr płatności.",
-          "result": "Jeśli operacja się powiedzie, status faktury zmieni się na nieopłaconą.",
-          "notes": "Używaj tylko wtedy, gdy płatność nie została otrzymana lub poprzedni status był błędny; najpierw sprawdź zapisy płatności."
+          "purpose": "Zmienia status opłaconej faktury na nieopłaconą i przenosi powiązany wpis przychodu do Deleted Records.",
+          "when": "Użyj tylko wtedy, gdy faktura faktycznie nie została opłacona lub poprzedni status opłacenia był błędny.",
+          "how": "Wybierz Mark unpaid przy właściwej fakturze, przeczytaj ostrzeżenie o powiązanym wpisie przychodu i potwierdź.",
+          "inputs": "Wybierz właściwą opłaconą fakturę. Aplikacja rozpoznaje powiązany wpis przychodu; nie wpisuje się tu daty ani kwoty płatności.",
+          "result": "Status faktury zmienia się na nieopłaconą, a data i metoda płatności są czyszczone. Powiązany wpis przychodu jest logicznie usuwany i pozostaje w Deleted Records.",
+          "notes": "Ta czynność cofa status płatności faktury i usuwa powiązany przychód z aktywnych rekordów. Przed kontynuowaniem dokładnie sprawdź historię płatności."
         },
         "ur": {
-          "purpose": "انوائس کی حیثیت کو غیر ادا شدہ میں تبدیل کرتا ہے۔",
-          "when": "صرف اس وقت استعمال کریں جب انوائس ادا نہ ہوئی ہو یا اس کی سابقہ ادا شدہ حیثیت غلط ہو۔",
-          "how": "درست انوائس کے لیے Mark unpaid منتخب کریں اور اگر کہا جائے تو تبدیلی کی تصدیق کریں۔",
-          "inputs": "درست انوائس منتخب کریں اور حیثیت بدلنے سے پہلے ادائیگی کے ریکارڈ چیک کریں۔",
-          "result": "کارروائی کامیاب ہو تو انوائس کی حیثیت غیر ادا شدہ ہو جاتی ہے۔",
-          "notes": "صرف تب استعمال کریں جب ادائیگی موصول نہ ہوئی ہو یا سابقہ حیثیت غلط تھی؛ پہلے ادائیگی کے ریکارڈ دیکھیں۔"
+          "purpose": "ادا شدہ انوائس کو غیر ادا شدہ کرتا ہے اور اس سے منسلک آمدنی کا اندراج Deleted Records میں منتقل کرتا ہے۔",
+          "when": "صرف اسی وقت استعمال کریں جب انوائس حقیقتاً ادا نہ ہوئی ہو یا اس کا سابقہ ادا شدہ اسٹیٹس غلط ہو۔",
+          "how": "درست انوائس پر Mark unpaid منتخب کریں، منسلک آمدنی کے اندراج کی وارننگ پڑھیں اور تصدیق کریں۔",
+          "inputs": "درست ادا شدہ انوائس منتخب کریں۔ ایپ منسلک آمدنی کے اندراج کی شناخت کرتی ہے؛ یہاں ادائیگی کی تاریخ یا رقم درج نہیں ہوتی۔",
+          "result": "انوائس کی حیثیت غیر ادا شدہ ہو جاتی ہے اور ادائیگی کی تاریخ و طریقہ صاف ہو جاتے ہیں۔ منسلک آمدنی کا اندراج soft-delete ہو کر Deleted Records میں رہتا ہے۔",
+          "notes": "یہ کارروائی انوائس کی ادائیگی کی حیثیت واپس کرتی ہے اور منسلک آمدنی کو فعال ریکارڈز سے ہٹا دیتی ہے۔ آگے بڑھنے سے پہلے ادائیگی کی تاریخ غور سے دیکھیں۔"
         },
         "pa": {
-          "purpose": "ਇਨਵੌਇਸ ਦੀ ਸਥਿਤੀ ਨੂੰ ਨਾ-ਭੁਗਤਾਨ ਕੀਤਾ ਵਿੱਚ ਬਦਲਦਾ ਹੈ।",
-          "when": "ਸਿਰਫ਼ ਜਦੋਂ ਇਨਵੌਇਸ ਦਾ ਭੁਗਤਾਨ ਨਾ ਹੋਇਆ ਹੋਵੇ ਜਾਂ ਪਹਿਲਾਂ ਭੁਗਤਾਨ ਕੀਤਾ ਹੋਇਆ ਦਰਜ ਕਰਨਾ ਗਲਤ ਸੀ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਸਹੀ ਇਨਵੌਇਸ ਲਈ Mark unpaid ਚੁਣੋ ਅਤੇ ਜੇ ਪੁੱਛਿਆ ਜਾਵੇ ਤਾਂ ਤਬਦੀਲੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।",
-          "inputs": "ਸਹੀ ਇਨਵੌਇਸ ਚੁਣੋ ਅਤੇ ਸਥਿਤੀ ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ ਭੁਗਤਾਨ ਰਿਕਾਰਡ ਜਾਂਚੋ।",
-          "result": "ਕਾਰਵਾਈ ਸਫਲ ਹੋਣ 'ਤੇ ਇਨਵੌਇਸ ਦੀ ਸਥਿਤੀ ਨਾ-ਭੁਗਤਾਨ ਕੀਤਾ ਹੋ ਜਾਂਦੀ ਹੈ।",
-          "notes": "ਸਿਰਫ਼ ਜਦੋਂ ਭੁਗਤਾਨ ਨਹੀਂ ਮਿਲਿਆ ਜਾਂ ਪਹਿਲੀ ਸਥਿਤੀ ਗਲਤ ਸੀ ਤਾਂ ਵਰਤੋ; ਪਹਿਲਾਂ ਭੁਗਤਾਨ ਰਿਕਾਰਡ ਵੇਖੋ।"
+          "purpose": "ਭੁਗਤਾਨ ਕੀਤੇ ਇਨਵੌਇਸ ਨੂੰ ਨਾ-ਭੁਗਤਾਨ ਕੀਤਾ ਬਣਾਉਂਦਾ ਹੈ ਅਤੇ ਜੁੜੀ ਆਮਦਨ ਐਂਟਰੀ ਨੂੰ Deleted Records ਵਿੱਚ ਭੇਜਦਾ ਹੈ।",
+          "when": "ਸਿਰਫ਼ ਉਦੋਂ ਵਰਤੋ ਜਦੋਂ ਇਨਵੌਇਸ ਅਸਲ ਵਿੱਚ ਭੁਗਤਾਨ ਨਾ ਹੋਇਆ ਹੋਵੇ ਜਾਂ ਪਹਿਲਾਂ ਦੀ ਭੁਗਤਾਨ ਸਥਿਤੀ ਗਲਤ ਹੋਵੇ।",
+          "how": "ਸਹੀ ਇਨਵੌਇਸ ਉੱਤੇ Mark unpaid ਚੁਣੋ, ਜੁੜੀ ਆਮਦਨ ਐਂਟਰੀ ਬਾਰੇ ਚੇਤਾਵਨੀ ਪੜ੍ਹੋ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਭੁਗਤਾਨ ਕੀਤਾ ਇਨਵੌਇਸ ਚੁਣੋ। ਐਪ ਜੁੜੀ ਆਮਦਨ ਐਂਟਰੀ ਦੀ ਪਛਾਣ ਕਰਦੀ ਹੈ; ਇੱਥੇ ਭੁਗਤਾਨ ਦੀ ਤਾਰੀਖ ਜਾਂ ਰਕਮ ਨਹੀਂ ਭਰੀ ਜਾਂਦੀ।",
+          "result": "ਇਨਵੌਇਸ ਦੀ ਸਥਿਤੀ ਨਾ-ਭੁਗਤਾਨ ਕੀਤੀ ਹੋ ਜਾਂਦੀ ਹੈ ਅਤੇ ਭੁਗਤਾਨ ਦੀ ਤਾਰੀਖ ਤੇ ਢੰਗ ਸਾਫ਼ ਹੋ ਜਾਂਦੇ ਹਨ। ਜੁੜੀ ਆਮਦਨ ਐਂਟਰੀ soft-delete ਹੋ ਕੇ Deleted Records ਵਿੱਚ ਰਹਿੰਦੀ ਹੈ।",
+          "notes": "ਇਹ ਕਾਰਵਾਈ ਇਨਵੌਇਸ ਦੀ ਭੁਗਤਾਨ ਸਥਿਤੀ ਵਾਪਸ ਕਰਦੀ ਹੈ ਅਤੇ ਜੁੜੀ ਆਮਦਨ ਨੂੰ ਸਰਗਰਮ ਰਿਕਾਰਡਾਂ ਤੋਂ ਹਟਾਉਂਦੀ ਹੈ। ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਭੁਗਤਾਨ ਇਤਿਹਾਸ ਧਿਆਨ ਨਾਲ ਜਾਂਚੋ।"
         },
         "prs": {
-          "purpose": "وضعیت فاکتور را به پرداخت‌نشده تغییر می‌دهد.",
-          "when": "فقط وقتی فاکتور پرداخت نشده یا وضعیت قبلیِ پرداخت‌شده اشتباه بوده است، استفاده کنید.",
-          "how": "برای فاکتور درست Mark unpaid را انتخاب کنید و در صورت درخواست تغییر را تأیید کنید.",
-          "inputs": "فاکتور درست را انتخاب کنید و پیش از تغییر وضعیت، سوابق پرداخت را بررسی کنید.",
-          "result": "در صورت موفقیت عملیات، وضعیت فاکتور به پرداخت‌نشده تغییر می‌کند.",
-          "notes": "فقط وقتی پرداخت دریافت نشده یا وضعیت قبلی نادرست بوده است استفاده کنید؛ ابتدا سوابق پرداخت را بررسی کنید."
+          "purpose": "وضعیت فاکتور پرداخت‌شده را به پرداخت‌نشده تغییر می‌دهد و ثبت درآمد مرتبط را به Deleted Records منتقل می‌کند.",
+          "when": "فقط زمانی استفاده کنید که فاکتور واقعاً پرداخت نشده یا وضعیت پرداخت‌شده قبلی آن اشتباه بوده است.",
+          "how": "برای فاکتور درست Mark unpaid را انتخاب کنید، هشدار مربوط به ثبت درآمد مرتبط را بخوانید و تأیید کنید.",
+          "inputs": "فاکتور پرداخت‌شده درست را انتخاب کنید. برنامه ثبت درآمد مرتبط را شناسایی می‌کند؛ در این بخش تاریخ یا مبلغ پرداخت وارد نمی‌شود.",
+          "result": "وضعیت فاکتور به پرداخت‌نشده تغییر می‌کند و تاریخ و روش پرداخت پاک می‌شوند. هر ثبت درآمد مرتبط به‌صورت نرم‌افزاری حذف و در Deleted Records نگهداری می‌شود.",
+          "notes": "این عملیات وضعیت پرداخت فاکتور را برمی‌گرداند و درآمد مرتبط را از سوابق فعال خارج می‌کند. پیش از ادامه، سابقه پرداخت را با دقت بررسی کنید."
         },
         "ps": {
-          "purpose": "د بل حالت نه‌تادیه شوی ته اړوي.",
-          "when": "یوازې هغه وخت یې وکاروئ چې بل تادیه شوی نه وي یا پخوانی تادیه شوی حالت ناسم وي.",
-          "how": "د سم بل لپاره Mark unpaid وټاکئ او که غوښتنه وشي بدلون تایید کړئ.",
-          "inputs": "سم بل وټاکئ او د حالت له بدلولو مخکې د تادیې ریکارډونه وګورئ.",
-          "result": "که عملیات بریالي شي، د بل حالت نه‌تادیه شوی کېږي.",
-          "notes": "یوازې هغه وخت یې وکاروئ چې پیسې نه وي ترلاسه شوې یا پخوانی حالت غلط و؛ لومړی د تادیې ریکارډونه وګورئ."
+          "purpose": "ورکړل شوی بل ناورکړل شوی کوي او تړلی د عاید ثبت Deleted Records ته لېږدوي.",
+          "when": "یوازې هغه وخت یې وکاروئ چې بل په رښتیا نه وي ورکړل شوی یا پخوانی ورکړل شوی حالت یې ناسم وي.",
+          "how": "په سم بل کې Mark unpaid وټاکئ، د تړلي عاید ثبت خبرتیا ولولئ او تایید یې کړئ.",
+          "inputs": "سم ورکړل شوی بل وټاکئ. اپلیکیشن تړلی د عاید ثبت پېژني؛ دلته د تادیې نېټه یا اندازه نه داخلېږي.",
+          "result": "د بل حالت ناورکړل شوی کېږي او د تادیې نېټه او طریقه پاکېږي. تړلی د عاید ثبت په soft-delete ډول لرې او په Deleted Records کې ساتل کېږي.",
+          "notes": "دا کړنه د بل د تادیې حالت بېرته بدلوي او تړلی عاید له فعالو ریکارډونو وباسي. تر دوام مخکې د تادیې تاریخ په دقت وګورئ."
         }
       },
       "handler_or_behavior": "`markInvoiceUnpaid(`"
@@ -10292,84 +10292,84 @@
           "notes": "Do not open or confirm this workflow based only on a promise to pay. Review possible duplicate-income warnings before confirming."
         },
         "fa": {
-          "purpose": "پنجره ورود جزئیات پرداخت را برای فاکتوری که پرداخت‌نشده است باز می‌کند.",
-          "when": "پس از اطمینان از اینکه مشتری واقعاً پرداخت کرده است و آماده واردکردن جزئیات پرداخت هستید، از این گزینه استفاده کنید.",
-          "how": "در فاکتور درست Mark paid را انتخاب کنید. در پنجره بازشده تاریخ پرداخت را وارد و Cash یا Bank transfer را انتخاب کنید؛ سپس برای ذخیره Confirm payment را بزنید.",
-          "inputs": "فاکتور از روی ردیف انتخاب‌شده مشخص می‌شود. در پنجره پرداخت، تاریخ معتبر پرداخت و روش پرداخت (Cash یا Bank transfer) الزامی است.",
-          "result": "پنجره ورود جزئیات پرداخت باز می‌شود. تا زمانی که Confirm payment انتخاب نشود و ذخیره با موفقیت انجام نگیرد، فاکتور پرداخت‌شده علامت نمی‌خورد و ثبت درآمدی ایجاد نمی‌شود.",
+          "purpose": "پنجره جزئیات پرداخت را برای فاکتور پرداخت‌نشده باز می‌کند.",
+          "when": "پس از اطمینان از اینکه مشتری واقعاً پرداخت کرده و آماده واردکردن جزئیات پرداخت هستید، استفاده کنید.",
+          "how": "در فاکتور درست Mark paid را انتخاب کنید. در پنجره، تاریخ دریافت وجه را وارد و Cash یا Bank transfer را انتخاب کنید؛ سپس برای ذخیره Confirm payment را بزنید.",
+          "inputs": "فاکتور از ردیف انتخاب‌شده مشخص می‌شود. در پنجره پرداخت، تاریخ معتبر و روش پرداخت (Cash یا Bank transfer) الزامی هستند.",
+          "result": "پنجره جزئیات پرداخت باز می‌شود. تا زمانی که Confirm payment انتخاب و ذخیره با موفقیت انجام نشود، فاکتور پرداخت‌شده نمی‌شود و ثبت درآمدی ایجاد نمی‌شود.",
           "notes": "صرفاً بر اساس وعده پرداخت، این گردش‌کار را تأیید نکنید. پیش از تأیید، هشدارهای مربوط به درآمد احتمالی تکراری را بررسی کنید."
         },
         "ar": {
-          "purpose": "يسجل دفعة على الفاتورة ويغيّر حالتها إلى مدفوعة.",
-          "when": "فقط بعد استلام دفعة العميل فعلياً.",
-          "how": "اختر Mark paid بعد التأكد من استلام المبلغ فعلياً؛ أدخل تفاصيل الدفع المطلوبة وأكد العملية.",
-          "inputs": "حدد الفاتورة الصحيحة وأدخل تاريخ وطريقة ومبلغ الدفع إذا طلب التطبيق ذلك.",
-          "result": "تُحدّث حالة الفاتورة إلى مدفوعة إذا نجح التحقق والحفظ.",
-          "notes": "لا تضع علامة مدفوعة بناءً على وعد بالدفع أو مجرد إصدار الفاتورة. احتفظ بإثبات استلام المبلغ."
+          "purpose": "يفتح نافذة تفاصيل الدفع للفاتورة غير المدفوعة.",
+          "when": "استخدمه بعد التأكد من أن العميل دفع فعليًا وأنك جاهز لإدخال تفاصيل الدفع.",
+          "how": "اختر Mark paid للفاتورة الصحيحة. أدخل في النافذة تاريخ استلام الأموال واختر Cash أو Bank transfer، ثم اختر Confirm payment للحفظ.",
+          "inputs": "تُحدد الفاتورة من الصف المحدد. يلزم في نافذة الدفع تاريخ صالح وطريقة دفع (Cash أو Bank transfer).",
+          "result": "تُفتح نافذة تفاصيل الدفع. لا تُعلّم الفاتورة بأنها مدفوعة ولا يُنشأ قيد دخل حتى اختيار Confirm payment ونجاح الحفظ.",
+          "notes": "لا تؤكد هذا الإجراء بناءً على وعد بالدفع فقط. راجع تحذيرات احتمال تكرار قيد الدخل قبل التأكيد."
         },
         "ckb": {
-          "purpose": "پارەدانێک بۆ فاکتۆر تۆمار دەکات و دۆخی دەگۆڕێت بۆ پارەدراو.",
-          "when": "تەنها دوای ئەوەی پارەی کڕیار بەڕاستی وەرگیرا.",
-          "how": "دوای دڵنیابوون لە وەرگرتنی ڕاستەقینەی پارە Mark paid هەڵبژێرە؛ وردەکارییە داواکراوەکانی پارەدان بنووسە و پشتڕاستی بکەرەوە.",
-          "inputs": "فاکتۆری دروست هەڵبژێرە و ئەگەر ئەپەکە داوای کرد بەروار، شێواز و بڕی پارەدان بنووسە.",
-          "result": "ئەگەر پشتڕاستکردنەوە و پاشەکەوتکردن سەرکەوتوو بن، دۆخی فاکتۆر دەبێتە پارەدراو.",
-          "notes": "بە تەنها بەڵێنی پارەدان یان دەرکردنی فاکتۆر نیشانەی پارەدان نییە. بەڵگەی وەرگرتنی پارە بپارێزە."
+          "purpose": "پەنجەرەی وردەکارییەکانی پارەدان بۆ فاکتۆری پارەنەدراو دەکاتەوە.",
+          "when": "دوای دڵنیابوون لەوەی کڕیار بەڕاستی پارەی داوە و ئامادەی نووسینی وردەکارییەکانی پارەدانیت، بەکاریبهێنە.",
+          "how": "لە فاکتۆری دروست Mark paid هەڵبژێرە. لە پەنجەرەکەدا بەرواری وەرگرتنی پارە بنووسە و Cash یان Bank transfer هەڵبژێرە؛ پاشان Confirm payment هەڵبژێرە بۆ پاشەکەوتکردن.",
+          "inputs": "فاکتۆرەکە لە ڕیزی هەڵبژێردراوەوە دیاری دەکرێت. لە پەنجەرەی پارەداندا بەروارێکی دروست و شێوازی پارەدان (Cash یان Bank transfer) پێویستن.",
+          "result": "پەنجەرەی وردەکارییەکانی پارەدان دەکرێتەوە. تا Confirm payment هەڵنەبژێردرێت و پاشەکەوتکردن سەرکەوتوو نەبێت، فاکتۆرەکە پارەدراو نانیشاندرێت و تۆماری داهات دروست ناکرێت.",
+          "notes": "تەنها بەڵێنی پارەدان بەس نییە بۆ پشتڕاستکردنەوەی ئەم ڕێڕەوە. پێش پشتڕاستکردنەوە ئاگادارکردنەوەی داهاتی دووبارە بپشکنە."
         },
         "kmr": {
-          "purpose": "Dravdanekê li ser fatûreyê tomar dike û rewşa wê dike dayîn.",
-          "when": "Tenê piştî ku dravê xerîdar bi rastî hatiye wergirtin.",
-          "how": "Piştî piştrastkirina wergirtina rastîn a drav Mark paid hilbijêre; hûrguliyên dravdanê yên xwestî binivîse û piştrast bike.",
-          "inputs": "Fatûreya rast hilbijêre û heke sepan bixwaze dîrok, away û mîqdara dravdanê binivîse.",
-          "result": "Ger kontrol û tomarkirin serkeftî bin, rewşa fatûreyê dibe dayîn.",
-          "notes": "Tenê sozê dravdanê an derxistina fatûreyê delîla dravdanê nîne. Delîla wergirtina drav biparêze."
+          "purpose": "Paceya hûrguliyên dravdanê ji bo fatûreya nehatî dayîn vedike.",
+          "when": "Piştî piştrastbûna ku xerîdar bi rastî drav daye û tu amade yî hûrguliyên dravdanê binivîsî, vê bikar bîne.",
+          "how": "Di fatûreya rast de Mark paid hilbijêre. Di paceyê de dîroka wergirtina drav binivîse û Cash an Bank transfer hilbijêre; paşê ji bo tomarkirinê Confirm payment hilbijêre.",
+          "inputs": "Fatûre ji rêza hilbijartî tê nasîn. Di paceya dravdanê de dîrokeke derbasdar û awayê dravdanê (Cash an Bank transfer) pêwîst in.",
+          "result": "Paceya hûrguliyên dravdanê vedibe. Heta Confirm payment neyê hilbijartin û tomarkirin sernekeve, fatûre wekî hatiye dayîn nayê nîşankirin û tomarê dahatê nayê çêkirin.",
+          "notes": "Tenê soza dravdanê ji bo piştrastkirina vê pêvajoyê bes nake. Berî piştrastkirinê hişyariyên derbarê dubarebûna dahatê kontrol bike."
         },
         "tr": {
-          "purpose": "Faturaya bir ödeme kaydeder ve durumunu ödenmiş olarak işaretler.",
-          "when": "Yalnızca müşterinin ödemesi gerçekten alındıktan sonra kullanın.",
-          "how": "Ödemenin gerçekten alındığını doğruladıktan sonra Mark paid'i seçin; istenen ödeme ayrıntılarını girip onaylayın.",
-          "inputs": "Doğru faturayı seçin ve uygulama isterse ödeme tarihini, yöntemini ve tutarını girin.",
-          "result": "Doğrulama ve kayıt başarılı olursa faturanın durumu ödenmiş olarak güncellenir.",
-          "notes": "Yalnızca ödeme sözüne veya faturanın düzenlenmiş olmasına dayanarak faturayı ödenmiş işaretlemeyin. Tahsilat kanıtını saklayın."
+          "purpose": "Ödenmemiş fatura için ödeme ayrıntıları penceresini açar.",
+          "when": "Müşterinin gerçekten ödeme yaptığını doğruladıktan ve ödeme ayrıntılarını girmeye hazır olduğunuzda kullanın.",
+          "how": "Doğru faturada Mark paid seçeneğini belirleyin. Pencerede paranın alındığı tarihi girin, Cash veya Bank transfer seçin ve kaydetmek için Confirm payment düğmesine basın.",
+          "inputs": "Fatura seçilen satırdan belirlenir. Ödeme penceresinde geçerli bir tarih ve ödeme yöntemi (Cash veya Bank transfer) zorunludur.",
+          "result": "Ödeme ayrıntıları penceresi açılır. Confirm payment seçilip kayıt başarılı olana kadar fatura ödenmiş işaretlenmez ve gelir kaydı oluşturulmaz.",
+          "notes": "Yalnızca ödeme sözüne dayanarak bu iş akışını onaylamayın. Onaylamadan önce olası yinelenen gelir uyarılarını inceleyin."
         },
         "pl": {
-          "purpose": "Rejestruje płatność do faktury i oznacza ją jako opłaconą.",
-          "when": "Użyj dopiero po faktycznym otrzymaniu płatności od klienta.",
-          "how": "Po potwierdzeniu faktycznego otrzymania środków wybierz Mark paid; wprowadź wymagane dane płatności i potwierdź.",
-          "inputs": "Wybierz właściwą fakturę i, jeśli aplikacja o to poprosi, wprowadź datę, metodę i kwotę płatności.",
-          "result": "Jeśli walidacja i zapis zakończą się pomyślnie, status faktury zostanie zmieniony na opłaconą.",
-          "notes": "Nie oznaczaj faktury jako opłaconej wyłącznie na podstawie obietnicy zapłaty lub wystawienia faktury. Zachowaj dowód otrzymania środków."
+          "purpose": "Otwiera okno szczegółów płatności dla nieopłaconej faktury.",
+          "when": "Użyj po potwierdzeniu, że klient faktycznie zapłacił i gdy jesteś gotowy wprowadzić dane płatności.",
+          "how": "Wybierz Mark paid przy właściwej fakturze. W oknie wpisz datę otrzymania środków, wybierz Cash lub Bank transfer, a następnie wybierz Confirm payment, aby zapisać.",
+          "inputs": "Faktura jest określona przez wybrany wiersz. W oknie płatności wymagana jest prawidłowa data i metoda płatności (Cash lub Bank transfer).",
+          "result": "Otwiera się okno szczegółów płatności. Faktura nie zostanie oznaczona jako opłacona ani nie powstanie wpis przychodu, dopóki nie wybierzesz Confirm payment i zapis się nie powiedzie.",
+          "notes": "Nie potwierdzaj tego procesu wyłącznie na podstawie obietnicy zapłaty. Przed zatwierdzeniem sprawdź ostrzeżenia o możliwym duplikacie przychodu."
         },
         "ur": {
-          "purpose": "انوائس کے خلاف ادائیگی درج کرتا ہے اور اسے ادا شدہ نشان زد کرتا ہے۔",
-          "when": "صرف اس وقت استعمال کریں جب گاہک کی ادائیگی حقیقتاً وصول ہو چکی ہو۔",
-          "how": "ادائیگی حقیقتاً وصول ہونے کی تصدیق کے بعد Mark paid منتخب کریں؛ مطلوبہ ادائیگی کی تفصیلات درج کرکے تصدیق کریں۔",
-          "inputs": "درست انوائس منتخب کریں اور اگر ایپ کہے تو ادائیگی کی تاریخ، طریقہ اور رقم درج کریں۔",
-          "result": "توثیق اور محفوظ کرنے کا عمل کامیاب ہو تو انوائس کی حیثیت ادا شدہ ہو جاتی ہے۔",
-          "notes": "صرف ادائیگی کے وعدے یا انوائس جاری ہونے کی بنیاد پر اسے ادا شدہ نشان زد نہ کریں۔ رقم وصول ہونے کا ثبوت محفوظ رکھیں۔"
+          "purpose": "غیر ادا شدہ انوائس کے لیے ادائیگی کی تفصیلات کا ڈائیلاگ کھولتا ہے۔",
+          "when": "اس وقت استعمال کریں جب تصدیق ہو جائے کہ گاہک نے واقعی ادائیگی کی ہے اور آپ ادائیگی کی تفصیلات درج کرنے کے لیے تیار ہوں۔",
+          "how": "درست انوائس پر Mark paid منتخب کریں۔ ڈائیلاگ میں رقم وصول ہونے کی تاریخ درج کریں، Cash یا Bank transfer منتخب کریں، پھر محفوظ کرنے کے لیے Confirm payment منتخب کریں۔",
+          "inputs": "انوائس منتخب قطار سے متعین ہوتی ہے۔ ادائیگی کے ڈائیلاگ میں درست تاریخ اور ادائیگی کا طریقہ (Cash یا Bank transfer) لازمی ہیں۔",
+          "result": "ادائیگی کی تفصیلات کا ڈائیلاگ کھلتا ہے۔ جب تک Confirm payment منتخب نہ ہو اور محفوظ کاری کامیاب نہ ہو، انوائس ادا شدہ نہیں بنتی اور آمدنی کا اندراج نہیں بنتا۔",
+          "notes": "صرف ادائیگی کے وعدے پر اس عمل کی تصدیق نہ کریں۔ تصدیق سے پہلے ممکنہ ڈپلیکیٹ آمدنی کی وارننگ دیکھیں۔"
         },
         "pa": {
-          "purpose": "ਇਨਵੌਇਸ ਦੇ ਵਿਰੁੱਧ ਭੁਗਤਾਨ ਦਰਜ ਕਰਦਾ ਹੈ ਅਤੇ ਇਸਨੂੰ ਭੁਗਤਾਨ ਕੀਤਾ ਨਿਸ਼ਾਨ ਲਗਾਉਂਦਾ ਹੈ।",
-          "when": "ਸਿਰਫ਼ ਗਾਹਕ ਦਾ ਭੁਗਤਾਨ ਅਸਲ ਵਿੱਚ ਮਿਲਣ ਤੋਂ ਬਾਅਦ ਵਰਤੋ।",
-          "how": "ਪੈਸੇ ਅਸਲ ਵਿੱਚ ਮਿਲਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਤੋਂ ਬਾਅਦ Mark paid ਚੁਣੋ; ਮੰਗੇ ਗਏ ਭੁਗਤਾਨ ਵੇਰਵੇ ਭਰੋ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੋ।",
-          "inputs": "ਸਹੀ ਇਨਵੌਇਸ ਚੁਣੋ ਅਤੇ ਜੇ ਐਪ ਕਹੇ ਤਾਂ ਭੁਗਤਾਨ ਦੀ ਤਾਰੀਖ, ਢੰਗ ਅਤੇ ਰਕਮ ਭਰੋ।",
-          "result": "ਜਾਂਚ ਅਤੇ ਸੇਵ ਕਰਨਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਇਨਵੌਇਸ ਦੀ ਸਥਿਤੀ ਭੁਗਤਾਨ ਕੀਤਾ ਹੋ ਜਾਂਦੀ ਹੈ।",
-          "notes": "ਸਿਰਫ਼ ਭੁਗਤਾਨ ਦੇ ਵਾਅਦੇ ਜਾਂ ਇਨਵੌਇਸ ਜਾਰੀ ਹੋਣ ਦੇ ਆਧਾਰ 'ਤੇ ਇਸਨੂੰ ਭੁਗਤਾਨ ਕੀਤਾ ਨਾ ਦਰਸਾਓ। ਰਕਮ ਮਿਲਣ ਦਾ ਸਬੂਤ ਸੰਭਾਲੋ।"
+          "purpose": "ਨਾ-ਭੁਗਤਾਨ ਕੀਤੇ ਇਨਵੌਇਸ ਲਈ ਭੁਗਤਾਨ ਵੇਰਵਿਆਂ ਦਾ ਡਾਇਲਾਗ ਖੋਲ੍ਹਦਾ ਹੈ۔",
+          "when": "ਇਸ ਨੂੰ ਉਦੋਂ ਵਰਤੋ ਜਦੋਂ ਪੁਸ਼ਟੀ ਹੋ ਜਾਵੇ ਕਿ ਗਾਹਕ ਨੇ ਅਸਲ ਵਿੱਚ ਭੁਗਤਾਨ ਕਰ ਦਿੱਤਾ ਹੈ ਅਤੇ ਤੁਸੀਂ ਵੇਰਵੇ ਭਰਨ ਲਈ ਤਿਆਰ ਹੋ।",
+          "how": "ਸਹੀ ਇਨਵੌਇਸ ਉੱਤੇ Mark paid ਚੁਣੋ। ਡਾਇਲਾਗ ਵਿੱਚ ਪੈਸੇ ਮਿਲਣ ਦੀ ਤਾਰੀਖ ਭਰੋ, Cash ਜਾਂ Bank transfer ਚੁਣੋ, ਫਿਰ ਸੇਵ ਕਰਨ ਲਈ Confirm payment ਚੁਣੋ।",
+          "inputs": "ਇਨਵੌਇਸ ਚੁਣੀ ਕਤਾਰ ਤੋਂ ਪਛਾਣਿਆ ਜਾਂਦਾ ਹੈ। ਭੁਗਤਾਨ ਡਾਇਲਾਗ ਵਿੱਚ ਵੈਧ ਤਾਰੀਖ ਅਤੇ ਭੁਗਤਾਨ ਢੰਗ (Cash ਜਾਂ Bank transfer) ਲਾਜ਼ਮੀ ਹਨ।",
+          "result": "ਭੁਗਤਾਨ ਵੇਰਵਿਆਂ ਦਾ ਡਾਇਲਾਗ ਖੁੱਲ੍ਹਦਾ ਹੈ। ਜਦ ਤੱਕ Confirm payment ਨਾ ਚੁਣਿਆ ਜਾਵੇ ਅਤੇ ਸੇਵ ਸਫਲ ਨਾ ਹੋਵੇ, ਇਨਵੌਇਸ ਭੁਗਤਾਨ ਕੀਤਾ ਨਹੀਂ ਬਣਦਾ ਅਤੇ ਆਮਦਨ ਐਂਟਰੀ ਨਹੀਂ ਬਣਦੀ।",
+          "notes": "ਸਿਰਫ਼ ਭੁਗਤਾਨ ਦੇ ਵਾਅਦੇ ਦੇ ਆਧਾਰ 'ਤੇ ਇਸ ਕਾਰਜ-ਵਿਧੀ ਦੀ ਪੁਸ਼ਟੀ ਨਾ ਕਰੋ। ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਸੰਭਾਵੀ ਦੁਹਰੀ ਆਮਦਨ ਚੇਤਾਵਨੀਆਂ ਜਾਂਚੋ।"
         },
         "prs": {
-          "purpose": "پرداختی را برای فاکتور ثبت می‌کند و وضعیت آن را پرداخت‌شده می‌سازد.",
-          "when": "فقط پس از دریافت واقعی پرداخت مشتری استفاده کنید.",
-          "how": "پس از اطمینان از دریافت واقعی وجه Mark paid را انتخاب کنید؛ جزئیات پرداخت درخواستی را وارد و تأیید کنید.",
-          "inputs": "فاکتور درست را انتخاب کنید و اگر برنامه درخواست کرد تاریخ، روش و مبلغ پرداخت را وارد کنید.",
-          "result": "در صورت موفقیت اعتبارسنجی و ذخیره، وضعیت فاکتور به پرداخت‌شده تغییر می‌کند.",
-          "notes": "فاکتور را صرفاً بر اساس وعده پرداخت یا صادرشدن آن پرداخت‌شده علامت نزنید. مدرک دریافت وجه را نگه دارید."
+          "purpose": "پنجره جزئیات پرداخت را برای فاکتور پرداخت‌نشده باز می‌کند.",
+          "when": "پس از اطمینان از اینکه مشتری واقعاً پرداخت کرده و آماده واردکردن جزئیات پرداخت هستید، استفاده کنید.",
+          "how": "در فاکتور درست Mark paid را انتخاب کنید. در پنجره، تاریخ دریافت وجه را وارد و Cash یا Bank transfer را انتخاب کنید؛ سپس برای ذخیره Confirm payment را بزنید.",
+          "inputs": "فاکتور از ردیف انتخاب‌شده مشخص می‌شود. در پنجره پرداخت، تاریخ معتبر و روش پرداخت (Cash یا Bank transfer) الزامی هستند.",
+          "result": "پنجره جزئیات پرداخت باز می‌شود. تا زمانی که Confirm payment انتخاب و ذخیره با موفقیت انجام نشود، فاکتور پرداخت‌شده نمی‌شود و ثبت درآمدی ایجاد نمی‌شود.",
+          "notes": "صرفاً بر اساس وعده پرداخت، این گردش‌کار را تأیید نکنید. پیش از تأیید، هشدارهای مربوط به درآمد احتمالی تکراری را بررسی کنید."
         },
         "ps": {
-          "purpose": "د بل په وړاندې تادیه ثبتوي او هغه د تادیه شوي په توګه نښه کوي.",
-          "when": "یوازې وروسته له دې یې وکاروئ چې د پېرودونکي پیسې په رښتیا ترلاسه شوې وي.",
-          "how": "د پیسو د رښتینې ترلاسه کېدو له تایید وروسته Mark paid وټاکئ؛ غوښتل شوي د تادیې جزئیات ولیکئ او تایید یې کړئ.",
-          "inputs": "سم بل وټاکئ او که اپلیکیشن وغواړي د تادیې نېټه، طریقه او اندازه ولیکئ.",
-          "result": "که ارزونه او خوندي کول بریالي شي، د بل حالت تادیه شوی ته اوړي.",
-          "notes": "بل یوازې د پیسو د ژمنې یا د بل د صادرېدو پر بنسټ تادیه شوی مه نښه کوئ. د پیسو د ترلاسه کېدو ثبوت وساتئ."
+          "purpose": "د ناورکړل شوي بل لپاره د تادیې د جزئیاتو کړکۍ پرانیزي.",
+          "when": "هغه وخت یې وکاروئ چې ډاډه شئ پېرودونکي رښتیا پیسې ورکړې او د جزئیاتو داخلولو ته چمتو یاست.",
+          "how": "په سم بل کې Mark paid وټاکئ. په کړکۍ کې د پیسو د ترلاسه کولو نېټه ولیکئ، Cash یا Bank transfer وټاکئ، بیا د خوندي کولو لپاره Confirm payment وټاکئ.",
+          "inputs": "بل د ټاکل شوي قطار له مخې پېژندل کېږي. د تادیې په کړکۍ کې سمه نېټه او د تادیې طریقه (Cash یا Bank transfer) اړین دي.",
+          "result": "د تادیې د جزئیاتو کړکۍ پرانیستل کېږي. تر Confirm payment ټاکلو او د خوندي کولو تر بریالیتوب پورې بل د ورکړل شوي په توګه نه نښه کېږي او د عاید ثبت نه جوړېږي.",
+          "notes": "یوازې د پیسو د ورکولو پر ژمنې دا بهیر مه تاییدوئ. تر تایید مخکې د احتمالي تکراري عاید خبرتیاوې وګورئ."
         }
       },
       "handler_or_behavior": "`recordInvoicePayment(`"
