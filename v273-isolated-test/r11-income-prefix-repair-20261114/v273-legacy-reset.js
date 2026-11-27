@@ -204,6 +204,7 @@ async function finalAction(){
   const result=await resetWithImport(gate.importFile);
   setStatus("SUCCESS — restored and verified "+result.restored+" records across 17 domains. Reloading…",false);
   root.setTimeout(()=>root.location.reload(),1200);
+  gate.busy=true;setFinalGate();return;
  }catch(e){
   gate.busy=false;
   setStatus((e.resetLockActive?"RECOVERY LOCK ACTIVE — keep this page open and retry using the validated converted backup. ":"Reset stopped — ")+(e.message||e),true);
