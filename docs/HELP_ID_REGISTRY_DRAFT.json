@@ -11374,7 +11374,7 @@
           "when": "وقتی لازم است بسته‌های کاری متعلق به یک کار را باز و بررسی کنید، از این گزینه استفاده کنید.",
           "how": "گزینه Work packages را انتخاب کنید تا بسته‌های مرتبط با کار انتخاب‌شده نمایش داده شوند.",
           "inputs": "کار درست را که می‌خواهید بسته‌های کاری آن را بررسی کنید انتخاب کنید.",
-          "result": "فهرست بسته‌های کاری مربوط به کار انتخاب‌شده باز می‌شود. می‌توانید بسته‌های موجود را بررسی یا یکی از عملیات مربوط به هر بسته را انتخاب کنید؛ بازکردن فهرست، سوابق را تغییر نمی‌دهد.",
+          "result": "فهرست بسته‌های کاری مربوط به کار انتخاب‌شده باز می‌شود. می‌توانید بسته‌های موجود را بررسی یا عملیات مربوط به یک بسته را انتخاب کنید؛ بازکردن فهرست سوابق را تغییر نمی‌دهد.",
           "notes": "این گزینه فهرست بسته‌ها را باز می‌کند؛ مدیریت هر بسته جداگانه انجام می‌شود."
         },
         "ar": {
@@ -11382,7 +11382,7 @@
           "when": "عندما تريد مراجعة نطاقات العمل أو المشاريع الفرعية ضمن الوظيفة المحددة.",
           "how": "اختر Work packages لعرض الحزم المرتبطة بالوظيفة المحددة.",
           "inputs": "حدد الوظيفة الصحيحة التي تريد مراجعة حزم العمل التابعة لها.",
-          "result": "تظهر قائمة حزم العمل الخاصة بالوظيفة المحددة.",
+          "result": "تُفتح قائمة حزم العمل الخاصة بالوظيفة المحددة. يمكنك مراجعة الحزم الحالية أو اختيار إجراء لحزمة معينة؛ فتح القائمة لا يغيّر السجلات.",
           "notes": "يفتح هذا الخيار قائمة الحزم فقط؛ وتُدار سجلات كل حزمة على حدة."
         },
         "ckb": {
@@ -11390,7 +11390,7 @@
           "when": "کاتێک دەتەوێت سنووری کار یان ژێرپرۆژەکانی ناو کاری دیاریکراو بپشکنیت.",
           "how": "Work packages هەڵبژێرە بۆ پیشاندانی پاکێجە پەیوەستەکانی بەو کارە.",
           "inputs": "ئەو کاری دروستە هەڵبژێرە کە دەتەوێت پاکێجە کارییەکانی بپشکنیت.",
-          "result": "پێڕستی پاکێجە کارییەکانی ئەو کارە پیشان دەدرێت.",
+          "result": "پێڕستی پاکێجە کارییەکانی کاری هەڵبژێردراو دەکرێتەوە. دەتوانیت پاکێجە هەبووەکان بپشکنیت یان کردارێک بۆ پاکێجێک هەڵبژێریت؛ کردنەوەی پێڕست تۆمارەکان ناگۆڕێت.",
           "notes": "ئەم هەڵبژاردەیە تەنها پێڕستی پاکێجەکان دەکاتەوە؛ تۆماری هەر پاکێجێک بە جیاواز بەڕێوە دەبرێت."
         },
         "kmr": {
@@ -11398,7 +11398,7 @@
           "when": "Dema ku tu dixwazî qadên xebatê an jêr-projeyên di nav karekî de kontrol bikî.",
           "how": "Work packages hilbijêre da ku pakêtên girêdayî bi karê hilbijartî bibînî.",
           "inputs": "Karê rast hilbijêre ku dixwazî pakêtên xebatê yên wê kontrol bikî.",
-          "result": "Lîsteya pakêtên xebatê yên karê hilbijartî xuya dibe.",
+          "result": "Lîsteya pakêtên karê ya karê hilbijartî vedibe. Tu dikarî pakêtên heyî kontrol bikî an ji bo pakêtekê kiryarek hilbijêrî; vekirina lîsteyê tomar naguherîne.",
           "notes": "Ev tenê lîsteya pakêtan vedike; tomarên her pakêtê bi awayekî cuda têne rêvebirin."
         },
         "tr": {
@@ -11406,7 +11406,7 @@
           "when": "Seçilen işin kapsamlarını veya alt projelerini incelemek istediğinizde kullanın.",
           "how": "Seçilen işle ilişkili paketleri görüntülemek için Work packages'i seçin.",
           "inputs": "İş paketlerini incelemek istediğiniz doğru işi seçin.",
-          "result": "Seçilen işe ait iş paketleri listelenir.",
+          "result": "Seçilen işin iş paketi listesi açılır. Mevcut paketleri inceleyebilir veya tek bir paket için işlem seçebilirsiniz; listeyi açmak kayıtları değiştirmez.",
           "notes": "Bu seçenek yalnızca paket listesini açar; her paketin kayıtları ayrı yönetilir."
         },
         "pl": {
@@ -11414,7 +11414,7 @@
           "when": "Użyj, gdy chcesz sprawdzić zakresy prac lub podprojekty w ramach wybranego zlecenia.",
           "how": "Wybierz Work packages, aby wyświetlić pakiety powiązane z wybranym zleceniem.",
           "inputs": "Wybierz właściwe zlecenie, którego pakiety prac chcesz sprawdzić.",
-          "result": "Wyświetlana jest lista pakietów prac wybranego zlecenia.",
+          "result": "Otwiera się lista pakietów prac wybranego zlecenia. Możesz sprawdzić istniejące pakiety lub wybrać działanie dla konkretnego pakietu; otwarcie listy nie zmienia rekordów.",
           "notes": "Ta opcja otwiera tylko listę pakietów; rekordy poszczególnych pakietów są zarządzane oddzielnie."
         },
         "ur": {
@@ -11422,7 +11422,7 @@
           "when": "جب منتخب کام کے دائرہ کار یا ذیلی منصوبے دیکھنے ہوں تو استعمال کریں۔",
           "how": "منتخب کام سے منسلک پیکیجز دیکھنے کے لیے Work packages منتخب کریں۔",
           "inputs": "وہ درست کام منتخب کریں جس کے ورک پیکیجز دیکھنے ہیں۔",
-          "result": "منتخب کام کے ورک پیکیجز کی فہرست دکھائی دیتی ہے۔",
+          "result": "منتخب کام کی ورک پیکیج فہرست کھلتی ہے۔ آپ موجودہ پیکیجز دیکھ سکتے ہیں یا کسی مخصوص پیکیج کا عمل منتخب کر سکتے ہیں؛ فہرست کھولنے سے ریکارڈ تبدیل نہیں ہوتے۔",
           "notes": "یہ اختیار صرف پیکیجز کی فہرست کھولتا ہے؛ ہر پیکیج کا ریکارڈ الگ سے منظم ہوتا ہے۔"
         },
         "pa": {
@@ -11430,7 +11430,7 @@
           "when": "ਜਦੋਂ ਚੁਣੇ ਕੰਮ ਦੇ ਦਾਇਰੇ ਜਾਂ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਵੇਖਣੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
           "how": "ਚੁਣੇ ਕੰਮ ਨਾਲ ਜੁੜੇ ਪੈਕੇਜ ਵੇਖਣ ਲਈ Work packages ਚੁਣੋ।",
           "inputs": "ਉਹ ਸਹੀ ਕੰਮ ਚੁਣੋ ਜਿਸਦੇ ਵਰਕ ਪੈਕੇਜ ਵੇਖਣੇ ਹਨ।",
-          "result": "ਚੁਣੇ ਕੰਮ ਦੇ ਵਰਕ ਪੈਕੇਜਾਂ ਦੀ ਸੂਚੀ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ।",
+          "result": "ਚੁਣੇ ਕੰਮ ਦੀ ਵਰਕ ਪੈਕੇਜ ਸੂਚੀ ਖੁੱਲ੍ਹਦੀ ਹੈ। ਤੁਸੀਂ ਮੌਜੂਦਾ ਪੈਕੇਜ ਵੇਖ ਸਕਦੇ ਹੋ ਜਾਂ ਕਿਸੇ ਪੈਕੇਜ ਲਈ ਕਾਰਵਾਈ ਚੁਣ ਸਕਦੇ ਹੋ; ਸੂਚੀ ਖੋਲ੍ਹਣ ਨਾਲ ਰਿਕਾਰਡ ਨਹੀਂ ਬਦਲਦੇ।",
           "notes": "ਇਹ ਵਿਕਲਪ ਸਿਰਫ਼ ਪੈਕੇਜਾਂ ਦੀ ਸੂਚੀ ਖੋਲ੍ਹਦਾ ਹੈ; ਹਰ ਪੈਕੇਜ ਦਾ ਰਿਕਾਰਡ ਵੱਖਰੇ ਤੌਰ 'ਤੇ ਸੰਭਾਲਿਆ ਜਾਂਦਾ ਹੈ।"
         },
         "prs": {
@@ -11438,7 +11438,7 @@
           "when": "وقتی می‌خواهید محدوده‌های کاری یا زیرپروژه‌های داخل کار انتخاب‌شده را بررسی کنید، استفاده کنید.",
           "how": "برای نمایش بسته‌های مرتبط با کار انتخاب‌شده Work packages را انتخاب کنید.",
           "inputs": "کار درست را که می‌خواهید بسته‌های کاری آن را بررسی کنید انتخاب کنید.",
-          "result": "فهرست بسته‌های کاری مربوط به کار انتخاب‌شده نمایش داده می‌شود.",
+          "result": "فهرست بسته‌های کاری مربوط به کار انتخاب‌شده باز می‌شود. می‌توانید بسته‌های موجود را بررسی یا عملیات مربوط به یک بسته را انتخاب کنید؛ بازکردن فهرست سوابق را تغییر نمی‌دهد.",
           "notes": "این گزینه فقط فهرست بسته‌ها را باز می‌کند؛ سوابق هر بسته جداگانه مدیریت می‌شود."
         },
         "ps": {
@@ -11446,7 +11446,7 @@
           "when": "کله چې د ټاکل شوي کار کاري ساحې یا فرعي پروژې کتل غواړئ، دا وکاروئ.",
           "how": "د ټاکل شوي کار اړوند بستې د لیدلو لپاره Work packages وټاکئ.",
           "inputs": "سم کار وټاکئ چې کاري بستې یې کتل غواړئ.",
-          "result": "د ټاکل شوي کار د کاري بستو لېست ښکاره کېږي.",
+          "result": "د ټاکل شوي کار د کاري بستو لېست پرانیستل کېږي. موجودې بستې کتلی شئ یا د یوې بستې لپاره کړنه ټاکلی شئ؛ د لېست پرانیستل ریکارډونه نه بدلوي.",
           "notes": "دا اختیار یوازې د بستو لېست پرانیزي؛ د هرې بستې ریکارډ جلا اداره کېږي."
         }
       },
@@ -11472,7 +11472,7 @@
           "when": "وقتی لازم است سوابق پرداخت مربوط به یک کار را باز و بررسی کنید، از این گزینه استفاده کنید.",
           "how": "گزینه Payments را انتخاب کنید تا اطلاعات پرداخت‌های مرتبط با کار نمایش داده شود.",
           "inputs": "کار درست را که می‌خواهید سوابق پرداخت آن را بررسی کنید انتخاب کنید.",
-          "result": "بخش پرداخت‌های کار انتخاب‌شده باز می‌شود و سابقه پرداخت‌ها و فرم ثبت پرداخت جدید را نمایش می‌دهد. بازکردن این بخش به‌خودی‌خود پرداختی را ثبت نمی‌کند.",
+          "result": "بخش پرداخت‌های کار انتخاب‌شده باز می‌شود و سابقه پرداخت‌ها و فرم ثبت پرداخت جدید را نمایش می‌دهد. بازکردن این بخش به‌خودی‌خود پرداختی ثبت نمی‌کند.",
           "notes": "مبالغ را با دریافت‌های واقعی و مدارک پشتیبان تطبیق دهید؛ فهرست پرداخت به‌تنهایی تطبیق بانکی نیست."
         },
         "ar": {
@@ -11480,7 +11480,7 @@
           "when": "عندما تريد مراجعة الدفعات المسجلة للوظيفة المحددة.",
           "how": "اختر Payments لعرض معلومات الدفعات المرتبطة بالوظيفة.",
           "inputs": "حدد الوظيفة الصحيحة التي تريد مراجعة دفعاتها.",
-          "result": "تظهر سجلات الدفعات المرتبطة بالوظيفة المحددة.",
+          "result": "تُفتح منطقة دفعات الوظيفة المحددة وتعرض سجل الدفعات ونموذج تسجيل دفعة جديدة. فتح المنطقة لا يسجل دفعة بحد ذاته.",
           "notes": "قارن القيود بإيصالات الاستلام والأدلة الداعمة؛ فقائمة الدفعات لا تُعد مطابقة مصرفية."
         },
         "ckb": {
@@ -11488,7 +11488,7 @@
           "when": "کاتێک دەتەوێت پارەدانە تۆمارکراوەکانی کاری دیاریکراو بپشکنیت.",
           "how": "Payments هەڵبژێرە بۆ پیشاندانی زانیاری پارەدانە پەیوەستەکانی بە کارەکە.",
           "inputs": "ئەو کاری دروستە هەڵبژێرە کە دەتەوێت پارەدانەکانی بپشکنیت.",
-          "result": "تۆمارەکانی پارەدانی پەیوەست بە کارەکە پیشان دەدرێن.",
+          "result": "بەشی پارەدانەکانی کاری هەڵبژێردراو دەکرێتەوە و مێژووی پارەدان و فۆڕمی تۆمارکردنی پارەدانی نوێ پیشان دەدات. کردنەوەی بەشەکە بەخۆی پارەدانێک تۆمار ناکات.",
           "notes": "تۆمارەکان لەگەڵ پسووڵەی وەرگرتنی پارە و بەڵگە پشتیوانەکان بەراورد بکە؛ پێڕستی پارەدان بە تەنها هاوتاکردنی بانکی نییە."
         },
         "kmr": {
@@ -11496,7 +11496,7 @@
           "when": "Dema ku tu dixwazî dravdanên tomarkirî yên ji bo karekî taybet kontrol bikî.",
           "how": "Payments hilbijêre da ku agahiyên dravdanên girêdayî bi karê bibînî.",
           "inputs": "Karê rast hilbijêre ku dixwazî dravdanên wê kontrol bikî.",
-          "result": "Tomarên dravdanê yên girêdayî bi karê xuya dibin.",
+          "result": "Qada dravdanên karê hilbijartî vedibe û dîroka dravdanê û forma tomarkirina dravdaneke nû nîşan dide. Vekirina vê qadê bi xwe dravdanekê tomar nake.",
           "notes": "Tomaran bi fatûre û delîlên piştgir re berawird bike; lîsteya dravdanê bi tena xwe lihevhatina bankê nîne."
         },
         "tr": {
@@ -11504,7 +11504,7 @@
           "when": "Seçilen iş için kaydedilmiş ödemeleri incelemek istediğinizde kullanın.",
           "how": "İşle ilişkili ödeme bilgilerini görüntülemek için Payments'ı seçin.",
           "inputs": "Ödemelerini incelemek istediğiniz doğru işi seçin.",
-          "result": "İşle ilişkili ödeme kayıtları görüntülenir.",
+          "result": "Seçilen işin ödeme alanı açılır; ödeme geçmişi ve yeni ödeme kaydetme formu gösterilir. Bu alanı açmak tek başına ödeme kaydetmez.",
           "notes": "Kayıtları gerçek makbuzlar ve destekleyici kanıtlarla karşılaştırın; ödeme listesi tek başına banka mutabakatı değildir."
         },
         "pl": {
@@ -11512,7 +11512,7 @@
           "when": "Użyj, gdy chcesz sprawdzić płatności zapisane dla wybranego zlecenia.",
           "how": "Wybierz Payments, aby wyświetlić informacje o płatnościach powiązanych ze zleceniem.",
           "inputs": "Wybierz właściwe zlecenie, którego płatności chcesz sprawdzić.",
-          "result": "Wyświetlane są rejestry płatności powiązane ze zleceniem.",
+          "result": "Otwiera się sekcja płatności wybranego zlecenia, pokazując historię płatności i formularz rejestrowania nowej płatności. Samo otwarcie sekcji nie zapisuje płatności.",
           "notes": "Porównaj wpisy z rzeczywistymi potwierdzeniami i dokumentami pomocniczymi; sama lista płatności nie stanowi uzgodnienia bankowego."
         },
         "ur": {
@@ -11520,7 +11520,7 @@
           "when": "جب منتخب کام کے لیے درج شدہ ادائیگیاں دیکھنی ہوں تو استعمال کریں۔",
           "how": "کام سے متعلق ادائیگی کی معلومات دیکھنے کے لیے Payments منتخب کریں۔",
           "inputs": "وہ درست کام منتخب کریں جس کی ادائیگیاں دیکھنی ہیں۔",
-          "result": "کام سے منسلک ادائیگی کے ریکارڈ دکھائی دیتے ہیں۔",
+          "result": "منتخب کام کا ادائیگی والا حصہ کھلتا ہے، جس میں ادائیگی کی تاریخ اور نئی ادائیگی درج کرنے کا فارم دکھایا جاتا ہے۔ یہ حصہ کھولنے سے خود ادائیگی درج نہیں ہوتی۔",
           "notes": "اندراجات کا اصل رسیدوں اور معاون ثبوت سے موازنہ کریں؛ ادائیگیوں کی فہرست بذاتِ خود بینک ریکنسیلی ایشن نہیں ہے۔"
         },
         "pa": {
@@ -11528,7 +11528,7 @@
           "when": "ਜਦੋਂ ਚੁਣੇ ਕੰਮ ਲਈ ਦਰਜ ਕੀਤੇ ਭੁਗਤਾਨ ਵੇਖਣੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
           "how": "ਕੰਮ ਨਾਲ ਜੁੜੀ ਭੁਗਤਾਨ ਜਾਣਕਾਰੀ ਵੇਖਣ ਲਈ Payments ਚੁਣੋ।",
           "inputs": "ਉਹ ਸਹੀ ਕੰਮ ਚੁਣੋ ਜਿਸਦੇ ਭੁਗਤਾਨ ਵੇਖਣੇ ਹਨ।",
-          "result": "ਕੰਮ ਨਾਲ ਜੁੜੇ ਭੁਗਤਾਨ ਰਿਕਾਰਡ ਦਿਖਾਈ ਦਿੰਦੇ ਹਨ।",
+          "result": "ਚੁਣੇ ਕੰਮ ਦਾ ਭੁਗਤਾਨ ਭਾਗ ਖੁੱਲ੍ਹਦਾ ਹੈ, ਜਿਸ ਵਿੱਚ ਭੁਗਤਾਨ ਇਤਿਹਾਸ ਅਤੇ ਨਵਾਂ ਭੁਗਤਾਨ ਦਰਜ ਕਰਨ ਦਾ ਫਾਰਮ ਦਿਖਦਾ ਹੈ। ਇਹ ਭਾਗ ਖੋਲ੍ਹਣ ਨਾਲ ਆਪਣੇ ਆਪ ਭੁਗਤਾਨ ਦਰਜ ਨਹੀਂ ਹੁੰਦਾ।",
           "notes": "ਐਂਟਰੀਆਂ ਦਾ ਅਸਲ ਰਸੀਦਾਂ ਅਤੇ ਸਹਾਇਕ ਸਬੂਤ ਨਾਲ ਮਿਲਾਣ ਕਰੋ; ਭੁਗਤਾਨ ਸੂਚੀ ਆਪਣੇ ਆਪ ਬੈਂਕ ਮਿਲਾਣ ਨਹੀਂ ਹੁੰਦੀ।"
         },
         "prs": {
@@ -11536,7 +11536,7 @@
           "when": "وقتی می‌خواهید پرداخت‌های ثبت‌شده برای کار انتخاب‌شده را بررسی کنید، استفاده کنید.",
           "how": "برای نمایش اطلاعات پرداخت‌های مرتبط با کار Payments را انتخاب کنید.",
           "inputs": "کار درست را که می‌خواهید پرداخت‌های آن را بررسی کنید انتخاب کنید.",
-          "result": "سوابق پرداخت مرتبط با کار نمایش داده می‌شوند.",
+          "result": "بخش پرداخت‌های کار انتخاب‌شده باز می‌شود و سابقه پرداخت‌ها و فرم ثبت پرداخت جدید را نمایش می‌دهد. بازکردن این بخش به‌خودی‌خود پرداختی ثبت نمی‌کند.",
           "notes": "ثبت‌ها را با رسیدهای واقعی و مدارک پشتیبان تطبیق دهید؛ فهرست پرداخت به‌تنهایی تطبیق بانکی نیست."
         },
         "ps": {
@@ -11544,7 +11544,7 @@
           "when": "کله چې د ټاکل شوي کار لپاره ثبت شوې تادیې کتل غواړئ، دا وکاروئ.",
           "how": "د کار اړوند د تادیاتو معلوماتو د لیدلو لپاره Payments وټاکئ.",
           "inputs": "سم کار وټاکئ چې تادیې یې کتل غواړئ.",
-          "result": "د کار اړوند د تادیاتو ریکارډونه ښکاره کېږي.",
+          "result": "د ټاکل شوي کار د تادیاتو برخه پرانیستل کېږي، د تادیاتو تاریخ او د نوې تادیې د ثبت فورمه ښيي. د برخې پرانیستل پخپله تادیه نه ثبتوي.",
           "notes": "ثبتونه له اصلي رسیدونو او ملاتړو اسنادو سره پرتله کړئ؛ د تادیاتو لېست پخپله بانکي تطبیق نه دی."
         }
       },
@@ -11570,7 +11570,7 @@
           "when": "وقتی لازم است فایلی را که به سابقه شرکت یا کار انتخاب‌شده پیوست شده باز کنید، از این گزینه استفاده کنید.",
           "how": "آیکون پیوست را در ردیف درست انتخاب کنید تا فایل مرتبط باز شود.",
           "inputs": "سابقه درست شرکت یا کار را انتخاب کنید و نام فایل پیوست‌شده را بررسی کنید.",
-          "result": "فایل پیوست‌شده به سابقه شرکت یا کار انتخاب‌شده باز می‌شود؛ خود سابقه تغییر نمی‌کند.",
+          "result": "پیوست رکورد شرکت یا کار انتخاب‌شده در دستگاه یا مرورگر باز می‌شود. خود رکورد تغییر نمی‌کند.",
           "notes": "پیش از باز کردن یا ارسال فایل، ردیف و نام فایل را بررسی کنید."
         },
         "ar": {
@@ -11578,7 +11578,7 @@
           "when": "عندما تحتاج إلى فتح ملف مرفق بسجل الشركة أو الوظيفة المحدد.",
           "how": "اختر أيقونة المرفق في الصف الصحيح لفتح الملف المرتبط.",
           "inputs": "حدد سجل الشركة أو الوظيفة الصحيح وتحقق من اسم الملف المرفق.",
-          "result": "يُفتح الملف المرتبط باستخدام الجهاز أو المتصفح.",
+          "result": "يُفتح المرفق الخاص بسجل الشركة أو الوظيفة المحدد على الجهاز أو في المتصفح. لا يتغير السجل نفسه.",
           "notes": "تحقق من الصف واسم الملف قبل فتحه أو مشاركته."
         },
         "ckb": {
@@ -11586,7 +11586,7 @@
           "when": "کاتێک پێویستە فایلێکی هاوپێچکراو بە تۆماری کۆمپانیا یان کارە دیاریکراوەکە بکەیتەوە.",
           "how": "ئایکۆنی پاشکۆ لە ڕیزی دروست هەڵبژێرە بۆ کردنەوەی فایلی پەیوەست.",
           "inputs": "تۆماری کۆمپانیا یان کاری دروست هەڵبژێرە و ناوی فایلی هاوپێچکراو بپشکنە.",
-          "result": "فایلی پەیوەست بە بەکارهێنانی ئامێر یان وێبگەڕ دەکرێتەوە.",
+          "result": "هاوپێچی تۆماری کۆمپانیا یان کاری هەڵبژێردراو لە ئامێر یان وێبگەڕ دەکرێتەوە. خودی تۆمارەکە ناگۆڕێت.",
           "notes": "پێش کردنەوە یان هاوبەشکردنی فایل، ڕیز و ناوی فایلەکە بپشکنە."
         },
         "kmr": {
@@ -11594,7 +11594,7 @@
           "when": "Dema ku tu hewceyî vekirina pevekê ya bi tomara pargîdanî an karê hilbijartî ve girêdayî yî.",
           "how": "Li rêza rast îkona pêvekê hilbijêre da ku pela girêdayî veke.",
           "inputs": "Tomara pargîdanî an karê rast hilbijêre û navê pela pêvekirî kontrol bike.",
-          "result": "Pelê girêdayî bi amûr an gerokê tê vekirin.",
+          "result": "Pêveka tomara pargîdanî an karê hilbijartî di amûr an gerokê de vedibe. Tomar bixwe naguherîne.",
           "notes": "Berî vekirin an parvekirina pelê rêz û navê pelê kontrol bike."
         },
         "tr": {
@@ -11602,7 +11602,7 @@
           "when": "Seçilen şirket veya iş kaydına eklenmiş bir dosyayı açmanız gerektiğinde kullanın.",
           "how": "Bağlantılı dosyayı açmak için doğru satırdaki ek simgesini seçin.",
           "inputs": "Doğru şirket veya iş kaydını seçin ve ekli dosyanın adını kontrol edin.",
-          "result": "Bağlantılı dosya cihaz veya tarayıcı kullanılarak açılır.",
+          "result": "Seçilen şirket veya iş kaydının eki cihazda ya da tarayıcıda açılır. Kaydın kendisi değişmez.",
           "notes": "Dosyayı açmadan veya paylaşmadan önce satırı ve dosya adını doğrulayın."
         },
         "pl": {
@@ -11610,7 +11610,7 @@
           "when": "Użyj, gdy chcesz otworzyć plik dołączony do wybranego rekordu firmy lub zlecenia.",
           "how": "Wybierz ikonę załącznika w odpowiednim wierszu, aby otworzyć powiązany plik.",
           "inputs": "Wybierz właściwy rekord firmy lub zlecenia i sprawdź nazwę załączonego pliku.",
-          "result": "Powiązany plik zostanie otwarty na urządzeniu lub w przeglądarce.",
+          "result": "Załącznik wybranego rekordu firmy lub zlecenia otwiera się na urządzeniu albo w przeglądarce. Sam rekord nie ulega zmianie.",
           "notes": "Przed otwarciem lub udostępnieniem pliku sprawdź wiersz i nazwę pliku."
         },
         "ur": {
@@ -11618,7 +11618,7 @@
           "when": "جب منتخب کمپنی یا کام کے ریکارڈ کے ساتھ منسلک فائل کھولنی ہو تو استعمال کریں۔",
           "how": "متعلقہ فائل کھولنے کے لیے درست قطار میں اٹیچمنٹ کا آئیکن منتخب کریں۔",
           "inputs": "درست کمپنی یا کام کا ریکارڈ منتخب کریں اور منسلک فائل کا نام چیک کریں۔",
-          "result": "متعلقہ فائل ڈیوائس یا براؤزر کے ذریعے کھل جاتی ہے۔",
+          "result": "منتخب کمپنی یا کام کے ریکارڈ کا منسلکہ ڈیوائس یا براؤزر میں کھلتا ہے۔ اصل ریکارڈ تبدیل نہیں ہوتا۔",
           "notes": "فائل کھولنے یا شیئر کرنے سے پہلے قطار اور فائل کا نام تصدیق کریں۔"
         },
         "pa": {
@@ -11626,7 +11626,7 @@
           "when": "ਜਦੋਂ ਚੁਣੀ ਕੰਪਨੀ ਜਾਂ ਕੰਮ ਦੇ ਰਿਕਾਰਡ ਨਾਲ ਜੁੜੀ ਫਾਈਲ ਖੋਲ੍ਹਣੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
           "how": "ਜੁੜੀ ਫਾਈਲ ਖੋਲ੍ਹਣ ਲਈ ਸਹੀ ਕਤਾਰ ਵਿੱਚ ਅਟੈਚਮੈਂਟ ਆਈਕਨ ਚੁਣੋ।",
           "inputs": "ਸਹੀ ਕੰਪਨੀ ਜਾਂ ਕੰਮ ਦਾ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਜੁੜੀ ਫਾਈਲ ਦਾ ਨਾਮ ਜਾਂਚੋ।",
-          "result": "ਜੁੜੀ ਫਾਈਲ ਡਿਵਾਈਸ ਜਾਂ ਬ੍ਰਾਊਜ਼ਰ ਰਾਹੀਂ ਖੁੱਲ੍ਹਦੀ ਹੈ।",
+          "result": "ਚੁਣੀ ਕੰਪਨੀ ਜਾਂ ਕੰਮ ਰਿਕਾਰਡ ਦੀ ਅਟੈਚਮੈਂਟ ਡਿਵਾਈਸ ਜਾਂ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਖੁੱਲ੍ਹਦੀ ਹੈ। ਰਿਕਾਰਡ ਖੁਦ ਨਹੀਂ ਬਦਲਦਾ।",
           "notes": "ਫਾਈਲ ਖੋਲ੍ਹਣ ਜਾਂ ਸਾਂਝੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਕਤਾਰ ਅਤੇ ਫਾਈਲ ਦਾ ਨਾਮ ਜਾਂਚੋ।"
         },
         "prs": {
@@ -11634,7 +11634,7 @@
           "when": "وقتی لازم است فایلی را که به سابقه شرکت یا کار انتخاب‌شده پیوست شده باز کنید، استفاده کنید.",
           "how": "برای باز کردن فایل مرتبط، نماد پیوست را در ردیف درست انتخاب کنید.",
           "inputs": "سابقه درست شرکت یا کار را انتخاب کنید و نام فایل پیوست‌شده را بررسی کنید.",
-          "result": "فایل مرتبط با استفاده از دستگاه یا مرورگر باز می‌شود.",
+          "result": "پیوست رکورد شرکت یا کار انتخاب‌شده در دستگاه یا مرورگر باز می‌شود. خود رکورد تغییر نمی‌کند.",
           "notes": "پیش از باز کردن یا اشتراک‌گذاری فایل، ردیف و نام فایل را بررسی کنید."
         },
         "ps": {
@@ -11642,7 +11642,7 @@
           "when": "کله چې د ټاکل شوي شرکت یا کار له ریکارډ سره نښلول شوې فایل پرانیستل غواړئ، دا وکاروئ.",
           "how": "د تړلې فایل د پرانیستلو لپاره په سم قطار کې د ضمیمې نښه وټاکئ.",
           "inputs": "د شرکت یا کار سم ریکارډ وټاکئ او د نښلول شوې فایل نوم وګورئ.",
-          "result": "تړلې فایل د وسیلې یا براوزر له لارې پرانیستل کېږي.",
+          "result": "د ټاکل شوې شرکت یا کار د ریکارډ ضمیمه په وسیله یا براوزر کې پرانیستل کېږي. خپله ریکارډ نه بدلېږي.",
           "notes": "د فایل له پرانیستلو یا شریکولو مخکې قطار او د فایل نوم تایید کړئ."
         }
       },
@@ -11668,7 +11668,7 @@
           "when": "وقتی لازم است سند پشتیبان مربوط به بسته کاری انتخاب‌شده را بررسی کنید، از این گزینه استفاده کنید.",
           "how": "نام فایل پیوست را انتخاب کنید تا فایل ذخیره‌شده در مرورگر یا دستگاه باز شود.",
           "inputs": "بسته کاری درست را انتخاب کنید و پیش از باز کردن نام پیوست را بررسی کنید.",
-          "result": "فایل پشتیبان پیوست‌شده به بسته کاری انتخاب‌شده باز می‌شود؛ اطلاعات بسته تغییر نمی‌کند.",
+          "result": "فایل پشتیبان ذخیره‌شده برای بسته کاری انتخاب‌شده در دستگاه یا مرورگر باز می‌شود. بازکردن آن، تغییرات بسته را ذخیره نمی‌کند.",
           "notes": "پیوست مدرک پشتیبان است؛ باز کردن آن تغییرات بسته کاری را ذخیره نمی‌کند."
         },
         "ar": {
@@ -11676,7 +11676,7 @@
           "when": "عندما تحتاج إلى مراجعة مستند داعم لحزمة العمل المحددة.",
           "how": "اختر اسم الملف المرفق لعرض الملف المحفوظ باستخدام الجهاز أو المتصفح.",
           "inputs": "حدد حزمة العمل الصحيحة وتحقق من اسم المرفق قبل فتحه.",
-          "result": "يُفتح الملف المرفق أو يُعرض وفقاً لدعم الجهاز والمتصفح.",
+          "result": "يُفتح الملف الداعم المحفوظ لحزمة العمل المحددة على الجهاز أو في المتصفح. فتحه لا يحفظ تغييرات على الحزمة.",
           "notes": "المرفق مادة داعمة؛ فتحه لا يحفظ أي تغييرات على حزمة العمل."
         },
         "ckb": {
@@ -11684,7 +11684,7 @@
           "when": "کاتێک پێویستە بەڵگەنامەیەکی پشتگیر بۆ پاکێجی کاری دیاریکراو بپشکنیت.",
           "how": "ناوی فایلی پاشکۆ هەڵبژێرە بۆ پیشاندانی فایلە پاشەکەوتکراوەکە لە ئامێر یان وێبگەڕدا.",
           "inputs": "پاکێجی کاری دروست هەڵبژێرە و پێش کردنەوە ناوی پاشکۆکە بپشکنە.",
-          "result": "فایلی پاشکۆ دەکرێتەوە یان پیشان دەدرێت، بە پێی پشتگیری ئامێر و وێبگەڕ.",
+          "result": "فایلی پشتگیری پاشەکەوتکراو بۆ پاکێجی کاری هەڵبژێردراو لە ئامێر یان وێبگەڕ دەکرێتەوە. کردنەوەی فایلەکە گۆڕانکاری لە پاکێجەکەدا پاشەکەوت ناکات.",
           "notes": "پاشکۆ بەڵگەی پشتگیرە؛ کردنەوەی هیچ گۆڕانکارییەک لە پاکێجی کاردا پاشەکەوت ناکات."
         },
         "kmr": {
@@ -11692,7 +11692,7 @@
           "when": "Dema ku tu hewceyî vekolîna belgeya piştgir a pakêta xebatê ya hilbijartî yî.",
           "how": "Navê pela pêvekê hilbijêre da ku pela tomarkirî bi amûr an gerokê bibînî.",
           "inputs": "Pakêta xebatê ya rast hilbijêre û berî vekirinê navê pêvekê kontrol bike.",
-          "result": "Pelê pêvekê vedibe an tê nîşandan, li gorî piştgirîya amûr û gerokê.",
+          "result": "Pelê piştgiriyê yê tomarkirî ji bo pakêta karê hilbijartî di amûr an gerokê de vedibe. Vekirina wê guherînan li ser pakêtê tomar nake.",
           "notes": "Pêvek materyala piştgir e; vekirina wê tu guherînan li ser pakêta xebatê tomar nake."
         },
         "tr": {
@@ -11700,7 +11700,7 @@
           "when": "Seçilen iş paketi için destekleyici bir belgeyi incelemeniz gerektiğinde kullanın.",
           "how": "Kaydedilmiş dosyayı cihaz veya tarayıcıda görüntülemek için ek dosyanın adını seçin.",
           "inputs": "Doğru iş paketini seçin ve açmadan önce ekin adını kontrol edin.",
-          "result": "Ek dosya, cihaz ve tarayıcı desteğine bağlı olarak açılır veya görüntülenir.",
+          "result": "Seçilen iş paketi için kaydedilmiş destek dosyası cihazda veya tarayıcıda açılır. Dosyayı açmak pakette değişiklik kaydetmez.",
           "notes": "Ek, destekleyici materyaldir; açılması iş paketine yapılan değişiklikleri kaydetmez."
         },
         "pl": {
@@ -11708,7 +11708,7 @@
           "when": "Użyj, gdy chcesz sprawdzić dokument pomocniczy dotyczący wybranego pakietu prac.",
           "how": "Wybierz nazwę załącznika, aby wyświetlić zapisany plik na urządzeniu lub w przeglądarce.",
           "inputs": "Wybierz właściwy pakiet prac i przed otwarciem sprawdź nazwę załącznika.",
-          "result": "Załącznik zostanie otwarty lub wyświetlony zgodnie z obsługą urządzenia i przeglądarki.",
+          "result": "Zapisany plik pomocniczy wybranego pakietu prac otwiera się na urządzeniu lub w przeglądarce. Otwarcie pliku nie zapisuje zmian w pakiecie.",
           "notes": "Załącznik jest materiałem pomocniczym; jego otwarcie nie zapisuje zmian w pakiecie prac."
         },
         "ur": {
@@ -11716,7 +11716,7 @@
           "when": "جب منتخب ورک پیکیج کے لیے معاون دستاویز دیکھنی ہو تو استعمال کریں۔",
           "how": "محفوظ شدہ فائل کو ڈیوائس یا براؤزر میں دیکھنے کے لیے اٹیچمنٹ کا نام منتخب کریں۔",
           "inputs": "درست ورک پیکیج منتخب کریں اور کھولنے سے پہلے اٹیچمنٹ کا نام چیک کریں۔",
-          "result": "ڈیوائس اور براؤزر کی سہولت کے مطابق اٹیچمنٹ کھل جاتی یا دکھائی دیتی ہے۔",
+          "result": "منتخب ورک پیکیج کی محفوظ معاون فائل ڈیوائس یا براؤزر میں کھلتی ہے۔ اسے کھولنے سے پیکیج میں کوئی تبدیلی محفوظ نہیں ہوتی۔",
           "notes": "اٹیچمنٹ معاون مواد ہے؛ اسے کھولنے سے ورک پیکیج کی تبدیلیاں محفوظ نہیں ہوتیں۔"
         },
         "pa": {
@@ -11724,7 +11724,7 @@
           "when": "ਜਦੋਂ ਚੁਣੇ ਵਰਕ ਪੈਕੇਜ ਲਈ ਸਹਾਇਕ ਦਸਤਾਵੇਜ਼ ਵੇਖਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
           "how": "ਸੇਵ ਕੀਤੀ ਫਾਈਲ ਡਿਵਾਈਸ ਜਾਂ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਵੇਖਣ ਲਈ ਅਟੈਚਮੈਂਟ ਦਾ ਨਾਮ ਚੁਣੋ।",
           "inputs": "ਸਹੀ ਵਰਕ ਪੈਕੇਜ ਚੁਣੋ ਅਤੇ ਖੋਲ੍ਹਣ ਤੋਂ ਪਹਿਲਾਂ ਅਟੈਚਮੈਂਟ ਦਾ ਨਾਮ ਜਾਂਚੋ।",
-          "result": "ਡਿਵਾਈਸ ਅਤੇ ਬ੍ਰਾਊਜ਼ਰ ਦੀ ਸਹੂਲਤ ਅਨੁਸਾਰ ਅਟੈਚਮੈਂਟ ਖੁੱਲ੍ਹਦੀ ਜਾਂ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ।",
+          "result": "ਚੁਣੇ ਵਰਕ ਪੈਕੇਜ ਲਈ ਸੇਵ ਕੀਤੀ ਸਹਾਇਕ ਫਾਈਲ ਡਿਵਾਈਸ ਜਾਂ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਖੁੱਲ੍ਹਦੀ ਹੈ। ਫਾਈਲ ਖੋਲ੍ਹਣ ਨਾਲ ਪੈਕੇਜ ਵਿੱਚ ਤਬਦੀਲੀਆਂ ਸੇਵ ਨਹੀਂ ਹੁੰਦੀਆਂ।",
           "notes": "ਅਟੈਚਮੈਂਟ ਸਹਾਇਕ ਸਮੱਗਰੀ ਹੈ; ਇਸਨੂੰ ਖੋਲ੍ਹਣ ਨਾਲ ਵਰਕ ਪੈਕੇਜ ਵਿੱਚ ਤਬਦੀਲੀਆਂ ਸੇਵ ਨਹੀਂ ਹੁੰਦੀਆਂ।"
         },
         "prs": {
@@ -11732,7 +11732,7 @@
           "when": "وقتی لازم است سند پشتیبان مربوط به بسته کاری انتخاب‌شده را بررسی کنید، استفاده کنید.",
           "how": "نام فایل پیوست را انتخاب کنید تا فایل ذخیره‌شده در دستگاه یا مرورگر نمایش داده شود.",
           "inputs": "بسته کاری درست را انتخاب کنید و پیش از باز کردن نام پیوست را بررسی کنید.",
-          "result": "فایل پیوست با توجه به پشتیبانی دستگاه و مرورگر باز یا نمایش داده می‌شود.",
+          "result": "فایل پشتیبان ذخیره‌شده برای بسته کاری انتخاب‌شده در دستگاه یا مرورگر باز می‌شود. بازکردن آن، تغییرات بسته را ذخیره نمی‌کند.",
           "notes": "پیوست یک مدرک پشتیبان است؛ باز کردن آن تغییرات بسته کاری را ذخیره نمی‌کند."
         },
         "ps": {
@@ -11740,7 +11740,7 @@
           "when": "کله چې د ټاکل شوې کاري بستې ملاتړی سند کتلو ته اړتیا لرئ، دا وکاروئ.",
           "how": "د خوندي شوې فایل د لیدلو لپاره د ضمیمې نوم وټاکئ څو په وسیله یا براوزر کې ښکاره شي.",
           "inputs": "سمه کاري بسته وټاکئ او له پرانیستلو مخکې د ضمیمې نوم وګورئ.",
-          "result": "ضمیمه د وسیلې او براوزر د ملاتړ له مخې پرانیستل یا ښکاره کېږي.",
+          "result": "د ټاکل شوې کاري بستې خوندي ملاتړی فایل په وسیله یا براوزر کې پرانیستل کېږي. د فایل پرانیستل په بسته کې بدلونونه نه خوندي کوي.",
           "notes": "ضمیمه ملاتړی مواد دي؛ پرانیستل یې د کاري بستې بدلونونه نه خوندي کوي."
         }
       },
@@ -11766,7 +11766,7 @@
           "when": "وقتی لازم است جزئیات یک بسته کاری موجود را به‌روزرسانی کنید، از این گزینه استفاده کنید.",
           "how": "برای بسته موردنظر Edit را انتخاب کنید، ارتباط آن با کار اصلی و جزئیات را بررسی و تغییرات را ذخیره کنید.",
           "inputs": "بسته کاری درست را درون کار درست انتخاب کنید و فیلدهایی را که می‌خواهید ویرایش کنید بررسی کنید.",
-          "result": "بسته کاری انتخاب‌شده برای ویرایش باز می‌شود؛ جزئیات ذخیره‌شده آن فقط پس از ذخیره موفق تغییر می‌کند.",
+          "result": "بسته کاری انتخاب‌شده برای ویرایش در فرم بارگذاری می‌شود؛ جزئیات ذخیره‌شده فقط پس از ذخیره موفق تغییر می‌کنند.",
           "notes": "مطمئن شوید بسته درست را درون کار صحیح ویرایش می‌کنید."
         },
         "ar": {
@@ -11774,7 +11774,7 @@
           "when": "عندما تحتاج إلى تحديث تفاصيل حزمة عمل موجودة.",
           "how": "اختر Edit للحزمة المطلوبة، وتحقق من ارتباطها بالوظيفة وتفاصيلها، ثم احفظ التغييرات.",
           "inputs": "حدد حزمة العمل الصحيحة ضمن الوظيفة الصحيحة، وراجع الحقول التي تريد تعديلها.",
-          "result": "يُحدّث السجل المحدد إذا نجح التحقق وأكد التطبيق التغيير.",
+          "result": "تُحمّل حزمة العمل المحددة في النموذج للتعديل؛ ولا تتغير تفاصيلها المحفوظة إلا بعد نجاح الحفظ.",
           "notes": "تأكد من أنك تعدّل الحزمة الصحيحة ضمن الوظيفة الصحيحة."
         },
         "ckb": {
@@ -11782,7 +11782,7 @@
           "when": "کاتێک پێویستە وردەکارییەکانی پاکێجی کارێکی هەبوو نوێ بکەیتەوە.",
           "how": "بۆ پاکێجی مەبەست Edit هەڵبژێرە، پەیوەندییەکەی بە کارەکە و وردەکارییەکانی بپشکنە، پاشان گۆڕانکارییەکان پاشەکەوت بکە.",
           "inputs": "پاکێجی کاری دروست لەژێر کاری دروست هەڵبژێرە و ئەو خانانە بپشکنە کە دەتەوێت دەستکارییان بکەیت.",
-          "result": "ئەگەر پشتڕاستکردنەوە سەرکەوتوو بێت و ئەپەکە گۆڕانکارییەکە پشتڕاست بکاتەوە، تۆمارەکە نوێ دەکرێتەوە.",
+          "result": "پاکێجی کاری هەڵبژێردراو لە فۆڕمدا بۆ دەستکاریکردن بار دەکرێت؛ وردەکارییە پاشەکەوتکراوەکانی تەنها دوای پاشەکەوتکردنی سەرکەوتوو دەگۆڕێن.",
           "notes": "دڵنیابە لەوەی پاکێجی دروست لەناو کاری دروستدا دەستکاری دەکەیت."
         },
         "kmr": {
@@ -11790,7 +11790,7 @@
           "when": "Dema ku tu hewceyî nûkirina hûrguliyên pakêteke xebatê ya heyî yî.",
           "how": "Ji bo pakêta xwestî Edit hilbijêre, girêdana wê bi kar û hûrguliyên wê kontrol bike, paşê guherînan tomar bike.",
           "inputs": "Pakêta xebatê ya rast di bin karê rast de hilbijêre û qadên ku dixwazî biguherînî kontrol bike.",
-          "result": "Ger kontrol serkeftî be û sepan guherînê piştrast bike, tomar tê nûkirin.",
+          "result": "Pakêta karê hilbijartî di formê de ji bo guherandinê tê barkirin; hûrguliyên tomarkirî tenê piştî tomarkirina serkeftî diguherin.",
           "notes": "Bawer be ku tu pakêta rast di nav karê rast de diguherînî."
         },
         "tr": {
@@ -11798,7 +11798,7 @@
           "when": "Mevcut bir iş paketinin ayrıntılarını güncellemeniz gerektiğinde kullanın.",
           "how": "İlgili paket için Edit'i seçin, işle ilişkisini ve ayrıntılarını kontrol edin, ardından değişiklikleri kaydedin.",
           "inputs": "Doğru işin altındaki doğru iş paketini seçin ve düzenlemek istediğiniz alanları kontrol edin.",
-          "result": "Doğrulama başarılı olur ve uygulama değişikliği onaylarsa kayıt güncellenir.",
+          "result": "Seçilen iş paketi düzenleme için forma yüklenir; kayıtlı ayrıntılar yalnızca kaydetme başarılı olursa değişir.",
           "notes": "Doğru işin içindeki doğru paketi düzenlediğinizden emin olun."
         },
         "pl": {
@@ -11806,7 +11806,7 @@
           "when": "Użyj, gdy trzeba zaktualizować szczegóły istniejącego pakietu prac.",
           "how": "Wybierz Edit przy właściwym pakiecie, sprawdź jego powiązanie ze zleceniem i szczegóły, a następnie zapisz zmiany.",
           "inputs": "Wybierz właściwy pakiet w ramach właściwego zlecenia i sprawdź pola, które chcesz edytować.",
-          "result": "Rekord zostanie zaktualizowany, jeśli walidacja się powiedzie i aplikacja potwierdzi zmianę.",
+          "result": "Wybrany pakiet prac jest wczytywany do formularza edycji; zapisane dane zmienią się dopiero po pomyślnym zapisaniu.",
           "notes": "Upewnij się, że edytujesz właściwy pakiet w ramach właściwego zlecenia."
         },
         "ur": {
@@ -11814,7 +11814,7 @@
           "when": "جب موجودہ ورک پیکیج کی تفصیلات اپ ڈیٹ کرنی ہوں تو استعمال کریں۔",
           "how": "متعلقہ پیکیج کے لیے Edit منتخب کریں، کام کے ساتھ اس کا تعلق اور تفصیلات چیک کریں، پھر تبدیلیاں محفوظ کریں۔",
           "inputs": "درست کام کے اندر درست ورک پیکیج منتخب کریں اور وہ خانے دیکھیں جن میں ترمیم کرنی ہے۔",
-          "result": "توثیق کامیاب ہو اور ایپ تبدیلی کی تصدیق کرے تو ریکارڈ اپ ڈیٹ ہو جاتا ہے۔",
+          "result": "منتخب ورک پیکیج ترمیم کے لیے فارم میں لوڈ ہوتا ہے؛ محفوظ تفصیلات صرف کامیاب محفوظ کاری کے بعد بدلتی ہیں۔",
           "notes": "یقینی بنائیں کہ آپ درست کام کے اندر درست پیکیج میں ترمیم کر رہے ہیں۔"
         },
         "pa": {
@@ -11822,7 +11822,7 @@
           "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਵਰਕ ਪੈਕੇਜ ਦੇ ਵੇਰਵੇ ਅਪਡੇਟ ਕਰਨੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
           "how": "ਸੰਬੰਧਿਤ ਪੈਕੇਜ ਲਈ Edit ਚੁਣੋ, ਕੰਮ ਨਾਲ ਇਸਦਾ ਸੰਬੰਧ ਅਤੇ ਵੇਰਵੇ ਜਾਂਚੋ, ਫਿਰ ਤਬਦੀਲੀਆਂ ਸੇਵ ਕਰੋ।",
           "inputs": "ਸਹੀ ਕੰਮ ਦੇ ਅੰਦਰ ਸਹੀ ਵਰਕ ਪੈਕੇਜ ਚੁਣੋ ਅਤੇ ਉਹ ਖੇਤਰ ਜਾਂਚੋ ਜਿਨ੍ਹਾਂ ਨੂੰ ਸੋਧਣਾ ਹੈ।",
-          "result": "ਜਾਂਚ ਸਫਲ ਹੋਵੇ ਅਤੇ ਐਪ ਤਬਦੀਲੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਰਿਕਾਰਡ ਅਪਡੇਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "result": "ਚੁਣਿਆ ਵਰਕ ਪੈਕੇਜ ਸੋਧ ਲਈ ਫਾਰਮ ਵਿੱਚ ਲੋਡ ਹੁੰਦਾ ਹੈ; ਸੇਵ ਕੀਤੇ ਵੇਰਵੇ ਸਿਰਫ਼ ਸਫਲ ਸੇਵ ਤੋਂ ਬਾਅਦ ਬਦਲਦੇ ਹਨ।",
           "notes": "ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਤੁਸੀਂ ਸਹੀ ਕੰਮ ਦੇ ਅੰਦਰ ਸਹੀ ਪੈਕੇਜ ਸੋਧ ਰਹੇ ਹੋ।"
         },
         "prs": {
@@ -11830,7 +11830,7 @@
           "when": "وقتی لازم است جزئیات یک بسته کاری موجود را به‌روزرسانی کنید، استفاده کنید.",
           "how": "برای بسته موردنظر Edit را انتخاب کنید، ارتباط آن با کار و جزئیاتش را بررسی و سپس تغییرات را ذخیره کنید.",
           "inputs": "بسته کاری درست را درون کار درست انتخاب کنید و فیلدهایی را که می‌خواهید ویرایش کنید بررسی کنید.",
-          "result": "اگر اعتبارسنجی موفق باشد و برنامه تغییر را تأیید کند، سابقه به‌روزرسانی می‌شود.",
+          "result": "بسته کاری انتخاب‌شده برای ویرایش در فرم بارگذاری می‌شود؛ جزئیات ذخیره‌شده فقط پس از ذخیره موفق تغییر می‌کنند.",
           "notes": "مطمئن شوید بسته درست را درون کار صحیح ویرایش می‌کنید."
         },
         "ps": {
@@ -11838,7 +11838,7 @@
           "when": "کله چې د موجودې کاري بستې جزئیات تازه کول غواړئ، دا وکاروئ.",
           "how": "د اړوندې بستې لپاره Edit وټاکئ، له کار سره یې تړاو او جزئیات وګورئ، بیا بدلونونه خوندي کړئ.",
           "inputs": "د سم کار دننه سمه کاري بسته وټاکئ او هغه خانې وګورئ چې سمول یې غواړئ.",
-          "result": "که ارزونه بریالۍ شي او اپلیکیشن بدلون تایید کړي، ریکارډ تازه کېږي.",
+          "result": "ټاکل شوې کاري بسته د سمون لپاره فورمې ته پورته کېږي؛ خوندي شوي جزئیات یوازې د بریالي خوندي کولو وروسته بدلېږي.",
           "notes": "ډاډ ترلاسه کړئ چې د سم کار دننه سمه بسته سموی."
         }
       },
