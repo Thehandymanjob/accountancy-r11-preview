@@ -148,3 +148,11 @@ Source review corrected the English and Persian text for nine Draft entries: THA
 - Mapping counts were synchronized: 74 scoped static selectors, 13 exact unique-ID selectors, five scoped unique-handler selectors and five dynamic-template attributes.
 - Version target: `THA-273-R11-PREVIEW-20261127-R61`. Version Authority index/runtime pins and Registry mapping baselines must match the final R61 tree.
 - No user-facing app behavior changed. Browser Help interaction, language switching, mobile layout and iPhone Safari remain unverified. No Preview deployment or Production change.
+
+
+## R61 Project Workspace detail and project form bindings
+
+- Added 13 completed Help bindings for New Project, Projects List, Add Partner share row, seven Project Detail tabs, View Financial Report, Clear Contractor Form and Clear Work Package Form.
+- The seven tabs use exact data-pr-sub attributes so repeated prDetailTab handlers cannot collide. New/List selectors are scoped to #prPage-project-hub; Clear actions are scoped to their actual form pages.
+- Cumulative mapping: 110 Help controls (105 static, five dynamic-template); 87 scoped static selectors, 13 unique-ID selectors and five scoped-handler selectors.
+- Build target: THA-273-R11-PREVIEW-20261127-R61. Browser testing and deployment remain pending.
