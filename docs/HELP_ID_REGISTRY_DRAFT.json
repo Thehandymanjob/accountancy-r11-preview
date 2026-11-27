@@ -7093,7 +7093,7 @@
       "audit_ref": "INV-089",
       "element_id": "appReloadUpdate",
       "label": "Update Now",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "A disabled Update Now control is displayed for the intended software-update workflow, but the referenced reloadLatestApp() function is not defined in the inspected R43 source.",
@@ -7191,7 +7191,7 @@
       "audit_ref": "INV-090",
       "element_id": null,
       "label": "💼 Business Workspace",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the Business Workspace, the separate area for managing independent projects, company contracts and jobs, and shared business controls.",
@@ -7289,7 +7289,7 @@
       "audit_ref": "INV-091",
       "element_id": null,
       "label": "📁 Projects",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the Projects hub inside Business Workspace, where you can create a new independent project or open the saved project list.",
@@ -7387,7 +7387,7 @@
       "audit_ref": "INV-092",
       "element_id": null,
       "label": "🏢 Company Contracts & Jobs",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the Company Contracts & Jobs hub for managing registered companies, their contracts and jobs, and company-job financial performance.",
