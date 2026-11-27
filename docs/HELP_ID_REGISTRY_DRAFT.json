@@ -6528,20 +6528,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Clears the current Contractor / Subcontractor form and returns it to the Add Contractor / Subcontractor state.",
+          "purpose": "Resets the Contractor / Subcontractor form to its blank Add Contractor / Subcontractor state.",
           "when": "Use this when discarding unsaved contractor details or preparing to enter a different contractor.",
-          "how": "In the Contractors form, select Clear. The ID, name, phone, email and notes/trade fields are emptied, and the form title returns to Add Contractor / Subcontractor.",
+          "how": "In the Contractors form, select Clear. The contractor ID, name, phone, email and notes/trade fields are emptied, and the title returns to Add Contractor / Subcontractor.",
           "inputs": "No input is required.",
-          "result": "The current contractor form is reset. No saved contractor record or existing project expense record is changed or deleted.",
-          "notes": "Unsaved form entries are discarded. This action does not remove a contractor already saved in the shared Contractors directory."
+          "result": "The contractor form is reset. No saved contractor directory entry or existing project expense record is changed or deleted.",
+          "notes": "Unsaved form values are discarded. A contractor already stored in the shared Contractors directory remains saved."
         },
         "fa": {
-          "purpose": "فرم Contractor / Subcontractor فعلی را پاک می‌کند و آن را به وضعیت Add Contractor / Subcontractor بازمی‌گرداند.",
+          "purpose": "فرم Contractor / Subcontractor را به وضعیت خالی Add Contractor / Subcontractor بازمی‌گرداند.",
           "when": "وقتی می‌خواهید اطلاعات ذخیره‌نشده پیمانکار را کنار بگذارید یا برای واردکردن پیمانکار دیگری آماده شوید، از این گزینه استفاده کنید.",
-          "how": "در فرم Contractors گزینه Clear را انتخاب کنید. فیلدهای شناسه، نام، تلفن، ایمیل و یادداشت/تخصص خالی می‌شوند و عنوان فرم به Add Contractor / Subcontractor بازمی‌گردد.",
+          "how": "در فرم Contractors گزینه Clear را انتخاب کنید. فیلدهای شناسه پیمانکار، نام، تلفن، ایمیل و یادداشت/تخصص پاک می‌شوند و عنوان فرم به Add Contractor / Subcontractor بازمی‌گردد.",
           "inputs": "ورودی لازم نیست.",
-          "result": "فرم فعلی پیمانکار بازنشانی می‌شود. هیچ سابقه پیمانکار ذخیره‌شده یا سابقه هزینه موجود در پروژه تغییر نمی‌کند یا حذف نمی‌شود.",
-          "notes": "اطلاعات ذخیره‌نشده فرم کنار گذاشته می‌شوند. این عملیات پیمانکاری را که قبلاً در فهرست مشترک Contractors ذخیره شده است حذف نمی‌کند."
+          "result": "فرم پیمانکار بازنشانی می‌شود. هیچ سابقه ذخیره‌شده در فهرست پیمانکاران یا سابقه هزینه موجود در پروژه تغییر نمی‌کند یا حذف نمی‌شود.",
+          "notes": "مقادیر ذخیره‌نشده فرم کنار گذاشته می‌شوند. پیمانکاری که قبلاً در فهرست مشترک Contractors ذخیره شده است، همچنان باقی می‌ماند."
         }
       },
       "handler_or_behavior": "`prResetContractor()`"
@@ -6554,20 +6554,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Creates a new worker record or updates an existing record in the shared Workers directory.",
-          "when": "Use this after entering a new worker's details or changing information for an existing worker.",
-          "how": "In Control Panel → Workers, enter the worker's name and any optional phone number or notes. Select Save Worker. After a successful save, the form resets and the Workers list refreshes.",
-          "inputs": "Worker name is required. Phone and notes are optional. When editing an existing worker, the saved worker ID identifies the record to update.",
-          "result": "After name validation and successful IndexedDB persistence, the worker record is saved or updated, the form is reset and the Workers list is refreshed. If the name is blank or saving fails, the record is not successfully saved.",
-          "notes": "Use the same saved worker record when recording wages across projects. Check for an existing worker before creating another record. Saving a worker directory record does not create a wage entry."
+          "purpose": "Creates a new worker record or updates an existing worker in the shared Workers directory.",
+          "when": "Use this after entering a new worker's details or changing the details of an existing worker.",
+          "how": "In Control Panel → Workers, enter the required worker name and any optional phone or notes. Select Save Worker. If IndexedDB persistence succeeds, the form resets, the Workers list refreshes and the partner/worker selectors are refreshed.",
+          "inputs": "Worker name is required. Phone and notes are optional. When editing, the saved worker ID identifies the record to update.",
+          "result": "The worker is added or updated after name validation and successful IndexedDB persistence. A blank name triggers an alert; a failed save does not complete the operation.",
+          "notes": "Use the saved worker record when recording wages across projects. Check for an existing worker before creating another record. Saving a worker directory entry does not create a wage record."
         },
         "fa": {
-          "purpose": "یک سابقه کارگر را در فهرست مشترک Workers ایجاد می‌کند یا سابقه موجود را به‌روزرسانی می‌کند.",
-          "when": "پس از واردکردن مشخصات کارگر جدید یا تغییر اطلاعات کارگر موجود از این گزینه استفاده کنید.",
-          "how": "در Control Panel → Workers، نام کارگر و در صورت نیاز شماره تلفن یا یادداشت را وارد کنید. Save Worker را انتخاب کنید. پس از ذخیره موفق، فرم بازنشانی و فهرست Workers به‌روزرسانی می‌شود.",
-          "inputs": "نام کارگر الزامی است. تلفن و یادداشت‌ها اختیاری هستند. هنگام ویرایش کارگر موجود، شناسه ذخیره‌شده کارگر مشخص می‌کند کدام سابقه به‌روزرسانی شود.",
-          "result": "پس از اعتبارسنجی نام و موفقیت ذخیره در IndexedDB، سابقه کارگر ذخیره یا به‌روزرسانی می‌شود، فرم بازنشانی و فهرست Workers تازه‌سازی می‌شود. اگر نام خالی باشد یا ذخیره شکست بخورد، سابقه با موفقیت ذخیره نمی‌شود.",
-          "notes": "برای ثبت دستمزد در پروژه‌های مختلف از همان سابقه ذخیره‌شده کارگر استفاده کنید. پیش از ایجاد سابقه جدید، وجود کارگر قبلی را بررسی کنید. ذخیره سابقه کارگر به‌تنهایی رکورد دستمزد ایجاد نمی‌کند."
+          "purpose": "یک سابقه کارگر جدید در فهرست مشترک Workers ایجاد می‌کند یا سابقه کارگر موجود را به‌روزرسانی می‌کند.",
+          "when": "پس از واردکردن مشخصات کارگر جدید یا تغییر مشخصات کارگر موجود از این گزینه استفاده کنید.",
+          "how": "در Control Panel → Workers، نام الزامی کارگر و در صورت نیاز تلفن یا یادداشت را وارد کنید. Save Worker را انتخاب کنید. اگر ذخیره در IndexedDB موفق باشد، فرم بازنشانی، فهرست Workers تازه‌سازی و انتخاب‌گرهای مرتبط نیز به‌روزرسانی می‌شوند.",
+          "inputs": "نام کارگر الزامی است. تلفن و یادداشت‌ها اختیاری هستند. هنگام ویرایش، شناسه ذخیره‌شده کارگر مشخص می‌کند کدام سابقه به‌روزرسانی شود.",
+          "result": "پس از اعتبارسنجی نام و ذخیره موفق در IndexedDB، سابقه کارگر افزوده یا به‌روزرسانی می‌شود. نام خالی پیام هشدار ایجاد می‌کند و شکست ذخیره مانع تکمیل عملیات است.",
+          "notes": "برای ثبت دستمزد در پروژه‌های مختلف از سابقه ذخیره‌شده همان کارگر استفاده کنید. پیش از ایجاد سابقه جدید، وجود کارگر قبلی را بررسی کنید. ذخیره سابقه کارگر در فهرست به‌تنهایی سابقه دستمزد ایجاد نمی‌کند."
         }
       },
       "handler_or_behavior": "`prSavePerson(`"
@@ -6580,20 +6580,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Clears the current Worker form and returns it to the Add Worker state.",
+          "purpose": "Resets the Worker form to its blank Add Worker state.",
           "when": "Use this when discarding unsaved worker details or preparing to enter a different worker.",
-          "how": "In the Workers form, select Clear. The worker ID, name, phone and notes fields are emptied, and the form title returns to Add Worker.",
+          "how": "In the Workers form, select Clear. The worker ID, name, phone and notes fields are emptied, and the title returns to Add Worker.",
           "inputs": "No input is required.",
-          "result": "The current worker form is reset. No saved worker or existing wage record is changed or deleted.",
-          "notes": "Unsaved form entries are discarded. This action does not delete a worker already saved in the shared Workers directory or remove wage records that refer to that worker."
+          "result": "The current Worker form is reset. No saved worker directory entry or existing wage record is changed or deleted.",
+          "notes": "Unsaved form values are discarded. This action does not delete a worker already saved in the shared Workers directory or remove wage records that refer to that worker."
         },
         "fa": {
-          "purpose": "فرم Worker فعلی را پاک می‌کند و آن را به وضعیت Add Worker بازمی‌گرداند.",
+          "purpose": "فرم Worker را به وضعیت خالی Add Worker بازمی‌گرداند.",
           "when": "وقتی می‌خواهید اطلاعات ذخیره‌نشده کارگر را کنار بگذارید یا برای واردکردن کارگر دیگری آماده شوید، از این گزینه استفاده کنید.",
-          "how": "در فرم Workers گزینه Clear را انتخاب کنید. فیلدهای شناسه کارگر، نام، تلفن و یادداشت خالی می‌شوند و عنوان فرم به Add Worker بازمی‌گردد.",
+          "how": "در فرم Workers گزینه Clear را انتخاب کنید. فیلدهای شناسه کارگر، نام، تلفن و یادداشت پاک می‌شوند و عنوان فرم به Add Worker بازمی‌گردد.",
           "inputs": "ورودی لازم نیست.",
-          "result": "فرم فعلی کارگر بازنشانی می‌شود. هیچ کارگر ذخیره‌شده یا سابقه دستمزد موجودی تغییر نمی‌کند یا حذف نمی‌شود.",
-          "notes": "اطلاعات ذخیره‌نشده فرم کنار گذاشته می‌شوند. این عملیات کارگری را که قبلاً در فهرست مشترک Workers ذخیره شده است حذف نمی‌کند و سوابق دستمزدی را که به او ارجاع می‌دهند نیز پاک نمی‌کند."
+          "result": "فرم Worker بازنشانی می‌شود. هیچ سابقه ذخیره‌شده کارگر یا سابقه دستمزد موجودی تغییر نمی‌کند یا حذف نمی‌شود.",
+          "notes": "مقادیر ذخیره‌نشده فرم کنار گذاشته می‌شوند. این عملیات کارگری را که قبلاً در فهرست مشترک Workers ذخیره شده است حذف نمی‌کند و سوابق دستمزدی مرتبط با او را نیز پاک نمی‌کند."
         }
       },
       "handler_or_behavior": "`prResetPerson(`"
@@ -6606,20 +6606,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the Partners directory from the Business Workspace Control Panel.",
-          "when": "Use this when reviewing, adding or editing shared partner records used in project profit-sharing arrangements.",
-          "how": "Open Business Workspace, select Control Panel, then select Partners. The Partners page provides the partner form and saved Partners List.",
-          "inputs": "No input is required to open the directory. To add or edit a partner, a name is required; phone, email and notes are optional.",
-          "result": "The Partners page opens with the Add/Edit Partner form and saved Partners List.",
-          "notes": "Saved partners can be selected in project profit-sharing forms. The directory Delete action permanently removes a partner from the shared directory after confirmation; existing project records may still refer to that partner. Despite the Control Panel explanatory text, the current delete handler does not deactivate the partner automatically when financial history exists."
+          "purpose": "Opens the shared Partners directory from the Business Workspace Control Panel.",
+          "when": "Use this when reviewing, adding or editing partner records that can be reused in project profit-sharing arrangements.",
+          "how": "Open Business Workspace, select Control Panel, then select Partners. The Partners page opens with the partner form and saved Partners List.",
+          "inputs": "No input is required to open the directory. A partner name is required when adding or editing a record; phone, email and notes are optional.",
+          "result": "The Partners page opens with the Add/Edit Partner form and the saved Partners List.",
+          "notes": "Saved partners can be selected in project profit-sharing forms. Deleting a partner from this directory requires confirmation and permanently removes the directory record; existing project records may still refer to it. The current delete handler does not automatically deactivate a partner when financial history exists, despite the explanatory text elsewhere in Control Panel."
         },
         "fa": {
-          "purpose": "فهرست Partners را از Control Panel در Business Workspace باز می‌کند.",
-          "when": "برای بررسی، افزودن یا ویرایش سوابق مشترک شرکا که در توافق‌های تقسیم سود پروژه استفاده می‌شوند، از این گزینه استفاده کنید.",
-          "how": "Business Workspace را باز کنید، Control Panel و سپس Partners را انتخاب کنید. صفحه Partners فرم شریک و فهرست ذخیره‌شده شرکا را ارائه می‌کند.",
-          "inputs": "برای بازکردن فهرست ورودی لازم نیست. برای افزودن یا ویرایش شریک، نام الزامی است؛ تلفن، ایمیل و یادداشت‌ها اختیاری هستند.",
-          "result": "صفحه Partners همراه با فرم افزودن/ویرایش شریک و فهرست ذخیره‌شده Partners باز می‌شود.",
-          "notes": "شرکای ذخیره‌شده را می‌توان در فرم تقسیم سود پروژه انتخاب کرد. گزینه Delete پس از تأیید، شریک را به‌طور دائمی از فهرست مشترک حذف می‌کند؛ ممکن است سوابق پروژه همچنان به او ارجاع داشته باشند. برخلاف متن توضیحی Control Panel، تابع حذف فعلی در صورت وجود سابقه مالی شریک را به‌طور خودکار غیرفعال نمی‌کند."
+          "purpose": "فهرست مشترک Partners را از Control Panel در Business Workspace باز می‌کند.",
+          "when": "برای بررسی، افزودن یا ویرایش سوابق شرکایی که می‌توان دوباره در توافق‌های تقسیم سود پروژه استفاده کرد، از این گزینه استفاده کنید.",
+          "how": "Business Workspace را باز کنید، Control Panel و سپس Partners را انتخاب کنید. صفحه Partners همراه با فرم شریک و فهرست ذخیره‌شده باز می‌شود.",
+          "inputs": "برای بازکردن فهرست ورودی لازم نیست. هنگام افزودن یا ویرایش سابقه، نام شریک الزامی است؛ تلفن، ایمیل و یادداشت‌ها اختیاری هستند.",
+          "result": "صفحه Partners همراه با فرم Add/Edit Partner و فهرست ذخیره‌شده شرکا باز می‌شود.",
+          "notes": "شرکای ذخیره‌شده را می‌توان در فرم تقسیم سود پروژه انتخاب کرد. حذف شریک از این فهرست به تأیید نیاز دارد و سابقه فهرست را به‌طور دائمی حذف می‌کند؛ سوابق پروژه ممکن است همچنان به آن ارجاع داشته باشند. برخلاف توضیح دیگری در Control Panel، تابع حذف فعلی در صورت وجود سابقه مالی شریک را به‌طور خودکار غیرفعال نمی‌کند."
         }
       },
       "handler_or_behavior": "`prPage(`"
@@ -6632,20 +6632,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the Workers directory from the Business Workspace Control Panel.",
-          "when": "Use this when reviewing, adding or editing shared worker records used for project wage entries.",
-          "how": "Open Business Workspace, select Control Panel, then select Workers. The Workers page provides the worker form and saved Workers List.",
-          "inputs": "No input is required to open the directory. To add or edit a worker, a name is required; phone and notes are optional.",
-          "result": "The Workers page opens with the Add/Edit Worker form and saved Workers List.",
-          "notes": "Saved workers can be selected when recording project wages. The directory Delete action permanently removes a worker from the shared directory after confirmation; existing project records may still refer to that worker. Despite the Control Panel explanatory text, the current delete handler does not deactivate the worker automatically when financial history exists."
+          "purpose": "Opens the shared Workers directory from the Business Workspace Control Panel.",
+          "when": "Use this when reviewing, adding or editing worker records used when assigning project wage entries.",
+          "how": "Open Business Workspace, select Control Panel, then select Workers. The Workers page opens with the worker form and saved Workers List.",
+          "inputs": "No input is required to open the directory. A worker name is required when adding or editing a record; phone and notes are optional.",
+          "result": "The Workers page opens with the Add/Edit Worker form and the saved Workers List.",
+          "notes": "Saved workers can be selected when recording project wages. Deleting a worker from this directory requires confirmation and permanently removes the directory record; existing project records may still refer to it. The current delete handler does not automatically deactivate a worker when financial history exists, despite the explanatory text elsewhere in Control Panel."
         },
         "fa": {
-          "purpose": "فهرست Workers را از Control Panel در Business Workspace باز می‌کند.",
-          "when": "برای بررسی، افزودن یا ویرایش سوابق مشترک کارگرانی که در ثبت دستمزد پروژه استفاده می‌شوند، از این گزینه استفاده کنید.",
-          "how": "Business Workspace را باز کنید، Control Panel و سپس Workers را انتخاب کنید. صفحه Workers فرم کارگر و فهرست ذخیره‌شده کارگران را ارائه می‌کند.",
-          "inputs": "برای بازکردن فهرست ورودی لازم نیست. برای افزودن یا ویرایش کارگر، نام الزامی است؛ تلفن و یادداشت‌ها اختیاری هستند.",
-          "result": "صفحه Workers همراه با فرم افزودن/ویرایش کارگر و فهرست ذخیره‌شده Workers باز می‌شود.",
-          "notes": "کارگران ذخیره‌شده را می‌توان هنگام ثبت دستمزد پروژه انتخاب کرد. گزینه Delete پس از تأیید، کارگر را به‌طور دائمی از فهرست مشترک حذف می‌کند؛ ممکن است سوابق پروژه همچنان به او ارجاع داشته باشند. برخلاف متن توضیحی Control Panel، تابع حذف فعلی در صورت وجود سابقه مالی کارگر را به‌طور خودکار غیرفعال نمی‌کند."
+          "purpose": "فهرست مشترک Workers را از Control Panel در Business Workspace باز می‌کند.",
+          "when": "برای بررسی، افزودن یا ویرایش سوابق کارگرانی که هنگام تخصیص دستمزد پروژه استفاده می‌شوند، از این گزینه استفاده کنید.",
+          "how": "Business Workspace را باز کنید، Control Panel و سپس Workers را انتخاب کنید. صفحه Workers همراه با فرم کارگر و فهرست ذخیره‌شده باز می‌شود.",
+          "inputs": "برای بازکردن فهرست ورودی لازم نیست. هنگام افزودن یا ویرایش سابقه، نام کارگر الزامی است؛ تلفن و یادداشت‌ها اختیاری هستند.",
+          "result": "صفحه Workers همراه با فرم Add/Edit Worker و فهرست ذخیره‌شده کارگران باز می‌شود.",
+          "notes": "کارگران ذخیره‌شده را می‌توان هنگام ثبت دستمزد پروژه انتخاب کرد. حذف کارگر از این فهرست به تأیید نیاز دارد و سابقه فهرست را به‌طور دائمی حذف می‌کند؛ سوابق پروژه ممکن است همچنان به آن ارجاع داشته باشند. برخلاف توضیح دیگری در Control Panel، تابع حذف فعلی در صورت وجود سابقه مالی کارگر را به‌طور خودکار غیرفعال نمی‌کند."
         }
       },
       "handler_or_behavior": "`prPage(`"
