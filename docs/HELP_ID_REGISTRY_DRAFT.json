@@ -10621,7 +10621,7 @@
       "audit_ref": "INV-126",
       "element_id": null,
       "label": "📊 Company Project Profit & Loss Review income, costs and results by company and job",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Displays Company Project Profit & Loss for all active companies or a selected active company and its jobs.",
@@ -10719,7 +10719,7 @@
       "audit_ref": "INV-127",
       "element_id": null,
       "label": "Save Company",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Validates the company name and saves the company form as a record in Company Contracts & Jobs.",
@@ -10817,7 +10817,7 @@
       "audit_ref": "INV-128",
       "element_id": null,
       "label": "Clear Form",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Resets the Add/Edit Company form, including the current attachment selection.",
@@ -10915,7 +10915,7 @@
       "audit_ref": "INV-129",
       "element_id": null,
       "label": "Save Job",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Creates a new job under the selected company or updates an existing job for that company.",
