@@ -184,3 +184,13 @@ Source review corrected the English and Persian text for nine Draft entries: THA
 - `THA-HLP-0072` Check for Updates remains excluded because the updater button is disabled in Preview. Four PDF controls remain in separate-document scope.
 - Version target: `THA-273-R11-PREVIEW-20261127-R63`. The Version Authority index/runtime pins and mapping baselines must match before Gate approval.
 - No customer, entry, invoice or receipt data was changed. Live browser testing, event isolation, language switching, mobile layout and iPhone Safari remain unverified.
+
+
+## R64 PDF popup Help bridges
+
+- Added four separate Help buttons to the two generated PDF popup documents: `THA-HLP-0133` Share PDF in the A4 preview, plus `THA-HLP-0134` Create PDF, `THA-HLP-0135` Download PDF and `THA-HLP-0136` Share PDF in the financial-report popup.
+- Each popup Help button calls `window.opener.THAHelpRuntime.open(helpId)` and returns focus to the main app. A fallback status message is shown if the opener/runtime is unavailable.
+- The Help button is independent of the PDF action; it does not invoke Create, Download or Share.
+- Total mapped Help IDs: 131 of 132 publishable entries (113 static, 14 dynamic-template and four PDF popup bridges). Check for Updates remains excluded because it is disabled in Preview.
+- Version target: `THA-273-R11-PREVIEW-20261127-R64`. Version Authority must pin the updated index/runtime assets before Gate approval.
+- Popup/opener behavior, PDF actions, language switching, mobile layout and iPhone Safari remain unverified. No Preview deployment or Production change.
