@@ -509,7 +509,7 @@
 
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
-- **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Fixed in Preview development; latest R45 Version Authority Gate PASS. Pages deployment and iPhone Safari verification remain pending.
+- **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Implemented on Preview development; the previous R45 Gate passed, then a final native-HTML fail-closed hardening was added. Gate for that last HTML change is pending. Pages deployment and iPhone Safari verification remain pending.
 - **عنوان و حوزه:** اتصال‌نداشتن کنترل‌های تبدیل پشتیبان، Snapshot اضطراری و بازیابی نهایی در Factory Reset؛ حوزه SEC / DB.
 - **علامت مشاهده‌شده:** در Settings → Factory Reset، با انتخاب `I Understand — Continue` دکمه `Reset and Restore All Data` از حالت مخفی خارج می‌شود و `disabled=false` می‌گیرد؛ با این حال تبدیل فایل پشتیبان، دانلود Snapshot اضطراری و اجرای Restore نهایی در سورس بررسی‌شده به کنترل‌های مربوط متصل نیستند.
 - **محیط / مرجع:** مخزن `Thehandymanjob/accountancy-r11-preview`؛ شاخه دائمی `development`؛ برنامه 273 / R11؛ Build هدف R45؛ فایل `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`؛ Git blob SHA فایل: `04d08676aba0bc6a3bbd7c8c55be5c447f00f9a7`.
@@ -530,3 +530,6 @@
 - **Preview Pages / Safari:** Pages deploy انجام نشده است؛ PR #96 همچنان Draft است تا کار جداگانه Help ID registry کامل شود. تست iPhone Safari انجام نشده و فقط پس از Deploy مجاز انجام می‌شود. هیچ Reset واقعی در تست Safari اجرا نشود.
 - **Production:** بدون تغییر؛ هیچ مجوز ارتقا وجود ندارد.
 
+
+
+- **تکمیل hardening نهایی HTML:** مقدار `disabled` دکمه نهایی در هر دو تابع قدیمی `openFactoryReset()` و `factoryResetNextStep()` روی `true` تنظیم شد. بنابراین حتی اگر فایل محافظ JavaScript بارگذاری نشود، UI نباید دکمه نهایی را فعال نشان دهد. SHA فایل index و pin مربوط در `VERSION-AUTHORITY.json` هم‌زمان به‌روزرسانی شد. Gate قبلی R45 پیش از این تغییر موفق بود؛ Gate تازه برای commit نهایی لازم است و هنوز تأیید نشده است. هیچ Deploy یا Reset واقعی اجرا نشد.
