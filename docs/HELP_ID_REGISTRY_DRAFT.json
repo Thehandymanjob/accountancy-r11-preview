@@ -4847,7 +4847,7 @@
           "how": "Keep this help entry unpublished. Do not select the button expecting a snapshot; first confirm that the handler exists in the deployed source and test its output.",
           "inputs": "No verified input requirements are available because the handler is not implemented in the inspected source.",
           "result": "No snapshot result can be confirmed in the inspected R43 build. The button references a missing function.",
-          "notes": "AUDIT PENDING: this control appears in the interface, but its runtime action is not available in the inspected source. Do not mark complete or claim that a snapshot was created."
+          "notes": "AUDIT BLOCKER: the existing registry status is retained in this pass, but the runtime handler is missing from the inspected R43 source. Do not publish or rely on this guide until the handler is restored and the status is reviewed."
         },
         "fa": {
           "purpose": "یک Snapshot از داده‌های حسابداری در لایه ذخیره‌سازی IndexedDB ایجاد می‌کند.",
@@ -16868,12 +16868,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open the control identified by this inventory entry only after its visible label and behavior are confirmed.",
-          "when": "Use this when you need to open the control identified by this inventory entry only after its visible label and behavior are confirmed.",
-          "how": "The inventory does not contain a reliable static label or handler for this entry. Do not rely on it as a user-facing action until the source control is inspected.",
-          "inputs": "Select the correct record or item affected by this action, and provide any additional information requested by the app.",
-          "result": "No verified runtime result is available. Keep this help entry unpublished until the source control and its action are identified.",
-          "notes": "This is a pending audit item, not verified button guidance. The runtime attachment point must be identified before publishing help."
+          "purpose": "Pending audit: this inventory item resolves to a hidden placeholder button in the monitoring event modal, not a verified user-facing control.",
+          "when": "There is no verified user workflow for this placeholder in the inspected R43 build.",
+          "how": "Do not present or use this placeholder as an action. Identify the intended visible control and its real handler before writing help.",
+          "inputs": "No verified user input is associated with this hidden placeholder.",
+          "result": "No user-facing runtime result is available. The source creates this button with display:none and its GenUINotUsed handler is not implemented.",
+          "notes": "AUDIT PENDING: this is an inventory placeholder, not a publishable help topic. Keep it as draft until the inventory is corrected or a real control is implemented."
         },
         "fa": {
           "purpose": "این کنترل را فقط پس از تأیید متن و رفتار قابل مشاهده آن در فهرست ممیزی باز کنید.",
