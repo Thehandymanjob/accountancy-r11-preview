@@ -11642,7 +11642,7 @@
           "when": "وقتی لازم است فایلی را که به سابقه شرکت یا کار انتخاب‌شده پیوست شده باز کنید، از این گزینه استفاده کنید.",
           "how": "آیکون پیوست را در ردیف درست انتخاب کنید تا فایل مرتبط باز شود.",
           "inputs": "سابقه درست شرکت یا کار را انتخاب کنید و نام فایل پیوست‌شده را بررسی کنید.",
-          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "result": "فایل پیوست‌شده به سابقه شرکت یا کار انتخاب‌شده باز می‌شود؛ خود سابقه تغییر نمی‌کند.",
           "notes": "پیش از باز کردن یا ارسال فایل، ردیف و نام فایل را بررسی کنید."
         },
         "ar": {
@@ -11740,7 +11740,7 @@
           "when": "وقتی لازم است سند پشتیبان مربوط به بسته کاری انتخاب‌شده را بررسی کنید، از این گزینه استفاده کنید.",
           "how": "نام فایل پیوست را انتخاب کنید تا فایل ذخیره‌شده در مرورگر یا دستگاه باز شود.",
           "inputs": "بسته کاری درست را انتخاب کنید و پیش از باز کردن نام پیوست را بررسی کنید.",
-          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "result": "فایل پشتیبان پیوست‌شده به بسته کاری انتخاب‌شده باز می‌شود؛ اطلاعات بسته تغییر نمی‌کند.",
           "notes": "پیوست مدرک پشتیبان است؛ باز کردن آن تغییرات بسته کاری را ذخیره نمی‌کند."
         },
         "ar": {
@@ -11830,7 +11830,7 @@
           "when": "Use this control when you need to update the details of an existing work package.",
           "how": "Choose Edit for the intended package, check its job association and details, then save the changes.",
           "inputs": "Select the correct work package within the correct job and review the fields you intend to edit.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "result": "The selected work package is loaded for editing; its saved details change only after a successful save.",
           "notes": "Make sure you are editing the correct package within the correct job."
         },
         "fa": {
@@ -11838,7 +11838,7 @@
           "when": "وقتی لازم است جزئیات یک بسته کاری موجود را به‌روزرسانی کنید، از این گزینه استفاده کنید.",
           "how": "برای بسته موردنظر Edit را انتخاب کنید، ارتباط آن با کار اصلی و جزئیات را بررسی و تغییرات را ذخیره کنید.",
           "inputs": "بسته کاری درست را درون کار درست انتخاب کنید و فیلدهایی را که می‌خواهید ویرایش کنید بررسی کنید.",
-          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "result": "بسته کاری انتخاب‌شده برای ویرایش باز می‌شود؛ جزئیات ذخیره‌شده آن فقط پس از ذخیره موفق تغییر می‌کند.",
           "notes": "مطمئن شوید بسته درست را درون کار صحیح ویرایش می‌کنید."
         },
         "ar": {
@@ -11936,7 +11936,7 @@
           "when": "وقتی می‌خواهید درآمد، هزینه‌ها یا خلاصه مالی ثبت‌شده بسته کاری را بررسی کنید، از این گزینه استفاده کنید.",
           "how": "گزینه Financials را انتخاب کنید تا درآمدها، هزینه‌ها یا خلاصه مالی بسته نمایش داده شود.",
           "inputs": "بسته کاری یا نمای درست را انتخاب کنید؛ فقط در صورت درخواست برنامه جزئیات اضافی وارد کنید.",
-          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "result": "نمای مالی بسته کاری انتخاب‌شده باز می‌شود و درآمدها، هزینه‌ها و خلاصه مالی ثبت‌شده آن را نشان می‌دهد.",
           "notes": "مبالغ نمایش‌داده‌شده را ارقام فضای کاری بدانید و پیش از اتکا با مدارک اصلی تطبیق دهید."
         },
         "ar": {
@@ -12026,7 +12026,7 @@
           "when": "Use this control only when the work package is no longer needed and its linked records have been checked.",
           "how": "Choose Delete for the intended package and read the confirmation prompt.",
           "inputs": "Select the correct work package and check its linked job, expenses, attachments and payment history.",
-          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "result": "The selected work package is removed from the job after confirmation and successful data persistence.",
           "notes": "Deletion may remove access to package-level details. Check linked expenses, attachments and payment history first."
         },
         "fa": {
@@ -12034,7 +12034,7 @@
           "when": "فقط وقتی بسته کاری دیگر لازم نیست و سوابق مرتبط آن بررسی شده‌اند، از این گزینه استفاده کنید.",
           "how": "برای بسته موردنظر Delete را انتخاب کنید و پیام تأیید را بخوانید.",
           "inputs": "بسته کاری درست را انتخاب کنید و کار مرتبط، هزینه‌ها، پیوست‌ها و تاریخچه پرداخت آن را بررسی کنید.",
-          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "result": "پس از تأیید و ذخیره موفق اطلاعات، بسته کاری انتخاب‌شده از کار مربوط حذف می‌شود.",
           "notes": "حذف ممکن است دسترسی به جزئیات بسته را از بین ببرد. هزینه‌ها، پیوست‌ها و سوابق پرداخت مرتبط را بررسی کنید."
         },
         "ar": {
@@ -12132,7 +12132,7 @@
           "when": "وقتی لازم است مدرک پشتیبان هزینه ثبت‌شده برای بسته کاری انتخاب‌شده را بررسی کنید، از این گزینه استفاده کنید.",
           "how": "نام پیوست را در ردیف هزینه انتخاب کنید تا فایل پشتیبان باز شود.",
           "inputs": "هزینه درست را انتخاب کنید و نام فایل پیوست‌شده را بررسی کنید.",
-          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "result": "فایل پشتیبان پیوست‌شده به هزینه انتخاب‌شده در بسته کاری باز می‌شود.",
           "notes": "پیش از استناد به فایل به‌عنوان مدرک، مطمئن شوید متعلق به همان هزینه است."
         },
         "ar": {
@@ -12222,7 +12222,7 @@
           "when": "Use this control only when the expense record is a duplicate or an entry error that needs correction.",
           "how": "Choose Delete on the intended expense and review the confirmation prompt.",
           "inputs": "Select the correct expense and review its details before confirming deletion.",
-          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "result": "The selected expense is removed from the work package after confirmation and successful data persistence.",
           "notes": "This removes a cost record from the package view. Confirm it is a duplicate or error and retain any required accounting evidence."
         },
         "fa": {
@@ -12230,7 +12230,7 @@
           "when": "فقط وقتی سابقه هزینه تکراری یا اشتباه ثبت شده و باید اصلاح شود، از این گزینه استفاده کنید.",
           "how": "در ردیف هزینه موردنظر Delete را انتخاب کنید و پیام تأیید را بررسی کنید.",
           "inputs": "هزینه درست را انتخاب کنید و پیش از تأیید حذف، جزئیات آن را بررسی کنید.",
-          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "result": "پس از تأیید و ذخیره موفق اطلاعات، هزینه انتخاب‌شده از بسته کاری حذف می‌شود.",
           "notes": "این کار رکورد هزینه را از نمای بسته حذف می‌کند. فقط در صورت تکراری یا اشتباه بودن آن اقدام کنید و مدارک حسابداری را نگه دارید."
         },
         "ar": {
@@ -12328,7 +12328,7 @@
           "when": "وقتی لازم است فایل ذخیره‌شده و پیوست‌شده به سابقه فعلی را مشاهده کنید، از این گزینه استفاده کنید.",
           "how": "گزینه Open را در کنار پیوست انتخاب کنید تا فایل ذخیره‌شده نمایش داده شود.",
           "inputs": "پیوست موردنظر را انتخاب کنید و نام و محتوای فایل را بررسی کنید.",
-          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "result": "فایل پیوست‌شده به رکورد انتخاب‌شده باز می‌شود و خود رکورد بدون تغییر باقی می‌ماند.",
           "notes": "باز کردن فایل رکورد را تغییر نمی‌دهد. نام و محتوای فایل را بررسی کنید."
         },
         "ar": {
@@ -12418,7 +12418,7 @@
           "when": "Use this control when you no longer want the file associated with the current item.",
           "how": "Choose Remove beside the attachment you no longer want associated with the current item.",
           "inputs": "Select the correct attachment and verify the file before removing it.",
-          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "result": "The selected attachment is removed from the current form or item; the underlying job or expense is not deleted.",
           "notes": "Check that the correct file is selected. Removing an attachment is different from deleting the underlying job or expense."
         },
         "fa": {
@@ -12426,7 +12426,7 @@
           "when": "وقتی دیگر نمی‌خواهید فایل به مورد فعلی مرتبط باشد، از این گزینه استفاده کنید.",
           "how": "در کنار پیوستی که دیگر نمی‌خواهید به مورد فعلی متصل باشد، Remove را انتخاب کنید.",
           "inputs": "پیوست درست را انتخاب کنید و پیش از برداشتن آن فایل را بررسی کنید.",
-          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "result": "پیوست انتخاب‌شده از فرم یا مورد فعلی جدا می‌شود؛ خود کار یا هزینه اصلی حذف نمی‌شود.",
           "notes": "مطمئن شوید فایل درست را انتخاب کرده‌اید. حذف پیوست با حذف کار یا هزینه اصلی متفاوت است."
         },
         "ar": {
@@ -12516,7 +12516,7 @@
           "when": "Use this control after editing and reviewing the sub-project details, when you are ready to save the update.",
           "how": "After reviewing the edited sub-project details, select Save Changes to commit the update.",
           "inputs": "Select the correct sub-project and review the parent project information and edited details before saving.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "result": "The edited sub-project details are saved to the selected project if validation and persistence succeed.",
           "notes": "Check the parent project and sub-project details before saving; do not leave the form until the save result is shown."
         },
         "fa": {
@@ -12524,7 +12524,7 @@
           "when": "پس از ویرایش و بررسی جزئیات زیرپروژه، وقتی آماده ذخیره به‌روزرسانی هستید، از این گزینه استفاده کنید.",
           "how": "پس از بررسی جزئیات زیرپروژه، Save Changes را انتخاب کنید تا تغییرات ثبت شوند.",
           "inputs": "زیرپروژه درست را انتخاب کنید و پیش از ذخیره، اطلاعات پروژه والد و جزئیات ویرایش‌شده را بررسی کنید.",
-          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "result": "در صورت موفقیت اعتبارسنجی و ذخیره اطلاعات، جزئیات ویرایش‌شده زیرپروژه در پروژه انتخاب‌شده ذخیره می‌شود.",
           "notes": "پیش از ذخیره، پروژه والد و جزئیات زیرپروژه را بررسی کنید و تا نمایش نتیجه ذخیره از فرم خارج نشوید."
         },
         "ar": {
@@ -12614,7 +12614,7 @@
           "when": "Use this control when you need to correct or update an existing cost in the project's consolidated cost list.",
           "how": "Choose Edit beside the intended cost, review its amount, date, category and source details, then save.",
           "inputs": "Select the correct cost record and review the amount, date, category and source.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "result": "The selected cost is loaded into the edit form; the consolidated cost record changes only after it is saved.",
           "notes": "Ensure the cost is not already represented elsewhere before changing it; avoid double counting."
         },
         "fa": {
@@ -12622,7 +12622,7 @@
           "when": "وقتی لازم است هزینه‌ای موجود را در فهرست یکپارچه هزینه‌های پروژه اصلاح یا به‌روزرسانی کنید، از این گزینه استفاده کنید.",
           "how": "در کنار هزینه موردنظر Edit را انتخاب کنید، مبلغ، تاریخ، دسته‌بندی و منبع را بررسی و سپس ذخیره کنید.",
           "inputs": "سابقه درست هزینه را انتخاب کنید و فیلدهای مبلغ، تاریخ، دسته‌بندی و منبع را بررسی کنید.",
-          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "result": "هزینه انتخاب‌شده در فرم ویرایش بارگذاری می‌شود؛ رکورد هزینه یکپارچه فقط پس از ذخیره تغییر می‌کند.",
           "notes": "مطمئن شوید هزینه در بخش دیگری دوباره ثبت نشده باشد تا دوباره‌شماری رخ ندهد."
         },
         "ar": {
@@ -12712,7 +12712,7 @@
           "when": "Use this control only when a cost record is a duplicate or an entry error that should be removed after checking.",
           "how": "Choose Delete on the correct cost and confirm only after checking its details.",
           "inputs": "Select the correct cost record and verify its amount and source before confirming deletion.",
-          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "result": "The selected cost is removed from the consolidated project cost list after confirmation and successful saving.",
           "notes": "Deletion can change project totals. Verify the record and retain source evidence before removing it."
         },
         "fa": {
@@ -12720,7 +12720,7 @@
           "when": "فقط وقتی سابقه هزینه تکراری یا اشتباه است و پس از بررسی باید حذف شود، از این گزینه استفاده کنید.",
           "how": "در ردیف هزینه درست Delete را انتخاب کنید و فقط پس از بررسی جزئیات تأیید کنید.",
           "inputs": "سابقه درست هزینه را انتخاب کنید و پیش از تأیید حذف، مبلغ و منبع را بررسی کنید.",
-          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "result": "پس از تأیید و ذخیره موفق، هزینه انتخاب‌شده از فهرست یکپارچه هزینه‌های پروژه حذف می‌شود.",
           "notes": "حذف می‌تواند جمع هزینه‌های پروژه را تغییر دهد. پیش از حذف، رکورد و مدرک اصلی را بررسی کنید."
         },
         "ar": {
@@ -12810,7 +12810,7 @@
           "when": "Use this control when you need a PDF copy of the selected sub-project report for printing or saving.",
           "how": "Select Print / Save PDF and inspect the report preview and print options.",
           "inputs": "Select the intended sub-project and reporting period, then check the totals before creating the file.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "result": "A PDF preview of the selected sub-project financial report is prepared for printing or saving; project records are not changed.",
           "notes": "Check the selected sub-project, reporting period and totals. This creates an output document; it does not submit data externally."
         },
         "fa": {
@@ -12818,7 +12818,7 @@
           "when": "وقتی به نسخه PDF قابل چاپ یا ذخیره از گزارش زیرپروژه انتخاب‌شده نیاز دارید، از این گزینه استفاده کنید.",
           "how": "گزینه Print / Save PDF را انتخاب کنید و پیش‌نمایش و تنظیمات چاپ را بررسی کنید.",
           "inputs": "زیرپروژه درست و دوره گزارش را انتخاب کنید و پیش از ایجاد فایل، جمع مبالغ را بررسی کنید.",
-          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "result": "پیش‌نمایش PDF گزارش مالی زیرپروژه انتخاب‌شده برای چاپ یا ذخیره آماده می‌شود؛ سوابق پروژه تغییر نمی‌کنند.",
           "notes": "زیرپروژه، دوره گزارش و مبالغ را بررسی کنید. این کار فایل خروجی می‌سازد و اطلاعات را به مرجع خارجی ارسال نمی‌کند."
         },
         "ar": {
@@ -12908,7 +12908,7 @@
           "when": "Use this control when you need a PDF copy of the selected sub-project report for printing or saving.",
           "how": "Select Print / Save PDF and inspect the report preview and print options.",
           "inputs": "Select the intended sub-project and reporting period, then check the totals before creating the file.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "result": "A PDF preview of the selected sub-project financial report is prepared for printing or saving; project records are not changed.",
           "notes": "Check the selected sub-project, reporting period and totals. This creates an output document; it does not submit data externally."
         },
         "fa": {
@@ -12916,7 +12916,7 @@
           "when": "وقتی به نسخه PDF قابل چاپ یا ذخیره از گزارش زیرپروژه انتخاب‌شده نیاز دارید، از این گزینه استفاده کنید.",
           "how": "گزینه Print / Save PDF را انتخاب کنید و پیش‌نمایش و تنظیمات چاپ را بررسی کنید.",
           "inputs": "زیرپروژه درست و دوره گزارش را انتخاب کنید و پیش از ایجاد فایل، جمع مبالغ را بررسی کنید.",
-          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "result": "پیش‌نمایش PDF گزارش مالی زیرپروژه انتخاب‌شده برای چاپ یا ذخیره آماده می‌شود؛ سوابق پروژه تغییر نمی‌کنند.",
           "notes": "زیرپروژه، دوره گزارش و مبالغ را بررسی کنید. این کار فایل خروجی می‌سازد و اطلاعات را به مرجع خارجی ارسال نمی‌کند."
         },
         "ar": {
@@ -13014,7 +13014,7 @@
           "when": "وقتی می‌خواهید عکسی را به رسید یا هزینه مرتبط با پروژه پیوست کنید، از این گزینه استفاده کنید.",
           "how": "Take a Photo را انتخاب کنید و از دوربین یا انتخاب‌گر فایل دستگاه استفاده کنید؛ سپس تصویر را بررسی کنید.",
           "inputs": "سابقه درست پروژه یا هزینه را انتخاب کنید و عکس رسید مرتبط را آماده کنید.",
-          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "result": "عکس گرفته‌شده یا انتخاب‌شده به‌عنوان تصویر رسید یا هزینه پروژه فعلی برای پیوست‌کردن آماده می‌شود.",
           "notes": "دسترسی دوربین به مجوز دستگاه بستگی دارد. رسید مرتبط را واضح عکاسی کنید و اطلاعات شخصی نامرتبط را وارد تصویر نکنید."
         },
         "ar": {
@@ -13104,7 +13104,7 @@
           "when": "Use this control when you want to remove the current receipt photo from the project form.",
           "how": "Select Remove photo to clear the receipt image from the current project form.",
           "inputs": "Select the correct project form and check the currently selected receipt image.",
-          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "result": "The project receipt photo is cleared from the current form; other project data and saved records are not deleted by this control.",
           "notes": "This removes the current photo attachment/preview; check that you have another copy if it is needed as evidence."
         },
         "fa": {
@@ -13112,7 +13112,7 @@
           "when": "وقتی می‌خواهید عکس رسید فعلی را از فرم پروژه پاک کنید، از این گزینه استفاده کنید.",
           "how": "گزینه Remove photo را انتخاب کنید تا تصویر رسید از فرم فعلی پاک شود.",
           "inputs": "فرم درست پروژه را انتخاب کنید و عکس رسید انتخاب‌شده را بررسی کنید.",
-          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "result": "عکس رسید پروژه از فرم فعلی برداشته می‌شود؛ این گزینه سایر اطلاعات پروژه یا سوابق ذخیره‌شده را حذف نمی‌کند.",
           "notes": "این کار عکس یا پیش‌نمایش فعلی را حذف می‌کند؛ اگر به‌عنوان مدرک لازم است نسخه دیگری نگه دارید."
         },
         "ar": {
@@ -13202,7 +13202,7 @@
           "when": "Use this control after entering and checking the details of a project income receipt or expense.",
           "how": "Complete the relevant fields, verify whether the form is for income or an expense, then select its Save Receipt or Save Expense action.",
           "inputs": "Select the correct record type and enter the date, amount, category and required details.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "result": "The current sub-project income receipt or expense is saved to the matching list if the required fields pass validation and saving succeeds.",
           "notes": "Check date, amount, category and supporting details. Record income only when it has actually been received."
         },
         "fa": {
@@ -13210,7 +13210,7 @@
           "when": "پس از واردکردن و بررسی اطلاعات رسید درآمد یا هزینه پروژه، از این گزینه استفاده کنید.",
           "how": "فیلدهای لازم را تکمیل کنید، مشخص کنید فرم برای درآمد است یا هزینه، سپس Save Receipt یا Save Expense را انتخاب کنید.",
           "inputs": "نوع درست سابقه را انتخاب کنید و تاریخ، مبلغ، دسته‌بندی و جزئیات لازم را وارد کنید.",
-          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "result": "در صورت تکمیل فیلدهای لازم و موفقیت اعتبارسنجی و ذخیره، رسید درآمد یا هزینه فعلی در فهرست مربوط به زیرپروژه ثبت می‌شود.",
           "notes": "تاریخ، مبلغ، دسته‌بندی و جزئیات را بررسی کنید. درآمد را فقط پس از دریافت واقعی وجه ثبت کنید."
         },
         "ar": {
@@ -13308,7 +13308,7 @@
           "when": "وقتی می‌خواهید فرم ثبت‌نشده فعلی درآمد یا هزینه را بازنشانی کنید، از این گزینه استفاده کنید.",
           "how": "گزینه Clear را انتخاب کنید تا فرم ثبت‌نشده درآمد یا هزینه بازنشانی شود.",
           "inputs": "فیلدهای فعلی را بررسی کنید و مطمئن شوید به اطلاعات ذخیره‌نشده نیاز ندارید.",
-          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "result": "فیلدهای فرم فعلی درآمد یا هزینه پاک می‌شوند؛ سوابق ذخیره‌شده قبلی زیرپروژه باقی می‌مانند.",
           "notes": "پاک کردن فرم، رکوردهای ذخیره‌شده قبلی را حذف نمی‌کند. پیش از پاک‌کردن مطمئن شوید اطلاعات ثبت‌نشده را لازم ندارید."
         },
         "ar": {
@@ -13406,7 +13406,7 @@
           "when": "وقتی لازم است سند رسید پرداخت مشتری ثبت‌شده برای پروژه را مشاهده کنید، از این گزینه استفاده کنید.",
           "how": "در ردیف پرداخت مربوط، Customer receipt را انتخاب کنید تا سند رسید نمایش داده شود.",
           "inputs": "پرداخت مشتری درست را انتخاب کنید و مشتری، مبلغ و تاریخ را بررسی کنید.",
-          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
+          "result": "سند رسید پرداخت مشتری انتخاب‌شده برای مشاهده یا چاپ باز می‌شود.",
           "notes": "نام مشتری، مبلغ و تاریخ را بررسی کنید. رسید باید نشان‌دهنده وجهی باشد که واقعاً دریافت شده است."
         },
         "ar": {
@@ -13496,7 +13496,7 @@
           "when": "Use this control when you need to correct or update a saved project income or expense entry.",
           "how": "Choose Edit beside the intended income or expense row, amend the required details and save.",
           "inputs": "Select the correct finance entry and verify its type and amount before editing.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "result": "The selected income or expense entry is loaded for editing; the saved entry changes only after the edited details are saved.",
           "notes": "Confirm the record type and amount; changing a project entry can affect project totals."
         },
         "fa": {
@@ -13504,7 +13504,7 @@
           "when": "وقتی لازم است سابقه درآمد یا هزینه ذخیره‌شده پروژه را اصلاح یا به‌روزرسانی کنید، از این گزینه استفاده کنید.",
           "how": "در ردیف درآمد یا هزینه موردنظر Edit را انتخاب کنید، جزئیات لازم را تغییر دهید و ذخیره کنید.",
           "inputs": "سابقه مالی درست را انتخاب کنید و پیش از ویرایش نوع و مبلغ آن را بررسی کنید.",
-          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "result": "رکورد درآمد یا هزینه انتخاب‌شده برای ویرایش باز می‌شود؛ اطلاعات ذخیره‌شده فقط پس از ذخیره جزئیات ویرایش‌شده تغییر می‌کند.",
           "notes": "نوع رکورد و مبلغ را بررسی کنید؛ ویرایش می‌تواند جمع‌های مالی پروژه را تغییر دهد."
         },
         "ar": {
@@ -13594,7 +13594,7 @@
           "when": "Use this control only when a saved project finance entry is duplicated or incorrect and needs to be removed.",
           "how": "Choose Delete on the intended row and review the confirmation prompt before proceeding.",
           "inputs": "Select the correct finance entry and check its type, amount and source.",
-          "result": "The entry is removed or deactivated only if the app accepts and confirms the action.",
+          "result": "The selected sub-project income or expense entry is removed after confirmation and successful saving.",
           "notes": "Deletion can change project financial totals. Verify that the entry is wrong or duplicated and retain required evidence."
         },
         "fa": {
@@ -13602,7 +13602,7 @@
           "when": "فقط وقتی یک ثبت مالی ذخیره‌شده در پروژه تکراری یا اشتباه است و باید حذف شود، از این گزینه استفاده کنید.",
           "how": "در ردیف موردنظر Delete را انتخاب کنید و پیش از ادامه پیام تأیید را بررسی کنید.",
           "inputs": "ثبت مالی درست را انتخاب کنید و نوع، مبلغ و منبع آن را بررسی کنید.",
-          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "result": "پس از تأیید و ذخیره موفق، رکورد درآمد یا هزینه انتخاب‌شده از سوابق زیرپروژه حذف می‌شود.",
           "notes": "حذف ممکن است جمع مالی پروژه را تغییر دهد. از اشتباه یا تکراری بودن ثبت مطمئن شوید و مدارک لازم را نگه دارید."
         },
         "ar": {
@@ -15562,7 +15562,7 @@
           "when": "فقط وقتی سابقه پروژه تکراری یا اشتباه است و پس از بررسی باید حذف شود، از این گزینه استفاده کنید.",
           "how": "در کنار ردیف موردنظر Delete را انتخاب کنید و پیام تأیید را بررسی کنید.",
           "inputs": "سابقه درست پروژه را انتخاب کنید و پیش از تأیید حذف جزئیات آن را بررسی کنید.",
-          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "result": "پس از تأیید و ذخیره موفق، رکورد پروژه انتخاب‌شده از فهرست سوابق پروژه حذف می‌شود.",
           "notes": "حذف ممکن است بر جمع و سوابق پروژه اثر بگذارد. پیش از اقدام، رکورد و مدارک لازم را بررسی کنید."
         },
         "ar": {
@@ -16052,7 +16052,7 @@
           "when": "فقط وقتی شخص دیگر در فهرست لازم نیست و ارتباط‌های تاریخی او بررسی شده‌اند، از این گزینه استفاده کنید.",
           "how": "در کنار فرد موردنظر Delete را انتخاب کنید و پیام تأیید را بخوانید.",
           "inputs": "سابقه درست شخص را انتخاب کنید و هویت و ارتباط آن با کارها یا پرداخت‌های قبلی را بررسی کنید.",
-          "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
+          "result": "پس از تأیید و ذخیره موفق، شخص انتخاب‌شده از فهرست کارگران یا افراد پروژه حذف می‌شود؛ سوابق حسابداری مرتبط را جداگانه بررسی کنید.",
           "notes": "ارتباط فرد با کارها و پرداخت‌های قبلی را بررسی کنید و سوابق موردنیاز حسابرسی و حسابداری را نگه دارید."
         },
         "ar": {
