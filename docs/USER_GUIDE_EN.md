@@ -116,7 +116,7 @@ Keep the original receipt or invoice outside the application as well where requi
 ## 4. Records, Customers and Invoices
 
 ### Review saved records
-1. Open **Records****.
+1. Open **Records**.
 2. Use **Search records** to search by category, notes or amount.
 3. Use **Filter by type** to show All records, Income, Expense or Invoices.
 4. Review the record number, date, type, category, amount and reference/notes.
@@ -155,8 +155,6 @@ The current invoice editor supports up to **four separately priced work items**.
 
 When an issued invoice is marked paid, the application records the paid invoice as income in Accountancy. Check the linked income record before entering any separate receipt, otherwise you may duplicate the income.
 
-Where the application links a paid invoice to an Accountancy income entry, check the resulting record and avoid entering the same receipt a second time.
-
 ### Print or PDF
 Use the invoice's available preview/print/PDF workflow. Before sharing:
 - Confirm customer and work details.
@@ -178,7 +176,7 @@ Use the invoice's available preview/print/PDF workflow. Before sharing:
 
 A report is only as accurate as the records and filters used to prepare it. Confirm that the period and included record types are correct before relying on the result.
 
-The report area also includes a **Notifications inbox** (Unread, All or Read), **Tax calendar** and **Accountant email** settings. The calendar offers calendar quarters (1 April–31 March accounting year) or standard HMRC periods ending 5 July, 5 October, 5 January and 5 April. Confirm the correct mode for your setup. The report workflow offers **Confirm records complete** and **Check reminders now**; after confirmation, the app says it will remind you to review after 10 days. The tax calendar offers calendar-quarter and standard HMRC-period modes; confirm the correct mode for your own tax arrangement before relying on dates. Reminders are checked when the app is opened; push notifications while it is closed are not guaranteed. The accountant-email screen currently states that email sending is not connected: saving recipient details does not send an email.
+The report area also includes a **Notifications inbox** (Unread, All or Read), **Tax calendar** and **Accountant email** settings. The calendar offers calendar quarters (1 April–31 March accounting year) or standard HMRC periods ending 5 July, 5 October, 5 January and 5 April. Confirm the correct mode for your setup. The report workflow offers **Confirm records complete** and **Check reminders now**; after confirmation, the app says it will remind you to review after 10 days. Reminders are checked when the app is opened; push notifications while it is closed are not guaranteed. The accountant-email screen currently states that email sending is not connected: saving recipient details does not send an email.
 
 ### Tax information and calendar
 Use the tax-related screens and reminders to organise information and keep track of dates. They are planning and record-keeping tools.
@@ -356,7 +354,6 @@ The contract editor includes **Document type** choices for **Contract** and **Qu
 
 The contract printout uses the business name and logo saved in **Settings → Profile & Logo**. If those details are wrong, correct the profile before generating the final document.
 
-If a writing assistant is used to prepare wording, treat its output as a draft. Check that it reflects the actual agreement and applicable requirements before sending or signing.
 
 ### Amendments
 Do not silently overwrite an agreed contract in a way that hides what changed. Follow the available edit/version process and keep a separate record of material variations or approvals where appropriate.
