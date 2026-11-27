@@ -2,8 +2,8 @@
 
 **وضعیت:** ممیزی اولیه؛ Help Registry اجرایی هنوز ساخته نشده است. این سند فهرست کنترل است، نه مجوز انتشار.
 **مخزن/شاخه:** `Thehandymanjob/accountancy-r11-preview` / `development`
-**Build مبنا:** `THA-273-R11-PREVIEW-20261126-R43`
-**Index blob SHA مبنا:** `104766171ee9ad519ec8be36126f04f0dde24a5c`
+**Build مبنا:** `THA-273-R11-PREVIEW-20261127-R45`
+**Index blob SHA مبنا:** `e58a0c7895cf639c36e69c28696ebfd3bd262bef`
 **تعداد عناصر button در سورس:** 266 تگ HTML/قالب + 2 الگوی ساخت DOM API = 268 ردیف ممیزی؛ نمونه‌های runtime ممکن است بیشتر باشند
 **روش شمارش:** استخراج ۲۶۶ تگ button از HTML/قالب‌ها و بررسی مستقیم `document.createElement('button')`؛ دو الگوی ساخت DOM API نیز جداگانه ثبت شدند.
 
@@ -30,23 +30,23 @@
 | INV-008 | — | ✦ Help me write with ChatGPT | `ctOpenChatGPT()` | HELP-REQUIRED |
 | INV-009 | — | 🖨️ Preview / Print / Save PDF | `ctPrint()` | HELP-REQUIRED |
 | INV-010 | — | ← Back to Main Menu | `returnToLauncher()` | EXEMPT |
-| INV-011 | — | ▦ Dashboard Financial overview and balances › | `show(` | HELP-REQUIRED |
-| INV-012 | — | ＋ Add Entry Record income or expenses › | `show(` | HELP-REQUIRED |
-| INV-013 | — | ▤ Records Find and manage transactions › | `show(` | HELP-REQUIRED |
-| INV-014 | — | ▧ Invoices Create and review invoices › | `show(` | HELP-REQUIRED |
-| INV-015 | — | ♙ Customers Customer details and contacts › | `show(` | HELP-REQUIRED |
-| INV-016 | — | ▥ Reports & Tax Tax periods, archive and notifications › | `show(` | HELP-REQUIRED |
-| INV-017 | — | 🏠 Dashboard | `show(` | HELP-REQUIRED |
-| INV-018 | — | ＋ Add Entry | `show(` | HELP-REQUIRED |
-| INV-019 | — | 📋 Records | `show(` | HELP-REQUIRED |
-| INV-020 | — | 🧾 Invoices | `show(` | HELP-REQUIRED |
-| INV-021 | — | 👥 Customers | `show(` | HELP-REQUIRED |
-| INV-022 | — | 🖨️ Reports | `show(` | HELP-REQUIRED |
+| INV-011 | — | ▦ Dashboard Financial overview and balances › | `show('home')` | HELP-REQUIRED |
+| INV-012 | — | ＋ Add Entry Record income or expenses › | `show('entry')` | HELP-REQUIRED |
+| INV-013 | — | ▤ Records Find and manage transactions › | `show('records')` | HELP-REQUIRED |
+| INV-014 | — | ▧ Invoices Create and review invoices › | `show('invoices')` | HELP-REQUIRED |
+| INV-015 | — | ♙ Customers Customer details and contacts › | `show('customers')` | HELP-REQUIRED |
+| INV-016 | — | ▥ Reports & Tax Tax periods, archive and notifications › | `show('report')` | HELP-REQUIRED |
+| INV-017 | — | 🏠 Dashboard | `show('home')` | HELP-REQUIRED |
+| INV-018 | — | ＋ Add Entry | `show('entry')` | HELP-REQUIRED |
+| INV-019 | — | 📋 Records | `show('records')` | HELP-REQUIRED |
+| INV-020 | — | 🧾 Invoices | `show('invoices')` | HELP-REQUIRED |
+| INV-021 | — | 👥 Customers | `show('customers')` | HELP-REQUIRED |
+| INV-022 | — | 🖨️ Reports | `show('report')` | HELP-REQUIRED |
 | INV-023 | — | ← Back | `goBackOnePage()` | EXEMPT |
 | INV-024 | — | Refresh | `refreshAll()` | HELP-REQUIRED |
 | INV-025 | — | Set period (13th–12th) | `setPeriod()` | HELP-REQUIRED |
 | INV-026 | categoryPickerButton | Select a category ⌄ | `toggleCategoryMenu()` | HELP-REQUIRED |
-| INV-027 | — | 📷 Take a Photo | `document.getElementById(` | HELP-REQUIRED |
+| INV-027 | — | 📷 Take a Photo | `document.getElementById('entryReceiptGallery').click()` | HELP-REQUIRED |
 | INV-028 | entryReceiptRemove | Remove photo | `clearEntryReceipt()` | HELP-REQUIRED |
 | INV-029 | — | Save Entry | `saveEntry()` | HELP-REQUIRED |
 | INV-030 | — | Clear Form | `resetEntry()` | HELP-REQUIRED |
@@ -60,11 +60,11 @@
 | INV-038 | — | Save Customer | `saveCustomer()` | HELP-REQUIRED |
 | INV-039 | — | Clear Form | `resetCustomerForm()` | HELP-REQUIRED |
 | INV-040 | — | ← Back | `report188Back()` | EXEMPT |
-| INV-041 | — | 📄 Prepare a report Predefined reporting periods and report generation | `report188Navigate(` | HELP-REQUIRED |
-| INV-042 | — | 🗂️ Saved reports archive Open previous report snapshots | `report188Navigate(` | HELP-REQUIRED |
-| INV-043 | — | 🔔 Notifications inbox Titles only; tap a notification to read it | `report188Navigate(` | HELP-REQUIRED |
-| INV-044 | — | 🗓️ Tax calendar Upcoming and past deadlines | `report188Navigate(` | HELP-REQUIRED |
-| INV-045 | — | ✉️ Accountant email Recipient settings and sending status | `report188Navigate(` | HELP-REQUIRED |
+| INV-041 | — | 📄 Prepare a report Predefined reporting periods and report generation | `report188Navigate('builder')` | HELP-REQUIRED |
+| INV-042 | — | 🗂️ Saved reports archive Open previous report snapshots | `report188Navigate('archive')` | HELP-REQUIRED |
+| INV-043 | — | 🔔 Notifications inbox Titles only; tap a notification to read it | `report188Navigate('inbox')` | HELP-REQUIRED |
+| INV-044 | — | 🗓️ Tax calendar Upcoming and past deadlines | `report188Navigate('calendar')` | HELP-REQUIRED |
+| INV-045 | — | ✉️ Accountant email Recipient settings and sending status | `report188Navigate('email')` | HELP-REQUIRED |
 | INV-046 | — | ← Back | `report188Back()` | EXEMPT |
 | INV-047 | — | Print Preview | `printReport()` | HELP-REQUIRED |
 | INV-048 | — | Confirm records complete | `report188ConfirmComplete()` | HELP-REQUIRED |
@@ -89,36 +89,36 @@
 | INV-067 | — | Export Activity Log (CSV) | `exportMonitorCSV()` | HELP-REQUIRED |
 | INV-068 | — | Run Local Self-check | `runMonitorSelfCheck()` | HELP-REQUIRED |
 | INV-069 | — | ← Back | `goBackOnePage()` | EXEMPT |
-| INV-070 | — | 💾 Backup & Restore Separate backups for each data area | `show(` | HELP-REQUIRED |
-| INV-071 | — | ❓ Help Choose the language for the User Guide | `show(` | HELP-REQUIRED |
-| INV-072 | — | 👤 Profile & Logo Business details and business logo | `show(` | HELP-REQUIRED |
-| INV-073 | — | 📘 User Guide Instructions and Contact Us | `show(` | HELP-REQUIRED |
-| INV-074 | — | 🔄 Software Update Check and install the latest version | `show(` | HELP-REQUIRED |
-| INV-075 | — | 🛡️ Monitor & Diagnostics Activity archive, errors, data integrity and developer report | `show(` | HELP-REQUIRED |
-| INV-076 | — | ⚠️ Factory Reset Convert approved backup and safely restore all data | `show(` | HELP-REQUIRED |
-| INV-077 | — | ← Back to Settings | `show(` | EXEMPT |
+| INV-070 | — | 💾 Backup & Restore Separate backups for each data area | `show('backup')` | HELP-REQUIRED |
+| INV-071 | — | 📘 User Guide Choose the guide language | `show('helpSettings')` | HELP-REQUIRED |
+| INV-072 | — | 👤 Profile & Logo Business details and business logo | `show('profileGuide')` | HELP-REQUIRED |
+| INV-073 | — | 📘 User Guide Instructions and Contact Us | `show('userGuide')` | HELP-REQUIRED |
+| INV-074 | — | 🔄 Software Update Check and install the latest version | `show('softwareUpdate')` | HELP-REQUIRED |
+| INV-075 | — | 🛡️ Monitor & Diagnostics Activity archive, errors, data integrity and developer report | `show('monitor')` | HELP-REQUIRED |
+| INV-076 | — | ⚠️ Factory Reset Convert approved backup and safely restore all data | `show('factoryResetPage')` | HELP-REQUIRED |
+| INV-077 | — | ← Back to Settings | `show('settings')` | EXEMPT |
 | INV-078 | — | Open Secure Reset | `openFactoryReset()` | HELP-REQUIRED |
-| INV-079 | factoryResetConvertButton | Validate and Convert Backup | `event/property listener` | HELP-REQUIRED |
-| INV-080 | factoryResetEmergencyButton | Download Emergency Snapshot | `event/property listener` | HELP-REQUIRED |
+| INV-079 | factoryResetConvertButton | Validate and Convert Backup | `event/property listener (no inline onclick; wiring not resolved statically)` | HELP-REQUIRED |
+| INV-080 | factoryResetEmergencyButton | Download Emergency Snapshot | `event/property listener (no inline onclick; wiring not resolved statically)` | HELP-REQUIRED |
 | INV-081 | factoryResetNext | I Understand — Continue | `factoryResetNextStep()` | HELP-REQUIRED |
-| INV-082 | factoryResetFinalButton | Reset and Restore All Data | `event/property listener` | HELP-REQUIRED |
+| INV-082 | factoryResetFinalButton | Reset and Restore All Data | `event/property listener (no inline onclick; wiring not resolved statically)` | HELP-REQUIRED |
 | INV-083 | — | Cancel | `closeFactoryReset()` | EXEMPT |
 | INV-084 | — | Save Profile | `prSaveProfile()` | HELP-REQUIRED |
 | INV-085 | — | Remove Logo | `prRemoveLogo()` | HELP-REQUIRED |
-| INV-086 | — | Save Support Message | `event/property listener` | HELP-REQUIRED |
+| INV-086 | — | Save Support Message | `event/property listener (no inline onclick; wiring not resolved statically)` | HELP-REQUIRED |
 | INV-087 | — | Clear Form | `resetHelpContactForm()` | HELP-REQUIRED |
-| INV-088 | — | 🔄 Check for Updates | `event/property listener` | HELP-REQUIRED |
+| INV-088 | — | 🔄 Check for Updates | `event/property listener (no inline onclick; wiring not resolved statically)` | HELP-REQUIRED |
 | INV-089 | appReloadUpdate | Update Now | `reloadLatestApp()` | HELP-REQUIRED |
-| INV-090 | — | 💼 Business Workspace | `prPage(` | HELP-REQUIRED |
-| INV-091 | — | 📁 Projects | `prPage(` | HELP-REQUIRED |
-| INV-092 | — | 🏢 Company Contracts & Jobs | `prPage(` | HELP-REQUIRED |
-| INV-093 | — | ⚙️ Control Panel | `prPage(` | HELP-REQUIRED |
+| INV-090 | — | 💼 Business Workspace | `prPage('workspace')` | HELP-REQUIRED |
+| INV-091 | — | 📁 Projects | `prPage('project-hub')` | HELP-REQUIRED |
+| INV-092 | — | 🏢 Company Contracts & Jobs | `prPage('company-hub')` | HELP-REQUIRED |
+| INV-093 | — | ⚙️ Control Panel | `prPage('control')` | HELP-REQUIRED |
 | INV-094 | — | ← Back to Main Menu | `returnToLauncher()` | EXEMPT |
-| INV-095 | — | 📁 Projects New Project, Projects List and Project Profit & Loss | `prPage(` | HELP-REQUIRED |
+| INV-095 | — | 📁 Projects New Project, Projects List and Project Profit & Loss | `prPage('project-hub')` | HELP-REQUIRED |
 | INV-096 | — | 🏢 Company Contracts & Jobs Companies, contracts, company projects, sub-projects and payments | `prOpenCompanyHubFromWorkspace()` | HELP-REQUIRED |
-| INV-097 | — | ⚙️ Control Panel Manage shared Partners, Workers, Contractors, companies and future settings | `prPage(` | HELP-REQUIRED |
-| INV-098 | — | ➕ New Project Create an independent project | `prPage(` | HELP-REQUIRED |
-| INV-099 | — | ▦ Projects List Search, open and manage existing projects | `prPage(` | HELP-REQUIRED |
+| INV-097 | — | ⚙️ Control Panel Manage shared Partners, Workers, Contractors, companies and future settings | `prPage('control')` | HELP-REQUIRED |
+| INV-098 | — | ➕ New Project Create an independent project | `prPage('new')` | HELP-REQUIRED |
+| INV-099 | — | ▦ Projects List Search, open and manage existing projects | `prPage('list')` | HELP-REQUIRED |
 | INV-100 | — | ＋ Add Partner | `prAddPartnerShareRow()` | HELP-REQUIRED |
 | INV-101 | — | Save Project | `prSaveProject()` | HELP-REQUIRED |
 | INV-102 | — | Clear Form | `prResetProject()` | HELP-REQUIRED |
@@ -126,26 +126,26 @@
 | INV-104 | prCompleteToggle | Complete | `prToggleProjectCompletion()` | HELP-REQUIRED |
 | INV-105 | — | Delete | `prDeleteCurrent()` | HELP-REQUIRED |
 | INV-106 | prDetailProfitReportButton | 📊 Report | `prOpenCurrentProjectProfitReport()` | HELP-REQUIRED |
-| INV-107 | — | Summary | `prDetailTab(` | HELP-REQUIRED |
-| INV-108 | — | Income | `prDetailTab(` | HELP-REQUIRED |
-| INV-109 | — | Expenses | `prDetailTab(` | HELP-REQUIRED |
-| INV-110 | — | Worker Wages | `prDetailTab(` | HELP-REQUIRED |
-| INV-111 | — | Tools | `prDetailTab(` | HELP-REQUIRED |
-| INV-112 | — | Food & Other | `prDetailTab(` | HELP-REQUIRED |
-| INV-113 | — | Reports | `prDetailTab(` | HELP-REQUIRED |
+| INV-107 | — | Summary | `prDetailTab('summary')` | HELP-REQUIRED |
+| INV-108 | — | Income | `prDetailTab('income')` | HELP-REQUIRED |
+| INV-109 | — | Expenses | `prDetailTab('expenses')` | HELP-REQUIRED |
+| INV-110 | — | Worker Wages | `prDetailTab('wages')` | HELP-REQUIRED |
+| INV-111 | — | Tools | `prDetailTab('tools')` | HELP-REQUIRED |
+| INV-112 | — | Food & Other | `prDetailTab('food')` | HELP-REQUIRED |
+| INV-113 | — | Reports | `prDetailTab('report')` | HELP-REQUIRED |
 | INV-114 | — | View Financial Report → | `prOpenProfitReport()` | HELP-REQUIRED |
-| INV-115 | — | Save Partner | `prSavePerson(` | HELP-REQUIRED |
-| INV-116 | — | Clear | `prResetPerson(` | HELP-REQUIRED |
+| INV-115 | — | Save Partner | `prSavePerson('partner')` | HELP-REQUIRED |
+| INV-116 | — | Clear | `prResetPerson('partner')` | HELP-REQUIRED |
 | INV-117 | — | Save Contractor | `prSaveContractor()` | HELP-REQUIRED |
 | INV-118 | — | Clear | `prResetContractor()` | HELP-REQUIRED |
-| INV-119 | — | Save Worker | `prSavePerson(` | HELP-REQUIRED |
-| INV-120 | — | Clear | `prResetPerson(` | HELP-REQUIRED |
-| INV-121 | — | 👤 Partners Manage shared partner records | `prPage(` | HELP-REQUIRED |
-| INV-122 | — | 👷 Workers Manage shared worker records | `prPage(` | HELP-REQUIRED |
-| INV-123 | — | 🧰 Contractors Manage trades and subcontractors | `prPage(` | HELP-REQUIRED |
-| INV-124 | — | ➕ Add Company Register a company and its main contract | `coOpenCompanyMode(` | HELP-REQUIRED |
-| INV-125 | — | 🏢 Companies List Find companies and open their jobs | `coOpenCompanyMode(` | HELP-REQUIRED |
-| INV-126 | — | 📊 Company Project Profit & Loss Review income, costs and results by company and job | `prPage(` | HELP-REQUIRED |
+| INV-119 | — | Save Worker | `prSavePerson('worker')` | HELP-REQUIRED |
+| INV-120 | — | Clear | `prResetPerson('worker')` | HELP-REQUIRED |
+| INV-121 | — | 👤 Partners Manage shared partner records | `prPage('partners')` | HELP-REQUIRED |
+| INV-122 | — | 👷 Workers Manage shared worker records | `prPage('workers')` | HELP-REQUIRED |
+| INV-123 | — | 🧰 Contractors Manage trades and subcontractors | `prPage('contractors')` | HELP-REQUIRED |
+| INV-124 | — | ➕ Add Company Register a company and its main contract | `coOpenCompanyMode('add')` | HELP-REQUIRED |
+| INV-125 | — | 🏢 Companies List Find companies and open their jobs | `coOpenCompanyMode('list')` | HELP-REQUIRED |
+| INV-126 | — | 📊 Company Project Profit & Loss Review income, costs and results by company and job | `prPage('company-profit')` | HELP-REQUIRED |
 | INV-127 | — | Save Company | `coSaveCompany()` | HELP-REQUIRED |
 | INV-128 | — | Clear Form | `coResetCompany()` | HELP-REQUIRED |
 | INV-129 | — | Save Job | `coSaveJob()` | HELP-REQUIRED |
@@ -156,78 +156,78 @@
 | INV-134 | — | Record Payment | `coRecordPayment()` | HELP-REQUIRED |
 | INV-135 | — | Cancel | `closeInvoicePaidModal()` | EXEMPT |
 | INV-136 | — | Confirm payment | `confirmInvoicePaid()` | HELP-REQUIRED |
-| INV-137 | — | ‹ Previous | `changeListPage(` | HELP-REQUIRED |
-| INV-138 | — | ${p} | `changeListPage(` | HELP-REQUIRED |
-| INV-139 | — | =pages?'disabled':''} onclick="changeListPage('${key}',${page+1},'${renderer}')">Next › | `event/property listener` | HELP-REQUIRED |
+| INV-137 | — | ‹ Previous | `changeListPage('${key}',${page-1},'${renderer}')` | HELP-REQUIRED |
+| INV-138 | — | ${p} | `changeListPage('${key}',${p},'${renderer}')` | HELP-REQUIRED |
+| INV-139 | — | =pages?'disabled':''} onclick="changeListPage('${key}',${page+1},'${renderer}')">Next › | `event/property listener (no inline onclick; wiring not resolved statically)` | HELP-REQUIRED |
 | INV-140 | — | ← Back to '+esc(label)+' | `goBackOnePage()` | EXEMPT |
 | INV-141 | — | '+esc(expenseCategoryLabel(x,g.id))+' | `chooseCategoryFromButton(this)` | HELP-REQUIRED |
 | INV-142 | — | ＋ Add New One | `openExpenseCategoryAddScreen(this.dataset.addGroup)` | HELP-REQUIRED |
-| INV-143 | — | 📎 View receipt | `openReceiptImage(document.getElementById(` | HELP-REQUIRED |
+| INV-143 | — | 📎 View receipt | `openReceiptImage(document.getElementById('${scope==='entry'?'entryReceiptData':'prReceiptData'}').value)` | HELP-REQUIRED |
 | INV-144 | — | 📎 | `openReceiptImage(this.dataset.receipt)` | HELP-REQUIRED |
 | INV-145 | — | OK | `closeEntrySavedDialog()` | HELP-REQUIRED |
-| INV-146 | — | View | `viewRecordInvoice(\` | HELP-REQUIRED |
-| INV-147 | — | Delete | `deleteInvoice(\` | HELP-REQUIRED |
-| INV-148 | — | Edit | `editEntry(\` | HELP-REQUIRED |
-| INV-149 | — | Delete | `deleteEntry(\` | HELP-REQUIRED |
-| INV-150 | — | View | `viewRecordInvoice(\` | HELP-REQUIRED |
-| INV-151 | — | View | `viewRecordEntry(\` | HELP-REQUIRED |
-| INV-152 | — | Close | `document.getElementById(\` | EXEMPT |
+| INV-146 | — | View | `viewRecordInvoice(\''+esc(x.id)+'\')` | HELP-REQUIRED |
+| INV-147 | — | Delete | `deleteInvoice(\''+esc(x.id)+'\')` | HELP-REQUIRED |
+| INV-148 | — | Edit | `editEntry(\''+esc(x.id)+'\')` | HELP-REQUIRED |
+| INV-149 | — | Delete | `deleteEntry(\''+esc(x.id)+'\')` | HELP-REQUIRED |
+| INV-150 | — | View | `viewRecordInvoice(\''+esc(x.id)+'\')` | HELP-REQUIRED |
+| INV-151 | — | View | `viewRecordEntry(\''+esc(x.id)+'\')` | HELP-REQUIRED |
+| INV-152 | — | Close | `document.getElementById(\'deletedEntryViewModal\').remove()` | EXEMPT |
 | INV-153 | — | × | `window.close()` | EXEMPT |
 | INV-154 | — | ↥ Share PDF | `shareReportPdf()` | HELP-REQUIRED |
 | INV-155 | makePdf | Create PDF | `createPDF()` | HELP-REQUIRED |
 | INV-156 | downloadPdf | Download PDF | `downloadPDF()` | HELP-REQUIRED |
 | INV-157 | sharePdf | ↗ Share PDF | `sharePDF()` | HELP-REQUIRED |
 | INV-158 | — | × | `window.close()` | EXEMPT |
-| INV-159 | — | Edit | `editCustomer(` | HELP-REQUIRED |
-| INV-160 | — | New invoice | `newInvoiceForCustomer(` | HELP-REQUIRED |
-| INV-161 | — | Delete | `deleteCustomer(` | HELP-REQUIRED |
+| INV-159 | — | Edit | `editCustomer('${esc(c.id)}')` | HELP-REQUIRED |
+| INV-160 | — | New invoice | `newInvoiceForCustomer('${esc(c.id)}')` | HELP-REQUIRED |
+| INV-161 | — | Delete | `deleteCustomer('${esc(c.id)}')` | HELP-REQUIRED |
 | INV-162 | — | Back to Records | `show(&quot;records&quot;)` | EXEMPT |
 | INV-163 | — | Open print view | `openInvoicePrintView()` | HELP-REQUIRED |
-| INV-164 | — | Back to invoices | `document.body.classList.remove(\` | EXEMPT |
+| INV-164 | — | Back to invoices | `document.body.classList.remove(\'invoice-printing\');$(\'invoices\').classList.remove(\'printable\');show(\'invoices\')` | EXEMPT |
 | INV-165 | — | ← Back | `thaBackInvoicePdf()` | EXEMPT |
 | INV-166 | — | × | `thaCloseInvoicePdf()` | EXEMPT |
 | INV-167 | — | ↗ Share PDF | `thaShareInvoicePdf()` | HELP-REQUIRED |
-| INV-168 | — | Mark unpaid | `markInvoiceUnpaid(` | HELP-REQUIRED |
-| INV-169 | — | Mark paid | `recordInvoicePayment(` | HELP-REQUIRED |
-| INV-170 | — | View / PDF | `printInvoice(` | HELP-REQUIRED |
-| INV-171 | — | Edit | `editInvoice(` | HELP-REQUIRED |
-| INV-172 | — | Delete | `deleteInvoice(` | HELP-REQUIRED |
-| INV-173 | — | Edit | `prEditContractor(` | HELP-REQUIRED |
-| INV-174 | — | Delete | `prDeleteContractor(` | HELP-REQUIRED |
-| INV-175 | — | 📎 ${coEsc(c.contractFile.name)} | `coOpenAttachment(` | HELP-REQUIRED |
-| INV-176 | — | Edit | `coEditCompany(` | HELP-REQUIRED |
-| INV-177 | — | Open Jobs | `coShowJobs(` | HELP-REQUIRED |
-| INV-178 | — | Deactivate | `coDeleteCompany(` | HELP-REQUIRED |
-| INV-179 | — | Edit | `coEditJob(` | HELP-REQUIRED |
-| INV-180 | — | Work packages | `coShowPackages(` | HELP-REQUIRED |
-| INV-181 | — | Payments | `coShowPayments(` | HELP-REQUIRED |
-| INV-182 | — | 📎 | `coOpenAttachment(` | HELP-REQUIRED |
-| INV-183 | — | 📎 ${coEsc(p.file.name)} | `coOpenAttachment(` | HELP-REQUIRED |
-| INV-184 | — | Edit | `coEditSub(` | HELP-REQUIRED |
-| INV-185 | — | Financials | `coShowPackageFinance(` | HELP-REQUIRED |
-| INV-186 | — | Delete | `coDeleteSub(` | HELP-REQUIRED |
-| INV-187 | — | 📎 ${coEsc(e.file.name)} | `coOpenPackageExpense(` | HELP-REQUIRED |
-| INV-188 | — | Delete | `coDeletePackageExpense(` | HELP-REQUIRED |
-| INV-189 | — | 📎 Open | `coOpenAttachment(` | HELP-REQUIRED |
+| INV-168 | — | Mark unpaid | `markInvoiceUnpaid('${esc(i.id)}')` | HELP-REQUIRED |
+| INV-169 | — | Mark paid | `recordInvoicePayment('${esc(i.id)}')` | HELP-REQUIRED |
+| INV-170 | — | View / PDF | `printInvoice('${esc(i.id)}')` | HELP-REQUIRED |
+| INV-171 | — | Edit | `editInvoice('${esc(i.id)}')` | HELP-REQUIRED |
+| INV-172 | — | Delete | `deleteInvoice('${esc(i.id)}')` | HELP-REQUIRED |
+| INV-173 | — | Edit | `prEditContractor('${prEscape(c.id)}')` | HELP-REQUIRED |
+| INV-174 | — | Delete | `prDeleteContractor('${prEscape(c.id)}')` | HELP-REQUIRED |
+| INV-175 | — | 📎 ${coEsc(c.contractFile.name)} | `coOpenAttachment('company','${c.id}')` | HELP-REQUIRED |
+| INV-176 | — | Edit | `coEditCompany('${c.id}')` | HELP-REQUIRED |
+| INV-177 | — | Open Jobs | `coShowJobs('${c.id}')` | HELP-REQUIRED |
+| INV-178 | — | Deactivate | `coDeleteCompany('${c.id}')` | HELP-REQUIRED |
+| INV-179 | — | Edit | `coEditJob('${j.id}')` | HELP-REQUIRED |
+| INV-180 | — | Work packages | `coShowPackages('${j.id}')` | HELP-REQUIRED |
+| INV-181 | — | Payments | `coShowPayments('${j.id}')` | HELP-REQUIRED |
+| INV-182 | — | 📎 | `coOpenAttachment('job','${j.id}')` | HELP-REQUIRED |
+| INV-183 | — | 📎 ${coEsc(p.file.name)} | `coOpenAttachment('package','${j.id}','${p.id}')` | HELP-REQUIRED |
+| INV-184 | — | Edit | `coEditSub('${p.id}')` | HELP-REQUIRED |
+| INV-185 | — | Financials | `coShowPackageFinance('${p.id}')` | HELP-REQUIRED |
+| INV-186 | — | Delete | `coDeleteSub('${p.id}')` | HELP-REQUIRED |
+| INV-187 | — | 📎 ${coEsc(e.file.name)} | `coOpenPackageExpense('${j.id}','${p.id}','${e.id}')` | HELP-REQUIRED |
+| INV-188 | — | Delete | `coDeletePackageExpense('${e.id}')` | HELP-REQUIRED |
+| INV-189 | — | 📎 Open | `coOpenAttachment('payment','${j.id}','${p.id}')` | HELP-REQUIRED |
 | INV-190 | — | ← Back to Main Menu | `returnToLauncher()` | EXEMPT |
-| INV-191 | — | ← Back to ${backLabel} | `${name===` | EXEMPT |
-| INV-192 | — | Remove | `this.closest(` | HELP-REQUIRED |
+| INV-191 | — | ← Back to ${backLabel} | `${name==='profit-report'?`prBackFromProfitReport()`:`prBackToParent('${name}')`}` | EXEMPT |
+| INV-192 | — | Remove | `this.closest('.pr-share-row').remove();prUpdateShareTotal()` | HELP-REQUIRED |
 | INV-193 | prSaveSubEditBtn | Save Changes | `prSaveSubprojectEdit()` | HELP-REQUIRED |
-| INV-194 | — | Edit | `prEditUnifiedCost(` | HELP-REQUIRED |
-| INV-195 | — | Delete | `prDeleteUnifiedCost(` | HELP-REQUIRED |
+| INV-194 | — | Edit | `prEditUnifiedCost('${key}','${r.id}')` | HELP-REQUIRED |
+| INV-195 | — | Delete | `prDeleteUnifiedCost('${key}','${r.id}')` | HELP-REQUIRED |
 | INV-196 | — | Print / Save PDF | `prPrintSubReport()` | HELP-REQUIRED |
 | INV-197 | — | Print / Save PDF | `prPrintSubReport()` | HELP-REQUIRED |
-| INV-198 | — | 📷 Take a Photo | `document.getElementById(` | HELP-REQUIRED |
+| INV-198 | — | 📷 Take a Photo | `document.getElementById('prReceiptGallery').click()` | HELP-REQUIRED |
 | INV-199 | prReceiptRemove | Remove photo | `clearProjectReceipt()` | HELP-REQUIRED |
-| INV-200 | — | ${isIncome?'Save Receipt':'Save Expense'} | `prSaveSubFinanceRow(` | HELP-REQUIRED |
+| INV-200 | — | ${isIncome?'Save Receipt':'Save Expense'} | `prSaveSubFinanceRow('${tab}')` | HELP-REQUIRED |
 | INV-201 | — | Clear | `prClearSubFinanceRow()` | HELP-REQUIRED |
-| INV-202 | — | 🧾 Customer receipt | `prOpenCustomerPaymentReceipt(` | HELP-REQUIRED |
-| INV-203 | — | Edit | `prEditSubFinanceRow(` | HELP-REQUIRED |
-| INV-204 | — | Delete | `prDeleteSubFinanceRow(` | HELP-REQUIRED |
+| INV-202 | — | 🧾 Customer receipt | `prOpenCustomerPaymentReceipt('${prEscape(prCurrent()?.id\|\|'')}','${prEscape(sub.id\|\|'')}','${prEscape(r.id)}')` | HELP-REQUIRED |
+| INV-203 | — | Edit | `prEditSubFinanceRow('${tab}','${r.id}')` | HELP-REQUIRED |
+| INV-204 | — | Delete | `prDeleteSubFinanceRow('${tab}','${r.id}')` | HELP-REQUIRED |
 | INV-205 | receiptPdfButton | 📄 Generate PDF / Print | `receiptPrint()` | HELP-REQUIRED |
 | INV-206 | — | Close receipt | `window.close()` | EXEMPT |
 | INV-207 | — | ↗ Share PDF | `shareReceiptPdf()` | HELP-REQUIRED |
-| INV-208 | — | Print | `window.open(window.receiptPdfUrl,` | HELP-REQUIRED |
+| INV-208 | — | Print | `window.open(window.receiptPdfUrl,'_blank')` | HELP-REQUIRED |
 | INV-209 | — | Close | `prCloseSubReportPreview()` | EXEMPT |
 | INV-210 | — | Generate PDF | `prRunSubReportPrint()` | HELP-REQUIRED |
 | INV-211 | — | Close | `prCloseSubReportPreview()` | EXEMPT |
@@ -235,32 +235,32 @@
 | INV-213 | — | ↗ Share PDF | `prShareSubReportPDF()` | HELP-REQUIRED |
 | INV-214 | — | × | `prRestoreReportPreview()` | HELP-REQUIRED |
 | INV-215 | — | ← Back to Sub-projects | `prBackToSubprojects()` | EXEMPT |
-| INV-216 | — | Income | `prRenderSubFinance(` | HELP-REQUIRED |
-| INV-217 | — | Expenses | `prRenderSubFinance(` | HELP-REQUIRED |
-| INV-218 | — | Report | `prRenderSubFinance(` | HELP-REQUIRED |
+| INV-216 | — | Income | `prRenderSubFinance('income')` | HELP-REQUIRED |
+| INV-217 | — | Expenses | `prRenderSubFinance('expenses')` | HELP-REQUIRED |
+| INV-218 | — | Report | `prRenderSubFinance('report')` | HELP-REQUIRED |
 | INV-219 | — | ＋ Add Sub-project | `prOpenSubprojectForm()` | HELP-REQUIRED |
-| INV-220 | — | Edit | `event.stopPropagation();prOpenSubproject(` | HELP-REQUIRED |
+| INV-220 | — | Edit | `event.stopPropagation();prOpenSubproject('${prEscape(s.id)}');prRenderSubFinance('edit')` | HELP-REQUIRED |
 | INV-221 | — | ＋ Add Sub-project | `prEnableSubprojectsAndAdd()` | HELP-REQUIRED |
 | INV-222 | — | ← Back | `prBackToSubprojects()` | EXEMPT |
 | INV-223 | prAddSubprojectBtn | ＋ Add Sub-project | `prAddSubproject()` | HELP-REQUIRED |
 | INV-224 | — | Print / Save PDF | `window.print()` | HELP-REQUIRED |
 | INV-225 | — | 📋 Worker List — Choose Worker | `prOpenWorkerListPicker()` | HELP-REQUIRED |
-| INV-226 | — | Record | `prSaveRow(` | HELP-REQUIRED |
+| INV-226 | — | Record | `prSaveRow('${tab}')` | HELP-REQUIRED |
 | INV-227 | — | Clear | `prClearRowForm()` | HELP-REQUIRED |
-| INV-228 | — | Edit | `prEditRow(` | HELP-REQUIRED |
-| INV-229 | — | Delete | `prDeleteRow(` | HELP-REQUIRED |
+| INV-228 | — | Edit | `prEditRow('${tab}','${r.id}')` | HELP-REQUIRED |
+| INV-229 | — | Delete | `prDeleteRow('${tab}','${r.id}')` | HELP-REQUIRED |
 | INV-230 | — | × | `prCloseWorkerListPicker()` | EXEMPT |
 | INV-231 | ${prEscape(w.id)} | ${prEscape(w.name\|\|'Unnamed worker')} ${w.phone?` ${prEscape(w.phone)} `:''} ${select.value===String(w.id)?'✓':'›'} | `prChooseWorkerFromList(this.dataset.workerId)` | HELP-REQUIRED |
 | INV-232 | — | Done | `prCloseWorkerListPicker()` | HELP-REQUIRED |
-| INV-233 | — | Manage Workers | `prPage(\` | HELP-REQUIRED |
-| INV-234 | — | Edit | `prEditPerson(` | HELP-REQUIRED |
-| INV-235 | — | Delete | `prDeletePerson(` | HELP-REQUIRED |
-| INV-236 | — | Edit | `prOpenReconciliationCost(` | HELP-REQUIRED |
-| INV-237 | — | Delete | `prOpenReconciliationCost(` | HELP-REQUIRED |
-| INV-238 | — | Generate Full Project Report PDF → | `prPrintFullProjectReport(` | HELP-REQUIRED |
-| INV-239 | — | Open | `ctLoad(` | HELP-REQUIRED |
-| INV-240 | — | Print / PDF | `ctPrintSaved(` | HELP-REQUIRED |
-| INV-241 | — | Delete | `ctDelete(` | HELP-REQUIRED |
+| INV-233 | — | Manage Workers | `prPage(\'workers\');prCloseWorkerListPicker()` | HELP-REQUIRED |
+| INV-234 | — | Edit | `prEditPerson('${type}','${x.id}')` | HELP-REQUIRED |
+| INV-235 | — | Delete | `prDeletePerson('${type}','${x.id}')` | HELP-REQUIRED |
+| INV-236 | — | Edit | `prOpenReconciliationCost('${prEscape(r.projectId)}','${prEscape(r.ownerId\|\|'')}','${r.key}','${prEscape(r.id\|\|'')}','edit')` | HELP-REQUIRED |
+| INV-237 | — | Delete | `prOpenReconciliationCost('${prEscape(r.projectId)}','${prEscape(r.ownerId\|\|'')}','${r.key}','${prEscape(r.id\|\|'')}','delete')` | HELP-REQUIRED |
+| INV-238 | — | Generate Full Project Report PDF → | `prPrintFullProjectReport('${prEscape(project.id)}')` | HELP-REQUIRED |
+| INV-239 | — | Open | `ctLoad('${ctEsc(c.id)}')` | HELP-REQUIRED |
+| INV-240 | — | Print / PDF | `ctPrintSaved('${ctEsc(c.id)}')` | HELP-REQUIRED |
+| INV-241 | — | Delete | `ctDelete('${ctEsc(c.id)}')` | HELP-REQUIRED |
 | INV-242 | generateBtn | ${L.generate} | `ctGeneratePDF()` | HELP-REQUIRED |
 | INV-243 | printBtn | Open PDF | `ctPrintPDF()` | HELP-REQUIRED |
 | INV-244 | shareBtn | ↗ Share PDF | `ctSharePDF()` | HELP-REQUIRED |
@@ -271,21 +271,23 @@
 | INV-249 | — | Use full image | `useFullReceiptImage()` | HELP-REQUIRED |
 | INV-250 | — | Save cropped photo | `applyReceiptCrop()` | HELP-REQUIRED |
 | INV-251 | — | Copy version details | `copyMonitorVersionInfo()` | HELP-REQUIRED |
-| INV-252 | — | View details | `showMonitorEvent(` | HELP-REQUIRED |
+| INV-252 | — | View details | `showMonitorEvent('${monitorEsc(x.id)}')` | HELP-REQUIRED |
 | INV-253 | — | ‹ Previous | `monitorPage--;renderMonitor()` | HELP-REQUIRED |
-| INV-254 | — | ${monitorPage} / ${pages} | `event/property listener` | HELP-REQUIRED |
-| INV-255 | — | =pages?'disabled':''} onclick="monitorPage++;renderMonitor()">Next › | `event/property listener` | HELP-REQUIRED |
-| INV-256 | — | Hidden placeholder (not user-facing) | `GenUINotUsed` | EXEMPT |
-| INV-257 | monitorCopyEvent | Copy JSON | `event/property listener` | HELP-REQUIRED |
-| INV-258 | monitorCloseEvent | Close | `event/property listener` | EXEMPT |
-| INV-259 | — | Open saved report | `report188Open(` | HELP-REQUIRED |
-| INV-260 | — | Print / PDF | `report188Print(` | HELP-REQUIRED |
-| INV-261 | — | Update status | `report188RenameStatus(` | HELP-REQUIRED |
-| INV-262 | — | ${n.read?'○':'●'} ${esc(n.title)} ${new Date(n.createdAt).toLocaleDateString('en-GB')} › | `report188OpenNotification(` | HELP-REQUIRED |
-| INV-263 | — | Mark as ${n.read?'unread':'read'} | `report188ToggleReadFromDetail(` | HELP-REQUIRED |
-| INV-264 | — | Print / Save PDF | `report188Print(` | HELP-REQUIRED |
-| INV-265 | — | Close saved report | `document.getElementById(` | EXEMPT |
-| INV-266 | eiwClose | Return to form | `event/property listener` | HELP-REQUIRED |
+| INV-254 | — | ${monitorPage} / ${pages} | `event/property listener (no inline onclick; wiring not resolved statically)` | HELP-REQUIRED |
+| INV-255 | — | =pages?'disabled':''} onclick="monitorPage++;renderMonitor()">Next › | `event/property listener (no inline onclick; wiring not resolved statically)` | HELP-REQUIRED |
+| INV-256 | — | (empty label; hidden placeholder; not user-facing) | `GenUINotUsed` | EXEMPT |
+| INV-257 | monitorCopyEvent | Copy JSON | `event/property listener (no inline onclick; wiring not resolved statically)` | HELP-REQUIRED |
+| INV-258 | monitorCloseEvent | Close | `event/property listener (no inline onclick; wiring not resolved statically)` | EXEMPT |
+| INV-259 | — | Open saved report | `report188Open('${esc(r.id)}')` | HELP-REQUIRED |
+| INV-260 | — | Print / PDF | `report188Print('${esc(r.id)}')` | HELP-REQUIRED |
+| INV-261 | — | Update status | `report188RenameStatus('${esc(r.id)}')` | HELP-REQUIRED |
+| INV-262 | — | ${n.read?'○':'●'} ${esc(n.title)} ${new Date(n.createdAt).toLocaleDateString('en-GB')} › | `report188OpenNotification('${esc(n.id)}')` | HELP-REQUIRED |
+| INV-263 | — | Mark as ${n.read?'unread':'read'} | `report188ToggleReadFromDetail('${esc(n.id)}')` | HELP-REQUIRED |
+| INV-264 | — | Print / Save PDF | `report188Print('${esc(r.id)}')` | HELP-REQUIRED |
+| INV-265 | — | Close saved report | `document.getElementById('report188Viewer').hidden=true` | EXEMPT |
+| INV-266 | eiwClose | Return to form | `event/property listener (no inline onclick; wiring not resolved statically)` | HELP-REQUIRED |
+| INV-267 | `.unified-dropdown-trigger` | متن گزینه انتخاب‌شده / placeholder | `باز و بسته کردن فهرست انتخاب بومی‌شده از روی یک select موجود` | HELP-REQUIRED |
+| INV-268 | `.unified-dropdown-option` | متن هر گزینه از select | `انتخاب مقدار و dispatch رویداد change؛ برای هر گزینه نمونه جداگانه ساخته می‌شود` | HELP-REQUIRED |
 
 ## کنترل‌های ساخته‌شده با DOM API
 
@@ -449,3 +451,13 @@
 - شمارش Registry پس از این batch: ۲۰ مورد کامل در هر ۱۱ زبان، ۲۰۹ پیش‌نویس (فقط انگلیسی و فارسی)، صفر مورد بدون پیش‌نویس؛ مجموع ۲۲۹.
 - مورد `INV-256` پس از بررسی سورس، یک دکمه placeholder مخفی در پنجره جزئیات رویداد Monitor شناسایی شد (`display:none` و handler پیاده‌سازی‌نشده `GenUINotUsed`). این ردیف اکنون `EXEMPT` است. شناسه تغییرناپذیر `THA-HLP-0219` فقط برای ردگیری ممیزی حفظ می‌شود، در وضعیت Draft می‌ماند و نباید منتشر یا دوباره استفاده شود.
 - این‌ها ترجمه نهایی ۱۱زبانه نیستند. ۹ زبان دیگر برای ۲۰۹ مورد پیش‌نویس، بازبینی زبانی مستقل، اتصال runtime، تست پوشش و تست iPhone Safari همچنان لازم‌اند. هیچ کد اجرایی، دیتابیس، Preview deployment یا Production تغییر نکرده است.
+
+
+## Baseline refresh — 2026-11-27 (R45)
+
+- Inventory refreshed against the current Version Authority build `THA-273-R11-PREVIEW-20261127-R45`.
+- Runtime source: `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`; index blob SHA: `e58a0c7895cf639c36e69c28696ebfd3bd262bef`.
+- Re-extracted 266 HTML/template button tags in source order and retained the two DOM-created dropdown button patterns as INV-267 and INV-268; total audit rows remain 268.
+- Updated exact inline handler expressions and current labels/element IDs where statically present. Eleven controls have no inline `onclick`; their listener wiring remains marked unresolved rather than inferred.
+- Corrected INV-071 label to the current runtime wording, “📘 User Guide Choose the guide language”. INV-231’s dynamic label pipe is escaped for valid Markdown table structure. INV-256 is recorded as an empty-label hidden placeholder and remains EXEMPT.
+- Classification totals remain 228 HELP-REQUIRED and 40 EXEMPT. This is a static inventory refresh only; it does not attach Help IDs or prove runtime behavior.
