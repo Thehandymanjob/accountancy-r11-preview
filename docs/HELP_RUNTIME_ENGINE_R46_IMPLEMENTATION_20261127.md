@@ -130,3 +130,12 @@ Source review corrected the English and Persian text for nine Draft entries: THA
 - No navigation handlers, page routing, accountancy state or database behavior were changed.
 - Version target: `THA-273-R11-PREVIEW-20261127-R60`. Build ID, canonical URL, index SHA and runtime asset pin must match before Gate approval.
 - Live browser navigation, contextual Help interaction, language switching, mobile layout and iPhone Safari remain unverified. No Preview deployment or Production change.
+
+
+## R60 primary navigation and critical Accountancy bindings
+
+- Added 19 Help bindings for the four launcher destinations, six Accountancy home destinations, Dashboard Refresh and Set Period, Clear Entry Form, Reports Print Preview, Secure Factory Reset entry and four Business Workspace sidebar destinations.
+- Selectors are scoped to the actual page/container and exact action/data attribute. The Factory Reset entry uses `#factoryResetPage`, not a generic Settings selector.
+- Static allowlist count: 94. Total contextual Help controls mapped: 99 (94 static, five dynamic-template).
+- Build target: `THA-273-R11-PREVIEW-20261127-R60`. Version Authority must validate the canonical URL, index SHA and all pinned runtime assets.
+- Source-level only; no real browser Help click, language switching, mobile layout or iPhone Safari test has been performed. No Reset, Preview deployment or Production change.
