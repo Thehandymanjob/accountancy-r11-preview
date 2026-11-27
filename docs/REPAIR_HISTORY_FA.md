@@ -666,6 +666,20 @@
 - **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ بازشدن راهنمای هر گزینه، حفظ مقصد navigation، انتخاب زبان و چیدمان موبایل باید در Preview بررسی شوند.
 - **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
 
+
+#### بازنگری R57 — اتصال عملیات مدیریت پروژه
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- **شناسه‌های متصل‌شده:** THA-HLP-0084 (Save Project)، THA-HLP-0085 (Clear Project Form)، THA-HLP-0086 (Edit Project)، THA-HLP-0088 (Delete Project)، THA-HLP-0098 (Save Partner)، THA-HLP-0100 (Save Contractor) و THA-HLP-0102 (Save Worker).
+- **روش اتصال:** selectorهای صریح و محدوده‌دار در صفحات `#prPage-new`، `#prPage-detail`، `#prPage-partners`، `#prPage-contractors` و `#prPage-workers`؛ handler دقیق هر دکمه در selector ثبت شده است.
+- **محتوا / ریسک:** هر هفت شناسه CONTENT_COMPLETE هستند. Delete Project عملیاتی مخرب است؛ راهنما باید ماهیت حذف را توضیح دهد و کلیک روی «?» نباید handler حذف را اجرا کند. در این تغییر هیچ عملیات حذف یا ذخیره واقعی اجرا نشده است.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R57`.
+- **اتصال‌ها پس از R57:** ۶۳ کنترل؛ ۵۸ ایستا و ۵ پویا. ۴۶ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
+- **تست ایستا:** هفت selector به parent و handler literal مشخص محدود شدند؛ رشته‌های دارای پارامتر partner/worker با escaping معتبر در JavaScript ثبت شدند. Version Authority Gate برای R57 باید اجرا شود.
+- **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ نمایش راهنما، عدم اجرای ناخواسته Delete/Save هنگام لمس «?» و چیدمان موبایل باید در Preview بررسی شوند.
+- **انتشار / داده:** هیچ Preview deploy، Merge، حذف پروژه، تغییر داده یا Production change انجام نشده است.
+
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
 - **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Implemented on Preview development; the latest R45 Version Authority Gate passed after native-HTML fail-closed hardening (run 46053038295). Pages deployment and iPhone Safari verification remain pending.
