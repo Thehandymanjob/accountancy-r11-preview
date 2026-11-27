@@ -120,3 +120,13 @@ Source review corrected the English and Persian text for nine Draft entries: THA
 - No contract content, PDF generation, profile persistence, logo storage or support message delivery logic was changed.
 - Version target: `THA-273-R11-PREVIEW-20261127-R59`. Build ID, canonical URL, index SHA and runtime asset pin must match before Gate approval.
 - Live browser clicks, PDF preview, profile save/remove, language switching, mobile layout and iPhone Safari remain unverified. No Preview deployment or Production change.
+
+
+## R60 Main Menu and Accountancy navigation
+
+- Added ten completed Help topics: four Main Menu destinations (`THA-HLP-0001`–`THA-HLP-0004`) and six Accountancy home destinations (`THA-HLP-0009`–`THA-HLP-0014`).
+- Main Menu controls are scoped to `#appLauncher .launcher-actions`; Accountancy home cards are scoped to `#accountancyHome .accountancy-home-grid` with exact `show(...)` destinations.
+- Static allowlist count: 85. Total contextual Help controls mapped: 90 (85 static, five dynamic-template).
+- No navigation handlers, page routing, accountancy state or database behavior were changed.
+- Version target: `THA-273-R11-PREVIEW-20261127-R60`. Build ID, canonical URL, index SHA and runtime asset pin must match before Gate approval.
+- Live browser navigation, contextual Help interaction, language switching, mobile layout and iPhone Safari remain unverified. No Preview deployment or Production change.
