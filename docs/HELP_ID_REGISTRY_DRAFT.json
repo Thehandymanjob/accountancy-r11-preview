@@ -20072,6 +20072,78 @@
           "inputs": "قرارداد یا پیش‌فاکتور ذخیره‌شده صحیح را انتخاب کنید. اطلاعات مشتری، محدوده کار، قیمت، مراحل پرداخت و شرایط ذخیره‌شده برای ساخت پیش‌نمایش استفاده می‌شوند.",
           "result": "سند ذخیره‌شده در یک پنجره پیش‌نمایش داخل برنامه باز می‌شود. PDF فقط پس از انتخاب Generate PDF در نوار ابزار پیش‌نمایش ایجاد می‌شود.",
           "notes": "پیش از ایجاد یا اشتراک‌گذاری PDF، مشتری، محدوده کار، قیمت، مراحل پرداخت و شرایط را بررسی کنید. بازکردن پیش‌نمایش، قرارداد ذخیره‌شده را تغییر نمی‌دهد."
+        },
+        "ar": {
+          "purpose": "يفتح نافذة معاينة الطباعة/PDF لعقد أو عرض سعر محفوظ.",
+          "when": "استخدمه لفحص عقد أو عرض سعر محفوظ قبل إنشاء ملف PDF.",
+          "how": "في قائمة Contracts المحفوظة، اختر Print / PDF للمستند المطلوب. تفتح المعاينة داخل التطبيق. راجع المستند، ثم اختر Generate PDF من شريط أدوات المعاينة عندما تكون جاهزاً.",
+          "inputs": "اختر العقد أو عرض السعر المحفوظ الصحيح. تُستخدم بيانات العميل ونطاق العمل والسعر ومراحل الدفع والشروط المخزنة لإنشاء المعاينة.",
+          "result": "يفتح المستند المحفوظ في نافذة معاينة داخل التطبيق. لا يُنشأ PDF إلا بعد اختيار Generate PDF من شريط أدوات المعاينة.",
+          "notes": "تحقق من العميل ونطاق العمل والسعر ومراحل الدفع والشروط قبل إنشاء المستند أو مشاركته. فتح المعاينة لا يغيّر العقد المحفوظ."
+        },
+        "ckb": {
+          "purpose": "پێشبینینی چاپ/PDFی گرێبەست یان نرخنامەیەکی پاشەکەوتکراو دەکاتەوە.",
+          "when": "کاتێک پێویستت بە پشکنینی گرێبەست یان نرخنامەیەکی پاشەکەوتکراوە پێش دروستکردنی PDF، ئەمە بەکاربهێنە.",
+          "how": "لە فهرستی Contractsی پاشەکەوتکراو، بۆ بەڵگەنامەی مەبەست Print / PDF هەڵبژێرە. پێشبینینیەکە لەناو بەرنامە دەکرێتەوە. بەڵگەنامەکە بپشکنە، پاشان کاتێک ئامادە بوویت لە شریتی ئامرازەکانی پێشبینین Generate PDF هەڵبژێرە.",
+          "inputs": "گرێبەست یان نرخنامەی پاشەکەوتکراوی دروست هەڵبژێرە. زانیارییە پاشەکەوتکراوەکانی کڕیار، مەودای کار، نرخ، قۆناغەکانی پارەدان و مەرجەکان بۆ دروستکردنی پێشبینین بەکاردێن.",
+          "result": "بەڵگەنامەی پاشەکەوتکراو لە پەنجەرەی پێشبینینی ناو بەرنامە دەکرێتەوە. PDF تا Generate PDF لە شریتی ئامرازەکانی پێشبینین هەڵنەبژێردرێت دروست ناکرێت.",
+          "notes": "پێش دروستکردن یان هاوبەشکردنی بەڵگەنامە، کڕیار، مەودای کار، نرخ، قۆناغەکانی پارەدان و مەرجەکان بپشکنە. کردنەوەی پێشبینین گرێبەستی پاشەکەوتکراو ناگۆڕێت."
+        },
+        "kmr": {
+          "purpose": "Pêşdîtina çap/PDF-ê ya peyman an texmîna hilanbar vedike.",
+          "when": "Vê bikar bîne da ku berî çêkirina PDF-ê peyman an texmîneke hilanbar kontrol bikî.",
+          "how": "Di lîsteya Contracts ya hilanbar de ji bo belgeya armanc Print / PDF hilbijêre. Pêşdîtin di nav sepanê de vedibe. Belgeyê kontrol bike, paşê dema amade bûyî ji şerîta amûrên pêşdîtinê Generate PDF hilbijêre.",
+          "inputs": "Peyman an texmîna hilanbar a rast hilbijêre. Agahiyên xerîdar, çarçoveya kar, bihayê, qonaxên dayînê û mercên tomarkirî ji bo çêkirina pêşdîtinê tên bikaranîn.",
+          "result": "Belgeya hilanbar di paceya pêşdîtina nav sepanê de vedibe. Heta ku Generate PDF ji şerîta amûrên pêşdîtinê neyê hilbijartin PDF nayê çêkirin.",
+          "notes": "Berî çêkirin an parvekirina belgeyê xerîdar, çarçoveya kar, bihayê, qonaxên dayînê û mercan kontrol bike. Vekirina pêşdîtinê peymana hilanbar naguherîne."
+        },
+        "tr": {
+          "purpose": "Kaydedilmiş bir sözleşme veya fiyat teklifinin yazdırma/PDF önizleme penceresini açar.",
+          "when": "PDF oluşturmadan önce kaydedilmiş bir sözleşmeyi veya fiyat teklifini incelemek için kullanın.",
+          "how": "Kaydedilmiş Contracts listesinde ilgili belge için Print / PDF seçeneğini belirleyin. Önizleme uygulama içinde açılır. Belgeyi inceleyin ve hazır olduğunuzda önizleme araç çubuğundan Generate PDF seçeneğini belirleyin.",
+          "inputs": "Doğru kaydedilmiş sözleşmeyi veya fiyat teklifini seçin. Önizleme oluşturulurken kayıtlı müşteri, iş kapsamı, fiyat, ödeme aşamaları ve koşullar kullanılır.",
+          "result": "Kaydedilmiş belge uygulama içi önizleme penceresinde açılır. Önizleme araç çubuğundan Generate PDF seçilene kadar PDF oluşturulmaz.",
+          "notes": "Belgeyi oluşturmadan veya paylaşmadan önce müşteriyi, iş kapsamını, fiyatı, ödeme aşamalarını ve koşulları doğrulayın. Önizlemeyi açmak kayıtlı sözleşmeyi değiştirmez."
+        },
+        "pl": {
+          "purpose": "Otwiera nakładkę podglądu drukowania/PDF dla zapisanej umowy lub wyceny.",
+          "when": "Użyj tej opcji, aby sprawdzić zapisaną umowę lub wycenę przed utworzeniem pliku PDF.",
+          "how": "Na zapisanej liście Contracts wybierz Print / PDF przy odpowiednim dokumencie. Podgląd otworzy się w aplikacji. Sprawdź dokument, a następnie wybierz Generate PDF na pasku narzędzi podglądu.",
+          "inputs": "Wybierz właściwą zapisaną umowę lub wycenę. Do utworzenia podglądu używane są zapisane dane klienta, zakres prac, cena, etapy płatności i warunki.",
+          "result": "Zapisany dokument otwiera się w nakładce podglądu w aplikacji. Plik PDF nie zostanie utworzony, dopóki nie wybierzesz Generate PDF na pasku narzędzi podglądu.",
+          "notes": "Przed utworzeniem lub udostępnieniem dokumentu sprawdź klienta, zakres prac, cenę, etapy płatności i warunki. Otwarcie podglądu nie zmienia zapisanej umowy."
+        },
+        "ur": {
+          "purpose": "محفوظ شدہ معاہدے یا قیمت کی پیشکش کے لیے پرنٹ/PDF پیش منظر کھولتا ہے۔",
+          "when": "PDF بنانے سے پہلے محفوظ شدہ معاہدے یا قیمت کی پیشکش کا جائزہ لینے کے لیے اسے استعمال کریں۔",
+          "how": "محفوظ Contracts فہرست میں مطلوبہ دستاویز کے لیے Print / PDF منتخب کریں۔ پیش منظر ایپ کے اندر کھلتا ہے۔ دستاویز دیکھیں، پھر تیار ہونے پر پیش منظر ٹول بار میں Generate PDF منتخب کریں۔",
+          "inputs": "درست محفوظ شدہ معاہدہ یا قیمت کی پیشکش منتخب کریں۔ پیش منظر بنانے کے لیے محفوظ شدہ گاہک، کام کا دائرہ، قیمت، ادائیگی کے مراحل اور شرائط استعمال ہوتی ہیں۔",
+          "result": "محفوظ شدہ دستاویز ایپ کے اندر پیش منظر کی ونڈو میں کھلتی ہے۔ پیش منظر ٹول بار میں Generate PDF منتخب کرنے تک PDF نہیں بنتی۔",
+          "notes": "دستاویز بنانے یا شیئر کرنے سے پہلے گاہک، کام کا دائرہ، قیمت، ادائیگی کے مراحل اور شرائط کی تصدیق کریں۔ پیش منظر کھولنے سے محفوظ معاہدہ تبدیل نہیں ہوتا۔"
+        },
+        "pa": {
+          "purpose": "ਸੰਭਾਲੇ ਠੇਕੇ ਜਾਂ ਕੀਮਤ ਪੇਸ਼ਕਸ਼ ਲਈ ਪ੍ਰਿੰਟ/PDF ਪ੍ਰੀਵਿਊ ਓਵਰਲੇ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "PDF ਬਣਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਸੰਭਾਲੇ ਠੇਕੇ ਜਾਂ ਕੀਮਤ ਪੇਸ਼ਕਸ਼ ਦੀ ਜਾਂਚ ਕਰਨ ਲਈ ਇਸਦੀ ਵਰਤੋਂ ਕਰੋ।",
+          "how": "ਸੰਭਾਲੀ Contracts ਸੂਚੀ ਵਿੱਚ ਲੋੜੀਂਦੇ ਦਸਤਾਵੇਜ਼ ਲਈ Print / PDF ਚੁਣੋ। ਪ੍ਰੀਵਿਊ ਐਪ ਦੇ ਅੰਦਰ ਖੁੱਲ੍ਹਦਾ ਹੈ। ਦਸਤਾਵੇਜ਼ ਦੀ ਜਾਂਚ ਕਰੋ, ਫਿਰ ਤਿਆਰ ਹੋਣ 'ਤੇ ਪ੍ਰੀਵਿਊ ਟੂਲਬਾਰ ਵਿੱਚ Generate PDF ਚੁਣੋ।",
+          "inputs": "ਸਹੀ ਸੰਭਾਲਿਆ ਠੇਕਾ ਜਾਂ ਕੀਮਤ ਪੇਸ਼ਕਸ਼ ਚੁਣੋ। ਪ੍ਰੀਵਿਊ ਬਣਾਉਣ ਲਈ ਸੰਭਾਲੇ ਗਾਹਕ, ਕੰਮ ਦਾ ਦਾਇਰਾ, ਕੀਮਤ, ਭੁਗਤਾਨ ਦੇ ਪੜਾਅ ਅਤੇ ਸ਼ਰਤਾਂ ਵਰਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ।",
+          "result": "ਸੰਭਾਲਿਆ ਦਸਤਾਵੇਜ਼ ਐਪ ਦੇ ਅੰਦਰ ਪ੍ਰੀਵਿਊ ਓਵਰਲੇ ਵਿੱਚ ਖੁੱਲ੍ਹਦਾ ਹੈ। ਪ੍ਰੀਵਿਊ ਟੂਲਬਾਰ ਵਿੱਚ Generate PDF ਚੁਣਨ ਤੱਕ PDF ਨਹੀਂ ਬਣਦੀ।",
+          "notes": "ਦਸਤਾਵੇਜ਼ ਬਣਾਉਣ ਜਾਂ ਸਾਂਝਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਗਾਹਕ, ਕੰਮ ਦਾ ਦਾਇਰਾ, ਕੀਮਤ, ਭੁਗਤਾਨ ਦੇ ਪੜਾਅ ਅਤੇ ਸ਼ਰਤਾਂ ਦੀ ਜਾਂਚ ਕਰੋ। ਪ੍ਰੀਵਿਊ ਖੋਲ੍ਹਣ ਨਾਲ ਸੰਭਾਲਿਆ ਠੇਕਾ ਨਹੀਂ ਬਦਲਦਾ।"
+        },
+        "prs": {
+          "purpose": "پنجره پیش‌نمایش چاپ/PDF را برای قرارداد یا پیش‌فاکتور ذخیره‌شده باز می‌کند.",
+          "when": "وقتی می‌خواهید پیش از ایجاد PDF، قرارداد یا پیش‌فاکتور ذخیره‌شده را بررسی کنید، از این گزینه استفاده کنید.",
+          "how": "در فهرست ذخیره‌شده Contracts، برای سند موردنظر Print / PDF را انتخاب کنید. پیش‌نمایش داخل برنامه باز می‌شود. سند را بررسی کنید و سپس در زمان آمادگی، Generate PDF را در نوار ابزار پیش‌نمایش انتخاب کنید.",
+          "inputs": "قرارداد یا پیش‌فاکتور ذخیره‌شده صحیح را انتخاب کنید. اطلاعات ذخیره‌شده مشتری، محدوده کار، قیمت، مراحل پرداخت و شرایط برای ساخت پیش‌نمایش استفاده می‌شوند.",
+          "result": "سند ذخیره‌شده در پنجره پیش‌نمایش داخل برنامه باز می‌شود. PDF تا زمانی که Generate PDF را در نوار ابزار پیش‌نمایش انتخاب نکنید ایجاد نمی‌شود.",
+          "notes": "پیش از ایجاد یا اشتراک‌گذاری سند، مشتری، محدوده کار، قیمت، مراحل پرداخت و شرایط را بررسی کنید. بازکردن پیش‌نمایش قرارداد ذخیره‌شده را تغییر نمی‌دهد."
+        },
+        "ps": {
+          "purpose": "د خوندي شوي قرارداد یا نرخ‌لیک لپاره د چاپ/PDF مخکتنې کړکۍ پرانیزي.",
+          "when": "دا هغه وخت وکاروئ چې د PDF له جوړولو مخکې غواړئ خوندي شوی قرارداد یا نرخ‌لیک وګورئ.",
+          "how": "د Contracts په خوندي شوي لېست کې د اړوند سند لپاره Print / PDF وټاکئ. مخکتنه د اپلېکېشن دننه پرانیستل کېږي. سند وګورئ، بیا چې چمتو یاست د مخکتنې له وسیلو څخه Generate PDF وټاکئ.",
+          "inputs": "سم خوندي شوی قرارداد یا نرخ‌لیک وټاکئ. د مخکتنې د جوړولو لپاره د پېرودونکي، د کار ساحې، بیې، د پیسو ورکولو پړاوونو او شرطونو خوندي شوي معلومات کارول کېږي.",
+          "result": "خوندي شوی سند د اپلېکېشن دننه د مخکتنې په کړکۍ کې پرانیستل کېږي. تر هغه PDF نه جوړېږي چې د مخکتنې په وسیلو کې Generate PDF ونه ټاکئ.",
+          "notes": "د سند له جوړولو یا شریکولو مخکې پېرودونکی، د کار ساحه، بیه، د پیسو ورکولو پړاوونه او شرطونه وګورئ. د مخکتنې پرانیستل خوندي شوی قرارداد نه بدلوي."
         }
       },
       "handler_or_behavior": "`ctPrintSaved(`"
@@ -20098,6 +20170,78 @@
           "inputs": "قرارداد یا پیش‌فاکتور ذخیره‌شده صحیح را انتخاب کنید و حذف را در پیام تأیید بپذیرید.",
           "result": "اگر نوشتن در IndexedDB موفق باشد، سند انتخاب‌شده به‌طور دائمی از فهرست ذخیره‌شده Contracts حذف می‌شود. این عملیات حذف نرم نیست.",
           "notes": "مخرب و غیرقابل بازگشت است؛ پیام تأیید اعلام می‌کند که حذف قابل بازگشت نیست. پیش از حذف، نسخه‌ای از قراردادهای صادرشده یا مورد توافق و الزامات نگهداری اسناد را بررسی کنید. اگر ذخیره‌سازی شکست بخورد، برنامه خطا را اعلام می‌کند و حذف تکمیل نمی‌شود."
+        },
+        "ar": {
+          "purpose": "يحذف نهائياً عقداً أو عرض سعر محفوظاً من مخزن Contracts بعد التأكيد.",
+          "when": "استخدمه فقط إذا كان المستند المحفوظ مكرراً أو أُنشئ عن طريق الخطأ ويجب حذفه.",
+          "how": "اختر Delete للمستند المحفوظ المقصود ووافق على رسالة التأكيد. يكتب التطبيق قائمة العقود المحدّثة إلى IndexedDB ويحدّث قائمة المستندات المحفوظة بعد نجاح الكتابة.",
+          "inputs": "اختر العقد أو عرض السعر المحفوظ الصحيح ووافق على تأكيد الحذف.",
+          "result": "إذا نجحت الكتابة إلى IndexedDB، يُزال المستند المحدد نهائياً من قائمة Contracts المحفوظة. هذا ليس سير عمل للحذف الناعم.",
+          "notes": "مدمر وغير قابل للتراجع: تحذر رسالة التأكيد من أن الحذف لا يمكن التراجع عنه. احتفظ بنسخ من العقود الصادرة أو المتفق عليها، وتحقق من متطلبات الاحتفاظ بالسجلات قبل الحذف. إذا فشلت الكتابة إلى التخزين، يعرض التطبيق الخطأ ولا يكمل الحذف."
+        },
+        "ckb": {
+          "purpose": "دوای پشتڕاستکردنەوە گرێبەست یان نرخنامەیەکی پاشەکەوتکراو بە هەمیشەیی لە کۆگای Contracts دەسڕێتەوە.",
+          "when": "تەنها کاتێک بەکاری بهێنە کە بەڵگەنامە پاشەکەوتکراوەکە دووبارەیە یان بە هەڵە دروست کراوە و دەبێت بسڕدرێتەوە.",
+          "how": "بۆ بەڵگەنامەی پاشەکەوتکراوی مەبەست Delete هەڵبژێرە و پەیامی پشتڕاستکردنەوە قبوڵ بکە. بەرنامە فهرستی نوێکراوی گرێبەستەکان لە IndexedDB دەنووسێت و دوای سەرکەوتنی نووسین فهرستی بەڵگەنامە پاشەکەوتکراوەکان نوێ دەکاتەوە.",
+          "inputs": "گرێبەست یان نرخنامەی پاشەکەوتکراوی دروست هەڵبژێرە و پشتڕاستکردنەوەی سڕینەوە قبوڵ بکە.",
+          "result": "ئەگەر نووسین لە IndexedDB سەرکەوتوو بێت، بەڵگەنامەی هەڵبژێردراو بە هەمیشەیی لە فهرستی پاشەکەوتکراوی Contracts دەسڕدرێتەوە. ئەمە پرۆسەی سڕینەوەی نەرم نییە.",
+          "notes": "وێرانکەر و ناتوانرێت بگەڕێندرێتەوە: پەیامی پشتڕاستکردنەوە ئاگاداری دەدات کە سڕینەوەکە پاشگەزبوونەوەی نییە. پێش سڕینەوە، کۆپییەکی گرێبەستە دەرکراوە یان ڕێککەوتووەکان هەڵبگرە و پێداویستییەکانی پاراستنی تۆمار بپشکنە. ئەگەر نووسین لە هەڵگرتندا سەرکەوتوو نەبێت، بەرنامە هەڵە پیشان دەدات و سڕینەوە تەواو ناکات."
+        },
+        "kmr": {
+          "purpose": "Piştî pejirandinê peyman an texmîna hilanbar ji depoya Contracts bi awayekî daîmî jê dibe.",
+          "when": "Vê tenê dema ku belgeya hilanbar dubare ye an bi şaşî hatiye çêkirin û divê were rakirin bikar bîne.",
+          "how": "Ji bo belgeya hilanbar a rast Delete hilbijêre û daxwaza pejirandinê qebûl bike. Sepan lîsteya peymanên nûkirî li IndexedDB dinivîse û piştî serkeftina nivîsînê lîsteya belgeyên hilanbar nû dike.",
+          "inputs": "Peyman an texmîna hilanbar a rast hilbijêre û pejirandina jêbirinê qebûl bike.",
+          "result": "Heke nivîsandina IndexedDB serkeftî be, belgeya hilbijartî bi awayekî daîmî ji lîsteya Contracts ya hilanbar tê rakirin. Ev pêvajoyeke jêbirina nerm nîne.",
+          "notes": "WÊRANKER Û NEVEGER: Peyama pejirandinê hişyar dike ku jêbirin nayê vegerandin. Berî jêbirinê kopiyên peymanên hatine derxistin an li ser wan lihevhatî biparêze û pêdiviyên parastina tomarê kontrol bike. Heke nivîsandina hilanînê bi ser nekeve, sepan çewtiyê nîşan dide û jêbirinê temam nake."
+        },
+        "tr": {
+          "purpose": "Onaydan sonra kaydedilmiş bir sözleşmeyi veya fiyat teklifini Contracts deposundan kalıcı olarak siler.",
+          "when": "Yalnızca kaydedilmiş belge yinelenmişse veya yanlışlıkla oluşturulmuşsa ve kaldırılması gerekiyorsa kullanın.",
+          "how": "İlgili kaydedilmiş belgenin yanındaki Delete seçeneğini belirleyin ve onay istemini kabul edin. Uygulama güncellenmiş sözleşme listesini IndexedDB'ye yazar ve yazma başarılı olduktan sonra kaydedilmiş belge listesini yeniler.",
+          "inputs": "Doğru kaydedilmiş sözleşmeyi veya fiyat teklifini seçin ve silme onayını kabul edin.",
+          "result": "IndexedDB yazma işlemi başarılı olursa seçilen belge kaydedilmiş Contracts listesinden kalıcı olarak kaldırılır. Bu işlem geri alınabilir bir silme değildir.",
+          "notes": "YIKICI VE GERİ ALINAMAZ: Onay mesajı silme işleminin geri alınamayacağı konusunda uyarır. Silmeden önce düzenlenmiş veya üzerinde anlaşılmış sözleşmelerin kopyalarını saklayın ve kayıt saklama gerekliliklerini kontrol edin. Depolama yazma işlemi başarısız olursa uygulama hatayı bildirir ve silme işlemini tamamlamaz."
+        },
+        "pl": {
+          "purpose": "Po potwierdzeniu trwale usuwa zapisaną umowę lub wycenę z magazynu Contracts.",
+          "when": "Używaj tej opcji tylko wtedy, gdy zapisany dokument jest duplikatem albo został utworzony przez pomyłkę i musi zostać usunięty.",
+          "how": "Wybierz Delete przy odpowiednim zapisanym dokumencie i zaakceptuj komunikat potwierdzający. Aplikacja zapisuje zaktualizowaną listę umów w IndexedDB i odświeża listę zapisanych dokumentów po pomyślnym zapisie.",
+          "inputs": "Wybierz właściwą zapisaną umowę lub wycenę i potwierdź usunięcie.",
+          "result": "Jeśli zapis w IndexedDB się powiedzie, wybrany dokument zostanie trwale usunięty z zapisanej listy Contracts. Nie jest to procedura miękkiego usuwania.",
+          "notes": "DESTRUKCYJNE I NIEODWRACALNE: Komunikat potwierdzenia ostrzega, że usunięcia nie można cofnąć. Przed usunięciem zachowaj kopie wystawionych lub uzgodnionych umów i sprawdź wymagania dotyczące przechowywania dokumentacji. Jeśli zapis w pamięci się nie powiedzie, aplikacja zgłosi błąd i nie zakończy usuwania."
+        },
+        "ur": {
+          "purpose": "تصدیق کے بعد محفوظ شدہ معاہدہ یا قیمت کی پیشکش کو Contracts اسٹور سے مستقل طور پر حذف کرتا ہے۔",
+          "when": "اسے صرف اس وقت استعمال کریں جب محفوظ شدہ دستاویز نقل ہو یا غلطی سے بنائی گئی ہو اور اسے ہٹانا ضروری ہو۔",
+          "how": "مطلوبہ محفوظ شدہ دستاویز کے سامنے Delete منتخب کریں اور تصدیقی پیغام منظور کریں۔ ایپ اپ ڈیٹ شدہ معاہدوں کی فہرست IndexedDB میں لکھتی ہے اور تحریر کامیاب ہونے کے بعد محفوظ دستاویزات کی فہرست تازہ کرتی ہے۔",
+          "inputs": "درست محفوظ شدہ معاہدہ یا قیمت کی پیشکش منتخب کریں اور حذف کرنے کی تصدیق منظور کریں۔",
+          "result": "اگر IndexedDB میں لکھنا کامیاب ہو تو منتخب دستاویز محفوظ شدہ Contracts فہرست سے مستقل طور پر ہٹا دی جاتی ہے۔ یہ عارضی حذف کرنے کا طریقہ نہیں ہے۔",
+          "notes": "تباہ کن اور ناقابلِ واپسی: تصدیقی پیغام خبردار کرتا ہے کہ حذف واپس نہیں لیا جا سکتا۔ حذف کرنے سے پہلے جاری یا طے شدہ معاہدوں کی نقول محفوظ رکھیں اور ریکارڈ رکھنے کی ضروریات چیک کریں۔ اگر اسٹوریج میں لکھنا ناکام ہو تو ایپ خرابی دکھاتی ہے اور حذف مکمل نہیں کرتی۔"
+        },
+        "pa": {
+          "purpose": "ਪੁਸ਼ਟੀ ਤੋਂ ਬਾਅਦ ਸੰਭਾਲੇ ਠੇਕੇ ਜਾਂ ਕੀਮਤ ਪੇਸ਼ਕਸ਼ ਨੂੰ Contracts ਸਟੋਰ ਵਿੱਚੋਂ ਪੱਕੇ ਤੌਰ 'ਤੇ ਮਿਟਾਉਂਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਸਿਰਫ਼ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਸੰਭਾਲਿਆ ਦਸਤਾਵੇਜ਼ ਦੁਹਰਾਇਆ ਹੋਇਆ ਹੋਵੇ ਜਾਂ ਗਲਤੀ ਨਾਲ ਬਣਿਆ ਹੋਵੇ ਅਤੇ ਹਟਾਉਣਾ ਲਾਜ਼ਮੀ ਹੋਵੇ।",
+          "how": "ਚੁਣੇ ਸੰਭਾਲੇ ਦਸਤਾਵੇਜ਼ ਲਈ Delete ਚੁਣੋ ਅਤੇ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਮਨਜ਼ੂਰ ਕਰੋ। ਐਪ ਅੱਪਡੇਟ ਕੀਤੀ ਠੇਕਿਆਂ ਦੀ ਸੂਚੀ IndexedDB ਵਿੱਚ ਲਿਖਦੀ ਹੈ ਅਤੇ ਲਿਖਤ ਸਫਲ ਹੋਣ ਤੋਂ ਬਾਅਦ ਸੰਭਾਲੇ ਦਸਤਾਵੇਜ਼ਾਂ ਦੀ ਸੂਚੀ ਤਾਜ਼ਾ ਕਰਦੀ ਹੈ।",
+          "inputs": "ਸਹੀ ਸੰਭਾਲਿਆ ਠੇਕਾ ਜਾਂ ਕੀਮਤ ਪੇਸ਼ਕਸ਼ ਚੁਣੋ ਅਤੇ ਮਿਟਾਉਣ ਦੀ ਪੁਸ਼ਟੀ ਮਨਜ਼ੂਰ ਕਰੋ।",
+          "result": "ਜੇ IndexedDB ਵਿੱਚ ਲਿਖਣਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਚੁਣਿਆ ਦਸਤਾਵੇਜ਼ ਸੰਭਾਲੀ Contracts ਸੂਚੀ ਵਿੱਚੋਂ ਪੱਕੇ ਤੌਰ 'ਤੇ ਹਟ ਜਾਂਦਾ ਹੈ। ਇਹ ਨਰਮ-ਮਿਟਾਉਣ ਵਾਲੀ ਕਾਰਵਾਈ ਨਹੀਂ ਹੈ।",
+          "notes": "ਨੁਕਸਾਨਦਾਇਕ ਅਤੇ ਵਾਪਸ ਨਾ ਹੋਣ ਵਾਲਾ: ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਚੇਤਾਵਨੀ ਦਿੰਦਾ ਹੈ ਕਿ ਮਿਟਾਉਣਾ ਵਾਪਸ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ। ਮਿਟਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਜਾਰੀ ਕੀਤੇ ਜਾਂ ਸਹਿਮਤ ਹੋਏ ਠੇਕਿਆਂ ਦੀਆਂ ਕਾਪੀਆਂ ਰੱਖੋ ਅਤੇ ਰਿਕਾਰਡ ਸੰਭਾਲਣ ਦੀਆਂ ਲੋੜਾਂ ਜਾਂਚੋ। ਜੇ ਸਟੋਰੇਜ ਵਿੱਚ ਲਿਖਣਾ ਅਸਫਲ ਹੋਵੇ ਤਾਂ ਐਪ ਗਲਤੀ ਦਿਖਾਉਂਦੀ ਹੈ ਅਤੇ ਮਿਟਾਉਣਾ ਪੂਰਾ ਨਹੀਂ ਕਰਦੀ।"
+        },
+        "prs": {
+          "purpose": "پس از تأیید، قرارداد یا پیش‌فاکتور ذخیره‌شده را برای همیشه از مخزن Contracts حذف می‌کند.",
+          "when": "فقط زمانی از این گزینه استفاده کنید که سند ذخیره‌شده تکراری است یا اشتباهی ایجاد شده و باید حذف شود.",
+          "how": "در کنار سند ذخیره‌شده موردنظر Delete را انتخاب و پیام تأیید را بپذیرید. برنامه فهرست به‌روزشده قراردادها را در IndexedDB ذخیره و پس از موفقیت، فهرست اسناد ذخیره‌شده را تازه‌سازی می‌کند.",
+          "inputs": "قرارداد یا پیش‌فاکتور ذخیره‌شده صحیح را انتخاب کنید و حذف را در پیام تأیید بپذیرید.",
+          "result": "اگر نوشتن در IndexedDB موفق باشد، سند انتخاب‌شده به‌طور دائمی از فهرست ذخیره‌شده Contracts حذف می‌شود. این عملیات حذف نرم نیست.",
+          "notes": "مخرب و غیرقابل بازگشت: پیام تأیید هشدار می‌دهد که حذف قابل بازگشت نیست. پیش از حذف، نسخه‌ای از قراردادهای صادرشده یا مورد توافق را نگه دارید و الزامات نگهداری اسناد را بررسی کنید. اگر ذخیره‌سازی شکست بخورد، برنامه خطا را اعلام می‌کند و حذف را تکمیل نمی‌کند."
+        },
+        "ps": {
+          "purpose": "له تایید وروسته خوندي شوی قرارداد یا نرخ‌لیک د Contracts له زېرمتون څخه د تل لپاره ړنګوي.",
+          "when": "دا یوازې هغه وخت وکاروئ چې خوندي شوی سند تکراري وي یا په تېروتنه جوړ شوی وي او لرې کول یې اړین وي.",
+          "how": "د اړوند خوندي شوي سند ترڅنګ Delete وټاکئ او د تایید پیغام ومنئ. اپلېکېشن د قراردادونو تازه شوی لېست په IndexedDB کې لیکي او د لیکلو له بریا وروسته د خوندي شويو اسنادو لېست تازه کوي.",
+          "inputs": "سم خوندي شوی قرارداد یا نرخ‌لیک وټاکئ او د ړنګولو تایید ومنئ.",
+          "result": "که په IndexedDB کې لیکل بریالي شي، ټاکل شوی سند د Contracts له خوندي شوي لېست څخه د تل لپاره لرې کېږي. دا لنډمهاله ړنګول نه دي.",
+          "notes": "ویجاړوونکی او نه بېرته راګرځېدونکی: د تایید پیغام خبرداری ورکوي چې ړنګول بېرته نه شي راګرځېدای. له ړنګولو مخکې د صادر شويو یا منل شويو قراردادونو کاپۍ وساتئ او د ریکارډ ساتلو اړتیاوې وګورئ. که په زېرمه کې لیکل ناکام شي، اپلېکېشن تېروتنه ښيي او ړنګول نه بشپړوي."
         }
       },
       "handler_or_behavior": "`ctDelete(`"
