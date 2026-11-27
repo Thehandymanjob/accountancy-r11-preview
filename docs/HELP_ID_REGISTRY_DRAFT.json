@@ -17076,8 +17076,8 @@
     }
   ],
   "content_progress": {
-    "completed_entries": 55,
-    "draft_entries": 174,
+    "completed_entries": 54,
+    "draft_entries": 175,
     "pending_entries": 0,
     "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written."
   }
