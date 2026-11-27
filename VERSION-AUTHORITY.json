@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261127-R46",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R46",
-    "indexBlobSha": "2fbb3dcb435d3950c43fe8a9ca6165b1b0b89883",
+    "buildId": "THA-273-R11-PREVIEW-20261127-R47",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R47",
+    "indexBlobSha": "84b399672802c61ffa5d41aad2d44116fb5f87f2",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "2fbb3dcb435d3950c43fe8a9ca6165b1b0b89883",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "84b399672802c61ffa5d41aad2d44116fb5f87f2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "ca922e3ddfe97f1fdf517501cfac6944c090ece2",
@@ -48,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "R46 adds the contextual User Guide runtime on Preview development only. PR #96 remains Draft until Version Authority Gate and browser tests are reviewed. Production promotion remains unauthorized.",
+  "note": "R47 extends the contextual User Guide runtime with five completed dynamic template bindings. PR #96 remains Draft pending Version Authority Gate review and browser testing. Production promotion remains unauthorized.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {
@@ -2079,14 +2079,14 @@
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "R46 identity and 24 pinned runtime assets are prepared; PR validation is pending."
+        "result": "PASS",
+        "runId": 46067064751,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46067064751",
+        "details": "R11 Version Authority Gate passed for R46 on PR #96. The R46 identity, approved baseline ancestry, canonical URL, index SHA and all 24 pinned runtime assets matched."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
-        "details": "V8 syntax compilation passed for all 8 inline scripts and both new external scripts. Content bundle JSON parsed: 132 publishable entries, 11 languages, all six fields present. Fourteen explicit scoped selector bindings are configured. Runtime source does not access IndexedDB or LocalStorage. Browser DOM uniqueness, live interaction, accessibility, mobile layout and Safari remain untested."
+        "details": "V8 syntax compilation passed for all 8 inline scripts and both new external scripts. Content bundle parsed with 132 publishable entries, 11 languages and all six fields present. Fourteen scoped static selector bindings configured. No browser DOM, interaction, mobile or Safari test."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
@@ -2101,6 +2101,52 @@
       "userApproval": {
         "result": "authorized for Preview only",
         "details": "User directed continuation of the User Guide / Help ID implementation. No Production promotion was authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-DYNAMIC-TEMPLATES-R47-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Attach five completed contextual Help IDs directly to their dynamic rendering templates: pagination page numbers, receipt clip, active Records invoice View/Delete, and Deleted Records invoice View. Preserve the existing handlers and keep Draft topics unpublished.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_HANDLER_SELECTOR_REFINEMENT_31_DRAFT.json",
+        "docs/HELP_HANDLER_SELECTOR_REFINEMENT_31_20261127.md",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "pending",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "R47 identity and updated index pin prepared; PR gate pending."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "V8 syntax compilation passed for all 8 inline scripts and both external Help scripts. Five dynamic data-help-id attributes each occur exactly once in the intended templates. No browser DOM uniqueness, generated-instance interaction or iPhone Safari test."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting authorized Preview deployment and user verification in iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User directed continuation of Help ID runtime wiring. Production promotion not authorized."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",

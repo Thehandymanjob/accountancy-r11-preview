@@ -42,3 +42,8 @@ The R45 source already contained the real `#userGuide` page, the 12-chapter `GUI
 - Static syntax and source-integrity checks are required before PR review.
 - Browser DOM uniqueness, actual click-to-help behavior, language switching, modal accessibility, mobile layout, and iPhone Safari remain **not tested**.
 - PR #96 stays Draft. Preview Pages is not deployed. Production is unchanged and not authorized.
+
+
+## R47 dynamic-template update
+
+Five completed dynamic template controls now carry explicit `data-help-id` attributes: pagination page numbers, receipt clip, active Records invoice View/Delete, and Deleted Records invoice View. Combined with the 14 R46 static bindings, 19 controls are wired in source. Ten dynamic and two static controls remain unbound because their content is Draft. The underlying button handlers are unchanged. R47 Version Authority Gate and browser tests are pending; no deployment has occurred.

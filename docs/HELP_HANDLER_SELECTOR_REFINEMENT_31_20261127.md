@@ -68,3 +68,12 @@ This plan does **not** authorize a Preview deployment or Production change. The 
 - Fifteen dynamic/template controls remain unbound until their exact template callsites receive explicit `data-help-id` attributes.
 - A floating contextual Help control opens the last selected mapped control's six-field explanation; without a selected context it opens the existing full User Guide page. The app's existing guide-language preference controls the help language. Main app UI remains English/LTR.
 - Static source checks only; no browser DOM uniqueness test, interaction test, Preview Pages deployment or iPhone Safari test has run. PR #96 remains Draft.
+
+
+## R47 dynamic-template update — 2026-11-27
+
+- Added explicit `data-help-id` attributes at five completed dynamic template callsites: pagination page number (0120), receipt clip (0125), active Records invoice View/Delete (0127/0128), and Deleted Records invoice View (0131).
+- The existing runtime event delegation reads these attributes without intercepting or changing the underlying button action.
+- Combined total: 14 static scoped bindings + 5 dynamic template bindings = **19 controls wired in source**.
+- Ten other dynamic controls and two static candidates remain unattached because their registry content is `CONTENT_DRAFT`; no Draft content is published.
+- No browser DOM or interaction tests have run. PR #96 remains Draft; no Preview deployment or Production change.

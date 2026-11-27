@@ -29,10 +29,13 @@
     "static_selector_candidates": 16,
     "require_data_help_id_instrumentation": 15,
     "browser_tests_run": 0,
-    "help_ids_attached": 14,
+    "help_ids_attached": 19,
     "release_authorized": false,
     "static_selectors_attached": 14,
-    "draft_static_controls_skipped": 2
+    "draft_static_controls_skipped": 2,
+    "dynamic_template_controls_instrumented": 5,
+    "dynamic_template_controls_pending": 10,
+    "draft_dynamic_controls_skipped": 10
   },
   "records": [
     {
@@ -659,9 +662,9 @@
         "scope": "Generated pagination page-number button template",
         "code_change_required": true,
         "reason": "The visible page number and active class are generated from page state; do not select by text or position.",
-        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "status": "ATTACHED_IN_R47_DYNAMIC_TEMPLATE_NOT_BROWSER_VERIFIED",
         "browser_test_required": true,
-        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
+        "runtime_binding": "Explicit data-help-id attribute added to the exact generated HTML template"
       }
     },
     {
@@ -697,9 +700,9 @@
         "scope": "Receipt image/clip action template",
         "code_change_required": true,
         "reason": "Receipt clip controls are repeated and have multiple render paths; attach the Help ID at the specific intended template callsite.",
-        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "status": "ATTACHED_IN_R47_DYNAMIC_TEMPLATE_NOT_BROWSER_VERIFIED",
         "browser_test_required": true,
-        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
+        "runtime_binding": "Explicit data-help-id attribute added to the exact generated HTML template"
       }
     },
     {
@@ -735,9 +738,9 @@
         "scope": "Records-list invoice View button template",
         "code_change_required": true,
         "reason": "Repeated View buttons are generated per record; bind to the record-row template, not a global .mini selector.",
-        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "status": "ATTACHED_IN_R47_DYNAMIC_TEMPLATE_NOT_BROWSER_VERIFIED",
         "browser_test_required": true,
-        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
+        "runtime_binding": "Explicit data-help-id attribute added to the exact generated HTML template"
       }
     },
     {
@@ -773,9 +776,9 @@
         "scope": "Records-list invoice Delete button template",
         "code_change_required": true,
         "reason": "Repeated Delete controls are generated per record; use the invoice row template scope.",
-        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "status": "ATTACHED_IN_R47_DYNAMIC_TEMPLATE_NOT_BROWSER_VERIFIED",
         "browser_test_required": true,
-        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
+        "runtime_binding": "Explicit data-help-id attribute added to the exact generated HTML template"
       }
     },
     {
@@ -811,9 +814,9 @@
         "scope": "Invoice-list View button template",
         "code_change_required": true,
         "reason": "Separate View control from the records-list invoice action; use its own render template.",
-        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "status": "ATTACHED_IN_R47_DYNAMIC_TEMPLATE_NOT_BROWSER_VERIFIED",
         "browser_test_required": true,
-        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
+        "runtime_binding": "Explicit data-help-id attribute added to the exact generated HTML template"
       }
     },
     {
@@ -849,9 +852,9 @@
         "scope": "Invoice-list Delete button template",
         "code_change_required": true,
         "reason": "Separate Delete control from the records-list invoice action; use its own render template.",
-        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "status": "NOT_ATTACHED_CONTENT_DRAFT",
         "browser_test_required": true,
-        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
+        "runtime_binding": "Skipped because registry status is CONTENT_DRAFT"
       }
     },
     {
@@ -901,9 +904,9 @@
         "scope": "Company/job attachment icon button template (INV-182)",
         "code_change_required": true,
         "reason": "coOpenAttachment is shared by company, job, package and payment templates; this Help ID belongs to the job attachment row.",
-        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "status": "NOT_ATTACHED_CONTENT_DRAFT",
         "browser_test_required": true,
-        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
+        "runtime_binding": "Skipped because registry status is CONTENT_DRAFT"
       }
     },
     {
@@ -939,9 +942,9 @@
         "scope": "Package attachment button template (INV-183)",
         "code_change_required": true,
         "reason": "Package attachment is a distinct control from the job attachment icon.",
-        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "status": "NOT_ATTACHED_CONTENT_DRAFT",
         "browser_test_required": true,
-        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
+        "runtime_binding": "Skipped because registry status is CONTENT_DRAFT"
       }
     },
     {
@@ -977,9 +980,9 @@
         "scope": "Sub-project expenses tab Print / Save PDF button template (INV-196)",
         "code_change_required": true,
         "reason": "The same handler is reused by the report tab; this Help ID maps to the expense-tab control.",
-        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "status": "NOT_ATTACHED_CONTENT_DRAFT",
         "browser_test_required": true,
-        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
+        "runtime_binding": "Skipped because registry status is CONTENT_DRAFT"
       }
     },
     {
@@ -1015,9 +1018,9 @@
         "scope": "Sub-project report tab Print / Save PDF button template (INV-197)",
         "code_change_required": true,
         "reason": "The same handler is reused by the expenses tab; this Help ID maps to the report-tab control.",
-        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "status": "NOT_ATTACHED_CONTENT_DRAFT",
         "browser_test_required": true,
-        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
+        "runtime_binding": "Skipped because registry status is CONTENT_DRAFT"
       }
     },
     {
@@ -1053,9 +1056,9 @@
         "scope": "Project receipt-photo action template (INV-198)",
         "code_change_required": true,
         "reason": "This is the project receipt form control, distinct from #entryReceiptField.",
-        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "status": "NOT_ATTACHED_CONTENT_DRAFT",
         "browser_test_required": true,
-        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
+        "runtime_binding": "Skipped because registry status is CONTENT_DRAFT"
       }
     },
     {
@@ -1091,9 +1094,9 @@
         "scope": "Full project report preview toolbar Generate PDF button",
         "code_change_required": true,
         "reason": "The first dynamically built overlay is Full project report preview.",
-        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "status": "NOT_ATTACHED_CONTENT_DRAFT",
         "browser_test_required": true,
-        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
+        "runtime_binding": "Skipped because registry status is CONTENT_DRAFT"
       }
     },
     {
@@ -1129,9 +1132,9 @@
         "scope": "Sub-project financial report preview toolbar Generate PDF button",
         "code_change_required": true,
         "reason": "The second dynamically built overlay is Financial report preview.",
-        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "status": "NOT_ATTACHED_CONTENT_DRAFT",
         "browser_test_required": true,
-        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
+        "runtime_binding": "Skipped because registry status is CONTENT_DRAFT"
       }
     },
     {
@@ -1205,9 +1208,9 @@
         "scope": "Worker list picker footer Manage Workers button",
         "code_change_required": true,
         "reason": "The picker is built dynamically; the same Workers navigation route exists elsewhere, so scope to the picker action.",
-        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "status": "NOT_ATTACHED_CONTENT_DRAFT",
         "browser_test_required": true,
-        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
+        "runtime_binding": "Skipped because registry status is CONTENT_DRAFT"
       }
     },
     {
@@ -1243,9 +1246,9 @@
         "scope": "Saved reports archive row Print / PDF button (INV-260)",
         "code_change_required": true,
         "reason": "The same report188Print handler is also used by the saved-report detail viewer, whose label and context differ.",
-        "status": "PENDING_TEMPLATE_DATA_HELP_ID_INSTRUMENTATION",
+        "status": "NOT_ATTACHED_CONTENT_DRAFT",
         "browser_test_required": true,
-        "runtime_binding": "No runtime binding until the exact dynamic template callsite is instrumented"
+        "runtime_binding": "Skipped because registry status is CONTENT_DRAFT"
       }
     }
   ],
@@ -1256,8 +1259,8 @@
     "After code instrumentation, verify exactly the intended control(s) in Preview and test each Help ID interaction before marking complete."
   ],
   "runtime_implementation": {
-    "buildId": "THA-273-R11-PREVIEW-20261127-R46",
-    "indexBlobSha": "2fbb3dcb435d3950c43fe8a9ca6165b1b0b89883",
+    "buildId": "THA-273-R11-PREVIEW-20261127-R47",
+    "indexBlobSha": "84b399672802c61ffa5d41aad2d44116fb5f87f2",
     "contentBundleBlobSha": "ca922e3ddfe97f1fdf517501cfac6944c090ece2",
     "runtimeEngineBlobSha": "e7b7a713478bdb7ec65b52ee7f526dd418770dbd",
     "publishableEntries": 132,

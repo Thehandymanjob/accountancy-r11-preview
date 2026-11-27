@@ -5,7 +5,7 @@
   "branch": "development",
   "baseline": {
     "runtime_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
-    "runtime_blob_sha": "2fbb3dcb435d3950c43fe8a9ca6165b1b0b89883",
+    "runtime_blob_sha": "84b399672802c61ffa5d41aad2d44116fb5f87f2",
     "registry_blob_sha": "bd77bf94bb65d10ca4a4c9407b2a68e59be149d3",
     "inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
     "help_content_blob_sha": "ca922e3ddfe97f1fdf517501cfac6944c090ece2",
@@ -23,23 +23,26 @@
     "entry_count": 229,
     "inventory_rows": 268,
     "mapping_status_counts": {
-      "AMBIGUOUS_HANDLER": 165,
+      "AMBIGUOUS_HANDLER": 160,
       "HANDLER_CANDIDATE_REQUIRES_CONTEXT_TEST": 16,
       "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED": 14,
       "ID_CANDIDATE_REQUIRES_BROWSER_TEST": 17,
       "NEEDS_SELECTOR": 7,
+      "SELECTOR_ATTACHED_R47_NOT_BROWSER_VERIFIED": 5,
       "SEPARATE_DOCUMENT_SCOPE": 7,
       "DYNAMIC_TEMPLATE_CANDIDATE": 2,
       "EXEMPT_NOT_MAPPED": 1
     },
-    "notes": "R46 adds a contextual Help runtime, 132 fully reviewed entries across 11 languages, and 14 scoped static selector bindings. Draft content remains unpublished; 15 dynamic template controls still require explicit data-help-id instrumentation. No browser test or deployment has occurred.",
+    "notes": "R47 adds five explicit data-help-id attributes to completed dynamic templates. Combined with the 14 static allowlist bindings, 19 controls are now wired. Twelve remaining reviewed targets are not attached because their content is Draft (two static, ten dynamic). No browser test or deployment has occurred.",
     "runtime_publishable_entries": 132,
     "runtime_languages": 11,
     "static_controls_attached": 14,
     "draft_static_controls_skipped": 2,
-    "dynamic_template_controls_pending": 15,
-    "help_ids_attached": 14,
-    "browser_tests_run": 0
+    "dynamic_template_controls_pending": 10,
+    "help_ids_attached": 19,
+    "browser_tests_run": 0,
+    "dynamic_template_controls_attached": 5,
+    "draft_controls_skipped": 12
   },
   "mappings": [
     {
@@ -1715,12 +1718,12 @@
       "visible_label": "${p}",
       "handler": "changeListPage('${key}',${p},'${renderer}')",
       "handler_name": "changeListPage",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "dynamic_template_data_help_id",
+      "selector": "[data-help-id=\"THA-HLP-0120\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler changeListPage occurs 4 times in source; resolve using exact template/parent context."
+      "mapping_status": "SELECTOR_ATTACHED_R47_NOT_BROWSER_VERIFIED",
+      "rationale": "R47 adds this immutable data-help-id directly at the identified dynamic template callsite. Browser instance coverage and click interaction tests are still required."
     },
     {
       "help_id": "THA-HLP-0121",
@@ -1785,12 +1788,12 @@
       "visible_label": "📎",
       "handler": "openReceiptImage(this.dataset.receipt)",
       "handler_name": "openReceiptImage",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "dynamic_template_data_help_id",
+      "selector": "[data-help-id=\"THA-HLP-0125\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler openReceiptImage occurs 3 times in source; resolve using exact template/parent context."
+      "mapping_status": "SELECTOR_ATTACHED_R47_NOT_BROWSER_VERIFIED",
+      "rationale": "R47 adds this immutable data-help-id directly at the identified dynamic template callsite. Browser instance coverage and click interaction tests are still required."
     },
     {
       "help_id": "THA-HLP-0126",
@@ -1813,12 +1816,12 @@
       "visible_label": "View",
       "handler": "viewRecordInvoice(\\''+esc(x.id)+'\\')",
       "handler_name": "viewRecordInvoice",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "dynamic_template_data_help_id",
+      "selector": "[data-help-id=\"THA-HLP-0127\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler viewRecordInvoice occurs 3 times in source; resolve using exact template/parent context."
+      "mapping_status": "SELECTOR_ATTACHED_R47_NOT_BROWSER_VERIFIED",
+      "rationale": "R47 adds this immutable data-help-id directly at the identified dynamic template callsite. Browser instance coverage and click interaction tests are still required."
     },
     {
       "help_id": "THA-HLP-0128",
@@ -1827,12 +1830,12 @@
       "visible_label": "Delete",
       "handler": "deleteInvoice(\\''+esc(x.id)+'\\')",
       "handler_name": "deleteInvoice",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "dynamic_template_data_help_id",
+      "selector": "[data-help-id=\"THA-HLP-0128\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler deleteInvoice occurs 3 times in source; resolve using exact template/parent context."
+      "mapping_status": "SELECTOR_ATTACHED_R47_NOT_BROWSER_VERIFIED",
+      "rationale": "R47 adds this immutable data-help-id directly at the identified dynamic template callsite. Browser instance coverage and click interaction tests are still required."
     },
     {
       "help_id": "THA-HLP-0129",
@@ -1869,12 +1872,12 @@
       "visible_label": "View",
       "handler": "viewRecordInvoice(\\''+esc(x.id)+'\\')",
       "handler_name": "viewRecordInvoice",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "dynamic_template_data_help_id",
+      "selector": "[data-help-id=\"THA-HLP-0131\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler viewRecordInvoice occurs 3 times in source; resolve using exact template/parent context."
+      "mapping_status": "SELECTOR_ATTACHED_R47_NOT_BROWSER_VERIFIED",
+      "rationale": "R47 adds this immutable data-help-id directly at the identified dynamic template callsite. Browser instance coverage and click interaction tests are still required."
     },
     {
       "help_id": "THA-HLP-0132",
