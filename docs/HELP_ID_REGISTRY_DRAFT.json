@@ -7649,7 +7649,7 @@
           "purpose": "هزینه‌ای به سوابق مالی بسته کاری انتخاب‌شده اضافه می‌کند.",
           "when": "وقتی می‌خواهید هزینه‌ای را که مستقیماً به یک بسته کاری مربوط است ثبت کنید.",
           "how": "تاریخ و مبلغ هزینه را وارد کنید، دسته‌بندی را انتخاب کنید، فروشنده/دریافت‌کننده و شرح را بنویسید و در صورت وجود مدرک پیوست کنید؛ سپس Add Expense را بزنید.",
-          "inputs": "تاریخ، مبلغ، دسته‌بندی، فروشنده یا دریافت‌کننده و شرح هزینه را وارد کنید؛ در صورت وجود رسید یا سند پشتیبان پیوست کنید.",
+          "inputs": "تاریخ معتبر هزینه و مبلغ بیشتر از صفر الزامی است. یک دسته‌بندی انتخاب کنید؛ نام فروشنده/دریافت‌کننده، شرح و رسید PDF یا تصویر اختیاری هستند.",
           "result": "در صورت موفقیت اعتبارسنجی و ذخیره، هزینه به همان بسته اضافه می‌شود.",
           "notes": "بسته درست را انتخاب و فقط هزینه واقعی را ثبت کنید. رسیدها را نگه دارید و هزینه ثبت‌شده در بخش دیگر را دوباره وارد نکنید."
         },
@@ -7657,7 +7657,7 @@
           "purpose": "يضيف مصروفاً إلى السجلات المالية لحزمة العمل المحددة.",
           "when": "عند تسجيل تكلفة مرتبطة مباشرة بحزمة عمل معينة.",
           "how": "أدخل تاريخ المصروف ومبلغه، واختر فئته، وأضف اسم المورد أو المستفيد والوصف، وأرفق الإثبات إن توفر، ثم اختر Add Expense.",
-          "inputs": "أدخل تاريخ المصروف ومبلغه وفئته والمورد أو المستفيد والوصف؛ وأرفق إيصالاً أو مستنداً داعماً إن توفر.",
+          "inputs": "يلزم إدخال تاريخ مصروف صالح ومبلغ أكبر من صفر. اختر فئة؛ أما المورد/المستفيد والوصف وإيصال PDF أو صورة فهي اختيارية.",
           "result": "يُضاف المصروف إلى الحزمة إذا نجح التحقق والحفظ.",
           "notes": "اختر الحزمة الصحيحة وسجل التكلفة الفعلية فقط. احتفظ بالإيصالات ولا تكرر تكلفة سُجلت في مكان آخر."
         },
@@ -7665,7 +7665,7 @@
           "purpose": "خەرجییەک زیاد دەکات بۆ تۆمارە داراییەکانی پاکێجی کاری هەڵبژێردراو.",
           "when": "کاتێک تێچوویەک تۆمار دەکەیت کە ڕاستەوخۆ پەیوەندی بە پاکێجی کاری دیاریکراوەوە هەیە.",
           "how": "بەروار و بڕی خەرجی بنووسە، جۆرەکەی هەڵبژێرە، دابینکەر/وەرگر و وەسف زیاد بکە، ئەگەر بەڵگە هەبوو هاوپێچی بکە، پاشان Add Expense هەڵبژێرە.",
-          "inputs": "بەروار، بڕ، جۆر، دابینکەر یان وەرگر و وەسفی خەرجی بنووسە؛ ئەگەر هەبوو پسووڵە یان بەڵگەی پشتگیر هاوپێچ بکە.",
+          "inputs": "بەروارێکی دروستی خەرجی و بڕێکی زیاتر لە سفر پێویستن. هاوپۆلێک هەڵبژێرە؛ دابینکەر/وەرگر، وەسف و پسووڵەی PDF یان وێنە هەڵبژاردەیین.",
           "result": "ئەگەر پشتڕاستکردنەوە و پاشەکەوتکردن سەرکەوتوو بن، خەرجییەکە بۆ ئەو پاکێجە زیاد دەکرێت.",
           "notes": "پاکێجی دروست هەڵبژێرە و تەنها تێچووی ڕاستەقینە تۆمار بکە. پسووڵەکان بپارێزە و خەرجییەک کە لە شوێنێکی تر تۆمار کراوە دووبارە مەکەوە."
         },
@@ -7673,7 +7673,7 @@
           "purpose": "Lêçûnekê li tomarên darayî yên pakêta xebata hilbijartî zêde dike.",
           "when": "Dema ku tu lêçûnekê tomar dikî ku rasterast bi pakêteke xebatê ya taybet ve girêdayî ye.",
           "how": "Dîrok û mîqdara lêçûnê binivîse, kategoriyê hilbijêre, dabînker/wergir û ravekirinê zêde bike, delîl hebe pêve bike, paşê Add Expense hilbijêre.",
-          "inputs": "Dîrok, mîqdar, kategorî, dabînker an wergir û ravekirina lêçûnê binivîse; ger hebe fatûre an belgeya piştgir pêve bike.",
+          "inputs": "Dîrokeke lêçûnê ya derbasdar û mîqdarek ji sifirê mezintir pêwîst in. Kategoriyek hilbijêre; dabînker/wergir, ravekirin û mezaqeke PDF an wêne vebijarkî ne.",
           "result": "Ger kontrol û tomarkirin serkeftî bin, lêçûn li wê pakêtê tê zêdekirin.",
           "notes": "Pakêta rast hilbijêre û tenê lêçûna rastîn tomar bike. Fatûre biparêze û lêçûnekê ku li cihê din hatiye tomarkirin dubare neke."
         },
@@ -7681,7 +7681,7 @@
           "purpose": "Seçilen iş paketinin mali kayıtlarına bir gider ekler.",
           "when": "Belirli bir iş paketine doğrudan ait bir maliyeti kaydederken kullanın.",
           "how": "Gider tarihini ve tutarını girin, kategori seçin, tedarikçi/alıcı ve açıklama ekleyin, varsa belgeyi iliştirin ve Add Expense'i seçin.",
-          "inputs": "Gider tarihini, tutarını, kategorisini, tedarikçi veya alıcıyı ve açıklamasını girin; varsa makbuz ya da destekleyici belge ekleyin.",
+          "inputs": "Geçerli bir gider tarihi ve sıfırdan büyük bir tutar zorunludur. Bir kategori seçin; tedarikçi/alıcı, açıklama ve PDF/resim makbuzu isteğe bağlıdır.",
           "result": "Doğrulama ve kayıt başarılı olursa gider ilgili pakete eklenir.",
           "notes": "Doğru paketi seçin ve yalnızca gerçek maliyeti kaydedin. Makbuzları saklayın; başka yerde kaydedilmiş bir gideri tekrar girmeyin."
         },
@@ -7689,7 +7689,7 @@
           "purpose": "Dodaje wydatek do danych finansowych wybranego pakietu prac.",
           "when": "Użyj podczas rejestrowania kosztu bezpośrednio przypisanego do konkretnego pakietu prac.",
           "how": "Wprowadź datę i kwotę wydatku, wybierz kategorię, podaj dostawcę/odbiorcę i opis, dołącz dowód, jeśli jest dostępny, a następnie wybierz Add Expense.",
-          "inputs": "Wprowadź datę, kwotę, kategorię, dostawcę lub odbiorcę oraz opis wydatku; dołącz paragon lub dokument potwierdzający, jeśli jest dostępny.",
+          "inputs": "Wymagana jest prawidłowa data wydatku i kwota większa od zera. Wybierz kategorię; dostawca/odbiorca, opis i paragon w formacie PDF lub obrazu są opcjonalne.",
           "result": "Jeśli walidacja i zapis zakończą się pomyślnie, wydatek zostanie dodany do tego pakietu.",
           "notes": "Wybierz właściwy pakiet i zapisuj wyłącznie rzeczywiste koszty. Zachowaj paragony i nie duplikuj kosztu zarejestrowanego w innym miejscu."
         },
@@ -7697,7 +7697,7 @@
           "purpose": "منتخب ورک پیکیج کے مالی ریکارڈ میں خرچ شامل کرتا ہے۔",
           "when": "جب کسی مخصوص ورک پیکیج سے براہِ راست متعلق لاگت درج کرنی ہو تو استعمال کریں۔",
           "how": "خرچ کی تاریخ اور رقم درج کریں، زمرہ منتخب کریں، سپلائر/وصول کنندہ اور تفصیل شامل کریں، دستیاب ہو تو ثبوت منسلک کریں، پھر Add Expense منتخب کریں۔",
-          "inputs": "خرچ کی تاریخ، رقم، زمرہ، سپلائر یا وصول کنندہ اور تفصیل درج کریں؛ دستیاب ہو تو رسید یا معاون دستاویز منسلک کریں۔",
+          "inputs": "درست اخراجاتی تاریخ اور صفر سے زیادہ رقم لازمی ہیں۔ ایک زمرہ منتخب کریں؛ سپلائر/وصول کنندہ، تفصیل اور PDF یا تصویر کی رسید اختیاری ہیں۔",
           "result": "توثیق اور محفوظ کرنے کا عمل کامیاب ہو تو خرچ اسی پیکیج میں شامل ہو جاتا ہے۔",
           "notes": "درست پیکیج منتخب کریں اور صرف حقیقی لاگت درج کریں۔ رسیدیں محفوظ رکھیں اور کسی دوسری جگہ درج شدہ خرچ دوبارہ شامل نہ کریں۔"
         },
@@ -7705,7 +7705,7 @@
           "purpose": "ਚੁਣੇ ਵਰਕ ਪੈਕੇਜ ਦੇ ਵਿੱਤੀ ਰਿਕਾਰਡ ਵਿੱਚ ਖਰਚਾ ਜੋੜਦਾ ਹੈ।",
           "when": "ਜਦੋਂ ਕਿਸੇ ਖਾਸ ਵਰਕ ਪੈਕੇਜ ਨਾਲ ਸਿੱਧਾ ਜੁੜਿਆ ਖਰਚਾ ਦਰਜ ਕਰਨਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
           "how": "ਖਰਚੇ ਦੀ ਤਾਰੀਖ ਅਤੇ ਰਕਮ ਭਰੋ, ਸ਼੍ਰੇਣੀ ਚੁਣੋ, ਸਪਲਾਇਰ/ਪ੍ਰਾਪਤਕਰਤਾ ਅਤੇ ਵੇਰਵਾ ਜੋੜੋ, ਉਪਲਬਧ ਹੋਵੇ ਤਾਂ ਸਬੂਤ ਲਗਾਓ, ਫਿਰ Add Expense ਚੁਣੋ।",
-          "inputs": "ਖਰਚੇ ਦੀ ਤਾਰੀਖ, ਰਕਮ, ਸ਼੍ਰੇਣੀ, ਸਪਲਾਇਰ ਜਾਂ ਪ੍ਰਾਪਤਕਰਤਾ ਅਤੇ ਵੇਰਵਾ ਭਰੋ; ਉਪਲਬਧ ਹੋਵੇ ਤਾਂ ਰਸੀਦ ਜਾਂ ਸਹਾਇਕ ਦਸਤਾਵੇਜ਼ ਲਗਾਓ।",
+          "inputs": "ਖਰਚੇ ਦੀ ਵੈਧ ਤਾਰੀਖ ਅਤੇ ਸਿਫ਼ਰ ਤੋਂ ਵੱਧ ਰਕਮ ਲਾਜ਼ਮੀ ਹਨ। ਇੱਕ ਸ਼੍ਰੇਣੀ ਚੁਣੋ; ਸਪਲਾਇਰ/ਪ੍ਰਾਪਤਕਰਤਾ, ਵੇਰਵਾ ਅਤੇ PDF/ਤਸਵੀਰ ਰਸੀਦ ਵਿਕਲਪਿਕ ਹਨ।",
           "result": "ਜਾਂਚ ਅਤੇ ਸੇਵ ਕਰਨਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਖਰਚਾ ਉਸ ਪੈਕੇਜ ਵਿੱਚ ਜੋੜਿਆ ਜਾਂਦਾ ਹੈ।",
           "notes": "ਸਹੀ ਪੈਕੇਜ ਚੁਣੋ ਅਤੇ ਸਿਰਫ਼ ਅਸਲ ਖਰਚਾ ਦਰਜ ਕਰੋ। ਰਸੀਦਾਂ ਸੰਭਾਲੋ ਅਤੇ ਹੋਰ ਥਾਂ ਦਰਜ ਖਰਚਾ ਦੁਬਾਰਾ ਨਾ ਪਾਓ।"
         },
@@ -7713,7 +7713,7 @@
           "purpose": "هزینه‌ای به سوابق مالی بسته کاری انتخاب‌شده اضافه می‌کند.",
           "when": "وقتی هزینه‌ای را ثبت می‌کنید که مستقیماً به یک بسته کاری مشخص مربوط است، استفاده کنید.",
           "how": "تاریخ و مبلغ هزینه را وارد کنید، دسته‌بندی را انتخاب کنید، فروشنده/دریافت‌کننده و شرح را بنویسید، در صورت وجود مدرک پیوست کنید و سپس Add Expense را انتخاب کنید.",
-          "inputs": "تاریخ، مبلغ، دسته‌بندی، فروشنده یا دریافت‌کننده و شرح هزینه را وارد کنید؛ در صورت وجود رسید یا سند پشتیبان پیوست کنید.",
+          "inputs": "تاریخ معتبر هزینه و مبلغ بیشتر از صفر الزامی است. یک دسته‌بندی انتخاب کنید؛ فروشنده/دریافت‌کننده، شرح و رسید PDF یا تصویر اختیاری هستند.",
           "result": "در صورت موفقیت اعتبارسنجی و ذخیره، هزینه به همان بسته اضافه می‌شود.",
           "notes": "بسته درست را انتخاب کنید و فقط هزینه واقعی را ثبت کنید. رسیدها را نگه دارید و هزینه‌ای را که در جای دیگری ثبت شده دوباره وارد نکنید."
         },
@@ -7721,7 +7721,7 @@
           "purpose": "د ټاکل شوې کاري بستې مالي ریکارډونو ته لګښت زیاتوي.",
           "when": "کله چې داسې لګښت ثبتوئ چې په مستقیم ډول له یوې ځانګړې کاري بستې سره تړاو لري، دا وکاروئ.",
           "how": "د لګښت نېټه او اندازه ولیکئ، کټګوري وټاکئ، عرضه کوونکی/ترلاسه کوونکی او تشریح ورزیاته کړئ، که ثبوت وي ضمیمه یې کړئ، بیا Add Expense وټاکئ.",
-          "inputs": "د لګښت نېټه، اندازه، کټګوري، عرضه کوونکی یا ترلاسه کوونکی او تشریح ولیکئ؛ که وي رسید یا ملاتړی سند ضمیمه کړئ.",
+          "inputs": "د لګښت سمه نېټه او له صفر څخه زیاته اندازه اړین دي. یوه کټګوري وټاکئ؛ عرضه کوونکی/ترلاسه کوونکی، تشریح او د PDF یا انځور رسید اختیاري دي.",
           "result": "که ارزونه او خوندي کول بریالي شي، لګښت هماغې بستې ته زیاتېږي.",
           "notes": "سمه بسته وټاکئ او یوازې اصلي لګښت ثبت کړئ. رسیدونه وساتئ او هغه لګښت بیا مه ثبتوئ چې بل ځای ثبت شوی وي."
         }
@@ -7747,7 +7747,7 @@
           "purpose": "پرداختی را که واقعاً برای کار شرکتی انتخاب‌شده دریافت شده ثبت می‌کند.",
           "when": "وقتی پرداخت مشتری/شرکت دریافت شده و باید مبلغ ناخالص، کسورات و دریافتی خالص آن ثبت شود، از این گزینه استفاده کنید.",
           "how": "تاریخ پرداخت، مبلغ ناخالص، نوع و مبلغ کسری، نحوه برخورد مالیاتی/VAT، مبلغ خالص و مرجع را وارد کنید؛ در صورت وجود رسید پرداخت پیوست و Record Payment را انتخاب کنید.",
-          "inputs": "تاریخ پرداخت، مبلغ ناخالص، نوع و مبلغ کسری، نحوه برخورد مالیاتی/VAT، مبلغ خالص و مرجع را وارد کنید؛ در صورت وجود مدرک حواله پیوست کنید.",
+          "inputs": "تاریخ معتبر پرداخت، مبلغ ناخالص بیشتر از صفر و مبلغ خالص بیشتر از صفر الزامی هستند. مبلغ کسری نباید از مبلغ ناخالص بیشتر باشد. نوع کسری و نحوه برخورد مالیاتی/VAT را انتخاب کنید؛ مرجع، یادداشت‌ها و مدرک حواله اختیاری هستند.",
           "result": "در صورت موفقیت، پرداخت در سوابق همان کار ذخیره می‌شود.",
           "notes": "فقط پولی را ثبت کنید که واقعاً دریافت شده است. تطابق مبلغ ناخالص، کسورات و خالص را بررسی کنید. این پرداخت به Accountancy منتقل یا کپی نمی‌شود؛ اگر درباره مالیات/CIS/VAT مطمئن نیستید از حسابدار بپرسید."
         },
@@ -7755,7 +7755,7 @@
           "purpose": "يسجل دفعة مستلمة فعلياً عن وظيفة الشركة المحددة.",
           "when": "عند استلام دفعة من العميل أو الشركة والحاجة إلى تسجيل المبلغ الإجمالي والاستقطاعات وصافي المبلغ المستلم.",
           "how": "أدخل تاريخ الدفع والمبلغ الإجمالي ونوع الاستقطاع ومبلغه والمعالجة الضريبية أو ضريبة القيمة المضافة وصافي المبلغ والمرجع؛ وأرفق إثبات التحويل إن توفر، ثم اختر Record Payment.",
-          "inputs": "أدخل تاريخ الدفع والمبلغ الإجمالي ونوع الاستقطاع ومبلغه والمعالجة الضريبية/ضريبة القيمة المضافة وصافي المبلغ والمرجع، وأرفق إثبات التحويل إن توفر.",
+          "inputs": "يلزم تاريخ دفع صالح ومبلغ إجمالي أكبر من صفر ومبلغ صافٍ أكبر من صفر. يجب ألا يتجاوز الخصم المبلغ الإجمالي. اختر نوع الخصم ومعالجة الضريبة/VAT؛ المرجع والملاحظات وإثبات التحويل اختيارية.",
           "result": "يُحفظ الدفع في سجلات الوظيفة إذا نجحت العملية.",
           "notes": "سجل الأموال المستلمة فعلياً فقط. طابق الإجمالي والاستقطاعات والصافي. لا تُرحّل هذه الدفعة إلى Accountancy ولا تُربط به أو تُنسخ إليه؛ استشر المحاسب بشأن الضرائب أو CIS أو VAT عند الشك."
         },
@@ -7763,7 +7763,7 @@
           "purpose": "پارەیەک تۆمار دەکات کە بەڕاستی بۆ کاری کۆمپانیای هەڵبژێردراو وەرگیراوە.",
           "when": "کاتێک پارەی کڕیار/کۆمپانیا وەرگیراوە و پێویستە بڕی گشتی، لێبڕین و بڕی پاک تۆمار بکەیت.",
           "how": "بەرواری پارەدان، بڕی گشتی، جۆر و بڕی لێبڕین، مامەڵەی باج/VAT، بڕی پاک و ژمارەی سەرچاوە بنووسە؛ ئەگەر بەڵگەی گواستنەوە هەبوو هاوپێچی بکە، پاشان Record Payment هەڵبژێرە.",
-          "inputs": "بەروار، بڕی گشتی، جۆر و بڕی لێبڕین، مامەڵەی باج/VAT، بڕی پاک و ژمارەی سەرچاوە بنووسە؛ ئەگەر بەڵگە هەبوو هاوپێچی بکە.",
+          "inputs": "بەروارێکی دروستی پارەدان، بڕی گشتی زیاتر لە سفر و بڕی پاکی زیاتر لە سفر پێویستن. بڕی لێبڕین نابێت لە بڕی گشتی زیاتر بێت. جۆری لێبڕین و مامەڵەی باج/VAT هەڵبژێرە؛ ئاماژە، تێبینی و بەڵگەی حوالە هەڵبژاردەیین.",
           "result": "ئەگەر کردارەکە سەرکەوتوو بێت، پارەدانەکە لە تۆمارەکانی ئەو کارەدا پاشەکەوت دەکرێت.",
           "notes": "تەنها ئەو پارەیە تۆمار بکە کە بەڕاستی وەرگیراوە. هاوتایی بڕی گشتی، لێبڕین و بڕی پاک بپشکنە. ئەم پارەدانە بۆ Accountancy نانێردرێت و پێوەندی یان کۆپی ناکرێت؛ لەبارەی باج/CIS/VAT لەگەڵ ژمێریار گفتوگۆ بکە ئەگەر دڵنیا نیت."
         },
@@ -7771,7 +7771,7 @@
           "purpose": "Dravdanekê ku bi rastî ji bo karê pargîdaniya hilbijartî hatiye wergirtin tomar dike.",
           "when": "Dema ku dravê xerîdar/pargîdanî hatiye wergirtin û divê mîqdara giştî, kêmtî û mîqdara paqij tomar bikî.",
           "how": "Dîroka dravdanê, mîqdara giştî, cure û mîqdara kêmtî, awayê bac/VAT, mîqdara paqij û referansê binivîse; ger hebe belgeya veguhastinê pêve bike, paşê Record Payment hilbijêre.",
-          "inputs": "Dîrok, mîqdara giştî, cure û mîqdara kêmtî, awayê bac/VAT, mîqdara paqij û referansê binivîse; ger hebe belgeya veguhastinê pêve bike.",
+          "inputs": "Dîrokeke dravdanê ya derbasdar, mîqdara giştî ya ji sifirê mezintir û mîqdara paqij ya ji sifirê mezintir pêwîst in. Mîqdara kêmtîyê divê ji mîqdara giştî mezintir nebe. Cureya kêmtî û awayê bac/VAT hilbijêre; referans, not û delîla veguheztinê vebijarkî ne.",
           "result": "Ger kiryar serkeftî be, dravdan di tomarên wê karê de tê tomarkirin.",
           "notes": "Tenê dravê ku bi rastî hatiye wergirtin tomar bike. Giştî, kêmtî û paqij li hev bike. Ev dravdan nayê şandin, girêdan an kopîkirin bo Accountancy; heke li ser bac/CIS/VAT nezelalî hebe bi hesabdar re biaxive."
         },
@@ -7779,7 +7779,7 @@
           "purpose": "Seçilen şirket işi için gerçekten alınmış bir ödemeyi kaydeder.",
           "when": "Müşteri veya şirket ödemesi ulaştığında brüt tutarı, kesintileri ve net tahsilatı kaydetmek için kullanın.",
           "how": "Ödeme tarihini, brüt tutarı, kesinti türü ve tutarını, vergi/KDV uygulamasını, net tutarı ve referansı girin; varsa havale belgesini ekleyin ve Record Payment'i seçin.",
-          "inputs": "Ödeme tarihi, brüt tutar, kesinti türü ve tutarı, vergi/KDV işlemi, net tutar ve referansı girin; varsa havale kanıtını ekleyin.",
+          "inputs": "Geçerli ödeme tarihi, sıfırdan büyük brüt tutar ve sıfırdan büyük net tutar zorunludur. Kesinti tutarı brüt tutarı aşmamalıdır. Kesinti türünü ve vergi/KDV işlemini seçin; referans, notlar ve havale kanıtı isteğe bağlıdır.",
           "result": "İşlem başarılı olursa ödeme ilgili işin kayıtlarına kaydedilir.",
           "notes": "Yalnızca gerçekten alınan parayı kaydedin. Brüt, kesinti ve net tutarların uyuştuğunu kontrol edin. Bu ödeme Accountancy'ye aktarılmaz, bağlanmaz veya kopyalanmaz; vergi/CIS/KDV konusunda emin değilseniz muhasebecinize danışın."
         },
@@ -7787,7 +7787,7 @@
           "purpose": "Rejestruje płatność faktycznie otrzymaną za wybrane zlecenie firmy.",
           "when": "Użyj, gdy otrzymano płatność od klienta lub firmy i trzeba zapisać kwotę brutto, potrącenia oraz kwotę netto.",
           "how": "Wprowadź datę płatności, kwotę brutto, rodzaj i kwotę potrącenia, sposób rozliczenia podatku/VAT, kwotę netto i numer referencyjny; dołącz potwierdzenie przelewu, jeśli jest dostępne, a następnie wybierz Record Payment.",
-          "inputs": "Wprowadź datę, kwotę brutto, rodzaj i kwotę potrącenia, sposób rozliczenia podatku/VAT, kwotę netto i numer referencyjny; dołącz potwierdzenie przelewu, jeśli jest dostępne.",
+          "inputs": "Wymagane są prawidłowa data płatności, kwota brutto większa od zera i kwota netto większa od zera. Potrącenie nie może przekraczać kwoty brutto. Wybierz rodzaj potrącenia i sposób rozliczenia podatku/VAT; numer referencyjny, notatki i potwierdzenie przelewu są opcjonalne.",
           "result": "Jeśli operacja się powiedzie, płatność zostanie zapisana w danych tego zlecenia.",
           "notes": "Rejestruj wyłącznie faktycznie otrzymane środki. Sprawdź zgodność kwoty brutto, potrąceń i netto. Płatność nie jest księgowana, łączona ani kopiowana do Accountancy; w razie wątpliwości skonsultuj z księgowym rozliczenie podatku/CIS/VAT."
         },
@@ -7795,7 +7795,7 @@
           "purpose": "منتخب کمپنی کے کام کے لیے حقیقتاً وصول شدہ ادائیگی درج کرتا ہے۔",
           "when": "جب گاہک یا کمپنی کی ادائیگی موصول ہو اور مجموعی رقم، کٹوتیاں اور خالص وصولی درج کرنی ہو تو استعمال کریں۔",
           "how": "ادائیگی کی تاریخ، مجموعی رقم، کٹوتی کی قسم اور رقم، ٹیکس/VAT کا طریقۂ حساب، خالص رقم اور حوالہ درج کریں؛ دستیاب ہو تو ترسیلِ زر کا ثبوت منسلک کریں، پھر Record Payment منتخب کریں۔",
-          "inputs": "ادائیگی کی تاریخ، مجموعی رقم، کٹوتی کی قسم اور رقم، ٹیکس/VAT کا طریقۂ حساب، خالص رقم اور حوالہ درج کریں؛ دستیاب ہو تو ادائیگی کا ثبوت منسلک کریں۔",
+          "inputs": "درست ادائیگی کی تاریخ، صفر سے زیادہ مجموعی رقم اور صفر سے زیادہ خالص رقم لازمی ہیں۔ کٹوتی مجموعی رقم سے زیادہ نہیں ہو سکتی۔ کٹوتی کی قسم اور ٹیکس/VAT کا طریقۂ کار منتخب کریں؛ حوالہ، نوٹس اور ترسیلِ زر کا ثبوت اختیاری ہیں۔",
           "result": "کارروائی کامیاب ہونے پر ادائیگی اسی کام کے ریکارڈ میں محفوظ ہو جاتی ہے۔",
           "notes": "صرف حقیقتاً وصول شدہ رقم درج کریں۔ مجموعی، کٹوتی اور خالص رقم کا حساب ملائیں۔ یہ ادائیگی Accountancy میں منتقل، منسلک یا نقل نہیں ہوتی؛ ٹیکس/CIS/VAT کے بارے میں شک ہو تو اکاؤنٹنٹ سے پوچھیں۔"
         },
@@ -7803,7 +7803,7 @@
           "purpose": "ਚੁਣੀ ਕੰਪਨੀ ਦੇ ਕੰਮ ਲਈ ਅਸਲ ਵਿੱਚ ਮਿਲੀ ਭੁਗਤਾਨ ਰਕਮ ਦਰਜ ਕਰਦਾ ਹੈ।",
           "when": "ਜਦੋਂ ਗਾਹਕ ਜਾਂ ਕੰਪਨੀ ਦਾ ਭੁਗਤਾਨ ਮਿਲ ਗਿਆ ਹੋਵੇ ਅਤੇ ਕੁੱਲ ਰਕਮ, ਕਟੌਤੀਆਂ ਅਤੇ ਨੈੱਟ ਪ੍ਰਾਪਤੀ ਦਰਜ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
           "how": "ਭੁਗਤਾਨ ਦੀ ਤਾਰੀਖ, ਕੁੱਲ ਰਕਮ, ਕਟੌਤੀ ਦੀ ਕਿਸਮ ਅਤੇ ਰਕਮ, ਟੈਕਸ/VAT ਦਾ ਹਿਸਾਬ, ਨੈੱਟ ਰਕਮ ਅਤੇ ਹਵਾਲਾ ਭਰੋ; ਉਪਲਬਧ ਹੋਵੇ ਤਾਂ ਰਕਮ ਭੇਜਣ ਦਾ ਸਬੂਤ ਲਗਾਓ, ਫਿਰ Record Payment ਚੁਣੋ।",
-          "inputs": "ਭੁਗਤਾਨ ਦੀ ਤਾਰੀਖ, ਕੁੱਲ ਰਕਮ, ਕਟੌਤੀ ਦੀ ਕਿਸਮ ਅਤੇ ਰਕਮ, ਟੈਕਸ/VAT ਦਾ ਹਿਸਾਬ, ਨੈੱਟ ਰਕਮ ਅਤੇ ਹਵਾਲਾ ਭਰੋ; ਉਪਲਬਧ ਹੋਵੇ ਤਾਂ ਭੁਗਤਾਨ ਦਾ ਸਬੂਤ ਲਗਾਓ।",
+          "inputs": "ਵੈਧ ਭੁਗਤਾਨ ਤਾਰੀਖ, ਸਿਫ਼ਰ ਤੋਂ ਵੱਧ ਕੁੱਲ ਰਕਮ ਅਤੇ ਸਿਫ਼ਰ ਤੋਂ ਵੱਧ ਨਿੱਟ ਰਕਮ ਲਾਜ਼ਮੀ ਹਨ। ਕਟੌਤੀ ਦੀ ਰਕਮ ਕੁੱਲ ਰਕਮ ਤੋਂ ਵੱਧ ਨਹੀਂ ਹੋਣੀ ਚਾਹੀਦੀ। ਕਟੌਤੀ ਦੀ ਕਿਸਮ ਅਤੇ ਟੈਕਸ/VAT ਦਾ ਤਰੀਕਾ ਚੁਣੋ; ਹਵਾਲਾ, ਨੋਟਸ ਅਤੇ ਰਕਮ ਭੇਜਣ ਦਾ ਸਬੂਤ ਵਿਕਲਪਿਕ ਹਨ।",
           "result": "ਕਾਰਵਾਈ ਸਫਲ ਹੋਣ 'ਤੇ ਭੁਗਤਾਨ ਉਸ ਕੰਮ ਦੇ ਰਿਕਾਰਡ ਵਿੱਚ ਸੇਵ ਹੋ ਜਾਂਦਾ ਹੈ।",
           "notes": "ਸਿਰਫ਼ ਅਸਲ ਵਿੱਚ ਮਿਲੇ ਪੈਸੇ ਦਰਜ ਕਰੋ। ਕੁੱਲ, ਕਟੌਤੀਆਂ ਅਤੇ ਨੈੱਟ ਰਕਮ ਦਾ ਮਿਲਾਣ ਕਰੋ। ਇਹ ਭੁਗਤਾਨ Accountancy ਵਿੱਚ ਭੇਜਿਆ, ਜੋੜਿਆ ਜਾਂ ਕਾਪੀ ਨਹੀਂ ਹੁੰਦਾ; ਟੈਕਸ/CIS/VAT ਬਾਰੇ ਸ਼ੱਕ ਹੋਵੇ ਤਾਂ ਅਕਾਊਂਟੈਂਟ ਨਾਲ ਗੱਲ ਕਰੋ।"
         },
@@ -7811,7 +7811,7 @@
           "purpose": "پرداختی را که واقعاً برای کار شرکتی انتخاب‌شده دریافت شده ثبت می‌کند.",
           "when": "وقتی پرداخت مشتری یا شرکت دریافت شده و باید مبلغ ناخالص، کسورات و دریافتی خالص ثبت شود، استفاده کنید.",
           "how": "تاریخ پرداخت، مبلغ ناخالص، نوع و مبلغ کسری، نحوه برخورد مالیاتی/VAT، مبلغ خالص و مرجع را وارد کنید؛ در صورت وجود مدرک حواله پیوست کنید و سپس Record Payment را انتخاب کنید.",
-          "inputs": "تاریخ، مبلغ ناخالص، نوع و مبلغ کسری، نحوه برخورد مالیاتی/VAT، مبلغ خالص و مرجع را وارد کنید؛ در صورت وجود مدرک حواله پیوست کنید.",
+          "inputs": "تاریخ معتبر پرداخت، مبلغ ناخالص بیشتر از صفر و مبلغ خالص بیشتر از صفر الزامی هستند. مبلغ کسری نباید از مبلغ ناخالص بیشتر باشد. نوع کسری و نحوه برخورد مالیاتی/VAT را انتخاب کنید؛ مرجع، یادداشت‌ها و مدرک حواله اختیاری هستند.",
           "result": "در صورت موفقیت عملیات، پرداخت در سوابق همان کار ذخیره می‌شود.",
           "notes": "فقط پولی را ثبت کنید که واقعاً دریافت شده است. تطابق مبلغ ناخالص، کسورات و خالص را بررسی کنید. این پرداخت به Accountancy منتقل، مرتبط یا کپی نمی‌شود؛ در صورت تردید درباره مالیات/CIS/VAT با حسابدار مشورت کنید."
         },
@@ -7819,7 +7819,7 @@
           "purpose": "هغه پیسې ثبتوي چې د ټاکل شوي شرکت د کار لپاره په رښتیا ترلاسه شوې وي.",
           "when": "کله چې د پېرودونکي یا شرکت پیسې ترلاسه شي او ټولیزه اندازه، کسرونه او خالص ترلاسه شوې پیسې ثبتول غواړئ، دا وکاروئ.",
           "how": "د تادیې نېټه، ټولیزه اندازه، د کسر ډول او اندازه، د مالیې/VAT چلند، خالصه اندازه او حواله ولیکئ؛ که د پیسو د لېږد ثبوت وي ضمیمه یې کړئ، بیا Record Payment وټاکئ.",
-          "inputs": "د تادیې نېټه، ټولیزه اندازه، د کسر ډول او اندازه، د مالیې/VAT چلند، خالصه اندازه او حواله ولیکئ؛ که وي د تادیې ثبوت ضمیمه کړئ.",
+          "inputs": "د تادیې سمه نېټه، له صفر څخه زیاته ناخالصه اندازه او له صفر څخه زیاته خالصه اندازه اړین دي. د کسر اندازه باید له ناخالصې اندازې زیاته نه وي. د کسر ډول او د مالیې/VAT چلند وټاکئ؛ مرجع، یادښتونه او د لېږد ثبوت اختیاري دي.",
           "result": "که عملیات بریالي شي، تادیه د هماغه کار په ریکارډونو کې خوندي کېږي.",
           "notes": "یوازې هغه پیسې ثبت کړئ چې په رښتیا ترلاسه شوې وي. ټولیزه، کسرونه او خالصه اندازه سره پرتله کړئ. دا تادیه Accountancy ته نه لېږل کېږي، نه ورسره تړل کېږي او نه کاپي کېږي؛ د مالیې/CIS/VAT په اړه له محاسب سره مشوره وکړئ."
         }
@@ -7842,84 +7842,84 @@
           "notes": "Confirm only after funds have actually been received. If a possible duplicate income entry is found, review the warning before continuing. Keep evidence of the payment."
         },
         "fa": {
-          "purpose": "جزئیات پرداخت فاکتوری را که برای تأیید پرداخت انتخاب شده ثبت می‌کند.",
-          "when": "وقتی مشتری پرداخت کرده و باید تاریخ و روش پرداخت را ثبت کنید، از این گزینه استفاده کنید.",
-          "how": "فاکتور را بررسی کنید، تاریخ واقعی پرداخت و روش آن را انتخاب و Confirm payment را بزنید.",
-          "inputs": "فاکتور درست، تاریخ دریافت وجه و روش واقعی پرداخت را انتخاب کنید.",
-          "result": "در صورت موفقیت تأیید، وضعیت پرداخت فاکتور به‌روزرسانی می‌شود.",
-          "notes": "فقط پس از دریافت واقعی وجه تأیید کنید. این عملیات وضعیت پرداخت فاکتور را تغییر می‌دهد؛ بررسی کنید آیا ثبت حسابداری متناظر باید جداگانه انجام شود."
+          "purpose": "جزئیات پرداخت فاکتور را تأیید می‌کند، فاکتور را پرداخت‌شده ثبت می‌کند و یک درآمد مرتبط در Accountancy ایجاد یا به‌روزرسانی می‌کند.",
+          "when": "پس از آن استفاده کنید که مشتری واقعاً پرداخت کرده باشد، گزینه Mark paid را انتخاب کرده و جزئیات پرداخت را وارد کرده باشید.",
+          "how": "در پنجره پرداخت، فاکتور را بررسی کنید، تاریخ دریافت وجه را وارد کنید، Cash یا Bank transfer را انتخاب و سپس Confirm payment را بزنید.",
+          "inputs": "تاریخ معتبر پرداخت و روش پرداخت (Cash یا Bank transfer) الزامی هستند. فاکتور از پنجره پرداخت مشخص می‌شود؛ مبلغ از جمع کل فاکتور گرفته می‌شود.",
+          "result": "در صورت موفقیت ذخیره، فاکتور پرداخت‌شده و صادرشده علامت‌گذاری می‌شود. یک ثبت درآمد مرتبط در Accountancy ایجاد می‌شود یا ثبت درآمد مرتبطِ موجود به‌روزرسانی می‌شود. برنامه ذخیره در IndexedDB را تأیید می‌کند.",
+          "notes": "فقط پس از دریافت واقعی وجه تأیید کنید. اگر احتمال ثبت درآمد تکراری وجود دارد، پیش از ادامه هشدار را بررسی کنید. مدرک پرداخت را نگه دارید."
         },
         "ar": {
-          "purpose": "يسجل تفاصيل الدفع لفاتورة محددة بانتظار تأكيد الدفع.",
-          "when": "عندما يدفع العميل وتحتاج إلى تسجيل تاريخ الدفع وطريقته.",
-          "how": "راجع الفاتورة، واختر تاريخ الدفع الفعلي وطريقته، ثم اختر Confirm payment.",
-          "inputs": "حدد الفاتورة الصحيحة وتاريخ استلام المبلغ وطريقة الدفع الفعلية.",
-          "result": "تتحدث حالة دفع الفاتورة إذا نجح التأكيد.",
-          "notes": "لا تؤكد إلا بعد استلام الأموال فعلياً. يغيّر هذا الإجراء حالة دفع الفاتورة؛ تحقق مما إذا كان يلزم إنشاء قيد محاسبي منفصل."
+          "purpose": "يؤكد تفاصيل دفع الفاتورة، ويسجلها على أنها مدفوعة، وينشئ قيد دخل مرتبطًا في Accountancy أو يحدّث القيد المطابق الموجود.",
+          "when": "استخدمه بعد أن يكون العميل قد دفع فعليًا، وبعد اختيار Mark paid وإدخال تفاصيل الدفع.",
+          "how": "في نافذة الدفع، تحقق من الفاتورة، وأدخل تاريخ استلام الأموال، واختر Cash أو Bank transfer، ثم اختر Confirm payment.",
+          "inputs": "يلزم تاريخ دفع صالح وطريقة دفع (Cash أو Bank transfer). تحدد نافذة الدفع الفاتورة، ويؤخذ المبلغ من إجمالي الفاتورة.",
+          "result": "إذا نجح الحفظ، تُعلَّم الفاتورة بأنها مدفوعة وصادرة. يُنشأ قيد دخل مرتبط في Accountancy أو يُحدّث قيد دخل مطابق موجود. ويتحقق التطبيق من الحفظ في IndexedDB.",
+          "notes": "لا تؤكد إلا بعد استلام الأموال فعليًا. إذا ظهر احتمال وجود قيد دخل مكرر، فراجع التحذير قبل المتابعة. احتفظ بإثبات الدفع."
         },
         "ckb": {
-          "purpose": "وردەکارییەکانی پارەدانی فاکتۆرێک تۆمار دەکات کە بۆ پشتڕاستکردنەوەی پارەدان دیاری کراوە.",
-          "when": "کاتێک کڕیار پارەی داوە و پێویستە بەروار و شێوازی پارەدان تۆمار بکەیت.",
-          "how": "فاکتۆرەکە بپشکنە، بەروار و شێوازی ڕاستەقینەی پارەدان هەڵبژێرە، پاشان Confirm payment هەڵبژێرە.",
-          "inputs": "فاکتۆری دروست، بەرواری وەرگرتنی پارە و شێوازی پارەدانی ڕاستەقینە دیاری بکە.",
-          "result": "ئەگەر پشتڕاستکردنەوە سەرکەوتوو بێت، دۆخی پارەدانی فاکتۆرەکە نوێ دەکرێتەوە.",
-          "notes": "تەنها دوای وەرگرتنی ڕاستەقینەی پارە پشتڕاستی بکەرەوە. ئەم کردارە دۆخی پارەدانی فاکتۆر دەگۆڕێت؛ بپشکنە ئایا پێویستە تۆماری ژمێریارییەکی جیاواز دروست بکرێت."
+          "purpose": "وردەکارییەکانی پارەدانی فاکتۆر پشتڕاست دەکاتەوە، فاکتۆرەکە وەک پارەدراو تۆمار دەکات و تۆمارێکی داهاتی پەیوەندیدار لە Accountancy دروست دەکات یان نوێی دەکاتەوە.",
+          "when": "دوای ئەوە بەکاریبهێنە کە کڕیار بەڕاستی پارەی داوە، Mark paid هەڵبژێردراوە و وردەکارییەکانی پارەدان نووسراون.",
+          "how": "لە پەنجەرەی پارەداندا فاکتۆرەکە بپشکنە، بەرواری وەرگرتنی پارە بنووسە، Cash یان Bank transfer هەڵبژێرە، پاشان Confirm payment هەڵبژێرە.",
+          "inputs": "بەروارێکی دروستی پارەدان و شێوازی پارەدان (Cash یان Bank transfer) پێویستن. فاکتۆرەکە لە پەنجەرەی پارەدانەوە دیاری دەکرێت؛ بڕەکە لە کۆی گشتی فاکتۆرەکە وەردەگیرێت.",
+          "result": "ئەگەر پاشەکەوتکردن سەرکەوتوو بێت، فاکتۆرەکە وەک پارەدراو و دەرکراو نیشان دەکرێت. تۆمارێکی داهاتی پەیوەندیدار لە Accountancy دروست دەکرێت یان تۆمارێکی هاوتای هەبوو نوێ دەکرێتەوە. ئەپەکە پاشەکەوتکردن لە IndexedDB پشتڕاست دەکاتەوە.",
+          "notes": "تەنها دوای وەرگرتنی ڕاستەقینەی پارە پشتڕاستی بکەرەوە. ئەگەر ئەگەری تۆماری داهاتی دووبارە هەبوو، پێش بەردەوامبوون ئاگادارکردنەوەکە بپشکنە. بەڵگەی پارەدان بهێڵەوە."
         },
         "kmr": {
-          "purpose": "Hûrguliyên dravdana fatûreyekê ku ji bo piştrastkirina dravdanê hatiye nîşankirin tomar dike.",
-          "when": "Dema ku xerîdar drav daye û divê tu dîrok û awayê dravdanê tomar bikî.",
-          "how": "Fatûreyê kontrol bike, dîrok û awayê rastîn ê dravdanê hilbijêre, paşê Confirm payment hilbijêre.",
-          "inputs": "Fatûreya rast, dîroka wergirtina drav û awayê rastîn ê dravdanê hilbijêre.",
-          "result": "Ger piştrastkirin serkeftî be, rewşa dravdana fatûreyê nû dibe.",
-          "notes": "Tenê piştî ku drav bi rastî hatiye wergirtin piştrast bike. Ev kiryar rewşa dravdana fatûreyê diguherîne; kontrol bike ka tomarê hesabê yê cuda hewce ye an na."
+          "purpose": "Hûrguliyên dravdana fatûreyê piştrast dike, fatûreyê wekî hatiye dayîn tomar dike û tomarê dahata girêdayî di Accountancy de çêdike an tomara hevrêz a heyî nû dike.",
+          "when": "Piştî ku xerîdar bi rastî drav daye, Mark paid hilbijartiye û hûrguliyên dravdanê têxistî, vê bikar bîne.",
+          "how": "Di paceya dravdanê de fatûreyê kontrol bike, dîroka wergirtina drav binivîse, Cash an Bank transfer hilbijêre, paşê Confirm payment hilbijêre.",
+          "inputs": "Dîrokeke dravdanê ya derbasdar û awayê dravdanê (Cash an Bank transfer) pêwîst in. Fatûre di paceya dravdanê de tê nasîn; mîqdar ji tevahiya fatûreyê tê wergirtin.",
+          "result": "Heke tomarkirin serkeftî be, fatûre wekî hatiye dayîn û hatiye derxistin nîşan dide. Tomarek dahata girêdayî di Accountancy de tê çêkirin an tomara dahata hevrêz a heyî nû dibe. Sepan tomarkirina IndexedDB piştrast dike.",
+          "notes": "Tenê piştî wergirtina rastîn a dravê piştrast bike. Heke îhtîmala tomara dahata dubare hebe, berî domandinê hişyariyê kontrol bike. Delîla dravdanê biparêze."
         },
         "tr": {
-          "purpose": "Ödeme onayı bekleyen bir fatura için ödeme ayrıntılarını kaydeder.",
-          "when": "Müşteri ödeme yaptığında ve ödeme tarihini ve yöntemini kaydetmeniz gerektiğinde kullanın.",
-          "how": "Faturayı kontrol edin, gerçek ödeme tarihini ve yöntemini seçin, ardından Confirm payment'i seçin.",
-          "inputs": "Doğru faturayı, paranın alındığı tarihi ve fiilî ödeme yöntemini seçin.",
-          "result": "Onay başarılı olursa faturanın ödeme durumu güncellenir.",
-          "notes": "Yalnızca para gerçekten alındıktan sonra onaylayın. Bu işlem faturanın ödeme durumunu değiştirir; ayrıca muhasebe kaydı gerekip gerekmediğini kontrol edin."
+          "purpose": "Fatura ödeme ayrıntılarını onaylar, faturayı ödenmiş olarak kaydeder ve Accountancy içinde bağlantılı bir gelir kaydı oluşturur veya eşleşen mevcut kaydı günceller.",
+          "when": "Müşteri gerçekten ödeme yaptıktan, Mark paid seçeneğini belirledikten ve ödeme ayrıntılarını girdikten sonra kullanın.",
+          "how": "Ödeme penceresinde faturayı kontrol edin, paranın alındığı tarihi girin, Cash veya Bank transfer seçin ve ardından Confirm payment düğmesini seçin.",
+          "inputs": "Geçerli bir ödeme tarihi ve ödeme yöntemi (Cash veya Bank transfer) zorunludur. Fatura ödeme penceresinde belirlenir; tutar faturanın toplamından alınır.",
+          "result": "Kaydetme başarılı olursa fatura ödenmiş ve düzenlenmiş olarak işaretlenir. Accountancy içinde bağlantılı bir gelir kaydı oluşturulur veya eşleşen mevcut gelir kaydı güncellenir. Uygulama IndexedDB kaydını doğrular.",
+          "notes": "Yalnızca para gerçekten alındıktan sonra onaylayın. Yinelenen bir gelir kaydı olasılığı uyarısı görünürse devam etmeden önce uyarıyı inceleyin. Ödeme kanıtını saklayın."
         },
         "pl": {
-          "purpose": "Zapisuje szczegóły płatności dla faktury oczekującej na potwierdzenie zapłaty.",
-          "when": "Użyj, gdy klient zapłacił i trzeba zapisać datę oraz metodę płatności.",
-          "how": "Sprawdź fakturę, wybierz rzeczywistą datę i metodę płatności, a następnie wybierz Confirm payment.",
-          "inputs": "Wskaż właściwą fakturę, datę otrzymania środków i faktyczną metodę płatności.",
-          "result": "Jeśli potwierdzenie się powiedzie, status płatności faktury zostanie zaktualizowany.",
-          "notes": "Potwierdzaj dopiero po faktycznym otrzymaniu środków. Ta czynność zmienia status płatności faktury; sprawdź, czy osobno trzeba utworzyć zapis księgowy."
+          "purpose": "Potwierdza szczegóły płatności faktury, oznacza fakturę jako opłaconą i tworzy powiązany wpis przychodu w Accountancy lub aktualizuje istniejący pasujący wpis.",
+          "when": "Użyj po faktycznym otrzymaniu płatności od klienta, wybraniu Mark paid i wprowadzeniu danych płatności.",
+          "how": "W oknie płatności sprawdź fakturę, wpisz datę otrzymania środków, wybierz Cash lub Bank transfer, a następnie wybierz Confirm payment.",
+          "inputs": "Wymagana jest prawidłowa data płatności i metoda płatności (Cash lub Bank transfer). Faktura jest określona w oknie płatności, a kwota pochodzi z sumy faktury.",
+          "result": "Jeśli zapis się powiedzie, faktura zostanie oznaczona jako opłacona i wystawiona. W Accountancy zostanie utworzony powiązany wpis przychodu lub zaktualizowany istniejący pasujący wpis. Aplikacja weryfikuje zapis w IndexedDB.",
+          "notes": "Potwierdzaj dopiero po faktycznym otrzymaniu środków. Jeśli pojawi się ostrzeżenie o możliwym duplikacie wpisu przychodu, sprawdź je przed kontynuowaniem. Zachowaj dowód płatności."
         },
         "ur": {
-          "purpose": "ادائیگی کی تصدیق کے لیے منتخب انوائس کی ادائیگی کی تفصیلات درج کرتا ہے۔",
-          "when": "جب گاہک ادائیگی کر چکا ہو اور ادائیگی کی تاریخ اور طریقہ درج کرنا ہو تو استعمال کریں۔",
-          "how": "انوائس چیک کریں، اصل ادائیگی کی تاریخ اور طریقہ منتخب کریں، پھر Confirm payment منتخب کریں۔",
-          "inputs": "درست انوائس، رقم موصول ہونے کی تاریخ اور اصل ادائیگی کا طریقہ منتخب کریں۔",
-          "result": "تصدیق کامیاب ہونے پر انوائس کی ادائیگی کی حیثیت اپ ڈیٹ ہو جاتی ہے۔",
-          "notes": "صرف رقم حقیقتاً وصول ہونے کے بعد تصدیق کریں۔ یہ کارروائی انوائس کی ادائیگی کی حیثیت بدلتی ہے؛ دیکھیں کہ الگ اکاؤنٹنگ اندراج بھی درکار ہے یا نہیں۔"
+          "purpose": "انوائس کی ادائیگی کی تفصیلات کی تصدیق کرتا ہے، انوائس کو ادا شدہ درج کرتا ہے اور Accountancy میں منسلک آمدنی کا اندراج بناتا یا پہلے سے موجود مماثل اندراج اپ ڈیٹ کرتا ہے۔",
+          "when": "اسے اس وقت استعمال کریں جب گاہک حقیقتاً ادائیگی کر چکا ہو، آپ Mark paid منتخب کر چکے ہوں اور ادائیگی کی تفصیلات درج کر چکے ہوں۔",
+          "how": "ادائیگی کے ڈائیلاگ میں انوائس چیک کریں، رقم وصول ہونے کی تاریخ درج کریں، Cash یا Bank transfer منتخب کریں، پھر Confirm payment منتخب کریں۔",
+          "inputs": "درست ادائیگی کی تاریخ اور ادائیگی کا طریقہ (Cash یا Bank transfer) لازمی ہیں۔ انوائس کی شناخت ادائیگی کے ڈائیلاگ سے ہوتی ہے؛ رقم انوائس کے کل سے لی جاتی ہے۔",
+          "result": "اگر محفوظ کرنے کا عمل کامیاب ہو تو انوائس کو ادا شدہ اور جاری شدہ نشان زد کیا جاتا ہے۔ Accountancy میں منسلک آمدنی کا اندراج بنتا ہے یا پہلے سے موجود مماثل اندراج اپ ڈیٹ ہوتا ہے۔ ایپ IndexedDB میں محفوظ ہونے کی تصدیق کرتی ہے۔",
+          "notes": "صرف رقم حقیقتاً وصول ہونے کے بعد تصدیق کریں۔ اگر آمدنی کے ممکنہ ڈپلیکیٹ اندراج کا انتباہ آئے تو آگے بڑھنے سے پہلے اسے دیکھیں۔ ادائیگی کا ثبوت محفوظ رکھیں۔"
         },
         "pa": {
-          "purpose": "ਭੁਗਤਾਨ ਦੀ ਪੁਸ਼ਟੀ ਲਈ ਚੁਣੇ ਇਨਵੌਇਸ ਦੇ ਭੁਗਤਾਨ ਵੇਰਵੇ ਦਰਜ ਕਰਦਾ ਹੈ।",
-          "when": "ਜਦੋਂ ਗਾਹਕ ਭੁਗਤਾਨ ਕਰ ਚੁੱਕਾ ਹੋਵੇ ਅਤੇ ਭੁਗਤਾਨ ਦੀ ਤਾਰੀਖ ਅਤੇ ਢੰਗ ਦਰਜ ਕਰਨਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਇਨਵੌਇਸ ਜਾਂਚੋ, ਅਸਲ ਭੁਗਤਾਨ ਦੀ ਤਾਰੀਖ ਅਤੇ ਢੰਗ ਚੁਣੋ, ਫਿਰ Confirm payment ਚੁਣੋ।",
-          "inputs": "ਸਹੀ ਇਨਵੌਇਸ, ਪੈਸੇ ਮਿਲਣ ਦੀ ਤਾਰੀਖ ਅਤੇ ਅਸਲ ਭੁਗਤਾਨ ਦਾ ਢੰਗ ਚੁਣੋ।",
-          "result": "ਪੁਸ਼ਟੀ ਸਫਲ ਹੋਣ 'ਤੇ ਇਨਵੌਇਸ ਦੀ ਭੁਗਤਾਨ ਸਥਿਤੀ ਅਪਡੇਟ ਹੋ ਜਾਂਦੀ ਹੈ।",
-          "notes": "ਸਿਰਫ਼ ਪੈਸੇ ਅਸਲ ਵਿੱਚ ਮਿਲਣ ਤੋਂ ਬਾਅਦ ਪੁਸ਼ਟੀ ਕਰੋ। ਇਹ ਕਾਰਵਾਈ ਇਨਵੌਇਸ ਦੀ ਭੁਗਤਾਨ ਸਥਿਤੀ ਬਦਲਦੀ ਹੈ; ਜਾਂਚੋ ਕਿ ਵੱਖਰੀ ਅਕਾਊਂਟਿੰਗ ਐਂਟਰੀ ਵੀ ਲੋੜੀਂਦੀ ਹੈ ਜਾਂ ਨਹੀਂ।"
+          "purpose": "ਇਨਵੌਇਸ ਦੇ ਭੁਗਤਾਨ ਵੇਰਵਿਆਂ ਦੀ ਪੁਸ਼ਟੀ ਕਰਦਾ ਹੈ, ਇਨਵੌਇਸ ਨੂੰ ਭੁਗਤਾਨ ਕੀਤਾ ਹੋਇਆ ਦਰਜ ਕਰਦਾ ਹੈ ਅਤੇ Accountancy ਵਿੱਚ ਜੁੜੀ ਆਮਦਨ ਐਂਟਰੀ ਬਣਾਉਂਦਾ ਜਾਂ ਮੌਜੂਦਾ ਮਿਲਦੀ ਐਂਟਰੀ ਅੱਪਡੇਟ ਕਰਦਾ ਹੈ।",
+          "when": "ਇਸ ਨੂੰ ਉਦੋਂ ਵਰਤੋ ਜਦੋਂ ਗਾਹਕ ਨੇ ਅਸਲ ਵਿੱਚ ਭੁਗਤਾਨ ਕਰ ਦਿੱਤਾ ਹੋਵੇ, ਤੁਸੀਂ Mark paid ਚੁਣ ਲਿਆ ਹੋਵੇ ਅਤੇ ਭੁਗਤਾਨ ਵੇਰਵੇ ਭਰ ਦਿੱਤੇ ਹੋਣ।",
+          "how": "ਭੁਗਤਾਨ ਡਾਇਲਾਗ ਵਿੱਚ ਇਨਵੌਇਸ ਜਾਂਚੋ, ਪੈਸੇ ਮਿਲਣ ਦੀ ਤਾਰੀਖ ਦਰਜ ਕਰੋ, Cash ਜਾਂ Bank transfer ਚੁਣੋ, ਫਿਰ Confirm payment ਚੁਣੋ।",
+          "inputs": "ਵੈਧ ਭੁਗਤਾਨ ਤਾਰੀਖ ਅਤੇ ਭੁਗਤਾਨ ਢੰਗ (Cash ਜਾਂ Bank transfer) ਲਾਜ਼ਮੀ ਹਨ। ਇਨਵੌਇਸ ਦੀ ਪਛਾਣ ਭੁਗਤਾਨ ਡਾਇਲਾਗ ਵਿੱਚ ਹੁੰਦੀ ਹੈ; ਰਕਮ ਇਨਵੌਇਸ ਦੇ ਕੁੱਲ ਤੋਂ ਲਈ ਜਾਂਦੀ ਹੈ।",
+          "result": "ਜੇ ਸੇਵ ਸਫਲ ਹੋਵੇ ਤਾਂ ਇਨਵੌਇਸ ਨੂੰ ਭੁਗਤਾਨ ਕੀਤਾ ਅਤੇ ਜਾਰੀ ਕੀਤਾ ਹੋਇਆ ਦਰਜ ਕੀਤਾ ਜਾਂਦਾ ਹੈ। Accountancy ਵਿੱਚ ਜੁੜੀ ਆਮਦਨ ਐਂਟਰੀ ਬਣਦੀ ਹੈ ਜਾਂ ਪਹਿਲਾਂ ਤੋਂ ਮੌਜੂਦ ਮਿਲਦੀ ਐਂਟਰੀ ਅੱਪਡੇਟ ਹੁੰਦੀ ਹੈ। ਐਪ IndexedDB ਵਿੱਚ ਸੇਵ ਹੋਣ ਦੀ ਤਸਦੀਕ ਕਰਦੀ ਹੈ।",
+          "notes": "ਸਿਰਫ਼ ਪੈਸੇ ਅਸਲ ਵਿੱਚ ਮਿਲਣ ਤੋਂ ਬਾਅਦ ਪੁਸ਼ਟੀ ਕਰੋ। ਜੇ ਆਮਦਨ ਦੀ ਦੁਹਰੀ ਐਂਟਰੀ ਦਾ ਸੰਭਾਵੀ ਚੇਤਾਵਨੀ ਸੁਨੇਹਾ ਆਵੇ ਤਾਂ ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਉਸ ਦੀ ਜਾਂਚ ਕਰੋ। ਭੁਗਤਾਨ ਦਾ ਸਬੂਤ ਸੰਭਾਲੋ।"
         },
         "prs": {
-          "purpose": "جزئیات پرداخت فاکتوری را ثبت می‌کند که برای تأیید پرداخت انتخاب شده است.",
-          "when": "وقتی مشتری پرداخت کرده و باید تاریخ و روش پرداخت ثبت شود، استفاده کنید.",
-          "how": "فاکتور را بررسی کنید، تاریخ و روش واقعی پرداخت را انتخاب کنید و سپس Confirm payment را بزنید.",
-          "inputs": "فاکتور درست، تاریخ دریافت پول و روش واقعی پرداخت را انتخاب کنید.",
-          "result": "در صورت موفقیت تأیید، وضعیت پرداخت فاکتور به‌روزرسانی می‌شود.",
-          "notes": "فقط پس از دریافت واقعی وجه تأیید کنید. این عملیات وضعیت پرداخت فاکتور را تغییر می‌دهد؛ بررسی کنید آیا ثبت حسابداری جداگانه نیز لازم است."
+          "purpose": "جزئیات پرداخت فاکتور را تأیید می‌کند، فاکتور را پرداخت‌شده ثبت می‌کند و یک ثبت درآمد مرتبط در Accountancy ایجاد یا ثبت منطبق موجود را به‌روزرسانی می‌کند.",
+          "when": "پس از آن استفاده کنید که مشتری واقعاً پرداخت کرده باشد، گزینه Mark paid را انتخاب کرده و جزئیات پرداخت وارد شده باشد.",
+          "how": "در پنجره پرداخت، فاکتور را بررسی کنید، تاریخ دریافت وجه را وارد کنید، Cash یا Bank transfer را انتخاب و سپس Confirm payment را بزنید.",
+          "inputs": "تاریخ معتبر پرداخت و روش پرداخت (Cash یا Bank transfer) الزامی هستند. فاکتور از پنجره پرداخت مشخص می‌شود؛ مبلغ از مجموع فاکتور گرفته می‌شود.",
+          "result": "در صورت موفقیت ذخیره، فاکتور پرداخت‌شده و صادرشده علامت‌گذاری می‌شود. یک ثبت درآمد مرتبط در Accountancy ایجاد می‌شود یا ثبت درآمد منطبق موجود به‌روزرسانی می‌شود. برنامه ذخیره در IndexedDB را تأیید می‌کند.",
+          "notes": "فقط پس از دریافت واقعی وجه تأیید کنید. اگر هشدار ثبت درآمد احتمالی تکراری نمایش داده شد، پیش از ادامه آن را بررسی کنید. مدرک پرداخت را نگه دارید."
         },
         "ps": {
-          "purpose": "د هغې بل د تادیې جزئیات ثبتوي چې د تادیې د تایید لپاره ټاکل شوی وي.",
-          "when": "کله چې پېرودونکي پیسې ورکړې وي او د تادیې نېټه او طریقه ثبتول غواړئ، دا وکاروئ.",
-          "how": "بل وګورئ، د پیسو د ترلاسه کولو اصلي نېټه او طریقه وټاکئ، بیا Confirm payment وټاکئ.",
-          "inputs": "سم بل، د پیسو د ترلاسه کولو نېټه او د تادیې اصلي طریقه وټاکئ.",
-          "result": "که تایید بریالی شي، د بل د تادیې حالت تازه کېږي.",
-          "notes": "یوازې وروسته له دې تایید وکړئ چې پیسې په رښتیا ترلاسه شوې وي. دا کړنه د بل د تادیې حالت بدلوي؛ وګورئ چې جلا حسابداري ثبت هم اړین دی که نه."
+          "purpose": "د بل د تادیې جزئیات تاییدوي، بل د ورکړل شوي په توګه ثبتوي او په Accountancy کې د عاید تړلی ثبت جوړوي یا له مخکې موجود ورته ثبت تازه کوي.",
+          "when": "دا هغه وخت وکاروئ چې پېرودونکي رښتیا پیسې ورکړې وي، Mark paid مو ټاکلی وي او د تادیې جزئیات مو داخل کړي وي.",
+          "how": "د تادیې په کړکۍ کې بل وګورئ، د پیسو د ترلاسه کولو نېټه ولیکئ، Cash یا Bank transfer وټاکئ، بیا Confirm payment وټاکئ.",
+          "inputs": "د تادیې سمه نېټه او د تادیې طریقه (Cash یا Bank transfer) اړین دي. بل د تادیې په کړکۍ کې پېژندل کېږي؛ اندازه د بل له ټولیز مبلغ څخه اخیستل کېږي.",
+          "result": "که خوندي کول بریالي شي، بل د ورکړل شوي او صادر شوي په توګه نښه کېږي. په Accountancy کې د عاید تړلی ثبت جوړېږي یا له مخکې موجود ورته ثبت تازه کېږي. اپلیکیشن په IndexedDB کې خوندي کېدل تاییدوي.",
+          "notes": "یوازې وروسته له دې تایید وکړئ چې پیسې په رښتیا ترلاسه شوې وي. که د عاید د احتمالي تکراري ثبت خبرتیا ښکاره شي، تر دوام مخکې یې وګورئ. د تادیې ثبوت وساتئ."
         }
       },
       "handler_or_behavior": "`confirmInvoicePaid()`"
