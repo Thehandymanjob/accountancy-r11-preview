@@ -21320,6 +21320,78 @@
           "inputs": "ورودی لازم نیست. کنترل Next فقط زمانی فعال است که صفحه دیگری وجود داشته باشد.",
           "result": "صفحه بعدی رویدادهای مانیتورینگ نمایش داده می‌شود. رویدادهای تشخیصی ذخیره‌شده تغییر نمی‌کنند.",
           "notes": "این کنترل در آخرین صفحه غیرفعال است. فهرست در هر صفحه حداکثر ۲۵ رویداد نشان می‌دهد و صفحه‌بندی فقط زمانی ظاهر می‌شود که بیش از ۲۵ رویداد فیلترشده وجود داشته باشد. این گزینه فقط صفحه‌بندی را تغییر می‌دهد و رویدادهای ذخیره‌شده را تغییر نمی‌دهد."
+        },
+        "ar": {
+          "purpose": "ينقل قائمة أحداث Monitor & Diagnostics إلى الصفحة التالية.",
+          "when": "استخدمه عند توفر أحداث أخرى بعد الصفحة الحالية.",
+          "how": "اختر Next › في عناصر ترقيم الصفحات عندما يكون مفعلاً.",
+          "inputs": "لا يلزم إدخال. يتوفر Next فقط عند وجود صفحة أخرى.",
+          "result": "تظهر الصفحة التالية. لا تتغير الأحداث المخزنة.",
+          "notes": "يُعطل في الصفحة الأخيرة. تعرض القائمة حتى 25 سجلاً لكل صفحة، ويظهر الترقيم عند تجاوز 25 حدثاً مفلترًا. هذا يغير الصفحة فقط."
+        },
+        "ckb": {
+          "purpose": "فهرستی ڕووداوەکانی Monitor & Diagnostics دەگوازێتەوە بۆ پەڕەی دواتر.",
+          "when": "کاتێک دوای پەڕەی ئێستا ڕووداوی چاودێریی زیاتر هەیە، بەکاری بهێنە.",
+          "how": "کاتێک Next › لە کۆنترۆڵەکانی پەڕەکردن چالاکە، هەڵیبژێرە.",
+          "inputs": "هیچ زانیارییەک پێویست نییە. Next تەنها کاتێک بەردەستە کە پەڕەیەکی تر هەبێت.",
+          "result": "پەڕەی دواتری ڕووداوەکانی چاودێری پیشان دەدرێت. ڕووداوە پاشەکەوتکراوەکان ناگۆڕدرێن.",
+          "notes": "لە کۆتا پەڕەدا ناچالاکە. هەر پەڕەیەک تا 25 تۆمار پیشان دەدات و پەڕەکردن کاتێک دەردەکەوێت کە زیاتر لە 25 ڕووداوی فلتەرکراو هەبێت. تەنها پەڕە دەگۆڕێت."
+        },
+        "kmr": {
+          "purpose": "Lîsteya bûyerên Monitor & Diagnostics dibe rûpela paşîn.",
+          "when": "Vê bikar bîne dema ku piştî rûpela heyî bûyerên din hene.",
+          "how": "Dema Next › di kontrolên rûpelkirinê de çalak be wê hilbijêre.",
+          "inputs": "Têketin nehewce ye. Next tenê dema ku rûpeleke din hebe berdest e.",
+          "result": "Rûpela paşîn tê nîşandan. Bûyerên hilanbar naguherin.",
+          "notes": "Di rûpela dawî de neçalak e. Her rûpel heta 25 tomar nîşan dide û rûpelkirin dema ku zêdetirî 25 bûyerên fîlterkirî hene xuya dibe. Ev tenê rûpelê diguherîne."
+        },
+        "tr": {
+          "purpose": "Monitor & Diagnostics olay listesini sonraki sayfaya taşır.",
+          "when": "Geçerli sayfadan sonra başka izleme olayları varsa kullanın.",
+          "how": "Sayfalama denetimlerinde Next › etkin olduğunda seçin.",
+          "inputs": "Girdi gerekmez. Next yalnızca başka bir sayfa varsa kullanılabilir.",
+          "result": "Sonraki olay sayfası görüntülenir. Saklanan olaylar değişmez.",
+          "notes": "Son sayfada devre dışıdır. Her sayfada en fazla 25 kayıt gösterilir; sayfalama 25'ten fazla filtrelenmiş olay varsa görünür. Yalnızca sayfayı değiştirir."
+        },
+        "pl": {
+          "purpose": "Przenosi listę zdarzeń Monitor & Diagnostics na następną stronę.",
+          "when": "Użyj, gdy po bieżącej stronie są dostępne kolejne zdarzenia monitorowania.",
+          "how": "Wybierz Next › w paginacji, gdy przycisk jest aktywny.",
+          "inputs": "Nie są wymagane dane. Next jest dostępny tylko wtedy, gdy istnieje kolejna strona.",
+          "result": "Wyświetla następną stronę zdarzeń. Zapisane zdarzenia nie są zmieniane.",
+          "notes": "Na ostatniej stronie jest nieaktywny. Każda strona pokazuje do 25 rekordów; paginacja pojawia się przy ponad 25 przefiltrowanych zdarzeniach. Zmienia tylko stronę."
+        },
+        "ur": {
+          "purpose": "Monitor & Diagnostics کی فہرست کو اگلے صفحے پر لے جاتا ہے۔",
+          "when": "جب موجودہ صفحے کے بعد مزید مانیٹرنگ واقعات دستیاب ہوں تو استعمال کریں۔",
+          "how": "صفحہ بندی کے کنٹرولز میں Next › فعال ہونے پر منتخب کریں۔",
+          "inputs": "کوئی معلومات درکار نہیں۔ Next صرف اگلا صفحہ موجود ہونے پر دستیاب ہے۔",
+          "result": "مانیٹرنگ واقعات کا اگلا صفحہ دکھایا جاتا ہے۔ محفوظ واقعات تبدیل نہیں ہوتے۔",
+          "notes": "آخری صفحے پر غیر فعال ہوتا ہے۔ ہر صفحہ زیادہ سے زیادہ 25 ریکارڈ دکھاتا ہے؛ 25 سے زیادہ فلٹر شدہ واقعات پر صفحہ بندی ظاہر ہوتی ہے۔ یہ صرف صفحہ بدلتا ہے۔"
+        },
+        "pa": {
+          "purpose": "Monitor & Diagnostics ਦੀ ਸੂਚੀ ਨੂੰ ਅਗਲੇ ਪੰਨੇ 'ਤੇ ਲੈ ਜਾਂਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਪੰਨੇ ਤੋਂ ਬਾਅਦ ਹੋਰ ਮਾਨੀਟਰਿੰਗ ਘਟਨਾਵਾਂ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਪੇਜੀਨੇਸ਼ਨ ਕੰਟਰੋਲਾਂ ਵਿੱਚ Next › ਚਾਲੂ ਹੋਣ 'ਤੇ ਚੁਣੋ।",
+          "inputs": "ਕੋਈ ਇਨਪੁੱਟ ਲੋੜੀਂਦਾ ਨਹੀਂ। Next ਸਿਰਫ਼ ਅਗਲਾ ਪੰਨਾ ਹੋਣ 'ਤੇ ਉਪਲਬਧ ਹੈ।",
+          "result": "ਅਗਲਾ ਘਟਨਾ ਪੰਨਾ ਦਿਖਾਇਆ ਜਾਂਦਾ ਹੈ। ਸੰਭਾਲੀਆਂ ਘਟਨਾਵਾਂ ਨਹੀਂ ਬਦਲਦੀਆਂ।",
+          "notes": "ਆਖਰੀ ਪੰਨੇ 'ਤੇ ਬੰਦ ਹੁੰਦਾ ਹੈ। ਹਰ ਪੰਨੇ 'ਤੇ ਵੱਧ ਤੋਂ ਵੱਧ 25 ਰਿਕਾਰਡ ਹਨ; 25 ਤੋਂ ਵੱਧ ਫਿਲਟਰ ਘਟਨਾਵਾਂ ਹੋਣ 'ਤੇ ਪੇਜੀਨੇਸ਼ਨ ਦਿਖਦੀ ਹੈ। ਇਹ ਸਿਰਫ਼ ਪੰਨਾ ਬਦਲਦਾ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "فهرست رویدادهای Monitor & Diagnostics را به صفحه بعدی منتقل می‌کند.",
+          "when": "وقتی پس از صفحه فعلی رویدادهای پایش دیگری وجود دارد، استفاده کنید.",
+          "how": "در کنترل‌های صفحه‌بندی، وقتی Next › فعال است آن را انتخاب کنید.",
+          "inputs": "ورودی لازم نیست. Next فقط در صورت وجود صفحه بعد در دسترس است.",
+          "result": "صفحه بعدی رویدادها نمایش داده می‌شود. رویدادهای ذخیره‌شده تغییر نمی‌کنند.",
+          "notes": "در آخرین صفحه غیرفعال است. هر صفحه حداکثر ۲۵ رکورد دارد و صفحه‌بندی با بیش از ۲۵ رویداد فیلترشده نمایش داده می‌شود. این گزینه فقط صفحه را تغییر می‌دهد."
+        },
+        "ps": {
+          "purpose": "د Monitor & Diagnostics لېست بلې پاڼې ته وړي.",
+          "when": "هغه وخت یې وکاروئ چې له اوسنۍ پاڼې وروسته نورې څارنیزې پېښې موجودې وي.",
+          "how": "په پاڼه‌بندي کنټرولونو کې چې Next › فعال وي، وټاکئ.",
+          "inputs": "معلوماتو ته اړتیا نشته. Next یوازې د بلې پاڼې په شتون کې شته.",
+          "result": "د پېښو بله پاڼه ښکاري. خوندي شوې پېښې نه بدلېږي.",
+          "notes": "په وروستۍ پاڼه کې بند وي. هره پاڼه تر ۲۵ ریکارډونو ښيي؛ پاڼه‌بندي هغه وخت ښکاري چې فلټر شوې پېښې له ۲۵ ډېرې وي. یوازې پاڼه بدلوي."
         }
       },
       "handler_or_behavior": "`event/property listener`"
@@ -21372,6 +21444,78 @@
           "inputs": "ابتدا باید رویداد صحیح با View details باز شده باشد. انتخاب دیگری لازم نیست.",
           "result": "JSON قالب‌بندی‌شده رویداد انتخاب‌شده با Clipboard API یا روش جایگزین textarea کپی می‌شود. برنامه پس از تلاش برای کپی، پیام تأیید نمایش می‌دهد.",
           "notes": "پیش از اشتراک‌گذاری با پشتیبانی، JSON را از نظر جزئیات دستگاه، مرورگر، Build یا سایر اطلاعات حساس بررسی کنید. کپی‌کردن، رویداد را تغییر نمی‌دهد."
+        },
+        "ar": {
+          "purpose": "ينسخ JSON المنسق لحدث المراقبة المحدد إلى الحافظة.",
+          "when": "استخدمه بعد فتح تفاصيل الحدث لفحص JSON في مكان آخر أو إرفاقه برسالة دعم.",
+          "how": "في نافذة تفاصيل الحدث اختر Copy JSON، ثم الصق النص في ملاحظة تشخيصية أو رسالة دعم.",
+          "inputs": "يجب فتح الحدث الصحيح مسبقاً باستخدام View details. لا يلزم اختيار آخر.",
+          "result": "يُنسخ JSON للحدث باستخدام Clipboard API أو بديل textarea، ثم يعرض التطبيق تنبيهاً بالتأكيد.",
+          "notes": "راجع JSON بحثاً عن معلومات حساسة عن الجهاز أو المتصفح أو Build قبل مشاركته. النسخ لا يغير الحدث."
+        },
+        "ckb": {
+          "purpose": "JSONی فۆرماتکراوی ڕووداوی چاودێریی هەڵبژێردراو دەخاتە کلیپبۆرد.",
+          "when": "دوای کردنەوەی وردەکاری ڕووداو بەکاری بهێنە بۆ پشکنینی JSON لە شوێنێکی تر یان زیادکردنی لە پەیامی پشتگیری.",
+          "how": "لە پەنجەرەی وردەکاری ڕووداو Copy JSON هەڵبژێرە، پاشان دەقەکە لە تێبینی تشخیصی یان پەیامی پشتگیری دابنێ.",
+          "inputs": "دەبێت ڕووداوی دروست پێشتر بە View details کرابێتەوە. هەڵبژاردنی تر پێویست نییە.",
+          "result": "JSONی ڕووداو بە Clipboard API یان textarea کۆپی دەکرێت و بەرنامە ئاگادارکردنەوەی پشتڕاستکردنەوە پیشان دەدات.",
+          "notes": "پێش هاوبەشکردن، JSON بپشکنە بۆ زانیاری هەستیار دەربارەی ئامێر، وێبگەڕ یان Build. کۆپی کردن ڕووداو ناگۆڕێت."
+        },
+        "kmr": {
+          "purpose": "JSON-a formatkirî ya bûyera çavdêriyê ya hilbijartî di clipboard-ê de kopî dike.",
+          "when": "Piştî vekirina hûrguliyên bûyerê wê bikar bîne da ku JSON li cihêkî din kontrol bikî an di peyama piştgiriyê de têxî.",
+          "how": "Di modalê hûrguliyên bûyerê de Copy JSON hilbijêre, paşê nivîsê di noteke teşhîsê an peyama piştgiriyê de pê ve bike.",
+          "inputs": "Divê bûyera rast berê bi View details vekirî be. Hilbijartina din nehewce ye.",
+          "result": "JSON-a bûyerê bi Clipboard API an textarea tê kopîkirin û sepan hişyariya pejirandinê nîşan dide.",
+          "notes": "Berî parvekirinê JSON ji bo agahiyên hestiyar ên cîhaz, gerok an Build kontrol bike. Kopîkirin bûyerê naguherîne."
+        },
+        "tr": {
+          "purpose": "Seçilen izleme olayının biçimlendirilmiş JSON'unu panoya kopyalar.",
+          "when": "Olay ayrıntılarını açtıktan sonra JSON'u başka yerde incelemek veya destek mesajına eklemek için kullanın.",
+          "how": "Olay ayrıntıları penceresinde Copy JSON seçin ve metni tanılama notuna ya da destek mesajına yapıştırın.",
+          "inputs": "Doğru olay önceden View details ile açılmış olmalıdır. Başka seçim gerekmez.",
+          "result": "Olayın JSON'u Clipboard API veya textarea yedeğiyle kopyalanır; uygulama onay uyarısı gösterir.",
+          "notes": "Paylaşmadan önce JSON'da cihaz, tarayıcı veya Build gibi hassas bilgiler olup olmadığını inceleyin. Kopyalama olayı değiştirmez."
+        },
+        "pl": {
+          "purpose": "Kopiuje do schowka sformatowany JSON wybranego zdarzenia monitorowania.",
+          "when": "Użyj po otwarciu szczegółów zdarzenia, aby sprawdzić JSON gdzie indziej lub dołączyć go do wiadomości pomocy technicznej.",
+          "how": "W oknie szczegółów zdarzenia wybierz Copy JSON, a następnie wklej tekst do notatki diagnostycznej lub wiadomości pomocy.",
+          "inputs": "Właściwe zdarzenie musi być wcześniej otwarte przez View details. Nie jest wymagany inny wybór.",
+          "result": "JSON zdarzenia jest kopiowany przez Clipboard API lub zapasowe pole textarea; aplikacja wyświetla alert potwierdzający.",
+          "notes": "Przed udostępnieniem sprawdź JSON pod kątem poufnych danych o urządzeniu, przeglądarce lub Build. Kopiowanie nie zmienia zdarzenia."
+        },
+        "ur": {
+          "purpose": "منتخب مانیٹرنگ واقعے کا فارمیٹ شدہ JSON کلپ بورڈ میں نقل کرتا ہے۔",
+          "when": "واقعے کی تفصیلات کھولنے کے بعد JSON کو کہیں اور دیکھنے یا معاونتی پیغام میں شامل کرنے کے لیے استعمال کریں۔",
+          "how": "واقعے کی تفصیلات والی ونڈو میں Copy JSON منتخب کریں اور متن کو تشخیصی نوٹ یا معاونتی پیغام میں چسپاں کریں۔",
+          "inputs": "درست واقعہ پہلے ہی View details سے کھلا ہونا چاہیے۔ مزید انتخاب درکار نہیں۔",
+          "result": "واقعے کا JSON Clipboard API یا textarea کے متبادل سے نقل ہوتا ہے اور ایپ تصدیقی انتباہ دکھاتی ہے۔",
+          "notes": "شیئر کرنے سے پہلے JSON میں ڈیوائس، براؤزر یا Build کی حساس معلومات دیکھیں۔ نقل کرنے سے واقعہ تبدیل نہیں ہوتا۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੀ ਮਾਨੀਟਰਿੰਗ ਘਟਨਾ ਦਾ ਫਾਰਮੈਟ ਕੀਤਾ JSON ਕਲਿੱਪਬੋਰਡ ਵਿੱਚ ਕਾਪੀ ਕਰਦਾ ਹੈ।",
+          "when": "ਘਟਨਾ ਵੇਰਵੇ ਖੋਲ੍ਹਣ ਤੋਂ ਬਾਅਦ JSON ਨੂੰ ਹੋਰ ਥਾਂ ਵੇਖਣ ਜਾਂ ਸਹਾਇਤਾ ਸੁਨੇਹੇ ਵਿੱਚ ਜੋੜਨ ਲਈ ਵਰਤੋ।",
+          "how": "ਘਟਨਾ ਵੇਰਵਿਆਂ ਦੀ ਵਿੰਡੋ ਵਿੱਚ Copy JSON ਚੁਣੋ ਅਤੇ ਪਾਠ ਨੂੰ ਡਾਇਗਨੌਸਟਿਕ ਨੋਟ ਜਾਂ ਸਹਾਇਤਾ ਸੁਨੇਹੇ ਵਿੱਚ ਚਿਪਕਾਓ।",
+          "inputs": "ਸਹੀ ਘਟਨਾ ਪਹਿਲਾਂ View details ਰਾਹੀਂ ਖੁੱਲ੍ਹੀ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ। ਹੋਰ ਚੋਣ ਦੀ ਲੋੜ ਨਹੀਂ।",
+          "result": "ਘਟਨਾ ਦਾ JSON Clipboard API ਜਾਂ textarea ਵਿਕਲਪ ਰਾਹੀਂ ਕਾਪੀ ਹੁੰਦਾ ਹੈ ਅਤੇ ਐਪ ਪੁਸ਼ਟੀ ਚੇਤਾਵਨੀ ਦਿਖਾਉਂਦੀ ਹੈ।",
+          "notes": "ਸਾਂਝਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ JSON ਵਿੱਚ ਡਿਵਾਈਸ, ਬ੍ਰਾਊਜ਼ਰ ਜਾਂ Build ਦੀ ਸੰਵੇਦਨਸ਼ੀਲ ਜਾਣਕਾਰੀ ਜਾਂਚੋ। ਕਾਪੀ ਕਰਨ ਨਾਲ ਘਟਨਾ ਨਹੀਂ ਬਦਲਦੀ।"
+        },
+        "prs": {
+          "purpose": "JSON قالب‌بندی‌شده رویداد پایش انتخاب‌شده را در حافظه موقت کپی می‌کند.",
+          "when": "پس از بازکردن جزئیات رویداد، برای بررسی JSON در جای دیگر یا افزودن آن به پیام پشتیبانی از این گزینه استفاده کنید.",
+          "how": "در پنجره جزئیات رویداد Copy JSON را انتخاب کنید و متن را در یادداشت تشخیصی یا پیام پشتیبانی جای‌گذاری کنید.",
+          "inputs": "ابتدا باید رویداد صحیح با View details باز شده باشد. انتخاب دیگری لازم نیست.",
+          "result": "JSON رویداد با Clipboard API یا روش جایگزین textarea کپی می‌شود و برنامه هشدار تأیید نمایش می‌دهد.",
+          "notes": "پیش از اشتراک‌گذاری، JSON را از نظر اطلاعات حساس دستگاه، مرورگر یا Build بررسی کنید. کپی‌کردن رویداد را تغییر نمی‌دهد."
+        },
+        "ps": {
+          "purpose": "د ټاکل شوې څارنې پېښې فارمیټ شوی JSON کلېپ‌بورډ ته کاپي کوي.",
+          "when": "د پېښې د جزئیاتو له پرانیستلو وروسته یې د JSON د کتلو یا د ملاتړ په پیغام کې د شاملولو لپاره وکاروئ.",
+          "how": "د پېښې د جزئیاتو په کړکۍ کې Copy JSON وټاکئ، بیا متن تشخیصي یادښت یا د ملاتړ پیغام ته ونښلوئ.",
+          "inputs": "سمه پېښه باید مخکې د View details له لارې پرانیستل شوې وي. بله ټاکنه نه غواړي.",
+          "result": "د پېښې JSON د Clipboard API یا textarea بدیلې لارې کاپي کېږي او اپلېکېشن د تایید خبرتیا ښيي.",
+          "notes": "له شریکولو مخکې JSON د وسیلې، براوزر یا Build د حساسو معلوماتو لپاره وګورئ. کاپي کول پېښه نه بدلوي."
         }
       },
       "handler_or_behavior": "`event/property listener`"
