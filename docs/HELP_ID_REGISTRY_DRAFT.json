@@ -15478,20 +15478,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Removes a selected income, expense, wage, tools, food, contractor or materials row from the current project ledger view.",
-          "when": "Use this only when the selected project record is a duplicate or an entry error that should be removed after checking.",
-          "how": "Select Delete beside the intended row and approve the confirmation prompt after checking the record type, amount and details.",
+          "purpose": "Deletes the selected income, expense, wage, tools, food, contractor or materials row from the current project or sub-project ledger.",
+          "when": "Use this only when the selected project record is a duplicate or an entry error that must be removed.",
+          "how": "In the relevant project detail tab, select Delete beside the intended row. Review the confirmation prompt and approve only if the selected record should be removed.",
           "inputs": "Select the correct record in the current project or sub-project detail tab and confirm the deletion prompt.",
-          "result": "After confirmation, the row is removed from the current in-memory project list and the detail view refreshes. The handler does not check whether the IndexedDB save succeeded.",
-          "notes": "DESTRUCTIVE: deletion changes project totals. The current handler does not restore the row or report a save failure if persistence fails; the screen may therefore show a deletion that has not been durably saved. Verify the record and check storage status before relying on the result."
+          "result": "The row is removed from the current in-memory project list and the detail view refreshes. The current handler awaits persistence but does not check whether the IndexedDB save succeeded.",
+          "notes": "DESTRUCTIVE: deletion changes project totals. The current handler does not restore the row or report a save failure if persistence fails; the screen may show a deletion that was not durably saved. Verify the record and storage status before relying on the result. This action does not move the record to Deleted Records."
         },
         "fa": {
-          "purpose": "ردیف انتخاب‌شده درآمد، هزینه، دستمزد، ابزار، غذا، پیمانکار یا مصالح را از نمای دفتر پروژه فعلی حذف می‌کند.",
-          "when": "فقط وقتی سابقه پروژه انتخاب‌شده تکراری یا اشتباه است و پس از بررسی باید حذف شود، از این گزینه استفاده کنید.",
-          "how": "در کنار ردیف موردنظر Delete را انتخاب کنید و پس از بررسی نوع سابقه، مبلغ و جزئیات، پیام تأیید را بپذیرید.",
-          "inputs": "سابقه درست را در زبانه جزئیات پروژه یا زیرپروژه فعلی انتخاب کنید و پیام تأیید حذف را بپذیرید.",
-          "result": "پس از تأیید، ردیف از فهرست پروژه در حافظه حذف و نمای جزئیات تازه‌سازی می‌شود. تابع فعلی بررسی نمی‌کند که ذخیره در IndexedDB موفق شده باشد یا خیر.",
-          "notes": "مخرب: حذف بر مجموع‌های پروژه اثر می‌گذارد. تابع فعلی در صورت شکست ذخیره، ردیف را بازنمی‌گرداند و خطای ذخیره را نیز اعلام نمی‌کند؛ بنابراین ممکن است صفحه حذف را نشان دهد، درحالی‌که حذف به‌طور پایدار ذخیره نشده باشد. پیش از اتکا به نتیجه، سابقه را بررسی و وضعیت ذخیره‌سازی را کنترل کنید."
+          "purpose": "ردیف درآمد، هزینه، دستمزد، ابزار، غذا، پیمانکار یا مصالح انتخاب‌شده را از دفتر پروژه یا زیرپروژه فعلی حذف می‌کند.",
+          "when": "فقط وقتی سابقه پروژه انتخاب‌شده تکراری یا اشتباه است و باید حذف شود، از این گزینه استفاده کنید.",
+          "how": "در زبانه جزئیات مربوط به پروژه، کنار ردیف موردنظر Delete را انتخاب کنید. پیام تأیید را بررسی و فقط در صورت قصد حذف همان سابقه، آن را بپذیرید.",
+          "inputs": "سابقه صحیح را در زبانه جزئیات پروژه یا زیرپروژه فعلی انتخاب کنید و پیام تأیید حذف را بپذیرید.",
+          "result": "ردیف از فهرست پروژه در حافظه حذف و نمای جزئیات تازه‌سازی می‌شود. تابع فعلی منتظر پایان عملیات ذخیره می‌ماند، اما بررسی نمی‌کند که ذخیره در IndexedDB موفق شده باشد یا خیر.",
+          "notes": "مخرب: حذف بر مجموع‌های پروژه اثر می‌گذارد. تابع فعلی در صورت شکست ذخیره، ردیف را بازنمی‌گرداند و خطای ذخیره را نیز اعلام نمی‌کند؛ بنابراین ممکن است صفحه حذف را نشان دهد، درحالی‌که حذف به‌طور پایدار ذخیره نشده باشد. پیش از اتکا به نتیجه، سابقه و وضعیت ذخیره‌سازی را بررسی کنید. این عملیات سابقه را به Deleted Records منتقل نمی‌کند."
         },
         "ar": {
           "purpose": "يحذف سجلاً موجوداً في المشروع.",
@@ -15576,20 +15576,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Select a worker from the worker picker list.",
-          "when": "Use this control when you want to assign a worker from the list to the current selection.",
-          "how": "Choose the worker's row in the list to assign that worker to the current selection.",
-          "inputs": "Select the correct worker and verify the name and available identifying details.",
-          "result": "The selected worker is assigned to the current selection.",
-          "notes": "Check the name and any available identifying detail before selecting; similar names can be easy to confuse."
+          "purpose": "Selects a worker from the Worker List dialog and applies that worker to the current wage form.",
+          "when": "Use this when you are recording project worker wages and need to assign one of the registered workers.",
+          "how": "In the Worker List dialog, select the row showing the intended worker's name. The worker is assigned to the Worker field and the picker closes automatically.",
+          "inputs": "The Worker List dialog must be open and at least one worker must be registered. Select the correct worker row.",
+          "result": "The selected worker ID is placed in the current Worker field and the picker closes. The wage record is not saved by this selection alone.",
+          "notes": "Verify the worker's name and phone number where shown, especially if names are similar. Select Record separately to save the wage entry."
         },
         "fa": {
-          "purpose": "انتخاب یک کارگر از فهرست انتخاب کارگر.",
-          "when": "وقتی می‌خواهید کارگری را از فهرست به انتخاب فعلی اختصاص دهید، از این گزینه استفاده کنید.",
-          "how": "ردیف کارگر موردنظر را انتخاب کنید تا به انتخاب فعلی اختصاص یابد.",
-          "inputs": "کارگر درست را انتخاب کنید و نام و اطلاعات شناسایی موجود را بررسی کنید.",
-          "result": "کارگر انتخاب‌شده به انتخاب فعلی اختصاص داده می‌شود.",
-          "notes": "پیش از انتخاب، نام و اطلاعات شناسایی موجود را بررسی کنید؛ ممکن است نام چند نفر مشابه باشد."
+          "purpose": "کارگری را از پنجره Worker List انتخاب و به فرم دستمزد فعلی اختصاص می‌دهد.",
+          "when": "هنگام ثبت دستمزد کارگران پروژه، وقتی لازم است یکی از کارگران ثبت‌شده را به سابقه فعلی اختصاص دهید، از این گزینه استفاده کنید.",
+          "how": "در پنجره Worker List، ردیفی را که نام کارگر موردنظر را نشان می‌دهد انتخاب کنید. شناسه کارگر در فیلد Worker قرار می‌گیرد و پنجره انتخاب به‌طور خودکار بسته می‌شود.",
+          "inputs": "پنجره Worker List باید باز باشد و دست‌کم یک کارگر ثبت شده باشد. ردیف کارگر صحیح را انتخاب کنید.",
+          "result": "شناسه کارگر انتخاب‌شده در فیلد Worker فرم فعلی قرار می‌گیرد و پنجره بسته می‌شود. این انتخاب به‌تنهایی سابقه دستمزد را ذخیره نمی‌کند.",
+          "notes": "نام و در صورت نمایش، شماره تلفن کارگر را بررسی کنید؛ به‌ویژه اگر نام‌ها مشابه هستند. برای ذخیره سابقه دستمزد، جداگانه Record را انتخاب کنید."
         },
         "ar": {
           "purpose": "يختار عاملاً من قائمة اختيار العمال.",
@@ -15674,20 +15674,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Finish and close the worker selection list.",
-          "when": "Use this control after selecting the intended worker, when you are ready to close the worker picker.",
-          "how": "Select Done after making the intended worker selection.",
-          "inputs": "Confirm that the intended worker is selected before closing the picker.",
-          "result": "The worker picker closes and the current selection is retained.",
-          "notes": "Check that the correct worker is selected before closing the picker."
+          "purpose": "Closes the Worker List dialog after the worker selection has been made.",
+          "when": "Use this when you have selected the intended worker and want to close the picker while keeping the selection.",
+          "how": "Select Done at the bottom of the Worker List dialog. The dialog closes and the current Worker field retains its selected value.",
+          "inputs": "The Worker List dialog must be open. Check the Worker field selection before closing.",
+          "result": "The worker picker closes. The selected worker remains assigned to the current form; no wage record is saved yet.",
+          "notes": "If no worker was selected, Done simply closes the dialog without assigning one. Select Record separately to save the wage entry."
         },
         "fa": {
-          "purpose": "پایان انتخاب کارگر و بستن فهرست.",
-          "when": "پس از انتخاب کارگر موردنظر، وقتی می‌خواهید فهرست انتخاب کارگر را ببندید، از این گزینه استفاده کنید.",
-          "how": "پس از انتخاب کارگر موردنظر، Done را انتخاب کنید.",
-          "inputs": "پیش از بستن فهرست مطمئن شوید کارگر درست انتخاب شده است.",
-          "result": "فهرست انتخاب کارگر بسته می‌شود و انتخاب فعلی حفظ می‌شود.",
-          "notes": "پیش از بستن فهرست مطمئن شوید کارگر درست انتخاب شده است."
+          "purpose": "پس از انتخاب کارگر، پنجره Worker List را می‌بندد و انتخاب فعلی را حفظ می‌کند.",
+          "when": "وقتی کارگر موردنظر را انتخاب کرده‌اید و می‌خواهید پنجره انتخاب را ببندید، از این گزینه استفاده کنید.",
+          "how": "در پایین پنجره Worker List گزینه Done را انتخاب کنید. پنجره بسته می‌شود و مقدار انتخاب‌شده در فیلد Worker فرم باقی می‌ماند.",
+          "inputs": "پنجره Worker List باید باز باشد. پیش از بستن، انتخاب فیلد Worker را بررسی کنید.",
+          "result": "پنجره انتخاب کارگر بسته می‌شود. کارگر انتخاب‌شده در فرم فعلی باقی می‌ماند؛ هنوز سابقه دستمزدی ذخیره نشده است.",
+          "notes": "اگر کارگری انتخاب نشده باشد، Done فقط پنجره را می‌بندد و کسی را اختصاص نمی‌دهد. برای ذخیره سابقه دستمزد، جداگانه Record را انتخاب کنید."
         },
         "ar": {
           "purpose": "ينهي اختيار العامل ويغلق القائمة.",
@@ -15772,20 +15772,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open worker management from the project workspace.",
-          "when": "Use this control when you want to open the worker list or management page.",
-          "how": "Select Manage Workers to open the worker list or management page.",
-          "inputs": "Open worker management from the current project workspace.",
-          "result": "The worker management page opens; no person record is changed by navigation alone.",
-          "notes": "This navigates to worker management; edit or delete a person only after confirming the correct record."
+          "purpose": "Navigates from the Worker List dialog to the Workers management page in Business Workspace.",
+          "when": "Use this when the worker you need is not registered yet or you need to manage existing worker records.",
+          "how": "In the Worker List dialog, select Manage Workers. The dialog closes and the app opens the Workers page in the project workspace.",
+          "inputs": "The Worker List dialog must be open. No worker needs to be selected before navigating.",
+          "result": "The Workers management page opens, where you can add, edit or review saved workers.",
+          "notes": "This is navigation only; it does not add or change a worker. After saving a new worker, return to the project wage form and open Worker List again to select that worker."
         },
         "fa": {
-          "purpose": "باز کردن مدیریت کارگران از فضای کاری پروژه.",
-          "when": "وقتی می‌خواهید به فهرست کارگران یا صفحه مدیریت بروید، از این گزینه استفاده کنید.",
-          "how": "Manage Workers را انتخاب کنید تا فهرست یا صفحه مدیریت کارگران باز شود.",
-          "inputs": "از فضای کاری فعلی به مدیریت کارگران بروید.",
-          "result": "صفحه مدیریت کارگران باز می‌شود؛ صرفاً رفتن به آنجا سوابق اشخاص را تغییر نمی‌دهد.",
-          "notes": "این گزینه فقط به بخش مدیریت کارگران می‌رود؛ پیش از ویرایش یا حذف، رکورد فرد را تأیید کنید."
+          "purpose": "از پنجره Worker List به صفحه مدیریت Workers در Business Workspace می‌رود.",
+          "when": "وقتی کارگر موردنیاز هنوز ثبت نشده یا باید سوابق کارگران موجود را مدیریت کنید، از این گزینه استفاده کنید.",
+          "how": "در پنجره Worker List، گزینه Manage Workers را انتخاب کنید. پنجره بسته می‌شود و برنامه صفحه Workers را در فضای کاری پروژه باز می‌کند.",
+          "inputs": "پنجره Worker List باید باز باشد. برای رفتن به بخش مدیریت، انتخاب کارگر لازم نیست.",
+          "result": "صفحه مدیریت Workers باز می‌شود و می‌توانید کارگران ذخیره‌شده را اضافه، ویرایش یا بررسی کنید.",
+          "notes": "این فقط ناوبری است و کارگری اضافه یا ویرایش نمی‌کند. پس از ذخیره کارگر جدید، به فرم دستمزد پروژه برگردید و دوباره Worker List را باز کنید تا آن کارگر را انتخاب کنید."
         },
         "ar": {
           "purpose": "يفتح إدارة العمال من مساحة عمل المشروع.",
@@ -15870,20 +15870,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Loads a saved worker or partner record into its person form for editing.",
-          "when": "Use this when correcting a saved person's name, phone number, notes or partner email address.",
-          "how": "Select Edit beside the intended person. Update the displayed fields, then select Save Worker or Save Partner to store the changes.",
-          "inputs": "Select the correct worker or partner record. Name is required; phone and notes are optional, and email is available for partners.",
-          "result": "The selected person's saved values are loaded into the form. Changes are not saved until Save Worker or Save Partner succeeds.",
-          "notes": "Verify the person's identity before changing contact or work details."
+          "purpose": "Loads a saved worker or partner record into its person form so its details can be edited.",
+          "when": "Use this when correcting a saved person's name, phone number, notes or, for a partner, email address.",
+          "how": "In the Workers or Partners directory, select Edit beside the intended person. The saved values load into the form. Update the required fields and select Save Worker or Save Partner.",
+          "inputs": "Select the correct worker or partner record. Name is required when saving; phone and notes are optional, and email is available for partner records.",
+          "result": "The selected person's saved values are loaded into the form. Changes are committed only after the relevant Save Worker or Save Partner action succeeds.",
+          "notes": "Verify the person's identity before changing contact or work details. Editing updates the existing directory record; it does not create a new person or automatically update historical project records."
         },
         "fa": {
-          "purpose": "ویرایش اطلاعات فرد ذخیره‌شده در فهرست کارگران یا افراد پروژه.",
-          "when": "وقتی لازم است اطلاعات کاری یا تماس شخص ذخیره‌شده را به‌روزرسانی کنید، از این گزینه استفاده کنید.",
-          "how": "در کنار فرد موردنظر Edit را انتخاب کنید، فیلدهای موجود را تغییر دهید و ذخیره کنید.",
-          "inputs": "سابقه درست شخص را انتخاب کنید و اطلاعات تماس یا کاری را که می‌خواهید تغییر دهید بررسی کنید.",
-          "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد به‌روزرسانی می‌شود.",
-          "notes": "پیش از تغییر اطلاعات تماس یا کاری، هویت فرد را بررسی کنید."
+          "purpose": "سابقه ذخیره‌شده کارگر یا شریک را برای ویرایش جزئیات در فرم مربوط بارگذاری می‌کند.",
+          "when": "وقتی می‌خواهید نام، شماره تلفن، یادداشت‌ها یا برای شریک، نشانی ایمیل ذخیره‌شده شخص را اصلاح کنید، از این گزینه استفاده کنید.",
+          "how": "در فهرست Workers یا Partners، کنار شخص موردنظر Edit را انتخاب کنید. مقادیر ذخیره‌شده در فرم بارگذاری می‌شوند. فیلدهای لازم را به‌روزرسانی و Save Worker یا Save Partner را انتخاب کنید.",
+          "inputs": "رکورد صحیح کارگر یا شریک را انتخاب کنید. هنگام ذخیره، نام الزامی است؛ تلفن و یادداشت‌ها اختیاری هستند و ایمیل برای سوابق شریک در دسترس است.",
+          "result": "مقادیر ذخیره‌شده شخص انتخاب‌شده در فرم بارگذاری می‌شوند. تغییرات فقط پس از موفقیت عملیات مربوط به Save Worker یا Save Partner ثبت می‌شوند.",
+          "notes": "پیش از تغییر اطلاعات تماس یا کاری، هویت شخص را بررسی کنید. ویرایش، سابقه موجود در فهرست را به‌روزرسانی می‌کند؛ شخص جدیدی نمی‌سازد و سوابق تاریخی پروژه را خودکار به‌روزرسانی نمی‌کند."
         },
         "ar": {
           "purpose": "يحرر بيانات العمل أو الاتصال لشخص محفوظ في قائمة العمال أو جهات اتصال المشروع.",
