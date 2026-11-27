@@ -783,7 +783,7 @@
 - **ایمنی:** دکمه «?» handler اصلی Create/Download/Share PDF را اجرا نمی‌کند. دکمه‌های PDF و تولید فایل تغییر نکرده‌اند.
 - **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R64`.
 - **شمارنده پس از R64:** ۱۳۱ Help ID از ۱۳۲ محتوای قابل انتشار متصل شده‌اند: ۱۱۳ static، ۱۴ dynamic-template و چهار پل ارتباطی PDF popup. تنها مورد قابل انتشارِ متصل‌نشده، Check for Updates است که در Preview غیرفعال و عمداً مستثناست.
-- **تست ایستا:** چهار پل opener به شناسه درست متصل و در Registry ثبت شدند؛ تست واقعی popup/opener هنوز انجام نشده است. Version Authority Gate برای R64 باید اجرا شود.
+- **تست ایستا:** چهار پل opener به شناسه درست متصل و در Registry ثبت شدند؛ تست واقعی popup/opener هنوز انجام نشده است. **Version Authority Gate R64:** PASS؛ run `46072258368` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46072258368؛ Build R64، canonical URL، SHA صفحه و تمام ۲۴ asset pin تأیید شدند.
 - **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ بازشدن پنجره Help از popup، بازگشت focus به برنامه، fallback، Create/Download/Share PDF، انتخاب زبان و چیدمان موبایل باید در Preview آزمایش شوند.
 - **انتشار / داده:** هیچ Preview deploy، Merge، تولید/دانلود PDF یا Production change انجام نشده است.
 
