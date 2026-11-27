@@ -68,6 +68,8 @@ async function emergencyBackup(){
  const before=await engine().health();
  assert(before&&before.ok===true&&before.resetLocked!==true,"Preview database health or reset-lock check failed.");
  for(const scope of ["accounting","projects","contracts","businessProfile","support","media"])await root.flushSelectedDomainWrites(scope);
+ const afterFlush=await engine().health();
+ assert(afterFlush&&afterFlush.ok===true&&afterFlush.resetLocked!==true,"Preview database health check failed after flushing pending writes.");
  const recovery=root.HandymanRecoveryV264;
  assert(recovery&&typeof recovery.createFullBackup==="function","Verified full-database backup engine is unavailable.");
  const result=await recovery.createFullBackup();
@@ -207,6 +209,7 @@ async function finalAction(){
   gate.busy=true;setFinalGate();return;
  }catch(e){
   gate.busy=false;
+  if(!e.resetLockActive){gate.emergencyVerified=false;gate.emergencyDigest=null;const confirm=$("factoryResetConfirmEmergency");if(confirm){confirm.checked=false;confirm.disabled=true;}}
   setStatus((e.resetLockActive?"RECOVERY LOCK ACTIVE — keep this page open and retry using the validated converted backup. ":"Reset stopped — ")+(e.message||e),true);
  }
  gate.busy=false;setFinalGate();
