@@ -3333,7 +3333,11 @@ function renderGuideChapters(lang){
   const details=document.createElement('details');if(index===0)details.open=true;
   const summary=document.createElement('summary');summary.textContent=(index+1)+'. '+entry[0];
   const content=document.createElement('div');content.className='help-guide-body';content.style.lineHeight='1.65';content.style.padding='8px 4px';
-  renderGuideMarkdown(content,entry[1]);details.append(summary,content);root.appendChild(details);
+  let rendered=false;
+  const renderChapter=()=>{if(rendered)return;rendered=true;renderGuideMarkdown(content,entry[1]);};
+  details.addEventListener('toggle',()=>{if(details.open)renderChapter();});
+  details.append(summary,content);root.appendChild(details);
+  if(index===0)renderChapter();
  });
 }
 function currentGuideLang(){try{const v=window.HandymanUIDomainGatewayV264?.states?.support?.preferences||'en';return Object.prototype.hasOwnProperty.call(GUIDE_LANGS,v)?v:'en'}catch(e){return 'en'}}
@@ -3342,7 +3346,8 @@ function applyGuideLanguage(lang){
  document.documentElement.lang='en';document.documentElement.dir='ltr';document.body.classList.remove('guide-language-rtl');
  const labels=GUIDE_LABELS[safe],title=document.querySelector('#userGuide > h2'),intro=document.querySelector('#userGuide > .settings-intro');
  if(title)title.textContent=labels.title;if(intro)intro.textContent=labels.intro;
- renderGuideChapters(safe);
+ const guide=document.getElementById('userGuide');
+ if(guide&&guide.classList.contains('active'))renderGuideChapters(safe);
  const sel=document.getElementById('appLanguageSelect');if(sel)sel.value=safe;
  const status=document.getElementById('languageSavedStatus');if(status)status.textContent=GUIDE_LANGS[safe]+' — guide language selected on this device.';
 }
@@ -3376,7 +3381,7 @@ try{applyGuideLanguage(currentGuideLang())}catch(e){console.warn('Guide language
 })();
 
 // Keep the old date-filter report working only when the user explicitly chooses Custom.
-const oldShow=window.show; if(typeof oldShow==='function'){window.show=function(id){oldShow.apply(this,arguments);if(id==='report')setTimeout(window.report188Init,0)}}
+const oldShow=window.show; if(typeof oldShow==='function'){window.show=function(id){oldShow.apply(this,arguments);if(id==='report')setTimeout(window.report188Init,0);if(id==='userGuide')renderGuideChapters(currentGuideLang())}}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>setTimeout(window.report188Init,0));else setTimeout(window.report188Init,0);
 })();
 </script>
