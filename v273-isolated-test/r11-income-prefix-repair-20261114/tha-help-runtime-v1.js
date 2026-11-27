@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R53') return;
+  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R54') return;
   const payload = window.THAHelpContentV1;
   if (!payload || !payload.entries) {
     console.error('[THA Help] Content bundle is missing; contextual help was not started.');
@@ -39,7 +39,13 @@
     ['THA-HLP-0077', '[data-pr-nav="control"]'],
     ['THA-HLP-0099', '#prPage-partners .pr-actions > button[onclick="prResetPerson(\'partner\')"]'],
     ['THA-HLP-0103', '#prPage-workers .pr-actions > button[onclick="prResetPerson(\'worker\')"]'],
-    ['THA-HLP-0070', '#helpContactForm > .pr-actions > button[type="submit"]']
+    ['THA-HLP-0070', '#helpContactForm > .pr-actions > button[type="submit"]'],
+    ['THA-HLP-0042', '#report188Calendar .actions > button[onclick="report188ConfirmComplete()"]'],
+    ['THA-HLP-0047', '#monitor button[onclick="toggleMonitorVersionInfo()"]'],
+    ['THA-HLP-0052', '#monitor button[onclick="exportDiagnosticReport()"]'],
+    ['THA-HLP-0053', '#monitor button[onclick="runFullStorageAudit()"]'],
+    ['THA-HLP-0054', '#monitor button[onclick="exportMonitorCSV()"]'],
+    ['THA-HLP-0055', '#monitor button[onclick="runMonitorSelfCheck()"]']
   ];
   if (STATIC_BINDINGS.some(binding => !Array.isArray(binding) || binding.length !== 2 || binding.some(value => typeof value !== 'string' || !value.trim()))) {
     console.error('[THA Help] Invalid static binding table; contextual help was not started.');
@@ -211,7 +217,7 @@
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initialise,{once:true});
   else initialise();
   window.THAHelpRuntime=Object.freeze({
-    version:'R53',open:openHelp,openFullGuide,attach:attachAll,
+    version:'R54',open:openHelp,openFullGuide,attach:attachAll,
     getLastHelpId:()=>lastHelpId,getPublishableCount:()=>Object.keys(payload.entries).length
   });
 })();
