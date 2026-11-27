@@ -9673,7 +9673,7 @@
           "purpose": "Share the generated PDF through the device share sheet.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Select Share PDF after generation and choose a supported app or destination.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "inputs": "Select the PDF file that you want to share and choose a sharing destination.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "The available destinations depend on the device/browser. Review recipient and document contents before sharing."
         },
@@ -9681,9 +9681,81 @@
           "purpose": "اشتراک‌گذاری PDF ساخته‌شده از طریق امکانات دستگاه.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "پس از تولید PDF، Share PDF را انتخاب کنید و یک برنامه یا مقصد پشتیبانی‌شده را برگزینید.",
-          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "inputs": "فایل PDF موردنظر برای اشتراک‌گذاری را انتخاب کنید و مقصد ارسال را مشخص کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "مقصدهای قابل استفاده به دستگاه و مرورگر بستگی دارند. پیش از ارسال، گیرنده و محتوای سند را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يشارك ملف PDF الذي تم إنشاؤه عبر قائمة المشاركة في الجهاز.",
+          "when": "عندما تريد إرسال ملف PDF إلى تطبيق أو وجهة مدعومة.",
+          "how": "بعد إنشاء الملف، اختر Share PDF ثم حدد تطبيقاً أو وجهة مدعومة.",
+          "inputs": "حدد ملف PDF الذي تريد مشاركته واختر وجهة الإرسال.",
+          "result": "تُفتح خيارات المشاركة المتاحة لتمرير ملف PDF إلى الوجهة المحددة.",
+          "notes": "تعتمد الوجهات المتاحة على الجهاز والمتصفح. راجع المستلم ومحتوى المستند قبل المشاركة."
+        },
+        "ckb": {
+          "purpose": "فایلی PDFی دروستکراو بە لیستی هاوبەشکردنی ئامێرەکە هاوبەش دەکات.",
+          "when": "کاتێک دەتەوێت فایلی PDF بۆ ئەپێک یان شوێنێکی پشتگیریکراو بنێریت.",
+          "how": "دوای دروستکردنی فایلەکە Share PDF هەڵبژێرە، پاشان ئەپ یان شوێنێکی پشتگیریکراو دیاری بکە.",
+          "inputs": "فایلی PDFی داواکراو هەڵبژێرە و شوێنی ناردن دیاری بکە.",
+          "result": "هەڵبژاردەکانی هاوبەشکردنی بەردەست دەکرێنەوە بۆ ناردنی PDF بۆ شوێنی دیاریکراو.",
+          "notes": "شوێنە بەردەستەکان بە ئامێر و وێبگەڕەوە بەستراون. پێش هاوبەشکردن وەرگر و ناوەڕۆکی بەڵگەنامەکە بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Pelê PDF yê çêkirî bi lîsteya parvekirina amûrê re parve dike.",
+          "when": "Dema ku tu dixwazî pelê PDF ji sepanekê an cihê piştgirîkirî re bişînî.",
+          "how": "Piştî çêkirina pelê Share PDF hilbijêre û sepanek an cihê piştgirîkirî hilbijêre.",
+          "inputs": "Pelê PDF yê ku dixwazî parve bikî hilbijêre û cihê şandinê diyar bike.",
+          "result": "Vebijarkên parvekirinê yên berdest vedibin da ku PDF ji cihê hilbijartî re were şandin.",
+          "notes": "Cihên berdest bi amûr û gerokê ve girêdayî ne. Berî parvekirinê wergir û naveroka belgeyê kontrol bike."
+        },
+        "tr": {
+          "purpose": "Oluşturulan PDF'yi cihazın paylaşım menüsü üzerinden paylaşır.",
+          "when": "PDF dosyasını desteklenen bir uygulamaya veya hedefe göndermek istediğinizde kullanın.",
+          "how": "Dosya oluşturulduktan sonra Share PDF'yi seçin ve desteklenen bir uygulama veya hedef belirleyin.",
+          "inputs": "Paylaşmak istediğiniz PDF dosyasını seçin ve gönderim hedefini belirleyin.",
+          "result": "PDF'yi seçilen hedefe aktarmak için kullanılabilir paylaşım seçenekleri açılır.",
+          "notes": "Kullanılabilir hedefler cihaza ve tarayıcıya bağlıdır. Paylaşmadan önce alıcıyı ve belge içeriğini kontrol edin."
+        },
+        "pl": {
+          "purpose": "Udostępnia wygenerowany plik PDF za pomocą systemowego panelu udostępniania urządzenia.",
+          "when": "Użyj, gdy chcesz wysłać plik PDF do obsługiwanej aplikacji lub lokalizacji.",
+          "how": "Po wygenerowaniu pliku wybierz Share PDF i wskaż obsługiwaną aplikację lub miejsce docelowe.",
+          "inputs": "Wybierz plik PDF, który chcesz udostępnić, i wskaż miejsce docelowe.",
+          "result": "Otwierają się dostępne opcje udostępniania pliku PDF do wybranego miejsca.",
+          "notes": "Dostępne miejsca docelowe zależą od urządzenia i przeglądarki. Przed udostępnieniem sprawdź odbiorcę i zawartość dokumentu."
+        },
+        "ur": {
+          "purpose": "ڈیوائس کے شیئرنگ مینو کے ذریعے بنائی گئی PDF شیئر کرتا ہے۔",
+          "when": "جب PDF فائل کسی معاون ایپ یا منزل پر بھیجنی ہو تو استعمال کریں۔",
+          "how": "فائل بننے کے بعد Share PDF منتخب کریں اور معاون ایپ یا منزل چنیں۔",
+          "inputs": "وہ PDF فائل منتخب کریں جسے شیئر کرنا ہے اور بھیجنے کی منزل منتخب کریں۔",
+          "result": "PDF کو منتخب منزل تک پہنچانے کے لیے دستیاب شیئرنگ اختیارات کھل جاتے ہیں۔",
+          "notes": "دستیاب منزلیں ڈیوائس اور براؤزر پر منحصر ہیں۔ شیئر کرنے سے پہلے وصول کنندہ اور دستاویز کا مواد چیک کریں۔"
+        },
+        "pa": {
+          "purpose": "ਡਿਵਾਈਸ ਦੇ ਸਿਸਟਮ ਸ਼ੇਅਰ ਮੀਨੂ ਰਾਹੀਂ ਬਣਾਈ PDF ਸਾਂਝੀ ਕਰਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ PDF ਫਾਈਲ ਕਿਸੇ ਸਮਰਥਿਤ ਐਪ ਜਾਂ ਮੰਜ਼ਿਲ 'ਤੇ ਭੇਜਣੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਫਾਈਲ ਬਣਨ ਤੋਂ ਬਾਅਦ Share PDF ਚੁਣੋ ਅਤੇ ਸਮਰਥਿਤ ਐਪ ਜਾਂ ਮੰਜ਼ਿਲ ਚੁਣੋ।",
+          "inputs": "ਉਹ PDF ਫਾਈਲ ਚੁਣੋ ਜਿਸਨੂੰ ਸਾਂਝਾ ਕਰਨਾ ਹੈ ਅਤੇ ਭੇਜਣ ਦੀ ਮੰਜ਼ਿਲ ਚੁਣੋ।",
+          "result": "PDF ਨੂੰ ਚੁਣੀ ਮੰਜ਼ਿਲ ਤੱਕ ਭੇਜਣ ਲਈ ਉਪਲਬਧ ਸਾਂਝੇ ਕਰਨ ਦੇ ਵਿਕਲਪ ਖੁੱਲ੍ਹਦੇ ਹਨ।",
+          "notes": "ਉਪਲਬਧ ਮੰਜ਼ਿਲਾਂ ਡਿਵਾਈਸ ਅਤੇ ਬ੍ਰਾਊਜ਼ਰ 'ਤੇ ਨਿਰਭਰ ਕਰਦੀਆਂ ਹਨ। ਸਾਂਝਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਪ੍ਰਾਪਤਕਰਤਾ ਅਤੇ ਦਸਤਾਵੇਜ਼ ਦੀ ਸਮੱਗਰੀ ਜਾਂਚੋ।"
+        },
+        "prs": {
+          "purpose": "فایل PDF ایجادشده را از طریق گزینه‌های اشتراک‌گذاری دستگاه به اشتراک می‌گذارد.",
+          "when": "وقتی می‌خواهید فایل PDF را به برنامه یا مقصد پشتیبانی‌شده بفرستید، استفاده کنید.",
+          "how": "پس از ایجاد فایل Share PDF را انتخاب کنید و برنامه یا مقصد پشتیبانی‌شده‌ای را برگزینید.",
+          "inputs": "فایل PDF موردنظر برای اشتراک‌گذاری را انتخاب کنید و مقصد ارسال را مشخص کنید.",
+          "result": "گزینه‌های اشتراک‌گذاری موجود برای ارسال PDF به مقصد انتخاب‌شده باز می‌شوند.",
+          "notes": "مقصدهای موجود به دستگاه و مرورگر بستگی دارند. پیش از اشتراک‌گذاری، گیرنده و محتوای سند را بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د جوړ شوي PDF فایل د وسیلې د شریکولو له لارې شریکوي.",
+          "when": "کله چې غواړئ PDF یو ملاتړ شوي اپلیکیشن یا ځای ته ولېږئ، دا وکاروئ.",
+          "how": "د فایل له جوړېدو وروسته Share PDF وټاکئ او ملاتړ شوی اپلیکیشن یا ځای وټاکئ.",
+          "inputs": "هغه PDF فایل وټاکئ چې شریکول یې غواړئ او د لېږلو ځای وټاکئ.",
+          "result": "د PDF ټاکلي ځای ته د لېږلو لپاره د شریکولو شته اختیارونه پرانیستل کېږي.",
+          "notes": "شته ځایونه په وسیله او براوزر پورې تړلي دي. له شریکولو مخکې ترلاسه کوونکی او د سند منځپانګه وګورئ."
         }
       },
       "handler_or_behavior": "`sharePDF()`"
@@ -9699,7 +9771,7 @@
           "purpose": "Edit a saved customer’s details.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Choose Edit beside the correct customer, update the required customer or contact fields, and save the changes.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct customer record and change the fields that need updating.",
           "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
           "notes": "Check that you selected the correct customer, especially where names are similar."
         },
@@ -9707,9 +9779,81 @@
           "purpose": "ویرایش اطلاعات مشتری ذخیره‌شده.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "در کنار مشتری درست گزینه Edit را انتخاب کنید، اطلاعات موردنیاز مشتری یا تماس را تغییر دهید و ذخیره کنید.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "سابقه درست مشتری را انتخاب کنید و فیلدهایی را که باید به‌روزرسانی شوند تغییر دهید.",
           "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
           "notes": "به‌ویژه اگر نام مشتریان مشابه است، پیش از ذخیره هویت مشتری را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يفتح بيانات العميل المحفوظة لتعديلها.",
+          "when": "عندما تحتاج إلى تحديث بيانات العميل أو معلومات الاتصال الخاصة به.",
+          "how": "اختر Edit بجانب العميل الصحيح، وعدّل حقول العميل أو الاتصال المطلوبة، ثم احفظ التغييرات.",
+          "inputs": "حدد سجل العميل الصحيح وعدّل الحقول التي تحتاج إلى تحديث.",
+          "result": "يُحدّث سجل العميل إذا نجح التحقق وأكد التطبيق التغيير.",
+          "notes": "تحقق من أنك اخترت العميل الصحيح، خاصة عندما تكون الأسماء متشابهة."
+        },
+        "ckb": {
+          "purpose": "زانیاری پاشەکەوتکراوی کڕیار بۆ دەستکاریکردن دەکاتەوە.",
+          "when": "کاتێک پێویستە زانیارییەکانی کڕیار یان زانیاری پەیوەندییەکانی نوێ بکەیتەوە.",
+          "how": "لە تەنیشت کڕیاری دروست Edit هەڵبژێرە، خانە پێویستەکانی کڕیار یان پەیوەندی بگۆڕە و پاشەکەوت بکە.",
+          "inputs": "تۆماری کڕیاری دروست هەڵبژێرە و ئەو خانانە بگۆڕە کە پێویستیان بە نوێکردنەوە هەیە.",
+          "result": "ئەگەر پشتڕاستکردنەوە سەرکەوتوو بێت و ئەپەکە گۆڕانکارییەکە پشتڕاست بکاتەوە، تۆماری کڕیار نوێ دەکرێتەوە.",
+          "notes": "دڵنیابە کڕیاری دروستت هەڵبژاردووە، بە تایبەتی کاتێک ناوەکان لەیەک دەچن."
+        },
+        "kmr": {
+          "purpose": "Agahiyên tomarkirî yên xerîdar ji bo guherandinê vedike.",
+          "when": "Dema ku tu hewceyî nûkirina agahiyên xerîdar an têkiliyê yî.",
+          "how": "Li kêleka xerîdarê rast Edit hilbijêre, qadên xerîdar an têkiliyê yên pêwîst biguherîne û tomar bike.",
+          "inputs": "Tomara xerîdarê rast hilbijêre û qadên ku hewceyî nûkirinê ne biguherîne.",
+          "result": "Ger kontrol serkeftî be û sepan guherînê piştrast bike, tomara xerîdar tê nûkirin.",
+          "notes": "Piştrast bike ku xerîdarê rast hilbijartiye, nemaze dema ku nav dişibin hev."
+        },
+        "tr": {
+          "purpose": "Kaydedilmiş müşterinin bilgilerini düzenlemek üzere açar.",
+          "when": "Müşteri bilgilerini veya iletişim ayrıntılarını güncellemeniz gerektiğinde kullanın.",
+          "how": "Doğru müşterinin yanındaki Edit'i seçin, gerekli müşteri veya iletişim alanlarını güncelleyin ve değişiklikleri kaydedin.",
+          "inputs": "Doğru müşteri kaydını seçin ve güncellenmesi gereken alanları değiştirin.",
+          "result": "Doğrulama başarılı olur ve uygulama değişikliği onaylarsa müşteri kaydı güncellenir.",
+          "notes": "Özellikle adlar benzer olduğunda doğru müşteriyi seçtiğinizi kontrol edin."
+        },
+        "pl": {
+          "purpose": "Otwiera zapisane dane klienta do edycji.",
+          "when": "Użyj, gdy trzeba zaktualizować dane klienta lub informacje kontaktowe.",
+          "how": "Wybierz Edit obok właściwego klienta, zaktualizuj wymagane pola klienta lub kontaktu i zapisz zmiany.",
+          "inputs": "Wybierz właściwy rekord klienta i zmień pola wymagające aktualizacji.",
+          "result": "Rekord klienta zostanie zaktualizowany, jeśli walidacja się powiedzie i aplikacja potwierdzi zmianę.",
+          "notes": "Sprawdź, czy wybrano właściwego klienta, zwłaszcza gdy nazwiska lub nazwy są podobne."
+        },
+        "ur": {
+          "purpose": "محفوظ شدہ گاہک کی تفصیلات ترمیم کے لیے کھولتا ہے۔",
+          "when": "جب گاہک کی معلومات یا رابطے کی تفصیلات اپ ڈیٹ کرنی ہوں تو استعمال کریں۔",
+          "how": "درست گاہک کے ساتھ Edit منتخب کریں، مطلوبہ گاہک یا رابطے کے خانے اپ ڈیٹ کریں اور تبدیلیاں محفوظ کریں۔",
+          "inputs": "درست گاہک کا ریکارڈ منتخب کریں اور وہ خانے تبدیل کریں جنہیں اپ ڈیٹ کرنا ہے۔",
+          "result": "توثیق کامیاب ہو اور ایپ تبدیلی کی تصدیق کرے تو گاہک کا ریکارڈ اپ ڈیٹ ہو جاتا ہے۔",
+          "notes": "یقین کریں کہ درست گاہک منتخب کیا ہے، خاص طور پر جب نام ملتے جلتے ہوں۔"
+        },
+        "pa": {
+          "purpose": "ਸੇਵ ਕੀਤੇ ਗਾਹਕ ਦੇ ਵੇਰਵੇ ਸੋਧਣ ਲਈ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਗਾਹਕ ਦੀ ਜਾਣਕਾਰੀ ਜਾਂ ਸੰਪਰਕ ਵੇਰਵੇ ਅਪਡੇਟ ਕਰਨੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸਹੀ ਗਾਹਕ ਦੇ ਨਾਲ Edit ਚੁਣੋ, ਲੋੜੀਂਦੇ ਗਾਹਕ ਜਾਂ ਸੰਪਰਕ ਖੇਤਰ ਅਪਡੇਟ ਕਰੋ ਅਤੇ ਤਬਦੀਲੀਆਂ ਸੇਵ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਗਾਹਕ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਉਹ ਖੇਤਰ ਬਦਲੋ ਜਿਨ੍ਹਾਂ ਨੂੰ ਅਪਡੇਟ ਕਰਨਾ ਹੈ।",
+          "result": "ਜਾਂਚ ਸਫਲ ਹੋਵੇ ਅਤੇ ਐਪ ਤਬਦੀਲੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਗਾਹਕ ਰਿਕਾਰਡ ਅਪਡੇਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਸਹੀ ਗਾਹਕ ਚੁਣਿਆ ਹੈ, ਖ਼ਾਸ ਕਰਕੇ ਜਦੋਂ ਨਾਮ ਮਿਲਦੇ-ਜੁਲਦੇ ਹੋਣ।"
+        },
+        "prs": {
+          "purpose": "اطلاعات ذخیره‌شده مشتری را برای ویرایش باز می‌کند.",
+          "when": "وقتی لازم است اطلاعات مشتری یا جزئیات تماس او را به‌روزرسانی کنید، استفاده کنید.",
+          "how": "در کنار مشتری درست Edit را انتخاب کنید، فیلدهای لازم مشتری یا تماس را به‌روزرسانی و تغییرات را ذخیره کنید.",
+          "inputs": "سابقه درست مشتری را انتخاب کنید و فیلدهایی را که باید به‌روزرسانی شوند تغییر دهید.",
+          "result": "اگر اعتبارسنجی موفق باشد و برنامه تغییر را تأیید کند، سابقه مشتری به‌روزرسانی می‌شود.",
+          "notes": "مطمئن شوید مشتری درست را انتخاب کرده‌اید، به‌ویژه وقتی نام‌ها مشابه هستند."
+        },
+        "ps": {
+          "purpose": "د خوندي شوي پېرودونکي معلومات د سمون لپاره پرانیزي.",
+          "when": "کله چې د پېرودونکي معلومات یا د اړیکې جزئیات تازه کول غواړئ، دا وکاروئ.",
+          "how": "د سم پېرودونکي تر څنګ Edit وټاکئ، د پېرودونکي یا اړیکې اړینې خانې تازه کړئ او بدلونونه خوندي کړئ.",
+          "inputs": "د پېرودونکي سم ریکارډ وټاکئ او هغه خانې بدلې کړئ چې تازه کولو ته اړتیا لري.",
+          "result": "که ارزونه بریالۍ شي او اپلیکیشن بدلون تایید کړي، د پېرودونکي ریکارډ تازه کېږي.",
+          "notes": "ډاډ ترلاسه کړئ چې سم پېرودونکی مو ټاکلی، په ځانګړي ډول کله چې نومونه ورته وي."
         }
       },
       "handler_or_behavior": "`editCustomer(`"
@@ -9725,7 +9869,7 @@
           "purpose": "Start a new invoice for the selected customer.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Choose New invoice beside the customer and review the customer details carried into the invoice before completing it.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct customer and review the details that will be used on the invoice.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "This starts an invoice workflow; check the amount, description and payment status before saving or issuing."
         },
@@ -9733,9 +9877,81 @@
           "purpose": "شروع ساخت فاکتور جدید برای مشتری انتخاب‌شده.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "در کنار مشتری گزینه New invoice را بزنید و پیش از تکمیل فاکتور، اطلاعات منتقل‌شده مشتری را بررسی کنید.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "مشتری درست را انتخاب کنید و اطلاعات او را که در فاکتور استفاده می‌شود بررسی کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "این گزینه فقط روند ساخت فاکتور را آغاز می‌کند؛ مبلغ، شرح و وضعیت پرداخت را پیش از ذخیره یا صدور بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يبدأ إنشاء فاتورة جديدة للعميل المحدد.",
+          "when": "عندما تريد إصدار فاتورة جديدة للعميل المحدد.",
+          "how": "اختر New invoice بجانب العميل، وراجع بيانات العميل المنقولة إلى الفاتورة قبل إكمالها.",
+          "inputs": "حدد العميل الصحيح وراجع بياناته التي ستُستخدم في الفاتورة.",
+          "result": "يُفتح نموذج أو مسار إنشاء فاتورة جديدة للعميل المحدد.",
+          "notes": "هذا الإجراء يبدأ إنشاء الفاتورة فقط؛ راجع المبلغ والوصف وحالة الدفع قبل الحفظ أو الإصدار."
+        },
+        "ckb": {
+          "purpose": "دەست بە دروستکردنی فاکتۆرێکی نوێ بۆ کڕیاری هەڵبژێردراو دەکات.",
+          "when": "کاتێک دەتەوێت فاکتۆرێکی نوێ بۆ کڕیاری هەڵبژێردراو دروست بکەیت.",
+          "how": "لە تەنیشت کڕیار New invoice هەڵبژێرە و پێش تەواوکردنی فاکتۆر زانیارییە گوازراوەکانی کڕیار بپشکنە.",
+          "inputs": "کڕیاری دروست هەڵبژێرە و زانیارییەکانی بپشکنە کە بۆ فاکتۆرەکە بەکاردێن.",
+          "result": "فۆڕم یان پرۆسەی دروستکردنی فاکتۆری نوێ بۆ کڕیاری هەڵبژێردراو دەکرێتەوە.",
+          "notes": "ئەمە تەنها پرۆسەی دروستکردنی فاکتۆر دەست پێدەکات؛ پێش پاشەکەوتکردن یان دەرکردن بڕ، وەسف و دۆخی پارەدان بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Dest bi çêkirina fatûreya nû ji bo xerîdarê hilbijartî dike.",
+          "when": "Dema ku tu dixwazî ji bo xerîdarê hilbijartî fatûreyeke nû çêkî.",
+          "how": "Li kêleka xerîdar New invoice hilbijêre û berî temamkirina fatûreyê agahiyên xerîdar ên veguhastî kontrol bike.",
+          "inputs": "Xerîdarê rast hilbijêre û agahiyên wî yên ku di fatûreyê de bên bikaranîn kontrol bike.",
+          "result": "Forma an pêvajoya çêkirina fatûreya nû ji bo xerîdarê hilbijartî vedibe.",
+          "notes": "Ev tenê pêvajoya çêkirina fatûreyê dest pê dike; berî tomarkirin an derxistinê mîqdar, ravekirin û rewşa dravdanê kontrol bike."
+        },
+        "tr": {
+          "purpose": "Seçilen müşteri için yeni fatura oluşturma sürecini başlatır.",
+          "when": "Seçilen müşteri için yeni bir fatura oluşturmak istediğinizde kullanın.",
+          "how": "Müşterinin yanındaki New invoice'i seçin ve faturayı tamamlamadan önce aktarılan müşteri bilgilerini kontrol edin.",
+          "inputs": "Doğru müşteriyi seçin ve faturada kullanılacak müşteri bilgilerini gözden geçirin.",
+          "result": "Seçilen müşteri için yeni fatura formu veya iş akışı açılır.",
+          "notes": "Bu işlem yalnızca fatura oluşturma sürecini başlatır; kaydetmeden veya düzenlemeden önce tutarı, açıklamayı ve ödeme durumunu kontrol edin."
+        },
+        "pl": {
+          "purpose": "Rozpoczyna tworzenie nowej faktury dla wybranego klienta.",
+          "when": "Użyj, gdy chcesz utworzyć nową fakturę dla wybranego klienta.",
+          "how": "Wybierz New invoice obok klienta i przed uzupełnieniem faktury sprawdź przeniesione dane klienta.",
+          "inputs": "Wybierz właściwego klienta i sprawdź jego dane, które zostaną użyte na fakturze.",
+          "result": "Otwiera się formularz lub proces tworzenia nowej faktury dla wybranego klienta.",
+          "notes": "Ta czynność jedynie rozpoczyna proces tworzenia faktury; przed zapisaniem lub wystawieniem sprawdź kwotę, opis i status płatności."
+        },
+        "ur": {
+          "purpose": "منتخب گاہک کے لیے نیا انوائس بنانے کا عمل شروع کرتا ہے۔",
+          "when": "جب منتخب گاہک کے لیے نیا انوائس بنانا ہو تو استعمال کریں۔",
+          "how": "گاہک کے ساتھ New invoice منتخب کریں اور انوائس مکمل کرنے سے پہلے منتقل شدہ گاہک کی تفصیلات دیکھیں۔",
+          "inputs": "درست گاہک منتخب کریں اور انوائس میں استعمال ہونے والی اس کی معلومات کا جائزہ لیں۔",
+          "result": "منتخب گاہک کے لیے نئے انوائس کا فارم یا عمل کھل جاتا ہے۔",
+          "notes": "یہ صرف انوائس بنانے کا عمل شروع کرتا ہے؛ محفوظ یا جاری کرنے سے پہلے رقم، تفصیل اور ادائیگی کی حیثیت چیک کریں۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੇ ਗਾਹਕ ਲਈ ਨਵਾਂ ਇਨਵੌਇਸ ਬਣਾਉਣ ਦੀ ਪ੍ਰਕਿਰਿਆ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਚੁਣੇ ਗਾਹਕ ਲਈ ਨਵਾਂ ਇਨਵੌਇਸ ਬਣਾਉਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਗਾਹਕ ਦੇ ਨਾਲ New invoice ਚੁਣੋ ਅਤੇ ਇਨਵੌਇਸ ਪੂਰਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਆਏ ਗਾਹਕ ਵੇਰਵੇ ਜਾਂਚੋ।",
+          "inputs": "ਸਹੀ ਗਾਹਕ ਚੁਣੋ ਅਤੇ ਇਨਵੌਇਸ ਵਿੱਚ ਵਰਤੀ ਜਾਣ ਵਾਲੀ ਉਸਦੀ ਜਾਣਕਾਰੀ ਵੇਖੋ।",
+          "result": "ਚੁਣੇ ਗਾਹਕ ਲਈ ਨਵੇਂ ਇਨਵੌਇਸ ਦਾ ਫਾਰਮ ਜਾਂ ਪ੍ਰਕਿਰਿਆ ਖੁੱਲ੍ਹਦੀ ਹੈ।",
+          "notes": "ਇਹ ਸਿਰਫ਼ ਇਨਵੌਇਸ ਬਣਾਉਣ ਦੀ ਪ੍ਰਕਿਰਿਆ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ; ਸੇਵ ਜਾਂ ਜਾਰੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਰਕਮ, ਵੇਰਵਾ ਅਤੇ ਭੁਗਤਾਨ ਸਥਿਤੀ ਜਾਂਚੋ।"
+        },
+        "prs": {
+          "purpose": "روند ایجاد فاکتور جدید برای مشتری انتخاب‌شده را آغاز می‌کند.",
+          "when": "وقتی می‌خواهید برای مشتری انتخاب‌شده فاکتور جدید بسازید، استفاده کنید.",
+          "how": "در کنار مشتری New invoice را انتخاب کنید و پیش از تکمیل فاکتور، اطلاعات منتقل‌شده مشتری را بررسی کنید.",
+          "inputs": "مشتری درست را انتخاب کنید و اطلاعات او را که در فاکتور استفاده می‌شود بررسی کنید.",
+          "result": "فرم یا روند ایجاد فاکتور جدید برای مشتری انتخاب‌شده باز می‌شود.",
+          "notes": "این گزینه فقط روند ایجاد فاکتور را آغاز می‌کند؛ پیش از ذخیره یا صدور، مبلغ، شرح و وضعیت پرداخت را بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د ټاکل شوي پېرودونکي لپاره د نوي بل جوړولو بهیر پیلوي.",
+          "when": "کله چې د ټاکل شوي پېرودونکي لپاره نوی بل جوړول غواړئ، دا وکاروئ.",
+          "how": "د پېرودونکي تر څنګ New invoice وټاکئ او د بل تر بشپړولو مخکې لېږدول شوي د پېرودونکي معلومات وګورئ.",
+          "inputs": "سم پېرودونکی وټاکئ او هغه معلومات یې وګورئ چې په بل کې کارول کېږي.",
+          "result": "د ټاکل شوي پېرودونکي لپاره د نوي بل فورمه یا بهیر پرانیستل کېږي.",
+          "notes": "دا یوازې د بل جوړولو بهیر پیلوي؛ له خوندي کولو یا صادرولو مخکې اندازه، تشریح او د تادیې حالت وګورئ."
         }
       },
       "handler_or_behavior": "`newInvoiceForCustomer(`"
@@ -9751,7 +9967,7 @@
           "purpose": "Delete a customer record.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Choose Delete only for the intended customer and read the confirmation prompt carefully.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct customer record and verify its identity before confirming deletion.",
           "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
           "notes": "Deletion can affect access to the customer record. Check for linked invoices or work history and retain records required for accounting."
         },
@@ -9759,9 +9975,81 @@
           "purpose": "حذف رکورد یک مشتری.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "فقط برای مشتری موردنظر گزینه Delete را انتخاب کنید و پیام تأیید را با دقت بخوانید.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "سابقه درست مشتری را انتخاب کنید و پیش از تأیید حذف، هویت آن را بررسی کنید.",
           "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
           "notes": "حذف ممکن است دسترسی به سوابق مشتری را تحت تأثیر قرار دهد. فاکتورها و سوابق کاری مرتبط و الزامات نگهداری اسناد را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يحذف سجل العميل المحدد.",
+          "when": "فقط عندما يكون سجل العميل مكرراً أو غير صحيح ويجب إزالته.",
+          "how": "اختر Delete للعميل المقصود فقط واقرأ رسالة التأكيد بعناية.",
+          "inputs": "حدد سجل العميل الصحيح وتحقق من هويته قبل تأكيد الحذف.",
+          "result": "تتم إزالة السجل أو تعطيله فقط إذا قبل التطبيق العملية وأكدها.",
+          "notes": "قد يؤثر الحذف في الوصول إلى سجل العميل. تحقق من الفواتير أو سجل الأعمال المرتبط واحتفظ بالسجلات المطلوبة محاسبياً."
+        },
+        "ckb": {
+          "purpose": "تۆماری کڕیاری هەڵبژێردراو دەسڕێتەوە.",
+          "when": "تەنها کاتێک تۆماری کڕیار دووبارەیە یان هەڵەیە و دەبێت لاببرێت.",
+          "how": "تەنها بۆ کڕیاری مەبەست Delete هەڵبژێرە و نامەی پشتڕاستکردنەوە بە وردی بخوێنەوە.",
+          "inputs": "تۆماری کڕیاری دروست هەڵبژێرە و پێش پشتڕاستکردنەوەی سڕینەوە ناسنامەکەی بپشکنە.",
+          "result": "تۆمارەکە تەنها ئەگەر ئەپەکە کردارەکە قبووڵ و پشتڕاست بکاتەوە لادەبرێت یان ناچالاک دەکرێت.",
+          "notes": "سڕینەوە دەتوانێت کاریگەری لە دەستگەیشتن بە مێژووی کڕیار هەبێت. فاکتۆر و مێژووی کاری پەیوەست و پێداویستییەکانی پاراستنی تۆمارە ژمێریارییەکان بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Tomara xerîdarê hilbijartî jê dike.",
+          "when": "Tenê dema ku tomara xerîdar dubare an xelet e û divê were rakirin.",
+          "how": "Tenê ji bo xerîdarê armanckirî Delete hilbijêre û peyama piştrastkirinê bi baldarî bixwîne.",
+          "inputs": "Tomara xerîdarê rast hilbijêre û berî piştrastkirina jêbirinê nasnameya wê kontrol bike.",
+          "result": "Tomar tenê heke sepan kiryarê qebûl û piştrast bike tê rakirin an neçalak kirin.",
+          "notes": "Jêbirin dikare bandorê li gihîştina dîroka xerîdar bike. Fatûre û dîroka karê girêdayî û pêdiviyên parastina tomarên hesabê kontrol bike."
+        },
+        "tr": {
+          "purpose": "Seçilen müşteri kaydını siler.",
+          "when": "Yalnızca müşteri kaydı yinelenmişse veya yanlışsa ve kaldırılması gerekiyorsa kullanın.",
+          "how": "Yalnızca amaçlanan müşteri için Delete'i seçin ve onay mesajını dikkatle okuyun.",
+          "inputs": "Doğru müşteri kaydını seçin ve silmeyi onaylamadan önce kimliğini doğrulayın.",
+          "result": "Uygulama işlemi kabul edip onaylarsa kayıt kaldırılır veya devre dışı bırakılır.",
+          "notes": "Silme işlemi müşteri kaydına erişimi etkileyebilir. Bağlantılı faturaları veya iş geçmişini kontrol edin ve muhasebe için gerekli kayıtları saklayın."
+        },
+        "pl": {
+          "purpose": "Usuwa rekord wybranego klienta.",
+          "when": "Użyj wyłącznie wtedy, gdy rekord klienta jest duplikatem lub jest nieprawidłowy i należy go usunąć.",
+          "how": "Wybierz Delete tylko przy właściwym kliencie i uważnie przeczytaj komunikat potwierdzający.",
+          "inputs": "Wybierz właściwy rekord klienta i przed potwierdzeniem usunięcia sprawdź jego tożsamość.",
+          "result": "Rekord zostanie usunięty lub dezaktywowany tylko wtedy, gdy aplikacja zaakceptuje i potwierdzi operację.",
+          "notes": "Usunięcie może wpłynąć na dostęp do danych klienta. Sprawdź powiązane faktury i historię prac oraz zachowaj dokumentację wymaganą do celów księgowych."
+        },
+        "ur": {
+          "purpose": "منتخب گاہک کا ریکارڈ حذف کرتا ہے۔",
+          "when": "صرف اس وقت استعمال کریں جب گاہک کا ریکارڈ نقل ہو یا غلط ہو اور اسے ہٹانا ضروری ہو۔",
+          "how": "صرف مطلوبہ گاہک کے لیے Delete منتخب کریں اور تصدیقی پیغام غور سے پڑھیں۔",
+          "inputs": "درست گاہک کا ریکارڈ منتخب کریں اور حذف کی تصدیق سے پہلے اس کی شناخت چیک کریں۔",
+          "result": "ایپ کارروائی قبول اور تصدیق کرے تو ریکارڈ ہٹا یا غیر فعال ہو جاتا ہے۔",
+          "notes": "حذف کرنے سے گاہک کے ریکارڈ تک رسائی متاثر ہو سکتی ہے۔ منسلک انوائسز یا کام کی تاریخ چیک کریں اور اکاؤنٹنگ کے لیے ضروری ریکارڈ محفوظ رکھیں۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੇ ਗਾਹਕ ਦਾ ਰਿਕਾਰਡ ਮਿਟਾਉਂਦਾ ਹੈ।",
+          "when": "ਸਿਰਫ਼ ਜਦੋਂ ਗਾਹਕ ਰਿਕਾਰਡ ਡੁਪਲੀਕੇਟ ਜਾਂ ਗਲਤ ਹੋਵੇ ਅਤੇ ਹਟਾਉਣਾ ਲੋੜੀਂਦਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸਿਰਫ਼ ਲੋੜੀਂਦੇ ਗਾਹਕ ਲਈ Delete ਚੁਣੋ ਅਤੇ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਧਿਆਨ ਨਾਲ ਪੜ੍ਹੋ।",
+          "inputs": "ਸਹੀ ਗਾਹਕ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਮਿਟਾਉਣ ਦੀ ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਉਸਦੀ ਪਛਾਣ ਜਾਂਚੋ।",
+          "result": "ਐਪ ਕਾਰਵਾਈ ਸਵੀਕਾਰ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਰਿਕਾਰਡ ਹਟਾਇਆ ਜਾਂ ਅਕਿਰਿਆਸ਼ੀਲ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਮਿਟਾਉਣ ਨਾਲ ਗਾਹਕ ਰਿਕਾਰਡ ਤੱਕ ਪਹੁੰਚ ਪ੍ਰਭਾਵਿਤ ਹੋ ਸਕਦੀ ਹੈ। ਜੁੜੇ ਇਨਵੌਇਸ ਜਾਂ ਕੰਮ ਦਾ ਇਤਿਹਾਸ ਜਾਂਚੋ ਅਤੇ ਅਕਾਊਂਟਿੰਗ ਲਈ ਲੋੜੀਂਦੇ ਰਿਕਾਰਡ ਸੰਭਾਲੋ।"
+        },
+        "prs": {
+          "purpose": "سابقه مشتری انتخاب‌شده را حذف می‌کند.",
+          "when": "فقط وقتی سابقه مشتری تکراری یا اشتباه است و باید حذف شود، استفاده کنید.",
+          "how": "فقط برای مشتری موردنظر Delete را انتخاب کنید و پیام تأیید را با دقت بخوانید.",
+          "inputs": "سابقه درست مشتری را انتخاب کنید و پیش از تأیید حذف، هویت آن را بررسی کنید.",
+          "result": "سابقه فقط در صورت پذیرش و تأیید برنامه حذف یا غیرفعال می‌شود.",
+          "notes": "حذف ممکن است بر دسترسی به سابقه مشتری اثر بگذارد. فاکتورها یا سوابق کاری مرتبط را بررسی و مدارک لازم برای حسابداری را نگهداری کنید."
+        },
+        "ps": {
+          "purpose": "د ټاکل شوي پېرودونکي ریکارډ ړنګوي.",
+          "when": "یوازې هغه وخت یې وکاروئ چې د پېرودونکي ریکارډ تکراري یا غلط وي او لرې کول یې اړین وي.",
+          "how": "یوازې د ټاکل شوي پېرودونکي لپاره Delete وټاکئ او د تایید پیغام په دقت ولولئ.",
+          "inputs": "د پېرودونکي سم ریکارډ وټاکئ او د ړنګولو له تایید مخکې یې هویت وګورئ.",
+          "result": "ریکارډ یوازې هغه وخت لرې یا غیرفعال کېږي چې اپلیکیشن کړنه ومني او تایید یې کړي.",
+          "notes": "ړنګول د پېرودونکي ریکارډ ته پر لاسرسي اغېز کولی شي. تړلي بلونه یا د کار مخینه وګورئ او د حسابدارۍ اړین ریکارډونه وساتئ."
         }
       },
       "handler_or_behavior": "`deleteCustomer(`"
@@ -9777,7 +10065,7 @@
           "purpose": "Open the invoice print view.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Select Open print view to prepare the current invoice for printing or PDF output.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "inputs": "Select the correct invoice that you want to prepare for printing.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "Check the customer, invoice number, line items, totals and page layout before printing."
         },
@@ -9785,9 +10073,81 @@
           "purpose": "باز کردن نمای چاپ فاکتور.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "گزینه Open print view را انتخاب کنید تا فاکتور برای چاپ یا تبدیل به PDF آماده شود.",
-          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "inputs": "فاکتور درست را که می‌خواهید برای چاپ آماده شود انتخاب کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "پیش از چاپ، مشتری، شماره فاکتور، اقلام، جمع مبالغ و چیدمان صفحات را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يفتح عرض طباعة الفاتورة.",
+          "when": "عندما تريد تجهيز الفاتورة الحالية للطباعة أو لإخراجها بصيغة PDF.",
+          "how": "اختر Open print view لإعداد الفاتورة للطباعة أو إنشاء PDF.",
+          "inputs": "حدد الفاتورة الصحيحة التي تريد تجهيزها للطباعة.",
+          "result": "يُفتح عرض الطباعة للفاتورة المحددة.",
+          "notes": "تحقق من العميل ورقم الفاتورة والبنود والإجماليات وتخطيط الصفحات قبل الطباعة."
+        },
+        "ckb": {
+          "purpose": "نمای چاپی فاکتۆر دەکاتەوە.",
+          "when": "کاتێک دەتەوێت فاکتۆری ئێستا بۆ چاپکردن یان دەرکردنی PDF ئامادە بکەیت.",
+          "how": "Open print view هەڵبژێرە بۆ ئامادەکردنی فاکتۆر بۆ چاپکردن یان دروستکردنی PDF.",
+          "inputs": "ئەو فاکتۆرە دروستە هەڵبژێرە کە دەتەوێت بۆ چاپکردن ئامادەی بکەیت.",
+          "result": "نمای چاپی فاکتۆری هەڵبژێردراو دەکرێتەوە.",
+          "notes": "پێش چاپکردن کڕیار، ژمارەی فاکتۆر، بڕگەکان، کۆی گشتی و ڕێکخستنی لاپەڕەکان بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Dîtina çapkirina fatûreyê vedike.",
+          "when": "Dema ku tu dixwazî fatûreya niha ji bo çapkirinê an derxistina PDF amade bikî.",
+          "how": "Open print view hilbijêre da ku fatûre ji bo çapkirinê an çêkirina PDF amade bibe.",
+          "inputs": "Fatûreya rast a ku dixwazî ji bo çapkirinê amade bikî hilbijêre.",
+          "result": "Dîtina çapkirinê ya fatûreya hilbijartî vedibe.",
+          "notes": "Berî çapkirinê xerîdar, jimara fatûreyê, hêman, tevahî û sêwirana rûpelan kontrol bike."
+        },
+        "tr": {
+          "purpose": "Faturanın yazdırma görünümünü açar.",
+          "when": "Mevcut faturayı yazdırmaya veya PDF olarak dışa aktarmaya hazırlamak istediğinizde kullanın.",
+          "how": "Faturayı yazdırmaya veya PDF oluşturmaya hazırlamak için Open print view'ı seçin.",
+          "inputs": "Yazdırmaya hazırlamak istediğiniz doğru faturayı seçin.",
+          "result": "Seçilen faturanın yazdırma görünümü açılır.",
+          "notes": "Yazdırmadan önce müşteriyi, fatura numarasını, kalemleri, toplamları ve sayfa düzenini kontrol edin."
+        },
+        "pl": {
+          "purpose": "Otwiera widok wydruku faktury.",
+          "when": "Użyj, gdy chcesz przygotować bieżącą fakturę do wydruku lub eksportu do PDF.",
+          "how": "Wybierz Open print view, aby przygotować fakturę do drukowania lub utworzenia PDF.",
+          "inputs": "Wybierz właściwą fakturę, którą chcesz przygotować do wydruku.",
+          "result": "Otwiera się widok wydruku wybranej faktury.",
+          "notes": "Przed drukowaniem sprawdź klienta, numer faktury, pozycje, sumy i układ stron."
+        },
+        "ur": {
+          "purpose": "انوائس کا پرنٹ منظر کھولتا ہے۔",
+          "when": "جب موجودہ انوائس کو پرنٹ یا PDF بنانے کے لیے تیار کرنا ہو تو استعمال کریں۔",
+          "how": "انوائس کو پرنٹنگ یا PDF بنانے کے لیے تیار کرنے کے لیے Open print view منتخب کریں۔",
+          "inputs": "وہ درست انوائس منتخب کریں جسے پرنٹ کے لیے تیار کرنا ہے۔",
+          "result": "منتخب انوائس کا پرنٹ منظر کھل جاتا ہے۔",
+          "notes": "پرنٹ کرنے سے پہلے گاہک، انوائس نمبر، آئٹمز، کل رقم اور صفحے کی ترتیب چیک کریں۔"
+        },
+        "pa": {
+          "purpose": "ਇਨਵੌਇਸ ਦਾ ਪ੍ਰਿੰਟ ਦ੍ਰਿਸ਼ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਇਨਵੌਇਸ ਨੂੰ ਪ੍ਰਿੰਟ ਜਾਂ PDF ਬਣਾਉਣ ਲਈ ਤਿਆਰ ਕਰਨਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਇਨਵੌਇਸ ਨੂੰ ਪ੍ਰਿੰਟ ਜਾਂ PDF ਲਈ ਤਿਆਰ ਕਰਨ ਵਾਸਤੇ Open print view ਚੁਣੋ।",
+          "inputs": "ਉਹ ਸਹੀ ਇਨਵੌਇਸ ਚੁਣੋ ਜਿਸਨੂੰ ਪ੍ਰਿੰਟ ਲਈ ਤਿਆਰ ਕਰਨਾ ਹੈ।",
+          "result": "ਚੁਣੇ ਇਨਵੌਇਸ ਦਾ ਪ੍ਰਿੰਟ ਦ੍ਰਿਸ਼ ਖੁੱਲ੍ਹ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਪ੍ਰਿੰਟ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਗਾਹਕ, ਇਨਵੌਇਸ ਨੰਬਰ, ਆਈਟਮਾਂ, ਕੁੱਲ ਅਤੇ ਪੰਨਾ ਲੇਆਉਟ ਜਾਂਚੋ।"
+        },
+        "prs": {
+          "purpose": "نمای چاپ فاکتور را باز می‌کند.",
+          "when": "وقتی می‌خواهید فاکتور فعلی را برای چاپ یا خروجی PDF آماده کنید، استفاده کنید.",
+          "how": "برای آماده‌سازی فاکتور جهت چاپ یا ایجاد PDF، Open print view را انتخاب کنید.",
+          "inputs": "فاکتور درست را که می‌خواهید برای چاپ آماده شود انتخاب کنید.",
+          "result": "نمای چاپ فاکتور انتخاب‌شده باز می‌شود.",
+          "notes": "پیش از چاپ، مشتری، شماره فاکتور، اقلام، جمع مبالغ و چیدمان صفحات را بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د بل د چاپ لید پرانیزي.",
+          "when": "کله چې اوسنی بل د چاپ یا PDF جوړولو لپاره چمتو کول غواړئ، دا وکاروئ.",
+          "how": "د بل د چاپ یا PDF جوړولو لپاره د چمتو کولو په موخه Open print view وټاکئ.",
+          "inputs": "هغه سم بل وټاکئ چې د چاپ لپاره یې چمتو کول غواړئ.",
+          "result": "د ټاکل شوي بل د چاپ لید پرانیستل کېږي.",
+          "notes": "له چاپ مخکې د پېرودونکي نوم، د بل شمېره، توکي، ټولیز مبلغ او د پاڼو ترتیب وګورئ."
         }
       },
       "handler_or_behavior": "`openInvoicePrintView()`"
