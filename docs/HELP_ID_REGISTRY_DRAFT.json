@@ -9599,19 +9599,19 @@
       "translations": {
         "en": {
           "purpose": "Shares the PDF generated from the current financial report.",
-          "when": "Use this after Create PDF reports that the PDF is ready and you want to send or save it through a device app.",
-          "how": "Select Share PDF and choose an available destination in the iPhone or device share sheet. If file sharing is unsupported, use the download fallback and share from Files.",
-          "inputs": "A successfully generated report PDF is required. Select a destination in the share sheet when it appears.",
-          "result": "The device share sheet opens when supported. Otherwise, the app starts downloading the PDF so you can share or print it from the downloaded file.",
-          "notes": "Review the report and recipient before sharing. The app cannot confirm delivery by another app or service."
+          "when": "Use this after Create PDF reports that the PDF is ready and you want to share it or save it through a device app.",
+          "how": "Select Share PDF and choose an available destination in the device share sheet. If file sharing is unsupported, the app starts a download so you can share or print the downloaded file.",
+          "inputs": "A successfully generated report PDF is required. Select a destination when the share sheet appears.",
+          "result": "The device share sheet opens when supported. Otherwise, the app starts downloading the PDF as a fallback.",
+          "notes": "Review the report and recipient before sharing. The app cannot confirm delivery by another app or service. If the user cancels the share sheet, no successful send is reported."
         },
         "fa": {
           "purpose": "فایل PDF ایجادشده از گزارش مالی فعلی را به اشتراک می‌گذارد.",
           "when": "پس از آن استفاده کنید که Create PDF آماده‌بودن فایل را اعلام کرده و می‌خواهید آن را با برنامه‌ای در دستگاه ارسال یا ذخیره کنید.",
-          "how": "Share PDF را انتخاب کنید و در صفحه اشتراک‌گذاری iPhone یا دستگاه، مقصد موجود را برگزینید. اگر اشتراک‌گذاری فایل پشتیبانی نمی‌شود، فایل را دانلود و از Files به اشتراک بگذارید.",
-          "inputs": "یک PDF گزارش که با موفقیت ساخته شده باشد لازم است. وقتی صفحه اشتراک‌گذاری نمایش داده شد، مقصدی را انتخاب کنید.",
-          "result": "در صورت پشتیبانی دستگاه، صفحه اشتراک‌گذاری باز می‌شود. در غیر این صورت، برنامه دانلود PDF را آغاز می‌کند تا بتوانید فایل دانلودشده را از طریق Files به اشتراک بگذارید یا چاپ کنید.",
-          "notes": "پیش از اشتراک‌گذاری، گزارش و گیرنده را بررسی کنید. برنامه نمی‌تواند تحویل فایل توسط برنامه یا سرویس دیگری را تأیید کند."
+          "how": "Share PDF را انتخاب کنید و در صفحه اشتراک‌گذاری دستگاه، مقصد موجود را برگزینید. اگر اشتراک‌گذاری فایل پشتیبانی نمی‌شود، برنامه فایل را دانلود می‌کند تا بتوانید آن را از Files به اشتراک بگذارید یا چاپ کنید.",
+          "inputs": "یک PDF گزارش که با موفقیت ساخته شده باشد لازم است. وقتی صفحه اشتراک‌گذاری نمایش داده شد، مقصد را انتخاب کنید.",
+          "result": "در صورت پشتیبانی دستگاه، صفحه اشتراک‌گذاری باز می‌شود. در غیر این صورت، برنامه برای دانلود PDF اقدام می‌کند.",
+          "notes": "پیش از اشتراک‌گذاری، گزارش و گیرنده را بررسی کنید. برنامه نمی‌تواند تحویل فایل توسط برنامه یا سرویس دیگری را تأیید کند. اگر کاربر صفحه اشتراک‌گذاری را لغو کند، ارسال موفق گزارش نمی‌شود."
         },
         "ar": {
           "purpose": "يشارك ملف PDF المُنشأ من التقرير المالي الحالي.",
@@ -9696,20 +9696,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Edit a saved customer’s details.",
-          "when": "Use this when correcting the saved name, phone number, email or address details for an existing customer.",
-          "how": "Select Edit beside the correct customer. Update the customer fields, then select Save Customer to store the changes.",
-          "inputs": "Select the correct saved customer and change the required name or optional phone, billing address, usual work address and email fields.",
-          "result": "The customer's saved details are loaded into the customer form. The changes are not stored until Save Customer succeeds.",
-          "notes": "Check that you selected the correct customer, especially where names are similar."
+          "purpose": "Loads a saved customer's details into the customer form for editing.",
+          "when": "Use this when correcting the saved name, phone number, email, billing address or usual work address for an existing customer.",
+          "how": "Select Edit beside the correct customer in Customers. Update the required fields, then select Save Customer to store the changes.",
+          "inputs": "Select the correct saved customer. Customer name is required; phone, billing address, usual work address and email are optional.",
+          "result": "The customer's saved details are loaded into the customer form. Changes are not stored until Save Customer succeeds and IndexedDB verification completes.",
+          "notes": "Check that you selected the correct customer, especially where names are similar. Editing updates the existing customer record; it does not create a new customer."
         },
         "fa": {
-          "purpose": "اطلاعات مشتری ذخیره‌شده را ویرایش می‌کند.",
-          "when": "وقتی می‌خواهید نام، شماره تلفن، ایمیل یا نشانی ذخیره‌شده یک مشتری موجود را اصلاح کنید، از این گزینه استفاده کنید.",
-          "how": "در کنار مشتری درست Edit را انتخاب کنید. فیلدهای مشتری را به‌روزرسانی کنید و سپس برای ذخیره تغییرات Save Customer را انتخاب کنید.",
-          "inputs": "مشتری ذخیره‌شده درست را انتخاب کنید. نام الزامی است؛ تلفن، نشانی صورتحساب، نشانی معمول محل کار و ایمیل اختیاری هستند.",
-          "result": "اطلاعات ذخیره‌شده مشتری در فرم بارگذاری می‌شود. تغییرات تا موفقیت Save Customer ذخیره نمی‌شوند.",
-          "notes": "به‌ویژه اگر نام مشتریان مشابه است، پیش از ذخیره هویت مشتری را بررسی کنید."
+          "purpose": "اطلاعات مشتری ذخیره‌شده را برای ویرایش در فرم مشتری بارگذاری می‌کند.",
+          "when": "وقتی می‌خواهید نام، شماره تلفن، ایمیل، نشانی صورتحساب یا نشانی معمول محل کار یک مشتری موجود را اصلاح کنید، از این گزینه استفاده کنید.",
+          "how": "در فهرست Customers کنار مشتری صحیح Edit را انتخاب کنید. فیلدهای لازم را به‌روزرسانی کنید و سپس برای ذخیره تغییرات Save Customer را انتخاب کنید.",
+          "inputs": "مشتری ذخیره‌شده درست را انتخاب کنید. نام مشتری الزامی است؛ تلفن، نشانی صورتحساب، نشانی معمول محل کار و ایمیل اختیاری هستند.",
+          "result": "اطلاعات ذخیره‌شده مشتری در فرم بارگذاری می‌شود. تغییرات تا موفقیت Save Customer و تأیید ذخیره در IndexedDB ثبت نمی‌شوند.",
+          "notes": "به‌ویژه اگر نام مشتریان مشابه است، پیش از ذخیره هویت مشتری را بررسی کنید. ویرایش، سابقه مشتری موجود را به‌روزرسانی می‌کند و مشتری جدیدی نمی‌سازد."
         },
         "ar": {
           "purpose": "يفتح بيانات العميل المحفوظة لتعديلها.",
@@ -9794,20 +9794,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Starts a new invoice with the selected customer's details preselected.",
+          "purpose": "Starts a new invoice with the selected customer's saved details preselected.",
           "when": "Use this when creating an invoice for a customer already saved in the Customers list.",
-          "how": "Select New invoice beside the correct customer. Check the customer details carried into the new invoice, then complete the invoice and save it.",
-          "inputs": "Select the correct customer record. Add the invoice date, work description, priced line items and any other required invoice details.",
-          "result": "A new invoice form opens with the selected customer linked and their details populated where available. The invoice is not saved until you use a save action.",
-          "notes": "Verify the customer, work scope, amounts and payment status before saving or issuing."
+          "how": "Select New invoice beside the correct customer. The invoice form opens with that customer selected and available contact/address details populated. Complete the invoice and use a save action when ready.",
+          "inputs": "Select the correct customer record. Enter the invoice date, work description, at least one priced work item and any other required invoice details.",
+          "result": "A new invoice form opens with the selected customer linked and their saved details populated where available. The invoice is not saved until you use a save action.",
+          "notes": "Verify the customer, work scope, line-item amounts, VAT and payment status before saving or issuing. Opening the form does not create an invoice record."
         },
         "fa": {
-          "purpose": "فرم فاکتور جدیدی را آغاز می‌کند و اطلاعات مشتری انتخاب‌شده را از قبل در آن قرار می‌دهد.",
+          "purpose": "فرم فاکتور جدیدی را آغاز می‌کند و اطلاعات ذخیره‌شده مشتری انتخاب‌شده را از قبل در آن قرار می‌دهد.",
           "when": "وقتی می‌خواهید برای مشتری‌ای که از قبل در فهرست Customers ذخیره شده است فاکتور صادر کنید، از این گزینه استفاده کنید.",
-          "how": "در کنار مشتری درست New invoice را انتخاب کنید. اطلاعات منتقل‌شده مشتری را بررسی کنید، فاکتور را تکمیل و ذخیره کنید.",
-          "inputs": "مشتری درست را انتخاب کنید. تاریخ فاکتور، شرح کار، ردیف‌های قیمت‌گذاری‌شده و سایر جزئیات الزامی را اضافه کنید.",
-          "result": "فرم فاکتور جدید با مشتری انتخاب‌شده پیوند می‌شود و اطلاعات موجود او در فیلدهای مربوط قرار می‌گیرد. فاکتور تا اجرای گزینه ذخیره، ذخیره نمی‌شود.",
-          "notes": "پیش از ذخیره یا صدور، مشتری، محدوده کار، مبالغ و وضعیت پرداخت را بررسی کنید."
+          "how": "در کنار مشتری صحیح New invoice را انتخاب کنید. فرم فاکتور با همان مشتری انتخاب‌شده و اطلاعات تماس/نشانی موجود باز می‌شود. فاکتور را تکمیل و در زمان مناسب از گزینه ذخیره استفاده کنید.",
+          "inputs": "مشتری درست را انتخاب کنید. تاریخ فاکتور، شرح کار، دست‌کم یک ردیف دارای قیمت و سایر جزئیات الزامی فاکتور را وارد کنید.",
+          "result": "فرم فاکتور جدید با مشتری انتخاب‌شده پیوند می‌شود و اطلاعات ذخیره‌شده او در صورت وجود در فیلدهای مربوط قرار می‌گیرد. فاکتور تا اجرای گزینه ذخیره، ذخیره نمی‌شود.",
+          "notes": "پیش از ذخیره یا صدور، مشتری، محدوده کار، مبالغ ردیف‌ها، VAT و وضعیت پرداخت را بررسی کنید. بازکردن فرم به‌تنهایی سابقه فاکتور ایجاد نمی‌کند."
         },
         "ar": {
           "purpose": "يبدأ إنشاء فاتورة جديدة للعميل المحدد.",
@@ -9892,20 +9892,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Deletes a customer record when it has no saved invoices linked to it.",
-          "when": "Use this only when a customer record is no longer needed and it has no saved invoices.",
-          "how": "Select Delete beside the intended customer and confirm the prompt. If the customer has saved invoices, the app blocks deletion and asks you to edit the customer instead.",
-          "inputs": "Select the correct customer record. No deletion confirmation is accepted when the customer has saved invoices.",
-          "result": "If the customer has no saved invoices and the deletion is confirmed, the customer is removed from the customer list and the app verifies the save in IndexedDB.",
-          "notes": "Check the customer identity and work history first. The app prevents deletion when invoices are linked; retain accounting records required for your business."
+          "purpose": "Deletes a customer record only when no saved invoice is linked to that customer's ID.",
+          "when": "Use this only when the customer record is no longer needed and it has no saved invoices linked to it.",
+          "how": "Select Delete beside the intended customer. If an invoice is linked, the app blocks deletion and asks you to edit the customer instead. Otherwise, confirm the deletion and wait for IndexedDB verification.",
+          "inputs": "Select the correct customer record. The app checks for saved invoices linked by customer ID; deletion is blocked when any are found.",
+          "result": "If no linked invoices exist and deletion is confirmed, the customer is removed from the customer list after the IndexedDB save is verified.",
+          "notes": "Check the customer identity and work history first. The app prevents deletion when invoices are linked by customer ID. Retain any accounting records required for your business; this action deletes the customer directory record, not an invoice."
         },
         "fa": {
-          "purpose": "رکورد مشتری را فقط زمانی حذف می‌کند که هیچ فاکتور ذخیره‌شده‌ای به آن متصل نباشد.",
-          "when": "فقط زمانی استفاده کنید که دیگر به رکورد مشتری نیاز ندارید و هیچ فاکتور ذخیره‌شده‌ای به آن مرتبط نیست.",
-          "how": "در کنار مشتری موردنظر Delete را انتخاب و پیام تأیید را بررسی کنید. اگر مشتری فاکتور ذخیره‌شده داشته باشد، برنامه مانع حذف می‌شود و از شما می‌خواهد اطلاعات مشتری را ویرایش کنید.",
-          "inputs": "رکورد مشتری درست را انتخاب کنید. اگر مشتری فاکتور ذخیره‌شده داشته باشد، حذف تأیید نمی‌شود.",
-          "result": "اگر مشتری هیچ فاکتور ذخیره‌شده‌ای نداشته باشد و حذف را تأیید کنید، از فهرست مشتریان حذف می‌شود و برنامه ذخیره در IndexedDB را بررسی می‌کند.",
-          "notes": "ابتدا هویت مشتری و سابقه کاری او را بررسی کنید. برنامه در صورت وجود فاکتور مرتبط مانع حذف می‌شود؛ سوابق حسابداری موردنیاز کسب‌وکار را نگه دارید."
+          "purpose": "رکورد مشتری را فقط زمانی حذف می‌کند که هیچ فاکتور ذخیره‌شده‌ای به شناسه آن مشتری متصل نباشد.",
+          "when": "فقط زمانی استفاده کنید که دیگر به رکورد مشتری نیاز ندارید و هیچ فاکتور ذخیره‌شده‌ای با شناسه او مرتبط نیست.",
+          "how": "در کنار مشتری موردنظر Delete را انتخاب کنید. اگر فاکتوری مرتبط باشد، برنامه مانع حذف می‌شود و از شما می‌خواهد اطلاعات مشتری را ویرایش کنید. در غیر این صورت حذف را تأیید کنید و منتظر تأیید ذخیره در IndexedDB بمانید.",
+          "inputs": "رکورد مشتری صحیح را انتخاب کنید. برنامه فاکتورهای ذخیره‌شده مرتبط با شناسه مشتری را بررسی می‌کند؛ در صورت یافتن هر مورد، حذف مسدود می‌شود.",
+          "result": "اگر فاکتور مرتبطی وجود نداشته باشد و حذف را تأیید کنید، پس از تأیید ذخیره در IndexedDB مشتری از فهرست حذف می‌شود.",
+          "notes": "ابتدا هویت مشتری و سابقه کاری او را بررسی کنید. برنامه در صورت وجود فاکتور مرتبط با شناسه مشتری مانع حذف می‌شود. سوابق حسابداری موردنیاز کسب‌وکار را نگه دارید؛ این عملیات سابقه فهرست مشتریان را حذف می‌کند، نه فاکتور را."
         },
         "ar": {
           "purpose": "يحذف سجل العميل فقط إذا لم تكن هناك فواتير محفوظة مرتبطة به.",
@@ -9990,20 +9990,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens a separate print/PDF view for the current invoice.",
+          "purpose": "Opens a separate browser tab with a print/PDF view of the current invoice.",
           "when": "Use this from the invoice preview when you need a separate document view for printing or saving a PDF.",
-          "how": "Select Open print view. Allow the browser to open a new tab, then wait for the invoice PDF preview to load. If the tab is blocked, allow pop-ups for the app and try again.",
-          "inputs": "The current invoice preview must be open. The browser must allow a new tab and load the PDF-generation/preview resources.",
-          "result": "A separate browser tab opens and prepares a PDF preview of the current invoice with the available print, share or download controls.",
-          "notes": "Review the customer, invoice number, line items, totals and page layout before printing or sharing. A pop-up blocker or unavailable PDF library can prevent the view from opening."
+          "how": "Select Open print view. Allow the browser to open a new tab, then wait for the invoice print view to load. If the tab is blocked, allow pop-ups for the app and try again.",
+          "inputs": "The current invoice preview must be open. The browser must allow a new tab; the PDF/print resources must load successfully.",
+          "result": "A separate browser tab opens with the current invoice prepared for printing or PDF output.",
+          "notes": "Review the customer, invoice number, line items, totals and page layout before printing or sharing. A pop-up blocker can prevent the tab from opening. Opening the print view does not change the invoice payment status."
         },
         "fa": {
-          "purpose": "نمای چاپ یا PDF جداگانه‌ای را برای فاکتور فعلی باز می‌کند.",
+          "purpose": "نمای چاپ/PDF جداگانه‌ای را برای فاکتور فعلی در زبانه جدید مرورگر باز می‌کند.",
           "when": "وقتی از پیش‌نمایش فاکتور به نمای سندی جداگانه برای چاپ یا ذخیره PDF نیاز دارید، از این گزینه استفاده کنید.",
-          "how": "Open print view را انتخاب کنید. اجازه دهید مرورگر زبانه جدیدی باز کند و منتظر بارگذاری پیش‌نمایش PDF بمانید. اگر زبانه مسدود شد، pop-ups را برای برنامه مجاز کنید و دوباره تلاش کنید.",
-          "inputs": "پیش‌نمایش فاکتور فعلی باید باز باشد. مرورگر باید اجازه بازکردن زبانه جدید و بارگذاری منابع ساخت و پیش‌نمایش PDF را بدهد.",
-          "result": "یک زبانه جداگانه در مرورگر باز می‌شود و پیش‌نمایش PDF فاکتور فعلی را همراه با کنترل‌های چاپ، اشتراک‌گذاری یا دانلودِ در دسترس آماده می‌کند.",
-          "notes": "پیش از چاپ یا اشتراک‌گذاری، مشتری، شماره فاکتور، اقلام، جمع مبالغ و چیدمان صفحات را بررسی کنید. مسدودکننده پنجره بازشو یا در دسترس نبودن کتابخانه PDF ممکن است مانع بازشدن نما شود."
+          "how": "Open print view را انتخاب کنید. اجازه دهید مرورگر زبانه جدیدی باز کند و منتظر بارگذاری نمای چاپ فاکتور بمانید. اگر زبانه مسدود شد، pop-ups را برای برنامه مجاز کنید و دوباره تلاش کنید.",
+          "inputs": "پیش‌نمایش فاکتور فعلی باید باز باشد. مرورگر باید اجازه بازکردن زبانه جدید را بدهد و منابع PDF/چاپ باید با موفقیت بارگذاری شوند.",
+          "result": "یک زبانه جداگانه در مرورگر باز می‌شود و فاکتور فعلی را برای چاپ یا خروجی PDF آماده می‌کند.",
+          "notes": "پیش از چاپ یا اشتراک‌گذاری، مشتری، شماره فاکتور، اقلام، جمع مبالغ و چیدمان صفحات را بررسی کنید. مسدودکننده پنجره بازشو ممکن است مانع بازشدن زبانه شود. بازکردن نمای چاپ وضعیت پرداخت فاکتور را تغییر نمی‌دهد."
         },
         "ar": {
           "purpose": "يفتح عرض طباعة الفاتورة.",
