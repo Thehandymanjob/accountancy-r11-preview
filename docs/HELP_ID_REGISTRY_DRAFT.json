@@ -5,7 +5,7 @@
   "build_baseline": "THA-273-R11-PREVIEW-20261126-R43",
   "branch": "development",
   "source_inventory": "docs/HELP_BUTTON_INVENTORY_FA.md",
-  "source_inventory_blob_sha": "ac4a2430e971d14394f05321bfc0bdfc2661b121",
+  "source_inventory_blob_sha": "ba0f8846e48f31227250d52c6307057dce03e652",
   "languages": [
     "en",
     "fa",
