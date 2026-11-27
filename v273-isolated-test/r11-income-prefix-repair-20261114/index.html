@@ -1957,7 +1957,7 @@ function openFactoryReset(){
  $('factoryResetBackupAdvice').hidden=true;
  $('factoryResetNext').hidden=false;
  $('factoryResetFinalButton').hidden=true;
- $('factoryResetFinalButton').disabled=false;
+ $('factoryResetFinalButton').disabled=true;
  $('factoryResetStatus').textContent='No operation has started.';
  $('factoryResetSourceFile').value='';
  $('factoryResetConvertedFile').value='';
@@ -1979,7 +1979,7 @@ function factoryResetNextStep(){
  $('factoryResetBackupAdvice').hidden=false;
  $('factoryResetNext').hidden=true;
  $('factoryResetFinalButton').hidden=false;
- $('factoryResetFinalButton').disabled=false;
+ $('factoryResetFinalButton').disabled=true;
 }
 async function clearAll(){if(!confirm('Delete all saved entries from this device?'))return;if(!confirm('This cannot be undone unless you have a backup. Continue?'))return;const old=db.entries;db.entries=[];if(!await persist()){db.entries=old;return}try{await flushAccountingWrites();refreshAll();resetEntry()}catch(error){db.entries=old;alert('Entries were not cleared because the IndexedDB change could not be verified. '+(error&&error.message||error))}}
 
