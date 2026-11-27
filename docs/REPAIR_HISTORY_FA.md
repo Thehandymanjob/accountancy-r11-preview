@@ -648,7 +648,7 @@
 - **محتوا / مرزبندی:** هر شش شناسه CONTENT_COMPLETE هستند. Save Invoice و Save & Print/PDF از هم جدا هستند؛ ثبت پرداخت فاکتور در Accounting فقط طبق منطق موجود برنامه انجام می‌شود. هیچ منطق مالی، شماره فاکتور، محاسبه، ذخیره‌سازی یا handler اصلی تغییر نکرد.
 - **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R55`.
 - **اتصال‌ها پس از R55:** ۵۰ کنترل؛ ۴۵ ایستا و ۵ پویا. ۲۷ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
-- **تست ایستا:** یکتایی فرم/parent و handler literal از روی سورس بررسی شد؛ ۴۵ ردیف STATIC_BINDINGS ثبت شده‌اند. Version Authority Gate برای R55 باید اجرا شود.
+- **تست ایستا:** یکتایی فرم/parent و handler literal از روی سورس بررسی شد؛ ۴۵ ردیف STATIC_BINDINGS ثبت شده‌اند. **Version Authority Gate:** PASS؛ run `46069805600` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46069805600؛ هویت Build R55، canonical URL، SHA فایل index و تمام ۲۴ فایل pinشده تأیید شدند.
 - **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ باید راهنمای هر شش دکمه، حفظ عملکرد اصلی، ذخیره واقعی با داده آزمایشی Preview و چیدمان موبایل بررسی شوند. در این مرحله هیچ تراکنش یا داده واقعی ایجاد یا تغییر داده نشده است.
 - **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
 
