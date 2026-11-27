@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R58') return;
+  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R59') return;
   const payload = window.THAHelpContentV1;
   if (!payload || !payload.entries) {
     console.error('[THA Help] Content bundle is missing; contextual help was not started.');
@@ -75,7 +75,13 @@
     ['THA-HLP-0114', '#prPage-company-hub .co-actions > button[onclick="coSaveSub()"]'],
     ['THA-HLP-0116', '#prPage-company-hub #coPackageFinance .co-actions > button[onclick="coAddPackageExpense()"]'],
     ['THA-HLP-0117', '#prPage-company-hub #coPaymentArea .co-actions > button[onclick="coRecordPayment()"]'],
-    ['THA-HLP-0118', '#invoicePaidModal .invoice-paid-actions > button[onclick="confirmInvoicePaid()"]']
+    ['THA-HLP-0118', '#invoicePaidModal .invoice-paid-actions > button[onclick="confirmInvoicePaid()"]'],
+    ['THA-HLP-0005', '#contractsWorkspace .ct-newbar > button[onclick="ctNew()"]'],
+    ['THA-HLP-0006', '#ctFormCard .ct-actions > button[onclick="ctSave()"]'],
+    ['THA-HLP-0008', '#ctFormCard .ct-actions > button[onclick="ctPrint()"]'],
+    ['THA-HLP-0068', '#profileGuide .pr-actions > button[onclick="prSaveProfile()"]'],
+    ['THA-HLP-0069', '#profileGuide .pr-actions > button[onclick="prRemoveLogo()"]'],
+    ['THA-HLP-0071', '#helpContactForm .pr-actions > button[onclick="resetHelpContactForm()"]']
   ];
   if (STATIC_BINDINGS.some(binding => !Array.isArray(binding) || binding.length !== 2 || binding.some(value => typeof value !== 'string' || !value.trim()))) {
     console.error('[THA Help] Invalid static binding table; contextual help was not started.');
@@ -247,7 +253,7 @@
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initialise,{once:true});
   else initialise();
   window.THAHelpRuntime=Object.freeze({
-    version:'R58',open:openHelp,openFullGuide,attach:attachAll,
+    version:'R59',open:openHelp,openFullGuide,attach:attachAll,
     getLastHelpId:()=>lastHelpId,getPublishableCount:()=>Object.keys(payload.entries).length
   });
 })();
