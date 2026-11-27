@@ -174,3 +174,13 @@ Source review corrected the English and Persian text for nine Draft entries: THA
 - Dynamic controls are found by the existing MutationObserver when inserted into the DOM; selectors remain scoped to the exact parent and action.
 - Cumulative mapping: 118 Help controls (113 static, five dynamic-template); 95 scoped static selectors, 13 unique-ID selectors and five scoped-handler selectors.
 - Build target: THA-273-R11-PREVIEW-20261127-R62. Live browser tests and deployment remain pending.
+
+
+## R63 dynamic list and customer templates
+
+- Added nine `data-help-id` attributes to dynamically generated controls: pagination Previous/Next, receipt preview, record Edit/Delete/View and customer Edit/New Invoice/Delete.
+- The attributes are placed in `paginationMarkup()`, `renderReceiptPreview()`, `renderRecords()` and `renderCustomers()`. The existing MutationObserver attaches Help triggers when the nodes are inserted.
+- Static controls remain 113; dynamic-template controls increase from five to 14. Total connected Help IDs: 127 of 132 publishable entries.
+- `THA-HLP-0072` Check for Updates remains excluded because the updater button is disabled in Preview. Four PDF controls remain in separate-document scope.
+- Version target: `THA-273-R11-PREVIEW-20261127-R63`. The Version Authority index/runtime pins and mapping baselines must match before Gate approval.
+- No customer, entry, invoice or receipt data was changed. Live browser testing, event isolation, language switching, mobile layout and iPhone Safari remain unverified.
