@@ -2200,6 +2200,50 @@
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
       "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-CONTEXTUAL-BINDINGS-R49-R52-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Record the R49-R52 contextual User Guide binding increments and synchronize Version Authority history with the current R52 runtime, Registry mapping and repair history. Preserve the 132-entry approved content boundary; keep draft and retired IDs unpublished.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "4e3ed85c3149ece7b8495ef84039b6e9ef43d46a",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46069069507,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46069069507",
+        "details": "R52 Version Authority Gate passed. Repository/branch identity, Build ID THA-273-R11-PREVIEW-20261127-R52, canonical URL, index blob SHA and all 24 pinned runtime assets matched."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "The 37 connected Help controls comprise 32 static and five dynamic-template controls. Static selector/handler uniqueness, registry-content presence, the 32-row STATIC_BINDINGS table and V8 syntax compilation passed. Simulated-DOM checks passed for wrapper creation, hidden-state synchronization, Help-trigger event isolation, EN/FA content, Persian RTL and close behavior. This is not a live browser test; real Preview interaction, language switching, mobile layout and iPhone Safari remain unverified."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment is authorized by this bookkeeping update."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting an authorized Preview deployment and real browser/iPhone Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continuation of Help Registry and contextual Help integration. This does not authorize deployment, merge or Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
     }
   ],
   "history": [
