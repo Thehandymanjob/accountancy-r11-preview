@@ -5358,20 +5358,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the backup and restore area for separate app data areas.",
-          "when": "Use this to back up or restore a specific supported data area rather than the complete database.",
-          "how": "Open Backup & Restore, read the scope shown for the selected area, then follow its backup or restore control. Do not proceed until the scope is clear.",
-          "inputs": "Inputs depend on the selected area and operation. A compatible backup file is required for restore.",
-          "result": "The selected area’s backup or restore workflow opens; the exact scope depends on that area.",
-          "notes": "Restore replaces data within its selected scope and may overwrite current records there. Verify the target and backup file, and create a fresh backup first. Do not confuse this with full-database Restore."
+          "purpose": "Opens the Backup & Restore page for creating or restoring one complete database backup.",
+          "when": "Use this when you need to make a full backup of the app database or restore the app from a compatible full backup file.",
+          "how": "Open Backup & Restore. Select Backup and enter a valid file name to create and verify a complete backup. To restore, select Restore and choose a compatible JSON backup file. Read the confirmation carefully before proceeding.",
+          "inputs": "For Backup, enter a valid file name. For Restore, select a compatible, verified full-database JSON backup file.",
+          "result": "Backup creates one verified file containing all 17 database domains. Restore validates the selected file and, after explicit confirmation, replaces the current database with its contents.",
+          "notes": "IMPORTANT: The current R43 page performs full-database backup and restore, not separate backups for individual data areas. Restore replaces current records across all 17 domains and cannot be undone from this workflow. Create and verify a fresh backup before restoring. The Inventory subtitle 'Separate backups for each data area' does not match the inspected page and should be corrected separately."
         },
         "fa": {
-          "purpose": "بخش پشتیبان‌گیری و بازیابی را برای حوزه‌های داده جداگانه برنامه باز می‌کند.",
-          "when": "برای پشتیبان‌گیری یا بازیابی یک حوزه داده پشتیبانی‌شده، به‌جای کل پایگاه داده، از این گزینه استفاده کنید.",
-          "how": "Backup & Restore را باز کنید، محدوده حوزه انتخاب‌شده را بخوانید و سپس کنترل پشتیبان‌گیری یا بازیابی مربوط را اجرا کنید. تا روشن‌شدن محدوده ادامه ندهید.",
-          "inputs": "ورودی لازم به حوزه انتخاب‌شده و نوع عملیات بستگی دارد. برای بازیابی، فایل پشتیبان سازگار لازم است.",
-          "result": "گردش‌کار پشتیبان‌گیری یا بازیابی حوزه انتخاب‌شده باز می‌شود؛ محدوده دقیق به همان حوزه بستگی دارد.",
-          "notes": "بازیابی، داده‌های محدوده انتخاب‌شده را جایگزین می‌کند و ممکن است سوابق فعلی همان حوزه را بازنویسی کند. حوزه مقصد و فایل پشتیبان را بررسی و ابتدا پشتیبان تازه تهیه کنید. این گزینه را با Restore کل پایگاه داده اشتباه نگیرید."
+          "purpose": "صفحه Backup & Restore را برای تهیه یا بازیابی یک نسخه پشتیبان کامل از پایگاه داده باز می‌کند.",
+          "when": "وقتی لازم است از کل پایگاه داده برنامه نسخه پشتیبان تهیه کنید یا برنامه را از یک فایل پشتیبان کامل و سازگار بازیابی کنید، از این صفحه استفاده کنید.",
+          "how": "صفحه Backup & Restore را باز کنید. برای تهیه پشتیبان، Backup را انتخاب و نام معتبری برای فایل وارد کنید تا نسخه کامل ایجاد و بررسی شود. برای بازیابی، Restore را انتخاب و یک فایل JSON پشتیبان کامل و سازگار را برگزینید. پیش از ادامه، متن تأیید را با دقت بخوانید.",
+          "inputs": "برای Backup، نام معتبر فایل لازم است. برای Restore، یک فایل JSON سازگار و تأییدشده از پشتیبان کامل پایگاه داده انتخاب کنید.",
+          "result": "Backup یک فایل تأییدشده شامل هر ۱۷ حوزه پایگاه داده ایجاد می‌کند. Restore فایل انتخاب‌شده را اعتبارسنجی می‌کند و پس از تأیید صریح، پایگاه داده فعلی را با محتوای آن جایگزین می‌کند.",
+          "notes": "مهم: صفحه فعلی در نسخه R43 پشتیبان‌گیری و بازیابی کامل پایگاه داده را انجام می‌دهد، نه پشتیبان‌گیری جداگانه از هر حوزه داده. Restore سوابق فعلی هر ۱۷ حوزه را جایگزین می‌کند و از طریق این گردش‌کار قابل بازگشت نیست. پیش از بازیابی، یک نسخه پشتیبان تازه تهیه و صحت آن را بررسی کنید. زیرعنوان Inventory با متن «Separate backups for each data area» با صفحه بررسی‌شده مطابقت ندارد و باید جداگانه اصلاح شود."
         }
       },
       "handler_or_behavior": "`show(`"
@@ -5462,20 +5462,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the software update area to check for and install an available app version.",
-          "when": "Use this when you want to check whether a newer release is available or update the app.",
-          "how": "Open Software Update, select Check for Updates and review the reported version. Only select Update Now after confirming the release and ensuring your data is backed up.",
-          "inputs": "No form input is normally required. A network connection may be needed to check or download an update.",
-          "result": "The app reports the available/current version and, if an update is started, follows its update workflow.",
-          "notes": "An update may change app code and should not be confused with a database restore. Create and verify a backup first. Do not interrupt an update; after it completes, reload the app and verify the build identifier and data."
+          "purpose": "Opens the Software Update page, which displays the installed test-build status and the update controls.",
+          "when": "Use this page to check the update status when the updater is enabled in a release that supports updates.",
+          "how": "Open Software Update and read the installed-version and status messages. In the inspected R43 test build, both Check for Updates and Update Now are disabled; do not expect an update to run from this page.",
+          "inputs": "No input is accepted in the inspected R43 test build because the update controls are disabled.",
+          "result": "The page displays that software updates are disabled in this test build. No update is checked, downloaded or installed.",
+          "notes": "TEST-BUILD LIMITATION: The R43 source explicitly disables the updater pending final verification and production release. Do not describe the current test page as an operational update workflow. Recheck the source and enabled state before revising this guidance for a later release."
         },
         "fa": {
-          "purpose": "بخش به‌روزرسانی نرم‌افزار را برای بررسی و نصب نسخه جدید احتمالی باز می‌کند.",
-          "when": "وقتی می‌خواهید بررسی کنید نسخه جدیدتری منتشر شده یا برنامه را به‌روزرسانی کنید، از این گزینه استفاده کنید.",
-          "how": "Software Update را باز کنید، Check for Updates را بزنید و نسخه اعلام‌شده را بررسی کنید. فقط پس از تأیید انتشار و تهیه پشتیبان از اطلاعات، Update Now را انتخاب کنید.",
-          "inputs": "معمولاً ورودی فرمی لازم نیست. برای بررسی یا دانلود به‌روزرسانی ممکن است اتصال اینترنت لازم باشد.",
-          "result": "برنامه نسخه فعلی یا نسخه در دسترس را اعلام می‌کند و در صورت شروع به‌روزرسانی، گردش‌کار نصب را اجرا می‌کند.",
-          "notes": "به‌روزرسانی ممکن است کد برنامه را تغییر دهد و با بازیابی پایگاه داده یکسان نیست. ابتدا پشتیبان تهیه و صحت آن را بررسی کنید. هنگام به‌روزرسانی آن را قطع نکنید؛ پس از پایان، برنامه را دوباره بارگذاری و شناسه Build و داده‌ها را بررسی کنید."
+          "purpose": "صفحه Software Update را باز می‌کند؛ این صفحه وضعیت نسخه آزمایشی نصب‌شده و کنترل‌های به‌روزرسانی را نمایش می‌دهد.",
+          "when": "وقتی updater در نسخه‌ای که از به‌روزرسانی پشتیبانی می‌کند فعال باشد، برای بررسی وضعیت به‌روزرسانی از این صفحه استفاده کنید.",
+          "how": "صفحه Software Update را باز کنید و پیام‌های مربوط به نسخه نصب‌شده و وضعیت را بخوانید. در نسخه آزمایشی R43 بررسی‌شده، هر دو گزینه Check for Updates و Update Now غیرفعال هستند؛ بنابراین انتظار اجرای به‌روزرسانی از این صفحه را نداشته باشید.",
+          "inputs": "در نسخه آزمایشی R43 بررسی‌شده، به دلیل غیرفعال بودن کنترل‌های به‌روزرسانی، ورودی‌ای پذیرفته نمی‌شود.",
+          "result": "صفحه اعلام می‌کند که به‌روزرسانی نرم‌افزار در این نسخه آزمایشی غیرفعال است. هیچ نسخه‌ای بررسی، دانلود یا نصب نمی‌شود.",
+          "notes": "محدودیت نسخه آزمایشی: سورس R43 به‌صراحت updater را تا زمان تأیید نهایی و انتشار نسخه Production غیرفعال کرده است. این صفحه را به‌عنوان گردش‌کار عملیاتی به‌روزرسانی توصیف نکنید. پیش از اصلاح این راهنما برای نسخه‌ای بعدی، سورس و فعال بودن کنترل‌ها را دوباره بررسی کنید."
         }
       },
       "handler_or_behavior": "`show(`"
