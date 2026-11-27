@@ -177,6 +177,10 @@
     const lang=selectedLanguage(),direction=RTL_LANGS.has(lang)?'rtl':'ltr';
     const translation=entry.translations[lang]||entry.translations.en,labels=FIELD_LABELS[lang]||FIELD_LABELS.en;
     card.replaceChildren();card.lang=lang;card.dir=direction;
+    const header=document.createElement('div');header.className='tha-help-header';
+    const closeTop=document.createElement('button');closeTop.type='button';closeTop.className='tha-help-primary tha-help-close-top';
+    closeTop.textContent=lang==='fa'?'× بستن':'× Close';closeTop.setAttribute('aria-label',lang==='fa'?'بستن راهنما':'Close help');closeTop.addEventListener('click',closeHelp);
+    header.appendChild(closeTop);card.appendChild(header);
     addText(card,'div',helpId,'tha-help-id');
     addText(card,'h2',entry.label||helpId,'tha-help-title');
     ['purpose','when','how','inputs','result','notes'].forEach(field=>{
@@ -186,9 +190,7 @@
     const actions=document.createElement('div');actions.className='tha-help-actions';
     const fullGuide=document.createElement('button');fullGuide.type='button';fullGuide.className='tha-help-secondary';
     fullGuide.textContent=lang==='fa'?'باز کردن راهنمای کامل':'Open full User Guide';fullGuide.addEventListener('click',openFullGuide);
-    const close=document.createElement('button');close.type='button';close.className='tha-help-primary';
-    close.textContent=lang==='fa'?'بستن':'Close';close.addEventListener('click',closeHelp);
-    actions.append(fullGuide,close);card.appendChild(actions);
+    actions.append(fullGuide);card.appendChild(actions);
     overlay.hidden=false;overlay.setAttribute('aria-hidden','false');card.focus();
     return true;
   }
@@ -209,6 +211,8 @@
       '#thaHelpOverlay .tha-help-field{border-top:1px solid #e6eaf0;padding:10px 0}' +
       '#thaHelpOverlay .tha-help-field h3{font-size:14px;color:#142b4a;margin:0 0 5px}' +
       '#thaHelpOverlay .tha-help-field p{font-size:15px;line-height:1.65;margin:0;white-space:pre-wrap}' +
+      '#thaHelpOverlay .tha-help-header{position:sticky;top:-20px;z-index:5;display:flex;justify-content:flex-end;margin:-20px -20px 10px;padding:10px 14px;background:#fff;border-bottom:1px solid #e6eaf0;border-radius:18px 18px 0 0}' +
+      '#thaHelpOverlay .tha-help-close-top{min-width:88px;min-height:44px;font-weight:800}' +
       '#thaHelpOverlay .tha-help-actions{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap;margin-top:12px}' +
       '#thaHelpOverlay .tha-help-actions button{min-height:44px;padding:10px 14px}' +
       '#thaHelpOverlay .tha-help-primary{background:#142b4a;color:#fff}' +
