@@ -166,3 +166,11 @@ Source review corrected the English and Persian text for nine Draft entries: THA
 - Mapping summary: 87 scoped static selectors, 13 exact unique-ID selectors and five scoped unique-handler selectors.
 - Version target remains `THA-273-R11-PREVIEW-20261127-R61`. Version Authority must pin the current runtime SHA before the R61 Gate can pass.
 - Live Project Workspace interactions, Help trigger isolation, language switching, mobile layout and iPhone Safari remain unverified. No Preview deployment or Production change.
+
+
+## R62 dynamic controls and Control Panel bindings
+
+- Added eight Help bindings for Company Contracts & Jobs from Business Workspace, the Partners/Workers/Contractors Control Panel destinations, dynamic expense-category options, the Entry Saved dialog OK button and Invoice Preview Open print view.
+- Dynamic controls are found by the existing MutationObserver when inserted into the DOM; selectors remain scoped to the exact parent and action.
+- Cumulative mapping: 118 Help controls (113 static, five dynamic-template); 95 scoped static selectors, 13 unique-ID selectors and five scoped-handler selectors.
+- Build target: THA-273-R11-PREVIEW-20261127-R62. Live browser tests and deployment remain pending.
