@@ -4937,7 +4937,7 @@
       "audit_ref": "INV-064",
       "element_id": null,
       "label": "Compare Accounting Storage (Read-only)",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Compares the accounting data loaded in the interface with the accounting data read from IndexedDB.",
@@ -4954,6 +4954,78 @@
           "inputs": "ورودی فرمی لازم نیست. رابط حسابداری و IndexedDB باید در دسترس باشند.",
           "result": "نتیجه مقایسه فقط‌خواندنی، همراه با تعداد سوابق و وضعیت تطابق رابط با داده ذخیره‌شده، نمایش داده می‌شود.",
           "notes": "این بررسی فقط‌خواندنی است و از LocalStorage قدیمی استفاده نمی‌کند. نتیجه FAIL نشان‌دهنده اختلافی است که باید پیش از ادامه تغییرات بررسی شود؛ این آزمون داده‌ها را تعمیر یا بازنویسی نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يقارن بيانات المحاسبة المحملة في الواجهة ببيانات المحاسبة المقروءة من IndexedDB.",
+          "when": "استخدمه للتحقق مما إذا كانت حالة المحاسبة الظاهرة تطابق الحالة المحفوظة في IndexedDB.",
+          "how": "اختر Compare Accounting Storage (Read-only) وراجع نتيجة PASS أو FAIL وأعداد القيود والعملاء والفواتير.",
+          "inputs": "لا يلزم إدخال شيء. يجب أن تكون واجهة المحاسبة وIndexedDB متاحتين.",
+          "result": "تُعرض نتيجة مقارنة للقراءة فقط، تشمل أعداد السجلات وما إذا كانت الواجهة تطابق الحالة المخزنة.",
+          "notes": "هذا الفحص للقراءة فقط ولا يستخدم LocalStorage القديم. تشير نتيجة FAIL إلى اختلاف ينبغي التحقيق فيه قبل إجراء تغييرات أخرى؛ ولا يقوم الفحص بإصلاح البيانات أو استبدالها."
+        },
+        "ckb": {
+          "purpose": "داتای ژمێریاری بارکراو لە ڕووکارەکە بە داتای ژمێریاری خوێندراوەوە لە IndexedDB بەراورد دەکات.",
+          "when": "بۆ لێکۆڵینەوە لەوەی دۆخی ژمێریاری پیشاندراو لەگەڵ دۆخی پاشەکەوتکراوی IndexedDB دەگونجێت یان نا بەکاریبهێنە.",
+          "how": "Compare Accounting Storage (Read-only) هەڵبژێرە و ئەنجامی PASS یان FAIL و ژمارەی تۆمار، کڕیار و فاکتۆرەکان بپشکنە.",
+          "inputs": "هیچ زانیارییەک پێویست نییە. ڕووکاری ژمێریاری و IndexedDB دەبێت بەردەست بن.",
+          "result": "ئەنجامی بەراوردکردنی تەنهاخوێندنەوە پیشان دەدرێت، لەگەڵ ژمارەی تۆمارەکان و ئەوەی ڕووکاری بە دۆخی هەڵگیراو دەگونجێت یان نا.",
+          "notes": "ئەم پشکنینە تەنهاخوێندنەوەیە و LocalStorage ـی کۆن بەکارناهێنێت. ئەنجامی FAIL نیشانەی جیاوازییە کە پێویستە پێش هەر گۆڕانکارییەکی تر لێکۆڵینەوەی بۆ بکرێت؛ داتا چاک ناکاتەوە یان ناگۆڕێتەوە."
+        },
+        "kmr": {
+          "purpose": "Daneyên hesabê yên di nav rûkarê de barkirî bi daneyên hesabê yên ji IndexedDB hatine xwendin re dide ber hev.",
+          "when": "Ji bo lêkolînkirina ka rewşa xuya ya hesabê bi rewşa hilanî ya IndexedDB re li hev tê an na, vê bikar bîne.",
+          "how": "Compare Accounting Storage (Read-only) hilbijêre û encama PASS an FAIL û hejmarên tomar, xerîdar û fatûreyan kontrol bike.",
+          "inputs": "Tu agahî nehewce ye. Divê rûkara hesabê û IndexedDB peyda bin.",
+          "result": "Encama berawirdkirina tenê-xwendinê tê nîşandan, tevî hejmarên tomar û ka rûkar bi rewşa hilanî re li hev tê an na.",
+          "notes": "Ev kontrol tenê-xwendin e û LocalStorage-a kevn bikar nayîne. Encama FAIL cudahiyekê nîşan dide ku divê berî guhertinên din were lêkolînkirin; daneyan sererast nake an li ser wan dinivîse."
+        },
+        "tr": {
+          "purpose": "Arayüze yüklenen muhasebe verilerini IndexedDB'den okunan muhasebe verileriyle karşılaştırır.",
+          "when": "Görünür muhasebe durumunun IndexedDB'de saklanan durumla eşleşip eşleşmediğini araştırmak için kullanın.",
+          "how": "Compare Accounting Storage (Read-only) seçeneğini seçin; PASS veya FAIL sonucunu ve kayıt, müşteri ve fatura sayılarını inceleyin.",
+          "inputs": "Girdi gerekmez. Muhasebe arayüzü ve IndexedDB kullanılabilir olmalıdır.",
+          "result": "Kayıt sayıları ve kullanıcı arayüzünün saklanan durumla eşleşip eşleşmediğini içeren salt okunur karşılaştırma sonucu gösterilir.",
+          "notes": "Bu kontrol salt okunurdur ve eski LocalStorage'ı kullanmaz. FAIL sonucu, başka değişiklikler yapmadan önce araştırılması gereken bir tutarsızlığa işaret eder; verileri onarmaz veya üzerine yazmaz."
+        },
+        "pl": {
+          "purpose": "Porównuje dane księgowe załadowane w interfejsie z danymi odczytanymi z IndexedDB.",
+          "when": "Użyj, aby sprawdzić, czy widoczny stan księgowości odpowiada stanowi utrwalonemu w IndexedDB.",
+          "how": "Wybierz Compare Accounting Storage (Read-only) i sprawdź wynik PASS lub FAIL oraz liczbę wpisów, klientów i faktur.",
+          "inputs": "Nie są wymagane żadne dane. Interfejs księgowy i IndexedDB muszą być dostępne.",
+          "result": "Wyświetlany jest wynik porównania tylko do odczytu, obejmujący liczbę rekordów i informację, czy interfejs odpowiada zapisanemu stanowi.",
+          "notes": "To kontrola tylko do odczytu i nie korzysta ze starego LocalStorage. Wynik FAIL wskazuje rozbieżność, którą należy zbadać przed dalszymi zmianami; kontrola nie naprawia ani nie nadpisuje danych."
+        },
+        "ur": {
+          "purpose": "انٹرفیس میں لوڈ کیے گئے اکاؤنٹنگ ڈیٹا کا IndexedDB سے پڑھے گئے اکاؤنٹنگ ڈیٹا کے ساتھ موازنہ کرتا ہے۔",
+          "when": "یہ جانچنے کے لیے استعمال کریں کہ دکھائی دینے والی اکاؤنٹنگ حالت IndexedDB میں محفوظ حالت سے ملتی ہے یا نہیں۔",
+          "how": "Compare Accounting Storage (Read-only) منتخب کریں اور PASS یا FAIL نتیجہ نیز اندراجات، گاہکوں اور انوائسز کی تعداد دیکھیں۔",
+          "inputs": "کسی معلومات کی ضرورت نہیں۔ اکاؤنٹنگ انٹرفیس اور IndexedDB دستیاب ہونے چاہئیں۔",
+          "result": "صرف پڑھنے کے لیے موازنہ نتیجہ دکھایا جاتا ہے، جس میں ریکارڈز کی تعداد اور انٹرفیس کے محفوظ حالت سے مطابقت شامل ہے۔",
+          "notes": "یہ جانچ صرف پڑھتی ہے اور پرانا LocalStorage استعمال نہیں کرتی۔ FAIL نتیجہ فرق کی نشاندہی کرتا ہے جس کی مزید تبدیلیوں سے پہلے تحقیق ہونی چاہیے؛ یہ ڈیٹا کی مرمت یا اوور رائٹ نہیں کرتا۔"
+        },
+        "pa": {
+          "purpose": "ਇੰਟਰਫੇਸ ਵਿੱਚ ਲੋਡ ਕੀਤੇ ਅਕਾਊਂਟਿੰਗ ਡਾਟਾ ਦੀ IndexedDB ਤੋਂ ਪੜ੍ਹੇ ਅਕਾਊਂਟਿੰਗ ਡਾਟਾ ਨਾਲ ਤੁਲਨਾ ਕਰਦਾ ਹੈ।",
+          "when": "ਇਹ ਜਾਂਚਣ ਲਈ ਵਰਤੋ ਕਿ ਦਿਖਾਈ ਦੇ ਰਹੀ ਅਕਾਊਂਟਿੰਗ ਸਥਿਤੀ IndexedDB ਵਿੱਚ ਸੰਭਾਲੀ ਸਥਿਤੀ ਨਾਲ ਮਿਲਦੀ ਹੈ ਜਾਂ ਨਹੀਂ।",
+          "how": "Compare Accounting Storage (Read-only) ਚੁਣੋ ਅਤੇ PASS ਜਾਂ FAIL ਨਤੀਜਾ ਅਤੇ ਐਂਟਰੀਆਂ, ਗਾਹਕਾਂ ਤੇ ਇਨਵੌਇਸਾਂ ਦੀ ਗਿਣਤੀ ਵੇਖੋ।",
+          "inputs": "ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ। ਅਕਾਊਂਟਿੰਗ ਇੰਟਰਫੇਸ ਅਤੇ IndexedDB ਉਪਲਬਧ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ।",
+          "result": "ਸਿਰਫ਼ ਪੜ੍ਹਨ ਵਾਲਾ ਤੁਲਨਾ ਨਤੀਜਾ ਦਿਖਾਇਆ ਜਾਂਦਾ ਹੈ, ਜਿਸ ਵਿੱਚ ਰਿਕਾਰਡ ਗਿਣਤੀ ਅਤੇ UI ਦੀ ਸੰਭਾਲੀ ਸਥਿਤੀ ਨਾਲ ਮੇਲ ਦੀ ਜਾਣਕਾਰੀ ਹੁੰਦੀ ਹੈ।",
+          "notes": "ਇਹ ਜਾਂਚ ਸਿਰਫ਼ ਪੜ੍ਹਦੀ ਹੈ ਅਤੇ ਪੁਰਾਣਾ LocalStorage ਨਹੀਂ ਵਰਤਦੀ। FAIL ਨਤੀਜਾ ਅਜਿਹੇ ਫਰਕ ਨੂੰ ਦਰਸਾਉਂਦਾ ਹੈ ਜਿਸਦੀ ਹੋਰ ਤਬਦੀਲੀਆਂ ਤੋਂ ਪਹਿਲਾਂ ਜਾਂਚ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ; ਇਹ ਡਾਟਾ ਠੀਕ ਜਾਂ ਓਵਰਰਾਈਟ ਨਹੀਂ ਕਰਦੀ।"
+        },
+        "prs": {
+          "purpose": "داده‌های حسابداری بارگذاری‌شده در رابط را با داده‌های حسابداری خوانده‌شده از IndexedDB مقایسه می‌کند.",
+          "when": "برای بررسی اینکه وضعیت قابل مشاهده حسابداری با وضعیت ذخیره‌شده در IndexedDB مطابقت دارد یا نه، استفاده کنید.",
+          "how": "Compare Accounting Storage (Read-only) را انتخاب کنید و نتیجه PASS یا FAIL و تعداد ثبت‌ها، مشتریان و فاکتورها را بررسی کنید.",
+          "inputs": "ورودی لازم نیست. رابط حسابداری و IndexedDB باید در دسترس باشند.",
+          "result": "نتیجه مقایسه فقط‌خواندنی همراه با تعداد سوابق و وضعیت تطابق رابط با داده ذخیره‌شده نمایش داده می‌شود.",
+          "notes": "این بررسی فقط‌خواندنی است و از LocalStorage قدیمی استفاده نمی‌کند. نتیجه FAIL نشان‌دهنده اختلافی است که باید پیش از تغییرات بیشتر بررسی شود؛ این گزینه داده‌ها را تعمیر یا بازنویسی نمی‌کند."
+        },
+        "ps": {
+          "purpose": "په انټرفېس کې بار شوي د حسابدارۍ معلومات له IndexedDB څخه لوستل شویو معلوماتو سره پرتله کوي.",
+          "when": "د دې د څېړلو لپاره یې وکاروئ چې ښکاره د حسابدارۍ حالت په IndexedDB کې له خوندي شوي حالت سره برابر دی که نه.",
+          "how": "Compare Accounting Storage (Read-only) وټاکئ او د PASS یا FAIL پایله او د ثبتونو، پېرودونکو او بلونو شمېر وګورئ.",
+          "inputs": "معلوماتو ته اړتیا نشته. د حسابدارۍ انټرفېس او IndexedDB باید موجود وي.",
+          "result": "یوازې د لوستلو د پرتله کولو پایله ښکاري، چې د ریکارډونو شمېر او د UI د خوندي شوي حالت سره د برابرۍ معلومات پکې شامل دي.",
+          "notes": "دا کتنه یوازې لوستل کوي او زوړ LocalStorage نه کاروي. د FAIL پایله د توپیر نښه ده چې له نورو بدلونونو مخکې باید وڅېړل شي؛ دا معلومات نه رغوي او نه پرې لیکي."
         }
       },
       "handler_or_behavior": "`window.runAccountingStorageComparison()`"
@@ -4963,7 +5035,7 @@
       "audit_ref": "INV-065",
       "element_id": null,
       "label": "Download Diagnostic Report (JSON)",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Exports a JSON diagnostic report containing app, storage and activity information.",
@@ -4980,6 +5052,78 @@
           "inputs": "ورودی فرمی لازم نیست. مرورگر باید اجازه دانلود فایل را بدهد. اگر IndexedDB قابل خواندن نباشد، ممکن است اطلاعات حسابداری در گزارش در دسترس نباشد.",
           "result": "یک فایل JSON محلی با اطلاعات نسخه و دستگاه، شمارش‌های ذخیره‌سازی و رویدادهای فعالیتِ پالایش‌شده در صورت دسترس بودن دانلود می‌شود.",
           "notes": "این گزارش پشتیبان کامل نیست و همه سوابق حسابداری را شامل نمی‌شود. برخی اطلاعات فنی و دستگاهی باقی می‌مانند. پیش از اشتراک‌گذاری فایل را بررسی کنید؛ برنامه فیلدهای شخصی شناخته‌شده را از جزئیات رویداد حذف می‌کند، اما تضمین نمی‌شود که هیچ اطلاعات حساسی باقی نمانده باشد."
+        },
+        "ar": {
+          "purpose": "يصدر تقريرًا تشخيصيًا بصيغة JSON يحتوي على معلومات التطبيق والتخزين والنشاط.",
+          "when": "استخدمه عند إعداد تقرير للدعم الفني أو التحقيق في مشكلة بالتطبيق أو التخزين.",
+          "how": "اختر Download Diagnostic Report (JSON)، وانتظر تنزيل الملف، ثم راجع التقرير قبل مشاركته.",
+          "inputs": "لا يلزم إدخال شيء. يجب أن يسمح المتصفح بالتنزيل. قد تظهر بيانات المحاسبة على أنها غير متاحة إذا تعذرت قراءة IndexedDB.",
+          "result": "يُنزّل ملف JSON تشخيصي محلي يتضمن تفاصيل الإصدار والجهاز وأعداد التخزين وأحداث النشاط المنقحة عند توفرها.",
+          "notes": "هذا التقرير ليس نسخة احتياطية كاملة ولا يتضمن سجلات المحاسبة كاملة. تبقى بعض التفاصيل التقنية وتفاصيل الجهاز. راجع الملف قبل مشاركته؛ يرشح التطبيق الحقول الشخصية المعروفة من تفاصيل الأحداث، لكن ذلك لا يضمن خلو كل التفاصيل الحساسة."
+        },
+        "ckb": {
+          "purpose": "ڕاپۆرتێکی تشخیصی JSON دەردەکات کە زانیاری ئەپ، هەڵگرتن و چالاکی لەخۆ دەگرێت.",
+          "when": "کاتێک ڕاپۆرتێکی پشتگیری تەکنیکی ئامادە دەکەیت یان لێکۆڵینەوە لە کێشەی ئەپ/هەڵگرتن دەکەیت، بەکاریبهێنە.",
+          "how": "Download Diagnostic Report (JSON) هەڵبژێرە، چاوەڕێی داگرتنی فایلەکە بکە، پاشان پێش هاوبەشکردن ڕاپۆرتەکە بپشکنە.",
+          "inputs": "هیچ زانیارییەک پێویست نییە. وێبگەڕ دەبێت ڕێگە بە داگرتن بدات. ئەگەر IndexedDB نەخوێندرێتەوە، لەوانەیە داتای ژمێریاری بەردەست نەبێت.",
+          "result": "فایلێکی JSON ـی تشخیصی ناوخۆیی دادەگیرێت کە وردەکاری وەشان/ئامێر، ژمارەکانی هەڵگرتن و ڕووداوە چالاکییە پاڵاوتراوەکان لەخۆ دەگرێت ئەگەر بەردەست بن.",
+          "notes": "ئەم ڕاپۆرتە پاڵپشتییەکی تەواو نییە و هەموو تۆمارەکانی ژمێریاری لەخۆ ناگرێت. هەندێک وردەکاری تەکنیکی و ئامێر دەمێننەوە. پێش هاوبەشکردن فایلەکە بپشکنە؛ ئەپ خانە کەسییە ناسراوەکان لە وردەکاری ڕووداوەکاندا پاڵاوتن دەکات، بەڵام ئەمە دڵنیایی نادات کە هەموو زانیارییە هەستیارەکان لابراون."
+        },
+        "kmr": {
+          "purpose": "Raporteke teşxîsê ya JSON derdixe ku agahiyên sepan, hilanîn û çalakiyê dihewîne.",
+          "when": "Dema ku raporeke piştgiriya teknîkî amade dikî an pirsgirêkeke sepan/hilanînê lêkolîn dikî, vê bikar bîne.",
+          "how": "Download Diagnostic Report (JSON) hilbijêre, li benda daxistina pelê bimîne, paşê berî parvekirinê raporê kontrol bike.",
+          "inputs": "Tu agahî nehewce ye. Divê gerok destûra daxistinê bide. Heke IndexedDB neyê xwendin, dibe ku daneyên hesabê ne peyda bin.",
+          "result": "Peleyeke teşxîsê ya JSON ya herêmî tê daxistin ku hûrguliyên guherto/amûrê, hejmarên hilanînê û bûyerên çalakiyê yên paqijkirî (heke peyda bin) dihewîne.",
+          "notes": "Ev rapor backup-eke tevahî nîne û hemû tomarên hesabê dihewîne nake. Hin hûrguliyên teknîkî û amûrê dimînin. Berî parvekirinê pelê kontrol bike; sepan qadên kesane yên nas kirî ji hûrguliyên bûyeran derdixe, lê ev garantî nake ku her agahiya hesas tune be."
+        },
+        "tr": {
+          "purpose": "Uygulama, depolama ve etkinlik bilgilerini içeren JSON tanılama raporunu dışa aktarır.",
+          "when": "Teknik destek raporu hazırlarken veya uygulama/depolama sorununu araştırırken kullanın.",
+          "how": "Download Diagnostic Report (JSON) seçeneğini seçin, dosyanın indirilmesini bekleyin ve paylaşmadan önce raporu inceleyin.",
+          "inputs": "Girdi gerekmez. Tarayıcı indirmelere izin vermelidir. IndexedDB okunamazsa muhasebe verileri kullanılamıyor olarak raporlanabilir.",
+          "result": "Sürüm/cihaz ayrıntılarını, depolama sayılarını ve mevcutsa ayıklanmış etkinlik olaylarını içeren yerel bir JSON tanılama dosyası indirilir.",
+          "notes": "Bu rapor tam yedek değildir ve tüm muhasebe kayıtlarını içermez. Bazı teknik/cihaz ayrıntıları kalır. Paylaşmadan önce dosyayı inceleyin; uygulama olay ayrıntılarından tanınan kişisel alanları filtreler ancak tüm hassas ayrıntıların bulunmadığını garanti etmez."
+        },
+        "pl": {
+          "purpose": "Eksportuje raport diagnostyczny JSON zawierający informacje o aplikacji, pamięci i aktywności.",
+          "when": "Użyj podczas przygotowywania zgłoszenia do pomocy technicznej lub badania problemu aplikacji/pamięci.",
+          "how": "Wybierz Download Diagnostic Report (JSON), poczekaj na pobranie pliku, a następnie przejrzyj raport przed udostępnieniem.",
+          "inputs": "Nie są wymagane żadne dane. Przeglądarka musi zezwalać na pobieranie. Dane księgowe mogą być oznaczone jako niedostępne, jeśli nie można odczytać IndexedDB.",
+          "result": "Pobierany jest lokalny plik diagnostyczny JSON ze szczegółami wersji/urządzenia, licznikami pamięci i zredagowanymi zdarzeniami aktywności, jeśli są dostępne.",
+          "notes": "Raport nie jest pełną kopią zapasową i nie zawiera pełnych rejestrów księgowych. Pozostają niektóre szczegóły techniczne i urządzenia. Sprawdź plik przed udostępnieniem; aplikacja filtruje rozpoznane pola osobiste ze szczegółów zdarzeń, ale nie gwarantuje usunięcia wszystkich danych wrażliwych."
+        },
+        "ur": {
+          "purpose": "ایپ، اسٹوریج اور سرگرمی کی معلومات پر مشتمل JSON تشخیصی رپورٹ برآمد کرتا ہے۔",
+          "when": "تکنیکی معاونت کی رپورٹ تیار کرتے یا ایپ/اسٹوریج کے مسئلے کی تحقیق کرتے وقت استعمال کریں۔",
+          "how": "Download Diagnostic Report (JSON) منتخب کریں، فائل ڈاؤن لوڈ ہونے کا انتظار کریں، پھر شیئر کرنے سے پہلے رپورٹ دیکھیں۔",
+          "inputs": "کسی معلومات کی ضرورت نہیں۔ براؤزر کو ڈاؤن لوڈ کی اجازت دینی چاہیے۔ اگر IndexedDB نہیں پڑھا جا سکتا تو اکاؤنٹنگ ڈیٹا دستیاب نہ ہونے کی اطلاع دی جا سکتی ہے۔",
+          "result": "ورژن/ڈیوائس کی تفصیلات، اسٹوریج کی گنتی اور دستیاب ہونے پر چھانٹے گئے سرگرمی واقعات کے ساتھ مقامی JSON تشخیصی فائل ڈاؤن لوڈ ہوتی ہے۔",
+          "notes": "یہ رپورٹ مکمل بیک اپ نہیں اور تمام اکاؤنٹنگ ریکارڈز شامل نہیں کرتی۔ کچھ تکنیکی اور ڈیوائس تفصیلات باقی رہتی ہیں۔ شیئر کرنے سے پہلے فائل دیکھیں؛ ایپ واقعات کی تفصیلات سے پہچانے گئے ذاتی خانے فلٹر کرتی ہے لیکن یہ ضمانت نہیں کہ ہر حساس تفصیل ہٹا دی گئی ہے۔"
+        },
+        "pa": {
+          "purpose": "ਐਪ, ਸਟੋਰੇਜ ਅਤੇ ਸਰਗਰਮੀ ਦੀ ਜਾਣਕਾਰੀ ਵਾਲੀ JSON ਡਾਇਗਨੌਸਟਿਕ ਰਿਪੋਰਟ ਨਿਰਯਾਤ ਕਰਦਾ ਹੈ।",
+          "when": "ਤਕਨੀਕੀ ਸਹਾਇਤਾ ਰਿਪੋਰਟ ਤਿਆਰ ਕਰਦੇ ਜਾਂ ਐਪ/ਸਟੋਰੇਜ ਸਮੱਸਿਆ ਦੀ ਜਾਂਚ ਕਰਦੇ ਸਮੇਂ ਵਰਤੋ।",
+          "how": "Download Diagnostic Report (JSON) ਚੁਣੋ, ਫਾਈਲ ਡਾਊਨਲੋਡ ਹੋਣ ਦੀ ਉਡੀਕ ਕਰੋ, ਫਿਰ ਸਾਂਝੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਰਿਪੋਰਟ ਵੇਖੋ।",
+          "inputs": "ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ। ਬ੍ਰਾਊਜ਼ਰ ਨੂੰ ਡਾਊਨਲੋਡ ਦੀ ਇਜਾਜ਼ਤ ਦੇਣੀ ਚਾਹੀਦੀ ਹੈ। ਜੇ IndexedDB ਨਹੀਂ ਪੜ੍ਹਿਆ ਜਾ ਸਕਦਾ ਤਾਂ ਅਕਾਊਂਟਿੰਗ ਡਾਟਾ ਉਪਲਬਧ ਨਹੀਂ ਦੱਸਿਆ ਜਾ ਸਕਦਾ ਹੈ।",
+          "result": "ਵਰਜਨ/ਡਿਵਾਈਸ ਵੇਰਵੇ, ਸਟੋਰੇਜ ਗਿਣਤੀਆਂ ਅਤੇ ਉਪਲਬਧ ਹੋਣ 'ਤੇ ਛਾਂਟੇ ਸਰਗਰਮੀ ਇਵੈਂਟਾਂ ਵਾਲੀ ਸਥਾਨਕ JSON ਡਾਇਗਨੌਸਟਿਕ ਫਾਈਲ ਡਾਊਨਲੋਡ ਹੁੰਦੀ ਹੈ।",
+          "notes": "ਇਹ ਰਿਪੋਰਟ ਪੂਰਾ ਬੈਕਅੱਪ ਨਹੀਂ ਅਤੇ ਸਾਰੇ ਅਕਾਊਂਟਿੰਗ ਰਿਕਾਰਡ ਸ਼ਾਮਲ ਨਹੀਂ ਕਰਦੀ। ਕੁਝ ਤਕਨੀਕੀ/ਡਿਵਾਈਸ ਵੇਰਵੇ ਰਹਿੰਦੇ ਹਨ। ਸਾਂਝੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਫਾਈਲ ਜਾਂਚੋ; ਐਪ ਇਵੈਂਟ ਵੇਰਵਿਆਂ ਵਿੱਚੋਂ ਪਛਾਣੇ ਨਿੱਜੀ ਖੇਤਰ ਫਿਲਟਰ ਕਰਦੀ ਹੈ ਪਰ ਹਰ ਸੰਵੇਦਨਸ਼ੀਲ ਵੇਰਵਾ ਹਟਣ ਦੀ ਗਾਰੰਟੀ ਨਹੀਂ।"
+        },
+        "prs": {
+          "purpose": "گزارش تشخیصی JSON شامل اطلاعات برنامه، ذخیره‌سازی و فعالیت‌ها را صادر می‌کند.",
+          "when": "وقتی برای پشتیبانی فنی گزارش تهیه می‌کنید یا مشکل برنامه/ذخیره‌سازی را بررسی می‌کنید، استفاده کنید.",
+          "how": "Download Diagnostic Report (JSON) را انتخاب کنید، منتظر دانلود فایل بمانید و پیش از اشتراک‌گذاری گزارش را بررسی کنید.",
+          "inputs": "ورودی لازم نیست. مرورگر باید اجازه دانلود بدهد. اگر IndexedDB قابل خواندن نباشد، ممکن است داده‌های حسابداری در گزارش در دسترس نباشند.",
+          "result": "یک فایل JSON تشخیصی محلی با جزئیات نسخه/دستگاه، شمارش‌های ذخیره‌سازی و رویدادهای فعالیت پالایش‌شده در صورت دسترس بودن دانلود می‌شود.",
+          "notes": "این گزارش پشتیبان کامل نیست و همه سوابق حسابداری را شامل نمی‌شود. برخی جزئیات فنی و دستگاهی باقی می‌مانند. پیش از اشتراک‌گذاری فایل را بررسی کنید؛ برنامه فیلدهای شخصی شناخته‌شده را از جزئیات رویدادها فیلتر می‌کند، اما تضمین نمی‌کند همه جزئیات حساس حذف شده باشند."
+        },
+        "ps": {
+          "purpose": "د JSON تشخیصي راپور صادروي چې د اپ، زېرمتون او فعالیت معلومات پکې وي.",
+          "when": "کله چې د تخنیکي ملاتړ راپور چمتو کوئ یا د اپ/زېرمتون ستونزه څېړئ، وکاروئ.",
+          "how": "Download Diagnostic Report (JSON) وټاکئ، د فایل ډاونلوډ ته انتظار وکړئ، بیا له شریکولو مخکې راپور وګورئ.",
+          "inputs": "معلوماتو ته اړتیا نشته. براوزر باید د ډاونلوډ اجازه ورکړي. که IndexedDB لوستل کېدای نه شي، د حسابدارۍ معلومات ښايي د نه‌شتون په توګه راپور شي.",
+          "result": "یو محلي JSON تشخیصي فایل د نسخې/وسیلي جزیاتو، د زېرمتون شمېرنو او د شته کېدو په صورت کې د پاکو شویو فعالیت پېښو سره ډاونلوډ کېږي.",
+          "notes": "دا راپور بشپړ بیک اپ نه دی او ټول د حسابدارۍ ریکارډونه نه لري. ځینې تخنیکي او د وسیلې جزیات پاتې کېږي. له شریکولو مخکې فایل وګورئ؛ اپ د پېښو له جزیاتو پېژندل شوي شخصي فیلډونه فلټر کوي، خو دا تضمین نه کوي چې ټول حساس جزیات لرې شوي وي."
         }
       },
       "handler_or_behavior": "`exportDiagnosticReport()`"
@@ -4989,7 +5133,7 @@
       "audit_ref": "INV-066",
       "element_id": null,
       "label": "Run Full Storage Audit (Read-only)",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Runs a read-only audit of IndexedDB health and record counts across the app’s storage domains.",
@@ -5006,6 +5150,78 @@
           "inputs": "ورودی فرمی لازم نیست. سلامت IndexedDB و APIهای Snapshot باید در دسترس باشند و مرورگر باید اجازه دانلود بدهد.",
           "result": "برنامه سلامت ذخیره‌سازی را بررسی می‌کند، فهرست سوابق حوزه‌های مشخص‌شده را می‌خواند و گزارش ممیزی JSON دانلود می‌کند.",
           "notes": "این ممیزی صراحتاً فقط‌خواندنی است و هیچ سابقه‌ای را نمی‌نویسد، مهاجرت نمی‌دهد، بازنویسی یا حذف نمی‌کند. گزارش شامل تعداد داده‌ها در حوزه‌های ذخیره‌سازی و اطلاعات فنی است؛ پیش از اشتراک‌گذاری آن را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يجري تدقيقًا للقراءة فقط لصحة IndexedDB وأعداد السجلات عبر مجالات التخزين في التطبيق.",
+          "when": "استخدمه عند التحقق من سلامة تخزين IndexedDB في التطبيق وتوفره عمومًا دون تغيير السجلات.",
+          "how": "اختر Run Full Storage Audit (Read-only) وانتظر نتيجة التدقيق وتنزيل ملف JSON.",
+          "inputs": "لا يلزم إدخال شيء. يجب أن تكون صحة IndexedDB وواجهات Snapshot متاحة، كما يجب أن يسمح المتصفح بالتنزيل.",
+          "result": "يفحص التطبيق صحة التخزين، ويقرأ جرد السجلات عبر المجالات المدرجة، وينزّل تقرير تدقيق JSON.",
+          "notes": "التدقيق للقراءة فقط صراحةً: لا يكتب السجلات أو يرحّلها أو يستبدلها أو يحذفها. يتضمن التقرير أعداد مجالات التخزين وبيانات وصفية تقنية؛ راجعه قبل مشاركته."
+        },
+        "ckb": {
+          "purpose": "ممیزییەکی تەنهاخوێندنەوە بۆ تەندروستی IndexedDB و ژمارەی تۆمارەکان لە سەرانسەری بوارەکانی هەڵگرتنی ئەپ ئەنجام دەدات.",
+          "when": "کاتێک دەتەوێت یەکپارچەیی و بەردەستبوونی گشتی هەڵگرتنی IndexedDB بپشکنیت بەبێ گۆڕینی تۆمارەکان، بەکاریبهێنە.",
+          "how": "Run Full Storage Audit (Read-only) هەڵبژێرە و چاوەڕێی ئەنجامی ممیزی و داگرتنی JSON بکە.",
+          "inputs": "هیچ زانیارییەک پێویست نییە. تەندروستی IndexedDB و API ـەکانی Snapshot دەبێت بەردەست بن و وێبگەڕ ڕێگە بە داگرتن بدات.",
+          "result": "ئەپەکە تەندروستی هەڵگرتن دەپشکنێت، لیستی تۆمارەکان لە بوارە دیاریکراوەکان دەخوێنێتەوە و ڕاپۆرتی ممیزی JSON دادەگرێت.",
+          "notes": "ممیزییەکە بە ئاشکرا تەنهاخوێندنەوەیە: هیچ تۆمارێک نانووسێت، ناگوازێتەوە، ناگۆڕێتەوە یان ناسڕێتەوە. ڕاپۆرتەکە ژمارەی بوارەکانی هەڵگرتن و زانیاری تەکنیکی لەخۆ دەگرێت؛ پێش هاوبەشکردن پێداچوونەوەی بۆ بکە."
+        },
+        "kmr": {
+          "purpose": "Li ser tenduristiya IndexedDB û hejmarên tomaran di hemû qadên hilanîna sepanê de kontrolkirineke tenê-xwendinê dimeşîne.",
+          "when": "Dema ku bêyî guhertina tomar kontrol dikî yekparebûn û peydakirina giştî ya hilanîna IndexedDB, vê bikar bîne.",
+          "how": "Run Full Storage Audit (Read-only) hilbijêre û li benda encama kontrolê û daxistina JSON bimîne.",
+          "inputs": "Tu agahî nehewce ye. Divê tenduristiya IndexedDB û API-yên Snapshot peyda bin, û gerok destûra daxistinê bide.",
+          "result": "Sepan tenduristiya hilanînê kontrol dike, navnîşa tomarên qadên lîstekirî dixwîne û raporeke kontrolê ya JSON dadixe.",
+          "notes": "Ev kontrol bi eşkere tenê-xwendin e: tomar nanivîse, namîgrate, li ser wan dinivîse an jê nake. Rapor hejmarên qadên hilanînê û metadata teknîkî dihewîne; berî parvekirinê wê kontrol bike."
+        },
+        "tr": {
+          "purpose": "Uygulamanın depolama alanlarında IndexedDB sağlığını ve kayıt sayılarını salt okunur olarak denetler.",
+          "when": "Kayıtları değiştirmeden IndexedDB depolamasının genel bütünlüğünü ve kullanılabilirliğini kontrol ederken kullanın.",
+          "how": "Run Full Storage Audit (Read-only) seçeneğini seçin ve denetim sonucunu ve JSON indirmesini bekleyin.",
+          "inputs": "Girdi gerekmez. IndexedDB sağlığı ve Snapshot API'leri kullanılabilir olmalı, tarayıcı da indirmelere izin vermelidir.",
+          "result": "Uygulama depolama sağlığını kontrol eder, listelenen alanlardaki kayıt envanterini okur ve JSON denetim raporu indirir.",
+          "notes": "Denetim açıkça salt okunurdur: kayıt yazmaz, taşımaz, üzerine yazmaz veya silmez. Rapor depolama alanı sayılarını ve teknik üstverileri içerir; paylaşmadan önce inceleyin."
+        },
+        "pl": {
+          "purpose": "Przeprowadza audyt tylko do odczytu stanu IndexedDB i liczby rekordów we wszystkich obszarach pamięci aplikacji.",
+          "when": "Użyj, aby sprawdzić ogólną integralność i dostępność pamięci IndexedDB bez zmieniania rekordów.",
+          "how": "Wybierz Run Full Storage Audit (Read-only) i poczekaj na wynik audytu oraz pobranie JSON.",
+          "inputs": "Nie są wymagane żadne dane. Stan IndexedDB i interfejsy Snapshot muszą być dostępne, a przeglądarka musi zezwalać na pobieranie.",
+          "result": "Aplikacja sprawdza stan pamięci, odczytuje spis rekordów w wymienionych obszarach i pobiera raport audytu JSON.",
+          "notes": "Audyt jest jawnie tylko do odczytu: nie zapisuje, nie migruje, nie nadpisuje ani nie usuwa rekordów. Raport zawiera liczniki obszarów pamięci i metadane techniczne; sprawdź go przed udostępnieniem."
+        },
+        "ur": {
+          "purpose": "ایپ کے اسٹوریج شعبوں میں IndexedDB کی صحت اور ریکارڈز کی تعداد کا صرف پڑھنے والا آڈٹ چلاتا ہے۔",
+          "when": "ریکارڈز بدلے بغیر ایپ کے IndexedDB اسٹوریج کی مجموعی سالمیت اور دستیابی جانچنے کے لیے استعمال کریں۔",
+          "how": "Run Full Storage Audit (Read-only) منتخب کریں اور آڈٹ کے نتیجے اور JSON ڈاؤن لوڈ کا انتظار کریں۔",
+          "inputs": "کسی معلومات کی ضرورت نہیں۔ IndexedDB صحت اور Snapshot APIs دستیاب ہونے چاہئیں اور براؤزر کو ڈاؤن لوڈ کی اجازت دینی چاہیے۔",
+          "result": "ایپ اسٹوریج کی صحت چیک کرتی ہے، درج شدہ شعبوں میں ریکارڈز کی فہرست پڑھتی ہے اور JSON آڈٹ رپورٹ ڈاؤن لوڈ کرتی ہے۔",
+          "notes": "یہ آڈٹ واضح طور پر صرف پڑھنے کے لیے ہے: یہ ریکارڈ نہیں لکھتا، منتقل، اوور رائٹ یا حذف نہیں کرتا۔ رپورٹ میں اسٹوریج شعبوں کی تعداد اور تکنیکی میٹا ڈیٹا شامل ہے؛ شیئر کرنے سے پہلے اسے دیکھیں۔"
+        },
+        "pa": {
+          "purpose": "ਐਪ ਦੇ ਸਟੋਰੇਜ ਖੇਤਰਾਂ ਵਿੱਚ IndexedDB ਦੀ ਸਿਹਤ ਅਤੇ ਰਿਕਾਰਡ ਗਿਣਤੀ ਦਾ ਸਿਰਫ਼ ਪੜ੍ਹਨ ਵਾਲਾ ਆਡਿਟ ਚਲਾਉਂਦਾ ਹੈ।",
+          "when": "ਰਿਕਾਰਡ ਬਦਲੇ ਬਿਨਾਂ ਐਪ ਦੇ IndexedDB ਸਟੋਰੇਜ ਦੀ ਸਮੁੱਚੀ ਅਖੰਡਤਾ ਅਤੇ ਉਪਲਬਧਤਾ ਜਾਂਚਣ ਲਈ ਵਰਤੋ।",
+          "how": "Run Full Storage Audit (Read-only) ਚੁਣੋ ਅਤੇ ਆਡਿਟ ਨਤੀਜੇ ਤੇ JSON ਡਾਊਨਲੋਡ ਦੀ ਉਡੀਕ ਕਰੋ।",
+          "inputs": "ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ। IndexedDB ਸਿਹਤ ਅਤੇ Snapshot APIs ਉਪਲਬਧ ਹੋਣੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ ਅਤੇ ਬ੍ਰਾਊਜ਼ਰ ਡਾਊਨਲੋਡ ਦੀ ਇਜਾਜ਼ਤ ਦੇਵੇ।",
+          "result": "ਐਪ ਸਟੋਰੇਜ ਸਿਹਤ ਜਾਂਚਦੀ ਹੈ, ਸੂਚੀਬੱਧ ਖੇਤਰਾਂ ਵਿੱਚ ਰਿਕਾਰਡ ਸੂਚੀ ਪੜ੍ਹਦੀ ਹੈ ਅਤੇ JSON ਆਡਿਟ ਰਿਪੋਰਟ ਡਾਊਨਲੋਡ ਕਰਦੀ ਹੈ।",
+          "notes": "ਆਡਿਟ ਸਪਸ਼ਟ ਤੌਰ 'ਤੇ ਸਿਰਫ਼ ਪੜ੍ਹਨ ਵਾਲਾ ਹੈ: ਇਹ ਰਿਕਾਰਡ ਨਹੀਂ ਲਿਖਦਾ, ਮਾਈਗ੍ਰੇਟ, ਓਵਰਰਾਈਟ ਜਾਂ ਮਿਟਾਉਂਦਾ। ਰਿਪੋਰਟ ਵਿੱਚ ਸਟੋਰੇਜ ਖੇਤਰਾਂ ਦੀ ਗਿਣਤੀ ਅਤੇ ਤਕਨੀਕੀ ਮੈਟਾਡਾਟਾ ਹੈ; ਸਾਂਝੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਜਾਂਚੋ।"
+        },
+        "prs": {
+          "purpose": "ممیزی فقط‌خواندنی سلامت IndexedDB و تعداد سوابق را در حوزه‌های ذخیره‌سازی برنامه اجرا می‌کند.",
+          "when": "وقتی می‌خواهید یکپارچگی و دسترس‌پذیری کلی ذخیره‌سازی IndexedDB را بدون تغییر سوابق بررسی کنید، استفاده کنید.",
+          "how": "Run Full Storage Audit (Read-only) را انتخاب کنید و منتظر نتیجه ممیزی و دانلود JSON بمانید.",
+          "inputs": "ورودی لازم نیست. سلامت IndexedDB و APIهای Snapshot باید در دسترس باشند و مرورگر باید اجازه دانلود بدهد.",
+          "result": "برنامه سلامت ذخیره‌سازی را بررسی می‌کند، فهرست سوابق حوزه‌های مشخص‌شده را می‌خواند و گزارش ممیزی JSON دانلود می‌کند.",
+          "notes": "این ممیزی صراحتاً فقط‌خواندنی است: سوابق را نمی‌نویسد، مهاجرت نمی‌دهد، بازنویسی یا حذف نمی‌کند. گزارش شامل شمارش حوزه‌های ذخیره‌سازی و فراداده فنی است؛ پیش از اشتراک‌گذاری آن را بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د اپ د زېرمتون په ټولو برخو کې د IndexedDB روغتیا او د ریکارډونو شمېر یوازې د لوستلو په بڼه پلټي.",
+          "when": "کله چې غواړئ د ریکارډونو له بدلولو پرته د اپ د IndexedDB زېرمتون عمومي بشپړتیا او شتون وګورئ، وکاروئ.",
+          "how": "Run Full Storage Audit (Read-only) وټاکئ او د پلټنې پایلې او JSON ډاونلوډ ته انتظار وکړئ.",
+          "inputs": "معلوماتو ته اړتیا نشته. د IndexedDB روغتیا او Snapshot API ګانې باید موجودې وي او براوزر باید د ډاونلوډ اجازه ورکړي.",
+          "result": "اپ د زېرمتون روغتیا ګوري، په لېست شویو برخو کې د ریکارډونو لېست لولي او د JSON پلټنې راپور ډاونلوډوي.",
+          "notes": "پلټنه په څرګنده یوازې لوستل دي: ریکارډونه نه لیکي، نه لېږدوي، نه پرې لیکي او نه یې ړنګوي. راپور د زېرمتون د برخو شمېر او تخنیکي میټاډاټا لري؛ له شریکولو مخکې یې وګورئ."
         }
       },
       "handler_or_behavior": "`runFullStorageAudit()`"
@@ -5015,7 +5231,7 @@
       "audit_ref": "INV-067",
       "element_id": null,
       "label": "Export Activity Log (CSV)",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Exports the activity archive as a CSV file for review in a spreadsheet.",
@@ -5032,6 +5248,78 @@
           "inputs": "ورودی فرمی لازم نیست. مرورگر باید اجازه دانلود فایل را بدهد.",
           "result": "یک فایل CSV شامل فیلدهای موجود در بایگانی فعالیت‌ها دانلود می‌شود.",
           "notes": "این فایل پشتیبان پایگاه داده نیست. پیش از اشتراک‌گذاری آن را بررسی کنید؛ نام رویدادها، زمان‌ها، شناسه سوابق و جزئیات فنی ممکن است فعالیت کسب‌وکار را آشکار کنند."
+        },
+        "ar": {
+          "purpose": "يصدر أرشيف النشاط كملف CSV لمراجعته في جدول بيانات.",
+          "when": "استخدمه لفحص سجل النشاط المحلي أو تصفيته أو مشاركة نسخة منه.",
+          "how": "اختر Export Activity Log (CSV)، وانتظر التنزيل، ثم افتح الملف في جدول بيانات عند الحاجة.",
+          "inputs": "لا يلزم إدخال شيء. يجب أن يسمح المتصفح بالتنزيل.",
+          "result": "يُنزّل ملف CSV يحتوي على حقول سجل النشاط المتاحة.",
+          "notes": "هذا ليس نسخة احتياطية لقاعدة البيانات. راجع ملف CSV قبل مشاركته، لأن أسماء الأحداث والطوابع الزمنية ومراجع السجلات والتفاصيل التقنية قد تكشف نشاطًا تجاريًا."
+        },
+        "ckb": {
+          "purpose": "ئەرشیفی چالاکی وەک فایلێکی CSV دەردەکات بۆ پێداچوونەوەی لە خشتەی داتا.",
+          "when": "بۆ پشکنین، فلتەرکردن یان هاوبەشکردنی کۆپییەک لە مێژووی چالاکیی ناوخۆی ئامێر بەکاریبهێنە.",
+          "how": "Export Activity Log (CSV) هەڵبژێرە، چاوەڕێی داگرتن بکە، پاشان ئەگەر پێویست بوو فایلەکە لە بەرنامەی خشتەی داتا بکەرەوە.",
+          "inputs": "هیچ زانیارییەک پێویست نییە. وێبگەڕ دەبێت ڕێگە بە داگرتن بدات.",
+          "result": "فایلێکی CSV دادەگیرێت کە خانە بەردەستەکانی تۆماری چالاکی لەخۆ دەگرێت.",
+          "notes": "ئەمە پاڵپشتیی بنکەدراوە نییە. پێش هاوبەشکردن فایلەکە بپشکنە، چونکە ناوی ڕووداو، کاتی ڕوودان، ئاماژەی تۆمار و وردەکاری تەکنیکی لەوانەیە چالاکی بازرگانی ئاشکرا بکەن."
+        },
+        "kmr": {
+          "purpose": "Arşîva çalakiyê wekî pelekî CSV derdixe da ku di tabloyek daneyan de were lêkolînkirin.",
+          "when": "Ji bo lêkolîn, parzûnkirin an parvekirina kopiyeke dîroka çalakiya li ser amûrê, vê bikar bîne.",
+          "how": "Export Activity Log (CSV) hilbijêre, li benda daxistinê bimîne, paşê heke hewce be pelê di bernameya tabloyê de veke.",
+          "inputs": "Tu agahî nehewce ye. Divê gerok destûra daxistinê bide.",
+          "result": "Peleyeke CSV tê daxistin ku qadên peyda yên tomara çalakiyê dihewîne.",
+          "notes": "Ev backup-a danegehê nîne. Berî parvekirinê CSV-ê kontrol bike, ji ber ku navên bûyeran, demnîşan, referansên tomar û hûrguliyên teknîkî dikarin çalakiya karsaziyê eşkere bikin."
+        },
+        "tr": {
+          "purpose": "Etkinlik arşivini elektronik tabloda incelemek üzere CSV dosyası olarak dışa aktarır.",
+          "when": "Cihazda yerel olarak tutulan etkinlik geçmişinin bir kopyasını incelemek, filtrelemek veya paylaşmak için kullanın.",
+          "how": "Export Activity Log (CSV) seçeneğini seçin, indirmeyi bekleyin ve gerekirse dosyayı bir elektronik tablo uygulamasında açın.",
+          "inputs": "Girdi gerekmez. Tarayıcı indirmelere izin vermelidir.",
+          "result": "Mevcut etkinlik günlüğü alanlarını içeren bir CSV dosyası indirilir.",
+          "notes": "Bu bir veritabanı yedeği değildir. Olay adları, zaman damgaları, kayıt referansları ve teknik ayrıntılar işletme faaliyetlerini açığa çıkarabileceğinden CSV'yi paylaşmadan önce inceleyin."
+        },
+        "pl": {
+          "purpose": "Eksportuje archiwum aktywności jako plik CSV do przeglądania w arkuszu kalkulacyjnym.",
+          "when": "Użyj, aby przeanalizować, filtrować lub udostępnić kopię lokalnej historii aktywności urządzenia.",
+          "how": "Wybierz Export Activity Log (CSV), poczekaj na pobranie, a następnie w razie potrzeby otwórz plik w arkuszu kalkulacyjnym.",
+          "inputs": "Nie są wymagane żadne dane. Przeglądarka musi zezwalać na pobieranie.",
+          "result": "Pobierany jest plik CSV zawierający dostępne pola dziennika aktywności.",
+          "notes": "To nie jest kopia zapasowa bazy danych. Przejrzyj plik CSV przed udostępnieniem, ponieważ nazwy zdarzeń, znaczniki czasu, odwołania do rekordów i szczegóły techniczne mogą ujawniać działalność firmy."
+        },
+        "ur": {
+          "purpose": "سرگرمی کے آرکائیو کو CSV فائل کے طور پر برآمد کرتا ہے تاکہ اسپریڈشیٹ میں دیکھا جا سکے۔",
+          "when": "آلے پر مقامی سرگرمی کی تاریخ کا جائزہ لینے، فلٹر کرنے یا اس کی نقل شیئر کرنے کے لیے استعمال کریں۔",
+          "how": "Export Activity Log (CSV) منتخب کریں، ڈاؤن لوڈ کا انتظار کریں، پھر ضرورت ہو تو فائل اسپریڈشیٹ میں کھولیں۔",
+          "inputs": "کسی معلومات کی ضرورت نہیں۔ براؤزر کو ڈاؤن لوڈ کی اجازت دینی چاہیے۔",
+          "result": "دستیاب سرگرمی لاگ فیلڈز پر مشتمل CSV فائل ڈاؤن لوڈ ہوتی ہے۔",
+          "notes": "یہ ڈیٹا بیس بیک اپ نہیں ہے۔ CSV شیئر کرنے سے پہلے دیکھیں کیونکہ واقعات کے نام، وقت کے نشانات، ریکارڈ حوالہ جات اور تکنیکی تفصیلات کاروباری سرگرمی ظاہر کر سکتی ہیں۔"
+        },
+        "pa": {
+          "purpose": "ਸਰਗਰਮੀ ਆਰਕਾਈਵ ਨੂੰ ਸਪ੍ਰੈਡਸ਼ੀਟ ਵਿੱਚ ਸਮੀਖਿਆ ਲਈ CSV ਫਾਈਲ ਵਜੋਂ ਨਿਰਯਾਤ ਕਰਦਾ ਹੈ।",
+          "when": "ਡਿਵਾਈਸ ਉੱਤੇ ਸਥਾਨਕ ਸਰਗਰਮੀ ਇਤਿਹਾਸ ਦੀ ਕਾਪੀ ਜਾਂਚਣ, ਫਿਲਟਰ ਕਰਨ ਜਾਂ ਸਾਂਝੀ ਕਰਨ ਲਈ ਵਰਤੋ।",
+          "how": "Export Activity Log (CSV) ਚੁਣੋ, ਡਾਊਨਲੋਡ ਦੀ ਉਡੀਕ ਕਰੋ, ਫਿਰ ਲੋੜ ਹੋਵੇ ਤਾਂ ਫਾਈਲ ਸਪ੍ਰੈਡਸ਼ੀਟ ਵਿੱਚ ਖੋਲ੍ਹੋ।",
+          "inputs": "ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ। ਬ੍ਰਾਊਜ਼ਰ ਨੂੰ ਡਾਊਨਲੋਡ ਦੀ ਇਜਾਜ਼ਤ ਦੇਣੀ ਚਾਹੀਦੀ ਹੈ।",
+          "result": "ਉਪਲਬਧ ਸਰਗਰਮੀ ਲਾਗ ਖੇਤਰਾਂ ਵਾਲੀ CSV ਫਾਈਲ ਡਾਊਨਲੋਡ ਹੁੰਦੀ ਹੈ।",
+          "notes": "ਇਹ ਡਾਟਾਬੇਸ ਬੈਕਅੱਪ ਨਹੀਂ ਹੈ। CSV ਸਾਂਝੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਜਾਂਚੋ ਕਿਉਂਕਿ ਘਟਨਾ ਨਾਂ, ਸਮਾਂ-ਮੋਹਰਾਂ, ਰਿਕਾਰਡ ਹਵਾਲੇ ਅਤੇ ਤਕਨੀਕੀ ਵੇਰਵੇ ਕਾਰੋਬਾਰੀ ਸਰਗਰਮੀ ਖੋਲ੍ਹ ਸਕਦੇ ਹਨ।"
+        },
+        "prs": {
+          "purpose": "بایگانی فعالیت‌ها را به‌صورت فایل CSV صادر می‌کند تا در صفحه‌گسترده بررسی شود.",
+          "when": "برای بررسی، فیلترکردن یا اشتراک‌گذاری نسخه‌ای از تاریخچه فعالیت محلی دستگاه استفاده کنید.",
+          "how": "Export Activity Log (CSV) را انتخاب کنید، منتظر دانلود بمانید و در صورت نیاز فایل را در برنامه صفحه‌گسترده باز کنید.",
+          "inputs": "ورودی لازم نیست. مرورگر باید اجازه دانلود بدهد.",
+          "result": "یک فایل CSV شامل فیلدهای موجود در گزارش فعالیت دانلود می‌شود.",
+          "notes": "این فایل پشتیبان پایگاه داده نیست. پیش از اشتراک‌گذاری CSV آن را بررسی کنید؛ نام رویدادها، زمان‌ها، ارجاع رکوردها و جزئیات فنی ممکن است فعالیت کسب‌وکار را آشکار کنند."
+        },
+        "ps": {
+          "purpose": "د فعالیتونو ارشیف د CSV فایل په توګه صادروي، څو په سپرېډشیټ کې وکتل شي.",
+          "when": "د وسیلې د محلي فعالیت تاریخ د کتلو، فلټر کولو یا د کاپي شریکولو لپاره یې وکاروئ.",
+          "how": "Export Activity Log (CSV) وټاکئ، ډاونلوډ ته انتظار وکړئ، بیا که اړتیا وي فایل په سپرېډشیټ کې پرانیزئ.",
+          "inputs": "معلوماتو ته اړتیا نشته. براوزر باید د ډاونلوډ اجازه ورکړي.",
+          "result": "د فعالیت د لاګ د شته برخو لرونکی CSV فایل ډاونلوډ کېږي.",
+          "notes": "دا د ډیټابېس بیک اپ نه دی. د CSV له شریکولو مخکې یې وګورئ، ځکه د پېښو نومونه، مهال‌نښې، د ریکارډ حوالې او تخنیکي جزیات د سوداګرۍ فعالیت څرګندولی شي."
         }
       },
       "handler_or_behavior": "`exportMonitorCSV()`"
@@ -5041,7 +5329,7 @@
       "audit_ref": "INV-068",
       "element_id": null,
       "label": "Run Local Self-check",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Runs a local diagnostic check of the activity archive, IndexedDB health and app version.",
@@ -5058,6 +5346,78 @@
           "inputs": "ورودی فرمی لازم نیست. برای بررسی ذخیره‌سازی، IndexedDB باید در دسترس باشد.",
           "result": "نتایج بررسی بایگانی فعالیت‌ها، سلامت IndexedDB، نام پایگاه داده، نسخه برنامه و نشانگر هشدار یکپارچگی حسابداری نمایش داده می‌شوند.",
           "notes": "این گزینه ابزار تشخیصی است، نه ابزار تعمیر. داده‌ها را Reset، Restore یا مهاجرت نمی‌دهد. هر خطا یا هشدار را پیش از تغییر داده‌ها بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يجري فحصًا تشخيصيًا محليًا لأرشيف النشاط وصحة IndexedDB وإصدار التطبيق.",
+          "when": "استخدمه كفحص محلي سريع عند التحقيق في مشكلة بالتخزين أو التطبيق.",
+          "how": "اختر Run Local Self-check واقرأ كل عنصر في النتيجة المعروضة.",
+          "inputs": "لا يلزم إدخال شيء. يجب أن يكون IndexedDB متاحًا لإجراء فحوص التخزين.",
+          "result": "تُعرض نتائج فحص أرشيف النشاط وصحة IndexedDB واسم قاعدة البيانات وإصدار التطبيق وعلامة التحذير الخاصة بسلامة المحاسبة.",
+          "notes": "هذا فحص تشخيصي وليس أداة إصلاح. لا يعيد ضبط البيانات أو يستعيدها أو يرحّلها. تحقق من أي فشل أو تحذير قبل تغيير البيانات."
+        },
+        "ckb": {
+          "purpose": "پشکنینێکی تشخیصی ناوخۆیی بۆ ئەرشیفی چالاکی، تەندروستی IndexedDB و وەشانی ئەپ ئەنجام دەدات.",
+          "when": "وەک پشکنینێکی خێرای ناوخۆیی کاتێک کێشەی هەڵگرتن یان ئەپ لێکدەدەیتەوە، بەکاریبهێنە.",
+          "how": "Run Local Self-check هەڵبژێرە و هەر دانەیەک لە ئەنجامی پیشاندراو بخوێنەرەوە.",
+          "inputs": "هیچ زانیارییەک پێویست نییە. بۆ پشکنینی هەڵگرتن IndexedDB دەبێت بەردەست بێت.",
+          "result": "ئەنجامی پشکنینی ئەرشیفی چالاکی، تەندروستی IndexedDB، ناوی بنکەدراوە، وەشانی ئەپ و نیشاندەری ئاگاداریی یەکپارچەیی ژمێریاری پیشان دەدرێت.",
+          "notes": "ئەمە پشکنینی تشخیصییە، نەک ئامرازی چاککردنەوە. داتا Reset، Restore یان مهاجرت ناکات. پێش گۆڕینی داتا هەر شکستی یان ئاگادارییەک لێکۆڵینەوەی بۆ بکە."
+        },
+        "kmr": {
+          "purpose": "Kontroleke teşxîsê ya herêmî ji bo arşîva çalakiyê, tenduristiya IndexedDB û guhertoya sepanê dimeşîne.",
+          "when": "Wekî kontrola herêmî ya bilez dema ku pirsgirêkeke hilanînê an sepanê lêkolîn dikî, vê bikar bîne.",
+          "how": "Run Local Self-check hilbijêre û her tiştê di encama xuya de bixwîne.",
+          "inputs": "Tu agahî nehewce ye. Ji bo kontrolên hilanînê divê IndexedDB peyda be.",
+          "result": "Encamên kontrola arşîva çalakiyê, tenduristiya IndexedDB, navê danegehê, guhertoya sepanê û nîşana hişyariya yekparehiya hesabê tên nîşandan.",
+          "notes": "Ev kontrola teşxîsê ye, ne amûra tamîrê. Daneyan reset, restore an migrate nake. Berî guhertina daneyan her têkçûn an hişyariyekê lêkolîn bike."
+        },
+        "tr": {
+          "purpose": "Etkinlik arşivi, IndexedDB sağlığı ve uygulama sürümü için yerel bir tanılama denetimi çalıştırır.",
+          "when": "Depolama veya uygulama sorununu araştırırken hızlı bir yerel kontrol olarak kullanın.",
+          "how": "Run Local Self-check seçeneğini seçin ve görüntülenen sonuçtaki her öğeyi okuyun.",
+          "inputs": "Girdi gerekmez. Depolama kontrolleri için IndexedDB kullanılabilir olmalıdır.",
+          "result": "Etkinlik arşivi, IndexedDB sağlığı, veritabanı adı, uygulama sürümü ve muhasebe bütünlüğü uyarı bayrağı sonuçları gösterilir.",
+          "notes": "Bu bir tanılama kontrolüdür, onarım aracı değildir. Verileri sıfırlamaz, geri yüklemez veya taşımaz. Verileri değiştirmeden önce tüm başarısızlıkları veya uyarıları araştırın."
+        },
+        "pl": {
+          "purpose": "Uruchamia lokalną kontrolę diagnostyczną archiwum aktywności, stanu IndexedDB i wersji aplikacji.",
+          "when": "Użyj jako szybkiego lokalnego sprawdzenia podczas badania problemu z pamięcią lub aplikacją.",
+          "how": "Wybierz Run Local Self-check i przeczytaj każdy element wyświetlonego wyniku.",
+          "inputs": "Nie są wymagane żadne dane. Do kontroli pamięci IndexedDB musi być dostępne.",
+          "result": "Wyświetlane są wyniki kontroli archiwum aktywności, stanu IndexedDB, nazwy bazy danych, wersji aplikacji i flagi ostrzeżenia o integralności księgowości.",
+          "notes": "To kontrola diagnostyczna, a nie narzędzie naprawcze. Nie resetuje, nie przywraca ani nie migruje danych. Zbadaj wszystkie błędy lub ostrzeżenia przed zmianą danych."
+        },
+        "ur": {
+          "purpose": "سرگرمی کے آرکائیو، IndexedDB کی صحت اور ایپ ورژن کی مقامی تشخیصی جانچ چلاتا ہے۔",
+          "when": "اسٹوریج یا ایپ کے مسئلے کی تحقیق کرتے وقت فوری مقامی جانچ کے طور پر استعمال کریں۔",
+          "how": "Run Local Self-check منتخب کریں اور دکھائے گئے نتیجے کی ہر شے پڑھیں۔",
+          "inputs": "کسی معلومات کی ضرورت نہیں۔ اسٹوریج جانچ کے لیے IndexedDB دستیاب ہونا چاہیے۔",
+          "result": "سرگرمی آرکائیو، IndexedDB صحت، ڈیٹا بیس نام، ایپ ورژن اور اکاؤنٹنگ سالمیت کے انتباہی نشان کے نتائج دکھائے جاتے ہیں۔",
+          "notes": "یہ تشخیصی جانچ ہے، مرمت کا آلہ نہیں۔ یہ ڈیٹا ری سیٹ، بحال یا منتقل نہیں کرتا۔ ڈیٹا بدلنے سے پہلے ہر ناکامی یا تنبیہ کی تحقیق کریں۔"
+        },
+        "pa": {
+          "purpose": "ਸਰਗਰਮੀ ਆਰਕਾਈਵ, IndexedDB ਸਿਹਤ ਅਤੇ ਐਪ ਵਰਜਨ ਦੀ ਸਥਾਨਕ ਡਾਇਗਨੌਸਟਿਕ ਜਾਂਚ ਚਲਾਉਂਦਾ ਹੈ।",
+          "when": "ਸਟੋਰੇਜ ਜਾਂ ਐਪ ਸਮੱਸਿਆ ਦੀ ਜਾਂਚ ਕਰਦੇ ਸਮੇਂ ਤੁਰੰਤ ਸਥਾਨਕ ਜਾਂਚ ਵਜੋਂ ਵਰਤੋ।",
+          "how": "Run Local Self-check ਚੁਣੋ ਅਤੇ ਦਿਖਾਏ ਨਤੀਜੇ ਦੀ ਹਰ ਚੀਜ਼ ਪੜ੍ਹੋ।",
+          "inputs": "ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ। ਸਟੋਰੇਜ ਜਾਂਚਾਂ ਲਈ IndexedDB ਉਪਲਬਧ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।",
+          "result": "ਸਰਗਰਮੀ ਆਰਕਾਈਵ, IndexedDB ਸਿਹਤ, ਡਾਟਾਬੇਸ ਨਾਂ, ਐਪ ਵਰਜਨ ਅਤੇ ਅਕਾਊਂਟਿੰਗ ਅਖੰਡਤਾ ਚੇਤਾਵਨੀ ਫਲੈਗ ਦੇ ਨਤੀਜੇ ਦਿਖਾਏ ਜਾਂਦੇ ਹਨ।",
+          "notes": "ਇਹ ਡਾਇਗਨੌਸਟਿਕ ਜਾਂਚ ਹੈ, ਮੁਰੰਮਤ ਦਾ ਸਾਧਨ ਨਹੀਂ। ਇਹ ਡਾਟਾ ਰੀਸੈੱਟ, ਰੀਸਟੋਰ ਜਾਂ ਮਾਈਗ੍ਰੇਟ ਨਹੀਂ ਕਰਦਾ। ਡਾਟਾ ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ ਹਰ ਅਸਫਲਤਾ ਜਾਂ ਚੇਤਾਵਨੀ ਦੀ ਜਾਂਚ ਕਰੋ।"
+        },
+        "prs": {
+          "purpose": "یک بررسی تشخیصی محلی از بایگانی فعالیت‌ها، سلامت IndexedDB و نسخه برنامه اجرا می‌کند.",
+          "when": "برای بررسی سریع محلی هنگام پیگیری مشکل ذخیره‌سازی یا برنامه استفاده کنید.",
+          "how": "Run Local Self-check را انتخاب کنید و هر مورد نتیجه نمایش‌داده‌شده را بخوانید.",
+          "inputs": "ورودی لازم نیست. برای بررسی ذخیره‌سازی، IndexedDB باید در دسترس باشد.",
+          "result": "نتایج بررسی بایگانی فعالیت‌ها، سلامت IndexedDB، نام پایگاه داده، نسخه برنامه و نشانگر هشدار یکپارچگی حسابداری نمایش داده می‌شوند.",
+          "notes": "این گزینه بررسی تشخیصی است، نه ابزار تعمیر. داده‌ها را Reset، Restore یا مهاجرت نمی‌دهد. هر خطا یا هشدار را پیش از تغییر داده‌ها بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د فعالیتونو د ارشیف، د IndexedDB روغتیا او د اپ نسخې محلي تشخیصي کتنه ترسره کوي.",
+          "when": "د زېرمتون یا اپ د ستونزې د څېړلو پر مهال یې د چټکې محلي کتنې په توګه وکاروئ.",
+          "how": "Run Local Self-check وټاکئ او د ښودل شوې پایلې هر توکی ولولئ.",
+          "inputs": "معلوماتو ته اړتیا نشته. د زېرمتون د کتنو لپاره IndexedDB باید موجود وي.",
+          "result": "د فعالیتونو د ارشیف، IndexedDB روغتیا، د ډیټابېس نوم، د اپ نسخه او د حسابدارۍ د بشپړتیا د خبرداري نښې پایلې ښکاره کېږي.",
+          "notes": "دا تشخیصي کتنه ده، د ترمیم وسیله نه ده. معلومات نه Reset کوي، نه Restore او نه یې لېږدوي. د معلوماتو له بدلولو مخکې هره ناکامي یا خبرتیا وڅېړئ."
         }
       },
       "handler_or_behavior": "`runMonitorSelfCheck()`"
@@ -9588,8 +9948,8 @@
     }
   ],
   "content_progress": {
-    "completed_entries": 50,
-    "draft_entries": 179,
+    "completed_entries": 55,
+    "draft_entries": 174,
     "pending_entries": 0,
     "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written."
   }
