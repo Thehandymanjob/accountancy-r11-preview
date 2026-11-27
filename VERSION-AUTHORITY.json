@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261127-R59",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R59",
-    "indexBlobSha": "876a2037e6eca021cd0ac807d63bfb65d10bc749",
+    "buildId": "THA-273-R11-PREVIEW-20261127-R60",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R60",
+    "indexBlobSha": "facc744a955a6987597de095c87c0e94726fd0f3",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,11 +30,11 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "876a2037e6eca021cd0ac807d63bfb65d10bc749",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "facc744a955a6987597de095c87c0e94726fd0f3",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js": "3bb8f23c9fec1e613b10ee53a35d290853eb4edc"
+      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js": "d75754a1a8c1ea2cb6bef9365b9450bd19be04f0"
     }
   },
   "rules": {
@@ -2541,6 +2541,51 @@
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
         "details": "Six completed Help topics use exact selectors scoped to Contracts workspace/form, Profile & Logo and the User Guide contact form. No original contract, PDF, profile, logo or support-message logic was changed. Manual Git-tree comparison confirms all Registry/Inventory/content/runtime/index baselines match. Live browser tests remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting an authorized Preview deployment and real browser/iPhone Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continued prioritised Help ID connections. This does not authorize deployment, merge or Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-LAUNCHER-ACCOUNTANCY-NAV-R60-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Connect ten completed User Guide topics to the four Main Menu destinations and six Accountancy home destinations using exact parent-scoped navigation selectors.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "6d3e0de97ade49f96d94a574caf223752f23fe14",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PENDING",
+        "runId": "pending",
+        "url": "pending",
+        "details": "R60 requires a fresh Version Authority Gate against the final R60 Build ID, canonical URL, index SHA and all 24 runtime asset pins."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Ten completed Help topics use exact selectors scoped to #appLauncher and #accountancyHome. All navigation destinations are matched by their literal handler arguments. No page routing or accountancy behavior was changed. Live browser tests remain pending."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
