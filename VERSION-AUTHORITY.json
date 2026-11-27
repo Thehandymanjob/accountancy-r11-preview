@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261127-R63",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R63",
-    "indexBlobSha": "6d6e2e5ef7b146eccacfdd69e4fa5741b588a299",
+    "buildId": "THA-273-R11-PREVIEW-20261127-R64",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R64",
+    "indexBlobSha": "e02488ee50974dfd0511d97f3d2be95a9ffc2528",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,11 +30,11 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "6d6e2e5ef7b146eccacfdd69e4fa5741b588a299",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "e02488ee50974dfd0511d97f3d2be95a9ffc2528",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js": "072cc4a8cd387f8620fa807fb00a80b7e0c6dcae"
+      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js": "0d0b03909c52b48f64ff67607c47865c220fae8f"
     }
   },
   "rules": {
@@ -2853,6 +2853,51 @@
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
         "details": "Nine data-help-id attributes were added to pagination, receipt preview, record Edit/Delete/View and customer Edit/New Invoice/Delete templates. Existing MutationObserver handles inserted nodes. Mapping records 127 connected Help IDs (113 static and 14 dynamic-template). Check for Updates is explicitly disabled and excluded; four PDF controls remain in separate-document scope. Manual Git-tree checks confirm Registry, Inventory, Help content, runtime and index baselines match. Live browser tests remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting an authorized Preview deployment and real browser/iPhone Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continued Help connection work. This does not authorize deployment, merge or Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-PDF-POPUP-BRIDGES-R64-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Attach four completed contextual Help topics to the two generated PDF popup documents through an opener bridge to the main app's Help Runtime.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "e34fff75e6a211bceccf722f22ea6d160bf45388",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PENDING",
+        "runId": "pending",
+        "url": "pending",
+        "details": "R64 requires a fresh Version Authority Gate against the R64 Build ID, canonical URL, index SHA and all 24 runtime asset pins."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Four Help buttons were added to the generated PDF popup documents. Each invokes the opener's THAHelpRuntime.open(helpId), focuses the main app and has a fallback status message. The Help button is independent of the PDF action. Mapping records 131 connected Help IDs (113 static, 14 dynamic-template, four PDF bridges). Live popup/browser tests remain pending."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
