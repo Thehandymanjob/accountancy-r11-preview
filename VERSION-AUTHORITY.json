@@ -48,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "R51 fixes the missing separator in the 27-entry static Help binding table and adds a fail-closed structural guard. R50's 32 adjacent Help controls and hidden-state synchronization are retained. R11 Version Authority Gate and simulated DOM checks are required; real Preview browser verification remains pending. No deployment or Production promotion is authorized.",
+  "note": "R51 fixes and structurally validates the 27-entry static Help binding table. The 32 adjacent Help controls pass simulated DOM smoke checks. R11 Version Authority Gate PASS: run 46068792430 (24 pinned runtime assets). Real Preview browser/iPhone verification remains pending; no deployment or Production promotion is authorized.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {
