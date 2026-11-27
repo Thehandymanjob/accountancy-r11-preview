@@ -2581,7 +2581,7 @@
         "result": "PASS",
         "runId": 46070971042,
         "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070971042",
-        "details": "R60 cumulative Version Authority Gate passed on the R60 PR head before the R61 duplicate-binding cleanup. R61 Gate will validate the consolidated runtime and all current pins."
+        "details": "R60 cumulative Version Authority Gate passed on the synchronized R60 PR head. Repository/branch identity, R60 Build ID, canonical URL, index SHA and all 24 asset pins matched. R61 subsequently consolidated two duplicate static bindings."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
@@ -2626,7 +2626,7 @@
         "result": "PASS",
         "runId": 46070971042,
         "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070971042",
-        "details": "R60 cumulative Version Authority Gate passed on the R60 PR head before the R61 duplicate-binding cleanup. R61 Gate will validate the consolidated runtime and all current pins."
+        "details": "R60 cumulative Version Authority Gate passed on the synchronized R60 PR head. Repository/branch identity, R60 Build ID, canonical URL, index SHA and all 24 asset pins matched. R61 subsequently consolidated two duplicate static bindings."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
@@ -2668,11 +2668,11 @@
         "result": "PENDING",
         "runId": "pending",
         "url": "pending",
-        "details": "R61 requires a fresh Version Authority Gate against the final R61 Build ID, canonical URL, index SHA and all 24 runtime asset pins."
+        "details": "R61 requires a fresh Version Authority Gate against the deduplicated runtime, R61 Build ID, canonical URL, index SHA and all 24 runtime asset pins."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
-        "details": "The two duplicate Contract bindings were consolidated; the runtime now has 92 static binding rows with 92 unique Help IDs, plus five dynamic-template bindings. Mapping summary now records 97 total Help IDs, 92 static, 74 scoped selectors, 13 exact-ID selectors and five scoped unique-handler selectors. Registry/content/runtime/index baselines require final tree and Gate verification. Live browser tests remain pending."
+        "details": "The two duplicate Contract bindings were consolidated; the runtime now has 92 static binding rows with 92 unique Help IDs, plus five dynamic-template bindings. Mapping summary records 97 total Help IDs, 92 static, 74 scoped selectors, 13 exact-ID selectors and five scoped unique-handler selectors. Registry/content/runtime/index baselines are being synchronized for R61. Live browser tests remain pending."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
