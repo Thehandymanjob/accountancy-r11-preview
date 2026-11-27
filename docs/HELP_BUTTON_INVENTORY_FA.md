@@ -24,12 +24,12 @@
 | INV-002 | — | 💼 Business Workspace Projects, Company Contracts & Jobs, and Control Panel › | `openProjectsApp()` | HELP-REQUIRED |
 | INV-003 | — | 📝 Contract Management Create, edit and manage contracts and quotations › | `openContractsApp()` | HELP-REQUIRED |
 | INV-004 | — | ⚙️ Settings Backup, restore, profile and logo › | `openSettingsHub()` | HELP-REQUIRED |
-| INV-005 | ctGlobalBack | ← Back | `ctHandleBack()` | EXEMPT-CANDIDATE |
+| INV-005 | ctGlobalBack | ← Back | `ctHandleBack()` | EXEMPT |
 | INV-006 | — | ＋ New Contract | `ctNew()` | HELP-REQUIRED |
 | INV-007 | — | 💾 Save Contract | `ctSave()` | HELP-REQUIRED |
 | INV-008 | — | ✦ Help me write with ChatGPT | `ctOpenChatGPT()` | HELP-REQUIRED |
 | INV-009 | — | 🖨️ Preview / Print / Save PDF | `ctPrint()` | HELP-REQUIRED |
-| INV-010 | — | ← Back to Main Menu | `returnToLauncher()` | EXEMPT-CANDIDATE |
+| INV-010 | — | ← Back to Main Menu | `returnToLauncher()` | EXEMPT |
 | INV-011 | — | ▦ Dashboard Financial overview and balances › | `show(` | HELP-REQUIRED |
 | INV-012 | — | ＋ Add Entry Record income or expenses › | `show(` | HELP-REQUIRED |
 | INV-013 | — | ▤ Records Find and manage transactions › | `show(` | HELP-REQUIRED |
@@ -42,7 +42,7 @@
 | INV-020 | — | 🧾 Invoices | `show(` | HELP-REQUIRED |
 | INV-021 | — | 👥 Customers | `show(` | HELP-REQUIRED |
 | INV-022 | — | 🖨️ Reports | `show(` | HELP-REQUIRED |
-| INV-023 | — | ← Back | `goBackOnePage()` | EXEMPT-CANDIDATE |
+| INV-023 | — | ← Back | `goBackOnePage()` | EXEMPT |
 | INV-024 | — | Refresh | `refreshAll()` | HELP-REQUIRED |
 | INV-025 | — | Set period (13th–12th) | `setPeriod()` | HELP-REQUIRED |
 | INV-026 | categoryPickerButton | Select a category ⌄ | `toggleCategoryMenu()` | HELP-REQUIRED |
@@ -50,32 +50,32 @@
 | INV-028 | entryReceiptRemove | Remove photo | `clearEntryReceipt()` | HELP-REQUIRED |
 | INV-029 | — | Save Entry | `saveEntry()` | HELP-REQUIRED |
 | INV-030 | — | Clear Form | `resetEntry()` | HELP-REQUIRED |
-| INV-031 | — | ← Back to category list | `cancelExpenseCategoryAddScreen()` | EXEMPT-CANDIDATE |
+| INV-031 | — | ← Back to category list | `cancelExpenseCategoryAddScreen()` | EXEMPT |
 | INV-032 | — | Add to list | `saveExpenseCategory()` | HELP-REQUIRED |
-| INV-033 | — | Cancel | `cancelExpenseCategoryAddScreen()` | EXEMPT-CANDIDATE |
+| INV-033 | — | Cancel | `cancelExpenseCategoryAddScreen()` | EXEMPT |
 | INV-034 | — | ＋ New Invoice | `newInvoice()` | HELP-REQUIRED |
-| INV-035 | — | ← Back to Invoices | `cancelInvoiceEdit()` | EXEMPT-CANDIDATE |
+| INV-035 | — | ← Back to Invoices | `cancelInvoiceEdit()` | EXEMPT |
 | INV-036 | — | Save Invoice | `saveInvoice()` | HELP-REQUIRED |
 | INV-037 | — | Save & Print / PDF | `saveAndPrintInvoice()` | HELP-REQUIRED |
 | INV-038 | — | Save Customer | `saveCustomer()` | HELP-REQUIRED |
 | INV-039 | — | Clear Form | `resetCustomerForm()` | HELP-REQUIRED |
-| INV-040 | — | ← Back | `report188Back()` | EXEMPT-CANDIDATE |
+| INV-040 | — | ← Back | `report188Back()` | EXEMPT |
 | INV-041 | — | 📄 Prepare a report Predefined reporting periods and report generation | `report188Navigate(` | HELP-REQUIRED |
 | INV-042 | — | 🗂️ Saved reports archive Open previous report snapshots | `report188Navigate(` | HELP-REQUIRED |
 | INV-043 | — | 🔔 Notifications inbox Titles only; tap a notification to read it | `report188Navigate(` | HELP-REQUIRED |
 | INV-044 | — | 🗓️ Tax calendar Upcoming and past deadlines | `report188Navigate(` | HELP-REQUIRED |
 | INV-045 | — | ✉️ Accountant email Recipient settings and sending status | `report188Navigate(` | HELP-REQUIRED |
-| INV-046 | — | ← Back | `report188Back()` | EXEMPT-CANDIDATE |
+| INV-046 | — | ← Back | `report188Back()` | EXEMPT |
 | INV-047 | — | Print Preview | `printReport()` | HELP-REQUIRED |
 | INV-048 | — | Confirm records complete | `report188ConfirmComplete()` | HELP-REQUIRED |
 | INV-049 | — | Check reminders now | `report188CheckDue()` | HELP-REQUIRED |
-| INV-050 | — | ← Back | `report188Back()` | EXEMPT-CANDIDATE |
-| INV-051 | — | ← Back | `report188Back()` | EXEMPT-CANDIDATE |
-| INV-052 | — | ← Back | `report188Back()` | EXEMPT-CANDIDATE |
-| INV-053 | — | ← Back | `report188Back()` | EXEMPT-CANDIDATE |
+| INV-050 | — | ← Back | `report188Back()` | EXEMPT |
+| INV-051 | — | ← Back | `report188Back()` | EXEMPT |
+| INV-052 | — | ← Back | `report188Back()` | EXEMPT |
+| INV-053 | — | ← Back | `report188Back()` | EXEMPT |
 | INV-054 | — | Confirm records complete for selected period | `report188ConfirmComplete()` | HELP-REQUIRED |
 | INV-055 | — | Check reminders now | `report188CheckDue()` | HELP-REQUIRED |
-| INV-056 | — | ← Back | `report188Back()` | EXEMPT-CANDIDATE |
+| INV-056 | — | ← Back | `report188Back()` | EXEMPT |
 | INV-057 | — | Save recipient details | `report188SaveEmailSettings()` | HELP-REQUIRED |
 | INV-058 | fullBackupButton | Backup | `fullDatabaseBackup()` | HELP-REQUIRED |
 | INV-059 | fullRestoreButton | Restore | `chooseFullDatabaseRestore()` | HELP-REQUIRED |
@@ -88,7 +88,7 @@
 | INV-066 | — | Run Full Storage Audit (Read-only) | `runFullStorageAudit()` | HELP-REQUIRED |
 | INV-067 | — | Export Activity Log (CSV) | `exportMonitorCSV()` | HELP-REQUIRED |
 | INV-068 | — | Run Local Self-check | `runMonitorSelfCheck()` | HELP-REQUIRED |
-| INV-069 | — | ← Back | `goBackOnePage()` | EXEMPT-CANDIDATE |
+| INV-069 | — | ← Back | `goBackOnePage()` | EXEMPT |
 | INV-070 | — | 💾 Backup & Restore Separate backups for each data area | `show(` | HELP-REQUIRED |
 | INV-071 | — | ❓ Help Choose the language for the User Guide | `show(` | HELP-REQUIRED |
 | INV-072 | — | 👤 Profile & Logo Business details and business logo | `show(` | HELP-REQUIRED |
@@ -96,13 +96,13 @@
 | INV-074 | — | 🔄 Software Update Check and install the latest version | `show(` | HELP-REQUIRED |
 | INV-075 | — | 🛡️ Monitor & Diagnostics Activity archive, errors, data integrity and developer report | `show(` | HELP-REQUIRED |
 | INV-076 | — | ⚠️ Factory Reset Convert approved backup and safely restore all data | `show(` | HELP-REQUIRED |
-| INV-077 | — | ← Back to Settings | `show(` | EXEMPT-CANDIDATE |
+| INV-077 | — | ← Back to Settings | `show(` | EXEMPT |
 | INV-078 | — | Open Secure Reset | `openFactoryReset()` | HELP-REQUIRED |
 | INV-079 | factoryResetConvertButton | Validate and Convert Backup | `event/property listener` | HELP-REQUIRED |
 | INV-080 | factoryResetEmergencyButton | Download Emergency Snapshot | `event/property listener` | HELP-REQUIRED |
 | INV-081 | factoryResetNext | I Understand — Continue | `factoryResetNextStep()` | HELP-REQUIRED |
 | INV-082 | factoryResetFinalButton | Reset and Restore All Data | `event/property listener` | HELP-REQUIRED |
-| INV-083 | — | Cancel | `closeFactoryReset()` | EXEMPT-CANDIDATE |
+| INV-083 | — | Cancel | `closeFactoryReset()` | EXEMPT |
 | INV-084 | — | Save Profile | `prSaveProfile()` | HELP-REQUIRED |
 | INV-085 | — | Remove Logo | `prRemoveLogo()` | HELP-REQUIRED |
 | INV-086 | — | Save Support Message | `event/property listener` | HELP-REQUIRED |
@@ -113,7 +113,7 @@
 | INV-091 | — | 📁 Projects | `prPage(` | HELP-REQUIRED |
 | INV-092 | — | 🏢 Company Contracts & Jobs | `prPage(` | HELP-REQUIRED |
 | INV-093 | — | ⚙️ Control Panel | `prPage(` | HELP-REQUIRED |
-| INV-094 | — | ← Back to Main Menu | `returnToLauncher()` | EXEMPT-CANDIDATE |
+| INV-094 | — | ← Back to Main Menu | `returnToLauncher()` | EXEMPT |
 | INV-095 | — | 📁 Projects New Project, Projects List and Project Profit & Loss | `prPage(` | HELP-REQUIRED |
 | INV-096 | — | 🏢 Company Contracts & Jobs Companies, contracts, company projects, sub-projects and payments | `prOpenCompanyHubFromWorkspace()` | HELP-REQUIRED |
 | INV-097 | — | ⚙️ Control Panel Manage shared Partners, Workers, Contractors, companies and future settings | `prPage(` | HELP-REQUIRED |
@@ -154,12 +154,12 @@
 | INV-132 | — | Clear | `coResetSub()` | HELP-REQUIRED |
 | INV-133 | — | Add Expense | `coAddPackageExpense()` | HELP-REQUIRED |
 | INV-134 | — | Record Payment | `coRecordPayment()` | HELP-REQUIRED |
-| INV-135 | — | Cancel | `closeInvoicePaidModal()` | EXEMPT-CANDIDATE |
+| INV-135 | — | Cancel | `closeInvoicePaidModal()` | EXEMPT |
 | INV-136 | — | Confirm payment | `confirmInvoicePaid()` | HELP-REQUIRED |
 | INV-137 | — | ‹ Previous | `changeListPage(` | HELP-REQUIRED |
 | INV-138 | — | ${p} | `changeListPage(` | HELP-REQUIRED |
 | INV-139 | — | =pages?'disabled':''} onclick="changeListPage('${key}',${page+1},'${renderer}')">Next › | `event/property listener` | HELP-REQUIRED |
-| INV-140 | — | ← Back to '+esc(label)+' | `goBackOnePage()` | EXEMPT-CANDIDATE |
+| INV-140 | — | ← Back to '+esc(label)+' | `goBackOnePage()` | EXEMPT |
 | INV-141 | — | '+esc(expenseCategoryLabel(x,g.id))+' | `chooseCategoryFromButton(this)` | HELP-REQUIRED |
 | INV-142 | — | ＋ Add New One | `openExpenseCategoryAddScreen(this.dataset.addGroup)` | HELP-REQUIRED |
 | INV-143 | — | 📎 View receipt | `openReceiptImage(document.getElementById(` | HELP-REQUIRED |
@@ -171,21 +171,21 @@
 | INV-149 | — | Delete | `deleteEntry(\` | HELP-REQUIRED |
 | INV-150 | — | View | `viewRecordInvoice(\` | HELP-REQUIRED |
 | INV-151 | — | View | `viewRecordEntry(\` | HELP-REQUIRED |
-| INV-152 | — | Close | `document.getElementById(\` | EXEMPT-CANDIDATE |
-| INV-153 | — | × | `window.close()` | EXEMPT-CANDIDATE |
+| INV-152 | — | Close | `document.getElementById(\` | EXEMPT |
+| INV-153 | — | × | `window.close()` | EXEMPT |
 | INV-154 | — | ↥ Share PDF | `shareReportPdf()` | HELP-REQUIRED |
 | INV-155 | makePdf | Create PDF | `createPDF()` | HELP-REQUIRED |
 | INV-156 | downloadPdf | Download PDF | `downloadPDF()` | HELP-REQUIRED |
 | INV-157 | sharePdf | ↗ Share PDF | `sharePDF()` | HELP-REQUIRED |
-| INV-158 | — | × | `window.close()` | EXEMPT-CANDIDATE |
+| INV-158 | — | × | `window.close()` | EXEMPT |
 | INV-159 | — | Edit | `editCustomer(` | HELP-REQUIRED |
 | INV-160 | — | New invoice | `newInvoiceForCustomer(` | HELP-REQUIRED |
 | INV-161 | — | Delete | `deleteCustomer(` | HELP-REQUIRED |
-| INV-162 | — | Back to Records | `show(&quot;records&quot;)` | EXEMPT-CANDIDATE |
+| INV-162 | — | Back to Records | `show(&quot;records&quot;)` | EXEMPT |
 | INV-163 | — | Open print view | `openInvoicePrintView()` | HELP-REQUIRED |
-| INV-164 | — | Back to invoices | `document.body.classList.remove(\` | EXEMPT-CANDIDATE |
-| INV-165 | — | ← Back | `thaBackInvoicePdf()` | EXEMPT-CANDIDATE |
-| INV-166 | — | × | `thaCloseInvoicePdf()` | EXEMPT-CANDIDATE |
+| INV-164 | — | Back to invoices | `document.body.classList.remove(\` | EXEMPT |
+| INV-165 | — | ← Back | `thaBackInvoicePdf()` | EXEMPT |
+| INV-166 | — | × | `thaCloseInvoicePdf()` | EXEMPT |
 | INV-167 | — | ↗ Share PDF | `thaShareInvoicePdf()` | HELP-REQUIRED |
 | INV-168 | — | Mark unpaid | `markInvoiceUnpaid(` | HELP-REQUIRED |
 | INV-169 | — | Mark paid | `recordInvoicePayment(` | HELP-REQUIRED |
@@ -209,8 +209,8 @@
 | INV-187 | — | 📎 ${coEsc(e.file.name)} | `coOpenPackageExpense(` | HELP-REQUIRED |
 | INV-188 | — | Delete | `coDeletePackageExpense(` | HELP-REQUIRED |
 | INV-189 | — | 📎 Open | `coOpenAttachment(` | HELP-REQUIRED |
-| INV-190 | — | ← Back to Main Menu | `returnToLauncher()` | EXEMPT-CANDIDATE |
-| INV-191 | — | ← Back to ${backLabel} | `${name===` | EXEMPT-CANDIDATE |
+| INV-190 | — | ← Back to Main Menu | `returnToLauncher()` | EXEMPT |
+| INV-191 | — | ← Back to ${backLabel} | `${name===` | EXEMPT |
 | INV-192 | — | Remove | `this.closest(` | HELP-REQUIRED |
 | INV-193 | prSaveSubEditBtn | Save Changes | `prSaveSubprojectEdit()` | HELP-REQUIRED |
 | INV-194 | — | Edit | `prEditUnifiedCost(` | HELP-REQUIRED |
@@ -225,23 +225,23 @@
 | INV-203 | — | Edit | `prEditSubFinanceRow(` | HELP-REQUIRED |
 | INV-204 | — | Delete | `prDeleteSubFinanceRow(` | HELP-REQUIRED |
 | INV-205 | receiptPdfButton | 📄 Generate PDF / Print | `receiptPrint()` | HELP-REQUIRED |
-| INV-206 | — | Close receipt | `window.close()` | EXEMPT-CANDIDATE |
+| INV-206 | — | Close receipt | `window.close()` | EXEMPT |
 | INV-207 | — | ↗ Share PDF | `shareReceiptPdf()` | HELP-REQUIRED |
 | INV-208 | — | Print | `window.open(window.receiptPdfUrl,` | HELP-REQUIRED |
-| INV-209 | — | Close | `prCloseSubReportPreview()` | EXEMPT-CANDIDATE |
+| INV-209 | — | Close | `prCloseSubReportPreview()` | EXEMPT |
 | INV-210 | — | Generate PDF | `prRunSubReportPrint()` | HELP-REQUIRED |
-| INV-211 | — | Close | `prCloseSubReportPreview()` | EXEMPT-CANDIDATE |
+| INV-211 | — | Close | `prCloseSubReportPreview()` | EXEMPT |
 | INV-212 | — | Generate PDF | `prRunSubReportPrint()` | HELP-REQUIRED |
 | INV-213 | — | ↗ Share PDF | `prShareSubReportPDF()` | HELP-REQUIRED |
 | INV-214 | — | × | `prRestoreReportPreview()` | HELP-REQUIRED |
-| INV-215 | — | ← Back to Sub-projects | `prBackToSubprojects()` | EXEMPT-CANDIDATE |
+| INV-215 | — | ← Back to Sub-projects | `prBackToSubprojects()` | EXEMPT |
 | INV-216 | — | Income | `prRenderSubFinance(` | HELP-REQUIRED |
 | INV-217 | — | Expenses | `prRenderSubFinance(` | HELP-REQUIRED |
 | INV-218 | — | Report | `prRenderSubFinance(` | HELP-REQUIRED |
 | INV-219 | — | ＋ Add Sub-project | `prOpenSubprojectForm()` | HELP-REQUIRED |
 | INV-220 | — | Edit | `event.stopPropagation();prOpenSubproject(` | HELP-REQUIRED |
 | INV-221 | — | ＋ Add Sub-project | `prEnableSubprojectsAndAdd()` | HELP-REQUIRED |
-| INV-222 | — | ← Back | `prBackToSubprojects()` | EXEMPT-CANDIDATE |
+| INV-222 | — | ← Back | `prBackToSubprojects()` | EXEMPT |
 | INV-223 | prAddSubprojectBtn | ＋ Add Sub-project | `prAddSubproject()` | HELP-REQUIRED |
 | INV-224 | — | Print / Save PDF | `window.print()` | HELP-REQUIRED |
 | INV-225 | — | 📋 Worker List — Choose Worker | `prOpenWorkerListPicker()` | HELP-REQUIRED |
@@ -249,7 +249,7 @@
 | INV-227 | — | Clear | `prClearRowForm()` | HELP-REQUIRED |
 | INV-228 | — | Edit | `prEditRow(` | HELP-REQUIRED |
 | INV-229 | — | Delete | `prDeleteRow(` | HELP-REQUIRED |
-| INV-230 | — | × | `prCloseWorkerListPicker()` | EXEMPT-CANDIDATE |
+| INV-230 | — | × | `prCloseWorkerListPicker()` | EXEMPT |
 | INV-231 | ${prEscape(w.id)} | ${prEscape(w.name\|\|'Unnamed worker')} ${w.phone?` ${prEscape(w.phone)} `:''} ${select.value===String(w.id)?'✓':'›'} | `prChooseWorkerFromList(this.dataset.workerId)` | HELP-REQUIRED |
 | INV-232 | — | Done | `prCloseWorkerListPicker()` | HELP-REQUIRED |
 | INV-233 | — | Manage Workers | `prPage(\` | HELP-REQUIRED |
@@ -264,10 +264,10 @@
 | INV-242 | generateBtn | ${L.generate} | `ctGeneratePDF()` | HELP-REQUIRED |
 | INV-243 | printBtn | Open PDF | `ctPrintPDF()` | HELP-REQUIRED |
 | INV-244 | shareBtn | ↗ Share PDF | `ctSharePDF()` | HELP-REQUIRED |
-| INV-245 | — | ${L.close} | `ctPreviewClose()` | EXEMPT-CANDIDATE |
+| INV-245 | — | ${L.close} | `ctPreviewClose()` | EXEMPT |
 | INV-246 | — | ${L.back} | `history.back()` | HELP-REQUIRED |
-| INV-247 | — | Close ✕ | `closeReceiptImage()` | EXEMPT-CANDIDATE |
-| INV-248 | — | Cancel | `cancelReceiptCrop()` | EXEMPT-CANDIDATE |
+| INV-247 | — | Close ✕ | `closeReceiptImage()` | EXEMPT |
+| INV-248 | — | Cancel | `cancelReceiptCrop()` | EXEMPT |
 | INV-249 | — | Use full image | `useFullReceiptImage()` | HELP-REQUIRED |
 | INV-250 | — | Save cropped photo | `applyReceiptCrop()` | HELP-REQUIRED |
 | INV-251 | — | Copy version details | `copyMonitorVersionInfo()` | HELP-REQUIRED |
@@ -277,14 +277,14 @@
 | INV-255 | — | =pages?'disabled':''} onclick="monitorPage++;renderMonitor()">Next › | `event/property listener` | HELP-REQUIRED |
 | INV-256 | — | Hidden placeholder (not user-facing) | `GenUINotUsed` | EXEMPT |
 | INV-257 | monitorCopyEvent | Copy JSON | `event/property listener` | HELP-REQUIRED |
-| INV-258 | monitorCloseEvent | Close | `event/property listener` | EXEMPT-CANDIDATE |
+| INV-258 | monitorCloseEvent | Close | `event/property listener` | EXEMPT |
 | INV-259 | — | Open saved report | `report188Open(` | HELP-REQUIRED |
 | INV-260 | — | Print / PDF | `report188Print(` | HELP-REQUIRED |
 | INV-261 | — | Update status | `report188RenameStatus(` | HELP-REQUIRED |
 | INV-262 | — | ${n.read?'○':'●'} ${esc(n.title)} ${new Date(n.createdAt).toLocaleDateString('en-GB')} › | `report188OpenNotification(` | HELP-REQUIRED |
 | INV-263 | — | Mark as ${n.read?'unread':'read'} | `report188ToggleReadFromDetail(` | HELP-REQUIRED |
 | INV-264 | — | Print / Save PDF | `report188Print(` | HELP-REQUIRED |
-| INV-265 | — | Close saved report | `document.getElementById(` | EXEMPT-CANDIDATE |
+| INV-265 | — | Close saved report | `document.getElementById(` | EXEMPT |
 | INV-266 | eiwClose | Return to form | `event/property listener` | HELP-REQUIRED |
 
 ## کنترل‌های ساخته‌شده با DOM API
@@ -296,13 +296,13 @@
 | INV-267 | `.unified-dropdown-trigger` | متن گزینه انتخاب‌شده / placeholder | باز و بسته کردن فهرست انتخاب بومی‌شده از روی یک select موجود | HELP-REQUIRED |
 | INV-268 | `.unified-dropdown-option` | متن هر گزینه از select | انتخاب مقدار و dispatch رویداد change؛ برای هر گزینه نمونه جداگانه ساخته می‌شود | HELP-REQUIRED |
 
-بنابراین baseline فعلی ۲۶۸ نوع/عنصر قابل ممیزی دارد: ۲۲۹ HELP-REQUIRED و ۳۹ EXEMPT-CANDIDATE. بازبینی دستی وضعیت اولیه ۳۵ نامزد را تکمیل کرد؛ ۳۴ مورد از نامزدهای قبلی تأیید شدند و `INV-268` به دلیل تغییر مقدار فیلد به HELP-REQUIRED ارتقا یافت. پنج مورد از طبقه‌بندی قبلی HELP-REQUIRED نیز پس از بررسی رفتار واقعی به استثنای بستن/خروجی تبدیل شدند: `INV-153`, `INV-158`, `INV-166`, `INV-230`, `INV-245`. این شمارش، تعداد کل نمونه‌های زمان اجرا را بیان نمی‌کند؛ تعداد گزینه‌های dropdown بر اساس داده و صفحه تغییر می‌کند.
+بنابراین baseline فعلی ۲۶۸ نوع/عنصر قابل ممیزی دارد: ۲۲۸ HELP-REQUIRED و ۴۰ EXEMPT. از ۳۵ نامزد اولیه، ۳۴ مورد به‌عنوان استثنا تأیید شدند و `INV-268` به دلیل تغییر مقدار فیلد به HELP-REQUIRED ارتقا یافت. پنج کنترل دیگر نیز پس از بررسی رفتار واقعی به استثنای بستن/خروجی تبدیل شدند: `INV-153`, `INV-158`, `INV-166`, `INV-230`, `INV-245`. این شمارش، تعداد کل نمونه‌های زمان اجرا را بیان نمی‌کند؛ تعداد گزینه‌های dropdown بر اساس داده و صفحه تغییر می‌کند.
 
 ## تکمیل موردنیاز
 
-1. بازبینی دستی نامزدهای اولیه تکمیل شد؛ ۳۹ استثنا با رفتار واقعی Back / Cancel / Close تأیید شدند. این معافیت فقط برای کنترل‌های dismiss/navigation است و به سایر کنترل‌های همان پنجره تعمیم ندارد.
-2. بازبینی ۲۲۹ `HELP-REQUIRED` و تفکیک handlerهای مشترک بر اساس پارامتر و label.
-3. تخصیص ۲۲۹ شناسه immutable به ردیف‌های Help-Required در سند پیش‌نویس `docs/HELP_ID_REGISTRY_DRAFT.json` انجام شد؛ این شناسه‌ها هنوز به runtime متصل نیستند و محتوا/ترجمه آن‌ها pending است.
+1. بازبینی دستی ۳۹ نامزد اولیه تکمیل شد؛ همه آن‌ها به‌عنوان EXEMPT تأیید شدند. به‌علاوه `INV-256` یک placeholder مخفی و غیرقابل استفاده است و به‌عنوان EXEMPT ثبت شده است؛ در مجموع ۴۰ استثنا وجود دارد.
+2. بازبینی ۲۲۸ مورد فعال `HELP-REQUIRED` و تفکیک handlerهای مشترک بر اساس پارامتر و label.
+3. تعداد ۲۲۹ شناسه immutable تخصیص یافته است؛ ۲۲۸ شناسه به کنترل‌های فعال Help-Required مربوط‌اند و `THA-HLP-0219` فقط به‌عنوان شناسه بازنشسته برای ردگیری `INV-256` حفظ شده است. هیچ شناسه‌ای دوباره استفاده نمی‌شود.
 4. نوشتن شش فیلد واقعی برای هر ID در تمام ۱۱ زبان فعلی راهنما؛ زبان رابط اصلی برنامه همچنان انگلیسی/LTR است.
 5. اتصال IDها به دکمه‌های ثابت و قالب‌های پویا و افزودن تست خودکار پوشش و یکتایی.
 6. بررسی listener دکمه‌های فاقد onclick.
@@ -310,20 +310,20 @@
 
 ## نتیجه بازبینی دستی استثناها — 2026-11-26
 
-- **۳۹ مورد تأییدشده به‌عنوان استثنا:** `INV-005`, `INV-010`, `INV-023`, `INV-031`, `INV-033`, `INV-035`, `INV-040`, `INV-046`, `INV-050`, `INV-051`, `INV-052`, `INV-053`, `INV-056`, `INV-069`, `INV-077`, `INV-083`, `INV-094`, `INV-135`, `INV-140`, `INV-152`, `INV-153`, `INV-158`, `INV-162`, `INV-164`, `INV-165`, `INV-166`, `INV-190`, `INV-191`, `INV-206`, `INV-209`, `INV-211`, `INV-215`, `INV-222`, `INV-230`, `INV-245`, `INV-247`, `INV-248`, `INV-258`, `INV-265`.
+- **۳۹ کنترل تأییدشده به‌عنوان استثناهای Back / Cancel / Close:** `INV-005`, `INV-010`, `INV-023`, `INV-031`, `INV-033`, `INV-035`, `INV-040`, `INV-046`, `INV-050`, `INV-051`, `INV-052`, `INV-053`, `INV-056`, `INV-069`, `INV-077`, `INV-083`, `INV-094`, `INV-135`, `INV-140`, `INV-152`, `INV-153`, `INV-158`, `INV-162`, `INV-164`, `INV-165`, `INV-166`, `INV-190`, `INV-191`, `INV-206`, `INV-209`, `INV-211`, `INV-215`, `INV-222`, `INV-230`, `INV-245`, `INV-247`, `INV-248`, `INV-258`, `INV-265`.
 - **اصلاح مرز استثنا:** `INV-268` گزینه پویا برای انتخاب مقدار از select است و به‌دلیل تغییر state، Help-Required شد. `INV-230` فقط بستن فهرست انتخاب کارگر است؛ `INV-232` دکمه Done باقی می‌ماند Help-Required چون پایان مرحله انتخاب را تأیید می‌کند.
 - **اصلاح موارد Close:** `INV-153`, `INV-158`, `INV-166`, `INV-245` فقط PDF preview/window را می‌بندند و داده یا سند را تغییر نمی‌دهند؛ بنابراین استثنا شدند. `INV-214` استثنا نیست: محتوای preview را پس از تولید PDF بازمی‌گرداند و بخشی از گردش‌کار است.
 - **کنترل‌های لغو:** `INV-033`, `INV-083`, `INV-135`, `INV-248` فقط فرم/مودال/مرحله موقت را بدون commit داده می‌بندند یا لغو می‌کنند. دکمه‌های تأیید و ذخیره متناظر همچنان Help-Required هستند.
-- **وضعیت:** بازبینی دسته استثناها کامل است؛ این موضوع به معنی تکمیل Help Registry نیست. ۲۲۹ عملکرد Help-Required هنوز باید به شناسه‌های پایدار، شش فیلد محتوا در ۱۱ زبان و اتصال runtime برسند.
+- **وضعیت:** بازبینی دسته استثناها کامل است؛ این موضوع به معنی تکمیل Help Registry نیست. ۲۲۸ کنترل فعال Help-Required هنوز باید شش فیلد محتوا در ۱۱ زبان و اتصال runtime داشته باشند. شناسه `THA-HLP-0219` بازنشسته است و نباید منتشر شود.
 
 
 ## تخصیص شناسه‌های Help — 2026-11-26
 
 - فایل مرجع: `docs/HELP_ID_REGISTRY_DRAFT.json`.
-- ۲۲۹ شناسه `THA-HLP-0001` تا `THA-HLP-0229` به‌ترتیب ردیف‌های Help-Required تخصیص یافتند.
+- ۲۲۹ شناسه `THA-HLP-0001` تا `THA-HLP-0229` تخصیص یافته‌اند؛ ۲۲۸ شناسه برای کنترل‌های فعال و `THA-HLP-0219` برای ردگیری مورد بازنشسته `INV-256` حفظ شده است.
 - هر شناسه به `audit_ref`، label و handler/behavior ثبت‌شده متصل است. در صورت handler مشترک، ردیف‌ها جدا نگه داشته شده‌اند تا context/label/parameter اشتباه ادغام نشود.
 - شناسه‌ها از این مرحله immutable هستند: تغییر label یا ترجمه نباید باعث renumber/reuse شود. اگر بعداً action جدیدی کشف شد، شناسه بعدی اضافه می‌شود.
-- **محدودیت مهم:** این یک manifest مستنداتی Draft است؛ هیچ `data-help-id`، listener یا رابط runtime ایجاد نشده است. تمام ۲۲۹ مورد `CONTENT_PENDING` هستند.
+- **محدودیت مهم:** این manifest مستنداتی Draft است؛ هیچ `data-help-id`، listener یا رابط runtime ایجاد نشده است. Registry شامل ۲۲۸ موضوع فعال Help و یک شناسه بازنشسته است؛ وضعیت محتوای هر مورد در فایل Registry مشخص شده است.
 
 
 ## پیشرفت محتوای راهنما — 2026-11-26
