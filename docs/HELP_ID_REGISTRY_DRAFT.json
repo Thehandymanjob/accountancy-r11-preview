@@ -11144,7 +11144,7 @@
           "when": "Use this when you need to open the jobs associated with a company.",
           "how": "Choose Open Jobs to view the jobs linked to that company.",
           "inputs": "Select the correct company whose jobs you want to view.",
-          "result": "The relevant company, job, work-package or payment view is displayed for the selected record; viewing it does not create or amend a record.",
+          "result": "The selected company's jobs area opens and displays its saved jobs. Opening the list does not create or change a job.",
           "notes": "This navigates to the company’s job list; it does not create or change a job."
         },
         "fa": {
@@ -11238,12 +11238,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Deactivate a company in the workspace.",
-          "when": "Use this when you need to deactivate a company in the workspace.",
-          "how": "Use Deactivate for the intended company and review the confirmation prompt.",
-          "inputs": "Select the correct company record and verify its identity before confirming deactivation.",
-          "result": "The app performs the action described above for the selected item and displays the resulting view or status. Check the confirmation before assuming the action succeeded.",
-          "notes": "Deactivation is not the same as deleting historic job or payment records. Check the effect on future selection and existing work."
+          "purpose": "Marks a company inactive while preserving its company record.",
+          "when": "Use this only when a company has no saved jobs and should no longer be available for active selection.",
+          "how": "Select Deactivate beside the intended company and confirm the prompt. If the company has jobs, the app blocks deactivation.",
+          "inputs": "Select the correct company. It must have no associated jobs, and the deactivation confirmation must be approved.",
+          "result": "If the company has no jobs and the save succeeds, its active flag is set to false; the company record is preserved.",
+          "notes": "A company with saved jobs or financial history cannot be deactivated by this control. Deactivation preserves the company record; it does not delete historical data."
         },
         "fa": {
           "purpose": "غیرفعال کردن یک شرکت در فضای کاری.",
@@ -11336,11 +11336,11 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Edit a saved job.",
-          "when": "Use this when you need to edit a saved job.",
-          "how": "Choose Edit beside the intended job, update its available details and save.",
-          "inputs": "Select the correct company and job, then change the required fields.",
-          "result": "The edited details are saved to the selected record only if validation succeeds and the app confirms the save.",
+          "purpose": "Loads a saved company job into the job form for editing.",
+          "when": "Use this when correcting the details of an existing job under a company.",
+          "how": "Choose Edit beside the intended job, review the company and job details, make the required changes, then select Save Job.",
+          "inputs": "Select the correct company and job. The existing job fields are loaded; change only the details that need updating.",
+          "result": "The selected job's existing values are loaded into the job form. Changes are not saved until Save Job succeeds.",
           "notes": "Check the company and job identity before saving, especially where several jobs have similar names."
         },
         "fa": {
@@ -11438,7 +11438,7 @@
           "when": "Use this when you need to open the work packages belonging to a job.",
           "how": "Choose Work packages to review the packages associated with the selected job.",
           "inputs": "Select the correct job whose work packages you want to review.",
-          "result": "The relevant company, job, work-package or payment view is displayed for the selected record; viewing it does not create or amend a record.",
+          "result": "The selected job's work-package list opens. You can review existing packages or choose an individual package action; opening the list does not change records.",
           "notes": "This opens the package list; individual package records are managed separately."
         },
         "fa": {
@@ -11536,7 +11536,7 @@
           "when": "Use this when you need to open the payment records for a job.",
           "how": "Choose Payments to review payment information associated with the selected job.",
           "inputs": "Select the correct job whose payment records you want to review.",
-          "result": "The relevant company, job, work-package or payment view is displayed for the selected record; viewing it does not create or amend a record.",
+          "result": "The selected job's payment area opens, showing the payment history and the form for recording a new payment. Opening the area does not itself record a payment.",
           "notes": "Compare entries with actual receipts and supporting evidence; a payment listing is not a bank reconciliation."
         },
         "fa": {
@@ -11924,12 +11924,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "View the financial information for a work package.",
-          "when": "Use this control when you want to review the income, costs or recorded financial summary for a work package.",
-          "how": "Choose Financials to inspect the package’s recorded income, costs or related financial summary.",
-          "inputs": "Select the correct work package or view; provide extra details only if the app requests them.",
-          "result": "The financial view for the selected work package opens, showing its recorded income, costs and available summary.",
-          "notes": "Treat displayed totals as workspace figures and check them against source records before relying on them."
+          "purpose": "Opens the expense and cost view for a selected work package.",
+          "when": "Use this when you need to review or add costs recorded against a particular work package.",
+          "how": "Select Financials for the intended package. Review its expense list and total, or enter a new expense in the fields shown.",
+          "inputs": "Select the correct work package. To add an expense, enter a valid date and amount greater than zero; category is selected from the list, while payee, description and receipt are optional.",
+          "result": "The selected package's recorded expenses and cost total are displayed, with fields to add another package expense. This view does not show a separate income ledger.",
+          "notes": "Treat displayed totals as package expense figures and check them against source receipts before relying on them."
         },
         "fa": {
           "purpose": "مشاهده اطلاعات مالی یک بسته کاری.",
@@ -12022,12 +12022,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Delete a work package.",
-          "when": "Use this control only when the work package is no longer needed and its linked records have been checked.",
-          "how": "Choose Delete for the intended package and read the confirmation prompt.",
-          "inputs": "Select the correct work package and check its linked job, expenses, attachments and payment history.",
-          "result": "The selected work package is removed from the job after confirmation and successful data persistence.",
-          "notes": "Deletion may remove access to package-level details. Check linked expenses, attachments and payment history first."
+          "purpose": "Removes a work package and its nested package records from the selected job.",
+          "when": "Use this only when the work package is no longer needed and you have checked its associated expenses and evidence.",
+          "how": "Choose Delete for the intended package and confirm the prompt after checking the package and its contents.",
+          "inputs": "Select the correct work package within the correct job and approve the deletion confirmation.",
+          "result": "The selected work package is removed from the job after confirmation and successful persistence. Its package-level expenses and attachment are removed with it.",
+          "notes": "DESTRUCTIVE: this removes the package and its nested financial/evidence records. It does not delete the job's separate payment history. Check and retain any required evidence first."
         },
         "fa": {
           "purpose": "حذف یک بسته کاری.",
@@ -12515,8 +12515,8 @@
           "purpose": "Save changes to an edited sub-project.",
           "when": "Use this control after editing and reviewing the sub-project details, when you are ready to save the update.",
           "how": "After reviewing the edited sub-project details, select Save Changes to commit the update.",
-          "inputs": "Select the correct sub-project and review the parent project information and edited details before saving.",
-          "result": "The edited sub-project details are saved to the selected project if validation and persistence succeed.",
+          "inputs": "The current project and sub-project must be open. Enter a non-empty sub-project name; the agreed price is optional and the photo is optional.",
+          "result": "The current sub-project's name, agreed price and optional photo are saved if persistence succeeds. The detail summary is then refreshed.",
           "notes": "Check the parent project and sub-project details before saving; do not leave the form until the save result is shown."
         },
         "fa": {
@@ -12610,12 +12610,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Edit a cost in the project’s consolidated cost list.",
-          "when": "Use this control when you need to correct or update an existing cost in the project's consolidated cost list.",
-          "how": "Choose Edit beside the intended cost, review its amount, date, category and source details, then save.",
-          "inputs": "Select the correct cost record and review the amount, date, category and source.",
-          "result": "The selected cost is loaded into the edit form; the consolidated cost record changes only after it is saved.",
-          "notes": "Ensure the cost is not already represented elsewhere before changing it; avoid double counting."
+          "purpose": "Edits an existing cost directly in the consolidated project cost list.",
+          "when": "Use this when correcting the date, amount or description/supplier of a saved consolidated cost.",
+          "how": "Choose Edit beside the intended cost. Enter the replacement date, amount and description/supplier in the prompts; the app saves the changes after validation.",
+          "inputs": "Select the correct cost record. Enter a valid date in YYYY-MM-DD format, a non-negative amount and a description or supplier. For worker wages, the worker assignment is not changed.",
+          "result": "The selected cost is updated and persisted immediately after all prompts pass validation. The consolidated cost list and project summary are refreshed.",
+          "notes": "This action edits the cost directly rather than opening a form. Verify the selected record and avoid changing a cost already represented elsewhere."
         },
         "fa": {
           "purpose": "ویرایش یک هزینه در فهرست یکپارچه هزینه‌های پروژه.",
@@ -12806,12 +12806,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Print or save the current sub-project report as a PDF.",
-          "when": "Use this control when you need a PDF copy of the selected sub-project report for printing or saving.",
-          "how": "Select Print / Save PDF and inspect the report preview and print options.",
-          "inputs": "Select the intended sub-project and reporting period, then check the totals before creating the file.",
-          "result": "A PDF preview of the selected sub-project financial report is prepared for printing or saving; project records are not changed.",
-          "notes": "Check the selected sub-project, reporting period and totals. This creates an output document; it does not submit data externally."
+          "purpose": "Opens the financial report preview for the current sub-project.",
+          "when": "Use this when you want to review the selected sub-project's financial report before generating a PDF.",
+          "how": "Select Print / Save PDF. Review the report preview, then select Generate PDF in the preview toolbar when you are ready to create the file.",
+          "inputs": "A sub-project must be open. The report uses its saved income, costs, agreed price and payment records; no new financial data is entered for the preview.",
+          "result": "The sub-project financial report preview opens. A PDF is not generated until you select Generate PDF in the preview toolbar.",
+          "notes": "Check the selected sub-project and its figures. Generating the PDF creates an output document; it does not submit data externally."
         },
         "fa": {
           "purpose": "چاپ یا ذخیره گزارش زیرپروژه به‌صورت PDF.",
@@ -12904,12 +12904,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Print or save the current sub-project report as a PDF.",
-          "when": "Use this control when you need a PDF copy of the selected sub-project report for printing or saving.",
-          "how": "Select Print / Save PDF and inspect the report preview and print options.",
-          "inputs": "Select the intended sub-project and reporting period, then check the totals before creating the file.",
-          "result": "A PDF preview of the selected sub-project financial report is prepared for printing or saving; project records are not changed.",
-          "notes": "Check the selected sub-project, reporting period and totals. This creates an output document; it does not submit data externally."
+          "purpose": "Opens the financial report preview for the current sub-project.",
+          "when": "Use this when you want to review the selected sub-project's financial report before generating a PDF.",
+          "how": "Select Print / Save PDF. Review the report preview, then select Generate PDF in the preview toolbar when you are ready to create the file.",
+          "inputs": "A sub-project must be open. The report uses its saved income, costs, agreed price and payment records; no new financial data is entered for the preview.",
+          "result": "The sub-project financial report preview opens. A PDF is not generated until you select Generate PDF in the preview toolbar.",
+          "notes": "Check the selected sub-project and its figures. Generating the PDF creates an output document; it does not submit data externally."
         },
         "fa": {
           "purpose": "چاپ یا ذخیره گزارش زیرپروژه به‌صورت PDF.",
@@ -13201,9 +13201,9 @@
           "purpose": "Save the current project income receipt or expense entry.",
           "when": "Use this control after entering and checking the details of a project income receipt or expense.",
           "how": "Complete the relevant fields, verify whether the form is for income or an expense, then select its Save Receipt or Save Expense action.",
-          "inputs": "Select the correct record type and enter the date, amount, category and required details.",
-          "result": "The current sub-project income receipt or expense is saved to the matching list if the required fields pass validation and saving succeeds.",
-          "notes": "Check date, amount, category and supporting details. Record income only when it has actually been received."
+          "inputs": "A valid date and amount greater than zero are required. For income, select the payment method. For expenses, select a category; a registered contractor is required for Contractor / subcontractor, and a registered worker is required for Worker wages. Description, reference and receipt photo are optional.",
+          "result": "The current sub-project income receipt or expense is saved to its matching list if validation and IndexedDB persistence succeed. The sub-project financial view is refreshed.",
+          "notes": "Check the date, amount, category and supporting details. Record income only when it has actually been received; ensure contractor or worker costs use the correct registered person."
         },
         "fa": {
           "purpose": "ذخیره رسید درآمد یا هزینه فعلی پروژه.",
@@ -13398,8 +13398,8 @@
           "when": "Use this control when you need to view the receipt document for a customer payment recorded for the project.",
           "how": "Select Customer receipt on the relevant payment to view its receipt document.",
           "inputs": "Select the correct customer payment and check the customer, amount and date.",
-          "result": "The receipt document for the selected customer payment opens for viewing or printing.",
-          "notes": "Check the customer, payment amount and date. A receipt should reflect money actually received."
+          "result": "A separate browser tab opens with a customer payment receipt for the selected project or sub-project income record. The receipt shows the recorded payment details and business profile information; it does not change the payment record.",
+          "notes": "Check the customer, amount, date and reference. A receipt should reflect money actually received; opening the document does not independently verify the bank payment."
         },
         "fa": {
           "purpose": "باز کردن رسید پرداخت مشتری در فضای کاری پروژه.",
@@ -13688,12 +13688,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Generate a PDF or print-ready version of the current receipt.",
-          "when": "Use this control when you need a PDF copy of the current project receipt to save or print.",
-          "how": "Select Generate PDF / Print and wait for the receipt document to be prepared.",
-          "inputs": "Check the correct receipt, payer/customer name, amount, date and description before generating the file.",
-          "result": "A PDF file for the current receipt is prepared.",
-          "notes": "Check the receipt details. Generating a receipt does not confirm that funds were actually received."
+          "purpose": "Creates a PDF preview of the current project payment receipt.",
+          "when": "Use this when you need to review, print or save a PDF copy of the current payment receipt.",
+          "how": "Select Generate PDF / Print and wait while the PDF library creates the receipt preview. Use Share PDF or Print in the new preview tab.",
+          "inputs": "The current payment receipt must be displayed. The browser must allow a new tab and may need an internet connection to load the PDF library.",
+          "result": "A separate PDF preview tab opens when generation succeeds, with Share PDF and Print actions. If the tab is blocked or the PDF library fails, the app reports the problem.",
+          "notes": "Check the payer, amount, date and description. Generating a receipt does not independently confirm that funds were received."
         },
         "fa": {
           "purpose": "ساخت PDF یا نسخه آماده چاپ از رسید فعلی.",
@@ -13790,8 +13790,8 @@
           "when": "Use this control when you need to send the project receipt PDF to another person or app.",
           "how": "Select Share PDF, then choose a destination from your device's share sheet.",
           "inputs": "Check the PDF file, receipt details and intended recipient before sharing.",
-          "result": "The device opens sharing options for the selected file; the saved payment record is not changed.",
-          "notes": "Check the customer, amount, date and recipient. Do not share the receipt with an unintended person."
+          "result": "The device share sheet opens when file sharing is supported. Otherwise the app starts downloading the receipt PDF so it can be shared from Files. The saved payment record is not changed.",
+          "notes": "Check the customer, amount, date and recipient. The app cannot confirm delivery by another app or service."
         },
         "fa": {
           "purpose": "اشتراک‌گذاری PDF رسید پروژه.",
@@ -14182,8 +14182,8 @@
           "when": "Use this control when you want to send the sub-project report PDF to another person or organisation.",
           "how": "Select Share PDF and choose an available destination from the device share sheet.",
           "inputs": "Select the correct report PDF and check its contents and intended recipient before sharing.",
-          "result": "The device opens sharing options for the report file; project records are not changed.",
-          "notes": "Review the report for confidential project or financial information before sharing."
+          "result": "The device share sheet opens when PDF file sharing is supported. Otherwise the app starts downloading the report PDF so it can be shared or printed from Files. Project records are not changed.",
+          "notes": "Review the report for confidential project or financial information before sharing. The app cannot confirm delivery by another app or service."
         },
         "fa": {
           "purpose": "اشتراک‌گذاری PDF گزارش زیرپروژه ساخته‌شده.",
@@ -14671,8 +14671,8 @@
           "purpose": "Open the form to add a sub-project.",
           "when": "Use this control when you want to create a new sub-project within the selected project.",
           "how": "Select Add Sub-project and complete the fields presented for the new sub-project.",
-          "inputs": "Select the correct parent project and enter a distinct sub-project name and its required details.",
-          "result": "The new sub-project creation form is opened.",
+          "inputs": "A sub-project must be selected as the parent context. A non-empty sub-project name is required to save; agreed price and photo are optional.",
+          "result": "The Add Sub-project form opens with fields for a name, agreed price and optional photo. The sub-project is not created until you select Add Sub-project in that form.",
           "notes": "Check the parent project and enter a distinct, meaningful sub-project name before saving."
         },
         "fa": {
@@ -14962,11 +14962,11 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Add a new sub-project to the current project.",
-          "when": "Use this control when you want to add a new sub-project to the current project.",
-          "how": "Select Add Sub-project, enter the required details and complete the form's save action.",
-          "inputs": "Select the correct parent project and enter the details for the new sub-project.",
-          "result": "The sub-project is added if validation succeeds and the app confirms the save.",
+          "purpose": "Creates and saves a new sub-project under the current project.",
+          "when": "Use this after entering the name and agreed price for a new sub-project in the current project's sub-project form.",
+          "how": "Enter a non-empty sub-project name and optional agreed price/photo, then select Add Sub-project. This button performs the save; there is no separate save button.",
+          "inputs": "The current parent project and a non-empty sub-project name are required. Agreed price and photo are optional.",
+          "result": "A new sub-project is added to the current project if IndexedDB persistence succeeds, and the project summary is refreshed.",
           "notes": "Ensure the new sub-project belongs to the correct parent project and is not a duplicate."
         },
         "fa": {
@@ -15259,9 +15259,9 @@
           "purpose": "Save the current project record or row.",
           "when": "Use this control after entering and checking the details for a project record or row.",
           "how": "Complete the required fields and select Record to save the entry.",
-          "inputs": "Select the correct project record and enter the required date, amount, worker and description.",
-          "result": "The entry is saved if validation succeeds and the app confirms the action.",
-          "notes": "Check date, amount, worker and description as applicable. Do not assume the entry saved until the app confirms it."
+          "inputs": "Inputs depend on the selected project record type. Income requires a description, amount, date and payment method. Expenses require an expense type, amount and date, plus contractor/supplier details as applicable. Wages require a worker, days, amount, paid amount and date; tools, food, contractor and material records have their own description, amount and date fields.",
+          "result": "The selected project record is saved to its corresponding project ledger if its required amount and related fields pass validation and persistence succeeds.",
+          "notes": "Check the selected record type and required fields. For contractor expenses, select a registered contractor. Do not assume the entry saved until the app confirms it."
         },
         "fa": {
           "purpose": "ذخیره رکورد یا ردیف فعلی پروژه.",
@@ -15452,11 +15452,11 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Edit an existing project record.",
-          "when": "Use this control when you need to correct or update a saved project record.",
-          "how": "Select Edit beside the intended row, update its details and save the changes.",
-          "inputs": "Select the correct project record and verify its identity and values before editing.",
-          "result": "The record is updated if validation succeeds and the app confirms the change.",
+          "purpose": "Loads an existing project ledger record into its edit fields.",
+          "when": "Use this when correcting a saved income, expense, wage, tool, food, contractor or materials record in the current project or sub-project.",
+          "how": "Select Edit beside the intended row. Review the loaded fields, make the required changes, then select the relevant Record/Save action.",
+          "inputs": "Select the correct record in the current project or sub-project ledger. The fields available depend on the record type.",
+          "result": "The selected record's saved values are loaded into the form. Changes are not committed until the relevant save action succeeds.",
           "notes": "Check the record identity and values before saving because edits can affect project totals."
         },
         "fa": {
@@ -15942,11 +15942,11 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Edit a saved person's worker or project-contact details.",
-          "when": "Use this control when you need to update the work or contact details of a saved person.",
-          "how": "Select Edit beside the intended person, change the available fields and save.",
-          "inputs": "Select the correct person record and review the contact or work details to be changed.",
-          "result": "The record is updated if validation succeeds and the app confirms the change.",
+          "purpose": "Loads a saved worker or partner record into its person form for editing.",
+          "when": "Use this when correcting a saved person's name, phone number, notes or partner email address.",
+          "how": "Select Edit beside the intended person. Update the displayed fields, then select Save Worker or Save Partner to store the changes.",
+          "inputs": "Select the correct worker or partner record. Name is required; phone and notes are optional, and email is available for partners.",
+          "result": "The selected person's saved values are loaded into the form. Changes are not saved until Save Worker or Save Partner succeeds.",
           "notes": "Verify the person's identity before changing contact or work details."
         },
         "fa": {
