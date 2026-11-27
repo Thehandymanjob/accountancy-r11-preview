@@ -13365,7 +13365,7 @@
       "audit_ref": "INV-159",
       "element_id": null,
       "label": "Edit",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Loads a saved customer's details into the customer form for editing.",
@@ -13463,7 +13463,7 @@
       "audit_ref": "INV-160",
       "element_id": null,
       "label": "New invoice",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Starts a new invoice with the selected customer's saved details preselected.",
@@ -13561,7 +13561,7 @@
       "audit_ref": "INV-161",
       "element_id": null,
       "label": "Delete",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Deletes a customer record only when no saved invoice is linked to that customer's ID.",
@@ -13659,7 +13659,7 @@
       "audit_ref": "INV-163",
       "element_id": null,
       "label": "Open print view",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens a separate browser tab with a print-ready view of the current invoice.",
