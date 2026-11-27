@@ -2977,7 +2977,7 @@
       "audit_ref": "INV-037",
       "element_id": null,
       "label": "Save & Print / PDF",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Save the current invoice and open its print or PDF output.",
@@ -2994,6 +2994,78 @@
           "inputs": "فاکتور معتبر با جزئیات و ردیف‌های الزامی لازم است. دستگاه و مرورگر باید از فرایند چاپ پشتیبانی کنند.",
           "result": "برنامه تلاش می‌کند فاکتور را ذخیره کند و سپس فرایند چاپ یا PDF را باز می‌کند.",
           "notes": "پیش از ارسال فاکتور، نتیجه ذخیره را بررسی کنید. پیش‌نمایش، چیدمان صفحه و مشخصات گیرنده را بازبینی کنید. بروز مشکل در پنجره چاپ لزوماً به معنی ناموفق‌بودن ذخیره نیست."
+        },
+        "ar": {
+          "purpose": "يحفظ الفاتورة الحالية ويفتح مخرجات الطباعة أو PDF الخاصة بها.",
+          "when": "استخدمه عندما تكون الفاتورة جاهزة وتريد حفظها وإنشاء نسخة قابلة للطباعة أو PDF بإجراء واحد.",
+          "how": "اختر Save & Print / PDF واتبع شاشة المعاينة أو نافذة الطباعة التي يعرضها التطبيق أو المتصفح.",
+          "inputs": "يلزم وجود فاتورة صحيحة بتفاصيلها وبنودها المطلوبة. يجب أن يدعم الجهاز أو المتصفح الطباعة.",
+          "result": "يحاول التطبيق حفظ الفاتورة ثم يفتح مسار الطباعة أو PDF.",
+          "notes": "تحقق من نتيجة الحفظ قبل توزيع الفاتورة. راجع المعاينة وتخطيط الصفحة وبيانات المستلم. لا يعني تعطل نافذة الطباعة بالضرورة فشل الحفظ."
+        },
+        "ckb": {
+          "purpose": "پسووڵەی ئێستا پاشەکەوت دەکات و دەرئەنجامی چاپ یان PDF ـی دەکاتەوە.",
+          "when": "کاتێک پسووڵەکە ئامادەیە و دەتەوێت بە یەک کردار هەڵیبگریت و وەشانی چاپکراو یان PDF دروست بکەیت، بەکاریبهێنە.",
+          "how": "Save & Print / PDF هەڵبژێرە و ڕێنمایی پێشبینین یان پەنجەرەی چاپی ئەپ یان وێبگەڕەکە جێبەجێ بکە.",
+          "inputs": "پسووڵەیەکی دروست بە وردەکاری و بڕگە پێویستەکان پێویستە. ئامێر یان وێبگەڕ دەبێت چاپ پشتگیری بکات.",
+          "result": "ئەپەکە هەوڵی پاشەکەوتکردنی پسووڵە دەدات و پاشان ڕەوتی چاپ/PDF دەکاتەوە.",
+          "notes": "پێش دابەشکردنی پسووڵە ئەنجامی پاشەکەوتکردن بپشکنە. پێشبینین، ڕێکخستنی پەڕە و زانیاری وەرگر بپشکنە. کێشەی پەنجەرەی چاپ بە پێویستی واتای شکستی پاشەکەوتکردن نییە."
+        },
+        "kmr": {
+          "purpose": "Fatûreya niha dihêle û derketina çapê an PDF-ê ya wê vedike.",
+          "when": "Dema ku fatûre amade ye û dixwazî wê hilînî û bi yek kiryarê kopiyeke çapkirinê an PDF-ê çêbikî, vê bikar bîne.",
+          "how": "Save & Print / PDF hilbijêre û pêşdîtin an paceya çapê ya sepanê an gerokê bişopîne.",
+          "inputs": "Fatûreyeke derbasdar bi hûrgulî û rêzên pêwîst hewce ye. Divê amûr/gerok çapkirinê piştgirî bike.",
+          "result": "Sepan hewl dide fatûreyê hilîne û paşê rêça çap/PDF vedike.",
+          "notes": "Berî belavkirina fatûreyê encama hilanînê kontrol bike. Pêşdîtin, rêzkirina rûpelê û agahiyên wergirê binêre. Pirsgirêka paceya çapê ne hewce ye ku tê wateya têkçûna hilanînê."
+        },
+        "tr": {
+          "purpose": "Geçerli faturayı kaydeder ve yazdırma veya PDF çıktısını açar.",
+          "when": "Fatura hazır olduğunda ve tek işlemle hem saklamak hem de yazdırılabilir veya PDF kopyası oluşturmak istediğinizde kullanın.",
+          "how": "Save & Print / PDF seçeneğini seçin ve uygulamanın veya tarayıcının gösterdiği önizleme ya da yazdırma penceresini izleyin.",
+          "inputs": "Gerekli ayrıntıları ve kalemleri içeren geçerli bir fatura gerekir. Cihaz/tarayıcı yazdırmayı desteklemelidir.",
+          "result": "Uygulama faturayı kaydetmeyi dener ve ardından yazdırma/PDF iş akışını açar.",
+          "notes": "Faturayı dağıtmadan önce kaydetme sonucunu kontrol edin. Önizlemeyi, sayfa düzenini ve alıcı bilgilerini inceleyin. Yazdırma penceresindeki sorun kaydetmenin başarısız olduğu anlamına gelmeyebilir."
+        },
+        "pl": {
+          "purpose": "Zapisuje bieżącą fakturę i otwiera jej wydruk lub plik PDF.",
+          "when": "Użyj, gdy faktura jest gotowa i chcesz ją zachować oraz utworzyć wersję do druku lub PDF w jednym działaniu.",
+          "how": "Wybierz Save & Print / PDF i postępuj zgodnie z podglądem lub oknem drukowania aplikacji albo przeglądarki.",
+          "inputs": "Potrzebna jest prawidłowa faktura z wymaganymi danymi i pozycjami. Urządzenie/przeglądarka musi obsługiwać drukowanie.",
+          "result": "Aplikacja próbuje zapisać fakturę, a następnie otwiera proces drukowania/PDF.",
+          "notes": "Przed przekazaniem faktury sprawdź wynik zapisu. Przejrzyj podgląd, układ strony i dane odbiorcy. Problem z oknem drukowania nie musi oznaczać niepowodzenia zapisu."
+        },
+        "ur": {
+          "purpose": "موجودہ انوائس محفوظ کرتا ہے اور اس کا پرنٹ یا PDF آؤٹ پٹ کھولتا ہے۔",
+          "when": "جب انوائس تیار ہو اور آپ ایک ہی عمل میں اسے محفوظ کرکے قابلِ پرنٹ یا PDF نقل بنانا چاہیں تو استعمال کریں۔",
+          "how": "Save & Print / PDF منتخب کریں اور ایپ یا براؤزر کے دکھائے گئے پیش منظر یا پرنٹ ڈائیلاگ کی پیروی کریں۔",
+          "inputs": "ضروری تفصیلات اور آئٹمز والی درست انوائس درکار ہے۔ آلہ/براؤزر میں پرنٹنگ کی سہولت ہونی چاہیے۔",
+          "result": "ایپ انوائس محفوظ کرنے کی کوشش کرتی ہے اور پھر پرنٹ/PDF کا عمل کھولتی ہے۔",
+          "notes": "انوائس تقسیم کرنے سے پہلے محفوظ ہونے کا نتیجہ دیکھیں۔ پیش منظر، صفحے کی ترتیب اور وصول کنندہ کی تفصیلات کا جائزہ لیں۔ پرنٹ ڈائیلاگ کا مسئلہ لازماً محفوظ کرنے کی ناکامی نہیں ہوتا۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਇਨਵੌਇਸ ਸੰਭਾਲਦਾ ਹੈ ਅਤੇ ਇਸਦਾ ਪ੍ਰਿੰਟ ਜਾਂ PDF ਆਉਟਪੁੱਟ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਇਨਵੌਇਸ ਤਿਆਰ ਹੋਵੇ ਅਤੇ ਤੁਸੀਂ ਇੱਕੋ ਕਾਰਵਾਈ ਵਿੱਚ ਇਸਨੂੰ ਸੰਭਾਲ ਕੇ ਪ੍ਰਿੰਟ ਜਾਂ PDF ਕਾਪੀ ਬਣਾਉਣੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Save & Print / PDF ਚੁਣੋ ਅਤੇ ਐਪ ਜਾਂ ਬ੍ਰਾਊਜ਼ਰ ਵੱਲੋਂ ਦਿਖਾਈ ਝਲਕ ਜਾਂ ਪ੍ਰਿੰਟ ਵਿੰਡੋ ਦੀ ਪਾਲਣਾ ਕਰੋ।",
+          "inputs": "ਲੋੜੀਂਦੇ ਵੇਰਵਿਆਂ ਅਤੇ ਲਾਈਨ ਆਈਟਮਾਂ ਵਾਲੀ ਸਹੀ ਇਨਵੌਇਸ ਚਾਹੀਦੀ ਹੈ। ਡਿਵਾਈਸ/ਬ੍ਰਾਊਜ਼ਰ ਪ੍ਰਿੰਟਿੰਗ ਨੂੰ ਸਮਰਥਨ ਦੇਵੇ।",
+          "result": "ਐਪ ਇਨਵੌਇਸ ਸੰਭਾਲਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਦੀ ਹੈ ਅਤੇ ਫਿਰ ਪ੍ਰਿੰਟ/PDF ਕਾਰਵਾਈ ਖੋਲ੍ਹਦੀ ਹੈ।",
+          "notes": "ਇਨਵੌਇਸ ਵੰਡਣ ਤੋਂ ਪਹਿਲਾਂ ਸੰਭਾਲਣ ਦਾ ਨਤੀਜਾ ਵੇਖੋ। ਝਲਕ, ਪੰਨੇ ਦੀ ਬਣਾਵਟ ਅਤੇ ਪ੍ਰਾਪਤਕਰਤਾ ਦੇ ਵੇਰਵੇ ਜਾਂਚੋ। ਪ੍ਰਿੰਟ ਵਿੰਡੋ ਦੀ ਸਮੱਸਿਆ ਦਾ ਮਤਲਬ ਲਾਜ਼ਮੀ ਨਹੀਂ ਕਿ ਸੇਵ ਅਸਫਲ ਹੋਇਆ।"
+        },
+        "prs": {
+          "purpose": "فاکتور فعلی را ذخیره می‌کند و خروجی چاپ یا PDF آن را باز می‌کند.",
+          "when": "وقتی فاکتور آماده است و می‌خواهید با یک اقدام هم آن را ذخیره و هم نسخه قابل چاپ یا PDF تهیه کنید، استفاده کنید.",
+          "how": "Save & Print / PDF را انتخاب کنید و مراحل پیش‌نمایش یا پنجره چاپ برنامه یا مرورگر را دنبال کنید.",
+          "inputs": "فاکتور معتبر با جزئیات و ردیف‌های الزامی لازم است. دستگاه یا مرورگر باید از چاپ پشتیبانی کند.",
+          "result": "برنامه تلاش می‌کند فاکتور را ذخیره کند و سپس فرایند چاپ/PDF را باز می‌کند.",
+          "notes": "پیش از توزیع فاکتور نتیجه ذخیره را بررسی کنید. پیش‌نمایش، چیدمان صفحه و مشخصات گیرنده را بازبینی کنید. مشکل پنجره چاپ لزوماً به معنی شکست ذخیره نیست."
+        },
+        "ps": {
+          "purpose": "اوسنی بل خوندي کوي او د هغه د چاپ یا PDF محصول پرانیزي.",
+          "when": "کله چې بل چمتو وي او غواړئ په یوه کړنه کې یې وساتئ او د چاپ یا PDF کاپي جوړه کړئ، وکاروئ.",
+          "how": "Save & Print / PDF وټاکئ او د اپ یا براوزر د مخکتنې یا چاپ کړکۍ لارښوونې تعقیب کړئ.",
+          "inputs": "د اړینو جزیاتو او توکو کرښو لرونکی سم بل اړین دی. وسیله/براوزر باید د چاپ ملاتړ وکړي.",
+          "result": "اپ د بل د خوندي کولو هڅه کوي او بیا د چاپ/PDF بهیر پرانیزي.",
+          "notes": "د بل له وېشلو مخکې د خوندي کولو پایله وګورئ. مخکتنه، د پاڼې جوړښت او د ترلاسه کوونکي معلومات وڅېړئ. د چاپ کړکۍ ستونزه حتمي د خوندي کولو ناکامي نه ده."
         }
       },
       "handler_or_behavior": "`saveAndPrintInvoice()`"
@@ -3003,7 +3075,7 @@
       "audit_ref": "INV-038",
       "element_id": null,
       "label": "Save Customer",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Save the customer details entered in the customer form.",
@@ -3020,6 +3092,78 @@
           "inputs": "نام مشتری یا شرکت الزامی است. تلفن، نشانی صورتحساب، نشانی معمول محل کار و ایمیل اختیاری هستند.",
           "result": "در صورت موفقیت، مشتری ذخیره و در فهرست مشتریان نمایش داده می‌شود و می‌توان آن را برای فاکتورها انتخاب کرد.",
           "notes": "پیش از ذخیره، املای نام و اطلاعات تماس را بررسی کنید. اگر مشتری از قبل وجود دارد، رکورد تکراری نسازید."
+        },
+        "ar": {
+          "purpose": "يحفظ بيانات العميل التي أُدخلت في نموذج العملاء.",
+          "when": "استخدمه عند إضافة عميل جديد أو حفظ التغييرات على العميل الجاري تعديله.",
+          "how": "أدخل اسم العميل أو الشركة وبيانات الاتصال ذات الصلة، ثم اختر Save Customer.",
+          "inputs": "اسم العميل أو الشركة مطلوب. الهاتف وعنوان الفوترة وعنوان العمل المعتاد والبريد الإلكتروني اختيارية.",
+          "result": "إذا نجح الحفظ، يُخزّن العميل ويظهر في قائمة العملاء، ويمكن اختياره بعد ذلك للفواتير.",
+          "notes": "تحقق من الإملاء وبيانات الاتصال قبل الحفظ. تجنب إنشاء سجل مكرر إذا كان العميل موجودًا بالفعل."
+        },
+        "ckb": {
+          "purpose": "زانیارییەکانی کڕیار کە لە فۆڕمی کڕیاران نووسراون پاشەکەوت دەکات.",
+          "when": "کاتێک کڕیارێکی نوێ زیاد دەکەیت یان گۆڕانکارییەکانی کڕیاری دەستکاریکراو پاشەکەوت دەکەیت، بەکاریبهێنە.",
+          "how": "ناوی کڕیار یان کۆمپانیا و زانیاری پەیوەندییە پەیوەندیدارەکان بنووسە، پاشان Save Customer هەڵبژێرە.",
+          "inputs": "ناوی کڕیار یان کۆمپانیا پێویستە. تەلەفۆن، ناونیشانی فاکتۆر، ناونیشانی ئاسایی شوێنی کار و ئیمەیڵ هەڵبژاردەیین.",
+          "result": "ئەگەر پاشەکەوتکردن سەرکەوتوو بێت، کڕیارەکە هەڵدەگیرێت و لە لیستی کڕیاران دەردەکەوێت؛ دواتر دەتوانرێت بۆ فاکتۆر هەڵبژێردرێت.",
+          "notes": "پێش پاشەکەوتکردن ڕێنووس و زانیاری پەیوەندی بپشکنە. ئەگەر کڕیارەکە پێشتر هەیە، تۆماری دووبارە دروست مەکە."
+        },
+        "kmr": {
+          "purpose": "Agahiyên xerîdarê yên di forma xerîdaran de hatine nivîsandin dihêle.",
+          "when": "Dema ku xerîdarek nû zêde dikî an guhertinên xerîdarê ku niha sererast dikî dihêlî, vê bikar bîne.",
+          "how": "Navê xerîdar an pargîdanî û agahiyên têkiliyê yên pêwendîdar binivîse, paşê Save Customer hilbijêre.",
+          "inputs": "Navê xerîdar an pargîdanî pêwîst e. Telefon, navnîşana fatûreyê, navnîşana asayî ya cihê kar û e-name vebijêrkî ne.",
+          "result": "Heke hilanîn serkeftî be, xerîdar tê hilanîn û di lîsteya xerîdaran de xuya dibe; paşê dikare ji bo fatûreyan were hilbijartin.",
+          "notes": "Berî hilanînê rastnivîs û agahiyên têkiliyê kontrol bike. Heke xerîdar berê hebe, tomarek dubare çêneke."
+        },
+        "tr": {
+          "purpose": "Müşteri formuna girilen müşteri bilgilerini kaydeder.",
+          "when": "Yeni müşteri eklerken veya düzenlenmekte olan müşterideki değişiklikleri kaydederken kullanın.",
+          "how": "Müşterinin veya şirketin adını ve ilgili iletişim bilgilerini girin, ardından Save Customer seçeneğini seçin.",
+          "inputs": "Müşteri veya şirket adı zorunludur. Telefon, fatura adresi, olağan iş adresi ve e-posta isteğe bağlıdır.",
+          "result": "Kaydetme başarılı olursa müşteri saklanır ve müşteri listesinde görünür; daha sonra faturalar için seçilebilir.",
+          "notes": "Kaydetmeden önce yazımı ve iletişim bilgilerini kontrol edin. Müşteri zaten varsa yinelenen kayıt oluşturmayın."
+        },
+        "pl": {
+          "purpose": "Zapisuje dane klienta wprowadzone w formularzu klienta.",
+          "when": "Użyj podczas dodawania nowego klienta lub zapisywania zmian w aktualnie edytowanym kliencie.",
+          "how": "Wprowadź nazwę klienta lub firmy oraz odpowiednie dane kontaktowe, a następnie wybierz Save Customer.",
+          "inputs": "Nazwa klienta lub firmy jest wymagana. Telefon, adres rozliczeniowy, zwykły adres miejsca pracy i e-mail są opcjonalne.",
+          "result": "Jeśli zapis się powiedzie, klient zostanie zapisany i pojawi się na liście klientów; będzie można go wybrać do faktur.",
+          "notes": "Przed zapisaniem sprawdź pisownię i dane kontaktowe. Nie twórz duplikatu, jeśli klient już istnieje."
+        },
+        "ur": {
+          "purpose": "کسٹمر فارم میں درج کی گئی گاہک کی تفصیلات محفوظ کرتا ہے۔",
+          "when": "نیا گاہک شامل کرتے وقت یا زیرِ ترمیم گاہک کی تبدیلیاں محفوظ کرتے وقت استعمال کریں۔",
+          "how": "گاہک یا کمپنی کا نام اور متعلقہ رابطے کی تفصیلات درج کریں، پھر Save Customer منتخب کریں۔",
+          "inputs": "گاہک یا کمپنی کا نام ضروری ہے۔ فون، بلنگ پتہ، معمول کے کام کا پتہ اور ای میل اختیاری ہیں۔",
+          "result": "اگر محفوظ کرنا کامیاب ہو تو گاہک محفوظ ہو کر فہرست میں دکھائی دیتا ہے؛ پھر اسے انوائس کے لیے منتخب کیا جا سکتا ہے۔",
+          "notes": "محفوظ کرنے سے پہلے املا اور رابطے کی تفصیلات دیکھیں۔ اگر گاہک پہلے سے موجود ہے تو دہرا ریکارڈ نہ بنائیں۔"
+        },
+        "pa": {
+          "purpose": "ਗਾਹਕ ਫਾਰਮ ਵਿੱਚ ਦਰਜ ਕੀਤੇ ਗਾਹਕ ਦੇ ਵੇਰਵੇ ਸੰਭਾਲਦਾ ਹੈ।",
+          "when": "ਨਵਾਂ ਗਾਹਕ ਜੋੜਦੇ ਸਮੇਂ ਜਾਂ ਸੋਧੇ ਜਾ ਰਹੇ ਗਾਹਕ ਦੀਆਂ ਤਬਦੀਲੀਆਂ ਸੰਭਾਲਦੇ ਸਮੇਂ ਵਰਤੋ।",
+          "how": "ਗਾਹਕ ਜਾਂ ਕੰਪਨੀ ਦਾ ਨਾਂ ਅਤੇ ਸੰਬੰਧਿਤ ਸੰਪਰਕ ਵੇਰਵੇ ਦਰਜ ਕਰੋ, ਫਿਰ Save Customer ਚੁਣੋ।",
+          "inputs": "ਗਾਹਕ ਜਾਂ ਕੰਪਨੀ ਦਾ ਨਾਂ ਲਾਜ਼ਮੀ ਹੈ। ਫੋਨ, ਬਿਲਿੰਗ ਪਤਾ, ਆਮ ਕੰਮ ਵਾਲਾ ਪਤਾ ਅਤੇ ਈਮੇਲ ਵਿਕਲਪਿਕ ਹਨ।",
+          "result": "ਜੇ ਸੰਭਾਲਣਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਗਾਹਕ ਸਟੋਰ ਹੋ ਕੇ ਗਾਹਕ ਸੂਚੀ ਵਿੱਚ ਦਿਖਦਾ ਹੈ; ਫਿਰ ਇਸਨੂੰ ਇਨਵੌਇਸਾਂ ਲਈ ਚੁਣਿਆ ਜਾ ਸਕਦਾ ਹੈ।",
+          "notes": "ਸੰਭਾਲਣ ਤੋਂ ਪਹਿਲਾਂ ਸ਼ਬਦ-ਜੋੜ ਅਤੇ ਸੰਪਰਕ ਵੇਰਵੇ ਜਾਂਚੋ। ਜੇ ਗਾਹਕ ਪਹਿਲਾਂ ਮੌਜੂਦ ਹੈ ਤਾਂ ਦੁਹਰਾ ਰਿਕਾਰਡ ਨਾ ਬਣਾਓ।"
+        },
+        "prs": {
+          "purpose": "مشخصات مشتری واردشده در فرم مشتریان را ذخیره می‌کند.",
+          "when": "هنگام افزودن مشتری جدید یا ذخیره تغییرات مشتری‌ای که در حال ویرایش آن هستید، استفاده کنید.",
+          "how": "نام مشتری یا شرکت و اطلاعات تماس مربوط را وارد کنید و سپس Save Customer را انتخاب کنید.",
+          "inputs": "نام مشتری یا شرکت الزامی است. تلفن، نشانی صورتحساب، نشانی معمول محل کار و ایمیل اختیاری هستند.",
+          "result": "در صورت موفقیت، مشتری ذخیره و در فهرست مشتریان نمایش داده می‌شود و سپس می‌توان آن را برای فاکتورها انتخاب کرد.",
+          "notes": "پیش از ذخیره، املای نام و اطلاعات تماس را بررسی کنید. اگر مشتری از قبل وجود دارد، رکورد تکراری نسازید."
+        },
+        "ps": {
+          "purpose": "د پېرودونکي په فورمه کې لیکل شوي د پېرودونکي معلومات خوندي کوي.",
+          "when": "د نوي پېرودونکي د زیاتولو یا د هغه پېرودونکي د بدلونونو د خوندي کولو لپاره یې وکاروئ چې سمون پکې کوئ.",
+          "how": "د پېرودونکي یا شرکت نوم او اړوند د اړیکې معلومات ولیکئ، بیا Save Customer وټاکئ.",
+          "inputs": "د پېرودونکي یا شرکت نوم اړین دی. ټیلیفون، د بل پته، د کار معمول پته او برېښنالیک اختیاري دي.",
+          "result": "که خوندي کول بریالي شي، پېرودونکی ساتل کېږي او د پېرودونکو په لېست کې ښکاري؛ بیا د بلونو لپاره ټاکل کېدای شي.",
+          "notes": "له خوندي کولو مخکې املا او د اړیکې معلومات وګورئ. که پېرودونکی مخکې موجود وي، تکراري ریکارډ مه جوړوئ."
         }
       },
       "handler_or_behavior": "`saveCustomer()`"
@@ -3029,7 +3173,7 @@
       "audit_ref": "INV-039",
       "element_id": null,
       "label": "Clear Form",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Clear the customer form and prepare it for a new customer entry.",
@@ -3046,6 +3190,78 @@
           "inputs": "ورودی لازم نیست. مقادیر ذخیره‌نشده فرم پاک می‌شوند.",
           "result": "فرم مشتری برای ثبت جدید بازنشانی می‌شود.",
           "notes": "این گزینه فرم را پاک می‌کند و مشتری ذخیره‌شده را حذف نمی‌کند. تغییرات ذخیره‌نشده از بین می‌روند."
+        },
+        "ar": {
+          "purpose": "يمسح نموذج العميل ويجهزه لإدخال عميل جديد.",
+          "when": "استخدمه للتخلص من قيم النموذج غير المحفوظة أو إيقاف تعديل العميل الحالي.",
+          "how": "اختر Clear Form في قسم العملاء.",
+          "inputs": "لا يلزم إدخال شيء. تُمسح قيم النموذج الحالية غير المحفوظة.",
+          "result": "يُعاد ضبط نموذج العميل لإدخال عميل جديد.",
+          "notes": "يمسح هذا النموذج ولا يحذف عميلًا محفوظًا. ستفقد أي تعديلات لم تُحفظ."
+        },
+        "ckb": {
+          "purpose": "فۆڕمی کڕیار پاک دەکاتەوە و بۆ تۆمارکردنی کڕیارێکی نوێ ئامادەی دەکات.",
+          "when": "بۆ لابردنی بەها پاشەکەوت‌نەکراوەکانی فۆڕم یان وەستاندنی دەستکاریکردنی کڕیاری ئێستا بەکاریبهێنە.",
+          "how": "لە بەشی کڕیاران Clear Form هەڵبژێرە.",
+          "inputs": "هیچ زانیارییەک پێویست نییە. بەها پاشەکەوت‌نەکراوەکانی ئێستا پاک دەکرێنەوە.",
+          "result": "فۆڕمی کڕیار بۆ تۆمارێکی نوێ نوێ دەکرێتەوە.",
+          "notes": "ئەمە فۆڕمەکە پاک دەکاتەوە؛ کڕیارێکی پاشەکەوتکراو ناسڕێتەوە. هەر دەستکارییەکی پاشەکەوت‌نەکراو لەدەست دەچێت."
+        },
+        "kmr": {
+          "purpose": "Forma xerîdarê paqij dike û ji bo tomarkirina xerîdarek nû amade dike.",
+          "when": "Ji bo avêtina nirxên nehatiye hilanîn an rawestandina sererastkirina xerîdarê niha vê bikar bîne.",
+          "how": "Di beşa xerîdaran de Clear Form hilbijêre.",
+          "inputs": "Tu agahî nehewce ye. Nirxên niha yên formê yên nehatiye hilanîn tên paqijkirin.",
+          "result": "Forma xerîdarê ji bo tomarek nû tê nûkirin.",
+          "notes": "Ev formê paqij dike; xerîdarek hilanî naxwaze. Her sererastkirina nehatiye hilanîn dê winda bibe."
+        },
+        "tr": {
+          "purpose": "Müşteri formunu temizler ve yeni müşteri girişi için hazırlar.",
+          "when": "Kaydedilmemiş form değerlerini atmak veya mevcut müşteri düzenlemesini sonlandırmak için kullanın.",
+          "how": "Müşteriler bölümünde Clear Form seçeneğini seçin.",
+          "inputs": "Girdi gerekmez. Mevcut kaydedilmemiş form değerleri temizlenir.",
+          "result": "Müşteri formu yeni kayıt için sıfırlanır.",
+          "notes": "Bu işlem formu temizler; kayıtlı müşteriyi silmez. Kaydedilmemiş düzenlemeler kaybolur."
+        },
+        "pl": {
+          "purpose": "Czyści formularz klienta i przygotowuje go do wprowadzenia nowego klienta.",
+          "when": "Użyj, aby odrzucić niezapisane wartości formularza lub zakończyć edycję bieżącego klienta.",
+          "how": "W sekcji klientów wybierz Clear Form.",
+          "inputs": "Nie są wymagane żadne dane. Bieżące niezapisane wartości formularza zostaną wyczyszczone.",
+          "result": "Formularz klienta zostanie zresetowany do nowego wpisu.",
+          "notes": "Ta czynność czyści formularz; nie usuwa zapisanego klienta. Wszystkie niezapisane zmiany zostaną utracone."
+        },
+        "ur": {
+          "purpose": "گاہک کا فارم صاف کرکے اسے نئے گاہک کے اندراج کے لیے تیار کرتا ہے۔",
+          "when": "فارم کی غیر محفوظ شدہ قدریں ختم کرنے یا موجودہ گاہک کی ترمیم روکنے کے لیے استعمال کریں۔",
+          "how": "گاہکوں کے حصے میں Clear Form منتخب کریں۔",
+          "inputs": "کسی معلومات کی ضرورت نہیں۔ موجودہ غیر محفوظ شدہ فارم کی قدریں صاف ہو جاتی ہیں۔",
+          "result": "گاہک کا فارم نئے اندراج کے لیے دوبارہ ترتیب پا جاتا ہے۔",
+          "notes": "یہ فارم صاف کرتا ہے؛ محفوظ شدہ گاہک حذف نہیں کرتا۔ تمام غیر محفوظ شدہ ترامیم ضائع ہو جائیں گی۔"
+        },
+        "pa": {
+          "purpose": "ਗਾਹਕ ਦਾ ਫਾਰਮ ਸਾਫ਼ ਕਰਕੇ ਇਸਨੂੰ ਨਵੇਂ ਗਾਹਕ ਦੀ ਐਂਟਰੀ ਲਈ ਤਿਆਰ ਕਰਦਾ ਹੈ।",
+          "when": "ਫਾਰਮ ਦੀਆਂ ਨਾ-ਸੰਭਾਲੀਆਂ ਕਦਰਾਂ ਹਟਾਉਣ ਜਾਂ ਮੌਜੂਦਾ ਗਾਹਕ ਦੀ ਸੋਧ ਰੋਕਣ ਲਈ ਵਰਤੋ।",
+          "how": "ਗਾਹਕਾਂ ਵਾਲੇ ਭਾਗ ਵਿੱਚ Clear Form ਚੁਣੋ।",
+          "inputs": "ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ। ਮੌਜੂਦਾ ਨਾ-ਸੰਭਾਲੀਆਂ ਫਾਰਮ ਕਦਰਾਂ ਸਾਫ਼ ਹੋ ਜਾਂਦੀਆਂ ਹਨ।",
+          "result": "ਗਾਹਕ ਦਾ ਫਾਰਮ ਨਵੀਂ ਐਂਟਰੀ ਲਈ ਰੀਸੈੱਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਇਹ ਫਾਰਮ ਸਾਫ਼ ਕਰਦਾ ਹੈ; ਸੰਭਾਲਿਆ ਗਾਹਕ ਨਹੀਂ ਮਿਟਾਉਂਦਾ। ਸਾਰੀਆਂ ਨਾ-ਸੰਭਾਲੀਆਂ ਸੋਧਾਂ ਗੁੰਮ ਹੋ ਜਾਣਗੀਆਂ।"
+        },
+        "prs": {
+          "purpose": "فرم مشتری را پاک می‌کند و برای ثبت مشتری جدید آماده می‌سازد.",
+          "when": "برای کنارگذاشتن مقادیر ذخیره‌نشده فرم یا توقف ویرایش مشتری فعلی استفاده کنید.",
+          "how": "در بخش مشتریان Clear Form را انتخاب کنید.",
+          "inputs": "ورودی لازم نیست. مقادیر ذخیره‌نشده فعلی فرم پاک می‌شوند.",
+          "result": "فرم مشتری برای ثبت جدید بازنشانی می‌شود.",
+          "notes": "این گزینه فرم را پاک می‌کند، مشتری ذخیره‌شده را حذف نمی‌کند. هرگونه ویرایش ذخیره‌نشده از بین می‌رود."
+        },
+        "ps": {
+          "purpose": "د پېرودونکي فورمه پاکوي او د نوي پېرودونکي د ثبت لپاره یې چمتو کوي.",
+          "when": "د فورمې د نه‌خوندي شویو ارزښتونو د لرې کولو یا د اوسني پېرودونکي د سمون د بندولو لپاره یې وکاروئ.",
+          "how": "د پېرودونکو په برخه کې Clear Form وټاکئ.",
+          "inputs": "معلوماتو ته اړتیا نشته. د فورمې اوسني نه‌خوندي شوي ارزښتونه پاکېږي.",
+          "result": "د پېرودونکي فورمه د نوي ثبت لپاره بیا تنظیمېږي.",
+          "notes": "دا فورمه پاکوي؛ خوندي شوی پېرودونکی نه ړنګوي. ټول نه‌خوندي شوي سمونونه به له منځه ولاړ شي."
         }
       },
       "handler_or_behavior": "`resetCustomerForm()`"
@@ -3055,7 +3271,7 @@
       "audit_ref": "INV-041",
       "element_id": null,
       "label": "📄 Prepare a report Predefined reporting periods and report generation",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Open the report preparation workspace, where you can choose a reporting period and generate a report.",
@@ -3072,6 +3288,78 @@
           "inputs": "دوره موردنظر و تنظیمات در دسترس گزارش را انتخاب کنید. مطمئن شوید سوابق درآمد و هزینه به‌روز هستند.",
           "result": "صفحه آماده‌سازی گزارش باز می‌شود و می‌تواند بر اساس سوابق انتخاب‌شده پیش‌نمایش گزارش ایجاد کند.",
           "notes": "دوره و ارقام را با دقت بررسی کنید. تهیه گزارش به معنی ارسال اظهارنامه مالیاتی به HMRC نیست."
+        },
+        "ar": {
+          "purpose": "يفتح مساحة إعداد التقارير، حيث يمكنك اختيار فترة التقرير وإنشاء تقرير.",
+          "when": "استخدمه عندما تريد إعداد تقرير جديد من السجلات الموجودة في التطبيق.",
+          "how": "اختر Prepare a report من قائمة Reports & Tax، ثم اختر فترة التقرير واتبع خيارات التقرير.",
+          "inputs": "اختر الفترة المطلوبة وأي إعدادات تقرير متاحة. تأكد من تحديث سجلات الدخل والمصروفات الأساسية.",
+          "result": "تُفتح شاشة إعداد التقرير ويمكنها إنشاء معاينة تقرير من السجلات المختارة.",
+          "notes": "راجع الفترة والأرقام بعناية. إنشاء تقرير لا يرسل إقرارًا ضريبيًا إلى HMRC."
+        },
+        "ckb": {
+          "purpose": "شوێنی ئامادەکردنی ڕاپۆرت دەکاتەوە، کە دەتوانیت ماوەی ڕاپۆرت هەڵبژێریت و ڕاپۆرت دروست بکەیت.",
+          "when": "کاتێک دەتەوێت لە تۆمارەکانی ناو ئەپەکە ڕاپۆرتێکی نوێ ئامادە بکەیت، بەکاریبهێنە.",
+          "how": "لە پێڕستی Reports & Tax، Prepare a report هەڵبژێرە، پاشان ماوەی ڕاپۆرت دیاری بکە و هەڵبژاردەکانی ڕاپۆرت جێبەجێ بکە.",
+          "inputs": "ماوەی پێویست و هەر ڕێکخستنێکی بەردەستی ڕاپۆرت هەڵبژێرە. دڵنیابە تۆمارەکانی داهات و خەرجی نوێن.",
+          "result": "پەڕەی ئامادەکردنی ڕاپۆرت دەکرێتەوە و دەتوانێت لە تۆمارە هەڵبژێردراوەکان پێشبینینی ڕاپۆرت دروست بکات.",
+          "notes": "ماوە و ژمارەکان بە وردی بپشکنە. دروستکردنی ڕاپۆرت واتای ناردنی ڕاپۆرتی باج بۆ HMRC نییە."
+        },
+        "kmr": {
+          "purpose": "Cihê amadekirina raporan vedike; li wir dikarî demeke raporê hilbijêrî û raporek çêbikî.",
+          "when": "Dema ku dixwazî ji tomarên di sepanê de raporeke nû amade bikî, vê bikar bîne.",
+          "how": "Di menuya Reports & Tax de Prepare a report hilbijêre, paşê dema raporê hilbijêre û vebijêrkên raporê bişopîne.",
+          "inputs": "Dema pêwîst û mîhengên raporê yên peyda hilbijêre. Piştrast bike ku tomarên dahat û lêçûnê nû ne.",
+          "result": "Dîtina amadekirina raporê vedibe û dikare ji tomarên hilbijartî pêşdîtina raporekê çêbike.",
+          "notes": "Dema û hejmaran bi baldarî kontrol bike. Çêkirina raporê daxuyaniya bacê ji HMRC re nadişîne."
+        },
+        "tr": {
+          "purpose": "Rapor dönemi seçip rapor oluşturabileceğiniz rapor hazırlama çalışma alanını açar.",
+          "when": "Uygulamadaki kayıtlardan yeni bir rapor hazırlamak istediğinizde kullanın.",
+          "how": "Reports & Tax menüsünde Prepare a report seçeneğini seçin, ardından raporlama dönemini belirleyip rapor seçeneklerini izleyin.",
+          "inputs": "Gerekli dönemi ve mevcut rapor ayarlarını seçin. Temel gelir ve gider kayıtlarının güncel olduğundan emin olun.",
+          "result": "Rapor hazırlama görünümü açılır ve seçilen kayıtlardan rapor önizlemesi oluşturabilir.",
+          "notes": "Dönemi ve rakamları dikkatle inceleyin. Rapor oluşturmak HMRC'ye vergi beyannamesi göndermez."
+        },
+        "pl": {
+          "purpose": "Otwiera obszar przygotowania raportu, w którym można wybrać okres raportowania i wygenerować raport.",
+          "when": "Użyj, gdy chcesz przygotować nowy raport na podstawie rekordów zapisanych w aplikacji.",
+          "how": "W menu Reports & Tax wybierz Prepare a report, następnie wybierz okres raportowania i postępuj zgodnie z opcjami raportu.",
+          "inputs": "Wybierz wymagany okres i dostępne ustawienia raportu. Upewnij się, że podstawowe rejestry przychodów i wydatków są aktualne.",
+          "result": "Otwiera się widok przygotowania raportu, który może wygenerować podgląd na podstawie wybranych rekordów.",
+          "notes": "Dokładnie sprawdź okres i wartości. Utworzenie raportu nie oznacza wysłania zeznania podatkowego do HMRC."
+        },
+        "ur": {
+          "purpose": "رپورٹ تیار کرنے کی جگہ کھولتا ہے جہاں آپ رپورٹ کی مدت منتخب کرکے رپورٹ بنا سکتے ہیں۔",
+          "when": "جب آپ ایپ میں موجود ریکارڈز سے نئی رپورٹ تیار کرنا چاہیں تو استعمال کریں۔",
+          "how": "Reports & Tax مینو میں Prepare a report منتخب کریں، پھر رپورٹ کی مدت چنیں اور رپورٹ کے اختیارات پر عمل کریں۔",
+          "inputs": "مطلوبہ مدت اور دستیاب رپورٹ سیٹنگز منتخب کریں۔ یقینی بنائیں کہ آمدنی اور اخراجات کے بنیادی ریکارڈ تازہ ہیں۔",
+          "result": "رپورٹ تیاری کا منظر کھلتا ہے اور منتخب ریکارڈز سے رپورٹ کا پیش منظر بنا سکتا ہے۔",
+          "notes": "مدت اور اعداد کا احتیاط سے جائزہ لیں۔ رپورٹ بنانا HMRC کو ٹیکس ریٹرن جمع کرانا نہیں ہے۔"
+        },
+        "pa": {
+          "purpose": "ਰਿਪੋਰਟ ਤਿਆਰ ਕਰਨ ਵਾਲੀ ਜਗ੍ਹਾ ਖੋਲ੍ਹਦਾ ਹੈ ਜਿੱਥੇ ਤੁਸੀਂ ਰਿਪੋਰਟ ਦੀ ਮਿਆਦ ਚੁਣ ਕੇ ਰਿਪੋਰਟ ਬਣਾ ਸਕਦੇ ਹੋ।",
+          "when": "ਜਦੋਂ ਐਪ ਵਿੱਚ ਮੌਜੂਦ ਰਿਕਾਰਡਾਂ ਤੋਂ ਨਵੀਂ ਰਿਪੋਰਟ ਤਿਆਰ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Reports & Tax ਮੀਨੂ ਵਿੱਚ Prepare a report ਚੁਣੋ, ਫਿਰ ਰਿਪੋਰਟ ਦੀ ਮਿਆਦ ਚੁਣ ਕੇ ਰਿਪੋਰਟ ਦੇ ਵਿਕਲਪਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ।",
+          "inputs": "ਲੋੜੀਂਦੀ ਮਿਆਦ ਅਤੇ ਉਪਲਬਧ ਰਿਪੋਰਟ ਸੈਟਿੰਗਾਂ ਚੁਣੋ। ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਆਮਦਨ ਅਤੇ ਖਰਚੇ ਦੇ ਮੂਲ ਰਿਕਾਰਡ ਤਾਜ਼ਾ ਹਨ।",
+          "result": "ਰਿਪੋਰਟ ਤਿਆਰੀ ਦ੍ਰਿਸ਼ ਖੁੱਲ੍ਹਦਾ ਹੈ ਅਤੇ ਚੁਣੇ ਰਿਕਾਰਡਾਂ ਤੋਂ ਰਿਪੋਰਟ ਦੀ ਝਲਕ ਬਣਾ ਸਕਦਾ ਹੈ।",
+          "notes": "ਮਿਆਦ ਅਤੇ ਅੰਕੜਿਆਂ ਦੀ ਧਿਆਨ ਨਾਲ ਜਾਂਚ ਕਰੋ। ਰਿਪੋਰਟ ਬਣਾਉਣ ਨਾਲ HMRC ਨੂੰ ਟੈਕਸ ਰਿਟਰਨ ਜਮ੍ਹਾਂ ਨਹੀਂ ਹੁੰਦੀ।"
+        },
+        "prs": {
+          "purpose": "فضای آماده‌سازی گزارش را باز می‌کند تا بتوانید دوره گزارش را انتخاب و گزارش ایجاد کنید.",
+          "when": "وقتی می‌خواهید از سوابق موجود در برنامه گزارش جدیدی تهیه کنید، استفاده کنید.",
+          "how": "در منوی Reports & Tax گزینه Prepare a report را انتخاب کنید، سپس دوره گزارش را تعیین و گزینه‌های گزارش را دنبال کنید.",
+          "inputs": "دوره موردنظر و تنظیمات در دسترس گزارش را انتخاب کنید. مطمئن شوید سوابق اصلی درآمد و هزینه به‌روز هستند.",
+          "result": "نمای آماده‌سازی گزارش باز می‌شود و می‌تواند از سوابق انتخاب‌شده پیش‌نمایش گزارش ایجاد کند.",
+          "notes": "دوره و ارقام را با دقت بررسی کنید. ایجاد گزارش به معنی ارسال اظهارنامه مالیاتی به HMRC نیست."
+        },
+        "ps": {
+          "purpose": "د راپور د چمتو کولو کاري ځای پرانیزي، چې پکې د راپور موده ټاکلی او راپور جوړولی شئ.",
+          "when": "کله چې غواړئ د اپ له موجودو ثبتونو څخه نوی راپور چمتو کړئ، وکاروئ.",
+          "how": "د Reports & Tax په مېنو کې Prepare a report وټاکئ، بیا د راپور موده وټاکئ او د راپور انتخابونه تعقیب کړئ.",
+          "inputs": "اړینه موده او د راپور شته تنظیمات وټاکئ. ډاډ ترلاسه کړئ چې د عاید او لګښت بنسټیز ثبتونه تازه دي.",
+          "result": "د راپور د چمتو کولو لید پرانیستل کېږي او له ټاکل شویو ثبتونو څخه د راپور مخکتنه جوړولی شي.",
+          "notes": "موده او شمېرې په دقت وڅېړئ. د راپور جوړول HMRC ته د مالیې اظهارنامه نه لېږي."
         }
       },
       "handler_or_behavior": "`report188Navigate(`"
@@ -3081,7 +3369,7 @@
       "audit_ref": "INV-042",
       "element_id": null,
       "label": "🗂️ Saved reports archive Open previous report snapshots",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Open the archive of report snapshots saved previously in the app.",
@@ -3098,6 +3386,78 @@
           "inputs": "برای بازکردن بایگانی ورودی لازم نیست. برای محدودکردن فهرست از فیلترها یا جست‌وجو استفاده کنید.",
           "result": "بایگانی گزارش‌های ذخیره‌شده باز می‌شود و نسخه‌های موجود را نمایش می‌دهد.",
           "notes": "گزارش بایگانی‌شده تصویری از اطلاعات هنگام ذخیره است و ممکن است تغییرات بعدی تراکنش‌ها را نشان ندهد. برای ارقام فعلی گزارش تازه تهیه کنید."
+        },
+        "ar": {
+          "purpose": "يفتح أرشيف لقطات التقارير التي سبق حفظها في التطبيق.",
+          "when": "استخدمه عندما تحتاج إلى العثور على تقرير حُفظ سابقًا أو مراجعته.",
+          "how": "اختر Saved reports archive من قائمة Reports & Tax، ثم تصفح قائمة التقارير المحفوظة أو ابحث فيها.",
+          "inputs": "لا يلزم إدخال شيء لفتح الأرشيف. استخدم عوامل التصفية أو حقول البحث المتاحة لتضييق القائمة.",
+          "result": "يُفتح أرشيف التقارير المحفوظة ويعرض لقطات التقارير المتاحة.",
+          "notes": "التقرير المؤرشف لقطة من وقت حفظه وقد لا يعكس التغييرات اللاحقة على المعاملات. أنشئ تقريرًا جديدًا إذا كنت تحتاج إلى أرقام حالية."
+        },
+        "ckb": {
+          "purpose": "ئەرشیفی وێنەی ڕاپۆرتە پاشەکەوتکراوەکانی پێشووی ناو ئەپەکە دەکاتەوە.",
+          "when": "کاتێک پێویستت بە دۆزینەوە یان پێداچوونەوەی ڕاپۆرتێک هەیە کە پێشتر پاشەکەوت کراوە، بەکاریبهێنە.",
+          "how": "لە پێڕستی Reports & Tax، Saved reports archive هەڵبژێرە، پاشان لیستی ڕاپۆرتە پاشەکەوتکراوەکان بگەڕێ یان بگەڕێ بۆی.",
+          "inputs": "بۆ کردنەوەی ئەرشیف هیچ زانیارییەک پێویست نییە. فلتەر یان خانەی گەڕانی بەردەست بەکاربهێنە بۆ کەمکردنەوەی لیستەکە.",
+          "result": "ئەرشیفی ڕاپۆرتە پاشەکەوتکراوەکان دەکرێتەوە و وێنە ڕاپۆرتە بەردەستەکان پیشان دەدات.",
+          "notes": "ڕاپۆرتی ئەرشیفکراو وێنەیەکە لە کاتی پاشەکەوتکردندا؛ لەوانەیە گۆڕانکارییە دواترەکانی مامەڵەکان پیشان نەدات. ئەگەر ژمارەی ئێستات پێویستە، ڕاپۆرتێکی نوێ دروست بکە."
+        },
+        "kmr": {
+          "purpose": "Arşîva wêneyên raporên ku berê di sepanê de hatine hilanîn vedike.",
+          "when": "Dema ku hewce ye raporeke ku berê hatiye hilanîn bibînî an lê binêrî, vê bikar bîne.",
+          "how": "Di menuya Reports & Tax de Saved reports archive hilbijêre, paşê lîsteya raporên hilanî bigere an lê bigere.",
+          "inputs": "Ji bo vekirina arşîvê agahî nehewce ye. Parzûn an qadên lêgerînê yên peyda bikar bîne da ku lîste teng bikî.",
+          "result": "Arşîva raporên hilanî vedibe û wêneyên raporên peyda nîşan dide.",
+          "notes": "Rapora arşîvkirî wêneyeke dema hilanînê ye; dibe ku guhertinên paşê yên danûstandinan nîşan nede. Heke hejmarên niha dixwazî, raporeke nû çêbike."
+        },
+        "tr": {
+          "purpose": "Uygulamada daha önce kaydedilmiş rapor anlık görüntülerinin arşivini açar.",
+          "when": "Daha önce kaydedilmiş bir raporu bulmanız veya incelemeniz gerektiğinde kullanın.",
+          "how": "Reports & Tax menüsünde Saved reports archive seçeneğini seçin, ardından kayıtlı rapor listesini inceleyin veya arayın.",
+          "inputs": "Arşivi açmak için girdi gerekmez. Listeyi daraltmak için mevcut filtreleri veya arama alanlarını kullanın.",
+          "result": "Kaydedilmiş rapor arşivi açılır ve mevcut rapor anlık görüntülerini gösterir.",
+          "notes": "Arşivlenmiş rapor kaydedildiği andaki bir görüntüdür; işlemlerdeki sonraki değişiklikleri yansıtmayabilir. Güncel rakamlar gerekiyorsa yeni rapor oluşturun."
+        },
+        "pl": {
+          "purpose": "Otwiera archiwum migawek raportów zapisanych wcześniej w aplikacji.",
+          "when": "Użyj, gdy chcesz znaleźć lub przejrzeć wcześniej zapisany raport.",
+          "how": "W menu Reports & Tax wybierz Saved reports archive, a następnie przeglądaj lub wyszukaj zapisaną listę raportów.",
+          "inputs": "Do otwarcia archiwum nie są wymagane żadne dane. Użyj dostępnych filtrów lub pól wyszukiwania, aby zawęzić listę.",
+          "result": "Otwiera się archiwum zapisanych raportów i wyświetla dostępne migawki.",
+          "notes": "Zarchiwizowany raport jest migawką z chwili zapisu i może nie uwzględniać późniejszych zmian transakcji. Jeśli potrzebujesz aktualnych danych, wygeneruj nowy raport."
+        },
+        "ur": {
+          "purpose": "ایپ میں پہلے محفوظ کیے گئے رپورٹ اسنیپ شاٹس کا آرکائیو کھولتا ہے۔",
+          "when": "جب پہلے محفوظ کی گئی رپورٹ تلاش یا اس کا جائزہ لینا ہو تو استعمال کریں۔",
+          "how": "Reports & Tax مینو میں Saved reports archive منتخب کریں، پھر محفوظ رپورٹوں کی فہرست دیکھیں یا تلاش کریں۔",
+          "inputs": "آرکائیو کھولنے کے لیے معلومات درکار نہیں۔ فہرست محدود کرنے کے لیے دستیاب فلٹر یا تلاش کے خانے استعمال کریں۔",
+          "result": "محفوظ رپورٹوں کا آرکائیو کھلتا ہے اور دستیاب رپورٹ اسنیپ شاٹس دکھاتا ہے۔",
+          "notes": "آرکائیو رپورٹ محفوظ کیے جانے کے وقت کی تصویر ہوتی ہے؛ یہ لین دین میں بعد کی تبدیلیاں نہیں دکھا سکتی۔ موجودہ اعداد کے لیے نئی رپورٹ بنائیں۔"
+        },
+        "pa": {
+          "purpose": "ਐਪ ਵਿੱਚ ਪਹਿਲਾਂ ਸੰਭਾਲੇ ਰਿਪੋਰਟ ਸਨੈਪਸ਼ਾਟਾਂ ਦਾ ਆਰਕਾਈਵ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਪਹਿਲਾਂ ਸੰਭਾਲੀ ਰਿਪੋਰਟ ਲੱਭਣੀ ਜਾਂ ਵੇਖਣੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Reports & Tax ਮੀਨੂ ਵਿੱਚ Saved reports archive ਚੁਣੋ, ਫਿਰ ਸੰਭਾਲੀਆਂ ਰਿਪੋਰਟਾਂ ਦੀ ਸੂਚੀ ਵੇਖੋ ਜਾਂ ਖੋਜੋ।",
+          "inputs": "ਆਰਕਾਈਵ ਖੋਲ੍ਹਣ ਲਈ ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ। ਸੂਚੀ ਛੋਟੀ ਕਰਨ ਲਈ ਉਪਲਬਧ ਫਿਲਟਰ ਜਾਂ ਖੋਜ ਖਾਨੇ ਵਰਤੋ।",
+          "result": "ਸੰਭਾਲੀਆਂ ਰਿਪੋਰਟਾਂ ਦਾ ਆਰਕਾਈਵ ਖੁੱਲ੍ਹਦਾ ਹੈ ਅਤੇ ਉਪਲਬਧ ਰਿਪੋਰਟ ਸਨੈਪਸ਼ਾਟ ਦਿਖਾਉਂਦਾ ਹੈ।",
+          "notes": "ਆਰਕਾਈਵ ਕੀਤੀ ਰਿਪੋਰਟ ਸੰਭਾਲਣ ਵੇਲੇ ਦੀ ਤਸਵੀਰ ਹੁੰਦੀ ਹੈ; ਇਹ ਲੈਣ-ਦੇਣ ਵਿੱਚ ਬਾਅਦ ਦੀਆਂ ਤਬਦੀਲੀਆਂ ਨਹੀਂ ਦਿਖਾ ਸਕਦੀ। ਮੌਜੂਦਾ ਅੰਕੜਿਆਂ ਲਈ ਨਵੀਂ ਰਿਪੋਰਟ ਬਣਾਓ।"
+        },
+        "prs": {
+          "purpose": "بایگانی تصویرهای گزارش را که قبلاً در برنامه ذخیره شده‌اند باز می‌کند.",
+          "when": "وقتی لازم است گزارشی را که قبلاً ذخیره کرده‌اید پیدا یا بررسی کنید، استفاده کنید.",
+          "how": "در منوی Reports & Tax گزینه Saved reports archive را انتخاب کنید و فهرست گزارش‌های ذخیره‌شده را مرور یا جست‌وجو کنید.",
+          "inputs": "برای بازکردن بایگانی ورودی لازم نیست. برای محدودکردن فهرست از فیلترها یا جست‌وجوی موجود استفاده کنید.",
+          "result": "بایگانی گزارش‌های ذخیره‌شده باز می‌شود و تصویرهای گزارش موجود را نمایش می‌دهد.",
+          "notes": "گزارش بایگانی‌شده تصویری از زمان ذخیره است و ممکن است تغییرات بعدی تراکنش‌ها را نشان ندهد. برای ارقام فعلی گزارش تازه تهیه کنید."
+        },
+        "ps": {
+          "purpose": "په اپ کې د پخوا خوندي شویو راپورونو د انځورونو ارشیف پرانیزي.",
+          "when": "کله چې پخوانی خوندي شوی راپور موندل یا کتل غواړئ، وکاروئ.",
+          "how": "د Reports & Tax په مېنو کې Saved reports archive وټاکئ، بیا د خوندي شویو راپورونو لېست وګورئ یا ولټوئ.",
+          "inputs": "د ارشیف د پرانیستلو لپاره معلوماتو ته اړتیا نشته. د لېست د محدودولو لپاره شته فلټرونه یا د لټون برخې وکاروئ.",
+          "result": "د خوندي شویو راپورونو ارشیف پرانیستل کېږي او شته راپور انځورونه ښکاره کوي.",
+          "notes": "ارشیف شوی راپور د خوندي کولو د وخت انځور دی؛ ښايي په معاملاتو کې وروسته بدلونونه ونه ښيي. د اوسنیو شمېرو لپاره نوی راپور جوړ کړئ."
         }
       },
       "handler_or_behavior": "`report188Navigate(`"
@@ -8148,8 +8508,8 @@
     }
   ],
   "content_progress": {
-    "completed_entries": 30,
-    "draft_entries": 199,
+    "completed_entries": 35,
+    "draft_entries": 194,
     "pending_entries": 0,
     "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written."
   }
