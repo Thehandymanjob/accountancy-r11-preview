@@ -4447,7 +4447,7 @@
       "audit_ref": "INV-059",
       "element_id": "fullRestoreButton",
       "label": "Restore",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the file picker so you can select a complete backup to restore.",
@@ -4464,6 +4464,78 @@
           "inputs": "به یک فایل JSON پشتیبان کامل و سازگار نیاز دارید.",
           "result": "در صورت موفقیت، پایگاه داده فعلی در هر ۱۷ حوزه با اطلاعات فایل پشتیبان انتخاب‌شده جایگزین می‌شود.",
           "notes": "خطر بسیار بالا: Restore کل پایگاه داده فعلی را جایگزین می‌کند؛ از جمله حسابداری، پروژه‌ها، فاکتورها، قراردادها، تنظیمات، عکس‌ها و لوگو. اطلاعات فعلی ممکن است از بین برود. ابتدا پشتیبان تازه بسازید و فایل انتخابی را بررسی کنید. برای صرفاً مشاهده یا آزمایش پشتیبان از Restore استفاده نکنید."
+        },
+        "ar": {
+          "purpose": "يفتح منتقي الملفات لتتمكن من اختيار نسخة احتياطية كاملة لاستعادتها.",
+          "when": "استخدمه فقط عندما تقصد استبدال قاعدة بيانات التطبيق الحالية بنسخة احتياطية كاملة أُنشئت سابقًا.",
+          "how": "اختر Restore، وحدد ملف النسخة الاحتياطية الكاملة المقصود، وراجع أي رسالة تأكيد بعناية قبل المتابعة. توقف إذا لم تكن متأكدًا من الملف الصحيح.",
+          "inputs": "يلزم ملف JSON متوافق لنسخة احتياطية كاملة.",
+          "result": "إذا نجحت الاستعادة، تُستبدل قاعدة البيانات الحالية بالنسخة المختارة عبر مجالات قاعدة البيانات السبعة عشر كلها.",
+          "notes": "خطر مرتفع جدًا: يستبدل Restore قاعدة البيانات الحالية بالكامل، بما فيها المحاسبة والمشاريع والفواتير والعقود والإعدادات والصور والشعار. قد تفقد البيانات الحالية. أنشئ نسخة احتياطية جديدة أولًا وتحقق من الملف المختار. لا تستخدم هذا الإجراء لمجرد فحص نسخة احتياطية."
+        },
+        "ckb": {
+          "purpose": "هەڵبژێری فایل دەکاتەوە بۆ ئەوەی بتوانیت فایلێکی پاڵپشتی تەواو بۆ گەڕاندنەوە هەڵبژێریت.",
+          "when": "تەنها کاتێک بەکاریبهێنە کە بە مەبەست دەتەوێت بنکەدراوەی ئێستای ئەپەکە بە فایلێکی پاڵپشتی تەواوی پێشتر دروستکراو بگۆڕیتەوە.",
+          "how": "Restore هەڵبژێرە، فایلی پاڵپشتی تەواوی مەبەست هەڵبژێرە و پێش بەردەوامبوون هەر پەیامی پشتڕاستکردنەوەیەک بە وردی بخوێنەوە. ئەگەر دڵنیا نیت کام فایل دروستە، بوەستە.",
+          "inputs": "فایلێکی JSON ـی پاڵپشتی تەواو و گونجاو پێویستە.",
+          "result": "ئەگەر گەڕاندنەوەکە سەرکەوتوو بێت، بنکەدراوەی ئێستا لە هەموو ١٧ بوارەکەدا بە فایلە هەڵبژێردراوەکە دەگۆڕدرێتەوە.",
+          "notes": "مەترسی زۆر بەرز: Restore هەموو بنکەدراوەی ئێستا دەگۆڕێتەوە، لەوانەش ژمێریاری، پڕۆژە، فاکتۆر، گرێبەست، ڕێکخستن، وێنە و لۆگۆ. زانیاری ئێستا لەدەست دەچێت. سەرەتا پاڵپشتییەکی نوێ دروست بکە و فایلە هەڵبژێردراوەکە بپشکنە. بۆ تەنها بینینی پاڵپشتی Restore بەکارمەهێنە."
+        },
+        "kmr": {
+          "purpose": "Hilbijêra pelan vedike da ku tu karibî pelekî backup-a temam ji bo vegerandinê hilbijêrî.",
+          "when": "Vê tenê dema ku bi qest dixwazî danegeha niha ya sepanê bi backup-eke temam a berê hatî çêkirin biguherînî bikar bîne.",
+          "how": "Restore hilbijêre, pela backup-a temam a rast hilbijêre û berî domandinê her peyama piştrastkirinê bi baldarî bixwîne. Heke ji pela rast ne bawer î, raweste.",
+          "inputs": "Peleke JSON ya backup-a temam û lihevhatî pêwîst e.",
+          "result": "Heke vegerandin serkeftî be, danegeha niha di hemû 17 qadên danegehê de bi backup-a hilbijartî tê guhertin.",
+          "notes": "XETEREYA PIR BILIND: Restore tevahiya danegeha niha diguherîne, di nav de hesab, projeler, fatûre, peyman, mîheng, wêne û logo. Daneyên niha dikarin winda bibin. Pêşî backup-eke nû çêbike û pela hilbijartî kontrol bike. Vê ji bo tenê lênihêrîna backup-ê bikar neyne."
+        },
+        "tr": {
+          "purpose": "Geri yüklemek üzere tam bir yedek seçebilmeniz için dosya seçiciyi açar.",
+          "when": "Bunu yalnızca mevcut uygulama veritabanını daha önce oluşturulmuş tam bir yedekle bilerek değiştirmek istediğinizde kullanın.",
+          "how": "Restore seçeneğini seçin, amaçlanan tam yedek dosyasını seçin ve devam etmeden önce tüm onay mesajlarını dikkatle inceleyin. Doğru dosyadan emin değilseniz durun.",
+          "inputs": "Uyumlu, tam bir yedek JSON dosyası gerekir.",
+          "result": "Geri yükleme başarılı olursa mevcut veritabanı 17 veritabanı alanının tamamında seçilen yedekle değiştirilir.",
+          "notes": "ÇOK YÜKSEK RİSK: Restore; muhasebe, projeler, faturalar, sözleşmeler, ayarlar, fotoğraflar ve logo dahil mevcut veritabanının tamamını değiştirir. Mevcut veriler kaybolabilir. Önce yeni bir yedek alın ve seçilen dosyayı doğrulayın. Yedeği yalnızca incelemek için bu işlemi kullanmayın."
+        },
+        "pl": {
+          "purpose": "Otwiera wybór pliku, aby można było wskazać kompletną kopię zapasową do przywrócenia.",
+          "when": "Używaj tylko wtedy, gdy świadomie chcesz zastąpić bieżącą bazę danych aplikacji wcześniej utworzoną kompletną kopią zapasową.",
+          "how": "Wybierz Restore, wskaż właściwy kompletny plik kopii zapasowej i dokładnie sprawdź wszelkie potwierdzenia przed kontynuowaniem. Zatrzymaj się, jeśli nie masz pewności, który plik jest właściwy.",
+          "inputs": "Wymagany jest zgodny plik JSON kompletnej kopii zapasowej.",
+          "result": "Jeśli przywracanie się powiedzie, bieżąca baza danych zostanie zastąpiona wybraną kopią we wszystkich 17 obszarach bazy.",
+          "notes": "BARDZO WYSOKIE RYZYKO: Restore zastępuje całą bieżącą bazę danych, w tym księgowość, projekty, faktury, umowy, ustawienia, zdjęcia i logo. Bieżące dane mogą zostać utracone. Najpierw utwórz świeżą kopię zapasową i sprawdź wybrany plik. Nie używaj tej funkcji tylko do przeglądania kopii."
+        },
+        "ur": {
+          "purpose": "فائل چننے کا ڈائیلاگ کھولتا ہے تاکہ آپ بحالی کے لیے مکمل بیک اپ منتخب کر سکیں۔",
+          "when": "اسے صرف اسی وقت استعمال کریں جب آپ جان بوجھ کر موجودہ ایپ ڈیٹا بیس کو پہلے بنائے گئے مکمل بیک اپ سے بدلنا چاہتے ہوں۔",
+          "how": "Restore منتخب کریں، مطلوبہ مکمل بیک اپ فائل چنیں اور آگے بڑھنے سے پہلے ہر تصدیقی پیغام غور سے دیکھیں۔ اگر درست فائل کا یقین نہ ہو تو رک جائیں۔",
+          "inputs": "مطابقت رکھنے والی مکمل بیک اپ JSON فائل درکار ہے۔",
+          "result": "بحالی کامیاب ہونے پر موجودہ ڈیٹا بیس کے تمام 17 شعبے منتخب بیک اپ سے بدل جاتے ہیں۔",
+          "notes": "انتہائی زیادہ خطرہ: Restore موجودہ پورا ڈیٹا بیس بدل دیتا ہے، جس میں اکاؤنٹنگ، پروجیکٹس، انوائسز، معاہدے، ترتیبات، تصاویر اور لوگو شامل ہیں۔ موجودہ ڈیٹا ضائع ہو سکتا ہے۔ پہلے نیا بیک اپ بنائیں اور منتخب فائل کی تصدیق کریں۔ صرف بیک اپ دیکھنے کے لیے اسے استعمال نہ کریں۔"
+        },
+        "pa": {
+          "purpose": "ਫਾਈਲ ਚੋਣਕ ਖੋਲ੍ਹਦਾ ਹੈ ਤਾਂ ਜੋ ਤੁਸੀਂ ਮੁੜ-ਬਹਾਲੀ ਲਈ ਪੂਰਾ ਬੈਕਅੱਪ ਚੁਣ ਸਕੋ।",
+          "when": "ਇਸਨੂੰ ਸਿਰਫ਼ ਉਦੋਂ ਵਰਤੋ ਜਦੋਂ ਤੁਸੀਂ ਜਾਣ-ਬੁੱਝ ਕੇ ਮੌਜੂਦਾ ਐਪ ਡਾਟਾਬੇਸ ਨੂੰ ਪਹਿਲਾਂ ਬਣਾਏ ਪੂਰੇ ਬੈਕਅੱਪ ਨਾਲ ਬਦਲਣਾ ਚਾਹੁੰਦੇ ਹੋ।",
+          "how": "Restore ਚੁਣੋ, ਮਨਚਾਹੀ ਪੂਰੀ ਬੈਕਅੱਪ ਫਾਈਲ ਚੁਣੋ ਅਤੇ ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਹਰ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਧਿਆਨ ਨਾਲ ਵੇਖੋ। ਜੇ ਸਹੀ ਫਾਈਲ ਬਾਰੇ ਯਕੀਨ ਨਹੀਂ ਤਾਂ ਰੁਕੋ।",
+          "inputs": "ਅਨੁਕੂਲ ਪੂਰੀ ਬੈਕਅੱਪ JSON ਫਾਈਲ ਲੋੜੀਂਦੀ ਹੈ।",
+          "result": "ਜੇ ਮੁੜ-ਬਹਾਲੀ ਸਫਲ ਹੋਵੇ ਤਾਂ ਮੌਜੂਦਾ ਡਾਟਾਬੇਸ ਦੇ ਸਾਰੇ 17 ਖੇਤਰ ਚੁਣੇ ਬੈਕਅੱਪ ਨਾਲ ਬਦਲ ਜਾਂਦੇ ਹਨ।",
+          "notes": "ਬਹੁਤ ਉੱਚਾ ਖਤਰਾ: Restore ਮੌਜੂਦਾ ਪੂਰਾ ਡਾਟਾਬੇਸ ਬਦਲਦਾ ਹੈ, ਜਿਸ ਵਿੱਚ ਅਕਾਊਂਟਿੰਗ, ਪ੍ਰੋਜੈਕਟ, ਇਨਵੌਇਸ, ਇਕਰਾਰਨਾਮੇ, ਸੈਟਿੰਗਾਂ, ਤਸਵੀਰਾਂ ਅਤੇ ਲੋਗੋ ਸ਼ਾਮਲ ਹਨ। ਮੌਜੂਦਾ ਡਾਟਾ ਗੁੰਮ ਹੋ ਸਕਦਾ ਹੈ। ਪਹਿਲਾਂ ਨਵਾਂ ਬੈਕਅੱਪ ਬਣਾਓ ਅਤੇ ਚੁਣੀ ਫਾਈਲ ਜਾਂਚੋ। ਸਿਰਫ਼ ਬੈਕਅੱਪ ਵੇਖਣ ਲਈ ਇਹ ਨਾ ਵਰਤੋ।"
+        },
+        "prs": {
+          "purpose": "انتخاب‌گر فایل را باز می‌کند تا بتوانید یک فایل پشتیبان کامل را برای بازیابی انتخاب کنید.",
+          "when": "فقط زمانی استفاده کنید که عمداً می‌خواهید پایگاه داده فعلی برنامه را با یک پشتیبان کامل که قبلاً ساخته شده جایگزین کنید.",
+          "how": "Restore را انتخاب کنید، فایل پشتیبان کامل موردنظر را برگزینید و پیش از ادامه هر پیام تأیید را با دقت بررسی کنید. اگر درباره درست‌بودن فایل مطمئن نیستید، متوقف شوید.",
+          "inputs": "یک فایل JSON پشتیبان کامل و سازگار لازم است.",
+          "result": "اگر بازیابی موفق شود، پایگاه داده فعلی در هر ۱۷ حوزه با پشتیبان انتخاب‌شده جایگزین می‌شود.",
+          "notes": "خطر بسیار بالا: Restore کل پایگاه داده فعلی را جایگزین می‌کند؛ از جمله حسابداری، پروژه‌ها، فاکتورها، قراردادها، تنظیمات، عکس‌ها و لوگو. داده‌های فعلی ممکن است از بین بروند. ابتدا پشتیبان تازه بسازید و فایل انتخابی را بررسی کنید. برای صرفاً مشاهده پشتیبان از این گزینه استفاده نکنید."
+        },
+        "ps": {
+          "purpose": "د فایل ټاکونکی پرانیزي، څو د بېرته راګرځولو لپاره بشپړ بیک اپ وټاکئ.",
+          "when": "دا یوازې هغه وخت وکاروئ چې په قصدي ډول غواړئ د اپ اوسنی ډیټابېس له مخکې جوړ شوي بشپړ بیک اپ سره بدل کړئ.",
+          "how": "Restore وټاکئ، مطلوب بشپړ بیک اپ فایل وټاکئ او له دوام مخکې د تایید هر پیغام په دقت وګورئ. که د سم فایل په اړه ډاډه نه یاست، ودرېږئ.",
+          "inputs": "د سازګار بشپړ بیک اپ JSON فایل اړین دی.",
+          "result": "که بېرته راګرځول بریالي شي، اوسنی ډیټابېس په ټولو ۱۷ برخو کې له ټاکل شوي بیک اپ سره بدلېږي.",
+          "notes": "ډېر لوړ خطر: Restore ټول اوسنی ډیټابېس بدلوي، چې حسابداري، پروژې، بلونه، قراردادونه، تنظیمات، عکسونه او لوګو پکې شامل دي. اوسني معلومات له منځه تللی شي. لومړی نوی بیک اپ جوړ او ټاکل شوی فایل تایید کړئ. یوازې د بیک اپ د کتلو لپاره دا مه کاروئ."
         }
       },
       "handler_or_behavior": "`chooseFullDatabaseRestore()`"
@@ -4473,7 +4545,7 @@
       "audit_ref": "INV-060",
       "element_id": null,
       "label": "Show version details",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Shows the exact app build and storage database loaded in this browser.",
@@ -4490,6 +4562,78 @@
           "inputs": "اطلاعاتی لازم نیست.",
           "result": "اطلاعات نسخه فعلی برنامه و پایگاه داده برای بررسی فنی نمایش داده می‌شود.",
           "notes": "این گزینه فقط اطلاعات را نمایش می‌دهد؛ برنامه را به‌روزرسانی نمی‌کند، داده‌ای را تغییر نمی‌دهد و به‌تنهایی فعال‌شدن انتشار جدید را ثابت نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يعرض إصدار التطبيق الدقيق وبنية قاعدة بيانات التخزين المحملة في هذا المتصفح.",
+          "when": "استخدمه عند الإبلاغ عن خطأ أو التحقق من تفعيل تحديث أو تأكيد البنية التي فتحتها.",
+          "how": "اختر Show version details واقرأ معرّف البناء ومعلومات قاعدة البيانات المعروضة.",
+          "inputs": "لا يلزم إدخال شيء.",
+          "result": "تُعرض تفاصيل بناء التطبيق الحالي وقاعدة بيانات التخزين لأغراض التشخيص.",
+          "notes": "هذا عرض للمعلومات فقط. لا يحدّث التطبيق ولا يغيّر البيانات ولا يثبت أن نشرًا أحدث أصبح متاحًا."
+        },
+        "ckb": {
+          "purpose": "وەشانی وردی ئەپ و بنکەدراوەی هەڵگرتنی بارکراو لەم وێبگەڕەدا پیشان دەدات.",
+          "when": "کاتێک هەڵەیەک ڕادەگەیەنیت، چالاکبوونی نوێکردنەوە دەپشکنیت یان دەتەوێت پشتڕاست بکەیتەوە کام Build ـت کردووەتەوە، بەکاریبهێنە.",
+          "how": "Show version details هەڵبژێرە و ناسێنەری Build و زانیاری بنکەدراوەی پیشاندراو بخوێنەرەوە.",
+          "inputs": "هیچ زانیارییەک پێویست نییە.",
+          "result": "وردەکارییەکانی Build ـی ئێستای ئەپ و بنکەدراوەی هەڵگرتن بۆ پشکنینی تەکنیکی پیشان دەدرێن.",
+          "notes": "ئەمە تەنها پیشاندانی زانیارییە. ئەپ نوێ ناکاتەوە، داتا ناگۆڕێت و بەڵگە نییە کە بڵاوکردنەوەیەکی نوێتر بەردەستە."
+        },
+        "kmr": {
+          "purpose": "Guhertoya rast a sepanê û danegeha hilanînê ya di vê gerokê de barkirî nîşan dide.",
+          "when": "Dema ku çewtiyekê radigihînî, kontrol dikî ka nûkirin çalak e an piştrast dikî kîjan avahî vekiriye, vê bikar bîne.",
+          "how": "Show version details hilbijêre û nasnameya avakirinê û agahiyên danegehê yên xuya bixwîne.",
+          "inputs": "Tu agahî nehewce ye.",
+          "result": "Hûrguliyên avakirina niha ya sepanê û danegeha hilanînê ji bo teşxîsê tên nîşandan.",
+          "notes": "Ev tenê nîşandana agahiyan e. Sepanê nû nake, daneyan naguherîne û îspat nake ku belavkirineke nûtir peyda ye."
+        },
+        "tr": {
+          "purpose": "Bu tarayıcıda yüklenen uygulamanın tam sürümünü ve depolama veritabanını gösterir.",
+          "when": "Bir hata bildirirken, güncellemenin etkin olup olmadığını kontrol ederken veya açtığınız yapıyı doğrularken kullanın.",
+          "how": "Show version details seçeneğini seçin ve görüntülenen derleme tanımlayıcısını ve veritabanı bilgilerini okuyun.",
+          "inputs": "Girdi gerekmez.",
+          "result": "Geçerli uygulama derlemesi ve depolama veritabanı ayrıntıları tanılama amacıyla gösterilir.",
+          "notes": "Bu yalnızca bilgi görüntüler. Uygulamayı güncellemez, verileri değiştirmez ve daha yeni bir dağıtımın mevcut olduğunu kanıtlamaz."
+        },
+        "pl": {
+          "purpose": "Pokazuje dokładną wersję aplikacji i bazę danych pamięci masowej załadowaną w tej przeglądarce.",
+          "when": "Użyj podczas zgłaszania błędu, sprawdzania, czy aktualizacja jest aktywna, lub potwierdzania, którą kompilację otwarto.",
+          "how": "Wybierz Show version details i odczytaj wyświetlony identyfikator kompilacji oraz informacje o bazie danych.",
+          "inputs": "Nie są wymagane żadne dane.",
+          "result": "Wyświetlane są szczegóły bieżącej kompilacji aplikacji i bazy danych pamięci masowej do celów diagnostycznych.",
+          "notes": "To tylko wyświetlanie informacji. Nie aktualizuje aplikacji, nie zmienia danych i nie dowodzi, że nowsze wdrożenie jest dostępne."
+        },
+        "ur": {
+          "purpose": "اس براؤزر میں لوڈ ہونے والا ایپ کا درست ورژن اور اسٹوریج ڈیٹا بیس دکھاتا ہے۔",
+          "when": "خرابی کی اطلاع دیتے وقت، اپ ڈیٹ فعال ہونے کی جانچ یا کھولے گئے بلڈ کی تصدیق کے لیے استعمال کریں۔",
+          "how": "Show version details منتخب کریں اور دکھایا گیا بلڈ شناختی نمبر اور ڈیٹا بیس کی معلومات پڑھیں۔",
+          "inputs": "کسی معلومات کی ضرورت نہیں۔",
+          "result": "موجودہ ایپ بلڈ اور اسٹوریج ڈیٹا بیس کی تفصیلات تشخیص کے لیے دکھائی جاتی ہیں۔",
+          "notes": "یہ صرف معلومات دکھاتا ہے۔ ایپ اپ ڈیٹ نہیں کرتا، ڈیٹا نہیں بدلتا اور یہ ثابت نہیں کرتا کہ نئی تعیناتی دستیاب ہے۔"
+        },
+        "pa": {
+          "purpose": "ਇਸ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਲੋਡ ਹੋਇਆ ਐਪ ਦਾ ਸਹੀ ਵਰਜਨ ਅਤੇ ਸਟੋਰੇਜ ਡਾਟਾਬੇਸ ਦਿਖਾਉਂਦਾ ਹੈ।",
+          "when": "ਗਲਤੀ ਦੀ ਰਿਪੋਰਟ ਕਰਦੇ ਸਮੇਂ, ਅੱਪਡੇਟ ਸਰਗਰਮ ਹੈ ਜਾਂ ਨਹੀਂ ਜਾਂਚਣ ਜਾਂ ਖੁੱਲ੍ਹੇ ਬਿਲਡ ਦੀ ਪੁਸ਼ਟੀ ਲਈ ਵਰਤੋ।",
+          "how": "Show version details ਚੁਣੋ ਅਤੇ ਦਿਖਾਇਆ ਬਿਲਡ ਪਛਾਣਕਰਤਾ ਤੇ ਡਾਟਾਬੇਸ ਜਾਣਕਾਰੀ ਪੜ੍ਹੋ।",
+          "inputs": "ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ।",
+          "result": "ਮੌਜੂਦਾ ਐਪ ਬਿਲਡ ਅਤੇ ਸਟੋਰੇਜ ਡਾਟਾਬੇਸ ਦੇ ਵੇਰਵੇ ਜਾਂਚ ਲਈ ਦਿਖਾਏ ਜਾਂਦੇ ਹਨ।",
+          "notes": "ਇਹ ਸਿਰਫ਼ ਜਾਣਕਾਰੀ ਦਿਖਾਉਂਦਾ ਹੈ। ਐਪ ਅੱਪਡੇਟ ਨਹੀਂ ਕਰਦਾ, ਡਾਟਾ ਨਹੀਂ ਬਦਲਦਾ ਅਤੇ ਨਵੀਂ ਤੈਨਾਤੀ ਉਪਲਬਧ ਹੋਣ ਦਾ ਸਬੂਤ ਨਹੀਂ।"
+        },
+        "prs": {
+          "purpose": "نسخه دقیق برنامه و پایگاه داده ذخیره‌سازی بارگذاری‌شده در این مرورگر را نشان می‌دهد.",
+          "when": "هنگام گزارش اشکال، بررسی فعال‌شدن به‌روزرسانی یا تأیید Build بازشده استفاده کنید.",
+          "how": "Show version details را انتخاب کنید و شناسه Build و اطلاعات پایگاه داده نمایش‌داده‌شده را بخوانید.",
+          "inputs": "اطلاعاتی لازم نیست.",
+          "result": "جزئیات Build فعلی برنامه و پایگاه داده ذخیره‌سازی برای عیب‌یابی نمایش داده می‌شوند.",
+          "notes": "این گزینه فقط اطلاعات را نمایش می‌دهد؛ برنامه را به‌روزرسانی نمی‌کند، داده‌ای را تغییر نمی‌دهد و ثابت نمی‌کند انتشار جدیدتری در دسترس است."
+        },
+        "ps": {
+          "purpose": "په دې براوزر کې د اپ کره نسخه او بار شوی د زېرمتون ډیټابېس ښيي.",
+          "when": "د تېروتنې د راپور ورکولو، د تازه کولو د فعالېدو د کتلو یا د پرانیستل شوي جوړښت د تایید لپاره یې وکاروئ.",
+          "how": "Show version details وټاکئ او ښودل شوی د جوړونې پېژند او د ډیټابېس معلومات ولولئ.",
+          "inputs": "معلوماتو ته اړتیا نشته.",
+          "result": "د اوسني اپ جوړښت او د زېرمتون ډیټابېس جزیات د تشخیص لپاره ښکاره کېږي.",
+          "notes": "دا یوازې معلومات ښيي. اپ نه تازه کوي، معلومات نه بدلوي او دا نه ثابتوي چې نوې خپرونه شته."
         }
       },
       "handler_or_behavior": "`toggleMonitorVersionInfo()`"
@@ -4499,7 +4643,7 @@
       "audit_ref": "INV-061",
       "element_id": "toggleActivityArchiveButton",
       "label": "Show activity archive",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens or closes the device-local activity archive.",
@@ -4516,6 +4660,78 @@
           "inputs": "متن جست‌وجو، نوع رویداد و بازه تاریخ اختیاری هستند.",
           "result": "ردیف‌های فعالیت موجود و منطبق با فیلترها، با توجه به صفحه‌بندی، نمایش داده می‌شوند.",
           "notes": "این بایگانی روی همین دستگاه نگهداری می‌شود و خودکار به سرور ارسال نمی‌شود. ممکن است اطلاعات کاری در آن وجود داشته باشد؛ پیش از خروجی‌گرفتن یا اشتراک‌گذاری، محتوا را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يفتح أرشيف النشاط المخزن محليًا على الجهاز أو يغلقه.",
+          "when": "استخدمه لمراجعة النشاط الأخير أو الأخطاء أو أحداث التخزين أو سلامة البيانات التي سجلها هذا المتصفح.",
+          "how": "اختر Show activity archive. استخدم مربع البحث ومرشح نوع الحدث ومرشح التاريخ لتضييق القائمة. اختر الزر مرة أخرى لإغلاق الأرشيف.",
+          "inputs": "نص البحث ونوع الحدث والنطاق الزمني مرشحات اختيارية.",
+          "result": "تُعرض صفوف النشاط المحلية المطابقة، وفقًا للسجلات المتاحة وتقسيم الصفحات.",
+          "notes": "يُخزّن الأرشيف على هذا الجهاز ولا يُرسل تلقائيًا إلى خادم. قد تتضمن الإدخالات معلومات عن النشاط التجاري؛ راجعها بعناية قبل تصدير معلومات التشخيص أو مشاركتها."
+        },
+        "ckb": {
+          "purpose": "ئەرشیفی چالاکییە هەڵگیراوە ناوخۆییەکانی ئامێر دەکاتەوە یان دادەخات.",
+          "when": "بۆ پێداچوونەوە بە چالاکییە نوێکان، هەڵەکان، ڕووداوەکانی هەڵگرتن یان یەکپارچەیی داتا کە ئەم وێبگەڕە تۆماری کردوون بەکاریبهێنە.",
+          "how": "Show activity archive هەڵبژێرە. سندووقی گەڕان، فلتەری جۆری ڕووداو و فلتەری بەروار بەکاربهێنە بۆ کەمکردنەوەی لیستەکە. دووبارە دوگمەکە هەڵبژێرە بۆ داخستنی ئەرشیف.",
+          "inputs": "دەقی گەڕان، جۆری ڕووداو و ماوەی بەروار فلتەری هەڵبژاردەیین.",
+          "result": "ڕیزی چالاکییە ناوخۆییە گونجاوەکان، بە پێی تۆمارە بەردەستەکان و دابەشکردنی پەڕەکان، پیشان دەدرێن.",
+          "notes": "ئەرشیفەکە لەم ئامێرەدا هەڵدەگیرێت و بە شێوەی خۆکار بۆ سێرڤەر نانێردرێت. لەوانەیە زانیاری بازرگانی لە تۆمارەکاندا هەبێت؛ پێش دەرکردن یان هاوبەشکردنی زانیارییەکانی پشکنین، بە وردی پێداچوونەوەی بۆ بکە."
+        },
+        "kmr": {
+          "purpose": "Arşîva çalakiyê ya li ser amûrê herêmî hatiye hilanîn vedike an digire.",
+          "when": "Ji bo lênihêrîna çalakiya dawî, çewtiyan, bûyerên hilanînê an bûyerên yekparehiya daneyan ku ev gerok tomar kiriye, vê bikar bîne.",
+          "how": "Show activity archive hilbijêre. Qutiya lêgerînê, parzûna cureya bûyerê û parzûna dîrokê bikar bîne da ku lîste teng bikî. Dîsa bişkojkê hilbijêre da ku arşîvê bigirî.",
+          "inputs": "Nivîsa lêgerînê, cureya bûyerê û navbera dîrokê parzûnên vebijêrkî ne.",
+          "result": "Rêzên çalakiya herêmî yên lihevhatî, li gorî tomarên peyda û dabeşkirina rûpelan, tên nîşandan.",
+          "notes": "Arşîv li ser vê amûrê tê hilanîn û bi awayekî xweber ji serverê re nayê şandin. Dibe ku tomar agahiyên karsaziyê dihewînin; berî derxistin an parvekirina agahiyên teşxîsê wan bi baldarî binêre."
+        },
+        "tr": {
+          "purpose": "Bu tarayıcının kaydettiği cihaz içi etkinlik arşivini açar veya kapatır.",
+          "when": "Bu tarayıcı tarafından kaydedilen son etkinlikleri, hataları, depolama olaylarını veya veri bütünlüğü olaylarını incelemek için kullanın.",
+          "how": "Show activity archive seçeneğini seçin. Listeyi daraltmak için arama kutusunu, olay türü filtresini ve tarih filtresini kullanın. Arşivi kapatmak için düğmeyi tekrar seçin.",
+          "inputs": "Arama metni, olay türü ve tarih aralığı filtreleri isteğe bağlıdır.",
+          "result": "Mevcut kayıtlara ve sayfalamaya bağlı olarak eşleşen yerel etkinlik satırları gösterilir.",
+          "notes": "Arşiv bu cihazda saklanır ve otomatik olarak sunucuya gönderilmez. Kayıtlar işletme bağlamı içerebilir; tanılama bilgilerini dışa aktarmadan veya paylaşmadan önce dikkatle inceleyin."
+        },
+        "pl": {
+          "purpose": "Otwiera lub zamyka lokalne archiwum aktywności zapisane na tym urządzeniu.",
+          "when": "Użyj, aby przejrzeć ostatnią aktywność, błędy, zdarzenia pamięci masowej lub integralności danych zarejestrowane przez tę przeglądarkę.",
+          "how": "Wybierz Show activity archive. Użyj pola wyszukiwania, filtra typu zdarzenia i filtra daty, aby zawęzić listę. Wybierz przycisk ponownie, aby zamknąć archiwum.",
+          "inputs": "Tekst wyszukiwania, typ zdarzenia i zakres dat to filtry opcjonalne.",
+          "result": "Wyświetlane są pasujące lokalne wiersze aktywności, zależnie od dostępnych rekordów i stronicowania.",
+          "notes": "Archiwum jest przechowywane na tym urządzeniu i nie jest automatycznie wysyłane na serwer. Wpisy mogą zawierać informacje firmowe; dokładnie je sprawdź przed eksportem lub udostępnieniem danych diagnostycznych."
+        },
+        "ur": {
+          "purpose": "آلے پر مقامی طور پر محفوظ سرگرمی کا آرکائیو کھولتا یا بند کرتا ہے۔",
+          "when": "اس براؤزر میں درج حالیہ سرگرمی، خرابیوں، اسٹوریج واقعات یا ڈیٹا کی سالمیت کے واقعات کا جائزہ لینے کے لیے استعمال کریں۔",
+          "how": "Show activity archive منتخب کریں۔ فہرست محدود کرنے کے لیے تلاش کا خانہ، واقعے کی قسم کا فلٹر اور تاریخ کا فلٹر استعمال کریں۔ آرکائیو بند کرنے کے لیے بٹن دوبارہ منتخب کریں۔",
+          "inputs": "تلاش کا متن، واقعے کی قسم اور تاریخ کی حد اختیاری فلٹر ہیں۔",
+          "result": "دستیاب ریکارڈز اور صفحہ بندی کے مطابق مماثل مقامی سرگرمی کی قطاریں دکھائی جاتی ہیں۔",
+          "notes": "آرکائیو اسی آلے پر محفوظ ہوتا ہے اور خودکار طور پر سرور کو نہیں بھیجا جاتا۔ اندراجات میں کاروباری معلومات ہو سکتی ہیں؛ تشخیصی معلومات برآمد یا شیئر کرنے سے پہلے احتیاط سے دیکھیں۔"
+        },
+        "pa": {
+          "purpose": "ਡਿਵਾਈਸ ਉੱਤੇ ਸਥਾਨਕ ਤੌਰ 'ਤੇ ਸੰਭਾਲਿਆ ਸਰਗਰਮੀ ਆਰਕਾਈਵ ਖੋਲ੍ਹਦਾ ਜਾਂ ਬੰਦ ਕਰਦਾ ਹੈ।",
+          "when": "ਇਸ ਬ੍ਰਾਊਜ਼ਰ ਵੱਲੋਂ ਦਰਜ ਕੀਤੀ ਹਾਲੀਆ ਸਰਗਰਮੀ, ਗਲਤੀਆਂ, ਸਟੋਰੇਜ ਘਟਨਾਵਾਂ ਜਾਂ ਡਾਟਾ ਅਖੰਡਤਾ ਘਟਨਾਵਾਂ ਦੀ ਸਮੀਖਿਆ ਲਈ ਵਰਤੋ।",
+          "how": "Show activity archive ਚੁਣੋ। ਸੂਚੀ ਘਟਾਉਣ ਲਈ ਖੋਜ ਖਾਨਾ, ਘਟਨਾ ਕਿਸਮ ਫਿਲਟਰ ਅਤੇ ਤਾਰੀਖ ਫਿਲਟਰ ਵਰਤੋ। ਆਰਕਾਈਵ ਬੰਦ ਕਰਨ ਲਈ ਬਟਨ ਮੁੜ ਚੁਣੋ।",
+          "inputs": "ਖੋਜ ਲਿਖਤ, ਘਟਨਾ ਕਿਸਮ ਅਤੇ ਤਾਰੀਖ ਸੀਮਾ ਵਿਕਲਪਿਕ ਫਿਲਟਰ ਹਨ।",
+          "result": "ਉਪਲਬਧ ਰਿਕਾਰਡਾਂ ਅਤੇ ਪੰਨਾ-ਵੰਡ ਅਨੁਸਾਰ ਮਿਲਦੀਆਂ ਸਥਾਨਕ ਸਰਗਰਮੀ ਕਤਾਰਾਂ ਦਿਖਾਈਆਂ ਜਾਂਦੀਆਂ ਹਨ।",
+          "notes": "ਆਰਕਾਈਵ ਇਸ ਡਿਵਾਈਸ ਉੱਤੇ ਸੰਭਾਲਿਆ ਜਾਂਦਾ ਹੈ ਅਤੇ ਆਪਣੇ ਆਪ ਸਰਵਰ ਨੂੰ ਨਹੀਂ ਭੇਜਿਆ ਜਾਂਦਾ। ਐਂਟਰੀਆਂ ਵਿੱਚ ਕਾਰੋਬਾਰੀ ਸੰਦਰਭ ਹੋ ਸਕਦਾ ਹੈ; ਡਾਇਗਨੌਸਟਿਕ ਜਾਣਕਾਰੀ ਨਿਰਯਾਤ ਜਾਂ ਸਾਂਝੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਧਿਆਨ ਨਾਲ ਵੇਖੋ।"
+        },
+        "prs": {
+          "purpose": "بایگانی فعالیت ذخیره‌شده به‌صورت محلی روی دستگاه را باز یا بسته می‌کند.",
+          "when": "برای بررسی فعالیت‌های اخیر، خطاها، رویدادهای ذخیره‌سازی یا رویدادهای یکپارچگی داده که این مرورگر ثبت کرده است استفاده کنید.",
+          "how": "Show activity archive را انتخاب کنید. برای محدودکردن فهرست از کادر جست‌وجو، فیلتر نوع رویداد و فیلتر تاریخ استفاده کنید. برای بستن بایگانی دکمه را دوباره بزنید.",
+          "inputs": "متن جست‌وجو، نوع رویداد و بازه تاریخ فیلترهای اختیاری هستند.",
+          "result": "ردیف‌های فعالیت محلی منطبق با فیلترها، با توجه به سوابق موجود و صفحه‌بندی، نمایش داده می‌شوند.",
+          "notes": "بایگانی روی همین دستگاه نگهداری می‌شود و خودکار به سرور ارسال نمی‌شود. ممکن است سوابق شامل اطلاعات کاری باشند؛ پیش از خروجی‌گرفتن یا اشتراک‌گذاری اطلاعات تشخیصی، آن‌ها را با دقت بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د وسیلې په دننه کې خوندي شوی د فعالیتونو ارشیف پرانیزي یا بندوي.",
+          "when": "د وروستیو فعالیتونو، تېروتنو، د زېرمتون پېښو یا د معلوماتو د بشپړتیا پېښو د کتلو لپاره یې وکاروئ چې دې براوزر ثبت کړي دي.",
+          "how": "Show activity archive وټاکئ. د لېست د محدودولو لپاره د لټون بکس، د پېښې ډول فلټر او د نېټې فلټر وکاروئ. د ارشیف د بندولو لپاره تڼۍ بیا وټاکئ.",
+          "inputs": "د لټون متن، د پېښې ډول او د نېټې موده اختیاري فلټرونه دي.",
+          "result": "د شته ریکارډونو او پاڼه‌بندۍ له مخې برابر محلي فعالیتي قطارونه ښکاري.",
+          "notes": "ارشیف په همدې وسیله ساتل کېږي او په اتومات ډول سرور ته نه لېږل کېږي. ثبتونه ښايي د سوداګرۍ معلومات ولري؛ د تشخیصي معلوماتو له صادرولو یا شریکولو مخکې یې په دقت وګورئ."
         }
       },
       "handler_or_behavior": "`toggleActivityArchive()`"
@@ -4525,7 +4741,7 @@
       "audit_ref": "INV-062",
       "element_id": "runIndexedDBSelfTestButton",
       "label": "Test IndexedDB Storage",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Runs a temporary write, read, key-list and delete check against the active IndexedDB storage layer.",
@@ -4542,6 +4758,78 @@
           "inputs": "اطلاعاتی وارد نمی‌شود. آزمون از یک مورد موقت استفاده می‌کند و به فعال بودن لایه IndexedDB برنامه نیاز دارد.",
           "result": "برنامه اعلام می‌کند آزمون موقت IndexedDB موفق بوده یا با خطا روبه‌رو شده است.",
           "notes": "طراحی آزمون به‌گونه‌ای است که مورد آزمایشی موقت را حذف می‌کند و سوابق موجود برنامه را مهاجرت، بازنویسی یا حذف نمی‌کند. نتیجه ناموفق هشدار ذخیره‌سازی است؛ تا بررسی مشکل، ثبت اطلاعات جدید را ادامه ندهید."
+        },
+        "ar": {
+          "purpose": "يجري اختبار كتابة وقراءة مؤقتًا، وقائمة مفاتيح، وحذفًا على طبقة تخزين IndexedDB النشطة.",
+          "when": "استخدمه عند التحقق مما إذا كان المتصفح يستطيع الوصول إلى قاعدة بيانات R11 IndexedDB الخاصة بالتطبيق بشكل صحيح.",
+          "how": "اختر Test IndexedDB Storage وانتظر رسالة النتيجة. اقرأ الحالة كاملة قبل المتابعة.",
+          "inputs": "لا تُدخل أي بيانات. يستخدم الاختبار عنصرًا مؤقتًا ويتطلب توفر طبقة IndexedDB في التطبيق.",
+          "result": "يعرض التطبيق ما إذا كان اختبار IndexedDB المؤقت قد نجح أم فشل.",
+          "notes": "صُمم الاختبار لإزالة عنصر الاختبار المؤقت ولا ينقل سجلات التطبيق الحالية أو يستبدلها أو يحذفها. فشل الاختبار تحذير بشأن التخزين؛ لا تواصل إدخال البيانات حتى يتم التحقيق في المشكلة."
+        },
+        "ckb": {
+          "purpose": "تاقیکردنەوەی نووسین و خوێندنەوەی کاتی، لیستی کلیلی و سڕینەوە لەسەر چینەی هەڵگرتنی IndexedDB ـی چالاک ئەنجام دەدات.",
+          "when": "کاتێک دەتەوێت بپشکنیت ئایا وێبگەڕ دەتوانێت بە دروستی بگاتە بنکەدراوەی R11 IndexedDB ـی ئەپەکە، بەکاریبهێنە.",
+          "how": "Test IndexedDB Storage هەڵبژێرە و چاوەڕێی پەیامی ئەنجام بکە. پێش بەردەوامبوون دۆخی تەواو بخوێنەرەوە.",
+          "inputs": "هیچ داتایەک نانووسرێت. تاقیکردنەوەکە دانەیەکی کاتی بەکاردەهێنێت و پێویستی بە بەردەستبوونی چینەی IndexedDB ـی ئەپەکە هەیە.",
+          "result": "ئەپەکە ڕادەگەیەنێت ئایا تاقیکردنەوە کاتییەکەی IndexedDB سەرکەوتوو بووە یان شکستی هێناوە.",
+          "notes": "تاقیکردنەوەکە بۆ سڕینەوەی دانەی تاقیکردنەوەی کاتی دیزاین کراوە و تۆمارە هەنووکەییەکانی ئەپەکە ناگوازێتەوە، نایانگۆڕێت و ناسڕێتەوە. شکستی تاقیکردنەوە ئاگادارییەکی هەڵگرتنە؛ تا کێشەکە لێکۆڵینەوەی بۆ نەکراوە، بەردەوام مەبە لە تۆمارکردنی داتا."
+        },
+        "kmr": {
+          "purpose": "Li ser qata hilanîna IndexedDB ya çalak ceribandina nivîsîn, xwendin, lîsteya mifteyan û jêbirinê ya demkî dimeşîne.",
+          "when": "Dema ku kontrol dikî ka gerok dikare bi rastî bigihîje danegeha R11 IndexedDB ya sepanê, vê bikar bîne.",
+          "how": "Test IndexedDB Storage hilbijêre û li benda peyama encamê bimîne. Berî domandinê rewşa tevahî bixwîne.",
+          "inputs": "Tu dane nayê têketin. Test hêmaneke demkî bikar tîne û pêdivî bi qata IndexedDB ya sepanê ya peyda heye.",
+          "result": "Sepan ragihîne ka testa demkî ya IndexedDB serkeftî bû an têk çû.",
+          "notes": "Test hatiye sêwirandin ku hêmanê testa demkî jê bibe û tomarên heyî yên sepanê naguhezîne, dinivîse ser wan an jê nake. Testa têkçûyî hişyariya hilanînê ye; heta ku pirsgirêk were lêkolînkirin daneyan tomar neke."
+        },
+        "tr": {
+          "purpose": "Etkin IndexedDB depolama katmanında geçici yazma, okuma, anahtar listeleme ve silme denetimi çalıştırır.",
+          "when": "Tarayıcının uygulamanın R11 IndexedDB veritabanına doğru şekilde erişip erişemediğini kontrol ederken kullanın.",
+          "how": "Test IndexedDB Storage seçeneğini seçin ve sonuç mesajını bekleyin. Devam etmeden önce durumun tamamını okuyun.",
+          "inputs": "Veri girilmez. Test geçici bir öğe kullanır ve uygulamanın IndexedDB katmanının kullanılabilir olmasını gerektirir.",
+          "result": "Uygulama, geçici IndexedDB testinin başarılı mı başarısız mı olduğunu bildirir.",
+          "notes": "Test, geçici test öğesini kaldıracak şekilde tasarlanmıştır; mevcut uygulama kayıtlarını taşımaz, üzerine yazmaz veya silmez. Başarısız test depolama uyarısıdır; sorun incelenene kadar veri girmeye devam etmeyin."
+        },
+        "pl": {
+          "purpose": "Uruchamia tymczasowy test zapisu, odczytu, listy kluczy i usuwania w aktywnej warstwie pamięci IndexedDB.",
+          "when": "Użyj, aby sprawdzić, czy przeglądarka prawidłowo uzyskuje dostęp do bazy IndexedDB R11 aplikacji.",
+          "how": "Wybierz Test IndexedDB Storage i poczekaj na komunikat wyniku. Przed kontynuowaniem przeczytaj pełny status.",
+          "inputs": "Nie wprowadza się danych. Test używa tymczasowego elementu i wymaga dostępności warstwy IndexedDB aplikacji.",
+          "result": "Aplikacja informuje, czy tymczasowy test IndexedDB zakończył się powodzeniem czy niepowodzeniem.",
+          "notes": "Test ma usunąć tymczasowy element testowy i nie migruje, nie nadpisuje ani nie usuwa istniejących rekordów aplikacji. Nieudany test to ostrzeżenie dotyczące pamięci; nie wprowadzaj danych, dopóki problem nie zostanie zbadany."
+        },
+        "ur": {
+          "purpose": "فعال IndexedDB اسٹوریج پرت پر عارضی لکھنے، پڑھنے، کلیدوں کی فہرست اور حذف کرنے کا ٹیسٹ چلاتا ہے۔",
+          "when": "جب یہ جانچنا ہو کہ براؤزر ایپ کے R11 IndexedDB ڈیٹا بیس تک درست رسائی رکھتا ہے یا نہیں تو استعمال کریں۔",
+          "how": "Test IndexedDB Storage منتخب کریں اور نتیجے کے پیغام کا انتظار کریں۔ آگے بڑھنے سے پہلے مکمل حالت پڑھیں۔",
+          "inputs": "کوئی ڈیٹا درج نہیں کیا جاتا۔ ٹیسٹ ایک عارضی آئٹم استعمال کرتا ہے اور ایپ کی IndexedDB پرت دستیاب ہونا ضروری ہے۔",
+          "result": "ایپ بتاتی ہے کہ عارضی IndexedDB ٹیسٹ کامیاب ہوا یا ناکام۔",
+          "notes": "ٹیسٹ عارضی آزمائشی آئٹم کو ہٹانے کے لیے بنایا گیا ہے اور موجودہ ایپ ریکارڈز کو منتقل، اوور رائٹ یا حذف نہیں کرتا۔ ناکام ٹیسٹ اسٹوریج کی تنبیہ ہے؛ مسئلے کی جانچ ہونے تک ڈیٹا درج نہ کریں۔"
+        },
+        "pa": {
+          "purpose": "ਸਰਗਰਮ IndexedDB ਸਟੋਰੇਜ ਪਰਤ ਉੱਤੇ ਅਸਥਾਈ ਲਿਖਣ, ਪੜ੍ਹਨ, ਕੁੰਜੀ-ਸੂਚੀ ਅਤੇ ਮਿਟਾਉਣ ਦੀ ਜਾਂਚ ਚਲਾਉਂਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਜਾਂਚਣਾ ਹੋਵੇ ਕਿ ਬ੍ਰਾਊਜ਼ਰ ਐਪ ਦੇ R11 IndexedDB ਡਾਟਾਬੇਸ ਤੱਕ ਠੀਕ ਪਹੁੰਚ ਸਕਦਾ ਹੈ ਜਾਂ ਨਹੀਂ ਤਾਂ ਵਰਤੋ।",
+          "how": "Test IndexedDB Storage ਚੁਣੋ ਅਤੇ ਨਤੀਜੇ ਦੇ ਸੁਨੇਹੇ ਦੀ ਉਡੀਕ ਕਰੋ। ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਪੂਰੀ ਸਥਿਤੀ ਪੜ੍ਹੋ।",
+          "inputs": "ਕੋਈ ਡਾਟਾ ਦਰਜ ਨਹੀਂ ਹੁੰਦਾ। ਟੈਸਟ ਇੱਕ ਅਸਥਾਈ ਆਈਟਮ ਵਰਤਦਾ ਹੈ ਅਤੇ ਐਪ ਦੀ IndexedDB ਪਰਤ ਉਪਲਬਧ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ।",
+          "result": "ਐਪ ਦੱਸਦੀ ਹੈ ਕਿ ਅਸਥਾਈ IndexedDB ਟੈਸਟ ਸਫਲ ਹੋਇਆ ਜਾਂ ਅਸਫਲ।",
+          "notes": "ਟੈਸਟ ਅਸਥਾਈ ਜਾਂਚ ਆਈਟਮ ਹਟਾਉਣ ਲਈ ਬਣਾਇਆ ਗਿਆ ਹੈ ਅਤੇ ਮੌਜੂਦਾ ਐਪ ਰਿਕਾਰਡਾਂ ਨੂੰ ਮਾਈਗ੍ਰੇਟ, ਓਵਰਰਾਈਟ ਜਾਂ ਮਿਟਾਉਂਦਾ ਨਹੀਂ। ਅਸਫਲ ਟੈਸਟ ਸਟੋਰੇਜ ਚੇਤਾਵਨੀ ਹੈ; ਸਮੱਸਿਆ ਦੀ ਜਾਂਚ ਹੋਣ ਤੱਕ ਡਾਟਾ ਦਰਜ ਨਾ ਕਰੋ।"
+        },
+        "prs": {
+          "purpose": "با یک نوشتن و خواندن موقت، فهرست‌کردن کلیدها و حذف مورد آزمایشی، لایه ذخیره‌سازی IndexedDB فعال را آزمایش می‌کند.",
+          "when": "وقتی می‌خواهید بررسی کنید مرورگر به‌درستی به پایگاه داده R11 IndexedDB برنامه دسترسی دارد یا نه، استفاده کنید.",
+          "how": "Test IndexedDB Storage را انتخاب کنید و منتظر پیام نتیجه بمانید. پیش از ادامه، وضعیت کامل را بخوانید.",
+          "inputs": "داده‌ای وارد نمی‌شود. آزمون از یک مورد موقت استفاده می‌کند و به در دسترس بودن لایه IndexedDB برنامه نیاز دارد.",
+          "result": "برنامه اعلام می‌کند آزمون موقت IndexedDB موفق بوده یا ناموفق.",
+          "notes": "این آزمون برای حذف مورد آزمایشی موقت طراحی شده و سوابق موجود برنامه را مهاجرت، بازنویسی یا حذف نمی‌کند. نتیجه ناموفق هشدار ذخیره‌سازی است؛ تا بررسی مشکل، ثبت اطلاعات را ادامه ندهید."
+        },
+        "ps": {
+          "purpose": "د فعال IndexedDB زېرمتون په پوړ کې د لنډمهاله لیکلو، لوستلو، د کیليو د لېست او ړنګولو ازموینه ترسره کوي.",
+          "when": "کله چې ګورئ چې براوزر د اپ R11 IndexedDB ډیټابېس ته سم لاسرسی لري که نه، وکاروئ.",
+          "how": "Test IndexedDB Storage وټاکئ او د پایلې پیغام ته انتظار وکړئ. له دوام مخکې بشپړ حالت ولولئ.",
+          "inputs": "معلومات نه داخلېږي. ازموینه یو لنډمهاله توکی کاروي او د اپ IndexedDB پوړ باید موجود وي.",
+          "result": "اپ وايي چې د IndexedDB لنډمهاله ازموینه بریالۍ شوه که ناکامه.",
+          "notes": "ازموینه د لنډمهالي ازمایښتي توکي د لرې کولو لپاره جوړه شوې او د اپ اوسني ریکارډونه نه لېږدوي، نه پرې لیکي او نه یې ړنګوي. ناکامه ازموینه د زېرمتون خبرداری دی؛ تر څېړنې پورې معلومات مه ثبتوئ."
         }
       },
       "handler_or_behavior": "`window.runIndexedDBSelfTest()`"
@@ -4551,7 +4839,7 @@
       "audit_ref": "INV-063",
       "element_id": null,
       "label": "Create Accounting Snapshot in IndexedDB",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Creates an Accounting storage snapshot in IndexedDB for the app’s accounting data.",
@@ -4568,6 +4856,78 @@
           "inputs": "ورودی فرمی لازم نیست. سرویس ذخیره‌سازی حسابداری باید راه‌اندازی شده و در دسترس باشد.",
           "result": "در صورت موفقیت، یک Snapshot در لایه ذخیره‌سازی IndexedDB ایجاد می‌شود.",
           "notes": "این Snapshot تشخیصی/ذخیره‌سازی است، نه فایل پشتیبان کامل قابل دانلود. جایگزین Backup نیست و نباید فرض کنید برای بازیابی سوابق قابل استفاده است."
+        },
+        "ar": {
+          "purpose": "ينشئ لقطة لحالة تخزين المحاسبة في IndexedDB لبيانات المحاسبة في التطبيق.",
+          "when": "استخدمه عندما تحتاج إلى لقطة داخلية لفحص تخزين المحاسبة أو سير عمل تشخيصي.",
+          "how": "اختر Create Accounting Snapshot in IndexedDB وانتظر رسالة النتيجة أو الخطأ.",
+          "inputs": "لا يلزم إدخال شيء في النموذج. يجب أن تكون خدمة تخزين المحاسبة مهيأة ومتاحة.",
+          "result": "تُنشأ لقطة في طبقة تخزين IndexedDB إذا نجحت العملية.",
+          "notes": "هذه لقطة تخزين/تشخيص وليست نسخة احتياطية كاملة قابلة للتنزيل. لا تعتبرها بديلًا عن Backup، ولا تفترض إمكانية استخدامها لاستعادة السجلات."
+        },
+        "ckb": {
+          "purpose": "Snapshot ـێکی هەڵگرتنی ژمێریاری لە IndexedDB بۆ داتای ژمێریاری ئەپ دروست دەکات.",
+          "when": "کاتێک بۆ پشکنینی هەڵگرتنی ژمێریاری یان ڕەوتی کاری تشخیصی پێویستت بە Snapshot ـێکی ناوخۆیی هەیە، بەکاریبهێنە.",
+          "how": "Create Accounting Snapshot in IndexedDB هەڵبژێرە و چاوەڕێی پەیامی ئەنجام یان هەڵە بکە.",
+          "inputs": "هیچ خانەیەکی فۆڕم پێویست نییە. خزمەتگوزاری هەڵگرتنی ژمێریاری دەبێت ئامادە و بەردەست بێت.",
+          "result": "ئەگەر کردارەکە سەرکەوتوو بێت، Snapshot ـێک لە چینەی هەڵگرتنی IndexedDB دروست دەکرێت.",
+          "notes": "ئەمە Snapshot ـێکی هەڵگرتن/تشخیصییە، نەک پاڵپشتییەکی تەواوی دابەزێنراو. بە جێگرەوەی Backup دایمەزرێنە و وا مەزانە دەتوانرێت بۆ گەڕاندنەوەی تۆمارەکان بەکاربهێنرێت."
+        },
+        "kmr": {
+          "purpose": "Wêneyeke rewşa hilanîna hesabê di IndexedDB de ji bo daneyên hesabê yên sepanê çêdike.",
+          "when": "Dema ku ji bo kontrolkirina hilanîna hesabê an pêvajoyeke teşxîsê wêneyeke navxweyî dixwazî, vê bikar bîne.",
+          "how": "Create Accounting Snapshot in IndexedDB hilbijêre û li benda peyama encamê an çewtiyê bimîne.",
+          "inputs": "Têketina formê nehewce ye. Divê xizmeta hilanîna hesabê were destpêkirin û peyda be.",
+          "result": "Heke kiryar serkeftî be, wêneyek di qata hilanîna IndexedDB de tê çêkirin.",
+          "notes": "Ev wêneyeke hilanîn/teşxîsê ye, ne backup-eke tevahî ya daxistbar. Wek şûna Backup qebûl neke û texmîn neke ku dikare tomar vegerîne."
+        },
+        "tr": {
+          "purpose": "Uygulamanın muhasebe verileri için IndexedDB'de bir muhasebe depolama anlık görüntüsü oluşturur.",
+          "when": "Muhasebe depolamasını kontrol etmek veya tanılama iş akışında kullanmak üzere dahili bir görüntüye ihtiyaç duyduğunuzda kullanın.",
+          "how": "Create Accounting Snapshot in IndexedDB seçeneğini seçin ve sonuç veya hata mesajını bekleyin.",
+          "inputs": "Form girdisi gerekmez. Muhasebe depolama hizmeti başlatılmış ve kullanılabilir olmalıdır.",
+          "result": "İşlem başarılı olursa IndexedDB depolama katmanında bir anlık görüntü oluşturulur.",
+          "notes": "Bu bir depolama/tanılama anlık görüntüsüdür; indirilebilir tam veritabanı yedeği değildir. Backup'ın yerine kullanmayın ve kayıtları geri yükleyebileceğini varsaymayın."
+        },
+        "pl": {
+          "purpose": "Tworzy migawkę pamięci danych księgowych aplikacji w IndexedDB.",
+          "when": "Użyj, gdy potrzebujesz wewnętrznej migawki do sprawdzenia pamięci księgowej lub procesu diagnostycznego.",
+          "how": "Wybierz Create Accounting Snapshot in IndexedDB i poczekaj na komunikat wyniku lub błędu.",
+          "inputs": "Nie są wymagane dane formularza. Usługa pamięci księgowej musi być zainicjowana i dostępna.",
+          "result": "Jeśli operacja się powiedzie, migawka zostanie utworzona w warstwie pamięci IndexedDB.",
+          "notes": "To migawka pamięci/diagnostyczna, a nie pełna kopia zapasowa bazy do pobrania. Nie zastępuje funkcji Backup i nie należy zakładać, że można jej użyć do przywrócenia rekordów."
+        },
+        "ur": {
+          "purpose": "ایپ کے اکاؤنٹنگ ڈیٹا کے لیے IndexedDB میں اکاؤنٹنگ اسٹوریج کا اسنیپ شاٹ بناتا ہے۔",
+          "when": "جب اکاؤنٹنگ اسٹوریج کی جانچ یا تشخیصی عمل کے لیے اندرونی اسنیپ شاٹ درکار ہو تو استعمال کریں۔",
+          "how": "Create Accounting Snapshot in IndexedDB منتخب کریں اور نتیجے یا خرابی کے پیغام کا انتظار کریں۔",
+          "inputs": "فارم میں معلومات درج کرنے کی ضرورت نہیں۔ اکاؤنٹنگ اسٹوریج سروس شروع اور دستیاب ہونی چاہیے۔",
+          "result": "عمل کامیاب ہونے پر IndexedDB اسٹوریج پرت میں اسنیپ شاٹ بنتا ہے۔",
+          "notes": "یہ اسٹوریج/تشخیصی اسنیپ شاٹ ہے، ڈاؤن لوڈ ہونے والا مکمل ڈیٹا بیس بیک اپ نہیں۔ اسے Backup کا متبادل نہ سمجھیں اور یہ فرض نہ کریں کہ اس سے ریکارڈ بحال کیے جا سکتے ہیں۔"
+        },
+        "pa": {
+          "purpose": "ਐਪ ਦੇ ਅਕਾਊਂਟਿੰਗ ਡਾਟਾ ਲਈ IndexedDB ਵਿੱਚ ਅਕਾਊਂਟਿੰਗ ਸਟੋਰੇਜ ਸਨੈਪਸ਼ਾਟ ਬਣਾਉਂਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਅਕਾਊਂਟਿੰਗ ਸਟੋਰੇਜ ਦੀ ਜਾਂਚ ਜਾਂ ਡਾਇਗਨੌਸਟਿਕ ਕਾਰਜ ਲਈ ਅੰਦਰੂਨੀ ਸਨੈਪਸ਼ਾਟ ਚਾਹੀਦਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Create Accounting Snapshot in IndexedDB ਚੁਣੋ ਅਤੇ ਨਤੀਜੇ ਜਾਂ ਗਲਤੀ ਸੁਨੇਹੇ ਦੀ ਉਡੀਕ ਕਰੋ।",
+          "inputs": "ਫਾਰਮ ਵਿੱਚ ਕੁਝ ਭਰਨ ਦੀ ਲੋੜ ਨਹੀਂ। ਅਕਾਊਂਟਿੰਗ ਸਟੋਰੇਜ ਸੇਵਾ ਸ਼ੁਰੂ ਹੋਈ ਅਤੇ ਉਪਲਬਧ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ।",
+          "result": "ਜੇ ਕਾਰਵਾਈ ਸਫਲ ਹੋਵੇ ਤਾਂ IndexedDB ਸਟੋਰੇਜ ਪਰਤ ਵਿੱਚ ਸਨੈਪਸ਼ਾਟ ਬਣਦਾ ਹੈ।",
+          "notes": "ਇਹ ਸਟੋਰੇਜ/ਡਾਇਗਨੌਸਟਿਕ ਸਨੈਪਸ਼ਾਟ ਹੈ, ਡਾਊਨਲੋਡ ਹੋਣ ਵਾਲਾ ਪੂਰਾ ਡਾਟਾਬੇਸ ਬੈਕਅੱਪ ਨਹੀਂ। ਇਸਨੂੰ Backup ਦਾ ਬਦਲ ਨਾ ਮੰਨੋ ਅਤੇ ਇਹ ਨਾ ਸਮਝੋ ਕਿ ਇਸ ਨਾਲ ਰਿਕਾਰਡ ਮੁੜ-ਬਹਾਲ ਹੋ ਸਕਦੇ ਹਨ।"
+        },
+        "prs": {
+          "purpose": "یک Snapshot از وضعیت ذخیره‌سازی حسابداری در IndexedDB برای داده‌های حسابداری برنامه ایجاد می‌کند.",
+          "when": "وقتی برای بررسی ذخیره‌سازی حسابداری یا گردش‌کار تشخیصی به یک Snapshot داخلی نیاز دارید، استفاده کنید.",
+          "how": "Create Accounting Snapshot in IndexedDB را انتخاب کنید و منتظر پیام نتیجه یا خطا بمانید.",
+          "inputs": "ورودی فرمی لازم نیست. سرویس ذخیره‌سازی حسابداری باید راه‌اندازی شده و در دسترس باشد.",
+          "result": "اگر عملیات موفق شود، یک Snapshot در لایه ذخیره‌سازی IndexedDB ایجاد می‌شود.",
+          "notes": "این Snapshot ذخیره‌سازی/تشخیصی است، نه پشتیبان کامل قابل دانلود از پایگاه داده. جایگزین Backup نیست و نباید فرض کنید برای بازیابی سوابق قابل استفاده است."
+        },
+        "ps": {
+          "purpose": "د اپ د حسابدارۍ معلوماتو لپاره په IndexedDB کې د حسابدارۍ د زېرمتون Snapshot جوړوي.",
+          "when": "کله چې د حسابدارۍ د زېرمتون د کتنې یا تشخیصي بهیر لپاره داخلي Snapshot ته اړتیا لرئ، وکاروئ.",
+          "how": "Create Accounting Snapshot in IndexedDB وټاکئ او د پایلې یا تېروتنې پیغام ته انتظار وکړئ.",
+          "inputs": "د فورمې معلوماتو ته اړتیا نشته. د حسابدارۍ د زېرمتون خدمت باید پیل او موجود وي.",
+          "result": "که کړنه بریالۍ شي، په IndexedDB زېرمتون پوړ کې Snapshot جوړېږي.",
+          "notes": "دا د زېرمتون/تشخیص Snapshot دی، د ډاونلوډ وړ بشپړ ډیټابېس بیک اپ نه دی. د Backup بدیل یې مه ګڼئ او دا مه انګېرئ چې ریکارډونه پرې بېرته راګرځېدای شي."
         }
       },
       "handler_or_behavior": "`window.createAccountingStorageSnapshot()`"
@@ -9228,8 +9588,8 @@
     }
   ],
   "content_progress": {
-    "completed_entries": 45,
-    "draft_entries": 184,
+    "completed_entries": 50,
+    "draft_entries": 179,
     "pending_entries": 0,
     "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written."
   }
