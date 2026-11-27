@@ -48,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "R48 corrects EN/FA wording for nine Draft Help entries while keeping them unpublished. The 132 fully reviewed entries remain in the runtime bundle. PR #96 remains Draft pending browser verification; Production promotion is unauthorized.",
+  "note": "R48 contextual Help content bundle and Registry corrections pass the R11 Version Authority Gate. Nine corrected EN/FA entries remain Draft and excluded from runtime publication. PR #96 remains Draft pending browser/Preview verification; Production promotion remains unauthorized.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {
@@ -2174,10 +2174,10 @@
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "R48 identity and updated 24-asset pins prepared; PR gate pending."
+        "result": "PASS",
+        "runId": 46067913508,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46067913508",
+        "details": "R11 Version Authority Gate passed for R48 on PR #96. The R48 Build ID, canonical URL, approved baseline ancestry, index blob SHA and all 24 pinned runtime assets matched."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
