@@ -8214,6 +8214,78 @@
           "inputs": "ورودی لازم نیست. این عملیات مقادیر و انتخاب‌های فعلی فرم را پاک می‌کند.",
           "result": "فرم New Project به وضعیت اولیه بازمی‌گردد و عنوان صفحه New Project نمایش داده می‌شود.",
           "notes": "جزئیات ذخیره‌نشده پروژه، انتخاب شرکا و تصویر انتخاب‌شده کنار گذاشته می‌شوند. این عملیات پروژه‌ای را که قبلاً ذخیره شده حذف یا تغییر نمی‌دهد."
+        },
+        "ar": {
+          "purpose": "يعيد نموذج New Project الحالي إلى قيمه الأولية.",
+          "when": "استخدم هذا الخيار عندما تريد تجاهل المدخلات الحالية في النموذج والبدء بسجل مشروع مختلف.",
+          "how": "اختر Clear Form. تُفرغ حقول المشروع، ويعود نوع العقد إلى Labour + Materials، ويُعطّل تقاسم الشركاء، وتُعاد تهيئة صفوف حصص الشركاء، وتُمسح صورة المشروع المحددة.",
+          "inputs": "لا يلزم إدخال أي شيء. يمسح الإجراء القيم والاختيارات الحالية في النموذج.",
+          "result": "يعود نموذج New Project إلى حالته الأولية ويعرض عنوان الصفحة New Project.",
+          "notes": "تُفقد تفاصيل المشروع غير المحفوظة واختيارات تقاسم الشركاء والصورة المحددة. لا يحذف هذا الإجراء مشروعاً سبق حفظه ولا يعدّله."
+        },
+        "ckb": {
+          "purpose": "فۆڕمی New Projectی ئێستا دەگەڕێنێتەوە بۆ بەها سەرەتاییەکانی.",
+          "when": "کاتێک دەتەوێت داخڵکراوەکانی فۆڕمی ئێستا فەرامۆش بکەیت و تۆماری پڕۆژەیەکی تر دەست پێبکەیت، ئەم هەڵبژاردەیە بەکاربهێنە.",
+          "how": "Clear Form هەڵبژێرە. خانەکانی پڕۆژە بەتاڵ دەبنەوە، جۆری گرێبەست دەگەڕێتەوە بۆ Labour + Materials، هاوبەشکردنی داهات ناچالاک دەکرێت، ڕیزەکانی بەشی هاوبەشان Reset دەکرێنەوە و وێنەی هەڵبژێردراوی پڕۆژە دەسڕدرێتەوە.",
+          "inputs": "هیچ داخڵکردنێک پێویست نییە. کردارەکە بەها و هەڵبژاردەکانی ئێستای فۆڕم پاک دەکاتەوە.",
+          "result": "فۆڕمی New Project دەگەڕێتەوە بۆ دۆخی سەرەتایی و ناونیشانی پەڕە New Project پیشان دەدات.",
+          "notes": "وردەکارییە پاشەکەوتنەکراوەکانی پڕۆژە، هەڵبژاردەکانی بەشی هاوبەشان و وێنەی هەڵبژێردراو لەدەست دەچن. ئەم کردارە پڕۆژەیەکی پێشتر پاشەکەوتکراو ناسڕێتەوە و ناگۆڕێت."
+        },
+        "kmr": {
+          "purpose": "Forma New Project ya heyî vedigere nirxên xwe yên destpêkê.",
+          "when": "Vê bikar bîne dema ku dixwazî têketinên forma heyî bavêjî û bi tomara projeyeke din dest pê bikî.",
+          "how": "Clear Form hilbijêre. Qadên projeyê vala dibin, cureya peymanê vedigere Labour + Materials, parvekirina hevparan tê neçalak kirin, rêzên parên hevparan ji nû ve tên saz kirin û wêneya projeya hilbijartî tê rakirin.",
+          "inputs": "Tu têketin nehewce ye. Kiryar nirx û hilbijartinên heyî yên formê paqij dike.",
+          "result": "Forma New Project vedigere rewşa destpêkê û sernavê rûpelê New Project nîşan dide.",
+          "notes": "Hûrguliyên projeyê yên netomarkirî, hilbijartinên parvekirina hevparan û wêneya hilbijartî têne avêtin. Ev kiryar projeyeke ku berê hatiye tomarkirin jê nake û naguherîne."
+        },
+        "tr": {
+          "purpose": "Mevcut New Project formunu ilk değerlerine sıfırlar.",
+          "when": "Mevcut form girişlerini silip farklı bir proje kaydıyla başlamak istediğinizde kullanın.",
+          "how": "Clear Form seçeneğini belirleyin. Proje alanları boşaltılır, sözleşme türü Labour + Materials değerine döner, ortak paylaşımı kapatılır, ortak payı satırları sıfırlanır ve seçilen proje fotoğrafı temizlenir.",
+          "inputs": "Giriş gerekmez. İşlem, formun mevcut değerlerini ve seçimlerini temizler.",
+          "result": "New Project formu ilk durumuna döner ve sayfa başlığı New Project olur.",
+          "notes": "Kaydedilmemiş proje ayrıntıları, ortak payı seçimleri ve seçilen fotoğraf silinir. Bu işlem daha önce kaydedilmiş bir projeyi silmez veya değiştirmez."
+        },
+        "pl": {
+          "purpose": "Przywraca bieżący formularz New Project do wartości początkowych.",
+          "when": "Użyj tej opcji, jeśli chcesz odrzucić bieżące dane formularza i rozpocząć tworzenie innego rekordu projektu.",
+          "how": "Wybierz Clear Form. Pola projektu zostaną wyczyszczone, typ umowy wróci do Labour + Materials, podział udziałów partnerów zostanie wyłączony, wiersze udziałów zostaną zresetowane, a wybrane zdjęcie projektu usunięte z formularza.",
+          "inputs": "Nie są wymagane żadne dane. Czynność czyści bieżące wartości i wybory formularza.",
+          "result": "Formularz New Project wraca do stanu początkowego, a tytuł strony zmienia się na New Project.",
+          "notes": "Niezapisane dane projektu, wybory udziałów partnerów i wybrane zdjęcie zostaną odrzucone. Ta czynność nie usuwa ani nie zmienia projektu, który został już zapisany."
+        },
+        "ur": {
+          "purpose": "موجودہ New Project فارم کو اس کی ابتدائی قدروں پر واپس لاتا ہے۔",
+          "when": "اسے اس وقت استعمال کریں جب آپ موجودہ فارم کی معلومات ختم کرکے کسی دوسرے منصوبے کا ریکارڈ شروع کرنا چاہتے ہوں۔",
+          "how": "Clear Form منتخب کریں۔ منصوبے کے خانے خالی ہو جاتے ہیں، معاہدے کی قسم Labour + Materials پر واپس آتی ہے، پارٹنر حصہ داری بند ہو جاتی ہے، پارٹنر حصوں کی قطاریں دوبارہ ترتیب پاتی ہیں اور منتخب منصوبے کی تصویر صاف ہو جاتی ہے۔",
+          "inputs": "کسی معلومات کی ضرورت نہیں۔ یہ کارروائی فارم کی موجودہ قدریں اور انتخاب صاف کرتی ہے۔",
+          "result": "New Project فارم اپنی ابتدائی حالت میں واپس آ جاتا ہے اور صفحے کا عنوان New Project دکھاتا ہے۔",
+          "notes": "غیر محفوظ شدہ منصوبے کی تفصیلات، پارٹنر حصوں کے انتخاب اور منتخب تصویر ضائع ہو جاتے ہیں۔ یہ کارروائی پہلے سے محفوظ منصوبے کو حذف یا تبدیل نہیں کرتی۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ New Project ਫਾਰਮ ਨੂੰ ਇਸ ਦੀਆਂ ਸ਼ੁਰੂਆਤੀ ਕਦਰਾਂ 'ਤੇ ਵਾਪਸ ਲਿਆਉਂਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਤੁਸੀਂ ਮੌਜੂਦਾ ਫਾਰਮ ਦੀਆਂ ਐਂਟਰੀਆਂ ਛੱਡ ਕੇ ਕਿਸੇ ਹੋਰ ਪ੍ਰੋਜੈਕਟ ਦਾ ਰਿਕਾਰਡ ਸ਼ੁਰੂ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।",
+          "how": "Clear Form ਚੁਣੋ। ਪ੍ਰੋਜੈਕਟ ਖੇਤਰ ਖਾਲੀ ਹੋ ਜਾਂਦੇ ਹਨ, ਠੇਕੇ ਦੀ ਕਿਸਮ Labour + Materials 'ਤੇ ਵਾਪਸ ਆਉਂਦੀ ਹੈ, ਭਾਈਵਾਲ ਹਿੱਸੇਦਾਰੀ ਬੰਦ ਹੋ ਜਾਂਦੀ ਹੈ, ਭਾਈਵਾਲ ਹਿੱਸੇ ਦੀਆਂ ਕਤਾਰਾਂ ਮੁੜ ਸੈੱਟ ਹੁੰਦੀਆਂ ਹਨ ਅਤੇ ਚੁਣੀ ਪ੍ਰੋਜੈਕਟ ਫੋਟੋ ਹਟ ਜਾਂਦੀ ਹੈ।",
+          "inputs": "ਕੋਈ ਇਨਪੁੱਟ ਲੋੜੀਂਦਾ ਨਹੀਂ। ਇਹ ਕਾਰਵਾਈ ਫਾਰਮ ਦੀਆਂ ਮੌਜੂਦਾ ਕਦਰਾਂ ਅਤੇ ਚੋਣਾਂ ਸਾਫ਼ ਕਰਦੀ ਹੈ।",
+          "result": "New Project ਫਾਰਮ ਆਪਣੀ ਸ਼ੁਰੂਆਤੀ ਹਾਲਤ ਵਿੱਚ ਵਾਪਸ ਆ ਜਾਂਦਾ ਹੈ ਅਤੇ ਪੰਨੇ ਦਾ ਸਿਰਲੇਖ New Project ਦਿਖਾਉਂਦਾ ਹੈ।",
+          "notes": "ਨਾ-ਸੇਵ ਕੀਤੇ ਪ੍ਰੋਜੈਕਟ ਵੇਰਵੇ, ਭਾਈਵਾਲ ਹਿੱਸੇ ਦੀਆਂ ਚੋਣਾਂ ਅਤੇ ਚੁਣੀ ਫੋਟੋ ਰੱਦ ਹੋ ਜਾਂਦੇ ਹਨ। ਇਹ ਕਾਰਵਾਈ ਪਹਿਲਾਂ ਤੋਂ ਸੇਵ ਪ੍ਰੋਜੈਕਟ ਨੂੰ ਮਿਟਾਉਂਦੀ ਜਾਂ ਬਦਲਦੀ ਨਹੀਂ।"
+        },
+        "prs": {
+          "purpose": "فرم فعلی New Project را به مقادیر اولیه بازمی‌گرداند.",
+          "when": "وقتی می‌خواهید ورودی‌های فرم فعلی را کنار بگذارید و ثبت پروژه دیگری را شروع کنید، از این گزینه استفاده کنید.",
+          "how": "Clear Form را انتخاب کنید. فیلدهای پروژه خالی می‌شوند، نوع قرارداد به Labour + Materials برمی‌گردد، تقسیم سهم شرکا غیرفعال می‌شود، ردیف‌های سهم شرکا بازنشانی می‌شوند و عکس انتخاب‌شده پروژه پاک می‌شود.",
+          "inputs": "ورودی لازم نیست. این عملیات مقادیر و انتخاب‌های فعلی فرم را پاک می‌کند.",
+          "result": "فرم New Project به وضعیت اولیه بازمی‌گردد و عنوان صفحه New Project نمایش داده می‌شود.",
+          "notes": "جزئیات ذخیره‌نشده پروژه، انتخاب‌های سهم شرکا و عکس انتخاب‌شده کنار گذاشته می‌شوند. این عملیات پروژه‌ای را که قبلاً ذخیره شده حذف یا تغییر نمی‌دهد."
+        },
+        "ps": {
+          "purpose": "د New Project اوسنی فورم بېرته خپلو لومړنیو ارزښتونو ته اړوي.",
+          "when": "دا هغه وخت وکاروئ چې غواړئ د اوسني فورم داخل شوي معلومات پرېږدئ او د بلې پروژې ریکارډ پیل کړئ.",
+          "how": "Clear Form وټاکئ. د پروژې خانې تشېږي، د قرارداد ډول Labour + Materials ته بېرته ګرځي، د شریکانو ونډه بندېږي، د شریکانو د ونډو کرښې بیا تنظیمېږي او د پروژې ټاکل شوی انځور پاکېږي.",
+          "inputs": "هېڅ معلوماتو ته اړتیا نشته. دا کړنه د فورم اوسني ارزښتونه او انتخابونه پاکوي.",
+          "result": "د New Project فورم خپل لومړني حالت ته ستنېږي او د پاڼې سرلیک New Project ښيي.",
+          "notes": "نه خوندي شوي د پروژې جزئیات، د شریکانو د ونډو انتخابونه او ټاکل شوی انځور له منځه ځي. دا کړنه مخکې خوندي شوې پروژه نه ړنګوي او نه یې بدلوي."
         }
       },
       "handler_or_behavior": "`prResetProject()`"
@@ -8240,6 +8312,78 @@
           "inputs": "برای بازکردن ویرایشگر ورودی دیگری لازم نیست. شناسه و مقادیر ذخیره‌شده پروژه انتخاب‌شده در فرم بارگذاری می‌شوند؛ تغییرات شما مشمول اعتبارسنجی معمول هنگام ذخیره پروژه هستند.",
           "result": "فرم New Project با اطلاعات قبلی پروژه انتخاب‌شده باز می‌شود و عنوان صفحه به Edit Project تغییر می‌کند.",
           "notes": "پیش از ویرایش، مطمئن شوید پروژه صحیح باز شده است. تغییرات تا زمان موفقیت Save Project و تأیید ذخیره در IndexedDB ثبت نمی‌شوند. گردش‌کار ذخیره، سوابق مالی موجود پروژه را حفظ می‌کند."
+        },
+        "ar": {
+          "purpose": "يحمّل تفاصيل المشروع المحفوظة للمشروع المحدد إلى نموذج New Project لتعديلها.",
+          "when": "استخدم هذا الخيار لتصحيح أو تحديث اسم مشروع موجود أو العميل أو الموقع أو بيانات الاتصال أو نوع العقد أو حصص الشركاء أو الصورة أو الملاحظات.",
+          "how": "افتح المشروع المطلوب واختر Edit. أجرِ التغييرات في نموذج المشروع، ثم اختر Save Project وانتظر تأكيد الحفظ.",
+          "inputs": "لا يلزم إدخال إضافي لفتح المحرر. يُحمّل معرّف المشروع المحدد وقيمه الحالية المحفوظة إلى النموذج؛ وتخضع التغييرات التي تجريها للتحقق المعتاد عند حفظ المشروع.",
+          "result": "يفتح نموذج New Project مع التفاصيل الحالية للمشروع المحدد ويتغير عنوان الصفحة إلى Edit Project.",
+          "notes": "تأكد من فتح المشروع الصحيح قبل التعديل. لا تُحفظ التغييرات إلا بعد نجاح Save Project وتأكيد التطبيق الحفظ في IndexedDB. تحتفظ عملية الحفظ بسجلات المشروع المالية الحالية."
+        },
+        "ckb": {
+          "purpose": "وردەکارییە پاشەکەوتکراوەکانی پڕۆژەی هەڵبژێردراو بار دەکاتە ناو فۆڕمی New Project بۆ دەستکاریکردن.",
+          "when": "کاتێک دەتەوێت ناو، کڕیار، شوێن، زانیاری پەیوەندی، جۆری گرێبەست، بەشی هاوبەشان، وێنە یان تێبینییەکانی پڕۆژەیەکی هەبوو ڕاست بکەیتەوە یان نوێیان بکەیتەوە، ئەمە بەکاربهێنە.",
+          "how": "پڕۆژەی پێویست بکەرەوە و Edit هەڵبژێرە. گۆڕانکارییەکان لە فۆڕمی پڕۆژەدا بکە، پاشان Save Project هەڵبژێرە و چاوەڕێی پشتڕاستکردنەوەی پاشەکەوتکردن بکە.",
+          "inputs": "بۆ کردنەوەی دەستکاریکەر داخڵکردنی زیادە پێویست نییە. ناسنامە و بەها پاشەکەوتکراوەکانی پڕۆژەی هەڵبژێردراو لە فۆڕمەکەدا بار دەکرێن؛ هەر گۆڕانکارییەک بە پشتڕاستکردنەوەی ئاسایی کاتی پاشەکەوتکردنی پڕۆژە دەبەسترێت.",
+          "result": "فۆڕمی New Project بە وردەکارییەکانی پڕۆژەی هەڵبژێردراو دەکرێتەوە و ناونیشانی پەڕە دەگۆڕێت بۆ Edit Project.",
+          "notes": "پێش دەستکاریکردن دڵنیا ببەوە کە پڕۆژەی دروست کراوەتەوە. گۆڕانکارییەکان تا Save Project سەرکەوتوو نەبێت و ئەپ پاشەکەوتکردن لە IndexedDB پشتڕاست نەکاتەوە جێبەجێ نابن. ڕێڕەوی پاشەکەوتکردن تۆمارە داراییەکانی پڕۆژە دەپارێزێت."
+        },
+        "kmr": {
+          "purpose": "Hûrguliyên tomarkirî yên projeya hilbijartî li forma New Project bar dike ji bo sererastkirinê.",
+          "when": "Vê bikar bîne dema ku dixwazî nav, xerîdar, cih, agahiyên têkilî, cureya peymanê, parên hevparan, wêne an notên projeyeke heyî rast bike an nû bike.",
+          "how": "Projeya xwestî veke û Edit hilbijêre. Guhertinan di forma projeyê de bike, paşê Save Project hilbijêre û li benda pejirandina tomarkirinê bimîne.",
+          "inputs": "Ji bo vekirina edîtorê têketineke din nehewce ye. Nasnameya tomarkirî û nirxên heyî yên projeya hilbijartî li formê tên barkirin; her guhertin di bin verastkirina asayî ya tomarkirina projeyê de ye.",
+          "result": "Forma New Project bi hûrguliyên heyî yên projeya hilbijartî vedibe û sernavê rûpelê dibe Edit Project.",
+          "notes": "Berî sererastkirinê piştrast bike ku projeya rast vekirî ye. Guhertin nayên tomar kirin heta ku Save Project serkeftî nebe û sepan tomarkirina IndexedDB piştrast neke. Rêbaza tomarkirinê tomarên darayî yên heyî yên projeyê diparêze."
+        },
+        "tr": {
+          "purpose": "Seçilen projenin kayıtlı ayrıntılarını düzenleme için New Project formuna yükler.",
+          "when": "Mevcut bir projenin adını, müşterisini, sahasını, iletişim bilgilerini, sözleşme türünü, ortak paylarını, fotoğrafını veya notlarını düzeltmek ya da güncellemek istediğinizde kullanın.",
+          "how": "İstenen projeyi açın ve Edit'i seçin. Proje formunda değişiklikleri yapın, ardından Save Project'i seçin ve kaydetme onayını bekleyin.",
+          "inputs": "Düzenleyiciyi açmak için ek giriş gerekmez. Seçilen projenin kayıtlı kimliği ve mevcut değerleri forma yüklenir; yaptığınız değişiklikler normal proje kaydetme doğrulamasına tabidir.",
+          "result": "New Project formu seçilen projenin mevcut ayrıntılarıyla açılır ve sayfa başlığı Edit Project olarak değişir.",
+          "notes": "Düzenlemeden önce doğru projenin açık olduğunu doğrulayın. Save Project başarılı olup uygulama IndexedDB kaydını onaylayana kadar değişiklikler kaydedilmiş sayılmaz. Kaydetme iş akışı mevcut proje finansal kayıtlarını korur."
+        },
+        "pl": {
+          "purpose": "Wczytuje zapisane szczegóły wybranego projektu do formularza New Project w celu edycji.",
+          "when": "Użyj tej opcji, aby poprawić lub zaktualizować nazwę, klienta, lokalizację, dane kontaktowe, typ umowy, udziały partnerów, zdjęcie lub notatki istniejącego projektu.",
+          "how": "Otwórz odpowiedni projekt i wybierz Edit. Wprowadź zmiany w formularzu projektu, następnie wybierz Save Project i poczekaj na potwierdzenie zapisu.",
+          "inputs": "Do otwarcia edytora nie są potrzebne dodatkowe dane. Zapisany identyfikator i bieżące wartości wybranego projektu są wczytywane do formularza; wszystkie zmiany podlegają standardowej walidacji podczas zapisywania projektu.",
+          "result": "Formularz New Project otwiera się z dotychczasowymi danymi wybranego projektu, a tytuł strony zmienia się na Edit Project.",
+          "notes": "Przed edycją upewnij się, że otwarto właściwy projekt. Zmiany nie zostaną zapisane, dopóki Save Project nie zakończy się powodzeniem, a aplikacja nie potwierdzi zapisu w IndexedDB. Proces zapisu zachowuje istniejące finansowe rekordy projektu."
+        },
+        "ur": {
+          "purpose": "منتخب منصوبے کی محفوظ شدہ تفصیلات ترمیم کے لیے New Project فارم میں لوڈ کرتا ہے۔",
+          "when": "اسے موجودہ منصوبے کے نام، کسٹمر، مقام، رابطے کی تفصیلات، معاہدے کی قسم، پارٹنر حصوں، تصویر یا نوٹس درست یا اپ ڈیٹ کرنے کے لیے استعمال کریں۔",
+          "how": "مطلوبہ منصوبہ کھولیں اور Edit منتخب کریں۔ منصوبے کے فارم میں تبدیلیاں کریں، پھر Save Project منتخب کریں اور محفوظ ہونے کی تصدیق کا انتظار کریں۔",
+          "inputs": "ایڈیٹر کھولنے کے لیے اضافی معلومات درکار نہیں۔ منتخب منصوبے کی محفوظ شدہ شناخت اور موجودہ قدریں فارم میں لوڈ ہوتی ہیں؛ آپ کی تبدیلیاں منصوبہ محفوظ کرنے کی معمول کی جانچ سے گزرتی ہیں۔",
+          "result": "New Project فارم منتخب منصوبے کی موجودہ تفصیلات کے ساتھ کھلتا ہے اور صفحے کا عنوان Edit Project ہو جاتا ہے۔",
+          "notes": "ترمیم سے پہلے تصدیق کریں کہ درست منصوبہ کھلا ہے۔ تبدیلیاں اس وقت تک محفوظ نہیں ہوتیں جب تک Save Project کامیاب نہ ہو اور ایپ IndexedDB میں محفوظ ہونے کی تصدیق نہ کرے۔ محفوظ کرنے کا عمل موجودہ منصوبے کے مالی ریکارڈ برقرار رکھتا ہے۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੇ ਹੋਏ ਪ੍ਰੋਜੈਕਟ ਦੇ ਸੰਭਾਲੇ ਵੇਰਵੇ ਸੋਧ ਲਈ New Project ਫਾਰਮ ਵਿੱਚ ਲੋਡ ਕਰਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਦਾ ਨਾਮ, ਗਾਹਕ, ਸਾਈਟ, ਸੰਪਰਕ ਵੇਰਵੇ, ਠੇਕੇ ਦੀ ਕਿਸਮ, ਭਾਈਵਾਲ ਹਿੱਸੇ, ਫੋਟੋ ਜਾਂ ਨੋਟ ਠੀਕ ਜਾਂ ਅੱਪਡੇਟ ਕਰਨ ਲਈ ਕਰੋ।",
+          "how": "ਲੋੜੀਂਦਾ ਪ੍ਰੋਜੈਕਟ ਖੋਲ੍ਹੋ ਅਤੇ Edit ਚੁਣੋ। ਪ੍ਰੋਜੈਕਟ ਫਾਰਮ ਵਿੱਚ ਤਬਦੀਲੀਆਂ ਕਰੋ, ਫਿਰ Save Project ਚੁਣੋ ਅਤੇ ਸੇਵ ਹੋਣ ਦੀ ਪੁਸ਼ਟੀ ਦੀ ਉਡੀਕ ਕਰੋ।",
+          "inputs": "ਐਡੀਟਰ ਖੋਲ੍ਹਣ ਲਈ ਵਾਧੂ ਇਨਪੁੱਟ ਦੀ ਲੋੜ ਨਹੀਂ। ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਦੀ ਸੰਭਾਲੀ ਪਛਾਣ ਅਤੇ ਮੌਜੂਦਾ ਕਦਰਾਂ ਫਾਰਮ ਵਿੱਚ ਲੋਡ ਹੁੰਦੀਆਂ ਹਨ; ਕੀਤੀਆਂ ਤਬਦੀਲੀਆਂ ਆਮ ਪ੍ਰੋਜੈਕਟ-ਸੇਵ ਜਾਂਚ ਦੇ ਅਧੀਨ ਹਨ।",
+          "result": "New Project ਫਾਰਮ ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਦੇ ਮੌਜੂਦਾ ਵੇਰਵਿਆਂ ਨਾਲ ਖੁੱਲ੍ਹਦਾ ਹੈ ਅਤੇ ਪੰਨੇ ਦਾ ਸਿਰਲੇਖ Edit Project ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਸੋਧ ਤੋਂ ਪਹਿਲਾਂ ਪੁਸ਼ਟੀ ਕਰੋ ਕਿ ਸਹੀ ਪ੍ਰੋਜੈਕਟ ਖੁੱਲ੍ਹਾ ਹੈ। ਤਬਦੀਲੀਆਂ ਤਦ ਤੱਕ ਪੱਕੀਆਂ ਨਹੀਂ ਹੁੰਦੀਆਂ ਜਦੋਂ ਤੱਕ Save Project ਸਫਲ ਨਾ ਹੋਵੇ ਅਤੇ ਐਪ IndexedDB ਵਿੱਚ ਸੇਵ ਹੋਣ ਦੀ ਪੁਸ਼ਟੀ ਨਾ ਕਰੇ। ਸੇਵ ਪ੍ਰਕਿਰਿਆ ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਦੇ ਵਿੱਤੀ ਰਿਕਾਰਡ ਬਰਕਰਾਰ ਰੱਖਦੀ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "جزئیات ذخیره‌شده پروژه انتخاب‌شده را برای ویرایش در فرم New Project بارگذاری می‌کند.",
+          "when": "برای اصلاح یا به‌روزرسانی نام، مشتری، محل، اطلاعات تماس، نوع قرارداد، سهم شرکا، عکس یا یادداشت‌های پروژه موجود از این گزینه استفاده کنید.",
+          "how": "پروژه موردنظر را باز کنید و Edit را انتخاب کنید. تغییرات را در فرم پروژه اعمال کنید، سپس Save Project را انتخاب کنید و منتظر تأیید ذخیره بمانید.",
+          "inputs": "برای بازکردن ویرایشگر ورودی دیگری لازم نیست. شناسه و مقادیر ذخیره‌شده پروژه انتخاب‌شده در فرم بارگذاری می‌شوند؛ تغییرات شما مشمول اعتبارسنجی معمول ذخیره پروژه هستند.",
+          "result": "فرم New Project با جزئیات فعلی پروژه انتخاب‌شده باز می‌شود و عنوان صفحه به Edit Project تغییر می‌کند.",
+          "notes": "پیش از ویرایش، مطمئن شوید پروژه صحیح باز است. تغییرات تا زمان موفقیت Save Project و تأیید ذخیره در IndexedDB ثبت نمی‌شوند. گردش‌کار ذخیره، سوابق مالی موجود پروژه را حفظ می‌کند."
+        },
+        "ps": {
+          "purpose": "د ټاکل شوې پروژې خوندي شوي جزئیات د سمون لپاره د New Project فورم ته باروي.",
+          "when": "دا هغه وخت وکاروئ چې د موجودې پروژې نوم، پېرودونکی، ځای، د اړیکې معلومات، د قرارداد ډول، د شریکانو ونډې، انځور یا یادښتونه سم یا نوي کوئ.",
+          "how": "اړینه پروژه پرانیزئ او Edit وټاکئ. د پروژې په فورم کې بدلونونه وکړئ، بیا Save Project وټاکئ او د خوندي کېدو تایید ته انتظار وکړئ.",
+          "inputs": "د سمونګر د پرانیستلو لپاره اضافي معلوماتو ته اړتیا نشته. د ټاکل شوې پروژې خوندي شوی پېژند او اوسني ارزښتونه فورم ته بارېږي؛ ستاسو بدلونونه د پروژې د خوندي کولو د عادي تایید تابع دي.",
+          "result": "د New Project فورم د ټاکل شوې پروژې له اوسنیو جزئیاتو سره پرانیستل کېږي او د پاڼې سرلیک Edit Project ته بدلېږي.",
+          "notes": "له سمون مخکې تایید کړئ چې سمه پروژه پرانیستل شوې ده. بدلونونه تر هغه نه ثبتېږي چې Save Project بریالی نه شي او اپلېکېشن په IndexedDB کې خوندي کېدل تایید نه کړي. د خوندي کولو بهیر د پروژې موجود مالي ریکارډونه ساتي."
         }
       },
       "handler_or_behavior": "`prEditCurrent()`"
