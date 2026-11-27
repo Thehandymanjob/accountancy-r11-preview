@@ -8716,20 +8716,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the selected invoice preview from the invoice record list for viewing or PDF output.",
-          "when": "Use this when you need to inspect or print/save a particular saved invoice.",
-          "how": "In the invoice list, locate the correct invoice and select View / PDF. Review the invoice preview; use the available print/PDF action as required.",
+          "purpose": "Opens the selected invoice from the Records list in an on-screen invoice preview.",
+          "when": "Use this when you need to inspect a saved invoice from the Records list.",
+          "how": "In Records, locate the correct invoice row and select View. The app opens the invoice preview and provides a Back to Records action. To print or save a PDF, use View / PDF from the Invoices list instead.",
           "inputs": "Select the correct invoice row. No additional input is required to open its preview.",
-          "result": "The selected invoice is rendered in the invoice preview for viewing or printing/saving as PDF.",
-          "notes": "Check the invoice number, customer, work description and total before printing or sharing. Viewing an invoice does not mark it as paid."
+          "result": "The selected invoice is displayed in the invoice preview. This View action does not itself open the print view or mark the invoice as paid.",
+          "notes": "Check the invoice number, customer, work description and total. Viewing an invoice does not change its payment status. Use the separate Invoices → View / PDF action for printing or PDF output."
         },
         "fa": {
-          "purpose": "پیش‌نمایش فاکتور انتخاب‌شده را از فهرست فاکتورها برای مشاهده یا خروجی PDF باز می‌کند.",
-          "when": "وقتی می‌خواهید یک فاکتور ذخیره‌شده مشخص را بررسی، چاپ یا به‌صورت PDF ذخیره کنید، از این گزینه استفاده کنید.",
-          "how": "در فهرست فاکتورها، فاکتور صحیح را پیدا کنید و View / PDF را انتخاب کنید. پیش‌نمایش فاکتور را بررسی کنید و در صورت نیاز از گزینه چاپ/PDF استفاده کنید.",
+          "purpose": "فاکتور انتخاب‌شده را از فهرست Records در پیش‌نمایش داخل برنامه باز می‌کند.",
+          "when": "وقتی می‌خواهید یک فاکتور ذخیره‌شده را از فهرست Records بررسی کنید، از این گزینه استفاده کنید.",
+          "how": "در Records ردیف فاکتور صحیح را پیدا و View را انتخاب کنید. پیش‌نمایش فاکتور باز می‌شود و گزینه Back to Records را در اختیار شما قرار می‌دهد. برای چاپ یا ذخیره PDF، از گزینه View / PDF در فهرست Invoices استفاده کنید.",
           "inputs": "ردیف فاکتور صحیح را انتخاب کنید. برای بازکردن پیش‌نمایش ورودی دیگری لازم نیست.",
-          "result": "فاکتور انتخاب‌شده در پیش‌نمایش برای مشاهده، چاپ یا ذخیره PDF نمایش داده می‌شود.",
-          "notes": "پیش از چاپ یا اشتراک‌گذاری، شماره فاکتور، مشتری، شرح کار و مبلغ کل را بررسی کنید. مشاهده فاکتور آن را پرداخت‌شده علامت نمی‌زند."
+          "result": "فاکتور انتخاب‌شده در پیش‌نمایش نمایش داده می‌شود. این گزینه View به‌تنهایی نمای چاپ را باز نمی‌کند و فاکتور را پرداخت‌شده علامت نمی‌زند.",
+          "notes": "شماره فاکتور، مشتری، شرح کار و مبلغ کل را بررسی کنید. مشاهده فاکتور وضعیت پرداخت آن را تغییر نمی‌دهد. برای چاپ یا خروجی PDF از گزینه جداگانه Invoices → View / PDF استفاده کنید."
         },
         "ar": {
           "purpose": "يفتح الفاتورة المحددة من قائمة السجلات.",
