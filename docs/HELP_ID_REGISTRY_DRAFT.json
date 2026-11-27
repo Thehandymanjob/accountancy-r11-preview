@@ -2487,7 +2487,7 @@
       "audit_ref": "INV-029",
       "element_id": null,
       "label": "Save Entry",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Validate and save the current income or expense entry to the app's local database.",
@@ -2504,6 +2504,78 @@
           "inputs": "تاریخ معتبر و مبلغ بیشتر از صفر لازم است. ثبت هزینه به دسته‌بندی نیز نیاز دارد؛ روش پرداخت در فرم انتخاب می‌شود.",
           "result": "پس از ذخیره موفق، ثبت نگهداری و جمع‌ها و سوابق مرتبط تازه می‌شوند.",
           "notes": "نوع، تاریخ، مبلغ، دسته‌بندی و روش پرداخت را بررسی کنید. برای موارد تکراری هشدار می‌آید. اگر تأیید ذخیره‌سازی ناموفق بود، فرض نکنید ثبت ذخیره شده است."
+        },
+        "ar": {
+          "purpose": "يتحقق من صحة قيد الدخل أو المصروف الحالي ويحفظه في قاعدة البيانات المحلية للتطبيق.",
+          "when": "استخدمه بعد إكمال معاملة جديدة أو تعديل قيد موجود.",
+          "how": "أكمل الحقول المطلوبة، واختر Save Entry، ثم اقرأ أي رسالة تحقق أو تأكيد.",
+          "inputs": "يلزم تاريخ صحيح ومبلغ أكبر من صفر. وتتطلب المصروفات أيضًا فئة؛ ويُختار أسلوب الدفع في النموذج.",
+          "result": "بعد نجاح الحفظ، يُخزّن القيد وتُحدّث الإجماليات والسجلات المرتبطة.",
+          "notes": "راجع النوع والتاريخ والمبلغ والفئة وطريقة الدفع. تظهر رسالة تحذير عند احتمال التكرار. إذا فشل تأكيد التخزين، فلا تفترض أن القيد حُفظ."
+        },
+        "ckb": {
+          "purpose": "تۆماری ئێستای داهات یان خەرجی پشکنین دەکات و لە بنکەدراوەی ناوخۆی ئەپەکە پاشەکەوتی دەکات.",
+          "when": "دوای تەواوکردنی مامەڵەیەکی نوێ یان دەستکاریکردنی تۆمارێکی هەبوو بەکاریبهێنە.",
+          "how": "خانە پێویستەکان پڕ بکەرەوە، Save Entry هەڵبژێرە و هەر پەیامی پشکنین یان پشتڕاستکردنەوەیەک بخوێنەرەوە.",
+          "inputs": "بەروارێکی دروست و بڕێک زیاتر لە سفر پێویستە. خەرجی هەروەها پێویستی بە هاوپۆل هەیە؛ شێوازی پارەدان لە فۆڕمەکە هەڵدەبژێردرێت.",
+          "result": "دوای پاشەکەوتکردنی سەرکەوتوو، تۆمارەکە هەڵدەگیرێت و کۆی ژمارە و تۆمارە پەیوەندیدارەکان نوێ دەکرێنەوە.",
+          "notes": "جۆر، بەروار، بڕ، هاوپۆل و شێوازی پارەدان بپشکنە. ئەگەر گومان لە دووبارەبوونەوە هەبێت ئاگادارکردنەوە دەردەکەوێت. ئەگەر پشتڕاستکردنەوەی پاشەکەوتکردن سەرکەوتوو نەبوو، وا مەزانە تۆمارەکە پاشەکەوت کراوە."
+        },
+        "kmr": {
+          "purpose": "Tomara niha ya dahat an lêçûnê kontrol dike û di danegeha herêmî ya sepanê de dihêle.",
+          "when": "Piştî temamkirina danûstandineke nû an sererastkirina tomarek heyî vê bikar bîne.",
+          "how": "Qadên pêwîst dagire, Save Entry hilbijêre û her peyama kontrolê an piştrastkirinê bixwîne.",
+          "inputs": "Dîrokeke derbasdar û mîqdarek ji sifirê mezintir pêwîst e. Lêçûn her wiha kategoriyekê dixwaze; awayê dayînê di formê de tê hilbijartin.",
+          "result": "Piştî hilanîna serkeftî, tomar tê hilanîn û tevahî û tomarên têkildar nû dibin.",
+          "notes": "Cure, dîrok, mîqdar, kategorî û awayê dayînê kontrol bike. Ji bo dubarebûnê ya gengaz hişyariyek tê nîşandan. Heke piştrastkirina hilanînê bi ser nekeve, texmîn neke ku tomar hatiye hilanîn."
+        },
+        "tr": {
+          "purpose": "Geçerli gelir veya gider kaydını doğrular ve uygulamanın yerel veritabanına kaydeder.",
+          "when": "Yeni bir işlemi tamamladıktan veya mevcut bir kaydı düzenledikten sonra kullanın.",
+          "how": "Gerekli alanları doldurun, Save Entry seçeneğini seçin ve doğrulama ya da onay mesajlarını okuyun.",
+          "inputs": "Geçerli bir tarih ve sıfırdan büyük bir tutar gerekir. Giderlerde kategori de zorunludur; ödeme yöntemi formdan seçilir.",
+          "result": "Kayıt başarıyla kaydedilirse saklanır ve ilgili toplamlar ile kayıt listeleri yenilenir.",
+          "notes": "Türü, tarihi, tutarı, kategoriyi ve ödeme yöntemini kontrol edin. Olası yinelenen kayıtlar için uyarı gösterilir. Kayıt onayı başarısızsa kaydın saklandığını varsaymayın."
+        },
+        "pl": {
+          "purpose": "Sprawdza poprawność bieżącego wpisu przychodu lub wydatku i zapisuje go w lokalnej bazie danych aplikacji.",
+          "when": "Użyj po zakończeniu nowej transakcji lub edycji istniejącego wpisu.",
+          "how": "Uzupełnij wymagane pola, wybierz Save Entry i przeczytaj ewentualny komunikat walidacji lub potwierdzenia.",
+          "inputs": "Wymagana jest prawidłowa data i kwota większa od zera. Wydatki wymagają również kategorii; metodę płatności wybiera się w formularzu.",
+          "result": "Po pomyślnym zapisie wpis zostaje zapisany, a powiązane sumy i rejestry są odświeżane.",
+          "notes": "Sprawdź typ, datę, kwotę, kategorię i metodę płatności. Możliwe duplikaty wywołują ostrzeżenie. Jeśli potwierdzenie zapisu się nie powiedzie, nie zakładaj, że wpis został zapisany."
+        },
+        "ur": {
+          "purpose": "موجودہ آمدنی یا اخراجات کے اندراج کی توثیق کرکے اسے ایپ کے مقامی ڈیٹا بیس میں محفوظ کرتا ہے۔",
+          "when": "نیا لین دین مکمل کرنے یا موجودہ اندراج میں ترمیم کے بعد استعمال کریں۔",
+          "how": "ضروری خانے مکمل کریں، Save Entry منتخب کریں اور توثیق یا تصدیق کا کوئی بھی پیغام پڑھیں۔",
+          "inputs": "درست تاریخ اور صفر سے زیادہ رقم ضروری ہے۔ اخراجات کے لیے قسم بھی لازم ہے؛ ادائیگی کا طریقہ فارم میں منتخب کیا جاتا ہے۔",
+          "result": "کامیاب محفوظ ہونے کے بعد اندراج محفوظ ہو جاتا ہے اور متعلقہ مجموعے اور ریکارڈ تازہ ہو جاتے ہیں۔",
+          "notes": "قسم، تاریخ، رقم، زمرہ اور ادائیگی کا طریقہ دیکھیں۔ ممکنہ دہرے اندراج پر تنبیہ ظاہر ہوتی ہے۔ اگر محفوظ ہونے کی تصدیق ناکام ہو تو یہ نہ سمجھیں کہ اندراج محفوظ ہو گیا ہے۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਆਮਦਨ ਜਾਂ ਖਰਚੇ ਦੀ ਐਂਟਰੀ ਦੀ ਜਾਂਚ ਕਰਕੇ ਇਸਨੂੰ ਐਪ ਦੇ ਸਥਾਨਕ ਡਾਟਾਬੇਸ ਵਿੱਚ ਸੰਭਾਲਦਾ ਹੈ।",
+          "when": "ਨਵਾਂ ਲੈਣ-ਦੇਣ ਪੂਰਾ ਕਰਨ ਜਾਂ ਮੌਜੂਦਾ ਐਂਟਰੀ ਸੋਧਣ ਤੋਂ ਬਾਅਦ ਵਰਤੋ।",
+          "how": "ਲੋੜੀਂਦੇ ਖਾਨੇ ਭਰੋ, Save Entry ਚੁਣੋ ਅਤੇ ਜਾਂਚ ਜਾਂ ਪੁਸ਼ਟੀ ਵਾਲਾ ਸੁਨੇਹਾ ਪੜ੍ਹੋ।",
+          "inputs": "ਸਹੀ ਤਾਰੀਖ ਅਤੇ ਸਿਫ਼ਰ ਤੋਂ ਵੱਧ ਰਕਮ ਲਾਜ਼ਮੀ ਹੈ। ਖਰਚੇ ਲਈ ਸ਼੍ਰੇਣੀ ਵੀ ਲੋੜੀਂਦੀ ਹੈ; ਭੁਗਤਾਨ ਦਾ ਤਰੀਕਾ ਫਾਰਮ ਵਿੱਚ ਚੁਣਿਆ ਜਾਂਦਾ ਹੈ।",
+          "result": "ਸਫਲਤਾਪੂਰਵਕ ਸੰਭਾਲਣ ਤੋਂ ਬਾਅਦ ਐਂਟਰੀ ਸਟੋਰ ਹੁੰਦੀ ਹੈ ਅਤੇ ਸੰਬੰਧਿਤ ਕੁੱਲ ਤੇ ਰਿਕਾਰਡ ਤਾਜ਼ਾ ਹੁੰਦੇ ਹਨ।",
+          "notes": "ਕਿਸਮ, ਤਾਰੀਖ, ਰਕਮ, ਸ਼੍ਰੇਣੀ ਅਤੇ ਭੁਗਤਾਨ ਤਰੀਕਾ ਜਾਂਚੋ। ਸੰਭਾਵੀ ਦੁਹਰੀ ਐਂਟਰੀ ਲਈ ਚੇਤਾਵਨੀ ਆਉਂਦੀ ਹੈ। ਜੇ ਸੰਭਾਲ ਦੀ ਪੁਸ਼ਟੀ ਅਸਫਲ ਹੋਵੇ ਤਾਂ ਇਹ ਨਾ ਮੰਨੋ ਕਿ ਐਂਟਰੀ ਸੇਵ ਹੋ ਗਈ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "ثبت فعلی درآمد یا هزینه را اعتبارسنجی می‌کند و در پایگاه داده محلی برنامه ذخیره می‌سازد.",
+          "when": "پس از تکمیل تراکنش جدید یا ویرایش ثبت موجود استفاده کنید.",
+          "how": "فیلدهای لازم را تکمیل کنید، Save Entry را انتخاب کنید و پیام اعتبارسنجی یا تأیید را بخوانید.",
+          "inputs": "تاریخ معتبر و مبلغ بیشتر از صفر لازم است. هزینه‌ها به دسته‌بندی نیز نیاز دارند؛ روش پرداخت در فرم انتخاب می‌شود.",
+          "result": "پس از ذخیره موفق، ثبت نگهداری می‌شود و جمع‌ها و سوابق مرتبط تازه می‌شوند.",
+          "notes": "نوع، تاریخ، مبلغ، دسته‌بندی و روش پرداخت را بررسی کنید. برای احتمال ثبت تکراری هشدار نمایش داده می‌شود. اگر تأیید ذخیره ناموفق بود، فرض نکنید ثبت ذخیره شده است."
+        },
+        "ps": {
+          "purpose": "د عاید یا لګښت اوسنی ثبت تاییدوي او د اپ په محلي ډیټابېس کې یې خوندي کوي.",
+          "when": "د نوې معاملې له بشپړولو یا د موجود ثبت له سمولو وروسته یې وکاروئ.",
+          "how": "اړینې برخې ډکې کړئ، Save Entry وټاکئ او د تایید یا تصدیق پیغام ولولئ.",
+          "inputs": "سمه نېټه او له صفر څخه زیاته اندازه اړینه ده. لګښتونه کټګورۍ ته هم اړتیا لري؛ د پیسو ورکولو طریقه په فورمه کې ټاکل کېږي.",
+          "result": "له بریالي خوندي کولو وروسته ثبت ساتل کېږي او اړوند ټولیزې شمېرې او ریکارډونه تازه کېږي.",
+          "notes": "ډول، نېټه، اندازه، کټګوري او د پیسو ورکولو طریقه وګورئ. د احتمالي تکراري ثبت په اړه خبرتیا ښکاري. که د خوندي کولو تایید ناکام شي، دا مه ګڼئ چې ثبت خوندي شوی دی."
         }
       },
       "handler_or_behavior": "`saveEntry()`"
@@ -2513,7 +2585,7 @@
       "audit_ref": "INV-030",
       "element_id": null,
       "label": "Clear Form",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Clear the entry form and return it to the default new-entry state.",
@@ -2530,6 +2602,78 @@
           "inputs": "ورودی لازم نیست؛ فیلدهای ذخیره‌نشده و پیش‌نمایش رسید پاک می‌شوند.",
           "result": "فرم بازنشانی شده و برای ثبت جدید آماده است.",
           "notes": "این کار مقادیر فرم را پاک می‌کند، نه تراکنش‌های ذخیره‌شده را. اگر در حال ویرایش رکورد موجود بودید، مطمئن شوید تغییرات ذخیره‌نشده را لازم ندارید."
+        },
+        "ar": {
+          "purpose": "يمسح نموذج القيد ويعيده إلى الحالة الافتراضية لإدخال قيد جديد.",
+          "when": "استخدمه للتخلص من القيم غير المحفوظة في النموذج والبدء بقيد جديد.",
+          "how": "اختر Clear Form. يُعاد النموذج إلى قيد دخل جديد بتاريخ اليوم وطريقة الدفع الافتراضية.",
+          "inputs": "لا يلزم إدخال شيء. يمسح هذا الحقول غير المحفوظة ومعاينة الإيصال.",
+          "result": "يُعاد ضبط النموذج ويصبح جاهزًا لقيد جديد.",
+          "notes": "يمسح هذا قيم النموذج ولا يحذف المعاملات المحفوظة. إذا كنت تعدّل سجلًا موجودًا، فتأكد من أنك لا تحتاج إلى التغييرات غير المحفوظة."
+        },
+        "ckb": {
+          "purpose": "فۆڕمی تۆمار پاک دەکاتەوە و دەیگەڕێنێتەوە بۆ دۆخی بنەڕەتی بۆ تۆمارێکی نوێ.",
+          "when": "بۆ لابردنی بەها پاشەکەوت‌نەکراوەکانی فۆڕم و دەستپێکردنی تۆمارێکی نوێ بەکاریبهێنە.",
+          "how": "Clear Form هەڵبژێرە. فۆڕمەکە دەگەڕێتەوە بۆ تۆماری داهاتی نوێ بە بەرواری ئەمڕۆ و شێوازی پارەدانی بنەڕەتی.",
+          "inputs": "هیچ زانیارییەک پێویست نییە. خانە پاشەکەوت‌نەکراوەکان و پێشبینینی پسووڵە پاک دەکاتەوە.",
+          "result": "فۆڕمەکە نوێ دەکرێتەوە و بۆ تۆمارێکی نوێ ئامادە دەبێت.",
+          "notes": "ئەمە بەهاکانی فۆڕم پاک دەکاتەوە، نەک مامەڵە پاشەکەوتکراوەکان. ئەگەر تۆمارێکی هەبوو دەستکاری دەکەیت، دڵنیابە گۆڕانکارییە پاشەکەوت‌نەکراوەکانت پێویست نین."
+        },
+        "kmr": {
+          "purpose": "Forma tomarê paqij dike û vedigerîne rewşa standard a tomarê nû.",
+          "when": "Ji bo avêtina nirxên nehatiye hilanîn û destpêkirina tomarek nû vê bikar bîne.",
+          "how": "Clear Form hilbijêre. Form vedigere tomara dahata nû bi dîroka îro û awayê dayînê yê standard.",
+          "inputs": "Tu agahî nehewce ye. Ev qadên formê yên nehatiye hilanîn û pêşdîtina fatûreyê paqij dike.",
+          "result": "Form tê nûkirin û ji bo tomarek nû amade dibe.",
+          "notes": "Ev nirxên formê paqij dike, ne danûstandinên hilanî. Heke tu tomarek heyî sererast dikî, piştrast bike ku guhertinên nehatiye hilanîn pêdivî nînin."
+        },
+        "tr": {
+          "purpose": "Giriş formunu temizler ve varsayılan yeni kayıt durumuna döndürür.",
+          "when": "Kaydedilmemiş form değerlerini atıp yeni bir kayıt başlatmak için kullanın.",
+          "how": "Clear Form seçeneğini seçin. Form, bugünün tarihini ve varsayılan ödeme yöntemini kullanan yeni bir Gelir kaydına sıfırlanır.",
+          "inputs": "Girdi gerekmez. Kaydedilmemiş form alanlarını ve makbuz önizlemesini temizler.",
+          "result": "Form sıfırlanır ve yeni bir kayıt için hazır olur.",
+          "notes": "Bu işlem form değerlerini temizler, kaydedilmiş işlemleri silmez. Mevcut bir kaydı düzenliyorsanız kaydedilmemiş değişikliklere ihtiyacınız olmadığından emin olun."
+        },
+        "pl": {
+          "purpose": "Czyści formularz wpisu i przywraca domyślny stan nowego wpisu.",
+          "when": "Użyj, aby odrzucić niezapisane wartości formularza i rozpocząć nowy wpis.",
+          "how": "Wybierz Clear Form. Formularz zostanie zresetowany do nowego wpisu przychodu z dzisiejszą datą i domyślną metodą płatności.",
+          "inputs": "Nie są wymagane żadne dane. Usuwane są niezapisane pola formularza i podgląd paragonu.",
+          "result": "Formularz zostaje zresetowany i jest gotowy do nowego wpisu.",
+          "notes": "Ta czynność czyści wartości formularza, a nie zapisane transakcje. Jeśli edytujesz istniejący rekord, upewnij się, że nie potrzebujesz niezapisanych zmian."
+        },
+        "ur": {
+          "purpose": "اندراج کا فارم صاف کرکے اسے نئے اندراج کی طے شدہ حالت میں واپس لاتا ہے۔",
+          "when": "فارم کی غیر محفوظ شدہ قدریں ختم کرکے نیا اندراج شروع کرنے کے لیے استعمال کریں۔",
+          "how": "Clear Form منتخب کریں۔ فارم آج کی تاریخ اور پہلے سے طے شدہ ادائیگی کے طریقے کے ساتھ نئی آمدنی کے اندراج پر واپس آ جاتا ہے۔",
+          "inputs": "کسی معلومات کی ضرورت نہیں۔ یہ غیر محفوظ شدہ خانے اور رسید کا پیش منظر صاف کرتا ہے۔",
+          "result": "فارم دوبارہ ترتیب پا کر نئے اندراج کے لیے تیار ہو جاتا ہے۔",
+          "notes": "یہ فارم کی قدریں صاف کرتا ہے، محفوظ شدہ لین دین حذف نہیں کرتا۔ اگر موجودہ ریکارڈ میں ترمیم کر رہے ہیں تو یقینی بنائیں کہ غیر محفوظ شدہ تبدیلیاں درکار نہیں۔"
+        },
+        "pa": {
+          "purpose": "ਐਂਟਰੀ ਫਾਰਮ ਸਾਫ਼ ਕਰਕੇ ਇਸਨੂੰ ਨਵੀਂ ਐਂਟਰੀ ਦੀ ਮੂਲ ਹਾਲਤ ਵਿੱਚ ਵਾਪਸ ਲਿਆਉਂਦਾ ਹੈ।",
+          "when": "ਫਾਰਮ ਦੀਆਂ ਨਾ-ਸੰਭਾਲੀਆਂ ਕਦਰਾਂ ਹਟਾ ਕੇ ਨਵੀਂ ਐਂਟਰੀ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਵਰਤੋ।",
+          "how": "Clear Form ਚੁਣੋ। ਫਾਰਮ ਅੱਜ ਦੀ ਤਾਰੀਖ ਅਤੇ ਮੂਲ ਭੁਗਤਾਨ ਤਰੀਕੇ ਨਾਲ ਨਵੀਂ Income ਐਂਟਰੀ ਲਈ ਰੀਸੈੱਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "inputs": "ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ। ਇਹ ਨਾ-ਸੰਭਾਲੇ ਖਾਨੇ ਅਤੇ ਰਸੀਦ ਦੀ ਝਲਕ ਸਾਫ਼ ਕਰਦਾ ਹੈ।",
+          "result": "ਫਾਰਮ ਰੀਸੈੱਟ ਹੋ ਕੇ ਨਵੀਂ ਐਂਟਰੀ ਲਈ ਤਿਆਰ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਇਹ ਫਾਰਮ ਦੀਆਂ ਕਦਰਾਂ ਸਾਫ਼ ਕਰਦਾ ਹੈ, ਸੰਭਾਲੇ ਲੈਣ-ਦੇਣ ਨਹੀਂ ਮਿਟਾਉਂਦਾ। ਜੇ ਮੌਜੂਦਾ ਰਿਕਾਰਡ ਸੋਧ ਰਹੇ ਹੋ ਤਾਂ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਨਾ-ਸੰਭਾਲੀਆਂ ਤਬਦੀਲੀਆਂ ਦੀ ਲੋੜ ਨਹੀਂ।"
+        },
+        "prs": {
+          "purpose": "فرم ثبت را پاک می‌کند و به حالت پیش‌فرض ثبت جدید بازمی‌گرداند.",
+          "when": "برای کنارگذاشتن مقادیر ذخیره‌نشده فرم و شروع ثبت تازه استفاده کنید.",
+          "how": "Clear Form را انتخاب کنید. فرم به ثبت جدید Income با تاریخ امروز و روش پرداخت پیش‌فرض بازمی‌گردد.",
+          "inputs": "ورودی لازم نیست. فیلدهای ذخیره‌نشده فرم و پیش‌نمایش رسید پاک می‌شوند.",
+          "result": "فرم بازنشانی شده و برای ثبت جدید آماده می‌شود.",
+          "notes": "این کار مقادیر فرم را پاک می‌کند، نه تراکنش‌های ذخیره‌شده را. اگر رکورد موجودی را ویرایش می‌کنید، مطمئن شوید تغییرات ذخیره‌نشده را لازم ندارید."
+        },
+        "ps": {
+          "purpose": "د ثبت فورمه پاکوي او د نوي ثبت اصلي حالت ته یې بېرته ګرځوي.",
+          "when": "د فورمې د نه‌خوندي شویو ارزښتونو د لرې کولو او د نوي ثبت د پیل لپاره یې وکاروئ.",
+          "how": "Clear Form وټاکئ. فورمه د نن ورځې نېټې او اصلي تادیې طریقې سره د نوي عاید ثبت ته بیا برابریږي.",
+          "inputs": "معلوماتو ته اړتیا نشته. دا د فورمې نه‌خوندي شوې برخې او د رسید مخکتنه پاکوي.",
+          "result": "فورمه بیا تنظیمېږي او د نوي ثبت لپاره چمتو کېږي.",
+          "notes": "دا د فورمې ارزښتونه پاکوي، خوندي شوې معاملې نه ړنګوي. که موجود ریکارډ سموی، ډاډ ترلاسه کړئ چې نه‌خوندي شوي بدلونونه درته اړین نه دي."
         }
       },
       "handler_or_behavior": "`resetEntry()`"
@@ -2539,7 +2683,7 @@
       "audit_ref": "INV-032",
       "element_id": null,
       "label": "Add to list",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Add a new named item to the selected expense category list.",
@@ -2556,6 +2700,78 @@
           "inputs": "گروه و نام غیرخالی حداکثر ۷۰ نویسه لازم است. نام تکراری در همان گروه پذیرفته نمی‌شود.",
           "result": "پس از ذخیره موفق، مورد جدید به فهرست افزوده و برای ثبت فعلی انتخاب می‌شود.",
           "notes": "املای نام و گروه را بررسی کنید. مورد جداگانه در فهرست دسته‌بندی ذخیره می‌شود؛ خود ثبت هزینه را نیز باید ذخیره کنید."
+        },
+        "ar": {
+          "purpose": "يضيف عنصرًا جديدًا باسم محدد إلى قائمة فئة المصروفات المختارة.",
+          "when": "استخدمه عندما لا يكون بند المصروف أو المورد المطلوب متاحًا في قائمة الفئات.",
+          "how": "اختر مجموعة الفئات، وأدخل اسم العنصر الجديد، ثم اختر Add to list.",
+          "inputs": "يلزم اختيار مجموعة فئات وإدخال اسم غير فارغ لا يتجاوز 70 حرفًا. تُرفض الأسماء المكررة داخل المجموعة نفسها.",
+          "result": "بعد نجاح الحفظ، يُضاف العنصر إلى قائمة الفئات ويُختار للقيد الحالي.",
+          "notes": "تحقق من الإملاء والمجموعة قبل الإضافة. يُحفظ العنصر في قائمة الفئات بشكل مستقل؛ ولا يزال عليك حفظ قيد المصروف."
+        },
+        "ckb": {
+          "purpose": "دانەیەکی نوێی ناونراو زیاد دەکات بۆ لیستی هاوپۆلی خەرجی هەڵبژێردراو.",
+          "when": "کاتێک بڕگەی خەرجی یان دابینکەری پێویست لە هەڵبژێری هاوپۆلدا بەردەست نییە، بەکاریبهێنە.",
+          "how": "گروپی هاوپۆل هەڵبژێرە، ناوی دانەی نوێ بنووسە و Add to list هەڵبژێرە.",
+          "inputs": "گروپی هاوپۆل و ناوێکی ناپوچ پێویستە کە لە ٧٠ پیت زیاتر نەبێت. ناوی دووبارە لە هەمان گروپ ڕەت دەکرێتەوە.",
+          "result": "دوای پاشەکەوتکردنی سەرکەوتوو، دانەکە زیاد دەکرێت بۆ لیستی هاوپۆل و بۆ تۆماری ئێستا هەڵدەبژێردرێت.",
+          "notes": "پێش زیادکردن ڕێنووس و گروپەکە بپشکنە. دانەکە بە جیا لە لیستی هاوپۆل پاشەکەوت دەکرێت؛ هێشتا پێویستە تۆماری خەرجییەکە پاشەکەوت بکەیت."
+        },
+        "kmr": {
+          "purpose": "Hêmaneke nû ya bi nav dixe lîsteya kategoriya lêçûnê ya hilbijartî.",
+          "when": "Dema ku tiştê lêçûnê an peydakera pêwîst di hilbijêra kategoriyê de tune be, vê bikar bîne.",
+          "how": "Koma kategoriyê hilbijêre, navê hêmanê nû binivîse û Add to list hilbijêre.",
+          "inputs": "Komeke kategorî û navekî ne vala ya herî zêde 70 tîpan pêwîst e. Navên dubare di heman komê de nayên qebûlkirin.",
+          "result": "Piştî hilanîna serkeftî, hêman li lîsteya kategoriyê tê zêdekirin û ji bo tomara niha tê hilbijartin.",
+          "notes": "Berî zêdekirinê rastnivîs û komê kontrol bike. Hêman bi serê xwe di lîsteya kategoriyê de tê hilanîn; divê tu hîn jî tomara lêçûnê hilînî."
+        },
+        "tr": {
+          "purpose": "Seçilen gider kategorisi listesine yeni ve adlandırılmış bir öğe ekler.",
+          "when": "Gerekli gider kalemi veya tedarikçi kategori seçicisinde bulunmadığında kullanın.",
+          "how": "Kategori grubunu seçin, yeni öğenin adını girin ve Add to list seçeneğini seçin.",
+          "inputs": "Bir kategori grubu ve en fazla 70 karakterlik boş olmayan bir ad gerekir. Aynı gruptaki yinelenen adlar reddedilir.",
+          "result": "Kayıt başarılı olursa öğe kategori listesine eklenir ve geçerli kayıt için seçilir.",
+          "notes": "Eklemeyi yapmadan önce yazımı ve grubu kontrol edin. Öğe kategori listesine ayrı olarak kaydedilir; gider kaydını ayrıca kaydetmeniz gerekir."
+        },
+        "pl": {
+          "purpose": "Dodaje nową nazwaną pozycję do wybranej listy kategorii wydatków.",
+          "when": "Użyj, gdy wymaganej pozycji wydatku lub dostawcy nie ma w selektorze kategorii.",
+          "how": "Wybierz grupę kategorii, wpisz nazwę nowej pozycji i wybierz Add to list.",
+          "inputs": "Wymagana jest grupa kategorii i niepusta nazwa o długości do 70 znaków. Zduplikowane nazwy w tej samej grupie są odrzucane.",
+          "result": "Po pomyślnym zapisaniu pozycja zostaje dodana do listy kategorii i wybrana dla bieżącego wpisu.",
+          "notes": "Przed dodaniem sprawdź pisownię i grupę. Pozycja jest zapisywana osobno na liście kategorii; nadal musisz zapisać wpis wydatku."
+        },
+        "ur": {
+          "purpose": "منتخب کردہ اخراجات کی قسم کی فہرست میں ایک نئی نامزد چیز شامل کرتا ہے۔",
+          "when": "جب مطلوبہ اخراجاتی مد یا سپلائر قسموں کی فہرست میں موجود نہ ہو تو استعمال کریں۔",
+          "how": "قسم کا گروپ منتخب کریں، نئی چیز کا نام درج کریں اور Add to list منتخب کریں۔",
+          "inputs": "قسم کا گروپ اور زیادہ سے زیادہ 70 حروف پر مشتمل غیر خالی نام ضروری ہے۔ ایک ہی گروپ میں دہرائے گئے نام قبول نہیں ہوتے۔",
+          "result": "کامیاب محفوظ ہونے کے بعد چیز قسموں کی فہرست میں شامل ہو جاتی ہے اور موجودہ اندراج کے لیے منتخب ہو جاتی ہے۔",
+          "notes": "شامل کرنے سے پہلے ہجے اور گروپ دیکھ لیں۔ چیز الگ سے قسموں کی فہرست میں محفوظ ہوتی ہے؛ اخراجات کا اندراج بھی الگ محفوظ کرنا ہوگا۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੀ ਹੋਈ ਖਰਚਾ ਸ਼੍ਰੇਣੀ ਦੀ ਸੂਚੀ ਵਿੱਚ ਨਾਂ ਵਾਲੀ ਨਵੀਂ ਚੀਜ਼ ਜੋੜਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਲੋੜੀਂਦੀ ਖਰਚਾ ਮਦ ਜਾਂ ਸਪਲਾਇਰ ਸ਼੍ਰੇਣੀ ਚੋਣ ਸੂਚੀ ਵਿੱਚ ਨਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸ਼੍ਰੇਣੀ ਗਰੁੱਪ ਚੁਣੋ, ਨਵੀਂ ਚੀਜ਼ ਦਾ ਨਾਂ ਲਿਖੋ ਅਤੇ Add to list ਚੁਣੋ।",
+          "inputs": "ਸ਼੍ਰੇਣੀ ਗਰੁੱਪ ਅਤੇ 70 ਅੱਖਰਾਂ ਤੱਕ ਦਾ ਖਾਲੀ ਨਾ ਹੋਣ ਵਾਲਾ ਨਾਂ ਲਾਜ਼ਮੀ ਹੈ। ਉਸੇ ਗਰੁੱਪ ਵਿੱਚ ਦੁਹਰਾਏ ਨਾਂ ਰੱਦ ਕੀਤੇ ਜਾਂਦੇ ਹਨ।",
+          "result": "ਸਫਲਤਾਪੂਰਵਕ ਸੰਭਾਲਣ ਤੋਂ ਬਾਅਦ ਚੀਜ਼ ਸ਼੍ਰੇਣੀ ਸੂਚੀ ਵਿੱਚ ਜੋੜੀ ਜਾਂਦੀ ਹੈ ਅਤੇ ਮੌਜੂਦਾ ਐਂਟਰੀ ਲਈ ਚੁਣੀ ਜਾਂਦੀ ਹੈ।",
+          "notes": "ਜੋੜਨ ਤੋਂ ਪਹਿਲਾਂ ਸ਼ਬਦ-ਜੋੜ ਅਤੇ ਗਰੁੱਪ ਜਾਂਚੋ। ਚੀਜ਼ ਸ਼੍ਰੇਣੀ ਸੂਚੀ ਵਿੱਚ ਵੱਖਰੇ ਤੌਰ 'ਤੇ ਸੰਭਾਲੀ ਜਾਂਦੀ ਹੈ; ਖਰਚੇ ਦੀ ਐਂਟਰੀ ਵੀ ਸੇਵ ਕਰਨੀ ਪਵੇਗੀ।"
+        },
+        "prs": {
+          "purpose": "یک مورد نام‌گذاری‌شده جدید به فهرست دسته هزینه انتخاب‌شده اضافه می‌کند.",
+          "when": "وقتی قلم هزینه یا فروشنده موردنیاز در انتخاب‌گر دسته‌بندی موجود نیست، استفاده کنید.",
+          "how": "گروه دسته‌بندی را انتخاب کنید، نام مورد جدید را وارد کنید و Add to list را بزنید.",
+          "inputs": "انتخاب گروه دسته‌بندی و نام غیرخالی حداکثر ۷۰ نویسه لازم است. نام تکراری در همان گروه پذیرفته نمی‌شود.",
+          "result": "پس از ذخیره موفق، مورد به فهرست دسته‌بندی افزوده و برای ثبت فعلی انتخاب می‌شود.",
+          "notes": "پیش از افزودن، املای نام و گروه را بررسی کنید. مورد جداگانه در فهرست دسته‌بندی ذخیره می‌شود؛ ثبت هزینه را نیز باید ذخیره کنید."
+        },
+        "ps": {
+          "purpose": "د لګښت د ټاکل شوې کټګورۍ لېست ته یو نوی نومول شوی توکی زیاتوي.",
+          "when": "کله چې اړین لګښتي توکی یا عرضه کوونکی د کټګورۍ په ټاکونکي کې نه وي، وکاروئ.",
+          "how": "د کټګورۍ ډله وټاکئ، د نوي توکي نوم ولیکئ او Add to list وټاکئ.",
+          "inputs": "د کټګورۍ ډله او تر ۷۰ تورو پورې یو غیرخالي نوم اړین دی. په همدې ډله کې تکراري نومونه نه منل کېږي.",
+          "result": "له بریالي خوندي کولو وروسته توکی د کټګورۍ لېست ته زیاتېږي او د اوسني ثبت لپاره ټاکل کېږي.",
+          "notes": "له زیاتولو مخکې املا او ډله وګورئ. توکی د کټګورۍ په لېست کې جلا خوندي کېږي؛ د لګښت ثبت هم باید خوندي کړئ."
         }
       },
       "handler_or_behavior": "`saveExpenseCategory()`"
@@ -2565,7 +2781,7 @@
       "audit_ref": "INV-034",
       "element_id": null,
       "label": "＋ New Invoice",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Open a new blank invoice form to prepare an invoice for a customer.",
@@ -2582,6 +2798,78 @@
           "inputs": "فیلدهای الزامی فاکتور را تکمیل و اقلام و مبالغ مربوط را اضافه کنید. در صورت نیاز مشتری را انتخاب کنید.",
           "result": "فرم فاکتور جدید باز می‌شود. تا زمان انتخاب گزینه ذخیره، فاکتور ذخیره نمی‌شود.",
           "notes": "مشخصات مشتری، تاریخ، شرح اقلام، تعداد، نرخ و جمع کل را بررسی کنید. بازکردن فرم به‌تنهایی فاکتور ذخیره‌شده ایجاد نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يفتح نموذج فاتورة جديدًا وفارغًا لإعداد فاتورة لأحد العملاء.",
+          "when": "استخدمه عند إنشاء فاتورة جديدة بدلًا من عرض فاتورة موجودة أو تعديلها.",
+          "how": "اختر New Invoice، ثم أدخل العميل وتفاصيل الفاتورة والتواريخ وبنودها.",
+          "inputs": "أكمل حقول الفاتورة المطلوبة وأضف البنود والمبالغ ذات الصلة. اختر عميلًا عند الحاجة.",
+          "result": "يُفتح نموذج فاتورة جديد. ولا تُحفظ الفاتورة حتى تختار إجراء حفظ.",
+          "notes": "تحقق من بيانات العميل وتاريخ الفاتورة والأوصاف والكميات والأسعار والإجماليات. فتح النموذج وحده لا ينشئ فاتورة محفوظة."
+        },
+        "ckb": {
+          "purpose": "فۆڕمی بەتاڵی پسووڵەیەکی نوێ دەکاتەوە بۆ ئامادەکردنی پسووڵە بۆ کڕیارێک.",
+          "when": "کاتێک دەتەوێت پسووڵەیەکی نوێ دروست بکەیت، نەک پسووڵەیەکی هەبوو ببینیت یان دەستکاری بکەیت، بەکاریبهێنە.",
+          "how": "New Invoice هەڵبژێرە، پاشان کڕیار، وردەکارییەکانی پسووڵە، بەروارەکان و بڕگەکان بنووسە.",
+          "inputs": "خانە پێویستەکانی پسووڵە پڕ بکەرەوە و بڕگە و بڕە پەیوەندیدارەکان زیاد بکە. لە شوێنی پێویستدا کڕیارێک هەڵبژێرە.",
+          "result": "فۆڕمی پسووڵەیەکی نوێ دەکرێتەوە. تا کاتێک کردارێکی پاشەکەوتکردن هەڵنەبژێریت، پاشەکەوت ناکرێت.",
+          "notes": "زانیاری کڕیار، بەرواری پسووڵە، وەسف، بڕ، نرخ و کۆی گشتی بپشکنە. کردنەوەی فۆڕمەکە بە تەنها پسووڵەیەکی پاشەکەوتکراو دروست ناکات."
+        },
+        "kmr": {
+          "purpose": "Formeke fatûreyê ya vala vedike da ku ji xerîdarekê re fatûreyek amade bikî.",
+          "when": "Dema ku fatûreyeke nû çêdike, ne ku fatûreyeke heyî bibînî an sererast bikî, vê bikar bîne.",
+          "how": "New Invoice hilbijêre, paşê xerîdar, hûrguliyên fatûreyê, dîrok û rêzên tiştan binivîse.",
+          "inputs": "Qadên pêwîst yên fatûreyê dagire û tişt û mîqdarên têkildar zêde bike. Li cihê ku pêwîst e xerîdarek hilbijêre.",
+          "result": "Formeke fatûreyê ya nû vedibe. Heta ku te kiryarek hilanînê hilnebijart, nayê hilanîn.",
+          "notes": "Agahiyên xerîdar, dîroka fatûreyê, ravekirin, hejmar, rêje û tevahiyê kontrol bike. Vekirina formê bi tenê fatûreyeke hilanî çênake."
+        },
+        "tr": {
+          "purpose": "Bir müşteri için fatura hazırlamak üzere boş ve yeni bir fatura formu açar.",
+          "when": "Mevcut bir faturayı görüntülemek veya düzenlemek yerine yeni fatura oluştururken kullanın.",
+          "how": "New Invoice seçeneğini seçin; ardından müşteriyi, fatura ayrıntılarını, tarihleri ve kalemleri girin.",
+          "inputs": "Gerekli fatura alanlarını doldurun, ilgili kalemleri ve tutarları ekleyin. Gerektiğinde bir müşteri seçin.",
+          "result": "Yeni bir fatura formu açılır. Bir kaydetme işlemi seçilene kadar fatura kaydedilmez.",
+          "notes": "Müşteri bilgilerini, fatura tarihini, açıklamaları, miktarları, birim fiyatları ve toplamları kontrol edin. Formu açmak tek başına kayıtlı bir fatura oluşturmaz."
+        },
+        "pl": {
+          "purpose": "Otwiera pusty formularz nowej faktury, aby przygotować fakturę dla klienta.",
+          "when": "Użyj podczas tworzenia nowej faktury, a nie przeglądania lub edytowania istniejącej.",
+          "how": "Wybierz New Invoice, a następnie wprowadź klienta, szczegóły faktury, daty i pozycje.",
+          "inputs": "Uzupełnij wymagane pola faktury i dodaj odpowiednie pozycje oraz kwoty. W razie potrzeby wybierz klienta.",
+          "result": "Otwiera się nowy formularz faktury. Faktura nie zostanie zapisana, dopóki nie wybierzesz polecenia zapisu.",
+          "notes": "Sprawdź dane klienta, datę faktury, opisy, ilości, stawki i sumy. Samo otwarcie formularza nie tworzy zapisanej faktury."
+        },
+        "ur": {
+          "purpose": "گاہک کے لیے انوائس تیار کرنے کی خاطر نیا خالی انوائس فارم کھولتا ہے۔",
+          "when": "جب موجودہ انوائس دیکھنے یا ترمیم کرنے کے بجائے نئی انوائس بنانی ہو تو استعمال کریں۔",
+          "how": "New Invoice منتخب کریں، پھر گاہک، انوائس کی تفصیلات، تاریخیں اور آئٹمز درج کریں۔",
+          "inputs": "انوائس کے ضروری خانے مکمل کریں اور متعلقہ اشیا اور رقوم شامل کریں۔ جہاں ضروری ہو گاہک منتخب کریں۔",
+          "result": "نیا انوائس فارم کھلتا ہے۔ محفوظ کرنے کا اختیار منتخب کرنے تک انوائس محفوظ نہیں ہوتی۔",
+          "notes": "گاہک کی تفصیلات، انوائس کی تاریخ، وضاحتیں، مقداریں، نرخ اور مجموعے دیکھیں۔ صرف فارم کھولنے سے محفوظ شدہ انوائس نہیں بنتی۔"
+        },
+        "pa": {
+          "purpose": "ਗਾਹਕ ਲਈ ਇਨਵੌਇਸ ਤਿਆਰ ਕਰਨ ਵਾਸਤੇ ਨਵਾਂ ਖਾਲੀ ਇਨਵੌਇਸ ਫਾਰਮ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਇਨਵੌਇਸ ਵੇਖਣ ਜਾਂ ਸੋਧਣ ਦੀ ਬਜਾਏ ਨਵੀਂ ਇਨਵੌਇਸ ਬਣਾਉਣੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "New Invoice ਚੁਣੋ, ਫਿਰ ਗਾਹਕ, ਇਨਵੌਇਸ ਦੇ ਵੇਰਵੇ, ਤਾਰੀਖਾਂ ਅਤੇ ਲਾਈਨ ਆਈਟਮਾਂ ਦਰਜ ਕਰੋ।",
+          "inputs": "ਇਨਵੌਇਸ ਦੇ ਲੋੜੀਂਦੇ ਖਾਨੇ ਭਰੋ ਅਤੇ ਸੰਬੰਧਿਤ ਚੀਜ਼ਾਂ ਤੇ ਰਕਮਾਂ ਜੋੜੋ। ਜਿੱਥੇ ਲੋੜ ਹੋਵੇ ਗਾਹਕ ਚੁਣੋ।",
+          "result": "ਨਵਾਂ ਇਨਵੌਇਸ ਫਾਰਮ ਖੁੱਲ੍ਹਦਾ ਹੈ। ਸੰਭਾਲਣ ਵਾਲੀ ਕਾਰਵਾਈ ਚੁਣਨ ਤੱਕ ਇਨਵੌਇਸ ਸੇਵ ਨਹੀਂ ਹੁੰਦੀ।",
+          "notes": "ਗਾਹਕ ਦੇ ਵੇਰਵੇ, ਇਨਵੌਇਸ ਦੀ ਤਾਰੀਖ, ਵੇਰਵੇ, ਮਾਤਰਾਂ, ਦਰਾਂ ਅਤੇ ਕੁੱਲ ਜਾਂਚੋ। ਸਿਰਫ਼ ਫਾਰਮ ਖੋਲ੍ਹਣ ਨਾਲ ਸੰਭਾਲੀ ਇਨਵੌਇਸ ਨਹੀਂ ਬਣਦੀ।"
+        },
+        "prs": {
+          "purpose": "فرم خالی فاکتور جدید را برای تهیه فاکتور مشتری باز می‌کند.",
+          "when": "هنگامی که می‌خواهید فاکتور تازه بسازید، نه اینکه فاکتور موجود را مشاهده یا ویرایش کنید، استفاده کنید.",
+          "how": "New Invoice را انتخاب کنید و سپس مشتری، جزئیات فاکتور، تاریخ‌ها و ردیف‌ها را وارد کنید.",
+          "inputs": "فیلدهای الزامی فاکتور را تکمیل و اقلام و مبالغ مربوط را اضافه کنید. در صورت نیاز مشتری را انتخاب کنید.",
+          "result": "فرم فاکتور جدید باز می‌شود. تا زمانی که گزینه ذخیره را انتخاب نکنید، فاکتور ذخیره نمی‌شود.",
+          "notes": "مشخصات مشتری، تاریخ فاکتور، شرح‌ها، تعدادها، نرخ‌ها و جمع‌ها را بررسی کنید. بازکردن فرم به‌تنهایی فاکتور ذخیره‌شده ایجاد نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د پېرودونکي لپاره د بل د چمتو کولو په موخه د نوي تش بل فورمه پرانیزي.",
+          "when": "کله چې د موجود بل د لیدلو یا سمولو پر ځای نوی بل جوړوئ، وکاروئ.",
+          "how": "New Invoice وټاکئ، بیا پېرودونکی، د بل جزیات، نېټې او د توکو کرښې دننه کړئ.",
+          "inputs": "د بل اړینې برخې ډکې کړئ او اړوند توکي او اندازې ورزیاتې کړئ. چېرې چې اړین وي پېرودونکی وټاکئ.",
+          "result": "د نوي بل فورمه پرانیستل کېږي. تر هغه چې د خوندي کولو کړنه ونه ټاکئ، بل نه خوندي کېږي.",
+          "notes": "د پېرودونکي معلومات، د بل نېټه، تشریحات، شمېرې، نرخونه او ټولیزې اندازې وګورئ. یوازې د فورمې پرانیستل خوندي شوی بل نه جوړوي."
         }
       },
       "handler_or_behavior": "`newInvoice()`"
@@ -2591,7 +2879,7 @@
       "audit_ref": "INV-036",
       "element_id": null,
       "label": "Save Invoice",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Save the invoice currently being prepared or edited.",
@@ -2608,6 +2896,78 @@
           "inputs": "فاکتور باید اطلاعات الزامی مشتری و فاکتور و ردیف‌های معتبر داشته باشد.",
           "result": "در صورت موفقیت، فاکتور ذخیره شده و در فهرست فاکتورها نمایش داده می‌شود.",
           "notes": "شماره فاکتور، مشتری، تاریخ‌ها، ردیف‌ها و مبلغ کل را بررسی کنید. اگر برنامه خطا داد یا موفقیت را تأیید نکرد، فرض نکنید فاکتور ذخیره شده است."
+        },
+        "ar": {
+          "purpose": "يحفظ الفاتورة الجاري إعدادها أو تعديلها.",
+          "when": "استخدمه بعد مراجعة تفاصيل الفاتورة وإجمالياتها عندما تريد تخزينها.",
+          "how": "اختر Save Invoice وانتظر رسالة النجاح أو التحقق من التطبيق.",
+          "inputs": "يجب أن تتضمن الفاتورة بيانات العميل والفاتورة المطلوبة وبنودًا صحيحة.",
+          "result": "إذا نجح الحفظ، تُخزّن الفاتورة وتظهر في قائمة الفواتير.",
+          "notes": "راجع رقم الفاتورة والعميل والتواريخ والبنود والإجمالي. لا تفترض حفظها إذا أبلغ التطبيق عن خطأ أو لم يؤكد النجاح."
+        },
+        "ckb": {
+          "purpose": "ئەو پسووڵەیە پاشەکەوت دەکات کە ئێستا ئامادە دەکرێت یان دەستکاری دەکرێت.",
+          "when": "دوای پشکنینی وردەکاری و کۆی پسووڵە، کاتێک دەتەوێت پاشەکەوتی بکەیت بەکاریبهێنە.",
+          "how": "Save Invoice هەڵبژێرە و چاوەڕێی پەیامی سەرکەوتن یان پشکنینی ئەپەکە بکە.",
+          "inputs": "پسووڵەکە دەبێت زانیاری پێویستی کڕیار و پسووڵە و بڕگەی دروستی تێدا بێت.",
+          "result": "ئەگەر پاشەکەوتکردن سەرکەوتوو بێت، پسووڵەکە هەڵدەگیرێت و لە لیستی پسووڵەکان دەردەکەوێت.",
+          "notes": "ژمارەی پسووڵە، کڕیار، بەروارەکان، بڕگەکان و کۆی گشتی بپشکنە. ئەگەر ئەپەکە هەڵە ڕابگەیەنێت یان سەرکەوتن پشتڕاست نەکاتەوە، وا مەزانە پاشەکەوت کراوە."
+        },
+        "kmr": {
+          "purpose": "Fatûreya ku niha tê amadekirin an sererastkirin dihêle.",
+          "when": "Piştî kontrolkirina hûrguliyên fatûreyê û tevahiyê, dema ku dixwazî wê hilînî, vê bikar bîne.",
+          "how": "Save Invoice hilbijêre û li benda peyama serkeftinê an kontrolê ya sepanê bimîne.",
+          "inputs": "Divê fatûre agahiyên pêwîst yên xerîdar û fatûreyê û rêzên tiştan ên derbasdar hebin.",
+          "result": "Heke hilanîn serkeftî be, fatûre tê hilanîn û di lîsteya fatûreyan de xuya dibe.",
+          "notes": "Hejmara fatûreyê, xerîdar, dîrok, rêzên tiştan û tevahiyê kontrol bike. Heke sepan çewtiyekê ragihîne an serkeftinê piştrast neke, texmîn neke ku hatiye hilanîn."
+        },
+        "tr": {
+          "purpose": "Hazırlanmakta veya düzenlenmekte olan faturayı kaydeder.",
+          "when": "Fatura ayrıntılarını ve toplamlarını kontrol ettikten sonra saklamak istediğinizde kullanın.",
+          "how": "Save Invoice seçeneğini seçin ve uygulamanın başarı veya doğrulama mesajını bekleyin.",
+          "inputs": "Faturada gerekli müşteri ve fatura bilgileri ile geçerli kalemler bulunmalıdır.",
+          "result": "Kaydetme başarılı olursa fatura saklanır ve fatura listesinde görünür.",
+          "notes": "Fatura numarasını, müşteriyi, tarihleri, kalemleri ve toplamı kontrol edin. Uygulama hata bildirirse veya başarıyı onaylamazsa kaydedildiğini varsaymayın."
+        },
+        "pl": {
+          "purpose": "Zapisuje fakturę, która jest obecnie przygotowywana lub edytowana.",
+          "when": "Użyj po sprawdzeniu szczegółów i sum faktury, gdy chcesz ją zapisać.",
+          "how": "Wybierz Save Invoice i poczekaj na komunikat o powodzeniu lub walidacji aplikacji.",
+          "inputs": "Faktura musi zawierać wymagane dane klienta i faktury oraz prawidłowe pozycje.",
+          "result": "Jeśli zapis się powiedzie, faktura zostanie zapisana i pojawi się na liście faktur.",
+          "notes": "Sprawdź numer faktury, klienta, daty, pozycje i sumę. Jeśli aplikacja zgłosi błąd lub nie potwierdzi powodzenia, nie zakładaj, że faktura została zapisana."
+        },
+        "ur": {
+          "purpose": "اس وقت تیار یا ترمیم کی جانے والی انوائس محفوظ کرتا ہے۔",
+          "when": "انوائس کی تفصیلات اور مجموعے دیکھنے کے بعد اسے محفوظ کرنے کے لیے استعمال کریں۔",
+          "how": "Save Invoice منتخب کریں اور ایپ کے کامیابی یا توثیق کے پیغام کا انتظار کریں۔",
+          "inputs": "انوائس میں گاہک اور انوائس کی ضروری معلومات اور درست آئٹمز شامل ہونے چاہئیں۔",
+          "result": "اگر محفوظ کرنا کامیاب ہو تو انوائس محفوظ ہو جاتی ہے اور انوائس فہرست میں دکھائی دیتی ہے۔",
+          "notes": "انوائس نمبر، گاہک، تاریخیں، آئٹمز اور کل رقم دیکھیں۔ اگر ایپ خرابی بتائے یا کامیابی کی تصدیق نہ کرے تو یہ نہ سمجھیں کہ انوائس محفوظ ہو گئی ہے۔"
+        },
+        "pa": {
+          "purpose": "ਇਸ ਵੇਲੇ ਤਿਆਰ ਕੀਤੀ ਜਾ ਰਹੀ ਜਾਂ ਸੋਧੀ ਜਾ ਰਹੀ ਇਨਵੌਇਸ ਸੰਭਾਲਦਾ ਹੈ।",
+          "when": "ਇਨਵੌਇਸ ਦੇ ਵੇਰਵੇ ਅਤੇ ਕੁੱਲ ਜਾਂਚਣ ਤੋਂ ਬਾਅਦ ਇਸਨੂੰ ਸੰਭਾਲਣ ਲਈ ਵਰਤੋ।",
+          "how": "Save Invoice ਚੁਣੋ ਅਤੇ ਐਪ ਦੇ ਸਫਲਤਾ ਜਾਂ ਜਾਂਚ ਵਾਲੇ ਸੁਨੇਹੇ ਦੀ ਉਡੀਕ ਕਰੋ।",
+          "inputs": "ਇਨਵੌਇਸ ਵਿੱਚ ਗਾਹਕ ਅਤੇ ਇਨਵੌਇਸ ਦੀ ਲੋੜੀਂਦੀ ਜਾਣਕਾਰੀ ਅਤੇ ਸਹੀ ਲਾਈਨ ਆਈਟਮਾਂ ਹੋਣੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ।",
+          "result": "ਜੇ ਸੰਭਾਲਣਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਇਨਵੌਇਸ ਸਟੋਰ ਹੋ ਜਾਂਦੀ ਹੈ ਅਤੇ ਇਨਵੌਇਸ ਸੂਚੀ ਵਿੱਚ ਦਿਖਦੀ ਹੈ।",
+          "notes": "ਇਨਵੌਇਸ ਨੰਬਰ, ਗਾਹਕ, ਤਾਰੀਖਾਂ, ਲਾਈਨ ਆਈਟਮਾਂ ਅਤੇ ਕੁੱਲ ਜਾਂਚੋ। ਜੇ ਐਪ ਗਲਤੀ ਦਿਖਾਏ ਜਾਂ ਸਫਲਤਾ ਦੀ ਪੁਸ਼ਟੀ ਨਾ ਕਰੇ ਤਾਂ ਇਹ ਨਾ ਮੰਨੋ ਕਿ ਇਨਵੌਇਸ ਸੇਵ ਹੋ ਗਈ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "فاکتوری را که اکنون در حال تهیه یا ویرایش است ذخیره می‌کند.",
+          "when": "پس از بررسی جزئیات و جمع فاکتور، برای ذخیره آن استفاده کنید.",
+          "how": "Save Invoice را انتخاب کنید و منتظر پیام موفقیت یا اعتبارسنجی برنامه بمانید.",
+          "inputs": "فاکتور باید اطلاعات الزامی مشتری و فاکتور و ردیف‌های معتبر داشته باشد.",
+          "result": "اگر ذخیره موفق شود، فاکتور نگهداری شده و در فهرست فاکتورها نمایش داده می‌شود.",
+          "notes": "شماره فاکتور، مشتری، تاریخ‌ها، ردیف‌ها و مبلغ کل را بررسی کنید. اگر برنامه خطا داد یا موفقیت را تأیید نکرد، فرض نکنید فاکتور ذخیره شده است."
+        },
+        "ps": {
+          "purpose": "هغه بل خوندي کوي چې دا مهال چمتو کېږي یا سمون پکې کېږي.",
+          "when": "د بل د جزیاتو او ټولیزو اندازو له کتلو وروسته، کله چې یې ساتل غواړئ، وکاروئ.",
+          "how": "Save Invoice وټاکئ او د اپ د بریا یا تایید پیغام ته انتظار وکړئ.",
+          "inputs": "بل باید د پېرودونکي او بل اړین معلومات او سمې توکي کرښې ولري.",
+          "result": "که خوندي کول بریالي شي، بل ساتل کېږي او د بلونو په لېست کې ښکاري.",
+          "notes": "د بل شمېره، پېرودونکی، نېټې، د توکو کرښې او ټولیزه اندازه وګورئ. که اپ تېروتنه وښيي یا بریا تایید نه کړي، دا مه ګڼئ چې بل خوندي شوی دی."
         }
       },
       "handler_or_behavior": "`saveInvoice()`"
@@ -7788,8 +8148,8 @@
     }
   ],
   "content_progress": {
-    "completed_entries": 25,
-    "draft_entries": 204,
+    "completed_entries": 30,
+    "draft_entries": 199,
     "pending_entries": 0,
     "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written."
   }
