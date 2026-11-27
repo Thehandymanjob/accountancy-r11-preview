@@ -21738,6 +21738,78 @@
           "inputs": "گزارش ذخیره‌شده صحیح را انتخاب و یک برچسب وضعیت وارد کنید. گزینه‌های پیشنهادی شامل Awaiting information، Ready for review، Ready for accountant، Submitted by accountant و Superseded / corrected هستند.",
           "result": "در صورت موفقیت ذخیره، وضعیت گزارش و زمان به‌روزرسانی آن در بایگانی ثبت می‌شوند. این کار فقط برچسب را تغییر می‌دهد و گزارش را ارسال نمی‌کند.",
           "notes": "وضعیتی را انتخاب کنید که مرحله واقعی گزارش را نشان دهد. گزارش را فقط زمانی Submitted علامت بزنید که حسابدار یا سرویس مربوطه ارسال آن را تأیید کرده باشد."
+        },
+        "ar": {
+          "purpose": "يغيّر تسمية الحالة المحفوظة للّقطة تقرير محددة.",
+          "when": "استخدمه عندما تحتاج إلى تحديث حالة تقدم تقرير محفوظ.",
+          "how": "اختر Update status بجانب التقرير المطلوب. أدخل إحدى الحالات المقترحة أو حالة دقيقة أخرى في مربع الإدخال، ثم أكد.",
+          "inputs": "اختر التقرير المحفوظ وأدخل تسمية للحالة. تشمل القيم المقترحة Awaiting information وReady for review وReady for accountant وSubmitted by accountant وSuperseded / corrected.",
+          "result": "تُحفظ الحالة والطابع الزمني المحدّث في أرشيف التقارير إذا نجح الحفظ. يغيّر ذلك التسمية فقط ولا يرسل التقرير.",
+          "notes": "استخدم حالة تعكس التقدم الفعلي. لا تضع Submitted إلا بعد تأكيد المحاسب أو الخدمة المعنية إرسال التقرير."
+        },
+        "ckb": {
+          "purpose": "ناونیشانی دۆخی پاشەکەوتکراوی Snapshotێکی ڕاپۆرت دەگۆڕێت.",
+          "when": "کاتێک پێویستە دۆخی پێشکەوتنی ڕاپۆرتێکی پاشەکەوتکراو نوێ بکرێتەوە، بەکاری بهێنە.",
+          "how": "لە تەنیشت ڕاپۆرتی مەبەست Update status هەڵبژێرە. لە خانەی داواکارییەکەدا یەکێک لە دۆخە پێشنیارکراوەکان یان دۆخێکی دروستی تر بنووسە و پشتڕاستی بکەرەوە.",
+          "inputs": "ڕاپۆرتی پاشەکەوتکراوی مەبەست هەڵبژێرە و ناونیشانی دۆخێک بنووسە. دۆخە پێشنیارکراوەکان: Awaiting information، Ready for review، Ready for accountant، Submitted by accountant و Superseded / corrected.",
+          "result": "ئەگەر پاشەکەوتکردن سەرکەوتوو بێت، دۆخی ڕاپۆرت و کاتی نوێکردنەوەی لە ئەرشیفی ڕاپۆرت پاشەکەوت دەکرێن. تەنها ناونیشان دەگۆڕێت؛ ڕاپۆرت نانێرێت.",
+          "notes": "دۆخێک بەکاربهێنە کە پێشکەوتنی ڕاستەقینەی ڕاپۆرت پیشان بدات. ڕاپۆرت بە Submitted نیشان مەکە تا حسابدار یان خزمەتگوزارییە پەیوەندیدارەکە ناردنی پشتڕاست نەکاتەوە."
+        },
+        "kmr": {
+          "purpose": "Etîketa rewşa snapshoteke raporê ya hilanbar diguherîne.",
+          "when": "Vê bikar bîne dema ku rewşa pêşketina raporeke hilanbar divê nû bibe.",
+          "how": "Li kêleka rapora ku dixwazî Update status hilbijêre. Di pêşniyara têketinê de yek ji rewşên pêşniyarkirî an rewşeke din a rast binivîse, paşê piştrast bike.",
+          "inputs": "Rapora hilanbar a rast hilbijêre û etîketeke rewşê binivîse. Nirxên pêşniyarkirî ev in: Awaiting information, Ready for review, Ready for accountant, Submitted by accountant û Superseded / corrected.",
+          "result": "Heke tomarkirin serkeftî be, rewşa raporê û demstampa nûkirinê di arşîva raporan de têne hilanîn. Ev tenê etîketê diguherîne; raporê naşîne.",
+          "notes": "Rewşeke ku pêşketina rastîn a raporê nîşan dide bikar bîne. Raporê wekî Submitted nîşan nede heya ku hesabdar an xizmeta têkildar şandinê piştrast bike."
+        },
+        "tr": {
+          "purpose": "Kaydedilmiş bir rapor anlık görüntüsüne ait durum etiketini değiştirir.",
+          "when": "Kaydedilmiş bir raporun ilerleme durumunu güncellemeniz gerektiğinde kullanın.",
+          "how": "İstenen raporun yanındaki Update status seçeneğini belirleyin. İstem penceresine önerilen durumlardan birini veya başka doğru bir durumu girip onaylayın.",
+          "inputs": "İstenen kayıtlı raporu seçin ve bir durum etiketi girin. Önerilen değerler: Awaiting information, Ready for review, Ready for accountant, Submitted by accountant ve Superseded / corrected.",
+          "result": "Kayıt başarılı olursa raporun durumu ve güncellenme zamanı arşive kaydedilir. Yalnızca etiketi değiştirir; raporu göndermez.",
+          "notes": "Raporun gerçek ilerlemesini yansıtan bir durum kullanın. Muhasebeci veya ilgili hizmet gönderimi doğrulamadıkça raporu Submitted olarak işaretlemeyin."
+        },
+        "pl": {
+          "purpose": "Zmienia etykietę statusu zapisaną przy migawce raportu.",
+          "when": "Użyj tej opcji, gdy trzeba zaktualizować status postępu zapisanego raportu.",
+          "how": "Wybierz Update status obok odpowiedniego raportu. Wprowadź w oknie jedną z sugerowanych wartości lub inny prawidłowy status, a następnie potwierdź.",
+          "inputs": "Wybierz właściwy zapisany raport i wpisz etykietę statusu. Sugerowane wartości to Awaiting information, Ready for review, Ready for accountant, Submitted by accountant oraz Superseded / corrected.",
+          "result": "Jeśli zapis się powiedzie, status raportu i znacznik czasu aktualizacji zostaną zapisane w archiwum. Zmienia to tylko etykietę; raport nie jest wysyłany.",
+          "notes": "Używaj statusu zgodnego z rzeczywistym postępem raportu. Nie oznaczaj go jako Submitted, dopóki księgowy lub właściwa usługa nie potwierdzi wysłania."
+        },
+        "ur": {
+          "purpose": "محفوظ رپورٹ اسنیپ شاٹ کے ساتھ محفوظ شدہ حالت کا لیبل تبدیل کرتا ہے۔",
+          "when": "اس وقت استعمال کریں جب محفوظ رپورٹ کی پیش رفت کی حالت اپ ڈیٹ کرنی ہو۔",
+          "how": "مطلوبہ رپورٹ کے ساتھ Update status منتخب کریں۔ پرامپٹ میں تجویز کردہ حالتوں میں سے ایک یا کوئی دوسری درست حالت درج کرکے تصدیق کریں۔",
+          "inputs": "مطلوبہ محفوظ رپورٹ منتخب کریں اور حالت کا لیبل درج کریں۔ تجویز کردہ اقدار میں Awaiting information، Ready for review، Ready for accountant، Submitted by accountant اور Superseded / corrected شامل ہیں۔",
+          "result": "اگر محفوظ کرنا کامیاب ہو تو رپورٹ کی حالت اور اپ ڈیٹ کا وقت رپورٹ آرکائیو میں محفوظ ہو جاتا ہے۔ یہ صرف لیبل بدلتا ہے؛ رپورٹ جمع نہیں کراتا۔",
+          "notes": "ایسی حالت استعمال کریں جو رپورٹ کی حقیقی پیش رفت ظاہر کرے۔ جب تک اکاؤنٹنٹ یا متعلقہ سروس جمع کرانے کی تصدیق نہ کرے، رپورٹ کو Submitted نشان زد نہ کریں۔"
+        },
+        "pa": {
+          "purpose": "ਸੰਭਾਲੇ ਰਿਪੋਰਟ ਸਨੈਪਸ਼ਾਟ ਨਾਲ ਜੁੜਿਆ ਸਥਿਤੀ ਲੇਬਲ ਬਦਲਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਸੰਭਾਲੀ ਰਿਪੋਰਟ ਦੀ ਤਰੱਕੀ ਸਥਿਤੀ ਅੱਪਡੇਟ ਕਰਨੀ ਹੋਵੇ।",
+          "how": "ਲੋੜੀਂਦੀ ਰਿਪੋਰਟ ਦੇ ਨਾਲ Update status ਚੁਣੋ। ਪ੍ਰੌਂਪਟ ਵਿੱਚ ਸੁਝਾਈਆਂ ਸਥਿਤੀਆਂ ਵਿੱਚੋਂ ਇੱਕ ਜਾਂ ਹੋਰ ਸਹੀ ਸਥਿਤੀ ਦਰਜ ਕਰਕੇ ਪੁਸ਼ਟੀ ਕਰੋ।",
+          "inputs": "ਲੋੜੀਂਦੀ ਸੰਭਾਲੀ ਰਿਪੋਰਟ ਚੁਣੋ ਅਤੇ ਸਥਿਤੀ ਲੇਬਲ ਦਰਜ ਕਰੋ। ਸੁਝਾਏ ਮੁੱਲ ਹਨ: Awaiting information, Ready for review, Ready for accountant, Submitted by accountant ਅਤੇ Superseded / corrected।",
+          "result": "ਜੇ ਸੇਵ ਕਰਨਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਰਿਪੋਰਟ ਦੀ ਸਥਿਤੀ ਅਤੇ ਅੱਪਡੇਟ ਸਮਾਂ ਆਰਕਾਈਵ ਵਿੱਚ ਸੇਵ ਹੁੰਦੇ ਹਨ। ਇਹ ਸਿਰਫ਼ ਲੇਬਲ ਬਦਲਦਾ ਹੈ; ਰਿਪੋਰਟ ਜਮ੍ਹਾਂ ਨਹੀਂ ਕਰਦਾ।",
+          "notes": "ਅਜਿਹੀ ਸਥਿਤੀ ਵਰਤੋ ਜੋ ਰਿਪੋਰਟ ਦੀ ਅਸਲ ਤਰੱਕੀ ਦਰਸਾਏ। ਜਦੋਂ ਤੱਕ ਅਕਾਊਂਟੈਂਟ ਜਾਂ ਸੰਬੰਧਿਤ ਸੇਵਾ ਜਮ੍ਹਾਂ ਹੋਣ ਦੀ ਪੁਸ਼ਟੀ ਨਾ ਕਰੇ, ਰਿਪੋਰਟ ਨੂੰ Submitted ਨਾ ਦਰਸਾਓ।"
+        },
+        "prs": {
+          "purpose": "برچسب وضعیت ذخیره‌شده برای یک Snapshot گزارش را تغییر می‌دهد.",
+          "when": "وقتی لازم است وضعیت پیشرفت یک گزارش ذخیره‌شده به‌روزرسانی شود، از این گزینه استفاده کنید.",
+          "how": "در کنار گزارش موردنظر Update status را انتخاب کنید. یکی از وضعیت‌های پیشنهادی یا وضعیت دقیق دیگری را در پنجره وارد و تأیید کنید.",
+          "inputs": "گزارش ذخیره‌شده موردنظر را انتخاب و یک برچسب وضعیت وارد کنید. گزینه‌های پیشنهادی عبارت‌اند از Awaiting information، Ready for review، Ready for accountant، Submitted by accountant و Superseded / corrected.",
+          "result": "در صورت موفقیت ذخیره، وضعیت گزارش و زمان به‌روزرسانی در بایگانی ثبت می‌شوند. این عملیات فقط برچسب را تغییر می‌دهد و گزارش را ارسال نمی‌کند.",
+          "notes": "وضعیتی را انتخاب کنید که پیشرفت واقعی گزارش را نشان دهد. تا زمانی که حسابدار یا سرویس مربوطه ارسال را تأیید نکرده، گزارش را Submitted علامت نزنید."
+        },
+        "ps": {
+          "purpose": "د راپور د خوندي شوي Snapshot د حالت نښه بدلوي.",
+          "when": "دا هغه وخت وکاروئ چې د خوندي شوي راپور د پرمختګ حالت تازه کول غواړئ.",
+          "how": "د مطلوب راپور ترڅنګ Update status وټاکئ. د ننوتلو په کړکۍ کې له وړاندیز شويو حالتونو څخه یو یا بل سم حالت ولیکئ او تایید یې کړئ.",
+          "inputs": "مطلوب خوندي شوی راپور وټاکئ او د حالت نښه ولیکئ. وړاندیز شوي ارزښتونه: Awaiting information، Ready for review، Ready for accountant، Submitted by accountant او Superseded / corrected.",
+          "result": "که خوندي کول بریالي شي، د راپور حالت او د تازه کولو وخت په آرشیف کې خوندي کېږي. دا یوازې نښه بدلوي؛ راپور نه سپاري.",
+          "notes": "داسې حالت وکاروئ چې د راپور رښتینی پرمختګ وښيي. راپور Submitted مه نښه کوئ، تر څو حسابدار یا اړوند خدمت د سپارلو تایید نه وي کړی."
         }
       },
       "handler_or_behavior": "`report188RenameStatus(`"
@@ -21764,6 +21836,78 @@
           "inputs": "اعلان صحیح را بر اساس عنوان و تاریخ انتخاب کنید.",
           "result": "جزئیات اعلان انتخاب‌شده نمایش داده می‌شود. اگر اعلان خوانده‌نشده باشد، برنامه آن را خوانده‌شده علامت می‌زند و صندوق ورودی را تازه‌سازی می‌کند.",
           "notes": "عنوان و تاریخ را بررسی کنید؛ ممکن است اعلان‌ها متن مشابهی داشته باشند. بازکردن اعلان به‌تنهایی وظیفه‌ای را که درباره آن نوشته شده انجام نمی‌دهد."
+        },
+        "ar": {
+          "purpose": "يفتح إشعاراً ويعرض تفاصيله الكاملة.",
+          "when": "استخدمه لقراءة الرسالة الكاملة لإشعار في صندوق Reports & Tax.",
+          "how": "اختر صف الإشعار الذي يحمل العنوان والتاريخ المطلوبين لفتح التفاصيل.",
+          "inputs": "اختر الإشعار الصحيح بحسب عنوانه وتاريخه.",
+          "result": "تظهر تفاصيل الإشعار. إذا كان غير مقروء، يعلّمه التطبيق بأنه مقروء ويحدّث صندوق الوارد.",
+          "notes": "تحقق من العنوان والتاريخ لأن صياغة الإشعارات قد تتشابه. فتح الإشعار لا ينفذ المهمة التي يصفها."
+        },
+        "ckb": {
+          "purpose": "ئاگادارییەک دەکاتەوە و هەموو وردەکارییەکانی پیشان دەدات.",
+          "when": "بۆ خوێندنەوەی پەیامی تەواوی ئاگادارییەک لە سندووقی Reports & Tax بەکاری بهێنە.",
+          "how": "ڕیزی ئاگادارییەکە بە ناونیشان و بەرواری پەیوەندیدار هەڵبژێرە تا وردەکارییەکان بکرێنەوە.",
+          "inputs": "ئاگاداریی دروست بە پێی ناونیشان و بەرواری هەڵبژێرە.",
+          "result": "وردەکارییەکانی ئاگاداری پیشان دەدرێن. ئەگەر نەخوێندراوە بوو، بەرنامە وەک خوێندراوە نیشانی دەدات و سندووقەکە نوێ دەکاتەوە.",
+          "notes": "ناونیشان و بەروار بپشکنە، چونکە دەقی ئاگادارییەکان لەوانەیە هاوشێوە بێت. کردنەوەی ئاگاداری ئەو کارە جێبەجێ ناکات کە باس دەکات."
+        },
+        "kmr": {
+          "purpose": "Agahdariyekê vedike û hûrguliyên wê yên tevahî nîşan dide.",
+          "when": "Vê bikar bîne ji bo xwendina peyama tevahî ya agahdariyekê di qutiya Reports & Tax de.",
+          "how": "Rêza agahdariyê ya bi sernav û dîroka rast hilbijêre da ku hûrgulî vebin.",
+          "inputs": "Agahdariya rast li gorî sernav û dîrokê hilbijêre.",
+          "result": "Hûrguliyên agahdariyê têne nîşandan. Heke nexwendî be, sepan wê wekî xwendî nîşan dide û qutî nû dike.",
+          "notes": "Sernav û dîrokê kontrol bike ji ber ku peyamên agahdariyan dibe ku dişibin hev. Vekirina agahdariyê karê ku ew rave dike pêk nayîne."
+        },
+        "tr": {
+          "purpose": "Bir bildirimi açar ve tüm ayrıntılarını gösterir.",
+          "when": "Reports & Tax gelen kutusundaki bir bildirimin tam mesajını okumak için kullanın.",
+          "how": "Ayrıntıları açmak için ilgili başlık ve tarihe sahip bildirim satırını seçin.",
+          "inputs": "Doğru bildirimi başlığına ve tarihine göre seçin.",
+          "result": "Seçilen bildirimin ayrıntıları görüntülenir. Okunmamışsa uygulama bildirimi okundu olarak işaretler ve gelen kutusunu yeniler.",
+          "notes": "Bildirimlerin metinleri benzer olabileceğinden başlığı ve tarihi kontrol edin. Bildirimi açmak, açıkladığı görevi tamamlamaz."
+        },
+        "pl": {
+          "purpose": "Otwiera powiadomienie i wyświetla jego pełne szczegóły.",
+          "when": "Użyj tej opcji, aby przeczytać pełną treść powiadomienia w skrzynce Reports & Tax.",
+          "how": "Wybierz wiersz powiadomienia z właściwym tytułem i datą, aby otworzyć szczegóły.",
+          "inputs": "Wybierz właściwe powiadomienie na podstawie tytułu i daty.",
+          "result": "Wyświetlane są szczegóły powiadomienia. Jeśli było nieprzeczytane, aplikacja oznacza je jako przeczytane i odświeża skrzynkę.",
+          "notes": "Sprawdź tytuł i datę, ponieważ treści powiadomień mogą być podobne. Otwarcie powiadomienia nie wykonuje opisanego w nim zadania."
+        },
+        "ur": {
+          "purpose": "اطلاع کھولتا ہے اور اس کی مکمل تفصیلات دکھاتا ہے۔",
+          "when": "Reports & Tax ان باکس میں کسی اطلاع کا مکمل پیغام پڑھنے کے لیے استعمال کریں۔",
+          "how": "تفصیلات کھولنے کے لیے متعلقہ عنوان اور تاریخ والی اطلاع کی قطار منتخب کریں۔",
+          "inputs": "درست اطلاع کو اس کے عنوان اور تاریخ کے مطابق منتخب کریں۔",
+          "result": "منتخب اطلاع کی تفصیلات دکھائی جاتی ہیں۔ اگر وہ未 پڑھی ہو تو ایپ اسے پڑھی ہوئی نشان زد کرکے ان باکس تازہ کرتی ہے۔",
+          "notes": "عنوان اور تاریخ چیک کریں کیونکہ اطلاعات کے متن ملتے جلتے ہو سکتے ہیں۔ اطلاع کھولنے سے اس میں بیان کردہ کام مکمل نہیں ہوتا۔"
+        },
+        "pa": {
+          "purpose": "ਸੂਚਨਾ ਖੋਲ੍ਹਦਾ ਹੈ ਅਤੇ ਇਸਦੇ ਪੂਰੇ ਵੇਰਵੇ ਦਿਖਾਉਂਦਾ ਹੈ।",
+          "when": "Reports & Tax ਇਨਬਾਕਸ ਵਿੱਚ ਸੂਚਨਾ ਦਾ ਪੂਰਾ ਸੁਨੇਹਾ ਪੜ੍ਹਨ ਲਈ ਵਰਤੋ।",
+          "how": "ਵੇਰਵੇ ਖੋਲ੍ਹਣ ਲਈ ਸਹੀ ਸਿਰਲੇਖ ਅਤੇ ਮਿਤੀ ਵਾਲੀ ਸੂਚਨਾ ਕਤਾਰ ਚੁਣੋ।",
+          "inputs": "ਸਿਰਲੇਖ ਅਤੇ ਮਿਤੀ ਦੇ ਆਧਾਰ 'ਤੇ ਸਹੀ ਸੂਚਨਾ ਚੁਣੋ।",
+          "result": "ਚੁਣੀ ਸੂਚਨਾ ਦੇ ਵੇਰਵੇ ਦਿਖਾਏ ਜਾਂਦੇ ਹਨ। ਜੇ ਇਹ ਨਾ-ਪੜ੍ਹੀ ਹੋਵੇ ਤਾਂ ਐਪ ਇਸਨੂੰ ਪੜ੍ਹੀ ਹੋਈ ਨਿਸ਼ਾਨਿਤ ਕਰਕੇ ਇਨਬਾਕਸ ਤਾਜ਼ਾ ਕਰਦੀ ਹੈ।",
+          "notes": "ਸਿਰਲੇਖ ਅਤੇ ਮਿਤੀ ਜਾਂਚੋ ਕਿਉਂਕਿ ਸੂਚਨਾਵਾਂ ਦੇ ਸ਼ਬਦ ਮਿਲਦੇ-ਜੁਲਦੇ ਹੋ ਸਕਦੇ ਹਨ। ਸੂਚਨਾ ਖੋਲ੍ਹਣ ਨਾਲ ਉਸ ਵਿੱਚ ਦੱਸਿਆ ਕੰਮ ਪੂਰਾ ਨਹੀਂ ਹੁੰਦਾ।"
+        },
+        "prs": {
+          "purpose": "یک اعلان را باز می‌کند و جزئیات کامل آن را نمایش می‌دهد.",
+          "when": "برای خواندن متن کامل یک اعلان در صندوق Reports & Tax از این گزینه استفاده کنید.",
+          "how": "ردیف اعلان دارای عنوان و تاریخ موردنظر را انتخاب کنید تا جزئیات باز شود.",
+          "inputs": "اعلان صحیح را بر اساس عنوان و تاریخ انتخاب کنید.",
+          "result": "جزئیات اعلان نمایش داده می‌شود. اگر خوانده‌نشده باشد، برنامه آن را خوانده‌شده علامت می‌زند و صندوق ورودی را تازه‌سازی می‌کند.",
+          "notes": "عنوان و تاریخ را بررسی کنید، زیرا متن اعلان‌ها ممکن است مشابه باشد. بازکردن اعلان وظیفه‌ای را که توضیح می‌دهد انجام نمی‌دهد."
+        },
+        "ps": {
+          "purpose": "خبرتیا پرانیزي او بشپړ جزئیات یې ښيي.",
+          "when": "دا د Reports & Tax په صندوق کې د خبرتیا د بشپړ پیغام د لوستلو لپاره وکاروئ.",
+          "how": "د جزئیاتو د پرانیستلو لپاره د سم سرلیک او نېټې لرونکی د خبرتیا قطار وټاکئ.",
+          "inputs": "سمه خبرتیا د سرلیک او نېټې له مخې وټاکئ.",
+          "result": "د خبرتیا جزئیات ښکاره کېږي. که نه وي لوستل شوې، اپلېکېشن یې د لوستل شوې په توګه نښه کوي او صندوق تازه کوي.",
+          "notes": "سرلیک او نېټه وګورئ، ځکه د خبرتیاوو متنونه ورته کېدای شي. د خبرتیا پرانیستل هغه کار نه بشپړوي چې پکې بیان شوی."
         }
       },
       "handler_or_behavior": "`report188OpenNotification(`"
@@ -21790,6 +21934,78 @@
           "inputs": "اعلان صحیح باید در نمای جزئیات باز باشد.",
           "result": "وضعیت خواندن اعلان تغییر می‌کند و پس از تلاش برای ذخیره، نمای جزئیات و صندوق ورودی تازه‌سازی می‌شوند.",
           "notes": "این عملیات فقط وضعیت خواندن اعلان را تغییر می‌دهد و وظیفه‌ای را که اعلان درباره آن است تکمیل نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يبدّل حالة الإشعار المحدد بين مقروء وغير مقروء.",
+          "when": "استخدمه لتغيير حالة قراءة إشعار أثناء عرض تفاصيله.",
+          "how": "اختر Mark as read أو Mark as unread في تفاصيل الإشعار.",
+          "inputs": "يجب أن يكون الإشعار الصحيح مفتوحاً في عرض التفاصيل.",
+          "result": "تتبدل حالة قراءة الإشعار، ثم تُحدّث نافذة التفاصيل وصندوق الوارد بعد محاولة الحفظ.",
+          "notes": "يغيّر هذا حالة القراءة فقط؛ ولا ينفذ المهمة التي يصفها الإشعار."
+        },
+        "ckb": {
+          "purpose": "دۆخی ئاگاداریی هەڵبژێردراو لە نێوان خوێندراوە و نەخوێندراوە دەگۆڕێت.",
+          "when": "کاتێک وردەکاریی ئاگاداری دەبینیت و دەتەوێت دۆخی خوێندنەوەی بگۆڕیت، بەکاری بهێنە.",
+          "how": "لە وردەکاریی ئاگاداری Mark as read یان Mark as unread هەڵبژێرە.",
+          "inputs": "ئاگاداریی دروست دەبێت لە دیمەنی وردەکاری کراوە بێت.",
+          "result": "دۆخی خوێندنەوەی ئاگاداری دەگۆڕێت و دوای هەوڵی پاشەکەوتکردن، وردەکاری و سندووق نوێ دەکرێنەوە.",
+          "notes": "ئەمە تەنها دۆخی خوێندنەوە دەگۆڕێت؛ ئەو کارە جێبەجێ ناکات کە ئاگاداری باس دەکات."
+        },
+        "kmr": {
+          "purpose": "Rewşa agahdariya hilbijartî di navbera xwendî û nexwendî de diguherîne.",
+          "when": "Vê bikar bîne dema ku dixwazî rewşa xwendina agahdariyekê dema ku hûrguliyên wê dibînî biguherînî.",
+          "how": "Di hûrguliyên agahdariyê de Mark as read an Mark as unread hilbijêre.",
+          "inputs": "Divê agahdariya rast di dîtina hûrguliyan de vekirî be.",
+          "result": "Rewşa xwendina agahdariyê diguherîne û piştî hewla tomarkirinê dîtina hûrgulî û qutî nû dike.",
+          "notes": "Ev tenê rewşa xwendinê diguherîne; karê ku agahdarî rave dike pêk nayîne."
+        },
+        "tr": {
+          "purpose": "Seçilen bildirimin okundu ve okunmadı durumunu değiştirir.",
+          "when": "Bildirim ayrıntılarını görüntülerken okuma durumunu değiştirmek için kullanın.",
+          "how": "Bildirim ayrıntılarında Mark as read veya Mark as unread seçeneğini belirleyin.",
+          "inputs": "Doğru bildirim ayrıntı görünümünde açık olmalıdır.",
+          "result": "Bildirimin okuma durumu değiştirilir ve kaydetme denemesinden sonra ayrıntı görünümü ile gelen kutusu yenilenir.",
+          "notes": "Yalnızca okuma durumunu değiştirir; bildirimin açıkladığı görevi tamamlamaz."
+        },
+        "pl": {
+          "purpose": "Przełącza wybrane powiadomienie między stanem przeczytanym i nieprzeczytanym.",
+          "when": "Użyj tej opcji, gdy podczas przeglądania szczegółów chcesz zmienić stan przeczytania powiadomienia.",
+          "how": "W szczegółach powiadomienia wybierz Mark as read lub Mark as unread.",
+          "inputs": "W widoku szczegółów musi być otwarte właściwe powiadomienie.",
+          "result": "Stan przeczytania powiadomienia zostaje przełączony, a po próbie zapisu odświeżane są szczegóły i skrzynka.",
+          "notes": "Zmienia wyłącznie stan przeczytania; nie wykonuje zadania opisanego w powiadomieniu."
+        },
+        "ur": {
+          "purpose": "منتخب اطلاع کی حالت کو پڑھی ہوئی اور نہ پڑھی ہوئی کے درمیان بدلتا ہے۔",
+          "when": "اطلاع کی تفصیلات دیکھتے ہوئے اس کی پڑھنے کی حالت تبدیل کرنے کے لیے استعمال کریں۔",
+          "how": "اطلاع کی تفصیلات میں Mark as read یا Mark as unread منتخب کریں۔",
+          "inputs": "درست اطلاع تفصیلات کے منظر میں کھلی ہونی چاہیے۔",
+          "result": "اطلاع کی پڑھنے کی حالت بدل جاتی ہے اور محفوظ کرنے کی کوشش کے بعد تفصیلات اور ان باکس تازہ ہوتے ہیں۔",
+          "notes": "یہ صرف پڑھنے کی حالت بدلتا ہے؛ اطلاع میں بیان کردہ کام مکمل نہیں کرتا۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੀ ਸੂਚਨਾ ਦੀ ਸਥਿਤੀ ਨੂੰ ਪੜ੍ਹੀ ਹੋਈ ਅਤੇ ਨਾ-ਪੜ੍ਹੀ ਹੋਈ ਵਿਚਕਾਰ ਬਦਲਦਾ ਹੈ।",
+          "when": "ਸੂਚਨਾ ਦੇ ਵੇਰਵੇ ਵੇਖਦੇ ਸਮੇਂ ਇਸਦੀ ਪੜ੍ਹਨ ਸਥਿਤੀ ਬਦਲਣ ਲਈ ਵਰਤੋ।",
+          "how": "ਸੂਚਨਾ ਦੇ ਵੇਰਵਿਆਂ ਵਿੱਚ Mark as read ਜਾਂ Mark as unread ਚੁਣੋ।",
+          "inputs": "ਸਹੀ ਸੂਚਨਾ ਵੇਰਵੇ ਵਾਲੇ ਦ੍ਰਿਸ਼ ਵਿੱਚ ਖੁੱਲ੍ਹੀ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ।",
+          "result": "ਸੂਚਨਾ ਦੀ ਪੜ੍ਹਨ ਸਥਿਤੀ ਬਦਲਦੀ ਹੈ ਅਤੇ ਸੇਵ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਤੋਂ ਬਾਅਦ ਵੇਰਵੇ ਅਤੇ ਇਨਬਾਕਸ ਤਾਜ਼ਾ ਹੁੰਦੇ ਹਨ।",
+          "notes": "ਇਹ ਸਿਰਫ਼ ਪੜ੍ਹਨ ਦੀ ਸਥਿਤੀ ਬਦਲਦਾ ਹੈ; ਸੂਚਨਾ ਵਿੱਚ ਦੱਸਿਆ ਕੰਮ ਪੂਰਾ ਨਹੀਂ ਕਰਦਾ।"
+        },
+        "prs": {
+          "purpose": "وضعیت اعلان انتخاب‌شده را بین خوانده‌شده و خوانده‌نشده تغییر می‌دهد.",
+          "when": "هنگام مشاهده جزئیات اعلان و برای تغییر وضعیت خواندن آن، از این گزینه استفاده کنید.",
+          "how": "در جزئیات اعلان Mark as read یا Mark as unread را انتخاب کنید.",
+          "inputs": "اعلان صحیح باید در نمای جزئیات باز باشد.",
+          "result": "وضعیت خواندن اعلان تغییر می‌کند و پس از تلاش برای ذخیره، نمای جزئیات و صندوق ورودی تازه‌سازی می‌شوند.",
+          "notes": "این عملیات فقط وضعیت خواندن را تغییر می‌دهد و وظیفه توضیح‌داده‌شده در اعلان را تکمیل نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د ټاکل شوې خبرتیا حالت د لوستل شوې او نه لوستل شوې ترمنځ بدلوي.",
+          "when": "دا هغه وخت وکاروئ چې د خبرتیا جزئیات ګورئ او د لوستلو حالت یې بدلول غواړئ.",
+          "how": "د خبرتیا په جزئیاتو کې Mark as read یا Mark as unread وټاکئ.",
+          "inputs": "سمه خبرتیا باید د جزئیاتو په لید کې پرانیستې وي.",
+          "result": "د خبرتیا د لوستلو حالت بدلېږي او د خوندي کولو له هڅې وروسته جزئیات او صندوق تازه کېږي.",
+          "notes": "دا یوازې د لوستلو حالت بدلوي؛ هغه کار نه بشپړوي چې خبرتیا یې بیانوي."
         }
       },
       "handler_or_behavior": "`report188ToggleReadFromDetail(`"
@@ -21816,6 +22032,78 @@
           "inputs": "گزارش ذخیره‌شده باید در نمایشگر باز باشد. پیش از چاپ، دوره، وضعیت و محتوای آن را تأیید کنید.",
           "result": "تصویر ذخیره‌شده گزارش برای چاپ آماده می‌شود و پنجره چاپ مرورگر باز می‌شود.",
           "notes": "این عملیات همان تصویر ذخیره‌شده را چاپ می‌کند و ارقام فعلی را دوباره محاسبه نمی‌کند. پیش از اشتراک‌گذاری یا بایگانی، دوره گزارش و محتوا را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يطبع لقطة التقرير المحفوظة المعروضة حالياً أو يحفظها كملف PDF.",
+          "when": "استخدمه عندما تحتاج إلى نسخة PDF أو ورقية من التقرير المحفوظ الذي تشاهده.",
+          "how": "اختر Print / Save PDF في عرض التقرير المحفوظ. راجع مربع طباعة المتصفح، ثم اطبع أو اختر Save as PDF.",
+          "inputs": "يجب أن يكون التقرير المحفوظ مفتوحاً. تحقق من الفترة والحالة والمحتوى قبل الطباعة.",
+          "result": "تُجهّز لقطة التقرير للطباعة ويفتح مربع طباعة المتصفح. اختر طابعة أو Save as PDF.",
+          "notes": "يطبع هذا الإجراء اللقطة المخزنة بدلاً من إعادة إنشاء الأرقام الحالية. راجع الفترة والمحتوى قبل المشاركة أو الأرشفة."
+        },
+        "ckb": {
+          "purpose": "Snapshotی پاشەکەوتکراوی ڕاپۆرتی ئێستا پیشاندراو چاپ دەکات یان وەک PDF پاشەکەوتی دەکات.",
+          "when": "کاتێک کۆپییەکی PDF یان کاغەزی ڕاپۆرتی پاشەکەوتکراوی ئێستا بینراوت پێویستە، بەکاری بهێنە.",
+          "how": "لە دیمەنی ڕاپۆرتی پاشەکەوتکراو Print / Save PDF هەڵبژێرە. پەنجەرەی چاپی وێبگەڕ بپشکنە، پاشان چاپ بکە یان Save as PDF هەڵبژێرە.",
+          "inputs": "ڕاپۆرتی پاشەکەوتکراو دەبێت کراوە بێت. پێش چاپکردن ماوە، دۆخ و ناوەڕۆکەکە بپشکنە.",
+          "result": "Snapshotی ڕاپۆرت بۆ چاپ ئامادە دەکرێت و پەنجەرەی چاپی وێبگەڕ دەکرێتەوە. چاپکەر یان Save as PDF هەڵبژێرە.",
+          "notes": "ئەمە Snapshotی هەڵگیراو چاپ دەکات، نەک ژمارە ئێستاکان دووبارە دروست دەکات. پێش هاوبەشکردن یان ئەرشیفکردن ماوە و ناوەڕۆک بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Snapshot-a rapora hilanbar a ku niha tê dîtin çap dike an wekî PDF dihêle.",
+          "when": "Vê bikar bîne dema ku kopiyeke PDF an kaxezî ya rapora hilanbar a niha dixwazî.",
+          "how": "Di dîtina rapora hilanbar de Print / Save PDF hilbijêre. Qutiya çapkirina gerokê binêre, paşê çap bike an Save as PDF hilbijêre.",
+          "inputs": "Divê rapora hilanbar vekirî be. Berî çapkirinê dem, rewş û naverokê piştrast bike.",
+          "result": "Snapshot-a raporê ji bo çapkirinê tê amadekirin û qutiya çapkirina gerokê vedibe. Çapker an Save as PDF hilbijêre.",
+          "notes": "Ev snapshot-a hilanbar çap dike, ne ku hejmarên niha ji nû ve hesab bike. Berî parvekirin an arşîvkirinê dem û naverokê kontrol bike."
+        },
+        "tr": {
+          "purpose": "Şu anda görüntülenen kayıtlı rapor anlık görüntüsünü yazdırır veya PDF olarak kaydeder.",
+          "when": "Görüntülemekte olduğunuz kayıtlı raporun PDF ya da kâğıt kopyasına ihtiyaç duyduğunuzda kullanın.",
+          "how": "Kayıtlı rapor görünümünde Print / Save PDF seçeneğini belirleyin. Tarayıcının yazdırma penceresini inceleyin; ardından yazdırın veya Save as PDF seçin.",
+          "inputs": "Kayıtlı rapor açık olmalıdır. Yazdırmadan önce dönemini, durumunu ve içeriğini doğrulayın.",
+          "result": "Rapor anlık görüntüsü yazdırmaya hazırlanır ve tarayıcının yazdırma penceresi açılır. Yazıcı veya Save as PDF seçin.",
+          "notes": "Bu işlem güncel rakamları yeniden üretmek yerine saklanan anlık görüntüyü yazdırır. Paylaşmadan veya arşivlemeden önce dönemi ve içeriği kontrol edin."
+        },
+        "pl": {
+          "purpose": "Drukuje aktualnie wyświetlaną zapisaną migawkę raportu lub zapisuje ją jako PDF.",
+          "when": "Użyj tej opcji, gdy potrzebujesz kopii PDF lub papierowej oglądanego zapisanego raportu.",
+          "how": "W widoku zapisanego raportu wybierz Print / Save PDF. Sprawdź okno drukowania przeglądarki, a następnie drukuj lub wybierz Save as PDF.",
+          "inputs": "Zapisany raport musi być otwarty. Przed drukowaniem sprawdź okres, status i treść.",
+          "result": "Migawka raportu jest przygotowywana do drukowania i otwiera się okno drukowania przeglądarki. Wybierz drukarkę lub Save as PDF.",
+          "notes": "Ta czynność drukuje zapisaną migawkę, a nie generuje ponownie aktualnych wartości. Przed udostępnieniem lub archiwizacją sprawdź okres i treść."
+        },
+        "ur": {
+          "purpose": "اس وقت دکھائے جانے والے محفوظ رپورٹ اسنیپ شاٹ کو پرنٹ کرتا ہے یا PDF کے طور پر محفوظ کرتا ہے۔",
+          "when": "جب آپ کو زیرِ مشاہدہ محفوظ رپورٹ کی PDF یا کاغذی نقل درکار ہو تو استعمال کریں۔",
+          "how": "محفوظ رپورٹ کے منظر میں Print / Save PDF منتخب کریں۔ براؤزر کا پرنٹ ڈائیلاگ دیکھیں، پھر پرنٹ کریں یا Save as PDF منتخب کریں۔",
+          "inputs": "محفوظ رپورٹ کھلی ہونی چاہیے۔ پرنٹ سے پہلے مدت، حالت اور مواد کی تصدیق کریں۔",
+          "result": "رپورٹ اسنیپ شاٹ پرنٹنگ کے لیے تیار ہوتا ہے اور براؤزر کا پرنٹ ڈائیلاگ کھلتا ہے۔ پرنٹر یا Save as PDF منتخب کریں۔",
+          "notes": "یہ محفوظ اسنیپ شاٹ پرنٹ کرتا ہے، موجودہ اعداد دوبارہ تیار نہیں کرتا۔ شیئر یا آرکائیو کرنے سے پہلے مدت اور مواد چیک کریں۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਦਿਖਾਏ ਜਾ ਰਹੇ ਸੰਭਾਲੇ ਰਿਪੋਰਟ ਸਨੈਪਸ਼ਾਟ ਨੂੰ ਪ੍ਰਿੰਟ ਕਰਦਾ ਹੈ ਜਾਂ PDF ਵਜੋਂ ਸੇਵ ਕਰਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਤੁਹਾਨੂੰ ਵੇਖੀ ਜਾ ਰਹੀ ਸੰਭਾਲੀ ਰਿਪੋਰਟ ਦੀ PDF ਜਾਂ ਕਾਗਜ਼ੀ ਕਾਪੀ ਚਾਹੀਦੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸੰਭਾਲੀ ਰਿਪੋਰਟ ਦੇ ਦ੍ਰਿਸ਼ ਵਿੱਚ Print / Save PDF ਚੁਣੋ। ਬ੍ਰਾਊਜ਼ਰ ਦਾ ਪ੍ਰਿੰਟ ਡਾਇਲਾਗ ਵੇਖੋ, ਫਿਰ ਪ੍ਰਿੰਟ ਕਰੋ ਜਾਂ Save as PDF ਚੁਣੋ।",
+          "inputs": "ਸੰਭਾਲੀ ਰਿਪੋਰਟ ਖੁੱਲ੍ਹੀ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ। ਪ੍ਰਿੰਟ ਤੋਂ ਪਹਿਲਾਂ ਮਿਆਦ, ਸਥਿਤੀ ਅਤੇ ਸਮੱਗਰੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।",
+          "result": "ਰਿਪੋਰਟ ਸਨੈਪਸ਼ਾਟ ਪ੍ਰਿੰਟ ਲਈ ਤਿਆਰ ਹੁੰਦਾ ਹੈ ਅਤੇ ਬ੍ਰਾਊਜ਼ਰ ਦਾ ਪ੍ਰਿੰਟ ਡਾਇਲਾਗ ਖੁੱਲ੍ਹਦਾ ਹੈ। ਪ੍ਰਿੰਟਰ ਜਾਂ Save as PDF ਚੁਣੋ।",
+          "notes": "ਇਹ ਸੰਭਾਲਿਆ ਸਨੈਪਸ਼ਾਟ ਪ੍ਰਿੰਟ ਕਰਦਾ ਹੈ, ਮੌਜੂਦਾ ਅੰਕੜੇ ਮੁੜ ਨਹੀਂ ਬਣਾਉਂਦਾ। ਸਾਂਝਾ ਜਾਂ ਆਰਕਾਈਵ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਮਿਆਦ ਅਤੇ ਸਮੱਗਰੀ ਜਾਂਚੋ।"
+        },
+        "prs": {
+          "purpose": "Snapshot ذخیره‌شده گزارشی را که اکنون نمایش داده می‌شود چاپ می‌کند یا به‌صورت PDF ذخیره می‌کند.",
+          "when": "وقتی به نسخه PDF یا کاغذی از گزارش ذخیره‌شده‌ای که مشاهده می‌کنید نیاز دارید، از این گزینه استفاده کنید.",
+          "how": "در نمای گزارش ذخیره‌شده Print / Save PDF را انتخاب کنید. پنجره چاپ مرورگر را بررسی کنید و سپس چاپگر یا Save as PDF را انتخاب کنید.",
+          "inputs": "گزارش ذخیره‌شده باید باز باشد. پیش از چاپ، دوره، وضعیت و محتوا را تأیید کنید.",
+          "result": "Snapshot گزارش برای چاپ آماده می‌شود و پنجره چاپ مرورگر باز می‌شود. چاپگر یا Save as PDF را انتخاب کنید.",
+          "notes": "این عملیات Snapshot ذخیره‌شده را چاپ می‌کند و ارقام فعلی را دوباره تولید نمی‌کند. پیش از اشتراک‌گذاری یا بایگانی، دوره و محتوا را بررسی کنید."
+        },
+        "ps": {
+          "purpose": "اوس مهال ښودل شوی خوندي شوی د راپور Snapshot چاپوي یا یې د PDF په توګه خوندي کوي.",
+          "when": "دا هغه وخت وکاروئ چې د لیدل کېدونکي خوندي راپور PDF یا کاغذي کاپي ته اړتیا لرئ.",
+          "how": "د خوندي شوي راپور په لید کې Print / Save PDF وټاکئ. د براوزر د چاپ کړکۍ وګورئ، بیا چاپ کړئ یا Save as PDF وټاکئ.",
+          "inputs": "خوندي شوی راپور باید پرانیستی وي. له چاپ مخکې موده، حالت او منځپانګه تایید کړئ.",
+          "result": "د راپور Snapshot د چاپ لپاره چمتو کېږي او د براوزر د چاپ کړکۍ پرانیستل کېږي. چاپګر یا Save as PDF وټاکئ.",
+          "notes": "دا خوندي شوی Snapshot چاپوي، اوسني شمېرې بیا نه محاسبه کوي. له شریکولو یا آرشیف کولو مخکې موده او منځپانګه وګورئ."
         }
       },
       "handler_or_behavior": "`report188Print(`"
