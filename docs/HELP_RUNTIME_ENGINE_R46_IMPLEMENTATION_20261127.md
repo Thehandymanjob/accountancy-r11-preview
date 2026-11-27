@@ -156,3 +156,13 @@ Source review corrected the English and Persian text for nine Draft entries: THA
 - The seven tabs use exact data-pr-sub attributes so repeated prDetailTab handlers cannot collide. New/List selectors are scoped to #prPage-project-hub; Clear actions are scoped to their actual form pages.
 - Cumulative mapping: 110 Help controls (105 static, five dynamic-template); 87 scoped static selectors, 13 unique-ID selectors and five scoped-handler selectors.
 - Build target: THA-273-R11-PREVIEW-20261127-R61. Browser testing and deployment remain pending.
+
+
+## R61 Project Workspace detail controls
+
+- Added 13 completed Help topics for New Project, Projects List, Add Partner share row, the seven Project Detail tabs, View Financial Report, Clear Contractor Form and Clear Work Package Form.
+- Project Detail tabs use `data-pr-sub` to distinguish the repeated `prDetailTab(...)` handler and preserve a unique Help ID per tab.
+- Runtime now contains 105 static binding rows with 105 unique Help IDs and five dynamic-template attributes (110 mapped Help IDs total).
+- Mapping summary: 87 scoped static selectors, 13 exact unique-ID selectors and five scoped unique-handler selectors.
+- Version target remains `THA-273-R11-PREVIEW-20261127-R61`. Version Authority must pin the current runtime SHA before the R61 Gate can pass.
+- Live Project Workspace interactions, Help trigger isolation, language switching, mobile layout and iPhone Safari remain unverified. No Preview deployment or Production change.
