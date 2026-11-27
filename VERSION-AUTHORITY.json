@@ -8,7 +8,7 @@
     "version": "273",
     "buildId": "THA-273-R11-PREVIEW-20261126-R43",
     "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R43",
-    "indexBlobSha": "104766171ee9ad519ec8be36126f04f0dde24a5c",
+    "indexBlobSha": "b51da3c0bf531a559b13aaf760ea9e90a9219698",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "104766171ee9ad519ec8be36126f04f0dde24a5c",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "b51da3c0bf531a559b13aaf760ea9e90a9219698",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7"
     }
@@ -1927,6 +1927,45 @@
       "userApproval": {
         "result": "authorized for Preview only",
         "details": "User instructed adding translations and languages. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-PERSIAN-SHIR-KHORSHID-FLAG-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Use the requested Shir-o-Khorshid flag marker beside Persian in the User Guide language selector. Preview only.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html"
+      ],
+      "previewDevelopmentCommitSha": "33a0fb14255a6148188ac9277f4513bba7d8fd06",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Manifest pin updated to the exact current index blob SHA after confirming the only post-Gate runtime diff was the requested Persian flag marker. A fresh Gate run is required."
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Pending fresh V8 syntax compilation and guide-language selector checks."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Not deployed; PR #96 remains Draft while Help Registry and button-level content work is completed."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting authorized Preview deployment and user test in iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User explicitly requested the Shir-o-Khorshid flag beside Persian. Production promotion is not authorized."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
