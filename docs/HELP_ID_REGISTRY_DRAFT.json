@@ -21420,7 +21420,10 @@
           "notes": "نتیجه ممیزی: INV-256 باید به‌عنوان مورد معاف ثبت شود؛ شناسه ثابت THA-HLP-0219 فقط به‌عنوان شناسه ممیزی بازنشسته حفظ شود و منتشر یا دوباره استفاده نشود. این شناسه نقطه اتصال معتبر برای Help نیست."
         }
       },
-      "handler_or_behavior": "`GenUINotUsed`"
+      "handler_or_behavior": "`GenUINotUsed`",
+      "lifecycle_status": "RETIRED",
+      "publishable": false,
+      "retirement_reason": "INV-256 is a hidden display:none placeholder with an unimplemented handler; it is not a user-facing control."
     },
     {
       "help_id": "THA-HLP-0220",
@@ -22404,10 +22407,10 @@
     }
   ],
   "content_progress": {
-    "completed_entries": 54,
-    "draft_entries": 175,
+    "completed_entries": 132,
+    "draft_entries": 96,
     "pending_entries": 0,
-    "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written."
+    "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written. Retired IDs are excluded from active content totals."
   },
   "active_entry_count": 228,
   "retired_entry_count": 1
