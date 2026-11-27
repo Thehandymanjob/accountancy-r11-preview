@@ -5,11 +5,11 @@
   "branch": "development",
   "baseline": {
     "runtime_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
-    "runtime_blob_sha": "b890dbfacf1b3d2295b30d66f73e663a99888cc7",
+    "runtime_blob_sha": "abaad94994a6aeced23e26b6ea5724c989e8b188",
     "registry_blob_sha": "f63754128fd09125290df4045f6f4b6fc03b3545",
     "inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
     "help_content_blob_sha": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
-    "help_runtime_blob_sha": "364f42aa5b23f125f4183e9b04d3d747e5caa8de"
+    "help_runtime_blob_sha": "00788b1a55887e2edf4b5b44f81d39a5bf36e3f3"
   },
   "policy": {
     "label_only_matching": false,
@@ -24,27 +24,29 @@
     "inventory_rows": 268,
     "mapping_status_counts": {
       "AMBIGUOUS_HANDLER": 160,
-      "HANDLER_CANDIDATE_REQUIRES_CONTEXT_TEST": 16,
+      "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED": 5,
       "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED": 19,
       "ADJACENT_HELP_BUTTON_ATTACHED_R51_NOT_BROWSER_VERIFIED": 13,
+      "HANDLER_CANDIDATE_REQUIRES_CONTEXT_TEST": 11,
       "NEEDS_SELECTOR": 7,
       "SEPARATE_DOCUMENT_SCOPE": 7,
       "DYNAMIC_TEMPLATE_CANDIDATE": 2,
       "ID_CANDIDATE_REQUIRES_BROWSER_TEST": 4,
       "EXEMPT_NOT_MAPPED": 1
     },
-    "notes": "R51 corrects and validates the 27-entry static binding table. The runtime retains 32 adjacent Help controls: 14 scoped selectors, 13 exact unique-ID selectors and five dynamic-template attributes. Hidden/class/style synchronization remains enabled. Browser testing has not occurred.",
+    "notes": "R52 extends adjacent contextual Help to 37 specialist controls: 14 scoped navigation/report selectors, 13 exact unique-ID selectors, five scoped unique-handler selectors and five dynamic-template attributes. The fail-closed binding-table guard and hidden-state synchronization are enabled. The runtime still exposes only approved CONTENT_COMPLETE entries. No real browser test or deployment has occurred.",
     "runtime_publishable_entries": 132,
     "runtime_languages": 11,
-    "static_controls_attached": 27,
+    "static_controls_attached": 32,
     "draft_static_controls_skipped": 2,
     "dynamic_template_controls_pending": 10,
-    "help_ids_attached": 32,
+    "help_ids_attached": 37,
     "browser_tests_run": 0,
     "dynamic_template_controls_attached": 5,
     "draft_controls_skipped": 12,
     "en_fa_draft_entries_corrected": 9,
-    "id_selector_controls_attached": 13
+    "id_selector_controls_attached": 13,
+    "scoped_handler_controls_attached": 5
   },
   "mappings": [
     {
@@ -124,12 +126,12 @@
       "visible_label": "💾 Save Contract",
       "handler": "ctSave()",
       "handler_name": "ctSave",
-      "selector_strategy": "handler_context",
-      "selector": null,
+      "selector_strategy": "static_scoped_handler_selector",
+      "selector": "#contractsApp .ct-actions > button[onclick=\"ctSave()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "HANDLER_CANDIDATE_REQUIRES_CONTEXT_TEST",
-      "rationale": "Handler token occurs once in source, but does not identify the clickable node by itself; resolve exact element/context before connection."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "rationale": "R52 resolves the unique handler in its exact named workspace and attaches the Help ID through a scoped selector. Content is approved; browser layout and interaction checks remain required."
     },
     {
       "help_id": "THA-HLP-0007",
@@ -138,12 +140,12 @@
       "visible_label": "✦ Help me write with ChatGPT",
       "handler": "ctOpenChatGPT()",
       "handler_name": "ctOpenChatGPT",
-      "selector_strategy": "handler_context",
-      "selector": null,
+      "selector_strategy": "static_scoped_handler_selector",
+      "selector": "#contractsApp .ct-actions > button[onclick=\"ctOpenChatGPT()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "HANDLER_CANDIDATE_REQUIRES_CONTEXT_TEST",
-      "rationale": "Handler token occurs once in source, but does not identify the clickable node by itself; resolve exact element/context before connection."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "rationale": "R52 resolves the unique handler in its exact named workspace and attaches the Help ID through a scoped selector. Content is approved; browser layout and interaction checks remain required."
     },
     {
       "help_id": "THA-HLP-0008",
@@ -152,12 +154,12 @@
       "visible_label": "🖨️ Preview / Print / Save PDF",
       "handler": "ctPrint()",
       "handler_name": "ctPrint",
-      "selector_strategy": "handler_context",
-      "selector": null,
+      "selector_strategy": "static_scoped_handler_selector",
+      "selector": "#contractsApp .ct-actions > button[onclick=\"ctPrint()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "HANDLER_CANDIDATE_REQUIRES_CONTEXT_TEST",
-      "rationale": "Handler token occurs once in source, but does not identify the clickable node by itself; resolve exact element/context before connection."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "rationale": "R52 resolves the unique handler in its exact named workspace and attaches the Help ID through a scoped selector. Content is approved; browser layout and interaction checks remain required."
     },
     {
       "help_id": "THA-HLP-0009",
@@ -656,12 +658,12 @@
       "visible_label": "Save recipient details",
       "handler": "report188SaveEmailSettings()",
       "handler_name": "report188SaveEmailSettings",
-      "selector_strategy": "handler_context",
-      "selector": null,
+      "selector_strategy": "static_scoped_handler_selector",
+      "selector": "#report188Email > .pr-card .actions > button[onclick=\"report188SaveEmailSettings()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "HANDLER_CANDIDATE_REQUIRES_CONTEXT_TEST",
-      "rationale": "Handler token occurs once in source, but does not identify the clickable node by itself; resolve exact element/context before connection."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "rationale": "R52 resolves the unique handler in its exact named workspace and attaches the Help ID through a scoped selector. Content is approved; browser layout and interaction checks remain required."
     },
     {
       "help_id": "THA-HLP-0045",
@@ -754,12 +756,12 @@
       "visible_label": "Compare Accounting Storage (Read-only)",
       "handler": "window.runAccountingStorageComparison()",
       "handler_name": "runAccountingStorageComparison",
-      "selector_strategy": "handler_context",
-      "selector": null,
+      "selector_strategy": "static_scoped_handler_selector",
+      "selector": "#monitor button[onclick=\"window.runAccountingStorageComparison()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "HANDLER_CANDIDATE_REQUIRES_CONTEXT_TEST",
-      "rationale": "Handler token occurs once in source, but does not identify the clickable node by itself; resolve exact element/context before connection."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R52_NOT_BROWSER_VERIFIED",
+      "rationale": "R52 resolves the unique handler in its exact named workspace and attaches the Help ID through a scoped selector. Content is approved; browser layout and interaction checks remain required."
     },
     {
       "help_id": "THA-HLP-0052",

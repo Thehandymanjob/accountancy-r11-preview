@@ -1,12 +1,17 @@
 (function () {
   'use strict';
-  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R51') return;
+  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R52') return;
   const payload = window.THAHelpContentV1;
   if (!payload || !payload.entries) {
     console.error('[THA Help] Content bundle is missing; contextual help was not started.');
     return;
   }
   const STATIC_BINDINGS = [
+    ['THA-HLP-0006', '#contractsApp .ct-actions > button[onclick="ctSave()"]'],
+    ['THA-HLP-0007', '#contractsApp .ct-actions > button[onclick="ctOpenChatGPT()"]'],
+    ['THA-HLP-0008', '#contractsApp .ct-actions > button[onclick="ctPrint()"]'],
+    ['THA-HLP-0044', '#report188Email > .pr-card .actions > button[onclick="report188SaveEmailSettings()"]'],
+    ['THA-HLP-0051', '#monitor button[onclick="window.runAccountingStorageComparison()"]'],
     ['THA-HLP-0015', '.accountancy-nav > button[onclick="show(\'home\')"]'],
     ['THA-HLP-0016', '.accountancy-nav > button[onclick="show(\'entry\')"]'],
     ['THA-HLP-0017', '.accountancy-nav > button[onclick="show(\'records\')"]'],
@@ -205,7 +210,7 @@
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initialise,{once:true});
   else initialise();
   window.THAHelpRuntime=Object.freeze({
-    version:'R51',open:openHelp,openFullGuide,attach:attachAll,
+    version:'R52',open:openHelp,openFullGuide,attach:attachAll,
     getLastHelpId:()=>lastHelpId,getPublishableCount:()=>Object.keys(payload.entries).length
   });
 })();

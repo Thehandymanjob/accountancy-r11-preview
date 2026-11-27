@@ -594,6 +594,19 @@
 - **تست واقعی مرورگر / انتشار:** هنوز انجام نشده؛ Preview Pages منتشر نشده و iPhone Safari بررسی نشده است.
 - **انتشار:** هیچ Preview deploy یا Production change انجام نشده است.
 
+
+#### بازنگری R52 — اتصال پنج کنترل با handler یکتا و محدوده مشخص
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ پرونده جدید ایجاد نشد.
+- **شناسه‌های جدید:** THA-HLP-0006 Save Contract، 0007 Help me write with ChatGPT، 0008 Contract Preview / Print / Save PDF، 0044 Save recipient details و 0051 Compare Accounting Storage (Read-only).
+- **روش اتصال:** برای سه کنترل قرارداد، محدوده `#contractsApp .ct-actions`؛ برای ذخیره گیرنده، محدوده `#report188Email`؛ و برای مقایسه IndexedDB، محدوده `#monitor` همراه handler دقیق استفاده شد. هر پنج handler در سورس دقیقاً یک‌بار یافت شد. تطبیق بر اساس متن دکمه انجام نشد.
+- **مجموع اتصال‌ها:** ۳۷ کنترل؛ ۳۲ ایستا (۱۴ Selector محدوده‌دار قبلی، ۱۳ ID دقیق و ۵ handler محدوده‌دار) و ۵ کنترل پویا.
+- **محتوا:** هر پنج شناسه در بسته محتوای تأییدشده وجود دارند؛ مدخل‌های Draft متصل نشدند.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R52`. Runtime، صفحه اصلی، Authority و Mapping به‌روزرسانی شدند.
+- **تست ایستا:** یکتایی handlerها، موجود بودن محتوا، ۳۲ ردیف معتبر STATIC_BINDINGS و کامپایل نحوی Runtime PASS.
+- **تست مرورگر / انتشار:** هنوز انجام نشده؛ چیدمان واقعی، عدم تداخل با handler اصلی و iPhone Safari باید در Preview بررسی شوند. هیچ Deploy یا Production change انجام نشده است.
+
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
 - **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Implemented on Preview development; the latest R45 Version Authority Gate passed after native-HTML fail-closed hardening (run 46053038295). Pages deployment and iPhone Safari verification remain pending.
