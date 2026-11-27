@@ -695,6 +695,20 @@
 - **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ باید راهنمای هر کنترل، جدایی Company Contracts از Accounting، ثبت پرداخت در مقصد درست، عدم اجرای ناخواسته handler هنگام لمس «?» و چیدمان موبایل بررسی شوند.
 - **انتشار / داده:** هیچ Preview deploy، Merge، ثبت هزینه/پرداخت، تغییر داده یا Production change انجام نشده است.
 
+
+#### بازنگری R59 — اتصال قرارداد و پروفایل کسب‌وکار
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- **شناسه‌های متصل‌شده:** THA-HLP-0005 (New Contract)، THA-HLP-0006 (Save Contract)، THA-HLP-0008 (Preview / Print / Save PDF)، THA-HLP-0068 (Save Profile)، THA-HLP-0069 (Remove Logo) و THA-HLP-0071 (Clear Support Form).
+- **روش اتصال:** سه کنترل قرارداد به `#contractsWorkspace` و `#ctFormCard`؛ دو کنترل پروفایل به `#profileGuide`؛ و Clear Form به فرم `#helpContactForm` محدود شدند. هر selector handler دقیق خود را دارد.
+- **محتوا / مرزبندی:** هر شش شناسه CONTENT_COMPLETE هستند. Save Contract، Preview/Print/PDF و Save Profile مسیرهای جداگانه دارند؛ Remove Logo فقط لوگوی پروفایل را حذف می‌کند. Clear Support Form فقط فرم را خالی می‌کند و پیام ذخیره‌شده قبلی را به‌عنوان ارسال‌شده تلقی نمی‌کند.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R59`.
+- **اتصال‌ها پس از R59:** ۸۰ کنترل؛ ۷۵ ایستا و پنج پویا. ۶۳ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
+- **تست ایستا:** هر شش selector به فرم/صفحه صحیح محدود شدند؛ هیچ منطق ذخیره قرارداد، تولید PDF، پروفایل یا پیام پشتیبانی تغییر نکرد. Version Authority Gate برای R59 باید اجرا شود.
+- **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ راهنمای هر دکمه، عملکرد اصلی، انتخاب زبان و چیدمان موبایل باید در Preview بررسی شوند.
+- **انتشار / داده:** هیچ Preview deploy، ذخیره قرارداد، حذف لوگو، ارسال پیام، تغییر داده یا Production change انجام نشده است.
+
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
 - **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Implemented on Preview development; the latest R45 Version Authority Gate passed after native-HTML fail-closed hardening (run 46053038295). Pages deployment and iPhone Safari verification remain pending.
