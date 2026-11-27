@@ -6,7 +6,7 @@
 
 | اگر این مشکل را دیدی | ابتدا این مورد را باز کن | بررسی اولیه |
 |---|---|---|
-| انتخاب زبان، بارگذاری یا اتصال کنترل‌های User Guide با خطا یا نبود راهنمای زمینه‌ای روبه‌رو می‌شود | [HELP-GUIDE-001](./REPAIR_HISTORY_FA.md#help-guide-001--خطای-نحوی-در-تعریف-زبانها-و-فصلهای-راهنما) | R60: ۹۰ کنترل؛ Authority همگام؛ Gate و تست واقعی مرورگر باز |
+| انتخاب زبان، بارگذاری یا اتصال کنترل‌های User Guide با خطا یا نبود راهنمای زمینه‌ای روبه‌رو می‌شود | [HELP-GUIDE-001](./REPAIR_HISTORY_FA.md#help-guide-001--خطای-نحوی-در-تعریف-زبانها-و-فصلهای-راهنما) | R61: ۹۷ Help ID؛ ۹۲ static یکتا + ۵ dynamic؛ Gate در انتظار؛ تست واقعی مرورگر باز |
 | انتخاب Category هزینه بعد از لمس گزینه روی «Select a category» می‌ماند یا مقدار انتخابی نمایش داده نمی‌شود | [ACC-CAT-002](./REPAIR_HISTORY_FA.md#acc-cat-002--انتخاب-دستهبندی-هزینه-در-دکمه-ثبت-نمیماند) | در `syncCategoryPicker()`، گروه را از خروجی `getExpenseCategoryGroups()` پیدا کن؛ تعریف ثابت گروه‌ها `items` ندارد و فقط `base` دارد |
 | گزینه‌های Category هزینه‌ها در یک فهرست مخلوط هستند یا مورد جدید در همه گروه‌ها قاطی می‌شود | [ACC-CAT-001](./REPAIR_HISTORY_FA.md#acc-cat-001--تفکیک-و-نگهداری-مستقل-دستهبندی-هزینهها) | فهرست‌های مستقل Materials، Car Expenses، Tools و Others؛ Add New One در هر گروه؛ ذخیره در expenseCategoryLists داخل Accounting IndexedDB state |
 | ورود به Monitor & Diagnostics از پایین صفحه شروع می‌شود | [UI-MONITOR-SCROLL-001](./REPAIR_HISTORY_FA.md#ui-monitor-scroll-001--باز-شدن-monitor--diagnostics-از-ابتدای-صفحه) | پس از فعال‌شدن پنل و renderMonitor، در فریم بعدی scroll سند فقط برای Monitor به بالا بازنشانی شود |
