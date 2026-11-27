@@ -2022,15 +2022,15 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "1b37ac2dd1b66849f77ddef56be1f6a35d6f7dcd",
+      "previewDevelopmentCommitSha": "5b71c664ff1654ba1f717ed373f9c82a516dd28d",
       "previewPullRequestNumber": 96,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
         "result": "PASS",
-        "runId": 46052848728,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46052848728",
-        "details": "R11 Version Authority Gate passed on PR #96 head 5b71c664ff1654ba1f717ed373f9c82a516dd28d after the final repair-history update. It validated repository/branch identity, approved baseline ancestry, R45 Build ID and canonical URL, index SHA and all 22 pinned runtime assets, including the private destructive reset helper."
+        "runId": 46052818934,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46052818934",
+        "details": "Latest PR #96 head 5b71c664ff1654ba1f717ed373f9c82a516dd28d passed the R11 Version Authority Gate. The gate verified repository/branch identity, approved R11 baseline ancestry, R45 Build ID and embedded canonical URL, index blob SHA, and all 22 authority-pinned runtime assets. The final destructive-reset API guard and Preview database identity check are included."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
