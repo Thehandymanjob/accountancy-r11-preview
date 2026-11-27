@@ -13101,19 +13101,91 @@
       "translations": {
         "en": {
           "purpose": "Remove the currently selected project receipt photo.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control when you want to remove the current receipt photo from the project form.",
           "how": "Select Remove photo to clear the receipt image from the current project form.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "inputs": "Select the correct project form and check the currently selected receipt image.",
           "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
           "notes": "This removes the current photo attachment/preview; check that you have another copy if it is needed as evidence."
         },
         "fa": {
           "purpose": "حذف عکس رسید فعلی پروژه.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "وقتی می‌خواهید عکس رسید فعلی را از فرم پروژه پاک کنید، از این گزینه استفاده کنید.",
           "how": "گزینه Remove photo را انتخاب کنید تا تصویر رسید از فرم فعلی پاک شود.",
-          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "inputs": "فرم درست پروژه را انتخاب کنید و عکس رسید انتخاب‌شده را بررسی کنید.",
           "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
           "notes": "این کار عکس یا پیش‌نمایش فعلی را حذف می‌کند؛ اگر به‌عنوان مدرک لازم است نسخه دیگری نگه دارید."
+        },
+        "ar": {
+          "purpose": "يزيل صورة إيصال المشروع المحددة حالياً.",
+          "when": "عندما تريد إزالة صورة الإيصال الحالية من نموذج المشروع.",
+          "how": "اختر Remove photo لمسح صورة الإيصال من نموذج المشروع الحالي.",
+          "inputs": "حدد نموذج المشروع الصحيح وتحقق من صورة الإيصال المحددة.",
+          "result": "تُزال صورة الإيصال الحالية أو معاينتها من النموذج.",
+          "notes": "هذا يزيل مرفق الصورة أو معاينتها الحالية؛ احتفظ بنسخة أخرى إذا كانت مطلوبة كدليل."
+        },
+        "ckb": {
+          "purpose": "وێنەی پسووڵەی پرۆژەی هەڵبژێردراوی ئێستا لادەبات.",
+          "when": "کاتێک دەتەوێت وێنەی پسووڵەی ئێستا لە فۆڕمی پرۆژە بسڕیتەوە.",
+          "how": "Remove photo هەڵبژێرە بۆ پاککردنەوەی وێنەی پسووڵە لە فۆڕمی ئێستای پرۆژە.",
+          "inputs": "فۆڕمی دروستی پرۆژە هەڵبژێرە و وێنەی پسووڵەی هەڵبژێردراو بپشکنە.",
+          "result": "وێنەی پسووڵەی ئێستا یان پێشبینینی لە فۆڕمەکە لادەبرێت.",
+          "notes": "ئەمە هاوپێچی وێنە یان پێشبینینی ئێستا لادەبات؛ ئەگەر وەک بەڵگە پێویستە، کۆپییەکی تر بپارێزە."
+        },
+        "kmr": {
+          "purpose": "Wêneya fatûreya projeyê ya niha ya hilbijartî radike.",
+          "when": "Dema ku tu dixwazî wêneya fatûreya niha ji forma projeyê rakî.",
+          "how": "Remove photo hilbijêre da ku wêneya fatûreyê ji forma projeya niha paqij bike.",
+          "inputs": "Forma projeya rast hilbijêre û wêneya fatûreya hilbijartî kontrol bike.",
+          "result": "Wêneya fatûreya niha an pêşdîtina wê ji formê tê rakirin.",
+          "notes": "Ev pêveka wêne an pêşdîtina niha radike; heke wekî delîl pêwîst e kopiyeke din biparêze."
+        },
+        "tr": {
+          "purpose": "Geçerli olarak seçili proje makbuzu fotoğrafını kaldırır.",
+          "when": "Geçerli proje formundaki makbuz fotoğrafını kaldırmak istediğinizde kullanın.",
+          "how": "Makbuz görüntüsünü geçerli proje formundan temizlemek için Remove photo'yu seçin.",
+          "inputs": "Doğru proje formunu seçin ve seçili makbuz fotoğrafını kontrol edin.",
+          "result": "Geçerli makbuz fotoğrafı veya önizlemesi formdan kaldırılır.",
+          "notes": "Bu işlem mevcut fotoğraf ekini/önizlemesini kaldırır; kanıt olarak gerekiyorsa başka bir kopyasını saklayın."
+        },
+        "pl": {
+          "purpose": "Usuwa aktualnie wybrane zdjęcie paragonu projektu.",
+          "when": "Użyj, gdy chcesz usunąć bieżące zdjęcie paragonu z formularza projektu.",
+          "how": "Wybierz Remove photo, aby usunąć obraz paragonu z bieżącego formularza projektu.",
+          "inputs": "Wybierz właściwy formularz projektu i sprawdź wybrane zdjęcie paragonu.",
+          "result": "Bieżące zdjęcie paragonu lub jego podgląd zostanie usunięty z formularza.",
+          "notes": "Ta czynność usuwa bieżący załącznik zdjęciowy lub podgląd; zachowaj inną kopię, jeśli jest potrzebna jako dowód."
+        },
+        "ur": {
+          "purpose": "موجودہ منتخب پروجیکٹ رسید کی تصویر ہٹاتا ہے۔",
+          "when": "جب موجودہ پروجیکٹ فارم سے رسید کی تصویر ہٹانی ہو تو استعمال کریں۔",
+          "how": "موجودہ پروجیکٹ فارم سے رسید کی تصویر صاف کرنے کے لیے Remove photo منتخب کریں۔",
+          "inputs": "درست پروجیکٹ فارم منتخب کریں اور منتخب رسید کی تصویر چیک کریں۔",
+          "result": "موجودہ رسید کی تصویر یا پیش منظر فارم سے ہٹا دیا جاتا ہے۔",
+          "notes": "یہ موجودہ تصویر کا اٹیچمنٹ یا پیش منظر ہٹاتا ہے؛ اگر ثبوت کے طور پر درکار ہو تو دوسری نقل محفوظ رکھیں۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਚੁਣੀ ਪ੍ਰੋਜੈਕਟ ਰਸੀਦ ਦੀ ਫੋਟੋ ਹਟਾਉਂਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਫਾਰਮ ਵਿੱਚੋਂ ਰਸੀਦ ਦੀ ਫੋਟੋ ਹਟਾਉਣੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਫਾਰਮ ਵਿੱਚੋਂ ਰਸੀਦ ਦੀ ਤਸਵੀਰ ਹਟਾਉਣ ਲਈ Remove photo ਚੁਣੋ।",
+          "inputs": "ਸਹੀ ਪ੍ਰੋਜੈਕਟ ਫਾਰਮ ਚੁਣੋ ਅਤੇ ਚੁਣੀ ਰਸੀਦ ਦੀ ਫੋਟੋ ਜਾਂਚੋ।",
+          "result": "ਮੌਜੂਦਾ ਰਸੀਦ ਦੀ ਫੋਟੋ ਜਾਂ ਇਸਦੀ ਝਲਕ ਫਾਰਮ ਵਿੱਚੋਂ ਹਟ ਜਾਂਦੀ ਹੈ।",
+          "notes": "ਇਹ ਮੌਜੂਦਾ ਫੋਟੋ ਅਟੈਚਮੈਂਟ ਜਾਂ ਝਲਕ ਹਟਾਉਂਦਾ ਹੈ; ਜੇ ਸਬੂਤ ਵਜੋਂ ਲੋੜ ਹੈ ਤਾਂ ਹੋਰ ਕਾਪੀ ਸੰਭਾਲੋ।"
+        },
+        "prs": {
+          "purpose": "عکس فعلی انتخاب‌شده رسید پروژه را حذف می‌کند.",
+          "when": "وقتی می‌خواهید عکس رسید فعلی را از فرم پروژه پاک کنید، استفاده کنید.",
+          "how": "برای پاک‌کردن تصویر رسید از فرم فعلی پروژه Remove photo را انتخاب کنید.",
+          "inputs": "فرم درست پروژه را انتخاب کنید و عکس رسید انتخاب‌شده را بررسی کنید.",
+          "result": "عکس رسید فعلی یا پیش‌نمایش آن از فرم برداشته می‌شود.",
+          "notes": "این کار پیوست عکس یا پیش‌نمایش فعلی را حذف می‌کند؛ اگر به‌عنوان مدرک لازم است نسخه دیگری نگه دارید."
+        },
+        "ps": {
+          "purpose": "د پروژې د اوسني ټاکل شوي رسید عکس لرې کوي.",
+          "when": "کله چې د پروژې له اوسني فورم څخه د رسید عکس لرې کول غواړئ، دا وکاروئ.",
+          "how": "د پروژې له اوسني فورم څخه د رسید انځور د پاکولو لپاره Remove photo وټاکئ.",
+          "inputs": "د پروژې سم فورم وټاکئ او د ټاکل شوي رسید عکس وګورئ.",
+          "result": "د اوسني رسید عکس یا مخکتنه له فورم څخه لرې کېږي.",
+          "notes": "دا د عکس اوسنی ضمیمه یا مخکتنه لرې کوي؛ که د ثبوت لپاره اړتیا وي بله کاپي وساتئ."
         }
       },
       "handler_or_behavior": "`clearProjectReceipt()`"
@@ -13127,19 +13199,91 @@
       "translations": {
         "en": {
           "purpose": "Save the current project income receipt or expense entry.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control after entering and checking the details of a project income receipt or expense.",
           "how": "Complete the relevant fields, verify whether the form is for income or an expense, then select its Save Receipt or Save Expense action.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "inputs": "Select the correct record type and enter the date, amount, category and required details.",
           "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
           "notes": "Check date, amount, category and supporting details. Record income only when it has actually been received."
         },
         "fa": {
           "purpose": "ذخیره رسید درآمد یا هزینه فعلی پروژه.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "پس از واردکردن و بررسی اطلاعات رسید درآمد یا هزینه پروژه، از این گزینه استفاده کنید.",
           "how": "فیلدهای لازم را تکمیل کنید، مشخص کنید فرم برای درآمد است یا هزینه، سپس Save Receipt یا Save Expense را انتخاب کنید.",
-          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "inputs": "نوع درست سابقه را انتخاب کنید و تاریخ، مبلغ، دسته‌بندی و جزئیات لازم را وارد کنید.",
           "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
           "notes": "تاریخ، مبلغ، دسته‌بندی و جزئیات را بررسی کنید. درآمد را فقط پس از دریافت واقعی وجه ثبت کنید."
+        },
+        "ar": {
+          "purpose": "يحفظ إيصال دخل المشروع الحالي أو قيد المصروف.",
+          "when": "بعد إدخال بيانات إيصال دخل أو مصروف المشروع والتحقق منها.",
+          "how": "أكمل الحقول المطلوبة، وتحقق مما إذا كان النموذج للدخل أو للمصروف، ثم اختر Save Receipt أو Save Expense المناسب.",
+          "inputs": "حدد نوع السجل الصحيح وأدخل التاريخ والمبلغ والفئة والتفاصيل المطلوبة.",
+          "result": "يُحفظ سجل الدخل أو المصروف إذا نجح التحقق وأكد التطبيق العملية.",
+          "notes": "تحقق من التاريخ والمبلغ والفئة والمستندات الداعمة. لا تسجل الدخل إلا بعد استلامه فعلياً."
+        },
+        "ckb": {
+          "purpose": "پسووڵەی داهاتی پرۆژە یان تۆماری خەرجیی ئێستا پاشەکەوت دەکات.",
+          "when": "دوای داخڵکردن و پشکنینی زانیارییەکانی پسووڵەی داهات یان خەرجیی پرۆژە.",
+          "how": "خانە پێویستەکان پڕ بکەرەوە، دڵنیابە فۆڕمەکە بۆ داهاتە یان خەرجی، پاشان Save Receipt یان Save Expenseی دروست هەڵبژێرە.",
+          "inputs": "جۆری تۆماری دروست هەڵبژێرە و بەروار، بڕ، پۆل و وردەکارییە پێویستەکان بنووسە.",
+          "result": "ئەگەر پشتڕاستکردنەوە سەرکەوتوو بێت و ئەپەکە کردارەکە پشتڕاست بکاتەوە، تۆماری داهات یان خەرجی پاشەکەوت دەکرێت.",
+          "notes": "بەروار، بڕ، پۆل و بەڵگە پشتگیرەکان بپشکنە. تەنها دوای وەرگرتنی ڕاستەقینەی پارە داهات تۆمار بکە."
+        },
+        "kmr": {
+          "purpose": "Fatûreya dahata projeyê ya niha an tomara lêçûnê tomar dike.",
+          "when": "Piştî têketin û kontrolkirina agahiyên fatûreya dahat an lêçûna projeyê.",
+          "how": "Qadên pêwîst dagire, piştrast bike ka form ji bo dahat e an lêçûn, paşê Save Receipt an Save Expense ya rast hilbijêre.",
+          "inputs": "Cureya tomara rast hilbijêre û dîrok, mîqdar, kategorî û hûrguliyên pêwîst binivîse.",
+          "result": "Tomara dahat an lêçûn tê tomar kirin heke kontrol serkeftî be û sepan kiryarê piştrast bike.",
+          "notes": "Dîrok, mîqdar, kategorî û belgeyên piştgir kontrol bike. Dahat tenê piştî wergirtina rastîn a drav tomar bike."
+        },
+        "tr": {
+          "purpose": "Geçerli proje gelir makbuzunu veya gider kaydını kaydeder.",
+          "when": "Proje gelir makbuzu veya gider bilgilerini girdikten ve kontrol ettikten sonra kullanın.",
+          "how": "İlgili alanları doldurun, formun gelir mi gider mi olduğunu doğrulayın ve ardından Save Receipt veya Save Expense işlemini seçin.",
+          "inputs": "Doğru kayıt türünü seçin ve gerekli tarih, tutar, kategori ve ayrıntıları girin.",
+          "result": "Doğrulama başarılı olur ve uygulama onaylarsa gelir veya gider kaydı kaydedilir.",
+          "notes": "Tarih, tutar, kategori ve destekleyici belgeleri kontrol edin. Geliri yalnızca para gerçekten alındığında kaydedin."
+        },
+        "pl": {
+          "purpose": "Zapisuje bieżący paragon przychodu projektu lub wpis wydatku.",
+          "when": "Użyj po wprowadzeniu i sprawdzeniu danych paragonu przychodu lub wydatku projektu.",
+          "how": "Wypełnij odpowiednie pola, sprawdź, czy formularz dotyczy przychodu czy wydatku, a następnie wybierz właściwe Save Receipt lub Save Expense.",
+          "inputs": "Wybierz właściwy typ rekordu i wprowadź wymagane datę, kwotę, kategorię oraz szczegóły.",
+          "result": "Rekord przychodu lub wydatku zostanie zapisany, jeśli walidacja się powiedzie i aplikacja potwierdzi operację.",
+          "notes": "Sprawdź datę, kwotę, kategorię i dokumenty pomocnicze. Przychód zapisuj dopiero po faktycznym otrzymaniu pieniędzy."
+        },
+        "ur": {
+          "purpose": "موجودہ پروجیکٹ آمدنی کی رسید یا خرچ کا اندراج محفوظ کرتا ہے۔",
+          "when": "پروجیکٹ کی آمدنی کی رسید یا خرچ کی معلومات درج اور چیک کرنے کے بعد استعمال کریں۔",
+          "how": "متعلقہ خانے مکمل کریں، تصدیق کریں کہ فارم آمدنی کے لیے ہے یا خرچ کے لیے، پھر Save Receipt یا Save Expense منتخب کریں۔",
+          "inputs": "درست ریکارڈ کی قسم منتخب کریں اور مطلوبہ تاریخ، رقم، زمرہ اور تفصیلات درج کریں۔",
+          "result": "توثیق کامیاب ہو اور ایپ تصدیق کرے تو آمدنی یا خرچ کا ریکارڈ محفوظ ہو جاتا ہے۔",
+          "notes": "تاریخ، رقم، زمرہ اور معاون دستاویزات چیک کریں۔ آمدنی صرف اس وقت درج کریں جب رقم حقیقتاً وصول ہو چکی ہو۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਆਮਦਨ ਦੀ ਰਸੀਦ ਜਾਂ ਖਰਚੇ ਦੀ ਐਂਟਰੀ ਸੇਵ ਕਰਦਾ ਹੈ।",
+          "when": "ਪ੍ਰੋਜੈਕਟ ਆਮਦਨ ਦੀ ਰਸੀਦ ਜਾਂ ਖਰਚੇ ਦੀ ਜਾਣਕਾਰੀ ਭਰਨ ਅਤੇ ਜਾਂਚਣ ਤੋਂ ਬਾਅਦ ਵਰਤੋ।",
+          "how": "ਸੰਬੰਧਿਤ ਖੇਤਰ ਭਰੋ, ਜਾਂਚੋ ਕਿ ਫਾਰਮ ਆਮਦਨ ਲਈ ਹੈ ਜਾਂ ਖਰਚੇ ਲਈ, ਫਿਰ Save Receipt ਜਾਂ Save Expense ਚੁਣੋ।",
+          "inputs": "ਸਹੀ ਰਿਕਾਰਡ ਕਿਸਮ ਚੁਣੋ ਅਤੇ ਲੋੜੀਂਦੀ ਤਾਰੀਖ, ਰਕਮ, ਸ਼੍ਰੇਣੀ ਅਤੇ ਵੇਰਵੇ ਭਰੋ।",
+          "result": "ਜਾਂਚ ਸਫਲ ਹੋਵੇ ਅਤੇ ਐਪ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਆਮਦਨ ਜਾਂ ਖਰਚੇ ਦਾ ਰਿਕਾਰਡ ਸੇਵ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਤਾਰੀਖ, ਰਕਮ, ਸ਼੍ਰੇਣੀ ਅਤੇ ਸਹਾਇਕ ਦਸਤਾਵੇਜ਼ ਜਾਂਚੋ। ਆਮਦਨ ਸਿਰਫ਼ ਪੈਸਾ ਅਸਲ ਵਿੱਚ ਮਿਲਣ ਤੋਂ ਬਾਅਦ ਦਰਜ ਕਰੋ।"
+        },
+        "prs": {
+          "purpose": "رسید درآمد فعلی پروژه یا ثبت هزینه را ذخیره می‌کند.",
+          "when": "پس از واردکردن و بررسی اطلاعات رسید درآمد یا هزینه پروژه استفاده کنید.",
+          "how": "فیلدهای مربوط را تکمیل کنید، بررسی کنید فرم برای درآمد است یا هزینه، سپس Save Receipt یا Save Expense مناسب را انتخاب کنید.",
+          "inputs": "نوع درست سابقه را انتخاب کنید و تاریخ، مبلغ، دسته‌بندی و جزئیات لازم را وارد کنید.",
+          "result": "اگر اعتبارسنجی موفق باشد و برنامه عملیات را تأیید کند، سابقه درآمد یا هزینه ذخیره می‌شود.",
+          "notes": "تاریخ، مبلغ، دسته‌بندی و مدارک پشتیبان را بررسی کنید. درآمد را فقط پس از دریافت واقعی پول ثبت کنید."
+        },
+        "ps": {
+          "purpose": "د پروژې د اوسني عاید رسید یا د لګښت ثبت خوندي کوي.",
+          "when": "د پروژې د عاید رسید یا لګښت معلوماتو له داخلولو او کتلو وروسته دا وکاروئ.",
+          "how": "اړینې خانې ډکې کړئ، وګورئ چې فورمه د عاید لپاره ده که لګښت لپاره، بیا Save Receipt یا Save Expense وټاکئ.",
+          "inputs": "د ریکارډ سمه بڼه وټاکئ او اړینه نېټه، اندازه، کټګوري او جزئیات ولیکئ.",
+          "result": "که ارزونه بریالۍ شي او اپلیکیشن یې تایید کړي، د عاید یا لګښت ریکارډ خوندي کېږي.",
+          "notes": "نېټه، اندازه، کټګوري او ملاتړي اسناد وګورئ. عاید یوازې هغه وخت ثبت کړئ چې پیسې په رښتیا ترلاسه شوې وي."
         }
       },
       "handler_or_behavior": "`prSaveSubFinanceRow(`"
@@ -13153,19 +13297,91 @@
       "translations": {
         "en": {
           "purpose": "Clear the current project finance form.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control when you want to reset the current unsaved income or expense form.",
           "how": "Select Clear to reset the current unsaved income/expense form.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Review the current fields and confirm that you do not need any unsaved information.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "Clearing a form is not a deletion of previously saved records. Confirm that you do not need the unsaved entries."
         },
         "fa": {
           "purpose": "پاک کردن فرم مالی فعلی پروژه.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "وقتی می‌خواهید فرم ثبت‌نشده فعلی درآمد یا هزینه را بازنشانی کنید، از این گزینه استفاده کنید.",
           "how": "گزینه Clear را انتخاب کنید تا فرم ثبت‌نشده درآمد یا هزینه بازنشانی شود.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "فیلدهای فعلی را بررسی کنید و مطمئن شوید به اطلاعات ذخیره‌نشده نیاز ندارید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "پاک کردن فرم، رکوردهای ذخیره‌شده قبلی را حذف نمی‌کند. پیش از پاک‌کردن مطمئن شوید اطلاعات ثبت‌نشده را لازم ندارید."
+        },
+        "ar": {
+          "purpose": "يمسح نموذج الشؤون المالية الحالي للمشروع.",
+          "when": "عندما تريد إعادة ضبط نموذج دخل أو مصروف غير محفوظ.",
+          "how": "اختر Clear لإعادة ضبط نموذج الدخل أو المصروف الحالي غير المحفوظ.",
+          "inputs": "راجع الحقول الحالية وتأكد من عدم وجود بيانات غير محفوظة تريد الاحتفاظ بها.",
+          "result": "تُمسح الحقول الحالية ويُعاد ضبط النموذج.",
+          "notes": "مسح النموذج لا يحذف السجلات المحفوظة سابقاً. تأكد أنك لا تحتاج إلى الإدخالات غير المحفوظة."
+        },
+        "ckb": {
+          "purpose": "فۆڕمی دارایی ئێستای پرۆژە پاک دەکاتەوە.",
+          "when": "کاتێک دەتەوێت فۆڕمی نەپاشەکەوتکراوی داهات یان خەرجی لە نوێوە ڕێکبخەیتەوە.",
+          "how": "Clear هەڵبژێرە بۆ گەڕاندنەوەی فۆڕمی نەپاشەکەوتکراوی داهات یان خەرجی بۆ دۆخی سەرەتایی.",
+          "inputs": "خانەکانی ئێستا بپشکنە و دڵنیابە زانیاری نەپاشەکەوتکراوی پێویستت نییە.",
+          "result": "خانەکانی ئێستا پاک دەکرێنەوە و فۆڕمەکە ڕێکدەخرێتەوە.",
+          "notes": "پاککردنەوەی فۆڕم تۆمارە پاشەکەوتکراوەکانی پێشوو ناسڕێتەوە. دڵنیابە پێویستت بە داخڵکراوە نەپاشەکەوتکراوەکان نییە."
+        },
+        "kmr": {
+          "purpose": "Forma darayî ya projeya niha paqij dike.",
+          "when": "Dema ku tu dixwazî forma dahat an lêçûna netomarkirî ji nû ve saz bikî.",
+          "how": "Clear hilbijêre da ku forma dahat an lêçûna netomarkirî vegerîne rewşa destpêkê.",
+          "inputs": "Qadên niha kontrol bike û piştrast bike ku daneyên netomarkirî yên ku pêwîst in tune ne.",
+          "result": "Qadên niha tên paqijkirin û form ji nû ve tê saz kirin.",
+          "notes": "Paqijkirina formê tomarên berê yên tomarkirî jê nake. Piştrast bike ku daneyên netomarkirî pêwîst nînin."
+        },
+        "tr": {
+          "purpose": "Geçerli proje finans formunu temizler.",
+          "when": "Kaydedilmemiş geçerli gelir/gider formunu sıfırlamak istediğinizde kullanın.",
+          "how": "Kaydedilmemiş gelir/gider formunu sıfırlamak için Clear'ı seçin.",
+          "inputs": "Geçerli alanları gözden geçirin ve kaydedilmemiş verileri saklamanız gerekmediğini doğrulayın.",
+          "result": "Geçerli alanlar temizlenir ve form sıfırlanır.",
+          "notes": "Formu temizlemek daha önce kaydedilmiş kayıtları silmez. Kaydedilmemiş girişlere ihtiyacınız olmadığından emin olun."
+        },
+        "pl": {
+          "purpose": "Czyści bieżący formularz finansowy projektu.",
+          "when": "Użyj, gdy chcesz zresetować niezapisany formularz przychodu lub wydatku.",
+          "how": "Wybierz Clear, aby zresetować bieżący, niezapisany formularz przychodu lub wydatku.",
+          "inputs": "Sprawdź bieżące pola i upewnij się, że nie potrzebujesz niezapisanych danych.",
+          "result": "Bieżące pola zostaną wyczyszczone, a formularz zresetowany.",
+          "notes": "Wyczyszczenie formularza nie usuwa wcześniej zapisanych rekordów. Upewnij się, że nie potrzebujesz niezapisanych wpisów."
+        },
+        "ur": {
+          "purpose": "موجودہ پروجیکٹ مالی فارم صاف کرتا ہے۔",
+          "when": "جب غیر محفوظ شدہ موجودہ آمدنی یا خرچ کے فارم کو دوبارہ ترتیب دینا ہو تو استعمال کریں۔",
+          "how": "غیر محفوظ شدہ آمدنی یا خرچ کے فارم کو ری سیٹ کرنے کے لیے Clear منتخب کریں۔",
+          "inputs": "موجودہ خانے دیکھیں اور تصدیق کریں کہ غیر محفوظ شدہ معلومات کی ضرورت نہیں۔",
+          "result": "موجودہ خانے صاف ہو جاتے ہیں اور فارم ری سیٹ ہو جاتا ہے۔",
+          "notes": "فارم صاف کرنے سے پہلے محفوظ شدہ ریکارڈ حذف نہیں ہوتے۔ یقینی بنائیں کہ غیر محفوظ شدہ اندراجات درکار نہیں۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਵਿੱਤੀ ਫਾਰਮ ਸਾਫ਼ ਕਰਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਨਾ-ਸੇਵ ਕੀਤਾ ਮੌਜੂਦਾ ਆਮਦਨ ਜਾਂ ਖਰਚਾ ਫਾਰਮ ਮੁੜ ਸੈੱਟ ਕਰਨਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਨਾ-ਸੇਵ ਕੀਤੇ ਆਮਦਨ ਜਾਂ ਖਰਚਾ ਫਾਰਮ ਨੂੰ ਰੀਸੈੱਟ ਕਰਨ ਲਈ Clear ਚੁਣੋ।",
+          "inputs": "ਮੌਜੂਦਾ ਖੇਤਰ ਵੇਖੋ ਅਤੇ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਨਾ-ਸੇਵ ਕੀਤੀ ਜਾਣਕਾਰੀ ਦੀ ਲੋੜ ਨਹੀਂ।",
+          "result": "ਮੌਜੂਦਾ ਖੇਤਰ ਸਾਫ਼ ਹੋ ਜਾਂਦੇ ਹਨ ਅਤੇ ਫਾਰਮ ਰੀਸੈੱਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਫਾਰਮ ਸਾਫ਼ ਕਰਨ ਨਾਲ ਪਹਿਲਾਂ ਸੇਵ ਕੀਤੇ ਰਿਕਾਰਡ ਨਹੀਂ ਮਿਟਦੇ। ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਨਾ-ਸੇਵ ਕੀਤੀਆਂ ਐਂਟਰੀਆਂ ਦੀ ਲੋੜ ਨਹੀਂ।"
+        },
+        "prs": {
+          "purpose": "فرم مالی فعلی پروژه را پاک می‌کند.",
+          "when": "وقتی می‌خواهید فرم ثبت‌نشده فعلی درآمد یا هزینه را بازنشانی کنید، استفاده کنید.",
+          "how": "برای بازنشانی فرم ثبت‌نشده درآمد یا هزینه Clear را انتخاب کنید.",
+          "inputs": "فیلدهای فعلی را بررسی کنید و مطمئن شوید به اطلاعات ذخیره‌نشده نیاز ندارید.",
+          "result": "فیلدهای فعلی پاک و فرم بازنشانی می‌شود.",
+          "notes": "پاک‌کردن فرم سوابقی را که قبلاً ذخیره شده‌اند حذف نمی‌کند. مطمئن شوید به ورودی‌های ذخیره‌نشده نیاز ندارید."
+        },
+        "ps": {
+          "purpose": "د پروژې اوسنی مالي فورم پاکوي.",
+          "when": "کله چې نه‌خوندي شوی اوسنی د عاید یا لګښت فورم له سره تنظیمول غواړئ، دا وکاروئ.",
+          "how": "د نه‌خوندي شوي عاید یا لګښت فورم د بیا تنظیم لپاره Clear وټاکئ.",
+          "inputs": "اوسنۍ خانې وګورئ او ډاډ ترلاسه کړئ چې نه‌خوندي شویو معلوماتو ته اړتیا نه لرئ.",
+          "result": "اوسنۍ خانې پاکېږي او فورمه له سره تنظیمېږي.",
+          "notes": "د فورم پاکول پخواني خوندي شوي ریکارډونه نه ړنګوي. ډاډ ترلاسه کړئ چې نه‌خوندي شویو داخلونو ته اړتیا نه لرئ."
         }
       },
       "handler_or_behavior": "`prClearSubFinanceRow()`"
@@ -13179,19 +13395,91 @@
       "translations": {
         "en": {
           "purpose": "Open a receipt for a customer payment recorded in the project workspace.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control when you need to view the receipt document for a customer payment recorded for the project.",
           "how": "Select Customer receipt on the relevant payment to view its receipt document.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct customer payment and check the customer, amount and date.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "Check the customer, payment amount and date. A receipt should reflect money actually received."
         },
         "fa": {
           "purpose": "باز کردن رسید پرداخت مشتری در فضای کاری پروژه.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "وقتی لازم است سند رسید پرداخت مشتری ثبت‌شده برای پروژه را مشاهده کنید، از این گزینه استفاده کنید.",
           "how": "در ردیف پرداخت مربوط، Customer receipt را انتخاب کنید تا سند رسید نمایش داده شود.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "پرداخت مشتری درست را انتخاب کنید و مشتری، مبلغ و تاریخ را بررسی کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "نام مشتری، مبلغ و تاریخ را بررسی کنید. رسید باید نشان‌دهنده وجهی باشد که واقعاً دریافت شده است."
+        },
+        "ar": {
+          "purpose": "يفتح إيصالاً لدفعة عميل مسجلة في مساحة عمل المشروع.",
+          "when": "عندما تحتاج إلى عرض مستند إيصال دفعة عميل مسجلة للمشروع.",
+          "how": "اختر Customer receipt في سجل الدفعة المعنية لعرض مستند الإيصال.",
+          "inputs": "حدد دفعة العميل الصحيحة وتحقق من العميل والمبلغ والتاريخ.",
+          "result": "يُفتح مستند إيصال الدفعة المحددة.",
+          "notes": "تحقق من العميل ومبلغ الدفعة وتاريخها. يجب أن يعكس الإيصال أموالاً تم استلامها فعلياً."
+        },
+        "ckb": {
+          "purpose": "پسووڵەیەک بۆ پارەدانی کڕیار کە لە فضای کاری پرۆژە تۆمار کراوە دەکاتەوە.",
+          "when": "کاتێک پێویستە بەڵگەی پسووڵەی پارەدانی کڕیارێکی تۆمارکراو بۆ پرۆژە ببینیت.",
+          "how": "لە تۆماری پارەدانی پەیوەندیدار Customer receipt هەڵبژێرە بۆ پیشاندانی بەڵگەی پسووڵە.",
+          "inputs": "پارەدانی کڕیاری دروست هەڵبژێرە و کڕیار، بڕ و بەروار بپشکنە.",
+          "result": "بەڵگەی پسووڵەی پارەدانی هەڵبژێردراو دەکرێتەوە.",
+          "notes": "کڕیار، بڕ و بەرواری پارەدان بپشکنە. پسووڵە دەبێت پارەیەک پیشان بدات کە بەڕاستی وەرگیراوە."
+        },
+        "kmr": {
+          "purpose": "Fatûreyeke ji bo dravdana xerîdarê ku di qada projeyê de hatiye tomarkirin vedike.",
+          "when": "Dema ku tu hewceyî dîtina belgeya fatûreya dravdana xerîdarekî tomarkirî ji bo projeyê yî.",
+          "how": "Di tomara dravdana têkildar de Customer receipt hilbijêre da ku belgeya fatûreyê bibînî.",
+          "inputs": "Dravdana xerîdarê rast hilbijêre û xerîdar, mîqdar û dîrokê kontrol bike.",
+          "result": "Belgeya fatûreya dravdana hilbijartî vedibe.",
+          "notes": "Xerîdar, mîqdar û dîroka dravdanê kontrol bike. Fatûre divê dravê ku bi rastî hatiye wergirtin nîşan bide."
+        },
+        "tr": {
+          "purpose": "Proje çalışma alanında kaydedilmiş bir müşteri ödemesinin makbuzunu açar.",
+          "when": "Proje için kaydedilmiş müşteri ödemesinin makbuz belgesini görüntülemeniz gerektiğinde kullanın.",
+          "how": "Makbuz belgesini görüntülemek için ilgili ödeme kaydında Customer receipt'i seçin.",
+          "inputs": "Doğru müşteri ödemesini seçin ve müşteriyi, tutarı ve tarihi kontrol edin.",
+          "result": "Seçilen ödemenin makbuz belgesi açılır.",
+          "notes": "Müşteriyi, ödeme tutarını ve tarihini kontrol edin. Makbuz, gerçekten alınmış parayı göstermelidir."
+        },
+        "pl": {
+          "purpose": "Otwiera potwierdzenie płatności klienta zapisanej w obszarze roboczym projektu.",
+          "when": "Użyj, gdy chcesz wyświetlić dokument potwierdzenia płatności klienta zapisanej dla projektu.",
+          "how": "Wybierz Customer receipt przy odpowiedniej płatności, aby wyświetlić dokument potwierdzenia.",
+          "inputs": "Wybierz właściwą płatność klienta i sprawdź klienta, kwotę oraz datę.",
+          "result": "Otwiera się dokument potwierdzenia wybranej płatności.",
+          "notes": "Sprawdź klienta, kwotę i datę płatności. Potwierdzenie powinno odzwierciedlać faktycznie otrzymane pieniądze."
+        },
+        "ur": {
+          "purpose": "پروجیکٹ ورک اسپیس میں درج گاہک کی ادائیگی کی رسید کھولتا ہے۔",
+          "when": "جب پروجیکٹ کے لیے درج گاہک کی ادائیگی کی رسید کا دستاویز دیکھنا ہو تو استعمال کریں۔",
+          "how": "رسید کا دستاویز دیکھنے کے لیے متعلقہ ادائیگی کے ریکارڈ میں Customer receipt منتخب کریں۔",
+          "inputs": "درست گاہک کی ادائیگی منتخب کریں اور گاہک، رقم اور تاریخ چیک کریں۔",
+          "result": "منتخب ادائیگی کی رسید کا دستاویز کھل جاتا ہے۔",
+          "notes": "گاہک، ادائیگی کی رقم اور تاریخ چیک کریں۔ رسید میں حقیقتاً وصول شدہ رقم ظاہر ہونی چاہیے۔"
+        },
+        "pa": {
+          "purpose": "ਪ੍ਰੋਜੈਕਟ ਵਰਕਸਪੇਸ ਵਿੱਚ ਦਰਜ ਗਾਹਕ ਭੁਗਤਾਨ ਦੀ ਰਸੀਦ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਪ੍ਰੋਜੈਕਟ ਲਈ ਦਰਜ ਗਾਹਕ ਭੁਗਤਾਨ ਦੀ ਰਸੀਦ ਦਾ ਦਸਤਾਵੇਜ਼ ਵੇਖਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਰਸੀਦ ਦਾ ਦਸਤਾਵੇਜ਼ ਵੇਖਣ ਲਈ ਸੰਬੰਧਿਤ ਭੁਗਤਾਨ ਰਿਕਾਰਡ ਵਿੱਚ Customer receipt ਚੁਣੋ।",
+          "inputs": "ਸਹੀ ਗਾਹਕ ਭੁਗਤਾਨ ਚੁਣੋ ਅਤੇ ਗਾਹਕ, ਰਕਮ ਅਤੇ ਤਾਰੀਖ ਜਾਂਚੋ।",
+          "result": "ਚੁਣੇ ਭੁਗਤਾਨ ਦੀ ਰਸੀਦ ਦਾ ਦਸਤਾਵੇਜ਼ ਖੁੱਲ੍ਹਦਾ ਹੈ।",
+          "notes": "ਗਾਹਕ, ਭੁਗਤਾਨ ਰਕਮ ਅਤੇ ਤਾਰੀਖ ਜਾਂਚੋ। ਰਸੀਦ ਵਿੱਚ ਅਸਲ ਵਿੱਚ ਮਿਲੀ ਰਕਮ ਦਰਸਾਈ ਜਾਣੀ ਚਾਹੀਦੀ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "رسید پرداخت مشتری ثبت‌شده در فضای کاری پروژه را باز می‌کند.",
+          "when": "وقتی لازم است سند رسید پرداخت مشتری ثبت‌شده برای پروژه را مشاهده کنید، استفاده کنید.",
+          "how": "برای نمایش سند رسید، در سابقه پرداخت مربوط Customer receipt را انتخاب کنید.",
+          "inputs": "پرداخت مشتری درست را انتخاب کنید و مشتری، مبلغ و تاریخ را بررسی کنید.",
+          "result": "سند رسید پرداخت انتخاب‌شده باز می‌شود.",
+          "notes": "مشتری، مبلغ و تاریخ پرداخت را بررسی کنید. رسید باید پولی را نشان دهد که واقعاً دریافت شده است."
+        },
+        "ps": {
+          "purpose": "د پروژې په کاري ځای کې د ثبت شوي پېرودونکي د تادیې رسید پرانیزي.",
+          "when": "کله چې د پروژې لپاره د ثبت شوي پېرودونکي د تادیې د رسید سند لیدل غواړئ، دا وکاروئ.",
+          "how": "د رسید سند د لیدلو لپاره د اړوندې تادیې په ریکارډ کې Customer receipt وټاکئ.",
+          "inputs": "د پېرودونکي سمه تادیه وټاکئ او پېرودونکی، اندازه او نېټه وګورئ.",
+          "result": "د ټاکل شوې تادیې د رسید سند پرانیستل کېږي.",
+          "notes": "پېرودونکی، د تادیې اندازه او نېټه وګورئ. رسید باید هغه پیسې وښيي چې په رښتیا ترلاسه شوې دي."
         }
       },
       "handler_or_behavior": "`prOpenCustomerPaymentReceipt(`"
@@ -13205,19 +13493,91 @@
       "translations": {
         "en": {
           "purpose": "Edit a saved project finance entry.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control when you need to correct or update a saved project income or expense entry.",
           "how": "Choose Edit beside the intended income or expense row, amend the required details and save.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct finance entry and verify its type and amount before editing.",
           "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
           "notes": "Confirm the record type and amount; changing a project entry can affect project totals."
         },
         "fa": {
           "purpose": "ویرایش یک ثبت مالی ذخیره‌شده در پروژه.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "وقتی لازم است سابقه درآمد یا هزینه ذخیره‌شده پروژه را اصلاح یا به‌روزرسانی کنید، از این گزینه استفاده کنید.",
           "how": "در ردیف درآمد یا هزینه موردنظر Edit را انتخاب کنید، جزئیات لازم را تغییر دهید و ذخیره کنید.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "سابقه مالی درست را انتخاب کنید و پیش از ویرایش نوع و مبلغ آن را بررسی کنید.",
           "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
           "notes": "نوع رکورد و مبلغ را بررسی کنید؛ ویرایش می‌تواند جمع‌های مالی پروژه را تغییر دهد."
+        },
+        "ar": {
+          "purpose": "يفتح قيداً مالياً محفوظاً في المشروع لتعديله.",
+          "when": "عندما تحتاج إلى تصحيح أو تحديث قيد دخل أو مصروف محفوظ للمشروع.",
+          "how": "اختر Edit بجانب صف الدخل أو المصروف المطلوب، وعدّل التفاصيل اللازمة ثم احفظ.",
+          "inputs": "حدد القيد المالي الصحيح وتحقق من نوعه ومبلغه قبل التعديل.",
+          "result": "يُحدّث القيد إذا نجح التحقق وأكد التطبيق التغيير.",
+          "notes": "تحقق من نوع القيد والمبلغ؛ فتعديل قيد المشروع قد يؤثر في إجمالياته المالية."
+        },
+        "ckb": {
+          "purpose": "تۆمارێکی دارایی پاشەکەوتکراوی پرۆژە بۆ دەستکاریکردن دەکاتەوە.",
+          "when": "کاتێک پێویستە تۆمارێکی داهات یان خەرجی پاشەکەوتکراوی پرۆژە ڕاست بکەیتەوە یان نوێی بکەیتەوە.",
+          "how": "لە تەنیشت ڕیزی داهات یان خەرجیی مەبەست Edit هەڵبژێرە، وردەکارییە پێویستەکان بگۆڕە و پاشەکەوت بکە.",
+          "inputs": "تۆماری دارایی دروست هەڵبژێرە و پێش دەستکاریکردن جۆر و بڕەکەی بپشکنە.",
+          "result": "ئەگەر پشتڕاستکردنەوە سەرکەوتوو بێت و ئەپەکە گۆڕانکارییەکە پشتڕاست بکاتەوە، تۆمارەکە نوێ دەکرێتەوە.",
+          "notes": "جۆری تۆمار و بڕەکە بپشکنە؛ دەستکاریکردنی تۆماری پرۆژە دەتوانێت کۆی داراییەکانی بگۆڕێت."
+        },
+        "kmr": {
+          "purpose": "Tomareke darayî ya projeyê ya tomarkirî ji bo guherandinê vedike.",
+          "when": "Dema ku tu hewceyî rastkirin an nûkirina tomareke dahat an lêçûnê ya tomarkirî yî.",
+          "how": "Li kêleka rêza dahat an lêçûna xwestî Edit hilbijêre, hûrguliyên pêwîst biguherîne û tomar bike.",
+          "inputs": "Tomara darayî ya rast hilbijêre û berî guherandinê cure û mîqdara wê kontrol bike.",
+          "result": "Tomar tê nûkirin heke kontrol serkeftî be û sepan guherînê piştrast bike.",
+          "notes": "Cureya tomar û mîqdarê kontrol bike; guherandina tomareke projeyê dikare tevahiyên darayî yên projeyê biguherîne."
+        },
+        "tr": {
+          "purpose": "Kaydedilmiş bir proje finans kaydını düzenlemek üzere açar.",
+          "when": "Kaydedilmiş bir proje gelir veya gider kaydını düzeltmeniz ya da güncellemeniz gerektiğinde kullanın.",
+          "how": "İlgili gelir veya gider satırının yanındaki Edit'i seçin, gerekli ayrıntıları değiştirin ve kaydedin.",
+          "inputs": "Doğru finans kaydını seçin ve düzenlemeden önce türünü ve tutarını kontrol edin.",
+          "result": "Doğrulama başarılı olur ve uygulama değişikliği onaylarsa kayıt güncellenir.",
+          "notes": "Kayıt türünü ve tutarını doğrulayın; proje kaydını değiştirmek proje finansal toplamlarını etkileyebilir."
+        },
+        "pl": {
+          "purpose": "Otwiera zapisany wpis finansowy projektu do edycji.",
+          "when": "Użyj, gdy trzeba poprawić lub zaktualizować zapisany wpis przychodu lub wydatku projektu.",
+          "how": "Wybierz Edit obok właściwego wiersza przychodu lub wydatku, zmień wymagane szczegóły i zapisz.",
+          "inputs": "Wybierz właściwy rekord finansowy i przed edycją sprawdź jego typ oraz kwotę.",
+          "result": "Rekord zostanie zaktualizowany, jeśli walidacja się powiedzie i aplikacja potwierdzi zmianę.",
+          "notes": "Sprawdź typ i kwotę rekordu; zmiana wpisu projektu może wpłynąć na sumy finansowe projektu."
+        },
+        "ur": {
+          "purpose": "محفوظ شدہ پروجیکٹ مالی اندراج کو ترمیم کے لیے کھولتا ہے۔",
+          "when": "جب محفوظ شدہ پروجیکٹ آمدنی یا خرچ کا اندراج درست یا اپ ڈیٹ کرنا ہو تو استعمال کریں۔",
+          "how": "متعلقہ آمدنی یا خرچ کی قطار کے ساتھ Edit منتخب کریں، مطلوبہ تفصیلات تبدیل کریں اور محفوظ کریں۔",
+          "inputs": "درست مالی ریکارڈ منتخب کریں اور ترمیم سے پہلے اس کی قسم اور رقم چیک کریں۔",
+          "result": "توثیق کامیاب ہو اور ایپ تبدیلی کی تصدیق کرے تو ریکارڈ اپ ڈیٹ ہو جاتا ہے۔",
+          "notes": "ریکارڈ کی قسم اور رقم چیک کریں؛ پروجیکٹ اندراج میں تبدیلی مالی مجموعوں کو متاثر کر سکتی ہے۔"
+        },
+        "pa": {
+          "purpose": "ਸੇਵ ਕੀਤੀ ਪ੍ਰੋਜੈਕਟ ਵਿੱਤੀ ਐਂਟਰੀ ਨੂੰ ਸੋਧਣ ਲਈ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਸੇਵ ਕੀਤੀ ਪ੍ਰੋਜੈਕਟ ਆਮਦਨ ਜਾਂ ਖਰਚੇ ਦੀ ਐਂਟਰੀ ਠੀਕ ਜਾਂ ਅਪਡੇਟ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸੰਬੰਧਿਤ ਆਮਦਨ ਜਾਂ ਖਰਚੇ ਦੀ ਕਤਾਰ ਦੇ ਨਾਲ Edit ਚੁਣੋ, ਲੋੜੀਂਦੇ ਵੇਰਵੇ ਬਦਲੋ ਅਤੇ ਸੇਵ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਵਿੱਤੀ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਸੋਧ ਤੋਂ ਪਹਿਲਾਂ ਇਸਦੀ ਕਿਸਮ ਅਤੇ ਰਕਮ ਜਾਂਚੋ।",
+          "result": "ਜਾਂਚ ਸਫਲ ਹੋਵੇ ਅਤੇ ਐਪ ਤਬਦੀਲੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਰਿਕਾਰਡ ਅਪਡੇਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਰਿਕਾਰਡ ਦੀ ਕਿਸਮ ਅਤੇ ਰਕਮ ਜਾਂਚੋ؛ ਪ੍ਰੋਜੈਕਟ ਐਂਟਰੀ ਬਦਲਣ ਨਾਲ ਪ੍ਰੋਜੈਕਟ ਦੇ ਵਿੱਤੀ ਕੁੱਲ ਪ੍ਰਭਾਵਿਤ ਹੋ ਸਕਦੇ ਹਨ।"
+        },
+        "prs": {
+          "purpose": "یک سابقه مالی ذخیره‌شده پروژه را برای ویرایش باز می‌کند.",
+          "when": "وقتی لازم است سابقه درآمد یا هزینه ذخیره‌شده پروژه را اصلاح یا به‌روزرسانی کنید، استفاده کنید.",
+          "how": "در کنار ردیف درآمد یا هزینه موردنظر Edit را انتخاب کنید، جزئیات لازم را تغییر دهید و ذخیره کنید.",
+          "inputs": "سابقه مالی درست را انتخاب کنید و پیش از ویرایش نوع و مبلغ آن را بررسی کنید.",
+          "result": "اگر اعتبارسنجی موفق باشد و برنامه تغییر را تأیید کند، سابقه به‌روزرسانی می‌شود.",
+          "notes": "نوع و مبلغ سابقه را بررسی کنید؛ تغییر یک ثبت پروژه می‌تواند جمع‌های مالی پروژه را تحت تأثیر قرار دهد."
+        },
+        "ps": {
+          "purpose": "د پروژې خوندي شوی مالي ثبت د سمون لپاره پرانیزي.",
+          "when": "کله چې د پروژې خوندي شوی د عاید یا لګښت ثبت سمول یا تازه کول غواړئ، دا وکاروئ.",
+          "how": "د اړوند عاید یا لګښت د قطار تر څنګ Edit وټاکئ، اړین جزئیات بدل او خوندي یې کړئ.",
+          "inputs": "سم مالي ریکارډ وټاکئ او له سمون مخکې یې ډول او اندازه وګورئ.",
+          "result": "که ارزونه بریالۍ شي او اپلیکیشن بدلون تایید کړي، ریکارډ تازه کېږي.",
+          "notes": "د ریکارډ ډول او اندازه وګورئ؛ د پروژې د ثبت بدلول د پروژې پر مالي ټولیزو شمېرو اغېز کولی شي."
         }
       },
       "handler_or_behavior": "`prEditSubFinanceRow(`"
