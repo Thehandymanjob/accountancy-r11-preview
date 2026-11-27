@@ -7223,7 +7223,7 @@
           "purpose": "Clears the current company form fields.",
           "when": "when discarding unsaved company details or preparing to enter another company.",
           "how": "Select Clear Form and verify the fields have been emptied.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No data is required; decide whether to discard the unsaved changes in the current company form.",
           "result": "The current company form is reset.",
           "notes": "This does not delete a company record already saved."
         },
@@ -7231,9 +7231,81 @@
           "purpose": "فیلدهای فرم شرکت فعلی را پاک می‌کند.",
           "when": "وقتی می‌خواهید اطلاعات ذخیره‌نشده شرکت را کنار بگذارید یا شرکت دیگری وارد کنید.",
           "how": "Clear Form را انتخاب کنید و خالی‌شدن فیلدها را بررسی کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "inputs": "برای پاک‌کردن فرم نیازی به ورود اطلاعات نیست؛ فقط مشخص کنید که می‌خواهید تغییرات ذخیره‌نشده فرم فعلی شرکت را کنار بگذارید یا خیر.",
           "result": "فرم شرکت فعلی بازنشانی می‌شود.",
           "notes": "این گزینه سابقه شرکتی را که قبلاً ذخیره شده حذف نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يمسح حقول نموذج الشركة الحالي.",
+          "when": "عند إلغاء تفاصيل شركة غير محفوظة أو الاستعداد لإدخال شركة أخرى.",
+          "how": "اختر Clear Form وتحقق من أن الحقول أصبحت فارغة.",
+          "inputs": "لا يلزم إدخال بيانات؛ حدد ما إذا كنت تريد التخلي عن التغييرات غير المحفوظة في نموذج الشركة الحالي.",
+          "result": "تتم إعادة ضبط نموذج الشركة الحالي.",
+          "notes": "لا يؤدي ذلك إلى حذف سجل شركة سبق حفظه."
+        },
+        "ckb": {
+          "purpose": "خانەکانی فۆڕمی کۆمپانیای ئێستا پاک دەکاتەوە.",
+          "when": "کاتێک دەتەوێت زانیارییە پاشەکەوتنەکراوەکانی کۆمپانیا جێبهێڵیت یان کۆمپانیایەکی تر تۆمار بکەیت.",
+          "how": "Clear Form هەڵبژێرە و دڵنیابە خانەکان بەتاڵ بوونەتەوە.",
+          "inputs": "هیچ زانیارییەک پێویست نییە؛ دیاری بکە ئایا دەتەوێت گۆڕانکارییە پاشەکەوتنەکراوەکانی فۆڕمەکە جێبهێڵیت.",
+          "result": "فۆڕمی کۆمپانیای ئێستا ڕیسێت دەکرێتەوە.",
+          "notes": "ئەمە تۆماری کۆمپانیایەک کە پێشتر پاشەکەوت کراوە ناسڕێتەوە."
+        },
+        "kmr": {
+          "purpose": "Qadên forma pargîdaniya niha paqij dike.",
+          "when": "Dema ku tu dixwazî agahiyên pargîdaniyê yên nehatiye tomarkirin betal bikî an pargîdaniyek din binivîsî.",
+          "how": "Clear Form hilbijêre û piştrast bike ku qad hatine vala kirin.",
+          "inputs": "Agahî nehewce ye; tenê biryar bide ka tu dixwazî guherînên nehatiye tomarkirin yên vê formê betal bikî.",
+          "result": "Forma pargîdaniya niha ji nû ve tê vegerandin.",
+          "notes": "Ev kiryar tomara pargîdaniyekê ku berê hatiye tomarkirin jê nake."
+        },
+        "tr": {
+          "purpose": "Mevcut şirket formunun alanlarını temizler.",
+          "when": "Kaydedilmemiş şirket bilgilerini bırakırken veya başka bir şirket girişi hazırlarken kullanın.",
+          "how": "Clear Form'u seçin ve alanların boşaldığını doğrulayın.",
+          "inputs": "Bilgi girmeniz gerekmez; yalnızca mevcut şirket formundaki kaydedilmemiş değişikliklerden vazgeçmek isteyip istemediğinizi belirleyin.",
+          "result": "Mevcut şirket formu sıfırlanır.",
+          "notes": "Daha önce kaydedilmiş bir şirket kaydı silinmez."
+        },
+        "pl": {
+          "purpose": "Czyści pola bieżącego formularza firmy.",
+          "when": "Użyj, gdy rezygnujesz z niezapisanych danych firmy lub przygotowujesz formularz dla kolejnej firmy.",
+          "how": "Wybierz Clear Form i sprawdź, czy pola zostały wyczyszczone.",
+          "inputs": "Nie trzeba podawać danych; zdecyduj jedynie, czy chcesz porzucić niezapisane zmiany w bieżącym formularzu firmy.",
+          "result": "Bieżący formularz firmy zostaje zresetowany.",
+          "notes": "Nie powoduje to usunięcia wcześniej zapisanej firmy."
+        },
+        "ur": {
+          "purpose": "موجودہ کمپنی فارم کے خانے صاف کرتا ہے۔",
+          "when": "جب غیر محفوظ شدہ کمپنی کی تفصیلات چھوڑنی ہوں یا دوسری کمپنی درج کرنے کی تیاری کرنی ہو تو استعمال کریں۔",
+          "how": "Clear Form منتخب کریں اور تصدیق کریں کہ خانے خالی ہو گئے ہیں۔",
+          "inputs": "کوئی معلومات درج کرنے کی ضرورت نہیں؛ صرف یہ طے کریں کہ موجودہ کمپنی فارم کی غیر محفوظ شدہ تبدیلیاں چھوڑنی ہیں یا نہیں۔",
+          "result": "موجودہ کمپنی فارم ری سیٹ ہو جاتا ہے۔",
+          "notes": "اس سے پہلے سے محفوظ کمپنی کا ریکارڈ حذف نہیں ہوتا۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਕੰਪਨੀ ਫਾਰਮ ਦੇ ਖੇਤਰ ਸਾਫ਼ ਕਰਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਨਾ-ਸੇਵ ਕੀਤੇ ਕੰਪਨੀ ਵੇਰਵੇ ਛੱਡਣੇ ਹੋਣ ਜਾਂ ਹੋਰ ਕੰਪਨੀ ਦਰਜ ਕਰਨ ਦੀ ਤਿਆਰੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Clear Form ਚੁਣੋ ਅਤੇ ਜਾਂਚੋ ਕਿ ਖੇਤਰ ਖਾਲੀ ਹੋ ਗਏ ਹਨ।",
+          "inputs": "ਕੋਈ ਜਾਣਕਾਰੀ ਦੇਣ ਦੀ ਲੋੜ ਨਹੀਂ; ਸਿਰਫ਼ ਫੈਸਲਾ ਕਰੋ ਕਿ ਮੌਜੂਦਾ ਕੰਪਨੀ ਫਾਰਮ ਦੀਆਂ ਨਾ-ਸੇਵ ਤਬਦੀਲੀਆਂ ਛੱਡਣੀਆਂ ਹਨ ਜਾਂ ਨਹੀਂ।",
+          "result": "ਮੌਜੂਦਾ ਕੰਪਨੀ ਫਾਰਮ ਰੀਸੈੱਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਇਸ ਨਾਲ ਪਹਿਲਾਂ ਸੇਵ ਕੀਤਾ ਕੰਪਨੀ ਰਿਕਾਰਡ ਮਿਟਦਾ ਨਹੀਂ।"
+        },
+        "prs": {
+          "purpose": "فیلدهای فرم فعلی شرکت را پاک می‌کند.",
+          "when": "وقتی می‌خواهید اطلاعات ذخیره‌نشده شرکت را کنار بگذارید یا برای ثبت شرکت دیگری آماده شوید، استفاده کنید.",
+          "how": "Clear Form را انتخاب کنید و خالی‌شدن فیلدها را بررسی کنید.",
+          "inputs": "ورود اطلاعات لازم نیست؛ فقط مشخص کنید که می‌خواهید تغییرات ذخیره‌نشده فرم فعلی شرکت را کنار بگذارید یا خیر.",
+          "result": "فرم فعلی شرکت بازنشانی می‌شود.",
+          "notes": "این کار سابقه شرکتی را که قبلاً ذخیره شده حذف نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د اوسني شرکت د فورم خانې پاکوي.",
+          "when": "کله چې د شرکت نه خوندي شوي معلومات پرېږدئ یا د بل شرکت د ثبتولو لپاره چمتووالی نیسئ، دا وکاروئ.",
+          "how": "Clear Form وټاکئ او وګورئ چې خانې تشې شوې دي.",
+          "inputs": "معلوماتو ته اړتیا نشته؛ یوازې پرېکړه وکړئ چې د اوسني شرکت فورم نه خوندي شوي بدلونونه پرېږدئ که نه.",
+          "result": "د اوسني شرکت فورم بیا تنظیمېږي.",
+          "notes": "دا کار مخکې خوندي شوی د شرکت ریکارډ نه ړنګوي."
         }
       },
       "handler_or_behavior": "`coResetCompany()`"
@@ -7249,7 +7321,7 @@
           "purpose": "Saves a job under the selected company.",
           "when": "after entering the job details and agreed work information.",
           "how": "Confirm the parent company, job name, agreed amount and other required details, then select Save Job.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "Enter the job name, agreed amount and other required details, and select the correct parent company.",
           "result": "The job is saved under the selected company if validation succeeds.",
           "notes": "Check the parent company carefully. Job receipts, expenses and payments belong to this company-job record, not general Accountancy."
         },
@@ -7257,9 +7329,81 @@
           "purpose": "یک کار را زیر شرکت انتخاب‌شده ذخیره می‌کند.",
           "when": "پس از واردکردن جزئیات کار و اطلاعات توافق‌شده آن از این گزینه استفاده کنید.",
           "how": "شرکت مادر، نام کار، مبلغ توافق‌شده و سایر جزئیات لازم را بررسی و Save Job را انتخاب کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "inputs": "نام کار، مبلغ توافق‌شده و سایر جزئیات لازم را وارد کنید و شرکت مادر درست را انتخاب کنید.",
           "result": "در صورت موفقیت اعتبارسنجی، کار زیر شرکت انتخاب‌شده ذخیره می‌شود.",
           "notes": "شرکت مادر را با دقت بررسی کنید. رسیدها، هزینه‌ها و پرداخت‌های کار به همین سابقه شرکت-کار تعلق دارند، نه حسابداری عمومی."
+        },
+        "ar": {
+          "purpose": "يحفظ وظيفة ضمن الشركة المحددة.",
+          "when": "بعد إدخال تفاصيل الوظيفة ومعلومات العمل المتفق عليها.",
+          "how": "تحقق من الشركة الأم واسم الوظيفة والمبلغ المتفق عليه وبقية التفاصيل المطلوبة، ثم اختر Save Job.",
+          "inputs": "أدخل اسم الوظيفة والمبلغ المتفق عليه والتفاصيل الإلزامية الأخرى، وحدد الشركة الأم الصحيحة.",
+          "result": "تُحفظ الوظيفة ضمن الشركة المحددة إذا نجح التحقق.",
+          "notes": "تحقق بعناية من الشركة الأم. إيصالات الوظيفة ومصروفاتها ودفعاتها تخص سجل هذه الشركة والوظيفة، ولا تخص قسم Accountancy العام."
+        },
+        "ckb": {
+          "purpose": "کارێک لەژێر کۆمپانیای هەڵبژێردراو پاشەکەوت دەکات.",
+          "when": "دوای نووسینی وردەکارییەکانی کار و زانیارییە ڕێککەوتووەکانی ئەنجامدانی.",
+          "how": "کۆمپانیای سەرەکی، ناوی کار، بڕی ڕێککەوتوو و وردەکارییە پێویستەکانی تر بپشکنە، پاشان Save Job هەڵبژێرە.",
+          "inputs": "ناوی کار، بڕی ڕێککەوتوو و وردەکارییە پێویستەکان بنووسە و کۆمپانیای سەرەکیی دروست هەڵبژێرە.",
+          "result": "ئەگەر پشتڕاستکردنەوە سەرکەوتوو بێت، کارەکە لەژێر کۆمپانیای هەڵبژێردراو پاشەکەوت دەکرێت.",
+          "notes": "کۆمپانیای سەرەکی بە وردی بپشکنە. پسووڵە، خەرجی و پارەدانەکانی کارەکە بە تۆماری ئەم کۆمپانیا-کارەوە پەیوەستن، نەک بە Accountancy گشتی."
+        },
+        "kmr": {
+          "purpose": "Karek di bin pargîdaniya hilbijartî de tomar dike.",
+          "when": "Piştî ku tu hûrguliyên kar û agahiyên xebata lihevhatî têkevî.",
+          "how": "Pargîdaniya dê, navê kar, mîqdara lihevhatî û hûrguliyên din ên pêwîst kontrol bike, paşê Save Job hilbijêre.",
+          "inputs": "Navê kar, mîqdara lihevhatî û hûrguliyên pêwîst binivîse û pargîdaniya dê ya rast hilbijêre.",
+          "result": "Ger kontrol serkeftî be, kar di bin pargîdaniya hilbijartî de tê tomarkirin.",
+          "notes": "Pargîdaniya dê bi baldarî kontrol bike. Wergirtin, lêçûn û dravdanên karê di tomara vê pargîdanî-karê de ne, ne di Accountancy ya giştî de."
+        },
+        "tr": {
+          "purpose": "Seçilen şirketin altına bir iş kaydeder.",
+          "when": "İş ayrıntılarını ve üzerinde anlaşılmış çalışma bilgilerini girdikten sonra kullanın.",
+          "how": "Ana şirketi, iş adını, anlaşılan tutarı ve diğer zorunlu ayrıntıları doğrulayın, ardından Save Job'u seçin.",
+          "inputs": "İş adını, anlaşılan tutarı ve gerekli diğer ayrıntıları girin; doğru ana şirketi seçin.",
+          "result": "Doğrulama başarılı olursa iş seçilen şirketin altında kaydedilir.",
+          "notes": "Ana şirketi dikkatle kontrol edin. İşin makbuzları, giderleri ve ödemeleri bu şirket-iş kaydına aittir; genel Accountancy bölümüne değil."
+        },
+        "pl": {
+          "purpose": "Zapisuje zlecenie w ramach wybranej firmy.",
+          "when": "Użyj po wprowadzeniu szczegółów zlecenia i uzgodnionych informacji o pracach.",
+          "how": "Sprawdź firmę nadrzędną, nazwę zlecenia, uzgodnioną kwotę i pozostałe wymagane dane, a następnie wybierz Save Job.",
+          "inputs": "Wprowadź nazwę zlecenia, uzgodnioną kwotę i pozostałe wymagane szczegóły; wybierz właściwą firmę nadrzędną.",
+          "result": "Jeśli walidacja przebiegnie pomyślnie, zlecenie zostanie zapisane w ramach wybranej firmy.",
+          "notes": "Dokładnie sprawdź firmę nadrzędną. Potwierdzenia, wydatki i płatności dotyczą tego rekordu firmy i zlecenia, a nie ogólnej księgowości Accountancy."
+        },
+        "ur": {
+          "purpose": "منتخب کمپنی کے تحت ایک کام محفوظ کرتا ہے۔",
+          "when": "کام کی تفصیلات اور طے شدہ کام کی معلومات درج کرنے کے بعد استعمال کریں۔",
+          "how": "اصل کمپنی، کام کا نام، طے شدہ رقم اور دیگر لازمی تفصیلات کی تصدیق کریں، پھر Save Job منتخب کریں۔",
+          "inputs": "کام کا نام، طے شدہ رقم اور دیگر مطلوبہ تفصیلات درج کریں اور درست اصل کمپنی منتخب کریں۔",
+          "result": "توثیق کامیاب ہونے پر کام منتخب کمپنی کے تحت محفوظ ہو جاتا ہے۔",
+          "notes": "اصل کمپنی احتیاط سے چیک کریں۔ کام کی رسیدیں، اخراجات اور ادائیگیاں اسی کمپنی-کام کے ریکارڈ سے متعلق ہیں، عمومی Accountancy سے نہیں۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੀ ਹੋਈ ਕੰਪਨੀ ਦੇ ਅਧੀਨ ਇੱਕ ਕੰਮ ਸੇਵ ਕਰਦਾ ਹੈ।",
+          "when": "ਕੰਮ ਦੇ ਵੇਰਵੇ ਅਤੇ ਸਹਿਮਤ ਕੰਮ ਦੀ ਜਾਣਕਾਰੀ ਦਰਜ ਕਰਨ ਤੋਂ ਬਾਅਦ ਵਰਤੋ।",
+          "how": "ਮੂਲ ਕੰਪਨੀ, ਕੰਮ ਦਾ ਨਾਮ, ਸਹਿਮਤ ਰਕਮ ਅਤੇ ਹੋਰ ਲਾਜ਼ਮੀ ਵੇਰਵੇ ਜਾਂਚੋ, ਫਿਰ Save Job ਚੁਣੋ।",
+          "inputs": "ਕੰਮ ਦਾ ਨਾਮ, ਸਹਿਮਤ ਰਕਮ ਅਤੇ ਹੋਰ ਲੋੜੀਂਦੇ ਵੇਰਵੇ ਭਰੋ ਅਤੇ ਸਹੀ ਮੂਲ ਕੰਪਨੀ ਚੁਣੋ।",
+          "result": "ਜਾਂਚ ਸਫਲ ਹੋਣ 'ਤੇ ਕੰਮ ਚੁਣੀ ਕੰਪਨੀ ਦੇ ਅਧੀਨ ਸੇਵ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਮੂਲ ਕੰਪਨੀ ਧਿਆਨ ਨਾਲ ਜਾਂਚੋ। ਕੰਮ ਦੀਆਂ ਰਸੀਦਾਂ, ਖਰਚੇ ਅਤੇ ਭੁਗਤਾਨ ਇਸ ਕੰਪਨੀ-ਕੰਮ ਰਿਕਾਰਡ ਨਾਲ ਸਬੰਧਤ ਹਨ, ਆਮ Accountancy ਨਾਲ ਨਹੀਂ।"
+        },
+        "prs": {
+          "purpose": "یک کار را زیر شرکت انتخاب‌شده ذخیره می‌کند.",
+          "when": "پس از واردکردن جزئیات کار و اطلاعات توافق‌شده درباره اجرای آن استفاده کنید.",
+          "how": "شرکت مادر، نام کار، مبلغ توافق‌شده و سایر جزئیات لازم را بررسی کنید، سپس Save Job را انتخاب کنید.",
+          "inputs": "نام کار، مبلغ توافق‌شده و سایر جزئیات لازم را وارد کنید و شرکت مادر درست را انتخاب کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی، کار زیر شرکت انتخاب‌شده ذخیره می‌شود.",
+          "notes": "شرکت مادر را با دقت بررسی کنید. رسیدها، هزینه‌ها و پرداخت‌های کار به همین سابقه شرکت-کار تعلق دارند، نه به Accountancy عمومی."
+        },
+        "ps": {
+          "purpose": "د ټاکل شوي شرکت لاندې یو کار خوندي کوي.",
+          "when": "د کار د جزئیاتو او د هوکړه شوي کار د معلوماتو له داخلولو وروسته یې وکاروئ.",
+          "how": "اصلي شرکت، د کار نوم، هوکړه شوې اندازه او نور اړین جزئیات تایید کړئ، بیا Save Job وټاکئ.",
+          "inputs": "د کار نوم، هوکړه شوې اندازه او نور اړین جزئیات ولیکئ او سم اصلي شرکت وټاکئ.",
+          "result": "که ارزونه بریالۍ شي، کار د ټاکل شوي شرکت لاندې خوندي کېږي.",
+          "notes": "اصلي شرکت په دقت وګورئ. د کار رسیدونه، لګښتونه او تادیات د همدې شرکت-کار ریکارډ پورې اړه لري، نه د عمومي Accountancy برخې پورې."
         }
       },
       "handler_or_behavior": "`coSaveJob()`"
@@ -7275,7 +7419,7 @@
           "purpose": "Clears the current job form.",
           "when": "when discarding unsaved job details or starting a different job entry.",
           "how": "Select Clear Job Form and check that the job fields are empty.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No data is required; decide whether to discard the unsaved details in the current job form.",
           "result": "The current job form is reset.",
           "notes": "Only unsaved form values are cleared; saved jobs and their financial history remain."
         },
@@ -7283,9 +7427,81 @@
           "purpose": "فرم کار فعلی را پاک می‌کند.",
           "when": "وقتی می‌خواهید جزئیات ذخیره‌نشده کار را کنار بگذارید یا کار دیگری وارد کنید.",
           "how": "Clear Job Form را انتخاب کنید و خالی‌شدن فیلدهای کار را بررسی کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "inputs": "برای پاک‌کردن فرم نیازی به ورود اطلاعات نیست؛ فقط مشخص کنید که می‌خواهید جزئیات ذخیره‌نشده فرم کار فعلی را کنار بگذارید یا خیر.",
           "result": "فرم کار فعلی بازنشانی می‌شود.",
           "notes": "فقط مقادیر ذخیره‌نشده فرم پاک می‌شوند؛ کارهای ذخیره‌شده و سوابق مالی آن‌ها باقی می‌مانند."
+        },
+        "ar": {
+          "purpose": "يمسح نموذج الوظيفة الحالي.",
+          "when": "عند إلغاء تفاصيل وظيفة غير محفوظة أو البدء بإدخال وظيفة مختلفة.",
+          "how": "اختر Clear Job Form وتأكد من خلو حقول الوظيفة.",
+          "inputs": "لا يلزم إدخال بيانات؛ حدد ما إذا كنت تريد التخلي عن تفاصيل الوظيفة غير المحفوظة.",
+          "result": "تتم إعادة ضبط نموذج الوظيفة الحالي.",
+          "notes": "تُمسح قيم النموذج غير المحفوظة فقط؛ وتبقى الوظائف المحفوظة وسجلاتها المالية."
+        },
+        "ckb": {
+          "purpose": "فۆڕمی کاری ئێستا پاک دەکاتەوە.",
+          "when": "کاتێک دەتەوێت وردەکارییە پاشەکەوتنەکراوەکانی کار جێبهێڵیت یان کاری جیاوازێک دەست پێبکەیت.",
+          "how": "Clear Job Form هەڵبژێرە و دڵنیابە خانەکانی کار بەتاڵن.",
+          "inputs": "هیچ زانیارییەک پێویست نییە؛ دیاری بکە ئایا دەتەوێت وردەکارییە پاشەکەوتنەکراوەکانی کار جێبهێڵیت.",
+          "result": "فۆڕمی کاری ئێستا ڕیسێت دەکرێتەوە.",
+          "notes": "تەنها نرخ و زانیارییە پاشەکەوتنەکراوەکانی فۆڕم دەسڕێنەوە؛ کارە پاشەکەوتکراوەکان و مێژووی داراییان دەمێننەوە."
+        },
+        "kmr": {
+          "purpose": "Forma karê niha paqij dike.",
+          "when": "Dema ku tu dixwazî hûrguliyên karê nehatiye tomarkirin betal bikî an dest bi tomarkirina karekî din bikî.",
+          "how": "Clear Job Form hilbijêre û kontrol bike ku qadên karê vala ne.",
+          "inputs": "Agahî nehewce ye; tenê biryar bide ka tu dixwazî hûrguliyên karê nehatiye tomarkirin betal bikî.",
+          "result": "Forma karê niha ji nû ve tê vegerandin.",
+          "notes": "Tenê nirxên nehatiye tomarkirin yên formê tên jêbirin; karên tomarkirî û dîroka wan a darayî dimînin."
+        },
+        "tr": {
+          "purpose": "Mevcut iş formunu temizler.",
+          "when": "Kaydedilmemiş iş ayrıntılarından vazgeçerken veya farklı bir iş girişi başlatırken kullanın.",
+          "how": "Clear Job Form'u seçin ve iş alanlarının boş olduğunu kontrol edin.",
+          "inputs": "Bilgi girmeniz gerekmez; kaydedilmemiş iş ayrıntılarından vazgeçmek isteyip istemediğinizi belirleyin.",
+          "result": "Mevcut iş formu sıfırlanır.",
+          "notes": "Yalnızca kaydedilmemiş form değerleri temizlenir; kayıtlı işler ve bunların mali geçmişi korunur."
+        },
+        "pl": {
+          "purpose": "Czyści bieżący formularz zlecenia.",
+          "when": "Użyj, gdy rezygnujesz z niezapisanych danych zlecenia lub zaczynasz wprowadzać inne zlecenie.",
+          "how": "Wybierz Clear Job Form i sprawdź, czy pola zlecenia są puste.",
+          "inputs": "Nie trzeba podawać danych; zdecyduj jedynie, czy chcesz porzucić niezapisane szczegóły zlecenia.",
+          "result": "Bieżący formularz zlecenia zostaje zresetowany.",
+          "notes": "Usuwane są tylko niezapisane wartości formularza; zapisane zlecenia i ich historia finansowa pozostają."
+        },
+        "ur": {
+          "purpose": "موجودہ کام کا فارم صاف کرتا ہے۔",
+          "when": "جب غیر محفوظ شدہ کام کی تفصیلات چھوڑنی ہوں یا نیا کام درج کرنا ہو تو استعمال کریں۔",
+          "how": "Clear Job Form منتخب کریں اور دیکھیں کہ کام کے خانے خالی ہیں۔",
+          "inputs": "کوئی معلومات درج کرنے کی ضرورت نہیں؛ صرف یہ طے کریں کہ غیر محفوظ شدہ کام کی تفصیلات چھوڑنی ہیں یا نہیں۔",
+          "result": "موجودہ کام کا فارم ری سیٹ ہو جاتا ہے۔",
+          "notes": "صرف غیر محفوظ شدہ فارم کی قدریں صاف ہوتی ہیں؛ محفوظ شدہ کام اور ان کی مالی تاریخ برقرار رہتی ہے۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਕੰਮ ਦਾ ਫਾਰਮ ਸਾਫ਼ ਕਰਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਨਾ-ਸੇਵ ਕੀਤੇ ਕੰਮ ਦੇ ਵੇਰਵੇ ਛੱਡਣੇ ਹੋਣ ਜਾਂ ਵੱਖਰਾ ਕੰਮ ਦਰਜ ਕਰਨਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Clear Job Form ਚੁਣੋ ਅਤੇ ਜਾਂਚੋ ਕਿ ਕੰਮ ਦੇ ਖੇਤਰ ਖਾਲੀ ਹਨ।",
+          "inputs": "ਕੋਈ ਜਾਣਕਾਰੀ ਦੇਣ ਦੀ ਲੋੜ ਨਹੀਂ; ਸਿਰਫ਼ ਫੈਸਲਾ ਕਰੋ ਕਿ ਨਾ-ਸੇਵ ਕੀਤੇ ਕੰਮ ਦੇ ਵੇਰਵੇ ਛੱਡਣੇ ਹਨ ਜਾਂ ਨਹੀਂ।",
+          "result": "ਮੌਜੂਦਾ ਕੰਮ ਦਾ ਫਾਰਮ ਰੀਸੈੱਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਸਿਰਫ਼ ਨਾ-ਸੇਵ ਕੀਤੀਆਂ ਫਾਰਮ ਕਦਰਾਂ ਸਾਫ਼ ਹੁੰਦੀਆਂ ਹਨ; ਸੇਵ ਕੀਤੇ ਕੰਮ ਅਤੇ ਉਨ੍ਹਾਂ ਦਾ ਵਿੱਤੀ ਇਤਿਹਾਸ ਬਰਕਰਾਰ ਰਹਿੰਦਾ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "فرم کار فعلی را پاک می‌کند.",
+          "when": "وقتی می‌خواهید جزئیات ذخیره‌نشده کار را کنار بگذارید یا ثبت کار دیگری را آغاز کنید، استفاده کنید.",
+          "how": "Clear Job Form را انتخاب کنید و خالی‌بودن فیلدهای کار را بررسی کنید.",
+          "inputs": "ورود اطلاعات لازم نیست؛ فقط مشخص کنید که می‌خواهید جزئیات ذخیره‌نشده کار را کنار بگذارید یا خیر.",
+          "result": "فرم کار فعلی بازنشانی می‌شود.",
+          "notes": "فقط مقادیر ذخیره‌نشده فرم پاک می‌شوند؛ کارهای ذخیره‌شده و سوابق مالی آن‌ها باقی می‌مانند."
+        },
+        "ps": {
+          "purpose": "د اوسني کار فورم پاکوي.",
+          "when": "کله چې د کار نه خوندي شوي جزئیات پرېږدئ یا د بل کار ثبتول پیل کړئ، دا وکاروئ.",
+          "how": "Clear Job Form وټاکئ او وګورئ چې د کار خانې تشې دي.",
+          "inputs": "معلوماتو ته اړتیا نشته؛ یوازې پرېکړه وکړئ چې د کار نه خوندي شوي جزئیات پرېږدئ که نه.",
+          "result": "د اوسني کار فورم بیا تنظیمېږي.",
+          "notes": "یوازې د فورم نه خوندي شوي ارزښتونه پاکېږي؛ خوندي شوي کارونه او د هغوی مالي مخینه پاتې کېږي."
         }
       },
       "handler_or_behavior": "`coResetJob()`"
@@ -7301,7 +7517,7 @@
           "purpose": "Saves a work package or sub-project within the selected company job.",
           "when": "when splitting a job into separate scopes such as a bathroom, kitchen or approved variation.",
           "how": "Enter the package name, type, agreed amount, approval/execution status and any supporting notes, then select Save Work Package.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "Enter the package name, type, agreed amount, approval or execution status, and any notes requested by the form.",
           "result": "The work package is saved under the current job if validation succeeds.",
           "notes": "Only approved variations should affect the agreed total. Keep approval evidence for changes to scope or price."
         },
@@ -7309,9 +7525,81 @@
           "purpose": "یک بسته کاری یا زیرپروژه را در کار شرکتی انتخاب‌شده ذخیره می‌کند.",
           "when": "وقتی می‌خواهید کار را به محدوده‌های جدا مانند حمام، آشپزخانه یا تغییر کار تأییدشده تقسیم کنید، از این گزینه استفاده کنید.",
           "how": "نام بسته، نوع، مبلغ توافق‌شده، وضعیت تأیید/اجرا و یادداشت‌های لازم را وارد و Save Work Package را انتخاب کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "inputs": "نام بسته، نوع، مبلغ توافق‌شده، وضعیت تأیید یا اجرا و یادداشت‌های درخواستی فرم را وارد کنید.",
           "result": "در صورت موفقیت اعتبارسنجی، بسته کاری زیر کار فعلی ذخیره می‌شود.",
           "notes": "فقط تغییرات کارِ تأییدشده باید مبلغ توافق‌شده را تغییر دهند. مدارک تأیید تغییر محدوده یا قیمت را نگه دارید."
+        },
+        "ar": {
+          "purpose": "يحفظ حزمة عمل أو مشروعاً فرعياً ضمن وظيفة الشركة المحددة.",
+          "when": "عند تقسيم وظيفة إلى نطاقات منفصلة مثل الحمام أو المطبخ أو تغيير معتمد في العمل.",
+          "how": "أدخل اسم الحزمة ونوعها والمبلغ المتفق عليه وحالة الموافقة/التنفيذ وأي ملاحظات داعمة، ثم اختر Save Work Package.",
+          "inputs": "أدخل اسم الحزمة ونوعها والمبلغ المتفق عليه وحالة الموافقة أو التنفيذ والملاحظات المطلوبة.",
+          "result": "تُحفظ حزمة العمل ضمن الوظيفة الحالية إذا نجح التحقق.",
+          "notes": "يجب أن تؤثر التغييرات المعتمدة فقط في الإجمالي المتفق عليه. احتفظ بدليل الموافقة على تغييرات النطاق أو السعر."
+        },
+        "ckb": {
+          "purpose": "پاکێجی کار یان ژێرپرۆژەیەک لەناو کاری کۆمپانیای هەڵبژێردراو پاشەکەوت دەکات.",
+          "when": "کاتێک دەتەوێت کارێک دابەش بکەیت بۆ بەشە جیاوازەکان، وەک حەمام، چێشتخانە یان گۆڕانکارییەکی پەسەندکراو.",
+          "how": "ناوی پاکێج، جۆر، بڕی ڕێککەوتوو، دۆخی پەسەندکردن/جێبەجێکردن و تێبینییە پشتیوانەکان بنووسە، پاشان Save Work Package هەڵبژێرە.",
+          "inputs": "ناوی پاکێج، جۆر، بڕی ڕێککەوتوو، دۆخی پەسەندکردن یان جێبەجێکردن و تێبینییە داواکراوەکان بنووسە.",
+          "result": "ئەگەر پشتڕاستکردنەوە سەرکەوتوو بێت، پاکێجی کارەکە لەژێر کاری ئێستا پاشەکەوت دەکرێت.",
+          "notes": "تەنها گۆڕانکارییە پەسەندکراوەکان دەبێت کاریگەرییان لە کۆی ڕێککەوتوو هەبێت. بەڵگەی پەسەندکردنی گۆڕانی سنووری کار یان نرخ بپارێزە."
+        },
+        "kmr": {
+          "purpose": "Pakêtek xebatê an jêr-projeyek di nav karê pargîdaniya hilbijartî de tomar dike.",
+          "when": "Dema ku tu dixwazî karekê li qadên cuda parve bikî, wekî serşok, mitbax an guhertineke pejirandî.",
+          "how": "Navê pakêtê, cure, mîqdara lihevhatî, rewşa pejirandin/encamdanê û notên piştgirî binivîse, paşê Save Work Package hilbijêre.",
+          "inputs": "Nav, cure, mîqdar, rewşa pejirandin an pêkanîn û notên ku form dixwaze binivîse.",
+          "result": "Ger kontrol serkeftî be, pakêta xebatê di bin karê niha de tê tomarkirin.",
+          "notes": "Tenê guhertinên pejirandî divê bandorê li tevahiya mîqdara lihevhatî bikin. Delîla pejirandina guhertina qad an bihayê xebatê biparêze."
+        },
+        "tr": {
+          "purpose": "Seçilen şirket işinin içinde bir iş paketi veya alt proje kaydeder.",
+          "when": "Bir işi banyo, mutfak veya onaylanmış değişiklik gibi ayrı kapsamlara bölerken kullanın.",
+          "how": "Paket adını, türünü, anlaşılan tutarı, onay/uygulama durumunu ve destekleyici notları girin, ardından Save Work Package'i seçin.",
+          "inputs": "Paket adını, türünü, anlaşılan tutarı, onay veya uygulama durumunu ve istenen notları girin.",
+          "result": "Doğrulama başarılı olursa iş paketi mevcut işin altında kaydedilir.",
+          "notes": "Yalnızca onaylanmış değişiklikler anlaşılan toplamı etkilemelidir. Kapsam veya fiyat değişikliklerine ilişkin onay kanıtlarını saklayın."
+        },
+        "pl": {
+          "purpose": "Zapisuje pakiet prac lub podprojekt w ramach wybranego zlecenia firmy.",
+          "when": "Użyj, gdy dzielisz zlecenie na oddzielne zakresy, np. łazienkę, kuchnię lub zatwierdzoną zmianę.",
+          "how": "Wprowadź nazwę i typ pakietu, uzgodnioną kwotę, status zatwierdzenia/realizacji oraz notatki, a następnie wybierz Save Work Package.",
+          "inputs": "Wprowadź nazwę pakietu, typ, uzgodnioną kwotę, status zatwierdzenia lub realizacji oraz wymagane notatki.",
+          "result": "Jeśli walidacja przebiegnie pomyślnie, pakiet prac zostanie zapisany w ramach bieżącego zlecenia.",
+          "notes": "Tylko zatwierdzone zmiany powinny wpływać na uzgodnioną sumę. Zachowaj dowody zatwierdzenia zmian zakresu lub ceny."
+        },
+        "ur": {
+          "purpose": "منتخب کمپنی کے کام کے اندر ورک پیکیج یا ذیلی منصوبہ محفوظ کرتا ہے۔",
+          "when": "جب کسی کام کو الگ حصوں، مثلاً باتھ روم، کچن یا منظور شدہ تبدیلی میں تقسیم کرنا ہو تو استعمال کریں۔",
+          "how": "پیکیج کا نام، قسم، طے شدہ رقم، منظوری/عمل درآمد کی حیثیت اور معاون نوٹس درج کریں، پھر Save Work Package منتخب کریں۔",
+          "inputs": "پیکیج کا نام، قسم، طے شدہ رقم، منظوری یا عمل درآمد کی حیثیت اور مطلوبہ نوٹس درج کریں۔",
+          "result": "توثیق کامیاب ہونے پر ورک پیکیج موجودہ کام کے تحت محفوظ ہو جاتا ہے۔",
+          "notes": "صرف منظور شدہ تبدیلیوں سے طے شدہ مجموعی رقم متاثر ہونی چاہیے۔ کام کے دائرے یا قیمت میں تبدیلی کی منظوری کا ثبوت محفوظ رکھیں۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੀ ਕੰਪਨੀ ਦੇ ਕੰਮ ਅੰਦਰ ਵਰਕ ਪੈਕੇਜ ਜਾਂ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਸੇਵ ਕਰਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਕੰਮ ਨੂੰ ਵੱਖਰੇ ਹਿੱਸਿਆਂ, ਜਿਵੇਂ ਬਾਥਰੂਮ, ਰਸੋਈ ਜਾਂ ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਤਬਦੀਲੀ ਵਿੱਚ ਵੰਡਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਪੈਕੇਜ ਦਾ ਨਾਮ, ਕਿਸਮ, ਸਹਿਮਤ ਰਕਮ, ਮਨਜ਼ੂਰੀ/ਲਾਗੂ ਕਰਨ ਦੀ ਸਥਿਤੀ ਅਤੇ ਸਹਾਇਕ ਨੋਟ ਭਰੋ, ਫਿਰ Save Work Package ਚੁਣੋ।",
+          "inputs": "ਪੈਕੇਜ ਦਾ ਨਾਮ, ਕਿਸਮ, ਸਹਿਮਤ ਰਕਮ, ਮਨਜ਼ੂਰੀ ਜਾਂ ਲਾਗੂ ਕਰਨ ਦੀ ਸਥਿਤੀ ਅਤੇ ਲੋੜੀਂਦੇ ਨੋਟ ਭਰੋ।",
+          "result": "ਜਾਂਚ ਸਫਲ ਹੋਣ 'ਤੇ ਵਰਕ ਪੈਕੇਜ ਮੌਜੂਦਾ ਕੰਮ ਹੇਠ ਸੇਵ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਸਿਰਫ਼ ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਤਬਦੀਲੀਆਂ ਨਾਲ ਸਹਿਮਤ ਕੁੱਲ ਰਕਮ ਬਦਲਣੀ ਚਾਹੀਦੀ ਹੈ। ਕੰਮ ਦੇ ਦਾਇਰੇ ਜਾਂ ਕੀਮਤ ਵਿੱਚ ਤਬਦੀਲੀ ਦੀ ਮਨਜ਼ੂਰੀ ਦਾ ਸਬੂਤ ਸੰਭਾਲੋ।"
+        },
+        "prs": {
+          "purpose": "یک بسته کاری یا زیرپروژه را در کار شرکت انتخاب‌شده ذخیره می‌کند.",
+          "when": "وقتی می‌خواهید یک کار را به محدوده‌های جدا مانند حمام، آشپزخانه یا تغییر تأییدشده تقسیم کنید، استفاده کنید.",
+          "how": "نام و نوع بسته، مبلغ توافق‌شده، وضعیت تأیید/اجرا و یادداشت‌های پشتیبان را وارد کنید، سپس Save Work Package را انتخاب کنید.",
+          "inputs": "نام بسته، نوع، مبلغ توافق‌شده، وضعیت تأیید یا اجرا و یادداشت‌های درخواستی را وارد کنید.",
+          "result": "در صورت موفقیت اعتبارسنجی، بسته کاری زیر کار فعلی ذخیره می‌شود.",
+          "notes": "فقط تغییرات تأییدشده باید مبلغ کل توافق‌شده را تغییر دهند. مدرک تأیید تغییر محدوده یا قیمت را نگه دارید."
+        },
+        "ps": {
+          "purpose": "د ټاکل شوي شرکت د کار دننه یو کاري بسته یا فرعي پروژه خوندي کوي.",
+          "when": "کله چې یو کار په جلا برخو، لکه تشناب، پخلنځي یا منظور شوي بدلون، وېشئ نو دا وکاروئ.",
+          "how": "د بستې نوم، ډول، هوکړه شوې اندازه، د منظورۍ/پلي کېدو حالت او ملاتړي یادښتونه ولیکئ، بیا Save Work Package وټاکئ.",
+          "inputs": "د بستې نوم، ډول، هوکړه شوې اندازه، د منظورۍ یا پلي کېدو حالت او غوښتل شوي یادښتونه ولیکئ.",
+          "result": "که ارزونه بریالۍ شي، کاري بسته د اوسني کار لاندې خوندي کېږي.",
+          "notes": "یوازې منظور شوي بدلونونه باید پر هوکړه شوې ټولیزه اندازه اغېز وکړي. د کاري ساحې یا بیې د بدلون د منظورۍ ثبوت وساتئ."
         }
       },
       "handler_or_behavior": "`coSaveSub()`"
@@ -7327,7 +7615,7 @@
           "purpose": "Clears the current work package form fields.",
           "when": "when discarding unsaved package details or entering a different scope.",
           "how": "Select Clear and verify the package fields are empty.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No data is required; decide whether to discard the unsaved details in the current work package form.",
           "result": "The current work package form is reset.",
           "notes": "This does not delete an already saved work package or its financial records."
         },
@@ -7335,9 +7623,81 @@
           "purpose": "فیلدهای فرم بسته کاری فعلی را پاک می‌کند.",
           "when": "وقتی می‌خواهید جزئیات ذخیره‌نشده بسته را کنار بگذارید یا محدوده دیگری وارد کنید.",
           "how": "Clear را انتخاب کنید و خالی‌شدن فیلدهای بسته کاری را بررسی کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "inputs": "برای پاک‌کردن فرم نیازی به ورود اطلاعات نیست؛ فقط مشخص کنید که می‌خواهید جزئیات ذخیره‌نشده فرم بسته کاری را کنار بگذارید یا خیر.",
           "result": "فرم بسته کاری فعلی بازنشانی می‌شود.",
           "notes": "این گزینه بسته کاری ذخیره‌شده یا سوابق مالی آن را حذف نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يمسح حقول نموذج حزمة العمل الحالية.",
+          "when": "عند إلغاء تفاصيل حزمة غير محفوظة أو إدخال نطاق عمل مختلف.",
+          "how": "اختر Clear وتحقق من أن حقول الحزمة أصبحت فارغة.",
+          "inputs": "لا يلزم إدخال بيانات؛ حدد ما إذا كنت تريد التخلي عن تفاصيل الحزمة غير المحفوظة.",
+          "result": "تتم إعادة ضبط نموذج حزمة العمل الحالية.",
+          "notes": "لا يؤدي ذلك إلى حذف حزمة عمل محفوظة أو سجلاتها المالية."
+        },
+        "ckb": {
+          "purpose": "خانەکانی فۆڕمی پاکێجی کاری ئێستا پاک دەکاتەوە.",
+          "when": "کاتێک دەتەوێت وردەکارییە پاشەکەوتنەکراوەکانی پاکێج جێبهێڵیت یان سنوورێکی کاری جیاواز بنووسیت.",
+          "how": "Clear هەڵبژێرە و دڵنیابە خانەکانی پاکێج بەتاڵن.",
+          "inputs": "هیچ زانیارییەک پێویست نییە؛ دیاری بکە ئایا دەتەوێت وردەکارییە پاشەکەوتنەکراوەکانی پاکێج جێبهێڵیت.",
+          "result": "فۆڕمی پاکێجی کاری ئێستا ڕیسێت دەکرێتەوە.",
+          "notes": "ئەمە پاکێجی کاری پاشەکەوتکراو یان تۆمارە داراییەکانی ناسڕێتەوە."
+        },
+        "kmr": {
+          "purpose": "Qadên forma pakêta xebata niha paqij dike.",
+          "when": "Dema ku tu dixwazî hûrguliyên pakêta nehatiye tomarkirin betal bikî an qadeke din a xebatê binivîsî.",
+          "how": "Clear hilbijêre û piştrast bike ku qadên pakêtê vala ne.",
+          "inputs": "Agahî nehewce ye; tenê biryar bide ka tu dixwazî hûrguliyên pakêtê yên nehatiye tomarkirin betal bikî.",
+          "result": "Forma pakêta xebata niha ji nû ve tê vegerandin.",
+          "notes": "Ev kiryar pakêteke xebatê ya tomarkirî an tomarên wê yên darayî jê nake."
+        },
+        "tr": {
+          "purpose": "Mevcut iş paketi formunun alanlarını temizler.",
+          "when": "Kaydedilmemiş paket ayrıntılarından vazgeçerken veya farklı bir iş kapsamı girerken kullanın.",
+          "how": "Clear'ı seçin ve paket alanlarının boş olduğunu doğrulayın.",
+          "inputs": "Bilgi girmeniz gerekmez; kaydedilmemiş paket ayrıntılarından vazgeçmek isteyip istemediğinizi belirleyin.",
+          "result": "Mevcut iş paketi formu sıfırlanır.",
+          "notes": "Daha önce kaydedilmiş bir iş paketi veya onun mali kayıtları silinmez."
+        },
+        "pl": {
+          "purpose": "Czyści pola bieżącego formularza pakietu prac.",
+          "when": "Użyj, gdy rezygnujesz z niezapisanych danych pakietu lub wprowadzasz inny zakres prac.",
+          "how": "Wybierz Clear i sprawdź, czy pola pakietu są puste.",
+          "inputs": "Nie trzeba podawać danych; zdecyduj jedynie, czy chcesz porzucić niezapisane szczegóły pakietu.",
+          "result": "Bieżący formularz pakietu prac zostaje zresetowany.",
+          "notes": "Nie usuwa to zapisanego pakietu prac ani jego danych finansowych."
+        },
+        "ur": {
+          "purpose": "موجودہ ورک پیکیج فارم کے خانے صاف کرتا ہے۔",
+          "when": "جب غیر محفوظ شدہ پیکیج کی تفصیلات چھوڑنی ہوں یا کام کا مختلف دائرہ درج کرنا ہو تو استعمال کریں۔",
+          "how": "Clear منتخب کریں اور تصدیق کریں کہ پیکیج کے خانے خالی ہیں۔",
+          "inputs": "کوئی معلومات درج کرنے کی ضرورت نہیں؛ صرف یہ طے کریں کہ غیر محفوظ شدہ پیکیج کی تفصیلات چھوڑنی ہیں یا نہیں۔",
+          "result": "موجودہ ورک پیکیج فارم ری سیٹ ہو جاتا ہے۔",
+          "notes": "اس سے پہلے سے محفوظ ورک پیکیج یا اس کے مالی ریکارڈ حذف نہیں ہوتے۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਵਰਕ ਪੈਕੇਜ ਫਾਰਮ ਦੇ ਖੇਤਰ ਸਾਫ਼ ਕਰਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਨਾ-ਸੇਵ ਕੀਤੇ ਪੈਕੇਜ ਵੇਰਵੇ ਛੱਡਣੇ ਹੋਣ ਜਾਂ ਵੱਖਰਾ ਕੰਮ ਦਾ ਦਾਇਰਾ ਦਰਜ ਕਰਨਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Clear ਚੁਣੋ ਅਤੇ ਜਾਂਚੋ ਕਿ ਪੈਕੇਜ ਦੇ ਖੇਤਰ ਖਾਲੀ ਹਨ।",
+          "inputs": "ਕੋਈ ਜਾਣਕਾਰੀ ਦੇਣ ਦੀ ਲੋੜ ਨਹੀਂ; ਸਿਰਫ਼ ਫੈਸਲਾ ਕਰੋ ਕਿ ਨਾ-ਸੇਵ ਕੀਤੇ ਪੈਕੇਜ ਵੇਰਵੇ ਛੱਡਣੇ ਹਨ ਜਾਂ ਨਹੀਂ।",
+          "result": "ਮੌਜੂਦਾ ਵਰਕ ਪੈਕੇਜ ਫਾਰਮ ਰੀਸੈੱਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਇਸ ਨਾਲ ਪਹਿਲਾਂ ਸੇਵ ਕੀਤਾ ਵਰਕ ਪੈਕੇਜ ਜਾਂ ਉਸਦੇ ਵਿੱਤੀ ਰਿਕਾਰਡ ਨਹੀਂ ਮਿਟਦੇ।"
+        },
+        "prs": {
+          "purpose": "فیلدهای فرم بسته کاری فعلی را پاک می‌کند.",
+          "when": "وقتی می‌خواهید جزئیات ذخیره‌نشده بسته را کنار بگذارید یا محدوده کاری دیگری وارد کنید، استفاده کنید.",
+          "how": "Clear را انتخاب کنید و خالی‌بودن فیلدهای بسته را بررسی کنید.",
+          "inputs": "ورود اطلاعات لازم نیست؛ فقط مشخص کنید که می‌خواهید جزئیات ذخیره‌نشده بسته را کنار بگذارید یا خیر.",
+          "result": "فرم بسته کاری فعلی بازنشانی می‌شود.",
+          "notes": "این کار بسته کاری ذخیره‌شده یا سوابق مالی آن را حذف نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د اوسني کاري بستې د فورم خانې پاکوي.",
+          "when": "کله چې د بستې نه خوندي شوي جزئیات پرېږدئ یا د کار بله ساحه ولیکئ، دا وکاروئ.",
+          "how": "Clear وټاکئ او وګورئ چې د بستې خانې تشې دي.",
+          "inputs": "معلوماتو ته اړتیا نشته؛ یوازې پرېکړه وکړئ چې د بستې نه خوندي شوي جزئیات پرېږدئ که نه.",
+          "result": "د اوسني کاري بستې فورم بیا تنظیمېږي.",
+          "notes": "دا کار خوندي شوې کاري بسته یا د هغې مالي ریکارډونه نه ړنګوي."
         }
       },
       "handler_or_behavior": "`coResetSub()`"
