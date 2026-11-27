@@ -2840,19 +2840,19 @@
         "docs/REPAIR_INDEX_FA.md",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "4b68227798a46f751c621b837e9285d2c23e4562",
+      "previewDevelopmentCommitSha": "ddfaa636518d8d2831b37c96cfa8391e6c445eec",
       "previewPullRequestNumber": 96,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "PENDING",
-        "runId": "pending",
-        "url": "pending",
-        "details": "R63 requires a fresh Version Authority Gate against the R63 Build ID, canonical URL, index SHA and all 24 runtime asset pins."
+        "result": "PASS",
+        "runId": 46071937988,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071937988",
+        "details": "R63 Version Authority Gate passed. Repository/branch identity, approved R11 ancestry, Build ID THA-273-R11-PREVIEW-20261127-R63, canonical URL, index blob SHA and all 24 pinned runtime assets matched."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
-        "details": "Nine data-help-id attributes were added to pagination, receipt preview, record Edit/Delete/View and customer Edit/New Invoice/Delete templates. Existing MutationObserver handles inserted nodes. Mapping records 127 connected Help IDs (113 static and 14 dynamic-template). Check for Updates is explicitly disabled and excluded; four PDF controls remain in separate-document scope. Live browser tests remain pending."
+        "details": "Nine data-help-id attributes were added to pagination, receipt preview, record Edit/Delete/View and customer Edit/New Invoice/Delete templates. Existing MutationObserver handles inserted nodes. Mapping records 127 connected Help IDs (113 static and 14 dynamic-template). Check for Updates is explicitly disabled and excluded; four PDF controls remain in separate-document scope. Manual Git-tree checks confirm Registry, Inventory, Help content, runtime and index baselines match. Live browser tests remain pending."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
