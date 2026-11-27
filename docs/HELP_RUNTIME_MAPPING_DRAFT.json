@@ -33,7 +33,7 @@
       "EXEMPT_NOT_MAPPED": 1,
       "ADJACENT_HELP_BUTTON_ATTACHED_R61_NOT_BROWSER_VERIFIED": 13
     },
-    "notes": "R61 adds 13 contextual Help bindings for New Project, Projects List, Add Partner share row, seven Project Detail tabs, View Financial Report, Clear Contractor Form and Clear Work Package Form. Previous R53-R60 bindings remain. The exact tabs use data-pr-sub attributes to distinguish repeated prDetailTab handlers. Source-level only; browser tests and deployment remain pending.",
+    "notes": "R61 adds 13 contextual Help bindings for New Project, Projects List, Add Partner share row, seven Project Detail tabs, View Financial Report, Clear Contractor Form and Clear Work Package Form. Cumulative totals: 110 Help controls (105 static and five dynamic-template). Previous R53-R60 bindings remain. The exact tabs use data-pr-sub attributes to distinguish repeated prDetailTab handlers. Source-level only; browser tests and deployment remain pending.",
     "runtime_publishable_entries": 132,
     "runtime_languages": 11,
     "static_controls_attached": 105,
@@ -46,7 +46,7 @@
     "en_fa_draft_entries_corrected": 9,
     "id_selector_controls_attached": 13,
     "scoped_handler_controls_attached": 5,
-    "scoped_static_controls_attached": 74
+    "scoped_static_controls_attached": 87
   },
   "mappings": [
     {
