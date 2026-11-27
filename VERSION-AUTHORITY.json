@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261126-R40",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R40",
-    "indexBlobSha": "830b9884aa959513497f70e5af247ceec7923db0",
+    "buildId": "THA-273-R11-PREVIEW-20261127-R46",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R46",
+    "indexBlobSha": "e4c11b5adb1e12a7dea9f6c11df3622524ab9301",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,8 +30,8 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "830b9884aa959513497f70e5af247ceec7923db0",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "e4c11b5adb1e12a7dea9f6c11df3622524ab9301",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7"
     }
   },
@@ -2639,6 +2639,48 @@
       "userApproval": {
         "result": "authorized for Preview only",
         "details": "User explicitly directed fixing Last Updated. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-SEC-RESET-001-R46",
+      "dateStarted": "2026-11-27",
+      "purpose": "Isolate the Factory Reset fail-closed workflow from the separate User Guide and multilingual work. Preview-only branch based on main; no Production changes and no destructive reset executed.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "12fe70ea7693eb0379f332cdfe101ffbec213c28",
+      "previewPullRequestNumber": 97,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/97",
+      "previewMergeCommitSha": "pending",
+      "staticChecks": {
+        "result": "pending",
+        "details": "Pending Version Authority Gate on the isolated branch."
+      },
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "No Preview deployment until the isolated PR passes its required checks and is approved."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Requires successful Preview deployment; do not execute Factory Reset during Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview-only repair work",
+        "details": "User directed continuation. Production promotion is not authorized."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",

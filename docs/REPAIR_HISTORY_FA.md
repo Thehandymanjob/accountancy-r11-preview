@@ -486,3 +486,17 @@
 - **تست iPhone Safari:** not tested؛ منتظر بررسی کاربر پس از انتشار Preview.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
 - **ارتباط با مورد قبلی:** `ACC-CAT-001` مربوط به جداسازی و نگهداری فهرست‌های گروهی است؛ این پرونده علت مستقلِ خطای lookup در همگام‌سازی دکمه انتخاب را ثبت می‌کند.
+
+
+### SEC-RESET-001 — قفل حفاظتی گردش‌کار Factory Reset
+
+- **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / پیاده‌سازی روی شاخه مستقل Preview؛ Version Authority Gate در انتظار اجرا.
+- **هدف:** جلوگیری از فعال‌شدن دکمه Reset پیش از اعتبارسنجی مستقل Import و Emergency Snapshot؛ جداسازی این اصلاح از تغییرات User Guide و ترجمه‌ها.
+- **محیط:** مخزن `Thehandymanjob/accountancy-r11-preview`؛ شاخه `sec-reset-001-preview` بر پایه `main`؛ Build هدف `THA-273-R11-PREVIEW-20261127-R46`.
+- **تغییرات UI:** افزودن ورودی انتخاب مجدد فایل Emergency Snapshot؛ در هر دو تابع بومی `openFactoryReset()` و `factoryResetNextStep()` دکمه نهایی صریحاً غیرفعال می‌ماند. فایل محافظ Runtime با cache-busting مجزا بارگذاری می‌شود.
+- **کنترل‌های Runtime:** دیتابیس مقصد باید دقیقاً `the_handyman_accountancy_r11_preview_idb` باشد؛ Import با 17 دامنه و شناسه‌های اجباری بررسی می‌شود؛ Snapshot اضطراری از موتور Recovery تولید و سپس فایل ذخیره‌شده مجدداً انتخاب می‌شود؛ SHA-256 payload مطابق قرارداد موتور Recovery دوباره محاسبه می‌شود؛ عبارت `RESET 273` و تیک تأیید الزامی‌اند. تابع مخرب Reset از API عمومی window صادر نمی‌شود.
+- **تفکیک تغییرات:** این شاخه از `main` آغاز شده و تغییرات User Guide، Registry و ترجمه‌های PR #96 را به خود منتقل نمی‌کند. فقط دو فایل Runtime، Version Authority و سوابق تعمیر این مورد تغییر کرده‌اند.
+- **فایل‌ها:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`؛ `v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js`؛ `VERSION-AUTHORITY.json`؛ همین پرونده و `docs/REPAIR_INDEX_FA.md`.
+- **Version Authority:** SHA فایل index در Manifest برابر `e4c11b5adb1e12a7dea9f6c11df3622524ab9301`؛ SHA فایل Runtime برابر `964b1ca647c373b2168d33fe31e1b90507734751`. Gate برای شاخه مستقل هنوز اجرا/تأیید نشده است.
+- **انتشار و تست:** PR مستقل #97 ایجاد شد (Draft؛ base=main؛ head=12fe70ea7693eb0379f332cdfe101ffbec213c28). Pages deploy نشده؛ تست iPhone Safari انجام نشده. هیچ Reset واقعی، پاک‌سازی IndexedDB، Backup یا Restore آزمایشی اجرا نشده است.
+- **Production:** بدون تغییر؛ ارتقا مجاز نیست.
