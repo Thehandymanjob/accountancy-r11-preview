@@ -8802,6 +8802,78 @@
           "inputs": "واردکردن مبلغ برای ثبت دریافت الزامی است. فرم همچنین فیلدهای شرح/جزئیات پرداخت، تاریخ و روش پرداخت (Cash، Bank transfer، Card یا Other) را دارد.",
           "result": "این زبانه سوابق درآمد مشتری پروژه را نمایش می‌دهد. در صورت موفقیت ذخیره، مورد معتبر جدید به سوابق درآمد پروژه انتخاب‌شده افزوده می‌شود.",
           "notes": "دریافتی مشتری را برای پروژه صحیح و فقط پس از دریافت واقعی ثبت کنید. تاریخ، مبلغ و روش پرداخت را بررسی کنید و از ثبت تکراری یک دریافت در بخش دیگر خودداری کنید. درآمد پروژه از ثبت‌های عمومی Accountancy جدا است."
+        },
+        "ar": {
+          "purpose": "يعرض سجلات الدخل المستلم من العميل للمشروع المحدد ويوفر النموذج لتسجيل إيصال جديد.",
+          "when": "استخدم هذا الخيار عند مراجعة الأموال المستلمة من العميل لهذا المشروع أو تسجيلها.",
+          "how": "افتح المشروع واختر Income. راجع البنود المسجلة. لإضافة إيصال، أدخل وصف الدفع أو تفاصيله والمبلغ والتاريخ والطريقة، ثم اختر Record.",
+          "inputs": "يتطلب الإيصال إدخال مبلغ. ويوفر النموذج أيضاً وصف الدفع أو تفاصيله والتاريخ والطريقة (Cash أو Bank transfer أو Card أو Other).",
+          "result": "تعرض علامة التبويب سجلات دخل العميل للمشروع. عند نجاح الحفظ، يُضاف الإدخال الجديد الصحيح إلى سجلات دخل المشروع المحدد.",
+          "notes": "سجّل إيصالات العميل على المشروع الصحيح وفقط بعد استلام المال فعلياً. تحقق من التاريخ والمبلغ والطريقة، وتجنب تكرار الإيصال نفسه في منطقة سجلات أخرى. دخل المشروع منفصل عن قيود Accountancy العامة."
+        },
+        "ckb": {
+          "purpose": "تۆمارەکانی داهاتی وەرگیراو لە کڕیار بۆ پڕۆژەی هەڵبژێردراو پیشان دەدات و فۆڕمی تۆمارکردنی وەسڵی نوێ دابین دەکات.",
+          "when": "کاتێک دەتەوێت پارەی وەرگیراو لە کڕیار بۆ ئەم پڕۆژەیە بپشکنیت یان تۆماری بکەیت، ئەم بەشە بەکاربهێنە.",
+          "how": "پڕۆژەکە بکەرەوە و Income هەڵبژێرە. دانە تۆمارکراوەکان بپشکنە. بۆ زیادکردنی وەسڵ، وەسف/وردەکاری پارەدان، بڕ، بەروار و شێواز داخڵ بکە، پاشان Record هەڵبژێرە.",
+          "inputs": "بڕ بۆ وەسڵ پێویستە. فۆڕمەکە هەروەها وەسف/وردەکاری پارەدان، بەروار و شێواز (Cash، Bank transfer، Card یان Other) پێشکەش دەکات.",
+          "result": "تابەکە تۆمارەکانی داهاتی کڕیاری پڕۆژە پیشان دەدات. ئەگەر پاشەکەوتکردن سەرکەوتوو بێت، تۆماری نوێی دروست زیاد دەکرێت بۆ داهاتی پڕۆژەی هەڵبژێردراو.",
+          "notes": "وەرگرتنی پارەی کڕیار تەنها بۆ پڕۆژەی دروست و دوای وەرگرتنی ڕاستەقینە تۆمار بکە. بەروار، بڕ و شێواز بپشکنە و لە تۆمارکردنی دووبارەی هەمان وەسڵ لە شوێنێکی تر خۆت بپارێزە. داهاتی پڕۆژە جیا لە تۆمارە گشتییەکانی Accountancyیە."
+        },
+        "kmr": {
+          "purpose": "Tomarên dahata ji xerîdar hatî wergirtin ji bo projeya hilbijartî nîşan dide û forma tomarkirina wergirtineke nû peyda dike.",
+          "when": "Vê bikar bîne dema ku dahata ji xerîdar ji bo vê projeyê hatî wergirtin dinirxînî an tomar dikî.",
+          "how": "Projeyê veke û Income hilbijêre. Qeydên tomarkirî kontrol bike. Ji bo zêdekirina wergirtinê, ravekirin/hûrguliyên dayînê, mîqdar, dîrok û awayê dayînê binivîse, paşê Record hilbijêre.",
+          "inputs": "Ji bo wergirtinê mîqdar pêwîst e. Form her wiha ravekirin/hûrguliyên dayînê, dîrok û awayê dayînê (Cash, Bank transfer, Card an Other) dihewîne.",
+          "result": "Tab tomarên dahata xerîdar a projeyê nîşan dide. Dema tomarkirin serkeftî be, tomareke nû ya derbasdar li tomarên dahata projeya hilbijartî tê zêdekirin.",
+          "notes": "Wergirtinên xerîdar li ser projeya rast û tenê dema ku bi rastî hatine wergirtin tomar bike. Dîrok, mîqdar û awayê dayînê kontrol bike, û ji tomarkirina dubare ya heman wergirtinê di qadeke din de dûr bikeve. Dahata projeyê ji qeydanên giştî yên Accountancy cuda ye."
+        },
+        "tr": {
+          "purpose": "Seçilen proje için müşteriden alınan gelir kayıtlarını görüntüler ve yeni bir tahsilat kaydetmek için form sağlar.",
+          "when": "Bu proje için müşteriden alınan parayı incelemek veya kaydetmek istediğinizde kullanın.",
+          "how": "Projeyi açın ve Income sekmesini seçin. Kaydedilmiş kalemleri inceleyin. Tahsilat eklemek için açıklama/ödeme ayrıntılarını, tutarı, tarihi ve yöntemi girin, ardından Record seçeneğini belirleyin.",
+          "inputs": "Bir tahsilat için tutar zorunludur. Formda ayrıca açıklama/ödeme ayrıntıları, tarih ve yöntem (Cash, Bank transfer, Card veya Other) bulunur.",
+          "result": "Sekme, projenin müşteri gelir kayıtlarını gösterir. Kayıt başarılı olduğunda geçerli yeni giriş seçilen projenin gelir kayıtlarına eklenir.",
+          "notes": "Müşteri tahsilatlarını doğru projeye ve yalnızca para gerçekten alındığında kaydedin. Tarihi, tutarı ve yöntemi kontrol edin; aynı tahsilatı başka bir kayıt alanında yinelemekten kaçının. Proje geliri genel Accountancy kayıtlarından ayrıdır."
+        },
+        "pl": {
+          "purpose": "Wyświetla rejestr przychodów otrzymanych od klienta dla wybranego projektu i udostępnia formularz do zapisania nowego wpływu.",
+          "when": "Użyj tej opcji, aby sprawdzić lub zarejestrować pieniądze otrzymane od klienta za ten projekt.",
+          "how": "Otwórz projekt i wybierz Income. Przejrzyj zapisane pozycje. Aby dodać wpływ, wpisz opis/szczegóły płatności, kwotę, datę i metodę, a następnie wybierz Record.",
+          "inputs": "Do zapisania wpływu wymagana jest kwota. Formularz zawiera również opis/szczegóły płatności, datę i metodę (Cash, Bank transfer, Card lub Other).",
+          "result": "Karta wyświetla rejestr przychodów od klienta dla projektu. Po pomyślnym zapisie prawidłowy nowy wpis zostaje dodany do przychodów wybranego projektu.",
+          "notes": "Wpływy od klienta zapisuj w odpowiednim projekcie i dopiero po faktycznym otrzymaniu pieniędzy. Sprawdź datę, kwotę i metodę, unikaj powielania tego samego wpływu w innym obszarze. Przychody projektu są oddzielone od ogólnych zapisów Accountancy."
+        },
+        "ur": {
+          "purpose": "منتخب منصوبے کے لیے کسٹمر سے موصولہ آمدنی کے ریکارڈ دکھاتا ہے اور نئی وصولی درج کرنے کا فارم فراہم کرتا ہے۔",
+          "when": "اسے اس منصوبے کے لیے کسٹمر سے موصول ہونے والی رقم کا جائزہ لینے یا اسے درج کرنے کے لیے استعمال کریں۔",
+          "how": "منصوبہ کھولیں اور Income منتخب کریں۔ درج شدہ اندراجات دیکھیں۔ وصولی شامل کرنے کے لیے تفصیل/ادائیگی کی معلومات، رقم، تاریخ اور طریقہ درج کریں، پھر Record منتخب کریں۔",
+          "inputs": "وصولی کے لیے رقم لازمی ہے۔ فارم میں تفصیل/ادائیگی کی معلومات، تاریخ اور طریقہ (Cash، Bank transfer، Card یا Other) بھی شامل ہیں۔",
+          "result": "یہ ٹیب منصوبے کے کسٹمر کی آمدنی کے ریکارڈ دکھاتا ہے۔ محفوظ کرنا کامیاب ہو تو درست نیا اندراج منتخب منصوبے کے آمدنی ریکارڈ میں شامل ہو جاتا ہے۔",
+          "notes": "کسٹمر کی وصولیاں درست منصوبے کے تحت اور صرف رقم حقیقتاً ملنے کے بعد درج کریں۔ تاریخ، رقم اور طریقہ چیک کریں اور اسی وصولی کو کسی دوسرے ریکارڈ حصے میں دوبارہ درج نہ کریں۔ منصوبے کی آمدنی عمومی Accountancy اندراجات سے الگ ہے۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਲਈ ਗਾਹਕ ਤੋਂ ਪ੍ਰਾਪਤ ਆਮਦਨ ਦੇ ਰਿਕਾਰਡ ਦਿਖਾਉਂਦਾ ਹੈ ਅਤੇ ਨਵੀਂ ਰਸੀਦ ਦਰਜ ਕਰਨ ਲਈ ਫਾਰਮ ਦਿੰਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਇਸ ਪ੍ਰੋਜੈਕਟ ਲਈ ਗਾਹਕ ਤੋਂ ਮਿਲੀ ਰਕਮ ਦੀ ਸਮੀਖਿਆ ਜਾਂ ਰਿਕਾਰਡ ਕਰਨ ਲਈ ਕਰੋ।",
+          "how": "ਪ੍ਰੋਜੈਕਟ ਖੋਲ੍ਹੋ ਅਤੇ Income ਚੁਣੋ। ਦਰਜ ਕੀਤੀਆਂ ਆਈਟਮਾਂ ਵੇਖੋ। ਰਸੀਦ ਜੋੜਨ ਲਈ ਵੇਰਵਾ/ਭੁਗਤਾਨ ਜਾਣਕਾਰੀ, ਰਕਮ, ਮਿਤੀ ਅਤੇ ਤਰੀਕਾ ਦਰਜ ਕਰੋ, ਫਿਰ Record ਚੁਣੋ।",
+          "inputs": "ਰਸੀਦ ਲਈ ਰਕਮ ਲਾਜ਼ਮੀ ਹੈ। ਫਾਰਮ ਵਿੱਚ ਵੇਰਵਾ/ਭੁਗਤਾਨ ਜਾਣਕਾਰੀ, ਮਿਤੀ ਅਤੇ ਤਰੀਕਾ (Cash, Bank transfer, Card ਜਾਂ Other) ਵੀ ਹਨ।",
+          "result": "ਇਹ ਟੈਬ ਪ੍ਰੋਜੈਕਟ ਦੀ ਗਾਹਕ ਆਮਦਨ ਦੇ ਰਿਕਾਰਡ ਦਿਖਾਉਂਦਾ ਹੈ। ਸੇਵ ਸਫਲ ਹੋਣ 'ਤੇ ਨਵੀਂ ਵੈਧ ਐਂਟਰੀ ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਦੇ ਆਮਦਨ ਰਿਕਾਰਡ ਵਿੱਚ ਜੋੜੀ ਜਾਂਦੀ ਹੈ।",
+          "notes": "ਗਾਹਕ ਤੋਂ ਮਿਲੀ ਰਕਮ ਸਹੀ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਅਤੇ ਸਿਰਫ਼ ਅਸਲ ਵਿੱਚ ਪ੍ਰਾਪਤ ਹੋਣ ਤੋਂ ਬਾਅਦ ਦਰਜ ਕਰੋ। ਮਿਤੀ, ਰਕਮ ਅਤੇ ਤਰੀਕਾ ਜਾਂਚੋ ਅਤੇ ਉਸੇ ਰਸੀਦ ਨੂੰ ਕਿਸੇ ਹੋਰ ਰਿਕਾਰਡ ਖੇਤਰ ਵਿੱਚ ਦੁਬਾਰਾ ਦਰਜ ਨਾ ਕਰੋ। ਪ੍ਰੋਜੈਕਟ ਆਮਦਨ ਆਮ Accountancy ਐਂਟਰੀਆਂ ਤੋਂ ਵੱਖਰੀ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "سوابق درآمد دریافتی از مشتری برای پروژه انتخاب‌شده را نمایش می‌دهد و فرم ثبت دریافت جدید را فراهم می‌کند.",
+          "when": "برای بررسی یا ثبت پولی که از مشتری بابت این پروژه دریافت شده است، از این بخش استفاده کنید.",
+          "how": "پروژه را باز کنید و Income را انتخاب کنید. موارد ثبت‌شده را بررسی کنید. برای افزودن دریافت، شرح/جزئیات پرداخت، مبلغ، تاریخ و روش پرداخت را وارد کنید و سپس Record را انتخاب کنید.",
+          "inputs": "برای ثبت دریافت، مبلغ الزامی است. فرم همچنین شرح/جزئیات پرداخت، تاریخ و روش پرداخت (Cash، Bank transfer، Card یا Other) را دارد.",
+          "result": "این زبانه سوابق درآمد مشتری پروژه را نمایش می‌دهد. در صورت موفقیت ذخیره، مورد معتبر جدید به سوابق درآمد پروژه انتخاب‌شده افزوده می‌شود.",
+          "notes": "دریافتی مشتری را برای پروژه صحیح و فقط پس از دریافت واقعی ثبت کنید. تاریخ، مبلغ و روش پرداخت را بررسی کنید و از ثبت تکراری همان دریافت در بخش دیگر خودداری کنید. درآمد پروژه از ثبت‌های عمومی Accountancy جدا است."
+        },
+        "ps": {
+          "purpose": "د ټاکل شوې پروژې لپاره له پېرودونکي ترلاسه شوي عاید ریکارډونه ښيي او د نوې ترلاسه شوې پیسې د ثبتولو فورم برابروي.",
+          "when": "دا هغه وخت وکاروئ چې د همدې پروژې لپاره له پېرودونکي ترلاسه شوې پیسې ارزول یا ثبتول غواړئ.",
+          "how": "پروژه پرانیزئ او Income وټاکئ. ثبت شوي توکي وګورئ. د رسید زیاتولو لپاره تشریح/د پیسو جزئیات، اندازه، نېټه او طریقه دننه کړئ، بیا Record وټاکئ.",
+          "inputs": "د رسید لپاره اندازه اړینه ده. فورم د تشریح/د پیسو جزئیات، نېټه او طریقه (Cash، Bank transfer، Card یا Other) هم لري.",
+          "result": "دا ټب د پروژې د پېرودونکي د عاید ریکارډونه ښيي. که خوندي کول بریالي شي، نوی سم ثبت د ټاکل شوې پروژې د عاید ریکارډونو ته زیاتېږي.",
+          "notes": "د پېرودونکي ترلاسه شوې پیسې په سمه پروژه او یوازې هغه وخت ثبت کړئ چې پیسې واقعاً ترلاسه شوې وي. نېټه، اندازه او طریقه وګورئ او د همدې رسید له بیا ثبتولو ډډه وکړئ. د پروژې عاید د Accountancy له عمومي ثبتونو جلا دی."
         }
       },
       "handler_or_behavior": "`prDetailTab(`"
@@ -8828,6 +8900,78 @@
           "inputs": "مبلغ هزینه الزامی است. فرم شامل نوع هزینه، انتخاب پیمانکار در صورت انتخاب Contractor / subcontractor، تأمین‌کننده برای هزینه عمومی، شرح/کار انجام‌شده و تاریخ است.",
           "result": "سوابق هزینه‌های پروژه نمایش داده می‌شوند. در صورت موفقیت ذخیره، هزینه معتبر جدید به سوابق هزینه پروژه انتخاب‌شده افزوده می‌شود.",
           "notes": "نوع هزینه صحیح را انتخاب کنید. انتخاب‌گر پیمانکار برای موارد Contractor / subcontractor نمایش داده می‌شود؛ هزینه‌های عمومی از فیلد تأمین‌کننده/فروشگاه استفاده می‌کنند. پروژه، دریافت‌کننده، تاریخ و مبلغ را بررسی کنید، رسیدها را نگه دارید و از ثبت تکراری جلوگیری کنید. این‌ها سوابق پروژه هستند و خودکار تراکنش Accountancy ایجاد نمی‌کنند."
+        },
+        "ar": {
+          "purpose": "يعرض سجلات مصروفات المشروع المحدد ويوفر نموذجاً لتسجيل مصروفات المشروع.",
+          "when": "استخدم هذا الخيار لمراجعة أو تسجيل تكاليف المواد واللوازم والمقاولين أو المقاولين من الباطن وغيرها من مصروفات المشروع.",
+          "how": "افتح المشروع واختر Expenses. راجع البنود المسجلة. لإضافة مصروف، اختر General expense أو Contractor / subcontractor، وأدخل بيانات المورد أو المقاول والوصف والمبلغ والتاريخ، ثم اختر Record.",
+          "inputs": "مبلغ المصروف مطلوب. يتضمن النموذج نوع المصروف، واختيار المقاول عند تحديد Contractor / subcontractor، والمورد للمصروفات العامة، ووصف العمل المنجز والتاريخ.",
+          "result": "تُعرض سجلات مصروفات المشروع. عند نجاح الحفظ، يُضاف المصروف الجديد الصحيح إلى سجلات مصروفات المشروع المحدد.",
+          "notes": "اختر نوع المصروف الصحيح. يظهر محدد المقاول لإدخالات Contractor / subcontractor؛ وتستخدم المصروفات العامة حقل المورد/المتجر. تحقق من المشروع والجهة المستفيدة والتاريخ والمبلغ، واحتفظ بالإيصالات وتجنب الإدخالات المكررة. هذه سجلات مشروع وليست معاملات Accountancy تلقائية."
+        },
+        "ckb": {
+          "purpose": "تۆمارەکانی خەرجی پڕۆژەی هەڵبژێردراو پیشان دەدات و فۆڕمی تۆمارکردنی خەرجی پڕۆژە دابین دەکات.",
+          "when": "کاتێک دەتەوێت تێچووی کەرەستە، پێداویستی، پیمانکار/پیمانکاری لاوەکی یان خەرجی تری پڕۆژە بپشکنیت یان تۆمار بکەیت، ئەم بەشە بەکاربهێنە.",
+          "how": "پڕۆژەکە بکەرەوە و Expenses هەڵبژێرە. دانە تۆمارکراوەکان بپشکنە. بۆ زیادکردنی خەرجی، General expense یان Contractor / subcontractor هەڵبژێرە، زانیاری دابینکەر/پیمانکار و وەسف و بڕ و بەروار داخڵ بکە، پاشان Record هەڵبژێرە.",
+          "inputs": "بڕی خەرجی پێویستە. فۆڕمەکە جۆری خەرجی، هەڵبژاردنی پیمانکار ئەگەر Contractor / subcontractor هەڵبژێردرابێت، دابینکەر بۆ خەرجی گشتی، وەسفی کارە ئەنجامدراوەکان و بەروار لەخۆدەگرێت.",
+          "result": "تۆمارەکانی خەرجی پڕۆژە پیشان دەدرێن. ئەگەر پاشەکەوتکردن سەرکەوتوو بێت، خەرجی نوێی دروست زیاد دەکرێت بۆ تۆمارەکانی خەرجی پڕۆژەی هەڵبژێردراو.",
+          "notes": "جۆری دروستی خەرجی هەڵبژێرە. هەڵبژێری پیمانکار بۆ تۆمارەکانی Contractor / subcontractor پیشان دەدرێت؛ خەرجی گشتی خانەی دابینکەر/فرۆشگا بەکاردەهێنێت. پڕۆژە، وەرگر، بەروار و بڕ بپشکنە، پسووڵەکان بپارێزە و لە تۆمارکردنی دووبارە خۆت بپارێزە. ئەمانە تۆماری پڕۆژەن، نەک مامەڵەی خۆکاری Accountancy."
+        },
+        "kmr": {
+          "purpose": "Tomarên lêçûnên projeya hilbijartî nîşan dide û forma tomarkirina lêçûnên projeyê peyda dike.",
+          "when": "Vê bikar bîne dema ku dixwazî lêçûnên materyal, pêdivî, peymankar/bin-peymankar an lêçûnên din ên projeyê binirxînî an tomar bikî.",
+          "how": "Projeyê veke û Expenses hilbijêre. Qeydên tomarkirî kontrol bike. Ji bo zêdekirina lêçûnê, General expense an Contractor / subcontractor hilbijêre, agahiyên dabînker/peymankar, ravekirin, mîqdar û dîrok binivîse, paşê Record hilbijêre.",
+          "inputs": "Mîqdara lêçûnê pêwîst e. Form cureya lêçûnê, hilbijartina peymankar dema Contractor / subcontractor tê hilbijartin, dabînker ji bo lêçûnên giştî, ravekirina karê hatî kirin û dîrok dihewîne.",
+          "result": "Tomarên lêçûnên projeyê têne nîşandan. Dema tomarkirin serkeftî be, lêçûna nû ya derbasdar li tomarên lêçûnên projeya hilbijartî tê zêdekirin.",
+          "notes": "Cureya rast a lêçûnê hilbijêre. Hilbijêra peymankar ji bo tomarên Contractor / subcontractor xuya dibe; lêçûnên giştî qada dabînker/dikanê bikar tînin. Proje, wergir, dîrok û mîqdar kontrol bike, fatûreyan biparêze û ji tomarên dubare dûr bikeve. Ev tomarên projeyê ne, ne danûstandinên xweber ên Accountancy."
+        },
+        "tr": {
+          "purpose": "Seçilen projenin gider kayıtlarını görüntüler ve proje gideri kaydetmek için bir form sağlar.",
+          "when": "Malzeme, sarf malzemesi, yüklenici/alt yüklenici maliyetlerini veya diğer proje giderlerini incelemek ya da kaydetmek için kullanın.",
+          "how": "Projeyi açın ve Expenses sekmesini seçin. Kaydedilmiş kalemleri inceleyin. Gider eklemek için General expense veya Contractor / subcontractor seçin; ilgili tedarikçi/yüklenici bilgilerini, açıklamayı, tutarı ve tarihi girin, ardından Record seçeneğini belirleyin.",
+          "inputs": "Gider tutarı zorunludur. Formda gider türü, Contractor / subcontractor seçildiğinde yüklenici seçimi, genel giderler için tedarikçi, yapılan işin açıklaması ve tarih bulunur.",
+          "result": "Proje gider kayıtları görüntülenir. Kayıt başarılı olduğunda geçerli yeni gider seçilen projenin gider kayıtlarına eklenir.",
+          "notes": "Doğru gider türünü seçin. Contractor / subcontractor kayıtlarında yüklenici seçici gösterilir; genel giderlerde tedarikçi/mağaza alanı kullanılır. Projeyi, alacaklıyı, tarihi ve tutarı kontrol edin, fişleri saklayın ve yinelenen kayıtlardan kaçının. Bunlar proje kayıtlarıdır; otomatik Accountancy işlemleri değildir."
+        },
+        "pl": {
+          "purpose": "Wyświetla rejestr wydatków wybranego projektu i udostępnia formularz do zapisywania kosztów projektu.",
+          "when": "Użyj tej opcji, aby przejrzeć lub zarejestrować koszty materiałów, materiałów eksploatacyjnych, wykonawców/podwykonawców lub inne wydatki projektu.",
+          "how": "Otwórz projekt i wybierz Expenses. Przejrzyj zapisane pozycje. Aby dodać wydatek, wybierz General expense lub Contractor / subcontractor, wpisz dane dostawcy/wykonawcy, opis, kwotę i datę, a następnie wybierz Record.",
+          "inputs": "Kwota wydatku jest wymagana. Formularz zawiera typ wydatku, wybór wykonawcy po wybraniu Contractor / subcontractor, dostawcę dla wydatków ogólnych, opis wykonanej pracy i datę.",
+          "result": "Wyświetlane są rekordy wydatków projektu. Po pomyślnym zapisie prawidłowy nowy wydatek zostaje dodany do rejestru wydatków wybranego projektu.",
+          "notes": "Wybierz właściwy typ wydatku. Selektor wykonawcy pojawia się dla wpisów Contractor / subcontractor; wydatki ogólne korzystają z pola dostawcy/sklepu. Sprawdź projekt, odbiorcę płatności, datę i kwotę, zachowaj paragony i unikaj duplikatów. Są to rekordy projektu, a nie automatyczne transakcje Accountancy."
+        },
+        "ur": {
+          "purpose": "منتخب منصوبے کے اخراجات کے ریکارڈ دکھاتا ہے اور منصوبے کے اخراجات درج کرنے کا فارم فراہم کرتا ہے۔",
+          "when": "اسے مواد، سامان، ٹھیکیدار/ذیلی ٹھیکیدار کے اخراجات یا منصوبے کے دیگر اخراجات کا جائزہ لینے یا درج کرنے کے لیے استعمال کریں۔",
+          "how": "منصوبہ کھولیں اور Expenses منتخب کریں۔ درج شدہ اندراجات دیکھیں۔ خرچ شامل کرنے کے لیے General expense یا Contractor / subcontractor منتخب کریں، متعلقہ سپلائر/ٹھیکیدار اور تفصیل، رقم اور تاریخ درج کریں، پھر Record منتخب کریں۔",
+          "inputs": "خرچ کی رقم لازمی ہے۔ فارم میں خرچ کی قسم، Contractor / subcontractor منتخب ہونے پر ٹھیکیدار کا انتخاب، عمومی اخراجات کے لیے سپلائر، کیے گئے کام کی تفصیل اور تاریخ شامل ہیں۔",
+          "result": "منصوبے کے اخراجات کے ریکارڈ دکھائے جاتے ہیں۔ محفوظ کرنا کامیاب ہو تو درست نیا خرچ منتخب منصوبے کے اخراجات کے ریکارڈ میں شامل ہو جاتا ہے۔",
+          "notes": "درست خرچ کی قسم منتخب کریں۔ Contractor / subcontractor اندراجات کے لیے ٹھیکیدار کا انتخاب دکھایا جاتا ہے؛ عمومی اخراجات میں سپلائر/دکان کا خانہ استعمال ہوتا ہے۔ منصوبہ، وصول کنندہ، تاریخ اور رقم چیک کریں، رسیدیں محفوظ رکھیں اور نقل اندراجات سے بچیں۔ یہ منصوبے کے ریکارڈ ہیں، خودکار Accountancy لین دین نہیں۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਦੇ ਖਰਚੇ ਦੇ ਰਿਕਾਰਡ ਦਿਖਾਉਂਦਾ ਹੈ ਅਤੇ ਪ੍ਰੋਜੈਕਟ ਖਰਚੇ ਦਰਜ ਕਰਨ ਲਈ ਫਾਰਮ ਦਿੰਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਸਮੱਗਰੀ, ਸਪਲਾਈ, ਠੇਕੇਦਾਰ/ਉਪ-ਠੇਕੇਦਾਰ ਦੇ ਖਰਚੇ ਜਾਂ ਹੋਰ ਪ੍ਰੋਜੈਕਟ ਖਰਚਿਆਂ ਦੀ ਸਮੀਖਿਆ ਜਾਂ ਰਿਕਾਰਡ ਕਰਨ ਲਈ ਕਰੋ।",
+          "how": "ਪ੍ਰੋਜੈਕਟ ਖੋਲ੍ਹੋ ਅਤੇ Expenses ਚੁਣੋ। ਦਰਜ ਕੀਤੀਆਂ ਆਈਟਮਾਂ ਵੇਖੋ। ਖਰਚਾ ਜੋੜਨ ਲਈ General expense ਜਾਂ Contractor / subcontractor ਚੁਣੋ, ਸੰਬੰਧਿਤ ਸਪਲਾਇਰ/ਠੇਕੇਦਾਰ ਅਤੇ ਵੇਰਵਾ, ਰਕਮ ਤੇ ਮਿਤੀ ਦਰਜ ਕਰੋ, ਫਿਰ Record ਚੁਣੋ।",
+          "inputs": "ਖਰਚੇ ਦੀ ਰਕਮ ਲਾਜ਼ਮੀ ਹੈ। ਫਾਰਮ ਵਿੱਚ ਖਰਚੇ ਦੀ ਕਿਸਮ, Contractor / subcontractor ਚੁਣਨ 'ਤੇ ਠੇਕੇਦਾਰ ਦੀ ਚੋਣ, ਆਮ ਖਰਚਿਆਂ ਲਈ ਸਪਲਾਇਰ, ਕੀਤੇ ਕੰਮ ਦਾ ਵੇਰਵਾ ਅਤੇ ਮਿਤੀ ਸ਼ਾਮਲ ਹਨ।",
+          "result": "ਪ੍ਰੋਜੈਕਟ ਖਰਚੇ ਦੇ ਰਿਕਾਰਡ ਦਿਖਾਏ ਜਾਂਦੇ ਹਨ। ਸੇਵ ਸਫਲ ਹੋਣ 'ਤੇ ਨਵਾਂ ਵੈਧ ਖਰਚਾ ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਦੇ ਖਰਚੇ ਦੇ ਰਿਕਾਰਡ ਵਿੱਚ ਜੋੜਿਆ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਸਹੀ ਖਰਚੇ ਦੀ ਕਿਸਮ ਚੁਣੋ। Contractor / subcontractor ਐਂਟਰੀਆਂ ਲਈ ਠੇਕੇਦਾਰ ਚੋਣਕਾਰ ਦਿਖਦਾ ਹੈ; ਆਮ ਖਰਚੇ ਸਪਲਾਇਰ/ਦੁਕਾਨ ਵਾਲਾ ਖੇਤਰ ਵਰਤਦੇ ਹਨ। ਪ੍ਰੋਜੈਕਟ, ਭੁਗਤਾਨ ਪ੍ਰਾਪਤਕਰਤਾ, ਮਿਤੀ ਅਤੇ ਰਕਮ ਜਾਂਚੋ, ਰਸੀਦਾਂ ਸੰਭਾਲੋ ਅਤੇ ਦੁਹਰਾਈਆਂ ਐਂਟਰੀਆਂ ਤੋਂ ਬਚੋ। ਇਹ ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਹਨ, ਆਪਣੇ ਆਪ ਬਣਨ ਵਾਲੇ Accountancy ਲੈਣ-ਦੇਣ ਨਹੀਂ।"
+        },
+        "prs": {
+          "purpose": "سوابق هزینه‌های پروژه انتخاب‌شده را نمایش می‌دهد و فرم ثبت هزینه‌های پروژه را فراهم می‌کند.",
+          "when": "برای بررسی یا ثبت هزینه مصالح، لوازم، پیمانکار/پیمانکار جزء یا سایر هزینه‌های پروژه از این بخش استفاده کنید.",
+          "how": "پروژه را باز کنید و Expenses را انتخاب کنید. موارد ثبت‌شده را بررسی کنید. برای افزودن هزینه، General expense یا Contractor / subcontractor را انتخاب کنید، اطلاعات تأمین‌کننده/پیمانکار و شرح، مبلغ و تاریخ را وارد کنید و سپس Record را انتخاب کنید.",
+          "inputs": "مبلغ هزینه الزامی است. فرم شامل نوع هزینه، انتخاب پیمانکار در صورت انتخاب Contractor / subcontractor، تأمین‌کننده برای هزینه‌های عمومی، شرح کار انجام‌شده و تاریخ است.",
+          "result": "سوابق هزینه‌های پروژه نمایش داده می‌شوند. در صورت موفقیت ذخیره، هزینه معتبر جدید به سوابق هزینه پروژه انتخاب‌شده افزوده می‌شود.",
+          "notes": "نوع هزینه صحیح را انتخاب کنید. انتخاب‌گر پیمانکار برای موارد Contractor / subcontractor نمایش داده می‌شود؛ هزینه‌های عمومی از فیلد تأمین‌کننده/فروشگاه استفاده می‌کنند. پروژه، دریافت‌کننده، تاریخ و مبلغ را بررسی کنید، رسیدها را نگه دارید و از ثبت تکراری جلوگیری کنید. این‌ها سوابق پروژه هستند و خودکار تراکنش Accountancy ایجاد نمی‌کنند."
+        },
+        "ps": {
+          "purpose": "د ټاکل شوې پروژې د لګښتونو ریکارډونه ښيي او د پروژې د لګښتونو د ثبتولو فورم برابروي.",
+          "when": "دا هغه وخت وکاروئ چې د موادو، توکو، قراردادي/فرعي قراردادي لګښتونه یا د پروژې نور لګښتونه ارزول یا ثبتول غواړئ.",
+          "how": "پروژه پرانیزئ او Expenses وټاکئ. ثبت شوي توکي وګورئ. د لګښت زیاتولو لپاره General expense یا Contractor / subcontractor وټاکئ، د اړوند عرضه کوونکي/قراردادي معلومات او تشریح، اندازه او نېټه دننه کړئ، بیا Record وټاکئ.",
+          "inputs": "د لګښت اندازه اړینه ده. فورم د لګښت ډول، د Contractor / subcontractor په ټاکلو سره د قراردادي انتخاب، د عمومي لګښتونو لپاره عرضه کوونکی، د ترسره شوي کار تشریح او نېټه لري.",
+          "result": "د پروژې د لګښتونو ریکارډونه ښودل کېږي. که خوندي کول بریالي شي، نوی سم لګښت د ټاکل شوې پروژې د لګښتونو ریکارډونو ته زیاتېږي.",
+          "notes": "د لګښت سمه ډول وټاکئ. د Contractor / subcontractor ثبتونو لپاره د قراردادي ټاکونکی ښکاري؛ عمومي لګښتونه د عرضه کوونکي/دوکان خانه کاروي. پروژه، پیسې اخیستونکی، نېټه او اندازه وګورئ، رسیدونه وساتئ او له تکراري ثبتونو ډډه وکړئ. دا د پروژې ریکارډونه دي، نه د Accountancy اتومات معاملې."
         }
       },
       "handler_or_behavior": "`prDetailTab(`"
