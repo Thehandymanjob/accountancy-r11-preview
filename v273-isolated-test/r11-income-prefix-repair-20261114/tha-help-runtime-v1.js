@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R57') return;
+  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R58') return;
   const payload = window.THAHelpContentV1;
   if (!payload || !payload.entries) {
     console.error('[THA Help] Content bundle is missing; contextual help was not started.');
@@ -64,7 +64,18 @@
     ['THA-HLP-0088', '#prPage-detail .pr-detail-actions > button[onclick="prDeleteCurrent()"]'],
     ['THA-HLP-0098', '#prPage-partners .pr-actions > button[onclick="prSavePerson(\'partner\')"]'],
     ['THA-HLP-0100', '#prPage-contractors .pr-actions > button[onclick="prSaveContractor()"]'],
-    ['THA-HLP-0102', '#prPage-workers .pr-actions > button[onclick="prSavePerson(\'worker\')"]']
+    ['THA-HLP-0102', '#prPage-workers .pr-actions > button[onclick="prSavePerson(\'worker\')"]'],
+    ['THA-HLP-0107', '#prPage-company-hub .pr-list > button[onclick="coOpenCompanyMode(\\'add\\')"]'],
+    ['THA-HLP-0108', '#prPage-company-hub .pr-list > button[onclick="coOpenCompanyMode(\\'list\\')"]'],
+    ['THA-HLP-0109', '#prPage-company-hub .pr-list > button[onclick="prPage(\\'company-profit\\')"]'],
+    ['THA-HLP-0110', '#prPage-company-hub .co-actions > button[onclick="coSaveCompany()"]'],
+    ['THA-HLP-0111', '#prPage-company-hub .co-actions > button[onclick="coResetCompany()"]'],
+    ['THA-HLP-0112', '#prPage-company-hub .co-actions > button[onclick="coSaveJob()"]'],
+    ['THA-HLP-0113', '#prPage-company-hub .co-actions > button[onclick="coResetJob()"]'],
+    ['THA-HLP-0114', '#prPage-company-hub .co-actions > button[onclick="coSaveSub()"]'],
+    ['THA-HLP-0116', '#prPage-company-hub #coPackageFinance .co-actions > button[onclick="coAddPackageExpense()"]'],
+    ['THA-HLP-0117', '#prPage-company-hub #coPaymentArea .co-actions > button[onclick="coRecordPayment()"]'],
+    ['THA-HLP-0118', '#invoicePaidModal .invoice-paid-actions > button[onclick="confirmInvoicePaid()"]']
   ];
   if (STATIC_BINDINGS.some(binding => !Array.isArray(binding) || binding.length !== 2 || binding.some(value => typeof value !== 'string' || !value.trim()))) {
     console.error('[THA Help] Invalid static binding table; contextual help was not started.');
@@ -236,7 +247,7 @@
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initialise,{once:true});
   else initialise();
   window.THAHelpRuntime=Object.freeze({
-    version:'R57',open:openHelp,openFullGuide,attach:attachAll,
+    version:'R58',open:openHelp,openFullGuide,attach:attachAll,
     getLastHelpId:()=>lastHelpId,getPublishableCount:()=>Object.keys(payload.entries).length
   });
 })();
