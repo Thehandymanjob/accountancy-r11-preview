@@ -22,10 +22,13 @@
     "mapping_status_counts": {
       "AMBIGUOUS_HANDLER": 179,
       "HANDLER_CANDIDATE_REQUIRES_CONTEXT_TEST": 16,
-      "ID_CANDIDATE_REQUIRES_BROWSER_TEST": 26,
+      "ID_CANDIDATE_REQUIRES_BROWSER_TEST": 17,
       "NEEDS_SELECTOR": 7,
+      "SEPARATE_DOCUMENT_SCOPE": 7,
+      "DYNAMIC_TEMPLATE_CANDIDATE": 2,
       "EXEMPT_NOT_MAPPED": 1
-    }
+    },
+    "notes": "Static ID candidates were reviewed for generated-document and template scope; these are explicitly separated from main-document selectors."
   },
   "mappings": [
     {
@@ -1901,8 +1904,9 @@
       "selector": "#makePdf",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "SEPARATE_DOCUMENT_SCOPE",
+      "rationale": "The control is created inside a generated PDF/receipt/contract preview document, not the main application document. Help attachment must be implemented and tested within that document's own lifecycle.",
+      "document_scope": "generated_preview_window"
     },
     {
       "help_id": "THA-HLP-0135",
@@ -1915,8 +1919,9 @@
       "selector": "#downloadPdf",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "SEPARATE_DOCUMENT_SCOPE",
+      "rationale": "The control is created inside a generated PDF/receipt/contract preview document, not the main application document. Help attachment must be implemented and tested within that document's own lifecycle.",
+      "document_scope": "generated_preview_window"
     },
     {
       "help_id": "THA-HLP-0136",
@@ -1929,8 +1934,9 @@
       "selector": "#sharePdf",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "SEPARATE_DOCUMENT_SCOPE",
+      "rationale": "The control is created inside a generated PDF/receipt/contract preview document, not the main application document. Help attachment must be implemented and tested within that document's own lifecycle.",
+      "document_scope": "generated_preview_window"
     },
     {
       "help_id": "THA-HLP-0137",
@@ -2335,8 +2341,9 @@
       "selector": "#prSaveSubEditBtn",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_DRAFT",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "DYNAMIC_TEMPLATE_CANDIDATE",
+      "rationale": "The element is emitted by a JavaScript template. A static source ID occurrence is not a live DOM selector; attach only through the correct template renderer and verify the generated instance.",
+      "document_scope": "runtime_generated_template"
     },
     {
       "help_id": "THA-HLP-0166",
@@ -2503,8 +2510,9 @@
       "selector": "#receiptPdfButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_DRAFT",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "SEPARATE_DOCUMENT_SCOPE",
+      "rationale": "The control is created inside a generated PDF/receipt/contract preview document, not the main application document. Help attachment must be implemented and tested within that document's own lifecycle.",
+      "document_scope": "generated_preview_window"
     },
     {
       "help_id": "THA-HLP-0178",
@@ -2783,8 +2791,9 @@
       "selector": "#${prEscape(w.id)}",
       "inventory_classification": "'Unnamed worker')} ${w.phone?` ${prEscape(w.phone)} `:''} ${select.value===String(w.id)?'✓':'›'}",
       "content_status": "CONTENT_DRAFT",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "DYNAMIC_TEMPLATE_CANDIDATE",
+      "rationale": "The element is emitted by a JavaScript template. A static source ID occurrence is not a live DOM selector; attach only through the correct template renderer and verify the generated instance.",
+      "document_scope": "runtime_generated_template"
     },
     {
       "help_id": "THA-HLP-0198",
@@ -2937,8 +2946,9 @@
       "selector": "#generateBtn",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_DRAFT",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "SEPARATE_DOCUMENT_SCOPE",
+      "rationale": "The control is created inside a generated PDF/receipt/contract preview document, not the main application document. Help attachment must be implemented and tested within that document's own lifecycle.",
+      "document_scope": "generated_preview_window"
     },
     {
       "help_id": "THA-HLP-0209",
@@ -2951,8 +2961,9 @@
       "selector": "#printBtn",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_DRAFT",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "SEPARATE_DOCUMENT_SCOPE",
+      "rationale": "The control is created inside a generated PDF/receipt/contract preview document, not the main application document. Help attachment must be implemented and tested within that document's own lifecycle.",
+      "document_scope": "generated_preview_window"
     },
     {
       "help_id": "THA-HLP-0210",
@@ -2965,8 +2976,9 @@
       "selector": "#shareBtn",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_DRAFT",
-      "mapping_status": "ID_CANDIDATE_REQUIRES_BROWSER_TEST",
-      "rationale": "Element ID occurs once in Preview source. Candidate only: confirm the actual visible control and interaction in browser before runtime attachment."
+      "mapping_status": "SEPARATE_DOCUMENT_SCOPE",
+      "rationale": "The control is created inside a generated PDF/receipt/contract preview document, not the main application document. Help attachment must be implemented and tested within that document's own lifecycle.",
+      "document_scope": "generated_preview_window"
     },
     {
       "help_id": "THA-HLP-0211",
