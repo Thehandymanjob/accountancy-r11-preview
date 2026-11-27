@@ -580,6 +580,18 @@
 - **تست ایستا:** یکتایی هر ۱۳ ID در HTML (یک مورد برای هر شناسه) PASS؛ محتوای هر ۱۳ شناسه در بسته Runtime موجود است؛ کامپایل نحوی Runtime با V8 PASS.
 - **تست مرورگر / انتشار:** هنوز انجام نشده؛ نمایش و مخفی‌شدن پویا، چیدمان موبایل، عملکرد اصلی دکمه‌ها و iPhone Safari باید در Preview بررسی شوند. هیچ Deploy یا Production change انجام نشده است.
 
+
+#### بازنگری R51 — رفع خطای ساختاری جدول اتصال و افزودن کنترل fail-closed
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- **یافته آزمون R50:** آرایه `STATIC_BINDINGS` به دلیل نبود ویرگول بعد از `THA-HLP-0089` و پیش از `THA-HLP-0075` از نظر نحو JavaScript معتبر بود، اما در زمان اجرای `forEach` خطای destructuring ایجاد می‌کرد و راه‌اندازی Runtime متوقف می‌شد.
+- **اصلاح:** ویرگول مفقود اضافه شد و guard ساختاری fail-closed افزوده شد تا هر ردیف آرایه باید دقیقاً دو رشته غیرخالی داشته باشد؛ در غیر این صورت Runtime با پیام تشخیصی متوقف می‌شود.
+- **اعتبارسنجی ایستا:** V8 compilation PASS؛ استخراج و بررسی مستقیم آرایه PASS؛ ۲۷ ردیف اتصال ایستا و دو فیلد معتبر در هر ردیف تأیید شدند.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R51`. اتصال‌های ۳۲گانه R50 و همگام‌سازی وضعیت hidden حفظ شدند.
+- **تست DOM / مرورگر:** آزمون شبیه‌سازی‌شده R50 خطا را آشکار کرد؛ آزمون کامل شبیه‌سازی R51 باید پس از اصلاح دوباره اجرا شود. تست واقعی Preview و iPhone Safari انجام نشده‌اند.
+- **انتشار:** هیچ Preview deploy یا Production change انجام نشده است.
+
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
 - **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Implemented on Preview development; the latest R45 Version Authority Gate passed after native-HTML fail-closed hardening (run 46053038295). Pages deployment and iPhone Safari verification remain pending.

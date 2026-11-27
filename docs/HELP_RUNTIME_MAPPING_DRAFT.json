@@ -5,11 +5,11 @@
   "branch": "development",
   "baseline": {
     "runtime_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
-    "runtime_blob_sha": "2b2348f872f59fb6b3da5becb38a0d45273a38ad",
+    "runtime_blob_sha": "b890dbfacf1b3d2295b30d66f73e663a99888cc7",
     "registry_blob_sha": "f63754128fd09125290df4045f6f4b6fc03b3545",
     "inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
     "help_content_blob_sha": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
-    "help_runtime_blob_sha": "124d94881711a65335e7c9403ae16fa7475dd811"
+    "help_runtime_blob_sha": "364f42aa5b23f125f4183e9b04d3d747e5caa8de"
   },
   "policy": {
     "label_only_matching": false,
@@ -26,14 +26,14 @@
       "AMBIGUOUS_HANDLER": 160,
       "HANDLER_CANDIDATE_REQUIRES_CONTEXT_TEST": 16,
       "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED": 19,
-      "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED": 13,
+      "ADJACENT_HELP_BUTTON_ATTACHED_R51_NOT_BROWSER_VERIFIED": 13,
       "NEEDS_SELECTOR": 7,
       "SEPARATE_DOCUMENT_SCOPE": 7,
       "DYNAMIC_TEMPLATE_CANDIDATE": 2,
       "ID_CANDIDATE_REQUIRES_BROWSER_TEST": 4,
       "EXEMPT_NOT_MAPPED": 1
     },
-    "notes": "R50 extends the adjacent ? affordance to 32 mapped specialist controls: 14 scoped static selectors, 13 exact unique-ID selectors and five dynamic-template attributes. Wrapper visibility tracks the target's hidden/class/style state. The popup still exposes only 132 approved CONTENT_COMPLETE entries. No real browser test or deployment has occurred.",
+    "notes": "R51 corrects and validates the 27-entry static binding table. The runtime retains 32 adjacent Help controls: 14 scoped selectors, 13 exact unique-ID selectors and five dynamic-template attributes. Hidden/class/style synchronization remains enabled. Browser testing has not occurred.",
     "runtime_publishable_entries": 132,
     "runtime_languages": 11,
     "static_controls_attached": 27,
@@ -366,7 +366,7 @@
       "selector": "#categoryPickerButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R51_NOT_BROWSER_VERIFIED",
       "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
@@ -394,7 +394,7 @@
       "selector": "#entryReceiptRemove",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R51_NOT_BROWSER_VERIFIED",
       "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
@@ -674,7 +674,7 @@
       "selector": "#fullBackupButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R51_NOT_BROWSER_VERIFIED",
       "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
@@ -688,7 +688,7 @@
       "selector": "#fullRestoreButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R51_NOT_BROWSER_VERIFIED",
       "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
@@ -716,7 +716,7 @@
       "selector": "#toggleActivityArchiveButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R51_NOT_BROWSER_VERIFIED",
       "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
@@ -730,7 +730,7 @@
       "selector": "#runIndexedDBSelfTestButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R51_NOT_BROWSER_VERIFIED",
       "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
@@ -940,7 +940,7 @@
       "selector": "#factoryResetConvertButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R51_NOT_BROWSER_VERIFIED",
       "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
@@ -954,7 +954,7 @@
       "selector": "#factoryResetEmergencyButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R51_NOT_BROWSER_VERIFIED",
       "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
@@ -968,7 +968,7 @@
       "selector": "#factoryResetNext",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R51_NOT_BROWSER_VERIFIED",
       "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
@@ -982,7 +982,7 @@
       "selector": "#factoryResetFinalButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R51_NOT_BROWSER_VERIFIED",
       "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
@@ -1066,7 +1066,7 @@
       "selector": "#appReloadUpdate",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R51_NOT_BROWSER_VERIFIED",
       "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
@@ -1262,7 +1262,7 @@
       "selector": "#prCompleteToggle",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R51_NOT_BROWSER_VERIFIED",
       "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {
@@ -1290,7 +1290,7 @@
       "selector": "#prDetailProfitReportButton",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R50_NOT_BROWSER_VERIFIED",
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R51_NOT_BROWSER_VERIFIED",
       "rationale": "R50 attaches this Help ID through its exact unique HTML element ID in the explicit static selector allowlist. Content is approved; browser visibility and interaction checks remain required."
     },
     {

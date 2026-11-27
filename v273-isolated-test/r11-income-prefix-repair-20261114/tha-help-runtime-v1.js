@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R50') return;
+  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R51') return;
   const payload = window.THAHelpContentV1;
   if (!payload || !payload.entries) {
     console.error('[THA Help] Content bundle is missing; contextual help was not started.');
@@ -29,12 +29,16 @@
     ['THA-HLP-0067', '#factoryResetFinalButton'],
     ['THA-HLP-0073', '#appReloadUpdate'],
     ['THA-HLP-0087', '#prCompleteToggle'],
-    ['THA-HLP-0089', '#prDetailProfitReportButton']
+    ['THA-HLP-0089', '#prDetailProfitReportButton'],
     ['THA-HLP-0075', '[data-pr-nav="project-hub"]'],
     ['THA-HLP-0077', '[data-pr-nav="control"]'],
     ['THA-HLP-0099', '#prPage-partners .pr-actions > button[onclick="prResetPerson(\'partner\')"]'],
     ['THA-HLP-0103', '#prPage-workers .pr-actions > button[onclick="prResetPerson(\'worker\')"]']
   ];
+  if (STATIC_BINDINGS.some(binding => !Array.isArray(binding) || binding.length !== 2 || binding.some(value => typeof value !== 'string' || !value.trim()))) {
+    console.error('[THA Help] Invalid static binding table; contextual help was not started.');
+    return;
+  }
   const FIELD_LABELS = {
     en:{purpose:'Purpose',when:'When to use',how:'How to use',inputs:'Inputs',result:'Expected result',notes:'Important notes'},
     fa:{purpose:'هدف',when:'زمان استفاده',how:'روش استفاده',inputs:'ورودی‌ها',result:'نتیجه مورد انتظار',notes:'نکات مهم'},
@@ -201,7 +205,7 @@
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initialise,{once:true});
   else initialise();
   window.THAHelpRuntime=Object.freeze({
-    version:'R50',open:openHelp,openFullGuide,attach:attachAll,
+    version:'R51',open:openHelp,openFullGuide,attach:attachAll,
     getLastHelpId:()=>lastHelpId,getPublishableCount:()=>Object.keys(payload.entries).length
   });
 })();
