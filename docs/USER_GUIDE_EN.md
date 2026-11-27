@@ -317,6 +317,14 @@ Review the job's work packages, recorded costs, payments and totals. Resolve mis
 ### Review before issuing
 Check all party names, addresses, job scope, exclusions, prices, payment stages, dates and other terms. Do not rely on an automatically drafted clause without understanding it. Obtain appropriate legal advice for important or disputed contractual terms.
 
+The contract editor includes **Document type** choices for **Contract** and **Quotation (price offer)**, a contract title, contract date, customer name, optional phone/email, project address, agreed price, estimated start date, and a large **Scope of work and contract terms** field. Describe the work and any materials, exclusions, payment stages, schedule, variations, waste removal and guarantees that have actually been agreed.
+
+- **Save Contract** stores the document in the application.
+- **Help me write with ChatGPT** opens the writing-assistance workflow. Treat generated wording as a draft and verify every term.
+- **Preview / Print / Save PDF** lets you review the document and produce a printable/PDF copy. Check the full preview before sharing.
+
+The contract printout uses the business name and logo saved in **Settings → Profile & Logo**. If those details are wrong, correct the profile before generating the final document.
+
 If a writing assistant is used to prepare wording, treat its output as a draft. Check that it reflects the actual agreement and applicable requirements before sending or signing.
 
 ### Amendments
@@ -328,13 +336,14 @@ Do not silently overwrite an agreed contract in a way that hides what changed. F
 
 ### Business profile and logo
 1. Open **Settings → Profile & Logo**.
-2. Review the business name and owner/contact details.
+2. Review **Business name**, **Owner name**, **Phone** and **Email**.
 3. Enter or correct the details.
-4. Add or replace the business logo if required.
-5. Check the logo preview and any size guidance shown.
-6. Select **Save Profile** and wait for confirmation.
+4. Complete **Invoice payment / bank details** only with the details intended to appear at the bottom of issued invoices. Never enter card PINs or online-banking passwords.
+5. Add or replace the business logo. The current form accepts common image formats and optimises the logo to a maximum of 1 MB; the recommended image size is 600 × 300 px.
+6. Check the logo preview.
+7. Select **Save Profile** and wait for the saved confirmation.
 
-Use accurate business details because they may appear on generated documents. Use **Remove Logo** only when you intentionally want to remove the saved logo.
+Use accurate business details because they may appear on invoices and other generated documents. Use **Remove Logo** only when you intentionally want to remove the saved logo; the removal is saved to the business profile.
 
 ### User Guide language
 1. Open **Settings → Help**.
@@ -347,19 +356,23 @@ This setting changes the guide only. Application menus, forms, accounting record
 
 ### Software Update
 1. Open **Settings → Software Update**.
-2. Check the installed version shown.
-3. Use the available online check to see whether a newer version is published.
-4. Read the update information before installing.
-5. After an update, refresh/reopen the application and verify the installed version.
+2. Read the installed version/build shown.
+3. In the current test build, **Check for Updates** and **Update Now** are disabled. The page states that the updater will be re-enabled only after final verification and production release.
+4. Do not try to force an update through this screen while the controls are disabled. Use the version information in **Monitor & Diagnostics** to identify the build currently running.
 
-Do not assume that a newer version is installed merely because an update check was opened. Confirm the resulting version/build shown by the application.
+When a later released build enables updating, follow the on-screen instructions and verify the resulting version/build after reopening the application.
 
 ### Factory Reset
-**Factory Reset is destructive.** It is not a normal troubleshooting step. Do not open or confirm it unless you deliberately intend to replace/reset the current application data, have a verified backup, and understand the consequences. If data appear missing, use the non-destructive checks in Chapter 12 first.
+**Factory Reset is a destructive recovery procedure, not a normal troubleshooting step.** The current flow is designed to replace the IndexedDB database with a specifically approved legacy backup and requires a separate emergency snapshot first. It uses multiple warning/confirmation steps.
+
+Do not start it unless you have been explicitly instructed to perform that recovery, have verified the approved source backup, have saved the emergency snapshot somewhere safe, and understand that current records will be replaced. If data appear missing, use the non-destructive checks in Chapter 12 first. Do not substitute an arbitrary JSON backup for the approved reset source.
 
 ---
 
 ## 12. Data Safety and Troubleshooting
+
+### Text entry and language restriction
+The current application includes a text-input guard that accepts ASCII characters only in text fields. This means English letters and ordinary keyboard characters are accepted, while Persian, Arabic, Urdu, Kurdish, Punjabi, Pashto and accented Latin letters may be rejected. The guide-language setting does not change this restriction or translate the application interface. If you see the **English text required** warning, return to the field and enter the information using accepted English/ASCII characters. Do not assume that choosing a translated guide changes the language accepted by data-entry forms.
 
 ### If a record appears missing
 1. Do not immediately reset or restore.
