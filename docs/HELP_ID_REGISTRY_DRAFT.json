@@ -6113,7 +6113,7 @@
       "audit_ref": "INV-078",
       "element_id": null,
       "label": "Open Secure Reset",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the Secure Reset warning dialog from the Factory Reset page.",
@@ -6211,7 +6211,7 @@
       "audit_ref": "INV-079",
       "element_id": "factoryResetConvertButton",
       "label": "Validate and Convert Backup",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "A button is displayed for validating and converting the selected legacy backup, but it has no registered click handler in the R43 source build.",
@@ -6309,7 +6309,7 @@
       "audit_ref": "INV-080",
       "element_id": "factoryResetEmergencyButton",
       "label": "Download Emergency Snapshot",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "A Download Emergency Snapshot button is displayed in the Secure Reset dialog, but it is initially disabled and has no registered click handler in the R43 source build.",
@@ -6407,7 +6407,7 @@
       "audit_ref": "INV-081",
       "element_id": "factoryResetNext",
       "label": "I Understand — Continue",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Acknowledges the first Factory Reset warning and advances the dialog to its second warning stage.",
@@ -6505,7 +6505,7 @@
       "audit_ref": "INV-082",
       "element_id": "factoryResetFinalButton",
       "label": "Reset and Restore All Data",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "A final Reset and Restore All Data button is displayed in the second-stage dialog, but the R43 source contains no registered event handler for this button.",
@@ -6603,7 +6603,7 @@
       "audit_ref": "INV-084",
       "element_id": null,
       "label": "Save Profile",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Saves the business profile fields, including business and owner names, contact details, invoice payment details and the selected logo, to the app's IndexedDB storage.",
@@ -6701,7 +6701,7 @@
       "audit_ref": "INV-085",
       "element_id": null,
       "label": "Remove Logo",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Clears the saved business logo from the profile and immediately saves and verifies the updated profile in IndexedDB.",
@@ -6799,7 +6799,7 @@
       "audit_ref": "INV-086",
       "element_id": null,
       "label": "Save Support Message",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Validates and saves the Contact Us support message as a local IndexedDB draft on this device.",
@@ -6897,7 +6897,7 @@
       "audit_ref": "INV-087",
       "element_id": null,
       "label": "Clear Form",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Clears all current entries in the Contact Us form and resets its status message.",
@@ -6995,7 +6995,7 @@
       "audit_ref": "INV-088",
       "element_id": null,
       "label": "🔄 Check for Updates",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "A Check for Updates button is displayed, but it is disabled in the inspected R43 test build.",
