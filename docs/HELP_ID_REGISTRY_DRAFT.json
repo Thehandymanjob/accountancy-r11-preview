@@ -5878,20 +5878,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the company contracts and jobs area for organising company work.",
-          "when": "Use this when managing work assigned to a company, its jobs, work packages, costs or payments.",
-          "how": "Select Company Contracts & Jobs and choose the company or job you need to manage.",
-          "inputs": "The information required depends on whether you are creating or opening a company or job.",
-          "result": "The company contracts and jobs workspace opens with its available records and controls.",
-          "notes": "Check that costs, work packages and payments are attached to the correct company and job. This workspace is distinct from the standalone contract document area."
+          "purpose": "Opens the Company Contracts & Jobs hub for managing registered companies, their contracts and jobs, and company-job financial performance.",
+          "when": "Use this when managing work received from a company, including its jobs, work packages, receipts, expenses or payment records.",
+          "how": "From Business Workspace, select Company Contracts & Jobs. Choose Add Company to register a company, Companies List to find a company and open its jobs, or Company Project Profit & Loss to review recorded results.",
+          "inputs": "No input is required to open the hub. Adding or editing a company or job requires the fields shown in the corresponding form; company name and job name are required for new records.",
+          "result": "The hub displays Add Company, Companies List and Company Project Profit & Loss.",
+          "notes": "Company-job receipts, deductions, expenses and profit/loss are recorded only in Company Contracts & Jobs. They are not transferred to or combined with Accountancy. This is separate from the standalone Contract Management area."
         },
         "fa": {
-          "purpose": "بخش Company Contracts & Jobs را برای سازمان‌دهی کارهای شرکتی باز می‌کند.",
-          "when": "برای مدیریت کارهای واگذارشده به یک شرکت، پروژه‌های کاری، بسته‌های کاری، هزینه‌ها یا پرداخت‌ها از این گزینه استفاده کنید.",
-          "how": "Company Contracts & Jobs را انتخاب کنید و شرکت یا کاری را که می‌خواهید مدیریت کنید باز کنید.",
-          "inputs": "اطلاعات لازم به این بستگی دارد که شرکت یا کار جدید ایجاد می‌کنید یا مورد موجود را باز می‌کنید.",
-          "result": "فضای قراردادها و کارهای شرکتی با سوابق و کنترل‌های موجود باز می‌شود.",
-          "notes": "بررسی کنید هزینه‌ها، بسته‌های کاری و پرداخت‌ها به شرکت و کار درست متصل باشند. این فضا با بخش مستقل اسناد قرارداد تفاوت دارد."
+          "purpose": "مرکز Company Contracts & Jobs را برای مدیریت شرکت‌های ثبت‌شده، قراردادها و کارهای آن‌ها و عملکرد مالی کارهای شرکتی باز می‌کند.",
+          "when": "برای مدیریت کارهای دریافتی از یک شرکت، از جمله پروژه‌ها، بسته‌های کاری، دریافتی‌ها، هزینه‌ها یا سوابق پرداخت آن‌ها از این بخش استفاده کنید.",
+          "how": "از Business Workspace گزینه Company Contracts & Jobs را انتخاب کنید. برای ثبت شرکت Add Company، برای یافتن شرکت و بازکردن کارهای آن Companies List و برای بررسی نتایج ثبت‌شده Company Project Profit & Loss را انتخاب کنید.",
+          "inputs": "برای بازکردن مرکز ورودی لازم نیست. ایجاد یا ویرایش شرکت یا کار به فیلدهای فرم مربوط نیاز دارد؛ نام شرکت و نام کار برای سوابق جدید الزامی هستند.",
+          "result": "این مرکز گزینه‌های Add Company، Companies List و Company Project Profit & Loss را نمایش می‌دهد.",
+          "notes": "دریافتی‌ها، کسورات، هزینه‌ها و سود/زیان کارهای شرکتی فقط در Company Contracts & Jobs ثبت می‌شوند و به Accountancy منتقل یا با آن ادغام نمی‌شوند. این بخش از فضای مستقل Contract Management جدا است."
         }
       },
       "handler_or_behavior": "`prPage(`"
@@ -5904,20 +5904,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the shared Control Panel for business people and related shared settings.",
-          "when": "Use this when managing shared partners, workers or contractors used by the business workspaces.",
-          "how": "Select Control Panel and open the relevant people or settings section.",
-          "inputs": "Inputs depend on the person or setting being added or edited.",
-          "result": "The shared control panel displays the available management sections and saved information.",
-          "notes": "Changes to shared people or settings may affect multiple projects or company jobs. Check the selected person and details carefully before saving."
+          "purpose": "Opens the Control Panel landing page for managing reusable business records.",
+          "when": "Use this when you need to manage shared partner, worker or contractor records used across project workflows.",
+          "how": "From Business Workspace, select Control Panel. Choose Partners, Workers or Contractors to open the corresponding directory.",
+          "inputs": "No input is required to open the Control Panel. The selected directory may require details when adding or editing a record.",
+          "result": "The Control Panel displays three directories: Partners, Workers and Contractors.",
+          "notes": "The page describes these as reusable business records. People may be deactivated rather than permanently removed when financial history exists. A change to a shared record can affect its use across projects, so verify details before saving."
         },
         "fa": {
-          "purpose": "پنل کنترل مشترک را برای مدیریت افراد کسب‌وکار و تنظیمات مرتبط باز می‌کند.",
-          "when": "وقتی می‌خواهید شرکا، کارگران یا پیمانکاران مشترک میان فضاهای کاری کسب‌وکار را مدیریت کنید، از این گزینه استفاده کنید.",
-          "how": "Control Panel را انتخاب کنید و بخش مربوط به افراد یا تنظیمات را باز کنید.",
-          "inputs": "ورودی‌ها به شخص یا تنظیمی که اضافه یا ویرایش می‌کنید بستگی دارند.",
-          "result": "پنل کنترل مشترک، بخش‌های مدیریتی و اطلاعات ذخیره‌شده را نمایش می‌دهد.",
-          "notes": "تغییر افراد یا تنظیمات مشترک ممکن است بر چند پروژه یا کار شرکتی اثر بگذارد. پیش از ذخیره، شخص انتخاب‌شده و جزئیات او را با دقت بررسی کنید."
+          "purpose": "صفحه اصلی Control Panel را برای مدیریت سوابق مشترک و قابل استفاده مجدد کسب‌وکار باز می‌کند.",
+          "when": "وقتی می‌خواهید سوابق مشترک شرکا، کارگران یا پیمانکاران مورد استفاده در گردش‌کارهای پروژه را مدیریت کنید، از این بخش استفاده کنید.",
+          "how": "از Business Workspace گزینه Control Panel را انتخاب کنید. برای بازکردن فهرست مربوط، Partners، Workers یا Contractors را انتخاب کنید.",
+          "inputs": "برای بازکردن Control Panel ورودی لازم نیست. هنگام افزودن یا ویرایش سابقه، فهرست انتخاب‌شده ممکن است به اطلاعات مربوط نیاز داشته باشد.",
+          "result": "Control Panel سه فهرست Partners، Workers و Contractors را نمایش می‌دهد.",
+          "notes": "این صفحه این موارد را سوابق قابل استفاده مجدد کسب‌وکار معرفی می‌کند. در صورت وجود سابقه مالی، ممکن است افراد به‌جای حذف دائمی غیرفعال شوند. تغییر یک سابقه مشترک می‌تواند بر استفاده از آن در پروژه‌ها اثر بگذارد؛ بنابراین پیش از ذخیره، جزئیات را بررسی کنید."
         }
       },
       "handler_or_behavior": "`prPage(`"
@@ -5930,20 +5930,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the Projects sub-workspace, including project creation, the project list and project profit-and-loss view.",
-          "when": "Use this when creating a new job project, finding an existing project or reviewing its financial performance.",
-          "how": "Open Projects. Use New Project to create a project, Projects List to find saved work, or Project Profit & Loss to review the selected project’s figures.",
-          "inputs": "A new project requires the details requested by its form. Selecting an existing project requires choosing it from the list.",
-          "result": "The selected project workflow opens, or the app displays the saved project list or the selected project’s profit-and-loss summary.",
-          "notes": "Project profit and loss is based on project records and may differ from the Accountancy dashboard or tax figures. Verify the project and date range before relying on the totals."
+          "purpose": "Opens the Projects area, which provides project creation, saved-project management and project profit-and-loss reporting.",
+          "when": "Use this when you need to create a standalone project, find or manage an existing project, or review project-specific financial performance.",
+          "how": "Open Projects from Business Workspace. Select New Project to create a project, Projects List to search and open saved projects, or Project Profit & Loss to choose a project and review its figures.",
+          "inputs": "No input is required to open the Projects area. A new project requires a project name and the other details requested by its form. Profit-and-loss review requires selecting a project where applicable.",
+          "result": "The Projects area provides its project workflows and project-level financial reporting. Project income, expenses and profit/loss remain within Projects.",
+          "notes": "Project records are separate from general Accountancy records and are not transferred to or combined with Accounting. Project reports reflect the data recorded in the project area; verify the selected project and report period before relying on the figures."
         },
         "fa": {
-          "purpose": "زیر‌بخش Projects را باز می‌کند که شامل ایجاد پروژه، فهرست پروژه‌ها و نمای سود و زیان پروژه است.",
-          "when": "برای ایجاد پروژه کاری جدید، یافتن پروژه موجود یا بررسی عملکرد مالی آن از این گزینه استفاده کنید.",
-          "how": "Projects را باز کنید. برای ایجاد پروژه از New Project، برای یافتن کارهای ذخیره‌شده از Projects List و برای بررسی ارقام پروژه انتخاب‌شده از Project Profit & Loss استفاده کنید.",
-          "inputs": "پروژه جدید به اطلاعات درخواستی فرم نیاز دارد. برای انتخاب پروژه موجود باید آن را از فهرست انتخاب کنید.",
-          "result": "گردش‌کار پروژه انتخاب‌شده باز می‌شود یا فهرست پروژه‌های ذخیره‌شده و خلاصه سود و زیان پروژه نمایش داده می‌شود.",
-          "notes": "سود و زیان پروژه بر اساس سوابق همان پروژه محاسبه می‌شود و ممکن است با داشبورد Accountancy یا ارقام مالیاتی متفاوت باشد. پیش از اتکا به مجموع‌ها، پروژه و بازه تاریخ را بررسی کنید."
+          "purpose": "بخش Projects را باز می‌کند که امکان ایجاد پروژه، مدیریت پروژه‌های ذخیره‌شده و گزارش سود و زیان پروژه را فراهم می‌کند.",
+          "when": "برای ایجاد پروژه مستقل، یافتن یا مدیریت پروژه موجود یا بررسی عملکرد مالی مختص یک پروژه از این بخش استفاده کنید.",
+          "how": "از Business Workspace وارد Projects شوید. برای ایجاد پروژه New Project، برای جست‌وجو و بازکردن پروژه‌های ذخیره‌شده Projects List و برای انتخاب پروژه و بررسی ارقام آن Project Profit & Loss را انتخاب کنید.",
+          "inputs": "برای بازکردن بخش Projects ورودی لازم نیست. پروژه جدید به نام پروژه و سایر اطلاعات درخواستی فرم نیاز دارد. برای بررسی سود و زیان، در صورت لزوم باید پروژه موردنظر را انتخاب کنید.",
+          "result": "بخش Projects گردش‌کارهای پروژه و گزارش مالی در سطح پروژه را ارائه می‌کند. درآمد، هزینه و سود/زیان پروژه در همین بخش باقی می‌مانند.",
+          "notes": "سوابق پروژه از سوابق عمومی Accountancy جدا هستند و به Accounting منتقل یا با آن ادغام نمی‌شوند. گزارش‌های پروژه بر اساس اطلاعات ثبت‌شده در بخش پروژه محاسبه می‌شوند؛ پیش از اتکا به ارقام، پروژه انتخاب‌شده و بازه گزارش را بررسی کنید."
         }
       },
       "handler_or_behavior": "`prPage(`"
@@ -5956,20 +5956,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the company workspace containing companies, contracts, jobs, work packages and payment records.",
-          "when": "When managing a company engagement and its job-level financial records.",
-          "how": "Open the hub and choose the company or job workflow you need.",
-          "inputs": "No input is required to open the Company Contracts & Jobs hub. Selecting or creating a company, contract, job or sub-project requires the details requested by that specific form.",
-          "result": "The company workspace and its available company/job actions are displayed.",
-          "notes": "Company-job financial records are separate from Accountancy records; they are not automatically transferred or combined."
+          "purpose": "Opens the Company Contracts & Jobs hub, which provides company registration, company lists and company-job profit-and-loss reporting.",
+          "when": "Use this when organising company engagements and managing the associated company and job records.",
+          "how": "From Business Workspace, open Company Contracts & Jobs. Select Add Company to register a company, Companies List to find registered companies and open their jobs, or Company Project Profit & Loss to review company/job results.",
+          "inputs": "No input is required to open the hub. Company and job forms request their own details; a company name and a job name are required when creating those records.",
+          "result": "The hub displays the company-management actions and the separate company-job financial report.",
+          "notes": "Company-job financial records are maintained separately from Accountancy and are not automatically transferred or combined. The hub's profit-and-loss view uses Company Contracts & Jobs records only."
         },
         "fa": {
-          "purpose": "بخش شرکت‌ها، قراردادها، کارها، بسته‌های کاری و پرداخت‌های مرتبط با هر کار را باز می‌کند.",
-          "when": "هنگام مدیریت همکاری با یک شرکت و سوابق مالی مربوط به کار آن از این گزینه استفاده کنید.",
-          "how": "بخش را باز کنید و گردش‌کار شرکت یا کار موردنظر را انتخاب کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "فضای شرکت و گزینه‌های مربوط به شرکت و کار نمایش داده می‌شوند.",
-          "notes": "سوابق مالی کارهای شرکتی از حسابداری عمومی جدا هستند و خودکار به آن منتقل یا با آن ادغام نمی‌شوند."
+          "purpose": "مرکز Company Contracts & Jobs را باز می‌کند که امکان ثبت شرکت، مشاهده فهرست شرکت‌ها و گزارش سود و زیان کارهای شرکتی را فراهم می‌کند.",
+          "when": "برای سازمان‌دهی همکاری‌های شرکتی و مدیریت سوابق شرکت‌ها و کارهای مرتبط با آن‌ها از این بخش استفاده کنید.",
+          "how": "از Business Workspace وارد Company Contracts & Jobs شوید. برای ثبت شرکت Add Company، برای یافتن شرکت‌های ثبت‌شده و بازکردن کارهای آن‌ها Companies List و برای بررسی نتایج مالی شرکت یا کار Company Project Profit & Loss را انتخاب کنید.",
+          "inputs": "برای بازکردن مرکز ورودی لازم نیست. فرم‌های شرکت و کار اطلاعات مخصوص خود را درخواست می‌کنند؛ هنگام ایجاد این سوابق، نام شرکت و نام کار الزامی است.",
+          "result": "این مرکز گزینه‌های مدیریت شرکت و گزارش مالی جداگانه کارهای شرکتی را نمایش می‌دهد.",
+          "notes": "سوابق مالی کارهای شرکتی جدا از Accountancy نگهداری می‌شوند و خودکار به آن منتقل یا با آن ادغام نمی‌شوند. نمای سود و زیان این مرکز فقط از سوابق Company Contracts & Jobs استفاده می‌کند."
         }
       },
       "handler_or_behavior": "`prOpenCompanyHubFromWorkspace()`"
@@ -5982,20 +5982,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens shared directories for partners, workers and contractors used across project workflows.",
-          "when": "When you need to add, update or reuse a business contact across projects.",
-          "how": "Open Control Panel and select the relevant directory.",
-          "inputs": "No input is required to open the Control Panel. Adding or editing a partner, worker or contractor requires the person's name; contact details and notes are optional where the form provides them.",
-          "result": "The selected shared directory is displayed.",
-          "notes": "A shared record may be reused in multiple projects; verify identity and details before editing."
+          "purpose": "Opens the Control Panel, where reusable Partners, Workers and Contractors directories are managed.",
+          "when": "Use this when adding, finding or maintaining a shared business contact for use in project workflows.",
+          "how": "From Business Workspace, select Control Panel. Choose Partners, Workers or Contractors. Open the relevant directory to add, edit or review its records.",
+          "inputs": "No input is required to open the Control Panel. When creating a partner, worker or contractor, enter the required name; other contact fields and notes depend on the selected form and may be optional.",
+          "result": "The Control Panel provides access to the Partners, Workers and Contractors directories.",
+          "notes": "These are shared records that can be selected in more than one project workflow. The page states that people are deactivated rather than permanently removed where financial history exists. Check the correct record before editing it."
         },
         "fa": {
-          "purpose": "فهرست‌های مشترک شرکا، کارگران و پیمانکاران مورد استفاده در پروژه‌ها را باز می‌کند.",
-          "when": "وقتی می‌خواهید مخاطب کسب‌وکار را در پروژه‌های مختلف اضافه، ویرایش یا دوباره استفاده کنید.",
-          "how": "Control Panel را باز کنید و فهرست مربوط را انتخاب کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "فهرست مشترک انتخاب‌شده نمایش داده می‌شود.",
-          "notes": "یک سابقه مشترک ممکن است در چند پروژه استفاده شود؛ پیش از ویرایش، هویت و جزئیات را بررسی کنید."
+          "purpose": "Control Panel را باز می‌کند؛ بخشی که در آن فهرست‌های قابل استفاده مجدد Partners، Workers و Contractors مدیریت می‌شوند.",
+          "when": "برای افزودن، یافتن یا نگهداری اطلاعات تماس مشترک کسب‌وکار که در گردش‌کارهای پروژه استفاده می‌شود، از این بخش استفاده کنید.",
+          "how": "از Business Workspace گزینه Control Panel را انتخاب کنید. سپس Partners، Workers یا Contractors را انتخاب کنید و برای افزودن، ویرایش یا بررسی سوابق وارد فهرست مربوط شوید.",
+          "inputs": "برای بازکردن Control Panel ورودی لازم نیست. هنگام ایجاد سابقه شریک، کارگر یا پیمانکار، نام الزامی را وارد کنید؛ سایر فیلدهای تماس و یادداشت‌ها به فرم انتخاب‌شده بستگی دارند و ممکن است اختیاری باشند.",
+          "result": "Control Panel دسترسی به فهرست‌های Partners، Workers و Contractors را فراهم می‌کند.",
+          "notes": "این سوابق مشترک هستند و می‌توان آن‌ها را در بیش از یک گردش‌کار پروژه انتخاب کرد. طبق توضیح صفحه، در صورت وجود سابقه مالی، افراد به‌جای حذف دائمی غیرفعال می‌شوند. پیش از ویرایش، از انتخاب سابقه صحیح اطمینان حاصل کنید."
         }
       },
       "handler_or_behavior": "`prPage(`"
