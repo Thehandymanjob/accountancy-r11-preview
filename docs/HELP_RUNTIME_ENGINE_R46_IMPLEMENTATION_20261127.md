@@ -61,3 +61,12 @@ Source review corrected the English and Persian text for nine Draft entries: THA
 - Static allowlist count: 33. Total contextual Help controls mapped: 38 (33 static, five dynamic-template).
 - Version target: `THA-273-R11-PREVIEW-20261127-R53`. Version Authority pins and mapping baselines must match the new index and runtime blob SHAs.
 - Static source inspection only. Live click behavior, event isolation, language switching, mobile layout and iPhone Safari remain unverified. No Preview deployment or Production change.
+
+
+## R54 specialist report and diagnostics bindings
+
+- Added six completed contextual Help topics to the explicit static selector allowlist: `THA-HLP-0042` (selected-period completion in `#report188Calendar`), `THA-HLP-0047` (version details), and `THA-HLP-0052`–`THA-HLP-0055` (diagnostic report, read-only storage audit, activity CSV and local self-check in `#monitor`).
+- Selectors use exact literal `onclick` values scoped to their owning panel. The selected-period completion control is distinguished from the similarly handled control in the report builder.
+- Static allowlist count: 39. Total contextual Help controls mapped: 44 (39 static, five dynamic-template).
+- Version target: `THA-273-R11-PREVIEW-20261127-R54`. The embedded canonical URL, Build ID, index blob SHA and runtime asset pin must remain synchronized.
+- Source-level mapping only. Live Help clicks, language switching, mobile layout, actual report actions and iPhone Safari remain unverified. No Preview deployment or Production change.
