@@ -3957,7 +3957,7 @@
       "audit_ref": "INV-049",
       "element_id": null,
       "label": "Check reminders now",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Check now whether a records-review reminder is due.",
@@ -3974,6 +3974,78 @@
           "inputs": "برنامه اطلاعات ذخیره‌شده تکمیل و یادآوری دوره گزارش فعلی را بررسی می‌کند.",
           "result": "وضعیت یادآوری بررسی می‌شود و در بخش وضعیت فرایند نمایش داده می‌شود.",
           "notes": "این گزینه فقط اطلاعات یادآوری محلی برنامه را بررسی می‌کند و با HMRC یا حسابدار تماس نمی‌گیرد."
+        },
+        "ar": {
+          "purpose": "يتحقق الآن مما إذا كان موعد تذكير مراجعة السجلات قد حان.",
+          "when": "استخدمه للتحقق من حالة التذكير دون انتظار موعد التذكير المجدول التالي.",
+          "how": "اختر Check reminders now في قسم اكتمال السجلات.",
+          "inputs": "يفحص التطبيق معلومات الإكمال والتذكير المحفوظة للفترة الحالية.",
+          "result": "يتم التحقق من حالة التذكير ويظهر أي تذكير مستحق في منطقة حالة سير العمل.",
+          "notes": "يفحص هذا معلومات التذكير المحلية في التطبيق فقط؛ ولا يتصل بـ HMRC أو بالمحاسب."
+        },
+        "ckb": {
+          "purpose": "ئێستا دەپشکنێت ئایا کاتی بیرخستنەوەی پێداچوونەوە بە تۆمارەکان هاتووە یان نا.",
+          "when": "بۆ پشکنینی دۆخی بیرخستنەوە بەبێ چاوەڕوانی نۆرەی بیرخستنەوەی داهاتوو بەکاریبهێنە.",
+          "how": "لە بەشی تەواوکردنی تۆمارەکان Check reminders now هەڵبژێرە.",
+          "inputs": "ئەپەکە زانیاری پاشەکەوتکراوی تەواوبوون و بیرخستنەوە بۆ ماوەی ڕاپۆرتی ئێستا دەپشکنێت.",
+          "result": "دۆخی بیرخستنەوە دەپشکنرێت و هەر بیرخستنەوەیەکی سەرکەوتوو لە بەشی دۆخی ڕەوتی کار پیشان دەدرێت.",
+          "notes": "ئەمە تەنها زانیاری بیرخستنەوەی ناوخۆیی ئەپەکە دەپشکنێت؛ پەیوەندی بە HMRC یان ژمێریارەکەت ناکات."
+        },
+        "kmr": {
+          "purpose": "Niha kontrol dike ka gelo dema bîranîna kontrolkirina tomarê hatiye an na.",
+          "when": "Ji bo kontrolkirina rewşa bîranînê bêyî li benda bîranîna plansazkirî ya din bimînî, vê bikar bîne.",
+          "how": "Di beşa temamkirina tomarê de Check reminders now hilbijêre.",
+          "inputs": "Sepan agahiyên hilanî yên temambûn û bîranînê ji bo dema rapora niha kontrol dike.",
+          "result": "Rewşa bîranînê tê kontrolkirin û her bîranîna dema wê hatiye di qada rewşa pêvajoyê de tê nîşandan.",
+          "notes": "Ev tenê agahiyên bîranîna herêmî ya sepanê kontrol dike; bi HMRC an hesabkarê te re têkilî nagire."
+        },
+        "tr": {
+          "purpose": "Kayıtları gözden geçirme hatırlatıcısının vaktinin gelip gelmediğini hemen kontrol eder.",
+          "when": "Bir sonraki planlanmış hatırlatmayı beklemeden hatırlatma durumunu kontrol etmek için kullanın.",
+          "how": "Kayıt tamamlama bölümünde Check reminders now seçeneğini seçin.",
+          "inputs": "Uygulama, geçerli raporlama dönemi için kaydedilmiş tamamlama ve hatırlatma bilgilerini kontrol eder.",
+          "result": "Hatırlatma durumu kontrol edilir ve zamanı gelen hatırlatma iş akışı durum alanında gösterilir.",
+          "notes": "Bu yalnızca uygulamanın yerel hatırlatma bilgilerini kontrol eder; HMRC veya muhasebecinizle iletişim kurmaz."
+        },
+        "pl": {
+          "purpose": "Sprawdza teraz, czy nadszedł termin przypomnienia o przeglądzie rejestrów.",
+          "when": "Użyj, aby sprawdzić status przypomnienia bez czekania na następne zaplanowane przypomnienie.",
+          "how": "W obszarze kompletności rejestrów wybierz Check reminders now.",
+          "inputs": "Aplikacja sprawdza zapisane informacje o ukończeniu i przypomnieniach dla bieżącego okresu raportowania.",
+          "result": "Status przypomnienia zostaje sprawdzony, a ewentualne zaległe przypomnienie pojawia się w obszarze statusu procesu.",
+          "notes": "Ta czynność sprawdza wyłącznie lokalne informacje o przypomnieniach w aplikacji; nie kontaktuje się z HMRC ani księgowym."
+        },
+        "ur": {
+          "purpose": "فوراً جانچتا ہے کہ ریکارڈز کے جائزے کی یاددہانی کا وقت آیا ہے یا نہیں۔",
+          "when": "اگلی مقررہ یاددہانی کا انتظار کیے بغیر یاددہانی کی حالت دیکھنے کے لیے استعمال کریں۔",
+          "how": "ریکارڈ مکمل کرنے والے حصے میں Check reminders now منتخب کریں۔",
+          "inputs": "ایپ موجودہ رپورٹنگ مدت کے لیے محفوظ شدہ تکمیل اور یاددہانی کی معلومات چیک کرتی ہے۔",
+          "result": "یاددہانی کی حالت چیک ہوتی ہے اور واجب یاددہانی ورک فلو کی حالت والے حصے میں دکھائی جاتی ہے۔",
+          "notes": "یہ صرف ایپ کی مقامی یاددہانی کی معلومات دیکھتا ہے؛ HMRC یا آپ کے اکاؤنٹنٹ سے رابطہ نہیں کرتا۔"
+        },
+        "pa": {
+          "purpose": "ਹੁਣ ਜਾਂਚਦਾ ਹੈ ਕਿ ਰਿਕਾਰਡਾਂ ਦੀ ਸਮੀਖਿਆ ਵਾਲੀ ਯਾਦਦਿਹਾਨੀ ਦਾ ਸਮਾਂ ਆ ਗਿਆ ਹੈ ਜਾਂ ਨਹੀਂ।",
+          "when": "ਅਗਲੀ ਤੈਅ ਯਾਦਦਿਹਾਨੀ ਦੀ ਉਡੀਕ ਕੀਤੇ ਬਿਨਾਂ ਇਸਦੀ ਸਥਿਤੀ ਵੇਖਣ ਲਈ ਵਰਤੋ।",
+          "how": "ਰਿਕਾਰਡ ਪੂਰਾ ਕਰਨ ਵਾਲੇ ਭਾਗ ਵਿੱਚ Check reminders now ਚੁਣੋ।",
+          "inputs": "ਐਪ ਮੌਜੂਦਾ ਰਿਪੋਰਟ ਮਿਆਦ ਲਈ ਸੰਭਾਲੀ ਪੂਰਨਤਾ ਅਤੇ ਯਾਦਦਿਹਾਨੀ ਜਾਣਕਾਰੀ ਜਾਂਚਦੀ ਹੈ।",
+          "result": "ਯਾਦਦਿਹਾਨੀ ਦੀ ਸਥਿਤੀ ਜਾਂਚੀ ਜਾਂਦੀ ਹੈ ਅਤੇ ਜੇ ਕੋਈ ਯਾਦਦਿਹਾਨੀ ਬਾਕੀ ਹੋਵੇ ਤਾਂ ਵਰਕਫਲੋ ਸਥਿਤੀ ਭਾਗ ਵਿੱਚ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ।",
+          "notes": "ਇਹ ਸਿਰਫ਼ ਐਪ ਦੀ ਸਥਾਨਕ ਯਾਦਦਿਹਾਨੀ ਜਾਣਕਾਰੀ ਜਾਂਚਦਾ ਹੈ; HMRC ਜਾਂ ਤੁਹਾਡੇ ਅਕਾਊਂਟੈਂਟ ਨਾਲ ਸੰਪਰਕ ਨਹੀਂ ਕਰਦਾ।"
+        },
+        "prs": {
+          "purpose": "همین حالا بررسی می‌کند که آیا زمان یادآوری بازبینی سوابق فرا رسیده است یا نه.",
+          "when": "برای بررسی وضعیت یادآوری بدون انتظار برای نوبت بعدی استفاده کنید.",
+          "how": "در بخش تکمیل سوابق، Check reminders now را انتخاب کنید.",
+          "inputs": "برنامه اطلاعات ذخیره‌شده تکمیل و یادآوری دوره گزارش فعلی را بررسی می‌کند.",
+          "result": "وضعیت یادآوری بررسی می‌شود و هر یادآوری سررسیدشده در بخش وضعیت گردش‌کار نمایش داده می‌شود.",
+          "notes": "این گزینه فقط اطلاعات یادآوری محلی برنامه را بررسی می‌کند و با HMRC یا حسابدار تماس نمی‌گیرد."
+        },
+        "ps": {
+          "purpose": "اوس ګوري چې د ثبتونو د بیاکتنې د یادونې وخت رسېدلی که نه.",
+          "when": "د راتلونکې ټاکل شوې یادونې له انتظار پرته د یادونې د حالت د کتلو لپاره یې وکاروئ.",
+          "how": "د ثبتونو د بشپړولو په برخه کې Check reminders now وټاکئ.",
+          "inputs": "اپ د اوسني راپور مودې لپاره د بشپړتیا او یادونې خوندي شوي معلومات ګوري.",
+          "result": "د یادونې حالت کتل کېږي او هره پر وخت شوې یادونه د کاري بهیر د حالت په برخه کې ښکاري.",
+          "notes": "دا یوازې د اپ محلي د یادونې معلومات ګوري؛ له HMRC یا ستاسو له حسابدار سره اړیکه نه نیسي."
         }
       },
       "handler_or_behavior": "`report188CheckDue()`"
@@ -3983,7 +4055,7 @@
       "audit_ref": "INV-054",
       "element_id": null,
       "label": "Confirm records complete for selected period",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Confirm that all income and expenses for the currently selected report period have been entered.",
@@ -4000,6 +4072,78 @@
           "inputs": "دوره گزارش فعلی و وضعیت ذخیره‌شده تکمیل آن استفاده می‌شوند.",
           "result": "برنامه تأیید را برای دوره انتخاب‌شده ثبت و یادآوری بازبینی پس از ۱۰ روز تنظیم می‌کند.",
           "notes": "فقط زمانی تأیید کنید که سوابق دوره کامل باشند. این کار اظهارنامه مالیاتی ارسال نمی‌کند و ارقام را مستقلاً راستی‌آزمایی نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يؤكد إدخال جميع الإيرادات والمصروفات لفترة التقرير المحددة حاليًا.",
+          "when": "استخدمه بعد مراجعة فترة التقرير والتأكد من تسجيل جميع المعاملات ذات الصلة بها.",
+          "how": "في فترة التقرير المحددة، راجع السجلات واختر Confirm records complete.",
+          "inputs": "تُستخدم فترة التقرير الحالية وحالة اكتمالها المحفوظة.",
+          "result": "يسجل التطبيق التأكيد للفترة المحددة ويحدد تذكيرًا بالمراجعة بعد 10 أيام.",
+          "notes": "أكد فقط عندما تكون سجلات الفترة مكتملة. لا يرسل هذا إقرارًا ضريبيًا ولا يتحقق من الأرقام بشكل مستقل."
+        },
+        "ckb": {
+          "purpose": "پشتڕاست دەکاتەوە کە هەموو داهات و خەرجییەکانی ماوەی ڕاپۆرتی ئێستا تۆمار کراون.",
+          "when": "دوای پێداچوونەوە بە ماوەی ڕاپۆرت و دڵنیابوون لە تۆمارکردنی هەموو مامەڵە پەیوەندیدارەکان بەکاریبهێنە.",
+          "how": "لە ماوەی ڕاپۆرتی هەڵبژێردراودا تۆمارەکان بپشکنە و Confirm records complete هەڵبژێرە.",
+          "inputs": "ماوەی ڕاپۆرتی ئێستا و دۆخی تەواوبوونی پاشەکەوتکراوی بەکاردێن.",
+          "result": "ئەپەکە پشتڕاستکردنەوە بۆ ماوەی هەڵبژێردراو تۆمار دەکات و بیرخستنەوەی پێداچوونەوە دوای ١٠ ڕۆژ دادەنێت.",
+          "notes": "تەنها کاتێک پشتڕاستی بکەرەوە کە تۆمارەکانی ماوەکە تەواو بن. ئەمە ڕاگەیاندنی باج نانێرێت و ژمارەکان بە سەربەخۆیی پشتڕاست ناکاتەوە."
+        },
+        "kmr": {
+          "purpose": "Piştrast dike ku hemû dahat û lêçûnên ji bo dema rapora niha ya hilbijartî hatine tomarkirin.",
+          "when": "Piştî kontrolkirina dema raporê û piştrastbûna ku hemû danûstandinên têkildar hatine tomarkirin, vê bikar bîne.",
+          "how": "Di dema rapora hilbijartî de tomar kontrol bike û Confirm records complete hilbijêre.",
+          "inputs": "Dema rapora niha û rewşa temambûna wê ya hilanî tê bikaranîn.",
+          "result": "Sepan piştrastkirinê ji bo dema hilbijartî tomar dike û bîranîna kontrolê piştî 10 rojan saz dike.",
+          "notes": "Tenê dema ku tomarên wê demê temam bin piştrast bike. Ev daxuyaniya bacê naşîne û hejmaran bi serê xwe kontrol nake."
+        },
+        "tr": {
+          "purpose": "Şu anda seçili raporlama dönemi için tüm gelir ve giderlerin girildiğini onaylar.",
+          "when": "Rapor dönemini gözden geçirip bu döneme ait tüm işlemlerin kaydedildiğini doğruladıktan sonra kullanın.",
+          "how": "Seçilen raporlama döneminde kayıtları kontrol edin ve Confirm records complete seçeneğini seçin.",
+          "inputs": "Geçerli raporlama dönemi ve kaydedilmiş tamamlama durumu kullanılır.",
+          "result": "Uygulama seçilen dönem için onayı kaydeder ve 10 gün sonra inceleme hatırlatıcısı planlar.",
+          "notes": "Yalnızca dönemin kayıtları eksiksiz olduğunda onaylayın. Bu işlem vergi beyannamesi göndermez ve rakamları bağımsız olarak doğrulamaz."
+        },
+        "pl": {
+          "purpose": "Potwierdza, że wszystkie przychody i wydatki za aktualnie wybrany okres raportowania zostały wprowadzone.",
+          "when": "Użyj po sprawdzeniu okresu raportowania i potwierdzeniu, że zapisano wszystkie dotyczące go transakcje.",
+          "how": "W wybranym okresie raportowania sprawdź rejestry i wybierz Confirm records complete.",
+          "inputs": "Wykorzystywany jest bieżący okres raportowania i zapisany status jego kompletności.",
+          "result": "Aplikacja zapisuje potwierdzenie dla wybranego okresu i planuje przypomnienie o przeglądzie po 10 dniach.",
+          "notes": "Potwierdzaj tylko wtedy, gdy rejestry okresu są kompletne. Nie wysyła to zeznania podatkowego ani nie weryfikuje niezależnie wartości."
+        },
+        "ur": {
+          "purpose": "تصدیق کرتا ہے کہ اس وقت منتخب رپورٹنگ مدت کی تمام آمدنی اور اخراجات درج ہو چکے ہیں۔",
+          "when": "رپورٹ کی مدت دیکھنے اور اس مدت کے تمام متعلقہ لین دین درج ہونے کی تصدیق کے بعد استعمال کریں۔",
+          "how": "منتخب رپورٹ مدت میں ریکارڈ دیکھیں اور Confirm records complete منتخب کریں۔",
+          "inputs": "موجودہ رپورٹنگ مدت اور اس کی محفوظ شدہ تکمیل کی حالت استعمال ہوتی ہے۔",
+          "result": "ایپ منتخب مدت کے لیے تصدیق محفوظ کرتی ہے اور 10 دن بعد جائزے کی یاددہانی مقرر کرتی ہے۔",
+          "notes": "صرف اس وقت تصدیق کریں جب مدت کے ریکارڈ مکمل ہوں۔ یہ ٹیکس ریٹرن جمع نہیں کرتا اور اعداد کی آزادانہ تصدیق نہیں کرتا۔"
+        },
+        "pa": {
+          "purpose": "ਪੁਸ਼ਟੀ ਕਰਦਾ ਹੈ ਕਿ ਮੌਜੂਦਾ ਚੁਣੀ ਰਿਪੋਰਟ ਮਿਆਦ ਲਈ ਸਾਰੀ ਆਮਦਨ ਅਤੇ ਖਰਚੇ ਦਰਜ ਕੀਤੇ ਗਏ ਹਨ।",
+          "when": "ਰਿਪੋਰਟ ਮਿਆਦ ਦੀ ਸਮੀਖਿਆ ਅਤੇ ਉਸ ਮਿਆਦ ਦੇ ਸਾਰੇ ਸੰਬੰਧਿਤ ਲੈਣ-ਦੇਣ ਦਰਜ ਹੋਣ ਦੀ ਪੁਸ਼ਟੀ ਤੋਂ ਬਾਅਦ ਵਰਤੋ।",
+          "how": "ਚੁਣੀ ਰਿਪੋਰਟ ਮਿਆਦ ਵਿੱਚ ਰਿਕਾਰਡ ਜਾਂਚੋ ਅਤੇ Confirm records complete ਚੁਣੋ।",
+          "inputs": "ਮੌਜੂਦਾ ਰਿਪੋਰਟ ਮਿਆਦ ਅਤੇ ਇਸਦੀ ਸੰਭਾਲੀ ਪੂਰਨਤਾ ਸਥਿਤੀ ਵਰਤੀ ਜਾਂਦੀ ਹੈ।",
+          "result": "ਐਪ ਚੁਣੀ ਮਿਆਦ ਲਈ ਪੁਸ਼ਟੀ ਦਰਜ ਕਰਦੀ ਹੈ ਅਤੇ 10 ਦਿਨਾਂ ਬਾਅਦ ਸਮੀਖਿਆ ਯਾਦਦਿਹਾਨੀ ਤੈਅ ਕਰਦੀ ਹੈ।",
+          "notes": "ਸਿਰਫ਼ ਉਦੋਂ ਪੁਸ਼ਟੀ ਕਰੋ ਜਦੋਂ ਮਿਆਦ ਦੇ ਰਿਕਾਰਡ ਪੂਰੇ ਹੋਣ। ਇਹ ਟੈਕਸ ਰਿਟਰਨ ਜਮ੍ਹਾਂ ਨਹੀਂ ਕਰਦਾ ਅਤੇ ਅੰਕੜਿਆਂ ਦੀ ਸੁਤੰਤਰ ਜਾਂਚ ਨਹੀਂ ਕਰਦਾ।"
+        },
+        "prs": {
+          "purpose": "تأیید می‌کند که تمام درآمدها و هزینه‌های دوره گزارش انتخاب‌شده فعلی ثبت شده‌اند.",
+          "when": "پس از بررسی دوره گزارش و اطمینان از ثبت تمام تراکنش‌های مرتبط با آن دوره استفاده کنید.",
+          "how": "در دوره گزارش انتخاب‌شده، سوابق را بررسی و Confirm records complete را انتخاب کنید.",
+          "inputs": "دوره گزارش فعلی و وضعیت ذخیره‌شده تکمیل آن استفاده می‌شوند.",
+          "result": "برنامه تأیید را برای دوره انتخاب‌شده ثبت و یادآوری بازبینی پس از ۱۰ روز تنظیم می‌کند.",
+          "notes": "فقط وقتی تأیید کنید که سوابق دوره کامل باشند. این کار اظهارنامه مالیاتی ارسال نمی‌کند و ارقام را مستقلاً راستی‌آزمایی نمی‌کند."
+        },
+        "ps": {
+          "purpose": "تاییدوي چې د اوسني ټاکل شوي راپور مودې ټول عایدات او لګښتونه ثبت شوي دي.",
+          "when": "د راپور مودې له کتلو او د هغې مودې د ټولو اړوندو معاملاتو د ثبت له تایید وروسته یې وکاروئ.",
+          "how": "په ټاکل شوې راپور موده کې ثبتونه وګورئ او Confirm records complete وټاکئ.",
+          "inputs": "د راپور اوسنۍ موده او د هغې خوندي شوی د بشپړتیا حالت کارول کېږي.",
+          "result": "اپ د ټاکل شوې مودې لپاره تایید ثبتوي او له ۱۰ ورځو وروسته د بیاکتنې یادونه ټاکي.",
+          "notes": "یوازې هغه وخت تایید وکړئ چې د مودې ثبتونه بشپړ وي. دا مالیاتي اظهارنامه نه لېږي او شمېرې په خپلواک ډول نه تاییدوي."
         }
       },
       "handler_or_behavior": "`report188ConfirmComplete()`"
@@ -4009,7 +4153,7 @@
       "audit_ref": "INV-055",
       "element_id": null,
       "label": "Check reminders now",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Check immediately whether a records-review reminder is due for the selected report period.",
@@ -4026,6 +4170,78 @@
           "inputs": "دوره گزارش انتخاب‌شده و اطلاعات ذخیره‌شده یادآوری استفاده می‌شوند.",
           "result": "برنامه یادآوری را بررسی و نتیجه را در بخش وضعیت فرایند نمایش می‌دهد.",
           "notes": "این فقط بررسی یادآوری داخلی برنامه است و با HMRC تماس نمی‌گیرد یا پیامی ارسال نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يتحقق فورًا مما إذا كان تذكير مراجعة السجلات مستحقًا لفترة التقرير المحددة.",
+          "when": "استخدمه عندما تريد التحقق الآن من حالة التذكير للفترة المحددة.",
+          "how": "اختر Check reminders now في منطقة اكتمال السجلات بالتقرير.",
+          "inputs": "تُستخدم فترة التقرير المحددة ومعلومات التذكير المخزنة لها.",
+          "result": "يفحص التطبيق التذكير ويعرض النتيجة في منطقة حالة سير العمل.",
+          "notes": "هذا فحص تذكير داخل التطبيق فقط؛ ولا يتصل بـ HMRC أو يرسل رسالة."
+        },
+        "ckb": {
+          "purpose": "بە خێرایی دەپشکنێت ئایا بیرخستنەوەی پێداچوونەوە بە تۆمارەکان بۆ ماوەی ڕاپۆرتی هەڵبژێردراو سەرکەوتووە یان نا.",
+          "when": "کاتێک دەتەوێت ئێستا دۆخی بیرخستنەوەی ماوەی هەڵبژێردراو بپشکنیت، بەکاریبهێنە.",
+          "how": "لە بەشی تەواوکردنی تۆمارەکانی ڕاپۆرت، Check reminders now هەڵبژێرە.",
+          "inputs": "ماوەی ڕاپۆرتی هەڵبژێردراو و زانیاری بیرخستنەوەی پاشەکەوتکراوی بەکاردێن.",
+          "result": "ئەپەکە بیرخستنەوەکە دەپشکنێت و ئەنجامەکە لە بەشی دۆخی ڕەوتی کار پیشان دەدات.",
+          "notes": "ئەمە تەنها پشکنینی بیرخستنەوەی ناوخۆیی ئەپەکەیە؛ پەیوەندی بە HMRC ناکات و پەیام نانێرێت."
+        },
+        "kmr": {
+          "purpose": "Niha kontrol dike ka gelo bîranîna kontrolkirina tomarê ji bo dema rapora hilbijartî gihîştiye an na.",
+          "when": "Dema ku dixwazî niha rewşa bîranînê ya ji bo dema hilbijartî kontrol bikî, vê bikar bîne.",
+          "how": "Di qada temamkirina tomarên raporê de Check reminders now hilbijêre.",
+          "inputs": "Dema rapora hilbijartî û agahiyên bîranînê yên hilanî yên wê têne bikaranîn.",
+          "result": "Sepan bîranînê kontrol dike û encamê di qada rewşa pêvajoyê de nîşan dide.",
+          "notes": "Ev tenê kontrolkirina bîranînê ya di sepanê de ye; bi HMRC re têkilî nagire û peyamê naşîne."
+        },
+        "tr": {
+          "purpose": "Seçilen raporlama dönemi için kayıt inceleme hatırlatıcısının zamanı gelip gelmediğini hemen kontrol eder.",
+          "when": "Seçilen dönem için hatırlatma durumunu şimdi kontrol etmek istediğinizde kullanın.",
+          "how": "Raporun kayıt tamamlama alanında Check reminders now seçeneğini seçin.",
+          "inputs": "Seçilen raporlama dönemi ve bu dönem için saklanan hatırlatma bilgileri kullanılır.",
+          "result": "Uygulama hatırlatmayı kontrol eder ve sonucu iş akışı durum alanında gösterir.",
+          "notes": "Bu yalnızca uygulama içi hatırlatma kontrolüdür; HMRC ile iletişim kurmaz veya mesaj göndermez."
+        },
+        "pl": {
+          "purpose": "Natychmiast sprawdza, czy przypomnienie o przeglądzie rejestrów jest należne dla wybranego okresu raportowania.",
+          "when": "Użyj, gdy chcesz teraz sprawdzić status przypomnienia dla wybranego okresu.",
+          "how": "W obszarze kompletności rejestrów raportu wybierz Check reminders now.",
+          "inputs": "Wykorzystywany jest wybrany okres raportowania i zapisane dla niego informacje o przypomnieniach.",
+          "result": "Aplikacja sprawdza przypomnienie i wyświetla wynik w obszarze statusu procesu.",
+          "notes": "To wyłącznie sprawdzenie przypomnienia w aplikacji; nie kontaktuje się z HMRC ani nie wysyła wiadomości."
+        },
+        "ur": {
+          "purpose": "فوراً جانچتا ہے کہ منتخب رپورٹ مدت کے لیے ریکارڈ جائزے کی یاددہانی واجب ہے یا نہیں۔",
+          "when": "جب منتخب مدت کی یاددہانی کی حالت ابھی دیکھنی ہو تو استعمال کریں۔",
+          "how": "رپورٹ کے ریکارڈ مکمل کرنے والے حصے میں Check reminders now منتخب کریں۔",
+          "inputs": "منتخب رپورٹ مدت اور اس کے لیے محفوظ یاددہانی کی معلومات استعمال ہوتی ہیں۔",
+          "result": "ایپ یاددہانی چیک کرتی ہے اور نتیجہ ورک فلو کی حالت والے حصے میں دکھاتی ہے۔",
+          "notes": "یہ صرف ایپ کے اندر یاددہانی کی جانچ ہے؛ HMRC سے رابطہ یا پیغام ارسال نہیں کرتی۔"
+        },
+        "pa": {
+          "purpose": "ਤੁਰੰਤ ਜਾਂਚਦਾ ਹੈ ਕਿ ਚੁਣੀ ਰਿਪੋਰਟ ਮਿਆਦ ਲਈ ਰਿਕਾਰਡ ਸਮੀਖਿਆ ਯਾਦਦਿਹਾਨੀ ਬਾਕੀ ਹੈ ਜਾਂ ਨਹੀਂ।",
+          "when": "ਜਦੋਂ ਚੁਣੀ ਮਿਆਦ ਦੀ ਯਾਦਦਿਹਾਨੀ ਦੀ ਸਥਿਤੀ ਹੁਣੇ ਵੇਖਣੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਰਿਪੋਰਟ ਦੇ ਰਿਕਾਰਡ ਪੂਰੇ ਕਰਨ ਵਾਲੇ ਹਿੱਸੇ ਵਿੱਚ Check reminders now ਚੁਣੋ।",
+          "inputs": "ਚੁਣੀ ਰਿਪੋਰਟ ਮਿਆਦ ਅਤੇ ਇਸ ਲਈ ਸੰਭਾਲੀ ਯਾਦਦਿਹਾਨੀ ਜਾਣਕਾਰੀ ਵਰਤੀ ਜਾਂਦੀ ਹੈ।",
+          "result": "ਐਪ ਯਾਦਦਿਹਾਨੀ ਜਾਂਚਦੀ ਹੈ ਅਤੇ ਨਤੀਜਾ ਵਰਕਫਲੋ ਸਥਿਤੀ ਭਾਗ ਵਿੱਚ ਦਿਖਾਉਂਦੀ ਹੈ।",
+          "notes": "ਇਹ ਸਿਰਫ਼ ਐਪ ਅੰਦਰ ਯਾਦਦਿਹਾਨੀ ਦੀ ਜਾਂਚ ਹੈ; HMRC ਨਾਲ ਸੰਪਰਕ ਜਾਂ ਸੁਨੇਹਾ ਨਹੀਂ ਭੇਜਦੀ।"
+        },
+        "prs": {
+          "purpose": "فوراً بررسی می‌کند که آیا یادآوری بازبینی سوابق برای دوره گزارش انتخاب‌شده سررسید شده است یا نه.",
+          "when": "وقتی می‌خواهید همین حالا وضعیت یادآوری دوره انتخاب‌شده را بررسی کنید، استفاده کنید.",
+          "how": "در بخش تکمیل سوابق گزارش، Check reminders now را انتخاب کنید.",
+          "inputs": "دوره گزارش انتخاب‌شده و اطلاعات ذخیره‌شده یادآوری آن استفاده می‌شوند.",
+          "result": "برنامه یادآوری را بررسی و نتیجه را در بخش وضعیت گردش‌کار نمایش می‌دهد.",
+          "notes": "این فقط بررسی یادآوری داخلی برنامه است و با HMRC تماس نمی‌گیرد یا پیامی ارسال نمی‌کند."
+        },
+        "ps": {
+          "purpose": "سمدستي ګوري چې د ټاکل شوې راپور مودې لپاره د ثبتونو د بیاکتنې یادونه واجبه ده که نه.",
+          "when": "کله چې غواړئ د ټاکل شوې مودې د یادونې حالت همدا اوس وګورئ، وکاروئ.",
+          "how": "د راپور د ثبتونو د بشپړولو په برخه کې Check reminders now وټاکئ.",
+          "inputs": "ټاکل شوې راپور موده او د هغې لپاره خوندي شوي د یادونې معلومات کارول کېږي.",
+          "result": "اپ یادونه ګوري او پایله د کاري بهیر د حالت په برخه کې ښکاره کوي.",
+          "notes": "دا یوازې د اپ دننه د یادونې کتنه ده؛ له HMRC سره اړیکه نه نیسي او پیغام نه لېږي."
         }
       },
       "handler_or_behavior": "`report188CheckDue()`"
@@ -4035,7 +4251,7 @@
       "audit_ref": "INV-057",
       "element_id": null,
       "label": "Save recipient details",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Stores the accountant’s email address and firm name in the app settings.",
@@ -4052,6 +4268,78 @@
           "inputs": "نشانی ایمیل اختیاری است، اما اگر وارد شود باید معتبر باشد؛ نام حسابدار یا شرکت اختیاری است.",
           "result": "در صورت موفقیت، مشخصات گیرنده در IndexedDB ذخیره می‌شود. هیچ ایمیلی ارسال نمی‌شود.",
           "notes": "قابلیت ارسال ایمیل هنوز متصل نیست. ذخیره گیرنده به معنی ارسال پیام یا تأیید تحویل آن نیست."
+        },
+        "ar": {
+          "purpose": "يحفظ عنوان البريد الإلكتروني للمحاسب واسم الشركة في إعدادات التطبيق.",
+          "when": "استخدمه عندما تريد أن يتذكر قسم التقارير المحاسب أو الشركة التي ينبغي أن تتلقى تقاريرك.",
+          "how": "أدخل عنوان بريد إلكتروني صحيحًا، ويمكنك إدخال اسم المحاسب أو الشركة اختياريًا، ثم اختر Save recipient details. تحقق من رسالة الحالة قبل مغادرة الصفحة.",
+          "inputs": "عنوان البريد الإلكتروني اختياري، لكن يجب أن يكون صحيحًا عند إدخاله؛ واسم المحاسب أو الشركة اختياري.",
+          "result": "تُحفظ بيانات المستلم في IndexedDB إذا نجح الحفظ. لا يُرسل أي بريد إلكتروني.",
+          "notes": "إرسال البريد الإلكتروني غير متصل. حفظ المستلم لا يرسل رسالة ولا يؤكد تسليمها."
+        },
+        "ckb": {
+          "purpose": "ناونیشانی ئیمەیڵی ژمێریار و ناوی کۆمپانیا لە ڕێکخستنەکانی ئەپ پاشەکەوت دەکات.",
+          "when": "کاتێک دەتەوێت بەشی ڕاپۆرتەکان بیر لەو ژمێریار یان کۆمپانیایە بکاتەوە کە دەبێت ڕاپۆرتەکانت وەربگرێت، بەکاریبهێنە.",
+          "how": "ناونیشانی ئیمەیڵێکی دروست بنووسە؛ بە ئارەزوو ناوی ژمێریار یان کۆمپانیاش بنووسە، پاشان Save recipient details هەڵبژێرە. پێش دەرچوون لە پەڕەکە پەیامی دۆخ بپشکنە.",
+          "inputs": "ناونیشانی ئیمەیڵ هەڵبژاردەییە، بەڵام ئەگەر بنووسرێت دەبێت دروست بێت؛ ناوی ژمێریار یان کۆمپانیاش هەڵبژاردەییە.",
+          "result": "ئەگەر پاشەکەوتکردن سەرکەوتوو بێت، زانیاری وەرگر لە IndexedDB پاشەکەوت دەکرێت. هیچ ئیمەیڵێک نانێردرێت.",
+          "notes": "ناردنی ئیمەیڵ پەیوەست نەکراوە. پاشەکەوتکردنی وەرگر پەیام نانێرێت و گەیاندنیش پشتڕاست ناکاتەوە."
+        },
+        "kmr": {
+          "purpose": "Navnîşana e-nameyê ya hesabkar û navê fîrmayê di mîhengên sepanê de dihêle.",
+          "when": "Dema ku dixwazî beşa raporan bîr bîne ka kîjan hesabkar an fîrma divê raporên te bistîne, vê bikar bîne.",
+          "how": "Navnîşana e-nameyeke rast binivîse; heke bixwazî navê hesabkar an fîrmayê jî binivîse, paşê Save recipient details hilbijêre. Berî derketina ji rûpelê peyama rewşê kontrol bike.",
+          "inputs": "Navnîşana e-nameyê vebijêrkî ye, lê heke were dayîn divê rast be; navê hesabkar an fîrma jî vebijêrkî ye.",
+          "result": "Heke hilanîn serkeftî be, agahiyên wergir di IndexedDB de tên hilanîn. Tu e-name nayê şandin.",
+          "notes": "Şandina e-nameyê girêdayî nîne. Hilanîna wergir peyamê naşîne û gihîştinê piştrast nake."
+        },
+        "tr": {
+          "purpose": "Muhasebecinin e-posta adresini ve firma adını uygulama ayarlarında saklar.",
+          "when": "Rapor bölümünün raporlarınızı hangi muhasebeci veya firmanın alması gerektiğini hatırlamasını istediğinizde kullanın.",
+          "how": "Geçerli bir e-posta adresi girin; isteğe bağlı olarak muhasebeci veya firma adını da girin, ardından Save recipient details seçeneğini seçin. Sayfadan ayrılmadan önce durum mesajını kontrol edin.",
+          "inputs": "E-posta adresi isteğe bağlıdır ancak girildiğinde geçerli olmalıdır; muhasebeci veya firma adı isteğe bağlıdır.",
+          "result": "Kaydetme başarılı olursa alıcı bilgileri IndexedDB'ye kaydedilir. E-posta gönderilmez.",
+          "notes": "E-posta gönderimi bağlı değildir. Alıcıyı kaydetmek mesaj göndermez veya teslimatı doğrulamaz."
+        },
+        "pl": {
+          "purpose": "Zapisuje adres e-mail księgowego i nazwę firmy w ustawieniach aplikacji.",
+          "when": "Użyj, gdy chcesz, aby sekcja raportów pamiętała, który księgowy lub firma powinni otrzymywać raporty.",
+          "how": "Wprowadź prawidłowy adres e-mail, opcjonalnie nazwę księgowego lub firmy, a następnie wybierz Save recipient details. Przed opuszczeniem strony sprawdź komunikat statusu.",
+          "inputs": "Adres e-mail jest opcjonalny, ale jeśli zostanie podany, musi być prawidłowy; nazwa księgowego lub firmy jest opcjonalna.",
+          "result": "Jeśli zapis się powiedzie, dane odbiorcy zostaną zapisane w IndexedDB. Żaden e-mail nie zostanie wysłany.",
+          "notes": "Wysyłanie e-maili nie jest podłączone. Zapisanie odbiorcy nie wysyła wiadomości ani nie potwierdza jej dostarczenia."
+        },
+        "ur": {
+          "purpose": "اکاؤنٹنٹ کا ای میل پتہ اور فرم کا نام ایپ کی ترتیبات میں محفوظ کرتا ہے۔",
+          "when": "جب آپ چاہتے ہوں کہ رپورٹ کا حصہ یاد رکھے کہ رپورٹس کس اکاؤنٹنٹ یا فرم کو بھیجنی ہیں تو استعمال کریں۔",
+          "how": "درست ای میل پتہ درج کریں، چاہیں تو اکاؤنٹنٹ یا فرم کا نام بھی لکھیں، پھر Save recipient details منتخب کریں۔ صفحہ چھوڑنے سے پہلے حالت کا پیغام دیکھیں۔",
+          "inputs": "ای میل پتہ اختیاری ہے لیکن درج کرنے پر درست ہونا چاہیے؛ اکاؤنٹنٹ یا فرم کا نام اختیاری ہے۔",
+          "result": "اگر محفوظ کرنا کامیاب ہو تو وصول کنندہ کی تفصیلات IndexedDB میں محفوظ ہوتی ہیں۔ کوئی ای میل نہیں بھیجی جاتی۔",
+          "notes": "ای میل بھیجنے کی سہولت منسلک نہیں۔ وصول کنندہ محفوظ کرنے سے پیغام نہیں جاتا اور ترسیل کی تصدیق نہیں ہوتی۔"
+        },
+        "pa": {
+          "purpose": "ਅਕਾਊਂਟੈਂਟ ਦਾ ਈਮੇਲ ਪਤਾ ਅਤੇ ਫਰਮ ਦਾ ਨਾਂ ਐਪ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਸੰਭਾਲਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਕਿ ਰਿਪੋਰਟ ਭਾਗ ਯਾਦ ਰੱਖੇ ਕਿ ਰਿਪੋਰਟਾਂ ਕਿਸ ਅਕਾਊਂਟੈਂਟ ਜਾਂ ਫਰਮ ਨੂੰ ਮਿਲਣੀਆਂ ਹਨ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਇੱਕ ਸਹੀ ਈਮੇਲ ਪਤਾ ਦਰਜ ਕਰੋ, ਚਾਹੋ ਤਾਂ ਅਕਾਊਂਟੈਂਟ ਜਾਂ ਫਰਮ ਦਾ ਨਾਂ ਵੀ ਲਿਖੋ, ਫਿਰ Save recipient details ਚੁਣੋ। ਪੰਨਾ ਛੱਡਣ ਤੋਂ ਪਹਿਲਾਂ ਸਥਿਤੀ ਸੁਨੇਹਾ ਵੇਖੋ।",
+          "inputs": "ਈਮੇਲ ਪਤਾ ਵਿਕਲਪਿਕ ਹੈ ਪਰ ਦਿੱਤੇ ਜਾਣ 'ਤੇ ਸਹੀ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ; ਅਕਾਊਂਟੈਂਟ ਜਾਂ ਫਰਮ ਦਾ ਨਾਂ ਵਿਕਲਪਿਕ ਹੈ।",
+          "result": "ਜੇ ਸੰਭਾਲਣਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਪ੍ਰਾਪਤਕਰਤਾ ਦੇ ਵੇਰਵੇ IndexedDB ਵਿੱਚ ਸੰਭਾਲੇ ਜਾਂਦੇ ਹਨ। ਕੋਈ ਈਮੇਲ ਨਹੀਂ ਭੇਜੀ ਜਾਂਦੀ।",
+          "notes": "ਈਮੇਲ ਭੇਜਣ ਦੀ ਸਹੂਲਤ ਜੁੜੀ ਨਹੀਂ ਹੈ। ਪ੍ਰਾਪਤਕਰਤਾ ਸੰਭਾਲਣ ਨਾਲ ਸੁਨੇਹਾ ਨਹੀਂ ਜਾਂਦਾ ਅਤੇ ਡਿਲਿਵਰੀ ਦੀ ਪੁਸ਼ਟੀ ਨਹੀਂ ਹੁੰਦੀ।"
+        },
+        "prs": {
+          "purpose": "نشانی ایمیل حسابدار و نام شرکت را در تنظیمات برنامه ذخیره می‌کند.",
+          "when": "وقتی می‌خواهید بخش گزارش‌ها به خاطر بسپارد کدام حسابدار یا شرکت باید گزارش‌های شما را دریافت کند، استفاده کنید.",
+          "how": "نشانی ایمیل معتبر وارد کنید؛ در صورت تمایل نام حسابدار یا شرکت را نیز وارد کنید و سپس Save recipient details را بزنید. پیش از خروج از صفحه پیام وضعیت را بررسی کنید.",
+          "inputs": "نشانی ایمیل اختیاری است، اما اگر وارد شود باید معتبر باشد؛ نام حسابدار یا شرکت اختیاری است.",
+          "result": "در صورت موفقیت، مشخصات گیرنده در IndexedDB ذخیره می‌شود. هیچ ایمیلی ارسال نمی‌شود.",
+          "notes": "ارسال ایمیل متصل نیست. ذخیره گیرنده پیامی ارسال نمی‌کند و تحویل آن را تأیید نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د حسابدار برېښنالیک پته او د شرکت نوم د اپ په تنظیماتو کې ساتي.",
+          "when": "کله چې غواړئ د راپور برخه په یاد ولري چې راپورونه کوم حسابدار یا شرکت ته ولېږل شي، وکاروئ.",
+          "how": "سمه برېښنالیک پته ولیکئ، که وغواړئ د حسابدار یا شرکت نوم هم ولیکئ، بیا Save recipient details وټاکئ. له پاڼې وتلو مخکې د حالت پیغام وګورئ.",
+          "inputs": "برېښنالیک پته اختیاري ده، خو که ورکړل شي باید سمه وي؛ د حسابدار یا شرکت نوم اختیاري دی.",
+          "result": "که خوندي کول بریالي شي، د ترلاسه کوونکي معلومات په IndexedDB کې خوندي کېږي. هېڅ برېښنالیک نه لېږل کېږي.",
+          "notes": "د برېښنالیک لېږلو اړیکه نه ده فعاله. د ترلاسه کوونکي خوندي کول پیغام نه لېږي او د رسېدو تایید نه کوي."
         }
       },
       "handler_or_behavior": "`report188SaveEmailSettings()`"
@@ -4061,7 +4349,7 @@
       "audit_ref": "INV-058",
       "element_id": "fullBackupButton",
       "label": "Backup",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Creates one complete backup file containing the app database.",
@@ -4078,6 +4366,78 @@
           "inputs": "ورودی فرمی لازم نیست. مطمئن شوید مرورگر اجازه دانلود فایل را دارد و فضای ذخیره‌سازی امن کافی در اختیار دارید.",
           "result": "یک فایل پشتیبان کامل از پایگاه داده برنامه ساخته می‌شود؛ شامل هر ۱۷ حوزه داده، سوابق، اطلاعات پروژه‌ها، فاکتورها، قراردادها، تنظیمات، عکس‌ها و لوگو.",
           "notes": "فایل پشتیبان ممکن است حاوی اطلاعات حساس کسب‌وکار باشد؛ آن را امن نگه دارید. فقط پس از نمایش پیام موفقیت، ساخت پشتیبان را کامل‌شده بدانید. ایجاد پشتیبان، سوابق فعلی را تغییر نمی‌دهد."
+        },
+        "ar": {
+          "purpose": "ينشئ ملف نسخة احتياطية كاملة يحتوي على قاعدة بيانات التطبيق.",
+          "when": "استخدمه قبل تحديث مخطط أو أي عملية قد تعرض المعلومات المخزنة للخطر.",
+          "how": "اختر Backup وانتظر حالة الاكتمال وتنزيل الملف. احتفظ بالملف في مكان آمن خارج هذا الجهاز.",
+          "inputs": "لا يلزم إدخال شيء في نموذج. تأكد من أن المتصفح يسمح بالتنزيل وأن لديك مساحة تخزين آمنة كافية.",
+          "result": "يُنشأ ملف نسخة احتياطية كامل لقاعدة بيانات التطبيق، ويشمل جميع مجالات قاعدة البيانات السبعة عشر والسجلات المرتبطة وبيانات المشاريع والفواتير والعقود والإعدادات والصور والشعار.",
+          "notes": "احتفظ بالنسخة الاحتياطية في مكان آمن لأنها قد تحتوي على معلومات تجارية حساسة. لا تعتبر النسخة صالحة حتى يعلن التطبيق اكتمال العملية. إنشاء النسخة لا يغيّر السجلات الحالية."
+        },
+        "ckb": {
+          "purpose": "فایلێکی پاڵپشتی تەواو دروست دەکات کە بنکەدراوەی ئەپەکە لەخۆ دەگرێت.",
+          "when": "پێش نوێکردنەوەیەکی پلاندانراو یان هەر کردارێک کە دەتوانێت زانیاری پاشەکەوتکراو بخاتە مەترسی، بەکاریبهێنە.",
+          "how": "Backup هەڵبژێرە و چاوەڕێی دۆخی تەواوبوون و داگرتنی فایلەکە بکە. فایلەکە لە شوێنێکی پارێزراو لە دەرەوەی ئەم ئامێرە هەڵبگرە.",
+          "inputs": "هیچ خانەیەکی فۆڕم پێویست نییە. دڵنیابە وێبگەڕ ڕێگە بە داگرتن دەدات و شوێنی پاراستنی پارێزراوی پێویستت هەیە.",
+          "result": "فایلێکی پاڵپشتی تەواوی بنکەدراوەی ئەپەکە دروست دەکرێت؛ هەموو ١٧ بوارەکەی بنکەدراوە و تۆمارە پەیوەندیدارەکان، داتای پڕۆژە، فاکتۆر، گرێبەست، ڕێکخستن، وێنە و لۆگۆ لەخۆ دەگرێت.",
+          "notes": "پاڵپشتییەکە بە پارێزراوی هەڵبگرە چونکە لەوانەیە زانیاری هەستیارەکانی بازرگانی لەخۆ بگرێت. تا ئەپەکە تەواوبوون ڕانەگەیەنێت، وا مەزانە پاڵپشتییەکە دروستە. دروستکردنی پاڵپشتی تۆمارە ئێستاکان ناگۆڕێت."
+        },
+        "kmr": {
+          "purpose": "Peleke backup-a temam çêdike ku danegeha sepanê dihewîne.",
+          "when": "Berî nûkirineke plansazkirî an her kiryareke ku dikare daneyên hilanî bixe xeterê, vê bikar bîne.",
+          "how": "Backup hilbijêre û li benda rewşa temambûnê û daxistina pelê bimîne. Pelê li ciyekî ewle yê derveyî vê amûrê bihêle.",
+          "inputs": "Tu têketina formê nehewce ye. Piştrast bike ku gerok destûra daxistinê dide û cihê hilanîna ewle yê têr heye.",
+          "result": "Peleke backup-a tevahî ji bo danegeha sepanê tê çêkirin; hemû 17 qadên danegehê û tomarên têkildar, daneyên projeyê, fatûre, peyman, mîheng, wêne û logoyê dihewîne.",
+          "notes": "Backup-ê bi ewlehî bihêle ji ber ku dibe agahiyên karsaziyê yên hesas dihewîne. Heta sepan temambûnê ragihîne, wê wek backup-a derbasdar qebûl neke. Çêkirina backup-ê tomarên heyî naguherîne."
+        },
+        "tr": {
+          "purpose": "Uygulama veritabanını içeren tek bir tam yedek dosyası oluşturur.",
+          "when": "Planlı bir güncellemeden veya kayıtlı bilgileri riske atabilecek herhangi bir işlemden önce kullanın.",
+          "how": "Backup seçeneğini seçin ve tamamlanma durumunu ve dosya indirmesini bekleyin. Dosyayı bu cihazın dışında güvenli bir yerde saklayın.",
+          "inputs": "Form girdisi gerekmez. Tarayıcının indirmelere izin verdiğinden ve yeterli güvenli depolama alanınız olduğundan emin olun.",
+          "result": "Uygulama veritabanının tam bir yedek dosyası oluşturulur; 17 veritabanı alanının tamamı, ilgili kayıtlar, proje verileri, faturalar, sözleşmeler, ayarlar, fotoğraflar ve logo dahildir.",
+          "notes": "Yedek hassas işletme bilgileri içerebileceğinden güvenli saklayın. Uygulama tamamlandığını bildirmeden yedeğin geçerli olduğunu varsaymayın. Yedek oluşturmak mevcut kayıtları değiştirmez."
+        },
+        "pl": {
+          "purpose": "Tworzy jeden kompletny plik kopii zapasowej zawierający bazę danych aplikacji.",
+          "when": "Użyj przed planowaną aktualizacją lub operacją, która mogłaby narazić zapisane informacje na ryzyko.",
+          "how": "Wybierz Backup i poczekaj na status ukończenia oraz pobranie pliku. Przechowuj plik w bezpiecznym miejscu poza tym urządzeniem.",
+          "inputs": "Nie są wymagane żadne dane formularza. Upewnij się, że przeglądarka zezwala na pobieranie i masz wystarczająco dużo bezpiecznego miejsca.",
+          "result": "Tworzony jest kompletny plik kopii zapasowej bazy danych aplikacji, obejmujący wszystkie 17 obszarów bazy, powiązane rekordy, dane projektów, faktury, umowy, ustawienia, zdjęcia i logo.",
+          "notes": "Przechowuj kopię bezpiecznie, ponieważ może zawierać poufne informacje firmowe. Nie uznawaj jej za prawidłową, dopóki aplikacja nie potwierdzi ukończenia. Utworzenie kopii nie zmienia istniejących rekordów."
+        },
+        "ur": {
+          "purpose": "ایپ کے ڈیٹا بیس پر مشتمل ایک مکمل بیک اپ فائل بناتا ہے۔",
+          "when": "منصوبہ بند اپ ڈیٹ یا ایسے کسی عمل سے پہلے استعمال کریں جو محفوظ معلومات کو خطرے میں ڈال سکتا ہو۔",
+          "how": "Backup منتخب کریں اور تکمیل کی حالت اور فائل ڈاؤن لوڈ ہونے کا انتظار کریں۔ فائل اس آلے سے باہر کسی محفوظ جگہ رکھیں۔",
+          "inputs": "فارم میں کچھ درج کرنے کی ضرورت نہیں۔ یقینی بنائیں کہ براؤزر ڈاؤن لوڈ کی اجازت دیتا ہے اور محفوظ ذخیرے میں کافی جگہ ہے۔",
+          "result": "ایپ کے ڈیٹا بیس کی مکمل بیک اپ فائل بنتی ہے، جس میں تمام 17 ڈیٹا ڈومینز اور متعلقہ ریکارڈز، پروجیکٹ ڈیٹا، انوائسز، معاہدے، ترتیبات، تصاویر اور لوگو شامل ہیں۔",
+          "notes": "بیک اپ محفوظ رکھیں کیونکہ اس میں کاروبار کی حساس معلومات ہو سکتی ہیں۔ جب تک ایپ تکمیل کی اطلاع نہ دے، بیک اپ کو درست نہ سمجھیں۔ بیک اپ بنانے سے موجودہ ریکارڈ تبدیل نہیں ہوتے۔"
+        },
+        "pa": {
+          "purpose": "ਐਪ ਡਾਟਾਬੇਸ ਵਾਲੀ ਇੱਕ ਪੂਰੀ ਬੈਕਅੱਪ ਫਾਈਲ ਬਣਾਉਂਦਾ ਹੈ।",
+          "when": "ਯੋਜਿਤ ਅੱਪਡੇਟ ਜਾਂ ਅਜਿਹੀ ਕਾਰਵਾਈ ਤੋਂ ਪਹਿਲਾਂ ਵਰਤੋ ਜੋ ਸੰਭਾਲੀ ਜਾਣਕਾਰੀ ਨੂੰ ਖਤਰੇ ਵਿੱਚ ਪਾ ਸਕਦੀ ਹੋਵੇ।",
+          "how": "Backup ਚੁਣੋ ਅਤੇ ਪੂਰਾ ਹੋਣ ਦੀ ਸਥਿਤੀ ਤੇ ਫਾਈਲ ਡਾਊਨਲੋਡ ਹੋਣ ਦੀ ਉਡੀਕ ਕਰੋ। ਫਾਈਲ ਇਸ ਡਿਵਾਈਸ ਤੋਂ ਬਾਹਰ ਕਿਸੇ ਸੁਰੱਖਿਅਤ ਥਾਂ ਰੱਖੋ।",
+          "inputs": "ਫਾਰਮ ਵਿੱਚ ਕੁਝ ਭਰਨ ਦੀ ਲੋੜ ਨਹੀਂ। ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਬ੍ਰਾਊਜ਼ਰ ਡਾਊਨਲੋਡ ਦੀ ਇਜਾਜ਼ਤ ਦਿੰਦਾ ਹੈ ਅਤੇ ਕਾਫ਼ੀ ਸੁਰੱਖਿਅਤ ਸਟੋਰੇਜ ਥਾਂ ਹੈ।",
+          "result": "ਐਪ ਡਾਟਾਬੇਸ ਦੀ ਪੂਰੀ ਬੈਕਅੱਪ ਫਾਈਲ ਬਣਦੀ ਹੈ, ਜਿਸ ਵਿੱਚ ਸਾਰੇ 17 ਡਾਟਾਬੇਸ ਖੇਤਰ ਅਤੇ ਸੰਬੰਧਿਤ ਰਿਕਾਰਡ, ਪ੍ਰੋਜੈਕਟ ਡਾਟਾ, ਇਨਵੌਇਸ, ਇਕਰਾਰਨਾਮੇ, ਸੈਟਿੰਗਾਂ, ਤਸਵੀਰਾਂ ਅਤੇ ਲੋਗੋ ਸ਼ਾਮਲ ਹਨ।",
+          "notes": "ਬੈਕਅੱਪ ਸੁਰੱਖਿਅਤ ਰੱਖੋ ਕਿਉਂਕਿ ਇਸ ਵਿੱਚ ਕਾਰੋਬਾਰ ਦੀ ਸੰਵੇਦਨਸ਼ੀਲ ਜਾਣਕਾਰੀ ਹੋ ਸਕਦੀ ਹੈ। ਜਦ ਤੱਕ ਐਪ ਪੂਰਾ ਹੋਣ ਦੀ ਪੁਸ਼ਟੀ ਨਾ ਕਰੇ, ਬੈਕਅੱਪ ਨੂੰ ਸਹੀ ਨਾ ਮੰਨੋ। ਬੈਕਅੱਪ ਬਣਾਉਣ ਨਾਲ ਮੌਜੂਦਾ ਰਿਕਾਰਡ ਨਹੀਂ ਬਦਲਦੇ।"
+        },
+        "prs": {
+          "purpose": "یک فایل پشتیبان کامل شامل پایگاه داده برنامه ایجاد می‌کند.",
+          "when": "پیش از به‌روزرسانی برنامه یا هر عملیاتی که ممکن است اطلاعات ذخیره‌شده را در معرض خطر قرار دهد، استفاده کنید.",
+          "how": "Backup را انتخاب کنید و تا نمایش وضعیت تکمیل و دانلود فایل صبر کنید. فایل را در محلی امن خارج از این دستگاه نگه دارید.",
+          "inputs": "ورودی فرمی لازم نیست. مطمئن شوید مرورگر اجازه دانلود می‌دهد و فضای ذخیره‌سازی امن کافی دارید.",
+          "result": "یک فایل پشتیبان کامل از پایگاه داده برنامه ساخته می‌شود؛ شامل هر ۱۷ حوزه داده، سوابق مرتبط، اطلاعات پروژه‌ها، فاکتورها، قراردادها، تنظیمات، عکس‌ها و لوگو.",
+          "notes": "فایل پشتیبان را امن نگه دارید، زیرا ممکن است اطلاعات حساس کسب‌وکار را داشته باشد. تا وقتی برنامه تکمیل را اعلام نکرده، پشتیبان را معتبر فرض نکنید. ایجاد پشتیبان سوابق موجود را تغییر نمی‌دهد."
+        },
+        "ps": {
+          "purpose": "د اپ د ډیټابېس لرونکی یو بشپړ بیک اپ فایل جوړوي.",
+          "when": "د پلان شوي تازه کولو یا هر هغه کار مخکې یې وکاروئ چې خوندي شوي معلومات له خطر سره مخ کولی شي.",
+          "how": "Backup وټاکئ او د بشپړېدو حالت او د فایل ډاونلوډ ته انتظار وکړئ. فایل له دې وسیلې بهر په خوندي ځای کې وساتئ.",
+          "inputs": "د فورمې معلوماتو ته اړتیا نشته. ډاډ ترلاسه کړئ چې براوزر د ډاونلوډ اجازه ورکوي او کافي خوندي زېرمتون لرئ.",
+          "result": "د اپ د ډیټابېس بشپړ بیک اپ فایل جوړېږي؛ د ډیټابېس ټول ۱۷ برخې، اړوند ریکارډونه، د پروژې معلومات، بلونه، قراردادونه، تنظیمات، عکسونه او لوګو پکې شامل دي.",
+          "notes": "بیک اپ خوندي وساتئ، ځکه ښايي د سوداګرۍ حساس معلومات ولري. تر هغه چې اپ د بشپړېدو خبر ورنه کړي، بیک اپ سم مه ګڼئ. د بیک اپ جوړول اوسني ریکارډونه نه بدلوي."
         }
       },
       "handler_or_behavior": "`fullDatabaseBackup()`"
@@ -8868,8 +9228,8 @@
     }
   ],
   "content_progress": {
-    "completed_entries": 40,
-    "draft_entries": 189,
+    "completed_entries": 45,
+    "draft_entries": 184,
     "pending_entries": 0,
     "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written."
   }
