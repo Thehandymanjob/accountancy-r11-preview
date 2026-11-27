@@ -111,7 +111,15 @@
     ['THA-HLP-0096', '#prDetailSubnav > button[data-pr-sub="report"]'],
     ['THA-HLP-0097', '#prPage-profit .pr-actions > button[onclick="prOpenProfitReport()"]'],
     ['THA-HLP-0101', '#prPage-contractors .pr-actions > button[onclick="prResetContractor()"]'],
-    ['THA-HLP-0115', '#prPage-company-hub .co-actions > button[onclick="coResetSub()"]']
+    ['THA-HLP-0115', '#prPage-company-hub .co-actions > button[onclick="coResetSub()"]'],
+    ['THA-HLP-0079', '#prPage-workspace .pr-list > button[onclick="prOpenCompanyHubFromWorkspace()"]'],
+    ['THA-HLP-0104', '#prPage-control .co-control-grid > button[onclick="prPage(\'partners\')"]'],
+    ['THA-HLP-0105', '#prPage-control .co-control-grid > button[onclick="prPage(\'workers\')"]'],
+    ['THA-HLP-0106', '#prPage-control .co-control-grid > button[onclick="prPage(\'contractors\')"]'],
+    ['THA-HLP-0122', '#categoryPickerMenu .category-option[onclick="chooseCategoryFromButton(this)"]'],
+    ['THA-HLP-0123', '#categoryPickerMenu .category-option-new[onclick="openExpenseCategoryAddScreen(this.dataset.addGroup)"]'],
+    ['THA-HLP-0126', '#entrySavedDialog button[onclick="closeEntrySavedDialog()"]'],
+    ['THA-HLP-0140', '#invoicePreview .actions.no-print > button[onclick="openInvoicePrintView()"]']
   ];
   if (STATIC_BINDINGS.some(binding => !Array.isArray(binding) || binding.length !== 2 || binding.some(value => typeof value !== 'string' || !value.trim()))) {
     console.error('[THA Help] Invalid static binding table; contextual help was not started.');
@@ -283,7 +291,7 @@
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initialise,{once:true});
   else initialise();
   window.THAHelpRuntime=Object.freeze({
-    version:'R61',open:openHelp,openFullGuide,attach:attachAll,
+    version:'R62',open:openHelp,openFullGuide,attach:attachAll,
     getLastHelpId:()=>lastHelpId,getPublishableCount:()=>Object.keys(payload.entries).length
   });
 })();
