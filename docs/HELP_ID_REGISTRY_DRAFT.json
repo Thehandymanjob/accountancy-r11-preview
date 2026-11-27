@@ -15554,7 +15554,7 @@
           "when": "Use this control only when an existing project record is a duplicate or an error that should be removed after checking.",
           "how": "Select Delete beside the intended row and review the confirmation prompt.",
           "inputs": "Select the correct project record and check its details before confirming deletion.",
-          "result": "The record is removed or deactivated only if the app accepts and confirms the action.",
+          "result": "The selected project row is deleted from its project category after confirmation and successful saving; other project rows remain unchanged.",
           "notes": "Deletion may affect project totals and history. Verify the selected record and retain necessary evidence first."
         },
         "fa": {
@@ -16044,7 +16044,7 @@
           "when": "Use this control only when a person should be removed from the worker or project-person list after checking historical links.",
           "how": "Select Delete beside the intended person and read the confirmation prompt.",
           "inputs": "Select the correct person record and check its identity and linked work or payment history.",
-          "result": "The person is removed or deactivated only if the app accepts and confirms the action.",
+          "result": "The selected person is removed from the worker or project-person list after confirmation and successful saving; related historical project records should be checked separately.",
           "notes": "Check whether the person is linked to historic work or payments; retain records required for audit and accounting."
         },
         "fa": {
