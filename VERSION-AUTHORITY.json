@@ -2022,33 +2022,33 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "2efa8a03bdad5ec36932873f9d2542f08582d7fb",
+      "previewDevelopmentCommitSha": "32753c146a155a22645943be4d96ad5e79a4585d",
       "previewPullRequestNumber": 96,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "FAIL — two R45 pre-merge checks correctly blocked on stale identity metadata; corrections committed, final rerun pending",
-        "runId": 46052440144,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46052440144",
-        "priorRunId": 46052111658,
-        "priorUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46052111658",
-        "details": "The first R45 Gate stopped on the stale R43 Build ID in VERSION-AUTHORITY.json. After R45 identity and SHA pins were updated, the second Gate correctly stopped because the embedded R11_CANONICAL_PAGE_URL still contained ?build=R43. The embedded URL was aligned to R45 and the index blob SHA pin was updated. No bypass was used. A fresh Gate run on the latest PR head is pending."
+        "result": "PASS",
+        "runId": 46052609762,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46052609762",
+        "details": "R11 Version Authority Gate passed on the latest PR #96 head. Repository, protected target branch, approved baseline ancestry, R45 Build ID, embedded canonical URL, index blob SHA and all 22 pinned runtime assets matched. Two earlier runs correctly blocked on stale manifest identity and stale embedded canonical URL; both were corrected before this passing run."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
-        "details": "V8 syntax compilation passed for the complete v273-legacy-reset.js. Static checks confirm strict Preview IndexedDB identity, revalidation of the converted import immediately before reset, emergency snapshot full-domain verification, re-selection and SHA-256 comparison of the saved snapshot file, fail-closed final-button gating, and preservation of recovery-lock retry. No live browser execution or destructive reset was run. The 20 unchanged runtime dependencies were individually re-fetched from Preview development and matched their existing SHA pins; the modified index and reset runtime were re-pinned after their final edits. Preview main and Production main each had all 22 existing pinned runtime dependencies verified against their own manifests."
+        "details": "R11 Version Authority Gate passed all 22 pinned runtime assets. V8 syntax compilation passed for the complete reset runtime. Static source checks confirm exact Preview DB identity, 17-domain backup verification, independent converted-file validation, SHA-256 re-selection of saved emergency snapshot, fail-closed final gate and recovery-lock retry. No live browser execution, failure-injection test or destructive reset was performed."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "details": "PR #96 remains Draft; no Preview Pages deployment has been claimed."
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft for the separate unfinished Help ID registry. Preview Pages deployment is intentionally not started."
       },
       "userSafariTest": {
         "result": "not tested",
-        "details": "Requires post-deployment iPhone Safari testing; no reset or restore should be executed as part of a smoke test."
+        "details": "Awaiting a confirmed Preview deployment and user iPhone Safari test. Do not execute a destructive reset during smoke testing."
       },
       "userApproval": {
         "result": "pending",
-        "details": "Preview repair only; awaiting user test and approval."
+        "details": "Preview-only repair; awaiting user Safari test and explicit approval."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
