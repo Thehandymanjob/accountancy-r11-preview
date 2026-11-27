@@ -6756,20 +6756,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the Add Company form for registering a company and storing its main contract details.",
-          "when": "Use this when onboarding a new contracting company or client organisation into Company Contracts & Jobs.",
-          "how": "Open Company Contracts & Jobs and select Add Company. Enter the company name and any relevant reference, contact, address, contract dates, terms or attachment. Select Save Company to store the record.",
-          "inputs": "Company name is required. Reference/registration number, contact name, phone, email, address, contract start/end dates, contract/payment terms and a PDF or image contract attachment are optional.",
-          "result": "The company form is displayed. After a successful save, the company is added to the registered companies list.",
-          "notes": "The company record is stored in the Company Contracts & Jobs workspace. Adding a company does not itself create a job; use the company's job workflow after registration. Contract attachments are stored with the local Projects data and should be included in backups."
+          "purpose": "Opens the Add Company form so you can begin registering a company and its main contract details.",
+          "when": "Use this when you are ready to add a new contracting company or client organisation to Company Contracts & Jobs.",
+          "how": "From the Company Contracts & Jobs hub, select Add Company. The company form opens. Enter the required company name and any relevant optional details, then select Save Company to save the record.",
+          "inputs": "No input is required to open the form. Company name is required when saving. Reference, contact name, phone, email, address, contract dates, terms and a PDF or image contract attachment are optional.",
+          "result": "The Add Company form opens in add mode. The company is not registered until you complete the form and Save Company succeeds.",
+          "notes": "The company record is stored in the Company Contracts & Jobs workspace. Adding a company does not itself create a job; use the company's job workflow after registration. Contract attachments are stored locally with Projects data and should be included in backups."
         },
         "fa": {
-          "purpose": "فرم Add Company را برای ثبت شرکت و نگهداری جزئیات قرارداد اصلی آن باز می‌کند.",
-          "when": "وقتی می‌خواهید یک شرکت پیمانکاری یا سازمان مشتری جدید را به بخش Company Contracts & Jobs اضافه کنید، از این گزینه استفاده کنید.",
-          "how": "وارد Company Contracts & Jobs شوید و Add Company را انتخاب کنید. نام شرکت و در صورت نیاز شماره مرجع، اطلاعات تماس، نشانی، تاریخ‌های قرارداد، شرایط یا پیوست را وارد کنید. برای ذخیره سابقه، Save Company را انتخاب کنید.",
-          "inputs": "نام شرکت الزامی است. شماره مرجع/ثبت، نام شخص تماس، تلفن، ایمیل، نشانی، تاریخ شروع و پایان قرارداد، شرایط قرارداد/پرداخت و پیوست قرارداد به‌صورت PDF یا تصویر اختیاری هستند.",
-          "result": "فرم شرکت نمایش داده می‌شود. پس از ذخیره موفق، شرکت به فهرست شرکت‌های ثبت‌شده افزوده می‌شود.",
-          "notes": "سابقه شرکت در فضای Company Contracts & Jobs ذخیره می‌شود. ثبت شرکت به‌تنهایی کار یا پروژه‌ای ایجاد نمی‌کند؛ پس از ثبت، از گردش‌کار کارهای همان شرکت استفاده کنید. پیوست قرارداد همراه داده‌های محلی Projects ذخیره می‌شود و باید در نسخه پشتیبان گنجانده شود."
+          "purpose": "فرم Add Company را باز می‌کند تا بتوانید ثبت شرکت و واردکردن جزئیات قرارداد اصلی آن را آغاز کنید.",
+          "when": "وقتی آماده‌اید یک شرکت پیمانکاری یا سازمان مشتری جدید را به بخش Company Contracts & Jobs اضافه کنید، از این گزینه استفاده کنید.",
+          "how": "از مرکز Company Contracts & Jobs گزینه Add Company را انتخاب کنید. فرم شرکت باز می‌شود. نام الزامی شرکت و اطلاعات اختیاری مرتبط را وارد کنید، سپس برای ذخیره سابقه Save Company را انتخاب کنید.",
+          "inputs": "برای بازکردن فرم ورودی لازم نیست. هنگام ذخیره، نام شرکت الزامی است. شماره مرجع، نام شخص تماس، تلفن، ایمیل، نشانی، تاریخ‌های قرارداد، شرایط و پیوست PDF یا تصویر قرارداد اختیاری هستند.",
+          "result": "فرم Add Company در حالت افزودن باز می‌شود. شرکت تا زمانی که فرم را تکمیل نکنید و Save Company با موفقیت اجرا نشود، ثبت‌شده محسوب نمی‌شود.",
+          "notes": "سابقه شرکت در فضای Company Contracts & Jobs ذخیره می‌شود. افزودن شرکت به‌تنهایی کار یا پروژه‌ای ایجاد نمی‌کند؛ پس از ثبت، از گردش‌کار کارهای همان شرکت استفاده کنید. پیوست قرارداد به‌صورت محلی همراه داده‌های Projects ذخیره می‌شود و باید در نسخه پشتیبان گنجانده شود."
         },
         "ar": {
           "purpose": "يفتح نموذج تسجيل شركة وعقدها الرئيسي.",
