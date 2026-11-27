@@ -48,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "R47 extends the contextual User Guide runtime with five completed dynamic template bindings. PR #96 remains Draft pending Version Authority Gate review and browser testing. Production promotion remains unauthorized.",
+  "note": "R47 contextual User Guide runtime and five dynamic template bindings pass the R11 Version Authority Gate. PR #96 remains Draft pending browser/Preview verification. Preview Pages is not deployed; Production promotion remains unauthorized.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {
@@ -2125,14 +2125,14 @@
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "R47 identity and updated index pin prepared; PR gate pending."
+        "result": "PASS",
+        "runId": 46067344418,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46067344418",
+        "details": "R11 Version Authority Gate passed on PR #96 for R47. The R47 Build ID, canonical URL, approved baseline ancestry, index blob SHA and all 24 pinned runtime assets matched."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
-        "details": "V8 syntax compilation passed for all 8 inline scripts and both external Help scripts. Five dynamic data-help-id attributes each occur exactly once in the intended templates. No browser DOM uniqueness, generated-instance interaction or iPhone Safari test."
+        "details": "V8 syntax compilation passed for all 8 inline scripts and both external Help scripts. The five new dynamic data-help-id attributes each occur exactly once in the intended template source. All 24 Version Authority asset pins match. No live browser DOM uniqueness, click interaction, generated-instance coverage, mobile layout or iPhone Safari test."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
