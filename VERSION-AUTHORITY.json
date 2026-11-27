@@ -48,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "R52 extends adjacent contextual Help to 37 mapped controls by resolving five unique, content-complete specialist handlers using explicit scoped selectors. The fail-closed static binding table guard and hidden-state synchronization remain active. Version Authority Gate and simulated DOM verification are required; real Preview browser testing remains pending. No deployment or Production promotion is authorized.",
+  "note": "R52 extends adjacent contextual Help to 37 mapped specialist controls. Simulated DOM smoke test PASS: 37 triggers, EN/FA content, Persian RTL, event isolation and hidden-state synchronization. R11 Version Authority Gate PASS: run 46069069507 (24 pinned runtime assets). Real Preview browser/iPhone verification remains pending; no deployment or Production promotion is authorized.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {
