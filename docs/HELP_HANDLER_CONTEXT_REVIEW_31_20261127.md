@@ -6,11 +6,17 @@
 **Runtime path:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`
 **Runtime blob SHA:** `e58a0c7895cf639c36e69c28696ebfd3bd262bef`
 
-## Critical source-of-truth finding
+## Source-of-truth reconciliation
 
-The current `VERSION-AUTHORITY.json` identifies build `THA-273-R11-PREVIEW-20261127-R45` and index blob `e58a0c7895cf639c36e69c28696ebfd3bd262bef`. The actual fetched index has the same blob SHA and its embedded build ID is `THA-273-R11-PREVIEW-20261127-R45`. The runtime mapping baseline also points to this same index blob, so the source file used for the current static extraction is authority-consistent.
+The mismatch identified in the prior review has now been corrected. `VERSION-AUTHORITY.json`, the actual index file, the refreshed inventory, and the runtime mapping all point to the authority-approved build `THA-273-R11-PREVIEW-20261127-R45` and index blob SHA `e58a0c7895cf639c36e69c28696ebfd3bd262bef`.
 
-However, `docs/HELP_BUTTON_INVENTORY_FA.md` still declares build `THA-273-R11-PREVIEW-20261126-R43` and index SHA `104766171ee9ad519ec8be36126f04f0dde24a5c`. Its current file blob SHA is `66ec0eb0037748956ba06e9a0867fefa5407ca1b`, which matches the inventory hash recorded in the mapping, but its declared runtime baseline is stale relative to the R45 authority. Therefore the mapping combines an R45 runtime source with an inventory document whose header claims R43. This mismatch must be corrected before final selector approval or runtime attachment.
+- Refreshed inventory blob SHA: `f1efe7a5f57961a5b415cc1a9e1992622ab549b1`.
+- Runtime mapping now records that exact inventory blob SHA.
+- Inventory count rechecked: 266 HTML/template button tags + 2 DOM-created dropdown button patterns = 268 audit rows.
+- Exact inline handlers and current labels were refreshed from the R45 source. Eleven controls have no inline `onclick`; their event/listener wiring is not considered browser-verified.
+- INV-071 was corrected to the current “📘 User Guide Choose the guide language” label; the dynamic INV-231 label is escaped correctly in the Markdown table; INV-256 remains an empty-label hidden placeholder marked EXEMPT.
+
+The source baseline mismatch is resolved. This does not resolve the 31 contextual selector ambiguities or substitute for Preview browser testing.
 
 ## Review outcome
 
@@ -54,8 +60,13 @@ Rows: THA-HLP-0183, THA-HLP-0199
 
 ## Release and verification gate
 
-- Do not attach selectors based on the R43 inventory declaration.
-- Rebuild or reconcile the button inventory directly from the authority-approved R45 source, then regenerate/check the runtime mapping against that inventory.
+- The inventory/mapping source baseline is now reconciled to R45; do not regress it to the R43 snapshot.
+- Resolve the 31 remaining contextual cases and assign selectors only after checking their actual parent/form/report scope.
 - For repeated controls, prefer explicit stable `data-help-id` attributes or stable container-scoped selectors; avoid global text selectors and transient generated indices.
 - Test every attached Help ID in the actual Preview browser, including repeated/dynamic instances, before changing the document status from draft.
 - No application code, Production data, deployment, or release state was changed by this review.
+
+
+## R45 reconciliation commit — 2026-11-27
+
+The inventory and mapping were refreshed and their blob references were rechecked. The 31-row review remains draft-only: no selectors assigned, no Help IDs attached, and no browser tests run. PR #96 remains Draft; Preview deployment and Production remain untouched.
