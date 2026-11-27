@@ -20268,6 +20268,78 @@
           "inputs": "قرارداد یا پیش‌فاکتور موردنظر باید در پیش‌نمایش نمایش داده شده باشد. اگر کتابخانه PDF از قبل در دسترس نباشد، برای بارگذاری آن ممکن است اتصال اینترنت لازم باشد.",
           "result": "از قرارداد یا پیش‌فاکتور نمایش‌داده‌شده یک PDF در اندازه A4 ایجاد می‌شود. پس از موفقیت، کنترل‌های Open PDF و Share PDF در دسترس قرار می‌گیرند.",
           "notes": "پیش از استفاده از PDF، مشتری، محدوده کار، قیمت، مراحل پرداخت و شرایط را بررسی کنید. ایجاد PDF سند را برای مشتری ارسال نمی‌کند. اگر کتابخانه PDF بارگذاری نشد، اتصال اینترنت را بررسی و دوباره تلاش کنید."
+        },
+        "ar": {
+          "purpose": "ينشئ ملف PDF بحجم A4 من معاينة العقد أو عرض السعر الحالي المحفوظ.",
+          "when": "استخدمه بعد فتح معاينة العقد عندما تحتاج إلى نسخة PDF لمراجعتها أو مشاركتها أو طباعتها.",
+          "how": "اختر Generate PDF من شريط أدوات المعاينة وانتظر حتى تشير حالة إنشاء PDF إلى أن الملف جاهز. يصبح Open PDF وShare PDF متاحين بعد نجاح الإنشاء.",
+          "inputs": "يجب عرض العقد أو عرض السعر الحالي في المعاينة. قد تحتاج مكتبة PDF إلى اتصال بالإنترنت لتحميلها إذا لم تكن متاحة بالفعل.",
+          "result": "يُنشأ ملف PDF بحجم A4 من العقد أو عرض السعر المعروض. تصبح عناصر Open PDF وShare PDF متاحة عند نجاح الإنشاء.",
+          "notes": "راجع العميل ونطاق العمل والسعر ومراحل الدفع والشروط قبل استخدام ملف PDF. إنشاء الملف لا يرسله إلى العميل. إذا تعذر تحميل مكتبة PDF، فتحقق من اتصال الإنترنت وحاول مرة أخرى."
+        },
+        "ckb": {
+          "purpose": "لە پێشبینینی ئێستای گرێبەست یان نرخنامەی پاشەکەوتکراوەوە PDFێکی A4 دروست دەکات.",
+          "when": "دوای کردنەوەی پێشبینینی گرێبەست ئەمە بەکاربهێنە کاتێک بۆ پشکنین، هاوبەشکردن یان چاپکردن پێویستت بە کۆپییەکی PDF هەیە.",
+          "how": "لە شریتی ئامرازەکانی پێشبینین Generate PDF هەڵبژێرە و چاوەڕێ بکە تا دۆخی دروستکردنی PDF ئامادەبوونی فایلەکە پشتڕاست بکاتەوە. دوای سەرکەوتنی دروستکردن Open PDF و Share PDF بەردەست دەبن.",
+          "inputs": "گرێبەست یان نرخنامەی ئێستا دەبێت لە پێشبینین پیشان بدرێت. ئەگەر کتێبخانەی PDF پێشتر بەردەست نەبێت، لەوانەیە بۆ بارکردنی پێویستی بە ئینتەرنێت هەبێت.",
+          "result": "PDFێکی A4 لە گرێبەست یان نرخنامەی پیشاندراوەوە دروست دەکرێت. کاتێک دروستکردن سەرکەوتوو بێت کۆنترۆڵەکانی Open PDF و Share PDF بەردەست دەبن.",
+          "notes": "پێش بەکارهێنانی PDF، کڕیار، مەودای کار، نرخ، قۆناغەکانی پارەدان و مەرجەکان بپشکنە. دروستکردن بەڵگەنامەکە بۆ کڕیار نانێرێت. ئەگەر کتێبخانەی PDF بار نەبوو، پەیوەندی ئینتەرنێت بپشکنە و دووبارە هەوڵ بدە."
+        },
+        "kmr": {
+          "purpose": "Ji pêşdîtina peyman an texmîna heyî ya hilanbar PDF-eke A4 çêdike.",
+          "when": "Vê bikar bîne piştî vekirina pêşdîtina peymanê dema ku ji bo kontrol, parvekirin an çapkirin kopiyeke PDF dixwazî.",
+          "how": "Ji şerîta amûrên pêşdîtinê Generate PDF hilbijêre û li benda ku rewşa çêkirina PDF-ê amadebûna pelê ragihîne bimîne. Piştî çêkirina serkeftî Open PDF û Share PDF berdest dibin.",
+          "inputs": "Divê peyman an texmîna heyî di pêşdîtinê de xuya be. Heke pirtûkxaneya PDF berê tune be, dibe ku ji bo barkirinê girêdana înternetê hewce bike.",
+          "result": "Ji peyman an texmîna xuya PDF-eke A4 tê çêkirin. Dema çêkirin serkeftî be kontrolên Open PDF û Share PDF berdest dibin.",
+          "notes": "Berî bikaranîna PDF xerîdar, çarçoveya kar, bihayê, qonaxên dayînê û mercan kontrol bike. Çêkirin belgeyê ji xerîdar re naşîne. Heke pirtûkxaneya PDF bar nebe, girêdana înternetê kontrol bike û dîsa biceribîne."
+        },
+        "tr": {
+          "purpose": "Mevcut kaydedilmiş sözleşme veya fiyat teklifi önizlemesinden A4 boyutunda PDF oluşturur.",
+          "when": "Sözleşme önizlemesini açtıktan sonra incelemek, paylaşmak veya yazdırmak için PDF kopyasına ihtiyaç duyduğunuzda kullanın.",
+          "how": "Önizleme araç çubuğundan Generate PDF seçeneğini belirleyin ve PDF oluşturma durumu dosyanın hazır olduğunu bildirene kadar bekleyin. Oluşturma başarılı olduktan sonra Open PDF ve Share PDF kullanılabilir hâle gelir.",
+          "inputs": "Mevcut sözleşme veya fiyat teklifi önizlemede görüntülenmelidir. PDF kitaplığı henüz kullanılabilir değilse yüklenmesi için internet bağlantısı gerekebilir.",
+          "result": "Görüntülenen sözleşme veya fiyat teklifinden A4 boyutunda PDF oluşturulur. Oluşturma başarılı olduğunda Open PDF ve Share PDF denetimleri kullanılabilir olur.",
+          "notes": "PDF'yi kullanmadan önce müşteriyi, iş kapsamını, fiyatı, ödeme aşamalarını ve koşulları inceleyin. PDF oluşturmak belgeyi müşteriye göndermez. PDF kitaplığı yüklenemezse internet bağlantısını kontrol edip yeniden deneyin."
+        },
+        "pl": {
+          "purpose": "Tworzy plik PDF w formacie A4 z bieżącego podglądu zapisanej umowy lub wyceny.",
+          "when": "Użyj tej opcji po otwarciu podglądu umowy, gdy potrzebujesz pliku PDF do sprawdzenia, udostępnienia lub wydrukowania.",
+          "how": "Wybierz Generate PDF na pasku narzędzi podglądu i poczekaj, aż status generowania PDF poinformuje, że plik jest gotowy. Po pomyślnym wygenerowaniu dostępne staną się opcje Open PDF i Share PDF.",
+          "inputs": "Bieżąca umowa lub wycena musi być widoczna w podglądzie. Biblioteka PDF może wymagać połączenia z Internetem, jeśli nie jest jeszcze dostępna.",
+          "result": "Z wyświetlanej umowy lub wyceny tworzony jest plik PDF w formacie A4. Po pomyślnym wygenerowaniu dostępne są elementy Open PDF i Share PDF.",
+          "notes": "Przed użyciem pliku PDF sprawdź klienta, zakres prac, cenę, etapy płatności i warunki. Wygenerowanie pliku nie wysyła dokumentu do klienta. Jeśli biblioteka PDF nie może się załadować, sprawdź połączenie z Internetem i spróbuj ponownie."
+        },
+        "ur": {
+          "purpose": "موجودہ محفوظ شدہ معاہدے یا قیمت کی پیشکش کے پیش منظر سے A4 سائز کی PDF بناتا ہے۔",
+          "when": "معاہدے کا پیش منظر کھولنے کے بعد اسے اس وقت استعمال کریں جب معائنہ، شیئر یا پرنٹ کرنے کے لیے PDF نقل درکار ہو۔",
+          "how": "پیش منظر ٹول بار میں Generate PDF منتخب کریں اور انتظار کریں جب تک PDF بنانے کی حالت فائل تیار ہونے کی اطلاع نہ دے۔ کامیاب تخلیق کے بعد Open PDF اور Share PDF دستیاب ہو جاتے ہیں۔",
+          "inputs": "موجودہ معاہدہ یا قیمت کی پیشکش پیش منظر میں دکھائی دینی چاہیے۔ اگر PDF لائبریری پہلے سے دستیاب نہ ہو تو اسے لوڈ کرنے کے لیے انٹرنیٹ درکار ہو سکتا ہے۔",
+          "result": "دکھائے گئے معاہدے یا قیمت کی پیشکش سے A4 PDF تیار ہوتی ہے۔ تخلیق کامیاب ہونے پر Open PDF اور Share PDF کنٹرول دستیاب ہو جاتے ہیں۔",
+          "notes": "PDF استعمال کرنے سے پہلے گاہک، کام کا دائرہ، قیمت، ادائیگی کے مراحل اور شرائط دیکھیں۔ PDF بنانے سے دستاویز گاہک کو نہیں بھیجی جاتی۔ اگر PDF لائبریری لوڈ نہ ہو تو انٹرنیٹ کنکشن چیک کرکے دوبارہ کوشش کریں۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਸੰਭਾਲੇ ਠੇਕੇ ਜਾਂ ਕੀਮਤ ਪੇਸ਼ਕਸ਼ ਦੇ ਪ੍ਰੀਵਿਊ ਤੋਂ A4 PDF ਬਣਾਉਂਦਾ ਹੈ।",
+          "when": "ਠੇਕੇ ਦਾ ਪ੍ਰੀਵਿਊ ਖੋਲ੍ਹਣ ਤੋਂ ਬਾਅਦ ਇਸਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਜਾਂਚਣ, ਸਾਂਝਾ ਕਰਨ ਜਾਂ ਛਾਪਣ ਲਈ PDF ਕਾਪੀ ਚਾਹੀਦੀ ਹੋਵੇ।",
+          "how": "ਪ੍ਰੀਵਿਊ ਟੂਲਬਾਰ ਵਿੱਚ Generate PDF ਚੁਣੋ ਅਤੇ ਉਡੀਕ ਕਰੋ ਜਦੋਂ ਤੱਕ PDF ਬਣਾਉਣ ਦੀ ਸਥਿਤੀ ਫਾਈਲ ਤਿਆਰ ਹੋਣ ਦੀ ਪੁਸ਼ਟੀ ਨਾ ਕਰੇ। ਸਫਲ ਬਣਨ ਤੋਂ ਬਾਅਦ Open PDF ਅਤੇ Share PDF ਉਪਲਬਧ ਹੋ ਜਾਂਦੇ ਹਨ।",
+          "inputs": "ਮੌਜੂਦਾ ਠੇਕਾ ਜਾਂ ਕੀਮਤ ਪੇਸ਼ਕਸ਼ ਪ੍ਰੀਵਿਊ ਵਿੱਚ ਦਿਖਾਈ ਦੇਣੀ ਚਾਹੀਦੀ ਹੈ। ਜੇ PDF ਲਾਇਬ੍ਰੇਰੀ ਪਹਿਲਾਂ ਤੋਂ ਉਪਲਬਧ ਨਾ ਹੋਵੇ ਤਾਂ ਇਸਨੂੰ ਲੋਡ ਕਰਨ ਲਈ ਇੰਟਰਨੈੱਟ ਦੀ ਲੋੜ ਪੈ ਸਕਦੀ ਹੈ।",
+          "result": "ਦਿਖਾਏ ਠੇਕੇ ਜਾਂ ਕੀਮਤ ਪੇਸ਼ਕਸ਼ ਤੋਂ A4 PDF ਬਣਾਈ ਜਾਂਦੀ ਹੈ। ਬਣਾਉਣਾ ਸਫਲ ਹੋਣ 'ਤੇ Open PDF ਅਤੇ Share PDF ਕੰਟਰੋਲ ਉਪਲਬਧ ਹੋ ਜਾਂਦੇ ਹਨ।",
+          "notes": "PDF ਵਰਤਣ ਤੋਂ ਪਹਿਲਾਂ ਗਾਹਕ, ਕੰਮ ਦਾ ਦਾਇਰਾ, ਕੀਮਤ, ਭੁਗਤਾਨ ਦੇ ਪੜਾਅ ਅਤੇ ਸ਼ਰਤਾਂ ਦੀ ਜਾਂਚ ਕਰੋ। PDF ਬਣਾਉਣ ਨਾਲ ਦਸਤਾਵੇਜ਼ ਗਾਹਕ ਨੂੰ ਨਹੀਂ ਭੇਜਿਆ ਜਾਂਦਾ। ਜੇ PDF ਲਾਇਬ੍ਰੇਰੀ ਲੋਡ ਨਾ ਹੋਵੇ ਤਾਂ ਇੰਟਰਨੈੱਟ ਕਨੈਕਸ਼ਨ ਜਾਂਚੋ ਅਤੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+        },
+        "prs": {
+          "purpose": "از پیش‌نمایش فعلی قرارداد یا پیش‌فاکتور ذخیره‌شده، یک فایل PDF در اندازه A4 ایجاد می‌کند.",
+          "when": "پس از بازکردن پیش‌نمایش قرارداد، وقتی برای بررسی، اشتراک‌گذاری یا چاپ به نسخه PDF نیاز دارید، از این گزینه استفاده کنید.",
+          "how": "در نوار ابزار پیش‌نمایش Generate PDF را انتخاب کنید و منتظر بمانید تا وضعیت ایجاد PDF آماده‌شدن فایل را اعلام کند. پس از ایجاد موفق، گزینه‌های Open PDF و Share PDF در دسترس قرار می‌گیرند.",
+          "inputs": "قرارداد یا پیش‌فاکتور فعلی باید در پیش‌نمایش نمایش داده شده باشد. اگر کتابخانه PDF از قبل در دسترس نباشد، ممکن است برای بارگذاری آن اتصال اینترنت لازم باشد.",
+          "result": "از قرارداد یا پیش‌فاکتور نمایش‌داده‌شده یک PDF در اندازه A4 ایجاد می‌شود. پس از موفقیت، کنترل‌های Open PDF و Share PDF در دسترس قرار می‌گیرند.",
+          "notes": "پیش از استفاده از PDF، مشتری، محدوده کار، قیمت، مراحل پرداخت و شرایط را بررسی کنید. ایجاد PDF سند را برای مشتری ارسال نمی‌کند. اگر کتابخانه PDF بارگذاری نشد، اتصال اینترنت را بررسی و دوباره تلاش کنید."
+        },
+        "ps": {
+          "purpose": "د اوسني خوندي شوي قرارداد یا نرخ‌لیک له مخکتنې څخه د A4 په اندازه PDF جوړوي.",
+          "when": "دا د قرارداد د مخکتنې له پرانیستلو وروسته هغه وخت وکاروئ چې د کتنې، شریکولو یا چاپ لپاره د PDF کاپي ته اړتیا لرئ.",
+          "how": "د مخکتنې له وسیلو څخه Generate PDF وټاکئ او انتظار وکړئ چې د PDF جوړولو حالت د فایل چمتووالی تایید کړي. له بریالي جوړېدو وروسته Open PDF او Share PDF شته کېږي.",
+          "inputs": "اوسنی قرارداد یا نرخ‌لیک باید په مخکتنه کې ښکاره وي. که د PDF کتابتون لا نه وي موجود، د بارولو لپاره یې ښايي انټرنېټ ته اړتیا وي.",
+          "result": "له ښودل شوي قرارداد یا نرخ‌لیک څخه د A4 PDF جوړېږي. د جوړولو له بریا وروسته Open PDF او Share PDF کنټرولونه شته کېږي.",
+          "notes": "د PDF له کارولو مخکې پېرودونکی، د کار ساحه، بیه، د پیسو ورکولو پړاوونه او شرطونه وګورئ. د PDF جوړول سند پېرودونکي ته نه لېږي. که د PDF کتابتون بار نه شي، د انټرنېټ اړیکه وګورئ او بیا هڅه وکړئ."
         }
       },
       "handler_or_behavior": "`ctGeneratePDF()`"
@@ -20294,6 +20366,78 @@
           "inputs": "PDF قرارداد یا پیش‌فاکتور باید در پیش‌نمایش فعلی با موفقیت ایجاد شده و در دسترس باشد.",
           "result": "PDF ایجادشده در زبانه جدید مرورگر باز می‌شود. مشاهده آن قرارداد یا پیش‌فاکتور ذخیره‌شده را تغییر نمی‌دهد.",
           "notes": "بررسی کنید سند صحیح باز شده و تمام صفحات و متن آن قابل مشاهده است. اگر مرورگر زبانه جدید را مسدود کرد، پنجره‌های بازشو را مجاز و دوباره Open PDF را انتخاب کنید."
+        },
+        "ar": {
+          "purpose": "يفتح ملف PDF الذي تم إنشاؤه للعقد أو عرض السعر الحالي في علامة تبويب جديدة بالمتصفح.",
+          "when": "استخدمه بعد إنشاء PDF عندما تريد فحصه أو استخدام عناصر الطباعة والحفظ في عارض PDF بالمتصفح.",
+          "how": "اختر Open PDF بعد أن تشير المعاينة إلى أن ملف PDF جاهز. يفتح الملف المنشأ في علامة تبويب جديدة؛ استخدم عناصر PDF في المتصفح لفحصه أو طباعته أو حفظه.",
+          "inputs": "يجب أن يكون ملف PDF للعقد أو عرض السعر قد أُنشئ بنجاح ومتاحاً في المعاينة الحالية.",
+          "result": "يفتح ملف PDF المنشأ في علامة تبويب جديدة بالمتصفح. لا يؤدي عرضه إلى تغيير العقد أو عرض السعر المحفوظ.",
+          "notes": "تحقق من فتح المستند الصحيح ومن ظهور جميع الصفحات والنصوص. إذا حظر المتصفح علامة التبويب الجديدة، اسمح بالنوافذ المنبثقة واختر Open PDF مرة أخرى."
+        },
+        "ckb": {
+          "purpose": "ئەو PDFە دەکاتەوە کە بۆ گرێبەست یان نرخنامەی ئێستا دروست کراوە، لە تابێکی نوێی وێبگەڕدا.",
+          "when": "دوای دروستکردنی PDF ئەمە بەکاربهێنە کاتێک دەتەوێت پشکنینی بکەیت یان کۆنترۆڵەکانی چاپ و پاشەکەوتکردنی بینەری PDFی وێبگەڕ بەکاربهێنیت.",
+          "how": "دوای ئەوەی پێشبینین ئامادەبوونی PDF پشتڕاست کردەوە، Open PDF هەڵبژێرە. فایلە دروستکراوەکە لە تابێکی نوێ دەکرێتەوە؛ کۆنترۆڵەکانی PDFی وێبگەڕ بۆ پشکنین، چاپ یان پاشەکەوتکردنی بەکاربهێنە.",
+          "inputs": "PDFی گرێبەست یان نرخنامە دەبێت بە سەرکەوتوویی دروست کرابێت و لە پێشبینینی ئێستادا بەردەست بێت.",
+          "result": "PDFی دروستکراو لە تابێکی نوێی وێبگەڕدا دەکرێتەوە. بینینی ئەوە گرێبەست یان نرخنامەی پاشەکەوتکراو ناگۆڕێت.",
+          "notes": "دڵنیا ببەوە کە بەڵگەنامەی دروست کراوەتەوە و هەموو لاپەڕە و دەقەکان دیارن. ئەگەر وێبگەڕ تابە نوێکەی بلۆک کرد، پەنجەرە پەڕەبازەکان ڕێگەپێبدە و دووبارە Open PDF هەڵبژێرە."
+        },
+        "kmr": {
+          "purpose": "PDF-a ku ji bo peyman an texmîna heyî hatiye çêkirin di hilpekî nû yê gerokê de vedike.",
+          "when": "Vê bikar bîne piştî ku PDF hatiye çêkirin û dixwazî wê kontrol bikî an kontrolên çapkirin û tomarkirinê yên dîtina PDF ya gerokê bikar bînî.",
+          "how": "Piştî ku pêşdîtin amadebûna PDF ragihand, Open PDF hilbijêre. Pelê çêkirî di hilpekî nû de vedibe; kontrolên PDF yên gerokê ji bo kontrol, çapkirin an tomarkirinê bikar bîne.",
+          "inputs": "Divê PDF-a peyman an texmînê bi serkeftî hatiye çêkirin û di pêşdîtina heyî de berdest be.",
+          "result": "PDF-a çêkirî di hilpekî nû ya gerokê de vedibe. Dîtina wê peyman an texmîna hilanbar naguherîne.",
+          "notes": "Kontrol bike ka belgeya rast hatiye vekirin û hemû rûpel û nivîs xuya ne. Heke gerok hilpeka nû asteng bike, destûra pop-up bide û Open PDF dîsa hilbijêre."
+        },
+        "tr": {
+          "purpose": "Mevcut sözleşme veya fiyat teklifi için oluşturulan PDF'yi yeni bir tarayıcı sekmesinde açar.",
+          "when": "PDF oluşturulduktan sonra incelemek veya tarayıcının PDF görüntüleyicisindeki yazdırma ve kaydetme denetimlerini kullanmak istediğinizde kullanın.",
+          "how": "Önizleme PDF'nin hazır olduğunu bildirdikten sonra Open PDF seçeneğini belirleyin. Oluşturulan dosya yeni bir sekmede açılır; incelemek, yazdırmak veya kaydetmek için tarayıcının PDF denetimlerini kullanın.",
+          "inputs": "Mevcut önizlemede sözleşme veya fiyat teklifi PDF'si başarıyla oluşturulmuş ve kullanılabilir olmalıdır.",
+          "result": "Oluşturulan PDF yeni bir tarayıcı sekmesinde açılır. Görüntülemek kaydedilmiş sözleşmeyi veya fiyat teklifini değiştirmez.",
+          "notes": "Doğru belgenin açıldığını ve tüm sayfa ve metinlerin görünür olduğunu kontrol edin. Tarayıcı yeni sekmeyi engellerse açılır pencerelere izin verin ve Open PDF seçeneğini yeniden belirleyin."
+        },
+        "pl": {
+          "purpose": "Otwiera plik PDF wygenerowany dla bieżącej umowy lub wyceny w nowej karcie przeglądarki.",
+          "when": "Użyj tej opcji po wygenerowaniu pliku PDF, aby go sprawdzić lub skorzystać z funkcji drukowania i zapisywania w przeglądarce PDF.",
+          "how": "Wybierz Open PDF po wyświetleniu przez podgląd informacji, że plik PDF jest gotowy. Wygenerowany plik otworzy się w nowej karcie; użyj przeglądarkowych narzędzi PDF, aby go sprawdzić, wydrukować lub zapisać.",
+          "inputs": "Plik PDF umowy lub wyceny musi zostać pomyślnie wygenerowany i być dostępny w bieżącym podglądzie.",
+          "result": "Wygenerowany plik PDF otwiera się w nowej karcie przeglądarki. Wyświetlenie go nie zmienia zapisanej umowy ani wyceny.",
+          "notes": "Sprawdź, czy otwarto właściwy dokument oraz czy widoczne są wszystkie strony i tekst. Jeśli przeglądarka blokuje nową kartę, zezwól na wyskakujące okna i ponownie wybierz Open PDF."
+        },
+        "ur": {
+          "purpose": "موجودہ معاہدے یا قیمت کی پیشکش کے لیے بنائی گئی PDF کو براؤزر کے نئے ٹیب میں کھولتا ہے۔",
+          "when": "PDF بننے کے بعد اسے دیکھنے یا براؤزر کے PDF ویوئر میں پرنٹ اور محفوظ کرنے کے کنٹرول استعمال کرنے کے لیے اسے استعمال کریں۔",
+          "how": "پیش منظر کے PDF تیار ہونے کی اطلاع دینے کے بعد Open PDF منتخب کریں۔ تیار شدہ فائل نئے ٹیب میں کھلتی ہے؛ اسے دیکھنے، پرنٹ کرنے یا محفوظ کرنے کے لیے براؤزر کے PDF کنٹرول استعمال کریں۔",
+          "inputs": "موجودہ پیش منظر میں معاہدے یا قیمت کی پیشکش کی PDF کامیابی سے بن چکی اور دستیاب ہونی چاہیے۔",
+          "result": "تیار شدہ PDF براؤزر کے نئے ٹیب میں کھلتی ہے۔ اسے دیکھنے سے محفوظ شدہ معاہدہ یا قیمت کی پیشکش تبدیل نہیں ہوتی۔",
+          "notes": "تصدیق کریں کہ درست دستاویز کھلی ہے اور تمام صفحات اور متن نظر آ رہے ہیں۔ اگر براؤزر نیا ٹیب روک دے تو پاپ اپ کی اجازت دیں اور Open PDF دوبارہ منتخب کریں۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਠੇਕੇ ਜਾਂ ਕੀਮਤ ਪੇਸ਼ਕਸ਼ ਲਈ ਬਣਾਈ PDF ਨੂੰ ਬ੍ਰਾਊਜ਼ਰ ਦੇ ਨਵੇਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "PDF ਬਣਨ ਤੋਂ ਬਾਅਦ ਇਸਦੀ ਜਾਂਚ ਕਰਨ ਜਾਂ ਬ੍ਰਾਊਜ਼ਰ ਦੇ PDF ਦਰਸ਼ਕ ਦੇ ਪ੍ਰਿੰਟ ਅਤੇ ਸੇਵ ਕੰਟਰੋਲ ਵਰਤਣ ਲਈ ਇਸਦੀ ਵਰਤੋਂ ਕਰੋ।",
+          "how": "ਪ੍ਰੀਵਿਊ ਵੱਲੋਂ PDF ਤਿਆਰ ਹੋਣ ਦੀ ਸੂਚਨਾ ਦੇਣ ਤੋਂ ਬਾਅਦ Open PDF ਚੁਣੋ। ਬਣਾਈ ਫਾਈਲ ਨਵੇਂ ਟੈਬ ਵਿੱਚ ਖੁੱਲ੍ਹਦੀ ਹੈ; ਇਸਦੀ ਜਾਂਚ, ਛਪਾਈ ਜਾਂ ਸੇਵ ਕਰਨ ਲਈ ਬ੍ਰਾਊਜ਼ਰ ਦੇ PDF ਕੰਟਰੋਲ ਵਰਤੋ।",
+          "inputs": "ਮੌਜੂਦਾ ਪ੍ਰੀਵਿਊ ਵਿੱਚ ਠੇਕੇ ਜਾਂ ਕੀਮਤ ਪੇਸ਼ਕਸ਼ ਦੀ PDF ਸਫਲਤਾਪੂਰਵਕ ਬਣੀ ਹੋਣੀ ਅਤੇ ਉਪਲਬਧ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ।",
+          "result": "ਬਣਾਈ PDF ਬ੍ਰਾਊਜ਼ਰ ਦੇ ਨਵੇਂ ਟੈਬ ਵਿੱਚ ਖੁੱਲ੍ਹਦੀ ਹੈ। ਇਸਨੂੰ ਵੇਖਣ ਨਾਲ ਸੰਭਾਲਿਆ ਠੇਕਾ ਜਾਂ ਕੀਮਤ ਪੇਸ਼ਕਸ਼ ਨਹੀਂ ਬਦਲਦੀ।",
+          "notes": "ਜਾਂਚੋ ਕਿ ਸਹੀ ਦਸਤਾਵੇਜ਼ ਖੁੱਲ੍ਹਿਆ ਹੈ ਅਤੇ ਸਾਰੇ ਪੰਨੇ ਤੇ ਲਿਖਤ ਦਿਖ ਰਹੇ ਹਨ। ਜੇ ਬ੍ਰਾਊਜ਼ਰ ਨਵਾਂ ਟੈਬ ਰੋਕਦਾ ਹੈ ਤਾਂ ਪੌਪ-ਅੱਪ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ ਅਤੇ Open PDF ਮੁੜ ਚੁਣੋ।"
+        },
+        "prs": {
+          "purpose": "فایل PDF ایجادشده برای قرارداد یا پیش‌فاکتور فعلی را در زبانه جدید مرورگر باز می‌کند.",
+          "when": "پس از ایجاد PDF، وقتی می‌خواهید آن را بررسی کنید یا از کنترل‌های چاپ و ذخیره نمایشگر PDF مرورگر استفاده کنید، از این گزینه استفاده کنید.",
+          "how": "پس از اعلام آماده‌بودن PDF در پیش‌نمایش، Open PDF را انتخاب کنید. فایل ایجادشده در زبانه جدید باز می‌شود؛ برای بررسی، چاپ یا ذخیره از کنترل‌های PDF مرورگر استفاده کنید.",
+          "inputs": "PDF قرارداد یا پیش‌فاکتور باید در پیش‌نمایش فعلی با موفقیت ایجاد شده و در دسترس باشد.",
+          "result": "PDF ایجادشده در زبانه جدید مرورگر باز می‌شود. مشاهده آن قرارداد یا پیش‌فاکتور ذخیره‌شده را تغییر نمی‌دهد.",
+          "notes": "بررسی کنید سند صحیح باز شده و همه صفحات و متن‌ها قابل مشاهده هستند. اگر مرورگر زبانه جدید را مسدود کرد، پنجره‌های بازشو را مجاز کنید و دوباره Open PDF را انتخاب کنید."
+        },
+        "ps": {
+          "purpose": "د اوسني قرارداد یا نرخ‌لیک لپاره جوړ شوی PDF د براوزر په نوې پاڼه کې پرانیزي.",
+          "when": "دا د PDF له جوړېدو وروسته هغه وخت وکاروئ چې غواړئ فایل وګورئ یا د براوزر د PDF لیدونکي د چاپ او خوندي کولو کنټرولونه وکاروئ.",
+          "how": "کله چې مخکتنه ووایي PDF چمتو دی، Open PDF وټاکئ. جوړ شوی فایل په نوې پاڼه کې پرانیستل کېږي؛ د کتلو، چاپ یا خوندي کولو لپاره د براوزر د PDF کنټرولونه وکاروئ.",
+          "inputs": "د قرارداد یا نرخ‌لیک PDF باید په اوسني مخکتنه کې په بریالیتوب جوړ او موجود وي.",
+          "result": "جوړ شوی PDF د براوزر په نوې پاڼه کې پرانیستل کېږي. د هغه لیدل خوندي شوی قرارداد یا نرخ‌لیک نه بدلوي.",
+          "notes": "وګورئ چې سم سند پرانیستل شوی او ټولې پاڼې او متنونه ښکاري. که براوزر نوې پاڼه بنده کړي، د پاپ‌اپ اجازه ورکړئ او Open PDF بیا وټاکئ."
         }
       },
       "handler_or_behavior": "`ctPrintPDF()`"
