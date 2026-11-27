@@ -10000,82 +10000,82 @@
         "fa": {
           "purpose": "نمای چاپ یا PDF جداگانه‌ای را برای فاکتور فعلی باز می‌کند.",
           "when": "وقتی از پیش‌نمایش فاکتور به نمای سندی جداگانه برای چاپ یا ذخیره PDF نیاز دارید، از این گزینه استفاده کنید.",
-          "how": "Open print view را انتخاب کنید. اجازه دهید مرورگر زبانه جدیدی باز کند و سپس منتظر بارگذاری پیش‌نمایش PDF فاکتور بمانید. اگر زبانه باز نشد، اجازه بازشدن پنجره‌های بازشو (pop-ups) را برای برنامه فعال و دوباره تلاش کنید.",
+          "how": "Open print view را انتخاب کنید. اجازه دهید مرورگر زبانه جدیدی باز کند و منتظر بارگذاری پیش‌نمایش PDF بمانید. اگر زبانه مسدود شد، pop-ups را برای برنامه مجاز کنید و دوباره تلاش کنید.",
           "inputs": "پیش‌نمایش فاکتور فعلی باید باز باشد. مرورگر باید اجازه بازکردن زبانه جدید و بارگذاری منابع ساخت و پیش‌نمایش PDF را بدهد.",
           "result": "یک زبانه جداگانه در مرورگر باز می‌شود و پیش‌نمایش PDF فاکتور فعلی را همراه با کنترل‌های چاپ، اشتراک‌گذاری یا دانلودِ در دسترس آماده می‌کند.",
-          "notes": "پیش از چاپ، مشتری، شماره فاکتور، اقلام، جمع مبالغ و چیدمان صفحات را بررسی کنید."
+          "notes": "پیش از چاپ یا اشتراک‌گذاری، مشتری، شماره فاکتور، اقلام، جمع مبالغ و چیدمان صفحات را بررسی کنید. مسدودکننده پنجره بازشو یا در دسترس نبودن کتابخانه PDF ممکن است مانع بازشدن نما شود."
         },
         "ar": {
           "purpose": "يفتح عرض طباعة الفاتورة.",
           "when": "عندما تريد تجهيز الفاتورة الحالية للطباعة أو لإخراجها بصيغة PDF.",
-          "how": "اختر Open print view لإعداد الفاتورة للطباعة أو إنشاء PDF.",
-          "inputs": "حدد الفاتورة الصحيحة التي تريد تجهيزها للطباعة.",
-          "result": "يُفتح عرض الطباعة للفاتورة المحددة.",
-          "notes": "تحقق من العميل ورقم الفاتورة والبنود والإجماليات وتخطيط الصفحات قبل الطباعة."
+          "how": "اختر Open print view. اسمح للمتصفح بفتح علامة تبويب جديدة وانتظر تحميل معاينة PDF. إذا حُظرت علامة التبويب، اسمح بالنوافذ المنبثقة للتطبيق ثم حاول مجددًا.",
+          "inputs": "يجب أن تكون معاينة الفاتورة الحالية مفتوحة. يجب أن يسمح المتصفح بفتح علامة تبويب جديدة وتحميل موارد إنشاء ومعاينة PDF.",
+          "result": "تُفتح علامة تبويب منفصلة في المتصفح وتُجهّز معاينة PDF للفاتورة الحالية مع عناصر التحكم المتاحة للطباعة أو المشاركة أو التنزيل.",
+          "notes": "راجع العميل ورقم الفاتورة والبنود والإجماليات وتخطيط الصفحات قبل الطباعة أو المشاركة. قد يمنع حاجب النوافذ المنبثقة أو عدم توفر مكتبة PDF فتح العرض."
         },
         "ckb": {
           "purpose": "نمای چاپی فاکتۆر دەکاتەوە.",
           "when": "کاتێک دەتەوێت فاکتۆری ئێستا بۆ چاپکردن یان دەرکردنی PDF ئامادە بکەیت.",
-          "how": "Open print view هەڵبژێرە بۆ ئامادەکردنی فاکتۆر بۆ چاپکردن یان دروستکردنی PDF.",
-          "inputs": "ئەو فاکتۆرە دروستە هەڵبژێرە کە دەتەوێت بۆ چاپکردن ئامادەی بکەیت.",
-          "result": "نمای چاپی فاکتۆری هەڵبژێردراو دەکرێتەوە.",
-          "notes": "پێش چاپکردن کڕیار، ژمارەی فاکتۆر، بڕگەکان، کۆی گشتی و ڕێکخستنی لاپەڕەکان بپشکنە."
+          "how": "Open print view هەڵبژێرە. ڕێگە بدە وێبگەڕ پەنجەرەیەکی نوێ بکاتەوە و چاوەڕێی بارکردنی پێشبینینی PDF بکە. ئەگەر پەنجەرەکە بلۆک کرا، pop-ups بۆ ئەپەکە ڕێگەپێبدە و دووبارە هەوڵ بدە.",
+          "inputs": "پێشبینینی فاکتۆری ئێستا دەبێت کراوە بێت. وێبگەڕ دەبێت ڕێگە بدات پەنجەرەیەکی نوێ بکرێتەوە و سەرچاوەکانی دروستکردن و پێشبینینی PDF بار بکرێن.",
+          "result": "لە وێبگەڕدا پەنجەرەیەکی جیاواز دەکرێتەوە و پێشبینینی PDFی فاکتۆری ئێستا لەگەڵ کۆنترۆڵە بەردەستەکانی چاپ، هاوبەشکردن یان داگرتن ئامادە دەکات.",
+          "notes": "پێش چاپ یان هاوبەشکردن، کڕیار، ژمارەی فاکتۆر، بڕگەکان، کۆی گشتی و ڕێکخستنی لاپەڕەکان بپشکنە. بلۆکەری pop-up یان نەبوونی کتێبخانەی PDF لەوانەیە ڕێگری لە کردنەوەی نماکە بکات."
         },
         "kmr": {
           "purpose": "Dîtina çapkirina fatûreyê vedike.",
           "when": "Dema ku tu dixwazî fatûreya niha ji bo çapkirinê an derxistina PDF amade bikî.",
-          "how": "Open print view hilbijêre da ku fatûre ji bo çapkirinê an çêkirina PDF amade bibe.",
-          "inputs": "Fatûreya rast a ku dixwazî ji bo çapkirinê amade bikî hilbijêre.",
-          "result": "Dîtina çapkirinê ya fatûreya hilbijartî vedibe.",
-          "notes": "Berî çapkirinê xerîdar, jimara fatûreyê, hêman, tevahî û sêwirana rûpelan kontrol bike."
+          "how": "Open print view hilbijêre. Destûrê bide gerok rûpelek nû veke û li benda barkirina pêşdîtina PDF bimîne. Heke rûpel were astengkirin, pop-ups ji bo sepanê destûr bide û dîsa biceribîne.",
+          "inputs": "Pêdivî ye pêşdîtina fatûreya heyî vekirî be. Divê gerok destûrê bide rûpelek nû vebe û çavkaniyên çêkirin û pêşdîtina PDF bar bike.",
+          "result": "Di gerokê de rûpelek cuda vedibe û pêşdîtina PDF ya fatûreya heyî bi kontrolên berdest ên çapkirin, parvekirin an daxistinê amade dike.",
+          "notes": "Berî çapkirin an parvekirinê xerîdar, hejmara fatûreyê, hêman, tevahî û rêkxistina rûpelan kontrol bike. Astengkerê pop-up an nebûna pirtûkxaneya PDF dikare pêşî li vekirina dîtinê bigire."
         },
         "tr": {
           "purpose": "Faturanın yazdırma görünümünü açar.",
           "when": "Mevcut faturayı yazdırmaya veya PDF olarak dışa aktarmaya hazırlamak istediğinizde kullanın.",
-          "how": "Faturayı yazdırmaya veya PDF oluşturmaya hazırlamak için Open print view'ı seçin.",
-          "inputs": "Yazdırmaya hazırlamak istediğiniz doğru faturayı seçin.",
-          "result": "Seçilen faturanın yazdırma görünümü açılır.",
-          "notes": "Yazdırmadan önce müşteriyi, fatura numarasını, kalemleri, toplamları ve sayfa düzenini kontrol edin."
+          "how": "Open print view seçeneğini belirleyin. Tarayıcının yeni bir sekme açmasına izin verin ve PDF önizlemesinin yüklenmesini bekleyin. Sekme engellenirse uygulama için açılır pencerelere izin verip yeniden deneyin.",
+          "inputs": "Mevcut fatura önizlemesi açık olmalıdır. Tarayıcı yeni bir sekme açmaya ve PDF oluşturma/önizleme kaynaklarını yüklemeye izin vermelidir.",
+          "result": "Tarayıcıda ayrı bir sekme açılır ve mevcut faturanın PDF önizlemesi, kullanılabilir yazdırma, paylaşma veya indirme denetimleriyle hazırlanır.",
+          "notes": "Yazdırmadan veya paylaşmadan önce müşteriyi, fatura numarasını, kalemleri, toplamları ve sayfa düzenini kontrol edin. Açılır pencere engelleyici veya PDF kitaplığının kullanılamaması görünümün açılmasını önleyebilir."
         },
         "pl": {
           "purpose": "Otwiera widok wydruku faktury.",
           "when": "Użyj, gdy chcesz przygotować bieżącą fakturę do wydruku lub eksportu do PDF.",
-          "how": "Wybierz Open print view, aby przygotować fakturę do drukowania lub utworzenia PDF.",
-          "inputs": "Wybierz właściwą fakturę, którą chcesz przygotować do wydruku.",
-          "result": "Otwiera się widok wydruku wybranej faktury.",
-          "notes": "Przed drukowaniem sprawdź klienta, numer faktury, pozycje, sumy i układ stron."
+          "how": "Wybierz Open print view. Zezwól przeglądarce otworzyć nową kartę i poczekaj na załadowanie podglądu PDF. Jeśli karta zostanie zablokowana, zezwól aplikacji na wyskakujące okna i spróbuj ponownie.",
+          "inputs": "Podgląd bieżącej faktury musi być otwarty. Przeglądarka musi zezwalać na otwarcie nowej karty i załadowanie zasobów generowania/podglądu PDF.",
+          "result": "Otwiera się osobna karta przeglądarki z podglądem PDF bieżącej faktury oraz dostępnymi opcjami drukowania, udostępniania lub pobierania.",
+          "notes": "Przed drukowaniem lub udostępnieniem sprawdź klienta, numer faktury, pozycje, sumy i układ stron. Blokada wyskakujących okien lub brak biblioteki PDF może uniemożliwić otwarcie widoku."
         },
         "ur": {
           "purpose": "انوائس کا پرنٹ منظر کھولتا ہے۔",
           "when": "جب موجودہ انوائس کو پرنٹ یا PDF بنانے کے لیے تیار کرنا ہو تو استعمال کریں۔",
-          "how": "انوائس کو پرنٹنگ یا PDF بنانے کے لیے تیار کرنے کے لیے Open print view منتخب کریں۔",
-          "inputs": "وہ درست انوائس منتخب کریں جسے پرنٹ کے لیے تیار کرنا ہے۔",
-          "result": "منتخب انوائس کا پرنٹ منظر کھل جاتا ہے۔",
-          "notes": "پرنٹ کرنے سے پہلے گاہک، انوائس نمبر، آئٹمز، کل رقم اور صفحے کی ترتیب چیک کریں۔"
+          "how": "Open print view منتخب کریں۔ براؤزر کو نیا ٹیب کھولنے دیں اور PDF پری ویو لوڈ ہونے کا انتظار کریں۔ اگر ٹیب بلاک ہو تو ایپ کے لیے pop-ups کی اجازت دے کر دوبارہ کوشش کریں۔",
+          "inputs": "موجودہ انوائس کا پری ویو کھلا ہونا چاہیے۔ براؤزر کو نیا ٹیب کھولنے اور PDF بنانے/پری ویو کے وسائل لوڈ کرنے کی اجازت ہونی چاہیے۔",
+          "result": "براؤزر میں الگ ٹیب کھلتا ہے اور موجودہ انوائس کا PDF پری ویو دستیاب پرنٹ، شیئر یا ڈاؤن لوڈ کنٹرولز کے ساتھ تیار ہوتا ہے۔",
+          "notes": "پرنٹ یا شیئر کرنے سے پہلے گاہک، انوائس نمبر، آئٹمز، مجموعی رقم اور صفحات کی ترتیب چیک کریں۔ پاپ اَپ بلاکر یا PDF لائبریری دستیاب نہ ہونے سے منظر نہیں کھل سکتا۔"
         },
         "pa": {
           "purpose": "ਇਨਵੌਇਸ ਦਾ ਪ੍ਰਿੰਟ ਦ੍ਰਿਸ਼ ਖੋਲ੍ਹਦਾ ਹੈ।",
           "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਇਨਵੌਇਸ ਨੂੰ ਪ੍ਰਿੰਟ ਜਾਂ PDF ਬਣਾਉਣ ਲਈ ਤਿਆਰ ਕਰਨਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਇਨਵੌਇਸ ਨੂੰ ਪ੍ਰਿੰਟ ਜਾਂ PDF ਲਈ ਤਿਆਰ ਕਰਨ ਵਾਸਤੇ Open print view ਚੁਣੋ।",
-          "inputs": "ਉਹ ਸਹੀ ਇਨਵੌਇਸ ਚੁਣੋ ਜਿਸਨੂੰ ਪ੍ਰਿੰਟ ਲਈ ਤਿਆਰ ਕਰਨਾ ਹੈ।",
-          "result": "ਚੁਣੇ ਇਨਵੌਇਸ ਦਾ ਪ੍ਰਿੰਟ ਦ੍ਰਿਸ਼ ਖੁੱਲ੍ਹ ਜਾਂਦਾ ਹੈ।",
-          "notes": "ਪ੍ਰਿੰਟ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਗਾਹਕ, ਇਨਵੌਇਸ ਨੰਬਰ, ਆਈਟਮਾਂ, ਕੁੱਲ ਅਤੇ ਪੰਨਾ ਲੇਆਉਟ ਜਾਂਚੋ।"
+          "how": "Open print view ਚੁਣੋ। ਬ੍ਰਾਊਜ਼ਰ ਨੂੰ ਨਵੀਂ ਟੈਬ ਖੋਲ੍ਹਣ ਦਿਓ ਅਤੇ PDF ਪ੍ਰੀਵਿਊ ਲੋਡ ਹੋਣ ਦੀ ਉਡੀਕ ਕਰੋ। ਜੇ ਟੈਬ ਰੋਕੀ ਜਾਵੇ ਤਾਂ ਐਪ ਲਈ pop-ups ਦੀ ਇਜਾਜ਼ਤ ਦੇ ਕੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+          "inputs": "ਮੌਜੂਦਾ ਇਨਵੌਇਸ ਪ੍ਰੀਵਿਊ ਖੁੱਲ੍ਹਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ। ਬ੍ਰਾਊਜ਼ਰ ਨੂੰ ਨਵੀਂ ਟੈਬ ਖੋਲ੍ਹਣ ਅਤੇ PDF ਬਣਾਉਣ/ਪ੍ਰੀਵਿਊ ਸਰੋਤ ਲੋਡ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ۔",
+          "result": "ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਵੱਖਰੀ ਟੈਬ ਖੁੱਲ੍ਹਦੀ ਹੈ ਅਤੇ ਮੌਜੂਦਾ ਇਨਵੌਇਸ ਦਾ PDF ਪ੍ਰੀਵਿਊ ਉਪਲਬਧ ਪ੍ਰਿੰਟ, ਸਾਂਝਾ ਜਾਂ ਡਾਊਨਲੋਡ ਕੰਟਰੋਲਾਂ ਨਾਲ ਤਿਆਰ ਹੁੰਦਾ ਹੈ।",
+          "notes": "ਪ੍ਰਿੰਟ ਜਾਂ ਸਾਂਝਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਗਾਹਕ, ਇਨਵੌਇਸ ਨੰਬਰ, ਆਈਟਮਾਂ, ਕੁੱਲ ਰਕਮ ਅਤੇ ਪੰਨਿਆਂ ਦੀ ਬਣਤਰ ਜਾਂਚੋ। ਪੌਪ-ਅੱਪ ਬਲਾਕਰ ਜਾਂ PDF ਲਾਇਬ੍ਰੇਰੀ ਦੀ ਗੈਰ-ਮੌਜੂਦਗੀ ਦ੍ਰਿਸ਼ ਖੋਲ੍ਹਣ ਤੋਂ ਰੋਕ ਸਕਦੀ ਹੈ।"
         },
         "prs": {
           "purpose": "نمای چاپ فاکتور را باز می‌کند.",
           "when": "وقتی می‌خواهید فاکتور فعلی را برای چاپ یا خروجی PDF آماده کنید، استفاده کنید.",
-          "how": "برای آماده‌سازی فاکتور جهت چاپ یا ایجاد PDF، Open print view را انتخاب کنید.",
-          "inputs": "فاکتور درست را که می‌خواهید برای چاپ آماده شود انتخاب کنید.",
-          "result": "نمای چاپ فاکتور انتخاب‌شده باز می‌شود.",
-          "notes": "پیش از چاپ، مشتری، شماره فاکتور، اقلام، جمع مبالغ و چیدمان صفحات را بررسی کنید."
+          "how": "Open print view را انتخاب کنید. اجازه دهید مرورگر زبانه جدیدی باز کند و منتظر بارگذاری پیش‌نمایش PDF بمانید. اگر زبانه مسدود شد، pop-ups را برای برنامه مجاز کنید و دوباره تلاش کنید.",
+          "inputs": "پیش‌نمایش فاکتور فعلی باید باز باشد. مرورگر باید اجازه بازکردن زبانه جدید و بارگذاری منابع ساخت و پیش‌نمایش PDF را بدهد.",
+          "result": "یک زبانه جداگانه در مرورگر باز می‌شود و پیش‌نمایش PDF فاکتور فعلی را همراه با کنترل‌های چاپ، اشتراک‌گذاری یا دانلودِ در دسترس آماده می‌کند.",
+          "notes": "پیش از چاپ یا اشتراک‌گذاری، مشتری، شماره فاکتور، اقلام، جمع مبالغ و چیدمان صفحات را بررسی کنید. مسدودکننده پنجره بازشو یا در دسترس نبودن کتابخانه PDF ممکن است مانع بازشدن نما شود."
         },
         "ps": {
           "purpose": "د بل د چاپ لید پرانیزي.",
           "when": "کله چې اوسنی بل د چاپ یا PDF جوړولو لپاره چمتو کول غواړئ، دا وکاروئ.",
-          "how": "د بل د چاپ یا PDF جوړولو لپاره د چمتو کولو په موخه Open print view وټاکئ.",
-          "inputs": "هغه سم بل وټاکئ چې د چاپ لپاره یې چمتو کول غواړئ.",
-          "result": "د ټاکل شوي بل د چاپ لید پرانیستل کېږي.",
-          "notes": "له چاپ مخکې د پېرودونکي نوم، د بل شمېره، توکي، ټولیز مبلغ او د پاڼو ترتیب وګورئ."
+          "how": "Open print view وټاکئ. براوزر ته اجازه ورکړئ نوې ټب پرانیزي او د PDF مخکتنې بارېدو ته انتظار وکړئ. که ټب بند شي، د اپلیکیشن لپاره pop-ups اجازه کړئ او بیا هڅه وکړئ.",
+          "inputs": "د اوسني بل مخکتنه باید پرانیستې وي. براوزر باید د نوې ټب پرانیستلو او د PDF جوړولو/مخکتنې سرچینو بارولو اجازه ورکړي.",
+          "result": "په براوزر کې جلا ټب پرانیستل کېږي او د اوسني بل PDF مخکتنه د چاپ، شریکولو یا ښکته کولو شته کنټرولونو سره چمتو کېږي.",
+          "notes": "له چاپ یا شریکولو مخکې پېرودونکی، د بل شمېره، توکي، ټولیزې پیسې او د پاڼو ترتیب وګورئ. د پاپ‌اپ بندوونکی یا د PDF کتابتون نشتوالی ښايي د لید پرانیستل ودروي."
         }
       },
       "handler_or_behavior": "`openInvoicePrintView()`"
@@ -10101,79 +10101,79 @@
           "how": "در نمای PDF فاکتور Share PDF را انتخاب کنید و از صفحه اشتراک‌گذاری دستگاه مقصدی را برگزینید. اگر اشتراک‌گذاری فایل در دسترس نبود، از روش جایگزین دانلود PDF استفاده کنید.",
           "inputs": "فایل PDF ایجادشده فاکتور لازم است. اگر صفحه اشتراک‌گذاری سیستم باز شد، مقصد را انتخاب کنید.",
           "result": "در صورت پشتیبانی دستگاه، صفحه اشتراک‌گذاری باز می‌شود؛ در غیر این صورت برنامه دانلود PDF فاکتور را آغاز می‌کند. برنامه نمی‌تواند تحویل فایل توسط برنامه یا سرویس دیگری را تأیید کند.",
-          "notes": "اشتراک‌گذاری، وضعیت فاکتور را به Paid تغییر نمی‌دهد. وضعیت پرداخت را جداگانه بررسی کنید."
+          "notes": "پیش از اشتراک‌گذاری، فاکتور و گیرنده را بررسی کنید. اشتراک‌گذاری وضعیت فاکتور را به Paid تغییر نمی‌دهد."
         },
         "ar": {
           "purpose": "يشارك ملف PDF الخاص بالفاتورة الحالية.",
           "when": "عندما تريد إرسال نسخة PDF من الفاتورة الحالية.",
           "how": "افتح ملف PDF للفاتورة أو أنشئه، ثم اختر Share PDF وحدد وجهة من الخيارات التي يوفرها الجهاز.",
-          "inputs": "حدد الفاتورة الصحيحة وملف PDF الخاص بها، ثم اختر وجهة المشاركة.",
-          "result": "تُفتح خيارات مشاركة ملف PDF للفاتورة الحالية.",
-          "notes": "المشاركة لا تعني أن الفاتورة مدفوعة. تحقق من المستلم وحالة الدفع بشكل منفصل."
+          "inputs": "يلزم ملف PDF للفاتورة تم إنشاؤه. اختر وجهة إذا فتحت قائمة المشاركة في النظام.",
+          "result": "تُفتح قائمة المشاركة إذا كان الجهاز يدعمها؛ وإلا يبدأ التطبيق تنزيل PDF الفاتورة. لا يستطيع التطبيق تأكيد تسليم الملف بواسطة تطبيق أو خدمة أخرى.",
+          "notes": "راجع الفاتورة والمستلم قبل المشاركة. المشاركة لا تغيّر حالة الفاتورة إلى Paid."
         },
         "ckb": {
           "purpose": "فایلی PDFی فاکتۆری ئێستا هاوبەش دەکات.",
           "when": "کاتێک دەتەوێت کۆپیی PDFی فاکتۆری ئێستا بنێریت.",
           "how": "PDFی فاکتۆرەکە بکەرەوە یان دروستی بکە، پاشان Share PDF هەڵبژێرە و شوێنێک لە هەڵبژاردەکانی ئامێرەکە دیاری بکە.",
-          "inputs": "فاکتۆری دروست و فایلی PDFی پەیوەست بەو هەڵبژێرە، پاشان شوێنی هاوبەشکردن دیاری بکە.",
-          "result": "هەڵبژاردەکانی هاوبەشکردنی PDFی فاکتۆری ئێستا دەکرێنەوە.",
-          "notes": "هاوبەشکردن بە مانای پارەدراوبوونی فاکتۆر نییە. وەرگر و دۆخی پارەدان بە جیاواز بپشکنە."
+          "inputs": "فایلی PDFی دروستکراوی فاکتۆر پێویستە. ئەگەر پەنجەرەی هاوبەشکردنی سیستەم کرایەوە، شوێنێک هەڵبژێرە.",
+          "result": "ئەگەر ئامێرەکە پشتگیری بکات، پەنجەرەی هاوبەشکردن دەکرێتەوە؛ ئەگەر نا، ئەپەکە داگرتنی PDFی فاکتۆر دەستپێدەکات. ئەپەکە ناتوانێت گەیاندنی فایل لەلایەن ئەپ یان خزمەتگوزارییەکی ترەوە پشتڕاست بکاتەوە.",
+          "notes": "پێش هاوبەشکردن فاکتۆر و وەرگر بپشکنە. هاوبەشکردن دۆخی فاکتۆر ناگۆڕێت بۆ Paid."
         },
         "kmr": {
           "purpose": "Pelê PDF yê fatûreya niha parve dike.",
           "when": "Dema ku tu dixwazî kopiyeke PDF ya fatûreya niha bişînî.",
           "how": "PDF ya fatûreyê veke an çêbike, paşê Share PDF hilbijêre û cihêkê ji vebijarkên amûrê hilbijêre.",
-          "inputs": "Fatûreya rast û pelê PDF yê wê hilbijêre, paşê cihê parvekirinê diyar bike.",
-          "result": "Vebijarkên parvekirina PDF ya fatûreya niha vedibin.",
-          "notes": "Parvekirin nayê wê wateyê ku fatûre hatiye dayîn. Wergir û rewşa dravdanê cuda kontrol bike."
+          "inputs": "Pelê PDF yê fatûreyê yê hatî çêkirin pêwîst e. Heke pelika parvekirina pergalê vebe, cihêk hilbijêre.",
+          "result": "Ger amûr piştgirî bike, pelika parvekirinê vedibe; wekî din sepan daxistina PDF ya fatûreyê dest pê dike. Sepan nikare gihîştina pelê ji aliyê sepan an xizmeteke din ve piştrast bike.",
+          "notes": "Berî parvekirinê fatûre û wergir kontrol bike. Parvekirin rewşa fatûreyê naguherîne bo Paid."
         },
         "tr": {
           "purpose": "Mevcut faturanın PDF dosyasını paylaşır.",
           "when": "Mevcut faturanın PDF kopyasını göndermek istediğinizde kullanın.",
           "how": "Fatura PDF'sini açın veya oluşturun, ardından Share PDF'yi seçin ve cihazın sunduğu bir hedef belirleyin.",
-          "inputs": "Doğru faturayı ve ona ait PDF dosyasını seçin, ardından paylaşım hedefini belirleyin.",
-          "result": "Mevcut faturanın PDF'si için paylaşım seçenekleri açılır.",
-          "notes": "Paylaşım faturanın ödendiği anlamına gelmez. Alıcıyı ve ödeme durumunu ayrıca doğrulayın."
+          "inputs": "Oluşturulmuş bir fatura PDF'si gerekir. Sistem paylaşım menüsü açılırsa bir hedef seçin.",
+          "result": "Cihaz destekliyorsa paylaşım menüsü açılır; aksi hâlde uygulama fatura PDF'sini indirmeye başlar. Uygulama, başka bir uygulama veya hizmetin dosyayı teslim ettiğini doğrulayamaz.",
+          "notes": "Paylaşmadan önce faturayı ve alıcıyı kontrol edin. Paylaşım faturanın durumunu Paid olarak değiştirmez."
         },
         "pl": {
           "purpose": "Udostępnia plik PDF bieżącej faktury.",
           "when": "Użyj, gdy chcesz wysłać kopię PDF bieżącej faktury.",
           "how": "Otwórz lub wygeneruj PDF faktury, następnie wybierz Share PDF i wskaż miejsce docelowe oferowane przez urządzenie.",
-          "inputs": "Wybierz właściwą fakturę i jej plik PDF, a następnie wskaż miejsce udostępnienia.",
-          "result": "Otwierają się opcje udostępniania pliku PDF bieżącej faktury.",
-          "notes": "Udostępnienie nie oznacza, że faktura została opłacona. Osobno sprawdź odbiorcę i status płatności."
+          "inputs": "Wymagany jest wygenerowany plik PDF faktury. Jeśli otworzy się systemowy panel udostępniania, wybierz miejsce docelowe.",
+          "result": "Jeśli urządzenie obsługuje tę funkcję, otworzy się panel udostępniania; w przeciwnym razie aplikacja rozpocznie pobieranie PDF faktury. Aplikacja nie może potwierdzić dostarczenia przez inną aplikację lub usługę.",
+          "notes": "Przed udostępnieniem sprawdź fakturę i odbiorcę. Udostępnienie nie zmienia statusu faktury na Paid."
         },
         "ur": {
           "purpose": "موجودہ انوائس کی PDF شیئر کرتا ہے۔",
           "when": "جب موجودہ انوائس کی PDF نقل بھیجنی ہو تو استعمال کریں۔",
           "how": "انوائس کی PDF کھولیں یا بنائیں، پھر Share PDF منتخب کریں اور ڈیوائس کی پیش کردہ منزل چنیں۔",
-          "inputs": "درست انوائس اور اس کی PDF فائل منتخب کریں، پھر شیئرنگ منزل منتخب کریں۔",
-          "result": "موجودہ انوائس کی PDF کے لیے شیئرنگ اختیارات کھل جاتے ہیں۔",
-          "notes": "شیئر کرنے کا مطلب یہ نہیں کہ انوائس ادا ہو گئی ہے۔ وصول کنندہ اور ادائیگی کی حیثیت الگ سے چیک کریں۔"
+          "inputs": "انوائس کی بنائی گئی PDF فائل ضروری ہے۔ اگر سسٹم شیئرنگ شیٹ کھلے تو منزل منتخب کریں۔",
+          "result": "اگر ڈیوائس سپورٹ کرتی ہے تو شیئرنگ شیٹ کھلتی ہے؛ ورنہ ایپ انوائس PDF ڈاؤن لوڈ کرنا شروع کرتی ہے۔ ایپ کسی دوسری ایپ یا سروس کی ترسیل کی تصدیق نہیں کر سکتی۔",
+          "notes": "شیئر کرنے سے پہلے انوائس اور وصول کنندہ چیک کریں۔ شیئر کرنے سے انوائس کی حیثیت Paid نہیں ہوتی۔"
         },
         "pa": {
           "purpose": "ਮੌਜੂਦਾ ਇਨਵੌਇਸ ਦੀ PDF ਸਾਂਝੀ ਕਰਦਾ ਹੈ।",
           "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਇਨਵੌਇਸ ਦੀ PDF ਕਾਪੀ ਭੇਜਣੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
           "how": "ਇਨਵੌਇਸ PDF ਖੋਲ੍ਹੋ ਜਾਂ ਬਣਾਓ, ਫਿਰ Share PDF ਚੁਣੋ ਅਤੇ ਡਿਵਾਈਸ ਵੱਲੋਂ ਦਿੱਤੀ ਮੰਜ਼ਿਲ ਚੁਣੋ।",
-          "inputs": "ਸਹੀ ਇਨਵੌਇਸ ਅਤੇ ਉਸਦੀ PDF ਫਾਈਲ ਚੁਣੋ, ਫਿਰ ਸਾਂਝਾ ਕਰਨ ਦੀ ਮੰਜ਼ਿਲ ਚੁਣੋ।",
-          "result": "ਮੌਜੂਦਾ ਇਨਵੌਇਸ PDF ਲਈ ਸਾਂਝਾ ਕਰਨ ਦੇ ਵਿਕਲਪ ਖੁੱਲ੍ਹਦੇ ਹਨ।",
-          "notes": "ਸਾਂਝਾ ਕਰਨ ਦਾ ਮਤਲਬ ਇਹ ਨਹੀਂ ਕਿ ਇਨਵੌਇਸ ਦਾ ਭੁਗਤਾਨ ਹੋ ਗਿਆ ਹੈ। ਪ੍ਰਾਪਤਕਰਤਾ ਅਤੇ ਭੁਗਤਾਨ ਸਥਿਤੀ ਵੱਖਰੇ ਤੌਰ 'ਤੇ ਜਾਂਚੋ।"
+          "inputs": "ਇਨਵੌਇਸ ਦੀ ਬਣਾਈ PDF ਫਾਈਲ ਲੋੜੀਂਦੀ ਹੈ। ਜੇ ਸਿਸਟਮ ਸ਼ੇਅਰ ਸ਼ੀਟ ਖੁੱਲ੍ਹੇ ਤਾਂ ਮੰਜ਼ਿਲ ਚੁਣੋ।",
+          "result": "ਜੇ ਡਿਵਾਈਸ ਸਮਰਥਨ ਕਰਦੀ ਹੈ ਤਾਂ ਸ਼ੇਅਰ ਸ਼ੀਟ ਖੁੱਲ੍ਹਦੀ ਹੈ; ਨਹੀਂ ਤਾਂ ਐਪ ਇਨਵੌਇਸ PDF ਡਾਊਨਲੋਡ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰਦੀ ਹੈ। ਐਪ ਕਿਸੇ ਹੋਰ ਐਪ ਜਾਂ ਸੇਵਾ ਵੱਲੋਂ ਡਿਲਿਵਰੀ ਦੀ ਪੁਸ਼ਟੀ ਨਹੀਂ ਕਰ ਸਕਦੀ।",
+          "notes": "ਸਾਂਝਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਇਨਵੌਇਸ ਅਤੇ ਪ੍ਰਾਪਤਕਰਤਾ ਜਾਂਚੋ। ਸਾਂਝਾ ਕਰਨ ਨਾਲ ਇਨਵੌਇਸ ਦੀ ਸਥਿਤੀ Paid ਨਹੀਂ ਹੁੰਦੀ।"
         },
         "prs": {
           "purpose": "فایل PDF فاکتور فعلی را به اشتراک می‌گذارد.",
           "when": "وقتی می‌خواهید نسخه PDF فاکتور فعلی را ارسال کنید، استفاده کنید.",
           "how": "PDF فاکتور را باز یا ایجاد کنید، سپس Share PDF را انتخاب و مقصدی را از گزینه‌های دستگاه برگزینید.",
-          "inputs": "فاکتور درست و فایل PDF مربوط به آن را انتخاب کنید، سپس مقصد اشتراک‌گذاری را تعیین کنید.",
-          "result": "گزینه‌های اشتراک‌گذاری PDF فاکتور فعلی باز می‌شوند.",
-          "notes": "اشتراک‌گذاری به معنی پرداخت‌شدن فاکتور نیست. گیرنده و وضعیت پرداخت را جداگانه بررسی کنید."
+          "inputs": "فایل PDF ایجادشده فاکتور لازم است. اگر صفحه اشتراک‌گذاری سیستم باز شد، مقصد را انتخاب کنید.",
+          "result": "در صورت پشتیبانی دستگاه، صفحه اشتراک‌گذاری باز می‌شود؛ در غیر این صورت برنامه دانلود PDF فاکتور را آغاز می‌کند. برنامه نمی‌تواند تحویل فایل توسط برنامه یا سرویس دیگری را تأیید کند.",
+          "notes": "پیش از اشتراک‌گذاری، فاکتور و گیرنده را بررسی کنید. اشتراک‌گذاری وضعیت فاکتور را به Paid تغییر نمی‌دهد."
         },
         "ps": {
           "purpose": "د اوسني بل PDF شریکوي.",
           "when": "کله چې غواړئ د اوسني بل PDF کاپي ولېږئ، دا وکاروئ.",
           "how": "د بل PDF پرانیزئ یا جوړ یې کړئ، بیا Share PDF وټاکئ او د وسیلې له وړاندیز شوو ځایونو څخه یو وټاکئ.",
-          "inputs": "سم بل او اړوند PDF فایل وټاکئ، بیا د شریکولو ځای وټاکئ.",
-          "result": "د اوسني بل PDF لپاره د شریکولو اختیارونه پرانیستل کېږي.",
-          "notes": "شریکول دا معنا نه لري چې بل تادیه شوی دی. ترلاسه کوونکی او د تادیې حالت جلا وګورئ."
+          "inputs": "د بل جوړه شوې PDF فایل اړین دی. که د سیسټم د شریکولو پاڼه پرانیستل شي، موخه وټاکئ.",
+          "result": "که وسیله یې ملاتړ کوي، د شریکولو پاڼه پرانیستل کېږي؛ که نه، اپلیکیشن د بل PDF ښکته کول پیلوي. اپلیکیشن د بل اپ یا خدمت له خوا د فایل رسېدل نه شي تاییدولای.",
+          "notes": "له شریکولو مخکې بل او ترلاسه کوونکی وګورئ. شریکول د بل حالت Paid ته نه اړوي."
         }
       },
       "handler_or_behavior": "`thaShareInvoicePdf()`"
