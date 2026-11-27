@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261126-R43",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R43",
-    "indexBlobSha": "1c4e0eba42af35e827461c23e1b4a437061b943a",
+    "buildId": "THA-273-R11-PREVIEW-20261127-R45",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R45",
+    "indexBlobSha": "04d08676aba0bc6a3bbd7c8c55be5c447f00f9a7",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,8 +30,8 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "1c4e0eba42af35e827461c23e1b4a437061b943a",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "04d08676aba0bc6a3bbd7c8c55be5c447f00f9a7",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "f10e56b60a0831b75635a5de09d9decfdcf4f5b3",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7"
     }
   },
@@ -2006,6 +2006,47 @@
       "userApproval": {
         "result": "authorized for Preview only",
         "details": "User requested renaming Help to User Guide and asked to continue work in Preview. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-FACTORY-RESET-SAFETY-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Make Factory Reset fail closed until the approved backup, isolated Preview database, verified emergency snapshot file, explicit confirmation and recovery preflight all pass.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "9c38b8498444190e98b2f75935613cea89fa8646",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "FAIL — initial R45 run blocked by stale R43 manifest",
+        "runId": 46052111658,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46052111658",
+        "details": "The gate correctly stopped at HTML Build ID mismatch because the R45 index and reset-runtime SHA pins had not yet been reconciled in VERSION-AUTHORITY.json. No bypass was used; the manifest is being updated to the verified development blobs."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "V8 syntax compilation passed for the complete v273-legacy-reset.js. Static checks confirm strict Preview IndexedDB identity, revalidation of the converted import immediately before reset, emergency snapshot full-domain verification, re-selection and SHA-256 comparison of the saved snapshot file, fail-closed final-button gating, and preservation of recovery-lock retry. No live browser execution or destructive reset was run."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "details": "PR #96 remains Draft; no Preview Pages deployment has been claimed."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Requires post-deployment iPhone Safari testing; no reset or restore should be executed as part of a smoke test."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Preview repair only; awaiting user test and approval."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
