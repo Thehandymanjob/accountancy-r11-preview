@@ -11143,7 +11143,7 @@
           "purpose": "Open the jobs associated with a company.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Choose Open Jobs to view the jobs linked to that company.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "inputs": "Select the correct company whose jobs you want to view.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "This navigates to the company’s job list; it does not create or change a job."
         },
@@ -11151,9 +11151,81 @@
           "purpose": "باز کردن فهرست کارهای مرتبط با یک شرکت.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "گزینه Open Jobs را انتخاب کنید تا کارهای متصل به آن شرکت نمایش داده شوند.",
-          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "inputs": "شرکت درست را که می‌خواهید کارهای آن را ببینید انتخاب کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "این گزینه فقط فهرست کارهای شرکت را باز می‌کند و کار جدیدی ایجاد یا ویرایش نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يفتح الوظائف المرتبطة بشركة معينة.",
+          "when": "عندما تريد عرض الوظائف المسجلة تحت شركة محددة.",
+          "how": "اختر Open Jobs بجانب الشركة المطلوبة لعرض قائمة وظائفها.",
+          "inputs": "حدد الشركة الصحيحة التي تريد عرض وظائفها.",
+          "result": "تظهر قائمة الوظائف المرتبطة بالشركة المحددة.",
+          "notes": "ينقلك هذا الإجراء إلى قائمة وظائف الشركة؛ ولا ينشئ وظيفة أو يعدلها."
+        },
+        "ckb": {
+          "purpose": "کارە پەیوەستەکانی کۆمپانیایەکی دیاریکراو دەکاتەوە.",
+          "when": "کاتێک دەتەوێت کارە تۆمارکراوەکانی ژێر کۆمپانیایەکی دیاریکراو ببینیت.",
+          "how": "لە تەنیشت کۆمپانیای داواکراو Open Jobs هەڵبژێرە بۆ پیشاندانی پێڕستی کارەکانی.",
+          "inputs": "کۆمپانیای دروست هەڵبژێرە کە دەتەوێت کارەکانی ببینیت.",
+          "result": "پێڕستی کارە پەیوەستەکانی کۆمپانیای هەڵبژێردراو پیشان دەدرێت.",
+          "notes": "ئەم کردارە دەچێتە پێڕستی کارەکانی کۆمپانیا؛ کارێک دروست ناکات و دەستکاریشی ناکات."
+        },
+        "kmr": {
+          "purpose": "Karên girêdayî bi pargîdaniyeke taybet vedike.",
+          "when": "Dema ku tu dixwazî karên tomarkirî yên di bin pargîdaniyekê de bibînî.",
+          "how": "Li kêleka pargîdaniya xwestî Open Jobs hilbijêre da ku lîsteya karan bibînî.",
+          "inputs": "Pargîdaniya rast hilbijêre ku dixwazî karên wê bibînî.",
+          "result": "Lîsteya karên girêdayî bi pargîdaniya hilbijartî xuya dibe.",
+          "notes": "Ev te digihîne lîsteya karên pargîdanî; karekê çênake û naguherîne."
+        },
+        "tr": {
+          "purpose": "Belirli bir şirketle ilişkili işleri açar.",
+          "when": "Belirli bir şirket altında kayıtlı işleri görüntülemek istediğinizde kullanın.",
+          "how": "Şirketin iş listesini görüntülemek için ilgili şirketin yanındaki Open Jobs'u seçin.",
+          "inputs": "İşlerini görüntülemek istediğiniz doğru şirketi seçin.",
+          "result": "Seçilen şirketle ilişkili işler listelenir.",
+          "notes": "Bu işlem şirketin iş listesine gider; yeni bir iş oluşturmaz veya mevcut işi değiştirmez."
+        },
+        "pl": {
+          "purpose": "Otwiera zlecenia powiązane z określoną firmą.",
+          "when": "Użyj, gdy chcesz wyświetlić zlecenia zapisane w ramach konkretnej firmy.",
+          "how": "Wybierz Open Jobs obok właściwej firmy, aby wyświetlić listę jej zleceń.",
+          "inputs": "Wybierz właściwą firmę, której zlecenia chcesz zobaczyć.",
+          "result": "Wyświetlana jest lista zleceń powiązanych z wybraną firmą.",
+          "notes": "Ta czynność przechodzi do listy zleceń firmy; nie tworzy ani nie zmienia zlecenia."
+        },
+        "ur": {
+          "purpose": "کسی مخصوص کمپنی سے منسلک کام کھولتا ہے۔",
+          "when": "جب کسی مخصوص کمپنی کے تحت محفوظ کام دیکھنے ہوں تو استعمال کریں۔",
+          "how": "کمپنی کے کاموں کی فہرست دیکھنے کے لیے متعلقہ کمپنی کے ساتھ Open Jobs منتخب کریں۔",
+          "inputs": "وہ درست کمپنی منتخب کریں جس کے کام دیکھنے ہیں۔",
+          "result": "منتخب کمپنی سے منسلک کاموں کی فہرست دکھائی دیتی ہے۔",
+          "notes": "یہ کمپنی کے کاموں کی فہرست پر لے جاتا ہے؛ نیا کام نہیں بناتا اور موجودہ کام میں تبدیلی نہیں کرتا۔"
+        },
+        "pa": {
+          "purpose": "کਿਸੇ ਖਾਸ ਕੰਪਨੀ ਨਾਲ ਜੁੜੇ ਕੰਮ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਕਿਸੇ ਖਾਸ ਕੰਪਨੀ ਹੇਠ ਸੇਵ ਕੀਤੇ ਕੰਮ ਵੇਖਣੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਕੰਪਨੀ ਦੇ ਕੰਮਾਂ ਦੀ ਸੂਚੀ ਵੇਖਣ ਲਈ ਸੰਬੰਧਿਤ ਕੰਪਨੀ ਦੇ ਨਾਲ Open Jobs ਚੁਣੋ।",
+          "inputs": "ਉਹ ਸਹੀ ਕੰਪਨੀ ਚੁਣੋ ਜਿਸਦੇ ਕੰਮ ਵੇਖਣੇ ਹਨ।",
+          "result": "ਚੁਣੀ ਕੰਪਨੀ ਨਾਲ ਜੁੜੇ ਕੰਮਾਂ ਦੀ ਸੂਚੀ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ।",
+          "notes": "ਇਹ ਕੰਪਨੀ ਦੀ ਕੰਮ ਸੂਚੀ 'ਤੇ ਲੈ ਜਾਂਦਾ ਹੈ; ਨਵਾਂ ਕੰਮ ਨਹੀਂ ਬਣਾਉਂਦਾ ਅਤੇ ਮੌਜੂਦਾ ਕੰਮ ਨਹੀਂ ਬਦਲਦਾ।"
+        },
+        "prs": {
+          "purpose": "کارهای مرتبط با یک شرکت مشخص را باز می‌کند.",
+          "when": "وقتی می‌خواهید کارهای ثبت‌شده زیر یک شرکت مشخص را ببینید، استفاده کنید.",
+          "how": "برای نمایش فهرست کارهای شرکت، در کنار شرکت موردنظر Open Jobs را انتخاب کنید.",
+          "inputs": "شرکت درست را که می‌خواهید کارهای آن را ببینید انتخاب کنید.",
+          "result": "فهرست کارهای مرتبط با شرکت انتخاب‌شده نمایش داده می‌شود.",
+          "notes": "این گزینه به فهرست کارهای شرکت می‌رود؛ کار جدیدی ایجاد یا ویرایش نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د یوه ځانګړي شرکت اړوند کارونه پرانیزي.",
+          "when": "کله چې د یوه ځانګړي شرکت لاندې ثبت شوي کارونه لیدل غواړئ، دا وکاروئ.",
+          "how": "د شرکت د کارونو د لېست لپاره د اړوند شرکت تر څنګ Open Jobs وټاکئ.",
+          "inputs": "سم شرکت وټاکئ چې کارونه یې لیدل غواړئ.",
+          "result": "د ټاکل شوي شرکت اړوند کارونه په لېست کې ښکاره کېږي.",
+          "notes": "دا د شرکت د کارونو لېست ته ځي؛ نوی کار نه جوړوي او موجود کار نه بدلوي."
         }
       },
       "handler_or_behavior": "`coShowJobs(`"
@@ -11169,7 +11241,7 @@
           "purpose": "Deactivate a company in the workspace.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Use Deactivate for the intended company and review the confirmation prompt.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "inputs": "Select the correct company record and verify its identity before confirming deactivation.",
           "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
           "notes": "Deactivation is not the same as deleting historic job or payment records. Check the effect on future selection and existing work."
         },
@@ -11177,9 +11249,81 @@
           "purpose": "غیرفعال کردن یک شرکت در فضای کاری.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "برای شرکت موردنظر Deactivate را انتخاب کنید و پیام تأیید را بررسی کنید.",
-          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "inputs": "سابقه درست شرکت را انتخاب کنید و پیش از تأیید غیرفعال‌سازی، هویت آن را بررسی کنید.",
           "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
           "notes": "غیرفعال‌سازی با حذف سوابق کارها و پرداخت‌های قبلی یکسان نیست. اثر آن بر انتخاب‌های آینده و کارهای موجود را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يعطّل شركة في مساحة العمل.",
+          "when": "عندما لم تعد تريد استخدام الشركة في الاختيارات الجديدة مع الاحتفاظ بسجلاتها التاريخية.",
+          "how": "اختر Deactivate للشركة المقصودة وراجع رسالة التأكيد قبل المتابعة.",
+          "inputs": "حدد سجل الشركة الصحيح وتحقق من هويتها قبل تأكيد التعطيل.",
+          "result": "تُعطّل الشركة إذا قبل التطبيق العملية وأكدها.",
+          "notes": "التعطيل لا يعني حذف سجلات الوظائف أو الدفعات السابقة. تحقق من أثره على الاختيارات المستقبلية والعمل القائم."
+        },
+        "ckb": {
+          "purpose": "کۆمپانیایەک لە فضای کاردا ناچالاک دەکات.",
+          "when": "کاتێک چیتر ناتەوێت کۆمپانیاکە لە هەڵبژاردە نوێکاندا بەکاربهێنیت، بەڵام دەتەوێت تۆمارە مێژووییەکانی بمێننەوە.",
+          "how": "بۆ کۆمپانیای مەبەست Deactivate هەڵبژێرە و پێش بەردەوامبوون نامەی پشتڕاستکردنەوە بپشکنە.",
+          "inputs": "تۆماری کۆمپانیای دروست هەڵبژێرە و پێش پشتڕاستکردنەوەی ناچالاککردن ناسنامەکەی بپشکنە.",
+          "result": "ئەگەر ئەپەکە کردارەکە قبووڵ و پشتڕاست بکاتەوە، کۆمپانیاکە ناچالاک دەکرێت.",
+          "notes": "ناچالاککردن بە مانای سڕینەوەی تۆمارە کۆنەکانی کار یان پارەدان نییە. کاریگەرییەکەی لەسەر هەڵبژاردەکانی داهاتوو و کاری ئێستا بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Pargîdaniyekê di qada xebatê de neçalak dike.",
+          "when": "Dema ku êdî naxwazî pargîdanî di hilbijartinên nû de bikar bînî, lê dixwazî tomarên wê yên dîrokî bimînin.",
+          "how": "Ji bo pargîdaniya armancê Deactivate hilbijêre û berî domandinê peyama piştrastkirinê kontrol bike.",
+          "inputs": "Tomara pargîdaniya rast hilbijêre û berî piştrastkirina neçalakirinê nasnameya wê kontrol bike.",
+          "result": "Ger sepan kiryarê qebûl û piştrast bike, pargîdanî neçalak dibe.",
+          "notes": "Neçalakirin ne wekî jêbirina tomarên kar an dravdanên kevn e. Bandora wê li ser hilbijartinên paşerojê û karên heyî kontrol bike."
+        },
+        "tr": {
+          "purpose": "Çalışma alanındaki bir şirketi devre dışı bırakır.",
+          "when": "Şirketi yeni seçimlerde kullanmak istemediğiniz ancak geçmiş kayıtlarını korumak istediğinizde kullanın.",
+          "how": "İlgili şirket için Deactivate'i seçin ve devam etmeden önce onay mesajını inceleyin.",
+          "inputs": "Doğru şirket kaydını seçin ve devre dışı bırakmayı onaylamadan önce kimliğini doğrulayın.",
+          "result": "Uygulama işlemi kabul edip onaylarsa şirket devre dışı bırakılır.",
+          "notes": "Devre dışı bırakma, geçmiş iş veya ödeme kayıtlarını silmekle aynı değildir. Gelecekteki seçimlere ve mevcut işlere etkisini kontrol edin."
+        },
+        "pl": {
+          "purpose": "Dezaktywuje firmę w obszarze roboczym.",
+          "when": "Użyj, gdy nie chcesz już wybierać firmy w nowych operacjach, ale chcesz zachować jej historyczne rekordy.",
+          "how": "Wybierz Deactivate przy właściwej firmie i przed kontynuowaniem sprawdź komunikat potwierdzający.",
+          "inputs": "Wybierz właściwy rekord firmy i przed potwierdzeniem dezaktywacji sprawdź jej tożsamość.",
+          "result": "Firma zostanie dezaktywowana, jeśli aplikacja zaakceptuje i potwierdzi operację.",
+          "notes": "Dezaktywacja nie oznacza usunięcia historycznych zleceń ani płatności. Sprawdź wpływ na przyszłe wybory i istniejące prace."
+        },
+        "ur": {
+          "purpose": "ورک اسپیس میں کسی کمپنی کو غیر فعال کرتا ہے۔",
+          "when": "جب کمپنی کو نئے انتخاب میں استعمال نہیں کرنا چاہتے لیکن اس کے تاریخی ریکارڈ محفوظ رکھنا چاہتے ہوں تو استعمال کریں۔",
+          "how": "متعلقہ کمپنی کے لیے Deactivate منتخب کریں اور آگے بڑھنے سے پہلے تصدیقی پیغام دیکھیں۔",
+          "inputs": "درست کمپنی ریکارڈ منتخب کریں اور غیر فعال کرنے کی تصدیق سے پہلے اس کی شناخت چیک کریں۔",
+          "result": "ایپ کارروائی قبول اور تصدیق کرے تو کمپنی غیر فعال ہو جاتی ہے۔",
+          "notes": "غیر فعال کرنا تاریخی کام یا ادائیگی کے ریکارڈ حذف کرنے جیسا نہیں ہے۔ مستقبل کے انتخاب اور موجودہ کام پر اس کا اثر دیکھیں۔"
+        },
+        "pa": {
+          "purpose": "ਵਰਕਸਪੇਸ ਵਿੱਚ ਕਿਸੇ ਕੰਪਨੀ ਨੂੰ ਅਕਿਰਿਆਸ਼ੀਲ ਕਰਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਕੰਪਨੀ ਨੂੰ ਨਵੇਂ ਚੋਣਾਂ ਵਿੱਚ ਵਰਤਣਾ ਨਹੀਂ ਚਾਹੁੰਦੇ ਪਰ ਇਸਦੇ ਪੁਰਾਣੇ ਰਿਕਾਰਡ ਸੰਭਾਲਣੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸੰਬੰਧਿਤ ਕੰਪਨੀ ਲਈ Deactivate ਚੁਣੋ ਅਤੇ ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਵੇਖੋ।",
+          "inputs": "ਸਹੀ ਕੰਪਨੀ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਅਕਿਰਿਆਸ਼ੀਲ ਕਰਨ ਦੀ ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਇਸਦੀ ਪਛਾਣ ਜਾਂਚੋ।",
+          "result": "ਐਪ ਕਾਰਵਾਈ ਸਵੀਕਾਰ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਕੰਪਨੀ ਅਕਿਰਿਆਸ਼ੀਲ ਹੋ ਜਾਂਦੀ ਹੈ।",
+          "notes": "ਅਕਿਰਿਆਸ਼ੀਲ ਕਰਨਾ ਪੁਰਾਣੇ ਕੰਮ ਜਾਂ ਭੁਗਤਾਨ ਰਿਕਾਰਡ ਮਿਟਾਉਣ ਵਰਗਾ ਨਹੀਂ ਹੈ। ਭਵਿੱਖ ਦੇ ਚੋਣਾਂ ਅਤੇ ਮੌਜੂਦਾ ਕੰਮ 'ਤੇ ਇਸਦਾ ਅਸਰ ਜਾਂਚੋ।"
+        },
+        "prs": {
+          "purpose": "یک شرکت را در فضای کاری غیرفعال می‌کند.",
+          "when": "وقتی دیگر نمی‌خواهید شرکت در انتخاب‌های جدید استفاده شود اما می‌خواهید سوابق تاریخی آن باقی بماند، استفاده کنید.",
+          "how": "برای شرکت موردنظر Deactivate را انتخاب کنید و پیش از ادامه پیام تأیید را بررسی کنید.",
+          "inputs": "سابقه درست شرکت را انتخاب کنید و پیش از تأیید غیرفعال‌سازی، هویت آن را بررسی کنید.",
+          "result": "اگر برنامه عملیات را بپذیرد و تأیید کند، شرکت غیرفعال می‌شود.",
+          "notes": "غیرفعال‌سازی با حذف سوابق قبلی کارها یا پرداخت‌ها یکسان نیست. اثر آن بر انتخاب‌های آینده و کارهای موجود را بررسی کنید."
+        },
+        "ps": {
+          "purpose": "په کاري ځای کې یو شرکت غیرفعالوي.",
+          "when": "کله چې نور نه غواړئ شرکت په نویو انتخابونو کې وکاروئ، خو تاریخي ریکارډونه یې ساتل غواړئ، دا وکاروئ.",
+          "how": "د اړوند شرکت لپاره Deactivate وټاکئ او له دوام مخکې د تایید پیغام وګورئ.",
+          "inputs": "د شرکت سم ریکارډ وټاکئ او د غیرفعالولو له تایید مخکې یې هویت وګورئ.",
+          "result": "که اپلیکیشن کړنه ومني او تایید یې کړي، شرکت غیرفعال کېږي.",
+          "notes": "غیرفعالول د پخوانیو کارونو یا تادیاتو د ریکارډونو له ړنګولو سره یو شان نه دي. پر راتلونکو انتخابونو او اوسنیو کارونو یې اغېز وګورئ."
         }
       },
       "handler_or_behavior": "`coDeleteCompany(`"
@@ -11195,7 +11339,7 @@
           "purpose": "Edit a saved job.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Choose Edit beside the intended job, update its available details and save.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct company and job, then change the required fields.",
           "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
           "notes": "Check the company and job identity before saving, especially where several jobs have similar names."
         },
@@ -11203,9 +11347,81 @@
           "purpose": "ویرایش یک کار ذخیره‌شده.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "در کنار کار موردنظر Edit را انتخاب کنید، اطلاعات موجود را تغییر دهید و ذخیره کنید.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "شرکت و کار درست را انتخاب کنید، سپس فیلدهای موردنیاز را تغییر دهید.",
           "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
           "notes": "پیش از ذخیره، شرکت و کار درست را بررسی کنید؛ به‌ویژه اگر چند کار نام مشابه دارند."
+        },
+        "ar": {
+          "purpose": "يفتح بيانات وظيفة محفوظة لتعديلها.",
+          "when": "عندما تحتاج إلى تحديث تفاصيل وظيفة مسجلة تحت شركة.",
+          "how": "اختر Edit بجانب الوظيفة المطلوبة، وعدّل التفاصيل المتاحة، ثم احفظ.",
+          "inputs": "حدد الشركة والوظيفة الصحيحتين، ثم غيّر الحقول المطلوبة.",
+          "result": "يُحدّث سجل الوظيفة إذا نجح التحقق والحفظ.",
+          "notes": "تحقق من الشركة والوظيفة قبل الحفظ، خاصة عندما تكون أسماء الوظائف متشابهة."
+        },
+        "ckb": {
+          "purpose": "تۆماری کاری پاشەکەوتکراو بۆ دەستکاریکردن دەکاتەوە.",
+          "when": "کاتێک پێویستە وردەکارییەکانی کارێکی تۆمارکراو لەژێر کۆمپانیا نوێ بکەیتەوە.",
+          "how": "لە تەنیشت کاری داواکراو Edit هەڵبژێرە، وردەکارییە بەردەستەکان بگۆڕە و پاشەکەوت بکە.",
+          "inputs": "کۆمپانیا و کاری دروست هەڵبژێرە، پاشان خانە پێویستەکان بگۆڕە.",
+          "result": "ئەگەر پشتڕاستکردنەوە و پاشەکەوتکردن سەرکەوتوو بن، تۆماری کار نوێ دەکرێتەوە.",
+          "notes": "پێش پاشەکەوتکردن کۆمپانیا و کارەکە بپشکنە، بە تایبەتی کاتێک ناوی کارەکان لەیەک دەچن."
+        },
+        "kmr": {
+          "purpose": "Tomareke karê tomarkirî ji bo guherandinê vedike.",
+          "when": "Dema ku tu hewceyî nûkirina hûrguliyên karekî tomarkirî di bin pargîdaniyekê de yî.",
+          "how": "Li kêleka karê xwestî Edit hilbijêre, hûrguliyên berdest biguherîne û tomar bike.",
+          "inputs": "Pargîdanî û karê rast hilbijêre, paşê qadên pêwîst biguherîne.",
+          "result": "Ger kontrol û tomarkirin serkeftî bin, tomara kar tê nûkirin.",
+          "notes": "Berî tomarkirinê pargîdanî û kar kontrol bike, nemaze dema ku navên karan dişibin hev."
+        },
+        "tr": {
+          "purpose": "Kaydedilmiş bir işi düzenlemek üzere açar.",
+          "when": "Bir şirket altında kayıtlı işin ayrıntılarını güncellemeniz gerektiğinde kullanın.",
+          "how": "İlgili işin yanındaki Edit'i seçin, mevcut ayrıntıları güncelleyin ve kaydedin.",
+          "inputs": "Doğru şirketi ve işi seçin, ardından gerekli alanları değiştirin.",
+          "result": "Doğrulama ve kayıt başarılı olursa iş kaydı güncellenir.",
+          "notes": "Kaydetmeden önce şirketi ve işi kontrol edin; özellikle birden fazla işin adı benzer olduğunda."
+        },
+        "pl": {
+          "purpose": "Otwiera zapisane zlecenie do edycji.",
+          "when": "Użyj, gdy trzeba zaktualizować szczegóły zlecenia zapisanego w ramach firmy.",
+          "how": "Wybierz Edit obok właściwego zlecenia, zaktualizuj dostępne szczegóły i zapisz.",
+          "inputs": "Wybierz właściwą firmę i zlecenie, a następnie zmień wymagane pola.",
+          "result": "Zlecenie zostanie zaktualizowane, jeśli walidacja i zapis się powiedzie.",
+          "notes": "Przed zapisaniem sprawdź firmę i zlecenie, zwłaszcza gdy kilka zleceń ma podobne nazwy."
+        },
+        "ur": {
+          "purpose": "محفوظ شدہ کام کو ترمیم کے لیے کھولتا ہے۔",
+          "when": "جب کسی کمپنی کے تحت محفوظ کام کی تفصیلات اپ ڈیٹ کرنی ہوں تو استعمال کریں۔",
+          "how": "متعلقہ کام کے ساتھ Edit منتخب کریں، دستیاب تفصیلات اپ ڈیٹ کریں اور محفوظ کریں۔",
+          "inputs": "درست کمپنی اور کام منتخب کریں، پھر مطلوبہ خانے تبدیل کریں۔",
+          "result": "توثیق اور محفوظ کرنے کا عمل کامیاب ہو تو کام کا ریکارڈ اپ ڈیٹ ہو جاتا ہے۔",
+          "notes": "محفوظ کرنے سے پہلے کمپنی اور کام چیک کریں، خاص طور پر جب کئی کاموں کے نام ملتے جلتے ہوں۔"
+        },
+        "pa": {
+          "purpose": "ਸੇਵ ਕੀਤਾ ਕੰਮ ਸੋਧਣ ਲਈ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਕੰਪਨੀ ਹੇਠ ਦਰਜ ਕੰਮ ਦੇ ਵੇਰਵੇ ਅਪਡੇਟ ਕਰਨੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਲੋੜੀਂਦੇ ਕੰਮ ਦੇ ਨਾਲ Edit ਚੁਣੋ, ਉਪਲਬਧ ਵੇਰਵੇ ਅਪਡੇਟ ਕਰੋ ਅਤੇ ਸੇਵ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਕੰਪਨੀ ਅਤੇ ਕੰਮ ਚੁਣੋ, ਫਿਰ ਲੋੜੀਂਦੇ ਖੇਤਰ ਬਦਲੋ।",
+          "result": "ਜਾਂਚ ਅਤੇ ਸੇਵ ਕਰਨਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਕੰਮ ਦਾ ਰਿਕਾਰਡ ਅਪਡੇਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਸੇਵ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਕੰਪਨੀ ਅਤੇ ਕੰਮ ਜਾਂਚੋ, ਖ਼ਾਸ ਕਰਕੇ ਜਦੋਂ ਕਈ ਕੰਮਾਂ ਦੇ ਨਾਮ ਮਿਲਦੇ-ਜੁਲਦੇ ਹੋਣ।"
+        },
+        "prs": {
+          "purpose": "یک کار ذخیره‌شده را برای ویرایش باز می‌کند.",
+          "when": "وقتی لازم است جزئیات کاری را که زیر یک شرکت ثبت شده به‌روزرسانی کنید، استفاده کنید.",
+          "how": "در کنار کار موردنظر Edit را انتخاب کنید، جزئیات موجود را تغییر دهید و ذخیره کنید.",
+          "inputs": "شرکت و کار درست را انتخاب کنید، سپس فیلدهای موردنیاز را تغییر دهید.",
+          "result": "اگر اعتبارسنجی و ذخیره موفق باشد، سابقه کار به‌روزرسانی می‌شود.",
+          "notes": "پیش از ذخیره شرکت و کار را بررسی کنید، به‌ویژه وقتی چند کار نام‌های مشابه دارند."
+        },
+        "ps": {
+          "purpose": "خوندي شوی کار د سمون لپاره پرانیزي.",
+          "when": "کله چې د شرکت لاندې ثبت شوي کار جزئیات تازه کول غواړئ، دا وکاروئ.",
+          "how": "د اړوند کار تر څنګ Edit وټاکئ، شته جزئیات تازه کړئ او خوندي یې کړئ.",
+          "inputs": "سم شرکت او کار وټاکئ، بیا اړینې خانې بدلې کړئ.",
+          "result": "که ارزونه او خوندي کول بریالي شي، د کار ریکارډ تازه کېږي.",
+          "notes": "له خوندي کولو مخکې شرکت او کار وګورئ، په ځانګړي ډول کله چې د څو کارونو نومونه ورته وي."
         }
       },
       "handler_or_behavior": "`coEditJob(`"
@@ -11221,7 +11437,7 @@
           "purpose": "Open the work packages belonging to a job.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Choose Work packages to review the packages associated with the selected job.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct job whose work packages you want to review.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "This opens the package list; individual package records are managed separately."
         },
@@ -11229,9 +11445,81 @@
           "purpose": "باز کردن بسته‌های کاری مربوط به یک کار.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "گزینه Work packages را انتخاب کنید تا بسته‌های مرتبط با کار انتخاب‌شده نمایش داده شوند.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "کار درست را که می‌خواهید بسته‌های کاری آن را بررسی کنید انتخاب کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "این گزینه فهرست بسته‌ها را باز می‌کند؛ مدیریت هر بسته جداگانه انجام می‌شود."
+        },
+        "ar": {
+          "purpose": "يفتح حزم العمل التابعة لوظيفة محددة.",
+          "when": "عندما تريد مراجعة نطاقات العمل أو المشاريع الفرعية ضمن الوظيفة المحددة.",
+          "how": "اختر Work packages لعرض الحزم المرتبطة بالوظيفة المحددة.",
+          "inputs": "حدد الوظيفة الصحيحة التي تريد مراجعة حزم العمل التابعة لها.",
+          "result": "تظهر قائمة حزم العمل الخاصة بالوظيفة المحددة.",
+          "notes": "يفتح هذا الخيار قائمة الحزم فقط؛ وتُدار سجلات كل حزمة على حدة."
+        },
+        "ckb": {
+          "purpose": "پاکێجە کارییەکانی سەر بە کارێکی دیاریکراو دەکاتەوە.",
+          "when": "کاتێک دەتەوێت سنووری کار یان ژێرپرۆژەکانی ناو کاری دیاریکراو بپشکنیت.",
+          "how": "Work packages هەڵبژێرە بۆ پیشاندانی پاکێجە پەیوەستەکانی بەو کارە.",
+          "inputs": "ئەو کاری دروستە هەڵبژێرە کە دەتەوێت پاکێجە کارییەکانی بپشکنیت.",
+          "result": "پێڕستی پاکێجە کارییەکانی ئەو کارە پیشان دەدرێت.",
+          "notes": "ئەم هەڵبژاردەیە تەنها پێڕستی پاکێجەکان دەکاتەوە؛ تۆماری هەر پاکێجێک بە جیاواز بەڕێوە دەبرێت."
+        },
+        "kmr": {
+          "purpose": "Pakêtên xebatê yên girêdayî bi karekî taybet vedike.",
+          "when": "Dema ku tu dixwazî qadên xebatê an jêr-projeyên di nav karekî de kontrol bikî.",
+          "how": "Work packages hilbijêre da ku pakêtên girêdayî bi karê hilbijartî bibînî.",
+          "inputs": "Karê rast hilbijêre ku dixwazî pakêtên xebatê yên wê kontrol bikî.",
+          "result": "Lîsteya pakêtên xebatê yên karê hilbijartî xuya dibe.",
+          "notes": "Ev tenê lîsteya pakêtan vedike; tomarên her pakêtê bi awayekî cuda têne rêvebirin."
+        },
+        "tr": {
+          "purpose": "Belirli bir işe ait iş paketlerini açar.",
+          "when": "Seçilen işin kapsamlarını veya alt projelerini incelemek istediğinizde kullanın.",
+          "how": "Seçilen işle ilişkili paketleri görüntülemek için Work packages'i seçin.",
+          "inputs": "İş paketlerini incelemek istediğiniz doğru işi seçin.",
+          "result": "Seçilen işe ait iş paketleri listelenir.",
+          "notes": "Bu seçenek yalnızca paket listesini açar; her paketin kayıtları ayrı yönetilir."
+        },
+        "pl": {
+          "purpose": "Otwiera pakiety prac należące do określonego zlecenia.",
+          "when": "Użyj, gdy chcesz sprawdzić zakresy prac lub podprojekty w ramach wybranego zlecenia.",
+          "how": "Wybierz Work packages, aby wyświetlić pakiety powiązane z wybranym zleceniem.",
+          "inputs": "Wybierz właściwe zlecenie, którego pakiety prac chcesz sprawdzić.",
+          "result": "Wyświetlana jest lista pakietów prac wybranego zlecenia.",
+          "notes": "Ta opcja otwiera tylko listę pakietów; rekordy poszczególnych pakietów są zarządzane oddzielnie."
+        },
+        "ur": {
+          "purpose": "کسی مخصوص کام سے متعلق ورک پیکیجز کھولتا ہے۔",
+          "when": "جب منتخب کام کے دائرہ کار یا ذیلی منصوبے دیکھنے ہوں تو استعمال کریں۔",
+          "how": "منتخب کام سے منسلک پیکیجز دیکھنے کے لیے Work packages منتخب کریں۔",
+          "inputs": "وہ درست کام منتخب کریں جس کے ورک پیکیجز دیکھنے ہیں۔",
+          "result": "منتخب کام کے ورک پیکیجز کی فہرست دکھائی دیتی ہے۔",
+          "notes": "یہ اختیار صرف پیکیجز کی فہرست کھولتا ہے؛ ہر پیکیج کا ریکارڈ الگ سے منظم ہوتا ہے۔"
+        },
+        "pa": {
+          "purpose": "ਕਿਸੇ ਖਾਸ ਕੰਮ ਨਾਲ ਸਬੰਧਤ ਵਰਕ ਪੈਕੇਜ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਚੁਣੇ ਕੰਮ ਦੇ ਦਾਇਰੇ ਜਾਂ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਵੇਖਣੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਚੁਣੇ ਕੰਮ ਨਾਲ ਜੁੜੇ ਪੈਕੇਜ ਵੇਖਣ ਲਈ Work packages ਚੁਣੋ।",
+          "inputs": "ਉਹ ਸਹੀ ਕੰਮ ਚੁਣੋ ਜਿਸਦੇ ਵਰਕ ਪੈਕੇਜ ਵੇਖਣੇ ਹਨ।",
+          "result": "ਚੁਣੇ ਕੰਮ ਦੇ ਵਰਕ ਪੈਕੇਜਾਂ ਦੀ ਸੂਚੀ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ।",
+          "notes": "ਇਹ ਵਿਕਲਪ ਸਿਰਫ਼ ਪੈਕੇਜਾਂ ਦੀ ਸੂਚੀ ਖੋਲ੍ਹਦਾ ਹੈ; ਹਰ ਪੈਕੇਜ ਦਾ ਰਿਕਾਰਡ ਵੱਖਰੇ ਤੌਰ 'ਤੇ ਸੰਭਾਲਿਆ ਜਾਂਦਾ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "بسته‌های کاری متعلق به یک کار مشخص را باز می‌کند.",
+          "when": "وقتی می‌خواهید محدوده‌های کاری یا زیرپروژه‌های داخل کار انتخاب‌شده را بررسی کنید، استفاده کنید.",
+          "how": "برای نمایش بسته‌های مرتبط با کار انتخاب‌شده Work packages را انتخاب کنید.",
+          "inputs": "کار درست را که می‌خواهید بسته‌های کاری آن را بررسی کنید انتخاب کنید.",
+          "result": "فهرست بسته‌های کاری مربوط به کار انتخاب‌شده نمایش داده می‌شود.",
+          "notes": "این گزینه فقط فهرست بسته‌ها را باز می‌کند؛ سوابق هر بسته جداگانه مدیریت می‌شود."
+        },
+        "ps": {
+          "purpose": "د یوه ځانګړي کار اړوند کاري بستې پرانیزي.",
+          "when": "کله چې د ټاکل شوي کار کاري ساحې یا فرعي پروژې کتل غواړئ، دا وکاروئ.",
+          "how": "د ټاکل شوي کار اړوند بستې د لیدلو لپاره Work packages وټاکئ.",
+          "inputs": "سم کار وټاکئ چې کاري بستې یې کتل غواړئ.",
+          "result": "د ټاکل شوي کار د کاري بستو لېست ښکاره کېږي.",
+          "notes": "دا اختیار یوازې د بستو لېست پرانیزي؛ د هرې بستې ریکارډ جلا اداره کېږي."
         }
       },
       "handler_or_behavior": "`coShowPackages(`"
@@ -11247,7 +11535,7 @@
           "purpose": "Open the payment records for a job.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Choose Payments to review payment information associated with the selected job.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct job whose payment records you want to review.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "Compare entries with actual receipts and supporting evidence; a payment listing is not a bank reconciliation."
         },
@@ -11255,9 +11543,81 @@
           "purpose": "مشاهده سوابق پرداخت یک کار.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "گزینه Payments را انتخاب کنید تا اطلاعات پرداخت‌های مرتبط با کار نمایش داده شود.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "کار درست را که می‌خواهید سوابق پرداخت آن را بررسی کنید انتخاب کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "مبالغ را با دریافت‌های واقعی و مدارک پشتیبان تطبیق دهید؛ فهرست پرداخت به‌تنهایی تطبیق بانکی نیست."
+        },
+        "ar": {
+          "purpose": "يفتح سجلات الدفعات المرتبطة بوظيفة محددة.",
+          "when": "عندما تريد مراجعة الدفعات المسجلة للوظيفة المحددة.",
+          "how": "اختر Payments لعرض معلومات الدفعات المرتبطة بالوظيفة.",
+          "inputs": "حدد الوظيفة الصحيحة التي تريد مراجعة دفعاتها.",
+          "result": "تظهر سجلات الدفعات المرتبطة بالوظيفة المحددة.",
+          "notes": "قارن القيود بإيصالات الاستلام والأدلة الداعمة؛ فقائمة الدفعات لا تُعد مطابقة مصرفية."
+        },
+        "ckb": {
+          "purpose": "تۆمارەکانی پارەدانی پەیوەست بە کارێکی دیاریکراو دەکاتەوە.",
+          "when": "کاتێک دەتەوێت پارەدانە تۆمارکراوەکانی کاری دیاریکراو بپشکنیت.",
+          "how": "Payments هەڵبژێرە بۆ پیشاندانی زانیاری پارەدانە پەیوەستەکانی بە کارەکە.",
+          "inputs": "ئەو کاری دروستە هەڵبژێرە کە دەتەوێت پارەدانەکانی بپشکنیت.",
+          "result": "تۆمارەکانی پارەدانی پەیوەست بە کارەکە پیشان دەدرێن.",
+          "notes": "تۆمارەکان لەگەڵ پسووڵەی وەرگرتنی پارە و بەڵگە پشتیوانەکان بەراورد بکە؛ پێڕستی پارەدان بە تەنها هاوتاکردنی بانکی نییە."
+        },
+        "kmr": {
+          "purpose": "Tomarên dravdanê yên girêdayî bi karekî taybet vedike.",
+          "when": "Dema ku tu dixwazî dravdanên tomarkirî yên ji bo karekî taybet kontrol bikî.",
+          "how": "Payments hilbijêre da ku agahiyên dravdanên girêdayî bi karê bibînî.",
+          "inputs": "Karê rast hilbijêre ku dixwazî dravdanên wê kontrol bikî.",
+          "result": "Tomarên dravdanê yên girêdayî bi karê xuya dibin.",
+          "notes": "Tomaran bi fatûre û delîlên piştgir re berawird bike; lîsteya dravdanê bi tena xwe lihevhatina bankê nîne."
+        },
+        "tr": {
+          "purpose": "Belirli bir işe bağlı ödeme kayıtlarını açar.",
+          "when": "Seçilen iş için kaydedilmiş ödemeleri incelemek istediğinizde kullanın.",
+          "how": "İşle ilişkili ödeme bilgilerini görüntülemek için Payments'ı seçin.",
+          "inputs": "Ödemelerini incelemek istediğiniz doğru işi seçin.",
+          "result": "İşle ilişkili ödeme kayıtları görüntülenir.",
+          "notes": "Kayıtları gerçek makbuzlar ve destekleyici kanıtlarla karşılaştırın; ödeme listesi tek başına banka mutabakatı değildir."
+        },
+        "pl": {
+          "purpose": "Otwiera rejestry płatności powiązane z określonym zleceniem.",
+          "when": "Użyj, gdy chcesz sprawdzić płatności zapisane dla wybranego zlecenia.",
+          "how": "Wybierz Payments, aby wyświetlić informacje o płatnościach powiązanych ze zleceniem.",
+          "inputs": "Wybierz właściwe zlecenie, którego płatności chcesz sprawdzić.",
+          "result": "Wyświetlane są rejestry płatności powiązane ze zleceniem.",
+          "notes": "Porównaj wpisy z rzeczywistymi potwierdzeniami i dokumentami pomocniczymi; sama lista płatności nie stanowi uzgodnienia bankowego."
+        },
+        "ur": {
+          "purpose": "کسی مخصوص کام سے منسلک ادائیگی کے ریکارڈ کھولتا ہے۔",
+          "when": "جب منتخب کام کے لیے درج شدہ ادائیگیاں دیکھنی ہوں تو استعمال کریں۔",
+          "how": "کام سے متعلق ادائیگی کی معلومات دیکھنے کے لیے Payments منتخب کریں۔",
+          "inputs": "وہ درست کام منتخب کریں جس کی ادائیگیاں دیکھنی ہیں۔",
+          "result": "کام سے منسلک ادائیگی کے ریکارڈ دکھائی دیتے ہیں۔",
+          "notes": "اندراجات کا اصل رسیدوں اور معاون ثبوت سے موازنہ کریں؛ ادائیگیوں کی فہرست بذاتِ خود بینک ریکنسیلی ایشن نہیں ہے۔"
+        },
+        "pa": {
+          "purpose": "ਕਿਸੇ ਖਾਸ ਕੰਮ ਨਾਲ ਜੁੜੇ ਭੁਗਤਾਨ ਰਿਕਾਰਡ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਚੁਣੇ ਕੰਮ ਲਈ ਦਰਜ ਕੀਤੇ ਭੁਗਤਾਨ ਵੇਖਣੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਕੰਮ ਨਾਲ ਜੁੜੀ ਭੁਗਤਾਨ ਜਾਣਕਾਰੀ ਵੇਖਣ ਲਈ Payments ਚੁਣੋ।",
+          "inputs": "ਉਹ ਸਹੀ ਕੰਮ ਚੁਣੋ ਜਿਸਦੇ ਭੁਗਤਾਨ ਵੇਖਣੇ ਹਨ।",
+          "result": "ਕੰਮ ਨਾਲ ਜੁੜੇ ਭੁਗਤਾਨ ਰਿਕਾਰਡ ਦਿਖਾਈ ਦਿੰਦੇ ਹਨ।",
+          "notes": "ਐਂਟਰੀਆਂ ਦਾ ਅਸਲ ਰਸੀਦਾਂ ਅਤੇ ਸਹਾਇਕ ਸਬੂਤ ਨਾਲ ਮਿਲਾਣ ਕਰੋ; ਭੁਗਤਾਨ ਸੂਚੀ ਆਪਣੇ ਆਪ ਬੈਂਕ ਮਿਲਾਣ ਨਹੀਂ ਹੁੰਦੀ।"
+        },
+        "prs": {
+          "purpose": "سوابق پرداخت مرتبط با یک کار مشخص را باز می‌کند.",
+          "when": "وقتی می‌خواهید پرداخت‌های ثبت‌شده برای کار انتخاب‌شده را بررسی کنید، استفاده کنید.",
+          "how": "برای نمایش اطلاعات پرداخت‌های مرتبط با کار Payments را انتخاب کنید.",
+          "inputs": "کار درست را که می‌خواهید پرداخت‌های آن را بررسی کنید انتخاب کنید.",
+          "result": "سوابق پرداخت مرتبط با کار نمایش داده می‌شوند.",
+          "notes": "ثبت‌ها را با رسیدهای واقعی و مدارک پشتیبان تطبیق دهید؛ فهرست پرداخت به‌تنهایی تطبیق بانکی نیست."
+        },
+        "ps": {
+          "purpose": "د یوه ځانګړي کار اړوند د تادیاتو ریکارډونه پرانیزي.",
+          "when": "کله چې د ټاکل شوي کار لپاره ثبت شوې تادیې کتل غواړئ، دا وکاروئ.",
+          "how": "د کار اړوند د تادیاتو معلوماتو د لیدلو لپاره Payments وټاکئ.",
+          "inputs": "سم کار وټاکئ چې تادیې یې کتل غواړئ.",
+          "result": "د کار اړوند د تادیاتو ریکارډونه ښکاره کېږي.",
+          "notes": "ثبتونه له اصلي رسیدونو او ملاتړو اسنادو سره پرتله کړئ؛ د تادیاتو لېست پخپله بانکي تطبیق نه دی."
         }
       },
       "handler_or_behavior": "`coShowPayments(`"
