@@ -1944,14 +1944,14 @@
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Manifest pin updated to the exact current index blob SHA after confirming the only post-Gate runtime diff was the requested Persian flag marker. A fresh Gate run is required."
+        "result": "PASS",
+        "runId": 46050385212,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46050385212",
+        "details": "R11 Version Authority Gate passed after aligning the manifest with the exact current index blob SHA. All 22 pinned runtime assets matched."
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Pending fresh V8 syntax compilation and guide-language selector checks."
+        "result": "PASS",
+        "details": "All 8 inline JavaScript blocks compiled with V8. The requested Persian flag marker was confirmed beside Persian in the language selector. No accounting or storage logic changed."
       },
       "previewPagesDeployment": {
         "result": "pending",
@@ -1979,19 +1979,19 @@
         "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "pending",
+      "previewDevelopmentCommitSha": "215fb6f09aac04aab280cb1e677318f66c5a316d",
       "previewPullRequestNumber": 96,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "A fresh R11 Version Authority Gate is required after updating the index SHA pin."
+        "result": "PASS",
+        "runId": 46050478710,
+        "url": "https://github.com/thehandymanjob/accountancy-r11-preview/actions/runs/46050478710",
+        "details": "R11 Version Authority Gate passed for the updated User Guide label and current R43 manifest. All 22 pinned runtime assets matched."
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Pending V8 syntax validation and source checks for the renamed Settings shortcut, page heading and navigation label."
+        "result": "PASS",
+        "details": "All 8 inline JavaScript blocks compiled with V8. Confirmed the Settings shortcut, page heading, navigation label and guide instruction now say User Guide. Application language behavior remains guide-only; interface remains English/LTR."
       },
       "previewPagesDeployment": {
         "result": "pending",
