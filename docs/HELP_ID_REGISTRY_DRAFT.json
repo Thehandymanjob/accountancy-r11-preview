@@ -7877,7 +7877,7 @@
       "audit_ref": "INV-098",
       "element_id": null,
       "label": "➕ New Project Create an independent project",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens a blank form for creating an independent project record.",
@@ -7975,7 +7975,7 @@
       "audit_ref": "INV-099",
       "element_id": null,
       "label": "▦ Projects List Search, open and manage existing projects",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Displays saved projects and lets you search, filter and open a project.",
@@ -8073,7 +8073,7 @@
       "audit_ref": "INV-100",
       "element_id": null,
       "label": "＋ Add Partner",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Adds an additional partner row to the project profit-sharing section.",
@@ -8171,7 +8171,7 @@
       "audit_ref": "INV-101",
       "element_id": null,
       "label": "Save Project",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Validates the current project form and saves the project record to the Projects data store.",
