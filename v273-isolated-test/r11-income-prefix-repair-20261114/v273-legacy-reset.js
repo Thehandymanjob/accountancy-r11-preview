@@ -6,6 +6,7 @@
 const DB=()=>engine().databaseName;
 const FORMAT="tha-v264-indexeddb-snapshot-v1";
 const PREVIEW_DB="the_handyman_accountancy_r11_preview_idb";
+const EMERGENCY_DOMAINS=Object.freeze(["accounting","business_profile","contracts","diagnostics","factory_reset_recovery","help_contact_drafts","media","notifications","preference_meta","preferences","projects","recovery","report_notifications","report_settings","report_workflow","reports","sequences"].sort());
 const gate={stage:false,converted:false,importVerified:false,importFile:null,emergencyVerified:false,emergencyFileVerified:false,emergencyDigest:null,busy:false};
 const SOURCE_SHA="07b6170db9169e3b59d0b4527b88e26d589bd18c178ec9a1b1975b55f403db90";
 const DOMAINS=["accounting","business_profile","contracts","diagnostics","factory_reset_recovery","help_contact_drafts","media","notifications","preference_meta","preferences","projects","recovery","report_notifications","report_settings","report_workflow","reports","sequences"];
@@ -59,6 +60,24 @@ async function inspectImportFile(file){
  assert(accounting&&Array.isArray(accounting.entries)&&Array.isArray(accounting.customers)&&Array.isArray(accounting.invoices),"Accounting validation failed.");
  assert(projects&&Array.isArray(projects.projects)&&Array.isArray(projects.workers),"Project validation failed.");
  return pkg;
+}
+async function verifyEmergencyPackage(pkg,expectedDigest){
+ assert(pkg&&pkg.format==="tha-v264-portable-backup-v1"&&pkg.algorithm==="SHA-256","Invalid emergency snapshot file format or hash algorithm.");
+ assert(pkg.digest===expectedDigest&&/^[a-f0-9]{64}$/i.test(expectedDigest||""),"Emergency snapshot digest does not match the generated snapshot.");
+ const payload=pkg.payload;
+ assert(payload&&payload.format==="tha-v264-indexeddb-snapshot-v1"&&payload.database===PREVIEW_DB&&payload.scope==="full-database","Emergency snapshot has the wrong format, database or scope.");
+ assert(Array.isArray(payload.domains)&&payload.domains.length===17&&payload.domains.slice().sort().join("|")===EMERGENCY_DOMAINS.join("|"),"Emergency snapshot does not contain the exact 17-domain set.");
+ assert(Array.isArray(payload.records)&&payload.records.length>0,"Emergency snapshot contains no records.");
+ const ids=new Set();
+ for(const row of payload.records){
+  assert(row&&EMERGENCY_DOMAINS.includes(row.domain)&&typeof row.key==="string","Emergency snapshot contains an invalid record.");
+  const id=row.domain+":"+encodeURIComponent(row.key);
+  assert(row.id===id&&!ids.has(id),"Emergency snapshot contains an invalid or duplicate record identity.");
+  ids.add(id);
+ }
+ const actual=await digest(new TextEncoder().encode(JSON.stringify(payload)));
+ assert(actual===expectedDigest,"Emergency snapshot payload SHA-256 does not match the generated snapshot.");
+ return {records:payload.records.length,domains:payload.domains.length,digest:actual};
 }
 async function emergencyBackup(){
  assert(DB()===PREVIEW_DB,"Wrong database. Factory Reset is permitted only in the isolated Preview database.");
@@ -181,6 +200,7 @@ async function emergencyAction(){
   setFinalGate();
   const result=await emergencyBackup();
   const filename="THA-v273-before-reset-emergency-full-backup.json";
+  await verifyEmergencyPackage(JSON.parse(await result.blob.text()),result.verification.digest);
   const url=root.URL.createObjectURL(result.blob),a=root.document.createElement("a");
   a.href=url;a.download=filename;root.document.body.appendChild(a);a.click();a.remove();
   root.setTimeout(()=>root.URL.revokeObjectURL(url),60000);
@@ -203,12 +223,12 @@ async function validateEmergencyFile(){
  if(!file||!gate.emergencyVerified||!gate.emergencyDigest){setFinalGate();return;}
  try{
   assert(file.size>0,"The selected emergency snapshot is empty.");
-  const actual=await digest(await file.arrayBuffer());
+  const pkg=JSON.parse(await file.text());
+  const verified=await verifyEmergencyPackage(pkg,gate.emergencyDigest);
   assert($("factoryResetEmergencyFile").files[0]===file,"The selected emergency snapshot changed during verification.");
-  assert(actual===gate.emergencyDigest,"The selected file does not match the generated emergency snapshot SHA-256.");
   gate.emergencyFileVerified=true;
   if(confirm)confirm.disabled=false;
-  setStatus("Saved emergency snapshot file verified. SHA-256 matches the generated full-database snapshot.",false);
+  setStatus("Saved emergency snapshot file verified: "+verified.records+" records across "+verified.domains+" domains. Payload SHA-256 matches the generated snapshot.",false);
  }catch(e){
   gate.emergencyFileVerified=false;
   setStatus("Emergency snapshot file verification failed: "+(e.message||e),true);
