@@ -2263,10 +2263,10 @@
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "PENDING",
-        "runId": "pending",
-        "url": "pending",
-        "details": "R53 canonical URL was corrected to match the R53 Build ID. A fresh Version Authority Gate is still required against the final R53 source and pin set."
+        "result": "PASS",
+        "runId": 46069605538,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46069605538",
+        "details": "The cumulative R54 Version Authority Gate also validates the R53 Support Message Help binding and its R53 runtime asset as part of the current R54 pinned source. No standalone R53 Gate run was recorded."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
@@ -2303,19 +2303,19 @@
         "docs/REPAIR_INDEX_FA.md",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "df4f576f2e08ec8395541cdaae372a829a270848",
+      "previewDevelopmentCommitSha": "75a72f9b3a8dcccfbdf40d25a4bae0d87cbcaf08",
       "previewPullRequestNumber": 96,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "PENDING",
-        "runId": "pending",
-        "url": "pending",
-        "details": "R54 requires a fresh Version Authority Gate against the final R54 Build ID, canonical URL, index SHA and all 24 runtime asset pins."
+        "result": "PASS",
+        "runId": 46069605538,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46069605538",
+        "details": "R54 Version Authority Gate passed on the cumulative R54 PR head. Repository/branch identity, approved R11 baseline ancestry, Build ID, canonical URL, index blob SHA and all 24 pinned runtime assets matched."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
-        "details": "Six new selectors were mapped to exact parent panels and literal onclick values. The selected-period completion control is scoped to #report188Calendar; five diagnostic controls are scoped to #monitor. All six Help IDs are CONTENT_COMPLETE. Mapping baseline registry, inventory, Help content, runtime and index SHAs must match the current branch tree. No live browser test has been performed."
+        "details": "Six new selectors were mapped to exact parent panels and literal onclick values. The selected-period completion control is scoped to #report188Calendar; five diagnostic controls are scoped to #monitor. All six Help IDs are CONTENT_COMPLETE. Manual Git-tree comparison confirms all 24 asset pins and all five Registry/Inventory/content/runtime/index mapping baselines match. No live browser test has been performed."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
