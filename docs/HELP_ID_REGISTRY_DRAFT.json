@@ -5488,20 +5488,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the monitoring and diagnostics area for version information, activity history, storage checks and diagnostic exports.",
-          "when": "Use this when checking which build is running or investigating errors, storage consistency or support issues.",
-          "how": "Open Monitor & Diagnostics. Choose the specific information or diagnostic check you need, read its result and review any exported file before sharing it.",
-          "inputs": "Optional search and filter values depend on the selected diagnostic tool. Downloads require browser permission.",
-          "result": "The selected version details, activity archive, diagnostic result or exported report is displayed or downloaded.",
-          "notes": "Read-only checks do not repair data. Some diagnostic exports include device and technical details. Review files before sharing; never send credentials or an unreviewed full backup."
+          "purpose": "Opens Monitor & Diagnostics to view build and database details, inspect the device-local activity archive, run IndexedDB checks and export diagnostic information.",
+          "when": "Use this area to identify the loaded build, review recorded activity or errors, and investigate storage consistency or support issues.",
+          "how": "Open Monitor & Diagnostics. Show version details when you need build information. Expand the activity archive to search or filter events by type and date. Run the available storage tests or self-checks, or download the JSON diagnostic report or CSV activity log.",
+          "inputs": "Optional archive search text, event category and date-range filters. Diagnostic checks and exports are started with their respective buttons; the browser must permit downloads.",
+          "result": "The page displays version details, activity events and diagnostic results. Requested diagnostic JSON or activity CSV files are downloaded when the relevant export succeeds.",
+          "notes": "The activity archive is stored locally on this device and is not automatically sent to a server. The read-only comparison and audit do not repair data. Diagnostic exports can contain device, browser and technical details; review files before sharing them."
         },
         "fa": {
-          "purpose": "بخش نظارت و عیب‌یابی را برای مشاهده نسخه، سابقه فعالیت، بررسی ذخیره‌سازی و خروجی‌های تشخیصی باز می‌کند.",
-          "when": "برای بررسی نسخه در حال اجرا یا پیگیری خطا، سازگاری ذخیره‌سازی و مشکلات پشتیبانی از این گزینه استفاده کنید.",
-          "how": "Monitor & Diagnostics را باز کنید. ابزار یا بررسی موردنیاز را انتخاب کنید، نتیجه را بخوانید و پیش از اشتراک‌گذاری هر فایل خروجی، محتوای آن را بررسی کنید.",
-          "inputs": "مقادیر جست‌وجو و فیلتر به ابزار تشخیصی انتخاب‌شده بستگی دارند. دانلود فایل به اجازه مرورگر نیاز دارد.",
-          "result": "اطلاعات نسخه، بایگانی فعالیت، نتیجه تشخیصی یا گزارش خروجی انتخاب‌شده نمایش داده یا دانلود می‌شود.",
-          "notes": "بررسی‌های فقط‌خواندنی داده‌ها را تعمیر نمی‌کنند. بعضی خروجی‌های تشخیصی شامل جزئیات دستگاه و اطلاعات فنی هستند. پیش از اشتراک‌گذاری فایل‌ها را بررسی کنید؛ هرگز اطلاعات ورود یا پشتیبان کاملِ بررسی‌نشده را ارسال نکنید."
+          "purpose": "بخش Monitor & Diagnostics را برای مشاهده اطلاعات Build و پایگاه داده، بررسی بایگانی فعالیت محلی دستگاه، اجرای آزمون‌های IndexedDB و دریافت خروجی‌های تشخیصی باز می‌کند.",
+          "when": "برای شناسایی Build بارگذاری‌شده، بررسی فعالیت‌ها یا خطاهای ثبت‌شده و پیگیری سازگاری ذخیره‌سازی یا مشکلات پشتیبانی از این بخش استفاده کنید.",
+          "how": "Monitor & Diagnostics را باز کنید. برای مشاهده اطلاعات Build، Show version details را انتخاب کنید. بایگانی فعالیت را باز کنید تا رویدادها را بر اساس متن جست‌وجو، نوع و بازه زمانی فیلتر کنید. آزمون‌های ذخیره‌سازی یا بررسی محلی موجود را اجرا کنید، یا گزارش تشخیصی JSON و گزارش فعالیت CSV را دانلود کنید.",
+          "inputs": "متن جست‌وجوی اختیاری بایگانی، دسته‌بندی رویداد و فیلتر بازه زمانی. آزمون‌ها و خروجی‌های تشخیصی با دکمه مربوط اجرا می‌شوند؛ مرورگر باید اجازه دانلود فایل را بدهد.",
+          "result": "اطلاعات نسخه، رویدادهای فعالیت و نتایج بررسی‌های تشخیصی در صفحه نمایش داده می‌شوند. در صورت موفقیت عملیات خروجی، فایل JSON تشخیصی یا CSV فعالیت دانلود می‌شود.",
+          "notes": "بایگانی فعالیت به‌صورت محلی روی همین دستگاه ذخیره می‌شود و خودکار به سرور ارسال نمی‌شود. مقایسه و ممیزی فقط‌خواندنی، داده‌ها را تعمیر نمی‌کنند. خروجی‌های تشخیصی ممکن است شامل اطلاعات دستگاه، مرورگر و جزئیات فنی باشند؛ پیش از اشتراک‌گذاری، فایل‌ها را بررسی کنید."
         }
       },
       "handler_or_behavior": "`show(`"
@@ -5514,20 +5514,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the Factory Reset area for the controlled backup conversion and full-data recovery workflow.",
-          "when": "Use this only when you have a specific, approved recovery plan and understand that the process can replace or remove current data.",
-          "how": "Open Factory Reset, read each warning and follow the documented backup-validation and recovery steps. Stop if the source backup, target database or expected result is unclear.",
-          "inputs": "A valid approved backup and the exact confirmation inputs requested by the reset workflow may be required.",
-          "result": "The controlled reset/recovery workflow opens; no reset should be assumed complete until the app reports a verified result.",
-          "notes": "HIGH RISK: Factory Reset is not routine troubleshooting. It can remove or replace data across the app. Do not proceed without a verified backup, clear recovery objective and explicit approval. Never use it just to refresh or update the app."
+          "purpose": "Opens the Factory Reset information page, which warns that the proposed recovery process would replace the current app data with an approved legacy backup.",
+          "when": "Open this page only when investigating a planned full recovery and after confirming that a suitable backup and recovery plan exist.",
+          "how": "Open Factory Reset and read the warning. The page provides an Open Secure Reset control. In this R43 source build, the conversion, emergency-snapshot and final-restore controls are not wired to working handlers, so do not treat the page as an executable recovery process.",
+          "inputs": "No input is required to open the information page. The recovery controls shown in the subsequent dialog are not operational in this build.",
+          "result": "The Factory Reset warning page is displayed. No backup is converted, no emergency snapshot is downloaded and no app data is reset by opening this page.",
+          "notes": "HIGH RISK: The intended workflow describes replacing the current IndexedDB data with an approved legacy backup. However, the R43 implementation is incomplete: the conversion, emergency snapshot and final restore actions have no working event handlers. Do not rely on this screen for recovery or attempt a reset."
         },
         "fa": {
-          "purpose": "بخش Factory Reset را برای گردش‌کار کنترل‌شده تبدیل پشتیبان و بازیابی کامل داده‌ها باز می‌کند.",
-          "when": "فقط زمانی از این گزینه استفاده کنید که برنامه بازیابی مشخص و تأییدشده‌ای دارید و می‌دانید این فرایند ممکن است داده‌های فعلی را جایگزین یا حذف کند.",
-          "how": "Factory Reset را باز کنید، تمام هشدارها را بخوانید و مراحل اعتبارسنجی پشتیبان و بازیابی را طبق دستورالعمل دنبال کنید. اگر فایل مبدأ، پایگاه داده مقصد یا نتیجه مورد انتظار روشن نیست، متوقف شوید.",
-          "inputs": "ممکن است به فایل پشتیبان معتبر و تأییدهای دقیق درخواستی فرایند Reset نیاز باشد.",
-          "result": "گردش‌کار کنترل‌شده Reset/بازیابی باز می‌شود؛ تا زمانی که برنامه نتیجه تأییدشده را اعلام نکرده، Reset را کامل‌شده فرض نکنید.",
-          "notes": "خطر بسیار بالا: Factory Reset برای عیب‌یابی معمولی نیست. ممکن است داده‌های بخش‌های مختلف برنامه را حذف یا جایگزین کند. بدون پشتیبان معتبر، هدف روشن بازیابی و تأیید صریح ادامه ندهید. فقط برای تازه‌سازی صفحه یا به‌روزرسانی برنامه از آن استفاده نکنید."
+          "purpose": "صفحه اطلاعات Factory Reset را باز می‌کند؛ این صفحه هشدار می‌دهد که فرایند بازیابی پیشنهادی، داده‌های فعلی برنامه را با یک پشتیبان قدیمیِ تأییدشده جایگزین می‌کند.",
+          "when": "فقط هنگام بررسی برنامه‌ریزی‌شده برای بازیابی کامل و پس از اطمینان از وجود پشتیبان مناسب و برنامه بازیابی مشخص، این صفحه را باز کنید.",
+          "how": "Factory Reset را باز کنید و هشدار را بخوانید. این صفحه کنترل Open Secure Reset را ارائه می‌دهد. در سورس R43، کنترل‌های تبدیل پشتیبان، Snapshot اضطراری و بازیابی نهایی به Handler اجرایی متصل نیستند؛ بنابراین این صفحه را یک فرایند بازیابی قابل اجرا فرض نکنید.",
+          "inputs": "برای بازکردن صفحه اطلاعاتی ورودی لازم نیست. کنترل‌های بازیابی که در پنجره بعدی نمایش داده می‌شوند، در این Build عملیاتی نیستند.",
+          "result": "صفحه هشدار Factory Reset نمایش داده می‌شود. با بازکردن این صفحه هیچ پشتیبانی تبدیل نمی‌شود، Snapshot اضطراری دانلود نمی‌شود و داده‌های برنامه Reset نمی‌شوند.",
+          "notes": "خطر بسیار بالا: گردش‌کار موردنظر، جایگزینی داده‌های فعلی IndexedDB با یک پشتیبان قدیمیِ تأییدشده را توصیف می‌کند. بااین‌حال پیاده‌سازی R43 ناقص است: عملیات تبدیل، Snapshot اضطراری و بازیابی نهایی Handler اجرایی ندارند. برای بازیابی به این صفحه اتکا نکنید و Reset را اجرا نکنید."
         }
       },
       "handler_or_behavior": "`show(`"
@@ -5540,20 +5540,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the secure reset workflow from the app’s recovery controls.",
-          "when": "Use this only when directed to the secure reset process as part of an approved recovery plan.",
-          "how": "Select Open Secure Reset and read the warning and next-step instructions before continuing. Do not confirm a reset unless you have verified the backup and intend the data replacement.",
-          "inputs": "No information may be needed just to open the workflow; later steps may require a selected backup and explicit confirmations.",
-          "result": "The secure reset workflow is opened for review; opening it alone does not prove that any data has been reset.",
-          "notes": "HIGH RISK: Subsequent reset actions may replace or remove stored data. Do not continue without a verified backup and explicit approval. Opening the workflow is not the same as executing the reset."
+          "purpose": "Opens the Secure Reset warning dialog from the Factory Reset page.",
+          "when": "Use this control only to inspect the recovery warnings as part of a separately approved recovery investigation.",
+          "how": "Select Open Secure Reset. Read the first warning, then use the continue control only if you intend to review the second warning and its displayed recovery requirements. Cancel closes the dialog.",
+          "inputs": "No input is needed to open the dialog. The later dialog shows a file picker, confirmation checkbox and authorization phrase field, but the associated conversion, snapshot and final-reset actions are not implemented in this build.",
+          "result": "The Secure Reset warning dialog opens and initializes its visible form state. Opening it does not convert a backup, download a snapshot or reset data.",
+          "notes": "HIGH RISK: The dialog describes a destructive replacement of current IndexedDB data. In the R43 source build, the recovery action controls are not connected to working handlers. Do not enter authorization details or rely on this dialog to perform a recovery."
         },
         "fa": {
-          "purpose": "گردش‌کار Secure Reset را از کنترل‌های بازیابی برنامه باز می‌کند.",
-          "when": "فقط زمانی از این گزینه استفاده کنید که به‌عنوان بخشی از برنامه بازیابی تأییدشده، اجرای فرایند Secure Reset به شما توصیه شده باشد.",
-          "how": "Open Secure Reset را انتخاب کنید و پیش از ادامه، هشدارها و دستورالعمل مراحل بعد را بخوانید. تا زمانی که پشتیبان را بررسی نکرده‌اید و قصد جایگزینی داده‌ها را ندارید، Reset را تأیید نکنید.",
-          "inputs": "برای صرفاً بازکردن گردش‌کار ممکن است اطلاعاتی لازم نباشد؛ مراحل بعدی ممکن است به انتخاب پشتیبان و تأیید صریح نیاز داشته باشند.",
-          "result": "گردش‌کار Secure Reset برای بررسی باز می‌شود؛ بازکردن آن به‌تنهایی به معنی Reset شدن داده‌ها نیست.",
-          "notes": "خطر بسیار بالا: مراحل بعدی Reset ممکن است داده‌های ذخیره‌شده را جایگزین یا حذف کنند. بدون پشتیبان معتبر و تأیید صریح ادامه ندهید. بازکردن گردش‌کار با اجرای Reset یکسان نیست."
+          "purpose": "پنجره هشدار Secure Reset را از صفحه Factory Reset باز می‌کند.",
+          "when": "فقط برای بررسی هشدارهای بازیابی و در چارچوب بررسی جداگانه و تأییدشده بازیابی از این کنترل استفاده کنید.",
+          "how": "Open Secure Reset را انتخاب کنید. هشدار اول را بخوانید؛ فقط اگر قصد بررسی هشدار دوم و الزامات بازیابی نمایش‌داده‌شده را دارید، از کنترل ادامه استفاده کنید. دکمه Cancel پنجره را می‌بندد.",
+          "inputs": "برای بازکردن پنجره ورودی لازم نیست. در مراحل بعدی پنجره، انتخاب فایل، کادر تأیید و فیلد عبارت مجوز نمایش داده می‌شود؛ اما عملیات تبدیل، Snapshot و Reset نهایی در این Build پیاده‌سازی اجرایی ندارند.",
+          "result": "پنجره هشدار Secure Reset باز می‌شود و وضعیت اولیه فرم نمایشی را تنظیم می‌کند. بازکردن آن پشتیبان را تبدیل نمی‌کند، Snapshot دانلود نمی‌کند و داده‌ها را Reset نمی‌کند.",
+          "notes": "خطر بسیار بالا: پنجره، جایگزینی مخرب داده‌های فعلی IndexedDB را توضیح می‌دهد. در سورس R43، کنترل‌های عملیات بازیابی به Handler اجرایی متصل نیستند. عبارت مجوز را وارد نکنید و برای انجام بازیابی به این پنجره اتکا نکنید."
         }
       },
       "handler_or_behavior": "`openFactoryReset()`"
@@ -5566,20 +5566,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Checks and converts a selected backup into the format required by the secure reset workflow.",
-          "when": "Use this only when preparing a verified backup for an approved full recovery process.",
-          "how": "Select the backup file, choose Validate and Convert Backup, and wait for the validation result. Do not proceed if validation fails or the source file is not the intended backup.",
-          "inputs": "A supported backup file selected in the reset workflow.",
-          "result": "The app reports whether the backup can be validated and converted for the recovery process.",
-          "notes": "This does not itself restore the backup. Keep the original file unchanged and retain a separate copy. Do not use an unverified or unknown backup for a destructive reset."
+          "purpose": "A button is displayed for validating and converting the selected legacy backup, but it has no registered click handler in the R43 source build.",
+          "when": "Do not use this control for recovery in R43. It is documented here only to identify the visible control and its current implementation gap.",
+          "how": "The interface displays a file picker for the original New_new(2).json backup and a Validate and Convert Backup button. Selecting the button currently has no implemented conversion action.",
+          "inputs": "The displayed file picker accepts a JSON file, but selecting a file or pressing the button does not run a working validation or conversion process in this build.",
+          "result": "No verified converted backup is produced by this control in R43.",
+          "notes": "HIGH RISK: A successful validation and conversion must be proven before any destructive restore. This control has no working event handler in the inspected source; do not proceed on the assumption that the backup was validated or converted."
         },
         "fa": {
-          "purpose": "فایل پشتیبان انتخاب‌شده را بررسی و به قالب موردنیاز گردش‌کار Secure Reset تبدیل می‌کند.",
-          "when": "فقط زمانی از این گزینه استفاده کنید که برای یک فرایند بازیابی کاملِ تأییدشده، پشتیبان را آماده می‌کنید.",
-          "how": "فایل پشتیبان را انتخاب کنید، Validate and Convert Backup را بزنید و تا نمایش نتیجه اعتبارسنجی صبر کنید. اگر اعتبارسنجی ناموفق بود یا فایل انتخابی همان پشتیبان موردنظر نبود، ادامه ندهید.",
-          "inputs": "یک فایل پشتیبان پشتیبانی‌شده که در گردش‌کار Reset انتخاب شده باشد.",
-          "result": "برنامه اعلام می‌کند آیا فایل پشتیبان برای فرایند بازیابی قابل اعتبارسنجی و تبدیل است یا خیر.",
-          "notes": "این عملیات به‌تنهایی پشتیبان را بازیابی نمی‌کند. فایل اصلی را تغییر ندهید و یک نسخه جداگانه نگه دارید. برای Reset مخرب از فایل ناشناخته یا اعتبارسنجی‌نشده استفاده نکنید."
+          "purpose": "دکمه‌ای برای اعتبارسنجی و تبدیل پشتیبان قدیمی انتخاب‌شده نمایش داده می‌شود، اما در سورس R43 هیچ Click Handler ثبت‌شده‌ای برای آن وجود ندارد.",
+          "when": "در R43 از این کنترل برای بازیابی استفاده نکنید. این راهنما فقط برای شناسایی کنترل قابل مشاهده و نقص فعلی پیاده‌سازی آن ثبت شده است.",
+          "how": "رابط، انتخاب فایل پشتیبان اصلی New_new(2).json و دکمه Validate and Convert Backup را نمایش می‌دهد. در حال حاضر انتخاب فایل یا فشردن دکمه، عملیات اجرایی تبدیل را انجام نمی‌دهد.",
+          "inputs": "انتخاب‌گر فایل نمایش‌داده‌شده فایل JSON را می‌پذیرد؛ اما انتخاب فایل یا فشردن دکمه در این Build فرایند عملیاتی اعتبارسنجی و تبدیل را اجرا نمی‌کند.",
+          "result": "این کنترل در R43 هیچ پشتیبان تبدیل‌شده و تأییدشده‌ای تولید نمی‌کند.",
+          "notes": "خطر بسیار بالا: پیش از هر بازیابی مخرب باید موفقیت اعتبارسنجی و تبدیل پشتیبان اثبات شود. کنترل بررسی‌شده در سورس Handler اجرایی ندارد؛ فرض نکنید پشتیبان اعتبارسنجی یا تبدیل شده است."
         }
       },
       "handler_or_behavior": "`event/property listener`"
@@ -5592,20 +5592,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Downloads an emergency snapshot file as an additional recovery aid.",
-          "when": "Use this before a high-risk recovery step when the app offers an emergency snapshot and you need an extra copy of the current data.",
-          "how": "Select Download Emergency Snapshot and wait for the file to download. Store it securely and verify that the file exists before continuing.",
-          "inputs": "No form input is required. The browser must allow downloads and the storage services must be available.",
-          "result": "An emergency snapshot file is downloaded if the snapshot operation succeeds.",
-          "notes": "This snapshot is not a substitute for a normal verified full backup. It may contain sensitive business data. Do not continue with reset if the snapshot fails or the downloaded file cannot be located."
+          "purpose": "A Download Emergency Snapshot button is displayed in the Secure Reset dialog, but it is initially disabled and has no registered click handler in the R43 source build.",
+          "when": "Do not rely on this control to protect current data in R43. A verified independent backup must exist before any recovery attempt.",
+          "how": "The dialog displays Download Emergency Snapshot after the backup-conversion step. In the inspected build the button is disabled initially, and no working click handler is registered to create or download a snapshot.",
+          "inputs": "The interface includes a converted-backup file picker and a confirmation checkbox, but these visible controls do not provide a working emergency-snapshot download in R43.",
+          "result": "This control does not create or download an emergency snapshot in the inspected build.",
+          "notes": "HIGH RISK: The emergency snapshot is intended as an additional safeguard, not a substitute for a verified full backup. Because the button is disabled initially and has no working handler, do not assume a snapshot exists or continue with a destructive reset."
         },
         "fa": {
-          "purpose": "یک فایل Snapshot اضطراری را به‌عنوان کمک اضافی برای بازیابی دانلود می‌کند.",
-          "when": "پیش از مرحله بازیابی پرخطر، وقتی برنامه امکان تهیه Snapshot اضطراری را ارائه می‌کند و به یک نسخه اضافی از داده‌های فعلی نیاز دارید، از این گزینه استفاده کنید.",
-          "how": "Download Emergency Snapshot را انتخاب کنید و تا دانلود فایل صبر کنید. آن را در محل امن نگه دارید و پیش از ادامه از وجود فایل مطمئن شوید.",
-          "inputs": "ورودی فرمی لازم نیست. مرورگر باید اجازه دانلود بدهد و سرویس‌های ذخیره‌سازی باید در دسترس باشند.",
-          "result": "اگر عملیات Snapshot موفق شود، فایل اضطراری دانلود می‌شود.",
-          "notes": "این Snapshot جایگزین پشتیبان کامل و تأییدشده معمولی نیست. ممکن است حاوی اطلاعات حساس کسب‌وکار باشد. اگر Snapshot ناموفق بود یا فایل دانلودشده را پیدا نکردید، Reset را ادامه ندهید."
+          "purpose": "دکمه Download Emergency Snapshot در پنجره Secure Reset نمایش داده می‌شود، اما در ابتدا غیرفعال است و در سورس R43 هیچ Click Handler ثبت‌شده‌ای ندارد.",
+          "when": "در R43 برای محافظت از داده‌های فعلی به این کنترل اتکا نکنید. پیش از هر تلاش برای بازیابی باید یک پشتیبان مستقل و تأییدشده وجود داشته باشد.",
+          "how": "پنجره، دکمه Download Emergency Snapshot را پس از مرحله تبدیل پشتیبان نمایش می‌دهد. در Build بررسی‌شده، این دکمه در ابتدا غیرفعال است و Handler اجرایی برای ایجاد یا دانلود Snapshot به آن متصل نشده است.",
+          "inputs": "رابط شامل انتخاب‌گر فایل پشتیبان تبدیل‌شده و کادر تأیید است؛ اما این کنترل‌های نمایشی در R43 امکان دانلود عملیاتی Snapshot اضطراری را فراهم نمی‌کنند.",
+          "result": "این کنترل در Build بررسی‌شده Snapshot اضطراری ایجاد یا دانلود نمی‌کند.",
+          "notes": "خطر بسیار بالا: Snapshot اضطراری برای محافظت اضافی در نظر گرفته شده و جایگزین پشتیبان کامل و تأییدشده نیست. چون دکمه در ابتدا غیرفعال است و Handler اجرایی ندارد، فرض نکنید Snapshot ایجاد شده یا برای Reset مخرب ادامه دهید."
         }
       },
       "handler_or_behavior": "`event/property listener`"
