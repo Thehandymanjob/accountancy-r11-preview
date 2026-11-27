@@ -7038,6 +7038,78 @@
           "inputs": "از طریق این کنترل غیرفعال ورودی‌ای ارسال نمی‌شود.",
           "result": "این دکمه در Build بررسی‌شده هیچ بارگذاری مجدد، دانلود یا تغییری در نسخه آغاز نمی‌کند.",
           "notes": "عنوان دکمه عملکرد موردنظر برای آینده را نشان می‌دهد، نه قابلیتی فعال در R43. پس از پیاده‌سازی هر مسیر به‌روزرسانی در آینده، Build ID و پایگاه داده مستقرشده را بررسی کنید؛ صرفاً به‌دلیل قابل مشاهده بودن این کنترل فرض نکنید نسخه‌ای نصب شده است."
+        },
+        "ar": {
+          "purpose": "يظهر عنصر التحكم Update Now ضمن سير عمل تحديث البرنامج المقصود، لكنه معطل، كما أن الدالة reloadLatestApp() المشار إليها غير معرّفة في مصدر R43 الذي تمت مراجعته.",
+          "when": "لا تستخدم عنصر التحكم هذا في R43. أعد تقييمه فقط بعد أن ينفذ إصدار مستقبلي سير عمل تحديث تم التحقق منه ويفعّله.",
+          "how": "في R43، يكون Update Now معطلاً ويحمل aria-disabled=true. تشير خاصية onclick إلى reloadLatestApp()، لكن هذه الدالة غير معرّفة في مصدر التطبيق الذي تمت مراجعته. لا تتوقع أن يعيد الزر تحميل التطبيق أو يثبت تحديثاً.",
+          "inputs": "لا يمكن إرسال أي إدخال عبر عنصر التحكم المعطل هذا.",
+          "result": "لا يبدأ هذا الزر إعادة تحميل أو تنزيل أو تغييراً في الإصدار في الإصدار الذي تمت مراجعته.",
+          "notes": "يصف نص الزر وظيفة مستقبلية مقصودة، وليس ميزة تعمل في R43. تحقق من Build ID وقاعدة البيانات المنشورة بعد تنفيذ أي مسار تحديث مستقبلي؛ ولا تفترض تثبيت إصدار لمجرد ظهور عنصر التحكم."
+        },
+        "ckb": {
+          "purpose": "کۆنترۆڵی Update Now بۆ ڕێڕەوی مەبەستی نوێکردنەوەی نەرمەکاڵا پیشان دەدرێت، بەڵام ناچالاکە و فەنکشنی reloadLatestApp() کە پێی ئاماژە کراوە لە سەرچاوەی R43ی پشکنراودا پێناسە نەکراوە.",
+          "when": "لە R43دا ئەم کۆنترۆڵە بەکارمەهێنە. تەنها دوای ئەوە دووبارە هەڵیسەنگێنە کە Buildێکی داهاتوو ڕێڕەوی نوێکردنەوەیەکی پشتڕاستکراو جێبەجێ و چالاک بکات.",
+          "how": "لە R43دا Update Now ناچالاکە و aria-disabled=trueی هەیە. onclickی ئاماژە بە reloadLatestApp() دەکات، بەڵام ئەم فەنکشنە لە سەرچاوەی پشکنراوی بەرنامەدا پێناسە نەکراوە. چاوەڕێ مەکە دوگمەکە بەرنامە Reload بکات یان نوێکردنەوە دابمەزرێنێت.",
+          "inputs": "هیچ زانیارییەک لە ڕێگەی ئەم کۆنترۆڵە ناچالاکەوە نانێردرێت.",
+          "result": "ئەم دوگمەیە لە Buildی پشکنراودا هیچ Reload، دابەزاندن یان گۆڕانکارییەکی وەشان دەست پێ ناکات.",
+          "notes": "ناوی دوگمەکە کارکردنی مەبەستی داهاتوو باس دەکات، نەک تایبەتمەندییەکی کارای R43. دوای جێبەجێکردنی هەر ڕێڕەوێکی نوێکردنەوەی داهاتوو، Build ID و بنکەدراوەی Deployکراو بپشکنە؛ تەنها بەهۆی دیاربوونی کۆنترۆڵەکەوە گریمانە مەکە وەشانێک دامەزراوە."
+        },
+        "kmr": {
+          "purpose": "Kontrola Update Now ji bo rêbaza nûkirina nermalavê tê nîşandan, lê neçalak e û fonksiyona reloadLatestApp() ya ku jê re tê îşaretkirin di çavkaniya R43 ya hatî kontrolkirin de nayê pênasekirin.",
+          "when": "Di R43 de vê kontrolê bikar neyne. Tenê piştî ku build-eke paşerojê rêbaza nûkirinê ya verastkirî pêk bîne û çalak bike, wê dîsa binirxîne.",
+          "how": "Di R43 de Update Now neçalak e û aria-disabled=true heye. onclick wê îşareta reloadLatestApp() dike, lê ev fonksiyon di çavkaniya sepanê ya hatî kontrolkirin de nayê pênasekirin. Li benda ku bişkok sepanê ji nû ve bar bike an nûkirinekê saz bike nebe.",
+          "inputs": "Bi vê kontrola neçalak tu têketin nayê şandin.",
+          "result": "Ev bişkok di build-a hatî kontrolkirin de tu barkirina nû, daxistin an guhertina guhertoyê dest pê nake.",
+          "notes": "Etîketa bişkokê fonksiyona ku ji bo paşerojê hatiye armanc kirin rave dike, ne taybetmendiyeke kar a R43. Piştî pêkanîna rêbazeke nûkirinê ya paşerojê Build ID û databasa deploykirî kontrol bike; tenê ji ber ku ev kontrol xuya ye texmîn neke ku weşanek hatiye sazkirin."
+        },
+        "tr": {
+          "purpose": "Amaçlanan yazılım güncelleme iş akışı için Update Now denetimi görüntülenir, ancak devre dışıdır ve başvurulan reloadLatestApp() işlevi incelenen R43 kaynağında tanımlı değildir.",
+          "when": "R43'te bu denetimi kullanmayın. Yalnızca gelecekteki bir derlemede doğrulanmış bir güncelleme iş akışı uygulanıp etkinleştirildikten sonra yeniden değerlendirin.",
+          "how": "R43'te Update Now devre dışıdır ve aria-disabled=true olarak işaretlenmiştir. onclick özelliği reloadLatestApp() işlevine başvurur, ancak bu işlev incelenen uygulama kaynağında tanımlı değildir. Düğmenin uygulamayı yeniden yüklemesini veya güncelleme kurmasını beklemeyin.",
+          "inputs": "Bu devre dışı denetim üzerinden herhangi bir girdi gönderilemez.",
+          "result": "İncelenen derlemede bu düğme yeniden yükleme, indirme veya sürüm değişikliği başlatmaz.",
+          "notes": "Düğme etiketi R43'te çalışan bir özelliği değil, gelecekte amaçlanan işlevi açıklar. Gelecekte herhangi bir güncelleme yolu uygulandıktan sonra dağıtılan Build ID ve veritabanını doğrulayın; yalnızca bu denetim görünür diye bir sürümün kurulduğunu varsaymayın."
+        },
+        "pl": {
+          "purpose": "Element sterujący Update Now jest wyświetlany w ramach planowanego procesu aktualizacji oprogramowania, ale jest nieaktywny, a wskazana funkcja reloadLatestApp() nie jest zdefiniowana w sprawdzonym kodzie źródłowym R43.",
+          "when": "Nie używaj tego elementu sterującego w R43. Oceń go ponownie dopiero po wdrożeniu i włączeniu zweryfikowanego procesu aktualizacji w przyszłej kompilacji.",
+          "how": "W R43 przycisk Update Now jest nieaktywny i ma atrybut aria-disabled=true. Jego onclick odwołuje się do reloadLatestApp(), ale funkcja ta nie jest zdefiniowana w sprawdzonym kodzie aplikacji. Nie oczekuj, że przycisk ponownie załaduje aplikację lub zainstaluje aktualizację.",
+          "inputs": "Nie można przesłać żadnych danych przez ten nieaktywny element sterujący.",
+          "result": "W sprawdzonej kompilacji przycisk nie rozpoczyna ponownego ładowania, pobierania ani zmiany wersji.",
+          "notes": "Etykieta przycisku opisuje planowaną funkcję przyszłą, a nie działającą funkcję w R43. Po wdrożeniu przyszłej ścieżki aktualizacji sprawdź wdrożony Build ID i bazę danych; nie zakładaj instalacji wydania tylko dlatego, że element sterujący jest widoczny."
+        },
+        "ur": {
+          "purpose": "مطلوبہ سافٹ ویئر اپ ڈیٹ کے طریقۂ کار کے لیے Update Now کنٹرول دکھایا جاتا ہے، لیکن یہ غیر فعال ہے اور اس میں حوالہ دیا گیا reloadLatestApp() فنکشن جانچے گئے R43 سورس میں موجود نہیں۔",
+          "when": "R43 میں یہ کنٹرول استعمال نہ کریں۔ اسے صرف اس وقت دوبارہ جانچیں جب مستقبل کے کسی بلڈ میں تصدیق شدہ اپ ڈیٹ کا طریقۂ کار نافذ اور فعال ہو جائے۔",
+          "how": "R43 میں Update Now غیر فعال ہے اور اس پر aria-disabled=true درج ہے۔ اس کا onclick، reloadLatestApp() کا حوالہ دیتا ہے، لیکن یہ فنکشن جانچے گئے ایپ سورس میں موجود نہیں۔ یہ توقع نہ کریں کہ بٹن ایپ دوبارہ لوڈ کرے گا یا اپ ڈیٹ نصب کرے گا۔",
+          "inputs": "اس غیر فعال کنٹرول کے ذریعے کوئی معلومات جمع نہیں کی جا سکتی۔",
+          "result": "جانچے گئے بلڈ میں یہ بٹن دوبارہ لوڈ، ڈاؤن لوڈ یا ورژن کی تبدیلی شروع نہیں کرتا۔",
+          "notes": "بٹن کا نام مستقبل میں مطلوبہ فعالیت بیان کرتا ہے، R43 میں کام کرنے والی خصوصیت نہیں۔ مستقبل میں اپ ڈیٹ کا کوئی طریقہ نافذ ہونے کے بعد تعینات شدہ Build ID اور ڈیٹابیس کی تصدیق کریں؛ صرف کنٹرول نظر آنے کی وجہ سے یہ نہ سمجھیں کہ ریلیز نصب ہو گئی ہے۔"
+        },
+        "pa": {
+          "purpose": "Update Now ਕੰਟਰੋਲ ਸਾਫਟਵੇਅਰ ਅੱਪਡੇਟ ਦੇ ਇਰਾਦੇ ਵਾਲੇ ਤਰੀਕੇ ਲਈ ਦਿਖਾਇਆ ਜਾਂਦਾ ਹੈ, ਪਰ ਇਹ ਬੰਦ ਹੈ ਅਤੇ ਹਵਾਲਾ ਦਿੱਤਾ reloadLatestApp() ਫੰਕਸ਼ਨ ਜਾਂਚੇ R43 ਸਰੋਤ ਵਿੱਚ ਪਰਿਭਾਸ਼ਿਤ ਨਹੀਂ ਹੈ।",
+          "when": "R43 ਵਿੱਚ ਇਸ ਕੰਟਰੋਲ ਦੀ ਵਰਤੋਂ ਨਾ ਕਰੋ। ਇਸਦੀ ਮੁੜ ਜਾਂਚ ਸਿਰਫ਼ ਉਸ ਵੇਲੇ ਕਰੋ ਜਦੋਂ ਭਵਿੱਖ ਦੇ ਬਿਲਡ ਵਿੱਚ ਤਸਦੀਕ ਕੀਤਾ ਅੱਪਡੇਟ ਤਰੀਕਾ ਲਾਗੂ ਅਤੇ ਚਾਲੂ ਹੋ ਜਾਵੇ।",
+          "how": "R43 ਵਿੱਚ Update Now ਬੰਦ ਹੈ ਅਤੇ ਇਸ 'ਤੇ aria-disabled=true ਲੱਗਾ ਹੈ। ਇਸਦਾ onclick reloadLatestApp() ਵੱਲ ਇਸ਼ਾਰਾ ਕਰਦਾ ਹੈ, ਪਰ ਜਾਂਚੇ ਐਪ ਸਰੋਤ ਵਿੱਚ ਇਹ ਫੰਕਸ਼ਨ ਪਰਿਭਾਸ਼ਿਤ ਨਹੀਂ। ਇਹ ਉਮੀਦ ਨਾ ਕਰੋ ਕਿ ਬਟਨ ਐਪ ਮੁੜ ਲੋਡ ਜਾਂ ਅੱਪਡੇਟ ਇੰਸਟਾਲ ਕਰੇਗਾ।",
+          "inputs": "ਇਸ ਬੰਦ ਕੰਟਰੋਲ ਰਾਹੀਂ ਕੋਈ ਇਨਪੁੱਟ ਨਹੀਂ ਭੇਜਿਆ ਜਾ ਸਕਦਾ।",
+          "result": "ਜਾਂਚੇ ਬਿਲਡ ਵਿੱਚ ਇਹ ਬਟਨ ਮੁੜ ਲੋਡ, ਡਾਊਨਲੋਡ ਜਾਂ ਵਰਜਨ ਤਬਦੀਲੀ ਸ਼ੁਰੂ ਨਹੀਂ ਕਰਦਾ।",
+          "notes": "ਬਟਨ ਦਾ ਲੇਬਲ ਭਵਿੱਖ ਲਈ ਇਰਾਦਾ ਕੀਤੀ ਕਾਰਗੁਜ਼ਾਰੀ ਦੱਸਦਾ ਹੈ, R43 ਵਿੱਚ ਕੰਮ ਕਰਦੀ ਵਿਸ਼ੇਸ਼ਤਾ ਨਹੀਂ। ਭਵਿੱਖ ਵਿੱਚ ਅੱਪਡੇਟ ਰਸਤਾ ਲਾਗੂ ਹੋਣ ਤੋਂ ਬਾਅਦ ਤੈਨਾਤ Build ID ਅਤੇ ਡਾਟਾਬੇਸ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ; ਸਿਰਫ਼ ਕੰਟਰੋਲ ਦਿਖਣ ਕਰਕੇ ਇਹ ਨਾ ਮੰਨੋ ਕਿ ਰਿਲੀਜ਼ ਇੰਸਟਾਲ ਹੋ ਗਈ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "کنترل Update Now برای گردش‌کار موردنظر به‌روزرسانی نرم‌افزار نمایش داده می‌شود، اما غیرفعال است و تابع reloadLatestApp() که به آن ارجاع شده در سورس R43 بررسی‌شده تعریف نشده است.",
+          "when": "در R43 از این کنترل استفاده نکنید. فقط پس از آن دوباره آن را بررسی کنید که در یک Build آینده گردش‌کار به‌روزرسانی تأییدشده پیاده‌سازی و فعال شده باشد.",
+          "how": "در R43 گزینه Update Now غیرفعال و دارای aria-disabled=true است. ویژگی onclick آن به reloadLatestApp() ارجاع می‌دهد، اما این تابع در سورس برنامه بررسی‌شده تعریف نشده است. انتظار نداشته باشید دکمه برنامه را دوباره بارگذاری یا به‌روزرسانی نصب کند.",
+          "inputs": "از طریق این کنترل غیرفعال ورودی‌ای ارسال نمی‌شود.",
+          "result": "این دکمه در Build بررسی‌شده هیچ بارگذاری مجدد، دانلود یا تغییر نسخه‌ای آغاز نمی‌کند.",
+          "notes": "عنوان دکمه عملکرد موردنظر برای آینده را توصیف می‌کند، نه قابلیت فعال در R43. پس از پیاده‌سازی مسیر به‌روزرسانی در آینده، Build ID و پایگاه داده مستقرشده را بررسی کنید؛ صرفاً به‌دلیل قابل مشاهده بودن کنترل فرض نکنید نسخه‌ای نصب شده است."
+        },
+        "ps": {
+          "purpose": "د Update Now کنټرول د سافټویر د تازه کولو د ټاکل شوي بهیر لپاره ښکاري، خو بنده ده او د reloadLatestApp() یاد شوی فنکشن په ارزول شوې R43 سرچینه کې نه دی تعریف شوی.",
+          "when": "په R43 کې دا کنټرول مه کاروئ. یوازې هغه وخت یې بیا وارزوئ چې په راتلونکي Build کې د تازه کولو تایید شوی بهیر پلي او فعال شي.",
+          "how": "په R43 کې Update Now بنده ده او aria-disabled=true نښه لري. د هغې onclick د reloadLatestApp() یادونه کوي، خو دا فنکشن د اپلېکېشن په ارزول شوې سرچینه کې نه دی تعریف شوی. تمه مه کوئ چې تڼۍ به اپلېکېشن بیا پورته یا تازه کول نصب کړي.",
+          "inputs": "د دې بند کنټرول له لارې هېڅ معلومات نه شي لېږل کېدای.",
+          "result": "دا تڼۍ په ارزول شوي Build کې بیا پورته کول، ښکته کول یا د نسخې بدلون نه پیلوي.",
+          "notes": "د تڼۍ نوم د راتلونکي لپاره ټاکل شوې دنده بیانوي، نه په R43 کې فعاله ځانګړتیا. د راتلونکي تازه کولو د لارې له پلي کېدو وروسته د Deploy شوي Build ID او ډیټابېس تایید وکړئ؛ یوازې د کنټرول د ښکاره کېدو له امله د نسخې نصبېدل مه انګېرئ."
         }
       },
       "handler_or_behavior": "`reloadLatestApp()`"
@@ -7064,6 +7136,78 @@
           "inputs": "برای بازکردن فضای کاری ورودی لازم نیست. برنامه باید بتواند داده‌های Projects را از IndexedDB بارگذاری کند.",
           "result": "صفحه اصلی Business Workspace با سه بخش Projects، Company Contracts & Jobs و Control Panel باز می‌شود.",
           "notes": "این بخش از Accountancy جدا است. سوابق مالی پروژه و کارهای شرکتی در دامنه Projects ذخیره می‌شوند و خودکار به Accounting منتقل یا با آن ادغام نمی‌شوند. اگر IndexedDB در دسترس نباشد، فضای کاری باز نمی‌شود و پیام خطا نمایش داده می‌شود."
+        },
+        "ar": {
+          "purpose": "يفتح Business Workspace، وهي مساحة منفصلة لإدارة المشاريع المستقلة وعقود الشركة وأعمالها وعناصر التحكم التجارية المشتركة.",
+          "when": "استخدم هذا القسم عندما تحتاج إلى العمل على سجلات المشاريع أو وظائف الشركة أو أدلة الأعمال المشتركة بدلاً من معاملات المحاسبة العامة.",
+          "how": "اختر Business Workspace من المشغّل الرئيسي. يحمّل التطبيق بيانات مساحة Projects ويفتح الصفحة الرئيسية لـ Business Workspace. اختر Projects أو Company Contracts & Jobs أو Control Panel.",
+          "inputs": "لا يلزم إدخال معلومات لفتح مساحة العمل. يجب أن يتمكن التطبيق من تحميل بيانات Projects من IndexedDB.",
+          "result": "تفتح الصفحة الرئيسية لـ Business Workspace وتعرض ثلاثة أقسام متاحة: Projects وCompany Contracts & Jobs وControl Panel.",
+          "notes": "هذا القسم منفصل عن Accountancy. تُخزّن السجلات المالية للمشاريع وأعمال الشركة في نطاق Projects ولا تُنقل تلقائياً إلى Accounting أو تُدمج معه. إذا لم يكن IndexedDB متاحاً، فلن تفتح مساحة العمل ويظهر خطأ."
+        },
+        "ckb": {
+          "purpose": "Business Workspace دەکاتەوە؛ شوێنێکی جیاوازە بۆ بەڕێوەبردنی پڕۆژە سەربەخۆکان، گرێبەست و کارەکانی کۆمپانیا و کۆنترۆڵە هاوبەشەکانی بازرگانی.",
+          "when": "ئەمە بەکاربهێنە کاتێک پێویستت بە کارکردن لەگەڵ تۆماری پڕۆژە، کارەکانی کۆمپانیا یان پێڕستە هاوبەشەکانی بازرگانی هەیە، نەک مامەڵە گشتییەکانی ژمێریاری.",
+          "how": "لە لانچەری سەرەکی Business Workspace هەڵبژێرە. بەرنامە داتای شوێنی کاری Projects بار دەکات و پەڕەی سەرەکی Business Workspace دەکاتەوە. Projects، Company Contracts & Jobs یان Control Panel هەڵبژێرە.",
+          "inputs": "بۆ کردنەوەی شوێنی کار هیچ زانیارییەک پێویست نییە. بەرنامە دەبێت بتوانێت داتای Projects لە IndexedDB بار بکات.",
+          "result": "پەڕەی سەرەکی Business Workspace بە سێ بەشی بەردەست دەکرێتەوە: Projects، Company Contracts & Jobs و Control Panel.",
+          "notes": "ئەم بەشە لە Accountancy جیاوازە. تۆمارە داراییەکانی پڕۆژە و کاری کۆمپانیا لە بواری Projects هەڵدەگیرێن و بە شێوەی خۆکار بۆ Accounting ناگوازرێنەوە یان لەگەڵی تێکەڵ ناکرێن. ئەگەر IndexedDB بەردەست نەبێت، شوێنی کار ناکرێتەوە و هەڵەیەک پیشان دەدرێت."
+        },
+        "kmr": {
+          "purpose": "Business Workspace vedike, cihê cuda ji bo rêvebirina projeyên serbixwe, peyman û karên pargîdaniyê û kontrolên hevpar ên karsaziyê.",
+          "when": "Vê bikar bîne dema ku dixwazî bi tomarên projeyê, karên pargîdaniyê an pêristên hevpar ên karsaziyê re bixebitî, ne bi danûstandinên giştî yên hesabê.",
+          "how": "Ji launcher-a sereke Business Workspace hilbijêre. Sepan daneyên cihê xebata Projects bar dike û rûpela sereke ya Business Workspace vedike. Projects, Company Contracts & Jobs an Control Panel hilbijêre.",
+          "inputs": "Ji bo vekirina cihê xebatê agahî nehewce ye. Divê sepan bikaribe daneyên Projects ji IndexedDB bar bike.",
+          "result": "Rûpela sereke ya Business Workspace bi sê beşên peyda vedibe: Projects, Company Contracts & Jobs û Control Panel.",
+          "notes": "Ev beş ji Accountancy cuda ye. Tomarên darayî yên projeyê û karên pargîdaniyê di qada Projects de tên hilanîn û bi awayekî xweber nayên veguheztin an tevlihevkirin bi Accounting re. Heke IndexedDB ne peyda be, cihê xebatê venabe û çewtiyek tê nîşandan."
+        },
+        "tr": {
+          "purpose": "Bağımsız projeleri, şirket sözleşmelerini ve işlerini ve ortak işletme denetimlerini yönetmek için ayrı bir alan olan Business Workspace'i açar.",
+          "when": "Genel muhasebe işlemleri yerine proje kayıtları, şirket işleri veya ortak işletme dizinleriyle çalışmanız gerektiğinde bu alanı kullanın.",
+          "how": "Ana başlatıcıdan Business Workspace'i seçin. Uygulama Projects çalışma alanı verilerini yükler ve Business Workspace ana sayfasını açar. Projects, Company Contracts & Jobs veya Control Panel seçeneklerinden birini belirleyin.",
+          "inputs": "Çalışma alanını açmak için bilgi gerekmez. Uygulama Projects verilerini IndexedDB'den yükleyebilmelidir.",
+          "result": "Business Workspace ana sayfası üç alanla açılır: Projects, Company Contracts & Jobs ve Control Panel.",
+          "notes": "Bu alan Accountancy'den ayrıdır. Proje ve şirket işi finansal kayıtları Projects alanında saklanır; otomatik olarak Accounting'e aktarılmaz veya onunla birleştirilmez. IndexedDB kullanılamıyorsa çalışma alanı açılmaz ve hata gösterilir."
+        },
+        "pl": {
+          "purpose": "Otwiera Business Workspace, czyli oddzielny obszar do zarządzania niezależnymi projektami, umowami i zleceniami firmowymi oraz wspólnymi funkcjami biznesowymi.",
+          "when": "Użyj tego obszaru, gdy chcesz pracować z rejestrami projektów, zleceniami firmowymi lub wspólnymi katalogami firmy zamiast z ogólnymi transakcjami księgowymi.",
+          "how": "W głównym launcherze wybierz Business Workspace. Aplikacja ładuje dane obszaru Projects i otwiera stronę główną Business Workspace. Wybierz Projects, Company Contracts & Jobs lub Control Panel.",
+          "inputs": "Do otwarcia obszaru nie są wymagane żadne dane. Aplikacja musi mieć możliwość załadowania danych Projects z IndexedDB.",
+          "result": "Otwiera się strona główna Business Workspace z trzema dostępnymi obszarami: Projects, Company Contracts & Jobs i Control Panel.",
+          "notes": "Ten obszar jest oddzielony od Accountancy. Dane finansowe projektów i zleceń firmowych są przechowywane w domenie Projects i nie są automatycznie przenoszone do Accounting ani z nim łączone. Jeśli IndexedDB jest niedostępne, obszar nie otworzy się i zostanie wyświetlony błąd."
+        },
+        "ur": {
+          "purpose": "Business Workspace کھولتا ہے، جو آزاد منصوبوں، کمپنی کے معاہدوں اور کاموں اور مشترکہ کاروباری کنٹرولز کے انتظام کے لیے الگ حصہ ہے۔",
+          "when": "اسے اس وقت استعمال کریں جب آپ کو عمومی اکاؤنٹنگ لین دین کے بجائے منصوبوں کے ریکارڈ، کمپنی کے کام یا مشترکہ کاروباری فہرستوں کے ساتھ کام کرنا ہو۔",
+          "how": "مرکزی لانچر سے Business Workspace منتخب کریں۔ ایپ Projects ورک اسپیس کا ڈیٹا لوڈ کرتی ہے اور Business Workspace کا مرکزی صفحہ کھولتی ہے۔ Projects، Company Contracts & Jobs یا Control Panel منتخب کریں۔",
+          "inputs": "ورک اسپیس کھولنے کے لیے معلومات درکار نہیں۔ ایپ کو IndexedDB سے Projects کا ڈیٹا لوڈ کرنے کے قابل ہونا چاہیے۔",
+          "result": "Business Workspace کا مرکزی صفحہ تین دستیاب حصوں کے ساتھ کھلتا ہے: Projects، Company Contracts & Jobs اور Control Panel۔",
+          "notes": "یہ حصہ Accountancy سے الگ ہے۔ منصوبوں اور کمپنی کے کاموں کے مالی ریکارڈ Projects ڈومین میں محفوظ ہوتے ہیں اور خودکار طور پر Accounting میں منتقل یا اس کے ساتھ یکجا نہیں ہوتے۔ اگر IndexedDB دستیاب نہ ہو تو ورک اسپیس نہیں کھلے گی اور خرابی دکھائی جائے گی۔"
+        },
+        "pa": {
+          "purpose": "Business Workspace ਖੋਲ੍ਹਦਾ ਹੈ, ਜੋ ਸੁਤੰਤਰ ਪ੍ਰੋਜੈਕਟਾਂ, ਕੰਪਨੀ ਦੇ ਠੇਕਿਆਂ ਅਤੇ ਕੰਮਾਂ ਅਤੇ ਸਾਂਝੇ ਕਾਰੋਬਾਰੀ ਕੰਟਰੋਲਾਂ ਦੇ ਪ੍ਰਬੰਧ ਲਈ ਵੱਖਰਾ ਖੇਤਰ ਹੈ।",
+          "when": "ਇਸ ਖੇਤਰ ਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਤੁਹਾਨੂੰ ਆਮ ਅਕਾਊਂਟਿੰਗ ਲੈਣ-ਦੇਣ ਦੀ ਬਜਾਏ ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡਾਂ, ਕੰਪਨੀ ਦੇ ਕੰਮਾਂ ਜਾਂ ਸਾਂਝੀਆਂ ਕਾਰੋਬਾਰੀ ਡਾਇਰੈਕਟਰੀਆਂ ਨਾਲ ਕੰਮ ਕਰਨਾ ਹੋਵੇ।",
+          "how": "ਮੁੱਖ ਲਾਂਚਰ ਵਿੱਚੋਂ Business Workspace ਚੁਣੋ। ਐਪ Projects ਵਰਕਸਪੇਸ ਡਾਟਾ ਲੋਡ ਕਰਦੀ ਹੈ ਅਤੇ Business Workspace ਦਾ ਮੁੱਖ ਪੰਨਾ ਖੋਲ੍ਹਦੀ ਹੈ। Projects, Company Contracts & Jobs ਜਾਂ Control Panel ਚੁਣੋ।",
+          "inputs": "ਵਰਕਸਪੇਸ ਖੋਲ੍ਹਣ ਲਈ ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ। ਐਪ ਨੂੰ IndexedDB ਤੋਂ Projects ਡਾਟਾ ਲੋਡ ਕਰਨ ਦੇ ਯੋਗ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।",
+          "result": "Business Workspace ਦਾ ਮੁੱਖ ਪੰਨਾ ਤਿੰਨ ਉਪਲਬਧ ਖੇਤਰਾਂ ਨਾਲ ਖੁੱਲ੍ਹਦਾ ਹੈ: Projects, Company Contracts & Jobs ਅਤੇ Control Panel।",
+          "notes": "ਇਹ ਖੇਤਰ Accountancy ਤੋਂ ਵੱਖਰਾ ਹੈ। ਪ੍ਰੋਜੈਕਟ ਅਤੇ ਕੰਪਨੀ ਦੇ ਕੰਮਾਂ ਦੇ ਵਿੱਤੀ ਰਿਕਾਰਡ Projects ਡੋਮੇਨ ਵਿੱਚ ਸਟੋਰ ਹੁੰਦੇ ਹਨ ਅਤੇ ਆਪਣੇ ਆਪ Accounting ਵਿੱਚ ਤਬਦੀਲ ਜਾਂ ਉਸ ਨਾਲ ਜੋੜੇ ਨਹੀਂ ਜਾਂਦੇ। ਜੇ IndexedDB ਉਪਲਬਧ ਨਾ ਹੋਵੇ ਤਾਂ ਵਰਕਸਪੇਸ ਨਹੀਂ ਖੁੱਲ੍ਹਦੀ ਅਤੇ ਗਲਤੀ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "فضای Business Workspace را باز می‌کند؛ بخشی جداگانه برای مدیریت پروژه‌های مستقل، قراردادها و کارهای شرکتی و کنترل‌های مشترک کسب‌وکار.",
+          "when": "وقتی به‌جای تراکنش‌های عمومی حسابداری، باید با سوابق پروژه، کارهای شرکتی یا فهرست‌های مشترک کسب‌وکار کار کنید، از این بخش استفاده کنید.",
+          "how": "از لانچر اصلی Business Workspace را انتخاب کنید. برنامه داده‌های فضای Projects را بارگذاری و صفحه اصلی Business Workspace را باز می‌کند. سپس Projects، Company Contracts & Jobs یا Control Panel را انتخاب کنید.",
+          "inputs": "برای بازکردن فضای کاری ورودی لازم نیست. برنامه باید بتواند داده‌های Projects را از IndexedDB بارگذاری کند.",
+          "result": "صفحه اصلی Business Workspace با سه بخش Projects، Company Contracts & Jobs و Control Panel باز می‌شود.",
+          "notes": "این بخش از Accountancy جدا است. سوابق مالی پروژه و کارهای شرکتی در دامنه Projects ذخیره می‌شوند و خودکار به Accounting منتقل یا با آن ادغام نمی‌شوند. اگر IndexedDB در دسترس نباشد، فضای کاری باز نمی‌شود و خطا نمایش داده می‌شود."
+        },
+        "ps": {
+          "purpose": "Business Workspace پرانیزي، چې د خپلواکو پروژو، د شرکت قراردادونو او کارونو او ګډو سوداګریزو کنټرولونو د سمبالولو لپاره جلا ځای دی.",
+          "when": "دا هغه وخت وکاروئ چې د عمومي حسابدارۍ د راکړې ورکړې پر ځای د پروژو له ریکارډونو، د شرکت له کارونو یا ګډو سوداګریزو لېستونو سره کار کوئ.",
+          "how": "له اصلي لانچر څخه Business Workspace وټاکئ. اپلېکېشن د Projects کاري ځای معلومات پورته کوي او د Business Workspace اصلي پاڼه پرانیزي. Projects، Company Contracts & Jobs یا Control Panel وټاکئ.",
+          "inputs": "د کاري ځای د پرانیستلو لپاره معلوماتو ته اړتیا نشته. اپلېکېشن باید وکولای شي د Projects معلومات له IndexedDB څخه پورته کړي.",
+          "result": "د Business Workspace اصلي پاڼه له درېیو برخو سره پرانېستل کېږي: Projects، Company Contracts & Jobs او Control Panel.",
+          "notes": "دا برخه له Accountancy څخه جلا ده. د پروژو او د شرکت د کارونو مالي ریکارډونه د Projects په برخه کې ساتل کېږي او په اتومات ډول Accounting ته نه لېږدول کېږي او نه ورسره یوځای کېږي. که IndexedDB موجود نه وي، کاري ځای نه پرانېستل کېږي او تېروتنه ښکاري."
         }
       },
       "handler_or_behavior": "`prPage(`"
@@ -7090,6 +7234,78 @@
           "inputs": "برای بازکردن مرکز Projects ورودی لازم نیست. ایجاد یا ویرایش پروژه به فیلدهای فرم مربوط نیاز دارد؛ برای پروژه جدید واردکردن نام پروژه الزامی است.",
           "result": "مرکز Projects گزینه‌های New Project و Projects List را نمایش می‌دهد. همچنین اعلام می‌کند که درآمد، هزینه و سود/زیان پروژه فقط در Projects ثبت می‌شوند و به Accounting منتقل یا با آن ادغام نمی‌شوند.",
           "notes": "سوابق Projects مستقل از سوابق عمومی Accountancy هستند. اطلاعات مالی پروژه را در بخش Projects نگه دارید و فرض نکنید ثبت یک مورد در پروژه، تراکنش حسابداری هم ایجاد می‌کند. هر زمان به سابقه حسابداری نیاز دارید، از بخش جداگانه Accountancy استفاده کنید."
+        },
+        "ar": {
+          "purpose": "يفتح مركز Projects داخل Business Workspace، حيث يمكنك إنشاء مشروع مستقل جديد أو فتح قائمة المشاريع المحفوظة.",
+          "when": "استخدم هذا عندما تريد إنشاء مشروع معين أو إدارته ومراجعة سجلاته المالية الخاصة به.",
+          "how": "من Business Workspace، اختر Projects. اختر New Project لبدء سجل مشروع، أو Projects List للبحث عن المشاريع الحالية وفتحها وإدارتها.",
+          "inputs": "لا يلزم إدخال معلومات لفتح مركز Projects. يتطلب إنشاء مشروع أو تعديله الحقول الظاهرة في نموذج المشروع ذي الصلة؛ واسم المشروع مطلوب للمشروع الجديد.",
+          "result": "يعرض مركز Projects خياري New Project وProjects List. ويوضح أيضاً أن دخل المشروع ومصروفاته وربحه أو خسارته تُسجل في Projects فقط ولا تُنقل إلى Accounting أو تُدمج معه.",
+          "notes": "المشاريع مستقلة عن سجلات Accountancy العامة. احتفظ بالسجلات المالية للمشروع في قسم Projects ولا تفترض أن إدخالاً في المشروع ينشئ معاملة محاسبية أيضاً. استخدم قسم Accountancy المنفصل عندما تحتاج إلى سجل محاسبي."
+        },
+        "ckb": {
+          "purpose": "ناوەندی Projects لە Business Workspace دەکاتەوە؛ لەوێ دەتوانیت پڕۆژەیەکی سەربەخۆی نوێ دروست بکەیت یان لیستی پڕۆژە پاشەکەوتکراوەکان بکەیتەوە.",
+          "when": "کاتێک دەتەوێت پڕۆژەیەکی دیاریکراو دروست بکەیت یان بەڕێوەی ببەیت و تۆمارە داراییە تایبەتەکانی بپشکنیت، ئەمە بەکاربهێنە.",
+          "how": "لە Business Workspace، Projects هەڵبژێرە. بۆ دەستپێکردنی تۆماری پڕۆژە New Project هەڵبژێرە، یان بۆ گەڕان و کردنەوە و بەڕێوەبردنی پڕۆژەکانی ئێستا Projects List هەڵبژێرە.",
+          "inputs": "بۆ کردنەوەی ناوەندی Projects هیچ زانیارییەک پێویست نییە. دروستکردن یان دەستکاریکردنی پڕۆژە پێویستی بە خانەکانی فۆڕمی پڕۆژەی پەیوەندیدار هەیە؛ ناوی پڕۆژە بۆ تۆماری نوێ پێویستە.",
+          "result": "ناوەندی Projects هەڵبژاردەکانی New Project و Projects List پیشان دەدات. هەروەها ڕوون دەکاتەوە کە داهات، خەرجی و قازانج/زیانی پڕۆژە تەنها لە Projects تۆمار دەکرێن و بۆ Accounting ناگوازرێنەوە یان لەگەڵی تێکەڵ ناکرێن.",
+          "notes": "پڕۆژەکان لە تۆمارە گشتییەکانی Accountancy سەربەخۆن. تۆمارە داراییەکانی پڕۆژە لە بەشی Projects بهێڵەوە و وا مەزانە تۆمارێکی پڕۆژە بەخۆی مامەڵەیەکی ژمێریاریش دروست دەکات. کاتێک تۆماری ژمێریاریت پێویستە، بەشی جیاوازی Accountancy بەکاربهێنە."
+        },
+        "kmr": {
+          "purpose": "Navenda Projects di hundirê Business Workspace de vedike, ku li wir dikarî projeyeke nû ya serbixwe çêkî an lîsteya projeyên tomarkirî vekî.",
+          "when": "Dema ku dixwazî projeyeke taybet çêkî an rêve bibî û tomarên wê yên darayî yên taybet binirxînî, vê bikar bîne.",
+          "how": "Ji Business Workspace Projects hilbijêre. Ji bo destpêkirina tomara projeyê New Project hilbijêre, an ji bo lêgerîn, vekirin û rêvebirina projeyên heyî Projects List hilbijêre.",
+          "inputs": "Ji bo vekirina navenda Projects agahî nehewce ye. Çêkirin an guherandina projeyê qadên ku di forma projeya têkildar de têne nîşandan dixwaze; ji bo tomarên nû navê projeyê pêwîst e.",
+          "result": "Navenda Projects New Project û Projects List nîşan dide. Her wiha dibêje ku dahat, lêçûn û qezenc/ziyana projeyê tenê di Projects de têne tomar kirin û nayên veguheztin an tevlihevkirin bi Accounting re.",
+          "notes": "Projeyên ji tomarên giştî yên Accountancy serbixwe ne. Tomarên darayî yên projeyê di beşa Projects de bihêle û texmîn neke ku tomarê projeyê danûstandineke hesabê jî çêdike. Dema ku tomarê hesabê hewce ye, beşa cuda ya Accountancy bikar bîne."
+        },
+        "tr": {
+          "purpose": "Business Workspace içindeki Projects merkezini açar. Burada yeni ve bağımsız bir proje oluşturabilir veya kayıtlı proje listesini açabilirsiniz.",
+          "when": "Belirli bir proje oluşturmak ya da yönetmek ve projeye özgü mali kayıtlarını incelemek istediğinizde kullanın.",
+          "how": "Business Workspace bölümünden Projects seçeneğini belirleyin. Yeni bir proje kaydı başlatmak için New Project'i, mevcut projeleri aramak, açmak ve yönetmek için Projects List'i seçin.",
+          "inputs": "Projects merkezini açmak için bilgi gerekmez. Proje oluşturmak veya düzenlemek ilgili proje formundaki alanları gerektirir; yeni bir proje için proje adı zorunludur.",
+          "result": "Projects merkezi New Project ve Projects List seçeneklerini gösterir. Ayrıca proje gelirinin, giderlerinin ve kâr/zararının yalnızca Projects içinde kaydedildiğini ve Accounting'e aktarılmadığını veya onunla birleştirilmediğini belirtir.",
+          "notes": "Projeler genel Accountancy kayıtlarından bağımsızdır. Projeye ait mali kayıtları Projects alanında tutun ve bir proje kaydının aynı zamanda muhasebe işlemi oluşturduğunu varsaymayın. Muhasebe kaydı gerektiğinde ayrı Accountancy alanını kullanın."
+        },
+        "pl": {
+          "purpose": "Otwiera centrum Projects w Business Workspace, gdzie można utworzyć nowy niezależny projekt lub otworzyć zapisaną listę projektów.",
+          "when": "Użyj tej opcji, gdy chcesz utworzyć konkretny projekt lub nim zarządzać oraz przejrzeć jego własne dane finansowe.",
+          "how": "W Business Workspace wybierz Projects. Wybierz New Project, aby rozpocząć nowy rekord projektu, albo Projects List, aby wyszukiwać, otwierać i zarządzać istniejącymi projektami.",
+          "inputs": "Do otwarcia centrum Projects nie są wymagane żadne dane. Utworzenie lub edycja projektu wymaga pól pokazanych w odpowiednim formularzu; nazwa projektu jest wymagana dla nowego rekordu.",
+          "result": "Centrum Projects wyświetla opcje New Project i Projects List. Informuje również, że przychody, wydatki i zysk/strata projektu są rejestrowane wyłącznie w Projects i nie są przenoszone do Accounting ani z nim łączone.",
+          "notes": "Projekty są niezależne od ogólnych rejestrów Accountancy. Prowadź finansowe rejestry projektu w obszarze Projects i nie zakładaj, że wpis projektu tworzy również transakcję księgową. Gdy potrzebny jest zapis księgowy, użyj oddzielnego obszaru Accountancy."
+        },
+        "ur": {
+          "purpose": "Business Workspace کے اندر Projects مرکز کھولتا ہے، جہاں آپ نیا آزاد منصوبہ بنا سکتے ہیں یا محفوظ شدہ منصوبوں کی فہرست کھول سکتے ہیں۔",
+          "when": "اسے اس وقت استعمال کریں جب آپ کوئی مخصوص منصوبہ بنانا یا سنبھالنا اور اس کے مخصوص مالی ریکارڈ دیکھنا چاہتے ہوں۔",
+          "how": "Business Workspace میں Projects منتخب کریں۔ نیا منصوبہ ریکارڈ شروع کرنے کے لیے New Project، یا موجودہ منصوبوں کو تلاش کرنے، کھولنے اور سنبھالنے کے لیے Projects List منتخب کریں۔",
+          "inputs": "Projects مرکز کھولنے کے لیے معلومات درکار نہیں۔ منصوبہ بنانے یا ترمیم کرنے کے لیے متعلقہ منصوبہ فارم کے خانے درکار ہیں؛ نئے منصوبے کے لیے منصوبے کا نام ضروری ہے۔",
+          "result": "Projects مرکز New Project اور Projects List دکھاتا ہے۔ یہ بھی واضح کرتا ہے کہ منصوبے کی آمدنی، اخراجات اور نفع/نقصان صرف Projects میں درج ہوتے ہیں اور Accounting میں منتقل یا اس کے ساتھ یکجا نہیں ہوتے۔",
+          "notes": "Projects عمومی Accountancy ریکارڈز سے الگ ہیں۔ منصوبے کے مالی ریکارڈ Projects حصے میں رکھیں اور یہ فرض نہ کریں کہ منصوبے کا اندراج اکاؤنٹنگ لین دین بھی بناتا ہے۔ جب اکاؤنٹنگ ریکارڈ درکار ہو تو الگ Accountancy حصہ استعمال کریں۔"
+        },
+        "pa": {
+          "purpose": "Business Workspace ਦੇ ਅੰਦਰ Projects ਹੱਬ ਖੋਲ੍ਹਦਾ ਹੈ, ਜਿੱਥੇ ਤੁਸੀਂ ਨਵਾਂ ਸੁਤੰਤਰ ਪ੍ਰੋਜੈਕਟ ਬਣਾ ਸਕਦੇ ਹੋ ਜਾਂ ਸੰਭਾਲੀ ਹੋਈ ਪ੍ਰੋਜੈਕਟ ਸੂਚੀ ਖੋਲ੍ਹ ਸਕਦੇ ਹੋ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਤੁਸੀਂ ਕੋਈ ਖਾਸ ਪ੍ਰੋਜੈਕਟ ਬਣਾਉਣਾ ਜਾਂ ਸੰਭਾਲਣਾ ਅਤੇ ਉਸਦੇ ਆਪਣੇ ਵਿੱਤੀ ਰਿਕਾਰਡ ਵੇਖਣਾ ਚਾਹੁੰਦੇ ਹੋ।",
+          "how": "Business Workspace ਵਿੱਚੋਂ Projects ਚੁਣੋ। ਨਵਾਂ ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਸ਼ੁਰੂ ਕਰਨ ਲਈ New Project ਚੁਣੋ, ਜਾਂ ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਲੱਭਣ, ਖੋਲ੍ਹਣ ਅਤੇ ਸੰਭਾਲਣ ਲਈ Projects List ਚੁਣੋ।",
+          "inputs": "Projects ਹੱਬ ਖੋਲ੍ਹਣ ਲਈ ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ। ਪ੍ਰੋਜੈਕਟ ਬਣਾਉਣ ਜਾਂ ਸੋਧਣ ਲਈ ਸੰਬੰਧਿਤ ਪ੍ਰੋਜੈਕਟ ਫਾਰਮ ਦੇ ਖੇਤਰ ਲੋੜੀਂਦੇ ਹਨ; ਨਵੇਂ ਰਿਕਾਰਡ ਲਈ ਪ੍ਰੋਜੈਕਟ ਦਾ ਨਾਮ ਲਾਜ਼ਮੀ ਹੈ।",
+          "result": "Projects ਹੱਬ New Project ਅਤੇ Projects List ਦਿਖਾਉਂਦਾ ਹੈ। ਇਹ ਇਹ ਵੀ ਦੱਸਦਾ ਹੈ ਕਿ ਪ੍ਰੋਜੈਕਟ ਦੀ ਆਮਦਨ, ਖਰਚੇ ਅਤੇ ਨਫ਼ਾ/ਨੁਕਸਾਨ ਸਿਰਫ਼ Projects ਵਿੱਚ ਦਰਜ ਹੁੰਦੇ ਹਨ ਅਤੇ Accounting ਵਿੱਚ ਤਬਦੀਲ ਜਾਂ ਉਸ ਨਾਲ ਜੋੜੇ ਨਹੀਂ ਜਾਂਦੇ।",
+          "notes": "Projects ਆਮ Accountancy ਰਿਕਾਰਡਾਂ ਤੋਂ ਸੁਤੰਤਰ ਹਨ। ਪ੍ਰੋਜੈਕਟ ਦੇ ਵਿੱਤੀ ਰਿਕਾਰਡ Projects ਖੇਤਰ ਵਿੱਚ ਰੱਖੋ ਅਤੇ ਇਹ ਨਾ ਮੰਨੋ ਕਿ ਪ੍ਰੋਜੈਕਟ ਦੀ ਐਂਟਰੀ ਨਾਲ ਅਕਾਊਂਟਿੰਗ ਲੈਣ-ਦੇਣ ਵੀ ਬਣਦਾ ਹੈ। ਜਦੋਂ ਅਕਾਊਂਟਿੰਗ ਰਿਕਾਰਡ ਦੀ ਲੋੜ ਹੋਵੇ ਤਾਂ ਵੱਖਰਾ Accountancy ਖੇਤਰ ਵਰਤੋ।"
+        },
+        "prs": {
+          "purpose": "مرکز Projects را در Business Workspace باز می‌کند؛ جایی که می‌توانید پروژه مستقل جدیدی ایجاد کنید یا فهرست پروژه‌های ذخیره‌شده را باز کنید.",
+          "when": "وقتی می‌خواهید پروژه مشخصی ایجاد یا مدیریت کنید و سوابق مالی ویژه همان پروژه را بررسی کنید، از این بخش استفاده کنید.",
+          "how": "از Business Workspace گزینه Projects را انتخاب کنید. برای شروع ثبت پروژه، New Project و برای جست‌وجو، بازکردن و مدیریت پروژه‌های موجود، Projects List را انتخاب کنید.",
+          "inputs": "برای بازکردن مرکز Projects ورودی لازم نیست. ایجاد یا ویرایش پروژه به فیلدهای فرم مربوط نیاز دارد؛ نام پروژه برای ثبت پروژه جدید الزامی است.",
+          "result": "مرکز Projects گزینه‌های New Project و Projects List را نمایش می‌دهد. همچنین اعلام می‌کند که درآمد، هزینه و سود/زیان پروژه فقط در Projects ثبت می‌شوند و به Accounting منتقل یا با آن ادغام نمی‌شوند.",
+          "notes": "پروژه‌ها از سوابق عمومی Accountancy مستقل هستند. سوابق مالی پروژه را در بخش Projects نگه دارید و فرض نکنید ثبت یک مورد در پروژه، تراکنش حسابداری هم ایجاد می‌کند. هر زمان به سابقه حسابداری نیاز دارید، از بخش جداگانه Accountancy استفاده کنید."
+        },
+        "ps": {
+          "purpose": "د Business Workspace دننه د Projects مرکز پرانیزي، چېرې چې نوی خپلواک پروژه جوړولی شئ یا د خوندي شويو پروژو لېست پرانېستلی شئ.",
+          "when": "دا هغه وخت وکاروئ چې غواړئ یوه ځانګړې پروژه جوړه یا اداره کړئ او د هغې ځانګړي مالي ریکارډونه وګورئ.",
+          "how": "له Business Workspace څخه Projects وټاکئ. د پروژې د نوي ریکارډ د پیل لپاره New Project، یا د شته پروژو د لټون، پرانیستلو او سمبالولو لپاره Projects List وټاکئ.",
+          "inputs": "د Projects مرکز د پرانیستلو لپاره معلوماتو ته اړتیا نشته. د پروژې جوړول یا سمول د اړوندې پروژې د فورمې برخې غواړي؛ د نوې پروژې لپاره د پروژې نوم اړین دی.",
+          "result": "د Projects مرکز New Project او Projects List ښيي. دا هم څرګندوي چې د پروژې عاید، لګښتونه او ګټه/تاوان یوازې په Projects کې ثبتېږي او Accounting ته نه لېږدول کېږي او نه ورسره یوځای کېږي.",
+          "notes": "پروژې د Accountancy له عمومي ریکارډونو څخه خپلواکې دي. د پروژې مالي ریکارډونه د Projects په برخه کې وساتئ او دا مه انګېرئ چې د پروژې یوه ثبتونه د حسابدارۍ معامله هم جوړوي. کله چې حسابدارۍ ریکارډ ته اړتیا وي، جلا Accountancy برخه وکاروئ."
         }
       },
       "handler_or_behavior": "`prPage(`"
@@ -7116,6 +7332,78 @@
           "inputs": "برای بازکردن مرکز ورودی لازم نیست. ایجاد یا ویرایش شرکت یا کار به فیلدهای فرم مربوط نیاز دارد؛ نام شرکت و نام کار برای سوابق جدید الزامی هستند.",
           "result": "این مرکز گزینه‌های Add Company، Companies List و Company Project Profit & Loss را نمایش می‌دهد.",
           "notes": "دریافتی‌ها، کسورات، هزینه‌ها و سود/زیان کارهای شرکتی فقط در Company Contracts & Jobs ثبت می‌شوند و به Accountancy منتقل یا با آن ادغام نمی‌شوند. این بخش از فضای مستقل Contract Management جدا است."
+        },
+        "ar": {
+          "purpose": "يفتح مركز Company Contracts & Jobs لإدارة الشركات المسجلة وعقودها وأعمالها والأداء المالي لأعمال الشركات.",
+          "when": "استخدم هذا القسم لإدارة الأعمال الواردة من شركة، بما في ذلك الوظائف وحزم العمل والإيصالات والمصروفات وسجلات الدفع.",
+          "how": "من Business Workspace، اختر Company Contracts & Jobs. اختر Add Company لتسجيل شركة، أو Companies List للعثور على شركة وفتح أعمالها، أو Company Project Profit & Loss لمراجعة النتائج المسجلة.",
+          "inputs": "لا يلزم إدخال معلومات لفتح المركز. تتطلب إضافة شركة أو وظيفة أو تعديلهما الحقول الظاهرة في النموذج المقابل؛ واسم الشركة واسم الوظيفة مطلوبان للسجلات الجديدة.",
+          "result": "يعرض المركز Add Company وCompanies List وCompany Project Profit & Loss.",
+          "notes": "تُسجل إيصالات أعمال الشركة والخصومات والمصروفات والربح أو الخسارة في Company Contracts & Jobs فقط. ولا تُنقل إلى Accountancy أو تُدمج معه. وهذا القسم منفصل عن مساحة Contract Management المستقلة."
+        },
+        "ckb": {
+          "purpose": "ناوەندی Company Contracts & Jobs دەکاتەوە بۆ بەڕێوەبردنی کۆمپانیا تۆمارکراوەکان، گرێبەست و کارەکانیان و ئەدای دارایی کاری کۆمپانیا.",
+          "when": "ئەمە بەکاربهێنە بۆ بەڕێوەبردنی ئەو کارانەی لە کۆمپانیایەکەوە وەردەگیرێن، لەوانە کارەکان، پاکێجی کار، وەرگیراوەکان، خەرجییەکان یان تۆمارەکانی پارەدان.",
+          "how": "لە Business Workspace، Company Contracts & Jobs هەڵبژێرە. بۆ تۆمارکردنی کۆمپانیا Add Company، بۆ دۆزینەوەی کۆمپانیا و کردنەوەی کارەکانی Companies List، یان بۆ پێداچوونەوە بە ئەنجامە تۆمارکراوەکان Company Project Profit & Loss هەڵبژێرە.",
+          "inputs": "بۆ کردنەوەی ناوەندی زانیارییەک پێویست نییە. زیادکردن یان دەستکاریکردنی کۆمپانیا یان کار پێویستی بە خانەکانی فۆڕمی پەیوەندیدار هەیە؛ ناوی کۆمپانیا و ناوی کار بۆ تۆمارە نوێکان پێویستن.",
+          "result": "ناوەندەکە Add Company، Companies List و Company Project Profit & Loss پیشان دەدات.",
+          "notes": "وەرگیراوەکان، داشکاندنەکان، خەرجییەکان و قازانج/زیانی کاری کۆمپانیا تەنها لە Company Contracts & Jobs تۆمار دەکرێن. ئەمانە بۆ Accountancy ناگوازرێنەوە و لەگەڵی تێکەڵ ناکرێن. ئەم بەشە لە شوێنی سەربەخۆی Contract Management جیاوازە."
+        },
+        "kmr": {
+          "purpose": "Navenda Company Contracts & Jobs vedike da ku pargîdaniyên qeydkirî, peyman û karên wan û performansa darayî ya karên pargîdaniyê rêve bibe.",
+          "when": "Vê bikar bîne dema ku karê ji pargîdaniyekê hatiye wergirtin rêve dibî, di nav de kar, pakêtên xebatê, hatinên pere, lêçûn an tomarên dayînê.",
+          "how": "Ji Business Workspace Company Contracts & Jobs hilbijêre. Ji bo tomarkirina pargîdaniyekê Add Company, ji bo dîtina pargîdaniyekê û vekirina karên wê Companies List, an ji bo nirxandina encamên tomarkirî Company Project Profit & Loss hilbijêre.",
+          "inputs": "Ji bo vekirina navendê agahî nehewce ye. Zêdekirin an guherandina pargîdanî an kar qadên di forma têkildar de dixwaze; ji bo tomarên nû navê pargîdanî û navê kar pêwîst in.",
+          "result": "Navend Add Company, Companies List û Company Project Profit & Loss nîşan dide.",
+          "notes": "Hatina pere, kêmkirin, lêçûn û qezenc/ziyana karên pargîdaniyê tenê di Company Contracts & Jobs de têne tomar kirin. Ew nayên veguheztin an tevlihevkirin bi Accountancy re. Ev beş ji qada serbixwe ya Contract Management cuda ye."
+        },
+        "tr": {
+          "purpose": "Kayıtlı şirketleri, bunların sözleşmelerini ve işlerini ve şirket işlerinin mali performansını yönetmek için Company Contracts & Jobs merkezini açar.",
+          "when": "İşler, iş paketleri, tahsilatlar, giderler veya ödeme kayıtları dâhil olmak üzere bir şirketten alınan işleri yönetirken bu bölümü kullanın.",
+          "how": "Business Workspace içinden Company Contracts & Jobs seçeneğini belirleyin. Şirket kaydetmek için Add Company, bir şirket bulup işlerini açmak için Companies List veya kaydedilen sonuçları incelemek için Company Project Profit & Loss seçeneğini belirleyin.",
+          "inputs": "Merkezi açmak için bilgi gerekmez. Şirket veya iş eklemek ya da düzenlemek ilgili formdaki alanları gerektirir; yeni kayıtlar için şirket adı ve iş adı zorunludur.",
+          "result": "Merkez Add Company, Companies List ve Company Project Profit & Loss seçeneklerini gösterir.",
+          "notes": "Şirket işlerine ait tahsilatlar, kesintiler, giderler ve kâr/zarar yalnızca Company Contracts & Jobs içinde kaydedilir. Bunlar Accountancy'ye aktarılmaz veya onunla birleştirilmez. Bu alan, bağımsız Contract Management alanından ayrıdır."
+        },
+        "pl": {
+          "purpose": "Otwiera centrum Company Contracts & Jobs do zarządzania zarejestrowanymi firmami, ich umowami i zleceniami oraz wynikami finansowymi zleceń firmowych.",
+          "when": "Użyj tej sekcji do zarządzania pracami otrzymanymi od firmy, w tym zleceniami, pakietami prac, wpływami, wydatkami i rejestrami płatności.",
+          "how": "W Business Workspace wybierz Company Contracts & Jobs. Wybierz Add Company, aby zarejestrować firmę, Companies List, aby znaleźć firmę i otworzyć jej zlecenia, albo Company Project Profit & Loss, aby przejrzeć zapisane wyniki.",
+          "inputs": "Do otwarcia centrum nie są wymagane żadne dane. Dodanie lub edycja firmy albo zlecenia wymaga pól z odpowiedniego formularza; dla nowych rekordów wymagane są nazwa firmy i nazwa zlecenia.",
+          "result": "Centrum wyświetla opcje Add Company, Companies List i Company Project Profit & Loss.",
+          "notes": "Wpływy, potrącenia, wydatki i zysk/strata ze zleceń firmowych są rejestrowane wyłącznie w Company Contracts & Jobs. Nie są przenoszone do Accountancy ani z nim łączone. Ten obszar jest oddzielny od samodzielnego obszaru Contract Management."
+        },
+        "ur": {
+          "purpose": "رجسٹرڈ کمپنیوں، ان کے معاہدوں اور کاموں اور کمپنی کے کاموں کی مالی کارکردگی کے انتظام کے لیے Company Contracts & Jobs مرکز کھولتا ہے۔",
+          "when": "کسی کمپنی سے موصول ہونے والے کام، بشمول اس کے جابز، کام کے پیکجز، وصولیوں، اخراجات یا ادائیگی کے ریکارڈز سنبھالنے کے لیے یہ حصہ استعمال کریں۔",
+          "how": "Business Workspace میں Company Contracts & Jobs منتخب کریں۔ کمپنی رجسٹر کرنے کے لیے Add Company، کمپنی تلاش کرکے اس کے کام کھولنے کے لیے Companies List، یا درج شدہ نتائج دیکھنے کے لیے Company Project Profit & Loss منتخب کریں۔",
+          "inputs": "مرکز کھولنے کے لیے معلومات درکار نہیں۔ کمپنی یا کام شامل کرنے یا ترمیم کرنے کے لیے متعلقہ فارم کے خانے درکار ہیں؛ نئے ریکارڈ کے لیے کمپنی کا نام اور کام کا نام ضروری ہیں۔",
+          "result": "مرکز Add Company، Companies List اور Company Project Profit & Loss دکھاتا ہے۔",
+          "notes": "کمپنی کے کاموں کی وصولیاں، کٹوتیاں، اخراجات اور نفع/نقصان صرف Company Contracts & Jobs میں درج ہوتے ہیں۔ یہ Accountancy میں منتقل یا اس کے ساتھ یکجا نہیں ہوتے۔ یہ حصہ الگ Contract Management علاقے سے بھی جدا ہے۔"
+        },
+        "pa": {
+          "purpose": "Company Contracts & Jobs ਹੱਬ ਖੋਲ੍ਹਦਾ ਹੈ ਤਾਂ ਜੋ ਰਜਿਸਟਰ ਕੀਤੀਆਂ ਕੰਪਨੀਆਂ, ਉਨ੍ਹਾਂ ਦੇ ਠੇਕਿਆਂ ਅਤੇ ਕੰਮਾਂ ਅਤੇ ਕੰਪਨੀ ਦੇ ਕੰਮਾਂ ਦੀ ਵਿੱਤੀ ਕਾਰਗੁਜ਼ਾਰੀ ਦਾ ਪ੍ਰਬੰਧ ਕੀਤਾ ਜਾ ਸਕੇ।",
+          "when": "ਕਿਸੇ ਕੰਪਨੀ ਤੋਂ ਮਿਲੇ ਕੰਮਾਂ, ਜਿਨ੍ਹਾਂ ਵਿੱਚ ਜੌਬਾਂ, ਕੰਮ ਦੇ ਪੈਕੇਜ, ਰਸੀਦਾਂ, ਖਰਚੇ ਜਾਂ ਭੁਗਤਾਨ ਰਿਕਾਰਡ ਸ਼ਾਮਲ ਹਨ, ਦਾ ਪ੍ਰਬੰਧ ਕਰਨ ਲਈ ਇਹ ਭਾਗ ਵਰਤੋ।",
+          "how": "Business Workspace ਵਿੱਚੋਂ Company Contracts & Jobs ਚੁਣੋ। ਕੰਪਨੀ ਦਰਜ ਕਰਨ ਲਈ Add Company, ਕੰਪਨੀ ਲੱਭ ਕੇ ਉਸਦੇ ਕੰਮ ਖੋਲ੍ਹਣ ਲਈ Companies List, ਜਾਂ ਦਰਜ ਨਤੀਜੇ ਵੇਖਣ ਲਈ Company Project Profit & Loss ਚੁਣੋ।",
+          "inputs": "ਹੱਬ ਖੋਲ੍ਹਣ ਲਈ ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ। ਕੰਪਨੀ ਜਾਂ ਕੰਮ ਜੋੜਨ ਜਾਂ ਸੋਧਣ ਲਈ ਸੰਬੰਧਿਤ ਫਾਰਮ ਦੇ ਖੇਤਰ ਲੋੜੀਂਦੇ ਹਨ; ਨਵੇਂ ਰਿਕਾਰਡ ਲਈ ਕੰਪਨੀ ਦਾ ਨਾਮ ਅਤੇ ਕੰਮ ਦਾ ਨਾਮ ਲਾਜ਼ਮੀ ਹਨ।",
+          "result": "ਹੱਬ Add Company, Companies List ਅਤੇ Company Project Profit & Loss ਦਿਖਾਉਂਦਾ ਹੈ।",
+          "notes": "ਕੰਪਨੀ ਦੇ ਕੰਮਾਂ ਦੀਆਂ ਰਸੀਦਾਂ, ਕਟੌਤੀਆਂ, ਖਰਚੇ ਅਤੇ ਨਫ਼ਾ/ਨੁਕਸਾਨ ਸਿਰਫ਼ Company Contracts & Jobs ਵਿੱਚ ਦਰਜ ਹੁੰਦੇ ਹਨ। ਇਹ Accountancy ਵਿੱਚ ਤਬਦੀਲ ਜਾਂ ਉਸ ਨਾਲ ਜੋੜੇ ਨਹੀਂ ਜਾਂਦੇ। ਇਹ ਵੱਖਰੇ Contract Management ਖੇਤਰ ਤੋਂ ਅਲੱਗ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "مرکز Company Contracts & Jobs را برای مدیریت شرکت‌های ثبت‌شده، قراردادها و کارهای آن‌ها و عملکرد مالی کارهای شرکتی باز می‌کند.",
+          "when": "برای مدیریت کارهای دریافتی از یک شرکت، از جمله کارها، بسته‌های کاری، دریافتی‌ها، هزینه‌ها یا سوابق پرداخت از این بخش استفاده کنید.",
+          "how": "از Business Workspace گزینه Company Contracts & Jobs را انتخاب کنید. برای ثبت شرکت Add Company، برای یافتن شرکت و بازکردن کارهای آن Companies List، یا برای بررسی نتایج ثبت‌شده Company Project Profit & Loss را انتخاب کنید.",
+          "inputs": "برای بازکردن مرکز ورودی لازم نیست. افزودن یا ویرایش شرکت یا کار به فیلدهای فرم مربوط نیاز دارد؛ نام شرکت و نام کار برای سوابق جدید الزامی هستند.",
+          "result": "این مرکز گزینه‌های Add Company، Companies List و Company Project Profit & Loss را نمایش می‌دهد.",
+          "notes": "دریافتی‌ها، کسورات، هزینه‌ها و سود/زیان کارهای شرکتی فقط در Company Contracts & Jobs ثبت می‌شوند و به Accountancy منتقل یا با آن ادغام نمی‌شوند. این بخش از فضای مستقل Contract Management جدا است."
+        },
+        "ps": {
+          "purpose": "د Company Contracts & Jobs مرکز پرانیزي، څو ثبت شوي شرکتونه، د هغوی قراردادونه او کارونه او د شرکت د کارونو مالي فعالیت اداره کړي.",
+          "when": "دا برخه د یوه شرکت څخه د ترلاسه شويو کارونو د سمبالولو لپاره وکاروئ، چې پکې دندې، د کار کڅوړې، رسیدونه، لګښتونه او د پیسو ریکارډونه شامل دي.",
+          "how": "له Business Workspace څخه Company Contracts & Jobs وټاکئ. د شرکت د ثبت لپاره Add Company، د شرکت د موندلو او د کارونو د پرانیستلو لپاره Companies List، یا د ثبت شويو پایلو د کتلو لپاره Company Project Profit & Loss وټاکئ.",
+          "inputs": "د مرکز د پرانیستلو لپاره معلوماتو ته اړتیا نشته. د شرکت یا کار زیاتول او سمول د اړوند فورمې برخې غواړي؛ د نویو ریکارډونو لپاره د شرکت نوم او د کار نوم اړین دي.",
+          "result": "مرکز Add Company، Companies List او Company Project Profit & Loss ښيي.",
+          "notes": "د شرکت د کارونو رسیدونه، کسرونه، لګښتونه او ګټه/تاوان یوازې په Company Contracts & Jobs کې ثبتېږي. دا Accountancy ته نه لېږدول کېږي او نه ورسره یوځای کېږي. دا برخه له جلا Contract Management ځای څخه بېله ده."
         }
       },
       "handler_or_behavior": "`prPage(`"
