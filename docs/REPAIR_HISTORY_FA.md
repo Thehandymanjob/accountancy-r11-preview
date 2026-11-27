@@ -798,6 +798,6 @@
 - نسخه: THA-273-R11-PREVIEW-20261127-R61.
 - اتصال‌ها پس از R61: ۱۱۰ کنترل؛ ۱۰۵ ایستا و پنج پویا. از ۱۰۵ اتصال ایستا، ۸۷ مورد selector محدوده‌دار، ۱۳ مورد ID یکتا و پنج مورد handler محدوده‌دار هستند.
 - تست ایستا: ۱۳ selector در Runtime و Mapping ثبت شدند. escaping پارامترهای prPage('new') و prPage('list') اصلاح شد. هیچ داده پروژه یا مالی تغییر نکرد.
-- Version Authority Gate: در انتظار اجرای Gate نهایی روی آخرین commit R61.
+- Version Authority Gate: PASS؛ run `46071318624` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071318624؛ هویت Build R61، canonical URL، SHA فایل index و تمام ۲۴ فایل pinشده تأیید شدند.
 - تست واقعی مرورگر / موبایل: هنوز انجام نشده؛ کلیک راهنمای تب‌ها، حفظ navigation، انتخاب زبان و چیدمان موبایل باید در Preview بررسی شوند.
 - انتشار / داده: هیچ Preview deploy، Merge یا Production change انجام نشده است.
