@@ -9053,7 +9053,7 @@
       "audit_ref": "INV-110",
       "element_id": null,
       "label": "Worker Wages",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Displays worker wage records for the selected project and provides the form for recording a wage entry.",
@@ -9151,7 +9151,7 @@
       "audit_ref": "INV-111",
       "element_id": null,
       "label": "Tools",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Displays tool expenses for the selected project and provides the form for recording a tool-related cost.",
@@ -9249,7 +9249,7 @@
       "audit_ref": "INV-112",
       "element_id": null,
       "label": "Food & Other",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Displays Food & Other costs for the selected project and provides the form for recording a miscellaneous project cost.",
@@ -9347,7 +9347,7 @@
       "audit_ref": "INV-113",
       "element_id": null,
       "label": "Reports",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Displays the selected project's category-based cost summary and provides a browser print option.",
