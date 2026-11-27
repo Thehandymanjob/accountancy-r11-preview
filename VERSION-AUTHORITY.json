@@ -2665,10 +2665,10 @@
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "PENDING",
-        "runId": "pending",
-        "url": "pending",
-        "details": "R61 cumulative Gate must validate the deduplicated runtime and the additional 13 Project Workspace Help bindings."
+        "result": "PASS",
+        "runId": 46071360320,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071360320",
+        "details": "R61 cumulative Version Authority Gate passed. Repository/branch identity, R61 Build ID, canonical URL, index SHA and all 24 pinned runtime assets matched. The deduplicated runtime has 105 static rows with 105 unique Help IDs."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
@@ -2710,10 +2710,10 @@
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "PENDING",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Run the R11 Version Authority Gate on the final R61 head after documentation and asset pins are synchronized."
+        "result": "PASS",
+        "runId": 46071360320,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071360320",
+        "details": "R61 cumulative Version Authority Gate passed. Repository/branch identity, R61 Build ID, canonical URL, index SHA and all 24 pinned runtime assets matched. The deduplicated runtime has 105 static rows with 105 unique Help IDs."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
@@ -2755,10 +2755,10 @@
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "PENDING",
-        "runId": "pending",
-        "url": "pending",
-        "details": "R61 cumulative Version Authority Gate must validate the 105-row static binding table, R61 Build ID, canonical URL, index SHA and all 24 runtime asset pins."
+        "result": "PASS",
+        "runId": 46071360320,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071360320",
+        "details": "R61 cumulative Version Authority Gate passed. Repository/branch identity, R61 Build ID, canonical URL, index SHA and all 24 pinned runtime assets matched. The deduplicated runtime has 105 static rows with 105 unique Help IDs."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
