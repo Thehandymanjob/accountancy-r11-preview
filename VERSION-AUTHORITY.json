@@ -2438,19 +2438,19 @@
         "docs/REPAIR_INDEX_FA.md",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "aa1427929b393acc3dc4d5791a40859b1d6bbf61",
+      "previewDevelopmentCommitSha": "9eb0daa18a25adc8d9707638fea67b225b34a08e",
       "previewPullRequestNumber": 96,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "PENDING",
-        "runId": "pending",
-        "url": "pending",
-        "details": "R57 requires a fresh Version Authority Gate against the final R57 Build ID, canonical URL, index SHA and all 24 runtime asset pins."
+        "result": "PASS",
+        "runId": 46070243576,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070243576",
+        "details": "R57 Version Authority Gate passed. Repository/branch identity, approved R11 baseline ancestry, Build ID THA-273-R11-PREVIEW-20261127-R57, canonical URL, index blob SHA and all 24 pinned runtime assets matched."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
-        "details": "Seven completed Help topics use exact page-scoped selectors in Project Workspace. Save/Clear Project, Edit/Delete Project, Save Partner, Save Contractor and Save Worker are distinguished by parent page and literal handler. JavaScript quote escaping for partner/worker parameters was checked. Live browser tests remain pending."
+        "details": "Seven completed Help topics use exact page-scoped selectors in Project Workspace. Save/Clear Project, Edit/Delete Project, Save Partner, Save Contractor and Save Worker are distinguished by parent page and literal handler. JavaScript quote escaping for partner/worker parameters was checked. Manual Git-tree comparison confirms Registry, Inventory, Help content, runtime and index baselines match. Live browser tests remain pending."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
