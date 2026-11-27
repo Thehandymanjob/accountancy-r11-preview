@@ -2022,19 +2022,21 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "9c38b8498444190e98b2f75935613cea89fa8646",
+      "previewDevelopmentCommitSha": "2efa8a03bdad5ec36932873f9d2542f08582d7fb",
       "previewPullRequestNumber": 96,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "FAIL — initial R45 run blocked by stale R43 manifest",
-        "runId": 46052111658,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46052111658",
-        "details": "The gate correctly stopped at HTML Build ID mismatch because the R45 index and reset-runtime SHA pins had not yet been reconciled in VERSION-AUTHORITY.json. No bypass was used; the manifest is being updated to the verified development blobs."
+        "result": "FAIL — two R45 pre-merge checks correctly blocked on stale identity metadata; corrections committed, final rerun pending",
+        "runId": 46052440144,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46052440144",
+        "priorRunId": 46052111658,
+        "priorUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46052111658",
+        "details": "The first R45 Gate stopped on the stale R43 Build ID in VERSION-AUTHORITY.json. After R45 identity and SHA pins were updated, the second Gate correctly stopped because the embedded R11_CANONICAL_PAGE_URL still contained ?build=R43. The embedded URL was aligned to R45 and the index blob SHA pin was updated. No bypass was used. A fresh Gate run on the latest PR head is pending."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
-        "details": "V8 syntax compilation passed for the complete v273-legacy-reset.js. Static checks confirm strict Preview IndexedDB identity, revalidation of the converted import immediately before reset, emergency snapshot full-domain verification, re-selection and SHA-256 comparison of the saved snapshot file, fail-closed final-button gating, and preservation of recovery-lock retry. No live browser execution or destructive reset was run."
+        "details": "V8 syntax compilation passed for the complete v273-legacy-reset.js. Static checks confirm strict Preview IndexedDB identity, revalidation of the converted import immediately before reset, emergency snapshot full-domain verification, re-selection and SHA-256 comparison of the saved snapshot file, fail-closed final-button gating, and preservation of recovery-lock retry. No live browser execution or destructive reset was run. The 20 unchanged runtime dependencies were individually re-fetched from Preview development and matched their existing SHA pins; the modified index and reset runtime were re-pinned after their final edits. Preview main and Production main each had all 22 existing pinned runtime dependencies verified against their own manifests."
       },
       "previewPagesDeployment": {
         "result": "pending",
