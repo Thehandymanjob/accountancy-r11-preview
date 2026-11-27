@@ -6658,20 +6658,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the shared list of trade contractors and subcontractors.",
-          "when": "When maintaining contractor details or selecting a supplier for project costs.",
-          "how": "Open Control Panel and choose Contractors.",
-          "inputs": "No data is required to view the directory; use search or filters only if they are available.",
-          "result": "The contractors directory and its available actions are displayed.",
-          "notes": "Contractor records are reusable references; actual costs still need to be recorded against the correct project or work package."
+          "purpose": "Opens the shared Contractors directory in Control Panel, showing saved trade contractors and subcontractors.",
+          "when": "Use this when reviewing, adding, editing or removing a contractor record for reuse in project expense workflows.",
+          "how": "Open Business Workspace → Control Panel → Contractors. Review the directory, or use the form above it to add or edit a contractor. Select Edit to load a record into the form; select Delete to remove it after confirmation.",
+          "inputs": "No input is required to view the directory. A contractor or company name is required when adding or editing; phone, email and trade/notes are optional.",
+          "result": "The directory displays each contractor's name/company, phone, email and trade/notes, with Edit and Delete actions. If no records exist, it prompts you to add a contractor.",
+          "notes": "Deleting a contractor removes it from the shared directory after confirmation, but existing expense records are retained. Contractor records are reusable references; actual costs must still be recorded against the correct project."
         },
         "fa": {
-          "purpose": "فهرست مشترک پیمانکاران فنی و پیمانکاران جزء را باز می‌کند.",
-          "when": "هنگام نگهداری یا به‌روزرسانی مشخصات پیمانکاران، یا انتخاب تأمین‌کننده برای هزینه‌های پروژه، از این گزینه استفاده کنید.",
-          "how": "Control Panel را باز کنید و Contractors را انتخاب کنید.",
-          "inputs": "برای مشاهده فهرست نیازی به ورود اطلاعات نیست؛ فقط در صورت وجود از جست‌وجو یا فیلتر استفاده کنید.",
-          "result": "فهرست پیمانکاران و عملیات موجود نمایش داده می‌شود.",
-          "notes": "سوابق پیمانکار برای ارجاع مجدد استفاده می‌شوند؛ هزینه واقعی همچنان باید به پروژه یا بسته کاری درست نسبت داده شود."
+          "purpose": "فهرست مشترک Contractors را در Control Panel باز می‌کند و پیمانکاران فنی و پیمانکاران جزء ذخیره‌شده را نمایش می‌دهد.",
+          "when": "برای بررسی، افزودن، ویرایش یا حذف سابقه پیمانکار جهت استفاده مجدد در گردش‌کار هزینه‌های پروژه از این بخش استفاده کنید.",
+          "how": "به Business Workspace → Control Panel → Contractors بروید. فهرست را بررسی کنید یا از فرم بالای آن برای افزودن یا ویرایش پیمانکار استفاده کنید. با Edit سابقه را در فرم بارگذاری کنید؛ با Delete و پس از تأیید آن را حذف کنید.",
+          "inputs": "برای مشاهده فهرست ورودی لازم نیست. هنگام افزودن یا ویرایش، نام پیمانکار یا شرکت الزامی است؛ تلفن، ایمیل و تخصص/یادداشت اختیاری هستند.",
+          "result": "فهرست، نام/شرکت، تلفن، ایمیل و تخصص/یادداشت هر پیمانکار را همراه با گزینه‌های Edit و Delete نمایش می‌دهد. اگر سابقه‌ای وجود نداشته باشد، پیام افزودن پیمانکار نمایش داده می‌شود.",
+          "notes": "حذف پیمانکار پس از تأیید، او را از فهرست مشترک حذف می‌کند؛ اما سوابق هزینه موجود حفظ می‌شوند. سوابق پیمانکار فقط مرجع قابل استفاده مجدد هستند؛ هزینه واقعی همچنان باید به پروژه صحیح نسبت داده شود."
         },
         "ar": {
           "purpose": "يفتح الدليل المشترك للمقاولين المتخصصين ومقاولي الباطن.",
@@ -6756,20 +6756,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the form to register a company and its main contract.",
-          "when": "When starting to manage a new contracting company or client organisation.",
-          "how": "Select Add Company, enter the company and main-contract details requested, then save.",
-          "inputs": "A company name is required. Reference, contact name, phone, email, address, contract dates, terms and a contract attachment are optional where relevant.",
-          "result": "A company record and its main contract are created if validation succeeds.",
-          "notes": "Verify legal/business name and agreed contract details. Company records and financials remain within the Company Contracts & Jobs workspace."
+          "purpose": "Opens the Add Company form for registering a company and storing its main contract details.",
+          "when": "Use this when onboarding a new contracting company or client organisation into Company Contracts & Jobs.",
+          "how": "Open Company Contracts & Jobs and select Add Company. Enter the company name and any relevant reference, contact, address, contract dates, terms or attachment. Select Save Company to store the record.",
+          "inputs": "Company name is required. Reference/registration number, contact name, phone, email, address, contract start/end dates, contract/payment terms and a PDF or image contract attachment are optional.",
+          "result": "The company form is displayed. After a successful save, the company is added to the registered companies list.",
+          "notes": "The company record is stored in the Company Contracts & Jobs workspace. Adding a company does not itself create a job; use the company's job workflow after registration. Attachments are stored locally in browser data and should be included in backups."
         },
         "fa": {
-          "purpose": "فرم ثبت شرکت و قرارداد اصلی آن را باز می‌کند.",
-          "when": "وقتی می‌خواهید مدیریت یک شرکت پیمانکاری یا سازمان مشتری جدید را شروع کنید، از این گزینه استفاده کنید.",
-          "how": "Add Company را انتخاب کنید، مشخصات شرکت و قرارداد اصلی درخواستی را وارد و ذخیره کنید.",
-          "inputs": "نام شرکت الزامی است. شماره مرجع، نام شخص تماس، تلفن، ایمیل، نشانی، تاریخ‌های قرارداد، شرایط و پیوست قرارداد در صورت مرتبط‌بودن اختیاری هستند.",
-          "result": "در صورت موفقیت اعتبارسنجی، سابقه شرکت و قرارداد اصلی ایجاد می‌شود.",
-          "notes": "نام حقوقی/تجاری و جزئیات قرارداد توافق‌شده را بررسی کنید. سوابق و امور مالی شرکت در فضای Company Contracts & Jobs باقی می‌مانند."
+          "purpose": "فرم Add Company را برای ثبت شرکت و نگهداری جزئیات قرارداد اصلی آن باز می‌کند.",
+          "when": "وقتی می‌خواهید یک شرکت پیمانکاری یا سازمان مشتری جدید را به بخش Company Contracts & Jobs اضافه کنید، از این گزینه استفاده کنید.",
+          "how": "وارد Company Contracts & Jobs شوید و Add Company را انتخاب کنید. نام شرکت و در صورت نیاز شماره مرجع، اطلاعات تماس، نشانی، تاریخ‌های قرارداد، شرایط یا پیوست را وارد کنید. برای ذخیره سابقه، Save Company را انتخاب کنید.",
+          "inputs": "نام شرکت الزامی است. شماره مرجع/ثبت، نام شخص تماس، تلفن، ایمیل، نشانی، تاریخ شروع و پایان قرارداد، شرایط قرارداد/پرداخت و پیوست قرارداد به‌صورت PDF یا تصویر اختیاری هستند.",
+          "result": "فرم شرکت نمایش داده می‌شود. پس از ذخیره موفق، شرکت به فهرست شرکت‌های ثبت‌شده افزوده می‌شود.",
+          "notes": "سابقه شرکت در فضای Company Contracts & Jobs ذخیره می‌شود. ثبت شرکت به‌تنهایی کار یا پروژه‌ای ایجاد نمی‌کند؛ پس از ثبت، از گردش‌کار کارهای همان شرکت استفاده کنید. پیوست‌ها در داده‌های محلی مرورگر ذخیره می‌شوند و باید در نسخه‌های پشتیبان گنجانده شوند."
         },
         "ar": {
           "purpose": "يفتح نموذج تسجيل شركة وعقدها الرئيسي.",
@@ -6854,20 +6854,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Displays registered companies and allows opening their jobs.",
-          "when": "When finding a company or accessing its contracts and jobs.",
-          "how": "Open Companies List, search or select the required company, then open its job list.",
-          "inputs": "Optional search text can match a company name, reference, contact or address. Select the correct company record to open its jobs.",
-          "result": "Registered companies are listed and the selected company’s jobs can be opened.",
-          "notes": "Check the company identity before adding payments, expenses or work packages."
+          "purpose": "Displays registered companies and lets you search, edit a company, open its jobs or deactivate it.",
+          "when": "Use this when locating a registered company or accessing its company jobs and contract information.",
+          "how": "Open Companies List. Enter optional search text to match the company name, reference, contact or address. Use Edit to change a record, Open Jobs to manage its jobs, or Deactivate to deactivate a company where permitted.",
+          "inputs": "Search text is optional and searches company name, reference, contact and address. No input is required to display all companies.",
+          "result": "Matching companies are displayed with contract start-date/attachment information, job counts and Edit, Open Jobs and Deactivate actions.",
+          "notes": "A company with existing jobs cannot be deactivated through this action; the app displays a warning that it has jobs and financial history. For a company without jobs, Deactivate requires confirmation and preserves the company record by setting it inactive. Check the company identity before editing or opening jobs."
         },
         "fa": {
-          "purpose": "شرکت‌های ثبت‌شده را نمایش می‌دهد و امکان بازکردن کارهای آن‌ها را فراهم می‌کند.",
-          "when": "برای یافتن شرکت یا دسترسی به قراردادها و کارهای آن از این گزینه استفاده کنید.",
-          "how": "Companies List را باز کنید، شرکت موردنظر را جست‌وجو یا انتخاب و سپس فهرست کارهای آن را باز کنید.",
-          "inputs": "متن جست‌وجو اختیاری است و می‌تواند با نام شرکت، شماره مرجع، شخص تماس یا نشانی مطابقت داشته باشد. سپس رکورد درست شرکت را برای بازکردن کارهای آن انتخاب کنید.",
-          "result": "شرکت‌های ثبت‌شده فهرست می‌شوند و کارهای شرکت انتخاب‌شده قابل بازکردن هستند.",
-          "notes": "پیش از افزودن پرداخت، هزینه یا بسته کاری، هویت شرکت را بررسی کنید."
+          "purpose": "شرکت‌های ثبت‌شده را نمایش می‌دهد و امکان جست‌وجو، ویرایش شرکت، بازکردن کارهای آن یا غیرفعال‌کردنش را فراهم می‌کند.",
+          "when": "برای یافتن شرکت ثبت‌شده یا دسترسی به کارهای شرکتی و اطلاعات قرارداد آن از این بخش استفاده کنید.",
+          "how": "Companies List را باز کنید. در صورت نیاز عبارتی وارد کنید تا نام شرکت، شماره مرجع، شخص تماس یا نشانی جست‌وجو شود. برای تغییر سابقه Edit، برای مدیریت کارهای شرکت Open Jobs و برای غیرفعال‌سازی در شرایط مجاز Deactivate را انتخاب کنید.",
+          "inputs": "متن جست‌وجو اختیاری است و نام شرکت، شماره مرجع، شخص تماس و نشانی را جست‌وجو می‌کند. برای نمایش همه شرکت‌ها ورودی لازم نیست.",
+          "result": "شرکت‌های منطبق همراه با اطلاعات تاریخ شروع قرارداد/پیوست، تعداد کارها و گزینه‌های Edit، Open Jobs و Deactivate نمایش داده می‌شوند.",
+          "notes": "شرکتی که کار ثبت‌شده دارد از طریق این گزینه قابل غیرفعال‌سازی نیست؛ برنامه هشدار می‌دهد که شرکت دارای کار و سابقه مالی است. برای شرکتی که کاری ندارد، Deactivate پس از تأیید سابقه را با غیرفعال‌کردن آن حفظ می‌کند. پیش از ویرایش یا بازکردن کارها، هویت شرکت را بررسی کنید."
         },
         "ar": {
           "purpose": "يعرض الشركات المسجلة ويتيح فتح الوظائف المرتبطة بها.",
@@ -6952,20 +6952,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the financial performance view for a company and its jobs.",
-          "when": "When reviewing income, deductions, expenses and results by company/job.",
-          "how": "Open the company financial report and select the relevant company or job if prompted.",
-          "inputs": "Use the Company selector to choose one company or All companies. Use the Project / job selector to choose one job or all jobs for the selected company.",
-          "result": "The company/job profit-and-loss information is displayed.",
-          "notes": "This is based on Company Contracts & Jobs records only and is not combined with Accountancy. Confirm payment and deduction treatment with the accountant where required."
+          "purpose": "Displays the Company Project Profit & Loss report for all companies or a selected company and job.",
+          "when": "Use this when reviewing agreed totals, receipts, recorded package expenses, cash result and payment balance across company jobs.",
+          "how": "Open Company Project Profit & Loss. In Company, select All companies or one company. In Project / job, select all jobs for that company or one specific job. Review the displayed totals and job rows.",
+          "inputs": "Company selector: All companies or one active company. Project / job selector: all jobs for the selected company or one job. No other input is required.",
+          "result": "The report displays agreed total, total received, recorded package expenses, cash result (received less recorded expenses) and payment balance, with a row for each matching job.",
+          "notes": "The report uses only Company Contracts & Jobs records and does not read, import or combine Accountancy records. The displayed cash result is not a full accounting profit calculation or tax figure; it is total receipts less recorded package expenses. Check the selected company/job scope and the underlying records."
         },
         "fa": {
-          "purpose": "نمای عملکرد مالی یک شرکت و کارهای آن را باز می‌کند.",
-          "when": "برای بررسی درآمد، کسورات، هزینه‌ها و نتیجه مالی به تفکیک شرکت یا کار از این گزینه استفاده کنید.",
-          "how": "گزارش مالی شرکت را باز کنید و در صورت درخواست، شرکت یا کار مربوط را انتخاب کنید.",
-          "inputs": "از انتخابگر Company یک شرکت یا All companies را انتخاب کنید. از انتخابگر Project / job یک کار یا همه کارهای شرکت انتخاب‌شده را برگزینید.",
-          "result": "اطلاعات سود و زیان شرکت/کار نمایش داده می‌شود.",
-          "notes": "این گزارش فقط بر سوابق Company Contracts & Jobs متکی است و با Accountancy ادغام نمی‌شود. در صورت نیاز نحوه برخورد با پرداخت و کسورات را با حسابدار بررسی کنید."
+          "purpose": "گزارش Company Project Profit & Loss را برای همه شرکت‌ها یا یک شرکت و کار انتخاب‌شده نمایش می‌دهد.",
+          "when": "برای بررسی مجموع مبالغ توافق‌شده، دریافتی‌ها، هزینه‌های ثبت‌شده بسته‌های کاری، نتیجه نقدی و مانده پرداخت در کارهای شرکتی از این گزارش استفاده کنید.",
+          "how": "Company Project Profit & Loss را باز کنید. در Company گزینه All companies یا یک شرکت را انتخاب کنید. در Project / job همه کارهای شرکت انتخاب‌شده یا یک کار مشخص را انتخاب کنید. مجموع‌ها و ردیف‌های کار را بررسی کنید.",
+          "inputs": "انتخابگر Company: گزینه All companies یا یک شرکت فعال. انتخابگر Project / job: همه کارهای شرکت انتخاب‌شده یا یک کار مشخص. ورودی دیگری لازم نیست.",
+          "result": "گزارش مجموع مبلغ توافق‌شده، کل دریافتی، هزینه‌های ثبت‌شده بسته‌های کاری، نتیجه نقدی (دریافتی منهای هزینه‌های ثبت‌شده) و مانده پرداخت را همراه با یک ردیف برای هر کار منطبق نمایش می‌دهد.",
+          "notes": "این گزارش فقط از سوابق Company Contracts & Jobs استفاده می‌کند و سوابق Accountancy را نمی‌خواند، وارد یا با آن ادغام نمی‌کند. نتیجه نقدی نمایش‌داده‌شده محاسبه کامل سود حسابداری یا رقم مالیاتی نیست؛ بلکه کل دریافتی منهای هزینه‌های ثبت‌شده بسته‌های کاری است. محدوده شرکت/کار انتخاب‌شده و سوابق مبنا را بررسی کنید."
         },
         "ar": {
           "purpose": "يفتح عرض الأداء المالي لشركة ووظائفها.",
@@ -7050,20 +7050,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Validates and saves the company details entered in the company form.",
-          "when": "After entering or editing the company’s main details and contract information.",
-          "how": "Review the company name and required contract details, then select Save Company.",
-          "inputs": "A company name is required. Reference, contact, phone, email, address, start/end dates, terms and a contract PDF/image attachment are optional.",
-          "result": "The company record is saved if validation and storage succeed.",
-          "notes": "Check the correct company and avoid duplicate registrations. Confirm the save status before leaving."
+          "purpose": "Validates the company name and saves the company form as a record in Company Contracts & Jobs.",
+          "when": "Use this after entering a new company or editing an existing company's details.",
+          "how": "Review the company name and other details, then select Save Company. Wait for the save confirmation and the form to return to the registered companies list.",
+          "inputs": "Company name is required. Reference, contact name, phone, email, address, contract start/end dates, terms and a PDF/image contract attachment are optional. The existing company ID is used when editing.",
+          "result": "If the company name is present and the Projects data save succeeds, the company record is stored, the form is reset and the registered companies list is refreshed.",
+          "notes": "A blank company name is rejected. Check for an existing company before creating a new record to avoid duplicates. Saving a company does not create a company job; open its jobs separately after saving."
         },
         "fa": {
-          "purpose": "اطلاعات شرکت واردشده در فرم را اعتبارسنجی و ذخیره می‌کند.",
-          "when": "پس از واردکردن یا ویرایش مشخصات اصلی شرکت و اطلاعات قرارداد از این گزینه استفاده کنید.",
-          "how": "نام شرکت و جزئیات اجباری قرارداد را بررسی و Save Company را انتخاب کنید.",
-          "inputs": "نام شرکت الزامی است. شماره مرجع، اطلاعات تماس، تلفن، ایمیل، نشانی، تاریخ شروع و پایان، شرایط و پیوست PDF یا تصویر قرارداد اختیاری هستند.",
-          "result": "در صورت موفقیت اعتبارسنجی و ذخیره‌سازی، سابقه شرکت ذخیره می‌شود.",
-          "notes": "شرکت درست را بررسی و از ثبت تکراری خودداری کنید. پیش از خروج پیام وضعیت ذخیره را تأیید کنید."
+          "purpose": "نام شرکت را اعتبارسنجی می‌کند و فرم شرکت را به‌عنوان سابقه‌ای در Company Contracts & Jobs ذخیره می‌کند.",
+          "when": "پس از واردکردن مشخصات شرکت جدید یا ویرایش اطلاعات شرکت موجود از این گزینه استفاده کنید.",
+          "how": "نام شرکت و سایر اطلاعات را بررسی کنید و سپس Save Company را انتخاب کنید. منتظر تأیید ذخیره و بازگشت فرم به فهرست شرکت‌های ثبت‌شده بمانید.",
+          "inputs": "نام شرکت الزامی است. شماره مرجع، نام شخص تماس، تلفن، ایمیل، نشانی، تاریخ شروع و پایان قرارداد، شرایط و پیوست PDF/تصویر قرارداد اختیاری هستند. هنگام ویرایش، شناسه شرکت موجود برای به‌روزرسانی استفاده می‌شود.",
+          "result": "اگر نام شرکت وارد شده باشد و ذخیره داده‌های Projects موفق شود، سابقه شرکت ذخیره، فرم بازنشانی و فهرست شرکت‌های ثبت‌شده تازه‌سازی می‌شود.",
+          "notes": "نام خالی شرکت پذیرفته نمی‌شود. پیش از ایجاد سابقه جدید، وجود شرکت قبلی را بررسی کنید تا مورد تکراری نسازید. ذخیره شرکت به‌تنهایی کار شرکتی ایجاد نمی‌کند؛ پس از ذخیره، کارهای آن شرکت را جداگانه باز کنید."
         },
         "ar": {
           "purpose": "يتحقق من بيانات الشركة المدخلة في النموذج ويحفظها.",
