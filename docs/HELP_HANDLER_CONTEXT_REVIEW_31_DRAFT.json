@@ -13,12 +13,17 @@
     "mapping_runtime_blob_sha": "e58a0c7895cf639c36e69c28696ebfd3bd262bef",
     "source_matches_mapping_baseline": true,
     "inventory_path": "docs/HELP_BUTTON_INVENTORY_FA.md",
-    "inventory_blob_sha": "66ec0eb0037748956ba06e9a0867fefa5407ca1b",
-    "mapping_inventory_blob_sha": "66ec0eb0037748956ba06e9a0867fefa5407ca1b",
+    "inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
+    "mapping_inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
     "inventory_file_matches_mapping_hash": true,
-    "inventory_declared_build": "THA-273-R11-PREVIEW-20261126-R43",
-    "inventory_declared_index_blob_sha": "104766171ee9ad519ec8be36126f04f0dde24a5c",
-    "inventory_is_stale_against_authority": true
+    "inventory_declared_build": "THA-273-R11-PREVIEW-20261127-R45",
+    "inventory_declared_index_blob_sha": "e58a0c7895cf639c36e69c28696ebfd3bd262bef",
+    "inventory_is_stale_against_authority": false,
+    "inventory_rows": 268,
+    "html_template_button_tags": 266,
+    "dom_created_button_patterns": 2,
+    "mapping_blob_sha": "1e5f76ea199b25797d33d17b53dea83dc9a4f4d9",
+    "r45_refresh_status": "RECONCILED"
   },
   "summary": {
     "total_rows": 31,
@@ -32,7 +37,10 @@
     },
     "selector_assignments_made": 0,
     "help_ids_attached": 0,
-    "browser_tests_run": 0
+    "browser_tests_run": 0,
+    "inventory_refresh_rows": 268,
+    "r45_inventory_reconciled": true,
+    "notes": "Inventory and mapping now share the Version Authority R45 source baseline. The 31 ambiguous controls remain unassigned pending contextual selector decisions and Preview browser tests."
   },
   "records": [
     {
