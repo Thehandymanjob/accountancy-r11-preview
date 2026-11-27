@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261127-R60",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R60",
-    "indexBlobSha": "facc744a955a6987597de095c87c0e94726fd0f3",
+    "buildId": "THA-273-R11-PREVIEW-20261127-R61",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R61",
+    "indexBlobSha": "d6907f2d0d962ed4b1ed7faa89d90355004b21aa",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,11 +30,11 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "facc744a955a6987597de095c87c0e94726fd0f3",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "d6907f2d0d962ed4b1ed7faa89d90355004b21aa",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js": "6d331c54bbf1a77ecffcc95127709d337c48a6c1"
+      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js": "2911fd6856b15859c1f16d6a967698ee87f153c7"
     }
   },
   "rules": {
@@ -2578,10 +2578,10 @@
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "PENDING",
-        "runId": "pending",
-        "url": "pending",
-        "details": "R60 requires a fresh Version Authority Gate against the final R60 Build ID, canonical URL, index SHA and all 24 runtime asset pins."
+        "result": "PASS",
+        "runId": 46070971042,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070971042",
+        "details": "R60 cumulative Version Authority Gate passed on the R60 PR head before the R61 duplicate-binding cleanup. R61 Gate will validate the consolidated runtime and all current pins."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
@@ -2624,9 +2624,9 @@
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
         "result": "PASS",
-        "runId": 46071006730,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071006730",
-        "details": "R60 Version Authority Gate passed on the final R60 head. Approved R11 ancestry, Build ID, canonical URL, index SHA and all 24 pinned runtime assets matched."
+        "runId": 46070971042,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070971042",
+        "details": "R60 cumulative Version Authority Gate passed on the R60 PR head before the R61 duplicate-binding cleanup. R61 Gate will validate the consolidated runtime and all current pins."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
@@ -2645,6 +2645,48 @@
       "userApproval": {
         "result": "authorized for Preview development only",
         "details": "This instruction does not authorize Preview deployment, merge or Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-BINDING-DEDUPLICATION-R61-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Consolidate duplicate static Help bindings for THA-HLP-0006 and THA-HLP-0008 into one exact #ctFormCard selector each; synchronize Registry mapping and R61 build pins.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "6d1c3a6d76a1c6fb0538f650d5f65310f9da5a9d",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PENDING",
+        "runId": "pending",
+        "url": "pending",
+        "details": "R61 requires a fresh Version Authority Gate against the final R61 Build ID, canonical URL, index SHA and all 24 runtime asset pins."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "The two duplicate Contract bindings were consolidated; the runtime now has 92 static binding rows with 92 unique Help IDs, plus five dynamic-template bindings. Mapping summary now records 97 total Help IDs, 92 static, 74 scoped selectors, 13 exact-ID selectors and five scoped unique-handler selectors. Registry/content/runtime/index baselines require final tree and Gate verification. Live browser tests remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting an authorized Preview deployment and real browser/iPhone Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continued Help connection work. This does not authorize deployment, merge or Production promotion."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
