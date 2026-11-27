@@ -2795,19 +2795,19 @@
         "docs/REPAIR_INDEX_FA.md",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "a984f2e419941e7e1437b85c1e7baac22103ec83",
+      "previewDevelopmentCommitSha": "08ab41f6a1f62898fa3b5e105426e4a3fe3f4b6f",
       "previewPullRequestNumber": 96,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
         "result": "PASS",
-        "runId": 46071628688,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071628688",
-        "details": "R62 Version Authority Gate passed. Repository/branch identity, approved R11 ancestry, Build ID THA-273-R11-PREVIEW-20261127-R62, canonical URL, index blob SHA and all 24 pinned runtime assets matched."
+        "runId": 46071684501,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071684501",
+        "details": "R62 Version Authority Gate passed on the final R62 development head. Approved R11 ancestry, Build ID, canonical URL, index blob SHA and all 24 pinned runtime assets matched."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
-        "details": "Eight Help bindings are scoped to Business Workspace, Control Panel, category picker, Entry Saved dialog and Invoice Preview. MutationObserver attaches Help controls to inserted DOM nodes. Mapping records 118 total Help controls: 113 static and five dynamic-template. Manual tree checks confirm Registry, Inventory, Help content, runtime and index baselines match. Live browser tests remain pending."
+        "details": "Eight selectors are scoped to Business Workspace, Control Panel, category picker, Entry Saved dialog and Invoice Preview. Dynamic controls are attached through the existing MutationObserver. Manual Git-tree comparison confirms all 24 runtime pins and the index SHA match. Live browser tests remain pending."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
