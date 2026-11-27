@@ -11068,20 +11068,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open the jobs associated with a company.",
-          "when": "Use this when you need to open the jobs associated with a company.",
-          "how": "Choose Open Jobs to view the jobs linked to that company.",
-          "inputs": "Select the correct company whose jobs you want to view.",
-          "result": "The selected company's jobs area opens and displays its saved jobs. Opening the list does not create or change a job.",
-          "notes": "This navigates to the company’s job list; it does not create or change a job."
+          "purpose": "Opens the saved jobs list for the selected company.",
+          "when": "Use this when you need to review or manage jobs registered under a particular company.",
+          "how": "In Companies List, select Open Jobs beside the correct company. The Jobs area opens for that company and displays its saved jobs.",
+          "inputs": "Select the correct company. No additional input is required to open its jobs list.",
+          "result": "The selected company's Jobs area opens and displays its saved jobs, with actions to edit a job, open its work packages or view its payments.",
+          "notes": "This action only opens the company's job list; it does not create or change a job. Confirm the company name before adding or editing jobs."
         },
         "fa": {
-          "purpose": "کارهای مرتبط با یک شرکت را باز می‌کند.",
-          "when": "وقتی لازم است فهرست کارهای مرتبط با یک شرکت را مشاهده کنید، از این گزینه استفاده کنید.",
-          "how": "Open Jobs را انتخاب کنید تا کارهای پیوندخورده با آن شرکت را ببینید.",
-          "inputs": "شرکت درست را که می‌خواهید فهرست کارهای آن را مشاهده کنید انتخاب کنید.",
-          "result": "بخش کارهای شرکت انتخاب‌شده باز می‌شود و کارهای ذخیره‌شده آن را نمایش می‌دهد. بازکردن فهرست، کاری ایجاد یا تغییر نمی‌دهد.",
-          "notes": "این گزینه فقط فهرست کارهای شرکت را باز می‌کند و کار جدیدی ایجاد یا ویرایش نمی‌کند."
+          "purpose": "فهرست کارهای ذخیره‌شده شرکت انتخاب‌شده را باز می‌کند.",
+          "when": "وقتی می‌خواهید کارهای ثبت‌شده زیر یک شرکت مشخص را بررسی یا مدیریت کنید، از این گزینه استفاده کنید.",
+          "how": "در Companies List، کنار شرکت صحیح Open Jobs را انتخاب کنید. بخش Jobs برای همان شرکت باز می‌شود و کارهای ذخیره‌شده آن را نمایش می‌دهد.",
+          "inputs": "شرکت صحیح را انتخاب کنید. برای بازکردن فهرست کارهای آن ورودی دیگری لازم نیست.",
+          "result": "بخش Jobs شرکت انتخاب‌شده باز می‌شود و کارهای ذخیره‌شده را همراه با گزینه‌های ویرایش کار، بازکردن بسته‌های کاری یا مشاهده پرداخت‌ها نمایش می‌دهد.",
+          "notes": "این گزینه فقط فهرست کارهای شرکت را باز می‌کند و کاری ایجاد یا تغییر نمی‌دهد. پیش از افزودن یا ویرایش کار، نام شرکت را تأیید کنید."
         },
         "ar": {
           "purpose": "يفتح الوظائف المرتبطة بشركة معينة.",
@@ -11168,18 +11168,18 @@
         "en": {
           "purpose": "Marks a company inactive while preserving its company record.",
           "when": "Use this only when a company has no saved jobs and should no longer be available for active selection.",
-          "how": "Select Deactivate beside the intended company and confirm the prompt. If the company has jobs, the app blocks deactivation.",
+          "how": "Select Deactivate beside the intended company in Companies List and confirm the prompt. If the company has any associated job, the app blocks deactivation and displays a warning.",
           "inputs": "Select the correct company. It must have no associated jobs, and the deactivation confirmation must be approved.",
-          "result": "If the company has no jobs and the save succeeds, its active flag is set to false; the company record is preserved.",
-          "notes": "A company with any saved jobs cannot be deactivated by this control. Deactivation preserves the company record and does not delete historical data. The handler checks for associated jobs; it does not separately inspect financial-history records."
+          "result": "If the company has no jobs and the Projects data save succeeds, its active flag is set to false and the company record remains stored.",
+          "notes": "A company with any saved job cannot be deactivated by this control. Deactivation preserves the company record and historical data. The handler checks for associated jobs; it does not separately inspect other financial-history records. Inactive companies are excluded from the Company Project Profit & Loss company selector."
         },
         "fa": {
-          "purpose": "شرکت را غیرفعال می‌کند و رکورد آن را حفظ می‌کند.",
+          "purpose": "شرکت را غیرفعال می‌کند و سابقه آن را حفظ می‌کند.",
           "when": "فقط زمانی استفاده کنید که شرکت هیچ کار ذخیره‌شده‌ای ندارد و دیگر نباید برای انتخاب فعال در دسترس باشد.",
-          "how": "در کنار شرکت موردنظر Deactivate را انتخاب و پیام تأیید را بررسی کنید. اگر شرکت کاری داشته باشد، برنامه مانع غیرفعال‌سازی می‌شود.",
-          "inputs": "شرکت درست را انتخاب کنید. نباید هیچ کار مرتبطی داشته باشد و باید پیام تأیید غیرفعال‌سازی را بپذیرید.",
-          "result": "اگر شرکت هیچ کاری نداشته باشد و ذخیره موفق شود، پرچم فعال‌بودن آن false می‌شود؛ رکورد شرکت حفظ می‌شود.",
-          "notes": "شرکتی که هرگونه کار ذخیره‌شده دارد با این کنترل غیرفعال نمی‌شود. غیرفعال‌سازی سابقه شرکت را حفظ می‌کند و داده‌های تاریخی را حذف نمی‌کند. تابع برنامه وجود کارهای مرتبط را بررسی می‌کند و سوابق مالی را به‌طور جداگانه ارزیابی نمی‌کند."
+          "how": "در Companies List کنار شرکت موردنظر Deactivate را انتخاب و پیام تأیید را بپذیرید. اگر شرکت هرگونه کار مرتبط داشته باشد، برنامه غیرفعال‌سازی را مسدود و هشدار نمایش می‌دهد.",
+          "inputs": "شرکت صحیح را انتخاب کنید. نباید هیچ کار مرتبطی داشته باشد و باید پیام تأیید غیرفعال‌سازی را بپذیرید.",
+          "result": "اگر شرکت هیچ کاری نداشته باشد و ذخیره داده‌های Projects موفق شود، پرچم active آن false می‌شود و سابقه شرکت در سیستم باقی می‌ماند.",
+          "notes": "شرکتی که حتی یک کار ذخیره‌شده دارد با این کنترل غیرفعال نمی‌شود. غیرفعال‌سازی سابقه شرکت و داده‌های تاریخی را حفظ می‌کند. تابع برنامه وجود کارهای مرتبط را بررسی می‌کند و سایر سوابق مالی را جداگانه ارزیابی نمی‌کند. شرکت‌های غیرفعال در انتخابگر گزارش Company Project Profit & Loss نمایش داده نمی‌شوند."
         },
         "ar": {
           "purpose": "يعطّل الشركة مع الاحتفاظ بسجلها.",
@@ -11264,20 +11264,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Loads a saved company job into the job form for editing.",
-          "when": "Use this when correcting the details of an existing job under a company.",
-          "how": "Choose Edit beside the intended job, review the company and job details, make the required changes, then select Save Job.",
-          "inputs": "Select the correct company and job. The existing job fields are loaded; change only the details that need updating.",
-          "result": "The selected job's existing values are loaded into the job form. Changes are not saved until Save Job succeeds.",
-          "notes": "Check the company and job identity before saving, especially where several jobs have similar names."
+          "purpose": "Loads a saved company job's details into the job form for editing.",
+          "when": "Use this when correcting or updating an existing job registered under the selected company.",
+          "how": "In the selected company's Jobs list, select Edit beside the intended job. The job's saved details load into the form. Make the required changes, then select Save Job.",
+          "inputs": "Select the correct company and job. The existing job ID and saved fields are loaded; change only the details that need updating.",
+          "result": "The selected job's existing values are loaded into the job form. Changes are stored only after Save Job succeeds.",
+          "notes": "Confirm both the company context and job identity before saving, especially where several jobs have similar names. Editing preserves the job's existing work packages and payment history."
         },
         "fa": {
-          "purpose": "کار ذخیره‌شده یک شرکت را برای ویرایش در فرم کار بارگذاری می‌کند.",
-          "when": "وقتی می‌خواهید جزئیات یک کار موجود متعلق به یک شرکت را اصلاح کنید، از این گزینه استفاده کنید.",
-          "how": "در کنار کار موردنظر Edit را انتخاب کنید، اطلاعات شرکت و کار را بررسی کنید، تغییرات لازم را انجام دهید و سپس Save Job را انتخاب کنید.",
-          "inputs": "شرکت و کار درست را انتخاب کنید. فیلدهای فعلی کار بارگذاری می‌شوند؛ فقط جزئیاتی را تغییر دهید که نیاز به به‌روزرسانی دارند.",
-          "result": "مقادیر فعلی کار انتخاب‌شده در فرم کار بارگذاری می‌شوند. تغییرات تا زمانی که Save Job با موفقیت انجام نشود ذخیره نمی‌شوند.",
-          "notes": "پیش از ذخیره، شرکت و کار درست را بررسی کنید؛ به‌ویژه اگر چند کار نام مشابه دارند."
+          "purpose": "جزئیات کار ذخیره‌شده شرکت را برای ویرایش در فرم کار بارگذاری می‌کند.",
+          "when": "وقتی می‌خواهید کار موجودی را که زیر شرکت انتخاب‌شده ثبت شده است اصلاح یا به‌روزرسانی کنید، از این گزینه استفاده کنید.",
+          "how": "در فهرست Jobs شرکت انتخاب‌شده، کنار کار موردنظر Edit را انتخاب کنید. جزئیات ذخیره‌شده کار در فرم بارگذاری می‌شوند. تغییرات لازم را اعمال و سپس Save Job را انتخاب کنید.",
+          "inputs": "شرکت و کار صحیح را انتخاب کنید. شناسه و فیلدهای ذخیره‌شده کار بارگذاری می‌شوند؛ فقط جزئیاتی را تغییر دهید که نیاز به به‌روزرسانی دارند.",
+          "result": "مقادیر فعلی کار انتخاب‌شده در فرم کار بارگذاری می‌شوند. تغییرات فقط پس از موفقیت Save Job ذخیره می‌شوند.",
+          "notes": "پیش از ذخیره، زمینه شرکت و هویت کار را بررسی کنید؛ به‌ویژه اگر چند کار نام مشابه دارند. ویرایش، بسته‌های کاری و تاریخچه پرداخت موجود کار را حفظ می‌کند."
         },
         "ar": {
           "purpose": "يفتح بيانات وظيفة محفوظة لتعديلها.",
@@ -11362,20 +11362,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open the work packages belonging to a job.",
-          "when": "Use this when you need to open the work packages belonging to a job.",
-          "how": "Choose Work packages to review the packages associated with the selected job.",
-          "inputs": "Select the correct job whose work packages you want to review.",
-          "result": "The selected job's work-package list opens. You can review existing packages or choose an individual package action; opening the list does not change records.",
-          "notes": "This opens the package list; individual package records are managed separately."
+          "purpose": "Opens the work-package area for the selected company job.",
+          "when": "Use this when reviewing, adding or managing the work packages that make up a particular company job.",
+          "how": "In the selected company's Jobs list, select Work packages beside the correct job. The work-package area opens for that job and displays its saved packages and current agreed job total.",
+          "inputs": "Select the correct job. No additional input is required to open its work-package area.",
+          "result": "The selected job's work-package list opens. You can review existing packages, edit or delete a package, open its financials or add a new package.",
+          "notes": "The job context is retained for package operations. Opening the list does not change records; individual package actions must be saved separately. Only approved additional-work variations increase the agreed job total."
         },
         "fa": {
-          "purpose": "باز کردن بسته‌های کاری مربوط به یک کار.",
-          "when": "وقتی لازم است بسته‌های کاری متعلق به یک کار را باز و بررسی کنید، از این گزینه استفاده کنید.",
-          "how": "گزینه Work packages را انتخاب کنید تا بسته‌های مرتبط با کار انتخاب‌شده نمایش داده شوند.",
-          "inputs": "کار درست را که می‌خواهید بسته‌های کاری آن را بررسی کنید انتخاب کنید.",
-          "result": "فهرست بسته‌های کاری مربوط به کار انتخاب‌شده باز می‌شود. می‌توانید بسته‌های موجود را بررسی یا عملیات مربوط به یک بسته را انتخاب کنید؛ بازکردن فهرست سوابق را تغییر نمی‌دهد.",
-          "notes": "این گزینه فهرست بسته‌ها را باز می‌کند؛ مدیریت هر بسته جداگانه انجام می‌شود."
+          "purpose": "بخش بسته‌های کاری مربوط به کار شرکتی انتخاب‌شده را باز می‌کند.",
+          "when": "برای بررسی، افزودن یا مدیریت بسته‌های کاری تشکیل‌دهنده یک کار شرکتی مشخص از این گزینه استفاده کنید.",
+          "how": "در فهرست Jobs شرکت انتخاب‌شده، کنار کار صحیح Work packages را انتخاب کنید. بخش بسته‌های کاری همان کار باز می‌شود و بسته‌های ذخیره‌شده و مجموع توافق‌شده فعلی کار را نمایش می‌دهد.",
+          "inputs": "کار صحیح را انتخاب کنید. برای بازکردن بخش بسته‌های کاری ورودی دیگری لازم نیست.",
+          "result": "فهرست بسته‌های کاری کار انتخاب‌شده باز می‌شود. می‌توانید بسته‌های موجود را بررسی، ویرایش یا حذف کنید، بخش مالی آن‌ها را باز کنید یا بسته جدیدی اضافه کنید.",
+          "notes": "زمینه کار برای عملیات بسته‌ها حفظ می‌شود. بازکردن فهرست سوابق را تغییر نمی‌دهد؛ عملیات هر بسته باید جداگانه ذخیره شود. فقط تغییرات Additional work / variation با وضعیت Approved مبلغ توافق‌شده کار را افزایش می‌دهند."
         },
         "ar": {
           "purpose": "يفتح حزم العمل التابعة لوظيفة محددة.",
@@ -11460,20 +11460,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open the payment records for a job.",
-          "when": "Use this when you need to open the payment records for a job.",
-          "how": "Choose Payments to review payment information associated with the selected job.",
-          "inputs": "Select the correct job whose payment records you want to review.",
-          "result": "The selected job's payment area opens, showing the payment history and the form for recording a new payment. Opening the area does not itself record a payment.",
-          "notes": "Compare entries with actual receipts and supporting evidence; a payment listing is not a bank reconciliation."
+          "purpose": "Opens the payment area for the selected company job, showing its payment history and the form for recording another payment.",
+          "when": "Use this when reviewing payments already recorded for the job or preparing to record a new payment actually received.",
+          "how": "In the selected company's Jobs list, select Payments beside the correct job. The payment area opens with the saved payment history and a new-payment form. Review the prefilled date and amounts, then enter or adjust the gross amount, deduction, net received and other details before selecting Record Payment.",
+          "inputs": "Select the correct job to open its payment area. The form is prefilled with today's date, the current outstanding balance as gross and net amounts, zero deduction, no deduction type and accountant review for tax/VAT treatment. These values should be checked and corrected to match the actual remittance.",
+          "result": "The payment history is displayed and a form is available for a new payment. Opening the area does not itself record a payment.",
+          "notes": "Record only money actually received. Reconcile gross, deductions and net against the remittance advice. These company-job payments remain in Company Contracts & Jobs and are not copied to Accountancy. Confirm CIS/VAT treatment with the accountant where required."
         },
         "fa": {
-          "purpose": "مشاهده سوابق پرداخت یک کار.",
-          "when": "وقتی لازم است سوابق پرداخت مربوط به یک کار را باز و بررسی کنید، از این گزینه استفاده کنید.",
-          "how": "گزینه Payments را انتخاب کنید تا اطلاعات پرداخت‌های مرتبط با کار نمایش داده شود.",
-          "inputs": "کار درست را که می‌خواهید سوابق پرداخت آن را بررسی کنید انتخاب کنید.",
-          "result": "بخش پرداخت‌های کار انتخاب‌شده باز می‌شود و سابقه پرداخت‌ها و فرم ثبت پرداخت جدید را نمایش می‌دهد. بازکردن این بخش به‌خودی‌خود پرداختی ثبت نمی‌کند.",
-          "notes": "مبالغ را با دریافت‌های واقعی و مدارک پشتیبان تطبیق دهید؛ فهرست پرداخت به‌تنهایی تطبیق بانکی نیست."
+          "purpose": "بخش پرداخت‌های کار شرکتی انتخاب‌شده را باز می‌کند و تاریخچه پرداخت‌ها و فرم ثبت پرداخت جدید را نمایش می‌دهد.",
+          "when": "برای بررسی پرداخت‌های ثبت‌شده کار یا آماده‌شدن برای ثبت پرداخت جدیدی که واقعاً دریافت شده است، از این گزینه استفاده کنید.",
+          "how": "در فهرست Jobs شرکت انتخاب‌شده، کنار کار صحیح Payments را انتخاب کنید. بخش پرداخت‌ها با تاریخچه ذخیره‌شده و فرم پرداخت جدید باز می‌شود. تاریخ و مبالغ پیش‌فرض را بررسی کنید و پیش از انتخاب Record Payment، مبلغ ناخالص، کسری، مبلغ خالص دریافتی و سایر جزئیات را وارد یا اصلاح کنید.",
+          "inputs": "برای بازکردن بخش پرداخت‌ها، کار صحیح را انتخاب کنید. فرم با تاریخ امروز، مانده فعلی به‌عنوان مبلغ ناخالص و خالص، کسری صفر، بدون نوع کسری و وضعیت بررسی حسابدار برای نحوه برخورد مالیاتی/VAT از پیش پر می‌شود. این مقادیر باید بررسی و مطابق حواله واقعی اصلاح شوند.",
+          "result": "تاریخچه پرداخت‌ها نمایش داده می‌شود و فرم ثبت پرداخت جدید در دسترس قرار می‌گیرد. بازکردن این بخش به‌خودی‌خود پرداختی ثبت نمی‌کند.",
+          "notes": "فقط پولی را ثبت کنید که واقعاً دریافت شده است. مبلغ ناخالص، کسورات و خالص را با حواله پرداخت تطبیق دهید. این پرداخت‌های کار شرکتی در Company Contracts & Jobs باقی می‌مانند و به Accountancy کپی نمی‌شوند. در صورت نیاز نحوه برخورد با CIS/VAT را با حسابدار تأیید کنید."
         },
         "ar": {
           "purpose": "يفتح سجلات الدفعات المرتبطة بوظيفة محددة.",
