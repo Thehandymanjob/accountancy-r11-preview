@@ -10653,7 +10653,7 @@
           "purpose": "Delete an invoice record.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Choose Delete for the intended invoice and read the confirmation prompt before proceeding.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct invoice and check its number, customer and payment status before confirming deletion.",
           "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
           "notes": "Invoice deletion is potentially destructive. Check whether the invoice has been issued or paid and retain records required by law or your accountant."
         },
@@ -10661,9 +10661,81 @@
           "purpose": "حذف رکورد فاکتور.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "برای فاکتور موردنظر Delete را انتخاب کنید و پیش از ادامه پیام تأیید را بخوانید.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "فاکتور درست را انتخاب کنید و پیش از تأیید حذف، شماره، مشتری و وضعیت پرداخت آن را بررسی کنید.",
           "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
           "notes": "حذف فاکتور عملیاتی حساس است. صادر یا پرداخت‌شدن آن و الزام نگهداری اسناد را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يحذف سجل فاتورة محدداً.",
+          "when": "فقط عندما تكون الفاتورة مكررة أو أُنشئت بالخطأ ولا ينبغي أن تبقى في السجلات النشطة.",
+          "how": "اختر Delete بجانب الفاتورة المقصودة واقرأ رسالة التأكيد قبل المتابعة.",
+          "inputs": "حدد الفاتورة الصحيحة وتحقق من رقمها والعميل وحالة الدفع قبل التأكيد.",
+          "result": "تُزال الفاتورة أو تُعلّم كمحذوفة إذا قبل التطبيق العملية وأكدها.",
+          "notes": "حذف الفاتورة إجراء قد يكون مدمراً. تحقق مما إذا كانت قد صدرت أو دُفعت، واحتفظ بالسجلات المطلوبة قانونياً أو محاسبياً."
+        },
+        "ckb": {
+          "purpose": "تۆماری فاکتۆرێکی دیاریکراو دەسڕێتەوە.",
+          "when": "تەنها کاتێک فاکتۆرەکە دووبارەیە یان بە هەڵە دروست کراوە و نابێت لە تۆمارە چالاکەکاندا بمێنێتەوە.",
+          "how": "لە تەنیشت فاکتۆری مەبەست Delete هەڵبژێرە و پێش بەردەوامبوون نامەی پشتڕاستکردنەوە بخوێنەوە.",
+          "inputs": "فاکتۆری دروست هەڵبژێرە و پێش پشتڕاستکردنەوە ژمارە، کڕیار و دۆخی پارەدانی بپشکنە.",
+          "result": "ئەگەر ئەپەکە کردارەکە قبووڵ و پشتڕاست بکاتەوە، فاکتۆرەکە لادەبرێت یان وەک سڕاوە نیشان دەدرێت.",
+          "notes": "سڕینەوەی فاکتۆر دەتوانێت کردارێکی وێرانکەر بێت. بپشکنە ئایا دەرچووە یان پارەی بۆ دراوە، و تۆمارە پێویستە یاسایی یان ژمێریارییەکان بپارێزە."
+        },
+        "kmr": {
+          "purpose": "Tomara fatûreyeke taybet jê dike.",
+          "when": "Tenê dema ku fatûre dubare ye an bi xeletî hatiye çêkirin û divê di tomarên çalak de nemîne.",
+          "how": "Li kêleka fatûreya armancê Delete hilbijêre û berî domandinê peyama piştrastkirinê bixwîne.",
+          "inputs": "Fatûreya rast hilbijêre û berî piştrastkirinê jimare, xerîdar û rewşa dravdanê kontrol bike.",
+          "result": "Fatûre tê rakirin an wekî jêbirî tê nîşankirin heke sepan kiryarê qebûl û piştrast bike.",
+          "notes": "Jêbirina fatûreyê dikare wêranker be. Kontrol bike ka hatiye derxistin an hatiye dayîn, û tomarên qanûnî an hesabê yên pêwîst biparêze."
+        },
+        "tr": {
+          "purpose": "Belirli bir fatura kaydını siler.",
+          "when": "Yalnızca fatura yinelenmişse veya yanlışlıkla oluşturulmuşsa ve etkin kayıtlarda kalmaması gerekiyorsa kullanın.",
+          "how": "İlgili faturanın yanındaki Delete'i seçin ve devam etmeden önce onay mesajını okuyun.",
+          "inputs": "Doğru faturayı seçin ve onaylamadan önce numarasını, müşteriyi ve ödeme durumunu kontrol edin.",
+          "result": "Uygulama işlemi kabul edip onaylarsa fatura kaldırılır veya silinmiş olarak işaretlenir.",
+          "notes": "Fatura silme işlemi yıkıcı olabilir. Faturanın düzenlenip düzenlenmediğini veya ödenip ödenmediğini kontrol edin ve yasal ya da muhasebe kayıtlarını saklayın."
+        },
+        "pl": {
+          "purpose": "Usuwa określony rekord faktury.",
+          "when": "Użyj tylko wtedy, gdy faktura jest duplikatem lub została utworzona omyłkowo i nie powinna pozostać w aktywnych rekordach.",
+          "how": "Wybierz Delete obok właściwej faktury i przed kontynuowaniem przeczytaj komunikat potwierdzający.",
+          "inputs": "Wybierz właściwą fakturę i przed potwierdzeniem sprawdź jej numer, klienta oraz status płatności.",
+          "result": "Faktura zostanie usunięta lub oznaczona jako usunięta, jeśli aplikacja zaakceptuje i potwierdzi operację.",
+          "notes": "Usunięcie faktury może być działaniem destrukcyjnym. Sprawdź, czy została wystawiona lub opłacona, i zachowaj dokumentację wymaganą prawnie lub księgowo."
+        },
+        "ur": {
+          "purpose": "مخصوص انوائس ریکارڈ حذف کرتا ہے۔",
+          "when": "صرف اس وقت استعمال کریں جب انوائس نقل ہو یا غلطی سے بنائی گئی ہو اور فعال ریکارڈز میں نہیں رہنی چاہیے۔",
+          "how": "متعلقہ انوائس کے ساتھ Delete منتخب کریں اور آگے بڑھنے سے پہلے تصدیقی پیغام پڑھیں۔",
+          "inputs": "درست انوائس منتخب کریں اور تصدیق سے پہلے اس کا نمبر، گاہک اور ادائیگی کی حیثیت چیک کریں۔",
+          "result": "ایپ کارروائی قبول اور تصدیق کرے تو انوائس ہٹا دی جاتی ہے یا حذف شدہ نشان زد ہوتی ہے۔",
+          "notes": "انوائس حذف کرنا نقصان دہ کارروائی ہو سکتی ہے۔ دیکھیں کہ انوائس جاری یا ادا ہوئی ہے یا نہیں، اور قانونی یا اکاؤنٹنگ کے لیے مطلوبہ ریکارڈ محفوظ رکھیں۔"
+        },
+        "pa": {
+          "purpose": "ਇੱਕ ਖਾਸ ਇਨਵੌਇਸ ਰਿਕਾਰਡ ਮਿਟਾਉਂਦਾ ਹੈ।",
+          "when": "ਸਿਰਫ਼ ਜਦੋਂ ਇਨਵੌਇਸ ਡੁਪਲੀਕੇਟ ਜਾਂ ਗਲਤੀ ਨਾਲ ਬਣਿਆ ਹੋਵੇ ਅਤੇ ਸਰਗਰਮ ਰਿਕਾਰਡਾਂ ਵਿੱਚ ਨਹੀਂ ਰਹਿਣਾ ਚਾਹੀਦਾ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸੰਬੰਧਿਤ ਇਨਵੌਇਸ ਦੇ ਨਾਲ Delete ਚੁਣੋ ਅਤੇ ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਪੜ੍ਹੋ।",
+          "inputs": "ਸਹੀ ਇਨਵੌਇਸ ਚੁਣੋ ਅਤੇ ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਇਸਦਾ ਨੰਬਰ, ਗਾਹਕ ਅਤੇ ਭੁਗਤਾਨ ਸਥਿਤੀ ਜਾਂਚੋ।",
+          "result": "ਐਪ ਕਾਰਵਾਈ ਸਵੀਕਾਰ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਇਨਵੌਇਸ ਹਟਾਇਆ ਜਾਂ ਮਿਟਾਇਆ ਹੋਇਆ ਨਿਸ਼ਾਨ ਲਗਾਇਆ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਇਨਵੌਇਸ ਮਿਟਾਉਣਾ ਨੁਕਸਾਨਦਾਇਕ ਹੋ ਸਕਦਾ ਹੈ। ਜਾਂਚੋ ਕਿ ਇਨਵੌਇਸ ਜਾਰੀ ਜਾਂ ਭੁਗਤਾਨ ਹੋਇਆ ਹੈ ਜਾਂ ਨਹੀਂ ਅਤੇ ਕਾਨੂੰਨੀ ਜਾਂ ਅਕਾਊਂਟਿੰਗ ਲਈ ਲੋੜੀਂਦੇ ਰਿਕਾਰਡ ਸੰਭਾਲੋ।"
+        },
+        "prs": {
+          "purpose": "یک سابقه مشخص فاکتور را حذف می‌کند.",
+          "when": "فقط وقتی فاکتور تکراری است یا اشتباهی ایجاد شده و نباید در سوابق فعال باقی بماند، استفاده کنید.",
+          "how": "در کنار فاکتور موردنظر Delete را انتخاب کنید و پیش از ادامه پیام تأیید را بخوانید.",
+          "inputs": "فاکتور درست را انتخاب کنید و پیش از تأیید، شماره، مشتری و وضعیت پرداخت آن را بررسی کنید.",
+          "result": "در صورت پذیرش و تأیید برنامه، فاکتور حذف یا به‌عنوان حذف‌شده علامت‌گذاری می‌شود.",
+          "notes": "حذف فاکتور ممکن است مخرب باشد. بررسی کنید صادر یا پرداخت شده است یا خیر و اسناد موردنیاز قانونی یا حسابداری را نگه دارید."
+        },
+        "ps": {
+          "purpose": "د یوه ځانګړي بل ریکارډ ړنګوي.",
+          "when": "یوازې هغه وخت یې وکاروئ چې بل تکراري وي یا په تېروتنه جوړ شوی وي او په فعالو ریکارډونو کې باید پاتې نه شي.",
+          "how": "د اړوند بل تر څنګ Delete وټاکئ او له دوام مخکې د تایید پیغام ولولئ.",
+          "inputs": "سم بل وټاکئ او له تایید مخکې یې شمېره، پېرودونکی او د تادیې حالت وګورئ.",
+          "result": "که اپلیکیشن کړنه ومني او تایید یې کړي، بل لرې کېږي یا د ړنګ شوي په توګه نښه کېږي.",
+          "notes": "د بل ړنګول زیانمنوونکی کېدای شي. وګورئ چې بل صادر یا تادیه شوی دی که نه او قانوني یا حسابداري اړین ریکارډونه وساتئ."
         }
       },
       "handler_or_behavior": "`deleteInvoice(`"
@@ -10679,7 +10751,7 @@
           "purpose": "Edit a saved contractor’s details.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Choose Edit beside the contractor, update the available details and save the form.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct contractor record and change the required details or contact information.",
           "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
           "notes": "Confirm the contractor identity before saving changes to avoid altering another person’s record."
         },
@@ -10687,9 +10759,81 @@
           "purpose": "ویرایش اطلاعات پیمانکار ذخیره‌شده.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "در کنار پیمانکار موردنظر Edit را انتخاب کنید، اطلاعات موجود را تغییر دهید و فرم را ذخیره کنید.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "سابقه درست پیمانکار را انتخاب کنید و اطلاعات یا جزئیات تماس موردنیاز را تغییر دهید.",
           "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
           "notes": "پیش از ذخیره، هویت پیمانکار را بررسی کنید تا اطلاعات فرد دیگری تغییر نکند."
+        },
+        "ar": {
+          "purpose": "يفتح بيانات المقاول المحفوظة لتعديلها.",
+          "when": "عندما تحتاج إلى تحديث بيانات المقاول أو معلومات الاتصال الخاصة به.",
+          "how": "اختر Edit بجانب المقاول الصحيح، وعدّل البيانات المطلوبة، ثم احفظ النموذج.",
+          "inputs": "حدد سجل المقاول الصحيح وعدّل بياناته أو معلومات الاتصال المطلوبة.",
+          "result": "يُحدّث سجل المقاول إذا نجح التحقق والحفظ.",
+          "notes": "تحقق من هوية المقاول قبل الحفظ لتجنب تعديل سجل شخص آخر."
+        },
+        "ckb": {
+          "purpose": "زانیاری پاشەکەوتکراوی پیمانکار بۆ دەستکاریکردن دەکاتەوە.",
+          "when": "کاتێک پێویستە زانیاری پیمانکار یان زانیاری پەیوەندییەکانی نوێ بکەیتەوە.",
+          "how": "لە تەنیشت پیمانکاری دروست Edit هەڵبژێرە، زانیارییە پێویستەکان بگۆڕە و فۆڕمەکە پاشەکەوت بکە.",
+          "inputs": "تۆماری پیمانکاری دروست هەڵبژێرە و زانیاری یان پەیوەندییە پێویستەکان بگۆڕە.",
+          "result": "ئەگەر پشتڕاستکردنەوە و پاشەکەوتکردن سەرکەوتوو بن، تۆماری پیمانکار نوێ دەکرێتەوە.",
+          "notes": "پێش پاشەکەوتکردن ناسنامەی پیمانکار بپشکنە بۆ ئەوەی تۆماری کەسێکی تر نەگۆڕیت."
+        },
+        "kmr": {
+          "purpose": "Agahiyên tomarkirî yên peymankar ji bo guherandinê vedike.",
+          "when": "Dema ku tu hewceyî nûkirina agahiyên peymankar an têkiliyê yî.",
+          "how": "Li kêleka peymankarê rast Edit hilbijêre, agahiyên pêwîst biguherîne û formê tomar bike.",
+          "inputs": "Tomara peymankarê rast hilbijêre û agahiyên an têkiliyên pêwîst biguherîne.",
+          "result": "Ger kontrol û tomarkirin serkeftî bin, tomara peymankar tê nûkirin.",
+          "notes": "Berî tomarkirinê nasnameya peymankar kontrol bike da ku tomara kesekî din neguherînî."
+        },
+        "tr": {
+          "purpose": "Kaydedilmiş yüklenici bilgilerini düzenlemek üzere açar.",
+          "when": "Yüklenicinin bilgilerini veya iletişim ayrıntılarını güncellemeniz gerektiğinde kullanın.",
+          "how": "Doğru yüklenicinin yanındaki Edit'i seçin, gerekli bilgileri güncelleyin ve formu kaydedin.",
+          "inputs": "Doğru yüklenici kaydını seçin ve gerekli bilgileri veya iletişim ayrıntılarını değiştirin.",
+          "result": "Doğrulama ve kayıt başarılı olursa yüklenici kaydı güncellenir.",
+          "notes": "Başka bir kişinin kaydını değiştirmemek için kaydetmeden önce yüklenicinin kimliğini doğrulayın."
+        },
+        "pl": {
+          "purpose": "Otwiera zapisane dane wykonawcy do edycji.",
+          "when": "Użyj, gdy trzeba zaktualizować dane wykonawcy lub informacje kontaktowe.",
+          "how": "Wybierz Edit obok właściwego wykonawcy, zaktualizuj wymagane dane i zapisz formularz.",
+          "inputs": "Wybierz właściwy rekord wykonawcy i zmień wymagane dane lub informacje kontaktowe.",
+          "result": "Rekord wykonawcy zostanie zaktualizowany, jeśli walidacja i zapis się powiedzie.",
+          "notes": "Przed zapisaniem potwierdź tożsamość wykonawcy, aby nie zmienić danych innej osoby."
+        },
+        "ur": {
+          "purpose": "محفوظ شدہ ٹھیکیدار کی تفصیلات ترمیم کے لیے کھولتا ہے۔",
+          "when": "جب ٹھیکیدار کی معلومات یا رابطے کی تفصیلات اپ ڈیٹ کرنی ہوں تو استعمال کریں۔",
+          "how": "درست ٹھیکیدار کے ساتھ Edit منتخب کریں، مطلوبہ معلومات اپ ڈیٹ کریں اور فارم محفوظ کریں۔",
+          "inputs": "درست ٹھیکیدار کا ریکارڈ منتخب کریں اور مطلوبہ معلومات یا رابطے کی تفصیلات تبدیل کریں۔",
+          "result": "توثیق اور محفوظ کرنے کا عمل کامیاب ہو تو ٹھیکیدار کا ریکارڈ اپ ڈیٹ ہو جاتا ہے۔",
+          "notes": "کسی دوسرے شخص کا ریکارڈ تبدیل ہونے سے بچانے کے لیے محفوظ کرنے سے پہلے ٹھیکیدار کی شناخت چیک کریں۔"
+        },
+        "pa": {
+          "purpose": "ਸੇਵ ਕੀਤੇ ਠੇਕੇਦਾਰ ਦੇ ਵੇਰਵੇ ਸੋਧਣ ਲਈ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਠੇਕੇਦਾਰ ਦੀ ਜਾਣਕਾਰੀ ਜਾਂ ਸੰਪਰਕ ਵੇਰਵੇ ਅਪਡੇਟ ਕਰਨੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸਹੀ ਠੇਕੇਦਾਰ ਦੇ ਨਾਲ Edit ਚੁਣੋ, ਲੋੜੀਂਦੀ ਜਾਣਕਾਰੀ ਅਪਡੇਟ ਕਰੋ ਅਤੇ ਫਾਰਮ ਸੇਵ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਠੇਕੇਦਾਰ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਲੋੜੀਂਦੀ ਜਾਣਕਾਰੀ ਜਾਂ ਸੰਪਰਕ ਵੇਰਵੇ ਬਦਲੋ।",
+          "result": "ਜਾਂਚ ਅਤੇ ਸੇਵ ਕਰਨਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਠੇਕੇਦਾਰ ਰਿਕਾਰਡ ਅਪਡੇਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਕਿਸੇ ਹੋਰ ਵਿਅਕਤੀ ਦਾ ਰਿਕਾਰਡ ਬਦਲਣ ਤੋਂ ਬਚਣ ਲਈ ਸੇਵ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਠੇਕੇਦਾਰ ਦੀ ਪਛਾਣ ਜਾਂਚੋ।"
+        },
+        "prs": {
+          "purpose": "اطلاعات ذخیره‌شده پیمانکار را برای ویرایش باز می‌کند.",
+          "when": "وقتی لازم است اطلاعات یا جزئیات تماس پیمانکار را به‌روزرسانی کنید، استفاده کنید.",
+          "how": "در کنار پیمانکار درست Edit را انتخاب کنید، اطلاعات لازم را تغییر دهید و فرم را ذخیره کنید.",
+          "inputs": "سابقه درست پیمانکار را انتخاب کنید و اطلاعات یا جزئیات تماس موردنیاز را تغییر دهید.",
+          "result": "اگر اعتبارسنجی و ذخیره موفق باشد، سابقه پیمانکار به‌روزرسانی می‌شود.",
+          "notes": "پیش از ذخیره هویت پیمانکار را بررسی کنید تا سابقه فرد دیگری تغییر نکند."
+        },
+        "ps": {
+          "purpose": "د خوندي شوي قراردادي معلومات د سمون لپاره پرانیزي.",
+          "when": "کله چې د قراردادي معلومات یا د اړیکې جزئیات تازه کول غواړئ، دا وکاروئ.",
+          "how": "د سم قراردادي تر څنګ Edit وټاکئ، اړین معلومات تازه کړئ او فورمه خوندي کړئ.",
+          "inputs": "د قراردادي سم ریکارډ وټاکئ او اړین معلومات یا د اړیکې جزئیات بدل کړئ.",
+          "result": "که ارزونه او خوندي کول بریالي شي، د قراردادي ریکارډ تازه کېږي.",
+          "notes": "له خوندي کولو مخکې د قراردادي هویت وګورئ څو د بل کس ریکارډ بدل نه شي."
         }
       },
       "handler_or_behavior": "`prEditContractor(`"
@@ -10705,7 +10849,7 @@
           "purpose": "Delete a contractor record.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Choose Delete beside the intended contractor and review the confirmation prompt.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct contractor record and verify its identity before confirming deletion.",
           "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
           "notes": "Check whether the contractor is referenced by jobs, payments or historic records before deletion."
         },
@@ -10713,9 +10857,81 @@
           "purpose": "حذف رکورد پیمانکار.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "در کنار پیمانکار موردنظر Delete را انتخاب کنید و پیام تأیید را بررسی کنید.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "سابقه درست پیمانکار را انتخاب کنید و پیش از تأیید حذف، هویت آن را بررسی کنید.",
           "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
           "notes": "پیش از حذف، ارتباط پیمانکار با کارها، پرداخت‌ها و سوابق قبلی را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يحذف سجل مقاول محدداً.",
+          "when": "فقط عندما يكون سجل المقاول مكرراً أو غير صحيح ويجب إزالته.",
+          "how": "اختر Delete بجانب المقاول المقصود وراجع رسالة التأكيد قبل المتابعة.",
+          "inputs": "حدد سجل المقاول الصحيح وتحقق من هويته قبل تأكيد الحذف.",
+          "result": "يُزال السجل أو يُعطّل فقط إذا قبل التطبيق العملية وأكدها.",
+          "notes": "تحقق قبل الحذف مما إذا كان المقاول مرتبطاً بوظائف أو دفعات أو سجلات تاريخية."
+        },
+        "ckb": {
+          "purpose": "تۆماری پیمانکارێکی دیاریکراو دەسڕێتەوە.",
+          "when": "تەنها کاتێک تۆماری پیمانکار دووبارە یان هەڵەیە و دەبێت لاببرێت.",
+          "how": "لە تەنیشت پیمانکاری مەبەست Delete هەڵبژێرە و پێش بەردەوامبوون نامەی پشتڕاستکردنەوە بپشکنە.",
+          "inputs": "تۆماری پیمانکاری دروست هەڵبژێرە و پێش پشتڕاستکردنەوەی سڕینەوە ناسنامەکەی بپشکنە.",
+          "result": "تۆمارەکە تەنها ئەگەر ئەپەکە کردارەکە قبووڵ و پشتڕاست بکاتەوە لادەبرێت یان ناچالاک دەکرێت.",
+          "notes": "پێش سڕینەوە بپشکنە ئایا پیمانکارەکە لەگەڵ کار، پارەدان یان تۆمارە مێژووییەکان پەیوەستە."
+        },
+        "kmr": {
+          "purpose": "Tomara peymankarekî taybet jê dike.",
+          "when": "Tenê dema ku tomara peymankar dubare an xelet e û divê were rakirin.",
+          "how": "Li kêleka peymankara armancê Delete hilbijêre û berî domandinê peyama piştrastkirinê kontrol bike.",
+          "inputs": "Tomara peymankarê rast hilbijêre û berî piştrastkirina jêbirinê nasnameya wê kontrol bike.",
+          "result": "Tomar tenê heke sepan kiryarê qebûl û piştrast bike tê rakirin an neçalak kirin.",
+          "notes": "Berî jêbirinê kontrol bike ka peymankar bi kar, dravdan an tomarên dîrokî ve girêdayî ye."
+        },
+        "tr": {
+          "purpose": "Belirli bir yüklenici kaydını siler.",
+          "when": "Yalnızca yüklenici kaydı yinelenmişse veya yanlışsa ve kaldırılması gerekiyorsa kullanın.",
+          "how": "İlgili yüklenicinin yanındaki Delete'i seçin ve devam etmeden önce onay mesajını inceleyin.",
+          "inputs": "Doğru yüklenici kaydını seçin ve silmeyi onaylamadan önce kimliğini doğrulayın.",
+          "result": "Uygulama işlemi kabul edip onaylarsa kayıt kaldırılır veya devre dışı bırakılır.",
+          "notes": "Silmeden önce yüklenicinin işlere, ödemelere veya geçmiş kayıtlara bağlı olup olmadığını kontrol edin."
+        },
+        "pl": {
+          "purpose": "Usuwa określony rekord wykonawcy.",
+          "when": "Użyj tylko wtedy, gdy rekord wykonawcy jest duplikatem lub jest nieprawidłowy i należy go usunąć.",
+          "how": "Wybierz Delete obok właściwego wykonawcy i przed kontynuowaniem sprawdź komunikat potwierdzający.",
+          "inputs": "Wybierz właściwy rekord wykonawcy i przed potwierdzeniem usunięcia sprawdź jego tożsamość.",
+          "result": "Rekord zostanie usunięty lub dezaktywowany tylko wtedy, gdy aplikacja zaakceptuje i potwierdzi operację.",
+          "notes": "Przed usunięciem sprawdź, czy wykonawca jest powiązany ze zleceniami, płatnościami lub zapisami historycznymi."
+        },
+        "ur": {
+          "purpose": "مخصوص ٹھیکیدار کا ریکارڈ حذف کرتا ہے۔",
+          "when": "صرف اس وقت استعمال کریں جب ٹھیکیدار کا ریکارڈ نقل یا غلط ہو اور اسے ہٹانا ضروری ہو۔",
+          "how": "متعلقہ ٹھیکیدار کے ساتھ Delete منتخب کریں اور آگے بڑھنے سے پہلے تصدیقی پیغام دیکھیں۔",
+          "inputs": "درست ٹھیکیدار کا ریکارڈ منتخب کریں اور حذف کی تصدیق سے پہلے اس کی شناخت چیک کریں۔",
+          "result": "ایپ کارروائی قبول اور تصدیق کرے تو ریکارڈ ہٹا یا غیر فعال ہو جاتا ہے۔",
+          "notes": "حذف کرنے سے پہلے دیکھیں کہ ٹھیکیدار کسی کام، ادائیگی یا تاریخی ریکارڈ سے منسلک تو نہیں۔"
+        },
+        "pa": {
+          "purpose": "ਇੱਕ ਖਾਸ ਠੇਕੇਦਾਰ ਰਿਕਾਰਡ ਮਿਟਾਉਂਦਾ ਹੈ।",
+          "when": "ਸਿਰਫ਼ ਜਦੋਂ ਠੇਕੇਦਾਰ ਰਿਕਾਰਡ ਡੁਪਲੀਕੇਟ ਜਾਂ ਗਲਤ ਹੋਵੇ ਅਤੇ ਹਟਾਉਣਾ ਲੋੜੀਂਦਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸੰਬੰਧਿਤ ਠੇਕੇਦਾਰ ਦੇ ਨਾਲ Delete ਚੁਣੋ ਅਤੇ ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਵੇਖੋ।",
+          "inputs": "ਸਹੀ ਠੇਕੇਦਾਰ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਮਿਟਾਉਣ ਦੀ ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਉਸਦੀ ਪਛਾਣ ਜਾਂਚੋ।",
+          "result": "ਐਪ ਕਾਰਵਾਈ ਸਵੀਕਾਰ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਰਿਕਾਰਡ ਹਟਾਇਆ ਜਾਂ ਅਕਿਰਿਆਸ਼ੀਲ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਮਿਟਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਜਾਂਚੋ ਕਿ ਠੇਕੇਦਾਰ ਕੰਮਾਂ, ਭੁਗਤਾਨਾਂ ਜਾਂ ਪੁਰਾਣੇ ਰਿਕਾਰਡਾਂ ਨਾਲ ਜੁੜਿਆ ਹੈ ਜਾਂ ਨਹੀਂ।"
+        },
+        "prs": {
+          "purpose": "یک سابقه مشخص پیمانکار را حذف می‌کند.",
+          "when": "فقط وقتی سابقه پیمانکار تکراری یا اشتباه است و باید حذف شود، استفاده کنید.",
+          "how": "در کنار پیمانکار موردنظر Delete را انتخاب کنید و پیش از ادامه پیام تأیید را بررسی کنید.",
+          "inputs": "سابقه درست پیمانکار را انتخاب کنید و پیش از تأیید حذف، هویت آن را بررسی کنید.",
+          "result": "سابقه فقط در صورت پذیرش و تأیید برنامه حذف یا غیرفعال می‌شود.",
+          "notes": "پیش از حذف بررسی کنید که پیمانکار به کارها، پرداخت‌ها یا سوابق تاریخی مرتبط نباشد."
+        },
+        "ps": {
+          "purpose": "د یوه ځانګړي قراردادي ریکارډ ړنګوي.",
+          "when": "یوازې هغه وخت یې وکاروئ چې د قراردادي ریکارډ تکراري یا غلط وي او لرې کول یې اړین وي.",
+          "how": "د اړوند قراردادي تر څنګ Delete وټاکئ او له دوام مخکې د تایید پیغام وګورئ.",
+          "inputs": "د قراردادي سم ریکارډ وټاکئ او د ړنګولو له تایید مخکې یې هویت وګورئ.",
+          "result": "ریکارډ یوازې هغه وخت لرې یا غیرفعال کېږي چې اپلیکیشن کړنه ومني او تایید یې کړي.",
+          "notes": "له ړنګولو مخکې وګورئ چې قراردادي له کارونو، تادیاتو یا تاریخي ریکارډونو سره تړلی دی که نه."
         }
       },
       "handler_or_behavior": "`prDeleteContractor(`"
@@ -10731,7 +10947,7 @@
           "purpose": "Open an attachment stored against a company contract or record.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Select the attachment name to open or download the associated file, depending on the device/browser.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct company attachment from the contract or company record.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "Check the filename and contents before sharing. An attachment link does not alter the underlying contract."
         },
@@ -10739,9 +10955,81 @@
           "purpose": "باز کردن فایل پیوست‌شده به قرارداد یا رکورد شرکت.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "نام فایل پیوست را انتخاب کنید تا فایل مرتبط، بسته به مرورگر و دستگاه، باز یا بارگیری شود.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "پیوست درست شرکت را از سابقه قرارداد یا شرکت انتخاب کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "پیش از اشتراک‌گذاری، نام و محتوای فایل را بررسی کنید. باز کردن پیوست، قرارداد اصلی را تغییر نمی‌دهد."
+        },
+        "ar": {
+          "purpose": "يفتح الملف المرفق بعقد الشركة أو سجلها.",
+          "when": "عندما تحتاج إلى مراجعة مستند مرفق بعقد أو سجل الشركة.",
+          "how": "اختر اسم الملف المرفق لفتحه أو تنزيله بحسب الجهاز والمتصفح.",
+          "inputs": "حدد مرفق الشركة الصحيح من سجل العقد أو الشركة.",
+          "result": "يُفتح الملف المرتبط أو يبدأ تنزيله وفقاً لدعم الجهاز والمتصفح.",
+          "notes": "تحقق من اسم الملف ومحتواه قبل مشاركته. فتح المرفق لا يغيّر العقد الأصلي."
+        },
+        "ckb": {
+          "purpose": "فایلی هاوپێچکراو بە گرێبەستی کۆمپانیا یان تۆمارەکەی دەکاتەوە.",
+          "when": "کاتێک پێویستە بەڵگەنامەیەکی هاوپێچکراو بە گرێبەست یان تۆماری کۆمپانیا بپشکنیت.",
+          "how": "ناوی فایلی هاوپێچکراو هەڵبژێرە بۆ کردنەوە یان داگرتنی، بە پێی ئامێر و وێبگەڕەکە.",
+          "inputs": "هاوپێچی دروستی کۆمپانیا لە تۆماری گرێبەست یان کۆمپانیا هەڵبژێرە.",
+          "result": "فایلی پەیوەست دەکرێتەوە یان بە پێی پشتگیری ئامێر و وێبگەڕ دادەبەزێت.",
+          "notes": "پێش هاوبەشکردن ناو و ناوەڕۆکی فایلەکە بپشکنە. کردنەوەی هاوپێچ گرێبەستی بنەڕەتی ناگۆڕێت."
+        },
+        "kmr": {
+          "purpose": "Pelê pêvekirî yê bi peymana pargîdanî an tomara wê re vedike.",
+          "when": "Dema ku tu hewceyî kontrolkirina belgeyeke pêvekirî ya bi peyman an tomara pargîdanî re girêdayî yî.",
+          "how": "Navê pelê pêvekirî hilbijêre da ku veke an daxîne, li gorî amûr û gerokê.",
+          "inputs": "Pêveka rast a pargîdanî ji tomara peymanê an pargîdanî hilbijêre.",
+          "result": "Pelê girêdayî vedibe an li gorî piştgirîya amûr û gerokê tê daxistin.",
+          "notes": "Berî parvekirinê nav û naveroka pelê kontrol bike. Vekirina pêvekê peymana bingehîn naguherîne."
+        },
+        "tr": {
+          "purpose": "Bir şirket sözleşmesine veya kaydına eklenmiş dosyayı açar.",
+          "when": "Şirket sözleşmesine veya kaydına eklenmiş bir belgeyi incelemeniz gerektiğinde kullanın.",
+          "how": "Cihaza ve tarayıcıya bağlı olarak ilişkili dosyayı açmak veya indirmek için ek dosyanın adını seçin.",
+          "inputs": "Sözleşme veya şirket kaydındaki doğru şirket ekini seçin.",
+          "result": "Bağlantılı dosya açılır veya cihaz ve tarayıcı desteğine göre indirme başlar.",
+          "notes": "Paylaşmadan önce dosya adını ve içeriğini kontrol edin. Eki açmak temel sözleşmeyi değiştirmez."
+        },
+        "pl": {
+          "purpose": "Otwiera plik dołączony do umowy lub rekordu firmy.",
+          "when": "Użyj, gdy chcesz sprawdzić dokument dołączony do umowy lub rekordu firmy.",
+          "how": "Wybierz nazwę załącznika, aby otworzyć lub pobrać powiązany plik, zależnie od urządzenia i przeglądarki.",
+          "inputs": "Wybierz właściwy załącznik firmy z rekordu umowy lub firmy.",
+          "result": "Powiązany plik zostanie otwarty lub rozpocznie się jego pobieranie, zależnie od obsługi urządzenia i przeglądarki.",
+          "notes": "Przed udostępnieniem sprawdź nazwę i zawartość pliku. Otwarcie załącznika nie zmienia umowy źródłowej."
+        },
+        "ur": {
+          "purpose": "کمپنی کے معاہدے یا ریکارڈ کے ساتھ منسلک فائل کھولتا ہے۔",
+          "when": "جب کمپنی کے معاہدے یا ریکارڈ سے منسلک دستاویز دیکھنی ہو تو استعمال کریں۔",
+          "how": "ڈیوائس اور براؤزر کے مطابق متعلقہ فائل کھولنے یا ڈاؤن لوڈ کرنے کے لیے منسلکہ کا نام منتخب کریں۔",
+          "inputs": "معاہدے یا کمپنی ریکارڈ میں درست کمپنی منسلکہ منتخب کریں۔",
+          "result": "متعلقہ فائل کھل جاتی ہے یا ڈیوائس اور براؤزر کی سہولت کے مطابق ڈاؤن لوڈ شروع ہو جاتا ہے۔",
+          "notes": "شیئر کرنے سے پہلے فائل کا نام اور مواد چیک کریں۔ منسلکہ کھولنے سے اصل معاہدہ تبدیل نہیں ہوتا۔"
+        },
+        "pa": {
+          "purpose": "ਕੰਪਨੀ ਦੇ ਕਰਾਰ ਜਾਂ ਰਿਕਾਰਡ ਨਾਲ ਜੁੜੀ ਫਾਈਲ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਕੰਪਨੀ ਦੇ ਕਰਾਰ ਜਾਂ ਰਿਕਾਰਡ ਨਾਲ ਜੁੜਿਆ ਦਸਤਾਵੇਜ਼ ਵੇਖਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਡਿਵਾਈਸ ਅਤੇ ਬ੍ਰਾਊਜ਼ਰ ਅਨੁਸਾਰ ਸੰਬੰਧਿਤ ਫਾਈਲ ਖੋਲ੍ਹਣ ਜਾਂ ਡਾਊਨਲੋਡ ਕਰਨ ਲਈ ਅਟੈਚਮੈਂਟ ਦਾ ਨਾਮ ਚੁਣੋ।",
+          "inputs": "ਕਰਾਰ ਜਾਂ ਕੰਪਨੀ ਰਿਕਾਰਡ ਵਿੱਚੋਂ ਸਹੀ ਕੰਪਨੀ ਅਟੈਚਮੈਂਟ ਚੁਣੋ।",
+          "result": "ਸੰਬੰਧਿਤ ਫਾਈਲ ਖੁੱਲ੍ਹਦੀ ਹੈ ਜਾਂ ਡਿਵਾਈਸ ਅਤੇ ਬ੍ਰਾਊਜ਼ਰ ਦੀ ਸਹੂਲਤ ਅਨੁਸਾਰ ਡਾਊਨਲੋਡ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ।",
+          "notes": "ਸਾਂਝਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਫਾਈਲ ਦਾ ਨਾਮ ਅਤੇ ਸਮੱਗਰੀ ਜਾਂਚੋ। ਅਟੈਚਮੈਂਟ ਖੋਲ੍ਹਣ ਨਾਲ ਮੂਲ ਕਰਾਰ ਨਹੀਂ ਬਦਲਦਾ।"
+        },
+        "prs": {
+          "purpose": "فایل پیوست‌شده به قرارداد یا سابقه شرکت را باز می‌کند.",
+          "when": "وقتی لازم است سندی را که به قرارداد یا سابقه شرکت پیوست شده بررسی کنید، استفاده کنید.",
+          "how": "نام فایل پیوست را انتخاب کنید تا بسته به دستگاه و مرورگر باز یا بارگیری شود.",
+          "inputs": "پیوست درست شرکت را از سابقه قرارداد یا شرکت انتخاب کنید.",
+          "result": "فایل مرتبط باز می‌شود یا بسته به پشتیبانی دستگاه و مرورگر بارگیری آن آغاز می‌شود.",
+          "notes": "پیش از اشتراک‌گذاری نام و محتوای فایل را بررسی کنید. بازکردن پیوست، قرارداد اصلی را تغییر نمی‌دهد."
+        },
+        "ps": {
+          "purpose": "د شرکت له قرارداد یا ریکارډ سره نښلول شوې فایل پرانیزي.",
+          "when": "کله چې د شرکت له قرارداد یا ریکارډ سره نښلول شوی سند کتلو ته اړتیا لرئ، دا وکاروئ.",
+          "how": "د وسیلې او براوزر له مخې د اړوند فایل د پرانیستلو یا ښکته کولو لپاره د ضمیمې نوم وټاکئ.",
+          "inputs": "د قرارداد یا شرکت په ریکارډ کې د شرکت سمه ضمیمه وټاکئ.",
+          "result": "اړوند فایل پرانیستل کېږي یا د وسیلې او براوزر د ملاتړ له مخې ښکته کول یې پیلېږي.",
+          "notes": "له شریکولو مخکې د فایل نوم او منځپانګه وګورئ. د ضمیمې پرانیستل اصلي قرارداد نه بدلوي."
         }
       },
       "handler_or_behavior": "`coOpenAttachment(`"
@@ -10757,7 +11045,7 @@
           "purpose": "Edit a company record.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Choose Edit for the intended company, review its details and save the changes.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct company record and review the legal or contact details that you want to change.",
           "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
           "notes": "Confirm the company identity before changing legal or contact details."
         },
@@ -10765,9 +11053,81 @@
           "purpose": "ویرایش اطلاعات یک شرکت.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "برای شرکت موردنظر Edit را انتخاب کنید، اطلاعات آن را بررسی و تغییر دهید و ذخیره کنید.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "سابقه درست شرکت را انتخاب کنید و اطلاعات حقوقی یا تماسی را که می‌خواهید تغییر دهید بررسی کنید.",
           "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
           "notes": "پیش از تغییر اطلاعات حقوقی یا تماس، هویت شرکت را تأیید کنید."
+        },
+        "ar": {
+          "purpose": "يفتح سجل الشركة لتعديل بياناتها.",
+          "when": "عندما تحتاج إلى تحديث بيانات الشركة أو معلوماتها القانونية أو معلومات الاتصال.",
+          "how": "اختر Edit للشركة المقصودة، وراجع بياناتها وعدّل المطلوب، ثم احفظ التغييرات.",
+          "inputs": "حدد سجل الشركة الصحيح وراجع البيانات القانونية وبيانات الاتصال التي تريد تعديلها.",
+          "result": "يُحدّث سجل الشركة إذا نجح التحقق والحفظ.",
+          "notes": "تحقق من هوية الشركة قبل تغيير بياناتها القانونية أو معلومات الاتصال."
+        },
+        "ckb": {
+          "purpose": "تۆماری کۆمپانیا بۆ دەستکاریکردنی زانیارییەکانی دەکاتەوە.",
+          "when": "کاتێک پێویستە زانیاری کۆمپانیا، زانیاری یاسایی یان پەیوەندی نوێ بکەیتەوە.",
+          "how": "بۆ کۆمپانیای مەبەست Edit هەڵبژێرە، زانیارییەکانی بپشکنە و گۆڕانکارییە پێویستەکان پاشەکەوت بکە.",
+          "inputs": "تۆماری کۆمپانیای دروست هەڵبژێرە و زانیاری یاسایی یان پەیوەندییەکانی کە دەتەوێت بگۆڕیت بپشکنە.",
+          "result": "ئەگەر پشتڕاستکردنەوە و پاشەکەوتکردن سەرکەوتوو بن، تۆماری کۆمپانیا نوێ دەکرێتەوە.",
+          "notes": "پێش گۆڕینی زانیاری یاسایی یان پەیوەندی، ناسنامەی کۆمپانیا پشتڕاست بکەرەوە."
+        },
+        "kmr": {
+          "purpose": "Tomara pargîdanî ji bo guherandina agahiyan vedike.",
+          "when": "Dema ku tu hewceyî nûkirina agahiyên pargîdanî, qanûnî an têkiliyê yî.",
+          "how": "Ji bo pargîdaniya armancê Edit hilbijêre, agahiyên wê kontrol bike û guherînên pêwîst tomar bike.",
+          "inputs": "Tomara pargîdaniya rast hilbijêre û agahiyên qanûnî an têkiliyê yên ku dixwazî biguherînî kontrol bike.",
+          "result": "Ger kontrol û tomarkirin serkeftî bin, tomara pargîdanî tê nûkirin.",
+          "notes": "Berî guherandina agahiyên qanûnî an têkiliyê nasnameya pargîdanî piştrast bike."
+        },
+        "tr": {
+          "purpose": "Bir şirket kaydını bilgilerini düzenlemek üzere açar.",
+          "when": "Şirket bilgilerini, yasal ayrıntıları veya iletişim bilgilerini güncellemeniz gerektiğinde kullanın.",
+          "how": "İlgili şirket için Edit'i seçin, bilgilerini inceleyip gerekli değişiklikleri yapın ve kaydedin.",
+          "inputs": "Doğru şirket kaydını seçin ve değiştirmek istediğiniz yasal veya iletişim bilgilerini inceleyin.",
+          "result": "Doğrulama ve kayıt başarılı olursa şirket kaydı güncellenir.",
+          "notes": "Yasal veya iletişim bilgilerini değiştirmeden önce şirket kimliğini doğrulayın."
+        },
+        "pl": {
+          "purpose": "Otwiera rekord firmy do edycji jej danych.",
+          "when": "Użyj, gdy trzeba zaktualizować dane firmy, informacje prawne lub kontaktowe.",
+          "how": "Wybierz Edit przy właściwej firmie, sprawdź jej dane, wprowadź potrzebne zmiany i zapisz.",
+          "inputs": "Wybierz właściwy rekord firmy i sprawdź dane prawne lub kontaktowe, które chcesz zmienić.",
+          "result": "Rekord firmy zostanie zaktualizowany, jeśli walidacja i zapis się powiedzie.",
+          "notes": "Przed zmianą danych prawnych lub kontaktowych potwierdź tożsamość firmy."
+        },
+        "ur": {
+          "purpose": "کمپنی کی معلومات میں ترمیم کے لیے اس کا ریکارڈ کھولتا ہے۔",
+          "when": "جب کمپنی کی معلومات، قانونی تفصیلات یا رابطے کی معلومات اپ ڈیٹ کرنی ہوں تو استعمال کریں۔",
+          "how": "متعلقہ کمپنی کے لیے Edit منتخب کریں، اس کی تفصیلات دیکھیں، مطلوبہ تبدیلیاں کریں اور محفوظ کریں۔",
+          "inputs": "درست کمپنی ریکارڈ منتخب کریں اور وہ قانونی یا رابطے کی معلومات دیکھیں جنہیں تبدیل کرنا ہے۔",
+          "result": "توثیق اور محفوظ کرنے کا عمل کامیاب ہو تو کمپنی کا ریکارڈ اپ ڈیٹ ہو جاتا ہے۔",
+          "notes": "قانونی یا رابطے کی معلومات تبدیل کرنے سے پہلے کمپنی کی شناخت کی تصدیق کریں۔"
+        },
+        "pa": {
+          "purpose": "ਕੰਪਨੀ ਰਿਕਾਰਡ ਨੂੰ ਉਸਦੀ ਜਾਣਕਾਰੀ ਸੋਧਣ ਲਈ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਕੰਪਨੀ ਦੀ ਜਾਣਕਾਰੀ, ਕਾਨੂੰਨੀ ਵੇਰਵੇ ਜਾਂ ਸੰਪਰਕ ਜਾਣਕਾਰੀ ਅਪਡੇਟ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸੰਬੰਧਿਤ ਕੰਪਨੀ ਲਈ Edit ਚੁਣੋ, ਵੇਰਵੇ ਵੇਖੋ, ਲੋੜੀਂਦੀਆਂ ਤਬਦੀਲੀਆਂ ਕਰੋ ਅਤੇ ਸੇਵ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਕੰਪਨੀ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਉਹ ਕਾਨੂੰਨੀ ਜਾਂ ਸੰਪਰਕ ਜਾਣਕਾਰੀ ਵੇਖੋ ਜਿਸਨੂੰ ਬਦਲਣਾ ਹੈ।",
+          "result": "ਜਾਂਚ ਅਤੇ ਸੇਵ ਕਰਨਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਕੰਪਨੀ ਰਿਕਾਰਡ ਅਪਡੇਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਕਾਨੂੰਨੀ ਜਾਂ ਸੰਪਰਕ ਜਾਣਕਾਰੀ ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ ਕੰਪਨੀ ਦੀ ਪਛਾਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।"
+        },
+        "prs": {
+          "purpose": "سابقه شرکت را برای ویرایش اطلاعات آن باز می‌کند.",
+          "when": "وقتی لازم است اطلاعات شرکت، جزئیات حقوقی یا اطلاعات تماس آن را به‌روزرسانی کنید، استفاده کنید.",
+          "how": "برای شرکت موردنظر Edit را انتخاب کنید، اطلاعات آن را بررسی و تغییرات لازم را ذخیره کنید.",
+          "inputs": "سابقه درست شرکت را انتخاب کنید و اطلاعات حقوقی یا تماسی را که می‌خواهید تغییر دهید بررسی کنید.",
+          "result": "اگر اعتبارسنجی و ذخیره موفق باشد، سابقه شرکت به‌روزرسانی می‌شود.",
+          "notes": "پیش از تغییر اطلاعات حقوقی یا تماس، هویت شرکت را تأیید کنید."
+        },
+        "ps": {
+          "purpose": "د شرکت ریکارډ د معلوماتو د سمون لپاره پرانیزي.",
+          "when": "کله چې د شرکت معلومات، قانوني جزئیات یا د اړیکې معلومات تازه کول غواړئ، دا وکاروئ.",
+          "how": "د اړوند شرکت لپاره Edit وټاکئ، معلومات یې وګورئ، اړین بدلونونه وکړئ او خوندي یې کړئ.",
+          "inputs": "د شرکت سم ریکارډ وټاکئ او هغه قانوني یا د اړیکې معلومات وګورئ چې بدلول یې غواړئ.",
+          "result": "که ارزونه او خوندي کول بریالي شي، د شرکت ریکارډ تازه کېږي.",
+          "notes": "د قانوني یا د اړیکې معلوماتو له بدلولو مخکې د شرکت هویت تایید کړئ."
         }
       },
       "handler_or_behavior": "`coEditCompany(`"
