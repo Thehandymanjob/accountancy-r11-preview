@@ -9390,6 +9390,78 @@
           "inputs": "انتخاب یک پروژه ذخیره‌شده الزامی است. گزارش از شناسه همان پروژه استفاده می‌کند و انتخاب خالی پذیرفته نمی‌شود.",
           "result": "گزارش Project Financial Report برای پروژه انتخاب‌شده باز می‌شود. اگر پروژه زیرپروژه داشته باشد، سوابق پروژه اصلی و زیرپروژه‌ها در گزارش تجمیع می‌شوند.",
           "notes": "گزارش درآمد پروژه را پس از کسر هزینه‌های قابل احتساب پروژه محاسبه می‌کند. هزینه‌های پرداخت‌شده یا بازپرداخت‌شده توسط مشتری و سوابق قدیمی مصالح که تسویه‌شده یا پرداخت‌شده توسط مشتری علامت خورده‌اند، از هزینه‌ها کنار گذاشته می‌شوند. این گزارش اظهارنامه HMRC یا جایگزین گزارش‌های عمومی Accountancy و مالیاتی نیست. پیش از اتکا به نتیجه، پروژه انتخاب‌شده و سوابق اصلی را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يفتح Project Financial Report للمشروع المحدد في محدد Project Profit & Loss.",
+          "when": "استخدم هذا الخيار لمراجعة الدخل المسجل للمشروع المحفوظ المحدد والتكاليف المضمنة والنتيجة الحالية والعقد المتبقي.",
+          "how": "افتح Project Profit & Loss، واختر مشروعاً محفوظاً من Select project، ثم اختر View Financial Report. إذا كان المحدد فارغاً، يعرض التطبيق تنبيهاً ولا يفتح تقريراً.",
+          "inputs": "يجب اختيار مشروع محفوظ. يستخدم التقرير معرّف ذلك المشروع؛ ولا يُقبل الاختيار الفارغ.",
+          "result": "يُفتح Project Financial Report للمشروع المحدد. إذا كان للمشروع مشاريع فرعية، يجمع التقرير سجلات المشروع الرئيسي والمشاريع الفرعية.",
+          "notes": "يحسب التقرير دخل المشروع مطروحاً منه تكاليف المشروع المضمنة. تُستثنى المصروفات التي دفعها العميل أو عوّضه عنها، وكذلك سجلات المواد القديمة المعلّمة بأنها مسوّاة أو مدفوعة من العميل. هذا ليس إقراراً إلى HMRC ولا بديلاً عن تقارير Accountancy العامة أو التقارير الضريبية. تحقق من المشروع المحدد والسجلات الأساسية قبل الاعتماد على النتيجة."
+        },
+        "ckb": {
+          "purpose": "Project Financial Report بۆ ئەو پڕۆژەیە دەکاتەوە کە لە هەڵبژێری Project Profit & Loss هەڵبژێردراوە.",
+          "when": "کاتێک دەتەوێت داهاتی تۆمارکراو، تێچووە بەشداربووەکان، ئەنجامی ئێستا و گرێبەستی ماوەی پڕۆژەی پاشەکەوتکراوی هەڵبژێردراو بپشکنیت، ئەم هەڵبژاردەیە بەکاربهێنە.",
+          "how": "Project Profit & Loss بکەرەوە، لە Select project پڕۆژەیەکی پاشەکەوتکراو هەڵبژێرە، پاشان View Financial Report هەڵبژێرە. ئەگەر هەڵبژێرەکە بەتاڵ بێت، بەرنامە ئاگادارییەک پیشان دەدات و ڕاپۆرت ناکاتەوە.",
+          "inputs": "دەبێت پڕۆژەیەکی پاشەکەوتکراو هەڵبژێردرێت. ڕاپۆرتەکە ناسنامەی ئەو پڕۆژەیە بەکاردەهێنێت؛ هەڵبژاردەی بەتاڵ قبوڵ ناکرێت.",
+          "result": "Project Financial Report بۆ پڕۆژەی هەڵبژێردراو دەکرێتەوە. ئەگەر پڕۆژەکە ژێرپڕۆژەی هەبێت، ڕاپۆرتەکە تۆمارەکانی پڕۆژەی سەرەکی و ژێرپڕۆژەکان کۆدەکاتەوە.",
+          "notes": "ڕاپۆرتەکە داهاتی پڕۆژە لێک دەداتەوە بە تێچووە بەشداربووەکانی پڕۆژە. ئەو خەرجیانە ناژمێرێت کە کڕیار پارەی داوە یان قەرەبووی کردوونەتەوە، هەروەها تۆمارە کۆنەکانی کەرەستە کە بە تەواوبوو یان پارەدراو لەلایەن کڕیارەوە نیشان کراون. ئەمە ناردنی باج بۆ HMRC نییە و جێگرەوەی ڕاپۆرتە گشتییەکانی Accountancy یان ڕاپۆرتی باج نییە. پێش پشتبەستن بە ئەنجام، پڕۆژە و تۆمارە بنەڕەتییەکان بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Project Financial Report ji bo projeya ku di hilbijêra Project Profit & Loss de hatiye hilbijartin vedike.",
+          "when": "Vê bikar bîne dema ku dahata tomarkirî, lêçûnên têxistî, encama niha û peymana mayî ya projeya tomarkirî ya hilbijartî dinirxînî.",
+          "how": "Project Profit & Loss veke, ji Select project projeyeke tomarkirî hilbijêre, paşê View Financial Report hilbijêre. Heke hilbijêr vala be, sepan hişyariyekê nîşan dide û raporê venake.",
+          "inputs": "Divê projeyeke tomarkirî were hilbijartin. Rapor nasnameya wê projeyê bikar tîne; hilbijartina vala nayê pejirandin.",
+          "result": "Project Financial Report ji bo projeya hilbijartî vedibe. Heke projeyê bin-proje hebin, rapor tomarên projeya dêwî û bin-projeyan kom dike.",
+          "notes": "Rapor dahata projeyê ji lêçûnên projeyê yên têxistî derdixe. Lêçûnên ku xerîdar daye an vegerandine, û tomarên kevn ên materyalê yên ku wekî hatî tasfiye kirin an ji aliyê xerîdar ve hatî dayîn nîşan kirine, nayên hesibandin. Ev şandina bacê ji HMRC re nîne û cîgirê raporên giştî yên Accountancy an bacê nîne. Berî ku xwe dispêrî encamê bibî, projeya hilbijartî û tomarên bingehîn kontrol bike."
+        },
+        "tr": {
+          "purpose": "Project Profit & Loss seçicisinde seçilen proje için Project Financial Report sayfasını açar.",
+          "when": "Seçilen kayıtlı projenin kaydedilmiş gelirini, dahil edilen maliyetlerini, mevcut sonucunu ve kalan sözleşme tutarını incelemek için kullanın.",
+          "how": "Project Profit & Loss bölümünü açın, Select project listesinden kayıtlı bir proje seçin ve View Financial Report seçeneğini belirleyin. Seçim boşsa uygulama uyarı gösterir ve raporu açmaz.",
+          "inputs": "Kayıtlı bir proje seçilmelidir. Rapor o projenin kimliğini kullanır; boş seçim kabul edilmez.",
+          "result": "Seçilen proje için Project Financial Report açılır. Projenin alt projeleri varsa rapor ana proje ve alt proje kayıtlarını birleştirir.",
+          "notes": "Rapor, proje gelirinden dahil edilen proje maliyetlerini çıkararak hesaplama yapar. Müşteri tarafından ödenen veya müşteriye geri ödenen giderler ile kapatılmış ya da müşteri tarafından ödenmiş olarak işaretlenen eski malzeme kayıtları hariç tutulur. Bu bir HMRC beyanı veya genel Accountancy ya da vergi raporlarının yerine geçen bir rapor değildir. Sonuca güvenmeden önce seçilen projeyi ve dayanak kayıtları doğrulayın."
+        },
+        "pl": {
+          "purpose": "Otwiera Project Financial Report dla projektu wybranego w selektorze Project Profit & Loss.",
+          "when": "Użyj tej opcji, aby przejrzeć zarejestrowane przychody wybranego zapisanego projektu, uwzględnione koszty, bieżący wynik i pozostałą wartość kontraktu.",
+          "how": "Otwórz Project Profit & Loss, wybierz zapisany projekt z Select project, a następnie wybierz View Financial Report. Jeśli selektor jest pusty, aplikacja wyświetli alert i nie otworzy raportu.",
+          "inputs": "Trzeba wybrać zapisany projekt. Raport używa identyfikatora tego projektu; pusty wybór nie jest akceptowany.",
+          "result": "Otwiera się Project Financial Report dla wybranego projektu. Jeśli projekt ma podprojekty, raport agreguje rekordy projektu nadrzędnego i podprojektów.",
+          "notes": "Raport oblicza przychód projektu pomniejszony o uwzględnione koszty projektu. Wyłączone są wydatki opłacone przez klienta lub zwrócone przez klienta, a także starsze rekordy materiałów oznaczone jako rozliczone lub opłacone przez klienta. Nie jest to zgłoszenie do HMRC ani zamiennik ogólnych raportów Accountancy lub raportów podatkowych. Przed poleganiem na wyniku sprawdź wybrany projekt i dane źródłowe."
+        },
+        "ur": {
+          "purpose": "Project Profit & Loss کے انتخابی خانے میں منتخب منصوبے کے لیے Project Financial Report کھولتا ہے۔",
+          "when": "اسے منتخب محفوظ شدہ منصوبے کی درج شدہ آمدنی، شامل اخراجات، موجودہ نتیجے اور باقی معاہدے کا جائزہ لینے کے لیے استعمال کریں۔",
+          "how": "Project Profit & Loss کھولیں، Select project سے محفوظ شدہ منصوبہ منتخب کریں، پھر View Financial Report منتخب کریں۔ اگر انتخاب خالی ہو تو ایپ انتباہ دکھاتی ہے اور رپورٹ نہیں کھولتی۔",
+          "inputs": "ایک محفوظ شدہ منصوبہ منتخب ہونا ضروری ہے۔ رپورٹ اسی منصوبے کی شناخت استعمال کرتی ہے؛ خالی انتخاب قبول نہیں ہوتا۔",
+          "result": "منتخب منصوبے کے لیے Project Financial Report کھلتی ہے۔ اگر منصوبے کے ذیلی منصوبے ہوں تو رپورٹ مرکزی اور ذیلی منصوبوں کے ریکارڈ یکجا کرتی ہے۔",
+          "notes": "رپورٹ منصوبے کی آمدنی میں سے شامل شدہ منصوبہ اخراجات منہا کرتی ہے۔ کسٹمر کی طرف سے ادا یا واپس کیے گئے اخراجات، اور پرانے مواد کے وہ ریکارڈ جو تصفیہ شدہ یا کسٹمر کی طرف سے ادا شدہ نشان زد ہوں، شامل نہیں کیے جاتے۔ یہ HMRC میں جمع کرانے کی رپورٹ یا عمومی Accountancy یا ٹیکس رپورٹس کا متبادل نہیں۔ نتیجے پر بھروسا کرنے سے پہلے منتخب منصوبہ اور بنیادی ریکارڈ کی تصدیق کریں۔"
+        },
+        "pa": {
+          "purpose": "Project Profit & Loss ਚੋਣਕਾਰ ਵਿੱਚ ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਲਈ Project Financial Report ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਚੁਣੇ ਸੰਭਾਲੇ ਪ੍ਰੋਜੈਕਟ ਦੀ ਦਰਜ ਆਮਦਨ, ਸ਼ਾਮਲ ਖਰਚਿਆਂ, ਮੌਜੂਦਾ ਨਤੀਜੇ ਅਤੇ ਬਾਕੀ ਠੇਕੇ ਦੀ ਸਮੀਖਿਆ ਲਈ ਕਰੋ।",
+          "how": "Project Profit & Loss ਖੋਲ੍ਹੋ, Select project ਵਿੱਚੋਂ ਸੰਭਾਲਿਆ ਪ੍ਰੋਜੈਕਟ ਚੁਣੋ, ਫਿਰ View Financial Report ਚੁਣੋ। ਜੇ ਚੋਣ ਖਾਲੀ ਹੋਵੇ ਤਾਂ ਐਪ ਚੇਤਾਵਨੀ ਦਿਖਾਉਂਦੀ ਹੈ ਅਤੇ ਰਿਪੋਰਟ ਨਹੀਂ ਖੋਲ੍ਹਦੀ।",
+          "inputs": "ਇੱਕ ਸੰਭਾਲਿਆ ਪ੍ਰੋਜੈਕਟ ਚੁਣਨਾ ਲਾਜ਼ਮੀ ਹੈ। ਰਿਪੋਰਟ ਉਸ ਪ੍ਰੋਜੈਕਟ ਦੀ ID ਵਰਤਦੀ ਹੈ; ਖਾਲੀ ਚੋਣ ਮਨਜ਼ੂਰ ਨਹੀਂ।",
+          "result": "ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਲਈ Project Financial Report ਖੁੱਲ੍ਹਦੀ ਹੈ। ਜੇ ਪ੍ਰੋਜੈਕਟ ਦੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਹਨ ਤਾਂ ਰਿਪੋਰਟ ਮੁੱਖ ਅਤੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਇਕੱਠੇ ਕਰਦੀ ਹੈ।",
+          "notes": "ਰਿਪੋਰਟ ਪ੍ਰੋਜੈਕਟ ਦੀ ਆਮਦਨ ਵਿੱਚੋਂ ਸ਼ਾਮਲ ਪ੍ਰੋਜੈਕਟ ਖਰਚੇ ਘਟਾ ਕੇ ਗਿਣਤੀ ਕਰਦੀ ਹੈ। ਗਾਹਕ ਵੱਲੋਂ ਅਦਾ ਜਾਂ ਵਾਪਸ ਕੀਤੇ ਖਰਚੇ ਅਤੇ ਪੁਰਾਣੇ ਸਮੱਗਰੀ ਰਿਕਾਰਡ ਜਿਨ੍ਹਾਂ ਨੂੰ ਨਿਪਟਾਇਆ ਜਾਂ ਗਾਹਕ ਵੱਲੋਂ ਅਦਾ ਕੀਤਾ ਦਰਸਾਇਆ ਗਿਆ ਹੈ, ਸ਼ਾਮਲ ਨਹੀਂ ਹੁੰਦੇ। ਇਹ HMRC ਵਿੱਚ ਜਮ੍ਹਾਂ ਕਰਵਾਉਣਾ ਜਾਂ ਆਮ Accountancy ਜਾਂ ਟੈਕਸ ਰਿਪੋਰਟਾਂ ਦਾ ਬਦਲ ਨਹੀਂ। ਨਤੀਜੇ 'ਤੇ ਭਰੋਸਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਅਤੇ ਮੂਲ ਰਿਕਾਰਡ ਜਾਂਚੋ।"
+        },
+        "prs": {
+          "purpose": "گزارش Project Financial Report را برای پروژه انتخاب‌شده در انتخاب‌گر Project Profit & Loss باز می‌کند.",
+          "when": "برای بررسی درآمد ثبت‌شده، هزینه‌های لحاظ‌شده، نتیجه فعلی و مانده قرارداد پروژه ذخیره‌شده انتخاب‌شده از این گزینه استفاده کنید.",
+          "how": "Project Profit & Loss را باز کنید، از Select project یک پروژه ذخیره‌شده انتخاب کنید و سپس View Financial Report را انتخاب کنید. اگر انتخاب‌گر خالی باشد، برنامه هشدار نمایش می‌دهد و گزارش را باز نمی‌کند.",
+          "inputs": "انتخاب یک پروژه ذخیره‌شده الزامی است. گزارش از شناسه همان پروژه استفاده می‌کند؛ انتخاب خالی پذیرفته نمی‌شود.",
+          "result": "گزارش Project Financial Report برای پروژه انتخاب‌شده باز می‌شود. اگر پروژه زیرپروژه داشته باشد، سوابق پروژه اصلی و زیرپروژه‌ها در گزارش تجمیع می‌شوند.",
+          "notes": "گزارش درآمد پروژه را پس از کسر هزینه‌های قابل احتساب پروژه محاسبه می‌کند. هزینه‌های پرداخت‌شده یا بازپرداخت‌شده توسط مشتری و سوابق قدیمی مصالح که تسویه‌شده یا پرداخت‌شده توسط مشتری علامت خورده‌اند، کنار گذاشته می‌شوند. این گزارش اظهارنامه HMRC یا جایگزین گزارش‌های عمومی Accountancy و مالیاتی نیست. پیش از اتکا به نتیجه، پروژه انتخاب‌شده و سوابق اصلی را بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د Project Profit & Loss په ټاکونکي کې د ټاکل شوې پروژې لپاره Project Financial Report پرانیزي.",
+          "when": "دا هغه وخت وکاروئ چې د ټاکل شوې خوندي شوې پروژې ثبت شوی عاید، شامل شوي لګښتونه، اوسنۍ پایله او پاتې قرارداد ارزول غواړئ.",
+          "how": "Project Profit & Loss پرانیزئ، له Select project څخه خوندي شوې پروژه وټاکئ، بیا View Financial Report وټاکئ. که ټاکونکی تش وي، اپلېکېشن خبرتیا ښيي او راپور نه پرانیزي.",
+          "inputs": "خوندي شوې پروژه باید وټاکل شي. راپور د هماغې پروژې پېژند کاروي؛ تش انتخاب نه منل کېږي.",
+          "result": "د ټاکل شوې پروژې لپاره Project Financial Report پرانیستل کېږي. که پروژه فرعي پروژې ولري، راپور د اصلي او فرعي پروژو ریکارډونه سره ټولوي.",
+          "notes": "راپور د پروژې عاید څخه شامل شوي پروژوي لګښتونه منفي کوي. هغه لګښتونه نه شاملوي چې پېرودونکي ورکړي یا بېرته یې ورکړي وي، او همدارنګه د موادو زاړه ریکارډونه چې تصفیه شوي یا د پېرودونکي له خوا ورکړل شوي نښه شوي وي. دا HMRC ته سپارنه یا د Accountancy او مالیې د عمومي راپورونو بدیل نه دی. پر پایله له تکیې مخکې ټاکل شوې پروژه او بنسټیز ریکارډونه تایید کړئ."
         }
       },
       "handler_or_behavior": "`prOpenProfitReport()`"
@@ -9416,6 +9488,78 @@
           "inputs": "نام شریک الزامی است. تلفن، ایمیل و یادداشت‌ها اختیاری هستند. هنگام ویرایش، شناسه موجود شریک مشخص می‌کند کدام سابقه به‌روزرسانی شود.",
           "result": "پس از اعتبارسنجی نام و ذخیره موفق در IndexedDB، سابقه شریک افزوده یا به‌روزرسانی می‌شود. اگر نام خالی باشد پیام هشدار نمایش داده می‌شود؛ در صورت شکست ذخیره، موفقیت ثبت تأیید نمی‌شود.",
           "notes": "شریک ذخیره‌شده را می‌توان برای تقسیم سود پروژه انتخاب کرد. پیش از افزودن سابقه جدید، فهرست را بررسی کنید تا مورد تکراری ایجاد نشود. ذخیره سابقه شریک در فهرست، به‌تنهایی پروژه یا تراکنش مالی ایجاد نمی‌کند."
+        },
+        "ar": {
+          "purpose": "ينشئ سجلاً جديداً لشريك أو يحدّث شريكاً موجوداً في دليل Partners المشترك.",
+          "when": "استخدم هذا الخيار بعد إدخال تفاصيل شريك جديد أو تغيير تفاصيل شريك موجود.",
+          "how": "في Control Panel → Partners، أدخل الاسم المطلوب وأي هاتف أو بريد إلكتروني أو ملاحظات اختيارية. اختر Save Partner. إذا نجح الحفظ في IndexedDB، يُعاد تعيين النموذج، وتُحدّث قائمة Partners ومحدد الشركاء.",
+          "inputs": "اسم الشريك مطلوب. الهاتف والبريد الإلكتروني والملاحظات اختيارية. عند التعديل، يحدد معرّف الشريك الحالي السجل المراد تحديثه.",
+          "result": "يُضاف سجل الشريك أو يُحدّث بعد التحقق من الاسم ونجاح الحفظ في IndexedDB. إذا كان الاسم فارغاً، يظهر تنبيه؛ وإذا فشل الحفظ، لا يتم تأكيده.",
+          "notes": "يمكن اختيار الشريك المحفوظ لتقاسم أرباح المشروع. تحقق من الدليل قبل إضافة سجل جديد لتجنب التكرار. حفظ سجل في دليل الشركاء لا ينشئ مشروعاً أو معاملة مالية."
+        },
+        "ckb": {
+          "purpose": "تۆماری هاوبەشێکی نوێ دروست دەکات یان هاوبەشێکی هەبوو لە لیستی هاوبەشی Partners نوێ دەکاتەوە.",
+          "when": "دوای داخڵکردنی وردەکارییەکانی هاوبەشێکی نوێ یان گۆڕینی وردەکارییەکانی هاوبەشێکی هەبوو، ئەم هەڵبژاردەیە بەکاربهێنە.",
+          "how": "لە Control Panel → Partners، ناوی پێویست و ئەگەر دەتەوێت تەلەفۆن، ئیمەیڵ یان تێبینی داخڵ بکە. Save Partner هەڵبژێرە. ئەگەر پاشەکەوتکردن لە IndexedDB سەرکەوتوو بێت، فۆڕمەکە Reset دەکرێتەوە، لیستی Partners و هەڵبژێری هاوبەشان نوێ دەکرێنەوە.",
+          "inputs": "ناوی هاوبەش پێویستە. تەلەفۆن، ئیمەیڵ و تێبینی ئارەزوومەندانەن. لە کاتی دەستکاریکردندا ناسنامەی هاوبەشی هەبوو دیاری دەکات کام تۆمار نوێ بکرێتەوە.",
+          "result": "دوای پشتڕاستکردنەوەی ناو و پاشەکەوتکردنی سەرکەوتوو لە IndexedDB، تۆماری هاوبەش زیاد یان نوێ دەکرێتەوە. ئەگەر ناو بەتاڵ بێت ئاگاداری پیشان دەدرێت؛ ئەگەر پاشەکەوتکردن سەرکەوتوو نەبێت، سەرکەوتن پشتڕاست ناکرێتەوە.",
+          "notes": "هاوبەشی پاشەکەوتکراو دەتوانرێت بۆ دابەشکردنی قازانجی پڕۆژە هەڵبژێردرێت. پێش زیادکردنی تۆماری نوێ لیستەکە بپشکنە بۆ ڕێگریکردن لە دووبارەبوونەوە. پاشەکەوتکردنی تۆماری هاوبەش لە لیستدا بە تەنها پڕۆژە یان مامەڵەی دارایی دروست ناکات."
+        },
+        "kmr": {
+          "purpose": "Tomara hevparekî nû çêdike an hevparekî heyî di pelrêza hevpar a Partners de nû dike.",
+          "when": "Vê bikar bîne piştî ku hûrguliyên hevparekî nû têxî an hûrguliyên hevparekî heyî diguherînî.",
+          "how": "Di Control Panel → Partners de, navê pêwîst û heke dixwazî telefon, e-name an notan binivîse. Save Partner hilbijêre. Heke tomarkirina IndexedDB serkeftî be, form ji nû ve tê saz kirin, lîsteya Partners û hilbijêra hevparan nû dibin.",
+          "inputs": "Navê hevpar pêwîst e. Telefon, e-name û not vebijarkî ne. Dema sererastkirinê nasnameya hevparê heyî diyar dike ka kîjan tomar were nûkirin.",
+          "result": "Piştî verastkirina nav û tomarkirina serkeftî ya IndexedDB, tomarê hevpar tê zêdekirin an nûkirin. Heke nav vala be, hişyariyek tê nîşandan; heke tomarkirin bi ser nekeve, serkeftin nayê pejirandin.",
+          "notes": "Hevparekî tomarkirî dikare ji bo parvekirina qezenca projeyê were hilbijartin. Berî zêdekirina tomareke nû pelrêzê kontrol bike da dubare çênabe. Tomarkirina tomara pelrêza hevpar bi xwe projeyek an danûstandineke darayî çênake."
+        },
+        "tr": {
+          "purpose": "Ortaklar dizinine yeni bir ortak kaydı ekler veya mevcut bir ortak kaydını günceller.",
+          "when": "Yeni bir ortağın bilgilerini girdikten veya mevcut ortağın bilgilerini değiştirdikten sonra kullanın.",
+          "how": "Control Panel → Partners bölümünde zorunlu adı ve isteğe bağlı telefon, e-posta veya notları girin. Save Partner seçeneğini belirleyin. IndexedDB kaydı başarılı olursa form sıfırlanır, Partners listesi ve ortak seçicisi yenilenir.",
+          "inputs": "Ortak adı zorunludur. Telefon, e-posta ve notlar isteğe bağlıdır. Düzenleme sırasında mevcut ortak kimliği güncellenecek kaydı belirler.",
+          "result": "Ad doğrulaması ve IndexedDB kaydı başarılı olduktan sonra ortak kaydı eklenir veya güncellenir. Ad boşsa uyarı gösterilir; kayıt başarısızsa işlem onaylanmaz.",
+          "notes": "Kaydedilmiş bir ortak proje kâr paylaşımı için seçilebilir. Yinelenen kayıtları önlemek için yeni kayıt eklemeden önce dizini kontrol edin. Ortak dizini kaydı kaydetmek tek başına proje veya finansal işlem oluşturmaz."
+        },
+        "pl": {
+          "purpose": "Dodaje nowy rekord partnera lub aktualizuje istniejącego partnera we wspólnym katalogu Partners.",
+          "when": "Użyj tej opcji po wpisaniu danych nowego partnera lub zmianie danych istniejącego partnera.",
+          "how": "W Control Panel → Partners wpisz wymagane imię/nazwę oraz opcjonalnie telefon, e-mail lub notatki. Wybierz Save Partner. Jeśli zapis w IndexedDB się powiedzie, formularz zostanie zresetowany, lista Partners i selektor partnerów zostaną odświeżone.",
+          "inputs": "Nazwa partnera jest wymagana. Telefon, e-mail i notatki są opcjonalne. Podczas edycji istniejący identyfikator partnera wskazuje rekord do aktualizacji.",
+          "result": "Po sprawdzeniu nazwy i pomyślnym zapisie w IndexedDB rekord partnera zostanie dodany lub zaktualizowany. Jeśli nazwa jest pusta, pojawi się alert; jeśli zapis się nie powiedzie, nie zostanie potwierdzony.",
+          "notes": "Zapisany partner może zostać wybrany do podziału zysku projektu. Przed dodaniem nowego rekordu sprawdź katalog, aby uniknąć duplikatów. Zapisanie rekordu w katalogu partnerów samo w sobie nie tworzy projektu ani transakcji finansowej."
+        },
+        "ur": {
+          "purpose": "مشترکہ Partners ڈائریکٹری میں نیا پارٹنر ریکارڈ بناتا ہے یا موجودہ پارٹنر کو اپ ڈیٹ کرتا ہے۔",
+          "when": "اسے نئے پارٹنر کی تفصیلات درج کرنے یا موجودہ پارٹنر کی تفصیلات تبدیل کرنے کے بعد استعمال کریں۔",
+          "how": "Control Panel → Partners میں لازمی نام اور اختیاری فون، ای میل یا نوٹس درج کریں۔ Save Partner منتخب کریں۔ اگر IndexedDB میں محفوظ کرنا کامیاب ہو تو فارم دوبارہ ترتیب پاتا ہے، Partners فہرست تازہ ہوتی ہے اور پارٹنر منتخب کرنے کا اختیار بھی تازہ ہو جاتا ہے۔",
+          "inputs": "پارٹنر کا نام لازمی ہے۔ فون، ای میل اور نوٹس اختیاری ہیں۔ ترمیم کے وقت موجودہ پارٹنر ID اس ریکارڈ کی نشاندہی کرتی ہے جسے اپ ڈیٹ کرنا ہے۔",
+          "result": "نام کی توثیق اور IndexedDB میں کامیاب محفوظ کاری کے بعد پارٹنر ریکارڈ شامل یا اپ ڈیٹ ہوتا ہے۔ نام خالی ہو تو انتباہ دکھایا جاتا ہے؛ محفوظ کاری ناکام ہو تو کامیابی کی تصدیق نہیں ہوتی۔",
+          "notes": "محفوظ شدہ پارٹنر کو منصوبے کے منافع کی تقسیم کے لیے منتخب کیا جا سکتا ہے۔ نقل سے بچنے کے لیے نیا ریکارڈ شامل کرنے سے پہلے ڈائریکٹری چیک کریں۔ پارٹنر ڈائریکٹری کا ریکارڈ محفوظ کرنے سے خود کوئی منصوبہ یا مالی لین دین نہیں بنتا۔"
+        },
+        "pa": {
+          "purpose": "ਸਾਂਝੀ Partners ਡਾਇਰੈਕਟਰੀ ਵਿੱਚ ਨਵਾਂ ਭਾਈਵਾਲ ਰਿਕਾਰਡ ਬਣਾਉਂਦਾ ਹੈ ਜਾਂ ਮੌਜੂਦਾ ਭਾਈਵਾਲ ਨੂੰ ਅੱਪਡੇਟ ਕਰਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਨਵੇਂ ਭਾਈਵਾਲ ਦੇ ਵੇਰਵੇ ਦਰਜ ਕਰਨ ਜਾਂ ਮੌਜੂਦਾ ਭਾਈਵਾਲ ਦੇ ਵੇਰਵੇ ਬਦਲਣ ਤੋਂ ਬਾਅਦ ਕਰੋ।",
+          "how": "Control Panel → Partners ਵਿੱਚ ਲਾਜ਼ਮੀ ਨਾਮ ਅਤੇ ਵਿਕਲਪਿਕ ਫ਼ੋਨ, ਈਮੇਲ ਜਾਂ ਨੋਟ ਦਰਜ ਕਰੋ। Save Partner ਚੁਣੋ। ਜੇ IndexedDB ਵਿੱਚ ਸੇਵ ਸਫਲ ਹੋਵੇ ਤਾਂ ਫਾਰਮ ਮੁੜ ਸੈੱਟ ਹੁੰਦਾ ਹੈ, Partners ਸੂਚੀ ਤਾਜ਼ਾ ਹੁੰਦੀ ਹੈ ਅਤੇ ਭਾਈਵਾਲ ਚੋਣਕਾਰ ਵੀ ਤਾਜ਼ਾ ਹੁੰਦਾ ਹੈ।",
+          "inputs": "ਭਾਈਵਾਲ ਦਾ ਨਾਮ ਲਾਜ਼ਮੀ ਹੈ। ਫ਼ੋਨ, ਈਮੇਲ ਅਤੇ ਨੋਟ ਵਿਕਲਪਿਕ ਹਨ। ਸੋਧ ਸਮੇਂ ਮੌਜੂਦਾ ਭਾਈਵਾਲ ID ਉਸ ਰਿਕਾਰਡ ਦੀ ਪਛਾਣ ਕਰਦੀ ਹੈ ਜਿਸਨੂੰ ਅੱਪਡੇਟ ਕਰਨਾ ਹੈ।",
+          "result": "ਨਾਮ ਦੀ ਜਾਂਚ ਅਤੇ IndexedDB ਵਿੱਚ ਸੇਵ ਸਫਲ ਹੋਣ ਤੋਂ ਬਾਅਦ ਭਾਈਵਾਲ ਰਿਕਾਰਡ ਜੋੜਿਆ ਜਾਂ ਅੱਪਡੇਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ। ਜੇ ਨਾਮ ਖਾਲੀ ਹੋਵੇ ਤਾਂ ਚੇਤਾਵਨੀ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ; ਜੇ ਸੇਵ ਅਸਫਲ ਹੋਵੇ ਤਾਂ ਸਫਲਤਾ ਦੀ ਪੁਸ਼ਟੀ ਨਹੀਂ ਹੁੰਦੀ।",
+          "notes": "ਸੰਭਾਲੇ ਭਾਈਵਾਲ ਨੂੰ ਪ੍ਰੋਜੈਕਟ ਦੇ ਮੁਨਾਫ਼ੇ ਦੀ ਵੰਡ ਲਈ ਚੁਣਿਆ ਜਾ ਸਕਦਾ ਹੈ। ਨਕਲ ਰਿਕਾਰਡਾਂ ਤੋਂ ਬਚਣ ਲਈ ਨਵਾਂ ਰਿਕਾਰਡ ਜੋੜਨ ਤੋਂ ਪਹਿਲਾਂ ਡਾਇਰੈਕਟਰੀ ਜਾਂਚੋ। ਭਾਈਵਾਲ ਡਾਇਰੈਕਟਰੀ ਰਿਕਾਰਡ ਸੇਵ ਕਰਨ ਨਾਲ ਆਪਣੇ ਆਪ ਕੋਈ ਪ੍ਰੋਜੈਕਟ ਜਾਂ ਵਿੱਤੀ ਲੈਣ-ਦੇਣ ਨਹੀਂ ਬਣਦਾ।"
+        },
+        "prs": {
+          "purpose": "یک سابقه شریک جدید در فهرست مشترک Partners ایجاد می‌کند یا سابقه شریک موجود را به‌روزرسانی می‌کند.",
+          "when": "پس از واردکردن مشخصات شریک جدید یا تغییر مشخصات شریک موجود از این گزینه استفاده کنید.",
+          "how": "در Control Panel → Partners، نام الزامی و در صورت نیاز تلفن، ایمیل یا یادداشت را وارد کنید. Save Partner را انتخاب کنید. اگر ذخیره در IndexedDB موفق باشد، فرم بازنشانی، فهرست Partners تازه‌سازی و انتخاب‌گر شرکا نیز به‌روزرسانی می‌شود.",
+          "inputs": "نام شریک الزامی است. تلفن، ایمیل و یادداشت‌ها اختیاری هستند. هنگام ویرایش، شناسه موجود شریک مشخص می‌کند کدام سابقه به‌روزرسانی شود.",
+          "result": "پس از اعتبارسنجی نام و ذخیره موفق در IndexedDB، سابقه شریک افزوده یا به‌روزرسانی می‌شود. اگر نام خالی باشد پیام هشدار نمایش داده می‌شود؛ در صورت شکست ذخیره، موفقیت ثبت تأیید نمی‌شود.",
+          "notes": "شریک ذخیره‌شده را می‌توان برای تقسیم سود پروژه انتخاب کرد. پیش از افزودن سابقه جدید، فهرست را بررسی کنید تا مورد تکراری ایجاد نشود. ذخیره سابقه شریک در فهرست، به‌تنهایی پروژه یا تراکنش مالی ایجاد نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د Partners په ګډ لړلیک کې د نوي شریک ریکارډ جوړوي یا موجود شریک تازه کوي.",
+          "when": "دا هغه وخت وکاروئ چې د نوي شریک معلومات دننه کوئ یا د موجود شریک معلومات بدلوي.",
+          "how": "په Control Panel → Partners کې اړین نوم او اختیاري ټیلیفون، برېښنالیک یا یادښتونه دننه کړئ. Save Partner وټاکئ. که په IndexedDB کې خوندي کول بریالي شي، فورم بیا تنظیمېږي، د Partners لړلیک تازه کېږي او د شریک ټاکونکی هم تازه کېږي.",
+          "inputs": "د شریک نوم اړین دی. ټیلیفون، برېښنالیک او یادښتونه اختیاري دي. د سمون پر مهال د موجود شریک پېژند هغه ریکارډ ټاکي چې باید تازه شي.",
+          "result": "د نوم له تایید او په IndexedDB کې له بریالي خوندي کولو وروسته د شریک ریکارډ زیاتېږي یا تازه کېږي. که نوم تش وي، خبرتیا ښکاري؛ که خوندي کول ناکام شي، بریا نه تاییدېږي.",
+          "notes": "خوندي شوی شریک د پروژې د ګټې د وېش لپاره ټاکل کېدای شي. د تکراري ریکارډ د مخنیوي لپاره د نوي ریکارډ له زیاتولو مخکې لړلیک وګورئ. د شریک د لړلیک ریکارډ خوندي کول پخپله پروژه یا مالي معامله نه جوړوي."
         }
       },
       "handler_or_behavior": "`prSavePerson(`"
