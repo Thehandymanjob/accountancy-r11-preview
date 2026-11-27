@@ -22130,6 +22130,78 @@
           "inputs": "برای بستن هشدار ورودی لازم نیست. همان فیلدی که هشدار را ایجاد کرده باید اصلاح شود.",
           "result": "پنجره هشدار بسته می‌شود و تمرکز به فیلد متنی مربوط بازمی‌گردد. این عملیات هیچ داده‌ای را ذخیره نمی‌کند.",
           "notes": "این کنترل متن را ترجمه نمی‌کند و فرم را ارسال نمی‌کند. کنترل فعلی تمام نویسه‌های غیر ASCII را رد می‌کند؛ از جمله حروف دارای اعراب/لهجه در زبان‌های لاتین، نه فقط خط‌های غیرلاتین. متن را با نویسه‌های ASCII انگلیسی بازنویسی کنید."
+        },
+        "ar": {
+          "purpose": "يغلق تحذير الإدخال بالإنجليزية ويعيد التركيز إلى حقل النص الذي سببه.",
+          "when": "استخدمه عند ظهور التحذير بسبب محرف غير إنجليزي في حقل نص.",
+          "how": "اختر Return to form لإغلاق التحذير والعودة إلى الحقل لتصحيح النص.",
+          "inputs": "لا يلزم إدخال. صحح الحقل الذي تسبب في التحذير.",
+          "result": "تُغلق النافذة ويعود التركيز إلى الحقل. لا تُحفظ بيانات.",
+          "notes": "لا يترجم هذا الإجراء النص ولا يرسل النموذج. أعد كتابة النص بالإنجليزية قبل الحفظ."
+        },
+        "ckb": {
+          "purpose": "ئاگادارکردنەوەی نووسینی ئینگلیزی دادەخات و فوکەس دەگەڕێنێتەوە بۆ خانەی دەقی هۆکار.",
+          "when": "کاتێک بەهۆی پیتی نائینگلیزی لە خانەی دەقدا ئاگادارکردنەوەکە دەردەکەوێت، بەکاری بهێنە.",
+          "how": "Return to form هەڵبژێرە بۆ داخستنی ئاگادارکردنەوە و گەڕانەوە بۆ خانەکە بۆ چاککردنی دەق.",
+          "inputs": "هیچ زانیارییەک پێویست نییە. خانەی هۆکار چاک بکە.",
+          "result": "پەنجەرەکە دادەخرێت و فوکەس دەگەڕێتەوە بۆ خانەکە. هیچ داتایەک پاشەکەوت ناکرێت.",
+          "notes": "ئەمە دەق وەرناگێڕێت و فۆڕم نانێرێت. پێش پاشەکەوتکردن دەقەکە بە ئینگلیزی بنووسە."
+        },
+        "kmr": {
+          "purpose": "Hişyariya têketina îngilîzî digire û fokus vedigerîne qada nivîsê ya sedem.",
+          "when": "Dema ku ji ber tîpekî neîngilîzî di qadeke nivîsê de hişyariyê dibînî, vê bikar bîne.",
+          "how": "Return to form hilbijêre da ku hişyariyê bigirî û vegerî qadê ji bo rastkirina nivîsê.",
+          "inputs": "Têketin nehewce ye. Qada sedemê rast bike.",
+          "result": "Pace digire û fokus vedigere qadê. Daneyên formê nayên tomarkirin.",
+          "notes": "Ev nivîsê nawergerîne û formê naşîne. Berî tomarkirinê nivîsê bi îngilîzî ji nû ve binivîse."
+        },
+        "tr": {
+          "purpose": "İngilizce giriş uyarısını kapatır ve odağı uyarıyı tetikleyen metin alanına döndürür.",
+          "when": "Bir metin alanında İngilizce olmayan karakter bulunduğu için uyarı göründüğünde kullanın.",
+          "how": "Uyarıyı kapatıp düzeltme için alana dönmek üzere Return to form seçin.",
+          "inputs": "Girdi gerekmez. Uyarıyı tetikleyen alanı düzeltin.",
+          "result": "Uyarı kapanır ve odak alana döner. Form verisi kaydedilmez.",
+          "notes": "Bu işlem metni çevirmez veya formu göndermez. Kaydetmeden önce metni İngilizce yeniden yazın."
+        },
+        "pl": {
+          "purpose": "Zamyka ostrzeżenie o wymaganym języku angielskim i przywraca fokus w polu, które je wywołało.",
+          "when": "Użyj, gdy ostrzeżenie pojawia się z powodu znaku nieangielskiego w polu tekstowym.",
+          "how": "Wybierz Return to form, aby zamknąć ostrzeżenie i wrócić do pola w celu poprawienia tekstu.",
+          "inputs": "Nie są wymagane dane. Popraw pole, które wywołało ostrzeżenie.",
+          "result": "Ostrzeżenie zostaje zamknięte, a fokus wraca do pola. Dane nie są zapisywane.",
+          "notes": "Ta czynność nie tłumaczy tekstu ani nie wysyła formularza. Przed zapisem wpisz tekst ponownie po angielsku."
+        },
+        "ur": {
+          "purpose": "انگریزی متن کی تنبیہ بند کرکے فوکس اسی متنی خانے پر واپس لاتا ہے جس نے اسے پیدا کیا۔",
+          "when": "جب متنی خانے میں غیر انگریزی حرف کی وجہ سے تنبیہ ظاہر ہو تو استعمال کریں۔",
+          "how": "تنبیہ بند کرکے متن درست کرنے کے لیے خانے پر واپس جانے کی خاطر Return to form منتخب کریں۔",
+          "inputs": "کوئی معلومات درکار نہیں۔ متعلقہ خانہ درست کریں۔",
+          "result": "تنبیہ بند ہوتی ہے اور فوکس خانے پر واپس آتا ہے۔ فارم ڈیٹا محفوظ نہیں ہوتا۔",
+          "notes": "یہ متن کا ترجمہ یا فارم جمع نہیں کرتا۔ محفوظ کرنے سے پہلے متن انگریزی میں دوبارہ لکھیں۔"
+        },
+        "pa": {
+          "purpose": "ਅੰਗਰੇਜ਼ੀ ਲਿਖਤ ਦੀ ਚੇਤਾਵਨੀ ਬੰਦ ਕਰਦਾ ਹੈ ਅਤੇ ਫੋਕਸ ਉਸ ਖੇਤਰ 'ਤੇ ਵਾਪਸ ਲਿਆਉਂਦਾ ਹੈ ਜਿਸਨੇ ਚੇਤਾਵਨੀ ਚਾਲੂ ਕੀਤੀ।",
+          "when": "ਜਦੋਂ ਲਿਖਤ ਖੇਤਰ ਵਿੱਚ ਗੈਰ-ਅੰਗਰੇਜ਼ੀ ਅੱਖਰ ਕਰਕੇ ਚੇਤਾਵਨੀ ਆਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਚੇਤਾਵਨੀ ਬੰਦ ਕਰਕੇ ਲਿਖਤ ਠੀਕ ਕਰਨ ਲਈ ਖੇਤਰ 'ਤੇ ਵਾਪਸ ਜਾਣ ਵਾਸਤੇ Return to form ਚੁਣੋ।",
+          "inputs": "ਕੋਈ ਇਨਪੁੱਟ ਨਹੀਂ। ਚੇਤਾਵਨੀ ਵਾਲਾ ਖੇਤਰ ਠੀਕ ਕਰੋ।",
+          "result": "ਚੇਤਾਵਨੀ ਬੰਦ ਹੁੰਦੀ ਹੈ ਅਤੇ ਫੋਕਸ ਖੇਤਰ 'ਤੇ ਵਾਪਸ ਆਉਂਦਾ ਹੈ। ਫਾਰਮ ਡਾਟਾ ਸੇਵ ਨਹੀਂ ਹੁੰਦਾ।",
+          "notes": "ਇਹ ਲਿਖਤ ਦਾ ਅਨੁਵਾਦ ਜਾਂ ਫਾਰਮ ਜਮ੍ਹਾਂ ਨਹੀਂ ਕਰਦਾ। ਸੇਵ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਲਿਖਤ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਮੁੜ ਲਿਖੋ।"
+        },
+        "prs": {
+          "purpose": "هشدار ورود متن انگلیسی را می‌بندد و تمرکز را به فیلدی برمی‌گرداند که آن را ایجاد کرده است.",
+          "when": "وقتی هشدار به‌دلیل وجود نویسه غیرانگلیسی در فیلد متن ظاهر می‌شود، استفاده کنید.",
+          "how": "برای بستن هشدار و بازگشت به فیلد جهت اصلاح متن، Return to form را انتخاب کنید.",
+          "inputs": "ورودی لازم نیست. فیلد ایجادکننده هشدار را اصلاح کنید.",
+          "result": "پنجره بسته می‌شود و تمرکز به فیلد بازمی‌گردد. داده‌ای ذخیره نمی‌شود.",
+          "notes": "این گزینه متن را ترجمه یا فرم را ارسال نمی‌کند. پیش از ذخیره متن را به انگلیسی بازنویسی کنید."
+        },
+        "ps": {
+          "purpose": "د انګلیسي متن خبرداری بندوي او تمرکز بېرته هغه متن‌خانې ته وړي چې خبرداری یې جوړ کړی.",
+          "when": "هغه وخت یې وکاروئ چې په متن‌خانه کې د غیرانګلیسي توري له امله خبرداری ښکاره شي.",
+          "how": "د خبرداري د بندولو او د متن د سمولو لپاره بېرته خانې ته د تګ په موخه Return to form وټاکئ.",
+          "inputs": "معلوماتو ته اړتیا نشته. د خبرداري لامل شوې خانه سمه کړئ.",
+          "result": "کړکۍ بندېږي او تمرکز بېرته خانې ته ځي. د فورم معلومات نه خوندي کېږي.",
+          "notes": "دا متن نه ژباړي او فورمه نه لېږي. له خوندي کولو مخکې متن په انګلیسي بیا ولیکئ."
         }
       },
       "handler_or_behavior": "`event/property listener`"
@@ -22156,6 +22228,78 @@
           "inputs": "فیلد انتخاب اصلی باید گزینه‌های قابل انتخاب داشته باشد. برای باز یا بسته‌کردن فهرست، ورود متن جداگانه لازم نیست.",
           "result": "فهرست گزینه‌های سفارشی نمایش داده یا مخفی می‌شود و کنترل، مقدار انتخاب‌شده فعلی یا متن راهنمای فیلد را نشان می‌دهد. مقدار فیلد فقط با انتخاب یک گزینه تغییر می‌کند.",
           "notes": "فهرست کشویی سفارشی، گزینه‌های فیلد انتخاب بومی را بازتاب می‌دهد. باز یا بسته‌کردن فهرست به‌تنهایی کل فرم را ذخیره نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يفتح أو يغلق القائمة المنسدلة المخصصة المرتبطة بحقل اختيار أصلي.",
+          "when": "استخدمه لعرض خيارات القائمة أو إخفائها.",
+          "how": "اختر مشغّل القائمة لفتح الخيارات. اختره مرة أخرى للإغلاق أو اختر خياراً من القائمة.",
+          "inputs": "يجب أن يحتوي حقل الاختيار الأساسي على خيارات. لا يلزم إدخال نص.",
+          "result": "تظهر قائمة الخيارات أو تختفي، ويعرض المشغّل القيمة الحالية أو النص النائب. تتغير القيمة عند اختيار خيار فقط.",
+          "notes": "تعكس القائمة المخصصة حقل الاختيار الأصلي. فتحها أو إغلاقها لا يحفظ النموذج."
+        },
+        "ckb": {
+          "purpose": "لیستی دابەزینی تایبەت دەکاتەوە یان دادەخات کە بە خانەی هەڵبژاردنی بنەڕەتی بەستراوە.",
+          "when": "بۆ بینینی هەڵبژاردەکان یان شاردنەوەی لیستەکە بەکاری بهێنە.",
+          "how": "کۆنترۆڵی دابەزین هەڵبژێرە بۆ کردنەوە. دووبارە هەڵیبژێرە بۆ داخستن، یان هەڵبژاردەیەک دیاری بکە.",
+          "inputs": "خانەی هەڵبژاردنی بنەڕەتی دەبێت هەڵبژاردەی هەبێت. دەق پێویست نییە.",
+          "result": "لیستەکە پیشان دەدرێت یان دەشاردرێتەوە و کۆنترۆڵەکە بەهای ئێستا یان دەقی جێگرەوە پیشان دەدات. بەها تەنها بە هەڵبژاردنی هەڵبژاردەیەک دەگۆڕێت.",
+          "notes": "لیستی تایبەت هەمان هەڵبژاردەکانی خانەی بنەڕەتی پیشان دەدات. کردنەوە یان داخستنی فۆڕم پاشەکەوت ناکات."
+        },
+        "kmr": {
+          "purpose": "Menuya daketina taybet a girêdayî qada hilbijartina bingehîn vedike an digire.",
+          "when": "Vê bikar bîne ji bo dîtin an veşartina vebijarkên lîsteyê.",
+          "how": "Kontrola daketinê hilbijêre da ku vebijark vebin. Dîsa hilbijêre da ku bigire an vebijarkek hilbijêre.",
+          "inputs": "Divê qada hilbijartinê xwedî vebijark be. Nivîs nehewce ye.",
+          "result": "Lîste xuya dibe an veşartî dibe û kontrol nirxa heyî an nivîsa cîgir nîşan dide. Nirx tenê bi hilbijartina vebijarkekê diguhere.",
+          "notes": "Lîsteya taybet vebijarkên qada bingehîn nîşan dide. Vekirin an girtina wê formê tomar nake."
+        },
+        "tr": {
+          "purpose": "Yerel seçim alanına bağlı özel açılır listeyi açar veya kapatır.",
+          "when": "Liste seçeneklerini görüntülemek veya gizlemek için kullanın.",
+          "how": "Seçenekleri açmak için liste tetikleyicisini seçin. Kapatmak için yeniden seçin veya listeden bir seçenek belirleyin.",
+          "inputs": "Temel seçim alanında seçenekler bulunmalıdır. Metin girişi gerekmez.",
+          "result": "Liste gösterilir veya gizlenir; tetikleyici geçerli değeri ya da yer tutucuyu gösterir. Değer yalnızca seçenek seçildiğinde değişir.",
+          "notes": "Özel liste temel seçim alanını yansıtır. Açmak veya kapatmak formu kaydetmez."
+        },
+        "pl": {
+          "purpose": "Otwiera lub zamyka niestandardową listę rozwijaną powiązaną z natywnym polem wyboru.",
+          "when": "Użyj, aby wyświetlić lub ukryć opcje listy.",
+          "how": "Wybierz wyzwalacz listy, aby ją otworzyć. Wybierz ponownie, aby zamknąć, albo wskaż opcję.",
+          "inputs": "Podstawowe pole wyboru musi zawierać opcje. Nie trzeba wpisywać tekstu.",
+          "result": "Lista zostaje pokazana lub ukryta, a wyzwalacz wyświetla bieżącą wartość lub tekst zastępczy. Wartość zmienia się dopiero po wybraniu opcji.",
+          "notes": "Niestandardowa lista odzwierciedla natywne pole wyboru. Otwarcie lub zamknięcie listy nie zapisuje formularza."
+        },
+        "ur": {
+          "purpose": "مقامی انتخابی فیلڈ سے منسلک کسٹم ڈراپ ڈاؤن کو کھولتا یا بند کرتا ہے۔",
+          "when": "فہرست کے اختیارات دکھانے یا چھپانے کے لیے استعمال کریں۔",
+          "how": "اختیارات کھولنے کے لیے ڈراپ ڈاؤن ٹرگر منتخب کریں۔ بند کرنے کے لیے دوبارہ منتخب کریں یا فہرست سے کوئی اختیار چنیں۔",
+          "inputs": "بنیادی سلیکٹ فیلڈ میں اختیارات ہونا ضروری ہیں۔ متن درج کرنے کی ضرورت نہیں۔",
+          "result": "فہرست دکھائی یا چھپائی جاتی ہے اور ٹرگر موجودہ قدر یا placeholder دکھاتا ہے۔ قدر صرف اختیار منتخب کرنے پر بدلتی ہے۔",
+          "notes": "کسٹم فہرست بنیادی سلیکٹ فیلڈ کی عکاسی کرتی ہے۔ اسے کھولنے یا بند کرنے سے فارم محفوظ نہیں ہوتا۔"
+        },
+        "pa": {
+          "purpose": "ਮੂਲ ਚੋਣ ਖੇਤਰ ਨਾਲ ਜੁੜੀ ਕਸਟਮ ਡਰੌਪਡਾਊਨ ਸੂਚੀ ਖੋਲ੍ਹਦਾ ਜਾਂ ਬੰਦ ਕਰਦਾ ਹੈ।",
+          "when": "ਸੂਚੀ ਦੇ ਵਿਕਲਪ ਦਿਖਾਉਣ ਜਾਂ ਲੁਕਾਉਣ ਲਈ ਵਰਤੋ।",
+          "how": "ਵਿਕਲਪ ਖੋਲ੍ਹਣ ਲਈ ਡਰੌਪਡਾਊਨ ਟ੍ਰਿਗਰ ਚੁਣੋ। ਬੰਦ ਕਰਨ ਲਈ ਮੁੜ ਚੁਣੋ ਜਾਂ ਸੂਚੀ ਵਿੱਚੋਂ ਵਿਕਲਪ ਚੁਣੋ।",
+          "inputs": "ਮੂਲ ਚੋਣ ਖੇਤਰ ਵਿੱਚ ਵਿਕਲਪ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ। ਲਿਖਤ ਦਰਜ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ।",
+          "result": "ਸੂਚੀ ਦਿਖਾਈ ਜਾਂ ਲੁਕਾਈ ਜਾਂਦੀ ਹੈ ਅਤੇ ਟ੍ਰਿਗਰ ਮੌਜੂਦਾ ਕਦਰ ਜਾਂ placeholder ਦਿਖਾਉਂਦਾ ਹੈ। ਕਦਰ ਸਿਰਫ਼ ਵਿਕਲਪ ਚੁਣਨ 'ਤੇ ਬਦਲਦੀ ਹੈ।",
+          "notes": "ਕਸਟਮ ਸੂਚੀ ਮੂਲ ਚੋਣ ਖੇਤਰ ਨੂੰ ਦਰਸਾਉਂਦੀ ਹੈ। ਇਸਨੂੰ ਖੋਲ੍ਹਣ ਜਾਂ ਬੰਦ ਕਰਨ ਨਾਲ ਫਾਰਮ ਸੇਵ ਨਹੀਂ ਹੁੰਦਾ।"
+        },
+        "prs": {
+          "purpose": "فهرست کشویی سفارشی متصل به فیلد انتخاب بومی را باز یا بسته می‌کند.",
+          "when": "برای نمایش یا پنهان‌کردن گزینه‌های فهرست از این کنترل استفاده کنید.",
+          "how": "برای بازکردن گزینه‌ها کنترل کشویی را انتخاب کنید. برای بستن دوباره آن را انتخاب کنید یا گزینه‌ای را برگزینید.",
+          "inputs": "فیلد انتخاب اصلی باید گزینه داشته باشد. ورود متن لازم نیست.",
+          "result": "فهرست نمایش داده یا پنهان می‌شود و کنترل مقدار فعلی یا متن راهنما را نشان می‌دهد. مقدار فقط با انتخاب یک گزینه تغییر می‌کند.",
+          "notes": "فهرست سفارشی گزینه‌های فیلد انتخاب اصلی را منعکس می‌کند. باز یا بسته‌کردن آن فرم را ذخیره نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د اصلي انتخابي ساحې سره تړلی ځانګړی dropdown لېست پرانیزي یا تړي.",
+          "when": "دا د لېست د انتخابونو د ښکاره کولو یا پټولو لپاره وکاروئ.",
+          "how": "د انتخابونو د پرانیستلو لپاره dropdown محرک وټاکئ. د تړلو لپاره یې بیا وټاکئ یا له لېست څخه انتخاب وکړئ.",
+          "inputs": "اصلي select ساحه باید انتخابونه ولري. متن داخلول اړین نه دي.",
+          "result": "لېست ښکاره یا پټېږي او محرک اوسنی ارزښت یا placeholder ښيي. ارزښت یوازې د انتخاب په ټاکلو بدلېږي.",
+          "notes": "ځانګړی لېست د اصلي select ساحې انتخابونه منعکسوي. پرانیستل یا تړل یې فورمه نه خوندي کوي."
         }
       },
       "handler_or_behavior": "باز و بسته کردن فهرست انتخاب بومی‌شده از روی یک select موجود"
