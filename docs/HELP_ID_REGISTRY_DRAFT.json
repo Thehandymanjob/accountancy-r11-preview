@@ -11797,7 +11797,7 @@
       "audit_ref": "INV-139",
       "element_id": null,
       "label": "=pages?'disabled':''} onclick=\"changeListPage('${key}',${page+1},'${renderer}')\">Next ›",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Moves the current paginated list to the next page of records.",
@@ -11895,7 +11895,7 @@
       "audit_ref": "INV-141",
       "element_id": null,
       "label": "'+esc(expenseCategoryLabel(x,g.id))+'",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Selects an expense category from the category picker and applies it to the current entry form.",
@@ -11993,7 +11993,7 @@
       "audit_ref": "INV-142",
       "element_id": null,
       "label": "＋ Add New One",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the form for adding a new expense category to the currently selected category group.",
@@ -12091,7 +12091,7 @@
       "audit_ref": "INV-143",
       "element_id": null,
       "label": "📎 View receipt",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens an enlarged view of a receipt image attached to the current entry or project expense form.",
