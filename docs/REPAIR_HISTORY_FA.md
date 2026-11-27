@@ -691,7 +691,7 @@
 - **محتوا:** هر ۱۱ شناسه CONTENT_COMPLETE هستند. همه کنترل‌ها از قبل در سورس وجود داشتند؛ فقط اتصال راهنمای زمینه‌ای اضافه شد.
 - **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R58`.
 - **اتصال‌ها پس از R58:** ۷۴ کنترل؛ ۶۹ ایستا و پنج پویا. ۵۷ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
-- **تست ایستا:** یکتایی handler attributeها و محدوده parentها از روی سورس بررسی شد؛ رشته‌های CSS دارای پارامترهای `add/list/company-profit` با escaping معتبر ثبت شدند. Version Authority Gate برای R58 باید اجرا شود.
+- **تست ایستا:** یکتایی handler attributeها و محدوده parentها از روی سورس بررسی شد؛ رشته‌های CSS دارای پارامترهای `add/list/company-profit` با escaping معتبر ثبت شدند. **Version Authority Gate:** PASS؛ run `46070444164` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070444164؛ هویت Build R58، canonical URL، SHA فایل index و تمام ۲۴ فایل pinشده تأیید شدند.
 - **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ باید راهنمای هر کنترل، جدایی Company Contracts از Accounting، ثبت پرداخت در مقصد درست، عدم اجرای ناخواسته handler هنگام لمس «?» و چیدمان موبایل بررسی شوند.
 - **انتشار / داده:** هیچ Preview deploy، Merge، ثبت هزینه/پرداخت، تغییر داده یا Production change انجام نشده است.
 
