@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R55') return;
+  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R56') return;
   const payload = window.THAHelpContentV1;
   if (!payload || !payload.entries) {
     console.error('[THA Help] Content bundle is missing; contextual help was not started.');
@@ -51,7 +51,13 @@
     ['THA-HLP-0030', '#invoiceEditor .actions > button[onclick="saveInvoice()"]'],
     ['THA-HLP-0031', '#invoiceEditor .actions > button[onclick="saveAndPrintInvoice()"]'],
     ['THA-HLP-0032', '#customers .actions > button[onclick="saveCustomer()"]'],
-    ['THA-HLP-0033', '#customers .actions > button[onclick="resetCustomerForm()"]']
+    ['THA-HLP-0033', '#customers .actions > button[onclick="resetCustomerForm()"]'],
+    ['THA-HLP-0029', '#invoiceListArea .invoice-quick-actions > button[onclick="newInvoice()"]'],
+    ['THA-HLP-0034', '#report188Menu .report188-menu-grid > button[onclick="report188Navigate(\\'builder\\')"]'],
+    ['THA-HLP-0035', '#report188Menu .report188-menu-grid > button[onclick="report188Navigate(\\'archive\\')"]'],
+    ['THA-HLP-0036', '#report188Menu .report188-menu-grid > button[onclick="report188Navigate(\\'inbox\\')"]'],
+    ['THA-HLP-0037', '#report188Menu .report188-menu-grid > button[onclick="report188Navigate(\\'calendar\\')"]'],
+    ['THA-HLP-0038', '#report188Menu .report188-menu-grid > button[onclick="report188Navigate(\\'email\\')"]']
   ];
   if (STATIC_BINDINGS.some(binding => !Array.isArray(binding) || binding.length !== 2 || binding.some(value => typeof value !== 'string' || !value.trim()))) {
     console.error('[THA Help] Invalid static binding table; contextual help was not started.');
@@ -223,7 +229,7 @@
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initialise,{once:true});
   else initialise();
   window.THAHelpRuntime=Object.freeze({
-    version:'R55',open:openHelp,openFullGuide,attach:attachAll,
+    version:'R56',open:openHelp,openFullGuide,attach:attachAll,
     getLastHelpId:()=>lastHelpId,getPublishableCount:()=>Object.keys(payload.entries).length
   });
 })();
