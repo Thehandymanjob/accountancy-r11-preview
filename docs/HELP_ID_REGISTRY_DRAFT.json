@@ -6008,20 +6008,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens a blank form to create an independent project.",
-          "when": "When starting a new job that needs its own scope, agreed value and financial tracking.",
-          "how": "Open New Project, complete the required job details and save the project.",
-          "inputs": "A project name is required. Customer, address, phone, notes, contract type and partner-sharing details are entered where applicable; partner percentages must total 100% when partner sharing is enabled.",
-          "result": "A new project is created if the save succeeds.",
-          "notes": "Use one project per separately tracked job. Project records are distinct from general Accountancy entries."
+          "purpose": "Opens a blank form for creating an independent project record.",
+          "when": "Use this when starting a job that needs its own project record and separate project-level tracking.",
+          "how": "Open New Project, enter the required project name and any applicable customer, site, contact, contract, partner-sharing, photo and notes details, then select Save Project.",
+          "inputs": "Project name is required. Customer, site address, phone and notes are optional. Choose Labour + Materials or Labour Only. Partner sharing is optional; when enabled, select at least one partner and set shares so the owner's share plus all partner shares total exactly 100%. A project photo is optional.",
+          "result": "A new project record is created only if validation and IndexedDB saving and verification succeed. The parent project's total is calculated from its sub-project agreed prices rather than entered directly on this form.",
+          "notes": "Project records are maintained separately from general Accountancy entries. Do not assume that creating a project also creates an accounting transaction. Wait for the success status before treating the project as saved."
         },
         "fa": {
-          "purpose": "فرم خالی ایجاد یک پروژه مستقل را باز می‌کند.",
-          "when": "وقتی کاری جدید دارید که به محدوده کار، مبلغ توافق‌شده و پیگیری مالی مستقل نیاز دارد.",
-          "how": "New Project را باز کنید، جزئیات لازم کار را وارد و پروژه را ذخیره کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "در صورت موفقیت ذخیره، پروژه جدید ایجاد می‌شود.",
-          "notes": "برای هر کار مستقل که جداگانه پیگیری می‌شود یک پروژه بسازید. سوابق پروژه از ثبت‌های عمومی حسابداری جدا هستند."
+          "purpose": "فرم خالی ایجاد یک سابقه پروژه مستقل را باز می‌کند.",
+          "when": "وقتی کاری را شروع می‌کنید که به سابقه اختصاصی پروژه و پیگیری جداگانه در سطح پروژه نیاز دارد، از این گزینه استفاده کنید.",
+          "how": "New Project را باز کنید، نام الزامی پروژه و اطلاعات مرتبط مانند مشتری، محل کار، اطلاعات تماس، نوع قرارداد، تقسیم سهم شرکا، تصویر و یادداشت‌ها را در صورت نیاز وارد کنید و سپس Save Project را انتخاب کنید.",
+          "inputs": "نام پروژه الزامی است. مشتری، نشانی محل کار، تلفن و یادداشت‌ها اختیاری هستند. نوع قرارداد Labour + Materials یا Labour Only را انتخاب کنید. تقسیم سهم شرکا اختیاری است؛ اگر فعال شود، باید دست‌کم یک شریک انتخاب کنید و مجموع سهم صاحب کسب‌وکار و تمام شرکا دقیقاً ۱۰۰٪ باشد. تصویر پروژه نیز اختیاری است.",
+          "result": "سابقه پروژه فقط در صورت موفقیت اعتبارسنجی و ذخیره و تأیید در IndexedDB ایجاد می‌شود. مبلغ کل پروژه اصلی از مبالغ توافق‌شده زیرپروژه‌ها محاسبه می‌شود و مستقیماً در این فرم وارد نمی‌شود.",
+          "notes": "سوابق پروژه جدا از ثبت‌های عمومی Accountancy نگهداری می‌شوند. فرض نکنید ایجاد پروژه به‌معنی ایجاد تراکنش حسابداری نیز هست. تا نمایش پیام موفقیت، ذخیره پروژه را قطعی تلقی نکنید."
         }
       },
       "handler_or_behavior": "`prPage(`"
@@ -6034,20 +6034,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Displays saved projects and provides search and status filters.",
-          "when": "When finding, opening or reviewing an existing project.",
-          "how": "Open Projects List, search by project/customer/address and choose All, Open or Completed.",
-          "inputs": "Optional search text can match project name, customer or address. Choose the available status filter (All, Open or Completed) to narrow the list.",
-          "result": "Matching projects are listed and can be opened.",
-          "notes": "Check the project identity before editing or recording financial information."
+          "purpose": "Displays saved projects and lets you search, filter and open a project.",
+          "when": "Use this when locating or opening an existing project or narrowing the list by its status.",
+          "how": "Open Projects List. Enter optional search text to match a project name, customer or address. Set the status filter to All projects, Open or Completed, then select the required project card to open it.",
+          "inputs": "Search text is optional and searches project name, customer and address. The status filter offers All projects, Open and Completed.",
+          "result": "The list displays projects matching both the search text and selected status. Select a project card to open its details.",
+          "notes": "The list may be paginated. Confirm the project name and customer/site details before editing it or recording project financial information."
         },
         "fa": {
-          "purpose": "پروژه‌های ذخیره‌شده را نمایش می‌دهد و امکان جست‌وجو و فیلتر وضعیت را فراهم می‌کند.",
-          "when": "برای یافتن، بازکردن یا بررسی پروژه موجود از این گزینه استفاده کنید.",
-          "how": "Projects List را باز کنید، بر اساس پروژه/مشتری/نشانی جست‌وجو کنید و فیلتر All، Open یا Completed را انتخاب کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "پروژه‌های منطبق فهرست می‌شوند و قابل بازکردن هستند.",
-          "notes": "پیش از ویرایش یا ثبت اطلاعات مالی، هویت پروژه را بررسی کنید."
+          "purpose": "پروژه‌های ذخیره‌شده را نمایش می‌دهد و امکان جست‌وجو، فیلتر و بازکردن پروژه را فراهم می‌کند.",
+          "when": "برای یافتن یا بازکردن پروژه موجود یا محدودکردن فهرست بر اساس وضعیت آن از این گزینه استفاده کنید.",
+          "how": "Projects List را باز کنید. در صورت نیاز عبارتی وارد کنید تا نام پروژه، مشتری یا نشانی جست‌وجو شود. فیلتر وضعیت را روی All projects، Open یا Completed قرار دهید و سپس کارت پروژه موردنظر را انتخاب کنید.",
+          "inputs": "متن جست‌وجو اختیاری است و نام پروژه، مشتری و نشانی را جست‌وجو می‌کند. فیلتر وضعیت گزینه‌های All projects، Open و Completed را دارد.",
+          "result": "فهرست، پروژه‌هایی را نمایش می‌دهد که با متن جست‌وجو و وضعیت انتخاب‌شده مطابقت دارند. با انتخاب کارت، جزئیات پروژه باز می‌شود.",
+          "notes": "فهرست ممکن است صفحه‌بندی شده باشد. پیش از ویرایش یا ثبت اطلاعات مالی پروژه، نام پروژه و جزئیات مشتری یا محل کار را تأیید کنید."
         }
       },
       "handler_or_behavior": "`prPage(`"
@@ -6060,20 +6060,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Adds another partner-share row to the current project.",
-          "when": "When a project has more than one partner or needs an additional profit-sharing participant.",
-          "how": "Select Add Partner, choose the partner and enter the share percentage for each participant.",
-          "inputs": "Select a saved partner and enter that partner's share percentage. The project must have valid partner-share percentages totalling 100% before it can be saved.",
-          "result": "An additional partner row is added to the project form.",
-          "notes": "All partner shares must total 100% before saving; confirm the agreed percentages with the parties."
+          "purpose": "Adds an additional partner row to the project profit-sharing section.",
+          "when": "Use this when another partner must be included in the profit-sharing arrangement for the current project.",
+          "how": "Select Add Partner. In the new row, choose a saved partner and enter that partner's percentage. Adjust the owner's and other partners' percentages as needed.",
+          "inputs": "A saved partner must be selected for each row, and each partner share must be greater than 0% and no more than 100%. The same partner cannot be added more than once. When saving the project, the owner's share plus all partner shares must total exactly 100%.",
+          "result": "A new partner selector and percentage field are added to the current project form, and the displayed share total is recalculated.",
+          "notes": "Adding a row does not save the project by itself. Confirm the agreed percentages; the project cannot be saved with missing partners, duplicate partners or a total other than exactly 100%."
         },
         "fa": {
-          "purpose": "یک ردیف دیگر برای سهم شریک به فرم پروژه فعلی اضافه می‌کند.",
-          "when": "وقتی پروژه بیش از یک شریک دارد یا باید شریک دیگری در تقسیم سود اضافه شود.",
-          "how": "Add Partner را بزنید، شریک را انتخاب و درصد سهم هر نفر را وارد کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "یک ردیف شریک دیگر به فرم پروژه اضافه می‌شود.",
-          "notes": "مجموع سهم همه شرکا باید پیش از ذخیره ۱۰۰٪ باشد؛ درصدهای توافق‌شده را با طرف‌ها بررسی کنید."
+          "purpose": "یک ردیف دیگر به بخش تقسیم سود شرکای پروژه اضافه می‌کند.",
+          "when": "وقتی لازم است شریک دیگری در توافق تقسیم سود پروژه فعلی وارد شود، از این گزینه استفاده کنید.",
+          "how": "Add Partner را انتخاب کنید. در ردیف جدید، یک شریک ذخیره‌شده را انتخاب و درصد سهم او را وارد کنید. در صورت نیاز درصد سهم صاحب کسب‌وکار و سایر شرکا را نیز تنظیم کنید.",
+          "inputs": "برای هر ردیف باید یک شریک ذخیره‌شده انتخاب شود و درصد سهم هر شریک باید بیشتر از ۰٪ و حداکثر ۱۰۰٪ باشد. یک شریک را نمی‌توان بیش از یک بار اضافه کرد. هنگام ذخیره پروژه، مجموع سهم صاحب کسب‌وکار و تمام شرکا باید دقیقاً ۱۰۰٪ باشد.",
+          "result": "یک انتخاب‌گر شریک و فیلد درصد سهم به فرم پروژه فعلی اضافه می‌شود و مجموع سهم‌های نمایش‌داده‌شده دوباره محاسبه می‌شود.",
+          "notes": "افزودن ردیف به‌تنهایی پروژه را ذخیره نمی‌کند. درصدهای توافق‌شده را تأیید کنید؛ پروژه با شریک انتخاب‌نشده، شریک تکراری یا مجموعی غیر از دقیقاً ۱۰۰٪ ذخیره نمی‌شود."
         }
       },
       "handler_or_behavior": "`prAddPartnerShareRow()`"
@@ -6086,20 +6086,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Validates and saves the project form to the Projects data store.",
-          "when": "After entering or editing the project details and agreed job information.",
-          "how": "Review the project name, customer/job details, agreed price and any partner shares, then select Save Project.",
-          "inputs": "A non-empty project name is required. Other project fields are optional or conditional; if partner sharing is enabled, the owner's share and all partner shares must total 100%.",
-          "result": "The project is saved if validation and IndexedDB persistence succeed.",
-          "notes": "Do not assume it saved until the status confirms success. Partner percentages must total 100% when partner sharing is enabled."
+          "purpose": "Validates the current project form and saves the project record to the Projects data store.",
+          "when": "Use this after entering a new project or making changes to an existing project form.",
+          "how": "Review the project name and details, contract type, optional photo and any partner-sharing percentages. Select Save Project and wait for the save status to confirm the result.",
+          "inputs": "A non-empty project name is required. If partner sharing is enabled, at least one partner must be selected, each partner must be unique, each partner share must be greater than 0% and no more than 100%, and the owner's share plus partner shares must total exactly 100%.",
+          "result": "If validation passes and IndexedDB persistence and verification succeed, the project is saved and the status displays Project saved successfully. If validation or saving fails, an error is displayed and the save must not be treated as successful.",
+          "notes": "The save operation prevents duplicate in-flight submissions and temporarily disables the save button. Do not navigate away or assume success until the status confirms it. Project data is stored separately from Accountancy."
         },
         "fa": {
-          "purpose": "اطلاعات فرم پروژه را اعتبارسنجی و در مخزن داده Projects ذخیره می‌کند.",
-          "when": "پس از واردکردن یا ویرایش جزئیات پروژه و اطلاعات توافق‌شده کار از این گزینه استفاده کنید.",
-          "how": "نام پروژه، جزئیات مشتری/کار، مبلغ توافق‌شده و سهم شرکا را بررسی و Save Project را انتخاب کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "در صورت موفقیت اعتبارسنجی و ذخیره در IndexedDB، پروژه ذخیره می‌شود.",
-          "notes": "تا زمانی که پیام وضعیت موفقیت را نشان نداده، ذخیره را قطعی فرض نکنید. در صورت فعال‌بودن تقسیم سهم، مجموع درصد شرکا باید ۱۰۰٪ باشد."
+          "purpose": "فرم پروژه فعلی را اعتبارسنجی می‌کند و سابقه پروژه را در مخزن داده Projects ذخیره می‌کند.",
+          "when": "پس از واردکردن اطلاعات پروژه جدید یا اعمال تغییرات در فرم پروژه موجود، از این گزینه استفاده کنید.",
+          "how": "نام و جزئیات پروژه، نوع قرارداد، تصویر اختیاری و درصدهای تقسیم سهم شرکا را بررسی کنید. Save Project را انتخاب کنید و منتظر بمانید تا پیام وضعیت نتیجه ذخیره را تأیید کند.",
+          "inputs": "نام پروژه نباید خالی باشد. اگر تقسیم سهم شرکا فعال است، باید دست‌کم یک شریک انتخاب شود؛ هر شریک باید یکتا باشد؛ سهم هر شریک باید بیشتر از ۰٪ و حداکثر ۱۰۰٪ باشد؛ و مجموع سهم صاحب کسب‌وکار و شرکا باید دقیقاً ۱۰۰٪ شود.",
+          "result": "اگر اعتبارسنجی موفق باشد و ذخیره و تأیید در IndexedDB انجام شود، پروژه ذخیره و پیام Project saved successfully نمایش داده می‌شود. اگر اعتبارسنجی یا ذخیره شکست بخورد، پیام خطا نمایش داده می‌شود و نباید ذخیره را موفق تلقی کرد.",
+          "notes": "عملیات ذخیره از ارسال هم‌زمان چندباره جلوگیری می‌کند و دکمه ذخیره را موقتاً غیرفعال می‌سازد. تا زمانی که پیام وضعیت موفقیت را تأیید نکرده، از صفحه خارج نشوید و ذخیره را موفق فرض نکنید. داده‌های پروژه جدا از Accountancy نگهداری می‌شوند."
         }
       },
       "handler_or_behavior": "`prSaveProject()`"
@@ -6112,20 +6112,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Resets the current project form fields.",
-          "when": "When you want to discard unsaved entries and start a different project form.",
-          "how": "Select Clear Form and verify the fields are empty before entering another project.",
-          "inputs": "No input is required. The control clears the current unsaved project form fields and resets project options to their defaults.",
-          "result": "The current form is cleared.",
-          "notes": "Unsaved text and selections may be lost. This does not delete a project already saved."
+          "purpose": "Resets the current New Project form to its initial values.",
+          "when": "Use this when you want to discard the current form entries and start a different project record.",
+          "how": "Select Clear Form. The project fields are emptied, the contract type returns to Labour + Materials, partner sharing is turned off, partner-share rows are reset, and the selected project photo is cleared.",
+          "inputs": "No input is required. The action clears the current form values and selections.",
+          "result": "The New Project form returns to its initial state and the page title displays New Project.",
+          "notes": "Unsaved project details, partner-share selections and the selected photo are discarded. This action does not delete or modify a project that has already been saved."
         },
         "fa": {
-          "purpose": "فیلدهای فرم پروژه فعلی را پاک و به حالت اولیه برمی‌گرداند.",
-          "when": "وقتی می‌خواهید ورودی‌های ذخیره‌نشده را کنار بگذارید و فرم پروژه دیگری را شروع کنید.",
-          "how": "Clear Form را انتخاب کنید و پیش از ورود پروژه بعدی خالی‌شدن فیلدها را بررسی کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "فرم فعلی پاک می‌شود.",
-          "notes": "متن‌ها و انتخاب‌های ذخیره‌نشده ممکن است از بین بروند. این گزینه پروژه ذخیره‌شده قبلی را حذف نمی‌کند."
+          "purpose": "فرم New Project فعلی را به مقادیر اولیه بازمی‌گرداند.",
+          "when": "وقتی می‌خواهید اطلاعات واردشده در فرم فعلی را کنار بگذارید و سابقه پروژه دیگری را شروع کنید، از این گزینه استفاده کنید.",
+          "how": "Clear Form را انتخاب کنید. فیلدهای پروژه خالی می‌شوند، نوع قرارداد به Labour + Materials بازمی‌گردد، تقسیم سهم شرکا غیرفعال و ردیف‌های سهم بازنشانی می‌شوند و تصویر انتخاب‌شده پروژه پاک می‌شود.",
+          "inputs": "ورودی لازم نیست. این عملیات مقادیر و انتخاب‌های فعلی فرم را پاک می‌کند.",
+          "result": "فرم New Project به وضعیت اولیه بازمی‌گردد و عنوان صفحه New Project نمایش داده می‌شود.",
+          "notes": "جزئیات ذخیره‌نشده پروژه، انتخاب شرکا و تصویر انتخاب‌شده کنار گذاشته می‌شوند. این عملیات پروژه‌ای را که قبلاً ذخیره شده حذف یا تغییر نمی‌دهد."
         }
       },
       "handler_or_behavior": "`prResetProject()`"
