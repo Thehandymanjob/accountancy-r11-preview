@@ -14498,20 +14498,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open the report view for the selected sub-project.",
-          "when": "Use this control when you want to review report information for the current sub-project.",
-          "how": "Select Report to display the available report information for the current sub-project.",
-          "inputs": "Select the correct sub-project and review the report information displayed.",
-          "result": "The report view for the selected sub-project is opened.",
-          "notes": "Review the selected project scope and period before using the figures."
+          "purpose": "Displays the financial summary for the currently selected sub-project.",
+          "when": "Use this when reviewing the sub-project's recorded receipts, costs, result, agreed price and outstanding balance.",
+          "how": "Open the sub-project and select Report in its finance tabs. Review the totals and the explanatory notes shown in the report view.",
+          "inputs": "The correct sub-project must be open. The report uses its saved income, costs, agreed price and payment records; no reporting-period selection is provided here.",
+          "result": "The sub-project report view displays recorded income, costs, profit/loss on recorded data, agreed price and outstanding agreed balance.",
+          "notes": "Figures reflect records saved in the selected sub-project. They are not a tax calculation and may exclude unrecorded items; check the underlying records before relying on them."
         },
         "fa": {
-          "purpose": "باز کردن نمای گزارش زیرپروژه انتخاب‌شده.",
-          "when": "وقتی می‌خواهید اطلاعات گزارش زیرپروژه فعلی را بررسی کنید، از این گزینه استفاده کنید.",
-          "how": "گزینه Report را انتخاب کنید تا اطلاعات گزارش زیرپروژه فعلی نمایش داده شود.",
-          "inputs": "زیرپروژه درست را انتخاب کنید و اطلاعات گزارش نمایش‌داده‌شده را بررسی کنید.",
-          "result": "نمای گزارش زیرپروژه انتخاب‌شده باز می‌شود.",
-          "notes": "پیش از استفاده از ارقام، محدوده پروژه و دوره گزارش را بررسی کنید."
+          "purpose": "خلاصه مالی زیرپروژه انتخاب‌شده فعلی را نمایش می‌دهد.",
+          "when": "برای بررسی رسیدهای ثبت‌شده، هزینه‌ها، نتیجه مالی، قیمت توافق‌شده و مانده پرداخت‌نشده زیرپروژه از این گزینه استفاده کنید.",
+          "how": "زیرپروژه را باز کنید و در زبانه‌های مالی آن Report را انتخاب کنید. مجموع‌ها و یادداشت‌های توضیحی نمایش‌داده‌شده در نمای گزارش را بررسی کنید.",
+          "inputs": "زیرپروژه صحیح باید باز باشد. گزارش از درآمدها، هزینه‌ها، قیمت توافق‌شده و سوابق پرداخت ذخیره‌شده آن استفاده می‌کند؛ در این بخش انتخاب دوره گزارش وجود ندارد.",
+          "result": "نمای گزارش زیرپروژه درآمد ثبت‌شده، هزینه‌ها، سود/زیان بر اساس اطلاعات ثبت‌شده، قیمت توافق‌شده و مانده توافق‌شده را نمایش می‌دهد.",
+          "notes": "ارقام بر اساس سوابق ذخیره‌شده در زیرپروژه انتخاب‌شده هستند. این گزارش محاسبه مالیاتی نیست و ممکن است موارد ثبت‌نشده را شامل نشود؛ پیش از اتکا به ارقام، سوابق اصلی را بررسی کنید."
         },
         "ar": {
           "purpose": "يفتح عرض التقرير للمشروع الفرعي المحدد.",
@@ -14596,20 +14596,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open the form to add a sub-project.",
-          "when": "Use this control when you want to create a new sub-project within the selected project.",
-          "how": "Select Add Sub-project and complete the fields presented for the new sub-project.",
-          "inputs": "A sub-project must be selected as the parent context. A non-empty sub-project name is required to save; agreed price and photo are optional.",
-          "result": "The Add Sub-project form opens with fields for a name, agreed price and optional photo. The sub-project is not created until you select Add Sub-project in that form.",
-          "notes": "Check the parent project and enter a distinct, meaningful sub-project name before saving."
+          "purpose": "Opens the form for adding a new sub-project under the currently open parent project.",
+          "when": "Use this when you want to create a new sub-project within the project whose details are currently open.",
+          "how": "From the parent project's detail page, select Add Sub-project. The form opens with fields for the sub-project name, agreed price and optional photo.",
+          "inputs": "A saved parent project must be open. A non-empty sub-project name is required when saving; agreed price and photo are optional.",
+          "result": "The Add Sub-project form opens. The sub-project is not created until you select Add Sub-project in that form and the save succeeds.",
+          "notes": "Check the parent project before opening the form. Give the sub-project a distinct, meaningful name so it can be identified in lists and reports."
         },
         "fa": {
-          "purpose": "باز کردن فرم افزودن زیرپروژه.",
-          "when": "وقتی می‌خواهید زیرپروژه جدیدی درون پروژه انتخاب‌شده ایجاد کنید، از این گزینه استفاده کنید.",
-          "how": "گزینه Add Sub-project را انتخاب کنید و فیلدهای نمایش‌داده‌شده را تکمیل کنید.",
-          "inputs": "پروژه والد درست را انتخاب کنید و نامی متمایز و جزئیات لازم زیرپروژه را وارد کنید.",
-          "result": "فرم ایجاد زیرپروژه جدید باز می‌شود.",
-          "notes": "پروژه والد را بررسی و برای زیرپروژه نامی مشخص و غیرتکراری وارد کنید."
+          "purpose": "فرم افزودن زیرپروژه جدید را زیر پروژه والدِ بازشده فعلی نمایش می‌دهد.",
+          "when": "وقتی می‌خواهید درون پروژه‌ای که جزئیات آن اکنون باز است زیرپروژه جدیدی ایجاد کنید، از این گزینه استفاده کنید.",
+          "how": "از صفحه جزئیات پروژه والد، Add Sub-project را انتخاب کنید. فرم با فیلدهای نام زیرپروژه، قیمت توافق‌شده و عکس اختیاری باز می‌شود.",
+          "inputs": "باید پروژه والد ذخیره‌شده باز باشد. هنگام ذخیره، نام غیرخالی زیرپروژه الزامی است؛ قیمت توافق‌شده و عکس اختیاری هستند.",
+          "result": "فرم Add Sub-project باز می‌شود. زیرپروژه تا زمانی که در همان فرم Add Sub-project را انتخاب نکنید و ذخیره موفق نشود، ایجاد نمی‌شود.",
+          "notes": "پیش از بازکردن فرم، پروژه والد را بررسی کنید. برای زیرپروژه نامی مشخص و متمایز وارد کنید تا در فهرست‌ها و گزارش‌ها قابل شناسایی باشد."
         },
         "ar": {
           "purpose": "يفتح نموذج إضافة مشروع فرعي.",
@@ -14694,20 +14694,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open an existing sub-project from its row.",
-          "when": "Use this control when you want to view or begin editing an existing sub-project.",
-          "how": "Select Edit on the required sub-project to open its details.",
-          "inputs": "Select the correct sub-project from the list.",
-          "result": "The selected sub-project record is opened; opening it does not itself save changes.",
-          "notes": "Confirm the correct sub-project; opening the row does not itself save changes."
+          "purpose": "Opens the selected sub-project's detail view from the parent project's sub-project list.",
+          "when": "Use this when you want to open and review an existing sub-project and its finance tabs.",
+          "how": "In the sub-project list, select Edit on the row of the required sub-project. The sub-project becomes the current detail context and its Summary view opens.",
+          "inputs": "Select the correct sub-project from the currently open parent project's list. No additional input is required.",
+          "result": "The selected sub-project's detail view opens. This action does not directly edit or save its details; use the sub-project edit controls when you want to change its name, agreed price or photo.",
+          "notes": "Confirm the parent project and sub-project identity. Selecting this row opens the detail context; it does not immediately open the edit form."
         },
         "fa": {
-          "purpose": "باز کردن یک زیرپروژه موجود از ردیف آن.",
-          "when": "وقتی می‌خواهید جزئیات یک زیرپروژه موجود را ببینید یا ویرایش آن را آغاز کنید، از این گزینه استفاده کنید.",
-          "how": "در زیرپروژه موردنظر Edit را انتخاب کنید تا جزئیات آن باز شود.",
-          "inputs": "زیرپروژه درست را از فهرست انتخاب کنید.",
-          "result": "سابقه زیرپروژه انتخاب‌شده باز می‌شود؛ باز کردن آن به‌تنهایی تغییرات را ذخیره نمی‌کند.",
-          "notes": "زیرپروژه درست را بررسی کنید؛ باز کردن آن به‌تنهایی تغییرات را ذخیره نمی‌کند."
+          "purpose": "نمای جزئیات زیرپروژه انتخاب‌شده را از فهرست زیرپروژه‌های پروژه والد باز می‌کند.",
+          "when": "وقتی می‌خواهید یک زیرپروژه موجود و زبانه‌های مالی آن را باز و بررسی کنید، از این گزینه استفاده کنید.",
+          "how": "در فهرست زیرپروژه‌ها، در ردیف زیرپروژه موردنظر Edit را انتخاب کنید. همان زیرپروژه به زمینه جزئیات فعلی تبدیل می‌شود و نمای Summary آن باز می‌شود.",
+          "inputs": "زیرپروژه صحیح را از فهرست پروژه والدِ بازشده انتخاب کنید. ورودی دیگری لازم نیست.",
+          "result": "نمای جزئیات زیرپروژه انتخاب‌شده باز می‌شود. این عملیات مستقیماً جزئیات آن را ویرایش یا ذخیره نمی‌کند؛ برای تغییر نام، قیمت توافق‌شده یا عکس از کنترل‌های ویرایش زیرپروژه استفاده کنید.",
+          "notes": "هویت پروژه والد و زیرپروژه را بررسی کنید. انتخاب این ردیف فقط نمای جزئیات را باز می‌کند و فرم ویرایش را مستقیماً نمایش نمی‌دهد."
         },
         "ar": {
           "purpose": "يفتح مشروعاً فرعياً موجوداً من صفه.",
