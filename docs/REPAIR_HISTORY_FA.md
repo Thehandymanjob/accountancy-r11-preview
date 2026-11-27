@@ -758,6 +758,21 @@
 - **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ بازشدن هر تب، عدم اجرای ناخواسته handler اصلی هنگام لمس «?» و چیدمان موبایل باید در Preview بررسی شوند.
 - **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
 
+
+#### بازنگری R63 — اتصال قالب‌های پویای فهرست، رسید، سوابق و مشتریان
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** اتصال ۹ شناسه موجود به عناصر ساخته‌شده در زمان اجرا؛ شناسه جدید ایجاد نشد.
+- **شناسه‌های متصل‌شده:** THA-HLP-0119 (Previous)، THA-HLP-0121 (Next)، THA-HLP-0124 (View receipt)، THA-HLP-0129 (Edit Entry)، THA-HLP-0130 (Delete Entry)، THA-HLP-0132 (View Deleted Entry)، THA-HLP-0137 (Edit Customer)، THA-HLP-0138 (New invoice for Customer) و THA-HLP-0139 (Delete Customer).
+- **روش اتصال:** صفت `data-help-id` مستقیماً به templateهای `paginationMarkup()`، `renderReceiptPreview()`، `renderRecords()` و `renderCustomers()` افزوده شد. MutationObserver موجود در Help Runtime هنگام درج این عناصر در DOM، دکمه راهنما را متصل می‌کند.
+- **ایمنی:** Help روی دکمه‌های Edit/Delete صرفاً توضیح نمایش می‌دهد؛ لمس «?» نباید Edit، Delete یا New Invoice را اجرا کند. هیچ رکورد، مشتری، رسید یا فاکتوری ایجاد، حذف یا ویرایش نشده است.
+- **Check for Updates:** شناسه THA-HLP-0072 متصل نشد؛ دکمه در Preview صریحاً disabled است و updater تا بعد از تأیید نهایی و انتشار Production غیرفعال می‌ماند. این مورد به‌عنوان EXEMPT_DISABLED_IN_PREVIEW ثبت شد.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R63`.
+- **شمارنده پس از R63:** ۱۲۷ Help ID متصل؛ ۱۱۳ static و ۱۴ dynamic-template. پنج مورد از ۱۳۲ محتوای قابل انتشار هنوز خارج از این runtime هستند: چهار کنترل در سند/پنجره PDF جداگانه و یک updater غیرفعال.
+- **تست ایستا:** ۹ data-help-id در templateهای مشخص ثبت شد؛ MutationObserver موجود برای عناصر تازه‌وارد استفاده می‌شود. تست مرورگر واقعی هنوز انجام نشده است.
+- **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ pagination، رسید، Edit/Delete، New Invoice، انتخاب زبان و چیدمان موبایل باید در Preview آزمایش شوند.
+- **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
+
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
 - **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Implemented on Preview development; the latest R45 Version Authority Gate passed after native-HTML fail-closed hardening (run 46053038295). Pages deployment and iPhone Safari verification remain pending.
