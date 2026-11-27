@@ -2022,19 +2022,19 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "5b71c664ff1654ba1f717ed373f9c82a516dd28d",
+      "previewDevelopmentCommitSha": "b28e0248ac9c61b08b98d06cfe7d9be722c22470",
       "previewPullRequestNumber": 96,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "The preceding R45 Gate passed on run 46052848728 before the final HTML hardening. The latest change sets the native HTML Factory Reset final button to disabled=true in both openFactoryReset() and factoryResetNextStep(), so it remains disabled even if the reset guard script fails to load. The index SHA pin and indexBlobSha were updated in this manifest. A fresh Gate run for this exact latest commit is still required."
+        "result": "PASS",
+        "runId": 46052943766,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46052943766",
+        "details": "Latest R45 PR head passed the R11 Version Authority Gate after the final native-HTML disabled-state hardening. Repository and branch identity, approved baseline ancestry, R45 Build ID, embedded canonical URL, index blob SHA and all 22 authority-pinned runtime assets matched."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
-        "details": "R11 Version Authority Gate passed all 22 pinned runtime assets. V8 syntax compilation passed for the complete reset runtime. Static source checks confirm exact Preview DB identity, 17-domain backup verification, independent converted-file validation, SHA-256 re-selection of saved emergency snapshot, fail-closed final gate and recovery-lock retry. No live browser execution, failure-injection test or destructive reset was performed. Additional defense-in-depth: the destructive reset helper is no longer exposed on the global HandymanV273LegacyReset object and enforces the Preview database identity internally as well as at the final UI gate."
+        "details": "R11 Version Authority Gate passed all 22 pinned runtime assets. V8 syntax compilation passed for the complete reset runtime. Static source checks confirm exact Preview DB identity, 17-domain backup verification, independent converted-file validation, SHA-256 re-selection of saved emergency snapshot, fail-closed final gate and recovery-lock retry. No live browser execution, failure-injection test or destructive reset was performed. Additional defense-in-depth: the destructive reset helper is no longer exposed on the global HandymanV273LegacyReset object and enforces the Preview database identity internally as well as at the final UI gate. Native HTML fail-closed hardening also sets the final Reset button disabled in the markup and in both modal transitions, so a missing or failed reset guard script cannot leave the destructive control enabled."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
