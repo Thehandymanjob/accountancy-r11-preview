@@ -741,7 +741,7 @@
 - **اصلاح:** دو ردیف تکراری THA-HLP-0006 (Save Contract) و THA-HLP-0008 (Preview/Print/Save PDF) از جدول static حذف شدند. هر کدام فقط یک selector دقیق `#ctFormCard` دارند.
 - **شمارنده نهایی:** ۹۷ Help ID متصل؛ ۹۲ static با شناسه یکتا و پنج dynamic-template. Mapping و Version Authority به SHAهای جدید runtime/index متصل شدند.
 - **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R61`.
-- **Gate:** در انتظار اجرای R61؛ Gate قبلی R60 PASS است اما جایگزین Gate نسخه R61 نمی‌شود.
+- **Gate:** در انتظار اجرای R61؛ **Version Authority Gate R61:** PASS؛ run `46071360320` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071360320؛ Build ID، canonical URL، SHA صفحه و تمام ۲۴ asset pin تأیید شدند.
 - **تست مرورگر / انتشار:** هنوز انجام نشده؛ PR #96 Draft است، Preview منتشر نشده و Production دست‌نخورده باقی مانده است.
 
 
@@ -754,7 +754,7 @@
 - **محتوا:** هر ۱۳ شناسه CONTENT_COMPLETE هستند. این اتصال فقط راهنما را اضافه می‌کند و محاسبات مالی پروژه، دستمزد، ابزار، هزینه یا سود/زیان را تغییر نمی‌دهد.
 - **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R61`.
 - **شمارنده پس از این مرحله:** ۱۱۰ Help ID متصل؛ ۱۰۵ کنترل static با شناسه یکتا و پنج dynamic-template. از کنترل‌های static، ۸۷ selector محدوده‌دار، ۱۳ selector مبتنی بر ID یکتا و پنج handler محدوده‌دار هستند.
-- **تست ایستا:** ۱۰۵ ردیف STATIC_BINDINGS و ۱۰۵ شناسه یکتا؛ mapping و pin فایل runtime با SHA واقعی همگام شدند. Version Authority Gate تجمعی R61 هنوز باید اجرا شود.
+- **تست ایستا:** ۱۰۵ ردیف STATIC_BINDINGS و ۱۰۵ شناسه یکتا؛ mapping و pin فایل runtime با SHA واقعی همگام شدند. **Version Authority Gate R61:** PASS؛ run `46071360320` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071360320؛ ۱۰۵ ردیف static با ۱۰۵ Help ID یکتا و تمام ۲۴ asset pin تأیید شدند.
 - **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ بازشدن هر تب، عدم اجرای ناخواسته handler اصلی هنگام لمس «?» و چیدمان موبایل باید در Preview بررسی شوند.
 - **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
 
