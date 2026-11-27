@@ -53,11 +53,11 @@
     ['THA-HLP-0032', '#customers .actions > button[onclick="saveCustomer()"]'],
     ['THA-HLP-0033', '#customers .actions > button[onclick="resetCustomerForm()"]'],
     ['THA-HLP-0029', '#invoiceListArea .invoice-quick-actions > button[onclick="newInvoice()"]'],
-    ['THA-HLP-0034', '#report188Menu .report188-menu-grid > button[onclick="report188Navigate(\\'builder\\')"]'],
-    ['THA-HLP-0035', '#report188Menu .report188-menu-grid > button[onclick="report188Navigate(\\'archive\\')"]'],
-    ['THA-HLP-0036', '#report188Menu .report188-menu-grid > button[onclick="report188Navigate(\\'inbox\\')"]'],
-    ['THA-HLP-0037', '#report188Menu .report188-menu-grid > button[onclick="report188Navigate(\\'calendar\\')"]'],
-    ['THA-HLP-0038', '#report188Menu .report188-menu-grid > button[onclick="report188Navigate(\\'email\\')"]']
+    ['THA-HLP-0034', '#report188Menu .report188-menu-grid > button[onclick="report188Navigate(\'builder\')"]'],
+    ['THA-HLP-0035', '#report188Menu .report188-menu-grid > button[onclick="report188Navigate(\'archive\')"]'],
+    ['THA-HLP-0036', '#report188Menu .report188-menu-grid > button[onclick="report188Navigate(\'inbox\')"]'],
+    ['THA-HLP-0037', '#report188Menu .report188-menu-grid > button[onclick="report188Navigate(\'calendar\')"]'],
+    ['THA-HLP-0038', '#report188Menu .report188-menu-grid > button[onclick="report188Navigate(\'email\')"]']
   ];
   if (STATIC_BINDINGS.some(binding => !Array.isArray(binding) || binding.length !== 2 || binding.some(value => typeof value !== 'string' || !value.trim()))) {
     console.error('[THA Help] Invalid static binding table; contextual help was not started.');
