@@ -6138,20 +6138,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Loads the current project details into the project editor.",
-          "when": "When correcting or updating the scope, agreed value or other saved project details.",
-          "how": "Open the project, select Edit, change the required fields and save the updated project.",
-          "inputs": "No additional input is required to open the current project's editor. The selected project's saved ID and existing values are loaded into the form.",
-          "result": "The project form opens with the existing values for editing.",
-          "notes": "Check that you are editing the correct project. Changes are not committed until successfully saved."
+          "purpose": "Loads the selected project's saved details into the New Project form for editing.",
+          "when": "Use this when correcting or updating the name, customer, site, contact details, contract type, partner shares, photo or notes of an existing project.",
+          "how": "Open the required project, select Edit, make the changes in the project form, then select Save Project and wait for the save confirmation.",
+          "inputs": "No additional input is needed to open the editor. The selected project's saved ID and existing values are loaded into the form; any changes you make are subject to the normal project-save validation.",
+          "result": "The New Project form opens with the selected project's existing details and the page title changes to Edit Project.",
+          "notes": "Confirm that the correct project is open before editing. Changes are not committed until Save Project succeeds and the app confirms the save in IndexedDB. Existing project financial records are retained by the save workflow."
         },
         "fa": {
-          "purpose": "جزئیات پروژه فعلی را در ویرایشگر پروژه بارگذاری می‌کند.",
-          "when": "برای اصلاح یا به‌روزرسانی محدوده کار، مبلغ توافق‌شده یا سایر مشخصات پروژه از این گزینه استفاده کنید.",
-          "how": "پروژه را باز کنید، Edit را بزنید، فیلدهای لازم را تغییر دهید و پروژه به‌روزشده را ذخیره کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "فرم پروژه با مقادیر قبلی برای ویرایش باز می‌شود.",
-          "notes": "مطمئن شوید پروژه درست را ویرایش می‌کنید. تغییرات تا زمان ذخیره موفق ثبت نمی‌شوند."
+          "purpose": "اطلاعات ذخیره‌شده پروژه انتخاب‌شده را برای ویرایش در فرم New Project بارگذاری می‌کند.",
+          "when": "برای اصلاح یا به‌روزرسانی نام، مشتری، محل کار، اطلاعات تماس، نوع قرارداد، سهم شرکا، تصویر یا یادداشت‌های پروژه موجود از این گزینه استفاده کنید.",
+          "how": "پروژه موردنظر را باز کنید، Edit را انتخاب کنید، تغییرات را در فرم پروژه اعمال کنید و سپس Save Project را بزنید. منتظر تأیید ذخیره بمانید.",
+          "inputs": "برای بازکردن ویرایشگر ورودی دیگری لازم نیست. شناسه و مقادیر ذخیره‌شده پروژه انتخاب‌شده در فرم بارگذاری می‌شوند؛ تغییرات شما مشمول اعتبارسنجی معمول هنگام ذخیره پروژه هستند.",
+          "result": "فرم New Project با اطلاعات قبلی پروژه انتخاب‌شده باز می‌شود و عنوان صفحه به Edit Project تغییر می‌کند.",
+          "notes": "پیش از ویرایش، مطمئن شوید پروژه صحیح باز شده است. تغییرات تا زمان موفقیت Save Project و تأیید ذخیره در IndexedDB ثبت نمی‌شوند. گردش‌کار ذخیره، سوابق مالی موجود پروژه را حفظ می‌کند."
         }
       },
       "handler_or_behavior": "`prEditCurrent()`"
@@ -6164,20 +6164,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Changes the current project completion status.",
-          "when": "When the job has reached the agreed completion point and you want it marked completed.",
-          "how": "Open the project and select Complete. Review the updated status shown by the app.",
-          "inputs": "No additional input is required. The current project's saved status is toggled between Open and Complete.",
-          "result": "The project status is changed to completed if the update succeeds.",
-          "notes": "This is a status change, not a financial settlement. Outstanding payments or costs may still exist."
+          "purpose": "Toggles the current project's status between Open and Complete and saves the change to IndexedDB.",
+          "when": "Use Complete when the project has reached its completion point. Use the same control, which then displays Reopen, if the project needs to be reopened.",
+          "how": "Open the project and select Complete. If it is already complete, select Reopen. Check the confirmation message and the status shown on the project.",
+          "inputs": "No additional input is required. The selected project's current status is changed between open and complete.",
+          "result": "If the IndexedDB write succeeds, the project status changes and the project list and detail view are refreshed. The app confirms whether the project was completed or reopened.",
+          "notes": "This is only a status change. It does not create, remove or synchronise financial entries and does not settle outstanding payments or costs. A completed project must be reopened before it can be deleted."
         },
         "fa": {
-          "purpose": "وضعیت تکمیل پروژه فعلی را تغییر می‌دهد.",
-          "when": "وقتی کار به مرحله تکمیل توافق‌شده رسیده و می‌خواهید پروژه را تکمیل‌شده علامت بزنید.",
-          "how": "پروژه را باز کنید و Complete را انتخاب کنید. وضعیت جدید نمایش‌داده‌شده را بررسی کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "در صورت موفقیت، وضعیت پروژه به تکمیل‌شده تغییر می‌کند.",
-          "notes": "این فقط تغییر وضعیت است و به معنی تسویه مالی نیست. ممکن است هنوز پرداخت یا هزینه معوق وجود داشته باشد."
+          "purpose": "وضعیت پروژه فعلی را بین Open و Complete تغییر می‌دهد و این تغییر را در IndexedDB ذخیره می‌کند.",
+          "when": "وقتی پروژه به مرحله تکمیل رسیده است Complete را انتخاب کنید. اگر پروژه تکمیل‌شده باید دوباره فعال شود، همین کنترل که در آن حالت Reopen نمایش داده می‌شود را انتخاب کنید.",
+          "how": "پروژه را باز کنید و Complete را انتخاب کنید. اگر پروژه از قبل تکمیل شده است، Reopen را بزنید. پیام تأیید و وضعیت نمایش‌داده‌شده پروژه را بررسی کنید.",
+          "inputs": "ورودی دیگری لازم نیست. وضعیت پروژه انتخاب‌شده بین open و complete تغییر می‌کند.",
+          "result": "اگر نوشتن در IndexedDB موفق باشد، وضعیت پروژه تغییر می‌کند و فهرست و نمای جزئیات پروژه به‌روزرسانی می‌شوند. برنامه تکمیل یا بازگشایی پروژه را با پیام تأیید اعلام می‌کند.",
+          "notes": "این عملیات فقط وضعیت را تغییر می‌دهد؛ هیچ ثبت مالی ایجاد، حذف یا همگام‌سازی نمی‌کند و پرداخت‌ها یا هزینه‌های معوق را تسویه نمی‌کند. پیش از حذف پروژه تکمیل‌شده، باید آن را دوباره باز کنید."
         }
       },
       "handler_or_behavior": "`prToggleProjectCompletion()`"
@@ -6190,20 +6190,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Deletes the current project after the app’s confirmation flow.",
-          "when": "Only when the project is a duplicate or was created in error and its records are no longer required.",
-          "how": "Open the correct project, select Delete and read the confirmation carefully before approving.",
-          "inputs": "No form input is required. The current project must be selected, and the user must approve the deletion confirmation.",
-          "result": "The project is deleted only if the confirmation and delete operation succeed.",
-          "notes": "DESTRUCTIVE: project and associated sub-project/financial history may be removed. Export a Projects backup first and check whether the project has financial records. Do not delete merely to mark a job complete."
+          "purpose": "Deletes the selected project and its associated project records after explicit confirmation.",
+          "when": "Use this only when the project was created by mistake or is a duplicate and its project records are no longer needed.",
+          "how": "Open the project and select Delete. Read the confirmation stating that the project and its project records will be deleted and the action cannot be undone. Approve only if you intend to permanently remove it.",
+          "inputs": "The project must be selected and the user must approve the confirmation dialog. A project marked Complete cannot be deleted; reopen it first.",
+          "result": "If confirmed and the IndexedDB save succeeds, the project is removed from the Projects list. If the save fails, the in-memory project list is restored and deletion is not successful.",
+          "notes": "DESTRUCTIVE AND IRREVERSIBLE. The operation removes the project and its associated records, which may include sub-projects and financial history. Export a backup first and verify that no records are required. Do not use Delete as a way to mark a job complete; use Complete instead."
         },
         "fa": {
-          "purpose": "پس از طی مرحله تأیید برنامه، پروژه فعلی را حذف می‌کند.",
-          "when": "فقط وقتی پروژه تکراری است یا اشتباهی ایجاد شده و دیگر به سوابق آن نیاز ندارید از این گزینه استفاده کنید.",
-          "how": "پروژه درست را باز کنید، Delete را بزنید و پیش از تأیید، پیام هشدار را کامل بخوانید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "پروژه فقط در صورت تأیید و موفقیت عملیات حذف، پاک می‌شود.",
-          "notes": "مخرب: پروژه و سوابق مالی/زیرپروژه‌های مرتبط ممکن است حذف شوند. ابتدا از Projects پشتیبان بگیرید و وجود سوابق مالی را بررسی کنید. برای تکمیل کار از حذف استفاده نکنید."
+          "purpose": "پس از تأیید صریح، پروژه انتخاب‌شده و سوابق مرتبط با آن را حذف می‌کند.",
+          "when": "فقط زمانی از این گزینه استفاده کنید که پروژه اشتباهی ایجاد شده یا تکراری است و دیگر به سوابق آن نیاز ندارید.",
+          "how": "پروژه را باز کنید و Delete را انتخاب کنید. پیام تأیید را که اعلام می‌کند پروژه و سوابق آن حذف می‌شوند و این عمل قابل بازگشت نیست، کامل بخوانید. فقط در صورت قصد حذف دائمی، آن را تأیید کنید.",
+          "inputs": "پروژه باید انتخاب شده باشد و کاربر باید حذف را در پنجره تأیید بپذیرد. پروژه‌ای که وضعیت Complete دارد قابل حذف نیست؛ ابتدا آن را Reopen کنید.",
+          "result": "در صورت تأیید و موفقیت ذخیره در IndexedDB، پروژه از فهرست Projects حذف می‌شود. اگر ذخیره شکست بخورد، فهرست پروژه‌ها در حافظه به وضعیت قبلی بازمی‌گردد و حذف موفق محسوب نمی‌شود.",
+          "notes": "مخرب و غیرقابل بازگشت است. پروژه و سوابق مرتبط با آن، از جمله مواردی مانند زیرپروژه‌ها و تاریخچه مالی، حذف می‌شوند. ابتدا نسخه پشتیبان تهیه و بررسی کنید که به هیچ‌یک از سوابق نیاز ندارید. برای تکمیل کار از Delete استفاده نکنید؛ گزینه Complete مخصوص این کار است."
         }
       },
       "handler_or_behavior": "`prDeleteCurrent()`"
@@ -6216,20 +6216,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the financial report for the current project.",
-          "when": "When reviewing the recorded income, expenses and current financial result for this job.",
-          "how": "Open the project and select Report. Review the included project and sub-project totals.",
-          "inputs": "No additional input is required when opening the report from a project detail page. The current project ID is used to select the report subject.",
-          "result": "The current project’s financial report is displayed.",
-          "notes": "Figures are based on project records, not automatically on Accountancy transactions or tax calculations."
+          "purpose": "Opens the financial report for the currently selected project.",
+          "when": "Use this when reviewing the selected project's recorded income, eligible costs and financial result.",
+          "how": "Open the project and select Report in the project action area. The app opens the Project Financial Report for that project; review its totals and included project records.",
+          "inputs": "No additional input is required when launching the report from a project detail page. The currently selected project ID is used. The report includes the parent project and its sub-projects when the project has sub-projects.",
+          "result": "The Project Financial Report page opens for the selected project and displays its aggregated financial figures and supporting records.",
+          "notes": "The report uses project records and its own cost-inclusion rules. It is not an Accountancy report and does not automatically represent tax figures. Check the selected project and included sub-project records before relying on the result."
         },
         "fa": {
-          "purpose": "گزارش مالی پروژه فعلی را باز می‌کند.",
-          "when": "برای بررسی درآمد، هزینه‌ها و نتیجه مالی فعلی این کار از این گزینه استفاده کنید.",
-          "how": "پروژه را باز کنید و Report را انتخاب کنید. مجموع پروژه و زیرپروژه‌های لحاظ‌شده را بررسی کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "گزارش مالی پروژه فعلی نمایش داده می‌شود.",
-          "notes": "ارقام بر اساس سوابق پروژه هستند و خودکار با تراکنش‌های Accountancy یا محاسبات مالیاتی یکی نیستند."
+          "purpose": "گزارش مالی پروژه انتخاب‌شده فعلی را باز می‌کند.",
+          "when": "برای بررسی درآمد ثبت‌شده، هزینه‌های قابل احتساب و نتیجه مالی پروژه انتخاب‌شده از این گزینه استفاده کنید.",
+          "how": "پروژه را باز کنید و در بخش اقدامات پروژه Report را انتخاب کنید. برنامه گزارش مالی پروژه را برای همان پروژه باز می‌کند؛ مجموع‌ها و سوابق لحاظ‌شده را بررسی کنید.",
+          "inputs": "برای بازکردن گزارش از صفحه جزئیات پروژه ورودی دیگری لازم نیست. شناسه پروژه انتخاب‌شده استفاده می‌شود. اگر پروژه زیرپروژه داشته باشد، گزارش پروژه اصلی و زیرپروژه‌های آن را دربرمی‌گیرد.",
+          "result": "صفحه Project Financial Report برای پروژه انتخاب‌شده باز می‌شود و ارقام مالی تجمیع‌شده و سوابق پشتیبان را نمایش می‌دهد.",
+          "notes": "این گزارش از سوابق پروژه و قواعد اختصاصی خود برای احتساب هزینه‌ها استفاده می‌کند. گزارش Accountancy نیست و لزوماً ارقام مالیاتی را نشان نمی‌دهد. پیش از اتکا به نتیجه، پروژه انتخاب‌شده و سوابق زیرپروژه‌های لحاظ‌شده را بررسی کنید."
         }
       },
       "handler_or_behavior": "`prOpenCurrentProjectProfitReport()`"
@@ -6242,20 +6242,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Displays the summary view for the selected project.",
-          "when": "When you need an overview of project details and key totals.",
-          "how": "Open the project and select Summary in its detail tabs.",
-          "inputs": "No input is required. The currently selected project and its saved summary data are used.",
-          "result": "The project summary content is displayed.",
-          "notes": "Use the relevant financial tabs for detailed transactions; summary totals may combine parent and sub-project data."
+          "purpose": "Displays the Summary tab for the currently selected project.",
+          "when": "Use this when you need a high-level view of the project's notes, status and key project totals.",
+          "how": "Open the project and select Summary in the project detail tabs. Review the project notes and the headline figures shown above the tabs.",
+          "inputs": "No input is required. The currently selected project is used. The summary content area may be empty for a parent project with sub-projects; its headline totals remain displayed.",
+          "result": "The Summary tab displays the project's notes and whether the project is Open or Complete. The detail header also shows agreed price, customer received, recorded project costs and outstanding contract.",
+          "notes": "The headline totals can include the parent project and its sub-projects. For detailed transactions, select Income, Expenses, Worker Wages, Tools, Food & Other or Reports. The summary is based on Projects records, not general Accountancy transactions."
         },
         "fa": {
-          "purpose": "نمای خلاصه پروژه انتخاب‌شده را نمایش می‌دهد.",
-          "when": "وقتی به نمای کلی مشخصات و مجموع‌های اصلی پروژه نیاز دارید.",
-          "how": "پروژه را باز کنید و در زبانه‌های جزئیات Summary را انتخاب کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "محتوای خلاصه پروژه نمایش داده می‌شود.",
-          "notes": "برای مشاهده تراکنش‌های تفصیلی از زبانه مالی مربوط استفاده کنید؛ مجموع خلاصه ممکن است اطلاعات پروژه اصلی و زیرپروژه‌ها را ترکیب کند."
+          "purpose": "زبانه Summary را برای پروژه انتخاب‌شده فعلی نمایش می‌دهد.",
+          "when": "وقتی به نمای کلی یادداشت‌ها، وضعیت و مجموع‌های اصلی پروژه نیاز دارید، از این زبانه استفاده کنید.",
+          "how": "پروژه را باز کنید و در زبانه‌های جزئیات پروژه Summary را انتخاب کنید. یادداشت‌های پروژه و ارقام اصلی نمایش‌داده‌شده بالای زبانه‌ها را بررسی کنید.",
+          "inputs": "ورودی لازم نیست. پروژه انتخاب‌شده فعلی استفاده می‌شود. ممکن است بخش محتوای خلاصه برای پروژه اصلی دارای زیرپروژه خالی باشد؛ با این حال مجموع‌های اصلی بالای صفحه نمایش داده می‌شوند.",
+          "result": "زبانه Summary یادداشت‌های پروژه و وضعیت Open یا Complete آن را نمایش می‌دهد. سربرگ جزئیات نیز مبلغ توافق‌شده، دریافتی از مشتری، هزینه‌های ثبت‌شده پروژه و مانده قرارداد را نشان می‌دهد.",
+          "notes": "مجموع‌های اصلی ممکن است اطلاعات پروژه اصلی و زیرپروژه‌های آن را دربرگیرند. برای مشاهده تراکنش‌های جزئی، زبانه‌های Income، Expenses، Worker Wages، Tools، Food & Other یا Reports را انتخاب کنید. این خلاصه بر اساس سوابق Projects است، نه تراکنش‌های عمومی Accountancy."
         }
       },
       "handler_or_behavior": "`prDetailTab(`"
