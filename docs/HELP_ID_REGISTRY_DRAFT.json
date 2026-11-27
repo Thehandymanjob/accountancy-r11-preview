@@ -6254,6 +6254,78 @@
           "inputs": "رابط شامل انتخاب‌گر فایل پشتیبان تبدیل‌شده و کادر تأیید است؛ اما این کنترل‌های نمایشی در R43 امکان دانلود عملیاتی Snapshot اضطراری را فراهم نمی‌کنند.",
           "result": "این کنترل در Build بررسی‌شده Snapshot اضطراری ایجاد یا دانلود نمی‌کند.",
           "notes": "خطر بسیار بالا: Snapshot اضطراری برای محافظت اضافی در نظر گرفته شده و جایگزین پشتیبان کامل و تأییدشده نیست. چون دکمه در ابتدا غیرفعال است و Handler اجرایی ندارد، فرض نکنید Snapshot ایجاد شده یا برای Reset مخرب ادامه دهید."
+        },
+        "ar": {
+          "purpose": "يظهر زر Download Emergency Snapshot في مربع حوار Secure Reset، لكنه يكون معطلاً في البداية ولا يحتوي على معالج نقر مسجل في إصدار المصدر R43.",
+          "when": "لا تعتمد على عنصر التحكم هذا لحماية البيانات الحالية في R43. يجب توفر نسخة احتياطية مستقلة تم التحقق منها قبل أي محاولة استعادة.",
+          "how": "يعرض مربع الحوار Download Emergency Snapshot بعد خطوة تحويل النسخة الاحتياطية. في الإصدار الذي تمت مراجعته، يكون الزر معطلاً في البداية ولا يوجد معالج نقر يعمل لإنشاء لقطة أو تنزيلها.",
+          "inputs": "تتضمن الواجهة منتقي ملف النسخة الاحتياطية المحوّلة ومربع اختيار للتأكيد، لكن عناصر التحكم الظاهرة هذه لا توفر عملية تنزيل فعالة للقطة الطارئة في R43.",
+          "result": "لا ينشئ عنصر التحكم هذا لقطة طارئة ولا ينزّلها في الإصدار الذي تمت مراجعته.",
+          "notes": "خطر مرتفع: تهدف اللقطة الطارئة إلى توفير حماية إضافية، وليست بديلاً عن نسخة احتياطية كاملة تم التحقق منها. وبما أن الزر معطل في البداية ولا يملك معالجاً يعمل، فلا تفترض وجود لقطة ولا تتابع إعادة ضبط مدمرة."
+        },
+        "ckb": {
+          "purpose": "دوگمەی Download Emergency Snapshot لە پەنجەرەی Secure Reset پیشان دەدرێت، بەڵام لە سەرەتاوە ناچالاکە و لە سەرچاوەی R43دا Click Handlerێکی تۆمارکراوی نییە.",
+          "when": "لە R43دا بۆ پاراستنی داتای ئێستا پشت بە ئەم کۆنترۆڵە مەبەستە. پێش هەر هەوڵێکی گەڕاندنەوە دەبێت پاڵپشتییەکی سەربەخۆ و پشتڕاستکراوە هەبێت.",
+          "how": "پەنجەرەکە دوای هەنگاوی گۆڕینی پاڵپشتی، Download Emergency Snapshot پیشان دەدات. لە Buildی پشکنراودا دوگمەکە لە سەرەتاوە ناچالاکە و هیچ Handlerێکی کارا نییە بۆ دروستکردن یان دابەزاندنی Snapshot.",
+          "inputs": "ڕووکار هەڵبژێری فایلێکی پاڵپشتی گۆڕدراو و چوارگۆشەی پشتڕاستکردنەوە لەخۆدەگرێت، بەڵام ئەم کۆنترۆڵە دیارانە لە R43دا دابەزاندنی کارای Snapshotی فریاکەوتن دابین ناکەن.",
+          "result": "ئەم کۆنترۆڵە لە Buildی پشکنراودا Snapshotی فریاکەوتن دروست ناکات یان دای نابەزێنێت.",
+          "notes": "مەترسیی بەرز: Snapshotی فریاکەوتن بۆ پاراستنی زیادە دانراوە، نەک جێگرەوەی پاڵپشتییەکی تەواو و پشتڕاستکراوە. چونکە دوگمەکە لە سەرەتاوە ناچالاکە و Handlerی کارای نییە، وا مەزانە Snapshot هەیە و بە Resetێکی وێرانکەرانە بەردەوام مەبە."
+        },
+        "kmr": {
+          "purpose": "Di paceya Secure Reset de bişkoka Download Emergency Snapshot tê nîşandan, lê di destpêkê de neçalak e û di çavkaniya R43 de tu handlera klîkkirinê ya qeydkirî tune.",
+          "when": "Di R43 de ji bo parastina daneyên heyî xwe dispêre vê kontrolê neke. Berî her hewla vegerandinê divê backup-eke serbixwe û verastkirî hebe.",
+          "how": "Pace piştî gavê veguherandina backup-ê Download Emergency Snapshot nîşan dide. Di build-a hatî kontrolkirin de bişkok di destpêkê de neçalak e û tu handlera kar ji bo çêkirin an daxistina snapshotê tune.",
+          "inputs": "Navrûyê hilbijêra pelê backup-a veguherî û qutiyeke pejirandinê dihewîne, lê ev kontrolên xuya di R43 de daxistina kar a snapshot-a acîl peyda nakin.",
+          "result": "Ev kontrol di build-a hatî kontrolkirin de snapshot-eke acîl çênake û nadixe.",
+          "notes": "METIRSIYA BILIND: Snapshot-a acîl ji bo parastineke zêde ye, ne cîgirê backup-eke tam û verastkirî. Ji ber ku bişkok di destpêkê de neçalak e û handlera kar tune, texmîn neke ku snapshot heye û bi reseteke wêranker re pêş neçe."
+        },
+        "tr": {
+          "purpose": "Secure Reset iletişim kutusunda Download Emergency Snapshot düğmesi görüntülenir; ancak başlangıçta devre dışıdır ve R43 kaynak derlemesinde kayıtlı bir tıklama işleyicisi yoktur.",
+          "when": "R43'te mevcut verileri korumak için bu denetime güvenmeyin. Herhangi bir kurtarma girişiminden önce doğrulanmış bağımsız bir yedek bulunmalıdır.",
+          "how": "İletişim kutusu, yedek dönüştürme adımından sonra Download Emergency Snapshot seçeneğini gösterir. İncelenen derlemede düğme başlangıçta devre dışıdır ve anlık görüntü oluşturup indirmek için çalışan bir tıklama işleyicisi kayıtlı değildir.",
+          "inputs": "Arayüzde dönüştürülmüş yedek dosyası seçici ve onay kutusu bulunur; ancak bu görünür denetimler R43'te çalışan bir acil durum anlık görüntüsü indirme işlemi sağlamaz.",
+          "result": "Bu denetim, incelenen derlemede acil durum anlık görüntüsü oluşturmaz veya indirmez.",
+          "notes": "YÜKSEK RİSK: Acil durum anlık görüntüsü ek bir güvenlik önlemidir; doğrulanmış tam yedeğin yerine geçmez. Düğme başlangıçta devre dışı ve çalışan bir işleyiciden yoksun olduğundan, anlık görüntünün mevcut olduğunu varsaymayın veya yıkıcı sıfırlamaya devam etmeyin."
+        },
+        "pl": {
+          "purpose": "W oknie Secure Reset wyświetlany jest przycisk Download Emergency Snapshot, ale początkowo jest nieaktywny i w kodzie źródłowym R43 nie ma zarejestrowanej procedury obsługi kliknięcia.",
+          "when": "W R43 nie polegaj na tym elemencie sterującym w celu ochrony bieżących danych. Przed każdą próbą odzyskiwania musi istnieć niezależna, zweryfikowana kopia zapasowa.",
+          "how": "Okno wyświetla Download Emergency Snapshot po etapie konwersji kopii zapasowej. W sprawdzonej kompilacji przycisk jest początkowo nieaktywny i nie ma działającej procedury kliknięcia, która tworzyłaby lub pobierała migawkę.",
+          "inputs": "Interfejs zawiera selektor przekonwertowanego pliku kopii zapasowej i pole potwierdzenia, ale te widoczne elementy nie zapewniają w R43 działającego pobierania migawki awaryjnej.",
+          "result": "W sprawdzonej kompilacji ten element sterujący nie tworzy ani nie pobiera migawki awaryjnej.",
+          "notes": "WYSOKIE RYZYKO: Migawka awaryjna ma zapewniać dodatkowe zabezpieczenie, a nie zastępować zweryfikowaną pełną kopię zapasową. Ponieważ przycisk jest początkowo nieaktywny i nie ma działającej procedury obsługi, nie zakładaj, że migawka istnieje, i nie kontynuuj destrukcyjnego resetu."
+        },
+        "ur": {
+          "purpose": "Secure Reset ڈائیلاگ میں Download Emergency Snapshot بٹن دکھایا جاتا ہے، لیکن ابتدا میں یہ غیر فعال ہوتا ہے اور R43 سورس بلڈ میں اس کے لیے کوئی کلک ہینڈلر رجسٹر نہیں ہے۔",
+          "when": "R43 میں موجودہ ڈیٹا کی حفاظت کے لیے اس کنٹرول پر بھروسا نہ کریں۔ بحالی کی کسی بھی کوشش سے پہلے ایک الگ اور تصدیق شدہ بیک اَپ موجود ہونا چاہیے۔",
+          "how": "بیک اَپ تبدیل کرنے کے مرحلے کے بعد ڈائیلاگ Download Emergency Snapshot دکھاتا ہے۔ جانچے گئے بلڈ میں یہ بٹن ابتدا میں غیر فعال ہے اور اسنیپ شاٹ بنانے یا ڈاؤن لوڈ کرنے کے لیے کوئی فعال کلک ہینڈلر رجسٹر نہیں۔",
+          "inputs": "انٹرفیس میں تبدیل شدہ بیک اَپ فائل منتخب کرنے کا اختیار اور تصدیقی چیک باکس شامل ہیں، لیکن یہ دکھائی دینے والے کنٹرول R43 میں ہنگامی اسنیپ شاٹ ڈاؤن لوڈ کرنے کا فعال عمل فراہم نہیں کرتے۔",
+          "result": "جانچے گئے بلڈ میں یہ کنٹرول ہنگامی اسنیپ شاٹ نہیں بناتا اور نہ ڈاؤن لوڈ کرتا ہے۔",
+          "notes": "زیادہ خطرہ: ہنگامی اسنیپ شاٹ اضافی تحفظ کے لیے ہے، تصدیق شدہ مکمل بیک اَپ کا متبادل نہیں۔ چونکہ بٹن ابتدا میں غیر فعال ہے اور اس کا کوئی فعال ہینڈلر نہیں، اس لیے یہ فرض نہ کریں کہ اسنیپ شاٹ موجود ہے اور تباہ کن ری سیٹ جاری نہ رکھیں۔"
+        },
+        "pa": {
+          "purpose": "Secure Reset ਡਾਇਲਾਗ ਵਿੱਚ Download Emergency Snapshot ਬਟਨ ਦਿਖਾਇਆ ਜਾਂਦਾ ਹੈ, ਪਰ ਇਹ ਸ਼ੁਰੂ ਵਿੱਚ ਬੰਦ ਹੁੰਦਾ ਹੈ ਅਤੇ R43 ਸਰੋਤ ਬਿਲਡ ਵਿੱਚ ਇਸਦਾ ਕੋਈ ਦਰਜ ਕੀਤਾ ਕਲਿੱਕ ਹੈਂਡਲਰ ਨਹੀਂ ਹੈ।",
+          "when": "R43 ਵਿੱਚ ਮੌਜੂਦਾ ਡਾਟੇ ਦੀ ਸੁਰੱਖਿਆ ਲਈ ਇਸ ਕੰਟਰੋਲ 'ਤੇ ਭਰੋਸਾ ਨਾ ਕਰੋ। ਕਿਸੇ ਵੀ ਰਿਕਵਰੀ ਕੋਸ਼ਿਸ਼ ਤੋਂ ਪਹਿਲਾਂ ਇੱਕ ਸੁਤੰਤਰ ਅਤੇ ਤਸਦੀਕ ਕੀਤਾ ਬੈਕਅੱਪ ਮੌਜੂਦ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।",
+          "how": "ਬੈਕਅੱਪ ਬਦਲਣ ਵਾਲੇ ਪੜਾਅ ਤੋਂ ਬਾਅਦ ਡਾਇਲਾਗ Download Emergency Snapshot ਦਿਖਾਉਂਦਾ ਹੈ। ਜਾਂਚੇ ਬਿਲਡ ਵਿੱਚ ਬਟਨ ਸ਼ੁਰੂ ਵਿੱਚ ਬੰਦ ਹੈ ਅਤੇ ਸਨੈਪਸ਼ਾਟ ਬਣਾਉਣ ਜਾਂ ਡਾਊਨਲੋਡ ਕਰਨ ਲਈ ਕੋਈ ਕੰਮ ਕਰਦਾ ਕਲਿੱਕ ਹੈਂਡਲਰ ਨਹੀਂ ਹੈ।",
+          "inputs": "ਇੰਟਰਫੇਸ ਵਿੱਚ ਬਦਲੇ ਹੋਏ ਬੈਕਅੱਪ ਲਈ ਫਾਈਲ ਚੋਣ ਅਤੇ ਪੁਸ਼ਟੀ ਚੈਕਬਾਕਸ ਹਨ, ਪਰ ਇਹ ਦਿਖਾਈ ਦੇ ਰਹੇ ਕੰਟਰੋਲ R43 ਵਿੱਚ ਕੰਮ ਕਰਦਾ ਐਮਰਜੈਂਸੀ ਸਨੈਪਸ਼ਾਟ ਡਾਊਨਲੋਡ ਨਹੀਂ ਦਿੰਦੇ।",
+          "result": "ਜਾਂਚੇ ਬਿਲਡ ਵਿੱਚ ਇਹ ਕੰਟਰੋਲ ਐਮਰਜੈਂਸੀ ਸਨੈਪਸ਼ਾਟ ਨਹੀਂ ਬਣਾਉਂਦਾ ਅਤੇ ਨਾ ਹੀ ਡਾਊਨਲੋਡ ਕਰਦਾ ਹੈ।",
+          "notes": "ਉੱਚ ਖਤਰਾ: ਐਮਰਜੈਂਸੀ ਸਨੈਪਸ਼ਾਟ ਵਾਧੂ ਸੁਰੱਖਿਆ ਲਈ ਹੈ, ਤਸਦੀਕ ਕੀਤੇ ਪੂਰੇ ਬੈਕਅੱਪ ਦਾ ਬਦਲ ਨਹੀਂ। ਕਿਉਂਕਿ ਬਟਨ ਸ਼ੁਰੂ ਵਿੱਚ ਬੰਦ ਹੈ ਅਤੇ ਇਸਦਾ ਕੋਈ ਕੰਮ ਕਰਦਾ ਹੈਂਡਲਰ ਨਹੀਂ, ਇਹ ਨਾ ਮੰਨੋ ਕਿ ਸਨੈਪਸ਼ਾਟ ਮੌਜੂਦ ਹੈ ਅਤੇ ਨੁਕਸਾਨਦਾਇਕ ਰੀਸੈੱਟ ਜਾਰੀ ਨਾ ਰੱਖੋ।"
+        },
+        "prs": {
+          "purpose": "دکمه Download Emergency Snapshot در پنجره Secure Reset نمایش داده می‌شود، اما در ابتدا غیرفعال است و در سورس R43 هیچ Click Handler ثبت‌شده‌ای ندارد.",
+          "when": "در R43 برای محافظت از داده‌های فعلی به این کنترل اتکا نکنید. پیش از هر تلاش برای بازیابی باید یک پشتیبان مستقل و تأییدشده وجود داشته باشد.",
+          "how": "پنجره پس از مرحله تبدیل پشتیبان، Download Emergency Snapshot را نمایش می‌دهد. در Build بررسی‌شده دکمه در ابتدا غیرفعال است و Handler اجرایی برای ایجاد یا دانلود Snapshot به آن متصل نشده است.",
+          "inputs": "رابط شامل انتخاب‌گر فایل پشتیبان تبدیل‌شده و کادر تأیید است؛ اما این کنترل‌های نمایشی در R43 امکان دانلود عملیاتی Snapshot اضطراری را فراهم نمی‌کنند.",
+          "result": "این کنترل در Build بررسی‌شده Snapshot اضطراری ایجاد یا دانلود نمی‌کند.",
+          "notes": "خطر بالا: Snapshot اضطراری برای محافظت اضافی است، نه جایگزین پشتیبان کامل و تأییدشده. چون دکمه در ابتدا غیرفعال است و Handler اجرایی ندارد، فرض نکنید Snapshot وجود دارد و با Reset مخرب ادامه ندهید."
+        },
+        "ps": {
+          "purpose": "د Secure Reset په کړکۍ کې د Download Emergency Snapshot تڼۍ ښکاري، خو په پیل کې بنده وي او د R43 سرچینې Build کې د هغې لپاره ثبت شوی د کلیک Handler نشته.",
+          "when": "په R43 کې د اوسنیو معلوماتو د ساتنې لپاره پر دې کنټرول تکیه مه کوئ. د هرې بېرته راګرځونې هڅې مخکې باید یو خپلواک او تایید شوی شاتړ موجود وي.",
+          "how": "کړکۍ د شاتړ د بدلولو له پړاو وروسته Download Emergency Snapshot ښيي. په ارزول شوي Build کې تڼۍ په پیل کې بنده ده او د Snapshot د جوړولو یا ښکته کولو لپاره فعال د کلیک Handler نه لري.",
+          "inputs": "انترفېس د بدل شوي شاتړ د فایل ټاکونکی او د تایید نښه لري، خو دا ښکاره کنټرولونه په R43 کې د بیړني Snapshot فعال ښکته کول نه برابروي.",
+          "result": "دا کنټرول په ارزول شوي Build کې بیړنی Snapshot نه جوړوي او نه یې ښکته کوي.",
+          "notes": "لوړ خطر: بیړنی Snapshot د اضافي ساتنې لپاره دی، د بشپړ تایید شوي شاتړ بدیل نه دی. ځکه تڼۍ په پیل کې بنده ده او فعال Handler نه لري، دا مه انګېرئ چې Snapshot شته او ویجاړوونکی Reset مه پرمخ وړئ."
         }
       },
       "handler_or_behavior": "`event/property listener`"
@@ -6280,6 +6352,78 @@
           "inputs": "ورودی متنی یا فایل لازم نیست. این عمل فقط مرحله پنجره را تغییر می‌دهد.",
           "result": "پنجره به هشدار ۲ از ۲ می‌رود و دستورالعمل تبدیل پشتیبان و Snapshot اضطراری را نمایش می‌دهد. هیچ پشتیبانی تبدیل نمی‌شود، Snapshot ساخته نمی‌شود و داده‌ها Reset نمی‌شوند.",
           "notes": "این عمل صرفاً تأیید مشاهده هشدار و جابه‌جایی بین مراحل است و رضایت جداگانه‌ای را ذخیره نمی‌کند. کنترل‌های بازیابی بعدی در Build بررسی‌شده R43 عملیاتی نیستند. این عمل را مجوز یا امکان اجرای Reset تلقی نکنید."
+        },
+        "ar": {
+          "purpose": "يؤكد الاطلاع على التحذير الأول من Factory Reset وينقل مربع الحوار إلى مرحلة التحذير الثانية.",
+          "when": "استخدم هذا فقط لمراجعة متطلبات الاستعادة في المرحلة الثانية بعد قراءة التحذير الأول. لا تعتبره تفويضاً لإعادة ضبط البيانات.",
+          "how": "اقرأ التحذير الأول واختر I Understand — Continue لإظهار التحذير الثاني ومتطلبات الاستعادة. اختر Cancel إذا لم ترغب في مواصلة مراجعة سير العمل.",
+          "inputs": "لا يلزم إدخال نص أو ملف. يغيّر هذا الإجراء مرحلة مربع الحوار فقط.",
+          "result": "ينتقل مربع الحوار إلى التحذير 2 من 2 ويعرض تعليمات تحويل النسخة الاحتياطية واللقطة الطارئة. لا يحوّل نسخة احتياطية ولا ينشئ لقطة ولا يعيد ضبط البيانات.",
+          "notes": "هذا الإجراء إقرار بالاطلاع على التحذير والتنقل بين المراحل، وليس سجلاً لموافقة محفوظة. عناصر التحكم اللاحقة للاستعادة غير فعالة في إصدار R43 الذي تمت مراجعته. لا تعتبر هذا الإجراء إذناً أو قدرة على تنفيذ إعادة الضبط."
+        },
+        "ckb": {
+          "purpose": "ئاگاداری یەکەمی Factory Reset پشتڕاست دەکاتەوە و پەنجەرەکە دەگوازێتەوە بۆ قۆناغی دووەمی ئاگاداری.",
+          "when": "ئەمە تەنها دوای خوێندنەوەی ئاگاداری یەکەم بۆ پێداچوونەوە بە پێداویستییەکانی گەڕاندنەوە لە قۆناغی دووەم بەکاربهێنە. ئەمە بە مۆڵەتی Resetکردنی داتا مەزانە.",
+          "how": "ئاگاداری یەکەم بخوێنەوە و I Understand — Continue هەڵبژێرە بۆ پیشاندانی ئاگاداری دووەم و پێداویستییەکانی گەڕاندنەوە. ئەگەر ناتەوێت پێداچوونەوە بە ڕێڕەوەکە بەردەوام بکەیت، Cancel هەڵبژێرە.",
+          "inputs": "هیچ دەق یان فایلێک پێویست نییە. ئەم کردارە تەنها قۆناغی پەنجەرەکە دەگۆڕێت.",
+          "result": "پەنجەرەکە دەچێتە ئاگاداری ٢ لە ٢ و ڕێنماییەکانی گۆڕینی پاڵپشتی و Snapshotی فریاکەوتن پیشان دەدات. پاڵپشتی ناگۆڕێت، Snapshot دروست ناکات و داتا Reset ناکات.",
+          "notes": "ئەم کردارە تەنها دانپێدانانە بە خوێندنەوەی ئاگاداری و گواستنەوەی قۆناغەکان؛ تۆماری ڕەزامەندی پاشەکەوتکراو نییە. کۆنترۆڵەکانی گەڕاندنەوەی دواتر لە Buildی R43ی پشکنراودا کارا نین. ئەم کردارە بە مۆڵەت یان توانای جێبەجێکردنی Reset مەزانە."
+        },
+        "kmr": {
+          "purpose": "Hişyariya yekem a Factory Reset pejirand dike û paceyê diguhezîne qonaxa duyem a hişyariyê.",
+          "when": "Vê tenê piştî xwendina hişyariya yekem ji bo nirxandina şertên vegerandinê yên qonaxa duyem bikar bîne. Wê wekî destûra resetkirina daneyan nebîne.",
+          "how": "Hişyariya yekem bixwîne û I Understand — Continue hilbijêre da ku hişyariya duyem û şertên vegerandinê xuya bibin. Heke naxwazî nirxandina rêbazê bidomînî, Cancel hilbijêre.",
+          "inputs": "Tu nivîs an pel nehewce ye. Ev kiryar tenê qonaxa paceyê diguherîne.",
+          "result": "Pace digihîje hişyariya 2 ji 2 û rêwerzên veguherandina backup-ê û snapshot-a acîl nîşan dide. Backup naguherîne, snapshot çênake û daneyan reset nake.",
+          "notes": "Ev tenê pejirandina xwendina hişyariyê û tevgera navbera qonaxan e, ne tomarê razîbûnekê ya hilanbar. Kontrolên vegerandinê yên paşîn di build-a R43 ya hatî kontrolkirin de neçalak in. Vê kiryarê wekî destûr an şiyana pêkanîna resetê nebîne."
+        },
+        "tr": {
+          "purpose": "İlk Factory Reset uyarısını onaylar ve iletişim kutusunu ikinci uyarı aşamasına geçirir.",
+          "when": "Bunu yalnızca ilk uyarıyı okuduktan sonra ikinci aşamadaki kurtarma gereksinimlerini incelemek için kullanın. Veri sıfırlama yetkisi olarak yorumlamayın.",
+          "how": "İlk uyarıyı okuyun ve ikinci uyarıyı ve kurtarma gereksinimlerini görüntülemek için I Understand — Continue seçeneğini belirleyin. İş akışını incelemeye devam etmek istemiyorsanız Cancel seçeneğini belirleyin.",
+          "inputs": "Metin veya dosya girişi gerekmez. Bu işlem yalnızca iletişim kutusunun aşamasını değiştirir.",
+          "result": "İletişim kutusu 2/2 numaralı uyarıya geçer ve yedek dönüştürme ile acil durum anlık görüntüsü talimatlarını gösterir. Yedeği dönüştürmez, anlık görüntü oluşturmaz veya verileri sıfırlamaz.",
+          "notes": "Bu işlem, uyarının okunduğunu belirten bir onay ve gezinme adımıdır; kaydedilmiş bir rıza kaydı değildir. Sonraki kurtarma denetimleri incelenen R43 derlemesinde çalışır durumda değildir. Bu işlemi sıfırlama izni veya sıfırlama yeteneği olarak değerlendirmeyin."
+        },
+        "pl": {
+          "purpose": "Potwierdza zapoznanie się z pierwszym ostrzeżeniem Factory Reset i przechodzi do drugiego etapu ostrzeżenia.",
+          "when": "Użyj tego wyłącznie do zapoznania się z wymaganiami odzyskiwania w drugim etapie po przeczytaniu pierwszego ostrzeżenia. Nie traktuj tego jako upoważnienia do resetowania danych.",
+          "how": "Przeczytaj pierwsze ostrzeżenie i wybierz I Understand — Continue, aby wyświetlić drugie ostrzeżenie oraz wymagania odzyskiwania. Wybierz Cancel, jeśli nie chcesz kontynuować przeglądania procesu.",
+          "inputs": "Nie jest wymagany tekst ani plik. Działanie zmienia wyłącznie etap okna dialogowego.",
+          "result": "Okno przechodzi do ostrzeżenia 2 z 2 i wyświetla instrukcje konwersji kopii zapasowej oraz migawki awaryjnej. Nie konwertuje kopii, nie tworzy migawki ani nie resetuje danych.",
+          "notes": "Jest to potwierdzenie zapoznania się z ostrzeżeniem i przejście między etapami, a nie zapisany rejestr zgody. Kolejne elementy sterujące odzyskiwaniem nie działają w sprawdzonej kompilacji R43. Nie traktuj tego działania jako pozwolenia ani możliwości wykonania resetu."
+        },
+        "ur": {
+          "purpose": "Factory Reset کے پہلے انتباہ کی تصدیق کرتا ہے اور ڈائیلاگ کو دوسرے انتباہ کے مرحلے پر لے جاتا ہے۔",
+          "when": "اسے صرف پہلے انتباہ کو پڑھنے کے بعد دوسرے مرحلے کی بحالی کی شرائط دیکھنے کے لیے استعمال کریں۔ اسے ڈیٹا ری سیٹ کرنے کی اجازت نہ سمجھیں۔",
+          "how": "پہلا انتباہ پڑھیں اور دوسرا انتباہ اور بحالی کی شرائط دکھانے کے لیے I Understand — Continue منتخب کریں۔ اگر آپ اس طریقۂ کار کا جائزہ جاری نہیں رکھنا چاہتے تو Cancel منتخب کریں۔",
+          "inputs": "کسی متن یا فائل کی ضرورت نہیں۔ یہ کارروائی صرف ڈائیلاگ کا مرحلہ تبدیل کرتی ہے۔",
+          "result": "ڈائیلاگ انتباہ 2 از 2 پر جاتا ہے اور بیک اَپ کی تبدیلی اور ہنگامی اسنیپ شاٹ کی ہدایات دکھاتا ہے۔ یہ بیک اَپ تبدیل، اسنیپ شاٹ تیار یا ڈیٹا ری سیٹ نہیں کرتا۔",
+          "notes": "یہ صرف انتباہ پڑھنے کی تصدیق اور مراحل کے درمیان منتقلی ہے، محفوظ شدہ رضامندی کا ریکارڈ نہیں۔ جانچے گئے R43 بلڈ میں بعد کے بحالی کنٹرول فعال نہیں ہیں۔ اس کارروائی کو ری سیٹ کی اجازت یا اسے انجام دینے کی صلاحیت نہ سمجھیں۔"
+        },
+        "pa": {
+          "purpose": "Factory Reset ਦੀ ਪਹਿਲੀ ਚੇਤਾਵਨੀ ਨੂੰ ਸਵੀਕਾਰ ਕਰਦਾ ਹੈ ਅਤੇ ਡਾਇਲਾਗ ਨੂੰ ਦੂਜੀ ਚੇਤਾਵਨੀ ਵਾਲੇ ਪੜਾਅ 'ਤੇ ਲੈ ਜਾਂਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਪਹਿਲੀ ਚੇਤਾਵਨੀ ਪੜ੍ਹਨ ਤੋਂ ਬਾਅਦ ਸਿਰਫ਼ ਦੂਜੇ ਪੜਾਅ ਦੀਆਂ ਰਿਕਵਰੀ ਲੋੜਾਂ ਵੇਖਣ ਲਈ ਕਰੋ। ਇਸਨੂੰ ਡਾਟਾ ਰੀਸੈੱਟ ਕਰਨ ਦੀ ਮਨਜ਼ੂਰੀ ਨਾ ਸਮਝੋ।",
+          "how": "ਪਹਿਲੀ ਚੇਤਾਵਨੀ ਪੜ੍ਹੋ ਅਤੇ ਦੂਜੀ ਚੇਤਾਵਨੀ ਤੇ ਰਿਕਵਰੀ ਲੋੜਾਂ ਦਿਖਾਉਣ ਲਈ I Understand — Continue ਚੁਣੋ। ਜੇ ਤੁਸੀਂ ਪ੍ਰਕਿਰਿਆ ਦੀ ਸਮੀਖਿਆ ਜਾਰੀ ਨਹੀਂ ਰੱਖਣੀ ਤਾਂ Cancel ਚੁਣੋ।",
+          "inputs": "ਕੋਈ ਲਿਖਤ ਜਾਂ ਫਾਈਲ ਇਨਪੁੱਟ ਲੋੜੀਂਦਾ ਨਹੀਂ। ਇਹ ਕਾਰਵਾਈ ਸਿਰਫ਼ ਡਾਇਲਾਗ ਦਾ ਪੜਾਅ ਬਦਲਦੀ ਹੈ।",
+          "result": "ਡਾਇਲਾਗ ਚੇਤਾਵਨੀ 2 ਵਿੱਚੋਂ 2 'ਤੇ ਜਾਂਦਾ ਹੈ ਅਤੇ ਬੈਕਅੱਪ ਬਦਲਣ ਤੇ ਐਮਰਜੈਂਸੀ ਸਨੈਪਸ਼ਾਟ ਦੀਆਂ ਹਦਾਇਤਾਂ ਦਿਖਾਉਂਦਾ ਹੈ। ਇਹ ਬੈਕਅੱਪ ਨਹੀਂ ਬਦਲਦਾ, ਸਨੈਪਸ਼ਾਟ ਨਹੀਂ ਬਣਾਉਂਦਾ ਅਤੇ ਡਾਟਾ ਰੀਸੈੱਟ ਨਹੀਂ ਕਰਦਾ।",
+          "notes": "ਇਹ ਸਿਰਫ਼ ਚੇਤਾਵਨੀ ਪੜ੍ਹਨ ਦੀ ਸਵੀਕ੍ਰਿਤੀ ਅਤੇ ਪੜਾਅ ਬਦਲਣ ਦੀ ਕਾਰਵਾਈ ਹੈ, ਸੰਭਾਲਿਆ ਹੋਇਆ ਸਹਿਮਤੀ ਰਿਕਾਰਡ ਨਹੀਂ। ਜਾਂਚੇ R43 ਬਿਲਡ ਵਿੱਚ ਅਗਲੇ ਰਿਕਵਰੀ ਕੰਟਰੋਲ ਕੰਮ ਨਹੀਂ ਕਰਦੇ। ਇਸ ਕਾਰਵਾਈ ਨੂੰ ਰੀਸੈੱਟ ਦੀ ਇਜਾਜ਼ਤ ਜਾਂ ਸਮਰੱਥਾ ਨਾ ਸਮਝੋ।"
+        },
+        "prs": {
+          "purpose": "هشدار اول Factory Reset را تأیید می‌کند و پنجره را به مرحله هشدار دوم می‌برد.",
+          "when": "این گزینه را فقط پس از خواندن هشدار اول و برای بررسی الزامات بازیابی در مرحله دوم به کار ببرید. آن را مجوز Reset داده‌ها تلقی نکنید.",
+          "how": "هشدار اول را بخوانید و برای نمایش هشدار دوم و الزامات بازیابی، I Understand — Continue را انتخاب کنید. اگر نمی‌خواهید بررسی گردش‌کار را ادامه دهید، Cancel را انتخاب کنید.",
+          "inputs": "ورودی متن یا فایل لازم نیست. این عملیات فقط مرحله پنجره را تغییر می‌دهد.",
+          "result": "پنجره به هشدار ۲ از ۲ می‌رود و دستورالعمل تبدیل پشتیبان و Snapshot اضطراری را نمایش می‌دهد. پشتیبان را تبدیل نمی‌کند، Snapshot نمی‌سازد و داده‌ها را Reset نمی‌کند.",
+          "notes": "این فقط تأیید مشاهده هشدار و جابه‌جایی بین مراحل است، نه ثبت رضایت ذخیره‌شده. کنترل‌های بازیابی بعدی در Build بررسی‌شده R43 عملیاتی نیستند. این عمل را مجوز یا امکان اجرای Reset تلقی نکنید."
+        },
+        "ps": {
+          "purpose": "د Factory Reset لومړی خبرداری مني او کړکۍ د دویم خبرداري پړاو ته وړي.",
+          "when": "دا یوازې د لومړي خبرداري له لوستلو وروسته د دویم پړاو د بېرته راګرځونې د اړتیاوو د کتلو لپاره وکاروئ. دا د معلوماتو د Reset اجازه مه ګڼئ.",
+          "how": "لومړی خبرداری ولولئ او د دویم خبرداري او د بېرته راګرځونې د اړتیاوو د ښودلو لپاره I Understand — Continue وټاکئ. که نه غواړئ د بهیر کتنه روانه وساتئ، Cancel وټاکئ.",
+          "inputs": "د متن یا فایل داخلولو ته اړتیا نشته. دا کړنه یوازې د کړکۍ پړاو بدلوي.",
+          "result": "کړکۍ د ۲ له ۲ خبرداري ته ځي او د شاتړ د بدلولو او بیړني Snapshot لارښوونې ښيي. شاتړ نه بدلوي، Snapshot نه جوړوي او معلومات نه Reset کوي.",
+          "notes": "دا یوازې د خبرداري د لوستلو منل او د پړاوونو ترمنځ تګ دی، د خوندي شوې رضایت‌پاڼې ریکارډ نه دی. د R43 په ارزول شوي Build کې ورپسې د بېرته راګرځونې کنټرولونه فعال نه دي. دا کړنه د Reset اجازه یا د ترسره کولو وړتیا مه ګڼئ."
         }
       },
       "handler_or_behavior": "`factoryResetNextStep()`"
@@ -6306,6 +6450,78 @@
           "inputs": "پنجره فیلدهای پشتیبان، Snapshot و عبارت مجوز را نمایش می‌دهد؛ اما این فیلدها در این Build به عملیات نهایی بازیابیِ اجرایی متصل نیستند.",
           "result": "این دکمه در Build بررسی‌شده R43 هیچ Reset یا بازیابی‌ای انجام نمی‌دهد.",
           "notes": "قصد این عملیات بحرانی و مخرب است: صفحه جایگزینی تمام داده‌های فعلی IndexedDB با یک پشتیبان قدیمی انتخاب‌شده را توضیح می‌دهد. بااین‌حال دکمه نهایی در R43 Handler اجرایی ندارد. فرض نکنید بازیابی شروع یا تکمیل شده است و از این صفحه ناقص به‌عنوان روش بازیابی استفاده نکنید."
+        },
+        "ar": {
+          "purpose": "يظهر زر نهائي باسم Reset and Restore All Data في مربع حوار المرحلة الثانية، لكن مصدر R43 لا يحتوي على معالج أحداث مسجل لهذا الزر.",
+          "when": "لا تستخدم عنصر التحكم هذا ولا تعتمد عليه للاستعادة في R43. وُثّق هنا لتحديد العنصر الظاهر وحالة تنفيذه.",
+          "how": "يصبح الزر ظاهراً بعد انتقال مربع الحوار إلى التحذير الثاني. في المصدر الذي تمت مراجعته، لا يوجد معالج نقر مرتبط به، ولذلك لا يؤدي اختياره إلى تشغيل عملية استعادة.",
+          "inputs": "يعرض مربع الحوار حقول النسخة الاحتياطية واللقطة وبيانات التفويض، لكن هذه الحقول غير متصلة بإجراء استعادة نهائي يعمل في هذا الإصدار.",
+          "result": "لا ينفذ هذا الزر أي إعادة ضبط أو استعادة في إصدار R43 الذي تمت مراجعته.",
+          "notes": "نية حرجة ومدمرة: تصف الشاشة استبدال جميع بيانات IndexedDB الحالية بنسخة احتياطية قديمة محددة. لكن هذا الزر النهائي لا يملك معالجاً يعمل في R43. لا تفترض أن الاستعادة بدأت أو اكتملت، ولا تستخدم هذه الشاشة غير المكتملة كوسيلة للاستعادة."
+        },
+        "ckb": {
+          "purpose": "دوگمەی کۆتایی Reset and Restore All Data لە پەنجەرەی قۆناغی دووەم پیشان دەدرێت، بەڵام سەرچاوەی R43 هیچ Event Handlerێکی تۆمارکراوی بۆ ئەم دوگمەیە نییە.",
+          "when": "لە R43دا ئەم کۆنترۆڵە بۆ گەڕاندنەوە بەکارمەهێنە و پشت پێی مەبەستە. لێرە بۆ ناساندنی کۆنترۆڵە دیارەکە و دۆخی جێبەجێکردنی تۆمار کراوە.",
+          "how": "دوگمەکە دوای گواستنەوەی پەنجەرە بۆ ئاگاداری دووەم دەردەکەوێت. لە سەرچاوەی پشکنراودا هیچ Click Handlerێکی پێوە نەبەستراوە؛ بۆیە هەڵبژاردنی کردارێکی Restore جێبەجێ ناکات.",
+          "inputs": "پەنجەرەکە خانەکانی پاڵپشتی، Snapshot و زانیاری مۆڵەت پیشان دەدات، بەڵام ئەم خانانە لەم Buildەدا بە کردارێکی کۆتایی و کارای گەڕاندنەوەوە نەبەستراون.",
+          "result": "ئەم دوگمەیە لە Buildی R43ی پشکنراودا هیچ Reset یان گەڕاندنەوەیەک ئەنجام نادات.",
+          "notes": "مەبەستی کارەکە مەترسیدار و وێرانکەرانەیە: شاشەکە گۆڕینی هەموو داتای ئێستای IndexedDB بە پاڵپشتییەکی کۆنی هەڵبژێردراو باس دەکات. بەڵام ئەم دوگمە کۆتاییە لە R43دا Handlerی کارای نییە. وا مەزانە گەڕاندنەوە دەستی پێکردووە یان تەواو بووە و ئەم شاشە ناتەواوە وەک ڕێگای گەڕاندنەوە بەکارمەهێنە."
+        },
+        "kmr": {
+          "purpose": "Di paceya qonaxa duyem de bişkoka dawî ya Reset and Restore All Data tê nîşandan, lê çavkaniya R43 ji bo vê bişkokê tu handlera bûyerê ya qeydkirî nahewîne.",
+          "when": "Di R43 de vê kontrolê ji bo vegerandinê bikar neyne û xwe dispêre wê neke. Li vir ji bo naskirina kontrola xuya û rewşa pêkanîna wê hatiye belgekirin.",
+          "how": "Piştî ku pace digihîje hişyariya duyem bişkok xuya dibe. Di çavkaniya hatî kontrolkirin de tu handlera klîkkirinê pê ve girêdayî nîne; ji ber vê yekê hilbijartina wê operasyoneke restore naxebitîne.",
+          "inputs": "Pace qadên backup, snapshot û agahiyên destûrê nîşan dide, lê ev qad di vê buildê de bi kiryareke dawî ya restore-a kar ve nehatine girêdan.",
+          "result": "Ev bişkok di build-a R43 ya hatî kontrolkirin de tu reset an restore pêk nayîne.",
+          "notes": "ARMANCA KRÎTÎK / WÊRANKER: Dîmender veguherandina hemû daneyên heyî yên IndexedDB bi backup-eke kevn a hilbijartî rave dike. Lê vê bişkoka dawî di R43 de handlera kar tune. Texmîn neke ku restore dest pê kiriye an temam bûye, û vê dîmendera netemam wekî rêbazeke vegerandinê bikar neyne."
+        },
+        "tr": {
+          "purpose": "İkinci aşama iletişim kutusunda Reset and Restore All Data adlı son düğme görüntülenir; ancak R43 kaynağında bu düğme için kayıtlı bir olay işleyicisi yoktur.",
+          "when": "R43'te kurtarma için bu denetimi kullanmayın veya buna güvenmeyin. Burada yalnızca görünür denetimi ve uygulama durumunu tanımlamak için belgelenmiştir.",
+          "how": "İletişim kutusu ikinci uyarıya geçtiğinde düğme görünür. İncelenen kaynakta düğmeye bağlı bir tıklama işleyicisi yoktur; bu nedenle seçilmesi geri yükleme işlemini başlatmaz.",
+          "inputs": "İletişim kutusunda yedek, anlık görüntü ve yetkilendirme alanları gösterilir; ancak bu alanlar bu derlemede çalışan bir son geri yükleme işlemine bağlı değildir.",
+          "result": "Bu düğme, incelenen R43 derlemesinde herhangi bir sıfırlama veya geri yükleme gerçekleştirmez.",
+          "notes": "KRİTİK / YIKICI AMAÇ: Ekran, mevcut tüm IndexedDB verilerinin seçilen eski bir yedekle değiştirilmesini açıklar. Ancak bu son düğmenin R43'te çalışan bir işleyicisi yoktur. Geri yüklemenin başladığını veya tamamlandığını varsaymayın ve bu eksik ekranı kurtarma yöntemi olarak kullanmayın."
+        },
+        "pl": {
+          "purpose": "W oknie drugiego etapu wyświetlany jest końcowy przycisk Reset and Restore All Data, ale kod źródłowy R43 nie zawiera zarejestrowanej procedury obsługi zdarzeń dla tego przycisku.",
+          "when": "Nie używaj tego elementu sterującego do odzyskiwania danych w R43 i nie polegaj na nim. Opisano go tutaj, aby wskazać widoczny element i stan jego implementacji.",
+          "how": "Przycisk staje się widoczny po przejściu okna do drugiego ostrzeżenia. W sprawdzonym kodzie nie jest do niego podłączona procedura obsługi kliknięcia, więc jego wybranie nie uruchamia przywracania.",
+          "inputs": "Okno wyświetla pola kopii zapasowej, migawki i autoryzacji, ale w tej kompilacji pola te nie są połączone z działającą końcową operacją przywracania.",
+          "result": "Ten przycisk nie wykonuje resetu ani przywracania w sprawdzonej kompilacji R43.",
+          "notes": "KRYTYCZNE / ZAMIAR DESTRUKCYJNY: Ekran opisuje zastąpienie wszystkich bieżących danych IndexedDB wybraną starszą kopią zapasową. Jednak ten końcowy przycisk nie ma działającej procedury obsługi w R43. Nie zakładaj, że przywracanie się rozpoczęło lub zakończyło, i nie używaj tego niekompletnego ekranu jako metody odzyskiwania."
+        },
+        "ur": {
+          "purpose": "دوسرے مرحلے کے ڈائیلاگ میں Reset and Restore All Data کا آخری بٹن دکھایا جاتا ہے، لیکن R43 سورس میں اس بٹن کے لیے کوئی ایونٹ ہینڈلر رجسٹر نہیں ہے۔",
+          "when": "R43 میں بحالی کے لیے اس کنٹرول کو استعمال نہ کریں اور نہ اس پر بھروسا کریں۔ اسے یہاں صرف نظر آنے والے کنٹرول اور اس کی عمل درآمد کی حالت کی شناخت کے لیے درج کیا گیا ہے۔",
+          "how": "جب ڈائیلاگ دوسرے انتباہ پر جاتا ہے تو بٹن ظاہر ہوتا ہے۔ جانچے گئے سورس میں اس کے ساتھ کوئی کلک ہینڈلر منسلک نہیں، اس لیے اسے منتخب کرنے سے بحالی کا عمل نہیں چلتا۔",
+          "inputs": "ڈائیلاگ میں بیک اَپ، اسنیپ شاٹ اور اجازت کے خانے دکھائے جاتے ہیں، لیکن یہ خانے اس بلڈ میں کسی فعال آخری بحالی کے عمل سے منسلک نہیں ہیں۔",
+          "result": "جانچے گئے R43 بلڈ میں یہ بٹن کوئی ری سیٹ یا بحالی انجام نہیں دیتا۔",
+          "notes": "انتہائی اہم / تباہ کن مقصد: اسکرین موجودہ تمام IndexedDB ڈیٹا کو منتخب شدہ پرانے بیک اَپ سے بدلنے کی وضاحت کرتی ہے۔ تاہم R43 میں اس آخری بٹن کا کوئی فعال ہینڈلر نہیں۔ یہ فرض نہ کریں کہ بحالی شروع یا مکمل ہو گئی ہے، اور اس نامکمل اسکرین کو بحالی کے طریقے کے طور پر استعمال نہ کریں۔"
+        },
+        "pa": {
+          "purpose": "ਦੂਜੇ ਪੜਾਅ ਦੇ ਡਾਇਲਾਗ ਵਿੱਚ Reset and Restore All Data ਨਾਮ ਦਾ ਆਖਰੀ ਬਟਨ ਦਿਖਾਇਆ ਜਾਂਦਾ ਹੈ, ਪਰ R43 ਸਰੋਤ ਵਿੱਚ ਇਸ ਬਟਨ ਲਈ ਕੋਈ ਦਰਜ ਕੀਤਾ ਇਵੈਂਟ ਹੈਂਡਲਰ ਨਹੀਂ ਹੈ।",
+          "when": "R43 ਵਿੱਚ ਰਿਕਵਰੀ ਲਈ ਇਸ ਕੰਟਰੋਲ ਦੀ ਵਰਤੋਂ ਨਾ ਕਰੋ ਅਤੇ ਇਸ 'ਤੇ ਭਰੋਸਾ ਨਾ ਕਰੋ। ਇੱਥੇ ਇਸਦਾ ਜ਼ਿਕਰ ਸਿਰਫ਼ ਦਿਖਾਈ ਦੇ ਰਹੇ ਕੰਟਰੋਲ ਅਤੇ ਇਸਦੀ ਲਾਗੂਕਰਨ ਸਥਿਤੀ ਦੀ ਪਛਾਣ ਲਈ ਹੈ।",
+          "how": "ਡਾਇਲਾਗ ਦੂਜੀ ਚੇਤਾਵਨੀ 'ਤੇ ਜਾਣ ਤੋਂ ਬਾਅਦ ਬਟਨ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ। ਜਾਂਚੇ ਸਰੋਤ ਵਿੱਚ ਇਸ ਨਾਲ ਕੋਈ ਕਲਿੱਕ ਹੈਂਡਲਰ ਜੁੜਿਆ ਨਹੀਂ, ਇਸ ਲਈ ਇਸਨੂੰ ਚੁਣਨ ਨਾਲ ਰੀਸਟੋਰ ਕਾਰਵਾਈ ਨਹੀਂ ਚੱਲਦੀ।",
+          "inputs": "ਡਾਇਲਾਗ ਬੈਕਅੱਪ, ਸਨੈਪਸ਼ਾਟ ਅਤੇ ਅਧਿਕਾਰ ਵਾਲੇ ਖੇਤਰ ਦਿਖਾਉਂਦਾ ਹੈ, ਪਰ ਇਹ ਖੇਤਰ ਇਸ ਬਿਲਡ ਵਿੱਚ ਕੰਮ ਕਰਦੀ ਆਖਰੀ ਰੀਸਟੋਰ ਕਾਰਵਾਈ ਨਾਲ ਨਹੀਂ ਜੁੜੇ।",
+          "result": "ਜਾਂਚੇ R43 ਬਿਲਡ ਵਿੱਚ ਇਹ ਬਟਨ ਕੋਈ ਰੀਸੈੱਟ ਜਾਂ ਰੀਸਟੋਰ ਨਹੀਂ ਕਰਦਾ।",
+          "notes": "ਨਾਜ਼ੁਕ / ਨੁਕਸਾਨਦਾਇਕ ਇਰਾਦਾ: ਸਕ੍ਰੀਨ ਮੌਜੂਦਾ ਸਾਰੇ IndexedDB ਡਾਟੇ ਨੂੰ ਚੁਣੇ ਹੋਏ ਪੁਰਾਣੇ ਬੈਕਅੱਪ ਨਾਲ ਬਦਲਣ ਬਾਰੇ ਦੱਸਦੀ ਹੈ। ਪਰ R43 ਵਿੱਚ ਇਸ ਆਖਰੀ ਬਟਨ ਦਾ ਕੋਈ ਕੰਮ ਕਰਦਾ ਹੈਂਡਲਰ ਨਹੀਂ। ਇਹ ਨਾ ਮੰਨੋ ਕਿ ਰੀਸਟੋਰ ਸ਼ੁਰੂ ਜਾਂ ਪੂਰਾ ਹੋ ਗਿਆ ਹੈ ਅਤੇ ਇਸ ਅਧੂਰੀ ਸਕ੍ਰੀਨ ਨੂੰ ਰਿਕਵਰੀ ਤਰੀਕੇ ਵਜੋਂ ਨਾ ਵਰਤੋ।"
+        },
+        "prs": {
+          "purpose": "دکمه نهایی Reset and Restore All Data در پنجره مرحله دوم نمایش داده می‌شود، اما سورس R43 هیچ Event Handler ثبت‌شده‌ای برای این دکمه ندارد.",
+          "when": "در R43 برای بازیابی از این کنترل استفاده نکنید و به آن اتکا نکنید. این توضیح برای شناسایی کنترل قابل مشاهده و وضعیت پیاده‌سازی آن است.",
+          "how": "پس از انتقال پنجره به هشدار دوم، دکمه نمایش داده می‌شود. در سورس بررسی‌شده Click Handler به آن متصل نیست؛ بنابراین انتخاب آن عملیات Restore را اجرا نمی‌کند.",
+          "inputs": "پنجره فیلدهای پشتیبان، Snapshot و مجوز را نمایش می‌دهد؛ اما این فیلدها در این Build به عملیات نهایی و اجرایی بازیابی متصل نیستند.",
+          "result": "این دکمه در Build بررسی‌شده R43 هیچ Reset یا بازیابی‌ای انجام نمی‌دهد.",
+          "notes": "قصد عملیات بحرانی و مخرب است: صفحه جایگزینی تمام داده‌های فعلی IndexedDB با یک پشتیبان قدیمی انتخاب‌شده را توضیح می‌دهد. اما این دکمه نهایی در R43 Handler اجرایی ندارد. فرض نکنید بازیابی شروع یا تکمیل شده است و از این صفحه ناقص به‌عنوان روش بازیابی استفاده نکنید."
+        },
+        "ps": {
+          "purpose": "د دویم پړاو په کړکۍ کې د Reset and Restore All Data وروستۍ تڼۍ ښکاري، خو د R43 سرچینه د دې تڼۍ لپاره ثبت شوی Event Handler نه لري.",
+          "when": "په R43 کې د بېرته راګرځولو لپاره دا کنټرول مه کاروئ او پر هغه تکیه مه کوئ. دلته یوازې د ښکاره کنټرول او د پلي کېدو د حالت د پېژندلو لپاره تشریح شوی.",
+          "how": "کله چې کړکۍ دویم خبرداري ته ولاړه شي، تڼۍ ښکاره کېږي. په ارزول شوې سرچینه کې د هغې لپاره د کلیک Handler نشته؛ نو ټاکل یې د Restore بهیر نه چلوي.",
+          "inputs": "کړکۍ د شاتړ، Snapshot او اجازې خانې ښيي، خو دا خانې په دې Build کې له فعال وروستي Restore عمل سره نه دي تړل شوې.",
+          "result": "دا تڼۍ په ارزول شوي R43 Build کې هېڅ Reset یا Restore نه ترسره کوي.",
+          "notes": "بحراني / ویجاړوونکی هدف: پرده د اوسني IndexedDB د ټولو معلوماتو بدلول په یوه ټاکل شوي زاړه شاتړ بیانوي. خو په R43 کې د دې وروستۍ تڼۍ فعال Handler نشته. دا مه انګېرئ چې Restore پیل یا بشپړ شوی او دا نیمګړې پرده د بېرته راګرځونې د لارې په توګه مه کاروئ."
         }
       },
       "handler_or_behavior": "`event/property listener`"
@@ -6332,6 +6548,78 @@
           "inputs": "مقادیر واردشده در فرم Business Profile. در فرم بررسی‌شده فیلدهای متنی اجباری علامت‌گذاری نشده‌اند؛ موارد نامرتبط را خالی بگذارید. لوگوی انتخاب‌شده باید محدودیت نوع فایل و حجم پس از بهینه‌سازی را که کنار فیلد بارگذاری نمایش داده شده رعایت کند.",
           "result": "پروفایل به‌روزشده در IndexedDB ذخیره و اعتبارسنجی می‌شود. برنامه نشان برند صفحه اصلی را به‌روزرسانی و موفقیت را اعلام می‌کند؛ در صورت خطا پیام خطا نمایش داده می‌شود.",
           "notes": "جزئیات پرداخت فاکتور در فاکتورهای صادرشده نمایش داده می‌شود. هرگز PIN کارت یا گذرواژه بانکداری آنلاین را وارد نکنید. ذخیره پروفایل اسناد صادرشده قبلی را بازنویسی نمی‌کند. پیش از ذخیره، مقادیر و لوگو را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يحفظ حقول ملف النشاط التجاري، بما في ذلك اسم النشاط والمالك وبيانات الاتصال وتفاصيل الدفع للفواتير والشعار المحدد، في تخزين IndexedDB الخاص بالتطبيق.",
+          "when": "استخدم هذا بعد إدخال أو تغيير تفاصيل النشاط التجاري التي ينبغي أن تظهر في مستندات التطبيق وفواتيره المدعومة.",
+          "how": "راجع حقول الملف الشخصي والشعار المحدد، ثم اختر Save Profile. انتظر رسالة تؤكد حفظ الملف الشخصي والتحقق منه. إذا ظهرت رسالة خطأ، فصحح المشكلة وحاول مرة أخرى.",
+          "inputs": "القيم المدخلة في نموذج Business Profile. لا يحدد النموذج الذي تمت مراجعته حقول النص على أنها إلزامية؛ اترك التفاصيل غير المنطبقة فارغة. يجب أن يلتزم الشعار المحدد بحدود نوع الملف وحجم الملف بعد التحسين الموضحة بجانب حقل التحميل.",
+          "result": "يُحفظ ملف النشاط التجاري المحدّث في IndexedDB ويتم التحقق منه. يحدّث التطبيق هوية المشغّل ويؤكد النجاح؛ وعند الفشل يعرض رسالة خطأ.",
+          "notes": "تظهر تفاصيل الدفع الخاصة بالفواتير في الفواتير الصادرة. لا تدخل أبداً أرقام PIN للبطاقات أو كلمات مرور الخدمات المصرفية عبر الإنترنت. لا يؤدي حفظ الملف الشخصي إلى إعادة كتابة المستندات الصادرة سابقاً. تحقق من القيم والشعار المعروضين قبل الحفظ."
+        },
+        "ckb": {
+          "purpose": "خانەکانی پرۆفایلی بازرگانی، لەوانە ناوی بازرگانی و خاوەن، زانیاری پەیوەندی، وردەکاری پارەدانی فاکتور و لۆگۆی هەڵبژێردراو، لە هەڵگرتنی IndexedDBی بەرنامەدا پاشەکەوت دەکات.",
+          "when": "دوای داخڵکردن یان گۆڕینی وردەکارییەکانی بازرگانی کە دەبێت لە بەڵگەنامە و فاکتورە پشتگیریکراوەکانی بەرنامەدا پیشان بدرێن، ئەم هەڵبژاردەیە بەکاربهێنە.",
+          "how": "خانەکانی پرۆفایل و لۆگۆی هەڵبژێردراو بپشکنە، پاشان Save Profile هەڵبژێرە. چاوەڕێی پەیامی پشتڕاستکردنەوەی پاشەکەوتکردن و پشتڕاستکردنەوەی پرۆفایل بکە. ئەگەر هەڵەیەک دەرکەوت، کێشەکە چارەسەر بکە و دووبارە هەوڵ بدە.",
+          "inputs": "بەها داخڵکراوەکانی فۆڕمی Business Profile. فۆڕمی پشکنراو خانە دەقییەکان بە پێویست نیشان ناکات؛ ئەو وردەکارییانە بە بەتاڵی بهێڵە کە پەیوەندیدار نین. لۆگۆی هەڵبژێردراو دەبێت سنووری جۆری فایل و قەبارەی دوای باشکردنەوەی پیشاندراو لە تەنیشت خانەی بارکردن پڕ بکاتەوە.",
+          "result": "پرۆفایلی نوێکراوەی بازرگانی لە IndexedDB پاشەکەوت و پشتڕاست دەکرێتەوە. بەرنامە نیشانی براندی لانچەر نوێ دەکاتەوە و سەرکەوتن پشتڕاست دەکاتەوە؛ ئەگەر سەرکەوتوو نەبوو، پەیامی هەڵە پیشان دەدات.",
+          "notes": "وردەکاری پارەدانی فاکتور لە فاکتورە دەرکراوەکاندا دەردەکەوێت. هەرگیز PINی کارت یان وشەی نهێنی بانکی ئۆنلاین داخڵ مەکە. پاشەکەوتکردنی پرۆفایل بەڵگەنامە دەرکراوەکانی پێشوو دووبارە نانووسێتەوە. پێش پاشەکەوتکردن بەها و لۆگۆی پیشاندراو بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Qadên profîla karsaziyê, di nav de navê karsaziyê û xwediyê wê, agahiyên têkilî, hûrguliyên dayîna fatûreyê û logoya hilbijartî, di hilanîna IndexedDB ya sepanê de tomar dike.",
+          "when": "Vê bikar bîne piştî ku hûn hûrguliyên karsaziyê yên ku divê di belge û fatûreyên piştgirîkirî yên sepanê de xuya bibin têxin an biguherînin.",
+          "how": "Qadên profîlê û logoya hilbijartî kontrol bike, paşê Save Profile hilbijêre. Li benda peyama ku tomarkirin û verastkirina profîlê piştrast dike bimîne. Heke çewtî xuya bibe, pirsgirêkê rast bike û dîsa biceribîne.",
+          "inputs": "Nirxên ku di forma Business Profile de hatine têketin. Forma hatî kontrolkirin qadên nivîsê wekî mecbûrî nîşan nade; hûrguliyên ku ne têkildar in vala bihêle. Divê logo ya hilbijartî sînorên cureya pelê û mezinahiya piştî optimîzekirinê yên li kêleka qada barkirinê hatine nîşandan bicîh bîne.",
+          "result": "Profîla karsaziyê ya nûkirî di IndexedDB de tê hilanîn û verastkirin. Sepan nîşana branda launcherê nû dike û serkeftinê piştrast dike; heke têk biçe, peyameke çewtiyê nîşan dide.",
+          "notes": "Hûrguliyên dayîna fatûreyê li ser fatûreyên derxistî xuya dibin. Tu carî PIN-a kartê an şîfreya banking-a serhêl nenivîse. Tomarkirina profîlê belgeyên ku berê hatine derxistin ji nû ve çênake. Berî tomarkirinê nirxên xuya û logo kontrol bike."
+        },
+        "tr": {
+          "purpose": "İşletme ve sahip adları, iletişim bilgileri, fatura ödeme ayrıntıları ve seçilen logo dâhil olmak üzere işletme profili alanlarını uygulamanın IndexedDB depolamasına kaydeder.",
+          "when": "Uygulamanın desteklediği belge ve faturalarda görünmesi gereken işletme bilgilerini girdikten veya değiştirdikten sonra bu seçeneği kullanın.",
+          "how": "Profil alanlarını ve seçilen logoyu inceleyin, ardından Save Profile seçeneğini belirleyin. Profilin kaydedilip doğrulandığını bildiren onayı bekleyin. Hata bildirilirse sorunu düzeltip yeniden deneyin.",
+          "inputs": "Business Profile formuna girilen değerler. İncelenen form metin alanlarını zorunlu olarak işaretlemez; geçerli olmayan ayrıntıları boş bırakın. Seçilen logo, yükleme alanının yanında gösterilen dosya türü ve optimizasyon sonrası boyut sınırlarına uymalıdır.",
+          "result": "Güncellenen işletme profili IndexedDB'ye kaydedilir ve doğrulanır. Uygulama başlatıcı markalamasını yeniler ve başarıyı onaylar; başarısızlıkta hata gösterir.",
+          "notes": "Fatura ödeme ayrıntıları düzenlenmiş faturalarda görünür. Kart PIN'lerini veya çevrimiçi bankacılık parolalarını asla girmeyin. Profili kaydetmek daha önce düzenlenmiş belgeleri yeniden yazmaz. Kaydetmeden önce görüntülenen değerleri ve logoyu kontrol edin."
+        },
+        "pl": {
+          "purpose": "Zapisuje w pamięci IndexedDB aplikacji pola profilu firmy, w tym nazwę firmy i właściciela, dane kontaktowe, dane płatności na fakturze oraz wybrane logo.",
+          "when": "Użyj tej opcji po wprowadzeniu lub zmianie danych firmy, które mają być widoczne w obsługiwanych dokumentach i fakturach aplikacji.",
+          "how": "Sprawdź pola profilu i wybrane logo, a następnie wybierz Save Profile. Poczekaj na potwierdzenie zapisania i zweryfikowania profilu. Jeśli pojawi się błąd, usuń jego przyczynę i spróbuj ponownie.",
+          "inputs": "Wartości wprowadzone w formularzu Business Profile. W sprawdzonym formularzu pola tekstowe nie są oznaczone jako wymagane; pozostaw puste dane, które nie mają zastosowania. Wybrane logo musi spełniać limity typu pliku i rozmiaru po optymalizacji pokazane obok pola przesyłania.",
+          "result": "Zaktualizowany profil firmy jest zapisywany w IndexedDB i weryfikowany. Aplikacja odświeża oznaczenia marki w programie uruchamiającym i potwierdza powodzenie; w razie niepowodzenia wyświetla błąd.",
+          "notes": "Dane płatności pojawiają się na wystawionych fakturach. Nigdy nie wpisuj PIN-u karty ani haseł do bankowości internetowej. Zapisanie profilu nie zmienia wcześniej wystawionych dokumentów. Przed zapisaniem sprawdź wyświetlane wartości i logo."
+        },
+        "ur": {
+          "purpose": "کاروباری پروفائل کے خانے، بشمول کاروبار اور مالک کے نام، رابطے کی تفصیلات، انوائس کی ادائیگی کی معلومات اور منتخب لوگو، ایپ کے IndexedDB اسٹوریج میں محفوظ کرتا ہے۔",
+          "when": "کاروبار کی وہ تفصیلات درج یا تبدیل کرنے کے بعد یہ اختیار استعمال کریں جو ایپ کی معاونت یافتہ دستاویزات اور انوائسز میں دکھائی جانی چاہئیں۔",
+          "how": "پروفائل کے خانے اور منتخب لوگو دیکھیں، پھر Save Profile منتخب کریں۔ پروفائل کے محفوظ اور تصدیق ہونے کے پیغام کا انتظار کریں۔ اگر خرابی آئے تو مسئلہ درست کرکے دوبارہ کوشش کریں۔",
+          "inputs": "Business Profile فارم میں درج کی گئی قدریں۔ جانچے گئے فارم میں متنی خانے لازمی قرار نہیں دیے گئے؛ جو تفصیلات لاگو نہ ہوں انہیں خالی چھوڑ دیں۔ منتخب لوگو کو اپ لوڈ فیلڈ کے ساتھ دکھائی گئی فائل کی قسم اور بہتر بنانے کے بعد حجم کی حد پوری کرنی چاہیے۔",
+          "result": "اپ ڈیٹ شدہ کاروباری پروفائل IndexedDB میں محفوظ اور تصدیق ہو جاتا ہے۔ ایپ اپنے لانچر کی برانڈنگ تازہ کرتی ہے اور کامیابی کی تصدیق کرتی ہے؛ ناکامی پر خرابی دکھاتی ہے۔",
+          "notes": "انوائس کی ادائیگی کی تفصیلات جاری کردہ انوائسز پر ظاہر ہوتی ہیں۔ کبھی بھی کارڈ PIN یا آن لائن بینکنگ پاس ورڈ درج نہ کریں۔ پروفائل محفوظ کرنے سے پہلے جاری کردہ دستاویزات دوبارہ نہیں لکھی جاتیں۔ محفوظ کرنے سے پہلے دکھائی گئی قدریں اور لوگو چیک کریں۔"
+        },
+        "pa": {
+          "purpose": "ਕਾਰੋਬਾਰੀ ਪ੍ਰੋਫਾਈਲ ਦੇ ਖੇਤਰ, ਜਿਨ੍ਹਾਂ ਵਿੱਚ ਕਾਰੋਬਾਰ ਅਤੇ ਮਾਲਕ ਦੇ ਨਾਮ, ਸੰਪਰਕ ਵੇਰਵੇ, ਇਨਵੌਇਸ ਭੁਗਤਾਨ ਵੇਰਵੇ ਅਤੇ ਚੁਣਿਆ ਲੋਗੋ ਸ਼ਾਮਲ ਹਨ, ਐਪ ਦੇ IndexedDB ਸਟੋਰੇਜ ਵਿੱਚ ਸੇਵ ਕਰਦਾ ਹੈ।",
+          "when": "ਕਾਰੋਬਾਰ ਦੇ ਉਹ ਵੇਰਵੇ ਦਰਜ ਜਾਂ ਬਦਲਣ ਤੋਂ ਬਾਅਦ ਇਹ ਵਿਕਲਪ ਵਰਤੋ ਜੋ ਐਪ ਦੇ ਸਮਰਥਿਤ ਦਸਤਾਵੇਜ਼ਾਂ ਅਤੇ ਇਨਵੌਇਸਾਂ ਵਿੱਚ ਦਿਖਾਉਣੇ ਹਨ।",
+          "how": "ਪ੍ਰੋਫਾਈਲ ਖੇਤਰਾਂ ਅਤੇ ਚੁਣੇ ਲੋਗੋ ਦੀ ਜਾਂਚ ਕਰੋ, ਫਿਰ Save Profile ਚੁਣੋ। ਪ੍ਰੋਫਾਈਲ ਸੇਵ ਅਤੇ ਤਸਦੀਕ ਹੋਣ ਦੀ ਪੁਸ਼ਟੀ ਦੀ ਉਡੀਕ ਕਰੋ। ਜੇ ਗਲਤੀ ਆਵੇ ਤਾਂ ਸਮੱਸਿਆ ਠੀਕ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+          "inputs": "Business Profile ਫਾਰਮ ਵਿੱਚ ਦਰਜ ਕੀਤੀਆਂ ਕਦਰਾਂ। ਜਾਂਚੇ ਫਾਰਮ ਵਿੱਚ ਲਿਖਤ ਵਾਲੇ ਖੇਤਰ ਲਾਜ਼ਮੀ ਨਹੀਂ ਦਰਸਾਏ ਗਏ; ਜੋ ਵੇਰਵੇ ਲਾਗੂ ਨਹੀਂ ਹੁੰਦੇ ਉਹ ਖਾਲੀ ਛੱਡੋ। ਚੁਣੇ ਲੋਗੋ ਨੂੰ ਅੱਪਲੋਡ ਖੇਤਰ ਕੋਲ ਦਿਖਾਈਆਂ ਫਾਈਲ ਕਿਸਮ ਅਤੇ ਅਨੁਕੂਲਨ ਤੋਂ ਬਾਅਦ ਆਕਾਰ ਦੀਆਂ ਹੱਦਾਂ ਪੂਰੀਆਂ ਕਰਣੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ।",
+          "result": "ਅੱਪਡੇਟ ਕੀਤਾ ਕਾਰੋਬਾਰੀ ਪ੍ਰੋਫਾਈਲ IndexedDB ਵਿੱਚ ਸੇਵ ਅਤੇ ਤਸਦੀਕ ਹੁੰਦਾ ਹੈ। ਐਪ ਲਾਂਚਰ ਦੀ ਬ੍ਰਾਂਡਿੰਗ ਤਾਜ਼ਾ ਕਰਦੀ ਹੈ ਅਤੇ ਸਫਲਤਾ ਦੀ ਪੁਸ਼ਟੀ ਕਰਦੀ ਹੈ; ਅਸਫਲ ਹੋਣ 'ਤੇ ਗਲਤੀ ਦਿਖਾਉਂਦੀ ਹੈ।",
+          "notes": "ਇਨਵੌਇਸ ਭੁਗਤਾਨ ਵੇਰਵੇ ਜਾਰੀ ਕੀਤੇ ਇਨਵੌਇਸਾਂ 'ਤੇ ਦਿਖਦੇ ਹਨ। ਕਦੇ ਵੀ ਕਾਰਡ PIN ਜਾਂ ਆਨਲਾਈਨ ਬੈਂਕਿੰਗ ਪਾਸਵਰਡ ਨਾ ਦਰਜ ਕਰੋ। ਪ੍ਰੋਫਾਈਲ ਸੇਵ ਕਰਨ ਨਾਲ ਪਹਿਲਾਂ ਜਾਰੀ ਕੀਤੇ ਦਸਤਾਵੇਜ਼ ਮੁੜ ਨਹੀਂ ਲਿਖੇ ਜਾਂਦੇ। ਸੇਵ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਦਿਖਾਈਆਂ ਕਦਰਾਂ ਅਤੇ ਲੋਗੋ ਜਾਂਚੋ।"
+        },
+        "prs": {
+          "purpose": "فیلدهای پروفایل کسب‌وکار، از جمله نام کسب‌وکار و مالک، اطلاعات تماس، جزئیات پرداخت فاکتور و لوگوی انتخاب‌شده را در فضای ذخیره‌سازی IndexedDB برنامه ذخیره می‌کند.",
+          "when": "پس از واردکردن یا تغییر مشخصات کسب‌وکار که باید در اسناد و فاکتورهای پشتیبانی‌شده برنامه نمایش داده شوند، از این گزینه استفاده کنید.",
+          "how": "فیلدهای پروفایل و لوگوی انتخاب‌شده را بررسی کنید و سپس Save Profile را انتخاب کنید. منتظر پیام تأیید ذخیره و اعتبارسنجی پروفایل بمانید. اگر خطایی نمایش داده شد، مشکل را برطرف و دوباره تلاش کنید.",
+          "inputs": "مقادیر واردشده در فرم Business Profile. در فرم بررسی‌شده، فیلدهای متنی اجباری علامت‌گذاری نشده‌اند؛ جزئیات نامرتبط را خالی بگذارید. لوگوی انتخاب‌شده باید محدودیت نوع فایل و حجم پس از بهینه‌سازی را که کنار فیلد بارگذاری نمایش داده شده رعایت کند.",
+          "result": "پروفایل به‌روزشده کسب‌وکار در IndexedDB ذخیره و تأیید می‌شود. برنامه نشان برند صفحه راه‌انداز را تازه می‌کند و موفقیت را تأیید می‌کند؛ در صورت شکست پیام خطا نمایش می‌دهد.",
+          "notes": "جزئیات پرداخت فاکتور روی فاکتورهای صادرشده نمایش داده می‌شوند. هرگز PIN کارت یا گذرواژه بانکداری آنلاین را وارد نکنید. ذخیره پروفایل اسناد صادرشده قبلی را بازنویسی نمی‌کند. پیش از ذخیره، مقادیر و لوگوی نمایش‌داده‌شده را بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د سوداګرۍ د پروفایل برخې، د سوداګرۍ او مالک نومونه، د اړیکې معلومات، د بل د پیسو جزئیات او ټاکل شوی لوګو د اپلېکېشن په IndexedDB زېرمه کې خوندي کوي.",
+          "when": "دا هغه وخت وکاروئ چې د سوداګرۍ هغه معلومات داخل یا بدل کړئ چې باید د اپلېکېشن په ملاتړ شويو اسنادو او بلونو کې ښکاره شي.",
+          "how": "د پروفایل برخې او ټاکل شوی لوګو وګورئ، بیا Save Profile وټاکئ. د پروفایل د خوندي او تایید کېدو پیغام ته انتظار وکړئ. که تېروتنه ښکاره شي، ستونزه سمه او بیا هڅه وکړئ.",
+          "inputs": "د Business Profile فورم ته داخل شوي ارزښتونه. په ارزول شوې فورمه کې متني برخې لازمي نه دي نښه شوې؛ هغه جزئیات تش پرېږدئ چې اړوند نه وي. ټاکل شوی لوګو باید د پورته کولو د برخې ترڅنګ ښودل شوي د فایل ډول او له اصلاح وروسته د اندازې محدودیتونه پوره کړي.",
+          "result": "نوی شوی سوداګریز پروفایل په IndexedDB کې خوندي او تاییدېږي. اپلېکېشن د لانچر برانډنګ تازه کوي او بریا تاییدوي؛ د ناکامۍ پر مهال تېروتنه ښيي.",
+          "notes": "د بل د پیسو معلومات په صادر شويو بلونو کې ښکاري. هېڅکله د کارت PIN یا د انلاین بانکدارۍ پټنوم مه داخلوئ. د پروفایل خوندي کول مخکې صادر شوي اسناد نه بدلوي. له خوندي کولو مخکې ښودل شوي ارزښتونه او لوګو وګورئ."
         }
       },
       "handler_or_behavior": "`prSaveProfile()`"
