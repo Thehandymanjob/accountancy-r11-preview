@@ -16040,12 +16040,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Delete a person from the worker or project-person list.",
-          "when": "Use this control only when a person should be removed from the worker or project-person list after checking historical links.",
-          "how": "Select Delete beside the intended person and read the confirmation prompt.",
-          "inputs": "Select the correct person record and check its identity and linked work or payment history.",
-          "result": "The selected person is removed from the worker or project-person list after confirmation and successful saving; related historical project records should be checked separately.",
-          "notes": "Check whether the person is linked to historic work or payments; retain records required for audit and accounting."
+          "purpose": "Removes a saved worker or partner from the shared people directory.",
+          "when": "Use this only when the person should no longer appear in the shared worker or partner directory and you have checked historical project links.",
+          "how": "Select Delete beside the intended person and approve the confirmation prompt. Check the directory after the operation.",
+          "inputs": "Select the correct worker or partner record and approve the confirmation prompt.",
+          "result": "The selected person is removed from the relevant worker or partner directory if persistence succeeds. Existing project records are not automatically rewritten.",
+          "notes": "Existing project records may still refer to this person. Check historical work and payment records and retain any information required for audit and accounting."
         },
         "fa": {
           "purpose": "حذف یک فرد از فهرست کارگران یا افراد پروژه.",
@@ -16138,12 +16138,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open an existing reconciliation cost for editing or review.",
-          "when": "Use this control when you need to review or change details of a cost associated with a reconciliation.",
-          "how": "Select Edit on the intended reconciliation cost to open its details.",
-          "inputs": "Select the correct reconciliation cost and review its reconciliation context.",
-          "result": "The selected reconciliation cost details open for review or editing.",
-          "notes": "Confirm the cost and reconciliation context before making any changes."
+          "purpose": "Edits a cost shown in the project's reconciliation cost list.",
+          "when": "Use this when correcting the date, amount or description/supplier of a cost included in the project reconciliation view.",
+          "how": "Select Edit beside the intended reconciliation cost. Enter the replacement date, amount and description/supplier in the prompts; the edit is saved after validation.",
+          "inputs": "Select the correct cost. Enter a valid date in YYYY-MM-DD format, a non-negative amount and a description or supplier. Worker assignment is not changed by this prompt.",
+          "result": "The selected cost is updated in its original project or sub-project ledger if persistence succeeds. The project profit report is then refreshed.",
+          "notes": "This action edits the underlying project cost directly; it does not create a separate reconciliation-only copy. Verify the source record before confirming each prompt."
         },
         "fa": {
           "purpose": "باز کردن یک هزینه تطبیق برای ویرایش یا بررسی.",
@@ -16236,12 +16236,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open the selected reconciliation cost action for deletion or review.",
-          "when": "Use this control when you need to review or follow the action associated with the selected reconciliation cost.",
-          "how": "Select Delete only for the intended reconciliation cost and follow the confirmation shown by the app.",
-          "inputs": "Select the intended reconciliation cost and read the action or confirmation prompt carefully.",
-          "result": "The cost is removed or deactivated only if the app accepts and confirms the action.",
-          "notes": "The inventory associates this control with the reconciliation-cost handler; inspect the resulting prompt carefully and do not assume deletion until confirmed."
+          "purpose": "Deletes a cost from the project reconciliation cost list and its underlying project ledger.",
+          "when": "Use this only when the selected cost is a duplicate or an incorrect entry that should be removed.",
+          "how": "Select Delete beside the intended reconciliation cost. Review the confirmation prompt and approve it only after checking the source record.",
+          "inputs": "Select the correct cost record and approve the deletion confirmation.",
+          "result": "The selected cost is removed from its original project or sub-project ledger if confirmation and persistence succeed. The project profit report is refreshed.",
+          "notes": "This is not a separate reconciliation-only deletion. It removes the underlying cost and changes project totals; retain evidence and verify the source record first."
         },
         "fa": {
           "purpose": "باز کردن عملیات مربوط به حذف یا بررسی هزینه تطبیق انتخاب‌شده.",
@@ -16334,12 +16334,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Generate a PDF of the full project report.",
-          "when": "Use this control when you need a PDF copy of the complete project report.",
-          "how": "Select Generate Full Project Report PDF and wait for the report output to be prepared.",
-          "inputs": "Select the correct project, reporting period and sections to include in the full report.",
-          "result": "A PDF file for the full project report is prepared.",
-          "notes": "Check the project, included sections, reporting period and totals. The PDF is an export, not an external submission."
+          "purpose": "Opens a full financial report preview covering the selected project and its sub-projects.",
+          "when": "Use this when you need to review the combined project and sub-project financial position before creating a PDF.",
+          "how": "Select Generate Full Project Report PDF for the intended project. Review the full report preview, then select Generate PDF in the preview toolbar.",
+          "inputs": "Select the correct project. The report uses its saved income, eligible costs, agreed prices and sub-project records; no new financial data is entered for the preview.",
+          "result": "The full project report preview opens, showing project and sub-project sections and overall totals. A PDF is not generated until Generate PDF is selected in the preview toolbar.",
+          "notes": "Check the project, included sections and totals. The report reflects saved Project Workspace records and is not an HMRC submission."
         },
         "fa": {
           "purpose": "ساخت PDF گزارش کامل پروژه.",
@@ -16432,12 +16432,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open a saved contract or quotation.",
-          "when": "Use this control when you want to load a saved contract or quotation into the contracts workspace.",
-          "how": "Select Open on the intended saved contract to load it into the contract workspace.",
-          "inputs": "Select the correct saved contract or quotation and verify the customer and document identity.",
-          "result": "The selected contract or quotation opens in the contracts workspace.",
-          "notes": "Check the customer and document identity before editing or printing."
+          "purpose": "Loads a saved contract or quotation into the contract editor.",
+          "when": "Use this when you need to review or update a saved contract or quotation.",
+          "how": "Select Open on the intended saved document. Check its customer and document type, make any required changes, then save if you want to update the stored document.",
+          "inputs": "Select the correct saved contract or quotation from the saved-document list.",
+          "result": "The selected document's saved details are loaded into the contract form. Opening it does not change the stored document; changes require a separate save action.",
+          "notes": "Check the customer, document type and whether an imported document is flagged as needing review before editing or printing."
         },
         "fa": {
           "purpose": "باز کردن قرارداد یا پیش‌فاکتور ذخیره‌شده.",
@@ -16530,12 +16530,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Print or create a PDF from a saved contract.",
-          "when": "Use this when you need to print or create a PDF from a saved contract.",
-          "how": "Select Print / PDF on the intended saved contract and review the preview.",
-          "inputs": "Select the intended document or file and check its name and contents before opening, downloading or sharing it.",
-          "result": "A PDF for the selected report, receipt or contract is generated or prepared for review; the source record is not submitted externally.",
-          "notes": "Verify customer, scope, price, payment stages and terms before sending the document."
+          "purpose": "Opens the print/PDF preview for a saved contract or quotation.",
+          "when": "Use this when you need to review a saved contract or quotation before generating its PDF.",
+          "how": "Select Print / PDF on the intended saved document. Review the in-app preview, then select Generate PDF in the preview when ready.",
+          "inputs": "Select the intended saved contract or quotation. Its stored customer, scope, price and terms are used to build the preview.",
+          "result": "The saved document opens in an in-app preview overlay. The PDF is generated only after you select Generate PDF in that preview.",
+          "notes": "Verify customer, scope, price, payment stages and terms before generating or sharing the document."
         },
         "fa": {
           "purpose": "چاپ یا ساخت PDF از قرارداد ذخیره‌شده.",
@@ -16556,12 +16556,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Delete a saved contract or quotation.",
-          "when": "Use this when you need to delete a saved contract or quotation.",
-          "how": "Select Delete on the intended document and read the confirmation prompt before proceeding.",
-          "inputs": "Select the correct record or item affected by this action, and provide any additional information requested by the app.",
-          "result": "The selected record or file is deleted or removed only after the app accepts the action and any required confirmation. Check the result message before assuming it is gone.",
-          "notes": "Deletion may remove access to a business record. Keep copies of issued or agreed contracts and check retention requirements."
+          "purpose": "Permanently deletes a saved contract or quotation from the contract store.",
+          "when": "Use this only when the saved document is a duplicate or was created in error and should be removed.",
+          "how": "Select Delete on the intended document and approve the confirmation prompt. Check the saved-document list afterward.",
+          "inputs": "Select the correct saved contract or quotation and approve the deletion confirmation.",
+          "result": "The selected document is removed from the saved contract list if the storage write succeeds. This action is not a soft-delete workflow.",
+          "notes": "DESTRUCTIVE: the confirmation warns that deletion cannot be undone. Keep copies of issued or agreed contracts and check retention requirements before deleting."
         },
         "fa": {
           "purpose": "حذف قرارداد یا پیش‌فاکتور ذخیره‌شده.",
@@ -16582,12 +16582,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Generate a PDF from the current contract or quotation.",
-          "when": "Use this when you need to generate a PDF from the current contract or quotation.",
-          "how": "Select Generate and wait for the PDF preview or generated document.",
-          "inputs": "Select the intended document or file and check its name and contents before opening, downloading or sharing it.",
-          "result": "A PDF for the selected report, receipt or contract is generated or prepared for review; the source record is not submitted externally.",
-          "notes": "Review all contract details and totals before using the PDF; generation does not send it to the customer."
+          "purpose": "Generates a PDF from the current contract or quotation preview.",
+          "when": "Use this after opening the contract preview when you need a PDF copy to inspect, share or print.",
+          "how": "Select Generate and wait for the PDF-generation status to report that the file is ready. Then use Open PDF or Share PDF.",
+          "inputs": "The current contract or quotation must be displayed in the preview. No separate file selection is required.",
+          "result": "A PDF is generated from the displayed contract or quotation. Open PDF and Share PDF become available when generation succeeds.",
+          "notes": "Review the customer, scope, price, stages and terms before using the PDF. Generation does not send the document to the customer."
         },
         "fa": {
           "purpose": "ساخت PDF از قرارداد یا پیش‌فاکتور فعلی.",
@@ -16608,11 +16608,11 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open the generated contract PDF.",
-          "when": "Use this when you need to open the generated contract PDF.",
-          "how": "Select Open PDF to view the generated document in the available viewer or browser window.",
-          "inputs": "Select the intended document or file and check its name and contents before opening, downloading or sharing it.",
-          "result": "The selected contract or quotation's print/PDF view opens for review; the saved contract record is not changed by viewing it.",
+          "purpose": "Opens the PDF generated for the current contract or quotation.",
+          "when": "Use this after the PDF has been generated and you want to inspect it in a browser tab.",
+          "how": "Select Open PDF after the preview reports that the PDF is ready. Use the browser's PDF controls to inspect, print or save it.",
+          "inputs": "A successfully generated contract or quotation PDF must be available.",
+          "result": "The generated PDF opens in a new browser tab. The saved contract record is not changed by viewing the PDF.",
           "notes": "Check that the correct document opened and that all pages and text are visible."
         },
         "fa": {
@@ -16634,11 +16634,11 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Share the generated contract PDF.",
-          "when": "Use this when you need to share the generated contract PDF.",
-          "how": "Select Share PDF and choose an available destination from the device share sheet.",
-          "inputs": "Select the intended document or file and check its name and contents before opening, downloading or sharing it.",
-          "result": "The device or browser presents the available sharing destinations for the selected PDF. The file is not confirmed as sent until the chosen app or service reports success.",
+          "purpose": "Shares or downloads the PDF generated for the current contract or quotation.",
+          "when": "Use this after the PDF has been generated and you want to send it or save a copy on your device.",
+          "how": "Select Share PDF. Choose a destination from the device share sheet when available; otherwise use the downloaded PDF from Files.",
+          "inputs": "A generated contract or quotation PDF is required. Select a destination if the share sheet opens.",
+          "result": "The device share sheet opens when file sharing is supported. Otherwise, the app starts downloading the PDF. The app cannot confirm that another app or service delivered it.",
           "notes": "Confirm the recipient and review prices, scope and terms before sharing."
         },
         "fa": {
@@ -16660,12 +16660,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Return to the previous screen in the current browser history.",
-          "when": "Use this when you need to return to the previous screen in the current browser history.",
-          "how": "Select Back to navigate to the previous page or view.",
-          "inputs": "Select the correct record or item affected by this action, and provide any additional information requested by the app.",
-          "result": "The screen, document or item described by this action is displayed for the selected record. No unrelated record is changed.",
-          "notes": "Browser history may leave the current form. Save any required changes first; this control does not guarantee unsaved data will be retained."
+          "purpose": "Navigates to the previous page in the browser's history.",
+          "when": "Use this when you want to return to the page or view visited immediately before the current one.",
+          "how": "Select Back to ask the browser to navigate to its previous history entry.",
+          "inputs": "No input is required. Save any changes that must be kept before navigating away.",
+          "result": "The browser attempts to display the previous history entry. The destination depends on the browser's history; it is not guaranteed to be a particular app screen.",
+          "notes": "Browser history may leave the current form or app view. Unsaved changes may be lost."
         },
         "fa": {
           "purpose": "بازگشت به صفحه یا نمای قبلی در سابقه مرورگر.",
@@ -16686,12 +16686,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Use the full original receipt image instead of the cropped selection.",
-          "when": "Use this when you need to use the full original receipt image instead of the cropped selection.",
-          "how": "Select Use full image when you want to keep the complete receipt photo.",
-          "inputs": "Select the correct receipt or payment record and verify the date, amount and attached image or file.",
-          "result": "The selected full or cropped receipt image is applied to the current receipt workflow; check that the important receipt details remain legible.",
-          "notes": "The full image may include extra background and may be larger; check legibility and avoid exposing unrelated information."
+          "purpose": "Applies the complete original receipt image to the current receipt workflow without cropping it.",
+          "when": "Use this when the crop preview cuts off important receipt details and you want to keep the full original image.",
+          "how": "In the receipt crop dialog, select Use full image. Check the resulting receipt preview before saving the record.",
+          "inputs": "A receipt image must already be selected and open in the crop dialog. No new file is required for this action.",
+          "result": "The full original image is applied to the current receipt preview. The underlying entry is not saved until its normal save action succeeds.",
+          "notes": "The full image may include extra background. Check legibility and avoid exposing unrelated information."
         },
         "fa": {
           "purpose": "استفاده از تصویر کامل و اصلی رسید به‌جای بخش برش‌خورده.",
@@ -16712,12 +16712,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Save the cropped receipt photo selection.",
-          "when": "Use this when you need to save the cropped receipt photo selection.",
-          "how": "Adjust the crop to include the relevant receipt details, then select Save cropped photo.",
-          "inputs": "Select the correct receipt or payment record and verify the date, amount and attached image or file.",
-          "result": "The selected full or cropped image is applied to the current receipt workflow after the app accepts the change.",
-          "notes": "Check that date, supplier and total remain readable before applying the crop."
+          "purpose": "Applies the selected crop of the receipt image to the current receipt workflow.",
+          "when": "Use this when you want to keep only the relevant portion of a receipt image.",
+          "how": "Adjust the crop boundaries to include the required receipt details, then select Save cropped photo. Review the resulting preview before saving the record.",
+          "inputs": "A receipt image must already be selected in the crop dialog. Set the crop area so the date, supplier and total remain visible.",
+          "result": "The cropped image is applied to the current receipt preview. The underlying entry is not saved until its normal save action succeeds.",
+          "notes": "Check that all required receipt details remain readable before saving the entry."
         },
         "fa": {
           "purpose": "ذخیره قسمت برش‌خورده عکس رسید.",
@@ -16738,12 +16738,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Copy the current version and build details to the clipboard.",
-          "when": "Use this when you need to copy the current version and build details to the clipboard.",
-          "how": "Select Copy version details, then paste the copied text into the support message or diagnostic note where needed.",
-          "inputs": "Select the relevant build, event or diagnostic record. Review its timestamp and details before copying or sharing.",
-          "result": "The requested version details or diagnostic data are copied to the clipboard if clipboard access is available.",
-          "notes": "The copied details identify the app build and environment; review them before sharing publicly."
+          "purpose": "Copies the current app version, build and storage details to the clipboard.",
+          "when": "Use this when sending a technical support message or recording which app build you tested.",
+          "how": "Open Monitor & Diagnostics and select Copy version details. Paste the copied text into the support message or diagnostic note.",
+          "inputs": "No selection or form input is required. The control copies the current page's version/build metadata, database name, last-updated display and loaded-page URL.",
+          "result": "The version details are copied to the clipboard when clipboard access is available. The app also uses a text-area fallback where supported.",
+          "notes": "Review the copied details before sharing them publicly; they include build and environment information."
         },
         "fa": {
           "purpose": "کپی اطلاعات نسخه و Build فعلی در حافظه موقت.",
@@ -16767,9 +16767,9 @@
           "purpose": "Open the detailed information for a monitoring event.",
           "when": "Use this when you need to open the detailed information for a monitoring event.",
           "how": "Select View details on the relevant event in Monitor & Diagnostics.",
-          "inputs": "Select the relevant build, event or diagnostic record. Review its timestamp and details before copying or sharing.",
-          "result": "The selected event's details are displayed for inspection; the stored diagnostic event is not changed.",
-          "notes": "Use the timestamp and event description to identify the correct incident; diagnostic details may contain technical information."
+          "inputs": "Select View details on the event whose timestamp and description you want to inspect.",
+          "result": "A modal displays the selected monitoring event as formatted JSON for inspection. The event is not changed; the modal also provides Copy JSON and Close actions.",
+          "notes": "Use the timestamp and event description to identify the correct incident. Diagnostic details may contain technical or environment information."
         },
         "fa": {
           "purpose": "باز کردن جزئیات یک رویداد در Monitor & Diagnostics.",
@@ -16790,11 +16790,11 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Move to the previous page of monitoring events.",
-          "when": "Use this when you need to move to the previous page of monitoring events.",
-          "how": "Select Previous to display the preceding page of the event list.",
-          "inputs": "Select the relevant build, event or diagnostic record. Review its timestamp and details before copying or sharing.",
-          "result": "The selected event's details are displayed for inspection; the stored diagnostic event is not changed.",
+          "purpose": "Moves the Monitor & Diagnostics event list to its previous page.",
+          "when": "Use this when you are viewing a later page of events and want to inspect the preceding page.",
+          "how": "Select Previous in the monitoring pagination controls when it is enabled.",
+          "inputs": "No input is required. The current monitoring page must be greater than the first page.",
+          "result": "The previous page of monitoring events is displayed. Stored diagnostic events are not modified.",
           "notes": "This changes pagination only; it does not delete or modify diagnostic events."
         },
         "fa": {
@@ -16816,12 +16816,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Show the current page number and total pages in the monitoring list.",
-          "when": "Use this when you need to show the current page number and total pages in the monitoring list.",
-          "how": "Use the page indicator to understand your position in the event list.",
-          "inputs": "Select the relevant build, event or diagnostic record. Review its timestamp and details before copying or sharing.",
-          "result": "The monitoring list displays the requested page. Changing pages does not alter stored events.",
-          "notes": "The indicator is informational and is not an action button."
+          "purpose": "Displays the current page number and total pages for the monitoring event list.",
+          "when": "Use this as a page-position indicator while browsing Monitor & Diagnostics.",
+          "how": "Read the page indicator between the Previous and Next controls.",
+          "inputs": "No input is required. This is a display indicator, not an action control.",
+          "result": "The indicator shows the current monitoring page and the total number of available pages.",
+          "notes": "The indicator is informational and does not change the selected page or stored events."
         },
         "fa": {
           "purpose": "نمایش شماره صفحه فعلی و تعداد کل صفحات فهرست مانیتورینگ.",
@@ -16842,12 +16842,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Move to the next page of monitoring events.",
-          "when": "Use this when you need to move to the next page of monitoring events.",
-          "how": "Select Next to display the next page when one is available.",
-          "inputs": "Select the relevant build, event or diagnostic record. Review its timestamp and details before copying or sharing.",
-          "result": "The selected event's details are displayed for inspection; the stored diagnostic event is not changed.",
-          "notes": "The control may be disabled on the final page; pagination does not change stored events."
+          "purpose": "Moves the Monitor & Diagnostics event list to its next page.",
+          "when": "Use this when more monitoring events are available beyond the current page.",
+          "how": "Select Next in the monitoring pagination controls when it is enabled.",
+          "inputs": "No input is required. The Next control is available only when another page exists.",
+          "result": "The next page of monitoring events is displayed. Stored diagnostic events are not modified.",
+          "notes": "The control is disabled on the final page; pagination does not change stored events."
         },
         "fa": {
           "purpose": "رفتن به صفحه بعدی رویدادهای مانیتورینگ.",
@@ -16894,11 +16894,11 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Copy the selected monitoring event as JSON.",
-          "when": "Use this when you need to copy the selected monitoring event as JSON.",
-          "how": "Open the intended event and select Copy JSON to copy its structured diagnostic data.",
-          "inputs": "Select the relevant build, event or diagnostic record. Review its timestamp and details before copying or sharing.",
-          "result": "The requested version details or diagnostic data are copied to the clipboard if clipboard access is available.",
+          "purpose": "Copies the selected monitoring event's structured JSON to the clipboard.",
+          "when": "Use this after opening an event's details when you need to provide the event data to support or inspect it elsewhere.",
+          "how": "In the event details modal, select Copy JSON. Paste the copied JSON into the intended diagnostic note or support message.",
+          "inputs": "Open the correct event using View details. No additional selection is required once its details modal is open.",
+          "result": "The formatted JSON for the selected event is copied to the clipboard when access is available. A fallback copy method is attempted if the clipboard API fails.",
           "notes": "Review the JSON for sensitive or identifying information before sharing it with support."
         },
         "fa": {
@@ -16920,12 +16920,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open a previously saved report.",
-          "when": "Use this when you need to open a previously saved report.",
-          "how": "Select Open saved report beside the report you want to review.",
-          "inputs": "Select the intended report and verify its reporting period and included content.",
-          "result": "The selected report or report section is displayed for review; opening it does not submit it to HMRC.",
-          "notes": "Check the report name and date before opening; opening a saved report does not submit it."
+          "purpose": "Pending verification: the inventory lists an Open saved report control, but its report188Open handler was not found in the inspected R43 HTML or companion JavaScript files.",
+          "when": "Do not rely on this control until its current source implementation is located and verified.",
+          "how": "Keep this help entry unpublished. Confirm the visible control and its actual handler in the deployed source before writing user instructions.",
+          "inputs": "Not verified in the inspected source.",
+          "result": "No runtime result can be confirmed from the inspected source.",
+          "notes": "AUDIT PENDING: do not mark complete or publish based on the inventory label alone."
         },
         "fa": {
           "purpose": "باز کردن یک گزارش ذخیره‌شده قبلی.",
@@ -16946,12 +16946,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Print or save a previously saved report as a PDF.",
-          "when": "Use this when you need to print or save a previously saved report as a PDF.",
-          "how": "Select Print / PDF for the intended saved report and use the browser print dialog.",
-          "inputs": "Select the intended report and verify its reporting period and included content.",
-          "result": "The browser's print workflow opens for the selected document, allowing you to print it or choose Save as PDF.",
-          "notes": "Verify the report contents and reporting period before sharing or filing the PDF."
+          "purpose": "Pending verification: the inventory lists a Print / PDF control, but its report188Print handler was not found in the inspected R43 HTML or companion JavaScript files.",
+          "when": "Do not rely on this control until its current source implementation is located and verified.",
+          "how": "Keep this help entry unpublished. Confirm the visible control and its actual handler in the deployed source before writing user instructions.",
+          "inputs": "Not verified in the inspected source.",
+          "result": "No runtime result can be confirmed from the inspected source.",
+          "notes": "AUDIT PENDING: do not mark complete or publish based on the inventory label alone."
         },
         "fa": {
           "purpose": "چاپ یا ذخیره گزارش قبلی به‌صورت PDF.",
@@ -16972,12 +16972,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Change the status label of a saved report.",
-          "when": "Use this when you need to change the status label of a saved report.",
-          "how": "Select Update status and choose or enter the appropriate status as prompted.",
-          "inputs": "Select the intended report and verify its reporting period and included content.",
-          "result": "The selected status or setting changes if the app accepts the action and confirms the update.",
-          "notes": "Use a status that accurately reflects the report’s progress; changing a label does not submit the report to HMRC."
+          "purpose": "Pending verification: the inventory lists an Update status control, but its report188RenameStatus handler was not found in the inspected R43 HTML or companion JavaScript files.",
+          "when": "Do not rely on this control until its current source implementation is located and verified.",
+          "how": "Keep this help entry unpublished. Confirm the visible control and its actual handler in the deployed source before writing user instructions.",
+          "inputs": "Not verified in the inspected source.",
+          "result": "No runtime result can be confirmed from the inspected source.",
+          "notes": "AUDIT PENDING: do not mark complete or publish based on the inventory label alone."
         },
         "fa": {
           "purpose": "تغییر برچسب وضعیت یک گزارش ذخیره‌شده.",
@@ -16998,12 +16998,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open a notification from the notifications list.",
-          "when": "Use this when you need to open a notification from the notifications list.",
-          "how": "Select the notification row with the relevant title and date to open its details.",
-          "inputs": "Select the notification with the correct title and date.",
-          "result": "The selected notification's details are displayed. Opening it does not itself complete the task described in the notification.",
-          "notes": "Check the title and date because notifications may have similar wording."
+          "purpose": "Pending verification: the inventory lists a notification-row control, but its report188OpenNotification handler was not found in the inspected R43 HTML or companion JavaScript files.",
+          "when": "Do not rely on this control until its current source implementation is located and verified.",
+          "how": "Keep this help entry unpublished. Confirm the visible control and its actual handler in the deployed source before writing user instructions.",
+          "inputs": "Not verified in the inspected source.",
+          "result": "No runtime result can be confirmed from the inspected source.",
+          "notes": "AUDIT PENDING: do not mark complete or publish based on the inventory label alone."
         },
         "fa": {
           "purpose": "باز کردن یک اعلان از فهرست اعلان‌ها.",
@@ -17024,12 +17024,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Toggle the selected notification between read and unread.",
-          "when": "Use this when you need to toggle the selected notification between read and unread.",
-          "how": "Select Mark as read or Mark as unread in the notification details.",
-          "inputs": "Select the notification with the correct title and date.",
-          "result": "The selected status or setting changes if the app accepts the action and confirms the update.",
-          "notes": "This changes the notification’s read state only; it does not complete the task described by the notification."
+          "purpose": "Pending verification: the inventory lists a notification read/unread control, but its report188ToggleReadFromDetail handler was not found in the inspected R43 HTML or companion JavaScript files.",
+          "when": "Do not rely on this control until its current source implementation is located and verified.",
+          "how": "Keep this help entry unpublished. Confirm the visible control and its actual handler in the deployed source before writing user instructions.",
+          "inputs": "Not verified in the inspected source.",
+          "result": "No runtime result can be confirmed from the inspected source.",
+          "notes": "AUDIT PENDING: do not mark complete or publish based on the inventory label alone."
         },
         "fa": {
           "purpose": "تغییر وضعیت اعلان انتخاب‌شده بین خوانده‌شده و خوانده‌نشده.",
@@ -17050,12 +17050,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Print or save the selected notification/report content as a PDF.",
-          "when": "Use this when you need to print or save the selected notification/report content as a PDF.",
-          "how": "Select Print / Save PDF and review the resulting print view.",
-          "inputs": "Select the intended report and verify its reporting period and included content.",
-          "result": "The browser's print workflow opens for the selected document, allowing you to print it or choose Save as PDF.",
-          "notes": "Check the displayed content before saving; printing does not change the notification’s read state unless the app separately does so."
+          "purpose": "Pending verification: the inventory lists a Print / Save PDF control for notification/report content, but its report188Print handler was not found in the inspected R43 HTML or companion JavaScript files.",
+          "when": "Do not rely on this control until its current source implementation is located and verified.",
+          "how": "Keep this help entry unpublished. Confirm the visible control and its actual handler in the deployed source before writing user instructions.",
+          "inputs": "Not verified in the inspected source.",
+          "result": "No runtime result can be confirmed from the inspected source.",
+          "notes": "AUDIT PENDING: do not mark complete or publish based on the inventory label alone."
         },
         "fa": {
           "purpose": "چاپ یا ذخیره محتوای اعلان یا گزارش انتخاب‌شده به‌صورت PDF.",
@@ -17076,12 +17076,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Return from the current entry/import workflow to its form.",
-          "when": "Use this when you need to return from the current entry/import workflow to its form.",
-          "how": "Select Return to form to go back to the form screen.",
-          "inputs": "Select the correct record or item affected by this action, and provide any additional information requested by the app.",
-          "result": "The screen, document or item described by this action is displayed for the selected record. No unrelated record is changed.",
-          "notes": "Review whether any temporary work needs saving before leaving the current view."
+          "purpose": "Closes the English-only input warning and returns focus to the text field that triggered it.",
+          "when": "Use this when the English-only input warning appears because a text field contains a non-English character.",
+          "how": "Select Return to form to close the warning. The app focuses the field that triggered it so you can correct the text.",
+          "inputs": "No input is required to close the warning. The field that triggered the warning remains the one to correct.",
+          "result": "The warning modal closes and focus returns to the text field that triggered it. No form data is saved by this action.",
+          "notes": "This control does not translate the text or submit the form. Rewrite the affected text in English before saving."
         },
         "fa": {
           "purpose": "بازگشت از گردش‌کار فعلی ورود اطلاعات یا import به فرم.",
@@ -17102,12 +17102,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open or close the custom dropdown for the current selection field.",
-          "when": "Use this when you need to open or close the custom dropdown for the current selection field.",
-          "how": "Select the dropdown trigger to display its available options; select it again or choose an option to close the list.",
-          "inputs": "Choose the option that matches the field you are completing. Check the displayed value before saving the form.",
-          "result": "The selected option is returned to the underlying form field. The form is not necessarily saved until its own save action is used.",
-          "notes": "The visible placeholder or selected text depends on the field’s current value. The application’s main interface remains English and left-to-right."
+          "purpose": "Opens or closes the custom dropdown attached to a native single-select field.",
+          "when": "Use this when you need to view the available options for a dropdown field or close its option list.",
+          "how": "Select the dropdown trigger to open the option list. Select the trigger again to close it, or choose an option from the list.",
+          "inputs": "The underlying select field must have available options. No separate text input is required to open or close the list.",
+          "result": "The custom option list is shown or hidden, and the trigger displays the field's current selected value or placeholder. The field value changes only when an option is chosen.",
+          "notes": "The custom dropdown mirrors the underlying native select. Opening or closing it does not save the full form."
         },
         "fa": {
           "purpose": "باز یا بسته کردن فهرست کشویی سفارشی فیلد انتخاب فعلی.",
@@ -17128,12 +17128,12 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Choose a value from the custom dropdown options.",
-          "when": "Use this when you need to choose a value from the custom dropdown options.",
-          "how": "Select the required option from the open list; the selected value is passed back to the underlying form field.",
-          "inputs": "Choose the option that matches the field you are completing. Check the displayed value before saving the form.",
-          "result": "The selected option is returned to the underlying form field. The form is not necessarily saved until its own save action is used.",
-          "notes": "Check the chosen value before saving the form. Selecting an option changes the field value but does not necessarily save the full form."
+          "purpose": "Selects an option from the custom dropdown and updates its underlying native select field.",
+          "when": "Use this after opening a custom dropdown when you want to set the value of the associated field.",
+          "how": "Select the required option from the open list. The dropdown closes and the selected value appears on its trigger.",
+          "inputs": "Choose one of the available options for the current select field. The option list is built from that field's existing choices.",
+          "result": "The underlying select value is updated and a bubbling change event is dispatched so the app's normal field-change logic can run. The full form is not automatically saved.",
+          "notes": "Check the selected value before saving the form. Choosing an option changes the field value but does not necessarily save the record."
         },
         "fa": {
           "purpose": "انتخاب یک مقدار از گزینه‌های فهرست کشویی سفارشی.",
