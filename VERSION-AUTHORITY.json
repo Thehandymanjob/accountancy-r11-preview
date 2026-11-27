@@ -2169,7 +2169,7 @@
         "docs/REPAIR_INDEX_FA.md",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "pending",
+      "previewDevelopmentCommitSha": "3094583059e142a82ec1baf6fd3afc10dd806263",
       "previewPullRequestNumber": 96,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
@@ -2181,7 +2181,7 @@
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
-        "details": "The nine revised EN/FA entries were checked against their exact source contexts and remain CONTENT_DRAFT. The runtime data bundle still contains only 132 CONTENT_COMPLETE entries across 11 languages. V8 syntax compilation and bundle completeness checks are pending final verification; no browser test."
+        "details": "V8 syntax compilation passed for all 8 inline scripts and both external Help scripts. Runtime bundle parsed: 132 CONTENT_COMPLETE entries, 11 languages, all six fields present. The nine corrected EN/FA entries remain CONTENT_DRAFT and are absent from the bundle. Five dynamic data-help-id attributes each occur exactly once. Registry baseline and runtime metadata match R47 source. No browser DOM or click interaction, mobile layout or iPhone Safari test."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
