@@ -2348,19 +2348,19 @@
         "docs/REPAIR_INDEX_FA.md",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "2cdf426febe5011b02cf4e7ed023ea2a8d6902f9",
+      "previewDevelopmentCommitSha": "d8d35caaa349ed568d4ad40532eaebbb3c6142f8",
       "previewPullRequestNumber": 96,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "PENDING",
-        "runId": "pending",
-        "url": "pending",
-        "details": "R55 requires a fresh Version Authority Gate against the final R55 Build ID, canonical URL, index SHA and all 24 runtime asset pins."
+        "result": "PASS",
+        "runId": 46069805600,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46069805600",
+        "details": "R55 Version Authority Gate passed. Repository/branch identity, approved R11 baseline ancestry, Build ID THA-273-R11-PREVIEW-20261127-R55, canonical URL, index blob SHA and all 24 pinned runtime assets matched."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
-        "details": "Six new Help bindings target exact onclick attributes inside the owning Entry, expense-category, Invoice Editor and Customer panels. All six IDs are CONTENT_COMPLETE. The original financial and persistence handlers were not changed. Mapping baselines and all 24 asset pins must be verified against the final branch tree. Live browser testing remains pending."
+        "details": "Six new Help bindings target exact onclick attributes inside the owning Entry, expense-category, Invoice Editor and Customer panels. All six IDs are CONTENT_COMPLETE. The original financial and persistence handlers were not changed. Manual Git-tree comparison also confirms all 24 pins and all five Registry/Inventory/content/runtime/index mapping baselines match. Live browser testing remains pending."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
