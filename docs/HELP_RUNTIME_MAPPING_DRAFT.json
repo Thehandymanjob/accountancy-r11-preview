@@ -5,11 +5,11 @@
   "branch": "development",
   "baseline": {
     "runtime_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
-    "runtime_blob_sha": "facc744a955a6987597de095c87c0e94726fd0f3",
+    "runtime_blob_sha": "6d331c54bbf1a77ecffcc95127709d337c48a6c1",
     "registry_blob_sha": "f63754128fd09125290df4045f6f4b6fc03b3545",
     "inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
     "help_content_blob_sha": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
-    "help_runtime_blob_sha": "d75754a1a8c1ea2cb6bef9365b9450bd19be04f0"
+    "help_runtime_blob_sha": "6d331c54bbf1a77ecffcc95127709d337c48a6c1"
   },
   "policy": {
     "label_only_matching": false,
@@ -38,15 +38,15 @@
       "ADJACENT_HELP_BUTTON_ATTACHED_R57_NOT_BROWSER_VERIFIED": 7,
       "ADJACENT_HELP_BUTTON_ATTACHED_R58_NOT_BROWSER_VERIFIED": 11,
       "ADJACENT_HELP_BUTTON_ATTACHED_R59_NOT_BROWSER_VERIFIED": 6,
-      "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED": 10
+      "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED": 19
     },
-    "notes": "R60 has 90 mapped adjacent Help controls: 67 scoped navigation/report/form/diagnostic/accounting/Project Workspace/Company Contracts/Contracts/Profile selectors, 13 exact unique-ID selectors, five scoped unique-handler selectors and five dynamic-template attributes. R60 adds the four Main Menu launcher destinations and six Accountancy home destinations. Previous specialist bindings remain. Real browser tests and deployment remain pending.",
+    "notes": "R60 has 99 mapped adjacent Help controls: 82 scoped navigation/report/form/diagnostic/accounting/Project Workspace/Company Contracts/Contracts/Profile selectors, 13 exact unique-ID selectors, five scoped unique-handler selectors and five dynamic-template attributes. R60 connects the four main launcher destinations, six Accountancy home destinations, Dashboard refresh and period selection, Clear Entry Form, Reports Print Preview, Secure Factory Reset entry, and four Business Workspace sidebar destinations. The reset Help selector is scoped to the actual #factoryResetPage. Real browser tests and deployment remain pending.",
     "runtime_publishable_entries": 132,
     "runtime_languages": 11,
-    "static_controls_attached": 85,
+    "static_controls_attached": 94,
     "draft_static_controls_skipped": 2,
     "dynamic_template_controls_pending": 10,
-    "help_ids_attached": 90,
+    "help_ids_attached": 99,
     "browser_tests_run": 0,
     "dynamic_template_controls_attached": 5,
     "draft_controls_skipped": 12,
@@ -67,7 +67,7 @@
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
       "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
-      "rationale": "Exact selector scopes the launcher/navigation card to #appLauncher and its literal onclick destination. This resolves duplicate function references without matching by visible text. Runtime attachment is source-level only pending live Preview verification."
+      "rationale": "Exact selector scopes the control to appLauncher and its exact data/onclick attribute. The Help target is separated from duplicate navigation handlers elsewhere in the application. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0002",
@@ -81,7 +81,7 @@
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
       "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
-      "rationale": "Exact selector scopes the launcher/navigation card to #appLauncher and its literal onclick destination. This resolves duplicate function references without matching by visible text. Runtime attachment is source-level only pending live Preview verification."
+      "rationale": "Exact selector scopes the control to appLauncher and its exact data/onclick attribute. The Help target is separated from duplicate navigation handlers elsewhere in the application. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0003",
@@ -95,7 +95,7 @@
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
       "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
-      "rationale": "Exact selector scopes the launcher/navigation card to #appLauncher and its literal onclick destination. This resolves duplicate function references without matching by visible text. Runtime attachment is source-level only pending live Preview verification."
+      "rationale": "Exact selector scopes the control to appLauncher and its exact data/onclick attribute. The Help target is separated from duplicate navigation handlers elsewhere in the application. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0004",
@@ -109,7 +109,7 @@
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
       "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
-      "rationale": "Exact selector scopes the launcher/navigation card to #appLauncher and its literal onclick destination. This resolves duplicate function references without matching by visible text. Runtime attachment is source-level only pending live Preview verification."
+      "rationale": "Exact selector scopes the control to appLauncher and its exact data/onclick attribute. The Help target is separated from duplicate navigation handlers elsewhere in the application. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0005",
@@ -179,7 +179,7 @@
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
       "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
-      "rationale": "Exact selector scopes the launcher/navigation card to #accountancyHome and its literal onclick destination. This resolves duplicate function references without matching by visible text. Runtime attachment is source-level only pending live Preview verification."
+      "rationale": "Exact selector scopes the control to accountancyHome and its exact data/onclick attribute. The Help target is separated from duplicate navigation handlers elsewhere in the application. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0010",
@@ -193,7 +193,7 @@
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
       "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
-      "rationale": "Exact selector scopes the launcher/navigation card to #accountancyHome and its literal onclick destination. This resolves duplicate function references without matching by visible text. Runtime attachment is source-level only pending live Preview verification."
+      "rationale": "Exact selector scopes the control to accountancyHome and its exact data/onclick attribute. The Help target is separated from duplicate navigation handlers elsewhere in the application. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0011",
@@ -207,7 +207,7 @@
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
       "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
-      "rationale": "Exact selector scopes the launcher/navigation card to #accountancyHome and its literal onclick destination. This resolves duplicate function references without matching by visible text. Runtime attachment is source-level only pending live Preview verification."
+      "rationale": "Exact selector scopes the control to accountancyHome and its exact data/onclick attribute. The Help target is separated from duplicate navigation handlers elsewhere in the application. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0012",
@@ -221,7 +221,7 @@
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
       "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
-      "rationale": "Exact selector scopes the launcher/navigation card to #accountancyHome and its literal onclick destination. This resolves duplicate function references without matching by visible text. Runtime attachment is source-level only pending live Preview verification."
+      "rationale": "Exact selector scopes the control to accountancyHome and its exact data/onclick attribute. The Help target is separated from duplicate navigation handlers elsewhere in the application. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0013",
@@ -235,7 +235,7 @@
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
       "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
-      "rationale": "Exact selector scopes the launcher/navigation card to #accountancyHome and its literal onclick destination. This resolves duplicate function references without matching by visible text. Runtime attachment is source-level only pending live Preview verification."
+      "rationale": "Exact selector scopes the control to accountancyHome and its exact data/onclick attribute. The Help target is separated from duplicate navigation handlers elsewhere in the application. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0014",
@@ -249,7 +249,7 @@
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
       "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
-      "rationale": "Exact selector scopes the launcher/navigation card to #accountancyHome and its literal onclick destination. This resolves duplicate function references without matching by visible text. Runtime attachment is source-level only pending live Preview verification."
+      "rationale": "Exact selector scopes the control to accountancyHome and its exact data/onclick attribute. The Help target is separated from duplicate navigation handlers elsewhere in the application. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0015",
@@ -338,30 +338,30 @@
     {
       "help_id": "THA-HLP-0021",
       "audit_ref": "INV-024",
-      "element_id": null,
+      "element_id": "home",
       "visible_label": "Refresh",
       "handler": "refreshAll()",
       "handler_name": "refreshAll",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#home .actions.no-print > button[onclick=\"refreshAll()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler refreshAll occurs 12 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the control to home and its exact data/onclick attribute. The Help target is separated from duplicate navigation handlers elsewhere in the application. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0022",
       "audit_ref": "INV-025",
-      "element_id": null,
+      "element_id": "home",
       "visible_label": "Set period (13th–12th)",
       "handler": "setPeriod()",
       "handler_name": "setPeriod",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#home .actions.no-print > button[onclick=\"setPeriod()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler setPeriod occurs 4 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the control to home and its exact data/onclick attribute. The Help target is separated from duplicate navigation handlers elsewhere in the application. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0023",
@@ -422,16 +422,16 @@
     {
       "help_id": "THA-HLP-0027",
       "audit_ref": "INV-030",
-      "element_id": null,
+      "element_id": "entry",
       "visible_label": "Clear Form",
       "handler": "resetEntry()",
       "handler_name": "resetEntry",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#entry .actions > button[onclick=\"resetEntry()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler resetEntry occurs 4 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the control to entry and its exact data/onclick attribute. The Help target is separated from duplicate navigation handlers elsewhere in the application. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0028",
@@ -590,16 +590,16 @@
     {
       "help_id": "THA-HLP-0039",
       "audit_ref": "INV-047",
-      "element_id": null,
+      "element_id": "report",
       "visible_label": "Print Preview",
       "handler": "printReport()",
       "handler_name": "printReport",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#report .actions > button[onclick=\"printReport()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler printReport occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the control to report and its exact data/onclick attribute. The Help target is separated from duplicate navigation handlers elsewhere in the application. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0040",
@@ -926,16 +926,16 @@
     {
       "help_id": "THA-HLP-0063",
       "audit_ref": "INV-078",
-      "element_id": null,
+      "element_id": "factoryResetPage",
       "visible_label": "Open Secure Reset",
       "handler": "openFactoryReset()",
       "handler_name": "openFactoryReset",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#factoryResetPage .factory-reset-button[onclick=\"openFactoryReset()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler openFactoryReset occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the control to factoryResetPage and its exact data/onclick attribute. The Help target is separated from duplicate navigation handlers elsewhere in the application. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0064",
@@ -1080,16 +1080,16 @@
     {
       "help_id": "THA-HLP-0074",
       "audit_ref": "INV-090",
-      "element_id": null,
+      "element_id": "pr-sidebar",
       "visible_label": "💼 Business Workspace",
       "handler": "prPage('workspace')",
       "handler_name": "prPage",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": ".pr-sidebar > button[data-pr-nav=\"workspace\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler prPage occurs 31 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the control to pr-sidebar and its exact data/onclick attribute. The Help target is separated from duplicate navigation handlers elsewhere in the application. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0075",
@@ -1108,16 +1108,16 @@
     {
       "help_id": "THA-HLP-0076",
       "audit_ref": "INV-092",
-      "element_id": null,
+      "element_id": "pr-sidebar",
       "visible_label": "🏢 Company Contracts & Jobs",
       "handler": "prPage('company-hub')",
       "handler_name": "prPage",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": ".pr-sidebar > button[data-pr-nav=\"company-hub\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler prPage occurs 31 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the control to pr-sidebar and its exact data/onclick attribute. The Help target is separated from duplicate navigation handlers elsewhere in the application. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0077",
@@ -1136,16 +1136,16 @@
     {
       "help_id": "THA-HLP-0078",
       "audit_ref": "INV-095",
-      "element_id": null,
+      "element_id": "pr-sidebar",
       "visible_label": "📁 Projects New Project, Projects List and Project Profit & Loss",
       "handler": "prPage('project-hub')",
       "handler_name": "prPage",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": ".pr-sidebar > button[data-pr-nav=\"project-hub\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler prPage occurs 31 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the control to pr-sidebar and its exact data/onclick attribute. The Help target is separated from duplicate navigation handlers elsewhere in the application. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0079",
@@ -1164,16 +1164,16 @@
     {
       "help_id": "THA-HLP-0080",
       "audit_ref": "INV-097",
-      "element_id": null,
+      "element_id": "pr-sidebar",
       "visible_label": "⚙️ Control Panel Manage shared Partners, Workers, Contractors, companies and future settings",
       "handler": "prPage('control')",
       "handler_name": "prPage",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": ".pr-sidebar > button[data-pr-nav=\"control\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler prPage occurs 31 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the control to pr-sidebar and its exact data/onclick attribute. The Help target is separated from duplicate navigation handlers elsewhere in the application. Runtime attachment is source-level only pending live Preview verification."
     },
     {
       "help_id": "THA-HLP-0081",
