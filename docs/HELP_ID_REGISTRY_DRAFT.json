@@ -10394,7 +10394,7 @@
           "when": "وقتی لازم است فاکتوری را بررسی کنید یا آن را برای چاپ یا خروجی PDF آماده کنید، از این گزینه استفاده کنید.",
           "how": "در کنار فاکتور موردنظر View / PDF را انتخاب کنید. پیش‌نمایش فاکتور را بررسی کنید و اگر به نمای PDF جداگانه نیاز دارید، Open print view را انتخاب کنید.",
           "inputs": "فاکتور درست را از فهرست فاکتورها انتخاب کنید. برای نمایش پیش‌نمایش، ورودی دیگری لازم نیست.",
-          "result": "پیش‌نمایش فاکتور همراه با گزینه Open print view نمایش داده می‌شود. اگر فاکتور پرداخت‌شده هنوز به‌صورت پیش‌نویس علامت‌گذاری شده باشد، این عملکرد پیش از نمایش، وضعیت سند آن را به صادرشده تغییر می‌دهد.",
+          "result": "پیش‌نمایش فاکتور همراه با گزینه Open print view نمایش داده می‌شود. اگر فاکتور پرداخت‌شده هنوز Draft باشد، این عملکرد پیش از نمایش وضعیت سند را به Issued تغییر می‌دهد.",
           "notes": "نسخه PDF مدرک پرداخت نیست و به‌تنهایی وضعیت پرداخت فاکتور را تغییر نمی‌دهد."
         },
         "ar": {
@@ -10402,7 +10402,7 @@
           "when": "عندما تحتاج إلى مراجعة الفاتورة أو الحصول على نسخة PDF للطباعة.",
           "how": "اختر View / PDF في الفاتورة المقصودة وافحص العرض الناتج.",
           "inputs": "حدد الفاتورة الصحيحة التي تريد عرضها أو إنشاء PDF لها.",
-          "result": "تُفتح معاينة الفاتورة أو تُجهز نسخة PDF منها.",
+          "result": "تُعرض معاينة الفاتورة مع خيار Open print view. إذا كانت الفاتورة المدفوعة لا تزال بحالة Draft، تغيّر هذه الوظيفة حالة المستند إلى Issued قبل العرض.",
           "notes": "نسخة PDF ليست إثباتاً للدفع ولا تغيّر حالة دفع الفاتورة بحد ذاتها."
         },
         "ckb": {
@@ -10410,7 +10410,7 @@
           "when": "کاتێک دەتەوێت فاکتۆرەکە بپشکنیت یان کۆپیی PDFی چاپکردنی بەدەست بهێنیت.",
           "how": "لە فاکتۆری مەبەست View / PDF هەڵبژێرە و نمای ئەنجامدراو بپشکنە.",
           "inputs": "فاکتۆری دروست هەڵبژێرە کە دەتەوێت بیبینیت یان PDFی دروست بکەیت.",
-          "result": "پێشبینینی فاکتۆر دەکرێتەوە یان کۆپیی PDFی ئامادە دەکرێت.",
+          "result": "پێشبینینی فاکتۆر لەگەڵ هەڵبژاردەی Open print view پیشان دەدرێت. ئەگەر فاکتۆری پارەدراو هێشتا Draft بێت، ئەم کردارە پێش پیشاندانی دۆخی بەڵگەنامەکە دەگۆڕێت بۆ Issued.",
           "notes": "کۆپیی PDF بەڵگەی پارەدان نییە و بەخۆی دۆخی پارەدانی فاکتۆر ناگۆڕێت."
         },
         "kmr": {
@@ -10418,7 +10418,7 @@
           "when": "Dema ku tu dixwazî fatûreyê kontrol bikî an kopiyeke PDF ya çapkirinê bistînî.",
           "how": "Di fatûreya xwestî de View / PDF hilbijêre û dîtina ku tê çêkirin kontrol bike.",
           "inputs": "Fatûreya rast hilbijêre ku dixwazî bibînî an PDF jê çêkî.",
-          "result": "Pêşdîtina fatûreyê vedibe an kopiyeke PDF tê amadekirin.",
+          "result": "Pêşdîtina fatûreyê bi vebijarka Open print view tê nîşandan. Heke fatûreya hatiye dayîn hîn Draft be, ev fonksiyon berî nîşandanê rewşa belgeyê diguherîne bo Issued.",
           "notes": "Kopiya PDF delîla dravdanê nîne û bi xwe rewşa dravdana fatûreyê naguherîne."
         },
         "tr": {
@@ -10426,7 +10426,7 @@
           "when": "Faturayı incelemek veya yazdırılabilir PDF kopyası almak istediğinizde kullanın.",
           "how": "İlgili faturada View / PDF'yi seçin ve açılan görünümü inceleyin.",
           "inputs": "Görüntülemek veya PDF'sini oluşturmak istediğiniz doğru faturayı seçin.",
-          "result": "Fatura önizlemesi açılır veya PDF kopyası hazırlanır.",
+          "result": "Fatura önizlemesi Open print view seçeneğiyle görüntülenir. Ödenmiş bir fatura hâlâ Draft olarak işaretliyse bu işlev görüntülemeden önce belge durumunu Issued olarak değiştirir.",
           "notes": "PDF kopyası ödeme kanıtı değildir ve tek başına faturanın ödeme durumunu değiştirmez."
         },
         "pl": {
@@ -10434,7 +10434,7 @@
           "when": "Użyj, gdy chcesz sprawdzić fakturę lub uzyskać jej drukowalną kopię PDF.",
           "how": "Wybierz View / PDF przy odpowiedniej fakturze i sprawdź wyświetlony podgląd.",
           "inputs": "Wybierz właściwą fakturę, którą chcesz wyświetlić lub przekonwertować do PDF.",
-          "result": "Otwiera się podgląd faktury lub przygotowywana jest jej kopia PDF.",
+          "result": "Wyświetlany jest podgląd faktury z opcją Open print view. Jeśli opłacona faktura nadal ma status Draft, ta funkcja przed wyświetleniem zmienia status dokumentu na Issued.",
           "notes": "Kopia PDF nie jest dowodem zapłaty i sama nie zmienia statusu płatności faktury."
         },
         "ur": {
@@ -10442,7 +10442,7 @@
           "when": "جب انوائس دیکھنی ہو یا پرنٹ کے قابل PDF نقل درکار ہو تو استعمال کریں۔",
           "how": "متعلقہ انوائس میں View / PDF منتخب کریں اور کھلنے والے منظر کا جائزہ لیں۔",
           "inputs": "وہ درست انوائس منتخب کریں جسے دیکھنا یا PDF بنانا ہے۔",
-          "result": "انوائس کا پیش منظر کھل جاتا ہے یا PDF نقل تیار ہو جاتی ہے۔",
+          "result": "انوائس کا پری ویو Open print view کے اختیار کے ساتھ دکھایا جاتا ہے۔ اگر ادا شدہ انوائس اب بھی Draft ہو تو یہ عمل دکھانے سے پہلے دستاویز کی حیثیت Issued کر دیتا ہے۔",
           "notes": "PDF نقل ادائیگی کا ثبوت نہیں اور خود انوائس کی ادائیگی کی حیثیت تبدیل نہیں کرتی۔"
         },
         "pa": {
@@ -10450,7 +10450,7 @@
           "when": "ਜਦੋਂ ਇਨਵੌਇਸ ਦੀ ਜਾਂਚ ਕਰਨੀ ਹੋਵੇ ਜਾਂ ਪ੍ਰਿੰਟ ਕਰਨ ਯੋਗ PDF ਕਾਪੀ ਚਾਹੀਦੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
           "how": "ਸੰਬੰਧਿਤ ਇਨਵੌਇਸ ਵਿੱਚ View / PDF ਚੁਣੋ ਅਤੇ ਖੁੱਲ੍ਹੇ ਦ੍ਰਿਸ਼ ਦੀ ਜਾਂਚ ਕਰੋ।",
           "inputs": "ਉਹ ਸਹੀ ਇਨਵੌਇਸ ਚੁਣੋ ਜਿਸਨੂੰ ਵੇਖਣਾ ਜਾਂ PDF ਬਣਾਉਣਾ ਹੈ।",
-          "result": "ਇਨਵੌਇਸ ਦੀ ਝਲਕ ਖੁੱਲ੍ਹਦੀ ਹੈ ਜਾਂ PDF ਕਾਪੀ ਤਿਆਰ ਹੁੰਦੀ ਹੈ।",
+          "result": "ਇਨਵੌਇਸ ਪ੍ਰੀਵਿਊ Open print view ਵਿਕਲਪ ਨਾਲ ਦਿਖਾਇਆ ਜਾਂਦਾ ਹੈ। ਜੇ ਭੁਗਤਾਨ ਕੀਤਾ ਇਨਵੌਇਸ ਹਾਲੇ Draft ਹੈ ਤਾਂ ਇਹ ਕਾਰਵਾਈ ਦਿਖਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਦਸਤਾਵੇਜ਼ ਦੀ ਸਥਿਤੀ Issued ਕਰ ਦਿੰਦੀ ਹੈ।",
           "notes": "PDF ਕਾਪੀ ਭੁਗਤਾਨ ਦਾ ਸਬੂਤ ਨਹੀਂ ਅਤੇ ਆਪਣੇ ਆਪ ਇਨਵੌਇਸ ਦੀ ਭੁਗਤਾਨ ਸਥਿਤੀ ਨਹੀਂ ਬਦਲਦੀ।"
         },
         "prs": {
@@ -10458,7 +10458,7 @@
           "when": "وقتی می‌خواهید فاکتور را بررسی کنید یا نسخه PDF قابل چاپ آن را بگیرید، استفاده کنید.",
           "how": "در فاکتور موردنظر View / PDF را انتخاب کنید و نمای ایجادشده را بررسی کنید.",
           "inputs": "فاکتور درست را که می‌خواهید مشاهده یا به PDF تبدیل کنید انتخاب کنید.",
-          "result": "پیش‌نمایش فاکتور باز می‌شود یا نسخه PDF آن آماده می‌شود.",
+          "result": "پیش‌نمایش فاکتور همراه با گزینه Open print view نمایش داده می‌شود. اگر فاکتور پرداخت‌شده هنوز Draft باشد، این عملکرد پیش از نمایش وضعیت سند را به Issued تغییر می‌دهد.",
           "notes": "نسخه PDF مدرک پرداخت نیست و به‌تنهایی وضعیت پرداخت فاکتور را تغییر نمی‌دهد."
         },
         "ps": {
@@ -10466,7 +10466,7 @@
           "when": "کله چې غواړئ بل وګورئ یا یې د چاپ وړ PDF کاپي ترلاسه کړئ، دا وکاروئ.",
           "how": "په اړوند بل کې View / PDF وټاکئ او پرانیستل شوی لید وګورئ.",
           "inputs": "سم بل وټاکئ چې لیدل یا PDF کول یې غواړئ.",
-          "result": "د بل مخکتنه پرانیستل کېږي یا یې PDF کاپي چمتو کېږي.",
+          "result": "د بل مخکتنه د Open print view اختیار سره ښکاره کېږي. که ورکړل شوی بل لا هم Draft وي، دا کړنه تر ښودلو مخکې د سند حالت Issued ته اړوي.",
           "notes": "PDF کاپي د تادیې ثبوت نه دی او پخپله د بل د تادیې حالت نه بدلوي."
         }
       },
@@ -10492,7 +10492,7 @@
           "when": "وقتی می‌خواهید جزئیات یک فاکتور ذخیره‌شده را اصلاح کنید، از این گزینه استفاده کنید.",
           "how": "در کنار فاکتور درست Edit را انتخاب کنید، مشتری، شرح، مبالغ، تاریخ‌ها و وضعیت را بررسی کنید، تغییرات لازم را انجام دهید و سپس Save Invoice را انتخاب کنید.",
           "inputs": "فاکتور درست را انتخاب کنید و در صورت نیاز فیلدهای مشتری، تاریخ، شرح کار، ردیف اقلام، VAT و وضعیت را ویرایش کنید.",
-          "result": "جزئیات فاکتور موجود در ویرایشگر بارگذاری می‌شوند. تغییرات تا زمانی که Save Invoice با موفقیت انجام نشود، ذخیره نخواهند شد.",
+          "result": "جزئیات فاکتور موجود در ویرایشگر بارگذاری می‌شوند. تغییرات تا زمانی که Save Invoice با موفقیت انجام نشود ذخیره نمی‌شوند.",
           "notes": "در تغییر فاکتور صادرشده دقت کنید؛ سوابق روشن نگه دارید و روال حسابداری خود را رعایت کنید."
         },
         "ar": {
@@ -10500,7 +10500,7 @@
           "when": "عندما تحتاج إلى تصحيح أو تحديث تفاصيل فاتورة موجودة.",
           "how": "افتح Edit للفاتورة الصحيحة، وراجع العميل والوصف والمبالغ والحالة، ثم احفظ التغييرات المطلوبة.",
           "inputs": "حدد الفاتورة الصحيحة وراجع حقول العميل والوصف والمبالغ والحالة قبل تعديلها.",
-          "result": "تُحدّث الفاتورة المحددة إذا نجح التحقق وأكد التطبيق التغيير.",
+          "result": "تُحمّل تفاصيل الفاتورة الحالية في محرر الفاتورة. ولا تُحفظ التغييرات حتى ينجح Save Invoice.",
           "notes": "توخ الحذر عند تعديل فاتورة صادرة؛ احتفظ بمسار تدقيق واضح واتبع إجراءات المحاسبة المعتمدة."
         },
         "ckb": {
@@ -10508,7 +10508,7 @@
           "when": "کاتێک پێویستە وردەکارییەکانی فاکتۆرێکی هەبوو ڕاست بکەیتەوە یان نوێی بکەیتەوە.",
           "how": "Editی فاکتۆری دروست بکەرەوە، کڕیار، وەسف، بڕەکان و دۆخ بپشکنە، پاشان گۆڕانکارییە پێویستەکان پاشەکەوت بکە.",
           "inputs": "فاکتۆری دروست هەڵبژێرە و خانەکانی کڕیار، وەسف، بڕ و دۆخ پێش دەستکاریکردن بپشکنە.",
-          "result": "ئەگەر پشتڕاستکردنەوە سەرکەوتوو بێت و ئەپەکە گۆڕانکارییەکە پشتڕاست بکاتەوە، فاکتۆرەکە نوێ دەکرێتەوە.",
+          "result": "وردەکارییەکانی فاکتۆری هەبوو لە دەستکاریکەر بار دەکرێن. گۆڕانکارییەکان تا سەرکەوتنی Save Invoice پاشەکەوت ناکرێن.",
           "notes": "لە دەستکاریکردنی فاکتۆری دەرچوو ئاگاداربە؛ شوێنەواری پشکنین ڕوون بپارێزە و ڕێکاری ژمێریاریی خۆت پەیڕەو بکە."
         },
         "kmr": {
@@ -10516,7 +10516,7 @@
           "when": "Dema ku tu hewceyî rastkirin an nûkirina hûrguliyên fatûreyeke heyî yî.",
           "how": "Edit ji bo fatûreya rast veke, xerîdar, ravekirin, mîqdar û rewşê kontrol bike, paşê guherînên xwestî tomar bike.",
           "inputs": "Fatûreya rast hilbijêre û qadên xerîdar, ravekirin, mîqdar û rewşê berî guherandinê kontrol bike.",
-          "result": "Ger kontrol serkeftî be û sepan guherînê piştrast bike, fatûre tê nûkirin.",
+          "result": "Hûrguliyên fatûreya heyî di edîtora fatûreyê de tên barkirin. Guherîn heta ku Save Invoice bi serkeftî neyê kirin nayên tomarkirin.",
           "notes": "Dema ku fatûreyeke derketî diguherînî baldar be; şopa kontrolê zelal biparêze û rêbaza hesabê ya xwe bişopîne."
         },
         "tr": {
@@ -10524,7 +10524,7 @@
           "when": "Mevcut bir faturanın ayrıntılarını düzeltmeniz veya güncellemeniz gerektiğinde kullanın.",
           "how": "Doğru faturada Edit'i açın, müşteri, açıklama, tutarlar ve durumu inceleyin, ardından gerekli değişiklikleri kaydedin.",
           "inputs": "Doğru faturayı seçin ve düzenlemeden önce müşteri, açıklama, tutar ve durum alanlarını kontrol edin.",
-          "result": "Doğrulama başarılı olur ve uygulama değişikliği onaylarsa fatura güncellenir.",
+          "result": "Mevcut fatura ayrıntıları düzenleyiciye yüklenir. Save Invoice başarıyla tamamlanana kadar değişiklikler kaydedilmez.",
           "notes": "Düzenlenmiş bir faturayı değiştirirken dikkatli olun; açık bir denetim izi tutun ve muhasebe sürecinizi izleyin."
         },
         "pl": {
@@ -10532,7 +10532,7 @@
           "when": "Użyj, gdy trzeba poprawić lub zaktualizować szczegóły istniejącej faktury.",
           "how": "Otwórz Edit przy właściwej fakturze, sprawdź klienta, opis, kwoty i status, a następnie zapisz zamierzone zmiany.",
           "inputs": "Wybierz właściwą fakturę i przed edycją sprawdź pola klienta, opisu, kwot i statusu.",
-          "result": "Faktura zostanie zaktualizowana, jeśli walidacja się powiedzie i aplikacja potwierdzi zmianę.",
+          "result": "Szczegóły istniejącej faktury są wczytywane do edytora. Zmiany nie zostaną zapisane, dopóki Save Invoice nie zakończy się powodzeniem.",
           "notes": "Zachowaj ostrożność przy zmianie wystawionej faktury; utrzymuj czytelną ścieżkę audytu i stosuj własną procedurę księgową."
         },
         "ur": {
@@ -10540,7 +10540,7 @@
           "when": "جب موجودہ انوائس کی تفصیلات درست یا اپ ڈیٹ کرنی ہوں تو استعمال کریں۔",
           "how": "درست انوائس میں Edit کھولیں، گاہک، تفصیل، رقوم اور حیثیت دیکھیں، پھر مطلوبہ تبدیلیاں محفوظ کریں۔",
           "inputs": "درست انوائس منتخب کریں اور ترمیم سے پہلے گاہک، تفصیل، رقم اور حیثیت کے خانے چیک کریں۔",
-          "result": "توثیق کامیاب ہو اور ایپ تبدیلی کی تصدیق کرے تو انوائس اپ ڈیٹ ہو جاتی ہے۔",
+          "result": "موجودہ انوائس کی تفصیلات ایڈیٹر میں لوڈ ہو جاتی ہیں۔ جب تک Save Invoice کامیابی سے مکمل نہ ہو، تبدیلیاں محفوظ نہیں ہوتیں۔",
           "notes": "جاری شدہ انوائس میں تبدیلی کرتے وقت احتیاط کریں؛ واضح آڈٹ ٹریل برقرار رکھیں اور اپنے اکاؤنٹنگ طریقۂ کار پر عمل کریں۔"
         },
         "pa": {
@@ -10548,7 +10548,7 @@
           "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਇਨਵੌਇਸ ਦੇ ਵੇਰਵੇ ਠੀਕ ਜਾਂ ਅਪਡੇਟ ਕਰਨੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
           "how": "ਸਹੀ ਇਨਵੌਇਸ ਵਿੱਚ Edit ਖੋਲ੍ਹੋ, ਗਾਹਕ, ਵੇਰਵਾ, ਰਕਮਾਂ ਅਤੇ ਸਥਿਤੀ ਜਾਂਚੋ, ਫਿਰ ਲੋੜੀਂਦੀਆਂ ਤਬਦੀਲੀਆਂ ਸੇਵ ਕਰੋ।",
           "inputs": "ਸਹੀ ਇਨਵੌਇਸ ਚੁਣੋ ਅਤੇ ਸੋਧ ਤੋਂ ਪਹਿਲਾਂ ਗਾਹਕ, ਵੇਰਵਾ, ਰਕਮ ਅਤੇ ਸਥਿਤੀ ਦੇ ਖੇਤਰ ਜਾਂਚੋ।",
-          "result": "ਜਾਂਚ ਸਫਲ ਹੋਵੇ ਅਤੇ ਐਪ ਤਬਦੀਲੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਇਨਵੌਇਸ ਅਪਡੇਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "result": "ਮੌਜੂਦਾ ਇਨਵੌਇਸ ਦੇ ਵੇਰਵੇ ਐਡੀਟਰ ਵਿੱਚ ਲੋਡ ਹੁੰਦੇ ਹਨ। ਜਦ ਤੱਕ Save Invoice ਸਫਲ ਨਹੀਂ ਹੁੰਦਾ, ਤਬਦੀਲੀਆਂ ਸੇਵ ਨਹੀਂ ਹੁੰਦੀਆਂ।",
           "notes": "ਜਾਰੀ ਕੀਤੇ ਇਨਵੌਇਸ ਨੂੰ ਬਦਲਦੇ ਸਮੇਂ ਸਾਵਧਾਨ ਰਹੋ; ਸਪਸ਼ਟ ਆਡਿਟ ਟ੍ਰੇਲ ਰੱਖੋ ਅਤੇ ਆਪਣੇ ਅਕਾਊਂਟਿੰਗ ਤਰੀਕੇ ਦੀ ਪਾਲਣਾ ਕਰੋ।"
         },
         "prs": {
@@ -10556,7 +10556,7 @@
           "when": "وقتی لازم است جزئیات یک فاکتور موجود را اصلاح یا به‌روزرسانی کنید، استفاده کنید.",
           "how": "Edit فاکتور درست را باز کنید، مشتری، شرح، مبالغ و وضعیت را بررسی و سپس تغییرات موردنظر را ذخیره کنید.",
           "inputs": "فاکتور درست را انتخاب کنید و پیش از ویرایش، فیلدهای مشتری، شرح، مبلغ و وضعیت را بررسی کنید.",
-          "result": "اگر اعتبارسنجی موفق باشد و برنامه تغییر را تأیید کند، فاکتور به‌روزرسانی می‌شود.",
+          "result": "جزئیات فاکتور موجود در ویرایشگر بارگذاری می‌شوند. تغییرات تا زمانی که Save Invoice با موفقیت انجام نشود ذخیره نمی‌شوند.",
           "notes": "هنگام تغییر فاکتور صادرشده احتیاط کنید؛ ردپای حسابرسی روشنی نگه دارید و روال حسابداری خود را رعایت کنید."
         },
         "ps": {
@@ -10564,7 +10564,7 @@
           "when": "کله چې د موجود بل جزئیات سمول یا تازه کول غواړئ، دا وکاروئ.",
           "how": "د سم بل Edit پرانیزئ، پېرودونکی، تشریح، اندازې او حالت وګورئ، بیا غوښتل شوي بدلونونه خوندي کړئ.",
           "inputs": "سم بل وټاکئ او له سمون مخکې د پېرودونکي، تشریح، اندازې او حالت خانې وګورئ.",
-          "result": "که ارزونه بریالۍ شي او اپلیکیشن بدلون تایید کړي، بل تازه کېږي.",
+          "result": "د موجود بل جزئیات سمونګر ته پورته کېږي. بدلونونه تر هغه نه خوندي کېږي چې Save Invoice بریالی نه شي.",
           "notes": "د صادر شوي بل د بدلولو پر مهال احتیاط وکړئ؛ د پلټنې روښانه مخینه وساتئ او د حسابدارۍ خپل بهیر تعقیب کړئ."
         }
       },
@@ -10587,83 +10587,83 @@
         },
         "fa": {
           "purpose": "فاکتور انتخاب‌شده و هر ثبت درآمد مرتبط با آن را به Deleted Records منتقل می‌کند.",
-          "when": "فقط زمانی استفاده کنید که فاکتور تکراری است یا اشتباهی ایجاد شده و دیگر نباید در فهرست فعال باقی بماند.",
+          "when": "فقط زمانی استفاده کنید که فاکتور تکراری است یا اشتباهی ایجاد شده و دیگر نباید فعال بماند.",
           "how": "برای فاکتور موردنظر Delete را انتخاب کنید، هشدار مربوط به ثبت‌های درآمد مرتبط را بررسی کنید و فقط در صورت قصد واقعی حذف، تأیید کنید.",
           "inputs": "فاکتور درست را انتخاب کنید و شماره، مشتری، وضعیت پرداخت و هر ثبت درآمد مرتبطی را که برنامه شناسایی می‌کند بررسی کنید.",
           "result": "فاکتور به‌صورت نرم‌افزاری از فهرست فعال حذف می‌شود. هر ثبت درآمد مرتبط نیز به‌صورت نرم‌افزاری حذف می‌شود و شماره فاکتور همچنان رزرو می‌ماند.",
-          "notes": "حذف فاکتور عملیاتی حساس است. صادر یا پرداخت‌شدن آن و الزام نگهداری اسناد را بررسی کنید."
+          "notes": "حذف فاکتور عملیاتی حساس است. بررسی کنید صادر یا پرداخت شده است یا خیر و سوابق موردنیاز قانون یا حسابدار را نگه دارید."
         },
         "ar": {
-          "purpose": "يحذف سجل فاتورة محدداً.",
-          "when": "فقط عندما تكون الفاتورة مكررة أو أُنشئت بالخطأ ولا ينبغي أن تبقى في السجلات النشطة.",
-          "how": "اختر Delete بجانب الفاتورة المقصودة واقرأ رسالة التأكيد قبل المتابعة.",
-          "inputs": "حدد الفاتورة الصحيحة وتحقق من رقمها والعميل وحالة الدفع قبل التأكيد.",
-          "result": "تُزال الفاتورة أو تُعلّم كمحذوفة إذا قبل التطبيق العملية وأكدها.",
-          "notes": "حذف الفاتورة إجراء قد يكون مدمراً. تحقق مما إذا كانت قد صدرت أو دُفعت، واحتفظ بالسجلات المطلوبة قانونياً أو محاسبياً."
+          "purpose": "ينقل الفاتورة المحددة وأي قيد دخل مرتبط بها إلى Deleted Records.",
+          "when": "استخدمه فقط إذا كانت الفاتورة مكررة أو أُنشئت بالخطأ ولا ينبغي أن تبقى نشطة.",
+          "how": "اختر Delete للفاتورة المقصودة، وراجع التحذير بشأن قيود الدخل المرتبطة، ثم أكّد فقط إذا كنت تقصد الحذف.",
+          "inputs": "حدد الفاتورة الصحيحة وراجع رقمها والعميل وحالة الدفع وأي قيد دخل مرتبط يحدده التطبيق.",
+          "result": "تُحذف الفاتورة حذفًا منطقيًا من القائمة النشطة. ويُحذف أي قيد دخل مرتبط بها بالطريقة نفسها، ويظل رقم الفاتورة محجوزًا.",
+          "notes": "حذف الفاتورة إجراء قد يكون مدمّرًا. تحقق مما إذا كانت قد صدرت أو دُفعت واحتفظ بالسجلات المطلوبة قانونيًا أو محاسبيًا."
         },
         "ckb": {
-          "purpose": "تۆماری فاکتۆرێکی دیاریکراو دەسڕێتەوە.",
-          "when": "تەنها کاتێک فاکتۆرەکە دووبارەیە یان بە هەڵە دروست کراوە و نابێت لە تۆمارە چالاکەکاندا بمێنێتەوە.",
-          "how": "لە تەنیشت فاکتۆری مەبەست Delete هەڵبژێرە و پێش بەردەوامبوون نامەی پشتڕاستکردنەوە بخوێنەوە.",
-          "inputs": "فاکتۆری دروست هەڵبژێرە و پێش پشتڕاستکردنەوە ژمارە، کڕیار و دۆخی پارەدانی بپشکنە.",
-          "result": "ئەگەر ئەپەکە کردارەکە قبووڵ و پشتڕاست بکاتەوە، فاکتۆرەکە لادەبرێت یان وەک سڕاوە نیشان دەدرێت.",
-          "notes": "سڕینەوەی فاکتۆر دەتوانێت کردارێکی وێرانکەر بێت. بپشکنە ئایا دەرچووە یان پارەی بۆ دراوە، و تۆمارە پێویستە یاسایی یان ژمێریارییەکان بپارێزە."
+          "purpose": "فاکتۆری هەڵبژێردراو و هەر تۆمارێکی داهاتی پەیوەست بەوە دەگوازێتەوە بۆ Deleted Records.",
+          "when": "تەنها کاتێک بەکاریبهێنە کە فاکتۆرەکە دووبارەیە یان بە هەڵە دروست کراوە و نابێت چالاک بمێنێتەوە.",
+          "how": "بۆ فاکتۆری مەبەست Delete هەڵبژێرە، ئاگادارکردنەوەی تۆمارە داهاتییە پەیوەستەکان بپشکنە و تەنها ئەگەر مەبەستت سڕینەوەیە پشتڕاستی بکەرەوە.",
+          "inputs": "فاکتۆری دروست هەڵبژێرە و ژمارە، کڕیار، دۆخی پارەدان و هەر تۆمارێکی داهاتی پەیوەست کە ئەپەکە دەیناسێتەوە بپشکنە.",
+          "result": "فاکتۆرەکە بە شێوەی soft-delete لە لیستی چالاک دەردەکرێت. هەر تۆمارێکی داهاتی پەیوەستیش بە هەمان شێوە دەردەکرێت و ژمارەی فاکتۆر هەروا پارێزراو دەمێنێتەوە.",
+          "notes": "سڕینەوەی فاکتۆر کردارێکی هەستیارە. بپشکنە ئایا دەرچووە یان پارەی بۆ دراوە و تۆمارە پێویستەکانی یاسا یان ژمێریار بهێڵەوە."
         },
         "kmr": {
-          "purpose": "Tomara fatûreyeke taybet jê dike.",
-          "when": "Tenê dema ku fatûre dubare ye an bi xeletî hatiye çêkirin û divê di tomarên çalak de nemîne.",
-          "how": "Li kêleka fatûreya armancê Delete hilbijêre û berî domandinê peyama piştrastkirinê bixwîne.",
-          "inputs": "Fatûreya rast hilbijêre û berî piştrastkirinê jimare, xerîdar û rewşa dravdanê kontrol bike.",
-          "result": "Fatûre tê rakirin an wekî jêbirî tê nîşankirin heke sepan kiryarê qebûl û piştrast bike.",
-          "notes": "Jêbirina fatûreyê dikare wêranker be. Kontrol bike ka hatiye derxistin an hatiye dayîn, û tomarên qanûnî an hesabê yên pêwîst biparêze."
+          "purpose": "Fatûreya hilbijartî û her tomara dahata girêdayî wê vediguhezîne Deleted Records.",
+          "when": "Tenê dema ku fatûre dubare ye an bi xeletî hatiye çêkirin û divê çalak nemîne bikar bîne.",
+          "how": "Ji bo fatûreya armancê Delete hilbijêre, hişyariya tomarên dahata girêdayî kontrol bike û tenê heke tu dixwazî jê bibî piştrast bike.",
+          "inputs": "Fatûreya rast hilbijêre û hejmar, xerîdar, rewşa dravdanê û her tomara dahata girêdayî ya ku sepan nas dike kontrol bike.",
+          "result": "Fatûre bi awayê soft-delete ji lîsteya çalak tê derxistin. Her tomara dahata girêdayî jî bi heman awayî tê derxistin û hejmara fatûreyê rezerv dimîne.",
+          "notes": "Jêbirina fatûreyê kiryareke hestyar e. Kontrol bike ka hatiye derxistin an hatiye dayîn û tomarên ku qanûn an hesabdar dixwaze biparêze."
         },
         "tr": {
-          "purpose": "Belirli bir fatura kaydını siler.",
-          "when": "Yalnızca fatura yinelenmişse veya yanlışlıkla oluşturulmuşsa ve etkin kayıtlarda kalmaması gerekiyorsa kullanın.",
-          "how": "İlgili faturanın yanındaki Delete'i seçin ve devam etmeden önce onay mesajını okuyun.",
-          "inputs": "Doğru faturayı seçin ve onaylamadan önce numarasını, müşteriyi ve ödeme durumunu kontrol edin.",
-          "result": "Uygulama işlemi kabul edip onaylarsa fatura kaldırılır veya silinmiş olarak işaretlenir.",
-          "notes": "Fatura silme işlemi yıkıcı olabilir. Faturanın düzenlenip düzenlenmediğini veya ödenip ödenmediğini kontrol edin ve yasal ya da muhasebe kayıtlarını saklayın."
+          "purpose": "Seçilen faturayı ve bağlantılı gelir kaydı varsa onu Deleted Records bölümüne taşır.",
+          "when": "Yalnızca fatura yinelenmişse veya yanlışlıkla oluşturulmuşsa ve artık etkin kalmaması gerekiyorsa kullanın.",
+          "how": "İstenen faturada Delete seçeneğini belirleyin, bağlantılı gelir kayıtları uyarısını inceleyin ve yalnızca silmek istiyorsanız onaylayın.",
+          "inputs": "Doğru faturayı seçin; numarasını, müşteriyi, ödeme durumunu ve uygulamanın belirlediği bağlantılı gelir kayıtlarını inceleyin.",
+          "result": "Fatura etkin listeden soft-delete yapılır. Bağlantılı gelir kaydı da soft-delete yapılır ve fatura numarası ayrılmış olarak kalır.",
+          "notes": "Fatura silme işlemi hassastır. Faturanın düzenlenip düzenlenmediğini veya ödenip ödenmediğini kontrol edin ve yasal ya da muhasebecinizin istediği kayıtları saklayın."
         },
         "pl": {
-          "purpose": "Usuwa określony rekord faktury.",
-          "when": "Użyj tylko wtedy, gdy faktura jest duplikatem lub została utworzona omyłkowo i nie powinna pozostać w aktywnych rekordach.",
-          "how": "Wybierz Delete obok właściwej faktury i przed kontynuowaniem przeczytaj komunikat potwierdzający.",
-          "inputs": "Wybierz właściwą fakturę i przed potwierdzeniem sprawdź jej numer, klienta oraz status płatności.",
-          "result": "Faktura zostanie usunięta lub oznaczona jako usunięta, jeśli aplikacja zaakceptuje i potwierdzi operację.",
-          "notes": "Usunięcie faktury może być działaniem destrukcyjnym. Sprawdź, czy została wystawiona lub opłacona, i zachowaj dokumentację wymaganą prawnie lub księgowo."
+          "purpose": "Przenosi wybraną fakturę oraz każdy powiązany wpis przychodu do Deleted Records.",
+          "when": "Używaj tylko wtedy, gdy faktura jest duplikatem lub została utworzona przez pomyłkę i nie powinna już być aktywna.",
+          "how": "Wybierz Delete przy właściwej fakturze, sprawdź ostrzeżenie o powiązanych wpisach przychodu i potwierdź tylko wtedy, gdy zamierzasz ją usunąć.",
+          "inputs": "Wybierz właściwą fakturę i sprawdź jej numer, klienta, status płatności oraz powiązane wpisy przychodu wykryte przez aplikację.",
+          "result": "Faktura zostaje logicznie usunięta z aktywnej listy. Powiązany wpis przychodu również zostaje logicznie usunięty, a numer faktury pozostaje zarezerwowany.",
+          "notes": "Usunięcie faktury może mieć poważne skutki. Sprawdź, czy została wystawiona lub opłacona, i zachowaj dokumentację wymaganą prawem lub przez księgowego."
         },
         "ur": {
-          "purpose": "مخصوص انوائس ریکارڈ حذف کرتا ہے۔",
-          "when": "صرف اس وقت استعمال کریں جب انوائس نقل ہو یا غلطی سے بنائی گئی ہو اور فعال ریکارڈز میں نہیں رہنی چاہیے۔",
-          "how": "متعلقہ انوائس کے ساتھ Delete منتخب کریں اور آگے بڑھنے سے پہلے تصدیقی پیغام پڑھیں۔",
-          "inputs": "درست انوائس منتخب کریں اور تصدیق سے پہلے اس کا نمبر، گاہک اور ادائیگی کی حیثیت چیک کریں۔",
-          "result": "ایپ کارروائی قبول اور تصدیق کرے تو انوائس ہٹا دی جاتی ہے یا حذف شدہ نشان زد ہوتی ہے۔",
-          "notes": "انوائس حذف کرنا نقصان دہ کارروائی ہو سکتی ہے۔ دیکھیں کہ انوائس جاری یا ادا ہوئی ہے یا نہیں، اور قانونی یا اکاؤنٹنگ کے لیے مطلوبہ ریکارڈ محفوظ رکھیں۔"
+          "purpose": "منتخب انوائس اور اس سے منسلک آمدنی کا کوئی اندراج Deleted Records میں منتقل کرتا ہے۔",
+          "when": "صرف اسی وقت استعمال کریں جب انوائس ڈپلیکیٹ ہو یا غلطی سے بنی ہو اور اسے فعال نہیں رہنا چاہیے۔",
+          "how": "مطلوبہ انوائس پر Delete منتخب کریں، منسلک آمدنی کے اندراجات کی وارننگ دیکھیں اور صرف اسی صورت تصدیق کریں جب واقعی حذف کرنا مقصود ہو۔",
+          "inputs": "درست انوائس منتخب کریں اور اس کا نمبر، گاہک، ادائیگی کی حیثیت اور ایپ کی شناخت کردہ منسلک آمدنی کے اندراجات دیکھیں۔",
+          "result": "انوائس فعال فہرست سے soft-delete ہو جاتی ہے۔ منسلک آمدنی کا اندراج بھی soft-delete ہوتا ہے اور انوائس نمبر محفوظ رہتا ہے۔",
+          "notes": "انوائس حذف کرنا حساس کارروائی ہے۔ دیکھیں کہ انوائس جاری یا ادا ہوئی ہے یا نہیں، اور قانون یا اکاؤنٹنٹ کے مطلوبہ ریکارڈ محفوظ رکھیں۔"
         },
         "pa": {
-          "purpose": "ਇੱਕ ਖਾਸ ਇਨਵੌਇਸ ਰਿਕਾਰਡ ਮਿਟਾਉਂਦਾ ਹੈ।",
-          "when": "ਸਿਰਫ਼ ਜਦੋਂ ਇਨਵੌਇਸ ਡੁਪਲੀਕੇਟ ਜਾਂ ਗਲਤੀ ਨਾਲ ਬਣਿਆ ਹੋਵੇ ਅਤੇ ਸਰਗਰਮ ਰਿਕਾਰਡਾਂ ਵਿੱਚ ਨਹੀਂ ਰਹਿਣਾ ਚਾਹੀਦਾ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਸੰਬੰਧਿਤ ਇਨਵੌਇਸ ਦੇ ਨਾਲ Delete ਚੁਣੋ ਅਤੇ ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਪੜ੍ਹੋ।",
-          "inputs": "ਸਹੀ ਇਨਵੌਇਸ ਚੁਣੋ ਅਤੇ ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਇਸਦਾ ਨੰਬਰ, ਗਾਹਕ ਅਤੇ ਭੁਗਤਾਨ ਸਥਿਤੀ ਜਾਂਚੋ।",
-          "result": "ਐਪ ਕਾਰਵਾਈ ਸਵੀਕਾਰ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਇਨਵੌਇਸ ਹਟਾਇਆ ਜਾਂ ਮਿਟਾਇਆ ਹੋਇਆ ਨਿਸ਼ਾਨ ਲਗਾਇਆ ਜਾਂਦਾ ਹੈ।",
-          "notes": "ਇਨਵੌਇਸ ਮਿਟਾਉਣਾ ਨੁਕਸਾਨਦਾਇਕ ਹੋ ਸਕਦਾ ਹੈ। ਜਾਂਚੋ ਕਿ ਇਨਵੌਇਸ ਜਾਰੀ ਜਾਂ ਭੁਗਤਾਨ ਹੋਇਆ ਹੈ ਜਾਂ ਨਹੀਂ ਅਤੇ ਕਾਨੂੰਨੀ ਜਾਂ ਅਕਾਊਂਟਿੰਗ ਲਈ ਲੋੜੀਂਦੇ ਰਿਕਾਰਡ ਸੰਭਾਲੋ।"
+          "purpose": "ਚੁਣੇ ਇਨਵੌਇਸ ਅਤੇ ਇਸ ਨਾਲ ਜੁੜੀ ਆਮਦਨ ਐਂਟਰੀ ਨੂੰ Deleted Records ਵਿੱਚ ਭੇਜਦਾ ਹੈ।",
+          "when": "ਸਿਰਫ਼ ਉਦੋਂ ਵਰਤੋ ਜਦੋਂ ਇਨਵੌਇਸ ਡੁਪਲੀਕੇਟ ਹੋਵੇ ਜਾਂ ਗਲਤੀ ਨਾਲ ਬਣਿਆ ਹੋਵੇ ਅਤੇ ਸਰਗਰਮ ਨਹੀਂ ਰਹਿਣਾ ਚਾਹੀਦਾ।",
+          "how": "ਲੋੜੀਂਦੇ ਇਨਵੌਇਸ ਉੱਤੇ Delete ਚੁਣੋ, ਜੁੜੀਆਂ ਆਮਦਨ ਐਂਟਰੀਆਂ ਬਾਰੇ ਚੇਤਾਵਨੀ ਵੇਖੋ ਅਤੇ ਸਿਰਫ਼ ਮਿਟਾਉਣ ਦਾ ਇਰਾਦਾ ਹੋਣ 'ਤੇ ਪੁਸ਼ਟੀ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਇਨਵੌਇਸ ਚੁਣੋ ਅਤੇ ਇਸ ਦਾ ਨੰਬਰ, ਗਾਹਕ, ਭੁਗਤਾਨ ਸਥਿਤੀ ਅਤੇ ਐਪ ਵੱਲੋਂ ਪਛਾਣੀਆਂ ਜੁੜੀਆਂ ਆਮਦਨ ਐਂਟਰੀਆਂ ਜਾਂਚੋ।",
+          "result": "ਇਨਵੌਇਸ ਸਰਗਰਮ ਸੂਚੀ ਤੋਂ soft-delete ਹੋ ਜਾਂਦਾ ਹੈ। ਜੁੜੀ ਆਮਦਨ ਐਂਟਰੀ ਵੀ soft-delete ਹੁੰਦੀ ਹੈ ਅਤੇ ਇਨਵੌਇਸ ਨੰਬਰ ਰਾਖਵਾਂ ਰਹਿੰਦਾ ਹੈ।",
+          "notes": "ਇਨਵੌਇਸ ਮਿਟਾਉਣਾ ਸੰਵੇਦਨਸ਼ੀਲ ਕਾਰਵਾਈ ਹੈ। ਜਾਂਚੋ ਕਿ ਇਨਵੌਇਸ ਜਾਰੀ ਜਾਂ ਭੁਗਤਾਨ ਹੋਇਆ ਹੈ ਜਾਂ ਨਹੀਂ ਅਤੇ ਕਾਨੂੰਨ ਜਾਂ ਅਕਾਊਂਟੈਂਟ ਵੱਲੋਂ ਲੋੜੀਂਦੇ ਰਿਕਾਰਡ ਸੰਭਾਲੋ।"
         },
         "prs": {
-          "purpose": "یک سابقه مشخص فاکتور را حذف می‌کند.",
-          "when": "فقط وقتی فاکتور تکراری است یا اشتباهی ایجاد شده و نباید در سوابق فعال باقی بماند، استفاده کنید.",
-          "how": "در کنار فاکتور موردنظر Delete را انتخاب کنید و پیش از ادامه پیام تأیید را بخوانید.",
-          "inputs": "فاکتور درست را انتخاب کنید و پیش از تأیید، شماره، مشتری و وضعیت پرداخت آن را بررسی کنید.",
-          "result": "در صورت پذیرش و تأیید برنامه، فاکتور حذف یا به‌عنوان حذف‌شده علامت‌گذاری می‌شود.",
-          "notes": "حذف فاکتور ممکن است مخرب باشد. بررسی کنید صادر یا پرداخت شده است یا خیر و اسناد موردنیاز قانونی یا حسابداری را نگه دارید."
+          "purpose": "فاکتور انتخاب‌شده و هر ثبت درآمد مرتبط با آن را به Deleted Records منتقل می‌کند.",
+          "when": "فقط زمانی استفاده کنید که فاکتور تکراری است یا اشتباهی ایجاد شده و دیگر نباید فعال بماند.",
+          "how": "برای فاکتور موردنظر Delete را انتخاب کنید، هشدار مربوط به ثبت‌های درآمد مرتبط را بررسی کنید و فقط در صورت قصد واقعی حذف، تأیید کنید.",
+          "inputs": "فاکتور درست را انتخاب کنید و شماره، مشتری، وضعیت پرداخت و هر ثبت درآمد مرتبطی را که برنامه شناسایی می‌کند بررسی کنید.",
+          "result": "فاکتور به‌صورت نرم‌افزاری از فهرست فعال حذف می‌شود. هر ثبت درآمد مرتبط نیز به‌صورت نرم‌افزاری حذف می‌شود و شماره فاکتور همچنان رزرو می‌ماند.",
+          "notes": "حذف فاکتور عملیاتی حساس است. بررسی کنید صادر یا پرداخت شده است یا خیر و سوابق موردنیاز قانون یا حسابدار را نگه دارید."
         },
         "ps": {
-          "purpose": "د یوه ځانګړي بل ریکارډ ړنګوي.",
-          "when": "یوازې هغه وخت یې وکاروئ چې بل تکراري وي یا په تېروتنه جوړ شوی وي او په فعالو ریکارډونو کې باید پاتې نه شي.",
-          "how": "د اړوند بل تر څنګ Delete وټاکئ او له دوام مخکې د تایید پیغام ولولئ.",
-          "inputs": "سم بل وټاکئ او له تایید مخکې یې شمېره، پېرودونکی او د تادیې حالت وګورئ.",
-          "result": "که اپلیکیشن کړنه ومني او تایید یې کړي، بل لرې کېږي یا د ړنګ شوي په توګه نښه کېږي.",
-          "notes": "د بل ړنګول زیانمنوونکی کېدای شي. وګورئ چې بل صادر یا تادیه شوی دی که نه او قانوني یا حسابداري اړین ریکارډونه وساتئ."
+          "purpose": "ټاکل شوی بل او هر تړلی د عاید ثبت Deleted Records ته لېږدوي.",
+          "when": "یوازې هغه وخت یې وکاروئ چې بل تکراري وي یا په تېروتنه جوړ شوی وي او نور باید فعال پاتې نه شي.",
+          "how": "د اړوند بل لپاره Delete وټاکئ، د تړلو عاید ثبتونو خبرتیا وګورئ او یوازې هغه وخت تایید کړئ چې د ړنګولو نیت لرئ.",
+          "inputs": "سم بل وټاکئ او شمېره، پېرودونکی، د تادیې حالت او هغه تړلي عاید ثبتونه وګورئ چې اپلیکیشن یې پېژني.",
+          "result": "بل له فعال لېست څخه په soft-delete ډول لرې کېږي. تړلی د عاید ثبت هم په همدې ډول حذف کېږي او د بل شمېره ساتل کېږي.",
+          "notes": "د بل ړنګول حساسه کړنه ده. وګورئ چې بل صادر شوی یا ورکړل شوی دی او هغه ریکارډونه وساتئ چې قانون یا محاسب یې غواړي."
         }
       },
       "handler_or_behavior": "`deleteInvoice(`"
@@ -10688,7 +10688,7 @@
           "when": "وقتی می‌خواهید اطلاعات تماس یا جزئیات حرفه‌ای ذخیره‌شده یک پیمانکار یا پیمانکار جزء را اصلاح کنید، از این گزینه استفاده کنید.",
           "how": "در کنار پیمانکار درست Edit را انتخاب کنید، نام، تلفن، ایمیل یا یادداشت‌های مربوط به حرفه او را به‌روزرسانی کنید و سپس Save Contractor را انتخاب کنید.",
           "inputs": "رکورد پیمانکار درست را انتخاب کنید و نام الزامی یا فیلدهای اختیاری تلفن، ایمیل و حرفه/یادداشت‌ها را در صورت نیاز تغییر دهید.",
-          "result": "مقادیر ذخیره‌شده پیمانکار در فرم بارگذاری می‌شوند. تغییرات تا زمانی که Save Contractor با موفقیت انجام نشود، ذخیره نخواهند شد.",
+          "result": "مقادیر ذخیره‌شده پیمانکار در فرم بارگذاری می‌شوند. تغییرات تا زمانی که Save Contractor با موفقیت انجام نشود ذخیره نمی‌شوند.",
           "notes": "پیش از ذخیره، هویت پیمانکار را بررسی کنید تا اطلاعات فرد دیگری تغییر نکند."
         },
         "ar": {
@@ -10696,7 +10696,7 @@
           "when": "عندما تحتاج إلى تحديث بيانات المقاول أو معلومات الاتصال الخاصة به.",
           "how": "اختر Edit بجانب المقاول الصحيح، وعدّل البيانات المطلوبة، ثم احفظ النموذج.",
           "inputs": "حدد سجل المقاول الصحيح وعدّل بياناته أو معلومات الاتصال المطلوبة.",
-          "result": "يُحدّث سجل المقاول إذا نجح التحقق والحفظ.",
+          "result": "تُحمّل القيم المحفوظة للمقاول في النموذج. ولا تُحفظ التغييرات حتى ينجح Save Contractor.",
           "notes": "تحقق من هوية المقاول قبل الحفظ لتجنب تعديل سجل شخص آخر."
         },
         "ckb": {
@@ -10704,7 +10704,7 @@
           "when": "کاتێک پێویستە زانیاری پیمانکار یان زانیاری پەیوەندییەکانی نوێ بکەیتەوە.",
           "how": "لە تەنیشت پیمانکاری دروست Edit هەڵبژێرە، زانیارییە پێویستەکان بگۆڕە و فۆڕمەکە پاشەکەوت بکە.",
           "inputs": "تۆماری پیمانکاری دروست هەڵبژێرە و زانیاری یان پەیوەندییە پێویستەکان بگۆڕە.",
-          "result": "ئەگەر پشتڕاستکردنەوە و پاشەکەوتکردن سەرکەوتوو بن، تۆماری پیمانکار نوێ دەکرێتەوە.",
+          "result": "بەها پاشەکەوتکراوەکانی پیمانکار لە فۆڕمەکە بار دەکرێن. گۆڕانکارییەکان تا سەرکەوتنی Save Contractor پاشەکەوت ناکرێن.",
           "notes": "پێش پاشەکەوتکردن ناسنامەی پیمانکار بپشکنە بۆ ئەوەی تۆماری کەسێکی تر نەگۆڕیت."
         },
         "kmr": {
@@ -10712,7 +10712,7 @@
           "when": "Dema ku tu hewceyî nûkirina agahiyên peymankar an têkiliyê yî.",
           "how": "Li kêleka peymankarê rast Edit hilbijêre, agahiyên pêwîst biguherîne û formê tomar bike.",
           "inputs": "Tomara peymankarê rast hilbijêre û agahiyên an têkiliyên pêwîst biguherîne.",
-          "result": "Ger kontrol û tomarkirin serkeftî bin, tomara peymankar tê nûkirin.",
+          "result": "Nirxên tomarkirî yên peymankar di formê de tên barkirin. Guherîn heta serkeftina Save Contractor nayên tomarkirin.",
           "notes": "Berî tomarkirinê nasnameya peymankar kontrol bike da ku tomara kesekî din neguherînî."
         },
         "tr": {
@@ -10720,7 +10720,7 @@
           "when": "Yüklenicinin bilgilerini veya iletişim ayrıntılarını güncellemeniz gerektiğinde kullanın.",
           "how": "Doğru yüklenicinin yanındaki Edit'i seçin, gerekli bilgileri güncelleyin ve formu kaydedin.",
           "inputs": "Doğru yüklenici kaydını seçin ve gerekli bilgileri veya iletişim ayrıntılarını değiştirin.",
-          "result": "Doğrulama ve kayıt başarılı olursa yüklenici kaydı güncellenir.",
+          "result": "Yüklenicinin kayıtlı bilgileri forma yüklenir. Save Contractor başarıyla tamamlanana kadar değişiklikler kaydedilmez.",
           "notes": "Başka bir kişinin kaydını değiştirmemek için kaydetmeden önce yüklenicinin kimliğini doğrulayın."
         },
         "pl": {
@@ -10728,7 +10728,7 @@
           "when": "Użyj, gdy trzeba zaktualizować dane wykonawcy lub informacje kontaktowe.",
           "how": "Wybierz Edit obok właściwego wykonawcy, zaktualizuj wymagane dane i zapisz formularz.",
           "inputs": "Wybierz właściwy rekord wykonawcy i zmień wymagane dane lub informacje kontaktowe.",
-          "result": "Rekord wykonawcy zostanie zaktualizowany, jeśli walidacja i zapis się powiedzie.",
+          "result": "Zapisane dane wykonawcy są wczytywane do formularza. Zmiany nie zostaną zapisane, dopóki Save Contractor nie zakończy się powodzeniem.",
           "notes": "Przed zapisaniem potwierdź tożsamość wykonawcy, aby nie zmienić danych innej osoby."
         },
         "ur": {
@@ -10736,7 +10736,7 @@
           "when": "جب ٹھیکیدار کی معلومات یا رابطے کی تفصیلات اپ ڈیٹ کرنی ہوں تو استعمال کریں۔",
           "how": "درست ٹھیکیدار کے ساتھ Edit منتخب کریں، مطلوبہ معلومات اپ ڈیٹ کریں اور فارم محفوظ کریں۔",
           "inputs": "درست ٹھیکیدار کا ریکارڈ منتخب کریں اور مطلوبہ معلومات یا رابطے کی تفصیلات تبدیل کریں۔",
-          "result": "توثیق اور محفوظ کرنے کا عمل کامیاب ہو تو ٹھیکیدار کا ریکارڈ اپ ڈیٹ ہو جاتا ہے۔",
+          "result": "ٹھیکیدار کی محفوظ معلومات فارم میں لوڈ ہوتی ہیں۔ Save Contractor کامیاب ہونے تک تبدیلیاں محفوظ نہیں ہوتیں۔",
           "notes": "کسی دوسرے شخص کا ریکارڈ تبدیل ہونے سے بچانے کے لیے محفوظ کرنے سے پہلے ٹھیکیدار کی شناخت چیک کریں۔"
         },
         "pa": {
@@ -10744,7 +10744,7 @@
           "when": "ਜਦੋਂ ਠੇਕੇਦਾਰ ਦੀ ਜਾਣਕਾਰੀ ਜਾਂ ਸੰਪਰਕ ਵੇਰਵੇ ਅਪਡੇਟ ਕਰਨੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
           "how": "ਸਹੀ ਠੇਕੇਦਾਰ ਦੇ ਨਾਲ Edit ਚੁਣੋ, ਲੋੜੀਂਦੀ ਜਾਣਕਾਰੀ ਅਪਡੇਟ ਕਰੋ ਅਤੇ ਫਾਰਮ ਸੇਵ ਕਰੋ।",
           "inputs": "ਸਹੀ ਠੇਕੇਦਾਰ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਲੋੜੀਂਦੀ ਜਾਣਕਾਰੀ ਜਾਂ ਸੰਪਰਕ ਵੇਰਵੇ ਬਦਲੋ।",
-          "result": "ਜਾਂਚ ਅਤੇ ਸੇਵ ਕਰਨਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਠੇਕੇਦਾਰ ਰਿਕਾਰਡ ਅਪਡੇਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "result": "ਠੇਕੇਦਾਰ ਦੀ ਸੇਵ ਕੀਤੀ ਜਾਣਕਾਰੀ ਫਾਰਮ ਵਿੱਚ ਲੋਡ ਹੁੰਦੀ ਹੈ। Save Contractor ਸਫਲ ਹੋਣ ਤੱਕ ਤਬਦੀਲੀਆਂ ਸੇਵ ਨਹੀਂ ਹੁੰਦੀਆਂ।",
           "notes": "ਕਿਸੇ ਹੋਰ ਵਿਅਕਤੀ ਦਾ ਰਿਕਾਰਡ ਬਦਲਣ ਤੋਂ ਬਚਣ ਲਈ ਸੇਵ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਠੇਕੇਦਾਰ ਦੀ ਪਛਾਣ ਜਾਂਚੋ।"
         },
         "prs": {
@@ -10752,7 +10752,7 @@
           "when": "وقتی لازم است اطلاعات یا جزئیات تماس پیمانکار را به‌روزرسانی کنید، استفاده کنید.",
           "how": "در کنار پیمانکار درست Edit را انتخاب کنید، اطلاعات لازم را تغییر دهید و فرم را ذخیره کنید.",
           "inputs": "سابقه درست پیمانکار را انتخاب کنید و اطلاعات یا جزئیات تماس موردنیاز را تغییر دهید.",
-          "result": "اگر اعتبارسنجی و ذخیره موفق باشد، سابقه پیمانکار به‌روزرسانی می‌شود.",
+          "result": "مقادیر ذخیره‌شده پیمانکار در فرم بارگذاری می‌شوند. تغییرات تا زمانی که Save Contractor با موفقیت انجام نشود ذخیره نمی‌شوند.",
           "notes": "پیش از ذخیره هویت پیمانکار را بررسی کنید تا سابقه فرد دیگری تغییر نکند."
         },
         "ps": {
@@ -10760,7 +10760,7 @@
           "when": "کله چې د قراردادي معلومات یا د اړیکې جزئیات تازه کول غواړئ، دا وکاروئ.",
           "how": "د سم قراردادي تر څنګ Edit وټاکئ، اړین معلومات تازه کړئ او فورمه خوندي کړئ.",
           "inputs": "د قراردادي سم ریکارډ وټاکئ او اړین معلومات یا د اړیکې جزئیات بدل کړئ.",
-          "result": "که ارزونه او خوندي کول بریالي شي، د قراردادي ریکارډ تازه کېږي.",
+          "result": "د قراردادي خوندي معلومات فورمې ته پورته کېږي. بدلونونه تر بریالي Save Contractor پورې نه خوندي کېږي.",
           "notes": "له خوندي کولو مخکې د قراردادي هویت وګورئ څو د بل کس ریکارډ بدل نه شي."
         }
       },
@@ -10787,79 +10787,79 @@
           "how": "در کنار پیمانکار موردنظر Delete را انتخاب و پیام تأیید را بررسی کنید. پس از انجام عملیات، فهرست پیمانکاران را بررسی کنید.",
           "inputs": "رکورد پیمانکار درست را انتخاب کنید و پیام تأیید را بپذیرید.",
           "result": "در صورت موفقیت ذخیره، پیمانکار از فهرست مشترک حذف می‌شود. سوابق هزینه پروژه‌های موجود حفظ می‌شوند.",
-          "notes": "پیش از حذف بررسی کنید که آیا پیمانکار در کارها یا سوابق تاریخی ارجاع شده است یا خیر. حذف از فهرست پیمانکاران، سوابق هزینه موجود را پاک نمی‌کند."
+          "notes": "پیش از حذف بررسی کنید که پیمانکار در کارها یا سوابق تاریخی ارجاع شده است یا خیر. حذف از فهرست پیمانکاران، سوابق هزینه موجود را پاک نمی‌کند."
         },
         "ar": {
           "purpose": "يحذف سجل مقاول محدداً.",
           "when": "فقط عندما يكون سجل المقاول مكرراً أو غير صحيح ويجب إزالته.",
           "how": "اختر Delete بجانب المقاول المقصود وراجع رسالة التأكيد قبل المتابعة.",
           "inputs": "حدد سجل المقاول الصحيح وتحقق من هويته قبل تأكيد الحذف.",
-          "result": "يُزال السجل أو يُعطّل فقط إذا قبل التطبيق العملية وأكدها.",
-          "notes": "تحقق قبل الحذف مما إذا كان المقاول مرتبطاً بوظائف أو دفعات أو سجلات تاريخية."
+          "result": "يُزال المقاول من الدليل المشترك إذا نجح الحفظ. وتظل سجلات مصروفات المشاريع الحالية محفوظة.",
+          "notes": "تحقق قبل الحذف مما إذا كان المقاول مرتبطًا بوظائف أو سجلات تاريخية. إزالة المدخل من الدليل لا تمحو سجلات المصروفات الحالية."
         },
         "ckb": {
           "purpose": "تۆماری پیمانکارێکی دیاریکراو دەسڕێتەوە.",
           "when": "تەنها کاتێک تۆماری پیمانکار دووبارە یان هەڵەیە و دەبێت لاببرێت.",
           "how": "لە تەنیشت پیمانکاری مەبەست Delete هەڵبژێرە و پێش بەردەوامبوون نامەی پشتڕاستکردنەوە بپشکنە.",
           "inputs": "تۆماری پیمانکاری دروست هەڵبژێرە و پێش پشتڕاستکردنەوەی سڕینەوە ناسنامەکەی بپشکنە.",
-          "result": "تۆمارەکە تەنها ئەگەر ئەپەکە کردارەکە قبووڵ و پشتڕاست بکاتەوە لادەبرێت یان ناچالاک دەکرێت.",
-          "notes": "پێش سڕینەوە بپشکنە ئایا پیمانکارەکە لەگەڵ کار، پارەدان یان تۆمارە مێژووییەکان پەیوەستە."
+          "result": "ئەگەر پاشەکەوتکردن سەرکەوتوو بێت، پیمانکار لە پێڕستی هاوبەش لادەبرێت. تۆمارەکانی خەرجی پرۆژەکانی پێشوو دەمێننەوە.",
+          "notes": "پێش سڕینەوە بپشکنە ئایا پیمانکار لە کارەکان یان تۆمارە مێژووییەکاندا ئاماژەی پێکراوە. لابردنی لە پێڕست تۆمارەکانی خەرجی هەبوو ناسڕێتەوە."
         },
         "kmr": {
           "purpose": "Tomara peymankarekî taybet jê dike.",
           "when": "Tenê dema ku tomara peymankar dubare an xelet e û divê were rakirin.",
           "how": "Li kêleka peymankara armancê Delete hilbijêre û berî domandinê peyama piştrastkirinê kontrol bike.",
           "inputs": "Tomara peymankarê rast hilbijêre û berî piştrastkirina jêbirinê nasnameya wê kontrol bike.",
-          "result": "Tomar tenê heke sepan kiryarê qebûl û piştrast bike tê rakirin an neçalak kirin.",
-          "notes": "Berî jêbirinê kontrol bike ka peymankar bi kar, dravdan an tomarên dîrokî ve girêdayî ye."
+          "result": "Heke tomarkirin serkeftî be, peymankar ji pirtûkxaneya hevpar tê rakirin. Tomarên lêçûnên projeyên heyî dimînin.",
+          "notes": "Berî jêbirinê kontrol bike ka peymankar di kar an tomarên dîrokî de tê bikaranîn. Rakirina navê ji pirtûkxanê tomarên lêçûnên heyî jê nake."
         },
         "tr": {
           "purpose": "Belirli bir yüklenici kaydını siler.",
           "when": "Yalnızca yüklenici kaydı yinelenmişse veya yanlışsa ve kaldırılması gerekiyorsa kullanın.",
           "how": "İlgili yüklenicinin yanındaki Delete'i seçin ve devam etmeden önce onay mesajını inceleyin.",
           "inputs": "Doğru yüklenici kaydını seçin ve silmeyi onaylamadan önce kimliğini doğrulayın.",
-          "result": "Uygulama işlemi kabul edip onaylarsa kayıt kaldırılır veya devre dışı bırakılır.",
-          "notes": "Silmeden önce yüklenicinin işlere, ödemelere veya geçmiş kayıtlara bağlı olup olmadığını kontrol edin."
+          "result": "Kayıt başarılı olursa yüklenici ortak dizinden kaldırılır. Mevcut proje gider kayıtları korunur.",
+          "notes": "Silmeden önce yüklenicinin işlerde veya geçmiş kayıtlarda kullanılıp kullanılmadığını kontrol edin. Dizinden kaldırmak mevcut gider kayıtlarını silmez."
         },
         "pl": {
           "purpose": "Usuwa określony rekord wykonawcy.",
           "when": "Użyj tylko wtedy, gdy rekord wykonawcy jest duplikatem lub jest nieprawidłowy i należy go usunąć.",
           "how": "Wybierz Delete obok właściwego wykonawcy i przed kontynuowaniem sprawdź komunikat potwierdzający.",
           "inputs": "Wybierz właściwy rekord wykonawcy i przed potwierdzeniem usunięcia sprawdź jego tożsamość.",
-          "result": "Rekord zostanie usunięty lub dezaktywowany tylko wtedy, gdy aplikacja zaakceptuje i potwierdzi operację.",
-          "notes": "Przed usunięciem sprawdź, czy wykonawca jest powiązany ze zleceniami, płatnościami lub zapisami historycznymi."
+          "result": "Po pomyślnym zapisie wykonawca zostaje usunięty ze wspólnego katalogu. Istniejące zapisy kosztów projektów pozostają zachowane.",
+          "notes": "Przed usunięciem sprawdź, czy wykonawca jest powiązany ze zleceniami lub historią. Usunięcie z katalogu nie kasuje istniejących zapisów wydatków."
         },
         "ur": {
           "purpose": "مخصوص ٹھیکیدار کا ریکارڈ حذف کرتا ہے۔",
           "when": "صرف اس وقت استعمال کریں جب ٹھیکیدار کا ریکارڈ نقل یا غلط ہو اور اسے ہٹانا ضروری ہو۔",
           "how": "متعلقہ ٹھیکیدار کے ساتھ Delete منتخب کریں اور آگے بڑھنے سے پہلے تصدیقی پیغام دیکھیں۔",
           "inputs": "درست ٹھیکیدار کا ریکارڈ منتخب کریں اور حذف کی تصدیق سے پہلے اس کی شناخت چیک کریں۔",
-          "result": "ایپ کارروائی قبول اور تصدیق کرے تو ریکارڈ ہٹا یا غیر فعال ہو جاتا ہے۔",
-          "notes": "حذف کرنے سے پہلے دیکھیں کہ ٹھیکیدار کسی کام، ادائیگی یا تاریخی ریکارڈ سے منسلک تو نہیں۔"
+          "result": "محفوظ کرنے میں کامیابی پر ٹھیکیدار مشترکہ ڈائریکٹری سے ہٹا دیا جاتا ہے۔ موجودہ منصوبوں کے اخراجات کے ریکارڈ برقرار رہتے ہیں۔",
+          "notes": "حذف سے پہلے دیکھیں کہ ٹھیکیدار کاموں یا تاریخی ریکارڈز میں استعمال ہوا ہے یا نہیں۔ ڈائریکٹری سے ہٹانے سے موجودہ اخراجات کے ریکارڈ حذف نہیں ہوتے۔"
         },
         "pa": {
           "purpose": "ਇੱਕ ਖਾਸ ਠੇਕੇਦਾਰ ਰਿਕਾਰਡ ਮਿਟਾਉਂਦਾ ਹੈ।",
           "when": "ਸਿਰਫ਼ ਜਦੋਂ ਠੇਕੇਦਾਰ ਰਿਕਾਰਡ ਡੁਪਲੀਕੇਟ ਜਾਂ ਗਲਤ ਹੋਵੇ ਅਤੇ ਹਟਾਉਣਾ ਲੋੜੀਂਦਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
           "how": "ਸੰਬੰਧਿਤ ਠੇਕੇਦਾਰ ਦੇ ਨਾਲ Delete ਚੁਣੋ ਅਤੇ ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਵੇਖੋ।",
           "inputs": "ਸਹੀ ਠੇਕੇਦਾਰ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਮਿਟਾਉਣ ਦੀ ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਉਸਦੀ ਪਛਾਣ ਜਾਂਚੋ।",
-          "result": "ਐਪ ਕਾਰਵਾਈ ਸਵੀਕਾਰ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਰਿਕਾਰਡ ਹਟਾਇਆ ਜਾਂ ਅਕਿਰਿਆਸ਼ੀਲ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।",
-          "notes": "ਮਿਟਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਜਾਂਚੋ ਕਿ ਠੇਕੇਦਾਰ ਕੰਮਾਂ, ਭੁਗਤਾਨਾਂ ਜਾਂ ਪੁਰਾਣੇ ਰਿਕਾਰਡਾਂ ਨਾਲ ਜੁੜਿਆ ਹੈ ਜਾਂ ਨਹੀਂ।"
+          "result": "ਸੇਵ ਸਫਲ ਹੋਣ 'ਤੇ ਠੇਕੇਦਾਰ ਨੂੰ ਸਾਂਝੀ ਡਾਇਰੈਕਟਰੀ ਤੋਂ ਹਟਾ ਦਿੱਤਾ ਜਾਂਦਾ ਹੈ। ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਖਰਚੇ ਦੇ ਰਿਕਾਰਡ ਬਰਕਰਾਰ ਰਹਿੰਦੇ ਹਨ।",
+          "notes": "ਮਿਟਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਜਾਂਚੋ ਕਿ ਠੇਕੇਦਾਰ ਕੰਮਾਂ ਜਾਂ ਪੁਰਾਣੇ ਰਿਕਾਰਡਾਂ ਵਿੱਚ ਵਰਤਿਆ ਗਿਆ ਹੈ ਜਾਂ ਨਹੀਂ। ਡਾਇਰੈਕਟਰੀ ਤੋਂ ਹਟਾਉਣ ਨਾਲ ਮੌਜੂਦਾ ਖਰਚੇ ਦੇ ਰਿਕਾਰਡ ਨਹੀਂ ਮਿਟਦੇ।"
         },
         "prs": {
           "purpose": "یک سابقه مشخص پیمانکار را حذف می‌کند.",
           "when": "فقط وقتی سابقه پیمانکار تکراری یا اشتباه است و باید حذف شود، استفاده کنید.",
           "how": "در کنار پیمانکار موردنظر Delete را انتخاب کنید و پیش از ادامه پیام تأیید را بررسی کنید.",
           "inputs": "سابقه درست پیمانکار را انتخاب کنید و پیش از تأیید حذف، هویت آن را بررسی کنید.",
-          "result": "سابقه فقط در صورت پذیرش و تأیید برنامه حذف یا غیرفعال می‌شود.",
-          "notes": "پیش از حذف بررسی کنید که پیمانکار به کارها، پرداخت‌ها یا سوابق تاریخی مرتبط نباشد."
+          "result": "در صورت موفقیت ذخیره، پیمانکار از فهرست مشترک حذف می‌شود. سوابق هزینه پروژه‌های موجود حفظ می‌شوند.",
+          "notes": "پیش از حذف بررسی کنید که پیمانکار در کارها یا سوابق تاریخی ارجاع شده است یا خیر. حذف از فهرست پیمانکاران، سوابق هزینه موجود را پاک نمی‌کند."
         },
         "ps": {
           "purpose": "د یوه ځانګړي قراردادي ریکارډ ړنګوي.",
           "when": "یوازې هغه وخت یې وکاروئ چې د قراردادي ریکارډ تکراري یا غلط وي او لرې کول یې اړین وي.",
           "how": "د اړوند قراردادي تر څنګ Delete وټاکئ او له دوام مخکې د تایید پیغام وګورئ.",
           "inputs": "د قراردادي سم ریکارډ وټاکئ او د ړنګولو له تایید مخکې یې هویت وګورئ.",
-          "result": "ریکارډ یوازې هغه وخت لرې یا غیرفعال کېږي چې اپلیکیشن کړنه ومني او تایید یې کړي.",
-          "notes": "له ړنګولو مخکې وګورئ چې قراردادي له کارونو، تادیاتو یا تاریخي ریکارډونو سره تړلی دی که نه."
+          "result": "که خوندي کول بریالي شي، قراردادي له ګډ نوملړ څخه لرې کېږي. د موجودو پروژو د لګښت ریکارډونه پاتې کېږي.",
+          "notes": "له ړنګولو مخکې وګورئ چې قراردادي په کارونو یا پخوانیو ریکارډونو کې کارول شوی دی که نه. له نوملړ څخه لرې کول د لګښتونو موجود ریکارډونه نه ړنګوي."
         }
       },
       "handler_or_behavior": "`prDeleteContractor(`"
