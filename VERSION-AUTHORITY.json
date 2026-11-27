@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261127-R56",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R56",
-    "indexBlobSha": "3f7cb1ec59f543f43da718162b3581bffb76f6d6",
+    "buildId": "THA-273-R11-PREVIEW-20261127-R57",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R57",
+    "indexBlobSha": "46fc52667217a5d98b05c2d3521c614dc071de2f",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,11 +30,11 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "3f7cb1ec59f543f43da718162b3581bffb76f6d6",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "46fc52667217a5d98b05c2d3521c614dc071de2f",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js": "eb9135b1d3e5931ab62a266f1c57453a0866f219"
+      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js": "04d9d7e469f2c3b232217d26ee3a53412343a4a1"
     }
   },
   "rules": {
@@ -2406,6 +2406,51 @@
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
         "details": "Six Help topics are CONTENT_COMPLETE. New Invoice is scoped to #invoiceListArea; the five Reports & Tax destinations are scoped to #report188Menu and their exact navigation parameter. JavaScript quote escaping in the selector literals was corrected. Manual Git-tree comparison confirms Registry, Inventory, Help content, runtime and index baselines match. Live browser tests remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting an authorized Preview deployment and real browser/iPhone Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continued prioritised Help ID connections. This does not authorize deployment, merge or Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-PROJECT-WORKSPACE-BINDINGS-R57-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Connect seven completed User Guide topics to Project Workspace save, clear, edit, delete, partner, contractor and worker controls using exact page-scoped selectors.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "aa1427929b393acc3dc4d5791a40859b1d6bbf61",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PENDING",
+        "runId": "pending",
+        "url": "pending",
+        "details": "R57 requires a fresh Version Authority Gate against the final R57 Build ID, canonical URL, index SHA and all 24 runtime asset pins."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Seven completed Help topics use exact page-scoped selectors in Project Workspace. Save/Clear Project, Edit/Delete Project, Save Partner, Save Contractor and Save Worker are distinguished by parent page and literal handler. JavaScript quote escaping for partner/worker parameters was checked. Live browser tests remain pending."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
