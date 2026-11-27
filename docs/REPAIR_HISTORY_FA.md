@@ -676,7 +676,7 @@
 - **محتوا / ریسک:** هر هفت شناسه CONTENT_COMPLETE هستند. Delete Project عملیاتی مخرب است؛ راهنما باید ماهیت حذف را توضیح دهد و کلیک روی «?» نباید handler حذف را اجرا کند. در این تغییر هیچ عملیات حذف یا ذخیره واقعی اجرا نشده است.
 - **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R57`.
 - **اتصال‌ها پس از R57:** ۶۳ کنترل؛ ۵۸ ایستا و ۵ پویا. ۴۶ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
-- **تست ایستا:** هفت selector به parent و handler literal مشخص محدود شدند؛ رشته‌های دارای پارامتر partner/worker با escaping معتبر در JavaScript ثبت شدند. Version Authority Gate برای R57 باید اجرا شود.
+- **تست ایستا:** هفت selector به parent و handler literal مشخص محدود شدند؛ رشته‌های دارای پارامتر partner/worker با escaping معتبر در JavaScript ثبت شدند. **Version Authority Gate:** PASS؛ run `46070243576` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070243576؛ هویت Build R57، canonical URL، SHA فایل index و تمام ۲۴ فایل pinشده تأیید شدند.
 - **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ نمایش راهنما، عدم اجرای ناخواسته Delete/Save هنگام لمس «?» و چیدمان موبایل باید در Preview بررسی شوند.
 - **انتشار / داده:** هیچ Preview deploy، Merge، حذف پروژه، تغییر داده یا Production change انجام نشده است.
 
