@@ -9413,81 +9413,81 @@
           "purpose": "ساخت فایل PDF از گزارش یا سند فعلی.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "گزینه Create PDF را انتخاب کنید و منتظر بمانید تا ساخت PDF کامل شود.",
-          "inputs": "گزارش یا سند فعلی را که می‌خواهید به PDF تبدیل شود انتخاب کنید.",
-          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
-          "notes": "ساخت PDF به معنی ارسال گزارش به HMRC یا ارسال آن برای شخص دیگری نیست."
+          "inputs": "پیش‌نمایش گزارش فعلی باید در دسترس باشد. برای بارگذاری کتابخانه ساخت PDF ممکن است اتصال اینترنت لازم باشد.",
+          "result": "از پیش‌نمایش گزارش یک فایل PDF ساخته می‌شود. پس از موفقیت ساخت، Download PDF و Share PDF در دسترس قرار می‌گیرند.",
+          "notes": "ساخت PDF گزارش را به HMRC ارسال نمی‌کند و برای شخص دیگری نمی‌فرستد. اگر ساخت ناموفق بود، اتصال را بررسی و دوباره تلاش کنید."
         },
         "ar": {
           "purpose": "ينشئ ملف PDF من عرض التقرير أو المستند الحالي.",
           "when": "عندما تحتاج إلى نسخة PDF من التقرير أو المستند الحالي.",
           "how": "اختر Create PDF وانتظر حتى تكتمل عملية إنشاء الملف.",
-          "inputs": "حدد التقرير أو المستند المعروض الذي تريد تحويله إلى PDF.",
-          "result": "يُنشأ ملف PDF من العرض الحالي إذا نجحت العملية.",
-          "notes": "إنشاء PDF لا يرسل التقرير إلى HMRC ولا يرسله إلى أي شخص آخر."
+          "inputs": "يجب أن تكون معاينة التقرير الحالي متاحة. قد يلزم اتصال بالإنترنت لتحميل مكتبة إنشاء PDF.",
+          "result": "يُنشأ ملف PDF من معاينة التقرير. وعند نجاح الإنشاء، يصبح الخياران Download PDF وShare PDF متاحين.",
+          "notes": "إنشاء PDF لا يرسل التقرير إلى HMRC ولا يرسله إلى شخص آخر. إذا فشل الإنشاء، تحقق من الاتصال وحاول مرة أخرى."
         },
         "ckb": {
           "purpose": "لە نمای ڕاپۆرت یان بەڵگەنامەی ئێستا فایلێکی PDF دروست دەکات.",
           "when": "کاتێک پێویستت بە کۆپیی PDFی ڕاپۆرت یان بەڵگەنامەی ئێستا هەیە.",
           "how": "Create PDF هەڵبژێرە و چاوەڕێ بکە تا دروستکردنی فایلەکە تەواو ببێت.",
-          "inputs": "ئەو ڕاپۆرت یان بەڵگەنامەیە دیاری بکە کە لە ئێستادا پیشان دەدرێت و دەتەوێت بیکەیتە PDF.",
-          "result": "ئەگەر کردارەکە سەرکەوتوو بێت، فایلی PDF لە نمای ئێستا دروست دەکرێت.",
-          "notes": "دروستکردنی PDF ڕاپۆرتەکە بۆ HMRC نانێرێت و بۆ کەسێکی تر نایەنێرێت."
+          "inputs": "پێشبینینی ڕاپۆرتی ئێستا دەبێت بەردەست بێت. لەوانەیە پەیوەندی ئینتەرنێت بۆ بارکردنی کتێبخانەی دروستکردنی PDF پێویست بێت.",
+          "result": "لە پێشبینینی ڕاپۆرتەکە فایلێکی PDF دروست دەکرێت. ئەگەر دروستکردن سەرکەوتوو بێت، Download PDF و Share PDF بەردەست دەبن.",
+          "notes": "دروستکردنی PDF ڕاپۆرتەکە بۆ HMRC نانێرێت و بۆ کەسێکی تر نایەنێرێت. ئەگەر دروستکردن سەرنەکەوت، پەیوەندییەکە بپشکنە و دووبارە هەوڵ بدە."
         },
         "kmr": {
           "purpose": "Ji dîtina raporê an belgeya niha pelê PDF çêdike.",
           "when": "Dema ku tu hewceyî kopiyeke PDF ya rapor an belgeya niha yî.",
           "how": "Create PDF hilbijêre û li benda qedîna pêvajoya çêkirina PDF bimîne.",
-          "inputs": "Rapora an belgeya ku niha tê nîşandan û dixwazî bike PDF hilbijêre.",
-          "result": "Ger pêvajoyê serkeftî be, ji dîtina niha pelê PDF tê çêkirin.",
-          "notes": "Çêkirina PDF raporê ji HMRC re naşîne û ji kesekî din re jî naşîne."
+          "inputs": "Pêdivî ye pêşdîtina rapora heyî berdest be. Ji bo barkirina pirtûkxaneya çêkirina PDF dibe ku girêdana înternetê pêwîst be.",
+          "result": "Ji pêşdîtina raporê pelê PDF tê çêkirin. Ger çêkirin serkeftî be, Download PDF û Share PDF berdest dibin.",
+          "notes": "Çêkirina PDF raporê ji HMRC re naşîne û ji kesekî din re jî naşîne. Heke çêkirin têk biçe, girêdanê kontrol bike û dîsa biceribîne."
         },
         "tr": {
           "purpose": "Mevcut rapor veya belge görünümünden PDF oluşturur.",
           "when": "Mevcut raporun veya belgenin PDF kopyasına ihtiyaç duyduğunuzda kullanın.",
           "how": "Create PDF'yi seçin ve PDF oluşturma işleminin tamamlanmasını bekleyin.",
-          "inputs": "PDF'ye dönüştürmek istediğiniz mevcut raporu veya belgeyi seçin.",
-          "result": "İşlem başarılı olursa mevcut görünümden bir PDF dosyası oluşturulur.",
-          "notes": "PDF oluşturmak raporu HMRC'ye göndermez veya başka bir kişiye iletmez."
+          "inputs": "Mevcut rapor önizlemesi kullanılabilir olmalıdır. PDF oluşturma kitaplığını yüklemek için internet bağlantısı gerekebilir.",
+          "result": "Rapor önizlemesinden bir PDF dosyası oluşturulur. Oluşturma başarılı olursa Download PDF ve Share PDF kullanılabilir hâle gelir.",
+          "notes": "PDF oluşturmak raporu HMRC'ye göndermez veya başka bir kişiye iletmez. Oluşturma başarısız olursa bağlantıyı kontrol edip yeniden deneyin."
         },
         "pl": {
           "purpose": "Tworzy plik PDF z bieżącego widoku raportu lub dokumentu.",
           "when": "Użyj, gdy potrzebujesz kopii PDF bieżącego raportu lub dokumentu.",
           "how": "Wybierz Create PDF i poczekaj na zakończenie generowania pliku.",
-          "inputs": "Wybierz wyświetlany raport lub dokument, który chcesz przekonwertować do PDF.",
-          "result": "Jeśli operacja się powiedzie, z bieżącego widoku zostanie utworzony plik PDF.",
-          "notes": "Utworzenie PDF nie wysyła raportu do HMRC ani do innej osoby."
+          "inputs": "Podgląd bieżącego raportu musi być dostępny. Do załadowania biblioteki generującej PDF może być potrzebne połączenie z internetem.",
+          "result": "Z podglądu raportu tworzony jest plik PDF. Po pomyślnym wygenerowaniu dostępne stają się opcje Download PDF i Share PDF.",
+          "notes": "Utworzenie PDF nie wysyła raportu do HMRC ani do innej osoby. Jeśli generowanie się nie powiedzie, sprawdź połączenie i spróbuj ponownie."
         },
         "ur": {
           "purpose": "موجودہ رپورٹ یا دستاویز کے منظر سے PDF بناتا ہے۔",
           "when": "جب موجودہ رپورٹ یا دستاویز کی PDF نقل درکار ہو تو استعمال کریں۔",
           "how": "Create PDF منتخب کریں اور PDF بنانے کا عمل مکمل ہونے کا انتظار کریں۔",
-          "inputs": "وہ موجودہ رپورٹ یا دستاویز منتخب کریں جسے PDF میں تبدیل کرنا ہے۔",
-          "result": "عمل کامیاب ہونے پر موجودہ منظر سے PDF فائل بن جاتی ہے۔",
-          "notes": "PDF بنانے سے رپورٹ HMRC کو جمع نہیں ہوتی اور نہ ہی کسی دوسرے شخص کو بھیجی جاتی ہے۔"
+          "inputs": "موجودہ رپورٹ کا پری ویو دستیاب ہونا چاہیے۔ PDF بنانے والی لائبریری لوڈ کرنے کے لیے انٹرنیٹ کنکشن درکار ہو سکتا ہے۔",
+          "result": "رپورٹ کے پری ویو سے PDF فائل بنائی جاتی ہے۔ کامیابی سے بننے پر Download PDF اور Share PDF دستیاب ہو جاتے ہیں۔",
+          "notes": "PDF بنانا رپورٹ HMRC کو جمع یا کسی دوسرے شخص کو نہیں بھیجتا۔ اگر بنانا ناکام ہو تو کنکشن چیک کرکے دوبارہ کوشش کریں۔"
         },
         "pa": {
           "purpose": "ਮੌਜੂਦਾ ਰਿਪੋਰਟ ਜਾਂ ਦਸਤਾਵੇਜ਼ ਦੇ ਦ੍ਰਿਸ਼ ਤੋਂ PDF ਬਣਾਉਂਦਾ ਹੈ।",
           "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਰਿਪੋਰਟ ਜਾਂ ਦਸਤਾਵੇਜ਼ ਦੀ PDF ਕਾਪੀ ਚਾਹੀਦੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
           "how": "Create PDF ਚੁਣੋ ਅਤੇ PDF ਬਣਨ ਦੀ ਪ੍ਰਕਿਰਿਆ ਪੂਰੀ ਹੋਣ ਦੀ ਉਡੀਕ ਕਰੋ।",
-          "inputs": "ਉਹ ਮੌਜੂਦਾ ਰਿਪੋਰਟ ਜਾਂ ਦਸਤਾਵੇਜ਼ ਚੁਣੋ ਜਿਸਨੂੰ PDF ਵਿੱਚ ਬਦਲਣਾ ਹੈ।",
-          "result": "ਕਾਰਵਾਈ ਸਫਲ ਹੋਵੇ ਤਾਂ ਮੌਜੂਦਾ ਦ੍ਰਿਸ਼ ਤੋਂ PDF ਫਾਈਲ ਬਣ ਜਾਂਦੀ ਹੈ।",
-          "notes": "PDF ਬਣਾਉਣ ਨਾਲ ਰਿਪੋਰਟ HMRC ਨੂੰ ਨਹੀਂ ਭੇਜੀ ਜਾਂਦੀ ਅਤੇ ਨਾ ਹੀ ਕਿਸੇ ਹੋਰ ਵਿਅਕਤੀ ਨੂੰ ਭੇਜੀ ਜਾਂਦੀ ਹੈ।"
+          "inputs": "ਮੌਜੂਦਾ ਰਿਪੋਰਟ ਦਾ ਪ੍ਰੀਵਿਊ ਉਪਲਬਧ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ। PDF ਬਣਾਉਣ ਵਾਲੀ ਲਾਇਬ੍ਰੇਰੀ ਲੋਡ ਕਰਨ ਲਈ ਇੰਟਰਨੈੱਟ ਕਨੈਕਸ਼ਨ ਦੀ ਲੋੜ ਹੋ ਸਕਦੀ ਹੈ।",
+          "result": "ਰਿਪੋਰਟ ਦੇ ਪ੍ਰੀਵਿਊ ਤੋਂ PDF ਫਾਈਲ ਬਣਾਈ ਜਾਂਦੀ ਹੈ। ਬਣਾਉਣ ਵਿੱਚ ਸਫਲਤਾ ਹੋਣ 'ਤੇ Download PDF ਅਤੇ Share PDF ਉਪਲਬਧ ਹੋ ਜਾਂਦੇ ਹਨ।",
+          "notes": "PDF ਬਣਾਉਣ ਨਾਲ ਰਿਪੋਰਟ HMRC ਨੂੰ ਜਮ੍ਹਾਂ ਜਾਂ ਕਿਸੇ ਹੋਰ ਵਿਅਕਤੀ ਨੂੰ ਨਹੀਂ ਭੇਜੀ ਜਾਂਦੀ। ਜੇ ਬਣਾਉਣਾ ਅਸਫਲ ਹੋਵੇ ਤਾਂ ਕਨੈਕਸ਼ਨ ਜਾਂਚੋ ਅਤੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
         },
         "prs": {
           "purpose": "از نمای گزارش یا سند فعلی یک فایل PDF ایجاد می‌کند.",
           "when": "وقتی به نسخه PDF گزارش یا سند فعلی نیاز دارید، استفاده کنید.",
           "how": "Create PDF را انتخاب کنید و منتظر بمانید تا فرایند ایجاد PDF کامل شود.",
-          "inputs": "گزارش یا سند فعلی را که می‌خواهید به PDF تبدیل شود انتخاب کنید.",
-          "result": "در صورت موفقیت، از نمای فعلی یک فایل PDF ایجاد می‌شود.",
-          "notes": "ایجاد PDF گزارش را به HMRC ارسال نمی‌کند و برای شخص دیگری نیز نمی‌فرستد."
+          "inputs": "پیش‌نمایش گزارش فعلی باید در دسترس باشد. برای بارگذاری کتابخانه ساخت PDF ممکن است اتصال اینترنت لازم باشد.",
+          "result": "از پیش‌نمایش گزارش یک فایل PDF ساخته می‌شود. پس از موفقیت ساخت، Download PDF و Share PDF در دسترس قرار می‌گیرند.",
+          "notes": "ساخت PDF گزارش را به HMRC ارسال نمی‌کند و برای شخص دیگری نمی‌فرستد. اگر ساخت ناموفق بود، اتصال را بررسی و دوباره تلاش کنید."
         },
         "ps": {
           "purpose": "د اوسني راپور یا سند له لید څخه PDF جوړوي.",
           "when": "کله چې د اوسني راپور یا سند PDF کاپي ته اړتیا لرئ، دا وکاروئ.",
           "how": "Create PDF وټاکئ او د PDF جوړولو د بهیر تر بشپړېدو انتظار وکړئ.",
-          "inputs": "هغه اوسنی راپور یا سند وټاکئ چې PDF ته یې اړول غواړئ.",
-          "result": "که عملیات بریالي شي، د اوسني لید څخه PDF فایل جوړېږي.",
-          "notes": "د PDF جوړول راپور HMRC ته نه سپاري او بل چا ته یې هم نه لېږي."
+          "inputs": "د اوسني راپور مخکتنه باید موجوده وي. د PDF جوړولو کتابتون د پورته کولو لپاره ښايي انټرنېټ پیوستون ته اړتیا وي.",
+          "result": "د راپور له مخکتنې څخه PDF فایل جوړېږي. که جوړول بریالي شي، Download PDF او Share PDF فعالېږي.",
+          "notes": "د PDF جوړول راپور HMRC ته نه سپاري او بل چا ته یې نه لېږي. که جوړول ناکام شي، پیوستون وګورئ او بیا هڅه وکړئ."
         }
       },
       "handler_or_behavior": "`createPDF()`"
@@ -9511,81 +9511,81 @@
           "purpose": "بارگیری PDF ساخته‌شده روی دستگاه.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "پس از ایجاد سند، Download PDF را انتخاب کنید و محل ذخیره فایل را در مرورگر بررسی کنید.",
-          "inputs": "فایل PDF ایجادشده را برای بارگیری انتخاب کنید.",
-          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
-          "notes": "فایل بارگیری‌شده را در محل امن نگهداری کنید؛ بارگیری، رکورد اصلی را تغییر نمی‌دهد."
+          "inputs": "یک PDF گزارش که با موفقیت ساخته شده باشد باید در نمای PDF فعلی موجود باشد.",
+          "result": "مرورگر دانلود فایل PDF گزارش را با نامی که برنامه ساخته است آغاز می‌کند.",
+          "notes": "اگر PDF هنوز ساخته نشده باشد، برنامه ابتدا از شما می‌خواهد آن را ایجاد کنید. گزارش دانلودشده را امن نگه دارید؛ سوابق منبع تغییر نمی‌کنند."
         },
         "ar": {
           "purpose": "ينزّل ملف PDF الذي تم إنشاؤه إلى جهازك.",
           "when": "بعد إنشاء PDF عندما تريد حفظ نسخة محلية منه.",
           "how": "بعد إنشاء المستند، اختر Download PDF ثم تحقق من موقع التنزيل في المتصفح.",
-          "inputs": "حدد ملف PDF الذي تم إنشاؤه لتنزيله.",
-          "result": "يُنزّل ملف PDF إلى جهازك إذا سمح المتصفح بذلك.",
-          "notes": "احتفظ بالملف المنزّل في مكان آمن؛ تنزيله لا يغيّر السجل الأصلي."
+          "inputs": "يجب أن يكون ملف PDF للتقرير قد تم إنشاؤه بنجاح وأن يكون متاحًا في عرض PDF الحالي.",
+          "result": "يبدأ المتصفح تنزيل ملف PDF للتقرير باستخدام اسم الملف الذي أنشأه التطبيق.",
+          "notes": "إذا لم يكن ملف PDF قد أُنشئ بعد، سيطلب منك التطبيق إنشاءه أولًا. احتفظ بالتقرير المنزّل بأمان؛ لا تتغير السجلات المصدر."
         },
         "ckb": {
           "purpose": "فایلی PDFی دروستکراو بۆ ئامێرەکەت دادەبەزێنێت.",
           "when": "دوای دروستکردنی PDF، کاتێک دەتەوێت کۆپییەکی لۆکاڵی پاشەکەوت بکەیت.",
           "how": "دوای دروستکردنی بەڵگەنامەکە Download PDF هەڵبژێرە و شوێنی داگرتن لە وێبگەڕەکە بپشکنە.",
-          "inputs": "فایلی PDFی دروستکراو دیاری بکە بۆ داگرتن.",
-          "result": "ئەگەر وێبگەڕەکە ڕێگە بدات، فایلی PDF بۆ ئامێرەکەت دادەبەزێت.",
-          "notes": "فایلی داگیراو لە شوێنێکی پارێزراو هەڵبگرە؛ داگرتنەکە تۆماری سەرچاوە ناگۆڕێت."
+          "inputs": "دەبێت PDF ـێکی ڕاپۆرت کە بە سەرکەوتوویی دروست کراوە لە نمای PDF ـی ئێستادا بەردەست بێت.",
+          "result": "وێبگەڕ داگرتنی فایلی PDFی ڕاپۆرتەکە بەو ناوەی ئەپەکە دروستی کردووە دەستپێدەکات.",
+          "notes": "ئەگەر PDF هێشتا دروست نەکرابێت، ئەپەکە سەرەتا داوات لێدەکات دروستی بکەیت. ڕاپۆرتە داگیراوەکە بە پارێزراوی هەڵبگرە؛ تۆمارە سەرچاوەکان ناگۆڕدرێن."
         },
         "kmr": {
           "purpose": "Pelê PDF yê çêkirî li ser amûra te dadixe.",
           "when": "Piştî çêkirina PDF, dema ku tu dixwazî kopiyeke herêmî tomar bikî.",
           "how": "Piştî çêkirina belgeyê Download PDF hilbijêre û cihê daxistinê di gerokê de kontrol bike.",
-          "inputs": "Pelê PDF yê çêkirî ji bo daxistinê hilbijêre.",
-          "result": "Ger gerok destûr bide, pelê PDF li ser amûra te tê daxistin.",
-          "notes": "Pelê daxistî li cihê ewle biparêze; daxistin tomara bingehîn naguherîne."
+          "inputs": "Divê PDF ya raporê ku bi serkeftî hatiye çêkirin di dîtina PDF ya heyî de berdest be.",
+          "result": "Gerok daxistina pelê PDF yê raporê bi navê pelê ku sepan çêkiriye dest pê dike.",
+          "notes": "Heke PDF hîn nehatiye çêkirin, sepan pêşî ji te dixwaze wê çêbike. Rapora daxistî bi ewlehî biparêze; tomarên çavkanî naguherin."
         },
         "tr": {
           "purpose": "Oluşturulan PDF dosyasını cihazınıza indirir.",
           "when": "PDF oluşturulduktan sonra yerel bir kopyasını saklamak istediğinizde kullanın.",
           "how": "Belge oluşturulduktan sonra Download PDF'yi seçin ve tarayıcının indirme konumunu kontrol edin.",
-          "inputs": "İndirmek için oluşturulmuş PDF dosyasını seçin.",
-          "result": "Tarayıcı izin verirse PDF dosyası cihazınıza indirilir.",
-          "notes": "İndirilen dosyayı güvenli bir yerde saklayın; indirme işlemi kaynak kaydı değiştirmez."
+          "inputs": "Mevcut PDF görünümünde başarıyla oluşturulmuş bir rapor PDF'si bulunmalıdır.",
+          "result": "Tarayıcı, uygulamanın oluşturduğu dosya adını kullanarak rapor PDF'sini indirmeye başlar.",
+          "notes": "PDF henüz oluşturulmadıysa uygulama önce oluşturmanızı ister. İndirilen raporu güvenli biçimde saklayın; kaynak kayıtlar değişmez."
         },
         "pl": {
           "purpose": "Pobiera wygenerowany plik PDF na urządzenie.",
           "when": "Użyj po wygenerowaniu PDF, gdy chcesz zachować jego lokalną kopię.",
           "how": "Po utworzeniu dokumentu wybierz Download PDF i sprawdź lokalizację pobierania w przeglądarce.",
-          "inputs": "Wybierz wygenerowany plik PDF do pobrania.",
-          "result": "Jeśli przeglądarka na to pozwala, plik PDF zostanie pobrany na urządzenie.",
-          "notes": "Przechowuj pobrany plik w bezpiecznym miejscu; pobranie nie zmienia rekordu źródłowego."
+          "inputs": "W bieżącym widoku PDF musi być dostępny pomyślnie wygenerowany plik raportu PDF.",
+          "result": "Przeglądarka rozpoczyna pobieranie pliku PDF raportu pod nazwą wygenerowaną przez aplikację.",
+          "notes": "Jeśli PDF nie został jeszcze wygenerowany, aplikacja najpierw poprosi o jego utworzenie. Przechowuj pobrany raport bezpiecznie; dane źródłowe nie ulegają zmianie."
         },
         "ur": {
           "purpose": "بنائی گئی PDF فائل آپ کے آلے پر ڈاؤن لوڈ کرتا ہے۔",
           "when": "PDF بننے کے بعد جب اس کی مقامی نقل محفوظ کرنی ہو تو استعمال کریں۔",
           "how": "دستاویز بننے کے بعد Download PDF منتخب کریں اور براؤزر میں ڈاؤن لوڈ کی جگہ دیکھیں۔",
-          "inputs": "ڈاؤن لوڈ کرنے کے لیے بنائی گئی PDF فائل منتخب کریں۔",
-          "result": "اگر براؤزر اجازت دے تو PDF فائل آپ کے آلے پر ڈاؤن لوڈ ہو جاتی ہے۔",
-          "notes": "ڈاؤن لوڈ شدہ فائل محفوظ جگہ پر رکھیں؛ ڈاؤن لوڈ کرنے سے اصل ریکارڈ تبدیل نہیں ہوتا۔"
+          "inputs": "موجودہ PDF منظر میں کامیابی سے بنائی گئی رپورٹ PDF دستیاب ہونی چاہیے۔",
+          "result": "براؤزر ایپ کے بنائے ہوئے فائل نام کے ساتھ رپورٹ PDF ڈاؤن لوڈ کرنا شروع کرتا ہے۔",
+          "notes": "اگر PDF ابھی نہیں بنی تو ایپ پہلے اسے بنانے کا کہے گی۔ ڈاؤن لوڈ شدہ رپورٹ محفوظ رکھیں؛ اصل ریکارڈ تبدیل نہیں ہوتے۔"
         },
         "pa": {
           "purpose": "ਬਣਾਈ ਗਈ PDF ਫਾਈਲ ਤੁਹਾਡੀ ਡਿਵਾਈਸ 'ਤੇ ਡਾਊਨਲੋਡ ਕਰਦਾ ਹੈ।",
           "when": "PDF ਬਣਨ ਤੋਂ ਬਾਅਦ ਜਦੋਂ ਇਸਦੀ ਸਥਾਨਕ ਕਾਪੀ ਸੰਭਾਲਣੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
           "how": "ਦਸਤਾਵੇਜ਼ ਬਣਨ ਤੋਂ ਬਾਅਦ Download PDF ਚੁਣੋ ਅਤੇ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਡਾਊਨਲੋਡ ਦੀ ਥਾਂ ਜਾਂਚੋ।",
-          "inputs": "ਡਾਊਨਲੋਡ ਕਰਨ ਲਈ ਬਣਾਈ ਗਈ PDF ਫਾਈਲ ਚੁਣੋ।",
-          "result": "ਜੇ ਬ੍ਰਾਊਜ਼ਰ ਇਜਾਜ਼ਤ ਦੇਵੇ ਤਾਂ PDF ਫਾਈਲ ਤੁਹਾਡੀ ਡਿਵਾਈਸ 'ਤੇ ਡਾਊਨਲੋਡ ਹੋ ਜਾਂਦੀ ਹੈ।",
-          "notes": "ਡਾਊਨਲੋਡ ਕੀਤੀ ਫਾਈਲ ਸੁਰੱਖਿਅਤ ਥਾਂ ਰੱਖੋ; ਡਾਊਨਲੋਡ ਕਰਨ ਨਾਲ ਮੂਲ ਰਿਕਾਰਡ ਨਹੀਂ ਬਦਲਦਾ।"
+          "inputs": "ਮੌਜੂਦਾ PDF ਦ੍ਰਿਸ਼ ਵਿੱਚ ਸਫਲਤਾਪੂਰਵਕ ਬਣਾਈ ਰਿਪੋਰਟ PDF ਉਪਲਬਧ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ।",
+          "result": "ਬ੍ਰਾਊਜ਼ਰ ਐਪ ਵੱਲੋਂ ਬਣਾਏ ਫਾਈਲ ਨਾਮ ਨਾਲ ਰਿਪੋਰਟ PDF ਡਾਊਨਲੋਡ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ।",
+          "notes": "ਜੇ PDF ਹਾਲੇ ਨਹੀਂ ਬਣੀ ਤਾਂ ਐਪ ਪਹਿਲਾਂ ਇਸਨੂੰ ਬਣਾਉਣ ਲਈ ਕਹੇਗੀ। ਡਾਊਨਲੋਡ ਕੀਤੀ ਰਿਪੋਰਟ ਸੁਰੱਖਿਅਤ ਰੱਖੋ; ਮੂਲ ਰਿਕਾਰਡ ਨਹੀਂ ਬਦਲਦੇ।"
         },
         "prs": {
           "purpose": "فایل PDF ایجادشده را روی دستگاه شما بارگیری می‌کند.",
           "when": "پس از ایجاد PDF، وقتی می‌خواهید یک نسخه محلی از آن نگه دارید، استفاده کنید.",
           "how": "پس از ایجاد سند Download PDF را انتخاب کنید و محل بارگیری را در مرورگر بررسی کنید.",
-          "inputs": "فایل PDF ایجادشده را برای بارگیری انتخاب کنید.",
-          "result": "اگر مرورگر اجازه دهد، فایل PDF روی دستگاه شما بارگیری می‌شود.",
-          "notes": "فایل بارگیری‌شده را در محل امن نگه دارید؛ بارگیری، سابقه اصلی را تغییر نمی‌دهد."
+          "inputs": "یک PDF گزارش که با موفقیت ساخته شده باشد باید در نمای PDF فعلی موجود باشد.",
+          "result": "مرورگر دانلود فایل PDF گزارش را با نامی که برنامه ساخته است آغاز می‌کند.",
+          "notes": "اگر PDF هنوز ساخته نشده باشد، برنامه ابتدا از شما می‌خواهد آن را ایجاد کنید. گزارش دانلودشده را امن نگه دارید؛ سوابق منبع تغییر نمی‌کنند."
         },
         "ps": {
           "purpose": "جوړ شوی PDF فایل ستاسو وسیلې ته ښکته کوي.",
           "when": "د PDF له جوړېدو وروسته، کله چې غواړئ یوه سیمه‌ییزه کاپي وساتئ، دا وکاروئ.",
           "how": "د سند له جوړېدو وروسته Download PDF وټاکئ او په براوزر کې د ښکته کولو ځای وګورئ.",
-          "inputs": "د ښکته کولو لپاره جوړ شوی PDF فایل وټاکئ.",
-          "result": "که براوزر اجازه ورکړي، PDF فایل ستاسو وسیلې ته ښکته کېږي.",
-          "notes": "ښکته شوی فایل په خوندي ځای کې وساتئ؛ ښکته کول اصلي ریکارډ نه بدلوي."
+          "inputs": "د راپور هغه PDF چې په بریالیتوب جوړ شوی وي باید په اوسني PDF لید کې موجود وي.",
+          "result": "براوزر د اپلیکیشن له خوا د جوړ شوي فایل نوم په کارولو د راپور PDF ښکته کول پیلوي.",
+          "notes": "که PDF لا نه وي جوړه شوې، اپلیکیشن به لومړی له تاسو وغواړي چې جوړه یې کړئ. ښکته شوی راپور خوندي وساتئ؛ اصلي ریکارډونه نه بدلېږي."
         }
       },
       "handler_or_behavior": "`downloadPDF()`"
@@ -9609,81 +9609,81 @@
           "purpose": "اشتراک‌گذاری PDF ساخته‌شده از طریق امکانات دستگاه.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "پس از تولید PDF، Share PDF را انتخاب کنید و یک برنامه یا مقصد پشتیبانی‌شده را برگزینید.",
-          "inputs": "فایل PDF موردنظر برای اشتراک‌گذاری را انتخاب کنید و مقصد ارسال را مشخص کنید.",
-          "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
-          "notes": "مقصدهای قابل استفاده به دستگاه و مرورگر بستگی دارند. پیش از ارسال، گیرنده و محتوای سند را بررسی کنید."
+          "inputs": "یک PDF گزارش که با موفقیت ساخته شده باشد لازم است. وقتی صفحه اشتراک‌گذاری نمایش داده شد، مقصدی را انتخاب کنید.",
+          "result": "در صورت پشتیبانی دستگاه، صفحه اشتراک‌گذاری باز می‌شود. در غیر این صورت، برنامه دانلود PDF را آغاز می‌کند تا بتوانید فایل دانلودشده را از طریق Files به اشتراک بگذارید یا چاپ کنید.",
+          "notes": "پیش از اشتراک‌گذاری، گزارش و گیرنده را بررسی کنید. برنامه نمی‌تواند تحویل فایل توسط برنامه یا سرویس دیگری را تأیید کند."
         },
         "ar": {
           "purpose": "يشارك ملف PDF الذي تم إنشاؤه عبر قائمة المشاركة في الجهاز.",
           "when": "عندما تريد إرسال ملف PDF إلى تطبيق أو وجهة مدعومة.",
           "how": "بعد إنشاء الملف، اختر Share PDF ثم حدد تطبيقاً أو وجهة مدعومة.",
-          "inputs": "حدد ملف PDF الذي تريد مشاركته واختر وجهة الإرسال.",
-          "result": "تُفتح خيارات المشاركة المتاحة لتمرير ملف PDF إلى الوجهة المحددة.",
-          "notes": "تعتمد الوجهات المتاحة على الجهاز والمتصفح. راجع المستلم ومحتوى المستند قبل المشاركة."
+          "inputs": "يلزم وجود ملف PDF للتقرير تم إنشاؤه بنجاح. اختر وجهة عندما تظهر قائمة المشاركة.",
+          "result": "تُفتح قائمة المشاركة في الجهاز إذا كانت مدعومة. وإلا يبدأ التطبيق تنزيل PDF لتتمكن من مشاركته أو طباعته من الملف الذي تم تنزيله.",
+          "notes": "راجع التقرير والمستلم قبل المشاركة. لا يستطيع التطبيق تأكيد التسليم بواسطة تطبيق أو خدمة أخرى."
         },
         "ckb": {
           "purpose": "فایلی PDFی دروستکراو بە لیستی هاوبەشکردنی ئامێرەکە هاوبەش دەکات.",
           "when": "کاتێک دەتەوێت فایلی PDF بۆ ئەپێک یان شوێنێکی پشتگیریکراو بنێریت.",
           "how": "دوای دروستکردنی فایلەکە Share PDF هەڵبژێرە، پاشان ئەپ یان شوێنێکی پشتگیریکراو دیاری بکە.",
-          "inputs": "فایلی PDFی داواکراو هەڵبژێرە و شوێنی ناردن دیاری بکە.",
-          "result": "هەڵبژاردەکانی هاوبەشکردنی بەردەست دەکرێنەوە بۆ ناردنی PDF بۆ شوێنی دیاریکراو.",
-          "notes": "شوێنە بەردەستەکان بە ئامێر و وێبگەڕەوە بەستراون. پێش هاوبەشکردن وەرگر و ناوەڕۆکی بەڵگەنامەکە بپشکنە."
+          "inputs": "PDF ـێکی ڕاپۆرت کە بە سەرکەوتوویی دروست کراوە پێویستە. کاتێک پەنجەرەی هاوبەشکردن دەرکەوت، شوێنێک هەڵبژێرە.",
+          "result": "ئەگەر ئامێرەکە پشتگیری بکات، پەنجەرەی هاوبەشکردن دەکرێتەوە. ئەگەر نا، ئەپەکە PDF دادەبەزێنێت تا بتوانیت لە Files ـەوە هاوبەشی بکەیت یان چاپی بکەیت.",
+          "notes": "پێش هاوبەشکردن ڕاپۆرت و وەرگر بپشکنە. ئەپەکە ناتوانێت گەیاندنی فایل لەلایەن ئەپ یان خزمەتگوزارییەکی ترەوە پشتڕاست بکاتەوە."
         },
         "kmr": {
           "purpose": "Pelê PDF yê çêkirî bi lîsteya parvekirina amûrê re parve dike.",
           "when": "Dema ku tu dixwazî pelê PDF ji sepanekê an cihê piştgirîkirî re bişînî.",
           "how": "Piştî çêkirina pelê Share PDF hilbijêre û sepanek an cihê piştgirîkirî hilbijêre.",
-          "inputs": "Pelê PDF yê ku dixwazî parve bikî hilbijêre û cihê şandinê diyar bike.",
-          "result": "Vebijarkên parvekirinê yên berdest vedibin da ku PDF ji cihê hilbijartî re were şandin.",
-          "notes": "Cihên berdest bi amûr û gerokê ve girêdayî ne. Berî parvekirinê wergir û naveroka belgeyê kontrol bike."
+          "inputs": "PDF ya raporê ya bi serkeftî hatî çêkirin pêwîst e. Dema pelika parvekirinê xuya bibe, cihêk hilbijêre.",
+          "result": "Ger amûr piştgirî bike, pelika parvekirinê vedibe. Wekî din, sepan PDF dadixe da ku tu ji Files wê parve bikî an çap bikî.",
+          "notes": "Berî parvekirinê rapor û wergir kontrol bike. Sepan nikare gihîştina pelê ji aliyê sepan an xizmeteke din ve piştrast bike."
         },
         "tr": {
           "purpose": "Oluşturulan PDF'yi cihazın paylaşım menüsü üzerinden paylaşır.",
           "when": "PDF dosyasını desteklenen bir uygulamaya veya hedefe göndermek istediğinizde kullanın.",
           "how": "Dosya oluşturulduktan sonra Share PDF'yi seçin ve desteklenen bir uygulama veya hedef belirleyin.",
-          "inputs": "Paylaşmak istediğiniz PDF dosyasını seçin ve gönderim hedefini belirleyin.",
-          "result": "PDF'yi seçilen hedefe aktarmak için kullanılabilir paylaşım seçenekleri açılır.",
-          "notes": "Kullanılabilir hedefler cihaza ve tarayıcıya bağlıdır. Paylaşmadan önce alıcıyı ve belge içeriğini kontrol edin."
+          "inputs": "Başarıyla oluşturulmuş bir rapor PDF'si gerekir. Paylaşım menüsü göründüğünde bir hedef seçin.",
+          "result": "Cihaz destekliyorsa paylaşım menüsü açılır. Aksi hâlde uygulama PDF'yi indirir; böylece indirilen dosyayı Files üzerinden paylaşabilir veya yazdırabilirsiniz.",
+          "notes": "Paylaşmadan önce raporu ve alıcıyı kontrol edin. Uygulama, başka bir uygulama veya hizmet tarafından teslim edildiğini doğrulayamaz."
         },
         "pl": {
           "purpose": "Udostępnia wygenerowany plik PDF za pomocą systemowego panelu udostępniania urządzenia.",
           "when": "Użyj, gdy chcesz wysłać plik PDF do obsługiwanej aplikacji lub lokalizacji.",
           "how": "Po wygenerowaniu pliku wybierz Share PDF i wskaż obsługiwaną aplikację lub miejsce docelowe.",
-          "inputs": "Wybierz plik PDF, który chcesz udostępnić, i wskaż miejsce docelowe.",
-          "result": "Otwierają się dostępne opcje udostępniania pliku PDF do wybranego miejsca.",
-          "notes": "Dostępne miejsca docelowe zależą od urządzenia i przeglądarki. Przed udostępnieniem sprawdź odbiorcę i zawartość dokumentu."
+          "inputs": "Wymagany jest pomyślnie wygenerowany plik PDF raportu. Wybierz miejsce docelowe, gdy pojawi się panel udostępniania.",
+          "result": "Jeśli urządzenie obsługuje tę funkcję, otworzy się panel udostępniania. W przeciwnym razie aplikacja pobierze PDF, aby można ją było udostępnić lub wydrukować z aplikacji Files.",
+          "notes": "Przed udostępnieniem sprawdź raport i odbiorcę. Aplikacja nie może potwierdzić dostarczenia przez inną aplikację lub usługę."
         },
         "ur": {
           "purpose": "ڈیوائس کے شیئرنگ مینو کے ذریعے بنائی گئی PDF شیئر کرتا ہے۔",
           "when": "جب PDF فائل کسی معاون ایپ یا منزل پر بھیجنی ہو تو استعمال کریں۔",
           "how": "فائل بننے کے بعد Share PDF منتخب کریں اور معاون ایپ یا منزل چنیں۔",
-          "inputs": "وہ PDF فائل منتخب کریں جسے شیئر کرنا ہے اور بھیجنے کی منزل منتخب کریں۔",
-          "result": "PDF کو منتخب منزل تک پہنچانے کے لیے دستیاب شیئرنگ اختیارات کھل جاتے ہیں۔",
-          "notes": "دستیاب منزلیں ڈیوائس اور براؤزر پر منحصر ہیں۔ شیئر کرنے سے پہلے وصول کنندہ اور دستاویز کا مواد چیک کریں۔"
+          "inputs": "کامیابی سے بنائی گئی رپورٹ PDF ضروری ہے۔ شیئرنگ شیٹ ظاہر ہونے پر منزل منتخب کریں۔",
+          "result": "اگر ڈیوائس سپورٹ کرتی ہے تو شیئرنگ شیٹ کھلتی ہے۔ ورنہ ایپ PDF ڈاؤن لوڈ کرتی ہے تاکہ آپ اسے Files سے شیئر یا پرنٹ کر سکیں۔",
+          "notes": "شیئر کرنے سے پہلے رپورٹ اور وصول کنندہ چیک کریں۔ ایپ کسی دوسری ایپ یا سروس کے ذریعے ترسیل کی تصدیق نہیں کر سکتی۔"
         },
         "pa": {
           "purpose": "ਡਿਵਾਈਸ ਦੇ ਸਿਸਟਮ ਸ਼ੇਅਰ ਮੀਨੂ ਰਾਹੀਂ ਬਣਾਈ PDF ਸਾਂਝੀ ਕਰਦਾ ਹੈ।",
           "when": "ਜਦੋਂ PDF ਫਾਈਲ ਕਿਸੇ ਸਮਰਥਿਤ ਐਪ ਜਾਂ ਮੰਜ਼ਿਲ 'ਤੇ ਭੇਜਣੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
           "how": "ਫਾਈਲ ਬਣਨ ਤੋਂ ਬਾਅਦ Share PDF ਚੁਣੋ ਅਤੇ ਸਮਰਥਿਤ ਐਪ ਜਾਂ ਮੰਜ਼ਿਲ ਚੁਣੋ।",
-          "inputs": "ਉਹ PDF ਫਾਈਲ ਚੁਣੋ ਜਿਸਨੂੰ ਸਾਂਝਾ ਕਰਨਾ ਹੈ ਅਤੇ ਭੇਜਣ ਦੀ ਮੰਜ਼ਿਲ ਚੁਣੋ।",
-          "result": "PDF ਨੂੰ ਚੁਣੀ ਮੰਜ਼ਿਲ ਤੱਕ ਭੇਜਣ ਲਈ ਉਪਲਬਧ ਸਾਂਝੇ ਕਰਨ ਦੇ ਵਿਕਲਪ ਖੁੱਲ੍ਹਦੇ ਹਨ।",
-          "notes": "ਉਪਲਬਧ ਮੰਜ਼ਿਲਾਂ ਡਿਵਾਈਸ ਅਤੇ ਬ੍ਰਾਊਜ਼ਰ 'ਤੇ ਨਿਰਭਰ ਕਰਦੀਆਂ ਹਨ। ਸਾਂਝਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਪ੍ਰਾਪਤਕਰਤਾ ਅਤੇ ਦਸਤਾਵੇਜ਼ ਦੀ ਸਮੱਗਰੀ ਜਾਂਚੋ।"
+          "inputs": "ਸਫਲਤਾਪੂਰਵਕ ਬਣਾਈ ਰਿਪੋਰਟ PDF ਲੋੜੀਂਦੀ ਹੈ। ਸ਼ੇਅਰ ਸ਼ੀਟ ਆਉਣ 'ਤੇ ਮੰਜ਼ਿਲ ਚੁਣੋ।",
+          "result": "ਜੇ ਡਿਵਾਈਸ ਸਮਰਥਨ ਕਰਦੀ ਹੈ ਤਾਂ ਸ਼ੇਅਰ ਸ਼ੀਟ ਖੁੱਲ੍ਹਦੀ ਹੈ। ਨਹੀਂ ਤਾਂ ਐਪ PDF ਡਾਊਨਲੋਡ ਕਰਦੀ ਹੈ ਤਾਂ ਜੋ ਤੁਸੀਂ Files ਰਾਹੀਂ ਇਸਨੂੰ ਸਾਂਝਾ ਜਾਂ ਪ੍ਰਿੰਟ ਕਰ ਸਕੋ।",
+          "notes": "ਸਾਂਝਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਰਿਪੋਰਟ ਅਤੇ ਪ੍ਰਾਪਤਕਰਤਾ ਜਾਂਚੋ। ਐਪ ਕਿਸੇ ਹੋਰ ਐਪ ਜਾਂ ਸੇਵਾ ਵੱਲੋਂ ਡਿਲਿਵਰੀ ਦੀ ਪੁਸ਼ਟੀ ਨਹੀਂ ਕਰ ਸਕਦੀ।"
         },
         "prs": {
           "purpose": "فایل PDF ایجادشده را از طریق گزینه‌های اشتراک‌گذاری دستگاه به اشتراک می‌گذارد.",
           "when": "وقتی می‌خواهید فایل PDF را به برنامه یا مقصد پشتیبانی‌شده بفرستید، استفاده کنید.",
           "how": "پس از ایجاد فایل Share PDF را انتخاب کنید و برنامه یا مقصد پشتیبانی‌شده‌ای را برگزینید.",
-          "inputs": "فایل PDF موردنظر برای اشتراک‌گذاری را انتخاب کنید و مقصد ارسال را مشخص کنید.",
-          "result": "گزینه‌های اشتراک‌گذاری موجود برای ارسال PDF به مقصد انتخاب‌شده باز می‌شوند.",
-          "notes": "مقصدهای موجود به دستگاه و مرورگر بستگی دارند. پیش از اشتراک‌گذاری، گیرنده و محتوای سند را بررسی کنید."
+          "inputs": "یک PDF گزارش که با موفقیت ساخته شده باشد لازم است. وقتی صفحه اشتراک‌گذاری نمایش داده شد، مقصدی را انتخاب کنید.",
+          "result": "در صورت پشتیبانی دستگاه، صفحه اشتراک‌گذاری باز می‌شود. در غیر این صورت، برنامه دانلود PDF را آغاز می‌کند تا بتوانید فایل دانلودشده را از طریق Files به اشتراک بگذارید یا چاپ کنید.",
+          "notes": "پیش از اشتراک‌گذاری، گزارش و گیرنده را بررسی کنید. برنامه نمی‌تواند تحویل فایل توسط برنامه یا سرویس دیگری را تأیید کند."
         },
         "ps": {
           "purpose": "د جوړ شوي PDF فایل د وسیلې د شریکولو له لارې شریکوي.",
           "when": "کله چې غواړئ PDF یو ملاتړ شوي اپلیکیشن یا ځای ته ولېږئ، دا وکاروئ.",
           "how": "د فایل له جوړېدو وروسته Share PDF وټاکئ او ملاتړ شوی اپلیکیشن یا ځای وټاکئ.",
-          "inputs": "هغه PDF فایل وټاکئ چې شریکول یې غواړئ او د لېږلو ځای وټاکئ.",
-          "result": "د PDF ټاکلي ځای ته د لېږلو لپاره د شریکولو شته اختیارونه پرانیستل کېږي.",
-          "notes": "شته ځایونه په وسیله او براوزر پورې تړلي دي. له شریکولو مخکې ترلاسه کوونکی او د سند منځپانګه وګورئ."
+          "inputs": "د راپور په بریالیتوب جوړه شوې PDF اړینه ده. کله چې د شریکولو پاڼه ښکاره شي، موخه وټاکئ.",
+          "result": "که وسیله یې ملاتړ کوي، د شریکولو پاڼه پرانیستل کېږي. که نه، اپلیکیشن PDF ښکته کوي څو تاسو یې د Files له لارې شریک یا چاپ کړئ.",
+          "notes": "له شریکولو مخکې راپور او ترلاسه کوونکی وګورئ. اپلیکیشن د بل اپ یا خدمت له لارې د رسېدو تایید نه شي کولای."
         }
       },
       "handler_or_behavior": "`sharePDF()`"
