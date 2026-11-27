@@ -563,7 +563,7 @@
 - **نسخه / فایل‌ها:** Build هدف `THA-273-R11-PREVIEW-20261127-R49`; تغییر در `tha-help-runtime-v1.js`، نسخه/cache reference در `index.html`، pinهای `VERSION-AUTHORITY.json` و baseline فایل Mapping ثبت شد.
 - **اعتبارسنجی ایستا:** کامپایل نحوی فایل Runtime با V8 PASS؛ تطبیق ۱۹ شناسه متصل با بسته محتوای Runtime PASS؛ حذف ارجاع به FAB شناور PASS. این بررسی‌ها جایگزین آزمون DOM واقعی نیستند.
 - **تست مرورگر / موبایل:** هنوز انجام نشده؛ باید نمایش مجاور، عدم جابه‌جایی چیدمان، عملکرد دکمه اصلی، کلیک «?» و بستن پنجره در Preview بررسی شوند.
-- **Version Authority Gate / انتشار:** Gate برای R49 پس از ثبت Commit اجرا و نتیجه آن بررسی می‌شود. Preview Pages deploy نشده است.
+- **Version Authority Gate / انتشار:** PASS؛ run `46068148382` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46068148382؛ هویت R49 و هر ۲۴ فایل پین‌شده تأیید شدند. Preview Pages deploy نشده است.
 - **Production:** بدون تغییر؛ هیچ مجوز ارتقا وجود ندارد.
 
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
