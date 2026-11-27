@@ -10174,6 +10174,78 @@
           "inputs": "برای بازکردن فهرست ورودی لازم نیست. هنگام افزودن یا ویرایش سابقه، نام کارگر الزامی است؛ تلفن و یادداشت‌ها اختیاری هستند.",
           "result": "صفحه Workers همراه با فرم Add/Edit Worker و فهرست ذخیره‌شده کارگران باز می‌شود.",
           "notes": "کارگران ذخیره‌شده را می‌توان هنگام ثبت دستمزد پروژه انتخاب کرد. حذف کارگر از این فهرست به تأیید نیاز دارد و سابقه فهرست را به‌طور دائمی حذف می‌کند؛ سوابق پروژه ممکن است همچنان به آن ارجاع داشته باشند. برخلاف توضیح دیگری در Control Panel، تابع حذف فعلی در صورت وجود سابقه مالی کارگر را به‌طور خودکار غیرفعال نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يفتح دليل Workers المشترك من Control Panel في Business Workspace.",
+          "when": "استخدم هذا عند مراجعة سجلات العمال أو إضافتها أو تعديلها لاستخدامها عند تسجيل أجور المشاريع.",
+          "how": "افتح Business Workspace، واختر Control Panel، ثم اختر Workers. تفتح صفحة Workers مع نموذج العامل وقائمة Workers المحفوظة.",
+          "inputs": "لا يلزم إدخال معلومات لفتح الدليل. يلزم اسم العامل عند إضافة سجل أو تعديله؛ الهاتف والملاحظات اختياريان.",
+          "result": "تفتح صفحة Workers مع نموذج Add/Edit Worker وقائمة العمال المحفوظة.",
+          "notes": "يمكن اختيار العمال المحفوظين عند تسجيل أجور المشاريع. يتطلب حذف عامل من هذا الدليل تأكيداً ويزيل سجل الدليل نهائياً؛ وقد تظل سجلات المشاريع الحالية تشير إليه. لا يقوم معالج الحذف الحالي بتعطيل العامل تلقائياً عند وجود سجل مالي، خلافاً للنص التوضيحي في موضع آخر من Control Panel."
+        },
+        "ckb": {
+          "purpose": "پێڕستی هاوبەشی Workers لە Control Panelی Business Workspace دەکاتەوە.",
+          "when": "کاتێک تۆمارەکانی کرێکاران دەپشکنیت، زیاد دەکەیت یان دەستکاری دەکەیت بۆ بەکارهێنانیان لە کاتی تۆمارکردنی مووچەی پڕۆژەکان، ئەمە بەکاربهێنە.",
+          "how": "Business Workspace بکەرەوە، Control Panel هەڵبژێرە، پاشان Workers هەڵبژێرە. پەڕەی Workers لەگەڵ فۆڕمی کرێکار و لیستی کرێکارە پاشەکەوتکراوەکان دەکرێتەوە.",
+          "inputs": "بۆ کردنەوەی پێڕست زانیارییەک پێویست نییە. بۆ زیادکردن یان دەستکاریکردنی تۆمار ناوی کرێکار پێویستە؛ تەلەفۆن و تێبینی ئارەزوومەندن.",
+          "result": "پەڕەی Workers لەگەڵ فۆڕمی Add/Edit Worker و لیستی کرێکارە پاشەکەوتکراوەکان دەکرێتەوە.",
+          "notes": "کرێکارە پاشەکەوتکراوەکان دەتوانرێت کاتی تۆمارکردنی مووچەی پڕۆژە هەڵبژێردرێن. سڕینەوەی کرێکار لەم پێڕستە پێویستی بە پشتڕاستکردنەوە هەیە و تۆماری پێڕست بە هەمیشەیی دەسڕێتەوە؛ تۆمارەکانی پڕۆژەی ئێستا لەوانەیە هێشتا ئاماژەی پێ بکەن. Handlerی سڕینەوەی ئێستا کاتێک مێژووی دارایی هەبێت کرێکارەکە بە شێوەی خۆکار ناچالاک ناکات، سەرەڕای دەقی ڕوونکەرەوەی شوێنێکی تری Control Panel."
+        },
+        "kmr": {
+          "purpose": "Pêrista hevpar a Workers ji Control Panel ya Business Workspace vedike.",
+          "when": "Vê bikar bîne dema ku tomarên karkeran binirxînî, zêde bikî an biguherînî da ku dema tomarkirina mûçeyên projeyê bên bikaranîn.",
+          "how": "Business Workspace veke, Control Panel hilbijêre, paşê Workers hilbijêre. Rûpela Workers bi forma karker û lîsteya Workers a tomarkirî vedibe.",
+          "inputs": "Ji bo vekirina pêristê agahî nehewce ye. Ji bo zêdekirin an guherandina tomarê navê karker pêwîst e; telefon û not vebijarkî ne.",
+          "result": "Rûpela Workers bi forma Add/Edit Worker û lîsteya karkerên tomarkirî vedibe.",
+          "notes": "Karkerên tomarkirî dikarin dema tomarkirina mûçeyên projeyê bên hilbijartin. Jêbirina karkerekî ji vê pêristê pejirandinê dixwaze û tomara pêristê bi domdarî jê dike; tomarên projeyê yên heyî dibe ku hîn jî îşareta wê bikin. Handlera jêbirinê ya niha dema ku dîroka darayî hebe bi awayekî xweber karkerê neçalak nake, tevî nivîsa raveker a li cihê din ê Control Panel."
+        },
+        "tr": {
+          "purpose": "Business Workspace Control Panel içinden ortak Workers dizinini açar.",
+          "when": "Proje ücret girişleri atanırken kullanılan çalışan kayıtlarını incelemek, eklemek veya düzenlemek için kullanın.",
+          "how": "Business Workspace'i açın, Control Panel'i ve ardından Workers'ı seçin. Workers sayfası çalışan formu ve kayıtlı Workers listesiyle açılır.",
+          "inputs": "Dizini açmak için bilgi gerekmez. Kayıt eklerken veya düzenlerken çalışan adı zorunludur; telefon ve notlar isteğe bağlıdır.",
+          "result": "Workers sayfası Add/Edit Worker formu ve kayıtlı çalışan listesiyle açılır.",
+          "notes": "Kaydedilen çalışanlar proje ücretleri kaydedilirken seçilebilir. Bu dizinden çalışan silmek onay gerektirir ve dizin kaydını kalıcı olarak kaldırır; mevcut proje kayıtları yine de çalışana başvurabilir. Control Panel'in başka bir yerindeki açıklayıcı metnin aksine, mevcut silme işleyicisi mali geçmiş varsa çalışanı otomatik olarak devre dışı bırakmaz."
+        },
+        "pl": {
+          "purpose": "Otwiera współdzielony katalog Workers z Control Panel w Business Workspace.",
+          "when": "Użyj tej opcji, aby przeglądać, dodawać lub edytować rekordy pracowników wykorzystywane podczas przypisywania wpisów wynagrodzeń do projektów.",
+          "how": "Otwórz Business Workspace, wybierz Control Panel, a następnie Workers. Otworzy się strona Workers z formularzem pracownika i zapisaną listą Workers.",
+          "inputs": "Do otwarcia katalogu nie są wymagane żadne dane. Podczas dodawania lub edycji rekordu wymagana jest nazwa pracownika; telefon i notatki są opcjonalne.",
+          "result": "Otwiera się strona Workers z formularzem Add/Edit Worker i zapisaną listą pracowników.",
+          "notes": "Zapisanych pracowników można wybierać podczas rejestrowania wynagrodzeń projektu. Usunięcie pracownika z tego katalogu wymaga potwierdzenia i trwale usuwa rekord katalogowy; istniejące rekordy projektów mogą nadal się do niego odwoływać. Obecna procedura usuwania nie dezaktywuje automatycznie pracownika, gdy istnieje historia finansowa, wbrew tekstowi objaśniającemu w innym miejscu Control Panel."
+        },
+        "ur": {
+          "purpose": "Business Workspace کے Control Panel سے مشترکہ Workers فہرست کھولتا ہے۔",
+          "when": "ان کارکنوں کے ریکارڈز کا جائزہ لینے، انہیں شامل کرنے یا ترمیم کرنے کے لیے استعمال کریں جنہیں منصوبے کی اجرت درج کرتے وقت منتخب کیا جاتا ہے۔",
+          "how": "Business Workspace کھولیں، Control Panel منتخب کریں، پھر Workers منتخب کریں۔ Workers صفحہ کارکن فارم اور محفوظ شدہ Workers فہرست کے ساتھ کھلتا ہے۔",
+          "inputs": "فہرست کھولنے کے لیے معلومات درکار نہیں۔ ریکارڈ شامل یا ترمیم کرتے وقت کارکن کا نام ضروری ہے؛ فون اور نوٹس اختیاری ہیں۔",
+          "result": "Workers صفحہ Add/Edit Worker فارم اور محفوظ شدہ کارکنوں کی فہرست کے ساتھ کھلتا ہے۔",
+          "notes": "محفوظ شدہ کارکنوں کو منصوبے کی اجرت درج کرتے وقت منتخب کیا جا سکتا ہے۔ اس فہرست سے کارکن حذف کرنے کے لیے تصدیق ضروری ہے اور فہرست کا ریکارڈ مستقل طور پر ہٹا دیا جاتا ہے؛ موجودہ منصوبہ ریکارڈ اب بھی اس کا حوالہ دے سکتے ہیں۔ Control Panel کے دوسرے حصے میں وضاحتی متن کے برعکس، موجودہ حذف کرنے والا ہینڈلر مالی تاریخ موجود ہونے پر کارکن کو خودکار طور پر غیر فعال نہیں کرتا۔"
+        },
+        "pa": {
+          "purpose": "Business Workspace ਦੇ Control Panel ਵਿੱਚੋਂ ਸਾਂਝੀ Workers ਡਾਇਰੈਕਟਰੀ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਉਹਨਾਂ ਕਾਮਿਆਂ ਦੇ ਰਿਕਾਰਡਾਂ ਦੀ ਸਮੀਖਿਆ, ਜੋੜ ਜਾਂ ਸੋਧ ਕਰਨ ਲਈ ਵਰਤੋ ਜਿਨ੍ਹਾਂ ਨੂੰ ਪ੍ਰੋਜੈਕਟ ਮਜ਼ਦੂਰੀ ਐਂਟਰੀਆਂ ਨਿਰਧਾਰਤ ਕਰਦੇ ਸਮੇਂ ਚੁਣਿਆ ਜਾਂਦਾ ਹੈ।",
+          "how": "Business Workspace ਖੋਲ੍ਹੋ, Control Panel ਅਤੇ ਫਿਰ Workers ਚੁਣੋ। Workers ਪੰਨਾ ਕਾਮਾ ਫਾਰਮ ਅਤੇ ਸੰਭਾਲੀ Workers ਸੂਚੀ ਨਾਲ ਖੁੱਲ੍ਹਦਾ ਹੈ।",
+          "inputs": "ਡਾਇਰੈਕਟਰੀ ਖੋਲ੍ਹਣ ਲਈ ਕੋਈ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ। ਰਿਕਾਰਡ ਜੋੜਨ ਜਾਂ ਸੋਧਣ ਵੇਲੇ ਕਾਮੇ ਦਾ ਨਾਮ ਲਾਜ਼ਮੀ ਹੈ; ਫੋਨ ਅਤੇ ਨੋਟ ਵਿਕਲਪਿਕ ਹਨ।",
+          "result": "Workers ਪੰਨਾ Add/Edit Worker ਫਾਰਮ ਅਤੇ ਸੰਭਾਲੀ ਕਾਮਿਆਂ ਦੀ ਸੂਚੀ ਨਾਲ ਖੁੱਲ੍ਹਦਾ ਹੈ।",
+          "notes": "ਸੰਭਾਲੇ ਕਾਮਿਆਂ ਨੂੰ ਪ੍ਰੋਜੈਕਟ ਦੀ ਮਜ਼ਦੂਰੀ ਦਰਜ ਕਰਦੇ ਸਮੇਂ ਚੁਣਿਆ ਜਾ ਸਕਦਾ ਹੈ। ਇਸ ਡਾਇਰੈਕਟਰੀ ਵਿੱਚੋਂ ਕਾਮਾ ਮਿਟਾਉਣ ਲਈ ਪੁਸ਼ਟੀ ਲੋੜੀਂਦੀ ਹੈ ਅਤੇ ਡਾਇਰੈਕਟਰੀ ਰਿਕਾਰਡ ਪੱਕੇ ਤੌਰ 'ਤੇ ਹਟ ਜਾਂਦਾ ਹੈ; ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਫਿਰ ਵੀ ਉਸਦਾ ਹਵਾਲਾ ਦੇ ਸਕਦੇ ਹਨ। Control Panel ਦੇ ਹੋਰ ਸਥਾਨ 'ਤੇ ਦਿੱਤੇ ਵਿਆਖਿਆਤਮਕ ਪਾਠ ਦੇ ਉਲਟ, ਮੌਜੂਦਾ ਮਿਟਾਉਣ ਵਾਲਾ ਹੈਂਡਲਰ ਵਿੱਤੀ ਇਤਿਹਾਸ ਹੋਣ 'ਤੇ ਕਾਮੇ ਨੂੰ ਆਪਣੇ ਆਪ ਅਕਿਰਿਆਸ਼ੀਲ ਨਹੀਂ ਕਰਦਾ।"
+        },
+        "prs": {
+          "purpose": "فهرست مشترک Workers را از Control Panel در Business Workspace باز می‌کند.",
+          "when": "برای بررسی، افزودن یا ویرایش سوابق کارگرانی که هنگام تخصیص دستمزد پروژه انتخاب می‌شوند، از این گزینه استفاده کنید.",
+          "how": "Business Workspace را باز کنید، Control Panel و سپس Workers را انتخاب کنید. صفحه Workers همراه با فرم کارگر و فهرست ذخیره‌شده باز می‌شود.",
+          "inputs": "برای بازکردن فهرست ورودی لازم نیست. هنگام افزودن یا ویرایش سابقه، نام کارگر الزامی است؛ تلفن و یادداشت‌ها اختیاری هستند.",
+          "result": "صفحه Workers همراه با فرم Add/Edit Worker و فهرست ذخیره‌شده کارگران باز می‌شود.",
+          "notes": "کارگران ذخیره‌شده را می‌توان هنگام ثبت دستمزد پروژه انتخاب کرد. حذف کارگر از این فهرست به تأیید نیاز دارد و سابقه فهرست را به‌طور دائمی حذف می‌کند؛ سوابق پروژه ممکن است همچنان به آن ارجاع داشته باشند. برخلاف توضیح دیگری در Control Panel، تابع حذف فعلی در صورت وجود سابقه مالی کارگر را به‌طور خودکار غیرفعال نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د Business Workspace د Control Panel څخه د Workers ګډ لېست پرانیزي.",
+          "when": "دا د هغو کارکوونکو د ریکارډونو د کتلو، زیاتولو یا سمولو لپاره وکاروئ چې د پروژې د مزدورۍ د ثبت پر مهال ټاکل کېږي.",
+          "how": "Business Workspace پرانیزئ، Control Panel او بیا Workers وټاکئ. د Workers پاڼه د کارکوونکي له فورمې او خوندي شوي Workers لېست سره پرانېستل کېږي.",
+          "inputs": "د لېست د پرانیستلو لپاره معلوماتو ته اړتیا نشته. د ریکارډ د زیاتولو یا سمولو پر مهال د کارکوونکي نوم اړین دی؛ ټیلیفون او یادښتونه اختیاري دي.",
+          "result": "د Workers پاڼه د Add/Edit Worker فورمې او خوندي شوي کارکوونکو لېست سره پرانېستل کېږي.",
+          "notes": "خوندي شوي کارکوونکي د پروژې د مزدورۍ د ثبت پر مهال ټاکل کېدای شي. له دې لېست څخه د کارکوونکي ړنګول تایید غواړي او د لېست ریکارډ د تل لپاره لرې کوي؛ د پروژې موجود ریکارډونه ښايي لا هم ورته اشاره وکړي. د Control Panel په بل ځای کې د تشریحي متن خلاف، اوسنی د ړنګولو Handler د مالي تاریخ په شتون کې کارکوونکی په اتومات ډول نه غیرفعالوي."
         }
       },
       "handler_or_behavior": "`prPage(`"
