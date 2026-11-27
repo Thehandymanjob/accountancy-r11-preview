@@ -14571,19 +14571,91 @@
       "translations": {
         "en": {
           "purpose": "Open the report view for the selected sub-project.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control when you want to review report information for the current sub-project.",
           "how": "Select Report to display the available report information for the current sub-project.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "inputs": "Select the correct sub-project and review the report information displayed.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "Review the selected project scope and period before using the figures."
         },
         "fa": {
           "purpose": "باز کردن نمای گزارش زیرپروژه انتخاب‌شده.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "وقتی می‌خواهید اطلاعات گزارش زیرپروژه فعلی را بررسی کنید، از این گزینه استفاده کنید.",
           "how": "گزینه Report را انتخاب کنید تا اطلاعات گزارش زیرپروژه فعلی نمایش داده شود.",
-          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "inputs": "زیرپروژه درست را انتخاب کنید و اطلاعات گزارش نمایش‌داده‌شده را بررسی کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "پیش از استفاده از ارقام، محدوده پروژه و دوره گزارش را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يفتح عرض التقرير للمشروع الفرعي المحدد.",
+          "when": "عندما تريد مراجعة معلومات التقرير للمشروع الفرعي الحالي.",
+          "how": "اختر Report لعرض معلومات التقرير المتاحة للمشروع الفرعي الحالي.",
+          "inputs": "حدد المشروع الفرعي الصحيح وراجع معلومات التقرير المعروضة.",
+          "result": "يُفتح عرض التقرير للمشروع الفرعي المحدد.",
+          "notes": "راجع نطاق المشروع وفترة التقرير قبل الاعتماد على الأرقام."
+        },
+        "ckb": {
+          "purpose": "نمای ڕاپۆرت بۆ پرۆژە لاوەکیی هەڵبژێردراو دەکاتەوە.",
+          "when": "کاتێک دەتەوێت زانیاری ڕاپۆرتی پرۆژە لاوەکیی ئێستا بپشکنیت.",
+          "how": "Report هەڵبژێرە بۆ پیشاندانی زانیاری ڕاپۆرتی بەردەست بۆ پرۆژە لاوەکیی ئێستا.",
+          "inputs": "پرۆژە لاوەکیی دروست هەڵبژێرە و زانیاری ڕاپۆرتی پیشاندراو بپشکنە.",
+          "result": "نمای ڕاپۆرتی پرۆژە لاوەکیی هەڵبژێردراو دەکرێتەوە.",
+          "notes": "پێش پشتبەستن بە ژمارەکان مەودای پرۆژە و ماوەی ڕاپۆرت بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Dîtina raporê ji bo projeya jêrîn a hilbijartî vedike.",
+          "when": "Dema ku tu dixwazî agahiyên rapora projeya jêrîn a niha kontrol bikî.",
+          "how": "Report hilbijêre da ku agahiyên rapora berdest ji bo projeya jêrîn a niha nîşan bide.",
+          "inputs": "Projeya jêrîn a rast hilbijêre û agahiyên rapora nîşandayî kontrol bike.",
+          "result": "Dîtina raporê ya projeya jêrîn a hilbijartî vedibe.",
+          "notes": "Berî pêbaweriyê bi hejmaran, qadê projeyê û heyama raporê kontrol bike."
+        },
+        "tr": {
+          "purpose": "Seçilen alt projenin rapor görünümünü açar.",
+          "when": "Geçerli alt proje için rapor bilgilerini incelemek istediğinizde kullanın.",
+          "how": "Geçerli alt proje için kullanılabilir rapor bilgilerini görüntülemek üzere Report'u seçin.",
+          "inputs": "Doğru alt projeyi seçin ve görüntülenen rapor bilgilerini inceleyin.",
+          "result": "Seçilen alt projenin rapor görünümü açılır.",
+          "notes": "Rakamları kullanmadan önce proje kapsamını ve raporlama dönemini inceleyin."
+        },
+        "pl": {
+          "purpose": "Otwiera widok raportu dla wybranego podprojektu.",
+          "when": "Użyj, gdy chcesz sprawdzić informacje raportowe bieżącego podprojektu.",
+          "how": "Wybierz Report, aby wyświetlić dostępne informacje raportowe bieżącego podprojektu.",
+          "inputs": "Wybierz właściwy podprojekt i sprawdź wyświetlone informacje raportowe.",
+          "result": "Otwiera się widok raportu wybranego podprojektu.",
+          "notes": "Przed wykorzystaniem danych sprawdź zakres projektu i okres raportowania."
+        },
+        "ur": {
+          "purpose": "منتخب ذیلی منصوبے کی رپورٹ کا منظر کھولتا ہے۔",
+          "when": "جب موجودہ ذیلی منصوبے کی رپورٹ کی معلومات دیکھنی ہوں تو استعمال کریں۔",
+          "how": "موجودہ ذیلی منصوبے کے دستیاب رپورٹ ڈیٹا دکھانے کے لیے Report منتخب کریں۔",
+          "inputs": "درست ذیلی منصوبہ منتخب کریں اور دکھائی گئی رپورٹ کی معلومات دیکھیں۔",
+          "result": "منتخب ذیلی منصوبے کی رپورٹ کا منظر کھل جاتا ہے۔",
+          "notes": "اعداد پر انحصار کرنے سے پہلے پروجیکٹ کا دائرہ اور رپورٹنگ مدت دیکھیں۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦੀ ਰਿਪੋਰਟ ਝਲਕ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦੀ ਰਿਪੋਰਟ ਜਾਣਕਾਰੀ ਵੇਖਣੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਮੌਜੂਦਾ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦੀ ਉਪਲਬਧ ਰਿਪੋਰਟ ਜਾਣਕਾਰੀ ਦਿਖਾਉਣ ਲਈ Report ਚੁਣੋ।",
+          "inputs": "ਸਹੀ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਚੁਣੋ ਅਤੇ ਦਿਖਾਈ ਰਿਪੋਰਟ ਜਾਣਕਾਰੀ ਵੇਖੋ।",
+          "result": "ਚੁਣੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦੀ ਰਿਪੋਰਟ ਝਲਕ ਖੁੱਲ੍ਹਦੀ ਹੈ।",
+          "notes": "ਅੰਕੜਿਆਂ 'ਤੇ ਭਰੋਸਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਪ੍ਰੋਜੈਕਟ ਦਾ ਦਾਇਰਾ ਅਤੇ ਰਿਪੋਰਟਿੰਗ ਮਿਆਦ ਜਾਂਚੋ।"
+        },
+        "prs": {
+          "purpose": "نمای گزارش زیرپروژه انتخاب‌شده را باز می‌کند.",
+          "when": "وقتی می‌خواهید اطلاعات گزارش زیرپروژه فعلی را بررسی کنید، استفاده کنید.",
+          "how": "برای نمایش اطلاعات گزارش موجود برای زیرپروژه فعلی Report را انتخاب کنید.",
+          "inputs": "زیرپروژه درست را انتخاب کنید و اطلاعات گزارش نمایش‌داده‌شده را بررسی کنید.",
+          "result": "نمای گزارش زیرپروژه انتخاب‌شده باز می‌شود.",
+          "notes": "پیش از اتکا به ارقام، محدوده پروژه و دوره گزارش را بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د ټاکل شوې فرعي پروژې د راپور لید پرانیزي.",
+          "when": "کله چې د اوسني فرعي پروژې د راپور معلومات کتلو ته اړتیا لرئ، دا وکاروئ.",
+          "how": "د اوسني فرعي پروژې د شته راپور معلوماتو د ښودلو لپاره Report وټاکئ.",
+          "inputs": "سمه فرعي پروژه وټاکئ او ښکاره شوي د راپور معلومات وګورئ.",
+          "result": "د ټاکل شوې فرعي پروژې د راپور لید پرانیستل کېږي.",
+          "notes": "پر شمېرو له باور مخکې د پروژې ساحه او د راپور موده وګورئ."
         }
       },
       "handler_or_behavior": "`prRenderSubFinance(`"
@@ -14597,19 +14669,91 @@
       "translations": {
         "en": {
           "purpose": "Open the form to add a sub-project.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control when you want to create a new sub-project within the selected project.",
           "how": "Select Add Sub-project and complete the fields presented for the new sub-project.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct parent project and enter a distinct sub-project name and its required details.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "Check the parent project and enter a distinct, meaningful sub-project name before saving."
         },
         "fa": {
           "purpose": "باز کردن فرم افزودن زیرپروژه.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "وقتی می‌خواهید زیرپروژه جدیدی درون پروژه انتخاب‌شده ایجاد کنید، از این گزینه استفاده کنید.",
           "how": "گزینه Add Sub-project را انتخاب کنید و فیلدهای نمایش‌داده‌شده را تکمیل کنید.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "پروژه والد درست را انتخاب کنید و نامی متمایز و جزئیات لازم زیرپروژه را وارد کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "پروژه والد را بررسی و برای زیرپروژه نامی مشخص و غیرتکراری وارد کنید."
+        },
+        "ar": {
+          "purpose": "يفتح النموذج لإضافة مشروع فرعي.",
+          "when": "عندما تريد إنشاء مشروع فرعي جديد ضمن المشروع المحدد.",
+          "how": "اختر Add Sub-project وأكمل الحقول المطلوبة للمشروع الفرعي الجديد.",
+          "inputs": "حدد المشروع الأب الصحيح وأدخل اسم المشروع الفرعي وتفاصيله المطلوبة.",
+          "result": "يُفتح نموذج إنشاء المشروع الفرعي ويصبح جاهزاً للإدخال.",
+          "notes": "تحقق من المشروع الأب وأدخل اسماً واضحاً ومميزاً للمشروع الفرعي قبل الحفظ."
+        },
+        "ckb": {
+          "purpose": "فۆڕمی زیادکردنی پرۆژە لاوەکی دەکاتەوە.",
+          "when": "کاتێک دەتەوێت پرۆژە لاوەکییەکی نوێ لەناو پرۆژەی دیاریکراودا دروست بکەیت.",
+          "how": "Add Sub-project هەڵبژێرە و خانە داواکراوەکانی پرۆژە لاوەکیی نوێ پڕ بکەرەوە.",
+          "inputs": "پرۆژەی باوانی دروست هەڵبژێرە و ناو و وردەکارییە داواکراوەکانی پرۆژە لاوەکی بنووسە.",
+          "result": "فۆڕمی دروستکردنی پرۆژە لاوەکی دەکرێتەوە و ئامادەی داخڵکردنی زانیاری دەبێت.",
+          "notes": "پێش پاشەکەوتکردن پرۆژەی باوان بپشکنە و ناوێکی ڕوون و جیاواز بۆ پرۆژە لاوەکی بنووسە."
+        },
+        "kmr": {
+          "purpose": "Forma zêdekirina projeyeke jêrîn vedike.",
+          "when": "Dema ku tu dixwazî di bin projeya hilbijartî de projeyeke jêrîn a nû çêkî.",
+          "how": "Add Sub-project hilbijêre û qadên pêwîst ên projeya jêrîn a nû dagire.",
+          "inputs": "Projeya dê ya rast hilbijêre û nav û hûrguliyên pêwîst ên projeya jêrîn binivîse.",
+          "result": "Forma çêkirina projeya jêrîn vedibe û ji bo têketina agahiyan amade dibe.",
+          "notes": "Berî tomarkirinê projeya dê kontrol bike û ji bo projeya jêrîn navekî zelal û cuda binivîse."
+        },
+        "tr": {
+          "purpose": "Alt proje ekleme formunu açar.",
+          "when": "Seçilen proje altında yeni bir alt proje oluşturmak istediğinizde kullanın.",
+          "how": "Add Sub-project'i seçin ve yeni alt proje için gösterilen alanları doldurun.",
+          "inputs": "Doğru üst projeyi seçin ve alt projenin adını ve gerekli ayrıntılarını girin.",
+          "result": "Alt proje oluşturma formu açılır ve veri girişine hazır olur.",
+          "notes": "Kaydetmeden önce üst projeyi kontrol edin ve alt proje için açık, ayırt edici bir ad girin."
+        },
+        "pl": {
+          "purpose": "Otwiera formularz dodawania podprojektu.",
+          "when": "Użyj, gdy chcesz utworzyć nowy podprojekt w ramach wybranego projektu.",
+          "how": "Wybierz Add Sub-project i wypełnij pola wymagane dla nowego podprojektu.",
+          "inputs": "Wybierz właściwy projekt nadrzędny i wprowadź nazwę oraz wymagane szczegóły podprojektu.",
+          "result": "Otwiera się formularz tworzenia podprojektu, gotowy do wprowadzenia danych.",
+          "notes": "Przed zapisaniem sprawdź projekt nadrzędny i wpisz wyraźną, niepowtarzalną nazwę podprojektu."
+        },
+        "ur": {
+          "purpose": "ذیلی منصوبہ شامل کرنے کا فارم کھولتا ہے۔",
+          "when": "جب منتخب پروجیکٹ کے اندر نیا ذیلی منصوبہ بنانا ہو تو استعمال کریں۔",
+          "how": "Add Sub-project منتخب کریں اور نئے ذیلی منصوبے کے لیے دکھائے گئے خانے مکمل کریں۔",
+          "inputs": "درست بنیادی پروجیکٹ منتخب کریں اور ذیلی منصوبے کا نام اور مطلوبہ تفصیلات درج کریں۔",
+          "result": "ذیلی منصوبہ بنانے کا فارم کھل جاتا ہے اور معلومات درج کرنے کے لیے تیار ہوتا ہے۔",
+          "notes": "محفوظ کرنے سے پہلے بنیادی پروجیکٹ چیک کریں اور ذیلی منصوبے کے لیے واضح اور منفرد نام درج کریں۔"
+        },
+        "pa": {
+          "purpose": "ਉਪ-ਪ੍ਰੋਜੈਕਟ ਜੋੜਨ ਦਾ ਫਾਰਮ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਦੇ ਅੰਦਰ ਨਵਾਂ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਬਣਾਉਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Add Sub-project ਚੁਣੋ ਅਤੇ ਨਵੇਂ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਲਈ ਦਿਖਾਏ ਖੇਤਰ ਭਰੋ।",
+          "inputs": "ਸਹੀ ਮੂਲ ਪ੍ਰੋਜੈਕਟ ਚੁਣੋ ਅਤੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦਾ ਨਾਮ ਅਤੇ ਲੋੜੀਂਦੇ ਵੇਰਵੇ ਭਰੋ।",
+          "result": "ਉਪ-ਪ੍ਰੋਜੈਕਟ ਬਣਾਉਣ ਦਾ ਫਾਰਮ ਖੁੱਲ੍ਹਦਾ ਹੈ ਅਤੇ ਜਾਣਕਾਰੀ ਭਰਨ ਲਈ ਤਿਆਰ ਹੁੰਦਾ ਹੈ।",
+          "notes": "ਸੇਵ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਮੂਲ ਪ੍ਰੋਜੈਕਟ ਜਾਂਚੋ ਅਤੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਲਈ ਸਪਸ਼ਟ ਤੇ ਵੱਖਰਾ ਨਾਮ ਭਰੋ।"
+        },
+        "prs": {
+          "purpose": "فرم افزودن زیرپروژه را باز می‌کند.",
+          "when": "وقتی می‌خواهید زیرپروژه جدیدی درون پروژه انتخاب‌شده ایجاد کنید، استفاده کنید.",
+          "how": "Add Sub-project را انتخاب کنید و فیلدهای نمایش‌داده‌شده برای زیرپروژه جدید را تکمیل کنید.",
+          "inputs": "پروژه والد درست را انتخاب کنید و نام و جزئیات لازم زیرپروژه را وارد کنید.",
+          "result": "فرم ایجاد زیرپروژه باز می‌شود و برای ورود اطلاعات آماده است.",
+          "notes": "پیش از ذخیره پروژه والد را بررسی کنید و نامی روشن و متمایز برای زیرپروژه وارد کنید."
+        },
+        "ps": {
+          "purpose": "د فرعي پروژې د زیاتولو فورمه پرانیزي.",
+          "when": "کله چې د ټاکل شوې پروژې دننه نوې فرعي پروژه جوړول غواړئ، دا وکاروئ.",
+          "how": "Add Sub-project وټاکئ او د نوې فرعي پروژې لپاره ښودل شوې خانې ډکې کړئ.",
+          "inputs": "سمه اصلي پروژه وټاکئ او د فرعي پروژې نوم او اړین جزئیات ولیکئ.",
+          "result": "د فرعي پروژې د جوړولو فورمه پرانیستل کېږي او د معلوماتو داخلولو لپاره چمتو کېږي.",
+          "notes": "له خوندي کولو مخکې اصلي پروژه وګورئ او د فرعي پروژې لپاره روښانه او بېل نوم ولیکئ."
         }
       },
       "handler_or_behavior": "`prOpenSubprojectForm()`"
@@ -14623,19 +14767,91 @@
       "translations": {
         "en": {
           "purpose": "Open an existing sub-project from its row.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control when you want to view or begin editing an existing sub-project.",
           "how": "Select Edit on the required sub-project to open its details.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct sub-project from the list.",
           "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
           "notes": "Confirm the correct sub-project; selecting the row opens it and does not itself save changes."
         },
         "fa": {
           "purpose": "باز کردن یک زیرپروژه موجود از ردیف آن.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "وقتی می‌خواهید جزئیات یک زیرپروژه موجود را ببینید یا ویرایش آن را آغاز کنید، از این گزینه استفاده کنید.",
           "how": "در زیرپروژه موردنظر Edit را انتخاب کنید تا جزئیات آن باز شود.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "زیرپروژه درست را از فهرست انتخاب کنید.",
           "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
           "notes": "زیرپروژه درست را بررسی کنید؛ باز کردن آن به‌تنهایی تغییرات را ذخیره نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يفتح مشروعاً فرعياً موجوداً من صفه.",
+          "when": "عندما تريد عرض تفاصيل مشروع فرعي موجود أو بدء تعديله.",
+          "how": "اختر Edit في صف المشروع الفرعي المطلوب لفتح تفاصيله.",
+          "inputs": "حدد المشروع الفرعي الصحيح من القائمة.",
+          "result": "تُفتح تفاصيل المشروع الفرعي المحدد.",
+          "notes": "تأكد من اختيار المشروع الفرعي الصحيح؛ فتح الصف لا يحفظ أي تغييرات بحد ذاته."
+        },
+        "ckb": {
+          "purpose": "پرۆژە لاوەکییەکی هەبوو لە ڕیزی خۆیەوە دەکاتەوە.",
+          "when": "کاتێک دەتەوێت وردەکارییەکانی پرۆژە لاوەکییەکی هەبوو ببینیت یان دەست بە دەستکاریکردنی بکەیت.",
+          "how": "لە ڕیزی پرۆژە لاوەکیی مەبەست Edit هەڵبژێرە بۆ کردنەوەی وردەکارییەکانی.",
+          "inputs": "پرۆژە لاوەکیی دروست لە پێڕستەکە هەڵبژێرە.",
+          "result": "وردەکارییەکانی پرۆژە لاوەکیی هەڵبژێردراو دەکرێنەوە.",
+          "notes": "دڵنیابە پرۆژە لاوەکیی دروستت هەڵبژاردووە؛ کردنەوەی ڕیز بەخۆی هیچ گۆڕانکارییەک پاشەکەوت ناکات."
+        },
+        "kmr": {
+          "purpose": "Projeyeke jêrîn a heyî ji rêza wê vedike.",
+          "when": "Dema ku tu dixwazî hûrguliyên projeyeke jêrîn a heyî bibînî an dest bi guherandina wê bikî.",
+          "how": "Li rêza projeya jêrîn a xwestî Edit hilbijêre da ku hûrguliyên wê veke.",
+          "inputs": "Projeya jêrîn a rast ji lîsteyê hilbijêre.",
+          "result": "Hûrguliyên projeya jêrîn a hilbijartî vedibin.",
+          "notes": "Piştrast be ku projeya jêrîn a rast hilbijartiye; vekirina rêzê bi xwe tu guherînan tomar nake."
+        },
+        "tr": {
+          "purpose": "Mevcut bir alt projeyi kendi satırından açar.",
+          "when": "Mevcut bir alt projenin ayrıntılarını görüntülemek veya düzenlemeye başlamak istediğinizde kullanın.",
+          "how": "Ayrıntılarını açmak için ilgili alt projenin satırında Edit'i seçin.",
+          "inputs": "Listeden doğru alt projeyi seçin.",
+          "result": "Seçilen alt projenin ayrıntıları açılır.",
+          "notes": "Doğru alt projenin seçildiğini doğrulayın; satırı açmak tek başına değişiklikleri kaydetmez."
+        },
+        "pl": {
+          "purpose": "Otwiera istniejący podprojekt z jego wiersza.",
+          "when": "Użyj, gdy chcesz wyświetlić szczegóły istniejącego podprojektu lub rozpocząć jego edycję.",
+          "how": "Wybierz Edit w wierszu właściwego podprojektu, aby otworzyć jego szczegóły.",
+          "inputs": "Wybierz właściwy podprojekt z listy.",
+          "result": "Otwierają się szczegóły wybranego podprojektu.",
+          "notes": "Upewnij się, że wybrano właściwy podprojekt; samo otwarcie wiersza nie zapisuje zmian."
+        },
+        "ur": {
+          "purpose": "موجودہ ذیلی منصوبے کو اس کی قطار سے کھولتا ہے۔",
+          "when": "جب موجودہ ذیلی منصوبے کی تفصیلات دیکھنی یا اس میں ترمیم شروع کرنی ہو تو استعمال کریں۔",
+          "how": "تفصیلات کھولنے کے لیے مطلوبہ ذیلی منصوبے کی قطار میں Edit منتخب کریں۔",
+          "inputs": "فہرست میں سے درست ذیلی منصوبہ منتخب کریں۔",
+          "result": "منتخب ذیلی منصوبے کی تفصیلات کھل جاتی ہیں۔",
+          "notes": "تصدیق کریں کہ درست ذیلی منصوبہ منتخب ہے؛ قطار کھولنے سے خود تبدیلیاں محفوظ نہیں ہوتیں۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਨੂੰ ਇਸਦੀ ਕਤਾਰ ਵਿੱਚੋਂ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦੇ ਵੇਰਵੇ ਵੇਖਣ ਜਾਂ ਸੋਧ ਸ਼ੁਰੂ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਵੇਰਵੇ ਖੋਲ੍ਹਣ ਲਈ ਲੋੜੀਂਦੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦੀ ਕਤਾਰ ਵਿੱਚ Edit ਚੁਣੋ।",
+          "inputs": "ਸੂਚੀ ਵਿੱਚੋਂ ਸਹੀ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਚੁਣੋ।",
+          "result": "ਚੁਣੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦੇ ਵੇਰਵੇ ਖੁੱਲ੍ਹਦੇ ਹਨ।",
+          "notes": "ਪੁਸ਼ਟੀ ਕਰੋ ਕਿ ਸਹੀ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਚੁਣਿਆ ਹੈ؛ ਕਤਾਰ ਖੋਲ੍ਹਣ ਨਾਲ ਆਪਣੇ ਆਪ ਤਬਦੀਲੀਆਂ ਸੇਵ ਨਹੀਂ ਹੁੰਦੀਆਂ।"
+        },
+        "prs": {
+          "purpose": "یک زیرپروژه موجود را از ردیف آن باز می‌کند.",
+          "when": "وقتی می‌خواهید جزئیات یک زیرپروژه موجود را ببینید یا ویرایش آن را آغاز کنید، استفاده کنید.",
+          "how": "برای بازکردن جزئیات زیرپروژه موردنظر، در ردیف آن Edit را انتخاب کنید.",
+          "inputs": "زیرپروژه درست را از فهرست انتخاب کنید.",
+          "result": "جزئیات زیرپروژه انتخاب‌شده باز می‌شود.",
+          "notes": "مطمئن شوید زیرپروژه درست انتخاب شده است؛ بازکردن ردیف به‌تنهایی تغییرات را ذخیره نمی‌کند."
+        },
+        "ps": {
+          "purpose": "موجوده فرعي پروژه د هغې له قطار څخه پرانیزي.",
+          "when": "کله چې د موجودې فرعي پروژې جزئیات لیدل یا سمون پیلول غواړئ، دا وکاروئ.",
+          "how": "د اړوندې فرعي پروژې په قطار کې Edit وټاکئ څو جزئیات یې پرانیزي.",
+          "inputs": "له لېست څخه سمه فرعي پروژه وټاکئ.",
+          "result": "د ټاکل شوې فرعي پروژې جزئیات پرانیستل کېږي.",
+          "notes": "ډاډ ترلاسه کړئ چې سمه فرعي پروژه مو ټاکلې؛ د قطار پرانیستل پخپله بدلونونه نه خوندي کوي."
         }
       },
       "handler_or_behavior": "`event.stopPropagation();prOpenSubproject(`"
@@ -14649,19 +14865,91 @@
       "translations": {
         "en": {
           "purpose": "Enable sub-project tracking and start adding a sub-project.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control when you want to enable the sub-project workflow and start creating a sub-project.",
           "how": "Select Add Sub-project to enable the sub-project workflow and open the creation form.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the intended parent project before starting sub-project creation.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "Check that the parent project is the intended one before creating the sub-project."
         },
         "fa": {
           "purpose": "فعال کردن پیگیری زیرپروژه‌ها و شروع افزودن یک مورد.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "وقتی می‌خواهید گردش‌کار زیرپروژه‌ها را فعال و ایجاد یک مورد جدید را شروع کنید، از این گزینه استفاده کنید.",
           "how": "گزینه Add Sub-project را انتخاب کنید تا گردش‌کار زیرپروژه فعال و فرم ایجاد باز شود.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "پیش از آغاز ایجاد، پروژه والد درست را انتخاب کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "پیش از ایجاد، مطمئن شوید پروژه والد درست انتخاب شده است."
+        },
+        "ar": {
+          "purpose": "يفعّل تتبع المشاريع الفرعية ويبدأ إضافة مشروع فرعي.",
+          "when": "عندما تريد تفعيل سير عمل المشاريع الفرعية والبدء بإنشاء مشروع فرعي.",
+          "how": "اختر Add Sub-project لتفعيل سير العمل وفتح نموذج الإنشاء.",
+          "inputs": "حدد المشروع الأب الصحيح قبل بدء إنشاء المشروع الفرعي.",
+          "result": "يُفعّل سير عمل المشاريع الفرعية ويُفتح نموذج الإنشاء.",
+          "notes": "تحقق من أن المشروع الأب هو المشروع المقصود قبل إنشاء المشروع الفرعي."
+        },
+        "ckb": {
+          "purpose": "بەدواداچوونی پرۆژە لاوەکییەکان چالاک دەکات و دەست بە زیادکردنی پرۆژەیەکی لاوەکی دەکات.",
+          "when": "کاتێک دەتەوێت ڕەوتی کاری پرۆژە لاوەکییەکان چالاک بکەیت و دەست بە دروستکردنی یەکێک بکەیت.",
+          "how": "Add Sub-project هەڵبژێرە بۆ چالاککردنی ڕەوتی کار و کردنەوەی فۆڕمی دروستکردن.",
+          "inputs": "پێش دەستپێکردنی دروستکردن پرۆژەی باوانی دروست هەڵبژێرە.",
+          "result": "ڕەوتی کاری پرۆژە لاوەکییەکان چالاک دەبێت و فۆڕمی دروستکردن دەکرێتەوە.",
+          "notes": "پێش دروستکردنی پرۆژە لاوەکی دڵنیابە پرۆژەی باوان ئەوەیە کە مەبەستتە."
+        },
+        "kmr": {
+          "purpose": "Şopandina projeyên jêrîn çalak dike û dest bi zêdekirina projeyeke jêrîn dike.",
+          "when": "Dema ku tu dixwazî rêça xebata projeyên jêrîn çalak bikî û dest bi çêkirina yekê bikî.",
+          "how": "Add Sub-project hilbijêre da ku rêça xebatê çalak bike û forma çêkirinê veke.",
+          "inputs": "Berî destpêkirina çêkirinê projeya dê ya rast hilbijêre.",
+          "result": "Rêça xebata projeyên jêrîn çalak dibe û forma çêkirinê vedibe.",
+          "notes": "Berî çêkirina projeya jêrîn piştrast bike ku projeya dê ya armancê ye."
+        },
+        "tr": {
+          "purpose": "Alt proje takibini etkinleştirir ve alt proje eklemeyi başlatır.",
+          "when": "Alt proje iş akışını etkinleştirip yeni bir alt proje oluşturmaya başlamak istediğinizde kullanın.",
+          "how": "Alt proje iş akışını etkinleştirmek ve oluşturma formunu açmak için Add Sub-project'i seçin.",
+          "inputs": "Oluşturma işlemine başlamadan önce doğru üst projeyi seçin.",
+          "result": "Alt proje iş akışı etkinleşir ve oluşturma formu açılır.",
+          "notes": "Alt projeyi oluşturmadan önce üst projenin amaçlanan proje olduğunu doğrulayın."
+        },
+        "pl": {
+          "purpose": "Włącza śledzenie podprojektów i rozpoczyna dodawanie podprojektu.",
+          "when": "Użyj, gdy chcesz włączyć obsługę podprojektów i rozpocząć tworzenie nowego.",
+          "how": "Wybierz Add Sub-project, aby włączyć przepływ pracy podprojektów i otworzyć formularz tworzenia.",
+          "inputs": "Przed rozpoczęciem tworzenia wybierz właściwy projekt nadrzędny.",
+          "result": "Obsługa podprojektów zostaje włączona i otwiera się formularz tworzenia.",
+          "notes": "Przed utworzeniem podprojektu sprawdź, czy wybrano właściwy projekt nadrzędny."
+        },
+        "ur": {
+          "purpose": "ذیلی منصوبوں کی ٹریکنگ فعال کرتا ہے اور ذیلی منصوبہ شامل کرنے کا عمل شروع کرتا ہے۔",
+          "when": "جب ذیلی منصوبوں کا ورک فلو فعال کرکے نیا ذیلی منصوبہ بنانا شروع کرنا ہو تو استعمال کریں۔",
+          "how": "ذیلی منصوبوں کا ورک فلو فعال کرنے اور تخلیق کا فارم کھولنے کے لیے Add Sub-project منتخب کریں۔",
+          "inputs": "تخلیق شروع کرنے سے پہلے درست بنیادی پروجیکٹ منتخب کریں۔",
+          "result": "ذیلی منصوبوں کا ورک فلو فعال ہو جاتا ہے اور تخلیق کا فارم کھل جاتا ہے۔",
+          "notes": "ذیلی منصوبہ بنانے سے پہلے تصدیق کریں کہ بنیادی پروجیکٹ وہی ہے جسے آپ چاہتے ہیں۔"
+        },
+        "pa": {
+          "purpose": "ਉਪ-ਪ੍ਰੋਜੈਕਟ ਟ੍ਰੈਕਿੰਗ ਚਾਲੂ ਕਰਦਾ ਹੈ ਅਤੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਜੋੜਨਾ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਵਰਕਫਲੋ ਚਾਲੂ ਕਰਕੇ ਨਵਾਂ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਬਣਾਉਣਾ ਸ਼ੁਰੂ ਕਰਨਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਉਪ-ਪ੍ਰੋਜੈਕਟ ਵਰਕਫਲੋ ਚਾਲੂ ਕਰਨ ਅਤੇ ਬਣਾਉਣ ਦਾ ਫਾਰਮ ਖੋਲ੍ਹਣ ਲਈ Add Sub-project ਚੁਣੋ।",
+          "inputs": "ਬਣਾਉਣਾ ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਸਹੀ ਮੂਲ ਪ੍ਰੋਜੈਕਟ ਚੁਣੋ।",
+          "result": "ਉਪ-ਪ੍ਰੋਜੈਕਟ ਵਰਕਫਲੋ ਚਾਲੂ ਹੋ ਜਾਂਦਾ ਹੈ ਅਤੇ ਬਣਾਉਣ ਦਾ ਫਾਰਮ ਖੁੱਲ੍ਹਦਾ ਹੈ।",
+          "notes": "ਉਪ-ਪ੍ਰੋਜੈਕਟ ਬਣਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁਸ਼ਟੀ ਕਰੋ ਕਿ ਮੂਲ ਪ੍ਰੋਜੈਕਟ ਉਹੀ ਹੈ ਜਿਸਦੀ ਲੋੜ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "پیگیری زیرپروژه‌ها را فعال و روند افزودن یک زیرپروژه را آغاز می‌کند.",
+          "when": "وقتی می‌خواهید گردش‌کار زیرپروژه‌ها را فعال و ایجاد یک مورد جدید را شروع کنید، استفاده کنید.",
+          "how": "برای فعال‌کردن گردش‌کار زیرپروژه‌ها و بازکردن فرم ایجاد، Add Sub-project را انتخاب کنید.",
+          "inputs": "پیش از آغاز ایجاد، پروژه والد درست را انتخاب کنید.",
+          "result": "گردش‌کار زیرپروژه‌ها فعال و فرم ایجاد باز می‌شود.",
+          "notes": "پیش از ایجاد زیرپروژه مطمئن شوید پروژه والد همان پروژه موردنظر است."
+        },
+        "ps": {
+          "purpose": "د فرعي پروژو څارنه فعالوي او د فرعي پروژې زیاتول پیلوي.",
+          "when": "کله چې د فرعي پروژو کاري بهیر فعالول او د نوې فرعي پروژې جوړول پیلول غواړئ، دا وکاروئ.",
+          "how": "د فرعي پروژو کاري بهیر د فعالولو او د جوړولو فورم د پرانیستلو لپاره Add Sub-project وټاکئ.",
+          "inputs": "د جوړولو له پیل مخکې سمه اصلي پروژه وټاکئ.",
+          "result": "د فرعي پروژو کاري بهیر فعالېږي او د جوړولو فورمه پرانیستل کېږي.",
+          "notes": "د فرعي پروژې له جوړولو مخکې تایید کړئ چې اصلي پروژه هماغه ده چې موخه مو ده."
         }
       },
       "handler_or_behavior": "`prEnableSubprojectsAndAdd()`"
@@ -14675,19 +14963,91 @@
       "translations": {
         "en": {
           "purpose": "Add a new sub-project to the current project.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control when you want to add a new sub-project to the current project.",
           "how": "Select Add Sub-project, enter the required details and complete the form’s save action.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct parent project and enter the details for the new sub-project.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "Ensure the new sub-project belongs to the correct parent project and is not a duplicate."
         },
         "fa": {
           "purpose": "افزودن زیرپروژه جدید به پروژه فعلی.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "وقتی می‌خواهید زیرپروژه جدیدی به پروژه فعلی اضافه کنید، از این گزینه استفاده کنید.",
           "how": "Add Sub-project را انتخاب کنید، جزئیات لازم را وارد و فرم را ذخیره کنید.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "پروژه والد درست را انتخاب کنید و جزئیات زیرپروژه جدید را وارد کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "بررسی کنید زیرپروژه به پروژه والد صحیح تعلق دارد و مورد تکراری نیست."
+        },
+        "ar": {
+          "purpose": "يضيف مشروعاً فرعياً جديداً إلى المشروع الحالي.",
+          "when": "عندما تريد إنشاء مشروع فرعي جديد ضمن المشروع الحالي.",
+          "how": "اختر Add Sub-project، وأدخل التفاصيل المطلوبة، ثم أكمل خطوة الحفظ في النموذج.",
+          "inputs": "حدد المشروع الأب الصحيح وأدخل تفاصيل المشروع الفرعي الجديد.",
+          "result": "يُضاف المشروع الفرعي إذا نجح التحقق وأكد التطبيق الحفظ.",
+          "notes": "تأكد من أن المشروع الفرعي الجديد تابع للمشروع الأب الصحيح وليس نسخة مكررة."
+        },
+        "ckb": {
+          "purpose": "پرۆژە لاوەکییەکی نوێ بۆ پرۆژەی ئێستا زیاد دەکات.",
+          "when": "کاتێک دەتەوێت پرۆژە لاوەکییەکی نوێ بۆ پرۆژەی ئێستا دروست بکەیت.",
+          "how": "Add Sub-project هەڵبژێرە، وردەکارییە داواکراوەکان بنووسە و کردارەکەی پاشەکەوتکردنی فۆڕم تەواو بکە.",
+          "inputs": "پرۆژەی باوانی دروست هەڵبژێرە و وردەکارییەکانی پرۆژە لاوەکیی نوێ بنووسە.",
+          "result": "ئەگەر پشتڕاستکردنەوە سەرکەوتوو بێت و ئەپەکە پاشەکەوتکردن پشتڕاست بکاتەوە، پرۆژە لاوەکی زیاد دەکرێت.",
+          "notes": "دڵنیابە پرۆژە لاوەکیی نوێ سەر بە پرۆژەی باوانی دروستە و دووبارە نییە."
+        },
+        "kmr": {
+          "purpose": "Projeyeke jêrîn a nû li projeya niha zêde dike.",
+          "when": "Dema ku tu dixwazî ji bo projeya niha projeyeke jêrîn a nû çêkî.",
+          "how": "Add Sub-project hilbijêre, hûrguliyên pêwîst binivîse û kiryara tomarkirina formê temam bike.",
+          "inputs": "Projeya dê ya rast hilbijêre û hûrguliyên projeya jêrîn a nû binivîse.",
+          "result": "Projeya jêrîn tê zêdekirin heke kontrol serkeftî be û sepan tomarkirinê piştrast bike.",
+          "notes": "Piştrast bike ku projeya jêrîn a nû bi projeya dê ya rast ve girêdayî ye û dubare nîne."
+        },
+        "tr": {
+          "purpose": "Geçerli projeye yeni bir alt proje ekler.",
+          "when": "Geçerli projeye yeni bir alt proje oluşturmak istediğinizde kullanın.",
+          "how": "Add Sub-project'i seçin, gerekli ayrıntıları girin ve formun kaydetme işlemini tamamlayın.",
+          "inputs": "Doğru üst projeyi seçin ve yeni alt projenin ayrıntılarını girin.",
+          "result": "Doğrulama başarılı olur ve uygulama kaydetmeyi onaylarsa alt proje eklenir.",
+          "notes": "Yeni alt projenin doğru üst projeye ait olduğundan ve yinelenmediğinden emin olun."
+        },
+        "pl": {
+          "purpose": "Dodaje nowy podprojekt do bieżącego projektu.",
+          "when": "Użyj, gdy chcesz utworzyć nowy podprojekt w bieżącym projekcie.",
+          "how": "Wybierz Add Sub-project, wprowadź wymagane szczegóły i wykonaj zapis formularza.",
+          "inputs": "Wybierz właściwy projekt nadrzędny i wprowadź szczegóły nowego podprojektu.",
+          "result": "Podprojekt zostanie dodany, jeśli walidacja się powiedzie i aplikacja potwierdzi zapis.",
+          "notes": "Upewnij się, że nowy podprojekt należy do właściwego projektu nadrzędnego i nie jest duplikatem."
+        },
+        "ur": {
+          "purpose": "موجودہ پروجیکٹ میں نیا ذیلی منصوبہ شامل کرتا ہے۔",
+          "when": "جب موجودہ پروجیکٹ میں نیا ذیلی منصوبہ بنانا ہو تو استعمال کریں۔",
+          "how": "Add Sub-project منتخب کریں، مطلوبہ تفصیلات درج کریں اور فارم محفوظ کرنے کا عمل مکمل کریں۔",
+          "inputs": "درست بنیادی پروجیکٹ منتخب کریں اور نئے ذیلی منصوبے کی تفصیلات درج کریں۔",
+          "result": "توثیق کامیاب ہو اور ایپ محفوظ کرنے کی تصدیق کرے تو ذیلی منصوبہ شامل ہو جاتا ہے۔",
+          "notes": "یقینی بنائیں کہ نیا ذیلی منصوبہ درست بنیادی پروجیکٹ سے تعلق رکھتا ہے اور نقل نہیں ہے۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਨਵਾਂ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਜੋੜਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਨਵਾਂ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਬਣਾਉਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Add Sub-project ਚੁਣੋ, ਲੋੜੀਂਦੇ ਵੇਰਵੇ ਭਰੋ ਅਤੇ ਫਾਰਮ ਸੇਵ ਕਰਨ ਦੀ ਕਾਰਵਾਈ ਪੂਰੀ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਮੂਲ ਪ੍ਰੋਜੈਕਟ ਚੁਣੋ ਅਤੇ ਨਵੇਂ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦੇ ਵੇਰਵੇ ਭਰੋ।",
+          "result": "ਜਾਂਚ ਸਫਲ ਹੋਵੇ ਅਤੇ ਐਪ ਸੇਵ ਕਰਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਜੋੜਿਆ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਨਵਾਂ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਸਹੀ ਮੂਲ ਪ੍ਰੋਜੈਕਟ ਨਾਲ ਸਬੰਧਤ ਹੈ ਅਤੇ ਡੁਪਲੀਕੇਟ ਨਹੀਂ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "یک زیرپروژه جدید به پروژه فعلی اضافه می‌کند.",
+          "when": "وقتی می‌خواهید زیرپروژه جدیدی به پروژه فعلی اضافه کنید، استفاده کنید.",
+          "how": "Add Sub-project را انتخاب کنید، جزئیات لازم را وارد و ذخیره فرم را تکمیل کنید.",
+          "inputs": "پروژه والد درست را انتخاب کنید و جزئیات زیرپروژه جدید را وارد کنید.",
+          "result": "اگر اعتبارسنجی موفق باشد و برنامه ذخیره را تأیید کند، زیرپروژه اضافه می‌شود.",
+          "notes": "مطمئن شوید زیرپروژه جدید متعلق به پروژه والد درست است و تکراری نیست."
+        },
+        "ps": {
+          "purpose": "اوسنۍ پروژې ته نوې فرعي پروژه زیاتوي.",
+          "when": "کله چې اوسنۍ پروژې ته نوې فرعي پروژه جوړول غواړئ، دا وکاروئ.",
+          "how": "Add Sub-project وټاکئ، اړین جزئیات ولیکئ او د فورم د خوندي کولو کړنه بشپړه کړئ.",
+          "inputs": "سمه اصلي پروژه وټاکئ او د نوې فرعي پروژې جزئیات ولیکئ.",
+          "result": "که ارزونه بریالۍ شي او اپلیکیشن خوندي کول تایید کړي، فرعي پروژه زیاتېږي.",
+          "notes": "ډاډ ترلاسه کړئ چې نوې فرعي پروژه له سمې اصلي پروژې سره تړلې ده او تکراري نه ده."
         }
       },
       "handler_or_behavior": "`prAddSubproject()`"
