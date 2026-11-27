@@ -12973,7 +12973,7 @@
       "audit_ref": "INV-154",
       "element_id": null,
       "label": "↥ Share PDF",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Shares the generated report PDF using the device's available file-sharing options.",
@@ -13071,7 +13071,7 @@
       "audit_ref": "INV-155",
       "element_id": "makePdf",
       "label": "Create PDF",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Generates a PDF file from the current financial report preview.",
@@ -13169,7 +13169,7 @@
       "audit_ref": "INV-156",
       "element_id": "downloadPdf",
       "label": "Download PDF",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Downloads the PDF generated from the current financial report preview.",
@@ -13267,7 +13267,7 @@
       "audit_ref": "INV-157",
       "element_id": "sharePdf",
       "label": "↗ Share PDF",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Shares the PDF generated from the current financial report preview using the device's file-sharing options.",
