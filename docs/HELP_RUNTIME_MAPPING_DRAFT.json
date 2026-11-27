@@ -5,11 +5,11 @@
   "branch": "development",
   "baseline": {
     "runtime_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
-    "runtime_blob_sha": "facc744a955a6987597de095c87c0e94726fd0f3",
+    "runtime_blob_sha": "d6907f2d0d962ed4b1ed7faa89d90355004b21aa",
     "registry_blob_sha": "f63754128fd09125290df4045f6f4b6fc03b3545",
     "inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
     "help_content_blob_sha": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
-    "help_runtime_blob_sha": "6d331c54bbf1a77ecffcc95127709d337c48a6c1"
+    "help_runtime_blob_sha": "2911fd6856b15859c1f16d6a967698ee87f153c7"
   },
   "policy": {
     "label_only_matching": false,
@@ -32,19 +32,20 @@
       "ID_CANDIDATE_REQUIRES_BROWSER_TEST": 4,
       "EXEMPT_NOT_MAPPED": 1
     },
-    "notes": "R60 contains 90 adjacent Help controls: 85 static selectors and five dynamic-template attributes. The ten Main Menu and Accountancy destinations were added with exact parent-scoped selectors. Runtime and Version Authority now reference the same R60 blobs. Real browser verification remains pending.",
+    "notes": "R61 has 97 mapped adjacent Help IDs: 74 scoped static selectors, 13 exact unique-ID selectors, five scoped unique-handler selectors and five dynamic-template attributes. The two duplicate Contract bindings (THA-HLP-0006 and THA-HLP-0008) were consolidated into one exact #ctFormCard selector each. R60 adds four Main Menu and six Accountancy destinations plus seven critical navigation/reset/workspace actions. All 92 static runtime bindings now have unique Help IDs. Real browser tests and deployment remain pending.",
     "runtime_publishable_entries": 132,
     "runtime_languages": 11,
-    "static_controls_attached": 85,
+    "static_controls_attached": 92,
     "draft_static_controls_skipped": 2,
     "dynamic_template_controls_pending": 10,
-    "help_ids_attached": 90,
+    "help_ids_attached": 97,
     "browser_tests_run": 0,
     "dynamic_template_controls_attached": 5,
     "draft_controls_skipped": 12,
     "en_fa_draft_entries_corrected": 9,
     "id_selector_controls_attached": 13,
-    "scoped_handler_controls_attached": 5
+    "scoped_handler_controls_attached": 5,
+    "scoped_static_controls_attached": 74
   },
   "mappings": [
     {
