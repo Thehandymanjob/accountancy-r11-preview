@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261126-R40",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R40",
-    "indexBlobSha": "830b9884aa959513497f70e5af247ceec7923db0",
+    "buildId": "THA-273-R11-PREVIEW-20261127-R64",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R64",
+    "indexBlobSha": "e02488ee50974dfd0511d97f3d2be95a9ffc2528",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,9 +30,11 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "830b9884aa959513497f70e5af247ceec7923db0",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9aa442e38737c5aa5b974077c424fc0fab612462",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7"
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "e02488ee50974dfd0511d97f3d2be95a9ffc2528",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js": "0d0b03909c52b48f64ff67607c47865c220fae8f"
     }
   },
   "rules": {
@@ -46,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "The R11 page and every file in its local runtime dependency set are pinned by Git blob SHA. Root version.json, if present, is separate metadata and is not the authority for this R11 page.",
+  "note": "R64 contains 131 adjacent contextual Help controls: 113 static, 14 dynamic-template and four PDF popup bridges. One publishable Help ID (Check for Updates) remains intentionally unmapped because its Preview updater control is disabled. Version Authority Gate R64 PASS (run 46072258368); all 24 pinned runtime assets validated. Preview browser/iPhone Safari verification remains pending. No Preview deployment, merge or Production promotion is authorized.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {
@@ -1845,6 +1847,1071 @@
       "userApproval": {
         "result": "authorized for Preview only",
         "details": "User explicitly instructed continuation of the Preview-only Last Updated repair. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-26-HELP-USER-GUIDE-MULTILINGUAL-R42",
+      "dateStarted": "2026-11-26",
+      "purpose": "Complete guide-only translation of all 12 User Guide chapters in seven supported languages while keeping the application interface English/LTR. Preview only.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "2f3ada225b4eb69a2c52adb989001b228fd1eb99",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 45907425534,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45907425534",
+        "details": "R11 Version Authority Gate passed for Preview R42 commit 46ddf91078f5807a54b396eb6af787e968ddd8b1; all authority-pinned runtime assets and R42 identity matched."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "All 8 inline JavaScript blocks compile with V8. Guide dictionary audit confirms exactly 12 chapters for each of 7 languages. Application-wide translation/RTL identifiers absent. Button-level Help ID registry remains incomplete; no iPhone Safari test."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Not deployed. PR #96 intentionally retained as Draft because dedicated button Help IDs and six-field help records remain incomplete."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting iPhone Safari verification after a confirmed Preview deployment."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User instructed continuation of the Help / Language / User Guide work. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-26-HELP-GUIDE-URDU-PUNJABI-DARI-PASHTO-R43",
+      "dateStarted": "2026-11-26",
+      "purpose": "Add full 12-chapter User Guide translations for Urdu, Punjabi, Dari and Pashto. Guide-only language selection; application UI remains English/LTR. Preview only.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_INDEX_FA.md",
+        "docs/REPAIR_HISTORY_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "784b1b809c5e17c5c7290971317f5b61920f0e82",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 45910333714,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45910333714",
+        "details": "R11 Version Authority Gate passed after the R43 index blob SHA and runtime asset pin were synchronized. The Gate validated repository/branch identity, R43 Build ID, canonical URL, approved baseline ancestry and all 22 pinned runtime assets."
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "V8 syntax compilation PASS for all 8 inline JavaScript blocks after fixing the missing comma between the Polish and Urdu properties in GUIDE_LABELS. GUIDE_LANGS, GUIDE_LABELS and GUIDE_CONTENT align across 11 languages; every language has exactly 12 chapters. Application interface remains English/LTR by source inspection. These are static checks only; live iPhone Safari testing remains pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft; do not deploy or merge until the remaining Help ID/button-help requirements and release controls are complete."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting an authorized Preview deployment and iPhone Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User instructed adding translations and languages. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-PERSIAN-SHIR-KHORSHID-FLAG-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Use the requested Shir-o-Khorshid flag marker beside Persian in the User Guide language selector. Preview only.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html"
+      ],
+      "previewDevelopmentCommitSha": "33a0fb14255a6148188ac9277f4513bba7d8fd06",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46050385212,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46050385212",
+        "details": "R11 Version Authority Gate passed after aligning the manifest with the exact current index blob SHA. All 22 pinned runtime assets matched."
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "All 8 inline JavaScript blocks compiled with V8. The requested Persian flag marker was confirmed beside Persian in the language selector. No accounting or storage logic changed."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Not deployed; PR #96 remains Draft while Help Registry and button-level content work is completed."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting authorized Preview deployment and user test in iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User explicitly requested the Shir-o-Khorshid flag beside Persian. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-TO-USER-GUIDE-LABEL-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Rename the Settings Help shortcut, language-selection page heading and navigation label to User Guide. Keep the application interface English/LTR and preserve guide-language behavior. Preview only.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "215fb6f09aac04aab280cb1e677318f66c5a316d",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46050478710,
+        "url": "https://github.com/thehandymanjob/accountancy-r11-preview/actions/runs/46050478710",
+        "details": "R11 Version Authority Gate passed for the updated User Guide label and current R43 manifest. All 22 pinned runtime assets matched."
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "All 8 inline JavaScript blocks compiled with V8. Confirmed the Settings shortcut, page heading, navigation label and guide instruction now say User Guide. Application language behavior remains guide-only; interface remains English/LTR."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Not deployed; PR #96 remains Draft while the 229-entry Help ID registry content is completed and audited."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting authorized Preview deployment and user test in iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User requested renaming Help to User Guide and asked to continue work in Preview. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-FACTORY-RESET-SAFETY-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Make Factory Reset fail closed until the approved backup, isolated Preview database, verified emergency snapshot file, explicit confirmation and recovery preflight all pass.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "d453959f3ce29d4e42f6fe03f924d733b7d2782a",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46053277888,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46053277888",
+        "details": "The latest R45 PR #96 head passed the R11 Version Authority Gate after the recovery-engine digest correction. Repository/branch identity, approved baseline ancestry, R45 Build ID and canonical URL, index blob SHA, reset-runtime SHA and all 22 pinned runtime assets matched."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "R11 Version Authority Gate passed all 22 pinned runtime assets. V8 syntax compilation passed for the complete reset runtime. Static source checks confirm exact Preview DB identity, 17-domain backup verification, independent converted-file validation, SHA-256 re-selection of saved emergency snapshot, fail-closed final gate and recovery-lock retry. No live browser execution, failure-injection test or destructive reset was performed. Additional defense-in-depth: the destructive reset helper is no longer exposed on the global HandymanV273LegacyReset object and enforces the Preview database identity internally as well as at the final UI gate. Native HTML fail-closed hardening also sets the final Reset button disabled in the markup and in both modal transitions, so a missing or failed reset guard script cannot leave the destructive control enabled. Recovery-engine digest semantics were inspected directly. Emergency snapshot verification now parses the package, checks portable format/algorithm, Preview database, full-database scope, exact 17-domain set, record identities and uniqueness, then recomputes SHA-256 over canonical JSON.stringify(payload), matching the recovery engine contract. Both the generated Blob and the reselected saved file use this validator. R2 corrected the emergency snapshot digest comparison to match v264-recovery.js: parse the portable backup and recompute SHA-256 over JSON.stringify(payload), then verify exact format, Preview database, full scope, 17 domains, record IDs and uniqueness. The generated Blob and reselected saved file both pass this source-level validator design; live browser execution remains untested."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft for the separate unfinished Help ID registry. Preview Pages deployment is intentionally not started."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting a confirmed Preview deployment and user iPhone Safari test. Do not execute a destructive reset during smoke testing."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Preview-only repair; awaiting user Safari test and explicit approval."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-RUNTIME-ENGINE-R46-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Implement a contextual User Guide runtime on Preview development. Reuse the existing 12-chapter, 11-language User Guide; package only 132 CONTENT_COMPLETE Help entries with all six fields in all 11 languages; add an accessible contextual help panel and an explicit allowlist of 14 scoped static control bindings. Leave drafts unpublished and dynamic templates pending.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        ".github/workflows/r11-version-authority.yml",
+        "VERSION-AUTHORITY.json",
+        "docs/HELP_ID_REGISTRY_DRAFT.json",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_HANDLER_SELECTOR_REFINEMENT_31_DRAFT.json",
+        "docs/HELP_HANDLER_SELECTOR_REFINEMENT_31_20261127.md",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "5be1af1db6458b08355adf2c1c565f9d40b9f202",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46067064751,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46067064751",
+        "details": "R11 Version Authority Gate passed for R46 on PR #96. The R46 identity, approved baseline ancestry, canonical URL, index SHA and all 24 pinned runtime assets matched."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "V8 syntax compilation passed for all 8 inline scripts and both new external scripts. Content bundle parsed with 132 publishable entries, 11 languages and all six fields present. Fourteen scoped static selector bindings configured. No browser DOM, interaction, mobile or Safari test."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting Preview deployment and user verification in iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User directed continuation of the User Guide / Help ID implementation. No Production promotion was authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-DYNAMIC-TEMPLATES-R47-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Attach five completed contextual Help IDs directly to their dynamic rendering templates: pagination page numbers, receipt clip, active Records invoice View/Delete, and Deleted Records invoice View. Preserve the existing handlers and keep Draft topics unpublished.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_HANDLER_SELECTOR_REFINEMENT_31_DRAFT.json",
+        "docs/HELP_HANDLER_SELECTOR_REFINEMENT_31_20261127.md",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "cc904bd0d73bf77ca165ccbf84b59fb6bf7e69ef",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46067344418,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46067344418",
+        "details": "R11 Version Authority Gate passed on PR #96 for R47. The R47 Build ID, canonical URL, approved baseline ancestry, index blob SHA and all 24 pinned runtime assets matched."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "V8 syntax compilation passed for all 8 inline scripts and both external Help scripts. The five new dynamic data-help-id attributes each occur exactly once in the intended template source. All 24 Version Authority asset pins match. No live browser DOM uniqueness, click interaction, generated-instance coverage, mobile layout or iPhone Safari test."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting authorized Preview deployment and user verification in iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User directed continuation of Help ID runtime wiring. Production promotion not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-EN-FA-CONTENT-CORRECTIONS-R48-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Correct English and Persian Help wording for nine Draft entries after direct comparison with the R47 source. Keep all nine entries CONTENT_DRAFT and excluded from the runtime bundle until all remaining language versions are reviewed.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js",
+        "docs/HELP_ID_REGISTRY_DRAFT.json",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_HANDLER_SELECTOR_REFINEMENT_31_DRAFT.json",
+        "docs/HELP_HANDLER_SELECTOR_REFINEMENT_31_20261127.md",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/HELP_EN_FA_CONTENT_AUDIT_9_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "3094583059e142a82ec1baf6fd3afc10dd806263",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46067913508,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46067913508",
+        "details": "R11 Version Authority Gate passed for R48 on PR #96. The R48 Build ID, canonical URL, approved baseline ancestry, index blob SHA and all 24 pinned runtime assets matched."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "V8 syntax compilation passed for all 8 inline scripts and both external Help scripts. Runtime bundle parsed: 132 CONTENT_COMPLETE entries, 11 languages, all six fields present. The nine corrected EN/FA entries remain CONTENT_DRAFT and are absent from the bundle. Five dynamic data-help-id attributes each occur exactly once. Registry baseline and runtime metadata match R47 source. No browser DOM or click interaction, mobile layout or iPhone Safari test."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft; no Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting authorized Preview deployment and user verification in iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User directed continuation of User Guide/Help ID work. No Production promotion authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-CONTEXTUAL-BINDINGS-R49-R52-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Record the R49-R52 contextual User Guide binding increments and synchronize Version Authority history with the current R52 runtime, Registry mapping and repair history. Preserve the 132-entry approved content boundary; keep draft and retired IDs unpublished.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "4e3ed85c3149ece7b8495ef84039b6e9ef43d46a",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46069069507,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46069069507",
+        "details": "R52 Version Authority Gate passed. Repository/branch identity, Build ID THA-273-R11-PREVIEW-20261127-R52, canonical URL, index blob SHA and all 24 pinned runtime assets matched."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "The 37 connected Help controls comprise 32 static and five dynamic-template controls. Static selector/handler uniqueness, registry-content presence, the 32-row STATIC_BINDINGS table and V8 syntax compilation passed. Simulated-DOM checks passed for wrapper creation, hidden-state synchronization, Help-trigger event isolation, EN/FA content, Persian RTL and close behavior. This is not a live browser test; real Preview interaction, language switching, mobile layout and iPhone Safari remain unverified."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment is authorized by this bookkeeping update."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting an authorized Preview deployment and real browser/iPhone Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continuation of Help Registry and contextual Help integration. This does not authorize deployment, merge or Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-SUPPORT-MESSAGE-BINDING-R53-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Connect the completed Save Support Message contextual Help entry to its exact form-scoped submit control. Preserve the local-draft-only behavior; no online message sending is introduced.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "4e60d4a69cf3f8914908d956e18c84fe8558e60c",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46069605538,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46069605538",
+        "details": "The cumulative R54 Version Authority Gate also validates the R53 Support Message Help binding and its R53 runtime asset as part of the current R54 pinned source. No standalone R53 Gate run was recorded."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Source inspection confirms one #helpContactForm and a single submit control scoped by #helpContactForm > .pr-actions > button[type=submit]. THA-HLP-0070 is CONTENT_COMPLETE and present in the approved runtime bundle. The handler saves a local IndexedDB draft only; it does not send the message. The embedded canonical URL now matches the R53 Build ID. Live browser, language-switching, mobile and iPhone Safari tests remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting an authorized Preview deployment and real browser/iPhone Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continued Help ID connection work. This does not authorize Preview deployment, PR merge or Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-SPECIALIST-REPORT-DIAGNOSTICS-R54-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Connect six completed User Guide topics to specialist report and Monitor & Diagnostics controls using exact panel-scoped selectors. Preserve all existing actions and read-only diagnostic behavior.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "75a72f9b3a8dcccfbdf40d25a4bae0d87cbcaf08",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46069605538,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46069605538",
+        "details": "R54 Version Authority Gate passed on the cumulative R54 PR head. Repository/branch identity, approved R11 baseline ancestry, Build ID, canonical URL, index blob SHA and all 24 pinned runtime assets matched."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Six new selectors were mapped to exact parent panels and literal onclick values. The selected-period completion control is scoped to #report188Calendar; five diagnostic controls are scoped to #monitor. All six Help IDs are CONTENT_COMPLETE. Manual Git-tree comparison confirms all 24 asset pins and all five Registry/Inventory/content/runtime/index mapping baselines match. No live browser test has been performed."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting an authorized Preview deployment and real browser/iPhone Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continued completion of important and specialist Help connections. This does not authorize deployment, merge or Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-CORE-ACCOUNTING-BINDINGS-R55-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Connect six completed User Guide topics to core Accountancy actions: Save Entry, add expense category, Save Invoice, Save & Print/PDF, Save Customer and Clear Customer Form. Preserve all existing accounting handlers and data semantics.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "d8d35caaa349ed568d4ad40532eaebbb3c6142f8",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46069805600,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46069805600",
+        "details": "R55 Version Authority Gate passed. Repository/branch identity, approved R11 baseline ancestry, Build ID THA-273-R11-PREVIEW-20261127-R55, canonical URL, index blob SHA and all 24 pinned runtime assets matched."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Six new Help bindings target exact onclick attributes inside the owning Entry, expense-category, Invoice Editor and Customer panels. All six IDs are CONTENT_COMPLETE. The original financial and persistence handlers were not changed. Manual Git-tree comparison also confirms all 24 pins and all five Registry/Inventory/content/runtime/index mapping baselines match. Live browser testing remains pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting an authorized Preview deployment and real browser/iPhone Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continued prioritised Help ID connections. This does not authorize deployment, merge or Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-INVOICE-REPORTS-NAV-R56-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Connect six completed contextual Help topics to New Invoice and the five Reports & Tax menu actions using exact parent-scoped selectors.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "69ab939356ed81fd6fa4d9de786910535650056b",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46070014067,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070014067",
+        "details": "R56 Version Authority Gate passed. Repository/branch identity, approved R11 baseline ancestry, Build ID THA-273-R11-PREVIEW-20261127-R56, canonical URL, index blob SHA and all 24 pinned runtime assets matched."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Six Help topics are CONTENT_COMPLETE. New Invoice is scoped to #invoiceListArea; the five Reports & Tax destinations are scoped to #report188Menu and their exact navigation parameter. JavaScript quote escaping in the selector literals was corrected. Manual Git-tree comparison confirms Registry, Inventory, Help content, runtime and index baselines match. Live browser tests remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting an authorized Preview deployment and real browser/iPhone Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continued prioritised Help ID connections. This does not authorize deployment, merge or Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-PROJECT-WORKSPACE-BINDINGS-R57-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Connect seven completed User Guide topics to Project Workspace save, clear, edit, delete, partner, contractor and worker controls using exact page-scoped selectors.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "9eb0daa18a25adc8d9707638fea67b225b34a08e",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46070243576,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070243576",
+        "details": "R57 Version Authority Gate passed. Repository/branch identity, approved R11 baseline ancestry, Build ID THA-273-R11-PREVIEW-20261127-R57, canonical URL, index blob SHA and all 24 pinned runtime assets matched."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Seven completed Help topics use exact page-scoped selectors in Project Workspace. Save/Clear Project, Edit/Delete Project, Save Partner, Save Contractor and Save Worker are distinguished by parent page and literal handler. JavaScript quote escaping for partner/worker parameters was checked. Manual Git-tree comparison confirms Registry, Inventory, Help content, runtime and index baselines match. Live browser tests remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting an authorized Preview deployment and real browser/iPhone Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continued prioritised Help ID connections. This does not authorize deployment, merge or Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-COMPANY-CONTRACTS-PROJECT-FINANCE-R58-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Connect 11 completed User Guide topics to Company Contracts & Jobs registration, job, work-package, project expense/payment and invoice payment actions. Preserve the strict separation between Company Contracts & Jobs data and Accounting.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "4fefbb755506f784f831d30121884ae029cad756",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46070444164,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070444164",
+        "details": "R58 Version Authority Gate passed. Repository/branch identity, approved R11 baseline ancestry, Build ID THA-273-R11-PREVIEW-20261127-R58, canonical URL, index blob SHA and all 24 pinned runtime assets matched."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Eleven completed Help topics use exact selectors scoped to Company Contracts & Jobs, project finance panels and the Accounting invoice payment modal. Company project expense/payment actions remain distinct from Accounting invoice payment. All 11 IDs are CONTENT_COMPLETE. Manual Git-tree comparison confirms Registry, Inventory, Help content, runtime and index baselines match. Live browser and data-boundary tests remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting an authorized Preview deployment and real browser/iPhone Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continued prioritised Help ID connections. This does not authorize deployment, merge or Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-CONTRACTS-PROFILE-BINDINGS-R59-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Connect six completed User Guide topics to Contract creation/save/print, Business Profile save/remove logo and local Support Form clear actions.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "42173dd5f4f879f49f4b2c88910a1b3122bb50bf",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46070618031,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070618031",
+        "details": "R59 Version Authority Gate passed. Repository/branch identity, approved R11 baseline ancestry, Build ID THA-273-R11-PREVIEW-20261127-R59, canonical URL, index blob SHA and all 24 pinned runtime assets matched."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Six completed Help topics use exact selectors scoped to Contracts workspace/form, Profile & Logo and the User Guide contact form. No original contract, PDF, profile, logo or support-message logic was changed. Manual Git-tree comparison confirms all Registry/Inventory/content/runtime/index baselines match. Live browser tests remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting an authorized Preview deployment and real browser/iPhone Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continued prioritised Help ID connections. This does not authorize deployment, merge or Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-LAUNCHER-ACCOUNTANCY-NAV-R60-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Connect ten completed User Guide topics to the four Main Menu destinations and six Accountancy home destinations using exact parent-scoped navigation selectors.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "6d3e0de97ade49f96d94a574caf223752f23fe14",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46070971042,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070971042",
+        "details": "R60 cumulative Version Authority Gate passed on the synchronized R60 PR head. Repository/branch identity, R60 Build ID, canonical URL, index SHA and all 24 asset pins matched. R61 subsequently consolidated two duplicate static bindings."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Ten completed Help topics use exact selectors scoped to #appLauncher and #accountancyHome. All navigation destinations are matched by their literal handler arguments. No page routing or accountancy behavior was changed. Live browser tests remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting an authorized Preview deployment and real browser/iPhone Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continued prioritised Help ID connections. This does not authorize deployment, merge or Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-PRIMARY-NAV-ACCOUNTANCY-R60-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Connect 19 high-priority User Guide topics to main launcher, Accountancy navigation and critical controls, plus Business Workspace sidebar destinations.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "2965ff30ec9ec72d4b72b39dfdc272c9107658cd",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46070971042,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070971042",
+        "details": "R60 cumulative Version Authority Gate passed on the synchronized R60 PR head. Repository/branch identity, R60 Build ID, canonical URL, index SHA and all 24 asset pins matched. R61 subsequently consolidated two duplicate static bindings."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Nineteen selectors are scoped to the real launcher, Accountancy home and panels, Factory Reset page and Business Workspace sidebar. The Factory Reset selector uses #factoryResetPage. Manual tree verification confirms all 24 asset pins match. Live browser tests remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview deployment triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting authorized Preview deployment and live browser/iPhone Safari testing."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development only",
+        "details": "This instruction does not authorize Preview deployment, merge or Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-BINDING-DEDUPLICATION-R61-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Consolidate duplicate static Help bindings for THA-HLP-0006 and THA-HLP-0008 into one exact #ctFormCard selector each; synchronize Registry mapping and R61 build pins.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "356c155607a44762644dc85777e0120427eeeaa8",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46071360320,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071360320",
+        "details": "R61 cumulative Version Authority Gate passed. Repository/branch identity, R61 Build ID, canonical URL, index SHA and all 24 pinned runtime assets matched. The deduplicated runtime has 105 static rows with 105 unique Help IDs."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "The two duplicate Contract bindings were consolidated; the runtime now has 92 static binding rows with 92 unique Help IDs, plus five dynamic-template bindings. Mapping summary records 97 total Help IDs, 92 static, 74 scoped selectors, 13 exact-ID selectors and five scoped unique-handler selectors. Registry/content/runtime/index baselines are being synchronized for R61. Live browser tests remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting an authorized Preview deployment and real browser/iPhone Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continued Help connection work. This does not authorize deployment, merge or Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-PROJECT-DETAIL-TABS-R61-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Connect 13 completed Help topics to Project Hub navigation, partner share row, Project Detail tabs, project financial report and project/contractor form clear actions.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "e8298a0eb332989f40e49d164aca9bc68b872a00",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46071318624,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071318624",
+        "details": "R61 Version Authority Gate passed for the PR merge ref corresponding to the final R61 development head. Approved R11 ancestry, Build ID, canonical URL, index SHA and all 24 pinned runtime assets matched."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Thirteen exact selectors are scoped to Project Hub, Project Detail tab data attributes, Project Profit, Contractor form and Company Work Package form. Runtime quote escaping was corrected. Cumulative Help mapping is 110 controls (105 static and five dynamic). Live browser tests remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft; no Preview deploy."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting authorized Preview deploy and live browser/iPhone Safari tests."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development only",
+        "details": "No deployment, merge or Production promotion authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-PROJECT-WORKSPACE-DETAIL-R61-002",
+      "dateStarted": "2026-11-27",
+      "purpose": "Connect 13 completed contextual Help topics to Project Workspace creation, list navigation, partner sharing, project detail tabs, financial report, and clear-form controls.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "356c155607a44762644dc85777e0120427eeeaa8",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46071360320,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071360320",
+        "details": "R61 cumulative Version Authority Gate passed. Repository/branch identity, R61 Build ID, canonical URL, index SHA and all 24 pinned runtime assets matched. The deduplicated runtime has 105 static rows with 105 unique Help IDs."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Thirteen completed Help topics use exact Project Workspace parent selectors or data-pr-sub attributes to distinguish repeated prDetailTab handlers. The runtime has 105 static rows with 105 unique Help IDs and five dynamic-template attributes; the Registry mapping records 110 attached IDs total. Live browser tests remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting an authorized Preview deployment and real browser/iPhone Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continued Help connection work. This does not authorize deployment, merge or Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-CONTROL-PANEL-DYNAMIC-ACTIONS-R62-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Connect eight completed Help topics to Company Contracts & Jobs navigation, shared Control Panel destinations, dynamic expense category controls, Entry Saved dialog and Invoice Preview print view.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "08ab41f6a1f62898fa3b5e105426e4a3fe3f4b6f",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46071684501,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071684501",
+        "details": "R62 Version Authority Gate passed on the final R62 development head. Approved R11 ancestry, Build ID, canonical URL, index blob SHA and all 24 pinned runtime assets matched."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Eight selectors are scoped to Business Workspace, Control Panel, category picker, Entry Saved dialog and Invoice Preview. Dynamic controls are attached through the existing MutationObserver. Manual Git-tree comparison confirms all 24 runtime pins and the index SHA match. Live browser tests remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft; no Preview deploy."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting authorized Preview deployment and live browser/iPhone Safari testing."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development only",
+        "details": "No deployment, merge or Production promotion authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-DYNAMIC-LIST-RECORD-CUSTOMER-R63-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Attach nine completed contextual Help topics to dynamically generated pagination, receipt, record and customer controls; explicitly exclude the disabled Preview updater.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "ddfaa636518d8d2831b37c96cfa8391e6c445eec",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46071937988,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071937988",
+        "details": "R63 Version Authority Gate passed. Repository/branch identity, approved R11 ancestry, Build ID THA-273-R11-PREVIEW-20261127-R63, canonical URL, index blob SHA and all 24 pinned runtime assets matched."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Nine data-help-id attributes were added to pagination, receipt preview, record Edit/Delete/View and customer Edit/New Invoice/Delete templates. Existing MutationObserver handles inserted nodes. Mapping records 127 connected Help IDs (113 static and 14 dynamic-template). Check for Updates is explicitly disabled and excluded; four PDF controls remain in separate-document scope. Manual Git-tree checks confirm Registry, Inventory, Help content, runtime and index baselines match. Live browser tests remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting an authorized Preview deployment and real browser/iPhone Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continued Help connection work. This does not authorize deployment, merge or Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-PDF-POPUP-BRIDGES-R64-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Attach four completed contextual Help topics to the two generated PDF popup documents through an opener bridge to the main app's Help Runtime.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "679878191d6fdff7539fc22c341f96c3699f19e1",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46072258368,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46072258368",
+        "details": "R64 Version Authority Gate passed. Repository/branch identity, approved R11 ancestry, Build ID THA-273-R11-PREVIEW-20261127-R64, canonical URL, index blob SHA and all 24 pinned runtime assets matched."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Four Help buttons were added to the generated PDF popup documents. Each invokes the opener's THAHelpRuntime.open(helpId), focuses the main app and has a fallback status message. The Help button is independent of the PDF action. Mapping records 131 connected Help IDs (113 static, 14 dynamic-template, four PDF bridges). Manual tree checks confirm Registry, Inventory, Help content, runtime and index baselines match. Live popup/browser tests remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft. No Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting an authorized Preview deployment and real browser/iPhone Safari verification."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continued Help connection work. This does not authorize deployment, merge or Production promotion."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",

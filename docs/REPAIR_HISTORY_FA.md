@@ -486,3 +486,361 @@
 - **تست iPhone Safari:** not tested؛ منتظر بررسی کاربر پس از انتشار Preview.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
 - **ارتباط با مورد قبلی:** `ACC-CAT-001` مربوط به جداسازی و نگهداری فهرست‌های گروهی است؛ این پرونده علت مستقلِ خطای lookup در همگام‌سازی دکمه انتخاب را ثبت می‌کند.
+
+
+### HELP-GUIDE-001 — خطای نحوی در تعریف زبان‌ها و فصل‌های راهنما
+
+- **شناسه دائمی / تاریخ / وضعیت:** HELP-GUIDE-001 / 2026-11-26 / Fixed — awaiting verification.
+- **عنوان و حوزه:** خطای نحوی در دیکشنری زبان و محتوای User Guide؛ حوزه HELP.
+- **علائم مشاهده‌شده:** اسکریپت هفتم از هشت بلوک JavaScript درون HTML با خطای V8 برابر `SyntaxError: Unexpected identifier 'ur'` متوقف می‌شد؛ بنابراین تعریف زبان‌های جدید قابل اتکا نبود.
+- **محیط و نسخه:** مخزن `Thehandymanjob/accountancy-r11-preview`؛ شاخه دائمی `development`؛ برنامه v273 / R11؛ Build هدف `THA-273-R11-PREVIEW-20261126-R43`؛ PR #96 به Preview main.
+- **علت ریشه‌ای:** بین ویژگی زبان لهستانی `pl` و ویژگی اردو `ur` در شیء `GUIDE_LABELS` جداکننده ویرگول وجود نداشت. در دیکشنری `GUIDE_CONTENT` نیز مرز آرایه فصل لهستانی و ویژگی بعدی `ur` به ویرگول نیاز داشت؛ این جداکننده در یک commit تکمیلی development پیش از اصلاح نهایی این پرونده اضافه شده بود.
+- **روش تشخیص:** استخراج هشت بلوک inline از HTML و کامپایل مستقل هر بلوک با V8؛ پیش از اصلاح، بلوک هفتم FAIL و هفت بلوک دیگر PASS بودند. بررسی ساختار دیکشنری‌ها نیز برای اطمینان از تطبیق کلید زبان‌ها و تعداد فصل‌ها انجام شد.
+- **راه‌حل جاری:** افزودن ویرگول مفقود در مرز `pl` و `ur` در `GUIDE_LABELS`؛ حفظ جداکننده اصلاح‌شده در `GUIDE_CONTENT`. هیچ منطق حسابداری، داده، ذخیره‌سازی، راست‌به‌چپ رابط برنامه یا زبان UI تغییر نکرد.
+- **تست و شواهد:** پس از اصلاح، هر ۸ بلوک inline با V8 syntax compilation نتیجه PASS دادند. ممیزی دیکشنری PASS: ۱۱ زبان دارای کلیدهای همسان در `GUIDE_LANGS` و `GUIDE_LABELS` هستند و هر ۱۱ زبان دقیقاً ۱۲ فصل در `GUIDE_CONTENT` دارند. این نتایج فقط بررسی ایستا هستند و جایگزین تست واقعی iPhone Safari نیستند.
+- **فایل‌های تغییرکرده:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`، `VERSION-AUTHORITY.json`، `docs/REPAIR_INDEX_FA.md` و `docs/REPAIR_HISTORY_FA.md`.
+- **Commit کد Preview development:** `784b1b809c5e17c5c7290971317f5b61920f0e82`.
+- **PR:** #96 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96؛ Draft؛ Merge نشده.
+- **Version Authority Gate:** PASS؛ run `45910333714` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/45910333714. هویت R43، URL canonical، ancestry مبنای تأییدشده و هر ۲۲ SHA پین‌شده تطبیق داده شدند.
+- **Preview Pages / انتشار:** انجام نشده؛ R43 هنوز منتشر نشده است.
+- **iPhone Safari:** not tested؛ پس از عبور Gate و انتشار مجاز، تست انتخاب زبان، باز و بسته شدن فصل‌ها، حفظ انتخاب زبان پس از refresh و باقی ماندن رابط اصلی به انگلیسی/LTR لازم است.
+- **Production:** بدون تغییر؛ R12 و داده‌های Production خارج از دامنه این اصلاح هستند.
+- **کار باقی‌مانده:** تست واقعی iPhone Safari پس از تکمیل Help ID Registry و تأیید جداگانه مجوز انتشار؛ تا آن زمان PR #96 در حالت Draft می‌ماند و Preview Pages deploy نمی‌شود.
+
+#### بازنگری Help Registry — رفع ناسازگاری شمارنده و بازنشستگی شناسه 0219
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** اصلاح مستندات در همان پرونده HELP-GUIDE-001؛ پرونده جدید ایجاد نشد.
+- **شواهد:** Blob واقعی Registry با SHA قبلی `b2980212414c4b318d53c862f1d1a543b637d681` از GitHub خوانده شد. شمارش مستقیم JSON نشان داد 229 شناسه یکتا وجود دارد؛ 228 شناسه فعال با 228 ردیف HELP-REQUIRED در Inventory تطبیق یک‌به‌یک دارند و هیچ audit_ref تکراری یا مفقودی وجود ندارد. تمام 228 شناسه فعال دارای شش فیلد غیرخالی انگلیسی و فارسی هستند. 132 مورد در وضعیت CONTENT_COMPLETE و 96 مورد در وضعیت CONTENT_DRAFT باقی می‌مانند.
+- **اصلاح:** فیلد `content_progress` که به‌اشتباه 54/175 را نشان می‌داد با شمارش واقعی 132/96 همگام شد. شناسه `THA-HLP-0219` مربوط به `INV-256` به‌عنوان `lifecycle_status: RETIRED` و `publishable: false` مشخص شد؛ مقدار اصلی CONTENT_DRAFT برای حفظ سازگاری ساختاری دست‌نخورده ماند و شناسه هرگز دوباره استفاده نمی‌شود.
+- **اعتبارسنجی مستندات:** JSON parse موفق؛ 229 شناسه یکتا؛ 228 نقطه اتصال فعال؛ تطبیق کامل Inventory؛ بدون Help ID تکراری؛ 228 مورد دارای شش فیلد EN و FA. این بررسی، صحت معنایی همه متن‌ها یا اتصال Runtime را اثبات نمی‌کند.
+- **فایل:** `docs/HELP_ID_REGISTRY_DRAFT.json`.
+- **Commit توسعه:** `4febf9a939af938f6c9b6075fa7a8f76bd919112`.
+- **Runtime / Deploy / Safari / Production:** هنوز هیچ Help ID به دکمه runtime متصل نشده است؛ Deploy و تست Safari انجام نشده‌اند؛ Production بدون تغییر.
+- **کار باقی‌مانده:** بازبینی معنایی EN/FA طبق دامنه انتشار دو زبانه، افزودن اتصال contextual `?` به کنترل‌های تخصصی، تست پوشش/یکتایی و بررسی رفتار در Preview.
+ 
+#### بازنگری R46 — افزودن موتور اجرایی راهنمای زمینه‌ای
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ پرونده تکراری ایجاد نشد.
+- **شواهد مبنا:** صفحه واقعی `#userGuide`، ساختار ۱۲ فصل `GUIDE_CONTENT`، انتخاب زبان ۱۱گانه و تابع `applyGuideLanguage()` از قبل در سورس R45 وجود داشتند. شکاف باقی‌مانده، نبود موتور اتصال Help ID به کنترل و نمایش متن اختصاصی هر کنترل بود.
+- **اقدام R46:** دو فایل مستقل `tha-help-content-v1.js` و `tha-help-runtime-v1.js` اضافه شدند. موتور از صفحه User Guide و انتخاب زبان موجود استفاده می‌کند؛ راهنمای دوم یا زبان رابط جدید ایجاد نمی‌کند. یک کنترل شناور `?` توضیح آخرین کنترل دارای Help ID را با شش فیلد نمایش می‌دهد و در نبود زمینه، صفحه کامل User Guide را باز می‌کند.
+- **محتوای مجاز Runtime:** فقط ۱۳۲ مدخل `CONTENT_COMPLETE` با شش فیلد کامل در هر ۱۱ زبان وارد بسته Runtime شدند. ۹۶ مدخل فعال Draft و یک شناسه بازنشسته منتشر نشدند.
+- **اتصال کنترل‌ها:** ۱۴ Selector ایستا با فهرست صریح و محدوده‌دار متصل شدند. دو نامزد ایستا به‌علت Draft بودن محتوا عمداً متصل نشدند. ۱۵ کنترل پویا/قالبی همچنان نیازمند افزودن `data-help-id` در محل ساخت واقعی هستند.
+- **ایمنی:** موتور فقط DOM راهنما را می‌خواند و نمایش می‌دهد؛ هیچ دسترسی به IndexedDB، LocalStorage، Backup، Restore یا داده‌های حسابداری ندارد. متن‌های Registry با `textContent` رندر می‌شوند.
+- **نسخه:** Build هدف R46؛ فایل‌های جدید و index در Version Authority پین می‌شوند؛ تعداد فایل‌های مورد انتظار Gate از ۲۲ به ۲۴ افزایش یافته است.
+- **Commit / Gate / Deploy:** commit و Gate پس از ثبت مجموعه تغییرات تکمیل می‌شوند؛ تا زمان تأیید Gate، انتشار Preview انجام نمی‌شود.
+- **تست مرورگر / Safari:** انجام نشده؛ یکتایی واقعی DOM، عملکرد کلیک، تغییر زبان، دسترس‌پذیری پنجره و چیدمان موبایل باید در Preview آزمایش شوند.
+- **Production:** بدون تغییر؛ مجوز ارتقا وجود ندارد.
+
+#### بازنگری R47 — اتصال پنج کنترل پویای دارای محتوای کامل
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه پرونده جدید ایجاد نشد.
+- **اقدام:** پنج ویژگی `data-help-id` در محل واقعی تولید کنترل‌های پویا اضافه شدند: شماره صفحه صفحه‌بندی (0120)، آیکون رسید (0125)، دکمه‌های View/Delete فاکتور در Records (0127/0128) و View فاکتور حذف‌شده در Deleted Records (0131).
+- **نتیجه منبع:** مجموع کنترل‌های متصل‌شده در سورس به ۱۹ رسید: ۱۴ اتصال ایستای R46 و ۵ اتصال پویای R47. Handler اصلی هر دکمه حفظ شده و موتور Help فقط شناسه را در رویداد کلیک می‌خواند.
+- **مرز انتشار محتوا:** ۱۰ کنترل پویای دیگر و ۲ کنترل ایستای باقیمانده به دلیل `CONTENT_DRAFT` بودن محتوا متصل نشدند. هیچ محتوای Draft وارد بسته Runtime نشده است.
+- **نسخه / Gate:** Build هدف R47؛ Version Authority Gate برای R47 پس از ثبت تغییرات اجرا می‌شود.
+- **تست مرورگر / Safari:** هنوز انجام نشده؛ تعداد نمونه‌های DOM، عملکرد کلیک، چیدمان موبایل و iPhone Safari نیازمند آزمایش Preview هستند.
+- **انتشار / Production:** Preview deploy نشده؛ Production بدون تغییر و ارتقا غیرمجاز است.
+
+#### بازنگری R48 — اصلاح متن انگلیسی و فارسی ۹ مدخل Draft
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- **دامنه:** بازبینی متن‌های EN/FA شناسه‌های THA-HLP-0057، 0146، 0156، 0168، 0169، 0170، 0180، 0181 و 0222 با تطبیق مستقیم بر سورس R47.
+- **اصلاحات کلیدی:** مسیر انتخاب زبان به Settings → User Guide تغییر کرد؛ توضیح پیوست INV-182 به Job محدود شد؛ متن دو دکمه Print / Save PDF در All Costs Register و Report tab از هم تفکیک شد؛ Take a Photo شناسه 0170 به فرم هزینه در Projects اصلاح شد؛ Generate PDF شناسه 0181 به گزارش زیرپروژه محدود شد؛ Print / PDF شناسه 0222 به اقدام مستقیم ردیف آرشیو Saved reports اصلاح شد.
+- **وضعیت محتوا:** هر ۹ مدخل همچنان `CONTENT_DRAFT` هستند؛ چون ترجمه/بازبینی زبان‌های دیگر کامل نشده، به بسته Runtime اضافه یا به دکمه متصل نشدند. ۱۳۲ مدخل قبلی کامل باقی ماندند؛ ۹۶ مدخل فعال Draft و یک شناسه بازنشسته حفظ شدند.
+- **تست / انتشار:** اصلاح متن و تطبیق سورس به‌صورت ایستا انجام شد؛ مرورگر، Preview Pages و iPhone Safari آزمایش نشده‌اند. Production بدون تغییر.
+
+
+#### بازنگری R49 — نمایش راهنمای زمینه‌ای کنار کنترل مربوط
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ پرونده تکراری ایجاد نشد.
+- **مشکل نسخه قبل:** موتور R46/R47 یک دکمه شناور عمومی داشت که راهنمای آخرین کنترل انتخاب‌شده را باز می‌کرد؛ بنابراین علامت سؤال کنار همان کنترل دیده نمی‌شد.
+- **اصلاح R49:** دکمه شناور حذف شد. برای هر کنترل دارای Help ID معتبر، یک دکمه مستقل و کوچک «?» کنار همان کنترل ساخته می‌شود. دکمه راهنما از نوع button است، کلیک آن رویداد اصلی کنترل را اجرا نمی‌کند، و برای کنترل‌های پویا با MutationObserver دوباره متصل می‌شود.
+- **دامنه اتصال:** ۱۴ کنترل با Selector صریح و محدوده‌دار؛ ۵ کنترل با شناسه صریح در قالب‌های پویا؛ مجموع ۱۹ کنترل. هر ۱۹ شناسه به محتوای منتشرپذیر بسته راهنما تطبیق داده شدند. ۹۶ مدخل Draft و شناسه بازنشسته 0219 وارد بسته Runtime نشده‌اند.
+- **نسخه / فایل‌ها:** Build هدف `THA-273-R11-PREVIEW-20261127-R49`; تغییر در `tha-help-runtime-v1.js`، نسخه/cache reference در `index.html`، pinهای `VERSION-AUTHORITY.json` و baseline فایل Mapping ثبت شد.
+- **اعتبارسنجی ایستا:** کامپایل نحوی فایل Runtime با V8 PASS؛ تطبیق ۱۹ شناسه متصل با بسته محتوای Runtime PASS؛ حذف ارجاع به FAB شناور PASS. این بررسی‌ها جایگزین آزمون DOM واقعی نیستند.
+- **آزمون شبیه‌سازی DOM:** PASS؛ ۱۹ wrapper و ۱۹ دکمه «?» ساخته شدند؛ شناسه هر کنترل حفظ شد؛ کلیک راهنما رویداد کنترل اصلی را متوقف کرد؛ نمایش متن EN و FA، جهت RTL فارسی و بستن پنجره بررسی شد. این آزمون شبیه‌سازی‌شده است و تست واقعی مرورگر محسوب نمی‌شود.
+- **تست مرورگر / موبایل:** هنوز انجام نشده؛ باید نمایش مجاور، عدم جابه‌جایی چیدمان، عملکرد دکمه اصلی، کلیک «?» و بستن پنجره در Preview بررسی شوند.
+- **Version Authority Gate / انتشار:** PASS؛ run `46068268766` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46068268766؛ هویت R49 و هر ۲۴ فایل پین‌شده تأیید شدند. Preview Pages deploy نشده است.
+- **Production:** بدون تغییر؛ هیچ مجوز ارتقا وجود ندارد.
+
+
+#### بازنگری R50 — گسترش اتصال شناسه‌های یکتا و همگام‌سازی کنترل‌های مخفی
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه پرونده جدید ایجاد نشد.
+- **اتصال‌های جدید:** ۱۳ شناسه دارای محتوای کامل و ID یکتای تأییدشده به فهرست صریح Runtime اضافه شدند: 0023، 0025، 0045، 0046، 0048، 0049، 0064، 0065، 0066، 0067، 0073، 0087 و 0089. هیچ تطبیق بر اساس متن دکمه یا شباهت handler استفاده نشد.
+- **مجموع اتصال‌ها:** ۳۲ کنترل؛ ۲۷ اتصال ایستا (۱۴ Selector محدوده‌دار + ۱۳ ID یکتای دقیق) و ۵ اتصال در قالب پویا.
+- **اصلاح ایمنی چیدمان:** دکمه «?» فقط وقتی کنترل اصلی قابل نمایش است دیده می‌شود. وضعیت hidden و تغییرات class/style کنترل و والدهای آن با MutationObserver همگام می‌شود؛ بنابراین برای کنترل مخفی مانند Remove photo یا Reset نهایی، دکمه راهنمای جداافتاده نمایش داده نمی‌شود.
+- **نسخه / فایل‌ها:** Build هدف `THA-273-R11-PREVIEW-20261127-R50`; Runtime، cache reference صفحه، Version Authority pinها و Mapping به‌روزرسانی شدند.
+- **محتوا:** فقط ۱۳ شناسه CONTENT_COMPLETE به Runtime اضافه شدند؛ مدخل‌های Draft و شناسه بازنشسته همچنان منتشرنشده‌اند.
+- **تست ایستا:** یکتایی هر ۱۳ ID در HTML (یک مورد برای هر شناسه) PASS؛ محتوای هر ۱۳ شناسه در بسته Runtime موجود است؛ کامپایل نحوی Runtime با V8 PASS.
+- **تست مرورگر / انتشار:** هنوز انجام نشده؛ نمایش و مخفی‌شدن پویا، چیدمان موبایل، عملکرد اصلی دکمه‌ها و iPhone Safari باید در Preview بررسی شوند. هیچ Deploy یا Production change انجام نشده است.
+
+
+#### بازنگری R51 — رفع خطای ساختاری جدول اتصال و افزودن کنترل fail-closed
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- **یافته آزمون R50:** آرایه `STATIC_BINDINGS` به دلیل نبود ویرگول بعد از `THA-HLP-0089` و پیش از `THA-HLP-0075` از نظر نحو JavaScript معتبر بود، اما در زمان اجرای `forEach` خطای destructuring ایجاد می‌کرد و راه‌اندازی Runtime متوقف می‌شد.
+- **اصلاح:** ویرگول مفقود اضافه شد و guard ساختاری fail-closed افزوده شد تا هر ردیف آرایه باید دقیقاً دو رشته غیرخالی داشته باشد؛ در غیر این صورت Runtime با پیام تشخیصی متوقف می‌شود.
+- **اعتبارسنجی ایستا:** V8 compilation PASS؛ استخراج و بررسی مستقیم آرایه PASS؛ ۲۷ ردیف اتصال ایستا و دو فیلد معتبر در هر ردیف تأیید شدند.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R51`. اتصال‌های ۳۲گانه R50 و همگام‌سازی وضعیت hidden حفظ شدند.
+- **آزمون شبیه‌سازی DOM R51:** PASS؛ ۳۲ wrapper و ۳۲ دکمه «?» ساخته شدند؛ دو کنترل مخفی در ابتدا دکمه راهنمای قابل مشاهده نداشتند؛ تغییر hidden و display:none/block به‌درستی همگام شد؛ کلیک راهنما رویداد اصلی را متوقف کرد؛ متن EN/FA، جهت RTL فارسی و بستن پنجره تأیید شد. این آزمون، تست واقعی مرورگر نیست.
+- **Version Authority Gate:** PASS؛ run `46068792430` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46068792430؛ ۲۴ فایل پین‌شده و هویت Build R51 تأیید شدند.
+- **تست واقعی مرورگر / انتشار:** هنوز انجام نشده؛ Preview Pages منتشر نشده و iPhone Safari بررسی نشده است.
+- **انتشار:** هیچ Preview deploy یا Production change انجام نشده است.
+
+
+#### بازنگری R52 — اتصال پنج کنترل با handler یکتا و محدوده مشخص
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ پرونده جدید ایجاد نشد.
+- **شناسه‌های جدید:** THA-HLP-0006 Save Contract، 0007 Help me write with ChatGPT، 0008 Contract Preview / Print / Save PDF، 0044 Save recipient details و 0051 Compare Accounting Storage (Read-only).
+- **روش اتصال:** برای سه کنترل قرارداد، محدوده `#contractsApp .ct-actions`؛ برای ذخیره گیرنده، محدوده `#report188Email`؛ و برای مقایسه IndexedDB، محدوده `#monitor` همراه handler دقیق استفاده شد. هر پنج handler در سورس دقیقاً یک‌بار یافت شد. تطبیق بر اساس متن دکمه انجام نشد.
+- **مجموع اتصال‌ها:** ۳۷ کنترل؛ ۳۲ ایستا (۱۴ Selector محدوده‌دار قبلی، ۱۳ ID دقیق و ۵ handler محدوده‌دار) و ۵ کنترل پویا.
+- **محتوا:** هر پنج شناسه در بسته محتوای تأییدشده وجود دارند؛ مدخل‌های Draft متصل نشدند.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R52`. Runtime، صفحه اصلی، Authority و Mapping به‌روزرسانی شدند.
+- **تست ایستا:** یکتایی handlerها، موجود بودن محتوا، ۳۲ ردیف معتبر STATIC_BINDINGS و کامپایل نحوی Runtime PASS.
+- **آزمون شبیه‌سازی DOM R52:** PASS؛ ۳۷ wrapper و ۳۷ دکمه «?» برای ۳۲ اتصال ایستا و ۵ اتصال پویا ساخته شدند؛ هر ۳۷ شناسه در بسته محتوا موجود بود؛ مخفی/نمایان‌شدن کنترل‌ها، جلوگیری از اجرای handler اصلی هنگام کلیک «؟»، متن EN/FA، جهت RTL فارسی و بستن پنجره تأیید شد. این آزمون شبیه‌سازی‌شده است، نه تست واقعی مرورگر.
+- **Version Authority Gate:** PASS؛ run `46069069507` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46069069507؛ هویت R52 و ۲۴ فایل پین‌شده تأیید شدند.
+- **تست واقعی Preview / iPhone Safari:** هنوز انجام نشده؛ Preview Pages منتشر نشده است.
+- **تست مرورگر / انتشار:** هنوز انجام نشده؛ چیدمان واقعی، عدم تداخل با handler اصلی و iPhone Safari باید در Preview بررسی شوند. هیچ Deploy یا Production change انجام نشده است.
+
+
+#### بازنگری R53 — اتصال دکمه ذخیره پیام پشتیبانی به راهنمای زمینه‌ای
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- **شناسه متصل‌شده:** THA-HLP-0070 — Save Support Message.
+- **روش اتصال:** Selector دقیق و محدوده‌دار `#helpContactForm > .pr-actions > button[type="submit"]`؛ فرم `#helpContactForm` در سورس فقط یک‌بار وجود دارد و دکمه Submit داخل همان فرم هدف‌گیری می‌شود.
+- **معنای عملیاتی:** Submit پیام را فقط به‌صورت Local Draft در IndexedDB ذخیره می‌کند؛ هیچ پیام یا ایمیلی به توسعه‌دهنده ارسال نمی‌شود. متن راهنما نیز همین محدودیت را حفظ می‌کند.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R53`.
+- **اتصال‌ها پس از R53:** ۳۸ کنترل؛ ۳۳ اتصال ایستا و ۵ اتصال پویا. Runtime فقط ۱۳۲ مدخل تأییدشده را منتشر می‌کند؛ مدخل‌های Draft و شناسه بازنشسته متصل یا منتشر نشده‌اند.
+- **تست ایستا:** یکتایی فرم و selector از روی سورس بررسی شد؛ شناسه THA-HLP-0070 دارای محتوای تأییدشده است. Gate تجمعی R54 برای R53 و R54 PASS شد؛ run `46069605538` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46069605538.
+- **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ نمایش دکمه «?» کنار Save Support Message، بازشدن محتوای درست، عدم اجرای ناخواسته Submit هنگام لمس «?» و چیدمان موبایل باید در Preview بررسی شوند.
+- **انتشار / داده:** هیچ Preview deploy، ارسال پیام، تغییر داده، Merge یا Production change انجام نشده است.
+
+
+#### بازنگری R54 — اتصال کنترل‌های تخصصی گزارش و تشخیص
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- **شناسه‌های متصل‌شده:** THA-HLP-0042 (تأیید تکمیل سوابق برای دوره انتخابی)، THA-HLP-0047 (نمایش جزئیات نسخه)، THA-HLP-0052 (دانلود گزارش تشخیصی JSON)، THA-HLP-0053 (ممیزی فقط‌خواندنی Storage)، THA-HLP-0054 (خروجی CSV دفتر فعالیت) و THA-HLP-0055 (آزمون محلی).
+- **روش اتصال:** تمام اتصال‌ها با selector صریح و محدوده‌دار انجام شدند. شناسه 0042 به `#report188Calendar` محدود است؛ پنج کنترل دیگر به `#monitor` و handler دقیق هر دکمه محدود هستند. تکرار نام تابع در متن سورس باعث اتصال به کنترل‌های دیگر نمی‌شود.
+- **محتوا:** هر شش شناسه دارای وضعیت CONTENT_COMPLETE هستند و در بسته محتوای تأییدشده قرار دارند. عملیات Storage Audit فقط‌خواندنی است؛ هیچ داده‌ای توسط این اتصال راهنما تغییر داده نمی‌شود.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R54`.
+- **اتصال‌ها پس از R54:** ۴۴ کنترل؛ ۳۹ ایستا و ۵ پویا. ۱۳ اتصال از ID یکتا، پنج اتصال از handler محدوده‌دار، ۲۱ اتصال از selector محدوده‌دار و پنج اتصال از template پویا تشکیل شده‌اند.
+- **تست ایستا:** هر selector به parent موردنظر محدود شده و handler literal آن با سورس تطبیق داده شد؛ تعداد ردیف‌های STATIC_BINDINGS برابر ۳۹ است. **Version Authority Gate:** PASS؛ run `46069605538` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46069605538؛ هویت Build R54، canonical URL، SHA فایل index و تمام ۲۴ فایل pinشده تأیید شدند.
+- **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ بازشدن راهنمای صحیح، عدم تداخل با عملکرد اصلی، نمایش/مخفی‌شدن کنترل‌ها، انتخاب زبان و چیدمان موبایل باید در Preview بررسی شوند.
+- **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
+
+
+#### بازنگری R55 — اتصال عملیات اصلی حسابداری
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- **شناسه‌های متصل‌شده:** THA-HLP-0026 (Save Entry)، THA-HLP-0028 (Add to list برای دسته هزینه)، THA-HLP-0030 (Save Invoice)، THA-HLP-0031 (Save & Print / PDF)، THA-HLP-0032 (Save Customer) و THA-HLP-0033 (Clear Customer Form).
+- **روش اتصال:** شش selector صریح و محدوده‌دار به‌ترتیب در `#entry`، `#expenseCategoryAddScreen`، `#invoiceEditor` و `#customers` قرار گرفتند. هر selector از handler literal همان دکمه استفاده می‌کند؛ تطبیق بر اساس متن دکمه یا نام تابع به‌تنهایی انجام نشده است.
+- **محتوا / مرزبندی:** هر شش شناسه CONTENT_COMPLETE هستند. Save Invoice و Save & Print/PDF از هم جدا هستند؛ ثبت پرداخت فاکتور در Accounting فقط طبق منطق موجود برنامه انجام می‌شود. هیچ منطق مالی، شماره فاکتور، محاسبه، ذخیره‌سازی یا handler اصلی تغییر نکرد.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R55`.
+- **اتصال‌ها پس از R55:** ۵۰ کنترل؛ ۴۵ ایستا و ۵ پویا. ۲۷ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
+- **تست ایستا:** یکتایی فرم/parent و handler literal از روی سورس بررسی شد؛ ۴۵ ردیف STATIC_BINDINGS ثبت شده‌اند. **Version Authority Gate:** PASS؛ run `46069805600` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46069805600؛ هویت Build R55، canonical URL، SHA فایل index و تمام ۲۴ فایل pinشده تأیید شدند.
+- **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ باید راهنمای هر شش دکمه، حفظ عملکرد اصلی، ذخیره واقعی با داده آزمایشی Preview و چیدمان موبایل بررسی شوند. در این مرحله هیچ تراکنش یا داده واقعی ایجاد یا تغییر داده نشده است.
+- **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
+
+
+#### بازنگری R56 — اتصال فاکتور و منوی گزارش‌ها
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- **شناسه‌های متصل‌شده:** THA-HLP-0029 (New Invoice)، THA-HLP-0034 (Prepare a report)، THA-HLP-0035 (Saved reports archive)، THA-HLP-0036 (Notifications inbox)، THA-HLP-0037 (Tax calendar) و THA-HLP-0038 (Accountant email).
+- **روش اتصال:** New Invoice در `#invoiceListArea` و پنج گزینه Reports & Tax در `#report188Menu` با selector دقیق و `onclick` literal متصل شدند. هر گزینه با مقدار پارامتر خودش از سایر مقصدها تفکیک شده است.
+- **محتوا / مرزبندی:** هر شش شناسه CONTENT_COMPLETE هستند. راهنمای Tax Calendar به‌معنای ثبت/پرداخت مالیات نیست؛ Reports & Tax نیز اظهارنامه را خودکار به HMRC ارسال نمی‌کند. تنظیمات Accountant email فقط تنظیم گیرنده و وضعیت اتصال را توضیح می‌دهد و ادعای ارسال ایمیل نمی‌کند.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R56`.
+- **اتصال‌ها پس از R56:** ۵۶ کنترل؛ ۵۱ ایستا و ۵ پویا. ۳۳ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
+- **تست ایستا:** هر شش selector در Runtime allowlist ثبت شده‌اند؛ escaping رشته‌های CSS در JavaScript اصلاح و بازبینی شد. **Version Authority Gate:** PASS؛ run `46070014067` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070014067؛ هویت Build R56، canonical URL، SHA فایل index و تمام ۲۴ فایل pinشده تأیید شدند.
+- **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ بازشدن راهنمای هر گزینه، حفظ مقصد navigation، انتخاب زبان و چیدمان موبایل باید در Preview بررسی شوند.
+- **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
+
+
+#### بازنگری R57 — اتصال عملیات مدیریت پروژه
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- **شناسه‌های متصل‌شده:** THA-HLP-0084 (Save Project)، THA-HLP-0085 (Clear Project Form)، THA-HLP-0086 (Edit Project)، THA-HLP-0088 (Delete Project)، THA-HLP-0098 (Save Partner)، THA-HLP-0100 (Save Contractor) و THA-HLP-0102 (Save Worker).
+- **روش اتصال:** selectorهای صریح و محدوده‌دار در صفحات `#prPage-new`، `#prPage-detail`، `#prPage-partners`، `#prPage-contractors` و `#prPage-workers`؛ handler دقیق هر دکمه در selector ثبت شده است.
+- **محتوا / ریسک:** هر هفت شناسه CONTENT_COMPLETE هستند. Delete Project عملیاتی مخرب است؛ راهنما باید ماهیت حذف را توضیح دهد و کلیک روی «?» نباید handler حذف را اجرا کند. در این تغییر هیچ عملیات حذف یا ذخیره واقعی اجرا نشده است.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R57`.
+- **اتصال‌ها پس از R57:** ۶۳ کنترل؛ ۵۸ ایستا و ۵ پویا. ۴۰ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
+- **تست ایستا:** هفت selector به parent و handler literal مشخص محدود شدند؛ رشته‌های دارای پارامتر partner/worker با escaping معتبر در JavaScript ثبت شدند. **Version Authority Gate:** PASS؛ run `46070243576` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070243576؛ هویت Build R57، canonical URL، SHA فایل index و تمام ۲۴ فایل pinشده تأیید شدند.
+- **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ نمایش راهنما، عدم اجرای ناخواسته Delete/Save هنگام لمس «?» و چیدمان موبایل باید در Preview بررسی شوند.
+- **انتشار / داده:** هیچ Preview deploy، Merge، حذف پروژه، تغییر داده یا Production change انجام نشده است.
+
+
+#### بازنگری R58 — اتصال Company Contracts & Jobs و گردش‌های مالی پروژه
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- **شناسه‌های متصل‌شده:** THA-HLP-0107 (Add Company)، THA-HLP-0108 (Companies List)، THA-HLP-0109 (Company Project Profit & Loss)، THA-HLP-0110 (Save Company)، THA-HLP-0111 (Clear Company Form)، THA-HLP-0112 (Save Job)، THA-HLP-0113 (Clear Job Form)، THA-HLP-0114 (Save Work Package)، THA-HLP-0116 (Add Expense)، THA-HLP-0117 (Record Payment) و THA-HLP-0118 (Confirm payment).
+- **روش اتصال:** ۱۱ selector دقیق و محدوده‌دار در `#prPage-company-hub`، `#coPackageFinance`، `#coPaymentArea` و `#invoicePaidModal`؛ گزینه‌های Add/List/P&L با مقدار پارامتر دقیق و سایر کنترل‌ها با handler literal هدف‌گیری شدند.
+- **مرزبندی مالی حیاتی:** Company Contracts & Jobs هزینه‌ها و دریافتی‌های پروژه را در فضای داده مستقل خود نگه می‌دارد؛ این مبالغ به Accounting منتقل، لینک یا تجمیع نمی‌شوند. `Confirm payment` در پنجره فاکتور Accounting مسیر جداگانه‌ای دارد. این اتصال‌ها هیچ مرز داده یا منطق مالی را تغییر نمی‌دهند.
+- **محتوا:** هر ۱۱ شناسه CONTENT_COMPLETE هستند. همه کنترل‌ها از قبل در سورس وجود داشتند؛ فقط اتصال راهنمای زمینه‌ای اضافه شد.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R58`.
+- **اتصال‌ها پس از R58:** ۷۴ کنترل؛ ۶۹ ایستا و پنج پویا. ۵۱ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
+- **تست ایستا:** یکتایی handler attributeها و محدوده parentها از روی سورس بررسی شد؛ رشته‌های CSS دارای پارامترهای `add/list/company-profit` با escaping معتبر ثبت شدند. **Version Authority Gate:** PASS؛ run `46070444164` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070444164؛ هویت Build R58، canonical URL، SHA فایل index و تمام ۲۴ فایل pinشده تأیید شدند.
+- **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ باید راهنمای هر کنترل، جدایی Company Contracts از Accounting، ثبت پرداخت در مقصد درست، عدم اجرای ناخواسته handler هنگام لمس «?» و چیدمان موبایل بررسی شوند.
+- **انتشار / داده:** هیچ Preview deploy، Merge، ثبت هزینه/پرداخت، تغییر داده یا Production change انجام نشده است.
+
+
+#### بازنگری R59 — اتصال قرارداد و پروفایل کسب‌وکار
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- **شناسه‌های متصل‌شده:** THA-HLP-0005 (New Contract)، THA-HLP-0006 (Save Contract)، THA-HLP-0008 (Preview / Print / Save PDF)، THA-HLP-0068 (Save Profile)، THA-HLP-0069 (Remove Logo) و THA-HLP-0071 (Clear Support Form).
+- **روش اتصال:** سه کنترل قرارداد به `#contractsWorkspace` و `#ctFormCard`؛ دو کنترل پروفایل به `#profileGuide`؛ و Clear Form به فرم `#helpContactForm` محدود شدند. هر selector handler دقیق خود را دارد.
+- **محتوا / مرزبندی:** هر شش شناسه CONTENT_COMPLETE هستند. Save Contract، Preview/Print/PDF و Save Profile مسیرهای جداگانه دارند؛ Remove Logo فقط لوگوی پروفایل را حذف می‌کند. Clear Support Form فقط فرم را خالی می‌کند و پیام ذخیره‌شده قبلی را به‌عنوان ارسال‌شده تلقی نمی‌کند.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R59`.
+- **اتصال‌ها پس از R59:** ۸۰ کنترل؛ ۷۵ ایستا و پنج پویا. ۵۷ selector محدوده‌دار، ۱۳ ID یکتا، پنج handler محدوده‌دار و پنج کنترل template پویا.
+- **تست ایستا:** هر شش selector به فرم/صفحه صحیح محدود شدند؛ هیچ منطق ذخیره قرارداد، تولید PDF، پروفایل یا پیام پشتیبانی تغییر نکرد. **Version Authority Gate:** PASS؛ run `46070618031` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070618031؛ هویت Build R59، canonical URL، SHA فایل index و تمام ۲۴ فایل pinشده تأیید شدند.
+- **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ راهنمای هر دکمه، عملکرد اصلی، انتخاب زبان و چیدمان موبایل باید در Preview بررسی شوند.
+- **انتشار / داده:** هیچ Preview deploy، ذخیره قرارداد، حذف لوگو، ارسال پیام، تغییر داده یا Production change انجام نشده است.
+
+
+#### بازنگری R60 — اتصال منوی اصلی و صفحه Accountancy
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- **شناسه‌های متصل‌شده:** THA-HLP-0001 تا THA-HLP-0004 (چهار مقصد Main Menu: Accountancy، Business Workspace، Contract Management و Settings) و THA-HLP-0009 تا THA-HLP-0014 (شش مقصد صفحه اصلی Accountancy: Dashboard، Add Entry، Records، Invoices، Customers و Reports & Tax).
+- **روش اتصال:** چهار دکمه منوی اصلی با selector محدوده‌دار `#appLauncher .launcher-actions` و شش کارت Accountancy با selector محدوده‌دار `#accountancyHome .accountancy-home-grid` و مقدار دقیق handler متصل شدند.
+- **محتوا:** هر ده شناسه CONTENT_COMPLETE هستند. این تغییر فقط راهنمای مقصدهای navigation را اضافه می‌کند و مسیر navigation اصلی را تغییر نمی‌دهد.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R60`.
+- **اتصال‌ها پس از R60/R61:** ۹۷ شناسه متصل؛ ۹۲ کنترل ایستا با Help ID یکتا و پنج کنترل template پویا. ۷۴ selector محدوده‌دار، ۱۳ ID یکتا و پنج handler محدوده‌دار. دو ردیف تکراری قرارداد در R61 حذف و با یک selector دقیق جایگزین شدند.
+- **تست ایستا:** ده selector در parent صحیح ثبت شدند؛ handlerها با مقصد دقیقشان تطبیق داده شدند. **Version Authority Gate R60:** PASS؛ run `46070971042` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070971042.
+- **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ بازشدن مقصد صحیح، نمایش راهنمای مربوط، انتخاب زبان و چیدمان موبایل باید در Preview بررسی شوند.
+- **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
+
+
+#### بازنگری R60 — همگام‌سازی Version Authority پس از اتصال منوی اصلی
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001.
+- **دامنه نسخه:** R60 شامل ۹۷ Help ID متصل است: ۹۲ کنترل ایستا با شناسه یکتا و پنج کنترل پویا؛ ده مقصد منوی اصلی و صفحه Accountancy نیز در همین Build اضافه شدند. R61 دو binding تکراری Contract را ادغام کرد.
+- **اصلاح Authority:** Build ID، canonical URL، SHA فایل index و pin فایل Runtime در `VERSION-AUTHORITY.json` با فایل‌های واقعی R60 همگام شدند. Mapping نیز به SHAهای واقعی index و runtime متصل شد.
+- **Gate:** **Gate نهایی R60:** PASS؛ run `46070971042` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46070971042. تمام ۲۴ asset pin و هویت نسخه تأیید شدند.
+- **تست واقعی مرورگر / انتشار:** انجام نشده؛ PR #96 Draft است و هیچ Preview deploy یا Production change انجام نشده است.
+
+
+#### بازنگری R61 — حذف bindingهای تکراری و تطبیق شمارنده Registry
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** اصلاح یکپارچگی Runtime/Mapping؛ شناسه Help جدید ایجاد نشد.
+- **اصلاح:** دو ردیف تکراری THA-HLP-0006 (Save Contract) و THA-HLP-0008 (Preview/Print/Save PDF) از جدول static حذف شدند. هر کدام فقط یک selector دقیق `#ctFormCard` دارند.
+- **شمارنده نهایی:** ۹۷ Help ID متصل؛ ۹۲ static با شناسه یکتا و پنج dynamic-template. Mapping و Version Authority به SHAهای جدید runtime/index متصل شدند.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R61`.
+- **Gate:** در انتظار اجرای R61؛ **Version Authority Gate R61:** PASS؛ run `46071360320` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071360320؛ Build ID، canonical URL، SHA صفحه و تمام ۲۴ asset pin تأیید شدند.
+- **تست مرورگر / انتشار:** هنوز انجام نشده؛ PR #96 Draft است، Preview منتشر نشده و Production دست‌نخورده باقی مانده است.
+
+
+#### بازنگری R61 — اتصال تب‌ها و کنترل‌های تکمیلی Project Workspace
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- **شناسه‌های متصل‌شده:** THA-HLP-0081 (New Project)، THA-HLP-0082 (Projects List)، THA-HLP-0083 (Add Partner share row)، THA-HLP-0090 تا THA-HLP-0096 (Summary، Income، Expenses، Worker Wages، Tools، Food & Other و Reports)، THA-HLP-0097 (View Financial Report)، THA-HLP-0101 (Clear Contractor Form) و THA-HLP-0115 (Clear Work Package Form).
+- **روش اتصال:** ۱۳ selector/attribute محدوده‌دار به صفحه یا کنترل مربوط اضافه شدند. تب‌های Project Detail با `data-pr-sub` از handler مشترک `prDetailTab(...)` تفکیک می‌شوند؛ بنابراین هر تب شناسه Help مستقل دارد.
+- **محتوا:** هر ۱۳ شناسه CONTENT_COMPLETE هستند. این اتصال فقط راهنما را اضافه می‌کند و محاسبات مالی پروژه، دستمزد، ابزار، هزینه یا سود/زیان را تغییر نمی‌دهد.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R61`.
+- **شمارنده پس از این مرحله:** ۱۱۰ Help ID متصل؛ ۱۰۵ کنترل static با شناسه یکتا و پنج dynamic-template. از کنترل‌های static، ۸۷ selector محدوده‌دار، ۱۳ selector مبتنی بر ID یکتا و پنج handler محدوده‌دار هستند.
+- **تست ایستا:** ۱۰۵ ردیف STATIC_BINDINGS و ۱۰۵ شناسه یکتا؛ mapping و pin فایل runtime با SHA واقعی همگام شدند. **Version Authority Gate R61:** PASS؛ run `46071360320` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071360320؛ ۱۰۵ ردیف static با ۱۰۵ Help ID یکتا و تمام ۲۴ asset pin تأیید شدند.
+- **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ بازشدن هر تب، عدم اجرای ناخواسته handler اصلی هنگام لمس «?» و چیدمان موبایل باید در Preview بررسی شوند.
+- **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
+
+
+#### بازنگری R63 — اتصال قالب‌های پویای فهرست، رسید، سوابق و مشتریان
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** اتصال ۹ شناسه موجود به عناصر ساخته‌شده در زمان اجرا؛ شناسه جدید ایجاد نشد.
+- **شناسه‌های متصل‌شده:** THA-HLP-0119 (Previous)، THA-HLP-0121 (Next)، THA-HLP-0124 (View receipt)، THA-HLP-0129 (Edit Entry)، THA-HLP-0130 (Delete Entry)، THA-HLP-0132 (View Deleted Entry)، THA-HLP-0137 (Edit Customer)، THA-HLP-0138 (New invoice for Customer) و THA-HLP-0139 (Delete Customer).
+- **روش اتصال:** صفت `data-help-id` مستقیماً به templateهای `paginationMarkup()`، `renderReceiptPreview()`، `renderRecords()` و `renderCustomers()` افزوده شد. MutationObserver موجود در Help Runtime هنگام درج این عناصر در DOM، دکمه راهنما را متصل می‌کند.
+- **ایمنی:** Help روی دکمه‌های Edit/Delete صرفاً توضیح نمایش می‌دهد؛ لمس «?» نباید Edit، Delete یا New Invoice را اجرا کند. هیچ رکورد، مشتری، رسید یا فاکتوری ایجاد، حذف یا ویرایش نشده است.
+- **Check for Updates:** شناسه THA-HLP-0072 متصل نشد؛ دکمه در Preview صریحاً disabled است و updater تا بعد از تأیید نهایی و انتشار Production غیرفعال می‌ماند. این مورد به‌عنوان EXEMPT_DISABLED_IN_PREVIEW ثبت شد.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R63`.
+- **شمارنده پس از R63:** ۱۲۷ Help ID متصل؛ ۱۱۳ static و ۱۴ dynamic-template. پنج مورد از ۱۳۲ محتوای قابل انتشار هنوز خارج از این runtime هستند: چهار کنترل در سند/پنجره PDF جداگانه و یک updater غیرفعال.
+- **تست ایستا:** ۹ data-help-id در templateهای مشخص ثبت شد؛ MutationObserver موجود برای عناصر تازه‌وارد استفاده می‌شود. **Version Authority Gate R63:** PASS؛ run `46071937988` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071937988؛ Build R63، canonical URL، SHA صفحه و تمام ۲۴ asset pin تأیید شدند. تست مرورگر واقعی هنوز انجام نشده است.
+- **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ pagination، رسید، Edit/Delete، New Invoice، انتخاب زبان و چیدمان موبایل باید در Preview آزمایش شوند.
+- **انتشار / داده:** هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
+
+
+#### بازنگری R64 — اتصال راهنمای پنجره‌های PDF
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** اتصال چهار شناسه Help به دو پنجره PDF جداگانه؛ شناسه جدید ایجاد نشد.
+- **شناسه‌های متصل‌شده:** THA-HLP-0133 (Share PDF در پیش‌نمایش A4)، THA-HLP-0134 (Create PDF)، THA-HLP-0135 (Download PDF) و THA-HLP-0136 (Share PDF در پنجره گزارش مالی).
+- **روش اتصال:** برای هر کنترل یک دکمه «?» مستقل در همان پنجره PDF اضافه شد. دکمه راهنما از طریق `window.opener.THAHelpRuntime.open(helpId)` پنجره راهنمای برنامه اصلی را باز می‌کند و focus را به برنامه برمی‌گرداند. اگر opener/runtime در دسترس نباشد، پیام جایگزین داخل پنجره PDF نمایش داده می‌شود.
+- **ایمنی:** دکمه «?» handler اصلی Create/Download/Share PDF را اجرا نمی‌کند. دکمه‌های PDF و تولید فایل تغییر نکرده‌اند.
+- **نسخه:** Build هدف `THA-273-R11-PREVIEW-20261127-R64`.
+- **شمارنده پس از R64:** ۱۳۱ Help ID از ۱۳۲ محتوای قابل انتشار متصل شده‌اند: ۱۱۳ static، ۱۴ dynamic-template و چهار پل ارتباطی PDF popup. تنها مورد قابل انتشارِ متصل‌نشده، Check for Updates است که در Preview غیرفعال و عمداً مستثناست.
+- **تست ایستا:** چهار پل opener به شناسه درست متصل و در Registry ثبت شدند؛ تست واقعی popup/opener هنوز انجام نشده است. **Version Authority Gate R64:** PASS؛ run `46072258368` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46072258368؛ Build R64، canonical URL، SHA صفحه و تمام ۲۴ asset pin تأیید شدند.
+- **تست واقعی مرورگر / موبایل:** هنوز انجام نشده؛ بازشدن پنجره Help از popup، بازگشت focus به برنامه، fallback، Create/Download/Share PDF، انتخاب زبان و چیدمان موبایل باید در Preview آزمایش شوند.
+- **انتشار / داده:** هیچ Preview deploy، Merge، تولید/دانلود PDF یا Production change انجام نشده است.
+
+### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
+
+- **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Implemented on Preview development; the latest R45 Version Authority Gate passed after native-HTML fail-closed hardening (run 46053038295). Pages deployment and iPhone Safari verification remain pending.
+- **عنوان و حوزه:** اتصال‌نداشتن کنترل‌های تبدیل پشتیبان، Snapshot اضطراری و بازیابی نهایی در Factory Reset؛ حوزه SEC / DB.
+- **علامت مشاهده‌شده:** در Settings → Factory Reset، با انتخاب `I Understand — Continue` دکمه `Reset and Restore All Data` از حالت مخفی خارج می‌شود و `disabled=false` می‌گیرد؛ با این حال تبدیل فایل پشتیبان، دانلود Snapshot اضطراری و اجرای Restore نهایی در سورس بررسی‌شده به کنترل‌های مربوط متصل نیستند.
+- **محیط / مرجع:** مخزن `Thehandymanjob/accountancy-r11-preview`؛ شاخه دائمی `development`؛ برنامه 273 / R11؛ Build هدف R45؛ فایل `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`؛ Git blob SHA فایل: `b278aadc25185ee6a8588c982f0b7e24a41e7c31`.
+- **تفکیک مهم Backup & Restore عادی:** صفحه مستقل `Backup & Restore` به Factory Reset وابسته نیست و مسیر اجرایی جداگانه دارد. دکمه `Backup` به `fullDatabaseBackup()` متصل است؛ تابع پس از flush دامنه‌های accounting، projects، contracts، businessProfile، support و media، موتور `HandymanRecoveryV264.createFullBackup()` را فراخوانی می‌کند و نتیجه را با 17 دامنه بررسی می‌کند. دکمه `Restore` از طریق انتخاب فایل به `restoreFullDatabase(event)` می‌رسد؛ فایل با `readFullBackup()` اعتبارسنجی می‌شود، تأیید صریح کاربر گرفته می‌شود و سپس `restoreFullBackup()` اجرا و نتیجه 17 دامنه بررسی می‌شود. این بررسی فقط سورس است؛ هیچ Backup یا Restore واقعی اجرا نشده است.
+- **علت ریشه‌ای تأییدشده در سورس Factory Reset:** تابع `openFactoryReset()` فقط وضعیت اولیه Modal و flagهای `__thaV273Converted` و `__thaV273EmergencyCreated` را reset می‌کند. تابع `factoryResetNextStep()` بدون بررسی موفقیت تبدیل فایل، ساخت Snapshot، تیک تأیید ذخیره Snapshot یا عبارت `RESET 273`، دکمه نهایی را آشکار و فعال می‌کند. در HTML برای `factoryResetConvertButton`، `factoryResetEmergencyButton` و `factoryResetFinalButton` هیچ `onclick` یا ثبت listener اجرایی در سورس بررسی‌شده پیدا نشد؛ توابع اجرایی تبدیل، Snapshot و Restore نهایی نیز در این فایل وجود ندارند.
+- **روش تشخیص:** بررسی اتصال‌های مستقیم HTML و جست‌وجوی تمام ارجاع‌های شناسه‌های سه دکمه در فایل R43؛ بررسی کامل `openFactoryReset()` و `factoryResetNextStep()`؛ مقایسه با مسیر مستقل و متصل Backup & Restore عادی. نتیجه صرفاً static source audit است.
+- **ریسک:** رابط به کاربر القا می‌کند مرحله Reset آماده اجراست، درحالی‌که پیش‌نیازهای حفاظتی اجرا نشده‌اند. هرگونه افزودن handler نهایی بدون اعتبارسنجی سخت‌گیرانه فایل، Snapshot تأییدشده، رضایت صریح و بررسی مقصد IndexedDB می‌تواند خطر از دست‌رفتن دائمی داده‌ها ایجاد کند.
+- **راه‌حل جاری R1 — پیاده‌سازی در Preview development:** دکمه نهایی اکنون fail-closed است و پس از مرحله هشدار فقط نمایش داده می‌شود؛ فعال‌شدن آن به مجموعه وضعیت‌های اعتبارسنجی مستقل وابسته است. ابتدا فایل اصلی مجاز با SHA-256 و ساختار مورد انتظار بررسی و به بسته 17 دامنه تبدیل می‌شود؛ سپس کاربر باید فایل تبدیل‌شده را دوباره انتخاب کند و اعتبارسنجی مستقل exact domain set، شناسه‌های اجباری، یکتایی IDها و ساختار داده‌ها را بگذراند.
+- **قفل مقصد:** هر عملیات Factory Reset قبل از ساخت Snapshot و پیش از Reset، نام دیتابیس را دقیقاً با `the_handyman_accountancy_r11_preview_idb` تطبیق می‌دهد؛ هر مقصد دیگر رد می‌شود. سلامت دیتابیس پیش و پس از flush صف‌های نوشتن دامنه‌ها بررسی می‌شود.
+- **Snapshot اضطراری:** از `HandymanRecoveryV264.createFullBackup()` استفاده می‌شود؛ موفقیت، Blob غیرخالی، تأیید `verification.ok`، 17 دامنه، تعداد رکورد مثبت و digest شصت‌وچهاررقمی SHA-256 الزامی است. پس از دانلود، کاربر باید فایل ذخیره‌شده را دوباره انتخاب کند؛ SHA-256 فایل انتخاب‌شده باید دقیقاً با Snapshot تولیدشده برابر باشد. فقط پس از این تطبیق، تأیید صریح و عبارت `RESET 273`، دکمه نهایی می‌تواند فعال شود.
+- **اجرای نهایی:** فایل Import درست پیش از Reset دوباره اعتبارسنجی می‌شود؛ سلامت دیتابیس نیز دوباره بررسی و سپس فقط مسیر `resetWithImport()` و recovery engine تأییدشده اجرا می‌شود. نتیجه Restore و آزادشدن reset lock بررسی می‌شود. خطاهای پیش از پاک‌سازی gate را دوباره قفل می‌کنند؛ اگر reset lock نشان دهد پاک‌سازی شروع شده، مسیر recovery retry حفظ می‌شود. هیچ LocalStorage یا bypass اضافه نشده است.
+- **دفاع در عمق بیشتر:** تابع destructive `resetWithImport()` دیگر از شیء عمومی `window.HandymanV273LegacyReset` صادر نمی‌شود؛ تابع داخلی نیز مستقلاً نام دیتابیس Preview را قبل از هر عملیات پاک‌سازی بررسی می‌کند. بنابراین حتی فراخوانی مستقیم API عمومی نمی‌تواند از کنترل‌های UI عبور کند.
+- **بازنگری راه‌حل R2 — تطبیق قرارداد SHA-256 موتور Recovery:** بررسی مستقیم `HandymanRecoveryV264.createFullBackup()` نشان داد digest آن روی `JSON.stringify(payload)` محاسبه می‌شود، نه روی کل بایت‌های فایل JSON. مقایسه قبلی با بایت‌های خام فایل با قرارداد واقعی موتور یکسان نبود. اکنون هم Blob تولیدشده و هم فایل ذخیره‌شده و دوباره انتخاب‌شده parse می‌شوند؛ قالب portable backup، الگوریتم SHA-256، دیتابیس Preview، scope کامل، مجموعه دقیق 17 دامنه، شناسه و یکتایی تمام رکوردها بررسی می‌شود و هش `JSON.stringify(payload)` دوباره محاسبه و با digest مورد انتظار مقایسه می‌شود. این بازنگری همان پرونده SEC-RESET-001 است و شناسه جدید ایجاد نشده است.
+- **Commit کد R2:** `19bc45b9d6557ef599462a5b74a98a4edf44371d`؛ Authority pin commit `c8c23061b9f020afa3ecfccc2e58323eb7ab38c4`.
+- **Gate:** R45 قبلی پیش از R2 موفق بود؛ R11 Version Authority Gate برای کد R2 و pin نهایی PASS شد؛ run `46053277888` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46053277888. تمام 22 فایل runtime pinشده و هویت R45 تأیید شدند.
+- **فایل‌های تغییرکرده:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`، `v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js`، `VERSION-AUTHORITY.json`، همین دفترچه و `docs/REPAIR_INDEX_FA.md`.
+- **Build / Commit / PR:** Build ID هدف `THA-273-R11-PREVIEW-20261127-R45`؛ کد Factory Reset و native-HTML fail-closed hardening در شاخه development؛ آخرین authority commit `82848baac04729e2cb93157a5087b9e03b90b1f9`؛ PR موجود #96 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96 (Draft، base=`main`). Authority metadata commit `4a41ba386cd8ed2873fcea5024c8113e9d40b068`.
+- **Version Authority Gate:** PASS قبلی در run `46053038295` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46053038295 — native-HTML fail-closed hardening و 22 فایل pinشده را تأیید کرد. پس از آن R2 verifier اصلاح و reset-runtime SHA pin به‌روز شد؛ Gate جدید برای همین تغییر pending است. هیچ Gate یا branch protection دور زده نشد.
+- **Static checks:** V8 syntax compilation برای فایل کامل reset runtime PASS است. قرارداد digest از recovery engine بررسی و verifier با آن هماهنگ شد؛ R11 Version Authority Gate برای R2 نیز PASS است. آزمون زنده مرورگر، کلیک واقعی، اجرای Backup/Snapshot یا Restore و آزمون failure injection هنوز انجام نشده‌اند.
+- **تست / داده:** هیچ Factory Reset، Backup، Restore، پاک‌سازی IndexedDB، نوشتن داده، تغییر sequence یا دستکاری فایل بکاپ اجرا نشده است. Preview data و Production data دست‌نخورده‌اند.
+- **Preview Pages / Safari:** Pages deploy انجام نشده است؛ PR #96 همچنان Draft است تا کار جداگانه Help ID registry کامل شود. تست iPhone Safari انجام نشده و فقط پس از Deploy مجاز انجام می‌شود. هیچ Reset واقعی در تست Safari اجرا نشود.
+- **Production:** بدون تغییر؛ هیچ مجوز ارتقا وجود ندارد.
+
+
+
+- **تکمیل hardening نهایی HTML:** مقدار `disabled` دکمه نهایی در هر دو تابع قدیمی `openFactoryReset()` و `factoryResetNextStep()` روی `true` تنظیم شد. بنابراین حتی اگر فایل محافظ JavaScript بارگذاری نشود، UI نباید دکمه نهایی را فعال نشان دهد. SHA فایل index و pin مربوط در `VERSION-AUTHORITY.json` هم‌زمان به‌روزرسانی شد. R11 Version Authority Gate برای commit نهایی PASS شد (run `46053038295`). هیچ Deploy یا Reset واقعی اجرا نشد.
+
+
+#### بازنگری R61 — اتصال عملیات پروژه و تب‌های جزئیات
+
+- تاریخ: 2026-11-27
+- نوع تغییر: ادامه پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- شناسه‌های متصل‌شده: THA-HLP-0081 (New Project)، THA-HLP-0082 (Projects List)، THA-HLP-0083 (Add Partner)، THA-HLP-0090 تا THA-HLP-0096 (هفت تب Project Detail)، THA-HLP-0097 (View Financial Report)، THA-HLP-0101 (Clear Contractor Form) و THA-HLP-0115 (Clear Work Package Form).
+- روش اتصال: ۱۳ selector محدوده‌دار. هفت تب با data-pr-sub دقیق از یکدیگر تفکیک شدند؛ دکمه‌های New/List به صفحه Project Hub و دکمه‌های Clear به فرم مربوطه محدود هستند.
+- نسخه: THA-273-R11-PREVIEW-20261127-R61.
+- اتصال‌ها پس از R61: ۱۱۰ کنترل؛ ۱۰۵ ایستا و پنج پویا. از ۱۰۵ اتصال ایستا، ۸۷ مورد selector محدوده‌دار، ۱۳ مورد ID یکتا و پنج مورد handler محدوده‌دار هستند.
+- تست ایستا: ۱۳ selector در Runtime و Mapping ثبت شدند. escaping پارامترهای prPage('new') و prPage('list') اصلاح شد. هیچ داده پروژه یا مالی تغییر نکرد.
+- Version Authority Gate: PASS؛ run `46071318624` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071318624؛ هویت Build R61، canonical URL، SHA فایل index و تمام ۲۴ فایل pinشده تأیید شدند.
+- تست واقعی مرورگر / موبایل: هنوز انجام نشده؛ کلیک راهنمای تب‌ها، حفظ navigation، انتخاب زبان و چیدمان موبایل باید در Preview بررسی شوند.
+- انتشار / داده: هیچ Preview deploy، Merge یا Production change انجام نشده است.
+
+
+#### بازنگری R62 — اتصال کنترل‌های پویا و پنل کنترل
+
+- تاریخ: 2026-11-27
+- نوع تغییر: ادامه پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- شناسه‌های متصل‌شده: THA-HLP-0079 (Company Contracts & Jobs از Business Workspace)، THA-HLP-0104 تا THA-HLP-0106 (Partners، Workers و Contractors در Control Panel)، THA-HLP-0122 (انتخاب Category)، THA-HLP-0123 (Add New One)، THA-HLP-0126 (OK در Entry Saved dialog) و THA-HLP-0140 (Open print view).
+- روش اتصال: هشت selector دقیق و محدوده‌دار. برای کنترل‌های ساخته‌شده در زمان اجرا، MutationObserver موجود در Help Runtime اتصال را هنگام ورود عنصر به DOM انجام می‌دهد.
+- نسخه: THA-273-R11-PREVIEW-20261127-R62.
+- اتصال‌ها پس از R62: ۱۱۸ کنترل؛ ۱۱۳ ایستا و پنج پویا. ۹۵ selector محدوده‌دار، ۱۳ ID یکتا و پنج handler محدوده‌دار.
+- ایمنی: هیچ handler اصلی تغییر نکرد؛ Help فقط marker راهنما را اضافه می‌کند و کلیک «?» باید از اجرای Save، Clear یا Print جلوگیری کند. این رفتار هنوز در مرورگر واقعی تأیید نشده است.
+- **Version Authority Gate:** PASS؛ run `46071628688` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071628688؛ Build R62، canonical URL، SHA صفحه و تمام ۲۴ asset pin تأیید شدند.
+- تست واقعی مرورگر / موبایل: هنوز انجام نشده؛ به‌خصوص Category picker، پنجره Entry Saved و Invoice Preview باید تست شوند.
+- انتشار / داده: هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.

@@ -1,0 +1,3026 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-11-27",
+  "scope": {
+    "repository": "Thehandymanjob/accountancy-r11-preview",
+    "branch": "development",
+    "source_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+    "source_blob_sha": "e58a0c7895cf639c36e69c28696ebfd3bd262bef",
+    "mapping_path": "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+    "mapping_blob_sha": "3e2979b0c24eb342e89d541cdf71dc42389297d9",
+    "method": "Count inline onclick attributes containing the mapped handler_name followed by '('; classify one static callsite vs one template callsite vs multiple callsites. Does not inspect live DOM, event listeners, or runtime multiplicity."
+  },
+  "summary": {
+    "ambiguous_rows": 179,
+    "unique_static_callsite_candidates": 64,
+    "unique_template_callsite_candidates": 33,
+    "multiple_callsite_rows": 82
+  },
+  "records": [
+    {
+      "help_id": "THA-HLP-0001",
+      "audit_ref": "INV-001",
+      "handler": "openAccountancy",
+      "raw_handler": "openAccountancy()",
+      "visible_label": "🧾 Accountancy Income, expenses, invoices and reports ›",
+      "callsite_count": 1,
+      "callsites": [
+        "openAccountancy()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0002",
+      "audit_ref": "INV-002",
+      "handler": "openProjectsApp",
+      "raw_handler": "openProjectsApp()",
+      "visible_label": "💼 Business Workspace Projects, Company Contracts & Jobs, and Control Panel ›",
+      "callsite_count": 1,
+      "callsites": [
+        "openProjectsApp()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0003",
+      "audit_ref": "INV-003",
+      "handler": "openContractsApp",
+      "raw_handler": "openContractsApp()",
+      "visible_label": "📝 Contract Management Create, edit and manage contracts and quotations ›",
+      "callsite_count": 1,
+      "callsites": [
+        "openContractsApp()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0004",
+      "audit_ref": "INV-004",
+      "handler": "openSettingsHub",
+      "raw_handler": "openSettingsHub()",
+      "visible_label": "⚙️ Settings Backup, restore, profile and logo ›",
+      "callsite_count": 1,
+      "callsites": [
+        "openSettingsHub()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0005",
+      "audit_ref": "INV-006",
+      "handler": "ctNew",
+      "raw_handler": "ctNew()",
+      "visible_label": "＋ New Contract",
+      "callsite_count": 1,
+      "callsites": [
+        "ctNew()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0009",
+      "audit_ref": "INV-011",
+      "handler": "show",
+      "raw_handler": "show(",
+      "visible_label": "▦ Dashboard Financial overview and balances ›",
+      "callsite_count": 22,
+      "callsites": [
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('backup')",
+        "show('helpSettings')",
+        "show('profileGuide')",
+        "show('userGuide')",
+        "show('softwareUpdate')",
+        "show('monitor')",
+        "show('factoryResetPage')",
+        "show('settings')",
+        "show(&quot;records&quot;)",
+        "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0010",
+      "audit_ref": "INV-012",
+      "handler": "show",
+      "raw_handler": "show(",
+      "visible_label": "＋ Add Entry Record income or expenses ›",
+      "callsite_count": 22,
+      "callsites": [
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('backup')",
+        "show('helpSettings')",
+        "show('profileGuide')",
+        "show('userGuide')",
+        "show('softwareUpdate')",
+        "show('monitor')",
+        "show('factoryResetPage')",
+        "show('settings')",
+        "show(&quot;records&quot;)",
+        "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0011",
+      "audit_ref": "INV-013",
+      "handler": "show",
+      "raw_handler": "show(",
+      "visible_label": "▤ Records Find and manage transactions ›",
+      "callsite_count": 22,
+      "callsites": [
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('backup')",
+        "show('helpSettings')",
+        "show('profileGuide')",
+        "show('userGuide')",
+        "show('softwareUpdate')",
+        "show('monitor')",
+        "show('factoryResetPage')",
+        "show('settings')",
+        "show(&quot;records&quot;)",
+        "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0012",
+      "audit_ref": "INV-014",
+      "handler": "show",
+      "raw_handler": "show(",
+      "visible_label": "▧ Invoices Create and review invoices ›",
+      "callsite_count": 22,
+      "callsites": [
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('backup')",
+        "show('helpSettings')",
+        "show('profileGuide')",
+        "show('userGuide')",
+        "show('softwareUpdate')",
+        "show('monitor')",
+        "show('factoryResetPage')",
+        "show('settings')",
+        "show(&quot;records&quot;)",
+        "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0013",
+      "audit_ref": "INV-015",
+      "handler": "show",
+      "raw_handler": "show(",
+      "visible_label": "♙ Customers Customer details and contacts ›",
+      "callsite_count": 22,
+      "callsites": [
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('backup')",
+        "show('helpSettings')",
+        "show('profileGuide')",
+        "show('userGuide')",
+        "show('softwareUpdate')",
+        "show('monitor')",
+        "show('factoryResetPage')",
+        "show('settings')",
+        "show(&quot;records&quot;)",
+        "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0014",
+      "audit_ref": "INV-016",
+      "handler": "show",
+      "raw_handler": "show(",
+      "visible_label": "▥ Reports & Tax Tax periods, archive and notifications ›",
+      "callsite_count": 22,
+      "callsites": [
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('backup')",
+        "show('helpSettings')",
+        "show('profileGuide')",
+        "show('userGuide')",
+        "show('softwareUpdate')",
+        "show('monitor')",
+        "show('factoryResetPage')",
+        "show('settings')",
+        "show(&quot;records&quot;)",
+        "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0015",
+      "audit_ref": "INV-017",
+      "handler": "show",
+      "raw_handler": "show(",
+      "visible_label": "🏠 Dashboard",
+      "callsite_count": 22,
+      "callsites": [
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('backup')",
+        "show('helpSettings')",
+        "show('profileGuide')",
+        "show('userGuide')",
+        "show('softwareUpdate')",
+        "show('monitor')",
+        "show('factoryResetPage')",
+        "show('settings')",
+        "show(&quot;records&quot;)",
+        "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0016",
+      "audit_ref": "INV-018",
+      "handler": "show",
+      "raw_handler": "show(",
+      "visible_label": "＋ Add Entry",
+      "callsite_count": 22,
+      "callsites": [
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('backup')",
+        "show('helpSettings')",
+        "show('profileGuide')",
+        "show('userGuide')",
+        "show('softwareUpdate')",
+        "show('monitor')",
+        "show('factoryResetPage')",
+        "show('settings')",
+        "show(&quot;records&quot;)",
+        "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0017",
+      "audit_ref": "INV-019",
+      "handler": "show",
+      "raw_handler": "show(",
+      "visible_label": "📋 Records",
+      "callsite_count": 22,
+      "callsites": [
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('backup')",
+        "show('helpSettings')",
+        "show('profileGuide')",
+        "show('userGuide')",
+        "show('softwareUpdate')",
+        "show('monitor')",
+        "show('factoryResetPage')",
+        "show('settings')",
+        "show(&quot;records&quot;)",
+        "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0018",
+      "audit_ref": "INV-020",
+      "handler": "show",
+      "raw_handler": "show(",
+      "visible_label": "🧾 Invoices",
+      "callsite_count": 22,
+      "callsites": [
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('backup')",
+        "show('helpSettings')",
+        "show('profileGuide')",
+        "show('userGuide')",
+        "show('softwareUpdate')",
+        "show('monitor')",
+        "show('factoryResetPage')",
+        "show('settings')",
+        "show(&quot;records&quot;)",
+        "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0019",
+      "audit_ref": "INV-021",
+      "handler": "show",
+      "raw_handler": "show(",
+      "visible_label": "👥 Customers",
+      "callsite_count": 22,
+      "callsites": [
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('backup')",
+        "show('helpSettings')",
+        "show('profileGuide')",
+        "show('userGuide')",
+        "show('softwareUpdate')",
+        "show('monitor')",
+        "show('factoryResetPage')",
+        "show('settings')",
+        "show(&quot;records&quot;)",
+        "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0020",
+      "audit_ref": "INV-022",
+      "handler": "show",
+      "raw_handler": "show(",
+      "visible_label": "🖨️ Reports",
+      "callsite_count": 22,
+      "callsites": [
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('backup')",
+        "show('helpSettings')",
+        "show('profileGuide')",
+        "show('userGuide')",
+        "show('softwareUpdate')",
+        "show('monitor')",
+        "show('factoryResetPage')",
+        "show('settings')",
+        "show(&quot;records&quot;)",
+        "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0021",
+      "audit_ref": "INV-024",
+      "handler": "refreshAll",
+      "raw_handler": "refreshAll()",
+      "visible_label": "Refresh",
+      "callsite_count": 1,
+      "callsites": [
+        "refreshAll()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0022",
+      "audit_ref": "INV-025",
+      "handler": "setPeriod",
+      "raw_handler": "setPeriod()",
+      "visible_label": "Set period (13th–12th)",
+      "callsite_count": 1,
+      "callsites": [
+        "setPeriod()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0024",
+      "audit_ref": "INV-027",
+      "handler": "getElementById",
+      "raw_handler": "document.getElementById(",
+      "visible_label": "📷 Take a Photo",
+      "callsite_count": 5,
+      "callsites": [
+        "document.getElementById('entryReceiptGallery').click()",
+        "openReceiptImage(document.getElementById('${scope==='entry'?'entryReceiptData':'prReceiptData'}').value)",
+        "document.getElementById(\\'deletedEntryViewModal\\').remove()",
+        "document.getElementById('prReceiptGallery').click()",
+        "document.getElementById('report188Viewer').hidden=true"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0026",
+      "audit_ref": "INV-029",
+      "handler": "saveEntry",
+      "raw_handler": "saveEntry()",
+      "visible_label": "Save Entry",
+      "callsite_count": 1,
+      "callsites": [
+        "saveEntry()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0027",
+      "audit_ref": "INV-030",
+      "handler": "resetEntry",
+      "raw_handler": "resetEntry()",
+      "visible_label": "Clear Form",
+      "callsite_count": 1,
+      "callsites": [
+        "resetEntry()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0028",
+      "audit_ref": "INV-032",
+      "handler": "saveExpenseCategory",
+      "raw_handler": "saveExpenseCategory()",
+      "visible_label": "Add to list",
+      "callsite_count": 1,
+      "callsites": [
+        "saveExpenseCategory()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0029",
+      "audit_ref": "INV-034",
+      "handler": "newInvoice",
+      "raw_handler": "newInvoice()",
+      "visible_label": "＋ New Invoice",
+      "callsite_count": 1,
+      "callsites": [
+        "newInvoice()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0030",
+      "audit_ref": "INV-036",
+      "handler": "saveInvoice",
+      "raw_handler": "saveInvoice()",
+      "visible_label": "Save Invoice",
+      "callsite_count": 1,
+      "callsites": [
+        "saveInvoice()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0031",
+      "audit_ref": "INV-037",
+      "handler": "saveAndPrintInvoice",
+      "raw_handler": "saveAndPrintInvoice()",
+      "visible_label": "Save & Print / PDF",
+      "callsite_count": 1,
+      "callsites": [
+        "saveAndPrintInvoice()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0032",
+      "audit_ref": "INV-038",
+      "handler": "saveCustomer",
+      "raw_handler": "saveCustomer()",
+      "visible_label": "Save Customer",
+      "callsite_count": 1,
+      "callsites": [
+        "saveCustomer()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0033",
+      "audit_ref": "INV-039",
+      "handler": "resetCustomerForm",
+      "raw_handler": "resetCustomerForm()",
+      "visible_label": "Clear Form",
+      "callsite_count": 1,
+      "callsites": [
+        "resetCustomerForm()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0034",
+      "audit_ref": "INV-041",
+      "handler": "report188Navigate",
+      "raw_handler": "report188Navigate(",
+      "visible_label": "📄 Prepare a report Predefined reporting periods and report generation",
+      "callsite_count": 5,
+      "callsites": [
+        "report188Navigate('builder')",
+        "report188Navigate('archive')",
+        "report188Navigate('inbox')",
+        "report188Navigate('calendar')",
+        "report188Navigate('email')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0035",
+      "audit_ref": "INV-042",
+      "handler": "report188Navigate",
+      "raw_handler": "report188Navigate(",
+      "visible_label": "🗂️ Saved reports archive Open previous report snapshots",
+      "callsite_count": 5,
+      "callsites": [
+        "report188Navigate('builder')",
+        "report188Navigate('archive')",
+        "report188Navigate('inbox')",
+        "report188Navigate('calendar')",
+        "report188Navigate('email')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0036",
+      "audit_ref": "INV-043",
+      "handler": "report188Navigate",
+      "raw_handler": "report188Navigate(",
+      "visible_label": "🔔 Notifications inbox Titles only; tap a notification to read it",
+      "callsite_count": 5,
+      "callsites": [
+        "report188Navigate('builder')",
+        "report188Navigate('archive')",
+        "report188Navigate('inbox')",
+        "report188Navigate('calendar')",
+        "report188Navigate('email')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0037",
+      "audit_ref": "INV-044",
+      "handler": "report188Navigate",
+      "raw_handler": "report188Navigate(",
+      "visible_label": "🗓️ Tax calendar Upcoming and past deadlines",
+      "callsite_count": 5,
+      "callsites": [
+        "report188Navigate('builder')",
+        "report188Navigate('archive')",
+        "report188Navigate('inbox')",
+        "report188Navigate('calendar')",
+        "report188Navigate('email')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0038",
+      "audit_ref": "INV-045",
+      "handler": "report188Navigate",
+      "raw_handler": "report188Navigate(",
+      "visible_label": "✉️ Accountant email Recipient settings and sending status",
+      "callsite_count": 5,
+      "callsites": [
+        "report188Navigate('builder')",
+        "report188Navigate('archive')",
+        "report188Navigate('inbox')",
+        "report188Navigate('calendar')",
+        "report188Navigate('email')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0039",
+      "audit_ref": "INV-047",
+      "handler": "printReport",
+      "raw_handler": "printReport()",
+      "visible_label": "Print Preview",
+      "callsite_count": 1,
+      "callsites": [
+        "printReport()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0040",
+      "audit_ref": "INV-048",
+      "handler": "report188ConfirmComplete",
+      "raw_handler": "report188ConfirmComplete()",
+      "visible_label": "Confirm records complete",
+      "callsite_count": 2,
+      "callsites": [
+        "report188ConfirmComplete()",
+        "report188ConfirmComplete()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0041",
+      "audit_ref": "INV-049",
+      "handler": "report188CheckDue",
+      "raw_handler": "report188CheckDue()",
+      "visible_label": "Check reminders now",
+      "callsite_count": 2,
+      "callsites": [
+        "report188CheckDue()",
+        "report188CheckDue()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0042",
+      "audit_ref": "INV-054",
+      "handler": "report188ConfirmComplete",
+      "raw_handler": "report188ConfirmComplete()",
+      "visible_label": "Confirm records complete for selected period",
+      "callsite_count": 2,
+      "callsites": [
+        "report188ConfirmComplete()",
+        "report188ConfirmComplete()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0043",
+      "audit_ref": "INV-055",
+      "handler": "report188CheckDue",
+      "raw_handler": "report188CheckDue()",
+      "visible_label": "Check reminders now",
+      "callsite_count": 2,
+      "callsites": [
+        "report188CheckDue()",
+        "report188CheckDue()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0047",
+      "audit_ref": "INV-060",
+      "handler": "toggleMonitorVersionInfo",
+      "raw_handler": "toggleMonitorVersionInfo()",
+      "visible_label": "Show version details",
+      "callsite_count": 2,
+      "callsites": [
+        "toggleMonitorVersionInfo()",
+        "toggleMonitorVersionInfo()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0052",
+      "audit_ref": "INV-065",
+      "handler": "exportDiagnosticReport",
+      "raw_handler": "exportDiagnosticReport()",
+      "visible_label": "Download Diagnostic Report (JSON)",
+      "callsite_count": 1,
+      "callsites": [
+        "exportDiagnosticReport()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0053",
+      "audit_ref": "INV-066",
+      "handler": "runFullStorageAudit",
+      "raw_handler": "runFullStorageAudit()",
+      "visible_label": "Run Full Storage Audit (Read-only)",
+      "callsite_count": 1,
+      "callsites": [
+        "runFullStorageAudit()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0054",
+      "audit_ref": "INV-067",
+      "handler": "exportMonitorCSV",
+      "raw_handler": "exportMonitorCSV()",
+      "visible_label": "Export Activity Log (CSV)",
+      "callsite_count": 1,
+      "callsites": [
+        "exportMonitorCSV()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0055",
+      "audit_ref": "INV-068",
+      "handler": "runMonitorSelfCheck",
+      "raw_handler": "runMonitorSelfCheck()",
+      "visible_label": "Run Local Self-check",
+      "callsite_count": 1,
+      "callsites": [
+        "runMonitorSelfCheck()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0056",
+      "audit_ref": "INV-070",
+      "handler": "show",
+      "raw_handler": "show(",
+      "visible_label": "💾 Backup & Restore Separate backups for each data area",
+      "callsite_count": 22,
+      "callsites": [
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('backup')",
+        "show('helpSettings')",
+        "show('profileGuide')",
+        "show('userGuide')",
+        "show('softwareUpdate')",
+        "show('monitor')",
+        "show('factoryResetPage')",
+        "show('settings')",
+        "show(&quot;records&quot;)",
+        "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0057",
+      "audit_ref": "INV-071",
+      "handler": "show",
+      "raw_handler": "show(",
+      "visible_label": "❓ Help Choose the language for the User Guide",
+      "callsite_count": 22,
+      "callsites": [
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('backup')",
+        "show('helpSettings')",
+        "show('profileGuide')",
+        "show('userGuide')",
+        "show('softwareUpdate')",
+        "show('monitor')",
+        "show('factoryResetPage')",
+        "show('settings')",
+        "show(&quot;records&quot;)",
+        "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0058",
+      "audit_ref": "INV-072",
+      "handler": "show",
+      "raw_handler": "show(",
+      "visible_label": "👤 Profile & Logo Business details and business logo",
+      "callsite_count": 22,
+      "callsites": [
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('backup')",
+        "show('helpSettings')",
+        "show('profileGuide')",
+        "show('userGuide')",
+        "show('softwareUpdate')",
+        "show('monitor')",
+        "show('factoryResetPage')",
+        "show('settings')",
+        "show(&quot;records&quot;)",
+        "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0059",
+      "audit_ref": "INV-073",
+      "handler": "show",
+      "raw_handler": "show(",
+      "visible_label": "📘 User Guide Instructions and Contact Us",
+      "callsite_count": 22,
+      "callsites": [
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('backup')",
+        "show('helpSettings')",
+        "show('profileGuide')",
+        "show('userGuide')",
+        "show('softwareUpdate')",
+        "show('monitor')",
+        "show('factoryResetPage')",
+        "show('settings')",
+        "show(&quot;records&quot;)",
+        "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0060",
+      "audit_ref": "INV-074",
+      "handler": "show",
+      "raw_handler": "show(",
+      "visible_label": "🔄 Software Update Check and install the latest version",
+      "callsite_count": 22,
+      "callsites": [
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('backup')",
+        "show('helpSettings')",
+        "show('profileGuide')",
+        "show('userGuide')",
+        "show('softwareUpdate')",
+        "show('monitor')",
+        "show('factoryResetPage')",
+        "show('settings')",
+        "show(&quot;records&quot;)",
+        "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0061",
+      "audit_ref": "INV-075",
+      "handler": "show",
+      "raw_handler": "show(",
+      "visible_label": "🛡️ Monitor & Diagnostics Activity archive, errors, data integrity and developer report",
+      "callsite_count": 22,
+      "callsites": [
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('backup')",
+        "show('helpSettings')",
+        "show('profileGuide')",
+        "show('userGuide')",
+        "show('softwareUpdate')",
+        "show('monitor')",
+        "show('factoryResetPage')",
+        "show('settings')",
+        "show(&quot;records&quot;)",
+        "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0062",
+      "audit_ref": "INV-076",
+      "handler": "show",
+      "raw_handler": "show(",
+      "visible_label": "⚠️ Factory Reset Convert approved backup and safely restore all data",
+      "callsite_count": 22,
+      "callsites": [
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('home')",
+        "show('entry')",
+        "show('records')",
+        "show('invoices')",
+        "show('customers')",
+        "show('report')",
+        "show('backup')",
+        "show('helpSettings')",
+        "show('profileGuide')",
+        "show('userGuide')",
+        "show('softwareUpdate')",
+        "show('monitor')",
+        "show('factoryResetPage')",
+        "show('settings')",
+        "show(&quot;records&quot;)",
+        "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0063",
+      "audit_ref": "INV-078",
+      "handler": "openFactoryReset",
+      "raw_handler": "openFactoryReset()",
+      "visible_label": "Open Secure Reset",
+      "callsite_count": 1,
+      "callsites": [
+        "openFactoryReset()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0068",
+      "audit_ref": "INV-084",
+      "handler": "prSaveProfile",
+      "raw_handler": "prSaveProfile()",
+      "visible_label": "Save Profile",
+      "callsite_count": 1,
+      "callsites": [
+        "prSaveProfile()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0069",
+      "audit_ref": "INV-085",
+      "handler": "prRemoveLogo",
+      "raw_handler": "prRemoveLogo()",
+      "visible_label": "Remove Logo",
+      "callsite_count": 1,
+      "callsites": [
+        "prRemoveLogo()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0071",
+      "audit_ref": "INV-087",
+      "handler": "resetHelpContactForm",
+      "raw_handler": "resetHelpContactForm()",
+      "visible_label": "Clear Form",
+      "callsite_count": 1,
+      "callsites": [
+        "resetHelpContactForm()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0074",
+      "audit_ref": "INV-090",
+      "handler": "prPage",
+      "raw_handler": "prPage(",
+      "visible_label": "💼 Business Workspace",
+      "callsite_count": 13,
+      "callsites": [
+        "prPage('workspace')",
+        "prPage('project-hub')",
+        "prPage('company-hub')",
+        "prPage('control')",
+        "prPage('project-hub')",
+        "prPage('control')",
+        "prPage('new')",
+        "prPage('list')",
+        "prPage('partners')",
+        "prPage('workers')",
+        "prPage('contractors')",
+        "prPage('company-profit')",
+        "prPage(\\'workers\\');prCloseWorkerListPicker()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0075",
+      "audit_ref": "INV-091",
+      "handler": "prPage",
+      "raw_handler": "prPage(",
+      "visible_label": "📁 Projects",
+      "callsite_count": 13,
+      "callsites": [
+        "prPage('workspace')",
+        "prPage('project-hub')",
+        "prPage('company-hub')",
+        "prPage('control')",
+        "prPage('project-hub')",
+        "prPage('control')",
+        "prPage('new')",
+        "prPage('list')",
+        "prPage('partners')",
+        "prPage('workers')",
+        "prPage('contractors')",
+        "prPage('company-profit')",
+        "prPage(\\'workers\\');prCloseWorkerListPicker()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0076",
+      "audit_ref": "INV-092",
+      "handler": "prPage",
+      "raw_handler": "prPage(",
+      "visible_label": "🏢 Company Contracts & Jobs",
+      "callsite_count": 13,
+      "callsites": [
+        "prPage('workspace')",
+        "prPage('project-hub')",
+        "prPage('company-hub')",
+        "prPage('control')",
+        "prPage('project-hub')",
+        "prPage('control')",
+        "prPage('new')",
+        "prPage('list')",
+        "prPage('partners')",
+        "prPage('workers')",
+        "prPage('contractors')",
+        "prPage('company-profit')",
+        "prPage(\\'workers\\');prCloseWorkerListPicker()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0077",
+      "audit_ref": "INV-093",
+      "handler": "prPage",
+      "raw_handler": "prPage(",
+      "visible_label": "⚙️ Control Panel",
+      "callsite_count": 13,
+      "callsites": [
+        "prPage('workspace')",
+        "prPage('project-hub')",
+        "prPage('company-hub')",
+        "prPage('control')",
+        "prPage('project-hub')",
+        "prPage('control')",
+        "prPage('new')",
+        "prPage('list')",
+        "prPage('partners')",
+        "prPage('workers')",
+        "prPage('contractors')",
+        "prPage('company-profit')",
+        "prPage(\\'workers\\');prCloseWorkerListPicker()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0078",
+      "audit_ref": "INV-095",
+      "handler": "prPage",
+      "raw_handler": "prPage(",
+      "visible_label": "📁 Projects New Project, Projects List and Project Profit & Loss",
+      "callsite_count": 13,
+      "callsites": [
+        "prPage('workspace')",
+        "prPage('project-hub')",
+        "prPage('company-hub')",
+        "prPage('control')",
+        "prPage('project-hub')",
+        "prPage('control')",
+        "prPage('new')",
+        "prPage('list')",
+        "prPage('partners')",
+        "prPage('workers')",
+        "prPage('contractors')",
+        "prPage('company-profit')",
+        "prPage(\\'workers\\');prCloseWorkerListPicker()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0079",
+      "audit_ref": "INV-096",
+      "handler": "prOpenCompanyHubFromWorkspace",
+      "raw_handler": "prOpenCompanyHubFromWorkspace()",
+      "visible_label": "🏢 Company Contracts & Jobs Companies, contracts, company projects, sub-projects and payments",
+      "callsite_count": 1,
+      "callsites": [
+        "prOpenCompanyHubFromWorkspace()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0080",
+      "audit_ref": "INV-097",
+      "handler": "prPage",
+      "raw_handler": "prPage(",
+      "visible_label": "⚙️ Control Panel Manage shared Partners, Workers, Contractors, companies and future settings",
+      "callsite_count": 13,
+      "callsites": [
+        "prPage('workspace')",
+        "prPage('project-hub')",
+        "prPage('company-hub')",
+        "prPage('control')",
+        "prPage('project-hub')",
+        "prPage('control')",
+        "prPage('new')",
+        "prPage('list')",
+        "prPage('partners')",
+        "prPage('workers')",
+        "prPage('contractors')",
+        "prPage('company-profit')",
+        "prPage(\\'workers\\');prCloseWorkerListPicker()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0081",
+      "audit_ref": "INV-098",
+      "handler": "prPage",
+      "raw_handler": "prPage(",
+      "visible_label": "➕ New Project Create an independent project",
+      "callsite_count": 13,
+      "callsites": [
+        "prPage('workspace')",
+        "prPage('project-hub')",
+        "prPage('company-hub')",
+        "prPage('control')",
+        "prPage('project-hub')",
+        "prPage('control')",
+        "prPage('new')",
+        "prPage('list')",
+        "prPage('partners')",
+        "prPage('workers')",
+        "prPage('contractors')",
+        "prPage('company-profit')",
+        "prPage(\\'workers\\');prCloseWorkerListPicker()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0082",
+      "audit_ref": "INV-099",
+      "handler": "prPage",
+      "raw_handler": "prPage(",
+      "visible_label": "▦ Projects List Search, open and manage existing projects",
+      "callsite_count": 13,
+      "callsites": [
+        "prPage('workspace')",
+        "prPage('project-hub')",
+        "prPage('company-hub')",
+        "prPage('control')",
+        "prPage('project-hub')",
+        "prPage('control')",
+        "prPage('new')",
+        "prPage('list')",
+        "prPage('partners')",
+        "prPage('workers')",
+        "prPage('contractors')",
+        "prPage('company-profit')",
+        "prPage(\\'workers\\');prCloseWorkerListPicker()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0083",
+      "audit_ref": "INV-100",
+      "handler": "prAddPartnerShareRow",
+      "raw_handler": "prAddPartnerShareRow()",
+      "visible_label": "＋ Add Partner",
+      "callsite_count": 1,
+      "callsites": [
+        "prAddPartnerShareRow()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0084",
+      "audit_ref": "INV-101",
+      "handler": "prSaveProject",
+      "raw_handler": "prSaveProject()",
+      "visible_label": "Save Project",
+      "callsite_count": 1,
+      "callsites": [
+        "prSaveProject()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0085",
+      "audit_ref": "INV-102",
+      "handler": "prResetProject",
+      "raw_handler": "prResetProject()",
+      "visible_label": "Clear Form",
+      "callsite_count": 1,
+      "callsites": [
+        "prResetProject()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0086",
+      "audit_ref": "INV-103",
+      "handler": "prEditCurrent",
+      "raw_handler": "prEditCurrent()",
+      "visible_label": "Edit",
+      "callsite_count": 1,
+      "callsites": [
+        "prEditCurrent()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0088",
+      "audit_ref": "INV-105",
+      "handler": "prDeleteCurrent",
+      "raw_handler": "prDeleteCurrent()",
+      "visible_label": "Delete",
+      "callsite_count": 1,
+      "callsites": [
+        "prDeleteCurrent()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0090",
+      "audit_ref": "INV-107",
+      "handler": "prDetailTab",
+      "raw_handler": "prDetailTab(",
+      "visible_label": "Summary",
+      "callsite_count": 7,
+      "callsites": [
+        "prDetailTab('summary')",
+        "prDetailTab('income')",
+        "prDetailTab('expenses')",
+        "prDetailTab('wages')",
+        "prDetailTab('tools')",
+        "prDetailTab('food')",
+        "prDetailTab('report')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0091",
+      "audit_ref": "INV-108",
+      "handler": "prDetailTab",
+      "raw_handler": "prDetailTab(",
+      "visible_label": "Income",
+      "callsite_count": 7,
+      "callsites": [
+        "prDetailTab('summary')",
+        "prDetailTab('income')",
+        "prDetailTab('expenses')",
+        "prDetailTab('wages')",
+        "prDetailTab('tools')",
+        "prDetailTab('food')",
+        "prDetailTab('report')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0092",
+      "audit_ref": "INV-109",
+      "handler": "prDetailTab",
+      "raw_handler": "prDetailTab(",
+      "visible_label": "Expenses",
+      "callsite_count": 7,
+      "callsites": [
+        "prDetailTab('summary')",
+        "prDetailTab('income')",
+        "prDetailTab('expenses')",
+        "prDetailTab('wages')",
+        "prDetailTab('tools')",
+        "prDetailTab('food')",
+        "prDetailTab('report')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0093",
+      "audit_ref": "INV-110",
+      "handler": "prDetailTab",
+      "raw_handler": "prDetailTab(",
+      "visible_label": "Worker Wages",
+      "callsite_count": 7,
+      "callsites": [
+        "prDetailTab('summary')",
+        "prDetailTab('income')",
+        "prDetailTab('expenses')",
+        "prDetailTab('wages')",
+        "prDetailTab('tools')",
+        "prDetailTab('food')",
+        "prDetailTab('report')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0094",
+      "audit_ref": "INV-111",
+      "handler": "prDetailTab",
+      "raw_handler": "prDetailTab(",
+      "visible_label": "Tools",
+      "callsite_count": 7,
+      "callsites": [
+        "prDetailTab('summary')",
+        "prDetailTab('income')",
+        "prDetailTab('expenses')",
+        "prDetailTab('wages')",
+        "prDetailTab('tools')",
+        "prDetailTab('food')",
+        "prDetailTab('report')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0095",
+      "audit_ref": "INV-112",
+      "handler": "prDetailTab",
+      "raw_handler": "prDetailTab(",
+      "visible_label": "Food & Other",
+      "callsite_count": 7,
+      "callsites": [
+        "prDetailTab('summary')",
+        "prDetailTab('income')",
+        "prDetailTab('expenses')",
+        "prDetailTab('wages')",
+        "prDetailTab('tools')",
+        "prDetailTab('food')",
+        "prDetailTab('report')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0096",
+      "audit_ref": "INV-113",
+      "handler": "prDetailTab",
+      "raw_handler": "prDetailTab(",
+      "visible_label": "Reports",
+      "callsite_count": 7,
+      "callsites": [
+        "prDetailTab('summary')",
+        "prDetailTab('income')",
+        "prDetailTab('expenses')",
+        "prDetailTab('wages')",
+        "prDetailTab('tools')",
+        "prDetailTab('food')",
+        "prDetailTab('report')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0097",
+      "audit_ref": "INV-114",
+      "handler": "prOpenProfitReport",
+      "raw_handler": "prOpenProfitReport()",
+      "visible_label": "View Financial Report →",
+      "callsite_count": 1,
+      "callsites": [
+        "prOpenProfitReport()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0098",
+      "audit_ref": "INV-115",
+      "handler": "prSavePerson",
+      "raw_handler": "prSavePerson(",
+      "visible_label": "Save Partner",
+      "callsite_count": 2,
+      "callsites": [
+        "prSavePerson('partner')",
+        "prSavePerson('worker')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0099",
+      "audit_ref": "INV-116",
+      "handler": "prResetPerson",
+      "raw_handler": "prResetPerson(",
+      "visible_label": "Clear",
+      "callsite_count": 2,
+      "callsites": [
+        "prResetPerson('partner')",
+        "prResetPerson('worker')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0100",
+      "audit_ref": "INV-117",
+      "handler": "prSaveContractor",
+      "raw_handler": "prSaveContractor()",
+      "visible_label": "Save Contractor",
+      "callsite_count": 1,
+      "callsites": [
+        "prSaveContractor()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0101",
+      "audit_ref": "INV-118",
+      "handler": "prResetContractor",
+      "raw_handler": "prResetContractor()",
+      "visible_label": "Clear",
+      "callsite_count": 1,
+      "callsites": [
+        "prResetContractor()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0102",
+      "audit_ref": "INV-119",
+      "handler": "prSavePerson",
+      "raw_handler": "prSavePerson(",
+      "visible_label": "Save Worker",
+      "callsite_count": 2,
+      "callsites": [
+        "prSavePerson('partner')",
+        "prSavePerson('worker')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0103",
+      "audit_ref": "INV-120",
+      "handler": "prResetPerson",
+      "raw_handler": "prResetPerson(",
+      "visible_label": "Clear",
+      "callsite_count": 2,
+      "callsites": [
+        "prResetPerson('partner')",
+        "prResetPerson('worker')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0104",
+      "audit_ref": "INV-121",
+      "handler": "prPage",
+      "raw_handler": "prPage(",
+      "visible_label": "👤 Partners Manage shared partner records",
+      "callsite_count": 13,
+      "callsites": [
+        "prPage('workspace')",
+        "prPage('project-hub')",
+        "prPage('company-hub')",
+        "prPage('control')",
+        "prPage('project-hub')",
+        "prPage('control')",
+        "prPage('new')",
+        "prPage('list')",
+        "prPage('partners')",
+        "prPage('workers')",
+        "prPage('contractors')",
+        "prPage('company-profit')",
+        "prPage(\\'workers\\');prCloseWorkerListPicker()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0105",
+      "audit_ref": "INV-122",
+      "handler": "prPage",
+      "raw_handler": "prPage(",
+      "visible_label": "👷 Workers Manage shared worker records",
+      "callsite_count": 13,
+      "callsites": [
+        "prPage('workspace')",
+        "prPage('project-hub')",
+        "prPage('company-hub')",
+        "prPage('control')",
+        "prPage('project-hub')",
+        "prPage('control')",
+        "prPage('new')",
+        "prPage('list')",
+        "prPage('partners')",
+        "prPage('workers')",
+        "prPage('contractors')",
+        "prPage('company-profit')",
+        "prPage(\\'workers\\');prCloseWorkerListPicker()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0106",
+      "audit_ref": "INV-123",
+      "handler": "prPage",
+      "raw_handler": "prPage(",
+      "visible_label": "🧰 Contractors Manage trades and subcontractors",
+      "callsite_count": 13,
+      "callsites": [
+        "prPage('workspace')",
+        "prPage('project-hub')",
+        "prPage('company-hub')",
+        "prPage('control')",
+        "prPage('project-hub')",
+        "prPage('control')",
+        "prPage('new')",
+        "prPage('list')",
+        "prPage('partners')",
+        "prPage('workers')",
+        "prPage('contractors')",
+        "prPage('company-profit')",
+        "prPage(\\'workers\\');prCloseWorkerListPicker()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0107",
+      "audit_ref": "INV-124",
+      "handler": "coOpenCompanyMode",
+      "raw_handler": "coOpenCompanyMode(",
+      "visible_label": "➕ Add Company Register a company and its main contract",
+      "callsite_count": 2,
+      "callsites": [
+        "coOpenCompanyMode('add')",
+        "coOpenCompanyMode('list')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0108",
+      "audit_ref": "INV-125",
+      "handler": "coOpenCompanyMode",
+      "raw_handler": "coOpenCompanyMode(",
+      "visible_label": "🏢 Companies List Find companies and open their jobs",
+      "callsite_count": 2,
+      "callsites": [
+        "coOpenCompanyMode('add')",
+        "coOpenCompanyMode('list')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0109",
+      "audit_ref": "INV-126",
+      "handler": "prPage",
+      "raw_handler": "prPage(",
+      "visible_label": "📊 Company Project Profit & Loss Review income, costs and results by company and job",
+      "callsite_count": 13,
+      "callsites": [
+        "prPage('workspace')",
+        "prPage('project-hub')",
+        "prPage('company-hub')",
+        "prPage('control')",
+        "prPage('project-hub')",
+        "prPage('control')",
+        "prPage('new')",
+        "prPage('list')",
+        "prPage('partners')",
+        "prPage('workers')",
+        "prPage('contractors')",
+        "prPage('company-profit')",
+        "prPage(\\'workers\\');prCloseWorkerListPicker()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0110",
+      "audit_ref": "INV-127",
+      "handler": "coSaveCompany",
+      "raw_handler": "coSaveCompany()",
+      "visible_label": "Save Company",
+      "callsite_count": 1,
+      "callsites": [
+        "coSaveCompany()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0111",
+      "audit_ref": "INV-128",
+      "handler": "coResetCompany",
+      "raw_handler": "coResetCompany()",
+      "visible_label": "Clear Form",
+      "callsite_count": 1,
+      "callsites": [
+        "coResetCompany()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0112",
+      "audit_ref": "INV-129",
+      "handler": "coSaveJob",
+      "raw_handler": "coSaveJob()",
+      "visible_label": "Save Job",
+      "callsite_count": 1,
+      "callsites": [
+        "coSaveJob()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0113",
+      "audit_ref": "INV-130",
+      "handler": "coResetJob",
+      "raw_handler": "coResetJob()",
+      "visible_label": "Clear Job Form",
+      "callsite_count": 1,
+      "callsites": [
+        "coResetJob()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0114",
+      "audit_ref": "INV-131",
+      "handler": "coSaveSub",
+      "raw_handler": "coSaveSub()",
+      "visible_label": "Save Work Package",
+      "callsite_count": 1,
+      "callsites": [
+        "coSaveSub()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0115",
+      "audit_ref": "INV-132",
+      "handler": "coResetSub",
+      "raw_handler": "coResetSub()",
+      "visible_label": "Clear",
+      "callsite_count": 1,
+      "callsites": [
+        "coResetSub()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0116",
+      "audit_ref": "INV-133",
+      "handler": "coAddPackageExpense",
+      "raw_handler": "coAddPackageExpense()",
+      "visible_label": "Add Expense",
+      "callsite_count": 1,
+      "callsites": [
+        "coAddPackageExpense()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0117",
+      "audit_ref": "INV-134",
+      "handler": "coRecordPayment",
+      "raw_handler": "coRecordPayment()",
+      "visible_label": "Record Payment",
+      "callsite_count": 1,
+      "callsites": [
+        "coRecordPayment()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0118",
+      "audit_ref": "INV-136",
+      "handler": "confirmInvoicePaid",
+      "raw_handler": "confirmInvoicePaid()",
+      "visible_label": "Confirm payment",
+      "callsite_count": 1,
+      "callsites": [
+        "confirmInvoicePaid()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0119",
+      "audit_ref": "INV-137",
+      "handler": "changeListPage",
+      "raw_handler": "changeListPage(",
+      "visible_label": "‹ Previous",
+      "callsite_count": 3,
+      "callsites": [
+        "changeListPage('${key}',${page-1},'${renderer}')",
+        "changeListPage('${key}',${p},'${renderer}')",
+        "changeListPage('${key}',${page+1},'${renderer}')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0120",
+      "audit_ref": "INV-138",
+      "handler": "changeListPage",
+      "raw_handler": "changeListPage(",
+      "visible_label": "${p}",
+      "callsite_count": 3,
+      "callsites": [
+        "changeListPage('${key}',${page-1},'${renderer}')",
+        "changeListPage('${key}',${p},'${renderer}')",
+        "changeListPage('${key}',${page+1},'${renderer}')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0122",
+      "audit_ref": "INV-141",
+      "handler": "chooseCategoryFromButton",
+      "raw_handler": "chooseCategoryFromButton(this)",
+      "visible_label": "'+esc(expenseCategoryLabel(x,g.id))+'",
+      "callsite_count": 1,
+      "callsites": [
+        "chooseCategoryFromButton(this)"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0123",
+      "audit_ref": "INV-142",
+      "handler": "openExpenseCategoryAddScreen",
+      "raw_handler": "openExpenseCategoryAddScreen(this.dataset.addGroup)",
+      "visible_label": "＋ Add New One",
+      "callsite_count": 1,
+      "callsites": [
+        "openExpenseCategoryAddScreen(this.dataset.addGroup)"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0124",
+      "audit_ref": "INV-143",
+      "handler": "openReceiptImage",
+      "raw_handler": "openReceiptImage(document.getElementById(",
+      "visible_label": "📎 View receipt",
+      "callsite_count": 2,
+      "callsites": [
+        "openReceiptImage(document.getElementById('${scope==='entry'?'entryReceiptData':'prReceiptData'}').value)",
+        "openReceiptImage(this.dataset.receipt)"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0125",
+      "audit_ref": "INV-144",
+      "handler": "openReceiptImage",
+      "raw_handler": "openReceiptImage(this.dataset.receipt)",
+      "visible_label": "📎",
+      "callsite_count": 2,
+      "callsites": [
+        "openReceiptImage(document.getElementById('${scope==='entry'?'entryReceiptData':'prReceiptData'}').value)",
+        "openReceiptImage(this.dataset.receipt)"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0126",
+      "audit_ref": "INV-145",
+      "handler": "closeEntrySavedDialog",
+      "raw_handler": "closeEntrySavedDialog()",
+      "visible_label": "OK",
+      "callsite_count": 1,
+      "callsites": [
+        "closeEntrySavedDialog()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0127",
+      "audit_ref": "INV-146",
+      "handler": "viewRecordInvoice",
+      "raw_handler": "viewRecordInvoice(\\",
+      "visible_label": "View",
+      "callsite_count": 2,
+      "callsites": [
+        "viewRecordInvoice(\\''+esc(x.id)+'\\')",
+        "viewRecordInvoice(\\''+esc(x.id)+'\\')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0128",
+      "audit_ref": "INV-147",
+      "handler": "deleteInvoice",
+      "raw_handler": "deleteInvoice(\\",
+      "visible_label": "Delete",
+      "callsite_count": 2,
+      "callsites": [
+        "deleteInvoice(\\''+esc(x.id)+'\\')",
+        "deleteInvoice('${esc(i.id)}')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0129",
+      "audit_ref": "INV-148",
+      "handler": "editEntry",
+      "raw_handler": "editEntry(\\",
+      "visible_label": "Edit",
+      "callsite_count": 1,
+      "callsites": [
+        "editEntry(\\''+esc(x.id)+'\\')"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0130",
+      "audit_ref": "INV-149",
+      "handler": "deleteEntry",
+      "raw_handler": "deleteEntry(\\",
+      "visible_label": "Delete",
+      "callsite_count": 1,
+      "callsites": [
+        "deleteEntry(\\''+esc(x.id)+'\\')"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0131",
+      "audit_ref": "INV-150",
+      "handler": "viewRecordInvoice",
+      "raw_handler": "viewRecordInvoice(\\",
+      "visible_label": "View",
+      "callsite_count": 2,
+      "callsites": [
+        "viewRecordInvoice(\\''+esc(x.id)+'\\')",
+        "viewRecordInvoice(\\''+esc(x.id)+'\\')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0132",
+      "audit_ref": "INV-151",
+      "handler": "viewRecordEntry",
+      "raw_handler": "viewRecordEntry(\\",
+      "visible_label": "View",
+      "callsite_count": 1,
+      "callsites": [
+        "viewRecordEntry(\\''+esc(x.id)+'\\')"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0133",
+      "audit_ref": "INV-154",
+      "handler": "shareReportPdf",
+      "raw_handler": "shareReportPdf()",
+      "visible_label": "↥ Share PDF",
+      "callsite_count": 1,
+      "callsites": [
+        "shareReportPdf()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0137",
+      "audit_ref": "INV-159",
+      "handler": "editCustomer",
+      "raw_handler": "editCustomer(",
+      "visible_label": "Edit",
+      "callsite_count": 1,
+      "callsites": [
+        "editCustomer('${esc(c.id)}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0138",
+      "audit_ref": "INV-160",
+      "handler": "newInvoiceForCustomer",
+      "raw_handler": "newInvoiceForCustomer(",
+      "visible_label": "New invoice",
+      "callsite_count": 1,
+      "callsites": [
+        "newInvoiceForCustomer('${esc(c.id)}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0139",
+      "audit_ref": "INV-161",
+      "handler": "deleteCustomer",
+      "raw_handler": "deleteCustomer(",
+      "visible_label": "Delete",
+      "callsite_count": 1,
+      "callsites": [
+        "deleteCustomer('${esc(c.id)}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0140",
+      "audit_ref": "INV-163",
+      "handler": "openInvoicePrintView",
+      "raw_handler": "openInvoicePrintView()",
+      "visible_label": "Open print view",
+      "callsite_count": 1,
+      "callsites": [
+        "openInvoicePrintView()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0142",
+      "audit_ref": "INV-168",
+      "handler": "markInvoiceUnpaid",
+      "raw_handler": "markInvoiceUnpaid(",
+      "visible_label": "Mark unpaid",
+      "callsite_count": 1,
+      "callsites": [
+        "markInvoiceUnpaid('${esc(i.id)}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0143",
+      "audit_ref": "INV-169",
+      "handler": "recordInvoicePayment",
+      "raw_handler": "recordInvoicePayment(",
+      "visible_label": "Mark paid",
+      "callsite_count": 1,
+      "callsites": [
+        "recordInvoicePayment('${esc(i.id)}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0144",
+      "audit_ref": "INV-170",
+      "handler": "printInvoice",
+      "raw_handler": "printInvoice(",
+      "visible_label": "View / PDF",
+      "callsite_count": 1,
+      "callsites": [
+        "printInvoice('${esc(i.id)}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0145",
+      "audit_ref": "INV-171",
+      "handler": "editInvoice",
+      "raw_handler": "editInvoice(",
+      "visible_label": "Edit",
+      "callsite_count": 1,
+      "callsites": [
+        "editInvoice('${esc(i.id)}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0146",
+      "audit_ref": "INV-172",
+      "handler": "deleteInvoice",
+      "raw_handler": "deleteInvoice(",
+      "visible_label": "Delete",
+      "callsite_count": 2,
+      "callsites": [
+        "deleteInvoice(\\''+esc(x.id)+'\\')",
+        "deleteInvoice('${esc(i.id)}')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0147",
+      "audit_ref": "INV-173",
+      "handler": "prEditContractor",
+      "raw_handler": "prEditContractor(",
+      "visible_label": "Edit",
+      "callsite_count": 1,
+      "callsites": [
+        "prEditContractor('${prEscape(c.id)}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0148",
+      "audit_ref": "INV-174",
+      "handler": "prDeleteContractor",
+      "raw_handler": "prDeleteContractor(",
+      "visible_label": "Delete",
+      "callsite_count": 1,
+      "callsites": [
+        "prDeleteContractor('${prEscape(c.id)}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0149",
+      "audit_ref": "INV-175",
+      "handler": "coOpenAttachment",
+      "raw_handler": "coOpenAttachment(",
+      "visible_label": "📎 ${coEsc(c.contractFile.name)}",
+      "callsite_count": 4,
+      "callsites": [
+        "coOpenAttachment('company','${c.id}')",
+        "coOpenAttachment('job','${j.id}')",
+        "coOpenAttachment('package','${j.id}','${p.id}')",
+        "coOpenAttachment('payment','${j.id}','${p.id}')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0150",
+      "audit_ref": "INV-176",
+      "handler": "coEditCompany",
+      "raw_handler": "coEditCompany(",
+      "visible_label": "Edit",
+      "callsite_count": 1,
+      "callsites": [
+        "coEditCompany('${c.id}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0151",
+      "audit_ref": "INV-177",
+      "handler": "coShowJobs",
+      "raw_handler": "coShowJobs(",
+      "visible_label": "Open Jobs",
+      "callsite_count": 1,
+      "callsites": [
+        "coShowJobs('${c.id}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0152",
+      "audit_ref": "INV-178",
+      "handler": "coDeleteCompany",
+      "raw_handler": "coDeleteCompany(",
+      "visible_label": "Deactivate",
+      "callsite_count": 1,
+      "callsites": [
+        "coDeleteCompany('${c.id}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0153",
+      "audit_ref": "INV-179",
+      "handler": "coEditJob",
+      "raw_handler": "coEditJob(",
+      "visible_label": "Edit",
+      "callsite_count": 1,
+      "callsites": [
+        "coEditJob('${j.id}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0154",
+      "audit_ref": "INV-180",
+      "handler": "coShowPackages",
+      "raw_handler": "coShowPackages(",
+      "visible_label": "Work packages",
+      "callsite_count": 1,
+      "callsites": [
+        "coShowPackages('${j.id}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0155",
+      "audit_ref": "INV-181",
+      "handler": "coShowPayments",
+      "raw_handler": "coShowPayments(",
+      "visible_label": "Payments",
+      "callsite_count": 1,
+      "callsites": [
+        "coShowPayments('${j.id}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0156",
+      "audit_ref": "INV-182",
+      "handler": "coOpenAttachment",
+      "raw_handler": "coOpenAttachment(",
+      "visible_label": "📎",
+      "callsite_count": 4,
+      "callsites": [
+        "coOpenAttachment('company','${c.id}')",
+        "coOpenAttachment('job','${j.id}')",
+        "coOpenAttachment('package','${j.id}','${p.id}')",
+        "coOpenAttachment('payment','${j.id}','${p.id}')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0157",
+      "audit_ref": "INV-183",
+      "handler": "coOpenAttachment",
+      "raw_handler": "coOpenAttachment(",
+      "visible_label": "📎 ${coEsc(p.file.name)}",
+      "callsite_count": 4,
+      "callsites": [
+        "coOpenAttachment('company','${c.id}')",
+        "coOpenAttachment('job','${j.id}')",
+        "coOpenAttachment('package','${j.id}','${p.id}')",
+        "coOpenAttachment('payment','${j.id}','${p.id}')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0158",
+      "audit_ref": "INV-184",
+      "handler": "coEditSub",
+      "raw_handler": "coEditSub(",
+      "visible_label": "Edit",
+      "callsite_count": 1,
+      "callsites": [
+        "coEditSub('${p.id}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0159",
+      "audit_ref": "INV-185",
+      "handler": "coShowPackageFinance",
+      "raw_handler": "coShowPackageFinance(",
+      "visible_label": "Financials",
+      "callsite_count": 1,
+      "callsites": [
+        "coShowPackageFinance('${p.id}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0160",
+      "audit_ref": "INV-186",
+      "handler": "coDeleteSub",
+      "raw_handler": "coDeleteSub(",
+      "visible_label": "Delete",
+      "callsite_count": 1,
+      "callsites": [
+        "coDeleteSub('${p.id}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0161",
+      "audit_ref": "INV-187",
+      "handler": "coOpenPackageExpense",
+      "raw_handler": "coOpenPackageExpense(",
+      "visible_label": "📎 ${coEsc(e.file.name)}",
+      "callsite_count": 1,
+      "callsites": [
+        "coOpenPackageExpense('${j.id}','${p.id}','${e.id}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0162",
+      "audit_ref": "INV-188",
+      "handler": "coDeletePackageExpense",
+      "raw_handler": "coDeletePackageExpense(",
+      "visible_label": "Delete",
+      "callsite_count": 1,
+      "callsites": [
+        "coDeletePackageExpense('${e.id}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0163",
+      "audit_ref": "INV-189",
+      "handler": "coOpenAttachment",
+      "raw_handler": "coOpenAttachment(",
+      "visible_label": "📎 Open",
+      "callsite_count": 4,
+      "callsites": [
+        "coOpenAttachment('company','${c.id}')",
+        "coOpenAttachment('job','${j.id}')",
+        "coOpenAttachment('package','${j.id}','${p.id}')",
+        "coOpenAttachment('payment','${j.id}','${p.id}')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0164",
+      "audit_ref": "INV-192",
+      "handler": "closest",
+      "raw_handler": "this.closest(",
+      "visible_label": "Remove",
+      "callsite_count": 1,
+      "callsites": [
+        "this.closest('.pr-share-row').remove();prUpdateShareTotal()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0166",
+      "audit_ref": "INV-194",
+      "handler": "prEditUnifiedCost",
+      "raw_handler": "prEditUnifiedCost(",
+      "visible_label": "Edit",
+      "callsite_count": 1,
+      "callsites": [
+        "prEditUnifiedCost('${key}','${r.id}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0167",
+      "audit_ref": "INV-195",
+      "handler": "prDeleteUnifiedCost",
+      "raw_handler": "prDeleteUnifiedCost(",
+      "visible_label": "Delete",
+      "callsite_count": 1,
+      "callsites": [
+        "prDeleteUnifiedCost('${key}','${r.id}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0168",
+      "audit_ref": "INV-196",
+      "handler": "prPrintSubReport",
+      "raw_handler": "prPrintSubReport()",
+      "visible_label": "Print / Save PDF",
+      "callsite_count": 2,
+      "callsites": [
+        "prPrintSubReport()",
+        "prPrintSubReport()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0169",
+      "audit_ref": "INV-197",
+      "handler": "prPrintSubReport",
+      "raw_handler": "prPrintSubReport()",
+      "visible_label": "Print / Save PDF",
+      "callsite_count": 2,
+      "callsites": [
+        "prPrintSubReport()",
+        "prPrintSubReport()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0170",
+      "audit_ref": "INV-198",
+      "handler": "getElementById",
+      "raw_handler": "document.getElementById(",
+      "visible_label": "📷 Take a Photo",
+      "callsite_count": 5,
+      "callsites": [
+        "document.getElementById('entryReceiptGallery').click()",
+        "openReceiptImage(document.getElementById('${scope==='entry'?'entryReceiptData':'prReceiptData'}').value)",
+        "document.getElementById(\\'deletedEntryViewModal\\').remove()",
+        "document.getElementById('prReceiptGallery').click()",
+        "document.getElementById('report188Viewer').hidden=true"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0172",
+      "audit_ref": "INV-200",
+      "handler": "prSaveSubFinanceRow",
+      "raw_handler": "prSaveSubFinanceRow(",
+      "visible_label": "${isIncome?'Save Receipt':'Save Expense'}",
+      "callsite_count": 1,
+      "callsites": [
+        "prSaveSubFinanceRow('${tab}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0173",
+      "audit_ref": "INV-201",
+      "handler": "prClearSubFinanceRow",
+      "raw_handler": "prClearSubFinanceRow()",
+      "visible_label": "Clear",
+      "callsite_count": 1,
+      "callsites": [
+        "prClearSubFinanceRow()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0174",
+      "audit_ref": "INV-202",
+      "handler": "prOpenCustomerPaymentReceipt",
+      "raw_handler": "prOpenCustomerPaymentReceipt(",
+      "visible_label": "🧾 Customer receipt",
+      "callsite_count": 1,
+      "callsites": [
+        "prOpenCustomerPaymentReceipt('${prEscape(prCurrent()?.id||'')}','${prEscape(sub.id||'')}','${prEscape(r.id)}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0175",
+      "audit_ref": "INV-203",
+      "handler": "prEditSubFinanceRow",
+      "raw_handler": "prEditSubFinanceRow(",
+      "visible_label": "Edit",
+      "callsite_count": 1,
+      "callsites": [
+        "prEditSubFinanceRow('${tab}','${r.id}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0176",
+      "audit_ref": "INV-204",
+      "handler": "prDeleteSubFinanceRow",
+      "raw_handler": "prDeleteSubFinanceRow(",
+      "visible_label": "Delete",
+      "callsite_count": 1,
+      "callsites": [
+        "prDeleteSubFinanceRow('${tab}','${r.id}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0179",
+      "audit_ref": "INV-208",
+      "handler": "open",
+      "raw_handler": "window.open(window.receiptPdfUrl,",
+      "visible_label": "Print",
+      "callsite_count": 1,
+      "callsites": [
+        "window.open(window.receiptPdfUrl,'_blank')"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0180",
+      "audit_ref": "INV-210",
+      "handler": "prRunSubReportPrint",
+      "raw_handler": "prRunSubReportPrint()",
+      "visible_label": "Generate PDF",
+      "callsite_count": 2,
+      "callsites": [
+        "prRunSubReportPrint()",
+        "prRunSubReportPrint()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0181",
+      "audit_ref": "INV-212",
+      "handler": "prRunSubReportPrint",
+      "raw_handler": "prRunSubReportPrint()",
+      "visible_label": "Generate PDF",
+      "callsite_count": 2,
+      "callsites": [
+        "prRunSubReportPrint()",
+        "prRunSubReportPrint()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0182",
+      "audit_ref": "INV-213",
+      "handler": "prShareSubReportPDF",
+      "raw_handler": "prShareSubReportPDF()",
+      "visible_label": "↗ Share PDF",
+      "callsite_count": 1,
+      "callsites": [
+        "prShareSubReportPDF()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0183",
+      "audit_ref": "INV-214",
+      "handler": "prRestoreReportPreview",
+      "raw_handler": "prRestoreReportPreview()",
+      "visible_label": "×",
+      "callsite_count": 1,
+      "callsites": [
+        "prRestoreReportPreview()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0184",
+      "audit_ref": "INV-216",
+      "handler": "prRenderSubFinance",
+      "raw_handler": "prRenderSubFinance(",
+      "visible_label": "Income",
+      "callsite_count": 4,
+      "callsites": [
+        "prRenderSubFinance('income')",
+        "prRenderSubFinance('expenses')",
+        "prRenderSubFinance('report')",
+        "event.stopPropagation();prOpenSubproject('${prEscape(s.id)}');prRenderSubFinance('edit')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0185",
+      "audit_ref": "INV-217",
+      "handler": "prRenderSubFinance",
+      "raw_handler": "prRenderSubFinance(",
+      "visible_label": "Expenses",
+      "callsite_count": 4,
+      "callsites": [
+        "prRenderSubFinance('income')",
+        "prRenderSubFinance('expenses')",
+        "prRenderSubFinance('report')",
+        "event.stopPropagation();prOpenSubproject('${prEscape(s.id)}');prRenderSubFinance('edit')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0186",
+      "audit_ref": "INV-218",
+      "handler": "prRenderSubFinance",
+      "raw_handler": "prRenderSubFinance(",
+      "visible_label": "Report",
+      "callsite_count": 4,
+      "callsites": [
+        "prRenderSubFinance('income')",
+        "prRenderSubFinance('expenses')",
+        "prRenderSubFinance('report')",
+        "event.stopPropagation();prOpenSubproject('${prEscape(s.id)}');prRenderSubFinance('edit')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0187",
+      "audit_ref": "INV-219",
+      "handler": "prOpenSubprojectForm",
+      "raw_handler": "prOpenSubprojectForm()",
+      "visible_label": "＋ Add Sub-project",
+      "callsite_count": 1,
+      "callsites": [
+        "prOpenSubprojectForm()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0189",
+      "audit_ref": "INV-221",
+      "handler": "prEnableSubprojectsAndAdd",
+      "raw_handler": "prEnableSubprojectsAndAdd()",
+      "visible_label": "＋ Add Sub-project",
+      "callsite_count": 1,
+      "callsites": [
+        "prEnableSubprojectsAndAdd()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0191",
+      "audit_ref": "INV-224",
+      "handler": "print",
+      "raw_handler": "window.print()",
+      "visible_label": "Print / Save PDF",
+      "callsite_count": 1,
+      "callsites": [
+        "window.print()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0192",
+      "audit_ref": "INV-225",
+      "handler": "prOpenWorkerListPicker",
+      "raw_handler": "prOpenWorkerListPicker()",
+      "visible_label": "📋 Worker List — Choose Worker",
+      "callsite_count": 1,
+      "callsites": [
+        "prOpenWorkerListPicker()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0193",
+      "audit_ref": "INV-226",
+      "handler": "prSaveRow",
+      "raw_handler": "prSaveRow(",
+      "visible_label": "Record",
+      "callsite_count": 1,
+      "callsites": [
+        "prSaveRow('${tab}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0194",
+      "audit_ref": "INV-227",
+      "handler": "prClearRowForm",
+      "raw_handler": "prClearRowForm()",
+      "visible_label": "Clear",
+      "callsite_count": 1,
+      "callsites": [
+        "prClearRowForm()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0195",
+      "audit_ref": "INV-228",
+      "handler": "prEditRow",
+      "raw_handler": "prEditRow(",
+      "visible_label": "Edit",
+      "callsite_count": 1,
+      "callsites": [
+        "prEditRow('${tab}','${r.id}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0196",
+      "audit_ref": "INV-229",
+      "handler": "prDeleteRow",
+      "raw_handler": "prDeleteRow(",
+      "visible_label": "Delete",
+      "callsite_count": 1,
+      "callsites": [
+        "prDeleteRow('${tab}','${r.id}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0198",
+      "audit_ref": "INV-232",
+      "handler": "prCloseWorkerListPicker",
+      "raw_handler": "prCloseWorkerListPicker()",
+      "visible_label": "Done",
+      "callsite_count": 3,
+      "callsites": [
+        "prCloseWorkerListPicker()",
+        "prCloseWorkerListPicker()",
+        "prPage(\\'workers\\');prCloseWorkerListPicker()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0199",
+      "audit_ref": "INV-233",
+      "handler": "prPage",
+      "raw_handler": "prPage(\\",
+      "visible_label": "Manage Workers",
+      "callsite_count": 13,
+      "callsites": [
+        "prPage('workspace')",
+        "prPage('project-hub')",
+        "prPage('company-hub')",
+        "prPage('control')",
+        "prPage('project-hub')",
+        "prPage('control')",
+        "prPage('new')",
+        "prPage('list')",
+        "prPage('partners')",
+        "prPage('workers')",
+        "prPage('contractors')",
+        "prPage('company-profit')",
+        "prPage(\\'workers\\');prCloseWorkerListPicker()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0200",
+      "audit_ref": "INV-234",
+      "handler": "prEditPerson",
+      "raw_handler": "prEditPerson(",
+      "visible_label": "Edit",
+      "callsite_count": 1,
+      "callsites": [
+        "prEditPerson('${type}','${x.id}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0201",
+      "audit_ref": "INV-235",
+      "handler": "prDeletePerson",
+      "raw_handler": "prDeletePerson(",
+      "visible_label": "Delete",
+      "callsite_count": 1,
+      "callsites": [
+        "prDeletePerson('${type}','${x.id}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0202",
+      "audit_ref": "INV-236",
+      "handler": "prOpenReconciliationCost",
+      "raw_handler": "prOpenReconciliationCost(",
+      "visible_label": "Edit",
+      "callsite_count": 2,
+      "callsites": [
+        "prOpenReconciliationCost('${prEscape(r.projectId)}','${prEscape(r.ownerId||'')}','${r.key}','${prEscape(r.id||'')}','edit')",
+        "prOpenReconciliationCost('${prEscape(r.projectId)}','${prEscape(r.ownerId||'')}','${r.key}','${prEscape(r.id||'')}','delete')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0203",
+      "audit_ref": "INV-237",
+      "handler": "prOpenReconciliationCost",
+      "raw_handler": "prOpenReconciliationCost(",
+      "visible_label": "Delete",
+      "callsite_count": 2,
+      "callsites": [
+        "prOpenReconciliationCost('${prEscape(r.projectId)}','${prEscape(r.ownerId||'')}','${r.key}','${prEscape(r.id||'')}','edit')",
+        "prOpenReconciliationCost('${prEscape(r.projectId)}','${prEscape(r.ownerId||'')}','${r.key}','${prEscape(r.id||'')}','delete')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0204",
+      "audit_ref": "INV-238",
+      "handler": "prPrintFullProjectReport",
+      "raw_handler": "prPrintFullProjectReport(",
+      "visible_label": "Generate Full Project Report PDF →",
+      "callsite_count": 1,
+      "callsites": [
+        "prPrintFullProjectReport('${prEscape(project.id)}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0211",
+      "audit_ref": "INV-246",
+      "handler": "back",
+      "raw_handler": "history.back()",
+      "visible_label": "${L.back}",
+      "callsite_count": 1,
+      "callsites": [
+        "history.back()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0212",
+      "audit_ref": "INV-249",
+      "handler": "useFullReceiptImage",
+      "raw_handler": "useFullReceiptImage()",
+      "visible_label": "Use full image",
+      "callsite_count": 1,
+      "callsites": [
+        "useFullReceiptImage()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0213",
+      "audit_ref": "INV-250",
+      "handler": "applyReceiptCrop",
+      "raw_handler": "applyReceiptCrop()",
+      "visible_label": "Save cropped photo",
+      "callsite_count": 1,
+      "callsites": [
+        "applyReceiptCrop()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0214",
+      "audit_ref": "INV-251",
+      "handler": "copyMonitorVersionInfo",
+      "raw_handler": "copyMonitorVersionInfo()",
+      "visible_label": "Copy version details",
+      "callsite_count": 1,
+      "callsites": [
+        "copyMonitorVersionInfo()"
+      ],
+      "classification": "UNIQUE_STATIC_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0215",
+      "audit_ref": "INV-252",
+      "handler": "showMonitorEvent",
+      "raw_handler": "showMonitorEvent(",
+      "visible_label": "View details",
+      "callsite_count": 1,
+      "callsites": [
+        "showMonitorEvent('${monitorEsc(x.id)}')"
+      ],
+      "classification": "UNIQUE_TEMPLATE_CALLSITE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0216",
+      "audit_ref": "INV-253",
+      "handler": "renderMonitor",
+      "raw_handler": "monitorPage--;renderMonitor()",
+      "visible_label": "‹ Previous",
+      "callsite_count": 2,
+      "callsites": [
+        "monitorPage--;renderMonitor()",
+        "monitorPage++;renderMonitor()"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0222",
+      "audit_ref": "INV-260",
+      "handler": "report188Print",
+      "raw_handler": "report188Print(",
+      "visible_label": "Print / PDF",
+      "callsite_count": 2,
+      "callsites": [
+        "report188Print('${esc(r.id)}')",
+        "report188Print('${esc(r.id)}')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0226",
+      "audit_ref": "INV-264",
+      "handler": "report188Print",
+      "raw_handler": "report188Print(",
+      "visible_label": "Print / Save PDF",
+      "callsite_count": 2,
+      "callsites": [
+        "report188Print('${esc(r.id)}')",
+        "report188Print('${esc(r.id)}')"
+      ],
+      "classification": "MULTIPLE_CALLSITES_REQUIRE_ARGUMENT_AND_CONTAINER",
+      "browser_test_required": true
+    }
+  ]
+}

@@ -1,0 +1,3494 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-11-27",
+  "scope": {
+    "repository": "Thehandymanjob/accountancy-r11-preview",
+    "branch": "development",
+    "source_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+    "source_blob_sha": "e58a0c7895cf639c36e69c28696ebfd3bd262bef",
+    "mapping_path": "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+    "mapping_blob_sha": "1e5f76ea199b25797d33d17b53dea83dc9a4f4d9",
+    "method": "Matched the 179 ambiguous mapping rows to R45 button tags by handler and normalized visible text. Source-context heuristic only; no runtime DOM verification. Mapping and inventory baselines are pinned to the same authority-approved R45 source."
+  },
+  "summary": {
+    "total_ambiguous_rows": 179,
+    "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE": 148,
+    "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION": 31
+  },
+  "records": [
+    {
+      "help_id": "THA-HLP-0001",
+      "audit_ref": "INV-001",
+      "handler": "openAccountancy()",
+      "visible_label": "🧾 Accountancy Income, expenses, invoices and reports ›",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "openAccountancy()",
+          "text": "🧾 Accountancy Income, expenses, invoices and reports ›",
+          "id": null,
+          "class_name": "launcher-action primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0002",
+      "audit_ref": "INV-002",
+      "handler": "openProjectsApp()",
+      "visible_label": "💼 Business Workspace Projects, Company Contracts & Jobs, and Control Panel ›",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "openProjectsApp()",
+          "text": "💼 Business Workspace Projects, Company Contracts & Jobs, and Control Panel ›",
+          "id": null,
+          "class_name": "launcher-action",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0003",
+      "audit_ref": "INV-003",
+      "handler": "openContractsApp()",
+      "visible_label": "📝 Contract Management Create, edit and manage contracts and quotations ›",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "openContractsApp()",
+          "text": "📝 Contract Management Create, edit and manage contracts and quotations ›",
+          "id": null,
+          "class_name": "launcher-action",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0004",
+      "audit_ref": "INV-004",
+      "handler": "openSettingsHub()",
+      "visible_label": "⚙️ Settings Backup, restore, profile and logo ›",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "openSettingsHub()",
+          "text": "⚙️ Settings Backup, restore, profile and logo ›",
+          "id": null,
+          "class_name": "launcher-action",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0005",
+      "audit_ref": "INV-006",
+      "handler": "ctNew()",
+      "visible_label": "＋ New Contract",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "ctNew()",
+          "text": "＋ New Contract",
+          "id": null,
+          "class_name": "ct-primary ct-new-main",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0009",
+      "audit_ref": "INV-011",
+      "handler": "show(",
+      "visible_label": "▦ Dashboard Financial overview and balances ›",
+      "candidate_button_count": 22,
+      "best_candidates": [
+        {
+          "onclick": "show('home')",
+          "text": "▦ Dashboard Financial overview and balances ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-blue",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0010",
+      "audit_ref": "INV-012",
+      "handler": "show(",
+      "visible_label": "＋ Add Entry Record income or expenses ›",
+      "candidate_button_count": 22,
+      "best_candidates": [
+        {
+          "onclick": "show('entry')",
+          "text": "＋ Add Entry Record income or expenses ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-teal",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0011",
+      "audit_ref": "INV-013",
+      "handler": "show(",
+      "visible_label": "▤ Records Find and manage transactions ›",
+      "candidate_button_count": 22,
+      "best_candidates": [
+        {
+          "onclick": "show('records')",
+          "text": "▤ Records Find and manage transactions ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-violet",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0012",
+      "audit_ref": "INV-014",
+      "handler": "show(",
+      "visible_label": "▧ Invoices Create and review invoices ›",
+      "candidate_button_count": 22,
+      "best_candidates": [
+        {
+          "onclick": "show('invoices')",
+          "text": "▧ Invoices Create and review invoices ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-amber",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0013",
+      "audit_ref": "INV-015",
+      "handler": "show(",
+      "visible_label": "♙ Customers Customer details and contacts ›",
+      "candidate_button_count": 22,
+      "best_candidates": [
+        {
+          "onclick": "show('customers')",
+          "text": "♙ Customers Customer details and contacts ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-green",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0014",
+      "audit_ref": "INV-016",
+      "handler": "show(",
+      "visible_label": "▥ Reports & Tax Tax periods, archive and notifications ›",
+      "candidate_button_count": 22,
+      "best_candidates": [
+        {
+          "onclick": "show('report')",
+          "text": "▥ Reports & Tax Tax periods, archive and notifications ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-navy",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0015",
+      "audit_ref": "INV-017",
+      "handler": "show(",
+      "visible_label": "🏠 Dashboard",
+      "candidate_button_count": 22,
+      "best_candidates": [
+        {
+          "onclick": "show('home')",
+          "text": "▦ Dashboard Financial overview and balances ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-blue",
+          "score": 1
+        },
+        {
+          "onclick": "show('home')",
+          "text": "🏠 Dashboard",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0016",
+      "audit_ref": "INV-018",
+      "handler": "show(",
+      "visible_label": "＋ Add Entry",
+      "candidate_button_count": 22,
+      "best_candidates": [
+        {
+          "onclick": "show('entry')",
+          "text": "＋ Add Entry Record income or expenses ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-teal",
+          "score": 1
+        },
+        {
+          "onclick": "show('entry')",
+          "text": "＋ Add Entry",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0017",
+      "audit_ref": "INV-019",
+      "handler": "show(",
+      "visible_label": "📋 Records",
+      "candidate_button_count": 22,
+      "best_candidates": [
+        {
+          "onclick": "show('records')",
+          "text": "▤ Records Find and manage transactions ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-violet",
+          "score": 1
+        },
+        {
+          "onclick": "show('records')",
+          "text": "📋 Records",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "show(&quot;records&quot;)",
+          "text": "Back to Records",
+          "id": null,
+          "class_name": "gold",
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0018",
+      "audit_ref": "INV-020",
+      "handler": "show(",
+      "visible_label": "🧾 Invoices",
+      "candidate_button_count": 22,
+      "best_candidates": [
+        {
+          "onclick": "show('invoices')",
+          "text": "▧ Invoices Create and review invoices ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-amber",
+          "score": 1
+        },
+        {
+          "onclick": "show('invoices')",
+          "text": "🧾 Invoices",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "document.body.classList.remove(\\'invoice-printing\\');$(\\'invoices\\').classList.remove(\\'printable\\');show(\\'invoices\\')",
+          "text": "Back to invoices",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0019",
+      "audit_ref": "INV-021",
+      "handler": "show(",
+      "visible_label": "👥 Customers",
+      "candidate_button_count": 22,
+      "best_candidates": [
+        {
+          "onclick": "show('customers')",
+          "text": "♙ Customers Customer details and contacts ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-green",
+          "score": 1
+        },
+        {
+          "onclick": "show('customers')",
+          "text": "👥 Customers",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0020",
+      "audit_ref": "INV-022",
+      "handler": "show(",
+      "visible_label": "🖨️ Reports",
+      "candidate_button_count": 22,
+      "best_candidates": [
+        {
+          "onclick": "show('report')",
+          "text": "▥ Reports & Tax Tax periods, archive and notifications ›",
+          "id": null,
+          "class_name": "accountancy-home-card card-navy",
+          "score": 1
+        },
+        {
+          "onclick": "show('report')",
+          "text": "🖨️ Reports",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0021",
+      "audit_ref": "INV-024",
+      "handler": "refreshAll()",
+      "visible_label": "Refresh",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "refreshAll()",
+          "text": "Refresh",
+          "id": null,
+          "class_name": "primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0022",
+      "audit_ref": "INV-025",
+      "handler": "setPeriod()",
+      "visible_label": "Set period (13th–12th)",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "setPeriod()",
+          "text": "Set period (13th–12th)",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0024",
+      "audit_ref": "INV-027",
+      "handler": "document.getElementById(",
+      "visible_label": "📷 Take a Photo",
+      "candidate_button_count": 5,
+      "best_candidates": [
+        {
+          "onclick": "document.getElementById('entryReceiptGallery').click()",
+          "text": "📷 Take a Photo",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "document.getElementById('prReceiptGallery').click()",
+          "text": "📷 Take a Photo",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0026",
+      "audit_ref": "INV-029",
+      "handler": "saveEntry()",
+      "visible_label": "Save Entry",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "saveEntry()",
+          "text": "Save Entry",
+          "id": null,
+          "class_name": "primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0027",
+      "audit_ref": "INV-030",
+      "handler": "resetEntry()",
+      "visible_label": "Clear Form",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "resetEntry()",
+          "text": "Clear Form",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0028",
+      "audit_ref": "INV-032",
+      "handler": "saveExpenseCategory()",
+      "visible_label": "Add to list",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "saveExpenseCategory()",
+          "text": "Add to list",
+          "id": null,
+          "class_name": "primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0029",
+      "audit_ref": "INV-034",
+      "handler": "newInvoice()",
+      "visible_label": "＋ New Invoice",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "newInvoice()",
+          "text": "＋ New Invoice",
+          "id": null,
+          "class_name": "primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0030",
+      "audit_ref": "INV-036",
+      "handler": "saveInvoice()",
+      "visible_label": "Save Invoice",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "saveInvoice()",
+          "text": "Save Invoice",
+          "id": null,
+          "class_name": "primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0031",
+      "audit_ref": "INV-037",
+      "handler": "saveAndPrintInvoice()",
+      "visible_label": "Save & Print / PDF",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "saveAndPrintInvoice()",
+          "text": "Save & Print / PDF",
+          "id": null,
+          "class_name": "gold",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0032",
+      "audit_ref": "INV-038",
+      "handler": "saveCustomer()",
+      "visible_label": "Save Customer",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "saveCustomer()",
+          "text": "Save Customer",
+          "id": null,
+          "class_name": "primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0033",
+      "audit_ref": "INV-039",
+      "handler": "resetCustomerForm()",
+      "visible_label": "Clear Form",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "resetCustomerForm()",
+          "text": "Clear Form",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0034",
+      "audit_ref": "INV-041",
+      "handler": "report188Navigate(",
+      "visible_label": "📄 Prepare a report Predefined reporting periods and report generation",
+      "candidate_button_count": 5,
+      "best_candidates": [
+        {
+          "onclick": "report188Navigate('builder')",
+          "text": "📄 Prepare a report Predefined reporting periods and report generation",
+          "id": null,
+          "class_name": "report188-menu-card",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0035",
+      "audit_ref": "INV-042",
+      "handler": "report188Navigate(",
+      "visible_label": "🗂️ Saved reports archive Open previous report snapshots",
+      "candidate_button_count": 5,
+      "best_candidates": [
+        {
+          "onclick": "report188Navigate('archive')",
+          "text": "🗂️ Saved reports archive Open previous report snapshots",
+          "id": null,
+          "class_name": "report188-menu-card",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0036",
+      "audit_ref": "INV-043",
+      "handler": "report188Navigate(",
+      "visible_label": "🔔 Notifications inbox Titles only; tap a notification to read it",
+      "candidate_button_count": 5,
+      "best_candidates": [
+        {
+          "onclick": "report188Navigate('inbox')",
+          "text": "🔔 Notifications inbox Titles only; tap a notification to read it",
+          "id": "report188UnreadCount",
+          "class_name": "report188-menu-card",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0037",
+      "audit_ref": "INV-044",
+      "handler": "report188Navigate(",
+      "visible_label": "🗓️ Tax calendar Upcoming and past deadlines",
+      "candidate_button_count": 5,
+      "best_candidates": [
+        {
+          "onclick": "report188Navigate('calendar')",
+          "text": "🗓️ Tax calendar Upcoming and past deadlines",
+          "id": null,
+          "class_name": "report188-menu-card",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0038",
+      "audit_ref": "INV-045",
+      "handler": "report188Navigate(",
+      "visible_label": "✉️ Accountant email Recipient settings and sending status",
+      "candidate_button_count": 5,
+      "best_candidates": [
+        {
+          "onclick": "report188Navigate('email')",
+          "text": "✉️ Accountant email Recipient settings and sending status",
+          "id": null,
+          "class_name": "report188-menu-card",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0039",
+      "audit_ref": "INV-047",
+      "handler": "printReport()",
+      "visible_label": "Print Preview",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "printReport()",
+          "text": "Print Preview",
+          "id": null,
+          "class_name": "gold",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0040",
+      "audit_ref": "INV-048",
+      "handler": "report188ConfirmComplete()",
+      "visible_label": "Confirm records complete",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "report188ConfirmComplete()",
+          "text": "Confirm records complete",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "report188ConfirmComplete()",
+          "text": "Confirm records complete for selected period",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0041",
+      "audit_ref": "INV-049",
+      "handler": "report188CheckDue()",
+      "visible_label": "Check reminders now",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "report188CheckDue()",
+          "text": "Check reminders now",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "report188CheckDue()",
+          "text": "Check reminders now",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0042",
+      "audit_ref": "INV-054",
+      "handler": "report188ConfirmComplete()",
+      "visible_label": "Confirm records complete for selected period",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "report188ConfirmComplete()",
+          "text": "Confirm records complete for selected period",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0043",
+      "audit_ref": "INV-055",
+      "handler": "report188CheckDue()",
+      "visible_label": "Check reminders now",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "report188CheckDue()",
+          "text": "Check reminders now",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "report188CheckDue()",
+          "text": "Check reminders now",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0047",
+      "audit_ref": "INV-060",
+      "handler": "toggleMonitorVersionInfo()",
+      "visible_label": "Show version details",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "toggleMonitorVersionInfo()",
+          "text": "Show version details",
+          "id": null,
+          "class_name": "primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0052",
+      "audit_ref": "INV-065",
+      "handler": "exportDiagnosticReport()",
+      "visible_label": "Download Diagnostic Report (JSON)",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "exportDiagnosticReport()",
+          "text": "Download Diagnostic Report (JSON)",
+          "id": null,
+          "class_name": "primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0053",
+      "audit_ref": "INV-066",
+      "handler": "runFullStorageAudit()",
+      "visible_label": "Run Full Storage Audit (Read-only)",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "runFullStorageAudit()",
+          "text": "Run Full Storage Audit (Read-only)",
+          "id": null,
+          "class_name": "gold",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0054",
+      "audit_ref": "INV-067",
+      "handler": "exportMonitorCSV()",
+      "visible_label": "Export Activity Log (CSV)",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "exportMonitorCSV()",
+          "text": "Export Activity Log (CSV)",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0055",
+      "audit_ref": "INV-068",
+      "handler": "runMonitorSelfCheck()",
+      "visible_label": "Run Local Self-check",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "runMonitorSelfCheck()",
+          "text": "Run Local Self-check",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0056",
+      "audit_ref": "INV-070",
+      "handler": "show(",
+      "visible_label": "💾 Backup & Restore Separate backups for each data area",
+      "candidate_button_count": 22,
+      "best_candidates": [
+        {
+          "onclick": "show('backup')",
+          "text": "💾 Backup & Restore Separate backups for each data area",
+          "id": null,
+          "class_name": "primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0057",
+      "audit_ref": "INV-071",
+      "handler": "show(",
+      "visible_label": "❓ Help Choose the language for the User Guide",
+      "candidate_button_count": 22,
+      "best_candidates": [
+        {
+          "onclick": "show('helpSettings')",
+          "text": "📘 User Guide Choose the guide language",
+          "id": null,
+          "class_name": "primary",
+          "score": 0.75
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0058",
+      "audit_ref": "INV-072",
+      "handler": "show(",
+      "visible_label": "👤 Profile & Logo Business details and business logo",
+      "candidate_button_count": 22,
+      "best_candidates": [
+        {
+          "onclick": "show('profileGuide')",
+          "text": "👤 Profile & Logo Business details and business logo",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0059",
+      "audit_ref": "INV-073",
+      "handler": "show(",
+      "visible_label": "📘 User Guide Instructions and Contact Us",
+      "candidate_button_count": 22,
+      "best_candidates": [
+        {
+          "onclick": "show('userGuide')",
+          "text": "📘 User Guide Instructions and Contact Us",
+          "id": null,
+          "class_name": "primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0060",
+      "audit_ref": "INV-074",
+      "handler": "show(",
+      "visible_label": "🔄 Software Update Check and install the latest version",
+      "candidate_button_count": 22,
+      "best_candidates": [
+        {
+          "onclick": "show('softwareUpdate')",
+          "text": "🔄 Software Update Check and install the latest version",
+          "id": null,
+          "class_name": "primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0061",
+      "audit_ref": "INV-075",
+      "handler": "show(",
+      "visible_label": "🛡️ Monitor & Diagnostics Activity archive, errors, data integrity and developer report",
+      "candidate_button_count": 22,
+      "best_candidates": [
+        {
+          "onclick": "show('monitor')",
+          "text": "🛡️ Monitor & Diagnostics Activity archive, errors, data integrity and developer report",
+          "id": null,
+          "class_name": "primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0062",
+      "audit_ref": "INV-076",
+      "handler": "show(",
+      "visible_label": "⚠️ Factory Reset Convert approved backup and safely restore all data",
+      "candidate_button_count": 22,
+      "best_candidates": [
+        {
+          "onclick": "show('factoryResetPage')",
+          "text": "⚠️ Factory Reset Convert approved backup and safely restore all data",
+          "id": null,
+          "class_name": "primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0063",
+      "audit_ref": "INV-078",
+      "handler": "openFactoryReset()",
+      "visible_label": "Open Secure Reset",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "openFactoryReset()",
+          "text": "Open Secure Reset",
+          "id": null,
+          "class_name": "factory-reset-button",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0068",
+      "audit_ref": "INV-084",
+      "handler": "prSaveProfile()",
+      "visible_label": "Save Profile",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prSaveProfile()",
+          "text": "Save Profile",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0069",
+      "audit_ref": "INV-085",
+      "handler": "prRemoveLogo()",
+      "visible_label": "Remove Logo",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prRemoveLogo()",
+          "text": "Remove Logo",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0071",
+      "audit_ref": "INV-087",
+      "handler": "resetHelpContactForm()",
+      "visible_label": "Clear Form",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "resetHelpContactForm()",
+          "text": "Clear Form",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0074",
+      "audit_ref": "INV-090",
+      "handler": "prPage(",
+      "visible_label": "💼 Business Workspace",
+      "candidate_button_count": 13,
+      "best_candidates": [
+        {
+          "onclick": "prPage('workspace')",
+          "text": "💼 Business Workspace",
+          "id": null,
+          "class_name": "active",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0075",
+      "audit_ref": "INV-091",
+      "handler": "prPage(",
+      "visible_label": "📁 Projects",
+      "candidate_button_count": 13,
+      "best_candidates": [
+        {
+          "onclick": "prPage('project-hub')",
+          "text": "📁 Projects",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "prPage('project-hub')",
+          "text": "📁 Projects New Project, Projects List and Project Profit & Loss",
+          "id": null,
+          "class_name": "pr-project-card pr-card",
+          "score": 1
+        },
+        {
+          "onclick": "prPage('list')",
+          "text": "▦ Projects List Search, open and manage existing projects",
+          "id": null,
+          "class_name": "pr-project-card pr-card",
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0076",
+      "audit_ref": "INV-092",
+      "handler": "prPage(",
+      "visible_label": "🏢 Company Contracts & Jobs",
+      "candidate_button_count": 13,
+      "best_candidates": [
+        {
+          "onclick": "prPage('company-hub')",
+          "text": "🏢 Company Contracts & Jobs",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0077",
+      "audit_ref": "INV-093",
+      "handler": "prPage(",
+      "visible_label": "⚙️ Control Panel",
+      "candidate_button_count": 13,
+      "best_candidates": [
+        {
+          "onclick": "prPage('control')",
+          "text": "⚙️ Control Panel",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "prPage('control')",
+          "text": "⚙️ Control Panel Manage shared Partners, Workers, Contractors, companies and future settings",
+          "id": null,
+          "class_name": "pr-project-card pr-card",
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0078",
+      "audit_ref": "INV-095",
+      "handler": "prPage(",
+      "visible_label": "📁 Projects New Project, Projects List and Project Profit & Loss",
+      "candidate_button_count": 13,
+      "best_candidates": [
+        {
+          "onclick": "prPage('project-hub')",
+          "text": "📁 Projects New Project, Projects List and Project Profit & Loss",
+          "id": null,
+          "class_name": "pr-project-card pr-card",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0079",
+      "audit_ref": "INV-096",
+      "handler": "prOpenCompanyHubFromWorkspace()",
+      "visible_label": "🏢 Company Contracts & Jobs Companies, contracts, company projects, sub-projects and payments",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prOpenCompanyHubFromWorkspace()",
+          "text": "🏢 Company Contracts & Jobs Companies, contracts, company projects, sub-projects and payments",
+          "id": null,
+          "class_name": "pr-project-card pr-card",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0080",
+      "audit_ref": "INV-097",
+      "handler": "prPage(",
+      "visible_label": "⚙️ Control Panel Manage shared Partners, Workers, Contractors, companies and future settings",
+      "candidate_button_count": 13,
+      "best_candidates": [
+        {
+          "onclick": "prPage('control')",
+          "text": "⚙️ Control Panel Manage shared Partners, Workers, Contractors, companies and future settings",
+          "id": null,
+          "class_name": "pr-project-card pr-card",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0081",
+      "audit_ref": "INV-098",
+      "handler": "prPage(",
+      "visible_label": "➕ New Project Create an independent project",
+      "candidate_button_count": 13,
+      "best_candidates": [
+        {
+          "onclick": "prPage('new')",
+          "text": "➕ New Project Create an independent project",
+          "id": null,
+          "class_name": "pr-project-card pr-card",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0082",
+      "audit_ref": "INV-099",
+      "handler": "prPage(",
+      "visible_label": "▦ Projects List Search, open and manage existing projects",
+      "candidate_button_count": 13,
+      "best_candidates": [
+        {
+          "onclick": "prPage('list')",
+          "text": "▦ Projects List Search, open and manage existing projects",
+          "id": null,
+          "class_name": "pr-project-card pr-card",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0083",
+      "audit_ref": "INV-100",
+      "handler": "prAddPartnerShareRow()",
+      "visible_label": "＋ Add Partner",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prAddPartnerShareRow()",
+          "text": "＋ Add Partner",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0084",
+      "audit_ref": "INV-101",
+      "handler": "prSaveProject()",
+      "visible_label": "Save Project",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prSaveProject()",
+          "text": "Save Project",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0085",
+      "audit_ref": "INV-102",
+      "handler": "prResetProject()",
+      "visible_label": "Clear Form",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prResetProject()",
+          "text": "Clear Form",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0086",
+      "audit_ref": "INV-103",
+      "handler": "prEditCurrent()",
+      "visible_label": "Edit",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prEditCurrent()",
+          "text": "Edit",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0088",
+      "audit_ref": "INV-105",
+      "handler": "prDeleteCurrent()",
+      "visible_label": "Delete",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prDeleteCurrent()",
+          "text": "Delete",
+          "id": null,
+          "class_name": "pr-danger",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0090",
+      "audit_ref": "INV-107",
+      "handler": "prDetailTab(",
+      "visible_label": "Summary",
+      "candidate_button_count": 7,
+      "best_candidates": [
+        {
+          "onclick": "prDetailTab('summary')",
+          "text": "Summary",
+          "id": null,
+          "class_name": "active",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0091",
+      "audit_ref": "INV-108",
+      "handler": "prDetailTab(",
+      "visible_label": "Income",
+      "candidate_button_count": 7,
+      "best_candidates": [
+        {
+          "onclick": "prDetailTab('income')",
+          "text": "Income",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0092",
+      "audit_ref": "INV-109",
+      "handler": "prDetailTab(",
+      "visible_label": "Expenses",
+      "candidate_button_count": 7,
+      "best_candidates": [
+        {
+          "onclick": "prDetailTab('expenses')",
+          "text": "Expenses",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0093",
+      "audit_ref": "INV-110",
+      "handler": "prDetailTab(",
+      "visible_label": "Worker Wages",
+      "candidate_button_count": 7,
+      "best_candidates": [
+        {
+          "onclick": "prDetailTab('wages')",
+          "text": "Worker Wages",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0094",
+      "audit_ref": "INV-111",
+      "handler": "prDetailTab(",
+      "visible_label": "Tools",
+      "candidate_button_count": 7,
+      "best_candidates": [
+        {
+          "onclick": "prDetailTab('tools')",
+          "text": "Tools",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0095",
+      "audit_ref": "INV-112",
+      "handler": "prDetailTab(",
+      "visible_label": "Food & Other",
+      "candidate_button_count": 7,
+      "best_candidates": [
+        {
+          "onclick": "prDetailTab('food')",
+          "text": "Food & Other",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0096",
+      "audit_ref": "INV-113",
+      "handler": "prDetailTab(",
+      "visible_label": "Reports",
+      "candidate_button_count": 7,
+      "best_candidates": [
+        {
+          "onclick": "prDetailTab('report')",
+          "text": "Reports",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0097",
+      "audit_ref": "INV-114",
+      "handler": "prOpenProfitReport()",
+      "visible_label": "View Financial Report →",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prOpenProfitReport()",
+          "text": "View Financial Report →",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0098",
+      "audit_ref": "INV-115",
+      "handler": "prSavePerson(",
+      "visible_label": "Save Partner",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "prSavePerson('partner')",
+          "text": "Save Partner",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0099",
+      "audit_ref": "INV-116",
+      "handler": "prResetPerson(",
+      "visible_label": "Clear",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "prResetPerson('partner')",
+          "text": "Clear",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "prResetPerson('worker')",
+          "text": "Clear",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0100",
+      "audit_ref": "INV-117",
+      "handler": "prSaveContractor()",
+      "visible_label": "Save Contractor",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prSaveContractor()",
+          "text": "Save Contractor",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0101",
+      "audit_ref": "INV-118",
+      "handler": "prResetContractor()",
+      "visible_label": "Clear",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prResetContractor()",
+          "text": "Clear",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0102",
+      "audit_ref": "INV-119",
+      "handler": "prSavePerson(",
+      "visible_label": "Save Worker",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "prSavePerson('worker')",
+          "text": "Save Worker",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0103",
+      "audit_ref": "INV-120",
+      "handler": "prResetPerson(",
+      "visible_label": "Clear",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "prResetPerson('partner')",
+          "text": "Clear",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "prResetPerson('worker')",
+          "text": "Clear",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0104",
+      "audit_ref": "INV-121",
+      "handler": "prPage(",
+      "visible_label": "👤 Partners Manage shared partner records",
+      "candidate_button_count": 13,
+      "best_candidates": [
+        {
+          "onclick": "prPage('partners')",
+          "text": "👤 Partners Manage shared partner records",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0105",
+      "audit_ref": "INV-122",
+      "handler": "prPage(",
+      "visible_label": "👷 Workers Manage shared worker records",
+      "candidate_button_count": 13,
+      "best_candidates": [
+        {
+          "onclick": "prPage('workers')",
+          "text": "👷 Workers Manage shared worker records",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0106",
+      "audit_ref": "INV-123",
+      "handler": "prPage(",
+      "visible_label": "🧰 Contractors Manage trades and subcontractors",
+      "candidate_button_count": 13,
+      "best_candidates": [
+        {
+          "onclick": "prPage('contractors')",
+          "text": "🧰 Contractors Manage trades and subcontractors",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0107",
+      "audit_ref": "INV-124",
+      "handler": "coOpenCompanyMode(",
+      "visible_label": "➕ Add Company Register a company and its main contract",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "coOpenCompanyMode('add')",
+          "text": "➕ Add Company Register a company and its main contract",
+          "id": null,
+          "class_name": "pr-project-card pr-card",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0108",
+      "audit_ref": "INV-125",
+      "handler": "coOpenCompanyMode(",
+      "visible_label": "🏢 Companies List Find companies and open their jobs",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "coOpenCompanyMode('list')",
+          "text": "🏢 Companies List Find companies and open their jobs",
+          "id": null,
+          "class_name": "pr-project-card pr-card",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0109",
+      "audit_ref": "INV-126",
+      "handler": "prPage(",
+      "visible_label": "📊 Company Project Profit & Loss Review income, costs and results by company and job",
+      "candidate_button_count": 13,
+      "best_candidates": [
+        {
+          "onclick": "prPage('company-profit')",
+          "text": "📊 Company Project Profit & Loss Review income, costs and results by company and job",
+          "id": null,
+          "class_name": "pr-project-card pr-card",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0110",
+      "audit_ref": "INV-127",
+      "handler": "coSaveCompany()",
+      "visible_label": "Save Company",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "coSaveCompany()",
+          "text": "Save Company",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0111",
+      "audit_ref": "INV-128",
+      "handler": "coResetCompany()",
+      "visible_label": "Clear Form",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "coResetCompany()",
+          "text": "Clear Form",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0112",
+      "audit_ref": "INV-129",
+      "handler": "coSaveJob()",
+      "visible_label": "Save Job",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "coSaveJob()",
+          "text": "Save Job",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0113",
+      "audit_ref": "INV-130",
+      "handler": "coResetJob()",
+      "visible_label": "Clear Job Form",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "coResetJob()",
+          "text": "Clear Job Form",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0114",
+      "audit_ref": "INV-131",
+      "handler": "coSaveSub()",
+      "visible_label": "Save Work Package",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "coSaveSub()",
+          "text": "Save Work Package",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0115",
+      "audit_ref": "INV-132",
+      "handler": "coResetSub()",
+      "visible_label": "Clear",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "coResetSub()",
+          "text": "Clear",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0116",
+      "audit_ref": "INV-133",
+      "handler": "coAddPackageExpense()",
+      "visible_label": "Add Expense",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "coAddPackageExpense()",
+          "text": "Add Expense",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0117",
+      "audit_ref": "INV-134",
+      "handler": "coRecordPayment()",
+      "visible_label": "Record Payment",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "coRecordPayment()",
+          "text": "Record Payment",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0118",
+      "audit_ref": "INV-136",
+      "handler": "confirmInvoicePaid()",
+      "visible_label": "Confirm payment",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "confirmInvoicePaid()",
+          "text": "Confirm payment",
+          "id": null,
+          "class_name": "invoice-paid-confirm",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0119",
+      "audit_ref": "INV-137",
+      "handler": "changeListPage(",
+      "visible_label": "‹ Previous",
+      "candidate_button_count": 3,
+      "best_candidates": [
+        {
+          "onclick": "changeListPage('${key}',${page-1},'${renderer}')",
+          "text": "‹ Previous",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0120",
+      "audit_ref": "INV-138",
+      "handler": "changeListPage(",
+      "visible_label": "${p}",
+      "candidate_button_count": 3,
+      "best_candidates": [
+        {
+          "onclick": "changeListPage('${key}',${page-1},'${renderer}')",
+          "text": "‹ Previous",
+          "id": null,
+          "class_name": null,
+          "score": 0
+        },
+        {
+          "onclick": "changeListPage('${key}',${p},'${renderer}')",
+          "text": "${p}",
+          "id": null,
+          "class_name": "${p===page?'current':''}",
+          "score": 0
+        },
+        {
+          "onclick": "changeListPage('${key}',${page+1},'${renderer}')",
+          "text": "=pages?'disabled':''} onclick=\"changeListPage('${key}',${page+1},'${renderer}')\">Next ›",
+          "id": null,
+          "class_name": null,
+          "score": 0
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0122",
+      "audit_ref": "INV-141",
+      "handler": "chooseCategoryFromButton(this)",
+      "visible_label": "'+esc(expenseCategoryLabel(x,g.id))+'",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "chooseCategoryFromButton(this)",
+          "text": "'+esc(expenseCategoryLabel(x,g.id))+'",
+          "id": null,
+          "class_name": "category-option '+(select.value===x?'selected':'')+'",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0123",
+      "audit_ref": "INV-142",
+      "handler": "openExpenseCategoryAddScreen(this.dataset.addGroup)",
+      "visible_label": "＋ Add New One",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "openExpenseCategoryAddScreen(this.dataset.addGroup)",
+          "text": "＋ Add New One",
+          "id": null,
+          "class_name": "category-option category-option-new",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0124",
+      "audit_ref": "INV-143",
+      "handler": "openReceiptImage(document.getElementById(",
+      "visible_label": "📎 View receipt",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "openReceiptImage(document.getElementById('${scope==='entry'?'entryReceiptData':'prReceiptData'}').value)",
+          "text": "📎 View receipt",
+          "id": null,
+          "class_name": "receipt-clip",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0125",
+      "audit_ref": "INV-144",
+      "handler": "openReceiptImage(this.dataset.receipt)",
+      "visible_label": "📎",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "openReceiptImage(document.getElementById('${scope==='entry'?'entryReceiptData':'prReceiptData'}').value)",
+          "text": "📎 View receipt",
+          "id": null,
+          "class_name": "receipt-clip",
+          "score": 0
+        },
+        {
+          "onclick": "openReceiptImage(this.dataset.receipt)",
+          "text": "📎",
+          "id": null,
+          "class_name": "receipt-clip",
+          "score": 0
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0126",
+      "audit_ref": "INV-145",
+      "handler": "closeEntrySavedDialog()",
+      "visible_label": "OK",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "closeEntrySavedDialog()",
+          "text": "OK",
+          "id": null,
+          "class_name": "primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0127",
+      "audit_ref": "INV-146",
+      "handler": "viewRecordInvoice(\\",
+      "visible_label": "View",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "viewRecordInvoice(\\''+esc(x.id)+'\\')",
+          "text": "View",
+          "id": null,
+          "class_name": "mini",
+          "score": 1
+        },
+        {
+          "onclick": "viewRecordInvoice(\\''+esc(x.id)+'\\')",
+          "text": "View",
+          "id": null,
+          "class_name": "mini",
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0128",
+      "audit_ref": "INV-147",
+      "handler": "deleteInvoice(\\",
+      "visible_label": "Delete",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "deleteInvoice(\\''+esc(x.id)+'\\')",
+          "text": "Delete",
+          "id": null,
+          "class_name": "mini danger",
+          "score": 1
+        },
+        {
+          "onclick": "deleteInvoice('${esc(i.id)}')",
+          "text": "Delete",
+          "id": null,
+          "class_name": "mini danger",
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0129",
+      "audit_ref": "INV-148",
+      "handler": "editEntry(\\",
+      "visible_label": "Edit",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "editEntry(\\''+esc(x.id)+'\\')",
+          "text": "Edit",
+          "id": null,
+          "class_name": "mini",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0130",
+      "audit_ref": "INV-149",
+      "handler": "deleteEntry(\\",
+      "visible_label": "Delete",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "deleteEntry(\\''+esc(x.id)+'\\')",
+          "text": "Delete",
+          "id": null,
+          "class_name": "mini danger",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0131",
+      "audit_ref": "INV-150",
+      "handler": "viewRecordInvoice(\\",
+      "visible_label": "View",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "viewRecordInvoice(\\''+esc(x.id)+'\\')",
+          "text": "View",
+          "id": null,
+          "class_name": "mini",
+          "score": 1
+        },
+        {
+          "onclick": "viewRecordInvoice(\\''+esc(x.id)+'\\')",
+          "text": "View",
+          "id": null,
+          "class_name": "mini",
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0132",
+      "audit_ref": "INV-151",
+      "handler": "viewRecordEntry(\\",
+      "visible_label": "View",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "viewRecordEntry(\\''+esc(x.id)+'\\')",
+          "text": "View",
+          "id": null,
+          "class_name": "mini",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0133",
+      "audit_ref": "INV-154",
+      "handler": "shareReportPdf()",
+      "visible_label": "↥ Share PDF",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "shareReportPdf()",
+          "text": "↥ Share PDF",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0137",
+      "audit_ref": "INV-159",
+      "handler": "editCustomer(",
+      "visible_label": "Edit",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "editCustomer('${esc(c.id)}')",
+          "text": "Edit",
+          "id": null,
+          "class_name": "mini",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0138",
+      "audit_ref": "INV-160",
+      "handler": "newInvoiceForCustomer(",
+      "visible_label": "New invoice",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "newInvoiceForCustomer('${esc(c.id)}')",
+          "text": "New invoice",
+          "id": null,
+          "class_name": "mini",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0139",
+      "audit_ref": "INV-161",
+      "handler": "deleteCustomer(",
+      "visible_label": "Delete",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "deleteCustomer('${esc(c.id)}')",
+          "text": "Delete",
+          "id": null,
+          "class_name": "mini danger",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0140",
+      "audit_ref": "INV-163",
+      "handler": "openInvoicePrintView()",
+      "visible_label": "Open print view",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "openInvoicePrintView()",
+          "text": "Open print view",
+          "id": null,
+          "class_name": "gold",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0142",
+      "audit_ref": "INV-168",
+      "handler": "markInvoiceUnpaid(",
+      "visible_label": "Mark unpaid",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "markInvoiceUnpaid('${esc(i.id)}')",
+          "text": "Mark unpaid",
+          "id": null,
+          "class_name": "mini",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0143",
+      "audit_ref": "INV-169",
+      "handler": "recordInvoicePayment(",
+      "visible_label": "Mark paid",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "recordInvoicePayment('${esc(i.id)}')",
+          "text": "Mark paid",
+          "id": null,
+          "class_name": "mini gold",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0144",
+      "audit_ref": "INV-170",
+      "handler": "printInvoice(",
+      "visible_label": "View / PDF",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "printInvoice('${esc(i.id)}')",
+          "text": "View / PDF",
+          "id": null,
+          "class_name": "mini",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0145",
+      "audit_ref": "INV-171",
+      "handler": "editInvoice(",
+      "visible_label": "Edit",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "editInvoice('${esc(i.id)}')",
+          "text": "Edit",
+          "id": null,
+          "class_name": "mini",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0146",
+      "audit_ref": "INV-172",
+      "handler": "deleteInvoice(",
+      "visible_label": "Delete",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "deleteInvoice(\\''+esc(x.id)+'\\')",
+          "text": "Delete",
+          "id": null,
+          "class_name": "mini danger",
+          "score": 1
+        },
+        {
+          "onclick": "deleteInvoice('${esc(i.id)}')",
+          "text": "Delete",
+          "id": null,
+          "class_name": "mini danger",
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0147",
+      "audit_ref": "INV-173",
+      "handler": "prEditContractor(",
+      "visible_label": "Edit",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prEditContractor('${prEscape(c.id)}')",
+          "text": "Edit",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0148",
+      "audit_ref": "INV-174",
+      "handler": "prDeleteContractor(",
+      "visible_label": "Delete",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prDeleteContractor('${prEscape(c.id)}')",
+          "text": "Delete",
+          "id": null,
+          "class_name": "pr-danger",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0149",
+      "audit_ref": "INV-175",
+      "handler": "coOpenAttachment(",
+      "visible_label": "📎 ${coEsc(c.contractFile.name)}",
+      "candidate_button_count": 4,
+      "best_candidates": [
+        {
+          "onclick": "coOpenAttachment('company','${c.id}')",
+          "text": "📎 ${coEsc(c.contractFile.name)}",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0150",
+      "audit_ref": "INV-176",
+      "handler": "coEditCompany(",
+      "visible_label": "Edit",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "coEditCompany('${c.id}')",
+          "text": "Edit",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0151",
+      "audit_ref": "INV-177",
+      "handler": "coShowJobs(",
+      "visible_label": "Open Jobs",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "coShowJobs('${c.id}')",
+          "text": "Open Jobs",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0152",
+      "audit_ref": "INV-178",
+      "handler": "coDeleteCompany(",
+      "visible_label": "Deactivate",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "coDeleteCompany('${c.id}')",
+          "text": "Deactivate",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0153",
+      "audit_ref": "INV-179",
+      "handler": "coEditJob(",
+      "visible_label": "Edit",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "coEditJob('${j.id}')",
+          "text": "Edit",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0154",
+      "audit_ref": "INV-180",
+      "handler": "coShowPackages(",
+      "visible_label": "Work packages",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "coShowPackages('${j.id}')",
+          "text": "Work packages",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0155",
+      "audit_ref": "INV-181",
+      "handler": "coShowPayments(",
+      "visible_label": "Payments",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "coShowPayments('${j.id}')",
+          "text": "Payments",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0156",
+      "audit_ref": "INV-182",
+      "handler": "coOpenAttachment(",
+      "visible_label": "📎",
+      "candidate_button_count": 4,
+      "best_candidates": [
+        {
+          "onclick": "coOpenAttachment('company','${c.id}')",
+          "text": "📎 ${coEsc(c.contractFile.name)}",
+          "id": null,
+          "class_name": null,
+          "score": 0
+        },
+        {
+          "onclick": "coOpenAttachment('job','${j.id}')",
+          "text": "📎",
+          "id": null,
+          "class_name": null,
+          "score": 0
+        },
+        {
+          "onclick": "coOpenAttachment('package','${j.id}','${p.id}')",
+          "text": "📎 ${coEsc(p.file.name)}",
+          "id": null,
+          "class_name": null,
+          "score": 0
+        },
+        {
+          "onclick": "coOpenAttachment('payment','${j.id}','${p.id}')",
+          "text": "📎 Open",
+          "id": null,
+          "class_name": null,
+          "score": 0
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0157",
+      "audit_ref": "INV-183",
+      "handler": "coOpenAttachment(",
+      "visible_label": "📎 ${coEsc(p.file.name)}",
+      "candidate_button_count": 4,
+      "best_candidates": [
+        {
+          "onclick": "coOpenAttachment('company','${c.id}')",
+          "text": "📎 ${coEsc(c.contractFile.name)}",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "coOpenAttachment('package','${j.id}','${p.id}')",
+          "text": "📎 ${coEsc(p.file.name)}",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0158",
+      "audit_ref": "INV-184",
+      "handler": "coEditSub(",
+      "visible_label": "Edit",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "coEditSub('${p.id}')",
+          "text": "Edit",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0159",
+      "audit_ref": "INV-185",
+      "handler": "coShowPackageFinance(",
+      "visible_label": "Financials",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "coShowPackageFinance('${p.id}')",
+          "text": "Financials",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0160",
+      "audit_ref": "INV-186",
+      "handler": "coDeleteSub(",
+      "visible_label": "Delete",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "coDeleteSub('${p.id}')",
+          "text": "Delete",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0161",
+      "audit_ref": "INV-187",
+      "handler": "coOpenPackageExpense(",
+      "visible_label": "📎 ${coEsc(e.file.name)}",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "coOpenPackageExpense('${j.id}','${p.id}','${e.id}')",
+          "text": "📎 ${coEsc(e.file.name)}",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0162",
+      "audit_ref": "INV-188",
+      "handler": "coDeletePackageExpense(",
+      "visible_label": "Delete",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "coDeletePackageExpense('${e.id}')",
+          "text": "Delete",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0163",
+      "audit_ref": "INV-189",
+      "handler": "coOpenAttachment(",
+      "visible_label": "📎 Open",
+      "candidate_button_count": 4,
+      "best_candidates": [
+        {
+          "onclick": "coOpenAttachment('payment','${j.id}','${p.id}')",
+          "text": "📎 Open",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0164",
+      "audit_ref": "INV-192",
+      "handler": "this.closest(",
+      "visible_label": "Remove",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "this.closest('.pr-share-row').remove();prUpdateShareTotal()",
+          "text": "Remove",
+          "id": null,
+          "class_name": "pr-remove-share",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0166",
+      "audit_ref": "INV-194",
+      "handler": "prEditUnifiedCost(",
+      "visible_label": "Edit",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prEditUnifiedCost('${key}','${r.id}')",
+          "text": "Edit",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0167",
+      "audit_ref": "INV-195",
+      "handler": "prDeleteUnifiedCost(",
+      "visible_label": "Delete",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prDeleteUnifiedCost('${key}','${r.id}')",
+          "text": "Delete",
+          "id": null,
+          "class_name": "pr-danger",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0168",
+      "audit_ref": "INV-196",
+      "handler": "prPrintSubReport()",
+      "visible_label": "Print / Save PDF",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "prPrintSubReport()",
+          "text": "Print / Save PDF",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        },
+        {
+          "onclick": "prPrintSubReport()",
+          "text": "Print / Save PDF",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0169",
+      "audit_ref": "INV-197",
+      "handler": "prPrintSubReport()",
+      "visible_label": "Print / Save PDF",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "prPrintSubReport()",
+          "text": "Print / Save PDF",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        },
+        {
+          "onclick": "prPrintSubReport()",
+          "text": "Print / Save PDF",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0170",
+      "audit_ref": "INV-198",
+      "handler": "document.getElementById(",
+      "visible_label": "📷 Take a Photo",
+      "candidate_button_count": 5,
+      "best_candidates": [
+        {
+          "onclick": "document.getElementById('entryReceiptGallery').click()",
+          "text": "📷 Take a Photo",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "document.getElementById('prReceiptGallery').click()",
+          "text": "📷 Take a Photo",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0172",
+      "audit_ref": "INV-200",
+      "handler": "prSaveSubFinanceRow(",
+      "visible_label": "${isIncome?'Save Receipt':'Save Expense'}",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prSaveSubFinanceRow('${tab}')",
+          "text": "${isIncome?'Save Receipt':'Save Expense'}",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0173",
+      "audit_ref": "INV-201",
+      "handler": "prClearSubFinanceRow()",
+      "visible_label": "Clear",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prClearSubFinanceRow()",
+          "text": "Clear",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0174",
+      "audit_ref": "INV-202",
+      "handler": "prOpenCustomerPaymentReceipt(",
+      "visible_label": "🧾 Customer receipt",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prOpenCustomerPaymentReceipt('${prEscape(prCurrent()?.id||'')}','${prEscape(sub.id||'')}','${prEscape(r.id)}')",
+          "text": "🧾 Customer receipt",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0175",
+      "audit_ref": "INV-203",
+      "handler": "prEditSubFinanceRow(",
+      "visible_label": "Edit",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prEditSubFinanceRow('${tab}','${r.id}')",
+          "text": "Edit",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0176",
+      "audit_ref": "INV-204",
+      "handler": "prDeleteSubFinanceRow(",
+      "visible_label": "Delete",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prDeleteSubFinanceRow('${tab}','${r.id}')",
+          "text": "Delete",
+          "id": null,
+          "class_name": "pr-danger",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0179",
+      "audit_ref": "INV-208",
+      "handler": "window.open(window.receiptPdfUrl,",
+      "visible_label": "Print",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "window.open(window.receiptPdfUrl,'_blank')",
+          "text": "Print",
+          "id": null,
+          "class_name": "secondary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0180",
+      "audit_ref": "INV-210",
+      "handler": "prRunSubReportPrint()",
+      "visible_label": "Generate PDF",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "prRunSubReportPrint()",
+          "text": "Generate PDF",
+          "id": null,
+          "class_name": "pr-print-go",
+          "score": 1
+        },
+        {
+          "onclick": "prRunSubReportPrint()",
+          "text": "Generate PDF",
+          "id": null,
+          "class_name": "pr-print-go",
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0181",
+      "audit_ref": "INV-212",
+      "handler": "prRunSubReportPrint()",
+      "visible_label": "Generate PDF",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "prRunSubReportPrint()",
+          "text": "Generate PDF",
+          "id": null,
+          "class_name": "pr-print-go",
+          "score": 1
+        },
+        {
+          "onclick": "prRunSubReportPrint()",
+          "text": "Generate PDF",
+          "id": null,
+          "class_name": "pr-print-go",
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0182",
+      "audit_ref": "INV-213",
+      "handler": "prShareSubReportPDF()",
+      "visible_label": "↗ Share PDF",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prShareSubReportPDF()",
+          "text": "↗ Share PDF",
+          "id": null,
+          "class_name": "pr-print-share",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0183",
+      "audit_ref": "INV-214",
+      "handler": "prRestoreReportPreview()",
+      "visible_label": "×",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prRestoreReportPreview()",
+          "text": "×",
+          "id": null,
+          "class_name": null,
+          "score": 0
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0184",
+      "audit_ref": "INV-216",
+      "handler": "prRenderSubFinance(",
+      "visible_label": "Income",
+      "candidate_button_count": 4,
+      "best_candidates": [
+        {
+          "onclick": "prRenderSubFinance('income')",
+          "text": "Income",
+          "id": null,
+          "class_name": "${prSubFinanceTab==='income'?'active':''}",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0185",
+      "audit_ref": "INV-217",
+      "handler": "prRenderSubFinance(",
+      "visible_label": "Expenses",
+      "candidate_button_count": 4,
+      "best_candidates": [
+        {
+          "onclick": "prRenderSubFinance('expenses')",
+          "text": "Expenses",
+          "id": null,
+          "class_name": "${prSubFinanceTab==='expenses'?'active':''}",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0186",
+      "audit_ref": "INV-218",
+      "handler": "prRenderSubFinance(",
+      "visible_label": "Report",
+      "candidate_button_count": 4,
+      "best_candidates": [
+        {
+          "onclick": "prRenderSubFinance('report')",
+          "text": "Report",
+          "id": null,
+          "class_name": "${prSubFinanceTab==='report'?'active':''}",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0187",
+      "audit_ref": "INV-219",
+      "handler": "prOpenSubprojectForm()",
+      "visible_label": "＋ Add Sub-project",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prOpenSubprojectForm()",
+          "text": "＋ Add Sub-project",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0189",
+      "audit_ref": "INV-221",
+      "handler": "prEnableSubprojectsAndAdd()",
+      "visible_label": "＋ Add Sub-project",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prEnableSubprojectsAndAdd()",
+          "text": "＋ Add Sub-project",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0191",
+      "audit_ref": "INV-224",
+      "handler": "window.print()",
+      "visible_label": "Print / Save PDF",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "window.print()",
+          "text": "Print / Save PDF",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0192",
+      "audit_ref": "INV-225",
+      "handler": "prOpenWorkerListPicker()",
+      "visible_label": "📋 Worker List — Choose Worker",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prOpenWorkerListPicker()",
+          "text": "📋 Worker List — Choose Worker",
+          "id": null,
+          "class_name": "pr-worker-list-button",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0193",
+      "audit_ref": "INV-226",
+      "handler": "prSaveRow(",
+      "visible_label": "Record",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prSaveRow('${tab}')",
+          "text": "Record",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0194",
+      "audit_ref": "INV-227",
+      "handler": "prClearRowForm()",
+      "visible_label": "Clear",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prClearRowForm()",
+          "text": "Clear",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0195",
+      "audit_ref": "INV-228",
+      "handler": "prEditRow(",
+      "visible_label": "Edit",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prEditRow('${tab}','${r.id}')",
+          "text": "Edit",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0196",
+      "audit_ref": "INV-229",
+      "handler": "prDeleteRow(",
+      "visible_label": "Delete",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prDeleteRow('${tab}','${r.id}')",
+          "text": "Delete",
+          "id": null,
+          "class_name": "pr-danger",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0198",
+      "audit_ref": "INV-232",
+      "handler": "prCloseWorkerListPicker()",
+      "visible_label": "Done",
+      "candidate_button_count": 3,
+      "best_candidates": [
+        {
+          "onclick": "prCloseWorkerListPicker()",
+          "text": "Done",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0199",
+      "audit_ref": "INV-233",
+      "handler": "prPage(\\",
+      "visible_label": "Manage Workers",
+      "candidate_button_count": 13,
+      "best_candidates": [
+        {
+          "onclick": "prPage('control')",
+          "text": "⚙️ Control Panel Manage shared Partners, Workers, Contractors, companies and future settings",
+          "id": null,
+          "class_name": "pr-project-card pr-card",
+          "score": 1
+        },
+        {
+          "onclick": "prPage('workers')",
+          "text": "👷 Workers Manage shared worker records",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "prPage(\\'workers\\');prCloseWorkerListPicker()",
+          "text": "Manage Workers",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0200",
+      "audit_ref": "INV-234",
+      "handler": "prEditPerson(",
+      "visible_label": "Edit",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prEditPerson('${type}','${x.id}')",
+          "text": "Edit",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0201",
+      "audit_ref": "INV-235",
+      "handler": "prDeletePerson(",
+      "visible_label": "Delete",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prDeletePerson('${type}','${x.id}')",
+          "text": "Delete",
+          "id": null,
+          "class_name": "pr-danger",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0202",
+      "audit_ref": "INV-236",
+      "handler": "prOpenReconciliationCost(",
+      "visible_label": "Edit",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "prOpenReconciliationCost('${prEscape(r.projectId)}','${prEscape(r.ownerId||'')}','${r.key}','${prEscape(r.id||'')}','edit')",
+          "text": "Edit",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0203",
+      "audit_ref": "INV-237",
+      "handler": "prOpenReconciliationCost(",
+      "visible_label": "Delete",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "prOpenReconciliationCost('${prEscape(r.projectId)}','${prEscape(r.ownerId||'')}','${r.key}','${prEscape(r.id||'')}','delete')",
+          "text": "Delete",
+          "id": null,
+          "class_name": "pr-danger",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0204",
+      "audit_ref": "INV-238",
+      "handler": "prPrintFullProjectReport(",
+      "visible_label": "Generate Full Project Report PDF →",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "prPrintFullProjectReport('${prEscape(project.id)}')",
+          "text": "Generate Full Project Report PDF →",
+          "id": null,
+          "class_name": "pr-primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0211",
+      "audit_ref": "INV-246",
+      "handler": "history.back()",
+      "visible_label": "${L.back}",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "history.back()",
+          "text": "${L.back}",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0212",
+      "audit_ref": "INV-249",
+      "handler": "useFullReceiptImage()",
+      "visible_label": "Use full image",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "useFullReceiptImage()",
+          "text": "Use full image",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0213",
+      "audit_ref": "INV-250",
+      "handler": "applyReceiptCrop()",
+      "visible_label": "Save cropped photo",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "applyReceiptCrop()",
+          "text": "Save cropped photo",
+          "id": null,
+          "class_name": "primary",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0214",
+      "audit_ref": "INV-251",
+      "handler": "copyMonitorVersionInfo()",
+      "visible_label": "Copy version details",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "copyMonitorVersionInfo()",
+          "text": "Copy version details",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0215",
+      "audit_ref": "INV-252",
+      "handler": "showMonitorEvent(",
+      "visible_label": "View details",
+      "candidate_button_count": 1,
+      "best_candidates": [
+        {
+          "onclick": "showMonitorEvent('${monitorEsc(x.id)}')",
+          "text": "View details",
+          "id": null,
+          "class_name": "monitor-detail-btn",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0216",
+      "audit_ref": "INV-253",
+      "handler": "monitorPage--;renderMonitor()",
+      "visible_label": "‹ Previous",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "monitorPage--;renderMonitor()",
+          "text": "‹ Previous",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0222",
+      "audit_ref": "INV-260",
+      "handler": "report188Print(",
+      "visible_label": "Print / PDF",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "report188Print('${esc(r.id)}')",
+          "text": "Print / PDF",
+          "id": null,
+          "class_name": null,
+          "score": 1
+        },
+        {
+          "onclick": "report188Print('${esc(r.id)}')",
+          "text": "Print / Save PDF",
+          "id": null,
+          "class_name": "gold",
+          "score": 1
+        }
+      ],
+      "status": "NEEDS_CONTEXT_OR_LABEL_RECONCILIATION",
+      "browser_test_required": true
+    },
+    {
+      "help_id": "THA-HLP-0226",
+      "audit_ref": "INV-264",
+      "handler": "report188Print(",
+      "visible_label": "Print / Save PDF",
+      "candidate_button_count": 2,
+      "best_candidates": [
+        {
+          "onclick": "report188Print('${esc(r.id)}')",
+          "text": "Print / Save PDF",
+          "id": null,
+          "class_name": "gold",
+          "score": 1
+        }
+      ],
+      "status": "UNIQUE_HANDLER_AND_LABEL_SOURCE_CANDIDATE",
+      "browser_test_required": true
+    }
+  ]
+}

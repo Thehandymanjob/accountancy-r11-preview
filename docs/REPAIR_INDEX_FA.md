@@ -6,6 +6,7 @@
 
 | اگر این مشکل را دیدی | ابتدا این مورد را باز کن | بررسی اولیه |
 |---|---|---|
+| انتخاب زبان، بارگذاری یا اتصال کنترل‌های User Guide با خطا یا نبود راهنمای زمینه‌ای روبه‌رو می‌شود | [HELP-GUIDE-001](./REPAIR_HISTORY_FA.md#help-guide-001--خطای-نحوی-در-تعریف-زبانها-و-فصلهای-راهنما) | R64: ۱۳۱ از ۱۳۲ Help ID قابل انتشار متصل؛ ۱۱۳ static + ۱۴ dynamic + ۴ پل PDF؛ Gate PASS؛ updater غیرفعال مستثنا؛ تست مرورگر باز |
 | انتخاب Category هزینه بعد از لمس گزینه روی «Select a category» می‌ماند یا مقدار انتخابی نمایش داده نمی‌شود | [ACC-CAT-002](./REPAIR_HISTORY_FA.md#acc-cat-002--انتخاب-دستهبندی-هزینه-در-دکمه-ثبت-نمیماند) | در `syncCategoryPicker()`، گروه را از خروجی `getExpenseCategoryGroups()` پیدا کن؛ تعریف ثابت گروه‌ها `items` ندارد و فقط `base` دارد |
 | گزینه‌های Category هزینه‌ها در یک فهرست مخلوط هستند یا مورد جدید در همه گروه‌ها قاطی می‌شود | [ACC-CAT-001](./REPAIR_HISTORY_FA.md#acc-cat-001--تفکیک-و-نگهداری-مستقل-دستهبندی-هزینهها) | فهرست‌های مستقل Materials، Car Expenses، Tools و Others؛ Add New One در هر گروه؛ ذخیره در expenseCategoryLists داخل Accounting IndexedDB state |
 | ورود به Monitor & Diagnostics از پایین صفحه شروع می‌شود | [UI-MONITOR-SCROLL-001](./REPAIR_HISTORY_FA.md#ui-monitor-scroll-001--باز-شدن-monitor--diagnostics-از-ابتدای-صفحه) | پس از فعال‌شدن پنل و renderMonitor، در فریم بعدی scroll سند فقط برای Monitor به بالا بازنشانی شود |
@@ -17,6 +18,8 @@
 | تولید PDF در iPhone Safari متوقف یا ناپایدار است | [PERF-PDF-001](./REPAIR_HISTORY_FA.md#perf-pdf-001--فشار-حافظه-در-مسیر-تولید-pdf-در-iphone-safari) | canvas scale، capture height و حجم DOM |
 | PDF گزارش مالی روی A4 از چپ و راست در مرکز نیست، برش می‌خورد یا صفحه‌بندی/چاپ مشکل دارد | [PDF-LAYOUT-001](./REPAIR_HISTORY_FA.md#pdf-layout-001--اصلاح-چیدمان-چاپ-گزارش-مالی-برای-a4-و-موبایل) | R8: Share Sheet و block-flow؛ R9: margins 12.5mm؛ R10: حاشیه PDF صفر و مرکزکردن captureRoot با عرض 185mm |
 | عنوان بخش‌ها یا جدول‌ها در PDF گزارش کامل پروژه از محتوای مربوط جدا می‌شود | [PRJ-PDF-001](./REPAIR_HISTORY_FA.md#prj-pdf-001--صفحه‌بندی-گزارش-کامل-پروژه-و-جلوگیری-از-جداافتادن-عنوان-بخشها) | صفحه‌بندی مستقل html2pdf در Project Workspace؛ h3/h4، خلاصه بخش، thead و ردیف‌های جدول |
+
+| دکمه Factory Reset پیش از تأیید واقعی همه پیش‌نیازها فعال می‌شود یا فایل Snapshot/Import اعتبارسنجی نمی‌شود | [SEC-RESET-001](./REPAIR_HISTORY_FA.md#sec-reset-001--گردشکار-factory-reset-ناقص-است-و-دکمه-نهایی-زودهنگام-فعال-میشود) | R1/R2 در Preview development؛ native HTML و reset runtime fail-closed؛ هش Snapshot مطابق قرارداد Recovery اصلاح شد؛ R45 Version Authority Gate PASS. Pages deploy و Safari pending هستند. |
 
 ## قاعده نگهداری بدون تکرار
 
@@ -38,6 +41,7 @@
 - **SEC:** امنیت و دسترسی
 - **PERF:** حافظه، سرعت و پایداری
 - **DATA:** بکاپ، import/export و صحت داده
+- **HELP:** User Guide، انتخاب زبان و ساختار محتوای چندزبانه
 
 ## قانون
 پیش از هر عیب‌یابی یا اصلاح، این فهرست و دفترچه کامل را بررسی کن. تطابق باید بر اساس علت ریشه‌ای و شواهد باشد، نه صرفاً شباهت ظاهری. دستور کامل و اجباری در `VERSION-AUTHORITY.json` است.
