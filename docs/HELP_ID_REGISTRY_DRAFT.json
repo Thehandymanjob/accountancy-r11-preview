@@ -6268,20 +6268,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Displays income records associated with the selected project.",
-          "when": "When reviewing payments or income recorded against the project.",
-          "how": "Open the project and select Income. Review dates, amounts and references.",
-          "inputs": "No input is required to view the tab. The currently selected project and its saved income records are used.",
-          "result": "The project income view is displayed.",
-          "notes": "Record only amounts actually received where the workflow represents received income; avoid duplicating receipts in another area."
+          "purpose": "Displays customer income records for the selected project and provides the form for recording a new receipt.",
+          "when": "Use this when reviewing or recording money received from the customer for this project.",
+          "how": "Open the project and select Income. Review the recorded items. To add a receipt, enter its description/payment details, amount, date and method, then select Record.",
+          "inputs": "A receipt requires an amount. The form also provides description/payment details, date and method (Cash, Bank transfer, Card or Other).",
+          "result": "The tab displays the project's customer income records. A valid new entry is added to the selected project's income records when the save succeeds.",
+          "notes": "Record customer receipts against the correct project and only when received. Check date, amount and method, and avoid duplicating the same receipt in another record area. Project income is separate from general Accountancy entries."
         },
         "fa": {
-          "purpose": "سوابق درآمد مرتبط با پروژه انتخاب‌شده را نمایش می‌دهد.",
-          "when": "برای بررسی پرداخت‌ها یا درآمدهای ثبت‌شده برای پروژه از این گزینه استفاده کنید.",
-          "how": "پروژه را باز کنید و Income را انتخاب کنید. تاریخ‌ها، مبالغ و مراجع را بررسی کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "نمای درآمد پروژه نمایش داده می‌شود.",
-          "notes": "اگر گردش‌کار نشان‌دهنده درآمد دریافتی است، فقط مبلغ واقعاً دریافت‌شده را ثبت کنید؛ از ثبت تکراری دریافت در بخش دیگر خودداری کنید."
+          "purpose": "سوابق درآمد دریافتی از مشتری برای پروژه انتخاب‌شده را نمایش می‌دهد و فرم ثبت دریافت جدید را فراهم می‌کند.",
+          "when": "برای بررسی یا ثبت مبلغی که از مشتری بابت این پروژه دریافت شده است، از این بخش استفاده کنید.",
+          "how": "پروژه را باز کنید و Income را انتخاب کنید. موارد ثبت‌شده را بررسی کنید. برای افزودن دریافت، شرح یا جزئیات پرداخت، مبلغ، تاریخ و روش پرداخت را وارد و سپس Record را انتخاب کنید.",
+          "inputs": "واردکردن مبلغ برای ثبت دریافت الزامی است. فرم همچنین فیلدهای شرح/جزئیات پرداخت، تاریخ و روش پرداخت (Cash، Bank transfer، Card یا Other) را دارد.",
+          "result": "این زبانه سوابق درآمد مشتری پروژه را نمایش می‌دهد. در صورت موفقیت ذخیره، مورد معتبر جدید به سوابق درآمد پروژه انتخاب‌شده افزوده می‌شود.",
+          "notes": "دریافتی مشتری را برای پروژه صحیح و فقط پس از دریافت واقعی ثبت کنید. تاریخ، مبلغ و روش پرداخت را بررسی کنید و از ثبت تکراری یک دریافت در بخش دیگر خودداری کنید. درآمد پروژه از ثبت‌های عمومی Accountancy جدا است."
         }
       },
       "handler_or_behavior": "`prDetailTab(`"
@@ -6294,20 +6294,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Displays expense records associated with the selected project.",
-          "when": "When reviewing materials, contractor costs, travel or other project spending.",
-          "how": "Open the project and select Expenses. Review each date, category, payee and amount.",
-          "inputs": "No input is required to view the tab. The currently selected project and its saved expense records are used.",
-          "result": "The project expense view is displayed.",
-          "notes": "Check the correct project and category; retain receipts and avoid recording the same cost twice."
+          "purpose": "Displays the selected project's expense records and provides a form for recording project expenses.",
+          "when": "Use this when reviewing or recording materials, supplies, contractor/subcontractor costs or other project expenses.",
+          "how": "Open the project and select Expenses. Review the recorded items. To add an expense, choose General expense or Contractor / subcontractor, enter the relevant supplier/contractor and description, amount and date, then select Record.",
+          "inputs": "The expense amount is required. The form includes expense type, contractor selection when Contractor / subcontractor is chosen, supplier for general expenses, description/work done and date.",
+          "result": "The project expense records are displayed. A valid new expense is added to the selected project's expense records when the save succeeds.",
+          "notes": "Choose the correct expense type. The contractor selector is shown for Contractor / subcontractor entries; general expenses use the supplier/shop field. Check the project, payee, date and amount, retain receipts and avoid duplicate entries. These are project records, not automatic Accountancy transactions."
         },
         "fa": {
-          "purpose": "سوابق هزینه‌های مرتبط با پروژه انتخاب‌شده را نمایش می‌دهد.",
-          "when": "برای بررسی هزینه مصالح، پیمانکار، رفت‌وآمد یا سایر مخارج پروژه از این گزینه استفاده کنید.",
-          "how": "پروژه را باز کنید و Expenses را انتخاب کنید. تاریخ، دسته‌بندی، دریافت‌کننده و مبلغ هر مورد را بررسی کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "نمای هزینه‌های پروژه نمایش داده می‌شود.",
-          "notes": "پروژه و دسته‌بندی درست را بررسی کنید؛ رسیدها را نگه دارید و از ثبت دوباره یک هزینه خودداری کنید."
+          "purpose": "سوابق هزینه‌های پروژه انتخاب‌شده را نمایش می‌دهد و فرم ثبت هزینه جدید پروژه را فراهم می‌کند.",
+          "when": "برای بررسی یا ثبت هزینه مصالح، لوازم، پیمانکار یا پیمانکار جزء و سایر مخارج پروژه از این بخش استفاده کنید.",
+          "how": "پروژه را باز کنید و Expenses را انتخاب کنید. موارد ثبت‌شده را بررسی کنید. برای افزودن هزینه، General expense یا Contractor / subcontractor را انتخاب کنید، اطلاعات تأمین‌کننده یا پیمانکار و شرح، مبلغ و تاریخ را وارد و سپس Record را انتخاب کنید.",
+          "inputs": "مبلغ هزینه الزامی است. فرم شامل نوع هزینه، انتخاب پیمانکار در صورت انتخاب Contractor / subcontractor، تأمین‌کننده برای هزینه عمومی، شرح/کار انجام‌شده و تاریخ است.",
+          "result": "سوابق هزینه‌های پروژه نمایش داده می‌شوند. در صورت موفقیت ذخیره، هزینه معتبر جدید به سوابق هزینه پروژه انتخاب‌شده افزوده می‌شود.",
+          "notes": "نوع هزینه صحیح را انتخاب کنید. انتخاب‌گر پیمانکار برای موارد Contractor / subcontractor نمایش داده می‌شود؛ هزینه‌های عمومی از فیلد تأمین‌کننده/فروشگاه استفاده می‌کنند. پروژه، دریافت‌کننده، تاریخ و مبلغ را بررسی کنید، رسیدها را نگه دارید و از ثبت تکراری جلوگیری کنید. این‌ها سوابق پروژه هستند و خودکار تراکنش Accountancy ایجاد نمی‌کنند."
         }
       },
       "handler_or_behavior": "`prDetailTab(`"
@@ -6320,20 +6320,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Displays worker wage records for the selected project.",
-          "when": "When reviewing labour payments and worker costs assigned to the project.",
-          "how": "Open the project and select Worker Wages. Review worker, date, amount and payment status.",
-          "inputs": "No input is required to view the tab. The currently selected project and its saved worker-wage records are used.",
-          "result": "The worker wage view is displayed.",
-          "notes": "Check that each wage is linked to the correct worker and project. Keep supporting payment evidence."
+          "purpose": "Displays worker wage records for the selected project and provides the form for recording a wage entry.",
+          "when": "Use this when reviewing or recording labour costs for workers assigned to the project.",
+          "how": "Open the project and select Worker Wages. To record wages, select a registered worker, enter days worked, total wages, amount paid and payment date, then select Record. The Worker List button can be used to choose a registered worker.",
+          "inputs": "Select a registered worker. Enter days worked, total wages, amount paid and payment date; the total wages amount is required by the form.",
+          "result": "The worker wage records are displayed. A valid new wage entry is added to the selected project's wage records when saving succeeds.",
+          "notes": "Check the worker and project are correct. Total wages and amount paid are separate fields; do not assume the full wage has been paid. Keep supporting payment evidence. These project wage records are separate from Accountancy payroll or expense entries."
         },
         "fa": {
-          "purpose": "سوابق دستمزد کارگران مربوط به پروژه انتخاب‌شده را نمایش می‌دهد.",
-          "when": "برای بررسی پرداخت نیروی کار و هزینه کارگران تخصیص‌یافته به پروژه از این گزینه استفاده کنید.",
-          "how": "پروژه را باز کنید و Worker Wages را انتخاب کنید. کارگر، تاریخ، مبلغ و وضعیت پرداخت را بررسی کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "نمای دستمزد کارگران نمایش داده می‌شود.",
-          "notes": "بررسی کنید هر دستمزد به کارگر و پروژه درست متصل باشد. مدارک پرداخت را نگه دارید."
+          "purpose": "سوابق دستمزد کارگران پروژه انتخاب‌شده را نمایش می‌دهد و فرم ثبت دستمزد جدید را فراهم می‌کند.",
+          "when": "برای بررسی یا ثبت هزینه نیروی کارگرانی که به پروژه اختصاص یافته‌اند، از این بخش استفاده کنید.",
+          "how": "پروژه را باز کنید و Worker Wages را انتخاب کنید. برای ثبت دستمزد، یک کارگر ثبت‌شده را انتخاب کنید، تعداد روزهای کار، کل دستمزد، مبلغ پرداخت‌شده و تاریخ پرداخت را وارد و سپس Record را انتخاب کنید. برای انتخاب کارگر ثبت‌شده می‌توانید از دکمه Worker List استفاده کنید.",
+          "inputs": "یک کارگر ثبت‌شده را انتخاب کنید. تعداد روزهای کار، کل دستمزد، مبلغ پرداخت‌شده و تاریخ پرداخت را وارد کنید؛ فیلد مبلغ کل دستمزد در فرم الزامی است.",
+          "result": "سوابق دستمزد کارگران نمایش داده می‌شوند. در صورت موفقیت ذخیره، سابقه دستمزد جدید و معتبر به سوابق دستمزد پروژه انتخاب‌شده افزوده می‌شود.",
+          "notes": "درستی کارگر و پروژه را بررسی کنید. کل دستمزد و مبلغ پرداخت‌شده دو فیلد جداگانه‌اند؛ فرض نکنید کل دستمزد پرداخت شده است. مدارک پرداخت را نگه دارید. این سوابق دستمزد پروژه از ثبت‌های حقوق و دستمزد یا هزینه در Accountancy جدا هستند."
         }
       },
       "handler_or_behavior": "`prDetailTab(`"
@@ -6346,20 +6346,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Displays tool-related costs or records for the selected project.",
-          "when": "When reviewing tools or tool-hire costs assigned to this job.",
-          "how": "Open the project and select Tools. Review the listed items and amounts.",
-          "inputs": "No input is required to view the tab. The currently selected project and its saved tool or tool-hire records are used.",
-          "result": "The tools view is displayed.",
-          "notes": "Confirm whether an item is a purchase, hire or other cost and use the appropriate accounting treatment separately."
+          "purpose": "Displays tool expenses for the selected project and provides the form for recording a tool-related cost.",
+          "when": "Use this when reviewing or recording tools or equipment costs assigned to this project.",
+          "how": "Open the project and select Tools. To add a record, enter the tool or item description, amount and date, then select Record.",
+          "inputs": "The amount is required. The form also provides a description field and date field.",
+          "result": "The project's tool expense records are displayed. A valid new record is added when saving succeeds.",
+          "notes": "The form records a project tool expense; it does not classify an item as a capital asset, purchase or hire. Keep the source receipt and determine any separate accounting treatment as appropriate. Avoid recording the same cost in another project tab."
         },
         "fa": {
-          "purpose": "سوابق یا هزینه‌های ابزار مربوط به پروژه انتخاب‌شده را نمایش می‌دهد.",
-          "when": "برای بررسی ابزارها یا هزینه اجاره ابزار تخصیص‌یافته به این کار از این گزینه استفاده کنید.",
-          "how": "پروژه را باز کنید و Tools را انتخاب کنید. موارد و مبالغ فهرست‌شده را بررسی کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "نمای ابزارها نمایش داده می‌شود.",
-          "notes": "مشخص کنید هر مورد خرید، اجاره یا هزینه دیگری است و نحوه ثبت حسابداری مناسب را جداگانه بررسی کنید."
+          "purpose": "هزینه‌های ابزار پروژه انتخاب‌شده را نمایش می‌دهد و فرم ثبت هزینه مرتبط با ابزار را فراهم می‌کند.",
+          "when": "برای بررسی یا ثبت هزینه ابزار یا تجهیزات تخصیص‌یافته به این پروژه از این بخش استفاده کنید.",
+          "how": "پروژه را باز کنید و Tools را انتخاب کنید. برای افزودن سابقه، شرح ابزار یا کالا، مبلغ و تاریخ را وارد و سپس Record را انتخاب کنید.",
+          "inputs": "مبلغ الزامی است. فرم همچنین فیلد شرح و تاریخ را دارد.",
+          "result": "سوابق هزینه ابزار پروژه نمایش داده می‌شوند. در صورت موفقیت ذخیره، سابقه معتبر جدید افزوده می‌شود.",
+          "notes": "این فرم یک هزینه ابزار در سطح پروژه ثبت می‌کند؛ اما کالا را به‌عنوان دارایی سرمایه‌ای، خرید یا اجاره طبقه‌بندی نمی‌کند. رسید منبع را نگه دارید و در صورت لزوم نحوه ثبت حسابداری جداگانه را تعیین کنید. از ثبت یک هزینه مشابه در زبانه دیگر پروژه خودداری کنید."
         }
       },
       "handler_or_behavior": "`prDetailTab(`"
@@ -6372,20 +6372,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Displays food and miscellaneous costs recorded against the selected project.",
-          "when": "When reviewing site food or other miscellaneous project expenses.",
-          "how": "Open the project and select Food & Other. Review descriptions, dates and amounts.",
-          "inputs": "No input is required to view the tab. The currently selected project and its saved Food & Other records are used.",
-          "result": "The Food & Other view is displayed.",
-          "notes": "Use clear descriptions and check that each cost is genuinely attributable to this project."
+          "purpose": "Displays Food & Other costs for the selected project and provides the form for recording a miscellaneous project cost.",
+          "when": "Use this when reviewing or recording food or other miscellaneous costs attributable to the project.",
+          "how": "Open the project and select Food & Other. To add a record, enter a clear description, amount and date, then select Record.",
+          "inputs": "The amount is required. A description and date can also be entered in the form.",
+          "result": "The project's Food & Other records are displayed. A valid new record is added when saving succeeds.",
+          "notes": "Use a clear description and confirm the cost belongs to this project. Retain receipts and avoid recording the same cost in Expenses or another tab as well. These records are project-specific and are not automatically added to Accountancy."
         },
         "fa": {
-          "purpose": "هزینه‌های غذا و مخارج متفرقه ثبت‌شده برای پروژه را نمایش می‌دهد.",
-          "when": "برای بررسی هزینه غذای محل کار یا سایر مخارج متفرقه پروژه از این گزینه استفاده کنید.",
-          "how": "پروژه را باز کنید و Food & Other را انتخاب کنید. شرح، تاریخ و مبلغ را بررسی کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
-          "result": "نمای Food & Other نمایش داده می‌شود.",
-          "notes": "شرح روشن وارد کنید و مطمئن شوید هر هزینه واقعاً به همین پروژه مربوط است."
+          "purpose": "هزینه‌های Food & Other پروژه انتخاب‌شده را نمایش می‌دهد و فرم ثبت هزینه متفرقه پروژه را فراهم می‌کند.",
+          "when": "برای بررسی یا ثبت هزینه غذا یا سایر مخارج متفرقه‌ای که به پروژه مربوط هستند، از این بخش استفاده کنید.",
+          "how": "پروژه را باز کنید و Food & Other را انتخاب کنید. برای افزودن سابقه، شرح روشن، مبلغ و تاریخ را وارد و سپس Record را انتخاب کنید.",
+          "inputs": "مبلغ الزامی است. فرم همچنین امکان واردکردن شرح و تاریخ را فراهم می‌کند.",
+          "result": "سوابق Food & Other پروژه نمایش داده می‌شوند. در صورت موفقیت ذخیره، سابقه معتبر جدید افزوده می‌شود.",
+          "notes": "شرح روشنی وارد کنید و مطمئن شوید هزینه به همین پروژه مربوط است. رسیدها را نگه دارید و از ثبت همان هزینه در Expenses یا زبانه دیگری نیز خودداری کنید. این سوابق مختص پروژه هستند و خودکار به Accountancy افزوده نمی‌شوند."
         }
       },
       "handler_or_behavior": "`prDetailTab(`"
