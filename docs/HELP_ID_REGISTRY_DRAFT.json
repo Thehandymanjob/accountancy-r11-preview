@@ -6646,6 +6646,78 @@
           "inputs": "ورودی دیگری لازم نیست. برای مشاهده تغییر، باید لوگویی از قبل ذخیره شده باشد.",
           "result": "مقدار لوگو در پروفایل پاک می‌شود، پروفایل به‌روزشده ذخیره و اعتبارسنجی می‌شود و پیش‌نمایش لوگو پنهان می‌شود. اگر ذخیره ناموفق باشد، پیام خطا نمایش داده می‌شود و حذف تأیید نخواهد شد.",
           "notes": "این کنترل حذف را بلافاصله ذخیره می‌کند. ممکن است بر اسناد آینده‌ای که از پروفایل استفاده می‌کنند اثر بگذارد، اما اسناد صادرشده قبلی را بازنویسی نمی‌کند. اگر احتمال می‌دهید دوباره به تصویر نیاز دارید، یک نسخه جداگانه نگه دارید."
+        },
+        "ar": {
+          "purpose": "يمسح شعار النشاط التجاري المحفوظ من الملف الشخصي ويحفظ الملف المحدّث ويتحقق منه فوراً في IndexedDB.",
+          "when": "استخدم هذا الخيار إذا كان شعار النشاط التجاري الحالي غير صحيح أو لم يعد ينبغي استخدامه في المستندات المستقبلية التي تعرض شعار الملف الشخصي.",
+          "how": "افتح Profile & Logo واختر Remove Logo. انتظر تأكيد إزالة الشعار وحفظ الملف الشخصي. لا يلزم تنفيذ Save Profile بشكل منفصل.",
+          "inputs": "لا يلزم إدخال معلومات إضافية. يجب أن يكون هناك شعار محفوظ مسبقاً حتى يظهر أثر الإزالة.",
+          "result": "تُمسح قيمة الشعار من الملف الشخصي، ويُحفظ الملف المحدّث ويتحقق منه، وتُخفى معاينة الشعار. إذا فشل الحفظ، يظهر خطأ ولا يتم تأكيد الإزالة.",
+          "notes": "يحفظ عنصر التحكم هذا الإزالة فوراً. وقد يؤثر ذلك في المستندات المستقبلية التي تستخدم الملف الشخصي، لكنه لا يعيد كتابة المستندات الصادرة سابقاً. احتفظ بنسخة منفصلة من الصورة إذا احتجت إليها مجدداً."
+        },
+        "ckb": {
+          "purpose": "لۆگۆی بازرگانیی پاشەکەوتکراو لە پرۆفایل دەسڕێتەوە و پرۆفایلی نوێکراوە دەستبەجێ لە IndexedDB پاشەکەوت و پشتڕاست دەکاتەوە.",
+          "when": "کاتێک لۆگۆی ئێستای بازرگانی هەڵەیە یان نابێت لە بەڵگەنامەکانی داهاتوو کە لۆگۆی پرۆفایل پیشان دەدەن بەکاربهێنرێت، ئەم هەڵبژاردەیە بەکاربهێنە.",
+          "how": "Profile & Logo بکەرەوە و Remove Logo هەڵبژێرە. چاوەڕێی پشتڕاستکردنەوەی سڕینەوەی لۆگۆ و پاشەکەوتکردنی پرۆفایل بکە. پێویست ناکات Save Profile بە جیا هەڵبژێریت.",
+          "inputs": "هیچ زانیارییەکی زیادە پێویست نییە. دەبێت لۆگۆیەکی پاشەکەوتکراو هەبێت تا سڕینەوەکە گۆڕانکارییەکی دیار دروست بکات.",
+          "result": "بەهای لۆگۆ لە پرۆفایل دەسڕدرێتەوە، پرۆفایلی نوێکراوە پاشەکەوت و پشتڕاست دەکرێتەوە و پێشبینینی لۆگۆ دەشاردرێتەوە. ئەگەر پاشەکەوتکردن سەرکەوتوو نەبێت، هەڵەیەک پیشان دەدرێت و سڕینەوەکە پشتڕاست ناکرێتەوە.",
+          "notes": "ئەم کۆنترۆڵە سڕینەوەکە دەستبەجێ پاشەکەوت دەکات. لەوانەیە کاریگەری لەسەر بەڵگەنامەکانی داهاتوو هەبێت کە پرۆفایل بەکاردەهێنن، بەڵام بەڵگەنامە دەرکراوەکانی پێشوو دووبارە نانووسێتەوە. ئەگەر لەوانەیە دواتر پێویستت پێی بێت، کۆپییەکی جیاوازی وێنەکە هەڵبگرە."
+        },
+        "kmr": {
+          "purpose": "Logoya karsaziyê ya hilanbar ji profîlê radike û profîla nûkirî tavilê di IndexedDB de tomar û verast dike.",
+          "when": "Dema ku logoya heyî ya karsaziyê ne rast e an divê êdî di belgeyên paşerojê yên ku logoya profîlê nîşan didin de neyê bikaranîn, vê hilbijêre.",
+          "how": "Profile & Logo veke û Remove Logo hilbijêre. Li benda pejirandina rakirina logo û tomarkirina profîlê bimîne. Pêdivî bi hilbijartina Save Profile ya cuda tune.",
+          "inputs": "Agahiyeke din nehewce ye. Divê berê logoyeke tomarkirî hebe da ku rakirinê bandoreke xuya çêbike.",
+          "result": "Nirxa logo ji profîlê tê rakirin, profîla nûkirî tê tomarkirin û verastkirin, û pêşdîtina logo tê veşartin. Heke tomarkirin bi ser nekeve, çewtiyek tê nîşandan û rakirin nayê pejirandin.",
+          "notes": "Ev kontrol rakirinê tavilê tomar dike. Dibe ku bandorê li ser belgeyên paşerojê yên ku profîlê bikar tînin bike, lê belgeyên ku berê hatine derxistin ji nû ve çênake. Heke dibe ku dîsa wê wêneyê bixwazî, kopiyeke cuda biparêze."
+        },
+        "tr": {
+          "purpose": "Kaydedilmiş işletme logosunu profilden kaldırır ve güncellenen profili hemen IndexedDB'ye kaydedip doğrular.",
+          "when": "Mevcut işletme logosu yanlışsa veya profil logosunu gösteren gelecekteki belgelerde artık kullanılmaması gerekiyorsa bu seçeneği kullanın.",
+          "how": "Profile & Logo bölümünü açın ve Remove Logo seçeneğini belirleyin. Logonun kaldırıldığı ve profilin kaydedildiği onayını bekleyin. Ayrıca Save Profile seçmeniz gerekmez.",
+          "inputs": "Ek bilgi gerekmez. Kaldırma işleminin görünür bir fark yaratması için önceden kaydedilmiş bir logo bulunmalıdır.",
+          "result": "Profildeki logo değeri temizlenir, güncellenmiş profil kaydedilip doğrulanır ve logo önizlemesi gizlenir. Kayıt başarısız olursa hata gösterilir ve kaldırma işlemi onaylanmaz.",
+          "notes": "Bu denetim kaldırma işlemini hemen kaydeder. Profili kullanan gelecekteki belgeleri etkileyebilir, ancak daha önce düzenlenmiş belgeleri yeniden yazmaz. Görsele yeniden ihtiyaç duyabilecekseniz ayrı bir kopyasını saklayın."
+        },
+        "pl": {
+          "purpose": "Usuwa zapisane logo firmy z profilu, a następnie natychmiast zapisuje i weryfikuje zaktualizowany profil w IndexedDB.",
+          "when": "Użyj tej opcji, jeśli obecne logo firmy jest nieprawidłowe lub nie powinno być już używane w przyszłych dokumentach wyświetlających logo profilu.",
+          "how": "Otwórz Profile & Logo i wybierz Remove Logo. Poczekaj na potwierdzenie usunięcia logo i zapisania profilu. Nie trzeba osobno wybierać Save Profile.",
+          "inputs": "Nie są wymagane dodatkowe dane. Aby usunięcie przyniosło widoczny efekt, logo musi być wcześniej zapisane.",
+          "result": "Wartość logo zostaje usunięta z profilu, zaktualizowany profil jest zapisywany i weryfikowany, a podgląd logo zostaje ukryty. Jeśli zapis się nie powiedzie, pojawi się błąd, a usunięcie nie zostanie potwierdzone.",
+          "notes": "Ten element sterujący zapisuje usunięcie natychmiast. Może to wpłynąć na przyszłe dokumenty korzystające z profilu, ale nie zmienia już wystawionych dokumentów. Zachowaj osobną kopię obrazu, jeśli może być ponownie potrzebny."
+        },
+        "ur": {
+          "purpose": "محفوظ شدہ کاروباری لوگو کو پروفائل سے ہٹاتا ہے اور اپ ڈیٹ شدہ پروفائل کو فوراً IndexedDB میں محفوظ اور تصدیق کرتا ہے۔",
+          "when": "اس وقت استعمال کریں جب موجودہ کاروباری لوگو غلط ہو یا مستقبل کی ان دستاویزات میں استعمال نہیں ہونا چاہیے جو پروفائل کا لوگو دکھاتی ہیں۔",
+          "how": "Profile & Logo کھولیں اور Remove Logo منتخب کریں۔ لوگو ہٹنے اور پروفائل محفوظ ہونے کی تصدیق کا انتظار کریں۔ الگ سے Save Profile منتخب کرنے کی ضرورت نہیں۔",
+          "inputs": "کسی اضافی معلومات کی ضرورت نہیں۔ نمایاں تبدیلی کے لیے پہلے سے محفوظ شدہ لوگو موجود ہونا چاہیے۔",
+          "result": "پروفائل میں لوگو کی قدر صاف ہو جاتی ہے، اپ ڈیٹ شدہ پروفائل محفوظ اور تصدیق ہو جاتا ہے اور لوگو کا پیش منظر چھپ جاتا ہے۔ محفوظ کرنے میں ناکامی پر خرابی دکھائی جاتی ہے اور لوگو ہٹانے کی تصدیق نہیں ہوتی۔",
+          "notes": "یہ کنٹرول لوگو ہٹانے کے عمل کو فوراً محفوظ کرتا ہے۔ اس سے پروفائل استعمال کرنے والی آئندہ دستاویزات متاثر ہو سکتی ہیں، لیکن پہلے جاری شدہ دستاویزات دوبارہ نہیں لکھی جاتیں۔ اگر تصویر دوبارہ درکار ہو سکتی ہے تو اس کی الگ نقل رکھیں۔"
+        },
+        "pa": {
+          "purpose": "ਪ੍ਰੋਫਾਈਲ ਵਿੱਚੋਂ ਸੰਭਾਲਿਆ ਹੋਇਆ ਕਾਰੋਬਾਰੀ ਲੋਗੋ ਹਟਾਉਂਦਾ ਹੈ ਅਤੇ ਅੱਪਡੇਟ ਕੀਤੇ ਪ੍ਰੋਫਾਈਲ ਨੂੰ ਤੁਰੰਤ IndexedDB ਵਿੱਚ ਸੇਵ ਅਤੇ ਤਸਦੀਕ ਕਰਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਮੌਜੂਦਾ ਕਾਰੋਬਾਰੀ ਲੋਗੋ ਗਲਤ ਹੋਵੇ ਜਾਂ ਭਵਿੱਖ ਦੇ ਉਹਨਾਂ ਦਸਤਾਵੇਜ਼ਾਂ ਵਿੱਚ ਨਹੀਂ ਵਰਤਣਾ ਚਾਹੀਦਾ ਜੋ ਪ੍ਰੋਫਾਈਲ ਲੋਗੋ ਦਿਖਾਉਂਦੇ ਹਨ।",
+          "how": "Profile & Logo ਖੋਲ੍ਹੋ ਅਤੇ Remove Logo ਚੁਣੋ। ਲੋਗੋ ਹਟਣ ਅਤੇ ਪ੍ਰੋਫਾਈਲ ਸੇਵ ਹੋਣ ਦੀ ਪੁਸ਼ਟੀ ਦੀ ਉਡੀਕ ਕਰੋ। ਵੱਖਰੇ ਤੌਰ 'ਤੇ Save Profile ਚੁਣਨ ਦੀ ਲੋੜ ਨਹੀਂ।",
+          "inputs": "ਕੋਈ ਵਾਧੂ ਜਾਣਕਾਰੀ ਲੋੜੀਂਦੀ ਨਹੀਂ। ਦਿਖਣ ਵਾਲਾ ਫਰਕ ਪੈਣ ਲਈ ਪਹਿਲਾਂ ਤੋਂ ਸੇਵ ਕੀਤਾ ਲੋਗੋ ਮੌਜੂਦ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।",
+          "result": "ਪ੍ਰੋਫਾਈਲ ਵਿੱਚੋਂ ਲੋਗੋ ਦੀ ਕਦਰ ਹਟਾਈ ਜਾਂਦੀ ਹੈ, ਅੱਪਡੇਟ ਕੀਤਾ ਪ੍ਰੋਫਾਈਲ ਸੇਵ ਅਤੇ ਤਸਦੀਕ ਹੁੰਦਾ ਹੈ ਅਤੇ ਲੋਗੋ ਦਾ ਪ੍ਰੀਵਿਊ ਲੁਕ ਜਾਂਦਾ ਹੈ। ਜੇ ਸੇਵ ਕਰਨਾ ਅਸਫਲ ਹੋਵੇ ਤਾਂ ਗਲਤੀ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ ਅਤੇ ਹਟਾਉਣ ਦੀ ਪੁਸ਼ਟੀ ਨਹੀਂ ਹੁੰਦੀ।",
+          "notes": "ਇਹ ਕੰਟਰੋਲ ਲੋਗੋ ਹਟਾਉਣ ਨੂੰ ਤੁਰੰਤ ਸੇਵ ਕਰਦਾ ਹੈ। ਇਸ ਨਾਲ ਪ੍ਰੋਫਾਈਲ ਵਰਤਣ ਵਾਲੇ ਭਵਿੱਖ ਦੇ ਦਸਤਾਵੇਜ਼ ਪ੍ਰਭਾਵਿਤ ਹੋ ਸਕਦੇ ਹਨ, ਪਰ ਪਹਿਲਾਂ ਜਾਰੀ ਕੀਤੇ ਦਸਤਾਵੇਜ਼ ਮੁੜ ਨਹੀਂ ਲਿਖੇ ਜਾਂਦੇ। ਜੇ ਤਸਵੀਰ ਮੁੜ ਲੋੜੀਂਦੀ ਹੋ ਸਕਦੀ ਹੈ ਤਾਂ ਇਸਦੀ ਵੱਖਰੀ ਕਾਪੀ ਰੱਖੋ।"
+        },
+        "prs": {
+          "purpose": "لوگوی ذخیره‌شده کسب‌وکار را از پروفایل حذف می‌کند و پروفایل به‌روزشده را بلافاصله در IndexedDB ذخیره و اعتبارسنجی می‌کند.",
+          "when": "وقتی لوگوی فعلی کسب‌وکار اشتباه است یا دیگر نباید در اسناد آینده‌ای که لوگوی پروفایل را نمایش می‌دهند استفاده شود، از این گزینه استفاده کنید.",
+          "how": "Profile & Logo را باز کنید و Remove Logo را انتخاب کنید. منتظر تأیید حذف لوگو و ذخیره پروفایل بمانید. نیازی به انتخاب جداگانه Save Profile نیست.",
+          "inputs": "ورودی دیگری لازم نیست. برای اینکه حذف تغییر قابل مشاهده‌ای ایجاد کند، باید لوگویی از قبل ذخیره شده باشد.",
+          "result": "مقدار لوگو از پروفایل پاک می‌شود، پروفایل به‌روزشده ذخیره و تأیید می‌شود و پیش‌نمایش لوگو پنهان می‌شود. اگر ذخیره ناموفق باشد، خطا نمایش داده می‌شود و حذف تأیید نمی‌شود.",
+          "notes": "این کنترل حذف را فوراً ذخیره می‌کند. ممکن است بر اسناد آینده‌ای که از پروفایل استفاده می‌کنند اثر بگذارد، اما اسناد صادرشده قبلی را بازنویسی نمی‌کند. اگر احتمال می‌دهید دوباره به تصویر نیاز دارید، یک نسخه جداگانه نگه دارید."
+        },
+        "ps": {
+          "purpose": "له پروفایل څخه خوندي شوی سوداګریز لوګو لرې کوي او نوی شوی پروفایل سمدستي په IndexedDB کې خوندي او تاییدوي.",
+          "when": "دا هغه وخت وکاروئ چې اوسنی سوداګریز لوګو ناسم وي یا باید په راتلونکو هغو اسنادو کې نور ونه کارول شي چې د پروفایل لوګو ښيي.",
+          "how": "Profile & Logo پرانیزئ او Remove Logo وټاکئ. د لوګو د لرې کېدو او د پروفایل د خوندي کېدو تایید ته انتظار وکړئ. جلا Save Profile ته اړتیا نشته.",
+          "inputs": "اضافي معلوماتو ته اړتیا نشته. د لرې کولو د ښکاره اغېز لپاره باید مخکې خوندي شوی لوګو موجود وي.",
+          "result": "د پروفایل د لوګو ارزښت پاکېږي، نوی شوی پروفایل خوندي او تاییدېږي، او د لوګو مخکتنه پټېږي. که خوندي کول ناکام شي، تېروتنه ښکاري او د لرې کولو تایید نه کېږي.",
+          "notes": "دا کنټرول د لوګو لرې کول سمدستي خوندي کوي. دا ښايي پر راتلونکو هغو اسنادو اغېز وکړي چې پروفایل کاروي، خو مخکې صادر شوي اسناد نه بدلوي. که انځور بیا درته پکارېدای شي، جلا کاپي یې وساتئ."
         }
       },
       "handler_or_behavior": "`prRemoveLogo()`"
@@ -6672,6 +6744,78 @@
           "inputs": "نشانی ایمیل معتبر، موضوع و متن پیام الزامی هستند. واردکردن نام اختیاری است.",
           "result": "اگر ذخیره در IndexedDB موفق شود، پیام با وضعیت pending-local-only روی همین دستگاه ذخیره می‌شود. صفحه صریحاً تأیید می‌کند که پیام ارسال نشده است. اگر ذخیره ناموفق باشد، خطا نمایش داده می‌شود و ذخیره‌شدن پیام تأیید نمی‌شود.",
           "notes": "این عمل یک پیش‌نویس محلی ایجاد می‌کند، نه تیکت پشتیبانی یا ایمیل برای توسعه‌دهنده. در این Build برنامه اتصال سروری برای ارسال درخواست پشتیبانی ندارد. گذرواژه، اطلاعات پرداخت یا اطلاعات شخصی غیرضروری را وارد نکنید."
+        },
+        "ar": {
+          "purpose": "يتحقق من رسالة الدعم في نموذج Contact Us ويحفظها كمسودة محلية في IndexedDB على هذا الجهاز.",
+          "when": "استخدم هذا بعد إدخال طلب دعم تريد الاحتفاظ به لمراجعته لاحقاً. لا يوجد حالياً اتصال دعم عبر الإنترنت في التطبيق، لذلك لا يرسل هذا الإجراء الطلب.",
+          "how": "أدخل عنوان بريد إلكتروني صالحاً وموضوعاً ورسالة. حقل الاسم اختياري. راجع المحتوى واختر Save Support Message. تحقق من نص الحالة لمعرفة ما إذا كانت المسودة قد حُفظت.",
+          "inputs": "يلزم عنوان بريد إلكتروني صالح وموضوع ورسالة. الاسم اختياري.",
+          "result": "إذا نجح الحفظ في IndexedDB، تُخزّن الرسالة على هذا الجهاز بحالة pending-local-only. تؤكد الصفحة صراحةً أنها لم تُرسل. إذا فشل الحفظ، يظهر خطأ ولا يتم تأكيد حفظ الرسالة.",
+          "notes": "ينشئ هذا الإجراء مسودة محلية، وليس تذكرة دعم أو رسالة بريد إلكتروني إلى المطوّر. لا يوجد اتصال بالخادم لإرسال طلبات الدعم في هذا الإصدار. لا تُدرج كلمات مرور أو بيانات اعتماد الدفع أو معلومات شخصية غير ضرورية."
+        },
+        "ckb": {
+          "purpose": "پەیامی پشتگیریی Contact Us پشتڕاست دەکاتەوە و وەک ڕەشنووسی خۆجێیی لە IndexedDBی ئەم ئامێرەدا پاشەکەوتی دەکات.",
+          "when": "دوای نووسینی داواکارییەکی پشتگیری کە دەتەوێت بۆ پێداچوونەوەی دواتر هەڵیبگریت، ئەمە بەکاربهێنە. بەرنامە ئێستا پەیوەندی پشتگیری ئۆنلاین نییە؛ بۆیە ئەم کردارە داواکارییەکە نانێرێت.",
+          "how": "ناونیشانی ئیمەیڵێکی دروست، بابەت و پەیام بنووسە. خانەی ناو ئارەزوومەندانەیە. ناوەڕۆکەکە بپشکنە و Save Support Message هەڵبژێرە. دەقی دۆخ بپشکنە بۆ دڵنیابوون لە پاشەکەوتکردنی ڕەشنووسەکە.",
+          "inputs": "ناونیشانی ئیمەیڵی دروست، بابەت و پەیام پێویستن. ناو ئارەزوومەندانەیە.",
+          "result": "ئەگەر پاشەکەوتکردن لە IndexedDB سەرکەوتوو بێت، پەیامەکە بە دۆخی pending-local-only لەم ئامێرەدا هەڵدەگیرێت. پەڕەکە بە ڕوونی پشتڕاست دەکاتەوە کە پەیامەکە نەنێردراوە. ئەگەر پاشەکەوتکردن سەرکەوتوو نەبێت، هەڵەیەک پیشان دەدرێت و پاشەکەوتبوونی پەیامەکە پشتڕاست ناکرێتەوە.",
+          "notes": "ئەم کردارە ڕەشنووسێکی خۆجێیی دروست دەکات، نەک تیکێتی پشتگیری یان ئیمەیڵێک بۆ گەشەپێدەر. لەم Buildەدا بەرنامە پەیوەندی سێرڤەری بۆ ناردنی داواکاری پشتگیری نییە. وشەی نهێنی، زانیاری پارەدان یان زانیاری کەسی ناپێویست مەنووسە."
+        },
+        "kmr": {
+          "purpose": "Peyama piştgiriyê ya Contact Us verast dike û wê wekî pêşnûmeyeke herêmî di IndexedDB ya vê cîhazê de tomar dike.",
+          "when": "Vê bikar bîne piştî ku daxwazeke piştgiriyê nivîsî ku dixwazî ji bo lêkolîna paşerojê biparêzî. Niha sepan xwedî girêdana piştgiriyê ya serhêl nîne, ji ber vê yekê ev kiryar daxwazê naşîne.",
+          "how": "Navnîşana e-nameyeke derbasdar, mijar û peyamê binivîse. Qada navê vebijarkî ye. Naverokê kontrol bike û Save Support Message hilbijêre. Nivîsa rewşê binêre da bizanî gelo pêşnûme hate tomarkirin.",
+          "inputs": "Navnîşana e-nameyeke derbasdar, mijar û peyam pêwîst in. Nav vebijarkî ye.",
+          "result": "Heke tomarkirina IndexedDB serkeftî be, peyam li ser vê cîhazê bi rewşa pending-local-only tê hilanîn. Rûpel bi eşkere piştrast dike ku ew NEHATIYE şandin. Heke tomarkirin bi ser nekeve, çewtiyek tê nîşandan û tomarkirina peyamê nayê pejirandin.",
+          "notes": "Ev kiryar pêşnûmeyeke herêmî çêdike, ne bilêteke piştgiriyê an e-nameyek ji bo pêşdebir. Di vê buildê de sepan ji bo şandina daxwazên piştgiriyê girêdana serverê nîne. Şîfre, agahiyên dayîna pere an daneyên kesane yên nehewce nenivîse."
+        },
+        "tr": {
+          "purpose": "Contact Us destek mesajını doğrular ve bu cihazdaki IndexedDB'ye yerel taslak olarak kaydeder.",
+          "when": "Daha sonra incelemek üzere saklamak istediğiniz destek talebini girdikten sonra kullanın. Uygulamanın şu anda çevrimiçi destek bağlantısı yoktur; bu nedenle bu işlem talep göndermez.",
+          "how": "Geçerli bir e-posta adresi, konu ve mesaj girin. Ad alanı isteğe bağlıdır. İçeriği inceleyin ve Save Support Message seçeneğini belirleyin. Taslağın kaydedilip kaydedilmediğini durum metninden kontrol edin.",
+          "inputs": "Geçerli bir e-posta adresi, konu ve mesaj zorunludur. Ad isteğe bağlıdır.",
+          "result": "IndexedDB kaydı başarılı olursa mesaj bu cihazda pending-local-only durumuyla saklanır. Sayfa mesajın GÖNDERİLMEDİĞİNİ açıkça doğrular. Kayıt başarısız olursa hata gösterilir ve mesajın kaydedildiği onaylanmaz.",
+          "notes": "Bu işlem yerel bir taslak oluşturur; destek bileti veya geliştiriciye e-posta göndermez. Bu derlemede uygulamanın destek taleplerini gönderecek sunucu bağlantısı yoktur. Parola, ödeme kimlik bilgileri veya gereksiz kişisel bilgiler eklemeyin."
+        },
+        "pl": {
+          "purpose": "Weryfikuje wiadomość pomocy z formularza Contact Us i zapisuje ją jako lokalny szkic w IndexedDB na tym urządzeniu.",
+          "when": "Użyj tej opcji po wpisaniu prośby o pomoc, którą chcesz zachować do późniejszego przejrzenia. Aplikacja nie ma obecnie połączenia z pomocą online, więc ta czynność nie wysyła zgłoszenia.",
+          "how": "Wpisz prawidłowy adres e-mail, temat i treść wiadomości. Pole imienia jest opcjonalne. Sprawdź treść i wybierz Save Support Message. Sprawdź tekst statusu, aby potwierdzić, czy szkic został zapisany.",
+          "inputs": "Wymagane są prawidłowy adres e-mail, temat i wiadomość. Imię jest opcjonalne.",
+          "result": "Jeśli zapis w IndexedDB się powiedzie, wiadomość zostanie zapisana na tym urządzeniu ze statusem pending-local-only. Strona wyraźnie potwierdza, że wiadomość NIE została wysłana. W razie błędu wyświetlany jest komunikat i zapis nie zostaje potwierdzony.",
+          "notes": "Ta czynność tworzy lokalny szkic, a nie zgłoszenie do pomocy technicznej ani wiadomość e-mail do programisty. W tej kompilacji aplikacja nie ma połączenia z serwerem do wysyłania próśb o pomoc. Nie podawaj haseł, danych płatniczych ani zbędnych danych osobowych."
+        },
+        "ur": {
+          "purpose": "Contact Us سپورٹ پیغام کی جانچ کرتا ہے اور اسے اس ڈیوائس کے IndexedDB میں مقامی مسودے کے طور پر محفوظ کرتا ہے۔",
+          "when": "اسے اس وقت استعمال کریں جب آپ نے معاونت کی درخواست درج کر لی ہو اور اسے بعد میں دیکھنے کے لیے محفوظ رکھنا چاہتے ہوں۔ ایپ میں فی الحال آن لائن معاونت کا رابطہ موجود نہیں، اس لیے یہ کارروائی درخواست نہیں بھیجتی۔",
+          "how": "درست ای میل پتہ، موضوع اور پیغام درج کریں۔ نام کا خانہ اختیاری ہے۔ مواد کا جائزہ لیں اور Save Support Message منتخب کریں۔ مسودہ محفوظ ہونے کی تصدیق کے لیے حالت کا متن دیکھیں۔",
+          "inputs": "درست ای میل پتہ، موضوع اور پیغام ضروری ہیں۔ نام اختیاری ہے۔",
+          "result": "اگر IndexedDB میں محفوظ کرنا کامیاب ہو تو پیغام اسی ڈیوائس پر pending-local-only حالت کے ساتھ محفوظ ہوتا ہے۔ صفحہ واضح طور پر تصدیق کرتا ہے کہ پیغام بھیجا نہیں گیا۔ محفوظ کرنے میں ناکامی پر خرابی دکھائی جاتی ہے اور پیغام محفوظ ہونے کی تصدیق نہیں ہوتی۔",
+          "notes": "یہ کارروائی مقامی مسودہ بناتی ہے، معاونت کا ٹکٹ یا ڈویلپر کو ای میل نہیں بھیجتی۔ اس بلڈ میں معاونت کی درخواستیں بھیجنے کے لیے ایپ کا سرور سے رابطہ نہیں ہے۔ پاس ورڈ، ادائیگی کی اسناد یا غیر ضروری ذاتی معلومات شامل نہ کریں۔"
+        },
+        "pa": {
+          "purpose": "Contact Us ਸਹਾਇਤਾ ਸੁਨੇਹੇ ਦੀ ਜਾਂਚ ਕਰਦਾ ਹੈ ਅਤੇ ਇਸ ਡਿਵਾਈਸ ਦੇ IndexedDB ਵਿੱਚ ਸਥਾਨਕ ਖਰੜੇ ਵਜੋਂ ਸੇਵ ਕਰਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਉਸ ਵੇਲੇ ਕਰੋ ਜਦੋਂ ਤੁਸੀਂ ਸਹਾਇਤਾ ਦੀ ਬੇਨਤੀ ਲਿਖ ਲਈ ਹੋਵੇ ਅਤੇ ਬਾਅਦ ਵਿੱਚ ਵੇਖਣ ਲਈ ਸੰਭਾਲਣੀ ਹੋਵੇ। ਐਪ ਵਿੱਚ ਇਸ ਵੇਲੇ ਆਨਲਾਈਨ ਸਹਾਇਤਾ ਕਨੈਕਸ਼ਨ ਨਹੀਂ ਹੈ, ਇਸ ਲਈ ਇਹ ਕਾਰਵਾਈ ਬੇਨਤੀ ਨਹੀਂ ਭੇਜਦੀ।",
+          "how": "ਵੈਧ ਈਮੇਲ ਪਤਾ, ਵਿਸ਼ਾ ਅਤੇ ਸੁਨੇਹਾ ਦਰਜ ਕਰੋ। ਨਾਮ ਵਾਲਾ ਖੇਤਰ ਵਿਕਲਪਿਕ ਹੈ। ਸਮੱਗਰੀ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ Save Support Message ਚੁਣੋ। ਖਰੜਾ ਸੇਵ ਹੋਇਆ ਹੈ ਜਾਂ ਨਹੀਂ, ਇਹ ਜਾਣਨ ਲਈ ਸਥਿਤੀ ਵਾਲਾ ਸੁਨੇਹਾ ਵੇਖੋ।",
+          "inputs": "ਵੈਧ ਈਮੇਲ ਪਤਾ, ਵਿਸ਼ਾ ਅਤੇ ਸੁਨੇਹਾ ਲਾਜ਼ਮੀ ਹਨ। ਨਾਮ ਵਿਕਲਪਿਕ ਹੈ।",
+          "result": "ਜੇ IndexedDB ਵਿੱਚ ਸੇਵ ਕਰਨਾ ਸਫਲ ਹੋਵੇ ਤਾਂ ਸੁਨੇਹਾ ਇਸ ਡਿਵਾਈਸ 'ਤੇ pending-local-only ਸਥਿਤੀ ਨਾਲ ਸੰਭਾਲਿਆ ਜਾਂਦਾ ਹੈ। ਪੰਨਾ ਸਪਸ਼ਟ ਕਰਦਾ ਹੈ ਕਿ ਇਹ ਭੇਜਿਆ ਨਹੀਂ ਗਿਆ। ਸੇਵ ਕਰਨ ਵਿੱਚ ਅਸਫਲਤਾ ਹੋਵੇ ਤਾਂ ਗਲਤੀ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ ਅਤੇ ਸੁਨੇਹਾ ਸੇਵ ਹੋਣ ਦੀ ਪੁਸ਼ਟੀ ਨਹੀਂ ਹੁੰਦੀ।",
+          "notes": "ਇਹ ਕਾਰਵਾਈ ਸਥਾਨਕ ਖਰੜਾ ਬਣਾਉਂਦੀ ਹੈ, ਸਹਾਇਤਾ ਟਿਕਟ ਜਾਂ ਡਿਵੈਲਪਰ ਨੂੰ ਈਮੇਲ ਨਹੀਂ ਭੇਜਦੀ। ਇਸ ਬਿਲਡ ਵਿੱਚ ਸਹਾਇਤਾ ਬੇਨਤੀਆਂ ਭੇਜਣ ਲਈ ਐਪ ਦਾ ਸਰਵਰ ਕਨੈਕਸ਼ਨ ਨਹੀਂ ਹੈ। ਪਾਸਵਰਡ, ਭੁਗਤਾਨ ਜਾਣਕਾਰੀ ਜਾਂ ਗੈਰ-ਜ਼ਰੂਰੀ ਨਿੱਜੀ ਡਾਟਾ ਸ਼ਾਮਲ ਨਾ ਕਰੋ।"
+        },
+        "prs": {
+          "purpose": "پیام پشتیبانی فرم Contact Us را اعتبارسنجی می‌کند و آن را به‌صورت پیش‌نویس محلی در IndexedDB همین دستگاه ذخیره می‌کند.",
+          "when": "پس از واردکردن درخواست پشتیبانی که می‌خواهید برای بررسی بعدی نگه دارید، از این گزینه استفاده کنید. برنامه در حال حاضر اتصال پشتیبانی آنلاین ندارد؛ بنابراین این عملیات درخواست را ارسال نمی‌کند.",
+          "how": "نشانی ایمیل معتبر، موضوع و متن پیام را وارد کنید. فیلد نام اختیاری است. محتوا را بررسی و Save Support Message را انتخاب کنید. متن وضعیت را برای اطمینان از ذخیره پیش‌نویس بررسی کنید.",
+          "inputs": "نشانی ایمیل معتبر، موضوع و پیام الزامی هستند. نام اختیاری است.",
+          "result": "اگر ذخیره در IndexedDB موفق باشد، پیام با وضعیت pending-local-only روی همین دستگاه ذخیره می‌شود. صفحه صریحاً تأیید می‌کند که پیام ارسال نشده است. اگر ذخیره ناموفق باشد، خطا نمایش داده می‌شود و ذخیره‌شدن پیام تأیید نمی‌شود.",
+          "notes": "این عملیات یک پیش‌نویس محلی ایجاد می‌کند، نه تیکت پشتیبانی یا ایمیل برای توسعه‌دهنده. در این Build برنامه اتصال سروری برای ارسال درخواست‌های پشتیبانی ندارد. گذرواژه، اطلاعات پرداخت یا اطلاعات شخصی غیرضروری را وارد نکنید."
+        },
+        "ps": {
+          "purpose": "د Contact Us د ملاتړ پیغام تاییدوي او د همدې وسیلې په IndexedDB کې یې د ځايي مسودې په توګه خوندي کوي.",
+          "when": "دا هغه وخت وکاروئ چې د ملاتړ غوښتنه مو لیکلې وي او غواړئ وروسته یې د کتنې لپاره وساتئ. اپلېکېشن اوس د انلاین ملاتړ اړیکه نه لري؛ نو دا کړنه غوښتنه نه لېږي.",
+          "how": "سم برېښنالیک پته، موضوع او پیغام ولیکئ. د نوم خانه اختیاري ده. منځپانګه وګورئ او Save Support Message وټاکئ. د حالت متن وګورئ چې مسوده خوندي شوې که نه.",
+          "inputs": "سم برېښنالیک پته، موضوع او پیغام اړین دي. نوم اختیاري دی.",
+          "result": "که په IndexedDB کې خوندي کول بریالي شي، پیغام په همدې وسیله کې د pending-local-only حالت سره ساتل کېږي. پاڼه په څرګنده توګه تاییدوي چې پیغام نه دی لېږل شوی. که خوندي کول ناکام شي، تېروتنه ښکاري او د پیغام د خوندي کېدو تایید نه کېږي.",
+          "notes": "دا کړنه ځايي مسوده جوړوي، نه د ملاتړ ټکټ او نه پراختیاکوونکي ته برېښنالیک لېږي. په دې Build کې اپلېکېشن د ملاتړ غوښتنو د لېږلو لپاره له سرور سره اړیکه نه لري. پټنومونه، د پیسو د ورکړې اسناد یا غیرضروري شخصي معلومات مه شاملوئ."
         }
       },
       "handler_or_behavior": "`event/property listener`"
@@ -6698,6 +6842,78 @@
           "inputs": "ورودی لازم نیست.",
           "result": "فیلدهای نام، ایمیل، موضوع و پیام به مقادیر اولیه بازمی‌گردند و متن وضعیت به Form cleared تغییر می‌کند.",
           "notes": "این عمل فقط فرم فعلی را پاک می‌کند. پیش‌نویس‌های پشتیبانی که قبلاً در IndexedDB ذخیره شده‌اند حذف نمی‌شوند و هیچ پیامی ارسال یا لغو نمی‌شود. پیش از پاک‌کردن، متن ذخیره‌نشده موردنیاز را کپی کنید."
+        },
+        "ar": {
+          "purpose": "يمسح جميع المدخلات الحالية في نموذج Contact Us ويعيد تعيين رسالة الحالة الخاصة به.",
+          "when": "استخدم هذا عندما تريد التخلص من الرسالة التي تعدّها حالياً والبدء من جديد.",
+          "how": "اختر Clear Form. تتم إعادة تعيين النموذج وتعرض منطقة الحالة Form cleared.",
+          "inputs": "لا يلزم إدخال أي معلومات.",
+          "result": "تُعاد حقول الاسم والبريد الإلكتروني والموضوع والرسالة إلى قيمها الأولية، ويتغير نص الحالة إلى Form cleared.",
+          "notes": "يمسح هذا الإجراء النموذج الحالي فقط. ولا يحذف مسودات الدعم المحفوظة سابقاً في IndexedDB، ولا يرسل رسالة أو يسحبها. انسخ أي نص غير محفوظ تريد الاحتفاظ به قبل المسح."
+        },
+        "ckb": {
+          "purpose": "هەموو خانە پڕکراوە ئێستاکانی فۆڕمی Contact Us دەسڕێتەوە و پەیامی دۆخی فۆڕمەکەش دەگەڕێنێتەوە بۆ سەرەتا.",
+          "when": "کاتێک دەتەوێت پەیامی ئێستا ئامادەکراو فەرامۆش بکەیت و لە نوێوە دەست پێبکەیت، ئەمە بەکاربهێنە.",
+          "how": "Clear Form هەڵبژێرە. فۆڕمەکە Reset دەکرێتەوە و لە ناوچەی دۆخدا Form cleared پیشان دەدرێت.",
+          "inputs": "هیچ زانیارییەک پێویست نییە.",
+          "result": "خانەکانی ناو، ئیمەیڵ، بابەت و پەیام دەگەڕێنەوە بۆ بەها سەرەتاییەکانیان و دەقی دۆخ دەگۆڕێت بۆ Form cleared.",
+          "notes": "ئەم کردارە تەنها فۆڕمی ئێستا پاک دەکاتەوە. ڕەشنووسەکانی پشتگیری کە پێشتر لە IndexedDB پاشەکەوت کراون ناسڕێتەوە و هیچ پەیامێک نانێرێت یان هەڵیوەشێنێتەوە. پێش پاککردنەوە هەر دەقێکی پاشەکەوتنەکراو کە دەتەوێت بیپارێزیت کۆپی بکە."
+        },
+        "kmr": {
+          "purpose": "Hemû têketinên heyî yên forma Contact Us paqij dike û peyama rewşê ya wê ji nû ve saz dike.",
+          "when": "Vê bikar bîne dema ku dixwazî peyama ku niha amade dikî bavêjî û ji nû ve dest pê bikî.",
+          "how": "Clear Form hilbijêre. Form ji nû ve tê saz kirin û qada rewşê Form cleared nîşan dide.",
+          "inputs": "Tu têketin nehewce ye.",
+          "result": "Qadên nav, e-name, mijar û peyam vedigerin nirxên destpêkê, û nivîsa rewşê dibe Form cleared.",
+          "notes": "Ev kiryar tenê forma heyî paqij dike. Ew pêşnûmeyên piştgiriyê yên ku berê di IndexedDB de hatine hilanîn jê nake û peyamekê naşîne an betal nake. Berî paqijkirinê her nivîsa tomarnekirî ya ku dixwazî biparêzî kopî bike."
+        },
+        "tr": {
+          "purpose": "Contact Us formundaki mevcut tüm girişleri temizler ve durum mesajını sıfırlar.",
+          "when": "Hazırlamakta olduğunuz mesajı silip yeniden başlamak istediğinizde kullanın.",
+          "how": "Clear Form seçeneğini belirleyin. Form sıfırlanır ve durum alanında Form cleared görüntülenir.",
+          "inputs": "Giriş gerekmez.",
+          "result": "Ad, e-posta, konu ve mesaj alanları ilk değerlerine döner ve durum metni Form cleared olur.",
+          "notes": "Bu işlem yalnızca mevcut formu temizler. IndexedDB'ye daha önce kaydedilmiş destek taslaklarını silmez, mesaj göndermez veya geri çekmez. Temizlemeden önce saklamak istediğiniz kaydedilmemiş metni kopyalayın."
+        },
+        "pl": {
+          "purpose": "Czyści wszystkie bieżące pola formularza Contact Us i resetuje komunikat o stanie formularza.",
+          "when": "Użyj tej opcji, jeśli chcesz odrzucić przygotowywaną wiadomość i zacząć od nowa.",
+          "how": "Wybierz Clear Form. Formularz zostanie zresetowany, a w obszarze stanu pojawi się komunikat Form cleared.",
+          "inputs": "Nie są wymagane żadne dane wejściowe.",
+          "result": "Pola imienia, adresu e-mail, tematu i wiadomości wracają do wartości początkowych, a tekst statusu zmienia się na Form cleared.",
+          "notes": "Ta czynność czyści tylko bieżący formularz. Nie usuwa wcześniej zapisanych w IndexedDB szkiców pomocy technicznej ani nie wysyła lub wycofuje wiadomości. Przed wyczyszczeniem skopiuj niezapisany tekst, który chcesz zachować."
+        },
+        "ur": {
+          "purpose": "Contact Us فارم میں موجود تمام اندراجات صاف کرتا ہے اور اس کے حالت کے پیغام کو دوبارہ ترتیب دیتا ہے۔",
+          "when": "اسے اس وقت استعمال کریں جب آپ موجودہ تیار کردہ پیغام چھوڑ کر دوبارہ شروع کرنا چاہتے ہوں۔",
+          "how": "Clear Form منتخب کریں۔ فارم دوبارہ ترتیب دیا جاتا ہے اور حالت کے حصے میں Form cleared دکھائی دیتا ہے۔",
+          "inputs": "کسی معلومات کی ضرورت نہیں۔",
+          "result": "نام، ای میل، موضوع اور پیغام کے خانے اپنی ابتدائی قدروں پر واپس آ جاتے ہیں اور حالت کا متن Form cleared ہو جاتا ہے۔",
+          "notes": "یہ کارروائی صرف موجودہ فارم صاف کرتی ہے۔ یہ IndexedDB میں پہلے سے محفوظ معاونتی مسودے حذف نہیں کرتی اور نہ کوئی پیغام بھیجتی یا واپس لیتی ہے۔ صاف کرنے سے پہلے وہ غیر محفوظ متن نقل کر لیں جسے آپ رکھنا چاہتے ہیں۔"
+        },
+        "pa": {
+          "purpose": "Contact Us ਫਾਰਮ ਦੀਆਂ ਸਾਰੀਆਂ ਮੌਜੂਦਾ ਐਂਟਰੀਆਂ ਸਾਫ਼ ਕਰਦਾ ਹੈ ਅਤੇ ਇਸਦਾ ਸਥਿਤੀ ਸੁਨੇਹਾ ਮੁੜ ਸੈੱਟ ਕਰਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਤੁਸੀਂ ਤਿਆਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਸੁਨੇਹਾ ਛੱਡ ਕੇ ਮੁੜ ਸ਼ੁਰੂ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।",
+          "how": "Clear Form ਚੁਣੋ। ਫਾਰਮ ਮੁੜ ਸੈੱਟ ਹੋ ਜਾਂਦਾ ਹੈ ਅਤੇ ਸਥਿਤੀ ਵਾਲੇ ਖੇਤਰ ਵਿੱਚ Form cleared ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ।",
+          "inputs": "ਕੋਈ ਇਨਪੁੱਟ ਲੋੜੀਂਦਾ ਨਹੀਂ।",
+          "result": "ਨਾਮ, ਈਮੇਲ, ਵਿਸ਼ਾ ਅਤੇ ਸੁਨੇਹੇ ਦੇ ਖੇਤਰ ਆਪਣੀਆਂ ਸ਼ੁਰੂਆਤੀ ਕਦਰਾਂ 'ਤੇ ਵਾਪਸ ਆ ਜਾਂਦੇ ਹਨ ਅਤੇ ਸਥਿਤੀ ਲਿਖਤ Form cleared ਹੋ ਜਾਂਦੀ ਹੈ।",
+          "notes": "ਇਹ ਕਾਰਵਾਈ ਸਿਰਫ਼ ਮੌਜੂਦਾ ਫਾਰਮ ਸਾਫ਼ ਕਰਦੀ ਹੈ। ਇਹ IndexedDB ਵਿੱਚ ਪਹਿਲਾਂ ਸੇਵ ਕੀਤੇ ਸਹਾਇਤਾ ਖਰੜੇ ਨਹੀਂ ਮਿਟਾਉਂਦੀ ਅਤੇ ਨਾ ਕੋਈ ਸੁਨੇਹਾ ਭੇਜਦੀ ਜਾਂ ਵਾਪਸ ਲੈਂਦੀ ਹੈ। ਸਾਫ਼ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਉਹ ਨਾ-ਸੇਵ ਕੀਤੀ ਲਿਖਤ ਕਾਪੀ ਕਰੋ ਜਿਸਨੂੰ ਤੁਸੀਂ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ।"
+        },
+        "prs": {
+          "purpose": "تمام ورودی‌های فعلی فرم Contact Us را پاک می‌کند و پیام وضعیت آن را به حالت اولیه برمی‌گرداند.",
+          "when": "وقتی می‌خواهید پیام در حال آماده‌سازی را کنار بگذارید و از ابتدا شروع کنید، از این گزینه استفاده کنید.",
+          "how": "Clear Form را انتخاب کنید. فرم بازنشانی می‌شود و در بخش وضعیت عبارت Form cleared نمایش داده می‌شود.",
+          "inputs": "ورودی لازم نیست.",
+          "result": "فیلدهای نام، ایمیل، موضوع و پیام به مقادیر اولیه بازمی‌گردند و متن وضعیت به Form cleared تغییر می‌کند.",
+          "notes": "این عملیات فقط فرم فعلی را پاک می‌کند. پیش‌نویس‌های پشتیبانی ذخیره‌شده قبلی در IndexedDB را حذف نمی‌کند و هیچ پیامی را ارسال یا پس نمی‌گیرد. پیش از پاک‌کردن، متن ذخیره‌نشده‌ای را که می‌خواهید نگه دارید کپی کنید."
+        },
+        "ps": {
+          "purpose": "د Contact Us فورم ټول اوسني داخل شوي معلومات پاکوي او د حالت پیغام یې بېرته لومړني حالت ته اړوي.",
+          "when": "دا هغه وخت وکاروئ چې غواړئ اوسنی چمتو کېدونکی پیغام پرېږدئ او له سره پیل وکړئ.",
+          "how": "Clear Form وټاکئ. فورم بیا تنظیمېږي او د حالت په برخه کې Form cleared ښکاري.",
+          "inputs": "هېڅ معلوماتو ته اړتیا نشته.",
+          "result": "د نوم، برېښنالیک، موضوع او پیغام خانې خپلو لومړنیو ارزښتونو ته ستنېږي او د حالت متن Form cleared ته بدلېږي.",
+          "notes": "دا کړنه یوازې اوسنی فورم پاکوي. په IndexedDB کې مخکې خوندي شوې د ملاتړ مسودې نه ړنګوي او نه پیغام لېږي یا بېرته اخلي. له پاکولو مخکې هغه نه خوندي شوی متن کاپي کړئ چې ساتل یې غواړئ."
         }
       },
       "handler_or_behavior": "`resetHelpContactForm()`"
@@ -6724,6 +6940,78 @@
           "inputs": "از طریق دکمه غیرفعال ورودی‌ای ارسال نمی‌شود. بررسی موردنظر صفحه، در صورت فعال‌شدن در Build آینده، به اتصال اینترنت نیاز خواهد داشت.",
           "result": "در Build بررسی‌شده R43 هیچ بررسی به‌روزرسانی آغاز نمی‌شود و اطلاعات نسخه موجود دریافت نمی‌شود.",
           "notes": "این محدودیت مربوط به نسخه آزمایشی است و نشان نمی‌دهد که آیا نسخه جدیدتری در GitHub Pages وجود دارد یا خیر. اطلاعات انتشار و Deploy را جداگانه بررسی کنید؛ صرفاً از روی عنوان دکمه نتیجه نگیرید که بررسی انجام شده است."
+        },
+        "ar": {
+          "purpose": "يظهر زر Check for Updates، لكنه معطل في إصدار الاختبار R43 الذي تمت مراجعته.",
+          "when": "لا تستخدم عنصر التحكم هذا للتحقق من وجود إصدار جديد في R43. توضح الصفحة نفسها أن تحديثات البرنامج معطلة في إصدار الاختبار هذا.",
+          "how": "الزر معطل بشكل ظاهر ولا ينفذ أي إجراء نشط للتحقق من التحديثات. اقرأ رسالة الحالة على الشاشة؛ ولا تتوقع فحصاً عبر الشبكة أو استعلاماً عن إصدار من خلال هذا العنصر.",
+          "inputs": "لا يمكن إرسال أي إدخال عبر الزر المعطل. وسيتطلب فحص التحديث المقصود اتصالاً بالإنترنت عند إعادة تفعيله في إصدار مستقبلي.",
+          "result": "لا يبدأ أي فحص للتحديثات ولا يتم استرجاع نتيجة إصدار متاح في إصدار R43 الذي تمت مراجعته.",
+          "notes": "هذا قيد في إصدار الاختبار. ولا يحدد ما إذا كان إصدار أحدث موجوداً على GitHub Pages. تحقق من معلومات الإصدار والنشر بشكل منفصل؛ ولا تستنتج إجراء الفحص من تسمية الزر."
+        },
+        "ckb": {
+          "purpose": "دوگمەی Check for Updates پیشان دەدرێت، بەڵام لە Buildی تاقیکردنەوەی R43ی پشکنراودا ناچالاکە.",
+          "when": "لە R43دا ئەم کۆنترۆڵە بۆ پشکنینی بڵاوکردنەوەی وەشانێکی نوێ بەکارمەهێنە. خودی پەڕەکە دەڵێت نوێکردنەوەی نەرمەکاڵا لەم Buildە تاقیکردنەوەیەدا ناچالاکە.",
+          "how": "دوگمەکە بە شێوەیەکی دیار ناچالاکە و هیچ کردارێکی چالاکی پشکنینی نوێکردنەوەی نییە. پەیامی دۆخی سەر شاشە بخوێنەوە؛ چاوەڕێی پشکنینی تۆڕ یان گەڕان بەدوای وەشانێک لەم کۆنترۆڵە مەکە.",
+          "inputs": "هیچ زانیارییەک لە ڕێگەی دوگمە ناچالاکەوە نانێردرێت. پشکنینی مەبەستی نوێکردنەوە ئەگەر لە Buildێکی داهاتوودا چالاک بکرێتەوە، پێویستی بە پەیوەندی ئینتەرنێت دەبێت.",
+          "result": "هیچ پشکنینێکی نوێکردنەوە دەست پێ ناکات و لە Buildی R43ی پشکنراودا ئەنجامی وەشانی بەردەست وەرناگیرێت.",
+          "notes": "ئەمە سنوورداری Buildی تاقیکردنەوەیە. دیاری ناکات کە ئایا وەشانێکی نوێتر لە GitHub Pages هەیە یان نا. زانیارییەکانی بڵاوکردنەوە و Deploy بە جیا بپشکنە؛ لە ناوی دوگمەکەوە ئەنجام مەگرە کە پشکنین کراوە."
+        },
+        "kmr": {
+          "purpose": "Bişkoka Check for Updates tê nîşandan, lê di build-a ceribandinê ya R43 ya hatî kontrolkirin de neçalak e.",
+          "when": "Di R43 de vê kontrolê ji bo kontrolkirina weşaneke nû bikar neyne. Rûpel bixwe dibêje ku nûkirinên nermalavê di vê build-a ceribandinê de neçalak in.",
+          "how": "Bişkok bi eşkere neçalak e û tu çalakiya çalak a kontrolkirina nûkirinê nîne. Peyama rewşê ya li ser ekranê bixwîne; ji vê kontrolê li benda kontrola torê an lêgerîna guhertoyê nebe.",
+          "inputs": "Bi riya bişkoka neçalak tu têketin nayê şandin. Kontrola nûkirina armancî dema ku di build-eke paşerojê de ji nû ve were çalakkirin dê pêdiviya wê bi girêdana înternetê hebe.",
+          "result": "Di build-a R43 ya hatî kontrolkirin de tu kontrola nûkirinê dest pê nake û encameke guhertoya berdest nayê wergirtin.",
+          "notes": "Ev sînorkirina build-a ceribandinê ye. Ew nîşan nade ka guhertoyeke nûtir li ser GitHub Pages heye an na. Agahiyên weşan û deploy-ê bi awayekî cuda kontrol bike; ji sernavê bişkokê texmîn neke ku kontrol pêk hatiye."
+        },
+        "tr": {
+          "purpose": "Check for Updates düğmesi görüntülenir, ancak incelenen R43 test derlemesinde devre dışıdır.",
+          "when": "R43'te yeni bir sürüm olup olmadığını kontrol etmek için bu denetimi kullanmayın. Sayfanın kendisi, bu test derlemesinde yazılım güncellemelerinin devre dışı olduğunu belirtir.",
+          "how": "Düğme görünür biçimde devre dışıdır ve etkin bir güncelleme kontrolü işlemi yoktur. Ekrandaki durum mesajını okuyun; bu denetimden ağ kontrolü veya sürüm sorgusu beklemeyin.",
+          "inputs": "Devre dışı düğme üzerinden herhangi bir girdi gönderilemez. Amaçlanan güncelleme kontrolü gelecekteki bir derlemede yeniden etkinleştirilirse internet erişimi gerektirir.",
+          "result": "İncelenen R43 derlemesinde güncelleme kontrolü başlatılmaz ve kullanılabilir sürüm sonucu alınmaz.",
+          "notes": "Bu bir test derlemesi sınırlamasıdır. GitHub Pages üzerinde daha yeni bir derleme olup olmadığını göstermez. Sürüm ve dağıtım bilgilerini ayrıca doğrulayın; yalnızca düğme etiketine bakarak kontrol yapıldığını varsaymayın."
+        },
+        "pl": {
+          "purpose": "Przycisk Check for Updates jest widoczny, ale w sprawdzonej testowej kompilacji R43 jest nieaktywny.",
+          "when": "Nie używaj tego elementu sterującego do sprawdzania dostępności nowego wydania w R43. Sama strona informuje, że aktualizacje oprogramowania są wyłączone w tej kompilacji testowej.",
+          "how": "Przycisk jest wyraźnie nieaktywny i nie wykonuje żadnej czynności sprawdzania aktualizacji. Przeczytaj komunikat o stanie na ekranie; nie oczekuj sprawdzania sieci ani wyszukiwania wersji za pomocą tego elementu.",
+          "inputs": "Nie można przesłać żadnych danych przez nieaktywny przycisk. Planowane sprawdzanie aktualizacji będzie wymagało dostępu do Internetu, jeśli zostanie ponownie włączone w przyszłej kompilacji.",
+          "result": "W sprawdzonej kompilacji R43 sprawdzanie aktualizacji nie rozpoczyna się i nie jest pobierana informacja o dostępnej wersji.",
+          "notes": "To ograniczenie kompilacji testowej. Nie informuje, czy w GitHub Pages istnieje nowsza kompilacja. Sprawdź osobno informacje o wydaniu i wdrożeniu; nie wnioskuj o wykonaniu sprawdzenia na podstawie etykiety przycisku."
+        },
+        "ur": {
+          "purpose": "Check for Updates کا بٹن دکھایا جاتا ہے، لیکن جانچے گئے R43 ٹیسٹ بلڈ میں یہ غیر فعال ہے۔",
+          "when": "R43 میں نیا ریلیز چیک کرنے کے لیے اس کنٹرول کو استعمال نہ کریں۔ صفحہ خود بتاتا ہے کہ اس ٹیسٹ بلڈ میں سافٹ ویئر اپ ڈیٹس غیر فعال ہیں۔",
+          "how": "بٹن واضح طور پر غیر فعال ہے اور اپ ڈیٹ چیک کرنے کا کوئی فعال عمل نہیں کرتا۔ اسکرین پر حالت کا پیغام پڑھیں؛ اس کنٹرول سے نیٹ ورک چیک یا ورژن تلاش ہونے کی توقع نہ کریں۔",
+          "inputs": "غیر فعال بٹن کے ذریعے کوئی معلومات جمع نہیں کی جا سکتی۔ مستقبل کے بلڈ میں دوبارہ فعال ہونے پر مطلوبہ اپ ڈیٹ چیک کے لیے انٹرنیٹ درکار ہوگا۔",
+          "result": "جانچے گئے R43 بلڈ میں اپ ڈیٹ چیک شروع نہیں ہوتا اور دستیاب ورژن کا نتیجہ حاصل نہیں ہوتا۔",
+          "notes": "یہ ٹیسٹ بلڈ کی پابندی ہے۔ اس سے یہ معلوم نہیں ہوتا کہ GitHub Pages پر کوئی نیا بلڈ موجود ہے یا نہیں۔ ریلیز اور تعیناتی کی معلومات الگ سے چیک کریں؛ صرف بٹن کے نام سے یہ نتیجہ نہ نکالیں کہ چیک ہو گیا ہے۔"
+        },
+        "pa": {
+          "purpose": "Check for Updates ਬਟਨ ਦਿਖਾਇਆ ਜਾਂਦਾ ਹੈ, ਪਰ ਜਾਂਚੇ R43 ਟੈਸਟ ਬਿਲਡ ਵਿੱਚ ਇਹ ਬੰਦ ਹੈ।",
+          "when": "R43 ਵਿੱਚ ਨਵੀਂ ਰਿਲੀਜ਼ ਦੀ ਜਾਂਚ ਲਈ ਇਸ ਕੰਟਰੋਲ ਦੀ ਵਰਤੋਂ ਨਾ ਕਰੋ। ਪੰਨਾ ਖੁਦ ਦੱਸਦਾ ਹੈ ਕਿ ਇਸ ਟੈਸਟ ਬਿਲਡ ਵਿੱਚ ਸਾਫਟਵੇਅਰ ਅੱਪਡੇਟ ਬੰਦ ਹਨ।",
+          "how": "ਬਟਨ ਸਪਸ਼ਟ ਤੌਰ 'ਤੇ ਬੰਦ ਹੈ ਅਤੇ ਅੱਪਡੇਟ ਜਾਂਚਣ ਦੀ ਕੋਈ ਸਰਗਰਮ ਕਾਰਵਾਈ ਨਹੀਂ ਕਰਦਾ। ਸਕ੍ਰੀਨ 'ਤੇ ਸਥਿਤੀ ਸੁਨੇਹਾ ਪੜ੍ਹੋ; ਇਸ ਕੰਟਰੋਲ ਤੋਂ ਨੈੱਟਵਰਕ ਜਾਂਚ ਜਾਂ ਵਰਜਨ ਖੋਜ ਦੀ ਉਮੀਦ ਨਾ ਕਰੋ।",
+          "inputs": "ਬੰਦ ਬਟਨ ਰਾਹੀਂ ਕੋਈ ਇਨਪੁੱਟ ਭੇਜਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ। ਭਵਿੱਖ ਦੇ ਬਿਲਡ ਵਿੱਚ ਮੁੜ ਚਾਲੂ ਹੋਣ 'ਤੇ ਅੱਪਡੇਟ ਜਾਂਚ ਲਈ ਇੰਟਰਨੈੱਟ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।",
+          "result": "ਜਾਂਚੇ R43 ਬਿਲਡ ਵਿੱਚ ਕੋਈ ਅੱਪਡੇਟ ਜਾਂਚ ਸ਼ੁਰੂ ਨਹੀਂ ਹੁੰਦੀ ਅਤੇ ਉਪਲਬਧ ਵਰਜਨ ਦਾ ਨਤੀਜਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਹੁੰਦਾ।",
+          "notes": "ਇਹ ਟੈਸਟ ਬਿਲਡ ਦੀ ਸੀਮਾ ਹੈ। ਇਹ ਨਹੀਂ ਦੱਸਦੀ ਕਿ GitHub Pages 'ਤੇ ਨਵਾਂ ਬਿਲਡ ਮੌਜੂਦ ਹੈ ਜਾਂ ਨਹੀਂ। ਰਿਲੀਜ਼ ਅਤੇ ਡਿਪਲੌਇਮੈਂਟ ਦੀ ਜਾਣਕਾਰੀ ਵੱਖਰੇ ਤੌਰ 'ਤੇ ਜਾਂਚੋ; ਬਟਨ ਦੇ ਲੇਬਲ ਤੋਂ ਇਹ ਨਾ ਮੰਨੋ ਕਿ ਜਾਂਚ ਹੋ ਗਈ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "دکمه Check for Updates نمایش داده می‌شود، اما در Build آزمایشی R43 بررسی‌شده غیرفعال است.",
+          "when": "در R43 از این کنترل برای بررسی انتشار نسخه جدید استفاده نکنید. خود صفحه اعلام می‌کند که به‌روزرسانی نرم‌افزار در این Build آزمایشی غیرفعال است.",
+          "how": "دکمه به‌وضوح غیرفعال است و عملیات فعالی برای بررسی به‌روزرسانی ندارد. پیام وضعیت روی صفحه را بخوانید؛ از این کنترل انتظار بررسی شبکه یا جست‌وجوی نسخه نداشته باشید.",
+          "inputs": "از طریق دکمه غیرفعال ورودی‌ای ارسال نمی‌شود. بررسی موردنظر به‌روزرسانی، در صورت فعال‌شدن مجدد در Build آینده، به اینترنت نیاز خواهد داشت.",
+          "result": "در Build بررسی‌شده R43 هیچ بررسی به‌روزرسانی آغاز نمی‌شود و نتیجه‌ای درباره نسخه موجود دریافت نمی‌شود.",
+          "notes": "این محدودیت مربوط به Build آزمایشی است و مشخص نمی‌کند که آیا نسخه جدیدتری در GitHub Pages وجود دارد یا خیر. اطلاعات انتشار و Deploy را جداگانه بررسی کنید؛ صرفاً از روی عنوان دکمه نتیجه نگیرید که بررسی انجام شده است."
+        },
+        "ps": {
+          "purpose": "د Check for Updates تڼۍ ښکاري، خو په ارزول شوي R43 ازمایښتي Build کې بنده ده.",
+          "when": "په R43 کې د نوې خپرونې د کتلو لپاره دا کنټرول مه کاروئ. خپله پاڼه وايي چې په دې ازمایښتي Build کې د سافټویر تازه کول بند دي.",
+          "how": "تڼۍ په څرګنده توګه بنده ده او د تازه کولو د کتلو فعاله کړنه نه لري. د پردې د حالت پیغام ولولئ؛ له دې کنټرول څخه د شبکې کتنې یا د نسخې د لټون تمه مه کوئ.",
+          "inputs": "د بندې تڼۍ له لارې هېڅ معلومات نه شي لېږل کېدای. د تازه کولو ټاکل شوې کتنه به هغه وخت انټرنېټ ته اړتیا ولري چې په راتلونکي Build کې بیا فعاله شي.",
+          "result": "په ارزول شوي R43 Build کې د تازه کولو هېڅ کتنه نه پیلېږي او د شته نسخې پایله نه ترلاسه کېږي.",
+          "notes": "دا د ازمایښتي Build محدودیت دی. دا نه ښيي چې ایا په GitHub Pages کې نوې نسخه شته که نه. د خپرونې او Deploy معلومات جلا وڅېړئ؛ یوازې د تڼۍ له نوم څخه دا مه انګېرئ چې کتنه شوې ده."
         }
       },
       "handler_or_behavior": "`event/property listener`"
