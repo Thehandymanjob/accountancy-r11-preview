@@ -96,7 +96,7 @@
     ['THA-HLP-0022', '#home .actions.no-print > button[onclick="setPeriod()"]'],
     ['THA-HLP-0027', '#entry .actions > button[onclick="resetEntry()"]'],
     ['THA-HLP-0039', '#report .actions > button[onclick="printReport()"]'],
-    ['THA-HLP-0063', '#settings .factory-reset-button[onclick="openFactoryReset()"]'],
+    ['THA-HLP-0063', '#factoryResetPage .factory-reset-button[onclick="openFactoryReset()"]'],
     ['THA-HLP-0074', '.pr-sidebar > button[data-pr-nav="workspace"]'],
     ['THA-HLP-0076', '.pr-sidebar > button[data-pr-nav="company-hub"]'],
     ['THA-HLP-0078', '.pr-sidebar > button[data-pr-nav="project-hub"]'],
