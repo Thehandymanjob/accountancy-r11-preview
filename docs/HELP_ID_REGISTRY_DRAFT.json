@@ -21542,6 +21542,78 @@
           "inputs": "گزارش ذخیره‌شده موردنظر را از بایگانی انتخاب کنید. ورودی دیگری لازم نیست.",
           "result": "تصویر ذخیره‌شده گزارش در نمایشگر باز می‌شود. اگر اعلان مرتبط با آماده‌شدن گزارش وجود داشته باشد، بازکردن گزارش آن اعلان را نیز خوانده‌شده علامت می‌زند.",
           "notes": "گزارش بایگانی‌شده تصویری از زمان ذخیره آن است و ممکن است تغییرات بعدی تراکنش‌ها را نشان ندهد. برای ارقام فعلی، گزارش تازه تولید کنید."
+        },
+        "ar": {
+          "purpose": "يفتح لقطة تقرير محفوظة في عارض التقارير.",
+          "when": "استخدمه لمراجعة لقطة سبق حفظها في أرشيف Reports & Tax.",
+          "how": "اختر Open saved report بجانب عنصر الأرشيف المطلوب، ثم راجع الفترة والتاريخ والحالة في العارض.",
+          "inputs": "اختر التقرير المحفوظ المطلوب من الأرشيف. لا يلزم إدخال إضافي.",
+          "result": "تظهر لقطة التقرير المحفوظة. وإذا وُجد إشعار جاهزية مرتبط، فإن فتح التقرير يعلّمه بأنه مقروء.",
+          "notes": "التقرير المؤرشف لقطة من وقت حفظه وقد لا يعكس تغييرات المعاملات اللاحقة. أنشئ تقريراً جديداً للحصول على الأرقام الحالية."
+        },
+        "ckb": {
+          "purpose": "Snapshotێکی پاشەکەوتکراوی ڕاپۆرت لە پیشاندەری ڕاپۆرت دەکاتەوە.",
+          "when": "بۆ پێداچوونەوە بە Snapshotێک کە پێشتر لە ئەرشیفی Reports & Tax پاشەکەوت کراوە، بەکاری بهێنە.",
+          "how": "لە تەنیشت تۆماری ئەرشیفی مەبەست Open saved report هەڵبژێرە؛ پاشان ماوە، بەروار و دۆخەکە لە پیشاندەر بپشکنە.",
+          "inputs": "ڕاپۆرتی پاشەکەوتکراوی مەبەست لە ئەرشیف هەڵبژێرە. داخڵکردنی زیادە پێویست نییە.",
+          "result": "Snapshotی ڕاپۆرتەکە پیشان دەدرێت. ئەگەر ئاگادارییەکی پەیوەندیدار هەبێت، کردنەوەی ڕاپۆرت ئەو ئاگادارییە وەک خوێندراوە نیشان دەدات.",
+          "notes": "ڕاپۆرتی ئەرشیفکراو Snapshotێکە لە کاتی پاشەکەوتکردن و لەوانەیە گۆڕانکارییەکانی دواتری مامەڵەکان پیشان نەدات. بۆ ژمارەی ئێستا ڕاپۆرتێکی نوێ دروست بکە."
+        },
+        "kmr": {
+          "purpose": "Snapshoteke raporê ya hilanbar di dîtînerê raporê de vedike.",
+          "when": "Vê bikar bîne ji bo nirxandina snapshoteke ku berê di arşîva Reports & Tax de hatiye hilanîn.",
+          "how": "Li kêleka tomarê arşîva ku dixwazî Open saved report hilbijêre; paşê dem, dîrok û rewşê di dîtînerê de kontrol bike.",
+          "inputs": "Raporeke hilanbar a rast ji arşîvê hilbijêre. Têketina din nehewce ye.",
+          "result": "Snapshot-a raporê tê nîşandan. Heke agahdariyeke têkildar hebe, vekirina raporê wê wekî xwendî nîşan dide.",
+          "notes": "Raporeke arşîvkirî snapshoteke dema hilanînê ye û dibe ku guhertinên paşerojê yên danûstandinan nîşan nede. Ji bo hejmarên niha raporeke nû çêke."
+        },
+        "tr": {
+          "purpose": "Kaydedilmiş bir rapor anlık görüntüsünü rapor görüntüleyicide açar.",
+          "when": "Reports & Tax arşivine daha önce kaydedilmiş bir anlık görüntüyü incelemek için kullanın.",
+          "how": "İstenen arşiv kaydının yanındaki Open saved report seçeneğini belirleyin; görüntüleyicide kayıtlı dönemi, tarihi ve durumu inceleyin.",
+          "inputs": "Arşivden istenen kayıtlı raporu seçin. Ek girdi gerekmez.",
+          "result": "Kaydedilmiş rapor anlık görüntüsü açılır. İlgili bir rapor hazır bildirimi varsa raporu açmak bu bildirimi okundu olarak işaretler.",
+          "notes": "Arşivlenmiş rapor kaydedildiği andaki görüntüdür ve sonraki işlem değişikliklerini yansıtmayabilir. Güncel rakamlar için yeni rapor oluşturun."
+        },
+        "pl": {
+          "purpose": "Otwiera zapisaną migawkę raportu w przeglądarce raportów.",
+          "when": "Użyj tej opcji, aby przejrzeć migawkę zapisaną wcześniej w archiwum Reports & Tax.",
+          "how": "Wybierz Open saved report obok odpowiedniego wpisu archiwum, a następnie sprawdź okres, datę i status w przeglądarce.",
+          "inputs": "Wybierz odpowiedni zapisany raport z archiwum. Nie są wymagane dodatkowe dane.",
+          "result": "Zapisana migawka raportu zostaje wyświetlona. Jeśli istnieje powiązane powiadomienie o gotowości raportu, otwarcie oznacza je jako przeczytane.",
+          "notes": "Zarchiwizowany raport jest migawką z chwili zapisu i może nie uwzględniać późniejszych zmian transakcji. Aby uzyskać aktualne wartości, wygeneruj nowy raport."
+        },
+        "ur": {
+          "purpose": "محفوظ شدہ رپورٹ اسنیپ شاٹ کو رپورٹ ویوئر میں کھولتا ہے۔",
+          "when": "Reports & Tax آرکائیو میں پہلے سے محفوظ رپورٹ اسنیپ شاٹ کا جائزہ لینے کے لیے استعمال کریں۔",
+          "how": "مطلوبہ آرکائیو اندراج کے ساتھ Open saved report منتخب کریں، پھر ویوئر میں محفوظ مدت، تاریخ اور حالت دیکھیں۔",
+          "inputs": "آرکائیو سے مطلوبہ محفوظ رپورٹ منتخب کریں۔ اضافی معلومات درکار نہیں۔",
+          "result": "محفوظ رپورٹ اسنیپ شاٹ دکھایا جاتا ہے۔ اگر رپورٹ تیار ہونے کی متعلقہ اطلاع موجود ہو تو اسے کھولنے سے اطلاع پڑھی ہوئی نشان زد ہو جاتی ہے۔",
+          "notes": "آرکائیو رپورٹ محفوظ کیے جانے کے وقت کا اسنیپ شاٹ ہے اور بعد کی لین دین تبدیلیاں ظاہر نہیں کر سکتا۔ موجودہ اعداد کے لیے نئی رپورٹ بنائیں۔"
+        },
+        "pa": {
+          "purpose": "ਸੰਭਾਲੇ ਰਿਪੋਰਟ ਸਨੈਪਸ਼ਾਟ ਨੂੰ ਰਿਪੋਰਟ ਵਿਊਅਰ ਵਿੱਚ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "Reports & Tax ਆਰਕਾਈਵ ਵਿੱਚ ਪਹਿਲਾਂ ਸੰਭਾਲੇ ਸਨੈਪਸ਼ਾਟ ਦੀ ਸਮੀਖਿਆ ਕਰਨ ਲਈ ਵਰਤੋ।",
+          "how": "ਚੁਣੀ ਆਰਕਾਈਵ ਐਂਟਰੀ ਦੇ ਨਾਲ Open saved report ਚੁਣੋ ਅਤੇ ਵਿਊਅਰ ਵਿੱਚ ਸੰਭਾਲੀ ਮਿਆਦ, ਮਿਤੀ ਤੇ ਸਥਿਤੀ ਵੇਖੋ।",
+          "inputs": "ਆਰਕਾਈਵ ਵਿੱਚੋਂ ਲੋੜੀਂਦੀ ਸੰਭਾਲੀ ਰਿਪੋਰਟ ਚੁਣੋ। ਵਾਧੂ ਇਨਪੁੱਟ ਦੀ ਲੋੜ ਨਹੀਂ।",
+          "result": "ਸੰਭਾਲਿਆ ਰਿਪੋਰਟ ਸਨੈਪਸ਼ਾਟ ਦਿਖਾਇਆ ਜਾਂਦਾ ਹੈ। ਸੰਬੰਧਿਤ ਰਿਪੋਰਟ-ਤਿਆਰ ਸੂਚਨਾ ਹੋਵੇ ਤਾਂ ਖੋਲ੍ਹਣ ਨਾਲ ਉਹ ਪੜ੍ਹੀ ਹੋਈ ਨਿਸ਼ਾਨਿਤ ਹੁੰਦੀ ਹੈ।",
+          "notes": "ਆਰਕਾਈਵ ਰਿਪੋਰਟ ਸੰਭਾਲਣ ਸਮੇਂ ਦਾ ਸਨੈਪਸ਼ਾਟ ਹੈ ਅਤੇ ਬਾਅਦ ਦੀਆਂ ਲੈਣ-ਦੇਣ ਤਬਦੀਲੀਆਂ ਨਹੀਂ ਦਿਖਾ ਸਕਦਾ। ਮੌਜੂਦਾ ਅੰਕੜਿਆਂ ਲਈ ਨਵੀਂ ਰਿਪੋਰਟ ਬਣਾਓ।"
+        },
+        "prs": {
+          "purpose": "یک Snapshot ذخیره‌شده گزارش را در نمایشگر گزارش باز می‌کند.",
+          "when": "برای بررسی Snapshot گزارشی که قبلاً در بایگانی Reports & Tax ذخیره شده، از این گزینه استفاده کنید.",
+          "how": "در کنار مورد بایگانی موردنظر Open saved report را انتخاب کنید و دوره، تاریخ و وضعیت ذخیره‌شده را در نمایشگر بررسی کنید.",
+          "inputs": "گزارش ذخیره‌شده موردنظر را از بایگانی انتخاب کنید. ورودی دیگری لازم نیست.",
+          "result": "Snapshot گزارش نمایش داده می‌شود. اگر اعلان مرتبط با آماده‌شدن گزارش وجود داشته باشد، بازکردن گزارش آن را خوانده‌شده علامت می‌زند.",
+          "notes": "گزارش بایگانی‌شده تصویری از زمان ذخیره آن است و ممکن است تغییرات بعدی تراکنش‌ها را منعکس نکند. برای ارقام فعلی گزارش تازه‌ای تولید کنید."
+        },
+        "ps": {
+          "purpose": "د راپور خوندي شوی Snapshot د راپور په لیدونکي کې پرانیزي.",
+          "when": "دا د Reports & Tax په آرشیف کې د مخکې خوندي شوي Snapshot د بیاکتنې لپاره وکاروئ.",
+          "how": "د اړوند آرشیفي ثبت ترڅنګ Open saved report وټاکئ، بیا په لیدونکي کې خوندي شوې موده، نېټه او حالت وګورئ.",
+          "inputs": "له آرشیف څخه مطلوب خوندي شوی راپور وټاکئ. اضافي معلوماتو ته اړتیا نشته.",
+          "result": "د راپور خوندي شوی Snapshot ښکاره کېږي. که د راپور د چمتووالي اړوند خبرتیا وي، د راپور پرانیستل هغه د لوستل شوې په توګه نښه کوي.",
+          "notes": "آرشیف شوی راپور د خوندي کولو د وخت Snapshot دی او ښايي د راکړې ورکړې وروستي بدلونونه ونه ښيي. د اوسنیو شمېرو لپاره نوی راپور جوړ کړئ."
         }
       },
       "handler_or_behavior": "`report188Open(`"
@@ -21568,6 +21640,78 @@
           "inputs": "گزارش ذخیره‌شده باید در نمایشگر گزارش باز باشد. پیش از چاپ، دوره و وضعیت آن را تأیید کنید.",
           "result": "برنامه تصویر ذخیره‌شده را برای چاپ آماده می‌کند و پنجره چاپ مرورگر را باز می‌کند. چاپگر یا Save as PDF را انتخاب کنید.",
           "notes": "محتوای چاپ‌شده همان تصویر بایگانی‌شده است و محاسبه زنده و دوباره انجام نمی‌شود. پیش از اشتراک‌گذاری یا بایگانی PDF، دوره و ارقام گزارش را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يطبع لقطة تقرير محفوظة أو يحفظها كملف PDF.",
+          "when": "استخدمه عندما تحتاج إلى نسخة ورقية أو PDF من لقطة تقرير محفوظة.",
+          "how": "افتح التقرير المطلوب واختر Print / Save PDF. راجع مربع طباعة المتصفح، ثم اطبع أو اختر Save as PDF.",
+          "inputs": "يجب أن يكون التقرير المحفوظ مفتوحاً في عارض التقارير. تحقق من الفترة والحالة قبل الطباعة.",
+          "result": "يجهز التطبيق اللقطة للطباعة ويفتح مربع طباعة المتصفح. اختر طابعة أو Save as PDF.",
+          "notes": "المحتوى المطبوع هو اللقطة المؤرشفة وليس إعادة حساب مباشرة. تحقق من الفترة والأرقام قبل مشاركة PDF أو أرشفته."
+        },
+        "ckb": {
+          "purpose": "Snapshotێکی پاشەکەوتکراوی ڕاپۆرت چاپ دەکات یان وەک PDF پاشەکەوتی دەکات.",
+          "when": "کاتێک کۆپییەکی کاغەزی یان PDFی Snapshotێکی ڕاپۆرتت پێویستە، بەکاری بهێنە.",
+          "how": "ڕاپۆرتی مەبەست بکەرەوە و Print / Save PDF هەڵبژێرە. پەنجەرەی چاپی وێبگەڕ بپشکنە، پاشان چاپ بکە یان Save as PDF هەڵبژێرە.",
+          "inputs": "ڕاپۆرتی پاشەکەوتکراو دەبێت لە پیشاندەری ڕاپۆرتدا کرابێتەوە. پێش چاپکردن ماوە و دۆخی بپشکنە.",
+          "result": "بەرنامە Snapshotەکە بۆ چاپ ئامادە دەکات و پەنجەرەی چاپی وێبگەڕ دەکاتەوە. چاپکەر یان Save as PDF هەڵبژێرە.",
+          "notes": "ناوەڕۆکی چاپکراو Snapshotی ئەرشیفکراوە، نەک ژمێریارییەکی زیندووی نوێ. پێش هاوبەشکردن یان ئەرشیفکردنی PDF، ماوە و ژمارەکان بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Snapshoteke raporê ya hilanbar çap dike an wekî PDF dihêle.",
+          "when": "Vê bikar bîne dema ku kopiyeke kaxezî an PDF ya snapshoteke raporê dixwazî.",
+          "how": "Raporeke ku dixwazî veke û Print / Save PDF hilbijêre. Qutiya çapkirina gerokê binêre, paşê çap bike an Save as PDF hilbijêre.",
+          "inputs": "Divê rapora hilanbar di dîtînerê raporê de vekirî be. Berî çapkirinê dem û rewşê piştrast bike.",
+          "result": "Sepan snapshotê ji bo çapkirinê amade dike û qutiya çapkirina gerokê vedike. Çapker an Save as PDF hilbijêre.",
+          "notes": "Naveroka çapkirî snapshot-a arşîvkirî ye, ne hesabkirineke zindî ya nû. Berî parvekirin an arşîvkirina PDFê dem û hejmaran kontrol bike."
+        },
+        "tr": {
+          "purpose": "Kaydedilmiş bir rapor anlık görüntüsünü yazdırır veya PDF olarak kaydeder.",
+          "when": "Kaydedilmiş rapor anlık görüntüsünün kâğıt ya da PDF kopyasına ihtiyaç duyduğunuzda kullanın.",
+          "how": "İstenen raporu açın ve Print / Save PDF seçeneğini belirleyin. Tarayıcının yazdırma penceresini inceleyin; ardından yazdırın veya Save as PDF seçin.",
+          "inputs": "Kayıtlı rapor rapor görüntüleyicide açık olmalıdır. Yazdırmadan önce dönemini ve durumunu doğrulayın.",
+          "result": "Uygulama anlık görüntüyü yazdırmaya hazırlar ve tarayıcının yazdırma penceresini açar. Yazıcı veya Save as PDF seçin.",
+          "notes": "Yazdırılan içerik arşivlenmiş anlık görüntüdür; canlı yeniden hesaplama değildir. PDF'yi paylaşmadan veya arşivlemeden önce dönem ve rakamları kontrol edin."
+        },
+        "pl": {
+          "purpose": "Drukuje zapisaną migawkę raportu lub zapisuje ją jako PDF.",
+          "when": "Użyj tej opcji, gdy potrzebujesz papierowej lub PDF-owej kopii zapisanej migawki raportu.",
+          "how": "Otwórz odpowiedni raport i wybierz Print / Save PDF. Sprawdź okno drukowania przeglądarki, a następnie drukuj lub wybierz Save as PDF.",
+          "inputs": "Zapisany raport musi być otwarty w przeglądarce raportów. Przed drukowaniem sprawdź okres i status.",
+          "result": "Aplikacja przygotowuje migawkę do drukowania i otwiera okno drukowania przeglądarki. Wybierz drukarkę lub Save as PDF.",
+          "notes": "Drukowana treść to zarchiwizowana migawka, a nie bieżące ponowne obliczenie. Przed udostępnieniem lub archiwizacją PDF sprawdź okres i wartości."
+        },
+        "ur": {
+          "purpose": "محفوظ رپورٹ اسنیپ شاٹ کو پرنٹ کرتا ہے یا PDF کے طور پر محفوظ کرتا ہے۔",
+          "when": "جب محفوظ رپورٹ اسنیپ شاٹ کی کاغذی یا PDF نقل درکار ہو تو استعمال کریں۔",
+          "how": "مطلوبہ رپورٹ کھولیں اور Print / Save PDF منتخب کریں۔ براؤزر کے پرنٹ ڈائیلاگ کا جائزہ لیں، پھر پرنٹ کریں یا Save as PDF منتخب کریں۔",
+          "inputs": "محفوظ رپورٹ ویوئر میں کھلی ہونی چاہیے۔ پرنٹ سے پہلے مدت اور حالت کی تصدیق کریں۔",
+          "result": "ایپ اسنیپ شاٹ کو پرنٹ کے لیے تیار کرتی ہے اور براؤزر کا پرنٹ ڈائیلاگ کھولتی ہے۔ پرنٹر یا Save as PDF منتخب کریں۔",
+          "notes": "پرنٹ شدہ مواد آرکائیو اسنیپ شاٹ ہے، براہِ راست دوبارہ حساب نہیں۔ PDF شیئر یا محفوظ کرنے سے پہلے مدت اور اعداد چیک کریں۔"
+        },
+        "pa": {
+          "purpose": "ਸੰਭਾਲੇ ਰਿਪੋਰਟ ਸਨੈਪਸ਼ਾਟ ਨੂੰ ਪ੍ਰਿੰਟ ਕਰਦਾ ਹੈ ਜਾਂ PDF ਵਜੋਂ ਸੇਵ ਕਰਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਸੰਭਾਲੇ ਰਿਪੋਰਟ ਸਨੈਪਸ਼ਾਟ ਦੀ ਕਾਗਜ਼ੀ ਜਾਂ PDF ਕਾਪੀ ਚਾਹੀਦੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਲੋੜੀਂਦੀ ਰਿਪੋਰਟ ਖੋਲ੍ਹੋ ਅਤੇ Print / Save PDF ਚੁਣੋ। ਬ੍ਰਾਊਜ਼ਰ ਦਾ ਪ੍ਰਿੰਟ ਡਾਇਲਾਗ ਵੇਖੋ, ਫਿਰ ਪ੍ਰਿੰਟ ਕਰੋ ਜਾਂ Save as PDF ਚੁਣੋ।",
+          "inputs": "ਸੰਭਾਲੀ ਰਿਪੋਰਟ ਵਿਊਅਰ ਵਿੱਚ ਖੁੱਲ੍ਹੀ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ। ਪ੍ਰਿੰਟ ਤੋਂ ਪਹਿਲਾਂ ਮਿਆਦ ਅਤੇ ਸਥਿਤੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।",
+          "result": "ਐਪ ਸਨੈਪਸ਼ਾਟ ਨੂੰ ਪ੍ਰਿੰਟ ਲਈ ਤਿਆਰ ਕਰਦੀ ਹੈ ਅਤੇ ਬ੍ਰਾਊਜ਼ਰ ਦਾ ਪ੍ਰਿੰਟ ਡਾਇਲਾਗ ਖੋਲ੍ਹਦੀ ਹੈ। ਪ੍ਰਿੰਟਰ ਜਾਂ Save as PDF ਚੁਣੋ।",
+          "notes": "ਪ੍ਰਿੰਟ ਕੀਤੀ ਸਮੱਗਰੀ ਆਰਕਾਈਵ ਸਨੈਪਸ਼ਾਟ ਹੈ, ਲਾਈਵ ਮੁੜ ਗਣਨਾ ਨਹੀਂ। PDF ਸਾਂਝੀ ਜਾਂ ਆਰਕਾਈਵ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਮਿਆਦ ਅਤੇ ਅੰਕੜੇ ਜਾਂਚੋ।"
+        },
+        "prs": {
+          "purpose": "Snapshot ذخیره‌شده گزارش را چاپ می‌کند یا به‌صورت PDF ذخیره می‌کند.",
+          "when": "وقتی به نسخه کاغذی یا PDF از Snapshot ذخیره‌شده گزارش نیاز دارید، از این گزینه استفاده کنید.",
+          "how": "گزارش موردنظر را باز کنید و Print / Save PDF را انتخاب کنید. پنجره چاپ مرورگر را بررسی کنید و سپس چاپگر یا Save as PDF را انتخاب کنید.",
+          "inputs": "گزارش ذخیره‌شده باید در نمایشگر گزارش باز باشد. پیش از چاپ، دوره و وضعیت آن را تأیید کنید.",
+          "result": "برنامه Snapshot را برای چاپ آماده می‌کند و پنجره چاپ مرورگر را باز می‌کند. چاپگر یا Save as PDF را انتخاب کنید.",
+          "notes": "محتوای چاپ‌شده همان Snapshot بایگانی‌شده است، نه محاسبه مجدد زنده. پیش از اشتراک‌گذاری یا بایگانی PDF، دوره و ارقام را بررسی کنید."
+        },
+        "ps": {
+          "purpose": "خوندي شوی د راپور Snapshot چاپوي یا یې د PDF په توګه خوندي کوي.",
+          "when": "دا هغه وخت وکاروئ چې د خوندي شوي راپور Snapshot کاغذي یا PDF کاپي ته اړتیا لرئ.",
+          "how": "مطلوب راپور پرانیزئ او Print / Save PDF وټاکئ. د براوزر د چاپ کړکۍ وګورئ، بیا چاپ کړئ یا Save as PDF وټاکئ.",
+          "inputs": "خوندي شوی راپور باید د راپور په لیدونکي کې پرانیستی وي. له چاپ مخکې یې موده او حالت تایید کړئ.",
+          "result": "اپلېکېشن Snapshot د چاپ لپاره چمتو کوي او د براوزر د چاپ کړکۍ پرانیزي. چاپګر یا Save as PDF وټاکئ.",
+          "notes": "چاپ شوې منځپانګه آرشیف شوی Snapshot دی، ژوندۍ بیا محاسبه نه ده. د PDF له شریکولو یا آرشیف کولو مخکې موده او شمېرې وګورئ."
         }
       },
       "handler_or_behavior": "`report188Print(`"
