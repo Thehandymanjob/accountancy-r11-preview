@@ -1,15 +1,15 @@
 (function () {
   'use strict';
-  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R60') return;
+  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R61') return;
   const payload = window.THAHelpContentV1;
   if (!payload || !payload.entries) {
     console.error('[THA Help] Content bundle is missing; contextual help was not started.');
     return;
   }
   const STATIC_BINDINGS = [
-    ['THA-HLP-0006', '#contractsApp .ct-actions > button[onclick="ctSave()"]'],
+    ['THA-HLP-0006', '#ctFormCard .ct-actions > button[onclick="ctSave()"]'],
     ['THA-HLP-0007', '#contractsApp .ct-actions > button[onclick="ctOpenChatGPT()"]'],
-    ['THA-HLP-0008', '#contractsApp .ct-actions > button[onclick="ctPrint()"]'],
+    ['THA-HLP-0008', '#ctFormCard .ct-actions > button[onclick="ctPrint()"]'],
     ['THA-HLP-0044', '#report188Email > .pr-card .actions > button[onclick="report188SaveEmailSettings()"]'],
     ['THA-HLP-0051', '#monitor button[onclick="window.runAccountingStorageComparison()"]'],
     ['THA-HLP-0015', '.accountancy-nav > button[onclick="show(\'home\')"]'],
@@ -77,8 +77,6 @@
     ['THA-HLP-0117', '#prPage-company-hub #coPaymentArea .co-actions > button[onclick="coRecordPayment()"]'],
     ['THA-HLP-0118', '#invoicePaidModal .invoice-paid-actions > button[onclick="confirmInvoicePaid()"]'],
     ['THA-HLP-0005', '#contractsWorkspace .ct-newbar > button[onclick="ctNew()"]'],
-    ['THA-HLP-0006', '#ctFormCard .ct-actions > button[onclick="ctSave()"]'],
-    ['THA-HLP-0008', '#ctFormCard .ct-actions > button[onclick="ctPrint()"]'],
     ['THA-HLP-0068', '#profileGuide .pr-actions > button[onclick="prSaveProfile()"]'],
     ['THA-HLP-0069', '#profileGuide .pr-actions > button[onclick="prRemoveLogo()"]'],
     ['THA-HLP-0071', '#helpContactForm .pr-actions > button[onclick="resetHelpContactForm()"]'],
@@ -272,7 +270,7 @@
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initialise,{once:true});
   else initialise();
   window.THAHelpRuntime=Object.freeze({
-    version:'R60',open:openHelp,openFullGuide,attach:attachAll,
+    version:'R61',open:openHelp,openFullGuide,attach:attachAll,
     getLastHelpId:()=>lastHelpId,getPublishableCount:()=>Object.keys(payload.entries).length
   });
 })();
