@@ -1259,12 +1259,13 @@
     "After code instrumentation, verify exactly the intended control(s) in Preview and test each Help ID interaction before marking complete."
   ],
   "runtime_implementation": {
-    "buildId": "THA-273-R11-PREVIEW-20261127-R47",
-    "indexBlobSha": "84b399672802c61ffa5d41aad2d44116fb5f87f2",
-    "contentBundleBlobSha": "ca922e3ddfe97f1fdf517501cfac6944c090ece2",
+    "buildId": "THA-273-R11-PREVIEW-20261127-R48",
+    "indexBlobSha": "77fc513765a261022cb84405b0ce08b04b4ee694",
+    "contentBundleBlobSha": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
     "runtimeEngineBlobSha": "e7b7a713478bdb7ec65b52ee7f526dd418770dbd",
     "publishableEntries": 132,
     "languages": 11,
-    "staticBindings": 14
+    "staticBindings": 14,
+    "registryBlobSha": "f63754128fd09125290df4045f6f4b6fc03b3545"
   }
 }

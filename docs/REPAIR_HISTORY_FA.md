@@ -543,6 +543,15 @@
 - **تست مرورگر / Safari:** هنوز انجام نشده؛ تعداد نمونه‌های DOM، عملکرد کلیک، چیدمان موبایل و iPhone Safari نیازمند آزمایش Preview هستند.
 - **انتشار / Production:** Preview deploy نشده؛ Production بدون تغییر و ارتقا غیرمجاز است.
 
+#### بازنگری R48 — اصلاح متن انگلیسی و فارسی ۹ مدخل Draft
+
+- **تاریخ:** 2026-11-27
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- **دامنه:** بازبینی متن‌های EN/FA شناسه‌های THA-HLP-0057، 0146، 0156، 0168، 0169، 0170، 0180، 0181 و 0222 با تطبیق مستقیم بر سورس R47.
+- **اصلاحات کلیدی:** مسیر انتخاب زبان به Settings → User Guide تغییر کرد؛ توضیح پیوست INV-182 به Job محدود شد؛ متن دو دکمه Print / Save PDF در All Costs Register و Report tab از هم تفکیک شد؛ Take a Photo شناسه 0170 به فرم هزینه در Projects اصلاح شد؛ Generate PDF شناسه 0181 به گزارش زیرپروژه محدود شد؛ Print / PDF شناسه 0222 به اقدام مستقیم ردیف آرشیو Saved reports اصلاح شد.
+- **وضعیت محتوا:** هر ۹ مدخل همچنان `CONTENT_DRAFT` هستند؛ چون ترجمه/بازبینی زبان‌های دیگر کامل نشده، به بسته Runtime اضافه یا به دکمه متصل نشدند. ۱۳۲ مدخل قبلی کامل باقی ماندند؛ ۹۶ مدخل فعال Draft و یک شناسه بازنشسته حفظ شدند.
+- **تست / انتشار:** اصلاح متن و تطبیق سورس به‌صورت ایستا انجام شد؛ مرورگر، Preview Pages و iPhone Safari آزمایش نشده‌اند. Production بدون تغییر.
+
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
 - **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Implemented on Preview development; the latest R45 Version Authority Gate passed after native-HTML fail-closed hardening (run 46053038295). Pages deployment and iPhone Safari verification remain pending.

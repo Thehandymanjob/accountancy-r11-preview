@@ -47,3 +47,8 @@ The R45 source already contained the real `#userGuide` page, the 12-chapter `GUI
 ## R47 dynamic-template update
 
 Five completed dynamic template controls now carry explicit `data-help-id` attributes: pagination page numbers, receipt clip, active Records invoice View/Delete, and Deleted Records invoice View. Combined with the 14 R46 static bindings, 19 controls are wired in source. Ten dynamic and two static controls remain unbound because their content is Draft. The underlying button handlers are unchanged. R47 Version Authority Gate and browser tests are pending; no deployment has occurred.
+
+
+## R48 English/Persian draft-content correction
+
+Source review corrected the English and Persian text for nine Draft entries: THA-HLP-0057, 0146, 0156, 0168, 0169, 0170, 0180, 0181 and 0222. The corrections fix stale Help wording, job attachment scope, the All Costs Register vs Report tab distinction, the Project expense receipt-photo form, selected sub-project vs full-project PDF scope, and the Saved reports archive print action. All nine remain `CONTENT_DRAFT` and are excluded from the runtime bundle until the remaining language versions are reviewed. Runtime publication remains 132 entries.

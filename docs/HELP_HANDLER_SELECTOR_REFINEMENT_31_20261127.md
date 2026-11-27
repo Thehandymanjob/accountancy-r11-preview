@@ -77,3 +77,8 @@ This plan does **not** authorize a Preview deployment or Production change. The 
 - Combined total: 14 static scoped bindings + 5 dynamic template bindings = **19 controls wired in source**.
 - Ten other dynamic controls and two static candidates remain unattached because their registry content is `CONTENT_DRAFT`; no Draft content is published.
 - No browser DOM or interaction tests have run. PR #96 remains Draft; no Preview deployment or Production change.
+
+
+## R48 content review update — 2026-11-27
+
+The English and Persian wording for nine remaining Draft topics was corrected against the R47 runtime source: THA-HLP-0057, 0146, 0156, 0168, 0169, 0170, 0180, 0181 and 0222. The main corrections clarify the Settings → User Guide language route, job-only attachment scope, All Costs Register vs Report tab, Project expense receipt picker (not Accountancy entry), selected sub-project PDF vs full-project PDF, and direct printing from the Saved reports archive row. The entries remain `CONTENT_DRAFT` because the other language versions are not yet reviewed; they are not included in the R48 runtime content bundle and are not attached to controls.

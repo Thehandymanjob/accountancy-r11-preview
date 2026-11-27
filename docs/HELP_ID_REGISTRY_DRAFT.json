@@ -2,7 +2,7 @@
   "schema_version": 1,
   "registry_status": "DRAFT_NOT_CONNECTED_TO_RUNTIME",
   "project": "The Handyman Accountancy",
-  "build_baseline": "THA-273-R11-PREVIEW-20261127-R45",
+  "build_baseline": "THA-273-R11-PREVIEW-20261127-R47",
   "branch": "development",
   "source_inventory": "docs/HELP_BUTTON_INVENTORY_FA.md",
   "source_inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
@@ -5528,20 +5528,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the User Guide language selector and applies the selected language to guide content.",
-          "when": "Use this when you want to read the User Guide in a language other than English.",
-          "how": "Open Help and choose a language from the selector. Guide headings and chapter text update to that language.",
-          "inputs": "Choose one of the available guide languages.",
-          "result": "The User Guide is displayed in the selected language and the preference is saved on this device if saving succeeds.",
-          "notes": "This changes the guide language only. It does not translate the app interface, user-entered records or saved business data. The app interface remains English and left-to-right."
+          "purpose": "Opens Settings → User Guide so you can choose the language used for the User Guide.",
+          "when": "Use this when you want to change the language of the guide chapters without changing the application interface.",
+          "how": "In Settings, select User Guide — Choose the guide language. Choose one of the listed languages and wait for the saved-status message.",
+          "inputs": "Choose one of the available User Guide languages.",
+          "result": "The User Guide title, introduction and chapter text are displayed in the selected language. The preference is saved on this device if the preference write succeeds.",
+          "notes": "Only the User Guide content changes. Application menus, forms, records, projects and reports remain in English and left-to-right. If the saved-status message reports an error, the preference may not persist."
         },
         "fa": {
-          "purpose": "انتخاب زبان محتوای راهنمای کاربر را باز می‌کند و زبان انتخاب‌شده را روی راهنما اعمال می‌کند.",
-          "when": "وقتی می‌خواهید راهنمای کاربر را به زبانی غیر از انگلیسی بخوانید، از این گزینه استفاده کنید.",
-          "how": "Help را باز کنید و زبان موردنظر را از فهرست انتخاب کنید. عنوان‌ها و متن فصل‌های راهنما به زبان انتخاب‌شده تغییر می‌کنند.",
-          "inputs": "یکی از زبان‌های موجود راهنما را انتخاب کنید.",
-          "result": "راهنمای کاربر به زبان انتخاب‌شده نمایش داده می‌شود و در صورت موفقیت، ترجیح زبان روی همین دستگاه ذخیره می‌شود.",
-          "notes": "این گزینه فقط زبان راهنما را تغییر می‌دهد. رابط برنامه، اطلاعات واردشده یا داده‌های ذخیره‌شده کسب‌وکار را ترجمه نمی‌کند. رابط برنامه انگلیسی و راست‌به‌چپ‌نشده باقی می‌ماند."
+          "purpose": "صفحه Settings → User Guide را باز می‌کند تا زبان مورد استفاده برای راهنمای کاربر را انتخاب کنید.",
+          "when": "وقتی می‌خواهید زبان فصل‌های راهنما را بدون تغییر زبان رابط برنامه عوض کنید، از این گزینه استفاده کنید.",
+          "how": "در Settings گزینه User Guide — Choose the guide language را انتخاب کنید. یکی از زبان‌های فهرست‌شده را برگزینید و منتظر پیام وضعیت ذخیره‌سازی بمانید.",
+          "inputs": "یکی از زبان‌های موجود برای راهنمای کاربر را انتخاب کنید.",
+          "result": "عنوان، مقدمه و متن فصل‌های User Guide به زبان انتخاب‌شده نمایش داده می‌شوند. در صورت موفقیت عملیات ذخیره ترجیح زبان، انتخاب شما روی همین دستگاه ذخیره می‌شود.",
+          "notes": "فقط محتوای راهنمای کاربر تغییر می‌کند. منوها، فرم‌ها، سوابق، پروژه‌ها و گزارش‌های برنامه انگلیسی و چپ‌به‌راست باقی می‌مانند. اگر پیام وضعیت از خطای ذخیره‌سازی خبر دهد، ممکن است انتخاب زبان پس از خروج یا بارگذاری مجدد حفظ نشود."
         },
         "ar": {
           "purpose": "يفتح محدد لغة دليل المستخدم ويطبق اللغة المختارة على محتوى الدليل.",
@@ -14250,20 +14250,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Moves the selected invoice and any linked income entries to Deleted Records using a soft-delete operation.",
-          "when": "Use this only when an invoice is a duplicate or was created in error and should no longer appear in active invoice records.",
-          "how": "Select Delete beside the intended invoice. Review the confirmation warning, including the number of linked income entries that will also be moved to Deleted Records, then confirm only if deletion is intended.",
-          "inputs": "Select the correct active invoice. The app identifies linked income entries using the invoice ID and supported invoice references; review the number shown in the confirmation.",
+          "purpose": "Moves the selected invoice and any linked income entries from the active Invoices list to Deleted Records using a soft-delete operation.",
+          "when": "Use this only for a duplicate invoice or one created in error. Do not use it to hide a genuine issued or paid invoice.",
+          "how": "In the Invoices list, select Delete on the correct invoice row. Read the confirmation message, including the number of linked income entries that will also be moved, and confirm only if the deletion is intended.",
+          "inputs": "Select the correct active invoice. Check its invoice number and the linked-income count shown in the confirmation.",
           "result": "After confirmation and successful IndexedDB persistence and verification, the invoice and linked income entries are marked deleted and removed from active views. The invoice number remains reserved.",
-          "notes": "This is a soft delete, not permanent erasure. It affects both the invoice and any linked income records in active views. Check whether the invoice was issued or paid, retain required records and do not delete a genuine invoice merely to hide it."
+          "notes": "This is a soft delete, not permanent erasure. It also affects linked income records. Check whether the invoice was issued or paid and retain any records required for accounting or tax purposes."
         },
         "fa": {
-          "purpose": "فاکتور انتخاب‌شده و سوابق درآمد مرتبط با آن را با روش حذف نرم‌افزاری به Deleted Records منتقل می‌کند.",
-          "when": "فقط زمانی استفاده کنید که فاکتور تکراری است یا اشتباهی ایجاد شده و دیگر نباید در فهرست فعال فاکتورها نمایش داده شود.",
-          "how": "در کنار فاکتور موردنظر Delete را انتخاب کنید. هشدار تأیید، از جمله تعداد سوابق درآمد مرتبطی را که همراه فاکتور به Deleted Records منتقل می‌شوند، بررسی کنید و فقط در صورت قصد حذف تأیید کنید.",
-          "inputs": "فاکتور فعال و صحیح را انتخاب کنید. برنامه سوابق درآمد مرتبط را با استفاده از شناسه فاکتور و مراجع پشتیبانی‌شده شناسایی می‌کند؛ تعداد نمایش‌داده‌شده در پیام تأیید را بررسی کنید.",
-          "result": "پس از تأیید و موفقیت ذخیره و تأیید در IndexedDB، فاکتور و سوابق درآمد مرتبط به‌صورت نرم‌افزاری حذف و از نماهای فعال خارج می‌شوند. شماره فاکتور همچنان رزرو می‌ماند.",
-          "notes": "این عملیات حذف نرم‌افزاری است، نه پاک‌کردن دائمی. هم فاکتور و هم سوابق درآمد مرتبط را از نماهای فعال خارج می‌کند. بررسی کنید فاکتور صادر یا پرداخت شده است یا خیر؛ سوابق موردنیاز را نگه دارید و برای پنهان‌کردن فاکتور واقعی از حذف استفاده نکنید."
+          "purpose": "فاکتور انتخاب‌شده و سوابق درآمد مرتبط با آن را از فهرست فعال Invoices با روش حذف نرم‌افزاری به Deleted Records منتقل می‌کند.",
+          "when": "فقط برای فاکتور تکراری یا فاکتوری که اشتباهی ایجاد شده است از این گزینه استفاده کنید. برای پنهان‌کردن فاکتور واقعیِ صادرشده یا پرداخت‌شده از آن استفاده نکنید.",
+          "how": "در فهرست Invoices، در ردیف فاکتور صحیح گزینه Delete را انتخاب کنید. پیام تأیید، از جمله تعداد سوابق درآمد مرتبطی را که همراه فاکتور منتقل می‌شوند، بخوانید و فقط در صورت قصد واقعی حذف آن را تأیید کنید.",
+          "inputs": "فاکتور فعال و صحیح را انتخاب کنید. شماره فاکتور و تعداد سوابق درآمد مرتبط در پیام تأیید را بررسی کنید.",
+          "result": "پس از تأیید و موفقیت ذخیره‌سازی و بررسی در IndexedDB، فاکتور و سوابق درآمد مرتبط به‌صورت نرم‌افزاری حذف و از نماهای فعال خارج می‌شوند. شماره فاکتور همچنان رزرو می‌ماند.",
+          "notes": "این عملیات حذف نرم‌افزاری است، نه پاک‌کردن دائمی. سوابق درآمد مرتبط را نیز تحت تأثیر قرار می‌دهد. پیش از حذف، صادر یا پرداخت‌شدن فاکتور را بررسی کنید و سوابق لازم برای حسابداری یا امور مالیاتی را نگه دارید."
         },
         "ar": {
           "purpose": "ينقل الفاتورة المحددة وأي قيد دخل مرتبط بها إلى Deleted Records.",
@@ -15230,20 +15230,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the saved attachment associated with a company or company-job record.",
-          "when": "Use this when inspecting a contract or other file attached to a company or job.",
-          "how": "Select the paperclip or attachment filename on the correct company or job row. The app opens a new browser tab and displays a PDF in an embedded viewer or an image directly. Allow pop-ups if the browser blocks the tab.",
-          "inputs": "Select the correct company or job record and confirm that it has an attachment with available file data.",
-          "result": "The saved PDF or image opens in a new tab. If file data is unavailable or the browser blocks pop-ups, the app displays an alert.",
-          "notes": "Verify the company/job row and filename before opening or sharing. Viewing the attachment is read-only and does not change the company or job record."
+          "purpose": "Opens the saved attachment associated with the selected job record in Company Contracts & Jobs.",
+          "when": "Use this when you need to inspect a file attached to a particular company job.",
+          "how": "In Company Contracts & Jobs, select the paperclip on the correct job row. The app opens a new browser tab; a PDF is shown in an embedded viewer and an image is displayed directly. Allow pop-ups if the browser blocks the tab.",
+          "inputs": "Select the correct job and confirm that its attachment contains available file data.",
+          "result": "The job's saved PDF or image opens in a new tab. If the file data is unavailable or the browser blocks the pop-up, the app displays an alert.",
+          "notes": "Check the company, job and attachment before opening or sharing it. Viewing the attachment is read-only and does not change the job record."
         },
         "fa": {
-          "purpose": "پیوست ذخیره‌شده مرتبط با شرکت یا سابقه کار شرکتی را باز می‌کند.",
-          "when": "برای بررسی قرارداد یا فایل دیگری که به شرکت یا کار پیوست شده است، از این گزینه استفاده کنید.",
-          "how": "نماد گیره یا نام پیوست را در ردیف صحیح شرکت یا کار انتخاب کنید. برنامه زبانه جدیدی در مرورگر باز می‌کند و PDF را در نمایشگر داخلی یا تصویر را مستقیماً نمایش می‌دهد. اگر مرورگر زبانه را مسدود کرد، اجازه بازشدن پنجره‌های بازشو را بدهید.",
-          "inputs": "سابقه صحیح شرکت یا کار را انتخاب کنید و مطمئن شوید پیوست دارای داده فایل در دسترس است.",
-          "result": "PDF یا تصویر ذخیره‌شده در زبانه جدید باز می‌شود. اگر داده فایل موجود نباشد یا مرورگر پنجره بازشو را مسدود کند، برنامه پیام هشدار نمایش می‌دهد.",
-          "notes": "پیش از باز کردن یا اشتراک‌گذاری، ردیف شرکت/کار و نام فایل را بررسی کنید. مشاهده پیوست فقط برای خواندن است و سابقه شرکت یا کار را تغییر نمی‌دهد."
+          "purpose": "پیوست ذخیره‌شده مرتبط با سابقه کار انتخاب‌شده در بخش Company Contracts & Jobs را باز می‌کند.",
+          "when": "وقتی می‌خواهید فایلی را که به یک کار شرکتی مشخص پیوست شده است بررسی کنید، از این گزینه استفاده کنید.",
+          "how": "در بخش Company Contracts & Jobs، نماد گیره را در ردیف کار صحیح انتخاب کنید. برنامه زبانه جدیدی در مرورگر باز می‌کند؛ PDF در نمایشگر داخلی و تصویر به‌صورت مستقیم نمایش داده می‌شود. اگر مرورگر زبانه را مسدود کرد، اجازه بازشدن پنجره‌های بازشو را بدهید.",
+          "inputs": "کار صحیح را انتخاب کنید و مطمئن شوید داده فایل پیوست آن در دسترس است.",
+          "result": "فایل PDF یا تصویر ذخیره‌شده برای همان کار در زبانه جدید باز می‌شود. اگر داده فایل موجود نباشد یا مرورگر پنجره بازشو را مسدود کند، برنامه پیام هشدار نمایش می‌دهد.",
+          "notes": "پیش از باز کردن یا اشتراک‌گذاری، شرکت، کار و پیوست مربوط را بررسی کنید. مشاهده پیوست فقط برای خواندن است و سابقه کار را تغییر نمی‌دهد."
         },
         "ar": {
           "purpose": "يفتح مرفقاً مرتبطاً بوظيفة أو سجل شركة.",
@@ -16406,20 +16406,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the financial report preview for the currently selected sub-project.",
-          "when": "Use this when reviewing the sub-project's recorded receipts, costs, agreed price and outstanding balance before generating a PDF.",
-          "how": "From the sub-project's Report tab, select Print / Save PDF. Review the report overlay, then select Generate PDF in its toolbar. The app creates the PDF and opens an in-app PDF preview.",
-          "inputs": "A sub-project must be open. The report uses its saved income, costs, agreed price and payment records; no new financial data is entered for the preview.",
-          "result": "The report preview overlay opens first. After Generate PDF is selected, the PDF is generated and displayed in a PDF preview with a Share PDF option.",
-          "notes": "Check the selected sub-project and its figures. The PDF uses recorded receipts and costs and is a report output only; it does not submit data externally. The PDF library may need an internet connection to load."
+          "purpose": "Opens the printable financial report preview for the selected sub-project from the All Costs Register view.",
+          "when": "Use this from All Costs Register when you need a PDF report after reviewing the sub-project's cost records.",
+          "how": "With the correct sub-project open, go to All Costs Register and select Print / Save PDF. Review the report overlay, then select Generate PDF in its toolbar. The generated document opens in the in-app PDF preview.",
+          "inputs": "A sub-project must be open and its All Costs Register view displayed. The report uses saved financial records; no new figures are entered for the preview.",
+          "result": "The sub-project financial report preview opens first. After Generate PDF is selected, a PDF is created and displayed in the PDF preview.",
+          "notes": "Check the selected sub-project and the totals before saving or sharing. PDF generation creates an output document only; it does not submit data externally or change the underlying records. The PDF library may need an internet connection to load."
         },
         "fa": {
-          "purpose": "پیش‌نمایش گزارش مالی زیرپروژه انتخاب‌شده فعلی را باز می‌کند.",
-          "when": "برای بررسی دریافت‌ها، هزینه‌ها، قیمت توافق‌شده و مانده زیرپروژه پیش از ایجاد PDF از این گزینه استفاده کنید.",
-          "how": "از زبانه Report زیرپروژه، Print / Save PDF را انتخاب کنید. پیش‌نمایش گزارش را در پنجره بازشده بررسی و سپس در نوار ابزار آن Generate PDF را انتخاب کنید. برنامه PDF را ایجاد و پیش‌نمایش PDF را داخل برنامه باز می‌کند.",
-          "inputs": "یک زیرپروژه باید باز باشد. گزارش از درآمدها، هزینه‌ها، قیمت توافق‌شده و سوابق پرداخت ذخیره‌شده آن استفاده می‌کند؛ برای پیش‌نمایش نیازی به واردکردن اطلاعات مالی جدید نیست.",
-          "result": "ابتدا پنجره پیش‌نمایش گزارش باز می‌شود. پس از انتخاب Generate PDF، فایل PDF ایجاد و در پیش‌نمایش PDF همراه با گزینه Share PDF نمایش داده می‌شود.",
-          "notes": "زیرپروژه انتخاب‌شده و ارقام آن را بررسی کنید. PDF فقط خروجی گزارش بر اساس دریافت‌ها و هزینه‌های ثبت‌شده است و اطلاعات را به مرجع خارجی ارسال نمی‌کند. برای بارگذاری کتابخانه PDF ممکن است اتصال اینترنت لازم باشد."
+          "purpose": "از نمای All Costs Register زیرپروژه انتخاب‌شده، پیش‌نمایش قابل چاپ گزارش مالی را باز می‌کند.",
+          "when": "پس از بررسی سوابق هزینه زیرپروژه، وقتی از نمای All Costs Register به گزارش PDF نیاز دارید از این گزینه استفاده کنید.",
+          "how": "در حالی که زیرپروژه صحیح باز است، وارد All Costs Register شوید و Print / Save PDF را انتخاب کنید. پنجره پیش‌نمایش گزارش را بررسی و سپس در نوار ابزار آن Generate PDF را انتخاب کنید. سند ایجادشده در پیش‌نمایش PDF داخل برنامه باز می‌شود.",
+          "inputs": "یک زیرپروژه باید باز باشد و نمای All Costs Register آن نمایش داده شود. گزارش از سوابق مالی ذخیره‌شده استفاده می‌کند و برای پیش‌نمایش نیازی به واردکردن ارقام جدید نیست.",
+          "result": "ابتدا پیش‌نمایش گزارش مالی زیرپروژه باز می‌شود. پس از انتخاب Generate PDF، فایل PDF ایجاد و در پیش‌نمایش PDF نمایش داده می‌شود.",
+          "notes": "پیش از ذخیره یا اشتراک‌گذاری، زیرپروژه انتخاب‌شده و مجموع‌ها را بررسی کنید. ساخت PDF فقط سند خروجی ایجاد می‌کند؛ اطلاعات را به مرجع خارجی ارسال نمی‌کند و سوابق اصلی را تغییر نمی‌دهد. برای بارگذاری کتابخانه PDF ممکن است اتصال اینترنت لازم باشد."
         },
         "ar": {
           "purpose": "يطبع تقرير المشروع الفرعي الحالي أو يحفظه بصيغة PDF.",
@@ -16504,20 +16504,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the financial report preview from the sub-project's All Costs view so the cost summary can be generated as a PDF.",
-          "when": "Use this when reviewing all cost records and preparing a printable PDF report for the selected sub-project.",
-          "how": "From the sub-project's All Costs view, select Print / Save PDF. Review the report overlay, then select Generate PDF in its toolbar. The app creates the PDF and opens an in-app PDF preview.",
-          "inputs": "A sub-project must be open and its All Costs view displayed. The report uses the sub-project's saved receipts, costs, agreed price and outstanding balance; no new financial data is entered.",
-          "result": "The report preview overlay opens. After Generate PDF is selected, the PDF is generated and displayed in a PDF preview with a Share PDF option.",
-          "notes": "The report is based on the selected sub-project's saved financial records. Check the figures and report scope before sharing. PDF creation does not change the underlying project records; the PDF library may require internet access."
+          "purpose": "Opens the financial report preview for the selected sub-project from its Report tab.",
+          "when": "Use this when you want to review the sub-project's received amount, costs, cash profit or loss, agreed price and outstanding balance before creating a PDF.",
+          "how": "Open the correct sub-project, select its Report tab, then select Print / Save PDF. Review the report overlay and select Generate PDF in the toolbar.",
+          "inputs": "The selected sub-project must be open and its Report tab displayed. The report uses saved receipts, costs, agreed price and payment records.",
+          "result": "The sub-project report preview opens. After Generate PDF is selected, the PDF is generated and displayed in the in-app PDF preview.",
+          "notes": "This is the selected sub-project report, not the All Costs Register. Review the figures and scope before sharing. The report uses recorded receipts and costs only, is before tax and excludes unrecorded items."
         },
         "fa": {
-          "purpose": "پیش‌نمایش گزارش مالی را از نمای All Costs زیرپروژه باز می‌کند تا خلاصه هزینه‌ها به PDF تبدیل شود.",
-          "when": "وقتی در حال بررسی همه سوابق هزینه هستید و برای زیرپروژه انتخاب‌شده به گزارش PDF قابل چاپ نیاز دارید، از این گزینه استفاده کنید.",
-          "how": "از نمای All Costs زیرپروژه، Print / Save PDF را انتخاب کنید. پنجره پیش‌نمایش گزارش را بررسی و سپس در نوار ابزار آن Generate PDF را انتخاب کنید. برنامه PDF را ایجاد و پیش‌نمایش PDF را داخل برنامه باز می‌کند.",
-          "inputs": "یک زیرپروژه باید باز باشد و نمای All Costs آن نمایش داده شود. گزارش از دریافت‌ها، هزینه‌ها، قیمت توافق‌شده و مانده ذخیره‌شده زیرپروژه استفاده می‌کند؛ اطلاعات مالی جدیدی وارد نمی‌شود.",
-          "result": "پنجره پیش‌نمایش گزارش باز می‌شود. پس از انتخاب Generate PDF، فایل PDF ایجاد و در پیش‌نمایش PDF همراه با گزینه Share PDF نمایش داده می‌شود.",
-          "notes": "گزارش بر اساس سوابق مالی ذخیره‌شده زیرپروژه انتخاب‌شده است. پیش از اشتراک‌گذاری، ارقام و محدوده گزارش را بررسی کنید. ساخت PDF سوابق اصلی پروژه را تغییر نمی‌دهد؛ کتابخانه PDF ممکن است به اتصال اینترنت نیاز داشته باشد."
+          "purpose": "از زبانه Report زیرپروژه انتخاب‌شده، پیش‌نمایش گزارش مالی آن زیرپروژه را باز می‌کند.",
+          "when": "وقتی می‌خواهید پیش از ایجاد PDF، دریافتی‌ها، هزینه‌ها، سود یا زیان نقدی، قیمت توافق‌شده و مانده زیرپروژه را بررسی کنید، از این گزینه استفاده کنید.",
+          "how": "زیرپروژه صحیح را باز کنید، وارد زبانه Report شوید و Print / Save PDF را انتخاب کنید. پنجره پیش‌نمایش گزارش را بررسی و سپس در نوار ابزار آن Generate PDF را انتخاب کنید.",
+          "inputs": "زیرپروژه انتخاب‌شده باید باز باشد و زبانه Report آن نمایش داده شود. گزارش از رسیدها، هزینه‌ها، قیمت توافق‌شده و سوابق پرداخت ذخیره‌شده استفاده می‌کند.",
+          "result": "پیش‌نمایش گزارش همان زیرپروژه باز می‌شود. پس از انتخاب Generate PDF، فایل PDF ایجاد و در پیش‌نمایش PDF داخل برنامه نمایش داده می‌شود.",
+          "notes": "این گزارش مربوط به زیرپروژه انتخاب‌شده است، نه نمای All Costs Register. پیش از اشتراک‌گذاری، ارقام و محدوده گزارش را بررسی کنید. گزارش فقط از دریافت‌ها و هزینه‌های ثبت‌شده استفاده می‌کند، پیش از مالیات است و موارد ثبت‌نشده را شامل نمی‌شود."
         },
         "ar": {
           "purpose": "يطبع تقرير المشروع الفرعي الحالي أو يحفظه بصيغة PDF.",
@@ -16602,20 +16602,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the device's image picker so a receipt photo can be selected or captured for the current Accountancy entry.",
-          "when": "Use this when attaching a photo of a receipt to an income or expense entry whose receipt-photo field is available.",
-          "how": "Select 📷 Take a Photo. Use the camera or image-selection option offered by the device/browser, then review the image in the crop dialog. Choose Apply Crop or Use Full Image to attach it to the form.",
-          "inputs": "Choose an image file or take a photo using an option provided by the device. The control accepts image files only; PDF files are not accepted. Camera availability depends on the device/browser file picker and its permissions.",
-          "result": "The selected image is resized and converted to JPEG, then shown in the receipt preview. It is attached to the entry form but is not saved to the record until Save Entry succeeds.",
-          "notes": "This button opens an image file picker; it does not guarantee that the camera app will launch directly. Check that the receipt is readable and belongs to the correct entry. Use Remove photo to clear it before saving if needed."
+          "purpose": "Opens the device's image picker so a receipt photo can be attached to the current Project expense form.",
+          "when": "Use this when recording a project expense and you have a receipt image to attach.",
+          "how": "In the Project expense form, select Take a Photo. Choose the camera or image-selection option offered by the device/browser, then review the image in the crop dialog. Select Apply Crop or Use Full Image to attach it to the form.",
+          "inputs": "Choose an image file or take a photo using an option provided by the device. Image files are accepted; PDF files are not. Camera availability depends on the device/browser file picker and its permissions.",
+          "result": "The selected image is resized and converted to JPEG, then shown in the receipt preview. It is attached to the Project expense form but is not saved to the project record until the expense is saved successfully.",
+          "notes": "This control belongs to the Project workspace expense form, not the general Accountancy entry form. Check that the receipt is readable and belongs to the correct project expense. Use Remove photo to clear it before saving if needed."
         },
         "fa": {
-          "purpose": "انتخاب‌گر تصویر دستگاه را باز می‌کند تا عکس رسید برای ثبت فعلی Accountancy انتخاب یا گرفته شود.",
-          "when": "وقتی می‌خواهید عکس رسید را به ثبت درآمد یا هزینه‌ای که فیلد عکس رسید آن فعال است پیوست کنید، از این گزینه استفاده کنید.",
-          "how": "Take a Photo را انتخاب کنید. از دوربین یا گزینه انتخاب تصویر که دستگاه/مرورگر ارائه می‌دهد استفاده کنید و سپس تصویر را در پنجره برش بررسی کنید. برای پیوست تصویر، Apply Crop یا Use Full Image را انتخاب کنید.",
-          "inputs": "یک فایل تصویری انتخاب کنید یا با گزینه‌ای که دستگاه ارائه می‌دهد عکس بگیرید. این کنترل فقط فایل تصویری می‌پذیرد و PDF قابل قبول نیست. دسترسی به دوربین به انتخاب‌گر فایل دستگاه/مرورگر و مجوزهای آن بستگی دارد.",
-          "result": "تصویر انتخاب‌شده تغییر اندازه داده و به JPEG تبدیل می‌شود و سپس در پیش‌نمایش رسید نمایش داده می‌شود. تصویر به فرم ثبت پیوست می‌شود، اما تا موفقیت Save Entry در سابقه ذخیره نخواهد شد.",
-          "notes": "این دکمه انتخاب‌گر فایل تصویر را باز می‌کند و تضمین نمی‌کند که برنامه دوربین مستقیماً اجرا شود. خوانابودن رسید و تعلق آن به ثبت صحیح را بررسی کنید. در صورت نیاز، پیش از ذخیره از Remove photo برای پاک‌کردن تصویر استفاده کنید."
+          "purpose": "انتخاب‌گر تصویر دستگاه را باز می‌کند تا عکس رسید به فرم هزینه فعلی در بخش Projects پیوست شود.",
+          "when": "وقتی در حال ثبت هزینه یک پروژه هستید و می‌خواهید تصویر رسید را به آن پیوست کنید، از این گزینه استفاده کنید.",
+          "how": "در فرم هزینه پروژه، Take a Photo را انتخاب کنید. از دوربین یا گزینه انتخاب تصویر که دستگاه/مرورگر ارائه می‌دهد استفاده کنید و سپس تصویر را در پنجره برش بررسی کنید. برای پیوست تصویر، Apply Crop یا Use Full Image را انتخاب کنید.",
+          "inputs": "یک فایل تصویری انتخاب کنید یا با گزینه‌ای که دستگاه ارائه می‌دهد عکس بگیرید. فایل تصویری پذیرفته می‌شود؛ PDF قابل قبول نیست. دسترسی به دوربین به انتخاب‌گر فایل دستگاه/مرورگر و مجوزهای آن بستگی دارد.",
+          "result": "تصویر انتخاب‌شده تغییر اندازه داده و به JPEG تبدیل می‌شود و سپس در پیش‌نمایش رسید نمایش داده می‌شود. تصویر به فرم هزینه پروژه پیوست می‌شود، اما تا زمانی که ذخیره هزینه با موفقیت انجام نشود در سابقه پروژه ثبت نخواهد شد.",
+          "notes": "این کنترل متعلق به فرم هزینه در فضای کاری Projects است، نه فرم ثبت عمومی Accountancy. خوانابودن رسید و تعلق آن به هزینه پروژه صحیح را بررسی کنید. در صورت نیاز، پیش از ذخیره از Remove photo برای پاک‌کردن تصویر استفاده کنید."
         },
         "ar": {
           "purpose": "يلتقط صورة لإرفاقها بإيصال مشروع أو مصروف.",
@@ -17582,19 +17582,19 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Generates a PDF from the full financial report preview for the selected project, including the main project and its sub-projects.",
-          "when": "Use this when you need a PDF copy of the full project financial report with its overall figures and sub-project breakdown.",
-          "how": "Open the full project financial report preview for the correct project and select Generate PDF. Wait for the A4 PDF to be created and rendered in the PDF preview. Use Share PDF or the available PDF preview controls to save or share it.",
-          "inputs": "The correct saved project must be selected and its full financial report preview must be open. The report uses saved project and sub-project income, costs and payment records; no reporting-period input is required.",
-          "result": "A PDF is generated for the full project report and displayed in the PDF preview within the report overlay. The report includes the main project and its sub-project details.",
-          "notes": "Check the selected project, totals and included sub-projects before sharing. PDF generation creates an output document only; it does not submit data or change project records. The PDF-generation library may need an internet connection to load."
+          "purpose": "Generates a PDF from the Full Project Financial Report preview for the selected project, including the main project and its sub-projects.",
+          "when": "Use this when you need a PDF copy of the complete project financial report and its sub-project breakdown.",
+          "how": "Open the Full Project Financial Report preview for the correct project and select Generate PDF. Wait for the A4 document to be created and rendered in the PDF preview. Use Share PDF or the available preview controls to save or share it.",
+          "inputs": "The correct project must be selected and its Full Project Financial Report preview must be open. The report uses saved parent-project and sub-project income, costs and payment records.",
+          "result": "A PDF of the full project report is generated and displayed in the PDF preview. It includes the main project and its sub-project details.",
+          "notes": "Check the selected project, totals and included sub-projects before sharing. PDF generation creates an output document only; it does not submit data or change project records. The PDF library may need an internet connection to load."
         },
         "fa": {
-          "purpose": "از پیش‌نمایش گزارش مالی کامل پروژه انتخاب‌شده، شامل پروژه اصلی و زیرپروژه‌های آن، فایل PDF ایجاد می‌کند.",
-          "when": "وقتی به نسخه PDF گزارش مالی کامل پروژه همراه با ارقام کلی و تفکیک زیرپروژه‌ها نیاز دارید، از این گزینه استفاده کنید.",
-          "how": "پیش‌نمایش گزارش مالی کامل پروژه صحیح را باز کنید و Generate PDF را انتخاب کنید. منتظر بمانید تا PDF در اندازه A4 ایجاد و در پیش‌نمایش PDF نمایش داده شود. برای ذخیره یا اشتراک‌گذاری از Share PDF یا کنترل‌های موجود پیش‌نمایش استفاده کنید.",
-          "inputs": "پروژه ذخیره‌شده صحیح باید انتخاب شده و پیش‌نمایش گزارش مالی کامل آن باز باشد. گزارش از درآمدها، هزینه‌ها و سوابق پرداخت ذخیره‌شده پروژه و زیرپروژه‌ها استفاده می‌کند؛ واردکردن دوره گزارش لازم نیست.",
-          "result": "فایل PDF گزارش کامل پروژه ایجاد و در پیش‌نمایش PDF داخل پنجره گزارش نمایش داده می‌شود. گزارش شامل پروژه اصلی و جزئیات زیرپروژه‌های آن است.",
+          "purpose": "از پیش‌نمایش Full Project Financial Report برای پروژه انتخاب‌شده، شامل پروژه اصلی و زیرپروژه‌های آن، فایل PDF ایجاد می‌کند.",
+          "when": "وقتی به نسخه PDF گزارش مالی کامل پروژه همراه با تفکیک زیرپروژه‌ها نیاز دارید، از این گزینه استفاده کنید.",
+          "how": "پیش‌نمایش Full Project Financial Report پروژه صحیح را باز کنید و Generate PDF را انتخاب کنید. منتظر بمانید تا سند A4 ایجاد و در پیش‌نمایش PDF رندر شود. برای ذخیره یا اشتراک‌گذاری از Share PDF یا کنترل‌های موجود پیش‌نمایش استفاده کنید.",
+          "inputs": "پروژه صحیح باید انتخاب شده و پیش‌نمایش Full Project Financial Report آن باز باشد. گزارش از درآمدها، هزینه‌ها و سوابق پرداخت ذخیره‌شده پروژه اصلی و زیرپروژه‌ها استفاده می‌کند.",
+          "result": "PDF گزارش کامل پروژه ایجاد و در پیش‌نمایش PDF نمایش داده می‌شود. گزارش شامل پروژه اصلی و جزئیات زیرپروژه‌های آن است.",
           "notes": "پیش از اشتراک‌گذاری، پروژه انتخاب‌شده، مجموع‌ها و زیرپروژه‌های لحاظ‌شده را بررسی کنید. ایجاد PDF فقط سند خروجی تولید می‌کند؛ داده‌ای ارسال نمی‌کند و سوابق پروژه را تغییر نمی‌دهد. برای بارگذاری کتابخانه ساخت PDF ممکن است اتصال اینترنت لازم باشد."
         },
         "ar": {
@@ -17680,20 +17680,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Generates a PDF from the full financial report preview for the selected project, including its parent and sub-projects.",
-          "when": "Use this after opening the full project report preview when you need a PDF copy of the overall project and sub-project financial results.",
-          "how": "Open the Full Project Financial Report preview and select Generate PDF. Wait while the report is converted and the generated PDF is rendered in the preview area. Review the pages before sharing or saving.",
-          "inputs": "A full project report preview must already be open for the correct project. The report uses saved parent-project and sub-project records; the PDF-generation and preview libraries may require an internet connection.",
-          "result": "A PDF is generated for the full project report and displayed in the preview area when generation and rendering succeed.",
-          "notes": "The report includes parent and sub-project records, eligible recorded costs and totals under its calculation rules. Check the project, totals and pages before saving or sharing. PDF creation does not submit the report externally or change project records."
+          "purpose": "Generates a PDF from the financial report preview for the currently selected sub-project.",
+          "when": "Use this when you need a PDF copy of the selected sub-project's financial results, rather than the full parent-project report.",
+          "how": "Open the selected sub-project's financial report preview and select Generate PDF in its toolbar. Wait for the PDF to be created and rendered, then review the pages before saving or sharing.",
+          "inputs": "The intended sub-project must be open and its Financial Report preview displayed. The report uses that sub-project's saved receipts, costs and agreed-price information.",
+          "result": "A PDF for the selected sub-project financial report is generated and displayed in the PDF preview.",
+          "notes": "This output is for the selected sub-project; it is not the Full Project Financial Report and does not combine sibling sub-projects. PDF generation does not submit data externally or change project records. The PDF library may need an internet connection."
         },
         "fa": {
-          "purpose": "از پیش‌نمایش گزارش مالی کامل پروژه انتخاب‌شده، شامل پروژه اصلی و زیرپروژه‌های آن، PDF ایجاد می‌کند.",
-          "when": "پس از بازکردن پیش‌نمایش گزارش کامل پروژه و زمانی که به نسخه PDF نتایج مالی پروژه و زیرپروژه‌ها نیاز دارید، از این گزینه استفاده کنید.",
-          "how": "پیش‌نمایش Full Project Financial Report را باز کنید و Generate PDF را انتخاب کنید. منتظر بمانید تا گزارش تبدیل و PDF ایجادشده در بخش پیش‌نمایش رندر شود. پیش از اشتراک‌گذاری یا ذخیره، صفحات را بررسی کنید.",
-          "inputs": "پیش‌نمایش گزارش کامل پروژه صحیح باید از قبل باز باشد. گزارش از سوابق ذخیره‌شده پروژه اصلی و زیرپروژه‌ها استفاده می‌کند؛ کتابخانه‌های ساخت و پیش‌نمایش PDF ممکن است به اتصال اینترنت نیاز داشته باشند.",
-          "result": "در صورت موفقیت ساخت و رندر، PDF گزارش کامل پروژه در بخش پیش‌نمایش نمایش داده می‌شود.",
-          "notes": "گزارش، سوابق پروژه اصلی و زیرپروژه‌ها، هزینه‌های ثبت‌شده قابل احتساب و مجموع‌ها را طبق قواعد محاسبه خود شامل می‌شود. پیش از ذخیره یا اشتراک‌گذاری، پروژه، مجموع‌ها و صفحات را بررسی کنید. ایجاد PDF گزارش را به مرجع خارجی ارسال نمی‌کند و سوابق پروژه را تغییر نمی‌دهد."
+          "purpose": "از پیش‌نمایش گزارش مالی زیرپروژه انتخاب‌شده فعلی، فایل PDF ایجاد می‌کند.",
+          "when": "وقتی به نسخه PDF نتایج مالی زیرپروژه انتخاب‌شده نیاز دارید، نه گزارش کامل پروژه اصلی، از این گزینه استفاده کنید.",
+          "how": "پیش‌نمایش گزارش مالی زیرپروژه انتخاب‌شده را باز کنید و در نوار ابزار آن Generate PDF را انتخاب کنید. منتظر بمانید تا PDF ایجاد و رندر شود؛ سپس پیش از ذخیره یا اشتراک‌گذاری صفحات را بررسی کنید.",
+          "inputs": "زیرپروژه موردنظر باید باز باشد و پیش‌نمایش Financial Report آن نمایش داده شود. گزارش از رسیدها، هزینه‌ها و اطلاعات قیمت توافق‌شده همان زیرپروژه استفاده می‌کند.",
+          "result": "فایل PDF گزارش مالی زیرپروژه انتخاب‌شده ایجاد و در پیش‌نمایش PDF نمایش داده می‌شود.",
+          "notes": "این خروجی فقط مربوط به زیرپروژه انتخاب‌شده است؛ Full Project Financial Report نیست و زیرپروژه‌های هم‌سطح را با هم ترکیب نمی‌کند. ساخت PDF اطلاعاتی را به مرجع خارجی ارسال نمی‌کند و سوابق پروژه را تغییر نمی‌دهد. برای بارگذاری کتابخانه PDF ممکن است اتصال اینترنت لازم باشد."
         },
         "ar": {
           "purpose": "ينشئ ملف PDF لتقرير المشروع الفرعي الحالي.",
@@ -21629,20 +21629,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Print or save a previously saved report snapshot as a PDF.",
-          "when": "Use this when you need a paper or PDF copy of a saved report snapshot.",
-          "how": "Open the intended saved report and select Print / Save PDF. Review the browser print dialog, then print or choose Save as PDF.",
-          "inputs": "A saved report must be open in the report viewer. Verify its reporting period and status before printing.",
-          "result": "The app prepares the saved snapshot for printing and opens the browser's print dialog. Choose a printer or Save as PDF.",
-          "notes": "The printed content is the archived snapshot, not a live recalculation. Check the report period and figures before sharing or filing the PDF."
+          "purpose": "Prints or saves a previously saved report snapshot as a PDF directly from the Saved reports archive.",
+          "when": "Use this when you need a paper or PDF copy of a specific archived report without opening it for on-screen review first.",
+          "how": "In the Saved reports archive, locate the correct report row and select Print / PDF. The app loads that saved snapshot into its print view and opens the browser print dialog. Choose a printer or Save as PDF.",
+          "inputs": "The intended saved report must exist in the archive. Check its reporting period, saved date and status before printing.",
+          "result": "The archived snapshot is prepared in the print view and the browser print dialog opens. You can print it or save it as a PDF.",
+          "notes": "The output is the archived snapshot, not a live recalculation. Verify the report period and figures before filing or sharing. This action does not submit the report to an external service."
         },
         "fa": {
-          "purpose": "گزارش ذخیره‌شده قبلی را چاپ می‌کند یا به‌صورت PDF ذخیره می‌کند.",
-          "when": "وقتی به نسخه کاغذی یا PDF از یک تصویر ذخیره‌شده گزارش نیاز دارید، از این گزینه استفاده کنید.",
-          "how": "گزارش ذخیره‌شده موردنظر را باز کنید و Print / Save PDF را انتخاب کنید. پنجره چاپ مرورگر را بررسی کنید و سپس چاپگر یا Save as PDF را انتخاب کنید.",
-          "inputs": "گزارش ذخیره‌شده باید در نمایشگر گزارش باز باشد. پیش از چاپ، دوره و وضعیت آن را تأیید کنید.",
-          "result": "برنامه تصویر ذخیره‌شده را برای چاپ آماده می‌کند و پنجره چاپ مرورگر را باز می‌کند. چاپگر یا Save as PDF را انتخاب کنید.",
-          "notes": "محتوای چاپ‌شده همان تصویر بایگانی‌شده است و محاسبه زنده و دوباره انجام نمی‌شود. پیش از اشتراک‌گذاری یا بایگانی PDF، دوره و ارقام گزارش را بررسی کنید."
+          "purpose": "گزارش ذخیره‌شده را مستقیماً از آرشیو Saved reports چاپ می‌کند یا به‌صورت PDF ذخیره می‌کند.",
+          "when": "وقتی به نسخه کاغذی یا PDF از یک گزارش بایگانی‌شده مشخص نیاز دارید و نمی‌خواهید ابتدا آن را برای مشاهده داخل برنامه باز کنید، از این گزینه استفاده کنید.",
+          "how": "در آرشیو Saved reports، ردیف گزارش صحیح را پیدا و Print / PDF را انتخاب کنید. برنامه همان نسخه ذخیره‌شده را در نمای چاپ بارگذاری و پنجره چاپ مرورگر را باز می‌کند. چاپگر یا Save as PDF را انتخاب کنید.",
+          "inputs": "گزارش موردنظر باید در آرشیو ذخیره شده باشد. پیش از چاپ، دوره گزارش، تاریخ ذخیره و وضعیت آن را بررسی کنید.",
+          "result": "نسخه بایگانی‌شده در نمای چاپ آماده می‌شود و پنجره چاپ مرورگر باز می‌شود. می‌توانید آن را چاپ کنید یا به‌صورت PDF ذخیره کنید.",
+          "notes": "خروجی همان نسخه بایگانی‌شده است و محاسبه زنده و دوباره انجام نمی‌شود. پیش از بایگانی یا اشتراک‌گذاری، دوره و ارقام گزارش را بررسی کنید. این عملیات گزارش را به سرویس خارجی ارسال نمی‌کند."
         },
         "ar": {
           "purpose": "يطبع لقطة تقرير محفوظة أو يحفظها كملف PDF.",
@@ -22413,5 +22413,6 @@
     "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written. Retired IDs are excluded from active content totals."
   },
   "active_entry_count": 228,
-  "retired_entry_count": 1
+  "retired_entry_count": 1,
+  "source_runtime_blob_sha": "84b399672802c61ffa5d41aad2d44116fb5f87f2"
 }

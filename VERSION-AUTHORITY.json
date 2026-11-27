@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261127-R47",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R47",
-    "indexBlobSha": "84b399672802c61ffa5d41aad2d44116fb5f87f2",
+    "buildId": "THA-273-R11-PREVIEW-20261127-R48",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R48",
+    "indexBlobSha": "77fc513765a261022cb84405b0ce08b04b4ee694",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,10 +30,10 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "84b399672802c61ffa5d41aad2d44116fb5f87f2",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "77fc513765a261022cb84405b0ce08b04b4ee694",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "ca922e3ddfe97f1fdf517501cfac6944c090ece2",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js": "e7b7a713478bdb7ec65b52ee7f526dd418770dbd"
     }
   },
@@ -48,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "R47 contextual User Guide runtime and five dynamic template bindings pass the R11 Version Authority Gate. PR #96 remains Draft pending browser/Preview verification. Preview Pages is not deployed; Production promotion remains unauthorized.",
+  "note": "R48 corrects EN/FA wording for nine Draft Help entries while keeping them unpublished. The 132 fully reviewed entries remain in the runtime bundle. PR #96 remains Draft pending browser verification; Production promotion is unauthorized.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {
@@ -2147,6 +2147,55 @@
       "userApproval": {
         "result": "authorized for Preview only",
         "details": "User directed continuation of Help ID runtime wiring. Production promotion not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-27-HELP-EN-FA-CONTENT-CORRECTIONS-R48-001",
+      "dateStarted": "2026-11-27",
+      "purpose": "Correct English and Persian Help wording for nine Draft entries after direct comparison with the R47 source. Keep all nine entries CONTENT_DRAFT and excluded from the runtime bundle until all remaining language versions are reviewed.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js",
+        "docs/HELP_ID_REGISTRY_DRAFT.json",
+        "docs/HELP_RUNTIME_MAPPING_DRAFT.json",
+        "docs/HELP_HANDLER_SELECTOR_REFINEMENT_31_DRAFT.json",
+        "docs/HELP_HANDLER_SELECTOR_REFINEMENT_31_20261127.md",
+        "docs/HELP_RUNTIME_ENGINE_R46_IMPLEMENTATION_20261127.md",
+        "docs/HELP_EN_FA_CONTENT_AUDIT_9_20261127.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "pending",
+      "previewPullRequestNumber": 96,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "R48 identity and updated 24-asset pins prepared; PR gate pending."
+      },
+      "staticChecks": {
+        "result": "PASS WITH LIMITATIONS",
+        "details": "The nine revised EN/FA entries were checked against their exact source contexts and remain CONTENT_DRAFT. The runtime data bundle still contains only 132 CONTENT_COMPLETE entries across 11 languages. V8 syntax compilation and bundle completeness checks are pending final verification; no browser test."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "PR #96 remains Draft; no Preview Pages deployment was triggered."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting authorized Preview deployment and user verification in iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview only",
+        "details": "User directed continuation of User Guide/Help ID work. No Production promotion authorized."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",

@@ -5,10 +5,10 @@
   "branch": "development",
   "baseline": {
     "runtime_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
-    "runtime_blob_sha": "84b399672802c61ffa5d41aad2d44116fb5f87f2",
-    "registry_blob_sha": "bd77bf94bb65d10ca4a4c9407b2a68e59be149d3",
+    "runtime_blob_sha": "77fc513765a261022cb84405b0ce08b04b4ee694",
+    "registry_blob_sha": "f63754128fd09125290df4045f6f4b6fc03b3545",
     "inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
-    "help_content_blob_sha": "ca922e3ddfe97f1fdf517501cfac6944c090ece2",
+    "help_content_blob_sha": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
     "help_runtime_blob_sha": "e7b7a713478bdb7ec65b52ee7f526dd418770dbd"
   },
   "policy": {
@@ -33,7 +33,7 @@
       "DYNAMIC_TEMPLATE_CANDIDATE": 2,
       "EXEMPT_NOT_MAPPED": 1
     },
-    "notes": "R47 adds five explicit data-help-id attributes to completed dynamic templates. Combined with the 14 static allowlist bindings, 19 controls are now wired. Twelve remaining reviewed targets are not attached because their content is Draft (two static, ten dynamic). No browser test or deployment has occurred.",
+    "notes": "R48 corrects English/Persian wording for nine Draft entries after source-context review. Their overall status remains CONTENT_DRAFT because other language versions are not yet reviewed; they remain excluded from runtime publication and attachment. Nineteen other controls remain wired in source, with browser verification pending.",
     "runtime_publishable_entries": 132,
     "runtime_languages": 11,
     "static_controls_attached": 14,
@@ -42,7 +42,8 @@
     "help_ids_attached": 19,
     "browser_tests_run": 0,
     "dynamic_template_controls_attached": 5,
-    "draft_controls_skipped": 12
+    "draft_controls_skipped": 12,
+    "en_fa_draft_entries_corrected": 9
   },
   "mappings": [
     {
