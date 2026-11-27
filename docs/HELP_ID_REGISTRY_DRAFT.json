@@ -12581,7 +12581,7 @@
       "audit_ref": "INV-148",
       "element_id": null,
       "label": "Edit",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Loads an existing income or expense record into the entry form for editing.",
@@ -12679,7 +12679,7 @@
       "audit_ref": "INV-149",
       "element_id": null,
       "label": "Delete",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Moves the selected income or expense entry to Deleted Records using a soft-delete operation.",
@@ -12777,7 +12777,7 @@
       "audit_ref": "INV-150",
       "element_id": null,
       "label": "View",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens a deleted invoice from the Deleted Records list in an on-screen, read-only invoice preview.",
@@ -12875,7 +12875,7 @@
       "audit_ref": "INV-151",
       "element_id": null,
       "label": "View",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens a read-only view of a deleted Accountancy entry.",
