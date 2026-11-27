@@ -8018,6 +8018,78 @@
           "inputs": "برای هر ردیف باید یک شریک ذخیره‌شده انتخاب شود و درصد سهم هر شریک باید بیشتر از ۰٪ و حداکثر ۱۰۰٪ باشد. یک شریک را نمی‌توان بیش از یک بار اضافه کرد. هنگام ذخیره پروژه، مجموع سهم صاحب کسب‌وکار و تمام شرکا باید دقیقاً ۱۰۰٪ باشد.",
           "result": "یک انتخاب‌گر شریک و فیلد درصد سهم به فرم پروژه فعلی اضافه می‌شود و مجموع سهم‌های نمایش‌داده‌شده دوباره محاسبه می‌شود.",
           "notes": "افزودن ردیف به‌تنهایی پروژه را ذخیره نمی‌کند. درصدهای توافق‌شده را تأیید کنید؛ پروژه با شریک انتخاب‌نشده، شریک تکراری یا مجموعی غیر از دقیقاً ۱۰۰٪ ذخیره نمی‌شود."
+        },
+        "ar": {
+          "purpose": "يضيف صفاً إضافياً للشريك إلى قسم تقاسم أرباح المشروع.",
+          "when": "استخدم هذا الخيار عندما يلزم إدراج شريك آخر في ترتيب تقاسم الأرباح للمشروع الحالي.",
+          "how": "اختر Add Partner. في الصف الجديد، اختر شريكاً محفوظاً وأدخل نسبة حصته. عدّل حصة المالك ونسب الشركاء الآخرين عند الحاجة.",
+          "inputs": "يجب اختيار شريك محفوظ لكل صف، ويجب أن تكون حصة كل شريك أكبر من 0% ولا تتجاوز 100%. لا يمكن إضافة الشريك نفسه أكثر من مرة. عند حفظ المشروع، يجب أن يساوي مجموع حصة المالك وحصص الشركاء 100% بالضبط.",
+          "result": "يُضاف محدد شريك جديد وحقل نسبة إلى نموذج المشروع الحالي، ويُعاد حساب إجمالي الحصص المعروض.",
+          "notes": "إضافة صف لا تحفظ المشروع بحد ذاتها. تحقق من النسب المتفق عليها؛ لا يمكن حفظ المشروع مع شركاء غير محددين أو مكررين أو بإجمالي لا يساوي 100% تماماً."
+        },
+        "ckb": {
+          "purpose": "ڕیزێکی زیادەی هاوبەش بۆ بەشی دابەشکردنی قازانجی پڕۆژە زیاد دەکات.",
+          "when": "کاتێک پێویستە هاوبەشێکی تر لە ڕێککەوتنی دابەشکردنی قازانجی پڕۆژەی ئێستادا تۆمار بکرێت، ئەم هەڵبژاردەیە بەکاربهێنە.",
+          "how": "Add Partner هەڵبژێرە. لە ڕیزی نوێدا هاوبەشێکی پاشەکەوتکراو هەڵبژێرە و ڕێژەی بەشی ئەو بنووسە. ئەگەر پێویست بوو بەشی خاوەن و هاوبەشەکانی تر ڕێک بخە.",
+          "inputs": "بۆ هەر ڕیزێک دەبێت هاوبەشێکی پاشەکەوتکراو هەڵبژێردرێت، و بەشی هەر هاوبەشێک دەبێت لە ٠٪ زیاتر و لە ١٠٠٪ زیاتر نەبێت. هەمان هاوبەش ناتوانرێت زیاتر لە جارێک زیاد بکرێت. لە کاتی پاشەکەوتکردنی پڕۆژە، کۆی بەشی خاوەن و هەموو بەشەکانی هاوبەشان دەبێت بە تەواوی ١٠٠٪ بێت.",
+          "result": "هەڵبژێری هاوبەشی نوێ و خانەی ڕێژە بۆ فۆڕمی پڕۆژەی ئێستا زیاد دەکرێت و کۆی بەشە پیشاندراوەکان دووبارە هەژمار دەکرێتەوە.",
+          "notes": "زیادکردنی ڕیز بە تەنها پڕۆژە پاشەکەوت ناکات. ڕێژە ڕێککەوتووەکان پشتڕاست بکەوە؛ پڕۆژە بە هاوبەشی هەڵنەبژێردراو، هاوبەشی دووبارە یان کۆیەک کە بە تەواوی ١٠٠٪ نییە پاشەکەوت ناکرێت."
+        },
+        "kmr": {
+          "purpose": "Rêzeke din a hevparan li beşa parvekirina qezenca projeyê zêde dike.",
+          "when": "Vê bikar bîne dema ku divê hevparekî din di peymana parvekirina qezenca projeya heyî de bê zêdekirin.",
+          "how": "Add Partner hilbijêre. Di rêza nû de hevparekî tomarkirî hilbijêre û rêjeya para wî binivîse. Heke pêwîst be para xwedî û hevparên din biguherîne.",
+          "inputs": "Ji bo her rêzekê divê hevparekî tomarkirî were hilbijartin, û para her hevpar divê ji 0% mezintir û ji 100% ne mezintir be. Hevparê heman kesî nikare ji yek carî zêdetir were zêdekirin. Dema projeyê tomar dikî, tevahiya para xwedî û hemû parên hevparan divê tam 100% be.",
+          "result": "Hilbijêra hevparekî nû û qada rêjeyê li forma projeya heyî tê zêdekirin, û giştê parên xuya dîsa tê hesabkirin.",
+          "notes": "Zêdekirina rêzekê bi xwe projeyê tomar nake. Rêjeyên lihevhatî piştrast bike; projeyê bi hevparên bêhilbijartin, hevparên dubare an giştê ji bilî tam 100% nayê tomarkirin."
+        },
+        "tr": {
+          "purpose": "Proje kâr paylaşımı bölümüne ek bir ortak satırı ekler.",
+          "when": "Mevcut projenin kâr paylaşımı düzenlemesine başka bir ortak eklenmesi gerektiğinde kullanın.",
+          "how": "Add Partner seçeneğini belirleyin. Yeni satırda kayıtlı bir ortak seçin ve bu ortağın yüzdesini girin. Gerekirse işletme sahibinin ve diğer ortakların yüzdelerini ayarlayın.",
+          "inputs": "Her satır için kayıtlı bir ortak seçilmelidir ve her ortağın payı %0'dan büyük, %100'den fazla olmamalıdır. Aynı ortak birden fazla eklenemez. Proje kaydedilirken işletme sahibinin payı ile tüm ortak paylarının toplamı tam olarak %100 olmalıdır.",
+          "result": "Mevcut proje formuna yeni bir ortak seçici ve yüzde alanı eklenir; görüntülenen toplam pay yeniden hesaplanır.",
+          "notes": "Satır eklemek tek başına projeyi kaydetmez. Anlaşılan yüzdeleri doğrulayın; seçilmemiş veya yinelenen ortaklar ya da tam %100 olmayan toplamla proje kaydedilemez."
+        },
+        "pl": {
+          "purpose": "Dodaje kolejny wiersz partnera do sekcji podziału zysku projektu.",
+          "when": "Użyj tej opcji, gdy do podziału zysku bieżącego projektu trzeba dodać kolejnego partnera.",
+          "how": "Wybierz Add Partner. W nowym wierszu wybierz zapisanego partnera i wpisz procent jego udziału. W razie potrzeby dostosuj udział właściciela i pozostałych partnerów.",
+          "inputs": "W każdym wierszu trzeba wybrać zapisanego partnera, a udział każdego partnera musi być większy niż 0% i nie większy niż 100%. Tego samego partnera nie można dodać więcej niż raz. Podczas zapisywania projektu udział właściciela wraz ze wszystkimi udziałami partnerów musi wynosić dokładnie 100%.",
+          "result": "Do bieżącego formularza projektu dodawany jest nowy selektor partnera i pole procentowe, a wyświetlana suma udziałów jest ponownie obliczana.",
+          "notes": "Samo dodanie wiersza nie zapisuje projektu. Sprawdź uzgodnione udziały; projektu nie można zapisać z brakującym partnerem, powielonym partnerem ani sumą inną niż dokładnie 100%."
+        },
+        "ur": {
+          "purpose": "منصوبے میں منافع کی تقسیم والے حصے میں ایک اضافی پارٹنر کی قطار شامل کرتا ہے۔",
+          "when": "اسے اس وقت استعمال کریں جب موجودہ منصوبے کے منافع کی تقسیم کے انتظام میں ایک اور پارٹنر شامل کرنا ہو۔",
+          "how": "Add Partner منتخب کریں۔ نئی قطار میں محفوظ شدہ پارٹنر منتخب کریں اور اس کا حصہ فیصد میں درج کریں۔ ضرورت کے مطابق مالک اور دیگر پارٹنرز کے حصے تبدیل کریں۔",
+          "inputs": "ہر قطار کے لیے محفوظ شدہ پارٹنر منتخب کرنا ضروری ہے اور ہر پارٹنر کا حصہ 0% سے زیادہ اور 100% سے زیادہ نہیں ہونا چاہیے۔ ایک ہی پارٹنر کو ایک سے زیادہ مرتبہ شامل نہیں کیا جا سکتا۔ منصوبہ محفوظ کرتے وقت مالک اور تمام پارٹنرز کے حصوں کا مجموعہ بالکل 100% ہونا چاہیے۔",
+          "result": "موجودہ منصوبہ فارم میں پارٹنر منتخب کرنے کا نیا اختیار اور فیصد کا خانہ شامل ہوتا ہے، اور دکھایا گیا مجموعی حصہ دوبارہ شمار ہوتا ہے۔",
+          "notes": "قطار شامل کرنے سے منصوبہ خود بخود محفوظ نہیں ہوتا۔ طے شدہ فیصد کی تصدیق کریں؛ غیر منتخب یا دہرائے گئے پارٹنرز، یا بالکل 100% نہ ہونے والے مجموعے کے ساتھ منصوبہ محفوظ نہیں ہو سکتا۔"
+        },
+        "pa": {
+          "purpose": "ਪ੍ਰੋਜੈਕਟ ਦੇ ਮੁਨਾਫ਼ਾ ਵੰਡ ਭਾਗ ਵਿੱਚ ਇੱਕ ਹੋਰ ਭਾਈਵਾਲ ਦੀ ਕਤਾਰ ਜੋੜਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਦੇ ਮੁਨਾਫ਼ਾ ਵੰਡ ਪ੍ਰਬੰਧ ਵਿੱਚ ਇੱਕ ਹੋਰ ਭਾਈਵਾਲ ਸ਼ਾਮਲ ਕਰਨਾ ਹੋਵੇ।",
+          "how": "Add Partner ਚੁਣੋ। ਨਵੀਂ ਕਤਾਰ ਵਿੱਚ ਸੰਭਾਲਿਆ ਹੋਇਆ ਭਾਈਵਾਲ ਚੁਣੋ ਅਤੇ ਉਸਦਾ ਹਿੱਸਾ ਪ੍ਰਤੀਸ਼ਤ ਵਿੱਚ ਦਰਜ ਕਰੋ। ਲੋੜ ਅਨੁਸਾਰ ਮਾਲਕ ਅਤੇ ਹੋਰ ਭਾਈਵਾਲਾਂ ਦੇ ਹਿੱਸੇ ਬਦਲੋ।",
+          "inputs": "ਹਰ ਕਤਾਰ ਲਈ ਸੰਭਾਲਿਆ ਹੋਇਆ ਭਾਈਵਾਲ ਚੁਣਨਾ ਲਾਜ਼ਮੀ ਹੈ ਅਤੇ ਹਰ ਭਾਈਵਾਲ ਦਾ ਹਿੱਸਾ 0% ਤੋਂ ਵੱਧ ਅਤੇ 100% ਤੋਂ ਵੱਧ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ। ਇੱਕੋ ਭਾਈਵਾਲ ਨੂੰ ਇੱਕ ਤੋਂ ਵੱਧ ਵਾਰ ਨਹੀਂ ਜੋੜਿਆ ਜਾ ਸਕਦਾ। ਪ੍ਰੋਜੈਕਟ ਸੇਵ ਕਰਦੇ ਸਮੇਂ ਮਾਲਕ ਅਤੇ ਸਾਰੇ ਭਾਈਵਾਲਾਂ ਦੇ ਹਿੱਸਿਆਂ ਦਾ ਜੋੜ ਬਿਲਕੁਲ 100% ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।",
+          "result": "ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਫਾਰਮ ਵਿੱਚ ਨਵਾਂ ਭਾਈਵਾਲ ਚੋਣਕਾਰ ਅਤੇ ਪ੍ਰਤੀਸ਼ਤ ਖੇਤਰ ਜੋੜਿਆ ਜਾਂਦਾ ਹੈ ਅਤੇ ਦਿਖਾਇਆ ਗਿਆ ਕੁੱਲ ਹਿੱਸਾ ਮੁੜ ਗਿਣਿਆ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਕਤਾਰ ਜੋੜਨ ਨਾਲ ਪ੍ਰੋਜੈਕਟ ਆਪਣੇ ਆਪ ਸੇਵ ਨਹੀਂ ਹੁੰਦਾ। ਤੈਅ ਕੀਤੇ ਪ੍ਰਤੀਸ਼ਤਾਂ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ; ਗੁੰਮ ਜਾਂ ਦੁਹਰਾਏ ਭਾਈਵਾਲਾਂ ਜਾਂ ਬਿਲਕੁਲ 100% ਨਾ ਬਣਨ ਵਾਲੇ ਜੋੜ ਨਾਲ ਪ੍ਰੋਜੈਕਟ ਸੇਵ ਨਹੀਂ ਹੋ ਸਕਦਾ।"
+        },
+        "prs": {
+          "purpose": "یک ردیف دیگر برای شریک به بخش تقسیم سود پروژه اضافه می‌کند.",
+          "when": "وقتی لازم است شریک دیگری در توافق تقسیم سود پروژه فعلی وارد شود، از این گزینه استفاده کنید.",
+          "how": "Add Partner را انتخاب کنید. در ردیف جدید یک شریک ذخیره‌شده انتخاب و درصد سهم او را وارد کنید. در صورت نیاز سهم مالک و سایر شرکا را تنظیم کنید.",
+          "inputs": "برای هر ردیف باید یک شریک ذخیره‌شده انتخاب شود و سهم هر شریک باید بیشتر از ۰٪ و حداکثر ۱۰۰٪ باشد. یک شریک را نمی‌توان بیش از یک بار اضافه کرد. هنگام ذخیره پروژه، مجموع سهم مالک و تمام شرکا باید دقیقاً ۱۰۰٪ باشد.",
+          "result": "یک انتخاب‌گر شریک و فیلد درصد جدید به فرم پروژه فعلی اضافه می‌شود و مجموع سهم نمایش‌داده‌شده دوباره محاسبه می‌شود.",
+          "notes": "افزودن ردیف به‌تنهایی پروژه را ذخیره نمی‌کند. درصدهای توافق‌شده را تأیید کنید؛ پروژه با شریک انتخاب‌نشده، شریک تکراری یا مجموعی غیر از دقیقاً ۱۰۰٪ ذخیره نمی‌شود."
+        },
+        "ps": {
+          "purpose": "د پروژې د ګټې د وېش برخې ته د بل شریک لپاره نوې کرښه زیاتوي.",
+          "when": "دا هغه وخت وکاروئ چې د اوسني پروژې د ګټې د وېش په تړون کې بل شریک شاملول اړین وي.",
+          "how": "Add Partner وټاکئ. په نوې کرښه کې یو خوندي شوی شریک وټاکئ او د هغه د ونډې سلنه ولیکئ. د اړتیا په صورت کې د مالک او نورو شریکانو ونډې تنظیم کړئ.",
+          "inputs": "د هرې کرښې لپاره باید یو خوندي شوی شریک وټاکل شي، او د هر شریک ونډه باید له ۰٪ زیاته او له ۱۰۰٪ زیاته نه وي. یو شریک له یو ځل څخه زیات نه شي زیاتېدای. د پروژې د خوندي کولو پر مهال د مالک او ټولو شریکانو د ونډو مجموعه باید دقیقاً ۱۰۰٪ وي.",
+          "result": "د اوسني پروژې فورم ته د شریک نوی ټاکونکی او د سلنې خانه زیاتېږي، او ښودل شوې د ونډو مجموعه بیا حسابېږي.",
+          "notes": "د کرښې زیاتول پخپله پروژه نه خوندي کوي. منل شوې سلنې تایید کړئ؛ پروژه د ناتاکل شوي یا تکراري شریک، یا له دقیقاً ۱۰۰٪ پرته مجموعې سره نه شي خوندي کېدای."
         }
       },
       "handler_or_behavior": "`prAddPartnerShareRow()`"
@@ -8044,6 +8116,78 @@
           "inputs": "نام پروژه نباید خالی باشد. اگر تقسیم سهم شرکا فعال است، باید دست‌کم یک شریک انتخاب شود؛ هر شریک باید یکتا باشد؛ سهم هر شریک باید بیشتر از ۰٪ و حداکثر ۱۰۰٪ باشد؛ و مجموع سهم صاحب کسب‌وکار و شرکا باید دقیقاً ۱۰۰٪ شود.",
           "result": "اگر اعتبارسنجی موفق باشد و ذخیره و تأیید در IndexedDB انجام شود، پروژه ذخیره و پیام Project saved successfully نمایش داده می‌شود. اگر اعتبارسنجی یا ذخیره شکست بخورد، پیام خطا نمایش داده می‌شود و نباید ذخیره را موفق تلقی کرد.",
           "notes": "عملیات ذخیره از ارسال هم‌زمان چندباره جلوگیری می‌کند و دکمه ذخیره را موقتاً غیرفعال می‌سازد. تا زمانی که پیام وضعیت موفقیت را تأیید نکرده، از صفحه خارج نشوید و ذخیره را موفق فرض نکنید. داده‌های پروژه جدا از Accountancy نگهداری می‌شوند."
+        },
+        "ar": {
+          "purpose": "يتحقق من نموذج المشروع الحالي ويحفظ سجل المشروع في مخزن بيانات Projects.",
+          "when": "استخدم هذا الخيار بعد إدخال مشروع جديد أو إجراء تغييرات على نموذج مشروع موجود.",
+          "how": "راجع اسم المشروع وتفاصيله ونوع العقد والصورة الاختيارية ونسب تقاسم الشركاء. اختر Save Project وانتظر رسالة الحالة لتأكيد النتيجة.",
+          "inputs": "اسم المشروع غير الفارغ مطلوب. إذا تم تفعيل تقاسم الشركاء، فيجب اختيار شريك واحد على الأقل، ويجب أن يكون كل شريك فريداً، وأن تتجاوز حصة كل شريك 0% ولا تزيد على 100%، وأن يساوي مجموع حصة المالك وحصص الشركاء 100% بالضبط.",
+          "result": "إذا نجح التحقق والحفظ في IndexedDB والتحقق من الحفظ، يُحفظ المشروع وتظهر الحالة Project saved successfully. إذا فشل التحقق أو الحفظ، تظهر رسالة خطأ ولا ينبغي اعتبار العملية ناجحة.",
+          "notes": "تمنع عملية الحفظ إرسال طلبات متعددة متزامنة وتعطّل زر الحفظ مؤقتاً. لا تغادر الصفحة ولا تفترض النجاح حتى تؤكده رسالة الحالة. تُخزّن بيانات المشروع بشكل منفصل عن Accountancy."
+        },
+        "ckb": {
+          "purpose": "فۆڕمی پڕۆژەی ئێستا پشتڕاست دەکاتەوە و تۆماری پڕۆژە لە کۆگای داتای Projects پاشەکەوت دەکات.",
+          "when": "دوای داخڵکردنی پڕۆژەیەکی نوێ یان گۆڕانکاری لە فۆڕمی پڕۆژەیەکی هەبوو، ئەم هەڵبژاردەیە بەکاربهێنە.",
+          "how": "ناوی پڕۆژە و وردەکارییەکان، جۆری گرێبەست، وێنەی ئارەزوومەندانە و ڕێژەکانی هاوبەشکردن بپشکنە. Save Project هەڵبژێرە و چاوەڕێی پەیامی دۆخ بکە تا ئەنجامەکە پشتڕاست بکاتەوە.",
+          "inputs": "ناوی پڕۆژە نابێت بەتاڵ بێت. ئەگەر هاوبەشکردن چالاک بێت، دەبێت لانیکەم یەک هاوبەش هەڵبژێردرێت، هەر هاوبەشێک جیاواز بێت، بەشی هەر هاوبەشێک لە ٠٪ زیاتر و لە ١٠٠٪ زیاتر نەبێت، و کۆی بەشی خاوەن و هاوبەشان بە تەواوی ١٠٠٪ بێت.",
+          "result": "ئەگەر پشتڕاستکردنەوە و پاشەکەوتکردن و پشکنینی IndexedDB سەرکەوتوو بن، پڕۆژەکە پاشەکەوت دەکرێت و دۆخ Project saved successfully پیشان دەدات. ئەگەر پشتڕاستکردنەوە یان پاشەکەوتکردن سەرکەوتوو نەبێت، هەڵەیەک پیشان دەدرێت و نابێت کردارەکە بە سەرکەوتوو دابنرێت.",
+          "notes": "کرداری پاشەکەوتکردن لە ناردنی داواکارییە هاوکاتە دووبارەکان ڕێگری دەکات و دوگمەی پاشەکەوتکردن بۆ ماوەیەک ناچالاک دەکات. پەڕەکە جێمەهێڵە و سەرکەوتن مەزانە تا پەیامی دۆخ پشتڕاستی بکاتەوە. داتای پڕۆژە جیا لە Accountancy هەڵدەگیرێت."
+        },
+        "kmr": {
+          "purpose": "Forma projeya heyî verast dike û tomara projeyê li depoya daneyên Projects tomar dike.",
+          "when": "Vê bikar bîne piştî ku projeyeke nû têxî an di forma projeyeke heyî de guhertinan çêdikî.",
+          "how": "Nav û hûrguliyên projeyê, cureya peymanê, wêneya vebijarkî û rêjeyên parvekirina hevparan kontrol bike. Save Project hilbijêre û li benda peyama rewşê bimîne da encamê piştrast bike.",
+          "inputs": "Navê projeyê divê vala nebe. Heke parvekirina hevparan çalak be, divê herî kêm yek hevpar were hilbijartin, her hevpar yekta be, para her hevpar ji 0% mezintir û ji 100% ne mezintir be, û tevahiya para xwedî û hevparan tam 100% bike.",
+          "result": "Heke verastkirin, tomarkirina IndexedDB û verastkirina wê serkeftî bin, proje tê tomarkirin û rewş Project saved successfully nîşan dide. Heke verastkirin an tomarkirin bi ser nekeve, çewtiyek tê nîşandan û divê tomarkirin wekî serkeftî neyê hesibandin.",
+          "notes": "Operasyona tomarkirinê ji şandina daxwazên dubare yên heman demê re digire û bişkokê ji bo demeke kurt neçalak dike. Ji rûpelê dernekeve û serkeftin texmîn neke heta peyama rewşê wê piştrast bike. Daneyên projeyê ji Accountancy cuda tên hilanîn."
+        },
+        "tr": {
+          "purpose": "Mevcut proje formunu doğrular ve proje kaydını Projects veri deposuna kaydeder.",
+          "when": "Yeni bir proje girdikten veya mevcut bir proje formunda değişiklik yaptıktan sonra kullanın.",
+          "how": "Proje adını ve ayrıntılarını, sözleşme türünü, isteğe bağlı fotoğrafı ve ortaklık yüzdelerini inceleyin. Save Project'i seçin ve sonucu doğrulayan durum mesajını bekleyin.",
+          "inputs": "Boş olmayan bir proje adı zorunludur. Ortak paylaşımı etkinse en az bir ortak seçilmeli, her ortak benzersiz olmalı, her ortağın payı %0'dan büyük ve en fazla %100 olmalı ve işletme sahibinin payı ile ortak paylarının toplamı tam olarak %100 olmalıdır.",
+          "result": "Doğrulama, IndexedDB kaydı ve kayıt doğrulaması başarılı olursa proje kaydedilir ve durumda Project saved successfully görüntülenir. Doğrulama veya kayıt başarısız olursa hata gösterilir ve kayıt başarılı kabul edilmemelidir.",
+          "notes": "Kaydetme işlemi eşzamanlı yinelenen gönderimleri önler ve kaydetme düğmesini geçici olarak devre dışı bırakır. Durum mesajı onaylamadan sayfadan ayrılmayın veya işlemin başarılı olduğunu varsaymayın. Proje verileri Accountancy'den ayrı saklanır."
+        },
+        "pl": {
+          "purpose": "Weryfikuje bieżący formularz projektu i zapisuje rekord projektu w magazynie danych Projects.",
+          "when": "Użyj tej opcji po wprowadzeniu nowego projektu lub zmianach w formularzu istniejącego projektu.",
+          "how": "Sprawdź nazwę i szczegóły projektu, typ umowy, opcjonalne zdjęcie oraz udziały partnerów. Wybierz Save Project i poczekaj na komunikat statusu potwierdzający wynik.",
+          "inputs": "Wymagana jest niepusta nazwa projektu. Jeśli podział udziałów partnerów jest włączony, trzeba wybrać co najmniej jednego partnera, każdy partner musi być unikalny, udział każdego partnera musi być większy niż 0% i nie większy niż 100%, a suma udziału właściciela i partnerów musi wynosić dokładnie 100%.",
+          "result": "Jeśli walidacja, zapis w IndexedDB i weryfikacja zapisu zakończą się powodzeniem, projekt zostanie zapisany, a status pokaże Project saved successfully. Jeśli walidacja lub zapis się nie powiedzie, pojawi się błąd i nie należy uznawać zapisu za udany.",
+          "notes": "Operacja zapisu zapobiega równoczesnym, powielonym wysłaniom i tymczasowo wyłącza przycisk zapisu. Nie opuszczaj strony ani nie zakładaj powodzenia, dopóki komunikat statusu go nie potwierdzi. Dane projektu są przechowywane oddzielnie od Accountancy."
+        },
+        "ur": {
+          "purpose": "موجودہ منصوبہ فارم کی جانچ کرتا ہے اور منصوبے کا ریکارڈ Projects ڈیٹا اسٹور میں محفوظ کرتا ہے۔",
+          "when": "اسے نیا منصوبہ درج کرنے یا موجودہ منصوبے کے فارم میں تبدیلیاں کرنے کے بعد استعمال کریں۔",
+          "how": "منصوبے کا نام اور تفصیلات، معاہدے کی قسم، اختیاری تصویر اور پارٹنرز کے حصوں کے فیصد دیکھیں۔ Save Project منتخب کریں اور نتیجے کی تصدیق کرنے والے حالت کے پیغام کا انتظار کریں۔",
+          "inputs": "منصوبے کا نام خالی نہیں ہونا چاہیے۔ اگر پارٹنر حصہ داری فعال ہو تو کم از کم ایک پارٹنر منتخب ہونا چاہیے، ہر پارٹنر منفرد ہو، ہر پارٹنر کا حصہ 0% سے زیادہ اور 100% سے زیادہ نہ ہو، اور مالک اور تمام پارٹنرز کے حصوں کا مجموعہ بالکل 100% ہو۔",
+          "result": "اگر جانچ، IndexedDB میں محفوظ کرنا اور محفوظ شدہ ڈیٹا کی تصدیق کامیاب ہو تو منصوبہ محفوظ ہوتا ہے اور حالت میں Project saved successfully دکھائی دیتا ہے۔ ناکامی پر خرابی دکھائی جاتی ہے اور محفوظ کرنے کو کامیاب نہیں سمجھنا چاہیے۔",
+          "notes": "محفوظ کرنے کا عمل بیک وقت بار بار جمع کرانے سے روکتا ہے اور محفوظ کرنے کا بٹن عارضی طور پر غیر فعال کرتا ہے۔ حالت کا پیغام تصدیق نہ کرے تو صفحہ نہ چھوڑیں اور کامیابی فرض نہ کریں۔ منصوبے کا ڈیٹا Accountancy سے الگ محفوظ ہوتا ہے۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਫਾਰਮ ਦੀ ਜਾਂਚ ਕਰਦਾ ਹੈ ਅਤੇ ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਨੂੰ Projects ਡਾਟਾ ਸਟੋਰ ਵਿੱਚ ਸੇਵ ਕਰਦਾ ਹੈ।",
+          "when": "ਨਵਾਂ ਪ੍ਰੋਜੈਕਟ ਦਰਜ ਕਰਨ ਜਾਂ ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਫਾਰਮ ਵਿੱਚ ਤਬਦੀਲੀਆਂ ਕਰਨ ਤੋਂ ਬਾਅਦ ਇਸਦੀ ਵਰਤੋਂ ਕਰੋ।",
+          "how": "ਪ੍ਰੋਜੈਕਟ ਦਾ ਨਾਮ ਅਤੇ ਵੇਰਵੇ, ਠੇਕੇ ਦੀ ਕਿਸਮ, ਵਿਕਲਪਿਕ ਫੋਟੋ ਅਤੇ ਭਾਈਵਾਲਾਂ ਦੇ ਹਿੱਸਿਆਂ ਦੀਆਂ ਪ੍ਰਤੀਸ਼ਤਾਂ ਜਾਂਚੋ। Save Project ਚੁਣੋ ਅਤੇ ਨਤੀਜੇ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਵਾਲੇ ਸਥਿਤੀ ਸੁਨੇਹੇ ਦੀ ਉਡੀਕ ਕਰੋ।",
+          "inputs": "ਪ੍ਰੋਜੈਕਟ ਦਾ ਨਾਮ ਖਾਲੀ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ। ਜੇ ਭਾਈਵਾਲ ਹਿੱਸੇਦਾਰੀ ਚਾਲੂ ਹੈ ਤਾਂ ਘੱਟੋ-ਘੱਟ ਇੱਕ ਭਾਈਵਾਲ ਚੁਣਿਆ ਹੋਵੇ, ਹਰ ਭਾਈਵਾਲ ਵੱਖਰਾ ਹੋਵੇ, ਹਰ ਭਾਈਵਾਲ ਦਾ ਹਿੱਸਾ 0% ਤੋਂ ਵੱਧ ਅਤੇ ਵੱਧ ਤੋਂ ਵੱਧ 100% ਹੋਵੇ, ਅਤੇ ਮਾਲਕ ਤੇ ਸਾਰੇ ਭਾਈਵਾਲਾਂ ਦੇ ਹਿੱਸਿਆਂ ਦਾ ਜੋੜ ਬਿਲਕੁਲ 100% ਹੋਵੇ।",
+          "result": "ਜੇ ਜਾਂਚ, IndexedDB ਵਿੱਚ ਸੇਵ ਕਰਨਾ ਅਤੇ ਸੇਵ ਦੀ ਤਸਦੀਕ ਸਫਲ ਹੋਵੇ ਤਾਂ ਪ੍ਰੋਜੈਕਟ ਸੇਵ ਹੁੰਦਾ ਹੈ ਅਤੇ ਸਥਿਤੀ ਵਿੱਚ Project saved successfully ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ। ਜੇ ਜਾਂਚ ਜਾਂ ਸੇਵ ਕਰਨਾ ਅਸਫਲ ਹੋਵੇ ਤਾਂ ਗਲਤੀ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ ਅਤੇ ਸੇਵ ਨੂੰ ਸਫਲ ਨਹੀਂ ਮੰਨਣਾ ਚਾਹੀਦਾ।",
+          "notes": "ਸੇਵ ਕਾਰਵਾਈ ਇੱਕੋ ਸਮੇਂ ਦੁਹਰਾਈਆਂ ਸਬਮਿਸ਼ਨਾਂ ਨੂੰ ਰੋਕਦੀ ਹੈ ਅਤੇ ਸੇਵ ਬਟਨ ਨੂੰ ਅਸਥਾਈ ਤੌਰ 'ਤੇ ਬੰਦ ਕਰਦੀ ਹੈ। ਸਥਿਤੀ ਸੁਨੇਹਾ ਪੁਸ਼ਟੀ ਨਾ ਕਰੇ ਤਾਂ ਪੰਨੇ ਤੋਂ ਨਾ ਜਾਓ ਅਤੇ ਸਫਲਤਾ ਨਾ ਮੰਨੋ। ਪ੍ਰੋਜੈਕਟ ਡਾਟਾ Accountancy ਤੋਂ ਵੱਖਰਾ ਸੰਭਾਲਿਆ ਜਾਂਦਾ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "فرم فعلی پروژه را اعتبارسنجی می‌کند و سابقه پروژه را در مخزن داده Projects ذخیره می‌کند.",
+          "when": "پس از واردکردن پروژه جدید یا اعمال تغییرات در فرم پروژه موجود، از این گزینه استفاده کنید.",
+          "how": "نام و جزئیات پروژه، نوع قرارداد، عکس اختیاری و درصدهای تقسیم سهم شرکا را بررسی کنید. Save Project را انتخاب کنید و منتظر پیام وضعیت برای تأیید نتیجه بمانید.",
+          "inputs": "نام پروژه نباید خالی باشد. اگر تقسیم سهم شرکا فعال است، باید دست‌کم یک شریک انتخاب شود؛ هر شریک باید یکتا باشد؛ سهم هر شریک باید بیشتر از ۰٪ و حداکثر ۱۰۰٪ باشد؛ و مجموع سهم مالک و شرکا باید دقیقاً ۱۰۰٪ شود.",
+          "result": "اگر اعتبارسنجی، ذخیره در IndexedDB و تأیید ذخیره موفق باشد، پروژه ذخیره می‌شود و وضعیت Project saved successfully را نمایش می‌دهد. اگر اعتبارسنجی یا ذخیره شکست بخورد، خطا نمایش داده می‌شود و نباید ذخیره را موفق تلقی کرد.",
+          "notes": "عملیات ذخیره از ارسال هم‌زمان و تکراری جلوگیری می‌کند و دکمه ذخیره را موقتاً غیرفعال می‌سازد. تا زمانی که پیام وضعیت موفقیت را تأیید نکرده، از صفحه خارج نشوید و موفقیت را فرض نکنید. داده‌های پروژه جدا از Accountancy ذخیره می‌شوند."
+        },
+        "ps": {
+          "purpose": "د پروژې اوسنی فورم تاییدوي او د پروژې ریکارډ د Projects د معلوماتو زېرمتون ته خوندي کوي.",
+          "when": "دا د نوې پروژې له داخلولو یا د موجودې پروژې په فورم کې د بدلونونو له راوستلو وروسته وکاروئ.",
+          "how": "د پروژې نوم او جزئیات، د قرارداد ډول، اختیاري انځور او د شریکانو د ونډو سلنې وګورئ. Save Project وټاکئ او د پایلې د تایید لپاره د حالت پیغام ته انتظار وکړئ.",
+          "inputs": "د پروژې نوم باید تش نه وي. که د شریکانو ونډه فعاله وي، لږ تر لږه یو شریک باید وټاکل شي، هر شریک باید بېل وي، د هر شریک ونډه باید له ۰٪ زیاته او تر ۱۰۰٪ زیاته نه وي، او د مالک او ټولو شریکانو د ونډو مجموعه باید دقیقاً ۱۰۰٪ وي.",
+          "result": "که تایید، په IndexedDB کې خوندي کول او د خوندي کېدو تصدیق بریالي شي، پروژه خوندي کېږي او حالت Project saved successfully ښيي. که تایید یا خوندي کول ناکام شي، تېروتنه ښکاري او خوندي کول باید بریالي ونه ګڼل شي.",
+          "notes": "د خوندي کولو کړنه په یو وخت کې د تکراري لېږنو مخه نیسي او د خوندي کولو تڼۍ لنډمهاله بندوي. تر هغه پاڼه مه پرېږدئ او بریا مه انګېرئ چې د حالت پیغام یې تایید نه کړي. د پروژې معلومات له Accountancy څخه جلا ساتل کېږي."
         }
       },
       "handler_or_behavior": "`prSaveProject()`"
