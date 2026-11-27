@@ -19,7 +19,7 @@
 | PDF گزارش مالی روی A4 از چپ و راست در مرکز نیست، برش می‌خورد یا صفحه‌بندی/چاپ مشکل دارد | [PDF-LAYOUT-001](./REPAIR_HISTORY_FA.md#pdf-layout-001--اصلاح-چیدمان-چاپ-گزارش-مالی-برای-a4-و-موبایل) | R8: Share Sheet و block-flow؛ R9: margins 12.5mm؛ R10: حاشیه PDF صفر و مرکزکردن captureRoot با عرض 185mm |
 | عنوان بخش‌ها یا جدول‌ها در PDF گزارش کامل پروژه از محتوای مربوط جدا می‌شود | [PRJ-PDF-001](./REPAIR_HISTORY_FA.md#prj-pdf-001--صفحه‌بندی-گزارش-کامل-پروژه-و-جلوگیری-از-جداافتادن-عنوان-بخشها) | صفحه‌بندی مستقل html2pdf در Project Workspace؛ h3/h4، خلاصه بخش، thead و ردیف‌های جدول |
 
-| دکمه Factory Reset پیش از تأیید واقعی همه پیش‌نیازها فعال می‌شود یا فایل Snapshot/Import اعتبارسنجی نمی‌شود | [SEC-RESET-001](./REPAIR_HISTORY_FA.md#sec-reset-001--گردشکار-factory-reset-ناقص-است-و-دکمه-نهایی-زودهنگام-فعال-میشود) | R1 در Preview development پیاده‌سازی شد؛ guard مستقیم Reset نیز اضافه شد. SHA pin به‌روز است؛ Gate نهایی، Pages deploy و Safari pending هستند. |
+| دکمه Factory Reset پیش از تأیید واقعی همه پیش‌نیازها فعال می‌شود یا فایل Snapshot/Import اعتبارسنجی نمی‌شود | [SEC-RESET-001](./REPAIR_HISTORY_FA.md#sec-reset-001--گردشکار-factory-reset-ناقص-است-و-دکمه-نهایی-زودهنگام-فعال-میشود) | R1 در Preview development پیاده‌سازی شد؛ native HTML و reset runtime هر دو fail-closed هستند. R45 Version Authority Gate PASS؛ Pages deploy و Safari pending هستند. |
 
 ## قاعده نگهداری بدون تکرار
 
