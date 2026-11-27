@@ -8606,6 +8606,78 @@
           "inputs": "برای بازکردن گزارش از صفحه جزئیات پروژه ورودی دیگری لازم نیست. شناسه پروژه انتخاب‌شده استفاده می‌شود. اگر پروژه زیرپروژه داشته باشد، گزارش پروژه اصلی و زیرپروژه‌های آن را دربرمی‌گیرد.",
           "result": "صفحه Project Financial Report برای پروژه انتخاب‌شده باز می‌شود و ارقام مالی تجمیع‌شده و سوابق پشتیبان را نمایش می‌دهد.",
           "notes": "این گزارش از سوابق پروژه و قواعد اختصاصی خود برای احتساب هزینه‌ها استفاده می‌کند. گزارش Accountancy نیست و لزوماً ارقام مالیاتی را نشان نمی‌دهد. پیش از اتکا به نتیجه، پروژه انتخاب‌شده و سوابق زیرپروژه‌های لحاظ‌شده را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يفتح التقرير المالي للمشروع المحدد حالياً.",
+          "when": "استخدم هذا الخيار لمراجعة الدخل المسجل للمشروع المحدد والتكاليف المؤهلة ونتيجته المالية.",
+          "how": "افتح المشروع واختر Report في منطقة إجراءات المشروع. يفتح التطبيق Project Financial Report لذلك المشروع؛ راجع الإجماليات وسجلات المشروع المضمنة.",
+          "inputs": "لا يلزم إدخال إضافي عند تشغيل التقرير من صفحة تفاصيل المشروع. يُستخدم معرّف المشروع المحدد حالياً. يشمل التقرير المشروع الرئيسي ومشاريعه الفرعية إذا كانت موجودة.",
+          "result": "تُفتح صفحة Project Financial Report للمشروع المحدد وتعرض الأرقام المالية المجمعة والسجلات الداعمة.",
+          "notes": "يستخدم التقرير سجلات المشروع وقواعده الخاصة لإدراج التكاليف. وهو ليس تقرير Accountancy ولا يمثل الأرقام الضريبية تلقائياً. تحقق من المشروع المحدد وسجلات المشاريع الفرعية المضمنة قبل الاعتماد على النتيجة."
+        },
+        "ckb": {
+          "purpose": "ڕاپۆرتی دارایی بۆ پڕۆژەی ئێستا هەڵبژێردراو دەکاتەوە.",
+          "when": "کاتێک دەتەوێت داهاتی تۆمارکراو، تێچووی شایستە و ئەنجامی دارایی پڕۆژەی هەڵبژێردراو بپشکنیت، ئەم هەڵبژاردەیە بەکاربهێنە.",
+          "how": "پڕۆژەکە بکەرەوە و لە ناوچەی کردارەکانی پڕۆژە Report هەڵبژێرە. بەرنامە Project Financial Report بۆ ئەو پڕۆژەیە دەکاتەوە؛ کۆی گشتی و تۆمارە پڕۆژە بەشداربووەکان بپشکنە.",
+          "inputs": "کاتێک ڕاپۆرت لە پەڕەی وردەکاری پڕۆژەوە دەکرێتەوە، هیچ داخڵکردنی زیادە پێویست نییە. ناسنامەی پڕۆژەی ئێستا هەڵبژێردراو بەکاردەهێنرێت. ئەگەر پڕۆژەکە ژێرپڕۆژەی هەبێت، ڕاپۆرتەکە پڕۆژەی سەرەکی و ژێرپڕۆژەکانی لەخۆدەگرێت.",
+          "result": "پەڕەی Project Financial Report بۆ پڕۆژەی هەڵبژێردراو دەکرێتەوە و ژمارە داراییە کۆکراوەکان و تۆمارە پشتگیرەکان پیشان دەدات.",
+          "notes": "ڕاپۆرتەکە تۆمارەکانی پڕۆژە و یاساکانی تایبەتی خۆی بۆ هەژمارکردنی تێچوو بەکاردەهێنێت. ڕاپۆرتی Accountancy نییە و بە شێوەیەکی خۆکار ژمارەی باج پیشان نادات. پێش پشتبەستن بە ئەنجامەکە، پڕۆژەی هەڵبژێردراو و تۆمارە ژێرپڕۆژە بەشداربووەکان بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Rapora darayî ya projeya ku niha hatiye hilbijartin vedike.",
+          "when": "Vê bikar bîne dema ku dixwazî dahata tomarkirî, lêçûnên maqûl û encama darayî ya projeya hilbijartî binirxînî.",
+          "how": "Projeyê veke û di qada kiryarên projeyê de Report hilbijêre. Sepan Project Financial Report ji bo wê projeyê vedike; giştên wê û tomarên projeyê yên tê de ne kontrol bike.",
+          "inputs": "Dema ku rapor ji rûpela hûrguliyên projeyê tê vekirin, têketineke din nehewce ye. Nasnameya projeya ku niha hatiye hilbijartin tê bikaranîn. Heke projeyê bin-proje hebin, rapor projeya dêwî û bin-projeyên wê dihewîne.",
+          "result": "Rûpela Project Financial Report ji bo projeya hilbijartî vedibe û hejmarên darayî yên komkirî û tomarên piştgir nîşan dide.",
+          "notes": "Rapor tomarên projeyê û rêgezên xwe yên taybet ji bo têxistina lêçûnan bikar tîne. Ew rapora Accountancy nîne û bi awayekî xweber hejmarên bacê nîşan nade. Berî ku xwe dispêrî encamê bibî, projeya hilbijartî û tomarên bin-projeyên tê de kontrol bike."
+        },
+        "tr": {
+          "purpose": "Şu anda seçili olan projenin finansal raporunu açar.",
+          "when": "Seçilen projenin kaydedilmiş gelirini, uygun maliyetlerini ve finansal sonucunu incelemek için kullanın.",
+          "how": "Projeyi açın ve proje işlem alanında Report seçeneğini belirleyin. Uygulama o proje için Project Financial Report sayfasını açar; toplamları ve dahil edilen proje kayıtlarını inceleyin.",
+          "inputs": "Rapor proje ayrıntı sayfasından açıldığında ek giriş gerekmez. O anda seçili olan proje kimliği kullanılır. Projenin alt projeleri varsa rapor ana projeyi ve alt projelerini kapsar.",
+          "result": "Seçilen proje için Project Financial Report sayfası açılır ve birleştirilmiş finansal rakamları ve destekleyici kayıtları gösterir.",
+          "notes": "Rapor, proje kayıtlarını ve maliyetleri dahil etmek için kendi kurallarını kullanır. Accountancy raporu değildir ve vergi rakamlarını otomatik olarak temsil etmez. Sonuca güvenmeden önce seçilen projeyi ve dahil edilen alt proje kayıtlarını kontrol edin."
+        },
+        "pl": {
+          "purpose": "Otwiera raport finansowy aktualnie wybranego projektu.",
+          "when": "Użyj tej opcji, aby przejrzeć zarejestrowane przychody wybranego projektu, kwalifikujące się koszty i wynik finansowy.",
+          "how": "Otwórz projekt i w obszarze działań projektu wybierz Report. Aplikacja otworzy dla tego projektu Project Financial Report; sprawdź sumy i uwzględnione rekordy projektu.",
+          "inputs": "Przy uruchamianiu raportu ze strony szczegółów projektu nie są potrzebne dodatkowe dane. Używany jest identyfikator aktualnie wybranego projektu. Jeśli projekt ma podprojekty, raport obejmuje projekt nadrzędny i jego podprojekty.",
+          "result": "Otwiera się strona Project Financial Report dla wybranego projektu, pokazując zagregowane dane finansowe i rekordy źródłowe.",
+          "notes": "Raport wykorzystuje rekordy projektu i własne zasady uwzględniania kosztów. Nie jest raportem Accountancy i nie przedstawia automatycznie danych podatkowych. Przed poleganiem na wyniku sprawdź wybrany projekt i uwzględnione rekordy podprojektów."
+        },
+        "ur": {
+          "purpose": "موجودہ منتخب منصوبے کی مالی رپورٹ کھولتا ہے۔",
+          "when": "اسے منتخب منصوبے کی درج شدہ آمدنی، قابلِ شمار اخراجات اور مالی نتیجے کا جائزہ لینے کے لیے استعمال کریں۔",
+          "how": "منصوبہ کھولیں اور منصوبے کے ایکشن حصے میں Report منتخب کریں۔ ایپ اس منصوبے کے لیے Project Financial Report کھولتی ہے؛ مجموعی اعداد اور شامل منصوبہ ریکارڈ دیکھیں۔",
+          "inputs": "منصوبے کی تفصیلات کے صفحے سے رپورٹ کھولنے پر اضافی معلومات درکار نہیں۔ موجودہ منتخب منصوبے کی شناخت استعمال ہوتی ہے۔ اگر منصوبے کے ذیلی منصوبے ہوں تو رپورٹ مرکزی منصوبے اور اس کے ذیلی منصوبوں کو شامل کرتی ہے۔",
+          "result": "منتخب منصوبے کے لیے Project Financial Report صفحہ کھلتا ہے اور مجموعی مالی اعداد و معاون ریکارڈ دکھاتا ہے۔",
+          "notes": "رپورٹ منصوبے کے ریکارڈ اور اخراجات شامل کرنے کے اپنے قواعد استعمال کرتی ہے۔ یہ Accountancy رپورٹ نہیں اور خودکار طور پر ٹیکس کے اعداد کی نمائندگی نہیں کرتی۔ نتیجے پر بھروسا کرنے سے پہلے منتخب منصوبہ اور شامل ذیلی منصوبوں کے ریکارڈ چیک کریں۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਦੀ ਵਿੱਤੀ ਰਿਪੋਰਟ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਦੀ ਦਰਜ ਆਮਦਨ, ਯੋਗ ਖਰਚਿਆਂ ਅਤੇ ਵਿੱਤੀ ਨਤੀਜੇ ਦੀ ਸਮੀਖਿਆ ਲਈ ਇਸਦੀ ਵਰਤੋਂ ਕਰੋ।",
+          "how": "ਪ੍ਰੋਜੈਕਟ ਖੋਲ੍ਹੋ ਅਤੇ ਪ੍ਰੋਜੈਕਟ ਕਾਰਵਾਈ ਵਾਲੇ ਖੇਤਰ ਵਿੱਚ Report ਚੁਣੋ। ਐਪ ਉਸ ਪ੍ਰੋਜੈਕਟ ਲਈ Project Financial Report ਖੋਲ੍ਹਦੀ ਹੈ; ਕੁੱਲ ਅੰਕੜੇ ਅਤੇ ਸ਼ਾਮਲ ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਵੇਖੋ।",
+          "inputs": "ਪ੍ਰੋਜੈਕਟ ਵੇਰਵਾ ਪੰਨੇ ਤੋਂ ਰਿਪੋਰਟ ਖੋਲ੍ਹਣ ਲਈ ਵਾਧੂ ਇਨਪੁੱਟ ਲੋੜੀਂਦਾ ਨਹੀਂ। ਮੌਜੂਦਾ ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਦੀ ID ਵਰਤੀ ਜਾਂਦੀ ਹੈ। ਜੇ ਪ੍ਰੋਜੈਕਟ ਦੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਹਨ ਤਾਂ ਰਿਪੋਰਟ ਮੁੱਖ ਪ੍ਰੋਜੈਕਟ ਅਤੇ ਉਸਦੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਸ਼ਾਮਲ ਕਰਦੀ ਹੈ।",
+          "result": "ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਲਈ Project Financial Report ਪੰਨਾ ਖੁੱਲ੍ਹਦਾ ਹੈ ਅਤੇ ਇਕੱਠੇ ਕੀਤੇ ਵਿੱਤੀ ਅੰਕੜੇ ਤੇ ਸਹਾਇਕ ਰਿਕਾਰਡ ਦਿਖਾਉਂਦਾ ਹੈ।",
+          "notes": "ਰਿਪੋਰਟ ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਅਤੇ ਖਰਚੇ ਸ਼ਾਮਲ ਕਰਨ ਦੇ ਆਪਣੇ ਨਿਯਮ ਵਰਤਦੀ ਹੈ। ਇਹ Accountancy ਰਿਪੋਰਟ ਨਹੀਂ ਅਤੇ ਆਪਣੇ ਆਪ ਟੈਕਸ ਅੰਕੜੇ ਨਹੀਂ ਦਿਖਾਉਂਦੀ। ਨਤੀਜੇ 'ਤੇ ਭਰੋਸਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਅਤੇ ਸ਼ਾਮਲ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਰਿਕਾਰਡ ਜਾਂਚੋ।"
+        },
+        "prs": {
+          "purpose": "گزارش مالی پروژه‌ای را که در حال حاضر انتخاب شده است باز می‌کند.",
+          "when": "برای بررسی درآمد ثبت‌شده، هزینه‌های قابل احتساب و نتیجه مالی پروژه انتخاب‌شده از این گزینه استفاده کنید.",
+          "how": "پروژه را باز کنید و در بخش اقدامات پروژه Report را انتخاب کنید. برنامه Project Financial Report همان پروژه را باز می‌کند؛ مجموع‌ها و سوابق پروژه لحاظ‌شده را بررسی کنید.",
+          "inputs": "برای بازکردن گزارش از صفحه جزئیات پروژه ورودی دیگری لازم نیست. شناسه پروژه انتخاب‌شده فعلی استفاده می‌شود. اگر پروژه زیرپروژه داشته باشد، گزارش پروژه اصلی و زیرپروژه‌های آن را دربرمی‌گیرد.",
+          "result": "صفحه Project Financial Report برای پروژه انتخاب‌شده باز می‌شود و ارقام مالی تجمیع‌شده و سوابق پشتیبان را نمایش می‌دهد.",
+          "notes": "گزارش از سوابق پروژه و قواعد اختصاصی خود برای احتساب هزینه‌ها استفاده می‌کند. گزارش Accountancy نیست و لزوماً ارقام مالیاتی را نشان نمی‌دهد. پیش از اتکا به نتیجه، پروژه انتخاب‌شده و سوابق زیرپروژه‌های لحاظ‌شده را بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د اوس مهال ټاکل شوې پروژې مالي راپور پرانیزي.",
+          "when": "دا هغه وخت وکاروئ چې د ټاکل شوې پروژې ثبت شوی عاید، د منلو وړ لګښتونه او مالي پایله ارزول غواړئ.",
+          "how": "پروژه پرانیزئ او د پروژې د کړنو په برخه کې Report وټاکئ. اپلېکېشن د همدې پروژې لپاره Project Financial Report پرانیزي؛ ټولیزې شمېرې او شامل شوي د پروژې ریکارډونه وګورئ.",
+          "inputs": "له پروژې د جزیاتو پاڼې څخه د راپور پرانیستلو لپاره اضافي معلوماتو ته اړتیا نشته. د اوس مهال ټاکل شوې پروژې پېژند کارول کېږي. که پروژه فرعي پروژې ولري، راپور اصلي پروژه او فرعي پروژې رانغاړي.",
+          "result": "د ټاکل شوې پروژې لپاره Project Financial Report پاڼه پرانیستل کېږي او ټول شوي مالي شمېرې او ملاتړي ریکارډونه ښيي.",
+          "notes": "راپور د پروژې ریکارډونه او د لګښتونو د شاملولو خپل اصول کاروي. دا د Accountancy راپور نه دی او په اتومات ډول د مالیې شمېرې نه څرګندوي. پر پایله له تکیې مخکې ټاکل شوې پروژه او شامل شوي فرعي ریکارډونه وګورئ."
         }
       },
       "handler_or_behavior": "`prOpenCurrentProjectProfitReport()`"
@@ -8632,6 +8704,78 @@
           "inputs": "ورودی لازم نیست. پروژه انتخاب‌شده فعلی استفاده می‌شود. ممکن است بخش محتوای خلاصه برای پروژه اصلی دارای زیرپروژه خالی باشد؛ با این حال مجموع‌های اصلی بالای صفحه نمایش داده می‌شوند.",
           "result": "زبانه Summary یادداشت‌های پروژه و وضعیت Open یا Complete آن را نمایش می‌دهد. سربرگ جزئیات نیز مبلغ توافق‌شده، دریافتی از مشتری، هزینه‌های ثبت‌شده پروژه و مانده قرارداد را نشان می‌دهد.",
           "notes": "مجموع‌های اصلی ممکن است اطلاعات پروژه اصلی و زیرپروژه‌های آن را دربرگیرند. برای مشاهده تراکنش‌های جزئی، زبانه‌های Income، Expenses، Worker Wages، Tools، Food & Other یا Reports را انتخاب کنید. این خلاصه بر اساس سوابق Projects است، نه تراکنش‌های عمومی Accountancy."
+        },
+        "ar": {
+          "purpose": "يعرض علامة التبويب Summary للمشروع المحدد حالياً.",
+          "when": "استخدم هذا الخيار عندما تحتاج إلى نظرة عامة على ملاحظات المشروع وحالته وإجمالياته الرئيسية.",
+          "how": "افتح المشروع واختر Summary من علامات تبويب تفاصيل المشروع. راجع ملاحظات المشروع والأرقام الرئيسية المعروضة أعلى علامات التبويب.",
+          "inputs": "لا يلزم إدخال أي شيء. يُستخدم المشروع المحدد حالياً. قد تكون منطقة محتوى الملخص فارغة للمشروع الرئيسي الذي يحتوي على مشاريع فرعية؛ وتظل الإجماليات الرئيسية معروضة.",
+          "result": "تعرض علامة Summary ملاحظات المشروع وما إذا كانت حالته Open أو Complete. كما يعرض رأس التفاصيل السعر المتفق عليه والمبلغ المستلم من العميل وتكاليف المشروع المسجلة وقيمة العقد المتبقية.",
+          "notes": "قد تشمل الإجماليات الرئيسية المشروع الرئيسي ومشاريعه الفرعية. لمراجعة المعاملات التفصيلية، اختر Income أو Expenses أو Worker Wages أو Tools أو Food & Other أو Reports. يعتمد الملخص على سجلات Projects، وليس معاملات Accountancy العامة."
+        },
+        "ckb": {
+          "purpose": "تابی Summary بۆ پڕۆژەی ئێستا هەڵبژێردراو پیشان دەدات.",
+          "when": "کاتێک پێویستت بە تێڕوانینێکی گشتی لە تێبینی، دۆخ و کۆی سەرەکی پڕۆژە هەیە، ئەم هەڵبژاردەیە بەکاربهێنە.",
+          "how": "پڕۆژەکە بکەرەوە و لە تابەکانی وردەکاری پڕۆژە Summary هەڵبژێرە. تێبینییەکانی پڕۆژە و ژمارە سەرەکییەکانی سەرەوەی تابەکان بپشکنە.",
+          "inputs": "هیچ داخڵکردنێک پێویست نییە. پڕۆژەی ئێستا هەڵبژێردراو بەکاردەهێنرێت. ناوچەی ناوەڕۆکی پوختە لەوانەیە بۆ پڕۆژەی سەرەکی کە ژێرپڕۆژەی هەیە بەتاڵ بێت؛ بەڵام کۆی سەرەکی هەر پیشان دەدرێت.",
+          "result": "تابی Summary تێبینییەکانی پڕۆژە و دۆخی Open یان Complete پیشان دەدات. سەردێڕی وردەکاری هەروەها نرخی ڕێککەوتوو، پارەی وەرگیراو لە کڕیار، تێچووی تۆمارکراوی پڕۆژە و ماوەی گرێبەست پیشان دەدات.",
+          "notes": "کۆی سەرەکی لەوانەیە پڕۆژەی سەرەکی و ژێرپڕۆژەکانی لەخۆ بگرێت. بۆ مامەڵە وردەکان Income، Expenses، Worker Wages، Tools، Food & Other یان Reports هەڵبژێرە. پوختەکە پشت بە تۆمارەکانی Projects دەبەستێت، نەک مامەڵە گشتییەکانی Accountancy."
+        },
+        "kmr": {
+          "purpose": "Tab-a Summary ji bo projeya ku niha hatiye hilbijartin nîşan dide.",
+          "when": "Vê bikar bîne dema ku dixwazî nêrînek giştî li ser not, rewş û giştên sereke yên projeyê bistînî.",
+          "how": "Projeyê veke û di tabên hûrguliyên projeyê de Summary hilbijêre. Notên projeyê û hejmarên sereke yên li jorê taban xuya dibin kontrol bike.",
+          "inputs": "Tu têketin nehewce ye. Projeya ku niha hatiye hilbijartin tê bikaranîn. Dibe ku qada naveroka kurtasiyê ji bo projeyeke dêwî ya xwedî bin-proje vala be; giştên sereke her wiha xuya dimînin.",
+          "result": "Tab-a Summary notên projeyê û rewşa wê ya Open an Complete nîşan dide. Serê hûrguliyan her wiha bihayê lihevhatî, pereyê ji xerîdar hatî wergirtin, lêçûnên tomarkirî yên projeyê û peymana mayî nîşan dide.",
+          "notes": "Giştên sereke dibe projeya dêwî û bin-projeyên wê dihewînin. Ji bo danûstandinên hûrgulî Income, Expenses, Worker Wages, Tools, Food & Other an Reports hilbijêre. Kurtasî li ser tomarên Projects ava dibe, ne li ser danûstandinên giştî yên Accountancy."
+        },
+        "tr": {
+          "purpose": "Şu anda seçili proje için Summary sekmesini görüntüler.",
+          "when": "Projenin notları, durumu ve temel toplamlarına genel bakış gerektiğinde kullanın.",
+          "how": "Projeyi açın ve proje ayrıntı sekmelerinden Summary'yi seçin. Proje notlarını ve sekmelerin üstünde gösterilen ana rakamları inceleyin.",
+          "inputs": "Giriş gerekmez. O anda seçili proje kullanılır. Alt projeleri olan bir ana projede özet içerik alanı boş olabilir; ana toplamlar yine de görüntülenir.",
+          "result": "Summary sekmesi proje notlarını ve projenin Open veya Complete durumunu gösterir. Ayrıntı başlığı ayrıca anlaşılan fiyatı, müşteriden alınan tutarı, kaydedilen proje maliyetlerini ve kalan sözleşme tutarını gösterir.",
+          "notes": "Ana toplamlar ana projeyi ve alt projelerini içerebilir. Ayrıntılı işlemler için Income, Expenses, Worker Wages, Tools, Food & Other veya Reports sekmesini seçin. Özet, genel Accountancy işlemlerine değil Projects kayıtlarına dayanır."
+        },
+        "pl": {
+          "purpose": "Wyświetla kartę Summary dla aktualnie wybranego projektu.",
+          "when": "Użyj tej opcji, gdy potrzebujesz ogólnego podglądu notatek, statusu i najważniejszych sum projektu.",
+          "how": "Otwórz projekt i wybierz Summary w kartach szczegółów projektu. Przejrzyj notatki projektu i główne wartości wyświetlane nad kartami.",
+          "inputs": "Nie są wymagane żadne dane. Używany jest aktualnie wybrany projekt. Obszar treści podsumowania może być pusty dla projektu nadrzędnego z podprojektami; główne sumy nadal są wyświetlane.",
+          "result": "Karta Summary pokazuje notatki projektu i informację, czy ma status Open, czy Complete. Nagłówek szczegółów pokazuje także uzgodnioną cenę, kwotę otrzymaną od klienta, zarejestrowane koszty projektu i pozostałą wartość kontraktu.",
+          "notes": "Główne sumy mogą obejmować projekt nadrzędny i jego podprojekty. Aby zobaczyć szczegółowe transakcje, wybierz Income, Expenses, Worker Wages, Tools, Food & Other lub Reports. Podsumowanie opiera się na rekordach Projects, a nie na ogólnych transakcjach Accountancy."
+        },
+        "ur": {
+          "purpose": "موجودہ منتخب منصوبے کے لیے Summary ٹیب دکھاتا ہے۔",
+          "when": "اسے اس وقت استعمال کریں جب آپ کو منصوبے کے نوٹس، حالت اور اہم مجموعی اعداد کا خلاصہ درکار ہو۔",
+          "how": "منصوبہ کھولیں اور منصوبے کی تفصیلات والے ٹیبز میں Summary منتخب کریں۔ منصوبے کے نوٹس اور ٹیبز کے اوپر دکھائے گئے اہم اعداد دیکھیں۔",
+          "inputs": "کسی معلومات کی ضرورت نہیں۔ موجودہ منتخب منصوبہ استعمال ہوتا ہے۔ ذیلی منصوبوں والے مرکزی منصوبے میں خلاصے کا مواد خالی ہو سکتا ہے؛ اہم مجموعی اعداد پھر بھی دکھائے جاتے ہیں۔",
+          "result": "Summary ٹیب منصوبے کے نوٹس اور یہ دکھاتا ہے کہ منصوبہ Open ہے یا Complete۔ تفصیلات کا ہیڈر طے شدہ قیمت، کسٹمر سے موصول رقم، درج شدہ منصوبہ اخراجات اور باقی معاہدہ بھی دکھاتا ہے۔",
+          "notes": "اہم مجموعی اعداد میں مرکزی منصوبہ اور اس کے ذیلی منصوبے شامل ہو سکتے ہیں۔ تفصیلی لین دین کے لیے Income، Expenses، Worker Wages، Tools، Food & Other یا Reports منتخب کریں۔ خلاصہ Projects ریکارڈ پر مبنی ہے، عمومی Accountancy لین دین پر نہیں۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਚੁਣੇ ਪ੍ਰੋਜੈਕਟ ਲਈ Summary ਟੈਬ ਦਿਖਾਉਂਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਤੁਹਾਨੂੰ ਪ੍ਰੋਜੈਕਟ ਦੇ ਨੋਟਾਂ, ਸਥਿਤੀ ਅਤੇ ਮੁੱਖ ਕੁੱਲਾਂ ਦਾ ਉੱਚ-ਪੱਧਰੀ ਦ੍ਰਿਸ਼ ਚਾਹੀਦਾ ਹੋਵੇ।",
+          "how": "ਪ੍ਰੋਜੈਕਟ ਖੋਲ੍ਹੋ ਅਤੇ ਪ੍ਰੋਜੈਕਟ ਵੇਰਵਾ ਟੈਬਾਂ ਵਿੱਚ Summary ਚੁਣੋ। ਪ੍ਰੋਜੈਕਟ ਦੇ ਨੋਟ ਅਤੇ ਟੈਬਾਂ ਦੇ ਉੱਪਰ ਦਿਖਾਏ ਮੁੱਖ ਅੰਕੜੇ ਵੇਖੋ।",
+          "inputs": "ਕੋਈ ਇਨਪੁੱਟ ਲੋੜੀਂਦਾ ਨਹੀਂ। ਮੌਜੂਦਾ ਚੁਣਿਆ ਪ੍ਰੋਜੈਕਟ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ। ਉਪ-ਪ੍ਰੋਜੈਕਟਾਂ ਵਾਲੇ ਮੁੱਖ ਪ੍ਰੋਜੈਕਟ ਲਈ ਸੰਖੇਪ ਸਮੱਗਰੀ ਖੇਤਰ ਖਾਲੀ ਹੋ ਸਕਦਾ ਹੈ; ਮੁੱਖ ਕੁੱਲ ਫਿਰ ਵੀ ਦਿਖਾਏ ਜਾਂਦੇ ਹਨ।",
+          "result": "Summary ਟੈਬ ਪ੍ਰੋਜੈਕਟ ਦੇ ਨੋਟ ਅਤੇ ਇਹ ਦਿਖਾਉਂਦਾ ਹੈ ਕਿ ਪ੍ਰੋਜੈਕਟ Open ਹੈ ਜਾਂ Complete। ਵੇਰਵਾ ਸਿਰਲੇਖ ਸਹਿਮਤ ਕੀਮਤ, ਗਾਹਕ ਤੋਂ ਮਿਲੀ ਰਕਮ, ਦਰਜ ਪ੍ਰੋਜੈਕਟ ਖਰਚੇ ਅਤੇ ਬਾਕੀ ਠੇਕਾ ਵੀ ਦਿਖਾਉਂਦਾ ਹੈ।",
+          "notes": "ਮੁੱਖ ਕੁੱਲਾਂ ਵਿੱਚ ਮੁੱਖ ਪ੍ਰੋਜੈਕਟ ਅਤੇ ਇਸਦੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਸ਼ਾਮਲ ਹੋ ਸਕਦੇ ਹਨ। ਵਿਸਥਾਰਪੂਰਵਕ ਲੈਣ-ਦੇਣ ਲਈ Income, Expenses, Worker Wages, Tools, Food & Other ਜਾਂ Reports ਚੁਣੋ। ਸੰਖੇਪ Projects ਰਿਕਾਰਡਾਂ 'ਤੇ ਆਧਾਰਿਤ ਹੈ, ਆਮ Accountancy ਲੈਣ-ਦੇਣਾਂ 'ਤੇ ਨਹੀਂ।"
+        },
+        "prs": {
+          "purpose": "زبانه Summary را برای پروژه انتخاب‌شده فعلی نمایش می‌دهد.",
+          "when": "وقتی به نمای کلی یادداشت‌ها، وضعیت و مجموع‌های اصلی پروژه نیاز دارید، از این گزینه استفاده کنید.",
+          "how": "پروژه را باز کنید و در زبانه‌های جزئیات پروژه Summary را انتخاب کنید. یادداشت‌های پروژه و ارقام اصلی نمایش‌داده‌شده بالای زبانه‌ها را بررسی کنید.",
+          "inputs": "ورودی لازم نیست. پروژه انتخاب‌شده فعلی استفاده می‌شود. ممکن است بخش محتوای خلاصه برای پروژه اصلی دارای زیرپروژه خالی باشد؛ مجموع‌های اصلی همچنان نمایش داده می‌شوند.",
+          "result": "زبانه Summary یادداشت‌های پروژه و وضعیت Open یا Complete آن را نمایش می‌دهد. سربرگ جزئیات نیز مبلغ توافق‌شده، دریافتی از مشتری، هزینه‌های ثبت‌شده پروژه و مانده قرارداد را نشان می‌دهد.",
+          "notes": "مجموع‌های اصلی ممکن است پروژه اصلی و زیرپروژه‌های آن را دربرگیرند. برای تراکنش‌های جزئی، Income، Expenses، Worker Wages، Tools، Food & Other یا Reports را انتخاب کنید. خلاصه بر اساس سوابق Projects است، نه تراکنش‌های عمومی Accountancy."
+        },
+        "ps": {
+          "purpose": "د اوس مهال ټاکل شوې پروژې لپاره Summary ټب ښيي.",
+          "when": "دا هغه وخت وکاروئ چې د پروژې د یادښتونو، حالت او مهمو ټولیزو شمېرو عمومي کتنه غواړئ.",
+          "how": "پروژه پرانیزئ او د پروژې د جزیاتو په ټبونو کې Summary وټاکئ. د پروژې یادښتونه او د ټبونو پورته ښودل شوې مهمې شمېرې وګورئ.",
+          "inputs": "هېڅ معلوماتو ته اړتیا نشته. اوس مهال ټاکل شوې پروژه کارول کېږي. د فرعي پروژو لرونکې اصلي پروژې لپاره د لنډیز منځپانګې برخه تشه کېدای شي؛ مهمې ټولیزې شمېرې بیا هم ښکاري.",
+          "result": "Summary ټب د پروژې یادښتونه او دا ښيي چې پروژه Open ده که Complete. د جزیاتو سرلیک منل شوې بیه، له پېرودونکي ترلاسه شوې پیسې، ثبت شوي د پروژې لګښتونه او پاتې قرارداد هم ښيي.",
+          "notes": "مهمې ټولیزې شمېرې ښايي اصلي پروژه او فرعي پروژې رانغاړي. د تفصیلي معاملو لپاره Income، Expenses، Worker Wages، Tools، Food & Other یا Reports وټاکئ. لنډیز د Projects پر ریکارډونو ولاړ دی، نه د Accountancy پر عمومي معاملو."
         }
       },
       "handler_or_behavior": "`prDetailTab(`"
