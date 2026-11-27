@@ -5,11 +5,11 @@
   "branch": "development",
   "baseline": {
     "runtime_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
-    "runtime_blob_sha": "f5903b20c3b04f97172f5a625f10c24027c1b878",
+    "runtime_blob_sha": "6d6e2e5ef7b146eccacfdd69e4fa5741b588a299",
     "registry_blob_sha": "f63754128fd09125290df4045f6f4b6fc03b3545",
     "inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
     "help_content_blob_sha": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
-    "help_runtime_blob_sha": "f5903b20c3b04f97172f5a625f10c24027c1b878"
+    "help_runtime_blob_sha": "072cc4a8cd387f8620fa807fb00a80b7e0c6dcae"
   },
   "policy": {
     "label_only_matching": false,
@@ -26,23 +26,25 @@
       "ADJACENT_HELP_BUTTON_ATTACHED_R60_NOT_BROWSER_VERIFIED": 97,
       "HANDLER_CANDIDATE_REQUIRES_CONTEXT_TEST": 11,
       "AMBIGUOUS_HANDLER": 101,
-      "NEEDS_SELECTOR": 6,
+      "NEEDS_SELECTOR": 5,
       "SEPARATE_DOCUMENT_SCOPE": 7,
       "DYNAMIC_TEMPLATE_CANDIDATE": 2,
       "ID_CANDIDATE_REQUIRES_BROWSER_TEST": 4,
       "EXEMPT_NOT_MAPPED": 1,
       "ADJACENT_HELP_BUTTON_ATTACHED_R61_NOT_BROWSER_VERIFIED": 13,
-      "ADJACENT_HELP_BUTTON_ATTACHED_R62_NOT_BROWSER_VERIFIED": 8
+      "ADJACENT_HELP_BUTTON_ATTACHED_R62_NOT_BROWSER_VERIFIED": 8,
+      "DYNAMIC_TEMPLATE_HELP_ATTRIBUTE_ATTACHED_R63_NOT_BROWSER_VERIFIED": 9,
+      "EXEMPT_DISABLED_IN_PREVIEW": 1
     },
-    "notes": "R62 adds eight Help bindings: Company Contracts & Jobs from Business Workspace, three Control Panel destinations, dynamic expense-category options (choose and Add New), the dynamically created Entry Saved dialog OK button and the Invoice Preview Open print view button. MutationObserver attaches Help controls to inserted DOM nodes. Cumulative totals: 118 Help controls (113 static and five dynamic-template). Source-level only; browser tests and deployment remain pending.",
+    "notes": "R63 has 127 mapped adjacent Help IDs: 113 static and 14 dynamic-template. Nine dynamic attributes were added to pagination, receipt preview, record Edit/Delete/View and customer Edit/New Invoice/Delete templates. MutationObserver attaches Help to inserted nodes. Check for Updates remains excluded because it is disabled in Preview. Three PDF document controls and Share PDF in the isolated PDF preview remain separate-document scope. Real browser tests and deployment remain pending.",
     "runtime_publishable_entries": 132,
     "runtime_languages": 11,
     "static_controls_attached": 113,
     "draft_static_controls_skipped": 2,
     "dynamic_template_controls_pending": 10,
-    "help_ids_attached": 118,
+    "help_ids_attached": 127,
     "browser_tests_run": 0,
-    "dynamic_template_controls_attached": 5,
+    "dynamic_template_controls_attached": 14,
     "draft_controls_skipped": 12,
     "en_fa_draft_entries_corrected": 9,
     "id_selector_controls_attached": 13,
@@ -1051,12 +1053,12 @@
       "visible_label": "🔄 Check for Updates",
       "handler": "event/property listener (no inline onclick; wiring not resolved statically)",
       "handler_name": null,
-      "selector_strategy": "unresolved",
+      "selector_strategy": "not_applicable_disabled",
       "selector": null,
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "NEEDS_SELECTOR",
-      "rationale": "No unique, statically verified element selector is available; matching by visible label alone is prohibited."
+      "mapping_status": "EXEMPT_DISABLED_IN_PREVIEW",
+      "rationale": "The Check for Updates control is explicitly disabled in the Preview source and states that the updater will only be re-enabled after final verification and production release. No active action exists to explain or test in this build; keep it excluded until updater activation is approved."
     },
     {
       "help_id": "THA-HLP-0073",
@@ -1709,12 +1711,12 @@
       "visible_label": "‹ Previous",
       "handler": "changeListPage('${key}',${page-1},'${renderer}')",
       "handler_name": "changeListPage",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "data_help_id_attribute",
+      "selector": "[data-help-id=\"THA-HLP-0119\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler changeListPage occurs 4 times in source; resolve using exact template/parent context."
+      "mapping_status": "DYNAMIC_TEMPLATE_HELP_ATTRIBUTE_ATTACHED_R63_NOT_BROWSER_VERIFIED",
+      "rationale": "Added data-help-id directly to the paginationMarkup Previous button. MutationObserver in the Help Runtime attaches the contextual trigger when the template is inserted into the DOM. Live interaction remains unverified."
     },
     {
       "help_id": "THA-HLP-0120",
@@ -1737,12 +1739,12 @@
       "visible_label": "=pages?'disabled':''} onclick=\"changeListPage('${key}',${page+1},'${renderer}')\">Next ›",
       "handler": "event/property listener (no inline onclick; wiring not resolved statically)",
       "handler_name": null,
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "data_help_id_attribute",
+      "selector": "[data-help-id=\"THA-HLP-0121\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "NEEDS_SELECTOR",
-      "rationale": "No unique, statically verified element selector is available; matching by visible label alone is prohibited."
+      "mapping_status": "DYNAMIC_TEMPLATE_HELP_ATTRIBUTE_ATTACHED_R63_NOT_BROWSER_VERIFIED",
+      "rationale": "Added data-help-id directly to the paginationMarkup Next button. MutationObserver in the Help Runtime attaches the contextual trigger when the template is inserted into the DOM. Live interaction remains unverified."
     },
     {
       "help_id": "THA-HLP-0122",
@@ -1779,12 +1781,12 @@
       "visible_label": "📎 View receipt",
       "handler": "openReceiptImage(document.getElementById('${scope==='entry'?'entryReceiptData':'prReceiptData'}').value)",
       "handler_name": "openReceiptImage",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "data_help_id_attribute",
+      "selector": "[data-help-id=\"THA-HLP-0124\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler openReceiptImage occurs 3 times in source; resolve using exact template/parent context."
+      "mapping_status": "DYNAMIC_TEMPLATE_HELP_ATTRIBUTE_ATTACHED_R63_NOT_BROWSER_VERIFIED",
+      "rationale": "Added data-help-id directly to the renderReceiptPreview receipt clip button. MutationObserver in the Help Runtime attaches the contextual trigger when the template is inserted into the DOM. Live interaction remains unverified."
     },
     {
       "help_id": "THA-HLP-0125",
@@ -1849,12 +1851,12 @@
       "visible_label": "Edit",
       "handler": "editEntry(\\''+esc(x.id)+'\\')",
       "handler_name": "editEntry",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "data_help_id_attribute",
+      "selector": "[data-help-id=\"THA-HLP-0129\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler editEntry occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "DYNAMIC_TEMPLATE_HELP_ATTRIBUTE_ATTACHED_R63_NOT_BROWSER_VERIFIED",
+      "rationale": "Added data-help-id directly to the renderRecords Edit Entry action. MutationObserver in the Help Runtime attaches the contextual trigger when the template is inserted into the DOM. Live interaction remains unverified."
     },
     {
       "help_id": "THA-HLP-0130",
@@ -1863,12 +1865,12 @@
       "visible_label": "Delete",
       "handler": "deleteEntry(\\''+esc(x.id)+'\\')",
       "handler_name": "deleteEntry",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "data_help_id_attribute",
+      "selector": "[data-help-id=\"THA-HLP-0130\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler deleteEntry occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "DYNAMIC_TEMPLATE_HELP_ATTRIBUTE_ATTACHED_R63_NOT_BROWSER_VERIFIED",
+      "rationale": "Added data-help-id directly to the renderRecords Delete Entry action. MutationObserver in the Help Runtime attaches the contextual trigger when the template is inserted into the DOM. Live interaction remains unverified."
     },
     {
       "help_id": "THA-HLP-0131",
@@ -1891,12 +1893,12 @@
       "visible_label": "View",
       "handler": "viewRecordEntry(\\''+esc(x.id)+'\\')",
       "handler_name": "viewRecordEntry",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "data_help_id_attribute",
+      "selector": "[data-help-id=\"THA-HLP-0132\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler viewRecordEntry occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "DYNAMIC_TEMPLATE_HELP_ATTRIBUTE_ATTACHED_R63_NOT_BROWSER_VERIFIED",
+      "rationale": "Added data-help-id directly to the renderRecords deleted-entry View action. MutationObserver in the Help Runtime attaches the contextual trigger when the template is inserted into the DOM. Live interaction remains unverified."
     },
     {
       "help_id": "THA-HLP-0133",
@@ -1964,12 +1966,12 @@
       "visible_label": "Edit",
       "handler": "editCustomer('${esc(c.id)}')",
       "handler_name": "editCustomer",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "data_help_id_attribute",
+      "selector": "[data-help-id=\"THA-HLP-0137\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler editCustomer occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "DYNAMIC_TEMPLATE_HELP_ATTRIBUTE_ATTACHED_R63_NOT_BROWSER_VERIFIED",
+      "rationale": "Added data-help-id directly to the renderCustomers Edit action. MutationObserver in the Help Runtime attaches the contextual trigger when the template is inserted into the DOM. Live interaction remains unverified."
     },
     {
       "help_id": "THA-HLP-0138",
@@ -1978,12 +1980,12 @@
       "visible_label": "New invoice",
       "handler": "newInvoiceForCustomer('${esc(c.id)}')",
       "handler_name": "newInvoiceForCustomer",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "data_help_id_attribute",
+      "selector": "[data-help-id=\"THA-HLP-0138\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler newInvoiceForCustomer occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "DYNAMIC_TEMPLATE_HELP_ATTRIBUTE_ATTACHED_R63_NOT_BROWSER_VERIFIED",
+      "rationale": "Added data-help-id directly to the renderCustomers New invoice action. MutationObserver in the Help Runtime attaches the contextual trigger when the template is inserted into the DOM. Live interaction remains unverified."
     },
     {
       "help_id": "THA-HLP-0139",
@@ -1992,12 +1994,12 @@
       "visible_label": "Delete",
       "handler": "deleteCustomer('${esc(c.id)}')",
       "handler_name": "deleteCustomer",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "data_help_id_attribute",
+      "selector": "[data-help-id=\"THA-HLP-0139\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler deleteCustomer occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "DYNAMIC_TEMPLATE_HELP_ATTRIBUTE_ATTACHED_R63_NOT_BROWSER_VERIFIED",
+      "rationale": "Added data-help-id directly to the renderCustomers Delete action. MutationObserver in the Help Runtime attaches the contextual trigger when the template is inserted into the DOM. Live interaction remains unverified."
     },
     {
       "help_id": "THA-HLP-0140",
