@@ -9586,6 +9586,78 @@
           "inputs": "ورودی لازم نیست.",
           "result": "فرم Partner به وضعیت Add Partner بازنشانی می‌شود. هیچ سابقه شریک ذخیره‌شده‌ای تغییر نمی‌کند یا حذف نمی‌شود.",
           "notes": "مقادیر ذخیره‌نشده فرم کنار گذاشته می‌شوند. این عملیات شریکی را که قبلاً در فهرست مشترک Partners ذخیره شده است حذف نمی‌کند."
+        },
+        "ar": {
+          "purpose": "يعيد نموذج Partner إلى حالة Add Partner الفارغة.",
+          "when": "استخدم هذا الخيار عند تجاهل تفاصيل الشريك الحالية غير المحفوظة أو الاستعداد لإدخال شريك مختلف.",
+          "how": "اختر Clear في نموذج Partners. تُمسح حقول معرّف الشريك والاسم والهاتف والبريد الإلكتروني والملاحظات، ويعود عنوان النموذج إلى Add Partner.",
+          "inputs": "لا يلزم إدخال أي شيء.",
+          "result": "يُعاد تعيين نموذج Partner إلى Add Partner. لا يتم تعديل أي سجل شريك محفوظ أو حذفه.",
+          "notes": "تُتجاهل أي قيم غير محفوظة في النموذج. لا يحذف هذا الإجراء شريكاً مخزناً بالفعل في دليل Partners المشترك."
+        },
+        "ckb": {
+          "purpose": "فۆڕمی Partner دەگەڕێنێتەوە بۆ دۆخی بەتاڵی Add Partner.",
+          "when": "کاتێک دەتەوێت وردەکارییە پاشەکەوتنەکراوەکانی هاوبەشی ئێستا فەرامۆش بکەیت یان ئامادە بیت هاوبەشێکی تر داخڵ بکەیت، ئەم هەڵبژاردەیە بەکاربهێنە.",
+          "how": "لە فۆڕمی Partners، Clear هەڵبژێرە. خانەکانی ناسنامەی هاوبەش، ناو، تەلەفۆن، ئیمەیڵ و تێبینی پاک دەکرێنەوە و ناونیشانی فۆڕم دەگەڕێتەوە بۆ Add Partner.",
+          "inputs": "هیچ داخڵکردنێک پێویست نییە.",
+          "result": "فۆڕمی Partner دەگەڕێتەوە بۆ Add Partner. هیچ تۆمارێکی هاوبەشی پاشەکەوتکراو ناگۆڕدرێت و ناسڕدرێتەوە.",
+          "notes": "هەر بەهایەکی پاشەکەوتنەکراوی فۆڕم فەرامۆش دەکرێت. ئەم کردارە هاوبەشێک کە پێشتر لە لیستی هاوبەشی Partners پاشەکەوت کراوە ناسڕێتەوە."
+        },
+        "kmr": {
+          "purpose": "Forma Partner vedigere rewşa vala ya Add Partner.",
+          "when": "Vê bikar bîne dema ku dixwazî hûrguliyên hevparê heyî yên netomarkirî bavêjî an ji bo têketina hevparekî din amade bibî.",
+          "how": "Di forma Partners de Clear hilbijêre. Qadên nasnameya hevpar, nav, telefon, e-name û notan têne paqij kirin, û sernavê formê vedigere Add Partner.",
+          "inputs": "Tu têketin nehewce ye.",
+          "result": "Forma Partner ji nû ve dibe Add Partner. Tu tomarê hevparê tomarkirî nayê guhertin an jêbirin.",
+          "notes": "Nirxên forma ku nehatine tomarkirin têne avêtin. Ev kiryar hevparekî ku berê di pelrêza hevpar a Partners de hatiye hilanîn jê nake."
+        },
+        "tr": {
+          "purpose": "Partner formunu boş Add Partner durumuna sıfırlar.",
+          "when": "Mevcut kaydedilmemiş ortak ayrıntılarını atmak veya farklı bir ortak girmeye hazırlanmak istediğinizde kullanın.",
+          "how": "Partners formunda Clear seçeneğini belirleyin. Ortak kimliği, ad, telefon, e-posta ve not alanları temizlenir; form başlığı Add Partner olarak geri döner.",
+          "inputs": "Giriş gerekmez.",
+          "result": "Partner formu Add Partner durumuna sıfırlanır. Kaydedilmiş hiçbir ortak kaydı değiştirilmez veya silinmez.",
+          "notes": "Kaydedilmemiş form değerleri atılır. Bu işlem, ortak Partners dizininde zaten kayıtlı olan bir ortağı silmez."
+        },
+        "pl": {
+          "purpose": "Przywraca formularz Partner do pustego stanu Add Partner.",
+          "when": "Użyj tej opcji, jeśli chcesz odrzucić bieżące niezapisane dane partnera lub przygotować formularz do wpisania innego partnera.",
+          "how": "W formularzu Partners wybierz Clear. Pola identyfikatora partnera, nazwy, telefonu, adresu e-mail i notatek zostaną wyczyszczone, a tytuł formularza wróci do Add Partner.",
+          "inputs": "Nie są wymagane żadne dane.",
+          "result": "Formularz Partner zostanie zresetowany do Add Partner. Żaden zapisany rekord partnera nie zostanie zmieniony ani usunięty.",
+          "notes": "Wszystkie niezapisane wartości formularza zostaną odrzucone. Ta czynność nie usuwa partnera zapisanego już we wspólnym katalogu Partners."
+        },
+        "ur": {
+          "purpose": "Partner فارم کو خالی Add Partner حالت میں واپس لاتا ہے۔",
+          "when": "اسے اس وقت استعمال کریں جب آپ موجودہ غیر محفوظ شدہ پارٹنر کی تفصیلات چھوڑنا یا کسی دوسرے پارٹنر کا اندراج شروع کرنا چاہتے ہوں۔",
+          "how": "Partners فارم میں Clear منتخب کریں۔ پارٹنر ID، نام، فون، ای میل اور نوٹس کے خانے صاف ہو جاتے ہیں اور فارم کا عنوان Add Partner پر واپس آ جاتا ہے۔",
+          "inputs": "کسی معلومات کی ضرورت نہیں۔",
+          "result": "Partner فارم دوبارہ Add Partner حالت میں آ جاتا ہے۔ محفوظ شدہ پارٹنر ریکارڈ میں کوئی تبدیلی یا حذف نہیں ہوتا۔",
+          "notes": "فارم کی غیر محفوظ شدہ قدریں ضائع ہو جاتی ہیں۔ یہ کارروائی مشترکہ Partners ڈائریکٹری میں پہلے سے محفوظ پارٹنر کو حذف نہیں کرتی۔"
+        },
+        "pa": {
+          "purpose": "Partner ਫਾਰਮ ਨੂੰ ਖਾਲੀ Add Partner ਹਾਲਤ ਵਿੱਚ ਮੁੜ ਸੈੱਟ ਕਰਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਤੁਸੀਂ ਮੌਜੂਦਾ ਨਾ-ਸੇਵ ਕੀਤੇ ਭਾਈਵਾਲ ਵੇਰਵੇ ਛੱਡਣੇ ਜਾਂ ਕਿਸੇ ਹੋਰ ਭਾਈਵਾਲ ਦੀ ਜਾਣਕਾਰੀ ਦਰਜ ਕਰਨ ਲਈ ਤਿਆਰ ਹੋਣਾ ਚਾਹੁੰਦੇ ਹੋ।",
+          "how": "Partners ਫਾਰਮ ਵਿੱਚ Clear ਚੁਣੋ। ਭਾਈਵਾਲ ID, ਨਾਮ, ਫ਼ੋਨ, ਈਮੇਲ ਅਤੇ ਨੋਟਾਂ ਦੇ ਖੇਤਰ ਸਾਫ਼ ਹੋ ਜਾਂਦੇ ਹਨ ਅਤੇ ਫਾਰਮ ਦਾ ਸਿਰਲੇਖ Add Partner ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "inputs": "ਕੋਈ ਇਨਪੁੱਟ ਲੋੜੀਂਦਾ ਨਹੀਂ।",
+          "result": "Partner ਫਾਰਮ Add Partner ਹਾਲਤ ਵਿੱਚ ਮੁੜ ਸੈੱਟ ਹੁੰਦਾ ਹੈ। ਕੋਈ ਸੰਭਾਲਿਆ ਭਾਈਵਾਲ ਰਿਕਾਰਡ ਬਦਲਿਆ ਜਾਂ ਮਿਟਾਇਆ ਨਹੀਂ ਜਾਂਦਾ।",
+          "notes": "ਫਾਰਮ ਦੀਆਂ ਨਾ-ਸੇਵ ਕੀਤੀਆਂ ਕਦਰਾਂ ਰੱਦ ਹੋ ਜਾਂਦੀਆਂ ਹਨ। ਇਹ ਕਾਰਵਾਈ ਸਾਂਝੀ Partners ਡਾਇਰੈਕਟਰੀ ਵਿੱਚ ਪਹਿਲਾਂ ਤੋਂ ਸੰਭਾਲੇ ਭਾਈਵਾਲ ਨੂੰ ਨਹੀਂ ਮਿਟਾਉਂਦੀ।"
+        },
+        "prs": {
+          "purpose": "فرم Partner را به وضعیت خالی Add Partner بازمی‌گرداند.",
+          "when": "وقتی می‌خواهید جزئیات ذخیره‌نشده فعلی شریک را کنار بگذارید یا برای واردکردن شریک دیگری آماده شوید، از این گزینه استفاده کنید.",
+          "how": "در فرم Partners گزینه Clear را انتخاب کنید. فیلدهای شناسه شریک، نام، تلفن، ایمیل و یادداشت پاک می‌شوند و عنوان فرم به Add Partner بازمی‌گردد.",
+          "inputs": "ورودی لازم نیست.",
+          "result": "فرم Partner به وضعیت Add Partner بازنشانی می‌شود. هیچ سابقه شریک ذخیره‌شده‌ای تغییر نمی‌کند یا حذف نمی‌شود.",
+          "notes": "مقادیر ذخیره‌نشده فرم کنار گذاشته می‌شوند. این عملیات شریکی را که قبلاً در فهرست مشترک Partners ذخیره شده است حذف نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د Partner فورم بېرته تش Add Partner حالت ته اړوي.",
+          "when": "دا هغه وخت وکاروئ چې غواړئ د اوسني نه خوندي شوي شریک جزئیات پرېږدئ یا د بل شریک د معلوماتو د داخلولو لپاره چمتو شئ.",
+          "how": "د Partners په فورم کې Clear وټاکئ. د شریک پېژند، نوم، ټیلیفون، برېښنالیک او یادښتونو خانې پاکېږي او د فورم سرلیک بېرته Add Partner کېږي.",
+          "inputs": "هېڅ معلوماتو ته اړتیا نشته.",
+          "result": "Partner فورم Add Partner حالت ته بیا تنظیمېږي. د شریک هېڅ خوندي شوی ریکارډ نه بدلېږي او نه ړنګېږي.",
+          "notes": "د فورم نه خوندي شوي ارزښتونه پرېښودل کېږي. دا کړنه هغه شریک نه ړنګوي چې مخکې د Partners په ګډ لړلیک کې خوندي شوی وي."
         }
       },
       "handler_or_behavior": "`prResetPerson(`"
@@ -9612,6 +9684,78 @@
           "inputs": "نام پیمانکار یا شرکت الزامی است. تلفن، ایمیل و تخصص/یادداشت اختیاری هستند. هنگام ویرایش، شناسه ذخیره‌شده پیمانکار مشخص می‌کند کدام سابقه به‌روزرسانی شود.",
           "result": "اگر اعتبارسنجی نام و ذخیره در IndexedDB موفق باشد، پیمانکار افزوده یا به‌روزرسانی می‌شود، فرم بازنشانی و فهرست تازه‌سازی می‌شود و پیام Contractor saved نمایش داده می‌شود. نام خالی یا شکست ذخیره مانع تکمیل عملیات است.",
           "notes": "پیمانکاران ذخیره‌شده را می‌توان هنگام ثبت هزینه Contractor / subcontractor در پروژه انتخاب کرد. پیش از افزودن سابقه جدید، فهرست را بررسی کنید تا مورد تکراری ایجاد نشود. ذخیره سابقه در فهرست به‌تنهایی هزینه پروژه ایجاد نمی‌کند."
+        },
+        "ar": {
+          "purpose": "ينشئ سجلاً لمقاول أو مقاول من الباطن في الدليل أو يحدّث سجلاً موجوداً للمقاول.",
+          "when": "استخدم هذا الخيار بعد إدخال تفاصيل مقاول جديد أو تغيير تفاصيل مقاول موجود.",
+          "how": "في Control Panel → Contractors، أدخل اسم المقاول أو الشركة المطلوب وأي هاتف أو بريد إلكتروني أو تفاصيل مهنة/ملاحظات اختيارية. اختر Save Contractor وانتظر تنبيه التأكيد.",
+          "inputs": "اسم المقاول أو الشركة مطلوب. الهاتف والبريد الإلكتروني والمهنة/الملاحظات اختيارية. عند التعديل، يحدد معرّف المقاول المحفوظ السجل المراد تحديثه.",
+          "result": "إذا نجح التحقق من الاسم والحفظ في IndexedDB، يُضاف المقاول أو يُحدّث، ويُعاد تعيين النموذج، ويُحدّث الدليل، وتظهر رسالة Contractor saved. الاسم الفارغ أو فشل الحفظ يمنع إكمال العملية.",
+          "notes": "يمكن اختيار المقاولين المحفوظين عند تسجيل مصروفات Contractor / subcontractor في المشروع. تحقق من الدليل قبل إضافة سجل جديد لتجنب التكرار. حفظ سجل في الدليل لا ينشئ مصروف مشروع بحد ذاته."
+        },
+        "ckb": {
+          "purpose": "تۆماری پیمانکار یان پیمانکاری لاوەکی لە لیستەکە دروست دەکات یان تۆماری پیمانکاری هەبوو نوێ دەکاتەوە.",
+          "when": "دوای داخڵکردنی وردەکارییەکانی پیمانکارێکی نوێ یان گۆڕینی وردەکارییەکانی پیمانکارێکی هەبوو، ئەم هەڵبژاردەیە بەکاربهێنە.",
+          "how": "لە Control Panel → Contractors، ناوی پێویستی پیمانکار یان کۆمپانیا و ئەگەر دەتەوێت تەلەفۆن، ئیمەیڵ یان وردەکاری پیشە/تێبینی داخڵ بکە. Save Contractor هەڵبژێرە و چاوەڕێی ئاگاداری پشتڕاستکردنەوە بکە.",
+          "inputs": "ناوی پیمانکار یان کۆمپانیا پێویستە. تەلەفۆن، ئیمەیڵ و پیشە/تێبینی ئارەزوومەندانەن. لە کاتی دەستکاریکردندا ناسنامەی پاشەکەوتکراوی پیمانکار دیاری دەکات کام تۆمار نوێ بکرێتەوە.",
+          "result": "ئەگەر پشتڕاستکردنەوەی ناو و پاشەکەوتکردن لە IndexedDB سەرکەوتوو بن، پیمانکار زیاد یان نوێ دەکرێتەوە، فۆڕم Reset دەکرێتەوە، لیستەکە نوێ دەکرێتەوە و پەیامی Contractor saved پیشان دەدرێت. ناوی بەتاڵ یان شکستی پاشەکەوتکردن ڕێگری لە تەواوکردنی کردارەکە دەکات.",
+          "notes": "پیمانکارە پاشەکەوتکراوەکان دەتوانرێن لە کاتی تۆمارکردنی خەرجی Contractor / subcontractor لە پڕۆژەدا هەڵبژێردرێن. پێش زیادکردنی تۆماری نوێ لیستەکە بپشکنە بۆ ڕێگریکردن لە دووبارەبوونەوە. پاشەکەوتکردنی تۆمارێکی لیست بە تەنها خەرجی پڕۆژە دروست ناکات."
+        },
+        "kmr": {
+          "purpose": "Tomara peymankar an bin-peymankar di pelrêzê de çêdike an tomara peymankarê heyî nû dike.",
+          "when": "Vê bikar bîne piştî ku hûrguliyên peymankarê nû têxî an hûrguliyên peymankarê heyî diguherînî.",
+          "how": "Di Control Panel → Contractors de, navê pêwîst ê peymankar an şirketê û heke dixwazî telefon, e-name an hûrguliyên pîşe/notan binivîse. Save Contractor hilbijêre û li benda hişyariya pejirandinê bimîne.",
+          "inputs": "Navê peymankar an şirketê pêwîst e. Telefon, e-name û pîşe/not vebijarkî ne. Dema sererastkirinê nasnameya tomarkirî ya peymankar diyar dike ka kîjan tomar were nûkirin.",
+          "result": "Heke verastkirina nav û tomarkirina IndexedDB serkeftî bin, peymankar tê zêdekirin an nûkirin, form ji nû ve tê saz kirin, pelrêz nû dibe û peyama Contractor saved tê nîşandan. Navê vala an têkçûna tomarkirinê rê li ber temamkirina kiryarê digire.",
+          "notes": "Peymankarên tomarkirî dikarin dema tomarkirina lêçûnên Contractor / subcontractor di projeyê de bên hilbijartin. Berî zêdekirina tomareke nû pelrêzê kontrol bike da dubare çênabe. Tomarkirina tomarê pelrêzê bi xwe lêçûneke projeyê çênake."
+        },
+        "tr": {
+          "purpose": "Dizine bir yüklenici veya alt yüklenici kaydı ekler ya da mevcut yüklenici kaydını günceller.",
+          "when": "Yeni bir yüklenicinin bilgilerini girdikten veya mevcut yüklenicinin bilgilerini değiştirdikten sonra kullanın.",
+          "how": "Control Panel → Contractors bölümünde gerekli yüklenici veya şirket adını ve isteğe bağlı telefon, e-posta veya iş kolu/not ayrıntılarını girin. Save Contractor seçeneğini belirleyin ve onay uyarısını bekleyin.",
+          "inputs": "Yüklenici veya şirket adı zorunludur. Telefon, e-posta ve iş kolu/notlar isteğe bağlıdır. Düzenleme sırasında kayıtlı yüklenici kimliği güncellenecek kaydı belirler.",
+          "result": "Ad doğrulaması ve IndexedDB kaydı başarılı olursa yüklenici eklenir veya güncellenir, form sıfırlanır, dizin yenilenir ve Contractor saved onayı görüntülenir. Boş ad veya başarısız kayıt işlemin tamamlanmasını engeller.",
+          "notes": "Kaydedilmiş yükleniciler, projede Contractor / subcontractor gideri kaydedilirken seçilebilir. Yinelenen kayıtları önlemek için yeni kayıt eklemeden önce dizini kontrol edin. Dizin kaydı kaydetmek tek başına proje gideri oluşturmaz."
+        },
+        "pl": {
+          "purpose": "Dodaje rekord wykonawcy lub podwykonawcy do katalogu albo aktualizuje istniejący rekord wykonawcy.",
+          "when": "Użyj tej opcji po wpisaniu danych nowego wykonawcy lub zmianie danych istniejącego wykonawcy.",
+          "how": "W Control Panel → Contractors wpisz wymaganą nazwę wykonawcy lub firmy oraz opcjonalnie telefon, e-mail lub informacje o branży/notatki. Wybierz Save Contractor i poczekaj na alert potwierdzający.",
+          "inputs": "Nazwa wykonawcy lub firmy jest wymagana. Telefon, e-mail i branża/notatki są opcjonalne. Podczas edycji zapisany identyfikator wykonawcy wskazuje rekord do aktualizacji.",
+          "result": "Jeśli walidacja nazwy i zapis w IndexedDB się powiodą, wykonawca zostanie dodany lub zaktualizowany, formularz zresetowany, katalog odświeżony i wyświetlone zostanie potwierdzenie Contractor saved. Pusta nazwa lub nieudany zapis uniemożliwia zakończenie operacji.",
+          "notes": "Zapisanych wykonawców można wybierać podczas rejestrowania wydatków Contractor / subcontractor w projekcie. Przed dodaniem nowego rekordu sprawdź katalog, aby uniknąć duplikatów. Zapisanie wpisu w katalogu samo w sobie nie tworzy wydatku projektu."
+        },
+        "ur": {
+          "purpose": "ڈائریکٹری میں ٹھیکیدار یا ذیلی ٹھیکیدار کا ریکارڈ بناتا ہے یا موجودہ ٹھیکیدار ریکارڈ اپ ڈیٹ کرتا ہے۔",
+          "when": "اسے نئے ٹھیکیدار کی تفصیلات درج کرنے یا موجودہ ٹھیکیدار کی تفصیلات تبدیل کرنے کے بعد استعمال کریں۔",
+          "how": "Control Panel → Contractors میں لازمی ٹھیکیدار یا کمپنی کا نام اور اختیاری فون، ای میل یا پیشہ/نوٹس کی تفصیلات درج کریں۔ Save Contractor منتخب کریں اور تصدیقی انتباہ کا انتظار کریں۔",
+          "inputs": "ٹھیکیدار یا کمپنی کا نام لازمی ہے۔ فون، ای میل اور پیشہ/نوٹس اختیاری ہیں۔ ترمیم کے وقت محفوظ شدہ ٹھیکیدار ID اس ریکارڈ کی نشاندہی کرتی ہے جسے اپ ڈیٹ کرنا ہے۔",
+          "result": "اگر نام کی جانچ اور IndexedDB میں محفوظ کرنا کامیاب ہو تو ٹھیکیدار شامل یا اپ ڈیٹ ہوتا ہے، فارم دوبارہ ترتیب پاتا ہے، ڈائریکٹری تازہ ہوتی ہے اور Contractor saved کی تصدیق دکھائی جاتی ہے۔ خالی نام یا ناکام محفوظ کاری عمل مکمل ہونے سے روکتی ہے۔",
+          "notes": "محفوظ شدہ ٹھیکیدار کو منصوبے میں Contractor / subcontractor خرچ درج کرتے وقت منتخب کیا جا سکتا ہے۔ نقل سے بچنے کے لیے نیا ریکارڈ شامل کرنے سے پہلے ڈائریکٹری چیک کریں۔ ڈائریکٹری اندراج محفوظ کرنے سے خود کوئی منصوبہ خرچ نہیں بنتا۔"
+        },
+        "pa": {
+          "purpose": "ਡਾਇਰੈਕਟਰੀ ਵਿੱਚ ਠੇਕੇਦਾਰ ਜਾਂ ਉਪ-ਠੇਕੇਦਾਰ ਦਾ ਰਿਕਾਰਡ ਬਣਾਉਂਦਾ ਹੈ ਜਾਂ ਮੌਜੂਦਾ ਠੇਕੇਦਾਰ ਰਿਕਾਰਡ ਅੱਪਡੇਟ ਕਰਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਨਵੇਂ ਠੇਕੇਦਾਰ ਦੇ ਵੇਰਵੇ ਦਰਜ ਕਰਨ ਜਾਂ ਮੌਜੂਦਾ ਠੇਕੇਦਾਰ ਦੇ ਵੇਰਵੇ ਬਦਲਣ ਤੋਂ ਬਾਅਦ ਕਰੋ।",
+          "how": "Control Panel → Contractors ਵਿੱਚ ਲਾਜ਼ਮੀ ਠੇਕੇਦਾਰ ਜਾਂ ਕੰਪਨੀ ਦਾ ਨਾਮ ਅਤੇ ਵਿਕਲਪਿਕ ਫ਼ੋਨ, ਈਮੇਲ ਜਾਂ ਕੰਮ ਦੀ ਕਿਸਮ/ਨੋਟ ਦਰਜ ਕਰੋ। Save Contractor ਚੁਣੋ ਅਤੇ ਪੁਸ਼ਟੀ ਚੇਤਾਵਨੀ ਦੀ ਉਡੀਕ ਕਰੋ।",
+          "inputs": "ਠੇਕੇਦਾਰ ਜਾਂ ਕੰਪਨੀ ਦਾ ਨਾਮ ਲਾਜ਼ਮੀ ਹੈ। ਫ਼ੋਨ, ਈਮੇਲ ਅਤੇ ਕੰਮ ਦੀ ਕਿਸਮ/ਨੋਟ ਵਿਕਲਪਿਕ ਹਨ। ਸੋਧ ਸਮੇਂ ਸੰਭਾਲੀ ਠੇਕੇਦਾਰ ID ਉਸ ਰਿਕਾਰਡ ਦੀ ਪਛਾਣ ਕਰਦੀ ਹੈ ਜਿਸਨੂੰ ਅੱਪਡੇਟ ਕਰਨਾ ਹੈ।",
+          "result": "ਜੇ ਨਾਮ ਦੀ ਜਾਂਚ ਅਤੇ IndexedDB ਵਿੱਚ ਸੇਵ ਸਫਲ ਹੋਵੇ ਤਾਂ ਠੇਕੇਦਾਰ ਜੋੜਿਆ ਜਾਂ ਅੱਪਡੇਟ ਹੁੰਦਾ ਹੈ, ਫਾਰਮ ਮੁੜ ਸੈੱਟ ਹੁੰਦਾ ਹੈ, ਡਾਇਰੈਕਟਰੀ ਤਾਜ਼ਾ ਹੁੰਦੀ ਹੈ ਅਤੇ Contractor saved ਪੁਸ਼ਟੀ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ। ਖਾਲੀ ਨਾਮ ਜਾਂ ਅਸਫਲ ਸੇਵ ਕਾਰਵਾਈ ਪੂਰੀ ਹੋਣ ਤੋਂ ਰੋਕਦਾ ਹੈ।",
+          "notes": "ਸੰਭਾਲੇ ਠੇਕੇਦਾਰਾਂ ਨੂੰ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ Contractor / subcontractor ਖਰਚਾ ਦਰਜ ਕਰਦੇ ਸਮੇਂ ਚੁਣਿਆ ਜਾ ਸਕਦਾ ਹੈ। ਨਕਲ ਰਿਕਾਰਡਾਂ ਤੋਂ ਬਚਣ ਲਈ ਨਵਾਂ ਰਿਕਾਰਡ ਜੋੜਨ ਤੋਂ ਪਹਿਲਾਂ ਡਾਇਰੈਕਟਰੀ ਜਾਂਚੋ। ਡਾਇਰੈਕਟਰੀ ਐਂਟਰੀ ਸੇਵ ਕਰਨ ਨਾਲ ਆਪਣੇ ਆਪ ਪ੍ਰੋਜੈਕਟ ਖਰਚਾ ਨਹੀਂ ਬਣਦਾ।"
+        },
+        "prs": {
+          "purpose": "یک سابقه پیمانکار یا پیمانکار جزء در فهرست ایجاد می‌کند یا سابقه پیمانکار موجود را به‌روزرسانی می‌کند.",
+          "when": "پس از واردکردن مشخصات پیمانکار جدید یا تغییر مشخصات پیمانکار موجود از این گزینه استفاده کنید.",
+          "how": "در Control Panel → Contractors، نام الزامی پیمانکار یا شرکت و در صورت نیاز تلفن، ایمیل یا تخصص/یادداشت را وارد کنید. Save Contractor را انتخاب کنید و منتظر پیام تأیید بمانید.",
+          "inputs": "نام پیمانکار یا شرکت الزامی است. تلفن، ایمیل و تخصص/یادداشت اختیاری هستند. هنگام ویرایش، شناسه ذخیره‌شده پیمانکار مشخص می‌کند کدام سابقه به‌روزرسانی شود.",
+          "result": "اگر اعتبارسنجی نام و ذخیره در IndexedDB موفق باشد، پیمانکار افزوده یا به‌روزرسانی می‌شود، فرم بازنشانی و فهرست تازه‌سازی می‌شود و پیام Contractor saved نمایش داده می‌شود. نام خالی یا شکست ذخیره مانع تکمیل عملیات است.",
+          "notes": "پیمانکاران ذخیره‌شده را می‌توان هنگام ثبت هزینه Contractor / subcontractor در پروژه انتخاب کرد. پیش از افزودن سابقه جدید، فهرست را بررسی کنید تا مورد تکراری ایجاد نشود. ذخیره سابقه در فهرست به‌تنهایی هزینه پروژه ایجاد نمی‌کند."
+        },
+        "ps": {
+          "purpose": "په ډایرکټرۍ کې د قراردادي یا فرعي قراردادي ریکارډ جوړوي یا موجود قراردادي ریکارډ تازه کوي.",
+          "when": "دا هغه وخت وکاروئ چې د نوي قراردادي معلومات دننه کوئ یا د موجود قراردادي معلومات بدلوي.",
+          "how": "په Control Panel → Contractors کې د قراردادي یا شرکت اړین نوم او اختیاري ټیلیفون، برېښنالیک یا د مسلک/یادښتونو معلومات دننه کړئ. Save Contractor وټاکئ او د تایید خبرتیا ته انتظار وکړئ.",
+          "inputs": "د قراردادي یا شرکت نوم اړین دی. ټیلیفون، برېښنالیک او د مسلک/یادښتونو معلومات اختیاري دي. د سمون پر مهال خوندي شوی د قراردادي پېژند هغه ریکارډ ټاکي چې باید تازه شي.",
+          "result": "که د نوم تایید او په IndexedDB کې خوندي کول بریالي شي، قراردادي زیاتېږي یا تازه کېږي، فورم بیا تنظیمېږي، ډایرکټري تازه کېږي او Contractor saved تایید ښکاري. تش نوم یا ناکام خوندي کول د کړنې بشپړېدل بندوي.",
+          "notes": "خوندي شوي قراردادیان د پروژې د Contractor / subcontractor لګښت د ثبتولو پر مهال ټاکل کېدای شي. د تکراري ریکارډ د مخنیوي لپاره د نوي ریکارډ له زیاتولو مخکې ډایرکټري وګورئ. د ډایرکټرۍ د ثبت خوندي کول پخپله د پروژې لګښت نه جوړوي."
         }
       },
       "handler_or_behavior": "`prSaveContractor()`"
