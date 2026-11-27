@@ -9837,7 +9837,7 @@
       "audit_ref": "INV-118",
       "element_id": null,
       "label": "Clear",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Resets the Contractor / Subcontractor form to its blank Add Contractor / Subcontractor state.",
@@ -9935,7 +9935,7 @@
       "audit_ref": "INV-119",
       "element_id": null,
       "label": "Save Worker",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Creates a new worker record or updates an existing worker in the shared Workers directory.",
@@ -10033,7 +10033,7 @@
       "audit_ref": "INV-120",
       "element_id": null,
       "label": "Clear",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Resets the Worker form to its blank Add Worker state.",
@@ -10131,7 +10131,7 @@
       "audit_ref": "INV-121",
       "element_id": null,
       "label": "👤 Partners Manage shared partner records",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the shared Partners directory from the Business Workspace Control Panel.",
