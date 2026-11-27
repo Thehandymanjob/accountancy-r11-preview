@@ -5618,20 +5618,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Confirms that you have read the reset warnings and advances to the next step of the secure reset workflow.",
-          "when": "Use this only after reviewing the recovery scope, backup status and consequences of continuing.",
-          "how": "Read the two warning screens, then select I Understand — Continue only when you are ready to review the recovery requirements on the next screen.",
-          "inputs": "No text or file input is required to advance from the first warning screen.",
-          "result": "The modal advances to the second warning stage and reveals the backup-conversion and emergency-snapshot steps. No records are reset or restored by this action.",
-          "notes": "This is an on-screen acknowledgement and navigation step; the source code does not save a separate acknowledgement record. It does not execute the reset."
+          "purpose": "Acknowledges the first Factory Reset warning and advances the dialog to its second warning stage.",
+          "when": "Use this only to review the second-stage recovery requirements after reading the first warning. Do not interpret it as authorization to reset data.",
+          "how": "Read the first warning and select I Understand — Continue to reveal the second warning and its recovery requirements. Select Cancel if you do not want to continue reviewing the workflow.",
+          "inputs": "No text or file input is required. The action only changes the dialog stage.",
+          "result": "The dialog advances to warning 2 of 2 and reveals the backup-conversion and emergency-snapshot instructions. It does not convert a backup, create a snapshot or reset data.",
+          "notes": "This is a warning acknowledgement and navigation action, not a saved consent record. The subsequent recovery controls are not operational in the inspected R43 build. Do not treat this action as permission or ability to perform a reset."
         },
         "fa": {
-          "purpose": "تأیید می‌کند هشدارهای Reset را خوانده‌اید و گردش‌کار Secure Reset را به مرحله بعد می‌برد.",
-          "when": "فقط پس از بررسی محدوده بازیابی، وضعیت پشتیبان و پیامدهای ادامه از این گزینه استفاده کنید.",
-          "how": "هشدارهای نمایش‌داده‌شده را با دقت بخوانید و فقط در صورتی I Understand — Continue را انتخاب کنید که قصد ادامه دارید و پشتیبان معتبر موردنیاز را در اختیار دارید.",
-          "inputs": "ممکن است اطلاعات دیگری لازم نباشد؛ این کنترل تأیید کاربر را ثبت می‌کند و گردش‌کار را جلو می‌برد.",
-          "result": "گردش‌کار Secure Reset به مرحله بعد منتقل می‌شود. این تأیید به‌تنهایی Reset را کامل نمی‌کند.",
-          "notes": "این دکمه صرفاً ناوبری بی‌خطر نیست؛ تأیید آگاهانه محسوب می‌شود. فقط برای دیدن صفحه بعد آن را نزنید. اگر درباره پشتیبان یا محدوده داده مقصد تردید دارید، متوقف شوید."
+          "purpose": "هشدار اول Factory Reset را تأیید می‌کند و پنجره را به مرحله هشدار دوم منتقل می‌کند.",
+          "when": "فقط پس از خواندن هشدار اول و برای مشاهده الزامات بازیابی در مرحله دوم از این گزینه استفاده کنید. این عمل را مجوز اجرای Reset تلقی نکنید.",
+          "how": "هشدار اول را بخوانید و برای نمایش هشدار دوم و الزامات بازیابی، I Understand — Continue را انتخاب کنید. اگر نمی‌خواهید بررسی گردش‌کار را ادامه دهید، Cancel را بزنید.",
+          "inputs": "ورودی متنی یا فایل لازم نیست. این عمل فقط مرحله پنجره را تغییر می‌دهد.",
+          "result": "پنجره به هشدار ۲ از ۲ می‌رود و دستورالعمل تبدیل پشتیبان و Snapshot اضطراری را نمایش می‌دهد. هیچ پشتیبانی تبدیل نمی‌شود، Snapshot ساخته نمی‌شود و داده‌ها Reset نمی‌شوند.",
+          "notes": "این عمل صرفاً تأیید مشاهده هشدار و جابه‌جایی بین مراحل است و رضایت جداگانه‌ای را ذخیره نمی‌کند. کنترل‌های بازیابی بعدی در Build بررسی‌شده R43 عملیاتی نیستند. این عمل را مجوز یا امکان اجرای Reset تلقی نکنید."
         }
       },
       "handler_or_behavior": "`factoryResetNextStep()`"
@@ -5644,20 +5644,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Executes the final reset and restore operation for all app data using the selected recovery source.",
-          "when": "Use this only after every validation and confirmation step has passed and you have explicitly decided to replace the current app data.",
-          "how": "Verify the source backup, target database and recovery summary one last time. Select Reset and Restore All Data only when you accept the complete replacement and any final confirmation is correct.",
-          "inputs": "A validated recovery backup and all required prior confirmations are necessary.",
-          "result": "If the operation succeeds, the app resets and restores all data from the selected recovery source and reports the outcome.",
-          "notes": "CRITICAL / DESTRUCTIVE: This can replace the entire app database and remove current data. Do not run without a verified backup, a clear recovery plan and explicit approval. Do not interrupt the process. Afterward, verify the build, database and key records. This is not a routine update or troubleshooting step."
+          "purpose": "A final Reset and Restore All Data button is displayed in the second-stage dialog, but the R43 source contains no registered event handler for this button.",
+          "when": "Do not use or rely on this control for recovery in R43. It is documented to identify the visible control and its implementation status.",
+          "how": "The button becomes visible after the dialog advances to warning 2. In the inspected source, no click handler is attached, so selecting it does not run a restore operation.",
+          "inputs": "The dialog displays backup, snapshot and authorization fields, but those fields are not connected to a working final-restore action in this build.",
+          "result": "No reset or restore is performed by this button in the inspected R43 build.",
+          "notes": "CRITICAL / DESTRUCTIVE INTENT: The screen describes replacing all current IndexedDB data with a selected legacy backup. However, this final button has no working handler in R43. Do not assume the restore has started or completed, and do not use this incomplete screen as a recovery method."
         },
         "fa": {
-          "purpose": "عملیات نهایی Reset و بازیابی همه داده‌های برنامه را با استفاده از منبع بازیابی انتخاب‌شده اجرا می‌کند.",
-          "when": "فقط زمانی از این گزینه استفاده کنید که تمام مراحل اعتبارسنجی و تأیید با موفقیت انجام شده و صریحاً تصمیم گرفته‌اید داده‌های فعلی برنامه جایگزین شوند.",
-          "how": "فایل پشتیبان مبدأ، پایگاه داده مقصد و خلاصه بازیابی را برای آخرین بار بررسی کنید. فقط وقتی Reset and Restore All Data را بزنید که جایگزینی کامل را می‌پذیرید و تأیید نهایی درست است.",
-          "inputs": "فایل پشتیبان بازیابیِ اعتبارسنجی‌شده و تمام تأییدهای مراحل قبلی لازم هستند.",
-          "result": "در صورت موفقیت، برنامه همه داده‌ها را طبق منبع بازیابی انتخاب‌شده Reset و بازیابی می‌کند و نتیجه را اعلام می‌کند.",
-          "notes": "خطر بحرانی و مخرب: این عملیات می‌تواند کل پایگاه داده برنامه را جایگزین کند و داده‌های فعلی را از بین ببرد. بدون پشتیبان معتبر، برنامه بازیابی روشن و تأیید صریح اجرا نکنید. فرایند را قطع نکنید. پس از پایان، نسخه، پایگاه داده و سوابق اصلی را بررسی کنید. این عملیات به‌روزرسانی معمولی یا عیب‌یابی نیست."
+          "purpose": "دکمه نهایی Reset and Restore All Data در مرحله دوم پنجره نمایش داده می‌شود، اما در سورس R43 هیچ Event Handler ثبت‌شده‌ای برای آن وجود ندارد.",
+          "when": "در R43 برای بازیابی از این کنترل استفاده نکنید و به آن اتکا نکنید. این توضیح برای شناسایی دکمه قابل مشاهده و وضعیت پیاده‌سازی آن است.",
+          "how": "پس از انتقال پنجره به هشدار دوم، دکمه نمایش داده می‌شود. در سورس بررسی‌شده هیچ Click Handler به آن متصل نیست؛ بنابراین انتخاب آن عملیات بازیابی را اجرا نمی‌کند.",
+          "inputs": "پنجره فیلدهای پشتیبان، Snapshot و عبارت مجوز را نمایش می‌دهد؛ اما این فیلدها در این Build به عملیات نهایی بازیابیِ اجرایی متصل نیستند.",
+          "result": "این دکمه در Build بررسی‌شده R43 هیچ Reset یا بازیابی‌ای انجام نمی‌دهد.",
+          "notes": "قصد این عملیات بحرانی و مخرب است: صفحه جایگزینی تمام داده‌های فعلی IndexedDB با یک پشتیبان قدیمی انتخاب‌شده را توضیح می‌دهد. بااین‌حال دکمه نهایی در R43 Handler اجرایی ندارد. فرض نکنید بازیابی شروع یا تکمیل شده است و از این صفحه ناقص به‌عنوان روش بازیابی استفاده نکنید."
         }
       },
       "handler_or_behavior": "`event/property listener`"
@@ -5670,20 +5670,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Saves the business profile details entered in the profile form.",
-          "when": "Use this after creating or editing the business name, contact information or other profile details used in supported app documents.",
-          "how": "Review every field, then select Save Profile. Wait for the save confirmation and reopen the profile if necessary to verify the saved values.",
-          "inputs": "The profile fields required by the form. Optional fields should be left blank if not applicable.",
-          "result": "The profile is saved if the IndexedDB write succeeds; the app should report the save result.",
-          "notes": "Check names, contact details and other business information before saving. Do not assume the change updates documents that were already issued. If saving fails, do not assume the new profile was stored."
+          "purpose": "Saves the business profile fields, including business and owner names, contact details, invoice payment details and the selected logo, to the app's IndexedDB storage.",
+          "when": "Use this after entering or changing the business details that should appear in supported app documents and invoices.",
+          "how": "Review the profile fields and selected logo, then select Save Profile. Wait for the confirmation that the profile was saved and verified. If an error is reported, correct the issue and try again.",
+          "inputs": "The values entered in the Business Profile form. The inspected form does not mark the text fields as required; leave details blank when they do not apply. A selected logo is subject to the file-type and optimisation size limits shown beside the upload field.",
+          "result": "The updated business profile is saved to IndexedDB and verified. The app refreshes its launcher branding and confirms success; on failure it displays an error.",
+          "notes": "Invoice payment details appear on issued invoices. Never enter card PINs or online banking passwords. Saving the profile does not rewrite documents already issued. Check the displayed values and logo before saving."
         },
         "fa": {
-          "purpose": "مشخصات کسب‌وکار واردشده در فرم پروفایل را ذخیره می‌کند.",
-          "when": "پس از ایجاد یا ویرایش نام کسب‌وکار، اطلاعات تماس یا سایر مشخصات مورد استفاده در اسناد پشتیبانی‌شده برنامه از این گزینه استفاده کنید.",
-          "how": "تمام فیلدها را بررسی کنید، سپس Save Profile را انتخاب کنید. منتظر پیام تأیید بمانید و در صورت نیاز پروفایل را دوباره باز کنید تا مقادیر ذخیره‌شده را بررسی کنید.",
-          "inputs": "فیلدهای پروفایل که فرم لازم می‌داند. فیلدهای اختیاری را اگر کاربرد ندارند خالی بگذارید.",
-          "result": "اگر نوشتن در IndexedDB موفق شود، پروفایل ذخیره می‌شود و برنامه باید نتیجه ذخیره را اعلام کند.",
-          "notes": "پیش از ذخیره، نام‌ها، اطلاعات تماس و سایر مشخصات کسب‌وکار را بررسی کنید. فرض نکنید تغییرات، اسنادی را که قبلاً صادر شده‌اند به‌روزرسانی می‌کند. اگر ذخیره ناموفق بود، فرض نکنید پروفایل جدید ثبت شده است."
+          "purpose": "فیلدهای پروفایل کسب‌وکار، از جمله نام کسب‌وکار و مالک، اطلاعات تماس، جزئیات پرداخت فاکتور و لوگوی انتخاب‌شده را در فضای ذخیره‌سازی IndexedDB برنامه ذخیره می‌کند.",
+          "when": "پس از واردکردن یا تغییر مشخصات کسب‌وکار که باید در اسناد و فاکتورهای پشتیبانی‌شده برنامه نمایش داده شوند، از این گزینه استفاده کنید.",
+          "how": "فیلدهای پروفایل و لوگوی انتخاب‌شده را بررسی کنید و سپس Save Profile را بزنید. منتظر پیام تأیید ذخیره و اعتبارسنجی پروفایل بمانید. اگر خطا نمایش داده شد، مشکل را برطرف و دوباره تلاش کنید.",
+          "inputs": "مقادیر واردشده در فرم Business Profile. در فرم بررسی‌شده فیلدهای متنی اجباری علامت‌گذاری نشده‌اند؛ موارد نامرتبط را خالی بگذارید. لوگوی انتخاب‌شده باید محدودیت نوع فایل و حجم پس از بهینه‌سازی را که کنار فیلد بارگذاری نمایش داده شده رعایت کند.",
+          "result": "پروفایل به‌روزشده در IndexedDB ذخیره و اعتبارسنجی می‌شود. برنامه نشان برند صفحه اصلی را به‌روزرسانی و موفقیت را اعلام می‌کند؛ در صورت خطا پیام خطا نمایش داده می‌شود.",
+          "notes": "جزئیات پرداخت فاکتور در فاکتورهای صادرشده نمایش داده می‌شود. هرگز PIN کارت یا گذرواژه بانکداری آنلاین را وارد نکنید. ذخیره پروفایل اسناد صادرشده قبلی را بازنویسی نمی‌کند. پیش از ذخیره، مقادیر و لوگو را بررسی کنید."
         }
       },
       "handler_or_behavior": "`prSaveProfile()`"
@@ -5696,20 +5696,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Removes the currently selected business logo from the profile.",
-          "when": "Use this when the saved logo is incorrect or should no longer appear in supported app documents.",
-          "how": "Open Profile & Logo and select Remove Logo. Wait for the success or error message.",
-          "inputs": "No additional input is required. A saved business logo must be present for removal to have an effect.",
-          "result": "The logo is cleared from the business profile and the updated profile is saved and verified.",
-          "notes": "Removal is saved by this control; a separate Save Profile action is not required. It affects future documents that use the profile and does not rewrite documents already issued. Keep a copy of the image if you may need it again."
+          "purpose": "Clears the saved business logo from the profile and immediately saves and verifies the updated profile in IndexedDB.",
+          "when": "Use this when the current business logo is incorrect or should no longer be used on future documents that display the profile logo.",
+          "how": "Open Profile & Logo and select Remove Logo. Wait for the confirmation that the logo was removed and the profile saved. No separate Save Profile action is required.",
+          "inputs": "No additional input is required. A saved logo must exist for removal to make a visible difference.",
+          "result": "The profile logo value is cleared, the updated profile is saved and verified, and the logo preview is hidden. If saving fails, an error is displayed and the removal is not confirmed.",
+          "notes": "Removal is saved immediately by this control. It may affect future documents that use the profile, but it does not rewrite documents already issued. Keep a separate copy of the image if it may be needed again."
         },
         "fa": {
-          "purpose": "لوگوی فعلی انتخاب‌شده در پروفایل کسب‌وکار را حذف می‌کند.",
-          "when": "وقتی لوگوی ذخیره‌شده اشتباه است یا دیگر نمی‌خواهید در اسناد پشتیبانی‌شده برنامه نمایش داده شود، از این گزینه استفاده کنید.",
-          "how": "Profile & Logo را باز کنید و Remove Logo را بزنید. نتیجه را بررسی کنید و اگر صفحه ذخیره جداگانه می‌خواهد، پروفایل را ذخیره کنید.",
-          "inputs": "ورودی دیگری لازم نیست. برای اثرگذاری این عملیات باید لوگویی در حال حاضر وجود داشته باشد.",
-          "result": "در صورت موفقیت، لوگو از پروفایل حذف می‌شود.",
-          "notes": "حذف لوگو ممکن است بر اسناد آینده‌ای که از پروفایل کسب‌وکار استفاده می‌کنند اثر بگذارد. لزوماً اسناد قبلاً صادرشده را تغییر نمی‌دهد. اگر احتمال می‌دهید دوباره به آن نیاز دارید، یک نسخه از تصویر نگه دارید."
+          "purpose": "لوگوی ذخیره‌شده کسب‌وکار را از پروفایل پاک می‌کند و پروفایل به‌روزشده را بلافاصله در IndexedDB ذخیره و اعتبارسنجی می‌کند.",
+          "when": "وقتی لوگوی فعلی اشتباه است یا دیگر نباید در اسناد آینده‌ای که لوگوی پروفایل را نمایش می‌دهند استفاده شود، از این گزینه استفاده کنید.",
+          "how": "Profile & Logo را باز کنید و Remove Logo را انتخاب کنید. منتظر پیام تأیید حذف لوگو و ذخیره پروفایل بمانید. نیازی به انتخاب جداگانه Save Profile نیست.",
+          "inputs": "ورودی دیگری لازم نیست. برای مشاهده تغییر، باید لوگویی از قبل ذخیره شده باشد.",
+          "result": "مقدار لوگو در پروفایل پاک می‌شود، پروفایل به‌روزشده ذخیره و اعتبارسنجی می‌شود و پیش‌نمایش لوگو پنهان می‌شود. اگر ذخیره ناموفق باشد، پیام خطا نمایش داده می‌شود و حذف تأیید نخواهد شد.",
+          "notes": "این کنترل حذف را بلافاصله ذخیره می‌کند. ممکن است بر اسناد آینده‌ای که از پروفایل استفاده می‌کنند اثر بگذارد، اما اسناد صادرشده قبلی را بازنویسی نمی‌کند. اگر احتمال می‌دهید دوباره به تصویر نیاز دارید، یک نسخه جداگانه نگه دارید."
         }
       },
       "handler_or_behavior": "`prRemoveLogo()`"
@@ -5722,20 +5722,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Saves the support message entered in the Contact Us form.",
-          "when": "Use this after writing a support request that you want to keep for later review or follow-up.",
-          "how": "Complete the requested message fields, review the content and select Save Support Message. Wait for the save confirmation.",
-          "inputs": "The fields marked as required in the support form, such as the message subject or description.",
-          "result": "The support message is saved as a local draft if the save succeeds.",
-          "notes": "Saving a support message does not necessarily send it to the developer or create a support ticket. Check the on-screen confirmation and do not include passwords, payment credentials or unnecessary personal information."
+          "purpose": "Validates and saves the Contact Us support message as a local IndexedDB draft on this device.",
+          "when": "Use this after entering a support request that you want to retain for later review. The app currently has no online support connection, so this action does not send a request.",
+          "how": "Enter a valid email address, a subject and a message. The name field is optional. Review the content and select Save Support Message. Check the status text to confirm whether the draft was saved.",
+          "inputs": "A valid email address, subject and message are required. Name is optional.",
+          "result": "If the IndexedDB save succeeds, the message is stored on this device with a pending-local-only status. The page explicitly confirms that it has NOT been sent. If saving fails, an error is shown and the message is not confirmed as saved.",
+          "notes": "This action creates a local draft, not a support ticket or email to the developer. The app has no server connection for sending support requests in this build. Do not include passwords, payment credentials or unnecessary personal information."
         },
         "fa": {
-          "purpose": "پیام پشتیبانی واردشده در فرم Contact Us را ذخیره می‌کند.",
-          "when": "پس از نوشتن درخواست پشتیبانی که می‌خواهید برای بررسی یا پیگیری بعدی نگه دارید، از این گزینه استفاده کنید.",
-          "how": "فیلدهای درخواستی پیام را تکمیل کنید، متن را بازبینی کنید و Save Support Message را بزنید. تا نمایش پیام تأیید ذخیره صبر کنید.",
-          "inputs": "فیلدهای اجباری فرم پشتیبانی، مانند موضوع یا شرح پیام.",
-          "result": "اگر ذخیره موفق شود، پیام پشتیبانی به‌صورت پیش‌نویس محلی ذخیره می‌شود.",
-          "notes": "ذخیره پیام لزوماً آن را برای توسعه‌دهنده ارسال نمی‌کند یا تیکت پشتیبانی نمی‌سازد. پیام تأیید روی صفحه را بررسی کنید و گذرواژه، اطلاعات پرداخت یا اطلاعات شخصی غیرضروری ننویسید."
+          "purpose": "پیام فرم Contact Us را بررسی و به‌صورت پیش‌نویس محلی در IndexedDB همین دستگاه ذخیره می‌کند.",
+          "when": "پس از نوشتن درخواست پشتیبانی که می‌خواهید برای بررسی بعدی نگه دارید، از این گزینه استفاده کنید. برنامه در حال حاضر اتصال پشتیبانی آنلاین ندارد؛ بنابراین این عمل پیام را ارسال نمی‌کند.",
+          "how": "نشانی ایمیل معتبر، موضوع و متن پیام را وارد کنید. فیلد نام اختیاری است. محتوا را بازبینی و Save Support Message را انتخاب کنید. متن وضعیت صفحه را برای اطمینان از ذخیره پیش‌نویس بررسی کنید.",
+          "inputs": "نشانی ایمیل معتبر، موضوع و متن پیام الزامی هستند. واردکردن نام اختیاری است.",
+          "result": "اگر ذخیره در IndexedDB موفق شود، پیام با وضعیت pending-local-only روی همین دستگاه ذخیره می‌شود. صفحه صریحاً تأیید می‌کند که پیام ارسال نشده است. اگر ذخیره ناموفق باشد، خطا نمایش داده می‌شود و ذخیره‌شدن پیام تأیید نمی‌شود.",
+          "notes": "این عمل یک پیش‌نویس محلی ایجاد می‌کند، نه تیکت پشتیبانی یا ایمیل برای توسعه‌دهنده. در این Build برنامه اتصال سروری برای ارسال درخواست پشتیبانی ندارد. گذرواژه، اطلاعات پرداخت یا اطلاعات شخصی غیرضروری را وارد نکنید."
         }
       },
       "handler_or_behavior": "`event/property listener`"
