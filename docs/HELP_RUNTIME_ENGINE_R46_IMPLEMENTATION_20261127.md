@@ -70,3 +70,13 @@ Source review corrected the English and Persian text for nine Draft entries: THA
 - Static allowlist count: 39. Total contextual Help controls mapped: 44 (39 static, five dynamic-template).
 - Version target: `THA-273-R11-PREVIEW-20261127-R54`. The embedded canonical URL, Build ID, index blob SHA and runtime asset pin must remain synchronized.
 - Source-level mapping only. Live Help clicks, language switching, mobile layout, actual report actions and iPhone Safari remain unverified. No Preview deployment or Production change.
+
+
+## R55 core accounting bindings
+
+- Added six completed contextual Help topics for `THA-HLP-0026` Save Entry, `THA-HLP-0028` Add expense category, `THA-HLP-0030` Save Invoice, `THA-HLP-0031` Save & Print / PDF, `THA-HLP-0032` Save Customer and `THA-HLP-0033` Clear Customer Form.
+- Each selector is scoped to its owning form/panel (`#entry`, `#expenseCategoryAddScreen`, `#invoiceEditor` or `#customers`) and the exact literal `onclick` attribute.
+- Static allowlist count: 45. Total contextual Help controls mapped: 50 (45 static, five dynamic-template).
+- No accounting calculation, invoice numbering, payment linkage, IndexedDB operation or original button handler was changed.
+- Version target: `THA-273-R11-PREVIEW-20261127-R55`. The embedded canonical URL, Build ID, index SHA and runtime asset pin must match before the Gate can pass.
+- Source-level implementation only. Live save flows, contextual popup behavior, language switching, mobile layout and iPhone Safari remain unverified. No Preview deployment or Production change.
