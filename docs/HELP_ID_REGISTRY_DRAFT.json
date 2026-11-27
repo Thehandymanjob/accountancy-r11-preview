@@ -11558,20 +11558,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open an attachment associated with a company job or record.",
-          "when": "Use this control when you need to open a file attached to the selected company or job record.",
-          "how": "Select the attachment icon on the correct row to open the linked file.",
-          "inputs": "Select the correct company or job record and check the attached filename.",
-          "result": "The attachment file for the selected company or job record opens in the device or browser.",
-          "notes": "Verify the row and filename before opening or sharing the file."
+          "purpose": "Opens the attachment stored with the selected company or job record.",
+          "when": "Use this when you need to inspect a contract, job or other file attached to a company/job record.",
+          "how": "Select the paperclip or attachment filename on the correct company/job row. The browser opens the stored PDF or image in a new tab.",
+          "inputs": "Select the correct company or job record and confirm that it has an attachment with available file data.",
+          "result": "The PDF opens in an embedded viewer or the image is displayed in a new browser tab. If the file data is unavailable or pop-ups are blocked, the app reports the problem.",
+          "notes": "Verify the row and filename before opening or sharing the file. Viewing the attachment does not edit the company or job record."
         },
         "fa": {
-          "purpose": "باز کردن پیوست مربوط به شرکت یا کار.",
-          "when": "وقتی لازم است فایلی را که به سابقه شرکت یا کار انتخاب‌شده پیوست شده باز کنید، از این گزینه استفاده کنید.",
-          "how": "آیکون پیوست را در ردیف درست انتخاب کنید تا فایل مرتبط باز شود.",
-          "inputs": "سابقه درست شرکت یا کار را انتخاب کنید و نام فایل پیوست‌شده را بررسی کنید.",
-          "result": "پیوست رکورد شرکت یا کار انتخاب‌شده در دستگاه یا مرورگر باز می‌شود. خود رکورد تغییر نمی‌کند.",
-          "notes": "پیش از باز کردن یا ارسال فایل، ردیف و نام فایل را بررسی کنید."
+          "purpose": "پیوست ذخیره‌شده همراه با سابقه شرکت یا کار انتخاب‌شده را باز می‌کند.",
+          "when": "وقتی لازم است قرارداد یا فایل دیگری را که به سابقه شرکت/کار پیوست شده بررسی کنید، از این گزینه استفاده کنید.",
+          "how": "نماد گیره یا نام پیوست را در ردیف صحیح شرکت/کار انتخاب کنید. مرورگر فایل PDF یا تصویر ذخیره‌شده را در زبانه جدید باز می‌کند.",
+          "inputs": "سابقه صحیح شرکت یا کار را انتخاب کنید و مطمئن شوید پیوست با داده فایل در دسترس دارد.",
+          "result": "PDF در نمایشگر داخلی باز می‌شود یا تصویر در زبانه جدید مرورگر نمایش داده می‌شود. اگر داده فایل در دسترس نباشد یا پنجره بازشو مسدود باشد، برنامه مشکل را اعلام می‌کند.",
+          "notes": "پیش از باز کردن یا ارسال فایل، ردیف و نام فایل را بررسی کنید. مشاهده پیوست، سابقه شرکت یا کار را ویرایش نمی‌کند."
         },
         "ar": {
           "purpose": "يفتح مرفقاً مرتبطاً بوظيفة أو سجل شركة.",
@@ -11656,20 +11656,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Open an attachment associated with a work package or its record.",
-          "when": "Use this control when you need to review supporting documentation for the selected work package.",
-          "how": "Select the attachment filename to view the stored file using the device/browser.",
-          "inputs": "Select the correct work package and check the attachment filename before opening it.",
-          "result": "The saved supporting file for the selected work package opens in the device or browser.",
-          "notes": "The attachment is supporting material; opening it does not save changes to the package."
+          "purpose": "Opens the attachment stored with the selected work package.",
+          "when": "Use this when you need to inspect supporting evidence attached to a particular work package.",
+          "how": "In the Work packages list, select the attachment filename beside the correct package. The browser opens the stored PDF or image in a new tab.",
+          "inputs": "Select the correct work package and confirm that it has an attachment with available file data.",
+          "result": "The PDF opens in an embedded viewer or the image is displayed in a new browser tab. If the attachment data is unavailable or pop-ups are blocked, the app reports the problem.",
+          "notes": "Check the package and filename before opening or sharing. Opening the attachment is view-only and does not save changes to the package."
         },
         "fa": {
-          "purpose": "باز کردن پیوست مربوط به بسته کاری یا رکورد آن.",
-          "when": "وقتی لازم است سند پشتیبان مربوط به بسته کاری انتخاب‌شده را بررسی کنید، از این گزینه استفاده کنید.",
-          "how": "نام فایل پیوست را انتخاب کنید تا فایل ذخیره‌شده در مرورگر یا دستگاه باز شود.",
-          "inputs": "بسته کاری درست را انتخاب کنید و پیش از باز کردن نام پیوست را بررسی کنید.",
-          "result": "فایل پشتیبان ذخیره‌شده برای بسته کاری انتخاب‌شده در دستگاه یا مرورگر باز می‌شود. بازکردن آن، تغییرات بسته را ذخیره نمی‌کند.",
-          "notes": "پیوست مدرک پشتیبان است؛ باز کردن آن تغییرات بسته کاری را ذخیره نمی‌کند."
+          "purpose": "پیوست ذخیره‌شده همراه با بسته کاری انتخاب‌شده را باز می‌کند.",
+          "when": "وقتی لازم است مدرک پشتیبان پیوست‌شده به یک بسته کاری مشخص را بررسی کنید، از این گزینه استفاده کنید.",
+          "how": "در فهرست Work packages، نام پیوست کنار بسته صحیح را انتخاب کنید. مرورگر PDF یا تصویر ذخیره‌شده را در زبانه جدید باز می‌کند.",
+          "inputs": "بسته کاری درست را انتخاب کنید و مطمئن شوید پیوست با داده فایل در دسترس دارد.",
+          "result": "PDF در نمایشگر داخلی باز می‌شود یا تصویر در زبانه جدید مرورگر نمایش داده می‌شود. اگر داده پیوست در دسترس نباشد یا پنجره بازشو مسدود باشد، برنامه مشکل را اعلام می‌کند.",
+          "notes": "پیش از باز کردن یا ارسال، بسته و نام فایل را بررسی کنید. بازکردن پیوست فقط برای مشاهده است و تغییرات بسته را ذخیره نمی‌کند."
         },
         "ar": {
           "purpose": "يفتح مرفقاً مرتبطاً بحزمة عمل أو بسجلها.",
@@ -11754,20 +11754,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Edit a saved work package.",
-          "when": "Use this control when you need to update the details of an existing work package.",
-          "how": "Choose Edit for the intended package, check its job association and details, then save the changes.",
-          "inputs": "Select the correct work package within the correct job and review the fields you intend to edit.",
-          "result": "The selected work package is loaded for editing; its saved details change only after a successful save.",
-          "notes": "Make sure you are editing the correct package within the correct job."
+          "purpose": "Loads a saved work package into its form for editing.",
+          "when": "Use this when updating the name, type, amount, approval or execution status, requester, approval date, notes or evidence for an existing package.",
+          "how": "In the Work packages list for the correct job, select Edit beside the intended package. Update the required fields and select Save Work Package.",
+          "inputs": "Select the correct work package within the correct job. The existing package values are loaded; change only the fields that need updating.",
+          "result": "The selected package's saved values are loaded into the work-package form. Changes are not committed until Save Work Package succeeds.",
+          "notes": "Confirm the job and package identity before saving. Editing preserves the package's existing expenses and, if no replacement file is selected, its existing attachment."
         },
         "fa": {
-          "purpose": "ویرایش یک بسته کاری ذخیره‌شده.",
-          "when": "وقتی لازم است جزئیات یک بسته کاری موجود را به‌روزرسانی کنید، از این گزینه استفاده کنید.",
-          "how": "برای بسته موردنظر Edit را انتخاب کنید، ارتباط آن با کار اصلی و جزئیات را بررسی و تغییرات را ذخیره کنید.",
-          "inputs": "بسته کاری درست را درون کار درست انتخاب کنید و فیلدهایی را که می‌خواهید ویرایش کنید بررسی کنید.",
-          "result": "بسته کاری انتخاب‌شده برای ویرایش در فرم بارگذاری می‌شود؛ جزئیات ذخیره‌شده فقط پس از ذخیره موفق تغییر می‌کنند.",
-          "notes": "مطمئن شوید بسته درست را درون کار صحیح ویرایش می‌کنید."
+          "purpose": "بسته کاری ذخیره‌شده را برای ویرایش در فرم مربوط بارگذاری می‌کند.",
+          "when": "وقتی می‌خواهید نام، نوع، مبلغ، وضعیت تأیید یا اجرا، درخواست‌کننده، تاریخ تأیید، یادداشت یا مدرک یک بسته موجود را به‌روزرسانی کنید، از این گزینه استفاده کنید.",
+          "how": "در فهرست Work packages مربوط به کار صحیح، کنار بسته موردنظر Edit را انتخاب کنید. فیلدهای لازم را تغییر دهید و Save Work Package را انتخاب کنید.",
+          "inputs": "بسته کاری درست را درون کار صحیح انتخاب کنید. مقادیر فعلی بسته بارگذاری می‌شوند؛ فقط فیلدهایی را تغییر دهید که نیاز به اصلاح دارند.",
+          "result": "مقادیر ذخیره‌شده بسته انتخاب‌شده در فرم بسته کاری بارگذاری می‌شوند. تغییرات تا موفقیت Save Work Package ثبت نمی‌شوند.",
+          "notes": "پیش از ذخیره، هویت کار و بسته را تأیید کنید. ویرایش، هزینه‌های موجود بسته را حفظ می‌کند و اگر فایل جایگزین انتخاب نشود، پیوست قبلی نیز باقی می‌ماند."
         },
         "ar": {
           "purpose": "يفتح حزمة عمل محفوظة لتعديلها.",
@@ -11852,20 +11852,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Opens the expense and cost view for a selected work package.",
-          "when": "Use this when you need to review or add costs recorded against a particular work package.",
-          "how": "Select Financials for the intended package. Review its expense list and total, or enter a new expense in the fields shown.",
-          "inputs": "Select the correct work package. To add an expense, enter a valid date and amount greater than zero; category is selected from the list, while payee, description and receipt are optional.",
-          "result": "The selected package's recorded expenses and cost total are displayed, with fields to add another package expense. This view does not show a separate income ledger.",
-          "notes": "Treat displayed totals as package expense figures and check them against source receipts before relying on them."
+          "purpose": "Opens the financial view for a selected work package, showing its recorded expenses and expense-entry form.",
+          "when": "Use this when reviewing costs recorded against a package or adding a new package expense.",
+          "how": "Select Financials for the intended package. Review its recorded expense list and total. To add a cost, enter the date and an amount greater than zero, choose a category, optionally enter payee and description or attach a receipt, then select Add Expense.",
+          "inputs": "Select the correct work package. A valid expense date and amount greater than £0 are required to add an expense. Category is selected from the available list; payee, description and receipt are optional.",
+          "result": "The package's recorded expenses and cost total are displayed, with fields to add another expense. The view does not provide a separate income ledger.",
+          "notes": "These figures are package expense records, not a full company-job profit report. Check them against source receipts. Package costs remain within Company Contracts & Jobs and are not automatically copied to Accountancy."
         },
         "fa": {
-          "purpose": "نمای هزینه‌ها و مخارج ثبت‌شده برای یک بسته کاری انتخاب‌شده را باز می‌کند.",
-          "when": "وقتی می‌خواهید هزینه‌های ثبت‌شده برای یک بسته کاری مشخص را بررسی کنید یا هزینه جدیدی به آن اضافه کنید، از این گزینه استفاده کنید.",
-          "how": "برای بسته موردنظر Financials را انتخاب کنید. فهرست هزینه‌ها و جمع آن‌ها را بررسی کنید یا با استفاده از فیلدهای نمایش‌داده‌شده هزینه جدیدی ثبت کنید.",
-          "inputs": "بسته کاری درست را انتخاب کنید. برای افزودن هزینه، تاریخ معتبر و مبلغ بیشتر از صفر الزامی است؛ دسته‌بندی را از فهرست انتخاب کنید و نام پرداخت‌کننده، شرح و رسید را در صورت نیاز وارد کنید.",
-          "result": "هزینه‌های ثبت‌شده و مجموع هزینه بسته انتخاب‌شده نمایش داده می‌شوند و فیلدهایی برای افزودن هزینه دیگری به همان بسته در دسترس قرار می‌گیرند. این نما دفتر جداگانه‌ای برای درآمدها نشان نمی‌دهد.",
-          "notes": "مبالغ نمایش‌داده‌شده را هزینه‌های بسته در نظر بگیرید و پیش از اتکا به آن‌ها با رسیدها و مدارک اصلی تطبیق دهید."
+          "purpose": "نمای مالی بسته کاری انتخاب‌شده را باز می‌کند و هزینه‌های ثبت‌شده و فرم ثبت هزینه را نمایش می‌دهد.",
+          "when": "برای بررسی هزینه‌های ثبت‌شده برای یک بسته یا افزودن هزینه جدید به همان بسته از این گزینه استفاده کنید.",
+          "how": "برای بسته موردنظر Financials را انتخاب کنید. فهرست هزینه‌ها و مجموع آن‌ها را بررسی کنید. برای افزودن هزینه، تاریخ و مبلغی بیشتر از صفر وارد کنید، دسته‌بندی را انتخاب و در صورت نیاز دریافت‌کننده، شرح یا رسید را اضافه کنید؛ سپس Add Expense را انتخاب کنید.",
+          "inputs": "بسته کاری درست را انتخاب کنید. برای افزودن هزینه، تاریخ معتبر و مبلغ بیشتر از صفر پوند الزامی است. دسته‌بندی از فهرست موجود انتخاب می‌شود؛ دریافت‌کننده، شرح و رسید اختیاری هستند.",
+          "result": "هزینه‌های ثبت‌شده و مجموع هزینه بسته نمایش داده می‌شوند و فیلدهایی برای افزودن هزینه دیگری در دسترس قرار می‌گیرند. این نما دفتر جداگانه‌ای برای درآمدها ندارد.",
+          "notes": "این ارقام سوابق هزینه بسته هستند، نه گزارش کامل سود و زیان کار شرکتی. آن‌ها را با رسیدهای اصلی تطبیق دهید. هزینه‌های بسته در Company Contracts & Jobs باقی می‌مانند و خودکار به Accountancy کپی نمی‌شوند."
         },
         "ar": {
           "purpose": "يعرض المعلومات المالية لحزمة عمل.",
@@ -11950,20 +11950,20 @@
       "status": "CONTENT_DRAFT",
       "translations": {
         "en": {
-          "purpose": "Removes a work package and its nested package records from the selected job.",
-          "when": "Use this only when the work package is no longer needed and you have checked its associated expenses and evidence.",
-          "how": "Choose Delete for the intended package and confirm the prompt after checking the package and its contents.",
-          "inputs": "Select the correct work package within the correct job and approve the deletion confirmation.",
-          "result": "The selected work package is removed from the job after confirmation and successful persistence. Its package-level expenses and attachment are removed with it.",
-          "notes": "DESTRUCTIVE: this removes the package and its nested financial/evidence records. It does not delete the job's separate payment history. Check and retain any required evidence first."
+          "purpose": "Deletes a selected work package and its nested package records after confirmation.",
+          "when": "Use this only when the work package is no longer required and you have checked its expenses and supporting evidence.",
+          "how": "In the Work packages list for the correct job, select Delete beside the intended package. Review the confirmation and approve only if you intend to remove the package and its contents.",
+          "inputs": "Select the correct work package within the correct job and approve the confirmation prompt.",
+          "result": "After confirmation and successful persistence, the package is removed from the job. Its package-level expenses and attachment are removed with it; the job's separate payment history remains.",
+          "notes": "DESTRUCTIVE: deleting a package also removes its nested expense and evidence records. It does not delete the job's separate payment history. Retain any required evidence and verify the correct package before confirming."
         },
         "fa": {
-          "purpose": "یک بسته کاری و سوابق داخلی وابسته به آن را از کار انتخاب‌شده حذف می‌کند.",
-          "when": "فقط زمانی استفاده کنید که دیگر به بسته کاری نیاز ندارید و هزینه‌ها و مدارک مرتبط با آن را بررسی کرده‌اید.",
-          "how": "برای بسته موردنظر Delete را انتخاب کنید و پس از بررسی بسته و محتویات آن، پیام تأیید را بپذیرید.",
-          "inputs": "بسته کاری درست را درون کار درست انتخاب کنید و تأیید حذف را بپذیرید.",
-          "result": "پس از تأیید و ذخیره موفق، بسته کاری از کار حذف می‌شود. هزینه‌های سطح بسته و پیوست آن نیز همراه بسته حذف می‌شوند.",
-          "notes": "هشدار: این عملیات بسته و سوابق مالی/مدارک داخلی آن را حذف می‌کند، اما تاریخچه پرداخت جداگانه مربوط به خود کار را حذف نمی‌کند. پیش از ادامه، مدارک موردنیاز را بررسی و نگهداری کنید."
+          "purpose": "بسته کاری انتخاب‌شده و سوابق داخلی آن را پس از تأیید حذف می‌کند.",
+          "when": "فقط زمانی استفاده کنید که دیگر به بسته کاری نیاز ندارید و هزینه‌ها و مدارک پشتیبان آن را بررسی کرده‌اید.",
+          "how": "در فهرست Work packages مربوط به کار صحیح، کنار بسته موردنظر Delete را انتخاب کنید. پیام تأیید را بررسی کنید و فقط در صورت قصد حذف بسته و محتویات آن، تأیید کنید.",
+          "inputs": "بسته کاری درست را درون کار صحیح انتخاب کنید و پیام تأیید را بپذیرید.",
+          "result": "پس از تأیید و ذخیره موفق، بسته از کار حذف می‌شود. هزینه‌های سطح بسته و پیوست آن نیز همراه بسته حذف می‌شوند؛ تاریخچه پرداخت جداگانه کار باقی می‌ماند.",
+          "notes": "مخرب: حذف بسته، سوابق هزینه و مدارک داخلی آن را نیز حذف می‌کند. تاریخچه پرداخت جداگانه کار حذف نمی‌شود. مدارک موردنیاز را نگه دارید و پیش از تأیید، بسته صحیح را بررسی کنید."
         },
         "ar": {
           "purpose": "يزيل حزمة العمل والسجلات المتداخلة التابعة لها من الوظيفة المحددة.",
