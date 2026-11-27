@@ -8693,7 +8693,7 @@
           "purpose": "Closes the confirmation dialog shown after an entry is saved.",
           "when": "after reading the saved-entry confirmation and when you are ready to return to the form.",
           "how": "Select OK to close the message.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "No information is required; select OK only to close the saved-entry confirmation.",
           "result": "The confirmation dialog closes.",
           "notes": "This does not undo the saved entry. Verify the record in the list if you need to confirm its details."
         },
@@ -8701,9 +8701,81 @@
           "purpose": "پیام تأیید ذخیره ثبت را می‌بندد.",
           "when": "پس از خواندن پیام ذخیره موفق و زمانی که آماده بازگشت به فرم هستید، از این گزینه استفاده کنید.",
           "how": "برای بستن پیام، OK را انتخاب کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "inputs": "ورود اطلاعات لازم نیست؛ OK را فقط برای بستن پیام تأیید ذخیره انتخاب کنید.",
           "result": "پنجره تأیید بسته می‌شود.",
           "notes": "این کار ثبت ذخیره‌شده را برنمی‌گرداند. اگر لازم است جزئیات را تأیید کنید، سابقه را در فهرست بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يغلق مربع التأكيد الذي يظهر بعد حفظ إدخال.",
+          "when": "بعد قراءة رسالة تأكيد الحفظ وعندما تكون مستعداً للعودة إلى النموذج.",
+          "how": "اختر OK لإغلاق الرسالة.",
+          "inputs": "لا يلزم إدخال بيانات؛ استخدم OK لإغلاق رسالة التأكيد فقط.",
+          "result": "يُغلق مربع التأكيد.",
+          "notes": "هذا لا يلغي الإدخال المحفوظ. راجع السجل في القائمة إذا احتجت إلى التحقق من تفاصيله."
+        },
+        "ckb": {
+          "purpose": "پەنجەرەی پشتڕاستکردنەوەی دوای پاشەکەوتکردنی تۆمار دادەخاتەوە.",
+          "when": "دوای خوێندنەوەی نامەی پشتڕاستکردنەوەی پاشەکەوتکردن و کاتێک ئامادەی گەڕانەوە بۆ فۆڕمەکەیت.",
+          "how": "بۆ داخستنی نامەکە OK هەڵبژێرە.",
+          "inputs": "هیچ زانیارییەک پێویست نییە؛ OK تەنها بۆ داخستنی نامەی پشتڕاستکردنەوە بەکاربهێنە.",
+          "result": "پەنجەرەی پشتڕاستکردنەوە دادەخرێت.",
+          "notes": "ئەمە تۆماری پاشەکەوتکراو ناگەڕێنێتەوە. ئەگەر پێویست بوو وردەکارییەکانی بپشکنیت، تۆمارەکە لە پێڕستەکە ببینە."
+        },
+        "kmr": {
+          "purpose": "Diyaloga piştrastkirinê ya ku piştî tomarkirina tomarê xuya dibe digire.",
+          "when": "Piştî xwendina peyama piştrastkirina tomarkirinê û dema ku tu amade yî vegerî formê.",
+          "how": "Ji bo girtina peyamê OK hilbijêre.",
+          "inputs": "Agahî nehewce ye; OK tenê ji bo girtina peyama piştrastkirinê bikar bîne.",
+          "result": "Diyaloga piştrastkirinê tê girtin.",
+          "notes": "Ev tomarê tomarkirî betal nake. Heke dixwazî hûrguliyan piştrast bikî, tomarê di lîsteyê de kontrol bike."
+        },
+        "tr": {
+          "purpose": "Bir kayıt kaydedildikten sonra görünen onay iletişim kutusunu kapatır.",
+          "when": "Kaydetme onayını okuduktan ve forma dönmeye hazır olduğunuzda kullanın.",
+          "how": "Mesajı kapatmak için OK'yi seçin.",
+          "inputs": "Bilgi girmeniz gerekmez; yalnızca onay mesajını kapatmak için OK'yi kullanın.",
+          "result": "Onay iletişim kutusu kapanır.",
+          "notes": "Bu işlem kaydedilmiş kaydı geri almaz. Ayrıntılarını doğrulamak istiyorsanız kaydı listeden kontrol edin."
+        },
+        "pl": {
+          "purpose": "Zamyka okno potwierdzenia wyświetlane po zapisaniu wpisu.",
+          "when": "Użyj po przeczytaniu potwierdzenia zapisu, gdy chcesz wrócić do formularza.",
+          "how": "Wybierz OK, aby zamknąć komunikat.",
+          "inputs": "Nie trzeba podawać danych; wybierz OK wyłącznie w celu zamknięcia komunikatu potwierdzającego.",
+          "result": "Okno potwierdzenia zostaje zamknięte.",
+          "notes": "Nie cofa to zapisanego wpisu. Jeśli chcesz sprawdzić szczegóły, odszukaj rekord na liście."
+        },
+        "ur": {
+          "purpose": "ریکارڈ محفوظ ہونے کے بعد دکھائی دینے والا تصدیقی ڈائیلاگ بند کرتا ہے۔",
+          "when": "محفوظ ہونے کی تصدیق پڑھنے کے بعد، جب فارم پر واپس جانا ہو تو استعمال کریں۔",
+          "how": "پیغام بند کرنے کے لیے OK منتخب کریں۔",
+          "inputs": "کوئی معلومات درج کرنے کی ضرورت نہیں؛ صرف تصدیقی پیغام بند کرنے کے لیے OK استعمال کریں۔",
+          "result": "تصدیقی ڈائیلاگ بند ہو جاتا ہے۔",
+          "notes": "اس سے محفوظ شدہ اندراج واپس نہیں ہوتا۔ تفصیلات کی تصدیق کے لیے ضرورت ہو تو فہرست میں ریکارڈ دیکھیں۔"
+        },
+        "pa": {
+          "purpose": "ریکارਡ ਸੇਵ ਹੋਣ ਤੋਂ ਬਾਅਦ ਦਿਖਾਈ ਦੇਣ ਵਾਲਾ ਪੁਸ਼ਟੀ ਡਾਇਲਾਗ ਬੰਦ ਕਰਦਾ ਹੈ।",
+          "when": "ਸੇਵ ਹੋਣ ਦੀ ਪੁਸ਼ਟੀ ਪੜ੍ਹਨ ਤੋਂ ਬਾਅਦ, ਜਦੋਂ ਫਾਰਮ 'ਤੇ ਵਾਪਸ ਜਾਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸੁਨੇਹਾ ਬੰਦ ਕਰਨ ਲਈ OK ਚੁਣੋ।",
+          "inputs": "ਕੋਈ ਜਾਣਕਾਰੀ ਦੇਣ ਦੀ ਲੋੜ ਨਹੀਂ; ਸਿਰਫ਼ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਬੰਦ ਕਰਨ ਲਈ OK ਵਰਤੋ।",
+          "result": "ਪੁਸ਼ਟੀ ਡਾਇਲਾਗ ਬੰਦ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਇਸ ਨਾਲ ਸੇਵ ਕੀਤਾ ਰਿਕਾਰਡ ਵਾਪਸ ਨਹੀਂ ਹੁੰਦਾ। ਵੇਰਵਿਆਂ ਦੀ ਪੁਸ਼ਟੀ ਲਈ ਲੋੜ ਹੋਵੇ ਤਾਂ ਸੂਚੀ ਵਿੱਚ ਰਿਕਾਰਡ ਵੇਖੋ।"
+        },
+        "prs": {
+          "purpose": "پنجره تأییدی را که پس از ذخیره یک ثبت نمایش داده می‌شود می‌بندد.",
+          "when": "پس از خواندن پیام تأیید ذخیره و هنگامی که آماده بازگشت به فرم هستید، استفاده کنید.",
+          "how": "برای بستن پیام OK را انتخاب کنید.",
+          "inputs": "ورود اطلاعات لازم نیست؛ OK را فقط برای بستن پیام تأیید انتخاب کنید.",
+          "result": "پنجره تأیید بسته می‌شود.",
+          "notes": "این کار ثبت ذخیره‌شده را برنمی‌گرداند. اگر لازم است جزئیات را بررسی کنید، سابقه را در فهرست ببینید."
+        },
+        "ps": {
+          "purpose": "د ثبت د خوندي کېدو وروسته ښکاره کېدونکې د تایید کړکۍ بندوي.",
+          "when": "د خوندي کېدو د تایید له لوستلو وروسته، کله چې فورم ته د بېرته ستنېدو لپاره چمتو یاست، دا وکاروئ.",
+          "how": "د پیغام د بندولو لپاره OK وټاکئ.",
+          "inputs": "معلوماتو ته اړتیا نشته؛ OK یوازې د تایید پیغام د بندولو لپاره وکاروئ.",
+          "result": "د تایید کړکۍ بندېږي.",
+          "notes": "دا خوندي شوی ثبت بېرته نه لغوه کوي. که د جزئیاتو تایید ته اړتیا لرئ، ریکارډ په لېست کې وګورئ."
         }
       },
       "handler_or_behavior": "`closeEntrySavedDialog()`"
@@ -8719,7 +8791,7 @@
           "purpose": "Opens the selected invoice from the records list.",
           "when": "when you need to inspect an invoice without navigating through the invoice workspace first.",
           "how": "Select View beside the relevant invoice record.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "Select the correct invoice record that you want to inspect.",
           "result": "The selected invoice details are displayed.",
           "notes": "Check the invoice number and customer before printing or taking further action. Viewing does not mark it paid."
         },
@@ -8727,9 +8799,81 @@
           "purpose": "فاکتور انتخاب‌شده را از فهرست سوابق باز می‌کند.",
           "when": "وقتی می‌خواهید بدون رفتن به فضای فاکتورها، فاکتور را بررسی کنید، از این گزینه استفاده کنید.",
           "how": "در کنار سابقه فاکتور موردنظر View را انتخاب کنید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "inputs": "سابقه درست فاکتوری را که می‌خواهید بررسی کنید انتخاب کنید.",
           "result": "جزئیات فاکتور انتخاب‌شده نمایش داده می‌شود.",
           "notes": "پیش از چاپ یا اقدام بعدی، شماره فاکتور و مشتری را بررسی کنید. مشاهده فاکتور آن را پرداخت‌شده علامت نمی‌زند."
+        },
+        "ar": {
+          "purpose": "يفتح الفاتورة المحددة من قائمة السجلات.",
+          "when": "عندما تحتاج إلى مراجعة فاتورة دون الانتقال أولاً إلى مساحة عمل الفواتير.",
+          "how": "اختر View بجانب سجل الفاتورة المعني.",
+          "inputs": "حدد سجل الفاتورة الصحيح الذي تريد مراجعته.",
+          "result": "تظهر تفاصيل الفاتورة المحددة.",
+          "notes": "تحقق من رقم الفاتورة والعميل قبل الطباعة أو اتخاذ إجراء آخر. عرض الفاتورة لا يضع علامة مدفوعة عليها."
+        },
+        "ckb": {
+          "purpose": "فاکتۆری هەڵبژێردراو لە پێڕستی تۆمارەکان دەکاتەوە.",
+          "when": "کاتێک دەتەوێت فاکتۆرێک بپشکنیت بەبێ ئەوەی سەرەتا بچیتە ناو کاری فاکتۆرەکان.",
+          "how": "لە تەنیشت تۆماری فاکتۆری پەیوەندیدار View هەڵبژێرە.",
+          "inputs": "تۆماری ئەو فاکتۆرە دروستە هەڵبژێرە کە دەتەوێت بپشکنیت.",
+          "result": "وردەکارییەکانی فاکتۆری هەڵبژێردراو پیشان دەدرێن.",
+          "notes": "پێش چاپکردن یان هەر کردارێکی تر ژمارەی فاکتۆر و کڕیار بپشکنە. بینین فاکتۆرەکە وەک پارەدراو نیشان ناکات."
+        },
+        "kmr": {
+          "purpose": "Fatûreya hilbijartî ji lîsteya tomarê vedike.",
+          "when": "Dema ku tu dixwazî fatûreyekê kontrol bikî bêyî ku pêşî biçî nav qada fatûreyan.",
+          "how": "Li kêleka tomara fatûreya têkildar View hilbijêre.",
+          "inputs": "Tomara fatûreya rast a ku dixwazî kontrol bikî hilbijêre.",
+          "result": "Hûrguliyên fatûreya hilbijartî xuya dibin.",
+          "notes": "Berî çapkirinê an kiryareke din jimara fatûreyê û xerîdar kontrol bike. Dîtin wê wekî dravdî nîşan nade."
+        },
+        "tr": {
+          "purpose": "Seçilen faturayı kayıtlar listesinden açar.",
+          "when": "Fatura çalışma alanına gitmeden bir faturayı incelemek istediğinizde kullanın.",
+          "how": "İlgili fatura kaydının yanındaki View'ı seçin.",
+          "inputs": "İncelemek istediğiniz doğru fatura kaydını seçin.",
+          "result": "Seçilen faturanın ayrıntıları görüntülenir.",
+          "notes": "Yazdırmadan veya başka bir işlem yapmadan önce fatura numarasını ve müşteriyi kontrol edin. Görüntülemek faturayı ödenmiş olarak işaretlemez."
+        },
+        "pl": {
+          "purpose": "Otwiera wybraną fakturę z listy rekordów.",
+          "when": "Użyj, gdy chcesz sprawdzić fakturę bez wcześniejszego przechodzenia do obszaru faktur.",
+          "how": "Wybierz View obok odpowiedniego rekordu faktury.",
+          "inputs": "Wybierz właściwy rekord faktury, który chcesz sprawdzić.",
+          "result": "Wyświetlane są szczegóły wybranej faktury.",
+          "notes": "Przed wydrukiem lub innym działaniem sprawdź numer faktury i klienta. Sam podgląd nie oznacza faktury jako opłaconej."
+        },
+        "ur": {
+          "purpose": "ریکارڈز کی فہرست سے منتخب انوائس کھولتا ہے۔",
+          "when": "جب انوائس ورک اسپیس میں پہلے جائے بغیر انوائس کا جائزہ لینا ہو تو استعمال کریں۔",
+          "how": "متعلقہ انوائس ریکارڈ کے ساتھ View منتخب کریں۔",
+          "inputs": "وہ درست انوائس ریکارڈ منتخب کریں جس کا جائزہ لینا ہے۔",
+          "result": "منتخب انوائس کی تفصیلات دکھائی دیتی ہیں۔",
+          "notes": "پرنٹ کرنے یا اگلا اقدام کرنے سے پہلے انوائس نمبر اور گاہک چیک کریں۔ دیکھنے سے انوائس ادا شدہ نشان زد نہیں ہوتی۔"
+        },
+        "pa": {
+          "purpose": "ਰਿਕਾਰਡਾਂ ਦੀ ਸੂਚੀ ਵਿੱਚੋਂ ਚੁਣਿਆ ਇਨਵੌਇਸ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਇਨਵੌਇਸ ਵਰਕਸਪੇਸ ਵਿੱਚ ਪਹਿਲਾਂ ਜਾਏ ਬਿਨਾਂ ਇਨਵੌਇਸ ਵੇਖਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸੰਬੰਧਿਤ ਇਨਵੌਇਸ ਰਿਕਾਰਡ ਦੇ ਨਾਲ View ਚੁਣੋ।",
+          "inputs": "ਉਹ ਸਹੀ ਇਨਵੌਇਸ ਰਿਕਾਰਡ ਚੁਣੋ ਜਿਸਦੀ ਜਾਂਚ ਕਰਨੀ ਹੈ।",
+          "result": "ਚੁਣੇ ਇਨਵੌਇਸ ਦੇ ਵੇਰਵੇ ਦਿਖਾਏ ਜਾਂਦੇ ਹਨ।",
+          "notes": "ਪ੍ਰਿੰਟ ਕਰਨ ਜਾਂ ਹੋਰ ਕਾਰਵਾਈ ਤੋਂ ਪਹਿਲਾਂ ਇਨਵੌਇਸ ਨੰਬਰ ਅਤੇ ਗਾਹਕ ਜਾਂਚੋ। ਵੇਖਣ ਨਾਲ ਇਨਵੌਇਸ ਭੁਗਤਾਨ ਕੀਤਾ ਹੋਇਆ ਨਹੀਂ ਬਣਦਾ।"
+        },
+        "prs": {
+          "purpose": "فاکتور انتخاب‌شده را از فهرست سوابق باز می‌کند.",
+          "when": "وقتی می‌خواهید بدون ورود قبلی به فضای فاکتورها، یک فاکتور را بررسی کنید، استفاده کنید.",
+          "how": "در کنار سابقه فاکتور مربوط View را انتخاب کنید.",
+          "inputs": "سابقه درست فاکتوری را که می‌خواهید بررسی کنید انتخاب کنید.",
+          "result": "جزئیات فاکتور انتخاب‌شده نمایش داده می‌شود.",
+          "notes": "پیش از چاپ یا اقدام بعدی، شماره فاکتور و مشتری را بررسی کنید. مشاهده فاکتور آن را پرداخت‌شده علامت نمی‌زند."
+        },
+        "ps": {
+          "purpose": "ټاکل شوی بل د ریکارډونو له لېست څخه پرانیزي.",
+          "when": "کله چې غواړئ د بلونو کاري ځای ته له تلو پرته یو بل وګورئ، دا وکاروئ.",
+          "how": "د اړوند بل ریکارډ تر څنګ View وټاکئ.",
+          "inputs": "هغه سم د بل ریکارډ وټاکئ چې کتنه یې غواړئ.",
+          "result": "د ټاکل شوي بل جزئیات ښکاره کېږي.",
+          "notes": "له چاپ یا بل اقدام مخکې د بل شمېره او پېرودونکی وګورئ. یوازې لیدل بل د ورکړل شوي په توګه نه نښه کوي."
         }
       },
       "handler_or_behavior": "`viewRecordInvoice(\\`"
@@ -8745,7 +8889,7 @@
           "purpose": "Deletes or marks the selected invoice as deleted through the invoice deletion workflow.",
           "when": "only when the invoice is a duplicate or was created in error and should no longer remain active.",
           "how": "Check the invoice number, customer and payment status, select Delete and review the confirmation before proceeding.",
-          "inputs": "Use the fields and selections requested by the displayed form; no additional input is needed for navigation-only actions.",
+          "inputs": "Select the correct invoice and check its number, customer and payment status before confirming deletion.",
           "result": "The invoice is removed from the active view or marked deleted if the operation succeeds.",
           "notes": "DESTRUCTIVE: deleting an invoice can affect customer history, reports and audit trails. Check whether it has been issued or paid; retain a copy and follow your record-retention obligations. Do not delete to hide a genuine transaction."
         },
@@ -8753,9 +8897,81 @@
           "purpose": "فاکتور انتخاب‌شده را از طریق گردش‌کار حذف فاکتور حذف یا به‌عنوان حذف‌شده علامت‌گذاری می‌کند.",
           "when": "فقط وقتی فاکتور تکراری است یا اشتباهی ایجاد شده و نباید فعال بماند، از این گزینه استفاده کنید.",
           "how": "شماره فاکتور، مشتری و وضعیت پرداخت را بررسی کنید، Delete را بزنید و پیش از ادامه پیام تأیید را بخوانید.",
-          "inputs": "فیلدها و انتخاب‌های درخواستی فرم را وارد کنید؛ برای عملیات صرفاً ناوبری ورودی دیگری لازم نیست.",
+          "inputs": "فاکتور درست را انتخاب کنید و پیش از تأیید حذف، شماره، مشتری و وضعیت پرداخت آن را بررسی کنید.",
           "result": "در صورت موفقیت، فاکتور از نمای فعال خارج یا به‌عنوان حذف‌شده علامت‌گذاری می‌شود.",
           "notes": "مخرب: حذف فاکتور می‌تواند بر سابقه مشتری، گزارش‌ها و ردپای حسابرسی اثر بگذارد. بررسی کنید صادر یا پرداخت شده است یا نه؛ نسخه‌ای نگه دارید و الزامات نگهداری سوابق را رعایت کنید. برای پنهان‌کردن تراکنش واقعی حذف نکنید."
+        },
+        "ar": {
+          "purpose": "يحذف الفاتورة المحددة أو يضع علامة محذوفة عليها من خلال إجراء حذف الفاتورة.",
+          "when": "فقط عندما تكون الفاتورة مكررة أو أُنشئت عن طريق الخطأ ولا ينبغي أن تبقى نشطة.",
+          "how": "تحقق من رقم الفاتورة والعميل وحالة الدفع، واختر Delete، ثم راجع رسالة التأكيد قبل المتابعة.",
+          "inputs": "حدد الفاتورة الصحيحة وتحقق من رقمها والعميل وحالة الدفع قبل التأكيد.",
+          "result": "تُزال الفاتورة من العرض النشط أو تُعلّم كمحذوفة إذا نجحت العملية.",
+          "notes": "إجراء هدّام: قد يؤثر حذف الفاتورة في سجل العميل والتقارير ومسار التدقيق. تحقق مما إذا كانت قد صدرت أو دُفعت، واحتفظ بنسخة والتزم بمتطلبات حفظ السجلات. لا تحذف لإخفاء معاملة حقيقية."
+        },
+        "ckb": {
+          "purpose": "فاکتۆری هەڵبژێردراو دەسڕێتەوە یان لە ڕێگەی پرۆسەی سڕینەوە وەک سڕاوە نیشانی دەدات.",
+          "when": "تەنها کاتێک فاکتۆرەکە دووبارەیە یان بە هەڵە دروست کراوە و نابێت چالاک بمێنێتەوە.",
+          "how": "ژمارەی فاکتۆر، کڕیار و دۆخی پارەدان بپشکنە، Delete هەڵبژێرە و پێش بەردەوامبوون نامەی پشتڕاستکردنەوە بخوێنەوە.",
+          "inputs": "فاکتۆری دروست هەڵبژێرە و پێش پشتڕاستکردنەوە ژمارە، کڕیار و دۆخی پارەدانی بپشکنە.",
+          "result": "ئەگەر کردارەکە سەرکەوتوو بێت، فاکتۆرەکە لە نمای چالاک لادەبرێت یان وەک سڕاوە نیشان دەدرێت.",
+          "notes": "کردارێکی وێرانکەرە: سڕینەوەی فاکتۆر دەتوانێت کاریگەری لە مێژووی کڕیار، ڕاپۆرت و شوێنەواری پشکنین هەبێت. بپشکنە ئایا دەرچووە یان پارەی دراوە؛ کۆپییەک بپارێزە و پابەندی یاساکانی پاراستنی تۆمارەکان بە. بۆ شاردنەوەی مامەڵەیەکی ڕاستەقینە مەیسڕەوە."
+        },
+        "kmr": {
+          "purpose": "Fatûreya hilbijartî bi rêya pêvajoya jêbirina fatûreyê jê dike an wekî jêbirî nîşan dide.",
+          "when": "Tenê dema ku fatûre dubare ye an bi xeletî hatiye çêkirin û divê êdî çalak nemîne.",
+          "how": "Jimara fatûreyê, xerîdar û rewşa dravdanê kontrol bike, Delete hilbijêre û berî domandinê peyama piştrastkirinê bixwîne.",
+          "inputs": "Fatûreya rast hilbijêre û berî piştrastkirinê jimare, xerîdar û rewşa dravdanê kontrol bike.",
+          "result": "Ger kiryar serkeftî be, fatûre ji dîtina çalak tê rakirin an wekî jêbirî tê nîşankirin.",
+          "notes": "Kiriyareke wêranker e: jêbirina fatûreyê dikare bandorê li dîroka xerîdar, rapor û şopa kontrolê bike. Kontrol bike ka hatiye derxistin an hatiye dayîn; kopiyek biparêze û pêdiviyên parastina tomarê bicîh bîne. Ji bo veşartina danûstandineke rastîn wê jê neke."
+        },
+        "tr": {
+          "purpose": "Fatura silme iş akışı aracılığıyla seçilen faturayı siler veya silinmiş olarak işaretler.",
+          "when": "Yalnızca fatura yinelenmişse veya yanlışlıkla oluşturulmuşsa ve etkin kalmaması gerekiyorsa kullanın.",
+          "how": "Fatura numarasını, müşteriyi ve ödeme durumunu kontrol edin, Delete'i seçin ve devam etmeden önce onay mesajını inceleyin.",
+          "inputs": "Doğru faturayı seçin; onaylamadan önce numarasını, müşteriyi ve ödeme durumunu kontrol edin.",
+          "result": "İşlem başarılı olursa fatura etkin görünümden kaldırılır veya silinmiş olarak işaretlenir.",
+          "notes": "YIKICI İŞLEM: Fatura silmek müşteri geçmişini, raporları ve denetim izini etkileyebilir. Faturanın düzenlenip düzenlenmediğini veya ödenip ödenmediğini kontrol edin; bir kopyasını saklayın ve kayıt saklama yükümlülüklerine uyun. Gerçek bir işlemi gizlemek için silmeyin."
+        },
+        "pl": {
+          "purpose": "Usuwa wybraną fakturę lub oznacza ją jako usuniętą w ramach procesu usuwania faktur.",
+          "when": "Użyj wyłącznie wtedy, gdy faktura jest duplikatem lub została utworzona omyłkowo i nie powinna pozostać aktywna.",
+          "how": "Sprawdź numer faktury, klienta i status płatności, wybierz Delete i przeczytaj prośbę o potwierdzenie przed kontynuowaniem.",
+          "inputs": "Wybierz właściwą fakturę i przed potwierdzeniem sprawdź jej numer, klienta oraz status płatności.",
+          "result": "Jeśli operacja się powiedzie, faktura zostanie usunięta z aktywnego widoku lub oznaczona jako usunięta.",
+          "notes": "DZIAŁANIE NISZCZĄCE: usunięcie faktury może wpłynąć na historię klienta, raporty i ścieżkę audytu. Sprawdź, czy została wystawiona lub opłacona; zachowaj kopię i przestrzegaj obowiązków przechowywania dokumentacji. Nie usuwaj jej, aby ukryć rzeczywistą transakcję."
+        },
+        "ur": {
+          "purpose": "انوائس حذف کرنے کے عمل کے ذریعے منتخب انوائس حذف کرتا ہے یا اسے حذف شدہ نشان زد کرتا ہے۔",
+          "when": "صرف اس وقت استعمال کریں جب انوائس نقل ہو یا غلطی سے بنائی گئی ہو اور فعال نہیں رہنی چاہیے۔",
+          "how": "انوائس نمبر، گاہک اور ادائیگی کی حیثیت چیک کریں، Delete منتخب کریں اور آگے بڑھنے سے پہلے تصدیقی پیغام پڑھیں۔",
+          "inputs": "درست انوائس منتخب کریں اور تصدیق سے پہلے اس کا نمبر، گاہک اور ادائیگی کی حیثیت چیک کریں۔",
+          "result": "کارروائی کامیاب ہو تو انوائس فعال منظر سے ہٹا دی جاتی ہے یا حذف شدہ نشان زد ہوتی ہے۔",
+          "notes": "تباہ کن کارروائی: انوائس حذف کرنے سے گاہک کی تاریخ، رپورٹس اور آڈٹ ٹریل متاثر ہو سکتے ہیں۔ دیکھیں کہ انوائس جاری یا ادا ہوئی ہے یا نہیں؛ ایک نقل محفوظ رکھیں اور ریکارڈ رکھنے کی قانونی ذمہ داریاں پوری کریں۔ حقیقی لین دین چھپانے کے لیے اسے حذف نہ کریں۔"
+        },
+        "pa": {
+          "purpose": "ਇਨਵੌਇਸ ਮਿਟਾਉਣ ਦੀ ਪ੍ਰਕਿਰਿਆ ਰਾਹੀਂ ਚੁਣਿਆ ਇਨਵੌਇਸ ਮਿਟਾਉਂਦਾ ਜਾਂ ਮਿਟਾਇਆ ਹੋਇਆ ਨਿਸ਼ਾਨ ਲਗਾਉਂਦਾ ਹੈ।",
+          "when": "ਸਿਰਫ਼ ਜਦੋਂ ਇਨਵੌਇਸ ਡੁਪਲੀਕੇਟ ਹੋਵੇ ਜਾਂ ਗਲਤੀ ਨਾਲ ਬਣਿਆ ਹੋਵੇ ਅਤੇ ਸਰਗਰਮ ਨਹੀਂ ਰਹਿਣਾ ਚਾਹੀਦਾ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਇਨਵੌਇਸ ਨੰਬਰ, ਗਾਹਕ ਅਤੇ ਭੁਗਤਾਨ ਸਥਿਤੀ ਜਾਂਚੋ, Delete ਚੁਣੋ ਅਤੇ ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਪੜ੍ਹੋ।",
+          "inputs": "ਸਹੀ ਇਨਵੌਇਸ ਚੁਣੋ ਅਤੇ ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਇਸਦਾ ਨੰਬਰ, ਗਾਹਕ ਅਤੇ ਭੁਗਤਾਨ ਸਥਿਤੀ ਜਾਂਚੋ।",
+          "result": "ਕਾਰਵਾਈ ਸਫਲ ਹੋਣ 'ਤੇ ਇਨਵੌਇਸ ਸਰਗਰਮ ਦ੍ਰਿਸ਼ ਤੋਂ ਹਟ ਜਾਂਦਾ ਹੈ ਜਾਂ ਮਿਟਾਇਆ ਹੋਇਆ ਨਿਸ਼ਾਨ ਲੱਗ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਨੁਕਸਾਨਦਾਇਕ ਕਾਰਵਾਈ: ਇਨਵੌਇਸ ਮਿਟਾਉਣ ਨਾਲ ਗਾਹਕ ਦਾ ਇਤਿਹਾਸ, ਰਿਪੋਰਟਾਂ ਅਤੇ ਆਡਿਟ ਟ੍ਰੇਲ ਪ੍ਰਭਾਵਿਤ ਹੋ ਸਕਦੇ ਹਨ। ਜਾਂਚੋ ਕਿ ਇਹ ਜਾਰੀ ਜਾਂ ਭੁਗਤਾਨ ਹੋਇਆ ਹੈ ਜਾਂ ਨਹੀਂ; ਕਾਪੀ ਸੰਭਾਲੋ ਅਤੇ ਰਿਕਾਰਡ ਰੱਖਣ ਦੀਆਂ ਜ਼ਿੰਮੇਵਾਰੀਆਂ ਪੂਰੀਆਂ ਕਰੋ। ਅਸਲ ਲੈਣ-ਦੇਣ ਲੁਕਾਉਣ ਲਈ ਨਾ ਮਿਟਾਓ।"
+        },
+        "prs": {
+          "purpose": "فاکتور انتخاب‌شده را از طریق روند حذف فاکتور حذف یا به‌عنوان حذف‌شده علامت‌گذاری می‌کند.",
+          "when": "فقط وقتی فاکتور تکراری است یا اشتباهی ایجاد شده و نباید فعال بماند، استفاده کنید.",
+          "how": "شماره فاکتور، مشتری و وضعیت پرداخت را بررسی کنید، Delete را انتخاب کنید و پیش از ادامه پیام تأیید را بخوانید.",
+          "inputs": "فاکتور درست را انتخاب کنید و پیش از تأیید، شماره، مشتری و وضعیت پرداخت آن را بررسی کنید.",
+          "result": "در صورت موفقیت، فاکتور از نمای فعال برداشته یا به‌عنوان حذف‌شده علامت‌گذاری می‌شود.",
+          "notes": "عملیات مخرب: حذف فاکتور می‌تواند بر سابقه مشتری، گزارش‌ها و ردپای حسابرسی اثر بگذارد. بررسی کنید صادر یا پرداخت شده است یا خیر؛ نسخه‌ای نگه دارید و الزامات نگهداری سوابق را رعایت کنید. برای پنهان‌کردن معامله واقعی آن را حذف نکنید."
+        },
+        "ps": {
+          "purpose": "د بل د ړنګولو د بهیر له لارې ټاکل شوی بل ړنګوي یا یې د ړنګ شوي په توګه نښه کوي.",
+          "when": "یوازې هغه وخت یې وکاروئ چې بل تکراري وي یا په تېروتنه جوړ شوی وي او فعال پاتې نه شي.",
+          "how": "د بل شمېره، پېرودونکی او د تادیې حالت وګورئ، Delete وټاکئ او له دوام مخکې د تایید پیغام ولولئ.",
+          "inputs": "سم بل وټاکئ او له تایید مخکې یې شمېره، پېرودونکی او د تادیې حالت وګورئ.",
+          "result": "که عملیات بریالي شي، بل له فعال لید څخه لرې کېږي یا د ړنګ شوي په توګه نښه کېږي.",
+          "notes": "زیانمنوونکې کړنه: د بل ړنګول د پېرودونکي پر مخینه، راپورونو او د پلټنې پر نښو اغېز کولی شي. وګورئ چې بل صادر یا تادیه شوی دی که نه؛ یوه کاپي وساتئ او د ریکارډ ساتلو قانوني مکلفیتونه پوره کړئ. د رښتینې معاملې د پټولو لپاره یې مه ړنګوئ."
         }
       },
       "handler_or_behavior": "`deleteInvoice(\\`"
@@ -8771,7 +8987,7 @@
           "purpose": "Edit an existing accountancy record.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Open the selected record, check its date, type, amount, category and supporting details, then save the changes using the form’s save control.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct saved record and change the fields that need correction.",
           "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
           "notes": "Editing changes the existing record; verify the selected record before saving."
         },
@@ -8779,9 +8995,81 @@
           "purpose": "ویرایش یک رکورد موجود در حسابداری.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "رکورد موردنظر را باز کنید، تاریخ، نوع، مبلغ، دسته‌بندی و جزئیات آن را بررسی کنید و سپس تغییرات را با گزینه ذخیره فرم ثبت کنید.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "رکورد ذخیره‌شده درست را انتخاب کنید و فیلدهایی را که نیاز به اصلاح دارند تغییر دهید.",
           "result": "در صورت موفقیت اعتبارسنجی و تأیید برنامه، رکورد یا فیلد انتخاب‌شده به‌روزرسانی می‌شود.",
           "notes": "ویرایش، همان رکورد قبلی را تغییر می‌دهد؛ پیش از ذخیره مطمئن شوید رکورد درستی را انتخاب کرده‌اید."
+        },
+        "ar": {
+          "purpose": "يفتح السجل المحاسبي المحدد لتعديله.",
+          "when": "عندما تحتاج إلى تصحيح أو تحديث تفاصيل سجل محاسبي موجود.",
+          "how": "افتح السجل المحدد، وراجع التاريخ والنوع والمبلغ والفئة والتفاصيل الداعمة، ثم احفظ التغييرات من زر الحفظ في النموذج.",
+          "inputs": "حدد السجل الصحيح وأدخل التعديلات المطلوبة في حقوله.",
+          "result": "يُحدّث السجل المحدد إذا نجح التحقق وأكد التطبيق التغيير.",
+          "notes": "التعديل يغيّر السجل الموجود؛ تحقق من السجل المحدد قبل الحفظ."
+        },
+        "ckb": {
+          "purpose": "تۆماری ژمێریاریی هەڵبژێردراو بۆ دەستکاریکردن دەکاتەوە.",
+          "when": "کاتێک پێویستە وردەکارییەکانی تۆمارێکی ژمێریاریی هەبوو ڕاست بکەیتەوە یان نوێی بکەیتەوە.",
+          "how": "تۆمارەکە بکەرەوە، بەروار، جۆر، بڕ، دسته‌بەندی و وردەکارییە پشتگیرەکان بپشکنە، پاشان گۆڕانکارییەکان بە دوگمەی پاشەکەوتی فۆڕمەکە پاشەکەوت بکە.",
+          "inputs": "تۆماری دروست هەڵبژێرە و خانەکانی پێویست بۆ دەستکاری پڕ بکەرەوە.",
+          "result": "ئەگەر پشتڕاستکردنەوە سەرکەوتوو بێت و ئەپەکە گۆڕانکارییەکە پشتڕاست بکاتەوە، تۆمارەکە نوێ دەکرێتەوە.",
+          "notes": "دەستکاریکردن هەمان تۆماری پێشوو دەگۆڕێت؛ پێش پاشەکەوتکردن تۆماری هەڵبژێردراو بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Tomara hesabê ya hilbijartî ji bo guherandinê vedike.",
+          "when": "Dema ku tu hewceyî rastkirin an nûkirina hûrguliyên tomareke hesabê ya heyî yî.",
+          "how": "Tomarê veke, dîrok, cure, mîqdar, kategorî û hûrguliyên piştgir kontrol bike, paşê guherînan bi kontrola tomarkirinê ya formê tomar bike.",
+          "inputs": "Tomara rast hilbijêre û qadên ku dixwazî biguherînî dagire.",
+          "result": "Ger kontrol serkeftî be û sepan guherînê piştrast bike, tomar tê nûkirin.",
+          "notes": "Guherandin tomara heyî diguherîne; berî tomarkirinê piştrast bike ku tomara rast hilbijartiye."
+        },
+        "tr": {
+          "purpose": "Seçilen muhasebe kaydını düzenlemek üzere açar.",
+          "when": "Mevcut bir muhasebe kaydının ayrıntılarını düzeltmeniz veya güncellemeniz gerektiğinde kullanın.",
+          "how": "Kaydı açın; tarihini, türünü, tutarını, kategorisini ve destekleyici ayrıntılarını kontrol edin, ardından formun kaydetme denetimiyle değişiklikleri kaydedin.",
+          "inputs": "Doğru kayıtlı öğeyi seçin ve gerekli alanları düzenleyin.",
+          "result": "Doğrulama başarılı olur ve uygulama değişikliği onaylarsa seçilen kayıt güncellenir.",
+          "notes": "Düzenleme mevcut kaydı değiştirir; kaydetmeden önce doğru kaydı seçtiğinizi doğrulayın."
+        },
+        "pl": {
+          "purpose": "Otwiera wybrany zapis księgowy do edycji.",
+          "when": "Użyj, gdy trzeba poprawić lub zaktualizować szczegóły istniejącego zapisu księgowego.",
+          "how": "Otwórz wybrany zapis, sprawdź datę, typ, kwotę, kategorię i dane pomocnicze, a następnie zapisz zmiany przyciskiem zapisu formularza.",
+          "inputs": "Wybierz właściwy zapis i uzupełnij pola, które chcesz zmienić.",
+          "result": "Wybrany zapis zostanie zaktualizowany, jeśli walidacja się powiedzie i aplikacja potwierdzi zmianę.",
+          "notes": "Edycja zmienia istniejący zapis; przed zapisaniem upewnij się, że wybrano właściwy rekord."
+        },
+        "ur": {
+          "purpose": "منتخب اکاؤنٹنگ ریکارڈ کو ترمیم کے لیے کھولتا ہے۔",
+          "when": "جب موجودہ اکاؤنٹنگ ریکارڈ کی تفصیلات درست یا اپ ڈیٹ کرنی ہوں تو استعمال کریں۔",
+          "how": "ریکارڈ کھولیں، تاریخ، قسم، رقم، زمرہ اور معاون تفصیلات چیک کریں، پھر فارم کے محفوظ کرنے والے کنٹرول سے تبدیلیاں محفوظ کریں۔",
+          "inputs": "درست محفوظ شدہ ریکارڈ منتخب کریں اور مطلوبہ خانوں میں تبدیلی کریں۔",
+          "result": "توثیق کامیاب ہو اور ایپ تبدیلی کی تصدیق کرے تو منتخب ریکارڈ اپ ڈیٹ ہو جاتا ہے۔",
+          "notes": "ترمیم موجودہ ریکارڈ کو بدلتی ہے؛ محفوظ کرنے سے پہلے درست ریکارڈ منتخب ہونے کی تصدیق کریں۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣੇ ਅਕਾਊਂਟਿੰਗ ਰਿਕਾਰਡ ਨੂੰ ਸੋਧਣ ਲਈ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਅਕਾਊਂਟਿੰਗ ਰਿਕਾਰਡ ਦੇ ਵੇਰਵੇ ਠੀਕ ਜਾਂ ਅਪਡੇਟ ਕਰਨੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਰਿਕਾਰਡ ਖੋਲ੍ਹੋ, ਤਾਰੀਖ, ਕਿਸਮ, ਰਕਮ, ਸ਼੍ਰੇਣੀ ਅਤੇ ਸਹਾਇਕ ਵੇਰਵੇ ਜਾਂਚੋ, ਫਿਰ ਫਾਰਮ ਦੇ ਸੇਵ ਕੰਟਰੋਲ ਨਾਲ ਤਬਦੀਲੀਆਂ ਸੇਵ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਸੇਵ ਕੀਤਾ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਲੋੜੀਂਦੇ ਖੇਤਰ ਸੋਧੋ।",
+          "result": "ਜਾਂਚ ਸਫਲ ਹੋਵੇ ਅਤੇ ਐਪ ਤਬਦੀਲੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਚੁਣਿਆ ਰਿਕਾਰਡ ਅਪਡੇਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਸੋਧ ਕਰਨ ਨਾਲ ਮੌਜੂਦਾ ਰਿਕਾਰਡ ਬਦਲਦਾ ਹੈ; ਸੇਵ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਸਹੀ ਰਿਕਾਰਡ ਚੁਣਿਆ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "رکورد حسابداری انتخاب‌شده را برای ویرایش باز می‌کند.",
+          "when": "وقتی لازم است جزئیات یک رکورد حسابداری موجود را اصلاح یا به‌روزرسانی کنید، استفاده کنید.",
+          "how": "رکورد را باز کنید، تاریخ، نوع، مبلغ، دسته‌بندی و جزئیات پشتیبان را بررسی کنید، سپس تغییرات را با کنترل ذخیره فرم ثبت کنید.",
+          "inputs": "رکورد ذخیره‌شده درست را انتخاب کنید و فیلدهای موردنیاز را تغییر دهید.",
+          "result": "اگر اعتبارسنجی موفق باشد و برنامه تغییر را تأیید کند، رکورد انتخاب‌شده به‌روزرسانی می‌شود.",
+          "notes": "ویرایش، رکورد موجود را تغییر می‌دهد؛ پیش از ذخیره مطمئن شوید رکورد درست انتخاب شده است."
+        },
+        "ps": {
+          "purpose": "ټاکل شوی حسابداري ریکارډ د سمون لپاره پرانیزي.",
+          "when": "کله چې د موجود حسابداري ریکارډ جزئیات سمول یا تازه کول غواړئ، دا وکاروئ.",
+          "how": "ریکارډ پرانیزئ، نېټه، ډول، اندازه، کټګوري او ملاتړي جزئیات وګورئ، بیا د فورم د خوندي کولو کنټرول له لارې بدلونونه خوندي کړئ.",
+          "inputs": "سم خوندي شوی ریکارډ وټاکئ او اړینې خانې سمې کړئ.",
+          "result": "که ارزونه بریالۍ شي او اپلیکیشن بدلون تایید کړي، ټاکل شوی ریکارډ تازه کېږي.",
+          "notes": "سمون موجود ریکارډ بدلوي؛ له خوندي کولو مخکې ډاډ ترلاسه کړئ چې سم ریکارډ مو ټاکلی دی."
         }
       },
       "handler_or_behavior": "`editEntry(\\`"
@@ -8797,7 +9085,7 @@
           "purpose": "Delete an accountancy record.",
           "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
           "how": "Use this only when the selected record is genuinely incorrect or should be removed. Check the confirmation prompt before proceeding.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct record and verify it before confirming deletion.",
           "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
           "notes": "Deletion may be permanent. Export or back up important records first; do not use this to correct a record if editing is safer."
         },
@@ -8805,9 +9093,81 @@
           "purpose": "حذف یک رکورد حسابداری.",
           "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
           "how": "فقط وقتی از این گزینه استفاده کنید که رکورد انتخاب‌شده واقعاً اشتباه است یا باید حذف شود. پیام تأیید را پیش از ادامه بررسی کنید.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "رکورد درست را انتخاب کنید و پیش از تأیید حذف، آن را بررسی کنید.",
           "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
           "notes": "حذف ممکن است دائمی باشد. ابتدا از اطلاعات مهم نسخه پشتیبان بگیرید؛ اگر ویرایش کافی است، حذف نکنید."
+        },
+        "ar": {
+          "purpose": "يحذف سجلاً محاسبياً محدداً.",
+          "when": "فقط عندما يكون السجل المحدد خاطئاً فعلاً أو يجب إزالته.",
+          "how": "استخدم هذا الخيار فقط إذا كان السجل غير صحيح أو يجب حذفه. راجع رسالة التأكيد قبل المتابعة.",
+          "inputs": "حدد السجل الصحيح وتحقق منه قبل تأكيد الحذف.",
+          "result": "تُزال البيانات المحددة أو تُعطّل فقط إذا قبل التطبيق الإجراء وأكده.",
+          "notes": "قد يكون الحذف نهائياً. صدّر السجلات المهمة أو أنشئ نسخة احتياطية أولاً؛ لا تحذف لتصحيح سجل إذا كان التعديل أكثر أماناً."
+        },
+        "ckb": {
+          "purpose": "تۆمارێکی ژمێریاریی هەڵبژێردراو دەسڕێتەوە.",
+          "when": "تەنها کاتێک تۆمارەکە بەڕاستی هەڵەیە یان پێویستە لاببرێت.",
+          "how": "تەنها ئەگەر تۆمارەکە هەڵەیە یان دەبێت بسڕدرێتەوە ئەم هەڵبژاردەیە بەکاربهێنە. پێش بەردەوامبوون نامەی پشتڕاستکردنەوە بپشکنە.",
+          "inputs": "تۆماری دروست هەڵبژێرە و پێش پشتڕاستکردنەوەی سڕینەوە دڵنیابە.",
+          "result": "تۆماری هەڵبژێردراو تەنها ئەگەر ئەپەکە کردارەکە قبووڵ و پشتڕاست بکاتەوە لادەبرێت یان ناچالاک دەکرێت.",
+          "notes": "سڕینەوە لەوانەیە هەمیشەیی بێت. سەرەتا تۆمارە گرنگەکان هەناردە بکە یان پاڵپشتیان دروست بکە؛ ئەگەر دەستکاریکردن پارێزراوترە، بۆ چاککردنەوە مەیسڕەوە."
+        },
+        "kmr": {
+          "purpose": "Tomareke hesabê ya hilbijartî jê dike.",
+          "when": "Tenê dema ku tomar bi rastî xelet e an divê were rakirin.",
+          "how": "Vê tenê dema ku tomar xelet e an divê were jêbirin bikar bîne. Berî domandinê peyama piştrastkirinê kontrol bike.",
+          "inputs": "Tomara rast hilbijêre û berî piştrastkirina jêbirinê wê kontrol bike.",
+          "result": "Tomara hilbijartî tenê heke sepan kiryarê qebûl û piştrast bike tê rakirin an neçalak kirin.",
+          "notes": "Jêbirin dikare daîmî be. Pêşî tomarên girîng derxe an kopiyeke ewlehiyê çêke; heke guherandin ewletir e, ji bo rastkirinê tomarê jê neke."
+        },
+        "tr": {
+          "purpose": "Seçilen muhasebe kaydını siler.",
+          "when": "Yalnızca seçilen kayıt gerçekten yanlışsa veya kaldırılması gerekiyorsa kullanın.",
+          "how": "Bu seçeneği yalnızca kayıt yanlışsa veya kaldırılmalıysa kullanın. Devam etmeden önce onay mesajını inceleyin.",
+          "inputs": "Doğru kaydı seçin ve silmeyi onaylamadan önce kontrol edin.",
+          "result": "Seçilen öğe yalnızca uygulama işlemi kabul edip onaylarsa kaldırılır veya devre dışı bırakılır.",
+          "notes": "Silme işlemi kalıcı olabilir. Önce önemli kayıtları dışa aktarın veya yedekleyin; düzenleme daha güvenliyse düzeltmek için silmeyin."
+        },
+        "pl": {
+          "purpose": "Usuwa wybrany zapis księgowy.",
+          "when": "Użyj wyłącznie wtedy, gdy wybrany zapis jest rzeczywiście błędny lub powinien zostać usunięty.",
+          "how": "Użyj tej opcji tylko wtedy, gdy zapis jest nieprawidłowy lub musi zostać usunięty. Przed kontynuowaniem sprawdź komunikat potwierdzający.",
+          "inputs": "Wybierz właściwy zapis i sprawdź go przed potwierdzeniem usunięcia.",
+          "result": "Wybrany element zostanie usunięty lub dezaktywowany tylko wtedy, gdy aplikacja zaakceptuje i potwierdzi operację.",
+          "notes": "Usunięcie może być trwałe. Najpierw wyeksportuj ważne dane lub wykonaj kopię zapasową; nie usuwaj wpisu, jeśli bezpieczniej jest go edytować."
+        },
+        "ur": {
+          "purpose": "منتخب اکاؤنٹنگ ریکارڈ حذف کرتا ہے۔",
+          "when": "صرف اس وقت استعمال کریں جب منتخب ریکارڈ حقیقتاً غلط ہو یا اسے ہٹانا ضروری ہو۔",
+          "how": "یہ اختیار صرف اس وقت استعمال کریں جب ریکارڈ غلط ہو یا حذف ہونا چاہیے۔ آگے بڑھنے سے پہلے تصدیقی پیغام دیکھیں۔",
+          "inputs": "درست ریکارڈ منتخب کریں اور حذف کی تصدیق سے پہلے اسے چیک کریں۔",
+          "result": "منتخب ریکارڈ صرف اسی صورت ہٹایا یا غیر فعال کیا جاتا ہے جب ایپ کارروائی قبول اور تصدیق کرے۔",
+          "notes": "حذف کرنا مستقل ہو سکتا ہے۔ پہلے اہم ریکارڈ برآمد کریں یا بیک اپ بنائیں؛ اگر ترمیم زیادہ محفوظ ہے تو درست کرنے کے لیے حذف نہ کریں۔"
+        },
+        "pa": {
+          "purpose": "ਚੁਣਿਆ ਅਕਾਊਂਟਿੰਗ ਰਿਕਾਰਡ ਮਿਟਾਉਂਦਾ ਹੈ।",
+          "when": "ਸਿਰਫ਼ ਜਦੋਂ ਚੁਣਿਆ ਰਿਕਾਰਡ ਅਸਲ ਵਿੱਚ ਗਲਤ ਹੋਵੇ ਜਾਂ ਹਟਾਉਣਾ ਲਾਜ਼ਮੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਇਹ ਵਿਕਲਪ ਸਿਰਫ਼ ਉਦੋਂ ਵਰਤੋ ਜਦੋਂ ਰਿਕਾਰਡ ਗਲਤ ਹੋਵੇ ਜਾਂ ਹਟਾਉਣਾ ਲੋੜੀਂਦਾ ਹੋਵੇ। ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਵੇਖੋ।",
+          "inputs": "ਸਹੀ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਮਿਟਾਉਣ ਦੀ ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਜਾਂਚੋ।",
+          "result": "ਚੁਣਿਆ ਰਿਕਾਰਡ ਸਿਰਫ਼ ਤਾਂ ਹੀ ਹਟਾਇਆ ਜਾਂ ਅਕਿਰਿਆਸ਼ੀਲ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਜੇ ਐਪ ਕਾਰਵਾਈ ਸਵੀਕਾਰ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੇ।",
+          "notes": "ਮਿਟਾਉਣਾ ਸਥਾਈ ਹੋ ਸਕਦਾ ਹੈ। ਪਹਿਲਾਂ ਮਹੱਤਵਪੂਰਨ ਰਿਕਾਰਡ ਐਕਸਪੋਰਟ ਕਰੋ ਜਾਂ ਬੈਕਅੱਪ ਬਣਾਓ; ਜੇ ਸੋਧ ਕਰਨਾ ਵਧੇਰੇ ਸੁਰੱਖਿਅਤ ਹੈ ਤਾਂ ਠੀਕ ਕਰਨ ਲਈ ਨਾ ਮਿਟਾਓ।"
+        },
+        "prs": {
+          "purpose": "یک رکورد حسابداری انتخاب‌شده را حذف می‌کند.",
+          "when": "فقط زمانی استفاده کنید که رکورد انتخاب‌شده واقعاً اشتباه است یا باید حذف شود.",
+          "how": "این گزینه را فقط در صورت اشتباه بودن یا ضرورت حذف رکورد به کار ببرید. پیش از ادامه پیام تأیید را بررسی کنید.",
+          "inputs": "رکورد درست را انتخاب و پیش از تأیید حذف آن را بررسی کنید.",
+          "result": "مورد انتخاب‌شده فقط در صورت پذیرش و تأیید برنامه حذف یا غیرفعال می‌شود.",
+          "notes": "حذف ممکن است دائمی باشد. ابتدا سوابق مهم را صادر یا پشتیبان‌گیری کنید؛ اگر ویرایش امن‌تر است، برای اصلاح رکورد آن را حذف نکنید."
+        },
+        "ps": {
+          "purpose": "ټاکل شوی حسابداري ریکارډ ړنګوي.",
+          "when": "یوازې هغه وخت یې وکاروئ چې ټاکل شوی ریکارډ په رښتیا غلط وي یا باید لرې شي.",
+          "how": "دا اختیار یوازې هغه وخت وکاروئ چې ریکارډ غلط وي یا ړنګول یې اړین وي. له دوام مخکې د تایید پیغام وګورئ.",
+          "inputs": "سم ریکارډ وټاکئ او د ړنګولو له تایید مخکې یې وګورئ.",
+          "result": "ټاکل شوی توکی یوازې هغه وخت لرې یا غیرفعال کېږي چې اپلیکیشن کړنه ومني او تایید یې کړي.",
+          "notes": "ړنګول دایمي کېدای شي. لومړی مهم ریکارډونه صادر یا بیک‌اپ کړئ؛ که سمون خوندي وي، د اصلاح لپاره یې مه ړنګوئ."
         }
       },
       "handler_or_behavior": "`deleteEntry(\\`"
