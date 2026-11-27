@@ -8985,10 +8985,10 @@
       "translations": {
         "en": {
           "purpose": "Edit an existing accountancy record.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to edit an existing accountancy record..",
           "how": "Open the selected record, check its date, type, amount, category and supporting details, then save the changes using the form’s save control.",
           "inputs": "Select the correct saved record and change the fields that need correction.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "result": "The selected record, status or image is changed only if the app accepts the action and confirms the update. Check the displayed status before continuing.",
           "notes": "Editing changes the existing record; verify the selected record before saving."
         },
         "fa": {
@@ -9083,10 +9083,10 @@
       "translations": {
         "en": {
           "purpose": "Delete an accountancy record.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to delete an accountancy record..",
           "how": "Use this only when the selected record is genuinely incorrect or should be removed. Check the confirmation prompt before proceeding.",
           "inputs": "Select the correct record and verify it before confirming deletion.",
-          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "result": "The selected record or file is deleted or removed only after the app accepts the action and any required confirmation. Check the result message before assuming it is gone.",
           "notes": "Deletion may be permanent. Export or back up important records first; do not use this to correct a record if editing is safer."
         },
         "fa": {
@@ -9181,10 +9181,10 @@
       "translations": {
         "en": {
           "purpose": "Open the invoice associated with a record.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to open the invoice associated with a record..",
           "how": "Select View on the relevant invoice-linked row to open its invoice details.",
           "inputs": "Select the record that is linked to the invoice you want to open.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "result": "The selected invoice or its print view opens for review; the underlying accounting entry is not changed by viewing it.",
           "notes": "This opens the related invoice; it is not the same as editing the underlying accounting entry."
         },
         "fa": {
@@ -9279,10 +9279,10 @@
       "translations": {
         "en": {
           "purpose": "Open the details of an accountancy entry.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to open the details of an accountancy entry..",
           "how": "Select View on the required entry to inspect its saved information.",
           "inputs": "Select the correct accounting entry that you want to inspect.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "result": "The screen, document or item described by this action is displayed for the selected record. No unrelated record is changed.",
           "notes": "Review the date, type, amount and notes before making any separate edit."
         },
         "fa": {
@@ -9377,10 +9377,10 @@
       "translations": {
         "en": {
           "purpose": "Share a report PDF using the device’s available sharing options.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to share a report PDF using the device’s available sharing options..",
           "how": "Generate or open the report PDF first, then choose Share PDF and select an available destination in the system share sheet.",
           "inputs": "Select the report and its PDF file that you want to share, then choose a sharing destination.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The device or browser presents the available sharing destinations for the selected PDF. The file is not confirmed as sent until the chosen app or service reports success.",
           "notes": "Sharing availability depends on the browser and device. Check the PDF before sending it."
         },
         "fa": {
@@ -9475,10 +9475,10 @@
       "translations": {
         "en": {
           "purpose": "Create a PDF from the current report or document view.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to create a PDF from the current report or document view..",
           "how": "Select Create PDF and wait for the PDF-generation process to finish.",
           "inputs": "Select the current report or document that you want to convert to PDF.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "A PDF for the selected report, receipt or contract is generated or prepared for review; the source record is not submitted externally.",
           "notes": "Creating a PDF does not submit the report to HMRC or send it to another person."
         },
         "fa": {
@@ -9573,10 +9573,10 @@
       "translations": {
         "en": {
           "purpose": "Download the generated PDF to your device.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to download the generated PDF to your device..",
           "how": "Select Download PDF after the document has been generated, then check the browser’s download location.",
           "inputs": "Select the generated PDF file that you want to download.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The browser starts downloading the generated PDF to the device's configured download location.",
           "notes": "Keep the downloaded file in a secure location; the download does not change the source record."
         },
         "fa": {
@@ -9671,10 +9671,10 @@
       "translations": {
         "en": {
           "purpose": "Share the generated PDF through the device share sheet.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to share the generated PDF through the device share sheet..",
           "how": "Select Share PDF after generation and choose a supported app or destination.",
           "inputs": "Select the PDF file that you want to share and choose a sharing destination.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The device or browser presents the available sharing destinations for the selected PDF. The file is not confirmed as sent until the chosen app or service reports success.",
           "notes": "The available destinations depend on the device/browser. Review recipient and document contents before sharing."
         },
         "fa": {
@@ -9769,10 +9769,10 @@
       "translations": {
         "en": {
           "purpose": "Edit a saved customer’s details.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to edit a saved customer’s details..",
           "how": "Choose Edit beside the correct customer, update the required customer or contact fields, and save the changes.",
           "inputs": "Select the correct customer record and change the fields that need updating.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "result": "The selected record, status or image is changed only if the app accepts the action and confirms the update. Check the displayed status before continuing.",
           "notes": "Check that you selected the correct customer, especially where names are similar."
         },
         "fa": {
@@ -9867,10 +9867,10 @@
       "translations": {
         "en": {
           "purpose": "Start a new invoice for the selected customer.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to start a new invoice for the selected customer..",
           "how": "Choose New invoice beside the customer and review the customer details carried into the invoice before completing it.",
           "inputs": "Select the correct customer and review the details that will be used on the invoice.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The app performs the action described above for the selected item and displays the resulting view or status. Check the confirmation before assuming the action succeeded.",
           "notes": "This starts an invoice workflow; check the amount, description and payment status before saving or issuing."
         },
         "fa": {
@@ -9965,10 +9965,10 @@
       "translations": {
         "en": {
           "purpose": "Delete a customer record.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to delete a customer record..",
           "how": "Choose Delete only for the intended customer and read the confirmation prompt carefully.",
           "inputs": "Select the correct customer record and verify its identity before confirming deletion.",
-          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "result": "The selected record or file is deleted or removed only after the app accepts the action and any required confirmation. Check the result message before assuming it is gone.",
           "notes": "Deletion can affect access to the customer record. Check for linked invoices or work history and retain records required for accounting."
         },
         "fa": {
@@ -10063,10 +10063,10 @@
       "translations": {
         "en": {
           "purpose": "Open the invoice print view.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to open the invoice print view..",
           "how": "Select Open print view to prepare the current invoice for printing or PDF output.",
           "inputs": "Select the correct invoice that you want to prepare for printing.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The browser's print workflow opens for the selected document, allowing you to print it or choose Save as PDF.",
           "notes": "Check the customer, invoice number, line items, totals and page layout before printing."
         },
         "fa": {
@@ -10161,10 +10161,10 @@
       "translations": {
         "en": {
           "purpose": "Share the current invoice PDF.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to share the current invoice PDF..",
           "how": "Open or generate the invoice PDF, then choose Share PDF and select a destination offered by the device.",
           "inputs": "Select the correct invoice and its PDF file, then choose a sharing destination.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The device or browser presents the available sharing destinations for the selected PDF. The file is not confirmed as sent until the chosen app or service reports success.",
           "notes": "Sharing does not mark an invoice as paid. Confirm the recipient and payment status separately."
         },
         "fa": {
@@ -10259,10 +10259,10 @@
       "translations": {
         "en": {
           "purpose": "Change an invoice status to unpaid.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to change an invoice status to unpaid..",
           "how": "Select Mark unpaid for the correct invoice and confirm the change if prompted.",
           "inputs": "Select the correct invoice and check its payment records before changing its status.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "result": "The selected record, status or image is changed only if the app accepts the action and confirms the update. Check the displayed status before continuing.",
           "notes": "Use this only when the invoice is not paid or a previous paid status was incorrect; check payment records first."
         },
         "fa": {
@@ -10357,10 +10357,10 @@
       "translations": {
         "en": {
           "purpose": "Record a payment against an invoice and mark it paid.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to record a payment against an invoice and mark it paid..",
           "how": "Select Mark paid only after confirming that the customer’s payment has actually been received; enter any requested payment details and confirm.",
           "inputs": "Select the correct invoice and enter the payment date, method and amount if the app prompts for them.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "result": "The selected record, status or image is changed only if the app accepts the action and confirms the update. Check the displayed status before continuing.",
           "notes": "Do not mark an invoice paid based only on a promise or an issued invoice. Keep evidence of the receipt."
         },
         "fa": {
@@ -10455,10 +10455,10 @@
       "translations": {
         "en": {
           "purpose": "View or create a printable PDF copy of an invoice.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to view or create a printable PDF copy of an invoice..",
           "how": "Select View / PDF on the intended invoice and inspect the resulting invoice view.",
           "inputs": "Select the correct invoice that you want to view or convert to PDF.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The requested version details or diagnostic data are copied to the clipboard if clipboard access is available.",
           "notes": "A PDF copy is not proof of payment and does not itself change the invoice’s payment status."
         },
         "fa": {
@@ -10553,10 +10553,10 @@
       "translations": {
         "en": {
           "purpose": "Edit an existing invoice.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to edit an existing invoice..",
           "how": "Open Edit for the correct invoice, review its customer, description, amounts and status, then save the intended changes.",
           "inputs": "Select the correct invoice and review the customer, description, amounts and status fields before editing.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "result": "The selected record, status or image is changed only if the app accepts the action and confirms the update. Check the displayed status before continuing.",
           "notes": "Take care when changing an issued invoice; preserve a clear audit trail and follow your accounting process."
         },
         "fa": {
@@ -10651,10 +10651,10 @@
       "translations": {
         "en": {
           "purpose": "Delete an invoice record.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to delete an invoice record..",
           "how": "Choose Delete for the intended invoice and read the confirmation prompt before proceeding.",
           "inputs": "Select the correct invoice and check its number, customer and payment status before confirming deletion.",
-          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "result": "The selected record or file is deleted or removed only after the app accepts the action and any required confirmation. Check the result message before assuming it is gone.",
           "notes": "Invoice deletion is potentially destructive. Check whether the invoice has been issued or paid and retain records required by law or your accountant."
         },
         "fa": {
@@ -10749,10 +10749,10 @@
       "translations": {
         "en": {
           "purpose": "Edit a saved contractor’s details.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to edit a saved contractor’s details..",
           "how": "Choose Edit beside the contractor, update the available details and save the form.",
           "inputs": "Select the correct contractor record and change the required details or contact information.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "result": "The selected record, status or image is changed only if the app accepts the action and confirms the update. Check the displayed status before continuing.",
           "notes": "Confirm the contractor identity before saving changes to avoid altering another person’s record."
         },
         "fa": {
@@ -10847,10 +10847,10 @@
       "translations": {
         "en": {
           "purpose": "Delete a contractor record.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to delete a contractor record..",
           "how": "Choose Delete beside the intended contractor and review the confirmation prompt.",
           "inputs": "Select the correct contractor record and verify its identity before confirming deletion.",
-          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "result": "The selected record or file is deleted or removed only after the app accepts the action and any required confirmation. Check the result message before assuming it is gone.",
           "notes": "Check whether the contractor is referenced by jobs, payments or historic records before deletion."
         },
         "fa": {
@@ -10945,10 +10945,10 @@
       "translations": {
         "en": {
           "purpose": "Open an attachment stored against a company contract or record.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to open an attachment stored against a company contract or record..",
           "how": "Select the attachment name to open or download the associated file, depending on the device/browser.",
           "inputs": "Select the correct company attachment from the contract or company record.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The file associated with the selected record is opened in the device or browser, subject to file and browser support.",
           "notes": "Check the filename and contents before sharing. An attachment link does not alter the underlying contract."
         },
         "fa": {
@@ -11043,10 +11043,10 @@
       "translations": {
         "en": {
           "purpose": "Edit a company record.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to edit a company record..",
           "how": "Choose Edit for the intended company, review its details and save the changes.",
           "inputs": "Select the correct company record and review the legal or contact details that you want to change.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "result": "The selected record, status or image is changed only if the app accepts the action and confirms the update. Check the displayed status before continuing.",
           "notes": "Confirm the company identity before changing legal or contact details."
         },
         "fa": {
@@ -11141,10 +11141,10 @@
       "translations": {
         "en": {
           "purpose": "Open the jobs associated with a company.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to open the jobs associated with a company..",
           "how": "Choose Open Jobs to view the jobs linked to that company.",
           "inputs": "Select the correct company whose jobs you want to view.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The relevant company, job, work-package or payment view is displayed for the selected record; viewing it does not create or amend a record.",
           "notes": "This navigates to the company’s job list; it does not create or change a job."
         },
         "fa": {
@@ -11239,10 +11239,10 @@
       "translations": {
         "en": {
           "purpose": "Deactivate a company in the workspace.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to deactivate a company in the workspace..",
           "how": "Use Deactivate for the intended company and review the confirmation prompt.",
           "inputs": "Select the correct company record and verify its identity before confirming deactivation.",
-          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "result": "The app performs the action described above for the selected item and displays the resulting view or status. Check the confirmation before assuming the action succeeded.",
           "notes": "Deactivation is not the same as deleting historic job or payment records. Check the effect on future selection and existing work."
         },
         "fa": {
@@ -11337,10 +11337,10 @@
       "translations": {
         "en": {
           "purpose": "Edit a saved job.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to edit a saved job..",
           "how": "Choose Edit beside the intended job, update its available details and save.",
           "inputs": "Select the correct company and job, then change the required fields.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "result": "The selected record, status or image is changed only if the app accepts the action and confirms the update. Check the displayed status before continuing.",
           "notes": "Check the company and job identity before saving, especially where several jobs have similar names."
         },
         "fa": {
@@ -11435,10 +11435,10 @@
       "translations": {
         "en": {
           "purpose": "Open the work packages belonging to a job.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to open the work packages belonging to a job..",
           "how": "Choose Work packages to review the packages associated with the selected job.",
           "inputs": "Select the correct job whose work packages you want to review.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The relevant company, job, work-package or payment view is displayed for the selected record; viewing it does not create or amend a record.",
           "notes": "This opens the package list; individual package records are managed separately."
         },
         "fa": {
@@ -11533,10 +11533,10 @@
       "translations": {
         "en": {
           "purpose": "Open the payment records for a job.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to open the payment records for a job..",
           "how": "Choose Payments to review payment information associated with the selected job.",
           "inputs": "Select the correct job whose payment records you want to review.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "result": "The relevant company, job, work-package or payment view is displayed for the selected record; viewing it does not create or amend a record.",
           "notes": "Compare entries with actual receipts and supporting evidence; a payment listing is not a bank reconciliation."
         },
         "fa": {
@@ -16531,10 +16531,10 @@
       "translations": {
         "en": {
           "purpose": "Print or create a PDF from a saved contract.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to print or create a PDF from a saved contract..",
           "how": "Select Print / PDF on the intended saved contract and review the preview.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "inputs": "Select the intended document or file and check its name and contents before opening, downloading or sharing it.",
+          "result": "A PDF for the selected report, receipt or contract is generated or prepared for review; the source record is not submitted externally.",
           "notes": "Verify customer, scope, price, payment stages and terms before sending the document."
         },
         "fa": {
@@ -16557,10 +16557,10 @@
       "translations": {
         "en": {
           "purpose": "Delete a saved contract or quotation.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to delete a saved contract or quotation..",
           "how": "Select Delete on the intended document and read the confirmation prompt before proceeding.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
-          "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
+          "inputs": "Select the correct record or item affected by this action, and provide any additional information requested by the app.",
+          "result": "The selected record or file is deleted or removed only after the app accepts the action and any required confirmation. Check the result message before assuming it is gone.",
           "notes": "Deletion may remove access to a business record. Keep copies of issued or agreed contracts and check retention requirements."
         },
         "fa": {
@@ -16583,10 +16583,10 @@
       "translations": {
         "en": {
           "purpose": "Generate a PDF from the current contract or quotation.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to generate a PDF from the current contract or quotation..",
           "how": "Select Generate and wait for the PDF preview or generated document.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "inputs": "Select the intended document or file and check its name and contents before opening, downloading or sharing it.",
+          "result": "A PDF for the selected report, receipt or contract is generated or prepared for review; the source record is not submitted externally.",
           "notes": "Review all contract details and totals before using the PDF; generation does not send it to the customer."
         },
         "fa": {
@@ -16609,10 +16609,10 @@
       "translations": {
         "en": {
           "purpose": "Open the generated contract PDF.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to open the generated contract PDF..",
           "how": "Select Open PDF to view the generated document in the available viewer or browser window.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "inputs": "Select the intended document or file and check its name and contents before opening, downloading or sharing it.",
+          "result": "The selected contract or quotation's print/PDF view opens for review; the saved contract record is not changed by viewing it.",
           "notes": "Check that the correct document opened and that all pages and text are visible."
         },
         "fa": {
@@ -16635,10 +16635,10 @@
       "translations": {
         "en": {
           "purpose": "Share the generated contract PDF.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to share the generated contract PDF..",
           "how": "Select Share PDF and choose an available destination from the device share sheet.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "inputs": "Select the intended document or file and check its name and contents before opening, downloading or sharing it.",
+          "result": "The device or browser presents the available sharing destinations for the selected PDF. The file is not confirmed as sent until the chosen app or service reports success.",
           "notes": "Confirm the recipient and review prices, scope and terms before sharing."
         },
         "fa": {
@@ -16661,10 +16661,10 @@
       "translations": {
         "en": {
           "purpose": "Return to the previous screen in the current browser history.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to return to the previous screen in the current browser history..",
           "how": "Select Back to navigate to the previous page or view.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "inputs": "Select the correct record or item affected by this action, and provide any additional information requested by the app.",
+          "result": "The screen, document or item described by this action is displayed for the selected record. No unrelated record is changed.",
           "notes": "Browser history may leave the current form. Save any required changes first; this control does not guarantee unsaved data will be retained."
         },
         "fa": {
@@ -16687,10 +16687,10 @@
       "translations": {
         "en": {
           "purpose": "Use the full original receipt image instead of the cropped selection.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to use the full original receipt image instead of the cropped selection..",
           "how": "Select Use full image when you want to keep the complete receipt photo.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "inputs": "Select the correct receipt or payment record and verify the date, amount and attached image or file.",
+          "result": "The selected full or cropped receipt image is applied to the current receipt workflow; check that the important receipt details remain legible.",
           "notes": "The full image may include extra background and may be larger; check legibility and avoid exposing unrelated information."
         },
         "fa": {
@@ -16713,10 +16713,10 @@
       "translations": {
         "en": {
           "purpose": "Save the cropped receipt photo selection.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to save the cropped receipt photo selection..",
           "how": "Adjust the crop to include the relevant receipt details, then select Save cropped photo.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "inputs": "Select the correct receipt or payment record and verify the date, amount and attached image or file.",
+          "result": "The selected record, status or image is changed only if the app accepts the action and confirms the update. Check the displayed status before continuing.",
           "notes": "Check that date, supplier and total remain readable before applying the crop."
         },
         "fa": {
@@ -16739,10 +16739,10 @@
       "translations": {
         "en": {
           "purpose": "Copy the current version and build details to the clipboard.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to copy the current version and build details to the clipboard..",
           "how": "Select Copy version details, then paste the copied text into the support message or diagnostic note where needed.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "inputs": "Select the relevant build, event or diagnostic record. Review its timestamp and details before copying or sharing.",
+          "result": "The requested version details or diagnostic data are copied to the clipboard if clipboard access is available.",
           "notes": "The copied details identify the app build and environment; review them before sharing publicly."
         },
         "fa": {
@@ -16765,10 +16765,10 @@
       "translations": {
         "en": {
           "purpose": "Open the detailed information for a monitoring event.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to open the detailed information for a monitoring event..",
           "how": "Select View details on the relevant event in Monitor & Diagnostics.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "inputs": "Select the relevant build, event or diagnostic record. Review its timestamp and details before copying or sharing.",
+          "result": "The selected event's details are displayed for inspection; the stored diagnostic event is not changed.",
           "notes": "Use the timestamp and event description to identify the correct incident; diagnostic details may contain technical information."
         },
         "fa": {
@@ -16791,10 +16791,10 @@
       "translations": {
         "en": {
           "purpose": "Move to the previous page of monitoring events.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to move to the previous page of monitoring events..",
           "how": "Select Previous to display the preceding page of the event list.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "inputs": "Select the relevant build, event or diagnostic record. Review its timestamp and details before copying or sharing.",
+          "result": "The selected event's details are displayed for inspection; the stored diagnostic event is not changed.",
           "notes": "This changes pagination only; it does not delete or modify diagnostic events."
         },
         "fa": {
@@ -16817,10 +16817,10 @@
       "translations": {
         "en": {
           "purpose": "Show the current page number and total pages in the monitoring list.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to show the current page number and total pages in the monitoring list..",
           "how": "Use the page indicator to understand your position in the event list.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "inputs": "Select the relevant build, event or diagnostic record. Review its timestamp and details before copying or sharing.",
+          "result": "The monitoring list displays the requested page. Changing pages does not alter stored events.",
           "notes": "The indicator is informational and is not an action button."
         },
         "fa": {
@@ -16843,10 +16843,10 @@
       "translations": {
         "en": {
           "purpose": "Move to the next page of monitoring events.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to move to the next page of monitoring events..",
           "how": "Select Next to display the next page when one is available.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "inputs": "Select the relevant build, event or diagnostic record. Review its timestamp and details before copying or sharing.",
+          "result": "The selected event's details are displayed for inspection; the stored diagnostic event is not changed.",
           "notes": "The control may be disabled on the final page; pagination does not change stored events."
         },
         "fa": {
@@ -16869,10 +16869,10 @@
       "translations": {
         "en": {
           "purpose": "Open the control identified by this inventory entry only after its visible label and behavior are confirmed.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to open the control identified by this inventory entry only after its visible label and behavior are confirmed..",
           "how": "The inventory does not contain a reliable static label or handler for this entry. Do not rely on it as a user-facing action until the source control is inspected.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "inputs": "Select the correct record or item affected by this action, and provide any additional information requested by the app.",
+          "result": "No verified runtime result is available. Keep this help entry unpublished until the source control and its action are identified.",
           "notes": "This is a pending audit item, not verified button guidance. The runtime attachment point must be identified before publishing help."
         },
         "fa": {
@@ -16895,10 +16895,10 @@
       "translations": {
         "en": {
           "purpose": "Copy the selected monitoring event as JSON.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to copy the selected monitoring event as JSON..",
           "how": "Open the intended event and select Copy JSON to copy its structured diagnostic data.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "inputs": "Select the relevant build, event or diagnostic record. Review its timestamp and details before copying or sharing.",
+          "result": "The requested version details or diagnostic data are copied to the clipboard if clipboard access is available.",
           "notes": "Review the JSON for sensitive or identifying information before sharing it with support."
         },
         "fa": {
@@ -16921,10 +16921,10 @@
       "translations": {
         "en": {
           "purpose": "Open a previously saved report.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to open a previously saved report..",
           "how": "Select Open saved report beside the report you want to review.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "inputs": "Select the intended report and verify its reporting period and included content.",
+          "result": "The selected report or report section is displayed for review; opening it does not submit it to HMRC.",
           "notes": "Check the report name and date before opening; opening a saved report does not submit it."
         },
         "fa": {
@@ -16947,10 +16947,10 @@
       "translations": {
         "en": {
           "purpose": "Print or save a previously saved report as a PDF.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to print or save a previously saved report as a PDF..",
           "how": "Select Print / PDF for the intended saved report and use the browser print dialog.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "inputs": "Select the intended report and verify its reporting period and included content.",
+          "result": "The browser's print workflow opens for the selected document, allowing you to print it or choose Save as PDF.",
           "notes": "Verify the report contents and reporting period before sharing or filing the PDF."
         },
         "fa": {
@@ -16973,10 +16973,10 @@
       "translations": {
         "en": {
           "purpose": "Change the status label of a saved report.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to change the status label of a saved report..",
           "how": "Select Update status and choose or enter the appropriate status as prompted.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "inputs": "Select the intended report and verify its reporting period and included content.",
+          "result": "The selected record, status or image is changed only if the app accepts the action and confirms the update. Check the displayed status before continuing.",
           "notes": "Use a status that accurately reflects the report’s progress; changing a label does not submit the report to HMRC."
         },
         "fa": {
@@ -16999,10 +16999,10 @@
       "translations": {
         "en": {
           "purpose": "Open a notification from the notifications list.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to open a notification from the notifications list..",
           "how": "Select the notification row with the relevant title and date to open its details.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "inputs": "Select the notification with the correct title and date.",
+          "result": "The selected notification's details are displayed. Opening it does not itself complete the task described in the notification.",
           "notes": "Check the title and date because notifications may have similar wording."
         },
         "fa": {
@@ -17025,10 +17025,10 @@
       "translations": {
         "en": {
           "purpose": "Toggle the selected notification between read and unread.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to toggle the selected notification between read and unread..",
           "how": "Select Mark as read or Mark as unread in the notification details.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "inputs": "Select the notification with the correct title and date.",
+          "result": "The selected record, status or image is changed only if the app accepts the action and confirms the update. Check the displayed status before continuing.",
           "notes": "This changes the notification’s read state only; it does not complete the task described by the notification."
         },
         "fa": {
@@ -17051,10 +17051,10 @@
       "translations": {
         "en": {
           "purpose": "Print or save the selected notification/report content as a PDF.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to print or save the selected notification/report content as a PDF..",
           "how": "Select Print / Save PDF and review the resulting print view.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
-          "result": "The selected record or field is updated if validation succeeds and the app confirms the change.",
+          "inputs": "Select the intended report and verify its reporting period and included content.",
+          "result": "The browser's print workflow opens for the selected document, allowing you to print it or choose Save as PDF.",
           "notes": "Check the displayed content before saving; printing does not change the notification’s read state unless the app separately does so."
         },
         "fa": {
@@ -17077,10 +17077,10 @@
       "translations": {
         "en": {
           "purpose": "Return from the current entry/import workflow to its form.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to return from the current entry/import workflow to its form..",
           "how": "Select Return to form to go back to the form screen.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "inputs": "Select the correct record or item affected by this action, and provide any additional information requested by the app.",
+          "result": "The screen, document or item described by this action is displayed for the selected record. No unrelated record is changed.",
           "notes": "Review whether any temporary work needs saving before leaving the current view."
         },
         "fa": {
@@ -17103,10 +17103,10 @@
       "translations": {
         "en": {
           "purpose": "Open or close the custom dropdown for the current selection field.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to open or close the custom dropdown for the current selection field..",
           "how": "Select the dropdown trigger to display its available options; select it again or choose an option to close the list.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "inputs": "Choose the option that matches the field you are completing. Check the displayed value before saving the form.",
+          "result": "The selected option is returned to the underlying form field. The form is not necessarily saved until its own save action is used.",
           "notes": "The visible placeholder or selected text depends on the field’s current value. The application’s main interface remains English and left-to-right."
         },
         "fa": {
@@ -17129,10 +17129,10 @@
       "translations": {
         "en": {
           "purpose": "Choose a value from the custom dropdown options.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this when you need to choose a value from the custom dropdown options..",
           "how": "Select the required option from the open list; the selected value is passed back to the underlying form field.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
-          "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
+          "inputs": "Choose the option that matches the field you are completing. Check the displayed value before saving the form.",
+          "result": "The selected option is returned to the underlying form field. The form is not necessarily saved until its own save action is used.",
           "notes": "Check the chosen value before saving the form. Selecting an option changes the field value but does not necessarily save the full form."
         },
         "fa": {
