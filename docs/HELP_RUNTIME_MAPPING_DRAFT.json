@@ -5,11 +5,11 @@
   "branch": "development",
   "baseline": {
     "runtime_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
-    "runtime_blob_sha": "0d12562ee7527ee91db6688e755fcc13b6f4576b",
+    "runtime_blob_sha": "f5903b20c3b04f97172f5a625f10c24027c1b878",
     "registry_blob_sha": "f63754128fd09125290df4045f6f4b6fc03b3545",
     "inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
     "help_content_blob_sha": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
-    "help_runtime_blob_sha": "0d12562ee7527ee91db6688e755fcc13b6f4576b"
+    "help_runtime_blob_sha": "f5903b20c3b04f97172f5a625f10c24027c1b878"
   },
   "policy": {
     "label_only_matching": false,
@@ -31,22 +31,23 @@
       "DYNAMIC_TEMPLATE_CANDIDATE": 2,
       "ID_CANDIDATE_REQUIRES_BROWSER_TEST": 4,
       "EXEMPT_NOT_MAPPED": 1,
-      "ADJACENT_HELP_BUTTON_ATTACHED_R61_NOT_BROWSER_VERIFIED": 13
+      "ADJACENT_HELP_BUTTON_ATTACHED_R61_NOT_BROWSER_VERIFIED": 13,
+      "ADJACENT_HELP_BUTTON_ATTACHED_R62_NOT_BROWSER_VERIFIED": 8
     },
-    "notes": "R61 has 110 mapped adjacent Help IDs: 87 scoped static selectors, 13 exact unique-ID selectors, five scoped unique-handler selectors and five dynamic-template attributes. The 13 R61 additions cover project creation, project list, partner sharing, seven project detail tabs, financial report, contractor clear and work-package clear. The two duplicate Contract bindings were consolidated into one #ctFormCard selector each. All 105 static runtime bindings have unique Help IDs. Real browser tests and deployment remain pending.",
+    "notes": "R62 adds eight Help bindings: Company Contracts & Jobs from Business Workspace, three Control Panel destinations, dynamic expense-category options (choose and Add New), the dynamically created Entry Saved dialog OK button and the Invoice Preview Open print view button. MutationObserver attaches Help controls to inserted DOM nodes. Cumulative totals: 118 Help controls (113 static and five dynamic-template). Source-level only; browser tests and deployment remain pending.",
     "runtime_publishable_entries": 132,
     "runtime_languages": 11,
-    "static_controls_attached": 105,
+    "static_controls_attached": 113,
     "draft_static_controls_skipped": 2,
     "dynamic_template_controls_pending": 10,
-    "help_ids_attached": 110,
+    "help_ids_attached": 118,
     "browser_tests_run": 0,
     "dynamic_template_controls_attached": 5,
     "draft_controls_skipped": 12,
     "en_fa_draft_entries_corrected": 9,
     "id_selector_controls_attached": 13,
     "scoped_handler_controls_attached": 5,
-    "scoped_static_controls_attached": 87
+    "scoped_static_controls_attached": 95
   },
   "mappings": [
     {
@@ -1144,16 +1145,16 @@
     {
       "help_id": "THA-HLP-0079",
       "audit_ref": "INV-096",
-      "element_id": null,
+      "element_id": "prPage-workspace",
       "visible_label": "🏢 Company Contracts & Jobs Companies, contracts, company projects, sub-projects and payments",
       "handler": "prOpenCompanyHubFromWorkspace()",
       "handler_name": "prOpenCompanyHubFromWorkspace",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#prPage-workspace .pr-list > button[onclick=\"prOpenCompanyHubFromWorkspace()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler prOpenCompanyHubFromWorkspace occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R62_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the action to prPage-workspace. Some targets are inserted dynamically; the Help runtime MutationObserver attaches the scoped Help marker when the matching node enters the DOM. No underlying action handler is changed. Live Preview verification remains pending."
     },
     {
       "help_id": "THA-HLP-0080",
@@ -1494,44 +1495,44 @@
     {
       "help_id": "THA-HLP-0104",
       "audit_ref": "INV-121",
-      "element_id": null,
+      "element_id": "prPage-control",
       "visible_label": "👤 Partners Manage shared partner records",
       "handler": "prPage('partners')",
       "handler_name": "prPage",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#prPage-control .co-control-grid > button[onclick=\"prPage('partners')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler prPage occurs 31 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R62_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the action to prPage-control. Some targets are inserted dynamically; the Help runtime MutationObserver attaches the scoped Help marker when the matching node enters the DOM. No underlying action handler is changed. Live Preview verification remains pending."
     },
     {
       "help_id": "THA-HLP-0105",
       "audit_ref": "INV-122",
-      "element_id": null,
+      "element_id": "prPage-control",
       "visible_label": "👷 Workers Manage shared worker records",
       "handler": "prPage('workers')",
       "handler_name": "prPage",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#prPage-control .co-control-grid > button[onclick=\"prPage('workers')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler prPage occurs 31 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R62_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the action to prPage-control. Some targets are inserted dynamically; the Help runtime MutationObserver attaches the scoped Help marker when the matching node enters the DOM. No underlying action handler is changed. Live Preview verification remains pending."
     },
     {
       "help_id": "THA-HLP-0106",
       "audit_ref": "INV-123",
-      "element_id": null,
+      "element_id": "prPage-control",
       "visible_label": "🧰 Contractors Manage trades and subcontractors",
       "handler": "prPage('contractors')",
       "handler_name": "prPage",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#prPage-control .co-control-grid > button[onclick=\"prPage('contractors')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler prPage occurs 31 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R62_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the action to prPage-control. Some targets are inserted dynamically; the Help runtime MutationObserver attaches the scoped Help marker when the matching node enters the DOM. No underlying action handler is changed. Live Preview verification remains pending."
     },
     {
       "help_id": "THA-HLP-0107",
@@ -1746,30 +1747,30 @@
     {
       "help_id": "THA-HLP-0122",
       "audit_ref": "INV-141",
-      "element_id": null,
+      "element_id": "categoryPickerMenu",
       "visible_label": "'+esc(expenseCategoryLabel(x,g.id))+'",
       "handler": "chooseCategoryFromButton(this)",
       "handler_name": "chooseCategoryFromButton",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#categoryPickerMenu .category-option[onclick=\"chooseCategoryFromButton(this)\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler chooseCategoryFromButton occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R62_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the action to categoryPickerMenu. Some targets are inserted dynamically; the Help runtime MutationObserver attaches the scoped Help marker when the matching node enters the DOM. No underlying action handler is changed. Live Preview verification remains pending."
     },
     {
       "help_id": "THA-HLP-0123",
       "audit_ref": "INV-142",
-      "element_id": null,
+      "element_id": "categoryPickerMenu",
       "visible_label": "＋ Add New One",
       "handler": "openExpenseCategoryAddScreen(this.dataset.addGroup)",
       "handler_name": "openExpenseCategoryAddScreen",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#categoryPickerMenu .category-option-new[onclick=\"openExpenseCategoryAddScreen(this.dataset.addGroup)\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler openExpenseCategoryAddScreen occurs 3 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R62_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the action to categoryPickerMenu. Some targets are inserted dynamically; the Help runtime MutationObserver attaches the scoped Help marker when the matching node enters the DOM. No underlying action handler is changed. Live Preview verification remains pending."
     },
     {
       "help_id": "THA-HLP-0124",
@@ -1802,16 +1803,16 @@
     {
       "help_id": "THA-HLP-0126",
       "audit_ref": "INV-145",
-      "element_id": null,
+      "element_id": "entrySavedDialog",
       "visible_label": "OK",
       "handler": "closeEntrySavedDialog()",
       "handler_name": "closeEntrySavedDialog",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#entrySavedDialog button[onclick=\"closeEntrySavedDialog()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler closeEntrySavedDialog occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R62_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the action to entrySavedDialog. Some targets are inserted dynamically; the Help runtime MutationObserver attaches the scoped Help marker when the matching node enters the DOM. No underlying action handler is changed. Live Preview verification remains pending."
     },
     {
       "help_id": "THA-HLP-0127",
@@ -2001,16 +2002,16 @@
     {
       "help_id": "THA-HLP-0140",
       "audit_ref": "INV-163",
-      "element_id": null,
+      "element_id": "invoicePreview",
       "visible_label": "Open print view",
       "handler": "openInvoicePrintView()",
       "handler_name": "openInvoicePrintView",
-      "selector_strategy": "unresolved",
-      "selector": null,
+      "selector_strategy": "scoped_static_selector",
+      "selector": "#invoicePreview .actions.no-print > button[onclick=\"openInvoicePrintView()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "AMBIGUOUS_HANDLER",
-      "rationale": "Handler openInvoicePrintView occurs 2 times in source; resolve using exact template/parent context."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R62_NOT_BROWSER_VERIFIED",
+      "rationale": "Exact selector scopes the action to invoicePreview. Some targets are inserted dynamically; the Help runtime MutationObserver attaches the scoped Help marker when the matching node enters the DOM. No underlying action handler is changed. Live Preview verification remains pending."
     },
     {
       "help_id": "THA-HLP-0141",
