@@ -13591,19 +13591,91 @@
       "translations": {
         "en": {
           "purpose": "Delete a saved project finance entry.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control only when a saved project finance entry is a duplicate or an error that should be removed after checking.",
           "how": "Choose Delete on the intended row and review the confirmation prompt.",
-          "inputs": "Select the correct saved item or complete the fields requested by the current form.",
+          "inputs": "Select the correct finance entry and verify its type and amount before confirming deletion.",
           "result": "The selected item is removed or deactivated only if the app accepts and confirms the action.",
           "notes": "Deletion changes project financial totals. Verify the entry is incorrect or duplicated and keep required evidence."
         },
         "fa": {
           "purpose": "حذف یک ثبت مالی ذخیره‌شده در پروژه.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "فقط وقتی ثبت مالی ذخیره‌شده پروژه تکراری یا اشتباه است و پس از بررسی باید حذف شود، از این گزینه استفاده کنید.",
           "how": "در ردیف موردنظر Delete را انتخاب کنید و پیام تأیید را بررسی کنید.",
-          "inputs": "مورد ذخیره‌شده درست را انتخاب کنید یا فیلدهای درخواستی فرم فعلی را تکمیل کنید.",
+          "inputs": "ثبت مالی درست را انتخاب کنید و پیش از تأیید حذف، نوع و مبلغ آن را بررسی کنید.",
           "result": "مورد انتخاب‌شده فقط در صورت پذیرش برنامه و نمایش تأیید، حذف یا غیرفعال می‌شود.",
           "notes": "حذف، جمع مالی پروژه را تغییر می‌دهد. پیش از اقدام از اشتباه یا تکراری بودن رکورد مطمئن شوید و مدارک لازم را نگه دارید."
+        },
+        "ar": {
+          "purpose": "يحذف قيداً مالياً محفوظاً للمشروع.",
+          "when": "فقط عندما يكون القيد المالي مكرراً أو غير صحيح ويجب إزالته بعد التحقق.",
+          "how": "اختر Delete في الصف المقصود وراجع رسالة التأكيد.",
+          "inputs": "حدد القيد المالي الصحيح وتحقق من نوعه ومبلغه قبل تأكيد الحذف.",
+          "result": "يُزال القيد أو يُعطّل إذا قبل التطبيق العملية وأكدها.",
+          "notes": "يؤثر الحذف في إجماليات المشروع المالية. تحقق من أن القيد خاطئ أو مكرر واحتفظ بالمستندات المطلوبة."
+        },
+        "ckb": {
+          "purpose": "تۆمارێکی دارایی پاشەکەوتکراوی پرۆژە دەسڕێتەوە.",
+          "when": "تەنها کاتێک تۆماری دارایی دووبارە یان هەڵەیە و دوای پشکنین دەبێت لاببرێت.",
+          "how": "لە ڕیزی مەبەست Delete هەڵبژێرە و نامەی پشتڕاستکردنەوە بپشکنە.",
+          "inputs": "تۆماری دارایی دروست هەڵبژێرە و پێش پشتڕاستکردنەوەی سڕینەوە جۆر و بڕەکەی بپشکنە.",
+          "result": "تۆمارەکە لادەبرێت یان ناچالاک دەکرێت ئەگەر ئەپەکە کردارەکە قبووڵ و پشتڕاست بکاتەوە.",
+          "notes": "سڕینەوە کاریگەری لەسەر کۆی دارایی پرۆژە هەیە. دڵنیابە تۆمارەکە هەڵە یان دووبارەیە و بەڵگە پێویستەکان بپارێزە."
+        },
+        "kmr": {
+          "purpose": "Tomareke darayî ya projeyê ya tomarkirî jê dike.",
+          "when": "Tenê dema ku tomara darayî dubare an xelet e û piştî kontrolê divê were rakirin.",
+          "how": "Di rêza xwestî de Delete hilbijêre û peyama piştrastkirinê kontrol bike.",
+          "inputs": "Tomara darayî ya rast hilbijêre û berî piştrastkirina jêbirinê cure û mîqdara wê kontrol bike.",
+          "result": "Tomar tê rakirin an neçalak kirin heke sepan kiryarê qebûl û piştrast bike.",
+          "notes": "Jêbirin bandorê li tevahiyên darayî yên projeyê dike. Piştrast bike ku tomar xelet an dubare ye û delîlên pêwîst biparêze."
+        },
+        "tr": {
+          "purpose": "Kaydedilmiş bir proje finans kaydını siler.",
+          "when": "Yalnızca finans kaydı yinelenmiş veya yanlışsa ve kontrol edildikten sonra kaldırılması gerekiyorsa kullanın.",
+          "how": "İlgili satırda Delete'i seçin ve onay mesajını inceleyin.",
+          "inputs": "Doğru finans kaydını seçin ve silmeyi onaylamadan önce türünü ve tutarını kontrol edin.",
+          "result": "Uygulama işlemi kabul edip onaylarsa kayıt kaldırılır veya devre dışı bırakılır.",
+          "notes": "Silme işlemi proje finansal toplamlarını değiştirir. Kaydın hatalı veya yinelenmiş olduğunu doğrulayın ve gerekli kanıtları saklayın."
+        },
+        "pl": {
+          "purpose": "Usuwa zapisany wpis finansowy projektu.",
+          "when": "Użyj tylko wtedy, gdy wpis finansowy jest duplikatem lub błędem i po sprawdzeniu należy go usunąć.",
+          "how": "Wybierz Delete w odpowiednim wierszu i sprawdź komunikat potwierdzający.",
+          "inputs": "Wybierz właściwy wpis finansowy i przed potwierdzeniem usunięcia sprawdź jego typ oraz kwotę.",
+          "result": "Wpis zostanie usunięty lub dezaktywowany, jeśli aplikacja zaakceptuje i potwierdzi operację.",
+          "notes": "Usunięcie zmienia sumy finansowe projektu. Potwierdź, że wpis jest błędny lub zduplikowany, i zachowaj wymagane dowody."
+        },
+        "ur": {
+          "purpose": "محفوظ شدہ پروجیکٹ مالی اندراج حذف کرتا ہے۔",
+          "when": "صرف اس وقت استعمال کریں جب مالی ریکارڈ نقل یا غلط ہو اور جانچ کے بعد ہٹانا ضروری ہو۔",
+          "how": "متعلقہ قطار میں Delete منتخب کریں اور تصدیقی پیغام دیکھیں۔",
+          "inputs": "درست مالی ریکارڈ منتخب کریں اور حذف کی تصدیق سے پہلے اس کی قسم اور رقم چیک کریں۔",
+          "result": "ایپ کارروائی قبول اور تصدیق کرے تو ریکارڈ ہٹا یا غیر فعال ہو جاتا ہے۔",
+          "notes": "حذف کرنے سے پروجیکٹ کے مالی مجموعے بدلتے ہیں۔ تصدیق کریں کہ ریکارڈ غلط یا نقل ہے اور مطلوبہ ثبوت محفوظ رکھیں۔"
+        },
+        "pa": {
+          "purpose": "ਸੇਵ ਕੀਤੀ ਪ੍ਰੋਜੈਕਟ ਵਿੱਤੀ ਐਂਟਰੀ ਮਿਟਾਉਂਦਾ ਹੈ।",
+          "when": "ਸਿਰਫ਼ ਜਦੋਂ ਵਿੱਤੀ ਐਂਟਰੀ ਡੁਪਲੀਕੇਟ ਜਾਂ ਗਲਤ ਹੋਵੇ ਅਤੇ ਜਾਂਚ ਤੋਂ ਬਾਅਦ ਹਟਾਉਣੀ ਲੋੜੀਂਦੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਸੰਬੰਧਿਤ ਕਤਾਰ ਵਿੱਚ Delete ਚੁਣੋ ਅਤੇ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਵੇਖੋ।",
+          "inputs": "ਸਹੀ ਵਿੱਤੀ ਐਂਟਰੀ ਚੁਣੋ ਅਤੇ ਮਿਟਾਉਣ ਦੀ ਪੁਸ਼ਟੀ ਤੋਂ ਪਹਿਲਾਂ ਇਸਦੀ ਕਿਸਮ ਅਤੇ ਰਕਮ ਜਾਂਚੋ।",
+          "result": "ਐਪ ਕਾਰਵਾਈ ਸਵੀਕਾਰ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਐਂਟਰੀ ਹਟਾਈ ਜਾਂ ਅਕਿਰਿਆਸ਼ੀਲ ਕੀਤੀ ਜਾਂਦੀ ਹੈ।",
+          "notes": "ਮਿਟਾਉਣ ਨਾਲ ਪ੍ਰੋਜੈਕਟ ਦੇ ਵਿੱਤੀ ਕੁੱਲ ਬਦਲਦੇ ਹਨ। ਪੁਸ਼ਟੀ ਕਰੋ ਕਿ ਐਂਟਰੀ ਗਲਤ ਜਾਂ ਡੁਪਲੀਕੇਟ ਹੈ ਅਤੇ ਲੋੜੀਂਦੇ ਸਬੂਤ ਸੰਭਾਲੋ।"
+        },
+        "prs": {
+          "purpose": "یک ثبت مالی ذخیره‌شده پروژه را حذف می‌کند.",
+          "when": "فقط وقتی ثبت مالی تکراری یا اشتباه است و پس از بررسی باید حذف شود، استفاده کنید.",
+          "how": "در ردیف موردنظر Delete را انتخاب کنید و پیام تأیید را بررسی کنید.",
+          "inputs": "ثبت مالی درست را انتخاب کنید و پیش از تأیید حذف، نوع و مبلغ آن را بررسی کنید.",
+          "result": "در صورت پذیرش و تأیید برنامه، ثبت حذف یا غیرفعال می‌شود.",
+          "notes": "حذف، جمع مالی پروژه را تغییر می‌دهد. مطمئن شوید ثبت اشتباه یا تکراری است و مدارک لازم را نگه دارید."
+        },
+        "ps": {
+          "purpose": "د پروژې خوندي شوی مالي ثبت ړنګوي.",
+          "when": "یوازې هغه وخت یې وکاروئ چې مالي ثبت تکراري یا غلط وي او له کتنې وروسته لرې کول یې اړین وي.",
+          "how": "په اړوند قطار کې Delete وټاکئ او د تایید پیغام وګورئ.",
+          "inputs": "سم مالي ثبت وټاکئ او د ړنګولو له تایید مخکې یې ډول او اندازه وګورئ.",
+          "result": "که اپلیکیشن کړنه ومني او تایید یې کړي، ثبت لرې یا غیرفعال کېږي.",
+          "notes": "ړنګول د پروژې مالي ټولیزې شمېرې بدلوي. تایید کړئ چې ثبت غلط یا تکراري دی او اړین اسناد وساتئ."
         }
       },
       "handler_or_behavior": "`prDeleteSubFinanceRow(`"
@@ -13617,19 +13689,91 @@
       "translations": {
         "en": {
           "purpose": "Generate a PDF or print-ready version of the current receipt.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control when you need to create or print a PDF copy of the current receipt.",
           "how": "Select Generate PDF / Print and wait for the receipt document to be prepared.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "inputs": "Select the correct receipt and check the payer or customer, amount, date and description.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "Check payer/customer, amount, date and description. A generated receipt is not a substitute for confirming funds cleared."
         },
         "fa": {
           "purpose": "ساخت PDF یا نسخه آماده چاپ از رسید فعلی.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "وقتی لازم است نسخه PDF رسید فعلی را ایجاد یا چاپ کنید، از این گزینه استفاده کنید.",
           "how": "Generate PDF / Print را انتخاب کنید و منتظر آماده‌شدن سند رسید بمانید.",
-          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "inputs": "رسید درست را انتخاب کنید و نام پرداخت‌کننده یا مشتری، مبلغ، تاریخ و شرح را بررسی کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "نام پرداخت‌کننده یا مشتری، مبلغ، تاریخ و شرح را بررسی کنید. رسید ساخته‌شده جای تأیید واریز وجه را نمی‌گیرد."
+        },
+        "ar": {
+          "purpose": "ينشئ ملف PDF أو نسخة قابلة للطباعة من الإيصال الحالي.",
+          "when": "عندما تحتاج إلى إنشاء نسخة PDF من الإيصال الحالي أو طباعتها.",
+          "how": "اختر Generate PDF / Print وانتظر حتى يصبح مستند الإيصال جاهزاً.",
+          "inputs": "حدد الإيصال الصحيح وتحقق من اسم الدافع أو العميل والمبلغ والتاريخ والوصف.",
+          "result": "يُجهز مستند الإيصال بصيغة PDF أو للطباعة.",
+          "notes": "تحقق من الدافع أو العميل والمبلغ والتاريخ والوصف. الإيصال المنشأ لا يغني عن التأكد من وصول الأموال."
+        },
+        "ckb": {
+          "purpose": "فایلی PDF یان وەشانی ئامادەی چاپی پسووڵەی ئێستا دروست دەکات.",
+          "when": "کاتێک پێویستە کۆپیی PDFی پسووڵەی ئێستا دروست بکەیت یان چاپی بکەیت.",
+          "how": "Generate PDF / Print هەڵبژێرە و چاوەڕێ بکە تا بەڵگەی پسووڵە ئامادە دەبێت.",
+          "inputs": "پسووڵەی دروست هەڵبژێرە و ناوی پارەدەر یان کڕیار، بڕ، بەروار و وەسف بپشکنە.",
+          "result": "بەڵگەی پسووڵە بە شێوەی PDF یان بۆ چاپکردن ئامادە دەکرێت.",
+          "notes": "پارەدەر یان کڕیار، بڕ، بەروار و وەسف بپشکنە. پسووڵەی دروستکراو جێگای دڵنیابوون لە گەیشتنی پارە ناگرێتەوە."
+        },
+        "kmr": {
+          "purpose": "Pelê PDF an guhertoyeke ji bo çapkirinê ya fatûreya niha çêdike.",
+          "when": "Dema ku tu hewceyî çêkirin an çapkirina kopiyeke PDF ya fatûreya niha yî.",
+          "how": "Generate PDF / Print hilbijêre û li bendê be heta belgeya fatûreyê amade bibe.",
+          "inputs": "Fatûreya rast hilbijêre û navê dayêr an xerîdar, mîqdar, dîrok û ravekirinê kontrol bike.",
+          "result": "Belgeya fatûreyê wekî PDF an ji bo çapkirinê tê amadekirin.",
+          "notes": "Dayêr an xerîdar, mîqdar, dîrok û ravekirin kontrol bike. Fatûreya çêkirî şûna piştrastkirina gihîştina drav nagire."
+        },
+        "tr": {
+          "purpose": "Geçerli makbuzun PDF dosyasını veya yazdırmaya hazır sürümünü oluşturur.",
+          "when": "Geçerli makbuzun PDF kopyasını oluşturmanız veya yazdırmanız gerektiğinde kullanın.",
+          "how": "Generate PDF / Print'i seçin ve makbuz belgesi hazırlanana kadar bekleyin.",
+          "inputs": "Doğru makbuzu seçin ve ödeyenin veya müşterinin adını, tutarı, tarihi ve açıklamayı kontrol edin.",
+          "result": "Makbuz belgesi PDF veya yazdırmaya hazır biçimde oluşturulur.",
+          "notes": "Ödeyeni veya müşteriyi, tutarı, tarihi ve açıklamayı kontrol edin. Oluşturulan makbuz, paranın hesaba geçtiğini doğrulamanın yerine geçmez."
+        },
+        "pl": {
+          "purpose": "Generuje plik PDF lub wersję bieżącego paragonu gotową do wydruku.",
+          "when": "Użyj, gdy chcesz utworzyć lub wydrukować kopię PDF bieżącego paragonu.",
+          "how": "Wybierz Generate PDF / Print i poczekaj, aż dokument paragonu będzie gotowy.",
+          "inputs": "Wybierz właściwy paragon i sprawdź płatnika lub klienta, kwotę, datę oraz opis.",
+          "result": "Dokument paragonu zostanie przygotowany jako PDF lub do wydruku.",
+          "notes": "Sprawdź płatnika lub klienta, kwotę, datę i opis. Wygenerowany paragon nie zastępuje potwierdzenia, że środki zostały rozliczone."
+        },
+        "ur": {
+          "purpose": "موجودہ رسید کی PDF یا پرنٹ کے لیے تیار نقل بناتا ہے۔",
+          "when": "جب موجودہ رسید کی PDF نقل بنانی یا پرنٹ کرنی ہو تو استعمال کریں۔",
+          "how": "Generate PDF / Print منتخب کریں اور رسید کا دستاویز تیار ہونے کا انتظار کریں۔",
+          "inputs": "درست رسید منتخب کریں اور ادائیگی کرنے والے یا گاہک کا نام، رقم، تاریخ اور تفصیل چیک کریں۔",
+          "result": "رسید کا دستاویز PDF یا پرنٹ کے لیے تیار شکل میں بن جاتا ہے۔",
+          "notes": "ادائیگی کرنے والے یا گاہک، رقم، تاریخ اور تفصیل چیک کریں۔ بنائی گئی رسید اس بات کی تصدیق کا متبادل نہیں کہ رقم کلیئر ہو گئی ہے۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਰਸੀਦ ਦੀ PDF ਜਾਂ ਪ੍ਰਿੰਟ ਲਈ ਤਿਆਰ ਕਾਪੀ ਬਣਾਉਂਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਮੌਜੂਦਾ ਰਸੀਦ ਦੀ PDF ਕਾਪੀ ਬਣਾਉਣੀ ਜਾਂ ਪ੍ਰਿੰਟ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Generate PDF / Print ਚੁਣੋ ਅਤੇ ਰਸੀਦ ਦਾ ਦਸਤਾਵੇਜ਼ ਤਿਆਰ ਹੋਣ ਦੀ ਉਡੀਕ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਰਸੀਦ ਚੁਣੋ ਅਤੇ ਭੁਗਤਾਨ ਕਰਨ ਵਾਲੇ ਜਾਂ ਗਾਹਕ ਦਾ ਨਾਮ, ਰਕਮ, ਤਾਰੀਖ ਅਤੇ ਵੇਰਵਾ ਜਾਂਚੋ।",
+          "result": "ਰਸੀਦ ਦਾ ਦਸਤਾਵੇਜ਼ PDF ਜਾਂ ਪ੍ਰਿੰਟ ਲਈ ਤਿਆਰ ਰੂਪ ਵਿੱਚ ਬਣ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਭੁਗਤਾਨ ਕਰਨ ਵਾਲੇ ਜਾਂ ਗਾਹਕ, ਰਕਮ, ਤਾਰੀਖ ਅਤੇ ਵੇਰਵਾ ਜਾਂਚੋ। ਬਣੀ ਰਸੀਦ ਇਸ ਗੱਲ ਦੀ ਪੁਸ਼ਟੀ ਦਾ ਬਦਲ ਨਹੀਂ ਕਿ ਰਕਮ ਕਲੀਅਰ ਹੋ ਗਈ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "فایل PDF یا نسخه آماده چاپ از رسید فعلی را ایجاد می‌کند.",
+          "when": "وقتی لازم است نسخه PDF رسید فعلی را ایجاد یا چاپ کنید، استفاده کنید.",
+          "how": "Generate PDF / Print را انتخاب کنید و منتظر آماده‌شدن سند رسید بمانید.",
+          "inputs": "رسید درست را انتخاب کنید و نام پرداخت‌کننده یا مشتری، مبلغ، تاریخ و شرح را بررسی کنید.",
+          "result": "سند رسید به‌صورت PDF یا نسخه آماده چاپ ایجاد می‌شود.",
+          "notes": "پرداخت‌کننده یا مشتری، مبلغ، تاریخ و شرح را بررسی کنید. رسید تولیدشده جای تأیید تسویه وجه را نمی‌گیرد."
+        },
+        "ps": {
+          "purpose": "د اوسني رسید PDF یا د چاپ لپاره چمتو بڼه جوړوي.",
+          "when": "کله چې د اوسني رسید PDF کاپي جوړول یا چاپول غواړئ، دا وکاروئ.",
+          "how": "Generate PDF / Print وټاکئ او د رسید د سند تر چمتو کېدو انتظار وکړئ.",
+          "inputs": "سم رسید وټاکئ او د ورکوونکي یا پېرودونکي نوم، اندازه، نېټه او تشریح وګورئ.",
+          "result": "د رسید سند د PDF یا چاپ لپاره چمتو بڼه کې جوړېږي.",
+          "notes": "ورکوونکی یا پېرودونکی، اندازه، نېټه او تشریح وګورئ. جوړ شوی رسید د پیسو د تصفیې د تایید بدیل نه دی."
         }
       },
       "handler_or_behavior": "`receiptPrint()`"
@@ -13643,19 +13787,91 @@
       "translations": {
         "en": {
           "purpose": "Share the generated project receipt PDF.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control when you want to send the generated project receipt PDF to another person.",
           "how": "Select Share PDF and choose a destination from the device share sheet.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "inputs": "Select the correct receipt PDF and check its details and intended recipient before sharing.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "Check the receipt details and recipient before sharing; sharing does not alter the saved payment."
         },
         "fa": {
           "purpose": "اشتراک‌گذاری PDF رسید پروژه.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "وقتی می‌خواهید نسخه PDF رسید پروژه را برای شخص دیگری ارسال کنید، از این گزینه استفاده کنید.",
           "how": "Share PDF را انتخاب کنید و مقصد را از فهرست اشتراک‌گذاری دستگاه برگزینید.",
-          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "inputs": "فایل PDF درست را انتخاب کنید و پیش از اشتراک‌گذاری جزئیات رسید و گیرنده را بررسی کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "پیش از ارسال، جزئیات رسید و گیرنده را بررسی کنید؛ اشتراک‌گذاری پرداخت ذخیره‌شده را تغییر نمی‌دهد."
+        },
+        "ar": {
+          "purpose": "يشارك ملف PDF لإيصال المشروع الذي تم إنشاؤه.",
+          "when": "عندما تريد إرسال نسخة PDF من إيصال المشروع إلى جهة أخرى.",
+          "how": "اختر Share PDF وحدد وجهة من قائمة المشاركة التي يوفرها الجهاز.",
+          "inputs": "حدد ملف PDF الصحيح وتحقق من تفاصيل الإيصال والمستلم قبل المشاركة.",
+          "result": "تُفتح خيارات مشاركة ملف PDF للإيصال.",
+          "notes": "تحقق من تفاصيل الإيصال والمستلم قبل المشاركة؛ فالمشاركة لا تغيّر الدفعة المحفوظة."
+        },
+        "ckb": {
+          "purpose": "فایلی PDFی پسووڵەی پرۆژەی دروستکراو هاوبەش دەکات.",
+          "when": "کاتێک دەتەوێت کۆپیی PDFی پسووڵەی پرۆژە بۆ کەسێکی تر بنێریت.",
+          "how": "Share PDF هەڵبژێرە و شوێنێک لە پێڕستی هاوبەشکردنی ئامێرەکە دیاری بکە.",
+          "inputs": "فایلی PDFی دروست هەڵبژێرە و پێش هاوبەشکردن وردەکارییەکانی پسووڵە و وەرگر بپشکنە.",
+          "result": "هەڵبژاردەکانی هاوبەشکردنی PDFی پسووڵە دەکرێنەوە.",
+          "notes": "پێش هاوبەشکردن وردەکارییەکانی پسووڵە و وەرگر بپشکنە؛ هاوبەشکردن پارەدانی پاشەکەوتکراو ناگۆڕێت."
+        },
+        "kmr": {
+          "purpose": "PDF ya fatûreya projeyê ya çêkirî parve dike.",
+          "when": "Dema ku tu dixwazî kopiyeke PDF ya fatûreya projeyê ji kesekî re bişînî.",
+          "how": "Share PDF hilbijêre û cihêkê ji lîsteya parvekirina amûrê hilbijêre.",
+          "inputs": "Pela PDF ya rast hilbijêre û berî parvekirinê hûrguliyên fatûre û wergir kontrol bike.",
+          "result": "Vebijarkên parvekirina PDF ya fatûreyê vedibin.",
+          "notes": "Berî parvekirinê hûrguliyên fatûre û wergir kontrol bike; parvekirin dravdana tomarkirî naguherîne."
+        },
+        "tr": {
+          "purpose": "Oluşturulan proje makbuzu PDF'sini paylaşır.",
+          "when": "Proje makbuzunun PDF kopyasını başka bir kişiye göndermek istediğinizde kullanın.",
+          "how": "Share PDF'yi seçin ve cihazın paylaşım listesinden bir hedef belirleyin.",
+          "inputs": "Doğru PDF dosyasını seçin ve paylaşmadan önce makbuz ayrıntılarını ve alıcıyı kontrol edin.",
+          "result": "Makbuz PDF'si için paylaşım seçenekleri açılır.",
+          "notes": "Paylaşmadan önce makbuz ayrıntılarını ve alıcıyı kontrol edin; paylaşım kaydedilmiş ödemeyi değiştirmez."
+        },
+        "pl": {
+          "purpose": "Udostępnia wygenerowany plik PDF paragonu projektu.",
+          "when": "Użyj, gdy chcesz wysłać kopię PDF paragonu projektu innej osobie.",
+          "how": "Wybierz Share PDF i wskaż miejsce docelowe z systemowego panelu udostępniania.",
+          "inputs": "Wybierz właściwy plik PDF i przed udostępnieniem sprawdź szczegóły paragonu oraz odbiorcę.",
+          "result": "Otwierają się opcje udostępniania pliku PDF paragonu.",
+          "notes": "Przed udostępnieniem sprawdź szczegóły paragonu i odbiorcę; udostępnienie nie zmienia zapisanej płatności."
+        },
+        "ur": {
+          "purpose": "بنائی گئی پروجیکٹ رسید کی PDF شیئر کرتا ہے۔",
+          "when": "جب پروجیکٹ رسید کی PDF نقل کسی دوسرے شخص کو بھیجنی ہو تو استعمال کریں۔",
+          "how": "Share PDF منتخب کریں اور ڈیوائس کی شیئرنگ فہرست سے منزل منتخب کریں۔",
+          "inputs": "درست PDF فائل منتخب کریں اور شیئر کرنے سے پہلے رسید کی تفصیلات اور وصول کنندہ چیک کریں۔",
+          "result": "رسید PDF کے لیے شیئرنگ اختیارات کھل جاتے ہیں۔",
+          "notes": "شیئر کرنے سے پہلے رسید کی تفصیلات اور وصول کنندہ چیک کریں؛ شیئر کرنے سے محفوظ شدہ ادائیگی تبدیل نہیں ہوتی۔"
+        },
+        "pa": {
+          "purpose": "ਬਣੀ ਹੋਈ ਪ੍ਰੋਜੈਕਟ ਰਸੀਦ ਦੀ PDF ਸਾਂਝੀ ਕਰਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਪ੍ਰੋਜੈਕਟ ਰਸੀਦ ਦੀ PDF ਕਾਪੀ ਕਿਸੇ ਹੋਰ ਵਿਅਕਤੀ ਨੂੰ ਭੇਜਣੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Share PDF ਚੁਣੋ ਅਤੇ ਡਿਵਾਈਸ ਦੀ ਸਾਂਝਾ ਸੂਚੀ ਵਿੱਚੋਂ ਮੰਜ਼ਿਲ ਚੁਣੋ।",
+          "inputs": "ਸਹੀ PDF ਫਾਈਲ ਚੁਣੋ ਅਤੇ ਸਾਂਝਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਰਸੀਦ ਦੇ ਵੇਰਵੇ ਅਤੇ ਪ੍ਰਾਪਤਕਰਤਾ ਜਾਂਚੋ।",
+          "result": "ਰਸੀਦ PDF ਲਈ ਸਾਂਝਾ ਕਰਨ ਦੇ ਵਿਕਲਪ ਖੁੱਲ੍ਹਦੇ ਹਨ।",
+          "notes": "ਸਾਂਝਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਰਸੀਦ ਦੇ ਵੇਰਵੇ ਅਤੇ ਪ੍ਰਾਪਤਕਰਤਾ ਜਾਂਚੋ; ਸਾਂਝਾ ਕਰਨ ਨਾਲ ਸੇਵ ਕੀਤਾ ਭੁਗਤਾਨ ਨਹੀਂ ਬਦਲਦਾ।"
+        },
+        "prs": {
+          "purpose": "فایل PDF رسید تولیدشده پروژه را به اشتراک می‌گذارد.",
+          "when": "وقتی می‌خواهید نسخه PDF رسید پروژه را برای شخص دیگری ارسال کنید، استفاده کنید.",
+          "how": "Share PDF را انتخاب کنید و مقصدی را از فهرست اشتراک‌گذاری دستگاه برگزینید.",
+          "inputs": "فایل PDF درست را انتخاب کنید و پیش از اشتراک‌گذاری جزئیات رسید و گیرنده را بررسی کنید.",
+          "result": "گزینه‌های اشتراک‌گذاری PDF رسید باز می‌شوند.",
+          "notes": "پیش از اشتراک‌گذاری جزئیات رسید و گیرنده را بررسی کنید؛ اشتراک‌گذاری پرداخت ذخیره‌شده را تغییر نمی‌دهد."
+        },
+        "ps": {
+          "purpose": "د پروژې جوړ شوی رسید PDF شریکوي.",
+          "when": "کله چې د پروژې د رسید PDF کاپي بل کس ته لېږل غواړئ، دا وکاروئ.",
+          "how": "Share PDF وټاکئ او د وسیلې د شریکولو له لېست څخه ځای وټاکئ.",
+          "inputs": "سم PDF فایل وټاکئ او له شریکولو مخکې د رسید جزئیات او ترلاسه کوونکی وګورئ.",
+          "result": "د رسید PDF د شریکولو اختیارونه پرانیستل کېږي.",
+          "notes": "له شریکولو مخکې د رسید جزئیات او ترلاسه کوونکی وګورئ؛ شریکول خوندي شوې تادیه نه بدلوي."
         }
       },
       "handler_or_behavior": "`shareReceiptPdf()`"
@@ -13669,19 +13885,91 @@
       "translations": {
         "en": {
           "purpose": "Open the generated receipt PDF in a print window or browser tab.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control when you want to print the receipt or save a copy after its PDF has been generated.",
           "how": "Select Print after the receipt PDF is ready, then use the browser/device print or save options.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "inputs": "Select the correct receipt and verify the PDF file before printing.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "If the PDF window is blocked, allow pop-ups for this app and retry. Verify the correct receipt before printing."
         },
         "fa": {
           "purpose": "باز کردن PDF رسید در پنجره چاپ یا زبانه مرورگر.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "وقتی پس از ایجاد PDF می‌خواهید رسید را چاپ یا نسخه‌ای از آن را ذخیره کنید، از این گزینه استفاده کنید.",
           "how": "پس از آماده‌شدن PDF رسید، Print را انتخاب کنید و از گزینه‌های چاپ یا ذخیره مرورگر استفاده کنید.",
-          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "inputs": "رسید درست را انتخاب کنید و پیش از چاپ فایل PDF را بررسی کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "اگر پنجره PDF مسدود شد، اجازه بازشدن پنجره‌های جدید را برای برنامه فعال و دوباره امتحان کنید. رسید درست را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يفتح ملف PDF للإيصال في نافذة طباعة أو علامة تبويب بالمتصفح.",
+          "when": "عندما تريد طباعة الإيصال أو حفظ نسخة منه بعد إنشاء PDF.",
+          "how": "بعد تجهيز PDF للإيصال، اختر Print ثم استخدم خيارات الطباعة أو الحفظ في المتصفح أو الجهاز.",
+          "inputs": "حدد الإيصال الصحيح وتحقق من ملف PDF قبل الطباعة.",
+          "result": "يُفتح ملف PDF في نافذة الطباعة أو المتصفح.",
+          "notes": "إذا حُظرت نافذة PDF، اسمح بالنوافذ المنبثقة لهذا التطبيق ثم أعد المحاولة. تحقق من الإيصال الصحيح قبل الطباعة."
+        },
+        "ckb": {
+          "purpose": "فایلی PDFی پسووڵە لە پەنجەرەی چاپ یان پەڕەی وێبگەڕدا دەکاتەوە.",
+          "when": "کاتێک دوای دروستکردنی PDF دەتەوێت پسووڵەکە چاپ بکەیت یان کۆپییەکی پاشەکەوت بکەیت.",
+          "how": "دوای ئامادەبوونی PDFی پسووڵە، Print هەڵبژێرە و هەڵبژاردەکانی چاپ یان پاشەکەوتی وێبگەڕ یان ئامێر بەکاربهێنە.",
+          "inputs": "پسووڵەی دروست هەڵبژێرە و پێش چاپکردن فایلی PDF بپشکنە.",
+          "result": "فایلی PDF لە پەنجەرەی چاپ یان وێبگەڕ دەکرێتەوە.",
+          "notes": "ئەگەر پەنجەرەی PDF بلۆک کرا، ڕێگە بە پەنجەرەی pop-up بۆ ئەم ئەپە بدە و دووبارە هەوڵ بدە. پێش چاپکردن پسووڵەی دروست بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Pelê PDF ya fatûreyê di paceya çapkirinê an tabloya gerokê de vedike.",
+          "when": "Dema ku tu dixwazî piştî çêkirina PDF fatûreyê çap bikî an kopiyekê tomar bikî.",
+          "how": "Piştî amadebûna PDF ya fatûreyê Print hilbijêre û vebijarkên çapkirin an tomarkirina gerokê/amûrê bikar bîne.",
+          "inputs": "Fatûreya rast hilbijêre û berî çapkirinê pela PDF kontrol bike.",
+          "result": "Pelê PDF di paceya çapkirinê an gerokê de vedibe.",
+          "notes": "Heke paceya PDF were astengkirin, ji bo vê sepanê destûra pop-up çalak bike û dîsa biceribîne. Berî çapkirinê fatûreya rast kontrol bike."
+        },
+        "tr": {
+          "purpose": "Makbuz PDF'sini yazdırma penceresinde veya tarayıcı sekmesinde açar.",
+          "when": "PDF oluşturulduktan sonra makbuzu yazdırmak veya kopyasını kaydetmek istediğinizde kullanın.",
+          "how": "Makbuz PDF'si hazır olduğunda Print'i seçin ve tarayıcı/cihaz yazdırma veya kaydetme seçeneklerini kullanın.",
+          "inputs": "Doğru makbuzu seçin ve yazdırmadan önce PDF dosyasını kontrol edin.",
+          "result": "PDF dosyası yazdırma penceresinde veya tarayıcıda açılır.",
+          "notes": "PDF penceresi engellenirse bu uygulama için açılır pencerelere izin verip yeniden deneyin. Yazdırmadan önce doğru makbuzu doğrulayın."
+        },
+        "pl": {
+          "purpose": "Otwiera plik PDF paragonu w oknie drukowania lub karcie przeglądarki.",
+          "when": "Użyj, gdy po wygenerowaniu PDF chcesz wydrukować paragon lub zapisać jego kopię.",
+          "how": "Gdy PDF paragonu będzie gotowy, wybierz Print i użyj opcji drukowania lub zapisywania przeglądarki/urządzenia.",
+          "inputs": "Wybierz właściwy paragon i przed drukowaniem sprawdź plik PDF.",
+          "result": "Plik PDF otworzy się w oknie drukowania lub przeglądarce.",
+          "notes": "Jeśli okno PDF jest blokowane, zezwól tej aplikacji na wyskakujące okna i spróbuj ponownie. Przed drukowaniem sprawdź właściwy paragon."
+        },
+        "ur": {
+          "purpose": "رسید PDF کو پرنٹ ونڈو یا براؤزر ٹیب میں کھولتا ہے۔",
+          "when": "PDF بننے کے بعد جب رسید پرنٹ یا اس کی نقل محفوظ کرنی ہو تو استعمال کریں۔",
+          "how": "رسید PDF تیار ہونے پر Print منتخب کریں اور براؤزر یا ڈیوائس کے پرنٹ یا محفوظ کرنے کے اختیارات استعمال کریں۔",
+          "inputs": "درست رسید منتخب کریں اور پرنٹ سے پہلے PDF فائل چیک کریں۔",
+          "result": "PDF فائل پرنٹ ونڈو یا براؤزر میں کھل جاتی ہے۔",
+          "notes": "اگر PDF ونڈو بلاک ہو تو اس ایپ کے لیے پاپ اپ کی اجازت دیں اور دوبارہ کوشش کریں۔ پرنٹ سے پہلے درست رسید کی تصدیق کریں۔"
+        },
+        "pa": {
+          "purpose": "ਰਸੀਦ PDF ਨੂੰ ਪ੍ਰਿੰਟ ਵਿੰਡੋ ਜਾਂ ਬ੍ਰਾਊਜ਼ਰ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "PDF ਬਣਨ ਤੋਂ ਬਾਅਦ ਜਦੋਂ ਰਸੀਦ ਪ੍ਰਿੰਟ ਕਰਨੀ ਜਾਂ ਇਸਦੀ ਕਾਪੀ ਸੇਵ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "ਰਸੀਦ PDF ਤਿਆਰ ਹੋਣ 'ਤੇ Print ਚੁਣੋ ਅਤੇ ਬ੍ਰਾਊਜ਼ਰ ਜਾਂ ਡਿਵਾਈਸ ਦੇ ਪ੍ਰਿੰਟ ਜਾਂ ਸੇਵ ਵਿਕਲਪ ਵਰਤੋ।",
+          "inputs": "ਸਹੀ ਰਸੀਦ ਚੁਣੋ ਅਤੇ ਪ੍ਰਿੰਟ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ PDF ਫਾਈਲ ਜਾਂਚੋ।",
+          "result": "PDF ਫਾਈਲ ਪ੍ਰਿੰਟ ਵਿੰਡੋ ਜਾਂ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਖੁੱਲ੍ਹਦੀ ਹੈ।",
+          "notes": "ਜੇ PDF ਵਿੰਡੋ ਬਲੌਕ ਹੋਵੇ ਤਾਂ ਇਸ ਐਪ ਲਈ ਪੌਪ-ਅੱਪ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ ਅਤੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ। ਪ੍ਰਿੰਟ ਤੋਂ ਪਹਿਲਾਂ ਸਹੀ ਰਸੀਦ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।"
+        },
+        "prs": {
+          "purpose": "فایل PDF رسید را در پنجره چاپ یا زبانه مرورگر باز می‌کند.",
+          "when": "وقتی پس از ایجاد PDF می‌خواهید رسید را چاپ یا نسخه‌ای از آن را ذخیره کنید، استفاده کنید.",
+          "how": "پس از آماده‌شدن PDF رسید، Print را انتخاب کنید و از گزینه‌های چاپ یا ذخیره مرورگر یا دستگاه استفاده کنید.",
+          "inputs": "رسید درست را انتخاب کنید و پیش از چاپ فایل PDF را بررسی کنید.",
+          "result": "فایل PDF در پنجره چاپ یا مرورگر باز می‌شود.",
+          "notes": "اگر پنجره PDF مسدود شد، اجازه پنجره‌های بازشو را برای این برنامه فعال و دوباره امتحان کنید. پیش از چاپ رسید درست را بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د رسید PDF د چاپ په کړکۍ یا د براوزر په ټب کې پرانیزي.",
+          "when": "کله چې د PDF له جوړېدو وروسته رسید چاپول یا یې کاپي خوندي کول غواړئ، دا وکاروئ.",
+          "how": "کله چې د رسید PDF چمتو شي، Print وټاکئ او د براوزر یا وسیلې د چاپ یا خوندي کولو اختیارونه وکاروئ.",
+          "inputs": "سم رسید وټاکئ او له چاپ مخکې PDF فایل وګورئ.",
+          "result": "PDF فایل د چاپ په کړکۍ یا براوزر کې پرانیستل کېږي.",
+          "notes": "که د PDF کړکۍ بنده وي، د دې اپلیکیشن لپاره پاپ اپونو ته اجازه ورکړئ او بیا هڅه وکړئ. له چاپ مخکې سم رسید تایید کړئ."
         }
       },
       "handler_or_behavior": "`window.open(window.receiptPdfUrl,`"
@@ -13695,19 +13983,91 @@
       "translations": {
         "en": {
           "purpose": "Generate a PDF for the current sub-project report.",
-          "when": "Use this control when you need to perform the action shown for the selected record or current workspace.",
+          "when": "Use this control when you need a PDF copy of the selected sub-project report.",
           "how": "Select Generate PDF and wait for the report preview to appear.",
-          "inputs": "Select the intended saved item or current view; provide additional details only if the app prompts for them.",
+          "inputs": "Select the correct sub-project and reporting period, then check the totals before generating the PDF.",
           "result": "The requested view, file, selection or output is opened or prepared; no unrelated record is changed.",
           "notes": "Check the report scope and totals before saving or printing; generation does not submit the report."
         },
         "fa": {
           "purpose": "ساخت PDF از گزارش زیرپروژه فعلی.",
-          "when": "وقتی می‌خواهید عملیات نمایش‌داده‌شده را برای رکورد انتخابی یا فضای کاری فعلی انجام دهید، از این گزینه استفاده کنید.",
+          "when": "وقتی به نسخه PDF گزارش زیرپروژه انتخاب‌شده نیاز دارید، از این گزینه استفاده کنید.",
           "how": "Generate PDF را انتخاب کنید و منتظر نمایش پیش‌نمایش گزارش بمانید.",
-          "inputs": "مورد ذخیره‌شده یا نمای فعلی درست را انتخاب کنید؛ فقط در صورت درخواست برنامه اطلاعات تکمیلی وارد کنید.",
+          "inputs": "زیرپروژه درست و دوره گزارش را انتخاب کنید و پیش از ایجاد PDF، جمع مبالغ را بررسی کنید.",
           "result": "نمایش، فایل، انتخاب یا خروجی درخواستی باز یا آماده می‌شود؛ رکورد نامرتبطی تغییر نمی‌کند.",
           "notes": "دامنه گزارش و مبالغ را بررسی کنید؛ تولید PDF به معنی ارسال گزارش نیست."
+        },
+        "ar": {
+          "purpose": "ينشئ ملف PDF لتقرير المشروع الفرعي الحالي.",
+          "when": "عندما تحتاج إلى نسخة PDF من تقرير المشروع الفرعي المحدد.",
+          "how": "اختر Generate PDF وانتظر ظهور معاينة التقرير.",
+          "inputs": "حدد المشروع الفرعي الصحيح وفترة التقرير، وتحقق من الإجماليات قبل إنشاء الملف.",
+          "result": "تُجهز نسخة PDF ويظهر عرض المعاينة.",
+          "notes": "تحقق من نطاق التقرير والإجماليات قبل الحفظ أو الطباعة؛ إنشاء الملف لا يرسل التقرير."
+        },
+        "ckb": {
+          "purpose": "PDF بۆ ڕاپۆرتی پرۆژە لاوەکیی ئێستا دروست دەکات.",
+          "when": "کاتێک پێویستت بە کۆپیی PDFی ڕاپۆرتی پرۆژە لاوەکیی دیاریکراو هەیە.",
+          "how": "Generate PDF هەڵبژێرە و چاوەڕێ بکە تا پێشبینینی ڕاپۆرتەکە دەردەکەوێت.",
+          "inputs": "پرۆژە لاوەکیی دروست و ماوەی ڕاپۆرت هەڵبژێرە و پێش دروستکردنی فایل کۆیەکان بپشکنە.",
+          "result": "کۆپیی PDF ئامادە دەکرێت و پێشبینینەکە پیشان دەدرێت.",
+          "notes": "پێش پاشەکەوتکردن یان چاپکردن مەودای ڕاپۆرت و کۆیەکان بپشکنە؛ دروستکردنی فایل ڕاپۆرتەکە نانێرێت."
+        },
+        "kmr": {
+          "purpose": "Ji bo rapora projeya jêrîn a niha PDF çêdike.",
+          "when": "Dema ku tu hewceyî kopiyeke PDF ya rapora projeya jêrîn a hilbijartî yî.",
+          "how": "Generate PDF hilbijêre û li bendê be heta pêşdîtina raporê xuya bibe.",
+          "inputs": "Projeya jêrîn a rast û heyama raporê hilbijêre û berî çêkirina pelê tevahiyan kontrol bike.",
+          "result": "Kopiya PDF tê amadekirin û pêşdîtin tê nîşandan.",
+          "notes": "Berî tomarkirin an çapkirinê qad û tevahiyên raporê kontrol bike; çêkirina pelê raporê naşîne."
+        },
+        "tr": {
+          "purpose": "Geçerli alt proje raporu için PDF oluşturur.",
+          "when": "Seçilen alt proje raporunun PDF kopyasına ihtiyaç duyduğunuzda kullanın.",
+          "how": "Generate PDF'yi seçin ve rapor önizlemesi görünene kadar bekleyin.",
+          "inputs": "Doğru alt projeyi ve raporlama dönemini seçin, dosyayı oluşturmadan önce toplamları kontrol edin.",
+          "result": "PDF kopyası hazırlanır ve önizleme görüntülenir.",
+          "notes": "Kaydetmeden veya yazdırmadan önce rapor kapsamını ve toplamları kontrol edin; dosya oluşturmak raporu göndermez."
+        },
+        "pl": {
+          "purpose": "Generuje plik PDF bieżącego raportu podprojektu.",
+          "when": "Użyj, gdy potrzebujesz pliku PDF raportu wybranego podprojektu.",
+          "how": "Wybierz Generate PDF i poczekaj, aż pojawi się podgląd raportu.",
+          "inputs": "Wybierz właściwy podprojekt i okres raportowania, a przed utworzeniem pliku sprawdź sumy.",
+          "result": "Przygotowywana jest kopia PDF i wyświetlany jest podgląd.",
+          "notes": "Przed zapisaniem lub drukowaniem sprawdź zakres raportu i sumy; wygenerowanie pliku nie wysyła raportu."
+        },
+        "ur": {
+          "purpose": "موجودہ ذیلی منصوبے کی رپورٹ کے لیے PDF بناتا ہے۔",
+          "when": "جب منتخب ذیلی منصوبے کی رپورٹ کی PDF نقل درکار ہو تو استعمال کریں۔",
+          "how": "Generate PDF منتخب کریں اور رپورٹ کا پیش منظر ظاہر ہونے کا انتظار کریں۔",
+          "inputs": "درست ذیلی منصوبہ اور رپورٹنگ مدت منتخب کریں اور فائل بنانے سے پہلے مجموعی رقوم چیک کریں۔",
+          "result": "PDF نقل تیار ہوتی ہے اور پیش منظر دکھائی دیتا ہے۔",
+          "notes": "محفوظ یا پرنٹ کرنے سے پہلے رپورٹ کا دائرہ اور مجموعی رقوم چیک کریں؛ PDF بنانا رپورٹ جمع نہیں کرتا۔"
+        },
+        "pa": {
+          "purpose": "ਮੌਜੂਦਾ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਰਿਪੋਰਟ ਲਈ PDF ਬਣਾਉਂਦਾ ਹੈ।",
+          "when": "ਜਦੋਂ ਚੁਣੇ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਦੀ ਰਿਪੋਰਟ ਦੀ PDF ਕਾਪੀ ਚਾਹੀਦੀ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
+          "how": "Generate PDF ਚੁਣੋ ਅਤੇ ਰਿਪੋਰਟ ਦੀ ਝਲਕ ਆਉਣ ਦੀ ਉਡੀਕ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਉਪ-ਪ੍ਰੋਜੈਕਟ ਅਤੇ ਰਿਪੋਰਟਿੰਗ ਮਿਆਦ ਚੁਣੋ ਅਤੇ ਫਾਈਲ ਬਣਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਕੁੱਲ ਰਕਮਾਂ ਜਾਂਚੋ।",
+          "result": "PDF ਕਾਪੀ ਤਿਆਰ ਹੁੰਦੀ ਹੈ ਅਤੇ ਝਲਕ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ।",
+          "notes": "ਸੇਵ ਜਾਂ ਪ੍ਰਿੰਟ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਰਿਪੋਰਟ ਦਾ ਦਾਇਰਾ ਅਤੇ ਕੁੱਲ ਰਕਮਾਂ ਜਾਂਚੋ؛ PDF ਬਣਾਉਣ ਨਾਲ ਰਿਪੋਰਟ ਜਮ੍ਹਾਂ ਨਹੀਂ ਹੁੰਦੀ।"
+        },
+        "prs": {
+          "purpose": "برای گزارش فعلی زیرپروژه PDF ایجاد می‌کند.",
+          "when": "وقتی به نسخه PDF گزارش زیرپروژه انتخاب‌شده نیاز دارید، استفاده کنید.",
+          "how": "Generate PDF را انتخاب کنید و منتظر نمایش پیش‌نمایش گزارش بمانید.",
+          "inputs": "زیرپروژه درست و دوره گزارش را انتخاب کنید و پیش از ایجاد فایل، جمع مبالغ را بررسی کنید.",
+          "result": "نسخه PDF آماده و پیش‌نمایش آن نمایش داده می‌شود.",
+          "notes": "پیش از ذخیره یا چاپ، محدوده گزارش و جمع مبالغ را بررسی کنید؛ تولید فایل گزارش را ارسال نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د اوسني فرعي پروژې راپور لپاره PDF جوړوي.",
+          "when": "کله چې د ټاکل شوي فرعي پروژې راپور PDF کاپي ته اړتیا لرئ، دا وکاروئ.",
+          "how": "Generate PDF وټاکئ او د راپور د مخکتنې تر څرګندېدو انتظار وکړئ.",
+          "inputs": "سمه فرعي پروژه او د راپور موده وټاکئ او د فایل له جوړولو مخکې ټولیزې شمېرې وګورئ.",
+          "result": "PDF کاپي چمتو کېږي او مخکتنه ښکاره کېږي.",
+          "notes": "له خوندي کولو یا چاپ مخکې د راپور ساحه او ټولیزې شمېرې وګورئ؛ د فایل جوړول راپور نه لېږي."
         }
       },
       "handler_or_behavior": "`prRunSubReportPrint()`"
