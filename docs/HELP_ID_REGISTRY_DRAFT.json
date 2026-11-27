@@ -4354,10 +4354,10 @@
         "en": {
           "purpose": "Creates one complete backup file containing the app database.",
           "when": "Use this before a planned update or any operation that could put stored information at risk.",
-          "how": "Select Backup and wait for the completion status and file download. Keep the file somewhere safe outside this device.",
-          "inputs": "No form input is required. Ensure the browser permits the file download and that you have enough secure storage space.",
-          "result": "A complete backup file is generated for the app database, including all 17 database domains and associated records, project data, invoices, contracts, settings, photos and logo.",
-          "notes": "Store the backup securely because it may contain sensitive business information. Do not assume a backup is valid until the app reports completion. Backup does not change existing records."
+          "how": "Select Backup and enter a valid filename when prompted. Wait while the app flushes pending writes and creates and verifies the full backup. If the iPhone save panel opens, choose Save to Files and a destination. If it does not open or is cancelled, select Save to Files on the button to retry.",
+          "inputs": "Enter a valid backup filename when prompted. Ensure the app's storage services are available and the browser/device can open the file-sharing or download flow.",
+          "result": "The app verifies a backup covering all 17 database domains and reports the record count. It then opens the device save/share panel when supported; otherwise the button changes to Save to Files so you can retry or download the verified file.",
+          "notes": "The backup is not safely stored outside the app until you choose a destination and confirm the save in Files or the browser's download location. Keep the file secure because it contains sensitive business data. Do not assume it is saved merely because verification passed."
         },
         "fa": {
           "purpose": "یک فایل پشتیبان کامل از پایگاه داده برنامه ایجاد می‌کند.",
