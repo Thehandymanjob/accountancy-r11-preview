@@ -31,7 +31,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
       "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "b278aadc25185ee6a8588c982f0b7e24a41e7c31",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "9ef673fdf28c3fa42d4946263e48a76ef1bae22d",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7"
     }
   },
@@ -2022,19 +2022,19 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "b28e0248ac9c61b08b98d06cfe7d9be722c22470",
+      "previewDevelopmentCommitSha": "19bc45b9d6557ef599462a5b74a98a4edf44371d",
       "previewPullRequestNumber": 96,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "PASS",
-        "runId": 46052943766,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46052943766",
-        "details": "Latest R45 PR head passed the R11 Version Authority Gate after the final native-HTML disabled-state hardening. Repository and branch identity, approved baseline ancestry, R45 Build ID, embedded canonical URL, index blob SHA and all 22 authority-pinned runtime assets matched."
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "A final correction was made after inspecting the recovery engine's exact digest contract: the engine hashes canonical JSON.stringify(payload), not the entire serialized backup file. The generated blob and the user-reselected saved file are now parsed and verified against that exact 17-domain payload digest and structure. Reset-runtime SHA pin updated; a fresh R45 Gate is required."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
-        "details": "R11 Version Authority Gate passed all 22 pinned runtime assets. V8 syntax compilation passed for the complete reset runtime. Static source checks confirm exact Preview DB identity, 17-domain backup verification, independent converted-file validation, SHA-256 re-selection of saved emergency snapshot, fail-closed final gate and recovery-lock retry. No live browser execution, failure-injection test or destructive reset was performed. Additional defense-in-depth: the destructive reset helper is no longer exposed on the global HandymanV273LegacyReset object and enforces the Preview database identity internally as well as at the final UI gate. Native HTML fail-closed hardening also sets the final Reset button disabled in the markup and in both modal transitions, so a missing or failed reset guard script cannot leave the destructive control enabled."
+        "details": "R11 Version Authority Gate passed all 22 pinned runtime assets. V8 syntax compilation passed for the complete reset runtime. Static source checks confirm exact Preview DB identity, 17-domain backup verification, independent converted-file validation, SHA-256 re-selection of saved emergency snapshot, fail-closed final gate and recovery-lock retry. No live browser execution, failure-injection test or destructive reset was performed. Additional defense-in-depth: the destructive reset helper is no longer exposed on the global HandymanV273LegacyReset object and enforces the Preview database identity internally as well as at the final UI gate. Native HTML fail-closed hardening also sets the final Reset button disabled in the markup and in both modal transitions, so a missing or failed reset guard script cannot leave the destructive control enabled. Recovery-engine digest semantics were inspected directly. Emergency snapshot verification now parses the package, checks portable format/algorithm, Preview database, full-database scope, exact 17-domain set, record identities and uniqueness, then recomputes SHA-256 over canonical JSON.stringify(payload), matching the recovery engine contract. Both the generated Blob and the reselected saved file use this validator."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
