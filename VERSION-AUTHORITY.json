@@ -2027,10 +2027,10 @@
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/96",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "A further defense-in-depth change was added after the R45 Gate PASS: the destructive reset helper is no longer exported on window and independently asserts the isolated Preview database. The reset-runtime SHA pin has been updated; rerun the Gate on the new PR head before considering this build verified."
+        "result": "PASS",
+        "runId": 46052698102,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46052698102",
+        "details": "Latest PR #96 head 71063249cf0fc54cbde13fa3029b23d2753df353 passed R11 Version Authority Gate. The gate verified repository/branch identity, approved R11 baseline ancestry, R45 Build ID and canonical URL, index SHA, and all 22 authority-pinned runtime assets. This includes the final reset-runtime SHA pin; the destructive reset helper is not exposed globally."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
