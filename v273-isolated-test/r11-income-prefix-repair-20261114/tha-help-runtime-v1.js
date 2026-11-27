@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R46') return;
+  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R49') return;
   const payload = window.THAHelpContentV1;
   if (!payload || !payload.entries) {
     console.error('[THA Help] Content bundle is missing; contextual help was not started.');
@@ -36,7 +36,7 @@
     ps:{purpose:'موخه',when:'کله یې وکاروئ',how:'د کارولو طریقه',inputs:'اړین معلومات',result:'تمه کېدونکې پایله',notes:'مهمې یادونې'}
   };
   const RTL_LANGS = new Set(['fa','ar','ckb','ur','prs','ps']);
-  let lastHelpId=null,overlay=null,card=null,helpButton=null,lastFocused=null;
+  let lastHelpId=null,overlay=null,card=null,lastFocused=null;
   function selectedLanguage(){
     const select=document.getElementById('appLanguageSelect'),selected=select&&select.value;
     if(selected&&payload.meta.languages.includes(selected))return selected;
@@ -49,7 +49,7 @@
   function closeHelp(){
     if(!overlay)return;
     overlay.hidden=true;overlay.setAttribute('aria-hidden','true');
-    if(lastFocused&&typeof lastFocused.focus==='function')lastFocused.focus();
+    if(lastFocused&&lastFocused.isConnected&&typeof lastFocused.focus==='function')lastFocused.focus();
   }
   function openFullGuide(){
     closeHelp();
@@ -70,6 +70,7 @@
     if(!entry){openFullGuide();return false;}
     if(!overlay)createInterface();
     lastFocused=document.activeElement;
+    lastHelpId=helpId;
     const lang=selectedLanguage(),direction=RTL_LANGS.has(lang)?'rtl':'ltr';
     const translation=entry.translations[lang]||entry.translations.en,labels=FIELD_LABELS[lang]||FIELD_LABELS.en;
     card.replaceChildren();card.lang=lang;card.dir=direction;
@@ -91,7 +92,11 @@
   function createInterface(){
     const style=document.createElement('style');style.id='tha-help-runtime-style';
     style.textContent=
-      '#thaHelpFab{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:calc(16px + env(safe-area-inset-bottom));z-index:2147482000;width:50px;height:50px;min-height:50px;padding:0;border-radius:50%;background:#142b4a;color:#fff;border:2px solid #e5b63f;box-shadow:0 4px 16px #0004;font-size:24px;font-weight:800;line-height:1}' +
+      '.tha-help-control-wrap{display:inline-flex;align-items:center;gap:5px;max-width:100%;vertical-align:middle}' +
+      '.accountancy-nav .tha-help-control-wrap{width:100%}' +
+      '.tha-help-control-wrap > [data-help-id]{flex:1 1 auto;min-width:0}' +
+      '.tha-help-trigger{display:inline-flex!important;align-items:center!important;justify-content:center!important;flex:0 0 28px!important;width:28px!important;height:28px!important;min-width:28px!important;min-height:28px!important;padding:0!important;border:1px solid #cbd4df!important;border-radius:50%!important;background:#edf1f6!important;color:#142b4a!important;font-size:16px!important;font-weight:800!important;line-height:1!important;box-shadow:none!important}' +
+      '.tha-help-trigger:focus{outline:3px solid #8db9f5;outline-offset:1px}' +
       '#thaHelpOverlay{position:fixed;inset:0;z-index:2147482500;display:flex;align-items:center;justify-content:center;padding:16px;background:rgba(10,22,40,.66)}' +
       '#thaHelpOverlay[hidden]{display:none}' +
       '#thaHelpOverlay .tha-help-card{width:min(100%,620px);max-height:86vh;overflow:auto;background:#fff;color:#172235;border:1px solid #dce2ea;border-radius:18px;padding:20px;box-shadow:0 18px 60px #0005;text-align:start}' +
@@ -104,13 +109,8 @@
       '#thaHelpOverlay .tha-help-actions button{min-height:44px;padding:10px 14px}' +
       '#thaHelpOverlay .tha-help-primary{background:#142b4a;color:#fff}' +
       '#thaHelpOverlay .tha-help-secondary{background:#edf1f6;color:#142b4a}' +
-      '@media print{#thaHelpFab,#thaHelpOverlay{display:none!important}}';
+      '@media print{.tha-help-trigger,#thaHelpOverlay{display:none!important}}';
     document.head.appendChild(style);
-    helpButton=document.createElement('button');helpButton.type='button';helpButton.id='thaHelpFab';helpButton.textContent='?';
-    helpButton.setAttribute('aria-label','Open contextual User Guide');
-    helpButton.title='Open help for the last selected control, or open the full User Guide';
-    helpButton.addEventListener('click',()=>{if(lastHelpId&&payload.entries[lastHelpId])openHelp(lastHelpId);else openFullGuide();});
-    document.body.appendChild(helpButton);
     overlay=document.createElement('div');overlay.id='thaHelpOverlay';overlay.hidden=true;
     overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-hidden','true');
     overlay.addEventListener('click',event=>{if(event.target===overlay)closeHelp();});
@@ -133,26 +133,42 @@
       });
     });
   }
+  function attachHelpButtons(root){
+    const scope=root||document,targets=[];
+    if(scope.nodeType===1&&scope.matches&&scope.matches('[data-help-id]'))targets.push(scope);
+    if(scope.querySelectorAll)targets.push(...scope.querySelectorAll('[data-help-id]'));
+    targets.forEach(target=>{
+      if(!target.isConnected||target.hasAttribute('data-tha-help-trigger'))return;
+      const helpId=target.getAttribute('data-help-id'),entry=payload.entries[helpId];
+      if(!entry)return;
+      if(target.parentElement&&target.parentElement.classList.contains('tha-help-control-wrap'))return;
+      if(target.dataset.thaHelpWrapped==='true')return;
+      const parent=target.parentNode;if(!parent)return;
+      const wrapper=document.createElement('span');wrapper.className='tha-help-control-wrap';
+      wrapper.setAttribute('data-tha-help-wrap',helpId);
+      parent.insertBefore(wrapper,target);wrapper.appendChild(target);
+      target.dataset.thaHelpWrapped='true';
+      const trigger=document.createElement('button');trigger.type='button';trigger.className='tha-help-trigger';
+      trigger.setAttribute('data-tha-help-trigger','true');trigger.textContent='?';
+      const isPersian=selectedLanguage()==='fa';
+      trigger.setAttribute('aria-label',(isPersian?'راهنمای ':'Help for ')+(entry.label||helpId));
+      trigger.title=(isPersian?'نمایش راهنمای ':'Open help for ')+(entry.label||helpId);
+      trigger.addEventListener('click',event=>{event.preventDefault();event.stopPropagation();openHelp(helpId);});
+      wrapper.appendChild(trigger);
+    });
+  }
+  function attachAll(root){attachStaticBindings(root);attachHelpButtons(root);}
   function initialise(){
-    createInterface();attachStaticBindings(document);
-    document.addEventListener('click',event=>{
-      const target=event.target&&event.target.closest?event.target.closest('[data-help-id]'):null;
-      if(!target||target===helpButton||!target.isConnected)return;
-      const helpId=target.getAttribute('data-help-id');
-      if(!payload.entries[helpId])return;
-      lastHelpId=helpId;
-      helpButton.title='Open help for '+(payload.entries[helpId].label||helpId);
-      helpButton.setAttribute('aria-label','Open help for '+(payload.entries[helpId].label||helpId));
-    },true);
+    createInterface();attachAll(document);
     if(typeof MutationObserver==='function'){
-      const observer=new MutationObserver(records=>records.forEach(record=>record.addedNodes.forEach(node=>{if(node.nodeType===1)attachStaticBindings(node);})));
+      const observer=new MutationObserver(records=>records.forEach(record=>record.addedNodes.forEach(node=>{if(node.nodeType===1)attachAll(node);})));
       observer.observe(document.documentElement,{childList:true,subtree:true});
     }
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initialise,{once:true});
   else initialise();
   window.THAHelpRuntime=Object.freeze({
-    version:'R46',open:openHelp,openFullGuide,attach:attachStaticBindings,
+    version:'R49',open:openHelp,openFullGuide,attach:attachAll,
     getLastHelpId:()=>lastHelpId,getPublishableCount:()=>Object.keys(payload.entries).length
   });
 })();

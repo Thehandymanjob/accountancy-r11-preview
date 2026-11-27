@@ -5,11 +5,11 @@
   "branch": "development",
   "baseline": {
     "runtime_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
-    "runtime_blob_sha": "77fc513765a261022cb84405b0ce08b04b4ee694",
+    "runtime_blob_sha": "2c6bca1a66516ed9e5ec29de0d7fd7c94f123891",
     "registry_blob_sha": "f63754128fd09125290df4045f6f4b6fc03b3545",
     "inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
     "help_content_blob_sha": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
-    "help_runtime_blob_sha": "e7b7a713478bdb7ec65b52ee7f526dd418770dbd"
+    "help_runtime_blob_sha": "1ab28af8bc33c5273118af6bfa46e4d03439025d"
   },
   "policy": {
     "label_only_matching": false,
@@ -25,15 +25,14 @@
     "mapping_status_counts": {
       "AMBIGUOUS_HANDLER": 160,
       "HANDLER_CANDIDATE_REQUIRES_CONTEXT_TEST": 16,
-      "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED": 14,
+      "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED": 19,
       "ID_CANDIDATE_REQUIRES_BROWSER_TEST": 17,
       "NEEDS_SELECTOR": 7,
-      "SELECTOR_ATTACHED_R47_NOT_BROWSER_VERIFIED": 5,
       "SEPARATE_DOCUMENT_SCOPE": 7,
       "DYNAMIC_TEMPLATE_CANDIDATE": 2,
       "EXEMPT_NOT_MAPPED": 1
     },
-    "notes": "R48 corrects English/Persian wording for nine Draft entries after source-context review. Their overall status remains CONTENT_DRAFT because other language versions are not yet reviewed; they remain excluded from runtime publication and attachment. Nineteen other controls remain wired in source, with browser verification pending.",
+    "notes": "R49 changes the contextual Help affordance to a separate adjacent ? button for the 19 mapped specialist controls. Fourteen are resolved through explicit scoped static selectors and five through exact dynamic template attributes. The Help popup reads the selected guide language and displays only the 132 approved CONTENT_COMPLETE entries. No browser test or deployment has occurred.",
     "runtime_publishable_entries": 132,
     "runtime_languages": 11,
     "static_controls_attached": 14,
@@ -253,8 +252,8 @@
       "selector": ".accountancy-nav > button[onclick=\"show('home')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
-      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED",
+      "rationale": "R49 wraps the mapped control with a separate adjacent ? button. The Help ID is resolved through the explicit static selector allowlist or exact dynamic template attribute. Browser layout, uniqueness and interaction tests remain required."
     },
     {
       "help_id": "THA-HLP-0016",
@@ -267,8 +266,8 @@
       "selector": ".accountancy-nav > button[onclick=\"show('entry')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
-      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED",
+      "rationale": "R49 wraps the mapped control with a separate adjacent ? button. The Help ID is resolved through the explicit static selector allowlist or exact dynamic template attribute. Browser layout, uniqueness and interaction tests remain required."
     },
     {
       "help_id": "THA-HLP-0017",
@@ -281,8 +280,8 @@
       "selector": ".accountancy-nav > button[onclick=\"show('records')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
-      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED",
+      "rationale": "R49 wraps the mapped control with a separate adjacent ? button. The Help ID is resolved through the explicit static selector allowlist or exact dynamic template attribute. Browser layout, uniqueness and interaction tests remain required."
     },
     {
       "help_id": "THA-HLP-0018",
@@ -295,8 +294,8 @@
       "selector": ".accountancy-nav > button[onclick=\"show('invoices')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
-      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED",
+      "rationale": "R49 wraps the mapped control with a separate adjacent ? button. The Help ID is resolved through the explicit static selector allowlist or exact dynamic template attribute. Browser layout, uniqueness and interaction tests remain required."
     },
     {
       "help_id": "THA-HLP-0019",
@@ -309,8 +308,8 @@
       "selector": ".accountancy-nav > button[onclick=\"show('customers')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
-      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED",
+      "rationale": "R49 wraps the mapped control with a separate adjacent ? button. The Help ID is resolved through the explicit static selector allowlist or exact dynamic template attribute. Browser layout, uniqueness and interaction tests remain required."
     },
     {
       "help_id": "THA-HLP-0020",
@@ -323,8 +322,8 @@
       "selector": ".accountancy-nav > button[onclick=\"show('report')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
-      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED",
+      "rationale": "R49 wraps the mapped control with a separate adjacent ? button. The Help ID is resolved through the explicit static selector allowlist or exact dynamic template attribute. Browser layout, uniqueness and interaction tests remain required."
     },
     {
       "help_id": "THA-HLP-0021",
@@ -379,8 +378,8 @@
       "selector": "#entryReceiptField .receipt-actions > button[onclick*=\"entryReceiptGallery\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
-      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED",
+      "rationale": "R49 wraps the mapped control with a separate adjacent ? button. The Help ID is resolved through the explicit static selector allowlist or exact dynamic template attribute. Browser layout, uniqueness and interaction tests remain required."
     },
     {
       "help_id": "THA-HLP-0025",
@@ -603,8 +602,8 @@
       "selector": "#report188Builder .actions > button[onclick=\"report188ConfirmComplete()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
-      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED",
+      "rationale": "R49 wraps the mapped control with a separate adjacent ? button. The Help ID is resolved through the explicit static selector allowlist or exact dynamic template attribute. Browser layout, uniqueness and interaction tests remain required."
     },
     {
       "help_id": "THA-HLP-0041",
@@ -617,8 +616,8 @@
       "selector": "#report188Builder .actions > button[onclick=\"report188CheckDue()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
-      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED",
+      "rationale": "R49 wraps the mapped control with a separate adjacent ? button. The Help ID is resolved through the explicit static selector allowlist or exact dynamic template attribute. Browser layout, uniqueness and interaction tests remain required."
     },
     {
       "help_id": "THA-HLP-0042",
@@ -645,8 +644,8 @@
       "selector": "#report188Calendar .actions > button[onclick=\"report188CheckDue()\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
-      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED",
+      "rationale": "R49 wraps the mapped control with a separate adjacent ? button. The Help ID is resolved through the explicit static selector allowlist or exact dynamic template attribute. Browser layout, uniqueness and interaction tests remain required."
     },
     {
       "help_id": "THA-HLP-0044",
@@ -1093,8 +1092,8 @@
       "selector": "[data-pr-nav=\"project-hub\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
-      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED",
+      "rationale": "R49 wraps the mapped control with a separate adjacent ? button. The Help ID is resolved through the explicit static selector allowlist or exact dynamic template attribute. Browser layout, uniqueness and interaction tests remain required."
     },
     {
       "help_id": "THA-HLP-0076",
@@ -1121,8 +1120,8 @@
       "selector": "[data-pr-nav=\"control\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
-      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED",
+      "rationale": "R49 wraps the mapped control with a separate adjacent ? button. The Help ID is resolved through the explicit static selector allowlist or exact dynamic template attribute. Browser layout, uniqueness and interaction tests remain required."
     },
     {
       "help_id": "THA-HLP-0078",
@@ -1429,8 +1428,8 @@
       "selector": "#prPage-partners .pr-actions > button[onclick=\"prResetPerson('partner')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
-      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED",
+      "rationale": "R49 wraps the mapped control with a separate adjacent ? button. The Help ID is resolved through the explicit static selector allowlist or exact dynamic template attribute. Browser layout, uniqueness and interaction tests remain required."
     },
     {
       "help_id": "THA-HLP-0100",
@@ -1485,8 +1484,8 @@
       "selector": "#prPage-workers .pr-actions > button[onclick=\"prResetPerson('worker')\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "SELECTOR_ATTACHED_R46_NOT_BROWSER_VERIFIED",
-      "rationale": "R46 runtime attaches this immutable Help ID through an explicit scoped selector allowlist. Browser uniqueness and interaction tests are still required."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED",
+      "rationale": "R49 wraps the mapped control with a separate adjacent ? button. The Help ID is resolved through the explicit static selector allowlist or exact dynamic template attribute. Browser layout, uniqueness and interaction tests remain required."
     },
     {
       "help_id": "THA-HLP-0104",
@@ -1723,8 +1722,8 @@
       "selector": "[data-help-id=\"THA-HLP-0120\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "SELECTOR_ATTACHED_R47_NOT_BROWSER_VERIFIED",
-      "rationale": "R47 adds this immutable data-help-id directly at the identified dynamic template callsite. Browser instance coverage and click interaction tests are still required."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED",
+      "rationale": "R49 wraps the mapped control with a separate adjacent ? button. The Help ID is resolved through the explicit static selector allowlist or exact dynamic template attribute. Browser layout, uniqueness and interaction tests remain required."
     },
     {
       "help_id": "THA-HLP-0121",
@@ -1793,8 +1792,8 @@
       "selector": "[data-help-id=\"THA-HLP-0125\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "SELECTOR_ATTACHED_R47_NOT_BROWSER_VERIFIED",
-      "rationale": "R47 adds this immutable data-help-id directly at the identified dynamic template callsite. Browser instance coverage and click interaction tests are still required."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED",
+      "rationale": "R49 wraps the mapped control with a separate adjacent ? button. The Help ID is resolved through the explicit static selector allowlist or exact dynamic template attribute. Browser layout, uniqueness and interaction tests remain required."
     },
     {
       "help_id": "THA-HLP-0126",
@@ -1821,8 +1820,8 @@
       "selector": "[data-help-id=\"THA-HLP-0127\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "SELECTOR_ATTACHED_R47_NOT_BROWSER_VERIFIED",
-      "rationale": "R47 adds this immutable data-help-id directly at the identified dynamic template callsite. Browser instance coverage and click interaction tests are still required."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED",
+      "rationale": "R49 wraps the mapped control with a separate adjacent ? button. The Help ID is resolved through the explicit static selector allowlist or exact dynamic template attribute. Browser layout, uniqueness and interaction tests remain required."
     },
     {
       "help_id": "THA-HLP-0128",
@@ -1835,8 +1834,8 @@
       "selector": "[data-help-id=\"THA-HLP-0128\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "SELECTOR_ATTACHED_R47_NOT_BROWSER_VERIFIED",
-      "rationale": "R47 adds this immutable data-help-id directly at the identified dynamic template callsite. Browser instance coverage and click interaction tests are still required."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED",
+      "rationale": "R49 wraps the mapped control with a separate adjacent ? button. The Help ID is resolved through the explicit static selector allowlist or exact dynamic template attribute. Browser layout, uniqueness and interaction tests remain required."
     },
     {
       "help_id": "THA-HLP-0129",
@@ -1877,8 +1876,8 @@
       "selector": "[data-help-id=\"THA-HLP-0131\"]",
       "inventory_classification": "HELP-REQUIRED",
       "content_status": "CONTENT_COMPLETE",
-      "mapping_status": "SELECTOR_ATTACHED_R47_NOT_BROWSER_VERIFIED",
-      "rationale": "R47 adds this immutable data-help-id directly at the identified dynamic template callsite. Browser instance coverage and click interaction tests are still required."
+      "mapping_status": "ADJACENT_HELP_BUTTON_ATTACHED_R49_NOT_BROWSER_VERIFIED",
+      "rationale": "R49 wraps the mapped control with a separate adjacent ? button. The Help ID is resolved through the explicit static selector allowlist or exact dynamic template attribute. Browser layout, uniqueness and interaction tests remain required."
     },
     {
       "help_id": "THA-HLP-0132",
