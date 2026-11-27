@@ -3303,7 +3303,7 @@ const GUIDE_CONTENT={
 
 };
 function appendGuideInline(target,text){
- const parts=String(text).split(/(\\*\\*.*?\\*\\*|`[^`]+`)/g);
+ const parts=String(text).split(/(\*\*.*?\*\*|`[^`]+`)/g);
  parts.forEach(part=>{
   if(part.startsWith('**')&&part.endsWith('**')){const el=document.createElement('strong');el.textContent=part.slice(2,-2);target.appendChild(el);}
   else if(part.startsWith('`')&&part.endsWith('`')){const el=document.createElement('code');el.textContent=part.slice(1,-1);target.appendChild(el);}
@@ -3314,15 +3314,15 @@ function renderGuideMarkdown(root,markdown){
  let paragraph=[],list=null,listTag='';
  const flushParagraph=()=>{if(!paragraph.length)return;const p=document.createElement('p');appendGuideInline(p,paragraph.join(' '));root.appendChild(p);paragraph=[];};
  const flushList=()=>{if(list){root.appendChild(list);list=null;listTag='';}};
- String(markdown||'').split(/\\r?\\n/).forEach(raw=>{
+ String(markdown||'').split(/\r?\n/).forEach(raw=>{
   const line=raw.trim();
   if(!line){flushParagraph();flushList();return;}
   if(/^---+$/.test(line)){flushParagraph();flushList();root.appendChild(document.createElement('hr'));return;}
-  const h=line.match(/^###\\s+(.+)$/);
+  const h=line.match(/^###\s+(.+)$/);
   if(h){flushParagraph();flushList();const el=document.createElement('h4');appendGuideInline(el,h[1]);root.appendChild(el);return;}
-  const bullet=line.match(/^[-*]\\s+(.+)$/),ordered=line.match(/^[0-9۰-۹٠-٩]+[.)、]\\s+(.+)$/);
+  const bullet=line.match(/^[-*]\s+(.+)$/),ordered=line.match(/^[0-9۰-۹٠-٩]+[.)、]\s+(.+)$/);
   if(bullet||ordered){flushParagraph();const tag=bullet?'ul':'ol';if(!list||listTag!==tag){flushList();list=document.createElement(tag);listTag=tag;}const li=document.createElement('li');appendGuideInline(li,(bullet||ordered)[1]);list.appendChild(li);return;}
-  flushList();paragraph.push(line.replace(/^>\\s?/,''));
+  flushList();paragraph.push(line.replace(/^>\s?/,''));
  });
  flushParagraph();flushList();
 }
