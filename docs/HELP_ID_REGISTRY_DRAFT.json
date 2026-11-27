@@ -9707,80 +9707,80 @@
           "purpose": "اطلاعات مشتری ذخیره‌شده را ویرایش می‌کند.",
           "when": "وقتی می‌خواهید نام، شماره تلفن، ایمیل یا نشانی ذخیره‌شده یک مشتری موجود را اصلاح کنید، از این گزینه استفاده کنید.",
           "how": "در کنار مشتری درست Edit را انتخاب کنید. فیلدهای مشتری را به‌روزرسانی کنید و سپس برای ذخیره تغییرات Save Customer را انتخاب کنید.",
-          "inputs": "مشتری ذخیره‌شده درست را انتخاب کنید و نام الزامی یا فیلدهای اختیاری تلفن، نشانی صورتحساب، نشانی معمول محل کار و ایمیل را در صورت نیاز تغییر دهید.",
-          "result": "اطلاعات ذخیره‌شده مشتری در فرم مشتری بارگذاری می‌شود. تغییرات تا زمانی که Save Customer با موفقیت انجام نشود، ذخیره نخواهند شد.",
+          "inputs": "مشتری ذخیره‌شده درست را انتخاب کنید. نام الزامی است؛ تلفن، نشانی صورتحساب، نشانی معمول محل کار و ایمیل اختیاری هستند.",
+          "result": "اطلاعات ذخیره‌شده مشتری در فرم بارگذاری می‌شود. تغییرات تا موفقیت Save Customer ذخیره نمی‌شوند.",
           "notes": "به‌ویژه اگر نام مشتریان مشابه است، پیش از ذخیره هویت مشتری را بررسی کنید."
         },
         "ar": {
           "purpose": "يفتح بيانات العميل المحفوظة لتعديلها.",
           "when": "عندما تحتاج إلى تحديث بيانات العميل أو معلومات الاتصال الخاصة به.",
-          "how": "اختر Edit بجانب العميل الصحيح، وعدّل حقول العميل أو الاتصال المطلوبة، ثم احفظ التغييرات.",
-          "inputs": "حدد سجل العميل الصحيح وعدّل الحقول التي تحتاج إلى تحديث.",
-          "result": "يُحدّث سجل العميل إذا نجح التحقق وأكد التطبيق التغيير.",
+          "how": "اختر Edit بجانب العميل الصحيح. حدّث حقول العميل، ثم اختر Save Customer لحفظ التغييرات.",
+          "inputs": "حدد سجل العميل الصحيح. الاسم مطلوب؛ الهاتف وعنوان الفوترة وعنوان العمل المعتاد والبريد الإلكتروني اختيارية.",
+          "result": "تُحمّل بيانات العميل المحفوظة في النموذج. لا تُحفظ التغييرات حتى ينجح Save Customer.",
           "notes": "تحقق من أنك اخترت العميل الصحيح، خاصة عندما تكون الأسماء متشابهة."
         },
         "ckb": {
           "purpose": "زانیاری پاشەکەوتکراوی کڕیار بۆ دەستکاریکردن دەکاتەوە.",
           "when": "کاتێک پێویستە زانیارییەکانی کڕیار یان زانیاری پەیوەندییەکانی نوێ بکەیتەوە.",
-          "how": "لە تەنیشت کڕیاری دروست Edit هەڵبژێرە، خانە پێویستەکانی کڕیار یان پەیوەندی بگۆڕە و پاشەکەوت بکە.",
-          "inputs": "تۆماری کڕیاری دروست هەڵبژێرە و ئەو خانانە بگۆڕە کە پێویستیان بە نوێکردنەوە هەیە.",
-          "result": "ئەگەر پشتڕاستکردنەوە سەرکەوتوو بێت و ئەپەکە گۆڕانکارییەکە پشتڕاست بکاتەوە، تۆماری کڕیار نوێ دەکرێتەوە.",
+          "how": "لە تەنیشت کڕیاری دروست Edit هەڵبژێرە، خانەکانی کڕیار نوێ بکەرەوە و Save Customer هەڵبژێرە بۆ پاشەکەوتکردنی گۆڕانکارییەکان.",
+          "inputs": "تۆماری دروستی کڕیار هەڵبژێرە. ناو پێویستە؛ تەلەفۆن، ناونیشانی پسووڵە، ناونیشانی شوێنی کار و ئیمەیڵ هەڵبژاردەیین.",
+          "result": "زانیارییە پاشەکەوتکراوەکانی کڕیار لە فۆڕمەکە بار دەکرێن. گۆڕانکارییەکان تا سەرکەوتنی Save Customer پاشەکەوت ناکرێن.",
           "notes": "دڵنیابە کڕیاری دروستت هەڵبژاردووە، بە تایبەتی کاتێک ناوەکان لەیەک دەچن."
         },
         "kmr": {
           "purpose": "Agahiyên tomarkirî yên xerîdar ji bo guherandinê vedike.",
           "when": "Dema ku tu hewceyî nûkirina agahiyên xerîdar an têkiliyê yî.",
-          "how": "Li kêleka xerîdarê rast Edit hilbijêre, qadên xerîdar an têkiliyê yên pêwîst biguherîne û tomar bike.",
-          "inputs": "Tomara xerîdarê rast hilbijêre û qadên ku hewceyî nûkirinê ne biguherîne.",
-          "result": "Ger kontrol serkeftî be û sepan guherînê piştrast bike, tomara xerîdar tê nûkirin.",
+          "how": "Li kêleka xerîdarê rast Edit hilbijêre, qadên wî nû bike û ji bo tomarkirina guherînan Save Customer hilbijêre.",
+          "inputs": "Tomara xerîdarê rast hilbijêre. Nav pêwîst e; telefon, navnîşana fatûreyê, navnîşana cihê kar û e-name vebijarkî ne.",
+          "result": "Agahiyên tomarkirî yên xerîdar di formê de tên barkirin. Guherîn heta serkeftina Save Customer nayên tomarkirin.",
           "notes": "Piştrast bike ku xerîdarê rast hilbijartiye, nemaze dema ku nav dişibin hev."
         },
         "tr": {
           "purpose": "Kaydedilmiş müşterinin bilgilerini düzenlemek üzere açar.",
           "when": "Müşteri bilgilerini veya iletişim ayrıntılarını güncellemeniz gerektiğinde kullanın.",
-          "how": "Doğru müşterinin yanındaki Edit'i seçin, gerekli müşteri veya iletişim alanlarını güncelleyin ve değişiklikleri kaydedin.",
-          "inputs": "Doğru müşteri kaydını seçin ve güncellenmesi gereken alanları değiştirin.",
-          "result": "Doğrulama başarılı olur ve uygulama değişikliği onaylarsa müşteri kaydı güncellenir.",
+          "how": "Doğru müşterinin yanındaki Edit seçeneğini belirleyin, müşteri alanlarını güncelleyin ve değişiklikleri kaydetmek için Save Customer'ı seçin.",
+          "inputs": "Doğru kayıtlı müşteriyi seçin. Ad zorunludur; telefon, fatura adresi, olağan iş adresi ve e-posta isteğe bağlıdır.",
+          "result": "Müşterinin kayıtlı bilgileri forma yüklenir. Save Customer başarılı olana kadar değişiklikler kaydedilmez.",
           "notes": "Özellikle adlar benzer olduğunda doğru müşteriyi seçtiğinizi kontrol edin."
         },
         "pl": {
           "purpose": "Otwiera zapisane dane klienta do edycji.",
           "when": "Użyj, gdy trzeba zaktualizować dane klienta lub informacje kontaktowe.",
-          "how": "Wybierz Edit obok właściwego klienta, zaktualizuj wymagane pola klienta lub kontaktu i zapisz zmiany.",
-          "inputs": "Wybierz właściwy rekord klienta i zmień pola wymagające aktualizacji.",
-          "result": "Rekord klienta zostanie zaktualizowany, jeśli walidacja się powiedzie i aplikacja potwierdzi zmianę.",
+          "how": "Wybierz Edit przy właściwym kliencie, zaktualizuj pola i wybierz Save Customer, aby zapisać zmiany.",
+          "inputs": "Wybierz właściwego klienta. Nazwa jest wymagana; telefon, adres rozliczeniowy, zwykły adres pracy i e-mail są opcjonalne.",
+          "result": "Zapisane dane klienta są wczytywane do formularza. Zmiany nie zostaną zapisane, dopóki Save Customer nie powiedzie się.",
           "notes": "Sprawdź, czy wybrano właściwego klienta, zwłaszcza gdy nazwiska lub nazwy są podobne."
         },
         "ur": {
           "purpose": "محفوظ شدہ گاہک کی تفصیلات ترمیم کے لیے کھولتا ہے۔",
           "when": "جب گاہک کی معلومات یا رابطے کی تفصیلات اپ ڈیٹ کرنی ہوں تو استعمال کریں۔",
-          "how": "درست گاہک کے ساتھ Edit منتخب کریں، مطلوبہ گاہک یا رابطے کے خانے اپ ڈیٹ کریں اور تبدیلیاں محفوظ کریں۔",
-          "inputs": "درست گاہک کا ریکارڈ منتخب کریں اور وہ خانے تبدیل کریں جنہیں اپ ڈیٹ کرنا ہے۔",
-          "result": "توثیق کامیاب ہو اور ایپ تبدیلی کی تصدیق کرے تو گاہک کا ریکارڈ اپ ڈیٹ ہو جاتا ہے۔",
+          "how": "درست گاہک کے ساتھ Edit منتخب کریں، خانے اپ ڈیٹ کریں اور تبدیلیاں محفوظ کرنے کے لیے Save Customer منتخب کریں۔",
+          "inputs": "درست محفوظ شدہ گاہک منتخب کریں۔ نام لازمی ہے؛ فون، بلنگ پتہ، معمول کا کام کا پتہ اور ای میل اختیاری ہیں۔",
+          "result": "گاہک کی محفوظ معلومات فارم میں لوڈ ہوتی ہیں۔ Save Customer کامیاب ہونے تک تبدیلیاں محفوظ نہیں ہوتیں۔",
           "notes": "یقین کریں کہ درست گاہک منتخب کیا ہے، خاص طور پر جب نام ملتے جلتے ہوں۔"
         },
         "pa": {
           "purpose": "ਸੇਵ ਕੀਤੇ ਗਾਹਕ ਦੇ ਵੇਰਵੇ ਸੋਧਣ ਲਈ ਖੋਲ੍ਹਦਾ ਹੈ।",
           "when": "ਜਦੋਂ ਗਾਹਕ ਦੀ ਜਾਣਕਾਰੀ ਜਾਂ ਸੰਪਰਕ ਵੇਰਵੇ ਅਪਡੇਟ ਕਰਨੇ ਹੋਣ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਸਹੀ ਗਾਹਕ ਦੇ ਨਾਲ Edit ਚੁਣੋ, ਲੋੜੀਂਦੇ ਗਾਹਕ ਜਾਂ ਸੰਪਰਕ ਖੇਤਰ ਅਪਡੇਟ ਕਰੋ ਅਤੇ ਤਬਦੀਲੀਆਂ ਸੇਵ ਕਰੋ।",
-          "inputs": "ਸਹੀ ਗਾਹਕ ਰਿਕਾਰਡ ਚੁਣੋ ਅਤੇ ਉਹ ਖੇਤਰ ਬਦਲੋ ਜਿਨ੍ਹਾਂ ਨੂੰ ਅਪਡੇਟ ਕਰਨਾ ਹੈ।",
-          "result": "ਜਾਂਚ ਸਫਲ ਹੋਵੇ ਅਤੇ ਐਪ ਤਬਦੀਲੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ ਗਾਹਕ ਰਿਕਾਰਡ ਅਪਡੇਟ ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "how": "ਸਹੀ ਗਾਹਕ ਦੇ ਨਾਲ Edit ਚੁਣੋ, ਖੇਤਰ ਅੱਪਡੇਟ ਕਰੋ ਅਤੇ ਤਬਦੀਲੀਆਂ ਸੇਵ ਕਰਨ ਲਈ Save Customer ਚੁਣੋ۔",
+          "inputs": "ਸਹੀ ਸੇਵ ਕੀਤਾ ਗਾਹਕ ਚੁਣੋ। ਨਾਮ ਲਾਜ਼ਮੀ ਹੈ؛ ਫ਼ੋਨ, ਬਿਲਿੰਗ ਪਤਾ, ਆਮ ਕੰਮ ਦਾ ਪਤਾ ਅਤੇ ਈਮੇਲ ਵਿਕਲਪਿਕ ਹਨ۔",
+          "result": "ਗਾਹਕ ਦੀ ਸੇਵ ਕੀਤੀ ਜਾਣਕਾਰੀ ਫਾਰਮ ਵਿੱਚ ਲੋਡ ਹੁੰਦੀ ਹੈ। Save Customer ਸਫਲ ਹੋਣ ਤੱਕ ਤਬਦੀਲੀਆਂ ਸੇਵ ਨਹੀਂ ਹੁੰਦੀਆਂ।",
           "notes": "ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਸਹੀ ਗਾਹਕ ਚੁਣਿਆ ਹੈ, ਖ਼ਾਸ ਕਰਕੇ ਜਦੋਂ ਨਾਮ ਮਿਲਦੇ-ਜੁਲਦੇ ਹੋਣ।"
         },
         "prs": {
           "purpose": "اطلاعات ذخیره‌شده مشتری را برای ویرایش باز می‌کند.",
           "when": "وقتی لازم است اطلاعات مشتری یا جزئیات تماس او را به‌روزرسانی کنید، استفاده کنید.",
-          "how": "در کنار مشتری درست Edit را انتخاب کنید، فیلدهای لازم مشتری یا تماس را به‌روزرسانی و تغییرات را ذخیره کنید.",
-          "inputs": "سابقه درست مشتری را انتخاب کنید و فیلدهایی را که باید به‌روزرسانی شوند تغییر دهید.",
-          "result": "اگر اعتبارسنجی موفق باشد و برنامه تغییر را تأیید کند، سابقه مشتری به‌روزرسانی می‌شود.",
+          "how": "در کنار مشتری درست Edit را انتخاب کنید، فیلدها را به‌روزرسانی و برای ذخیره Save Customer را انتخاب کنید.",
+          "inputs": "مشتری ذخیره‌شده درست را انتخاب کنید. نام الزامی است؛ تلفن، نشانی صورتحساب، نشانی معمول محل کار و ایمیل اختیاری هستند.",
+          "result": "اطلاعات ذخیره‌شده مشتری در فرم بارگذاری می‌شود. تغییرات تا موفقیت Save Customer ذخیره نمی‌شوند.",
           "notes": "مطمئن شوید مشتری درست را انتخاب کرده‌اید، به‌ویژه وقتی نام‌ها مشابه هستند."
         },
         "ps": {
           "purpose": "د خوندي شوي پېرودونکي معلومات د سمون لپاره پرانیزي.",
           "when": "کله چې د پېرودونکي معلومات یا د اړیکې جزئیات تازه کول غواړئ، دا وکاروئ.",
-          "how": "د سم پېرودونکي تر څنګ Edit وټاکئ، د پېرودونکي یا اړیکې اړینې خانې تازه کړئ او بدلونونه خوندي کړئ.",
-          "inputs": "د پېرودونکي سم ریکارډ وټاکئ او هغه خانې بدلې کړئ چې تازه کولو ته اړتیا لري.",
-          "result": "که ارزونه بریالۍ شي او اپلیکیشن بدلون تایید کړي، د پېرودونکي ریکارډ تازه کېږي.",
+          "how": "د سم پېرودونکي ترڅنګ Edit وټاکئ، خانې تازه کړئ او د خوندي کولو لپاره Save Customer وټاکئ.",
+          "inputs": "سم خوندي شوی پېرودونکی وټاکئ. نوم اړین دی؛ ټیلیفون، د بل پته، د کار معمول پته او برېښنالیک اختیاري دي.",
+          "result": "د پېرودونکي خوندي معلومات فورمې ته پورته کېږي. بدلونونه تر بریالي Save Customer پورې نه خوندي کېږي.",
           "notes": "ډاډ ترلاسه کړئ چې سم پېرودونکی مو ټاکلی، په ځانګړي ډول کله چې نومونه ورته وي."
         }
       },
@@ -9804,82 +9804,82 @@
         "fa": {
           "purpose": "فرم فاکتور جدیدی را آغاز می‌کند و اطلاعات مشتری انتخاب‌شده را از قبل در آن قرار می‌دهد.",
           "when": "وقتی می‌خواهید برای مشتری‌ای که از قبل در فهرست Customers ذخیره شده است فاکتور صادر کنید، از این گزینه استفاده کنید.",
-          "how": "در کنار مشتری درست New invoice را انتخاب کنید. اطلاعات مشتری که به فاکتور جدید منتقل شده است بررسی کنید، سپس فاکتور را تکمیل و ذخیره کنید.",
-          "inputs": "رکورد مشتری درست را انتخاب کنید. تاریخ فاکتور، شرح کار، ردیف‌های اقلام همراه با قیمت و سایر جزئیات الزامی فاکتور را وارد کنید.",
-          "result": "فرم فاکتور جدید باز می‌شود؛ مشتری انتخاب‌شده به آن پیوند داده شده و اطلاعات موجود او در فیلدهای مربوط قرار می‌گیرد. تا زمانی که یکی از گزینه‌های ذخیره را انتخاب نکنید، فاکتور ذخیره نمی‌شود.",
-          "notes": "این گزینه فقط روند ساخت فاکتور را آغاز می‌کند؛ مبلغ، شرح و وضعیت پرداخت را پیش از ذخیره یا صدور بررسی کنید."
+          "how": "در کنار مشتری درست New invoice را انتخاب کنید. اطلاعات منتقل‌شده مشتری را بررسی کنید، فاکتور را تکمیل و ذخیره کنید.",
+          "inputs": "مشتری درست را انتخاب کنید. تاریخ فاکتور، شرح کار، ردیف‌های قیمت‌گذاری‌شده و سایر جزئیات الزامی را اضافه کنید.",
+          "result": "فرم فاکتور جدید با مشتری انتخاب‌شده پیوند می‌شود و اطلاعات موجود او در فیلدهای مربوط قرار می‌گیرد. فاکتور تا اجرای گزینه ذخیره، ذخیره نمی‌شود.",
+          "notes": "پیش از ذخیره یا صدور، مشتری، محدوده کار، مبالغ و وضعیت پرداخت را بررسی کنید."
         },
         "ar": {
           "purpose": "يبدأ إنشاء فاتورة جديدة للعميل المحدد.",
           "when": "عندما تريد إصدار فاتورة جديدة للعميل المحدد.",
-          "how": "اختر New invoice بجانب العميل، وراجع بيانات العميل المنقولة إلى الفاتورة قبل إكمالها.",
-          "inputs": "حدد العميل الصحيح وراجع بياناته التي ستُستخدم في الفاتورة.",
-          "result": "يُفتح نموذج أو مسار إنشاء فاتورة جديدة للعميل المحدد.",
-          "notes": "هذا الإجراء يبدأ إنشاء الفاتورة فقط؛ راجع المبلغ والوصف وحالة الدفع قبل الحفظ أو الإصدار."
+          "how": "اختر New invoice بجانب العميل الصحيح. راجع بيانات العميل المنقولة، ثم أكمل الفاتورة واحفظها.",
+          "inputs": "حدد سجل العميل الصحيح. أضف تاريخ الفاتورة ووصف العمل وبنود الأسعار وأي تفاصيل أخرى مطلوبة.",
+          "result": "يفتح نموذج فاتورة جديدة مرتبطًا بالعميل المحدد، وتُملأ بياناته المتاحة. لا تُحفظ الفاتورة حتى تنفيذ إجراء الحفظ.",
+          "notes": "تحقق من العميل ونطاق العمل والمبالغ وحالة الدفع قبل الحفظ أو الإصدار."
         },
         "ckb": {
           "purpose": "دەست بە دروستکردنی فاکتۆرێکی نوێ بۆ کڕیاری هەڵبژێردراو دەکات.",
           "when": "کاتێک دەتەوێت فاکتۆرێکی نوێ بۆ کڕیاری هەڵبژێردراو دروست بکەیت.",
-          "how": "لە تەنیشت کڕیار New invoice هەڵبژێرە و پێش تەواوکردنی فاکتۆر زانیارییە گوازراوەکانی کڕیار بپشکنە.",
-          "inputs": "کڕیاری دروست هەڵبژێرە و زانیارییەکانی بپشکنە کە بۆ فاکتۆرەکە بەکاردێن.",
-          "result": "فۆڕم یان پرۆسەی دروستکردنی فاکتۆری نوێ بۆ کڕیاری هەڵبژێردراو دەکرێتەوە.",
-          "notes": "ئەمە تەنها پرۆسەی دروستکردنی فاکتۆر دەست پێدەکات؛ پێش پاشەکەوتکردن یان دەرکردن بڕ، وەسف و دۆخی پارەدان بپشکنە."
+          "how": "لە تەنیشت کڕیاری دروست New invoice هەڵبژێرە. زانیارییە گوازراوەکانی کڕیار بپشکنە، پاشان فاکتۆرەکە تەواو بکە و پاشەکەوتی بکە.",
+          "inputs": "کڕیاری دروست هەڵبژێرە. بەرواری فاکتۆر، وەسفی کار، هێڵە نرخدارەکان و وردەکارییە پێویستەکانی تر زیاد بکە.",
+          "result": "فۆڕمی فاکتۆری نوێ بە کڕیاری هەڵبژێردراوەوە دەبەسترێتەوە و زانیارییە بەردەستەکانی لە خانەکاندا دادەنرێن. تا کردارێکی پاشەکەوتکردن فاکتۆرەکە پاشەکەوت ناکرێت.",
+          "notes": "پێش پاشەکەوتکردن یان دەرکردن، کڕیار، سنووری کار، بڕەکان و دۆخی پارەدان بپشکنە."
         },
         "kmr": {
           "purpose": "Dest bi çêkirina fatûreya nû ji bo xerîdarê hilbijartî dike.",
           "when": "Dema ku tu dixwazî ji bo xerîdarê hilbijartî fatûreyeke nû çêkî.",
-          "how": "Li kêleka xerîdar New invoice hilbijêre û berî temamkirina fatûreyê agahiyên xerîdar ên veguhastî kontrol bike.",
-          "inputs": "Xerîdarê rast hilbijêre û agahiyên wî yên ku di fatûreyê de bên bikaranîn kontrol bike.",
-          "result": "Forma an pêvajoya çêkirina fatûreya nû ji bo xerîdarê hilbijartî vedibe.",
-          "notes": "Ev tenê pêvajoya çêkirina fatûreyê dest pê dike; berî tomarkirin an derxistinê mîqdar, ravekirin û rewşa dravdanê kontrol bike."
+          "how": "Li kêleka xerîdarê rast New invoice hilbijêre. Agahiyên xerîdar ên veguhastî kontrol bike, paşê fatûreyê temam bike û tomar bike.",
+          "inputs": "Tomara xerîdarê rast hilbijêre. Dîroka fatûreyê, ravekirina kar, rêzên bihadar û hûrguliyên din ên pêwîst zêde bike.",
+          "result": "Forma fatûreya nû bi xerîdarê hilbijartî ve tê girêdan û agahiyên wî yên berdest têne dagirtin. Heta kiryara tomarkirinê nayê kirin, fatûre nayê tomarkirin.",
+          "notes": "Berî tomarkirin an derxistinê xerîdar, qada kar, mîqdar û rewşa dravdanê kontrol bike."
         },
         "tr": {
           "purpose": "Seçilen müşteri için yeni fatura oluşturma sürecini başlatır.",
           "when": "Seçilen müşteri için yeni bir fatura oluşturmak istediğinizde kullanın.",
-          "how": "Müşterinin yanındaki New invoice'i seçin ve faturayı tamamlamadan önce aktarılan müşteri bilgilerini kontrol edin.",
-          "inputs": "Doğru müşteriyi seçin ve faturada kullanılacak müşteri bilgilerini gözden geçirin.",
-          "result": "Seçilen müşteri için yeni fatura formu veya iş akışı açılır.",
-          "notes": "Bu işlem yalnızca fatura oluşturma sürecini başlatır; kaydetmeden veya düzenlemeden önce tutarı, açıklamayı ve ödeme durumunu kontrol edin."
+          "how": "Doğru müşterinin yanındaki New invoice seçeneğini belirleyin. Aktarılan müşteri bilgilerini kontrol edin, ardından faturayı tamamlayıp kaydedin.",
+          "inputs": "Doğru müşteri kaydını seçin. Fatura tarihini, iş açıklamasını, fiyatlı kalemleri ve diğer gerekli ayrıntıları ekleyin.",
+          "result": "Yeni fatura formu seçilen müşteriye bağlanır ve mevcut bilgileri ilgili alanlara doldurulur. Kaydetme işlemi yapılana kadar fatura kaydedilmez.",
+          "notes": "Kaydetmeden veya düzenlemeden önce müşteriyi, iş kapsamını, tutarları ve ödeme durumunu kontrol edin."
         },
         "pl": {
           "purpose": "Rozpoczyna tworzenie nowej faktury dla wybranego klienta.",
           "when": "Użyj, gdy chcesz utworzyć nową fakturę dla wybranego klienta.",
-          "how": "Wybierz New invoice obok klienta i przed uzupełnieniem faktury sprawdź przeniesione dane klienta.",
-          "inputs": "Wybierz właściwego klienta i sprawdź jego dane, które zostaną użyte na fakturze.",
-          "result": "Otwiera się formularz lub proces tworzenia nowej faktury dla wybranego klienta.",
-          "notes": "Ta czynność jedynie rozpoczyna proces tworzenia faktury; przed zapisaniem lub wystawieniem sprawdź kwotę, opis i status płatności."
+          "how": "Wybierz New invoice przy właściwym kliencie. Sprawdź przeniesione dane klienta, następnie uzupełnij i zapisz fakturę.",
+          "inputs": "Wybierz właściwego klienta. Dodaj datę faktury, opis pracy, wycenione pozycje i inne wymagane szczegóły.",
+          "result": "Nowy formularz faktury zostaje powiązany z wybranym klientem, a dostępne dane są wstępnie wypełniane. Faktura nie zostanie zapisana przed użyciem funkcji zapisu.",
+          "notes": "Przed zapisaniem lub wystawieniem sprawdź klienta, zakres prac, kwoty i status płatności."
         },
         "ur": {
           "purpose": "منتخب گاہک کے لیے نیا انوائس بنانے کا عمل شروع کرتا ہے۔",
           "when": "جب منتخب گاہک کے لیے نیا انوائس بنانا ہو تو استعمال کریں۔",
-          "how": "گاہک کے ساتھ New invoice منتخب کریں اور انوائس مکمل کرنے سے پہلے منتقل شدہ گاہک کی تفصیلات دیکھیں۔",
-          "inputs": "درست گاہک منتخب کریں اور انوائس میں استعمال ہونے والی اس کی معلومات کا جائزہ لیں۔",
-          "result": "منتخب گاہک کے لیے نئے انوائس کا فارم یا عمل کھل جاتا ہے۔",
-          "notes": "یہ صرف انوائس بنانے کا عمل شروع کرتا ہے؛ محفوظ یا جاری کرنے سے پہلے رقم، تفصیل اور ادائیگی کی حیثیت چیک کریں۔"
+          "how": "در کنار مشتری درست New invoice را انتخاب کنید. اطلاعات منتقل‌شده مشتری را بررسی، سپس فاکتور را تکمیل و ذخیره کنید.",
+          "inputs": "درست گاہک منتخب کریں۔ انوائس کی تاریخ، کام کی تفصیل، قیمت والے آئٹمز اور دیگر لازمی تفصیلات شامل کریں۔",
+          "result": "منتخب گاہک سے منسلک نیا انوائس فارم کھلتا ہے اور دستیاب معلومات درج ہوتی ہیں۔ محفوظ کرنے کی کارروائی تک انوائس محفوظ نہیں ہوتی۔",
+          "notes": "محفوظ یا جاری کرنے سے پہلے گاہک، کام کا دائرہ، رقوم اور ادائیگی کی حیثیت چیک کریں۔"
         },
         "pa": {
           "purpose": "ਚੁਣੇ ਗਾਹਕ ਲਈ ਨਵਾਂ ਇਨਵੌਇਸ ਬਣਾਉਣ ਦੀ ਪ੍ਰਕਿਰਿਆ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ।",
           "when": "ਜਦੋਂ ਚੁਣੇ ਗਾਹਕ ਲਈ ਨਵਾਂ ਇਨਵੌਇਸ ਬਣਾਉਣਾ ਹੋਵੇ ਤਾਂ ਵਰਤੋ।",
-          "how": "ਗਾਹਕ ਦੇ ਨਾਲ New invoice ਚੁਣੋ ਅਤੇ ਇਨਵੌਇਸ ਪੂਰਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਆਏ ਗਾਹਕ ਵੇਰਵੇ ਜਾਂਚੋ।",
-          "inputs": "ਸਹੀ ਗਾਹਕ ਚੁਣੋ ਅਤੇ ਇਨਵੌਇਸ ਵਿੱਚ ਵਰਤੀ ਜਾਣ ਵਾਲੀ ਉਸਦੀ ਜਾਣਕਾਰੀ ਵੇਖੋ।",
-          "result": "ਚੁਣੇ ਗਾਹਕ ਲਈ ਨਵੇਂ ਇਨਵੌਇਸ ਦਾ ਫਾਰਮ ਜਾਂ ਪ੍ਰਕਿਰਿਆ ਖੁੱਲ੍ਹਦੀ ਹੈ।",
-          "notes": "ਇਹ ਸਿਰਫ਼ ਇਨਵੌਇਸ ਬਣਾਉਣ ਦੀ ਪ੍ਰਕਿਰਿਆ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ; ਸੇਵ ਜਾਂ ਜਾਰੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਰਕਮ, ਵੇਰਵਾ ਅਤੇ ਭੁਗਤਾਨ ਸਥਿਤੀ ਜਾਂਚੋ।"
+          "how": "ਸਹੀ ਗਾਹਕ ਦੇ ਨਾਲ New invoice ਚੁਣੋ। ਲਿਆਂਦੇ ਗਾਹਕ ਵੇਰਵੇ ਜਾਂਚੋ, ਫਿਰ ਇਨਵੌਇਸ ਪੂਰਾ ਕਰਕੇ ਸੇਵ ਕਰੋ।",
+          "inputs": "ਸਹੀ ਗਾਹਕ ਚੁਣੋ। ਇਨਵੌਇਸ ਦੀ ਤਾਰੀਖ, ਕੰਮ ਦਾ ਵੇਰਵਾ, ਕੀਮਤ ਵਾਲੀਆਂ ਲਾਈਨਾਂ ਅਤੇ ਹੋਰ ਲੋੜੀਂਦੇ ਵੇਰਵੇ ਸ਼ਾਮਲ ਕਰੋ।",
+          "result": "ਚੁਣੇ ਗਾਹਕ ਨਾਲ ਜੁੜਿਆ ਨਵਾਂ ਇਨਵੌਇਸ ਫਾਰਮ ਖੁੱਲ੍ਹਦਾ ਹੈ ਅਤੇ ਉਪਲਬਧ ਜਾਣਕਾਰੀ ਭਰੀ ਜਾਂਦੀ ਹੈ। ਸੇਵ ਕਰਨ ਦੀ ਕਾਰਵਾਈ ਤੱਕ ਇਨਵੌਇਸ ਸੇਵ ਨਹੀਂ ਹੁੰਦਾ।",
+          "notes": "ਸੇਵ ਜਾਂ ਜਾਰੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਗਾਹਕ, ਕੰਮ ਦਾ ਦਾਇਰਾ, ਰਕਮਾਂ ਅਤੇ ਭੁਗਤਾਨ ਸਥਿਤੀ ਜਾਂਚੋ۔"
         },
         "prs": {
           "purpose": "روند ایجاد فاکتور جدید برای مشتری انتخاب‌شده را آغاز می‌کند.",
           "when": "وقتی می‌خواهید برای مشتری انتخاب‌شده فاکتور جدید بسازید، استفاده کنید.",
-          "how": "در کنار مشتری New invoice را انتخاب کنید و پیش از تکمیل فاکتور، اطلاعات منتقل‌شده مشتری را بررسی کنید.",
-          "inputs": "مشتری درست را انتخاب کنید و اطلاعات او را که در فاکتور استفاده می‌شود بررسی کنید.",
-          "result": "فرم یا روند ایجاد فاکتور جدید برای مشتری انتخاب‌شده باز می‌شود.",
-          "notes": "این گزینه فقط روند ایجاد فاکتور را آغاز می‌کند؛ پیش از ذخیره یا صدور، مبلغ، شرح و وضعیت پرداخت را بررسی کنید."
+          "how": "در کنار مشتری درست New invoice را انتخاب کنید. اطلاعات منتقل‌شده مشتری را بررسی، سپس فاکتور را تکمیل و ذخیره کنید.",
+          "inputs": "مشتری درست را انتخاب کنید. تاریخ فاکتور، شرح کار، ردیف‌های قیمت‌گذاری‌شده و سایر جزئیات الزامی را اضافه کنید.",
+          "result": "فرم فاکتور جدید با مشتری انتخاب‌شده پیوند می‌شود و اطلاعات موجود او در فیلدهای مربوط قرار می‌گیرد. فاکتور تا اجرای گزینه ذخیره، ذخیره نمی‌شود.",
+          "notes": "پیش از ذخیره یا صدور، مشتری، محدوده کار، مبالغ و وضعیت پرداخت را بررسی کنید."
         },
         "ps": {
           "purpose": "د ټاکل شوي پېرودونکي لپاره د نوي بل جوړولو بهیر پیلوي.",
           "when": "کله چې د ټاکل شوي پېرودونکي لپاره نوی بل جوړول غواړئ، دا وکاروئ.",
-          "how": "د پېرودونکي تر څنګ New invoice وټاکئ او د بل تر بشپړولو مخکې لېږدول شوي د پېرودونکي معلومات وګورئ.",
-          "inputs": "سم پېرودونکی وټاکئ او هغه معلومات یې وګورئ چې په بل کې کارول کېږي.",
-          "result": "د ټاکل شوي پېرودونکي لپاره د نوي بل فورمه یا بهیر پرانیستل کېږي.",
-          "notes": "دا یوازې د بل جوړولو بهیر پیلوي؛ له خوندي کولو یا صادرولو مخکې اندازه، تشریح او د تادیې حالت وګورئ."
+          "how": "د سم پېرودونکي ترڅنګ New invoice وټاکئ. لېږدول شوي معلومات وګورئ، بیا بل بشپړ او خوندي کړئ.",
+          "inputs": "سم پېرودونکی وټاکئ. د بل نېټه، د کار تشریح، د بیې لرونکي توکي او نور اړین جزئیات ورزیات کړئ.",
+          "result": "د نوي بل فورمه له ټاکل شوي پېرودونکي سره تړل کېږي او شته معلومات یې اړوندو خانو ته داخلېږي. تر خوندي کولو مخکې بل نه خوندي کېږي.",
+          "notes": "له خوندي کولو یا صادرولو مخکې پېرودونکی، د کار ساحه، پیسې او د تادیې حالت وګورئ."
         }
       },
       "handler_or_behavior": "`newInvoiceForCustomer(`"
