@@ -5372,6 +5372,78 @@
           "inputs": "برای Backup، نام معتبر فایل لازم است. برای Restore، یک فایل JSON سازگار و تأییدشده از پشتیبان کامل پایگاه داده انتخاب کنید.",
           "result": "Backup یک فایل تأییدشده شامل هر ۱۷ حوزه پایگاه داده ایجاد می‌کند. Restore فایل انتخاب‌شده را اعتبارسنجی می‌کند و پس از تأیید صریح، پایگاه داده فعلی را با محتوای آن جایگزین می‌کند.",
           "notes": "مهم: صفحه فعلی در نسخه R43 پشتیبان‌گیری و بازیابی کامل پایگاه داده را انجام می‌دهد، نه پشتیبان‌گیری جداگانه از هر حوزه داده. Restore سوابق فعلی هر ۱۷ حوزه را جایگزین می‌کند و از طریق این گردش‌کار قابل بازگشت نیست. پیش از بازیابی، یک نسخه پشتیبان تازه تهیه و صحت آن را بررسی کنید. زیرعنوان Inventory با متن «Separate backups for each data area» با صفحه بررسی‌شده مطابقت ندارد و باید جداگانه اصلاح شود."
+        },
+        "ar": {
+          "purpose": "يفتح صفحة النسخ الاحتياطي والاستعادة لإنشاء نسخة احتياطية كاملة واحدة من قاعدة بيانات التطبيق أو استعادتها.",
+          "when": "استخدم هذه الصفحة عندما تحتاج إلى إنشاء نسخة احتياطية كاملة من قاعدة بيانات التطبيق أو استعادة التطبيق من ملف نسخة احتياطية كامل ومتوافق.",
+          "how": "افتح Backup & Restore. لإنشاء نسخة احتياطية، اختر Backup وأدخل اسم ملف صالحاً لإنشاء نسخة كاملة والتحقق منها. للاستعادة، اختر Restore وحدد ملف JSON متوافقاً للنسخة الاحتياطية الكاملة. اقرأ رسالة التأكيد بعناية قبل المتابعة.",
+          "inputs": "للنسخ الاحتياطي، أدخل اسماً صالحاً للملف. للاستعادة، حدد ملف JSON متوافقاً وتم التحقق منه لنسخة احتياطية كاملة من قاعدة البيانات.",
+          "result": "ينشئ Backup ملفاً واحداً تم التحقق منه ويحتوي على نطاقات قاعدة البيانات السبعة عشر كلها. يتحقق Restore من الملف المحدد، وبعد التأكيد الصريح يستبدل قاعدة البيانات الحالية بمحتوياته.",
+          "notes": "مهم: تنفذ صفحة R43 الحالية نسخاً احتياطياً كاملاً لقاعدة البيانات واستعادتها، ولا تنشئ نسخاً منفصلة لكل نطاق بيانات. تستبدل Restore السجلات الحالية في النطاقات السبعة عشر كلها، ولا يمكن التراجع عن ذلك من خلال سير العمل هذا. أنشئ نسخة احتياطية جديدة وتحقق منها قبل الاستعادة. العنوان الفرعي في Inventory، وهو Separate backups for each data area، لا يطابق الصفحة التي تمت معاينتها ويجب تصحيحه بشكل منفصل."
+        },
+        "ckb": {
+          "purpose": "پەڕەی Backup & Restore دەکاتەوە بۆ دروستکردن یان گەڕاندنەوەی یەک پاڵپشتی تەواوی بنکەدراوەی بەرنامە.",
+          "when": "کاتێک پێویستت بە دروستکردنی پاڵپشتی تەواوی بنکەدراوەی بەرنامە هەیە، یان دەتەوێت بەرنامە لە فایلێکی پاڵپشتی تەواو و گونجاوەوە بگەڕێنیتەوە، ئەم پەڕەیە بەکاربهێنە.",
+          "how": "Backup & Restore بکەرەوە. بۆ دروستکردنی پاڵپشتی، Backup هەڵبژێرە و ناوێکی دروستی فایل بنووسە تا پاڵپشتییەکی تەواو دروست و پشتڕاست بکرێتەوە. بۆ گەڕاندنەوە، Restore هەڵبژێرە و فایلێکی JSONی گونجاوی پاڵپشتی تەواو دیاری بکە. پێش بەردەوامبوون پەیامی پشتڕاستکردنەوە بە وردی بخوێنەوە.",
+          "inputs": "بۆ Backup، ناوێکی دروستی فایل بنووسە. بۆ Restore، فایلێکی JSONی گونجاو و پشتڕاستکراوەی پاڵپشتی تەواوی بنکەدراوە هەڵبژێرە.",
+          "result": "Backup فایلێکی تاک و پشتڕاستکراوە دروست دەکات کە هەموو ١٧ بواری بنکەدراوە لەخۆدەگرێت. Restore فایلە هەڵبژێردراوەکە پشتڕاست دەکاتەوە و دوای پشتڕاستکردنەوەی ڕوون، بنکەدراوەی ئێستا بە ناوەڕۆکی ئەو فایلە دەگۆڕێت.",
+          "notes": "گرنگ: پەڕەی ئێستای R43 پاڵپشتی و گەڕاندنەوەی تەواوی بنکەدراوە ئەنجام دەدات، نەک پاڵپشتیی جیاواز بۆ هەر بواری داتا. Restore تۆمارە ئێستاکان لە هەموو ١٧ بواردا دەگۆڕێت و لەم ڕێڕەوەدا ناتوانرێت پاشگەز بکرێتەوە. پێش گەڕاندنەوە پاڵپشتییەکی نوێ دروست بکە و دروستییەکەی بپشکنە. ناونیشانی Inventory بە ناوی Separate backups for each data area لەگەڵ پەڕەی پشکنراو ناگونجێت و دەبێت بە جیا چاک بکرێتەوە."
+        },
+        "kmr": {
+          "purpose": "Rûpela Backup & Restore vedike da ku kopiyeke tam a databasa sepanê çêbike an vegerîne.",
+          "when": "Dema ku hewce ye kopiyeke tam a databasa sepanê çêkî an sepanê ji pelekî backup-ê yê tam û lihevhatî vegerînî, vê rûpelê bikar bîne.",
+          "how": "Backup & Restore veke. Ji bo çêkirina backup-ê, Backup hilbijêre û navekî derbasdar ji bo pelê binivîse da ku kopiyeke tam were çêkirin û verastkirin. Ji bo vegerandinê, Restore hilbijêre û pelekî JSON yê backup-a databasa tam û lihevhatî hilbijêre. Berî domandinê peyama pejirandinê bi baldarî bixwîne.",
+          "inputs": "Ji bo Backup navekî derbasdar ê pelê binivîse. Ji bo Restore pelekî JSON yê backup-a tam a databasa ku lihevhatî û verastkirî ye hilbijêre.",
+          "result": "Backup pelekî yekane û verastkirî çêdike ku her 17 qadên databasa dihewîne. Restore pelê hilbijartî kontrol dike û piştî pejirandina eşkere, databasa heyî bi naveroka wê diguherîne.",
+          "notes": "GIRÎNG: Rûpela R43 ya niha backup û restore-a tevahiya databasa dike, ne backupên cuda ji bo her qada daneyan. Restore tomarên heyî yên her 17 qadên diguherîne û di vê rêgezê de ev guherîn nayê vegerandin. Berî restore-ê backup-eke nû çêbike û verast bike. Binsernavê Inventory yê Separate backups for each data area bi rûpela hatî kontrolkirin nayê lihevhatin û divê bi awayekî cuda were rastkirin."
+        },
+        "tr": {
+          "purpose": "Uygulama veritabanının tek bir tam yedeğini oluşturmak veya geri yüklemek için Backup & Restore sayfasını açar.",
+          "when": "Uygulama veritabanının tamamını yedeklemeniz veya uygulamayı uyumlu bir tam yedek dosyasından geri yüklemeniz gerektiğinde bu sayfayı kullanın.",
+          "how": "Backup & Restore sayfasını açın. Yedek oluşturmak için Backup seçeneğini belirleyin ve tam yedeğin oluşturulup doğrulanması amacıyla geçerli bir dosya adı girin. Geri yüklemek için Restore seçeneğini belirleyin ve uyumlu bir tam veritabanı JSON yedek dosyası seçin. Devam etmeden önce onay mesajını dikkatle okuyun.",
+          "inputs": "Backup için geçerli bir dosya adı girin. Restore için veritabanının uyumlu ve doğrulanmış tam yedeğine ait bir JSON dosyası seçin.",
+          "result": "Backup, veritabanının 17 alanının tamamını içeren tek bir doğrulanmış dosya oluşturur. Restore, seçilen dosyayı doğrular ve açık onaydan sonra mevcut veritabanını dosyanın içeriğiyle değiştirir.",
+          "notes": "ÖNEMLİ: Mevcut R43 sayfası, her veri alanı için ayrı yedekler değil, veritabanının tamamı için yedekleme ve geri yükleme yapar. Restore, 17 alanın tamamındaki mevcut kayıtları değiştirir ve bu iş akışından geri alınamaz. Geri yüklemeden önce yeni bir yedek oluşturup doğrulayın. Inventory alt başlığındaki Separate backups for each data area ifadesi incelenen sayfayla uyuşmaz; ayrıca düzeltilmelidir."
+        },
+        "pl": {
+          "purpose": "Otwiera stronę Backup & Restore, która służy do utworzenia lub przywrócenia jednej pełnej kopii zapasowej bazy danych aplikacji.",
+          "when": "Użyj tej strony, gdy chcesz wykonać pełną kopię zapasową bazy danych aplikacji lub przywrócić aplikację z kompatybilnego pliku pełnej kopii zapasowej.",
+          "how": "Otwórz Backup & Restore. Aby utworzyć kopię, wybierz Backup i wpisz prawidłową nazwę pliku, aby utworzyć i zweryfikować pełną kopię. Aby przywrócić dane, wybierz Restore i wskaż zgodny plik JSON pełnej kopii zapasowej. Przed kontynuowaniem uważnie przeczytaj komunikat potwierdzający.",
+          "inputs": "Dla Backup wpisz prawidłową nazwę pliku. Dla Restore wybierz zgodny, zweryfikowany plik JSON pełnej kopii zapasowej bazy danych.",
+          "result": "Backup tworzy jeden zweryfikowany plik zawierający wszystkie 17 obszarów bazy danych. Restore sprawdza wybrany plik i po wyraźnym potwierdzeniu zastępuje nim bieżącą bazę danych.",
+          "notes": "WAŻNE: Obecna strona R43 wykonuje kopię zapasową i przywracanie całej bazy danych, a nie oddzielne kopie dla poszczególnych obszarów danych. Restore zastępuje bieżące rekordy we wszystkich 17 obszarach; tej operacji nie można cofnąć w ramach tego procesu. Przed przywróceniem utwórz i sprawdź nową kopię zapasową. Podtytuł Inventory „Separate backups for each data area” nie odpowiada sprawdzonej stronie i wymaga osobnej korekty."
+        },
+        "ur": {
+          "purpose": "ایپ کے ڈیٹابیس کا ایک مکمل بیک اَپ بنانے یا بحال کرنے کے لیے Backup & Restore صفحہ کھولتا ہے۔",
+          "when": "اس صفحے کو اس وقت استعمال کریں جب آپ کو ایپ کے پورے ڈیٹابیس کا بیک اَپ بنانا ہو یا کسی مطابقت رکھنے والی مکمل بیک اَپ فائل سے ایپ بحال کرنی ہو۔",
+          "how": "Backup & Restore کھولیں۔ بیک اَپ بنانے کے لیے Backup منتخب کریں اور درست فائل نام درج کریں تاکہ مکمل بیک اَپ بنے اور اس کی تصدیق ہو۔ بحالی کے لیے Restore منتخب کریں اور مطابقت رکھنے والی مکمل ڈیٹابیس JSON بیک اَپ فائل چنیں۔ آگے بڑھنے سے پہلے تصدیقی پیغام غور سے پڑھیں۔",
+          "inputs": "Backup کے لیے درست فائل نام درج کریں۔ Restore کے لیے ڈیٹابیس کے مکمل بیک اَپ کی مطابقت رکھنے والی اور تصدیق شدہ JSON فائل منتخب کریں۔",
+          "result": "Backup ایک تصدیق شدہ فائل بناتا ہے جس میں ڈیٹابیس کے تمام 17 حصے شامل ہوتے ہیں۔ Restore منتخب فائل کی جانچ کرتا ہے اور واضح تصدیق کے بعد موجودہ ڈیٹابیس کو اس کے مواد سے بدل دیتا ہے۔",
+          "notes": "اہم: موجودہ R43 صفحہ پورے ڈیٹابیس کا بیک اَپ اور بحالی کرتا ہے، ہر ڈیٹا حصے کا الگ بیک اَپ نہیں بناتا۔ Restore تمام 17 حصوں کے موجودہ ریکارڈ بدل دیتا ہے اور اس طریقۂ کار میں اسے واپس نہیں کیا جا سکتا۔ بحالی سے پہلے نیا بیک اَپ بنائیں اور اس کی تصدیق کریں۔ Inventory کا ذیلی عنوان Separate backups for each data area معائنہ کیے گئے صفحے سے مطابقت نہیں رکھتا؛ اسے الگ سے درست کرنا ہوگا۔"
+        },
+        "pa": {
+          "purpose": "ਐਪ ਦੇ ਡਾਟਾਬੇਸ ਦਾ ਇੱਕ ਪੂਰਾ ਬੈਕਅੱਪ ਬਣਾਉਣ ਜਾਂ ਮੁੜ ਬਹਾਲ ਕਰਨ ਲਈ Backup & Restore ਪੰਨਾ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਇਸ ਪੰਨੇ ਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਤੁਹਾਨੂੰ ਐਪ ਦੇ ਪੂਰੇ ਡਾਟਾਬੇਸ ਦਾ ਬੈਕਅੱਪ ਬਣਾਉਣਾ ਹੋਵੇ ਜਾਂ ਕਿਸੇ ਅਨੁਕੂਲ ਪੂਰੀ ਬੈਕਅੱਪ ਫਾਈਲ ਤੋਂ ਐਪ ਮੁੜ ਬਹਾਲ ਕਰਨੀ ਹੋਵੇ।",
+          "how": "Backup & Restore ਖੋਲ੍ਹੋ। ਬੈਕਅੱਪ ਬਣਾਉਣ ਲਈ Backup ਚੁਣੋ ਅਤੇ ਵੈਧ ਫਾਈਲ ਨਾਮ ਦਿਓ ਤਾਂ ਜੋ ਪੂਰਾ ਬੈਕਅੱਪ ਬਣੇ ਅਤੇ ਜਾਂਚਿਆ ਜਾ ਸਕੇ। ਮੁੜ ਬਹਾਲ ਕਰਨ ਲਈ Restore ਚੁਣੋ ਅਤੇ ਅਨੁਕੂਲ ਪੂਰੀ ਡਾਟਾਬੇਸ JSON ਬੈਕਅੱਪ ਫਾਈਲ ਚੁਣੋ। ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁਸ਼ਟੀ ਸੁਨੇਹਾ ਧਿਆਨ ਨਾਲ ਪੜ੍ਹੋ।",
+          "inputs": "Backup ਲਈ ਵੈਧ ਫਾਈਲ ਨਾਮ ਦਿਓ। Restore ਲਈ ਡਾਟਾਬੇਸ ਦੇ ਪੂਰੇ ਬੈਕਅੱਪ ਦੀ ਅਨੁਕੂਲ ਅਤੇ ਤਸਦੀਕ ਕੀਤੀ JSON ਫਾਈਲ ਚੁਣੋ।",
+          "result": "Backup ਇੱਕ ਤਸਦੀਕ ਕੀਤੀ ਫਾਈਲ ਬਣਾਉਂਦਾ ਹੈ ਜਿਸ ਵਿੱਚ ਡਾਟਾਬੇਸ ਦੇ ਸਾਰੇ 17 ਖੇਤਰ ਸ਼ਾਮਲ ਹੁੰਦੇ ਹਨ। Restore ਚੁਣੀ ਗਈ ਫਾਈਲ ਦੀ ਜਾਂਚ ਕਰਦਾ ਹੈ ਅਤੇ ਸਪਸ਼ਟ ਪੁਸ਼ਟੀ ਤੋਂ ਬਾਅਦ ਮੌਜੂਦਾ ਡਾਟਾਬੇਸ ਨੂੰ ਉਸ ਦੇ ਡਾਟੇ ਨਾਲ ਬਦਲ ਦਿੰਦਾ ਹੈ।",
+          "notes": "ਜ਼ਰੂਰੀ: ਮੌਜੂਦਾ R43 ਪੰਨਾ ਪੂਰੇ ਡਾਟਾਬੇਸ ਦਾ ਬੈਕਅੱਪ ਅਤੇ ਮੁੜ ਬਹਾਲੀ ਕਰਦਾ ਹੈ, ਹਰ ਡਾਟਾ ਖੇਤਰ ਲਈ ਵੱਖਰਾ ਬੈਕਅੱਪ ਨਹੀਂ। Restore ਸਾਰੇ 17 ਖੇਤਰਾਂ ਦੇ ਮੌਜੂਦਾ ਰਿਕਾਰਡ ਬਦਲ ਦਿੰਦਾ ਹੈ ਅਤੇ ਇਸ ਪ੍ਰਕਿਰਿਆ ਰਾਹੀਂ ਇਸਨੂੰ ਵਾਪਸ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ। ਮੁੜ ਬਹਾਲੀ ਤੋਂ ਪਹਿਲਾਂ ਨਵਾਂ ਬੈਕਅੱਪ ਬਣਾਓ ਅਤੇ ਉਸਦੀ ਜਾਂਚ ਕਰੋ। Inventory ਦਾ ਉਪ-ਸਿਰਲੇਖ Separate backups for each data area ਜਾਂਚੇ ਗਏ ਪੰਨੇ ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ ਅਤੇ ਇਸਨੂੰ ਵੱਖਰੇ ਤੌਰ 'ਤੇ ਠੀਕ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।"
+        },
+        "prs": {
+          "purpose": "صفحه Backup & Restore را برای ساختن یا بازیابی یک نسخه پشتیبان کامل از پایگاه داده برنامه باز می‌کند.",
+          "when": "وقتی لازم است از تمام پایگاه داده برنامه نسخه پشتیبان تهیه کنید یا برنامه را از یک فایل پشتیبان کامل و سازگار بازیابی کنید، از این صفحه استفاده کنید.",
+          "how": "صفحه Backup & Restore را باز کنید. برای ساختن پشتیبان، Backup را انتخاب کنید و نام معتبر فایل را وارد کنید تا نسخه کامل ساخته و بررسی شود. برای بازیابی، Restore را انتخاب کنید و فایل JSON سازگارِ پشتیبان کامل پایگاه داده را برگزینید. پیش از ادامه، پیام تأیید را با دقت بخوانید.",
+          "inputs": "برای Backup، نام معتبر فایل وارد کنید. برای Restore، فایل JSON سازگار و بررسی‌شده از پشتیبان کامل پایگاه داده را انتخاب کنید.",
+          "result": "Backup یک فایل تأییدشده شامل هر ۱۷ بخش پایگاه داده می‌سازد. Restore فایل انتخاب‌شده را بررسی می‌کند و پس از تأیید صریح، پایگاه داده فعلی را با محتوای آن جایگزین می‌کند.",
+          "notes": "مهم: صفحه فعلی R43 از کل پایگاه داده پشتیبان می‌گیرد و آن را بازیابی می‌کند؛ برای هر بخش داده نسخه جداگانه نمی‌سازد. Restore رکوردهای فعلی هر ۱۷ بخش را جایگزین می‌کند و از طریق این روند قابل برگشت نیست. پیش از بازیابی، یک پشتیبان تازه بسازید و صحت آن را بررسی کنید. زیرعنوان Inventory یعنی Separate backups for each data area با صفحه بررسی‌شده سازگار نیست و باید جداگانه اصلاح شود."
+        },
+        "ps": {
+          "purpose": "د Backup & Restore پاڼه پرانیزي، څو د اپلېکېشن د ډیټابېس یوه بشپړه شاتړ کاپي جوړه یا بېرته راواړول شي.",
+          "when": "دا پاڼه هغه وخت وکاروئ چې د اپلېکېشن د ټول ډیټابېس شاتړ ته اړتیا لرئ، یا اپلېکېشن له یوې سازګارې بشپړې شاتړ فایل څخه بېرته راګرځوئ.",
+          "how": "Backup & Restore پرانیزئ. د شاتړ جوړولو لپاره Backup وټاکئ او د فایل یو سم نوم ولیکئ، څو بشپړه کاپي جوړه او وکتل شي. د بېرته راګرځولو لپاره Restore وټاکئ او د بشپړ ډیټابېس شاتړ یوه سازګاره JSON فایل وټاکئ. له دوام مخکې د تایید پیغام په دقت ولولئ.",
+          "inputs": "د Backup لپاره د فایل یو سم نوم ولیکئ. د Restore لپاره د ډیټابېس د بشپړ شاتړ یوه سازګاره او تایید شوې JSON فایل وټاکئ.",
+          "result": "Backup یوه تایید شوې فایل جوړوي چې د ډیټابېس ټول ۱۷ برخې پکې شاملې وي. Restore ټاکل شوې فایل ارزوي او له څرګند تایید وروسته اوسنی ډیټابېس د هغې د منځپانګې په وسیله بدلوي.",
+          "notes": "مهم: د R43 اوسنۍ پاڼه د ټول ډیټابېس شاتړ او بېرته راګرځول ترسره کوي، نه د هرې ډیټا برخې لپاره جلا شاتړ. Restore د ټولو ۱۷ برخو اوسني ریکارډونه بدلوي او د دې بهیر له لارې بېرته نه شي ګرځېدای. له بېرته راګرځولو مخکې نوی شاتړ جوړ او تایید یې کړئ. په Inventory کې د Separate backups for each data area فرعي سرلیک له ارزول شوې پاڼې سره سمون نه لري او باید جلا اصلاح شي."
         }
       },
       "handler_or_behavior": "`show(`"
