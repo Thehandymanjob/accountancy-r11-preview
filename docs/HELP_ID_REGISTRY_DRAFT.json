@@ -20856,6 +20856,78 @@
           "inputs": "ورودی فرمی لازم نیست. متن کپی‌شده شامل مخزن، برچسب نمایشی Branch، نسخه، مسیر فایل اصلی، Build ID، نسخه برنامه، نام پایگاه داده IndexedDB، مقدار نمایشی Last Updated و نشانی صفحه بارگذاری‌شده است.",
           "result": "برنامه تلاش می‌کند اطلاعات را با Clipboard API و در صورت امکان با روش جایگزین textarea کپی کند و عنوان دکمه را به Copied تغییر می‌دهد.",
           "notes": "پیش از اشتراک‌گذاری، متن کپی‌شده را بررسی کنید. در سورس R43 بررسی‌شده، مقدار Branch به‌صورت ثابت main نوشته شده و از Git تشخیص داده نمی‌شود؛ همچنین Last Updated ممکن است هنوز Loading... یا Unavailable باشد. این دو فیلد را واقعیت‌های مستقل و تأییدشده انتشار تلقی نکنید."
+        },
+        "ar": {
+          "purpose": "ينسخ تفاصيل الإصدار والبيئة المعروضة في Monitor & Diagnostics إلى الحافظة.",
+          "when": "استخدمه عند إعداد رسالة للدعم الفني أو تسجيل Build والبيئة التي اختبرتها.",
+          "how": "افتح Monitor & Diagnostics، وانتظر حتى ينتهي تحميل حقل Last Updated، ثم اختر Copy version details. الصق النص المنسوخ في رسالة الدعم أو الملاحظة التشخيصية.",
+          "inputs": "لا يلزم إدخال بيانات في نموذج. يتضمن النص المنسوخ المستودع، واسم الفرع المعروض، والإصدار، ومسار الملف الرئيسي، وBuild ID، وإصدار التطبيق، واسم قاعدة بيانات IndexedDB، وقيمة Last Updated المعروضة، وعنوان URL للصفحة المحملة.",
+          "result": "يحاول التطبيق نسخ التفاصيل باستخدام Clipboard API، مع بديل textarea حيثما كان مدعوماً، ويغيّر نص الزر إلى Copied.",
+          "notes": "راجع النص المنسوخ قبل مشاركته. في مصدر R43 الذي تمت مراجعته، قيمة Branch ثابتة على main وليست مكتشفة من Git، وقد تظل Last Updated تعرض Loading... أو Unavailable. لا تعتبر هذين الحقلين حقيقتين مستقلتين تم التحقق منهما بشأن النشر."
+        },
+        "ckb": {
+          "purpose": "وردەکاری وەشان و ژینگەی پیشاندراو لە Monitor & Diagnostics دەخاتە ناو کلیپبۆرد.",
+          "when": "کاتێک پەیامی پشتگیری تەکنیکی ئامادە دەکەیت یان Build و ژینگەی تاقیکردنەوەت تۆمار دەکەیت، ئەمە بەکاربهێنە.",
+          "how": "Monitor & Diagnostics بکەرەوە، چاوەڕێ بکە تا خانەی Last Updated بارکردنی تەواو بکات، پاشان Copy version details هەڵبژێرە. دەقی کۆپی‌کراو لە پەیامی پشتگیری یان تێبینییەکی تشخیصی دابنێ.",
+          "inputs": "هیچ خانەیەکی فۆڕم پێویست نییە. دەقی کۆپی‌کراو ناوی repository، ناوی branchی پیشاندراو، وەشان، ڕێڕەوی فایلە سەرەکییەکە، Build ID، وەشانی بەرنامە، ناوی بنکەدراوەی IndexedDB، بەهای پیشاندراوی Last Updated و URLی پەڕەی بارکراو لەخۆدەگرێت.",
+          "result": "بەرنامە هەوڵ دەدات وردەکارییەکان بە Clipboard API کۆپی بکات، و لە شوێنە پشتگیریکراوەکاندا textarea وەک ڕێگای جێگرەوە بەکاردەهێنێت؛ ناوی دوگمەکەش دەگۆڕێت بۆ Copied.",
+          "notes": "پێش هاوبەشکردن دەقی کۆپی‌کراو بپشکنە. لە سەرچاوەی R43ی پشکنراودا بەهای Branch بە شێوەیەکی جێگیر main نووسراوە، نەک لە Gitەوە دیاری کراوە؛ هەروەها Last Updated لەوانەیە هێشتا Loading... یان Unavailable پیشان بدات. ئەم دوو خانەیە وەک ڕاستییەکی سەربەخۆی پشتڕاستکراوەی Deploy مەزانە."
+        },
+        "kmr": {
+          "purpose": "Hûrguliyên guhertoyê û hawîrdorê yên di Monitor & Diagnostics de xuya dikin di clipboard-ê de kopî dike.",
+          "when": "Vê bikar bîne dema ku peyameke piştgiriya teknîkî amade dikî an Build û hawîrdora ku te ceribandiye tomar dikî.",
+          "how": "Monitor & Diagnostics veke, li benda ku qada Last Updated barkirinê temam bike bimîne, paşê Copy version details hilbijêre. Nivîsa kopîkirî di peyama piştgiriyê an noteke teşhîsê de pê ve bike.",
+          "inputs": "Têketina forma nehewce ye. Nivîsa kopîkirî repository, etîketa branch-a xuya, guherto, rêça pelê sereke, Build ID, guhertoya sepanê, navê databasa IndexedDB, nirxa xuya ya Last Updated û URL-a rûpela barkirî dihewîne.",
+          "result": "Sepan hewl dide hûrguliyan bi Clipboard API kopî bike, û li cihên ku piştgirî hene textarea wekî rêya alternatîf bikar tîne; etîketa bişkokê dibe Copied.",
+          "notes": "Berî parvekirinê nivîsa kopîkirî kontrol bike. Di çavkaniya R43 ya hatî kontrolkirin de nirxa Branch bi awayekî sabît main e, ne ku ji Git tê nasîn; Last Updated jî dibe ku hîn Loading... an Unavailable nîşan bide. Van her du qadên wekî rastiyên deploy-ê yên serbixwe û verastkirî nebîne."
+        },
+        "tr": {
+          "purpose": "Monitor & Diagnostics bölümünde gösterilen sürüm ve ortam ayrıntılarını panoya kopyalar.",
+          "when": "Teknik destek mesajı hazırlarken veya test ettiğiniz Build ve ortamı kaydederken kullanın.",
+          "how": "Monitor & Diagnostics bölümünü açın, Last Updated alanının yüklenmesi tamamlanana kadar bekleyin ve ardından Copy version details seçeneğini belirleyin. Kopyalanan metni destek mesajınıza veya tanılama notunuza yapıştırın.",
+          "inputs": "Form girdisi gerekmez. Kopyalanan metin depo, görüntülenen branch etiketi, sürüm, ana dosya yolu, Build ID, uygulama sürümü, IndexedDB veritabanı adı, görüntülenen Last Updated değeri ve yüklenen sayfanın URL'sini içerir.",
+          "result": "Uygulama ayrıntıları Clipboard API ile kopyalamayı dener; desteklenen yerlerde textarea yedeğini kullanır ve düğme etiketini Copied olarak değiştirir.",
+          "notes": "Paylaşmadan önce kopyalanan metni inceleyin. İncelenen R43 kaynağında Branch değeri Git'ten algılanmak yerine sabit olarak main yazılmıştır; Last Updated alanında hâlâ Loading... veya Unavailable görünebilir. Bu iki alanı dağıtımın bağımsız olarak doğrulanmış gerçekleri olarak kabul etmeyin."
+        },
+        "pl": {
+          "purpose": "Kopiuje do schowka szczegóły wersji i środowiska wyświetlane w Monitor & Diagnostics.",
+          "when": "Użyj tej opcji podczas przygotowywania wiadomości do pomocy technicznej lub zapisywania kompilacji Build i środowiska, które testowano.",
+          "how": "Otwórz Monitor & Diagnostics, poczekaj, aż pole Last Updated zakończy ładowanie, a następnie wybierz Copy version details. Wklej skopiowany tekst do wiadomości pomocy technicznej lub notatki diagnostycznej.",
+          "inputs": "Nie są wymagane dane formularza. Skopiowany tekst zawiera repozytorium, wyświetlaną etykietę branch, wersję, ścieżkę głównego pliku, Build ID, wersję aplikacji, nazwę bazy IndexedDB, wyświetlaną wartość Last Updated i adres URL załadowanej strony.",
+          "result": "Aplikacja próbuje skopiować szczegóły za pomocą Clipboard API, a w obsługiwanych przypadkach używa zapasowego pola textarea; etykieta przycisku zmienia się na Copied.",
+          "notes": "Przed udostępnieniem sprawdź skopiowany tekst. W sprawdzonym kodzie źródłowym R43 wartość Branch jest na stałe ustawiona na main, a nie wykrywana z Git; Last Updated może nadal wyświetlać Loading... lub Unavailable. Nie traktuj tych dwóch pól jako niezależnie zweryfikowanych faktów dotyczących wdrożenia."
+        },
+        "ur": {
+          "purpose": "Monitor & Diagnostics میں دکھائی جانے والی ورژن اور ماحول کی تفصیلات کلپ بورڈ میں نقل کرتا ہے۔",
+          "when": "تکنیکی معاونت کا پیغام تیار کرنے یا آزمائے گئے Build اور ماحول کا ریکارڈ رکھنے کے لیے اسے استعمال کریں۔",
+          "how": "Monitor & Diagnostics کھولیں، Last Updated فیلڈ کی لوڈنگ مکمل ہونے کا انتظار کریں، پھر Copy version details منتخب کریں۔ نقل شدہ متن کو اپنے معاونتی پیغام یا تشخیصی نوٹ میں چسپاں کریں۔",
+          "inputs": "فارم میں کوئی معلومات درج کرنے کی ضرورت نہیں۔ نقل شدہ متن میں repository، دکھایا گیا branch لیبل، ورژن، مرکزی فائل کا راستہ، Build ID، ایپ ورژن، IndexedDB ڈیٹابیس کا نام، دکھائی گئی Last Updated قدر اور لوڈ شدہ صفحے کا URL شامل ہوتا ہے۔",
+          "result": "ایپ Clipboard API کے ذریعے تفصیلات نقل کرنے کی کوشش کرتی ہے، اور جہاں معاونت ہو وہاں متبادل textarea طریقہ استعمال کرتی ہے؛ بٹن کا لیبل Copied ہو جاتا ہے۔",
+          "notes": "شیئر کرنے سے پہلے نقل شدہ متن دیکھیں۔ جانچے گئے R43 سورس میں Branch کی قدر Git سے معلوم ہونے کے بجائے مستقل طور پر main لکھی گئی ہے، اور Last Updated اب بھی Loading... یا Unavailable دکھا سکتا ہے۔ ان دونوں فیلڈز کو تعیناتی کے آزادانہ طور پر تصدیق شدہ حقائق نہ سمجھیں۔"
+        },
+        "pa": {
+          "purpose": "Monitor & Diagnostics ਵਿੱਚ ਦਿਖਾਏ ਵਰਜਨ ਅਤੇ ਵਾਤਾਵਰਣ ਦੇ ਵੇਰਵੇ ਕਲਿੱਪਬੋਰਡ ਵਿੱਚ ਕਾਪੀ ਕਰਦਾ ਹੈ।",
+          "when": "ਤਕਨੀਕੀ ਸਹਾਇਤਾ ਸੁਨੇਹਾ ਤਿਆਰ ਕਰਨ ਜਾਂ ਜਾਂਚੇ Build ਅਤੇ ਵਾਤਾਵਰਣ ਦਾ ਰਿਕਾਰਡ ਰੱਖਣ ਲਈ ਇਸਦੀ ਵਰਤੋਂ ਕਰੋ।",
+          "how": "Monitor & Diagnostics ਖੋਲ੍ਹੋ, Last Updated ਖੇਤਰ ਦੀ ਲੋਡਿੰਗ ਪੂਰੀ ਹੋਣ ਦੀ ਉਡੀਕ ਕਰੋ, ਫਿਰ Copy version details ਚੁਣੋ। ਕਾਪੀ ਕੀਤਾ ਪਾਠ ਆਪਣੇ ਸਹਾਇਤਾ ਸੁਨੇਹੇ ਜਾਂ ਜਾਂਚ ਨੋਟ ਵਿੱਚ ਚਿਪਕਾਓ।",
+          "inputs": "ਫਾਰਮ ਵਿੱਚ ਕੋਈ ਜਾਣਕਾਰੀ ਭਰਨ ਦੀ ਲੋੜ ਨਹੀਂ। ਕਾਪੀ ਕੀਤੇ ਪਾਠ ਵਿੱਚ repository, ਦਿਖਾਇਆ branch ਲੇਬਲ, ਵਰਜਨ, ਮੁੱਖ ਫਾਈਲ ਦਾ ਰਸਤਾ, Build ID, ਐਪ ਵਰਜਨ, IndexedDB ਡਾਟਾਬੇਸ ਦਾ ਨਾਮ, ਦਿਖਾਈ Last Updated ਕਦਰ ਅਤੇ ਲੋਡ ਕੀਤੇ ਪੰਨੇ ਦਾ URL ਸ਼ਾਮਲ ਹੁੰਦਾ ਹੈ।",
+          "result": "ਐਪ Clipboard API ਰਾਹੀਂ ਵੇਰਵੇ ਕਾਪੀ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਦੀ ਹੈ ਅਤੇ ਜਿੱਥੇ ਸਮਰਥਨ ਹੋਵੇ ਉੱਥੇ textarea ਵਿਕਲਪ ਵਰਤਦੀ ਹੈ; ਬਟਨ ਦਾ ਲੇਬਲ Copied ਹੋ ਜਾਂਦਾ ਹੈ।",
+          "notes": "ਸਾਂਝਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਕਾਪੀ ਕੀਤਾ ਪਾਠ ਜਾਂਚੋ। ਜਾਂਚੇ R43 ਸਰੋਤ ਵਿੱਚ Branch ਦੀ ਕਦਰ Git ਤੋਂ ਪਤਾ ਕਰਨ ਦੀ ਬਜਾਏ ਸਥਿਰ ਤੌਰ 'ਤੇ main ਲਿਖੀ ਹੋਈ ਹੈ ਅਤੇ Last Updated ਹਾਲੇ ਵੀ Loading... ਜਾਂ Unavailable ਦਿਖਾ ਸਕਦਾ ਹੈ। ਇਹਨਾਂ ਦੋ ਖੇਤਰਾਂ ਨੂੰ Deploy ਬਾਰੇ ਸੁਤੰਤਰ ਤੌਰ 'ਤੇ ਤਸਦੀਕ ਕੀਤੇ ਤੱਥ ਨਾ ਮੰਨੋ।"
+        },
+        "prs": {
+          "purpose": "جزئیات نسخه و محیط نمایش‌داده‌شده در Monitor & Diagnostics را در حافظه موقت کپی می‌کند.",
+          "when": "برای آماده‌کردن پیام پشتیبانی فنی یا ثبت Build و محیطی که آزمایش کرده‌اید، از این گزینه استفاده کنید.",
+          "how": "Monitor & Diagnostics را باز کنید، منتظر بمانید فیلد Last Updated بارگذاری شود و سپس Copy version details را انتخاب کنید. متن کپی‌شده را در پیام پشتیبانی یا یادداشت تشخیصی جای‌گذاری کنید.",
+          "inputs": "ورودی فرمی لازم نیست. متن کپی‌شده شامل مخزن، برچسب نمایشی Branch، نسخه، مسیر فایل اصلی، Build ID، نسخه برنامه، نام پایگاه داده IndexedDB، مقدار نمایشی Last Updated و نشانی URL صفحه بارگذاری‌شده است.",
+          "result": "برنامه تلاش می‌کند اطلاعات را با Clipboard API کپی کند و در محیط‌های پشتیبانی‌شده از textarea به‌عنوان روش جایگزین استفاده می‌کند؛ عنوان دکمه به Copied تغییر می‌کند.",
+          "notes": "پیش از اشتراک‌گذاری متن کپی‌شده را بررسی کنید. در سورس R43 بررسی‌شده، مقدار Branch به‌صورت ثابت main است و از Git تشخیص داده نمی‌شود؛ Last Updated نیز ممکن است همچنان Loading... یا Unavailable باشد. این دو فیلد را واقعیت‌های مستقل و تأییدشده Deploy تلقی نکنید."
+        },
+        "ps": {
+          "purpose": "د Monitor & Diagnostics ښودل شوي د نسخې او چاپېریال جزئیات کلېپ‌بورډ ته کاپي کوي.",
+          "when": "دا د تخنیکي ملاتړ د پیغام د چمتو کولو یا د ازمویل شوي Build او چاپېریال د ثبتولو لپاره وکاروئ.",
+          "how": "Monitor & Diagnostics پرانیزئ، د Last Updated د بارېدو تر بشپړېدو انتظار وکړئ، بیا Copy version details وټاکئ. کاپي شوی متن د ملاتړ پیغام یا تشخیصي یادښت ته ونښلوئ.",
+          "inputs": "د فورمې معلوماتو ته اړتیا نشته. کاپي شوی متن repository، ښودل شوی branch نوم، نسخه، د اصلي فایل لاره، Build ID، د اپلېکېشن نسخه، د IndexedDB ډیټابېس نوم، د Last Updated ښودل شوې کچه او د بار شوې پاڼې URL لري.",
+          "result": "اپلېکېشن هڅه کوي د Clipboard API له لارې جزئیات کاپي کړي او په هغو ځایونو کې چې ملاتړ کېږي د بدیلې لارې په توګه textarea کاروي؛ د تڼۍ نوم Copied ته بدلېږي.",
+          "notes": "له شریکولو مخکې کاپي شوی متن وګورئ. په ارزول شوې R43 سرچینه کې د Branch ارزښت له Git څخه نه پېژندل کېږي، بلکې په ثابت ډول main لیکل شوی؛ Last Updated ښايي لا هم Loading... یا Unavailable وښيي. دا دواړه برخې د Deploy په اړه په خپلواک ډول تایید شوي حقایق مه ګڼئ."
         }
       },
       "handler_or_behavior": "`copyMonitorVersionInfo()`"
@@ -20882,6 +20954,78 @@
           "inputs": "رویداد صحیح را از فهرست رویدادهای فیلترشده انتخاب کنید. ورودی دیگری لازم نیست.",
           "result": "پنجره‌ای رویداد انتخاب‌شده را به‌صورت JSON قالب‌بندی‌شده نمایش می‌دهد و گزینه‌های Copy JSON و Close را فراهم می‌کند. رویداد ذخیره‌شده تغییر نمی‌کند.",
           "notes": "شناسه، زمان و شرح رویداد را بررسی کنید تا مطمئن شوید رخداد صحیح را مشاهده می‌کنید. JSON تشخیصی ممکن است حاوی اطلاعات فنی یا محیطی باشد؛ پیش از اشتراک‌گذاری آن را بررسی کنید."
+        },
+        "ar": {
+          "purpose": "يفتح عرض JSON التفصيلي لحدث مراقبة محدد في Monitor & Diagnostics.",
+          "when": "استخدمه عندما تحتاج إلى فحص الطابع الزمني الكامل ووصف الحدث ومعرّفات السجلات والنتيجة لحدث مراقبة.",
+          "how": "في قائمة أحداث المراقبة، اختر View details للحدث المعني. راجع JSON المنسق في النافذة. استخدم Copy JSON لنسخ بيانات الحدث أو Close لإغلاق النافذة.",
+          "inputs": "اختر حدث المراقبة الصحيح من القائمة المصفاة. لا يلزم إدخال إضافي.",
+          "result": "تعرض نافذة الحدث المحدد بصيغة JSON منسقة وتوفر الإجراءين Copy JSON وClose. لا يتم تعديل الحدث المخزن.",
+          "notes": "تحقق من معرّف الحدث والطابع الزمني والوصف للتأكد من أنك تفحص الحادثة الصحيحة. قد يحتوي JSON التشخيصي على معلومات تقنية أو عن البيئة؛ راجعه قبل مشاركته."
+        },
+        "ckb": {
+          "purpose": "پیشاندانی وردەکاریی JSON بۆ ڕووداوێکی چاودێریی هەڵبژێردراو لە Monitor & Diagnostics دەکاتەوە.",
+          "when": "کاتێک پێویستت بە پشکنینی کاتی تەواو، وەسفی ڕووداو، ناسنامەکانی تۆمار و ئەنجامی ڕووداوێکی چاودێری هەیە، ئەمە بەکاربهێنە.",
+          "how": "لە فهرستی ڕووداوەکانی چاودێری، بۆ ڕووداوی پەیوەندیدار View details هەڵبژێرە. JSONی فۆرماتکراو لە پەنجەرەکەدا بپشکنە. بۆ کۆپی کردنی داتای ڕووداو Copy JSON و بۆ داخستنی پەنجەرە Close هەڵبژێرە.",
+          "inputs": "ڕووداوی دروستی چاودێری لە فهرستی فلتەرکراو هەڵبژێرە. زانیاریی زیادە پێویست نییە.",
+          "result": "پەنجەرەیەک ڕووداوی هەڵبژێردراو بە JSONی فۆرماتکراو پیشان دەدات و کردارەکانی Copy JSON و Close دابین دەکات. ڕووداوی پاشەکەوتکراو ناگۆڕدرێت.",
+          "notes": "ناسنامەی ڕووداو، کاتی ڕوودان و وەسفەکە بپشکنە بۆ دڵنیابوون لەوەی ڕووداوی دروست دەبینیت. JSONی تشخیصی لەوانەیە زانیاری تەکنیکی یان ژینگەیی لەخۆ بگرێت؛ پێش هاوبەشکردن بپشکنە."
+        },
+        "kmr": {
+          "purpose": "Dîtina JSON ya hûrgulî ji bo bûyereke çavdêriyê ya hilbijartî di Monitor & Diagnostics de vedike.",
+          "when": "Vê bikar bîne dema ku hewce ye dema tam, ravekirina bûyerê, nasnameyên tomarê û encama bûyereke çavdêriyê kontrol bikî.",
+          "how": "Di lîsteya bûyerên çavdêriyê de ji bo bûyera têkildar View details hilbijêre. JSON-a formatkirî di modalê de kontrol bike. Ji bo kopîkirina daneyên bûyerê Copy JSON an ji bo girtina modalê Close hilbijêre.",
+          "inputs": "Ji lîsteya bûyerên fîlterkirî bûyera çavdêriyê ya rast hilbijêre. Têketina din nehewce ye.",
+          "result": "Modal bûyera hilbijartî wekî JSON-a formatkirî nîşan dide û kiryarên Copy JSON û Close peyda dike. Bûyera hilanbar naguherîne.",
+          "notes": "Nasnameya bûyerê, demjimêr û ravekirinê kontrol bike da ku piştrast bibî ku tu bûyera rast dinirxînî. JSON-a teşhîsê dibe ku agahiyên teknîkî an hawîrdorê dihewîne; berî parvekirinê wê kontrol bike."
+        },
+        "tr": {
+          "purpose": "Monitor & Diagnostics bölümünde seçilen bir izleme olayının ayrıntılı JSON görünümünü açar.",
+          "when": "Bir izleme olayının tam zaman damgasını, açıklamasını, kayıt kimliklerini ve sonucunu incelemeniz gerektiğinde kullanın.",
+          "how": "İzleme olayları listesinde ilgili olay için View details seçeneğini belirleyin. Biçimlendirilmiş JSON'u pencerede inceleyin. Olay verilerini kopyalamak için Copy JSON, pencereyi kapatmak için Close seçeneğini kullanın.",
+          "inputs": "Filtrelenmiş olay listesinden doğru izleme olayını seçin. Ek giriş gerekmez.",
+          "result": "Bir pencere seçilen olayı biçimlendirilmiş JSON olarak gösterir ve Copy JSON ile Close işlemlerini sunar. Saklanan olay değiştirilmez.",
+          "notes": "Doğru olayı incelediğinizden emin olmak için olay kimliğini, zaman damgasını ve açıklamasını kontrol edin. Tanılama JSON'u teknik veya ortam bilgileri içerebilir; paylaşmadan önce inceleyin."
+        },
+        "pl": {
+          "purpose": "Otwiera szczegółowy widok JSON wybranego zdarzenia monitorowania w Monitor & Diagnostics.",
+          "when": "Użyj tej opcji, gdy chcesz sprawdzić pełny znacznik czasu, opis zdarzenia, identyfikatory rekordów i wynik zdarzenia monitorowania.",
+          "how": "Na liście zdarzeń monitorowania wybierz View details przy odpowiednim zdarzeniu. Sprawdź sformatowany JSON w oknie modalnym. Użyj Copy JSON, aby skopiować dane zdarzenia, lub Close, aby zamknąć okno.",
+          "inputs": "Wybierz właściwe zdarzenie monitorowania z przefiltrowanej listy. Nie są wymagane dodatkowe dane.",
+          "result": "Okno modalne wyświetla wybrane zdarzenie jako sformatowany JSON i udostępnia opcje Copy JSON oraz Close. Zapisane zdarzenie nie jest modyfikowane.",
+          "notes": "Sprawdź identyfikator zdarzenia, znacznik czasu i opis, aby upewnić się, że analizujesz właściwy incydent. Diagnostyczny JSON może zawierać informacje techniczne lub środowiskowe; sprawdź go przed udostępnieniem."
+        },
+        "ur": {
+          "purpose": "Monitor & Diagnostics میں منتخب مانیٹرنگ واقعے کی تفصیلی JSON شکل کھولتا ہے۔",
+          "when": "اسے اس وقت استعمال کریں جب آپ کو مانیٹرنگ واقعے کا مکمل وقت، وضاحت، ریکارڈ شناختیں اور نتیجہ دیکھنا ہو۔",
+          "how": "مانیٹرنگ واقعات کی فہرست میں متعلقہ واقعے کے لیے View details منتخب کریں۔ ونڈو میں فارمیٹ شدہ JSON دیکھیں۔ واقعے کا ڈیٹا نقل کرنے کے لیے Copy JSON یا ونڈو بند کرنے کے لیے Close منتخب کریں۔",
+          "inputs": "فلٹر شدہ واقعہ فہرست سے درست مانیٹرنگ واقعہ منتخب کریں۔ اضافی معلومات درکار نہیں۔",
+          "result": "ایک ونڈو منتخب واقعے کو فارمیٹ شدہ JSON میں دکھاتی ہے اور Copy JSON اور Close اختیارات فراہم کرتی ہے۔ محفوظ شدہ واقعہ تبدیل نہیں ہوتا۔",
+          "notes": "واقعے کی ID، وقت اور وضاحت دیکھیں تاکہ یقین ہو کہ آپ درست واقعہ دیکھ رہے ہیں۔ تشخیصی JSON میں تکنیکی یا ماحول سے متعلق معلومات ہو سکتی ہیں؛ شیئر کرنے سے پہلے اس کا جائزہ لیں۔"
+        },
+        "pa": {
+          "purpose": "Monitor & Diagnostics ਵਿੱਚ ਚੁਣੀ ਮਾਨੀਟਰਿੰਗ ਘਟਨਾ ਦਾ ਵਿਸਥਾਰਪੂਰਵਕ JSON ਦ੍ਰਿਸ਼ ਖੋਲ੍ਹਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਤੁਹਾਨੂੰ ਮਾਨੀਟਰਿੰਗ ਘਟਨਾ ਦਾ ਪੂਰਾ ਸਮਾਂ, ਵੇਰਵਾ, ਰਿਕਾਰਡ ਪਛਾਣਾਂ ਅਤੇ ਨਤੀਜਾ ਜਾਂਚਣਾ ਹੋਵੇ।",
+          "how": "ਮਾਨੀਟਰਿੰਗ ਘਟਨਾਵਾਂ ਦੀ ਸੂਚੀ ਵਿੱਚ ਸੰਬੰਧਿਤ ਘਟਨਾ ਲਈ View details ਚੁਣੋ। ਮੋਡਲ ਵਿੱਚ ਫਾਰਮੈਟ ਕੀਤਾ JSON ਵੇਖੋ। ਘਟਨਾ ਡਾਟਾ ਕਾਪੀ ਕਰਨ ਲਈ Copy JSON ਜਾਂ ਮੋਡਲ ਬੰਦ ਕਰਨ ਲਈ Close ਚੁਣੋ।",
+          "inputs": "ਫਿਲਟਰ ਕੀਤੀ ਘਟਨਾ ਸੂਚੀ ਵਿੱਚੋਂ ਸਹੀ ਮਾਨੀਟਰਿੰਗ ਘਟਨਾ ਚੁਣੋ। ਵਾਧੂ ਇਨਪੁੱਟ ਦੀ ਲੋੜ ਨਹੀਂ।",
+          "result": "ਮੋਡਲ ਚੁਣੀ ਘਟਨਾ ਨੂੰ ਫਾਰਮੈਟ ਕੀਤੇ JSON ਵਜੋਂ ਦਿਖਾਉਂਦਾ ਹੈ ਅਤੇ Copy JSON ਅਤੇ Close ਕਾਰਵਾਈਆਂ ਦਿੰਦਾ ਹੈ। ਸੰਭਾਲੀ ਘਟਨਾ ਨਹੀਂ ਬਦਲਦੀ।",
+          "notes": "ਘਟਨਾ ID, ਸਮਾਂ ਅਤੇ ਵੇਰਵਾ ਜਾਂਚੋ ਤਾਂ ਜੋ ਯਕੀਨ ਹੋਵੇ ਕਿ ਤੁਸੀਂ ਸਹੀ ਘਟਨਾ ਵੇਖ ਰਹੇ ਹੋ। ਡਾਇਗਨੌਸਟਿਕ JSON ਵਿੱਚ ਤਕਨੀਕੀ ਜਾਂ ਵਾਤਾਵਰਣ ਦੀ ਜਾਣਕਾਰੀ ਹੋ ਸਕਦੀ ਹੈ; ਸਾਂਝਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਜਾਂਚੋ।"
+        },
+        "prs": {
+          "purpose": "نمایش جزئیات JSON را برای رویداد پایش انتخاب‌شده در Monitor & Diagnostics باز می‌کند.",
+          "when": "وقتی می‌خواهید زمان کامل، شرح رویداد، شناسه‌های رکورد و نتیجه یک رویداد پایش را بررسی کنید، از این گزینه استفاده کنید.",
+          "how": "در فهرست رویدادهای پایش، برای رویداد مربوط View details را انتخاب کنید. JSON قالب‌بندی‌شده را در پنجره بررسی کنید. برای کپی داده رویداد Copy JSON و برای بستن پنجره Close را انتخاب کنید.",
+          "inputs": "رویداد صحیح را از فهرست رویدادهای فیلترشده انتخاب کنید. ورودی دیگری لازم نیست.",
+          "result": "پنجره‌ای رویداد انتخاب‌شده را به‌صورت JSON قالب‌بندی‌شده نمایش می‌دهد و گزینه‌های Copy JSON و Close را فراهم می‌کند. رویداد ذخیره‌شده تغییر نمی‌کند.",
+          "notes": "شناسه، زمان و شرح رویداد را بررسی کنید تا مطمئن شوید رخداد صحیح را مشاهده می‌کنید. JSON تشخیصی ممکن است حاوی اطلاعات فنی یا محیطی باشد؛ پیش از اشتراک‌گذاری آن را بررسی کنید."
+        },
+        "ps": {
+          "purpose": "د Monitor & Diagnostics کې د ټاکل شوې څارنې پېښې تفصیلي JSON لید پرانیزي.",
+          "when": "دا هغه وخت وکاروئ چې د څارنې پېښې بشپړ وخت، تشریح، د ریکارډ پېژندونکي او پایله کتل غواړئ.",
+          "how": "د څارنې د پېښو په لېست کې د اړوندې پېښې لپاره View details وټاکئ. په کړکۍ کې فارمیټ شوی JSON وګورئ. د پېښې د معلوماتو د کاپي کولو لپاره Copy JSON او د کړکۍ د تړلو لپاره Close وټاکئ.",
+          "inputs": "له فلټر شوي لېست څخه سمه د څارنې پېښه وټاکئ. اضافي معلوماتو ته اړتیا نشته.",
+          "result": "کړکۍ ټاکل شوې پېښه د فارمیټ شوي JSON په توګه ښيي او Copy JSON او Close کړنې برابروي. خوندي شوې پېښه نه بدلېږي.",
+          "notes": "د پېښې ID، وخت او تشریح وګورئ څو ډاډه شئ چې سمه پېښه ارزوی. تشخیصي JSON ښايي تخنیکي یا د چاپېریال معلومات ولري؛ له شریکولو مخکې یې وګورئ."
         }
       },
       "handler_or_behavior": "`showMonitorEvent(`"
@@ -20908,6 +21052,78 @@
           "inputs": "ورودی لازم نیست. صفحه فعلی باید بعد از صفحه اول باشد.",
           "result": "صفحه قبلی رویدادهای مانیتورینگ نمایش داده می‌شود. رویدادهای تشخیصی ذخیره‌شده تغییر نمی‌کنند.",
           "notes": "این کنترل در صفحه اول غیرفعال است. فهرست در هر صفحه حداکثر ۲۵ رویداد نشان می‌دهد و صفحه‌بندی فقط زمانی ظاهر می‌شود که بیش از ۲۵ رویداد فیلترشده وجود داشته باشد. این گزینه فقط صفحه‌بندی را تغییر می‌دهد و رویدادها را حذف یا ویرایش نمی‌کند."
+        },
+        "ar": {
+          "purpose": "ينقل قائمة أحداث Monitor & Diagnostics إلى الصفحة السابقة.",
+          "when": "استخدمه عندما تكون في صفحة لاحقة من أحداث المراقبة وتريد فحص الصفحة التي تسبقها.",
+          "how": "اختر ‹ Previous في عناصر ترقيم صفحات المراقبة عندما يكون الزر مفعلاً.",
+          "inputs": "لا يلزم إدخال أي معلومات. يجب أن تكون الصفحة الحالية بعد الصفحة 1.",
+          "result": "تُعرض الصفحة السابقة من أحداث المراقبة. لا يتم تعديل أحداث التشخيص المخزنة.",
+          "notes": "يكون عنصر التحكم معطلاً في الصفحة الأولى. تعرض القائمة ما يصل إلى 25 سجلاً في كل صفحة، ولا يظهر ترقيم الصفحات إلا عند توفر أكثر من 25 حدثاً تمت تصفيته. يغيّر هذا الإجراء الصفحة فقط ولا يحذف الأحداث أو يعدّلها."
+        },
+        "ckb": {
+          "purpose": "فهرستی ڕووداوەکانی Monitor & Diagnostics دەگوازێتەوە بۆ پەڕەی پێشوو.",
+          "when": "کاتێک لە پەڕەیەکی دواتری ڕووداوەکانی چاودێرییت و دەتەوێت پەڕەی پێشوو بپشکنیت، ئەمە بەکاربهێنە.",
+          "how": "کاتێک لە کۆنترۆڵەکانی ژمارەی پەڕەدا ‹ Previous چالاکە، هەڵیبژێرە.",
+          "inputs": "هیچ زانیارییەک پێویست نییە. پەڕەی ئێستا دەبێت دواتر لە پەڕەی 1 بێت.",
+          "result": "پەڕەی پێشووی ڕووداوەکانی چاودێری پیشان دەدرێت. ڕووداوە تشخیصییە پاشەکەوتکراوەکان ناگۆڕدرێن.",
+          "notes": "لە پەڕەی یەکەمدا کۆنترۆڵەکە ناچالاکە. فهرستەکە لە هەر پەڕەیەکدا تا 25 تۆمار پیشان دەدات و ژمارەی پەڕەکان تەنها کاتێک دەردەکەوێت کە زیاتر لە 25 ڕووداوی فلتەرکراو هەبێت. ئەم کردارە تەنها پەڕە دەگۆڕێت؛ ڕووداوەکان ناسڕێتەوە و ناگۆڕێت."
+        },
+        "kmr": {
+          "purpose": "Lîsteya bûyerên Monitor & Diagnostics dibe rûpela berê.",
+          "when": "Vê bikar bîne dema ku tu li rûpeleke paşîn a bûyerên çavdêriyê yî û dixwazî rûpela berê kontrol bikî.",
+          "how": "Dema ku di kontrolên rûpelkirinê de ‹ Previous çalak be wê hilbijêre.",
+          "inputs": "Tu têketin nehewce ye. Divê rûpela heyî piştî rûpela 1 be.",
+          "result": "Rûpela berê ya bûyerên çavdêriyê tê nîşandan. Bûyerên teşhîsê yên hilanbar naguherin.",
+          "notes": "Ev kontrol di rûpela yekem de neçalak e. Lîste di her rûpelê de heta 25 tomar nîşan dide, û rûpelkirin tenê dema ku zêdetirî 25 bûyerên fîlterkirî hene xuya dibe. Ev tenê rûpelê diguherîne; bûyeran na jê dibe û na sererast dike."
+        },
+        "tr": {
+          "purpose": "Monitor & Diagnostics olay listesini önceki sayfaya taşır.",
+          "when": "İzleme olaylarının sonraki bir sayfasındayken önceki sayfayı incelemek istediğinizde kullanın.",
+          "how": "İzleme sayfalama denetimlerinde ‹ Previous etkin olduğunda seçin.",
+          "inputs": "Girdi gerekmez. Geçerli sayfa 1. sayfadan sonra olmalıdır.",
+          "result": "İzleme olaylarının önceki sayfası görüntülenir. Saklanan tanılama olayları değiştirilmez.",
+          "notes": "Denetim ilk sayfada devre dışıdır. Liste sayfa başına en fazla 25 kayıt gösterir ve sayfalama yalnızca filtrelenmiş olay sayısı 25'i aştığında görünür. Bu işlem yalnızca sayfalamayı değiştirir; olayları silmez veya değiştirmez."
+        },
+        "pl": {
+          "purpose": "Przenosi listę zdarzeń Monitor & Diagnostics na poprzednią stronę.",
+          "when": "Użyj tej opcji, gdy przeglądasz późniejszą stronę zdarzeń monitorowania i chcesz sprawdzić stronę poprzednią.",
+          "how": "Wybierz ‹ Previous w elementach paginacji monitorowania, gdy przycisk jest aktywny.",
+          "inputs": "Nie są wymagane żadne dane wejściowe. Bieżąca strona musi być dalsza niż strona 1.",
+          "result": "Wyświetlana jest poprzednia strona zdarzeń monitorowania. Zapisane zdarzenia diagnostyczne nie są modyfikowane.",
+          "notes": "Element sterujący jest nieaktywny na pierwszej stronie. Lista wyświetla do 25 rekordów na stronę, a paginacja pojawia się tylko wtedy, gdy dostępnych jest więcej niż 25 przefiltrowanych zdarzeń. Ta czynność zmienia wyłącznie stronę; nie usuwa ani nie modyfikuje zdarzeń."
+        },
+        "ur": {
+          "purpose": "Monitor & Diagnostics کی واقعہ فہرست کو پچھلے صفحے پر لے جاتا ہے۔",
+          "when": "اسے اس وقت استعمال کریں جب آپ مانیٹرنگ واقعات کے بعد والے صفحے پر ہوں اور اس سے پچھلا صفحہ دیکھنا چاہتے ہوں۔",
+          "how": "مانیٹرنگ کے صفحہ بندی کنٹرولز میں ‹ Previous فعال ہونے پر اسے منتخب کریں۔",
+          "inputs": "کسی معلومات کی ضرورت نہیں۔ موجودہ صفحہ پہلے صفحے کے بعد ہونا چاہیے۔",
+          "result": "مانیٹرنگ واقعات کا پچھلا صفحہ دکھایا جاتا ہے۔ محفوظ شدہ تشخیصی واقعات تبدیل نہیں ہوتے۔",
+          "notes": "پہلے صفحے پر یہ کنٹرول غیر فعال ہوتا ہے۔ فہرست فی صفحہ زیادہ سے زیادہ 25 ریکارڈ دکھاتی ہے اور صفحہ بندی صرف اس وقت ظاہر ہوتی ہے جب فلٹر شدہ واقعات 25 سے زیادہ ہوں۔ یہ صرف صفحہ بدلتا ہے؛ واقعات حذف یا تبدیل نہیں کرتا۔"
+        },
+        "pa": {
+          "purpose": "Monitor & Diagnostics ਦੀ ਘਟਨਾ ਸੂਚੀ ਨੂੰ ਪਿਛਲੇ ਪੰਨੇ 'ਤੇ ਲੈ ਜਾਂਦਾ ਹੈ।",
+          "when": "ਇਸਦੀ ਵਰਤੋਂ ਉਦੋਂ ਕਰੋ ਜਦੋਂ ਤੁਸੀਂ ਮਾਨੀਟਰਿੰਗ ਘਟਨਾਵਾਂ ਦੇ ਬਾਅਦ ਵਾਲੇ ਪੰਨੇ 'ਤੇ ਹੋਵੋ ਅਤੇ ਉਸ ਤੋਂ ਪਿਛਲਾ ਪੰਨਾ ਵੇਖਣਾ ਚਾਹੁੰਦੇ ਹੋ।",
+          "how": "ਮਾਨੀਟਰਿੰਗ ਪੇਜੀਨੇਸ਼ਨ ਕੰਟਰੋਲਾਂ ਵਿੱਚ ‹ Previous ਚਾਲੂ ਹੋਣ 'ਤੇ ਚੁਣੋ।",
+          "inputs": "ਕੋਈ ਇਨਪੁੱਟ ਲੋੜੀਂਦਾ ਨਹੀਂ। ਮੌਜੂਦਾ ਪੰਨਾ ਪਹਿਲੇ ਪੰਨੇ ਤੋਂ ਅੱਗੇ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।",
+          "result": "ਮਾਨੀਟਰਿੰਗ ਘਟਨਾਵਾਂ ਦਾ ਪਿਛਲਾ ਪੰਨਾ ਦਿਖਾਇਆ ਜਾਂਦਾ ਹੈ। ਸੰਭਾਲੀਆਂ ਡਾਇਗਨੌਸਟਿਕ ਘਟਨਾਵਾਂ ਨਹੀਂ ਬਦਲਦੀਆਂ।",
+          "notes": "ਪਹਿਲੇ ਪੰਨੇ 'ਤੇ ਇਹ ਕੰਟਰੋਲ ਬੰਦ ਹੁੰਦਾ ਹੈ। ਸੂਚੀ ਹਰ ਪੰਨੇ 'ਤੇ ਵੱਧ ਤੋਂ ਵੱਧ 25 ਰਿਕਾਰਡ ਦਿਖਾਉਂਦੀ ਹੈ ਅਤੇ ਪੇਜੀਨੇਸ਼ਨ ਸਿਰਫ਼ ਉਦੋਂ ਦਿਖਦੀ ਹੈ ਜਦੋਂ ਫਿਲਟਰ ਕੀਤੀਆਂ ਘਟਨਾਵਾਂ 25 ਤੋਂ ਵੱਧ ਹੋਣ। ਇਹ ਸਿਰਫ਼ ਪੰਨਾ ਬਦਲਦਾ ਹੈ; ਘਟਨਾਵਾਂ ਨੂੰ ਮਿਟਾਉਂਦਾ ਜਾਂ ਸੋਧਦਾ ਨਹੀਂ।"
+        },
+        "prs": {
+          "purpose": "فهرست رویدادهای Monitor & Diagnostics را به صفحه قبلی منتقل می‌کند.",
+          "when": "وقتی در صفحه‌ای بعد از صفحه اول رویدادهای پایش هستید و می‌خواهید صفحه قبلی را بررسی کنید، از این گزینه استفاده کنید.",
+          "how": "در کنترل‌های صفحه‌بندی پایش، وقتی ‹ Previous فعال است آن را انتخاب کنید.",
+          "inputs": "ورودی لازم نیست. صفحه فعلی باید بعد از صفحه ۱ باشد.",
+          "result": "صفحه قبلی رویدادهای پایش نمایش داده می‌شود. رویدادهای تشخیصی ذخیره‌شده تغییر نمی‌کنند.",
+          "notes": "این کنترل در صفحه اول غیرفعال است. فهرست در هر صفحه حداکثر ۲۵ رکورد نشان می‌دهد و صفحه‌بندی فقط زمانی ظاهر می‌شود که بیش از ۲۵ رویداد فیلترشده وجود داشته باشد. این گزینه فقط صفحه را تغییر می‌دهد و رویدادها را حذف یا ویرایش نمی‌کند."
+        },
+        "ps": {
+          "purpose": "د Monitor & Diagnostics د پېښو لېست پخوانۍ پاڼې ته وړي.",
+          "when": "دا هغه وخت وکاروئ چې د څارنې پېښو په وروستۍ پاڼه کې یاست او غواړئ مخکینۍ پاڼه وګورئ.",
+          "how": "د څارنې د پاڼو په کنټرولونو کې چې ‹ Previous فعال وي، هغه وټاکئ.",
+          "inputs": "هېڅ معلوماتو ته اړتیا نشته. اوسنۍ پاڼه باید له لومړۍ پاڼې وروسته وي.",
+          "result": "د څارنې پېښو پخوانۍ پاڼه ښکاره کېږي. خوندي شوې تشخیصي پېښې نه بدلېږي.",
+          "notes": "دا کنټرول په لومړۍ پاڼه کې بند وي. لېست په هره پاڼه کې تر ۲۵ ریکارډونو پورې ښيي او پاڼه‌بندي یوازې هغه وخت ښکاري چې فلټر شوې پېښې له ۲۵ څخه زیاتې وي. دا کړنه یوازې پاڼه بدلوي؛ پېښې نه ړنګوي او نه یې بدلوي."
         }
       },
       "handler_or_behavior": "`monitorPage--;renderMonitor()`"
@@ -20934,6 +21150,78 @@
           "inputs": "ورودی لازم نیست. این یک نمایشگر اطلاعاتی است، نه کنترل عملیاتی.",
           "result": "نشانگر شماره صفحه فعلی و تعداد کل صفحات موجود را نشان می‌دهد.",
           "notes": "فهرست در هر صفحه حداکثر ۲۵ رویداد نشان می‌دهد. صفحه‌بندی فقط زمانی نمایش داده می‌شود که بیش از ۲۵ رویداد فیلترشده وجود داشته باشد. این نشانگر صفحه انتخاب‌شده یا رویدادهای ذخیره‌شده را تغییر نمی‌دهد."
+        },
+        "ar": {
+          "purpose": "يعرض رقم الصفحة الحالية وإجمالي عدد الصفحات لقائمة أحداث Monitor & Diagnostics.",
+          "when": "استخدمه كمؤشر للموقع أثناء تصفح صفحات متعددة من أحداث المراقبة.",
+          "how": "اقرأ مؤشر الصفحة الموجود بين عنصري Previous وNext.",
+          "inputs": "لا يلزم إدخال أي معلومات. هذا عرض معلوماتي وليس عنصر تحكم لتنفيذ إجراء.",
+          "result": "يعرض المؤشر رقم الصفحة الحالية وإجمالي عدد الصفحات المتاحة.",
+          "notes": "تعرض قائمة الأحداث ما يصل إلى 25 سجلاً في كل صفحة. لا يظهر ترقيم الصفحات إلا عند توفر أكثر من 25 حدثاً تمت تصفيته. لا يغيّر المؤشر الصفحة المحددة أو الأحداث المخزنة."
+        },
+        "ckb": {
+          "purpose": "ژمارەی پەڕەی ئێستا و کۆی گشتی ژمارەی پەڕەکانی فهرستی ڕووداوەکانی Monitor & Diagnostics پیشان دەدات.",
+          "when": "وەک نیشاندەری شوێن بەکاری بهێنە کاتێک چەند پەڕەیەک لە ڕووداوەکانی چاودێری دەگەڕێیت.",
+          "how": "نیشاندەری پەڕە بخوێنەوە کە لە نێوان کۆنترۆڵەکانی Previous و Next دایە.",
+          "inputs": "هیچ زانیارییەک پێویست نییە. ئەمە پیشاندانی زانیارییە، نەک کۆنترۆڵێکی کردار.",
+          "result": "نیشاندەرەکە ژمارەی پەڕەی ئێستا و کۆی ژمارەی پەڕە بەردەستەکان پیشان دەدات.",
+          "notes": "فهرستی ڕووداوەکان لە هەر پەڕەیەکدا تا 25 تۆمار پیشان دەدات. ژمارەی پەڕەکان تەنها کاتێک دەردەکەوێت کە زیاتر لە 25 ڕووداوی فلتەرکراو هەبێت. نیشاندەرەکە پەڕەی هەڵبژێردراو یان ڕووداوە پاشەکەوتکراوەکان ناگۆڕێت."
+        },
+        "kmr": {
+          "purpose": "Hejmara rûpela heyî û tevahiya hejmarên rûpelan ji bo lîsteya bûyerên Monitor & Diagnostics nîşan dide.",
+          "when": "Vê wekî nîşandera cihê bikar bîne dema ku gelek rûpelên bûyerên çavdêriyê digerî.",
+          "how": "Nîşandera rûpelê ya di navbera kontrolên Previous û Next de bixwîne.",
+          "inputs": "Tu têketin nehewce ye. Ev dîtineke agahdarî ye, ne kontrola kiryarê.",
+          "result": "Nîşander hejmara rûpela heyî û tevahiya rûpelên berdest nîşan dide.",
+          "notes": "Lîsteya bûyeran di her rûpelê de heta 25 tomar nîşan dide. Rûpelkirin tenê dema ku zêdetirî 25 bûyerên fîlterkirî hene xuya dibe. Nîşander rûpela hilbijartî an bûyerên hilanbar naguherîne."
+        },
+        "tr": {
+          "purpose": "Monitor & Diagnostics olay listesinin geçerli sayfa numarasını ve toplam sayfa sayısını gösterir.",
+          "when": "Birden fazla izleme olayı sayfasında gezinirken konum göstergesi olarak kullanın.",
+          "how": "Previous ve Next denetimleri arasındaki sayfa göstergesini okuyun.",
+          "inputs": "Girdi gerekmez. Bu, işlem denetimi değil bilgilendirici bir göstergedir.",
+          "result": "Gösterge geçerli sayfa numarasını ve kullanılabilir toplam sayfa sayısını gösterir.",
+          "notes": "Olay listesi sayfa başına en fazla 25 kayıt gösterir. Sayfalama yalnızca filtrelenmiş olay sayısı 25'i aştığında görünür. Gösterge seçili sayfayı veya saklanan olayları değiştirmez."
+        },
+        "pl": {
+          "purpose": "Wyświetla numer bieżącej strony i łączną liczbę stron listy zdarzeń Monitor & Diagnostics.",
+          "when": "Użyj tego wskaźnika pozycji podczas przeglądania wielu stron zdarzeń monitorowania.",
+          "how": "Odczytaj wskaźnik strony znajdujący się między elementami Previous i Next.",
+          "inputs": "Nie są wymagane żadne dane wejściowe. Jest to wyświetlacz informacyjny, a nie element sterujący wykonujący działanie.",
+          "result": "Wskaźnik pokazuje numer bieżącej strony i łączną liczbę dostępnych stron.",
+          "notes": "Lista zdarzeń wyświetla do 25 rekordów na stronę. Paginacja pojawia się tylko wtedy, gdy dostępnych jest więcej niż 25 przefiltrowanych zdarzeń. Wskaźnik nie zmienia wybranej strony ani zapisanych zdarzeń."
+        },
+        "ur": {
+          "purpose": "Monitor & Diagnostics کی واقعہ فہرست کے موجودہ صفحے کا نمبر اور کل صفحات دکھاتا ہے۔",
+          "when": "مانیٹرنگ واقعات کے متعدد صفحات دیکھتے وقت اسے اپنی جگہ جاننے کے لیے استعمال کریں۔",
+          "how": "Previous اور Next کنٹرولز کے درمیان موجود صفحہ اشارے کو پڑھیں۔",
+          "inputs": "کسی معلومات کی ضرورت نہیں۔ یہ معلوماتی ڈسپلے ہے، عملی کنٹرول نہیں۔",
+          "result": "اشارہ موجودہ صفحے کا نمبر اور دستیاب صفحات کی کل تعداد دکھاتا ہے۔",
+          "notes": "واقعہ فہرست فی صفحہ زیادہ سے زیادہ 25 ریکارڈ دکھاتی ہے۔ صفحہ بندی صرف اس وقت ظاہر ہوتی ہے جب فلٹر شدہ واقعات 25 سے زیادہ ہوں۔ یہ اشارہ منتخب صفحہ یا محفوظ شدہ واقعات تبدیل نہیں کرتا۔"
+        },
+        "pa": {
+          "purpose": "Monitor & Diagnostics ਦੀ ਘਟਨਾ ਸੂਚੀ ਦਾ ਮੌਜੂਦਾ ਪੰਨਾ ਨੰਬਰ ਅਤੇ ਕੁੱਲ ਪੰਨਿਆਂ ਦੀ ਗਿਣਤੀ ਦਿਖਾਉਂਦਾ ਹੈ।",
+          "when": "ਮਾਨੀਟਰਿੰਗ ਘਟਨਾਵਾਂ ਦੇ ਕਈ ਪੰਨਿਆਂ ਵਿੱਚ ਵੇਖਦੇ ਸਮੇਂ ਸਥਿਤੀ ਦਰਸਾਉਣ ਵਾਲੇ ਸੰਕੇਤ ਵਜੋਂ ਇਸਦੀ ਵਰਤੋਂ ਕਰੋ।",
+          "how": "Previous ਅਤੇ Next ਕੰਟਰੋਲਾਂ ਦੇ ਵਿਚਕਾਰ ਪੰਨਾ ਸੰਕੇਤ ਪੜ੍ਹੋ।",
+          "inputs": "ਕੋਈ ਇਨਪੁੱਟ ਲੋੜੀਂਦਾ ਨਹੀਂ। ਇਹ ਜਾਣਕਾਰੀ ਦਿਖਾਉਂਦਾ ਹੈ, ਕਾਰਵਾਈ ਕਰਨ ਵਾਲਾ ਕੰਟਰੋਲ ਨਹੀਂ।",
+          "result": "ਸੰਕੇਤ ਮੌਜੂਦਾ ਪੰਨਾ ਨੰਬਰ ਅਤੇ ਉਪਲਬਧ ਕੁੱਲ ਪੰਨਿਆਂ ਦੀ ਗਿਣਤੀ ਦਿਖਾਉਂਦਾ ਹੈ।",
+          "notes": "ਘਟਨਾ ਸੂਚੀ ਹਰ ਪੰਨੇ 'ਤੇ ਵੱਧ ਤੋਂ ਵੱਧ 25 ਰਿਕਾਰਡ ਦਿਖਾਉਂਦੀ ਹੈ। ਪੇਜੀਨੇਸ਼ਨ ਸਿਰਫ਼ ਉਦੋਂ ਦਿਖਦੀ ਹੈ ਜਦੋਂ ਫਿਲਟਰ ਕੀਤੀਆਂ ਘਟਨਾਵਾਂ 25 ਤੋਂ ਵੱਧ ਹੋਣ। ਸੰਕੇਤ ਚੁਣਿਆ ਪੰਨਾ ਜਾਂ ਸੰਭਾਲੀਆਂ ਘਟਨਾਵਾਂ ਨਹੀਂ ਬਦਲਦਾ।"
+        },
+        "prs": {
+          "purpose": "شماره صفحه فعلی و تعداد کل صفحات فهرست رویدادهای Monitor & Diagnostics را نمایش می‌دهد.",
+          "when": "هنگام مرور چند صفحه از رویدادهای پایش، از این نشانگر برای آگاهی از موقعیت خود استفاده کنید.",
+          "how": "نشانگر صفحه را که بین کنترل‌های Previous و Next قرار دارد بخوانید.",
+          "inputs": "ورودی لازم نیست. این یک نمایشگر اطلاعاتی است، نه کنترل عملیاتی.",
+          "result": "نشانگر شماره صفحه فعلی و تعداد کل صفحات موجود را نشان می‌دهد.",
+          "notes": "فهرست رویدادها در هر صفحه حداکثر ۲۵ رکورد نمایش می‌دهد. صفحه‌بندی فقط زمانی نشان داده می‌شود که بیش از ۲۵ رویداد فیلترشده وجود داشته باشد. این نشانگر صفحه انتخاب‌شده یا رویدادهای ذخیره‌شده را تغییر نمی‌دهد."
+        },
+        "ps": {
+          "purpose": "د Monitor & Diagnostics د پېښو د لېست اوسنۍ پاڼه او د ټولو پاڼو شمېر ښيي.",
+          "when": "دا د موقعیت د نښې په توګه وکاروئ کله چې د څارنې د پېښو څو پاڼې ګورئ.",
+          "how": "د Previous او Next کنټرولونو ترمنځ د پاڼې نښه ولولئ.",
+          "inputs": "هېڅ معلوماتو ته اړتیا نشته. دا معلوماتي ښودنه ده، د عمل کنټرول نه دی.",
+          "result": "نښه د اوسنۍ پاڼې شمېره او د شته پاڼو ټول شمېر ښيي.",
+          "notes": "د پېښو لېست په هره پاڼه کې تر ۲۵ ریکارډونو پورې ښيي. پاڼه‌بندي یوازې هغه وخت ښکاري چې فلټر شوې پېښې له ۲۵ څخه زیاتې وي. نښه ټاکل شوې پاڼه یا خوندي شوې پېښې نه بدلوي."
         }
       },
       "handler_or_behavior": "`event/property listener`"
