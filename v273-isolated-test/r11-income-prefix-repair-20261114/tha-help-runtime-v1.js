@@ -98,7 +98,20 @@
     ['THA-HLP-0074', '.pr-sidebar > button[data-pr-nav="workspace"]'],
     ['THA-HLP-0076', '.pr-sidebar > button[data-pr-nav="company-hub"]'],
     ['THA-HLP-0078', '.pr-sidebar > button[data-pr-nav="project-hub"]'],
-    ['THA-HLP-0080', '.pr-sidebar > button[data-pr-nav="control"]']
+    ['THA-HLP-0080', '.pr-sidebar > button[data-pr-nav="control"]'],
+    ['THA-HLP-0081', '#prPage-project-hub .pr-list > button[onclick="prPage(\\'new\\')"]'],
+    ['THA-HLP-0082', '#prPage-project-hub .pr-list > button[onclick="prPage(\\'list\\')"]'],
+    ['THA-HLP-0083', '#prPage-new #prPartnerFields .pr-share-actions > button[onclick="prAddPartnerShareRow()"]'],
+    ['THA-HLP-0090', '#prDetailSubnav > button[data-pr-sub="summary"]'],
+    ['THA-HLP-0091', '#prDetailSubnav > button[data-pr-sub="income"]'],
+    ['THA-HLP-0092', '#prDetailSubnav > button[data-pr-sub="expenses"]'],
+    ['THA-HLP-0093', '#prDetailSubnav > button[data-pr-sub="wages"]'],
+    ['THA-HLP-0094', '#prDetailSubnav > button[data-pr-sub="tools"]'],
+    ['THA-HLP-0095', '#prDetailSubnav > button[data-pr-sub="food"]'],
+    ['THA-HLP-0096', '#prDetailSubnav > button[data-pr-sub="report"]'],
+    ['THA-HLP-0097', '#prPage-profit .pr-actions > button[onclick="prOpenProfitReport()"]'],
+    ['THA-HLP-0101', '#prPage-contractors .pr-actions > button[onclick="prResetContractor()"]'],
+    ['THA-HLP-0115', '#prPage-company-hub .co-actions > button[onclick="coResetSub()"]']
   ];
   if (STATIC_BINDINGS.some(binding => !Array.isArray(binding) || binding.length !== 2 || binding.some(value => typeof value !== 'string' || !value.trim()))) {
     console.error('[THA Help] Invalid static binding table; contextual help was not started.');
