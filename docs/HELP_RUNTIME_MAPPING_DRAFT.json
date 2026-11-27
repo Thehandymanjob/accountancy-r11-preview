@@ -7,7 +7,7 @@
     "runtime_path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "runtime_blob_sha": "e58a0c7895cf639c36e69c28696ebfd3bd262bef",
     "registry_blob_sha": "5c9d9d53d0d520ab8a0e5d239ac23f41c035724f",
-    "inventory_blob_sha": "93eaa67dd5149c198b87a956eddbd5863a549fba"
+    "inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1"
   },
   "policy": {
     "label_only_matching": false,
@@ -18,7 +18,7 @@
   },
   "summary": {
     "entry_count": 229,
-    "inventory_rows": 270,
+    "inventory_rows": 268,
     "mapping_status_counts": {
       "AMBIGUOUS_HANDLER": 179,
       "HANDLER_CANDIDATE_REQUIRES_CONTEXT_TEST": 16,
@@ -28,7 +28,7 @@
       "DYNAMIC_TEMPLATE_CANDIDATE": 2,
       "EXEMPT_NOT_MAPPED": 1
     },
-    "notes": "Mapping labels, exact inline handler expressions, and static element IDs refreshed from the Version Authority R45 source. Eleven controls have no inline onclick and remain listener-wiring unresolved; selector assignment and browser verification are still required."
+    "notes": "Reconciled to Version Authority R45 source and refreshed R45 inventory. Exact inline handler expressions, current labels, and static element IDs are recorded. Eleven controls have no inline onclick and remain listener-wiring unresolved; selector assignment and browser verification are still required."
   },
   "mappings": [
     {
