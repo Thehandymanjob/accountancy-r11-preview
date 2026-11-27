@@ -9445,7 +9445,7 @@
       "audit_ref": "INV-114",
       "element_id": null,
       "label": "View Financial Report →",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the Project Financial Report for the project selected in the Project Profit & Loss selector.",
@@ -9543,7 +9543,7 @@
       "audit_ref": "INV-115",
       "element_id": null,
       "label": "Save Partner",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Creates a new partner record or updates an existing partner in the shared Partners directory.",
@@ -9641,7 +9641,7 @@
       "audit_ref": "INV-116",
       "element_id": null,
       "label": "Clear",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Resets the Partner form to its blank Add Partner state.",
@@ -9739,7 +9739,7 @@
       "audit_ref": "INV-117",
       "element_id": null,
       "label": "Save Contractor",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Creates a contractor or subcontractor directory record or updates an existing contractor record.",
