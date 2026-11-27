@@ -5,7 +5,7 @@
   "build_baseline": "THA-273-R11-PREVIEW-20261126-R43",
   "branch": "development",
   "source_inventory": "docs/HELP_BUTTON_INVENTORY_FA.md",
-  "source_inventory_blob_sha": "ba0f8846e48f31227250d52c6307057dce03e652",
+  "source_inventory_blob_sha": "66ec0eb0037748956ba06e9a0867fefa5407ca1b",
   "languages": [
     "en",
     "fa",
@@ -17080,5 +17080,7 @@
     "draft_entries": 175,
     "pending_entries": 0,
     "completion_scope": "Only reviewed content in all eleven languages counts as complete; drafts retain only language versions actually written."
-  }
+  },
+  "active_entry_count": 228,
+  "retired_entry_count": 1
 }
