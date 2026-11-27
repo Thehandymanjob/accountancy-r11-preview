@@ -39,11 +39,13 @@ The application separates general bookkeeping, job-level project tracking, and c
 ## 2. Accountancy — Dashboard and Entries
 
 ### Dashboard
-The Dashboard is a summary of general accounting records. Use it to review the figures and period shown; it is not a substitute for checking the underlying entries.
+The Dashboard summarises general accounting records for the selected date range. It displays Total income, Cash income, Bank transfer income, Total expenses, Calculated balance and Number of entries. Calculated balance is recorded income minus recorded expenses; it is not necessarily taxable profit or a final benefit figure.
 
-1. Open **Accountancy** and review the Dashboard.
-2. Check the selected period or date range before interpreting totals.
-3. If figures look unexpected, open the underlying records and confirm dates, types and filters.
+1. Open **Accountancy → Dashboard**.
+2. Set **From date** and **To date**.
+3. Select **Refresh** to update the figures.
+4. **Set period (13th–12th)** applies the application's 13th-to-12th reporting period.
+5. If figures look unexpected, inspect underlying records and confirm dates, types and filters.
 
 ### Add an income or expense entry
 1. Open **Add Entry**.
@@ -57,9 +59,12 @@ The Dashboard is a summary of general accounting records. Use it to review the f
 9. Select **Save** and wait for the confirmation.
 
 ### Form controls
-- **Save** stores the entered record. Do not assume it succeeded until the application confirms it.
+- **Payment method** is required and offers **Cash**, **Bank transfer**, **Card** or **Other**.
+- **Save Entry** stores the entered record. Wait for the saved-and-verified confirmation before leaving the form.
 - **Clear Form** clears the current form inputs; it is not a way to delete previously saved records.
-- Category selectors open the available category choices. Select the intended category and check that the selected value appears on the form before saving.
+- An optional **Take a Photo** control may be available for receipt evidence. Receipt photos are included in backups for their data area and are not printed in reports.
+- Category selectors open the available category choices. Expense entries require a category; income entries do not show the expense-category picker. Select the intended category and check that it appears on the form before saving.
+- When the Contractor / subcontractor expense category is selected, the contractor/subcontractor name field appears and is required.
 - Conditional fields appear only for relevant transaction types or categories. Complete them when they are shown and applicable.
 
 ### Correcting an entry
@@ -89,14 +94,14 @@ Open the saved record through the records area and use the available edit workfl
 9. Check the details and select **Save**.
 
 ### Choose categories carefully
-Use the category that best describes the nature of the cost. The available groups may include **Materials**, **Car Expenses**, **Tools** and **Others**. Keep similar purchases consistently classified so reports are meaningful.
+Use the category that best describes the nature of the cost. The expense-category picker groups choices under **Materials**, **Car Expenses**, **Tools** and **Others**. Built-in examples include supplier-specific materials, vehicle road tax/insurance/fuel/repairs, tools and workwear, tool hire, advertising, accountancy, pension, National Insurance, public liability insurance, training and contractor/subcontractor. Keep similar purchases consistently classified so reports are meaningful.
 
 If the category picker contains an **Add New One** option:
-1. Open the relevant category group.
-2. Choose **Add New One**.
-3. Enter a clear category name.
-4. Save the new category if prompted.
-5. Reopen or check the picker and confirm the new category is available in the intended group.
+1. Open the expense category picker and choose the correct group.
+2. Select **Add New One** (or the add-item action shown for that list).
+3. Enter a clear store or expense name.
+4. Select **Add to list**.
+5. Confirm the item appears in that group.
 
 ### Contractor-related expenses
 When the selected expense category or workflow displays contractor fields, enter the correct contractor/subcontractor details. Do not enter a supplier as a contractor merely because they issued an invoice; use the field according to its label and purpose.
@@ -111,11 +116,11 @@ Keep the original receipt or invoice outside the application as well where requi
 ## 4. Records, Customers and Invoices
 
 ### Review saved records
-1. Open **Records**.
-2. Select the relevant record type or filter, if available.
-3. Check the date range and displayed entries.
-4. Open the record to inspect its details.
-5. When investigating a discrepancy, compare the individual entries rather than relying only on a dashboard total.
+1. Open **Records****.
+2. Use **Search records** to search by category, notes or amount.
+3. Use **Filter by type** to show All records, Income, Expense or Invoices.
+4. Review the record number, date, type, category, amount and reference/notes.
+5. Lists are paginated when they contain more than 10 records; use the page controls to move through results.
 
 ### Save customer details
 1. Open **Customers**.
@@ -138,10 +143,13 @@ Use an existing customer record where appropriate rather than creating duplicate
 8. Choose the available save or issue action.
 
 ### Save, issue and payment are different
+- **Save Invoice** stores the invoice using the selected status. **Save & Print / PDF** saves it and opens the print/PDF workflow; inspect the preview before printing or sharing.
 - Saving a draft stores an invoice in the application; it does not mean the invoice has been issued or paid.
 - Issuing an invoice makes it an issued document. It does not mean the customer has paid.
 - Marking an invoice as paid must reflect an actual payment. Confirm the payment date and method when requested.
 - An unpaid invoice is not received income. Do not count it as cash received simply because an invoice exists.
+
+The invoice list provides **New Invoice**, **Search invoices** (invoice number or customer) and a filter for All invoices, Issued, Draft, Paid or Unpaid. The list shows invoice number, date, customer, total, invoice status and payment status.
 
 The current invoice editor supports up to **four separately priced work items**. Enter a description and price for each item; at least one priced item is required. The invoice also has VAT choices (**Not charged**, **20%**, **5%** or **0%**) and an invoice status of **Draft** or **Issued**. Payment fields appear for an issued invoice. The payment choices are **Paid** or **Unpaid**; when marking paid, enter the payment date and method where requested.
 
@@ -161,16 +169,16 @@ Use the invoice's available preview/print/PDF workflow. Before sharing:
 ## 5. Reports, Tax and Reminders
 
 ### Prepare a report
-1. Open **Reports**.
-2. Select the required reporting period or date range.
-3. Check any filters that determine which records are included.
-4. Review the displayed totals and, where available, the underlying entries.
-5. Use the report's save, preview, print or export action as required.
-6. Reopen a saved report from **Saved Reports** when you need to review that stored snapshot.
+1. Open **Accountancy → Reports & Tax → Prepare a report**.
+2. Choose a **Report type / period**: current cumulative MTD quarterly update, MTD periods 1–4, annual tax-year summary (6 April–5 April), accounting-year summary (1 April–31 March), or custom report.
+3. For a custom report, enter **From date** and **To date**.
+4. Choose optional report details: receipt image, invoice/expense date and company/shop name.
+5. Select **Print Preview** and inspect the report before printing or saving.
+6. Use **Saved reports archive** to reopen snapshots; filter by report type and search by period/date.
 
 A report is only as accurate as the records and filters used to prepare it. Confirm that the period and included record types are correct before relying on the result.
 
-The report area also includes a notifications inbox, tax calendar and accountant-email settings. The tax calendar offers calendar-quarter and standard HMRC-period modes; confirm the correct mode for your own tax arrangement before relying on dates. Reminders are checked when the app is opened; push notifications while it is closed are not guaranteed. The accountant-email screen currently states that email sending is not connected: saving recipient details does not send an email.
+The report area also includes a **Notifications inbox** (Unread, All or Read), **Tax calendar** and **Accountant email** settings. The calendar offers calendar quarters (1 April–31 March accounting year) or standard HMRC periods ending 5 July, 5 October, 5 January and 5 April. Confirm the correct mode for your setup. The report workflow offers **Confirm records complete** and **Check reminders now**; after confirmation, the app says it will remind you to review after 10 days. The tax calendar offers calendar-quarter and standard HMRC-period modes; confirm the correct mode for your own tax arrangement before relying on dates. Reminders are checked when the app is opened; push notifications while it is closed are not guaranteed. The accountant-email screen currently states that email sending is not connected: saving recipient details does not send an email.
 
 ### Tax information and calendar
 Use the tax-related screens and reminders to organise information and keep track of dates. They are planning and record-keeping tools.
