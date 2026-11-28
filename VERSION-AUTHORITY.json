@@ -3597,15 +3597,15 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "0df81aab83e29bc631fd8efe29c2f3338186e688",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
+      "previewDevelopmentCommitSha": "6de90751667c7381df0f42ac4307838b3a729187",
+      "previewPullRequestNumber": 115,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/115",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
         "result": "pending",
         "runId": "pending",
         "url": "pending",
-        "details": "Awaiting PR head gate and post-merge main gate."
+        "details": "PR #115 opened; awaiting the Version Authority Gate on the final PR head."
       },
       "staticChecks": {
         "result": "PASS",
@@ -3615,7 +3615,7 @@
         "result": "pending",
         "runId": "pending",
         "url": "pending",
-        "details": "Awaiting merge and GitHub Pages deployment."
+        "details": "Awaiting merge and Pages deployment."
       },
       "userSafariTest": {
         "result": "not tested",
