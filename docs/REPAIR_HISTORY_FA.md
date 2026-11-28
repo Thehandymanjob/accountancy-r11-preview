@@ -1231,3 +1231,11 @@
 - فایل‌های تغییرکرده: index.html و tha-help-runtime-v1.js؛ هیچ محتوای مالی، IndexedDB، Backup یا Restore تغییر نکرد.
 - تست ایستا: در حال اجرا/ثبت؛ آزمون مرورگر واقعی و iPhone Safari هنوز انجام نشده است. Gate و Pages deployment در انتظار هستند.
 - فقط Preview؛ Production promotion غیرمجاز است.
+
+
+#### ثبت نتیجه نهایی انتشار R84 — 2026-11-28
+- همگام‌سازی تاریخچه: کامیت Merge به SHA `c474e42b4dc6e27852abee3ffa083cb487a422d0` با حفظ تمام ۲۰ کامیت اختصاصی development و افزودن main/R83 به‌عنوان والد دوم انجام شد؛ Force Push انجام نشد. سپس PR #118 با موفقیت در Preview main ادغام شد.
+- Version Authority Gate روی سر نهایی PR #118 با اجرای [46170902056](https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46170902056) موفق شد؛ Gate پس از Merge روی Preview main نیز در اجرای [46170952675](https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46170952675) موفق شد.
+- GitHub Pages Build، Deploy و Report Build Status همگی در اجرای [46170952501](https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46170952501) موفق شدند. Build ID: `THA-273-R11-PREVIEW-20261128-R84`؛ Runtime: `R68`.
+- وضعیت نهایی: **Deployed to Preview — awaiting iPhone Safari verification**. عملکرد واقعی checkbox، نمایش یک آیکون برای هر کنترل پشتیبانی‌شده، زبان راهنما و حذف آیکون‌ها پس از خاموش‌کردن باید روی iPhone Safari آزمایش شود.
+- Production main همچنان روی SHA `0d18480cbaae1faba9544b05e7646704058ec29c` است و تغییر نکرده؛ هیچ داده مالی یا IndexedDB/Backup/Restore دست‌کاری نشده است.
