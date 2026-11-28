@@ -3735,25 +3735,25 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "pending",
-      "previewPullRequestNumber": null,
-      "previewPullRequestUrl": "pending",
-      "previewMergeCommitSha": "pending",
+      "previewDevelopmentCommitSha": "cb5dd00f233241755a0eba527cddce738e5dfe77",
+      "previewPullRequestNumber": 121,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/121",
+      "previewMergeCommitSha": "9faeb19c68eb6104b0db03c41350b331862f7d08",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting final R85 PR-head Version Authority Gate."
+        "result": "PASS",
+        "runId": 46173040777,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46173040777",
+        "details": "R11 Version Authority Gate passed on final PR #121 head (run 46172997592) and again on Preview main merge commit 9faeb19c68eb6104b0db03c41350b331862f7d08 (run 46173040777)."
       },
       "staticChecks": {
         "result": "PASS",
         "details": "Seven selected entries contain all six required fields in all 11 guide languages. Exact Settings/User Guide selectors added to R69 allowlist. No data, storage, backup or reset handlers changed. Live browser and iPhone Safari tests remain pending."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting final R85 merge and GitHub Pages deployment."
+        "result": "PASS",
+        "runId": 46173040634,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46173040634",
+        "details": "GitHub Pages build, deploy and report-build-status completed successfully for Preview R85 merge commit 9faeb19c68eb6104b0db03c41350b331862f7d08."
       },
       "userSafariTest": {
         "result": "not tested",
