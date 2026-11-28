@@ -8,7 +8,7 @@
     "version": "273",
     "buildId": "THA-273-R11-PREVIEW-20261127-R64",
     "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R64",
-    "indexBlobSha": "9fdfeca4d32a4dc94f6b9dc927e316d30c5ca0a7",
+    "indexBlobSha": "7e8e4752a8146d66506c4a95341978154ab05ece",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "9fdfeca4d32a4dc94f6b9dc927e316d30c5ca0a7",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "7e8e4752a8146d66506c4a95341978154ab05ece",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
@@ -2960,6 +2960,47 @@
       "userApproval": {
         "result": "authorized and completed for Preview merge/deployment only",
         "details": "User explicitly approved marking PR #101 ready, merging it into Preview main and deploying Preview. Production promotion is not authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-28-UI-BIDI-RTL-GUIDE-001",
+      "dateStarted": "2026-11-28",
+      "purpose": "Correct BiDi rendering for mixed RTL-language sentences containing Latin words, codes and numbers in the translated User Guide, without changing the English/LTR application shell.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "c5d813b80db218ca86fa313a9436d6058fc1bb20",
+      "previewPullRequestNumber": "pending",
+      "previewPullRequestUrl": "pending",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "source change applied; validation pending",
+        "details": "RTL language and dir attributes are applied to #userGuide and its chapter list only; code-like elements are isolated LTR. Browser rendering and iPhone Safari tests are pending."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting user approval to merge the Preview PR and deploy."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting Preview deployment and user verification of Persian/Arabic mixed-script paragraphs, dates, amounts and inline English terms."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User reported the RTL mixed-script issue and requested continuation of the Preview repair workflow."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
