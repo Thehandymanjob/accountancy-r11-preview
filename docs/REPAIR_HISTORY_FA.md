@@ -907,7 +907,9 @@
 - **Canonical URL:** `https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R78`.
 - **Commit کد Preview development:** `d32a56289bb055eee29658645375c30f0169e610`.
 - **Static assertions:** PASS برای وجود اتصال `window.__thaV264StartupPromise.then(...)` بعد از تعریف تابع renderer، fallback انگلیسی در حالت نبودن یا شکست Promise، و حفظ رندر فوری هر فصل.
-- **PR / Gate / Deploy:** در انتظار PR جدید و اجرای نهایی Version Authority Gate و GitHub Pages.
+- **PR:** #107 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/107؛ merged؛ merge commit: `e9b16ac9f1c544740651899e5d68d6d55dc6fcb9`.
+- **Version Authority Gate:** PASS؛ run `46136222561` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46136222561؛ تمام ۲۴ فایل پین‌شده، شناسه R78 و index self-pin تأیید شدند.
+- **GitHub Pages:** PASS؛ run `46136222427` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46136222427؛ build، deploy و گزارش وضعیت موفق شدند.
 - **iPhone Safari:** not tested؛ تا تست واقعی، مشکل نمایش حل‌شده اعلام نمی‌شود.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
 
