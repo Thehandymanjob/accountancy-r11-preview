@@ -3178,19 +3178,19 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "36e7cc145f9e97e007a53dd40cbbd4f0cb973d70",
+      "previewDevelopmentCommitSha": "89890a0bc3d0b53b22fccef77a8e6df5ad5e1610",
       "previewPullRequestNumber": 104,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "R72 Gate must run on the updated PR head; earlier R71 Gate does not validate this change."
+        "result": "PASS",
+        "runId": 46131912026,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46131912026",
+        "details": "R11 Version Authority Gate passed on PR head containing R72 Chapter 8, Build ID, canonical URL and all four intended files; approved baseline ancestry and all 24 pinned runtime assets passed."
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Pending V8 syntax validation, English/Persian Chapter 8 content assertions and authority identity checks on R72."
+        "result": "PASS",
+        "details": "All 8 inline JavaScript blocks compiled with V8. English/Persian Chapter 8 assertions passed; corrected Settings → User Guide path, disabled updater status, Monitor Build ID reference and Factory Reset safeguards verified. Nine other language sections were compared against R71 and unchanged."
       },
       "previewPagesDeployment": {
         "result": "pending",
