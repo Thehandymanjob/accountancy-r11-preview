@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261128-R68",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R68",
-    "indexBlobSha": "0001f27632b5cf21f4ec4e30c720cbfb779e734f",
+    "buildId": "THA-273-R11-PREVIEW-20261128-R69",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R69",
+    "indexBlobSha": "4449d0f5074856dd5e4dbff34589d8bd7d0d2ff7",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "0001f27632b5cf21f4ec4e30c720cbfb779e734f",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "4449d0f5074856dd5e4dbff34589d8bd7d0d2ff7",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
@@ -3028,6 +3028,45 @@
       "staticChecks": {
         "result": "PASS",
         "details": "All 8 inline JavaScript blocks passed V8 syntax compilation; English/Persian chapter 4 and R68 source assertions passed; app Build ID, canonical URL and indexBlobSha matched; all 24 runtime asset SHA pins matched the development tree."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "details": "No Preview deployment requested or performed."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Real browser and iPhone Safari verification have not been performed."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting Preview verification and user approval."
+      },
+      "productionPromotionStatus": "pending",
+      "productionPullRequestUrl": "pending",
+      "productionCommitSha": "pending"
+    },
+    {
+      "changeId": "THA-2026-11-28-USER-GUIDE-CHAPTER-5-001",
+      "dateStarted": "2026-11-28",
+      "purpose": "Rewrite User Guide chapter 5, Reports, Tax and Reminders, in practical English and Persian using the current application workflow and explicit limitations.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "2e8d0dffba7a2ab95b130e3176cea4784da0c3ae",
+      "previewPullRequestNumber": 104,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": null,
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Final inline JavaScript syntax, Chapter 5 English/Persian assertions, app identity and 24 pinned runtime assets pending verification."
       },
       "previewPagesDeployment": {
         "result": "pending",
