@@ -947,7 +947,7 @@
 - SHA فایل index و pin Authority: `0001f27632b5cf21f4ec4e30c720cbfb779e734f`.
 - Commit Authority: `0f65f9c7732c272a5b8294fd047574f4f5e4ebb0`.
 - وضعیت راهنما: چهار فصل از ۱۲ فصل انگلیسی و فارسی بازنویسی شده‌اند؛ هشت فصل باقی مانده است.
-- تست: بررسی محتوای فصل انجام شده؛ بررسی نهایی ۸ بلوک JavaScript، ۲۴ SHA pin، Version Authority Gate و PR head هنوز در انتظار است. مرورگر واقعی و iPhone Safari آزمایش نشده‌اند.
+- تست ایستا: PASS؛ هر ۸ بلوک inline JavaScript با V8 کامپایل شدند؛ وجود فصل چهارم در هر دو زبان، Build ID، canonical URL و تطابق indexBlobSha بررسی شد؛ هر ۲۴ SHA pin با درخت development تطابق دارند. Version Authority Gate برای PR head هنوز تأیید نشده است. مرورگر واقعی و iPhone Safari آزمایش نشده‌اند.
 - PR: ادامه PR شماره 104؛ هنوز Merge یا Preview Deploy انجام نشده است.
 - داده‌ها و Production: هیچ رکورد مالی، IndexedDB، LocalStorage، Backup یا Restore تغییر نکرده؛ Production دست‌نخورده است.
 
