@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261128-R79",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R79",
-    "indexBlobSha": "8707aa8052f4d827f98fcf83009f09378d34ef6b",
+    "buildId": "THA-273-R11-PREVIEW-20261128-R80",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R80",
+    "indexBlobSha": "264655013c2fa123db5dce20355d9b7d81521b50",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "8707aa8052f4d827f98fcf83009f09378d34ef6b",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "264655013c2fa123db5dce20355d9b7d81521b50",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
@@ -3498,6 +3498,48 @@
       "userApproval": {
         "result": "authorized for Preview diagnostic repair and PR creation",
         "details": "User instructed «برو» to continue diagnosing the missing User Guide text. This does not authorize Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "HELP-GUIDE-2026-11-28-RENDER-BRIDGE-R80",
+      "dateStarted": "2026-11-28",
+      "purpose": "Add an independent end-of-document User Guide render bridge that invokes the exported renderer after DOM readiness, page load, pageshow, and User Guide activation; show an explicit diagnostic if the renderer is unavailable or fails.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "b5c52dc447060e1775c1e35c421ecf6b373b3033",
+      "previewPullRequestNumber": "pending",
+      "previewPullRequestUrl": "pending",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting PR gate; all 24 pinned runtime assets must pass."
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "R80 adds a standalone bridge after the application scripts. It calls the exported renderer on DOM readiness, window load, pageshow and User Guide activation; if unavailable, it writes an explicit diagnostic into guideChapters. Browser runtime verification remains pending."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Not deployed; awaiting PR gate and merge."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "R79 remained blank in user's iPhone screenshot. R80 must be verified on iPhone Safari after Preview deployment."
+      },
+      "userApproval": {
+        "result": "authorized for Preview repair",
+        "details": "User instructed continuation after R79 still failed. No Production promotion authorized."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",

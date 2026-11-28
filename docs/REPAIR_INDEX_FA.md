@@ -59,3 +59,9 @@
 - تشخیص خطای نمایش و پیام خطای قابل مشاهده اضافه شده است.
 - وضعیت: **Fixed — awaiting verification**؛ تأیید نهایی نمایش فصل‌ها در iPhone Safari هنوز دریافت نشده است.
 - Production دست‌نخورده است.
+
+
+## R80 — User Guide render bridge
+- R79 still showed a blank chapter container in the user's iPhone Safari screenshot; its diagnostic message was also absent.
+- R80 adds a separate end-of-document bridge to invoke the exported renderer after DOM readiness, load, pageshow, and User Guide activation. A visible diagnostic is shown if the renderer is missing or fails.
+- PR and Preview deployment pending. Production unchanged; Safari verification pending.
