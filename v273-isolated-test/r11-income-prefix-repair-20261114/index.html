@@ -996,6 +996,22 @@ body.pr-report-preview-open{overflow:hidden!important;position:relative!importan
   .sfr-report .sfr-breakdown tr{break-inside:avoid!important;page-break-inside:avoid!important}
 }
 </style>
+<style id="tha-guide-bidi-fix">
+/* RTL is scoped to translated User Guide content; the application shell remains LTR. */
+#userGuide.guide-language-rtl{direction:rtl;text-align:right}
+#userGuide.guide-language-rtl>.settings-intro,
+#userGuide.guide-language-rtl #guideChapters,
+#userGuide.guide-language-rtl #guideChapters details,
+#userGuide.guide-language-rtl #guideChapters summary,
+#userGuide.guide-language-rtl #guideChapters .help-guide-body{direction:rtl;text-align:start}
+#userGuide.guide-language-rtl #guideChapters ul,
+#userGuide.guide-language-rtl #guideChapters ol{padding-inline-start:1.6em}
+#userGuide.guide-language-rtl #guideChapters code,
+#userGuide.guide-language-rtl #guideChapters pre,
+#userGuide.guide-language-rtl #guideChapters kbd,
+#userGuide.guide-language-rtl #guideChapters samp{direction:ltr;unicode-bidi:isolate;text-align:left}
+#userGuide:not(.guide-language-rtl){direction:ltr;text-align:left}
+</style>
 </head>
 <body><div id="r11TestVersionBanner" role="status" aria-label="نسخه آزمایشی؛ این نسخه برنامه اصلی نیست"><div class="r11-test-title"><span class="r11-test-fa" lang="fa" dir="rtl">نسخه آزمایشی</span><span aria-hidden="true">|</span><span class="r11-test-en">TEST VERSION — NOT PRODUCTION</span></div><span id="r11TestLastUpdated" class="r11-test-updated" lang="fa" dir="rtl">آخرین به‌روزرسانی: در حال دریافت…</span></div><section id="appLauncher" aria-label="Main menu"><div class="launcher-inner"><div class="launcher-brand"><img id="launcherBusinessLogo" class="launcher-logo" alt="Your business logo" hidden><h1 id="launcherName">The Handyman Accountancy</h1><p>Accounting and project management</p></div><div class="launcher-actions"><button class="launcher-action primary" onclick="openAccountancy()"><span class="launch-icon">🧾</span><span><strong>Accountancy</strong><small>Income, expenses, invoices and reports</small></span><span class="launch-arrow">›</span></button><button class="launcher-action" onclick="openProjectsApp()"><span class="launch-icon">💼</span><span><strong>Business Workspace</strong><small>Projects, Company Contracts &amp; Jobs, and Control Panel</small></span><span class="launch-arrow">›</span></button><button class="launcher-action" onclick="openContractsApp()"><span class="launch-icon">📝</span><span><strong>Contract Management</strong><small>Create, edit and manage contracts and quotations</small></span><span class="launch-arrow">›</span></button><button class="launcher-action" onclick="openSettingsHub()"><span class="launch-icon">⚙️</span><span><strong>Settings</strong><small>Backup, restore, profile and logo</small></span><span class="launch-arrow">›</span></button></div><div id="accountingStartupDiagnostic" role="alert" hidden style="margin:14px 0 0;padding:12px;border:1px solid #a52d39;border-radius:10px;background:#fdebec;color:#8d1e2a;font-size:13px;line-height:1.5;overflow-wrap:anywhere"></div><div class="launcher-foot">Your records stay on this device. Keep regular backups.</div></div></section>
 <script>
@@ -3164,6 +3180,7 @@ window.report188Hydrate=async function(){window.__thaReportHydrated=false;window
 
 // Guide language preference is isolated from the English/LTR application interface.
 const GUIDE_LANGS={en:'English',fa:'🇮🇷 فارسی (Persian)',ar:'العربية',ckb:'کوردی سۆرانی',kmr:'Kurdî',tr:'Türkçe',pl:'Polski',ur:'اردو',pa:'ਪੰਜਾਬੀ',prs:'دری',ps:'پښتو'};
+const GUIDE_RTL_LANGS=new Set(['fa','ar','ckb','ur','prs','ps']);
 const GUIDE_LABELS={
  en:{title:'User Guide',intro:'Practical instructions for using the software. The application interface remains English and left-to-right.'},
  fa:{title:'راهنمای کاربر',intro:'راهنمای عملی استفاده از نرم‌افزار. رابط برنامه انگلیسی و چپ‌به‌راست باقی می‌ماند.'},
@@ -3328,6 +3345,7 @@ function renderGuideMarkdown(root,markdown){
 }
 function renderGuideChapters(lang){
  const root=document.getElementById('guideChapters');if(!root)return;
+ root.lang=lang;root.dir=GUIDE_RTL_LANGS.has(lang)?'rtl':'ltr';
  const entries=GUIDE_CONTENT[lang]||GUIDE_CONTENT.en;root.replaceChildren();
  entries.forEach((entry,index)=>{
   const details=document.createElement('details');if(index===0)details.open=true;
@@ -3343,10 +3361,14 @@ function renderGuideChapters(lang){
 function currentGuideLang(){try{const v=window.HandymanUIDomainGatewayV264?.states?.support?.preferences||'en';return Object.prototype.hasOwnProperty.call(GUIDE_LANGS,v)?v:'en'}catch(e){return 'en'}}
 function applyGuideLanguage(lang){
  const safe=Object.prototype.hasOwnProperty.call(GUIDE_LANGS,lang)?lang:'en';
+ const rtl=GUIDE_RTL_LANGS.has(safe);
+ // Keep the application shell English/LTR; apply direction only to the translated guide.
  document.documentElement.lang='en';document.documentElement.dir='ltr';document.body.classList.remove('guide-language-rtl');
  const labels=GUIDE_LABELS[safe],title=document.querySelector('#userGuide > h2'),intro=document.querySelector('#userGuide > .settings-intro');
- if(title)title.textContent=labels.title;if(intro)intro.textContent=labels.intro;
+ if(title){title.textContent=labels.title;title.lang=safe;title.dir=rtl?'rtl':'ltr';}
+ if(intro){intro.textContent=labels.intro;intro.lang=safe;intro.dir=rtl?'rtl':'ltr';}
  const guide=document.getElementById('userGuide');
+ if(guide){guide.lang=safe;guide.dir=rtl?'rtl':'ltr';guide.classList.toggle('guide-language-rtl',rtl);}
  if(guide&&guide.classList.contains('active'))renderGuideChapters(safe);
  const sel=document.getElementById('appLanguageSelect');if(sel)sel.value=safe;
  const status=document.getElementById('languageSavedStatus');if(status)status.textContent=GUIDE_LANGS[safe]+' — guide language selected on this device.';

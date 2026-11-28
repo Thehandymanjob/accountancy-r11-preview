@@ -863,3 +863,18 @@
 - **Version Authority Gate:** PASS؛ run `46071628688` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46071628688؛ Build R62، canonical URL، SHA صفحه و تمام ۲۴ asset pin تأیید شدند.
 - تست واقعی مرورگر / موبایل: هنوز انجام نشده؛ به‌خصوص Category picker، پنجره Entry Saved و Invoice Preview باید تست شوند.
 - انتشار / داده: هیچ Preview deploy، Merge، تغییر داده یا Production change انجام نشده است.
+
+
+#### UI-BIDI-001 — اصلاح نمایش متن ترکیبی در راهنمای راست‌به‌چپ
+
+- تاریخ: 2026-11-28
+- وضعیت: Fixed — awaiting verification.
+- علامت: در زبان‌های راست‌به‌چپ، ترکیب جمله‌های فارسی/عربی با واژه‌های انگلیسی، شماره‌ها و مقادیر عددی ترتیب خواندن را به‌هم می‌زند.
+- علت ریشه‌ای تأییدشده از سورس: تابع `applyGuideLanguage()` زبان راهنما را انتخاب می‌کرد، اما جهت سند و بدنه را عمداً LTR نگه می‌داشت و برای خود `#userGuide` و محتوای فصل‌ها هیچ `dir` یا `lang` تنظیم نمی‌کرد. بنابراین مرورگر متن ترجمه‌شده را با پایه LTR الگوریتم BiDi مرتب می‌کرد.
+- اصلاح Preview development: جهت و زبان فقط روی صفحه User Guide، عنوان، مقدمه و فهرست فصل‌ها اعمال می‌شود؛ پوسته برنامه و فرم‌های حسابداری همچنان English/LTR می‌مانند. بلوک‌های کد و متن‌های کدگونه در RTL به‌صورت LTR و ایزوله نمایش داده می‌شوند. از افزودن کاراکترهای کنترلی نامرئی به ترجمه‌ها یا تغییر محتوای ترجمه اجتناب شد.
+- فایل‌های تغییرکرده: `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`، `VERSION-AUTHORITY.json`، `docs/REPAIR_HISTORY_FA.md` و `docs/REPAIR_INDEX_FA.md`.
+- Commit کد: `c5d813b80db218ca86fa313a9436d6058fc1bb20`.
+- تست ایستا: تغییرات ساختاری بررسی می‌شوند؛ تست واقعی مرورگر و iPhone Safari هنوز انجام نشده است.
+- Deploy / Merge: هنوز انجام نشده؛ PR Preview باید Gate را بگذراند. انتشار Preview فقط پس از تأیید کاربر.
+- داده‌ها: هیچ رکورد مالی، IndexedDB، LocalStorage، بکاپ یا داده Production تغییر داده نشده است.
+- Production: دست‌نخورده؛ ارتقا مجاز نیست.
