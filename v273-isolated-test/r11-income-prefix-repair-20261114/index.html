@@ -3507,15 +3507,14 @@ function renderGuideChapters(lang){
  root.lang=lang;root.dir=rtl?'rtl':'ltr';
  const entries=GUIDE_CONTENT[lang]||GUIDE_CONTENT.en;root.replaceChildren();
  entries.forEach((entry,index)=>{
-  const details=document.createElement('details');if(index===0)details.open=true;
+  // Keep every chapter expanded and its complete text rendered immediately.
+  // This avoids empty-looking chapters when the guide is first opened or its language changes.
+  const details=document.createElement('details');details.open=true;
   details.lang=lang;details.dir=rtl?'rtl':'ltr';
   const summary=document.createElement('summary');summary.textContent=(index+1)+'. '+entry[0];summary.lang=lang;summary.dir=rtl?'rtl':'ltr';
   const content=document.createElement('div');content.className='help-guide-body';content.lang=lang;content.dir=rtl?'rtl':'ltr';content.style.lineHeight='1.65';content.style.padding='8px 4px';
-  let rendered=false;
-  const renderChapter=()=>{if(rendered)return;rendered=true;renderGuideMarkdown(content,entry[1]);};
-  details.addEventListener('toggle',()=>{if(details.open)renderChapter();});
+  renderGuideMarkdown(content,entry[1]);
   details.append(summary,content);root.appendChild(details);
-  if(index===0)renderChapter();
  });
 }
 function currentGuideLang(){try{const v=window.HandymanUIDomainGatewayV264?.states?.support?.preferences||'en';return Object.prototype.hasOwnProperty.call(GUIDE_LANGS,v)?v:'en'}catch(e){return 'en'}}
@@ -3531,7 +3530,7 @@ function applyGuideLanguage(lang){
  if(intro){intro.textContent=labels.intro;intro.lang=safe;intro.dir=rtl?'rtl':'ltr';}
  const guide=document.getElementById('userGuide');
  if(guide){guide.lang=safe;guide.dir=rtl?'rtl':'ltr';guide.classList.toggle('guide-language-rtl',rtl);}
- if(guide&&guide.classList.contains('active'))renderGuideChapters(safe);
+ if(guide)renderGuideChapters(safe);
  const sel=document.getElementById('appLanguageSelect');if(sel){sel.value=safe;sel.disabled=false;}
  const status=document.getElementById('languageSavedStatus');if(status)status.textContent=GUIDE_LANGS[safe]+' — guide language selected on this device.';
 }
