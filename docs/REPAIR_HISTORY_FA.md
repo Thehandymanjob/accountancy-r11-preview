@@ -1217,5 +1217,5 @@
 - علت دوم: renderer برای هر عنصر details صریحاً open=true تنظیم می‌کرد؛ بنابراین همه فصل‌ها در هر بار بازنمایی باز می‌شدند.
 - اصلاح R83: مقدار معتبر انتخاب‌گر appLanguageSelect اولویت منبع زبان شد و فقط در نبود مقدار معتبر به preference ذخیره‌شده رجوع می‌شود؛ همه فصل‌ها با details.open=false بسته ساخته می‌شوند.
 - Build ID: THA-273-R11-PREVIEW-20261128-R83؛ commit اولیه index در development: 40e2952bea147c86de685ab46257777a4a85f570.
-- PR، Version Authority Gate، syntax check نهایی و Pages Deploy در انتظار هستند. آزمایش واقعی iPhone Safari هنوز انجام نشده است.
+- Gate نخست به علت باقی‌ماندن مقدار داخلی R11_CANONICAL_PAGE_URL روی R82 رد شد؛ مقدار داخلی به R83 اصلاح و SHA pin در Authority به‌روزرسانی شد. اجرای مجدد Gate، syntax check نهایی و Pages Deploy در انتظار هستند. آزمایش واقعی iPhone Safari هنوز انجام نشده است.
 - فقط رابط و سوابق Preview تغییر می‌کنند؛ Production، داده‌های مالی، IndexedDB، Backup و Restore تغییر یا اجرا نمی‌شوند.
