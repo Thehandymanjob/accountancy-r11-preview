@@ -3065,8 +3065,8 @@
         "url": "pending"
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Final inline JavaScript syntax, Chapter 5 English/Persian assertions, app identity and 24 pinned runtime assets pending verification."
+        "result": "PASS",
+        "details": "All 8 inline JavaScript blocks passed V8 syntax compilation; English/Persian Chapter 5 source assertions passed; R69 Build ID, canonical URL and indexBlobSha matched; all 24 pinned runtime asset SHAs matched the development tree."
       },
       "previewPagesDeployment": {
         "result": "pending",
