@@ -982,6 +982,6 @@
 - SHA نهایی فایل index و pin Authority: `e5a4136440f05042d1afa5971101a01d770f87a4`.
 - اصلاح کنترل کیفیت: Gate اولیه یکسان‌نبودن canonical URL داخل HTML با R70 را شناسایی کرد؛ URL اصلاح و Authority pin همگام شد. Gate برای head نهایی دوباره در حال اجراست.
 - وضعیت راهنما: شش فصل از ۱۲ فصل انگلیسی و فارسی تکمیل شده‌اند؛ شش فصل باقی مانده است. سایر زبان‌ها تغییر نکرده‌اند.
-- تست ایستا: PASS؛ هر ۸ بلوک inline JavaScript با V8 کامپایل شدند؛ محتوای فصل ششم در هر دو زبان و Build ID بررسی شد؛ ۲۳ فایل runtime بدون تغییر با SHAهای Authority تطابق دارند و SHA فایل index به‌روزرسانی شد. Version Authority Gate برای PR head، Deploy، مرورگر واقعی و iPhone Safari هنوز تأیید نشده‌اند.
+- تست ایستا: PASS؛ هر ۸ بلوک inline JavaScript با V8 کامپایل شدند؛ محتوای فصل ششم در هر دو زبان و Build ID بررسی شد؛ ۲۳ فایل runtime بدون تغییر با SHAهای Authority تطابق دارند و SHA فایل index به‌روزرسانی شد. Version Authority Gate: PASS؛ run `46131207022` برای PR head پیش از ثبت همین نتیجه در Authority. Pages Deploy، مرورگر واقعی و iPhone Safari هنوز انجام نشده‌اند.
 - PR: ادامه PR شماره 104؛ باز و بدون Merge یا Preview Deploy.
 - داده‌ها و Production: هیچ عملیات Backup یا Restore اجرا نشد؛ هیچ داده مالی، IndexedDB یا LocalStorage تغییر نکرد؛ Production دست‌نخورده است.
