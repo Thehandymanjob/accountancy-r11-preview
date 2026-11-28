@@ -3099,13 +3099,14 @@
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 46131207022,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46131207022",
+        "details": "The R11 Version Authority Gate passed for PR #104 head 61c1bc244aaee3ef5d057498fdeb37896255cd0b after the R70 canonical URL and index SHA corrections."
       },
       "staticChecks": {
         "result": "PASS",
-        "details": "All 8 inline JavaScript blocks compiled successfully with V8. English and Persian Chapter 6 content assertions passed. R70 Build ID and canonical URL match the HTML and authority metadata; index blob SHA and index runtime pin both equal e5a4136440f05042d1afa5971101a01d770f87a4. All 23 unchanged runtime asset pins match the development tree. The Version Authority Gate initially identified the stale HTML canonical URL; it was corrected before final validation. Latest Gate result is pending."
+        "details": "All 8 inline JavaScript blocks compiled successfully with V8. English and Persian Chapter 6 content assertions passed. R70 Build ID and canonical URL match the HTML and authority metadata; index blob SHA and index runtime pin both equal e5a4136440f05042d1afa5971101a01d770f87a4. All 24 authority-pinned runtime assets match the development tree. The Version Authority Gate passed on PR head 61c1bc244aaee3ef5d057498fdeb37896255cd0b."
       },
       "previewPagesDeployment": {
         "result": "pending",
