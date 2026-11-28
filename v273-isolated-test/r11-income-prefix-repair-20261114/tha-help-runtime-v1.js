@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R67') return;
+  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R68') return;
   const payload = window.THAHelpContentV1;
   if (!payload || !payload.entries) {
     console.error('[THA Help] Content bundle is missing; contextual help was not started.');
@@ -246,14 +246,39 @@
     }
     wrapper.hidden=hidden;
   }
-  // R67 emergency safety lock: contextual Help stays disabled until its DOM
-  // integration is rebuilt and verified. Never scan or wrap the application DOM.
-  function helpIconsEnabled(){return false;}
-  function setHelpIconsEnabled(){
-    try{window.localStorage.removeItem('thaHelpIconsEnabled');}catch(_){}
+  // R68: opt-in state is isolated to one non-financial UI preference.
+  let helpEnabled=false;
+  let activeRoots=[];
+  const activeObservers=new Map();
+  const touchedRoots=new Set();
+  function helpIconsEnabled(){return helpEnabled;}
+  function detachHelpButtons(root){
+    if(!root)return;
+    const wrappers=[];
+    if(root.nodeType===1&&root.classList&&root.classList.contains('tha-help-control-wrap'))wrappers.push(root);
+    if(root.querySelectorAll)wrappers.push(...root.querySelectorAll('.tha-help-control-wrap'));
+    wrappers.forEach(wrapper=>{
+      const target=wrapper.querySelector('[data-help-id]');
+      if(target&&wrapper.parentNode){wrapper.parentNode.insertBefore(target,wrapper);delete target.dataset.thaHelpWrapped;}
+      wrapper.remove();
+    });
+  }
+  function stopObservers(){
+    activeObservers.forEach(observer=>observer.disconnect());
+    activeObservers.clear();
+  }
+  function setHelpIconsEnabled(value){
+    helpEnabled=!!value;
+    try{window.localStorage.setItem('thaHelpIconsEnabled',helpEnabled?'true':'false');}catch(error){console.warn('[THA Help] Preference could not be saved.',error);}
     const control=document.getElementById('thaHelpIconsEnabled');
-    if(control){control.checked=false;control.disabled=true;}
-    return false;
+    if(control){control.checked=helpEnabled;control.disabled=false;control.removeAttribute('aria-disabled');}
+    if(helpEnabled){activateRoots(activeRoots.length?activeRoots:[document.getElementById('appLauncher')]);}
+    else{
+      stopObservers();
+      touchedRoots.forEach(detachHelpButtons);
+      touchedRoots.clear();
+    }
+    return helpEnabled;
   }
   function attachHelpButtons(root){
     if(!helpIconsEnabled())return;
@@ -281,20 +306,66 @@
       syncHelpWrapper(target);
     });
   }
-  function attachAll(root){if(!helpIconsEnabled())return;attachStaticBindings(root);attachHelpButtons(root);}
+  function attachAll(root){if(!helpIconsEnabled()||!root)return;attachStaticBindings(root);attachHelpButtons(root);}
+  function activateRoots(roots){
+    activeRoots=[...new Set((roots||[]).filter(root=>root&&root.nodeType===1&&root.isConnected))];
+    if(!helpEnabled)return;
+    stopObservers();
+    activeRoots.forEach(root=>{
+      touchedRoots.add(root);
+      attachAll(root);
+      if(typeof MutationObserver!=='function')return;
+      const observer=new MutationObserver(records=>{
+        const hasAppChanges=records.some(record=>Array.from(record.addedNodes||[]).some(node=>
+          node.nodeType===1&&!(node.classList&&node.classList.contains('tha-help-control-wrap'))&&
+          !(node.classList&&node.classList.contains('tha-help-trigger'))));
+        if(!hasAppChanges||!helpEnabled)return;
+        Promise.resolve().then(()=>{if(helpEnabled&&root.isConnected)attachAll(root);});
+      });
+      observer.observe(root,{childList:true,subtree:true});
+      activeObservers.set(root,observer);
+    });
+  }
+  function wrapGlobal(name,after){
+    const original=window[name];
+    if(typeof original!=='function'||original.__thaHelpWrapped)return;
+    const wrapped=function(){
+      const args=Array.from(arguments),result=original.apply(this,args);
+      if(result&&typeof result.then==='function')return result.then(value=>{after(args,value);return value;});
+      after(args,result);return result;
+    };
+    wrapped.__thaHelpWrapped=true;
+    window[name]=wrapped;
+  }
   function initialise(){
     createInterface();
-    // Clear only the obsolete Help preference; accounting data and other storage
-    // keys are never read, changed, migrated or removed here.
-    try{window.localStorage.removeItem('thaHelpIconsEnabled');}catch(_){}
-    const helpControl=document.getElementById('thaHelpIconsEnabled');
-    if(helpControl){helpControl.checked=false;helpControl.disabled=true;}
-    // No DOM observer or document-wide binding pass while Help is disabled.
+    const control=document.getElementById('thaHelpIconsEnabled');
+    try{helpEnabled=window.localStorage.getItem('thaHelpIconsEnabled')==='true';}catch(_){helpEnabled=false;}
+    if(control){
+      control.checked=helpEnabled;control.disabled=false;control.removeAttribute('aria-disabled');
+      control.addEventListener('change',()=>setHelpIconsEnabled(control.checked));
+    }
+    wrapGlobal('show',args=>{
+      const id=String(args[0]||'');
+      activateRoots([document.querySelector('.accountancy-nav'),document.getElementById(id)]);
+    });
+    wrapGlobal('prPage',args=>{
+      const name=String(args[0]||'');
+      activateRoots([document.querySelector('#projectsApp .pr-sidebar'),document.getElementById('prPage-'+name)]);
+    });
+    wrapGlobal('ctShowSection',()=>activateRoots([document.getElementById('contractsApp')]));
+    wrapGlobal('openAccountancy',()=>activateRoots([document.querySelector('.accountancy-nav'),document.querySelector('.panel.active')]));
+    wrapGlobal('openProjectsApp',()=>activateRoots([document.querySelector('#projectsApp .pr-sidebar'),document.querySelector('#projectsApp .pr-page:not(.pr-hidden)')]));
+    wrapGlobal('openContractsApp',()=>activateRoots([document.getElementById('contractsApp')]));
+    wrapGlobal('returnToLauncher',()=>activateRoots([document.getElementById('appLauncher')]));
+    wrapGlobal('closeProjectsApp',()=>activateRoots([document.getElementById('appLauncher')]));
+    wrapGlobal('closeContractsApp',()=>activateRoots([document.getElementById('appLauncher')]));
+    if(helpEnabled)activateRoots([document.getElementById('appLauncher')]);
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initialise,{once:true});
   else initialise();
   window.THAHelpRuntime=Object.freeze({
-    version:'R67',open:openHelp,openFullGuide,attach:attachAll,setEnabled:setHelpIconsEnabled,isEnabled:helpIconsEnabled,
+    version:'R68',open:openHelp,openFullGuide,attach:activateRoots,setEnabled:setHelpIconsEnabled,isEnabled:helpIconsEnabled,
     getLastHelpId:()=>lastHelpId,getPublishableCount:()=>Object.keys(payload.entries).length
   });
 })();

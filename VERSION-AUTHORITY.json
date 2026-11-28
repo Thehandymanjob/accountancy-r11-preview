@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261128-R83",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R83",
-    "indexBlobSha": "bc90b29b9aca0abb2462b7509c619dc96baab449",
+    "buildId": "THA-273-R11-PREVIEW-20261128-R84",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R84",
+    "indexBlobSha": "4fd88720c6ab75cbc19a16b536defda5bed59034",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,11 +30,11 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "bc90b29b9aca0abb2462b7509c619dc96baab449",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "4fd88720c6ab75cbc19a16b536defda5bed59034",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js": "3bea50e786ea252b9d639a1b7d1eff60aa61479a"
+      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js": "13ca3d148f2bdb086874227a7e8e8f20c925ba03"
     }
   },
   "rules": {
@@ -3639,15 +3639,15 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "f8bff81ab34aaf0face0ee6f4dded8164451808b",
+      "previewDevelopmentCommitSha": "d46b3bd6ad854121e417d98eed890535d45b0b80",
       "previewPullRequestNumber": 117,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/117",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "19cc20be36225ee98e8acf33b4dc3c3192da7c03",
       "versionAuthorityGate": {
         "result": "PASS",
-        "runId": 46169160950,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46169160950",
-        "details": "R11 Version Authority Gate passed on the PR #117 merge candidate after aligning the internal R11 canonical URL and refreshing the index runtime SHA pin."
+        "runId": 46169236307,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46169236307",
+        "details": "Final R11 Version Authority Gate passed on the final PR #117 head; PR #117 then merged to Preview main as 19cc20be36225ee98e8acf33b4dc3c3192da7c03."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
@@ -3657,7 +3657,7 @@
         "result": "pending",
         "runId": "pending",
         "url": "pending",
-        "details": "Awaiting Preview PR merge, Version Authority Gate and GitHub Pages deployment."
+        "details": "PR #117 is merged. Awaiting independent confirmation of GitHub Pages build and deployment on Preview main."
       },
       "userSafariTest": {
         "result": "not tested",
@@ -3670,6 +3670,56 @@
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
       "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "HELP-GUIDE-2026-11-28-CONTEXTUAL-ICONS-SCOPED-RUNTIME-R84",
+      "dateStarted": "2026-11-28",
+      "purpose": "Re-enable the User Guide contextual-help checkbox and rebuild the runtime to attach help icons only to supported controls, using explicit active-screen roots and scoped child-list observation instead of document-wide scanning.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "e1b54abf0b39829b91ce4d739b722b0bf4790187",
+      "previewPullRequestNumber": 118,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/118",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting final Version Authority Gate on the complete R84 PR head."
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "V8 parse PASS for the complete R68 runtime and all 9 inline JavaScript blocks in index.html. Source audit confirms 131 completed help entries are bound to existing static/dynamic controls; THA-HLP-0072 Check for Updates is deliberately inactive in Preview. The registry contains 97 additional CONTENT_DRAFT entries and these are not claimed as covered. Runtime uses scoped active-root childList observers only, no document-wide Help observer or attribute observer."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting final PR Gate and Preview Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user verification on iPhone Safari: checkbox persists, supported buttons show one ? icon, help opens correct English/Persian content, icon does not activate parent button, and toggling off removes icons."
+      },
+      "userApproval": {
+        "result": "authorized for Preview repair only",
+        "details": "User explicitly requested proceeding with contextual help checkbox/button integration. No Production promotion authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable",
+      "coverageAudit": {
+        "completeContentEntries": 132,
+        "attachedContentEntries": 131,
+        "previewDisabledEntry": "THA-HLP-0072 — Check for Updates",
+        "registryDraftEntries": 97,
+        "details": "132 content-complete entries exist in 11 languages; 131 are attached to controls and Check for Updates (THA-HLP-0072) remains intentionally inactive in Preview. The wider 229-entry button registry includes 97 CONTENT_DRAFT entries; these require content completion and separate mapping before full inventory coverage can be claimed."
+      }
     }
   ],
   "history": [
