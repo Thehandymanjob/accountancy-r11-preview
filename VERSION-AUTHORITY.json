@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261128-R73",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R73",
-    "indexBlobSha": "003b8f6db2edfc7159884c72a25d7333829611b4",
+    "buildId": "THA-273-R11-PREVIEW-20261128-R74",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R74",
+    "indexBlobSha": "54ebbf93dd1ecdf5d5a3fcc3b9bdb3759db8e5b6",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "003b8f6db2edfc7159884c72a25d7333829611b4",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "54ebbf93dd1ecdf5d5a3fcc3b9bdb3759db8e5b6",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
@@ -48,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "Preview R73 completes the English and Persian User Guide chapter 9, Business Workspace and Projects, using the current Projects UI and financial-report calculations. It corrects the parent-project agreed-price instructions, documents project/sub-project ledgers, partner shares, report figures and the separation from Accountancy. The other nine language contents and all application logic/runtime assets remain unchanged. PR #104 remains the Preview-only review path; R73 Gate, Pages deployment and iPhone Safari testing are pending. No financial records, IndexedDB data, backups or Production files were changed.",
+  "note": "Preview R74 completes the English and Persian User Guide chapter 10, Contract Management, aligned with the current contract editor, saved-contract list, IndexedDB read-back verification, quotation/contract print output and PDF workflow. It corrects unsupported descriptions of amendment/version history: the current editor overwrites the saved document and has no dedicated version archive, so users are instructed to retain signed copies externally. Other language sections and all runtime dependencies remain unchanged. PR #104 remains Preview-only; R74 Gate, Pages deployment and iPhone Safari testing are pending. No financial records, IndexedDB data or Production files were changed.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {
@@ -3233,6 +3233,48 @@
       "staticChecks": {
         "result": "PARTIAL",
         "details": "PASS: Build ID, canonical URL and index blob SHA match; all 24 pinned assets remain present; English/Persian chapter 9 content assertions and corrected parent/sub-project pricing statements passed; the four-file PR diff is limited to the approved app index and audit metadata. The other language blocks were not edited. A separate V8 parse of all inline JavaScript blocks was not run in this environment."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "No Preview merge or Pages deployment has been performed."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting Preview deployment and user verification on iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continuation of the English/Persian User Guide; this is not authorization to merge or deploy."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-28-HELP-GUIDE-CHAPTER-10-R74",
+      "dateStarted": "2026-11-28",
+      "purpose": "Complete English and Persian User Guide chapter 10, Contract Management, accurately describing the current contract/quotation editor, saved documents, IndexedDB save verification, writing assistance and PDF workflow.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "6ceca60c566615f44d6a70392b63315777d32372",
+      "previewPullRequestNumber": 104,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting R74 Gate on the final PR head after authority and repair-history updates."
+      },
+      "staticChecks": {
+        "result": "PARTIAL",
+        "details": "PASS: chapter 10 English/Persian content markers, actual UI labels and workflow assertions, R74 Build ID/canonical URL and index blob SHA; all 24 Preview runtime pins were checked against development with no mismatch (binary image assets validated by the Version Authority Gate rather than text fetch). Production main identity and all 18 text-readable runtime pins matched its own manifest. Separate V8 parsing of all inline JavaScript blocks is pending/not run."
       },
       "previewPagesDeployment": {
         "result": "pending",
