@@ -1183,3 +1183,12 @@
 - علت دقیق: پل R80 با جست‌وجوی اولین رشته `</body></html>` درج شده بود؛ اما اولین مورد داخل رشته JavaScript تولید صفحه چاپ/PDF قرار داشت، نه انتهای سند اصلی. تگ `</script>` پل، اسکریپت والد را زودتر بست و ادامه کد به‌صورت متن عادی نمایش داده شد. این خطا در نحوه درج R80 ایجاد شد.
 - اصلاح R81: پل اشتباه حذف و فقط پیش از آخرین تگ‌های بسته‌شدن سند واقعی اضافه شد. شناسه Build: `THA-273-R11-PREVIEW-20261128-R81`.
 - هنوز PR/Gate/Deploy و تست Safari انجام نشده‌اند. Production، داده‌های مالی و IndexedDB تغییر نکرده‌اند.
+
+
+**نتیجه انتشار R81 — 2026-11-28**
+- PR #113 با موفقیت Merge شد؛ commit: `e9a0b83f69e9430946affe6a4860a123dfe0e012`.
+- Version Authority Gate: PASS؛ run `46167114776`.
+- GitHub Pages build/deploy/report: PASS؛ run `46167114090`.
+- لینک Preview: https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R81
+- آزمایش واقعی Safari هنوز لازم است؛ مشکل تا تأیید کاربر بسته نمی‌شود.
+- Production و داده‌های مالی/IndexedDB تغییر نکرده‌اند.
