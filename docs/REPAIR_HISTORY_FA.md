@@ -827,6 +827,27 @@
 - Production: بدون تغییر و ارتقا مجاز نیست.
 - وضعیت راهنما: هفت فصل از ۱۲ فصل انگلیسی و فارسی تکمیل شده‌اند؛ پنج فصل باقی مانده است. سایر زبان‌ها دست‌نخورده باقی مانده‌اند.
 
+
+#### بازنگری R72 — تکمیل فصل هشتم Settings, Profile and Software Update
+
+- تاریخ: 2026-11-28
+- نوع تغییر: ادامه پرونده HELP-GUIDE-001؛ شناسه تعمیر جدید ایجاد نشد.
+- فصل: `Settings, Profile and Software Update` به انگلیسی و `تنظیمات، پروفایل و به‌روزرسانی نرم‌افزار` به فارسی.
+- اصلاح مسیر: مسیر قدیمی `Settings → Help` که دیگر با رابط فعلی سازگار نبود، به مسیر واقعی `Settings → User Guide` اصلاح شد. توضیح داده شد که انتخاب زبان فقط متن راهنما را تغییر می‌دهد و رابط اصلی انگلیسی/LTR می‌ماند.
+- محتوای تکمیل‌شده: فیلدهای Business name، Owner name، Phone، Email و Invoice payment / bank details؛ هشدار درباره رمزهای بانکی و PIN؛ محدودیت و اندازه پیشنهادی لوگو؛ Save Profile و Remove Logo؛ انتخاب زبان English/Persian؛ وضعیت واقعی Software Update در نسخه آزمایشی؛ و هشدارهای Factory Reset.
+- دقت نسخه: در این test build گزینه‌های Check for Updates و Update Now غیرفعال‌اند و صفحه updater اقدام قابل اجرا ندارد. برای تشخیص Build ID، راهنما به Settings → Monitor & Diagnostics → Show version details ارجاع می‌دهد.
+- حفاظت داده: Factory Reset به‌عنوان جایگزینی مخرب IndexedDB توضیح داده شد؛ استفاده از فایل منبع تأییدشده و ذخیره emergency snapshot پیش‌نیاز است. هیچ Factory Reset، Backup، Restore یا آزمون IndexedDB اجرا نشد.
+- محدوده تغییر: فقط محتوای انگلیسی و فارسی فصل هشتم، Build ID و Authority pin و مستندات تغییر؛ محتوای ۹ زبان دیگر، منطق برنامه، داده‌های مالی، محاسبات، IndexedDB، LocalStorage، Backup و Production تغییر نکردند.
+- Build ID: `THA-273-R11-PREVIEW-20261128-R72`.
+- Commit محتوای فصل: `78e189ac5fdd9293b124e398bccb41d80aa037a7`.
+- Commit تغییر Build ID: `36e7cc145f9e97e007a53dd40cbbd4f0cb973d70`.
+- SHA فایل index و pin Authority: `72570659423504907463f336246af0a8b177cdb3`.
+- Commit ثبت Authority: `0e60591e1c5b0107004d4e0822f8345fd20054b3`.
+- PR: ادامه PR شماره 104؛ `https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104`.
+- تست ایستا، Version Authority Gate، Preview Deploy و iPhone Safari: در انتظار اجرای تست‌های R72؛ نتایج R71 جایگزین این بررسی‌ها نیستند.
+- Production: بدون تغییر و ارتقا مجاز نیست.
+- وضعیت راهنما: هشت فصل از ۱۲ فصل انگلیسی و فارسی تکمیل شده‌اند؛ چهار فصل باقی مانده است. سایر زبان‌ها دست‌نخورده باقی مانده‌اند.
+
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
 - **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Implemented on Preview development; the latest R45 Version Authority Gate passed after native-HTML fail-closed hardening (run 46053038295). Pages deployment and iPhone Safari verification remain pending.
