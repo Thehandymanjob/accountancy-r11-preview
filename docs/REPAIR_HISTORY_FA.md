@@ -1086,6 +1086,6 @@
 - تست ایستای فصل یازدهم انگلیسی/فارسی و assertionهای Main Menu، شش گزینه Settings، پروفایل، User Guide، updater، Monitor، Contact Us و Factory Reset: PASS.
 - سایر زبان‌ها و فایل‌های runtime در این تغییر ویرایش نشدند. هر ۲۴ فایل پین‌شده Preview، از جمله self-pin فایل index.html، با SHAهای Authority تطبیق داده شدند: PASS. اجرای نهایی Gate روی head نهایی در انتظار است.
 - وضعیت راهنما: ۱۱ فصل از ۱۲ فصل انگلیسی و فارسی تکمیل شده‌اند؛ فقط فصل دوازدهم Data Safety and Troubleshooting باقی است. زبان‌های دیگر حفظ شدند.
-- R11 Version Authority Gate، Preview Pages Deploy، مرورگر واقعی و iPhone Safari: در انتظار؛ تا مشاهده نتیجه هیچ‌کدام PASS اعلام نمی‌شوند. بررسی مستقل V8 برای syntax تمام بلوک‌های inline JavaScript نیز در این مرحله اجرا نشده است.
+- R11 Version Authority Gate: PASS؛ run 46133226460 روی PR #104 head برابر با 65ab27f4eb4dc9ad5b7556652336cd5b4fb23fb6؛ ancestry مبنا، هویت R11 و تمام ۲۴ فایل pin‌شده تأیید شدند. این Gate پیش از commit ثبت سوابق PASS شده است؛ اجرای Gate نهایی روی head پس از ثبت همین سوابق باید دوباره بررسی شود. Preview Pages Deploy، مرورگر واقعی و iPhone Safari هنوز انجام نشده‌اند. بررسی مستقل V8 برای syntax تمام بلوک‌های inline JavaScript نیز اجرا نشده است.
 - PR: ادامه PR شماره 104؛ Draft و باز باقی می‌ماند؛ Merge و Preview Deploy انجام نمی‌شود.
 - داده‌ها و Production: هیچ رکورد مالی، IndexedDB، Backup یا Restore تغییر نکرد؛ Production دست‌نخورده و ارتقا غیرمجاز است.
