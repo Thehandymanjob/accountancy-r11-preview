@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261127-R64",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R64",
-    "indexBlobSha": "d1c23f559a6d39395e6917bf91deb62293d26406",
+    "buildId": "THA-273-R11-PREVIEW-20261128-R76",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R76",
+    "indexBlobSha": "3572fff7387ed2ce9f9fc92a6626390d5df63c34",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "d1c23f559a6d39395e6917bf91deb62293d26406",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "3572fff7387ed2ce9f9fc92a6626390d5df63c34",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
@@ -48,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "R67 emergency Help-runtime safety repair is merged into Preview main and GitHub Pages deployment completed successfully. App Build ID and canonical URL remain R64 by authority rule; independent Help Runtime is R67. Contextual Help is fail-closed, its document-wide observer/scan is removed, only the obsolete Help preference key is cleared, and duplicate User Guide settings are consolidated. V8 syntax checks and all 24 SHA pins passed; PR #101 merged as a4700aed5fd7d1a53c2a9538dbab4dce3f0caec1; post-merge Version Authority Gate PASS (run 46126922043) and Pages deployment PASS (run 46126921877). iPhone Safari verification remains pending. Production and IndexedDB data are unchanged.",
+  "note": "Preview R76 completes the English and Persian User Guide chapter 12, Data Safety and Troubleshooting. The chapter explains browser-local IndexedDB storage, safe backup handling, Restore and Factory Reset risks, missing-record and save-failure checks, report/PDF troubleshooting, device/browser precautions, diagnostic privacy and the local-draft-only Contact Us form. Only English and Persian chapter 12 text and R76 identity metadata changed; other language content and runtime dependencies remain unchanged. PR #104 remains Preview-only and Draft; final Gate, Preview Pages deployment and iPhone Safari testing are pending. No financial records, IndexedDB data or Production files were changed.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {
@@ -3005,6 +3005,377 @@
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
       "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-28-USER-GUIDE-CHAPTER-4-001",
+      "dateStarted": "2026-11-28",
+      "purpose": "Rewrite User Guide chapter 4, Records, Customers and Invoices, in practical English and Persian, including records search, customer details, invoice creation, invoice/payment states, linked income and PDF review.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "7ca27f5720caa8fccbca9c6c3979c1786ad71c19",
+      "previewPullRequestNumber": 104,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": null,
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "All 8 inline JavaScript blocks passed V8 syntax compilation; English/Persian chapter 4 and R68 source assertions passed; app Build ID, canonical URL and indexBlobSha matched; all 24 runtime asset SHA pins matched the development tree."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "details": "No Preview deployment requested or performed."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Real browser and iPhone Safari verification have not been performed."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting Preview verification and user approval."
+      },
+      "productionPromotionStatus": "pending",
+      "productionPullRequestUrl": "pending",
+      "productionCommitSha": "pending"
+    },
+    {
+      "changeId": "THA-2026-11-28-USER-GUIDE-CHAPTER-5-001",
+      "dateStarted": "2026-11-28",
+      "purpose": "Rewrite User Guide chapter 5, Reports, Tax and Reminders, in practical English and Persian using the current application workflow and explicit limitations.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "2e8d0dffba7a2ab95b130e3176cea4784da0c3ae",
+      "previewPullRequestNumber": 104,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": null,
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "All 8 inline JavaScript blocks passed V8 syntax compilation; English/Persian Chapter 5 source assertions passed; R69 Build ID, canonical URL and indexBlobSha matched; all 24 pinned runtime asset SHAs matched the development tree."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "details": "No Preview deployment requested or performed."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Real browser and iPhone Safari verification have not been performed."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting Preview verification and user approval."
+      },
+      "productionPromotionStatus": "pending",
+      "productionPullRequestUrl": "pending",
+      "productionCommitSha": "pending"
+    },
+    {
+      "changeId": "THA-2026-11-28-HELP-GUIDE-CHAPTER-6-R70",
+      "dateStarted": "2026-11-28",
+      "purpose": "Complete the English/Persian User Guide Chapter 6, Backup and Restore. Expand the Persian chapter to match the detailed English instructions for creating and verifying a complete backup, saving the JSON file on iPhone, preserving separate copies, and understanding that Restore replaces the entire current database. No backup/restore implementation or user data changed.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "288635d11397b76aacc5834cef762828da9c2f51",
+      "previewPullRequestNumber": 104,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46131207022,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46131207022",
+        "details": "The R11 Version Authority Gate passed for PR #104 head 61c1bc244aaee3ef5d057498fdeb37896255cd0b after the R70 canonical URL and index SHA corrections."
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "All 8 inline JavaScript blocks compiled successfully with V8. English and Persian Chapter 6 content assertions passed. R70 Build ID and canonical URL match the HTML and authority metadata; index blob SHA and index runtime pin both equal e5a4136440f05042d1afa5971101a01d770f87a4. All 24 authority-pinned runtime assets match the development tree. The Version Authority Gate passed on PR head 61c1bc244aaee3ef5d057498fdeb37896255cd0b."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "No Preview merge or Pages deployment has been performed."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting Preview deployment and user verification on iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continuation of the English/Persian User Guide. This is not approval to merge or deploy."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-28-HELP-GUIDE-CHAPTER-7-R71",
+      "dateStarted": "2026-11-28",
+      "purpose": "Complete and clarify English and Persian User Guide Chapter 7, Monitor & Diagnostics. Explain version details, Activity archive filters, local checks, read-only storage checks, the temporary-write nature of Test IndexedDB Storage, diagnostic exports and safe troubleshooting. Documentation/UI guide content only.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "97004df01222629b821d9b0b455a7465cc4bfe18",
+      "previewPullRequestNumber": 104,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46131607901,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46131607901",
+        "details": "Gate passed on the PR head containing the R71 source, Build ID, canonical URL and all four intended changed files. The subsequent update to audit evidence triggers a fresh Gate on the new PR head."
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "All 8 inline JavaScript blocks compiled with V8. English/Persian Chapter 7 content assertions passed. R71 Build ID and canonical URL matched HTML and Authority; the PR Gate verified approved ancestry and all 24 pinned runtime assets."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "No Preview merge or Pages deployment has been performed."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting Preview deployment and user verification on iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continuation of the English/Persian User Guide; this is not authorization to merge or deploy."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-28-HELP-GUIDE-CHAPTER-8-R72",
+      "dateStarted": "2026-11-28",
+      "purpose": "Complete English and Persian User Guide Chapter 8, Settings, Profile and Software Update. Correct the outdated Settings → Help navigation to Settings → User Guide; explain business profile and logo fields, the guide-only language selector, the currently disabled updater and the destructive Factory Reset safeguards. Other language content remains unchanged.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "b9544c4b353e48e380926af37cdfb94a4eb28bd8",
+      "previewPullRequestNumber": 104,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46131972667,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46131972667",
+        "details": "R11 Version Authority Gate passed on the complete R72 PR head after the Chapter 8 content and audit evidence were recorded. Approved baseline ancestry and all 24 authority-pinned runtime assets passed."
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "All 8 inline JavaScript blocks compiled with V8. English/Persian Chapter 8 assertions passed; corrected Settings → User Guide path, disabled updater status, Monitor Build ID reference and Factory Reset safeguards verified. Nine other language sections were compared against R71 and unchanged."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "No Preview merge or Pages deployment has been performed."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting Preview deployment and user verification on iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continuation of the English/Persian User Guide; this is not authorization to merge or deploy."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-28-HELP-GUIDE-CHAPTER-9-R73",
+      "dateStarted": "2026-11-28",
+      "purpose": "Complete the English and Persian User Guide chapter 9, Business Workspace and Projects, aligned with the current Projects screens, sub-project pricing, ledgers, partner shares and Project Profit & Loss calculations.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "eddc1aac7bbfd79a63b4656d41a4b02d68464338",
+      "previewPullRequestNumber": 104,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46132251995,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46132251995",
+        "details": "R11 Version Authority Gate completed successfully on PR #104 head f6a06155f88c50f7bebb14e075a684162fcf3ee7. The approved baseline ancestry, app identity and all 24 authority-pinned runtime assets passed."
+      },
+      "staticChecks": {
+        "result": "PARTIAL",
+        "details": "PASS: Build ID, canonical URL and index blob SHA match; all 24 pinned assets remain present; English/Persian chapter 9 content assertions and corrected parent/sub-project pricing statements passed; the four-file PR diff is limited to the approved app index and audit metadata. The other language blocks were not edited. A separate V8 parse of all inline JavaScript blocks was not run in this environment."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "No Preview merge or Pages deployment has been performed."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting Preview deployment and user verification on iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continuation of the English/Persian User Guide; this is not authorization to merge or deploy."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-28-HELP-GUIDE-CHAPTER-10-R74",
+      "dateStarted": "2026-11-28",
+      "purpose": "Complete English and Persian User Guide chapter 10, Contract Management, accurately describing the current contract/quotation editor, saved documents, IndexedDB save verification, writing assistance and PDF workflow.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "6ceca60c566615f44d6a70392b63315777d32372",
+      "previewPullRequestNumber": 104,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46132673304,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46132673304",
+        "details": "R11 Version Authority Gate completed successfully on PR #104 head 830f92c7a9614141ccf4491a0e37b75c1a877af6; approved baseline ancestry, R11 app identity and all 24 pinned runtime assets passed."
+      },
+      "staticChecks": {
+        "result": "PARTIAL",
+        "details": "PASS: chapter 10 English/Persian content assertions, current UI labels and save/quotation/PDF workflow claims, R74 Build ID/canonical URL/index SHA; other language sections compared unchanged against R73. All 24 Preview pins were checked against development with no text-readable mismatch; binary assets are validated by the Gate. Production main identity and 18 text-readable runtime pins matched the Production manifest. A separate V8 syntax parse of every inline JavaScript block was not run."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "No Preview merge or Pages deployment has been performed."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting Preview deployment and user verification on iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continuation of the English/Persian User Guide; this is not authorization to merge or deploy."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-28-HELP-GUIDE-CHAPTER-11-R75",
+      "dateStarted": "2026-11-28",
+      "purpose": "Complete English and Persian User Guide chapter 11, Settings, Profile and Software Update, accurately describing the Main Menu entry point, all six Settings shortcuts, profile/logo save behavior, guide language and local-only Contact Us draft, disabled test-build updater, Monitor version details and destructive Factory Reset precautions.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "6bcf60565328356e2ae76586c0313033b57e77eb",
+      "previewPullRequestNumber": 104,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46133226460,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46133226460",
+        "details": "R11 Version Authority Gate completed successfully on PR #104 head 65ab27f4eb4dc9ad5b7556652336cd5b4fb23fb6. Approved baseline ancestry, R11 app identity, index self-pin and all 24 local runtime assets passed."
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "PASS: English and Persian chapter 11 entries parse as valid two-element GUIDE_CONTENT chapter pairs and contain the complete revised content. Assertions cover Main Menu Settings entry, six current shortcuts, Profile & Logo save behavior, User Guide language, disabled test-build updater, Monitor version details, local-only Contact Us draft and Factory Reset safeguards. Only the English and Persian chapter 11 entries changed compared with R74; all other chapter/language entries are byte-for-byte unchanged. All 24 Preview authority-pinned files, including the updated index.html self-pin, match their SHA values. R75 Build ID, canonical URL and index blob SHA match."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "No Preview merge or Pages deployment has been performed."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting Preview deployment and user verification on iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continuation of the English/Persian User Guide; this is not authorization to merge or deploy."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "HELP-GUIDE-2026-11-28-CHAPTER-12-R76",
+      "dateStarted": "2026-11-28",
+      "purpose": "Complete User Guide chapter 12, Data Safety and Troubleshooting, in English and Persian without changing other languages or application runtime behavior.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "98e9d926d567272b8343cb607dd4f98fbefba36e",
+      "previewPullRequestNumber": 104,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46135017867,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46135017867"
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "English and Persian chapter 12 content assertions and R76 app identity metadata were verified. R11 Version Authority Gate PASS on PR head 28abdb1e3fc3570466241399ef50fe2687a76311; all 24 pinned assets, including index self-pin, matched. Independent V8 parsing of all inline JavaScript blocks has not been run."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting final Version Authority Gate and explicit Preview review; deployment has not been performed."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user test on iPhone Safari after an approved Preview Pages deployment."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting complete 12-chapter Preview review and user iPhone Safari test."
+      },
+      "productionPromotionStatus": "pending",
+      "productionPullRequestUrl": "pending",
+      "productionCommitSha": "pending"
     }
   ],
   "history": [
