@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261128-R82",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R82",
-    "indexBlobSha": "fc5854a2e2bfb8ae2ce10ba3c2d9340b0b4533ea",
+    "buildId": "THA-273-R11-PREVIEW-20261128-R83",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R83",
+    "indexBlobSha": "78f63efe2c39cd13821fd8b04705eb52e6d33b61",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "fc5854a2e2bfb8ae2ce10ba3c2d9340b0b4533ea",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "78f63efe2c39cd13821fd8b04705eb52e6d33b61",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
@@ -3624,6 +3624,48 @@
       "userApproval": {
         "result": "authorized for Preview repair only",
         "details": "User explicitly instructed to proceed. Production promotion has not been authorized."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "HELP-GUIDE-2026-11-28-LANGUAGE-STATE-AND-CHAPTER-DEFAULT-R83",
+      "dateStarted": "2026-11-28",
+      "purpose": "Fix two User Guide behaviors confirmed by the user's iPhone screenshot: render chapters using the visible language selector as the authoritative UI state, and start all chapter accordions collapsed.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "40e2952bea147c86de685ab46257777a4a85f570",
+      "previewPullRequestNumber": "pending",
+      "previewPullRequestUrl": "pending",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting Version Authority Gate on the Preview PR and again on Preview main."
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Source-level changes: currentGuideLang now prefers the visible appLanguageSelect value before the persisted support preference; generated details elements are explicitly closed by default. V8 syntax and authority pin validation pending."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting Preview PR merge, Version Authority Gate and GitHub Pages deployment."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user verification that English selection shows English chapters, Persian selection shows Persian chapters, and all 12 chapters start collapsed on iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview repair only",
+        "details": "User supplied an iPhone screenshot and confirmed the incorrect initial language/content mismatch and all chapters expanded. No Production promotion authorized."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
