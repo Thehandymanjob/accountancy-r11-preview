@@ -3026,8 +3026,8 @@
         "url": "pending"
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Chapter 4 English/Persian source assertions, all inline JavaScript syntax checks and all 24 Version Authority runtime SHA pins are to be checked against the final PR head."
+        "result": "PASS",
+        "details": "All 8 inline JavaScript blocks passed V8 syntax compilation; English/Persian chapter 4 and R68 source assertions passed; app Build ID, canonical URL and indexBlobSha matched; all 24 runtime asset SHA pins matched the development tree."
       },
       "previewPagesDeployment": {
         "result": "pending",
