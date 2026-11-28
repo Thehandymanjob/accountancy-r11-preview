@@ -8,7 +8,7 @@
     "version": "273",
     "buildId": "THA-273-R11-PREVIEW-20261128-R75",
     "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R75",
-    "indexBlobSha": "24b943425409ed27dab992c63339ab1bfbd952a8",
+    "indexBlobSha": "a76d30ef56a2d400bb9d38ce4e4272f792ac3d64",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -3304,7 +3304,7 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "801868e6bb3797eb3d30e74109a0f2513ea88252",
+      "previewDevelopmentCommitSha": "6bcf60565328356e2ae76586c0313033b57e77eb",
       "previewPullRequestNumber": 104,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
       "previewMergeCommitSha": "pending",
@@ -3316,7 +3316,7 @@
       },
       "staticChecks": {
         "result": "PARTIAL",
-        "details": "PASS: English/Persian chapter 11 assertions, exact Main Menu Settings entry path, six current Settings shortcuts, profile fields, User Guide behavior, disabled updater, Monitor version details, local-only Contact Us draft and Factory Reset safeguards. R75 Build ID, canonical URL and index blob SHA updated consistently. Other language sections and runtime dependencies were not edited; final independent comparison and Gate validation remain pending."
+        "details": "PASS: English and Persian chapter 11 entries parse as two-element GUIDE_CONTENT chapter pairs and contain the complete revised content. Assertions cover Main Menu Settings entry, six current shortcuts, Profile & Logo save behavior, User Guide language, disabled test-build updater, Monitor version details, local-only Contact Us draft and Factory Reset safeguards. R75 Build ID, canonical URL and index blob SHA match. Other language blocks are being compared unchanged; final pinned-asset verification and Version Authority Gate remain pending."
       },
       "previewPagesDeployment": {
         "result": "pending",
