@@ -1064,6 +1064,8 @@
 - کنترل pinها: هر ۲۴ فایل پین‌شده Preview در development با manifest تطبیق داده شدند و mismatch متنی نداشتند؛ فایل‌های تصویری باینری از مسیر fetch متنی قابل خواندن نبودند و کنترل آن‌ها به Gate سپرده می‌شود. هویت Production main و ۱۸ فایل runtime متنی آن نیز با manifest خودش تطبیق داشت.
 - تست محتوا و تطابق شناسه نسخه: PASS. بررسی مستقل V8 برای syntax همه بلوک‌های inline JavaScript اجرا نشده است؛ این مورد PASS اعلام نمی‌شود.
 - وضعیت راهنما: ۱۰ فصل از ۱۲ فصل انگلیسی و فارسی تکمیل شده‌اند؛ دو فصل باقی مانده است. زبان‌های دیگر در این ویرایش تغییر نکردند.
-- Version Authority Gate برای R74، Preview Pages Deploy، مرورگر واقعی و iPhone Safari: در انتظار بررسی؛ نتیجه‌ای پیش از مشاهده مستقیم PASS اعلام نمی‌شود.
+- R11 Version Authority Gate: PASS؛ run `46132673304` روی PR head `830f92c7a9614141ccf4491a0e37b75c1a877af6`؛ اعتبارسنجی ancestry مبنا، شناسه R11 و هر ۲۴ فایل pin‌شده موفق بود.
+- تست محتوایی و تطابق Build ID، canonical URL و indexBlobSha: PASS. بررسی مستقل V8 برای syntax همه بلوک‌های inline JavaScript اجرا نشده است.
+- Preview Pages Deploy، مرورگر واقعی و iPhone Safari هنوز انجام نشده‌اند.
 - PR: ادامه PR شماره 104؛ Draft و باز باقی می‌ماند؛ Merge و Preview Deploy انجام نمی‌شود.
 - داده‌ها و Production: هیچ رکورد مالی، IndexedDB، Backup یا Restore تغییر نکرد؛ Production دست‌نخورده و ارتقا غیرمجاز است.
