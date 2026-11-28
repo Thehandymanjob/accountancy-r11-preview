@@ -65,3 +65,9 @@
 - R79 still showed a blank chapter container in the user's iPhone Safari screenshot; its diagnostic message was also absent.
 - R80 adds a separate end-of-document bridge to invoke the exported renderer after DOM readiness, load, pageshow, and User Guide activation. A visible diagnostic is shown if the renderer is missing or fails.
 - PR and Preview deployment pending. Production unchanged; Safari verification pending.
+
+
+## R80 — Preview deployment
+- PR #111 merged; Version Authority Gate PASS; GitHub Pages deployment PASS.
+- Independent User Guide render bridge deployed to Preview. Actual iPhone Safari verification remains pending.
+- Production and accounting data remain unchanged.
