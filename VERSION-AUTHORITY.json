@@ -48,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "R67 emergency Help-runtime safety repair is prepared on Preview development. The app Build ID and canonical URL remain R64 by authority rule; the independent Help Runtime is version R67. Contextual Help activation is fail-closed, its document-wide observer/scan is removed, the obsolete Help preference key alone is cleared, and the duplicate User Guide settings entry is consolidated into the actual guide page. Eight inline scripts and the R67 runtime passed V8 syntax compilation. PR, fresh Version Authority Gate, Preview Pages deployment and iPhone Safari verification remain pending. Production and IndexedDB data are unchanged.",
+  "note": "R67 emergency Help-runtime safety repair is prepared on Preview development. App Build ID and canonical URL remain R64 by authority rule; independent Help Runtime is R67. Contextual Help is fail-closed, its document-wide observer/scan is removed, only the obsolete Help preference key is cleared, and duplicate User Guide settings are consolidated. V8 syntax checks and all 24 SHA pins passed; PR #101 R11 Version Authority Gate PASS (run 46126666710). PR remains Draft; no Preview merge/deployment or iPhone Safari verification has occurred. Production and IndexedDB data are unchanged.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {
@@ -2938,14 +2938,14 @@
         "details": "Two-parent merge commit with development as first parent and Preview main as second parent; tree matched Preview main. development ref advanced by fast-forward with force=false and expected SHA lease. No task branch was created. Post-sync compare: development ahead of main only by the sync commit(s), behind by 0, no file diff."
       },
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "PR #101 opened as Draft; awaiting the pull-request Version Authority Gate on the final synchronized head."
+        "result": "PASS",
+        "runId": 46126666710,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46126666710",
+        "details": "R11 Version Authority Gate completed successfully on PR #101 head 2b3c3489d0cdb3c9091dbc54969c1ee6ea987217. The approved R11 baseline, unchanged R64 Build ID/canonical URL, updated index SHA and all 24 runtime asset pins passed."
       },
       "staticChecks": {
         "result": "PASS",
-        "details": "V8 syntax compilation passed for all 8 inline JavaScript blocks and the full R67 Help Runtime. Structural checks passed: no helpSettings route/section, one Settings User Guide shortcut, one guide language selector in #userGuide, one disabled Help checkbox, no MutationObserver, no LocalStorage read of the obsolete preference, no attachAll(document) call, and R67 runtime/cache version. No live browser profiling was performed."
+        "details": "All 8 inline JavaScript blocks and the full R67 Help Runtime passed V8 syntax compilation. All 24 manifest-pinned files match the development Git tree. Structural assertions passed for Help fail-closed behavior, removal of MutationObserver/document-wide binding, removal of only the obsolete Help preference key, single User Guide shortcut, and language selector inside #userGuide."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
