@@ -1216,6 +1216,6 @@
 - علت اول: تابع بازنمایی مجدد فصل‌ها زبان را فقط از وضعیت ذخیره‌شده Gateway می‌خواند، درحالی‌که انتخاب‌گر می‌توانست مقدار دیگری نشان دهد. پل R81 نیز هنگام فعال‌شدن صفحه، load و pageshow دوباره renderer را اجرا می‌کند و می‌توانست محتوای زبان ذخیره‌شده را روی انتخاب فعلی بنویسد.
 - علت دوم: renderer برای هر عنصر details صریحاً open=true تنظیم می‌کرد؛ بنابراین همه فصل‌ها در هر بار بازنمایی باز می‌شدند.
 - اصلاح R83: مقدار معتبر انتخاب‌گر appLanguageSelect اولویت منبع زبان شد و فقط در نبود مقدار معتبر به preference ذخیره‌شده رجوع می‌شود؛ همه فصل‌ها با details.open=false بسته ساخته می‌شوند.
-- Build ID: THA-273-R11-PREVIEW-20261128-R83؛ commit اولیه index در development: 40e2952bea147c86de685ab46257777a4a85f570.
+- Build ID: THA-273-R11-PREVIEW-20261128-R83؛ commit اولیه index در development: 40e2952bea147c86de685ab46257777a4a85f570؛ canonical URL داخلی R83 در commit fb7af6e1b0c0ee096da517bb1f7d5e948ee48d78 هماهنگ شد.
 - Gate نخست به علت باقی‌ماندن مقدار داخلی R11_CANONICAL_PAGE_URL روی R82 رد شد؛ مقدار داخلی به R83 اصلاح و SHA pin در Authority به‌روزرسانی شد. اجرای مجدد Gate، syntax check نهایی و Pages Deploy در انتظار هستند. آزمایش واقعی iPhone Safari هنوز انجام نشده است.
 - فقط رابط و سوابق Preview تغییر می‌کنند؛ Production، داده‌های مالی، IndexedDB، Backup و Restore تغییر یا اجرا نمی‌شوند.
