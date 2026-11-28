@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261128-R70",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R70",
-    "indexBlobSha": "e5a4136440f05042d1afa5971101a01d770f87a4",
+    "buildId": "THA-273-R11-PREVIEW-20261128-R71",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R71",
+    "indexBlobSha": "51c572399a0344e8d7155712547f4f16f1ce64cd",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "e5a4136440f05042d1afa5971101a01d770f87a4",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "51c572399a0344e8d7155712547f4f16f1ce64cd",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
@@ -48,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "R67 emergency Help-runtime safety repair is merged into Preview main and GitHub Pages deployment completed successfully. App Build ID and canonical URL remain R64 by authority rule; independent Help Runtime is R67. Contextual Help is fail-closed, its document-wide observer/scan is removed, only the obsolete Help preference key is cleared, and duplicate User Guide settings are consolidated. V8 syntax checks and all 24 SHA pins passed; PR #101 merged as a4700aed5fd7d1a53c2a9538dbab4dce3f0caec1; post-merge Version Authority Gate PASS (run 46126922043) and Pages deployment PASS (run 46126921877). iPhone Safari verification remains pending. Production and IndexedDB data are unchanged.",
+  "note": "Preview R71 continues the English/Persian User Guide. Chapter 7 Monitor & Diagnostics has been expanded with version checks, activity archive instructions, distinctions between read-only diagnostics and the temporary IndexedDB test, export privacy guidance and safe troubleshooting steps. PR #104 remains the Preview-only review path; Version Authority Gate and Pages deployment for R71 are pending. No financial records, IndexedDB records, backups or Production files were changed.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {
@@ -3121,6 +3121,48 @@
       "userApproval": {
         "result": "authorized for Preview development work only",
         "details": "User instructed continuation of the English/Persian User Guide. This is not approval to merge or deploy."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-28-HELP-GUIDE-CHAPTER-7-R71",
+      "dateStarted": "2026-11-28",
+      "purpose": "Complete and clarify English and Persian User Guide Chapter 7, Monitor & Diagnostics. Explain version details, Activity archive filters, local checks, read-only storage checks, the temporary-write nature of Test IndexedDB Storage, diagnostic exports and safe troubleshooting. Documentation/UI guide content only.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "6b6e4b24e80f9465288478bd2af84b2e397e49bb",
+      "previewPullRequestNumber": 104,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "R71 gate must run on the updated PR head; previous R70 Gate PASS does not validate this change."
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Pending V8 syntax validation and English/Persian Chapter 7 content assertions on the updated R71 source."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "No merge or Preview Pages deployment has been performed."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting Preview deployment and user verification on iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continuation of the English/Persian User Guide; this is not authorization to merge or deploy."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
