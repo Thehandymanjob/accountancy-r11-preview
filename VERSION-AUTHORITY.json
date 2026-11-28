@@ -3351,13 +3351,13 @@
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending"
+        "result": "PASS",
+        "runId": 46135017867,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46135017867"
       },
       "staticChecks": {
         "result": "PASS",
-        "details": "English and Persian chapter 12 content assertions and R76 app identity metadata were verified in the changed index. No independent V8 parse of all inline JavaScript blocks has been run."
+        "details": "English and Persian chapter 12 content assertions and R76 app identity metadata were verified. R11 Version Authority Gate PASS on PR head 28abdb1e3fc3570466241399ef50fe2687a76311; all 24 pinned assets, including index self-pin, matched. Independent V8 parsing of all inline JavaScript blocks has not been run."
       },
       "previewPagesDeployment": {
         "result": "pending",
