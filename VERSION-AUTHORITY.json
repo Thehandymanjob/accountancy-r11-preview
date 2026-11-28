@@ -8,7 +8,7 @@
     "version": "273",
     "buildId": "THA-273-R11-PREVIEW-20261128-R83",
     "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R83",
-    "indexBlobSha": "78f63efe2c39cd13821fd8b04705eb52e6d33b61",
+    "indexBlobSha": "bc90b29b9aca0abb2462b7509c619dc96baab449",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "78f63efe2c39cd13821fd8b04705eb52e6d33b61",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "bc90b29b9aca0abb2462b7509c619dc96baab449",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
@@ -3639,7 +3639,7 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "40e2952bea147c86de685ab46257777a4a85f570",
+      "previewDevelopmentCommitSha": "fb7af6e1b0c0ee096da517bb1f7d5e948ee48d78",
       "previewPullRequestNumber": "pending",
       "previewPullRequestUrl": "pending",
       "previewMergeCommitSha": "pending",
@@ -3651,7 +3651,7 @@
       },
       "staticChecks": {
         "result": "pending",
-        "details": "Source-level changes: currentGuideLang now prefers the visible appLanguageSelect value before the persisted support preference; generated details elements are explicitly closed by default. V8 syntax and authority pin validation pending."
+        "details": "R83 language-selection and collapsed-accordion changes are in place. First Gate run identified a stale internal R11_CANONICAL_PAGE_URL still set to R82; that constant has now been aligned to R83 and the index SHA pins refreshed. Re-running V8 syntax and full Version Authority validation."
       },
       "previewPagesDeployment": {
         "result": "pending",
