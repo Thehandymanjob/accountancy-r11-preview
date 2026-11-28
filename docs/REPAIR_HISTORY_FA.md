@@ -1142,3 +1142,12 @@
 - R11 Version Authority Gate نهایی، Preview Pages Deploy، مرورگر واقعی و iPhone Safari: در انتظار؛ هیچ‌کدام PASS اعلام نمی‌شوند.
 - PR: ادامه PR شماره 104؛ Draft و باز باقی می‌ماند. Merge و Deploy انجام نشده‌اند.
 - داده‌ها و Production: هیچ رکورد مالی، IndexedDB، Backup یا Restore تغییر نکرد؛ Production دست‌نخورده و ارتقا غیرمجاز است.
+
+
+## R79 — تشخیص و مقاوم‌سازی نمایش فصل‌های User Guide (2026-11-28)
+- مشکل گزارش‌شده: متن فصل‌ها در تمام زبان‌ها نمایش داده نمی‌شد.
+- تغییر: اعتبارسنجی وجود دقیق ۱۲ فصل برای زبان انتخاب‌شده، ساخت DOM در DocumentFragment و درج اتمی؛ ثبت وضعیت در `window.__thaGuideRenderDiagnostics`؛ نمایش خطای قابل مشاهده به‌جای کادر خالی؛ تلاش مجدد هنگام بازشدن User Guide.
+- Build ID: `THA-273-R11-PREVIEW-20261128-R79`.
+- PR: #109 — در انتظار Version Authority Gate؛ هنوز Merge یا Deploy نشده است.
+- هیچ تغییری در منطق حسابداری، داده‌های مالی، ساختار یا داده‌های IndexedDB، پشتیبان‌گیری، بازیابی یا Production انجام نشده است.
+- آزمایش واقعی Safari پس از انتشار Preview همچنان لازم است.
