@@ -3225,14 +3225,14 @@
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting R73 Gate on the final PR head after all authority and repair-history updates."
+        "result": "PASS",
+        "runId": 46132251995,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46132251995",
+        "details": "R11 Version Authority Gate completed successfully on PR #104 head f6a06155f88c50f7bebb14e075a684162fcf3ee7. The approved baseline ancestry, app identity and all 24 authority-pinned runtime assets passed."
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Pending full inline JavaScript syntax parsing, English/Persian chapter 9 content assertions, preservation check for the other nine languages, Build ID/canonical URL/index SHA verification and runtime pin verification."
+        "result": "PARTIAL",
+        "details": "PASS: Build ID, canonical URL and index blob SHA match; all 24 pinned assets remain present; English/Persian chapter 9 content assertions and corrected parent/sub-project pricing statements passed; the four-file PR diff is limited to the approved app index and audit metadata. The other language blocks were not edited. A separate V8 parse of all inline JavaScript blocks was not run in this environment."
       },
       "previewPagesDeployment": {
         "result": "pending",
