@@ -48,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "Preview R78 fixes the User Guide startup race: the guide's own script now attaches its local language renderer to the IndexedDB startup promise after the renderer is defined, then applies stored language; English fallback runs if startup fails or no promise exists. This repairs the case where the earlier startup callback could not access the guide function because it lived in a separate script scope. All 12 chapter texts and other language entries remain unchanged. No financial records, IndexedDB schema/data, LocalStorage, backup/restore data or Production files were changed. PR, final Gate, Pages deployment and iPhone Safari testing pending.",
+  "note": "Preview R78 fixes the User Guide initial-render race: the guide script attaches its local renderer to the existing IndexedDB startup promise after defining the renderer, then applies the stored language; on startup failure or absent promise, English is applied. PR #107 merged to Preview main as e9b16ac9f1c544740651899e5d68d6d55dc6fcb9. Version Authority Gate PASS (run 46136222561); GitHub Pages build/deploy/report PASS (run 46136222427). iPhone Safari testing remains pending. All 12 English/Persian chapter texts and other language entries remain unchanged. No financial records, IndexedDB schema/data, LocalStorage, backups, restore actions or Production files changed.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {
@@ -3432,30 +3432,30 @@
       "previewDevelopmentCommitSha": "d32a56289bb055eee29658645375c30f0169e610",
       "previewPullRequestNumber": 107,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/107",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "e9b16ac9f1c544740651899e5d68d6d55dc6fcb9",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting PR #107 final Version Authority Gate."
+        "result": "PASS",
+        "runId": 46136222561,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46136222561",
+        "details": "R11 Version Authority Gate passed on Preview main merge commit e9b16ac9f1c544740651899e5d68d6d55dc6fcb9; all 24 pinned runtime assets, R78 app identity and index self-pin matched."
       },
       "staticChecks": {
         "result": "PASS",
         "details": "Source assertions confirm the guide script attaches applyGuideLanguage to the existing startup promise after defining the renderer; on resolution it applies stored support language; on rejection or absence it falls back to English. All 12 chapter text entries and eager rendering behavior are retained. Full V8 parsing and browser runtime test remain pending."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting PR merge and successful GitHub Pages deployment."
+        "result": "PASS",
+        "runId": 46136222427,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46136222427",
+        "details": "GitHub Pages build, deploy and report-build-status jobs completed successfully for R78 Preview main merge commit e9b16ac9f1c544740651899e5d68d6d55dc6fcb9."
       },
       "userSafariTest": {
         "result": "not tested",
-        "details": "Must verify that chapter descriptions appear on first open and after switching English/Persian in iPhone Safari."
+        "details": "User must verify on iPhone Safari that chapter explanations appear on first opening and after switching between English and Persian. R77 had previously failed this user-visible test."
       },
       "userApproval": {
-        "result": "authorized for Preview repair work and Preview merge",
-        "details": "User reported R77 still showed no guide text and said «برو» by continuing the repair. Production promotion is not authorized."
+        "result": "authorized for Preview repair and merge",
+        "details": "User reported R77 still had no visible text and instructed continuation. Production promotion remains unauthorized."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
