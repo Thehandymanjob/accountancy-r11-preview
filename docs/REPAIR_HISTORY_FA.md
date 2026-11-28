@@ -1069,3 +1069,23 @@
 - Preview Pages Deploy، مرورگر واقعی و iPhone Safari هنوز انجام نشده‌اند.
 - PR: ادامه PR شماره 104؛ Draft و باز باقی می‌ماند؛ Merge و Preview Deploy انجام نمی‌شود.
 - داده‌ها و Production: هیچ رکورد مالی، IndexedDB، Backup یا Restore تغییر نکرد؛ Production دست‌نخورده و ارتقا غیرمجاز است.
+
+
+#### بازنگری R75 — تکمیل فصل یازدهم Settings, Profile and Software Update
+
+- تاریخ: 2026-11-28
+- نوع تغییر: ادامه پرونده HELP-GUIDE-001؛ شناسه تعمیر جدید ایجاد نشد.
+- فصل: Settings, Profile and Software Update به انگلیسی و تنظیمات، پروفایل و به‌روزرسانی نرم‌افزار به فارسی.
+- تطبیق با رابط واقعی: Settings یک گزینه مستقل در Main Menu است، نه صفحه‌ای که باید ابتدا از Accountancy باز شود. شش میانبر واقعی Settings مستند شد: Backup & Restore، Profile & Logo، User Guide، Software Update، Monitor & Diagnostics و Factory Reset.
+- محتوای تکمیل‌شده: فیلدهای پروفایل و لوگو؛ ذخیره و تأیید پروفایل؛ جزئیات پرداختی که در فاکتور نمایش داده می‌شود؛ انتخاب زبان User Guide و پیش‌فرض English؛ غیرفعال‌بودن Contextual help icons؛ ذخیره محلی Contact Us بدون ارسال پیام؛ updater غیرفعال در build آزمایشی؛ مشاهده Build ID از Show version details؛ و هشدارهای Factory Reset.
+- اصلاح صحت: مسیر ورود Settings از Main Menu اصلاح شد. متن راهنما تصریح می‌کند که Contact Us در وضعیت فعلی فقط پیش‌نویس محلی ذخیره می‌کند و پیام را ارسال نمی‌کند. اجرای Factory Reset فقط با فایل منبع تأییدشده، snapshot اضطراری اعتبارسنجی‌شده و مجوز صریح مجاز است.
+- محدوده تغییر: فقط متن فصل یازدهم انگلیسی و فارسی، Build ID/Canonical URL و سوابق نسخه/تعمیر در Preview development؛ هیچ منطق برنامه، runtime asset، IndexedDB، رکورد مالی، Backup یا Restore تغییر نکرد.
+- Build ID: THA-273-R11-PREVIEW-20261128-R75.
+- Commit تغییر محتوای index: 801868e6bb3797eb3d30e74109a0f2513ea88252.
+- SHA فایل index و pin Authority: 24b943425409ed27dab992c63339ab1bfbd952a8.
+- تست ایستای فصل یازدهم انگلیسی/فارسی و assertionهای Main Menu، شش گزینه Settings، پروفایل، User Guide، updater، Monitor، Contact Us و Factory Reset: PASS.
+- سایر زبان‌ها و ۲۴ فایل runtime پین‌شده در این تغییر ویرایش نشدند. بررسی نهایی تطابق تمام pinها و Gate روی head نهایی در انتظار است.
+- وضعیت راهنما: ۱۱ فصل از ۱۲ فصل انگلیسی و فارسی تکمیل شده‌اند؛ فقط فصل دوازدهم Data Safety and Troubleshooting باقی است. زبان‌های دیگر حفظ شدند.
+- R11 Version Authority Gate، Preview Pages Deploy، مرورگر واقعی و iPhone Safari: در انتظار؛ تا مشاهده نتیجه هیچ‌کدام PASS اعلام نمی‌شوند. بررسی مستقل V8 برای syntax تمام بلوک‌های inline JavaScript نیز در این مرحله اجرا نشده است.
+- PR: ادامه PR شماره 104؛ Draft و باز باقی می‌ماند؛ Merge و Preview Deploy انجام نمی‌شود.
+- داده‌ها و Production: هیچ رکورد مالی، IndexedDB، Backup یا Restore تغییر نکرد؛ Production دست‌نخورده و ارتقا غیرمجاز است.
