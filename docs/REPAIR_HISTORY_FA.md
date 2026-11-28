@@ -1255,3 +1255,18 @@
 - GitHub Pages Build، Deploy و Report Build Status در اجرای [46173040634](https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46173040634) موفق شدند.
 - شش کارت Settings و انتخاب‌گر زبان User Guide به هفت مدخل تکمیل‌شده راهنما متصل شدند. آزمایش واقعی iPhone Safari هنوز لازم است.
 - Production، داده‌های مالی، IndexedDB، Backup و Restore بدون تغییر باقی ماندند.
+
+ 
+#### بازنگری R86 — ایمن‌سازی اجرای سراسری Contextual Help
+
+- **تاریخ:** 2026-11-28
+- **نوع تغییر:** ادامه همان پرونده HELP-GUIDE-001؛ پرونده جدید ایجاد نشده است.
+- **علائم:** کاربر گزارش کرد فعال‌کردن checkbox راهنمای زمینه‌ای باعث قفل‌شدن کل برنامه می‌شود، نه فقط پنجره User Guide.
+- **یافته سورس:** Runtime R69 برای هر ریشه فعال، ۱۲۰ selector را به‌صورت هم‌زمان اجرا می‌کرد و MutationObserver پس از تغییرات DOM یک اسکن کامل دیگر را با microtask زمان‌بندی می‌کرد. این ساختار یک مسیر محتمل برای اشغال main thread است؛ علت قطعی با پروفایل‌گیری واقعی iPhone Safari هنوز تأیید نشده است.
+- **اصلاح R70:** اتصال selectorها در دسته‌های چهارگانه و افزودن آیکون‌ها در دسته‌های ۲۰تایی با taskهای جداگانه انجام می‌شود؛ هر کار صف‌شده با خاموش‌کردن راهنما یا تغییر ریشه لغو می‌شود؛ MutationObserver تغییرات ایجادشده توسط wrapper/trigger و انتقال کنترل داخل wrapper را نادیده می‌گیرد؛ در هر لحظه فقط یک job برای هر ریشه صف می‌شود.
+- **ایمنی بارگذاری:** وضعیت قبلی LocalStorage دیگر هنگام شروع برنامه به‌صورت خودکار فعال نمی‌شود و checkbox پس از هر بارگذاری خاموش است. کاربر باید آگاهانه آن را فعال کند. این کلید فقط ترجیح UI راهنمای زمینه‌ای است؛ هیچ LocalStorage migration یا دسترسی به داده‌های مالی انجام نشده است.
+- **حفظ عملکرد:** شناسه‌های Help، محتوای ۱۱زبانه، selectorهای موجود و handler اصلی دکمه‌ها حفظ شده‌اند. خاموش‌کردن، timerها و observerها را متوقف و wrapperها را حذف می‌کند.
+- **فایل‌ها:** `v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js`، `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`، `VERSION-AUTHORITY.json`، `docs/REPAIR_INDEX_FA.md` و `docs/REPAIR_HISTORY_FA.md`.
+- **اعتبارسنجی:** بررسی تغییر سورس و شناسه Build انجام می‌شود؛ اجرای V8 syntax check، Version Authority Gate و Preview Pages deployment در انتظارند.
+- **iPhone Safari:** not tested؛ کاربر باید پس از انتشار Preview عملکرد روشن/خاموش، روان‌بودن کل برنامه و بازشدن راهنمای کنار کنترل‌ها را بررسی کند.
+- **Production:** بدون تغییر؛ Production R12 و IndexedDB/سوابق مالی دست‌نخورده‌اند. ارتقا مجاز نیست.
