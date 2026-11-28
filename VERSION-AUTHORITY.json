@@ -3790,7 +3790,7 @@
       "previewDevelopmentCommitSha": "915313a45b80c18ceb252c2a91d61251fdef6c03",
       "previewPullRequestNumber": 125,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/125",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "0e54764aa8f374a3327d77727b1adc2aa58232b8",
       "versionAuthorityGate": {
         "result": "PASS",
         "runId": 46174222444,
@@ -3801,18 +3801,18 @@
         "details": "Runtime R70 compiled successfully in V8 using new Function; R86 Build ID, canonical URL, index SHA and both changed runtime asset pins match the Version Authority manifest. GitHub Version Authority Gate verified all 24 pinned assets on the PR head."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting Preview PR merge and successful Pages deployment."
+        "result": "PASS",
+        "runId": 46174303644,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46174303644",
+        "details": "GitHub Pages build, deploy and report-build-status completed successfully on Preview main for merge commit 0e54764aa8f374a3327d77727b1adc2aa58232b8."
       },
       "userSafariTest": {
         "result": "not tested",
-        "details": "Awaiting user verification in iPhone Safari after Preview deployment."
+        "details": "Awaiting user verification on iPhone Safari. Deployment success does not establish real-device behavior."
       },
       "userApproval": {
         "result": "pending",
-        "details": "Awaiting Preview Safari verification; Production promotion is not authorized."
+        "details": "Preview deployed; awaiting iPhone Safari test. Production promotion is not authorized."
       },
       "productionPromotionStatus": "pending",
       "productionPullRequestUrl": "pending",
