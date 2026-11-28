@@ -1041,7 +1041,8 @@
 - Build ID: `THA-273-R11-PREVIEW-20261128-R73`.
 - Commit کد: `eddc1aac7bbfd79a63b4656d41a4b02d68464338`.
 - SHA فایل index و pin Authority: `003b8f6db2edfc7159884c72a25d7333829611b4`.
-- Version Authority و Repair Index/History در حال ثبت برای R73 هستند؛ Gate و تست‌های نهایی پس از ثبت همه فایل‌ها اجرا می‌شوند.
+- R11 Version Authority Gate: PASS؛ run `46132251995` روی PR head `f6a06155f88c50f7bebb14e075a684162fcf3ee7`؛ تأیید ancestry مبنا و هر ۲۴ فایل pin‌شده.
+- تست ایستا: بررسی محتوای فصل نهم انگلیسی/فارسی، قیمت زیرپروژه، مرزبندی Accountancy و تطابق Build ID، canonical URL و indexBlobSha: PASS. بررسی مستقل V8 برای syntax تمام بلوک‌های inline JavaScript اجرا نشده است؛ بنابراین آن مورد را PASS اعلام نمی‌کنیم.
 - وضعیت راهنما: ۹ فصل از ۱۲ فصل انگلیسی و فارسی تکمیل شده‌اند؛ سه فصل باقی مانده است. ۹ زبان دیگر بدون تغییر نگه داشته شدند.
 - تست ایستا، Version Authority Gate، Preview Pages Deploy، مرورگر واقعی و iPhone Safari: در انتظار بررسی نهایی؛ هیچ‌کدام را تا ثبت نتیجه PASS اعلام نمی‌کنیم.
 - PR: ادامه PR شماره 104؛ Draft و باز باقی می‌ماند؛ Merge و Preview Deploy انجام نشده است.
