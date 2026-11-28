@@ -1084,7 +1084,7 @@
 - Commit تغییر محتوای index: 6bcf60565328356e2ae76586c0313033b57e77eb.
 - SHA فایل index و pin Authority: a76d30ef56a2d400bb9d38ce4e4272f792ac3d64.
 - تست ایستای فصل یازدهم انگلیسی/فارسی و assertionهای Main Menu، شش گزینه Settings، پروفایل، User Guide، updater، Monitor، Contact Us و Factory Reset: PASS.
-- سایر زبان‌ها و ۲۴ فایل runtime پین‌شده در این تغییر ویرایش نشدند. بررسی نهایی تطابق تمام pinها و Gate روی head نهایی در انتظار است.
+- سایر زبان‌ها و فایل‌های runtime در این تغییر ویرایش نشدند. هر ۲۴ فایل پین‌شده Preview، از جمله self-pin فایل index.html، با SHAهای Authority تطبیق داده شدند: PASS. اجرای نهایی Gate روی head نهایی در انتظار است.
 - وضعیت راهنما: ۱۱ فصل از ۱۲ فصل انگلیسی و فارسی تکمیل شده‌اند؛ فقط فصل دوازدهم Data Safety and Troubleshooting باقی است. زبان‌های دیگر حفظ شدند.
 - R11 Version Authority Gate، Preview Pages Deploy، مرورگر واقعی و iPhone Safari: در انتظار؛ تا مشاهده نتیجه هیچ‌کدام PASS اعلام نمی‌شوند. بررسی مستقل V8 برای syntax تمام بلوک‌های inline JavaScript نیز در این مرحله اجرا نشده است.
 - PR: ادامه PR شماره 104؛ Draft و باز باقی می‌ماند؛ Merge و Preview Deploy انجام نمی‌شود.
