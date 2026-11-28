@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261128-R69",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R69",
-    "indexBlobSha": "4449d0f5074856dd5e4dbff34589d8bd7d0d2ff7",
+    "buildId": "THA-273-R11-PREVIEW-20261128-R70",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R70",
+    "indexBlobSha": "b3f6a5eef7f352c828968e9a17e4273510f0aafa",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -3083,6 +3083,47 @@
       "productionPromotionStatus": "pending",
       "productionPullRequestUrl": "pending",
       "productionCommitSha": "pending"
+    },
+    {
+      "changeId": "THA-2026-11-28-HELP-GUIDE-CHAPTER-6-R70",
+      "dateStarted": "2026-11-28",
+      "purpose": "Complete the English/Persian User Guide Chapter 6, Backup and Restore. Expand the Persian chapter to match the detailed English instructions for creating and verifying a complete backup, saving the JSON file on iPhone, preserving separate copies, and understanding that Restore replaces the entire current database. No backup/restore implementation or user data changed.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "a3533b78075f0fb33df9499ac53be51603ff659f",
+      "previewPullRequestNumber": 104,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "All 8 inline JavaScript blocks compiled successfully with V8. English and Persian Chapter 6 content assertions passed. R70 Build ID and canonical URL match the authority metadata; index blob SHA updated to b3f6a5eef7f352c828968e9a17e4273510f0aafa. All 23 unchanged runtime asset pins match the development tree; the index pin is the new blob SHA. Version Authority Gate for the latest PR head remains pending."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "No Preview merge or Pages deployment has been performed."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting Preview deployment and user verification on iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continuation of the English/Persian User Guide. This is not approval to merge or deploy."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
     }
   ],
   "history": [
