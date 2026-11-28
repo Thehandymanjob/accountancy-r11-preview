@@ -861,7 +861,7 @@
 - **Commit کد در Preview development:** `4c4adf773488c22dcc9b69160e62de5904a5faf3`.
 - **PR:** #105 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/105 (در حال آماده‌سازی/بررسی).
 - **Static checks:** PASS در بررسی سورس: هر ۱۲ فصل EN و FA در GUIDE_CONTENT موجودند؛ رندر بدنه دیگر lazy نیست؛ همه فصل‌ها open هستند؛ تغییر زبان رندر مجدد را فراخوانی می‌کند. تست V8 کامل، Pages deployment و iPhone Safari هنوز انجام نشده‌اند.
-- **Version Authority Gate:** pending تا اجرای PR #105.
+- **Version Authority Gate:** PASS؛ run `46135643381` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46135643381؛ Gate روی head فعلی PR #105 موفق شد و تمام ۲۴ فایل pinشده، هویت R77 و index self-pin را تأیید کرد. پس از ثبت این نتیجه، اجرای نهایی Gate برای commit جدید نیز لازم است.
 - **Preview Pages / iPhone Safari:** pending؛ نباید پیش از اثبات انتشار URL زنده به‌عنوان نسخه قابل آزمایش معرفی شود.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
 
