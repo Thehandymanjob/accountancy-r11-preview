@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R61') return;
+  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R67') return;
   const payload = window.THAHelpContentV1;
   if (!payload || !payload.entries) {
     console.error('[THA Help] Content bundle is missing; contextual help was not started.');
@@ -139,7 +139,7 @@
     ps:{purpose:'موخه',when:'کله یې وکاروئ',how:'د کارولو طریقه',inputs:'اړین معلومات',result:'تمه کېدونکې پایله',notes:'مهمې یادونې'}
   };
   const RTL_LANGS = new Set(['fa','ar','ckb','ur','prs','ps']);
-  let lastHelpId=null,overlay=null,card=null,lastFocused=null,helpEnabledMemory=false;
+  let lastHelpId=null,overlay=null,card=null,lastFocused=null;
   function selectedLanguage(){
     const select=document.getElementById('appLanguageSelect'),selected=select&&select.value;
     if(selected&&payload.meta.languages.includes(selected))return selected;
@@ -246,23 +246,14 @@
     }
     wrapper.hidden=hidden;
   }
-  function helpIconsEnabled(){
-    try{const saved=window.localStorage.getItem('thaHelpIconsEnabled');if(saved==='true')return true;if(saved==='false')return false;}catch(_){}
-    return helpEnabledMemory;
-  }
-  function setHelpIconsEnabled(enabled){
-    const value=!!enabled;helpEnabledMemory=value;
-    try{window.localStorage.setItem('thaHelpIconsEnabled',value?'true':'false');}catch(_){}
-    if(value){attachAll(document);}
-    else{
-      document.querySelectorAll('.tha-help-control-wrap').forEach(wrapper=>{
-        const target=wrapper.querySelector('[data-help-id]');
-        if(target){delete target.dataset.thaHelpWrapped;wrapper.parentNode.insertBefore(target,wrapper);}
-        wrapper.remove();
-      });
-    }
-    const control=document.getElementById('thaHelpIconsEnabled');if(control)control.checked=value;
-    return value;
+  // R67 emergency safety lock: contextual Help stays disabled until its DOM
+  // integration is rebuilt and verified. Never scan or wrap the application DOM.
+  function helpIconsEnabled(){return false;}
+  function setHelpIconsEnabled(){
+    try{window.localStorage.removeItem('thaHelpIconsEnabled');}catch(_){}
+    const control=document.getElementById('thaHelpIconsEnabled');
+    if(control){control.checked=false;control.disabled=true;}
+    return false;
   }
   function attachHelpButtons(root){
     if(!helpIconsEnabled())return;
@@ -293,26 +284,17 @@
   function attachAll(root){if(!helpIconsEnabled())return;attachStaticBindings(root);attachHelpButtons(root);}
   function initialise(){
     createInterface();
-    const helpControl=document.getElementById('thaHelpIconsEnabled');if(helpControl)helpControl.checked=helpIconsEnabled();
-    if(helpIconsEnabled())attachAll(document);
-    if(typeof MutationObserver==='function'){
-      const observer=new MutationObserver(records=>records.forEach(record=>{
-        if(record.type==='attributes'){
-          const changed=record.target;
-          if(changed&&changed.nodeType===1){
-            if(changed.hasAttribute('data-help-id'))syncHelpWrapper(changed);
-            if(changed.querySelectorAll)changed.querySelectorAll('[data-help-id]').forEach(syncHelpWrapper);
-          }
-        }
-        if(record.type==='childList'&&helpIconsEnabled())record.addedNodes.forEach(node=>{if(node.nodeType===1)attachAll(node);});
-      }));
-      observer.observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['hidden','class','style']});
-    }
+    // Clear only the obsolete Help preference; accounting data and other storage
+    // keys are never read, changed, migrated or removed here.
+    try{window.localStorage.removeItem('thaHelpIconsEnabled');}catch(_){}
+    const helpControl=document.getElementById('thaHelpIconsEnabled');
+    if(helpControl){helpControl.checked=false;helpControl.disabled=true;}
+    // No DOM observer or document-wide binding pass while Help is disabled.
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initialise,{once:true});
   else initialise();
   window.THAHelpRuntime=Object.freeze({
-    version:'R66',open:openHelp,openFullGuide,attach:attachAll,setEnabled:setHelpIconsEnabled,isEnabled:helpIconsEnabled,
+    version:'R67',open:openHelp,openFullGuide,attach:attachAll,setEnabled:setHelpIconsEnabled,isEnabled:helpIconsEnabled,
     getLastHelpId:()=>lastHelpId,getPublishableCount:()=>Object.keys(payload.entries).length
   });
 })();
