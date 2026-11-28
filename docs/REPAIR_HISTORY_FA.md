@@ -1239,3 +1239,11 @@
 - GitHub Pages Build، Deploy و Report Build Status همگی در اجرای [46170952501](https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46170952501) موفق شدند. Build ID: `THA-273-R11-PREVIEW-20261128-R84`؛ Runtime: `R68`.
 - وضعیت نهایی: **Deployed to Preview — awaiting iPhone Safari verification**. عملکرد واقعی checkbox، نمایش یک آیکون برای هر کنترل پشتیبانی‌شده، زبان راهنما و حذف آیکون‌ها پس از خاموش‌کردن باید روی iPhone Safari آزمایش شود.
 - Production main همچنان روی SHA `0d18480cbaae1faba9544b05e7646704058ec29c` است و تغییر نکرده؛ هیچ داده مالی یا IndexedDB/Backup/Restore دست‌کاری نشده است.
+
+
+#### R85 — تکمیل اتصال راهنماهای Settings و انتخاب‌گر زبان
+- هفت مدخل موجود در Registry که هر شش فیلد را در هر ۱۱ زبان داشتند، به محتوای قابل انتشار منتقل شدند: THA-HLP-0056 و THA-HLP-0057 تا THA-HLP-0062.
+- شش کارت فعلی Settings با انتخاب‌گرهای دقیق و محدود به #settings متصل شدند؛ انتخاب‌گر زبان User Guide نیز با شناسه THA-HLP-0057 به #userGuide #appLanguageSelect متصل شد. ردیف قدیمی INV-071 که به مقصد حذف‌شده helpSettings اشاره می‌کرد، به کنترل واقعی انتخاب زبان نگاشت شد.
+- Runtime از R68 به R69 ارتقا یافت. تعداد مدخل‌های محتوای اجرایی ۱۳۹، اتصال‌های ثابت ۱۲۰ و Help IDهای متصل ۱۳۸ شد؛ THA-HLP-0072 همچنان عمداً در Preview غیرفعال است و ۹۰ مدخل دیگر Registry هنوز پیش‌نویس هستند.
+- متن Backup & Restore با سورس تطبیق دارد: عملیات فعلی پشتیبان کامل پایگاه داده است، نه پشتیبان جداگانه هر حوزه. صفحه Software Update در Preview غیرفعال است. راهنمای Factory Reset هشدار می‌دهد که کنترل‌های تبدیل/بازیابی در سورس فعلی Handler اجرایی ندارند.
+- فقط محتوای راهنما و اتصال UI در Preview تغییر می‌کند؛ هیچ عملیات Backup/Restore/Factory Reset اجرا نشده و هیچ داده مالی یا IndexedDB تغییر نکرده است. Gate، Pages و آزمایش iPhone Safari در انتظار هستند.
