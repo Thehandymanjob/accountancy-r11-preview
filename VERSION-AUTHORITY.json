@@ -3639,15 +3639,15 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "f8bff81ab34aaf0face0ee6f4dded8164451808b",
+      "previewDevelopmentCommitSha": "d46b3bd6ad854121e417d98eed890535d45b0b80",
       "previewPullRequestNumber": 117,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/117",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "19cc20be36225ee98e8acf33b4dc3c3192da7c03",
       "versionAuthorityGate": {
         "result": "PASS",
-        "runId": 46169160950,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46169160950",
-        "details": "R11 Version Authority Gate passed on the PR #117 merge candidate after aligning the internal R11 canonical URL and refreshing the index runtime SHA pin."
+        "runId": 46169236307,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46169236307",
+        "details": "Final R11 Version Authority Gate passed on the final PR #117 head; PR #117 then merged to Preview main as 19cc20be36225ee98e8acf33b4dc3c3192da7c03."
       },
       "staticChecks": {
         "result": "PASS WITH LIMITATIONS",
@@ -3657,7 +3657,7 @@
         "result": "pending",
         "runId": "pending",
         "url": "pending",
-        "details": "Awaiting Preview PR merge, Version Authority Gate and GitHub Pages deployment."
+        "details": "PR #117 is merged. Awaiting independent confirmation of GitHub Pages build and deployment on Preview main."
       },
       "userSafariTest": {
         "result": "not tested",
