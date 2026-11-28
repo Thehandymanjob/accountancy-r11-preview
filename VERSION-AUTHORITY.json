@@ -3597,7 +3597,7 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "6de90751667c7381df0f42ac4307838b3a729187",
+      "previewDevelopmentCommitSha": "0df81aab83e29bc631fd8efe29c2f3338186e688",
       "previewPullRequestNumber": "pending",
       "previewPullRequestUrl": "pending",
       "previewMergeCommitSha": "pending",
@@ -3609,7 +3609,7 @@
       },
       "staticChecks": {
         "result": "PASS",
-        "details": "V8 syntax compilation passed for all 9 inline JavaScript blocks. Corrected the PDF preview string continuation that caused the main application script to fail parsing. Escaped 154 raw line breaks in the English and Persian chapter 12 string literals and corrected the two extra closing brackets. No browser runtime or IndexedDB data test was performed."
+        "details": "V8 syntax compilation passed for all 9 inline JavaScript blocks after repairing the PDF preview string continuation, escaping 154 raw line breaks in English/Persian chapter 12 strings, and correcting the two extra closing brackets. Preview and Production authority pin audits both passed (24/24 and 22/22). Approved baseline ancestry and development synchronization verified. No browser runtime or IndexedDB data test performed."
       },
       "previewPagesDeployment": {
         "result": "pending",
