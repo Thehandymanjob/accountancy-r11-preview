@@ -3136,25 +3136,25 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "6b6e4b24e80f9465288478bd2af84b2e397e49bb",
+      "previewDevelopmentCommitSha": "97004df01222629b821d9b0b455a7465cc4bfe18",
       "previewPullRequestNumber": 104,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "R71 gate must run on the updated PR head; previous R70 Gate PASS does not validate this change."
+        "result": "PASS",
+        "runId": 46131607901,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46131607901",
+        "details": "Gate passed on the PR head containing the R71 source, Build ID, canonical URL and all four intended changed files. The subsequent update to audit evidence triggers a fresh Gate on the new PR head."
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Pending V8 syntax validation and English/Persian Chapter 7 content assertions on the updated R71 source."
+        "result": "PASS",
+        "details": "All 8 inline JavaScript blocks compiled with V8. English/Persian Chapter 7 content assertions passed. R71 Build ID and canonical URL matched HTML and Authority; the PR Gate verified approved ancestry and all 24 pinned runtime assets."
       },
       "previewPagesDeployment": {
         "result": "pending",
         "runId": "pending",
         "url": "pending",
-        "details": "No merge or Preview Pages deployment has been performed."
+        "details": "No Preview merge or Pages deployment has been performed."
       },
       "userSafariTest": {
         "result": "not tested",
