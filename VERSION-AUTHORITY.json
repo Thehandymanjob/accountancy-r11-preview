@@ -3514,24 +3514,24 @@
         "docs/REPAIR_INDEX_FA.md"
       ],
       "previewDevelopmentCommitSha": "b5c52dc447060e1775c1e35c421ecf6b373b3033",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
-      "previewMergeCommitSha": "pending",
+      "previewPullRequestNumber": 111,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/111",
+      "previewMergeCommitSha": "a042fd1f7dc04ab8690930944a9dafca3614d52e",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting PR gate; all 24 pinned runtime assets must pass."
+        "result": "PASS",
+        "runId": 46166685592,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46166685592",
+        "details": "Final R11 Version Authority Gate passed on main merge commit a042fd1f7dc04ab8690930944a9dafca3614d52e; all 24 pinned runtime assets and R80 identity matched."
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "R80 adds a standalone bridge after the application scripts. It calls the exported renderer on DOM readiness, window load, pageshow and User Guide activation; if unavailable, it writes an explicit diagnostic into guideChapters. Browser runtime verification remains pending."
+        "result": "PASS",
+        "details": "R80 adds an independent end-of-document bridge invoking the exported guide renderer after DOM readiness, load, pageshow and User Guide activation, with visible diagnostic fallback. GitHub Version Authority validated all 24 pinned assets. Actual browser verification remains pending."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Not deployed; awaiting PR gate and merge."
+        "result": "PASS",
+        "runId": 46166685478,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46166685478",
+        "details": "GitHub Pages build, deploy and report-build-status jobs completed successfully for Preview merge commit a042fd1f7dc04ab8690930944a9dafca3614d52e."
       },
       "userSafariTest": {
         "result": "not tested",
