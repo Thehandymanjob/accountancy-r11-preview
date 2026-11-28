@@ -1247,3 +1247,11 @@
 - Runtime از R68 به R69 ارتقا یافت. تعداد مدخل‌های محتوای اجرایی ۱۳۹، اتصال‌های ثابت ۱۲۰ و Help IDهای متصل ۱۳۸ شد؛ THA-HLP-0072 همچنان عمداً در Preview غیرفعال است و ۹۰ مدخل دیگر Registry هنوز پیش‌نویس هستند.
 - متن Backup & Restore با سورس تطبیق دارد: عملیات فعلی پشتیبان کامل پایگاه داده است، نه پشتیبان جداگانه هر حوزه. صفحه Software Update در Preview غیرفعال است. راهنمای Factory Reset هشدار می‌دهد که کنترل‌های تبدیل/بازیابی در سورس فعلی Handler اجرایی ندارند.
 - فقط محتوای راهنما و اتصال UI در Preview تغییر می‌کند؛ هیچ عملیات Backup/Restore/Factory Reset اجرا نشده و هیچ داده مالی یا IndexedDB تغییر نکرده است. Gate، Pages و آزمایش iPhone Safari در انتظار هستند.
+
+
+#### تأیید نهایی R85 — 2026-11-28
+- PR #121 با موفقیت در Preview main ادغام شد؛ Merge SHA: `9faeb19c68eb6104b0db03c41350b331862f7d08`.
+- Version Authority Gate روی سر PR در اجرای [46172997592](https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46172997592) و روی Preview main در اجرای [46173040777](https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46173040777) موفق شد.
+- GitHub Pages Build، Deploy و Report Build Status در اجرای [46173040634](https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46173040634) موفق شدند.
+- شش کارت Settings و انتخاب‌گر زبان User Guide به هفت مدخل تکمیل‌شده راهنما متصل شدند. آزمایش واقعی iPhone Safari هنوز لازم است.
+- Production، داده‌های مالی، IndexedDB، Backup و Restore بدون تغییر باقی ماندند.

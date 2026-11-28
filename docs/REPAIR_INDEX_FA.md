@@ -96,3 +96,9 @@
 - Added seven exact scoped help attachments: six Settings shortcut cards and the User Guide language selector.
 - Runtime R69; 139 publishable guide entries; 120 static bindings; 138 total attached Help IDs. THA-HLP-0072 remains deliberately inactive; 90 other registry entries remain drafts.
 - Static source audit PASS. Preview Gate, Pages deployment and iPhone Safari verification pending. Production and financial/IndexedDB data unchanged.
+
+
+## R85 — Preview deployment verified
+- PR #121 merged to Preview main; Version Authority Gate PASS on PR head and merge commit; GitHub Pages build/deploy PASS.
+- Six Settings cards and the User Guide language selector are connected to seven completed 11-language help entries. Runtime R69.
+- iPhone Safari verification remains pending. Production and financial/IndexedDB data unchanged.
