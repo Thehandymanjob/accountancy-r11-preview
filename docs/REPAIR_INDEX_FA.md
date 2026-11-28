@@ -77,3 +77,9 @@
 - R80 screenshot showed raw JavaScript source rendered in the page.
 - Root cause: the R80 bridge was inserted at the first literal `</body></html>` occurrence, which was inside a JavaScript string used to generate the PDF/print preview document, not at the real end of the app. Its `</script>` prematurely closed the parent script, exposing the remaining JavaScript as page text.
 - R81 removes the misplaced bridge and appends it immediately before the final document closing tags. Preview PR/Gate/deployment and Safari verification are pending. Production and financial/IndexedDB data unchanged.
+
+
+## R81 — Preview deployment
+- PR #113 merged; Version Authority Gate PASS; GitHub Pages deployment PASS.
+- R80 script-boundary regression corrected in R81. User iPhone Safari verification pending.
+- Production and accounting data remain unchanged.

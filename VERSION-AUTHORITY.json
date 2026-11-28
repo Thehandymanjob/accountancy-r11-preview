@@ -3556,24 +3556,24 @@
         "docs/REPAIR_INDEX_FA.md"
       ],
       "previewDevelopmentCommitSha": "6a639091bd5d953fcfd4d7b40f479e3026900592",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
-      "previewMergeCommitSha": "pending",
+      "previewPullRequestNumber": 113,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/113",
+      "previewMergeCommitSha": "e9a0b83f69e9430946affe6a4860a123dfe0e012",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting PR gate."
+        "result": "PASS",
+        "runId": 46167114776,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46167114776",
+        "details": "Final R11 Version Authority Gate passed on main merge commit e9a0b83f69e9430946affe6a4860a123dfe0e012."
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "R80 bridge removed from generated print-preview HTML string and reinserted before the last document closing tags at the actual end of the app. Need verify the main application script contains only its real closing script tag and all JS source remains inside scripts."
+        "result": "PASS",
+        "details": "Misplaced R80 bridge removed from the embedded PDF/print-preview document string and reinserted immediately before the final actual document closing tags. App's main inline script no longer contains the injected premature closing script tag. Gate passed."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Not deployed."
+        "result": "PASS",
+        "runId": 46167114090,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46167114090",
+        "details": "GitHub Pages build, deploy and report-build-status jobs completed successfully for Preview merge commit e9a0b83f69e9430946affe6a4860a123dfe0e012."
       },
       "userSafariTest": {
         "result": "not tested",
