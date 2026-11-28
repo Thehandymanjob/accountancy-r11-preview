@@ -48,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "Preview R77 repairs User Guide display: all 12 English and Persian chapter bodies are rendered immediately, all chapters start expanded, and language changes rebuild chapter content regardless of page active-class state. Chapter text and other language entries are unchanged. PR #105 is open; an initial Version Authority Gate passed (run 46135643381), with a final Gate required after audit updates. Preview Pages deployment and iPhone Safari testing remain pending. Only the app index and Preview audit records changed; no financial records, IndexedDB, LocalStorage, backup/restore data or Production files were changed.",
+  "note": "Preview R77 repairs User Guide display: all 12 English and Persian chapter bodies are rendered immediately, all chapters start expanded, and language changes rebuild chapter content regardless of page active-class state. Chapter text and other language entries are unchanged. PR #105 merged to Preview main as a1170392df0b2bfa3c7289e5ecac00850cb5e091. Version Authority Gate PASS on main (run 46135716382); GitHub Pages build/deploy/report PASS (run 46135716156). iPhone Safari testing remains pending. No financial records, IndexedDB, LocalStorage, backup/restore data or Production files were changed.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {
@@ -3390,30 +3390,30 @@
       "previewDevelopmentCommitSha": "4c4adf773488c22dcc9b69160e62de5904a5faf3",
       "previewPullRequestNumber": 105,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/105",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "a1170392df0b2bfa3c7289e5ecac00850cb5e091",
       "versionAuthorityGate": {
         "result": "PASS",
-        "runId": 46135643381,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46135643381",
-        "details": "The R11 Version Authority Gate passed on the PR #105 head before this audit update. Repository identity, approved baseline ancestry, R77 app identity and all 24 pinned runtime assets including the index self-pin matched. A final Gate is required after this audit update."
+        "runId": 46135716382,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46135716382",
+        "details": "R11 Version Authority Gate passed on the Preview main push for merge commit a1170392df0b2bfa3c7289e5ecac00850cb5e091; all 24 pinned runtime assets, R77 identity and index self-pin matched."
       },
       "staticChecks": {
         "result": "PASS",
         "details": "PASS: all 12 English and Persian chapters remain present; every chapter body is rendered immediately; all chapter details start expanded; applyGuideLanguage rebuilds chapter content without relying on the page active class. Version Authority Gate run 46135643381 passed all 24 pinned assets. Independent full V8 parse and browser behavior testing remain pending."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Must be verified after the Preview PR merge; no live deployment is claimed."
+        "result": "PASS",
+        "runId": 46135716156,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46135716156",
+        "details": "GitHub Pages build, deploy and report-build-status jobs completed successfully for Preview main merge commit a1170392df0b2bfa3c7289e5ecac00850cb5e091."
       },
       "userSafariTest": {
         "result": "not tested",
-        "details": "Awaiting verified Preview Pages deployment and user testing on iPhone Safari."
+        "details": "Deployment succeeded, but actual content, language switching and mobile layout still require user verification in iPhone Safari."
       },
       "userApproval": {
-        "result": "authorized for Preview development work only",
-        "details": "User said «برو» to fix the missing User Guide explanations. This does not authorize Production promotion."
+        "result": "authorized for Preview development and Preview merge",
+        "details": "User said «برو» to repair the missing User Guide explanations. Production promotion remains unauthorized."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
