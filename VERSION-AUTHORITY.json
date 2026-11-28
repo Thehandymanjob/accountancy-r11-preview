@@ -8,7 +8,7 @@
     "version": "273",
     "buildId": "THA-273-R11-PREVIEW-20261127-R64",
     "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R64",
-    "indexBlobSha": "c2de395f94078e9521fb0e6d2035af7ae9fbe3b6",
+    "indexBlobSha": "9fdfeca4d32a4dc94f6b9dc927e316d30c5ca0a7",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,11 +30,11 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "c2de395f94078e9521fb0e6d2035af7ae9fbe3b6",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "9fdfeca4d32a4dc94f6b9dc927e316d30c5ca0a7",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js": "7f48053679cb3d5f3bbbe703de0cf9d7457827be"
+      "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js": "3bea50e786ea252b9d639a1b7d1eff60aa61479a"
     }
   },
   "rules": {
@@ -48,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "R64 contains 131 adjacent contextual Help controls: 113 static, 14 dynamic-template and four PDF popup bridges. One publishable Help ID (Check for Updates) remains intentionally unmapped because its Preview updater control is disabled. Version Authority Gate R64 PASS (run 46072258368); all 24 pinned runtime assets validated. Preview browser/iPhone Safari verification remains pending. No Preview deployment, merge or Production promotion is authorized.",
+  "note": "R67 emergency Help-runtime safety repair is prepared on Preview development. App Build ID and canonical URL remain R64 by authority rule; independent Help Runtime is R67. Contextual Help is fail-closed, its document-wide observer/scan is removed, only the obsolete Help preference key is cleared, and duplicate User Guide settings are consolidated. V8 syntax checks and all 24 SHA pins passed; PR #101 R11 Version Authority Gate PASS (run 46126666710). PR remains Draft; no Preview merge/deployment or iPhone Safari verification has occurred. Production and IndexedDB data are unchanged.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {
@@ -2912,6 +2912,54 @@
       "userApproval": {
         "result": "authorized for Preview development work only",
         "details": "User instructed continued Help connection work. This does not authorize deployment, merge or Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-28-HELP-GUIDE-R67-EMERGENCY-001",
+      "dateStarted": "2026-11-28",
+      "purpose": "Emergency R67 safety repair for the contextual Help lockup and duplicate User Guide entry; preserve the existing R64 canonical app identity.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-runtime-v1.js",
+        "docs/REPAIR_INDEX_FA.md",
+        "docs/REPAIR_HISTORY_FA.md",
+        "VERSION-AUTHORITY.json"
+      ],
+      "previewDevelopmentCommitSha": "2ec202c027668cf4b1daa326dc27b3447ddd03fb",
+      "previewPullRequestNumber": 101,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/101",
+      "previewMergeCommitSha": "pending",
+      "branchSynchronization": {
+        "result": "PASS",
+        "commitSha": "3176d11ca0504c11887a2a437b4293a42b7bae65",
+        "details": "Two-parent merge commit with development as first parent and Preview main as second parent; tree matched Preview main. development ref advanced by fast-forward with force=false and expected SHA lease. No task branch was created. Post-sync compare: development ahead of main only by the sync commit(s), behind by 0, no file diff."
+      },
+      "versionAuthorityGate": {
+        "result": "PASS",
+        "runId": 46126666710,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46126666710",
+        "details": "R11 Version Authority Gate completed successfully on PR #101 head 2b3c3489d0cdb3c9091dbc54969c1ee6ea987217. The approved R11 baseline, unchanged R64 Build ID/canonical URL, updated index SHA and all 24 runtime asset pins passed."
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "All 8 inline JavaScript blocks and the full R67 Help Runtime passed V8 syntax compilation. All 24 manifest-pinned files match the development Git tree. Structural assertions passed for Help fail-closed behavior, removal of MutationObserver/document-wide binding, removal of only the obsolete Help preference key, single User Guide shortcut, and language selector inside #userGuide."
+      },
+      "previewPagesDeployment": {
+        "result": "not deployed",
+        "runId": "pending",
+        "url": "pending",
+        "details": "No merge or Preview Pages deployment has been performed. Deployment requires explicit user approval after PR review."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "The user reported a complete lockup on R66. R67 iPhone Safari checks remain pending after an authorized Preview deployment."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development repair and Draft PR preparation only",
+        "details": "User selected the permanent development-branch workflow. Merge and Preview deployment require explicit authorization; Production promotion is not authorized."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
