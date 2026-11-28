@@ -3600,26 +3600,26 @@
       "previewDevelopmentCommitSha": "6de90751667c7381df0f42ac4307838b3a729187",
       "previewPullRequestNumber": 115,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/115",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "0e61b8c7f6c90b9d7ef8971fcc51bfd53e9f00a3",
       "versionAuthorityGate": {
         "result": "PASS",
-        "runId": "46168435253",
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46168435253",
-        "details": "R11 Version Authority Gate passed on PR #115 head 1204f28d425a9ceddeb152a36d830f95efe3587a; all 24 Preview pins and approved baseline ancestry were validated."
+        "runId": "46168520012",
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46168520012",
+        "details": "Final R11 Version Authority Gate passed on Preview main merge commit 0e61b8c7f6c90b9d7ef8971fcc51bfd53e9f00a3; all 24 pinned assets and approved baseline ancestry matched."
       },
       "staticChecks": {
         "result": "PASS",
         "details": "V8 syntax compilation passed for all 9 inline JavaScript blocks after repairing the PDF preview string continuation, escaping 154 raw line breaks in English/Persian chapter 12 strings, and correcting the two extra closing brackets. Preview and Production authority pin audits both passed (24/24 and 22/22). Approved baseline ancestry and development synchronization verified. No browser runtime or IndexedDB data test performed."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting merge and Pages deployment."
+        "result": "PASS",
+        "runId": "46168519617",
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46168519617",
+        "details": "GitHub Pages build and deployment completed successfully for Preview main merge commit 0e61b8c7f6c90b9d7ef8971fcc51bfd53e9f00a3. Canonical R82 URL is recorded in app.canonicalUrl."
       },
       "userSafariTest": {
         "result": "not tested",
-        "details": "User must verify the four Main Menu buttons and Settings → User Guide on iPhone Safari after Preview deployment."
+        "details": "Awaiting user's iPhone Safari verification of all four Main Menu buttons and Settings → User Guide chapter rendering."
       },
       "userApproval": {
         "result": "authorized for Preview repair only",
