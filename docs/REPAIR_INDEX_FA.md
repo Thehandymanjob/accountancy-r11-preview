@@ -46,3 +46,9 @@
 
 ## قانون
 پیش از هر عیب‌یابی یا اصلاح، این فهرست و دفترچه کامل را بررسی کن. تطابق باید بر اساس علت ریشه‌ای و شواهد باشد، نه صرفاً شباهت ظاهری. دستور کامل و اجباری در `VERSION-AUTHORITY.json` است.
+
+
+## R79 — User Guide render diagnostics
+- All-language blank guide issue remains under investigation.
+- R79 validates 12 chapter entries, builds them in a detached fragment, exposes render diagnostics, displays visible errors, and retries on User Guide open.
+- PR #109 is pending Version Authority Gate. Not merged or deployed. Production unchanged.
