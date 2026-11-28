@@ -1270,3 +1270,13 @@
 - **اعتبارسنجی:** بررسی تغییر سورس و شناسه Build انجام می‌شود؛ اجرای V8 syntax check، Version Authority Gate و Preview Pages deployment در انتظارند.
 - **iPhone Safari:** not tested؛ کاربر باید پس از انتشار Preview عملکرد روشن/خاموش، روان‌بودن کل برنامه و بازشدن راهنمای کنار کنترل‌ها را بررسی کند.
 - **Production:** بدون تغییر؛ Production R12 و IndexedDB/سوابق مالی دست‌نخورده‌اند. ارتقا مجاز نیست.
+
+
+#### ثبت نتیجه انتشار R86 — 2026-11-28
+- PR #125 با موفقیت در Preview main ادغام شد؛ Merge commit: `0e54764aa8f374a3327d77727b1adc2aa58232b8`.
+- Version Authority Gate روی سر PR و پس از ادغام هر دو PASS شدند؛ اجرای نهایی main: [46174303689](https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46174303689).
+- GitHub Pages Build، Deploy و Report Build Status در اجرای [46174303644](https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46174303644) موفق شدند.
+- Build ID: `THA-273-R11-PREVIEW-20261128-R86`؛ Runtime: `R70`.
+- V8 syntax compilation برای فایل Runtime PASS؛ Version Authority تمام ۲۴ فایل پین‌شده را تأیید کرد.
+- iPhone Safari: not tested؛ قفل‌نشدن کل برنامه و رفتار checkbox هنوز باید توسط کاربر روی دستگاه واقعی تأیید شود.
+- Production R12، IndexedDB و اطلاعات مالی بدون تغییر باقی ماندند.
