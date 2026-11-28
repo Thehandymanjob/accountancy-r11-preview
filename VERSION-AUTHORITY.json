@@ -3267,14 +3267,14 @@
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting R74 Gate on the final PR head after authority and repair-history updates."
+        "result": "PASS",
+        "runId": 46132673304,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46132673304",
+        "details": "R11 Version Authority Gate completed successfully on PR #104 head 830f92c7a9614141ccf4491a0e37b75c1a877af6; approved baseline ancestry, R11 app identity and all 24 pinned runtime assets passed."
       },
       "staticChecks": {
         "result": "PARTIAL",
-        "details": "PASS: chapter 10 English/Persian content markers, actual UI labels and workflow assertions, R74 Build ID/canonical URL and index blob SHA; all 24 Preview runtime pins were checked against development with no mismatch (binary image assets validated by the Version Authority Gate rather than text fetch). Production main identity and all 18 text-readable runtime pins matched its own manifest. Separate V8 parsing of all inline JavaScript blocks is pending/not run."
+        "details": "PASS: chapter 10 English/Persian content assertions, current UI labels and save/quotation/PDF workflow claims, R74 Build ID/canonical URL/index SHA; other language sections compared unchanged against R73. All 24 Preview pins were checked against development with no text-readable mismatch; binary assets are validated by the Gate. Production main identity and 18 text-readable runtime pins matched the Production manifest. A separate V8 syntax parse of every inline JavaScript block was not run."
       },
       "previewPagesDeployment": {
         "result": "pending",
