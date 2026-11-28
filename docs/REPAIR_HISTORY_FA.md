@@ -978,8 +978,9 @@
 - هشدار اصلی: Restore یک جایگزینی کامل است، نه تازه‌سازی معمولی. تأیید برنامه صریحاً می‌گوید تمام پایگاه داده فعلی با نسخه انتخاب‌شده جایگزین می‌شود. اگر صفحه خالی یا مبلغی نادرست به نظر می‌رسد، ابتدا ماژول، فیلترها، بازه تاریخ و Monitor بررسی شوند؛ Restore نباید برای آزمایش انجام شود.
 - محدوده تغییر: فقط محتوای User Guide و اطلاعات نسخه/دفترچه در Preview development؛ منطق Backup/Restore، پایگاه داده، IndexedDB، LocalStorage و هیچ داده کاربر تغییر نکرد.
 - Build ID: `THA-273-R11-PREVIEW-20261128-R70`.
-- Commit کد: `a3533b78075f0fb33df9499ac53be51603ff659f`.
-- SHA فایل index و pin Authority: `b3f6a5eef7f352c828968e9a17e4273510f0aafa`.
+- Commit نهایی کد و canonical URL: `288635d11397b76aacc5834cef762828da9c2f51`.
+- SHA نهایی فایل index و pin Authority: `e5a4136440f05042d1afa5971101a01d770f87a4`.
+- اصلاح کنترل کیفیت: Gate اولیه یکسان‌نبودن canonical URL داخل HTML با R70 را شناسایی کرد؛ URL اصلاح و Authority pin همگام شد. Gate برای head نهایی دوباره در حال اجراست.
 - وضعیت راهنما: شش فصل از ۱۲ فصل انگلیسی و فارسی تکمیل شده‌اند؛ شش فصل باقی مانده است. سایر زبان‌ها تغییر نکرده‌اند.
 - تست ایستا: PASS؛ هر ۸ بلوک inline JavaScript با V8 کامپایل شدند؛ محتوای فصل ششم در هر دو زبان و Build ID بررسی شد؛ ۲۳ فایل runtime بدون تغییر با SHAهای Authority تطابق دارند و SHA فایل index به‌روزرسانی شد. Version Authority Gate برای PR head، Deploy، مرورگر واقعی و iPhone Safari هنوز تأیید نشده‌اند.
 - PR: ادامه PR شماره 104؛ باز و بدون Merge یا Preview Deploy.
