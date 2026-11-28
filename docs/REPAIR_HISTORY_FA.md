@@ -859,10 +859,10 @@
 - **Build ID هدف:** `THA-273-R11-PREVIEW-20261128-R77`.
 - **Canonical URL هدف:** `https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R77`.
 - **Commit کد در Preview development:** `4c4adf773488c22dcc9b69160e62de5904a5faf3`.
-- **PR:** #105 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/105 (در حال آماده‌سازی/بررسی).
+- **PR:** #105 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/105؛ merged؛ merge commit: `a1170392df0b2bfa3c7289e5ecac00850cb5e091`.
 - **Static checks:** PASS در بررسی سورس: هر ۱۲ فصل EN و FA در GUIDE_CONTENT موجودند؛ رندر بدنه دیگر lazy نیست؛ همه فصل‌ها open هستند؛ تغییر زبان رندر مجدد را فراخوانی می‌کند. تست V8 کامل، Pages deployment و iPhone Safari هنوز انجام نشده‌اند.
-- **Version Authority Gate:** PASS؛ run `46135643381` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46135643381؛ Gate روی head فعلی PR #105 موفق شد و تمام ۲۴ فایل pinشده، هویت R77 و index self-pin را تأیید کرد. پس از ثبت این نتیجه، اجرای نهایی Gate برای commit جدید نیز لازم است.
-- **Preview Pages / iPhone Safari:** pending؛ نباید پیش از اثبات انتشار URL زنده به‌عنوان نسخه قابل آزمایش معرفی شود.
+- **Version Authority Gate:** PASS؛ PR head run `46135679509` و main push run `46135716382` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46135716382؛ هر دو Gate موفق شدند و هویت R77 و تمام ۲۴ فایل pinشده از جمله index self-pin تأیید شدند.
+- **Preview Pages:** PASS؛ run `46135716156` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46135716156؛ build، deploy و report-build-status موفق شدند. **iPhone Safari:** not tested؛ بررسی واقعی کاربر هنوز لازم است.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
 
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
