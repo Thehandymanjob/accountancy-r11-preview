@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261128-R67",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R67",
-    "indexBlobSha": "57cf089f4d0977e65ec0b87134335692846e3940",
+    "buildId": "THA-273-R11-PREVIEW-20261128-R68",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R68",
+    "indexBlobSha": "0001f27632b5cf21f4ec4e30c720cbfb779e734f",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "57cf089f4d0977e65ec0b87134335692846e3940",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "0001f27632b5cf21f4ec4e30c720cbfb779e734f",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
@@ -3005,6 +3005,45 @@
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
       "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-28-USER-GUIDE-CHAPTER-4-001",
+      "dateStarted": "2026-11-28",
+      "purpose": "Rewrite User Guide chapter 4, Records, Customers and Invoices, in practical English and Persian, including records search, customer details, invoice creation, invoice/payment states, linked income and PDF review.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "7ca27f5720caa8fccbca9c6c3979c1786ad71c19",
+      "previewPullRequestNumber": 104,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": null,
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "pending",
+        "details": "Chapter 4 English/Persian source assertions, all inline JavaScript syntax checks and all 24 Version Authority runtime SHA pins are to be checked against the final PR head."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "details": "No Preview deployment requested or performed."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Real browser and iPhone Safari verification have not been performed."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting Preview verification and user approval."
+      },
+      "productionPromotionStatus": "pending",
+      "productionPullRequestUrl": "pending",
+      "productionCommitSha": "pending"
     }
   ],
   "history": [
