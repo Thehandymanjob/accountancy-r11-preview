@@ -48,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "R67 emergency Help-runtime safety repair is prepared on Preview development. App Build ID and canonical URL remain R64 by authority rule; independent Help Runtime is R67. Contextual Help is fail-closed, its document-wide observer/scan is removed, only the obsolete Help preference key is cleared, and duplicate User Guide settings are consolidated. V8 syntax checks and all 24 SHA pins passed; PR #101 R11 Version Authority Gate PASS (run 46126666710). PR remains Draft; no Preview merge/deployment or iPhone Safari verification has occurred. Production and IndexedDB data are unchanged.",
+  "note": "R67 emergency Help-runtime safety repair is merged into Preview main and GitHub Pages deployment completed successfully. App Build ID and canonical URL remain R64 by authority rule; independent Help Runtime is R67. Contextual Help is fail-closed, its document-wide observer/scan is removed, only the obsolete Help preference key is cleared, and duplicate User Guide settings are consolidated. V8 syntax checks and all 24 SHA pins passed; PR #101 merged as a4700aed5fd7d1a53c2a9538dbab4dce3f0caec1; post-merge Version Authority Gate PASS (run 46126922043) and Pages deployment PASS (run 46126921877). iPhone Safari verification remains pending. Production and IndexedDB data are unchanged.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {
@@ -2928,10 +2928,10 @@
         "docs/REPAIR_HISTORY_FA.md",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "2ec202c027668cf4b1daa326dc27b3447ddd03fb",
+      "previewDevelopmentCommitSha": "a4700aed5fd7d1a53c2a9538dbab4dce3f0caec1",
       "previewPullRequestNumber": 101,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/101",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "a4700aed5fd7d1a53c2a9538dbab4dce3f0caec1",
       "branchSynchronization": {
         "result": "PASS",
         "commitSha": "3176d11ca0504c11887a2a437b4293a42b7bae65",
@@ -2939,27 +2939,27 @@
       },
       "versionAuthorityGate": {
         "result": "PASS",
-        "runId": 46126666710,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46126666710",
-        "details": "R11 Version Authority Gate completed successfully on PR #101 head 2b3c3489d0cdb3c9091dbc54969c1ee6ea987217. The approved R11 baseline, unchanged R64 Build ID/canonical URL, updated index SHA and all 24 runtime asset pins passed."
+        "runId": 46126922043,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46126922043",
+        "details": "Post-merge R11 Version Authority Gate passed on merge commit a4700aed5fd7d1a53c2a9538dbab4dce3f0caec1."
       },
       "staticChecks": {
         "result": "PASS",
         "details": "All 8 inline JavaScript blocks and the full R67 Help Runtime passed V8 syntax compilation. All 24 manifest-pinned files match the development Git tree. Structural assertions passed for Help fail-closed behavior, removal of MutationObserver/document-wide binding, removal of only the obsolete Help preference key, single User Guide shortcut, and language selector inside #userGuide."
       },
       "previewPagesDeployment": {
-        "result": "not deployed",
-        "runId": "pending",
-        "url": "pending",
-        "details": "No merge or Preview Pages deployment has been performed. Deployment requires explicit user approval after PR review."
+        "result": "PASS",
+        "runId": 46126921877,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46126921877",
+        "details": "GitHub Pages build and deploy jobs completed successfully for merge commit a4700aed5fd7d1a53c2a9538dbab4dce3f0caec1."
       },
       "userSafariTest": {
         "result": "not tested",
         "details": "The user reported a complete lockup on R66. R67 iPhone Safari checks remain pending after an authorized Preview deployment."
       },
       "userApproval": {
-        "result": "authorized for Preview development repair and Draft PR preparation only",
-        "details": "User selected the permanent development-branch workflow. Merge and Preview deployment require explicit authorization; Production promotion is not authorized."
+        "result": "authorized and completed for Preview merge/deployment only",
+        "details": "User explicitly approved marking PR #101 ready, merging it into Preview main and deploying Preview. Production promotion is not authorized."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
