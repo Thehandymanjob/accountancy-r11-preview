@@ -848,6 +848,23 @@
 - Production: بدون تغییر و ارتقا مجاز نیست.
 - وضعیت راهنما: هشت فصل از ۱۲ فصل انگلیسی و فارسی تکمیل شده‌اند؛ چهار فصل باقی مانده است. سایر زبان‌ها دست‌نخورده باقی مانده‌اند.
 
+
+#### بازنگری R77 — نمایش هم‌زمان و کامل توضیحات فصل‌های User Guide
+
+- **تاریخ:** 2026-11-28
+- **نوع تغییر:** بازگشایی و اصلاح نمایش همان مشکل User Guide؛ پرونده جدید ایجاد نشد.
+- **علت ریشه‌ای مشاهده‌شده در سورس:** متن هر فصل فقط هنگام باز شدن عنصر `details` با رویداد `toggle` ساخته می‌شد. این رندر تنبل می‌توانست پس از ورود به صفحه یا تغییر زبان، عنوان فصل را بدون بدنه توضیحات باقی بگذارد. همچنین رندر مجدد زبان به فعال بودن کلاس `active` روی صفحه وابسته بود.
+- **راه‌حل R77 در Preview development:** بدنه هر فصل بلافاصله هنگام ساخت فصل رندر می‌شود؛ هر ۱۲ فصل به‌صورت پیش‌فرض باز هستند؛ تغییر زبان محتوای فصل‌ها را بدون وابستگی به وضعیت کلاس صفحه بازسازی می‌کند. زبان انتخابی همچنان فقط روی User Guide اعمال می‌شود و رابط اصلی انگلیسی/LTR می‌ماند.
+- **محدوده ایمنی:** فقط منطق نمایش DOM راهنما و شناسه Build در فایل index تغییر کرد. متن ۱۲ فصل و محتوای زبان‌های دیگر دست‌نخورده‌اند. هیچ منطق حسابداری، IndexedDB، LocalStorage، backup، restore، داده مالی یا فایل Production تغییر نکرد.
+- **Build ID هدف:** `THA-273-R11-PREVIEW-20261128-R77`.
+- **Canonical URL هدف:** `https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R77`.
+- **Commit کد در Preview development:** `4c4adf773488c22dcc9b69160e62de5904a5faf3`.
+- **PR:** #105 — https://github.com/Thehandymanjob/accountancy-r11-preview/pull/105 (در حال آماده‌سازی/بررسی).
+- **Static checks:** PASS در بررسی سورس: هر ۱۲ فصل EN و FA در GUIDE_CONTENT موجودند؛ رندر بدنه دیگر lazy نیست؛ همه فصل‌ها open هستند؛ تغییر زبان رندر مجدد را فراخوانی می‌کند. تست V8 کامل، Pages deployment و iPhone Safari هنوز انجام نشده‌اند.
+- **Version Authority Gate:** pending تا اجرای PR #105.
+- **Preview Pages / iPhone Safari:** pending؛ نباید پیش از اثبات انتشار URL زنده به‌عنوان نسخه قابل آزمایش معرفی شود.
+- **Production:** بدون تغییر؛ ارتقا مجاز نیست.
+
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
 - **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Implemented on Preview development; the latest R45 Version Authority Gate passed after native-HTML fail-closed hardening (run 46053038295). Pages deployment and iPhone Safari verification remain pending.
