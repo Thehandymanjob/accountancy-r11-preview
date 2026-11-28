@@ -83,3 +83,10 @@
 - PR #113 merged; Version Authority Gate PASS; GitHub Pages deployment PASS.
 - R80 script-boundary regression corrected in R81. User iPhone Safari verification pending.
 - Production and accounting data remain unchanged.
+
+
+## R84 — Preview deployment verified
+- PR #118 merged to Preview main; R84 Build ID `THA-273-R11-PREVIEW-20261128-R84`, Help Runtime R68.
+- Version Authority Gate PASS on final PR head and Preview main; GitHub Pages Build, Deploy and Report Build Status PASS.
+- Contextual-help toggle is deployed for 131 completed help entries; 97 registry entries remain CONTENT_DRAFT and are not claimed as complete. THA-HLP-0072 remains deliberately inactive in Preview.
+- Status: **Deployed to Preview — awaiting iPhone Safari verification**. Production and financial/IndexedDB data unchanged.
