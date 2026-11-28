@@ -1167,3 +1167,12 @@
 - تغییر R80: اسکریپت مستقل در انتهای سند، اجرای renderer صادرشده را پس از DOMContentLoaded، load، pageshow و فعال‌شدن پنل User Guide فراخوانی می‌کند. اگر تابع در دسترس نباشد یا اجرا شکست بخورد، پیام تشخیصی قابل مشاهده در همان محفظه نشان داده می‌شود.
 - Build ID: `THA-273-R11-PREVIEW-20261128-R80`؛ PR و انتشار در انتظار Gate هستند.
 - فقط فایل رابط Preview و اسناد نسخه تغییر می‌کنند؛ داده‌های مالی، IndexedDB و Production بدون تغییر می‌مانند.
+
+
+**نتیجه انتشار R80 — 2026-11-28**
+- PR #111 Merge شد؛ commit: `a042fd1f7dc04ab8690930944a9dafca3614d52e`.
+- Version Authority Gate: PASS؛ run `46166685592`.
+- GitHub Pages build/deploy/report: PASS؛ run `46166685478`.
+- لینک Preview: https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R80
+- وضعیت مشکل: Fixed — awaiting verification؛ تأیید واقعی Safari هنوز دریافت نشده است.
+- Production و داده‌های مالی/IndexedDB تغییر نکرده‌اند.
