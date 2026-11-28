@@ -898,3 +898,21 @@
 - Preview Deploy / Merge: انجام نشده؛ باید PR از development به main باز شود و Gate موفق شود. Deploy فقط پس از طی همین مسیر.
 - داده‌ها: هیچ رکورد مالی، IndexedDB، LocalStorage، Backup، Restore یا داده Production تغییر نکرده است.
 - Production: دست‌نخورده؛ ارتقا مجاز نیست.
+
+
+#### بازنگری R66 — بازنویسی فصل دوم راهنمای حسابداری
+
+- تاریخ: 2026-11-28
+- نوع تغییر: ادامه پرونده HELP-GUIDE-001؛ بدون ایجاد شناسه جدید.
+- فصل: `Accountancy — Dashboard and Entries` به انگلیسی و `حسابداری — داشبورد و ثبت تراکنش‌ها` به فارسی.
+- هدف: توضیح روشن و قابل‌استفاده برای Builder درباره ارقام داشبورد، ثبت درآمد و هزینه، فیلدهای فرم، اصلاح ثبت و نکات مهم Records.
+- موارد حفظ‌شده از محتوای قبلی: تعریف دقیق Calculated balance؛ بازه 13th–12th؛ روش‌های پرداخت Cash/Bank transfer/Card/Other؛ تفاوت Save Entry و Clear Form؛ عکس رسید و وضعیت آن در Backup/Reports؛ دسته Contractor/subcontractor و الزام نام؛ Deleted Records و رزرو شماره؛ مدیریت درآمد متصل به فاکتور از Invoices؛ Third-Party Money؛ و تفاوت فاکتور Unpaid با دریافت واقعی پول.
+- روش نگارش: متن انگلیسی و فارسی با جمله‌های کوتاه و مستقیم بازنویسی شد؛ نام واقعی منوها، دکمه‌ها و مقادیر فنی به انگلیسی حفظ شد. هیچ رفتار جدیدی به برنامه اضافه نشده است.
+- Build ID: `THA-273-R11-PREVIEW-20261128-R66`.
+- Commit کد: `dfab264a3741aeea26d229b8531a1106668d8315`.
+- SHA فایل index و pinهای Authority: `93b7fa99b1724a6405818d0e75ea3eb0c5f1e77f`.
+- Commit Authority: `35d1aa029a9f3f33c6665ee023e44fd07cd813b9`.
+- تست: بررسی کامل محتوا و صحت هم‌ترازی زبان‌ها انجام شده؛ syntax و Version Authority Gate برای head نهایی PR هنوز باید اجرا و تأیید شوند. تست واقعی مرورگر و iPhone Safari انجام نشده است.
+- PR: ادامه PR شماره 104؛ هنوز Merge یا Preview Deploy نشده است.
+- داده‌ها: هیچ رکورد مالی، IndexedDB، LocalStorage، Backup یا Restore تغییر نکرده است.
+- Production: دست‌نخورده و بدون مجوز ارتقا.
