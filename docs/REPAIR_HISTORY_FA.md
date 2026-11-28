@@ -865,6 +865,23 @@
 - **Preview Pages:** PASS؛ run `46135716156` — https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46135716156؛ build، deploy و report-build-status موفق شدند. **iPhone Safari:** not tested؛ بررسی واقعی کاربر هنوز لازم است.
 - **Production:** بدون تغییر؛ ارتقا مجاز نیست.
 
+#### بازنگری R82 — اصلاح مرز رشته PDF و خطاهای نحوی محتوای فصل دوازدهم
+
+- **تاریخ:** 2026-11-28
+- **نوع تغییر:** بازگشایی همان پرونده HELP-GUIDE-001؛ خطاهای اجرای راهنمای کاربر و پل R81 به هم مرتبط‌اند؛ پرونده تکراری ایجاد نشده است.
+- **علائم تأییدشده:** چهار دکمه Main Menu در iPhone Safari لمس می‌شدند اما هیچ صفحه‌ای باز نمی‌شد؛ راهنمای User Guide نیز بلوک اجرایی سالمی نداشت.
+- **علت ریشه‌ای اول:** در تابع ساخت PDF، عبارت `</scr'+'ipt>` برای جلوگیری از بسته‌شدن زودهنگام اسکریپت والد استفاده شده بود، اما رشته دوم در همان خط بسته نشده بود و خط بعدی با newline خام ادامه پیدا می‌کرد. در نتیجه بلوک اصلی JavaScript با `SyntaxError: Invalid or unexpected token` کامپایل نمی‌شد و توابع `openAccountancy()`، `openProjectsApp()`، `openContractsApp()` و `openSettingsHub()` تعریف نمی‌شدند.
+- **علت ریشه‌ای دوم:** در محتوای فصل دوازدهم انگلیسی و فارسی، ۱۵۴ newline خام داخل رشته‌های double-quoted قرار داشت و در انتهای آرایه‌های این دو زبان نیز یک براکت اضافه وجود داشت. بلوک راهنما با خطای نحوی متوقف می‌شد.
+- **اصلاح R82:** رشته HTML تولیدکننده PDF به دو رشته معتبر تبدیل شد و ادامه رشته در خط بعد با الحاق صریح انجام می‌شود. ۱۵۴ newline خام داخل متن فصل دوازدهم به `\n` تبدیل شدند تا در زمان اجرا همان line break متنی تولید شود؛ دو براکت اضافی انتهای آرایه‌های انگلیسی و فارسی حذف شدند. متن فصل‌ها و معنای محتوایی آن‌ها تغییر داده نشد.
+- **فایل‌های تغییرکرده:** `v273-isolated-test/r11-income-prefix-repair-20261114/index.html`، `VERSION-AUTHORITY.json`، `docs/REPAIR_HISTORY_FA.md` و `docs/REPAIR_INDEX_FA.md`.
+- **Build ID هدف:** `THA-273-R11-PREVIEW-20261128-R82`؛ canonical URL فقط به query نسخه R82 تغییر کرده است.
+- **Commitهای Preview development:** اصلاح اصلی HTML در `67530eebaedcc51b7e29610abbb9c3eef2254074`؛ اصلاح محتوای رشته‌ها و delimiters در `6de90751667c7381df0f42ac4307838b3a729187`؛ Authority و audit در commitهای بعدی development ثبت شده‌اند.
+- **تست ایستا:** PASS؛ هر ۹ بلوک inline JavaScript به‌طور مستقل با V8 syntax compilation بررسی شدند. پیش از اصلاح، بلوک اصلی برنامه و بلوک User Guide خطای parse داشتند؛ پس از اصلاح هر ۹ بلوک PASS شدند.
+- **محدودیت آزمون:** این تست فقط صحت نحوی JavaScript را ثابت می‌کند؛ کلیک واقعی دکمه‌ها، بازشدن Settings، رندر فصل‌ها، ذخیره‌سازی و رفتار iPhone Safari هنوز آزمایش نشده‌اند.
+- **PR / Version Authority Gate / Preview Pages:** pending؛ تا عبور Gate و Deploy، این اصلاح منتشرشده محسوب نمی‌شود.
+- **تست iPhone Safari:** not tested؛ پس از انتشار R82 باید هر چهار دکمه Main Menu، ورود Settings → User Guide و نمایش فصل‌های انگلیسی/فارسی بررسی شوند.
+- **Production و داده‌ها:** Production، IndexedDB، داده‌های مالی، Backup و Restore تغییر نکردند؛ ارتقا به Production مجاز نشده است.
+
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
 - **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Implemented on Preview development; the latest R45 Version Authority Gate passed after native-HTML fail-closed hardening (run 46053038295). Pages deployment and iPhone Safari verification remain pending.
