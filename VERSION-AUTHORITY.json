@@ -3178,15 +3178,15 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "89890a0bc3d0b53b22fccef77a8e6df5ad5e1610",
+      "previewDevelopmentCommitSha": "b9544c4b353e48e380926af37cdfb94a4eb28bd8",
       "previewPullRequestNumber": 104,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
         "result": "PASS",
-        "runId": 46131912026,
-        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46131912026",
-        "details": "R11 Version Authority Gate passed on PR head containing R72 Chapter 8, Build ID, canonical URL and all four intended files; approved baseline ancestry and all 24 pinned runtime assets passed."
+        "runId": 46131972667,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46131972667",
+        "details": "R11 Version Authority Gate passed on the complete R72 PR head after the Chapter 8 content and audit evidence were recorded. Approved baseline ancestry and all 24 authority-pinned runtime assets passed."
       },
       "staticChecks": {
         "result": "PASS",
