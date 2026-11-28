@@ -3682,7 +3682,7 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "pending-final-documentation-commit",
+      "previewDevelopmentCommitSha": "e1b54abf0b39829b91ce4d739b722b0bf4790187",
       "previewPullRequestNumber": 118,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/118",
       "previewMergeCommitSha": "pending",
@@ -3694,7 +3694,7 @@
       },
       "staticChecks": {
         "result": "PASS",
-        "details": "R68 runtime parse: PASS; 9 inline script blocks parsed; failures: 0. The runtime uses one localStorage preference key only, wraps only explicit navigation lifecycle functions, and observes childList changes within active app roots only. 131 existing help-content attachment points are retained; Check for Updates remains intentionally inactive in this Preview build."
+        "details": "V8 parse PASS for the complete R68 runtime and all 9 inline JavaScript blocks in index.html. Source audit confirms 131 completed help entries are bound to existing static/dynamic controls; THA-HLP-0072 Check for Updates is deliberately inactive in Preview. The registry contains 97 additional CONTENT_DRAFT entries and these are not claimed as covered. Runtime uses scoped active-root childList observers only, no document-wide Help observer or attribute observer."
       },
       "previewPagesDeployment": {
         "result": "pending",
@@ -3718,7 +3718,7 @@
         "attachedContentEntries": 131,
         "previewDisabledEntry": "THA-HLP-0072 — Check for Updates",
         "registryDraftEntries": 97,
-        "details": "The 132-entry multilingual runtime content bundle is complete in 11 languages. 131 entries are attached to existing static or dynamic controls; Check for Updates is intentionally disabled in this Preview build. The wider button inventory contains 97 additional CONTENT_DRAFT registry entries and is not represented as completed coverage."
+        "details": "132 content-complete entries exist in 11 languages; 131 are attached to controls and Check for Updates (THA-HLP-0072) remains intentionally inactive in Preview. The wider 229-entry button registry includes 97 CONTENT_DRAFT entries; these require content completion and separate mapping before full inventory coverage can be claimed."
       }
     }
   ],
