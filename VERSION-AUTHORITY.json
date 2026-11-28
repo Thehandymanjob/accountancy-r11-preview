@@ -3602,10 +3602,10 @@
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/115",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "PR #115 opened; awaiting the Version Authority Gate on the final PR head."
+        "result": "PASS",
+        "runId": "46168435253",
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46168435253",
+        "details": "R11 Version Authority Gate passed on PR #115 head 1204f28d425a9ceddeb152a36d830f95efe3587a; all 24 Preview pins and approved baseline ancestry were validated."
       },
       "staticChecks": {
         "result": "PASS",
