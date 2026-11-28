@@ -822,7 +822,7 @@
 - SHA فایل index و pin Authority: `51c572399a0344e8d7155712547f4f16f1ce64cd`.
 - Commit ثبت Authority: `9a072cebabf0d5bb2266154788ce07314af2b3a5`.
 - PR: ادامه PR شماره 104؛ `https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104`.
-- تست ایستا و Gate: در انتظار اجرای مجدد روی head جدید R71؛ Gate قبلی R70 برای این تغییر مدرک محسوب نمی‌شود.
+- تست ایستا: PASS؛ هر ۸ بلوک inline JavaScript با V8 کامپایل شدند و محتوای فصل هفتم در هر دو زبان و شناسه‌های R71/canonical URL بررسی شدند. Version Authority Gate: PASS؛ run `46131607901` روی PR head `97004df01222629b821d9b0b455a7465cc4bfe18`؛ هر ۲۴ فایل پین‌شده و ancestry تأییدشده بررسی شدند. این Gate پیش از ثبت نهایی نتیجه در Authority اجرا شد؛ به‌روزرسانی audit-only باعث اجرای مجدد Gate روی head بعدی می‌شود.
 - Preview Pages / iPhone Safari: انجام نشده؛ نیازمند Gate موفق، انتشار مجاز و سپس تست واقعی کاربر است.
 - Production: بدون تغییر و ارتقا مجاز نیست.
 - وضعیت راهنما: هفت فصل از ۱۲ فصل انگلیسی و فارسی تکمیل شده‌اند؛ پنج فصل باقی مانده است. سایر زبان‌ها دست‌نخورده باقی مانده‌اند.
