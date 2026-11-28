@@ -139,7 +139,7 @@
     ps:{purpose:'موخه',when:'کله یې وکاروئ',how:'د کارولو طریقه',inputs:'اړین معلومات',result:'تمه کېدونکې پایله',notes:'مهمې یادونې'}
   };
   const RTL_LANGS = new Set(['fa','ar','ckb','ur','prs','ps']);
-  let lastHelpId=null,overlay=null,card=null,lastFocused=null;
+  let lastHelpId=null,overlay=null,card=null,lastFocused=null,helpEnabledMemory=false;
   function selectedLanguage(){
     const select=document.getElementById('appLanguageSelect'),selected=select&&select.value;
     if(selected&&payload.meta.languages.includes(selected))return selected;
@@ -162,7 +162,7 @@
       const guide=document.getElementById('userGuide');if(guide)guide.classList.add('active');
     }
     const guide=document.getElementById('userGuide');
-    if(guide&&typeof guide.scrollIntoView==='function')guide.scrollIntoView({behavior:'smooth',block:'start'});
+    if(guide&&typeof guide.scrollIntoView==='function')guide.scrollIntoView({behavior:'auto',block:'start'});
   }
   function addText(parent,tag,text,className){
     const node=document.createElement(tag);node.textContent=String(text==null?'':text);
@@ -246,7 +246,26 @@
     }
     wrapper.hidden=hidden;
   }
+  function helpIconsEnabled(){
+    try{const saved=window.localStorage.getItem('thaHelpIconsEnabled');if(saved==='true')return true;if(saved==='false')return false;}catch(_){}
+    return helpEnabledMemory;
+  }
+  function setHelpIconsEnabled(enabled){
+    const value=!!enabled;helpEnabledMemory=value;
+    try{window.localStorage.setItem('thaHelpIconsEnabled',value?'true':'false');}catch(_){}
+    if(value){attachAll(document);}
+    else{
+      document.querySelectorAll('.tha-help-control-wrap').forEach(wrapper=>{
+        const target=wrapper.querySelector('[data-help-id]');
+        if(target){delete target.dataset.thaHelpWrapped;wrapper.parentNode.insertBefore(target,wrapper);}
+        wrapper.remove();
+      });
+    }
+    const control=document.getElementById('thaHelpIconsEnabled');if(control)control.checked=value;
+    return value;
+  }
   function attachHelpButtons(root){
+    if(!helpIconsEnabled())return;
     const scope=root||document,targets=[];
     if(scope.nodeType===1&&scope.matches&&scope.matches('[data-help-id]'))targets.push(scope);
     if(scope.querySelectorAll)targets.push(...scope.querySelectorAll('[data-help-id]'));
@@ -271,9 +290,11 @@
       syncHelpWrapper(target);
     });
   }
-  function attachAll(root){attachStaticBindings(root);attachHelpButtons(root);}
+  function attachAll(root){if(!helpIconsEnabled())return;attachStaticBindings(root);attachHelpButtons(root);}
   function initialise(){
-    createInterface();attachAll(document);
+    createInterface();
+    const helpControl=document.getElementById('thaHelpIconsEnabled');if(helpControl)helpControl.checked=helpIconsEnabled();
+    if(helpIconsEnabled())attachAll(document);
     if(typeof MutationObserver==='function'){
       const observer=new MutationObserver(records=>records.forEach(record=>{
         if(record.type==='attributes'){
@@ -283,7 +304,7 @@
             if(changed.querySelectorAll)changed.querySelectorAll('[data-help-id]').forEach(syncHelpWrapper);
           }
         }
-        if(record.type==='childList')record.addedNodes.forEach(node=>{if(node.nodeType===1)attachAll(node);});
+        if(record.type==='childList'&&helpIconsEnabled())record.addedNodes.forEach(node=>{if(node.nodeType===1)attachAll(node);});
       }));
       observer.observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['hidden','class','style']});
     }
@@ -291,7 +312,7 @@
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initialise,{once:true});
   else initialise();
   window.THAHelpRuntime=Object.freeze({
-    version:'R64',open:openHelp,openFullGuide,attach:attachAll,
+    version:'R66',open:openHelp,openFullGuide,attach:attachAll,setEnabled:setHelpIconsEnabled,isEnabled:helpIconsEnabled,
     getLastHelpId:()=>lastHelpId,getPublishableCount:()=>Object.keys(payload.entries).length
   });
 })();
