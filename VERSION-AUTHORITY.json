@@ -2976,8 +2976,8 @@
         "VERSION-AUTHORITY.json"
       ],
       "previewDevelopmentCommitSha": "c5d813b80db218ca86fa313a9436d6058fc1bb20",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
+      "previewPullRequestNumber": 103,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/103",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
         "result": "pending",
@@ -2985,8 +2985,8 @@
         "url": "pending"
       },
       "staticChecks": {
-        "result": "source change applied; validation pending",
-        "details": "RTL language and dir attributes are applied to #userGuide and its chapter list only; code-like elements are isolated LTR. Browser rendering and iPhone Safari tests are pending."
+        "result": "PASS",
+        "details": "Six source assertions passed: RTL language set, guide chapter direction, scoped User Guide direction, application shell remains LTR, code-like blocks isolated LTR, and no global RTL direction. All eight inline JavaScript blocks passed V8 syntax compilation. Real browser/iPhone Safari rendering remains pending."
       },
       "previewPagesDeployment": {
         "result": "not deployed",
