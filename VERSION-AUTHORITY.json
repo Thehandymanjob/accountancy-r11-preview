@@ -3685,22 +3685,22 @@
       "previewDevelopmentCommitSha": "e1b54abf0b39829b91ce4d739b722b0bf4790187",
       "previewPullRequestNumber": 118,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/118",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "7737ccb2950ab5bfdaa5e3cfd085ae23b6a0419c",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting final Version Authority Gate on the complete R84 PR head."
+        "result": "PASS",
+        "runId": 46170952675,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46170952675",
+        "details": "Final Version Authority Gate passed on PR #118 head c474e42b4dc6e27852abee3ffa083cb487a422d0 (run 46170902056) and passed again on Preview main merge commit 7737ccb2950ab5bfdaa5e3cfd085ae23b6a0419c (run 46170952675)."
       },
       "staticChecks": {
         "result": "PASS",
         "details": "V8 parse PASS for the complete R68 runtime and all 9 inline JavaScript blocks in index.html. Source audit confirms 131 completed help entries are bound to existing static/dynamic controls; THA-HLP-0072 Check for Updates is deliberately inactive in Preview. The registry contains 97 additional CONTENT_DRAFT entries and these are not claimed as covered. Runtime uses scoped active-root childList observers only, no document-wide Help observer or attribute observer."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting final PR Gate and Preview Pages deployment."
+        "result": "PASS",
+        "runId": 46170952501,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46170952501",
+        "details": "GitHub Pages build, deploy and report-build-status jobs completed successfully for Preview R84 merge commit 7737ccb2950ab5bfdaa5e3cfd085ae23b6a0419c. iPhone Safari verification remains pending."
       },
       "userSafariTest": {
         "result": "not tested",
