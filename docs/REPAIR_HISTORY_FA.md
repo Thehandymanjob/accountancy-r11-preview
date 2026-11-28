@@ -962,9 +962,9 @@
 - Build ID: `THA-273-R11-PREVIEW-20261128-R69`.
 - Commit کد: `2e8d0dffba7a2ab95b130e3176cea4784da0c3ae`.
 - SHA فایل index و pin Authority: `4449d0f5074856dd5e4dbff34589d8bd7d0d2ff7`.
-- Commit Authority: در انتظار commit نهایی این مرحله.
+- Commit Authority: پس از ثبت نتایج ایستا به‌روزرسانی شد؛ commit نهایی Authority در تاریخچه Git ثبت است.
 - وضعیت راهنما: پنج فصل از ۱۲ فصل انگلیسی و فارسی بازنویسی شده‌اند؛ هفت فصل باقی مانده است.
-- تست: بررسی syntax، assertions و ۲۴ SHA pin پس از به‌روزرسانی نهایی انجام می‌شود؛ Gate، مرورگر واقعی و iPhone Safari هنوز تأیید نشده‌اند.
+- تست ایستا: PASS؛ هر ۸ بلوک inline JavaScript با V8 کامپایل شدند؛ محتوای فصل پنجم در هر دو زبان، Build ID، canonical URL و indexBlobSha بررسی شدند؛ هر ۲۴ SHA pin با درخت development تطابق دارند. Version Authority Gate برای PR head، مرورگر واقعی و iPhone Safari هنوز تأیید نشده‌اند.
 - PR: ادامه PR شماره 104؛ هنوز Merge یا Preview Deploy انجام نشده است.
 - داده‌ها و Production: هیچ رکورد مالی، IndexedDB، LocalStorage، Backup یا Restore تغییر نکرده؛ Production دست‌نخورده است.
 
