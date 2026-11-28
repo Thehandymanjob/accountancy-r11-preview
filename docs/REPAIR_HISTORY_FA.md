@@ -1160,3 +1160,10 @@
 - لینک Preview: https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R79
 - وضعیت عیب: **Fixed — awaiting verification**؛ هنوز هیچ تأیید واقعی از iPhone Safari دریافت نشده است.
 - Production ارتقا نیافته و هیچ داده مالی یا IndexedDB تغییر نکرده است.
+
+
+## R80 — اتصال مستقل اجرای User Guide (2026-11-28)
+- شواهد: تصویر Safari پس از انتشار R79 نشان داد محفظه فصل‌ها هنوز خالی است و پیام خطای R79 نیز ظاهر نشده؛ پس اجرای تابع نمایش در زمان مناسب تضمین نشده است.
+- تغییر R80: اسکریپت مستقل در انتهای سند، اجرای renderer صادرشده را پس از DOMContentLoaded، load، pageshow و فعال‌شدن پنل User Guide فراخوانی می‌کند. اگر تابع در دسترس نباشد یا اجرا شکست بخورد، پیام تشخیصی قابل مشاهده در همان محفظه نشان داده می‌شود.
+- Build ID: `THA-273-R11-PREVIEW-20261128-R80`؛ PR و انتشار در انتظار Gate هستند.
+- فقط فایل رابط Preview و اسناد نسخه تغییر می‌کنند؛ داده‌های مالی، IndexedDB و Production بدون تغییر می‌مانند.
