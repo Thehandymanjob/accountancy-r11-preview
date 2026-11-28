@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261128-R76",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R76",
-    "indexBlobSha": "3572fff7387ed2ce9f9fc92a6626390d5df63c34",
+    "buildId": "THA-273-R11-PREVIEW-20261128-R77",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R77",
+    "indexBlobSha": "dcec64188251a319024c80a3f10dbfeb3e4fe7b9",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -30,7 +30,7 @@
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-192.png": "872877c34456a6c7cf9e25d178904463e1a9437b",
       "v273-isolated-test/r11-income-prefix-repair-20261114/icon-512.png": "aa5e3a983a37942d5541220d8179d8e96eeb57d2",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v264-ui-domain-gateway.js": "f1603e78d79192ea95f90fad6f859fcd7d369ef5",
-      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "3572fff7387ed2ce9f9fc92a6626390d5df63c34",
+      "v273-isolated-test/r11-income-prefix-repair-20261114/index.html": "dcec64188251a319024c80a3f10dbfeb3e4fe7b9",
       "v273-isolated-test/r11-income-prefix-repair-20261114/v273-legacy-reset.js": "964b1ca647c373b2168d33fe31e1b90507734751",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-print-engine.js": "701bc4d8a47f54d2a3443a8b8f7808023cf1dbd7",
       "v273-isolated-test/r11-income-prefix-repair-20261114/tha-help-content-v1.js": "a35f1c1a56e6d7ac077acff807f8bca8a9557c35",
@@ -48,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "Preview R76 completes the English and Persian User Guide chapter 12, Data Safety and Troubleshooting. The chapter explains browser-local IndexedDB storage, safe backup handling, Restore and Factory Reset risks, missing-record and save-failure checks, report/PDF troubleshooting, device/browser precautions, diagnostic privacy and the local-draft-only Contact Us form. Only English and Persian chapter 12 text and R76 identity metadata changed; other language content and runtime dependencies remain unchanged. PR #104 remains Preview-only and Draft; final Gate, Preview Pages deployment and iPhone Safari testing are pending. No financial records, IndexedDB data or Production files were changed.",
+  "note": "Preview R77 repairs User Guide display: all 12 English and Persian chapter bodies are rendered immediately, all chapters start expanded, and language changes rebuild chapter content regardless of page active-class state. Chapter text and other language entries are unchanged. Only the app index and Preview audit records changed; no financial records, IndexedDB, LocalStorage, backup/restore data or Production files were changed. PR #105, Version Authority Gate, Preview Pages deployment and iPhone Safari testing are pending.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {
@@ -3376,6 +3376,48 @@
       "productionPromotionStatus": "pending",
       "productionPullRequestUrl": "pending",
       "productionCommitSha": "pending"
+    },
+    {
+      "changeId": "HELP-GUIDE-2026-11-28-VISIBILITY-R77",
+      "dateStarted": "2026-11-28",
+      "purpose": "Repair missing User Guide explanations by eagerly rendering every chapter body, expanding all 12 chapters by default, and rebuilding the guide whenever its language changes.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "4c4adf773488c22dcc9b69160e62de5904a5faf3",
+      "previewPullRequestNumber": 105,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/105",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting PR #105 Version Authority Gate on the final PR head."
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "Source assertions confirm all 12 English and Persian chapters remain present; every chapter body is rendered immediately; all chapter details start expanded; applyGuideLanguage rebuilds chapter content without relying on the page active class. Full V8 parsing and browser behavior testing remain pending."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Must be verified after the Preview PR merge; no live deployment is claimed."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting verified Preview Pages deployment and user testing on iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User said «برو» to fix the missing User Guide explanations. This does not authorize Production promotion."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
     }
   ],
   "history": [
