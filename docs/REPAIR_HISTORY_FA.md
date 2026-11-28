@@ -896,6 +896,21 @@
 - **تکمیل hardening نهایی HTML:** مقدار `disabled` دکمه نهایی در هر دو تابع قدیمی `openFactoryReset()` و `factoryResetNextStep()` روی `true` تنظیم شد. بنابراین حتی اگر فایل محافظ JavaScript بارگذاری نشود، UI نباید دکمه نهایی را فعال نشان دهد. SHA فایل index و pin مربوط در `VERSION-AUTHORITY.json` هم‌زمان به‌روزرسانی شد. R11 Version Authority Gate برای commit نهایی PASS شد (run `46053038295`). هیچ Deploy یا Reset واقعی اجرا نشد.
 
 
+
+#### بازنگری R78 — اصلاح ترتیب اجرای راهنمای کاربر پس از راه‌اندازی ذخیره‌سازی
+
+- **تاریخ:** 2026-11-28
+- **علت ریشه‌ای:** تابع `applyGuideLanguage` داخل scope اسکریپت راهنما تعریف شده بود؛ اما Promise راه‌اندازی IndexedDB در اسکریپت جداگانه و زودتر اجرا می‌شد. callback اولیه نمی‌توانست تابع محلی را پیدا کند. هم‌زمان، شرط `if(!window.__thaV264StartupPromise)` در اسکریپت راهنما، وقتی Promise وجود داشت، رندر پیش‌فرض را کاملاً رد می‌کرد. در نتیجه ممکن بود راهنما هیچ‌وقت در شروع اولیه render نشود، حتی اگر محتوای هر ۱۲ فصل سالم باشد.
+- **راه‌حل R78:** پس از تعریف renderer و تابع `applyGuideLanguage`، خود اسکریپت راهنما به Promise موجود متصل می‌شود و پس از resolve شدن، زبان ذخیره‌شده را اعمال و فصل‌ها را render می‌کند. در صورت رد شدن Promise نیز راهنما با زبان انگلیسی render می‌شود. اگر Promise وجود نداشته باشد، انگلیسی بلافاصله اعمال می‌شود.
+- **دامنه:** فقط زمان‌بندی راه‌اندازی User Guide و شناسه Build در index Preview تغییر کرد. متن فصل‌ها، زبان‌های دیگر، حسابداری، IndexedDB schema/data، LocalStorage، backup و restore تغییر نکردند.
+- **Build ID:** `THA-273-R11-PREVIEW-20261128-R78`.
+- **Canonical URL:** `https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R78`.
+- **Commit کد Preview development:** `d32a56289bb055eee29658645375c30f0169e610`.
+- **Static assertions:** PASS برای وجود اتصال `window.__thaV264StartupPromise.then(...)` بعد از تعریف تابع renderer، fallback انگلیسی در حالت نبودن یا شکست Promise، و حفظ رندر فوری هر فصل.
+- **PR / Gate / Deploy:** در انتظار PR جدید و اجرای نهایی Version Authority Gate و GitHub Pages.
+- **iPhone Safari:** not tested؛ تا تست واقعی، مشکل نمایش حل‌شده اعلام نمی‌شود.
+- **Production:** بدون تغییر؛ ارتقا مجاز نیست.
+
 #### بازنگری R61 — اتصال عملیات پروژه و تب‌های جزئیات
 
 - تاریخ: 2026-11-27
