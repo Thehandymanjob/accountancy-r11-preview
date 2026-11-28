@@ -52,3 +52,10 @@
 - All-language blank guide issue remains under investigation.
 - R79 validates 12 chapter entries, builds them in a detached fragment, exposes render diagnostics, displays visible errors, and retries on User Guide open.
 - PR #109 is pending Version Authority Gate. Not merged or deployed. Production unchanged.
+
+
+## وضعیت جاری HELP — User Guide (R79)
+- R79 در Preview منتشر شد؛ PR #109 Merge، Version Authority Gate PASS و GitHub Pages Deploy PASS.
+- تشخیص خطای نمایش و پیام خطای قابل مشاهده اضافه شده است.
+- وضعیت: **Fixed — awaiting verification**؛ تأیید نهایی نمایش فصل‌ها در iPhone Safari هنوز دریافت نشده است.
+- Production دست‌نخورده است.

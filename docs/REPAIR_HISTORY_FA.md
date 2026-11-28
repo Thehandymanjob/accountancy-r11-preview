@@ -1151,3 +1151,12 @@
 - PR: #109 — در انتظار Version Authority Gate؛ هنوز Merge یا Deploy نشده است.
 - هیچ تغییری در منطق حسابداری، داده‌های مالی، ساختار یا داده‌های IndexedDB، پشتیبان‌گیری، بازیابی یا Production انجام نشده است.
 - آزمایش واقعی Safari پس از انتشار Preview همچنان لازم است.
+
+
+**نتیجه انتشار R79 — 2026-11-28**
+- PR #109 با موفقیت Merge شد؛ merge commit: `10ba974c1e32c8effb4f3f54e3f4f27216672b7c`.
+- Version Authority Gate نهایی: PASS؛ run `46137710079`.
+- GitHub Pages build/deploy/report: PASS؛ run `46137709974`.
+- لینک Preview: https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R79
+- وضعیت عیب: **Fixed — awaiting verification**؛ هنوز هیچ تأیید واقعی از iPhone Safari دریافت نشده است.
+- Production ارتقا نیافته و هیچ داده مالی یا IndexedDB تغییر نکرده است.

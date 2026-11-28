@@ -3474,26 +3474,26 @@
       "previewDevelopmentCommitSha": "37e73b7757d78ab21cfed4d3c74d11647616eb9a",
       "previewPullRequestNumber": 109,
       "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/109",
-      "previewMergeCommitSha": "pending",
+      "previewMergeCommitSha": "10ba974c1e32c8effb4f3f54e3f4f27216672b7c",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting PR Version Authority Gate; do not merge or deploy until all 24 pinned assets and R79 identity pass."
+        "result": "PASS",
+        "runId": 46137710079,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46137710079",
+        "details": "R11 Version Authority Gate passed on main push for merge commit 10ba974c1e32c8effb4f3f54e3f4f27216672b7c; all 24 pinned runtime assets and R79 identity matched."
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "Expected 12 chapter records are validated; chapter DOM is built in a detached DocumentFragment; diagnostics are exposed in window.__thaGuideRenderDiagnostics and a visible error panel is rendered on exception. Independent V8 parse and browser execution remain pending."
+        "result": "PASS",
+        "details": "Source-level guard validates the selected language has exactly 12 well-formed chapter entries, builds all chapter nodes in a detached DocumentFragment, inserts atomically, records diagnostic state, shows a visible error on failure, and retries on User Guide open. This does not substitute for browser runtime verification."
       },
       "previewPagesDeployment": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Not deployed. Awaiting Version Authority Gate and merge."
+        "result": "PASS",
+        "runId": 46137709974,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46137709974",
+        "details": "GitHub Pages build, deploy and report-build-status jobs completed successfully for Preview main merge commit 10ba974c1e32c8effb4f3f54e3f4f27216672b7c."
       },
       "userSafariTest": {
         "result": "not tested",
-        "details": "Awaiting approved R79 Preview deployment and user iPhone Safari verification."
+        "details": "R79 is deployed; awaiting user's iPhone Safari verification that all-language chapter bodies render. If still blank, request screenshot of the User Guide page and inspect window.__thaGuideRenderDiagnostics through a diagnostic UI."
       },
       "userApproval": {
         "result": "authorized for Preview diagnostic repair and PR creation",
