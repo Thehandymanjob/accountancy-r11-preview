@@ -3639,19 +3639,19 @@
         "docs/REPAIR_HISTORY_FA.md",
         "docs/REPAIR_INDEX_FA.md"
       ],
-      "previewDevelopmentCommitSha": "fb7af6e1b0c0ee096da517bb1f7d5e948ee48d78",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
+      "previewDevelopmentCommitSha": "pending-final-documentation-commit",
+      "previewPullRequestNumber": 117,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/117",
       "previewMergeCommitSha": "pending",
       "versionAuthorityGate": {
-        "result": "pending",
-        "runId": "pending",
-        "url": "pending",
-        "details": "Awaiting Version Authority Gate on the Preview PR and again on Preview main."
+        "result": "PASS",
+        "runId": 46169160950,
+        "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46169160950",
+        "details": "R11 Version Authority Gate passed on the PR #117 merge candidate after aligning the internal R11 canonical URL and refreshing the index runtime SHA pin."
       },
       "staticChecks": {
-        "result": "pending",
-        "details": "R83 language-selection and collapsed-accordion changes are in place. First Gate run identified a stale internal R11_CANONICAL_PAGE_URL still set to R82; that constant has now been aligned to R83 and the index SHA pins refreshed. Re-running V8 syntax and full Version Authority validation."
+        "result": "PASS WITH LIMITATIONS",
+        "details": "Source inspection confirms the visible language selector is authoritative for subsequent guide renders and all 12 generated chapter accordions start collapsed. The R11 Version Authority Gate validated approved baseline ancestry, R83 identity, canonical URL and all 24 pinned runtime assets. Real browser rendering and iPhone Safari behavior remain untested."
       },
       "previewPagesDeployment": {
         "result": "pending",
