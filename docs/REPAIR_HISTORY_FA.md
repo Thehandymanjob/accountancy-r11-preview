@@ -1103,6 +1103,8 @@
 - SHA فایل index و pin Authority: `3572fff7387ed2ce9f9fc92a6626390d5df63c34`.
 - تست محتوایی فصل دوازدهم انگلیسی/فارسی و ثبت شناسه R76: PASS. سایر زبان‌ها بدون تغییر باقی ماندند. بررسی مستقل V8 برای syntax تمام بلوک‌های inline JavaScript اجرا نشده است.
 - وضعیت راهنما: ۱۲ فصل از ۱۲ فصل انگلیسی و فارسی تکمیل شده‌اند. زبان‌های دیگر در این مرحله تغییر نکردند.
+
+- R11 Version Authority Gate: PASS؛ run `46135017867` روی PR #104 head برابر با `28abdb1e3fc3570466241399ef50fe2687a76311`؛ اعتبارسنجی هویت R11، ancestry مبنا و هر ۲۴ فایل pin‌شده از جمله self-pin فایل index موفق بود. اجرای Gate نهایی پس از ثبت همین نتیجه باید دوباره بررسی شود.
 - R11 Version Authority Gate نهایی، Preview Pages Deploy، مرورگر واقعی و iPhone Safari: در انتظار؛ هیچ‌کدام PASS اعلام نمی‌شوند.
 - PR: ادامه PR شماره 104؛ Draft و باز باقی می‌ماند. Merge و Deploy انجام نشده‌اند.
 - داده‌ها و Production: هیچ رکورد مالی، IndexedDB، Backup یا Restore تغییر نکرد؛ Production دست‌نخورده و ارتقا غیرمجاز است.
