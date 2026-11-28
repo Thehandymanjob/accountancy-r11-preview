@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261128-R74",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R74",
-    "indexBlobSha": "54ebbf93dd1ecdf5d5a3fcc3b9bdb3759db8e5b6",
+    "buildId": "THA-273-R11-PREVIEW-20261128-R75",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R75",
+    "indexBlobSha": "24b943425409ed27dab992c63339ab1bfbd952a8",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -48,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "Preview R74 completes the English and Persian User Guide chapter 10, Contract Management, aligned with the current contract editor, saved-contract list, IndexedDB read-back verification, quotation/contract print output and PDF workflow. It corrects unsupported descriptions of amendment/version history: the current editor overwrites the saved document and has no dedicated version archive, so users are instructed to retain signed copies externally. Other language sections and all runtime dependencies remain unchanged. PR #104 remains Preview-only; R74 Gate, Pages deployment and iPhone Safari testing are pending. No financial records, IndexedDB data or Production files were changed.",
+  "note": "Preview R75 completes the English and Persian User Guide chapter 11, Settings, Profile and Software Update, against the current Main Menu, Settings shortcuts, business profile form, User Guide language selector, disabled test-build updater, Monitor & Diagnostics and guarded Factory Reset workflow. The chapter corrects the Settings entry path to the Main Menu and explains that Contact Us saves a local draft only. Only the English and Persian chapter 11 text and R75 identity metadata changed; all other language content and runtime dependencies remain unchanged. PR #104 remains Preview-only and Draft; Gate, Pages deployment and iPhone Safari testing are pending. No financial records, IndexedDB data or Production files were changed.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {
@@ -3275,6 +3275,48 @@
       "staticChecks": {
         "result": "PARTIAL",
         "details": "PASS: chapter 10 English/Persian content assertions, current UI labels and save/quotation/PDF workflow claims, R74 Build ID/canonical URL/index SHA; other language sections compared unchanged against R73. All 24 Preview pins were checked against development with no text-readable mismatch; binary assets are validated by the Gate. Production main identity and 18 text-readable runtime pins matched the Production manifest. A separate V8 syntax parse of every inline JavaScript block was not run."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "No Preview merge or Pages deployment has been performed."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting Preview deployment and user verification on iPhone Safari."
+      },
+      "userApproval": {
+        "result": "authorized for Preview development work only",
+        "details": "User instructed continuation of the English/Persian User Guide; this is not authorization to merge or deploy."
+      },
+      "productionPromotionStatus": "not authorized",
+      "productionPullRequestUrl": "not applicable",
+      "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "THA-2026-11-28-HELP-GUIDE-CHAPTER-11-R75",
+      "dateStarted": "2026-11-28",
+      "purpose": "Complete English and Persian User Guide chapter 11, Settings, Profile and Software Update, accurately describing the Main Menu entry point, all six Settings shortcuts, profile/logo save behavior, guide language and local-only Contact Us draft, disabled test-build updater, Monitor version details and destructive Factory Reset precautions.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "801868e6bb3797eb3d30e74109a0f2513ea88252",
+      "previewPullRequestNumber": 104,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting the final R75 Version Authority Gate on the updated PR head."
+      },
+      "staticChecks": {
+        "result": "PARTIAL",
+        "details": "PASS: English/Persian chapter 11 assertions, exact Main Menu Settings entry path, six current Settings shortcuts, profile fields, User Guide behavior, disabled updater, Monitor version details, local-only Contact Us draft and Factory Reset safeguards. R75 Build ID, canonical URL and index blob SHA updated consistently. Other language sections and runtime dependencies were not edited; final independent comparison and Gate validation remain pending."
       },
       "previewPagesDeployment": {
         "result": "pending",
