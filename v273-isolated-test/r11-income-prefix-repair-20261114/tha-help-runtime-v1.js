@@ -1,12 +1,20 @@
 (function () {
   'use strict';
-  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R68') return;
+  if (window.THAHelpRuntime && window.THAHelpRuntime.version === 'R69') return;
   const payload = window.THAHelpContentV1;
   if (!payload || !payload.entries) {
     console.error('[THA Help] Content bundle is missing; contextual help was not started.');
     return;
   }
   const STATIC_BINDINGS = [
+    ['THA-HLP-0056', '#settings .settings-shortcuts > button[onclick="show(\'backup\')"]'],
+    ['THA-HLP-0058', '#settings .settings-shortcuts > button[onclick="show(\'profileGuide\')"]'],
+    ['THA-HLP-0059', '#settings .settings-shortcuts > button[onclick="show(\'userGuide\')"]'],
+    ['THA-HLP-0060', '#settings .settings-shortcuts > button[onclick="show(\'softwareUpdate\')"]'],
+    ['THA-HLP-0061', '#settings .settings-shortcuts > button[onclick="show(\'monitor\')"]'],
+    ['THA-HLP-0062', '#settings .settings-shortcuts > button[onclick="show(\'factoryResetPage\')"]'],
+    ['THA-HLP-0057', '#userGuide #appLanguageSelect'],
+
     ['THA-HLP-0006', '#ctFormCard .ct-actions > button[onclick="ctSave()"]'],
     ['THA-HLP-0007', '#contractsApp .ct-actions > button[onclick="ctOpenChatGPT()"]'],
     ['THA-HLP-0008', '#ctFormCard .ct-actions > button[onclick="ctPrint()"]'],
@@ -365,7 +373,7 @@
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initialise,{once:true});
   else initialise();
   window.THAHelpRuntime=Object.freeze({
-    version:'R68',open:openHelp,openFullGuide,attach:activateRoots,setEnabled:setHelpIconsEnabled,isEnabled:helpIconsEnabled,
+    version:'R69',open:openHelp,openFullGuide,attach:activateRoots,setEnabled:setHelpIconsEnabled,isEnabled:helpIconsEnabled,
     getLastHelpId:()=>lastHelpId,getPublishableCount:()=>Object.keys(payload.entries).length
   });
 })();

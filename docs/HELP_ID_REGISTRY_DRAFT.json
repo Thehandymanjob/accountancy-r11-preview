@@ -2,7 +2,7 @@
   "schema_version": 1,
   "registry_status": "DRAFT_NOT_CONNECTED_TO_RUNTIME",
   "project": "The Handyman Accountancy",
-  "build_baseline": "THA-273-R11-PREVIEW-20261127-R47",
+  "build_baseline": "THA-273-R11-PREVIEW-20261128-R85",
   "branch": "development",
   "source_inventory": "docs/HELP_BUTTON_INVENTORY_FA.md",
   "source_inventory_blob_sha": "f1efe7a5f57961a5b415cc1a9e1992622ab549b1",
@@ -5425,9 +5425,9 @@
     {
       "help_id": "THA-HLP-0056",
       "audit_ref": "INV-070",
-      "element_id": null,
+      "element_id": "settings",
       "label": "💾 Backup & Restore Separate backups for each data area",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the Backup & Restore page for creating or restoring one complete database backup.",
@@ -5523,9 +5523,9 @@
     {
       "help_id": "THA-HLP-0057",
       "audit_ref": "INV-071",
-      "element_id": null,
+      "element_id": "appLanguageSelect",
       "label": "❓ Help Choose the language for the User Guide",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens Settings → User Guide so you can choose the language used for the User Guide.",
@@ -5621,9 +5621,9 @@
     {
       "help_id": "THA-HLP-0058",
       "audit_ref": "INV-072",
-      "element_id": null,
+      "element_id": "settings",
       "label": "👤 Profile & Logo Business details and business logo",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the business profile and logo settings.",
@@ -5719,9 +5719,9 @@
     {
       "help_id": "THA-HLP-0059",
       "audit_ref": "INV-073",
-      "element_id": null,
+      "element_id": "settings",
       "label": "📘 User Guide Instructions and Contact Us",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the User Guide, which explains the main app areas, common workflows, data safety and how to contact support.",
@@ -5817,9 +5817,9 @@
     {
       "help_id": "THA-HLP-0060",
       "audit_ref": "INV-074",
-      "element_id": null,
+      "element_id": "settings",
       "label": "🔄 Software Update Check and install the latest version",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the Software Update page, which displays the installed test-build status and the update controls.",
@@ -5915,9 +5915,9 @@
     {
       "help_id": "THA-HLP-0061",
       "audit_ref": "INV-075",
-      "element_id": null,
+      "element_id": "settings",
       "label": "🛡️ Monitor & Diagnostics Activity archive, errors, data integrity and developer report",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens Monitor & Diagnostics to view build and database details, inspect the device-local activity archive, run IndexedDB checks and export diagnostic information.",
@@ -6013,9 +6013,9 @@
     {
       "help_id": "THA-HLP-0062",
       "audit_ref": "INV-076",
-      "element_id": null,
+      "element_id": "settings",
       "label": "⚠️ Factory Reset Convert approved backup and safely restore all data",
-      "status": "CONTENT_DRAFT",
+      "status": "CONTENT_COMPLETE",
       "translations": {
         "en": {
           "purpose": "Opens the Factory Reset information page, which warns that the proposed recovery process would replace the current app data with an approved legacy backup.",

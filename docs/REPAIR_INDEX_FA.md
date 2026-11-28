@@ -90,3 +90,9 @@
 - Version Authority Gate PASS on final PR head and Preview main; GitHub Pages Build, Deploy and Report Build Status PASS.
 - Contextual-help toggle is deployed for 131 completed help entries; 97 registry entries remain CONTENT_DRAFT and are not claimed as complete. THA-HLP-0072 remains deliberately inactive in Preview.
 - Status: **Deployed to Preview — awaiting iPhone Safari verification**. Production and financial/IndexedDB data unchanged.
+
+
+## R85 — Settings contextual help coverage
+- Added seven exact scoped help attachments: six Settings shortcut cards and the User Guide language selector.
+- Runtime R69; 139 publishable guide entries; 120 static bindings; 138 total attached Help IDs. THA-HLP-0072 remains deliberately inactive; 90 other registry entries remain drafts.
+- Static source audit PASS. Preview Gate, Pages deployment and iPhone Safari verification pending. Production and financial/IndexedDB data unchanged.
