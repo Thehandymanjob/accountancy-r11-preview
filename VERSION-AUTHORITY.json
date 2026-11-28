@@ -3605,7 +3605,7 @@
         "result": "PASS",
         "runId": "46168520012",
         "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46168520012",
-        "details": "Final R11 Version Authority Gate passed on Preview main merge commit 0e61b8c7f6c90b9d7ef8971fcc51bfd53e9f00a3; all 24 pinned assets and approved baseline ancestry matched."
+        "details": "Final Version Authority Gate passed on Preview main merge commit 0e61b8c7f6c90b9d7ef8971fcc51bfd53e9f00a3."
       },
       "staticChecks": {
         "result": "PASS",
@@ -3615,11 +3615,11 @@
         "result": "PASS",
         "runId": "46168519617",
         "url": "https://github.com/Thehandymanjob/accountancy-r11-preview/actions/runs/46168519617",
-        "details": "GitHub Pages build and deployment completed successfully for Preview main merge commit 0e61b8c7f6c90b9d7ef8971fcc51bfd53e9f00a3. Canonical R82 URL is recorded in app.canonicalUrl."
+        "details": "GitHub Pages build and deployment completed successfully on Preview main for merge commit 0e61b8c7f6c90b9d7ef8971fcc51bfd53e9f00a3."
       },
       "userSafariTest": {
         "result": "not tested",
-        "details": "Awaiting user's iPhone Safari verification of all four Main Menu buttons and Settings → User Guide chapter rendering."
+        "details": "User must verify the four Main Menu buttons and Settings → User Guide on iPhone Safari after Preview deployment."
       },
       "userApproval": {
         "result": "authorized for Preview repair only",
