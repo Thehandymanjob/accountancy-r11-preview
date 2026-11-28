@@ -230,21 +230,6 @@
     overlay.appendChild(card);document.body.appendChild(overlay);
     document.addEventListener('keydown',event=>{if(event.key==='Escape'&&overlay&&!overlay.hidden)closeHelp();});
   }
-  function attachStaticBindings(root){
-    const scope=root||document;
-    STATIC_BINDINGS.forEach(([helpId,selector])=>{
-      let matches=[];
-      try{
-        if(scope.nodeType===1&&scope.matches&&scope.matches(selector))matches.push(scope);
-        if(scope.querySelectorAll)matches.push(...scope.querySelectorAll(selector));
-      }catch(error){console.warn('[THA Help] Invalid selector for '+helpId,error);return;}
-      matches.forEach(element=>{
-        const current=element.getAttribute('data-help-id');
-        if(current&&current!==helpId){console.warn('[THA Help] Conflicting Help ID; not overwritten.',current,helpId);return;}
-        element.setAttribute('data-help-id',helpId);
-      });
-    });
-  }
   function syncHelpWrapper(target){
     const wrapper=target&&target.parentElement;
     if(!wrapper||!wrapper.classList.contains('tha-help-control-wrap'))return;
@@ -254,11 +239,13 @@
     }
     wrapper.hidden=hidden;
   }
-  // R68: opt-in state is isolated to one non-financial UI preference.
+  // R70: staged DOM attachment, cancellable work, and no automatic opt-in on reload.
   let helpEnabled=false;
   let activeRoots=[];
+  let activationEpoch=0;
   const activeObservers=new Map();
   const touchedRoots=new Set();
+  const pendingAttach=new Map();
   function helpIconsEnabled(){return helpEnabled;}
   function detachHelpButtons(root){
     if(!root)return;
@@ -272,8 +259,92 @@
     });
   }
   function stopObservers(){
+    activationEpoch++;
     activeObservers.forEach(observer=>observer.disconnect());
     activeObservers.clear();
+    pendingAttach.forEach(timer=>clearTimeout(timer));
+    pendingAttach.clear();
+  }
+  function attachOneHelpButton(target){
+    if(!target||!target.isConnected||target.hasAttribute('data-tha-help-trigger'))return;
+    const helpId=target.getAttribute('data-help-id'),entry=payload.entries[helpId];
+    if(!entry)return;
+    if(target.parentElement&&target.parentElement.classList.contains('tha-help-control-wrap'))return;
+    if(target.dataset.thaHelpWrapped==='true')return;
+    const parent=target.parentNode;if(!parent)return;
+    const wrapper=document.createElement('span');wrapper.className='tha-help-control-wrap';
+    wrapper.setAttribute('data-tha-help-wrap',helpId);
+    parent.insertBefore(wrapper,target);wrapper.appendChild(target);
+    target.dataset.thaHelpWrapped='true';
+    const trigger=document.createElement('button');trigger.type='button';trigger.className='tha-help-trigger';
+    trigger.setAttribute('data-tha-help-trigger','true');trigger.textContent='?';
+    const isPersian=selectedLanguage()==='fa';
+    trigger.setAttribute('aria-label',(isPersian?'راهنمای ':'Help for ')+(entry.label||helpId));
+    trigger.title=(isPersian?'نمایش راهنمای ':'Open help for ')+(entry.label||helpId);
+    trigger.addEventListener('click',event=>{event.preventDefault();event.stopPropagation();openHelp(helpId);});
+    wrapper.appendChild(trigger);
+    syncHelpWrapper(target);
+  }
+  function queueAttach(root,epoch){
+    if(!root||!helpEnabled||epoch!==activationEpoch||!root.isConnected||pendingAttach.has(root))return;
+    let bindingIndex=0,targets=null,targetIndex=0;
+    const run=()=>{
+      pendingAttach.delete(root);
+      if(!helpEnabled||epoch!==activationEpoch||!root.isConnected)return;
+      // Limit selector work per task so the browser can paint and process input.
+      let processed=0;
+      while(bindingIndex<STATIC_BINDINGS.length&&processed<4){
+        const [helpId,selector]=STATIC_BINDINGS[bindingIndex++];
+        let matches=[];
+        try{
+          if(root.matches&&root.matches(selector))matches.push(root);
+          if(root.querySelectorAll)matches.push(...root.querySelectorAll(selector));
+        }catch(error){console.warn('[THA Help] Invalid selector for '+helpId,error);processed++;continue;}
+        matches.forEach(element=>{
+          const current=element.getAttribute('data-help-id');
+          if(current&&current!==helpId){console.warn('[THA Help] Conflicting Help ID; not overwritten.',current,helpId);return;}
+          element.setAttribute('data-help-id',helpId);
+        });
+        processed++;
+      }
+      if(bindingIndex<STATIC_BINDINGS.length){
+        pendingAttach.set(root,setTimeout(run,0));return;
+      }
+      if(!targets){
+        targets=[];
+        if(root.matches&&root.matches('[data-help-id]'))targets.push(root);
+        if(root.querySelectorAll)targets=targets.concat(Array.from(root.querySelectorAll('[data-help-id]')));
+      }
+      const end=Math.min(targetIndex+20,targets.length);
+      for(;targetIndex<end;targetIndex++)attachOneHelpButton(targets[targetIndex]);
+      if(targetIndex<targets.length){pendingAttach.set(root,setTimeout(run,0));return;}
+      pendingAttach.delete(root);
+    };
+    pendingAttach.set(root,setTimeout(run,0));
+  }
+  function activateRoots(roots){
+    activeRoots=[...new Set((roots||[]).filter(root=>root&&root.nodeType===1&&root.isConnected))];
+    if(!helpEnabled)return;
+    stopObservers();
+    const epoch=activationEpoch;
+    activeRoots.forEach(root=>{
+      touchedRoots.add(root);
+      if(typeof MutationObserver==='function'){
+        const observer=new MutationObserver(records=>{
+          const hasAppChanges=records.some(record=>Array.from(record.addedNodes||[]).some(node=>{
+            if(node.nodeType!==1)return false;
+            if(node.classList&&node.classList.contains('tha-help-control-wrap'))return false;
+            if(node.classList&&node.classList.contains('tha-help-trigger'))return false;
+            if(node.hasAttribute('data-help-id')&&node.parentElement&&node.parentElement.classList.contains('tha-help-control-wrap'))return false;
+            return true;
+          }));
+          if(hasAppChanges&&helpEnabled&&epoch===activationEpoch)queueAttach(root,epoch);
+        });
+        observer.observe(root,{childList:true,subtree:true});
+        activeObservers.set(root,observer);
+      }
+      queueAttach(root,epoch);
+    });
   }
   function setHelpIconsEnabled(value){
     helpEnabled=!!value;
@@ -287,52 +358,6 @@
       touchedRoots.clear();
     }
     return helpEnabled;
-  }
-  function attachHelpButtons(root){
-    if(!helpIconsEnabled())return;
-    const scope=root||document,targets=[];
-    if(scope.nodeType===1&&scope.matches&&scope.matches('[data-help-id]'))targets.push(scope);
-    if(scope.querySelectorAll)targets.push(...scope.querySelectorAll('[data-help-id]'));
-    targets.forEach(target=>{
-      if(!target.isConnected||target.hasAttribute('data-tha-help-trigger'))return;
-      const helpId=target.getAttribute('data-help-id'),entry=payload.entries[helpId];
-      if(!entry)return;
-      if(target.parentElement&&target.parentElement.classList.contains('tha-help-control-wrap'))return;
-      if(target.dataset.thaHelpWrapped==='true')return;
-      const parent=target.parentNode;if(!parent)return;
-      const wrapper=document.createElement('span');wrapper.className='tha-help-control-wrap';
-      wrapper.setAttribute('data-tha-help-wrap',helpId);
-      parent.insertBefore(wrapper,target);wrapper.appendChild(target);
-      target.dataset.thaHelpWrapped='true';
-      const trigger=document.createElement('button');trigger.type='button';trigger.className='tha-help-trigger';
-      trigger.setAttribute('data-tha-help-trigger','true');trigger.textContent='?';
-      const isPersian=selectedLanguage()==='fa';
-      trigger.setAttribute('aria-label',(isPersian?'راهنمای ':'Help for ')+(entry.label||helpId));
-      trigger.title=(isPersian?'نمایش راهنمای ':'Open help for ')+(entry.label||helpId);
-      trigger.addEventListener('click',event=>{event.preventDefault();event.stopPropagation();openHelp(helpId);});
-      wrapper.appendChild(trigger);
-      syncHelpWrapper(target);
-    });
-  }
-  function attachAll(root){if(!helpIconsEnabled()||!root)return;attachStaticBindings(root);attachHelpButtons(root);}
-  function activateRoots(roots){
-    activeRoots=[...new Set((roots||[]).filter(root=>root&&root.nodeType===1&&root.isConnected))];
-    if(!helpEnabled)return;
-    stopObservers();
-    activeRoots.forEach(root=>{
-      touchedRoots.add(root);
-      attachAll(root);
-      if(typeof MutationObserver!=='function')return;
-      const observer=new MutationObserver(records=>{
-        const hasAppChanges=records.some(record=>Array.from(record.addedNodes||[]).some(node=>
-          node.nodeType===1&&!(node.classList&&node.classList.contains('tha-help-control-wrap'))&&
-          !(node.classList&&node.classList.contains('tha-help-trigger'))));
-        if(!hasAppChanges||!helpEnabled)return;
-        Promise.resolve().then(()=>{if(helpEnabled&&root.isConnected)attachAll(root);});
-      });
-      observer.observe(root,{childList:true,subtree:true});
-      activeObservers.set(root,observer);
-    });
   }
   function wrapGlobal(name,after){
     const original=window[name];
@@ -348,7 +373,7 @@
   function initialise(){
     createInterface();
     const control=document.getElementById('thaHelpIconsEnabled');
-    try{helpEnabled=window.localStorage.getItem('thaHelpIconsEnabled')==='true';}catch(_){helpEnabled=false;}
+    // Safety: a previously saved opt-in must never reactivate the global DOM scanner on page load.\n    helpEnabled=false;\n    try{window.localStorage.setItem('thaHelpIconsEnabled','false');}catch(_){}
     if(control){
       control.checked=helpEnabled;control.disabled=false;control.removeAttribute('aria-disabled');
       control.addEventListener('change',()=>setHelpIconsEnabled(control.checked));
@@ -368,12 +393,12 @@
     wrapGlobal('returnToLauncher',()=>activateRoots([document.getElementById('appLauncher')]));
     wrapGlobal('closeProjectsApp',()=>activateRoots([document.getElementById('appLauncher')]));
     wrapGlobal('closeContractsApp',()=>activateRoots([document.getElementById('appLauncher')]));
-    if(helpEnabled)activateRoots([document.getElementById('appLauncher')]);
+    // Contextual Help remains off after every reload until the user explicitly enables it.
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initialise,{once:true});
   else initialise();
   window.THAHelpRuntime=Object.freeze({
-    version:'R69',open:openHelp,openFullGuide,attach:activateRoots,setEnabled:setHelpIconsEnabled,isEnabled:helpIconsEnabled,
+    version:'R70',open:openHelp,openFullGuide,attach:activateRoots,setEnabled:setHelpIconsEnabled,isEnabled:helpIconsEnabled,
     getLastHelpId:()=>lastHelpId,getPublishableCount:()=>Object.keys(payload.entries).length
   });
 })();
