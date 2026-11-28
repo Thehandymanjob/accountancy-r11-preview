@@ -6,9 +6,9 @@
   "app": {
     "path": "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
     "version": "273",
-    "buildId": "THA-273-R11-PREVIEW-20261128-R75",
-    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R75",
-    "indexBlobSha": "a76d30ef56a2d400bb9d38ce4e4272f792ac3d64",
+    "buildId": "THA-273-R11-PREVIEW-20261128-R76",
+    "canonicalUrl": "https://thehandymanjob.github.io/accountancy-r11-preview/v273-isolated-test/r11-income-prefix-repair-20261114/?build=R76",
+    "indexBlobSha": "3572fff7387ed2ce9f9fc92a6626390d5df63c34",
     "approvedBaseCommitSha": "6e335a7c84fdf4b372c9fe5d07276b6e40df9b88",
     "files": {
       "v273-isolated-test/v264-fresh/app-storage-v264.js": "821097eb15cc5bfd4d3be658699873b11de40f4d",
@@ -48,7 +48,7 @@
     "stopOnAnyMismatch": true,
     "doNotChangeCanonicalUrls": true
   },
-  "note": "Preview R75 completes the English and Persian User Guide chapter 11, Settings, Profile and Software Update, against the current Main Menu, Settings shortcuts, business profile form, User Guide language selector, disabled test-build updater, Monitor & Diagnostics and guarded Factory Reset workflow. The chapter corrects the Settings entry path to the Main Menu and explains that Contact Us saves a local draft only. Only the English and Persian chapter 11 text and R75 identity metadata changed; all other language content and runtime dependencies remain unchanged. PR #104 remains Preview-only and Draft; Gate, Pages deployment and iPhone Safari testing are pending. No financial records, IndexedDB data or Production files were changed.",
+  "note": "Preview R76 completes the English and Persian User Guide chapter 12, Data Safety and Troubleshooting. The chapter explains browser-local IndexedDB storage, safe backup handling, Restore and Factory Reset risks, missing-record and save-failure checks, report/PDF troubleshooting, device/browser precautions, diagnostic privacy and the local-draft-only Contact Us form. Only English and Persian chapter 12 text and R76 identity metadata changed; other language content and runtime dependencies remain unchanged. PR #104 remains Preview-only and Draft; final Gate, Preview Pages deployment and iPhone Safari testing are pending. No financial records, IndexedDB data or Production files were changed.",
   "operatingProcedure": {
     "purpose": "Mandatory operating procedure for every future R11 application change. Read and follow this section before any repository or app modification.",
     "repositoryRoles": {
@@ -3335,6 +3335,47 @@
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
       "productionCommitSha": "not applicable"
+    },
+    {
+      "changeId": "HELP-GUIDE-2026-11-28-CHAPTER-12-R76",
+      "dateStarted": "2026-11-28",
+      "purpose": "Complete User Guide chapter 12, Data Safety and Troubleshooting, in English and Persian without changing other languages or application runtime behavior.",
+      "changedFiles": [
+        "v273-isolated-test/r11-income-prefix-repair-20261114/index.html",
+        "VERSION-AUTHORITY.json",
+        "docs/REPAIR_HISTORY_FA.md",
+        "docs/REPAIR_INDEX_FA.md"
+      ],
+      "previewDevelopmentCommitSha": "98e9d926d567272b8343cb607dd4f98fbefba36e",
+      "previewPullRequestNumber": 104,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104",
+      "previewMergeCommitSha": "pending",
+      "versionAuthorityGate": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending"
+      },
+      "staticChecks": {
+        "result": "PASS",
+        "details": "English and Persian chapter 12 content assertions and R76 app identity metadata were verified in the changed index. No independent V8 parse of all inline JavaScript blocks has been run."
+      },
+      "previewPagesDeployment": {
+        "result": "pending",
+        "runId": "pending",
+        "url": "pending",
+        "details": "Awaiting final Version Authority Gate and explicit Preview review; deployment has not been performed."
+      },
+      "userSafariTest": {
+        "result": "not tested",
+        "details": "Awaiting user test on iPhone Safari after an approved Preview Pages deployment."
+      },
+      "userApproval": {
+        "result": "pending",
+        "details": "Awaiting complete 12-chapter Preview review and user iPhone Safari test."
+      },
+      "productionPromotionStatus": "pending",
+      "productionPullRequestUrl": "pending",
+      "productionCommitSha": "pending"
     }
   ],
   "history": [
