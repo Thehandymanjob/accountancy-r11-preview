@@ -844,7 +844,7 @@
 - SHA فایل index و pin Authority: `72570659423504907463f336246af0a8b177cdb3`.
 - Commit ثبت Authority: `0e60591e1c5b0107004d4e0822f8345fd20054b3`.
 - PR: ادامه PR شماره 104؛ `https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104`.
-- تست ایستا، Version Authority Gate، Preview Deploy و iPhone Safari: در انتظار اجرای تست‌های R72؛ نتایج R71 جایگزین این بررسی‌ها نیستند.
+- تست ایستا: PASS؛ هر ۸ بلوک inline JavaScript با V8 کامپایل شدند؛ متن فصل هشتم EN/FA، مسیر Settings → User Guide، وضعیت غیرفعال updater، هشدار Factory Reset، شناسه R72 و URL بررسی شدند؛ ۹ زبان دیگر با سورس R71 تطبیق داده شدند و بدون تغییر ماندند. Version Authority Gate: PASS؛ run `46131912026` روی PR head `89890a0bc3d0b53b22fccef77a8e6df5ad5e1610`؛ ancestry و هر ۲۴ SHA پین‌شده تأیید شدند. Preview Pages Deploy و iPhone Safari هنوز انجام نشده‌اند.
 - Production: بدون تغییر و ارتقا مجاز نیست.
 - وضعیت راهنما: هشت فصل از ۱۲ فصل انگلیسی و فارسی تکمیل شده‌اند؛ چهار فصل باقی مانده است. سایر زبان‌ها دست‌نخورده باقی مانده‌اند.
 
