@@ -806,6 +806,27 @@
 - **iPhone Safari:** تست R67 انجام نشده است. پس از انتشار مجاز باید بارگذاری اولیه، بازشدن Settings، وجود تنها یک User Guide، تغییر و ماندگاری زبان، عملکرد Back و پاسخ‌گویی دکمه‌های اصلی بررسی شوند. Help Icons در این مرحله باید غیرفعال بمانند.
 - **Production و داده‌ها:** Production بدون تغییر؛ هیچ عملیات روی IndexedDB، Backup یا داده‌های حسابداری اجرا نشده است. ارتقا به Production مجاز نیست.
 
+
+#### بازنگری R71 — تکمیل فصل هفتم Monitor & Diagnostics
+
+- تاریخ: 2026-11-28
+- نوع تغییر: ادامه پرونده HELP-GUIDE-001؛ شناسه جدید ایجاد نشد.
+- فصل: `Monitor and Diagnostics` به انگلیسی و `پایش و عیب‌یابی (Monitor & Diagnostics)` به فارسی.
+- محتوای تکمیل‌شده: بررسی نسخه و Build ID؛ بازکردن و فیلترکردن Activity archive؛ شرح Run Local Self-check، Full Storage Audit (Read-only)، Compare Accounting Storage (Read-only)، خروجی JSON و CSV؛ محدودیت معنایی نتیجه PASS؛ حفاظت از فایل‌های تشخیصی؛ و مراحل ایمن هنگام مشاهده خطا.
+- تفکیک ایمنی: توضیح داده شد که Test IndexedDB Storage برخلاف گزینه‌های Read-only یک نوشتن/خواندن/فهرست‌کردن کلیدها/حذف موقت انجام می‌دهد. راهنما توصیه می‌کند این آزمون صرفاً برای مشاهده یا عیب‌یابی معمول اجرا نشود. هیچ آزمون IndexedDB در این تغییر اجرا نشد.
+- اصلاح محتوایی: هشدار داده شد که PASS فقط آزمون‌های اجراشده را پوشش می‌دهد و صحت همه صفحات، محاسبات یا رکوردها را تضمین نمی‌کند. گزارش‌ها و Activity export ممکن است اطلاعات تجاری/عملیاتی داشته باشند و باید پیش از اشتراک‌گذاری بررسی شوند.
+- محدوده تغییر: فقط متن فصل User Guide، Build ID و SHAهای Authority و مستندات تاریخچه؛ هیچ منطق حسابداری، محاسبه، ساختار ذخیره‌سازی، رکورد مالی، IndexedDB، LocalStorage، Backup یا Restore تغییر نکرد.
+- Build ID: `THA-273-R11-PREVIEW-20261128-R71`.
+- Commit محتوای فصل: `5a721f6661818ad9c118e368406ff5c432baddc5`.
+- Commit تغییر Build ID: `6b6e4b24e80f9465288478bd2af84b2e397e49bb`.
+- SHA فایل index و pin Authority: `51c572399a0344e8d7155712547f4f16f1ce64cd`.
+- Commit ثبت Authority: `9a072cebabf0d5bb2266154788ce07314af2b3a5`.
+- PR: ادامه PR شماره 104؛ `https://github.com/Thehandymanjob/accountancy-r11-preview/pull/104`.
+- تست ایستا و Gate: در انتظار اجرای مجدد روی head جدید R71؛ Gate قبلی R70 برای این تغییر مدرک محسوب نمی‌شود.
+- Preview Pages / iPhone Safari: انجام نشده؛ نیازمند Gate موفق، انتشار مجاز و سپس تست واقعی کاربر است.
+- Production: بدون تغییر و ارتقا مجاز نیست.
+- وضعیت راهنما: هفت فصل از ۱۲ فصل انگلیسی و فارسی تکمیل شده‌اند؛ پنج فصل باقی مانده است. سایر زبان‌ها دست‌نخورده باقی مانده‌اند.
+
 ### SEC-RESET-001 — گردش‌کار Factory Reset ناقص است و دکمه نهایی زودهنگام فعال می‌شود
 
 - **شناسه / تاریخ / وضعیت:** SEC-RESET-001 / 2026-11-27 / Implemented on Preview development; the latest R45 Version Authority Gate passed after native-HTML fail-closed hardening (run 46053038295). Pages deployment and iPhone Safari verification remain pending.
