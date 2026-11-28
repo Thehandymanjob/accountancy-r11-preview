@@ -2928,9 +2928,9 @@
         "docs/REPAIR_HISTORY_FA.md",
         "VERSION-AUTHORITY.json"
       ],
-      "previewDevelopmentCommitSha": "61f95eeab74fa29af20e2f2f87255b8e12acb071",
-      "previewPullRequestNumber": "pending",
-      "previewPullRequestUrl": "pending",
+      "previewDevelopmentCommitSha": "2ec202c027668cf4b1daa326dc27b3447ddd03fb",
+      "previewPullRequestNumber": 101,
+      "previewPullRequestUrl": "https://github.com/Thehandymanjob/accountancy-r11-preview/pull/101",
       "previewMergeCommitSha": "pending",
       "branchSynchronization": {
         "result": "PASS",
@@ -2941,7 +2941,7 @@
         "result": "pending",
         "runId": "pending",
         "url": "pending",
-        "details": "Awaiting the PR-triggered R11 Version Authority Gate after final manifest pins."
+        "details": "PR #101 opened as Draft; awaiting the pull-request Version Authority Gate on the final synchronized head."
       },
       "staticChecks": {
         "result": "PASS",
@@ -2958,8 +2958,8 @@
         "details": "The user reported a complete lockup on R66. R67 iPhone Safari checks remain pending after an authorized Preview deployment."
       },
       "userApproval": {
-        "result": "authorized for Preview development repair and PR preparation only",
-        "details": "User selected the permanent development-branch workflow. This does not authorize merging/deploying to Preview or promoting to Production."
+        "result": "authorized for Preview development repair and Draft PR preparation only",
+        "details": "User selected the permanent development-branch workflow. Merge and Preview deployment require explicit authorization; Production promotion is not authorized."
       },
       "productionPromotionStatus": "not authorized",
       "productionPullRequestUrl": "not applicable",
